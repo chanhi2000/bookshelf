@@ -444,7 +444,3 @@ In this article, we have enabled the communication between the Angular applicati
 Of course, we are not going to display the 404 page after successful login action, and that’s something we are going to handle in the next article. There, we will learn [about the authentication actions, how to create required routes and components, and how to execute the logout actions as well](/code-maze.com/angular-authentication-actions-with-identityserver4.md).
 
 So, see you there.
-
----
-
-<TagLinks />

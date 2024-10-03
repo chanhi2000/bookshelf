@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/efcore-relationships/banner.png
   preview="/assets/image/code-maze.com/efcore-relationships/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

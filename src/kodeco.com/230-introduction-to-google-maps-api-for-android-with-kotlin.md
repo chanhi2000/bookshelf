@@ -1063,8 +1063,5 @@ fab.setOnClickListener {
 }
 ```
 
----
-
-<TagLinks />
 
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2018/01/cityguide-final-1.zip

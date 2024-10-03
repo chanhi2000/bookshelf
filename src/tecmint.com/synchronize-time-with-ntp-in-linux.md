@@ -78,7 +78,3 @@ cover: https://tecmint.com/wp-content/uploads/2018/04/Synchronize-Time-with-NTP-
   preview="https://tecmint.com/wp-content/uploads/2018/04/Synchronize-Time-with-NTP-in-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -115,7 +115,3 @@ Select an element in the **Elements** panel, then click the <FontIcon icon="icon
 
 :::
 
-
----
-
-<TagLinks />

@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/user-registration-angular-aspnet-identity/ban
   preview="/assets/image/code-maze.com/user-registration-angular-aspnet-identity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

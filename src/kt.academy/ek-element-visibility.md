@@ -48,7 +48,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2FEffe
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2FEffectiveKotlin-Book%2Fpromotion%2Felement_visibility.jpg&w=640&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

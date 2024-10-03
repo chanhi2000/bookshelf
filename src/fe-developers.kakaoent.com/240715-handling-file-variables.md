@@ -683,7 +683,3 @@ export function someComponent() {
   logo="https://hacks.mozilla.org/favicon.ico"
   preview="https://hacks.mozilla.org/wp-content/uploads/2018/03/08_loader_as_puppeteer_2.png"/>
 
-
----
-
-<TagLinks />

@@ -469,7 +469,3 @@ In this article, we’ve gone through some basic concepts of ASP.NET Core applic
 
 We still haven’t touched upon the [options pattern](/code-maze.com/aspnet-configuration-options.md) or [configuration providers](/code-maze.com/aspnet-configuration-providers.md), which are our next topics of this [series](/code-maze.com/net-core-series.md/#configuration).
 
-
----
-
-<TagLinks />

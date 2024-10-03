@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/aspnet-configuration-securing-sensitive-data/
   preview="/assets/image/code-maze.com/aspnet-configuration-securing-sensitive-data/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

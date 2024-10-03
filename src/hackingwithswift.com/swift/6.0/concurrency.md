@@ -57,7 +57,7 @@ Swift 6 improves concurrency checking further, and the Swift team say it "remove
 
 Easily the biggest is [SE-0414 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0414-region-based-isolation.md), which defines isolation regions that allow the compiler to conclusively prove different parts of your code can run concurrently.
 
-At the core of this change lies the existing concept of *sendability*. A `Sendable` type is one that can be safely passed around in a concurrent environment, which can include value types such as structs, final classes with constant properties, actors that automatically protect their own mutable state, and more. 
+At the core of this change lies the existing concept of *sendability*. A `Sendable` type is one that can be safely passed around in a concurrent environment, which can include value types such as structs, final classes with constant properties, actors that automatically protect their own mutable state, and more.
 
 Before Swift 6 the compiler was very strict: if you had a non-sendable value on one actor and tried to send it to another actor, you'd get concurrency checking warnings. For example, although SwiftUI view bodies run on the main actor, SwiftUI views themselves *don't*, which can easily cause all sorts of false positive warnings from the compiler – Swift thinks there's a potential race condition when really there isn't.
 

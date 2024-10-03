@@ -63,7 +63,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/06/Use-next-Command-with-Awk-
   preview="https://tecmint.com/wp-content/uploads/2016/06/Use-next-Command-with-Awk-in-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -80,7 +80,3 @@ cover: https://tecmint.com/wp-content/uploads/2020/07/Create-Nginx-Server-Blocks
   preview="https://tecmint.com/wp-content/uploads/2020/07/Create-Nginx-Server-Blocks-in-CentOS.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

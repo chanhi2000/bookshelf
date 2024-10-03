@@ -54,7 +54,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ima
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/image-3.png?w=1792&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

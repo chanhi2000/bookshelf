@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-components/banner.png
   preview="/assets/image/code-maze.com/blazor-components/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

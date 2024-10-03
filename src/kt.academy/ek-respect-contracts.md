@@ -118,7 +118,3 @@ In this case, the violated contract is that `hashCode` implementation should be 
 ## Summary
 
 If you want your programs to be stable, respect contracts. If you are forced to break them, document this fact well. Such information will be very helpful to whoever maintains your code, even if that’s just you in a few years’ time.
-
----
-
-<TagLinks />

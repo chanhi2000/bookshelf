@@ -50,7 +50,3 @@ cover: https://assets.digitalocean.com/articles/68408/node_green_tutorial.png
   preview="https://assets.digitalocean.com/articles/68408/node_green_tutorial.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

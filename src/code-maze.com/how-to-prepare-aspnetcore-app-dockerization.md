@@ -49,7 +49,3 @@ cover: /assets/image/code-maze.com/how-to-prepare-aspnetcore-app-dockerization/b
   preview="/assets/image/code-maze.com/how-to-prepare-aspnetcore-app-dockerization/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

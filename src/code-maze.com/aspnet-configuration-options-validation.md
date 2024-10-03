@@ -362,7 +362,3 @@ Great! We’ve learned how to validate our configuration in several different wa
 In this article, we’ve covered options validation in three different ways. The first way is by using DataAnnotations, which is a common way of validating fields in ASP.NET Core, we’ve seen how to configure it by using delegates, and finally, we’ve learned how to use `IValidateOptions` to validate complex scenarios and clean up our code.
 
 In the next part, we’re going to learn more about different [configuration providers](/code-maze.com/aspnet-configuration-providers.md), and you can find other parts of this series on the [ASP.NET Core Web API page](/code-maze.com/net-core-series.md#configuration).
-
----
-
-<TagLinks />

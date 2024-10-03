@@ -51,7 +51,3 @@ cover: https://static.learnk8s.io/0498c77a1b646af0f3fc42a03f0171fb.svg
   preview="https://static.learnk8s.io/0498c77a1b646af0f3fc42a03f0171fb.svg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -262,7 +262,3 @@ Personally, we would love the pipe operator to be implemented and rolled out thi
 ## Conclusion
 
 So what do you think? What would you like to see added to the spec this year? All these features will make great additions to JavaScript, so fingers crossed they'll make it in this year!
-
----
-
-<TagLinks />

@@ -65,7 +65,3 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/Clifm-Terminal-File-Manage
   preview="https://tecmint.com/wp-content/uploads/2024/08/Clifm-Terminal-File-Manager-for-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

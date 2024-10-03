@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-generic-list-dictionary/banner.png
   preview="/assets/image/csharp-generic-list-dictionary/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -218,8 +218,5 @@ There are a ton of possibilities with accessibility features. This tutorial only
 
 If you have any comments or questions, please join the discussion below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/02/Recipe.zip

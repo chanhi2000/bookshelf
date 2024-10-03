@@ -247,7 +247,3 @@ Furthermore, we should use the Adapter when we want to reuse existing classes fr
 ## Conclusion
 
 The Adapter pattern is pretty common in the C# world and it is quite used when we have to adapt some existing classes to a new interface. It can increase a code complexity by adding additional classes (adapters) but it is worth an effort for sure.
-
----
-
-<TagLinks />

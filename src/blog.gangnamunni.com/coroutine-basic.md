@@ -425,7 +425,3 @@ RxJava와 coroutine의 차이점에 대하여도 분석하는것도 추천드립
   url="https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html"
   logo="https://kotlinlang.org/assets/images/favicon.svg?v2"
   preview="https://kotlinlang.org/assets/images/open-graph/docs.png"/>
-
----
-
-<TagLinks />

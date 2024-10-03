@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/grpc-introduction-aspnetcore/banner.png
   preview="/assets/image/code-maze.com/grpc-introduction-aspnetcore/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -226,7 +226,3 @@ class StatusTrackingService {
 ```
 
 To sum up, StateFlow and SharedFlow are similar, but they are designed for different use cases. StateFlow is for representing observable state, and SharedFlow is for broadcasting events. Use them accordingly.
-
----
-
-<TagLinks />

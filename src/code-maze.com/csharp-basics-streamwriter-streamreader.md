@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-basics-streamwriter-streamreaders/bann
   preview="/assets/image/code-maze.com/csharp-basics-streamwriter-streamreaders/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

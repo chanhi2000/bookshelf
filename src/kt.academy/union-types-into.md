@@ -182,7 +182,3 @@ I wondered, why "union types with errors", and not "exceptions", "throwables" or
 ## Conclusion
 
 Union types with errors are a very smart move. They offer a lot of expressiveness without introducing the complexity of full union types. They are a perfect fit for representing either a result or a failure.
-
----
-
-<TagLinks />

@@ -61,7 +61,3 @@ cover: /assets/image/code-maze.com/top-docker-monitoring-tools/banner.png
   preview="/assets/image/code-maze.com/top-docker-monitoring-tools/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

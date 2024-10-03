@@ -69,7 +69,3 @@ cover: https://zuminternet.github.io/images/front/post/2020-09-11-Zum-Chrome-Ext
   preview="https://zuminternet.github.io/images/front/post/2020-09-11-Zum-Chrome-Extension/0-thumbnail.png"/>
 
 <!-- TODO:  작성 -->
-
----
-
-<TagLinks />

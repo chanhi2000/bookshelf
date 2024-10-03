@@ -442,8 +442,5 @@ You can learn more about debugging from the video course, [Beginning iOS Debuggi
 
 I hope you enjoyed this tutorial! If you have any questions or comments, please join the forum discussion below.
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/CrashGallery.zip

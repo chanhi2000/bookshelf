@@ -362,6 +362,3 @@ Abstraction은 detail에 의존하지 않아야 합니다. Detail이 abstraction
 
 감사합니다.
 
----
-
-<TagLinks />

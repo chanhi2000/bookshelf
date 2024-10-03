@@ -51,7 +51,3 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/yJ67pogiR4Ka
   preview="https://community-cdn-digitalocean-com.global.ssl.fastly.net/yJ67pogiR4KaaPcxbDSWkDw1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

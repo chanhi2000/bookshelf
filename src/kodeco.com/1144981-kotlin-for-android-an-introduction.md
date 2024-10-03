@@ -54,7 +54,3 @@ cover: https://koenig-media.raywenderlich.com/uploads/2019/04/Kotlin-twitter.png
   preview="https://koenig-media.raywenderlich.com/uploads/2019/04/Kotlin-twitter.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

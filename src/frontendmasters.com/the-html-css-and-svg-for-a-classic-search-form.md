@@ -50,7 +50,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/sea
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/search-thumb.jpg?w=1000&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

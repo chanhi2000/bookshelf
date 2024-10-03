@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/system-testing-rest-api-dalsoft-restclient/ba
   preview="/assets/image/code-maze.com/system-testing-rest-api-dalsoft-restclient/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

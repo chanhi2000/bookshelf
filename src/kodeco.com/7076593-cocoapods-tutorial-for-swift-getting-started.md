@@ -493,8 +493,5 @@ There's lots more that you can do with CocoaPods. You can search for existing po
 
 I hope you enjoyed reading this CocoaPods tutorial as much I did writing it. What are some of your favorite CocoaPods? Which ones do you rely on the most for everyday projects? Feel free to share, or to ask any questions, in the comments below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/IceCreamShop-Materials-1.zip

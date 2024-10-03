@@ -63,7 +63,3 @@ cover: /assets/image/code-maze.com/continuous-deployment-from-github-to-azure-ap
   preview="/assets/image/code-maze.com/continuous-deployment-from-github-to-azure-app-service/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

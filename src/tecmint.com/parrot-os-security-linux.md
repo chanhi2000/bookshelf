@@ -56,7 +56,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Parrot-Security-OS-Install
   preview="https://tecmint.com/wp-content/uploads/2016/07/Parrot-Security-OS-Installation.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

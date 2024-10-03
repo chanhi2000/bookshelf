@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-linear-structures-input-output/banner.
   preview="/assets/image/code-maze.com/csharp-linear-structures-input-output/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

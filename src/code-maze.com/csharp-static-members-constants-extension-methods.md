@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-static-members-constants-extension-met
   preview="/assets/image/code-maze.com/csharp-static-members-constants-extension-methods/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

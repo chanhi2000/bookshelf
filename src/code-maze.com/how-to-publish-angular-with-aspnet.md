@@ -68,7 +68,3 @@ cover: /assets/image/code-maze.com/how-to-publish-angular-with-aspnet/banner.png
   preview="/assets/image/code-maze.com/how-to-publish-angular-with-aspnet/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -74,7 +74,3 @@ isOriginal: false
 - [Take screenshots of your site in a device frame](https://devtoolstips.org/tips/en/take-in-device-screenshots) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

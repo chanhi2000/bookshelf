@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/refresh-token-with-blazor-webassembly-and-asp
   preview="/assets/image/code-maze.com/refresh-token-with-blazor-webassembly-and-asp-net-core-web-api/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

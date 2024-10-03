@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/owasp-top-10-injection/banner.png
   preview="/assets/image/code-maze.com/owasp-top-10-injection/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

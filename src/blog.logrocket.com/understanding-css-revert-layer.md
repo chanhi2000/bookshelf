@@ -449,7 +449,3 @@ You should first test it with your preferred browser to see if it is supported t
 ## Conclusion
 
 We have seen how `revert-layer` works and how to use it. Understanding `revert-layer` and its potential use cases or applications can empower developers to leverage their capabilities effectively in projects where browser compatibility allows.
-
----
-
-<TagLinks />

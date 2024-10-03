@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/different-ways-consume-restful-api-csharp/ban
   preview="/assets/image/code-maze.com/different-ways-consume-restful-api-csharp/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

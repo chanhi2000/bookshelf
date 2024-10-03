@@ -69,7 +69,3 @@ cover: https://tecmint.com/wp-content/uploads/2021/04/Configure-FirewallD-in-RHE
   preview="https://tecmint.com/wp-content/uploads/2021/04/Configure-FirewallD-in-RHEL-Rocky-AlmaLinux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -46,7 +46,3 @@ cover: https://fe-developers.kakaoent.com/static/b93b875ffa68211768dd34073b4f52f
   url="https://fe-developers.kakaoent.com/2023/230816-backstopjs-vrt2/"
   logo="https://fe-developers.kakaoent.com/favicon-32x32.png?v=44803cb16c1e2debd3984cf2e8cb2ded"
   preview="https://fe-developers.kakaoent.com/static/b93b875ffa68211768dd34073b4f52fb/afa5c/thumbnail.png"/>
-
----
-
-<TagLinks />

@@ -68,7 +68,3 @@ cover: /assets/image/code-maze.com/role-based-access-control-angular-identityser
   preview="/assets/image/code-maze.com/role-based-access-control-angular-identityserver4/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

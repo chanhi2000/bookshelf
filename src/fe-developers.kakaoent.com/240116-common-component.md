@@ -52,7 +52,3 @@ cover: https://fe-developers.kakaoent.com/static/1bda93dd1dec2e1e487f886194b4a9d
   preview="https://fe-developers.kakaoent.com/static/1bda93dd1dec2e1e487f886194b4a9d9/e6fe1/thumbnail.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

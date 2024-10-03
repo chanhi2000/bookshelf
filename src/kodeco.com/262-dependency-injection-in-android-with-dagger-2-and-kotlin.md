@@ -345,9 +345,6 @@ There are many great resources out there on the interwebs to dive into these top
 
 If you have any questions or comments, please join the discussion below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2017/12/droidwiki-starter.zip
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2017/12/droidwiki-final.zip

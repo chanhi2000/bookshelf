@@ -133,7 +133,3 @@ Supported features include:
 ```
 
 :::
-
----
-
-<TagLinks />

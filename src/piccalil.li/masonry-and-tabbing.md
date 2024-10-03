@@ -48,7 +48,3 @@ cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/fe191d2f680cf1fd73f795740e9aa86
   preview="https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/fe191d2f680cf1fd73f795740e9aa8617d79f3c71028674745c49099b2f911a9/png?url=https://piccalil.li/og/masonry-and-tabbing/&width=1024&height=526&retina=true"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

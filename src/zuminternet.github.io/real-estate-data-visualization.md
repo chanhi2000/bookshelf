@@ -55,7 +55,3 @@ cover: https://zuminternet.github.io/images/front/post/2023-05-18-real-estate-da
   preview="https://zuminternet.github.io/images/front/post/2023-05-18-real-estate-data-visualization/thumbnail.png"/>
 
 <!-- TODO:  작성 -->
-
----
-
-<TagLinks />

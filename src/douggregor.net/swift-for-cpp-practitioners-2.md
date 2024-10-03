@@ -487,7 +487,3 @@ We dove into Swift's support for Object-Oriented Programming, which is based on 
 That led us into the world of optionals, and how Swift uses them to eliminate NULL pointers from the language (Tony Hoare's self-proclaimed [<FontIcon icon="fas fa-globe"/>billion-dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)). Optionals are a huge part of working with Swift, even if you stick to the value-semantic world of structs and enums, so it's worth getting a feel for the syntactic constructs that make them easy to work with.
 
 We're going to take a break on introducing new kinds of types: structs, enums, and classes form the core of Swift's semantic model. Next, we're going to talk a bit about code organization in Swift, and how extensions take all of the fun out of the "free function or member function?" debate.
-
----
-
-<TagLinks />

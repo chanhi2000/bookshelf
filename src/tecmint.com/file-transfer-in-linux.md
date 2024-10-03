@@ -63,7 +63,3 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/File-Transfer-in-Linux.png
   preview="https://tecmint.com/wp-content/uploads/2024/08/File-Transfer-in-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

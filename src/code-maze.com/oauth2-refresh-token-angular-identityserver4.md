@@ -68,7 +68,3 @@ cover: /assets/image/code-maze.com/oauth2-refresh-token-angular-identityserver4/
   preview="/assets/image/code-maze.com/oauth2-refresh-token-angular-identityserver4/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

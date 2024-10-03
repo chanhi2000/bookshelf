@@ -741,9 +741,6 @@ There is a lot more to learn and do with Android Wear! If you’re interested in
 
 If you have any questions, or just want to share your favorite food puns, join the discussion below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2017/11/WEARSmyrecipe-Starter-1.zip
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2017/12/WEARSmyrecipe-Finish.zip

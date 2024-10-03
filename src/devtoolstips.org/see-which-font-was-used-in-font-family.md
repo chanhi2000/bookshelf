@@ -70,7 +70,3 @@ isOriginal: false
 - [Convert font property units](https://devtoolstips.org/tips/en/convert-font-units) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

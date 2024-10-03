@@ -52,7 +52,3 @@ cover: https://cdn.shopify.com/s/files/1/0779/4361/articles/Shop_Eng_Blog_Header
   preview="https://cdn.shopify.com/s/files/1/0779/4361/articles/Shop_Eng_Blog_Header_3.png?format=webp&v=1618518074&width=1024"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

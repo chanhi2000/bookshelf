@@ -53,7 +53,3 @@ cover: https://tech.inflab.com/og-image/20240227-finops-for-startup/index.png
   preview="https://tech.inflab.com/og-image/20240227-finops-for-startup/index.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

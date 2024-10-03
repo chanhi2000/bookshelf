@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/visual-studio-productivity/banner.png
   preview="/assets/image/visual-studio-productivity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

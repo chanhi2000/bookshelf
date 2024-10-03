@@ -49,7 +49,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fadva
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fadvanced-kotlin-book%2Fpromotion%2F13_static_analysis.jpg&w=1080&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

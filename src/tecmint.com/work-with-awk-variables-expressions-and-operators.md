@@ -63,7 +63,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Variables-Numeri
   preview="https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Variables-Numeric-Expressions-Assignment-Operators.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

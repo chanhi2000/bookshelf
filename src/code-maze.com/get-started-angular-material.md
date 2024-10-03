@@ -66,7 +66,3 @@ cover: /assets/image/code-maze.com/get-started-angular-material/banner.png
   preview="/assets/image/get-started-angular-material/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

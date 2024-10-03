@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/composite/banner.png
   preview="/assets/image/composite/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

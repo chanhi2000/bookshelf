@@ -821,9 +821,6 @@ I hope you enjoyed this Intermediate RecyclerView tutorial, and if you have any 
 
 Go forward and make great animated `RecyclerViews`!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2017/12/marsrovers-starter-1.zip
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2017/12/marsrovers-final-1.zip

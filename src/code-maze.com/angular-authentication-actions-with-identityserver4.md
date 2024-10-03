@@ -313,7 +313,3 @@ Excellent job.
 Now, we know how to create Login action with Angular and IdentityServer4 and what components we require to do so. Similarly, we have learned how to create a Logout action and what components it requires for the redirection purpose. Finally, we have inspected the id token and the access token to verify all the information they consist of.
 
 In the next article, we are going to learn about [using the access token to secure communication between the Angular application and Web API](/code-maze.com/secure-angular-calls-to-webapi-using-access-token.md).
-
----
-
-<TagLinks />

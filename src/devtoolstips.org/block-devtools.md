@@ -130,7 +130,3 @@ In Safari, DevTools (or *Web Inspector* as it's called there) is disabled by def
 
 
 :::
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/dependency-injection-aspnetcore-mvc/banner.pn
   preview="/assets/image/code-maze.com/dependency-injection-aspnetcore-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

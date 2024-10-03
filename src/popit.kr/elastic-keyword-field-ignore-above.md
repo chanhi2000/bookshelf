@@ -53,7 +53,3 @@ cover: https://popit.kr/wp-content/uploads/2024/04/visual-600x360.png
   preview="https://popit.kr/wp-content/uploads/2024/04/visual-600x360.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

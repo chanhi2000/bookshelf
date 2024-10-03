@@ -407,7 +407,3 @@ Now that you have cert-manager and Traefik configured in your cluster, you could
 You can read the [<FontIcon icon="fas fa-globe"/>Traefik Proxy documentation](https://doc.traefik.io/traefik/) for more about the different functionalities Traefik can provide in your cluster. [<FontIcon icon="fas fa-globe"/>cert-manager](https://cert-manager.io/docs/) also has extensive documentation on how to use it with other types of Let’s Encrypt challenges, as well as sources other than Let’s Encrypt.
 
 To continue configuring your Kubernetes cluster, check out our other [tutorials on Kubernetes](https://digitalocean.com/community/tags/kubernetes).
-
----
-
-<TagLinks />

@@ -98,7 +98,3 @@ isOriginal: false
 - [Format console messages](https://devtoolstips.org/tips/en/format-console-messages) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

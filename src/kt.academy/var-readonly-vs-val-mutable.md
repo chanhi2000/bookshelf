@@ -294,7 +294,3 @@ To summarize, var with read-only allows observability, and it is easier to synch
 | Modifications require synchroniztaion | Modifications require synchroniztaion |
 | Exposing require making a defensive copy | Exposing is cheap |
 | Exposing must be synchronized | Exposing require no synchronization |
-
----
-
-<TagLinks />

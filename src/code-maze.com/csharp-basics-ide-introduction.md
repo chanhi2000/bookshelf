@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-basics-ide-introduction/banner.png
   preview="/assets/image/code-maze.com/csharp-basics-ide-introduction/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

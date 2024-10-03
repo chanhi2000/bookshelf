@@ -118,7 +118,3 @@ public fun InputStream.readBytes(
 ## Summary
 
 Users need to know about API stability. While a stable API is preferred, there is nothing worse than unexpected changes in an API that is supposed to be stable. Such changes can be really painful for users. Correct communication between module or library creators and their users is important and is achieved by using version names, documentation, and annotations. Also, each change in a stable API needs to follow a long process of deprecation.
-
----
-
-<TagLinks />

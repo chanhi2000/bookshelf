@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/unit-testing-controllers-aspnetcore-moq/banne
   preview="/assets/image/code-maze.com/unit-testing-controllers-aspnetcore-moq/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

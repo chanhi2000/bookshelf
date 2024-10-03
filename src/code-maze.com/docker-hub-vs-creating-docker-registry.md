@@ -51,7 +51,3 @@ cover: /assets/image/code-maze.com/docker-hub-vs-creating-docker-registry/banner
   preview="/assets/image/code-maze.com/docker-hub-vs-creating-docker-registry/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

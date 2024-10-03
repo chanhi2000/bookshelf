@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/how-to-secure-blazor-webassembly-with-identit
   preview="/assets/image/code-maze.com/how-to-secure-blazor-webassembly-with-identityserver4/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

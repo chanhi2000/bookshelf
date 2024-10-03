@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-webassembly-component-virtualization-w
   preview="/assets/image/code-maze.com/blazor-webassembly-component-virtualization-with-web-api/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

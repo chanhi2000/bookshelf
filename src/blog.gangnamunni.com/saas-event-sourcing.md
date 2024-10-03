@@ -410,6 +410,3 @@ public class ScheduleHeadspring extends Headspring<Schedule> {
 
 이런 문제를 극복하기 위해서 저희는 CQRS패턴을 적용하여 해결하였습니다. 명령모델을 이벤트 소싱을 통해 구현하고, 조회모델을 따로 두어 조회 유즈케이스에 대한 챌린징을 극복할 수 있습니다. 이에 대한 소개는 다음 글에서 작성하도록 하겠습니다.
 
----
-
-<TagLinks />

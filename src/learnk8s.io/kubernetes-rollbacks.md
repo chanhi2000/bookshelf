@@ -599,7 +599,3 @@ If your automated deployment process takes too long in an emergency, you can sti
 You should consider these `kubectl rollout` features deprecated and shouldn't depend on them.
 
 Our recommendation is also to set the `revisionHistoryLimit` to zero, as discussed before, to ensure, that this drift between the version control and the production can't happen with usage of `kubectl rollout` commands.
-
----
-
-<TagLinks />

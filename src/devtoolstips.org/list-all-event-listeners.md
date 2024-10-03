@@ -100,7 +100,3 @@ So, to list all elements that have listeners on a page:
 - [Edit CSS absolute and relative positions by dragging points in the page](https://devtoolstips.org/tips/en/edit-position) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

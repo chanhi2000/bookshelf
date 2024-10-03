@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/automapper-net-core-custom-projections/banner
   preview="/assets/image/code-maze.com/automapper-net-core-custom-projections/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

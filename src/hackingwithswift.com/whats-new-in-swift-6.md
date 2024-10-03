@@ -75,7 +75,7 @@ By far the biggest change is that complete concurrency checking is enabled by de
 
 Swift 6 improves concurrency checking further, and the Swift team say it "removes many false-positive data-race warnings" that were present in 5.10. It also introduces several targeted changes that will do wonders to make concurrency easier to adopt – if you tried with 5.10 and found things just too gnarly to figure out, hopefully some of the changes in Swift 6 will help.
 
-Easily the biggest is [<FontIcon icon="fa-brands fa-swift"/>SE-0414 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`) (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0414-region-based-isolation.md), defines isolation regions that allow the compiler to conclusively prove different parts of your code can run concurrently.
+Easily the biggest is [<FontIcon icon="fa-brands fa-swift"/>SE-0414 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0414-region-based-isolation.md), defines isolation regions that allow the compiler to conclusively prove different parts of your code can run concurrently.
 
 At the core of this change lies the existing concept of *sendability*. A `Sendable` type is one that can be safely passed around in a concurrent environment, which can include value types such as structs, final classes with constant properties, actors that automatically protect their own mutable state, and more. 
 

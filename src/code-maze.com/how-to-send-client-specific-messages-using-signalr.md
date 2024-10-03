@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/how-to-send-client-specific-messages-using-si
   preview="/assets/image/code-maze.com/how-to-send-client-specific-messages-using-signalr/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

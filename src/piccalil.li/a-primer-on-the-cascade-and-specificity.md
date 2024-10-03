@@ -48,7 +48,3 @@ cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/16a48673888911c85a0056c6d0659c7
   preview="https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/16a48673888911c85a0056c6d0659c703b12aa6ba83125c75dfbd78eb43fee0a/png?url=https://piccalil.li/og/a-primer-on-the-cascade-and-specificity/&width=1024&height=526&retina=true"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

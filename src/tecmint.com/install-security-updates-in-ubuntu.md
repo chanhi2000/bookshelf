@@ -64,7 +64,3 @@ cover: https://wtecmint.com/wp-content/uploads/2020/08/Install-Security-Updates-
   preview="https://tecmint.com/wp-content/uploads/2020/08/Install-Security-Updates-in-Ubuntu.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

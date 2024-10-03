@@ -721,7 +721,3 @@ Because of Swift's model of separate compilation, one can move easily between st
 We also discussed metatypes. Metatypes are first-class values in Swift, and are the answer to the question "what's the type of this value?". Metatypes can be used to identify the types of values, construct new instances of the identified type (when there is a suitable `init` requirement), and dynamically query the capabilities of a given type with queries such as "does this type conform to the protocol `Decodable`?".
 
 Next up, we'll explore Swift's take on error handling, comparing against C++'s model of exceptions.
-
----
-
-<TagLinks />

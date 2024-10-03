@@ -49,7 +49,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/cHJ
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4OTczMjMzLWltYWdlLWt3dnVvZzUzLmpwZw.webp?w=1024&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

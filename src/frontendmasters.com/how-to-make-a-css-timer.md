@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pex
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pexels-photo-1078057.jpeg?resize=768%2C432&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

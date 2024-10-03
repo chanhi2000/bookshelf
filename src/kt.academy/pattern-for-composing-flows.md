@@ -50,7 +50,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-a
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Frenatocosta%2Fpromotion%2Fpattern_for_composing_flows.jpg&w=1920&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

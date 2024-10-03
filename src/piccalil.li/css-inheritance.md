@@ -48,7 +48,3 @@ cover : https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/5317863aa0317f901b8a9cbf0f2512
   preview="https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/5317863aa0317f901b8a9cbf0f25120e61268dfb13d6664819608439bebc4428/png?url=https://piccalil.li/og/css-inheritance/&width=1024&height=526&retina=true"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

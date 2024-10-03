@@ -90,7 +90,3 @@ isOriginal: false
 - [Throttle the network speed to test your website on slower connections](https://devtoolstips.org/tips/en/throttle-network-speed) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

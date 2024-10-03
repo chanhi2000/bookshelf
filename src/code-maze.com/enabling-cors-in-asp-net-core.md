@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/enabling-cors-in-asp-net-core/banner.png
   preview="/assets/image/enabling-cors-in-asp-net-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -101,7 +101,3 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   preview="/assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-azure/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

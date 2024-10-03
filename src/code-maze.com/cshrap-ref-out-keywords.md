@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/cshrap-ref-out-keywords/banner.png
   preview="/assets/image/code-maze.com/cshrap-ref-out-keywords/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

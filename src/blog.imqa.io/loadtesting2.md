@@ -276,8 +276,4 @@ CPU, Memory 사용률 (Utilization)이 100%를 다 쓴 건에 주목하지 말�
 
 ![](https://blog.imqa.io/content/images/2021/03/2021-03-26-14.53.54-9.jpg)
 
----
-
 [^1]: [실전 Web Application 부하 테스트 - 1, 2편 통합 본 보러가기](https://blog.imqa.io/performance-consulting/)
-
-<TagLinks />

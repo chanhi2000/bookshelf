@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-webassembly-role-based-authorization/b
   preview="/assets/image/code-maze.com/blazor-webassembly-role-based-authorization/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -61,7 +61,3 @@ isOriginal: false
 - [Get detached DOM elements to investigate memory leaks](https://devtoolstips.org/tips/en/get-detached-elements)
 
 :::
-
----
-
-<TagLinks />

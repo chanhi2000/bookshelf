@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/factory-method/banner.png
   preview="/assets/image/factory-method/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

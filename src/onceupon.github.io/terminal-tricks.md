@@ -190,7 +190,3 @@ i               # in vi edit mode - go to insert mode
 v               # in vi edit mode - edit current command in vi
 man 3 readline  # man page for complete readline mapping
 ```
-
----
-
-<TagLinks />

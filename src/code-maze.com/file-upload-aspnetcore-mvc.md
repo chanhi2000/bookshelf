@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/file-upload-aspnetcore-mvc/banner.png
   preview="/assets/image/code-maze.com/file-upload-aspnetcore-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

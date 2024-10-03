@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/net-core-web-development-part6/banner.png
   preview="/assets/image/code-maze.com/net-core-web-development-part6/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

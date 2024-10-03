@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/aspnetcore-send-email/banner.png
   preview="/assets/image/code-maze.com/aspnetcore-send-email/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

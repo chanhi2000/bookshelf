@@ -65,7 +65,3 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
   preview="http://thefarmersfront.github.io/assets/logo-square.png"/>
 
 <!-- TODO:  작성 -->
-
----
-
-<TagLinks />

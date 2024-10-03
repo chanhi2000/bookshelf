@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/lazy-loading-in-blazor-webassembly/banner.png
   preview="/assets/image/code-maze.com/lazy-loading-in-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

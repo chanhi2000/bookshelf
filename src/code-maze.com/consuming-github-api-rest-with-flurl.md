@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/consuming-github-api-rest-with-flurl/banner.p
   preview="/assets/image/consuming-github-api-rest-with-flurl/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

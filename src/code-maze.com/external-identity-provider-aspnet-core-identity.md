@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/external-identity-provider-aspnet-core-identi
   preview="/assets/image/code-maze.com/external-identity-provider-aspnet-core-identity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

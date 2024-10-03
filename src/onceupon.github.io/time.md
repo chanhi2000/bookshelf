@@ -49,7 +49,3 @@ cover: https://repository-images.githubusercontent.com/61099017/cde6c580-765d-11
 
 <!-- TODO: 작성 -->
 <!-- https://raw.githubusercontent.com/onceupon/Bash-Oneliner/master/README.md -->
-
----
-
-<TagLinks />

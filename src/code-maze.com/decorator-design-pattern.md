@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/decorator-design-pattern/banner.png
   preview="/assets/image/decorator-design-pattern/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

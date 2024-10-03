@@ -82,7 +82,3 @@ To learn more, see [<FontIcon icon="fa-brands fa-apple"/>Safari's Develop menu d
 [Install or create extensions to customize DevTools](https://devtoolstips.org/tips/en/extend-devtools) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

@@ -64,7 +64,3 @@ isOriginal: false
 - [Emulate color schemes](https://devtoolstips.org/tips/en/emulate-color-schemes) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

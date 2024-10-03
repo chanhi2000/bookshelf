@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-webassembly-put-delete-calling-javascr
   preview="/assets/image/code-maze.com/blazor-webassembly-put-delete-calling-javascript-functions/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

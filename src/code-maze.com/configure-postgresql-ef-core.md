@@ -63,7 +63,3 @@ cover: /assets/image/code-maze.com/configure-postgresql-ef-core/banner.png
   preview="/assets/image/code-maze.com/configure-postgresql-ef-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

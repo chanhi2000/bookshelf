@@ -99,7 +99,3 @@ isOriginal: false
 - [Highlight all the elements that a CSS rule matches](https://devtoolstips.org/tips/en/highlight-matching-elements) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

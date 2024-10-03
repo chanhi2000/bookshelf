@@ -297,7 +297,3 @@ That’s it, awesome isn’t it?
 In this article, we’ve learned how to create an Azure Key Vault to store our secrets for a production environment. We’ve also learned how to connect to the vault from our application and how to use key vault just when running the application in production.
 
 This part wraps up our ASP.NET Core configuration series. You can find other parts of this series on the [<FontIcon icon="fas fa-globe"/>ASP.NET Core Web API page](https://code-maze.com/net-core-series/#configuration).
-
----
-
-<TagLinks />

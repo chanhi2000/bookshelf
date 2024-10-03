@@ -53,7 +53,3 @@ cover: https://static.toss.im/assets/payments/contents/tech-banner-11.png
   preview="https://static.toss.im/assets/payments/contents/tech-banner-11.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

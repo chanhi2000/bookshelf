@@ -63,7 +63,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/06/Read-Awk-Input-from-STDIN.
   preview="https://tecmint.com/wp-content/uploads/2016/06/Read-Awk-Input-from-STDIN.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

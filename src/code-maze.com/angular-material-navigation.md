@@ -606,7 +606,3 @@ In this article we have learned:
 3. How to implement multi-menu options in the side navigation
 
 In the next article, we are going to learn more about [Material Table with Filter, Sort and Paging functionalities.](/code-maze.com/angular-material-table.md)
-
----
-
-<TagLinks />

@@ -50,7 +50,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/unn
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/unnamed.png?resize=1024%2C611&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

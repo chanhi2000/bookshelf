@@ -50,7 +50,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fcoro
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fcoroutines_book%2Fpromotion%2F204_cancellation.jpg&w=640&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

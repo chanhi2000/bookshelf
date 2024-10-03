@@ -75,7 +75,3 @@ isOriginal: false
 - [Debug popups that appear on hover](https://devtoolstips.org/tips/en/debug-popups-on-hover) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

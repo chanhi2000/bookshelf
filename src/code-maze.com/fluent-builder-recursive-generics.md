@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/fluent-builder-recursive-generics/banner.png
   preview="/assets/image/fluent-builder-recursive-generics/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

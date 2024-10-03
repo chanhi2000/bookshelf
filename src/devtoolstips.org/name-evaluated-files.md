@@ -85,7 +85,3 @@ Using the `sourceURL` pragma is a great way to debug your code more easily in De
 - [Ignore JavaScript code to ease debugging](https://devtoolstips.org/tips/en/ignore-scripts) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

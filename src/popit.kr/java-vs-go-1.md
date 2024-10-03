@@ -62,7 +62,3 @@ cover: http://popit.kr/wp-content/uploads/2018/02/golang-vs-java-600x116.jpg
   preview="http://popit.kr/wp-content/uploads/2018/02/golang-vs-java-600x116.jpg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

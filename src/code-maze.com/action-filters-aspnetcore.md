@@ -560,7 +560,3 @@ Now our actions look great without code repetition, try-catch blocks, or additio
 Thank you for reading this article. We hope you have learned new useful things.
 
 As we already said, we always recommend using Action Filters because they give us reusability in our code and cleaner code in our actions as well.
-
----
-
-<TagLinks />

@@ -232,7 +232,3 @@ English and bash are not my first language, please correct me anytime, thank you
   "background": "rgba(71,151,93,0.2)"
 }
 ```
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/multiple-environments-in-asp-net-core/banner.
   preview="/assets/image/code-maze.com/multiple-environments-in-asp-net-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

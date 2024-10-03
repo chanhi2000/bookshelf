@@ -58,7 +58,3 @@ isOriginal: false
 - [Get the selected element in the console](https://devtoolstips.org/tips/en/get-current-element-in-console) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

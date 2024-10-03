@@ -777,7 +777,3 @@ So, to summarize, we have learned:
 - To show additional data by using the Expansion-Panel component
 
 In the next article, we are going to show you how to use [Material Input components and to validate forms](https://code-maze.com/angular-material-form-validation.md) as well.
-
----
-
-<TagLinks />

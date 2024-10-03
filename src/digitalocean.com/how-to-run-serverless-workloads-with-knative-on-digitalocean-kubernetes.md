@@ -594,7 +594,3 @@ In this tutorial, you deployed a serverless workload using Knative. You created 
 For more about the features that Knative offers, like [Autoscaling](https://knative.dev/docs/serving/autoscaling/) of pods, [gradual rollout](https://knative.dev/docs/serving/rolling-out-latest-revision) of traffic to revision, and the [Eventing](https://knative.dev/docs/eventing) component, visit the official [Knative documentation](https://knative.dev/docs).
 
 To continue building with DigitalOcean Kubernetes (DOKS), refer to our [Kubernetes How-To documentation](https://docs.digitalocean.com/products/kubernetes). You can also [learn more about DOKS](https://docs.digitalocean.com/products/kubernetes/details), such as [features](https://docs.digitalocean.com/products/kubernetes/details/features) and [availability](https://docs.digitalocean.com/products/kubernetes/details/availability). For DOKS troubleshooting, you can refer to our [Kubernetes Support guides](https://docs.digitalocean.com/products/kubernetes/support).
-
----
-
-<TagLinks />

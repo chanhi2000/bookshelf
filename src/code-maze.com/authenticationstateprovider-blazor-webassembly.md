@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/authenticationstateprovider-blazor-webassembl
   preview="/assets/image/code-maze.com/authenticationstateprovider-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

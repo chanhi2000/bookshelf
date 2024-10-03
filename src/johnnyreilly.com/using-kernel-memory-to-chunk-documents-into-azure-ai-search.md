@@ -65,7 +65,3 @@ cover: https://res.cloudinary.com/priou/image/fetch/f_auto,q_auto,w_auto,dpr_aut
   preview="https://res.cloudinary.com/priou/image/fetch/f_auto,q_auto,w_auto,dpr_auto/https://johnnyreilly.com/assets/images/title-image-337c58e5e55f92f59a1d1db49366ec04.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

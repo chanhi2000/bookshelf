@@ -570,7 +570,3 @@ In the next part of this series, we'll talk about reference types. Specifically,
 ## 참조
 
 <PDF url="http://stepanovpapers.com/DeSt98.pdf" />
-
----
-
-<TagLinks />

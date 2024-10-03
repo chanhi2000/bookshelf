@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/signalr-automatic-reconnect-option/banner.png
   preview="/assets/image/code-maze.com/signalr-automatic-reconnect-option/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

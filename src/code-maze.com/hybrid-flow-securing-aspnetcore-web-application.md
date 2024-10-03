@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/hybrid-flow-securing-aspnetcore-web-applicati
   preview="/assets/image/code-maze.com/hybrid-flow-securing-aspnetcore-web-application/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -175,7 +175,3 @@ Here, we only created a single map in the `MyProfile` class between two classes.
 ## Conclusion
 
 In this article, we covered the basic usage of AutoMapper, as well as property mappings and why being able to retrieve them is important. Finally, we learned how to get property mappings through a simple example.
-
----
-
-<TagLinks />

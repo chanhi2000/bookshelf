@@ -49,7 +49,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkotl
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkotlin_essentials_book%2Fpromotion%2Fgenerics.jpg&w=384&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

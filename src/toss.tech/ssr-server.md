@@ -54,7 +54,3 @@ cover: https://static.toss.im/illusts-content/cpu-04.png
   preview="https://static.toss.im/illusts-content/cpu-04.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

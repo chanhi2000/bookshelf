@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/working-with-data-in-asp-net-core-mvc/banner.
   preview="/assets/image/code-maze.com/working-with-data-in-asp-net-core-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

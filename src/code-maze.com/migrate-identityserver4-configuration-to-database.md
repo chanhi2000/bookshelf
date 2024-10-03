@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/migrate-identityserver4-configuration-to-data
   preview="/assets/image/code-maze.com/migrate-identityserver4-configuration-to-database/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

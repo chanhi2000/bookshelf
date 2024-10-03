@@ -103,7 +103,3 @@ Polypane provides a way to retain the focus state inside each pane. To retain th
 
 
 :::
-
----
-
-<TagLinks />

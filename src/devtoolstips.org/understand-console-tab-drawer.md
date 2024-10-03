@@ -84,7 +84,3 @@ isOriginal: false
 - [Evaluate XPath to find elements in the page](https://devtoolstips.org/tips/en/evaluate-xpath) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

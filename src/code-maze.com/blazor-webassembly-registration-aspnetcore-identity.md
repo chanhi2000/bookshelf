@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-webassembly-registration-aspnetcore-id
   preview="/assets/image/code-maze.com/blazor-webassembly-registration-aspnetcore-identity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

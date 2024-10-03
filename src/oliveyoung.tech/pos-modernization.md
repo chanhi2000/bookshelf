@@ -49,7 +49,3 @@ cover: https://oliveyoung.tech/static/65b5b4889394058c8e64ccc1b0904fe0/2b8b0/ban
   preview="https://oliveyoung.tech/static/65b5b4889394058c8e64ccc1b0904fe0/2b8b0/banner.webp"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

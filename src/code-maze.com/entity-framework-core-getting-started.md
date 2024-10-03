@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/entity-framework-core-getting-started/banner.
   preview="/assets/image/code-maze.com/entity-framework-core-getting-started/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

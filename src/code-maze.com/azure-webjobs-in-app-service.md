@@ -66,7 +66,3 @@ cover: /assets/image/code-maze.com/azure-webjobs-in-app-service/banner.png
   preview="/assets/image/code-maze.com/azure-webjobs-in-app-service/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

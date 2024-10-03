@@ -316,7 +316,3 @@ It still works as it did previously! You can refresh the page a few times to mak
 In this short article, we’ve seen how to implement our own custom configuration provider that reads the values from the database. In the next part, we’re going to learn how to [protect our sensitive configuration values](/code-maze.com/aspnet-configuration-securing-sensitive-data.md).
 
 You can find other parts of this series on the [ASP.NET Core Web API page](/code-maze.com/net-core-series.md/#configuration).
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/what-is-continuous-integration/banner.png
   preview="/assets/image/code-maze.com/what-is-continuous-integration/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

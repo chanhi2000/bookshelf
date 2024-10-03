@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/blazor-webassembly-role-based-security-with-i
   preview="/assets/image/code-maze.com/blazor-webassembly-role-based-security-with-identityserver4/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

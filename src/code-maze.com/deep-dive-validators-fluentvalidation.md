@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/deep-dive-validators-fluentvalidation/banner.
   preview="/assets/image/code-maze.com/deep-dive-validators-fluentvalidation/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

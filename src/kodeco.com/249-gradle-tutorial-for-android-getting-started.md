@@ -168,9 +168,5 @@ Also, if you’re insterested in the _Gradle Kotlin DSL_, [<FontIcon icon="iconf
 
 I hope you’ve enjoyed this Getting Started with Gradle tutorial! Don’t forget to leave your feedback and feel free to ask any questions in the comments below
 
----
-
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2017/11/SocializifyStarter-2.zip
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2017/11/SocializifyFinal-3.zip
-
-<TagLinks />

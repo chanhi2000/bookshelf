@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/how-to-call-csharp-methods-from-javascript-in
   preview="/assets/image/code-maze.com/how-to-call-csharp-methods-from-javascript-in-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

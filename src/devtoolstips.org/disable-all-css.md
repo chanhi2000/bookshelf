@@ -106,7 +106,3 @@ In Polypane, you can disable all CSS styles by using the **Disable CSS** option:
 - [Copy a CSS rule as CSS-in-JS format](https://devtoolstips.org/tips/en/copy-rule-as-css-in-js) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

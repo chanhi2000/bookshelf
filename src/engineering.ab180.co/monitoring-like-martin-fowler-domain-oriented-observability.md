@@ -49,7 +49,3 @@ cover: https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-f
   logo="https://oopy.lazyrockets.com/api/rest/cdn/image/7bbc75b5-1cdf-4b59-aec4-af3e335b3aad.png?d=16"
   preview="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F56af06bd-af23-41ed-9eae-5faeee5a75ac%2Fc7c7722e-9923-498f-ae20-06c9945cc186%2F231123_dev-blog_banner_monitoring-v2.png&blockId=91aa96d9-3fa3-40d9-b928-e8c105467d04&width=3600"/>
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

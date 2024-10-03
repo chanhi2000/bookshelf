@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/faceted-builder/banner.png
   preview="/assets/image/faceted-builder/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

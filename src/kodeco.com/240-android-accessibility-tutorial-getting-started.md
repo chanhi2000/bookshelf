@@ -442,9 +442,6 @@ Here are some more resources on accessibility for you:
 
 Please join the comments below with any questions or thoughts!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2018/01/CoffeeOverflow-1.0.zip
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2018/01/CoffeeOverflow-1.0-finished-1.zip

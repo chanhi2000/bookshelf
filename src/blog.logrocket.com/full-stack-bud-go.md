@@ -271,7 +271,3 @@ While allowing some level of server-side rendering, Next, Nuxt, and SvelteKit st
 ## Conclusion
 
 Bud embraces many of the conventions, such as file-based routing and RESTful controller methods, that we see in frameworks like Next and Ruby on Rails, and bundles them into one framework. While Bud is still working on building more functionality and features to be a robust framework with a solution for all scenarios like Laravel, Bud provides a simple convention-based workflow, making working with and getting the benefits of Go and Svelte a breeze.
-
----
-
-<TagLinks />

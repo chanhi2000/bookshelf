@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/securing-webapi-hybrid-flow/banner.png
   preview="/assets/image/code-maze.com/securing-webapi-hybrid-flow/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

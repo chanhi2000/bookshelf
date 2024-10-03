@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/aspnet-configuration-providers/banner.png
   preview="/assets/image/code-maze.com/aspnet-configuration-providers/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

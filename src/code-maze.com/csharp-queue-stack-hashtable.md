@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-queue-stack-hashtable/banner.png
   preview="/assets/image/csharp-queue-stack-hashtable/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

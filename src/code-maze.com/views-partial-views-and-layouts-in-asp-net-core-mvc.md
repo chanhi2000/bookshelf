@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/views-partial-views-and-layouts-in-asp-net-co
   preview="/assets/image/code-maze.com/views-partial-views-and-layouts-in-asp-net-core-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

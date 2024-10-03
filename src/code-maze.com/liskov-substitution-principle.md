@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/liskov-substitution-principle/banner.png
   preview="/assets/image/liskov-substitution-principle/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

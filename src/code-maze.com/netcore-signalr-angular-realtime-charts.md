@@ -66,7 +66,3 @@ cover: /assets/image/code-maze.com/netcore-signalr-angular-realtime-charts/banne
   preview="/assets/image/netcore-signalr-angular-realtime-charts/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

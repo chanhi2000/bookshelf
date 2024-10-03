@@ -86,7 +86,3 @@ To learn more, see [<FontIcon icon="fa-brands fa-edge"/>Explain DevTools Console
 - [Install or create extensions to customize DevTools](https://devtoolstips.org/tips/en/extend-devtools) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

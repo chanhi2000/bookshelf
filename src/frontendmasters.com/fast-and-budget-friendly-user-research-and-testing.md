@@ -50,7 +50,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/102
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/1024px-Project_User_Experience_Testing_9719939867.jpg?resize=768%2C514&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

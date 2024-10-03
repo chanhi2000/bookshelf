@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/localization-in-blazor-webassembly-applicatio
   preview="/assets/image/code-maze.com/localization-in-blazor-webassembly-applications/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

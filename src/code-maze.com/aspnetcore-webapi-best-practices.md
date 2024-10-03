@@ -49,7 +49,3 @@ cover: /assets/image/code-maze.com/aspnetcore-webapi-best-practices/banner.png
   preview="/assets/image/code-maze.com/aspnetcore-webapi-best-practices/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

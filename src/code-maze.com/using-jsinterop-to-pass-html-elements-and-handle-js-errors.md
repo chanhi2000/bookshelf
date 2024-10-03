@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/using-jsinterop-to-pass-html-elements-and-han
   preview="/assets/image/code-maze.com/using-jsinterop-to-pass-html-elements-and-handle-js-errors/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

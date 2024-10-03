@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/aspnet-core-testing-anti-forgery-token/banner
   preview="/assets/image/code-maze.com/aspnet-core-testing-anti-forgery-token/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

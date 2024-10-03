@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/cir
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/circle-text-thumb.jpg?w=1000&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

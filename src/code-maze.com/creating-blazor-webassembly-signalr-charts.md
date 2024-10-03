@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/creating-blazor-webassembly-signalr-charts/ba
   preview="/assets/image/code-maze.com/creating-blazor-webassembly-signalr-charts/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

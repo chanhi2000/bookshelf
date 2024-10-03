@@ -108,7 +108,3 @@ It extracts each expression into a variable. This must be done so that those exp
 <!-- TODO: transform to kotlin-playground -->
 
 The tricky part is constructing a message that looks exactly like the original code and includes indents in the correct places. It was a titanic work by [<FontIcon icon="fa-brands fa-x-twitter"/>Brian Norman (`bnormcodes`)](https://x.com/bnormcodes), who spent over four years to make it work that well! Great kudos!
-
----
-
-<TagLinks />

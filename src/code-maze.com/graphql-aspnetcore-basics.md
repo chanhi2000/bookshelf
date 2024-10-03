@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/graphql-aspnetcore-basics/banner.png
   preview="/assets/image/code-maze.com/graphql-aspnetcore-basics/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

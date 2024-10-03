@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/using-refresh-tokens-in-asp-net-core-authenti
   preview="/assets/image/code-maze.com/using-refresh-tokens-in-asp-net-core-authentication/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

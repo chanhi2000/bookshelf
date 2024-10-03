@@ -63,7 +63,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Patterns-BEGIN-a
   preview="https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Patterns-BEGIN-and-END.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/state-management-in-asp-net-core-mvc/banner.p
   preview="/assets/image/code-maze.com/state-management-in-asp-net-core-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

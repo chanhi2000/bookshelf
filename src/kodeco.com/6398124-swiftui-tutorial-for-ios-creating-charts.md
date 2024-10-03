@@ -616,8 +616,4 @@ Chapter 13: Drawing and Custom Graphics in [SwiftUI by Tutorials](https://store.
 
 If you have any questions or comments, please join the discussion below.
 
----
-
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2019/12/WeatherChart.zip
-
-<TagLinks />

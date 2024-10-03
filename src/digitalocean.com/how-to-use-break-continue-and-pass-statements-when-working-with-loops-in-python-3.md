@@ -49,7 +49,3 @@ cover: https://journaldev.nyc3.cdn.digitaloceanspaces.com/2019/10/how-to-use-bre
   preview="https://journaldev.nyc3.cdn.digitaloceanspaces.com/2019/10/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

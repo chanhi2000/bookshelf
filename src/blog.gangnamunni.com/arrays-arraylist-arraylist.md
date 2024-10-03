@@ -147,7 +147,3 @@ public void add(int index, E element) {
 `Arrays.asList(배열)` 의 결과인 `arrayList` 는 기존의`java.util.ArrayList`  와는 다르며, `addAll` 메소드를 쓸 수 없는 상태다... 라고 알아 두면 될것 같습니다.
 
 아무튼 이렇게 또 하나 배우게 되는 하루였습니다. 닮았지만 부족한 녀석을 주의하세요.
-
----
-
-<TagLinks />

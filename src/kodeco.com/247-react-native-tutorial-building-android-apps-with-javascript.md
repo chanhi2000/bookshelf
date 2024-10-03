@@ -460,8 +460,5 @@ If you’re a web developer, you’ve seen how to use JavaScript to easily creat
 
 If you have any questions or comments on this React Native tutorial, feel free to join the discussion in the forums below!
 
----
-
-<TagLinks />
 
 [download-material-final]: https://koenig-media.raywenderlich.com/uploads/2018/01/PropertyFinder-final-v2.zip

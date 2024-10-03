@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/sma
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/smaller-containers.jpg?resize=1024%2C683&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -51,7 +51,3 @@ cover: /assets/image/code-maze.com/preparing-ci-environment-docker/banner.png
   preview="/assets/image/code-maze.com/preparing-ci-environment-docker/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -998,7 +998,3 @@ In this article, we have covered the following topics.
 - Testing the endpoints and inspecting the generated database queries.
 
 Hope you enjoyed the article. Happy programming!
-
----
-
-<TagLinks />

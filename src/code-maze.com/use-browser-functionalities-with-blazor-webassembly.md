@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/use-browser-functionalities-with-blazor-webas
   preview="/assets/image/code-maze.com/use-browser-functionalities-with-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

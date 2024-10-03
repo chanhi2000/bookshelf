@@ -650,7 +650,3 @@ sudo apt install make
 ## 정리
 
 `Makefile` 작성 방법에 대해 정리해 보았다. 비망록으로 업데이트해 나갈 것이다.
-
----
-
-<TagLinks />

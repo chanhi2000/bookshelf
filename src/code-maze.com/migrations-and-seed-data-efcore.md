@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/migrations-and-seed-data-efcore/banner.png
   preview="/assets/image/code-maze.com/migrations-and-seed-data-efcore/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

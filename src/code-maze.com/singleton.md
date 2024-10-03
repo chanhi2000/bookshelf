@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/singleton/banner.png
   preview="/assets/image/singleton/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

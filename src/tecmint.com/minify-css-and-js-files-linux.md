@@ -50,7 +50,3 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/Minify-JS-CSS-Files-in-Lin
   preview="https://tecmint.com/wp-content/uploads/2024/08/Minify-JS-CSS-Files-in-Linux.webp"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

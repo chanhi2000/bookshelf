@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/unit-testing-in-asp-net-core-mvc/banner.png
   preview="/assets/image/code-maze.com/unit-testing-in-asp-net-core-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

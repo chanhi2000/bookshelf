@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/net-core-web-api-ef-core-code-first/banner.pn
   preview="/assets/image/net-core-web-api-ef-core-code-first/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -84,7 +84,3 @@ isOriginal: false
 - [Find your web component's custom element code](https://devtoolstips.org/tips/en/find-custom-elements-code) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

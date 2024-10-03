@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/fluentvalidation-in-aspnet/banner.png
   preview="/assets/image/code-maze.com/fluentvalidation-in-aspnet/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

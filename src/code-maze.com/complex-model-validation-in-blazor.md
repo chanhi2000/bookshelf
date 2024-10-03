@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/complex-model-validation-in-blazor/banner.png
   preview="/assets/image/code-maze.com/complex-model-validation-in-blazor/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

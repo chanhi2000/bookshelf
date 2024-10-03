@@ -79,7 +79,3 @@ cover: https://www.tecmint.com/wp-content/uploads/2020/09/Install-Linux-on-Windo
   preview="https://tecmint.com/wp-content/uploads/2020/09/Install-Linux-on-Windows-Using-WSL.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

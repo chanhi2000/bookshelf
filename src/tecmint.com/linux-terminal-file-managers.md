@@ -65,7 +65,3 @@ cover: https://tecmint.com/wp-content/uploads/2019/02/Linux-Terminal-File-Manage
   preview="https://tecmint.com/wp-content/uploads/2019/02/Linux-Terminal-File-Managers.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

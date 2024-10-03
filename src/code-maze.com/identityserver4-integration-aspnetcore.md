@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/identityserver4-integration-aspnetcore/banner
   preview="/assets/image/code-maze.com/identityserver4-integration-aspnetcore/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -128,7 +128,3 @@ By default, Koin uses Kotlin's `Dispatchers.Default` for coroutine execution. Ho
 Although these ideas of lazy modules and background loading are well-established, they're often underestimated, yet they have tremendous potential in enhancing Kotlin applications. By integrating these features, you can unleash a higher level of responsiveness, efficiency, and scalability within your applications.
 
 Let's go🔥
-
----
-
-<TagLinks />

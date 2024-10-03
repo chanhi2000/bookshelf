@@ -50,7 +50,3 @@ cover: https://popit.kr/wp-content/uploads/2024/01/Apache_Spark_logo.png
   preview="https://popit.kr/wp-content/uploads/2024/01/Apache_Spark_logo.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

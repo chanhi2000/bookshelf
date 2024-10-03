@@ -78,7 +78,3 @@ cover: https://tecmint.com/wp-content/uploads/2020/08/Bashtop-Linux-Resource-Mon
   preview="https://tecmint.com/wp-content/uploads/2020/08/Bashtop-Linux-Resource-Monitoring-Toodl.jpeg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

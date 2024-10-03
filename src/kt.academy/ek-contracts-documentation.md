@@ -383,7 +383,3 @@ When we define an element, especially part of an external API, we should define 
 A contract gives users confidence about how elements behave now and will behave in the future; it gives creators the freedom to change what is not specified in the contract. The contract is a kind of agreement, and it works well as long as both sides respect it.
 
 [^1]: Read more about this concept in the book Literate Programming by Donald Knuth.
-
----
-
-<TagLinks />

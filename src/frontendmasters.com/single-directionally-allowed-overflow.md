@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Scr
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Screenshot-2024-07-10-at-3.07.39%E2%80%AFPM.png?resize=1024%2C675&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

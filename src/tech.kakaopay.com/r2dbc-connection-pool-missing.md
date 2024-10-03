@@ -51,7 +51,3 @@ cover: https://tech.kakaopay.com/_astro/thumb.4c94c9ee_ZVFN14.png
   preview="https://tech.kakaopay.com/_astro/thumb.4c94c9ee_ZVFN14.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

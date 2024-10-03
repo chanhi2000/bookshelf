@@ -173,8 +173,5 @@ I highly suggest learning more about Apple’s URLSession, which Alamofire uses 
 }
 ```
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/02/StarWarsOpedia.zip

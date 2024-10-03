@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/wrapping-javascript-libraries-with-csharp-in-
   preview="/assets/image/code-maze.com/wrapping-javascript-libraries-with-csharp-in-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

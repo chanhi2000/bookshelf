@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/using-access-token-with-blazor-webassembly-ht
   preview="/assets/image/code-maze.com/using-access-token-with-blazor-webassembly-httpclient/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

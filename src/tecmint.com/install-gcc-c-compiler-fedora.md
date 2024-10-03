@@ -64,7 +64,3 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/Install-GCC-in-Fedora.png
   preview="https://tecmint.com/wp-content/uploads/2024/08/Install-GCC-in-Fedora.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

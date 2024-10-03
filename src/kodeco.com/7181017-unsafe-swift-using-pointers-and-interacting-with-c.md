@@ -431,8 +431,5 @@ There are many additional resources you can explore to learn more about using un
 
 I hope you’ve enjoyed this tutorial. If you have questions or experiences you would like to share, feel free to share them in the forums!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/02/Unsafe-Swift.zip

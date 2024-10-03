@@ -64,7 +64,3 @@ isOriginal: false
 - [See the size of the transferred data for images, scripts, or other resources](https://devtoolstips.org/tips/en/get-size-of-resource-types) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

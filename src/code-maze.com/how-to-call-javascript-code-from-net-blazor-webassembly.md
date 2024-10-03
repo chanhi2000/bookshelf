@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/how-to-call-javascript-code-from-net-blazor-w
   preview="/assets/image/code-maze.com/how-to-call-javascript-code-from-net-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

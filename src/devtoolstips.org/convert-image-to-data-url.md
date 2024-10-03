@@ -77,7 +77,3 @@ isOriginal: false
 - [Manipulate complex JSON files using DevTools](https://devtoolstips.org/tips/en/manipulate-complex-json)  <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

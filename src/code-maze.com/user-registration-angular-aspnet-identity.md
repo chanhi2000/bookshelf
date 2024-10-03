@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/custom-validators-and-handling-errors-with-an
   preview="/assets/image/code-maze.com/custom-validators-and-handling-errors-with-angular-and-asp-net-core-identity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

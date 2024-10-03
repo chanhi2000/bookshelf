@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/filtering-aspnet-core-webapi/banner.png
   preview="/assets/image/code-maze.com/filtering-aspnet-core-webapi/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

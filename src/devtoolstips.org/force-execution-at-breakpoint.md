@@ -104,7 +104,3 @@ In <FontIcon icon="fa-brands fa-chrome"/>Chrome, <FontIcon icon="fa-brands fa-ed
 - [Pause script execution when the DOM changes](https://devtoolstips.org/tips/en/break-on-dom-changes) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

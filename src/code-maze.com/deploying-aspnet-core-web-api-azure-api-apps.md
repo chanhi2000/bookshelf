@@ -64,7 +64,3 @@ cover: /assets/image/code-maze.com/deploying-aspnet-core-web-api-azure-api-apps/
   preview="/assets/image/code-maze.com/deploying-aspnet-core-web-api-azure-api-apps/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

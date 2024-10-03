@@ -78,7 +78,3 @@ cover: /assets/image/code-maze.com/consuming-graphql-api-angular/banner.png
   preview="/assets/image/code-maze.com/consuming-graphql-api-angular/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

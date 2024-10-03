@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/dalsoft-restclient-consume-any-rest-api/banne
   preview="/assets/image/dalsoft-restclient-consume-any-rest-api/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

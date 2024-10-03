@@ -64,7 +64,3 @@ cover: https://tecmint.com/wp-content/uploads/2015/07/Install-Joomla-in-Linux.we
   preview="https://tecmint.com/wp-content/uploads/2015/07/Install-Joomla-in-Linux.webp"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -446,7 +446,3 @@ To sum up the article, we have learned:
 - How to modify client queries with aliases, names, and fragments
 
 In [the next article](/code-maze.com/graphql-mutations.md), we are going to learn about mutations in GraphQL.
-
----
-
-<TagLinks />

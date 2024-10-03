@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/you
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/youtube-lite-embed.png?w=1280&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

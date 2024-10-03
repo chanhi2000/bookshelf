@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/single-responsibility-principle/banner.png
   preview="/assets/image/single-responsibility-principle/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

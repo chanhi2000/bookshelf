@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/identityserver4-ui-webapi-basic-security/bann
   preview="/assets/image/code-maze.com/identityserver4-ui-webapi-basic-security/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

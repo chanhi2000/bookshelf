@@ -1192,7 +1192,3 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
   url="https://medium.com/google-developers/introduction-to-motionlayout-part-i-29208674b10d"
   logo="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
   preview="https://miro.medium.com/v2/da:true/resize:fit:700/1*--BinUe-6XZPrZhPys6mzA.gif"/>
-
----
-
-<TagLinks />

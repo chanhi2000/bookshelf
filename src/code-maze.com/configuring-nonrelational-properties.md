@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/configuring-nonrelational-properties/banner.p
   preview="/assets/image/code-maze.com/configuring-nonrelational-properties/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

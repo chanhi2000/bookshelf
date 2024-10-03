@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/owasp-top-10-sensitive-data-exposure/banner.p
   preview="/assets/image/code-maze.com/owasp-top-10-sensitive-data-exposure/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

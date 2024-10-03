@@ -439,7 +439,3 @@ Early on, I linked to a post about [<FontIcon icon="fas fa-globe"/>prefering fre
 Swift's extensions and access control address all of those reasons directly. Encapsulation and hiding are based on the organization of code into files, modules, and packages. You can add a member to a type from anywhere with an extension. The result of these aspects being orthogonal is that you get all of the loose coupling, enapsulating, flexibility, and extensibility of C++ "free functions", with the ergonomics of member functions. It's lovely.
 
 Extensions are also a key part of the next part of our story: generics.
-
----
-
-<TagLinks />

@@ -160,6 +160,3 @@ You can also click the <FontIcon icon="iconfont icon-select"/>`[Show rulers]` ic
 
 [^1]: In browsers with classic scrollbars, the number shown in the page by DevTools doesn't account for the scrollbar width, if there is one. The actual viewport width is about 15 to 17 pixels small than the number shown.
 
----
-
-<TagLinks />

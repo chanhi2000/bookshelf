@@ -51,7 +51,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/08/Sync-New-Changed-Files-Rsy
   preview="https://tecmint.com/wp-content/uploads/2016/08/Sync-New-Changed-Files-Rsync.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/getting-started-with-asp-net-core-mvc/banner.
   preview="/assets/image/code-maze.com/getting-started-with-asp-net-core-mvc/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

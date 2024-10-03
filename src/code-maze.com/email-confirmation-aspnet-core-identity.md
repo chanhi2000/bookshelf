@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/email-confirmation-aspnet-core-identity/banne
   preview="/assets/image/code-maze.com/email-confirmation-aspnet-core-identity/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

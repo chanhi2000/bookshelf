@@ -150,7 +150,3 @@ recycler.afterMeasured {
 ## Conclusion
 
 It’s true that there are still some things that don’t look nice when working with Android, even moving to Kotlin, but we can always find an alternative that improves readability and avoids boilerplate, by hiding this boilerplate behind other structures. At least you’ll have to only write it once and the rest of the code will look awesome!
-
----
-
-<TagLinks />

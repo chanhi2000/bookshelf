@@ -399,7 +399,3 @@ Migrating from Hilt to Koin can be straightforward if you approach it methodical
 By following these tips, you'll be able to transition your project from Hilt to Koin smoothly. And don't forget to refer to [<FontIcon icon="fas fa-globe"/>Koin's official docs](https://insert-koin.io/docs/reference/koin-annotations/start/) for any advanced usage and detailed information that might help along the way.
 
 Happy Migration👋
-
----
-
-<TagLinks />

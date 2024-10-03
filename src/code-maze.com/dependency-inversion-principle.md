@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/dependency-inversion-principle/banner.png
   preview="/assets/image/dependency-inversion-principle/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

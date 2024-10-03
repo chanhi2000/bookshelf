@@ -53,7 +53,3 @@ cover: https://popit.kr//wp-content/uploads/2024/03/kafka-day_kraft1.002-600x450
   preview="https://popit.kr//wp-content/uploads/2024/03/kafka-day_kraft1.002-600x450.jpeg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

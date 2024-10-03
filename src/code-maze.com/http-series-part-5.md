@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/http-series-part-5/banner.png
   preview="/assets/image/code-maze.com/http-series-part-5/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

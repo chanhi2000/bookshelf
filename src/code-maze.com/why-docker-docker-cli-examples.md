@@ -51,7 +51,3 @@ cover: /assets/image/code-maze.com/why-docker-docker-cli-examples/banner.png
   preview="/assets/image/code-maze.com/why-docker-docker-cli-examples/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

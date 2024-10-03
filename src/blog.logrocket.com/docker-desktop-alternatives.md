@@ -416,7 +416,3 @@ limactl start
 In this article, we’ve described several Docker and Docker Desktop alternatives for building, running, and distributing container images. Although Docker remains the dominant platform for containerization and container management, it’s good to know about alternative tools that may work better for your use case.
 
 Replacing a specific Docker aspect should be fairly seamless because each tool mentioned adheres to the OCI specification. Be sure to leave a comment if there is any tool you think we missed. Thanks for reading!
-
----
-
-<TagLinks />

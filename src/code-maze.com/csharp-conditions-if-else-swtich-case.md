@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-conditions-if-else-swtich-case/banner.
   preview="/assets/image/code-maze.com/csharp-conditions-if-else-swtich-case/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

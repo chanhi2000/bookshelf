@@ -49,7 +49,3 @@ cover: https://journaldev.nyc3.cdn.digitaloceanspaces.com/2019/10/Python-Pretty-
   preview="https://journaldev.nyc3.cdn.digitaloceanspaces.com/2019/10/Python-Pretty-Print-JSON.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

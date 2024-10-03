@@ -51,7 +51,3 @@ cover: /assets/image/code-maze.com/aspnetcore-app-dockerfiles/banner.png
   preview="/assets/image/code-maze.com/aspnetcore-app-dockerfiles/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

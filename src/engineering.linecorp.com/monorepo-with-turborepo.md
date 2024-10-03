@@ -63,7 +63,3 @@ cover: https://engineering.linecorp.com/wp-content/uploads/2022/04/turborepo3.pn
   preview="https://engineering.linecorp.com/wp-content/uploads/2022/04/turborepo3.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/owasp-broken-authentication/banner.png
   preview="/assets/image/code-maze.com/owasp-broken-authentication/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

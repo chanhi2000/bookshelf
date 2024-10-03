@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/custom-validation-in-blazor-webassembly/banne
   preview="/assets/image/code-maze.com/custom-validation-in-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

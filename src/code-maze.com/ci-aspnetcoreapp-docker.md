@@ -64,7 +64,3 @@ cover: /assets/image/code-maze.com/ci-aspnetcoreapp-docker/banner.png
   preview="/assets/image/code-maze.com/ci-aspnetcoreapp-docker/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

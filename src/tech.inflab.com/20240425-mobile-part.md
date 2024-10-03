@@ -55,7 +55,3 @@ cover: https://tech.inflab.com/og-image/20240425-mobile-part/index.png
   preview="https://tech.inflab.com/og-image/20240425-mobile-part/index.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

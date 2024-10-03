@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/swagger-ui-asp-net-core-web-api/banner.png
   preview="/assets/image/code-maze.com/swagger-ui-asp-net-core-web-api/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

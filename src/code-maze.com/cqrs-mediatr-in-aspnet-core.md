@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/cqrs-mediatr-in-aspnet-core/banner.png
   preview="/assets/image/code-maze.com/cqrs-mediatr-in-aspnet-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

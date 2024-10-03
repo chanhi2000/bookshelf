@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/identityserver4-authorization/banner.png
   preview="/assets/image/code-maze.com/identityserver4-authorization/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

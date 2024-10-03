@@ -61,7 +61,3 @@ cover: /assets/image/code-maze.com/getting-started-aspnetcore-mongodb/banner.png
   preview="/assets/image/code-maze.com/getting-started-aspnetcore-mongodb/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

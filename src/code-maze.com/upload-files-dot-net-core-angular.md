@@ -67,7 +67,3 @@ cover: /assets/image/code-maze.com/upload-files-dot-net-core-angular/banner.png
   preview="/assets/image/upload-files-dot-net-core-angular/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

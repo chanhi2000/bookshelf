@@ -564,7 +564,3 @@ Sometimes the nature of the project dictates that we shouldn’t change our conf
 In this article, we’ve learned what options are and why they’re good for us. We’ve also covered different ways to implement options, as well as the pros and cons of each one. As we’ve mentioned, this is a powerful mechanism and you need to decide carefully which one is the best for your concrete project.
 
 In the next article, we’ll cover [options validation](/code-maze.com/aspnet-configuration-options-validation.md), and you can find other parts of this series on the [ASP.NET Core Web API page](/code-maze.com/net-core-series.md#configuration).
-
----
-
-<TagLinks />

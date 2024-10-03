@@ -614,7 +614,3 @@ In all the previous articles, we have covered all the material related logic we 
 Of course, if you have any problem creating new functionalities, we have provided the source code for that as well.
 
 So, feel free to read them, if you haven’t already, and make your own Update and Delete parts of this project.
-
----
-
-<TagLinks />

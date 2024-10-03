@@ -728,8 +728,5 @@ As a challenge from this article, you can generate documentation in other format
 
 We hope you enjoyed this tutorial. If you have any questions or comments, please join the forum discussion below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2022/01/documenting-kotlin-code_materials.zip

@@ -77,7 +77,3 @@ cover: /assets/image/code-maze.com/mysql-aspnetcore-docker-compose/banner.png
   preview="/assets/image/code-maze.com/mysql-aspnetcore-docker-compose/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

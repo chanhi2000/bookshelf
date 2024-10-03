@@ -118,7 +118,3 @@ You can achieve the same result in other browsers by using the **Filter** text b
 - [Edit CSS filters](https://devtoolstips.org/tips/en/edit-css-filters) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

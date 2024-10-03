@@ -219,7 +219,3 @@ This article wasn't meant to persuade you to completely ditch Docker, rather its
 - [Comparing Next-Generation Container Image Building Tools](https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Comparing-Next-Generation-Container-Image-Building-Tools-OSS-Akihiro-Suda.pdf)
 - [A Comprehensive Container Runtime Comparison](https://www.capitalone.com/tech/cloud/container-runtime)
 - [Building containers without Docker](https://blog.alexellis.io/building-containers-without-docker)
-
----
-
-<TagLinks />

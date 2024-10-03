@@ -78,7 +78,3 @@ cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Proc
   preview="https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Processes-in-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

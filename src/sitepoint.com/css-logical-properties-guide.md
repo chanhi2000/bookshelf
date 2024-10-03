@@ -46,7 +46,3 @@ cover: https://uploads.sitepoint.com/wp-content/uploads/2024/04/1712189279css-lo
   preview="https://uploads.sitepoint.com/wp-content/uploads/2024/04/1712189279css-logical-properties-complete-guide-768x435.jpg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

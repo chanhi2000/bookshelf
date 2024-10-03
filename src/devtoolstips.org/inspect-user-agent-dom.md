@@ -142,7 +142,3 @@ To display user-agent DOM nodes in DevTools, and therefore inspect and style it:
 - [Copy an element's JavaScript path](https://devtoolstips.org/tips/en/copy-element-js-path) <!-- TODO: add VPCard -->
 
 :::
-
----
-
-<TagLinks />

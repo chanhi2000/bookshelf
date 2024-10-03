@@ -306,7 +306,3 @@ Note that you can follow these same steps if you only want one line of text. The
 In this article, we looked at how we can use CSS to create a typewriter animation effect with no JavaScript at all. It’s easy to do this with just basic HTML code and non-complex CSS syntax. Plus, it has no browser support issues!
 
 A typewriter animation effect on our website will add interest and delight to our web pages. Please share if you found this helpful.
-
----
-
-<TagLinks />

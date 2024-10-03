@@ -1076,8 +1076,5 @@ You can also access your SQLite databases directly from your Terminal by typing 
 
 I hope you enjoyed this whirlwind introduction to working with SQLite and Swift! If you have any questions or comments, please join the discussion below.
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2020/01/SQLite-With-Swift-Getting-Started.zip

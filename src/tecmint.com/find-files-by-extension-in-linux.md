@@ -58,7 +58,3 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Find-Multiple-File-Names-i
   preview="https://tecmint.com/wp-content/uploads/2016/07/Find-Multiple-File-Names-in-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

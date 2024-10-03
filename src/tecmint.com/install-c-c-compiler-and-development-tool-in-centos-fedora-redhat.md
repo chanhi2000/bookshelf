@@ -64,7 +64,3 @@ cover: https://tecmint.com/wp-content/uploads/2015/09/Install-C-C-Compiler-and-D
   preview="https://tecmint.com/wp-content/uploads/2015/09/Install-C-C-Compiler-and-Development-Tools.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

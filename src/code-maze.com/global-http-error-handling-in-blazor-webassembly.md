@@ -53,7 +53,3 @@ cover: /assets/image/code-maze.com/global-http-error-handling-in-blazor-webassem
   preview="/assets/image/code-maze.com/global-http-error-handling-in-blazor-webassembly/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

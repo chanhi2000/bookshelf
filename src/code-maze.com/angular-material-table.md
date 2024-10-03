@@ -738,7 +738,3 @@ In this article, we have learned:
 - To apply sorting, filtering, and pagination to the material table
 
 In the next article, we are going to [create error pages by focusing on the material components](/code-maze.com/angular-material-error-details-pages.md) and to create owner details component.
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/aspnetcore-unit-testing-xunit/banner.png
   preview="/assets/image/code-maze.com/aspnetcore-unit-testing-xunit/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/identity-asp-net-core-project/banner.png
   preview="/assets/image/code-maze.com/identity-asp-net-core-project/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

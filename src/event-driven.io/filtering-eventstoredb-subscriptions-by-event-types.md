@@ -65,7 +65,3 @@ cover: https://event-driven.io/static/ac7ebf197e1a9ec135ecce515f6c4edb/a331c/202
   preview="https://event-driven.io/static/ac7ebf197e1a9ec135ecce515f6c4edb/a331c/2024-06-30-cover.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

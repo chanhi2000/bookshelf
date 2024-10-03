@@ -594,7 +594,3 @@ extension Result {
 Error handling is one of the parts of Swift I adore: it's purposeful and opinioned, the pieces all compose well, and it helps take a tricky aspect of programming and makes it easier through useful application of a static type system. For C++ practitioners, there's a lot to be familiar with, because the basic model is effectively the same: thrown errors propagate up until they hit a matching catch. However, the defaults have been re-oriented to make exceptional conditions uncommon, static checking has been made sound to prevent accidents, and exceptional control flow has been made explicit to aid in understanding code.
 
 And although it's not baked into the language design per se, Swift has definite opinions about when to throw errors and when to trap. Programmer errors should trap as soon as they are detected to prevent them from causing bad behavior, including security issues. Other exceptional conditions that prevent the normal flow of the problem should be reported as errors, preserving enough detail to provide a useful error message to be logged for the programmer or reported to the end user. I believe that following this philosophy, and being properly supported by the language in handling errors, leads to better-quality code in the long run.
-
----
-
-<TagLinks />

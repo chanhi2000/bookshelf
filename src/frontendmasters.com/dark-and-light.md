@@ -48,7 +48,3 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/lig
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/light-dark-thumb.jpg?w=1000&ssl=1"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

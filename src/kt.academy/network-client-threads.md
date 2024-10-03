@@ -51,7 +51,3 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-a
   preview="https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fpromotion%2Fnetwork-client-threads.jpg&w=576&q=75"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

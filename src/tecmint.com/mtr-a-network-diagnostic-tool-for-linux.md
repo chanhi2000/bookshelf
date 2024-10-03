@@ -78,7 +78,3 @@ cover: https://tecmint.com/wp-content/uploads/2018/06/MTR-Network-Diagnostic-Too
   preview="https://tecmint.com/wp-content/uploads/2018/06/MTR-Network-Diagnostic-Tool-for-Linux.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

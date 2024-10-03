@@ -169,7 +169,3 @@ signed response 를 앱에서 받은 후 그 값을 신뢰할수 있는 서버�
 요약하자면 Android Q 부터는 기기 식별자를 더이상 사용할 수 없습니다.
 
 각 상황에 맞게 **SSAID**, **DRM API** 그리고 **SafetyNet API** 를 사용하면 됩니다.
-
----
-
-<TagLinks />

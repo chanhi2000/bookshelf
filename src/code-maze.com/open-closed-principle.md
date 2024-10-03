@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/open-closed-principle/banner.png
   preview="/assets/image/open-closed-principle/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

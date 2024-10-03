@@ -54,7 +54,3 @@ cover: https://droidcon.com/wp-content/uploads/2023/05/droidcon_visuals_Flaechen
   preview="https://droidcon.com/wp-content/uploads/2023/05/droidcon_visuals_Flaechen_RGB_droidcon_visual_NEU_18-scaled.jpg"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

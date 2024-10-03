@@ -50,7 +50,3 @@ cover: /assets/image/code-maze.com/introduction-to-cloud-computing-and-azure/ban
   preview="/assets/image/code-maze.com/introduction-to-cloud-computing-and-azure/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

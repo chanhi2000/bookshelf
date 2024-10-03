@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/csharp-structures/banner.png
   preview="/assets/image/csharp-structures/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

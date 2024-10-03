@@ -62,7 +62,3 @@ cover: https://zuminternet.github.io/images/portal/post/2023-07-07-spring-sessio
   preview="https://zuminternet.github.io/images/portal/post/2023-07-07-spring-session/thumbnail.png"/>
 
 <!-- TODO:  작성 -->
-
----
-
-<TagLinks />

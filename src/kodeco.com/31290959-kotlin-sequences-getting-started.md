@@ -437,8 +437,5 @@ To measure the performance of an app, you'll find several methods and tools. You
 
 I hope you've enjoyed this tutorial. If you have any questions, tips or comments, feel free to join the discussion below.
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2022/03/kotlin-sequences-materials.zip

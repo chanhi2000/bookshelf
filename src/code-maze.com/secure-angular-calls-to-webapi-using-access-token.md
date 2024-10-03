@@ -68,7 +68,3 @@ cover: /assets/image/code-maze.com/ecure-angular-calls-to-webapi-using-access-to
   preview="/assets/image/code-maze.com/ecure-angular-calls-to-webapi-using-access-to/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/interface-segregation-principle/banner.png
   preview="/assets/image/interface-segregation-principle/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

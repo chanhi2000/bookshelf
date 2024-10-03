@@ -60,7 +60,3 @@ cover: /assets/image/code-maze.com/consume-graphql-api-with-asp-net-core/banner.
   preview="/assets/image/code-maze.com/consume-graphql-api-with-asp-net-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

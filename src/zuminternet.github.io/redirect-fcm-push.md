@@ -63,7 +63,3 @@ cover: https://zuminternet.github.io/images/portal/post/2023-07-11-redirect-FCM-
   preview="https://zuminternet.github.io/images/portal/post/2023-07-11-redirect-FCM-push/thumbnail.png"/>
 
 <!-- TODO:  작성 -->
-
----
-
-<TagLinks />

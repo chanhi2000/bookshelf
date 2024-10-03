@@ -49,7 +49,3 @@ cover: https://digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstat
   preview="https://digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fintro-to-cloud.d49bc5f7.jpeg&width=828"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/differences-between-net-framework-net-core-an
   preview="/assets/image/code-maze.com/differences-between-net-framework-net-core-and-net-standard/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

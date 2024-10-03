@@ -62,7 +62,3 @@ cover: /assets/image/code-maze.com/asticsearch-aspnet-core/banner.png
   preview="/assets/image/code-maze.com/asticsearch-aspnet-core/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

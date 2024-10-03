@@ -870,7 +870,3 @@ Swift's generics are a wonderful way to do generic programming. Protocols make i
 Throughout your generics journey in Swift, separate type checking has your back. It's hard to express how different it is from the experience of working with C++ templates, because this entire failure mode---instantiation backtraces---is just *gone*. For me, it makes generic programming fun, and I'm never afraid to go generalize some code. You just have to try it.
 
 This has been a very, very long post. Thanks for reading all the way to the end! My next post is going to go further into something we touched on here: *type erasure*. There's a lot of expressivity to be gained in proper use of runtime polymorphism, and we're going to explore it all.
-
----
-
-<TagLinks />

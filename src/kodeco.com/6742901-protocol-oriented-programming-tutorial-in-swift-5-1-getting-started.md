@@ -561,8 +561,5 @@ As with any programming paradigm, it's easy to get overly exuberant and use it f
 
 Have any questions? Let us know in the forum discussion below!
 
----
-
-<TagLinks />
 
 [download-material]: https://koenig-media.raywenderlich.com/uploads/2019/12/Protocol_Oriented_Programming_Materials-1.zip

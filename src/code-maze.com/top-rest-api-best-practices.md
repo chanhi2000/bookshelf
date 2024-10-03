@@ -48,7 +48,3 @@ cover: /assets/image/code-maze.com/top-rest-api-best-practices/banner.png
   preview="/assets/image/code-maze.com/top-rest-api-best-practices/banner.png"/>
 
 <!-- TODO: 작성 -->
-
----
-
-<TagLinks />

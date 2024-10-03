@@ -338,7 +338,3 @@ Full Route Cache 적용 외에도 정적 리소스들(js, css)을 Load Balancer�
 ### 정리
 
 이 글에서는 자세히 다루지 않았지만 [<FontIcon icon="fa-brands fa-react"/>React Server Component](https://servercomponents.dev/)를 비롯해서 Next.js의 App Router가 아직은 공식적으로 `experimental` 단계인 기능이나 숨어있는 버그들이 있다 보니 프로덕션 단계까지 구현하는 데에 어려움이 많았습니다. 디버깅 툴이 더 고도화되면 좋겠다 생각했고, 다른 라이브러리들의 적절한 대응도 필요해 보였습니다. 그럼에도 이 글의 사례처럼 장점을 적절하게 활용한다면 골을 더 많이 넣는 공격수가 될 수 있지 않을까 생각하며 글을 마칩니다.
-
----
-
-<TagLinks />
