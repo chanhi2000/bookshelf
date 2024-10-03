@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Concurrency in top-level code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.7/top-level-concurrency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/top-level-concurrency.html
 isOriginal: false
 ---
 

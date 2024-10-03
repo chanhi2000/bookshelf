@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let users find and replace text
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-users-find-and-replace-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-users-find-and-replace-text.html
 ---
 
 # {{ $frontmatter.title }} 관련

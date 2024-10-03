@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: lazy now works in local contexts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/local-lazy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/local-lazy.html
 isOriginal: false
 ---
 

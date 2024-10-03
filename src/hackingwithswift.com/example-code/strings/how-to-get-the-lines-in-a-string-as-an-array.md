@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to get the lines in a string as an array"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-get-the-lines-in-a-string-as-an-array.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-get-the-lines-in-a-string-as-an-array.html
 date: 2018-03-28
 isOriginal: false
 ---

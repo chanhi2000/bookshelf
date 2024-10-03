@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Adding views to UIStackView with addArrangedSubview()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/31/03-adding-views-to-uistackview-with-addarrangedsubview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/31/03-adding-views-to-uistackview-with-addarrangedsubview.html
 isOriginal: false
 ---
 

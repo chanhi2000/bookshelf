@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a toolbar and add buttons to it
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-toolbar-and-add-buttons-to-it.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-toolbar-and-add-buttons-to-it.html
 ---
 
 # {{ $frontmatter.title }} 관련

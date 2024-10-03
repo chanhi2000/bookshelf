@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Effectful read-only properties
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/effectful-read-only-properties.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/effectful-read-only-properties.html
 isOriginal: false
 ---
 

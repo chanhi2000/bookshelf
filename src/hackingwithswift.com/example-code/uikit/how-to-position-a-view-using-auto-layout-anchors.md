@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to position a view using Auto Layout anchors"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-position-a-view-using-auto-layout-anchors.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-position-a-view-using-auto-layout-anchors.html
 date: 2019-03-28
 isOriginal: false
 ---

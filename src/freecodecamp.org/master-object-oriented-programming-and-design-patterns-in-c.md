@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Master Object-Oriented Programming and Design Patterns in C#
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/master-object-oriented-programming-and-design-patterns-in-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-object-oriented-programming-and-design-patterns-in-c.html
 prev: /programming/cs/articles/README.md
 date: 2024-09-19
 isOriginal: false

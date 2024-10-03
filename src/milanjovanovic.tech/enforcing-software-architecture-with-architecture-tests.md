@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Enforcing Software Architecture With Architecture Tests"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/enforcing-software-architecture-with-architecture-tests.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/enforcing-software-architecture-with-architecture-tests.html
 prev: /programming/cs/articles/README.md
 date: 2023-05-06
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make two views the same width or height
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-two-views-the-same-width-or-height.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-two-views-the-same-width-or-height.html
 ---
 
 # {{ $frontmatter.title }} 관련

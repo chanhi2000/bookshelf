@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Master Claims Transformation for Flexible ASP.NET Core Authorization
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/master-claims-transformation-for-flexible-aspnetcore-authorization.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/master-claims-transformation-for-flexible-aspnetcore-authorization.html
 prev: /programming/cs/articles/README.md
 date: 2024-04-06
 isOriginal: false

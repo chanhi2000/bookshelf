@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: CQRS Pattern With MediatR
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/cqrs-pattern-with-mediatr.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/cqrs-pattern-with-mediatr.html
 prev: /programming/cs/articles/README.md
 date: 2023-10-21
 isOriginal: false

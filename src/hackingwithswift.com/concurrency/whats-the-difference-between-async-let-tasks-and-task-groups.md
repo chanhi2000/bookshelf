@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What’s the difference between async let, tasks, and task groups?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/whats-the-difference-between-async-let-tasks-and-task-groups.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/whats-the-difference-between-async-let-tasks-and-task-groups.html
 date: 2023-04-25
 isOriginal: false
 ---

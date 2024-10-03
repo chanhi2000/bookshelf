@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Mastering VIM: Your Guide to Efficient Text Editing"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/mastering-vim-your-guide-to-efficient-text-editing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mastering-vim-your-guide-to-efficient-text-editing.html
 prev: /tool/vim/articles/README.md
 date: 2024-06-24
 isOriginal: false

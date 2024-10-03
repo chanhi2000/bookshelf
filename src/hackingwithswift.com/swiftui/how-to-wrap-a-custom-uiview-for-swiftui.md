@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to wrap a custom UIView for SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-wrap-a-custom-uiview-for-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-wrap-a-custom-uiview-for-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련

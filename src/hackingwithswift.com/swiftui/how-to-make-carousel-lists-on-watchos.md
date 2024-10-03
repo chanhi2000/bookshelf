@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make carousel lists on watchOS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-carousel-lists-on-watchos.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-carousel-lists-on-watchos.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Benchmark Tests for Your Golang Functions"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-write-benchmark-tests-for-your-golang-functions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-benchmark-tests-for-your-golang-functions.html
 prev: /programming/go/articles/README.md
 date: 2024-09-23
 isOriginal: false

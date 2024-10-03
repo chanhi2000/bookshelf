@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to lazy load views using LazyVStack and LazyHStack
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-lazy-load-views-using-lazyvstack-and-lazyhstack.html
 ---
 
 # {{ $frontmatter.title }} 관련

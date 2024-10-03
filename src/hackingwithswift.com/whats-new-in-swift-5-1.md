@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Opaque return types, implicit returns, universal self, and more
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/whats-new-in-swift-5-1.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/whats-new-in-swift-5-1.html
 prev: /programming/swift/articles/README.md
 date: 2019-09-18
 isOriginal: false

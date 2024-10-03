@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to Match Parentheses in JavaScript without Using Regex
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-match-parentheses-in-javascript-without-using-regex.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-match-parentheses-in-javascript-without-using-regex.html
 prev: /programming/js/articles/README.md
 date: 2024-08-12
 isOriginal: false

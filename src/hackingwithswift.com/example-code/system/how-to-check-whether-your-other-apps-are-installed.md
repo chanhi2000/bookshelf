@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to check whether your other apps are installed"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-to-check-whether-your-other-apps-are-installed.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-check-whether-your-other-apps-are-installed.html
 date: 2018-03-28
 isOriginal: false
 ---

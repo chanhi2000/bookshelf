@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating the basic UI: UITabBarController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/07/03-parsing-json-using-the-codable-protocol.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/07/03-parsing-json-using-the-codable-protocol.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to embed a view in a navigation view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-embed-a-view-in-a-navigation-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-embed-a-view-in-a-navigation-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

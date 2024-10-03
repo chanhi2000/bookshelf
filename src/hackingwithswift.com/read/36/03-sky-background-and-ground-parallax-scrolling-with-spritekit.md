@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Sky, background and ground: parallax scrolling with SpriteKit"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/03-sky-background-and-ground-parallax-scrolling-with-spritekit.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/03-sky-background-and-ground-parallax-scrolling-with-spritekit.html
 isOriginal: false
 ---
 

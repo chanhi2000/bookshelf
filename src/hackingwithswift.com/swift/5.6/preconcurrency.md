@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: More concurrency changes
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.6/preconcurrency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.6/preconcurrency.html
 isOriginal: false
 ---
 

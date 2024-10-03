@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: How to Handle Concurrency with Goroutines and Channels in Go
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-handle-concurrency-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-concurrency-in-go.html
 prev: /programming/go/articles/README.md
 date: 2024-05-10
 isOriginal: false

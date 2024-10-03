@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: Linear Algebra Crash Course - Mathematics for Machine Learning and Generative AI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai.html
 prev: /academics/math/articles/README.md
 date: 2024-05-28
 isOriginal: false

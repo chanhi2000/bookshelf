@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Error handling in Swift: try, catch, do and throw"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch.html
 prev: /programming/swift/articles/README.md
 date: 2019-09-23
 isOriginal: false

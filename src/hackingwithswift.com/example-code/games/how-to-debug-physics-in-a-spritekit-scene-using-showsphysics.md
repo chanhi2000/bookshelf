@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to debug physics in a SpriteKit scene using showsPhysics"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-debug-physics-in-a-spritekit-scene-using-showsphysics.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-debug-physics-in-a-spritekit-scene-using-showsphysics.html
 date: 2019-03-28
 isOriginal: false
 ---

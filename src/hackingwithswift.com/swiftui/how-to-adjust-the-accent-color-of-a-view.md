@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust the accent color of a view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-the-accent-color-of-a-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-the-accent-color-of-a-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

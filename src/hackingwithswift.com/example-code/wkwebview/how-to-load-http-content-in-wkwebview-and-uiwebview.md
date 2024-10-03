@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to load HTTP content in WKWebView and UIWebView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/how-to-load-http-content-in-wkwebview-and-uiwebview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/how-to-load-http-content-in-wkwebview-and-uiwebview.html
 date: 2019-03-28
 isOriginal: false
 ---

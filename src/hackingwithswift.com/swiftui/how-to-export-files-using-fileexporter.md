@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to export files using fileExporter()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-export-files-using-fileexporter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-export-files-using-fileexporter.html
 ---
 
 # {{ $frontmatter.title }} 관련

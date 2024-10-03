@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "GCD 101: async()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/09/03-gcd-101-async.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/09/03-gcd-101-async.html
 isOriginal: false
 ---
 

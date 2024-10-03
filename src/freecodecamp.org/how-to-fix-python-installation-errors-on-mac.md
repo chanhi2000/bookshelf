@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Fix Common Python Installation Errors on macOS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-fix-python-installation-errors-on-mac.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fix-python-installation-errors-on-mac.html
 prev: /programming/py/articles/README.md
 date: 2024-06-10
 isOriginal: false

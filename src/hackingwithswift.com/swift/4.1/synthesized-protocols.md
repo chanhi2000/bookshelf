@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Synthesized Equatable and Hashable
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.1/synthesized-protocols.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.1/synthesized-protocols.html
 prev: /hackingwithswift.com/swift/4.2/toggle.md
 isOriginal: false
 ---

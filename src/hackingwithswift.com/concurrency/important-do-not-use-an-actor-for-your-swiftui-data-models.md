@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Important: Do not use an actor for your SwiftUI data models"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/important-do-not-use-an-actor-for-your-swiftui-data-models.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/important-do-not-use-an-actor-for-your-swiftui-data-models.html
 next: /hackingwithswift.com/concurrency/how-to-download-json-from-the-internet-and-decode-it-into-any-codable-type.md
 date: 2021-11-28
 isOriginal: false

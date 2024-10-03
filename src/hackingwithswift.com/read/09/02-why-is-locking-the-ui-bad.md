@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Why is locking the UI bad?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/09/02-why-is-locking-the-ui-bad.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/09/02-why-is-locking-the-ui-bad.html
 isOriginal: false
 ---
 

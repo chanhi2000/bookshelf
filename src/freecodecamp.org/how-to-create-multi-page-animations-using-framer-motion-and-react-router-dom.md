@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Create Multi-Page Animations Using Framer Motion & React-Router-Dom
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-17
 isOriginal: false

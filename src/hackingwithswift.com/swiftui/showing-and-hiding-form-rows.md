@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Showing and hiding form rows
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/showing-and-hiding-form-rows.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/showing-and-hiding-form-rows.html
 ---
 
 # {{ $frontmatter.title }} 관련

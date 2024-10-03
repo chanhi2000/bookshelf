@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Extending property wrappers to function and closure parameters
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/property-wrapper-function-parameters.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/property-wrapper-function-parameters.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Penguin, show thyself: SKAction moveBy(x:y:duration:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/14/03-penguin-show-thyself-skaction-movebyxyduration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/14/03-penguin-show-thyself-skaction-movebyxyduration.html
 isOriginal: false
 ---
 

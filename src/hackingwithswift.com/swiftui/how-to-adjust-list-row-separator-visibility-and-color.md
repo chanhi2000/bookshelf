@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust List row separator visibility and color
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-list-row-separator-visibility-and-color.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-list-row-separator-visibility-and-color.html
 ---
 
 # {{ $frontmatter.title }} 관련

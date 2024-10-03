@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: Messaging Made Easy With Azure Service Bus
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/messaging-made-easy-with-azure-service-bus.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/messaging-made-easy-with-azure-service-bus.html
 prev: /programming/cs/articles/README.md
 date: 2023-02-11
 isOriginal: false

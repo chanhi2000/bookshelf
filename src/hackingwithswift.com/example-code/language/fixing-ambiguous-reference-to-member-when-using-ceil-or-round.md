@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Fixing ”Ambiguous reference to member when using ceil or round”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/fixing-ambiguous-reference-to-member-when-using-ceil-or-round.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/fixing-ambiguous-reference-to-member-when-using-ceil-or-round.html
 date: 2019-03-28
 isOriginal: false
 ---

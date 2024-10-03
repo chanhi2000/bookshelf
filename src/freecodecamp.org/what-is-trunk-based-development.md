@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-trunk-based-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-trunk-based-development.html
 prev: /programming/git/articles/README.md
 date: 2024-06-18
 isOriginal: false

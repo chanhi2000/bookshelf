@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Polishing designs with fonts and colors
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/polishing-designs-with-fonts-and-colors.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/polishing-designs-with-fonts-and-colors.html
 ---
 
 # {{ $frontmatter.title }} 관련

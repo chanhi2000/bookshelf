@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to specify floating-point precision in a string"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-specify-floating-point-precision-in-a-string.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-specify-floating-point-precision-in-a-string.html
 date: 2019-06-01
 isOriginal: false
 ---

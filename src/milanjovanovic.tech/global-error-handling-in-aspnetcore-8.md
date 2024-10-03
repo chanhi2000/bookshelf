@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Global Error Handling in ASP.NET Core 8
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/global-error-handling-in-aspnetcore-8.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/global-error-handling-in-aspnetcore-8.html
 prev: /programming/cs/articles/README.md
 date: 2023-12-02
 isOriginal: false

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Creating, editing, and deleting model objects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/creating-editing-and-deleting-model-objects.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/creating-editing-and-deleting-model-objects.html
 date: 2024-06-08
 isOriginal: false
 ---

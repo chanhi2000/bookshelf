@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Catalyst - free Swift example code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/catalyst/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/catalyst/
 ---
 
 # {{ $frontmatter.title }} 관련

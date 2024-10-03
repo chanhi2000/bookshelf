@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "React Router v6: A Beginner’s Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/sitepoint.com/react-router-complete-guide.html
+      content: https://chanhi2000.github.io/bookshelf/sitepoint.com/react-router-complete-guide.html
 prev: /programming/js-react/articles/README.md
 date: 2023-11-07
 isOriginal: false

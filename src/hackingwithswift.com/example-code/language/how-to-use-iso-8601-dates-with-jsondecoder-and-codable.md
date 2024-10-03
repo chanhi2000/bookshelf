@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use ISO-8601 dates with JSONDecoder and Codable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-use-iso-8601-dates-with-jsondecoder-and-codable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-use-iso-8601-dates-with-jsondecoder-and-codable.html
 date: 2019-03-28
 isOriginal: false
 ---

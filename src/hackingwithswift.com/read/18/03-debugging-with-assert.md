@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Debugging with assert()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/18/03-debugging-with-assert.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/18/03-debugging-with-assert.html
 isOriginal: false
 ---
 

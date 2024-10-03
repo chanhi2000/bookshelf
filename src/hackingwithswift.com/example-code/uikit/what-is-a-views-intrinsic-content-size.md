@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a view’s intrinsic content size?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/what-is-a-views-intrinsic-content-size.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/what-is-a-views-intrinsic-content-size.html
 date: 2020-04-18
 isOriginal: false
 ---

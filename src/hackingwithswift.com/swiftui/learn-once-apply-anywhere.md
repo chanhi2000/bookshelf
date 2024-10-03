@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Learn once, apply anywhere
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/learn-once-apply-anywhere.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/learn-once-apply-anywhere.html
 prev: /hackingwithswift.com/swiftui/how-to-insert-images-into-text.md
 ---
 

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Callable values of user-defined nominal types
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.2/callasfunction.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.2/callasfunction.html
 isOriginal: false
 ---
 

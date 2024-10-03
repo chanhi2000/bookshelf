@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to use @Query to read SwiftData objects from SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-use-query-to-read-swiftdata-objects-from-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-use-query-to-read-swiftdata-objects-from-swiftui.html
 date: 2023-09-22
 isOriginal: false
 ---

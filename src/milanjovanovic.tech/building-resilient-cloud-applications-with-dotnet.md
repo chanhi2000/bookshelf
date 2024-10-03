@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Building Resilient Cloud Applications With .NET
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/building-resilient-cloud-applications-with-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/building-resilient-cloud-applications-with-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2024-05-11
 isOriginal: false

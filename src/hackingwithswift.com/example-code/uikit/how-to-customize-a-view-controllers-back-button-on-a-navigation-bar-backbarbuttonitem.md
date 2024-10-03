@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to customize a view controller’s back button on a navigation bar: backBarButtonItem"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-customize-a-view-controllers-back-button-on-a-navigation-bar-backbarbuttonitem.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-customize-a-view-controllers-back-button-on-a-navigation-bar-backbarbuttonitem.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add multiple UIBarButtonItem to a navigation bar using rightBarButtonItems"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-add-multiple-uibarbuttonitem-to-a-navigation-bar-using-rightbarbuttonitems.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-add-multiple-uibarbuttonitem-to-a-navigation-bar-using-rightbarbuttonitems.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Customizing Toggle with ToggleStyle
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/customizing-toggle-with-togglestyle.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/customizing-toggle-with-togglestyle.html
 date: 2023-06-16
 isOriginal: false
 ---

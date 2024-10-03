@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Orchestration vs Choreography
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/orchestration-vs-choreography.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/orchestration-vs-choreography.html
 prev: /academics/system-design/articles/README.md
 date: 2023-08-26
 isOriginal: false

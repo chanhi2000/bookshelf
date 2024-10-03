@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to read the contents of a SwiftData database store
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-read-the-contents-of-a-swiftdata-database-store.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-read-the-contents-of-a-swiftdata-database-store.html
 date: 2023-09-30
 isOriginal: false
 ---

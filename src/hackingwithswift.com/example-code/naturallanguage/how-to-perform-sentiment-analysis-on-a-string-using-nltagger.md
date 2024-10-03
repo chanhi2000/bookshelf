@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to perform sentiment analysis on a string using NLTagger"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/naturallanguage/how-to-perform-sentiment-analysis-on-a-string-using-nltagger.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/naturallanguage/how-to-perform-sentiment-analysis-on-a-string-using-nltagger.html
 date: 2019-10-05
 isOriginal: false
 ---

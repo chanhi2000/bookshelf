@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Use the Python SDK to Build Your Own Web Scraper
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/use-python-sdk-to-build-a-web-scraper.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-python-sdk-to-build-a-web-scraper.html
 prev: /programming/py/articles/README.md
 date: 2024-07-10
 isOriginal: false

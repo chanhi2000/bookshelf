@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to fix the error “async call in a function that does not support concurrency”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-fix-the-error-async-call-in-a-function-that-does-not-support-concurrency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-fix-the-error-async-call-in-a-function-that-does-not-support-concurrency.html
 next: /hackingwithswift.com/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream.md
 date: 2021-11-28
 isOriginal: false

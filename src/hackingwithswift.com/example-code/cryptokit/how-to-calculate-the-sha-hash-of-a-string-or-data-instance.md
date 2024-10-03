@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to calculate the SHA hash of a String or Data instance"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/cryptokit/how-to-calculate-the-sha-hash-of-a-string-or-data-instance.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/cryptokit/how-to-calculate-the-sha-hash-of-a-string-or-data-instance.html
 date: 2019-10-09
 isOriginal: false
 ---

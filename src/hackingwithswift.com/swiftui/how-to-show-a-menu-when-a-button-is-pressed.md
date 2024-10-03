@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show a menu when a button is pressed
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-a-menu-when-a-button-is-pressed.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-a-menu-when-a-button-is-pressed.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence.html
 prev: /programming/py/articles/README.md
 date: 2024-06-11
 isOriginal: false

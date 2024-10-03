@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What’s the difference between == and ===?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/whats-the-difference-between-equalsequals-and-equalsequalsequals.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/whats-the-difference-between-equalsequals-and-equalsequalsequals.html
 date: 2019-06-01
 isOriginal: false
 ---

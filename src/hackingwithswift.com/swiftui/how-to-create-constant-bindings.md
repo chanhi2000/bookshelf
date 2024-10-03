@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create constant bindings
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-constant-bindings.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-constant-bindings.html
 ---
 
 # {{ $frontmatter.title }} 관련

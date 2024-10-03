@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Classes can now have static methods and properties
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.2/static.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.2/static.html
 isOriginal: false
 ---
 

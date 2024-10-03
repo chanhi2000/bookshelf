@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to run code when your app launches
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-run-code-when-your-app-launches.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-run-code-when-your-app-launches.html
 ---
 
 # {{ $frontmatter.title }} 관련

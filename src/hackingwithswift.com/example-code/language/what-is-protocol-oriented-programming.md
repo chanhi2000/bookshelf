@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is protocol-oriented programming?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming.html
 date: 2019-03-28
 isOriginal: false
 ---

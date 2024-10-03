@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to run tasks using SwiftUI’s task() modifier
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-run-tasks-using-swiftuis-task-modifier.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-run-tasks-using-swiftuis-task-modifier.html
 date: 2021-09-23
 isOriginal: false
 ---

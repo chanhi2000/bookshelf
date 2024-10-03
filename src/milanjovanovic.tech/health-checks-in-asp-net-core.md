@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Health Checks In ASP.NET Core For Monitoring Your Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/health-checks-in-asp-net-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/health-checks-in-asp-net-core.html
 prev: /programming/cs/articles/README.md
 date: 2023-04-29
 isOriginal: false

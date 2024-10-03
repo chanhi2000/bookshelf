@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Host Static Sites on Azure Static Web Apps for Free
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-host-static-sites-on-azure-static-web-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-host-static-sites-on-azure-static-web-apps.html
 prev: /devops/azure/articles/README.md
 date: 2024-06-18
 isOriginal: false

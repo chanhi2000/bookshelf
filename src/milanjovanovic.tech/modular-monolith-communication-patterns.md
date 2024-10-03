@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Modular Monolith Communication Patterns
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/modular-monolith-communication-patterns.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/modular-monolith-communication-patterns.html
 prev: /academics/system-design/articles/README.md
 date: 2023-08-05
 isOriginal: false

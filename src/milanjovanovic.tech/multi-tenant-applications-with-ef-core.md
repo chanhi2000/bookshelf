@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Multi-Tenant Applications With EF Core"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/multi-tenant-applications-with-ef-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/multi-tenant-applications-with-ef-core.html
 prev: /programming/cs/articles/README.md
 date: 2023-05-20
 isOriginal: false

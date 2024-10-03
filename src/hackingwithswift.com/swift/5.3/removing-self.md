@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: self is no longer required in many places
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/removing-self.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/removing-self.html
 isOriginal: false
 ---
 

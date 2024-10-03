@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Get started with Quarkus and JPAStreamer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/
 prev: /programming/java-quarkus/articles/README.md
 date: 2023-11-03
 isOriginal: false

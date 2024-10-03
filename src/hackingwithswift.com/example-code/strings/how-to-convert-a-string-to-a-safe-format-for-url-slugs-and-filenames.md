@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a string to a safe format for URL slugs and filenames"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-a-safe-format-for-url-slugs-and-filenames.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-a-safe-format-for-url-slugs-and-filenames.html
 date: 2018-03-28
 isOriginal: false
 ---

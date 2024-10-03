@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "It's play time: firstIndex(of:) and joined()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/08/04-its-play-time-firstindexof-and-joined.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/08/04-its-play-time-firstindexof-and-joined.html
 isOriginal: false
 ---
 

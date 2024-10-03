@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How I Made My EF Core Query 3.42x Faster With Batching
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-i-made-my-efcore-query-faster-with-batching.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-i-made-my-efcore-query-faster-with-batching.html
 prev: /programming/cs/articles/README.md
 date: 2024-02-03
 isOriginal: false

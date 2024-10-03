@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to set local alerts using UNNotificationCenter"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-set-local-alerts-using-unnotificationcenter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-set-local-alerts-using-unnotificationcenter.html
 date: 2018-03-28
 isOriginal: false
 ---

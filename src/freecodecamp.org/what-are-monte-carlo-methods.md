@@ -18,7 +18,7 @@ head:
     - property: og:description`
       content: What Are Monte Carlo Methods? How to Predict the Future with Python Simulations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-are-monte-carlo-methods.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-monte-carlo-methods.html
 prev: /programming/py/articles/README.md
 date: 2024-07-16
 isOriginal: false

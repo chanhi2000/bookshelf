@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Debugging with breakpoints"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/18/04-debugging-with-breakpoints.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/18/04-debugging-with-breakpoints.html
 isOriginal: false
 ---
 

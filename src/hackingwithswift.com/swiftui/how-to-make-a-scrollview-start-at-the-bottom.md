@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make a ScrollView start at the bottom
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-a-scrollview-start-at-the-bottom.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-a-scrollview-start-at-the-bottom.html
 ---
 
 # {{ $frontmatter.title }} 관련

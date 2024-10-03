@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Unit 4: Deploying a dockerized application to AWS"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/devops-with-gitlab-ci-course/unit-4-deploying-a-dockerized-application-to-aws.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/devops-with-gitlab-ci-course/unit-4-deploying-a-dockerized-application-to-aws.html
 ---
 
 # {{ $frontmatter.title }} 관련

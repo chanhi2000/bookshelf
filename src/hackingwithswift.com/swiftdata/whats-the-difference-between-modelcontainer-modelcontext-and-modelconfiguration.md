@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What's the difference between ModelContainer, ModelContext, and ModelConfiguration?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/whats-the-difference-between-modelcontainer-modelcontext-and-modelconfiguration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/whats-the-difference-between-modelcontainer-modelcontext-and-modelconfiguration.html
 prev: /hackingwithswift.com/swiftdata/wrap-up-our-swiftdata-project-is-complete.md
 date: 2023-09-31
 isOriginal: false

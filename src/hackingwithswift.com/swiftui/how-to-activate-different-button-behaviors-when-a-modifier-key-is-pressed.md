@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to activate different button behaviors when a modifier key is pressed
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-activate-different-button-behaviors-when-a-modifier-key-is-pressed.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-activate-different-button-behaviors-when-a-modifier-key-is-pressed.html
 next: /hackingwithswift.com/swiftui/introduction-to-using-core-data-with-swiftui.md
 date: 2024-06-21
 isOriginal: false

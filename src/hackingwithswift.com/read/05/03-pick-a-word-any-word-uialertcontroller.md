@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Pick a word, any word: UIAlertController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/05/03-pick-a-word-any-word-uialertcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/05/03-pick-a-word-any-word-uialertcontroller.html
 isOriginal: false
 ---
 

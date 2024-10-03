@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Enum case arrays, warning and compiler directives, and more!
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/whats-new-in-swift-4-2.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/whats-new-in-swift-4-2.html
 prev: /programming/swift/articles/README.md
 date: 2018-12-17
 isOriginal: false

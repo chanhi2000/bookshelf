@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to copy text to the clipboard using UIPasteboard"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-copy-text-to-the-clipboard-using-uipasteboard.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-copy-text-to-the-clipboard-using-uipasteboard.html
 date: 2023-04-25
 isOriginal: false
 ---

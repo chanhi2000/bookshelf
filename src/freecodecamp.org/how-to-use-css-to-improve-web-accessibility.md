@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: How to Use CSS to Improve Web Accessibility
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-css-to-improve-web-accessibility.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-css-to-improve-web-accessibility.html
 prev: /programming/css/articles/README.md
 date: 2024-09-18
 isOriginal: false

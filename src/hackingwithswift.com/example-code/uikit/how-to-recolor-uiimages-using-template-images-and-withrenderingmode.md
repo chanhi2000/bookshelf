@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to recolor UIImages using template images and withRenderingMode()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-recolor-uiimages-using-template-images-and-withrenderingmode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-recolor-uiimages-using-template-images-and-withrenderingmode.html
 date: 2019-03-28
 isOriginal: false
 ---

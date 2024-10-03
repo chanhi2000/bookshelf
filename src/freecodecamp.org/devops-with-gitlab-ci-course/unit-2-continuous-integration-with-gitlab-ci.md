@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Unit 2: Continuous Integration with GitLab CI"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/devops-with-gitlab-ci-course/unit-2-continuous-integration-with-gitlab-ci.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/devops-with-gitlab-ci-course/unit-2-continuous-integration-with-gitlab-ci.html
 date: 2022-03-02
 isOriginal: false
 author: Valentin Despa

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "A hands-on guide to the CloudKit dashboard"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/05-a-hands-on-guide-to-the-cloudkit-dashboard.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/05-a-hands-on-guide-to-the-cloudkit-dashboard.html
 isOriginal: false
 ---
 

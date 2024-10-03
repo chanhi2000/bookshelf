@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Create Software Architecture Diagrams Using the C4 Model"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-software-architecture-diagrams-using-the-c4-mode.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-software-architecture-diagrams-using-the-c4-mode.html
 prev: /academics/system-design/articles/README.md
 date: 2024-08-22
 isOriginal: false

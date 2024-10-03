@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Where is Swift concurrency supported?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/where-is-swift-concurrency-supported.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/where-is-swift-concurrency-supported.html
 date: 2021-07-01
 isOriginal: false
 ---

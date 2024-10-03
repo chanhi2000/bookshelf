@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/javascript-class-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-class-handbook.html
 prev: /programming/js/articles/README.md
 date: 2024-05-20
 isOriginal: false

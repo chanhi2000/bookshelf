@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to customize the display mode of NavigationSplitView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-customize-the-display-mode-of-navigationsplitview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-customize-the-display-mode-of-navigationsplitview.html
 ---
 
 # {{ $frontmatter.title }} 관련

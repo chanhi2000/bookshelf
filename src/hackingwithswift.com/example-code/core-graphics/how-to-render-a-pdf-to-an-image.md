@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to render a PDF to an image"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-render-a-pdf-to-an-image.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-render-a-pdf-to-an-image.html
 date: 2019-03-28
 isOriginal: false
 ---

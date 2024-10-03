@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create scrolling pages of content using tabViewStyle()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-scrolling-pages-of-content-using-tabviewstyle.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-scrolling-pages-of-content-using-tabviewstyle.html
 date: 2023-06-16
 isOriginal: false
 ---

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to make transient attributes in a SwiftData model
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-make-transient-attributes-in-a-swiftdata-model.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-make-transient-attributes-in-a-swiftdata-model.html
 date: 2023-09-30
 isOriginal: false
 ---

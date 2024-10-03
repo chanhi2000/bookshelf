@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: JS Remove Char from String – How to Trim a Character from a String in JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/javascript-remove-char-from-string.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-remove-char-from-string.html
 prev: /programming/js/articles/README.md
 date: 2024-05-09
 isOriginal: false

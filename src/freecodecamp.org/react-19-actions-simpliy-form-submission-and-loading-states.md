@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: React 19 Actions – How to Simplify Form Submission and Loading States
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-19-actions-simpliy-form-submission-and-loading-states.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-19-actions-simpliy-form-submission-and-loading-states.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-02
 isOriginal: false

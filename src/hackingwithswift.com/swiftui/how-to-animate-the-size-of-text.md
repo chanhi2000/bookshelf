@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to animate the size of text
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-animate-the-size-of-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-animate-the-size-of-text.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Presenting an alert
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/presenting-an-alert.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/presenting-an-alert.html
 ---
 
 # {{ $frontmatter.title }} 관련

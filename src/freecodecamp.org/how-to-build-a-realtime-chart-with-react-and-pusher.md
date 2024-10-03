@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: How to Build a Realtime Chart with React, HighCharts, and Pusher
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-a-realtime-chart-with-react-and-pusher.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-realtime-chart-with-react-and-pusher.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-02
 isOriginal: false

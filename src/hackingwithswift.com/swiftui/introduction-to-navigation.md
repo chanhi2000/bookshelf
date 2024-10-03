@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction to navigation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/introduction-to-navigation.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/introduction-to-navigation.html
 prev: /hackingwithswift.com/swiftui/how-to-position-and-style-subviews-that-come-from-a-different-view.md
 ---
 

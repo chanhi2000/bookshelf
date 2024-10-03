@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Swift Package Manager gains binary dependencies, resources, and more
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/spm-improvements.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/spm-improvements.html
 next: /hackingwithswift.com/swift/5.2/keypath-expressions.md
 isOriginal: false
 ---

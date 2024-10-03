@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Checking sequence elements match a condition
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/allsatisfy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/allsatisfy.html
 isOriginal: false
 ---
 

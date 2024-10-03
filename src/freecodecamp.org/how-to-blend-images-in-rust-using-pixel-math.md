@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Blend Images in Rust Using Pixel Math
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-blend-images-in-rust-using-pixel-math.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-blend-images-in-rust-using-pixel-math.html
 prev: /programming/rust/articles/README.md
 date: 2024-08-27
 isOriginal: false

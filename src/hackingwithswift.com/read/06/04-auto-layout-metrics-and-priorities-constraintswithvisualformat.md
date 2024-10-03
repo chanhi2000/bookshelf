@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Auto Layout metrics and priorities: constraints(withVisualFormat:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/06/04-auto-layout-metrics-and-priorities-constraintswithvisualformat.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/06/04-auto-layout-metrics-and-priorities-constraintswithvisualformat.html
 isOriginal: false
 ---
 

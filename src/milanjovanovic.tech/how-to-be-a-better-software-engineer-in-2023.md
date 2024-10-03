@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How To Be a Better Software Engineer In 2023
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-be-a-better-software-engineer-in-2023.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-be-a-better-software-engineer-in-2023.html
 prev: /projects/career/articles/README.md
 date: 2022-12-31
 isOriginal: false

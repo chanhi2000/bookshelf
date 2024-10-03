@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: One-sided ranges
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.0/one-sided-ranges.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.0/one-sided-ranges.html
 next: /hackingwithswift.com/swift/3.1/concrete-constrained-extensions.md
 isOriginal: false
 ---

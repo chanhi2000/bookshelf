@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Delivering notifications with CloudKit push messages: CKQuerySubscription"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/08-delivering-notifications-with-cloudkit-push-messages-ckquerysubscription.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/08-delivering-notifications-with-cloudkit-push-messages-ckquerysubscription.html
 isOriginal: false
 ---
 

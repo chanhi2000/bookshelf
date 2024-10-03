@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating the interface with UIStackView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/02-creating-the-interface-with-uistackview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/02-creating-the-interface-with-uistackview.html
 isOriginal: false
 ---
 

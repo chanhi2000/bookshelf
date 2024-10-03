@@ -6,17 +6,18 @@ import {
   sidebarEn,
 } from './configs/index.js'
 
-const imgLogoPath = '/bookshelf/assets/icon/favicon.svg'
+const imgLogoPath = '/assets/icon/favicon.svg'
 
 export default hopeTheme({
   fullscreen: true,
   logo: imgLogoPath,
   repo: 'chanhi2000/articles',
-  footer: 'MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a>',
-  displayFooter: true,
   repoLabel: 'Github',  
   repoDisplay: true,
-  hostname: "https://mister-hope.github.io",
+  lastUpdated: true,
+  footer: 'MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a>',
+  displayFooter: true,
+  hostname: "https://chanhi2000.github.io",
   iconAssets: "fontawesome-with-brands",
   docsDir: "src",
   navbar: navbarEn,

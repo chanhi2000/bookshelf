@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to create a document-based app with SwiftData
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-create-a-document-based-app-with-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-create-a-document-based-app-with-swiftdata.html
 date: 2023-09-30
 isOriginal: false
 ---

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: What are Higher Order Functions in JavaScript? Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/higher-order-functions-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/higher-order-functions-explained.html
 prev: /programming/js/articles/README.md
 date: 2024-05-02
 isOriginal: false

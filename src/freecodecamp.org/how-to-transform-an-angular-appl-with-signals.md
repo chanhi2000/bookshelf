@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Transform an Angular Application with Signals
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-transform-an-angular-appl-with-signals.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-transform-an-angular-appl-with-signals.html
 prev: /programming/js-angular/articles/README.md
 date: 2024-09-10
 isOriginal: false

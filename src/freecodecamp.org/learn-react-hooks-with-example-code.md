@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn React Hooks – Common Hooks Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-react-hooks-with-example-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-hooks-with-example-code.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-25
 isOriginal: false

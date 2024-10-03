@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Type placeholders
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.6/type-placeholders.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.6/type-placeholders.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Falling boxes: SKSpriteNode, UITouch, SKPhysicsBody"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/11/02-falling-boxes-skspritenode-uitouch-skphysicsbody.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/11/02-falling-boxes-skspritenode-uitouch-skphysicsbody.html
 isOriginal: false
 ---
 

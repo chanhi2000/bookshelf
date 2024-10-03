@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to read the interface orientation: portrait or landscape?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-read-the-interface-orientation-portrait-or-landscape.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-read-the-interface-orientation-portrait-or-landscape.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to dynamically change a query's sort order or predicate
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-dynamically-change-a-querys-sort-order-or-predicate.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-dynamically-change-a-querys-sort-order-or-predicate.html
 date: 2023-09-30
 isOriginal: false
 ---

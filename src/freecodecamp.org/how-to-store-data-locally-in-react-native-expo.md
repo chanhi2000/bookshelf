@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Store Data Locally in React Native Expo
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-store-data-locally-in-react-native-expo.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-store-data-locally-in-react-native-expo.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-13
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Designing our interface"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/01/03-designing-our-interface.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/01/03-designing-our-interface.html
 isOriginal: false
 ---
 

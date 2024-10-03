@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to create and use async properties
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-create-and-use-async-properties.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-create-and-use-async-properties.html
 date: 2023-01-19
 isOriginal: false
 ---

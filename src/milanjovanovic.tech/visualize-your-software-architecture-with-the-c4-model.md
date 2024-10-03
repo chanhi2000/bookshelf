@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Visualize Your Software Architecture With The C4 Model"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/visualize-your-software-architecture-with-the-c4-model.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/visualize-your-software-architecture-with-the-c4-model.html
 prev: /academics/system-design/articles/README.md
 date: 2023-05-13
 isOriginal: false

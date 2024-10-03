@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show annotations in a Map view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-annotations-in-a-map-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-annotations-in-a-map-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

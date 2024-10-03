@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Improved keypaths for key-value coding
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.0/keypaths.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.0/keypaths.html
 isOriginal: false
 ---
 

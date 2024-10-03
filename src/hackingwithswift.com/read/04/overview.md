@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 4: Easy Browser"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/04/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/04/overview.html
 prev: /hackingwithswift.com/read/03/03-wrap-up.md
 isOriginal: false
 ---

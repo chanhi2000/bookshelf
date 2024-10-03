@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Advanced Rate Limiting Use Cases In .NET"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/advanced-rate-limiting-use-cases-in-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/advanced-rate-limiting-use-cases-in-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2023-08-19
 isOriginal: false

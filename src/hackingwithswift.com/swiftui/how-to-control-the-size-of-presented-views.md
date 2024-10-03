@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to control the size of presented views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-control-the-size-of-presented-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-control-the-size-of-presented-views.html
 next: /hackingwithswift.com/swiftui/how-to-adjust-the-position-of-a-view-using-its-offset.md
 date: 2023-06-21
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect when the size or position of a view changes
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-when-the-size-or-position-of-a-view-changes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-when-the-size-or-position-of-a-view-changes.html
 next: /hackingwithswift.com/swiftui/how-to-create-stacks-using-vstack-and-hstack.md
 date: 2024-06-21
 isOriginal: false

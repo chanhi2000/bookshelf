@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Implementing GKGameModel: gameModelUpdates(for:) and apply()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/07-implementing-gkgamemodel-gamemodelupdatesfor-and-apply.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/07-implementing-gkgamemodel-gamemodelupdatesfor-and-apply.html
 isOriginal: false
 ---
 

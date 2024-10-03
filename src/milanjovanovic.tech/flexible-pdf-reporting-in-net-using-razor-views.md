@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Flexible PDF Reporting in .NET Using Razor Views"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/flexible-pdf-reporting-in-net-using-razor-views.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/flexible-pdf-reporting-in-net-using-razor-views.html
 prev: /programming/cs-blazor/articles/README.md
 date: 2024-06-29
 isOriginal: false

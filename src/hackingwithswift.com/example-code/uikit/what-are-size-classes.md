@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What are size classes?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/what-are-size-classes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/what-are-size-classes.html
 date: 2019-03-28
 isOriginal: false
 ---

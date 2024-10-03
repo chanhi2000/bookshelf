@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: Mastering Shadcn UI Components
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/mastering-shadcn-ui-components.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mastering-shadcn-ui-components.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-28
 isOriginal: false

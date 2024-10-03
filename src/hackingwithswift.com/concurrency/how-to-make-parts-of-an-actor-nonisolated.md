@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to make parts of an actor nonisolated
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-make-parts-of-an-actor-nonisolated.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-make-parts-of-an-actor-nonisolated.html
 date: 2021-11-28
 isOriginal: false
 ---

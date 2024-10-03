@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How Event Handling Works in Vue 3: A Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-event-handling-works-in-vue-3-guide-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-event-handling-works-in-vue-3-guide-for-devs.html
 prev: /programming/js-vue/articles/README.md
 date: 2024-09-11
 isOriginal: false

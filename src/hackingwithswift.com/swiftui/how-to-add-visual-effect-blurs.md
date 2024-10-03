@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add visual effect blurs
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-visual-effect-blurs.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-visual-effect-blurs.html
 ---
 
 # {{ $frontmatter.title }} 관련

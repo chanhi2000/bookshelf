@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Host Your Project on GitHub – Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/host-your-first-project-on-github.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-your-first-project-on-github.html
 prev: /programming/git/articles/README.md
 date: 2024-08-08
 isOriginal: false

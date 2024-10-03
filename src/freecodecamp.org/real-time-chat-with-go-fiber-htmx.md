@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Build a Real-Time Chat App With Go, Fiber and HTMX
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/real-time-chat-with-go-fiber-htmx.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/real-time-chat-with-go-fiber-htmx.html
 prev: /programming/go/articles/README.md
 date: 2024-06-05
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Build a Simple Bitcoin-to-USD Calculator
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-bitcoin-to-usd-calculator.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-bitcoin-to-usd-calculator.html
 prev: /programming/js/articles/README.md
 date: 2024-07-22
 isOriginal: false

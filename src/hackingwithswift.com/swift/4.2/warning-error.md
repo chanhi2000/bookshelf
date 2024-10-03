@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Warning and error diagnostic directives
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/warning-error.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/warning-error.html
 isOriginal: false
 ---
 

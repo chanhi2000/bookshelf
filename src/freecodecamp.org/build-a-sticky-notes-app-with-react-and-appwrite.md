@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Build a Sticky Notes App with React and Appwrite
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-sticky-notes-app-with-react-and-appwrite.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-sticky-notes-app-with-react-and-appwrite.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-25
 isOriginal: false

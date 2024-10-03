@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to force one gesture to recognize before another using highPriorityGesture()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-force-one-gesture-to-recognize-before-another-using-highprioritygesture.html
 ---
 
 # {{ $frontmatter.title }} 관련

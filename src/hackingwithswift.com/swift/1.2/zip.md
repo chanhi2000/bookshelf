@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: The zip() function joins two sequences
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.2/zip.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.2/zip.html
 prev: /hackingwithswift.com/swift/2.0/api-availability.md
 isOriginal: false
 ---

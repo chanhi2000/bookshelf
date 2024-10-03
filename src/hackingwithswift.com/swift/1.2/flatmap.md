@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: The flatMap() method transforms optionals and arrays
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.2/flatmap.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.2/flatmap.html
 isOriginal: false
 ---
 

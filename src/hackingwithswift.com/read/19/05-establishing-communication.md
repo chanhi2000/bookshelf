@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Establishing communication"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/19/05-establishing-communication.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/19/05-establishing-communication.html
 isOriginal: false
 ---
 

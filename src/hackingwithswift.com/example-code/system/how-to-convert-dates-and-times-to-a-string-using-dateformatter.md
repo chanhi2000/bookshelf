@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert dates and times to a string using DateFormatter"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-to-convert-dates-and-times-to-a-string-using-dateformatter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-convert-dates-and-times-to-a-string-using-dateformatter.html
 date: 2022-03-23
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to swap two items in an array using swapAt()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-swap-two-items-in-an-array-using-swapat.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-swap-two-items-in-an-array-using-swapat.html
 date: 2019-03-28
 isOriginal: false
 ---

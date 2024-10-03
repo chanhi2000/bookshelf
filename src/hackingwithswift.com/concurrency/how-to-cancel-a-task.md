@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to cancel a Task
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-cancel-a-task.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-cancel-a-task.html
 date: 2024-04-30
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add Retina and Retina HD graphics to your project"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-add-retina-and-retina-hd-graphics-to-your-project.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-add-retina-and-retina-hd-graphics-to-your-project.html
 date: 2019-03-28
 isOriginal: false
 ---

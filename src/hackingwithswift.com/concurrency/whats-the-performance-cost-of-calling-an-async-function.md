@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What’s the performance cost of calling an async function?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/whats-the-performance-cost-of-calling-an-async-function.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/whats-the-performance-cost-of-calling-an-async-function.html
 date: 2021-12-28
 isOriginal: false
 ---

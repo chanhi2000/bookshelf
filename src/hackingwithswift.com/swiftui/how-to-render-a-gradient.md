@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to render a gradient
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-render-a-gradient.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-render-a-gradient.html
 ---
 
 # {{ $frontmatter.title }} 관련

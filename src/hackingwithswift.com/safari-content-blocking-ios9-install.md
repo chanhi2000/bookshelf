@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to install an ad blocker in Safari for iOS"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/safari-content-blocking-ios9-install.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/safari-content-blocking-ios9-install.html
 prev: /programming/swift/articles/README.md
 date: 2015-06-12
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to open a URL in Safari"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-open-a-url-in-safari.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-open-a-url-in-safari.html
 date: 2021-06-17
 isOriginal: false
 ---

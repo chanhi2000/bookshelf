@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: SwiftData by Example
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/
 ---
 
 # {{ $frontmatter.title }} 관련

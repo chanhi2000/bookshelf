@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to add support for undo and redo
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-add-support-for-undo-and-redo.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-add-support-for-undo-and-redo.html
 date: 2023-10-12
 isOriginal: false
 ---

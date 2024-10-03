@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: Horizontally Scaling ASP.NET Core APIs With YARP Load Balancing
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing.html
 prev: /programming/cs/articles/README.md
 date: 2024-03-30
 isOriginal: false

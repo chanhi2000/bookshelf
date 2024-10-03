@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Slice to win"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/23/06-slice-to-win.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/23/06-slice-to-win.html
 isOriginal: false
 ---
 

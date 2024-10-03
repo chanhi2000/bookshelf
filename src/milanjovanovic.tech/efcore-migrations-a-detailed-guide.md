@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "EF Core Migrations: A Detailed Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/efcore-migrations-a-detailed-guide.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/efcore-migrations-a-detailed-guide.html
 prev: /programming/cs/articles/README.md
 date: 2024-05-18
 isOriginal: false

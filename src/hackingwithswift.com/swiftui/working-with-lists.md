@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Working with lists
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/working-with-lists.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/working-with-lists.html
 prev: /hackingwithswift.com/swiftui/how-to-create-and-use-custom-environment-values.md
 ---
 

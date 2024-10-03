@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use @EnvironmentObject to share data between views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-environmentobject-to-share-data-between-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-environmentobject-to-share-data-between-views.html
 ---
 
 # {{ $frontmatter.title }} 관련

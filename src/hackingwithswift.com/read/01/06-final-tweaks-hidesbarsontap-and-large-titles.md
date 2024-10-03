@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Final tweaks: hidesBarsOnTap and large titles"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/01/06-final-tweaks-hidesbarsontap-and-large-titles.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/01/06-final-tweaks-hidesbarsontap-and-large-titles.html
 isOriginal: false
 ---
 

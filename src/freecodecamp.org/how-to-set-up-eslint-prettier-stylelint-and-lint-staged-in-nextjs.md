@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Set Up ESLint, Prettier, StyleLint, and lint-staged in Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-set-up-eslint-prettier-stylelint-and-lint-staged-in-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-eslint-prettier-stylelint-and-lint-staged-in-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2024-09-16
 isOriginal: false

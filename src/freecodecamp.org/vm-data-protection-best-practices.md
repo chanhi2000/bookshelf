@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "VM Data Protection Best Practices: How to Mitigate Risk in a Virtual Environment"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/vm-data-protection-best-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/vm-data-protection-best-practices.html
 prev: /devops/security/articles/README.md
 date: 2024-08-16
 isOriginal: false

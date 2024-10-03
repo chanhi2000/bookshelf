@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to draw custom views in Interface Builder using IBDesignable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html
 date: 2019-03-28
 isOriginal: false
 ---

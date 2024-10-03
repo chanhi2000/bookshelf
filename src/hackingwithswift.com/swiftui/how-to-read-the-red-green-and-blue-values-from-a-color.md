@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read the red, green, and blue values from a Color
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-the-red-green-and-blue-values-from-a-color.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-the-red-green-and-blue-values-from-a-color.html
 ---
 
 # {{ $frontmatter.title }} 관련

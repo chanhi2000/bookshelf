@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Improve Your JavaScript Code with Powerful Build Tool Configs
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/improve-your-javascript-projects-with-build-tools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-your-javascript-projects-with-build-tools.html
 prev: /programming/js-node/articles/README.md
 date: 2024-07-02
 isOriginal: false

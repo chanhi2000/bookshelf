@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to combine transitions
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-combine-transitions.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-combine-transitions.html
 ---
 
 # {{ $frontmatter.title }} 관련

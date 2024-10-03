@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to read your app’s version from your Info.plist file"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-read-your-apps-version-from-your-infoplist-file.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-read-your-apps-version-from-your-infoplist-file.html
 date: 2018-03-28
 isOriginal: false
 ---

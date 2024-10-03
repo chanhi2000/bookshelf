@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Preparing for basic play"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/03-preparing-for-basic-play.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/03-preparing-for-basic-play.html
 isOriginal: false
 ---
 

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "PHP Arrays in Practice: How to Rebuild the Football Team Cards Project with PHP and MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb.html
 prev: /programming/php/articles/README.md
 date: 2024-06-18
 isOriginal: false

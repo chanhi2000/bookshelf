@@ -21,7 +21,7 @@ head:
     - property: og:description
       content:  How to stop system gestures from interfering with your own
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-stop-system-gestures-from-interfering-with-your-own.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-stop-system-gestures-from-interfering-with-your-own.html
 ---
 
 # {{ $frontmatter.title }} 관련

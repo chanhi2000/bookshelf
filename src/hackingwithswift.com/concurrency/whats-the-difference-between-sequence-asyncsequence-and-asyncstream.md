@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What’s the difference between Sequence, AsyncSequence, and AsyncStream?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream.html
 prev: /hackingwithswift.com/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream.md
 date: 2021-06-24
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Style React Components
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-style-react-components.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-style-react-components.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-22
 isOriginal: false

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: How to Develop a CRUD App with Spring Boot, Neon Postgres, and Azure App Service
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-crud-app-spring-boot-neon-postgres.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-crud-app-spring-boot-neon-postgres.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-07-26
 isOriginal: false

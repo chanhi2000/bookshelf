@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to draw polygons and stars
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-draw-polygons-and-stars.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-draw-polygons-and-stars.html
 ---
 
 # {{ $frontmatter.title }} 관련

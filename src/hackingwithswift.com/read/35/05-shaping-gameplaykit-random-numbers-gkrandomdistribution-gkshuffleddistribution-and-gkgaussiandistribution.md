@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Shaping GameplayKit random numbers: GKRandomDistribution, GKShuffledDistribution and GKGaussianDistribution"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/35/05-shaping-gameplaykit-random-numbers-gkrandomdistribution-gkshuffleddistribution-and-gkgaussiandistribution.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/35/05-shaping-gameplaykit-random-numbers-gkrandomdistribution-gkshuffleddistribution-and-gkgaussiandistribution.html
 isOriginal: false
 ---
 

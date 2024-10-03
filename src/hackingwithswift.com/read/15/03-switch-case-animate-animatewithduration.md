@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Switch, case, animate: animate(withDuration:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/15/03-switch-case-animate-animatewithduration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/15/03-switch-case-animate-animatewithduration.html
 isOriginal: false
 ---
 

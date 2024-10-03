@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/empire-state-building-run-up-analysis-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python.html
 prev: /programming/py/articles/README.md
 date: 2024-05-08
 isOriginal: false

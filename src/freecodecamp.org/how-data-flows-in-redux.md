@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Data Flow in Redux Explained – A State Management Handbook
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-data-flows-in-redux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-data-flows-in-redux.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-03
 isOriginal: false

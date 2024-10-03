@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Check whether all items in an array match a condition"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/check-whether-all-items-in-an-array-match-a-condition.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/check-whether-all-items-in-an-array-match-a-condition.html
 date: 2019-03-28
 isOriginal: false
 ---

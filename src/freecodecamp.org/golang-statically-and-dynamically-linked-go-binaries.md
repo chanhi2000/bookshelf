@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How Statically and Dynamically Linked Go Binaries Work
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/golang-statically-and-dynamically-linked-go-binaries.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/golang-statically-and-dynamically-linked-go-binaries.html
 prev: /programming/go/articles/README.md
 date: 2024-09-10
 isOriginal: false

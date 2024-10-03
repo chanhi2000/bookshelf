@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Types of Data"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/03-types-of-data.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/03-types-of-data.html
 isOriginal: false
 ---
 

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Static and class subscripts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.1/static-subscripts.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.1/static-subscripts.html
 isOriginal: false
 ---
 

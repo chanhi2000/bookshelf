@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect shake gestures
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-shake-gestures.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-shake-gestures.html
 ---
 
 # {{ $frontmatter.title }} 관련

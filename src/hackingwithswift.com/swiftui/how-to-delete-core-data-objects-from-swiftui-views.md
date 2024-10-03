@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to delete Core Data objects from SwiftUI views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-delete-core-data-objects-from-swiftui-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-delete-core-data-objects-from-swiftui-views.html
 ---
 
 # {{ $frontmatter.title }} 관련

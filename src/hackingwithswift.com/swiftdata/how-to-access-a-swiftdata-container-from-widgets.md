@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to access a SwiftData container from widgets
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-access-a-swiftdata-container-from-widgets.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-access-a-swiftdata-container-from-widgets.html
 next: /hackingwithswift.com/swiftdata/how-to-use-mvvm-to-separate-swiftdata-from-your-views.md
 date: 2023-09-30
 isOriginal: false

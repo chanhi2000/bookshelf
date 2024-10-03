@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to reload a UITableView while preserving selections"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-reload-a-uitableview-while-preserving-selections.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-reload-a-uitableview-while-preserving-selections.html
 date: 2019-10-10
 isOriginal: false
 ---

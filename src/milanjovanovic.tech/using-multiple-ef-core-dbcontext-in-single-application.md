@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Using Multiple EF Core DbContexts In a Single Application"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/using-multiple-ef-core-dbcontext-in-single-application.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/using-multiple-ef-core-dbcontext-in-single-application.html
 prev: /programming/cs/articles/README.md
 date: 2023-03-11
 isOriginal: false

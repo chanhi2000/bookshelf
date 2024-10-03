@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to create many-to-many relationships
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-create-many-to-many-relationships.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-create-many-to-many-relationships.html
 date: 2023-09-30
 isOriginal: false
 ---

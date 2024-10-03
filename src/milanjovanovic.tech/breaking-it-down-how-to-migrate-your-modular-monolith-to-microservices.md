@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Breaking It Down: How to Migrate Your Modular Monolith to Microservices"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices.html
 prev: /programming/cs/articles/README.md
 date: 2024-09-28
 isOriginal: false

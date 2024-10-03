@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to give a view a custom frame
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-give-a-view-a-custom-frame.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-give-a-view-a-custom-frame.html
 prev: /hackingwithswift.com/swiftui/how-to-create-a-mesh-gradient.md
 ---
 

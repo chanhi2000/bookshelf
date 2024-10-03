@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How Does Knowledge Distillation Work in Deep Learning Models?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/knowledge-distillation-in-deep-learning-models.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/knowledge-distillation-in-deep-learning-models.html
 prev: /ai/articles/README.md
 date: 2024-07-09
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What is an actor and why does Swift have them?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/what-is-an-actor-and-why-does-swift-have-them.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/what-is-an-actor-and-why-does-swift-have-them.html
 prev: /hackingwithswift.com/concurrency/is-it-efficient-to-create-many-tasks.md
 date: 2021-11-28
 isOriginal: false

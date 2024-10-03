@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Pickers in forms
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/pickers-in-forms.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/pickers-in-forms.html
 ---
 
 # {{ $frontmatter.title }} 관련

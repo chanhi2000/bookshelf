@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: What are Controlled and Uncontrolled Components in React.js?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-are-controlled-and-uncontrolled-components-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-controlled-and-uncontrolled-components-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-21
 isOriginal: false

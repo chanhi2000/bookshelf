@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn How To Secure API Servers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-how-to-secure-api-servers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-secure-api-servers.html
 prev: /devops/security/articles/README.md
 date: 2024-09-19
 isOriginal: false

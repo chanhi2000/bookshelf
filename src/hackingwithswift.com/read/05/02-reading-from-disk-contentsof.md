@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Reading from disk: contentsOf"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/05/02-reading-from-disk-contentsof.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/05/02-reading-from-disk-contentsof.html
 isOriginal: false
 ---
 

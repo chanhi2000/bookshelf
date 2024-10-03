@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to stop users selecting text in a UIWebView or WKWebView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-stop-users-selecting-text-in-a-uiwebview-or-wkwebview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-stop-users-selecting-text-in-a-uiwebview-or-wkwebview.html
 date: 2019-03-28
 isOriginal: false
 ---

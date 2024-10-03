@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to change a sprite’s texture using SKTexture"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-change-a-sprites-texture-using-sktexture.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-change-a-sprites-texture-using-sktexture.html
 date: 2019-03-28
 isOriginal: false
 ---

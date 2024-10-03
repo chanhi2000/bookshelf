@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Bring on the enemies: Timer, linearDamping, angularDamping"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/17/03-up-and-running-with-mapkit.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/17/03-up-and-running-with-mapkit.html
 isOriginal: false
 ---
 

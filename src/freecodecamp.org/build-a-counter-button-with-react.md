@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: How to Build a Counter Button with React, TailwindCSS, and TypeScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-counter-button-with-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-counter-button-with-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-10
 isOriginal: false

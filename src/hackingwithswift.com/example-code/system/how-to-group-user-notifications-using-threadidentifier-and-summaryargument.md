@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to group user notifications using threadIdentifier and summaryArgument"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-group-user-notifications-using-threadidentifier-and-summaryargument.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-group-user-notifications-using-threadidentifier-and-summaryargument.html
 date: 2019-11-01
 isOriginal: false
 ---

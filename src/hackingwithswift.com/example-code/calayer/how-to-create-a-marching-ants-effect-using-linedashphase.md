@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create a marching ants effect using lineDashPhase"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/calayer/how-to-create-a-marching-ants-effect-using-linedashphase.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/calayer/how-to-create-a-marching-ants-effect-using-linedashphase.html
 date: 2019-03-28
 isOriginal: false
 ---

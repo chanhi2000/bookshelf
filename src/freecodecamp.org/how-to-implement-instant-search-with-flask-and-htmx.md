@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How To Implement Instant Search with Flask and HTMX
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-implement-instant-search-with-flask-and-htmx.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-instant-search-with-flask-and-htmx.html
 prev: /programming/py-flask/articles/README.md
 date: 2024-07-22
 isOriginal: false

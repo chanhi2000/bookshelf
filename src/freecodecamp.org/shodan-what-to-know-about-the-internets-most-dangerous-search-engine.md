@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/shodan-what-to-know-about-the-internets-most-dangerous-search-engine.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shodan-what-to-know-about-the-internets-most-dangerous-search-engine.html
 prev: /devops/security/articles/README.md
 date: 2024-09-10
 isOriginal: false

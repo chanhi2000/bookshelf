@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use #available to check for API availability"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-use-available-to-check-for-api-availability.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-use-available-to-check-for-api-availability.html
 date: 2019-03-28
 isOriginal: false
 ---

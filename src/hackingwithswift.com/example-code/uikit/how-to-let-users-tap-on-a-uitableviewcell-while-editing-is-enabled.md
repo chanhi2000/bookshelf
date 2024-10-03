@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to let users tap on a UITableViewCell while editing is enabled"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-let-users-tap-on-a-uitableviewcell-while-editing-is-enabled.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-let-users-tap-on-a-uitableviewcell-while-editing-is-enabled.html
 date: 2019-03-28
 isOriginal: false
 ---

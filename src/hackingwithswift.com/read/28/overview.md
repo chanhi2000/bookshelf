@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 28: Secret Swift"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/28/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/28/overview.html
 prev: /hackingwithswift.com/read/27/07-wrap-up.md
 isOriginal: false
 ---

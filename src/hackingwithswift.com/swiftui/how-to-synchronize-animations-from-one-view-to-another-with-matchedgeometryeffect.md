@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to synchronize animations from one view to another with matchedGeometryEffect()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect.html
 ---
 
 # {{ $frontmatter.title }} 관련

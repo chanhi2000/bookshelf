@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Learn TypeScript with Interactive Lessons
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-typescript-with-interactive-lessons.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-interactive-lessons.html
 prev: /programming/ts/articles/README.md
 date: 2024-07-09
 isOriginal: false

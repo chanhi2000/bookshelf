@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Pass the AWS Certified Solutions Architect - Associate Certification
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/pass-the-aws-certified-solutions-architect-associate-certification.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-aws-certified-solutions-architect-associate-certification.html
 prev: /devops/aws/articles/README.md
 date: 2024-05-23
 isOriginal: false

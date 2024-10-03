@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Introduce existential any
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.6/existential-any.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.6/existential-any.html
 prev: /hackingwithswift.com/swift/5.7/noasync.md 
 isOriginal: false
 ---

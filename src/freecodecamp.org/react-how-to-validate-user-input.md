@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Validate Forms in React and React Native Using Yup and Formik
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-how-to-validate-user-input.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-how-to-validate-user-input.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-24
 isOriginal: false

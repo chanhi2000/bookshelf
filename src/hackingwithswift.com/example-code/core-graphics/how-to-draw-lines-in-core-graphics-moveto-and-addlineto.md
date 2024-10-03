@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to draw lines in Core Graphics: move(to:) and addLine(to:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-draw-lines-in-core-graphics-moveto-and-addlineto.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-draw-lines-in-core-graphics-moveto-and-addlineto.html
 date: 2019-03-28
 isOriginal: false
 ---

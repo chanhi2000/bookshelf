@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What are inout parameters?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-are-inout-parameters.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-are-inout-parameters.html
 date: 2019-10-18
 isOriginal: false
 ---

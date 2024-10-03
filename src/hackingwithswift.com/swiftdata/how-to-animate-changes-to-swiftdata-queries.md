@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to animate changes to SwiftData queries
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-animate-changes-to-swiftdata-queries.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-animate-changes-to-swiftdata-queries.html
 date: 2023-09-26
 isOriginal: false
 ---

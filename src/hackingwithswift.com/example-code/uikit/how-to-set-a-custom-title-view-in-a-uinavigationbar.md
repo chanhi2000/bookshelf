@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to set a custom title view in a UINavigationBar"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-set-a-custom-title-view-in-a-uinavigationbar.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-set-a-custom-title-view-in-a-uinavigationbar.html
 date: 2019-03-28
 isOriginal: false
 ---

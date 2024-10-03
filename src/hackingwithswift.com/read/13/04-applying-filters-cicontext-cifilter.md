@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Applying filters: CIContext, CIFilter"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/13/04-applying-filters-cicontext-cifilter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/13/04-applying-filters-cicontext-cifilter.html
 isOriginal: false
 ---
 

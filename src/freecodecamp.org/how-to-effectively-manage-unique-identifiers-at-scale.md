@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Effectively Manage Unique Identifiers at Scale: From GUIDs to Snowflake IDs and Other Modern Solutions"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-effectively-manage-unique-identifiers-at-scale.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-effectively-manage-unique-identifiers-at-scale.html
 prev: /academics/system-design/articles/README.md
 date: 2024-08-20
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to take action when the user submits a TextField
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-take-action-when-the-user-submits-a-textfield.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-take-action-when-the-user-submits-a-textfield.html
 ---
 
 # {{ $frontmatter.title }} 관련

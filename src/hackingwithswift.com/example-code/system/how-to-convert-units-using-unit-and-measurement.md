@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert units using Unit and Measurement"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-to-convert-units-using-unit-and-measurement.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-convert-units-using-unit-and-measurement.html
 date: 2018-03-28
 isOriginal: false
 ---

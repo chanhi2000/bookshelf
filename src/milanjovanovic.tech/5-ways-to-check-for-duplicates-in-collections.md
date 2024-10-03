@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: 5 Ways To Check For Duplicates In Collections, With Benchmarks
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/5-ways-to-check-for-duplicates-in-collections.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/5-ways-to-check-for-duplicates-in-collections.html
 prev: /programming/cs/articles/README.md
 date: 2022-11-05
 isOriginal: false

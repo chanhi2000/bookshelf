@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Build Great HTML Form Controls
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/perfect-html-input.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/perfect-html-input.html
 prev: /programming/css/articles/README.md
 date: 2023-01-05
 isOriginal: false

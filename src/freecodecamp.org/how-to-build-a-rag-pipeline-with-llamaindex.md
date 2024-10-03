@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Build a RAG Pipeline with LlamaIndex"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-a-rag-pipeline-with-llamaindex.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rag-pipeline-with-llamaindex.html
 prev: /ai/llama/articles/README.md
 date: 2024-08-30
 isOriginal: false

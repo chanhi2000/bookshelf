@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Hunting the beacon: CLBeaconRegion"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/22/03-hunting-the-beacon-clbeaconregion.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/22/03-hunting-the-beacon-clbeaconregion.html
 isOriginal: false
 ---
 

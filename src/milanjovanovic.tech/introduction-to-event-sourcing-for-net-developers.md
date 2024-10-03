@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction to Event Sourcing for .NET Developers
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/introduction-to-event-sourcing-for-net-developers.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/introduction-to-event-sourcing-for-net-developers.html
 prev: /programming/cs/articles/README.md
 date: 2024-08-31
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use system icons in your app"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-use-system-icons-in-your-app.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-use-system-icons-in-your-app.html
 date: 2019-06-04
 isOriginal: false
 ---

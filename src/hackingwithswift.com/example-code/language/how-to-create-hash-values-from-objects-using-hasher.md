@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create hash values from objects using Hasher"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.html
 date: 2019-03-28
 isOriginal: false
 ---

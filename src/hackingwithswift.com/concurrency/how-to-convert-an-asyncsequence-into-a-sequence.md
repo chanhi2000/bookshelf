@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to convert an AsyncSequence into a Sequence
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-convert-an-asyncsequence-into-a-sequence.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-convert-an-asyncsequence-into-a-sequence.html
 next: /hackingwithswift.com/concurrency/what-are-tasks-and-task-groups.md
 date: 2021-11-28
 isOriginal: false

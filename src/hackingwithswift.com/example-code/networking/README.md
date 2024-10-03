@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Networking - free Swift example code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/networking/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/networking/
 ---
 
 # {{ $frontmatter.title }} 관련

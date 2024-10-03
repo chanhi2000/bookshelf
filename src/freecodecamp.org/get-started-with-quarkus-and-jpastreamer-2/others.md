@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: 5. Others
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/others.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/others.html
 date: 2023-11-03
 isOriginal: false
 author: Julia Gustafsson

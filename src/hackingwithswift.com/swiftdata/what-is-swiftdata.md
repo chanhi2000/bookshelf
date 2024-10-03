@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What is SwiftData?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/what-is-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/what-is-swiftdata.html
 prev: /hackingwithswift.com/swiftdata/README.md
 date: 2023-09-30
 isOriginal: false

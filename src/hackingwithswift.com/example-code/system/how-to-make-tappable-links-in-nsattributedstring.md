@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make tappable links in NSAttributedString"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-make-tappable-links-in-nsattributedstring.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-make-tappable-links-in-nsattributedstring.html
 date: 2019-06-01
 isOriginal: false
 ---

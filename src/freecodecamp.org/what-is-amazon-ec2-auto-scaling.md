@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What is Amazon EC2 Auto Scaling?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-amazon-ec2-auto-scaling.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-amazon-ec2-auto-scaling.html
 prev: /devops/aws/articles/README.md
 date: 2024-05-06
 isOriginal: false

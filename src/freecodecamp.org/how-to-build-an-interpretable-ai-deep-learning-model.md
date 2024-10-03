@@ -21,7 +21,7 @@ head:
     - property: og:description`
       content: How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.how-to-build-an-interpretable-ai-deep-learning-model.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-an-interpretable-ai-deep-learning-model.html
 prev: /programming/py/articles/README.md
 date: 2024-07-23
 isOriginal: false

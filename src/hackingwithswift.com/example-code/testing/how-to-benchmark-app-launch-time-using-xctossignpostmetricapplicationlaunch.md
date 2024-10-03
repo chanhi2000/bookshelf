@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to check for internet connectivity using NWPathMonitor"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/testing/how-to-benchmark-app-launch-time-using-xctossignpostmetricapplicationlaunch.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/testing/how-to-benchmark-app-launch-time-using-xctossignpostmetricapplicationlaunch.html
 date: 2019-10-23
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Swipe to select"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/20/03-swipe-to-select.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/20/03-swipe-to-select.html
 isOriginal: false
 ---
 

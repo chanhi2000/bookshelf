@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "About technique projects"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/03/01-about-technique-projects.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/03/01-about-technique-projects.html
 isOriginal: false
 ---
 

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to sort the keys of your JSON using Codable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-sort-the-keys-of-your-json-using-codable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-sort-the-keys-of-your-json-using-codable.html
 date: 2022-03-12
 isOriginal: false
 ---

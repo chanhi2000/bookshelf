@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating collisions"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/04-creating-collisions.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/04-creating-collisions.html
 isOriginal: false
 ---
 

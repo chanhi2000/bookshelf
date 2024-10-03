@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Using Scoped Services From Singletons in ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/using-scoped-services-from-singletons-in-aspnetcore.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/using-scoped-services-from-singletons-in-aspnetcore.html
 prev: /programming/cs/articles/README.md
 date: 2024-02-17
 isOriginal: false

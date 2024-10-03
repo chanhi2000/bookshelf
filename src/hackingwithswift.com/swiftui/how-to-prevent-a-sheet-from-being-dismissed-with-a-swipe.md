@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to prevent a sheet from being dismissed with a swipe
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-prevent-a-sheet-from-being-dismissed-with-a-swipe.html
 ---
 
 # {{ $frontmatter.title }} 관련

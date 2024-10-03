@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Implement Server-Sent Events in Go 
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-implement-server-sent-events-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-server-sent-events-in-go.html
 prev: /programming/go/articles/README.md
 date: 2024-08-28
 isOriginal: false

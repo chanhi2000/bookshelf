@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Common SwiftUI errors and how to fix them
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/common-swiftui-errors-and-how-to-fix-them.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/common-swiftui-errors-and-how-to-fix-them.html
 prev: /hackingwithswift.com/swiftui/what-is-the-uiapplicationdelegateadaptor-property-wrapper.md
 date: 2022-12-01
 isOriginal: false

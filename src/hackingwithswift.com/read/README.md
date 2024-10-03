@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/
 ---
 
 # {{ $frontmatter.title }} 관련

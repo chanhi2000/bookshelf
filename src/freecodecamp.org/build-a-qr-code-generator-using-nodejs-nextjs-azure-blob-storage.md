@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: How to Build a QR Code Generator for URLs with Node.js, Next.js, and Azure Blob Storage
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-qr-code-generator-using-nodejs-nextjs-azure-blob-storage.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-qr-code-generator-using-nodejs-nextjs-azure-blob-storage.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-10
 isOriginal: false

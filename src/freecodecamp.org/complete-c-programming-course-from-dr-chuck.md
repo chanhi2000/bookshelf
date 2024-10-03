@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Complete C Programming Course from Dr. Chuck
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/complete-c-programming-course-from-dr-chuck.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/complete-c-programming-course-from-dr-chuck.html
 prev: /programming/cpp/articles/README.md
 date: 2024-05-30
 isOriginal: false

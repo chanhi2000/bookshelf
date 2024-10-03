@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: SE-0195 has been approved, so here’s a guide to get you started.
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-use-dynamic-member-lookup-in-swift.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-use-dynamic-member-lookup-in-swift.html
 prev: /programming/swift/articles/README.md
 date: 2019-03-29
 isOriginal: false

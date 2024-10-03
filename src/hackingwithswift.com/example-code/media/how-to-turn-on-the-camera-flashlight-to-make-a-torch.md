@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to turn on the camera flashlight to make a torch"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/media/how-to-turn-on-the-camera-flashlight-to-make-a-torch.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-turn-on-the-camera-flashlight-to-make-a-torch.html
 date: 2019-03-28
 isOriginal: false
 ---

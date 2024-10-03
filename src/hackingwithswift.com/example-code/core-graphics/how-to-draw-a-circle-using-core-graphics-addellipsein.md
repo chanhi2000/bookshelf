@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to draw a circle using Core Graphics: addEllipse(in:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-draw-a-circle-using-core-graphics-addellipsein.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-draw-a-circle-using-core-graphics-addellipsein.html
 date: 2019-03-28
 isOriginal: false
 ---

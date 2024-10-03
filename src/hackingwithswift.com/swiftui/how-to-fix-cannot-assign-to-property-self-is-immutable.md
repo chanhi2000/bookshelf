@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to fix “Cannot assign to property: 'self' is immutable”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-cannot-assign-to-property-self-is-immutable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-cannot-assign-to-property-self-is-immutable.html
 date: 2022-12-01
 isOriginal: false
 ---

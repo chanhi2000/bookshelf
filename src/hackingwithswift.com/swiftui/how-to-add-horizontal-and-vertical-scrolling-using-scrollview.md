@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add horizontal and vertical scrolling using ScrollView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-horizontal-and-vertical-scrolling-using-scrollview.html
 ---
 
 # {{ $frontmatter.title }} 관련

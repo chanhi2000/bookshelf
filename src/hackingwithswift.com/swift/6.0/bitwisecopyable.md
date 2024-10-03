@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "BitwiseCopyable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/6.0/bitwisecopyable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/6.0/bitwisecopyable.html
 isOriginal: false
 ---
 

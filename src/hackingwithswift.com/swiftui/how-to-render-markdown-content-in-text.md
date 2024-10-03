@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to render Markdown content in text
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-render-markdown-content-in-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-render-markdown-content-in-text.html
 ---
 
 # {{ $frontmatter.title }} 관련

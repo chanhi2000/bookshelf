@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to customize the submit button for TextField, SecureField, and TextEditor
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-customize-the-submit-button-for-textfield-securefield-and-texteditor.html
 ---
 
 # {{ $frontmatter.title }} 관련

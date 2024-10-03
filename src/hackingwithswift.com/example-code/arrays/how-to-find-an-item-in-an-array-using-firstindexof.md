@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find an item in an array using firstIndex(of:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-find-an-item-in-an-array-using-firstindexof.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-find-an-item-in-an-array-using-firstindexof.html
 date: 2019-03-28
 isOriginal: false
 ---

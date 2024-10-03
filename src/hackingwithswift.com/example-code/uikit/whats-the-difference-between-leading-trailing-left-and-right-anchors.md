@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What’s the difference between leading, trailing, left, and right anchors?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/whats-the-difference-between-leading-trailing-left-and-right-anchors.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/whats-the-difference-between-leading-trailing-left-and-right-anchors.html
 date: 2019-10-26
 isOriginal: false
 ---

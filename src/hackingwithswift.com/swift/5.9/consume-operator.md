@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "consume operator to end the lifetime of a variable binding"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.9/consume-operator.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/consume-operator.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to run some code when state changes using onChange()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-run-some-code-when-state-changes-using-onchange.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-run-some-code-when-state-changes-using-onchange.html
 ---
 
 # {{ $frontmatter.title }} 관련

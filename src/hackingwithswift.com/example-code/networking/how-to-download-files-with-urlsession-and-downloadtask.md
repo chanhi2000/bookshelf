@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to download files with URLSession and downloadTask()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/networking/how-to-download-files-with-urlsession-and-downloadtask.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/networking/how-to-download-files-with-urlsession-and-downloadtask.html
 date: 2018-03-28
 isOriginal: false
 ---

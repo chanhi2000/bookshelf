@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What does the open keyword do?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-does-the-open-keyword-do.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-does-the-open-keyword-do.html
 date: 2019-03-28
 isOriginal: false
 ---

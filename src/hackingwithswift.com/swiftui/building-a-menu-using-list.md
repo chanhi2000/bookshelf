@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Building a menu using List
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/building-a-menu-using-list.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/building-a-menu-using-list.html
 date: 2023-06-16
 isOriginal: false
 ---

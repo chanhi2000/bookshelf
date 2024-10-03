@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to make a task sleep
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-make-a-task-sleep.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-make-a-task-sleep.html
 date: 2021-11-28
 isOriginal: false
 ---

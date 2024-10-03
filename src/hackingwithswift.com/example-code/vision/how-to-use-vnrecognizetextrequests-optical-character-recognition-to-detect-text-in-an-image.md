@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image.html
 date: 2019-06-04
 isOriginal: false
 ---

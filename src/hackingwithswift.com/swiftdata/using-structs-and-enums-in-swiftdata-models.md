@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Using structs and enums in SwiftData models
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/using-structs-and-enums-in-swiftdata-models.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/using-structs-and-enums-in-swiftdata-models.html
 date: 2023-10-12
 isOriginal: false
 ---

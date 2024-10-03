@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Strings are not arrays"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/24/02-strings-are-not-arrays.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/24/02-strings-are-not-arrays.html
 isOriginal: false
 ---
 

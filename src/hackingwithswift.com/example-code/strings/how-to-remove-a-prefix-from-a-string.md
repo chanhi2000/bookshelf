@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to remove a prefix from a string"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-remove-a-prefix-from-a-string.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-remove-a-prefix-from-a-string.html
 date: 2018-03-28
 isOriginal: false
 ---

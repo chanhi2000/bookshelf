@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to integrate SpriteKit using SpriteView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-integrate-spritekit-using-spriteview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-integrate-spritekit-using-spriteview.html
 ---
 
 # {{ $frontmatter.title }} 관련

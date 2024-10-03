@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Unit 5: Conclusion"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/devops-with-gitlab-ci-course/unit-5-conclusion.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/devops-with-gitlab-ci-course/unit-5-conclusion.html
 ---
 
 # {{ $frontmatter.title }} 관련

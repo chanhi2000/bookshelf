@@ -22,7 +22,7 @@ head:
     - property: og:description`
       content: "How to Build a Quantum AI Model for Predicting Iris Flower Data with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.how-to-build-an-ai-model-for-predicting-data-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-an-ai-model-for-predicting-data-with-python.html
 prev: /programming/py-numpy/articles/README.md
 date: 2024-08-08
 isOriginal: false

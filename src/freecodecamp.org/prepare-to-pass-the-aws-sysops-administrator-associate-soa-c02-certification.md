@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Prepare to pass the AWS SysOps Administrator Associate (SOA-C02) Certification
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification.html
 prev: /devops/aws/articles/README.md
 date: 2024-07-09
 isOriginal: false

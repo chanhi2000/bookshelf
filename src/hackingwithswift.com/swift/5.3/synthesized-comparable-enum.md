@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Synthesized Comparable conformance for enums
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/synthesized-comparable-enum.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/synthesized-comparable-enum.html
 isOriginal: false
 ---
 

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Continuations for interfacing async tasks with synchronous code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/continuations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/continuations.html
 isOriginal: false
 ---
 

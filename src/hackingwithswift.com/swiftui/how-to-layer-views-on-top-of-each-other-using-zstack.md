@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to layer views on top of each other using ZStack
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-layer-views-on-top-of-each-other-using-zstack.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-layer-views-on-top-of-each-other-using-zstack.html
 ---
 
 # {{ $frontmatter.title }} 관련

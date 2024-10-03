@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Add sleep(for:) to Clock"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.9/sleep-for-clock.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/sleep-for-clock.html
 isOriginal: false
 ---
 

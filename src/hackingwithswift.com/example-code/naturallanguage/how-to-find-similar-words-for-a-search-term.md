@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find similar words for a search term"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/naturallanguage/how-to-find-similar-words-for-a-search-term.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/naturallanguage/how-to-find-similar-words-for-a-search-term.html
 date: 2019-10-12
 isOriginal: false
 ---

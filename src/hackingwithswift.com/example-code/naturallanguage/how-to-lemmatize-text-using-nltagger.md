@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to lemmatize text using NLTagger"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/naturallanguage/how-to-lemmatize-text-using-nltagger.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/naturallanguage/how-to-lemmatize-text-using-nltagger.html
 date: 2021-06-17
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to provide visual structure using foreground styles
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-provide-visual-structure-using-foreground-styles.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-provide-visual-structure-using-foreground-styles.html
 ---
 
 # {{ $frontmatter.title }} 관련

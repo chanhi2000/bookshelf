@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Build and Deploy a Smart Contract With Rust and the Gear Protocol
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol.html
 prev: /programming/rust/articles/README.md
 date: 2024-06-04
 isOriginal: false

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Parse a String in Python – Parsing Strings Explained
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-parse-a-string-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-parse-a-string-in-python.html
 prev: /programming/py/articles/README.md
 date: 2023-05-04
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Wiggling cards and background music with AVAudioPlayer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/37/06-wiggling-cards-and-background-music-with-avaudioplayer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/37/06-wiggling-cards-and-background-music-with-avaudioplayer.html
 isOriginal: false
 ---
 

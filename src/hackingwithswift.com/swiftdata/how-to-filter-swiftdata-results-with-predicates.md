@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to filter SwiftData results with predicates
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-filter-swiftdata-results-with-predicates.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-filter-swiftdata-results-with-predicates.html
 date: 2023-09-30
 isOriginal: false
 ---

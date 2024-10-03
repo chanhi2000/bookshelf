@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to show and hide a toolbar inside a UINavigationController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-show-and-hide-a-toolbar-inside-a-uinavigationcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-show-and-hide-a-toolbar-inside-a-uinavigationcontroller.html
 date: 2019-03-28
 isOriginal: false
 ---

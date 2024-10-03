@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a spring animation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-spring-animation.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-spring-animation.html
 ---
 
 # {{ $frontmatter.title }} 관련

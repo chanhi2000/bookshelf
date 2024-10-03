@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos.html
 prev: /devops/macos/articles/README.md
 date: 2024-04-25
 isOriginal: false

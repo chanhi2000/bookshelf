@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to enable or disable autosave for a ModelContext
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-enable-or-disable-autosave-for-a-modelcontext.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-enable-or-disable-autosave-for-a-modelcontext.html
 next: /hackingwithswift.com/swiftdata/how-to-define-swiftdata-models-using-the-model-macro.md
 date: 2023-09-30
 isOriginal: false

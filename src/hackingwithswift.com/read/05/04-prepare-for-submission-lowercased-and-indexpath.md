@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Prepare for submission: lowercased() and IndexPath"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/05/04-prepare-for-submission-lowercased-and-indexpath.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/05/04-prepare-for-submission-lowercased-and-indexpath.html
 isOriginal: false
 ---
 

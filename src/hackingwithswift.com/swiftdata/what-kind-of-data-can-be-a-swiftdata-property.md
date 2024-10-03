@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What kind of data can be a SwiftData property?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/what-kind-of-data-can-be-a-swiftdata-property.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/what-kind-of-data-can-be-a-swiftdata-property.html
 date: 2023-09-30
 isOriginal: false
 ---

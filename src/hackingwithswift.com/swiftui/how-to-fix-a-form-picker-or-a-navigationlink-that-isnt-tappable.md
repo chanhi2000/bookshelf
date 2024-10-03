@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix a Form Picker or a NavigationLink that isn't tappable
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-a-form-picker-or-a-navigationlink-that-isnt-tappable.html
 ---
 
 # {{ $frontmatter.title }} 관련

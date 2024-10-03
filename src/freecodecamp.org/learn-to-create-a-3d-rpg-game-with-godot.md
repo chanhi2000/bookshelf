@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Learn to Create a 3D RPG Game with Godot
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-to-create-a-3d-rpg-game-with-godot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-create-a-3d-rpg-game-with-godot.html
 prev: /programming/godot/articles/README.md
 date: 2024-06-20
 isOriginal: false

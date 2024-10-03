@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to dynamically adjust the appearance of a view based on its size and location
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location.html
 ---
 
 # {{ $frontmatter.title }} 관련

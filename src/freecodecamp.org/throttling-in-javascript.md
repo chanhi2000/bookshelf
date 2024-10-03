@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: What is Throttling in JavaScript? Explained with a Simple React Use Case
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/throttling-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/throttling-in-javascript.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-01
 isOriginal: false

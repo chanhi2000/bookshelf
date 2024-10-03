@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Learn essential Swift in one hour
     - property: og:url
-      content: https://chanhi2000.github.io/articles/learn-essential-swift-in-one-hour.html
+      content: https://chanhi2000.github.io/bookshelf/learn-essential-swift-in-one-hour.html
 prev: /programming/swift/articles/README.md
 date: 2022-01-31
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Build a Vue E-commerce App Using MSW
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-vue-ecommerce-app-using-msw.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-vue-ecommerce-app-using-msw.html
 prev: /programming/js-vue/articles/README.md
 date: 2024-07-08
 isOriginal: false

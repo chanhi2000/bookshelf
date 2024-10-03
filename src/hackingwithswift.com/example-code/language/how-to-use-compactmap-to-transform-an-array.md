@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to use compactMap() to transform an array"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-use-compactmap-to-transform-an-array.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-use-compactmap-to-transform-an-array.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to set the clock in the iOS Simulator"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-set-the-clock-in-the-ios-simulator.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-set-the-clock-in-the-ios-simulator.html
 date: 2021-08-22
 isOriginal: false
 ---

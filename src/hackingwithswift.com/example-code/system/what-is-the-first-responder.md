@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is the first responder?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/what-is-the-first-responder.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/what-is-the-first-responder.html
 date: 2018-03-28
 isOriginal: false
 ---

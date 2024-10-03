@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to load a remote image URL into UIImageView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-load-a-remote-image-url-into-uiimageview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-load-a-remote-image-url-into-uiimageview.html
 date: 2019-06-01
 isOriginal: false
 author: Paul Hudson

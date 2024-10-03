@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Defining a data model with SwiftData
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/defining-a-data-model-with-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/defining-a-data-model-with-swiftdata.html
 date: 2023-09-30
 isOriginal: false
 ---

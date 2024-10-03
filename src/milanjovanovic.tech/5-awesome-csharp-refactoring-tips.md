@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: 5 Awesome C# Refactoring Tip
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/5-awesome-csharp-refactoring-tips.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/5-awesome-csharp-refactoring-tips.html
 prev: /programming/cs/articles/README.md
 date: 2023-11-25
 isOriginal: false

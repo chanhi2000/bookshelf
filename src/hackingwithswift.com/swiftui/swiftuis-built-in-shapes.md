@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: SwiftUI's built-in shapes
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/swiftuis-built-in-shapes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/swiftuis-built-in-shapes.html
 prev: /hackingwithswift.com/swiftui/how-to-create-new-colors-by-blending-two-other-swiftui-colors.md
 ---
 

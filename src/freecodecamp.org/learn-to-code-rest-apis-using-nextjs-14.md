@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Learn to Code REST APIs using Next.js 14
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-to-code-rest-apis-using-nextjs-14.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-code-rest-apis-using-nextjs-14.html
 prev: /programming/js-next/articles/README.md
 date: 2024-06-04
 isOriginal: false

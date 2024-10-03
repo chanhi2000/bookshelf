@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to create a task group and add tasks to it
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-create-a-task-group-and-add-tasks-to-it.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-create-a-task-group-and-add-tasks-to-it.html
 date: 2021-11-28
 isOriginal: false
 ---

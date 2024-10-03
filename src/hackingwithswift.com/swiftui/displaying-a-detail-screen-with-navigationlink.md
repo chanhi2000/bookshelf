@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Displaying a detail screen with NavigationLink
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/displaying-a-detail-screen-with-navigationlink.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/displaying-a-detail-screen-with-navigationlink.html
 ---
 
 # {{ $frontmatter.title }} 관련

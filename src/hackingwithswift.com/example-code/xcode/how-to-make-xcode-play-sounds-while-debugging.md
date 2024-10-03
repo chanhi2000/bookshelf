@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to make Xcode play sounds while debugging"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-make-xcode-play-sounds-while-debugging.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-make-xcode-play-sounds-while-debugging.html
 date: 2020-12-31
 isOriginal: false
 ---

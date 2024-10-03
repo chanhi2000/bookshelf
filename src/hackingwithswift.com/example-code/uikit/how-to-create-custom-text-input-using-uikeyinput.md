@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create custom text input using UIKeyInput"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-create-custom-text-input-using-uikeyinput.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-create-custom-text-input-using-uikeyinput.html
 date: 2020-04-23
 isOriginal: false
 ---

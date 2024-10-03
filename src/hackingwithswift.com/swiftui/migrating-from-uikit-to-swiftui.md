@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Migrating from UIKit to SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/migrating-from-uikit-to-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/migrating-from-uikit-to-swiftui.html
 date: 2023-06-17
 isOriginal: false
 ---

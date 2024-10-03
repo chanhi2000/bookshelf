@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to disable interactive swipe to dismiss for view controllers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-disable-interactive-swipe-to-dismiss-for-view-controllers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-disable-interactive-swipe-to-dismiss-for-view-controllers.html
 date: 2019-10-17
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How I Optimized an API Endpoint to Make It 15x Faster
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-i-optimized-an-api-endpoint-to-make-it-15x-faster.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-i-optimized-an-api-endpoint-to-make-it-15x-faster.html
 prev: /programming/cs/articles/README.md
 date: 2022-10-15
 isOriginal: false

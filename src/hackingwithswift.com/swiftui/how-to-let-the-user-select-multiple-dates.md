@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let the user select multiple dates
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-the-user-select-multiple-dates.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-the-user-select-multiple-dates.html
 ---
 
 # {{ $frontmatter.title }} 관련

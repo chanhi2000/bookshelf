@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Free iOS 9 tutorials"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/ios9-tutorials.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/ios9-tutorials.html
 prev: /programming/swift/articles/README.md
 date: 2015-06-11
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Build a Rating Component with the React Compound Component Pattern
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-a-rating-component-with-the-react-compound-component-pattern.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rating-component-with-the-react-compound-component-pattern.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-03
 isOriginal: false

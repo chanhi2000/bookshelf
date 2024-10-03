@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to position views in a grid using LazyVGrid and LazyHGrid
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-position-views-in-a-grid-using-lazyvgrid-and-lazyhgrid.html
 ---
 
 # {{ $frontmatter.title }} 관련

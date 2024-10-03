@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Checking all array elements match a condition: allSatisfy()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/checking-all-array-elements-match-a-condition-allsatisfy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/checking-all-array-elements-match-a-condition-allsatisfy.html
 date: 2019-03-28
 isOriginal: false
 ---

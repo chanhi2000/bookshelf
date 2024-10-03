@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust views by tinting, desaturating, and more
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-views-by-tinting-desaturating-and-more.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-views-by-tinting-desaturating-and-more.html
 ---
 
 # {{ $frontmatter.title }} 관련

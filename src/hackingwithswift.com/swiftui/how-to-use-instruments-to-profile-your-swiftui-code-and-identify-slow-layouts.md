@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use Instruments to profile your SwiftUI code and identify slow layouts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layouts.html
 ---
 
 # {{ $frontmatter.title }} 관련

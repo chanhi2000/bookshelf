@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Codable synthesis for enums with associated values
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/codable-enums.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/codable-enums.html
 isOriginal: false
 ---
 

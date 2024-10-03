@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: SwiftUI by Example
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/
 ---
 
 # {{ $frontmatter.title }} 관련

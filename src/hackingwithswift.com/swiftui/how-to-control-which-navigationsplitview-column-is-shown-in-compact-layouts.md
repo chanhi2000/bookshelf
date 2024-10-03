@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to control which NavigationSplitView column is shown in compact layouts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-an-inspector-to-any-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-an-inspector-to-any-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How SwiftData works with Swift concurrency
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-swiftdata-works-with-swift-concurrency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-swiftdata-works-with-swift-concurrency.html
 date: 2023-09-30
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What's New In .NET 7?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/whats-new-in-dotnet-7.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/whats-new-in-dotnet-7.html
 prev: /programming/cs/articles/README.md
 date: 2022-11-12
 isOriginal: false

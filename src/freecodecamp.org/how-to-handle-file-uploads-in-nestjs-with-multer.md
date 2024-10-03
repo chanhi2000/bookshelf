@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Handle File Uploads in NestJS with Multer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-handle-file-uploads-in-nestjs-with-multer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-file-uploads-in-nestjs-with-multer.html
 prev: /programming/js-nest/articles/README.md
 date: 2024-07-28
 isOriginal: false

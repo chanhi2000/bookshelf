@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Customizing ProgressView with ProgressViewStyle
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/customizing-progressview-with-progressviewstyle.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/customizing-progressview-with-progressviewstyle.html
 date: 2022-12-01
 isOriginal: false
 ---

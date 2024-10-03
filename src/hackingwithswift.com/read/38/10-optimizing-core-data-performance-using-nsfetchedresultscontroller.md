@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Optimizing Core Data Performance using NSFetchedResultsController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/10-optimizing-core-data-performance-using-nsfetchedresultscontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/10-optimizing-core-data-performance-using-nsfetchedresultscontroller.html
 isOriginal: false
 ---
 

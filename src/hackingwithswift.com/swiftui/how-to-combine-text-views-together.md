@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to combine text views together
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-combine-text-views-together.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-combine-text-views-together.html
 ---
 
 # {{ $frontmatter.title }} 관련

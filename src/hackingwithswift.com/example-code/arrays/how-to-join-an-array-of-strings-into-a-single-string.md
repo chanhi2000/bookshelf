@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to join an array of strings into a single string"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-join-an-array-of-strings-into-a-single-string.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-join-an-array-of-strings-into-a-single-string.html
 date: 2019-09-19
 isOriginal: false
 ---

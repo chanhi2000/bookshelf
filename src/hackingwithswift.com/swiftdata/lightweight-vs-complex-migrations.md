@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Lightweight vs complex migrations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/lightweight-vs-complex-migrations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/lightweight-vs-complex-migrations.html
 prev: /hackingwithswift.com/swiftdata/how-to-rollback-changes-without-saving.md
 date: 2024-04-16
 isOriginal: false

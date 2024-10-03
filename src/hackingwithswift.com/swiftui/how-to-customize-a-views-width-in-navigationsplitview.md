@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to customize a view's width in NavigationSplitView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-customize-a-views-width-in-navigationsplitview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-customize-a-views-width-in-navigationsplitview.html
 ---
 
 # {{ $frontmatter.title }} 관련

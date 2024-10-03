@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Outbox Pattern For Reliable Microservices Messaging"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/outbox-pattern-for-reliable-microservices-messaging.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/outbox-pattern-for-reliable-microservices-messaging.html
 prev: /programming/cs/articles/README.md
 date: 2023-02-28
 isOriginal: false

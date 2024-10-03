@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Collection downcasts in cast patterns are now supported
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.8/collection-downcasts.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/collection-downcasts.html
 next: /hackingwithswift.com/swift/5.7/if-let-shorthand.md
 isOriginal: false
 ---

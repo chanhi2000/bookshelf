@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to generate shaped random numbers using GKGaussianDistribution"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-generate-shaped-random-numbers-using-gkgaussiandistribution.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-generate-shaped-random-numbers-using-gkgaussiandistribution.html
 date: 2019-03-28
 isOriginal: false
 ---

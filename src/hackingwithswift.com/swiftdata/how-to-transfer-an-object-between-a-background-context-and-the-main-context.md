@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to transfer an object between a background context and the main context
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-transfer-an-object-between-a-background-context-and-the-main-context.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-transfer-an-object-between-a-background-context-and-the-main-context.html
 date: 2023-09-30
 isOriginal: false
 ---

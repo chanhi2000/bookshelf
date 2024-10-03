@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Functional Error Handling in .NET With the Result Pattern
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/functional-error-handling-in-dotnet-with-the-result-pattern.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/functional-error-handling-in-dotnet-with-the-result-pattern.html
 prev: /programming/cs/articles/README.md
 date: 2023-10-28
 isOriginal: false

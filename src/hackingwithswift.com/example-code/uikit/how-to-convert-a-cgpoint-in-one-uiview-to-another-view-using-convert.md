@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a CGPoint in one UIView to another view using convert()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-convert-a-cgpoint-in-one-uiview-to-another-view-using-convert.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-convert-a-cgpoint-in-one-uiview-to-another-view-using-convert.html
 date: 2019-03-28
 isOriginal: false
 ---

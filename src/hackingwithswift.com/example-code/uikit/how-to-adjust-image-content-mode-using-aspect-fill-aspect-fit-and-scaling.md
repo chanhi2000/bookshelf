@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to adjust image content mode using aspect fill, aspect fit and scaling"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-adjust-image-content-mode-using-aspect-fill-aspect-fit-and-scaling.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-adjust-image-content-mode-using-aspect-fill-aspect-fit-and-scaling.html
 date: 2019-03-28
 isOriginal: false
 ---

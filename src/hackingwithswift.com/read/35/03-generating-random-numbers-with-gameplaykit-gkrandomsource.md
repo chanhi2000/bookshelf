@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Generating random numbers with GameplayKit: GKRandomSource"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/35/03-generating-random-numbers-with-gameplaykit-gkrandomsource.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/35/03-generating-random-numbers-with-gameplaykit-gkrandomsource.html
 isOriginal: false
 ---
 

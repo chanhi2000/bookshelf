@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Laying out the cards: addChildViewController()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/37/02-laying-out-the-cards-addchildviewcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/37/02-laying-out-the-cards-addchildviewcontroller.html
 isOriginal: false
 ---
 

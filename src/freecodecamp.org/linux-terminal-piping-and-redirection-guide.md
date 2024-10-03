@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Use Piping and Redirection in the Linux Terminal
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/linux-terminal-piping-and-redirection-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linux-terminal-piping-and-redirection-guide.html
 prev: /programming/sh/articles/README.md
 date: 2024-04-26
 isOriginal: false

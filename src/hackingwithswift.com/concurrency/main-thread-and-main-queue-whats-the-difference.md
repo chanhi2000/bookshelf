@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Main thread and main queue: what’s the difference?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/main-thread-and-main-queue-whats-the-difference.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/main-thread-and-main-queue-whats-the-difference.html
 date: 2021-07-01
 isOriginal: false
 ---

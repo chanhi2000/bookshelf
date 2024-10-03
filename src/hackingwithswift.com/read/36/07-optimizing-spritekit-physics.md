@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Optimizing SpriteKit physics"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/07-optimizing-spritekit-physics.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/07-optimizing-spritekit-physics.html
 isOriginal: false
 ---
 

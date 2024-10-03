@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 3: Social Media"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/03/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/03/overview.html
 prev: /hackingwithswift.com/read/02/06-wrap-up.md
 isOriginal: false
 ---

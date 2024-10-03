@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Index Your Next.js Apps Faster Using IndexNow
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-index-nextjs-pages-with-indexnow.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-index-nextjs-pages-with-indexnow.html
 prev: /programming/js-next/articles/README.md
 date: 2024-08-06
 isOriginal: false

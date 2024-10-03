@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Running Background Tasks In ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/running-background-tasks-in-asp-net-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/running-background-tasks-in-asp-net-core.html
 prev: /programming/cs/articles/README.md
 date: 2022-12-03
 isOriginal: false

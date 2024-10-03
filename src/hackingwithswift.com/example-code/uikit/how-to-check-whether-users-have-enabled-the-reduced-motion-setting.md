@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to check whether users have enabled the reduced motion setting"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-check-whether-users-have-enabled-the-reduced-motion-setting.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-check-whether-users-have-enabled-the-reduced-motion-setting.html
 date: 2021-03-11
 isOriginal: false
 ---

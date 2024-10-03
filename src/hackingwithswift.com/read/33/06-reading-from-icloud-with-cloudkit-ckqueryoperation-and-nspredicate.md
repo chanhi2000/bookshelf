@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Reading from iCloud with CloudKit: CKQueryOperation and NSPredicate"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/06-reading-from-icloud-with-cloudkit-ckqueryoperation-and-nspredicate.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/06-reading-from-icloud-with-cloudkit-ckqueryoperation-and-nspredicate.html
 isOriginal: false
 ---
 

@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: Introduction
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/gitting-things-done-book/introduction.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/introduction.html
 date: 2024-01-08
 isOriginal: false
 cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png

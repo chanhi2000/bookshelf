@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to draw a custom path
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-draw-a-custom-path.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-draw-a-custom-path.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Flutter Tutorial – How to Develop an App with Flutter From Scratch
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-develop-a-flutter-app-from-scratch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-develop-a-flutter-app-from-scratch.html
 prev: /programming/dart/articles/README.md
 date: 2024-04-26
 isOriginal: false

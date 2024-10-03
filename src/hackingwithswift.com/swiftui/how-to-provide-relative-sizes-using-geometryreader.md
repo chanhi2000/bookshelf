@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to provide relative sizes using GeometryReader
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-provide-relative-sizes-using-geometryreader.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-provide-relative-sizes-using-geometryreader.html
 ---
 
 # {{ $frontmatter.title }} 관련

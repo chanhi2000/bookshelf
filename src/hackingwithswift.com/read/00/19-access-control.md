@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Access control"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/19-access-control.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/19-access-control.html
 isOriginal: false
 ---
 

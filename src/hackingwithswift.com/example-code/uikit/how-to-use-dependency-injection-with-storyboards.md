@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use dependency injection with storyboards"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-use-dependency-injection-with-storyboards.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-use-dependency-injection-with-storyboards.html
 date: 2019-06-24
 isOriginal: false
 ---

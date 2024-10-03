@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to push a new view when a list row is tapped
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-push-a-new-view-when-a-list-row-is-tapped.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-push-a-new-view-when-a-list-row-is-tapped.html
 ---
 
 # {{ $frontmatter.title }} 관련

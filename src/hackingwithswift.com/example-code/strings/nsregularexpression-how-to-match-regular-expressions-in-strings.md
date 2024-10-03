@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "NSRegularExpression: How to match regular expressions in strings"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/nsregularexpression-how-to-match-regular-expressions-in-strings.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/nsregularexpression-how-to-match-regular-expressions-in-strings.html
 date: 2018-03-28
 isOriginal: false
 ---

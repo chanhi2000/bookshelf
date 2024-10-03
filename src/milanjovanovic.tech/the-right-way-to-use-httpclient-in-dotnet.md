@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Right Way To Use HttpClient In .NET"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/the-right-way-to-use-httpclient-in-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/the-right-way-to-use-httpclient-in-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2023-06-10
 isOriginal: false

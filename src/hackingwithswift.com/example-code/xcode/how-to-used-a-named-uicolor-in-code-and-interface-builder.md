@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to used a named UIColor in code and Interface Builder"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-used-a-named-uicolor-in-code-and-interface-builder.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-used-a-named-uicolor-in-code-and-interface-builder.html
 date: 2019-03-28
 isOriginal: false
 ---

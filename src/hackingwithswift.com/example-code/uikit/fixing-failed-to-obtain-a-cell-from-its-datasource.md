@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Fixing ”Failed to obtain a cell from its DataSource”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/fixing-failed-to-obtain-a-cell-from-its-datasource.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/fixing-failed-to-obtain-a-cell-from-its-datasource.html
 date: 2019-03-28
 isOriginal: false
 ---

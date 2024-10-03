@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Pixel-perfect physics in SpriteKit, plus explosions and more"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/05-pixel-perfect-physics-in-spritekit-plus-explosions-and-more.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/05-pixel-perfect-physics-in-spritekit-plus-explosions-and-more.html
 isOriginal: false
 ---
 

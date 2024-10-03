@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Adding Core Data entity relationships: lightweight vs heavyweight migration"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/08-adding-core-data-entity-relationships-lightweight-vs-heavyweight-migration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/08-adding-core-data-entity-relationships-lightweight-vs-heavyweight-migration.html
 isOriginal: false
 ---
 

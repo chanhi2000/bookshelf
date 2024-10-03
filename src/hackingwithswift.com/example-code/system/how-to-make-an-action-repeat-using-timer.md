@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make an action repeat using Timer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-make-an-action-repeat-using-timer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-make-an-action-repeat-using-timer.html
 date: 2019-09-19
 isOriginal: false
 ---

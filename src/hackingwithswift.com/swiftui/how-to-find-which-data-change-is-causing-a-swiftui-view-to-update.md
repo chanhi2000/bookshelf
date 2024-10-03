@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to find which data change is causing a SwiftUI view to update
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-find-which-data-change-is-causing-a-swiftui-view-to-update.html
 ---
 
 # {{ $frontmatter.title }} 관련

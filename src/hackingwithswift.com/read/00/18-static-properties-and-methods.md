@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Static properties and methods"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/18-static-properties-and-methods.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/18-static-properties-and-methods.html
 isOriginal: false
 ---
 

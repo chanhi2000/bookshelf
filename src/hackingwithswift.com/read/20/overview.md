@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 20: Fireworks Night"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/20/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/20/overview.html
 prev: /hackingwithswift.com/read/19/08-wrap-up.md
 isOriginal: false
 ---

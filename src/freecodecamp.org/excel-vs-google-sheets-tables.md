@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: How to Work with Tables in Excel vs Google Sheets
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/excel-vs-google-sheets-tables.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/excel-vs-google-sheets-tables.html
 prev: /tool/xls/articles/README.md
 date: 2024-07-02
 isOriginal: false

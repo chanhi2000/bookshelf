@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: How AI Tools Can Help You Reuse Code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/tools-for-code-reuse.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/tools-for-code-reuse.html
 prev: /ai/articles/README.md
 date: 2024-09-25
 isOriginal: false

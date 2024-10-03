@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How To Easily Create PDF Documents in ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-easily-create-pdf-documents-in-aspnetcore.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-easily-create-pdf-documents-in-aspnetcore.html
 prev: /programming/cs/articles/README.md
 date: 2023-11-11
 isOriginal: false

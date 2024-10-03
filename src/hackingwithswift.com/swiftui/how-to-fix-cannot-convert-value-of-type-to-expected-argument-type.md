@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Cannot convert value of type '() -> ()' to expected argument type '() -> _'”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-cannot-convert-value-of-type-to-expected-argument-type.html
 date: 2022-12-01
 isOriginal: false
 ---

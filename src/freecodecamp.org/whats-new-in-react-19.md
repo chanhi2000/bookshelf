@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: What's New in React 19
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/whats-new-in-react-19.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/whats-new-in-react-19.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-25
 isOriginal: false

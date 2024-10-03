@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: How to Create a React Native Splash Screen
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-native-splash-screen.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-native-splash-screen.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-08
 isOriginal: false

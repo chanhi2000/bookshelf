@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: Complete Guide to Amazon SQS and Amazon SNS With MassTransit
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit.html
 prev: /programming/cs/articles/README.md
 date: 2024-08-17
 isOriginal: false

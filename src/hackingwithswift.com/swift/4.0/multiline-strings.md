@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Multi-line string literals
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.0/multiline-strings.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.0/multiline-strings.html
 isOriginal: false
 ---
 

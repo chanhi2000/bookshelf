@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to add minimum and maximum constraints to relationships
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-add-minimum-and-maximum-constraints-to-relationships.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-add-minimum-and-maximum-constraints-to-relationships.html
 next: /hackingwithswift.com/swiftdata/how-to-find-a-swiftdata-object-by-its-identifier.md
 date: 2023-09-30
 isOriginal: false

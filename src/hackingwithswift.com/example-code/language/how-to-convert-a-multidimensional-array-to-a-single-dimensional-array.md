@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a multidimensional array to a single-dimensional array"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-convert-a-multidimensional-array-to-a-single-dimensional-array.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-convert-a-multidimensional-array-to-a-single-dimensional-array.html
 date: 2019-10-11
 isOriginal: false
 ---

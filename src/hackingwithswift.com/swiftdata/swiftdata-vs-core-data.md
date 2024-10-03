@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: SwiftData vs Core Data
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/swiftdata-vs-core-data.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/swiftdata-vs-core-data.html
 date: 2023-09-22
 isOriginal: false
 ---

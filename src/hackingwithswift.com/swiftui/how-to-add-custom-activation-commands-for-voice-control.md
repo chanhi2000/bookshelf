@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add custom activation commands for Voice Control
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-custom-activation-commands-for-voice-control.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-custom-activation-commands-for-voice-control.html
 next: /hackingwithswift.com/swiftui/how-to-make-swiftui-modifiers-safer-to-use-with-warn-unqualified-access.md
 ---
 

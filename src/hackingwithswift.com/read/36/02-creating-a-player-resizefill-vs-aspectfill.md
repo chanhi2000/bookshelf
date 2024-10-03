@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating a player: resizeFill vs aspectFill"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/02-creating-a-player-resizefill-vs-aspectfill.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/02-creating-a-player-resizefill-vs-aspectfill.html
 isOriginal: false
 ---
 

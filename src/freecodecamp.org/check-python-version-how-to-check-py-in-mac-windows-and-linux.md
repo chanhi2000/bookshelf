@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Check Python Version – How to Check Py in Mac, Windows, and Linux
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html
 prev: /programming/py/articles/README.md
 date: 2023-07-07
 isOriginal: false

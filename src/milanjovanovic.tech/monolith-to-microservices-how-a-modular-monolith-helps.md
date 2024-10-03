@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Monolith to Microservices: How a Modular Monolith Helps"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/monolith-to-microservices-how-a-modular-monolith-helps.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/monolith-to-microservices-how-a-modular-monolith-helps.html
 prev: /programming/cs/articles/README.md
 date: 2023-09-23
 isOriginal: false

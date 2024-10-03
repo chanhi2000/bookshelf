@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Adding places to MKMapView using MKPlacemark"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/location/adding-places-to-mkmapview-using-mkplacemark.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/location/adding-places-to-mkmapview-using-mkplacemark.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Learn High-Level System Design by Building a YouTube Clone
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-a-rating-component-with-the-react-compound-component-pattern.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rating-component-with-the-react-compound-component-pattern.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-11
 isOriginal: false

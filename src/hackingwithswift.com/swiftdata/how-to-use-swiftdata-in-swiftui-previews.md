@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to use SwiftData in SwiftUI previews
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-use-swiftdata-in-swiftui-previews.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-use-swiftdata-in-swiftui-previews.html
 date: 2023-09-30
 isOriginal: false
 ---

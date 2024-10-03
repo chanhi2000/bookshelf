@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use Dynamic Type to resize your app's text"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-use-dynamic-type-to-resize-your-apps-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-use-dynamic-type-to-resize-your-apps-text.html
 date: 2019-03-28
 isOriginal: false
 ---

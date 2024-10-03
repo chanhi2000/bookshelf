@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to fix “Fatal error: No ObservableObject of type SomeType found”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-fatal-error-no-observableobject-of-type-sometype-found.html
 date: 2022-12-01
 isOriginal: false
 ---

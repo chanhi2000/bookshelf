@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make one operation wait for another to complete using addDependency()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-make-one-operation-wait-for-another-to-complete-using-adddependency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-make-one-operation-wait-for-another-to-complete-using-adddependency.html
 date: 2019-10-29
 isOriginal: false
 ---

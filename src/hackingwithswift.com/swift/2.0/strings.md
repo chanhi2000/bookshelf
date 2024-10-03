@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Measure strings using their character count
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.0/strings.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.0/strings.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to access a Core Data managed object context from a SwiftUI view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

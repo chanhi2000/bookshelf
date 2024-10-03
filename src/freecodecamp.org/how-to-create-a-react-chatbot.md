@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Create a React Chatbot – a Step by Step Guide
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-a-react-chatbot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-react-chatbot.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-10
 isOriginal: false

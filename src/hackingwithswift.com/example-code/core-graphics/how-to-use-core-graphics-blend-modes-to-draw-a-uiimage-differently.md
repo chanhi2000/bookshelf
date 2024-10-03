@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use Core Graphics blend modes to draw a UIImage differently"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-use-core-graphics-blend-modes-to-draw-a-uiimage-differently.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-use-core-graphics-blend-modes-to-draw-a-uiimage-differently.html
 date: 2019-03-28
 isOriginal: false
 ---

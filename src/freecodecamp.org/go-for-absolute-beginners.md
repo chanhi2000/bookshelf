@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Go for Absolute Beginners
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/go-for-absolute-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-for-absolute-beginners.html
 prev: /programming/go/articles/README.md
 date: 2024-07-01
 isOriginal: false

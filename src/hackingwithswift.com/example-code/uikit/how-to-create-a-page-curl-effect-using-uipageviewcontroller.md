@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create a page curl effect using UIPageViewController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-create-a-page-curl-effect-using-uipageviewcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-create-a-page-curl-effect-using-uipageviewcontroller.html
 date: 2019-03-28
 isOriginal: false
 ---

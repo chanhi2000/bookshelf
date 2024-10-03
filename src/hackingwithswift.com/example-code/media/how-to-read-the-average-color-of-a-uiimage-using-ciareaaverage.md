@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to read the average color of a UIImage using CIAreaAverage"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/media/how-to-read-the-average-color-of-a-uiimage-using-ciareaaverage.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-read-the-average-color-of-a-uiimage-using-ciareaaverage.html
 date: 2020-07-07
 isOriginal: false
 ---

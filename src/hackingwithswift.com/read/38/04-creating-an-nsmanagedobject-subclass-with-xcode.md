@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating an NSManagedObject subclass with Xcode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/04-creating-an-nsmanagedobject-subclass-with-xcode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/04-creating-an-nsmanagedobject-subclass-with-xcode.html
 isOriginal: false
 ---
 

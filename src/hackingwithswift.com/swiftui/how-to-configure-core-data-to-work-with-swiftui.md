@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to configure Core Data to work with SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-configure-core-data-to-work-with-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-configure-core-data-to-work-with-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련

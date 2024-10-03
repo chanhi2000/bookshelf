@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to scale, stretch, move, and rotate UIViews using CGAffineTransform"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-scale-stretch-move-and-rotate-uiviews-using-cgaffinetransform.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-scale-stretch-move-and-rotate-uiviews-using-cgaffinetransform.html
 date: 2019-03-28
 isOriginal: false
 ---

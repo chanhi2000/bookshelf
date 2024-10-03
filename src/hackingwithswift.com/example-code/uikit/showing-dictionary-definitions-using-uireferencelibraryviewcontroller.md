@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Showing dictionary definitions using UIReferenceLibraryViewController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/showing-dictionary-definitions-using-uireferencelibraryviewcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/showing-dictionary-definitions-using-uireferencelibraryviewcontroller.html
 date: 2019-03-28
 isOriginal: false
 ---

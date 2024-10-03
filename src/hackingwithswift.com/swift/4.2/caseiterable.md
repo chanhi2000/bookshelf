@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Derived collections of enum cases
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/caseiterable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/caseiterable.html
 prev: /hackingwithswift.com/swift/5.0/compactmapvalues.md
 isOriginal: false
 ---

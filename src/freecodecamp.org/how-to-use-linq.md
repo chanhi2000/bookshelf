@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How To Use LINQ in C# – With Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-linq.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-linq.html
 prev: /programming/cs/articles/README.md
 date: 2024-07-15
 isOriginal: false

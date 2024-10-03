@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to animate changes in binding values
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-animate-changes-in-binding-values.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-animate-changes-in-binding-values.html
 ---
 
 # {{ $frontmatter.title }} 관련

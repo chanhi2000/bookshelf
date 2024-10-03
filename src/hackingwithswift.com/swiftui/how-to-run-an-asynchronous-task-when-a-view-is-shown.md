@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to run an asynchronous task when a view is shown
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-run-an-asynchronous-task-when-a-view-is-shown.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-run-an-asynchronous-task-when-a-view-is-shown.html
 ---
 
 # {{ $frontmatter.title }} 관련

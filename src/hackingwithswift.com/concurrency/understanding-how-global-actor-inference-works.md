@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Understanding how global actor inference works
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/understanding-how-global-actor-inference-works.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/understanding-how-global-actor-inference-works.html
 date: 2021-11-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to hide and show the sidebar programmatically
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-hide-and-show-the-sidebar-programmatically.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-hide-and-show-the-sidebar-programmatically.html
 ---
 
 # {{ $frontmatter.title }} 관련

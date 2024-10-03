@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to render an NSAttributedString to a PDF"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-render-an-nsattributedstring-to-a-pdf.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-render-an-nsattributedstring-to-a-pdf.html
 date: 2019-03-28
 isOriginal: false
 ---

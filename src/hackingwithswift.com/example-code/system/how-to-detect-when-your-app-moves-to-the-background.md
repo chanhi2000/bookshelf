@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect when your app moves to the background"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-detect-when-your-app-moves-to-the-background.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-detect-when-your-app-moves-to-the-background.html
 date: 2018-03-28
 isOriginal: false
 ---

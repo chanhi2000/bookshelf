@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to clip a view so only part is visible
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-clip-a-view-so-only-part-is-visible.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-clip-a-view-so-only-part-is-visible.html
 ---
 
 # {{ $frontmatter.title }} 관련

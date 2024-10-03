@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to get natural string sorting for SwiftData queries
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-get-natural-string-sorting-for-swiftdata-queries.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-get-natural-string-sorting-for-swiftdata-queries.html
 date: 2023-09-30
 isOriginal: false
 ---

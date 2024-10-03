@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to mark content as a placeholder using redacted()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-mark-content-as-a-placeholder-using-redacted.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-mark-content-as-a-placeholder-using-redacted.html
 ---
 
 # {{ $frontmatter.title }} 관련

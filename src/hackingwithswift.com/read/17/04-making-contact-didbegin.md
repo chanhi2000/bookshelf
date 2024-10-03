@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Making contact: didBegin()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/17/04-making-contact-didbegin.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/17/04-making-contact-didbegin.html
 isOriginal: false
 ---
 

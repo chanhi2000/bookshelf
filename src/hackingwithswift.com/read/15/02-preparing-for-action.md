@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Preparing for action"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/15/02-preparing-for-action.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/15/02-preparing-for-action.html
 isOriginal: false
 ---
 

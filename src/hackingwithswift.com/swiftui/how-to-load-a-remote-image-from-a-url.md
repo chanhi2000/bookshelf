@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to load a remote image from a URL
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-load-a-remote-image-from-a-url.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-load-a-remote-image-from-a-url.html
 ---
 
 # {{ $frontmatter.title }} 관련

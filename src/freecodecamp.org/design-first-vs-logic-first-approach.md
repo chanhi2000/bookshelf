@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/design-first-vs-logic-first-approach.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/design-first-vs-logic-first-approach.html
 prev: /academics/system-design/articles/README.md
 date: 2024-08-29
 isOriginal: false

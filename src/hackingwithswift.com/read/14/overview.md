@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 14: Whack-a-Penguin"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/14/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/14/overview.html
 prev: /hackingwithswift.com/read/13/06-wrap-up.md
 isOriginal: false
 ---

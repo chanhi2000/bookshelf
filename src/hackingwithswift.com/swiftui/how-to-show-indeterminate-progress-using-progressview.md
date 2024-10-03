@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show indeterminate progress using ProgressView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-indeterminate-progress-using-progressview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-indeterminate-progress-using-progressview.html
 ---
 
 # {{ $frontmatter.title }} 관련

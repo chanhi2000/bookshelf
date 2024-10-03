@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Learn CUDA Programming
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-cuda-programming.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-cuda-programming.html
 prev: /programming/cpp/articles/README.md
 date: 2024-09-24
 isOriginal: false

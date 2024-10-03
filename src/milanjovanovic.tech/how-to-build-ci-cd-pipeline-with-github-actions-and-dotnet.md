@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How To Build a CI/CD Pipeline With GitHub Actions And .NET"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet.html
 prev: /devops/github/articles/README.md
 date: 2023-05-27
 isOriginal: false

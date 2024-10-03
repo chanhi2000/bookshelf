@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a hex color to a UIColor"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uicolor/how-to-convert-a-hex-color-to-a-uicolor.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uicolor/how-to-convert-a-hex-color-to-a-uicolor.html
 date: 2019-03-28
 isOriginal: false
 ---

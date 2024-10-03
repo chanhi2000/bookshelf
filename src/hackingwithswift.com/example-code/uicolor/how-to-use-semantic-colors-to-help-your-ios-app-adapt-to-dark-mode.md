@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use semantic colors to help your iOS app adapt to dark mode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uicolor/how-to-use-semantic-colors-to-help-your-ios-app-adapt-to-dark-mode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uicolor/how-to-use-semantic-colors-to-help-your-ios-app-adapt-to-dark-mode.html
 date: 2019-06-03
 isOriginal: false
 ---

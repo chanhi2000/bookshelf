@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Working with containers
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/working-with-containers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/working-with-containers.html
 prev: /hackingwithswift.com/swiftui/how-to-align-form-text-and-controls-neatly-with-labeledcontent.md
 ---
 

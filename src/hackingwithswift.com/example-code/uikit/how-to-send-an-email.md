@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to send an email"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-send-an-email.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-send-an-email.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make empty UITableViews look more attractive using DZNEmptyDataSet"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset.html
 date: 2019-03-28
 isOriginal: false
 ---

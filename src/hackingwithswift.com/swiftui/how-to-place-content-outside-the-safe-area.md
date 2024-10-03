@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to place content outside the safe area
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-place-content-outside-the-safe-area.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-place-content-outside-the-safe-area.html
 ---
 
 # {{ $frontmatter.title }} 관련

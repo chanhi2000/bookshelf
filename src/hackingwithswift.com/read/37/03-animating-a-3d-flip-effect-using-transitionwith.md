@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Animating a 3D flip effect using transition(with:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/37/03-animating-a-3d-flip-effect-using-transitionwith.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/37/03-animating-a-3d-flip-effect-using-transitionwith.html
 isOriginal: false
 ---
 

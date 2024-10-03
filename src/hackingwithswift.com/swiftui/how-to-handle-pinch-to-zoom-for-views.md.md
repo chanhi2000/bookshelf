@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to handle pinch to zoom for views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-handle-pinch-to-zoom-for-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-handle-pinch-to-zoom-for-views.html
 next: /hackingwithswift.com/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject.md
 ---
 

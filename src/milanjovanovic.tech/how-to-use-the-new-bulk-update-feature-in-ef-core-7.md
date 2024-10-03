@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How To Use The New Bulk Update Feature In EF Core 7
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-use-the-new-bulk-update-feature-in-ef-core-7.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-use-the-new-bulk-update-feature-in-ef-core-7.html
 prev: /programming/cs/articles/README.md
 date: 2022-11-26
 isOriginal: false

@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: 3. JPA & JPAStreamer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/jpa-jpastreamer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-quarkus-and-jpastreamer-2/jpa-jpastreamer.html
 date: 2023-11-03
 isOriginal: false
 author: Julia Gustafsson

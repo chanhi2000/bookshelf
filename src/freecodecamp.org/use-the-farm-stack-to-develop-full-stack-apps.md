@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: Use the FARM Stack to Develop Full Stack Apps
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/use-the-farm-stack-to-develop-full-stack-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-the-farm-stack-to-develop-full-stack-apps.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-18
 isOriginal: false

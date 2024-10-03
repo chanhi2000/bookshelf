@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to save a string to a file on disk with write(to:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-save-a-string-to-a-file-on-disk-with-writeto.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-save-a-string-to-a-file-on-disk-with-writeto.html
 date: 2018-03-28
 isOriginal: false
 ---

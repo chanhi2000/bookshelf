@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Swift Concurrency by Example
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/
 ---
 
 # {{ $frontmatter.title }} 관련

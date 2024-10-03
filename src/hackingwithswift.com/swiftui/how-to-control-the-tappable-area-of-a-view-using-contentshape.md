@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to control the tappable area of a view using contentShape()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-control-the-tappable-area-of-a-view-using-contentshape.html
 ---
 
 # {{ $frontmatter.title }} 관련

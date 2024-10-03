@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How do you show a modal view controller when a UITabBarController tab is tapped?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-do-you-show-a-modal-view-controller-when-a-uitabbarcontroller-tab-is-tapped.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-do-you-show-a-modal-view-controller-when-a-uitabbarcontroller-tab-is-tapped.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to show the price of an SKProduct"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-show-the-price-of-an-skproduct.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-show-the-price-of-an-skproduct.html
 date: 2021-03-03
 isOriginal: false
 ---

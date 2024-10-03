@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to sort an array using sort()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-sort-an-array-using-sort.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-sort-an-array-using-sort.html
 date: 2019-06-01
 isOriginal: false
 ---

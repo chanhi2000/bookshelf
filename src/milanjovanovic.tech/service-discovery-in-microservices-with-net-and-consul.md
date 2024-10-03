@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Service Discovery in Microservices With .NET and Consul"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/service-discovery-in-microservices-with-net-and-consul.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/service-discovery-in-microservices-with-net-and-consul.html
 prev: /programming/cs/articles/README.md
 date: 2024-07-13
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: 5 EF Core Features You Need To Know
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/5-ef-core-features-you-need-to-know.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/5-ef-core-features-you-need-to-know.html
 prev: /programming/cs/articles/README.md
 date: 2024-08-10
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to round the corners of a UIView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/calayer/how-to-round-the-corners-of-a-uiview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/calayer/how-to-round-the-corners-of-a-uiview.html
 date: 2019-06-01
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create views in a loop using ForEach
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-views-in-a-loop-using-foreach.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-views-in-a-loop-using-foreach.html
 ---
 
 # {{ $frontmatter.title }} 관련

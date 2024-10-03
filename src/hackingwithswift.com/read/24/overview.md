@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 24: Swift Strings"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/24/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/24/overview.html
 prev: /hackingwithswift.com/read/23/08-wrap-up.md
 isOriginal: false
 ---

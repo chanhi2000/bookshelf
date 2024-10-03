@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Working with presentations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/working-with-presentations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/working-with-presentations.html
 prev: /hackingwithswift.com/swiftui/how-to-create-zoom-animations-between-views.md
 ---
 

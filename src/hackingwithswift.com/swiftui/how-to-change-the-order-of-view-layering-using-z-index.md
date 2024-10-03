@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to change the order of view layering using Z index
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-change-the-order-of-view-layering-using-z-index.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-change-the-order-of-view-layering-using-z-index.html
 ---
 
 # {{ $frontmatter.title }} 관련

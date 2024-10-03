@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to test localization by setting a debug locale and double length pseudolanguage"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-test-localization-by-setting-a-debug-locale-and-double-length-pseudolanguage.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-test-localization-by-setting-a-debug-locale-and-double-length-pseudolanguage.html
 date: 2018-03-28
 isOriginal: false
 ---

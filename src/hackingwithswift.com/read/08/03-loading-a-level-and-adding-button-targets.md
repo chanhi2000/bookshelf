@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Loading a level and adding button targets"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/08/03-loading-a-level-and-adding-button-targets.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/08/03-loading-a-level-and-adding-button-targets.html
 isOriginal: false
 ---
 

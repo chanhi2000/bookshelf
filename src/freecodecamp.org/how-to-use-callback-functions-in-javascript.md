@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Use Callback Functions in JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-callback-functions-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-callback-functions-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-07-03
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/Callback_functions_JavaScript.png

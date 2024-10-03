@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect whether haptic event playback is supported"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-haptics/how-to-detect-whether-haptic-event-playback-is-supported.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-haptics/how-to-detect-whether-haptic-event-playback-is-supported.html
 date: 2019-10-22
 isOriginal: false
 ---

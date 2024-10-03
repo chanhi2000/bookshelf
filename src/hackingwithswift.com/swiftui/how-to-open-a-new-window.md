@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to open a new window
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-open-a-new-window.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-open-a-new-window.html
 ---
 
 # {{ $frontmatter.title }} 관련

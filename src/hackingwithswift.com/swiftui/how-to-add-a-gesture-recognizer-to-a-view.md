@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add a gesture recognizer to a view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-a-gesture-recognizer-to-a-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-a-gesture-recognizer-to-a-view.html
 prev: /hackingwithswift.com/swiftui/how-to-add-haptic-effects-using-sensory-feedback.md
 ---
 

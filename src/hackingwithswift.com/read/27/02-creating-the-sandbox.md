@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating the sandbox"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/27/02-creating-the-sandbox.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/27/02-creating-the-sandbox.html
 isOriginal: false
 ---
 

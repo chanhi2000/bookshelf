@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "SwiftData tutorial: Building a complete project"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-follow-this-quick-start-guide.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-follow-this-quick-start-guide.html
 prev: /hackingwithswift.com/swiftdata/dedication.md
 date: 2023-09-30
 isOriginal: false

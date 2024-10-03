@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to set the background color of list rows using listRowBackground()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-set-the-background-color-of-list-rows-using-listrowbackground.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-set-the-background-color-of-list-rows-using-listrowbackground.html
 ---
 
 # {{ $frontmatter.title }} 관련

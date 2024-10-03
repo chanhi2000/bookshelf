@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to run a case-insensitive search for one string inside another"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-run-a-case-insensitive-search-for-one-string-inside-another.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-run-a-case-insensitive-search-for-one-string-inside-another.html
 date: 2018-03-28
 isOriginal: false
 ---

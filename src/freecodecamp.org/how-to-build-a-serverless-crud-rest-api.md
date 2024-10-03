@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Build a Serverless CRUD REST API with the Serverless Framework, Node.js, and GitHub Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-a-serverless-crud-rest-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-serverless-crud-rest-api.html
 prev: /devops/aws/articles/README.md
 date: 2024-08-21
 isOriginal: false

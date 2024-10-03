@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What is Dead Zone in JavaScript?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-dead-zone-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-dead-zone-in-javascript.html
 prev: /programming/js-node/articles/README.md
 date: 2024-04-28
 isOriginal: false

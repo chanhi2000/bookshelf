@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What’s the difference between await and async let?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/whats-the-difference-between-await-and-async-let.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/whats-the-difference-between-await-and-async-let.html
 date: 2023-01-19
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect the Reduce Motion accessibility setting
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-the-reduce-motion-accessibility-setting.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-the-reduce-motion-accessibility-setting.html
 ---
 
 # {{ $frontmatter.title }} 관련

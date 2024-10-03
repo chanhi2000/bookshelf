@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make TextField uppercase or lowercase using textCase()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-textfield-uppercase-or-lowercase-using-textcase.html
 ---
 
 # {{ $frontmatter.title }} 관련

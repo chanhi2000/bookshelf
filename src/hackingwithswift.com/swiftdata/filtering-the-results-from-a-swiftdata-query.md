@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Filtering the results from a SwiftData query
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/filtering-the-results-from-a-swiftdata-query.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/filtering-the-results-from-a-swiftdata-query.html
 date: 2023-10-12
 isOriginal: false
 ---

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Change Background Color with JavaScript – BG Color in JS and HTML
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-change-background-color-with-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-background-color-with-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-06-28
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/How-to-connect-Firebase-Authentication-with-Golang-app_20240625_101105_0000-1.png

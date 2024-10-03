@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust text alignment using multilineTextAlignment()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-text-alignment-using-multilinetextalignment.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Bouncing balls: circleOfRadius"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/11/03-bouncing-balls-circleofradius.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/11/03-bouncing-balls-circleofradius.html
 isOriginal: false
 ---
 

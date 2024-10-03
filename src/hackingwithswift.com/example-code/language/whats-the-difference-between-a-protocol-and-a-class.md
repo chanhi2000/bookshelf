@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What’s the difference between a protocol and a class?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/whats-the-difference-between-a-protocol-and-a-class.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/whats-the-difference-between-a-protocol-and-a-class.html
 date: 2019-03-28
 isOriginal: false
 ---

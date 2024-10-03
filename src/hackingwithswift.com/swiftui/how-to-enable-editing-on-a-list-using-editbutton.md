@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to enable editing on a list using EditButton
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-enable-editing-on-a-list-using-editbutton.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-enable-editing-on-a-list-using-editbutton.html
 ---
 
 # {{ $frontmatter.title }} 관련

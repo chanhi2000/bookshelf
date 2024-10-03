@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Back to the main thread: DispatchQueue.main"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/09/04-back-to-the-main-thread-dispatchqueuemain.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/09/04-back-to-the-main-thread-dispatchqueuemain.html
 isOriginal: false
 ---
 

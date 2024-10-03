@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to animate views with spring damping using animate(withDuration:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-animate-views-with-spring-damping-using-animatewithduration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-animate-views-with-spring-damping-using-animatewithduration.html
 date: 2019-03-28
 isOriginal: false
 ---

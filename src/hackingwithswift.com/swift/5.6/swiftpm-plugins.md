@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Plugins for Swift Package Manager
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.6/swiftpm-plugins.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.6/swiftpm-plugins.html
 next: /hackingwithswift.com/swift/5.5/async-await.md
 isOriginal: false
 ---

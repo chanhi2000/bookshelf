@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Git Cheat Sheet – Helpful Git Commands with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/git-cheat-sheet-helpful-git-commands-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-cheat-sheet-helpful-git-commands-with-examples.html
 prev: /programming/git/articles/README.md
 date: 2024-08-20
 isOriginal: false

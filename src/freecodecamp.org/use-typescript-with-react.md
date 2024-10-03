@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Use TypeScript with React
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/use-typescript-with-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-typescript-with-react.html
 prev: /programming/js-react/articles/README.md
 date: 2023-11-15
 isOriginal: false

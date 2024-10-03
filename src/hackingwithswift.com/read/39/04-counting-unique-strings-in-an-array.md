@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Counting unique strings in an array"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/39/04-counting-unique-strings-in-an-array.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/39/04-counting-unique-strings-in-an-array.html
 isOriginal: false
 ---
 

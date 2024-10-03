@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Implementing an API Gateway For Microservices With YARP"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.html
 prev: /programming/cs/articles/README.md
 date: 2023-07-08
 isOriginal: false

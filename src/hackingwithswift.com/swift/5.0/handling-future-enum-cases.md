@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Handling future enum cases
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.0/handling-future-enum-cases.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.0/handling-future-enum-cases.html
 isOriginal: false
 ---
 

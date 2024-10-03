@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to hide and show the status bar
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-hide-and-show-the-status-bar.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-hide-and-show-the-status-bar.html
 date: 2022-12-01
 isOriginal: false
 ---

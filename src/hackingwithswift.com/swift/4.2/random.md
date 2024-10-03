@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Random number generation and shuffling
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/random.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/random.html
 isOriginal: false
 ---
 

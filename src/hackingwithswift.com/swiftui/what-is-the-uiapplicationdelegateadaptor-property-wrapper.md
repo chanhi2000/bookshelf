@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What is the @UIApplicationDelegateAdaptor property wrapper?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/what-is-the-uiapplicationdelegateadaptor-property-wrapper.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/what-is-the-uiapplicationdelegateadaptor-property-wrapper.html
 next: /hackingwithswift.com/swiftui/common-swiftui-errors-and-how-to-fix-them.md
 ---
 

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-interactive-html-prototypes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-interactive-html-prototypes.html
 prev: /programming/js/articles/README.md
 date: 2024-08-27
 isOriginal: false

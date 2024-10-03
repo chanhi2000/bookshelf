@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Improve Your Data Science Skills by Solving Kaggle Challenges"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/improve-your-data-science-skills-by-solving-kaggle-challenges.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-your-data-science-skills-by-solving-kaggle-challenges.html
 prev: /programming/py/articles/README.md
 date: 2024-09-30
 isOriginal: false

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to Create an Interactive Terminal-Based Portfolio Website
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-interactive-terminal-based-portfolio.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-interactive-terminal-based-portfolio.html
 prev: /programming/js/articles/README.md
 date: 2024-04-29
 isOriginal: false

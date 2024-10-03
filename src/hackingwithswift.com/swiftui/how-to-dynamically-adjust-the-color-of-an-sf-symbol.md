@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to dynamically adjust the color of an SF Symbol
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-dynamically-adjust-the-color-of-an-sf-symbol.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-dynamically-adjust-the-color-of-an-sf-symbol.html
 ---
 
 # {{ $frontmatter.title }} 관련

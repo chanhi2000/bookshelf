@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to measure touch strength using 3D Touch"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/37/07-how-to-measure-touch-strength-using-3d-touch.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/37/07-how-to-measure-touch-strength-using-3d-touch.html
 isOriginal: false
 ---
 

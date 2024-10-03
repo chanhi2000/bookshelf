@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Multiple trailing closures
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/multiple-trailing-closures.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/multiple-trailing-closures.html
 isOriginal: false
 ---
 

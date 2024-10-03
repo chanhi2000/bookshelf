@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Adding Core Data to our project: NSPersistentContainer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/03-adding-core-data-to-our-project-nspersistentcontainer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/03-adding-core-data-to-our-project-nspersistentcontainer.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Special effects: SKEmitterNode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/11/07-special-effects-skemitternode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/11/07-special-effects-skemitternode.html
 isOriginal: false
 ---
 

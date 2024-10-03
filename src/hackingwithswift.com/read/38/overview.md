@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 38: GitHub Commits"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/overview.html
 prev: /hackingwithswift.com/read/37/10-wrap-up.md
 isOriginal: false
 ---

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/gitting-things-done-book/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/
 prev: /programming/git/articles/README.md
 date: 2024-01-08
 isOriginal: false

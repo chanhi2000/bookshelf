@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to draw part of a solid shape using trim()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-draw-part-of-a-solid-shape-using-trim.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-draw-part-of-a-solid-shape-using-trim.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: React Context API Explained with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-context-api-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-api-explained-with-examples.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-30
 isOriginal: false

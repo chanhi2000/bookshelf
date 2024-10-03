@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Recursive constraints on associated types
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.1/recursive-constraints.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.1/recursive-constraints.html
 isOriginal: false
 ---
 

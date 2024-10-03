@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Modular Monolith Data Isolation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/modular-monolith-data-isolation.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/modular-monolith-data-isolation.html
 prev: /programming/cs/articles/README.md
 date: 2023-12-09
 isOriginal: false

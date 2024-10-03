@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Frequently asked questions about SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/frequently-asked-questions-about-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/frequently-asked-questions-about-swiftui.html
 date: 2023-06-17
 isOriginal: false
 ---

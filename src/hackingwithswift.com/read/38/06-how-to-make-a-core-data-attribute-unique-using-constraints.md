@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to make a Core Data attribute unique using constraints"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/06-how-to-make-a-core-data-attribute-unique-using-constraints.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/06-how-to-make-a-core-data-attribute-unique-using-constraints.html
 isOriginal: false
 ---
 

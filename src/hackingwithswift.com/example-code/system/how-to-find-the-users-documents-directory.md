@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find the user's documents directory"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-find-the-users-documents-directory.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-find-the-users-documents-directory.html
 date: 2018-03-28
 isOriginal: false
 ---

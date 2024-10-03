@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: How to Run a Postgres Database in Azure Kubernetes Service and Integrate it with a Node.js Express Application
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-run-postgres-in-kubernetes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-postgres-in-kubernetes.html
 prev: /devops/azure/articles/README.md
 date: 2024-05-08
 isOriginal: false

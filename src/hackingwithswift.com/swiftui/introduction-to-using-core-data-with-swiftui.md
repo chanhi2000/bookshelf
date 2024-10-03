@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction to using Core Data with SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/introduction-to-using-core-data-with-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/introduction-to-using-core-data-with-swiftui.html
 prev: /hackingwithswift.com/swiftui/how-to-activate-different-button-behaviors-when-a-modifier-key-is-pressed.md
 ---
 

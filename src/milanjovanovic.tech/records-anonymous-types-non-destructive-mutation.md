@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Records, Anonymous Types, and Non-Destructive Mutation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/records-anonymous-types-non-destructive-mutation.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/records-anonymous-types-non-destructive-mutation.html
 prev: /programming/cs/articles/README.md
 date: 2022-09-10
 isOriginal: false

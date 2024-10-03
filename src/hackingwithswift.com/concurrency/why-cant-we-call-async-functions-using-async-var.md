@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Why can’t we call async functions using async var?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/why-cant-we-call-async-functions-using-async-var.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/why-cant-we-call-async-functions-using-async-var.html
 date: 2021-11-28
 isOriginal: false
 ---

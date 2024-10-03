@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Replacing text in a string using replacingOccurrences(of:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/replacing-text-in-a-string-using-replacingoccurrencesof.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/replacing-text-in-a-string-using-replacingoccurrencesof.html
 date: 2019-06-01
 isOriginal: false
 ---

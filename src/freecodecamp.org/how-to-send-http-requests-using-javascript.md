@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Use Callback Functions in JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-send-http-requests-using-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-send-http-requests-using-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-07-10
 cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/js-http.png

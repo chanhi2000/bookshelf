@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn Linux for Beginners: From Basics to Advanced Techniques [Full Book]"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-linux-for-beginners-book-basic-to-advanced.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-linux-for-beginners-book-basic-to-advanced.html
 prev: /devops/linux-debian/articles/README.md
 date: 2024-07-12
 isOriginal: false

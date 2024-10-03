@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to use SFSafariViewController to browse a web page"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/32/03-how-to-use-sfsafariviewcontroller-to-browse-a-web-page.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/32/03-how-to-use-sfsafariviewcontroller-to-browse-a-web-page.html
 isOriginal: false
 ---
 

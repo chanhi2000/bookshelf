@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to override animations with transactions
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-override-animations-with-transactions.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-override-animations-with-transactions.html
 ---
 
 # {{ $frontmatter.title }} 관련

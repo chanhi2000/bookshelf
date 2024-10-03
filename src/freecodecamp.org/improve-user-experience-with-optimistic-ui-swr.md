@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: How to Improve User Experience with Optimistic UI and SWR
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/improve-user-experience-with-optimistic-ui-swr.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-user-experience-with-optimistic-ui-swr.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-09
 isOriginal: false

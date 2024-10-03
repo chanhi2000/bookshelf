@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Creating a GameplayKit AI using GKMinmaxStrategist"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/08-creating-a-gameplaykit-ai-using-gkminmaxstrategist.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/08-creating-a-gameplaykit-ai-using-gkminmaxstrategist.html
 isOriginal: false
 ---
 

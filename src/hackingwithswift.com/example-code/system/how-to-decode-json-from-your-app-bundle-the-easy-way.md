@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to decode JSON from your app bundle the easy way"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-decode-json-from-your-app-bundle-the-easy-way.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-decode-json-from-your-app-bundle-the-easy-way.html
 date: 2019-10-06
 isOriginal: false
 ---

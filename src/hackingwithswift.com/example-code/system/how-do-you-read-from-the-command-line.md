@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How do you read from the command line?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-do-you-read-from-the-command-line.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-do-you-read-from-the-command-line.html
 date: 2018-03-28
 isOriginal: false
 ---

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: ​​How to Upload Large Files Efficiently with AWS S3 Multipart Upload
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/upload-large-files-with-aws.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/upload-large-files-with-aws.html
 prev: /devops/aws/articles/README.md
 date: 2024-07-08
 isOriginal: false

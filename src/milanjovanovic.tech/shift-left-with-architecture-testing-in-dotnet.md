@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Shift Left With Architecture Testing in .NET"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/shift-left-with-architecture-testing-in-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/shift-left-with-architecture-testing-in-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2024-05-25
 isOriginal: false

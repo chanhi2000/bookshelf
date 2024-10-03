@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use decorative images to reduce screen reader clutter
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-decorative-images-to-reduce-screen-reader-clutter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-decorative-images-to-reduce-screen-reader-clutter.html
 ---
 
 # {{ $frontmatter.title }} 관련

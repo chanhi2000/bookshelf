@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to fix “argument of #selector refers to instance method that is not exposed to Objective-C”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-fix-argument-of-selector-refers-to-instance-method-that-is-not-exposed-to-objective-c.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-fix-argument-of-selector-refers-to-instance-method-that-is-not-exposed-to-objective-c.html
 date: 2019-03-28
 isOriginal: false
 ---

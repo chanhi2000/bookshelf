@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Customizing Button with ButtonStyle
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/customizing-button-with-buttonstyle.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/customizing-button-with-buttonstyle.html
 ---
 
 # {{ $frontmatter.title }} 관련

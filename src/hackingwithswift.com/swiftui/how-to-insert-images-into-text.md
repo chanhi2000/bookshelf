@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to insert images into text
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-insert-images-into-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-insert-images-into-text.html
 next: /hackingwithswift.com/swiftui/learn-once-apply-anywhere.md
 ---
 

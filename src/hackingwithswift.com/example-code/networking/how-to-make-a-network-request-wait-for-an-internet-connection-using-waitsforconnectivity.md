@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make a network request wait for an internet connection using waitsForConnectivity"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/networking/how-to-make-a-network-request-wait-for-an-internet-connection-using-waitsforconnectivity.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/networking/how-to-make-a-network-request-wait-for-an-internet-connection-using-waitsforconnectivity.html
 date: 2019-10-27
 isOriginal: false
 ---

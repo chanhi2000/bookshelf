@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect and respond to key press events
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-and-respond-to-key-press-events.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-and-respond-to-key-press-events.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: Build a YouTube Clone with Flutter, Firebase, and Riverpod
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-youtube-clone-with-flutter-firebase-and-riverpod.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-youtube-clone-with-flutter-firebase-and-riverpod.html
 prev: /programming/dart/articles/README.md
 date: 2024-06-04
 isOriginal: false

@@ -20,7 +20,7 @@ head:
     - property: og:description`
       content: "How to Get a Memory Map of Your System using BIOS Interrupts"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-get-a-memory-map-of-your-system-using-bios-interrupts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-a-memory-map-of-your-system-using-bios-interrupts.html
 prev: /hw/articles/README.md
 date: 2024-09-23
 isOriginal: false

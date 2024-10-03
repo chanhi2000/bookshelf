@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: This stuff is hard
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/this-stuff-is-hard.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/this-stuff-is-hard.html
 prev: /hackingwithswift.com/concurrency/README.md
 date: 2021-06-17
 isOriginal: false

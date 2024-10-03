@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What is the @FetchRequest property wrapper?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/what-is-the-fetchrequest-property-wrapper.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/what-is-the-fetchrequest-property-wrapper.html
 ---
 
 # {{ $frontmatter.title }} 관련

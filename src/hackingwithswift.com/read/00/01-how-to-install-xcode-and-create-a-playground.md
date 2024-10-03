@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to install Xcode and create a playground"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/01-how-to-install-xcode-and-create-a-playground.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/01-how-to-install-xcode-and-create-a-playground.html
 isOriginal: false
 ---
 

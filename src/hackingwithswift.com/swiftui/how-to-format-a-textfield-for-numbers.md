@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to format a TextField for numbers
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-format-a-textfield-for-numbers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-format-a-textfield-for-numbers.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Free Linux Crash Course with Labs
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-fix-python-installation-errors-on-mac.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fix-python-installation-errors-on-mac.html
 prev: /devops/linux-fedora/articles/README.md
 date: 2024-06-13
 isOriginal: false

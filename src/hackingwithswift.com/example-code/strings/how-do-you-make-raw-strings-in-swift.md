@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How do you make raw strings in Swift?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-do-you-make-raw-strings-in-swift.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-do-you-make-raw-strings-in-swift.html
 date: 2018-03-28
 isOriginal: false
 ---

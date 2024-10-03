@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Learn TypeScript – A Comprehensive Guide for Beginners
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/typescript-for-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/typescript-for-beginners-guide.html
 prev: /programming/ts/articles/README.md
 date: 2024-08-08
 isOriginal: false

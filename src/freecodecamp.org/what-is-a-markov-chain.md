@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What are Markov Chains? Explained With Python Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-a-markov-chain.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-markov-chain.html
 prev: /programming/py/articles/README.md
 date: 2024-07-08
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Advanced Indexing Strategies in PostgreSQL
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/postgresql-indexing-strategies.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/postgresql-indexing-strategies.html
 prev: /data-science/postgres/articles/README.md
 date: 2023-05-12
 isOriginal: false

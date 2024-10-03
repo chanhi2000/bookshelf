@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to lets users drag anywhere to move a window
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-lets-users-drag-anywhere-to-move-a-window.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-lets-users-drag-anywhere-to-move-a-window.html
 date: 2024-06-21
 isOriginal: false
 ---

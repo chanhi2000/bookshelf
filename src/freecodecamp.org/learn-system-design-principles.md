@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Learn System Design Principles and Prepare for an Job Interview
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-system-design-principles.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-system-design-principles.html
 prev: /academics/system-design/articles/README.md
 date: 2024-07-25
 isOriginal: false

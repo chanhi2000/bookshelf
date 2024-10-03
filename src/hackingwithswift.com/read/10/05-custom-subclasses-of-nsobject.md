@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Custom subclasses of NSObject"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/10/05-custom-subclasses-of-nsobject.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/10/05-custom-subclasses-of-nsobject.html
 isOriginal: false
 ---
 

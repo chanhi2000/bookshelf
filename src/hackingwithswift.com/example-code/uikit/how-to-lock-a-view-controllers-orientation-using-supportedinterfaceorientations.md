@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to lock a view controller’s orientation using supportedInterfaceOrientations"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-lock-a-view-controllers-orientation-using-supportedinterfaceorientations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-lock-a-view-controllers-orientation-using-supportedinterfaceorientations.html
 date: 2019-03-28
 isOriginal: false
 ---

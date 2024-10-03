@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: React 19 – New Hooks Explained with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-19-new-hooks-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-19-new-hooks-explained-with-examples.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-28
 isOriginal: false

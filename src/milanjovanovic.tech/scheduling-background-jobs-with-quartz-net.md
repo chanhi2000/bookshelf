@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Scheduling Background Jobs With Quartz.NET"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/scheduling-background-jobs-with-quartz-net.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/scheduling-background-jobs-with-quartz-net.html
 prev: /programming/cs/articles/README.md
 date: 2023-06-03
 isOriginal: false

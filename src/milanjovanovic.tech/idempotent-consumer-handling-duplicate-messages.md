@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Idempotent Consumer - Handling Duplicate Messages"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/idempotent-consumer-handling-duplicate-messages.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/idempotent-consumer-handling-duplicate-messages.html
 prev: /programming/cs/articles/README.md
 date: 2023-04-22
 isOriginal: false

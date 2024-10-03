@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to ask users to review your app using SKStoreReviewController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-ask-users-to-review-your-app-using-skstorereviewcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-ask-users-to-review-your-app-using-skstorereviewcontroller.html
 date: 2023-01-22
 isOriginal: false
 ---

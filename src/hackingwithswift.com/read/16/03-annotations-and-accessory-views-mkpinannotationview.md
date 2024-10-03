@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Annotations and accessory views: MKPinAnnotationView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/16/03-annotations-and-accessory-views-mkpinannotationview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/16/03-annotations-and-accessory-views-mkpinannotationview.html
 isOriginal: false
 ---
 

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Distributed actor isolation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.7/distributed-actors.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/distributed-actors.html
 isOriginal: false
 ---
 

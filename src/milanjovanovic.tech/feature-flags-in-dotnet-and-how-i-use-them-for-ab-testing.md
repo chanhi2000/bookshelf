@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Feature Flags in .NET and How I Use Them for A/B Testing"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/feature-flags-in-dotnet-and-how-i-use-them-for-ab-testing.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/feature-flags-in-dotnet-and-how-i-use-them-for-ab-testing.html
 prev: /programming/cs/articles/README.md
 date: 2023-09-16
 isOriginal: false

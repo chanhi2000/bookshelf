@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to align form text and controls neatly with LabeledContent
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-align-form-text-and-controls-neatly-with-labeledcontent.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-align-form-text-and-controls-neatly-with-labeledcontent.html
 next: /hackingwithswift.com/swiftui/working-with-containers.md
 ---
 

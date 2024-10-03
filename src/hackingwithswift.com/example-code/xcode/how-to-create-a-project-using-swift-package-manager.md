@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create a project using Swift Package Manager"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-create-a-project-using-swift-package-manager.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-create-a-project-using-swift-package-manager.html
 date: 2019-03-28
 isOriginal: false
 ---

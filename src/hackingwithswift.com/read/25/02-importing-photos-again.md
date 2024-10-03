@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Importing photos again"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/25/02-importing-photos-again.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/25/02-importing-photos-again.html
 isOriginal: false
 ---
 

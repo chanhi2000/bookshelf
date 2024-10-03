@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to subclass UIApplication using UIApplicationMain"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-subclass-uiapplication-using-uiapplicationmain.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-subclass-uiapplication-using-uiapplicationmain.html
 date: 2019-03-28
 isOriginal: false
 ---

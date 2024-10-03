@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Breaking forms into sections
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/breaking-forms-into-sections.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/breaking-forms-into-sections.html
 date: 2021-07-19
 isOriginal: false
 ---

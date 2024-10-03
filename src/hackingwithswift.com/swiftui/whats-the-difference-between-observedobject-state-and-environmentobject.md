@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What's the difference between @ObservedObject, @State, and @EnvironmentObject?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject.html
 prev: /hackingwithswift.com/swiftui/how-to-detect-the-location-of-a-tap-inside-a-view.md
 ---
 

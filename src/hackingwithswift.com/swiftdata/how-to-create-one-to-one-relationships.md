@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to create one-to-one relationships
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-create-one-to-one-relationships.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-create-one-to-one-relationships.html
 date: 2023-09-30
 isOriginal: false
 ---

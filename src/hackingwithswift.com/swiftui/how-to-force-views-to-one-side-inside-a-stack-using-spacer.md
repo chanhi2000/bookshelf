@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to force views to one side inside a stack using Spacer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-force-views-to-one-side-inside-a-stack-using-spacer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-force-views-to-one-side-inside-a-stack-using-spacer.html
 ---
 
 # {{ $frontmatter.title }} 관련

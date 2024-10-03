@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: WKWebView - free Swift example code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/
 ---
 
 # {{ $frontmatter.title }} 관련

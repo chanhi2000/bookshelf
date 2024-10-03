@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to monitor WKWebView page load progress using key-value observing"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/how-to-monitor-wkwebview-page-load-progress-using-key-value-observing.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/how-to-monitor-wkwebview-page-load-progress-using-key-value-observing.html
 date: 2019-03-28
 isOriginal: false
 ---

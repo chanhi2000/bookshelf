@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to follow this quick start guide
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-follow-this-quick-start-guide.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-follow-this-quick-start-guide.html
 date: 2023-06-17
 isOriginal: false
 ---

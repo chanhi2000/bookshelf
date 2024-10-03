@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to define SwiftData models using the @Model macro
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-define-swiftdata-models-using-the-model-macro.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-define-swiftdata-models-using-the-model-macro.html
 prev: /hackingwithswift.com/swiftdata/how-to-enable-or-disable-autosave-for-a-modelcontext.md
 date: 2023-09-30
 isOriginal: false

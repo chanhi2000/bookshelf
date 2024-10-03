@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to help VoiceOver read specific kinds of text using accessibilityTextualContext"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/accessibility/how-to-help-voiceover-read-specific-kinds-of-text-using-accessibilitytextualcontext.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/accessibility/how-to-help-voiceover-read-specific-kinds-of-text-using-accessibilitytextualcontext.html
 date: 2019-10-20
 isOriginal: false
 ---

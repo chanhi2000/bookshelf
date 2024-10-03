@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Measuring execution speed using CFAbsoluteTimeGetCurrent()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/measuring-execution-speed-using-cfabsolutetimegetcurrent.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/measuring-execution-speed-using-cfabsolutetimegetcurrent.html
 date: 2018-03-28
 isOriginal: false
 ---

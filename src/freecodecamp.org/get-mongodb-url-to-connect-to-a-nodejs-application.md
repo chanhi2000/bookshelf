@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html
 prev: /programming/js-node/articles/README.md
 date: 2024-08-12
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Extending HttpClient With Delegating Handlers in ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/extending-httpclient-with-delegating-handlers-in-aspnetcore.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/extending-httpclient-with-delegating-handlers-in-aspnetcore.html
 prev: /programming/cs/articles/README.md
 date: 2024-01-13
 isOriginal: false

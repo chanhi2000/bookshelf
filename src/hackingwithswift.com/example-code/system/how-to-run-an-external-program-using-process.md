@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to run an external program using Process"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-run-an-external-program-using-process.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-run-an-external-program-using-process.html
 date: 2018-03-28
 isOriginal: false
 ---

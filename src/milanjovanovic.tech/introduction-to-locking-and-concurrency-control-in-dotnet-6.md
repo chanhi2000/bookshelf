@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction To Locking And Concurrency Control in .NET 6
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/introduction-to-locking-and-concurrency-control-in-dotnet-6.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/introduction-to-locking-and-concurrency-control-in-dotnet-6.html
 prev: /programming/cs/articles/README.md
 date: 2022-10-22
 isOriginal: false

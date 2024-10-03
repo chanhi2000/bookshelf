@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Testing Modular Monoliths: System Integration Testing"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/testing-modular-monoliths-system-integration-testing.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/testing-modular-monoliths-system-integration-testing.html
 prev: /programming/cs/articles/README.md
 date: 2024-07-20
 isOriginal: false

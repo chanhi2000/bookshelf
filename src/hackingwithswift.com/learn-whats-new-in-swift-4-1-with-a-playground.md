@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: See the code, run the code, edit the code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/learn-whats-new-in-swift-4-1-with-a-playground-with-a-playground.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/learn-whats-new-in-swift-4-1-with-a-playground-with-a-playground.html
 prev: /programming/swift/articles/README.md
 date: 2018-04-04
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to enable vertical page scrolling
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-enable-vertical-page-scrolling.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-enable-vertical-page-scrolling.html
 ---
 
 # {{ $frontmatter.title }} 관련

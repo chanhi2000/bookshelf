@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make UITableViewCell separators go edge to edge"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-make-uitableviewcell-separators-go-edge-to-edge.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-make-uitableviewcell-separators-go-edge-to-edge.html
 date: 2019-03-28
 isOriginal: false
 ---

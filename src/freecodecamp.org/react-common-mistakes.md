@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Common React Mistakes to Avoid
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-common-mistakes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-common-mistakes.html
 prev: /programming/js-react/articles/README.md
 date: 2024-08-06
 isOriginal: false

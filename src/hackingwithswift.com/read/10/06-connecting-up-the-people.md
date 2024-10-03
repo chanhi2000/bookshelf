@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Connecting up the people"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/10/06-connecting-up-the-people.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/10/06-connecting-up-the-people.html
 isOriginal: false
 ---
 

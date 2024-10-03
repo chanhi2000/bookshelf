@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create basic animations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-basic-animations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-basic-animations.html
 prev: /hackingwithswift.com/swiftui/how-to-create-custom-text-effects-and-animations.md
 ---
 

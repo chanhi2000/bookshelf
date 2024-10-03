@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to control the pitch and speed of audio using AVAudioEngine"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/media/how-to-control-the-pitch-and-speed-of-audio-using-avaudioengine.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-control-the-pitch-and-speed-of-audio-using-avaudioengine.html
 date: 2021-03-23
 isOriginal: false
 ---

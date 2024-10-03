@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 17: Space Race"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/17/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/17/overview.html
 prev: /hackingwithswift.com/read/16/04-wrap-up.md
 isOriginal: false
 ---

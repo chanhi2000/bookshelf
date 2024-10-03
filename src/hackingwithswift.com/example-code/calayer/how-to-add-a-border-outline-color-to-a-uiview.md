@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add a border outline color to a UIView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/calayer/how-to-add-a-border-outline-color-to-a-uiview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/calayer/how-to-add-a-border-outline-color-to-a-uiview.html
 date: 2019-06-01
 isOriginal: false
 ---

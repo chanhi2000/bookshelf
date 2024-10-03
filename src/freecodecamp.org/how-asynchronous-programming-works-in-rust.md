@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-asynchronous-programming-works-in-rust.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-asynchronous-programming-works-in-rust.html
 prev: /programming/rust/articles/README.md
 date: 2024-08-15
 isOriginal: false

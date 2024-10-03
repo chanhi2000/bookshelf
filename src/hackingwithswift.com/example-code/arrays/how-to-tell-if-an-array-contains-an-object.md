@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to tell if an array contains an object"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-tell-if-an-array-contains-an-object.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-tell-if-an-array-contains-an-object.html
 date: 2019-03-28
 isOriginal: false
 ---

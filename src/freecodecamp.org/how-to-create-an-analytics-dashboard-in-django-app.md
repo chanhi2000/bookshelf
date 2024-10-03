@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create an analytics dashboard in a Django app
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-an-analytics-dashboard-in-django-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-analytics-dashboard-in-django-app.html
 prev: /programming/py-django/articles/README.md
 date: 2020-02-12
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to insert images into an attributed string with NSTextAttachment"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-insert-images-into-an-attributed-string-with-nstextattachment.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-insert-images-into-an-attributed-string-with-nstextattachment.html
 date: 2018-03-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to return different view types
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-return-different-view-types.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-return-different-view-types.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to draw a checkerboard
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-draw-a-checkerboard.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-draw-a-checkerboard.html
 ---
 
 # {{ $frontmatter.title }} 관련

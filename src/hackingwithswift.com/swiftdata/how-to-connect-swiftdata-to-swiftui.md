@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to connect SwiftData to SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-connect-swiftdata-to-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-connect-swiftdata-to-swiftui.html
 prev: /hackingwithswift.com/swiftdata/how-to-create-a-complex-migration-using-versionedschema.md
 date: 2023-09-22
 isOriginal: false

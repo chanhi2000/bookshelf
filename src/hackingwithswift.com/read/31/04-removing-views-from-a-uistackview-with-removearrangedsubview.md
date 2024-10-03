@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Removing views from a UIStackView with removeArrangedSubview()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/31/04-removing-views-from-a-uistackview-with-removearrangedsubview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/31/04-removing-views-from-a-uistackview-with-removearrangedsubview.html
 isOriginal: false
 ---
 

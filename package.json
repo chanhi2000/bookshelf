@@ -1,16 +1,21 @@
 {
   "name": "bookshelf",
   "description": "Bookshelf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "type": "module",
+  "private": true,
+  "repository": "https://github.com/chanhi2000/bookshelf",
+  "authors": {
+    "name": "Chan Hee Lee",
+    "email": "chanhi2000@gmail.com"
+  },
   "scripts": {
-    "dev": "vuepress-vite dev src",
-    "clean-dev": "vuepress-vite dev src --clean-cache",
-    "build": "NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src",
-    "clean-build": "vuepress-vite build src --clean-cache",
-    "mem-check": "node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))'",
-    "update-package": "npx vp-update"
+    "dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src",
+    "clean-dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src --clean-cache",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src",
+    "clean-build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src --clean-cache",
+    "mem-check": "node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))'"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",

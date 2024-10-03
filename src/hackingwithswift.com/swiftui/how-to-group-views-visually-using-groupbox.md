@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to group views visually using GroupBox
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-group-views-visually-using-groupbox.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-group-views-visually-using-groupbox.html
 ---
 
 # {{ $frontmatter.title }} 관련

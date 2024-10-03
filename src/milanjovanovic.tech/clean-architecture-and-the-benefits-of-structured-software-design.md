@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Clean Architecture And The Benefits Of Structured Software Design
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/clean-architecture-and-the-benefits-of-structured-software-design.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/clean-architecture-and-the-benefits-of-structured-software-design.html
 prev: /programming/cs/articles/README.md
 date: 2022-12-24
 isOriginal: false

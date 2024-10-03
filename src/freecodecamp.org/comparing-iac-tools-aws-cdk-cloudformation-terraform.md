@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html
 prev: /devops/aws/articles/README.md
 date: 2024-06-03
 isOriginal: false

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Pack iteration"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/6.0/pack-iteration.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/6.0/pack-iteration.html
 isOriginal: false
 ---
 

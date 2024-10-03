@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add keyboard shortcuts using keyboardShortcut()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-keyboard-shortcuts-using-keyboardshortcut.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-keyboard-shortcuts-using-keyboardshortcut.html
 ---
 
 # {{ $frontmatter.title }} 관련

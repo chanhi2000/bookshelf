@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use implicit stacking
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-implicit-stacking.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-implicit-stacking.html
 ---
 
 # {{ $frontmatter.title }} 관련

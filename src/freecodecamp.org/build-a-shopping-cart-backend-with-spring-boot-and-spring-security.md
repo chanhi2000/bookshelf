@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Build a Shopping Cart Backend with Spring Boot and Spring Security
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-shopping-cart-backend-with-spring-boot-and-spring-security.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-shopping-cart-backend-with-spring-boot-and-spring-security.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-08-28
 isOriginal: false

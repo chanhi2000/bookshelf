@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Create a ML Model with Azure Machine Learning Designer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/create-an-ml-model-with-azure-machine-learning-designer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-an-ml-model-with-azure-machine-learning-designer.html
 prev: /devops/azure/articles/README.md
 date: 2024-06-25
 isOriginal: false

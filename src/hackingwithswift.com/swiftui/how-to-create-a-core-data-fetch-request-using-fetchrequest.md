@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a Core Data fetch request using @FetchRequest
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-core-data-fetch-request-using-fetchrequest.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-core-data-fetch-request-using-fetchrequest.html
 ---
 
 # {{ $frontmatter.title }} 관련

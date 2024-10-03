@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction to Distributed Tracing With OpenTelemetry in .NET
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2024-04-20
 isOriginal: false

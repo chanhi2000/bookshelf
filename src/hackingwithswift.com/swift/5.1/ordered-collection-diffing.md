@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Ordered collection diffing
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.1/ordered-collection-diffing.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.1/ordered-collection-diffing.html
 isOriginal: false
 ---
 

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Read and Write Files with Node.js"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-read-and-write-files-with-nodejs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-read-and-write-files-with-nodejs.html
 prev: /programming/js-node/articles/README.md
 date: 2024-08-19
 isOriginal: false

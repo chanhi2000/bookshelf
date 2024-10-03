@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to scroll to a specific row in a list
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-scroll-to-a-specific-row-in-a-list.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-scroll-to-a-specific-row-in-a-list.html
 ---
 
 # {{ $frontmatter.title }} 관련

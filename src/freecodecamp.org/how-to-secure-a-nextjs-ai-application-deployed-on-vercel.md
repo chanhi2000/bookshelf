@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Secure a Next.js AI Application Deployed on Vercel
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-secure-a-nextjs-ai-application-deployed-on-vercel.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-a-nextjs-ai-application-deployed-on-vercel.html
 prev: /programming/js-next/articles/README.md
 date: 2024-08-19
 isOriginal: false

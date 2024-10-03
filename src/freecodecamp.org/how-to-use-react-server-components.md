@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: React 서버 컴포넌트를 사용해야 하는 이유와 방법
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-react-server-components.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-react-server-components.html
 prev: /programming/js-react/articles/README.md
 date: 2024-01-08
 isOriginal: false

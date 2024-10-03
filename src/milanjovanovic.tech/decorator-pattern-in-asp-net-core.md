@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Decorator Pattern In ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/decorator-pattern-in-asp-net-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/decorator-pattern-in-asp-net-core.html
 prev: /programming/cs/articles/README.md
 date: 2022-10-08
 isOriginal: false

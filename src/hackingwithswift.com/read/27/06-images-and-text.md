@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Images and text"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/27/06-images-and-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/27/06-images-and-text.html
 isOriginal: false
 ---
 

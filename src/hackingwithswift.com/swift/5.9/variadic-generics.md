@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Value and Type Parameter Packs"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.9/variadic-generics.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/variadic-generics.html
 isOriginal: false
 ---
 

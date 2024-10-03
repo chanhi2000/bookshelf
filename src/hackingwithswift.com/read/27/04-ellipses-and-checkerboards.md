@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Ellipses and checkerboards"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/27/04-ellipses-and-checkerboards.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/27/04-ellipses-and-checkerboards.html
 isOriginal: false
 ---
 

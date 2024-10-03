@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a document-based app using FileDocument and DocumentGroup
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup.html
 ---
 
 # {{ $frontmatter.title }} 관련

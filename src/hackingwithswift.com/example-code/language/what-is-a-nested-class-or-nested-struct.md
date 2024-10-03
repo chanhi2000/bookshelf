@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a nested class or nested struct?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-nested-class-or-nested-struct.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-nested-class-or-nested-struct.html
 date: 2019-03-28
 isOriginal: false
 ---

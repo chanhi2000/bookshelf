@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Next-Gen Large Language Models: The Retrieval-Augmented Generation (RAG) Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/retrieval-augmented-generation-rag-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/retrieval-augmented-generation-rag-handbook.html
 prev: /programming/py/articles/README.md
 date: 2024-06-11
 isOriginal: false

@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: Learn the Basics of Go by Building a Full Stack Web App with React and Go
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go.html
 prev: /programming/go/articles/README.md
 date: 2024-05-30
 isOriginal: false

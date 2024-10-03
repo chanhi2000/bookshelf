@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Answering the big question: should you learn SwiftUI, UIKit, or both?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/answering-the-big-question-should-you-learn-swiftui-uikit-or-both.html
 date: 2023-06-17
 isOriginal: false
 ---

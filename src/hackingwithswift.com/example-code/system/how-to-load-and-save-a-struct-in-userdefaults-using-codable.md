@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to load and save a struct in UserDefaults using Codable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-load-and-save-a-struct-in-userdefaults-using-codable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-load-and-save-a-struct-in-userdefaults-using-codable.html
 date: 2018-03-28
 isOriginal: false
 ---

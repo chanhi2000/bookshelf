@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Getting Started With NServiceBus in .NET
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/getting-started-with-nservicebus-in-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/getting-started-with-nservicebus-in-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2023-10-07
 isOriginal: false

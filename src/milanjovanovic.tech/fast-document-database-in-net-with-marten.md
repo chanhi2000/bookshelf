@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Fast Document Database In .NET With Marten
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/fast-document-database-in-net-with-marten.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/fast-document-database-in-net-with-marten.html
 prev: /programming/cs/articles/README.md
 date: 2022-12-17
 isOriginal: false

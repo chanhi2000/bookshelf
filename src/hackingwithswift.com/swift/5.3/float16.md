@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: A new Float16 type
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/float16.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/float16.html
 isOriginal: false
 ---
 

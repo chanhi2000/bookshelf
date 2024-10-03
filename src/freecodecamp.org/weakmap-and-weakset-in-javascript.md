@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Use WeakMap and WeakSet in JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/weakmap-and-weakset-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/weakmap-and-weakset-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-06-07
 isOriginal: false

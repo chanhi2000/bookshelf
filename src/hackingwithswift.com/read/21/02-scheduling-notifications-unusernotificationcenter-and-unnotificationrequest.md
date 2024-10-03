@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Scheduling notifications: UNUserNotificationCenter and UNNotificationRequest"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/21/02-scheduling-notifications-unusernotificationcenter-and-unnotificationrequest.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/21/02-scheduling-notifications-unusernotificationcenter-and-unnotificationrequest.html
 isOriginal: false
 ---
 

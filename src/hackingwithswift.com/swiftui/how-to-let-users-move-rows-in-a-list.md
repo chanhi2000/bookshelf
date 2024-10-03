@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let users move rows in a list
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-users-move-rows-in-a-list.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-users-move-rows-in-a-list.html
 ---
 
 # {{ $frontmatter.title }} 관련

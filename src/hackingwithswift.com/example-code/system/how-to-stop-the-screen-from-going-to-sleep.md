@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to stop the screen from going to sleep"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-stop-the-screen-from-going-to-sleep.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-stop-the-screen-from-going-to-sleep.html
 date: 2018-03-28
 isOriginal: false
 ---

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to create a complex migration using VersionedSchema
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-create-a-complex-migration-using-versionedschema.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-create-a-complex-migration-using-versionedschema.html
 next: /hackingwithswift.com/swiftdata/how-to-connect-swiftdata-to-swiftui.md
 date: 2023-09-30
 isOriginal: false

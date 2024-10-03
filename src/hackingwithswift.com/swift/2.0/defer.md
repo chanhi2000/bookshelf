@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Use the defer keyword to delay work until your scope exits
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.0/defer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.0/defer.html
 isOriginal: false
 ---
 

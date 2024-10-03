@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to made an SKSpriteNode render faster using blendMode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-made-an-skspritenode-render-faster-using-blendmode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-made-an-skspritenode-render-faster-using-blendmode.html
 date: 2019-03-28
 isOriginal: false
 ---

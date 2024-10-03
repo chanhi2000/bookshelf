@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to create derived attributes with SwiftData
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-create-derived-attributes-with-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-create-derived-attributes-with-swiftdata.html
 date: 2023-09-30
 isOriginal: false
 ---

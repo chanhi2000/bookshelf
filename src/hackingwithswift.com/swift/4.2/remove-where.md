@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: In-place collection element removal
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/remove-where.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/remove-where.html
 isOriginal: false
 ---
 

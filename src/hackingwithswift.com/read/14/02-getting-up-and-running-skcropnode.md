@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Getting up and running: SKCropNode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/14/02-getting-up-and-running-skcropnode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/14/02-getting-up-and-running-skcropnode.html
 isOriginal: false
 ---
 

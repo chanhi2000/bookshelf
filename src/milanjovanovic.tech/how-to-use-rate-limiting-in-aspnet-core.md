@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How To Use Rate Limiting In ASP.NET Core"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-use-rate-limiting-in-aspnet-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-use-rate-limiting-in-aspnet-core.html
 prev: /programming/cs/articles/README.md
 date: 2023-04-08
 isOriginal: false
@@ -289,8 +289,8 @@ Here are some resources if you want to learn more about rate limiting:
   name="Announcing Rate Limiting for .NET"
   desc="Announcing built-in Rate Limiting support in .NET 7. Rate limiting provides a way to protect a resource to avoid overwhelming your app."
   url="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/"
-  logo="/images/content/devblogs.microsoft.com/favicon.jpg"
-  preview="/images/content/devblogs.microsoft.com/open-graph-image.png"/>
+  logo="/assets/image/devblogs.microsoft.com/favicon.jpg"
+  preview="/assets/image/devblogs.microsoft.com/open-graph-image.png"/>
 
 I'm excited to try out rate limiting in my projects.
 

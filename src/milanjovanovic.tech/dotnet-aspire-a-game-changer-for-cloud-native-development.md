@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: ".NET Aspire: A Game-Changer for Cloud-Native Development?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.html
 prev: /programming/cs/articles/README.md
 date: 2024-09-14
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust List row separator insets
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-list-row-separator-insets.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-list-row-separator-insets.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What’s the difference between actors, classes, and structs?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/whats-the-difference-between-actors-classes-and-structs.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/whats-the-difference-between-actors-classes-and-structs.html
 date: 2021-11-28
 isOriginal: false
 ---

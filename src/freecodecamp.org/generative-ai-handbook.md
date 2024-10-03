@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/generative-ai-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/generative-ai-handbook.html
 prev: /ai/articles/README.md
 date: 2024-06-20
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Shaping up for action: CGPath and UIBezierPath"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/23/03-shaping-up-for-action-cgpath-and-uibezierpath.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/23/03-shaping-up-for-action-cgpath-and-uibezierpath.html
 isOriginal: false
 ---
 

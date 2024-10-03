@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: CQRS Validation with MediatR Pipeline and FluentValidation
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/cqrs-validation-with-mediatr-pipeline-and-fluentvalidation.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/cqrs-validation-with-mediatr-pipeline-and-fluentvalidation.html
 prev: /programming/cs/articles/README.md
 date: 2023-09-30
 isOriginal: false

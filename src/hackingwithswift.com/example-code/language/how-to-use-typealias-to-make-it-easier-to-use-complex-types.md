@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use typealias to make it easier to use complex types"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-use-typealias-to-make-it-easier-to-use-complex-types.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-use-typealias-to-make-it-easier-to-use-complex-types.html
 date: 2019-03-28
 isOriginal: false
 ---

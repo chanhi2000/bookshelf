@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What's new in Swift 2.2"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift2-2.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift2-2.html
 prev: /programming/swift/articles/README.md
 date: 2016-03-21
 isOriginal: false

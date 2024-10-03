@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to change a view’s anchor point without moving it"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/calayer/how-to-change-a-views-anchor-point-without-moving-it.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/calayer/how-to-change-a-views-anchor-point-without-moving-it.html
 date: 2019-03-28
 isOriginal: false
 ---

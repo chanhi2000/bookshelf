@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Structured Logging In ASP.NET Core With Serilog
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/structured-logging-in-asp-net-core-with-serilog.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/structured-logging-in-asp-net-core-with-serilog.html
 prev: /programming/cs/articles/README.md
 date: 2023-02-18
 isOriginal: false

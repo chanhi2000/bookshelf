@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to color an SKSpriteNode using colorBlendFactor"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-color-an-skspritenode-using-colorblendfactor.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-color-an-skspritenode-using-colorblendfactor.html
 date: 2019-03-28
 isOriginal: false
 ---

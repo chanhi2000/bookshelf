@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to shuffle an array using arc4random_uniform()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-shuffle-an-array-using-arc4random-uniform.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-shuffle-an-array-using-arc4random-uniform.html
 date: 2019-03-28
 isOriginal: false
 ---

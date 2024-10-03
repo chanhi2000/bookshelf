@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Property wrappers are now supported for local variables
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.4/local-property-wrappers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.4/local-property-wrappers.html
 isOriginal: false
 ---
 

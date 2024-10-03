@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: When fully enabled, Swift 6 is likely to require changes in pretty much every project.
     - property: og:url
-      content: https://chanhi2000.github.io/articles/whats-new-in-swift-6.html
+      content: https://chanhi2000.github.io/bookshelf/whats-new-in-swift-6.html
 prev: /programming/swift/articles/README.md
 date: 2024-06-10
 isOriginal: false

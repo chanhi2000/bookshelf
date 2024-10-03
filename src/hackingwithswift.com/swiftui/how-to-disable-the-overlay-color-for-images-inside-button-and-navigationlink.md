@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to disable the overlay color for images inside Button and NavigationLink
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-disable-the-overlay-color-for-images-inside-button-and-navigationlink.html
 ---
 
 # {{ $frontmatter.title }} 관련

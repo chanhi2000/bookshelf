@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a float?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-float.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-float.html
 date: 2020-03-16
 isOriginal: false
 ---

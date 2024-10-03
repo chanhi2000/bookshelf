@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to check whether a SwiftData model object has been deleted
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-check-whether-a-swiftdata-model-object-has-been-deleted.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-check-whether-a-swiftdata-model-object-has-been-deleted.html
 date: 2023-09-30
 isOriginal: false
 ---

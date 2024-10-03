@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Hands-on code examples to help you learn what's new in Swift 4: new encoding and decoding, smarter keypaths, multi-line strings, and more!"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift4.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift4.html
 prev: /programming/swift/articles/README.md
 date: 2017-06-05
 isOriginal: false

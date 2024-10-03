@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Optimize Next.js App Performance With Lazy Loading
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/next-js-performance-optimization.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-js-performance-optimization.html
 prev: /programming/js-next/articles/README.md
 date: 2024-07-19
 isOriginal: false

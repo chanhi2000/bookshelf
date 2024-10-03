@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to concatenate strings to make one joined string"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-concatenate-strings-to-make-one-joined-string.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-concatenate-strings-to-make-one-joined-string.html
 date: 2018-03-28
 isOriginal: false
 ---

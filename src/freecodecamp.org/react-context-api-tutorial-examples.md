@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Use React's Context API – Tutorial with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/react-context-api-tutorial-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-api-tutorial-examples.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-22
 isOriginal: false

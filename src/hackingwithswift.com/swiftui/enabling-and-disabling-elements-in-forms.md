@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Enabling and disabling elements in forms
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/enabling-and-disabling-elements-in-forms.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/enabling-and-disabling-elements-in-forms.html
 ---
 
 # {{ $frontmatter.title }} 관련

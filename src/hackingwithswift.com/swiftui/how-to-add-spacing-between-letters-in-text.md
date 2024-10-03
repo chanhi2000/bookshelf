@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add spacing between letters in text
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-spacing-between-letters-in-text.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-spacing-between-letters-in-text.html
 ---
 
 # {{ $frontmatter.title }} 관련

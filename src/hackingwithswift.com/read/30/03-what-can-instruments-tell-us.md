@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What can Instruments tell us?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/30/03-what-can-instruments-tell-us.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/30/03-what-can-instruments-tell-us.html
 isOriginal: false
 ---
 

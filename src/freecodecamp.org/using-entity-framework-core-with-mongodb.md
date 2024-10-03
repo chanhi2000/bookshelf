@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Using Entity Framework Core with MongoDB
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/using-entity-framework-core-with-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/using-entity-framework-core-with-mongodb.html
 prev: /programming/cs/articles/README.md
 date: 2024-07-29
 isOriginal: false

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Lightweight vs complex migrations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-rename-properties-without-losing-data.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-rename-properties-without-losing-data.html
 date: 2023-09-30
 isOriginal: false
 ---

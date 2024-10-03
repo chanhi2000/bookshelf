@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How Do Numerical Conversions Work in Computer Systems? Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-do-numerical-conversions-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-numerical-conversions-work.html
 prev: /academics/math/articles/README.md
 date: 2024-05-29
 isOriginal: false

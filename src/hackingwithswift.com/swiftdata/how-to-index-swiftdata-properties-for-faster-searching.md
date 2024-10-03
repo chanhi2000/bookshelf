@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to index SwiftData properties for faster searching
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-index-swiftdata-properties-for-faster-searching.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-index-swiftdata-properties-for-faster-searching.html
 next: /hackingwithswift.com/swiftdata/inferred-vs-explicit-relationships.md
 date: 2023-09-30
 isOriginal: false

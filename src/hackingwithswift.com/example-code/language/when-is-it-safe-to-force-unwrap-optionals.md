@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "When is it safe to force unwrap optionals?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/when-is-it-safe-to-force-unwrap-optionals.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/when-is-it-safe-to-force-unwrap-optionals.html
 date: 2019-03-28
 isOriginal: false
 ---

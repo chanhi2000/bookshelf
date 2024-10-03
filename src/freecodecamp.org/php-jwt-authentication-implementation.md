@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/php-jwt-authentication-implementation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/php-jwt-authentication-implementation.html
 prev: /programming/php/articles/README.md
 date: 2024-04-24
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Using MassTransit with RabbitMQ and Azure Service Bus
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.html
 prev: /programming/cs/articles/README.md
 date: 2024-01-06
 isOriginal: false

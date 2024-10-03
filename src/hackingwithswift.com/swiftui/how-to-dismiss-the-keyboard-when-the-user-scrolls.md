@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to dismiss the keyboard when the user scrolls
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-dismiss-the-keyboard-when-the-user-scrolls.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-dismiss-the-keyboard-when-the-user-scrolls.html
 ---
 
 # {{ $frontmatter.title }} 관련

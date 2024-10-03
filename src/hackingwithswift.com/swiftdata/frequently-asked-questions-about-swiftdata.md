@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Frequently asked questions about SwiftData
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/frequently-asked-questions-about-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/frequently-asked-questions-about-swiftdata.html
 date: 2023-09-30
 isOriginal: false
 ---

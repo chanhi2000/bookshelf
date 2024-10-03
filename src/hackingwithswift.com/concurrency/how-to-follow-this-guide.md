@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to follow this guide
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-follow-this-guide.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-follow-this-guide.html
 date: 2021-07-01
 isOriginal: false
 ---

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Encoding and decoding data using Codable
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.0/codable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.0/codable.html
 prev: /hackingwithswift.com/swift/4.1/compactmap.md
 isOriginal: false
 ---

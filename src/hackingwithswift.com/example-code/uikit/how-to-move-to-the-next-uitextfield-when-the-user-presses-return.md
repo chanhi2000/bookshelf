@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to move to the next UITextField when the user presses return"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-move-to-the-next-uitextfield-when-the-user-presses-return.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-move-to-the-next-uitextfield-when-the-user-presses-return.html
 date: 2019-03-28
 isOriginal: false
 ---

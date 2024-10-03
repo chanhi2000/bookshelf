@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to use MVVM to separate SwiftData from your views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-use-mvvm-to-separate-swiftdata-from-your-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-use-mvvm-to-separate-swiftdata-from-your-views.html
 prev: /hackingwithswift.com/swiftdata/how-to-access-a-swiftdata-container-from-widgets.md
 date: 2023-09-30
 isOriginal: false

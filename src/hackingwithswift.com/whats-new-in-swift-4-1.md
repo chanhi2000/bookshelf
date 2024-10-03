@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Synthesized equatable, conditional conformance, and more!
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/whats-new-in-swift-4-1.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/whats-new-in-swift-4-1.html
 prev: /programming/swift/articles/README.md
 date: 2018-06-13
 isOriginal: false

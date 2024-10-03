@@ -21,7 +21,7 @@ head:
     - property: og:description`
       content: "How to Merge Word Documents in Python – Three Effective Methods with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/merge-word-documents-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/merge-word-documents-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-08-13
 isOriginal: false

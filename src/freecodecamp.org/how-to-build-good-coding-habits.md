@@ -18,7 +18,7 @@ head:
     - property: og:description`
       content: "How to Build Good Coding Habits as a New Python Developer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-build-good-coding-habits.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-good-coding-habits.html
 prev: /programming/py/articles/README.md
 date: 2024-08-20
 isOriginal: false

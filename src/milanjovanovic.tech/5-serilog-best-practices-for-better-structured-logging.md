@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: 5 Serilog Best Practices For Better Structured Logging
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/5-serilog-best-practices-for-better-structured-logging.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/5-serilog-best-practices-for-better-structured-logging.html
 prev: /programming/cs/articles/README.md
 date: 2023-12-16
 isOriginal: false

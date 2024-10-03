@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create custom text effects and animations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-custom-text-effects-and-animations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-custom-text-effects-and-animations.html
 next: /hackingwithswift.com/swiftui/how-to-create-basic-animations.md
 date: 2024-06-21
 isOriginal: false

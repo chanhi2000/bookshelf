@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add a placeholder to a TextField
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-a-placeholder-to-a-textfield.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-a-placeholder-to-a-textfield.html
 ---
 
 # {{ $frontmatter.title }} 관련

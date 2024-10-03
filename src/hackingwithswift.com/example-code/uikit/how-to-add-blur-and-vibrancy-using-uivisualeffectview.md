@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add blur and vibrancy using UIVisualEffectView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-add-blur-and-vibrancy-using-uivisualeffectview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-add-blur-and-vibrancy-using-uivisualeffectview.html
 date: 2019-03-28
 isOriginal: false
 ---

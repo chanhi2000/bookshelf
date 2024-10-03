@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Getting the Current User in Clean Architecture
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/getting-the-current-user-in-clean-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/getting-the-current-user-in-clean-architecture.html
 prev: /programming/cs/articles/README.md
 date: 2024-02-10
 isOriginal: false

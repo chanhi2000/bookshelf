@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to calculate the point where two lines intersect"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-calculate-the-point-where-two-lines-intersect.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-calculate-the-point-where-two-lines-intersect.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Avoid Prop Drilling in React
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/avoid-prop-drilling-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/avoid-prop-drilling-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2023-11-07
 isOriginal: false

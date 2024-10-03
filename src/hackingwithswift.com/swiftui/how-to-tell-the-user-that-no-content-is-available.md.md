@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to tell the user that no content is available
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-tell-the-user-that-no-content-is-available.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-tell-the-user-that-no-content-is-available.html
 next: /hackingwithswift.com/swiftui/how-to-adjust-the-position-of-a-view-using-its-offset.md
 date: 2023-06-16
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "From Transaction Scripts to Domain Models: A Refactoring Journey"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/from-transaction-scripts-to-domain-models-a-refactoring-journey.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/from-transaction-scripts-to-domain-models-a-refactoring-journey.html
 prev: /programming/cs/articles/README.md
 date: 2024-06-15
 isOriginal: false

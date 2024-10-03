@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: DevOps with GitLab CI Course
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/devops-with-gitlab-ci-course/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/devops-with-gitlab-ci-course/
 date: 2022-03-02
 isOriginal: false
 author: Valentin Despa

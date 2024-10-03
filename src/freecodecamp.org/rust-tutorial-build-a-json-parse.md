@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/rust-tutorial-build-a-json-parse.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rust-tutorial-build-a-json-parse.html
 prev: /programming/rust/articles/README.md
 date: 2024-05-29
 isOriginal: false

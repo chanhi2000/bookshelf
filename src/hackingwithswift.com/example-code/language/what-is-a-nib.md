@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a nib?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-nib.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-nib.html
 date: 2019-03-28
 isOriginal: false
 ---

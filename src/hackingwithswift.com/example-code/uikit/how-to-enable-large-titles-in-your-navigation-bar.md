@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to enable large titles in your navigation bar"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-enable-large-titles-in-your-navigation-bar.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-enable-large-titles-in-your-navigation-bar.html
 date: 2019-03-28
 isOriginal: false
 ---

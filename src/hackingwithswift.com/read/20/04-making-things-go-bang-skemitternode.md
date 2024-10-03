@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Making things go bang: SKEmitterNode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/20/04-making-things-go-bang-skemitternode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/20/04-making-things-go-bang-skemitternode.html
 isOriginal: false
 ---
 

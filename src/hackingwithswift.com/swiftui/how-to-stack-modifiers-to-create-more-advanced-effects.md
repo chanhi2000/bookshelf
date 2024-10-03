@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to stack modifiers to create more advanced effects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-stack-modifiers-to-create-more-advanced-effects.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-stack-modifiers-to-create-more-advanced-effects.html
 ---
 
 # {{ $frontmatter.title }} 관련

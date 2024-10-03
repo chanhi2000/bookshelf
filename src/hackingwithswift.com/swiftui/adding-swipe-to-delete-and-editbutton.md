@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Adding swipe to delete and EditButton
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/adding-swipe-to-delete-and-editbutton.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/adding-swipe-to-delete-and-editbutton.html
 date: 2024-04-30
 isOriginal: false
 ---

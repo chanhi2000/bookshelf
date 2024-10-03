@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Wrap up: our SwiftData project is complete"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/wrap-up-our-swiftdata-project-is-complete.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/wrap-up-our-swiftdata-project-is-complete.html
 next: /hackingwithswift.com/swiftdata/whats-the-difference-between-modelcontainer-modelcontext-and-modelconfiguration.md
 date: 2023-10-12
 isOriginal: false

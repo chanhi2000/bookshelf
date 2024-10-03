@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a List or a ForEach from a binding
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-list-or-a-foreach-from-a-binding.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-list-or-a-foreach-from-a-binding.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Learn About Operating Systems In-Depth
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-about-operating-systems-in-depth.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-about-operating-systems-in-depth.html
 prev: /academics/coen/articles/README.md
 date: 2024-08-06
 isOriginal: false

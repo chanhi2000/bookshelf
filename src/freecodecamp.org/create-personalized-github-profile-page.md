@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Create Your Personalized GitHub Profile Page – GitHub Profile README Guide
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/create-personalized-github-profile-page.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-personalized-github-profile-page.html
 prev: /devops/github/articles/README.md
 date: 2024-05-01
 isOriginal: false

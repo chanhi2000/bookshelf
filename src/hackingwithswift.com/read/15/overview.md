@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Project 15: Animation"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/15/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/15/overview.html
 prev: /hackingwithswift.com/read/14/05-wrap-up.md
 isOriginal: false
 ---

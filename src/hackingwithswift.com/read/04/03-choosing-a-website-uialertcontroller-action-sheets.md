@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Choosing a website: UIAlertController action sheets"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/04/03-choosing-a-website-uialertcontroller-action-sheets.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/04/03-choosing-a-website-uialertcontroller-action-sheets.html
 isOriginal: false
 ---
 

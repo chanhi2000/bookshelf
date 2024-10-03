@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to create and use an actor in Swift
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-create-and-use-an-actor-in-swift.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-create-and-use-an-actor-in-swift.html
 date: 2021-11-28
 isOriginal: false
 ---

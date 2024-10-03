@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Write Unit Tests in Python – with Example Test Code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/unit-testing-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/unit-testing-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-06-10
 isOriginal: false

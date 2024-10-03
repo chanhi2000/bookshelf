@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to hide the tab bar, navigation bar, or other toolbars
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-hide-the-tab-bar-navigation-bar-or-other-toolbars.html
 ---
 
 # {{ $frontmatter.title }} 관련

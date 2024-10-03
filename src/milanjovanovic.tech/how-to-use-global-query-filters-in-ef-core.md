@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How To Use Global Query Filters in EF Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-use-global-query-filters-in-ef-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-use-global-query-filters-in-ef-core.html
 prev: /programming/cs/articles/README.md
 date: 2022-10-29
 isOriginal: false

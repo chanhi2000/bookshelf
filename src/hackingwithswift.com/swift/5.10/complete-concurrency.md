@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Data races are now clearly diagnosed"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.10/complete-concurrency.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.10/complete-concurrency.html
 isOriginal: false
 ---
 

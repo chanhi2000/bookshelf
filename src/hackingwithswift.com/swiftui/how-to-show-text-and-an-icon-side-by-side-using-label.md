@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show text and an icon side by side using Label
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-text-and-an-icon-side-by-side-using-label.html
 ---
 
 # {{ $frontmatter.title }} 관련

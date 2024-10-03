@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to pass data between two view controllers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-pass-data-between-two-view-controllers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-pass-data-between-two-view-controllers.html
 date: 2018-03-28
 isOriginal: false
 ---

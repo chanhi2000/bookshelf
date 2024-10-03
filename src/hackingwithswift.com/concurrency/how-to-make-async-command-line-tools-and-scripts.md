@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to make async command-line tools and scripts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-make-async-command-line-tools-and-scripts.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-make-async-command-line-tools-and-scripts.html
 date: 2021-09-23
 isOriginal: false
 ---

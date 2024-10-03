@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a string to a Int"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-convert-a-string-to-an-int.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-convert-a-string-to-an-int.html
 date: 2019-09-19
 isOriginal: false
 ---

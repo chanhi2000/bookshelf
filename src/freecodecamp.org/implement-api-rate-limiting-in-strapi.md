@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Implement API Rate Limiting in Strapi CMS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/implement-api-rate-limiting-in-strapi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-api-rate-limiting-in-strapi.html
 prev: /programming/js-node/articles/README.md
 date: 2024-09-10
 isOriginal: false

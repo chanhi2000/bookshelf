@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to request a user's location only once using requestLocation"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/location/how-to-look-up-a-location-with-mklocalsearchrequest.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/location/how-to-look-up-a-location-with-mklocalsearchrequest.html
 date: 2019-03-28
 isOriginal: false
 ---

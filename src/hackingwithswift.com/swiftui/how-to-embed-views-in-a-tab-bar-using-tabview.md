@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to embed views in a tab bar using TabView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-embed-views-in-a-tab-bar-using-tabview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-embed-views-in-a-tab-bar-using-tabview.html
 date: 2024-06-21
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to present a new view using sheets
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-present-a-new-view-using-sheets.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-present-a-new-view-using-sheets.html
 prev: /hackingwithswift.com/swiftui/how-to-let-users-pick-options-from-a-menu.md
 ---
 

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "The guard keyword in Swift: early returns made easy"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/new-syntax-swift-2-guard.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/new-syntax-swift-2-guard.html
 prev: /programming/swift/articles/README.md
 date: 2019-09-23
 isOriginal: false

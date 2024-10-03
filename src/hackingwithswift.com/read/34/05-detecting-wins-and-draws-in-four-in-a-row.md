@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Detecting wins and draws in Four in a Row"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/05-detecting-wins-and-draws-in-four-in-a-row.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/05-detecting-wins-and-draws-in-four-in-a-row.html
 isOriginal: false
 ---
 

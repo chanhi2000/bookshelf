@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: PySpark for Beginners – How to Process Data with Apache Spark & Python
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/pyspark-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pyspark-for-beginners.html
 prev: /programming/py/articles/README.md
 date: 2024-06-26
 isOriginal: false

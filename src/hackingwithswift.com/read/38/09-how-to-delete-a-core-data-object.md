@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to delete a Core Data object"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/09-how-to-delete-a-core-data-object.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/09-how-to-delete-a-core-data-object.html
 isOriginal: false
 ---
 

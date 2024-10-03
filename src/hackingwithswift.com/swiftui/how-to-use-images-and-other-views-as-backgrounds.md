@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use images and other views as backgrounds
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-images-and-other-views-as-backgrounds.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-images-and-other-views-as-backgrounds.html
 date: 2024-04-30
 isOriginal: false
 ---

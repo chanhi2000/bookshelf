@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: A standard Result type
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.0/result.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.0/result.html
 isOriginal: false
 ---
 

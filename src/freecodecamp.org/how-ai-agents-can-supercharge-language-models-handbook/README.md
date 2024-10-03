@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How AI Agents Can Help Supercharge Language Models – A Handbook for Developers
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/
 prev: /ai/llm/articles/README.md
 date: 2024-09-10
 isOriginal: false

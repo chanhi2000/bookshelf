@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use storyboard references to simplify your storyboards"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-use-storyboard-references-to-simplify-your-storyboards.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-use-storyboard-references-to-simplify-your-storyboards.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to save a UIImage to a file using jpegData() and pngData()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/media/how-to-save-a-uiimage-to-a-file-using-jpegdata-and-pngdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-save-a-uiimage-to-a-file-using-jpegdata-and-pngdata.html
 date: 2020-04-18
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read tap and double-tap gestures
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-tap-and-double-tap-gestures.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-tap-and-double-tap-gestures.html
 ---
 
 # {{ $frontmatter.title }} 관련

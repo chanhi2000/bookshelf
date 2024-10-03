@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Create 24 CSS Projects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/create-24-css-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-24-css-projects.html
 prev: /programming/css/articles/README.md
 date: 2024-07-17
 isOriginal: false

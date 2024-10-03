@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Location - free Swift example code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/location/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/location/
 ---
 
 # {{ $frontmatter.title }} 관련

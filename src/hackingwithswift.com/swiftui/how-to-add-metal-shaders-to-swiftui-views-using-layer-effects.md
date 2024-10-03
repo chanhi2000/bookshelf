@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add Metal shaders to SwiftUI views using layer effects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-metal-shaders-to-swiftui-views-using-layer-effects.html
 ---
 
 # {{ $frontmatter.title }} 관련

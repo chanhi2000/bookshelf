@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect dark mode in iOS"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-detect-dark-mode-in-ios.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-detect-dark-mode-in-ios.html
 date: 2019-06-04
 isOriginal: false
 ---

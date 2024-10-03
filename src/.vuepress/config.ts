@@ -14,6 +14,8 @@ const CONSTS = {
   __VERSION__: version
 }
 
+const imgLogoPath = '/bookshelf/assets/icon/favicon.svg'
+
 export default defineUserConfig({
   clientConfigFile: path.resolve(__dirname, './client.ts'),
   define: {
@@ -24,7 +26,8 @@ export default defineUserConfig({
   base: "/bookshelf/",
   title: "📚Bookshelf",
   description: description,
-  cache: '.vuepress/.cache',
+  head: [['link', { rel: 'icon', href: imgLogoPath }]],
+  cache: 'src/.vuepress/.cache',
   bundler: viteBundler({
     viteOptions: {
       plugins: [ 
@@ -33,11 +36,6 @@ export default defineUserConfig({
           filename: 'stats.html' // Output filename
         })
       ],
-      /* 
-      optimizeDeps: {
-        include: ['reveal.js']
-      },
-      */
       build: {
         // minify: false,
         // sourcemap: false,

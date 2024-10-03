@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/encoding-and-decoding-data-in-golang.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/encoding-and-decoding-data-in-golang.html
 prev: /programming/go/articles/README.md
 date: 2024-08-05
 isOriginal: false

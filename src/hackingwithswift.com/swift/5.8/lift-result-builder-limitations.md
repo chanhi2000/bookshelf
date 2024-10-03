@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Lift all limitations on variables in result builders
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.8/lift-result-builder-limitations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/lift-result-builder-limitations.html
 prev: /hackingwithswift.com/swift/5.9/discarding-task-groups.md
 isOriginal: false
 ---

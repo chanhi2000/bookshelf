@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to run code at a specific time"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-run-code-at-a-specific-time.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-run-code-at-a-specific-time.html
 date: 2022-03-23
 isOriginal: false
 ---

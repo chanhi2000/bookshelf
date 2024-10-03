@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Using stride() to loop over a range of numbers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/using-stride-to-loop-over-a-range-of-numbers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/using-stride-to-loop-over-a-range-of-numbers.html
 date: 2019-03-28
 isOriginal: false
 ---

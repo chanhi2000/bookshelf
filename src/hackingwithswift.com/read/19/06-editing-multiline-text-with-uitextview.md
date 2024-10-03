@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Editing multiline text with UITextView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/19/06-editing-multiline-text-with-uitextview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/19/06-editing-multiline-text-with-uitextview.html
 isOriginal: false
 ---
 

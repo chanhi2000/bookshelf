@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Refactoring for the win"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/04/05-refactoring-for-the-win.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/04/05-refactoring-for-the-win.html
 isOriginal: false
 ---
 

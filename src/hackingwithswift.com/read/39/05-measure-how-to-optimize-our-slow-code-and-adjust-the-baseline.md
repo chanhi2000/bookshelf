@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "measure(): How to optimize our slow code and adjust the baseline"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/39/05-measure-how-to-optimize-our-slow-code-and-adjust-the-baseline.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/39/05-measure-how-to-optimize-our-slow-code-and-adjust-the-baseline.html
 isOriginal: false
 ---
 

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Manage your Open Source Project with GitHub"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-manage-your-open-source-project-with-github.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-manage-your-open-source-project-with-github.html
 prev: /devops/github/articles/README.md
 date: 2024-09-05
 isOriginal: false

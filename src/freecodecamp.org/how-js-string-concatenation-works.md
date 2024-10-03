@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: JavaScript Concatenate Strings – How JS String Concatenation Works
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-js-string-concatenation-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-js-string-concatenation-works.html
 prev: /programming/js/articles/README.md
 date: 2024-05-07
 isOriginal: false

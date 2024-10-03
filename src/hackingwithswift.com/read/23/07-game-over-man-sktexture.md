@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Game over, man: SKTexture"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/23/07-game-over-man-sktexture.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/23/07-game-over-man-sktexture.html
 isOriginal: false
 ---
 

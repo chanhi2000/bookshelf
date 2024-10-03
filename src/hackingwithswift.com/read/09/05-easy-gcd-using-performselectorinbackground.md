@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Easy GCD using performSelector(inBackground:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/09/05-easy-gcd-using-performselectorinbackground.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/09/05-easy-gcd-using-performselectorinbackground.html
 isOriginal: false
 ---
 

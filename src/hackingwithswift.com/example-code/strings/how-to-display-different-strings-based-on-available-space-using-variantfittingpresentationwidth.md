@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to display different strings based on available space using variantFittingPresentationWidth()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-display-different-strings-based-on-available-space-using-variantfittingpresentationwidth.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-display-different-strings-based-on-available-space-using-variantfittingpresentationwidth.html
 date: 2018-03-28
 isOriginal: false
 ---

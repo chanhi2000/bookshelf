@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: String interpolation can now include string literals
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.1/string-interpolation.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.1/string-interpolation.html
 prev: /hackingwithswift.com/swift/2.2/version-checking.md
 next: /hackingwithswift.com/swift/2.0/try.md
 isOriginal: false

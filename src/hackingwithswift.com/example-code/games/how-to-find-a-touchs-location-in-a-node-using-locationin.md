@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find a touch's location in a node using location(in:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-find-a-touchs-location-in-a-node-using-locationin.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-find-a-touchs-location-in-a-node-using-locationin.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make the device vibrate"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-make-the-device-vibrate.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-make-the-device-vibrate.html
 date: 2018-03-28
 isOriginal: false
 ---

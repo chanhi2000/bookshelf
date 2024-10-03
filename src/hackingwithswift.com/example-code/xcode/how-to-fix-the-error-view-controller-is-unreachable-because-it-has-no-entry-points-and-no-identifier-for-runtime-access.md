@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to fix the error “View controller is unreachable because it has no entry points and no identifier for runtime access”"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-fix-the-error-view-controller-is-unreachable-because-it-has-no-entry-points-and-no-identifier-for-runtime-access.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-fix-the-error-view-controller-is-unreachable-because-it-has-no-entry-points-and-no-identifier-for-runtime-access.html
 date: 2019-03-28
 isOriginal: false
 ---

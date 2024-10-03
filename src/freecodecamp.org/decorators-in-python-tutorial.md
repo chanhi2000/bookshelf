@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What are Decorators in Python? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/decorators-in-python-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/decorators-in-python-tutorial.html
 prev: /programming/py/articles/README.md
 date: 2024-06-18
 isOriginal: false

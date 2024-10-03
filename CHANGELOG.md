@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 
 ---
 
+## [v0.0.2: 2024-10-03][v0.0.2]
+
+- 컨텐츠 안정화
+
+---
+
 ## 0.0.1 2024-10-01
 
 ### ADD

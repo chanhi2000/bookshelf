@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to migrate an app from Core Data to SwiftData
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-migrate-an-app-from-core-data-to-swiftdata.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-migrate-an-app-from-core-data-to-swiftdata.html
 date: 2023-09-30
 isOriginal: false
 ---

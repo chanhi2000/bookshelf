@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to change SwiftData’s underlying storage filename
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-change-swiftdatas-underlying-storage-filename.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-change-swiftdatas-underlying-storage-filename.html
 date: 2023-09-30
 isOriginal: false
 ---

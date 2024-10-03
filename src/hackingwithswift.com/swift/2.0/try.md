@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Throwing errors
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.0/try.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.0/try.html
 prev: /hackingwithswift.com/swift/2.1/string-interpolation.md
 isOriginal: false
 ---

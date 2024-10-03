@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to store continuations to be resumed later
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-store-continuations-to-be-resumed-later.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-store-continuations-to-be-resumed-later.html
 date: 2022-11-13
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to mask one view with another
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-mask-one-view-with-another.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-mask-one-view-with-another.html
 ---
 
 # {{ $frontmatter.title }} 관련

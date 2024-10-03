@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to test asynchronous functions using expectation()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/testing/how-to-test-asynchronous-functions-using-expectation.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/testing/how-to-test-asynchronous-functions-using-expectation.html
 date: 2018-03-28
 isOriginal: false
 ---

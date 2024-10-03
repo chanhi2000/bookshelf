@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Inferred vs explicit relationships
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/inferred-vs-explicit-relationships.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/inferred-vs-explicit-relationships.html
 prev: /hackingwithswift.com/swiftdata/how-to-index-swiftdata-properties-for-faster-searching.md
 date: 2023-09-30
 isOriginal: false

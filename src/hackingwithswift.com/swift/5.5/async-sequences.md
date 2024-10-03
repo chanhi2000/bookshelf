@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Async sequences
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/async-sequences.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/async-sequences.html
 isOriginal: false
 ---
 

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to cancel a task group
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-cancel-a-task-group.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-cancel-a-task-group.html
 date: 2021-11-28
 isOriginal: false
 ---

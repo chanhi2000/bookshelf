@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect your iOS app is running on macOS Catalyst"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/catalyst/how-to-detect-your-ios-app-is-running-on-macos-catalyst.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/catalyst/how-to-detect-your-ios-app-is-running-on-macos-catalyst.html
 date: 2019-10-04
 isOriginal: false
 ---

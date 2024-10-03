@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Introduction to accessibility with SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/introduction-to-accessibility-with-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/introduction-to-accessibility-with-swiftui.html
 prev: /hackingwithswift.com/swiftui/how-to-read-user-contacts-with-contactaccessbutton.md
 ---
 

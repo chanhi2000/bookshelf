@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fill and stroke shapes at the same time
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time.html
 ---
 
 # {{ $frontmatter.title }} 관련

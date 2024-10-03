@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Creating variables that call a function of the same name
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.4/local-variables-same-name.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.4/local-variables-same-name.html
 isOriginal: false
 ---
 

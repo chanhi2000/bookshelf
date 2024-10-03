@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Making the basic game work: UIButton and CALayer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/02/03-making-the-basic-game-work-uibutton-and-calayer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/02/03-making-the-basic-game-work-uibutton-and-calayer.html
 isOriginal: false
 ---
 

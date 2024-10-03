@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to hide the scroll indicators in ScrollView, List, and more
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-hide-the-scroll-indicators-in-scrollview-list-and-more.html
 ---
 
 # {{ $frontmatter.title }} 관련

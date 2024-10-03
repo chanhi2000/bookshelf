@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Tilt to move: CMMotionManager"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/26/03-tilt-to-move-cmmotionmanager.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/26/03-tilt-to-move-cmmotionmanager.html
 isOriginal: false
 ---
 

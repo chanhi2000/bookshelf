@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Balancing Cross-Cutting Concerns in Clean Architecture
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/balancing-cross-cutting-concerns-in-clean-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/balancing-cross-cutting-concerns-in-clean-architecture.html
 prev: /programming/cs/articles/README.md
 date: 2024-01-20
 isOriginal: false

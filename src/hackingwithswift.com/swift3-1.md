@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What's new in Swift 3.1"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift3-1.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift3-1.html
 prev: /programming/swift/articles/README.md
 date: 2017-01-26
 isOriginal: false

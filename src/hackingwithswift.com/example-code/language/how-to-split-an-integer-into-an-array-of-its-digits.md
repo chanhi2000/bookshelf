@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to split an integer into an array of its digits"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-split-an-integer-into-an-array-of-its-digits.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-split-an-integer-into-an-array-of-its-digits.html
 date: 2019-03-28
 isOriginal: false
 ---

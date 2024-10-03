@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a singleton?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-singleton.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-singleton.html
 date: 2022-04-11
 isOriginal: false
 ---

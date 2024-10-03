@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Dedication
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/dedication.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/dedication.html
 next: /hackingwithswift.com/swiftui/swiftui-tutorial-building-a-complete-project.md
 date: 2021-06-08
 isOriginal: false 

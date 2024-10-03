@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to limit the number of items in a fetch request
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-limit-the-number-of-items-in-a-fetch-request.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-limit-the-number-of-items-in-a-fetch-request.html
 ---
 
 # {{ $frontmatter.title }} 관련

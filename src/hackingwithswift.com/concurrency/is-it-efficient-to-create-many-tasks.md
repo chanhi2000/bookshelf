@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Is it efficient to create many tasks?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-run-tasks-using-swiftuis-task-modifier.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-run-tasks-using-swiftuis-task-modifier.html
 next: /hackingwithswift.com/concurrency/what-is-an-actor-and-why-does-swift-have-them.md
 date: 2021-07-28
 isOriginal: false

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Omit needless words
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/3.0/omit-needless-words.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/3.0/omit-needless-words.html
 isOriginal: false
 ---
 

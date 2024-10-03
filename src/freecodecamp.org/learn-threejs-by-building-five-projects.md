@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Learn Three.js By Building Five Projects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-threejs-by-building-five-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-threejs-by-building-five-projects.html
 prev: /programming/js-node/articles/README.md
 date: 2024-06-12
 isOriginal: false

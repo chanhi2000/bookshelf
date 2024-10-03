@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to Create Notice Blocks in Markdown
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-notice-blocks-in-markdown.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-notice-blocks-in-markdown.html
 prev: /devops/github/articles/README.md
 date: 2024-06-10
 isOriginal: false

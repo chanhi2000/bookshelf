@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create a mesh gradient
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-a-mesh-gradient.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-a-mesh-gradient.html
 next: /hackingwithswift.com/swiftui/how-to-give-a-view-a-custom-frame.md
 date: 2024-06-21
 isOriginal: false

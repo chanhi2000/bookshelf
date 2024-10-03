@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Working with forms
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/working-with-forms.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/working-with-forms.html
 prev: /hackingwithswift.com/swiftui/how-to-change-the-tint-color-for-individual-list-rows.md
 ---
 

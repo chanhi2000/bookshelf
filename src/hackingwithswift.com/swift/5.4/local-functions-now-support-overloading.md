@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Local functions now support overloading
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.4/local-functions-now-support-overloading.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.4/local-functions-now-support-overloading.html
 isOriginal: false
 ---
 

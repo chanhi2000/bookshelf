@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: Pass the Microsoft 365 Certified Fundamentals (MS-900) Exam
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/pass-the-microsoft-365-certified-fundamentals-ms-900-exam.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-microsoft-365-certified-fundamentals-ms-900-exam.html
 prev: /tool/ms365/articles/README.md
 date: 2024-09-26
 isOriginal: false

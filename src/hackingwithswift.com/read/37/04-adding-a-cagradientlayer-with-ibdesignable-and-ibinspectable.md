@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Adding a CAGradientLayer with IBDesignable and IBInspectable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/37/04-adding-a-cagradientlayer-with-ibdesignable-and-ibinspectable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/37/04-adding-a-cagradientlayer-with-ibdesignable-and-ibinspectable.html
 isOriginal: false
 ---
 

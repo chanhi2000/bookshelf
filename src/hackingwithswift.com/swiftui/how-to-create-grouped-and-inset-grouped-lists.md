@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create grouped and inset grouped lists
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-grouped-and-inset-grouped-lists.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-grouped-and-inset-grouped-lists.html
 ---
 
 # {{ $frontmatter.title }} 관련

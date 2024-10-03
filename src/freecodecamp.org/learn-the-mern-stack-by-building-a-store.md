@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Learn the MERN Stack by Building a Store
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-the-mern-stack-by-building-a-store.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-mern-stack-by-building-a-store.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-04
 isOriginal: false

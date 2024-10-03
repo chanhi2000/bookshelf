@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to use continuations to convert completion handlers into async functions
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-use-continuations-to-convert-completion-handlers-into-async-functions.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-use-continuations-to-convert-completion-handlers-into-async-functions.html
 date: 2021-11-28
 isOriginal: false
 ---

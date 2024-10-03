@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Secure Your Django App – Best Practices and Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-secure-your-django-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-your-django-app.html
 prev: /programming/py-django/articles/README.md
 date: 2024-05-22
 isOriginal: false

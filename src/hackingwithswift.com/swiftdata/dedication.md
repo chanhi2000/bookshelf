@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Dedication
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/dedication.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/dedication.html
 next: /hackingwithswift.com/swiftdata/swiftdata-tutorial-building-a-complete-project.md
 date: 2023-09-30
 isOriginal: false

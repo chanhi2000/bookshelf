@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Ready... aim... fire: Timer and follow()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/20/02-ready-aim-fire-timer-and-follow.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/20/02-ready-aim-fire-timer-and-follow.html
 isOriginal: false
 ---
 

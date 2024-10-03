@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a computed property?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-computed-property.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-computed-property.html
 date: 2019-03-28
 isOriginal: false
 ---

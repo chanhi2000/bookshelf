@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect a URL in a String using NSDataDetector"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-detect-a-url-in-a-string-using-nsdatadetector.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-detect-a-url-in-a-string-using-nsdatadetector.html
 date: 2018-03-28
 isOriginal: false
 ---

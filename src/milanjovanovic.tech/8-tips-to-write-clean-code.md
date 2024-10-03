@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "8 Tips To Write Clean Code"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/8-tips-to-write-clean-code.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/8-tips-to-write-clean-code.html
 prev: /programming/cs/articles/README.md
 date: 2023-07-15
 isOriginal: false

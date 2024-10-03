@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add an AppDelegate to a SwiftUI app
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-an-appdelegate-to-a-swiftui-app.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-an-appdelegate-to-a-swiftui-app.html
 ---
 
 # {{ $frontmatter.title }} 관련

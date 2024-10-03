@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Swift 5.0 introduces a new way to work with dynamic languages
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.html
 prev: /programming/swift/articles/README.md
 date: 2018-11-27
 isOriginal: false

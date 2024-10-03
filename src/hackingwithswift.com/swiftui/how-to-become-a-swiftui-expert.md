@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to become a SwiftUI expert
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-become-a-swiftui-expert.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-become-a-swiftui-expert.html
 next: /hackingwithswift.com/swiftui/understanding-property-wrappers-in-swift-and-swiftui.md
 ---
 

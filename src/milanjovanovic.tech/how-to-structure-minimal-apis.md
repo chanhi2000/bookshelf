@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How To Structure Minimal APIs
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-structure-minimal-apis.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-structure-minimal-apis.html
 prev: /programming/cs/articles/README.md
 date: 2022-12-10
 isOriginal: false

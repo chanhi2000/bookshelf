@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Dynamically callable types
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.0/dynamically-callable-types.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.0/dynamically-callable-types.html
 isOriginal: false
 ---
 

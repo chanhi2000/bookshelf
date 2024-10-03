@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to customize the way links are opened
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-customize-the-way-links-are-opened.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-customize-the-way-links-are-opened.html
 ---
 
 # {{ $frontmatter.title }} 관련

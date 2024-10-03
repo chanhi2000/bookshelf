@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: What's the difference between @Bindable and @Binding?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/whats-the-difference-between-bindable-and-binding.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/whats-the-difference-between-bindable-and-binding.html
 date: 2023-09-26
 isOriginal: false
 ---

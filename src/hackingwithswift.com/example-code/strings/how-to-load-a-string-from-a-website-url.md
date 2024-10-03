@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to load a string from a website URL"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-load-a-string-from-a-website-url.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-load-a-string-from-a-website-url.html
 date: 2018-03-28
 isOriginal: false
 ---

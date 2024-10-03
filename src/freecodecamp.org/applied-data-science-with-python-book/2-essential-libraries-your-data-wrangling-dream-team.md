@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "2. Essential Libraries: Your Data Wrangling Dream Team"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/applied-data-science-with-python-book/2-essential-libraries-your-data-wrangling-dream-team.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/applied-data-science-with-python-book/2-essential-libraries-your-data-wrangling-dream-team.html
 prev: /programming/py/articles/README.md
 date: 2024-06-04
 isOriginal: false

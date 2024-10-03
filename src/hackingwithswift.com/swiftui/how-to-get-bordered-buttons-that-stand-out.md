@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to get bordered buttons that stand out
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-get-bordered-buttons-that-stand-out.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-get-bordered-buttons-that-stand-out.html
 ---
 
 # {{ $frontmatter.title }} 관련

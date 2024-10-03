@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to read the contents of a directory using FileManager"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-read-the-contents-of-a-directory-using-filemanager.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-read-the-contents-of-a-directory-using-filemanager.html
 date: 2018-03-28
 isOriginal: false
 ---

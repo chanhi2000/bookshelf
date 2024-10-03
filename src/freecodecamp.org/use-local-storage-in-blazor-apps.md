@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Add Local Storage to Your Blazor Apps with Blazored.LocalStorage
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/use-local-storage-in-blazor-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-local-storage-in-blazor-apps.html
 prev: /programming/cs-blazor/articles/README.md
 date: 2024-07-29
 isOriginal: false

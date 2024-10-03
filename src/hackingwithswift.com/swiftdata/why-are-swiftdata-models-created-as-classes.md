@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Why are SwiftData models created as classes?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/why-are-swiftdata-models-created-as-classes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/why-are-swiftdata-models-created-as-classes.html
 date: 2023-09-30
 isOriginal: false
 ---

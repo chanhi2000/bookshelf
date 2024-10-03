@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to convert a SwiftUI view to an image
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-convert-a-swiftui-view-to-an-image.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-convert-a-swiftui-view-to-an-image.html
 ---
 
 # {{ $frontmatter.title }} 관련

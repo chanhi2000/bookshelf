@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create different layouts using size classes
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-different-layouts-using-size-classes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-different-layouts-using-size-classes.html
 ---
 
 # {{ $frontmatter.title }} 관련

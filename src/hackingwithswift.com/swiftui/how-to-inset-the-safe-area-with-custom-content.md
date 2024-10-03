@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to inset the safe area with custom content
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-inset-the-safe-area-with-custom-content.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-inset-the-safe-area-with-custom-content.html
 ---
 
 # {{ $frontmatter.title }} 관련

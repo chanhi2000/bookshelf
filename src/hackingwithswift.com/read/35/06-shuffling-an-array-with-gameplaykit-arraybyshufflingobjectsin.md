@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Shuffling an array with GameplayKit: arrayByShufflingObjects(in:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/35/06-shuffling-an-array-with-gameplaykit-arraybyshufflingobjectsin.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/35/06-shuffling-an-array-with-gameplaykit-arraybyshufflingobjectsin.html
 isOriginal: false
 ---
 

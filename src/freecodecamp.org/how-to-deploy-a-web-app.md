@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Deploy a Web App
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-deploy-a-web-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-web-app.html
 prev: /devops/azure/articles/README.md
 date: 2024-07-11
 isOriginal: false

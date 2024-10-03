@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: Learn C# for Unity in Spanish
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-c-sharp-for-unity-in-spanish.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-c-sharp-for-unity-in-spanish.html
 prev: /programming/cs/articles/README.md
 date: 2024-07-31
 isOriginal: false

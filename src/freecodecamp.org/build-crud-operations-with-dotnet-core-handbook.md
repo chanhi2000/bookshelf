@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Build CRUD Operations with .NET Core – A Todo API Handbook
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-crud-operations-with-dotnet-core-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-crud-operations-with-dotnet-core-handbook.html
 prev: /programming/cs/articles/README.md
 date: 2024-05-24
 isOriginal: false

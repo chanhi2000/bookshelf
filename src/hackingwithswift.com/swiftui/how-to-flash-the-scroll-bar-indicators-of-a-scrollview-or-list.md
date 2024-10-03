@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to flash the scroll bar indicators of a ScrollView or List
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-flash-the-scroll-bar-indicators-of-a-scrollview-or-list.html
 ---
 
 # {{ $frontmatter.title }} 관련

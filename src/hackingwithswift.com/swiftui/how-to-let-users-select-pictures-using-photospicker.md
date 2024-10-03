@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let users select pictures using PhotosPicker
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-users-select-pictures-using-photospicker.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-users-select-pictures-using-photospicker.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to enumerate a fetch request to handle lots of data efficiently
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-enumerate-a-fetch-request-to-handle-lots-of-data-efficiently.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-enumerate-a-fetch-request-to-handle-lots-of-data-efficiently.html
 date: 2023-09-30
 isOriginal: false
 ---

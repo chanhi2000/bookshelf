@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: How to Quickly Add Auth to your Flutter Apps with Supabase Auth UI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/add-auth-to-flutter-apps-with-supabase-auth-ui.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/add-auth-to-flutter-apps-with-supabase-auth-ui.html
 prev: /programming/dart/articles/README.md
 date: 2024-06-03
 isOriginal: false

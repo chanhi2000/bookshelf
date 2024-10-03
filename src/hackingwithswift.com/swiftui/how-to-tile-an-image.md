@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to tile an image
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-tile-an-image.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-tile-an-image.html
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to customize stack layouts with alignment and spacing
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-customize-stack-layouts-with-alignment-and-spacing.html
 ---
 
 # {{ $frontmatter.title }} 관련

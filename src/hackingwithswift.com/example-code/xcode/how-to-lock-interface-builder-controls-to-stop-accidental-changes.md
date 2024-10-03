@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to lock Interface Builder controls to stop accidental changes"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/xcode/how-to-lock-interface-builder-controls-to-stop-accidental-changes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/xcode/how-to-lock-interface-builder-controls-to-stop-accidental-changes.html
 date: 2019-03-28
 isOriginal: false
 ---

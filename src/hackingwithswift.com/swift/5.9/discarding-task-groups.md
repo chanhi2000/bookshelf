@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Discarding task groups
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.9/discarding-task-groups.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/discarding-task-groups.html
 next: /hackingwithswift.com/swift/5.8/lift-result-builder-limitations.md
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add actions to alert buttons
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-actions-to-alert-buttons.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-actions-to-alert-buttons.html
 ---
 
 # {{ $frontmatter.title }} 관련

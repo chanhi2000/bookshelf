@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: UpperCamelCase has been replaced with lowerCamelCase for enums and properties
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/3.0/lower-camel-case.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/3.0/lower-camel-case.html
 isOriginal: false
 ---
 

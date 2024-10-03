@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read the Digital Crown on watchOS using digitalCrownRotation()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-the-digital-crown-on-watchos-using-digitalcrownrotation.html
 ---
 
 # {{ $frontmatter.title }} 관련

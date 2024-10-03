@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Opening existential arguments to optional parameters
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.8/opening-existential-optional.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/opening-existential-optional.html
 isOriginal: false
 ---
 

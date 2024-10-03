@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to change your app icon dynamically with setAlternateIconName()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname.html
 date: 2022-12-29
 isOriginal: false
 ---

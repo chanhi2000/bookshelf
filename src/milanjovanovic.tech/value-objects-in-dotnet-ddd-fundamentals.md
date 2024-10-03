@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Value Objects in .NET (DDD Fundamentals)
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/value-objects-in-dotnet-ddd-fundamentals.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/value-objects-in-dotnet-ddd-fundamentals.html
 prev: /programming/cs/articles/README.md
 date: 2023-12-23
 isOriginal: false

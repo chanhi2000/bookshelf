@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: How to Use React Developer Tools – Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-react-devtools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-react-devtools.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-06
 isOriginal: false

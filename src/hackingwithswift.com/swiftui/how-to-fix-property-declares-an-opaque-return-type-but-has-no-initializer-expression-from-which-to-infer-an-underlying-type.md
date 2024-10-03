@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Property declares an opaque return type, but has no initializer expression from which to infer an underlying type”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-property-declares-an-opaque-return-type-but-has-no-initializer-expression-from-which-to-infer-an-underlying-type.html
 date: 2022-12-01
 isOriginal: false
 ---

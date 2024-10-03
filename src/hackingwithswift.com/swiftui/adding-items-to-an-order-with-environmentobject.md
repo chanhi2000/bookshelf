@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Adding items to an order with @EnvironmentObject
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/adding-items-to-an-order-with-environmentobject.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/adding-items-to-an-order-with-environmentobject.html
 date: 2024-04-30
 isOriginal: false
 ---

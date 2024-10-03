@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "A Non-Technical Introduction to Generative AI"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/a-non-technical-introduction-to-generative-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-non-technical-introduction-to-generative-ai.html
 prev: /ai/articles/README.md
 date: 2024-06-18
 isOriginal: false

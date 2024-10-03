@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to rotate a view in 3D
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-rotate-a-view-in-3d.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-rotate-a-view-in-3d.html
 ---
 
 # {{ $frontmatter.title }} 관련

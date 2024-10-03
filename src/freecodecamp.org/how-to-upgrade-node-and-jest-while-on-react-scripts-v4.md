@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: How to Upgrade from Node 16 and Jest 26 While Staying on React Scripts 4
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-upgrade-node-and-jest-while-on-react-scripts-v4.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-upgrade-node-and-jest-while-on-react-scripts-v4.html
 prev: /programming/npm/articles/README.md
 date: 2024-07-10
 isOriginal: false

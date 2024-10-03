@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Be a Productive Developer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/fast-and-budget-friendly-user-research-and-testing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fast-and-budget-friendly-user-research-and-testing.html
 prev: /projects/career/articles/README.md
 date: 2024-09-13
 isOriginal: false

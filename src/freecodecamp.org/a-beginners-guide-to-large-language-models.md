@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/a-beginners-guide-to-large-language-models.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-large-language-models.html
 prev: /ai/llm/articles/README.md
 date: 2024-08-15
 isOriginal: false

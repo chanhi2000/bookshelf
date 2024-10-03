@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert between camel case and snake case with Codable and keyEncodingStrategy"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-to-convert-between-camel-case-and-snake-case-with-codable-and-keyencodingstrategy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-convert-between-camel-case-and-snake-case-with-codable-and-keyencodingstrategy.html
 date: 2019-10-28
 isOriginal: false
 ---

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: What is Prototypal Inheritance in JavaScript? Explained with Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/javascript-prototypal-inheritance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-prototypal-inheritance.html
 prev: /programming/js/articles/README.md
 date: 2024-05-31
 isOriginal: false

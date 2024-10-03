@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to check whether an iPhone or iPad is upside down or face up"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-check-whether-an-iphone-or-ipad-is-upside-down-or-face-up.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-check-whether-an-iphone-or-ipad-is-upside-down-or-face-up.html
 date: 2019-11-28
 isOriginal: false
 ---

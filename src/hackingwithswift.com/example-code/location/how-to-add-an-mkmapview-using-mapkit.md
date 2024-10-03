@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add an MKMapView using MapKit"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hac/example-code/location/how-to-add-an-mkmapview-using-mapkit.html
+      content: https://chanhi2000.github.io/bookshelf/hac/example-code/location/how-to-add-an-mkmapview-using-mapkit.html
 date: 2019-03-28
 isOriginal: false
 ---

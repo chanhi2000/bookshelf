@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Chapter 5: AI Agents as LLM Enhancers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/chapter-5-ai-agents-as-llm-enhancers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/chapter-5-ai-agents-as-llm-enhancers.html
 date: 2024-09-10
 isOriginal: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf1775-b3d3-415e-b864-4425484600f2.jpeg

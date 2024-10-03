@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect keyboard input using pressesBegan() and pressesEnded()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-detect-keyboard-input-using-pressesbegan-and-pressesended.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-detect-keyboard-input-using-pressesbegan-and-pressesended.html
 date: 2024-08-21
 isOriginal: false
 ---

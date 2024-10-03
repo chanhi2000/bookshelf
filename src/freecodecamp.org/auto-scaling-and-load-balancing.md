@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: How Auto Scaling and Load Balancing Work in Software Architecture
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/auto-scaling-and-load-balancing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/auto-scaling-and-load-balancing.html
 prev: /academics/system-design/articles/README.md
 date: 2024-06-17
 isOriginal: false

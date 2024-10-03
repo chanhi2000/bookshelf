@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Loop Through Arrays in JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/loop-through-arrays-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/loop-through-arrays-javascript.html
 prev: /programming/js/articles/README.md
 date: 2023-10-31
 isOriginal: false

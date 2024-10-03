@@ -21,7 +21,7 @@ head:
     - property: og:description  
       content: Composing views to create a list row
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/composing-views-to-create-a-list-row.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/composing-views-to-create-a-list-row.html
 date: 2024-04-30
 isOriginal: false
 ---

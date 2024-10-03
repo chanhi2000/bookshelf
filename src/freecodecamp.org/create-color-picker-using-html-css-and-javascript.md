@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Create A Color Picker Tool Using HTML, CSS, and JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/create-color-picker-using-html-css-and-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-color-picker-using-html-css-and-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-08-15
 isOriginal: false

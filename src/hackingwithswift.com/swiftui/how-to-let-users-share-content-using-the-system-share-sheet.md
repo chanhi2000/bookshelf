@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let users share content using the system share sheet
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-users-share-content-using-the-system-share-sheet.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-users-share-content-using-the-system-share-sheet.html
 ---
 
 # {{ $frontmatter.title }} 관련

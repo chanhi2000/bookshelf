@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to style text views with fonts, colors, line spacing, and more
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-style-text-views-with-fonts-colors-line-spacing-and-more.html
 ---
 
 # {{ $frontmatter.title }} 관련

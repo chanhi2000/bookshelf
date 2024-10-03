@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How To Use Domain Events To Build Loosely Coupled Systems"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-use-domain-events-to-build-loosely-coupled-systems.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-use-domain-events-to-build-loosely-coupled-systems.html
 prev: /programming/cs/articles/README.md
 date: 2023-07-22
 isOriginal: false

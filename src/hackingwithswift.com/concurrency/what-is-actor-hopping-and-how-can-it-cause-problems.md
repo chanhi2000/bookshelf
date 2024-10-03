@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What is actor hopping and how can it cause problems?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/what-is-actor-hopping-and-how-can-it-cause-problems.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/what-is-actor-hopping-and-how-can-it-cause-problems.html
 date: 2021-11-28
 isOriginal: false
 ---

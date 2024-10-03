@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use compiler directives to detect the iOS Simulator"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-use-compiler-directives-to-detect-the-ios-simulator.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-use-compiler-directives-to-detect-the-ios-simulator.html
 date: 2019-03-28
 isOriginal: false
 ---

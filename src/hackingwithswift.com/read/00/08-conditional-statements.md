@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Conditional statements"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/08-conditional-statements.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/08-conditional-statements.html
 isOriginal: false
 ---
 

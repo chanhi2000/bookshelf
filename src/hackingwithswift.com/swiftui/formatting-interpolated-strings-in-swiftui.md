@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Formatting interpolated strings in SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/formatting-interpolated-strings-in-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/formatting-interpolated-strings-in-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련

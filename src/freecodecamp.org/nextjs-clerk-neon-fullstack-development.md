@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: Full Stack Development with Next.js, Clerk, and Neon Postgres
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/nextjs-clerk-neon-fullstack-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/nextjs-clerk-neon-fullstack-development.html
 prev: /programming/js-next/articles/README.md
 date: 2024-07-10
 isOriginal: false

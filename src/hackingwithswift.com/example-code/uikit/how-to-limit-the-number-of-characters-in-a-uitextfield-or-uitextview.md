@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to limit the number of characters in a UITextField or UITextView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-limit-the-number-of-characters-in-a-uitextfield-or-uitextview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-limit-the-number-of-characters-in-a-uitextfield-or-uitextview.html
 date: 2019-09-19
 isOriginal: false
 ---

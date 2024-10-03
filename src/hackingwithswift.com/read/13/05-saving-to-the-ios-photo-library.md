@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Saving to the iOS photo library"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/13/05-saving-to-the-ios-photo-library.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/13/05-saving-to-the-ios-photo-library.html
 isOriginal: false
 ---
 

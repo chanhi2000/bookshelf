@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: The JavaScript this Keyword Explained with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/the-javascript-this-keyword-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-javascript-this-keyword-explained-with-examples.html
 prev: /programming/js/articles/README.md
 date: 2024-06-05
 isOriginal: false

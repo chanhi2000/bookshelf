@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use string interpolation to combine strings, integers and doubles"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-use-string-interpolation-to-combine-strings-integers-and-doubles.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-use-string-interpolation-to-combine-strings-integers-and-doubles.html
 date: 2020-03-16
 isOriginal: false
 ---

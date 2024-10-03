@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Vertical Slice Architecture
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/vertical-slice-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/vertical-slice-architecture.html
 prev: /programming/cs/articles/README.md
 date: 2023-11-04
 isOriginal: false

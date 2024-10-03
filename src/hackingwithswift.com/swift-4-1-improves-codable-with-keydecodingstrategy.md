@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Snake case is now just a few keystrokes away.
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift-4-1-improves-codable-with-keydecodingstrategy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift-4-1-improves-codable-with-keydecodingstrategy.html
 prev: /programming/swift/articles/README.md
 date: 2018-02-05
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make two gestures recognize at the same time using simultaneousGesture()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture.html
 ---
 
 # {{ $frontmatter.title }} 관련

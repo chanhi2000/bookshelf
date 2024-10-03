@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to let users pick options from a menu
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-let-users-pick-options-from-a-menu.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-let-users-pick-options-from-a-menu.html
 next: /hackingwithswift.com/swiftui/how-to-present-a-new-view-using-sheets.md
 ---
 

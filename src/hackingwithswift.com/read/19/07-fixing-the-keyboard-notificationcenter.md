@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Fixing the keyboard: NotificationCenter"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/19/07-fixing-the-keyboard-notificationcenter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/19/07-fixing-the-keyboard-notificationcenter.html
 isOriginal: false
 ---
 

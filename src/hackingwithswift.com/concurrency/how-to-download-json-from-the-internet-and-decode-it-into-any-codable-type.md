@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to download JSON from the internet and decode it into any Codable type
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/how-to-download-json-from-the-internet-and-decode-it-into-any-codable-type.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/how-to-download-json-from-the-internet-and-decode-it-into-any-codable-type.html
 prev: /hackingwithswift.com/concurrency/important-do-not-use-an-actor-for-your-swiftui-data-models.md
 next: /hackingwithswift.com/concurrency/README.md
 date: 2021-11-28

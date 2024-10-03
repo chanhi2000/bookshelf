@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Wrap up: our SwiftUI project is complete"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/two-way-bindings-in-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/two-way-bindings-in-swiftui.html
 next: /hackingwithswift.com/swiftui/how-to-create-static-labels-with-a-text-view.md
 ---
 

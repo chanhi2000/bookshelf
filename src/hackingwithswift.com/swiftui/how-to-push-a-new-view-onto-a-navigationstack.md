@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to push a new view onto a NavigationStack
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-push-a-new-view-onto-a-navigationstack.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-push-a-new-view-onto-a-navigationstack.html
 ---
 
 # {{ $frontmatter.title }} 관련

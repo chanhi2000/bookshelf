@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to break out of multiple loop levels using labeled statements"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html
 date: 2019-03-28
 isOriginal: false
 ---

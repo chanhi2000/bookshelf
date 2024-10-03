@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Implementing The Saga Pattern With Rebus And RabbitMQ"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/implementing-the-saga-pattern-with-rebus-and-rabbitmq.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/implementing-the-saga-pattern-with-rebus-and-rabbitmq.html
 prev: /programming/cs/articles/README.md
 date: 2023-04-01
 isOriginal: false

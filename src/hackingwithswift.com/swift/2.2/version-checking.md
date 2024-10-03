@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Compile-time Swift version checking
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.2/version-checking.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.2/version-checking.html
 next: /hackingwithswift.com/swift/2.1/string-interpolation.md
 isOriginal: false
 ---

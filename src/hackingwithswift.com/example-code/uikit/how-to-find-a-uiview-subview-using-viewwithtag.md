@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find a UIView subview using viewWithTag()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-find-a-uiview-subview-using-viewwithtag.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-find-a-uiview-subview-using-viewwithtag.html
 date: 2019-09-26
 isOriginal: false
 ---

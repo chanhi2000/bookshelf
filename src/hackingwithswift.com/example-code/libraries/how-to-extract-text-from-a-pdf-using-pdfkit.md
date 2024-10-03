@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to extract text from a PDF using PDFKit"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/libraries/how-to-extract-text-from-a-pdf-using-pdfkit.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/libraries/how-to-extract-text-from-a-pdf-using-pdfkit.html
 date: 2021-06-21
 isOriginal: false
 ---

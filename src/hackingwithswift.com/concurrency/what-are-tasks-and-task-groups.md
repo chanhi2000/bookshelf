@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: What are tasks and task groups?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/what-are-tasks-and-task-groups.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/what-are-tasks-and-task-groups.html
 prev: /hackingwithswift.com/concurrency/how-to-convert-an-asyncsequence-into-a-sequence.md
 date: 2021-09-23
 isOriginal: false

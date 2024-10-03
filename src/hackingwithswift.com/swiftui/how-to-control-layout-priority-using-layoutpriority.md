@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to control layout priority using layoutPriority()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-control-layout-priority-using-layoutpriority.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-control-layout-priority-using-layoutpriority.html
 ---
 
 # {{ $frontmatter.title }} 관련

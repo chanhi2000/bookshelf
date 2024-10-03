@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use Dynamic Type with a custom font
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-dynamic-type-with-a-custom-font.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-dynamic-type-with-a-custom-font.html
 ---
 
 # {{ $frontmatter.title }} 관련

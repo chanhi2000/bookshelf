@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create multi-step animations using phase animators
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-multi-step-animations-using-phase-animators.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-multi-step-animations-using-phase-animators.html
 next: /hackingwithswift.com/swiftui/how-to-create-and-compose-custom-views.md
 ---
 

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Zustand vs useState – How to Manage State in React Apps
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/zustand-vs-usestate-how-to-manage-state-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/zustand-vs-usestate-how-to-manage-state-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-05-15
 isOriginal: false

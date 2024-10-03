@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Introduction: Swift for Complete Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/overview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/overview.html
 prev: /hackingwithswift.com/read/README.md
 isOriginal: false
 ---

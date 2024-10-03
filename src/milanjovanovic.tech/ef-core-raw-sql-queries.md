@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "EF Core Raw SQL Queries"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/ef-core-raw-sql-queries.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/ef-core-raw-sql-queries.html
 prev: /programming/cs/articles/README.md
 date: 2023-04-15
 isOriginal: false

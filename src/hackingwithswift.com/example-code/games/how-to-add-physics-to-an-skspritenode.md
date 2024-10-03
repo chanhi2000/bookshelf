@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to add physics to an SKSpriteNode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-add-physics-to-an-skspritenode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-add-physics-to-an-skspritenode.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create and compose custom views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-and-compose-custom-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-and-compose-custom-views.html
 prev: /hackingwithswift.com/swiftui/how-to-create-multi-step-animations-using-phase-animators.md
 ---
 

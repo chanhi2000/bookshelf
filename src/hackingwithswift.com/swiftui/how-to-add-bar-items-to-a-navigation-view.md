@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add bar items to a navigation view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-bar-items-to-a-navigation-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-bar-items-to-a-navigation-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

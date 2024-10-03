@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Unleash EF Core Performance With Compiled Queries
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/unleash-ef-core-performance-with-compiled-queries.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/unleash-ef-core-performance-with-compiled-queries.html
 prev: /programming/cs/articles/README.md
 date: 2023-01-14
 isOriginal: false

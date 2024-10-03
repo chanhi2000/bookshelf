@@ -2,7 +2,7 @@ import { SidebarInfoTemplate } from ".";
 
 export const template: SidebarInfoTemplate = {
   name: 'event-driven.io',
-  faviconPath: '/images/content/event-driven.io/favicon.jfif',
+  faviconPath: '/assets/image/event-driven.io/favicon.jfif',
   linksMap: new Map([
     [
     "java", [

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What You Need To Know About EF Core Bulk Updates"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/what-you-need-to-know-about-ef-core-bulk-updates.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/what-you-need-to-know-about-ef-core-bulk-updates.html
 prev: /programming/cs/articles/README.md
 date: 2024-06-22
 isOriginal: false

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to check whether a SwiftData model object has been deleted
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-read-the-list-of-objects-that-have-been-inserted-edited-or-deleted.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-read-the-list-of-objects-that-have-been-inserted-edited-or-deleted.html
 prev: /hackingwithswift.com/swiftdata/how-to-use-swiftdata-to-store-singletons.md
 date: 2023-09-30
 isOriginal: false

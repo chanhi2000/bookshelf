@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to preview your layout at different Dynamic Type sizes
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-preview-your-layout-at-different-dynamic-type-sizes.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-preview-your-layout-at-different-dynamic-type-sizes.html
 ---
 
 # {{ $frontmatter.title }} 관련

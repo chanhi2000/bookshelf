@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Adding Validation To The Options Pattern In ASP.NET Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/adding-validation-to-the-options-pattern-in-asp-net-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/adding-validation-to-the-options-pattern-in-asp-net-core.html
 prev: /programming/cs/articles/README.md
 date: 2023-01-07
 isOriginal: false

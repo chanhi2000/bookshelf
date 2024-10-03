@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create custom animated drawings with TimelineView and Canvas
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-custom-animated-drawings-with-timelineview-and-canvas.html
 ---
 
 # {{ $frontmatter.title }} 관련

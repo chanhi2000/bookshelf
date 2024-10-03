@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert a string to lowercase letters"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-lowercase-letters.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-lowercase-letters.html
 date: 2018-03-28
 isOriginal: false
 ---

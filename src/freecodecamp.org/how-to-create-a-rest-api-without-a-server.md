@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Create a REST API Without a Server
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-a-rest-api-without-a-server.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-rest-api-without-a-server.html
 prev: /programming/js-node/articles/README.md
 date: 2024-05-20
 isOriginal: false

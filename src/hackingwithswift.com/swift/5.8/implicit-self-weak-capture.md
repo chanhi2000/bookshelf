@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Allow implicit self for weak self captures, after self is unwrapped
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.8/implicit-self-weak-capture.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/implicit-self-weak-capture.html
 isOriginal: false
 ---
 

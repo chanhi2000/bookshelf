@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show multiple alerts in a single view
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-multiple-alerts-in-a-single-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-multiple-alerts-in-a-single-view.html
 ---
 
 # {{ $frontmatter.title }} 관련

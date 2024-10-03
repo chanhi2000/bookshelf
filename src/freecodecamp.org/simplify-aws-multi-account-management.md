@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Simplify AWS Multi-Account Management with Terraform and GitOps
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/simplify-aws-multi-account-management.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/simplify-aws-multi-account-management.html
 prev: /devops/aws/articles/README.md
 date: 2024-08-13
 isOriginal: false

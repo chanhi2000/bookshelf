@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create 3D effects like Cover Flow using ScrollView and GeometryReader
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader.html
 ---
 
 # {{ $frontmatter.title }} 관련

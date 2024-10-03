@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Why Clean Architecture Is Great For Complex Projects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/why-clean-architecture-is-great-for-complex-projects.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/why-clean-architecture-is-great-for-complex-projects.html
 prev: /academics/system-design/articles/README.md
 date: 2023-07-29
 isOriginal: false

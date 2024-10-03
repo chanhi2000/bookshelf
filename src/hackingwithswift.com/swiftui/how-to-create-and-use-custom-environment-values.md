@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create and use custom environment values
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-and-use-custom-environment-values.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-and-use-custom-environment-values.html
 next: /hackingwithswift.com/swiftui/working-with-lists.md
 date: 2024-06-21
 isOriginal: false

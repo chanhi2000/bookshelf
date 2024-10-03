@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Sequences get prefix(while:) and drop(while:) methods
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/3.1/prefix-drop.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/3.1/prefix-drop.html
 next: /hackingwithswift.com/swift/3.0/function-parameters.md
 isOriginal: false
 ---

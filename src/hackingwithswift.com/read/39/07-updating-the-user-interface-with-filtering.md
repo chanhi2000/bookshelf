@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Updating the user interface with filtering"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/39/07-updating-the-user-interface-with-filtering.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/39/07-updating-the-user-interface-with-filtering.html
 isOriginal: false
 ---
 

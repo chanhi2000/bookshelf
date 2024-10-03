@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Ultimate AWS Certified Developer Associate (DVA-C02) Course from Andrew Brown
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown.html
 prev: /devops/aws/articles/README.md
 date: 2024-08-12
 isOriginal: false

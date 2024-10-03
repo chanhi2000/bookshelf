@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Observable objects, environment objects, and @Published
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/observable-objects-environment-objects-and-published.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/observable-objects-environment-objects-and-published.html
 ---
 
 # {{ $frontmatter.title }} 관련

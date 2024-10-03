@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Understanding property wrappers in Swift and SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/understanding-property-wrappers-in-swift-and-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/understanding-property-wrappers-in-swift-and-swiftui.html
 prev: /hackingwithswift.com/swiftui/how-to-become-a-swiftui-expert.md
 ---
 

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Get Started With Cybersecurity"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/getting-started-in-cybersecurity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/getting-started-in-cybersecurity.html
 prev: /devops/security/articles/README.md
 date: 2024-07-16
 isOriginal: false

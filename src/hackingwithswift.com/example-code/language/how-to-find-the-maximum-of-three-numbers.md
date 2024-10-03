@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find the maximum of three numbers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-find-the-maximum-of-three-numbers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-find-the-maximum-of-three-numbers.html
 date: 2020-06-04
 isOriginal: false
 ---

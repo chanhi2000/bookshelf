@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to group views together with ControlGroup
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-group-views-together-with-controlgroup.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-group-views-together-with-controlgroup.html
 ---
 
 # {{ $frontmatter.title }} 관련

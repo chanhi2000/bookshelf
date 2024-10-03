@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How To Apply Functional Programming In C#"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-apply-functional-programming-in-csharp.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-apply-functional-programming-in-csharp.html
 prev: /programming/cs/articles/README.md
 date: 2023-03-04
 isOriginal: false

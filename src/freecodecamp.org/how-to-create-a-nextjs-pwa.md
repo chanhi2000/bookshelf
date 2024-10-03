@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How To Create a Progressive Web App (PWA) Using Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-a-nextjs-pwa.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-nextjs-pwa.html
 prev: /programming/js-next/articles/README.md
 date: 2024-09-20
 isOriginal: false

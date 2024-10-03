@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to change the tint color for individual list rows
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-change-the-tint-color-for-individual-list-rows.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-change-the-tint-color-for-individual-list-rows.html
 next: /hackingwithswift.com/swiftui/working-with-forms.md
 ---
 

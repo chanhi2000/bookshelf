@@ -18,7 +18,7 @@ head:
     - property: og:description`
       content: How Does Recursion Work? Explained with Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-recursion.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-recursion.html
 prev: /programming/py/articles/README.md
 date: 2024-07-25
 isOriginal: false

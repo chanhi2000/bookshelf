@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to sort SwiftData queries using key paths or SortDescriptor
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-sort-swiftdata-queries-using-key-paths-or-sortdescriptor.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-sort-swiftdata-queries-using-key-paths-or-sortdescriptor.html
 date: 2023-09-30
 isOriginal: false
 ---

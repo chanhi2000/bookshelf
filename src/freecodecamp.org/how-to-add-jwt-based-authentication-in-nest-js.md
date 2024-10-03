@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Add JWT-Based Authentication in NestJS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-add-jwt-based-authentication-in-nest-js.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-add-jwt-based-authentication-in-nest-js.html
 prev: /programming/js-nest/articles/README.md
 date: 2024-07-31
 isOriginal: false

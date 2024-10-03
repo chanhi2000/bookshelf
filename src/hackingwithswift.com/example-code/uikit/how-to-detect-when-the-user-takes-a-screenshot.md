@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect when the user takes a screenshot"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-detect-when-the-user-takes-a-screenshot.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-detect-when-the-user-takes-a-screenshot.html
 date: 2019-03-28
 isOriginal: false
 ---

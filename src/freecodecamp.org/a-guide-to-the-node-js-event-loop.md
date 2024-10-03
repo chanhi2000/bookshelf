@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: A Guide to the Node.js Event Loop
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/a-guide-to-the-node-js-event-loop.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-guide-to-the-node-js-event-loop.html
 prev: /programming/js-node/articles/README.md
 date: 2024-05-28
 isOriginal: false

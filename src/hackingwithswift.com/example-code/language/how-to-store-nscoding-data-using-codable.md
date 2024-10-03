@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to store NSCoding data using Codable"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/how-to-store-nscoding-data-using-codable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-store-nscoding-data-using-codable.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make UITableViewCells auto resize to their content"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-make-uitableviewcells-auto-resize-to-their-content.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-make-uitableviewcells-auto-resize-to-their-content.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to enable pull to refresh
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-enable-pull-to-refresh.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-enable-pull-to-refresh.html
 ---
 
 # {{ $frontmatter.title }} 관련

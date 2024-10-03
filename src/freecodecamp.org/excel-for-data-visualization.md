@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: Excel for Data Visualization
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/excel-for-data-visualization.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/excel-for-data-visualization.html
 prev: /tool/xls/articles/README.md
 date: 2024-08-27
 isOriginal: false

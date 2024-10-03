@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: A Guide to Object-Oriented Programming Principles
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/a-guide-to-object-oriented-programming-principles.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-guide-to-object-oriented-programming-principles.html
 prev: /programming/java/articles/README.md
 date: 2024-06-18
 isOriginal: false

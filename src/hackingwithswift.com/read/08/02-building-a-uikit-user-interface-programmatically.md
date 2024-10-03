@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Building a UIKit user interface programmatically"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/08/02-building-a-uikit-user-interface-programmatically.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/08/02-building-a-uikit-user-interface-programmatically.html
 isOriginal: false
 ---
 

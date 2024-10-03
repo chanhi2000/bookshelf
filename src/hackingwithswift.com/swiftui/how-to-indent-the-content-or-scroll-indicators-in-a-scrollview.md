@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to indent the content or scroll indicators in a ScrollView
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview.html
 ---
 
 # {{ $frontmatter.title }} 관련

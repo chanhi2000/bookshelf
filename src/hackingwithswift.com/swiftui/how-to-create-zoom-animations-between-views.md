@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to create zoom animations between views
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-create-zoom-animations-between-views.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-create-zoom-animations-between-views.html
 next: /hackingwithswift.com/swiftui/working-with-presentations.md
 date: 2024-06-21
 isOriginal: false

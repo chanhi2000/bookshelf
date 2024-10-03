@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Sorting query results
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/sorting-query-results.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/sorting-query-results.html
 date: 2023-10-01
 isOriginal: false
 ---

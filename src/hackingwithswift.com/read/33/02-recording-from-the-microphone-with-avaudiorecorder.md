@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Recording from the microphone with AVAudioRecorder"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/02-recording-from-the-microphone-with-avaudiorecorder.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/02-recording-from-the-microphone-with-avaudiorecorder.html
 isOriginal: false
 ---
 

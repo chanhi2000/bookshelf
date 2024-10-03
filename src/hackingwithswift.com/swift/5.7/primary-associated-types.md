@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Lightweight same-type requirements for primary associated types
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.7/primary-associated-types.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/primary-associated-types.html
 isOriginal: false
 ---
 

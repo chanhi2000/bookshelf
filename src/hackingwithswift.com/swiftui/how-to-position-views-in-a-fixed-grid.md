@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to position views in a fixed grid
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-position-views-in-a-fixed-grid.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-position-views-in-a-fixed-grid.html
 ---
 
 # {{ $frontmatter.title }} 관련

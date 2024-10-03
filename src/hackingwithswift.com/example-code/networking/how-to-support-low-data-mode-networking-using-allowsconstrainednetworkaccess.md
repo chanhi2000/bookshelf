@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to support low data mode networking using allowsConstrainedNetworkAccess"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/networking/how-to-support-low-data-mode-networking-using-allowsconstrainednetworkaccess.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/networking/how-to-support-low-data-mode-networking-using-allowsconstrainednetworkaccess.html
 date: 2019-10-19
 isOriginal: false
 ---

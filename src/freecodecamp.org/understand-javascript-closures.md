@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How Do Closures Work in JavaScript? Explained with Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/understand-javascript-closures.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/understand-javascript-closures.html
 prev: /programming/js/articles/README.md
 date: 2024-05-07
 isOriginal: false

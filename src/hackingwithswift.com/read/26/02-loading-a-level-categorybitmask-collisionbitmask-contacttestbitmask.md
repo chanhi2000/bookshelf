@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Loading a level: categoryBitMask, collisionBitMask, contactTestBitMask"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/26/02-loading-a-level-categorybitmask-collisionbitmask-contacttestbitmask.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/26/02-loading-a-level-categorybitmask-collisionbitmask-contacttestbitmask.html
 isOriginal: false
 ---
 

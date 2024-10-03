@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: macOS apps can now use @NSApplicationMain
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.1/nsapplicationmain.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.1/nsapplicationmain.html
 next: /hackingwithswift.com/swift/README.md
 isOriginal: false
 ---

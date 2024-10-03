@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: Understanding how priority escalation works
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/concurrency/understanding-how-priority-escalation-works.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/concurrency/understanding-how-priority-escalation-works.html
 date: 2021-07-01
 isOriginal: false
 ---

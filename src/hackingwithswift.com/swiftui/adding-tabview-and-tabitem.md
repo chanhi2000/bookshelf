@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Adding TabView and tabItem()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/adding-items-to-an-order-with-environmentobject.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/adding-items-to-an-order-with-environmentobject.html
 date: 2022-12-01
 isOriginal: false
 ---

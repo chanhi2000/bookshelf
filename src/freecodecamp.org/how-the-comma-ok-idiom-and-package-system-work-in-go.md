@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How the Comma Ok Idiom and Package System Work in Go 
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-the-comma-ok-idiom-and-package-system-work-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-the-comma-ok-idiom-and-package-system-work-in-go.html
 prev: /programming/go/articles/README.md
 date: 2024-09-09
 isOriginal: false

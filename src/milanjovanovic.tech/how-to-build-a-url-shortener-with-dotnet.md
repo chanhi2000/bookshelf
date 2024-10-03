@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to Build a URL Shortener With .NET
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/how-to-build-a-url-shortener-with-dotnet.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/how-to-build-a-url-shortener-with-dotnet.html
 prev: /programming/cs/articles/README.md
 date: 2024-02-03
 isOriginal: false

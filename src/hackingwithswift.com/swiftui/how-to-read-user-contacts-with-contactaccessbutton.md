@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read user contacts with ContactAccessButton
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-user-contacts-with-contactaccessbutton.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-user-contacts-with-contactaccessbutton.html
 next: /hackingwithswift.com/swiftui/introduction-to-accessibility-with-swiftui.md
 date: 2024-06-21
 isOriginal: false

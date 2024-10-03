@@ -28,7 +28,7 @@ head:
     - property: og:description`
       content: "How to Generate Financial Press Reviews Using AI"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-generate-financial-press-reviews-using-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-generate-financial-press-reviews-using-ai.html
 prev: /programming/py/articles/README.md
 date: 2024-08-20
 isOriginal: false

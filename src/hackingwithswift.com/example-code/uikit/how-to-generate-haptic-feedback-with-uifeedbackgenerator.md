@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to generate haptic feedback with UIFeedbackGenerator"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-generate-haptic-feedback-with-uifeedbackgenerator.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-generate-haptic-feedback-with-uifeedbackgenerator.html
 date: 2020-02-07
 isOriginal: false
 ---

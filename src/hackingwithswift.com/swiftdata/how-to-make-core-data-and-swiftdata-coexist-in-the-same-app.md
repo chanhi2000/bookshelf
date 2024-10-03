@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to make Core Data and SwiftData coexist in the same app
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-make-core-data-and-swiftdata-coexist-in-the-same-app.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-make-core-data-and-swiftdata-coexist-in-the-same-app.html
 date: 2023-09-30
 isOriginal: false
 ---

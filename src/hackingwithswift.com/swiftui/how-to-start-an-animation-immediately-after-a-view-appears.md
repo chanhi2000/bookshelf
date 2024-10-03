@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to start an animation immediately after a view appears
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-start-an-animation-immediately-after-a-view-appears.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-start-an-animation-immediately-after-a-view-appears.html
 ---
 
 # {{ $frontmatter.title }} 관련

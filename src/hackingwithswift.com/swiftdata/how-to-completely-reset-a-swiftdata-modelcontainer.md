@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to completely reset a SwiftData ModelContainer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-completely-reset-a-swiftdata-modelcontainer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-completely-reset-a-swiftdata-modelcontainer.html
 date: 2023-09-30
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "From outlets to actions: creating an IBAction"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/02/05-from-outlets-to-actions-creating-an-ibaction.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/02/05-from-outlets-to-actions-creating-an-ibaction.html
 isOriginal: false
 ---
 

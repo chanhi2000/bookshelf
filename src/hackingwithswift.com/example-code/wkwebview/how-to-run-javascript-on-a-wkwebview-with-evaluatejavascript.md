@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to run JavaScript on a WKWebView with evaluateJavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/how-to-run-javascript-on-a-wkwebview-with-evaluatejavascript.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/how-to-run-javascript-on-a-wkwebview-with-evaluatejavascript.html
 date: 2021-03-11
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to enable back and forward swiping gestures in WKWebView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/how-to-enable-back-and-forward-swiping-gestures-in-wkwebview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/how-to-enable-back-and-forward-swiping-gestures-in-wkwebview.html
 date: 2019-03-28
 isOriginal: false
 ---

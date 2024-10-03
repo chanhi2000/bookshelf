@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to use @MainActor to run code on the main queue
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/how-to-use-mainactor-to-run-code-on-the-main-queue.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/how-to-use-mainactor-to-run-code-on-the-main-queue.html
 date: 2021-12-13
 isOriginal: false
 ---

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: When does SwiftData autosave data?
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/when-does-swiftdata-autosave-data.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/when-does-swiftdata-autosave-data.html
 date: 2023-09-30
 isOriginal: false
 ---

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create Auto Layout constraints in code: constraints(withVisualFormat:)"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-create-auto-layout-constraints-in-code-constraintswithvisualformat.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-create-auto-layout-constraints-in-code-constraintswithvisualformat.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Working with CloudKit records: CKRecord.Reference, fetch(withRecordID:), and save()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/07-working-with-cloudkit-records-ckrecordreference-fetchwithrecordid-and-save.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/07-working-with-cloudkit-records-ckrecordreference-fetchwithrecordid-and-save.html
 isOriginal: false
 ---
 

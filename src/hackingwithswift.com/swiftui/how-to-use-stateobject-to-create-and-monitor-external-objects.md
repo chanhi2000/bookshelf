@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use @StateObject to create and monitor external objects
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-stateobject-to-create-and-monitor-external-objects.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-stateobject-to-create-and-monitor-external-objects.html
 ---
 
 # {{ $frontmatter.title }} 관련

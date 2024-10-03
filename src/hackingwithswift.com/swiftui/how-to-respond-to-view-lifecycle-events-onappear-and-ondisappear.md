@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to respond to view lifecycle events - onAppear() and onDisappear()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-respond-to-view-lifecycle-events-onappear-and-ondisappear.html
 ---
 
 # {{ $frontmatter.title }} 관련

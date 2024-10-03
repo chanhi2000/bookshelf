@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to delete all instances of a particular model
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-delete-all-instances-of-a-particular-model.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-delete-all-instances-of-a-particular-model.html
 date: 2023-09-30
 isOriginal: false
 ---

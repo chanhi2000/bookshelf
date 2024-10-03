@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Implementing API Gateway Authentication With YARP
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/implementing-api-gateway-authentication-with-yarp.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/implementing-api-gateway-authentication-with-yarp.html
 prev: /programming/cs/articles/README.md
 date: 2024-05-04
 isOriginal: false

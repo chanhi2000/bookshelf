@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Building the environment: SKTexture and filling a path"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/29/02-building-the-environment-sktexture-and-filling-a-path.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/29/02-building-the-environment-sktexture-and-filling-a-path.html
 isOriginal: false
 ---
 

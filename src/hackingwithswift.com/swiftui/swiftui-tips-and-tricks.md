@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: SwiftUI tips and tricks
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/swiftui-tips-and-tricks.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/swiftui-tips-and-tricks.html
 prev: /hackingwithswift.com/swiftui/how-to-use-state-inside-swiftui-previews-using-previewable.md
 ---
 

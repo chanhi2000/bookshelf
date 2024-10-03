@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How GameplayKit AI works: GKGameModel, GKGameModelPlayer and GKGameModelUpdate"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/34/06-how-gameplaykit-ai-works-gkgamemodel-gkgamemodelplayer-and-gkgamemodelupdate.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/34/06-how-gameplaykit-ai-works-gkgamemodel-gkgamemodelplayer-and-gkgamemodelupdate.html
 isOriginal: false
 ---
 

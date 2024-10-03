@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Implement Message Queues in Your Backend Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-implement-message-queues-in-your-backend-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-message-queues-in-your-backend-applications.html
 prev: /programming/js-node/articles/README.md
 date: 2024-08-14
 isOriginal: false

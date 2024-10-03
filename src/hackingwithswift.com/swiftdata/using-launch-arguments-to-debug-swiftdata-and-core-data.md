@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: Using launch arguments to debug SwiftData and Core Data
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/using-launch-arguments-to-debug-swiftdata-and-core-data.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/using-launch-arguments-to-debug-swiftdata-and-core-data.html
 date: 2023-09-30
 isOriginal: false
 ---

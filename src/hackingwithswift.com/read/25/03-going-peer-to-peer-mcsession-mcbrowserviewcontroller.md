@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Going peer to peer: MCSession, MCBrowserViewControll"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/25/03-going-peer-to-peer-mcsession-mcbrowserviewcontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/25/03-going-peer-to-peer-mcsession-mcbrowserviewcontroller.html
 isOriginal: false
 ---
 

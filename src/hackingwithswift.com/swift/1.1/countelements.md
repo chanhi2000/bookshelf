@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: countElements() is now count()
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.1/countelements.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.1/countelements.html
 prev: /hackingwithswift.com/swift/1.2/typecasting.md
 isOriginal: false
 ---

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Multi-pattern catch clauses
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.3/multipattern-catch.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.3/multipattern-catch.html
 prev: /hackingwithswift.com/swift/5.4/spm-executable-targets.md
 isOriginal: false
 ---

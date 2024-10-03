@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to use UISearchController to let users enter search words"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-use-uisearchcontroller-to-let-users-enter-search-words.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-use-uisearchcontroller-to-let-users-enter-search-words.html
 date: 2019-03-28
 isOriginal: false
 ---

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Build a Meditation App with React Native & Expo Router
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/build-a-meditation-app-with-react-native-expo-router.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-meditation-app-with-react-native-expo-router.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-03
 isOriginal: false

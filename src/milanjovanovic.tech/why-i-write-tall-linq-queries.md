@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Why I Write My LINQ Queries Tall, Not Wide
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/why-i-write-tall-linq-queries.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/why-i-write-tall-linq-queries.html
 prev: /programming/cs/articles/README.md
 date: 2022-09-03
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to take a photo using the camera and UIImagePickerController"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-take-a-photo-using-the-camera-and-uiimagepickercontroller.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-take-a-photo-using-the-camera-and-uiimagepickercontroller.html
 date: 2019-03-28
 isOriginal: false
 ---

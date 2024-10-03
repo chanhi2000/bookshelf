@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: How to Migrate a Flutter Application from GetIt to Bloc
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-enhanced-enums-in-dart.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-enhanced-enums-in-dart.html
 prev: /programming/dart/articles/README.md
 date: 2024-07-22
 isOriginal: false

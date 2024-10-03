@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Extending static member lookup in generic contexts
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.5/static-member-generic.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/static-member-generic.html
 next: /hackingwithswift.com/swift/5.4/improved-implicit-member-syntax.md
 isOriginal: false
 ---

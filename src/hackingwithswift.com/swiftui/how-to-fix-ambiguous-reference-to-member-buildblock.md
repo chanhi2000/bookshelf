@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Ambiguous reference to member 'buildBlock()'”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-ambiguous-reference-to-member-buildblock.html
 date: 2022-12-01
 isOriginal: false
 ---

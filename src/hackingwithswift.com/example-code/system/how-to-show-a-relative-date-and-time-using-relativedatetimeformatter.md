@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to show a relative date and time using RelativeDateTimeFormatter"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-show-a-relative-date-and-time-using-relativedatetimeformatter.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-show-a-relative-date-and-time-using-relativedatetimeformatter.html
 date: 2022-03-23
 isOriginal: false
 ---

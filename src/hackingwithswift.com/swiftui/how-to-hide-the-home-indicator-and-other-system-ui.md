@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to hide the home indicator and other system UI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-hide-the-home-indicator-and-other-system-ui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-hide-the-home-indicator-and-other-system-ui.html
 ---
 
 # {{ $frontmatter.title }} 관련

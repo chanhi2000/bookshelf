@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Learn Asynchronous JavaScript
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/learn-asynchronous-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-asynchronous-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-07-11
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720710953239/c174ffdc-98cf-4768-bcea-e23c2fb1cd81.png

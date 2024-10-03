@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect when your app moves to the background or foreground with scenePhase
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-when-your-app-moves-to-the-background-or-foreground-with-scenephase.html
 ---
 
 # {{ $frontmatter.title }} 관련

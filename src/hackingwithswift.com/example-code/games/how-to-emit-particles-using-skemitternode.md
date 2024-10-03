@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to emit particles using SKEmitterNode"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-emit-particles-using-skemitternode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-emit-particles-using-skemitternode.html
 date: 2019-03-28
 isOriginal: false
 ---

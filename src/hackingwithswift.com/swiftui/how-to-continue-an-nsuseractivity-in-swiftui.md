@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to continue an NSUserActivity in SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-continue-an-nsuseractivity-in-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-continue-an-nsuseractivity-in-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련

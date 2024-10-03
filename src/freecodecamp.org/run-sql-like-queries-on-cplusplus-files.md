@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Run SQL-Like Queries on C/C++ Files
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/run-sql-like-queries-on-cplusplus-files.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/run-sql-like-queries-on-cplusplus-files.html
 prev: /programming/cpp/articles/README.md
 date: 2024-05-02
 isOriginal: false

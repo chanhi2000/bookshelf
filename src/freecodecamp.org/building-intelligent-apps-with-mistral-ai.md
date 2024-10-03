@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Building Intelligent Apps with Mistral AI"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/building-intelligent-apps-with-mistral-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/building-intelligent-apps-with-mistral-ai.html
 prev: /ai/llm/articles/README.md
 date: 2024-06-18
 isOriginal: false

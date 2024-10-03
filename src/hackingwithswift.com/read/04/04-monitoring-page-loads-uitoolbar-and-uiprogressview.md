@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Monitoring page loads: UIToolbar and UIProgressView"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/04/04-monitoring-page-loads-uitoolbar-and-uiprogressview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/04/04-monitoring-page-loads-uitoolbar-and-uiprogressview.html
 isOriginal: false
 ---
 

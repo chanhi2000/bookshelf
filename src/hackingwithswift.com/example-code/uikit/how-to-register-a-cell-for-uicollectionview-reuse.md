@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to register a cell for UICollectionView reuse"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-register-a-cell-for-uicollectionview-reuse.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-register-a-cell-for-uicollectionview-reuse.html
 date: 2019-03-28
 isOriginal: false
 ---

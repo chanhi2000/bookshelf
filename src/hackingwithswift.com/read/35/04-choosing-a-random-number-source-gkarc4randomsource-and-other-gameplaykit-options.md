@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Choosing a random number source: GKARC4RandomSource and other GameplayKit options"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/35/04-choosing-a-random-number-source-gkarc4randomsource-and-other-gameplaykit-options.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/35/04-choosing-a-random-number-source-gkarc4randomsource-and-other-gameplaykit-options.html
 isOriginal: false
 ---
 

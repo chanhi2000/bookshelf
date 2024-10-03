@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use @State inside SwiftUI previews using @Previewable
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-state-inside-swiftui-previews-using-previewable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-state-inside-swiftui-previews-using-previewable.html
 next: /hackingwithswift.com/swiftui/swiftui-tips-and-tricks.md
 date: 2024-06-21
 isOriginal: false

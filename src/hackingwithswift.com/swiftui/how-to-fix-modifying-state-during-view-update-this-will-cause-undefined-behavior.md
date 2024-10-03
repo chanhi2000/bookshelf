@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Modifying state during view update, this will cause undefined behavior”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-modifying-state-during-view-update-this-will-cause-undefined-behavior.html
 date: 2022-12-01
 isOriginal: false
 ---

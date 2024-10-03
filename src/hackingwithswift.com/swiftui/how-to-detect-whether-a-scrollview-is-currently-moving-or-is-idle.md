@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to detect whether a scrollview is currently moving or is idle
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-detect-whether-a-scrollview-is-currently-moving-or-is-idle.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-detect-whether-a-scrollview-is-currently-moving-or-is-idle.html
 next: /hackingwithswift.com/swiftui/working-with-state.md
 date: 2024-06-21
 isOriginal: false

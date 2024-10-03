@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Creating uninitialized arrays
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.1/creating-uninitialized-arrays.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.1/creating-uninitialized-arrays.html
 next: /hackingwithswift.com/swift/5.1/creating-uninitialized-arrays.md
 isOriginal: false
 ---

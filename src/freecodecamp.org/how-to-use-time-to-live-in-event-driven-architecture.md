@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: How to Use Time To Live in Event-Driven Architecture in AWS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-use-time-to-live-in-event-driven-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-time-to-live-in-event-driven-architecture.html
 prev: /devops/aws/articles/README.md
 date: 2024-06-19
 isOriginal: false

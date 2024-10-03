@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Writing somewhere safe: the iOS keychain"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/28/03-writing-somewhere-safe-the-ios-keychain.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/28/03-writing-somewhere-safe-the-ios-keychain.html
 isOriginal: false
 ---
 

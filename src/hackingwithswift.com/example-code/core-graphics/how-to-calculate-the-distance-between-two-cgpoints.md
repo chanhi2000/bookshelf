@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to calculate the distance between two CGPoints"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-graphics/how-to-calculate-the-distance-between-two-cgpoints.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-graphics/how-to-calculate-the-distance-between-two-cgpoints.html
 date: 2019-03-28
 isOriginal: false
 ---

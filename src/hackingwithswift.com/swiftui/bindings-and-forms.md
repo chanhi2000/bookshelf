@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Bindings and forms
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/bindings-and-forms.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/bindings-and-forms.html
 date: 2022-12-01
 isOriginal: false
 ---

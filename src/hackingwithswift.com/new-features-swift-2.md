@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Key features in Swift"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/new-features-swift-2.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/new-features-swift-2.html
 prev: /programming/swift/articles/README.md
 date: 2015-06-11
 isOriginal: false

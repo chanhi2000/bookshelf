@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: What are Variables and Constants in Go? Explained With Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/variables-and-constants-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/variables-and-constants-in-go.html
 prev: /programming/go/articles/README.md
 date: 2024-08-19
 isOriginal: false

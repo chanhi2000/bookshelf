@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: How to store SwiftData attributes in an external file
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftdata/how-to-store-swiftdata-attributes-in-an-external-file.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftdata/how-to-store-swiftdata-attributes-in-an-external-file.html
 date: 2023-10-31
 isOriginal: false
 ---

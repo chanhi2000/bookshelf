@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to create a QR code"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/media/how-to-create-a-qr-code.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-create-a-qr-code.html
 date: 2019-03-28
 isOriginal: false
 ---

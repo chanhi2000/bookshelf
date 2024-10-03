@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to control the sites a WKWebView can visit using WKNavigationDelegate"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/wkwebview/how-to-control-the-sites-a-wkwebview-can-visit-using-wknavigationdelegate.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/wkwebview/how-to-control-the-sites-a-wkwebview-can-visit-using-wknavigationdelegate.html
 date: 2019-09-19
 isOriginal: false
 ---

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Install Python on a Mac
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-install-python-on-a-mac.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-install-python-on-a-mac.html
 prev: /programming/py/articles/README.md
 date: 2024-05-09
 isOriginal: false

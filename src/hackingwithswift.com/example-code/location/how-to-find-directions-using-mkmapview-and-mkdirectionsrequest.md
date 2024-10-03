@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find directions using MKMapView and MKDirections.Request"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/location/how-to-detect-ibeacons.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/location/how-to-detect-ibeacons.html
 date: 2019-03-28
 isOriginal: false 
 ---

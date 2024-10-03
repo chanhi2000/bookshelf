@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Working With Transactions In EF Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/working-with-transactions-in-ef-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/working-with-transactions-in-ef-core.html
 prev: /programming/cs/articles/README.md
 date: 2023-02-04
 isOriginal: false

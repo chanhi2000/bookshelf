@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: How to Deploy Your Node.js App on Azure
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-deploy-node-js-app-on-azure.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-node-js-app-on-azure.html
 prev: /devops/azure/articles/README.md
 date: 2024-07-17
 isOriginal: false

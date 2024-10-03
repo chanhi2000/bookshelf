@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "7. Analyzing The Results"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/applied-data-science-with-python-book/7-analyzing-the-results.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/applied-data-science-with-python-book/7-analyzing-the-results.html
 prev: /programming/py/articles/README.md
 date: 2024-06-04
 isOriginal: false

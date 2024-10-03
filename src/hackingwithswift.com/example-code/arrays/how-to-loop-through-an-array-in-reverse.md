@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to loop through an array in reverse"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arrays/how-to-loop-through-an-array-in-reverse.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arrays/how-to-loop-through-an-array-in-reverse.html
 date: 2019-03-29
 isOriginal: false
 ---

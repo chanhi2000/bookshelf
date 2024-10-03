@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to get translucent lists on macOS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-get-translucent-lists-on-macos.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-get-translucent-lists-on-macos.html
 ---
 
 # {{ $frontmatter.title }} 관련

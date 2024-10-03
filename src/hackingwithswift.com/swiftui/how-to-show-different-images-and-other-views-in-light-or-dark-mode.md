@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to show different images and other views in light or dark mode
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-show-different-images-and-other-views-in-light-or-dark-mode.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-show-different-images-and-other-views-in-light-or-dark-mode.html
 ---
 
 # {{ $frontmatter.title }} 관련

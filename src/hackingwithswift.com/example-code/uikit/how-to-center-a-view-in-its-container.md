@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to center a view in its container"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-center-a-view-in-its-container.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-center-a-view-in-its-container.html
 date: 2019-03-28
 isOriginal: false
 ---

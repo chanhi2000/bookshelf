@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make a fixed size Spacer
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-a-fixed-size-spacer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-a-fixed-size-spacer.html
 ---
 
 # {{ $frontmatter.title }} 관련

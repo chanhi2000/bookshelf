@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to remove a UIView from its superview with removeFromSuperview()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-remove-a-uiview-from-its-superview-with-removefromsuperview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-remove-a-uiview-from-its-superview-with-removefromsuperview.html
 date: 2019-03-28
 isOriginal: false
 ---

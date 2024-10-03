@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Improved implicit member syntax
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.4/improved-implicit-member-syntax.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.4/improved-implicit-member-syntax.html
 prev: /hackingwithswift.com/swift/5.5/static-member-generic.md
 isOriginal: false
 ---

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Initializer 'init(_:rowContent:)' requires that 'SomeType' conform to 'Identifiable'”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-initializer-init-rowcontent-requires-that-sometype-conform-to-identifiable.html
 date: 2022-12-01
 isOriginal: false
 ---

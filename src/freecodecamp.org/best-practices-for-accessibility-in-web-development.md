@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What is Accessibility in Web Development? Best Practices for Web Accessibility
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/best-practices-for-accessibility-in-web-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-practices-for-accessibility-in-web-development.html
 prev: /academics/system-design/articles/README.md
 date: 2024-06-20
 isOriginal: false

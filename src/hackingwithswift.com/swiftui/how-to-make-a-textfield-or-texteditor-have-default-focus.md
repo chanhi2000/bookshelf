@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to make a TextField or TextEditor have default focus
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-make-a-textfield-or-texteditor-have-default-focus.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-make-a-textfield-or-texteditor-have-default-focus.html
 ---
 
 # {{ $frontmatter.title }} 관련

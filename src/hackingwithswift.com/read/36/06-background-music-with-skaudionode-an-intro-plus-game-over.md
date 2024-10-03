@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Background music with SKAudioNode, an intro, plus game over"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/36/06-background-music-with-skaudionode-an-intro-plus-game-over.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/36/06-background-music-with-skaudionode-an-intro-plus-game-over.html
 isOriginal: false
 ---
 

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to dynamically change between VStack and HStack
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-dynamically-change-between-vstack-and-hstack.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-dynamically-change-between-vstack-and-hstack.html
 ---
 
 # {{ $frontmatter.title }} 관련

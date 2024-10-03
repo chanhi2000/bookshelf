@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Create a Masonry Layout Using HTML and CSS
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-create-a-mansory-layout-using-html-and-css.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-mansory-layout-using-html-and-css.html
 prev: /programming/css/articles/README.md
 date: 2024-06-18
 isOriginal: false

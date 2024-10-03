@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/boost-web-performance-with-prefetching.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/boost-web-performance-with-prefetching.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-23
 isOriginal: false

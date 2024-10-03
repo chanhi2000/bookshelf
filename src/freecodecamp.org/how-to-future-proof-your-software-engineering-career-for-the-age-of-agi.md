@@ -18,7 +18,7 @@ head:
     - property: og:description`
       content: "How to Future-Proof Your Software Engineering Career for the Age of AGI"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.how-to-future-proof-your-software-engineering-career-for-the-age-of-agi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-future-proof-your-software-engineering-career-for-the-age-of-agi.html
 prev: /ai/articles/README.md
 date: 2024-08-23
 isOriginal: false

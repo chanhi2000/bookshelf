@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What's new in iOS 9 for developers"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/ios9.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/ios9.html
 prev: /programming/swift/articles/README.md
 date: 2015-06-11
 isOriginal: false

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read the size and position of a scrollview
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-the-size-and-position-of-a-scrollview.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-the-size-and-position-of-a-scrollview.html
 date: 2024-06-21
 isOriginal: false
 ---

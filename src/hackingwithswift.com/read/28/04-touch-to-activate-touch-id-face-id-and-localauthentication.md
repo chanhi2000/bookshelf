@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Touch to activate: Touch ID, Face ID and LocalAuthentication"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/28/04-touch-to-activate-touch-id-face-id-and-localauthentication.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/28/04-touch-to-activate-touch-id-face-id-and-localauthentication.html
 isOriginal: false
 ---
 

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to store UserDefaults options in iCloud"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-store-userdefaults-options-in-icloud.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-store-userdefaults-options-in-icloud.html
 date: 2020-02-11
 isOriginal: false
 ---

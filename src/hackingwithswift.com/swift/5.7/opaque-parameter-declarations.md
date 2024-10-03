@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Opaque parameter declarations
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/5.7/opaque-parameter-declarations.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/opaque-parameter-declarations.html
 isOriginal: false
 ---
 

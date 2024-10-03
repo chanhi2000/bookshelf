@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to copy objects in Swift using copy()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/system/how-to-copy-objects-in-swift-using-copy.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-copy-objects-in-swift-using-copy.html
 date: 2018-03-28
 isOriginal: false
 ---

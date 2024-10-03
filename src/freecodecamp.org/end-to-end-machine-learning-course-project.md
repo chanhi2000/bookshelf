@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "End-to-End Machine Learning Course Project"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/end-to-end-machine-learning-course-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/end-to-end-machine-learning-course-project.html
 prev: /programming/py/articles/README.md
 date: 2024-09-25
 isOriginal: false

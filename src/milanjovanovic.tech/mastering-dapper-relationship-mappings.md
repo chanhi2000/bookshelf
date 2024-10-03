@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Mastering Dapper Relationship Mappings"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/mastering-dapper-relationship-mappings.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/mastering-dapper-relationship-mappings.html
 prev: /programming/cs/articles/README.md
 date: 2023-08-12
 isOriginal: false

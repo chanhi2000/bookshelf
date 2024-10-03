@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What is a delegate in iOS?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/language/what-is-a-delegate-in-ios.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-is-a-delegate-in-ios.html
 date: 2023-10-31
 isOriginal: false
 ---

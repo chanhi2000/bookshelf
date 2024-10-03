@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Raw strings, future enum cases, compactMapValues(), and more!
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/whats-new-in-swift-5-0.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/whats-new-in-swift-5-0.html
 prev: /programming/swift/articles/README.md
 date: 2019-03-28
 isOriginal: false

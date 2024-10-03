@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: SwiftUI vs Interface Builder and storyboards
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/swiftui-vs-interface-builder-and-storyboards.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/swiftui-vs-interface-builder-and-storyboards.html
 date: 2021-02-09
 isOriginal: false
 ---

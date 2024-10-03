@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to read the battery level of an iPhone or iPad"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-read-the-battery-level-of-an-iphone-or-ipad.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-read-the-battery-level-of-an-iphone-or-ipad.html
 date: 2019-03-28
 isOriginal: false
 ---

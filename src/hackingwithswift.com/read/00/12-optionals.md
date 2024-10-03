@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Optionals"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/00/12-optionals.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/00/12-optionals.html
 isOriginal: false
 ---
 

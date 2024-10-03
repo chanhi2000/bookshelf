@@ -35,7 +35,7 @@ head:
     - property: og:description
       content: How to Build an AI Chatbot with Spring AI, React, and Docker
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/ai-chatbot-with-spring-react-docker.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-chatbot-with-spring-react-docker.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-09-23
 isOriginal: false

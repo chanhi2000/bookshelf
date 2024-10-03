@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: I screwed up one key accessibility behavior, and now I'm on a mission to do better
     - property: og:url
-      content: https://chanhi2000.github.io/articles/i-screwed-up-one-key-accessibility-behavior-and-now-i-m-on-a-mission-to-do-better.html
+      content: https://chanhi2000.github.io/bookshelf/i-screwed-up-one-key-accessibility-behavior-and-now-i-m-on-a-mission-to-do-better.html
 prev: /programming/swift/articles/README.md
 date: 2023-06-23
 isOriginal: false

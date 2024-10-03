@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to specify the Dynamic Type sizes a view supports
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-specify-the-dynamic-type-sizes-a-view-supports.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-specify-the-dynamic-type-sizes-a-view-supports.html
 ---
 
 # {{ $frontmatter.title }} 관련

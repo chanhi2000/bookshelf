@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/first-class-functions-and-closures-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/first-class-functions-and-closures-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-06-17
 isOriginal: false

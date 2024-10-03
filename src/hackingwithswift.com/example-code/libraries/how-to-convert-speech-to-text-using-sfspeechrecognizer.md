@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to convert speech to text using SFSpeechRecognizer"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/libraries/how-to-convert-speech-to-text-using-sfspeechrecognizer.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/libraries/how-to-convert-speech-to-text-using-sfspeechrecognizer.html
 date: 2019-03-28
 isOriginal: false
 ---

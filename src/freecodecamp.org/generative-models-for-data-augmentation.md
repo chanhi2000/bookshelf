@@ -19,7 +19,7 @@ head:
     - property: og:description`
       content: How Do Generative Models Work in Deep Learning? Generative Models For Data Augmentation Explained
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.how-to-build-an-interpretable-ai-deep-learning-model.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-an-interpretable-ai-deep-learning-model.html
 prev: /ai/articles/README.md
 date: 2024-07-26
 isOriginal: false

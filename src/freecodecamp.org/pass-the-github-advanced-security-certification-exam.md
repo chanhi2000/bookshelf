@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Pass the GitHub Advanced Security Certification Exam
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/pass-the-github-advanced-security-certification-exam.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-github-advanced-security-certification-exam.html
 prev: /devops/github/articles/README.md
 date: 2024-07-17
 isOriginal: false

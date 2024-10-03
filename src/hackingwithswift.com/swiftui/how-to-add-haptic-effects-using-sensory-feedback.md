@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to add haptic effects using sensory feedback
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-add-haptic-effects-using-sensory-feedback.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-add-haptic-effects-using-sensory-feedback.html
 next: /hackingwithswift.com/swiftui/how-to-add-a-gesture-recognizer-to-a-view.md
 ---
 

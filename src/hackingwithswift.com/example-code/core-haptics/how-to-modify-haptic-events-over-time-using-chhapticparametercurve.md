@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to modify haptic events over time using CHHapticParameterCurve"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/core-haptics/how-to-modify-haptic-events-over-time-using-chhapticparametercurve.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/core-haptics/how-to-modify-haptic-events-over-time-using-chhapticparametercurve.html
 date: 2019-10-08
 isOriginal: false
 ---

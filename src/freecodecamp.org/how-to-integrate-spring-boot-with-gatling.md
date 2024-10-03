@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: How to Perform Load Testing in Spring Boot with Gatling
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-integrate-spring-boot-with-gatling.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-spring-boot-with-gatling.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-07-08
 isOriginal: false

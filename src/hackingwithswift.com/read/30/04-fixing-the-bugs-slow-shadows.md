@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Fixing the bugs: slow shadows"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/30/04-fixing-the-bugs-slow-shadows.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/30/04-fixing-the-bugs-slow-shadows.html
 isOriginal: false
 ---
 

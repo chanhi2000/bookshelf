@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to join an array of strings in a natural way"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-join-an-array-of-strings-in-a-natural-way.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-join-an-array-of-strings-in-a-natural-way.html
 date: 2019-10-07
 isOriginal: false
 ---

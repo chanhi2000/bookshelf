@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Auto Layout anchors"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/06/05-auto-layout-anchors.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/06/05-auto-layout-anchors.html
 isOriginal: false
 ---
 

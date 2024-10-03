@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to change SKScene with a transition: presentScene()"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/games/how-to-change-skscene-with-a-transition-presentscene.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/games/how-to-change-skscene-with-a-transition-presentscene.html
 date: 2019-03-28
 isOriginal: false
 ---

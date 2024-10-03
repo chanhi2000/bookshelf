@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Implementing Soft Delete With EF Core
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/implementing-soft-delete-with-ef-core.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/implementing-soft-delete-with-ef-core.html
 prev: /programming/cs/articles/README.md
 date: 2024-03-16
 isOriginal: false
@@ -241,7 +241,7 @@ You can learn more about filtered indexes from the documentation:
   name="Create filtered indexes - SQL Server | Microsoft Learn"
   desc="A filtered index is an optimized disk-based rowstore nonclustered index especially suited to cover queries that select from a well-defined subset of data."
   url="https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-filtered-indexes?view=sql-server-ver16"
-  logo="/images/content/learn.microsoft.com/favicon.ico"
+  logo="/assets/image/learn.microsoft.com/favicon.ico"
   preview="/imagea/content/learn.microsoft.com/open-graph-image.png"/>
 
 <SiteInfo

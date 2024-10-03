@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Conditional conformances
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.1/conditional-conformance.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.1/conditional-conformance.html
 isOriginal: false
 ---
 

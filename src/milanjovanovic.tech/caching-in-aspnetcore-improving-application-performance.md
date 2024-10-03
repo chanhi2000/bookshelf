@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Caching in ASP.NET Core: Improving Application Performance"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/caching-in-aspnetcore-improving-application-performance.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/caching-in-aspnetcore-improving-application-performance.html
 prev: /programming/cs/articles/README.md
 date: 2024-06-08
 isOriginal: false

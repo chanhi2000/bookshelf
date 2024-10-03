@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Does Python's For-Else Loop Construct Work?"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/for-else-loop-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/for-else-loop-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-06-19
 isOriginal: false

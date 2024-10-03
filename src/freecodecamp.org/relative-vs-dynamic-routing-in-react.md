@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/relative-vs-dynamic-routing-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/relative-vs-dynamic-routing-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-08-12
 isOriginal: false

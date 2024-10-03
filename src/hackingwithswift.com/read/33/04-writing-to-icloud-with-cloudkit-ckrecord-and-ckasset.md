@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Writing to iCloud with CloudKit: CKRecord and CKAsset"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/33/04-writing-to-icloud-with-cloudkit-ckrecord-and-ckasset.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/33/04-writing-to-icloud-with-cloudkit-ckrecord-and-ckasset.html
 isOriginal: false
 ---
 

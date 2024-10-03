@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Renamed debug identifiers: line, function, file"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.2/renamed-identifiers.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.2/renamed-identifiers.html
 isOriginal: false
 ---
 

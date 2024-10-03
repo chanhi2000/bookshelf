@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to find an aspect fit image’s size inside an image view"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-find-an-aspect-fit-images-size-inside-an-image-view.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-find-an-aspect-fit-images-size-inside-an-image-view.html
 date: 2019-10-24
 isOriginal: false
 ---

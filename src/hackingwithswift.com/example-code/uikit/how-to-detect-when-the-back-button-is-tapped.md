@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to detect when the Back button is tapped"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-detect-when-the-back-button-is-tapped.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-detect-when-the-back-button-is-tapped.html
 date: 2019-03-28
 isOriginal: false
 ---

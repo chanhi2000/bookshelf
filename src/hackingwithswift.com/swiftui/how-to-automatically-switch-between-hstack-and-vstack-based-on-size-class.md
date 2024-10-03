@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to automatically switch between HStack and VStack based on size class
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-automatically-switch-between-hstack-and-vstack-based-on-size-class.html
 ---
 
 # {{ $frontmatter.title }} 관련

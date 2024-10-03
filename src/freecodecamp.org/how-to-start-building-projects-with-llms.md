@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Start Building Projects with LLMs"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-start-building-projects-with-llms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-start-building-projects-with-llms.html
 prev: /ai/llm/articles/README.md
 date: 2024-09-30
 isOriginal: false

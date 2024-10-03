@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What is a Component Library? When to Build Your Own and When to Use Someone Else's
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-a-component-library-when-to-build-your-own.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-component-library-when-to-build-your-own.html
 prev: /programming/js/articles/README.md
 date: 2024-08-13
 isOriginal: false

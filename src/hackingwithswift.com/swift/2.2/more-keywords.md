@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: More keywords can be used as argument labels
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/2.2/more-keywords.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/2.2/more-keywords.html
 isOriginal: false
 ---
 

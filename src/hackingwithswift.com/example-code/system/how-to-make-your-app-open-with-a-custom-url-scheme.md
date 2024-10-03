@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to make your app open with a custom URL scheme"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/how-to-make-your-app-open-with-a-custom-url-scheme.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-make-your-app-open-with-a-custom-url-scheme.html
 date: 2018-03-28
 isOriginal: false
 ---

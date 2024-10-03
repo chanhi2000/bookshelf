@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Dynamic member look up
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/4.2/dynamic-member-lookup.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/4.2/dynamic-member-lookup.html
 isOriginal: false
 ---
 

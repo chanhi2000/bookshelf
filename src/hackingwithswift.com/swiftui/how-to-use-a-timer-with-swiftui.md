@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to use a timer with SwiftUI
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-use-a-timer-with-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-use-a-timer-with-swiftui.html
 ---
 
 # {{ $frontmatter.title }} 관련

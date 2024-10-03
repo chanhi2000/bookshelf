@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What is Cache Poisoning? How Hackers Manipulate Web Caches and How to Avoid It"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-is-cache-poisoning-and-how-to-avoid-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-cache-poisoning-and-how-to-avoid-it.html
 prev: /devops/security/articles/README.md
 date: 2024-09-05
 isOriginal: false

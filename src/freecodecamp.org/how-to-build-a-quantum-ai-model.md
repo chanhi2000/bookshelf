@@ -21,7 +21,7 @@ head:
     - property: og:description`
       content: How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.how-to-build-a-quantum-ai-model.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-a-quantum-ai-model.html
 prev: /programming/py/articles/README.md
 date: 2024-07-23
 isOriginal: false

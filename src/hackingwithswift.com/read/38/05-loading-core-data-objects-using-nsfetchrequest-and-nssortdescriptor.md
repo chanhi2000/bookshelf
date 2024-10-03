@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Loading Core Data objects using NSFetchRequest and NSSortDescriptor"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/read/38/05-loading-core-data-objects-using-nsfetchrequest-and-nssortdescriptor.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/38/05-loading-core-data-objects-using-nsfetchrequest-and-nssortdescriptor.html
 isOriginal: false
 ---
 

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: ARKit - free Swift example code
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/arkit/
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/arkit/
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Make Your Flutter Package Privacy Manifest Compatible
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-to-make-your-flutter-package-privacy-manifest-compatible.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-your-flutter-package-privacy-manifest-compatible.html
 prev: /programming/dart/articles/README.md
 date: 2024-05-20
 isOriginal: false

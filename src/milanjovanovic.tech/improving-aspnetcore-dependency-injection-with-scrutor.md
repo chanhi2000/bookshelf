@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Improving ASP.NET Core Dependency Injection With Scrutor
     - property: og:url
-      content: https://chanhi2000.github.io/articles/milanjovanovic.tech/improving-aspnetcore-dependency-injection-with-scrutor.html
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/improving-aspnetcore-dependency-injection-with-scrutor.html
 prev: /programming/cs/articles/README.md
 date: 2023-10-14
 isOriginal: false

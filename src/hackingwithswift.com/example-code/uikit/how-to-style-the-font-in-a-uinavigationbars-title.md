@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to style the font in a UINavigationBar's title"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-style-the-font-in-a-uinavigationbars-title.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-style-the-font-in-a-uinavigationbars-title.html
 date: 2019-03-28
 isOriginal: false
 ---

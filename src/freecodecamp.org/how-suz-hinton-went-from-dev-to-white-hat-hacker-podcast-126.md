@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How Suz Hinton went from Dev to White Hat Hacker [Podcast #126]"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126.html
 prev: /devops/security/articles/README.md
 date: 2024-05-31
 isOriginal: false

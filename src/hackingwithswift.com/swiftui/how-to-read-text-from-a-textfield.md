@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to read text from a TextField
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-read-text-from-a-textfield.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-read-text-from-a-textfield.html
 ---
 
 # {{ $frontmatter.title }} 관련

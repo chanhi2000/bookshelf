@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to fix “Protocol 'View' can only be used as a generic constraint because it has Self or associated type requirements”
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-fix-protocol-view-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.html
 date: 2022-12-01
 isOriginal: false
 ---

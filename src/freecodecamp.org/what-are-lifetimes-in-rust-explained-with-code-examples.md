@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: What are Lifetimes in Rust? Explained with Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/articles/freecodecamp.org/what-are-lifetimes-in-rust-explained-with-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-lifetimes-in-rust-explained-with-code-examples.html
 prev: /programming/rust/articles/README.md
 date: 2024-09-06
 isOriginal: false

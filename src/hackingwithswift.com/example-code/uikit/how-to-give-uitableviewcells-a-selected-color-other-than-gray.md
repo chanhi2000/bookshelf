@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to give UITableViewCells a selected color other than gray"
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/example-code/uikit/how-to-give-uitableviewcells-a-selected-color-other-than-gray.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-give-uitableviewcells-a-selected-color-other-than-gray.html
 date: 2019-03-28
 isOriginal: false
 ---

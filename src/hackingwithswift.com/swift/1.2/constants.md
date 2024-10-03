@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Constants no longer require immediate initialization
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swift/1.2/constants.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/1.2/constants.html
 isOriginal: false
 ---
 

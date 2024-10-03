@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: How to adjust the size of a view relative to its container
     - property: og:url
-      content: https://chanhi2000.github.io/articles/hackingwithswift.com/swiftui/how-to-adjust-the-size-of-a-view-relative-to-its-container.html
+      content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swiftui/how-to-adjust-the-size-of-a-view-relative-to-its-container.html
 ---
 
 # {{ $frontmatter.title }} 관련
