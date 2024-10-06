@@ -60,13 +60,13 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-bas
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-based-development.png"/>
 
-The **Software Development Lifecycle** (**SDLC**) is different at every company.
+The **Software Development Lifecycle (SDLC)** is different at every company.
 
 The version control system used, peer review process, code review process, design review process, how you do CI, automated testing, and manual testing – all vary greatly depending on where you work.
 
 How a company plans, writes, builds, reviews, deploys, and releases software is optimized for their particular use-case, all with their own strengths and drawbacks in mind.
 
-I started reading about how different big tech companies run their **Software Development Lifecycles** (**SDLC**) and heard the term **Trunk-Based Development** a few times. This is a practice Google follows and I was curious about how it's different than the way most other companies develop software.
+I started reading about how different big tech companies run their **Software Development Lifecycles (SDLC)** and heard the term **Trunk-Based Development** a few times. This is a practice Google follows and I was curious about how it's different than the way most other companies develop software.
 
 ---
 
@@ -170,5 +170,3 @@ There is a whole site based on the theory and practice of TBD. Feel free to read
 I hope this has explained what **Trunk Based Development** is and why it's used. It certainly helps alleviate some of the issues around merging long-lived branches containing major rewrites.
 
 I share my writing on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`kealanparr`)](https://x.com/kealanparr)if you enjoyed this article and want to see more.
-
-

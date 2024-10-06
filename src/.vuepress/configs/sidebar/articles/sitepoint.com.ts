@@ -2,7 +2,7 @@ import { SidebarInfoTemplate } from ".";
 
 export const template: SidebarInfoTemplate = {
   name: 'sitepoint.com',
-  faviconPath: 'https://www.sitepoint.com/favicons/512x512.png',
+  faviconPath: 'https://sitepoint.com/favicons/512x512.png',
   linksMap: new Map([
     [
     "js", [

@@ -45,8 +45,6 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png"/>
 
-<!-- TODO: 작성 -->
-
 ## Chapter 6 - Diffs and Patches
 
 In Part 1 you learned how Git works under the hood, the different Git objects, and how to create a repo from scratch.
@@ -1027,6 +1025,8 @@ So, John checked out `main` branch and started writing the song:
 ```sh
 git checkout main
 ```
+
+<!-- TODO: 작성 -->
 
 <!-- 
 ![](https://freecodecamp.org/news/content/images/2023/12/a_day_in_the_life_md.png" alt="John's new song" width="669" height="540" loading="lazy">
