@@ -3,6 +3,9 @@ import { getDirname, path } from 'vuepress/utils'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { visualizer } from "rollup-plugin-visualizer"
 
+/* plugins V2 */
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+
 /* plugins 3rd-party */
 import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
 
@@ -83,6 +86,9 @@ export default defineUserConfig({
   }),
   theme,
   plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
     MdDefinePlugin(CONSTS),
   ],
   // Enable it with pwa

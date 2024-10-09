@@ -1,7 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const navbarEn = navbar([
-  {
+  { // News
+    text: '', 
+    icon: 'fas fa-rss',
+    link: '/news.md'
+  }, {
     text: '',
     icon: 'fas fa-keyboard',
     children: [

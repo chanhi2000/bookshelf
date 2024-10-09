@@ -15,6 +15,10 @@ projects:
   - icon: fas fa-school
     name: 🥁Crashcourse
     link: https://chanhi2000.github.io/crashcourse/
+  - icon: fas fa-rss
+    name: News
+    desc: My Daily News Collections
+    link: /news.md
   - icon: https://hackingwithswift.com/favicon.svg
     name: hackingwithswift.com
     desc: "Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials"
