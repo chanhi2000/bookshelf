@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728392145727/bb646db
 <SiteInfo
   name="How to Improve Your Hacking Skills by Playing OverTheWire Wargames"
   desc="Hacking is a skill that fascinates many people. You’ve seen hackers in movies. They type at keyboards, breaking into high-security systems in seconds. But real hacking isn’t quite like that. It takes patience, creativity, and most importantly, a lot ..."
-  url="https://freecodecamp.org/improve-hacking-skills-by-playing-wargames"
+  url="https://freecodecamp.org/news/improve-hacking-skills-by-playing-wargames"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1728392145727/bb646db1-f69a-4654-b01c-15fbe94a9c00.png"/>
 

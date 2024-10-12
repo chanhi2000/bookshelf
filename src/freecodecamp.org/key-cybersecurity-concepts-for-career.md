@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728332788775/d815c2f
 <SiteInfo
   name="Key Security Concepts to Learn for a Career in Cybersecurity"
   desc="This tutorial is designed to be your stepping stone into the fascinating world of cybersecurity. I’ll introduce you to key concepts and terminology you’ll need to know, giving you a solid foundation to build upon as you continue your learning journey..."
-  url="https://freecodecamp.org/key-cybersecurity-concepts-for-career"
+  url="https://freecodecamp.org/news/key-cybersecurity-concepts-for-career"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1728332788775/d815c2f6-dea0-4c9d-ad33-1715cb0778c5.jpeg"/>
 

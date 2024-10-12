@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Learn About Operating Systems In-Depth
 description: Article(s) > Learn About Operating Systems In-Depth
-icon: fas fa-square-root-variable
+icon: fas fa-computer
 category: 
   - Engineering
   - Computer 

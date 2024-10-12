@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719244279807/32ef1ce
 <SiteInfo
   name="Mastering VIM: Your Guide to Efficient Text Editing"
   desc="VIM is a highly configurable text editor that enables efficient text editing, and it's favored by many developers and system administrators for its powerful capabilities and extensive customization options. We just posted a course on the freeCodeCamp..."
-  url="https://freecodecamp.org/magazine/detail/mastering-vim-your-guide-to-efficient-text-editing/"
+  url="https://freecodecamp.org/news/mastering-vim-your-guide-to-efficient-text-editing/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1719244279807/32ef1ce5-423b-4762-b0fa-5f6420d67788.jpeg"/>
 

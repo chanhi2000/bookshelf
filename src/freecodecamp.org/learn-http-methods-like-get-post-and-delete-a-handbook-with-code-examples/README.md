@@ -55,13 +55,104 @@ Each method serves a specific purpose to keep web communication clear, secure, a
 
 In this article, we will break down the most common HTTPS methods and explain how they function to make online interactions work smoothly.
 
-1.  [GET Method](get-method)
-2.  [POST Method](post-method)
-3.  [PUT Method](put-method)
-4.  [PATCH Method](patch-method)
-5.  [DELETE Method](delete-method)
-6.  [HEAD Method](head-method)
-7.  [OPTIONS Method](options-method)
-8.  [TRACE Method](trace-method)
-9.  [CONNECT Method](connect-method)
-10.  [Conclusion](conclusion)
+```component VPCard
+{
+  "title": "GET Method",
+  "desc": "(1/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/get-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "POST Method",
+  "desc": "(2/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/post-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "PUT Method",
+  "desc": "(3/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/put-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "PATCH Method",
+  "desc": "(4/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/patch-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "DELETE Method",
+  "desc": "(5/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/delete-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "HEAD Method",
+  "desc": "(6/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/head-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "OPTIONS Method",
+  "desc": "(7/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/options-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "TRACE Method",
+  "desc": "(8/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/trace-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "CONNECT Method",
+  "desc": "(9/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/connect-method.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+---
+
+## Conclusion
+
+HTTP methods are essential in enabling communication between web applications and servers. Each method, from GET to CONNECT, is designed for a specific task, such as sending data, retrieving information, updating resources, or setting up secure connections. Choosing the correct method for the job improves the efficiency and security of your application.
+
+GET is ideal for retrieving data, POST and PUT help with creating and updating, PATCH handles partial updates, and DELETE removes resources. HEAD checks response headers without retrieving content, OPTIONS shows supported methods, and TRACE and CONNECT assist with debugging and secure communication.
+
+Using the appropriate HTTP methods ensures your application runs efficiently and securely, offering a smooth experience for users.
+
+If you have any questions or suggestions, feel free to reach out on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [<FontIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.

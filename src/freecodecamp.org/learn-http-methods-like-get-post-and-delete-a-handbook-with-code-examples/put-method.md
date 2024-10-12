@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
 title: "PUT Method"
-description: "Article(s) > (3/10) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+description: "Article(s) > (3/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
 category:
   - JavaScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/10) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+      content: "Article(s) > (3/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
     - property: og:description
       content: "PUT Method"
     - property: og:url

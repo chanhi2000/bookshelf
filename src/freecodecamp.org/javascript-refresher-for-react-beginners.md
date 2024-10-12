@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727978962525/ee0aad4
 <SiteInfo
   name="JavaScript Refresher for React Beginners – Key JS Concepts to Know"
   desc="The Back Story A few years ago, I was introduced to React and immediately fell in love with its component-based, state-driven approach to building web applications. But as I delved deeper into its ecosystem, I encountered not just React, but a range ..."
-  url="https://freecodecamp.org/javascript-refresher-for-react-beginners"
+  url="https://freecodecamp.org/news/javascript-refresher-for-react-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727978962525/ee0aad46-7497-4c91-9354-dd8b0f9b4ea6.jpeg"/>
 

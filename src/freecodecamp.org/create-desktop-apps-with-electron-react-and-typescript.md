@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728330045533/e9a3a01
 <SiteInfo
   name="Create Desktop Apps with Electron, React, and TypeScript"
   desc="Desktop applications remain important for many types of software projects, providing rich, native user experiences. If you're interested in building desktop applications but want to leverage your web development skills, Electron is an excellent solut..."
-  url="https://freecodecamp.org/create-desktop-apps-with-electron-react-and-typescript"
+  url="https://freecodecamp.org/news/create-desktop-apps-with-electron-react-and-typescript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1728330045533/e9a3a017-8a2c-4151-b249-4395bf7e20ea.jpeg"/>
 

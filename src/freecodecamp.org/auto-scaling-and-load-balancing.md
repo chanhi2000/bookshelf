@@ -156,6 +156,16 @@ Auto scaling allows you to do this using scheduled or dynamic scaling policies. 
 
 Load balancers accept connections from clients and distribute the requests across target instances. The distribution of requests is usually done on layer 7 (application layer) or layer 4 (transport layer). These layers are a theoretical model that organises computer networking into 7 layers and is [know as the OSI model](/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.md).
 
+```component VPCard
+{
+  "title": "The OSI Model – The 7 Layers of Networking Explained in Plain English",
+  "desc": "By Chloe Tucker This article explains the Open Systems Interconnection (OSI) model and the 7 layers of networking, in plain English. The OSI model is a conceptual framework that is used to describe how a network functions. In plain English, the OSI m...",
+  "link": "/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
 I won't go into too much detail on the OSI model here, but for now, what is important to know is that most load balancers can work on the application layer or transport layer. This means that they work with layer 7 protocols like HTTP(S) or layer 4 protocols like TCP, UDP, SMTP, SSH.
 
 The example in this section will only cover the more popular layer 7 application load balancers that work with HTTP/HTTPS.

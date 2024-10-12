@@ -83,11 +83,11 @@ export default hopeTheme({
       }*/
      ]
     },
+    photoSwipe: {
+      download: false,
+    },
     prismjs: {
-      themes: {
-        light: "material-light",
-        dark: "dracula",
-      }
+      theme: "dracula",
     },
     // markdownHint: {
     //   alert: true,

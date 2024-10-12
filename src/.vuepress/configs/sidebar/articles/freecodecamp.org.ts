@@ -120,8 +120,23 @@ const LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES:
     'options-method',
     'trace-method',
     'connect-method',
-    'conclusion',
   ]
+}
+
+const REACT_INTERVIEW_PREP_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-10-11
+  text: 'The React Interview Prep Handbook – Essential Topics and Code Examples',
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'react-interview-prep-handbook',
+  children: [
+    'README',
+    'javascript-fundamentals',
+    'react-essentials',
+    'react-hooks',
+    'additional-concepts',
+    'react-redux',
+    'additional-notes',
+  ] 
 }
 
 export const template: SidebarInfoTemplate = {
@@ -159,6 +174,11 @@ export const template: SidebarInfoTemplate = {
       "migrate-from-play-core-library", // 2024-06-26
     ]],[
     "js", [
+      "reduce-f47a7da511a9", // 2017-02-11
+      "javascript-optional-chaining-explained", // 2020-08-26
+      "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
+      "how-to-make-api-calls-with-fetch", // 2021-06-03
+      "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       "loop-through-arrays-javascript", // 2023-10-31
       "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
       "higher-order-functions-explained", // 2024-05-02
@@ -224,9 +244,17 @@ export const template: SidebarInfoTemplate = {
       "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
     ]],[
     "js-react", [
+      "learn-react-course", // 2018-12-19
+      "jsx-in-react-introduction", // 2021-02-02
+      "react-router-cheatsheet", // 2021-04-19
+      "react-context-for-beginners", // 2021-07-22
+      "free-react-course-2022", // 2022-01-11
+      "how-to-write-unit-tests-in-react", // 2023-01-24
+      "usereducer-hook-react", // 2023-01-31
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
       "how-to-use-react-server-components", // 2024-01-08
+      "master-react-by-building-25-projects", // 2024-02-07
       "throttling-in-javascript", // 2024-05-01
       "how-to-build-a-realtime-chart-with-react-and-pusher", // 2024-05-02
       "react-usereducer-hook", // 2024-05-03
@@ -277,10 +305,13 @@ export const template: SidebarInfoTemplate = {
       "react-best-practices-ever-developer-should-know", // 2024-10-03
       "create-desktop-apps-with-electron-react-and-typescript", // 2024-10-08
       "javascript-refresher-for-react-beginners", // 2024-10-09
+      "build-a-documentation-site-using-react-and-docusaraus", // 2024-10-10
+      // END: js-react
     ]],[
     "js-vue", [
       "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
       "how-event-handling-works-in-vue-3-guide-for-devs", // 2024-09-11
+      // END: js-vue
     ]],[
     "js-next", [
       "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
@@ -298,6 +329,7 @@ export const template: SidebarInfoTemplate = {
       "how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs", // 2024-10-03
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
+      // END: js-next
     ]],[
     "js-nest", [
       "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
@@ -308,6 +340,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
     ]],[
     "js-supabase", [
+      "set-up-authentication-in-apps-with-supabase", // 2024-01-29
       "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
       "authenticate-react-app-using-firebase", // 2024-10-02
     ]],[
@@ -331,6 +364,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
       "build-a-counter-button-with-react", // 2024-07-10
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
+      "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
     ]],[
     "npm", [
       "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
@@ -377,6 +411,8 @@ export const template: SidebarInfoTemplate = {
       "improve-your-data-science-skills-by-solving-kaggle-challenges", // 2024-09-30
       WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK, // 2024-10-02
       "getting-started-with-matplotlib", // 2024-10-08
+      "python-zip-function-explained-with-examples", // 2024-10-10
+      // END: py
     ]],[
     "py-django", [
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
@@ -456,6 +492,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
     ]],[
     "php", [
+      "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
       "php-jwt-authentication-implementation", // 2024-04-24
       "php-array-handbook", // 2024-05-08
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
@@ -471,6 +508,7 @@ export const template: SidebarInfoTemplate = {
       "what-is-trunk-based-development", // 2024-06-18
       "host-your-first-project-on-github", // 2024-08-08
       "git-cheat-sheet-helpful-git-commands-with-examples", // 2024-08-20
+      "how-to-use-git-stash-to-manage-code", // 2024-10-11
     ]],[
     "gd", [
       "learn-to-create-a-3d-rpg-game-with-godot", // 2024-06-20
@@ -540,6 +578,8 @@ export const template: SidebarInfoTemplate = {
       "simplify-aws-multi-account-management", // 2024-08-13
       "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
       "ecs-monitoring-explained-with-examples", // 2024-09-23
+      "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
+      // END: aws
     ]],[
     "azure", [
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -606,6 +646,7 @@ export const template: SidebarInfoTemplate = {
     "sqlite", [
       "how-to-work-with-sql-databases-in-go", // 2024-09-24
       WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK, // 2024-10-02
+      "learn-databases-in-depth" // 2024-10-10
     ]],[
     "graphql", [
       "integrate-wordpress-with-nextjs", // 2024-10-02
@@ -633,6 +674,7 @@ export const template: SidebarInfoTemplate = {
       "master-video-editing-with-davinci-resolve", // 2024-08-20
     ]],[
     "system-design", [
+      "develop-a-reusable-ecommerce-platform", // 2020-12-31
       "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
       "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
       "auto-scaling-and-load-balancing", // 2024-06-17
@@ -644,6 +686,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-software-architecture-diagrams-using-the-c4-mode", // 2024-08-21
       "design-first-vs-logic-first-approach", // 2024-08-29
       "how-to-design-and-develop-web-apis-essential-guidelines.md", // 2024-10-07
+      "essential-secure-design-principles-for-developers", // 2024-10-10
     ]],[
     "pm", [
       "what-is-trunk-based-development", // 2024-06-18
@@ -663,6 +706,8 @@ export const template: SidebarInfoTemplate = {
       "ai-chatbot-with-spring-react-docker", // 2024-09-23
       "tools-for-code-reuse", // 2024-09-25
       "end-to-end-machine-learning-course-project", // 2024-09-26
+      "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
+      // END: ai
     ]],[
     "llm", [
       "automated-unit-testing-with-testgen-llm-and-cover-agent", // 2024-06-02
@@ -672,6 +717,8 @@ export const template: SidebarInfoTemplate = {
       "a-beginners-guide-to-large-language-models", // 2024-08-15
       HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK, // 2024-09-10
       "how-to-start-building-projects-with-llms", // 2024-09-30
+      "large-language-models-for-developers-and-businesses", // 2024-10-11
+      // END: llm
     ]],[
     "openai", [
       "how-to-use-gpt-to-analyze-large-datasets", // 2024-08-28
@@ -696,7 +743,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
     ]],[
     "coen", [
+      "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
+      "the-most-popular-coding-challenge-websites", // 2022-06-16
       "learn-about-operating-systems-in-depth", // 2024-08-06
+      // END: coen
     ]],[
     "career", [
       "skills-you-need-to-become-a-backend-developer-roadmap", // 2024-09-03
@@ -707,10 +757,31 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
     ]],[
     "all", [
+      "reduce-f47a7da511a9", // 2017-02-11
+      "learn-react-course", // 2018-12-19
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
+      "javascript-optional-chaining-explained", // 2020-08-26
+      "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
+      "develop-a-reusable-ecommerce-platform", // 2020-12-31
+      // START: 2021
+      "jsx-in-react-introduction", // 2021-02-02
+      "react-router-cheatsheet", // 2021-04-19
+      "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
+      "how-to-make-api-calls-with-fetch", // 2021-06-03
+      "react-context-for-beginners", // 2021-07-22
+      "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
+      // END: 2021
+      // START: 2022
+      "free-react-course-2022", // 2022-01-11
+      "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
+      "the-most-popular-coding-challenge-websites", // 2022-06-16
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
+      // END: 2022
+      // START: 2023
       "perfect-html-input", // 2023-01-05
       GITTING_THINGS_DONE_BOOK,  // 2023-01-08
+      "usereducer-hook-react", // 2023-01-31
+      "how-to-write-unit-tests-in-react", // 2023-01-24
       "how-to-parse-a-string-in-python", // 2023-05-04
       "postgresql-indexing-strategies", // 2023-05-12
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
@@ -719,6 +790,8 @@ export const template: SidebarInfoTemplate = {
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
       "how-to-use-react-server-components", // 2024-01-08
+      "set-up-authentication-in-apps-with-supabase", // 2024-01-29
+      "master-react-by-building-25-projects", // 2024-02-07
       "what-is-dead-zone-in-javascript", // 2024-03-28
       "how-to-add-media-to-your-html-email-template", // 2024-04-23
       "how-to-use-oop-in-python", // 2024-04-24
@@ -1035,6 +1108,15 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
       "javascript-refresher-for-react-beginners", // 2024-10-09
       "key-cybersecurity-concepts-for-career", // 2024-10-09
+      "build-a-documentation-site-using-react-and-docusaraus", // 2024-10-10
+      "essential-secure-design-principles-for-developers", // 2024-10-10
+      "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
+      "learn-databases-in-depth", // 2024-10-10
+      "python-zip-function-explained-with-examples", // 2024-10-10
+      "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
+      REACT_INTERVIEW_PREP_HANDBOOK, // 2024-10-11
+      "how-to-use-git-stash-to-manage-code", // 2024-10-11
+      "large-language-models-for-developers-and-businesses", // 2024-10-12
     ]],
   ]),
 }

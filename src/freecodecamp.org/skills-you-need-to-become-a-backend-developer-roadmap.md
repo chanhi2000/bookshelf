@@ -177,7 +177,7 @@ When choosing a web server, it depends on what kind of website or app you’re b
 
 Next on your journey is to become familiar with version control systems. These systems help track project history and enable collaborative work with others.
 
-- 🔌 [Learn Git](/freecodecamp.org/gitting-things-done-book.md): Git is the most widely used version control system, employed by over 70% of software development teams. It's a must-know tool, and allocating around two weeks for learning Git is advisable.
+- 🔌 [Learn Git](/freecodecamp.org/gitting-things-done-book/README.md): Git is the most widely used version control system, employed by over 70% of software development teams. It's a must-know tool, and allocating around two weeks for learning Git is advisable.
 
 Back-end developers usually utilize these tools and software to build robust, scalable, and secure web applications that handle data storage, server hosting, and encryption of online communications.
 
@@ -212,9 +212,8 @@ If you're curious about becoming a front-end developer as well, you can read thi
 
 If you ever wonder about [<FontIcon icon="fa-brands fa-dev"/>the future of frontend development](https://dev.to/codewithshahan/the-future-of-frontend-development-1amd), you can also take a look at this article.
 
-Stay tuned for more valuable content, and if you find it helpful, you may also like my [<FontIcon icon="fa-brands fa-youtube"/>YouTube Channel](https://youtube.com/programmingwithshahan).
+Stay tuned for more valuable content, and if you find it helpful, you may also like my [YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`programmingwithshahan`)](https://youtube.com/programmingwithshahan).
 
-[<FontIcon icon="fa-brands fa-x-twitter"/>🤳My Social: X](https://x.com/shahancd)
+[🤳My Social: X (<FontIcon icon="fa-brands fa-x-twitter"/>`shahancd`)](https://x.com/shahancd)
 
 Thanks for taking the time to read this article.
-

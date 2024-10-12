@@ -116,46 +116,92 @@ Here, we'll use the Materio Vue.js admin free template*.* First, go to the [GitH
 To clone it, simply open your terminal. Navigate to the directory where you would like to clone the project and run the following command:
 
 ```sh
-git clone <https://github.com/themeselection/materio-vuetify-vuejs-admin-template-free.git>
+git clone https://github.com/themeselection/materio-vuetify-vuejs-admin-template-free.git
 ```
 
 Open the project in your favorite IDE and run the command below in the terminal to install all the dependencies. 
 
 We'll use the [<FontIcon icon="fa-brands fa-npm"/>`pnpm`](https://pnpm.io/) package manager as recommended by the dashboard we're using. However, you are free to use your preferred package manager like npm or yarn.
 
+::: code-tabs#sh
+
+@tab:active pnpm
+
 ```sh
 pnpm install
-# npm install
-# yarn
 ```
+
+@tab npm
+
+```sh
+npm install
+```
+
+@tab yarn
+
+```sh
+yarn
+```
+
+:::
 
 Next, install MSW in your project directory:
 
+::: code-tabs#sh
+
+@tab:active pnpm
+
 ```sh
 pnpm add -D msw@latest
-# npm install msw@latest --save-dev
-# yarn install -D msw@latest
 ```
+
+@tab npm
+
+```sh
+npm install msw@latest --save-dev
+```
+
+@tab yarn
+
+```sh
+yarn install -D msw@latest
+```
+
+:::
 
 Run the theme using the following command:
 
+::: code-tabs#sh
+
+@tab:active pnpm
+
 ```sh
 pnpm run dev
-# npm run dev
-# yarn run dev
 ```
 
-Next, initialize MSW using the command below. Running this command will create a **mockServiceWorker.js** file in a public directory.
+@tab npm
+
+```sh
+npm run dev
+```
+
+@tab yarn
+
+```sh
+yarn run dev
+```
+
+:::
+
+Next, initialize MSW using the command below. Running this command will create a <FontIcon icon="fa-brands fa-js"/>`mockServiceWorker.js` file in a public directory.
 
 ```sh
 npx msw init public
 ```
 
-To manage all API endpoints and fake data, create a new folder called **fake-server** inside the **plugins** directory. We’ll set up our mock server in this **fake-server** directory. Create an **index.ts** file and paste the below code to register `MSW`.
+To manage all API endpoints and fake data, create a new folder called <FontIcon icon="fas fa-folder-open"/>`fake-server` inside the <FontIcon icon="fas fa-folder-open"/>`plugins` directory. We’ll set up our mock server in this <FontIcon icon="fas fa-folder-open"/>`fake-server` directory. Create an <FontIcon icon="iconfont icon-typescript"/>`index.ts` file and paste the below code to register `MSW`.
 
-```tsx
-// file: src/plugins/fake-server/index.ts
-
+```tsx title="src/plugins/fake-server/index.ts"
 import { setupWorker } from 'msw/browser'
 
 const worker = setupWorker()
@@ -178,22 +224,20 @@ Congratulations, you have now successfully set up `MSW` in the project. Now, we 
 
 ## How to Build an E-commerce App Using Vue 3
 
-In the **fake-server** directory, create a **handlers** directory for maintaining handlers. Inside the **handlers** directory, create an **ecommerce** directory for the e-commerce app’s handlers. Then, create a **db.ts** file inside **ecommerce** to store the fake data.
+In the <FontIcon icon="fas fa-folder-open"/>`fake-server` directory, create a <FontIcon icon="fas fa-folder-open"/>`handlers` directory for maintaining handlers. Inside the <FontIcon icon="fas fa-folder-open"/>`handlers` directory, create an <FontIcon icon="fas fa-folder-open"/>`ecommerce` directory for the e-commerce app’s handlers. Then, create a <FontIcon icon="iconfont icon-typescript"/>`db.ts` file inside <FontIcon icon="fas fa-folder-open"/>`ecommerce` to store the fake data.
 
 Your folder structure should look like this:
 
-```
+```sh title="folder structure"
 └── fake-server/
     └── handlers/
         └── ecommerce/
             └── db.ts
 ```
 
-I have generated some fake data for displaying products. Let’s place this fake data in **db.ts**:
+I have generated some fake data for displaying products. Let’s place this fake data in <FontIcon icon="iconfont icon-typescript"/>`db.ts`:
 
-```tsx
-// file: src/plugins/fake-server/handlers/ecommerce/db.ts
-
+```tsx title="src/plugins/fake-server/handlers/ecommerce/db.ts"
 import product5 from '@images/eCommerce/1.png'
 import product3 from '@images/eCommerce/11.png'
 import product6 from '@images/eCommerce/18.png'
@@ -261,11 +305,9 @@ export const db = {
 }
 ```
 
-As discussed in this app structure, we need to define two endpoints. Create an **index.ts** file in your e-commerce handler and define your endpoints in it:
+As discussed in this app structure, we need to define two endpoints. Create an <FontIcon icon="iconfont icon-typescript"/>`index.ts` file in your e-commerce handler and define your endpoints in it:
 
-```tsx
-// file: src/plugins/fake-server/handlers/ecommerce/index.ts
-
+```tsx title="src/plugins/fake-server/handlers/ecommerce/index.ts"
 import { HttpResponse, http } from 'msw'
 import { db } from './db'
 
@@ -289,11 +331,9 @@ export const handlerEcommerce = [
 ]
 ```
 
-Register the handler in the **index.ts** file in the **fake-server** direrctory. The updated **index.ts** file should look like this:
+Register the handler in the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file in the <FontIcon icon="fas fa-folder-open"/>`fake-server` direrctory. The updated <FontIcon icon="iconfont icon-typescript"/>`index.ts` file should look like this:
 
-```tsx
-// file: src/plugins/fake-server/index.ts
-
+```ts title="src/plugins/fake-server/index.ts"
 import { setupWorker } from 'msw/browser'
 
 import { handlerEcommerce } from './handlers/ecommerce'
@@ -314,27 +354,27 @@ export default function () {
 
 The setup of the mock server has been completed. Whenever you make an API call to your endpoint, MSW will intercept the HTTP request using the service worker and will provide a predefined response from the handlers.
 
-Congratulations, you have successfully set up the mock server👍.🏻
+Congratulations, you have successfully set up the mock server👍.
 
 ---
 
 ## How to Build the User Interface
 
-Let's move on to the UI part of the e-commerce app. Create an **apps** directory in the **pages** directory. Inside **apps**, create a new directory called **ecommerce**. We'll place the e-commerce app in this directory.
+Let's move on to the UI part of the e-commerce app. Create an <FontIcon icon="fas fa-folder-open"/>`apps` directory in the <FontIcon icon="fas fa-folder-open"/>`pages` directory. Inside <FontIcon icon="fas fa-folder-open"/>`apps`, create a new directory called <FontIcon icon="fas fa-folder-open"/>`ecommerce`. We'll place the e-commerce app in this directory.
 
 The folder structure should look like this:
 
-```tsx
+```sh title="folder structure"
 .
 └── pages/
     └── apps/
         └── ecommerce
 ```
 
-The first page is a product listing page. Create a new directory of **products** inside **ecommerce**. Create an **index.vue** file in the **products** directory and paste the following code snippet:
+The first page is a product listing page. Create a new directory of <FontIcon icon="fas fa-folder-open"/>`products` inside <FontIcon icon="fas fa-folder-open"/>`ecommerce`. Create an <FontIcon icon="fa-brands fa-vuejs"/>`index.vue` file in the <FontIcon icon="fas fa-folder-open"/>`products` directory and paste the following code snippet:
 
-```tsx
-// file: src/pages/apps/ecommerce/products/index.vue
+```tsx title="src/pages/apps/ecommerce/products/index.vue"
+// file: 
 
 <script setup lang="ts"><span class="token plain-text">
 const router = useRouter()
@@ -381,15 +421,13 @@ const { data: products } = await useFetch('/api/ecommerce/products').json()
 </template>
 ```
 
-In this product listing page, we made an API call to the `'/api/ecommerce/products'` endpoint. This endpoint returns the array of all products. We'll use this data to display products on the page.
+In this product listing page, we made an API call to the `/api/ecommerce/products` endpoint. This endpoint returns the array of all products. We'll use this data to display products on the page.
 
-The second page in this app is the product display page. On this page, we'll display all the details of the product. To do so, create a new file **[id].vue** inside the **products** directory. Below is the code for the product details page.
+The second page in this app is the product display page. On this page, we'll display all the details of the product. To do so, create a new file <FontIcon icon="fa-brands fa-vuejs"/>`[id].vue` inside the <FontIcon icon="fas fa-folder-open"/>`products` directory. Below is the code for the product details page.
 
 Note that I have used Lorem ipsum to keep it generic. You can replace it with your desired description. 
 
-```tsx
-// file: src/pages/apps/ecommerce/products/[id].vue
-
+```tsx title="src/pages/apps/ecommerce/products/[id].vue"
 <script setup lang="ts"><span class="token plain-text">
 const route = useRoute()
 const router = useRouter()
@@ -504,10 +542,9 @@ const quantity = ref(0)
 
 On this page, we made an API request to our second API endpoint: `/api/ecommerce/products/:id`. This endpoint returns product details related to a given product ID. We will use this data on our page to display product details.
 
-Let’s add routes for the e-commerce app. All the routes are located in the **src/plugins/router/routes.ts** file. In the file, add the e-commerce app’s routes.
+Let’s add routes for the e-commerce app. All the routes are located in the <FontIcon icon="fas fa-folder-open"/>`src/plugins/router/`<FontIcon icon="iconfont icon-typescript"/>`routes.ts` file. In the file, add the e-commerce app’s routes.
 
-```tsx
-// file: src/plugins/router/routes.ts
+```tsx title="src/plugins/router/routes.ts"
 {
   path: '/apps/ecommerce/products',
   component: () => import('@/pages/apps/ecommerce/products/index.vue'),
@@ -570,6 +607,22 @@ I have prepared this article with help of [Jayendrasinh Solanki (<FontIcon icon=
 
 ### Some helpful guides for e-commerce product development:
 
-- [How to Develop a Reusable eCommerce Platform (freecodecamp.org)](/freecodecamp.org/develop-a-reusable-ecommerce-platform.md).
-- [How to Create an eCommerce Website Using WooCommerce (freecodecamp.org)](/freecodecamp.org/how-to-create-an-ecommere-website-using-woocomerce.md).
+```component VPCard
+{
+  "title": "How to Develop a Reusable eCommerce Platform",
+  "desc": "By Ramón Morcillo This is a story about my team’s hard work developing not a single eCommerce platform, but a reusable one for different owners. We kept the same codebase, look, and feel, and made it highly customizable.  I will conclude with what we...",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/develop-a-reusable-ecommerce-platform.html",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
 
+```component VPCard
+{
+  "title": "How to Create an eCommerce Website Using WooCommerce",
+  "desc": "Creating your own eCommerce website is easier than you may think. You don't even need to know how to code. I just created and published a course on the freeCodeCamp.org YouTube channel that will teach you how to build an online store with WooCommerce...",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ecommere-website-using-woocomerce.html",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
