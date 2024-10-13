@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Unit 2: Continuous Integration with GitLab CI"
 description: (2/5) DevOps with GitLab CI Course
 category: 

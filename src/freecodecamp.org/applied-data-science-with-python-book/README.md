@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 description: "Article(s) > Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 icon: fa-brands fa-python

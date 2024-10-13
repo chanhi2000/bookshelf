@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: The Emergence of AI Agents in Language Models
 description: Article(s) > (1/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

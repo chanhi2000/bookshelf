@@ -54,7 +54,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/pop
 <SiteInfo
   name="Popovers Work Pretty Nicely as Slide-Out Drawers"
   desc="Especially on mobile, the slide-out drawer UI/UX seems like a perfect fit for a popover, and works fine on desktop too."
-  url="https://frontendmasters.com/news/popovers-work-pretty-nicely-as-slide-out-drawers/"
+  url="https://frontendmasters.com/blog/popovers-work-pretty-nicely-as-slide-out-drawers/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/popup-thumb.jpg?w=1000&ssl=1"/>
 

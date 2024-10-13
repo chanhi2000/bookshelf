@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create a Masonry Layout Using HTML and CSS
 description: Article(s) > How to Create a Masonry Layout Using HTML and CSS
 icon: fa-brands fa-css3-alt

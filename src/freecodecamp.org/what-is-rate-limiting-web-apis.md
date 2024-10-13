@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What is Rate Limiting? Exploring the Role of Rate Limiting in Protecting Web APIs from Attacks"
 description: "Article(s) > What is Rate Limiting? Exploring the Role of Rate Limiting in Protecting Web APIs from Attacks"
 icon: fas fa-shield-halved

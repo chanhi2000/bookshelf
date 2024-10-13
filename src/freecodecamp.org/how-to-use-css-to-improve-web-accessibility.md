@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use CSS to Improve Web Accessibility
 description: Article(s) > How to Use CSS to Improve Web Accessibility
 icon: fa-brands fa-css3-alt

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Do Closures Work in JavaScript? Explained with Code Examples
 description: Article(s) > How Do Closures Work in JavaScript? Explained with Code Examples
 icon: fa-brands fa-js

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What's New in React 19
 description: Article(s) > What's New in React 19
 icon: fa-brands fa-react

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "JavaScript Timer – How to Set a Timer Function in JS"
 description: "Article(s) > JavaScript Timer – How to Set a Timer Function in JS"
 icon: fa-brands fa-js

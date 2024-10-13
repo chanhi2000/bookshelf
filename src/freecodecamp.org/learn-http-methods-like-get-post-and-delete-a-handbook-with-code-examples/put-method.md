@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "PUT Method"
 description: "Article(s) > (3/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
 category:

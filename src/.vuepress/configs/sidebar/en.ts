@@ -49,5 +49,6 @@ export const sidebarEn = sidebar({
   '/zuminternet.github.io/':      [asb.zuminternet()],
   '/blog.imqa.io/':               [asb.imqa()],
   '/engineering.ab180.co/':       [asb.ab180()],
+  '/codingeverybody.kr/':         [asb.codingEverybody()],
   '/tistory.com/rutgo-letsgo/':   [asb.rutgoLetsgo()],
 })

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Pass the Azure AI Engineer Associate Certification (AI-102)
 description: Article(s) > Pass the Azure AI Engineer Associate Certification (AI-102)
 icon: iconfont icon-microsoftazure

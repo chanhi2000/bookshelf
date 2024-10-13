@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Notice Blocks in Markdown
 description: Article(s) > How to Create Notice Blocks in Markdown
 icon: iconfont icon-github

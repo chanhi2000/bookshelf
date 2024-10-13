@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How To Use LINQ in C# – With Code Examples
 description: Article(s) > How To Use LINQ in C# – With Code Examples
 icon: iconfont icon-csharp

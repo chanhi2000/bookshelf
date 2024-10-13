@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/unn
 <SiteInfo
   name="Figma Typography Variables"
   desc="Figma has support for variables, and they work with the various typography features you may want to set. For instance, you could create a variable called "
-  url="https://frontendmasters.com/news/figma-typography-variables/"
+  url="https://frontendmasters.com/blog/figma-typography-variables/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/unnamed.png?resize=1024%2C611&ssl=1"/>
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use WeakMap and WeakSet in JavaScript
 description: Article(s) > How to Use WeakMap and WeakSet in JavaScript
 icon: fa-brands fa-js

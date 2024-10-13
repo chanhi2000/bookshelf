@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Match Parentheses in JavaScript without Using Regex
 description: Article(s) > How to Match Parentheses in JavaScript without Using Regex
 icon: fa-brands fa-js

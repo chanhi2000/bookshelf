@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ima
 <SiteInfo
   name="(Danger!) Preventing Zoom from Changing Text Size"
   desc="Zooming in browsers is an accessibility feature. I’d say that any attempt to fight against it is bad form. Don’t do it. Leave it be. I have seen compelling examples of ways to code that work with browser zoom that help make a site look nicer when high levels of zoom are applied. But they […]"
-  url="https://frontendmasters.com/news/danger-preventing-zoom-from-changing-text-size/"
+  url="https://frontendmasters.com/blog/danger-preventing-zoom-from-changing-text-size/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/image-4.png?resize=1024%2C585&ssl=1"/>
 

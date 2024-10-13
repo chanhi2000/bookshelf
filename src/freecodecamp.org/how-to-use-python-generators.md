@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Python Generators – Explained With Code Examples
 description: Article(s) > How to Use Python Generators – Explained With Code Examples
 icon: fa-brands fa-python

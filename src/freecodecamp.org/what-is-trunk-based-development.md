@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle
 description: Article(s) > What is Trunk Based Development? A Different Approach to the Software Development Lifecycle
 icon: iconfont icon-git

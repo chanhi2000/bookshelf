@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build Good Coding Habits as a New Python Developer"
 description: "Article(s) > How to Build Good Coding Habits as a New Python Developer"
 icon: fa-brands fa-python

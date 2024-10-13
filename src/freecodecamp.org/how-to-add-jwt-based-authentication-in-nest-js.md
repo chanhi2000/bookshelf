@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Add JWT-Based Authentication in NestJS
 description: Article(s) > How to Add JWT-Based Authentication in NestJS
 icon: fa-brands fa-js

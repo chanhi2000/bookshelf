@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Use Transactions"
 description: Article(s) > (7/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

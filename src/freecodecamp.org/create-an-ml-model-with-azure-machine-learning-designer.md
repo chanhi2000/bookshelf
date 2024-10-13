@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create a ML Model with Azure Machine Learning Designer
 description: Article(s) > How to Create a ML Model with Azure Machine Learning Designer
 icon: iconfont icon-microsoftazure

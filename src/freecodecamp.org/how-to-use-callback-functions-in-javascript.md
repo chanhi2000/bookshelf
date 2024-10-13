@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Callback Functions in JavaScript
 description: Article(s) > How to Use Callback Functions in JavaScript
 icon: fa-brands fa-js

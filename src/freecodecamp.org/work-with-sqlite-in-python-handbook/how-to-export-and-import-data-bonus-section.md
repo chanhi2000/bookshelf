@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Export and Import Data [Bonus Section]"
 description: Article(s) > (10/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

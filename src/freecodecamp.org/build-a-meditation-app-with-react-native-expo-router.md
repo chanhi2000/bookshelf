@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Build a Meditation App with React Native & Expo Router
 description: Article(s) > Build a Meditation App with React Native & Expo Router
 icon: fa-brands fa-react

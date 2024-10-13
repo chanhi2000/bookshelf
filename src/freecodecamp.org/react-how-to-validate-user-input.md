@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Validate Forms in React and React Native Using Yup and Formik
 description: Article(s) > How to Validate Forms in React and React Native Using Yup and Formik
 icon: fa-brands fa-react

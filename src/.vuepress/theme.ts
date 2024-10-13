@@ -46,7 +46,7 @@ export default hopeTheme({
     blog: true,
     components: {
       components: [
-        "FontIcon", "Badge", "Share", "PDF", "SiteInfo", "VidStack", "VPCard", "VPBanner"
+        "CodePen", "FontIcon", "Badge", "Share", "PDF", "SiteInfo", "VidStack", "VPCard", "VPBanner"
       ],
       componentOptions: {
         fontIcon: {

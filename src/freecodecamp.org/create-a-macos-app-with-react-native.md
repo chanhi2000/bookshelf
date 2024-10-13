@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Create a MacOS App with React Native
 description: Article(s) > Create a MacOS App with React Native
 icon: fa-brands fa-react

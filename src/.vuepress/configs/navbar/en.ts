@@ -129,6 +129,10 @@ export const navbarEn = navbar([
         text: 'blog.gangnamunni.com',
         icon: 'https://blog.gangnamunni.com/favicon.ico',
         link: '/blog.gangnamunni.com/README.md'
+      }, {
+        text: 'codingeverybody.kr',
+        icon: 'https://codingeverybody.kr/wp-content/uploads/cropped-favicon-origin-192x192.png',
+        link: '/codingeverybody.kr/README.md'
       }, 
     ]
   }, {

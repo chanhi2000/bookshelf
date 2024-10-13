@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Introduction
 description: Article(s) > (1/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book] 
 category: 

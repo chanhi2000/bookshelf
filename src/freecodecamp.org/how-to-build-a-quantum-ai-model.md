@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
 description: Article(s) > How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
 icon: fa-brands fa-python

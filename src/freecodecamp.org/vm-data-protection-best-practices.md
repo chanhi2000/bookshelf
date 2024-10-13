@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "VM Data Protection Best Practices: How to Mitigate Risk in a Virtual Environment"
 description: "Article(s) > VM Data Protection Best Practices: How to Mitigate Risk in a Virtual Environment"
 icon: fas fa-shield-halved

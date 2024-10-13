@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Auto Scaling and Load Balancing Work in Software Architecture
 description: Article(s) > How Auto Scaling and Load Balancing Work in Software Architecture
 icon: fas fa-pen-ruler

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
 description: Article(s) > Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
 icon: iconfont icon-git

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Build a Sticky Notes App with React and Appwrite
 description: Article(s) > Build a Sticky Notes App with React and Appwrite
 icon: fa-brands fa-react

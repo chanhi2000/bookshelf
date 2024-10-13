@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: 2. Getting Started
 description: (2/5) Get started with Quarkus and JPAStreamer
 category: 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Write Unit Tests in Python – with Example Test Code
 description: Article(s) > How to Write Unit Tests in Python – with Example Test Code
 icon: fa-brands fa-python

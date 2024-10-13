@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is Dead Zone in JavaScript?
 description: Article(s) > What is Dead Zone in JavaScript?
 icon: fa-brands fa-node

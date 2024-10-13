@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Prompt Engineering Basics – How to Write Effective AI Prompts
 description: Article(s) > Prompt Engineering Basics – How to Write Effective AI Prompts
 icon: fas fa-brain

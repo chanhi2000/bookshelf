@@ -50,7 +50,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/aut
 <SiteInfo
   name="Using Auth.js with SvelteKit"
   desc="We'll look at how to use @auth/core, add a Google Provider, and get our sessions persisting in DynamoDB. There is a GitHub repo for reference on everything."
-  url="https://frontendmasters.com/news/using-nextauth-now-auth-js-with-sveltekit/"
+  url="https://frontendmasters.com/blog/using-nextauth-now-auth-js-with-sveltekit/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/auth-thumb.jpg?w=1000&ssl=1"/>
 

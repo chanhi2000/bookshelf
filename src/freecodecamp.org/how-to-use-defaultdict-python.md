@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use DefaultDict in Python
 description: Article(s) > How to Use DefaultDict in Python
 icon: fa-brands fa-python

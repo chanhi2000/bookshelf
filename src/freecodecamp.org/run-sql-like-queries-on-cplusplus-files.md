@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Run SQL-Like Queries on C/C++ Files
 description: Article(s) > How to Run SQL-Like Queries on C/C++ Files
 icon: iconfont icon-cpp

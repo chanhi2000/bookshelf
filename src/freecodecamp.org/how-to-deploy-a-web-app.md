@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Deploy a Web App
 description: Article(s) > How to Deploy a Web App
 icon: iconfont icon-microsoftazure

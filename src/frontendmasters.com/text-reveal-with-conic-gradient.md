@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/teg
 <SiteInfo
   name="A Text-Reveal Effect Using conic-gradient() in CSS"
   desc="This article explores creating a typographic effect that 'reveals' text in an interesting animated way."
-  url="https://frontendmasters.com/news/text-reveal-with-conic-gradient/"
+  url="https://frontendmasters.com/blog/text-reveal-with-conic-gradient/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/tegqoID6.png?w=1296&ssl=1"/>
 

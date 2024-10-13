@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Full Stack Development with Next.js, Clerk, and Neon Postgres
 description: Article(s) > Full Stack Development with Next.js, Clerk, and Neon Postgres
 icon: iconfont icon-nextjs

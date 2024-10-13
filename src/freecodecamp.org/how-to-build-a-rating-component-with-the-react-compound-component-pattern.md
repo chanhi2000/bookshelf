@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Rating Component with the React Compound Component Pattern
 description: Article(s) > How to Build a Rating Component with the React Compound Component Pattern
 icon: fa-brands fa-react

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Controlled and Uncontrolled Components in React.js?
 description: Article(s) > What are Controlled and Uncontrolled Components in React.js?
 icon: fa-brands fa-react

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Pandoc – An Open Source Tool for Technical Writers
 description: Article(s) > How to Use Pandoc – An Open Source Tool for Technical Writers
 icon: fas fa-brain

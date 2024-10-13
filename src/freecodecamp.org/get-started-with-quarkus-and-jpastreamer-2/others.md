@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: 5. Others
 description: (5/5) Get started with Quarkus and JPAStreamer
 category: 

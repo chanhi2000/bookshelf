@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Common React Mistakes to Avoid
 description: Article(s) > Common React Mistakes to Avoid
 icon: fa-brands fa-react

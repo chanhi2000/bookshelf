@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "2. Essential Libraries: Your Data Wrangling Dream Team"
 description: "Article(s) > (2/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

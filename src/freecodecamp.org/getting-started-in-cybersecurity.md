@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Get Started With Cybersecurity"
 description: "Article(s) > How to Get Started With Cybersecurity"
 icon: fas fa-shield-halved

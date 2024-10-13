@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
 description: Article(s) > Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
 icon: fa-brands fa-react

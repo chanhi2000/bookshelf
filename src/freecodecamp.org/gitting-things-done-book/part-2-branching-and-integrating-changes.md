@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Part 2 - Branching and Integrating Changes
 description: Article(s) > (3/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
 category: 

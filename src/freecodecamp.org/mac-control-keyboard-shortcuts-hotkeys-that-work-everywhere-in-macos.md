@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
 description: Article(s) > Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
 icon: iconfont icon-macos

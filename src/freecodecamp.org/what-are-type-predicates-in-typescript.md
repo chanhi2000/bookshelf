@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Type Predicates in TypeScript? Explained with Code examples
 description: Article(s) > What are Type Predicates in TypeScript? Explained with Code examples
 icon: iconfont icon-typescript

@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Scr
 <SiteInfo
   name="Single-Directionally Allowed Overflow"
   desc="CSS allows setting different overflow behaviors for x and y directions. It doesn't actually work with the `hidden` value, but it does with `clip`!"
-  url="https://frontendmasters.com/news/single-directionally-allowed-overflow/"
+  url="https://frontendmasters.com/blog/single-directionally-allowed-overflow/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Screenshot-2024-07-10-at-3.07.39%E2%80%AFPM.png?resize=1024%2C675&ssl=1"/>
 

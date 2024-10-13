@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Zustand vs useState – How to Manage State in React Apps
 description: Article(s) > Zustand vs useState – How to Manage State in React Apps
 icon: fa-brands fa-react
@@ -63,15 +63,15 @@ In this article, I’ll focus on `Zustand` and compare it with the `useState()` 
 
 To get started, I want to make sure you understand how both `useState()` and `Zustand` work. Then we'll compare them to see which is a better solution for your project.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 Before you begin coding, please ensure you have the following:
 
 - [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en) installed on your system.
 - A basic understanding of [<FontIcon icon="fa-brands fa-react"/>React.js](https://react.dev/).
 - A code editor that you prefer, such as [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/), or [<FontIcon icon="iconfont icon-subl"/>Sublime Text](https://sublimetext.com/download).
+
+:::
 
 ---
 

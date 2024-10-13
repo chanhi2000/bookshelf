@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Handle Events in React – Explained with Code Examples
 description: Article(s) > How to Handle Events in React – Explained with Code Examples
 icon: fa-brands fa-react

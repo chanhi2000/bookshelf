@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: React 19 Actions – How to Simplify Form Submission and Loading States
 description: Article(s) > React 19 Actions – How to Simplify Form Submission and Loading States
 icon: fa-brands fa-react

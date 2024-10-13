@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Use the JavaScript Selection API: Build a Rich Text Editor and Real-Time Element Detection"
 description: "Article(s) > How to Use the JavaScript Selection API: Build a Rich Text Editor and Real-Time Element Detection"
 icon: fa-brands fa-js

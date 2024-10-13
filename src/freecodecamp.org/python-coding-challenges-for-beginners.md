@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Python Coding Challenges For Beginner Developers – Code and Explanations
 description: Article(s) > Python Coding Challenges For Beginner Developers – Code and Explanations
 icon: fa-brands fa-python

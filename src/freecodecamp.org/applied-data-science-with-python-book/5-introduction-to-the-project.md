@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "5. Introduction to the Project"
 description: "Article(s) > (5/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

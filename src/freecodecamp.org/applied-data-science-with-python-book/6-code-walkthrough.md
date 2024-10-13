@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "6. Code Walkthrough"
 description: "Article(s) > (6/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn React Hooks – Common Hooks Explained with Code Examples"
 description: "Article(s) > Learn React Hooks – Common Hooks Explained with Code Examples"
 icon: fa-brands fa-react

@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/102
 <SiteInfo
   name="Fast and Budget-Friendly User Research and Testing"
   desc="Despite perceived challenges like cost and time, modern tools such as Lookback and Maze offer affordable and efficient remote and unfacilitated testing options."
-  url="https://frontendmasters.com/news/fast-and-budget-friendly-user-research-and-testing/"
+  url="https://frontendmasters.com/blog/fast-and-budget-friendly-user-research-and-testing/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/1024px-Project_User_Experience_Testing_9719939867.jpg?resize=768%2C514&ssl=1"/>
 

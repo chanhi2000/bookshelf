@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Objects in JavaScript
 description: Article(s) > How to Create Objects in JavaScript
 icon: fa-brands fa-js

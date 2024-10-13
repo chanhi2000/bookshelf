@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build an Accessible Modal – with Example Code
 description: Article(s) > How to Build an Accessible Modal – with Example Code
 icon: fa-brands fa-css3-alt

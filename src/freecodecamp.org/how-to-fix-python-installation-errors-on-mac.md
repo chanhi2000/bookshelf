@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Fix Common Python Installation Errors on macOS
 description: Article(s) > How to Fix Common Python Installation Errors on macOS
 icon: fa-brands fa-python

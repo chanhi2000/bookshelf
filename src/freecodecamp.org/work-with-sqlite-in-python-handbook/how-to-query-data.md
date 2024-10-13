@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Query Data"
 description: Article(s) > (5/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

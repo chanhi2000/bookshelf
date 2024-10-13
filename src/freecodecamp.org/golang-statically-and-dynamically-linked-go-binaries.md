@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Statically and Dynamically Linked Go Binaries Work
 description: Article(s) > How Statically and Dynamically Linked Go Binaries Work
 icon: fa-brands fa-golang

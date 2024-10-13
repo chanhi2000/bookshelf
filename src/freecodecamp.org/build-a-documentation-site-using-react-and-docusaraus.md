@@ -64,15 +64,15 @@ In this tutorial, I'll show you how to build a documentation site using React an
 
 If you are new to Docusaurus, you are probably wondering, “why React?, why not any other framework like Next.js?”, Don’t worry – I’ll also answer this question in this guide.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 To follow along with this guide, you should have:
 
-- **Node.js** version 18.0 or above installed
+- <FontIcon icon="fa-brands fa-node"/>Node.js version 18.0 or above installed
 - Basic knowledge of React and Markdown
 - IDE (preferably VSCode)
+
+:::
 
 ---
 

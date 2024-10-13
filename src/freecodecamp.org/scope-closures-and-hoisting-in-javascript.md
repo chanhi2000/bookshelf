@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
 description: Article(s) > Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
 icon: fa-brands fa-js

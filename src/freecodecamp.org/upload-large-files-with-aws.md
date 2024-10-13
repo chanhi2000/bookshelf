@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: ​​How to Upload Large Files Efficiently with AWS S3 Multipart Upload
 description: Article(s) > ​​How to Upload Large Files Efficiently with AWS S3 Multipart Upload
 icon: fa-brands fa-aws

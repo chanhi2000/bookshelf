@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Multithreading for Beginners
 description: Article(s) > Multithreading for Beginners
 icon: fa-brands fa-java

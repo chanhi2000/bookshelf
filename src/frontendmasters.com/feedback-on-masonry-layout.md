@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/mas
 <SiteInfo
   name="Feedback on Masonry Layout"
   desc="Jen Simmons posted Help us invent CSS Grid Level 3, aka “Masonry” layout over on the WebKit blog the other day and is actively soliciting feedback. Our hope is that web designers and developers chime in (post to social media, write blog posts) with your thoughts about which direction CSS should take. Don’t mind if I do. Do […]"
-  url="https://frontendmasters.com/news/feedback-on-masonry-layout/"
+  url="https://frontendmasters.com/blog/feedback-on-masonry-layout/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/masonry-thumb.jpg?w=1000&ssl=1"/>
 

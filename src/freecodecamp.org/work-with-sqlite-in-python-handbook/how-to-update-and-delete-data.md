@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Update and Delete Data"
 description: Article(s) > (6/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

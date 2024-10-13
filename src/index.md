@@ -97,8 +97,7 @@ projects:
     link: '/devtoolstips.org/README.md'
   - icon: 'https://piccalil.li/favicons/apple-touch-icon.png'
     name: 'piccalil.li'
-    desc: '
-  Piccalilli - level up your front-end development skills'
+    desc: 'Piccalilli - level up your front-end development skills'
     link: '/piccalil.li/README.md'
   - icon: 'https://sitepoint.com/favicons/512x512.png'
     name: 'sitepoint.com'
@@ -147,7 +146,10 @@ projects:
     name: blog.gangnamunni.com
     desc: "데브쿠마는 프로그래밍 개발에 대한 지식을 공유합니다."
     link: /blog.gangnamunni.com/README.md
-    
+  - icon: https://codingeverybody.kr/wp-content/uploads/cropped-favicon-origin-192x192.png
+    name: codingeverybody.kr
+    desc: "코딩에브리바디는 HTML, CSS, JAVASCRIPT, PHP, PYTHON, SQL, C++ 등 모든 사람을 위한 코딩 학습서입니다."
+    link: /codingeverybody.kr/README.md
 footerHtml: true
 footer: <i>__VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2022-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 

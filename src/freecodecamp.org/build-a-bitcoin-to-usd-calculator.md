@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Simple Bitcoin-to-USD Calculator
 description: Article(s) > How to Build a Simple Bitcoin-to-USD Calculator
 icon: fa-brands fa-js

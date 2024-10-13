@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use React's Context API – Tutorial with Examples
 description: Article(s) > How to Use React's Context API – Tutorial with Examples
 icon: fa-brands fa-react

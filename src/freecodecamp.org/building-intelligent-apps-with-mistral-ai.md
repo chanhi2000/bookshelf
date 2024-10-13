@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Building Intelligent Apps with Mistral AI"
 description: "Article(s) > Building Intelligent Apps with Mistral AI"
 icon: fas fa-language

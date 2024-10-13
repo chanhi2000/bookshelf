@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Viewing Patterns in Your Website Designs
 description: Article(s) > How to Use Viewing Patterns in Your Website Designs
 icon: fas fa-pen-ruler

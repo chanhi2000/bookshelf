@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build a Rocket Control System: Basic Control Theory with Python"
 description: "Article(s) > How to Build a Rocket Control System: Basic Control Theory with Python"
 icon: fa-brands fa-python

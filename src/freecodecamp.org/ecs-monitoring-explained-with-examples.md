@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What is ECS Monitoring? Explained With Examples"
 description: "Article(s) > What is ECS Monitoring? Explained With Examples"
 icon: fa-brands fa-aws

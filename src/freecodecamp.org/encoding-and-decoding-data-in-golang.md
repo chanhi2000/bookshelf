@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples
 description: Article(s) > How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples
 icon: fa-brands fa-golang

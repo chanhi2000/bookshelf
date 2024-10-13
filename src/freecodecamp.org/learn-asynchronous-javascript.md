@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn Asynchronous JavaScript
 description: Article(s) > Learn Asynchronous JavaScript
 icon: fa-brands fa-js

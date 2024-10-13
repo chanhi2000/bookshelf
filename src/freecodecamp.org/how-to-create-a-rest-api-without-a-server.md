@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create a REST API Without a Server
 description: Article(s) > How to Create a REST API Without a Server
 icon: iconfont icon-microsoftazure

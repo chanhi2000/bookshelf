@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What is a Kalman Filter? How to Simplify Noisy Data in Navigation and Finance"
 description: "Article(s) > What is a Kalman Filter? How to Simplify Noisy Data in Navigation and Finance"
 icon: fa-brands fa-python

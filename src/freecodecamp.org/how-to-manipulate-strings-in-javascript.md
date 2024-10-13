@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Manipulate Strings in JavaScript – With Code Examples
 description: Article(s) > How to Manipulate Strings in JavaScript – With Code Examples
 icon: fa-brands fa-js

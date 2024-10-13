@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Handle Errors and Exceptions"
 description: Article(s) > (9/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

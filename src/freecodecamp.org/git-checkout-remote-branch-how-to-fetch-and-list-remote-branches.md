@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Git Checkout Remote Branch – How to Fetch and List Remote Branches
 description: Article(s) > Git Checkout Remote Branch – How to Fetch and List Remote Branches
 icon: iconfont icon-git

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: 4. Testing
 description: (4/5) Get started with Quarkus and JPAStreamer
 category: 

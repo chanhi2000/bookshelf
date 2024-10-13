@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Vue E-commerce App Using MSW
 description: Article(s) > How to Build a Vue E-commerce App Using MSW
 icon: fa-brands fa-vuejs

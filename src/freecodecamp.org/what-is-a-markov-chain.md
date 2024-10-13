@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Markov Chains? Explained With Python Code Examples
 description: Article(s) > What are Markov Chains? Explained With Python Code Examples
 icon: fa-brands fa-python

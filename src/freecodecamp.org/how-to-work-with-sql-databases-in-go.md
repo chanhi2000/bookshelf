@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Work with SQL Databases in Go – Different Approaches and Examples"
 description: "Article(s) > How to Work with SQL Databases in Go – Different Approaches and Examples"
 icon: fa-brands fa-golang

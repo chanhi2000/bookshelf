@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Improve User Experience with Optimistic UI and SWR
 description: Article(s) > How to Improve User Experience with Optimistic UI and SWR
 icon: fa-brands fa-react

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Procedural Macros in Rust – A Handbook for Beginners
 description: Article(s) > Procedural Macros in Rust – A Handbook for Beginners
 icon: fa-brands fa-rust

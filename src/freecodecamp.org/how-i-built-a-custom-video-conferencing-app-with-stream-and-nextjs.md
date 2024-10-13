@@ -90,9 +90,7 @@ Here's how I'll use `Stream` while building the app:
 - `Call Types` – I'll implement instant meetings and pre-scheduled calls using Stream
 - Leverage Stream's call and participant objects to manage `call state`
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 To fully understand the tutorial, you need to have a basic understanding of [<FontIcon icon="fa-brands fa-react"/>React](https://freecodecamp.org/news/learn-react-key-concepts/) and [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://theankurtyagi.com/next-js/). You’ll also need the following:
 
@@ -103,6 +101,8 @@ To fully understand the tutorial, you need to have a basic understanding of [<Fo
 - [React Copy-to-Clipboard (<FontIcon icon="fa-brands fa-npm"/>`react-copy-to-clipboard`)](https://npmjs.com/package/react-copy-to-clipboard) - allows users to easily copy meeting links within the app.
 - [React Icons](https://react-icons.github.io/react-icons/) - offers a library of easily integrated icons.
 <!-- TODO: SiteInfo 생성 -->
+
+:::
 
 ---
 

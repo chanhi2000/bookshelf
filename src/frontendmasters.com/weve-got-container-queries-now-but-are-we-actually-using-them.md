@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pex
 <SiteInfo
   name="We’ve Got Container Queries Now, But Are We Actually Using Them?"
   desc="CSS developers got the ultimate dream: container queries. But now that they are here, are we actually reaching for them as much as we thought we would?"
-  url="https://frontendmasters.com/news/weve-got-container-queries-now-but-are-we-actually-using-them/"
+  url="https://frontendmasters.com/blog/weve-got-container-queries-now-but-are-we-actually-using-them/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pexels-photo-1544944.jpeg?resize=1024%2C683&ssl=1"/>
 

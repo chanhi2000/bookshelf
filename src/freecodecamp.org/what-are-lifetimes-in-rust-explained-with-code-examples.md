@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Lifetimes in Rust? Explained with Code Examples
 description: Article(s) > What are Lifetimes in Rust? Explained with Code Examples
 icon: fa-brands fa-rust

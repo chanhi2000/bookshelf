@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: PHP Array Handbook – How to Create, Work with, and Loop Through Arrays
 description: Article(s) > PHP Array Handbook – How to Create, Work with, and Loop Through Arrays
 icon: fa-brands fa-php

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Mastering Shadcn UI Components
 description: Article(s) > Mastering Shadcn UI Components
 icon: fa-brands fa-react

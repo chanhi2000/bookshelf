@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use React Compiler – A Complete Guide
 description: Article(s) > How to Use React Compiler – A Complete Guide
 icon: fa-brands fa-react

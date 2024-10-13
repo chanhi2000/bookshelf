@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Handle KeyErrors in Python – with Code Examples"
 description: "Article(s) > How to Handle KeyErrors in Python – with Code Examples"
 icon: fa-brands fa-python

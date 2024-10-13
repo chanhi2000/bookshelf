@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn Java Testing with Selenium
 description: Article(s) > Learn Java Testing with Selenium
 icon: fa-brands fa-python

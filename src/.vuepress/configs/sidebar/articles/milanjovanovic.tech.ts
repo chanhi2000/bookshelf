@@ -104,6 +104,9 @@ export const template: SidebarInfoTemplate = {
       "refit-in-dotnet-building-robust-api-clients-in-csharp", // 2024-09-07
       "dotnet-aspire-a-game-changer-for-cloud-native-development", // 2024-09-14
       "breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices", // 2024-09-28
+      "implementing-the-outbox-pattern", // 2024-10-05
+      "scaling-the-outbox-pattern", // 2024-10-12
+      // END: cs
     ]],[
     "cs-razor", [
       "flexible-pdf-reporting-in-net-using-razor-views", // 2024-06-29
@@ -256,6 +259,8 @@ export const template: SidebarInfoTemplate = {
       "dotnet-aspire-a-game-changer-for-cloud-native-development", // 2024-09-14
       "how-i-implemented-full-text-search-on-my-website", // 2024-09-21
       "breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices", // 2024-09-28
+      "implementing-the-outbox-pattern", // 2024-10-05
+      "scaling-the-outbox-pattern", // 2024-10-12
     ]]
   ])
 };

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create A Color Picker Tool Using HTML, CSS, and JavaScript
 description: Article(s) > How to Create A Color Picker Tool Using HTML, CSS, and JavaScript
 icon: fa-brands fa-js

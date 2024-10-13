@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build a Serverless CRUD REST API with the Serverless Framework, Node.js, and GitHub Actions"
 description: "Article(s) > How to Build a Serverless CRUD REST API with the Serverless Framework, Node.js, and GitHub Actions"
 icon: fa-brands fa-aws

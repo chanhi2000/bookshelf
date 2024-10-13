@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Style React Components
 description: Article(s) > How to Style React Components
 icon: fa-brands fa-react

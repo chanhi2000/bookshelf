@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Unit 5: Conclusion"
 description: (5/5) DevOps with GitLab CI Course
 category: 

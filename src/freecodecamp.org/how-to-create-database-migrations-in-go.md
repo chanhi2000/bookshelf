@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Database Migrations in Go Using Docker and Postgres
 description: Article(s) > How to Create Database Migrations in Go Using Docker and Postgres
 icon: fa-brands fa-golang

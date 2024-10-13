@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn Linux for Beginners: From Basics to Advanced Techniques [Full Book]"
 description: "Article(s) > Learn Linux for Beginners: From Basics to Advanced Techniques [Full Book]"
 icon: fa-brands fa-ubuntu

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Secure Your Django App – Best Practices and Code Examples
 description: Article(s) > How to Secure Your Django App – Best Practices and Code Examples
 icon: iconfont icon-django

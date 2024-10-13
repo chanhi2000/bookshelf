@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/pop
 <SiteInfo
   name="Footnotes Progressively Enhanced to Popovers"
   desc="Michelle Barker's technique for popover footnotes is great. Here we look at ways we could fight the content duplication. There are ups and downs."
-  url="https://frontendmasters.com/news/footnotes-progressively-enhanced-to-popovers/"
+  url="https://frontendmasters.com/blog/footnotes-progressively-enhanced-to-popovers/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/popup-thumb.jpg?w=1000&ssl=1"/>
 

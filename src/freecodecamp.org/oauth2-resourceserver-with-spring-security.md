@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Implement an OAuth2 Resource Server with Spring Security
 description: Article(s) > How to Implement an OAuth2 Resource Server with Spring Security
 icon: iconfont icon-spring

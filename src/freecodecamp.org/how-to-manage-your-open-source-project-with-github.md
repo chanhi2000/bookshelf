@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Manage your Open Source Project with GitHub"
 description: "Article(s) > How to Manage your Open Source Project with GitHub"
 icon: fa-brands fa-aws

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example
 description: Article(s) > How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example
 icon: fa-brands fa-python

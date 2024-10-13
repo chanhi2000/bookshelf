@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Flutter Tutorial – How to Develop an App with Flutter From Scratch
 description: Article(s) > Flutter Tutorial – How to Develop an App with Flutter From Scratch
 icon: iconfont icon-flutter

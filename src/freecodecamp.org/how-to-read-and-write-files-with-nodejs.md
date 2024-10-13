@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Read and Write Files with Node.js"
 description: "Article(s) > How to Read and Write Files with Node.js"
 icon: fa-brands fa-node

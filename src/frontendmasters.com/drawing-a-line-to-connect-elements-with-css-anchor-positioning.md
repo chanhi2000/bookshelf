@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/anc
 <SiteInfo
   name="Drawing a Line to Connect Elements with CSS Anchor Positioning"
   desc="The World Wide Web Consortium (W3C) published a First Public Working Draft of CSS Anchor Positioning last year, so I thought I would give it a try. I already had a perfect candidate to try it on: a component on my other site, adedicated.dev, which showcase my services by linking different words together. To link […]"
-  url="https://frontendmasters.com/news/drawing-a-line-to-connect-elements-with-css-anchor-positioning/"
+  url="https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/anchor-thumb.jpg?w=1000&ssl=1"/>
 

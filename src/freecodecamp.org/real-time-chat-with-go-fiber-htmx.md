@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Real-Time Chat App With Go, Fiber and HTMX
 description: Article(s) > How to Build a Real-Time Chat App With Go, Fiber and HTMX
 icon: fa-brands fa-golang

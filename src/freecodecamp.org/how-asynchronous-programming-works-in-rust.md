@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples
 description: Article(s) > How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples
 icon: fa-brands fa-rust

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Linear Algebra Crash Course - Mathematics for Machine Learning and Generative AI
 description: Article(s) > Linear Algebra Crash Course - Mathematics for Machine Learning and Generative AI
 icon: fas fa-square-root-variable

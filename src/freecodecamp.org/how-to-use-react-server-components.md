@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: React 서버 컴포넌트를 사용해야 하는 이유와 방법
 description: Article(s) > React 서버 컴포넌트를 사용해야 하는 이유와 방법
 icon: fa-brands fa-react

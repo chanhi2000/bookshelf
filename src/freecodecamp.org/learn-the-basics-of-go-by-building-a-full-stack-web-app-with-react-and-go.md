@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn the Basics of Go by Building a Full Stack Web App with React and Go
 description: Article(s) > Learn the Basics of Go by Building a Full Stack Web App with React and Go
 icon: fa-brands fa-golang

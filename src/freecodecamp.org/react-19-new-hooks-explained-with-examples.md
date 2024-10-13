@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: React 19 – New Hooks Explained with Examples
 description: Article(s) > React 19 – New Hooks Explained with Examples
 icon: fa-brands fa-react

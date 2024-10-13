@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Store Data Locally in React Native Expo
 description: Article(s) > How to Store Data Locally in React Native Expo
 icon: fa-brands fa-react

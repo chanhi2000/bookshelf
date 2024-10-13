@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How Does Python's For-Else Loop Construct Work?"
 description: "Article(s) > How Does Python's For-Else Loop Construct Work?"
 icon: fa-brands fa-python

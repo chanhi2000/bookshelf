@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a RAG Chatbot with Agent Cloud and Google Sheets
 description: Article(s) > How to Build a RAG Chatbot with Agent Cloud and Google Sheets
 icon: fa-brands fa-node
@@ -177,11 +177,11 @@ Here are some challenges faced and the solutions the Agent Cloud team had to dev
 
 By understanding these challenges, you can see how a tool like Agent Cloud helps the process of building RAG chatbots. It addresses the pain points of manual data handling, complex NLP integration, scalability issues, and user interface design, providing an all-in-one solution that saves time and resources.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 You don't need any prior knowledge of RAG chat apps or Google Sheets to follow along because Agent Cloud handles the data splitting, encoding, storage, and synchronization. This allows you to focus on talking to your data and interpreting the results.
+
+:::
 
 ---
 

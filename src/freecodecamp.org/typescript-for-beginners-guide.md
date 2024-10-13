@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn TypeScript – A Comprehensive Guide for Beginners
 description: Article(s) > Learn TypeScript – A Comprehensive Guide for Beginners
 icon: iconfont icon-typescript

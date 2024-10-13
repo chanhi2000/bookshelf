@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/cir
 <SiteInfo
   name="Pure CSS Circular Text (without Requiring a Monospace Font)"
   desc="Setting text on a circle in CSS isn't straightforward, but it is possible with some effort. This technique splits text into segments and uses transforms and perspective to pull it off."
-  url="https://frontendmasters.com/news/pure-css-circular-text-without-requiring-a-monospace-font/"
+  url="https://frontendmasters.com/blog/pure-css-circular-text-without-requiring-a-monospace-font/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/circle-text-thumb.jpg?w=1000&ssl=1"/>
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Skills You Need to Become a Backend Developer – A Roadmap for Beginners
 description: Article(s) > Skills You Need to Become a Backend Developer – A Roadmap for Beginners
 icon: fas fa-user-tie

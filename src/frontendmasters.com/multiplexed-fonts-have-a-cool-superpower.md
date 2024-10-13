@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/tag
 <SiteInfo
   name="“Multiplexed” Fonts Have a Cool Superpower"
   desc="Just to cut to the chase, the superpower is being able to adjust their weight (or at least one of their attributes, or as variable fonts call them, an “axis”) without changing the space they occupy. This means that interactive effect and animations can be done without worry for awkward reflow situations and performance problems. […]"
-  url="https://frontendmasters.com/news/multiplexed-fonts-have-a-cool-superpower/"
+  url="https://frontendmasters.com/blog/multiplexed-fonts-have-a-cool-superpower/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/tags-thumb.jpg?w=1000&ssl=1"/>
 

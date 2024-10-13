@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Handle Side Effects in Jest – A Guide to Effective Mocking
 description: Article(s) > How to Handle Side Effects in Jest – A Guide to Effective Mocking
 icon: fa-brands fa-node

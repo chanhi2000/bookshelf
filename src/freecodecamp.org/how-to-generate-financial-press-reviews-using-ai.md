@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Generate Financial Press Reviews Using AI"
 description: "Article(s) > How to Generate Financial Press Reviews Using AI"
 icon: fa-brands fa-python

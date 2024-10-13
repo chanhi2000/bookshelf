@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Variables and Constants in Go? Explained With Examples
 description: Article(s) > What are Variables and Constants in Go? Explained With Examples
 icon: fa-brands fa-golang

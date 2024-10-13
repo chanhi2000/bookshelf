@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Build a YouTube Clone with Flutter, Firebase, and Riverpod
 description: Article(s) > Build a YouTube Clone with Flutter, Firebase, and Riverpod
 icon: iconfont icon-flutter

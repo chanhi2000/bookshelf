@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Multi-Page Animations Using Framer Motion & React-Router-Dom
 description: Article(s) > How to Create Multi-Page Animations Using Framer Motion & React-Router-Dom
 icon: fa-brands fa-react

@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/sma
 <SiteInfo
   name="What if you used Container Units for… everything?"
   desc="I said to myself I said what if I used container units for every single unit in a design? I was wondering, partially because I thought the answer might be well, everything will probably scale really nicely then. Container units, in case you haven’t heard of them, are unit (like px or rem, but more […]"
-  url="https://frontendmasters.com/news/what-if-you-used-container-units-for-everything/"
+  url="https://frontendmasters.com/blog/what-if-you-used-container-units-for-everything/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/smaller-containers.jpg?resize=1024%2C683&ssl=1"/>
 

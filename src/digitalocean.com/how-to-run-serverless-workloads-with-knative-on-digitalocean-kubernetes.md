@@ -65,9 +65,7 @@ Knative features two main components: [Eventing](https://knative.dev/docs/eventi
 
 In this tutorial, you will use Knative Serving to deploy a Node.js application as a serverless workload on a DigitalOcean Kubernetes cluster. You will use doctl (the DigitalOcean CLI) and kn (the Knative CLI) to create the Kubernetes cluster and deploy the application.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 To complete this tutorial, you will need the following:
 
@@ -78,6 +76,8 @@ To complete this tutorial, you will need the following:
 - Docker installed on your machine, which you can set up by following Steps 1 and 2 of our tutorial on [How To Install and Use Docker](https://digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
 - A sample Node.js application set up by following the [How To Build a Node.js Application with Docker](https://digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) tutorial for creating the application and pushing its container image to Docker Hub.
 - An account at [Docker Hub](https://hub.docker.com) for storing Docker images you’ll create during this tutorial.
+
+:::
 
 ---
 

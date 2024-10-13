@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
 description: Article(s) > The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
 icon: fa-brands fa-js

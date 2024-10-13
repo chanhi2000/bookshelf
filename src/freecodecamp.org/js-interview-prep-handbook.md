@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples
 description: Article(s) > The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples
 icon: fa-brands fa-js

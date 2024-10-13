@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Excel for Data Visualization
 description: Article(s) > Excel for Data Visualization
 icon: iconfont icon-microsoftexcel

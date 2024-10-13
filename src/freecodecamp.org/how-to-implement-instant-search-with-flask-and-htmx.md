@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How To Implement Instant Search with Flask and HTMX
 description: Article(s) > How To Implement Instant Search with Flask and HTMX
 icon: iconfont icon-flask

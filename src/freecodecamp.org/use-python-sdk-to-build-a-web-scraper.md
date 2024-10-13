@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use the Python SDK to Build Your Own Web Scraper
 description: Article(s) > How to Use the Python SDK to Build Your Own Web Scraper
 icon: fa-brands fa-python

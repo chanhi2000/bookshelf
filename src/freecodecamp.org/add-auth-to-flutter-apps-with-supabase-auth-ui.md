@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Quickly Add Auth to your Flutter Apps with Supabase Auth UI
 description: Article(s) > How to Quickly Add Auth to your Flutter Apps with Supabase Auth UI
 icon: iconfont icon-flutter
@@ -14,12 +14,10 @@ tag:
   - dart
   - flutter
   - supabase
-  - js
   - node
   - nodejs
   - firebase
   - fcm
-  - supabase
 head:
   - - meta:
     - property: og:title
@@ -71,9 +69,7 @@ In the end, you'll have a complete authentication system with theming, localisat
 
 [[toc]]
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 This article assumes that you have:
 
@@ -82,6 +78,8 @@ This article assumes that you have:
 - A basic understanding of [<FontIcon icon="fas fa-globe"/>Backend-as-a-Service concepts](https://cloudflare.com/en-gb/learning/serverless/glossary/backend-as-a-service-baas/)
 - A basic understanding of [authentication](/freecodecamp.org/set-up-authentication-in-apps-with-supabase.md)
 - An IDE (Integrated Developer Environment) or a [<FontIcon icon="iconfont icon-vscode"/>text editor](https://code.visualstudio.com/download) to work in
+
+:::
 
 ---
 

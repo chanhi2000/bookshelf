@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Use the FARM Stack to Develop Full Stack Apps
 description: Article(s) > Use the FARM Stack to Develop Full Stack Apps
 icon: fa-brands fa-react

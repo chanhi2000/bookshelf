@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ima
 <SiteInfo
   name="The Classic Border Radius Advice, Plus an Unusual Trick"
   desc="When you nest elements with border-radius, the inner element needs less radius than the outer element. This is some classic advice on this, and a future-looking fix."
-  url="https://frontendmasters.com/news/the-classic-border-radius-advice-plus-an-unusual-trick/"
+  url="https://frontendmasters.com/blog/the-classic-border-radius-advice-plus-an-unusual-trick/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/image-1.png?resize=1024%2C585&ssl=1"/>
 

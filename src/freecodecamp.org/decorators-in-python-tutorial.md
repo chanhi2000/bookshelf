@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What are Decorators in Python? Explained with Code Examples"
 description: "Article(s) > What are Decorators in Python? Explained with Code Examples"
 icon: fa-brands fa-python

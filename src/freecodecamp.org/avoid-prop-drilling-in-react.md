@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Avoid Prop Drilling in React
 description: Article(s) > How to Avoid Prop Drilling in React
 icon: fa-brands fa-react

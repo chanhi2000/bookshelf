@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What's the Difference Between the useMemo and useCallback Hooks?
 description: Article(s) > What's the Difference Between the useMemo and useCallback Hooks?
 icon: fa-brands fa-react

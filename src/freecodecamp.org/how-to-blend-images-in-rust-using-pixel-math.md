@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Blend Images in Rust Using Pixel Math
 description: Article(s) > How to Blend Images in Rust Using Pixel Math
 icon: fa-brands fa-rust

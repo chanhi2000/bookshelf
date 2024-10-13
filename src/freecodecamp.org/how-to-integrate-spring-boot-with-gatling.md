@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Perform Load Testing in Spring Boot with Gatling
 description: Article(s) > How to Perform Load Testing in Spring Boot with Gatling
 icon: iconfont icon-spring

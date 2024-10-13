@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared
 description: Article(s) > How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared
 icon: fa-brands fa-aws

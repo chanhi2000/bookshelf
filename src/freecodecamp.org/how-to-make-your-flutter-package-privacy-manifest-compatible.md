@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Make Your Flutter Package Privacy Manifest Compatible
 description: Article(s) > How to Make Your Flutter Package Privacy Manifest Compatible
 icon: iconfont icon-flutter

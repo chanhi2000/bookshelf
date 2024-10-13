@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
 description: "Article(s) > Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
 icon: fas fa-pen-ruler

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Merge Word Documents in Python – Three Effective Methods with Examples"
 description: "Article(s) > How to Merge Word Documents in Python – Three Effective Methods with Examples"
 icon: fa-brands fa-python

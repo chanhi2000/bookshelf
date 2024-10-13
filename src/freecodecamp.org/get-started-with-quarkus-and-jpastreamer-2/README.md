@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Get started with Quarkus and JPAStreamer
 description: Article(s) > Get started with Quarkus and JPAStreamer
 icon: iconfont icon-quarkus
@@ -108,9 +108,7 @@ List<Film> films = jpaStreamer.stream(Film.class)
   .collect(Collectors.toList());
 ```
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 Before we roll up our sleeves and start coding, it's important to ensure you have everything you need in place. Even though the walkthrough covers any details necessary to get a fully functional application, it is assumed that you are:
 
@@ -126,6 +124,8 @@ If you're planning to follow along on your local machine, make sure your develop
 - [Quarkus CLI](https://quarkus.io/guides/cli-tooling)
 - [Docker](https://docs.docker.com/get-docker/) and Docker CLI (or your own database)
 - *Optional - GraalVM installation*
+
+:::
 
 ```component VPCard
 {

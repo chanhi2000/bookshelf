@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Insert Data into a Table"
 description: Article(s) > (4/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

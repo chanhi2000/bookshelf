@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "A Non-Technical Introduction to Generative AI"
 description: "Article(s) > A Non-Technical Introduction to Generative AI"
 icon: fas fa-brain

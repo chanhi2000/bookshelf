@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Counter Button with React, TailwindCSS, and TypeScript
 description: Article(s) > How to Build a Counter Button with React, TailwindCSS, and TypeScript
 icon: fa-brands fa-react

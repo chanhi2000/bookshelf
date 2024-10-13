@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn How To Secure API Servers"
 description: "Article(s) > Learn How To Secure API Servers"
 icon: fas fa-shield-halved

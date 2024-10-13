@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pex
 <SiteInfo
   name="How to Make a CSS Timer"
   desc="Let's look at using CSS as an efficient alternative to JavaScript for creating simple timers. We'll use modern CSS properties like @property, @keyframes, and pseudo-elements with counter() values."
-  url="https://frontendmasters.com/news/how-to-make-a-css-timer/"
+  url="https://frontendmasters.com/blog/how-to-make-a-css-timer/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/pexels-photo-1078057.jpeg?resize=768%2C432&ssl=1"/>
 

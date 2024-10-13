@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Ultimate AWS Certified Developer Associate (DVA-C02) Course from Andrew Brown
 description: Article(s) > Ultimate AWS Certified Developer Associate (DVA-C02) Course from Andrew Brown
 icon: fa-brands fa-aws

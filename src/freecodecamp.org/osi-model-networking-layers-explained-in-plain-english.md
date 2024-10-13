@@ -62,14 +62,14 @@ Once you learn the OSI model, you will be able to further understand and appreci
 
 All hail the Internet!
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 You don’t need any prior programming or networking experience to understand this article. However, you will need:
 
 - Basic familiarity with common networking terms (explained below)
 - A curiosity about how things work
+
+:::
 
 ---
 

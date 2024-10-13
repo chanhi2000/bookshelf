@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Work with Tables in Excel vs Google Sheets
 description: Article(s) > How to Work with Tables in Excel vs Google Sheets
 icon: iconfont icon-microsoftexcel

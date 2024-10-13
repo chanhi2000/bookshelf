@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Create a Reusable Modal Component in React"
 description: "Article(s) > How to Create a Reusable Modal Component in React"
 icon: fa-brands fa-react

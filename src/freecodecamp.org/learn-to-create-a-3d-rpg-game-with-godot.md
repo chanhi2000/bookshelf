@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn to Create a 3D RPG Game with Godot
 description: Article(s) > Learn to Create a 3D RPG Game with Godot
 icon: iconfont icon-godot

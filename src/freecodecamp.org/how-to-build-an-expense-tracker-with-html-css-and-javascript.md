@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build an Expense Tracker with HTML, CSS, and JavaScript
 description: Article(s) > How to Build an Expense Tracker with HTML, CSS, and JavaScript
 icon: fa-brands fa-js
@@ -58,9 +58,11 @@ We'll start by setting up the structure of the tracker, move on to styling it to
 
 [[toc]]
 
-## Prerequisites
+::: note Prerequisites
 
 To get the most out of this tutorial, having a basic understanding of HTML, CSS, and JavaScript will be beneficial. Familiarity with creating simple web pages and handling basic DOM manipulation in JavaScript will help you follow along more easily.
+
+:::
 
 But if you're new to these technologies, don't worry – I'll guide you through each step with detailed explanations.
 

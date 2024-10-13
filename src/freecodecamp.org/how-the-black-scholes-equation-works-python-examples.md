@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How the Black-Scholes Equation Works – Explained with Python Code Examples"
 description: "Article(s) > How the Black-Scholes Equation Works – Explained with Python Code Examples"
 icon: fa-brands fa-python

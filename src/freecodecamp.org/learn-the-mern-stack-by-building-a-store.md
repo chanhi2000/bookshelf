@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn the MERN Stack by Building a Store
 description: Article(s) > Learn the MERN Stack by Building a Store
 icon: fa-brands fa-react

@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/lig
 <SiteInfo
   name="What’s Going On in Dark Theme / Light Theme Land"
   desc="There has been a fresh round of enthusiasm and writing around light mode / dark mode support for the web lately. I think it’s driven partially by the new light-dark() function in CSS (CSS Color Module Level 5 spec) that makes it easier to declare values that change depending on the mode. Here’s the basic […]"
-  url="https://frontendmasters.com/news/dark-and-light/"
+  url="https://frontendmasters.com/blog/dark-and-light/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/light-dark-thumb.jpg?w=1000&ssl=1"/>
 

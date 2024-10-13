@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What Are Monte Carlo Methods? How to Predict the Future with Python Simulations
 description: Article(s) > What Are Monte Carlo Methods? How to Predict the Future with Python Simulations
 icon: fa-brands fa-python

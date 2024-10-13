@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn About Operating Systems In-Depth
 description: Article(s) > Learn About Operating Systems In-Depth
 icon: fas fa-computer

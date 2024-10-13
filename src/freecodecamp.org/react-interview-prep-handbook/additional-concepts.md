@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Additional Concepts"
 description: "Article(s) > (4/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
 category:

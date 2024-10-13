@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is Prototypal Inheritance in JavaScript? Explained with Code Examples
 description: Article(s) > What is Prototypal Inheritance in JavaScript? Explained with Code Examples
 icon: fa-brands fa-js

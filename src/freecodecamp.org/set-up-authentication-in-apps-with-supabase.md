@@ -70,15 +70,15 @@ In this article, you'll learn the basic key concepts that'll help you grasp how 
 
 You'll start by learning what authentication and authorization are, and then learn how to implement authentication in your applications using Supabase auth.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 You'll need the following to make the most out of this article:
 
 - Basic programming knowledge.
 - [<FontIcon icon="iconfont icon-supabase"/>A Supabase project](https://supabase.com/) to follow along.
 - And a text editor to try out the example code snippets.
+
+:::
 
 ---
 

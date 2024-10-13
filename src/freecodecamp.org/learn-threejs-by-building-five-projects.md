@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn Three.js By Building Five Projects
 description: Article(s) > Learn Three.js By Building Five Projects
 icon: fa-brands fa-node

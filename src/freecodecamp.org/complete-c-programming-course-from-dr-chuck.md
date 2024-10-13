@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Complete C Programming Course from Dr. Chuck
 description: Article(s) > Complete C Programming Course from Dr. Chuck
 icon: iconfont icon-c

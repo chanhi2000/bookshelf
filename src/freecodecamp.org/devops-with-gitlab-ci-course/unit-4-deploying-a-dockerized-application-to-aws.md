@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Unit 4: Deploying a dockerized application to AWS"
 description: (4/5) DevOps with GitLab CI Course
 category: 

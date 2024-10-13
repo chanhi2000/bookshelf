@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Install Python on a Mac
 description: Article(s) > How to Install Python on a Mac
 icon: fa-brands fa-python

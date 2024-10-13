@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/you
 <SiteInfo
   name="YouTube Embeds are Bananas Heavy and it’s Fixable"
   desc="Which one makes more sense to use, big and slow or small and fast? Especially with the same appearance and functionality, the youtube-lite component is a no-brainer."
-  url="https://frontendmasters.com/news/youtube-embeds-are-bananas-heavy-and-its-fixable/"
+  url="https://frontendmasters.com/blog/youtube-embeds-are-bananas-heavy-and-its-fixable/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/youtube-lite-embed.png?w=1280&ssl=1"/>
 

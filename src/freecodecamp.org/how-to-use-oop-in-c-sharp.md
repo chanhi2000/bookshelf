@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Object-Oriented Programming in C# – Explained With Examples
 description: Article(s) > How to Use Object-Oriented Programming in C# – Explained With Examples
 icon: iconfont icon-csharp

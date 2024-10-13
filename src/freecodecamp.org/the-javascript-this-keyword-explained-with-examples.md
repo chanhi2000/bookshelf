@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: The JavaScript this Keyword Explained with Examples
 description: Article(s) > The JavaScript this Keyword Explained with Examples
 icon: fa-brands fa-js

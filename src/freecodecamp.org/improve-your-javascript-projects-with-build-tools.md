@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Improve Your JavaScript Code with Powerful Build Tool Configs
 description: Article(s) > How to Improve Your JavaScript Code with Powerful Build Tool Configs
 icon: fa-brands fa-aws

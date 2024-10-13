@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
 description: "Article(s) > First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
 icon: fa-brands fa-python

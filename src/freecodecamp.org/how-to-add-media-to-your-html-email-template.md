@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Add Media to Your HTML Email Template
 description: Article(s) > How to Add Media to Your HTML Email Template
 icon: fa-brands fa-css3-alt

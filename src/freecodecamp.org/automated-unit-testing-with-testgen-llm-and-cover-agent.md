@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use AI to Automate Unit Testing with TestGen-LLM and Cover-Agent
 description: Article(s) > How to Use AI to Automate Unit Testing with TestGen-LLM and Cover-Agent
 icon: fa-brands fa-python

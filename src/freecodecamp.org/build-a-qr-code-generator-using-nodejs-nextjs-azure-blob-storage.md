@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a QR Code Generator for URLs with Node.js, Next.js, and Azure Blob Storage
 description: Article(s) > How to Build a QR Code Generator for URLs with Node.js, Next.js, and Azure Blob Storage
 icon: iconfont icon-nextjs
@@ -74,9 +74,11 @@ I'll also provide explanations on QR codes, the concept of `buffers` for handlin
 
 So, let dive in.
 
-## Prerequisites
+::: note Prerequisites
 
 Before you begin you'll need an active [<FontIcon icon="iconfont icon-microsoftazure"/>Azure](https://azure.microsoft.com/en-us/get-started/azure-portal) account and subscription to create an Azure blob storage.
+
+:::
 
 [[toc]]
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build an MVP for Your Project – and Why You Should Do It
 description: Article(s) > How to Build an MVP for Your Project – and Why You Should Do It
 icon: fas fa-pen-ruler

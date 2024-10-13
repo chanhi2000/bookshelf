@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn CUDA Programming
 description: Article(s) > Learn CUDA Programming
 icon: iconfont icon-cpp

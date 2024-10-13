@@ -44,7 +44,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/eff
 <SiteInfo
   name="Patterns for Memory Efficient DOM Manipulation with Modern Vanilla JavaScript"
   desc="JavaScript Frameworks generally do a lot of DOM handling for you, but doing it yourself can be the most performant option, and there are quite a few best practices."
-  url="https://frontendmasters.com/news/patterns-for-memory-efficient-dom-manipulation/"
+  url="https://frontendmasters.com/blog/patterns-for-memory-efficient-dom-manipulation/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/efficiency-thumb.jpg?w=1000&ssl=1"/>
 

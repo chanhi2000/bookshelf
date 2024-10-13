@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: JavaScript GameDev with Kaboom.js
 description: Article(s) > JavaScript GameDev with Kaboom.js
 icon: fa-brands fa-js

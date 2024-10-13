@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build a RAG Pipeline with LlamaIndex"
 description: "Article(s) > How to Build a RAG Pipeline with LlamaIndex"
 icon: fa-brands fa-meta
@@ -126,15 +126,15 @@ A vector is a mathematical object that represents a quantity with both magnitude
 
 LlamaIndex plays a crucial role in connecting the retrieval and generation components. It acts as an index that maps queries to relevant documents. By efficiently managing the index, LlamaIndex ensures that the retrieval process is fast and accurate.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 We will be using Python and [<FontIcon icon="iconfont icon-ibm"/>IBM watsonx](https://ibm.com/products/watsonx-ai)> via LlamaIndex in this article. You should have the following on your system before getting started:
 
-- Python 3.9+
+- <FontIcon icon="fa-brands fa-python"/>Python 3.9+
 - [<FontIcon icon="iconfont icon-ibm"/>IBM watsonx project and API key](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/admin-apikeys.html?context=wx)
 - Curiosity to learn
+
+:::
 
 ---
 

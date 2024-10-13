@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Use SSH to Safely Connect to GitHub: A Simple Guide for Windows OS"
 description: "Article(s) > How to Use SSH to Safely Connect to GitHub: A Simple Guide for Windows OS"
 icon: fa-brands fa-aws

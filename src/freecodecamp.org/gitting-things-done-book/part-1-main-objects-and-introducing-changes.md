@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Part 1 - Main Objects and Introducing Changes
 description: Article(s) > (2/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
 category: 

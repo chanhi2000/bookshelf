@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Set Up Grafana on EC2
 description: Article(s) > How to Set Up Grafana on EC2
 icon: fa-brands fa-aws

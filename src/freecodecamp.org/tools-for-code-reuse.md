@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How AI Tools Can Help You Reuse Code
 description: Article(s) > How AI Tools Can Help You Reuse Code
 icon: fas fa-brain

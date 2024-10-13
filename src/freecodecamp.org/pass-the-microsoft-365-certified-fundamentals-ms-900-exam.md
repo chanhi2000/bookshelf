@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Pass the Microsoft 365 Certified Fundamentals (MS-900) Exam
 description: Article(s) > Pass the Microsoft 365 Certified Fundamentals (MS-900) Exam
 icon: iconfont icon-microsoftexcel

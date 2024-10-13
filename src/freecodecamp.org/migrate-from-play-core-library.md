@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Migrate from Play Core Library
 description: Article(s) > How to Migrate from Play Core Library
 icon: fa-brands fa-android

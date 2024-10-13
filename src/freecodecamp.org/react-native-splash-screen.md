@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create a React Native Splash Screen
 description: Article(s) > How to Create a React Native Splash Screen
 icon: fa-brands fa-react

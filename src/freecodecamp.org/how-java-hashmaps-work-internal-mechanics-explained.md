@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Java HashMaps Work – Internal Mechanics Explained
 description: Article(s) > How Java HashMaps Work – Internal Mechanics Explained
 icon: fa-brands fa-java

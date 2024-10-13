@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Secure a Next.js AI Application Deployed on Vercel
 description: Article(s) > How to Secure a Next.js AI Application Deployed on Vercel
 icon: iconfont icon-nextjs

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: JS Remove Char from String – How to Trim a Character from a String in JavaScript
 description: Article(s) > JS Remove Char from String – How to Trim a Character from a String in JavaScript
 icon: fa-brands fa-js

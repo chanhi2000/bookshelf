@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "React Router v6: A Beginner’s Guide"
 description: "Article(s) > React Router v6: A Beginner’s Guide"
 icon: fa-brands fa-react

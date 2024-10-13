@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn to Use the Gemini AI MultiModal Model"
 description: "Article(s) > Learn to Use the Gemini AI MultiModal Model"
 icon: iconfont icon-gemini

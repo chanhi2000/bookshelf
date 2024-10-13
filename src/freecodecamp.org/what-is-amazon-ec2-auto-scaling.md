@@ -55,12 +55,12 @@ In AWS, there are two important services that help with this: Amazon EC2 Auto Sc
 
 In this article, we'll dive deeper into how Amazon EC2 Auto Scaling works and how you can use it to keep your website running smoothly without overspending on servers.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 - Have an AWS account
 - Basic understanding of EC2 instance
+
+:::
 
 ---
 

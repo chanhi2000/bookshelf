@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn TypeScript with Interactive Lessons
 description: Article(s) > Learn TypeScript with Interactive Lessons
 icon: iconfont icon-typescript

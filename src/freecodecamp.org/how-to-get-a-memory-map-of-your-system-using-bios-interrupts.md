@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Get a Memory Map of Your System using BIOS Interrupts"
 description: "Article(s) > How to Get a Memory Map of Your System using BIOS Interrupts"
 icon: fas fa-microchip

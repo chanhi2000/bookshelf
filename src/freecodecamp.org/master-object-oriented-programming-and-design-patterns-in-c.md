@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Master Object-Oriented Programming and Design Patterns in C#
 description: Article(s) > Master Object-Oriented Programming and Design Patterns in C#
 icon: iconfont icon-csharp

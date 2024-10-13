@@ -48,7 +48,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pex
 <SiteInfo
   name="Testing Types in TypeScript"
   desc="This post explores advanced TypeScript utilities for testing and verifying type correctness, akin to unit testing without extra setup."
-  url="https://frontendmasters.com/news/testing-types-in-typescript/"
+  url="https://frontendmasters.com/blog/testing-types-in-typescript/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pexels-photo-938165.jpeg?resize=768%2C487&ssl=1"/>
 

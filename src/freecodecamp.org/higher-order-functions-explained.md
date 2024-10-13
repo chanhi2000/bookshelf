@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are Higher Order Functions in JavaScript? Explained With Examples
 description: Article(s) > What are Higher Order Functions in JavaScript? Explained With Examples
 icon: fa-brands fa-js

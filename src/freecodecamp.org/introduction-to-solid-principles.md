@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What are the SOLID Principles in Java? Explained With Code Examples
 description: Article(s) > What are the SOLID Principles in Java? Explained With Code Examples
 icon: iconfont icon-spring

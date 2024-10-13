@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
 description: "Article(s) > Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
 icon: fa-brands fa-python

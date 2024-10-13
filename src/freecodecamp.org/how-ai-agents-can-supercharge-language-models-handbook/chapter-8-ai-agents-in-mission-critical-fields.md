@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Chapter 8: AI Agents in Mission-Critical Fields"
 description: Article(s) > (9/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

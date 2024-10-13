@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Implement Server-Sent Events in Go 
 description: Article(s) > How to Implement Server-Sent Events in Go 
 icon: fa-brands fa-golang

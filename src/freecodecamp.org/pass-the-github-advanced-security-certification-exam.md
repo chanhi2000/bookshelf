@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Pass the GitHub Advanced Security Certification Exam
 description: Article(s) > Pass the GitHub Advanced Security Certification Exam
 icon: iconfont icon-github

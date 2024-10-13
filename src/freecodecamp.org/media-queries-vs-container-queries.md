@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Media Queries vs Container Queries – Which Should You Use and When?
 description: Article(s) > Media Queries vs Container Queries – Which Should You Use and When?
 icon: fa-brands fa-css3-alt

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
 description: Article(s) > Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
 icon: fa-brands fa-python

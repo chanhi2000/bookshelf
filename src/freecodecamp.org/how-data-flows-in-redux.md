@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Data Flow in Redux Explained – A State Management Handbook
 description: Article(s) > Data Flow in Redux Explained – A State Management Handbook
 icon: fa-brands fa-react

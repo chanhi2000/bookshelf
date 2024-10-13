@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Time To Live in Event-Driven Architecture in AWS
 description: Article(s) > How to Use Time To Live in Event-Driven Architecture in AWS
 icon: fa-brands fa-aws

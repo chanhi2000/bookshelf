@@ -46,7 +46,26 @@ const GITTING_THINGS_DONE_BOOK: SidebarInfoSubgroupTemplate = { // 2024-01-08
   ],
 }
 
-const APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK: SidebarInfoSubgroupTemplate = {
+const BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL: SidebarInfoSubgroupTemplate = { // 2024-06-04
+  text: 'How to Build and Deploy a Smart Contract With Rust and the Gear Protocol',
+  collapsible: true,
+  icon: 'fa-brands fa-rust',
+  subPath: 'build-and-deploy-smart-contract-rust-gear-protocol',
+  children: [
+    'README',
+    'introduction-to-vara-network-amp-gear-protocol',
+    'why-use-the-web2-analogy',
+    'message-based-communication',
+    'illustration',
+    'vara-networks-role',
+    'first-project-reading-a-joke',
+    'next-project-input-msg',
+    'metadata-amp-state',
+    'third-project-building-messages',
+    'final-project',
+  ],
+}
+const APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK: SidebarInfoSubgroupTemplate = { // 2024-06-04
   text: 'Applied Data Science with Python – Business Intelligence for Developers [Full Book]',
   collapsible: true,
   icon: 'fa-brands fa-python',
@@ -178,6 +197,8 @@ export const template: SidebarInfoTemplate = {
       "javascript-optional-chaining-explained", // 2020-08-26
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
       "how-to-make-api-calls-with-fetch", // 2021-06-03
+      "modules-in-javascript", // 2022-04-14
+      "an-introduction-to-programming-paradigms", // 2022-05-03
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       "loop-through-arrays-javascript", // 2023-10-31
       "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
@@ -217,6 +238,8 @@ export const template: SidebarInfoTemplate = {
       "what-are-type-predicates-in-typescript", // 2024-09-10
     ]],[
     "js-node", [
+      "node-js-basics", // 2023-07-26
+      // END: 2023js-node
       "what-is-dead-zone-in-javascript", // 2024-03-28
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
       "how-to-create-a-rest-api-without-a-server", // 2024-05-20
@@ -242,6 +265,10 @@ export const template: SidebarInfoTemplate = {
       "tools-for-code-reuse", // 2024-09-25
       "improve-front-end-development-workflow-with-zenui-library", // 2024-10-03
       "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
+      "how-to-merge-word-files-using-nodejs", // 2024-10-16
+      "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-16
+      "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
+      // END: js-node
     ]],[
     "js-react", [
       "learn-react-course", // 2018-12-19
@@ -249,10 +276,14 @@ export const template: SidebarInfoTemplate = {
       "react-router-cheatsheet", // 2021-04-19
       "react-context-for-beginners", // 2021-07-22
       "free-react-course-2022", // 2022-01-11
+      // END: 2022js-react
       "how-to-write-unit-tests-in-react", // 2023-01-24
       "usereducer-hook-react", // 2023-01-31
+      "how-to-build-a-react-app-different-ways", // 2023-03-14
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
+      "effective-error-handling-in-react-applications", // 2023-12-13
+      // END: 2023js-react
       "how-to-use-react-server-components", // 2024-01-08
       "master-react-by-building-25-projects", // 2024-02-07
       "throttling-in-javascript", // 2024-05-01
@@ -306,6 +337,9 @@ export const template: SidebarInfoTemplate = {
       "create-desktop-apps-with-electron-react-and-typescript", // 2024-10-08
       "javascript-refresher-for-react-beginners", // 2024-10-09
       "build-a-documentation-site-using-react-and-docusaraus", // 2024-10-10
+      "how-to-design-and-build-ui-components-with-ai", // 2024-10-15
+      "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
+      "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
       // END: js-react
     ]],[
     "js-vue", [
@@ -329,6 +363,7 @@ export const template: SidebarInfoTemplate = {
       "how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs", // 2024-10-03
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
+      "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
       // END: js-next
     ]],[
     "js-nest", [
@@ -343,11 +378,14 @@ export const template: SidebarInfoTemplate = {
       "set-up-authentication-in-apps-with-supabase", // 2024-01-29
       "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
       "authenticate-react-app-using-firebase", // 2024-10-02
+      "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
     ]],[
     "js-gatsby", [
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
     ]],[
     "css", [
+      "section-divider-using-css", // 2022-02-26
+      // END: 2022
       "perfect-html-input", // 2023-01-05
       "how-to-add-media-to-your-html-email-template", // 2024-04-23
       "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
@@ -359,6 +397,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-an-accessible-modal-with-example-code", // 2024-08-27
       "how-to-use-html-attributes-to-make-your-websites-and-apps-more-accessible", // 2024-09-06
       "how-to-use-css-to-improve-web-accessibility", // 2024-09-18
+      "rounded-and-curved-edge-css-shapes", // 2024-10-15
+      // END: css
     ]],[
     "css-tailwind", [
       "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
@@ -412,6 +452,7 @@ export const template: SidebarInfoTemplate = {
       WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK, // 2024-10-02
       "getting-started-with-matplotlib", // 2024-10-08
       "python-zip-function-explained-with-examples", // 2024-10-10
+      "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
       // END: py
     ]],[
     "py-django", [
@@ -443,7 +484,7 @@ export const template: SidebarInfoTemplate = {
     "rust", [
       "procedural-macros-in-rust", // 2024-04-24
       "rust-tutorial-build-a-json-parse", // 2024-05-29
-      "build-and-deploy-smart-contract-rust-gear-protocol", // 2024-06-04
+      BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
       "how-asynchronous-programming-works-in-rust", // 2024-08-15
       "how-to-blend-images-in-rust-using-pixel-math", // 2024-08-27
       "what-are-lifetimes-in-rust-explained-with-code-examples", // 2024-09-06
@@ -557,6 +598,7 @@ export const template: SidebarInfoTemplate = {
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
       "how-to-create-database-migrations-in-go", // 2024-06-26
       "ai-chatbot-with-spring-react-docker", // 2024-09-23
+      "how-to-self-host-a-container-registry", // 2024-10-16
     ]],[
     "k8s", [
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -579,6 +621,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
       "ecs-monitoring-explained-with-examples", // 2024-09-23
       "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
+      "aws-security-specialty-certification-study-tips", // 2024-10-16
+      "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
       // END: aws
     ]],[
     "azure", [
@@ -627,6 +671,12 @@ export const template: SidebarInfoTemplate = {
     "nmap", [
       "hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts", // 2024-10-03
     ]],[
+    "data-science", [
+      "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
+    ]],[
+    "mysql", [
+      "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
+    ]],[
     "postgres", [
       "postgresql-indexing-strategies", // 2023-05-12
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -634,6 +684,7 @@ export const template: SidebarInfoTemplate = {
       "nextjs-clerk-neon-fullstack-development", // 2024-07-10
       "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
       "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
+      "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
     ]],[
     "mongodb", [
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
@@ -642,6 +693,7 @@ export const template: SidebarInfoTemplate = {
       "integration-tests-using-testcontainers", // 2024-08-14
       "learn-the-mern-stack-by-building-a-store", // 2024-09-04
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
+      "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
     ]],[
     "sqlite", [
       "how-to-work-with-sql-databases-in-go", // 2024-09-24
@@ -663,6 +715,7 @@ export const template: SidebarInfoTemplate = {
     "xls", [
       "excel-vs-google-sheets-tables", // 2024-07-02
       "excel-for-data-visualization", // 2024-08-27
+      "microsoft-excel-keyboard-shortcuts", // 2024-10-16
     ]],[
     "ms365", [
       "pass-the-microsoft-365-certified-fundamentals-ms-900-exam", // 2024-09-26
@@ -675,6 +728,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "system-design", [
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
+      "rendering-patterns", // 2023-03-07
       "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
       "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
       "auto-scaling-and-load-balancing", // 2024-06-17
@@ -687,6 +741,10 @@ export const template: SidebarInfoTemplate = {
       "design-first-vs-logic-first-approach", // 2024-08-29
       "how-to-design-and-develop-web-apis-essential-guidelines.md", // 2024-10-07
       "essential-secure-design-principles-for-developers", // 2024-10-10
+      "how-cdns-improve-performance-in-front-end-projects", // 2024-10-15
+      "how-to-perform-a-web-accessibility-audit", // 2024-10-19
+      "how-to-maintain-soc-2-compliance", // 2024-10-16
+      // END: system-design
     ]],[
     "pm", [
       "what-is-trunk-based-development", // 2024-06-18
@@ -763,7 +821,7 @@ export const template: SidebarInfoTemplate = {
       "javascript-optional-chaining-explained", // 2020-08-26
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
-      // START: 2021
+      // END: 2020
       "jsx-in-react-introduction", // 2021-02-02
       "react-router-cheatsheet", // 2021-04-19
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
@@ -771,9 +829,11 @@ export const template: SidebarInfoTemplate = {
       "react-context-for-beginners", // 2021-07-22
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       // END: 2021
-      // START: 2022
       "free-react-course-2022", // 2022-01-11
+      "section-divider-using-css", // 2022-02-26
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
+      "modules-in-javascript", // 2022-04-14
+      "an-introduction-to-programming-paradigms", // 2022-05-03
       "the-most-popular-coding-challenge-websites", // 2022-06-16
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
       // END: 2022
@@ -782,13 +842,18 @@ export const template: SidebarInfoTemplate = {
       GITTING_THINGS_DONE_BOOK,  // 2023-01-08
       "usereducer-hook-react", // 2023-01-31
       "how-to-write-unit-tests-in-react", // 2023-01-24
+      "rendering-patterns", // 2023-03-07
+      "how-to-build-a-react-app-different-ways", // 2023-03-14
       "how-to-parse-a-string-in-python", // 2023-05-04
       "postgresql-indexing-strategies", // 2023-05-12
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
+      "node-js-basics", // 2023-07-26
       "loop-through-arrays-javascript", // 2023-10-31
       GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
+      "effective-error-handling-in-react-applications", // 2023-12-13
+      // END: 2023
       "how-to-use-react-server-components", // 2024-01-08
       "set-up-authentication-in-apps-with-supabase", // 2024-01-29
       "master-react-by-building-25-projects", // 2024-02-07
@@ -858,7 +923,7 @@ export const template: SidebarInfoTemplate = {
       "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
       "how-to-build-a-rating-component-with-the-react-compound-component-pattern", // 2024-06-03
-      "build-and-deploy-smart-contract-rust-gear-protocol", // 2024-06-04
+      BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
       APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK, // 2024-06-04
       "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
       "build-a-youtube-clone-with-flutter-firebase-and-riverpod", // 2024-06-04
@@ -1117,6 +1182,23 @@ export const template: SidebarInfoTemplate = {
       REACT_INTERVIEW_PREP_HANDBOOK, // 2024-10-11
       "how-to-use-git-stash-to-manage-code", // 2024-10-11
       "large-language-models-for-developers-and-businesses", // 2024-10-12
+      "build-a-countdown-timer-with-react-step-by-step", // 2024-10-14
+      "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
+      "how-cdns-improve-performance-in-front-end-projects", // 2024-10-15
+      "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
+      "how-to-design-and-build-ui-components-with-ai", // 2024-10-15
+      "rounded-and-curved-edge-css-shapes", // 2024-10-15
+      "aws-security-specialty-certification-study-tips", // 2024-10-16
+      "how-to-merge-word-files-using-nodejs", // 2024-10-16
+      "how-to-self-host-a-container-registry", // 2024-10-16
+      "microsoft-excel-keyboard-shortcuts", // 2024-10-16
+      "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
+      "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
+      "how-to-maintain-soc-2-compliance", // 2024-10-16
+      "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
+      "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
+      "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
+      "how-to-perform-a-web-accessibility-audit", // 2024-10-19
     ]],
   ]),
 }

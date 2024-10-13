@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "HEAD Method"
 description: "Article(s) > (6/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
 category:

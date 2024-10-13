@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Emulate Real Dependencies in Integration Tests using Testcontainers
 description: Article(s) > How to Emulate Real Dependencies in Integration Tests using Testcontainers
 icon: fa-brands fa-golang

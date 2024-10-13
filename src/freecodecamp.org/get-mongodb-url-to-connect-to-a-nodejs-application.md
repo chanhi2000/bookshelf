@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
 description: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
 icon: fa-brands fa-node

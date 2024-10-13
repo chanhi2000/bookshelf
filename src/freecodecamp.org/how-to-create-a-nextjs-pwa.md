@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How To Create a Progressive Web App (PWA) Using Next.js"
 description: "Article(s) > How To Create a Progressive Web App (PWA) Using Next.js"
 icon: iconfont icon-nextjs

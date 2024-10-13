@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Set Up Your Python Environment"
 description: Article(s) > (1/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

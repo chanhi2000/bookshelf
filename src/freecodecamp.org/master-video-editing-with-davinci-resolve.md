@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Master Video Editing with DaVinci Resolve"
 description: "Article(s) > Master Video Editing with DaVinci Resolve"
 icon: iconfont icon-davinci

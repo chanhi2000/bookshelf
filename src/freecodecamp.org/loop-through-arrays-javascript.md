@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Loop Through Arrays in JavaScript
 description: Article(s) > How to Loop Through Arrays in JavaScript
 icon: fa-brands fa-js

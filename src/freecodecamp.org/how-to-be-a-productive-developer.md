@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Be a Productive Developer
 description: Article(s) > How to Be a Productive Developer
 icon: fas fa-user-tie

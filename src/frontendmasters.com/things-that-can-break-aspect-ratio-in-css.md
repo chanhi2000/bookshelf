@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/asp
 <SiteInfo
   name="Things That Can Break aspect-ratio in CSS"
   desc="CSS has an aspect-ratio property, which has had full support since around 2021. It can be a very satisfying property to use, because it can help match how your brain 🧠 works or what the desired des…"
-  url="https://frontendmasters.com/news/things-that-can-break-aspect-ratio-in-css/"
+  url="https://frontendmasters.com/blog/things-that-can-break-aspect-ratio-in-css/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/aspect-ratio-thumb.jpg?w=1000&ssl=1"/>
 

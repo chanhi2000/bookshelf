@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Index Your Next.js Apps Faster Using IndexNow
 description: Article(s) > How to Index Your Next.js Apps Faster Using IndexNow
 icon: iconfont icon-nextjs

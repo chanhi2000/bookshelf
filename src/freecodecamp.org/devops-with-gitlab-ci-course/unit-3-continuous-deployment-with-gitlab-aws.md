@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Unit 3: Continuous Deployment with GitLab & AWS"
 description: (3/5) DevOps with GitLab CI Course
 category: 

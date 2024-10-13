@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Host Static Sites on Azure Static Web Apps for Free
 description: Article(s) > How to Host Static Sites on Azure Static Web Apps for Free
 icon: iconfont icon-microsoftazure

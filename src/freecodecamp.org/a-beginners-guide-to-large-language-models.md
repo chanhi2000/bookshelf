@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
 description: "Article(s) > A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
 icon: fas fa-language

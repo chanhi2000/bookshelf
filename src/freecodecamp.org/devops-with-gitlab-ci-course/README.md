@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: DevOps with GitLab CI Course
 description: Article(s) > DevOps with GitLab CI Course
 icon: fa-brands fa-gitlab

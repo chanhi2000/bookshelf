@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "JavaScript Fundamentals"
 description: "Article(s) > (1/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
 category:

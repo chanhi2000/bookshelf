@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "PHP Arrays in Practice: How to Rebuild the Football Team Cards Project with PHP and MongoDB"
 description: "Article(s) > PHP Arrays in Practice: How to Rebuild the Football Team Cards Project with PHP and MongoDB"
 icon: fa-brands fa-php

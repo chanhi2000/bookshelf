@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Host Your Project on GitHub – Explained With Examples
 description: Article(s) > How to Host Your Project on GitHub – Explained With Examples
 icon: iconfont icon-git

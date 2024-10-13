@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn High-Level System Design by Building a YouTube Clone
 description: Article(s) > Learn High-Level System Design by Building a YouTube Clone
 icon: fa-brands fa-react

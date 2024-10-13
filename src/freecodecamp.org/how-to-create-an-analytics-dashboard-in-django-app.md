@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to create an analytics dashboard in a Django app
 description: Article(s) > How to create an analytics dashboard in a Django app
 icon: iconfont icon-django

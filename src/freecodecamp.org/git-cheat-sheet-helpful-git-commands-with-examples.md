@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Git Cheat Sheet – Helpful Git Commands with Examples
 description: Article(s) > Git Cheat Sheet – Helpful Git Commands with Examples
 icon: iconfont icon-git
@@ -63,9 +63,11 @@ You'll also delve into specialized topics like squashing commits, bisecting to d
 
 As you progress, you'll learn how to maintain data integrity, manage multiple working trees, and resolve merge conflicts efficiently. By the end, you'll not only have a deeper understanding of Git but also the confidence to use it to streamline your workflow and enhance collaboration with peers.
 
-### Prerequisites
+::: note Prerequisites
 
 To fully benefit from this cheat sheet, you should have a foundational knowledge of command-line operations and general programming principles. You should also be familiar with using a terminal or command prompt so you can better understand and apply the examples provided. Finally, having a basic grasp of version control concepts will enhance your ability to navigate through this guide effectively.
+
+:::
 
 ---
 

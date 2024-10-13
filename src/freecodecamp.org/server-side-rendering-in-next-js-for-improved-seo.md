@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Server-Side Rendering in Next.js Apps for Better SEO
 description: Article(s) > How to Use Server-Side Rendering in Next.js Apps for Better SEO
 icon: iconfont icon-nextjs

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: 1. Project Setup
 description: (1/5) Get started with Quarkus and JPAStreamer
 category: 

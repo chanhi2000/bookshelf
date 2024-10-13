@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Does Knowledge Distillation Work in Deep Learning Models?
 description: Article(s) > How Does Knowledge Distillation Work in Deep Learning Models?
 icon: fas fa-brain

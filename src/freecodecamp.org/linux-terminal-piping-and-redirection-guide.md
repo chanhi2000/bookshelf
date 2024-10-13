@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Piping and Redirection in the Linux Terminal
 description: Article(s) > How to Use Piping and Redirection in the Linux Terminal
 icon: iconfont icon-shell

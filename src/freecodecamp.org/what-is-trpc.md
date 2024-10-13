@@ -64,9 +64,7 @@ In this article, I want to go deeper into the roots of this iceberg and understa
 
 Note that I'm a fellow learner writing this article. I'm exploring tRPC for the first time alongside you, based on articles I've studied. It's aimed at beginners and new learners. Let's dive in together.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 1. Intermediate JavaScript Knowledge.
 2. Basic TypeScript Knowledge.
@@ -76,6 +74,8 @@ Note that I'm a fellow learner writing this article. I'm exploring tRPC for the 
 6. Experience with using NPM and its commands.
 7. Experience with using CORS and connecting front-end/back-end.
 8. Enjoying learning something new.
+
+:::
 
 You can find the GitHub repository and all other resources for this article [here (<FontIcon icon="iconfont icon-github"/>`whyafan/trpc-demo`)](https://github.com/whyafan/trpc-demo).
 

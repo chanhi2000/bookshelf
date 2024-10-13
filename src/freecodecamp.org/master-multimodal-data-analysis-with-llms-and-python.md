@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Master Multimodal Data Analysis with LLMs and Python"
 description: "Article(s) > Master Multimodal Data Analysis with LLMs and Python"
 icon: fa-brands fa-python

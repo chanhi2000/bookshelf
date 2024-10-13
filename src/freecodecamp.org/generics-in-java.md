@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Generics in Java – Explained with Code Examples
 description: Article(s) > How to Use Generics in Java – Explained with Code Examples
 icon: fa-brands fa-java

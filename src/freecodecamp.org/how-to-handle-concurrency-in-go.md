@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Handle Concurrency with Goroutines and Channels in Go
 description: Article(s) > How to Handle Concurrency with Goroutines and Channels in Go
 icon: fa-brands fa-golang

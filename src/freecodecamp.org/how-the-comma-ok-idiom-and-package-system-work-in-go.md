@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How the Comma Ok Idiom and Package System Work in Go 
 description: Article(s) > How the Comma Ok Idiom and Package System Work in Go 
 icon: fa-brands fa-golang

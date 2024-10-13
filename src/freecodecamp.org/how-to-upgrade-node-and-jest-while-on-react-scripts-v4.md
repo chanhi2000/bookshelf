@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Upgrade from Node 16 and Jest 26 While Staying on React Scripts 4
 description: Article(s) > How to Upgrade from Node 16 and Jest 26 While Staying on React Scripts 4
 icon: fa-brands fa-npm

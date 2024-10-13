@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Infinite Scrolling in React Using the Intersection Observer API
 description: Article(s) > How to Create Infinite Scrolling in React Using the Intersection Observer API
 icon: fa-brands fa-react

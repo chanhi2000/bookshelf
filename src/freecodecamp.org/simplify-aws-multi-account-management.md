@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Simplify AWS Multi-Account Management with Terraform and GitOps
 description: Article(s) > How to Simplify AWS Multi-Account Management with Terraform and GitOps
 icon: fa-brands fa-aws

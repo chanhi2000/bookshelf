@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Master the Azure DevOps Engineer Expert Certification (AZ-400)
 description: Article(s) > Master the Azure DevOps Engineer Expert Certification (AZ-400)
 icon: iconfont icon-microsoftazure

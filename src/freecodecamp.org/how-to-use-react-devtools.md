@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use React Developer Tools – Explained With Examples
 description: Article(s) > How to Use React Developer Tools – Explained With Examples
 icon: fa-brands fa-react

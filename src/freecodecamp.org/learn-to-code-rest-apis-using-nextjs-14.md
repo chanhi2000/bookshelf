@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn to Code REST APIs using Next.js 14
 description: Article(s) > Learn to Code REST APIs using Next.js 14
 icon: iconfont icon-nextjs

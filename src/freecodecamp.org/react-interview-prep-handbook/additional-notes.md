@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Additional Notes"
 description: "Article(s) > (6/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
 category:

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Essential JavaScript Concepts to Know Before Learning React – With Code Examples
 description: Article(s) > Essential JavaScript Concepts to Know Before Learning React – With Code Examples
 icon: fa-brands fa-react

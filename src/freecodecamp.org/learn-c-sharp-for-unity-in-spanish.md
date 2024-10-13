@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn C# for Unity in Spanish
 description: Article(s) > Learn C# for Unity in Spanish
 icon: iconfont icon-csharp

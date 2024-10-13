@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "More Secure Authentication: From Passwords to Passkeys"
 description: "Article(s) > More Secure Authentication: From Passwords to Passkeys"
 icon: fas fa-shield-halved

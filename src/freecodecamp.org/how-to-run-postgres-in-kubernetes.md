@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Run a Postgres Database in Azure Kubernetes Service and Integrate it with a Node.js Express Application
 description: Article(s) > How to Run a Postgres Database in Azure Kubernetes Service and Integrate it with a Node.js Express Application
 icon: iconfont icon-microsoftazure

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "7. Analyzing The Results"
 description: "Article(s) > (7/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

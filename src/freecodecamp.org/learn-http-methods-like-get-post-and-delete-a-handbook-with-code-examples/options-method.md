@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "OPTIONS Method"
 description: "Article(s) > (7/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
 category:

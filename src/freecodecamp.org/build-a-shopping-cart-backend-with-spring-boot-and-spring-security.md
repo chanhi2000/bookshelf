@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Build a Shopping Cart Backend with Spring Boot and Spring Security
 description: Article(s) > Build a Shopping Cart Backend with Spring Boot and Spring Security
 icon: iconfont icon-spring

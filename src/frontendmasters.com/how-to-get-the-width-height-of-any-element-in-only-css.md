@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Scr
 <SiteInfo
   name="How to Get the Width/Height of Any Element in Only CSS"
   desc="Unlike JavaScript, there is no simple built-in method in CSS to access an element's width and height. But using some (call it hacky) modern CSS techniques, we can get our hands on the number and even use it."
-  url="https://frontendmasters.com/news/how-to-get-the-width-height-of-any-element-in-only-css/"
+  url="https://frontendmasters.com/blog/how-to-get-the-width-height-of-any-element-in-only-css/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Screenshot-2024-07-24-at-9.46.11%E2%80%AFAM.png?resize=1024%2C526&ssl=1"/>
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build an Application With Node.js"
 description: "Article(s) > How to Build an Application With Node.js"
 icon: fa-brands fa-node

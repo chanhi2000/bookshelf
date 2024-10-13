@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is Accessibility in Web Development? Best Practices for Web Accessibility
 description: Article(s) > What is Accessibility in Web Development? Best Practices for Web Accessibility
 icon: fas fa-pen-ruler

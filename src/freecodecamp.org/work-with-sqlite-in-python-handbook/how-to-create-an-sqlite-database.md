@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Create an SQLite Database"
 description: Article(s) > (2/11) How to Work with SQLite in Python – A Handbook for Beginners 
 category:

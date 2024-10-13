@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: A Guide to the Node.js Event Loop
 description: Article(s) > A Guide to the Node.js Event Loop
 icon: fa-brands fa-node

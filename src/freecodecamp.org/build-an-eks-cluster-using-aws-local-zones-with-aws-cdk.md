@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build an EKS Cluster Across AWS Local Zones using the AWS CDK
 description: Article(s) > How to Build an EKS Cluster Across AWS Local Zones using the AWS CDK
 icon: fa-brands fa-aws
@@ -91,13 +91,15 @@ We'll walk through these steps in this guide.
 
 ![Architecture Diagram](https://lh3.googleusercontent.com/-kdtf6vkPfxVY3aLcGpqQI5wczBZXfcScdCz2z1bhNSuawjGEJyLEznPfB5mqnupfuVsPCNybRHJViCjLTxKmF5F2zq82LdHvRmnItjDFTrPDtTRhAzAgr7ToL8bhuymqSkCpVei2VcPyFdjz7YQC_w)
 
-### Prerequisites
+::: note Prerequisites
 
 Before we begin, you need to have the following:
 
 1. An AWS account with permissions to create resources in AWS Wavelength and AWS Local Zones.
 2. AWS CDK installed on your local machine. If you don't have it installed, you can follow the instructions in the AWS CDK documentation to install it.
 3. AWS CLI installed on your local machine. If you don't have it installed, you can follow the instructions in the AWS CLI documentation to install it.
+
+:::
 
 Finally, let’s get started.
 

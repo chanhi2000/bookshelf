@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Transform an Angular Application with Signals
 description: Article(s) > How to Transform an Angular Application with Signals
 icon: fa-brands fa-angular
@@ -63,9 +63,7 @@ Signals give you control over change detection, and prevent unwanted updates to 
 
 [[toc]]
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 To follow this tutorial you must meet below prerequisites:
 
@@ -75,6 +73,8 @@ To follow this tutorial you must meet below prerequisites:
 - A code editor installed on your machine. This tutorial has been developed using Visual Studio Code, but any code editor should work.
 
 ![node, npm, and git version in the terminal](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeA5rN06IP7YBlURVo8cJ24QdPVik3dxCci04fP3Yp9otnbB5A13q49K5OrmOKon9EUDRgEpxWXKV08dmkcSJtDkT0u4Ceq3mD_ER2aqJSCyshULZIcQBWz9MP-JC3faqWqE79fHIfsrfRvLw63JAQs0pQ?key=SIi3jhbWSizs2BNTxpZ_RQ)
+
+:::
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
 description: Article(s) > How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
 icon: fa-brands fa-golang

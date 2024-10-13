@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance
 description: Article(s) > Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance
 icon: fa-brands fa-python

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
 description: Article(s) > How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
 icon: fa-brands fa-php

@@ -48,6 +48,7 @@ import { template as TEMPLATE_ANTONIOLEIVA } from './antonioleiva.com';
 import { template as TEMPLATE_ZUMINTERNET } from './zuminternet.github.io';
 import { template as TEMPLATE_IMQA } from './blog.imqa.io';
 import { template as TEMPLATE_AB180 } from './engineering.ab180.co';
+import { template as TEMPLATE_CODING_EVERYBODY } from './codingeverybody.kr';
 
 const EXT_MD = "md";
 const DEFAULT_KEY_ALL = "all"
@@ -152,4 +153,5 @@ export const articleSidebars = {
   zuminternet:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ZUMINTERNET, type),
   imqa:               (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_IMQA, type),
   ab180:              (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_AB180, type),
+  codingEverybody:    (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CODING_EVERYBODY, type),
 }

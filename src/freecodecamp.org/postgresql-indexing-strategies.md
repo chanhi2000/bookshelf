@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Advanced Indexing Strategies in PostgreSQL
 description: Article(s) > Advanced Indexing Strategies in PostgreSQL
 icon: fa-brands fa-php

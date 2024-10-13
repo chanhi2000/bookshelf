@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How Event Handling Works in Vue 3: A Guide for Developers"
 description: "Article(s) > How Event Handling Works in Vue 3: A Guide for Developers"
 icon: fa-brands fa-vuejs

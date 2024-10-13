@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use React Router to Build Single Page Applications
 description: Article(s) > How to Use React Router to Build Single Page Applications
 icon: fa-brands fa-react

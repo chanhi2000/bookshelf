@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Chart js for Interactive Data Visualization
 description: Article(s) > How to Use Chart js for Interactive Data Visualization
 icon: fa-brands fa-js

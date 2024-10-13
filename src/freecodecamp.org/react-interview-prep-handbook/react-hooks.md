@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "React Hooks"
 description: "Article(s) > (3/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
 category:

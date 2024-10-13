@@ -49,7 +49,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ima
 <SiteInfo
   name="Prefetching When Server Loading Won’t Do"
   desc="We'll look at how to use @auth/core, add a Google Provider, and get our sessions persisting in DynamoDB. There is a GitHub repo for reference on everything."
-  url="https://frontendmasters.com/news/prefetching-when-server-loading-wont-do/"
+  url="https://frontendmasters.com/blog/prefetching-when-server-loading-wont-do/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/image-3.png?w=1792&ssl=1"/>
 

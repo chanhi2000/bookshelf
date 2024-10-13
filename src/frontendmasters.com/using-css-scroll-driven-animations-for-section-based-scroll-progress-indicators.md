@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ima
 <SiteInfo
   name="Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators"
   desc="A scroll progress indicator is a pretty straightforward thing to build with a scroll()-style scroll-driven animation. But here, we'll build indicators for each section of a page using the view() style."
-  url="https://frontendmasters.com/news/using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators/"
+  url="https://frontendmasters.com/blog/using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/image.png?resize=1024%2C585&ssl=1"/>
 

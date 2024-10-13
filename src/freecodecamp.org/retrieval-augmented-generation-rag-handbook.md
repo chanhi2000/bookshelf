@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Next-Gen Large Language Models: The Retrieval-Augmented Generation (RAG) Handbook"
 description: "Article(s) > Next-Gen Large Language Models: The Retrieval-Augmented Generation (RAG) Handbook"
 icon: fa-brands fa-python

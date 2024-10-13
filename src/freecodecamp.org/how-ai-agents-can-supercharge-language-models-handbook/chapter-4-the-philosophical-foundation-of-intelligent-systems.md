@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Chapter 4: The Philosophical Foundation of Intelligent Systems"
 description: Article(s) > (5/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

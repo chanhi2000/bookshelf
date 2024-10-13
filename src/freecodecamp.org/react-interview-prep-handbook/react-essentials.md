@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "React Essentials"
 description: "Article(s) > (2/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
 category:

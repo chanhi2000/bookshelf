@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Breakpoints for Responsive Web Design
 description: Article(s) > How to Use Breakpoints for Responsive Web Design
 icon: fa-brands fa-css3-alt

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: PySpark for Beginners – How to Process Data with Apache Spark & Python
 description: Article(s) > PySpark for Beginners – How to Process Data with Apache Spark & Python
 icon: fa-brands fa-python

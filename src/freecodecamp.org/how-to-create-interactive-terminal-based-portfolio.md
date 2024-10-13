@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create an Interactive Terminal-Based Portfolio Website
 description: Article(s) > How to Create an Interactive Terminal-Based Portfolio Website
 icon: iconfont icon-jQuery

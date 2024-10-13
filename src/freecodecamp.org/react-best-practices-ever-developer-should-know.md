@@ -68,11 +68,11 @@ Let’s say you have a knife and I ask you to cut out some shapes from a piece o
 
 This guide is like that optimised approach of cutting cloth with scissors instead of a knife. I’ll teach you how to use React more easily, without as much struggle. We’ll discuss the important aspects of how React Hooks work, and we’ll also cover some do’s & don’ts.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 There is only one main prerequisite for following this guide: you should have used React hooks at least once. And by this I mean developed an application with React that leverages the power of hooks.
+
+:::
 
 This article is for everyone who wishes to use React hooks to their full potential.
 

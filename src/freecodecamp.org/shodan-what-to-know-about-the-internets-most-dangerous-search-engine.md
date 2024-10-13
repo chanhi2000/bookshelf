@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
 description: "Article(s) > Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
 icon: fas fa-shield-halved

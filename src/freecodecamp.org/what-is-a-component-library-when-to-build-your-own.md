@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is a Component Library? When to Build Your Own and When to Use Someone Else's
 description: Article(s) > What is a Component Library? When to Build Your Own and When to Use Someone Else's
 icon: fa-brands fa-js

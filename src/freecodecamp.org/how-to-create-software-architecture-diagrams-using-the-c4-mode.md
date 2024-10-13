@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Create Software Architecture Diagrams Using the C4 Model"
 description: "Article(s) > How to Create Software Architecture Diagrams Using the C4 Model"
 icon: fas fa-pen-ruler

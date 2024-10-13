@@ -66,9 +66,7 @@ Throughout this tutorial, you'll learn how to create, read, update, and delete T
 
 Before we dive in, let's ensure you're equipped with the necessary prerequisites.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 Before you get started, make sure you have the necessary tools installed on your machine. Here are the download links:
 
@@ -77,6 +75,8 @@ Before you get started, make sure you have the necessary tools installed on your
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 - [Postman](https://postman.com/downloads/)
 - [SQLServer](https://microsoft.com/en-us/sql-server/sql-server-downloads)
+
+:::
 
 After installing the .NET SDK, it's important to verify its installation and check the version. For this tutorial, we'll be using .NET 8.0. To check the version of the .NET SDK installed on your machine, open the terminal and run the following command:
 

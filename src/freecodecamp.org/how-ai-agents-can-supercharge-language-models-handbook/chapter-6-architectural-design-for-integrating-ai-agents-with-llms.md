@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Chapter 6: Architectural Design for Integrating AI Agents with LLMs"
 description: Article(s) > (7/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

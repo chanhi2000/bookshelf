@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/cHJ
 <SiteInfo
   name="The Pitfalls of In-App Browsers"
   desc="You should know that in-app browser can and do literally inject JavaScript into the websites you visit with them with tracking scripts from the app you're inside of. And that's just one thing that sucks about them."
-  url="https://frontendmasters.com/news/the-pitfalls-of-in-app-browsers/"
+  url="https://frontendmasters.com/blog/the-pitfalls-of-in-app-browsers/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2Zyd2FybmluZ19zaWduX3NpZ25fd2FybmluZy1pbWFnZS1reWJhYjFtaC5qcGc.webp?w=1024&ssl=1"/>
 

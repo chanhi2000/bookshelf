@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Create 24 CSS Projects
 description: Article(s) > Create 24 CSS Projects
 icon: fa-brands fa-css3-alt

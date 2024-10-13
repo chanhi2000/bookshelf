@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Prepare to pass the AWS SysOps Administrator Associate (SOA-C02) Certification
 description: Article(s) > Prepare to pass the AWS SysOps Administrator Associate (SOA-C02) Certification
 icon: fa-brands fa-aws

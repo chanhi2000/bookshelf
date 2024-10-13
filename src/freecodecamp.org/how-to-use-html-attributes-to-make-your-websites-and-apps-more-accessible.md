@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use HTML Attributes to Make Your Websites and Apps More Accessible
 description: Article(s) > How to Use HTML Attributes to Make Your Websites and Apps More Accessible
 icon: fa-brands fa-css3-alt
@@ -49,11 +49,11 @@ Have you ever used an attribute in HTML without fully understanding its purpose?
 
 In this in-depth tutorial, I'll break down some key HTML attributes that enhance accessibility, explaining what they do, and when to use them effectively.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 To follow along with this tutorial, you should have a basic understanding of HTML and a little bit of Javascript knowledge as well.
+
+:::
 
 [[toc]]
 

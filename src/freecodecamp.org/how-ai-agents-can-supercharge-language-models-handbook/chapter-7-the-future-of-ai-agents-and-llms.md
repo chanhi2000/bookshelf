@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Chapter 7: The Future of AI Agents and LLMs"
 description: Article(s) > (8/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

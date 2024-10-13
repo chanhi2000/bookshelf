@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "8. Conclusion and Future Steps"
 description: "Article(s) > (8/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

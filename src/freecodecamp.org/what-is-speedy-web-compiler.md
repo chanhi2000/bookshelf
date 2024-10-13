@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What is Speedy Web Compiler? SWC Explained With Examples"
 description: "Article(s) > What is Speedy Web Compiler? SWC Explained With Examples"
 icon: iconfont icon-nextjs

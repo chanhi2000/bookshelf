@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Change Background Color with JavaScript – BG Color in JS and HTML
 description: Article(s) > How to Change Background Color with JavaScript – BG Color in JS and HTML
 icon: fa-brands fa-js

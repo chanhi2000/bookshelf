@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Using Entity Framework Core with MongoDB
 description: Article(s) > Using Entity Framework Core with MongoDB
 icon: iconfont icon-csharp

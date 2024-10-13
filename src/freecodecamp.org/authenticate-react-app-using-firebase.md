@@ -77,13 +77,13 @@ In this article, I’ll walk you through the steps to authenticate your app usin
 
 By the end of this article, you'll have a fully functional authentication system that allows users to sign up, sign in, and manage their accounts securely.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 Before we begin, you need to have the following:
 
 - **A Google Account**: Firebase is a Google product, and you need a Google account to access the Firebase Console and use Firebase services. If you don’t have a Google account, [<FontIcon icon="fa-brands fa-google"/>you can create one here](https://support.google.com/mail/answer/56256?hl=en).
+
+:::
 
 ---
 

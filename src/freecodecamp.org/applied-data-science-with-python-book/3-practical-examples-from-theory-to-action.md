@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "3. Practical Examples: From Theory to Action"
 description: "Article(s) > (3/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

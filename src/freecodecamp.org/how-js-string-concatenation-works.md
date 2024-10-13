@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: JavaScript Concatenate Strings – How JS String Concatenation Works
 description: Article(s) > JavaScript Concatenate Strings – How JS String Concatenation Works
 icon: fa-brands fa-js

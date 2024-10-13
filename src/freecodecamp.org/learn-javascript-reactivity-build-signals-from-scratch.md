@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn JavaScript Reactivity: How to Build Signals from Scratch"
 description: "Article(s) > Learn JavaScript Reactivity: How to Build Signals from Scratch"
 icon: fa-brands fa-node

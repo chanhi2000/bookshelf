@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/dri
 <SiteInfo
   name="Introducing Drizzle"
   desc="Drizzle is a new ORM tool that blends traditional ORM querying with a typed SQL API. Drizzle supports various databases (Postgres, MySQL, SQLite) and aims to simplify SQL crafting while avoiding common ORM pitfalls."
-  url="https://frontendmasters.com/news/introducing-drizzle/"
+  url="https://frontendmasters.com/blog/introducing-drizzle/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/drizzle-thumb.jpg?w=1000&ssl=1"/>
 

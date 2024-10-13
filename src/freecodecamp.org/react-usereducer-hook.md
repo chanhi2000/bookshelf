@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use the useReducer Hook in React
 description: Article(s) > How to Use the useReducer Hook in React
 icon: fa-brands fa-react

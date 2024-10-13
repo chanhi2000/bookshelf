@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
 description: "Article(s) > The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
 icon: fas fa-brain

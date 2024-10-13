@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Build a Realtime Chart with React, HighCharts, and Pusher
 description: Article(s) > How to Build a Realtime Chart with React, HighCharts, and Pusher
 icon: fa-brands fa-react

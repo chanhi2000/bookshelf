@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Git Submodules – Explained With Examples
 description: Article(s) > How to Use Git Submodules – Explained With Examples
 icon: iconfont icon-git

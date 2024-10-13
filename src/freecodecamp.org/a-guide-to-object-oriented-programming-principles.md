@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: A Guide to Object-Oriented Programming Principles
 description: Article(s) > A Guide to Object-Oriented Programming Principles
 icon: fa-brands fa-java

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
 description: Article(s) > How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
 icon: fa-brands fa-js

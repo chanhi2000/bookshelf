@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Develop a CRUD App with Spring Boot, Neon Postgres, and Azure App Service
 description: Article(s) > How to Develop a CRUD App with Spring Boot, Neon Postgres, and Azure App Service
 icon: iconfont icon-spring
@@ -91,14 +91,14 @@ You'll learn how Neon Postgres can make your development and deployment processe
 - Why Neon is a good fit for infrastructure that auto-scales
 - Database branching in Neon Postgres and how it can ease the development workflow
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 - Working knowledge of Java, Maven, and Spring Boot
 - Basics of SQL databases
 - Understanding of serverless and cloud services
 - Familiarity with testing and deployment processes
+
+:::
 
 [[toc]]
 

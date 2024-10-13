@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: What is Throttling in JavaScript? Explained with a Simple React Use Case
 description: Article(s) > What is Throttling in JavaScript? Explained with a Simple React Use Case
 icon: fa-brands fa-react

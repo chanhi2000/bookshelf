@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Part 3 - Undoing Changes
 description: Article(s) > (4/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
 category: 

@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/pop
 <SiteInfo
   name="Using the Popover API for HTML Tooltips"
   desc="We can *mostly* use HTML alone for this API. But here, we'll use CSS to style the “links” within paragraphs and a js library to position them, in lieu of css anchoring."
-  url="https://frontendmasters.com/news/using-the-popover-api-for-html-tooltips/"
+  url="https://frontendmasters.com/blog/using-the-popover-api-for-html-tooltips/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/popup-thumb.jpg?w=1000&ssl=1"/>
 

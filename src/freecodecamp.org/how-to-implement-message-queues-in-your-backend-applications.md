@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Implement Message Queues in Your Backend Applications"
 description: "Article(s) > How to Implement Message Queues in Your Backend Applications"
 icon: fa-brands fa-node

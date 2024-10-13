@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Handle File Uploads in NestJS with Multer
 description: Article(s) > How to Handle File Uploads in NestJS with Multer
 icon: iconfont icon-nestjs
@@ -56,17 +56,17 @@ Uploading files is an important need in many applications. Using Multer, you can
 
 In this guide, we’ll walk through the steps to create a resource dedicated to file uploads, ensuring that your application can easily manage user files. You'll configure your application to handle files securely and seamlessly.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 This is a hands-on guide. To follow along, you must have the following things:
 
-- Node.js (v14 and above)
-- Node package manager
+- <FontIcon icon="fa-brands fa-node"/>Node.js (v14 and above)
+- <FontIcon icon="fa-brands fa-npm"/>Node package manager
 - Basic understanding of Node.js and NestJS
 - A code editor, like VS Code
 - NestJS CLI. You can use the `npm install -g @nestjs/cli` command to install the CLI.
+
+:::
 
 ---
 

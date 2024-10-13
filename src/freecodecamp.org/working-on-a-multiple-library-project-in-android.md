@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Work on a Multi-Library Project in Android – Locally and Remotely
 description: Article(s) > How to Work on a Multi-Library Project in Android – Locally and Remotely
 icon: fa-brands fa-android

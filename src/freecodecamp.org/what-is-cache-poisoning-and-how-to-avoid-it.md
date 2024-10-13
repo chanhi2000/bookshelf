@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "What is Cache Poisoning? How Hackers Manipulate Web Caches and How to Avoid It"
 description: "Article(s) > What is Cache Poisoning? How Hackers Manipulate Web Caches and How to Avoid It"
 icon: fas fa-shield-halved

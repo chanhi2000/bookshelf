@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Improve Your Digital Security and Privacy – Best Practices for Developers"
 description: "Article(s) > How to Improve Your Digital Security and Privacy – Best Practices for Developers"
 icon: fas fa-shield-halved

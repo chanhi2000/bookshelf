@@ -45,7 +45,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/pop
 <SiteInfo
   name="Popover API is Here"
   desc="Checkboxes and labels used to have to be right next to each other to be a potent UI duo. You could do trickery like this:"
-  url="https://frontendmasters.com/news/popover-api-is-here/"
+  url="https://frontendmasters.com/blog/popover-api-is-here/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/popup-thumb.jpg?w=1000&ssl=1"/>
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "4. Data Analysis Fundamentals: The Art of Making Sense of Data"
 description: "Article(s) > (4/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

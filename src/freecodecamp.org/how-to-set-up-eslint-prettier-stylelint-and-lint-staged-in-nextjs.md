@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Set Up ESLint, Prettier, StyleLint, and lint-staged in Next.js"
 description: "Article(s) > How to Set Up ESLint, Prettier, StyleLint, and lint-staged in Next.js"
 icon: iconfont icon-nextjs

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "1. Python Foundations: Building Blocks for Data Mastery"
 description: "Article(s) > (1/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
 category: 

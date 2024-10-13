@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Mastering VIM: Your Guide to Efficient Text Editing"
 description: "Article(s) > Mastering VIM: Your Guide to Efficient Text Editing"
 icon: iconfont icon-vim

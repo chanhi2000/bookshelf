@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn ml5.js for Machine Learning in JavaScript"
 description: "Article(s) > Learn ml5.js for Machine Learning in JavaScript"
 icon: fa-brands fa-node

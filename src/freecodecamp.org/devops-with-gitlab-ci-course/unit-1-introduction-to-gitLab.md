@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Unit 1: Introduction to GitLab"
 description: (1/5) DevOps with GitLab CI Course
 category: 

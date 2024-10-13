@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Future-Proof Your Software Engineering Career for the Age of AGI"
 description: "Article(s) > How to Future-Proof Your Software Engineering Career for the Age of AGI"
 icon: fas fa-brain

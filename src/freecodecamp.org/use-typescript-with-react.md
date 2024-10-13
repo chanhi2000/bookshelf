@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use TypeScript with React
 description: Article(s) > How to Use TypeScript with React
 icon: fa-brands fa-react

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "DELETE Method"
 description: "Article(s) > (5/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
 category:

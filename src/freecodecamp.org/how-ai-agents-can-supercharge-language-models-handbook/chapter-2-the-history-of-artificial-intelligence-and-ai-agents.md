@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Chapter 2: The History of Artificial Intelligence and AI-Agents"
 description: Article(s) > (3/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
 category: 

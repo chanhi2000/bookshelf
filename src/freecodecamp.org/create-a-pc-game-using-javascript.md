@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Create a PC game using JavaScript"
 description: "Article(s) > Create a PC game using JavaScript"
 icon: fa-brands fa-node

@@ -77,11 +77,13 @@ The project we'll build explores a Subgrid solution in a few lines of CSS code t
 
 Check it out on [<FontIcon icon="fa-brands fa-codepen"/>Codepen](https://codepen.io/ophyboamah/pen/OJevpQP).
 
-### Prerequisites
+::: note Prerequisites
 
 - Basic knowledge of HTML and CSS (For a refresher on how CSS Grid works, check out [my previous article on Web Layouts](/freecodecamp.org/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.md))
 - An IDE (text editor)
 - A web browser
+
+:::
 
 Since the focus of this article is Subgrid, we won't place a lot of emphasis on the starting HTML and CSS code. We'll just go through quickly first so you can set up. Then we'll dive into learning how to add Subgrid.
 

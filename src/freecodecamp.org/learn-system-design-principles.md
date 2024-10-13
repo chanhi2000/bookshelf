@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn System Design Principles and Prepare for an Job Interview
 description: Article(s) > Learn System Design Principles and Prepare for an Job Interview
 icon: fas fa-pen-ruler

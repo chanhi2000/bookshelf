@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Use Variables and Data Types in JavaScript – Explained With Code Examples
 description: Article(s) > How to Use Variables and Data Types in JavaScript – Explained With Code Examples
 icon: fa-brands fa-js

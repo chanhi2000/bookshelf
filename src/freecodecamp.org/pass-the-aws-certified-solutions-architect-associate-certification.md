@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Pass the AWS Certified Solutions Architect - Associate Certification
 description: Article(s) > Pass the AWS Certified Solutions Architect - Associate Certification
 icon: fas fa-square-root-variable

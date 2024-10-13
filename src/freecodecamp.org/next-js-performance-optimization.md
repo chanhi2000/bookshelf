@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Optimize Next.js App Performance With Lazy Loading
 description: Article(s) > How to Optimize Next.js App Performance With Lazy Loading
 icon: iconfont icon-nextjs

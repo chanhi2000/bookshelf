@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Build a Quantum AI Model for Predicting Iris Flower Data with Python"
 description: "Article(s) > How to Build a Quantum AI Model for Predicting Iris Flower Data with Python"
 icon: iconfont icon-numpy

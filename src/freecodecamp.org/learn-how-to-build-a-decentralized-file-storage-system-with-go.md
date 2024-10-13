@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Learn How to Build a Decentralized File Storage System with Go
 description: Article(s) > Learn How to Build a Decentralized File Storage System with Go
 icon: fa-brands fa-golang

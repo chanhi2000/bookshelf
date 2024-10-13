@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Effectively Manage Unique Identifiers at Scale: From GUIDs to Snowflake IDs and Other Modern Solutions"
 description: "Article(s) > How to Effectively Manage Unique Identifiers at Scale: From GUIDs to Snowflake IDs and Other Modern Solutions"
 icon: fas fa-pen-ruler

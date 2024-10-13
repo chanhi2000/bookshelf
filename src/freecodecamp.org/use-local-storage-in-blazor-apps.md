@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Add Local Storage to Your Blazor Apps with Blazored.LocalStorage
 description: Article(s) > How to Add Local Storage to Your Blazor Apps with Blazored.LocalStorage
 icon: iconfont icon-csharp

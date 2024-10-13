@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Parse a String in Python – Parsing Strings Explained
 description: Article(s) > How to Parse a String in Python – Parsing Strings Explained
 icon: fa-brands fa-python

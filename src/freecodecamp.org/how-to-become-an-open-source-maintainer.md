@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Become an Open Source Project Maintainer
 description: Article(s) > How to Become an Open Source Project Maintainer
 icon: iconfont icon-github

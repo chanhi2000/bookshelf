@@ -64,13 +64,13 @@ For bootloader or kernel developers, understanding what features a processor sup
 
 In this article you will learn how to check if the CPUID instruction is available for your system, how it works and what information you can get from using it.
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 - Some knowledge of assembly language (for this example I use FASM)
 - Some knowledge of operating systems/kernels
 - Access to low-level debugging tools (for example, GDB) or hardware emulators like QEMU to test your bootloader/kernel on various platforms.
+
+:::
 
 ---
 

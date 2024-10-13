@@ -44,7 +44,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/czN
 <SiteInfo
   name="Script Integrity"
   desc="Polyfill.io recently served malicious code, redirecting users to inappropriate sites. Subresource Integrity (SRI) can help prevent such issues by verifying script integrity."
-  url="https://frontendmasters.com/news/script-integrity/"
+  url="https://frontendmasters.com/blog/script-integrity/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJiYXJiZWRfd2lyZV9mZW5jZV9vbGQtaW1hZ2Uta3liZWI4M2IuanBn.webp?w=1024&ssl=1"/>
 

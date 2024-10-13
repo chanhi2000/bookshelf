@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Deploy Your Node.js App on Azure
 description: Article(s) > How to Deploy Your Node.js App on Azure
 icon: iconfont icon-microsoftazure

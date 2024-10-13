@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: React Context API Explained with Examples
 description: Article(s) > React Context API Explained with Examples
 icon: fa-brands fa-react

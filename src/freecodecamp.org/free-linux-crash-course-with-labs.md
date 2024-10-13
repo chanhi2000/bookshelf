@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Free Linux Crash Course with Labs
 description: Article(s) > Free Linux Crash Course with Labs
 icon: iconfont icon-centos

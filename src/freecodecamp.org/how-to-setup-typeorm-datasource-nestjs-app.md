@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How To Set Up TypeORM DataSource in Your NestJS Project
 description: Article(s) > How To Set Up TypeORM DataSource in Your NestJS Project
 icon: fa-brands fa-js

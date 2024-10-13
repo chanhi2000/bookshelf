@@ -44,7 +44,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/pex
 <SiteInfo
   name="Reading from the Clipboard in JavaScript"
   desc="While it's a bit more common to *write* to the clipboard, JavaScript can also read from it. Plain text is pretty simple, while multimedia content is a bit more complex."
-  url="https://frontendmasters.com/news/reading-from-the-clipboard-in-javascript/"
+  url="https://frontendmasters.com/blog/reading-from-the-clipboard-in-javascript/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmas31rs.com/blog/wp-content/uploads/2024/04/efficiency-thumb.jpg?w=1000&ssl=1"/>
 

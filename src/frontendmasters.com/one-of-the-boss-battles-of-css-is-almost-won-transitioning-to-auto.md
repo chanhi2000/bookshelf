@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/ima
 <SiteInfo
   name="One of the Boss Battles of CSS is Almost Won! Transitioning to Auto"
   desc="The experimental CSS function `calc-size(auto)` allows transitions from zero to a specified value. Animating elements from zero to their intrinsic size has long been desired by CSS developers."
-  url="https://frontendmasters.com/news/one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto/"
+  url="https://frontendmasters.com/blog/one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/image-2.png?resize=1024%2C585&ssl=1"/>
 

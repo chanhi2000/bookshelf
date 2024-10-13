@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Go for Absolute Beginners
 description: Article(s) > Go for Absolute Beginners
 icon: fa-brands fa-golang

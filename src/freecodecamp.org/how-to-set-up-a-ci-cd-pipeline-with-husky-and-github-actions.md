@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Set Up a CI/CD Pipeline with Husky and GitHub Actions
 description: Article(s) > How to Set Up a CI/CD Pipeline with Husky and GitHub Actions
 icon: iconfont icon-github

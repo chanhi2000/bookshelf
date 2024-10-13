@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Do Generative Models Work in Deep Learning? Generative Models For Data Augmentation Explained
 description: Article(s) > How Do Generative Models Work in Deep Learning? Generative Models For Data Augmentation Explained
 icon: fas fa-brain

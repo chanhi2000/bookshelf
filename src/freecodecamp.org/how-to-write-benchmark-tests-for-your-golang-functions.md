@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "How to Write Benchmark Tests for Your Golang Functions"
 description: "Article(s) > How to Write Benchmark Tests for Your Golang Functions"
 icon: fa-brands fa-golang

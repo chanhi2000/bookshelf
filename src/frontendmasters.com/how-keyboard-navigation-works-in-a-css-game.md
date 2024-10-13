@@ -43,7 +43,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Scr
 <SiteInfo
   name="How Keyboard Navigation Works in a CSS Game"
   desc="The navigation in this game works with the arrow keys, which is made possible with scroll driven animations, faked collision detection, and maintaining state with CSS custom properties."
-  url="https://frontendmasters.com/news/how-keyboard-navigation-works-in-a-css-game/"
+  url="https://frontendmasters.com/blog/how-keyboard-navigation-works-in-a-css-game/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/Screenshot-2024-07-07-at-10.27.08%E2%80%AFAM.png?resize=1024%2C600&ssl=1"/>
 

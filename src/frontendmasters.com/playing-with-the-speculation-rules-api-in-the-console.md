@@ -60,7 +60,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pex
 <SiteInfo
   name="Playing with the Speculation Rules API in the Console"
   desc="This new API enables client-side prerendering, improving performance for users who are likely to visit a new page."
-  url="https://frontendmasters.com/news/control-javascript-promises-from-anywhere-using-promise-withresolvers/"
+  url="https://frontendmasters.com/blog/control-javascript-promises-from-anywhere-using-promise-withresolvers/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pexels-photo-7911758.jpeg?resize=768%2C768&ssl=1"/>
 

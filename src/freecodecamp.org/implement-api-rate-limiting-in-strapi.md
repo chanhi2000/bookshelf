@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How to Implement API Rate Limiting in Strapi CMS
 description: Article(s) > How to Implement API Rate Limiting in Strapi CMS
 icon: fa-brands fa-node

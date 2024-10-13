@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How Do Numerical Conversions Work in Computer Systems? Explained With Examples
 description: Article(s) > How Do Numerical Conversions Work in Computer Systems? Explained With Examples
 icon: fas fa-square-root-variable

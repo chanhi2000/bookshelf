@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Learn RAG Fundamentals and Advanced Techniques"
 description: "Article(s) > Learn RAG Fundamentals and Advanced Techniques"
 icon: fas fa-language
