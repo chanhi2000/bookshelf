@@ -231,6 +231,9 @@ export const template: SidebarInfoTemplate = {
       "javascript-timer-how-to-set-a-timer-function-in-js", // 2024-09-16
       "new-javascript-array-methods-to-help-you-write-better-cleaner-code", // 2024-10-02
       LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES, // 2024-10-02     
+      "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
+      "how-to-secure-javascript-applications", // 2024-10-24
+      // END: js
     ]],[
     "ts", [
       "learn-typescript-with-interactive-lessons", // 2024-07-09
@@ -285,6 +288,7 @@ export const template: SidebarInfoTemplate = {
       "effective-error-handling-in-react-applications", // 2023-12-13
       // END: 2023js-react
       "how-to-use-react-server-components", // 2024-01-08
+      "react-state-management", // 2024-02-06
       "master-react-by-building-25-projects", // 2024-02-07
       "throttling-in-javascript", // 2024-05-01
       "how-to-build-a-realtime-chart-with-react-and-pusher", // 2024-05-02
@@ -340,6 +344,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-design-and-build-ui-components-with-ai", // 2024-10-15
       "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
       "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
+      "build-chat-app-with-stomp-and-react", // 2024-10-23
+      "build-your-own-wheel-of-names", // 2024-10-24
+      "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
       // END: js-react
     ]],[
     "js-vue", [
@@ -364,6 +371,7 @@ export const template: SidebarInfoTemplate = {
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
       "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
+      "how-to-pass-additional-arguments-to-nextjs-server-actions", // 2024-10-23
       // END: js-next
     ]],[
     "js-nest", [
@@ -373,6 +381,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js-angular", [
       "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
+    ]],[
+    "js-astro", [
+      "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
     ]],[
     "js-supabase", [
       "set-up-authentication-in-apps-with-supabase", // 2024-01-29
@@ -384,6 +395,7 @@ export const template: SidebarInfoTemplate = {
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
     ]],[
     "css", [
+      "how-to-create-a-css-only-loader", // 2022-01-15
       "section-divider-using-css", // 2022-02-26
       // END: 2022
       "perfect-html-input", // 2023-01-05
@@ -398,6 +410,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-html-attributes-to-make-your-websites-and-apps-more-accessible", // 2024-09-06
       "how-to-use-css-to-improve-web-accessibility", // 2024-09-18
       "rounded-and-curved-edge-css-shapes", // 2024-10-15
+      "filling-css-loaders", // 2024-10-24
       // END: css
     ]],[
     "css-tailwind", [
@@ -453,6 +466,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-matplotlib", // 2024-10-08
       "python-zip-function-explained-with-examples", // 2024-10-10
       "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
+      "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
       // END: py
     ]],[
     "py-django", [
@@ -518,6 +532,7 @@ export const template: SidebarInfoTemplate = {
       "learn-c-sharp-for-unity-in-spanish", // 2024-07-31
       "master-object-oriented-programming-and-design-patterns-in-c", // 2024-09-19
       "learn-aspnet-core-mvc-with-net-9", // 2024-10-02
+      "conditional-statements-in-csharp-if-switch-and-more", // 2024-10-22
     ]],[
     "cs-blazor", [
       "use-local-storage-in-blazor-apps", // 2024-07-29
@@ -541,6 +556,8 @@ export const template: SidebarInfoTemplate = {
     "sh", [
       "linux-terminal-piping-and-redirection-guide", //2024-04-26
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
+      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+      // END: sh
     ]],[
     "git", [
       GITTING_THINGS_DONE_BOOK, // 2024-01-08
@@ -575,6 +592,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-manage-your-open-source-project-with-github", // 2024-09-05
       "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
+      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
     ]],[
     "gitlab", [
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
@@ -590,6 +608,7 @@ export const template: SidebarInfoTemplate = {
     "linux-debian", [
       "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
+      "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
     ]],[
     "linux-fedora", [
       "free-linux-crash-course-with-labs", // 2024-06-13
@@ -599,6 +618,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-database-migrations-in-go", // 2024-06-26
       "ai-chatbot-with-spring-react-docker", // 2024-09-23
       "how-to-self-host-a-container-registry", // 2024-10-16
+      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+      // END: docker
     ]],[
     "k8s", [
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -623,6 +644,7 @@ export const template: SidebarInfoTemplate = {
       "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
       "aws-security-specialty-certification-study-tips", // 2024-10-16
       "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
+      "connect-to-your-ec2-instance-using-mobaxterm", // 2024-10-22
       // END: aws
     ]],[
     "azure", [
@@ -657,6 +679,8 @@ export const template: SidebarInfoTemplate = {
       "hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts", // 2024-10-03
       "improve-hacking-skills-by-playing-wargames", // 2024-10-08
       "key-cybersecurity-concepts-for-career", // 2024-10-09
+      "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
+      // END: security
     ]],[
     "gatling", [
       "how-to-integrate-spring-boot-with-gatling", // 2024-07-08
@@ -776,6 +800,7 @@ export const template: SidebarInfoTemplate = {
       HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK, // 2024-09-10
       "how-to-start-building-projects-with-llms", // 2024-09-30
       "large-language-models-for-developers-and-businesses", // 2024-10-11
+      "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
       // END: llm
     ]],[
     "openai", [
@@ -790,6 +815,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "claude", [
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
+      "learn-to-use-claude-ai", // 2024-10-23
     ]],[
     "math", [
       "linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai", // 2024-05-28
@@ -804,6 +830,7 @@ export const template: SidebarInfoTemplate = {
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
       "the-most-popular-coding-challenge-websites", // 2022-06-16
       "learn-about-operating-systems-in-depth", // 2024-08-06
+      "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
       // END: coen
     ]],[
     "career", [
@@ -830,6 +857,7 @@ export const template: SidebarInfoTemplate = {
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       // END: 2021
       "free-react-course-2022", // 2022-01-11
+      "how-to-create-a-css-only-loader", // 2022-01-15
       "section-divider-using-css", // 2022-02-26
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
       "modules-in-javascript", // 2022-04-14
@@ -856,6 +884,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023
       "how-to-use-react-server-components", // 2024-01-08
       "set-up-authentication-in-apps-with-supabase", // 2024-01-29
+      "react-state-management", // 2024-02-06
       "master-react-by-building-25-projects", // 2024-02-07
       "what-is-dead-zone-in-javascript", // 2024-03-28
       "how-to-add-media-to-your-html-email-template", // 2024-04-23
@@ -1199,6 +1228,20 @@ export const template: SidebarInfoTemplate = {
       "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
       "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
       "how-to-perform-a-web-accessibility-audit", // 2024-10-19
+      "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
+      "conditional-statements-in-csharp-if-switch-and-more", // 2024-10-22
+      "connect-to-your-ec2-instance-using-mobaxterm", // 2024-10-22
+      "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
+      "learn-to-use-claude-ai", // 2024-10-23
+      "how-to-pass-additional-arguments-to-nextjs-server-actions", // 2024-10-23
+      "build-chat-app-with-stomp-and-react", // 2024-10-23
+      "build-your-own-wheel-of-names", // 2024-10-24
+      "filling-css-loaders", // 2024-10-24
+      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+      "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
+      "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
+      "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
+      "how-to-secure-javascript-applications", // 2024-10-24
     ]],
   ]),
 }

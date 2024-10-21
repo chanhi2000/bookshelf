@@ -30,9 +30,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728332788775/d815c2f
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Security > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/devops/security/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

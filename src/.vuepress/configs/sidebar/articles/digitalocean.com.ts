@@ -27,6 +27,10 @@ export const template: SidebarInfoTemplate = {
     "linux-debian", [
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
     ]],[
+    "linux-fedora", [
+      "how-to-install-nginx-on-centos-6-with-yum", // 2012-05-22
+      "initial-server-setup-with-centos-6", // 2012-05-22
+    ]],[
     "docker", [
       "how-to-use-docker-exec-to-run-commands-in-a-docker-container", // 2024-04-26
     ]],[
@@ -37,11 +41,13 @@ export const template: SidebarInfoTemplate = {
     "sqlite", [
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
     ]],[
-      "openai", [
+    "openai", [
       "developing-multi-modal-bots-with-django-gpt-4-whisper-and-dall-e", // 2024-04-26
     ]],[
     "all", [
       "README",
+      "how-to-install-nginx-on-centos-6-with-yum", // 2012-05-22
+      "initial-server-setup-with-centos-6", // 2012-05-22
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
       "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
       "how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes", // 2022-12-16

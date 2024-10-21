@@ -218,7 +218,6 @@ Koin modules do not need to be installed into specific components because Koin u
 Replace Hilt initialization with `startKoin` in your Application class. Koin requires explicit initialization within the Application class to set up the dependency graph. This setup is crucial for Koin to manage dependencies throughout the application lifecycle.
 
 ```kotlin
-Kotlin
 class MyApplication: Application() {
   override fun onCreate() {
     super.onCreate()

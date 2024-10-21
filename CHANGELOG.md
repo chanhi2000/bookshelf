@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 
 ---
 
+## [v0.0.8: 2024-10-28][v0.0.8]
+
+- 컨텐츠 추가
+
+---
+
 ## [v0.0.7: 2024-10-21][v0.0.7]
 
 - 컨텐츠 추가
@@ -55,3 +61,4 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 [v0.0.5]: https://github.com/chanhi2000/articles/compare/v0.0.4...v0.0.5
 [v0.0.6]: https://github.com/chanhi2000/articles/compare/v0.0.5...v0.0.6
 [v0.0.7]: https://github.com/chanhi2000/articles/compare/v0.0.6...v0.0.7
+[v0.0.8]: https://github.com/chanhi2000/articles/compare/v0.0.7...v0.0.8
