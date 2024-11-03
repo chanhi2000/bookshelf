@@ -18,6 +18,7 @@ tag:
   - nodejs
   - node-js
   - agentcloud
+  - devops
   - google
   - googlecloud
   - google-cloud

@@ -163,7 +163,22 @@ export const template: SidebarInfoTemplate = {
   faviconPath: 'https://cdn.freecodecamp.org/universal/favicons/favicon.ico',
   linksMap: new Map([
     [
+    "swift", [
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+    ]],[
     "java", [
+      "learn-data-structures-from-a-google-engineer", // 2019-09-23
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+      // END: 2020
+      // END: 2021
+      "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+      // END: 2022
+      // END: 2023
       "a-guide-to-object-oriented-programming-principles", // 2024-06-19    
       "introduction-to-solid-principles", // 2024-06-24
       "generics-in-java", // 2024-07-12
@@ -179,6 +194,8 @@ export const template: SidebarInfoTemplate = {
       "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
       "build-a-shopping-cart-backend-with-spring-boot-and-spring-security", // 2024-08-28
       "ai-chatbot-with-spring-react-docker", // 2024-09-23
+      "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
+      // END: java-spring
     ]],[
     "java-android",[
       "working-on-a-multiple-library-project-in-android", // 2024-04-27
@@ -194,13 +211,24 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js", [
       "reduce-f47a7da511a9", // 2017-02-11
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
       "javascript-optional-chaining-explained", // 2020-08-26
+      "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
+      // END: 2020js
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
       "how-to-make-api-calls-with-fetch", // 2021-06-03
+      // END: 2021js
       "modules-in-javascript", // 2022-04-14
       "an-introduction-to-programming-paradigms", // 2022-05-03
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
+      // END: 2021js
+      "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
+      "data-structures-in-javascript-with-examples", // 2022-05-17
+      // END: 2022
       "loop-through-arrays-javascript", // 2023-10-31
+      // END: 2023
       "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
       "higher-order-functions-explained", // 2024-05-02
       "understand-javascript-closures", // 2024-05-07
@@ -233,6 +261,7 @@ export const template: SidebarInfoTemplate = {
       LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES, // 2024-10-02     
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
       "how-to-secure-javascript-applications", // 2024-10-24
+      "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
       // END: js
     ]],[
     "ts", [
@@ -241,7 +270,12 @@ export const template: SidebarInfoTemplate = {
       "what-are-type-predicates-in-typescript", // 2024-09-10
     ]],[
     "js-node", [
+      "free-8-hour-node-express-course", // 2021-04-01
+      // END: 2021
+      "an-introduction-to-software-architecture-patterns", // 2022-07-27
+      // END: 2022
       "node-js-basics", // 2023-07-26
+      // END: 2023
       // END: 2023js-node
       "what-is-dead-zone-in-javascript", // 2024-03-28
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -283,10 +317,12 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-unit-tests-in-react", // 2023-01-24
       "usereducer-hook-react", // 2023-01-31
       "how-to-build-a-react-app-different-ways", // 2023-03-14
+      "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
       "effective-error-handling-in-react-applications", // 2023-12-13
       // END: 2023js-react
+      "learn-react-key-concepts", // 2024-01-06
       "how-to-use-react-server-components", // 2024-01-08
       "react-state-management", // 2024-02-06
       "master-react-by-building-25-projects", // 2024-02-07
@@ -347,6 +383,7 @@ export const template: SidebarInfoTemplate = {
       "build-chat-app-with-stomp-and-react", // 2024-10-23
       "build-your-own-wheel-of-names", // 2024-10-24
       "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
+      "build-crud-app-react-and-convex", // 2024-10-24
       // END: js-react
     ]],[
     "js-vue", [
@@ -397,6 +434,7 @@ export const template: SidebarInfoTemplate = {
     "css", [
       "how-to-create-a-css-only-loader", // 2022-01-15
       "section-divider-using-css", // 2022-02-26
+      "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
       // END: 2022
       "perfect-html-input", // 2023-01-05
       "how-to-add-media-to-your-html-email-template", // 2024-04-23
@@ -426,8 +464,24 @@ export const template: SidebarInfoTemplate = {
       "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
     ]],[
     "py", [
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+      "python-dictionary-guide", // 2020-10-27
+      // END: 2020
+      "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+      "learn-algorithms-and-data-structures-in-python", // 2021-09-18
+      "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
+      // END: 2021
+      "binary-search-in-python-with-examples", // 2022-07-19
+      "introduction-to-linked-lists-in-python", // 2022-09-23
+      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+      "stack-data-structure-solve-coding-challenges", // 2022-10-07
+      // END: 2022
+      "learn-data-structures-and-algorithms", // 2023-02-03
       "how-to-parse-a-string-in-python", // 2023-05-04
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
+      // END: 2023
       "how-to-use-oop-in-python", // 2024-04-24
       "how-to-use-defaultdict-python", // 2024-05-01
       "empire-state-building-run-up-analysis-with-python", // 2024-05-08
@@ -467,6 +521,7 @@ export const template: SidebarInfoTemplate = {
       "python-zip-function-explained-with-examples", // 2024-10-10
       "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
       "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
+      "object-oriented-programming-in-python-interview-questions", // 2024-10-25
       // END: py
     ]],[
     "py-django", [
@@ -533,6 +588,8 @@ export const template: SidebarInfoTemplate = {
       "master-object-oriented-programming-and-design-patterns-in-c", // 2024-09-19
       "learn-aspnet-core-mvc-with-net-9", // 2024-10-02
       "conditional-statements-in-csharp-if-switch-and-more", // 2024-10-22
+      "what-are-the-solid-principles-in-csharp", // 2024-10-25
+      // END: cs
     ]],[
     "cs-blazor", [
       "use-local-storage-in-blazor-apps", // 2024-07-29
@@ -542,6 +599,15 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-linux-device-drivers", // 2024-10-03
     ]],[
     "cpp", [
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+      // END: 2020
+      "understanding-sorting-algorithms", // 2021-06-18
+      // END: 2021
+      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+      // END: 2022
+      // END: 2023
       "run-sql-like-queries-on-cplusplus-files", // 2024-05-02
       "learn-cuda-programming", // 2024-09-24
       "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
@@ -609,6 +675,8 @@ export const template: SidebarInfoTemplate = {
       "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
       "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
+      "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
+      // END: linux-debian
     ]],[
     "linux-fedora", [
       "free-linux-crash-course-with-labs", // 2024-06-13
@@ -660,6 +728,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "gcp", [
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
+      "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
+      // END: gcp
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
@@ -680,6 +750,7 @@ export const template: SidebarInfoTemplate = {
       "improve-hacking-skills-by-playing-wargames", // 2024-10-08
       "key-cybersecurity-concepts-for-career", // 2024-10-09
       "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
+      "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
       // END: security
     ]],[
     "gatling", [
@@ -703,6 +774,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "postgres", [
       "postgresql-indexing-strategies", // 2023-05-12
+      "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
       "how-to-create-database-migrations-in-go", // 2024-06-26
       "nextjs-clerk-neon-fullstack-development", // 2024-07-10
@@ -752,7 +824,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "system-design", [
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
+      // END: 2020
+      "an-introduction-to-software-architecture-patterns", // 2022-07-27
+      // END: 2022
       "rendering-patterns", // 2023-03-07
+      // END: 2023
       "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
       "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
       "auto-scaling-and-load-balancing", // 2024-06-17
@@ -827,8 +903,27 @@ export const template: SidebarInfoTemplate = {
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
     ]],[
     "coen", [
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+      "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
+      "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
+      "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
+      // END: 2020
+      "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+      "understanding-sorting-algorithms", // 2021-06-18
+      "learn-algorithms-and-data-structures-in-python", // 2021-09-18
+      "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
+      // END: 2021
+      "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+      "data-structures-in-javascript-with-examples", // 2022-05-17
+      "crud-operations-explained", // 2022-06-16
       "the-most-popular-coding-challenge-websites", // 2022-06-16
+      "binary-search-in-python-with-examples", // 2022-07-19
+      "introduction-to-linked-lists-in-python", // 2022-09-23
+      "stack-data-structure-solve-coding-challenges", // 2022-10-07
+      // END: 2022coen
       "learn-about-operating-systems-in-depth", // 2024-08-06
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
       // END: coen
@@ -843,39 +938,67 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "all", [
       "reduce-f47a7da511a9", // 2017-02-11
+      // END: 2017
       "learn-react-course", // 2018-12-19
+      // END: 2018
+      "learn-data-structures-from-a-google-engineer", // 2019-09-23
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
+      "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
+      "an-introduction-to-software-architecture-patterns", // 2022-07-27
       "javascript-optional-chaining-explained", // 2020-08-26
+      "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
+      "python-dictionary-guide", // 2020-10-27
+      "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
       // END: 2020
       "jsx-in-react-introduction", // 2021-02-02
+      "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+      "free-8-hour-node-express-course", // 2021-04-01
       "react-router-cheatsheet", // 2021-04-19
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
       "how-to-make-api-calls-with-fetch", // 2021-06-03
+      "understanding-sorting-algorithms", // 2021-06-18
       "react-context-for-beginners", // 2021-07-22
+      "learn-algorithms-and-data-structures-in-python", // 2021-09-18
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
+      "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
       // END: 2021
       "free-react-course-2022", // 2022-01-11
       "how-to-create-a-css-only-loader", // 2022-01-15
       "section-divider-using-css", // 2022-02-26
+      DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
+      "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+      "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
       "modules-in-javascript", // 2022-04-14
       "an-introduction-to-programming-paradigms", // 2022-05-03
+      "data-structures-in-javascript-with-examples", // 2022-05-17
+      "crud-operations-explained", // 2022-06-16
       "the-most-popular-coding-challenge-websites", // 2022-06-16
-      DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
+      "binary-search-in-python-with-examples", // 2022-07-19
+      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+      "introduction-to-linked-lists-in-python", // 2022-09-23
+      "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
+      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+      "stack-data-structure-solve-coding-challenges", // 2022-10-07
       // END: 2022
       // START: 2023
       "perfect-html-input", // 2023-01-05
       GITTING_THINGS_DONE_BOOK,  // 2023-01-08
       "usereducer-hook-react", // 2023-01-31
       "how-to-write-unit-tests-in-react", // 2023-01-24
+      "learn-data-structures-and-algorithms", // 2023-02-03
       "rendering-patterns", // 2023-03-07
       "how-to-build-a-react-app-different-ways", // 2023-03-14
       "how-to-parse-a-string-in-python", // 2023-05-04
       "postgresql-indexing-strategies", // 2023-05-12
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
       "node-js-basics", // 2023-07-26
+      "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "loop-through-arrays-javascript", // 2023-10-31
       GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03
       "avoid-prop-drilling-in-react", // 2023-11-07
@@ -1242,6 +1365,14 @@ export const template: SidebarInfoTemplate = {
       "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
       "how-to-secure-javascript-applications", // 2024-10-24
+      "build-crud-app-react-and-convex", // 2024-10-24
+      "what-are-the-solid-principles-in-csharp", // 2024-10-25
+      "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
+      "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
+      "code-a-full-stack-ai-powered-email-saas", // 2024-10-25
+      "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
+      "object-oriented-programming-in-python-interview-questions", // 2024-10-25
+      "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
     ]],
   ]),
 }
