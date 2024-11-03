@@ -57,7 +57,7 @@ Modules are a technique heavily used in today's software design/architecture.
 
 First we're going to learn what they are and the different types of modules that exist. Then we're going to discuss why modules are useful. Then we're going to see examples and basic syntax for the most used module types, and finally we're going to discuss bundling, why is it necessary, and how to do it.
 
-Enough cháchara, let's go! =D
+Enough cháchara, let's go!
 
 ---
 
@@ -400,7 +400,6 @@ This step of converting "development code" to "production code" is normally reco
 
 There're many options to use for this (like [<FontIcon icon="fas fa-globe"/>Browserify](https://browserify.org/), [<FontIcon icon="fas fa-globe"/>Parcel](https://parceljs.org/), [<FontIcon icon="fas fa-globe"/>Rollup.js](https://rollupjs.org/guide/en/), [<FontIcon icon="fas fa-globe"/>Snowpack](https://snowpack.dev/)...) but the most widely used is [<FontIcon icon="fas fa-globe"/>Webpack](https://webpack.js.org/). So let's see an example using Webpack.
 
-<<<<<<< Updated upstream
 - Side comment 1: If you want to dig deeper into module bundlers and how they work, [<FontIcon icon="fa-brands fa-youtube"/>this awesome video by Fireship](https://youtu.be/5IG4UmULyoA&t=382s) might be a good place to start.
 - Side comment 2: Webpack is a very robust and sophisticated tool that can do many things besides bundling JS files. Check out [<FontIcon icon="fas fa-globe"/>their docs](https://webpack.js.org/) if you want to learn more.
 
@@ -411,19 +410,7 @@ Great, so now we can start off by creating a Node app (if you haven't already) b
 Next we'll create a <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file and put this code inside it:
 
 ```js title="webpack.config.js"
-=======
-- Side comment 1: If you want to dig deeper into module bundlers and how they work, [this awesome video by Fireship](https://youtu.be/5IG4UmULyoA&t=382s) might be a good place to start.
-    
-- Side comment 2: Webpack is a very robust and sophisticated tool that can do many things besides bundling JS files. Check out [their docs](https://webpack.js.org/) if you want to learn more.
-    
-
-Great, so now we can start off by creating a Node app (if you haven't already) by running `npm init -y`. Then we'll need to install Webpack and the Webpack CLI by running `npm i --save-dev webpack webpack-cli`.
-
-Next we'll create a `webpack.config.js` file and put this code inside it:
-
-```plaintext
 /* webpack.config.js */
->>>>>>> Stashed changes
 const path = require('path');
 
 module.exports = {
@@ -441,26 +428,16 @@ What we're doing here first is setting the entry file (`entry: './main.js'`). We
 
 Then we're declaring the output – first declaring the path where it will be stored and then declaring the name of the bundled file.
 
-<<<<<<< Updated upstream
 ```js
-=======
-```plaintext
->>>>>>> Stashed changes
 output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
 },
 ```
 
-<<<<<<< Updated upstream
 Super! Now let's go to our <FontIcon icon="iconfont icon-json"/>`package.json` file and add a `build` script, like this:
 
 ```json title="package.json"
-=======
-Super! Now let's go to our `package.json` file and add a `build` script, like this:
-
-```plaintext
->>>>>>> Stashed changes
 {
   "name": "testappv2",
   "version": "1.0.0",
@@ -480,25 +457,16 @@ Super! Now let's go to our `package.json` file and add a `build` script, like th
 }
 ```
 
-<<<<<<< Updated upstream
 Then we can go back to our terminal and run `npm run build`. That should create a <FontIcon icon="fas fa-folder-open"/>`dist` directory within our project, and inside it a <FontIcon icon="fa-brands fa-js"/>`bundle.js` file.
 
 If you check that file out, you'll see this code within it:
 
 ```js title="dist/bundle.js"
-=======
-Then we can go back to our terminal and run `npm run build`. That should create a `dist` directory within our project, and inside it a `bundle.js` file.
-
-If you check that file out, you'll see this code within it:
-
-```plaintext
->>>>>>> Stashed changes
 (()=>{"use strict";document.getElementById("isAlive").addEventListener("click",(()=>console.log("Mod1 is alive!"))),document.getElementById("isRolling").addEventListener("click",(()=>console.log("Mod1 is rolling, baby!"))),console.log("Im the main function")})();
 ```
 
 You'll see that it's practically the same code we had distributed in our files, but all bundled in a single file and minified.
 
-<<<<<<< Updated upstream
 The only thing left is to change the script tag in our <FontIcon icon="fa-brands fa-html5"/>`index.html` file so it consumes the bundled JS now, like this:
 
 ```html title="index.html"
@@ -515,38 +483,13 @@ The only thing left is to change the script tag in our <FontIcon icon="fa-brands
   <button id="isAlive">Is mod1 alive?</button>
   <button id="isRolling">Is mod1 rolling?</button>
   <script src="./dist/bundle.js" type="module"></script>
-=======
-The only thing left is to change the script tag in our `index.html` file so it consumes the bundled JS now, like this:
-
-```plaintext
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>I'm just a test...</h1>
-    <button id="isAlive">Is mod1 alive?</button>
-    <button id="isRolling">Is mod1 rolling?</button>
-    <script src="./dist/bundle.js" type="module"></script>
->>>>>>> Stashed changes
 </body>
 </html>
 ```
 
-<<<<<<< Updated upstream
 Now we can serve it again, check that the JS still works perfectly, and if we open the network tab again we should see just a single file being loaded!
 
 ![](https://freecodecamp.org/news/content/images/2022/04/screenshot_2-1.png)
-=======
-Now we can serve it again, check that the JS still works perfectly, and if we open the network tab again we should see just a single file being loaded! =D
-
-![screenshot_2-1](https://freecodecamp.org/news/content/images/2022/04/screenshot_2-1.png)
->>>>>>> Stashed changes
 
 I hope this simple example helped you understand the relevance of module bundlers and how they help us combine the great development experience of modular architecture with good site performance.
 
@@ -556,7 +499,6 @@ I hope this simple example helped you understand the relevance of module bundler
 
 Well, we're done for today. In this article we've seen what modules are, why are they cool, the different ways you can implement modules in JavaScript, and a practical example of bundling our code with Webpack.
 
-<<<<<<< Updated upstream
 For a complete guide on JS modules, you can take a look [<FontIcon icon="fa-brands fa-firefox"/>at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 
 As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
@@ -564,15 +506,6 @@ As always, I hope you enjoyed the article and learned something new. If you want
 Cheers and see you in the next one! =D
 
 ![](https://freecodecamp.org/news/content/images/2022/04/giphy.gif)
-=======
-For a complete guide on JS modules, you can take a look [at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
-
-As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin](https://linkedin.com/in/germancocca/) or [twitter](https://twitter.com/CoccaGerman).
-
-Cheers and see you in the next one! =D
-
-![giphy](https://freecodecamp.org/news/content/images/2022/04/giphy.gif)
->>>>>>> Stashed changes
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

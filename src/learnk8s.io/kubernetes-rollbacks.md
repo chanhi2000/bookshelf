@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: How do you rollback deployments in Kubernetes?
 description: Article(s) > How do you rollback deployments in Kubernetes?
 icon: iconfont icon-k8s

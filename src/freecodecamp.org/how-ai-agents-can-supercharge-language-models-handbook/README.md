@@ -153,4 +153,3 @@ This handbook will explore how AI agents – akin to David – are supercharging
   "background": "rgba(10,10,35,0.2)"
 }
 ```
-

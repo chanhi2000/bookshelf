@@ -46,6 +46,34 @@ const GITTING_THINGS_DONE_BOOK: SidebarInfoSubgroupTemplate = { // 2024-01-08
   ],
 }
 
+const JS_INTERVIEW_PREP_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-05-22
+  text: 'The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples',
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'js-interview-prep-handbook',
+  children: [
+    'README',
+    'how-to-use-var-let-and-const-keywords',
+    'what-is-hoisting',
+    'how-do-closures-work',
+    'how-to-implement-debouncing',
+    'how-to-implement-throttling',
+    'what-is-currying',
+    'what-is-the-difference-between-and',
+    'how-does-the-this-keyword-work',
+    'how-to-use-the-call-apply-and-bind-methods',
+    'what-are-prototypes-and-prototypal-inheritance',
+    'how-to-use-the-spread-operator',
+    'how-does-array-and-object-destructuring-work',
+    'what-are-promises',
+    'how-to-use-the-async-and-await-keywords',
+    'what-is-an-event-loop',
+    'how-event-propagation-works-bubbling-and-capturing',
+    'what-are-generator-functions',
+    'how-to-implement-polyfills-for-arraymap-arrayreduce-and-arrayfilter',
+  ]
+}
+
 const BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL: SidebarInfoSubgroupTemplate = { // 2024-06-04
   text: 'How to Build and Deploy a Smart Contract With Rust and the Gear Protocol',
   collapsible: true,
@@ -215,6 +243,7 @@ export const template: SidebarInfoTemplate = {
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
       // END: 2019
       "javascript-optional-chaining-explained", // 2020-08-26
+      "fetch-api-cheatsheet", // 2020-11-17
       "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
       // END: 2020js
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
@@ -236,7 +265,7 @@ export const template: SidebarInfoTemplate = {
       "javascript-remove-char-from-string", // 2024-05-09
       "how-to-create-objects-in-javascript",  // 2024-05-10
       "javascript-class-handbook", // 2024-05-20
-      "js-interview-prep-handbook", // 2024-05-22
+      JS_INTERVIEW_PREP_HANDBOOK, // 2024-05-22
       "how-to-manipulate-strings-in-javascript", // 2024-05-24
       "javascript-prototypal-inheritance", // 2024-05-31
       "the-javascript-this-keyword-explained-with-examples", // 2024-06-05
@@ -262,6 +291,8 @@ export const template: SidebarInfoTemplate = {
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
       "how-to-secure-javascript-applications", // 2024-10-24
       "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
+      "how-to-use-developer-tools-to-debug-javascript-in-the-browser", // 2024-10-30
+      "how-to-write-clean-code-tips-for-developers", // 2024-11-06
       // END: js
     ]],[
     "ts", [
@@ -270,11 +301,14 @@ export const template: SidebarInfoTemplate = {
       "what-are-type-predicates-in-typescript", // 2024-09-10
     ]],[
     "js-node", [
+      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
+      // END: 2016
       "free-8-hour-node-express-course", // 2021-04-01
       // END: 2021
-      "an-introduction-to-software-architecture-patterns", // 2022-07-27
       // END: 2022
+      "rest-api-design-best-practices-build-a-rest-api", // 2022-05-05
       "node-js-basics", // 2023-07-26
+      "an-introduction-to-software-architecture-patterns", // 2022-07-27
       // END: 2023
       // END: 2023js-node
       "what-is-dead-zone-in-javascript", // 2024-03-28
@@ -305,6 +339,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-merge-word-files-using-nodejs", // 2024-10-16
       "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-16
       "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
+      "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
+      "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
       // END: js-node
     ]],[
     "js-react", [
@@ -449,6 +485,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-css-to-improve-web-accessibility", // 2024-09-18
       "rounded-and-curved-edge-css-shapes", // 2024-10-15
       "filling-css-loaders", // 2024-10-24
+      "less-common-html-elements-and-how-to-use-them", // 2024-11-05
       // END: css
     ]],[
     "css-tailwind", [
@@ -456,6 +493,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-counter-button-with-react", // 2024-07-10
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
       "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
+      "how-to-integrate-tailwind-with-django", // 2024-11-05
     ]],[
     "npm", [
       "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
@@ -474,6 +512,7 @@ export const template: SidebarInfoTemplate = {
       "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
       // END: 2021
       "binary-search-in-python-with-examples", // 2022-07-19
+      "best-practices-for-refactoring-code", // 2022-08-18
       "introduction-to-linked-lists-in-python", // 2022-09-23
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       "stack-data-structure-solve-coding-challenges", // 2022-10-07
@@ -522,11 +561,13 @@ export const template: SidebarInfoTemplate = {
       "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
       "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
       "object-oriented-programming-in-python-interview-questions", // 2024-10-25
+      "tools-for-open-source-intelligence-gathering", // 2024-10-29
       // END: py
     ]],[
     "py-django", [
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
       "how-to-secure-your-django-app", // 2024-05-22
+      "how-to-integrate-tailwind-with-django", // 2024-11-05
     ]],[
     "py-flask", [
       "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
@@ -557,6 +598,8 @@ export const template: SidebarInfoTemplate = {
       "how-asynchronous-programming-works-in-rust", // 2024-08-15
       "how-to-blend-images-in-rust-using-pixel-math", // 2024-08-27
       "what-are-lifetimes-in-rust-explained-with-code-examples", // 2024-09-06
+      "smart-pointers-in-rust-with-code-examples", // 2024-10-30
+      // END: rust
     ]],[
     "go", [
       "how-to-handle-concurrency-in-go", // 2024-05-10
@@ -575,6 +618,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-benchmark-tests-for-your-golang-functions", // 2024-09-23
       "how-to-work-with-sql-databases-in-go", // 2024-09-24
       "how-to-run-database-migrations-in-kubernetes", // 2024-10-02
+      "how-to-fuzz-test-golang-http-services", // 2024-11-05
+      // END: go
     ]],[
     "go-grafana", [
       "how-to-set-up-grafana-on-ec2", // 2024-08-02
@@ -623,6 +668,7 @@ export const template: SidebarInfoTemplate = {
       "linux-terminal-piping-and-redirection-guide", //2024-04-26
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+      "tools-for-open-source-intelligence-gathering", // 2024-10-29
       // END: sh
     ]],[
     "git", [
@@ -713,6 +759,8 @@ export const template: SidebarInfoTemplate = {
       "aws-security-specialty-certification-study-tips", // 2024-10-16
       "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
       "connect-to-your-ec2-instance-using-mobaxterm", // 2024-10-22
+      "how-message-queues-make-distributed-systems-more-reliable", // 2024-10-28
+      "how-to-launch-an-ec2-instance-and-a-web-server-using-httpd", // 2024-11-05
       // END: aws
     ]],[
     "azure", [
@@ -730,6 +778,9 @@ export const template: SidebarInfoTemplate = {
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
       "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
       // END: gcp
+    ]],[
+    "vercel", [
+      "how-to-deploy-your-project-on-vercel", // 2024-10-26
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
@@ -751,6 +802,9 @@ export const template: SidebarInfoTemplate = {
       "key-cybersecurity-concepts-for-career", // 2024-10-09
       "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
       "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
+      "google-dorking-how-to-find-hidden-information-on-the-web", // 2024-10-26
+      "tools-for-open-source-intelligence-gathering", // 2024-10-29
+      "top-cybersecurity-certifications-for-devs", // 2024-11-01
       // END: security
     ]],[
     "gatling", [
@@ -783,6 +837,8 @@ export const template: SidebarInfoTemplate = {
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
     ]],[
     "mongodb", [
+      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
+      // END: 2016
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
       "using-entity-framework-core-with-mongodb", // 2024-07-29
       "get-mongodb-url-to-connect-to-a-nodejs-application", // 2024-08-12
@@ -790,6 +846,8 @@ export const template: SidebarInfoTemplate = {
       "learn-the-mern-stack-by-building-a-store", // 2024-09-04
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
       "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
+      "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
+      // END: mongodb
     ]],[
     "sqlite", [
       "how-to-work-with-sql-databases-in-go", // 2024-09-24
@@ -818,6 +876,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "google-drive", [
       "excel-vs-google-sheets-tables", // 2024-07-02
+      "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
     ]],[
     "davinci", [
       "master-video-editing-with-davinci-resolve", // 2024-08-20
@@ -877,6 +936,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-start-building-projects-with-llms", // 2024-09-30
       "large-language-models-for-developers-and-businesses", // 2024-10-11
       "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
+      "learn-generative-ai-for-developers", // 2024-11-01
       // END: llm
     ]],[
     "openai", [
@@ -931,12 +991,28 @@ export const template: SidebarInfoTemplate = {
     "career", [
       "skills-you-need-to-become-a-backend-developer-roadmap", // 2024-09-03
       "how-to-be-a-productive-developer", // 2024-09-13
+      "become-an-open-source-master", // 2024-11-05
+      // END: career
     ]],[
     "hw", [
       "how-to-get-a-memory-map-of-your-system-using-bios-interrupts", // 2024-09-23
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
     ]],[
+    "api", [
+      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
+      // END: 2016
+      "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
+      "fetch-api-cheatsheet", // 2020-11-17
+      // END: 2020
+      "what-is-an-api-and-how-to-test-it", // 2021-02-06
+      // END: 2021
+      "how-apis-work", // 2022-12-05
+      // END: 2022
+      // END: api
+    ]],[
     "all", [
+      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
+      // END: 2016
       "reduce-f47a7da511a9", // 2017-02-11
       // END: 2017
       "learn-react-course", // 2018-12-19
@@ -947,15 +1023,18 @@ export const template: SidebarInfoTemplate = {
       // END: 2019
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
       "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
+      "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
       "an-introduction-to-software-architecture-patterns", // 2022-07-27
       "javascript-optional-chaining-explained", // 2020-08-26
       "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
       "python-dictionary-guide", // 2020-10-27
+      "fetch-api-cheatsheet", // 2020-11-17
       "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
       // END: 2020
       "jsx-in-react-introduction", // 2021-02-02
+      "what-is-an-api-and-how-to-test-it", // 2021-02-06
       "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
       "free-8-hour-node-express-course", // 2021-04-01
       "react-router-cheatsheet", // 2021-04-19
@@ -976,15 +1055,18 @@ export const template: SidebarInfoTemplate = {
       "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
       "modules-in-javascript", // 2022-04-14
       "an-introduction-to-programming-paradigms", // 2022-05-03
+      "rest-api-design-best-practices-build-a-rest-api", // 2022-05-05
       "data-structures-in-javascript-with-examples", // 2022-05-17
       "crud-operations-explained", // 2022-06-16
       "the-most-popular-coding-challenge-websites", // 2022-06-16
       "binary-search-in-python-with-examples", // 2022-07-19
+      "best-practices-for-refactoring-code", // 2022-08-18
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       "introduction-to-linked-lists-in-python", // 2022-09-23
       "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       "stack-data-structure-solve-coding-challenges", // 2022-10-07
+      "how-apis-work", // 2022-12-05
       // END: 2022
       // START: 2023
       "perfect-html-input", // 2023-01-05
@@ -1054,7 +1136,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-become-an-open-source-maintainer", // 2024-05-20
       "javascript-class-handbook", // 2024-05-20
       "how-to-style-react-components", // 2024-05-22
-      "js-interview-prep-handbook", // 2024-05-22
+      JS_INTERVIEW_PREP_HANDBOOK, // 2024-05-22
       "how-to-secure-your-django-app", // 2024-05-22
       "pass-the-aws-certified-solutions-architect-associate-certification", // 2024-05-23
       "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
@@ -1373,6 +1455,26 @@ export const template: SidebarInfoTemplate = {
       "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
       "object-oriented-programming-in-python-interview-questions", // 2024-10-25
       "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
+      "how-to-deploy-your-project-on-vercel", // 2024-10-26
+      "google-dorking-how-to-find-hidden-information-on-the-web", // 2024-10-26
+      "how-message-queues-make-distributed-systems-more-reliable", // 2024-10-28
+      "tools-for-open-source-intelligence-gathering", // 2024-10-29
+      "improve-and-restructure-codebase-with-ai-tools", // 2024-10-29
+      "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
+      "smart-pointers-in-rust-with-code-examples", // 2024-10-30
+      "how-to-use-developer-tools-to-debug-javascript-in-the-browser", // 2024-10-30
+      "remove-all-saved-posts-from-facebook-using-javascript", // 2024-10-30
+      "how-to-write-extension-methods-in-csharp", // 2024-10-30
+      "learn-generative-ai-for-developers", // 2024-11-01
+      "top-cybersecurity-certifications-for-devs", // 2024-11-01
+      "how-to-handle-complex-use-cases-in-api-specs", // 2024-11-04
+      "less-common-html-elements-and-how-to-use-them", // 2024-11-05
+      "become-an-open-source-master", // 2024-11-05
+      "how-to-fuzz-test-golang-http-services", // 2024-11-05
+      "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
+      "how-to-launch-an-ec2-instance-and-a-web-server-using-httpd", // 2024-11-05
+      "how-to-integrate-tailwind-with-django", // 2024-11-05
+      "how-to-write-clean-code-tips-for-developers", // 2024-11-06
     ]],
   ]),
 }

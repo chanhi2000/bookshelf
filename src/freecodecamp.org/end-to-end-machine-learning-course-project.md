@@ -2,7 +2,7 @@
 lang: en-US
 title: "End-to-End Machine Learning Course Project"
 description: "Article(s) > End-to-End Machine Learning Course Project"
-icon: fas fa-shield-halved
+icon: fa-brands fa-python
 category: 
   - Python
   - AI

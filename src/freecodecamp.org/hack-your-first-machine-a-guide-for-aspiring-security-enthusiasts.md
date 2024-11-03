@@ -4,6 +4,7 @@ title: "Hack Your First Machine – A Guide for Aspiring Security Enthusiasts"
 description: "Article(s) > Hack Your First Machine – A Guide for Aspiring Security Enthusiasts"
 icon: fas fa-shield-halved
 category:
+  - DevOps
   - Security
   - Linux
   - Shell
@@ -12,8 +13,9 @@ category:
 tag:
   - blog
   - freecodecamp.org
-  - security
+  - devops
   - sec
+  - security
   - linux
   - shell
   - cli

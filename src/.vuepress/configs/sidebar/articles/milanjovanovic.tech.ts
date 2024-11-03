@@ -1,4 +1,14 @@
-import { SidebarInfoTemplate } from ".";
+import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate } from ".";
+
+const REST_APIS_IN_ASPNETCORE: SidebarInfoSubgroupTemplate = {
+  text: 'The Complete Guide to REST APIs in ASP.NET Core',
+  collapsible: true,
+  icon: 'iconfont icon-csharp',
+  subPath: 'rest-apis-in-aspnetcore',
+  children: [
+    'README',
+  ]
+}
 
 export const template: SidebarInfoTemplate = {
   name: 'milanjovanovic.tech',
@@ -106,6 +116,10 @@ export const template: SidebarInfoTemplate = {
       "breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices", // 2024-09-28
       "implementing-the-outbox-pattern", // 2024-10-05
       "scaling-the-outbox-pattern", // 2024-10-12
+      "problem-details-for-aspnetcore-apis", // 2024-10-19
+      "implementing-idempotent-rest-apis-in-aspnetcore", // 2024-10-26
+      "clean-architecture-the-missing-chapter", // 2024-11-02
+      "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
       // END: cs
     ]],[
     "cs-razor", [
@@ -145,6 +159,8 @@ export const template: SidebarInfoTemplate = {
       "orchestration-vs-choreography", // 2023-08-26
       "what-is-a-modular-monolith", // 2024-03-09
       "screaming-architecture", // 2024-08-24
+      "clean-architecture-the-missing-chapter", // 2024-11-02
+      // END: system-design
     ]],[
     "career", [
       "how-to-be-a-better-software-engineer-in-2023", // 2022-12-31
@@ -261,6 +277,10 @@ export const template: SidebarInfoTemplate = {
       "breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices", // 2024-09-28
       "implementing-the-outbox-pattern", // 2024-10-05
       "scaling-the-outbox-pattern", // 2024-10-12
+      "problem-details-for-aspnetcore-apis", // 2024-10-19
+      "implementing-idempotent-rest-apis-in-aspnetcore", // 2024-10-26
+      "clean-architecture-the-missing-chapter", // 2024-11-02
+      "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
     ]]
   ])
 };
