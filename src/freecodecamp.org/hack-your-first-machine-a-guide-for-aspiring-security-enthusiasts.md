@@ -39,9 +39,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
 
 ```component VPCard
 {
-  "title": "Security > Article(s)",
+  "title": "nmap > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/security/articles/README.md",
+  "link": "/tool/nmap/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -49,9 +49,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
 
 ```component VPCard
 {
-  "title": "nmap > Article(s)",
+  "title": "Security > Article(s)",
   "desc": "Article(s)",
-  "link": "/tool/nmap/articles/README.md",
+  "link": "/devops/security/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

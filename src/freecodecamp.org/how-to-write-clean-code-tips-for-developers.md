@@ -90,7 +90,7 @@ let b = 5; // Vague and unclear
 
 :::
 
-::: tips Naming Tips
+::: tip Naming Tips
 
 - **Variables**: Use nouns that describe the data, like `userAge` or `totalAmount`.
 - **Functions**: Use action words, like `calculateTotal()` or `fetchUserData()`.
@@ -308,7 +308,7 @@ try {
 }
 ```
 
-::: tips 🫧 Explanation of the tests
+::: tip 🫧 Explanation of the tests
 
 1. **Addition** (`add` method): We test that `add(2, 3)` returns `5`, and `add(-1, 1)` returns `0`. If these tests pass, we know that the addition logic is working correctly.
 2. **Subtraction** (`subtract` method): We verify that `subtract(5, 3)` returns `2`, and `subtract(0, 0)` returns `0`. These checks confirm that subtraction is accurate.
@@ -356,7 +356,7 @@ In this code, `nodemailer` is imported and used to create a transporter for send
 
 Even though dependencies are useful, you should try to avoid over-dependence on external software or libraries. Use dependencies only when they simplify your work or add important functionality.
 
-::: tips
+::: tip
 
 Managing dependencies effectively is key to writing clean code. Here are some tips:
 
@@ -413,7 +413,7 @@ sendEmail('recipient@example.com', 'Test Subject', 'Hello, this is a test email.
     });
 ```
 
-::: tips 🗝️ Key points
+::: tip 🗝️ Key points
 
 1. **Core Functions**: The `sendEmail`, `createTransporter`, and `createMailOptions` functions are separate, allowing you to modify one without affecting the others.
 2. **Easy Modifications**: If you want to switch to another email service in the future, you can simply modify the `createTransporter` function.
@@ -546,7 +546,7 @@ Establish a pattern for how you write your code, such as using two spaces for in
 
 Following consistent formatting makes your code look clean and well-organized.
 
-::: tips 🛠️ Tools for Formatting
+::: tip 🛠️ Tools for Formatting
 
 - [**Prettier**](https://prettier.io/): Automatically formats code based on a set of rules. [Here’s a tutorial](/freecodecamp.org/how-to-use-prettier-in-visual-studio-code.md) that explains how to set up and use Prettier in VSCode.
 - [**ESLint**](https://eslint.org/): Helps enforce coding standards by highlighting issues. [Here’s a tutorial](/freecodecamp.org/how-to-set-up-eslint-prettier-stylelint-and-lint-staged-in-nextjs/#set-up-eslint) that includes a helpful and in-depth section on setting up ESLint for your projects.
@@ -608,7 +608,7 @@ function getCurrentUserCount() {
 
 :::
 
-::: tips 🤐 When to Use Configuration Files
+::: tip 🤐 When to Use Configuration Files
 
 In larger applications, you might also consider using configuration files (like JSON, YAML, or environment variables) to store values that may change between environments (development, staging, production).
 
@@ -627,7 +627,7 @@ For instance in your <FontIcon icon="iconfont icon-json"/>`config.json` file you
 
 :::
 
-::: tips 🪴 Using Configuration in Your Code
+::: tip 🪴 Using Configuration in Your Code
 
 ```js
 const config = require('./config.json');

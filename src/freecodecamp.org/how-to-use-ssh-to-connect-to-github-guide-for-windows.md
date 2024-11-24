@@ -224,7 +224,7 @@ Open PowerShell as an administrator and run the following command:
 New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH SSH Server' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 -Program "C:\Program Files\OpenSSH\sshd.exe"
 ```
 
-This PowerShell command will create a new firewall rule that allows inbound TCP traffic on port 22 (the default SSH port) for the OpenSSH Server executable located at `C:\Program Files\OpenSSH\sshd.exe`.
+This PowerShell command will create a new firewall rule that allows inbound TCP traffic on port 22 (the default SSH port) for the OpenSSH Server executable located at <FontIcon icon="fas fa-folder-open"/>`C:\Program Files\OpenSSH\`<FontIcon icon="fas fa-gears"/>`sshd.exe`.
 
 Here's a breakdown of the different parameters used in the command:
 

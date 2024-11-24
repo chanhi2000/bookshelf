@@ -103,7 +103,7 @@ Follow the below steps to merge docx files using `docx-merge`:
 2. Initialize `docx-merger` with an empty configuration object and an array of file buffers to merge.
 3. Use the `.save()` method to merge and [save the resulting file as a buffer](/freecodecamp.org/how-to-read-and-write-files-with-nodejs.md), then write it to disk using `fs.writeFileSync()`.
 
-::: tips Example
+::: tip Example
 
 ```js
 const fs = require('fs');
@@ -156,7 +156,7 @@ npm install mammoth
 
 After installation, `mammoth` can be used to convert `.docx` files to HTML, which allows for easy merging of document content, including images, by manipulating the HTML output.
 
-::: tips Example code to convert `.docx` files to HTML:
+::: tip Example code to convert `.docx` files to HTML:
 
 ```js
 import mammoth from 'mammoth';

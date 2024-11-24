@@ -658,7 +658,7 @@ We used an object as the second argument and we also used dynamic object keys. Y
 
 ```component VPCard
 {
-  "title": "A Guide To The Reduce Method In Javascript​",
+  "title": "A Guide To The Reduce Method In Javascript ",
   "desc": "By Josh Pitzalis JavaScript’s reduce method is one of the cornerstones of functional programming. Let’s explore how it works, when you should use it, and some of the cool things it can do. A Basic Reduction Use it when: You have an array of amounts a...",
   "link": "/freecodecamp.org/reduce-f47a7da511a9.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

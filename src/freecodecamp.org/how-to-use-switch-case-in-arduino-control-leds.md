@@ -145,18 +145,18 @@ int redLED = 10;
 int potPin = A0; 
 int potValue;
 int mappedPotValue;
-​
+ 
 void setup() {
   pinMode(greenLED, OUTPUT);
   pinMode(yellowLED, OUTPUT);
   pinMode(redLED, OUTPUT);
   Serial.begin(9600);
 }
-​
+ 
 void loop() {
   potValue = analogRead(potPin);
   mappedPotValue = map(potValue, 0, 1023, 0, 5);
-​
+ 
   switch (mappedPotValue) {
     case 0:
       digitalWrite(greenLED, LOW);

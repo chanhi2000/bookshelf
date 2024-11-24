@@ -6,6 +6,8 @@ export const template: SidebarInfoTemplate = {
   linksMap: new Map([
     [
     "kotlin", [
+      "dispatcher-loom", // 2023-01-09
+      // END: kotlin-2023
       "ak-static-analysis", // 2024-01-22
       "cc-cancellation", // 2024-03-11
       "kfde-generics", // 2024-03-18
@@ -20,14 +22,18 @@ export const template: SidebarInfoTemplate = {
       "cc-dispatchers", // 2024-07-01
       "ek-contracts-documentation", // 2024-07-08
       "ek-respect-contracts", // 2024-07-22
+      // END: kotlin-2024
     ]],[
     "kotlin-spring", [
       "nonblocking-spring-mvc", // 2024-03-25
+      "dispatcher-for-backend", // 2024-11-13
     ]],[
     "kotlin-android", [
       "ek-wrapping-api", // 2024-04-29
     ]],[
     "all", [
+      "dispatcher-loom", // 2023-01-09
+      // END: 2023
       "ak-static-analysis", // 2024-01-22
       "cc-cancellation", // 2024-03-11
       "kfde-generics", // 2024-03-18
@@ -44,6 +50,7 @@ export const template: SidebarInfoTemplate = {
       "cc-dispatchers", // 2024-07-01
       "ek-contracts-documentation", // 2024-07-08
       "ek-respect-contracts", // 2024-07-22
+      "dispatcher-for-backend", // 2024-11-13
     ]]
   ])
 }

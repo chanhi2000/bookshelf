@@ -5,7 +5,7 @@ description: "Article(s) > How to Create Database Documentation Using dbdocs wit
 icon: fas fa-database
 category:
   - Data Science
-  - PostgresDB
+  - PostgreSQL
   - Article(s)
 tag:
   - blog

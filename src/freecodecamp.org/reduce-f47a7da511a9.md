@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "A Guide To The Reduce Method In Javascript​"
-description: "Article(s) > A Guide To The Reduce Method In Javascript​"
+title: "A Guide To The Reduce Method In Javascript "
+description: "Article(s) > A Guide To The Reduce Method In Javascript "
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > A Guide To The Reduce Method In Javascript​"
+      content: "Article(s) > A Guide To The Reduce Method In Javascript "
     - property: og:description
-      content: "A Guide To The Reduce Method In Javascript​"
+      content: "A Guide To The Reduce Method In Javascript "
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/reduce-f47a7da511a9.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn-media-1.freecodecamp.org/images/1*7Lt21vtHVtY6j0oBWNDd4w.png
 ---
 
 <SiteInfo
-  name="A Guide To The Reduce Method In Javascript​"
+  name="A Guide To The Reduce Method In Javascript "
   desc="By Josh Pitzalis JavaScript’s reduce method is one of the cornerstones of functional programming. Let’s explore how it works, when you should use it, and some of the cool things it can do. A Basic Reduction Use it when: You have an array of amounts a..."
   url="https://freecodecamp.org/news/reduce-f47a7da511a9"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -80,7 +80,7 @@ How to use it:
 
 ---
 
-## The ES5 version of the Reduce Method In JavaScript​
+## The ES5 version of the Reduce Method In JavaScript 
 
 If you have never used ES6 syntax before, don’t let the example above intimidate you. It’s exactly the same as writing:
 
@@ -100,7 +100,7 @@ I’ll use ES6 syntax for the rest of the examples, since it’s more concise an
 
 ---
 
-## Finding an Average with the Reduce Method In JavaScript​
+## Finding an Average with the Reduce Method In JavaScript 
 
 Instead of logging the sum, you could divide the sum by the length of the array before you return a final value.
 
@@ -127,7 +127,7 @@ average // 39.37
 
 If you can use the reduce function to spit out an average then you can use it any way you want.
 
-For example, you could double the total, or half each number before adding them together, or use an if statement inside the reducer to only add numbers that are greater than 10. My point is that the *Reduce Method In JavaScript​* gives you a mini CodePen where you can write whatever logic you want. *It* will repeat the logic for each amount in the array and then return a single value.
+For example, you could double the total, or half each number before adding them together, or use an if statement inside the reducer to only add numbers that are greater than 10. My point is that the *Reduce Method In JavaScript * gives you a mini CodePen where you can write whatever logic you want. *It* will repeat the logic for each amount in the array and then return a single value.
 
 The thing is, you don’t always have to return a single value. You can reduce an array into a new array.
 
@@ -182,7 +182,7 @@ Use map and filter but when you start chaining lots of methods together you now 
 
 ---
 
-## Creating a Tally with the Reduce Method In JavaScript​
+## Creating a Tally with the Reduce Method In JavaScript 
 
 ::: important Use it when
 
@@ -231,7 +231,7 @@ I rewrote the exact same logic in a more concise way up top.
 
 ---
 
-## Flattening an array of arrays with the Reduce Method In JavaScript​​
+## Flattening an array of arrays with the Reduce Method In JavaScript  
 
 We can use reduce to flatten nested amounts into a single array.
 
@@ -357,7 +357,7 @@ Another common mistake is to forget to return the total. You must return somethi
 
 ### Tools, Tips & References
 
-- Everything in this post came from a fantastic video series on egghead called [Introducing Reduce](https://egghead.io/courses/reduce-data-with-javascript). I give [Mykola Bilokonsky (<FontIcon icon="fa-brands fa-x-twitter"/>`mykola`)](https://x.com/mykola) full credit and I am grateful to him for everything I now know about using the Reduce Method In JavaScript​. I have tried to rewrite much of what he explains in my own words as an exercise to better understand each concept. Also, it’s easier for me to reference an article, as opposed to a video, when I need to remember how to do something.
+- Everything in this post came from a fantastic video series on egghead called [Introducing Reduce](https://egghead.io/courses/reduce-data-with-javascript). I give [Mykola Bilokonsky (<FontIcon icon="fa-brands fa-x-twitter"/>`mykola`)](https://x.com/mykola) full credit and I am grateful to him for everything I now know about using the Reduce Method In JavaScript . I have tried to rewrite much of what he explains in my own words as an exercise to better understand each concept. Also, it’s easier for me to reference an article, as opposed to a video, when I need to remember how to do something.
 - The [<FontIcon icon="fa-brands fa-firefox"/>MDN Reduce documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) labels what I called a *total* the `accumulator`. It is important to know this because most people will refer to it as an accumulator if you read about it online. Some people call it `prev` as in *previous value*. It all refers to the same thing. I found it easier to think of a *total* when I was learning reduce.
 - If you would like to practice using reduce I recommend signing up to [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp](https://freecodecamp.com/) and completing as many of the [<FontIcon icon="fa-brands fa-free-code-camp"/>intermediate algorithms](https://freecodecamp.com/map-aside#nested-collapseIntermediateAlgorithmScripting) as you can using reduce.
 - If the ‘const’ variables in the example snippets are new to you I wrote another article about [ES6 variables and why you might want to use them (<FontIcon icon="fa-brands fa-medium"/>`joshpitzalis`)](https://medium.com/@joshpitzalis/es6-variables-and-why-you-might-want-to-use-them-fbc84ce27262#.981ejmn1f).
@@ -370,7 +370,7 @@ And if you liked the article, please share it on social media so others can find
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "A Guide To The Reduce Method In Javascript​",
+  "title": "A Guide To The Reduce Method In Javascript ",
   "desc": "By Josh Pitzalis JavaScript’s reduce method is one of the cornerstones of functional programming. Let’s explore how it works, when you should use it, and some of the cool things it can do. A Basic Reduction Use it when: You have an array of amounts a...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/reduce-f47a7da511a9.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

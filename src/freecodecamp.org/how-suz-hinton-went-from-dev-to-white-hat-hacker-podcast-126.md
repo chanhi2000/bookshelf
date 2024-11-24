@@ -4,12 +4,14 @@ title: "How Suz Hinton went from Dev to White Hat Hacker [Podcast #126]"
 description: "Article(s) > How Suz Hinton went from Dev to White Hat Hacker [Podcast #126]"
 icon: fas fa-shield-halved
 category: 
+  - DevOps
   - Security
   - Youtube
   - Article(s)
 tag: 
   - blog
   - freecodecamp.org
+  - devops
   - security
   - sec
   - podcast
