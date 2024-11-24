@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6a
   desc="As a developer with experience in JavaScript, you likely know how versatile the language is, especially when it comes to web development. JavaScript powers both frontend and backend development (thanks to Node.js) and has grown to become one of the m..."
   url="https://freecodecamp.org/news/learn-python-for-javascript-developers-handbook#heading-4-data-structures-and-collections"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/24433377-ebb8-49b5-b0ee-5736f629399d.png"/>
+  preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg"/>
 
 Data structures are foundational to any programming language, as they define how data is stored, accessed, and manipulated. Both JavaScript and Python offer a variety of built-in data structures, but each language provides different tools and features for handling collections.
 

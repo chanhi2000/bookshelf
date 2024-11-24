@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6a
   desc="As a developer with experience in JavaScript, you likely know how versatile the language is, especially when it comes to web development. JavaScript powers both frontend and backend development (thanks to Node.js) and has grown to become one of the m..."
   url="https://freecodecamp.org/news/learn-python-for-javascript-developers-handbook#heading-9-error-handling-and-debugging"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/24433377-ebb8-49b5-b0ee-5736f629399d.png"/>
+  preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg"/>
 
 Error handling and debugging are critical for writing robust and maintainable code. Both Python and JavaScript provide mechanisms for catching and managing errors, but they handle these tasks differently. Understanding these mechanisms is essential for developers transitioning between the two languages.
 

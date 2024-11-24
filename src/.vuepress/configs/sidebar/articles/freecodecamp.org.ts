@@ -208,6 +208,34 @@ const LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK: SidebarInfoSubgroupTempla
   ]
 }
 
+const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfoSubgroupTemplate = { // 2024-11
+  text: 'The Microservices Book – Learn How to Build and Manage Services in the Cloud',
+  collapsible: true,
+  icon: 'fa-brands fa-node',
+  subPath: 'the-microservices-book-build-and-manage-services-in-the-cloud',
+  children: [
+    'README',
+    'what-are-microservices',
+    'microservices-vs-monolithic-architecture',
+    'core-microservices-components-and-concepts',
+    'data-management-in-microservices',
+    'service-discovery-and-load-balancing',
+    'how-to-build-and-design-microservices',
+    'how-to-implement-microservices',
+    'how-to-test-microservices',
+    'how-to-deploy-microservices',
+    'how-to-manage-microservices-in-the-cloud',
+    'containerization-and-orchestration',
+    'continuous-integration-and-continuous-deployment-cicd',
+    'monitoring-and-logging',
+    'security-considerations',
+    'case-studies-and-real-world-examples',
+    'real-world-examples-of-microservices',
+    'common-pitfalls-and-how-to-avoid-them-in-microservices',
+    'future-trends-and-innovations',
+  ]
+
+}
 export const template: SidebarInfoTemplate = {
   name: 'freecodecamp.org',
   faviconPath: 'https://cdn.freecodecamp.org/universal/favicons/favicon.ico',
@@ -375,6 +403,8 @@ export const template: SidebarInfoTemplate = {
       "build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices", // 2024-11-16
       "build-rate-limiting-system-using-redis-and-lua", // 2024-11-20
       "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
+      "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
+      THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
       // END: js-node
     ]],[
     "js-react", [
@@ -455,6 +485,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
       "build-crud-app-react-and-convex", // 2024-10-24
       "learn-redux-and-redux-toolkit-for-state-management", // 2024-11-20
+      "learn-react-2024", // 2024-11-28
+      "how-to-build-a-memory-card-game-using-react", // 2024-11-28
       // END: js-react
     ]],[
     "js-vue", [
@@ -482,7 +514,13 @@ export const template: SidebarInfoTemplate = {
       "how-to-pass-additional-arguments-to-nextjs-server-actions", // 2024-10-23
       "build-your-own-rag-chatbot-with-javascript", // 2024-11-08
       "build-deploy-a-full-stack-dating-app", // 2024-11-13
+      "handling-forms-nextjs-server-actions-zod", // 2024-11-23
+      "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
       // END: js-next
+    ]],[
+    "js-nuxt", [
+      "rbac-community-dashboard-with-nuxt", // 2024-11-23
+      // END: js-nuxt
     ]],[
     "js-nest", [
       "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
@@ -719,6 +757,10 @@ export const template: SidebarInfoTemplate = {
       "php-array-handbook", // 2024-05-08
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
     ]],[
+    "erl-rabbitmq", [
+      THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
+      // END: erl-rabbitmq
+    ]],[
     "sh", [
       "linux-terminal-piping-and-redirection-guide", //2024-04-26
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
@@ -799,6 +841,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
       "build-rate-limiting-system-using-redis-and-lua", // 2024-11-20
       "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
+      "an-introduction-to-docker-and-containers-for-beginners", // 2024-11-26
+      THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
       // END: docker
     ]],[
     "k8s", [
@@ -828,6 +872,8 @@ export const template: SidebarInfoTemplate = {
       "how-message-queues-make-distributed-systems-more-reliable", // 2024-10-28
       "how-to-launch-an-ec2-instance-and-a-web-server-using-httpd", // 2024-11-05
       "host-a-website-on-aws-ec2-using-a-css-template", // 2024-11-08
+      "simplify-aws-multi-account-management-with-terraform-and-gitops", // 2024-11-26
+      "aws-ec2-how-to-host-a-website-with-user-data-scripts", // 2024-11-27
       // END: aws
     ]],[
     "azure", [
@@ -873,6 +919,7 @@ export const template: SidebarInfoTemplate = {
       "tools-for-open-source-intelligence-gathering", // 2024-10-29
       "top-cybersecurity-certifications-for-devs", // 2024-11-01
       "how-to-reverse-engineer-a-website", // 2024-11-14
+      "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
       // END: security
     ]],[
     "gatling", [
@@ -919,6 +966,7 @@ export const template: SidebarInfoTemplate = {
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
       "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
       "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
+      "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
       // END: mongodb
     ]],[
     "sqlite", [
@@ -1031,6 +1079,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "llama", [
       "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
+      "local-ai-development-with-ollama-course", // 2024-11-27
+      // END: llama
     ]],[
     "claude", [
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
@@ -1599,6 +1649,18 @@ export const template: SidebarInfoTemplate = {
       "learn-redux-and-redux-toolkit-for-state-management", // 2024-11-20
       "zig-zag-css-loaders", // 2024-11-21
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
+      "handling-forms-nextjs-server-actions-zod", // 2024-11-23
+      "rbac-community-dashboard-with-nuxt", // 2024-11-23
+      "an-introduction-to-docker-and-containers-for-beginners", // 2024-11-26
+      "simplify-aws-multi-account-management-with-terraform-and-gitops", // 2024-11-26
+      "local-ai-development-with-ollama-course", // 2024-11-27
+      "aws-ec2-how-to-host-a-website-with-user-data-scripts", // 2024-11-27
+      "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
+      "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
+      "learn-react-2024", // 2024-11-28
+      "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
+      "how-to-build-a-memory-card-game-using-react", // 2024-11-28
+      THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
     ]],
   ]),
 }

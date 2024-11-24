@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Reverse Engineer a Website – a Guide for Developers"
 description: "Article(s) > How to Reverse Engineer a Website – a Guide for Developers"
-icon: iconfont icon-nmap
+icon: fas fa-shield-halved
 category:
   - DevOps
   - Security

@@ -120,6 +120,7 @@ export const template: SidebarInfoTemplate = {
       "implementing-idempotent-rest-apis-in-aspnetcore", // 2024-10-26
       "clean-architecture-the-missing-chapter", // 2024-11-02
       "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
+      "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
       // END: cs
     ]],[
     "cs-razor", [
@@ -140,16 +141,23 @@ export const template: SidebarInfoTemplate = {
     "github", [
       "how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet", // 2023-05-27
       "testcontainers-integration-testing-using-docker-in-dotnet", // 2023-09-02
+      // END: github
     ]],[
     "aws", [
       "complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit", // 2024-08-17
+      // END: aws
     ]],[
     "azure", [
       "messaging-made-easy-with-azure-service-bus", // 2023-02-11
     ]],[
+    "postgres", [
+      "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
+      // END: postgres
+    ]],[
     "redis", [
       "caching-in-aspnetcore-improving-application-performance", // 2024-06-08
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
+      // END: redis
     ]],[
     "system-design", [
       "clean-architecture-folder-structure", // 2022-09-24
@@ -281,6 +289,7 @@ export const template: SidebarInfoTemplate = {
       "implementing-idempotent-rest-apis-in-aspnetcore", // 2024-10-26
       "clean-architecture-the-missing-chapter", // 2024-11-02
       "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
+      "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
     ]]
   ])
 };

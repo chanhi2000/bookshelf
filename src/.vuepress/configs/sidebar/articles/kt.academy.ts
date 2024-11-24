@@ -22,6 +22,7 @@ export const template: SidebarInfoTemplate = {
       "cc-dispatchers", // 2024-07-01
       "ek-contracts-documentation", // 2024-07-08
       "ek-respect-contracts", // 2024-07-22
+      "cc-why", // 2024-10-09
       // END: kotlin-2024
     ]],[
     "kotlin-spring", [
@@ -30,6 +31,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "kotlin-android", [
       "ek-wrapping-api", // 2024-04-29
+      "viewmodel-stateflow-sharedflow-channel", // 2024-11-18
     ]],[
     "all", [
       "dispatcher-loom", // 2023-01-09
@@ -50,7 +52,9 @@ export const template: SidebarInfoTemplate = {
       "cc-dispatchers", // 2024-07-01
       "ek-contracts-documentation", // 2024-07-08
       "ek-respect-contracts", // 2024-07-22
+      "cc-why", // 2024-10-09
       "dispatcher-for-backend", // 2024-11-13
+      "viewmodel-stateflow-sharedflow-channel", // 2024-11-18
     ]]
   ])
 }
