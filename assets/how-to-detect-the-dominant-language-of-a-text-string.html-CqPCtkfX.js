@@ -1,0 +1,28 @@
+import{_ as s}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c,b as t,t as l,e as n,n as o,g as i,a as e,r as g,o as h}from"./app-DLPYIRXq.js";const d={},m={id:"frontmatter-title-관련",tabindex:"-1"},p={class:"header-anchor",href:"#frontmatter-title-관련"},u=t("nav",{class:"table-of-contents"},[t("ul")],-1),f=t("hr",null,null,-1),w=t("blockquote",null,[t("p",null,"Available from iOS 11.0")],-1),x=t("details",{class:"hint-container details"},[t("summary",null,"Similar solutions…"),e(`
+/quick-start/swiftui/swiftui-tips-and-tricks">SwiftUI tips and tricks 
+/quick-start/swiftui/how-to-add-advanced-text-styling-using-attributedstring">How to add advanced text styling using AttributedString 
+/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image">How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image 
+/quick-start/swiftui/how-to-create-static-labels-with-a-text-view">How to create static labels with a Text view 
+/quick-start/swiftui/how-to-create-custom-text-effects-and-animations">How to create custom text effects and animations</a>
+`)],-1);function y(r,k){const a=g("VPCard");return h(),c("div",null,[t("h1",m,[t("a",p,[t("span",null,l(r.$frontmatter.title)+" 관련",1)])]),n(a,o(i({title:"System - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/system/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),u,f,n(a,o(i({title:"How to detect the dominant language of a text string | System - free Swift example code",desc:"How to detect the dominant language of a text string",link:"https://hackingwithswift.com/example-code/how-to-detect-the-dominant-language-of-a-text-string",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),w,e(" TODO: 작성 "),e(` 
+The \`NSLinguisticTagger\` class has dedicated code to help you identify the dominant language of a text string. Before I show you the code, there are three important provisos:
+
+1. It detects the *dominant* language, which means if you provide it with text that contains more than one language it will return whichever one appears most often.
+<li>If you give it text where no identification can be made, e.g. some numbers or an empty string, it will return nil.
+<li>It is extraordinarily fast – you can feed it thousands of article-length strings a second and it will fly through them.
+
+Here’s an example to help you get started:
+
+\`\`\`swift
+let text = "Ceci n'est pas une pipe"
+
+if let language = NSLinguisticTagger.dominantLanguage(for: text) {
+    print(language)
+} else {
+    print("Unknown language")
+}
+\`\`\`
+
+When that code runs it will print “fr”, because the dominant language in the text is French.
+
+`),x])}const v=s(d,[["render",y],["__file","how-to-detect-the-dominant-language-of-a-text-string.html.vue"]]),S=JSON.parse('{"path":"/hackingwithswift.com/example-code/system/how-to-detect-the-dominant-language-of-a-text-string.html","title":"How to detect the dominant language of a text string","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to detect the dominant language of a text string","description":"Article(s) > How to detect the dominant language of a text string","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-11.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to detect the dominant language of a text string"},{"property":"og:description","content":"How to detect the dominant language of a text string"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/how-to-detect-the-dominant-language-of-a-text-string.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-detect-the-dominant-language-of-a-text-string.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to detect the dominant language of a text string"}],["meta",{"property":"og:description","content":"Article(s) > How to detect the dominant language of a text string"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-11.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2018-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to detect the dominant language of a text string\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2018-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2018-03-28T00:00:00.000Z","isOriginal":false},"headers":[],"git":{"contributors":[{"name":"chanhi2000","email":"chanhi2000@gmail.com","commits":2}]},"readingTime":{"minutes":1.44,"words":433},"filePathRelative":"hackingwithswift.com/example-code/system/how-to-detect-the-dominant-language-of-a-text-string.md","localizedDate":"2018년 3월 28일","excerpt":"\\n"}');export{v as comp,S as data};
