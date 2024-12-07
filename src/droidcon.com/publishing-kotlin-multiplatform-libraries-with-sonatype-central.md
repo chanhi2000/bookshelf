@@ -1,7 +1,7 @@
 ---
-lang: ko-KR
-title: Publishing Kotlin Multiplatform Libraries With Sonatype Central
-description: Article(s) > Publishing Kotlin Multiplatform Libraries With Sonatype Central
+lang: en-US
+title: "Publishing Kotlin Multiplatform Libraries With Sonatype Central"
+description: "Article(s) > Publishing Kotlin Multiplatform Libraries With Sonatype Central"
 icon: iconfont icon-kotlin
 category: 
   - Android
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Publishing Kotlin Multiplatform Libraries With Sonatype Central
+      content: "Article(s) > Publishing Kotlin Multiplatform Libraries With Sonatype Central"
     - property: og:description
-      content: Publishing Kotlin Multiplatform Libraries With Sonatype Central
+      content: "Publishing Kotlin Multiplatform Libraries With Sonatype Central"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/droidcon.com/publishing-kotlin-multiplatform-libraries-with-sonatype-central.html
 prev: /programming/java-android/articles/README.md

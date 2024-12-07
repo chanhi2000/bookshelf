@@ -30,7 +30,7 @@ head:
       content: "Bubble Sort – Algorithm in Java, C++, Python with Example Code"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html
-prev: /academcis/coen/articles/README.md
+prev: /academics/coen/articles/README.md
 date: 2022-09-30
 isOriginal: false
 author: Kolade Chris

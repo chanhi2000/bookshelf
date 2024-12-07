@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Writing Swift-friendly Kotlin Multiplatform APIs — Part IX: Flow - droidcon"
 description: "Article(s) > Writing Swift-friendly Kotlin Multiplatform APIs — Part IX: Flow - droidcon"
 icon: fa-brands fa-android
@@ -11,7 +11,7 @@ category:
   - Article(s)
 tag: 
   - blog
-  - kodeco.com
+  - droidcon.com
   - java
   - kotiln
   - android

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Learn High-Level System Design by Building a YouTube Clone
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rating-component-with-the-react-compound-component-pattern.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-high-level-system-design-by-building-a-youtube-clone.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-11
 isOriginal: false
@@ -89,4 +89,3 @@ This course leverages a range of modern technologies to build the YouTube clone:
 By the end of this course, you will have a deep understanding of high-level system design principles and practical experience in building a complex application. Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/FiXOaYnW64w) (2-hour watch).
 
 <VidStack src="youtube/FiXOaYnW64w" />
-

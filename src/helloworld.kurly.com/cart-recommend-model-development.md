@@ -25,7 +25,7 @@ head:
       content: 함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 1부
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/helloworld.kurly.com/cart-recommend-model-development.html
-prev: /academcis/system-design/articles/README.md
+prev: /academics/system-design/articles/README.md
 date: 2024-05-20
 isOriginal: false
 cover: http://thefarmersfront.github.io/assets/logo-square.png
@@ -37,7 +37,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
 {
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
-  "link": "/academcis/system-design/articles/README.md",
+  "link": "/academics/system-design/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

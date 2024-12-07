@@ -87,6 +87,7 @@ export default hopeTheme({
       download: false,
     },
     prismjs: {
+      lineNumbers: true,
       theme: "dracula",
     },
     // markdownHint: {

@@ -22,7 +22,7 @@ head:
       content: How To Approach Clean Architecture Folder Structure
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/clean-architecture-folder-structure.html
-prev: /academcis/system-designarticles/README.md
+prev: /academics/system-designarticles/README.md
 date: 2022-09-24
 isOriginal: false
 author: Milan Jovanović
@@ -35,7 +35,7 @@ cover: https://www.milanjovanovic.tech/blog-covers/mnw_004.png
 {
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
-  "link": "/academcis/system-design/articles/README.md",
+  "link": "/academics/system-design/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

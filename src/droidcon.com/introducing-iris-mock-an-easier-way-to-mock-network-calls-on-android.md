@@ -1,7 +1,7 @@
 ---
-lang: ko-KR
-title: "Introducing Iris Mock: An easier way to mock network calls on Android - droidcon"
-description: "Article(s) > Introducing Iris Mock: An easier way to mock network calls on Android - droidcon"
+lang: en-US
+title: "Introducing Iris Mock: An easier way to mock network calls on Android"
+description: "Article(s) > Introducing Iris Mock: An easier way to mock network calls on Android"
 icon: fa-brands fa-android
 category:
   - Java
@@ -11,7 +11,7 @@ category:
   - Article(s)
 tag: 
   - blog
-  - kodeco.com
+  - droidcon.com
   - java
   - kotiln
   - android
@@ -19,11 +19,11 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Introducing Iris Mock: An easier way to mock network calls on Android - droidcon"
+      content: "Article(s) > Introducing Iris Mock: An easier way to mock network calls on Android"
     - property: og:description
-      content: "Introducing Iris Mock: An easier way to mock network calls on Android - droidcon"
+      content: "Introducing Iris Mock: An easier way to mock network calls on Android"
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/droidcon.com/introducing-iris-mock-an-easier-way-to-mock-network-calls-on-android.html
+      content: https://chanhi2000.github.io/bookdhelf/droidcon.com/introducing-iris-mock-an-easier-way-to-mock-network-calls-on-android.html
 prev: /programming/java-android/articles/README.md
 date: 2023-10-22
 isOriginal: false
@@ -47,7 +47,7 @@ cover: https://droidcon.com/wp-content/uploads/2023/05/droidcon_visuals_Flaechen
 ---
 
 <SiteInfo
-  name="Introducing Iris Mock: An easier way to mock network calls on Android - droidcon"
+  name="Introducing Iris Mock: An easier way to mock network calls on Android"
   desc="This article is a mix of presenting a new tool I have developed to make network mocks easier on Retrofit, Volley and any OkHttp based tool and my learnings during the process. Let's start by introducing Iris Mock and what is possible to do with it."
   url="https://droidcon.com/2023/10/22/introducing-iris-mock-an-easier-way-to-mock-network-calls-on-android/"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"

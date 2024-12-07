@@ -208,7 +208,7 @@ const LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK: SidebarInfoSubgroupTempla
   ]
 }
 
-const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfoSubgroupTemplate = { // 2024-11
+const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfoSubgroupTemplate = { // 2024-11-29
   text: 'The Microservices Book – Learn How to Build and Manage Services in the Cloud',
   collapsible: true,
   icon: 'fa-brands fa-node',
@@ -234,8 +234,31 @@ const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfo
     'common-pitfalls-and-how-to-avoid-them-in-microservices',
     'future-trends-and-innovations',
   ]
-
 }
+
+const CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-12-03
+  text: 'How to Create a Minimal API in .NET Core – A Step By Step Handbook',
+  collapsible: true,
+  icon: 'iconfont icon-csharp',
+  subPath: 'create-a-minimal-api-in-net-core-handbook',
+  children: [
+    'README',
+    'introduction-to-minimal-apis',
+    'how-to-create-a-minimal-api',
+    'http-methods-in-controller-based-and-minimal-apis',
+    'minimal-api-project-files',
+    'how-to-create-the-models',
+    'how-to-create-the-database-context',
+    'how-to-create-a-contract',
+    'how-to-add-services',
+    'how-to-create-exceptions',
+    'how-to-create-the-api-endpoints',
+    'how-to-add-seed-data-to-the-database',
+    'how-to-perform-a-migration',
+    'how-to-test-the-api-endpoints',
+  ]
+}
+
 export const template: SidebarInfoTemplate = {
   name: 'freecodecamp.org',
   faviconPath: 'https://cdn.freecodecamp.org/universal/favicons/favicon.ico',
@@ -351,6 +374,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-clean-code-tips-for-developers", // 2024-11-06
       "how-javascripts-temporal-proposal-will-change-datetime-functions", // 2024-11-14
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
+      "how-to-write-better-variable-names", // 2024-12-05
+      "how-to-write-code-thats-easy-to-read", // 2024-12-05
       // END: js
     ]],[
     "ts", [
@@ -405,18 +430,25 @@ export const template: SidebarInfoTemplate = {
       "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
       "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
+      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       // END: js-node
     ]],[
     "js-react", [
       "learn-react-course", // 2018-12-19
+      // END: 2018js-react
+      // END: 2019js-react
+      // END: 2020js-react
       "jsx-in-react-introduction", // 2021-02-02
       "react-router-cheatsheet", // 2021-04-19
       "react-context-for-beginners", // 2021-07-22
+      // END: 2021js-react
       "free-react-course-2022", // 2022-01-11
+      "test-a-react-app-with-jest-testing-library-and-cypress", // 2022-04-06
       // END: 2022js-react
       "how-to-write-unit-tests-in-react", // 2023-01-24
       "usereducer-hook-react", // 2023-01-31
       "how-to-build-a-react-app-different-ways", // 2023-03-14
+      "what-is-ci-cd", // 2023-04-08
       "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "avoid-prop-drilling-in-react", // 2023-11-07
       "use-typescript-with-react", // 2023-11-15
@@ -487,6 +519,8 @@ export const template: SidebarInfoTemplate = {
       "learn-redux-and-redux-toolkit-for-state-management", // 2024-11-20
       "learn-react-2024", // 2024-11-28
       "how-to-build-a-memory-card-game-using-react", // 2024-11-28
+      "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
+      "nextjs-vs-react-differences", // 2024-12-05
       // END: js-react
     ]],[
     "js-vue", [
@@ -495,6 +529,11 @@ export const template: SidebarInfoTemplate = {
       // END: js-vue
     ]],[
     "js-next", [
+      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
+      // END: 2020js-next
+      // END: 2021js-next
+      // END: 2022js-next
+      // END: 2023js-next
       "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
       "mastering-shadcn-ui-components", // 2024-06-28
       "nextjs-clerk-neon-fullstack-development", // 2024-07-10
@@ -516,6 +555,7 @@ export const template: SidebarInfoTemplate = {
       "build-deploy-a-full-stack-dating-app", // 2024-11-13
       "handling-forms-nextjs-server-actions-zod", // 2024-11-23
       "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
+      "nextjs-vs-react-differences", // 2024-12-05
       // END: js-next
     ]],[
     "js-nuxt", [
@@ -660,6 +700,10 @@ export const template: SidebarInfoTemplate = {
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
       // END: py-fastapi
     ]],[
+    "py-torch", [
+      "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
+      // END: py-torch
+    ]],[
     "py-jupyter", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
     ]],[
@@ -727,6 +771,7 @@ export const template: SidebarInfoTemplate = {
       "what-are-the-solid-principles-in-csharp", // 2024-10-25
       "set-semantic-versioning-for-net", // 2024-11-08
       "how-to-benchmark-your-code-in-csharp", // 2024-11-19
+      CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK, // 2024-12-03
       // END: cs
     ]],[
     "cs-blazor", [
@@ -756,6 +801,9 @@ export const template: SidebarInfoTemplate = {
       "php-jwt-authentication-implementation", // 2024-04-24
       "php-array-handbook", // 2024-05-08
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
+      "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
+      "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
+      // END: php
     ]],[
     "erl-rabbitmq", [
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
@@ -777,6 +825,7 @@ export const template: SidebarInfoTemplate = {
       "git-cheat-sheet-helpful-git-commands-with-examples", // 2024-08-20
       "how-to-use-git-stash-to-manage-code", // 2024-10-11
       "how-to-simplify-your-git-commands-with-git-aliases", // 2024-11-12
+      "how-to-perform-code-reviews-in-tech-the-painless-way", // 2024-12-04
       // END: git
     ]],[
     "gd", [
@@ -792,6 +841,13 @@ export const template: SidebarInfoTemplate = {
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
     ]],[
     "github", [
+      "learn-how-to-automate-deployment-on-github-pages-with-travis-ci", // 2019-06-22
+      // END: 2019github
+      // END: 2020github
+      // END: 2021github
+      // END: 2022github
+      "what-is-ci-cd", // 2023-04-08
+      // END: 2023github
       "create-personalized-github-profile-page", // 2024-05-01
       "how-to-become-an-open-source-maintainer", // 2024-05-20
       "how-to-create-notice-blocks-in-markdown", // 2024-06-10
@@ -805,6 +861,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
       "how-to-set-up-automated-github-workflows-for-python-react-apps", // 2024-11-08
+      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       // END: github
     ]],[
     "gitlab", [
@@ -843,6 +900,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
       "an-introduction-to-docker-and-containers-for-beginners", // 2024-11-26
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
+      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       // END: docker
     ]],[
     "k8s", [
@@ -890,13 +948,29 @@ export const template: SidebarInfoTemplate = {
     "gcp", [
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
       "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
+      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       // END: gcp
     ]],[
     "vercel", [
+      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
+      // END: 2020vercel
       "how-to-deploy-your-project-on-vercel", // 2024-10-26
+      // END: vercel
+    ]],[
+    "netlify", [
+      "how-to-deploy-your-front-end-app", // 2021-01-09
+    ]],[
+    "vercel", [
+        // END: 2022js-next
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
+      // END: terraform
+    ]],[
+    "travis-ci", [
+      "learn-how-to-automate-deployment-on-github-pages-with-travis-ci", // 2019-06-22
+      // END: 2019travis-ci
+      // END: travis-ci
     ]],[
     "security", [
       "how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126", // 2024-05-31
@@ -920,6 +994,7 @@ export const template: SidebarInfoTemplate = {
       "top-cybersecurity-certifications-for-devs", // 2024-11-01
       "how-to-reverse-engineer-a-website", // 2024-11-14
       "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
+      "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
       // END: security
     ]],[
     "gatling", [
@@ -1005,6 +1080,8 @@ export const template: SidebarInfoTemplate = {
     "google-drive", [
       "excel-vs-google-sheets-tables", // 2024-07-02
       "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
+      "learn-google-sheets-course-for-beginners", // 2024-12-04
+      // END: google-drive
     ]],[
     "davinci", [
       "master-video-editing-with-davinci-resolve", // 2024-08-20
@@ -1135,10 +1212,15 @@ export const template: SidebarInfoTemplate = {
     "hw", [
       "how-to-get-a-memory-map-of-your-system-using-bios-interrupts", // 2024-09-23
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
+      // END: hw
     ]],[
     "raspberry-pi", [
       "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
       // END: raspberry-pi
+    ]],[
+    "arduino", [
+      "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
+      // END: arduino
     ]],[
     "api", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
@@ -1169,12 +1251,14 @@ export const template: SidebarInfoTemplate = {
       "an-introduction-to-software-architecture-patterns", // 2022-07-27
       "javascript-optional-chaining-explained", // 2020-08-26
       "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
+      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
       "python-dictionary-guide", // 2020-10-27
       "fetch-api-cheatsheet", // 2020-11-17
       "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
       "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
       // END: 2020
+      "how-to-deploy-your-front-end-app", // 2021-01-09
       "jsx-in-react-introduction", // 2021-02-02
       "what-is-an-api-and-how-to-test-it", // 2021-02-06
       "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
@@ -1194,6 +1278,7 @@ export const template: SidebarInfoTemplate = {
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
       "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+      "test-a-react-app-with-jest-testing-library-and-cypress", // 2022-04-06
       "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
       "modules-in-javascript", // 2022-04-14
       "an-introduction-to-programming-paradigms", // 2022-05-03
@@ -1218,6 +1303,7 @@ export const template: SidebarInfoTemplate = {
       "learn-data-structures-and-algorithms", // 2023-02-03
       "rendering-patterns", // 2023-03-07
       "how-to-build-a-react-app-different-ways", // 2023-03-14
+      "what-is-ci-cd", // 2023-04-08
       "how-to-parse-a-string-in-python", // 2023-05-04
       "postgresql-indexing-strategies", // 2023-05-12
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
@@ -1661,6 +1747,19 @@ export const template: SidebarInfoTemplate = {
       "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
       "how-to-build-a-memory-card-game-using-react", // 2024-11-28
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
+      CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK, // 2024-12-03
+      "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
+      "learn-google-sheets-course-for-beginners", // 2024-12-04
+      "how-to-perform-code-reviews-in-tech-the-painless-way", // 2024-12-04
+      "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
+      "how-to-write-better-variable-names", // 2024-12-05
+      "how-to-write-code-thats-easy-to-read", // 2024-12-05
+      "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
+      "nextjs-vs-react-differences", // 2024-12-05
+      "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
+      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+      "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
+      "svelte-i18n-and-localization-made-easy", // 2024-12-06
     ]],
   ]),
 }

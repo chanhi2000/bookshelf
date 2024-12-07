@@ -32,7 +32,7 @@ head:
       content: "Search Algorithms Explained with Examples in Java, Python, and C++"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/search-algorithms-explained-with-examples-in-java-python-and-c.html
-prev: /academcis/coen/articles/README.md
+prev: /academics/coen/articles/README.md
 date: 2019-12-14
 isOriginal: false
 author: 

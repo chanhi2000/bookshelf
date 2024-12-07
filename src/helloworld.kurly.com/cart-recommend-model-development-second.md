@@ -39,7 +39,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
 {
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
-  "link": "/academcis/system-design/articles/README.md",
+  "link": "/academics/system-design/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

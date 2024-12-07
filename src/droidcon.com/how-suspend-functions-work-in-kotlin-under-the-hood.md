@@ -1,7 +1,7 @@
 ---
-lang: ko-KR
-title: "How Suspend Functions Work in Kotlin: Under the hood - droidcon"
-description: "Article(s) > How Suspend Functions Work in Kotlin: Under the hood - droidcon"
+lang: en-US
+title: "How Suspend Functions Work in Kotlin: Under the hood"
+description: "Article(s) > How Suspend Functions Work in Kotlin: Under the hood"
 icon: fa-brands fa-android
 category:
   - Java
@@ -10,18 +10,18 @@ category:
   - Article(s)
 tag: 
   - blog
-  - kodeco.com
+  - droidcon.com
   - java
   - kotiln
   - android
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Suspend Functions Work in Kotlin: Under the hood - droidcon"
+      content: "Article(s) > How Suspend Functions Work in Kotlin: Under the hood"
     - property: og:description
-      content: "How Suspend Functions Work in Kotlin: Under the hood - droidcon"
+      content: "How Suspend Functions Work in Kotlin: Under the hood"
     - property: og:url
-      content: https://chanhi2000.github.io/crashcourse/droidcon.com/how-suspend-functions-work-in-kotlin-under-the-hood.html
+      content: https://chanhi2000.github.io/bookshelf/droidcon.com/how-suspend-functions-work-in-kotlin-under-the-hood.html
 prev: /programming/java-android/articles/README.md
 date: 2024-04-25
 isOriginal: false
@@ -45,7 +45,7 @@ cover: https://droidcon.com/wp-content/uploads/2023/05/droidcon_visuals_Flaechen
 ---
 
 <SiteInfo
-  name="How Suspend Functions Work in Kotlin: Under the hood - droidcon"
+  name="How Suspend Functions Work in Kotlin: Under the hood"
   desc="The suspension capability is the most essential feature upon which all other Kotlin Coroutines concepts are built. Your main goal in this article will be to gain a solid understanding of how it works internally."
   url="https://droidcon.com/2024/04/25/how-suspend-functions-work-in-kotlin-under-the-hood/"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"

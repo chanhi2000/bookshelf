@@ -57,7 +57,7 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-07-18%20at%2017.13.33.pn
 
 ![Migrate from Hilt to Koin](https://139572340.fs1.hubspotusercontent-eu1.net/hub/139572340/hubfs/Screenshot%202024-08-01%20at%2013.12.26.png?width=1200&length=1200&name=Screenshot%202024-08-01%20at%2013.12.26.png)
 
-Migrating from Hilt to <a href="https://insert-koin.io/">Koin </a>might seem daunting at first, but it's actually more manageable than you might think. To simplify the process, we've put together a comprehensive guide for you.
+Migrating from Hilt to [Koin](https://insert-koin.io/) might seem daunting at first, but it's actually more manageable than you might think. To simplify the process, we've put together a comprehensive guide for you.
 
 For Android developers, especially those looking for a dependency injection (DI) solution for their Kotlin Multiplatform (KMP) projects, Koin offers KMP compatibility that Hilt doesn't yet. Our step-by-step guide will help you make the switch smoothly.
 

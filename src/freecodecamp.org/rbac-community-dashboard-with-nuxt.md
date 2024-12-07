@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Implement RBAC in a Community Dashboard with Nuxt"
 description: "Article(s) > How to Implement RBAC in a Community Dashboard with Nuxt"
-icon: iconfont icon-nuextjs
+icon: iconfont icon-nuxt
 category:
   - Node.js
   - Nuxt.js

@@ -122,7 +122,13 @@ World!
 
 `main` 함수에서 `delay()` 메서드를 사용하고 싶다면
 
+::: kotlin-playground 1
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
   GlobalScope.launch {
     delay(1000)
@@ -133,7 +139,7 @@ fun main() = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 main 함수에 **runBlocking {...}** coroutine scope를 설정하면 사용할 수 있습니다.
 
@@ -180,7 +186,13 @@ thread pool를 이용하여 thread를 관리하면 10만번 반복되는 작업�
 
 **coroutine** 으로 10만번 작업을 실행하면 어떤 결과가 나올까요?
 
+::: kotlin-playground 2
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
   repeat(100_000) {
     launch {
@@ -191,12 +203,11 @@ fun main() = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
-
+:::
 
 결과는
 
-```
+```plaintext log
 ...........
 ```
 
@@ -212,7 +223,13 @@ coroutine을 사용하면 많이 생성하더라도 아주 훌륭한 performance
 
 다음과 같이 반복되는 작업을 하고 있을때 해당 작업을 취소하고 싶으면 어떻게 해야할까요?
 
+::: kotlin-playground 3
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
   thread {
     while(true) {
@@ -223,7 +240,7 @@ fun main() = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 thread 의 생명주기를 보면
 
@@ -235,7 +252,13 @@ thread가 생성되고 `start()` 메서드를 호출하면 작업이 실행됩�
 
 다음은 3초뒤에 스레드를 종료시키는 코드입니다.
 
+::: kotlin-playground 4
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
   val thread = thread {
     while(true) {
@@ -248,12 +271,12 @@ fun main() = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 
 결과는
 
-```
+```plaintext title="log"
 running...
 running...
 ```
@@ -309,7 +332,13 @@ Blocking 메서드를 호출할 경우 try-catch로 감싸줘야합니다.
 
 ### **coroutine** 에서는 어떻게 작업을 취소할 수 있을까요?
 
+::: kotlin-playground 5
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
   val job = launch {
     while(true) {
@@ -322,7 +351,7 @@ fun main() = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 아주 간단하게 `cancelAndJoin()` 메서드를 호출하면 해당 작업을 취소 할 수 있습니다.
 
@@ -338,7 +367,13 @@ thread 와 비슷하게 동작은 하지만 thread에 비하여 작업을 쉽게
 
 다음과 같은 코드를 실행시켰을 경우 결과가 어떻게 나올까요?
 
+::: kotlin-playground 6
+
+@file main.kt
+
 ```kotlin
+import kotlinx.coroutines.*
+
 fun main() = runBlocking {
     val time = measureTimeMillis {
         val one = doSomethingUsefulOne()
@@ -359,11 +394,11 @@ suspend fun doSomethingUsefulTwo(): Int {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 결과는
 
-```sh
+```plaintext title="log"
 The answer is 42
 Completed in 2009 ms
 ```

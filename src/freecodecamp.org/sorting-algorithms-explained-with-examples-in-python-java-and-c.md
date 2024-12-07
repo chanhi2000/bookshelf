@@ -32,7 +32,7 @@ head:
       content: "Sorting Algorithms Explained with Examples in JavaScript, Python, Java, and C++"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/sorting-algorithms-explained-with-examples-in-python-java-and-c.html
-prev: /academcis/coen/articles/README.md
+prev: /academics/coen/articles/README.md
 date: 2019-12-05
 isOriginal: false
 author: 
