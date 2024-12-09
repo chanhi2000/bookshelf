@@ -1,0 +1,33 @@
+import{_ as l}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as s,b as t,t as h,e as a,n as i,g as r,a as e,r as c,o as m}from"./app-ubLChIzZ.js";const p={},d={id:"frontmatter-title-관련",tabindex:"-1"},u={class:"header-anchor",href:"#frontmatter-title-관련"},g=t("nav",{class:"table-of-contents"},[t("ul")],-1),w=t("hr",null,null,-1),f=t("blockquote",null,[t("p",null,"Available from iOS 2.0")],-1),b=t("details",{class:"hint-container details"},[t("summary",null,"Similar solutions…"),e(`
+/example-code/media/how-to-choose-a-photo-from-the-camera-roll-using-uiimagepickercontroller">How to choose a photo from the camera roll using UIImagePickerController 
+/example-code/uikit/how-to-take-a-photo-using-the-camera-and-uiimagepickercontroller">How to take a photo using the camera and UIImagePickerController 
+/example-code/strings/how-to-save-a-string-to-a-file-on-disk-with-writeto">How to save a string to a file on disk with write(to:) 
+/example-code/language/what-is-copy-on-write">What is copy on write? 
+/example-code/language/how-to-write-a-closure-that-returns-a-value">How to write a closure that returns a value</a>
+`)],-1);function y(n,v){const o=c("VPCard");return m(),s("div",null,[t("h1",d,[t("a",u,[t("span",null,h(n.$frontmatter.title)+" 관련",1)])]),a(o,i(r({title:"Media - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/media/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),g,w,a(o,i(r({title:"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album | Media - free Swift example code",desc:"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album",link:"https://hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),f,e(" TODO: 작성 "),e(` 
+It's not hard to save an image straight to the user's photo library, but I have to admit the syntax isn't immediately obvious! iOS has a function called \`UIImageWriteToSavedPhotosAlbum()\` that takes four parameters: parameter one is the image to save, parameters two and three set a delegate and selector to send when the image has been written successfully, and parameter four is any additional context information you wan to send.
+
+For example, you might use it like this:
+
+\`\`\`swift
+UIImageWriteToSavedPhotosAlbum(yourImage, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+\`\`\`
+
+That will write the image to the photo library, then call a method when it completes. That method needs to be named very precisely, which is where it's easy to go wrong. Using the call above, you need to write your callback method like this:
+
+\`\`\`swift
+@objc func image(_ image: UIImage, didFinishSavingWithError error: NSError?, contextInfo: UnsafeRawPointer) {
+    if let error = error {
+        // we got back an error!
+        let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
+    } else {
+        let ac = UIAlertController(title: "Saved!", message: "Your altered image has been saved to your photos.", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
+    }
+}
+\`\`\`
+
+`),b])}const k=l(p,[["render",y],["__file","uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album.html.vue"]]),_=JSON.parse('{"path":"/hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album.html","title":"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album","description":"Article(s) > UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-2.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album"},{"property":"og:description","content":"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album"}],["meta",{"property":"og:description","content":"Article(s) > UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-2.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"UIImageWriteToSavedPhotosAlbum(): how to write to the iOS photo album\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false},"headers":[],"git":{"contributors":[{"name":"chanhi2000","email":"chanhi2000@gmail.com","commits":2}]},"readingTime":{"minutes":1.65,"words":494},"filePathRelative":"hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{k as comp,_ as data};
