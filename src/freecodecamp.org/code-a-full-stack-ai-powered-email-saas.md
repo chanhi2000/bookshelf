@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729783635668/eaaebc9
   "title": "Next.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-next/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729783635668/eaaebc9
   "title": "OpenAI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/openai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

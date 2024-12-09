@@ -33,7 +33,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/PHP-Array
   "title": "PHP > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/php/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/PHP-Array
   "title": "MongoDB > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/mongodb/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

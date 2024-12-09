@@ -36,7 +36,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718896810124/a7b1483
   "title": "Godot Engine > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/godot/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

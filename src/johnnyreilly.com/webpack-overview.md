@@ -38,7 +38,7 @@ cover: https://res.cloudinary.com/priou/image/fetch/f_auto,q_auto,w_auto,dpr_aut
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

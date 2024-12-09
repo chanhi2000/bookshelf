@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720790242560/764782a
   "title": "Linux - Debian > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

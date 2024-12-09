@@ -36,7 +36,7 @@ cover: /assets/image/code-maze.com/configure-postgresql-ef-core/banner.png
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: /assets/image/code-maze.com/configure-postgresql-ef-core/banner.png
   "title": "PostgreSQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

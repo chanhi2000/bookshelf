@@ -34,7 +34,7 @@ cover: https://substack-post-media.s3.amazonaws.com/public/images/ad2e234c-a39c-
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

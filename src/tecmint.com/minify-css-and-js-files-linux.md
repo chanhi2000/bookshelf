@@ -33,7 +33,7 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/Minify-JS-CSS-Files-in-Lin
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

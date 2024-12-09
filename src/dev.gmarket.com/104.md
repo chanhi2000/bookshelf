@@ -33,7 +33,7 @@ cover: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

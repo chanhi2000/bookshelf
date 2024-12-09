@@ -36,7 +36,7 @@ cover: https://zuminternet.github.io/images/portal/post/2023-02-06-FCM-PUSH/thum
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://zuminternet.github.io/images/portal/post/2023-02-06-FCM-PUSH/thum
   "title": "Supabase > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-supabase/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

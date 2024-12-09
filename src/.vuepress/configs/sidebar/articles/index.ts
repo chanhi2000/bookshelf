@@ -34,6 +34,7 @@ import { template as TEMPLATE_KURLY } from './helloworld.kurly.com';
 import { template as TEMPLATE_KT_ACADEMY } from './kt.academy';
 import { template as TEMPLATE_DROIDCON } from './droidcon.com';
 import { template as TEMPLATE_SITEPOINT } from './sitepoint.com';
+import { template as TEMPLATE_ITS_FOSS } from './itsfoss.com'; 
 import { template as TEMPLATE_YOZM } from './yozm.wishket.com';
 import { template as TEMPLATE_POPIT } from './popit.kr';
 import { template as TEMPLATE_DEVKUMA } from './devkuma.com';
@@ -139,6 +140,7 @@ export const articleSidebars = {
   ktAcademy:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KT_ACADEMY, type),
   droidcon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DROIDCON, type),
   sitepoint:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SITEPOINT, type),
+  itsfoss:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ITS_FOSS, type),
   douggregor:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DOUGGREGOR, type),
   donnywals:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DONNYWALS, type),
   piccalilli:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_PICCALILLI, type),

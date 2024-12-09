@@ -34,7 +34,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/01/Turquoise-Confet
   "title": "Netlify > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/netlify/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

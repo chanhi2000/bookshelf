@@ -44,7 +44,7 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,7 +54,7 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -64,7 +64,7 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -74,7 +74,7 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -84,7 +84,7 @@ cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-a
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

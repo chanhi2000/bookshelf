@@ -32,7 +32,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/08/pexels-sk
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/08/pexels-sk
   "title": "Finance > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/fnce/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

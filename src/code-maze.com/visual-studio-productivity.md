@@ -36,7 +36,7 @@ cover: /assets/image/code-maze.com/visual-studio-productivity/banner.png
   "title": "Visual Studio > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/visualstudio/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

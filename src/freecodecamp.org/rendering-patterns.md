@@ -36,7 +36,7 @@ cover: https://freecodecamp.org/news/content/images/2023/03/sebastian-svenson-8Q
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

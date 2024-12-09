@@ -46,7 +46,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9eb7740569d1a4ca3eaa.jpg
   "title": "Computer Engineering > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/coen/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -56,7 +56,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9eb7740569d1a4ca3eaa.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -66,7 +66,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9eb7740569d1a4ca3eaa.jpg
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -76,7 +76,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9eb7740569d1a4ca3eaa.jpg
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -86,7 +86,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9eb7740569d1a4ca3eaa.jpg
   "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

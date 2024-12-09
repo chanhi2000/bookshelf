@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Orange---
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Orange---
   "title": "Google Cloud > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gcp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -68,7 +68,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Orange---
   "title": "AI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

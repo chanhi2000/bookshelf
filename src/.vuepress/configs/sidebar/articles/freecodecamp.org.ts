@@ -688,6 +688,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
       "how-to-secure-your-django-app", // 2024-05-22
       "how-to-integrate-tailwind-with-django", // 2024-11-05
+      "how-django-mvt-architecture-works", // 2024-12-11
+      // END: py-django
     ]],[
     "py-flask", [
       "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
@@ -1065,6 +1067,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "r", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
+      "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
+      // END: r
     ]],[
     "vscode", [
       "how-to-deploy-node-js-app-on-azure", // 2024-07-17
@@ -1153,6 +1157,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "gemini", [
       "learn-to-use-the-gemini-ai-multimodal-model", // 2024-08-22
+      "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
+      // END: gemini
     ]],[
     "llama", [
       "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
@@ -1760,6 +1766,9 @@ export const template: SidebarInfoTemplate = {
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
       "svelte-i18n-and-localization-made-easy", // 2024-12-06
+      "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
+      "how-django-mvt-architecture-works", // 2024-12-11
+      "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
     ]],
   ]),
 }

@@ -44,7 +44,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,7 +54,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_
   "title": "React > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

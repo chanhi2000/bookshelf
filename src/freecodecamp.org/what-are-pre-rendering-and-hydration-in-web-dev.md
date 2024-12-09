@@ -40,7 +40,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727985850590/fdb7eb1
   "title": "Next.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-next/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727985850590/fdb7eb1
   "title": "Gatsby > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-gatsby/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

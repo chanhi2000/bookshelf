@@ -37,7 +37,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/F8825B00-
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/F8825B00-
   "title": "AI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

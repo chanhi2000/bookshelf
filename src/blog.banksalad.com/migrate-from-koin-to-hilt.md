@@ -36,7 +36,7 @@ cover: https://blog.banksalad.com/static/2e6b6d90a6afd3e2d74fabe20de4cf95/3b654/
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

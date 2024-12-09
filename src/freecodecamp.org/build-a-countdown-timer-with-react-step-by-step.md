@@ -38,7 +38,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724788718279/35a8ba3
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

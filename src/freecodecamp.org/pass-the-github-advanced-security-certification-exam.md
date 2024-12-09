@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721241358453/d5d3a16
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

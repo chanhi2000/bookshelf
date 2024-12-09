@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717528055287/2d27551
   "title": "Dart > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/dart/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717528055287/2d27551
   "title": "Supabase > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-supabase/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

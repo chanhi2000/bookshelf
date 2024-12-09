@@ -31,7 +31,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725281991044/7edb0d7
   "title": "CSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/08/Screensho
   "title": "Git > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/git/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/08/Screensho
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

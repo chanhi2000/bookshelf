@@ -34,7 +34,7 @@ cover: https://tech.kakaopay.com/_astro/thumb.4c94c9ee_ZVFN14.png
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

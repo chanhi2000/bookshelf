@@ -36,7 +36,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pex
   "title": "TypeScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/ts/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

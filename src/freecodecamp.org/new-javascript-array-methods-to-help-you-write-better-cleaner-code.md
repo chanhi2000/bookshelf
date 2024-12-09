@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727789649013/c0c332b
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

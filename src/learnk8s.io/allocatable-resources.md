@@ -34,7 +34,7 @@ cover: https://static.learnk8s.io/c0b55319f2039e5372870fb3eb7943b3.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

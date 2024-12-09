@@ -36,7 +36,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728930420116/82fe0d9
   "title": "Excel > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/xls/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

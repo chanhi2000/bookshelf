@@ -35,7 +35,7 @@ cover: https://tech.inflab.com/og-image/20240227-finops-for-startup/index.png
   "title": "AWS > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/aws/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -40,7 +40,7 @@ cover: https://static.learnk8s.io/ab3b76cb760047980cea4691bc7dd76e.svg
   "title": "Google Cloud > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gcp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://static.learnk8s.io/ab3b76cb760047980cea4691bc7dd76e.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

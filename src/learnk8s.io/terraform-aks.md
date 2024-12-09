@@ -39,7 +39,7 @@ cover: https://static.learnk8s.io/1c54b14d7eb99b184eac1837c1cf54f3.svg
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://static.learnk8s.io/1c54b14d7eb99b184eac1837c1cf54f3.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

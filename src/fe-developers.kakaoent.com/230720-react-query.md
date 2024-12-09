@@ -37,7 +37,7 @@ cover: https://fe-developers.kakaoent.com/static/0d9c9b2e485cc3dc8aa6c600d7af7e3
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718208376031/bdd35eb
   "title": "Linux - Fedroa > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-fedora/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

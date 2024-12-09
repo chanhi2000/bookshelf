@@ -47,7 +47,7 @@ cover: https://static.learnk8s.io/0a5ccd5c73499f693ec0b2ab42ef1cbb.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -57,7 +57,7 @@ cover: https://static.learnk8s.io/0a5ccd5c73499f693ec0b2ab42ef1cbb.svg
   "title": "AWS > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/aws/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -67,7 +67,7 @@ cover: https://static.learnk8s.io/0a5ccd5c73499f693ec0b2ab42ef1cbb.svg
   "title": "Google Cloud > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gcp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -77,7 +77,7 @@ cover: https://static.learnk8s.io/0a5ccd5c73499f693ec0b2ab42ef1cbb.svg
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

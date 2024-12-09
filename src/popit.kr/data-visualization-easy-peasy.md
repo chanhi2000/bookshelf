@@ -36,7 +36,7 @@ cover: https://popit.kr/wp-content/uploads/2024/04/visual-600x360.png
   "title": "Elasticsearch > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-elasticsearch/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

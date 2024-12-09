@@ -37,7 +37,7 @@ cover: https://fe-developers.kakaoent.com/static/64f999e746db02b310c7a08bb93709a
   "title": "Next.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-next/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

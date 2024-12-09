@@ -38,7 +38,7 @@ cover: https://event-driven.io/static/21de7aa5676ecf81e6a64ae81d26984d/a331c/202
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://event-driven.io/static/21de7aa5676ecf81e6a64ae81d26984d/a331c/202
   "title": "Postgres > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

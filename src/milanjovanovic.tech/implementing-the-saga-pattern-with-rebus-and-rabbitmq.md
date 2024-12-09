@@ -41,7 +41,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_031.png
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_031.png
   "title": "RabbitMQ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/erl-rabbitmq/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

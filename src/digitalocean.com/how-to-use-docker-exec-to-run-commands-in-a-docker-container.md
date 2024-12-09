@@ -34,7 +34,7 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/yJ67pogiR4Ka
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

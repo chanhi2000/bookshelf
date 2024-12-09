@@ -34,7 +34,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_qgzGgrMeE9raugNDYbsfVQ.
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

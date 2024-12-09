@@ -39,7 +39,7 @@ cover: https://static.learnk8s.io/52d7048ad9ab46d9a2182847fe02b20f.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://static.learnk8s.io/52d7048ad9ab46d9a2182847fe02b20f.svg
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -59,7 +59,7 @@ cover: https://static.learnk8s.io/52d7048ad9ab46d9a2182847fe02b20f.svg
   "title": "PHP > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/php/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

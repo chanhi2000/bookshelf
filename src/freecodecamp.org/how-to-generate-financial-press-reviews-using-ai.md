@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059022091/7ce2eba
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059022091/7ce2eba
   "title": "Finance > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/fnce/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059022091/7ce2eba
   "title": "Claude > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/claude/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

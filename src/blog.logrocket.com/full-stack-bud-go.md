@@ -40,7 +40,7 @@ cover: /assets/image/blog.logrocket.com/full-stack-bud-go/banner.png
   "title": "Go > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/go/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/full-stack-bud-go/banner.png
   "title": "Svelte.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-svelte/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -33,7 +33,7 @@ cover: /assets/image/code-maze.com/consume-graphql-api-with-asp-net-core/banner.
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ cover: /assets/image/code-maze.com/consume-graphql-api-with-asp-net-core/banner.
   "title": "GraphQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/graphql/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

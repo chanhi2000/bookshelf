@@ -36,7 +36,7 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/File-Transfer-in-Linux.png
   "title": "rsync > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/rsync/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/File-Transfer-in-Linux.png
   "title": "Shell > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/sh/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

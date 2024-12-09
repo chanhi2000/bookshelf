@@ -36,7 +36,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/06/Article-Image.pn
   "title": "NPM > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/npm/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/neon-bann
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/neon-bann
   "title": "PostgreSQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -62,7 +62,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/neon-bann
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

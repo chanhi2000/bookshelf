@@ -36,7 +36,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Final-X3-
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Final-X3-
   "title": "LLM > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/llm/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

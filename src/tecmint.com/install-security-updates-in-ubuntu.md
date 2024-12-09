@@ -37,7 +37,7 @@ cover: https://wtecmint.com/wp-content/uploads/2020/08/Install-Security-Updates-
   "title": "Shell > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/sh/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://wtecmint.com/wp-content/uploads/2020/08/Install-Security-Updates-
   "title": "Debian > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

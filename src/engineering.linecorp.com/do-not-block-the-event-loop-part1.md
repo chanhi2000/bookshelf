@@ -37,7 +37,7 @@ cover: https://vos.line-scdn.net/landpress-content-v2_954/1663602818199.png?upda
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://vos.line-scdn.net/landpress-content-v2_954/1663602818199.png?upda
   "title": "C > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/c/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

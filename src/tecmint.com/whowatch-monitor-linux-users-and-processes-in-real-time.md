@@ -41,7 +41,7 @@ cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Proc
   "title": "Shell > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/sh/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Proc
   "title": "Fedora > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-fedora/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -61,7 +61,7 @@ cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Proc
   "title": "Debian > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

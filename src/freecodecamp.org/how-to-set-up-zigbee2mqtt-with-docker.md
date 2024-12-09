@@ -39,7 +39,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731778246828/8371f4d
   "title": "Raspberry Pi > Article(s)",
   "desc": "Article(s)",
   "link": "/hw/raspberry-pi/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731778246828/8371f4d
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -36,7 +36,7 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-11-18%20at%2016.56.15.pn
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

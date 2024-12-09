@@ -36,7 +36,7 @@ cover: https://vos.line-scdn.net/landpress-content-v2-vcfc68aynwenkh3bno0ixfx8/1
   "title": "Gradle > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/gradle/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://vos.line-scdn.net/landpress-content-v2-vcfc68aynwenkh3bno0ixfx8/1
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

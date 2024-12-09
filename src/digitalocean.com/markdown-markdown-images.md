@@ -32,7 +32,7 @@ cover: https://digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstat
   "title": "Markdown > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/md/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

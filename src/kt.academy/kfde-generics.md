@@ -35,7 +35,7 @@ cover: https://marcinmoskala.com/kotlin_essentials_book/promotion/generics.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://marcinmoskala.com/kotlin_essentials_book/promotion/generics.jpg
 <SiteInfo
   name="Generics in Kotlin"
   desc="The essence of how generics work in Kotlin."
-  url="https://kt.academy/kfde-generics"
+  url="https://kt.academy/article/kfde-generics"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kotlin_essentials_book/promotion/generics.jpg"/>
 

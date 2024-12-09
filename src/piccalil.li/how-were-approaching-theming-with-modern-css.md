@@ -31,7 +31,7 @@ cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/cd91a000b1d813f2013ba9e0d6809e7
   "title": "CSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

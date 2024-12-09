@@ -36,7 +36,7 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Variables-Numeri
   "title": "awk > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/awk/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Variables-Numeri
   "title": "Shell > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/sh/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

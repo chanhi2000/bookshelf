@@ -15,6 +15,7 @@ export const sidebarEn = sidebar({
   '/digitalocean.com/':           [asb.digitalocean()],
   '/tecmint.com/':                [asb.tecmint()],
   '/learnk8s.io/':                [asb.learnk8s()],
+  '/itsfoss.com/':                [asb.itsfoss()],
   '/antonioleiva.com/':           [asb.antonioleiva()],
   '/johnnyreilly.com/':           [asb.johnnyreilly()],
   '/code-maze.com/':              [asb.codemaze()],

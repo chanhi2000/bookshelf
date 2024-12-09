@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728178146204/a1c1a6a
   "title": "Hardware > Article(s)",
   "desc": "Article(s)",
   "link": "/hw/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728178146204/a1c1a6a
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

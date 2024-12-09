@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/10/react-note-photo-gal
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://freecodecamp.org/news/content/images/2023/10/react-note-photo-gal
   "title": "PostgreSQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

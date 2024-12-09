@@ -36,7 +36,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6a
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6a
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

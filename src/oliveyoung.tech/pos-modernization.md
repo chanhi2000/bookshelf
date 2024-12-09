@@ -32,7 +32,7 @@ cover: https://oliveyoung.tech/static/65b5b4889394058c8e64ccc1b0904fe0/2b8b0/ban
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/explore/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

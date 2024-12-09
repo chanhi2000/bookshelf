@@ -33,7 +33,7 @@ cover: https://cdn-media-1.freecodecamp.org/images/1*7Lt21vtHVtY6j0oBWNDd4w.png
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

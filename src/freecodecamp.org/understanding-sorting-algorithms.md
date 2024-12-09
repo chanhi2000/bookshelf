@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2021/06/sorting.png
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://freecodecamp.org/news/content/images/2021/06/sorting.png
   "title": "Computer Engineering > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/coen/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

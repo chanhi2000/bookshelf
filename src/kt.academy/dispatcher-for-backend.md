@@ -34,7 +34,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/dispatcher-for-ba
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/dispatcher-for-ba
 <SiteInfo
   name="The best dispatcher for a backend framework"
   desc="Let's explore different dispatchers and find the best one for a backend request handlers."
-  url="https://kt.academy/dispatcher-for-backend"
+  url="https://kt.academy/article/dispatcher-for-backend"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/dispatcher-for-backend.jpg"/>
 

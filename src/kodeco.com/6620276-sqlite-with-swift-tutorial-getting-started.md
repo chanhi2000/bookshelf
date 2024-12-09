@@ -35,7 +35,7 @@ cover: https://koenig-media.raywenderlich.com/uploads/2019/12/SQLite-twitter.png
   "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://koenig-media.raywenderlich.com/uploads/2019/12/SQLite-twitter.png
   "title": "SQLite > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/sqlite/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

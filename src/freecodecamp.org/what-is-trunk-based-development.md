@@ -34,7 +34,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-bas
   "title": "Git > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/git/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-bas
   "title": "Project Management > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/pm/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

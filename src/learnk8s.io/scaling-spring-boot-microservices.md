@@ -34,7 +34,7 @@ cover: https://static.learnk8s.io/d46220c7b32025973b9c41efed7b7f8f.svg
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ cover: https://static.learnk8s.io/d46220c7b32025973b9c41efed7b7f8f.svg
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,7 +54,7 @@ cover: https://static.learnk8s.io/d46220c7b32025973b9c41efed7b7f8f.svg
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -64,7 +64,7 @@ cover: https://static.learnk8s.io/d46220c7b32025973b9c41efed7b7f8f.svg
   "title": "Kafka > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-kafka/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -74,7 +74,7 @@ cover: https://static.learnk8s.io/d46220c7b32025973b9c41efed7b7f8f.svg
   "title": "RabbitMQ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/erl-rabbitmq/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

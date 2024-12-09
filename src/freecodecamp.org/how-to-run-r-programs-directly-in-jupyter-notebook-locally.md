@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pUAM5hPaCRI/up
   "title": "Jupyter > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-jupyter/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pUAM5hPaCRI/up
   "title": "R > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/r/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

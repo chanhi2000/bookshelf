@@ -39,7 +39,7 @@ cover: https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.j
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.j
   "title": "SQLite > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/sqlite/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -59,7 +59,7 @@ cover: https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.j
   "title": "Linux - Debian > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/sqlite/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

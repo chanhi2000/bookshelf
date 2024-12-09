@@ -39,7 +39,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/image0.pn
   "title": "NPM > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/npm/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/image0.pn
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

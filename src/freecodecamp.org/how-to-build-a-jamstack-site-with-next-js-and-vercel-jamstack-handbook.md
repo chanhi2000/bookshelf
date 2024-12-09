@@ -42,7 +42,7 @@ cover: https://www.freecodecamp.org/news/content/images/2020/09/jamstack-handboo
   "title": "Next.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-next/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2020/09/jamstack-handboo
   "title": "Vercel > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/vercel/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

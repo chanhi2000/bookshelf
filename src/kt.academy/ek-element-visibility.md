@@ -34,7 +34,7 @@ cover: https://kt.academy/_next/image?url=https%3A//marcinmoskala.com/EffectiveK
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://kt.academy/_next/image?url=https%3A//marcinmoskala.com/EffectiveK
 <SiteInfo
   name="Item 29: Minimize elements’ visibility"
   desc="Why we should minimize elements’ visibility and how to do it."
-  url="https://kt.academy/ek-element-visibility"
+  url="https://kt.academy/article/ek-element-visibility"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/EffectiveKotlin-Book/promotion/element_visibility.jpg"/>
 

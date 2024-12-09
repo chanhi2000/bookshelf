@@ -32,7 +32,7 @@ cover: https://outcomeschool.com/static/images/blog/database-normalization-vs-de
   "title": "Data Science > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

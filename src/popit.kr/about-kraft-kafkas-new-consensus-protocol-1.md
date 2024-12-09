@@ -36,7 +36,7 @@ cover: https://popit.kr//wp-content/uploads/2024/03/kafka-day_kraft1.002-600x450
   "title": "Kafka > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-kafka/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

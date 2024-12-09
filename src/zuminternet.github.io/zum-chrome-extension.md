@@ -42,7 +42,7 @@ cover: https://zuminternet.github.io/images/front/post/2020-09-11-Zum-Chrome-Ext
   "title": "Vue.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-vue/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://zuminternet.github.io/images/front/post/2020-09-11-Zum-Chrome-Ext
   "title": "Google Chrome > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/googlechrome/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

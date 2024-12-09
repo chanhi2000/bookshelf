@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723631770942/c82aabb
   "title": "Go > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/go/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723631770942/c82aabb
   "title": "MongoDB > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/mongodb/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

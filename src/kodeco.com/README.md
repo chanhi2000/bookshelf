@@ -375,7 +375,6 @@ head:
 }
 ```
 
-
 ```component VPCard
 {
   "title": "SwiftUI and Structured Concurrency",
@@ -947,7 +946,6 @@ head:
   "background": "rgba(135,99,210,0.2)"
 }
 ```
-
 
 ```component VPCard
 {
@@ -3189,7 +3187,6 @@ head:
 }
 ```
 
-
 ```component VPCard
 {
   "title": "Full Text Search in Room Tutorial - Getting Started",
@@ -3399,7 +3396,6 @@ head:
   "background": "rgba(0,184,126,0.2)"
 }
 ```
-
 
 ```component VPCard
 {

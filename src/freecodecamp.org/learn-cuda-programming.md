@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727210236521/60c4ef6
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

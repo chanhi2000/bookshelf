@@ -35,7 +35,7 @@ cover: https://koenig-media.raywenderlich.com/uploads/2020/02/UnsafeSwift-twitte
 "title": "Swift > Article(s)",
 "desc": "Article(s)",
 "link": "/programming/swift/articles/README.md",
-"logo": "/images/ico-wind.svg",
+"logo": "https://chanhi2000.github.io/images/ico-wind.svg",
 "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://koenig-media.raywenderlich.com/uploads/2020/02/UnsafeSwift-twitte
 "title": "C > Article(s)",
 "desc": "Article(s)",
 "link": "/programming/c/articles/README.md",
-"logo": "/images/ico-wind.svg",
+"logo": "https://chanhi2000.github.io/images/ico-wind.svg",
 "background": "rgba(10,10,10,0.2)"
 }
 ```

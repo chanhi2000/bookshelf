@@ -35,7 +35,7 @@ cover: https://freecodecamp.org/news/content/images/2020/11/cover-2.jpg
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2020/11/cover-2.jpg
   "title": "API > Article(s)",
   "desc": "Article(s)",
   "link": "/explore/api/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

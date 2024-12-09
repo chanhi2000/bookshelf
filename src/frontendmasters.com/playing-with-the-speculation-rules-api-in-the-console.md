@@ -38,7 +38,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pex
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/06/pex
   "title": "Google Chrome > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/chrome/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

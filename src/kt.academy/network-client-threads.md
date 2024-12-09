@@ -37,7 +37,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/network-client-th
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/network-client-th
 <SiteInfo
   name="How many threads your network client uses?"
   desc="Many popular network clients consume way more threads than you might expect. Let's overview the problem and find a solution."
-  url="https://kt.academy/network_client_threads"
+  url="https://kt.academy/article/network_client_threads"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/network-client-threads.jpg"/>
 

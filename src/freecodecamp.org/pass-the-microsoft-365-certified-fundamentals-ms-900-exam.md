@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727366782416/f8397d6
   "title": "Microsoft 365 > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/ms365/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

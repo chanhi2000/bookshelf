@@ -37,7 +37,7 @@ cover: https://marcinmoskala.com/EffectiveKotlin-Book/promotion/wrapping_api.jpg
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://marcinmoskala.com/EffectiveKotlin-Book/promotion/wrapping_api.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -59,7 +59,7 @@ cover: https://marcinmoskala.com/EffectiveKotlin-Book/promotion/wrapping_api.jpg
 <SiteInfo
   name="Item 28: Consider wrapping external APIs"
   desc="Why we should wrap external APIs and how to do it."
-  url="https://kt.academy/ek-wrapping-api"
+  url="https://kt.academy/article/ek-wrapping-api"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/EffectiveKotlin-Book/promotion/wrapping_api.jpg"/>
 

@@ -35,7 +35,7 @@ cover: /assets/image/code-maze.com/ci-jenkins-docker/banner.png
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: /assets/image/code-maze.com/ci-jenkins-docker/banner.png
   "title": "Jenkins > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/jenkins/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

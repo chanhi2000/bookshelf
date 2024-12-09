@@ -40,7 +40,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/Azure-K8s
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/azure/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/Azure-K8s
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -60,7 +60,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/Azure-K8s
   "title": "Postgres > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -70,7 +70,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/Azure-K8s
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

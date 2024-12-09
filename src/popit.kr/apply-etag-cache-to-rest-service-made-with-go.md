@@ -36,7 +36,7 @@ cover: https://popit.kr//wp-content/uploads/2023/02/%E1%84%89%E1%85%B3%E1%84%8F%
   "title": "Go > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/go/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6UDansS-rPI/up
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -60,7 +60,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6UDansS-rPI/up
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -70,7 +70,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6UDansS-rPI/up
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -80,7 +80,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6UDansS-rPI/up
   "title": "AI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

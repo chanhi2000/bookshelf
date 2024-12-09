@@ -36,7 +36,7 @@ cover: https://techblog.lycorp.co.jp/static/91ad22bcecda4ff51d2872118cf14c93/4be
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -36,7 +36,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/viewmodel-statefl
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/viewmodel-statefl
 <SiteInfo
   name="Representing ViewModel events with StateFlow vs. SharedFlow vs. Channel"
   desc="What is the best way to represent ViewModel events in Kotlin?"
-  url="https://kt.academy/viewmodel-stateflow-sharedflow-channel"
+  url="https://kt.academy/article/viewmodel-stateflow-sharedflow-channel"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/viewmodel-stateflow-sharedflow-channel.jpg"/>
 

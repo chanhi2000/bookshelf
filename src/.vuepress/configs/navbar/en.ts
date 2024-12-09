@@ -136,12 +136,23 @@ export const navbarEn = navbar([
       }, 
     ]
   }, {
-    text: 'tecmint.com',
-    icon: 'https://tecmint.com/wp-content/uploads/2020/07/favicon.ico',
-    link: '/tecmint.com/README.md'
-  }, {
-    text: 'learnk8s.io',
-    icon: 'https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg',
-    link: '/learnk8s.io/README.md'
-  }
+    text: '',
+    icon: 'fas fa-network-wired',
+    children: [
+      {
+        text: 'tecmint.com',
+        icon: 'https://tecmint.com/wp-content/uploads/2020/07/favicon.ico',
+        link: '/tecmint.com/README.md'
+      }, {
+        text: 'learnk8s.io',
+        icon: 'https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg',
+        link: '/learnk8s.io/README.md'
+      }, {
+        text: 'itsfoss.com',
+        icon: 'https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png',
+        link: '/itsfoss.com/README.md'
+      },     
+    ]
+  },
+  
 ])

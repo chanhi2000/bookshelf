@@ -32,7 +32,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ani
   "title": "CSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/ani
 <SiteInfo
   name="Animating the Dialog Element"
   desc="It might seem like you could just set a transition on the opacity of the dialog element in CSS from 0 to 1, but it doesn't work. You'll need to learn about @starting-style, and the overlay and allow-discrete keywords."
-  url="https://frontendmasters.com/animating-dialog"
+  url="https://frontendmasters.com/blog/animating-dialog"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2341"/>
 

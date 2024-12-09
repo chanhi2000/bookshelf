@@ -39,7 +39,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732705985906/4909064
   "title": "Security > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/security/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732705985906/4909064
   "title": "PHP > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/php/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

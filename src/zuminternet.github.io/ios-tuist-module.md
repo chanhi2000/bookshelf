@@ -33,7 +33,7 @@ cover: https://zuminternet.github.io/images/ios/2023-05-24-iOS-tuist-module/titl
   "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

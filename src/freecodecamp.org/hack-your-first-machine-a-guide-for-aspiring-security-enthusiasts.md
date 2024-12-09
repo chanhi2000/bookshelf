@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
   "title": "nmap > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/nmap/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
   "title": "Security > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/security/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -35,7 +35,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -47,7 +47,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg
 <SiteInfo
   name="Cancellation in Kotlin Coroutines"
   desc="Everything you need to know about the cancellation mechanism in Kotlin Coroutines."
-  url="https://kt.academy/cc-cancellation"
+  url="https://kt.academy/article/cc-cancellation"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg"/>
 

@@ -44,7 +44,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
   "title": "Google Cloud > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gcp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,7 +54,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
   "title": "Gemini > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/gemini/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

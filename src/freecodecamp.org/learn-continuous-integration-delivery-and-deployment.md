@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733170224698/a712aae
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733170224698/a712aae
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -67,7 +67,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733170224698/a712aae
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -77,7 +77,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733170224698/a712aae
   "title": "Google Cloud > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gcp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -635,7 +635,7 @@ To do this, open your GitHub repository where the codebase is hosted. In the Git
 
 Then on the left sidebar, scroll down and click on **“Secrets and Variables”**, then choose **“Actions”**.
 
-1. ![Open GitHub Actions Secrets](https://cdn.hashnode.com/res/hashnode/image/upload/v1733133003023/75c3bd35-1a5b-46fa-845a-0f4fd8305d53.png)
+![Open GitHub Actions Secrets](https://cdn.hashnode.com/res/hashnode/image/upload/v1733133003023/75c3bd35-1a5b-46fa-845a-0f4fd8305d53.png)
 
 Here are the steps to create and manage your new secret:
 
@@ -644,7 +644,6 @@ Here are the steps to create and manage your new secret:
     - In the **Name** field, type `DOCKER_PASSWORD`.
     - In the **Value** field, paste the access token you copied earlier.
 3. **Save the secret**: Finally, click **Add secret** to save your Docker access token securely in GitHub.
-
 
 Then you’ll repeat the process for your Docker username. Create a new secret called `DOCKER_USER` and add your Docker username that you copied earlier.
 

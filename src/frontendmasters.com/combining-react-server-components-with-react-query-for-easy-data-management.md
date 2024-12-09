@@ -38,7 +38,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 <SiteInfo
   name="Combining React Server Components with react-query for Easy Data Management"
   desc="Server-side component rendering can improve data loading efficiency over client-rendered SPAs. Despite their benefits, such as out-of-order streaming, they have limitations, including slow server action updates and lack of support for client-side interactivity. React Query complements RSC by managing client-side data updates, addressing some of RSC's drawbacks."
-  url="https://frontendmasters.com/combining-react-server-components-with-react-query-for-easy-data-management"
+  url="https://frontendmasters.com/blog/combining-react-server-components-with-react-query-for-easy-data-management"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2378"/>
 

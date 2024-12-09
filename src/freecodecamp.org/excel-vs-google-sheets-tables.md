@@ -41,7 +41,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/4.jpg
   "title": "Excel > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/xls/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/4.jpg
   "title": "Google Drive > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/google-drive/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

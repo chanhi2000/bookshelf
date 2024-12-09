@@ -37,7 +37,7 @@ cover: https://tech.inflab.com/og-image/20240425-mobile-part/index.png
   "title": "Career > Article(s)",
   "desc": "Article(s)",
   "link": "/projects/career/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

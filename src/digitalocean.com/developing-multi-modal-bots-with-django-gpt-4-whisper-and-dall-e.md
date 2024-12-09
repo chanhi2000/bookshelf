@@ -40,7 +40,7 @@ cover: https://digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstat
   "title": "Django > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-django/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstat
   "title": "OpenAI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/openai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

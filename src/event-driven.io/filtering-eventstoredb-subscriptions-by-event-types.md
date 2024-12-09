@@ -38,7 +38,7 @@ cover: https://event-driven.io/static/ac7ebf197e1a9ec135ecce515f6c4edb/a331c/202
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://event-driven.io/static/ac7ebf197e1a9ec135ecce515f6c4edb/a331c/202
   "title": "RegEx > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/regex/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

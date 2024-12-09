@@ -39,7 +39,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729588035734/9824633
   "title": "Computer Engineering > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/coen/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729588035734/9824633
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -38,7 +38,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727226065318/c1522ad
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727226065318/c1522ad
   "title": "Windows > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/windows/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

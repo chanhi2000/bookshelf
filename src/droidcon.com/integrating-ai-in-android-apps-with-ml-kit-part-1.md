@@ -36,7 +36,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/0_2TTBI_E3ctKXN2eF-1024x1
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

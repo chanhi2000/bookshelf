@@ -40,7 +40,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: http://thefarmersfront.github.io/assets/logo-square.png
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -38,7 +38,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727685813983/f467202
   "title": "Go > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/go/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727685813983/f467202
   "title": "Kubernetes > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/k8s/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

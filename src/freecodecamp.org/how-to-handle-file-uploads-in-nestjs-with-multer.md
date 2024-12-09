@@ -36,7 +36,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724695369812/b0511a2
   "title": "Nest.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-nest/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

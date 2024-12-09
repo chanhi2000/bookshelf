@@ -34,7 +34,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Attractiv
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Attractiv
   "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -34,7 +34,7 @@ cover: https://blog.gangnamunni.com/_nuxt/img/ae65a45.jpg
   "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

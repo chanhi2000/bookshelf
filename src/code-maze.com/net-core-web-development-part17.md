@@ -33,7 +33,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part17/banner.png
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -43,7 +43,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part17/banner.png
   "title": "Linux - Debian > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -53,7 +53,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part17/banner.png
   "title": "NGINX > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/nginx/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -63,7 +63,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part17/banner.png
   "title": "MySQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/mysql/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

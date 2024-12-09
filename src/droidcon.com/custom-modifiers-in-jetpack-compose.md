@@ -2,11 +2,12 @@
 lang: en-US
 title: "Custom modifiers in Jetpack Compose"
 description: "Article(s) > Custom modifiers in Jetpack Compose"
-icon: fa-brands fa-android
+icon: iconfont icon-jetpack-compose
 category:
   - Java
   - Kotlin
   - Android
+  - Jetpack Compose
   - Article(s)
 tag:
   - blog
@@ -14,6 +15,7 @@ tag:
   - java
   - kotlin
   - android
+  - jetpack-compse
 head:
   - - meta:
     - property: og:title
@@ -36,7 +38,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_Oe-DGannPg34NnFtp02TjA.
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

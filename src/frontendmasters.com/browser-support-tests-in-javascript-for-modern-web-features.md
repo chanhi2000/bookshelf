@@ -33,7 +33,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 <SiteInfo
   name="Browser Support Tests in JavaScript for Modern Web Features"
   desc="Sometimes it's good to know when a browser feature is supported or not so you can do something. Perhaps load a polyfill or just choose a slightly different approach. This post looks at newish features in browsers and shows the test."
-  url="https://frontendmasters.com/browser-support-tests-in-javascript-for-modern-web-features"
+  url="https://frontendmasters.com/blog/browser-support-tests-in-javascript-for-modern-web-features"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2865"/>
 

@@ -41,7 +41,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727738740919/4dd5ea1
   "title": "Next.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-next/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727738740919/4dd5ea1
   "title": "GraphQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/GraphQL/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

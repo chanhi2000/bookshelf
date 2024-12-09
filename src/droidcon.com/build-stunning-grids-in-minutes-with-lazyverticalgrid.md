@@ -23,7 +23,7 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/droidcon.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-%F0%93%88%88-%F0%93%8A%81-%F0%93%8A%82-%F0%93%90%96.html
 prev: /programming/java-android/articles/README.md
-date: NaN-NaN-NaN
+date: 2024-10-28
 isOriginal: false
 author: droidcon
 cover: https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-600x600.webp
@@ -36,7 +36,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

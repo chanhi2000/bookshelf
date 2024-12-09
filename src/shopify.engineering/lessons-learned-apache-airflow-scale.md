@@ -36,7 +36,7 @@ cover: https://cdn.shopify.com/s/files/1/0779/4361/articles/Shop_Eng_Blog_Header
   "title": "Airflow > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-airflow/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

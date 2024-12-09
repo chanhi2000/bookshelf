@@ -40,7 +40,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/b9-odQi5oDo/up
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/prgramming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/b9-odQi5oDo/up
   "title": "Redis > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/redis/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

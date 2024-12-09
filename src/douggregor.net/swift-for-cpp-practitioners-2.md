@@ -5,7 +5,7 @@ description: "Article(s) > Swift for C++ Practitioners, Part 2: Reference Types 
 icon: fa-brands fa-swift
 category: 
   - Swift
-  - Cpp
+  - C++
   - Article(s)
 tag: 
   - blog
@@ -34,7 +34,7 @@ isOriginal: false
   "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -44,7 +44,7 @@ isOriginal: false
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

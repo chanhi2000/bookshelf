@@ -36,7 +36,7 @@ cover: https://substack-post-media.s3.amazonaws.com/public/images/33d87309-0de7-
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://substack-post-media.s3.amazonaws.com/public/images/33d87309-0de7-
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

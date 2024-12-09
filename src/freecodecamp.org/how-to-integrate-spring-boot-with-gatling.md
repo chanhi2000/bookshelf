@@ -40,7 +40,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/pexels-ma
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/pexels-ma
   "title": "Gatling > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gatling/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725485224418/61b7501
   "title": "Python > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725485224418/61b7501
   "title": "OpenAI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/openai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

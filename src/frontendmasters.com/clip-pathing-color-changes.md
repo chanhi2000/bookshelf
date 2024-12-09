@@ -33,7 +33,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 <SiteInfo
   name="Clip Pathing Color Changes"
   desc="Let's look at a cool animated nav effect (from a recent post by Emil Kowalski) that uses CSS `clip-path` to move the highlighted nav item around. It's an interesting look at this CSS feature and adds a lot of polish to a simple idea."
-  url="https://frontendmasters.com/clip-pathing-color-changes"
+  url="https://frontendmasters.com/blog/clip-pathing-color-changes"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3103"/>
 

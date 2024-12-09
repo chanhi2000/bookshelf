@@ -35,7 +35,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9c9e740569d1a4ca3336.jpg
   "title": "Django > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-django/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

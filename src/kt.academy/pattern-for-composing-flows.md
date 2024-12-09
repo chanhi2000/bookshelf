@@ -33,7 +33,7 @@ cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-a
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

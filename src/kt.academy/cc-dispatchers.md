@@ -34,7 +34,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/207_dispatchers.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/207_dispatchers.jpg
 <SiteInfo
   name="Kotlin Coroutines dispatchers"
   desc="Where we should use each dispatcher from the Kotlin Coroutines library."
-  url="https://kt.academy/cc-dispatchers"
+  url="https://kt.academy/article/cc-dispatchers"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/coroutines_book/promotion/207_dispatchers.jpg"/>
 

@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726760870442/726967e
   "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726760870442/726967e
   "title": "FastAPI > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-fastapi/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -66,7 +66,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726760870442/726967e
   "title": "MongoDB > Article(s)",
   "desc": "Article(s)",
   "link": "/data-scienece/mongodb/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

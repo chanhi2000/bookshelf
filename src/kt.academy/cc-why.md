@@ -34,7 +34,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/101_why.jpg
   "title": "Java > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -46,7 +46,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/101_why.jpg
 <SiteInfo
   name="Why using Kotlin Coroutines?"
   desc="The explanation of why coroutines stand out and offer us what hasn't been offered by other technologies."
-  url="https://kt.academy/cc-why"
+  url="https://kt.academy/article/cc-why"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/coroutines_book/promotion/101_why.jpg"/>
 

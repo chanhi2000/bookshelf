@@ -41,7 +41,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729707865753/d1703b3
   "title": "Shell > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/sh/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729707865753/d1703b3
   "title": "Github > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/github/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -61,7 +61,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729707865753/d1703b3
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

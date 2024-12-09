@@ -41,7 +41,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728506087133/a2be701
   "title": "AWS > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/aws/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728506087133/a2be701
   "title": "AI > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

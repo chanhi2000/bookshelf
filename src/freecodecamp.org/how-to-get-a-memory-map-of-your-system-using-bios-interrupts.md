@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/iar-afB0QQw/up
   "title": "Hardware > Article(s)",
   "desc": "Article(s)",
   "link": "/hw/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

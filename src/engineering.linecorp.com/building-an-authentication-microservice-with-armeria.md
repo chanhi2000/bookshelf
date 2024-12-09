@@ -34,7 +34,7 @@ cover: https://vos.line-scdn.net/landpress-content-v2_954/1655783139797.png?upda
   "title": "Armeria > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-armeria/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

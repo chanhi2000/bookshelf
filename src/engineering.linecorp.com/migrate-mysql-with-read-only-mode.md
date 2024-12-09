@@ -35,7 +35,7 @@ cover: https://techblog.lycorp.co.jp/static/42255ba7ed82a7b0c88c7d62930764c5/7d6
   "title": "Spring > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-spring/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -45,7 +45,7 @@ cover: https://techblog.lycorp.co.jp/static/42255ba7ed82a7b0c88c7d62930764c5/7d6
   "title": "MySQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/mysql/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

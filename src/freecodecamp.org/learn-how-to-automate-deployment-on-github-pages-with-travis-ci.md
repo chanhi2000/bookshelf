@@ -36,7 +36,7 @@ cover: https://freecodecamp.org/news/content/images/2019/06/Druhv-article-image.
   "title": "Travis CI > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/travis-ci/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

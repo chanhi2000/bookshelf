@@ -32,7 +32,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9b84740569d1a4ca2c3f.jpg
   "title": "API > Article(s)",
   "desc": "Article(s)",
   "link": "/explore/api/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

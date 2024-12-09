@@ -38,7 +38,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   "title": "JMeter > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/jmeter/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   "title": "Gatling > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/gatling/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

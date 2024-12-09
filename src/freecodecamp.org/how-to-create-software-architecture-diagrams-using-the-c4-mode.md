@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724187048778/7d2821c
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

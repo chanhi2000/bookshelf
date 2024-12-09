@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714092420192/21d4bc5
   "title": "macOS > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/macos/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

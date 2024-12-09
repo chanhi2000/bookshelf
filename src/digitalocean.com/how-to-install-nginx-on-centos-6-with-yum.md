@@ -38,7 +38,7 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/Ad4WRH3PXeWs
   "title": "Linux - Fedroa >  > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-fedora/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -48,7 +48,7 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/Ad4WRH3PXeWs
   "title": "NGINX >  > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/nginx/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

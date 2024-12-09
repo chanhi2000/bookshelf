@@ -39,7 +39,7 @@ cover: https://fe-developers.kakaoent.com/static/58f28c87494a7a0f80161c65f3af50b
   "title": "AWS > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/aws/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -49,7 +49,7 @@ cover: https://fe-developers.kakaoent.com/static/58f28c87494a7a0f80161c65f3af50b
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-node/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

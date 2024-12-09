@@ -33,7 +33,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2023/05/postresql
   "title": "PostgreSQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgres/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

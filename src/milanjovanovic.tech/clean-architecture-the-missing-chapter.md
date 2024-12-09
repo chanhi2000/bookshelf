@@ -40,7 +40,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_114.png
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -50,7 +50,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_114.png
   "title": "System Design > Article(s)",
   "desc": "Article(s)",
   "link": "/academics/system-design/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

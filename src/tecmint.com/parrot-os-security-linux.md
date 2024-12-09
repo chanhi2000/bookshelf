@@ -39,7 +39,7 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Parrot-Security-OS-Install
   "title": "Linux - Debain > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

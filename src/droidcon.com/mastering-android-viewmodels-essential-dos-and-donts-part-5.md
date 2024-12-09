@@ -2,7 +2,7 @@
 lang: en-US
 title: "Mastering Android ViewModels: Essential Dos and Don’ts Part 5 🛠️5️⃣"
 description: "Article(s) > Mastering Android ViewModels: Essential Dos and Don’ts Part 5 🛠️5️⃣"
-icon: fa-brands fa-android
+icon: iconfont icon-jetpack-compose
 category:
   - Java
   - Kotlin
@@ -36,7 +36,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_XDoCaRPSQa-h0DqkT5ckmA-
   "title": "Android > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/java-android/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
@@ -54,17 +54,17 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_XDoCaRPSQa-h0DqkT5ckmA-
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/1_XDoCaRPSQa-h0DqkT5ckmA-600x278.webp)
 
-This will be the fifth installment in our series **“Mastering Android ViewModels”** where we dive deep into the essential dos and don’ts that can elevate your Android development skills. We’ve already covered several tips to improve performance and code quality in `ViewModels`, which have become an integral part of modern Android applications.
+This will be the fifth installment in our series **“Mastering Android `ViewModels`”** where we dive deep into the essential dos and don’ts that can elevate your Android development skills. We’ve already covered several tips to improve performance and code quality in `ViewModels`, which have become an integral part of modern Android applications.
 
 ::: info Mastering Android ViewModels: Essential Dos and Don’ts Series 🔄🔄🔄
 
-1. **Avoid initializing the state in the** **init {}** **block.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9)
+1. **Avoid initializing the state in the `init {}` block.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9)
 2. **Avoid exposing mutable states.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
-3. **Use** **update{}** **when using** **MutableStateFlows****.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
-4. **Try not to import Android dependencies in the ViewModels.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
+3. **Use `update{}` when using `MutableStateFlows`.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
+4. **Try not to import Android dependencies in the `ViewModels`.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
 5. **Lazily inject dependencies in the constructor.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
 6. **Embrace more reactive and less imperative coding. ✅** [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2)
-7. **Avoid initializing the ViewModel from the outside world. ✅** [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2)
+7. **Avoid initializing the `ViewModel` from the outside world. ✅** [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2)
 
 :::
 
@@ -234,15 +234,46 @@ Mastering `ViewModels` in Android development is crucial for creating robust, ef
 - ✨✨ If you need help with your Android ViewModels, Project, or your career development, Book a 1:1 or a Pair-Programming session with me, [**Book a time now**](https://mentorcruise.com/mentor/rezanajafi/) 🧑‍💻🧑‍💻🧑‍💻
 - check out the previous articles in this series with the links below:
 
-[https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9?source=post_page—–14d04ec2426a——————————–](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9?source=post_page-----14d04ec2426a--------------------------------)
+<SiteInfo
+  name="Mastering Android ViewModels: Essential Dos and Don’ts Part 1 🛠️"
+  desc="If you’re using ViewModels keep these in mind for better code quality"
+  url="https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9/"
+  logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
+  preview="https://miro.medium.com/v2/resize:fit:1200/1*kw5CfF3tMvC_SQaKneKuag.png"/>
 
-[https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029?source=post_page—–14d04ec2426a——————————–](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029?source=post_page-----14d04ec2426a--------------------------------)
+<SiteInfo
+  name="Mastering Android ViewModels: Essential Dos and Don’ts Part 2 🛠️"
+  desc="In the second part of this series of articles, we will continue discussing best practices for using Android ViewModels."
+  url="https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029/"
+  logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
+  preview="https://miro.medium.com/v2/resize:fit:1200/1*h2v9N4U9uGp4gTiphRWg4w.png"/>
 
-[https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b?source=post_page—–14d04ec2426a——————————–](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b?source=post_page-----14d04ec2426a--------------------------------)
+<SiteInfo
+  name="Mastering Android ViewModels: Essential Dos and Don’ts Part 3 🛠️3️⃣"
+  desc="If you’re using ViewModels keep these in mind for better code quality, Part3"
+  url="https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b/"
+  logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
+  preview="https://miro.medium.com/v2/resize:fit:1080/1*dWdbvDuWlcQaFNCYBjRI6w.png"/>
 
-[https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2?source=post_page—–14d04ec2426a——————————–](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2?source=post_page-----14d04ec2426a--------------------------------)
+<SiteInfo
+  name="Mastering Android ViewModels: Essential Dos and Don’ts Part 4 🛠️⚃"
+  desc="If you’re using ViewModels keep these in mind for better code quality, Part 4"
+  url="https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2/"
+  logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
+  preview="https://miro.medium.com/v2/resize:fit:1080/1*4M3wAQM1QlZpJNah4H6P9A.png"/>
 
-This article is previously published on [proandroiddev.com](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-5-%EF%B8%8F5%EF%B8%8F%E2%83%A3-14d04ec2426a)
+::: info
+
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-5-%EF%B8%8F5%EF%B8%8F%E2%83%A3-14d04ec2426a)
+
+<SiteInfo
+  name="Mastering Android ViewModels: Essential Dos and Don’ts Part 5 🛠️5️⃣"
+  desc="keep these in mind for better code quality when doing ViewModels!"
+  url="https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-5-%EF%B8%8F5%EF%B8%8F%E2%83%A3-14d04ec2426a/"
+  logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
+  preview="https://miro.medium.com/v2/resize:fit:1080/1*XDoCaRPSQa-h0DqkT5ckmA.png"/>
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

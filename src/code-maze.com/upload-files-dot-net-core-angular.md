@@ -39,18 +39,17 @@ cover: /assets/image/code-maze.com/upload-files-dot-net-core-angular/banner.png
   "title": "Angular.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-angular/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
-
 
 ```component VPCard
 {
   "title": "C# > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cs/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

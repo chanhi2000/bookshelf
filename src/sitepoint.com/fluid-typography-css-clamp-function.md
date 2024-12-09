@@ -31,7 +31,7 @@ cover: https://uploads.sitepoint.com/wp-content/uploads/2024/04/1713857373calc-c
   "title": "CSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

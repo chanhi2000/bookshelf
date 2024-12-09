@@ -38,7 +38,7 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/aut
   "title": "Svelte.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-svelte/articles/README.md",
-  "logo": "/images/ico-wind.svg",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```
