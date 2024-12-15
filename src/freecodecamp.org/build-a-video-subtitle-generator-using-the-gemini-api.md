@@ -249,7 +249,7 @@ For this project, we are using ES6 modules instead of CommonJS. To enable this, 
 
 ### Basic Setup of Express
 
-Create a file <FontIcon icon="iconfont icon-express"/>`server.js`. Now, let’s set up a basic Express application.
+Create a file <FontIcon icon="iconfont icon-expressjs"/>`server.js`. Now, let’s set up a basic Express application.
 
 ```js tiitle="server/server.js"
 import express from "express";

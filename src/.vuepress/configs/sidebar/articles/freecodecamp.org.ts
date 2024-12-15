@@ -304,6 +304,7 @@ export const template: SidebarInfoTemplate = {
       "working-on-a-multiple-library-project-in-android", // 2024-04-27
       "migrate-from-play-core-library", // 2024-06-26
       "how-to-use-tooltips-in-jetpack-compose", // 2024-10-02
+      // END: java-android
     ]],[
     "java-kafka", [
       "how-to-implement-event-driven-data-processing", // 2024-11-19
@@ -311,6 +312,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "java-quarkus", [
       GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03
+      // END: java-quarkus
+    ]],[
+    "java-elasticsearch", [
+      "learn-elasticsearch-with-a-comprehensive-beginner-friendly-course", // 2024-12-13
+      //END: java-elasticsearch
     ]],[
     "gradle", [
       "working-on-a-multiple-library-project-in-android", // 2024-04-27
@@ -376,6 +382,7 @@ export const template: SidebarInfoTemplate = {
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
       "how-to-write-better-variable-names", // 2024-12-05
       "how-to-write-code-thats-easy-to-read", // 2024-12-05
+      "learn-how-math-can-make-your-code-better-by-coding-polyrhythms", // 2024-12-13
       // END: js
     ]],[
     "ts", [
@@ -556,6 +563,7 @@ export const template: SidebarInfoTemplate = {
       "handling-forms-nextjs-server-actions-zod", // 2024-11-23
       "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
       "nextjs-vs-react-differences", // 2024-12-05
+      "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
       // END: js-next
     ]],[
     "js-nuxt", [
@@ -682,6 +690,7 @@ export const template: SidebarInfoTemplate = {
       "tools-for-open-source-intelligence-gathering", // 2024-10-29
       "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
+      "build-a-web-application-security-scanner-with-python", // 2024-12-13
       // END: py
     ]],[
     "py-django", [
@@ -1769,6 +1778,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
       "how-django-mvt-architecture-works", // 2024-12-11
       "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
+      "learn-how-math-can-make-your-code-better-by-coding-polyrhythms", // 2024-12-13
+      "learn-elasticsearch-with-a-comprehensive-beginner-friendly-course", // 2024-12-13
+      "build-a-web-application-security-scanner-with-python", // 2024-12-13
+      "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
     ]],
   ]),
 }

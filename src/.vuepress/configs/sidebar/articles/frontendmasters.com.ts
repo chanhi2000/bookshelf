@@ -22,10 +22,13 @@ export const template: SidebarInfoTemplate = {
       "exploring-the-possibilities-of-native-javascript-decorators", // 2024-08-09
       "writing-to-the-clipboard-in-javascript", // 2024-08-23
       "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
+      "you-might-not-need-that-framework", // 2024-09-27
       // END: js
     ]], [
     "ts", [
       "testing-types-in-typescript", // 2024-06-04
+      "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
+      // END: ts
     ]], [
     "js-node", [
       "introducing-drizzle", // 2024-06-17
@@ -34,6 +37,9 @@ export const template: SidebarInfoTemplate = {
     "js-react", [
       "prefetching-when-server-loading-wont-do", // 2024-05-15
       "combining-react-server-components-with-react-query-for-easy-data-management", // 2024-05-24
+      "what-does-hydration-mean", // 2024-09-09
+      "introducing-tanstack-router", // 2024-09-13
+      // END: js-react
     ]], [
     "js-svelte", [
       "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
@@ -75,6 +81,9 @@ export const template: SidebarInfoTemplate = {
       "custom-range-slider-using-anchor-positioning-scroll-driven-animations", // 2024-08-21
       "the-dialog-element-with-entry-and-exit-animations", // 2024-08-28
       "backgrounds-for-the-box-model-and-why-it-can-be-useful", // 2024-09-02
+      "split-effects-with-no-content-duplication", // 2024-09-11
+      "gradient-text-with-a-drop-shadow", // 2024-09-20
+      "keeping-pixely-images-pixely-and-performant", // 2024-09-23
       // END: css
     ]], [
     "chrome", [
@@ -86,6 +95,7 @@ export const template: SidebarInfoTemplate = {
     "career", [
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04
       "what-skills-should-you-focus-on-as-junior-web-developer-in-2024", // 2024-08-26
+      "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
       // END: career
     ]], [
     "all", [
@@ -145,6 +155,14 @@ export const template: SidebarInfoTemplate = {
       "java-optionals", // 2024-08-30
       "backgrounds-for-the-box-model-and-why-it-can-be-useful", // 2024-09-02
       "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
+      "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
+      "what-does-hydration-mean", // 2024-09-09
+      "split-effects-with-no-content-duplication", // 2024-09-11
+      "introducing-tanstack-router", // 2024-09-13
+      "gradient-text-with-a-drop-shadow", // 2024-09-20
+      "keeping-pixely-images-pixely-and-performant", // 2024-09-23
+      "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
+      "you-might-not-need-that-framework", // 2024-09-27
     ]]
   ])
 }

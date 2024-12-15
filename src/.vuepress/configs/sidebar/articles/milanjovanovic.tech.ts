@@ -15,6 +15,10 @@ export const template: SidebarInfoTemplate = {
   faviconPath: 'https://milanjovanovic.tech/profile_favicon.png',
   linksMap: new Map([
     [
+    "pwsh", [
+      "central-package-management-in-net-simplify-nuget-dependencies", // 2024-12-07
+      // END: pwsh
+    ]],[
     "cs", [
       "why-i-write-tall-linq-queries", // 2022-09-03
       "records-anonymous-types-non-destructive-mutation", // 2022-09-10
@@ -121,6 +125,9 @@ export const template: SidebarInfoTemplate = {
       "clean-architecture-the-missing-chapter", // 2024-11-02
       "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
+      "building-async-apis-in-aspnetcore-the-right-way", // 2024-11-23
+      "implementing-the-saga-pattern-with-masstransit", // 2024-11-30
+      "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       // END: cs
     ]],[
     "cs-razor", [
@@ -168,6 +175,7 @@ export const template: SidebarInfoTemplate = {
       "what-is-a-modular-monolith", // 2024-03-09
       "screaming-architecture", // 2024-08-24
       "clean-architecture-the-missing-chapter", // 2024-11-02
+      "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       // END: system-design
     ]],[
     "career", [
@@ -290,6 +298,10 @@ export const template: SidebarInfoTemplate = {
       "clean-architecture-the-missing-chapter", // 2024-11-02
       "functional-programming-in-csharp-the-practical-parts", // 2024-11-09
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
+      "building-async-apis-in-aspnetcore-the-right-way", // 2024-11-23
+      "implementing-the-saga-pattern-with-masstransit", // 2024-11-30
+      "central-package-management-in-net-simplify-nuget-dependencies", // 2024-12-07
+      "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
     ]]
   ])
 };

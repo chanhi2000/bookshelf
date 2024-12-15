@@ -57,9 +57,9 @@ Consider this material a prologue or an introduction to the learning process its
 
 The list below entails the knowledge required before attempting to learn JavaScript:
 
-- A necessary step to learning any programming language is first to understand how [computer programming languages](https://developer.mozilla.org/en-US/docs/Glossary/computer_programming) work in general (i.e., the conceptual mechanics of any programming language). We’ve yet to find a better book for this than “[How Computer Programming Works](https://amazon.com/gp/product/1893115232?ie=UTF8&SubscriptionId=1MGPYB6YW3HWK55XCGG2&linkCode=ll1&tag=frontendma0da-20&linkId=0dbce68cc369c480aca733198727ec06&language=en_US&ref_=as_li_ss_tl)” by Daniel Appleman. The book is old, and the language used isn’t JavaScript, but the mechanics it teaches are relevant to all languages. If you prefer to learn by instruction and want a lot more details, look at the [Crash Course on Computer Science](https://thecrashcourse.com/topic/computerscience/) (episodes: #11, #12, #13, #14, #16).
-- A basic understanding of the [internet](https://internetfundamentals.com/), web browsers, [HTML](https://frontendmasters.com/bootcamp/introduction-html/) (i.e. web pages), and [CSS](https://frontendmasters.com/bootcamp/introduction-css/).
-- A basic understanding of a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (see [Crash Course #22](https://thecrashcourse.com/courses/keyboards-command-line-interfaces-crash-course-computer-science-22/)) and a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) (see [Crash Course #26](https://thecrashcourse.com/courses/graphical-user-interfaces-crash-course-computer-science-26/)).
+- A necessary step to learning any programming language is first to understand how [<FontIcon icon="fa-brands fa-firefox"/>computer programming languages](https://developer.mozilla.org/en-US/docs/Glossary/computer_programming) work in general (i.e., the conceptual mechanics of any programming language). We’ve yet to find a better book for this than “[<FontIcon icon="fa-brands fa-amazon"/>How Computer Programming Works](https://amazon.com/gp/product/1893115232?ie=UTF8&SubscriptionId=1MGPYB6YW3HWK55XCGG2&linkCode=ll1&tag=frontendma0da-20&linkId=0dbce68cc369c480aca733198727ec06&language=en_US&ref_=as_li_ss_tl)” by Daniel Appleman. The book is old, and the language used isn’t JavaScript, but the mechanics it teaches are relevant to all languages. If you prefer to learn by instruction and want a lot more details, look at the [<FontIcon icon="fas fa-globe"/>Crash Course on Computer Science](https://thecrashcourse.com/topic/computerscience/) (episodes: #11, #12, #13, #14, #16).
+- A basic understanding of the [<FontIcon icon="fas fa-globe"/>internet](https://internetfundamentals.com/), web browsers, [<FontIcon icon="fas fa-globe"/>HTML](https://frontendmasters.com/bootcamp/introduction-html/) (i.e. web pages), and [<FontIcon icon="fas fa-globe"/>CSS](https://frontendmasters.com/bootcamp/introduction-css/).
+- A basic understanding of a [<FontIcon icon="fa-brands fa-wikipedia-w"/>command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (see [<FontIcon icon="fas fa-globe"/>Crash Course #22](https://thecrashcourse.com/courses/keyboards-command-line-interfaces-crash-course-computer-science-22/)) and a [<FontIcon icon="fa-brands fa-wikipedia-w"/>graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) (see [<FontIcon icon="fas fa-globe"/>Crash Course #26](https://thecrashcourse.com/courses/graphical-user-interfaces-crash-course-computer-science-26/)).
 
 :::
 
@@ -67,25 +67,25 @@ The list below entails the knowledge required before attempting to learn JavaScr
 
 ## Helpful Background
 
-- In 1995 a programming language, which we call JavaScript today, was written in ten days and embedded into the Netscape web browser (i.e., a host environment) to validate user inputted data into HTML forms. That is the origin story of JavaScript in a nutshell. Fast forward 27 years, and today it is the most used programming language in the world and is not limited to web browser runtimes. JavaScript, today is used almost anywhere a programmer can prefer it. From the front-end (e.g., [React](https://react.dev/)) and back-end (e.g., [Express](http://expressjs.com/)) of a web application, to command CLI tools (e.g., [ESlint](https://eslint.org/)), to a database (e.g., [MongoDB](https://mongodb.com/)). JavaScript is everywhere, and professionals and as well as novices use it.
-- JavaScript is a [scripted programming language](https://en.wikipedia.org/wiki/Scripting_language). It typically is found in a “host environment” where a programing language is required for scripting or programming something using an application programming interface (aka APIs). In the context of web browsers, [JavaScript works along](https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview#introduction) with web APIs like the [BOM](https://developer.mozilla.org/en-US/docs/Web/API/Window) (i.e., Browser Object Model), [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (i.e., Document Object Model, and [CSSOM (i.e., CSS Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model)to script or program web browsers and web pages. In the context of [Node.js](https://nodejs.org/en), JavaScript is the language used to produce applications and tools using Node.js APIs.
-- [JavaScript requires an engine to execute JavaScript source code](https://en.wikipedia.org/wiki/JavaScript_engine). JavaScript is written using a text/code editor and then fed into an [ECMAScript engine](https://en.wikipedia.org/wiki/JavaScript_engine) to be run/executed in the context of a host environment. The two most common host environments are a web browser and Node.js. The most well-known engine is [V8](https://v8.dev/). The V8 engine is the engine used by the Edge and Chrome web browsers as well as Node.js.
-- [JavaScript has undergone two historically significant](https://exploringjs.com/impatient-js/ch_history.html#timeline-of-ecmascript-versions) language changes. The first occurred in 2009 when ES5 was released, and the second occurred in 2015 when ES6 was released (Note: ES6 today is called “ES2015”). I’m not going to list the language changes because, as of 2022, the details are not as important as they once were. Just beware that ES3 to ES5 and ES5 to ES6 was when the two most significant changes to the language occurred.
-- Today [small incremental changes to the JavaScript language occur yearly (<FontIcon icon="iconfont icon-github"/>`tc39/proposals`)](https://github.com/tc39/proposals/blob/HEAD/finished-proposals.md). Before 2015 changes to the language [were sparse and often separated by several years](https://exploringjs.com/impatient-js/ch_history.html#timeline-of-ecmascript-versions). The name/label given to these yearly changes is ES2015, ES2016, ES2017, ES2018, etc. This year, the language will have a set of changes known as ES2022. ---
+- In 1995 a programming language, which we call JavaScript today, was written in ten days and embedded into the Netscape web browser (i.e., a host environment) to validate user inputted data into HTML forms. That is the origin story of JavaScript in a nutshell. Fast forward 27 years, and today it is the most used programming language in the world and is not limited to web browser runtimes. JavaScript, today is used almost anywhere a programmer can prefer it. From the front-end (e.g., [<FontIcon icon="fa-brands fa-react"/>React](https://react.dev/)) and back-end (e.g., [<FontIcon icon="iconfont icon-expressjs"/>Express](http://expressjs.com/)) of a web application, to command CLI tools (e.g., [ESlint](https://eslint.org/)), to a database (e.g., [<FontIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/)). JavaScript is everywhere, and professionals and as well as novices use it.
+- JavaScript is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>scripted programming language](https://en.wikipedia.org/wiki/Scripting_language). It typically is found in a “host environment” where a programing language is required for scripting or programming something using an application programming interface (aka APIs). In the context of web browsers, [<FontIcon icon="fa-brands fa-firefox"/>JavaScript works along](https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview#introduction) with web APIs like the [<FontIcon icon="fa-brands fa-firefox"/>BOM](https://developer.mozilla.org/en-US/docs/Web/API/Window) (i.e., Browser Object Model), [<FontIcon icon="fa-brands fa-firefox"/>DOM (i.e., Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model), and [<FontIcon icon="fa-brands fa-firefox"/>CSSOM (i.e., CSS Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model)to script or program web browsers and web pages. In the context of [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en), JavaScript is the language used to produce applications and tools using Node.js APIs.
+- [<FontIcon icon="fa-brands fa-wikipedia-w"/>JavaScript requires an engine to execute JavaScript source code](https://en.wikipedia.org/wiki/JavaScript_engine). JavaScript is written using a text/code editor and then fed into an [<FontIcon icon="fa-brands fa-wikipedia-w"/>ECMAScript engine](https://en.wikipedia.org/wiki/JavaScript_engine) to be run/executed in the context of a host environment. The two most common host environments are a web browser and Node.js. The most well-known engine is [V8](https://v8.dev/). The V8 engine is the engine used by the Edge and Chrome web browsers as well as Node.js.
+- [<FontIcon icon="fas fa-globe"/>JavaScript has undergone two historically significant](https://exploringjs.com/impatient-js/ch_history.html#timeline-of-ecmascript-versions) language changes. The first occurred in 2009 when ES5 was released, and the second occurred in 2015 when ES6 was released (Note: ES6 today is called “ES2015”). I’m not going to list the language changes because, as of 2022, the details are not as important as they once were. Just beware that ES3 to ES5 and ES5 to ES6 was when the two most significant changes to the language occurred.
+- Today [small incremental changes to the JavaScript language occur yearly (<FontIcon icon="iconfont icon-github"/>`tc39/proposals`)](https://github.com/tc39/proposals/blob/HEAD/finished-proposals.md). Before 2015 changes to the language [<FontIcon icon="fas fa-globe"/>were sparse and often separated by several years](https://exploringjs.com/impatient-js/ch_history.html#timeline-of-ecmascript-versions). The name/label given to these yearly changes is ES2015, ES2016, ES2017, ES2018, etc. This year, the language will have a set of changes known as ES2022. ---
 
 ---
 
 ## Getting Started Obstacles
 
 - Once upon a time, some perceived JavaScript as an inferior programming language for professional endeavors. While this is no longer the case today, you might still encounter this notion. One can mostly ignore this opinion as of today, given JavaScript is used in a wide variety of professional contexts today.
-- Newbies and even some veterans of the JavaScript language don’t realize that the word “JavaScript” is interchangeable with “ECMAScript.” JavaScript is the commercial name for ECMAScript and a historical relic. The actual name of the programming language in use today is ECMAScript. Anytime you hear JavaScript, you can mentally replace it with “ECMAScript.” ECMAScript is the programming language used by [ECMAScript engines like V8](https://v8.dev/docs/feature-launch-process). Consider that the module format used in JavaScript is called “ECMAScript Modules,” also known as “ES Modules” or “ESM.” And, consider that if you want to know which language features are available in a web browser or Node.js, you have to review which [ECMAScript specification is supported by the engine](https://kangax.github.io/compat-table/es2016plus/) (e.g., ES3, ES5, ES6, ES2015 thru ES2023). As you learn JavaScript, be aware that the core language, commonly called “JavaScript,” is technically not “JavaScript”; it is ECMAScript. Knowing this will elevate several layers of indirection as you learn about the language.
-- You will be sorely disappointed if you think you can learn programming or JavaScript by reading the [ECMAScript specification](https://262.ecma-international.org/). The ECMAScript specification does not exist with the intent of being a resource for learning programming or JavaScript. The ECMAScript specification defines the language details for engineers building an ECMAScript engine (e.g., V8). At times, however, advanced JavaScript programmers might [read up on the rules of the language by reading the language specification](https://timothygu.me/es-howto/). Regardless, you should know that the document is not written as a learning resource but to help engine authors develop JavaScript engines.
-- Focus on the language, alone, at first! Learning JavaScript does not have to come with the overhead of understanding the host environments in which JavaScript runs, regardless of what millions of tutorials on the web directly and indirectly assert. Learning JavaScript is more accessible when [first focusing on the language and ignoring the runtimes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview#javascript_the_core_language_ecmascript). If you are new to programming, focus on the language, not web or Node.js APIs (Yes, you’ll need to know enough about a JavaScript runtime to run JavaScript. But learn enough to run JavaScript and then focus on the language).
-- JavaScript is not a [strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language. It is a [loosely typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language. I’m not going to get into what this means because if you are reading this guide, this distinction will either be lost on you or cause noise. [TypeScript](https://typescriptlang.org/) exists to add a non-native strongly typed syntax to JavaScript. If you are new to programming and coming to JavaScript without programming experience, don’t learn TypeScript before learning JavaScript. Resist the urge to jump on the TypeScript bandwagon until you have an informed and experienced reason, which comes from knowing JavaScript first.
-- You’ll bump up against JavaScript compilers sooner than later while learning JavaScript. [Babel](https://babeljs.io/), [Typescript](https://typescriptlang.org/), [SWC](https://swc.rs/), and [Surcase](https://github.com/alangpierce/sucrase#sucrase/) all take ECMAScript and even TypeScript and compile it to a backward-compatible version of JavaScript (e.g. ES2022 to ES3). Using a compiler before understanding why you need one can be problematic. Don’t compile JavaScript until you know why you are compiling.
-- JavaScript had no [built-in module mechanism](https://en.wikipedia.org/wiki/Modular_programming) for a long time, and several bolt-on solutions stood up over the years to fill the void (e.g., [CJS](https://en.wikipedia.org/wiki/CommonJS) and [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)). This period is coming to a close. Yippie! We’ve come a long way, and mass adoption of the official [ES module format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) is taking place. But the history of JavaScript modules is fragmented and comes with a long tail. Trying to understand modules before you understand JavaScript will cause indirection. Don’t focus on ES modules before you know the language. When you have a firm grasp of the language, your next learning stop should be ES Modules.
-- If you are new to installing and using packages, there is a lot of historical information and a complicated learning curve. JavaScript packages can use different module formats; [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), [CJS](https://en.wikipedia.org/wiki/CommonJS), or [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md). Also, [the UMD](https://github.com/umdjs/umd) module format combines and abstracts other formats like ESM, CJS, and AMD. Due to the sorted and complicated history of JavaScript module formats, there is also a complex history around the formats found in the [npm registry](https://npmjs.com/), which is a public registry of JavaScript packages (a package is a set of JavaScript modules). Set all this aside while one learns JavaScript.
-- [JavaScript Object Notation (aka JSON)](https://json.org/json-en.html) is another topic that might not land with you until you understand JavaScript datatypes and some basic programming concepts. Note that the JSON syntax isn’t part of the ECMAScript specification, and the community [conventionally](http://json-schema.org/) drives any standardized usage. However, JavaScript does provide JSON methods to parse and stringify JSON. As a JavaScript neophyte, I would set aside trying to understand JSON until you understand JavaScript datatypes and JavaScript’s implementation of strings, objects, and arrays. If you need a mental model slot to place JSON into today, consider JSON a conventional way of writing data as text, and simultaneously valid JavaScript, in a universally understandable way so that other languages can transport and translate the data.
+- Newbies and even some veterans of the JavaScript language don’t realize that the word “JavaScript” is interchangeable with “ECMAScript.” JavaScript is the commercial name for ECMAScript and a historical relic. The actual name of the programming language in use today is ECMAScript. Anytime you hear JavaScript, you can mentally replace it with “ECMAScript.” ECMAScript is the programming language used by [<FontIcon icon="fas fa-globe"/>ECMAScript engines like V8](https://v8.dev/docs/feature-launch-process). Consider that the module format used in JavaScript is called “ECMAScript Modules,” also known as “ES Modules” or “ESM.” And, consider that if you want to know which language features are available in a web browser or Node.js, you have to review which [<FontIcon icon="fas fa-globe"/>ECMAScript specification is supported by the engine](https://kangax.github.io/compat-table/es2016plus/) (e.g., ES3, ES5, ES6, ES2015 thru ES2023). As you learn JavaScript, be aware that the core language, commonly called “JavaScript,” is technically not “JavaScript”; it is ECMAScript. Knowing this will elevate several layers of indirection as you learn about the language.
+- You will be sorely disappointed if you think you can learn programming or JavaScript by reading the [<FontIcon icon="fas fa-globe"/>ECMAScript specification](https://262.ecma-international.org/). The ECMAScript specification does not exist with the intent of being a resource for learning programming or JavaScript. The ECMAScript specification defines the language details for engineers building an ECMAScript engine (e.g., V8). At times, however, advanced JavaScript programmers might [<FontIcon icon="fas fa-globe"/>read up on the rules of the language by reading the language specification](https://timothygu.me/es-howto/). Regardless, you should know that the document is not written as a learning resource but to help engine authors develop JavaScript engines.
+- Focus on the language, alone, at first! Learning JavaScript does not have to come with the overhead of understanding the host environments in which JavaScript runs, regardless of what millions of tutorials on the web directly and indirectly assert. Learning JavaScript is more accessible when [<FontIcon icon="fa-brands fa-firefox"/>first focusing on the language and ignoring the runtimes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview#javascript_the_core_language_ecmascript). If you are new to programming, focus on the language, not web or Node.js APIs (Yes, you’ll need to know enough about a JavaScript runtime to run JavaScript. But learn enough to run JavaScript and then focus on the language).
+- JavaScript is not a [<FontIcon icon="fa-brands fa-wikipedia-w"/>strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language. It is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>loosely typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language. I’m not going to get into what this means because if you are reading this guide, this distinction will either be lost on you or cause noise. [<FontIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/) exists to add a non-native strongly typed syntax to JavaScript. If you are new to programming and coming to JavaScript without programming experience, don’t learn TypeScript before learning JavaScript. Resist the urge to jump on the TypeScript bandwagon until you have an informed and experienced reason, which comes from knowing JavaScript first.
+- You’ll bump up against JavaScript compilers sooner than later while learning JavaScript. [<FontIcon icon="iconfont icon-babel"/>Babel](https://babeljs.io/), [<FontIcon icon="iconfont icon-typescript"/>Typescript](https://typescriptlang.org/), [SWC](https://swc.rs/), and [Surcase](https://github.com/alangpierce/sucrase#sucrase/) all take ECMAScript and even TypeScript and compile it to a backward-compatible version of JavaScript (e.g. ES2022 to ES3). Using a compiler before understanding why you need one can be problematic. Don’t compile JavaScript until you know why you are compiling.
+- JavaScript had no [<FontIcon icon="fa-brands fa-wikipedia-w"/>built-in module mechanism](https://en.wikipedia.org/wiki/Modular_programming) for a long time, and several bolt-on solutions stood up over the years to fill the void (e.g., [<FontIcon icon="fa-brands fa-wikipedia-w"/>CJS](https://en.wikipedia.org/wiki/CommonJS) and [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md)). This period is coming to a close. Yippie! We’ve come a long way, and mass adoption of the official [<FontIcon icon="fa-brands fa-firefox"/>ES module format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) is taking place. But the history of JavaScript modules is fragmented and comes with a long tail. Trying to understand modules before you understand JavaScript will cause indirection. Don’t focus on ES modules before you know the language. When you have a firm grasp of the language, your next learning stop should be ES Modules.
+- If you are new to installing and using packages, there is a lot of historical information and a complicated learning curve. JavaScript packages can use different module formats; [<FontIcon icon="fa-brands fa-firefox"/>ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), [<FontIcon icon="fa-brands fa-wikipedia-w"/>CJS](https://en.wikipedia.org/wiki/CommonJS), or [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md). Also, [the UMD (<FontIcon icon="iconfont icon-github"/>`umdjs/umd`)](https://github.com/umdjs/umd) module format combines and abstracts other formats like ESM, CJS, and AMD. Due to the sorted and complicated history of JavaScript module formats, there is also a complex history around the formats found in the [<FontIcon icon="fa-brands fa-npm"/>npm registry](https://npmjs.com/), which is a public registry of JavaScript packages (a package is a set of JavaScript modules). Set all this aside while one learns JavaScript.
+- [<FontIcon icon="iconfont icon-json"/>JavaScript Object Notation (aka JSON)](https://json.org/json-en.html) is another topic that might not land with you until you understand JavaScript datatypes and some basic programming concepts. Note that the JSON syntax isn’t part of the ECMAScript specification, and the community [<FontIcon icon="iconfont icon-json"/>conventionally](http://json-schema.org/) drives any standardized usage. However, JavaScript does provide JSON methods to parse and stringify JSON. As a JavaScript neophyte, I would set aside trying to understand JSON until you understand JavaScript datatypes and JavaScript’s implementation of strings, objects, and arrays. If you need a mental model slot to place JSON into today, consider JSON a conventional way of writing data as text, and simultaneously valid JavaScript, in a universally understandable way so that other languages can transport and translate the data.
 - You might hear about JavaScript fatigue because the JavaScript development scene is massive and comes with an enormous spectrum of solutions, tools, and churn. It makes sense, given JavaScript is the most used programming language in the world. Set all this churning noise aside until you spend time learning the language. The language is solid.
 
 ---
@@ -125,7 +125,7 @@ As you might know, HTML or hypertext markup language is the foundational languag
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/javascript-webpage-1024x450-1.png?resize=1024%2C450&ssl=1)
 
-JavaScript is the scripting language used to add programmatic behavior to web browsers and web pages (i.e., [UI activities and interactions based on events](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)).
+JavaScript is the scripting language used to add programmatic behavior to web browsers and web pages (i.e., [<FontIcon icon="fa-brands fa-firefox"/>UI activities and interactions based on events](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)).
 
 ```html
 <!DOCTYPE html>
@@ -155,7 +155,7 @@ JavaScript is the scripting language used to add programmatic behavior to web br
 </html>
 ```
 
-In the HTML document above ([see live demo](https://codesandbox.io/s/condescending-chatterjee-l73scj?file=/index.html)), we are using JavaScript the language to call the runtime [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) API’s [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) and [insertAdjacentHTML()](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) as well as the BOM API’s [alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) and [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout). Using JavaScript runtime API’s, the webpage and browser window become scriptable.
+In the HTML document above ([<FontIcon icon="fas fa-globe"/>see live demo](https://codesandbox.io/s/condescending-chatterjee-l73scj?file=/index.html)), we are using JavaScript the language to call the runtime [<FontIcon icon="fa-brands fa-firefox"/>DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) API’s [<FontIcon icon="fa-brands fa-firefox"/>getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) and [<FontIcon icon="fa-brands fa-firefox"/>insertAdjacentHTML()](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML) as well as the BOM API’s [<FontIcon icon="fa-brands fa-firefox"/>alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) and [<FontIcon icon="fa-brands fa-firefox"/>setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout). Using JavaScript runtime API’s, the webpage and browser window become scriptable.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/javascript-alert.png?resize=1024%2C581&ssl=1)
 
@@ -163,9 +163,9 @@ This small webpage is just a tiny glimpse of what can be programmed on the web p
 
 ### Node.js Runtime
 
-Node.js, loosely speaking, is a command line application that runs a standalone ECMAScript engine that runs Node.js applications. This JavaScript environment’s purpose is to author JavaScript applications like web servers (e.g., [express.js](http://expressjs.com/)) and CLI tools (e.g., [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)) outside of the browser.
+Node.js, loosely speaking, is a command line application that runs a standalone ECMAScript engine that runs Node.js applications. This JavaScript environment’s purpose is to author JavaScript applications like web servers (e.g., [<FontIcon icon="iconfont icon-expressjs"/>express.js](http://expressjs.com/)) and CLI tools (e.g., [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)) outside of the browser.
 
-The following JavaScript code is a Node.js application that imports an [<FontIcon icon="fa-brands fa-node"/>internal http node module](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener) to set up a basic web server.
+The following JavaScript code is a Node.js application that imports an [<FontIcon icon="fa-brands fa-node"/>internal http node module](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener) to set up a basic web server.
 
 ```js
 import http from "http";
@@ -185,7 +185,7 @@ server.listen(port, hostname, () => {
 
 Typically, Node gets installed on your local system or a server, but one can run the previous Node.js application online for demonstration purposes.
 
-Try opening [this live demo](https://stackblitz.com/edit/node-eby9e1?embed=1&file=index.js). When the link is open in a web browser, run the JavaScript source code from the terminal using the command `node index.js`.
+Try opening [<FontIcon icon="fas fa-globe"/>this live demo](https://stackblitz.com/edit/node-eby9e1?embed=1&file=index.js). When the link is open in a web browser, run the JavaScript source code from the terminal using the command `node index.js`.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/javascript-serve-node.png?resize=754%2C273&ssl=1)
 
@@ -199,7 +199,7 @@ Note that in the context of a Node.js application, JavaScript is viewed as a pro
 
 ### JavaScript Engines
 
-Web browsers and Node.js have different runtime details, but both use a JavaScript engine. The context of what you are doing with the language differs, but JavaScript and the engine can be the same. So, for example, whether you open a [JavaScript console in the latest version of the Chrome web browser](https://developer.chrome.com/docs/devtools/console/#javascript) and execute some JavaScript or open a .js file and begin writing a Node.js application executed by the [Node REPL](https://nodejs.dev/en/learn/how-to-use-the-nodejs-repl), both are being run by a version of the V8 ECMAScript engine.
+Web browsers and Node.js have different runtime details, but both use a JavaScript engine. The context of what you are doing with the language differs, but JavaScript and the engine can be the same. So, for example, whether you open a [<FontIcon icon="fa-brands fa-chrome"/>JavaScript console in the latest version of the Chrome web browser](https://developer.chrome.com/docs/devtools/console/#javascript) and execute some JavaScript or open a .js file and begin writing a Node.js application executed by the [Node REPL](https://nodejs.dev/en/learn/how-to-use-the-nodejs-repl), both are being run by a version of the V8 ECMAScript engine.
 
 ---
 
@@ -207,89 +207,81 @@ Web browsers and Node.js have different runtime details, but both use a JavaScri
 
 We suggest selecting and becoming comfortable using the following before you begin learning JavaScript:
 
-- A JavaScript authoring tool (i.e., [a text or code editor, e.g., VS Code](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software))
-- A JavaScript runtime (e.g., [web pages](https://frontendmasters.com/bootcamp/introduction-html/), [JSFiddle](https://jsfiddle.net/), or [Node.js](https://frontendmasters.com/courses/node-js-v2/))
+- A JavaScript authoring tool (i.e., [<FontIcon icon="fa-brands fa-firefox"/>a text or code editor, e.g., VS Code](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software))
+- A JavaScript runtime (e.g., [<FontIcon icon="fas fa-globe"/>web pages](https://frontendmasters.com/bootcamp/introduction-html/), [<FontIcon icon="fas fa-globe"/>JSFiddle](https://jsfiddle.net/), or [<FontIcon icon="fas fa-globe"/>Node.js](https://frontendmasters.com/courses/node-js-v2/))
 - A JavaScript reference (i.e., language and support documentation)
 
 ### Authoring Tool
 
-Today [most developers](https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-new-collab-tools-want) use [VS Code](https://code.visualstudio.com/) for authoring JavaScript. We recommend using VS Code but using a simple text editor will get the job done if you prefer not to add on the overhead of learning how to use a code editor. Alternatively, if you want to start ASAP, you can always just open [JSFiddle](https://jsfiddle.net/) and start typing JavaScript into the JavaScript pane and then press the “Run” button.
+Today [<FontIcon icon="fa-brands fa-stack-overflow"/>most developers](https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-new-collab-tools-want) use [VS Code](https://code.visualstudio.com/) for authoring JavaScript. We recommend using VS Code but using a simple text editor will get the job done if you prefer not to add on the overhead of learning how to use a code editor. Alternatively, if you want to start ASAP, you can always just open [JSFiddle](https://jsfiddle.net/) and start typing JavaScript into the JavaScript pane and then press the “Run” button.
 
 ### Runtime
 
-One will need to select a runtime in which they plan on learning JavaScript. We recommend starting with a [web browser and html (i.e., webpages)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) instead of Node.js if you are new to programming (e.g., [Edge](https://microsoft.com/en-us/edge) or [Chrome](https://google.com/chrome/) will do).
+One will need to select a runtime in which they plan on learning JavaScript. We recommend starting with a [web browser and html (i.e., webpages)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) instead of Node.js if you are new to programming (e.g., [Edge](https://microsoft.com/en-us/edge) or [Chrome](https://google.com/chrome/) will do).
 
 ### Reference
 
-There is only one JavaScript reference we recommend using when studying the built-in parts of the language, the [Mozilla JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) (aka MDN). We also recommend purposely savoiding all other reference sources while first learning JavaScript. When searching the web, focus on MDN resources by adding the “mdn” string to all of your searches (e.g., “[mdn array foreach](https://google.com/search?q=mdn+array+foreach)”) so that MDN results show up first.
+There is only one JavaScript reference we recommend using when studying the built-in parts of the language, the [<FontIcon icon="fa-brands fa-firefox"/>Mozilla JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) (aka MDN). We also recommend purposely savoiding all other reference sources while first learning JavaScript. When searching the web, focus on MDN resources by adding the “mdn” string to all of your searches (e.g., “[mdn array foreach](https://google.com/search?q=mdn+array+foreach)”) so that MDN results show up first.
 
 ---
 
 ## Start Learning JavaScript
 
-Here is a three-step topical outline including learning resources to initiate learning JavaScript:
-
-- **[Step 1 – Learn Programming fundamentals](#toc-14)**
-- **[Step 2 – Learn Intermediate & Advanced Programming Paradigms](#toc-15)**
-- **[Step 3 – Learn ES Modules](#toc-16)**
-
-You must spend enough time in Step 1 before moving to Step 2. If you are intimidated or struggling with Step 2, return to Step 1 and spend more time with the fundamentals of the language.
-
-### Step 1 – Learn Programming fundamentals
+### Step 1 - Learn Programming fundamentals
 
 1. Programming Basics
-    1. values
-    2. operations
-    3. variables
-    4. expressions and statements
-    5. decisions
-    6. loops
-    7. functions
+   - values
+   - operations
+   - variables
+   - expressions and statements
+   - decisions
+   - loops
+   - functions
 2. Types & Coercion
 3. Scope & Closure
 
 #### Video Courses
 
-- [Learn JavaScript](https://frontendmasters.com/bootcamp/introduction-javascript/) \[free\]
-- [Getting Started with JavaScript, v2](https://frontendmasters.com/courses/getting-started-javascript-v2/) \[free\]
-- [Complete JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) \[$\]
-  - [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/) \[$\]
-  - [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/) \[$\]
-  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/) \[$\]
-  - [JavaScript: The Recent Parts](https://frontendmasters.com/courses/js-recent-parts/) \[$\]
+- [Learn JavaScript](https://frontendmasters.com/bootcamp/introduction-javascript/) \[free\]
+- [Getting Started with JavaScript, v2](https://frontendmasters.com/courses/getting-started-javascript-v2/) \[free\]
+- [Complete JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) \[$\]
+  - [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/) \[$\]
+  - [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/) \[$\]
+  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/) \[$\]
+  - [JavaScript: The Recent Parts](https://frontendmasters.com/courses/js-recent-parts/) \[$\]
 
 #### Reading Material
 
-- [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) \[free\]
-- [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) \[free\]
-- [You Don’t Know JS Yet: Get Started – 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md) \[free to $\]
-- [MDN A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) \[free\]
-- [Eloquent JavaScript](https://eloquentjavascript.net/) \[free to $\] – Chapters 1 – 12
+- [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) \[free\]
+- [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) \[free\]
+- [You Don’t Know JS Yet: Get Started - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md) \[free to $\]
+- [MDN A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) \[free\]
+- [Eloquent JavaScript](https://eloquentjavascript.net/) \[free to $\] - Chapters 1 - 12
 
-### Step 2 – Learn Intermediate & Advanced Programming Paradigms
+### Step 2 - Learn Intermediate & Advanced Programming Paradigms
 
 #### Classes
 
-- Video Course: [The Hard Parts of Object Oriented JavaScript](https://frontendmasters.com/courses/object-oriented-js/) \[$\]
-- Reading Material: [The Principles of Object-Oriented JavaScript 1st Edition](https://nostarch.com/oojs) \[$\]
+- Video Course: [The Hard Parts of Object Oriented JavaScript](https://frontendmasters.com/courses/object-oriented-js/) \[$\]
+- Reading Material: [The Principles of Object-Oriented JavaScript 1st Edition](https://nostarch.com/oojs) \[$\]
 
 #### Functional Programming with JavaScript
 
-- Video Course: [Functional JavaScript First Steps](https://frontendmasters.com/courses/functional-first-steps/) \[$\]
-- [The Hard Parts of Functional JavaScript](https://frontendmasters.com/courses/functional-js-fundamentals/) \[$\]
+- Video Course: [Functional JavaScript First Steps](https://frontendmasters.com/courses/functional-first-steps/) \[$\]
+- [The Hard Parts of Functional JavaScript](https://frontendmasters.com/courses/functional-js-fundamentals/) \[$\]
 
 #### JavaScript Async/Promises
 
-- Video Course: [JavaScript: The New Hard Parts](https://frontendmasters.com/courses/javascript-new-hard-parts/) \[$\]
-- Reading Material: [Understanding JavaScript Promises](https://amazon.com/Understanding-JavaScript-Promises-Nicholas-Zakas/dp/1678034150?&linkCode=ll1&tag=frontendma0da-20&linkId=cbcbfc33e77fe8718446de6fa5d782ef&language=en_US&ref_=as_li_ss_tl) \[$\]
+- Video Course: [JavaScript: The New Hard Parts](https://frontendmasters.com/courses/javascript-new-hard-parts/) \[$\]
+- Reading Material: [Understanding JavaScript Promises](https://amazon.com/Understanding-JavaScript-Promises-Nicholas-Zakas/dp/1678034150?&linkCode=ll1&tag=frontendma0da-20&linkId=cbcbfc33e77fe8718446de6fa5d782ef&language=en_US&ref_=as_li_ss_tl) \[$\]
 
-### Step 3 – Learn ES Modules
+### Step 3 - Learn ES Modules
 
 #### Reading Material
 
-- [Chapter 9 : Using ES2015 Modules Today](https://frontendmasters.com/guides/javascript-enlightenment/#9) \[free\]
-- [Chapter 10 : Writing ES2015 Module Syntax](https://frontendmasters.com/guides/javascript-enlightenment/#10) \[free\] 
-- [Modules • JavaScript for impatient programmers](https://exploringjs.com/impatient-js/ch_modules.html) \[free to $\]
+- [Chapter 9 : Using ES2015 Modules Today](https://frontendmasters.com/guides/javascript-enlightenment/#9) \[free\]
+- [Chapter 10 : Writing ES2015 Module Syntax](https://frontendmasters.com/guides/javascript-enlightenment/#10) \[free\] 
+- [Modules • JavaScript for impatient programmers](https://exploringjs.com/impatient-js/ch_modules.html) \[free to $\]
 
 ---
 
@@ -299,9 +291,9 @@ You must spend enough time in Step 1 before moving to Step 2. If you are intimid
 
 **Answer**
 
-Simplistically expressed, JavaScript is a [programming language](https://en.wikipedia.org/wiki/Programming_language) used to program runtimes like web browsers & web pages as well as Node.js applications. If you are new to programming languages, that is about all you can understand at this point. If you’re a seasoned programmer, then what you need to know is:
+Simplistically expressed, JavaScript is a [programming language](https://en.wikipedia.org/wiki/Programming_language) used to program runtimes like web browsers & web pages as well as Node.js applications. If you are new to programming languages, that is about all you can understand at this point. If you’re a seasoned programmer, then what you need to know is:
 
-> **JavaScript** (often shortened to **JS**) is a lightweight, interpreted, object-oriented language with [first-class functions](https://en.wikipedia.org/wiki/First-class_function), and is best known as the scripting language for Web pages, but it’s [used in many non-browser environments](https://en.wikipedia.org/wiki/JavaScript#Other_usage) as well. It is a [prototype-based](https://en.wikipedia.org/wiki/Prototype-based_programming), multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.”
+> **JavaScript** (often shortened to **JS**) is a lightweight, interpreted, object-oriented language with [first-class functions](https://en.wikipedia.org/wiki/First-class_function), and is best known as the scripting language for Web pages, but it’s [used in many non-browser environments](https://en.wikipedia.org/wiki/JavaScript#Other_usage) as well. It is a [prototype-based](https://en.wikipedia.org/wiki/Prototype-based_programming), multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.”
 >
 > [MDN reference: About JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript)
 
@@ -335,7 +327,7 @@ console.log(userNames[2]); // logs 'Cody Dallas' at index 2 in the array
 console.log(userNames.length); // logs 3
 ```
 
-Once you have a set of values in an Array, JavaScript [provides built-in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) properties (e.g., [`.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)) and methods (e.g., [`.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)) that are incredibly handy when working on Array values.
+Once you have a set of values in an Array, JavaScript [provides built-in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) properties (e.g., [`.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)) and methods (e.g., [`.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)) that are incredibly handy when working on Array values.
 
 :::
 
@@ -364,7 +356,7 @@ console.log(6);
 
 Logging each digit would be redundant and unnecessary, and given that programming languages offer a mechanism to repeat code, a better solution exists. A JavaScript loop to repeat code without manually writing out each iteration would be a better solution.
 
-The code below uses JavaScript [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) statement to loop over a `console.log()` method, calling the `.log()` method 49 times with the current value of `i` upon each iteration of the loop.
+The code below uses JavaScript [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) statement to loop over a `console.log()` method, calling the `.log()` method 49 times with the current value of `i` upon each iteration of the loop.
 
 ```js
 /* 
@@ -393,7 +385,7 @@ for (let i = 1; i < 50; i = i + 1) {
 
 The result is the same as if we had written out 49 sequential `console.log()`’s, each with a numerical value.
 
-JavaScript loops are simply a mechanism that will call code repeatedly until you tell it to stop (e.g., [`break`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)).
+JavaScript loops are simply a mechanism that will call code repeatedly until you tell it to stop (e.g., [`break`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)).
 
 JavaScript has many different looping mechanisms, some generic and some value specific. Below is a list of these looping mechanisms:
 
@@ -417,7 +409,7 @@ JavaScript has many different looping mechanisms, some generic and some value sp
 
 **Answer**
 
-The `.forEach()` method defines a function that is called for each value in an Array (i.e., all the values from the array are sequentially passed into the function).
+The `.forEach()` method defines a function that is called for each value in an Array (i.e., all the values from the array are sequentially passed into the function).
 
 The task of looping over an Array of strings is made easy with the `.forEach()` method.
 
@@ -441,7 +433,7 @@ animals.forEach(<em>function</em> (value, valueIndex) {
  */`
 ```
 
-The `.map()` Array method also loops over an Array of values, but it’s used to return a new augmented Array of values based on the Array the map method was called on.
+The `.map()` Array method also loops over an Array of values, but it’s used to return a new augmented Array of values based on the Array the map method was called on.
 
 Below the values from the animals’ Array are changed one by one to be a different value in a different Array.
 
@@ -467,7 +459,7 @@ console.log(animals);
 
 **Answer**
 
-If one means by “find” to verify that a substring is within another string, the String `.includes()` method can be used.
+If one means by “find” to verify that a substring is within another string, the String `.includes()` method can be used.
 
 ```js
 const myString = "my favorite animal is a dog";
@@ -475,7 +467,7 @@ const myString = "my favorite animal is a dog";
 console.log(myString.includes("dog")); // logs true
 ```
 
-If one means by “find” is locating the starting index of a substring within a string, that can be accomplished using the `.indexOf()` method.
+If one means by “find” is locating the starting index of a substring within a string, that can be accomplished using the `.indexOf()` method.
 
 ```js
 const myString = "my favorite animal is a dog";
@@ -493,13 +485,13 @@ console.log(myString.at(24)); // logs "d", can use .at() to verify
 console.log(myString.substring(indexOfDog, indexOfDog + 3)); // logs 'dog'
 ```
 
-The `indexOf()` method searches a string for a substring and returns the first index where the substring begins.
+The `indexOf()` method searches a string for a substring and returns the first index where the substring begins.
 
 ---
 
 ## What’s Next?
 
-Make sure to checkout the [learning path on JavaScript](https://frontendmasters.com/learn/javascript/) if you’re interested in learning JavaScript in the browser, or the [learning path on Node.js](https://frontendmasters.com/learn/node-js/) if you want to use JavaScript on the server.
+Make sure to checkout the [learning path on JavaScript](https://frontendmasters.com/learn/javascript/) if you’re interested in learning JavaScript in the browser, or the [learning path on Node.js](https://frontendmasters.com/learn/node-js/) if you want to use JavaScript on the server.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
