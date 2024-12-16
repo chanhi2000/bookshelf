@@ -11,6 +11,7 @@ export const template: SidebarInfoTemplate = {
       "kotlin-under-the-hood-exploring-objects-companion-objects-and-annotations-jvmstatic-jvmfield-jvmoverloads", // 2024-11-04
       "java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions", // 2024-11-06
       "a-developers-roadmap-to-mastering-kotlin-multiplatform", // 2024-11-27
+      // END: kotlin
     ]],[
     "kotlin-android", [
       "writing-swift-friendly-kotlin-multiplatform-apis-part-ix-flow", // 2023-09-14
@@ -31,6 +32,9 @@ export const template: SidebarInfoTemplate = {
       "exploring-kotlin-coroutines-through-output-questions", // 2024-11-27
       "widgets-with-glance-beyond-string-states", // 2024-11-27
       "custom-modifiers-in-jetpack-compose", // 2024-11-27
+      "collapsible-header-in-jetpack-compose-using-nestedscrollconnection-and-subcomposelayout", // 2024-12-11
+      "how-easy-is-drag-and-drop-in-compose", // 2024-12-11
+      // END: kotlin-android
     ]],[
     "nexus", [
       "publishing-kotlin-multiplatform-libraries-with-sonatype-central", // 2024-04-18
@@ -60,6 +64,8 @@ export const template: SidebarInfoTemplate = {
       "exploring-kotlin-coroutines-through-output-questions", // 2024-11-27
       "widgets-with-glance-beyond-string-states", // 2024-11-27
       "custom-modifiers-in-jetpack-compose", // 2024-11-27
+      "collapsible-header-in-jetpack-compose-using-nestedscrollconnection-and-subcomposelayout", // 2024-12-11
+      "how-easy-is-drag-and-drop-in-compose", // 2024-12-11
     ]]
   ])
 }

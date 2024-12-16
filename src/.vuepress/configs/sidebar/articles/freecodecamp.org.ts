@@ -298,6 +298,7 @@ export const template: SidebarInfoTemplate = {
       "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
       "how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices", // 2024-11-13
       "how-to-use-design-patterns-in-java-with-spring-boot", // 2024-11-15
+      "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-19
       // END: java-spring
     ]],[
     "java-android",[
@@ -438,6 +439,7 @@ export const template: SidebarInfoTemplate = {
       "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+      "learn-game-development-with-javascript-and-kaplay", // 2024-12-20
       // END: js-node
     ]],[
     "js-react", [
@@ -528,6 +530,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-memory-card-game-using-react", // 2024-11-28
       "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
       "nextjs-vs-react-differences", // 2024-12-05
+      "how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react", // 2024-12-17
       // END: js-react
     ]],[
     "js-vue", [
@@ -691,6 +694,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
       "build-a-web-application-security-scanner-with-python", // 2024-12-13
+      "build-a-honeypot-with-python", // 2024-12-20
       // END: py
     ]],[
     "py-django", [
@@ -783,6 +787,7 @@ export const template: SidebarInfoTemplate = {
       "set-semantic-versioning-for-net", // 2024-11-08
       "how-to-benchmark-your-code-in-csharp", // 2024-11-19
       CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK, // 2024-12-03
+      "classes-in-c-sharp-handbook-with-examples", // 2024-12-20
       // END: cs
     ]],[
     "cs-blazor", [
@@ -825,6 +830,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
       "tools-for-open-source-intelligence-gathering", // 2024-10-29
+      "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
       // END: sh
     ]],[
     "git", [
@@ -943,6 +949,7 @@ export const template: SidebarInfoTemplate = {
       "host-a-website-on-aws-ec2-using-a-css-template", // 2024-11-08
       "simplify-aws-multi-account-management-with-terraform-and-gitops", // 2024-11-26
       "aws-ec2-how-to-host-a-website-with-user-data-scripts", // 2024-11-27
+      "aws-solutions-architect-professional-sap-c02-certification-course", // 2024-12-20
       // END: aws
     ]],[
     "azure", [
@@ -1122,6 +1129,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-perform-a-web-accessibility-audit", // 2024-10-19
       "how-to-maintain-soc-2-compliance", // 2024-10-16
       "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
+      "how-to-write-user-stories-for-beginners", // 2024-12-17
       // END: system-design
     ]],[
     "pm", [
@@ -1144,6 +1152,7 @@ export const template: SidebarInfoTemplate = {
       "end-to-end-machine-learning-course-project", // 2024-09-26
       "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
       "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
+      "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-20
       // END: ai
     ]],[
     "llm", [
@@ -1163,6 +1172,8 @@ export const template: SidebarInfoTemplate = {
     "openai", [
       "how-to-use-gpt-to-analyze-large-datasets", // 2024-08-28
       "master-multimodal-data-analysis-with-llms-and-python", // 2024-09-04
+      "make-llms-better-at-math-with-ai-agents", // 2024-12-19
+      // END: openai
     ]],[
     "gemini", [
       "learn-to-use-the-gemini-ai-multimodal-model", // 2024-08-22
@@ -1172,6 +1183,7 @@ export const template: SidebarInfoTemplate = {
     "llama", [
       "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
       "local-ai-development-with-ollama-course", // 2024-11-27
+      "how-to-run-open-source-llms-on-your-own-computer-using-ollama", // 2024-12-21
       // END: llama
     ]],[
     "claude", [
@@ -1222,6 +1234,8 @@ export const template: SidebarInfoTemplate = {
       "skills-you-need-to-become-a-backend-developer-roadmap", // 2024-09-03
       "how-to-be-a-productive-developer", // 2024-09-13
       "become-an-open-source-master", // 2024-11-05
+      "what-to-do-if-you-dont-get-into-outreachy", // 2024-12-19
+      "how-to-become-a-web-developer-beginners-guide", // 2024-12-12
       // END: career
     ]],[
     "hw", [
@@ -1782,6 +1796,18 @@ export const template: SidebarInfoTemplate = {
       "learn-elasticsearch-with-a-comprehensive-beginner-friendly-course", // 2024-12-13
       "build-a-web-application-security-scanner-with-python", // 2024-12-13
       "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
+      "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
+      "how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react", // 2024-12-17
+      "how-to-write-user-stories-for-beginners", // 2024-12-17
+      "what-to-do-if-you-dont-get-into-outreachy", // 2024-12-19
+      "make-llms-better-at-math-with-ai-agents", // 2024-12-19
+      "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-20
+      "learn-game-development-with-javascript-and-kaplay", // 2024-12-20
+      "aws-solutions-architect-professional-sap-c02-certification-course", // 2024-12-20
+      "build-a-honeypot-with-python", // 2024-12-20
+      "classes-in-c-sharp-handbook-with-examples", // 2024-12-20
+      "how-to-run-open-source-llms-on-your-own-computer-using-ollama", // 2024-12-21
+      "how-to-become-a-web-developer-beginners-guide", // 2024-12-12
     ]],
   ]),
 }

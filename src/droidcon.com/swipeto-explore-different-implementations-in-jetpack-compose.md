@@ -361,7 +361,7 @@ Have a great day!
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com.](https://proandroiddev.com/swipeto-explore-different-implementations-in-jetpack-compose-8c6cd59bbc3c)
+This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/swipeto-explore-different-implementations-in-jetpack-compose-8c6cd59bbc3c)
 
 <SiteInfo
   name="SwipeTo explore different implementations in Jetpack Compose"

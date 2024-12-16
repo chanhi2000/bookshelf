@@ -128,6 +128,7 @@ export const template: SidebarInfoTemplate = {
       "building-async-apis-in-aspnetcore-the-right-way", // 2024-11-23
       "implementing-the-saga-pattern-with-masstransit", // 2024-11-30
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
+      "scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts", // 2024-12-21
       // END: cs
     ]],[
     "cs-razor", [
@@ -302,6 +303,7 @@ export const template: SidebarInfoTemplate = {
       "implementing-the-saga-pattern-with-masstransit", // 2024-11-30
       "central-package-management-in-net-simplify-nuget-dependencies", // 2024-12-07
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
+      "scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts", // 2024-12-21
     ]]
   ])
 };

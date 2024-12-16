@@ -198,7 +198,7 @@ I hope you don’t have to do this kind of workaround in your projects, but if y
 
 ::: info
 
-This article is previously published on [proandroiddev.com.](https://proandroiddev.com/composable-lambda-list-during-recomposition-in-android-bf798f236ba7)
+This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/composable-lambda-list-during-recomposition-in-android-bf798f236ba7)
 
 <SiteInfo
   name="Composable lambda list during recomposition in Android"

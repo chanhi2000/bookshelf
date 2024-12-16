@@ -24,6 +24,7 @@ export const template: SidebarInfoTemplate = {
       "ek-respect-contracts", // 2024-07-22
       "cc-why", // 2024-10-09
       "blockhound", // 2024-12-02
+      "benchmark-reflection", // 2024-12-16
       // END: kotlin-2024
     ]],[
     "kotlin-spring", [
@@ -57,6 +58,7 @@ export const template: SidebarInfoTemplate = {
       "dispatcher-for-backend", // 2024-11-13
       "viewmodel-stateflow-sharedflow-channel", // 2024-11-18
       "blockhound", // 2024-12-02
+      "benchmark-reflection", // 2024-12-16
     ]]
   ])
 }

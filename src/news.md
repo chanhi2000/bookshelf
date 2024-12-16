@@ -957,13 +957,6 @@ https://paperlined.org/
   preview="https://res.cloudinary.com/jlengstorf/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_813,c_fit,co_rgb:ffffff,g_south_west,x_392,y_340,l_text:jwf.otf_55:Learn%20With%20Jason/w_813,c_fit,co_rgb:ffffff,g_north_west,x_392,y_375,l_text:jwf-book.otf_42:Learn%20from%20the%20web%E2%80%99s%20leading%20experts.%20Build%20something%20new.%20Grow%20your%20career.%20Let%E2%80%99s%20do%20it%20together./lwj/post-share-2022"/>
 
 <SiteInfo
-  name="Milan Jovanović | Helping You Become a Better .NET Engineer"
-  desc="Software Architecture • Microsoft MVP • Content Creator"
-  url="https://www.milanjovanovic.tech/"
-  logo="https://www.milanjovanovic.tech/profile_favicon.png"
-  preview="https://www.milanjovanovic.tech/og_image.png"/>
-
-<SiteInfo
   name="Knowledge Base"
   desc="Knowledge Base"
   url="https://iq.thc.org/"
