@@ -30,6 +30,9 @@ head:
 prev: /programming/go/articles/README.md
 date: 2022-08-31
 isOriginal: false
+author:
+  - name: Alex Merced
+    url: https://blog.logrocket.com/author/alexmerced/
 cover: /assets/image/blog.logrocket.com/full-stack-bud-go/banner.png
 ---
 
@@ -68,7 +71,7 @@ cover: /assets/image/blog.logrocket.com/full-stack-bud-go/banner.png
 
 Full-stack frameworks come in many shapes and sizes, but they often come in two general molds. The first mold includes frameworks like [<FontIcon icon="iconfont icon-ruby"/>Ruby on Rails](https://rubyonrails.org/) and [<FontIcon icon="fa-brands fa-laravel"/>Laravel](https://laravel.com/), which are backend-centric with features to help you build your frontend within the same project, and easy-to-use conventions and templating. Then there is the second mold, which includes [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/), [<FontIcon icon="fas fa-globe"/>Nuxt.js](https://nuxtjs.org/), and [<FontIcon icon="iconfont icon-svelte"/>SvelteKit](https://kit.svelte.dev/), which are more frontend-centric but allow you to create serverless functions as your backend within the same project.
 
-![Building A Full-Stack App With Bud And Go](https://blog.logrocket.com/wp-content/uploads/2022/08/full-stack-bud-go-1.png)
+![Building A Full-Stack App With Bud And Go](/assets/image/blog.logrocket.com/full-stack-bud-go/banner.png)
 
 New Go framework [<FontIcon icon="fas fa-globe"/>Bud](https://denim-cub-301.notion.site/Hey-Bud-4d81622cc49942f9917c5033e5205c69) differs from these full-stack frameworks by having a framework that starts quite minimalistic but allows frontend and backend code to expand based on the needs of its users instead of sprawling out a complicated CLI with potentially unnecessary files and configurations. Bud is a framework that keeps things simple but can scale up when needed.
 

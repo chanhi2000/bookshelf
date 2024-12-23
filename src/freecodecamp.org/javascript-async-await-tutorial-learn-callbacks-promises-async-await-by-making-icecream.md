@@ -1103,21 +1103,25 @@ Congratulations for reading until the end! In this article you've learned:
 
 Here's your medal for reading until the end. ❤️
 
-### Suggestions and criticisms are highly appreciated ❤️
+![Suggestions and criticisms are highly appreciated ❤️](https://dev-to-uploads.s3.amazonaws.com/i/usxsz1lstuwry3jlly4d.png)
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/usxsz1lstuwry3jlly4d.png)
+::: info Joy Shaheb
 
-- **YouTube [/ Joy Shaheb](https://youtube.com/c/joyshaheb)**
-- **LinkedIn [/ JoyShaheb](https://linkedin.com/in/joyshaheb/)**
-- **Twitter [/ JoyShaheb](https://twitter.com/JoyShaheb)**
-- **Instagram [/ JoyShaheb](https://instagram.com/joyshaheb/)**
+- [Youtube (<FontIcon icon="fa-brands fa-youtube"/>`JoyShaheb`)](https://youtube.com/@JoyShaheb)
+- [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`JoyShaheb`)](https://x.com/JoyShaheb)
+- [Instagram (<FontIcon icon="fa-brands fa-instagram"/>`joyshaheb`)](https://instagram.com/joyshaheb/)
+- [<FontIcon icon="fas fa-globe"/>More layout Designs here](https://csslayout.io/patterns/)
 
-## Credits
+:::
+
+::: details Credits
 
 - [Collection of all the images used](https://freepik.com/user/collections/promises-article/2046500)
 - [Unicorns](https://flaticon.com/packs/unicorn-4), [kitty avatar](https://flaticon.com/packs/kitty-avatars-3)
 - [tabby cat](https://pexels.com/photo/brown-tabby-cat-with-slice-of-loaf-bread-on-head-4587955/), [Astrologist Woman](https://pexels.com/photo/young-female-astrologist-predicting-future-with-shining-ball-6658693/), [girl-holding-flower](https://pexels.com/photo/woman-in-white-dress-holding-white-flower-bouquet-3981511/)
 - [Character emotions](https://vecteezy.com/vector-art/180695-people-mind-emotion-character-cartoon-vector-illustration)
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

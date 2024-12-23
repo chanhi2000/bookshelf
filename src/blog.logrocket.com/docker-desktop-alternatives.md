@@ -26,6 +26,9 @@ head:
 prev: /devops/docker/articles/README.md
 date: 2022-10-14
 isOriginal: false
+author:
+  - name: Ayooluwa Isaiah
+    url: https://blog.logrocket.com/author/ayooluwaisaiah/
 cover: /assets/image/blog.logrocket.com/docker-desktop-alternatives/banner.png
 ---
 
@@ -60,7 +63,7 @@ This Docker and Docker Desktop alternatives article was last updated on 28 Octob
 
 ![](/assets/image/blog.logrocket.com/docker-desktop-alternatives/banner.png)
 
-As one of the most widely used container platforms, [<FontIcon icon="fas fa-globe"/>Docker, a monolithic tool](https://blog.logrocket.com/dockerizing-a-django-app/), handles every aspect of the containerization process, from building, running, and inspecting container images.
+As one of the most widely used container platforms, [<FontIcon icon="fas fa-globe"/>Docker, a monolithic tool](/blog.logrocket.com/dockerizing-a-django-app.md), handles every aspect of the containerization process, from building, running, and inspecting container images.
 
 Docker Desktop is a fully featured software that allows Mac and Windows to establish a Linux virtual machine in which to run the Docker engine. It allows you to create and share containerized applications and micro-services. In August 2021, Docker Desktop announced [<FontIcon icon="fa-brands fa-docker"/>changes to its licensing](https://docker.com/blog/updating-product-subscriptions/), meaning it will no longer be free for companies with more than 250 employees or over $10 million in revenue. However, there are several alternative approaches to containerization, often in the form of standalone tools, which sometimes offer a better result than what Docker delivers.
 

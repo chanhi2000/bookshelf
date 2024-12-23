@@ -391,7 +391,7 @@ const inputElement = screen.getByRole('textbox')
 
 `getByRole` finds an element by the given role. In this case, the `textbox` role means the `input` element.
 
-How is role determined? Each element has a defined role, so you do not need to specify an explicit role attribute. You can see a list of roles for different elements [here](https://w3.org/TR/html-aria/#docconformance). Whatever element you want, just do `getByRole` and refer to the list.
+How is role determined? Each element has a defined role, so you do not need to specify an explicit role attribute. You can see a list of roles for different elements [<FontIcon icon="iconfont icon-w3c"/>here](https://w3.org/TR/html-aria/#docconformance). Whatever element you want, just do `getByRole` and refer to the list.
 
 For `button`, the default role is ‘button’ as you can see here:
 

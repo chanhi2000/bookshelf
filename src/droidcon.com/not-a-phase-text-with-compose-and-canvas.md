@@ -385,7 +385,7 @@ I hope you’ve enjoyed this blog post and learned something. If you want to sha
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/not-a-phase-text-with-compose-and-canvas-97cacc35a5f7)
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/not-a-phase-text-with-compose-and-canvas-97cacc35a5f7)
 
 <SiteInfo
   name="Not a Phase — Text with Compose and Canvas"

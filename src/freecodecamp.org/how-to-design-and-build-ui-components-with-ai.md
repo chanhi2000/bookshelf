@@ -570,7 +570,7 @@ Firstly, select the code you would like to generate documentation for, we’ll u
 
 We can save our favorite and frequently used chat prompts on the [<FontIcon icon="fas fa-globe"/>Prompt Library](https://sourcegraph.com/prompts/new) via the Sourcegraph's Web UI.
 
-Let’s create a new prompt to improve the accessibility of our web app and ensure it adheres to the [<FontIcon icon="fas fa-globe"/>WCAG standard](https://w3.org/WAI/standards-guidelines/wcag/).
+Let’s create a new prompt to improve the accessibility of our web app and ensure it adheres to the [<FontIcon icon="iconfont icon-w3c"/>WCAG standard](https://w3.org/WAI/standards-guidelines/wcag/).
 
 ![Creating a new prompt on the Prompt Library](https://cdn.hashnode.com/res/hashnode/image/upload/v1726668303154/a83398cb-90b7-4d28-9c8b-a15b4751366c.png)
 

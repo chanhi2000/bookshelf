@@ -263,7 +263,7 @@ To update the implementation we already defined to Koin annotations, follow thes
 
 - Include the Kotlin Symbol Processing (KSP) plugin:
 
-```toml libs.versions.toml
+```toml title="libs.versions.toml"
 [versions]
 ksp = "2.0.20-1.0.25"
 koinAnnotations = "2.0.0-Beta1"
@@ -282,7 +282,7 @@ plugins {
 
 - Include the extra Koin dependencies for annotations, and the KSP compiler:
 
-```toml libs.versions.toml
+```toml title="libs.versions.toml"
 [versions]
 koinAnnotations = "2.0.0-Beta1"
 ...

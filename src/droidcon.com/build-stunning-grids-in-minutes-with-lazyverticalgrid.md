@@ -48,7 +48,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-
 <SiteInfo
   name="Build Stunning Grids in Minutes with LazyVerticalGrid | 𓈈 𓊁 𓊂 𓐖 |"
   desc="Want to create stunning grid layouts in your Jetpack Compose app? Look no further than LazyVerticalGrid. This powerful tool simplifies the process of designing and implementing efficient grid-based interfaces. In this comprehensive tutorial, I’ll share my insights and experience using LazyVerticalGrid in a real-world production app on Google Play. I’ll explore its key features, best practices, and practical tips to help you create stunning grids that captivate your users. 🤓"
-  url="https://droidcon.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-%F0%93%88%88-%F0%93%8A%81-%F0%93%8A%82-%F0%93%90%96"
+  url="https://droidcon.com/2024/10/28/build-stunning-grids-in-minutes-with-lazyverticalgrid-%F0%93%88%88-%F0%93%8A%81-%F0%93%8A%82-%F0%93%90%96"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-600x600.webp"/>
 
@@ -293,7 +293,7 @@ Major tech companies (*PayPal, Google, Meta, Salesforce…*) **value engineers 
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-17702887cccb)
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-17702887cccb)
 
 <SiteInfo
   name="Build Stunning Grids in Minutes with LazyVerticalGrid | 𓈈 𓊁 𓊂 𓐖 |"

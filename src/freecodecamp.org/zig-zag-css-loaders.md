@@ -158,7 +158,9 @@ Since we’re using a background, we’ll animate the `background-position` to g
 
 Note how we increased the X value of the `background-position` by `25%`. In case you are wondering what the logic behind that value is, here is the formula:
 
-$\frac{0.2}{1-0.2)}=.25=25%$
+$$
+\frac{0.2}{1-0.2)}=.25=25\%
+$$
 
 `.2` corresponds to the `20%` used inside the `background-size`.
 

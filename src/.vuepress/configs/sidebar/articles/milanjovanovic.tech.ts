@@ -181,6 +181,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "career", [
       "how-to-be-a-better-software-engineer-in-2023", // 2022-12-31
+      "what-rewriting-a-40-year-old-project-taught-me-about-software-development", // 2024-12-28
     ]],[
     "all", [
       "why-i-write-tall-linq-queries", // 2022-09-03
@@ -304,6 +305,7 @@ export const template: SidebarInfoTemplate = {
       "central-package-management-in-net-simplify-nuget-dependencies", // 2024-12-07
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       "scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts", // 2024-12-21
+      "what-rewriting-a-40-year-old-project-taught-me-about-software-development", // 2024-12-28
     ]]
   ])
 };

@@ -230,7 +230,7 @@ Check out my article [Widgets with Glance: Blending in (<FontIcon icon="fa-bran
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee).
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee).
 
 <SiteInfo
   name="Widgets with Glance: Standing out"

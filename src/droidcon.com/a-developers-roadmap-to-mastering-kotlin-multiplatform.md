@@ -48,7 +48,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/0_D-ieHZMS5IWWRJUG-1024x5
 <SiteInfo
   name="A Developer’s Roadmap to Mastering Kotlin Multiplatform"
   desc="In modern mobile development, cross-platform frameworks are gaining popularity because they offer key advantages, such as reducing the resources needed to develop separate native apps and maintaining code consistency across different platforms."
-  url="https://droidcon.com/a-developers-roadmap-to-mastering-kotlin-multiplatform"
+  url="https://droidcon.com/2024/11/27/a-developers-roadmap-to-mastering-kotlin-multiplatform"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/11/0_D-ieHZMS5IWWRJUG-1024x576.webp"/>
 

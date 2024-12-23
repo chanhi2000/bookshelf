@@ -78,7 +78,7 @@ Before diving into the actual audit, there are a few preparatory steps you need 
 
 The first step in any accessibility audit is understanding the rules you're auditing against. Familiarizing yourself with these guidelines will help you understand what to look for and what kind of changes might be necessary to improve your site's accessibility.
 
-The [<FontIcon icon="fas fa-globe"/>Web Content Accessibility Guidelines (WCAG)](https://w3.org/TR/WCAG22/) provide detailed recommendations on how to make websites more accessible to people with disabilities. It is versioned, with the WCAG 2.2 being the most updated version. The guidelines are divided into three levels of conformance:
+The [<FontIcon icon="iconfont icon-w3c"/>Web Content Accessibility Guidelines (WCAG)](https://w3.org/TR/WCAG22/) provide detailed recommendations on how to make websites more accessible to people with disabilities. It is versioned, with the WCAG 2.2 being the most updated version. The guidelines are divided into three levels of conformance:
 
 - **Level A**: The minimum requirements for accessibility.
 - **Level AA**: Addresses more common barriers for disabled users.
@@ -220,7 +220,7 @@ Once you’ve completed both automated and manual testing, it’s time to docume
 - **Moderate**: Issues that degrade the user experience, like poor color contrast.
 - **Minor**: Minor violations that don’t significantly impact the user experience but should still be addressed, such as misused ARIA attributes.
 
-Use a spreadsheet or project management tool like GitHub Issues to document the issues. You could also use the [WCAG-EM report tool](https://w3.org/WAI/eval/report-tool) developed by the W3C Web Accessibility Initiative (WAI).
+Use a spreadsheet or project management tool like GitHub Issues to document the issues. You could also use the [<FontIcon icon="iconfont icon-w3c"/>WCAG-EM report tool](https://w3.org/WAI/eval/report-tool) developed by the W3C Web Accessibility Initiative (WAI).
 
 In your report, be sure to include:
 

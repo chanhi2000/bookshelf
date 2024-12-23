@@ -893,10 +893,14 @@ Here's your medal for reading until the end. ❤️
 
 ![](https://dev-to-uploads.s3.amazonaws.com/i/usxsz1lstuwry3jlly4d.png)
 
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`joyshaheb`)](https://linkedin.com/in/joyshaheb/)
-- [YouTube (<FontIcon icon="fa-brands fa-youtube`joyshaheb`"/>)](https://youtube.com/c/joyshaheb)
-- [X (<FontIcon icon="fa-brands fa-x-twitter"/>)](https://x.com/JoyShaheb)
+::: info Joy Shaheb
+
+- [Youtube (<FontIcon icon="fa-brands fa-youtube"/>`JoyShaheb`)](https://youtube.com/@JoyShaheb)
+- [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`JoyShaheb`)](https://x.com/JoyShaheb)
 - [Instagram (<FontIcon icon="fa-brands fa-instagram"/>`joyshaheb`)](https://instagram.com/joyshaheb/)
+- [<FontIcon icon="fas fa-globe"/>More layout Designs here](https://csslayout.io/patterns/)
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -541,7 +541,7 @@ I hope you found this helpful, and thank you for reading!
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`<FontIcon icon="fa-brands fa-medium"/>`)](https://proandroiddev.com/collapsible-header-in-jetpack-compose-using-nestedscrollconnection-and-subcomposelayout-6615873c0b5d)
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/collapsible-header-in-jetpack-compose-using-nestedscrollconnection-and-subcomposelayout-6615873c0b5d)
 
 <SiteInfo
   name="Collapsible header in Jetpack Compose using NestedScrollConnection and SubComposeLayout"
@@ -550,10 +550,7 @@ This article is previously published on [proandroiddev.com (<FontIcon icon="fa-b
   logo="https://miro.medium.com/v2/resize:fill:256:256/1*A8VytPZQhvUf_MG6hm_Dlw.png"
   preview="https://miro.medium.com/v2/resize:fit:1200/1*P_Gj7ABxGbbaZdCfHefM4w.png"/>
 
-
 :::
-
-This article is previously published on [proandroiddev.com.]()
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

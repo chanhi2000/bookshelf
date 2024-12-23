@@ -819,7 +819,7 @@ You can find the full repository on [GitHub (<FontIcon icon="iconfont icon-gith
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/how-easy-is-drag-and-drop-in-compose-e66d47ae8e5f)
+This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/how-easy-is-drag-and-drop-in-compose-e66d47ae8e5f)
 
 <SiteInfo
   name="How easy is drag-and-drop in Compose?"

@@ -2,7 +2,7 @@
 lang: ko-KR
 title: How To Be a Better Software Engineer In 2023
 description: Article(s) > How To Be a Better Software Engineer In 2023
-icon: iconfont icon-csharp
+icon: fas fa-user-tie
 category: 
   - Explore
   - Career

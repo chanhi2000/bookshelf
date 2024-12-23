@@ -74,7 +74,7 @@ Since the introduction of CSS Containment, a lot more relative styling can be do
 
 ::: note
 
-In this article, CSS Containment refers to the CSS `contain` property. [<FontIcon icon="fas fa-globe"/>Its namesake W3C Standard](https://w3.org/TR/css-contain-3/), however, covers a few more specifications, like container units.
+In this article, CSS Containment refers to the CSS `contain` property. [<FontIcon icon="iconfont icon-w3c"/>Its namesake W3C Standard](https://w3.org/TR/css-contain-3/), however, covers a few more specifications, like container units.
 
 :::
 

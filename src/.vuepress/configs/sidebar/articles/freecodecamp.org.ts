@@ -15,6 +15,37 @@ const DEVOPS_WITH_GITLAB_CI_COURSE: SidebarInfoSubgroupTemplate = { // 2022-03-0
   ]
 }
 
+const GO_BEGINNERS_HANDBOOK: SidebarInfoSubgroupTemplate = {  // 2022-10-19
+  text: 'The Go Handbook – Learn Golang for Beginners',
+  collapsible: true,
+  icon: 'fa-brands fa-golang',
+  subPath: 'go-beginners-handbook',
+  children: [
+    'README',
+    'how-to-get-started-with-go',
+    'how-to-install-go',
+    'how-to-setup-your-editor',
+    'how-to-write-hello-world-in-go',
+    'how-to-compile-and-run-a-go-program',
+    'the-go-workspace',
+    'diving-into-the-go-language',
+    'variables-in-go',
+    'basic-types-in-go',
+    'strings-in-go',
+    'arrays-in-go',
+    'slices-in-go',
+    'maps-in-go',
+    'loops-in-go',
+    'conditionals-in-go',
+    'operators-in-go',
+    'structs-in-go',
+    'functions-in-go',
+    'pointers-in-go',
+    'methods-in-go',
+    'interfaces-in-go',
+  ]
+}
+
 const GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2: SidebarInfoSubgroupTemplate = { // 2023-11-03
   text: 'Get started with Quarkus and JPAStreamer',
   collapsible: true,
@@ -277,6 +308,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020
       // END: 2021
       "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+      "object-oriented-programming-concepts-java", // 2022-04-19
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       // END: 2022
       // END: 2023
@@ -288,6 +320,7 @@ export const template: SidebarInfoTemplate = {
       "creational-design-patterns-in-java", // 2024-07-26
       "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
       "learn-java-testing-with-selenium", // 2024-08-27
+      // END: java
     ]],[
     "java-spring",[
       "oauth2-resourceserver-with-spring-security", // 2024-05-08
@@ -341,9 +374,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2021js
       "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
       "data-structures-in-javascript-with-examples", // 2022-05-17
-      // END: 2022
+      // END: 2022js
       "loop-through-arrays-javascript", // 2023-10-31
-      // END: 2023
+      // END: 2023js
       "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
       "higher-order-functions-explained", // 2024-05-02
       "understand-javascript-closures", // 2024-05-07
@@ -594,11 +627,19 @@ export const template: SidebarInfoTemplate = {
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
     ]],[
     "css", [
+      "css-positioning-and-flexbox-explained", // 2021-03-09
+      "learn-flexbox-build-5-layouts", // 2021-03-30
+      "learn-css-background-properties", // 2021-04-03
+      "learn-css-media-queries-by-building-projects", // 2021-04-27
+      "css-flexbox-and-grid-tutorial", // 2021-09-09
+      // END: 2021css
       "how-to-create-a-css-only-loader", // 2022-01-15
       "section-divider-using-css", // 2022-02-26
       "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
-      // END: 2022
+      // END: 2022css
       "perfect-html-input", // 2023-01-05
+      "responsive-design-best-practices", // 2023-05-31
+      // END: 2023css
       "how-to-add-media-to-your-html-email-template", // 2024-04-23
       "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
       "breakpoints-for-responsive-web-design", // 2024-06-24
@@ -645,10 +686,12 @@ export const template: SidebarInfoTemplate = {
       "introduction-to-linked-lists-in-python", // 2022-09-23
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       "stack-data-structure-solve-coding-challenges", // 2022-10-07
+      GO_BEGINNERS_HANDBOOK, // 2022-10-19
       // END: 2022
       "learn-data-structures-and-algorithms", // 2023-02-03
       "how-to-parse-a-string-in-python", // 2023-05-04
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
+      "ultimate-beginners-python-course", // 2023-09-20
       // END: 2023
       "how-to-use-oop-in-python", // 2024-04-24
       "how-to-use-defaultdict-python", // 2024-05-01
@@ -750,6 +793,9 @@ export const template: SidebarInfoTemplate = {
       // END: lua
     ]],[
       "go", [
+      GO_BEGINNERS_HANDBOOK, // 2022-10-19
+      // END: 2022go
+      // END: 2023go
       "how-to-handle-concurrency-in-go", // 2024-05-10
       "learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go", // 2024-05-30
       "learn-how-to-build-a-decentralized-file-storage-system-with-go", // 2024-06-05
@@ -769,6 +815,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-fuzz-test-golang-http-services", // 2024-11-05
       "key-golang-concepts-for-beginner-go-devs", // 2024-11-14
       "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
+      // END: 2024go
       // END: go
     ]],[
     "go-grafana", [
@@ -1253,14 +1300,14 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "api", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
-      // END: 2016
+      // END: 2016api
       "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
       "fetch-api-cheatsheet", // 2020-11-17
-      // END: 2020
+      // END: 2020api
       "what-is-an-api-and-how-to-test-it", // 2021-02-06
-      // END: 2021
+      // END: 2021api
       "how-apis-work", // 2022-12-05
-      // END: 2022
+      // END: 2022api
       // END: api
     ]],[
     "all", [
@@ -1290,13 +1337,18 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-your-front-end-app", // 2021-01-09
       "jsx-in-react-introduction", // 2021-02-02
       "what-is-an-api-and-how-to-test-it", // 2021-02-06
+      "css-positioning-and-flexbox-explained", // 2021-03-09
       "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+      "learn-flexbox-build-5-layouts", // 2021-03-30
       "free-8-hour-node-express-course", // 2021-04-01
+      "learn-css-background-properties", // 2021-04-03
       "react-router-cheatsheet", // 2021-04-19
+      "learn-css-media-queries-by-building-projects", // 2021-04-27
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
       "how-to-make-api-calls-with-fetch", // 2021-06-03
       "understanding-sorting-algorithms", // 2021-06-18
       "react-context-for-beginners", // 2021-07-22
+      "css-flexbox-and-grid-tutorial", // 2021-09-09
       "learn-algorithms-and-data-structures-in-python", // 2021-09-18
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
@@ -1310,6 +1362,7 @@ export const template: SidebarInfoTemplate = {
       "test-a-react-app-with-jest-testing-library-and-cypress", // 2022-04-06
       "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
       "modules-in-javascript", // 2022-04-14
+      "object-oriented-programming-concepts-java", // 2022-04-19
       "an-introduction-to-programming-paradigms", // 2022-05-03
       "rest-api-design-best-practices-build-a-rest-api", // 2022-05-05
       "data-structures-in-javascript-with-examples", // 2022-05-17
@@ -1335,8 +1388,10 @@ export const template: SidebarInfoTemplate = {
       "what-is-ci-cd", // 2023-04-08
       "how-to-parse-a-string-in-python", // 2023-05-04
       "postgresql-indexing-strategies", // 2023-05-12
+      "responsive-design-best-practices", // 2023-05-31
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
       "node-js-basics", // 2023-07-26
+      "ultimate-beginners-python-course", // 2023-09-20
       "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "loop-through-arrays-javascript", // 2023-10-31
       GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03

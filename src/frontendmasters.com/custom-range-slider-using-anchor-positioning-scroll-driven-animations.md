@@ -164,7 +164,7 @@ Here is the demo so far:
 
 Hmmmm, there is an issue! Both tooltips are linked to the same thumb. This is understandable, because I used the same anchor name so the first one will get ignored.
 
-*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using [<FontIcon icon="fas fa-globe"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
+*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using [<FontIcon icon="iconfont icon-w3c"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
 
 ```css
 label {
@@ -185,7 +185,7 @@ Another fix is to add `position: relative` to `label`. I won’t detail how i
 
 Hmmmmm. We have fixed the scoping problem but the position of the tooltip is still not good. If you move the thumb to the edges, the tooltip is no longer following. It’s limited to the boundary of the slider. It’s kind of strange, but it’s by design.
 
-By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by [the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
+By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by [<FontIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
 
 > If the box overflows its inset-modified containing block, but would still fit within its original containing block, by default it will “shift” to stay within its original containing block, even if that violates its normal alignment. This behavior makes it more likely that positioned boxes remain visible and within their intended bounds, even when their containing block ends up smaller than anticipated.
 

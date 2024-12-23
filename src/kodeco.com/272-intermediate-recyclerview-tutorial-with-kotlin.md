@@ -85,7 +85,7 @@ Build and run your app on an emulator or phone. You should see a default “Hell
 
 ### Manifest
 
-Add the following to your <FontIcon icon="iconfont icon-code"/>`AndroidManifest.xml` file before the application tag:
+Add the following to your <FontIcon icon="fa-brands fa-android"/>``AndroidManifest.xml` file before the application tag:
 
 
 ```xml

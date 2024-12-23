@@ -912,8 +912,8 @@ https://paperlined.org/
   name="LogRocket Blog - Resources to Help Product Teams Ship Amazing Digital Experiences"
   desc="Resources to Help Product Teams Ship Amazing Digital Experiences"
   url="https://blog.logrocket.com/dev"
-  logo="blog.logrocket.com/favicon.png"
-  preview="blog.logrocket.com/banner.png"/>
+  logo="/assets/image/blog.logrocket.com/favicon.png"
+  preview="/assets/image/blog.logrocket.com/banner.png"/>
 
 ```component VPCard
 {

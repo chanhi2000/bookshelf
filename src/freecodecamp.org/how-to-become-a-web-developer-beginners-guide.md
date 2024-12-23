@@ -157,7 +157,7 @@ JavaScript has many more capabilities that make your website functional and enga
 
 Refer to the following resources for JavaScript:
 
-- [freeCodeCamp](/freecodecamp.org/javascript-algorithms-and-data-structures-v8.md) for a free, in-depth, JS curriculum
+- [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp](https://freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8) for a free, in-depth, JS curriculum
 - [<FontIcon icon="fas fa-globe"/>w3schools.com](https://w3schools.com/js/default.asp) for basic JavaScript tutorial
 - [JavaScript Interview Prep Handbook](/freecodecamp.org/js-interview-prep-handbook/README.md) for important JavaScript concepts.
 
@@ -259,7 +259,7 @@ Go is growing in popularity because of its efficiency, and many companies are ad
 Go offers plenty of resources and a growing community for beginners. To get started with Go, refer to the following resources:
 
 - [<FontIcon icon="fa-brands fa-golang"/>Tour of Go](https://go.dev/tour/welcome/1) – Interactive Learning with basic Golang concepts
-- [Golang Handbook](/freecodecamp.org/go-beginners-handbook.md) from Flavio Copes
+- [Golang Handbook](/freecodecamp.org/go-beginners-handbook/README.md) from Flavio Copes
 - [<FontIcon icon="fa-brands fa-golang"/>Go Docs](https://go.dev/doc/) – Very detailed
 
 ### Java

@@ -102,6 +102,10 @@ export const navbarEn = navbar([
         icon: 'fas fa-globe',
         link: '/douggregor.net/README.md'
       }, {
+        text: 'd2.naver.com',
+        icon: '/assets/image/d2.naver.com/favicon.ico',
+        link: '/d2.naver.com/README.md'
+      }, {
         text: 'tech.kakao.com',
         icon: 'https://www.kakaocorp.com/page/favicon.ico',
         link: '/tech.kakao.com/README.md'

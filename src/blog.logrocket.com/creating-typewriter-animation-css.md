@@ -21,6 +21,9 @@ head:
 prev: /programming/css/articles/README.md
 date: 2024-04-24
 isOriginal: false
+author:
+  - name: Temitope Oyedele
+    url: https://blog.logrocket.com/author/temitopeoyedele/
 cover: /assets/image/blog.logrocket.com/creating-typewriter-animation-css/banner.png
 ---
 
@@ -48,8 +51,6 @@ cover: /assets/image/blog.logrocket.com/creating-typewriter-animation-css/banner
   preview="/assets/image/blog.logrocket.com/creating-typewriter-animation-css/banner.png"/>
 
 Creating a typewriter effect is easier than you think. While the most common way to achieve this effect is by using JavaScript, we could also use plain CSS to create our typewriter animation.
-
-![](/assets/image/blog.logrocket.com/creating-typewriter-animation-css/banner.png)
 
 In this article, we’ll look at how to create a typewriter animation effect with only CSS. It’s simple, nice, and easy. We’ll also take a look at the pros and cons of creating this effect with CSS versus JavaScript.
 
