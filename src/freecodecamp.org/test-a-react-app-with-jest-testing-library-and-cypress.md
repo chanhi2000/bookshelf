@@ -31,9 +31,7 @@ author: German Cocca
 cover: https://freecodecamp.org/news/content/images/2022/04/pexels-rodolfo-clix-1366942.jpg
 ---
 
----
-
-## {{ $frontmatter.title }} 관련
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

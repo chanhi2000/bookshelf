@@ -105,7 +105,7 @@ The first thing we need to do is to create the publishing side of our system, an
 
 You can install the NuGet package by running the following command:
 
-```pwsh
+```powershell
 Install-Package Azure.Messaging.ServiceBus
 ```
 

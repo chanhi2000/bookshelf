@@ -27,7 +27,9 @@ head:
 prev: /devops/aws/articles/README.md
 date: 2024-12-20
 isOriginal: false
-author: Andrew Brown
+author:
+  - name: Andrew Brown
+    url: https://exampro.co/aws-exam-solutions-architect-professional
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734624111613/72a048e5-3ba2-4c95-b553-086c9110c5d3.png
 ---
 

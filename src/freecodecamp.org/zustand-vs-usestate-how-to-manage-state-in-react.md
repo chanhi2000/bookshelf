@@ -213,13 +213,13 @@ First, start by installing Zustand in your React application using the command:
 
 ::: code-tabs#sh
 
-@tab:active npm
+@tab:active <FontIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install zustand
 ```
 
-@tab yarn
+@tab <FontIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add zustand

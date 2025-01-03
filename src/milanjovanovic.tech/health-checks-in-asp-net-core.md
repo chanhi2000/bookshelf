@@ -209,7 +209,7 @@ You can solve this by providing a `ResponsWriter`, and there's an existing one i
 
 Let's install the **NuGet** package:
 
-```pwsh
+```powershell
 Install-Package AspNetCore.HealthChecks.UI.Client
 ```
 

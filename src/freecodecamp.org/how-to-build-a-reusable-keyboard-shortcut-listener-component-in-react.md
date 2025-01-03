@@ -27,7 +27,9 @@ head:
 prev: /programming/js-react/articles/README.md
 date: 2024-12-17
 isOriginal: false
-author: David Jaja
+author:
+  - name: David Jaja
+    url: https://freecodecamp.org/news/author/Daiveed/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733895763796/17684457-fb85-48d4-b049-ddbaf0b5281e.png
 ---
 

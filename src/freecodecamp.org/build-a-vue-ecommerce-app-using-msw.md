@@ -131,13 +131,13 @@ We'll use the [<FontIcon icon="fa-brands fa-npm"/>`pnpm`](https://pnpm.io/) pack
 pnpm install
 ```
 
-@tab npm
+@tab <FontIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install
 ```
 
-@tab yarn
+@tab <FontIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn
@@ -155,13 +155,13 @@ Next, install MSW in your project directory:
 pnpm add -D msw@latest
 ```
 
-@tab npm
+@tab <FontIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install msw@latest --save-dev
 ```
 
-@tab yarn
+@tab <FontIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn install -D msw@latest
@@ -179,13 +179,13 @@ Run the theme using the following command:
 pnpm run dev
 ```
 
-@tab npm
+@tab <FontIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm run dev
 ```
 
-@tab yarn
+@tab <FontIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn run dev

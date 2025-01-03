@@ -1,4 +1,22 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate } from ".";
+import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+
+const GIT_INTERNALS_OBJECTS_BRANCHES_CREATE_REPO: SidebarInfoSubgroupTemplate = { // 2020-12-15
+  text: 'A Visual Guide to Git Internals — Objects, Branches, and How to Create a Repo From Scratch',
+  collapsible: true,
+  icon: 'iconfont icon-git',
+  subPath: 'git-internals-objects-branches-create-repo',
+  children: [
+    'README',
+    'git-objects-blob-tree-and-commit',
+    'branches-in-git',
+    'how-to-record-changes-in-git',
+    'how-to-create-a-repo-the-conventional-way',
+    'how-to-set-up-git',
+    'plumbing-vs-porcelain-commands-in-git',
+    'how-to-create-objects-in-git',
+    'how-to-work-with-branches-in-git-under-the-hood',
+  ]
+}
 
 const DEVOPS_WITH_GITLAB_CI_COURSE: SidebarInfoSubgroupTemplate = { // 2022-03-02
   text: 'DevOps with GitLab CI Course',
@@ -12,6 +30,65 @@ const DEVOPS_WITH_GITLAB_CI_COURSE: SidebarInfoSubgroupTemplate = { // 2022-03-0
     'unit-3-continuous-deployment-with-gitlab-aws',
     'unit-4-deploying-a-dockerized-application-to-aws',
     'unit-5-conclusion',
+  ]
+}
+
+const THE_DEFINITIVE_GUIDE_TO_GIT_MERGE: SidebarInfoSubgroupTemplate = { // 2023-04-28
+  text: 'The Git Merge Handbook – Definitive Guide to Merging',
+  collapsible: true,
+  icon: 'iconfont icon-git',
+  subPath: 'the-definitive-guide-to-git-merge',
+  children: [
+    'README',
+    'what-is-a-merge-in-git',
+    'time-to-get-hands-on',
+    'time-for-a-more-advanced-case',
+    'quick-recap-on-a-three-way-merge',
+    'moving-on',
+    'more-advanced-git-merge-cases',
+    'how-gits-3-way-merge-algorithm-works',
+    'how-to-resolve-merge-conflicts',
+    'how-to-use-vs-code-to-resolve-conflicts',
+    'one-more-powerful-tool',
+  ]
+}
+
+const GIT_REBASE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2023-07-03
+  text: 'The Git Rebase Handbook – A Definitive Guide to Rebasing',
+  collapsible: true,
+  icon: 'iconfont icon-git',
+  subPath: 'git-rebase-handbook',
+  children: [
+    'README',
+    'what-is-git-merge',
+    'cherry-pick-as-a-basis-for-rebase',
+    'time-to-get-hands-on-with-rebase',
+    'advanced-rebasing-in-git',
+    'how-to-rebase-on-a-single-branch',
+    'more-rebase-use-cases-more-practice',
+    'a-note-about-conflicts',
+    'zooming-out-for-the-big-picture',
+  ]
+}
+
+const A_BEGINNERS_GUIDE_TO_SQL: SidebarInfoSubgroupTemplate = { // 2023-09-05
+  text: 'The SQL Handbook – A Free Course for Web Developers',
+  collapsible: true,
+  icon: 'fas fa-database',
+  subPath: 'a-beginners-guide-to-sql',
+  children: [
+    'README',
+    'chapter-1-introduction',
+    'chapter-2-sql-tables',
+    'chapter-3-constraints',
+    'chapter-4-crud-operations-in-sql',
+    'chapter-5-basic-sql-queries',
+    'chapter-6-how-to-structure-return-data-in-sql',
+    'chapter-7-how-to-perform-aggregations-in-sql',
+    'chapter-8-sql-subqueries',
+    'chapter-9-database-normalization',
+    'chapter-10-how-to-join-tables-in-sql',
+    'chapter-11-database-performance',
   ]
 }
 
@@ -290,11 +367,630 @@ const CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK: SidebarInfoSubgroupTemplate = {
   ]
 }
 
+
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
+  collapsible: true,
+  children: [
+    // END: 2025
+    "guide-to-rhel-linux-basics", // 2025-01-11
+    "what-is-semantic-matching-find-words-in-a-document-using-nlp", // 2025-01-10
+    "what-is-the-language-server-protocol-easier-code-editing-across-languages", // 2025-01-09
+    "talk-to-databases-using-ai-build-a-sql-query-data-extractor", // 2025-01-09
+    "learn-generative-ai-in-23-hours", // 2025-01-09
+    "create-christmas-icons-with-javascript-and-html", // 2025-01-09
+    "how-to-discover-hidden-subdomains-as-an-ethical-hacker", // 2025-01-08
+    "how-to-run-integration-tests-with-github-service-containers", // 2025-01-08
+    "svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning", // 2025-01-04
+    "build-a-real-time-network-traffic-dashboard-with-python-and-streamlit", // 2025-01-04
+    "server-sent-events-vs-websockets", // 2025-01-04
+    "a-beginners-guide-to-terraform-infrastructure-as-code-in-practice", // 2025-01-04
+    "how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals", // 2025-01-03
+    "optimize-nextjs-web-apps-for-better-performance", // 2025-01-02
+  ]
+}
+
+
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
+  collapsible: true,
+  children: [
+    // END: 2024
+    "how-to-use-react-server-components", // 2024-01-08
+    "set-up-authentication-in-apps-with-supabase", // 2024-01-29
+    "react-state-management", // 2024-02-06
+    "master-react-by-building-25-projects", // 2024-02-07
+    "what-is-dead-zone-in-javascript", // 2024-03-28
+    "how-to-add-media-to-your-html-email-template", // 2024-04-23
+    "how-to-use-oop-in-python", // 2024-04-24
+    "procedural-macros-in-rust", // 2024-04-24
+    "php-jwt-authentication-implementation", // 2024-04-24
+    "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
+    "mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos", //2024-04-25
+    "how-to-develop-a-flutter-app-from-scratch", // 2024-04-26
+    "linux-terminal-piping-and-redirection-guide", //2024-04-26
+    "working-on-a-multiple-library-project-in-android", // 2024-04-27
+    "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
+    "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
+    "git-checkout-remote-branch-how-to-fetch-and-list-remote-branches", // 2024-04-30
+    "how-to-use-oop-in-c-sharp", // 2024-05-01
+    "throttling-in-javascript", // 2024-05-01
+    "create-personalized-github-profile-page", // 2024-05-01
+    "how-to-use-defaultdict-python", // 2024-05-01
+    "higher-order-functions-explained", // 2024-05-02
+    "how-to-build-a-realtime-chart-with-react-and-pusher", // 2024-05-02
+    "run-sql-like-queries-on-cplusplus-files", // 2024-05-02
+    "react-usereducer-hook", // 2024-05-03
+    "what-is-amazon-ec2-auto-scaling", // 2024-05-06
+    "how-to-use-react-devtools", // 2024-05-06
+    "understand-javascript-closures", // 2024-05-07
+    "how-js-string-concatenation-works", // 2024-05-07
+    "how-to-use-git-submodules", // 2024-05-07
+    "empire-state-building-run-up-analysis-with-python", // 2024-05-08
+    "oauth2-resourceserver-with-spring-security", // 2024-05-08
+    "react-native-splash-screen", // 2024-05-08
+    "how-to-run-postgres-in-kubernetes",  // 2024-05-08
+    "php-array-handbook", // 2024-05-08
+    "how-to-install-python-on-a-mac", // 2024-05-09
+    "javascript-remove-char-from-string", // 2024-05-09
+    "how-to-create-objects-in-javascript",  // 2024-05-10
+    "how-to-handle-concurrency-in-go", // 2024-05-10
+    "build-a-qr-code-generator-using-nodejs-nextjs-azure-blob-storage", // 2024-05-10
+    "how-to-create-a-react-chatbot", // 2024-05-10
+    "how-to-handle-events-in-react-19", // 2024-05-13
+    "how-to-store-data-locally-in-react-native-expo",  // 2024-05-13
+    "zustand-vs-usestate-how-to-manage-state-in-react", // 2024-05-15
+    "how-to-make-your-flutter-package-privacy-manifest-compatible", // 2024-05-20
+    "how-to-create-a-rest-api-without-a-server", // 2024-05-20
+    "how-to-become-an-open-source-maintainer", // 2024-05-20
+    "javascript-class-handbook", // 2024-05-20
+    "how-to-style-react-components", // 2024-05-22
+    JS_INTERVIEW_PREP_HANDBOOK, // 2024-05-22
+    "how-to-secure-your-django-app", // 2024-05-22
+    "pass-the-aws-certified-solutions-architect-associate-certification", // 2024-05-23
+    "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
+    "build-crud-operations-with-dotnet-core-handbook", // 2024-05-24
+    "how-to-manipulate-strings-in-javascript", // 2024-05-24
+    "a-guide-to-the-node-js-event-loop", // 2024-05-28
+    "react-19-new-hooks-explained-with-examples", // 2024-05-28
+    "build-an-eks-cluster-using-aws-local-zones-with-aws-cdk", // 2024-05-28
+    "linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai", // 2024-05-28
+    "rust-tutorial-build-a-json-parse", // 2024-05-29
+    "how-do-numerical-conversions-work", // 2024-05-29
+    "react-context-api-explained-with-examples", // 2024-05-30
+    "complete-c-programming-course-from-dr-chuck", // 2024-05-30
+    "learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go", // 2024-05-30
+    "javascript-prototypal-inheritance", // 2024-05-31
+    "how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126", // 2024-05-31
+    "automated-unit-testing-with-testgen-llm-and-cover-agent", // 2024-06-02
+    "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
+    "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
+    "how-to-build-a-rating-component-with-the-react-compound-component-pattern", // 2024-06-03
+    BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
+    APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK, // 2024-06-04
+    "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
+    "build-a-youtube-clone-with-flutter-firebase-and-riverpod", // 2024-06-04
+    "python-coding-challenges-for-beginners", // 2024-06-04
+    "linear-algebra-roadmap", // 2024-06-04
+    "the-javascript-this-keyword-explained-with-examples", // 2024-06-05
+    "learn-how-to-build-a-decentralized-file-storage-system-with-go", // 2024-06-05
+    "master-the-azure-devops-engineer-expert-certification-az-400", // 2024-06-06
+    "real-time-chat-with-go-fiber-htmx", // 2024-06-06
+    "weakmap-and-weakset-in-javascript", // 2024-06-07
+    "how-to-create-notice-blocks-in-markdown", // 2024-06-10
+    "unit-testing-in-python", // 2024-06-10
+    "how-to-fix-python-installation-errors-on-mac", // 2024-06-10
+    "learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence", // 2024-06-11
+    "learn-high-level-system-design-by-building-a-youtube-clone", // 2024-06-11
+    "retrieval-augmented-generation-rag-handbook", // 2024-06-11
+    "learn-threejs-by-building-five-projects", // 2024-06-12
+    "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
+    "free-linux-crash-course-with-labs", // 2024-06-13
+    "lambda-functions-in-python", // 2024-06-14
+    "how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom", // 2024-06-17
+    "how-the-black-scholes-equation-works-python-examples", // 2024-06-17
+    "how-to-handle-keyerror-exceptions-in-python", // 2024-06-17
+    "auto-scaling-and-load-balancing", // 2024-06-17
+    "first-class-functions-and-closures-in-python", // 2024-06-17
+    "how-to-enhance-embedded-links-in-react-with-microlinks", // 2024-06-18
+    "a-guide-to-object-oriented-programming-principles", // 2024-06-18
+    "how-to-host-static-sites-on-azure-static-web-apps", // 2024-06-18
+    "how-to-improve-your-digital-security-and-privacy", // 2024-06-18
+    "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
+    "what-is-trunk-based-development", // 2024-06-18
+    "building-intelligent-apps-with-mistral-ai", // 2024-06-18
+    "a-non-technical-introduction-to-generative-ai", // 2024-06-18
+    "decorators-in-python-tutorial", // 2024-06-18
+    "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
+    "for-else-loop-in-python", // 2024-06-19
+    "how-to-use-time-to-live-in-event-driven-architecture", // 2024-06-19
+    "best-practices-for-accessibility-in-web-development", // 2024-06-20
+    "learn-to-create-a-3d-rpg-game-with-godot", // 2024-06-20
+    "generative-ai-handbook", // 2024-06-20
+    "what-are-controlled-and-uncontrolled-components-in-react", // 2024-06-21
+    "introduction-to-solid-principles", // 2024-06-24
+    "mastering-vim-your-guide-to-efficient-text-editing", // 2024-06-24
+    "when-to-use-npm-packages", // 2024-06-24
+    "breakpoints-for-responsive-web-design", // 2024-06-24
+    "react-how-to-validate-user-input", // 2024-06-24
+    "create-an-ml-model-with-azure-machine-learning-designer", // 2024-06-25
+    "whats-new-in-react-19", // 2024-06-25
+    "scope-closures-and-hoisting-in-javascript", // 2024-06-26
+    "pyspark-for-beginners", // 2024-06-26
+    "how-to-create-database-migrations-in-go", // 2024-06-26
+    "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
+    "migrate-from-play-core-library", // 2024-06-26
+    "how-to-change-background-color-with-javascript", // 2024-06-28
+    "mastering-shadcn-ui-components", // 2024-06-28
+    "media-queries-vs-container-queries", // 2024-06-28
+    "infinite-scrolling-in-react", // 2024-07-01
+    "go-for-absolute-beginners", // 2024-07-01
+    "improve-your-javascript-projects-with-build-tools", // 2024-07-02
+    "excel-vs-google-sheets-tables", // 2024-07-02
+    "react-19-actions-simpliy-form-submission-and-loading-states", // 2024-07-02
+    "how-data-flows-in-redux", // 2024-07-03
+    "build-a-meditation-app-with-react-native-expo-router", // 2024-07-03
+    "how-to-use-callback-functions-in-javascript", // 2024-07-03
+    "upload-large-files-with-aws", // 2024-07-08
+    "what-is-a-markov-chain", // 2024-07-08
+    "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
+    "how-to-integrate-spring-boot-with-gatling", // 2024-07-08
+    "knowledge-distillation-in-deep-learning-models", // 2024-07-09
+    "how-to-use-pandoc", // 2024-07-09
+    "learn-typescript-with-interactive-lessons", // 2024-07-09
+    "prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification", // 2024-07-09
+    "improve-user-experience-with-optimistic-ui-swr", // 2024-07-09
+    "use-python-sdk-to-build-a-web-scraper", // 2024-07-10
+    "build-a-counter-button-with-react", // 2024-07-10
+    "nextjs-clerk-neon-fullstack-development", // 2024-07-10
+    "how-to-send-http-requests-using-javascript", // 2024-07-10
+    "how-to-use-python-generators", // 2024-07-10
+    "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
+    "more-secure-authentication-from-passwords-to-passkeys", // 2024-07-11
+    "how-to-deploy-a-web-app", // 2024-07-11
+    "learn-asynchronous-javascript", // 2024-07-11
+    "what-is-trpc", // 2024-07-11
+    "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
+    "generics-in-java", // 2024-07-12
+    "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
+    "difference-between-usememo-and-usecallback-hooks", // 2024-07-15
+    "how-to-use-linq", // 2024-07-15
+    "getting-started-in-cybersecurity", // 2024-07-16
+    "multithreading-for-beginners", // 2024-07-16
+    "what-are-monte-carlo-methods", // 2024-07-16
+    "how-to-deploy-node-js-app-on-azure", // 2024-07-17
+    "server-side-rendering-in-next-js-for-improved-seo", // 2024-07-17
+    "create-24-css-projects", // 2024-07-17
+    "pass-the-github-advanced-security-certification-exam", // 2024-07-17
+    "use-react-router-to-build-single-page-applications", // 2024-07-18
+    "learn-javascript-reactivity-build-signals-from-scratch", // 2024-07-18
+    "next-js-performance-optimization", // 2024-07-19
+    "migrate-a-flutter-application-from-getit-to-bloc", // 2024-07-19
+    "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
+    "how-to-use-enhanced-enums-in-dart", // 2024-07-22
+    "react-context-api-tutorial-examples", // 2024-07-22
+    "build-a-bitcoin-to-usd-calculator", // 2024-07-22
+    "comparable-vs-comparator-explained-in-java", // 2024-07-23
+    "how-to-build-a-quantum-ai-model", // 2024-07-23
+    "how-to-build-an-interpretable-ai-deep-learning-model", // 2024-07-23
+    "build-a-sticky-notes-app-with-react-and-appwrite", // 2024-07-25
+    "learn-system-design-principles", // 2024-07-25
+    "what-is-recursion", // 2024-07-25
+    "generative-models-for-data-augmentation", // 2024-07-26
+    "creational-design-patterns-in-java", // 2024-07-26
+    "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
+    "use-local-storage-in-blazor-apps", // 2024-07-29
+    "using-entity-framework-core-with-mongodb", // 2024-07-29
+    "prompt-engineering-basics", // 2024-07-29
+    "learn-c-sharp-for-unity-in-spanish", // 2024-07-31
+    "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
+    "learn-rag-fundamentals-and-advanced-techniques", // 2024-08-01
+    "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
+    "how-to-set-up-grafana-on-ec2", // 2024-08-02
+    "encoding-and-decoding-data-in-golang", // 2024-08-05
+    "how-to-build-an-event-app-with-node-js", // 2024-08-05
+    "how-to-index-nextjs-pages-with-indexnow", // 2024-08-06
+    "basic-control-theory-with-python", // 2024-08-06
+    "learn-about-operating-systems-in-depth", // 2024-08-06
+    "react-common-mistakes", // 2024-08-06
+    "what-is-a-kalman-filter-with-python-code-examples", // 2024-08-07
+    "create-a-pc-game-using-javascript", // 2024-08-07
+    "host-your-first-project-on-github", // 2024-08-08
+    "how-to-build-an-ai-model-for-predicting-data-with-python", // 2024-08-08
+    "typescript-for-beginners-guide", // 2024-08-08
+    "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
+    "relative-vs-dynamic-routing-in-react", // 2024-08-12
+    "ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown", // 2024-08-12
+    "how-to-match-parentheses-in-javascript-without-using-regex", // 2024-08-12
+    "get-mongodb-url-to-connect-to-a-nodejs-application", // 2024-08-12
+    "simplify-aws-multi-account-management", // 2024-08-13
+    "what-is-a-component-library-when-to-build-your-own", // 2024-08-13
+    "merge-word-documents-in-python", // 2024-08-13
+    "graceful-shutdowns-k8s-go", // 2024-08-13
+    "how-to-implement-message-queues-in-your-backend-applications", // 2024-08-14
+    "learn-ml5js-for-machine-learning-in-javascript", // 2024-08-14
+    "integration-tests-using-testcontainers", // 2024-08-14
+    "create-color-picker-using-html-css-and-javascript", // 2024-08-15
+    "how-asynchronous-programming-works-in-rust", // 2024-08-15
+    "a-beginners-guide-to-large-language-models", // 2024-08-15
+    "vm-data-protection-best-practices", // 2024-08-16
+    "variables-and-constants-in-go", // 2024-08-19
+    "how-to-use-variables-and-data-types-in-javascript", // 2024-08-19
+    "how-to-read-and-write-files-with-nodejs", // 2024-08-19
+    "how-to-secure-a-nextjs-ai-application-deployed-on-vercel", // 2024-08-19
+    "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
+    "master-video-editing-with-davinci-resolve", // 2024-08-20
+    "git-cheat-sheet-helpful-git-commands-with-examples", // 2024-08-20
+    "how-to-effectively-manage-unique-identifiers-at-scale", // 2024-08-20
+    "how-to-build-good-coding-habits", // 2024-08-20
+    "what-is-css-subgrid", // 2024-08-21
+    "how-to-create-software-architecture-diagrams-using-the-c4-mode", // 2024-08-21
+    "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
+    "learn-to-use-the-gemini-ai-multimodal-model", // 2024-08-22
+    "create-a-macos-app-with-react-native", // 2024-08-22
+    "how-to-future-proof-your-software-engineering-career-for-the-age-of-agi", // 2024-08-23
+    "how-to-blend-images-in-rust-using-pixel-math", // 2024-08-27
+    "how-to-create-interactive-html-prototypes", // 2024-08-27
+    "how-to-build-an-accessible-modal-with-example-code", // 2024-08-27
+    "learn-java-testing-with-selenium", // 2024-08-27
+    "excel-for-data-visualization", // 2024-08-27
+    "react-compiler-complete-guide-react-19", // 2024-08-27
+    "how-to-handle-file-uploads-in-nestjs-with-multer", // 2024-08-28
+    "how-to-implement-server-sent-events-in-go", // 2024-08-28
+    "how-to-use-gpt-to-analyze-large-datasets", // 2024-08-28
+    "build-a-shopping-cart-backend-with-spring-boot-and-spring-security", // 2024-08-28
+    "design-first-vs-logic-first-approach", // 2024-08-29
+    "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
+    "skills-you-need-to-become-a-backend-developer-roadmap", // 2024-09-03
+    "what-is-rate-limiting-web-apis", // 2024-09-04
+    "master-multimodal-data-analysis-with-llms-and-python", // 2024-09-04
+    "learn-the-mern-stack-by-building-a-store", // 2024-09-04
+    "what-is-speedy-web-compiler", // 2024-09-05
+    "how-to-manage-your-open-source-project-with-github", // 2024-09-05
+    "what-is-cache-poisoning-and-how-to-avoid-it", // 2024-09-05
+    "what-are-lifetimes-in-rust-explained-with-code-examples", // 2024-09-06
+    "how-to-use-html-attributes-to-make-your-websites-and-apps-more-accessible", // 2024-09-06
+    "how-the-comma-ok-idiom-and-package-system-work-in-go", // 2024-09-09
+    "essential-javascript-concepts-before-react", // 2024-09-10
+    "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
+    "golang-statically-and-dynamically-linked-go-binaries", // 2024-09-10
+    "implement-api-rate-limiting-in-strapi", // 2024-09-10
+    "what-are-type-predicates-in-typescript", // 2024-09-10
+    HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK, // 2024-09-10
+    "shodan-what-to-know-about-the-internets-most-dangerous-search-engine", // 2024-09-10
+    "pass-the-azure-ai-engineer-associate-certification-ai-102", // 2024-09-10
+    "how-event-handling-works-in-vue-3-guide-for-devs", // 2024-09-11
+    "how-to-build-an-expense-tracker-with-html-css-and-javascript", // 2024-09-11
+    "how-to-use-chart-js-for-interactive-data-visualization", // 2024-09-12
+    "how-to-be-a-productive-developer", // 2024-09-13
+    "use-the-javascript-selection-api-to-build-a-rich-text-editor", // 2024-09-16
+    "javascript-timer-how-to-set-a-timer-function-in-js", // 2024-09-16
+    "how-to-set-up-eslint-prettier-stylelint-and-lint-staged-in-nextjs", // 2024-09-16
+    "how-to-handle-side-effects-in-jest", // 2024-09-16
+    "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
+    "how-to-use-css-to-improve-web-accessibility", // 2024-09-18
+    "learn-how-to-secure-api-servers", // 2024-09-19
+    "master-object-oriented-programming-and-design-patterns-in-c", // 2024-09-19
+    "how-to-create-a-nextjs-pwa", // 2024-09-20,
+    "ecs-monitoring-explained-with-examples", // 2024-09-23
+    "how-to-get-a-memory-map-of-your-system-using-bios-interrupts", // 2024-09-23
+    "ai-chatbot-with-spring-react-docker", // 2024-09-23
+    "how-to-write-benchmark-tests-for-your-golang-functions", // 2024-09-23
+    "boost-web-performance-with-prefetching", // 2024-09-23
+    "create-react-reusable-modal-component", // 2024-09-24
+    "learn-cuda-programming", // 2024-09-24
+    "how-to-work-with-sql-databases-in-go", // 2024-09-24
+    "flutter-streams-and-services", // 2024-09-25
+    "learn-react-hooks-with-example-code", // 2024-09-25
+    "tools-for-code-reuse", // 2024-09-25
+    "end-to-end-machine-learning-course-project", // 2024-09-26
+    "pass-the-microsoft-365-certified-fundamentals-ms-900-exam", // 2024-09-26
+    "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
+    "how-to-start-building-projects-with-llms", // 2024-09-30
+    "new-react-19-features-you-should-know-with-code-examples", // 2024-09-30
+    "improve-your-data-science-skills-by-solving-kaggle-challenges", // 2024-09-30
+    "learn-aspnet-core-mvc-with-net-9", // 2024-10-02
+    "new-javascript-array-methods-to-help-you-write-better-cleaner-code", // 2024-10-02
+    "authenticate-react-app-using-firebase", // 2024-10-02
+    "integrate-wordpress-with-nextjs", // 2024-10-02
+    WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK, // 2024-10-02
+    "how-to-use-tooltips-in-jetpack-compose", // 2024-10-02
+    LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES, // 2024-10-02     
+    "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
+    "how-to-run-database-migrations-in-kubernetes", // 2024-10-02
+    "how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs", // 2024-10-03
+    "the-power-of-wordlists-why-every-ethical-hacker-needs-one", // 2024-10-03
+    "improve-front-end-development-workflow-with-zenui-library", // 2024-10-03
+    "how-to-create-linux-device-drivers", // 2024-10-03
+    "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
+    "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
+    "react-best-practices-ever-developer-should-know", // 2024-10-03
+    "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
+    "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
+    "hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts", // 2024-10-03
+    "how-to-design-and-develop-web-apis-essential-guidelines", // 2024-10-07
+    "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
+    "create-desktop-apps-with-electron-react-and-typescript", // 2024-10-08
+    "getting-started-with-matplotlib", // 2024-10-08
+    "improve-hacking-skills-by-playing-wargames", // 2024-10-08
+    "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
+    "javascript-refresher-for-react-beginners", // 2024-10-09
+    "key-cybersecurity-concepts-for-career", // 2024-10-09
+    "build-a-documentation-site-using-react-and-docusaraus", // 2024-10-10
+    "essential-secure-design-principles-for-developers", // 2024-10-10
+    "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
+    "learn-databases-in-depth", // 2024-10-10
+    "python-zip-function-explained-with-examples", // 2024-10-10
+    "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
+    REACT_INTERVIEW_PREP_HANDBOOK, // 2024-10-11
+    "how-to-use-git-stash-to-manage-code", // 2024-10-11
+    "large-language-models-for-developers-and-businesses", // 2024-10-12
+    "build-a-countdown-timer-with-react-step-by-step", // 2024-10-14
+    "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
+    "how-cdns-improve-performance-in-front-end-projects", // 2024-10-15
+    "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
+    "how-to-design-and-build-ui-components-with-ai", // 2024-10-15
+    "rounded-and-curved-edge-css-shapes", // 2024-10-15
+    "aws-security-specialty-certification-study-tips", // 2024-10-16
+    "how-to-merge-word-files-using-nodejs", // 2024-10-16
+    "how-to-self-host-a-container-registry", // 2024-10-16
+    "microsoft-excel-keyboard-shortcuts", // 2024-10-16
+    "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
+    "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
+    "how-to-maintain-soc-2-compliance", // 2024-10-16
+    "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
+    "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
+    "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
+    "how-to-perform-a-web-accessibility-audit", // 2024-10-19
+    "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
+    "conditional-statements-in-csharp-if-switch-and-more", // 2024-10-22
+    "connect-to-your-ec2-instance-using-mobaxterm", // 2024-10-22
+    "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
+    "learn-to-use-claude-ai", // 2024-10-23
+    "how-to-pass-additional-arguments-to-nextjs-server-actions", // 2024-10-23
+    "build-chat-app-with-stomp-and-react", // 2024-10-23
+    "build-your-own-wheel-of-names", // 2024-10-24
+    "filling-css-loaders", // 2024-10-24
+    "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+    "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
+    "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
+    "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
+    "how-to-secure-javascript-applications", // 2024-10-24
+    "build-crud-app-react-and-convex", // 2024-10-24
+    "what-are-the-solid-principles-in-csharp", // 2024-10-25
+    "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
+    "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
+    "code-a-full-stack-ai-powered-email-saas", // 2024-10-25
+    "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
+    "object-oriented-programming-in-python-interview-questions", // 2024-10-25
+    "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
+    "how-to-deploy-your-project-on-vercel", // 2024-10-26
+    "google-dorking-how-to-find-hidden-information-on-the-web", // 2024-10-26
+    "how-message-queues-make-distributed-systems-more-reliable", // 2024-10-28
+    "tools-for-open-source-intelligence-gathering", // 2024-10-29
+    "improve-and-restructure-codebase-with-ai-tools", // 2024-10-29
+    "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
+    "smart-pointers-in-rust-with-code-examples", // 2024-10-30
+    "how-to-use-developer-tools-to-debug-javascript-in-the-browser", // 2024-10-30
+    "remove-all-saved-posts-from-facebook-using-javascript", // 2024-10-30
+    "how-to-write-extension-methods-in-csharp", // 2024-10-30
+    "learn-generative-ai-for-developers", // 2024-11-01
+    "top-cybersecurity-certifications-for-devs", // 2024-11-01
+    "how-to-handle-complex-use-cases-in-api-specs", // 2024-11-04
+    "less-common-html-elements-and-how-to-use-them", // 2024-11-05
+    "become-an-open-source-master", // 2024-11-05
+    "how-to-fuzz-test-golang-http-services", // 2024-11-05
+    "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
+    "how-to-launch-an-ec2-instance-and-a-web-server-using-httpd", // 2024-11-05
+    "how-to-integrate-tailwind-with-django", // 2024-11-05
+    "how-to-write-clean-code-tips-for-developers", // 2024-11-06
+    "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
+    "how-to-set-up-automated-github-workflows-for-python-react-apps", // 2024-11-08
+    "learn-the-foundations-of-machine-learning-and-artificial-intelligence", // 2024-11-08
+    "build-your-own-rag-chatbot-with-javascript", // 2024-11-08
+    "set-semantic-versioning-for-net", // 2024-11-08
+    "useful-nmap-scripts-for-ethical-hackers", // 2024-11-08
+    "host-a-website-on-aws-ec2-using-a-css-template", // 2024-11-08
+    "how-to-simplify-your-git-commands-with-git-aliases", // 2024-11-12
+    "how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices", // 2024-11-13
+    "how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc", // 2024-11-13
+    "key-golang-concepts-for-beginner-go-devs", // 2024-11-13
+    "build-deploy-a-full-stack-dating-app", // 2024-11-13
+    "how-to-reverse-engineer-a-website", // 2024-11-14
+    "how-javascripts-temporal-proposal-will-change-datetime-functions", // 2024-11-14
+    "how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app", // 2024-11-14
+    "how-to-use-design-patterns-in-java-with-spring-boot", // 2024-11-15
+    "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
+    "how-to-support-multiple-languages-in-flutter", // 2024-11-15
+    "what-happens-when-you-visit-a-website", // 2024-11-16
+    "build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices", // 2024-11-16
+    "how-to-benchmark-your-code-in-csharp", // 2024-11-19
+    "how-to-implement-event-driven-data-processing", // 2024-11-19
+    "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
+    "create-meme-generator-using-html-canvas", // 2024-11-20
+    "build-rate-limiting-system-using-redis-and-lua", // 2024-11-20
+    "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
+    "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
+    "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
+    "how-to-address-ios-accessibility-challenges-using-swiftui", // 2024-11-20
+    "learn-redux-and-redux-toolkit-for-state-management", // 2024-11-20
+    "zig-zag-css-loaders", // 2024-11-21
+    LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
+    "handling-forms-nextjs-server-actions-zod", // 2024-11-23
+    "rbac-community-dashboard-with-nuxt", // 2024-11-23
+    "an-introduction-to-docker-and-containers-for-beginners", // 2024-11-26
+    "simplify-aws-multi-account-management-with-terraform-and-gitops", // 2024-11-26
+    "local-ai-development-with-ollama-course", // 2024-11-27
+    "aws-ec2-how-to-host-a-website-with-user-data-scripts", // 2024-11-27
+    "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
+    "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
+    "learn-react-2024", // 2024-11-28
+    "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
+    "mobile-app-development-with-react-native", // 2024-12-30
+    "how-to-become-a-web-developer-beginners-guide", // 2024-12-23
+    "how-to-run-open-source-llms-on-your-own-computer-using-ollama", // 2024-12-21
+    "classes-in-c-sharp-handbook-with-examples", // 2024-12-20
+    "build-a-honeypot-with-python", // 2024-12-20
+    "aws-solutions-architect-professional-sap-c02-certification-course", // 2024-12-20
+    "learn-game-development-with-javascript-and-kaplay", // 2024-12-20
+    "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-20
+    "make-llms-better-at-math-with-ai-agents", // 2024-12-19
+    "what-to-do-if-you-dont-get-into-outreachy", // 2024-12-19
+    "how-to-write-user-stories-for-beginners", // 2024-12-17
+    "how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react", // 2024-12-17
+    "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
+    "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
+    "build-a-web-application-security-scanner-with-python", // 2024-12-13
+    "learn-elasticsearch-with-a-comprehensive-beginner-friendly-course", // 2024-12-13
+    "learn-how-math-can-make-your-code-better-by-coding-polyrhythms", // 2024-12-13
+    "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
+    "how-django-mvt-architecture-works", // 2024-12-11
+    "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
+    "svelte-i18n-and-localization-made-easy", // 2024-12-06
+    "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
+    "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+    "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
+    "nextjs-vs-react-differences", // 2024-12-05
+    "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
+    "how-to-write-code-thats-easy-to-read", // 2024-12-05
+    "how-to-write-better-variable-names", // 2024-12-05
+    "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
+    "how-to-perform-code-reviews-in-tech-the-painless-way", // 2024-12-04
+    "learn-google-sheets-course-for-beginners", // 2024-12-04
+    "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
+    CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK, // 2024-12-03
+    THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
+    "how-to-build-a-memory-card-game-using-react", // 2024-11-28
+  ],
+}
+
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    "perfect-html-input", // 2023-01-05
+    GITTING_THINGS_DONE_BOOK,  // 2023-01-08
+    "usereducer-hook-react", // 2023-01-31
+    "how-to-write-unit-tests-in-react", // 2023-01-24
+    "learn-data-structures-and-algorithms", // 2023-02-03
+    "deboucing-in-react-autocomplete-example", // 2024-02-13
+    "rendering-patterns", // 2023-03-07
+    "how-to-build-a-react-app-different-ways", // 2023-03-14
+    "what-is-ci-cd", // 2023-04-08
+    THE_DEFINITIVE_GUIDE_TO_GIT_MERGE, // 2023-04-28
+    "how-to-parse-a-string-in-python", // 2023-05-04
+    "postgresql-indexing-strategies", // 2023-05-12
+    "responsive-design-best-practices", // 2023-05-31
+    GIT_REBASE_HANDBOOK, // 2023-07-03
+    "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
+    "node-js-basics", // 2023-07-26
+    A_BEGINNERS_GUIDE_TO_SQL, // 2023-09-05
+    "ultimate-beginners-python-course", // 2023-09-20
+    "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
+    "loop-through-arrays-javascript", // 2023-10-31
+    GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03
+    "avoid-prop-drilling-in-react", // 2023-11-07
+    "use-typescript-with-react", // 2023-11-15
+    "effective-error-handling-in-react-applications", // 2023-12-13
+  ]
+}
+
+
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    "free-react-course-2022", // 2022-01-11
+    "how-to-create-a-css-only-loader", // 2022-01-15
+    "section-divider-using-css", // 2022-02-26
+    DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
+    "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
+    "queue-data-structure-definition-and-java-example-code", // 2022-03-04
+    "test-a-react-app-with-jest-testing-library-and-cypress", // 2022-04-06
+    "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
+    "modules-in-javascript", // 2022-04-14
+    "object-oriented-programming-concepts-java", // 2022-04-19
+    "an-introduction-to-programming-paradigms", // 2022-05-03
+    "prototypes-and-inheritance-in-javascript", // 2022-05-04
+    "rest-api-design-best-practices-build-a-rest-api", // 2022-05-05
+    "data-structures-in-javascript-with-examples", // 2022-05-17
+    "crud-operations-explained", // 2022-06-16
+    "the-most-popular-coding-challenge-websites", // 2022-06-16
+    "binary-search-in-python-with-examples", // 2022-07-19
+    "best-practices-for-refactoring-code", // 2022-08-18
+    "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+    "introduction-to-linked-lists-in-python", // 2022-09-23
+    "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
+    "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
+    "stack-data-structure-solve-coding-challenges", // 2022-10-07
+    "how-apis-work", // 2022-12-05
+    // END: 2022
+  ]
+}
+
+
 export const template: SidebarInfoTemplate = {
   name: 'freecodecamp.org',
   faviconPath: 'https://cdn.freecodecamp.org/universal/favicons/favicon.ico',
   linksMap: new Map([
     [
+    "all", [
+      Y2025,
+      Y2024,
+      Y2023,
+      Y2022,
+      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
+      // END: 2016
+      "reduce-f47a7da511a9", // 2017-02-11
+      // END: 2017
+      "learn-react-course", // 2018-12-19
+      // END: 2018
+      "learn-the-basics-of-git-in-under-10-minutes", // 2019-01-06
+      "jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide", // 2018-03-13
+      "python-for-everybody", // 2019-05-02
+      "learn-data-structures-from-a-google-engineer", // 2019-09-23
+      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
+      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
+      // END: 2019
+      "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
+      "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
+      "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
+      "an-introduction-to-software-architecture-patterns", // 2022-07-27
+      "javascript-optional-chaining-explained", // 2020-08-26
+      "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
+      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
+      "save-the-day-with-git-reset", // 2020-09-29
+      "javascript-this-keyword-binding-rules", // 2020-10-23
+      "python-dictionary-guide", // 2020-10-27
+      "javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js", // 2020-11-10
+      "fetch-api-cheatsheet", // 2020-11-17
+      "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
+      GIT_INTERNALS_OBJECTS_BRANCHES_CREATE_REPO, // 2020-12-15
+      "javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js", // 2020-12-15
+      "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
+      "develop-a-reusable-ecommerce-platform", // 2020-12-31
+      // END: 2020
+      "how-to-deploy-your-front-end-app", // 2021-01-09
+      "jsx-in-react-introduction", // 2021-02-02
+      "what-is-an-api-and-how-to-test-it", // 2021-02-06
+      "css-positioning-and-flexbox-explained", // 2021-03-09
+      "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+      "learn-flexbox-build-5-layouts", // 2021-03-30
+      "free-8-hour-node-express-course", // 2021-04-01
+      "learn-css-background-properties", // 2021-04-03
+      "react-router-cheatsheet", // 2021-04-19
+      "learn-css-media-queries-by-building-projects", // 2021-04-27
+      "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
+      "how-to-make-api-calls-with-fetch", // 2021-06-03
+      "closures-in-javascript", // 2021-06-08
+      "understanding-sorting-algorithms", // 2021-06-18
+      "react-context-for-beginners", // 2021-07-22
+      "css-flexbox-and-grid-tutorial", // 2021-09-09
+      "learn-algorithms-and-data-structures-in-python", // 2021-09-18
+      "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
+      "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
+      // END: 2021
+    ]],[
     "swift", [
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
@@ -362,17 +1058,22 @@ export const template: SidebarInfoTemplate = {
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
       // END: 2019
       "javascript-optional-chaining-explained", // 2020-08-26
+      "javascript-this-keyword-binding-rules", // 2020-10-23
+      "javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js", // 2020-11-10
       "fetch-api-cheatsheet", // 2020-11-17
       "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
+      "javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js", // 2020-12-15
       // END: 2020js
       "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
       "how-to-make-api-calls-with-fetch", // 2021-06-03
       // END: 2021js
       "modules-in-javascript", // 2022-04-14
       "an-introduction-to-programming-paradigms", // 2022-05-03
+      "closures-in-javascript", // 2021-06-08
       "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
       // END: 2021js
       "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
+      "prototypes-and-inheritance-in-javascript", // 2022-05-04
       "data-structures-in-javascript-with-examples", // 2022-05-17
       // END: 2022js
       "loop-through-arrays-javascript", // 2023-10-31
@@ -417,6 +1118,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-better-variable-names", // 2024-12-05
       "how-to-write-code-thats-easy-to-read", // 2024-12-05
       "learn-how-math-can-make-your-code-better-by-coding-polyrhythms", // 2024-12-13
+      // END: 2024js
+      "how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals", // 2025-01-03
+      "create-christmas-icons-with-javascript-and-html", // 2025-01-09
+      // END: 2025js
       // END: js
     ]],[
     "ts", [
@@ -473,6 +1178,8 @@ export const template: SidebarInfoTemplate = {
       THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       "learn-game-development-with-javascript-and-kaplay", // 2024-12-20
+      // END: 2024js-node
+      "server-sent-events-vs-websockets", // 2025-01-04
       // END: js-node
     ]],[
     "js-react", [
@@ -500,6 +1207,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-react-server-components", // 2024-01-08
       "react-state-management", // 2024-02-06
       "master-react-by-building-25-projects", // 2024-02-07
+      "deboucing-in-react-autocomplete-example", // 2024-02-13
       "throttling-in-javascript", // 2024-05-01
       "how-to-build-a-realtime-chart-with-react-and-pusher", // 2024-05-02
       "react-usereducer-hook", // 2024-05-03
@@ -564,6 +1272,7 @@ export const template: SidebarInfoTemplate = {
       "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
       "nextjs-vs-react-differences", // 2024-12-05
       "how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react", // 2024-12-17
+      "mobile-app-development-with-react-native", // 2024-12-30
       // END: js-react
     ]],[
     "js-vue", [
@@ -600,6 +1309,10 @@ export const template: SidebarInfoTemplate = {
       "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
       "nextjs-vs-react-differences", // 2024-12-05
       "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
+      // END: 2024js-next
+      "optimize-nextjs-web-apps-for-better-performance", // 2025-01-02
+      "talk-to-databases-using-ai-build-a-sql-query-data-extractor", // 2025-01-09
+      // END: 2025js-next
       // END: js-next
     ]],[
     "js-nuxt", [
@@ -672,27 +1385,28 @@ export const template: SidebarInfoTemplate = {
       "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
     ]],[
     "py", [
+      "python-for-everybody", // 2019-05-02
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
       // END: 2019
       "python-dictionary-guide", // 2020-10-27
-      // END: 2020
+      // END: 2020py
       "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
       "learn-algorithms-and-data-structures-in-python", // 2021-09-18
       "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
-      // END: 2021
+      // END: 2021py
       "binary-search-in-python-with-examples", // 2022-07-19
       "best-practices-for-refactoring-code", // 2022-08-18
       "introduction-to-linked-lists-in-python", // 2022-09-23
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
       "stack-data-structure-solve-coding-challenges", // 2022-10-07
       GO_BEGINNERS_HANDBOOK, // 2022-10-19
-      // END: 2022
+      // END: 2022py
       "learn-data-structures-and-algorithms", // 2023-02-03
       "how-to-parse-a-string-in-python", // 2023-05-04
       "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
       "ultimate-beginners-python-course", // 2023-09-20
-      // END: 2023
+      // END: 2023py
       "how-to-use-oop-in-python", // 2024-04-24
       "how-to-use-defaultdict-python", // 2024-05-01
       "empire-state-building-run-up-analysis-with-python", // 2024-05-08
@@ -738,6 +1452,11 @@ export const template: SidebarInfoTemplate = {
       LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
       "build-a-web-application-security-scanner-with-python", // 2024-12-13
       "build-a-honeypot-with-python", // 2024-12-20
+      // END: 2024py
+      "build-a-real-time-network-traffic-dashboard-with-python-and-streamlit", // 2025-01-04
+      "svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning", // 2025-01-04
+      "what-is-semantic-matching-find-words-in-a-document-using-nlp", // 2025-01-09
+      // END: 2025py
       // END: py
     ]],[
     "py-django", [
@@ -816,6 +1535,8 @@ export const template: SidebarInfoTemplate = {
       "key-golang-concepts-for-beginner-go-devs", // 2024-11-14
       "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
       // END: 2024go
+      "what-is-the-language-server-protocol-easier-code-editing-across-languages", // 2025-01-09
+      // END: 2025go
       // END: go
     ]],[
     "go-grafana", [
@@ -873,6 +1594,13 @@ export const template: SidebarInfoTemplate = {
       // END: erl-rabbitmq
     ]],[
     "sh", [
+      "jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide", // 2018-03-13
+      // END: 2018sh
+      // END: 2019sh
+      // END: 2020sh
+      // END: 2021sh
+      // END: 2022sh
+      // END: 2023sh
       "linux-terminal-piping-and-redirection-guide", //2024-04-26
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
@@ -881,6 +1609,16 @@ export const template: SidebarInfoTemplate = {
       // END: sh
     ]],[
     "git", [
+      "learn-the-basics-of-git-in-under-10-minutes", // 2019-01-06
+      // END: 2019git
+      GIT_INTERNALS_OBJECTS_BRANCHES_CREATE_REPO, // 2020-12-15
+      "save-the-day-with-git-reset", // 2020-09-29
+      // END: 2020git
+      // END: 2021git
+      // END: 2022git
+      THE_DEFINITIVE_GUIDE_TO_GIT_MERGE, // 2023-04-28
+      GIT_REBASE_HANDBOOK, // 2023-07-03
+  // END: 2023git
       GITTING_THINGS_DONE_BOOK, // 2024-01-08
       "git-checkout-remote-branch-how-to-fetch-and-list-remote-branches", // 2024-04-30
       "how-to-use-git-submodules", // 2024-05-07
@@ -926,6 +1664,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
       "how-to-set-up-automated-github-workflows-for-python-react-apps", // 2024-11-08
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+      "how-to-run-integration-tests-with-github-service-containers", // 2025-01-08
       // END: github
     ]],[
     "gitlab", [
@@ -948,6 +1687,10 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "linux-fedora", [
       "free-linux-crash-course-with-labs", // 2024-06-13
+      // END: 2024linux-fedora
+      "guide-to-rhel-linux-basics", // 2025-01-11
+      // END: 2025linux-fedora
+      // END: linux-fedora
     ]],[
     "docker", [
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
@@ -1030,6 +1773,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
+      // END: 2024terraform
+      "a-beginners-guide-to-terraform-infrastructure-as-code-in-practice", // 2025-01-04
       // END: terraform
     ]],[
     "travis-ci", [
@@ -1060,6 +1805,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-reverse-engineer-a-website", // 2024-11-14
       "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
       "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
+      // END: 2024security
+      "how-to-discover-hidden-subdomains-as-an-ethical-hacker", // 2025-01-08
       // END: security
     ]],[
     "gatling", [
@@ -1078,7 +1825,11 @@ export const template: SidebarInfoTemplate = {
       // END: nmap
     ]],[
     "data-science", [
+      A_BEGINNERS_GUIDE_TO_SQL, // 2023-09-05
+      // END: 2023
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
+      // END: 2024data-science
+      // END: data-science
     ]],[
     "mysql", [
       "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
@@ -1155,11 +1906,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "system-design", [
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
-      // END: 2020
+      // END: 2020system-design
       "an-introduction-to-software-architecture-patterns", // 2022-07-27
-      // END: 2022
+      // END: 2022system-design
       "rendering-patterns", // 2023-03-07
-      // END: 2023
+      // END: 2023system-design
       "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
       "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
       "auto-scaling-and-load-balancing", // 2024-06-17
@@ -1214,6 +1965,8 @@ export const template: SidebarInfoTemplate = {
       "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
       "learn-generative-ai-for-developers", // 2024-11-01
       "learn-the-foundations-of-machine-learning-and-artificial-intelligence", // 2024-11-08
+      "learn-generative-ai-in-23-hours", // 2025-01-09
+      "what-is-semantic-matching-find-words-in-a-document-using-nlp", // 2025-01-10
       // END: llm
     ]],[
     "openai", [
@@ -1275,6 +2028,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022coen
       "learn-about-operating-systems-in-depth", // 2024-08-06
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
+      "how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals", // 2025-01-03
       // END: coen
     ]],[
     "career", [
@@ -1282,7 +2036,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-be-a-productive-developer", // 2024-09-13
       "become-an-open-source-master", // 2024-11-05
       "what-to-do-if-you-dont-get-into-outreachy", // 2024-12-19
-      "how-to-become-a-web-developer-beginners-guide", // 2024-12-12
+      "how-to-become-a-web-developer-beginners-guide", // 2024-12-23
       // END: career
     ]],[
     "hw", [
@@ -1309,560 +2063,6 @@ export const template: SidebarInfoTemplate = {
       "how-apis-work", // 2022-12-05
       // END: 2022api
       // END: api
-    ]],[
-    "all", [
-      "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
-      // END: 2016
-      "reduce-f47a7da511a9", // 2017-02-11
-      // END: 2017
-      "learn-react-course", // 2018-12-19
-      // END: 2018
-      "learn-data-structures-from-a-google-engineer", // 2019-09-23
-      "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
-      "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
-      // END: 2019
-      "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
-      "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
-      "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
-      "an-introduction-to-software-architecture-patterns", // 2022-07-27
-      "javascript-optional-chaining-explained", // 2020-08-26
-      "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
-      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
-      "python-dictionary-guide", // 2020-10-27
-      "fetch-api-cheatsheet", // 2020-11-17
-      "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
-      "osi-model-networking-layers-explained-in-plain-english", // 2020-12-22
-      "develop-a-reusable-ecommerce-platform", // 2020-12-31
-      // END: 2020
-      "how-to-deploy-your-front-end-app", // 2021-01-09
-      "jsx-in-react-introduction", // 2021-02-02
-      "what-is-an-api-and-how-to-test-it", // 2021-02-06
-      "css-positioning-and-flexbox-explained", // 2021-03-09
-      "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
-      "learn-flexbox-build-5-layouts", // 2021-03-30
-      "free-8-hour-node-express-course", // 2021-04-01
-      "learn-css-background-properties", // 2021-04-03
-      "react-router-cheatsheet", // 2021-04-19
-      "learn-css-media-queries-by-building-projects", // 2021-04-27
-      "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
-      "how-to-make-api-calls-with-fetch", // 2021-06-03
-      "understanding-sorting-algorithms", // 2021-06-18
-      "react-context-for-beginners", // 2021-07-22
-      "css-flexbox-and-grid-tutorial", // 2021-09-09
-      "learn-algorithms-and-data-structures-in-python", // 2021-09-18
-      "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
-      "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
-      // END: 2021
-      "free-react-course-2022", // 2022-01-11
-      "how-to-create-a-css-only-loader", // 2022-01-15
-      "section-divider-using-css", // 2022-02-26
-      DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
-      "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
-      "queue-data-structure-definition-and-java-example-code", // 2022-03-04
-      "test-a-react-app-with-jest-testing-library-and-cypress", // 2022-04-06
-      "learn-crud-operations-in-javascript-by-building-todo-app", // 2022-04-14
-      "modules-in-javascript", // 2022-04-14
-      "object-oriented-programming-concepts-java", // 2022-04-19
-      "an-introduction-to-programming-paradigms", // 2022-05-03
-      "rest-api-design-best-practices-build-a-rest-api", // 2022-05-05
-      "data-structures-in-javascript-with-examples", // 2022-05-17
-      "crud-operations-explained", // 2022-06-16
-      "the-most-popular-coding-challenge-websites", // 2022-06-16
-      "binary-search-in-python-with-examples", // 2022-07-19
-      "best-practices-for-refactoring-code", // 2022-08-18
-      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
-      "introduction-to-linked-lists-in-python", // 2022-09-23
-      "learn-html-and-css-from-the-ceo-of-scrimba", // 2022-09-25
-      "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
-      "stack-data-structure-solve-coding-challenges", // 2022-10-07
-      "how-apis-work", // 2022-12-05
-      // END: 2022
-      // START: 2023
-      "perfect-html-input", // 2023-01-05
-      GITTING_THINGS_DONE_BOOK,  // 2023-01-08
-      "usereducer-hook-react", // 2023-01-31
-      "how-to-write-unit-tests-in-react", // 2023-01-24
-      "learn-data-structures-and-algorithms", // 2023-02-03
-      "rendering-patterns", // 2023-03-07
-      "how-to-build-a-react-app-different-ways", // 2023-03-14
-      "what-is-ci-cd", // 2023-04-08
-      "how-to-parse-a-string-in-python", // 2023-05-04
-      "postgresql-indexing-strategies", // 2023-05-12
-      "responsive-design-best-practices", // 2023-05-31
-      "check-python-version-how-to-check-py-in-mac-windows-and-linux", // 2023-07-07
-      "node-js-basics", // 2023-07-26
-      "ultimate-beginners-python-course", // 2023-09-20
-      "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
-      "loop-through-arrays-javascript", // 2023-10-31
-      GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2, // 2023-11-03
-      "avoid-prop-drilling-in-react", // 2023-11-07
-      "use-typescript-with-react", // 2023-11-15
-      "effective-error-handling-in-react-applications", // 2023-12-13
-      // END: 2023
-      "how-to-use-react-server-components", // 2024-01-08
-      "set-up-authentication-in-apps-with-supabase", // 2024-01-29
-      "react-state-management", // 2024-02-06
-      "master-react-by-building-25-projects", // 2024-02-07
-      "what-is-dead-zone-in-javascript", // 2024-03-28
-      "how-to-add-media-to-your-html-email-template", // 2024-04-23
-      "how-to-use-oop-in-python", // 2024-04-24
-      "procedural-macros-in-rust", // 2024-04-24
-      "php-jwt-authentication-implementation", // 2024-04-24
-      "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
-      "mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos", //2024-04-25
-      "how-to-develop-a-flutter-app-from-scratch", // 2024-04-26
-      "linux-terminal-piping-and-redirection-guide", //2024-04-26
-      "working-on-a-multiple-library-project-in-android", // 2024-04-27
-      "how-to-build-a-login-page-with-material-tailwind-framework", // 2024-04-29
-      "how-to-create-interactive-terminal-based-portfolio", // 2024-04-29
-      "git-checkout-remote-branch-how-to-fetch-and-list-remote-branches", // 2024-04-30
-      "how-to-use-oop-in-c-sharp", // 2024-05-01
-      "throttling-in-javascript", // 2024-05-01
-      "create-personalized-github-profile-page", // 2024-05-01
-      "how-to-use-defaultdict-python", // 2024-05-01
-      "higher-order-functions-explained", // 2024-05-02
-      "how-to-build-a-realtime-chart-with-react-and-pusher", // 2024-05-02
-      "run-sql-like-queries-on-cplusplus-files", // 2024-05-02
-      "react-usereducer-hook", // 2024-05-03
-      "what-is-amazon-ec2-auto-scaling", // 2024-05-06
-      "how-to-use-react-devtools", // 2024-05-06
-      "understand-javascript-closures", // 2024-05-07
-      "how-js-string-concatenation-works", // 2024-05-07
-      "how-to-use-git-submodules", // 2024-05-07
-      "empire-state-building-run-up-analysis-with-python", // 2024-05-08
-      "oauth2-resourceserver-with-spring-security", // 2024-05-08
-      "react-native-splash-screen", // 2024-05-08
-      "how-to-run-postgres-in-kubernetes",  // 2024-05-08
-      "php-array-handbook", // 2024-05-08
-      "how-to-install-python-on-a-mac", // 2024-05-09
-      "javascript-remove-char-from-string", // 2024-05-09
-      "how-to-create-objects-in-javascript",  // 2024-05-10
-      "how-to-handle-concurrency-in-go", // 2024-05-10
-      "build-a-qr-code-generator-using-nodejs-nextjs-azure-blob-storage", // 2024-05-10
-      "how-to-create-a-react-chatbot", // 2024-05-10
-      "how-to-handle-events-in-react-19", // 2024-05-13
-      "how-to-store-data-locally-in-react-native-expo",  // 2024-05-13
-      "zustand-vs-usestate-how-to-manage-state-in-react", // 2024-05-15
-      "how-to-make-your-flutter-package-privacy-manifest-compatible", // 2024-05-20
-      "how-to-create-a-rest-api-without-a-server", // 2024-05-20
-      "how-to-become-an-open-source-maintainer", // 2024-05-20
-      "javascript-class-handbook", // 2024-05-20
-      "how-to-style-react-components", // 2024-05-22
-      JS_INTERVIEW_PREP_HANDBOOK, // 2024-05-22
-      "how-to-secure-your-django-app", // 2024-05-22
-      "pass-the-aws-certified-solutions-architect-associate-certification", // 2024-05-23
-      "minimum-viable-product-between-an-idea-and-the-product", // 2024-05-24
-      "build-crud-operations-with-dotnet-core-handbook", // 2024-05-24
-      "how-to-manipulate-strings-in-javascript", // 2024-05-24
-      "a-guide-to-the-node-js-event-loop", // 2024-05-28
-      "react-19-new-hooks-explained-with-examples", // 2024-05-28
-      "build-an-eks-cluster-using-aws-local-zones-with-aws-cdk", // 2024-05-28
-      "linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai", // 2024-05-28
-      "rust-tutorial-build-a-json-parse", // 2024-05-29
-      "how-do-numerical-conversions-work", // 2024-05-29
-      "react-context-api-explained-with-examples", // 2024-05-30
-      "complete-c-programming-course-from-dr-chuck", // 2024-05-30
-      "learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go", // 2024-05-30
-      "javascript-prototypal-inheritance", // 2024-05-31
-      "how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126", // 2024-05-31
-      "automated-unit-testing-with-testgen-llm-and-cover-agent", // 2024-06-02
-      "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
-      "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
-      "how-to-build-a-rating-component-with-the-react-compound-component-pattern", // 2024-06-03
-      BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
-      APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK, // 2024-06-04
-      "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
-      "build-a-youtube-clone-with-flutter-firebase-and-riverpod", // 2024-06-04
-      "python-coding-challenges-for-beginners", // 2024-06-04
-      "linear-algebra-roadmap", // 2024-06-04
-      "the-javascript-this-keyword-explained-with-examples", // 2024-06-05
-      "learn-how-to-build-a-decentralized-file-storage-system-with-go", // 2024-06-05
-      "master-the-azure-devops-engineer-expert-certification-az-400", // 2024-06-06
-      "real-time-chat-with-go-fiber-htmx", // 2024-06-06
-      "weakmap-and-weakset-in-javascript", // 2024-06-07
-      "how-to-create-notice-blocks-in-markdown", // 2024-06-10
-      "unit-testing-in-python", // 2024-06-10
-      "how-to-fix-python-installation-errors-on-mac", // 2024-06-10
-      "learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence", // 2024-06-11
-      "learn-high-level-system-design-by-building-a-youtube-clone", // 2024-06-11
-      "retrieval-augmented-generation-rag-handbook", // 2024-06-11
-      "learn-threejs-by-building-five-projects", // 2024-06-12
-      "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
-      "free-linux-crash-course-with-labs", // 2024-06-13
-      "lambda-functions-in-python", // 2024-06-14
-      "how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom", // 2024-06-17
-      "how-the-black-scholes-equation-works-python-examples", // 2024-06-17
-      "how-to-handle-keyerror-exceptions-in-python", // 2024-06-17
-      "auto-scaling-and-load-balancing", // 2024-06-17
-      "first-class-functions-and-closures-in-python", // 2024-06-17
-      "how-to-enhance-embedded-links-in-react-with-microlinks", // 2024-06-18
-      "a-guide-to-object-oriented-programming-principles", // 2024-06-18
-      "how-to-host-static-sites-on-azure-static-web-apps", // 2024-06-18
-      "how-to-improve-your-digital-security-and-privacy", // 2024-06-18
-      "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
-      "what-is-trunk-based-development", // 2024-06-18
-      "building-intelligent-apps-with-mistral-ai", // 2024-06-18
-      "a-non-technical-introduction-to-generative-ai", // 2024-06-18
-      "decorators-in-python-tutorial", // 2024-06-18
-      "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
-      "for-else-loop-in-python", // 2024-06-19
-      "how-to-use-time-to-live-in-event-driven-architecture", // 2024-06-19
-      "best-practices-for-accessibility-in-web-development", // 2024-06-20
-      "learn-to-create-a-3d-rpg-game-with-godot", // 2024-06-20
-      "generative-ai-handbook", // 2024-06-20
-      "what-are-controlled-and-uncontrolled-components-in-react", // 2024-06-21
-      "introduction-to-solid-principles", // 2024-06-24
-      "mastering-vim-your-guide-to-efficient-text-editing", // 2024-06-24
-      "when-to-use-npm-packages", // 2024-06-24
-      "breakpoints-for-responsive-web-design", // 2024-06-24
-      "react-how-to-validate-user-input", // 2024-06-24
-      "create-an-ml-model-with-azure-machine-learning-designer", // 2024-06-25
-      "whats-new-in-react-19", // 2024-06-25
-      "scope-closures-and-hoisting-in-javascript", // 2024-06-26
-      "pyspark-for-beginners", // 2024-06-26
-      "how-to-create-database-migrations-in-go", // 2024-06-26
-      "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
-      "migrate-from-play-core-library", // 2024-06-26
-      "how-to-change-background-color-with-javascript", // 2024-06-28
-      "mastering-shadcn-ui-components", // 2024-06-28
-      "media-queries-vs-container-queries", // 2024-06-28
-      "infinite-scrolling-in-react", // 2024-07-01
-      "go-for-absolute-beginners", // 2024-07-01
-      "improve-your-javascript-projects-with-build-tools", // 2024-07-02
-      "excel-vs-google-sheets-tables", // 2024-07-02
-      "react-19-actions-simpliy-form-submission-and-loading-states", // 2024-07-02
-      "how-data-flows-in-redux", // 2024-07-03
-      "build-a-meditation-app-with-react-native-expo-router", // 2024-07-03
-      "how-to-use-callback-functions-in-javascript", // 2024-07-03
-      "upload-large-files-with-aws", // 2024-07-08
-      "what-is-a-markov-chain", // 2024-07-08
-      "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
-      "how-to-integrate-spring-boot-with-gatling", // 2024-07-08
-      "knowledge-distillation-in-deep-learning-models", // 2024-07-09
-      "how-to-use-pandoc", // 2024-07-09
-      "learn-typescript-with-interactive-lessons", // 2024-07-09
-      "prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification", // 2024-07-09
-      "improve-user-experience-with-optimistic-ui-swr", // 2024-07-09
-      "use-python-sdk-to-build-a-web-scraper", // 2024-07-10
-      "build-a-counter-button-with-react", // 2024-07-10
-      "nextjs-clerk-neon-fullstack-development", // 2024-07-10
-      "how-to-send-http-requests-using-javascript", // 2024-07-10
-      "how-to-use-python-generators", // 2024-07-10
-      "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
-      "more-secure-authentication-from-passwords-to-passkeys", // 2024-07-11
-      "how-to-deploy-a-web-app", // 2024-07-11
-      "learn-asynchronous-javascript", // 2024-07-11
-      "what-is-trpc", // 2024-07-11
-      "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
-      "generics-in-java", // 2024-07-12
-      "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
-      "difference-between-usememo-and-usecallback-hooks", // 2024-07-15
-      "how-to-use-linq", // 2024-07-15
-      "getting-started-in-cybersecurity", // 2024-07-16
-      "multithreading-for-beginners", // 2024-07-16
-      "what-are-monte-carlo-methods", // 2024-07-16
-      "how-to-deploy-node-js-app-on-azure", // 2024-07-17
-      "server-side-rendering-in-next-js-for-improved-seo", // 2024-07-17
-      "create-24-css-projects", // 2024-07-17
-      "pass-the-github-advanced-security-certification-exam", // 2024-07-17
-      "use-react-router-to-build-single-page-applications", // 2024-07-18
-      "learn-javascript-reactivity-build-signals-from-scratch", // 2024-07-18
-      "next-js-performance-optimization", // 2024-07-19
-      "migrate-a-flutter-application-from-getit-to-bloc", // 2024-07-19
-      "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
-      "how-to-use-enhanced-enums-in-dart", // 2024-07-22
-      "react-context-api-tutorial-examples", // 2024-07-22
-      "build-a-bitcoin-to-usd-calculator", // 2024-07-22
-      "comparable-vs-comparator-explained-in-java", // 2024-07-23
-      "how-to-build-a-quantum-ai-model", // 2024-07-23
-      "how-to-build-an-interpretable-ai-deep-learning-model", // 2024-07-23
-      "build-a-sticky-notes-app-with-react-and-appwrite", // 2024-07-25
-      "learn-system-design-principles", // 2024-07-25
-      "what-is-recursion", // 2024-07-25
-      "generative-models-for-data-augmentation", // 2024-07-26
-      "creational-design-patterns-in-java", // 2024-07-26
-      "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
-      "use-local-storage-in-blazor-apps", // 2024-07-29
-      "using-entity-framework-core-with-mongodb", // 2024-07-29
-      "prompt-engineering-basics", // 2024-07-29
-      "learn-c-sharp-for-unity-in-spanish", // 2024-07-31
-      "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
-      "learn-rag-fundamentals-and-advanced-techniques", // 2024-08-01
-      "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
-      "how-to-set-up-grafana-on-ec2", // 2024-08-02
-      "encoding-and-decoding-data-in-golang", // 2024-08-05
-      "how-to-build-an-event-app-with-node-js", // 2024-08-05
-      "how-to-index-nextjs-pages-with-indexnow", // 2024-08-06
-      "basic-control-theory-with-python", // 2024-08-06
-      "learn-about-operating-systems-in-depth", // 2024-08-06
-      "react-common-mistakes", // 2024-08-06
-      "what-is-a-kalman-filter-with-python-code-examples", // 2024-08-07
-      "create-a-pc-game-using-javascript", // 2024-08-07
-      "host-your-first-project-on-github", // 2024-08-08
-      "how-to-build-an-ai-model-for-predicting-data-with-python", // 2024-08-08
-      "typescript-for-beginners-guide", // 2024-08-08
-      "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
-      "relative-vs-dynamic-routing-in-react", // 2024-08-12
-      "ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown", // 2024-08-12
-      "how-to-match-parentheses-in-javascript-without-using-regex", // 2024-08-12
-      "get-mongodb-url-to-connect-to-a-nodejs-application", // 2024-08-12
-      "simplify-aws-multi-account-management", // 2024-08-13
-      "what-is-a-component-library-when-to-build-your-own", // 2024-08-13
-      "merge-word-documents-in-python", // 2024-08-13
-      "graceful-shutdowns-k8s-go", // 2024-08-13
-      "how-to-implement-message-queues-in-your-backend-applications", // 2024-08-14
-      "learn-ml5js-for-machine-learning-in-javascript", // 2024-08-14
-      "integration-tests-using-testcontainers", // 2024-08-14
-      "create-color-picker-using-html-css-and-javascript", // 2024-08-15
-      "how-asynchronous-programming-works-in-rust", // 2024-08-15
-      "a-beginners-guide-to-large-language-models", // 2024-08-15
-      "vm-data-protection-best-practices", // 2024-08-16
-      "variables-and-constants-in-go", // 2024-08-19
-      "how-to-use-variables-and-data-types-in-javascript", // 2024-08-19
-      "how-to-read-and-write-files-with-nodejs", // 2024-08-19
-      "how-to-secure-a-nextjs-ai-application-deployed-on-vercel", // 2024-08-19
-      "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
-      "master-video-editing-with-davinci-resolve", // 2024-08-20
-      "git-cheat-sheet-helpful-git-commands-with-examples", // 2024-08-20
-      "how-to-effectively-manage-unique-identifiers-at-scale", // 2024-08-20
-      "how-to-build-good-coding-habits", // 2024-08-20
-      "what-is-css-subgrid", // 2024-08-21
-      "how-to-create-software-architecture-diagrams-using-the-c4-mode", // 2024-08-21
-      "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
-      "learn-to-use-the-gemini-ai-multimodal-model", // 2024-08-22
-      "create-a-macos-app-with-react-native", // 2024-08-22
-      "how-to-future-proof-your-software-engineering-career-for-the-age-of-agi", // 2024-08-23
-      "how-to-blend-images-in-rust-using-pixel-math", // 2024-08-27
-      "how-to-create-interactive-html-prototypes", // 2024-08-27
-      "how-to-build-an-accessible-modal-with-example-code", // 2024-08-27
-      "learn-java-testing-with-selenium", // 2024-08-27
-      "excel-for-data-visualization", // 2024-08-27
-      "react-compiler-complete-guide-react-19", // 2024-08-27
-      "how-to-handle-file-uploads-in-nestjs-with-multer", // 2024-08-28
-      "how-to-implement-server-sent-events-in-go", // 2024-08-28
-      "how-to-use-gpt-to-analyze-large-datasets", // 2024-08-28
-      "build-a-shopping-cart-backend-with-spring-boot-and-spring-security", // 2024-08-28
-      "design-first-vs-logic-first-approach", // 2024-08-29
-      "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
-      "skills-you-need-to-become-a-backend-developer-roadmap", // 2024-09-03
-      "what-is-rate-limiting-web-apis", // 2024-09-04
-      "master-multimodal-data-analysis-with-llms-and-python", // 2024-09-04
-      "learn-the-mern-stack-by-building-a-store", // 2024-09-04
-      "what-is-speedy-web-compiler", // 2024-09-05
-      "how-to-manage-your-open-source-project-with-github", // 2024-09-05
-      "what-is-cache-poisoning-and-how-to-avoid-it", // 2024-09-05
-      "what-are-lifetimes-in-rust-explained-with-code-examples", // 2024-09-06
-      "how-to-use-html-attributes-to-make-your-websites-and-apps-more-accessible", // 2024-09-06
-      "how-the-comma-ok-idiom-and-package-system-work-in-go", // 2024-09-09
-      "essential-javascript-concepts-before-react", // 2024-09-10
-      "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
-      "golang-statically-and-dynamically-linked-go-binaries", // 2024-09-10
-      "implement-api-rate-limiting-in-strapi", // 2024-09-10
-      "what-are-type-predicates-in-typescript", // 2024-09-10
-      HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK, // 2024-09-10
-      "shodan-what-to-know-about-the-internets-most-dangerous-search-engine", // 2024-09-10
-      "pass-the-azure-ai-engineer-associate-certification-ai-102", // 2024-09-10
-      "how-event-handling-works-in-vue-3-guide-for-devs", // 2024-09-11
-      "how-to-build-an-expense-tracker-with-html-css-and-javascript", // 2024-09-11
-      "how-to-use-chart-js-for-interactive-data-visualization", // 2024-09-12
-      "how-to-be-a-productive-developer", // 2024-09-13
-      "use-the-javascript-selection-api-to-build-a-rich-text-editor", // 2024-09-16
-      "javascript-timer-how-to-set-a-timer-function-in-js", // 2024-09-16
-      "how-to-set-up-eslint-prettier-stylelint-and-lint-staged-in-nextjs", // 2024-09-16
-      "how-to-handle-side-effects-in-jest", // 2024-09-16
-      "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
-      "how-to-use-css-to-improve-web-accessibility", // 2024-09-18
-      "learn-how-to-secure-api-servers", // 2024-09-19
-      "master-object-oriented-programming-and-design-patterns-in-c", // 2024-09-19
-      "how-to-create-a-nextjs-pwa", // 2024-09-20,
-      "ecs-monitoring-explained-with-examples", // 2024-09-23
-      "how-to-get-a-memory-map-of-your-system-using-bios-interrupts", // 2024-09-23
-      "ai-chatbot-with-spring-react-docker", // 2024-09-23
-      "how-to-write-benchmark-tests-for-your-golang-functions", // 2024-09-23
-      "boost-web-performance-with-prefetching", // 2024-09-23
-      "create-react-reusable-modal-component", // 2024-09-24
-      "learn-cuda-programming", // 2024-09-24
-      "how-to-work-with-sql-databases-in-go", // 2024-09-24
-      "flutter-streams-and-services", // 2024-09-25
-      "learn-react-hooks-with-example-code", // 2024-09-25
-      "tools-for-code-reuse", // 2024-09-25
-      "end-to-end-machine-learning-course-project", // 2024-09-26
-      "pass-the-microsoft-365-certified-fundamentals-ms-900-exam", // 2024-09-26
-      "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
-      "how-to-start-building-projects-with-llms", // 2024-09-30
-      "new-react-19-features-you-should-know-with-code-examples", // 2024-09-30
-      "improve-your-data-science-skills-by-solving-kaggle-challenges", // 2024-09-30
-      "learn-aspnet-core-mvc-with-net-9", // 2024-10-02
-      "new-javascript-array-methods-to-help-you-write-better-cleaner-code", // 2024-10-02
-      "authenticate-react-app-using-firebase", // 2024-10-02
-      "integrate-wordpress-with-nextjs", // 2024-10-02
-      WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK, // 2024-10-02
-      "how-to-use-tooltips-in-jetpack-compose", // 2024-10-02
-      LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES, // 2024-10-02     
-      "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
-      "how-to-run-database-migrations-in-kubernetes", // 2024-10-02
-      "how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs", // 2024-10-03
-      "the-power-of-wordlists-why-every-ethical-hacker-needs-one", // 2024-10-03
-      "improve-front-end-development-workflow-with-zenui-library", // 2024-10-03
-      "how-to-create-linux-device-drivers", // 2024-10-03
-      "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
-      "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
-      "react-best-practices-ever-developer-should-know", // 2024-10-03
-      "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
-      "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
-      "hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts", // 2024-10-03
-      "how-to-design-and-develop-web-apis-essential-guidelines", // 2024-10-07
-      "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
-      "create-desktop-apps-with-electron-react-and-typescript", // 2024-10-08
-      "getting-started-with-matplotlib", // 2024-10-08
-      "improve-hacking-skills-by-playing-wargames", // 2024-10-08
-      "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
-      "javascript-refresher-for-react-beginners", // 2024-10-09
-      "key-cybersecurity-concepts-for-career", // 2024-10-09
-      "build-a-documentation-site-using-react-and-docusaraus", // 2024-10-10
-      "essential-secure-design-principles-for-developers", // 2024-10-10
-      "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
-      "learn-databases-in-depth", // 2024-10-10
-      "python-zip-function-explained-with-examples", // 2024-10-10
-      "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
-      REACT_INTERVIEW_PREP_HANDBOOK, // 2024-10-11
-      "how-to-use-git-stash-to-manage-code", // 2024-10-11
-      "large-language-models-for-developers-and-businesses", // 2024-10-12
-      "build-a-countdown-timer-with-react-step-by-step", // 2024-10-14
-      "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
-      "how-cdns-improve-performance-in-front-end-projects", // 2024-10-15
-      "binary-exponentiation-algorithm-explained-with-examples", // 2024-10-15
-      "how-to-design-and-build-ui-components-with-ai", // 2024-10-15
-      "rounded-and-curved-edge-css-shapes", // 2024-10-15
-      "aws-security-specialty-certification-study-tips", // 2024-10-16
-      "how-to-merge-word-files-using-nodejs", // 2024-10-16
-      "how-to-self-host-a-container-registry", // 2024-10-16
-      "microsoft-excel-keyboard-shortcuts", // 2024-10-16
-      "build-a-full-stack-book-store-app-using-react-node-mongodb", // 2024-10-16
-      "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
-      "how-to-maintain-soc-2-compliance", // 2024-10-16
-      "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
-      "code-a-sonic-infinite-runner-game-in-javascript", // 2024-10-18
-      "beginners-guide-to-cloud-computing-with-aws", // 2024-10-18
-      "how-to-perform-a-web-accessibility-audit", // 2024-10-19
-      "llm-powered-apps-langchain-vs-llamaindex-vs-nim", // 2024-10-22
-      "conditional-statements-in-csharp-if-switch-and-more", // 2024-10-22
-      "connect-to-your-ec2-instance-using-mobaxterm", // 2024-10-22
-      "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
-      "learn-to-use-claude-ai", // 2024-10-23
-      "how-to-pass-additional-arguments-to-nextjs-server-actions", // 2024-10-23
-      "build-chat-app-with-stomp-and-react", // 2024-10-23
-      "build-your-own-wheel-of-names", // 2024-10-24
-      "filling-css-loaders", // 2024-10-24
-      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
-      "how-to-use-skeleton-screens-to-improve-perceived-website-performance", // 2024-10-24
-      "build-a-simple-secure-chat-system-with-netcat", // 2024-10-24
-      "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
-      "how-to-secure-javascript-applications", // 2024-10-24
-      "build-crud-app-react-and-convex", // 2024-10-24
-      "what-are-the-solid-principles-in-csharp", // 2024-10-25
-      "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
-      "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
-      "code-a-full-stack-ai-powered-email-saas", // 2024-10-25
-      "fine-grained-authorization-in-java-and-springboot", // 2024-10-25
-      "object-oriented-programming-in-python-interview-questions", // 2024-10-25
-      "write-cleaner-javascript-code-with-the-ternary-operator", // 2024-10-26
-      "how-to-deploy-your-project-on-vercel", // 2024-10-26
-      "google-dorking-how-to-find-hidden-information-on-the-web", // 2024-10-26
-      "how-message-queues-make-distributed-systems-more-reliable", // 2024-10-28
-      "tools-for-open-source-intelligence-gathering", // 2024-10-29
-      "improve-and-restructure-codebase-with-ai-tools", // 2024-10-29
-      "merge-multiple-google-docs-with-apps-script-or-google-docs-api", // 2024-10-30
-      "smart-pointers-in-rust-with-code-examples", // 2024-10-30
-      "how-to-use-developer-tools-to-debug-javascript-in-the-browser", // 2024-10-30
-      "remove-all-saved-posts-from-facebook-using-javascript", // 2024-10-30
-      "how-to-write-extension-methods-in-csharp", // 2024-10-30
-      "learn-generative-ai-for-developers", // 2024-11-01
-      "top-cybersecurity-certifications-for-devs", // 2024-11-01
-      "how-to-handle-complex-use-cases-in-api-specs", // 2024-11-04
-      "less-common-html-elements-and-how-to-use-them", // 2024-11-05
-      "become-an-open-source-master", // 2024-11-05
-      "how-to-fuzz-test-golang-http-services", // 2024-11-05
-      "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
-      "how-to-launch-an-ec2-instance-and-a-web-server-using-httpd", // 2024-11-05
-      "how-to-integrate-tailwind-with-django", // 2024-11-05
-      "how-to-write-clean-code-tips-for-developers", // 2024-11-06
-      "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
-      "how-to-set-up-automated-github-workflows-for-python-react-apps", // 2024-11-08
-      "learn-the-foundations-of-machine-learning-and-artificial-intelligence", // 2024-11-08
-      "build-your-own-rag-chatbot-with-javascript", // 2024-11-08
-      "set-semantic-versioning-for-net", // 2024-11-08
-      "useful-nmap-scripts-for-ethical-hackers", // 2024-11-08
-      "host-a-website-on-aws-ec2-using-a-css-template", // 2024-11-08
-      "how-to-simplify-your-git-commands-with-git-aliases", // 2024-11-12
-      "how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices", // 2024-11-13
-      "how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc", // 2024-11-13
-      "key-golang-concepts-for-beginner-go-devs", // 2024-11-13
-      "build-deploy-a-full-stack-dating-app", // 2024-11-13
-      "how-to-reverse-engineer-a-website", // 2024-11-14
-      "how-javascripts-temporal-proposal-will-change-datetime-functions", // 2024-11-14
-      "how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app", // 2024-11-14
-      "how-to-use-design-patterns-in-java-with-spring-boot", // 2024-11-15
-      "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
-      "how-to-support-multiple-languages-in-flutter", // 2024-11-15
-      "what-happens-when-you-visit-a-website", // 2024-11-16
-      "build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices", // 2024-11-16
-      "how-to-benchmark-your-code-in-csharp", // 2024-11-19
-      "how-to-implement-event-driven-data-processing", // 2024-11-19
-      "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
-      "create-meme-generator-using-html-canvas", // 2024-11-20
-      "build-rate-limiting-system-using-redis-and-lua", // 2024-11-20
-      "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
-      "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
-      "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
-      "how-to-address-ios-accessibility-challenges-using-swiftui", // 2024-11-20
-      "learn-redux-and-redux-toolkit-for-state-management", // 2024-11-20
-      "zig-zag-css-loaders", // 2024-11-21
-      LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK, // 2024-11-22
-      "handling-forms-nextjs-server-actions-zod", // 2024-11-23
-      "rbac-community-dashboard-with-nuxt", // 2024-11-23
-      "an-introduction-to-docker-and-containers-for-beginners", // 2024-11-26
-      "simplify-aws-multi-account-management-with-terraform-and-gitops", // 2024-11-26
-      "local-ai-development-with-ollama-course", // 2024-11-27
-      "aws-ec2-how-to-host-a-website-with-user-data-scripts", // 2024-11-27
-      "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
-      "how-hackers-use-command-execution-to-break-into-systems", // 2024-11-27
-      "learn-react-2024", // 2024-11-28
-      "learn-event-driven-architecture-by-building-a-saas-application", // 2024-11-28
-      "how-to-build-a-memory-card-game-using-react", // 2024-11-28
-      THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD, // 2024-11-29
-      CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK, // 2024-12-03
-      "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
-      "learn-google-sheets-course-for-beginners", // 2024-12-04
-      "how-to-perform-code-reviews-in-tech-the-painless-way", // 2024-12-04
-      "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
-      "how-to-write-better-variable-names", // 2024-12-05
-      "how-to-write-code-thats-easy-to-read", // 2024-12-05
-      "build-multilingual-apps-with-i18n-in-react", // 2024-12-05
-      "nextjs-vs-react-differences", // 2024-12-05
-      "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
-      "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
-      "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
-      "svelte-i18n-and-localization-made-easy", // 2024-12-06
-      "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
-      "how-django-mvt-architecture-works", // 2024-12-11
-      "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
-      "learn-how-math-can-make-your-code-better-by-coding-polyrhythms", // 2024-12-13
-      "learn-elasticsearch-with-a-comprehensive-beginner-friendly-course", // 2024-12-13
-      "build-a-web-application-security-scanner-with-python", // 2024-12-13
-      "create-and-send-email-templates-using-react-email-and-resend-in-nextjs", // 2024-12-14
-      "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
-      "how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react", // 2024-12-17
-      "how-to-write-user-stories-for-beginners", // 2024-12-17
-      "what-to-do-if-you-dont-get-into-outreachy", // 2024-12-19
-      "make-llms-better-at-math-with-ai-agents", // 2024-12-19
-      "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-20
-      "learn-game-development-with-javascript-and-kaplay", // 2024-12-20
-      "aws-solutions-architect-professional-sap-c02-certification-course", // 2024-12-20
-      "build-a-honeypot-with-python", // 2024-12-20
-      "classes-in-c-sharp-handbook-with-examples", // 2024-12-20
-      "how-to-run-open-source-llms-on-your-own-computer-using-ollama", // 2024-12-21
-      "how-to-become-a-web-developer-beginners-guide", // 2024-12-12
-    ]],
+    ]]
   ]),
 }

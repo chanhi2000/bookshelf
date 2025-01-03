@@ -55,7 +55,7 @@ isOriginal: false
 
 Swift 2.0 is here, and packed full with features. If you already completed the entire [<FontIcon icon="fas fa-globe"/>Hacking with Swift coding series](https://hackingwithswift.com/) (it's free!), you'll have watched Apple's WWDC15 keynote with as much excitement as I did. And yes: Swift 2 is now available with Xcode 7, so if you're keen to start learning then I'm here to help.
 
-While I'm busy updating my free online Swift tutorial series, I wrote this article about some of the new features in Swift 2 and another [showing off what's new in iOS 9](/hackingwithswift.com/ios9.md). I've even put up a whole page of [free tutorials for iOS 9](/hackingwithswift.com/ios9-tutorials.md) teaching many of the amazing new features – you should check it out!
+While I'm busy updating my free online Swift tutorial series, I wrote this article about some of the new features in Swift 2 and another [**showing off what's new in iOS 9**](/hackingwithswift.com/ios9.md). I've even put up a whole page of [**free tutorials for iOS 9**](/hackingwithswift.com/ios9-tutorials.md) teaching many of the amazing new features – you should check it out!
 
 If you liked this article, you might also want to read:
 
@@ -85,7 +85,7 @@ All set to go? Here's the least you need to know…
 
 ## NEW: Watch my Swift 2.0 video
 
-I made a super-fast video going over the key new features in Swift 2. You can read the original article below, or watch this video for my lightning summary. Feedback? [<FontIcon icon="fa-brands fa-x-twitter"/>Find me on Twitter @twostraws](http://x.com/twostraws).
+I made a super-fast video going over the key new features in Swift 2. You can read the original article below, or watch this video for my lightning summary. Feedback? [Find me on Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`twostraws`)](http://x.com/twostraws).
 
 <VidStack src="youtube/pHsvYPMqsOc" />
 
@@ -93,7 +93,7 @@ I made a super-fast video going over the key new features in Swift 2. You can re
 
 ## try/catch
 
-::: infor Update
+::: info Update
 
 I wrote a tutorial on Swift 2's try catch error handling – check it out!
 

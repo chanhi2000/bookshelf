@@ -29,9 +29,7 @@ author: Md. Fahim Bin Amin
 cover: https://www.freecodecamp.org/news/content/images/2022/06/fCC-Banner.png
 ---
 
----
-
-## {{ $frontmatter.title }} 관련
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

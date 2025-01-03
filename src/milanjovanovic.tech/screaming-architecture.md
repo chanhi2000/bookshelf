@@ -84,7 +84,7 @@ When you look at the folder structure and source code files of your system:
 
 Here's an example of a folder structure organized around technical concerns:
 
-```pwsh
+```powershell
 📁 Api/
 |__ 📁 Controllers
 |__ 📁 Entities
@@ -108,7 +108,7 @@ Inside a use case folder, we may find technical concepts required to implement i
 
 <a href="vertical-slice-architecture">**Vertical slice architecture**</a> also approaches this from a similar perspective.
 
-```pwsh
+```powershell
 📁 Api/
 |__ 📁 Apartments
     |__ 📁 ReserveApartment
@@ -157,7 +157,7 @@ Let's say the `Ticketing` module uses <a href="clean-architecture-folder-structu
 But we can still organize the system around feature folders and use cases.
 An alternative approach could be organizing around <a href="vertical-slice-architecture-structuring-vertical-slices">**vertical slices**</a>, resulting in a less nested folder structure.
 
-```pwsh
+```powershell
 📁 Modules/
 |__ 📁 Attendance
     |__ ...

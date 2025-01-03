@@ -66,7 +66,7 @@ Let's see how we can install **Serilog** and configure it an **ASP.NET Core** ap
 
 To install **Serilog** in **ASP.NET Core** you can add the following NuGet package:
 
-```pwsh
+```powershell
 Install-Package Serilog.AspNetCore
 ```
 

@@ -85,11 +85,55 @@ If you liked this book, please share it with more people.
 
 If you want to read more of my Git articles and handbooks, here they are:
 
-- [The Git Rebase Handbook](/freecodecamp.org/git-rebase-handbook.md)
-- [The Git Merge Handbook](/freecodecamp.org/the-definitive-guide-to-git-merge.md)
-- [The Git Diff and Patch Handbook](/freecodecamp.org/git-diff-and-patch.md)
-- [Git Internals - Objects, Branches, and How to Create a Repo](/freecodecamp.org/git-internals-objects-branches-create-repo.md)
-- [Git Reset Command Explained](/freecodecamp.org/save-the-day-with-git-reset.md)
+```component VPCard
+{
+  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
+  "link": "/freecodecamp.org/git-rebase-handbook/README.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
+  "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Git Diff and Patch – Full Handbook for Developers",
+  "desc": "Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh...",
+  "link": "/freecodecamp.org/git-diff-and-patch.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "A Visual Guide to Git Internals — Objects, Branches, and How to Create a Repo From Scratch",
+  "desc": "Many of us use git on a daily basis. But how many of us know what goes on under the hood?  For example, what happens when we use git commit? What is stored between commits? Is it just a diff between the current and previous commit? If so, how",
+  "link": "/freecodecamp.org/git-internals-objects-branches-create-repo/README.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Git Reset Explained – How to Save the Day with the Reset Command",
+  "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
+  "link": "freecodecamp.org/save-the-day-with-git-reset.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
 
 ---
 
@@ -117,7 +161,6 @@ If you would like to support this book, you are welcome to buy the [<FontIcon ic
 
 This book has been created to help you and people like you learn, understand Git, and apply their knowledge in real life. 
 
-Right from the beginning, I asked for feedback and was lucky to receive it from great people (mentioned in the [Acknowledgements](#heading-acknowledgements)) to make sure the book achieves these goals. If you liked something about this book, felt that something was missing or needed improvement - I would love to hear from you. Please reach out at [<FontIcon icon="fas fa-envelope"/>gitting.things@gmail.com](mailto:gitting.things@gmail.com).
+Right from the beginning, I asked for feedback and was lucky to receive it from great people (mentioned in the Acknowledgements to make sure the book achieves these goals. If you liked something about this book, felt that something was missing or needed improvement - I would love to hear from you. Please reach out at [<FontIcon icon="fas fa-envelope"/>gitting.things@gmail.com](mailto:gitting.things@gmail.com).
 
 Thank you for learning and allowing me to be a part of your journey.
-

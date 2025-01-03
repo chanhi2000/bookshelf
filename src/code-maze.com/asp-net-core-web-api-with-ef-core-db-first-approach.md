@@ -260,14 +260,14 @@ Go to **Tools –>  NuGet Package Manager –>  Package Manager Console**
 
 First, we need to install the following packages :
 
-```pwsh
+```powershell
 Install-Package Microsoft.EntityFrameworkCore.Tools
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 ```
 
 Then, we can create the models from the existing database using `Scaffold-DbContext` command:
 
-```pwsh
+```powershell
 Scaffold-DbContext "Server=.;Database=BookStore;Trusted_Connection=True;" 
 Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 ```
@@ -674,7 +674,7 @@ Now we have to register our DataManager classes inside the IOC and configure JSO
 
 For that, first, we have to install the NewtonSoftJson package:
 
-```pwsh
+```powershell
 Install-Package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 ```
 

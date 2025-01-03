@@ -58,7 +58,7 @@ In this article, we'll explore the concept of binary exponentiation, understand 
 
 ## What is Binary Exponentiation?
 
-Binary exponentiation is a method to compute an (a raised to the power of n) using only multiplications, instead of the naïve O(n) multiplications.
+Binary exponentiation is a method to compute an (a raised to the power of $n$) using only multiplications, instead of the naïve $O\left(n\right)$ multiplications.
 
 This significant improvement in efficiency makes it possible to calculate extremely large powers quickly, even when dealing with modular arithmetic.
 
@@ -82,10 +82,10 @@ For example, let's calculate $3^{13}$:
 1. Convert $13$ to binary: $13_{10}=1101_{2}$
 2. Initialize result $= 1$, base $= 3$
 3. Iterate through the bits:
-    - Bit $1$: result $=1\times3=3$, base $=3\times3=9$
-    - Bit $0$: result $=3$, base $=9\times9=81$
-    - Bit $1$: result $=3\times81=243$, base $=81\times81=6561$
-    - Bit $1$: result $=243\times6561=1,594,323$
+    - Bit $1$: result $=1\times{3}=3$, base $=3\times{3}=9$
+    - Bit $0$: result $=3$, base $=9\times{9}=81$
+    - Bit $1$: result $=3\times{81}=243$, base $=81\times{81}=6561$
+    - Bit $1$: result $=243\times{6561}=1,594,323$
 
 Thus, $313=1,594,323$.
 
@@ -134,12 +134,12 @@ Let's break down the algorithm:
 
 ### Time Complexity Analysis
 
-The time complexity of binary exponentiation is $O\left(\log{}{n}\right)$, where `n` is the exponent. This is because:
+The time complexity of binary exponentiation is $O\left(\log_{}n\right)$, where `n` is the exponent. This is because:
 
-1. The number of bits in the binary representation of `n` is $\lfloor\log_{2}{⁡n}\rfloor+1$.
+1. The number of bits in the binary representation of `n` is $\lfloor\log_{2}n\rfloor+1$.
 2. We perform at most two multiplications per bit (one for squaring the base, and potentially one for updating the result).
 
-Therefore, the total number of multiplications is at most $2(\lfloor\log_{2}{⁡n}\rfloor+1)$, which simplifies to $O\left(\log⁡{n}\right)$.
+Therefore, the total number of multiplications is at most $2(\lfloor\log_{2}n\rfloor+1)$, which simplifies to $O\left(\log_{}n\right)$.
 
 ---
 
@@ -153,7 +153,11 @@ Let's look at some algorithmic problems that you can solve efficiently using bin
 
 @tab:active Problem
 
-Calculate $3^{1000000}\text{mod}1000000007$.
+Calculate
+
+$$
+3^{1000000}\:\text{mod}\:1000000007
+$$
 
 @tab Approach
 
@@ -202,7 +206,7 @@ This problem would be impossible to solve with naïve exponentiation due to the 
 
 @tab:active Problem
 
-Given a 2x2 matrix A, calculate An where $n = 1000000$.
+Given a 2x2 matrix A, calculate An where $n=1000000$.
 
 @tab Approach
 
@@ -214,7 +218,7 @@ Given a 2x2 matrix A, calculate An where $n = 1000000$.
 
 We can use binary exponentiation on matrices. Here's a Python implementation with explanations:
 
-```py
+```py :collapsed-lines
 import numpy as np
 
 def matrix_multiply(A, B, mod):
@@ -235,8 +239,10 @@ n = 1000000
 mod = 1000000007
 
 result = matrix_power(A, n, mod)
-print(result)  # Output: [[690749268 297612485]
-                #         [297612485 393136783]]
+print(result)
+#
+# Output: [[690749268 297612485]
+#         [297612485 393136783]]
 ```
 
 @tab Explanation
@@ -262,7 +268,11 @@ Here are some problems for you to solve using binary exponentiation:
 
 ### 1. Modular Exponentiation
 
-Calculate $71234567\:\text{mod}\:1000000009$. 
+Calculate
+
+$$
+71234567\:\text{mod}\:1000000009
+$$
 
 ::: tip Hint
 
@@ -318,7 +328,15 @@ Binary exponentiation is a powerful technique that can be applied to a wide rang
 
 By practicing these problems, you'll gain a deeper understanding of how to apply binary exponentiation in various scenarios. Remember, the key is to recognize when a problem involves raising something to a large power, whether it's a number, a matrix, or even a more complex structure.
 
-If you found this explanation of Binary Exponentiation algorithm helpful, you might also enjoy more in-depth programming tutorials and concepts I cover on my [blog](https://blog.theenthusiast.dev).
+If you found this explanation of Binary Exponentiation algorithm helpful, you might also enjoy more in-depth programming tutorials and concepts I cover on my [<FontIcon icon="fas fa-globe"/>blog](https://blog.theenthusiast.dev).
+
+<SiteInfo
+  name="The Enthusiast"
+  desc="A blog from the enthusiast for the enthusiast."
+  url="https://blog.theenthusiast.dev"
+  logo="https://blog.theenthusiast.dev/favicon.svg"
+  preview="https://blog.theenthusiast.dev/astropaper-og.jpg"/>
+
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -26,9 +26,7 @@ author: German Cocca
 cover: https://www.freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1wOdmI-unsplash.jpg
 ---
 
----
-
-## {{ $frontmatter.title }} 관련
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

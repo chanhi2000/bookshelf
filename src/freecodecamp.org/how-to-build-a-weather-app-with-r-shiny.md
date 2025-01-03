@@ -21,7 +21,9 @@ head:
 prev: /data-science/r/articles/README.md
 date: 2024-12-10
 isOriginal: false
-author: Elabonga Atuo
+author:
+  - name: Elabonga Atuo
+    url: https://freecodecamp.org/news/author/Ellabee/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733174501446/a177379f-3c32-424a-9fbe-6608310f2ea6.png
 ---
 

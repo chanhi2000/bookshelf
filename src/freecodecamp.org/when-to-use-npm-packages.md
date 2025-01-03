@@ -25,7 +25,9 @@ head:
 prev: /programming/npm/articles/README.md
 date: 2024-06-25
 isOriginal: false
-author: David Jaja
+author:
+  - name: David Jaja
+    url: https://freecodecamp.org/news/author/Daiveed/
 cover: https://www.freecodecamp.org/news/content/images/2024/06/Article-Image.png
 ---
 

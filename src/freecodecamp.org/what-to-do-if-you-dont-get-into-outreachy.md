@@ -23,7 +23,9 @@ head:
 prev: /projects/career/articles/README.md
 date: 2024-12-19
 isOriginal: false
-author: Victoria Nduka
+author:
+  - name: Victoria Nduka
+    url: https://freecodecamp.org/news/author/nwanduka/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734517208892/dae4a13d-a348-4a8d-831a-8a2f6a1546fa.png
 ---
 

@@ -201,7 +201,7 @@ The next thing we'll need is a way to convert the Razor view into HTML.
 We can do this with the <a href="https://github.com/soundaranbu/Razor.Templating.Core">`Razor.Templating.Core`</a> library.
 It provides a simple API to render a `.cshtml` file into a `string`.
 
-```pwsh
+```powershell
 Install-Package Razor.Templating.Core
 
 ```

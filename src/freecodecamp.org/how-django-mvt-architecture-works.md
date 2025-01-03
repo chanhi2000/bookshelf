@@ -25,7 +25,9 @@ head:
 prev: /programming/py-django/articles/README.md
 date: 2024-12-11
 isOriginal: false
-author: Timothy Olanrewaju
+author:
+  - name: Timothy Olanrewaju
+    url: https://freecodecamp.org/news/author/SmoothTech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733732493858/a06ee65a-de97-4c7f-b3bd-7ca8c1b6fe82.png
 ---
 

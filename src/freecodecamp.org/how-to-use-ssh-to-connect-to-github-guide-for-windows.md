@@ -220,7 +220,7 @@ Now that you've confirmed the OpenSSH Server is running on your Windows system, 
 
 Open PowerShell as an administrator and run the following command:
 
-```pwsh
+```powershell
 New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH SSH Server' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22 -Program "C:\Program Files\OpenSSH\sshd.exe"
 ```
 
@@ -305,7 +305,7 @@ The public key will be saved as `id_`[<FontIcon icon="fas fa-globe"/>`rsa.pub`](
 
 In your Windows Terminal or PowerShell, execute the following command to test your SSH connection to GitHub:
 
-```pwsh
+```powershell
 bashCopy codessh -T git@github.com
 ```
 

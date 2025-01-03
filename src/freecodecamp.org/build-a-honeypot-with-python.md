@@ -22,7 +22,9 @@ head:
 prev: /programming/py/articles/README.md
 date: 2024-12-20
 isOriginal: false
-author: Chaitanya Rahalkar
+author:
+  - name: Chaitanya Rahalkar
+    url: https://freecodecamp.org/news/author/chaitanyarahalkar/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734581440876/9b4a1d00-6185-4666-94cc-97131eed03fa.png
 ---
 

@@ -26,7 +26,9 @@ head:
 prev: /programming/js-node/articles/README.md
 date: 2024-12-20
 isOriginal: false
-author: JSLegendDev
+author:
+  - name: JSLegendDev
+    url: https://jslegenddev.substack.com/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734623838531/8083f2dd-65f7-49c6-81b0-0a1107d2ee9a.png
 ---
 

@@ -27,7 +27,9 @@ head:
 prev: /programming/js-next/articles/README.md
 date: 2024-12-13
 isOriginal: false
-author: David Asaolu
+author:
+  - name: David Asaolu
+    url: https://freecodecamp.org/news/author/de/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733995060570/3450a9b3-e740-4362-b0ab-0269646e725c.png
 ---
 

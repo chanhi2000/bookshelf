@@ -99,7 +99,7 @@ Let's install the following libraries:
 - `Rebus.RabbitMq` for **RabbitMQ** message transport
 - `Rebus.SqlServer` for **SQL Server** state persistence
 
-```pwsh
+```powershell
 Install-Package Rebus.ServiceProvider -Version 8.4.0
 Install-Package Rebus.RabbitMq -Version 8.0.0
 Install-Package Rebus.SqlServer -Version 7.3.1

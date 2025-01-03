@@ -94,7 +94,7 @@ If you were previously using `Microsoft.Extensions.Http.Polly`, it is recommende
 
 Let's start by installing the required NuGet packages:
 
-```pwsh
+```powershell
 Install-Package Microsoft.Extensions.Resilience
 Install-Package Microsoft.Extensions.Http.Resilience
 ```

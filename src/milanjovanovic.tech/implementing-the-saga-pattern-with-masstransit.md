@@ -293,7 +293,7 @@ Each consumer handles a specific part of the business process and communicates b
 
 To persist the saga state, we'll use PostgreSQL. First, let's install the required packages:
 
-```pwsh
+```powershell
 Install-Package MassTransit.EntityFrameworkCore
 Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 ```

@@ -23,7 +23,9 @@ head:
 prev: /academics/system-design/articles/README.md
 date: 2024-10-19
 isOriginal: false
-author: Victoria Nduka
+author:
+  - name: Victoria Nduka
+    url: https://freecodecamp.org/news/author/nwanduka/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729112018927/8f769e94-9c4b-4651-a0f7-0c99d529c9c3.png
 ---
 

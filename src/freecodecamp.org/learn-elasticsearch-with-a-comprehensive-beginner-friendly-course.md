@@ -28,7 +28,9 @@ head:
 prev: /programming/java-elasticsearch/articles/README.md
 date: 2024-12-13
 isOriginal: false
-author: Imad Sadek
+author:
+  - name: Imad Sadek (@3CodeCampers)
+    url: https://youtube.com/@3CodeCampers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734016608619/82574380-c09a-4442-97b0-3e707a1675d2.jpeg
 ---
 

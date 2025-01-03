@@ -87,7 +87,7 @@ Let's see how to start using MassTransit.
 
 You need to install the `MassTransit` library. If you already have a message transport, you can install the respective transport library. Let's add the `MassTransit.RabbitMQ` library to configure [<FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/) as the transport mechanism.
 
-```pwsh
+```powershell
 Install-Package MassTransit
 
 Install-Package MassTransit.RabbitMQ
@@ -129,7 +129,7 @@ docker run -d --name rabbitmq -p 5672:5672
 
 To configure MassTransit to work with Azure Service Bus, you need to install the required transport library:
 
-```pwsh
+```powershell
 Install-Package MassTransit.Azure.ServiceBus.Core
 ```
 

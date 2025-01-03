@@ -25,7 +25,7 @@ author: Joy Shaheb
 cover: https://freecodecamp.org/news/content/images/2021/03/FCC--4-.png
 ---
 
-### {{ $frontmatter.title }} 관련
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

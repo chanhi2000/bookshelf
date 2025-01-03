@@ -21,7 +21,9 @@ head:
 prev: /programming/css/articles/README.md
 date: 2024-11-19
 isOriginal: false
-author: Timothy Olanrewaju
+author:
+  - name: Timothy Olanrewaju
+    url: https://freecodecamp.org/news/author/SmoothTech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731783150771/d3ba743f-c945-482e-a25d-9d093c7e866b.jpeg
 ---
 

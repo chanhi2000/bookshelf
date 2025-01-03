@@ -117,7 +117,7 @@ These extensions add support for advanced assembly scanning and service decorati
 
 To get started using Scrutor, you need to install the NuGet package:
 
-```pwsh
+```powershell
 Install-Package Scrutor
 ```
 

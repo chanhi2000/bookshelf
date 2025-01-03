@@ -50,6 +50,10 @@ export const navbarEn = navbar([
         icon: '/assets/image/blog.logrocket.com/favicon.png',
         link: '/blog.logrocket.com/README.md'
       }, {
+        text: 'realpython.com',
+        icon: 'https://realpython.com/static/favicon.68cbf4197b0c.png',
+        link: '/realpython.com/README.md'
+      }, {
         text: 'digitalocean.com',
         icon: 'https://digitalocean.com/_next/static/media/favicon.594d6067.ico',
         link: '/digitalocean.com/README.md'

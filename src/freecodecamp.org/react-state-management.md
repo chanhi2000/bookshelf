@@ -27,7 +27,9 @@ head:
 prev: /programming/js-react/articles/README.md
 date: 2024-02-06
 isOriginal: false
-author: Timothy Olanrewaju
+author:
+  - name: Timothy Olanrewaju
+    url: https://freecodecamp.org/news/author/SmoothTech/
 cover: https://www.freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8fBB-g-unsplash.jpg
 ---
 

@@ -28,7 +28,9 @@ head:
 prev: /ai/openai/articles/README.md
 date: 2024-12-19
 isOriginal: false
-author: Maham Codes
+author:
+  - name: Maham Codes
+    url: https://freecodecamp.org/news/author/MahamCodes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734537732263/2ec966b6-d1d3-4d0f-ae37-982ef26ebc55.jpeg
 ---
 

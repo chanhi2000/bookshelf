@@ -82,7 +82,7 @@ The L1 cache runs in your application's memory. The L2 cache can be Redis, SQL S
 
 Install the `Microsoft.Extensions.Caching.Hybrid` NuGet package:
 
-```pwsh
+```powershell
 Install-Package Microsoft.Extensions.Caching.Hybrid
 ```
 
@@ -270,7 +270,7 @@ To use [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) as your 
 
 Install the `Microsoft.Extensions.Caching.StackExchangeRedis` NuGet package:
 
-```pwsh
+```powershell
 Install-Package Microsoft.Extensions.Caching.StackExchangeRedis
 ```
 

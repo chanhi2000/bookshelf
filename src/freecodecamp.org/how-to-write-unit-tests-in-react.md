@@ -27,7 +27,9 @@ head:
 prev: /programming/js-react/articles/README.md
 date: 2023-01-24
 isOriginal: false
-author: Kunal Nalawade
+author:
+  - name: Kunal Nalawade
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://www.freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg
 ---
 

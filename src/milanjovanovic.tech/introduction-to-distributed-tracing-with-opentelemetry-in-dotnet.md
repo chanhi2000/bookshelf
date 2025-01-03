@@ -89,7 +89,7 @@ OpenTelemetry provides libraries and SDKs to add code (instrumentation) into you
 
 We're going to install the following NuGet packages:
 
-```pwsh
+```powershell
 # Automatic tracing, metrics
 Install-Package OpenTelemetry.Extensions.Hosting
 

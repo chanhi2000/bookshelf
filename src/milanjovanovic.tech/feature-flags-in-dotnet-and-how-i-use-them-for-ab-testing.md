@@ -81,7 +81,7 @@ Let's dive in!
 
 To get started, you need to install the `Microsoft.FeatureManagement` library in your project:
 
-```pwsh
+```powershell
 Install-Package Microsoft.FeatureManagement
 
 ```

@@ -22,7 +22,9 @@ head:
 prev: /programming/cs/articles/README.md
 date: 2024-12-21
 isOriginal: false
-author: Isaiah Clifford Opoku
+author:
+  - name: Isaiah Clifford Opoku
+    url: https://freecodecamp.org/news/author/Clifftech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734711601436/b4de90be-1d93-4d8d-a4ed-ae09b192ef5c.png
 ---
 

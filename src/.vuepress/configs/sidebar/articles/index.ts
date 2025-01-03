@@ -13,6 +13,7 @@ import { template as TEMPLATE_KOTZILLA } from './blog.kotzilla.io';
 import { template as TEMPLATE_OUTCOMES_SCHOOL } from './outcomeschool.com';
 import { template as TEMPLATE_LEARNK8S } from './learnk8s.io';
 import { template as TEMPLATE_LOGROCKET } from './blog.logrocket.com';
+import { template as TEMPLATE_REALPYTHON } from './realpython.com';
 import { template as TEMPLATE_MILAN_JOVANOVIC } from './milanjovanovic.tech';
 import { template as TEMPLATE_EVENT_DRIVEN } from './event-driven.io';
 import { template as TEMPLATE_PACKAGEMAIN_TECH } from './packagemain.tech';
@@ -66,31 +67,51 @@ export type SidebarInfoSubgroupTemplate = {
   collapsible: boolean | true,
   icon: string | '',
   subPath: string,
-  children: SidebarInfoSubgroupTemplate | string[]
+  children: (string|SidebarInfoSubgroupTemplate)[]
 }
 
-export const sidebarByTemplate = (itemTemplate: SidebarInfoTemplate, type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => {
+export type SidebarYeargroupTemplate = {
+  text: string | '',
+  collapsible: boolean | true,
+  children: (string|SidebarInfoSubgroupTemplate)[]
+}
+
+export const sidebarByTemplate = (
+  itemTemplate: SidebarInfoTemplate, 
+  type: string = DEFAULT_KEY_ALL
+): SidebarGroupOptions => {
   let _all: string[] = [];
   for (const [_, values] of itemTemplate.linksMap) {
     _all.push(...values);
   }
   
   const _children: any[] = (
-    // (type === "all") 
-    // ?  _all 
-    // : 
     itemTemplate.linksMap.get(type)
   )?.map((e: any) => {
     switch(typeof e) {
       case 'string': 
         return `${PATH_BASE_ARTICLES}/${itemTemplate.name}/${e}.${EXT_MD}`
-      case 'object': // SidebarInfoSubgroupTemplate
+      case 'object': // SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate
         return {
           text: e?.text,
           collapsible: e?.collapsible ?? true,
           icon: e?.icon ?? '',
-          children: (e?.children ?? []).map((a: string) => `${PATH_BASE_ARTICLES}/${itemTemplate.name}/${e?.subPath}/${a}.${EXT_MD}`)
-        }
+          children: (e?.children ?? []).map((a: (string|SidebarInfoSubgroupTemplate)) => {
+            const _subPathTmp = (e?.subPath ?? '')
+            const _subPath = (_subPathTmp == '') ? _subPathTmp : `${_subPathTmp}/`
+            const result = (typeof a == 'string')
+              ? `${PATH_BASE_ARTICLES}/${itemTemplate.name}/${_subPath}${a}.${EXT_MD}`
+              : {
+                text: a?.text,
+                collapsible: a?.collapsible ?? true,
+                icon: a?.icon ?? '',
+                children: (a?.children ?? []).map((el: string) => {
+                  return `${PATH_BASE_ARTICLES}/${itemTemplate.name}/${a?.subPath ?? ''}/${el}.${EXT_MD}`
+                }),
+              }
+            return result
+            })
+          }
       default:
         return ''
     }
@@ -116,6 +137,7 @@ export const articleSidebars = {
   outcomesSchool:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_OUTCOMES_SCHOOL, type),
   learnk8s:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_LEARNK8S, type),
   logrocket:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_LOGROCKET, type),
+  realpython:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_REALPYTHON, type),
   yozm:               (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_YOZM, type),
   kakaoTech:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KAKAO_TECH, type),
   kakaoPayTech:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KAKAO_PAY_TECH, type),

@@ -5,34 +5,6 @@ export const template: SidebarGroupOptions = {
     collapsible: true,
     icon: 'https://hackingwithswift.com/favicon.svg',
     children: [
-      '/hackingwithswift.com/swift2.md', // 2015-06-08
-      '/hackingwithswift.com/ios9.md', // 2015-06-11
-      '/hackingwithswift.com/new-features-swift-2.md', // 2015-06-11
-      '/hackingwithswift.com/safari-content-blocking-ios9.md', // 2015-06-12
-      '/hackingwithswift.com/safari-content-blocking-ios9-install.md', // 2015-06-12
-      '/hackingwithswift.com/ios9-tutorials.md', // 2015-06-11
-      '/hackingwithswift.com/swift2-2.md', // 2016-03-21
-      '/hackingwithswift.com/ios10.md', // 2016-06-13
-      '/hackingwithswift.com/swift3.md', // 2016-06-13
-      '/hackingwithswift.com/whats-new-in-ios-11.md', // 2016-06-20
-      '/hackingwithswift.com/swift3-1.md', // 2017-01-26
-      '/hackingwithswift.com/swift4.md', // 2017-06-05
-      '/hackingwithswift.com/swift-4-1-improves-codable-with-keydecodingstrategy.md', // 2018-02-05
-      '/hackingwithswift.com/learn-whats-new-in-swift-4-1-with-a-playground.md', // 2018-04-04
-      '/hackingwithswift.com/whats-new-in-swift-4-1.md', // 2018-06-13
-      '/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.md', // 2018-11-27
-      '/hackingwithswift.com/whats-new-in-swift-4-2.md', // 2018-12-17
-      '/hackingwithswift.com/whats-new-in-swift-5-0.md', // 2019-03-28
-      '/hackingwithswift.com/how-to-use-dynamic-member-lookup-in-swift.md', // 2019-03-29
-      '/hackingwithswift.com/whats-new-in-swift-5-1.md', // 2019-09-18
-      '/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch', // 2019-09-23
-      '/hackingwithswift.com/new-syntax-swift-2-guard', // 2019-09-23
-      '/hackingwithswift.com/new-syntax-swift-2-defer', // 2019-09-23
-      '/hackingwithswift.com/new-syntax-swift-2-availability-checking.md', // 2019-09-23
-      '/hackingwithswift.com/learn-essential-swift-in-one-hour.md',
-      '/hackingwithswift.com/i-screwed-up-one-key-accessibility-behavior-and-now-i-m-on-a-mission-to-do-better.md', // 2023-06-23
-      '/hackingwithswift.com/whats-new-in-swift-6.md', // 2024-06-10
-      '/hackingwithswift.com/whats-new-in-swiftui-for-ios-18.md', // 2024-06-21
       {
         text: "What's new in Swift?",
         collapsible: true,
@@ -2384,6 +2356,34 @@ export const template: SidebarGroupOptions = {
             ]
           }
         ]
-      }
+      },
+      '/hackingwithswift.com/swift2.md', // 2015-06-08
+      '/hackingwithswift.com/ios9.md', // 2015-06-11
+      '/hackingwithswift.com/new-features-swift-2.md', // 2015-06-11
+      '/hackingwithswift.com/safari-content-blocking-ios9.md', // 2015-06-12
+      '/hackingwithswift.com/safari-content-blocking-ios9-install.md', // 2015-06-12
+      '/hackingwithswift.com/ios9-tutorials.md', // 2015-06-11
+      '/hackingwithswift.com/swift2-2.md', // 2016-03-21
+      '/hackingwithswift.com/ios10.md', // 2016-06-13
+      '/hackingwithswift.com/swift3.md', // 2016-06-13
+      '/hackingwithswift.com/whats-new-in-ios-11.md', // 2016-06-20
+      '/hackingwithswift.com/swift3-1.md', // 2017-01-26
+      '/hackingwithswift.com/swift4.md', // 2017-06-05
+      '/hackingwithswift.com/swift-4-1-improves-codable-with-keydecodingstrategy.md', // 2018-02-05
+      '/hackingwithswift.com/learn-whats-new-in-swift-4-1-with-a-playground.md', // 2018-04-04
+      '/hackingwithswift.com/whats-new-in-swift-4-1.md', // 2018-06-13
+      '/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.md', // 2018-11-27
+      '/hackingwithswift.com/whats-new-in-swift-4-2.md', // 2018-12-17
+      '/hackingwithswift.com/whats-new-in-swift-5-0.md', // 2019-03-28
+      '/hackingwithswift.com/how-to-use-dynamic-member-lookup-in-swift.md', // 2019-03-29
+      '/hackingwithswift.com/whats-new-in-swift-5-1.md', // 2019-09-18
+      '/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch', // 2019-09-23
+      '/hackingwithswift.com/new-syntax-swift-2-guard', // 2019-09-23
+      '/hackingwithswift.com/new-syntax-swift-2-defer', // 2019-09-23
+      '/hackingwithswift.com/new-syntax-swift-2-availability-checking.md', // 2019-09-23
+      '/hackingwithswift.com/learn-essential-swift-in-one-hour.md',
+      '/hackingwithswift.com/i-screwed-up-one-key-accessibility-behavior-and-now-i-m-on-a-mission-to-do-better.md', // 2023-06-23
+      '/hackingwithswift.com/whats-new-in-swift-6.md', // 2024-06-10
+      '/hackingwithswift.com/whats-new-in-swiftui-for-ios-18.md', // 2024-06-21
     ]
 };

@@ -97,7 +97,7 @@ Let's start by installing three NuGet packages that we'll need to implement API 
 - `Asp.Versioning.Mvc`
 - `Asp.Versioning.Mvc.ApiExplorer`
 
-```pwsh
+```powershell
 Install-Package Asp.Versioning.Http # This is needed for Minimal APIs
 Install-Package Asp.Versioning.Mvc # This is needed for Controllers
 Install-Package Asp.Versioning.Mvc.ApiExplorer

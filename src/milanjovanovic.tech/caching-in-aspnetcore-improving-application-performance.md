@@ -222,7 +222,7 @@ app.MapGet(
 
 However, there's also the `Microsoft.Extensions.Caching.StackExchangeRedis` library, allowing you to integrate Redis with `IDistributedCache`.
 
-```pwsh
+```powershell
 Install-Package Microsoft.Extensions.Caching.StackExchangeRedis
 ```
 

@@ -23,7 +23,9 @@ head:
 prev: /programming/sh/articles/README.md
 date: 2024-12-17
 isOriginal: false
-author: Francis Ihejirika
+author:
+  - name: Francis Ihejirika
+    url: https://freecodecamp.org/news/author/francisihe/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733871988108/cde4ea9b-705c-40e0-9730-09dbeebdfbae.png
 ---
 

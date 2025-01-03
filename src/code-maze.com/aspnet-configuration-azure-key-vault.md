@@ -192,7 +192,7 @@ In order to connect our application, we need to extend the configuration a bit.
 
 First, we need to install a NuGet package to support our KeyVault integration:
 
-```pwsh
+```powershell
 Install-Package Microsoft.Extensions.Configuration.AzureKeyVault -Version 3.1.7
 ```
 

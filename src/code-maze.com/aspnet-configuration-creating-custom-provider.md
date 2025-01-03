@@ -76,13 +76,13 @@ Before we start, let’s take a moment to clear all the user secrets and environ
 
 We need to install two Nuget packages first:
 
-```pwsh
+```powershell
 Install-Package Microsoft.EntityFrameworkCore.SqlServer -v 3.1.7
 ```
 
 We need this package since we’ll be using SQL Server instance, and:
 
-```pwsh
+```powershell
 Install-Package Microsoft.EntityFrameworkCore.Tools -v 3.1.7
 ```
 
@@ -134,13 +134,13 @@ And of course, you need to change the connection string in the <FontIcon icon="i
 
 That’s it, now we can simply add an initial migration through the Package Manager Console:
 
-```pwsh
+```powershell
 Add-Migration InitialSetup
 ```
 
 And apply that migration to the database:
 
-```pwsh
+```powershell
 Update-Database
 ```
 

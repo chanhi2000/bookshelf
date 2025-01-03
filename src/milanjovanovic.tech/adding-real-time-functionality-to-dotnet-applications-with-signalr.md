@@ -80,7 +80,7 @@ To start using **SignalR** you'll need to:
 
 Let's start by installing the `Microsoft.AspNetCore.SignalR.Client` NuGet package:
 
-```pwsh
+```powershell
 Install-Package Microsoft.AspNetCore.SignalR.Client
 ```
 

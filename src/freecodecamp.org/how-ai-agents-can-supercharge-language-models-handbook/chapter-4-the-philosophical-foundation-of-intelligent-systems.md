@@ -110,7 +110,7 @@ For example, in healthcare, an AI system that assists doctors in diagnosing cond
 
 This contextual adaptation ensures that AI remains a supportive tool that enhances, rather than diminishes, human autonomy.
 
-**Ensuring Transparent Decision-Making Processes**: Transparency in AI systems is a fundamental requirement for ensuring that users can trust and understand the decisions made by these technologies. Technically, this translates into the need for [explainable AI (XAI)](freecodecamp.org/how-to-build-an-interpretable-ai-deep-learning-model.md), which involves developing algorithms that can clearly articulate the rationale behind their decisions.
+**Ensuring Transparent Decision-Making Processes**: Transparency in AI systems is a fundamental requirement for ensuring that users can trust and understand the decisions made by these technologies. Technically, this translates into the need for [explainable AI (XAI)](/freecodecamp.org/how-to-build-an-interpretable-ai-deep-learning-model.md), which involves developing algorithms that can clearly articulate the rationale behind their decisions.
 
 This is especially crucial in domains like finance, healthcare, and criminal justice, where opaque decision-making can lead to mistrust and ethical concerns.
 

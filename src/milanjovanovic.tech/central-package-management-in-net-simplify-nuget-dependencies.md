@@ -155,7 +155,7 @@ Now every project gets this package automatically!
 
 Here's a Powershell script that will list all NuGet package versions in your solution:
 
-```pwsh
+```powershell
 # Scan all .csproj files and aggregate unique package versions
 $packages = Get-ChildItem -Filter *.csproj -Recurse |
     Get-Content |

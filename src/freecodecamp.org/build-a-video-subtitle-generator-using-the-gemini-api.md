@@ -36,7 +36,9 @@ head:
 prev: /ai/gemini/articles/README.md
 date: 2024-12-12
 isOriginal: false
-author: Sanjay R
+author:
+  - name: Sanjay R
+    url: https://freecodecamp.org/news/author/sanjayxr/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733638398422/2f468b16-5801-4f8c-bf40-c24d07e219b7.jpeg
 ---
 

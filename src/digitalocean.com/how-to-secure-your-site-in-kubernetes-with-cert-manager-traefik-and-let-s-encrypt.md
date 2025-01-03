@@ -64,9 +64,7 @@ In this tutorial, you will set up cert-manager, Traefik, and Let’s Encrypt in 
 
 If you’re looking for a managed Kubernetes hosting service, [check out our simple, managed Kubernetes service built for growth.](https://digitalocean.com/products/kubernetes)
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 - A Kubernetes cluster accessible with `kubectl`. If you need to create a cluster, DigitalOcean has a [<FontIcon icon="fas fa-globe"/>Kubernetes Quickstart](https://docs.digitalocean.com/products/kubernetes/quickstart).
 - A recent version of `kubectl` for interacting with your cluster. See the product documentation for [<FontIcon icon="fas fa-globe"/>installing `kubectl` on Linux, MacOS, and Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
@@ -76,6 +74,8 @@ If you’re looking for a managed Kubernetes hosting service, [check out our sim
 - A registered domain name. This tutorial will use `your_domain`. You can purchase a domain name from [<FontIcon icon="fas fa-globe"/>Namecheap](https://www.namecheap.com), get one for free with [<FontIcon icon="fas fa-globe"/>Freenom](https://www.freenom.com/en/index.html?lang=en), or use the domain registrar of your choice.
 - DNS set up for your domain name. This tutorial assumes you are using DigitalOcean DNS, but it is not a requirement. If you are using DigitalOcean, please see our [DNS documentation](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains) for details on how to add a domain and [<FontIcon icon="fas fa-globe"/>How To Point to DigitalOcean Nameservers From Common Domain Registrars](https://docs.digitalocean.com/tutorials/dns-registrars) for information on using DigitalOcean DNS with common domain registrars.
 - A [<FontIcon icon="fas fa-globe"/>Personal Access Token](https://docs.digitalocean.com/reference/api/create-personal-access-token) with read and write access for DigitalOcean DNS, if you are using DigitalOcean for DNS. Other providers will have similar access tokens.
+
+:::
 
 ---
 

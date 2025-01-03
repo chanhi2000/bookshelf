@@ -59,6 +59,10 @@ projects:
     name: blog.logrocket.com
     desc: "LogRocket Blog - Resources to Help Product Teams Ship Amazing Digital Experiences"
     link: /blog.logrocket.com/README.md
+  - icon: https://realpython.com/static/favicon.68cbf4197b0c.png
+    name: realpython.com
+    desc: "Learn Python online: Python tutorials for developers of all skill levels, Python books and courses, Python news, code examples, articles, and more."
+    link: /realpython.com/README.md
   - icon: https://digitalocean.com/_next/static/media/favicon.594d6067.ico
     name: digitalocean.com
     desc: "DigitalOcean | Cloud Infrastructure for Developers"

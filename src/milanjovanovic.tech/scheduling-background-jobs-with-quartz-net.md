@@ -79,7 +79,7 @@ Let's see how we can use **Quartz.NET** to create and schedule **background jobs
 
 The first thing we need to do is install the **Quartz.NET** NuGet package. There are a few to pick from, but we're going to install the `Quartz.Extensions.Hosting` library:
 
-```pwsh
+```powershell
 Install-Package Quartz.Extensions.Hosting
 ```
 

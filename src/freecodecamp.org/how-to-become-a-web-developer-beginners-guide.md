@@ -23,7 +23,9 @@ head:
 prev: /projects/career/articles/README.md
 date: 2024-12-23
 isOriginal: false
-author: Kunal Nalawade
+author:
+  - name: Kunal Nalawade
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/505eectW54k/upload/4567a9e14c8e9bac3dc8d6c6a39661f5.jpeg
 ---
 

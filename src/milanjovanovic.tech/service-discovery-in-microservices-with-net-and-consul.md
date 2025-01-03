@@ -126,7 +126,7 @@ We'll use the [<FontIcon icon="fas fa-globe"/>Steeltoe Discovery](https://docs.s
 
 Let's install the `Steeltoe.Discovery.Consul` library:
 
-```pwsh
+```powershell
 Install-Package Steeltoe.Discovery.Consul
 ```
 

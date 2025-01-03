@@ -27,9 +27,7 @@ author: German Cocca
 cover: https://freecodecamp.org/news/content/images/2023/03/sebastian-svenson-8QgqOLJAL8k-unsplash.jpg
 ---
 
----
-
-## {{ $frontmatter.title }} 관련
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

@@ -25,7 +25,9 @@ head:
 prev: /programming/js/articles/README.md
 date: 2024-12-13
 isOriginal: false
-author: Dr. Radu Mariescu-Istodor
+author:
+  - name: Dr. Radu Mariescu-Istodor (@project_jdm)
+    url: https://youtube.com/@project_jdm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734015930980/db739231-a258-45bf-a967-2d8d70100bc2.jpeg
 ---
 

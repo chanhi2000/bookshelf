@@ -20,7 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-do-closures-work.html
 date: 2024-09-10
 isOriginal: false
-author: Kunal Nalawade
+author:
+  - name: Kunal Nalawade
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScript-Interview-Prep-Cover.png
 ---
 

@@ -110,7 +110,7 @@ Now let's see how to use a **reverse proxy** to implement an **API gateway**.
 
 Let's install `Yarp.ReverseProxy` **NuGet** package to get started:
 
-```pwsh
+```powershell
 Install-Package Yarp.ReverseProxy
 ```
 

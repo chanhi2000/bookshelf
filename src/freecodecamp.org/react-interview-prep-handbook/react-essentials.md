@@ -25,7 +25,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook/react-essentials.html
 date: 2024-10-11
 isOriginal: false
-author: Kunal Nalawade
+author:
+  - name: Kunal Nalawade
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d19-4694-4942-9ad2-d2f25bcf05c0.png
 ---
 

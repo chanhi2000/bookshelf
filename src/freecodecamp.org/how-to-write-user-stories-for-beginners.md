@@ -23,7 +23,9 @@ head:
 prev: /academics/system-design/articles/README.md/articles/README.md
 date: 2024-12-17
 isOriginal: false
-author: Ben
+author:
+  - name: Ben
+    url: https://freecodecamp.org/news/author/justanothertechlead/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734447615195/2b7c6025-bce2-447e-a685-19f785dcd402.png
 ---
 

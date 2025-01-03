@@ -74,7 +74,7 @@ Today I want to show you a few interesting ways to generate PDF files in .NET.
 
 Let's install the QuestPDF NuGet package:
 
-```pwsh
+```powershell
 Install-Package QuestPDF
 ```
 
@@ -166,7 +166,7 @@ I've used this approach with MVC views on a few projects with excellent results.
 
 Let's start by installing the IronPDF NuGet package:
 
-```pwsh
+```powershell
 Install-Package IronPdf
 ```
 

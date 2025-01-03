@@ -71,7 +71,7 @@ First, let's set up Quartz with proper instrumentation.
 
 We'll need to install some NuGet packages:
 
-```pwsh
+```powershell
 Install-Package Quartz.Extensions.Hosting
 Install-Package Quartz.Serialization.Json
 

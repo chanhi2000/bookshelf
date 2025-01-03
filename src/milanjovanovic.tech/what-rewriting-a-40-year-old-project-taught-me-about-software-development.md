@@ -170,7 +170,7 @@ I can't stress enough how important it was to document the knowledge acquired ov
 
 ## Results That Matter
 
-Four years later, the system is thriving. The cloud infrastructure provides reliability and scalability. The [**modular monolith architecture**](/milanjovanovic.tech/modular-monolith-architecture.md) makes it maintainable. The automated deployment pipeline enables rapid updates.
+Four years later, the system is thriving. The cloud infrastructure provides reliability and scalability. The [**modular monolith architecture**](/milanjovanovic.tech/modular-monolith-architecture/README.md) makes it maintainable. The automated deployment pipeline enables rapid updates.
 
 But the journey taught us valuable lessons about balancing technical needs with business pressures. Success in legacy rewrites requires more than just technical excellence. It requires understanding the business domain, managing stakeholder expectations, and making pragmatic architectural decisions.
 

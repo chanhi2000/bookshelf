@@ -131,8 +131,8 @@ I will include screenshots. There's no need for your setup to match mine, but if
 
 - I am using Ubuntu 20.04 (WSL).
 - For my terminal, I use [<FontIcon icon="fas fa-globe"/>Oh My Zsh](https://ohmyz.sh/)
-- I also use plugins for Oh My Zsh, you can [follow this tutorial on freeCodeCamp](/freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38.md).
-- [<FontIcon icon="iconfont icon-github"/>git-graph (my alias is `gg`)](https://github.com/mlange-42/git-graph)
+- I also use plugins for Oh My Zsh, you can [**follow this tutorial on freeCodeCamp**](/freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide.md).
+- [<FontIcon icon="iconfont icon-github"/>`mlange-42/git-graph` (my alias is `gg`)](https://github.com/mlange-42/git-graph)
 
 ---
 
@@ -149,4 +149,3 @@ Right from the beginning, I asked for feedback and was lucky to receive it from 
 This book is provided for free on freeCodeCamp as described above and according to [<FontIcon icon="fas fa-globe"/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
 If you would like to support this book, you are welcome to buy the [<FontIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [<FontIcon icon="fas fa-globe"/>E-Book version](https://buymeacoffee.com/omerr/e/197232), or [<FontIcon icon="fas fa-globe"/>buy me a coffee](https://buymeacoffee.com/omerr). Thank you!
-

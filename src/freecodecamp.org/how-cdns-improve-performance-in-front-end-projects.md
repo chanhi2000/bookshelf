@@ -23,7 +23,9 @@ head:
 prev: /academics/system-design/articles/README.md
 date: 2024-10-15
 isOriginal: false
-author: Timothy Olanrewaju
+author:
+  - name: Timothy Olanrewaju
+    url: https://freecodecamp.org/news/author/SmoothTech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728820334493/8ef2738f-c2ac-42d3-be3f-5a6a3bddbdbd.png
 ---
 

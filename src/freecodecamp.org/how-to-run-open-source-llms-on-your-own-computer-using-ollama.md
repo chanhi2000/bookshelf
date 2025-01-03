@@ -30,7 +30,9 @@ head:
 prev: /ai/llama/articles/README.md
 date: 2024-12-21
 isOriginal: false
-author: Krishna Sarathi Ghosh
+author:
+  - name: Krishna Sarathi Ghosh
+    url: https://freecodecamp.org/news/author/imkrishnasarathi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734681473969/20c1a1cd-898a-4f48-a26f-d2d3d2917efc.png
 ---
 

@@ -299,6 +299,10 @@ Android Consultant | Trainer
 
 [<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com) | [Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/) | [Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov) | [Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
+:::
+
+::: info
+
 This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)com](https://proandroiddev.com/java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions-10cf026739fd)
 
 <SiteInfo

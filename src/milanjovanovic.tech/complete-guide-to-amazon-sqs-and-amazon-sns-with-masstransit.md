@@ -163,7 +163,7 @@ But we'll focus on using MassTransit with SQS and SNS.
 
 Let's start by installing the NuGet package we'll need:
 
-```pwsh
+```powershell
 Install-Package MassTransit.AmazonSQS
 ```
 

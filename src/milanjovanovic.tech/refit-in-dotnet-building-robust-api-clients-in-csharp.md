@@ -104,7 +104,7 @@ We'll implement a full CRUD interface and demonstrate its usage in a <a href="au
 
 First, install the required NuGet packages:
 
-```pwsh
+```powershell
 Install-Package Refit
 Install-Package Refit.HttpClientFactory
 ```
@@ -263,7 +263,7 @@ Here's how you can configure Refit to use it.
 
 First, install the Newtonsoft.Json support package:
 
-```pwsh
+```powershell
 Install-Package Refit.Newtonsoft.Json
 ```
 

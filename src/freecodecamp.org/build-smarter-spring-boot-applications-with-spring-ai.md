@@ -28,7 +28,9 @@ head:
 prev: /programming/java-spring/articles/README.md
 date: 2024-12-20
 isOriginal: false
-author: Faisal Memon
+author:
+  - name: Faisal Memon (@EmbarkX)
+    url: https://youtube.com/@EmbarkX
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734623587345/f6f5386a-7315-4507-8c34-99b2ffde1dbe.png
 ---
 

@@ -22,7 +22,9 @@ head:
 prev: /programming/js/articles/README.md
 date: 2024-05-22
 isOriginal: false
-author: Kunal Nalawade
+author:
+  - name: Kunal Nalawade
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScript-Interview-Prep-Cover.png
 ---
 

@@ -130,7 +130,7 @@ We will use the `StackExchange.Redis` library to send messages with Redis channe
 
 Let's start by installing it:
 
-```pwsh
+```powershell
 Install-Package StackExchange.Redis
 ```
 

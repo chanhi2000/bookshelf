@@ -279,7 +279,7 @@ Deployment tools can use the manifest to set up the necessary infrastructure in 
 
 Here's a simple example of generating a manifest:
 
-```pwsh
+```powershell
 dotnet run --project ContentPlatform.AppHost\ContentPlatform.AppHost.csproj `
   --publisher manifest --output-path ../aspire-manifest.json
 ```

@@ -136,7 +136,7 @@ Let's break down a few of the methods we're using:
 We're now ready to create our first migration.
 I'm going to use the PowerShell syntax:
 
-```pwsh
+```powershell
 Add-Migration Create_Database
 ```
 
@@ -241,7 +241,7 @@ Remember, you are responsible for preventing any data loss when executing EF mig
 
 Here are a few ways you can execute the `Script-Migration` command:
 
-```pwsh
+```powershell
 Script-Migration
 
 Script-Migration <FromMigration>
@@ -281,7 +281,7 @@ COMMIT;
 
 You can also specify an `-Idempotent` argument to the `Script-Migration` command. The `Script-Migration` command will generate SQL scripts that only apply migrations that haven't been applied already. This is useful if you're not sure what the last migration applied to the database.
 
-```pwsh
+```powershell
 Script-Migration -Idempotent
 ```
 
@@ -347,7 +347,7 @@ We discussed SQL scripts in the previous section, so I won't mention them again.
 
 The most common approach to applying database migrations is using the CLI. You can use either the `dotnet ef` tool or the PowerShell commands. For example, you can execute the `Update-Database` command from PowerShell to apply any pending migrations.
 
-```pwsh
+```powershell
 Update-Database -Migration <ToMigration> -Connection <ConnectionString>
 ```
 
@@ -395,7 +395,7 @@ Migration bundles are executable files that you can use to apply database migrat
 
 You can use the `Bundle-Migration` command to create a migration bundle:
 
-```pwsh
+```powershell
 Bundle-Migration -Connection <ConnectionString>
 ```
 

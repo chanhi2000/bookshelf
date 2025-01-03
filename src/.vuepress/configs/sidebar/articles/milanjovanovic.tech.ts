@@ -129,17 +129,25 @@ export const template: SidebarInfoTemplate = {
       "implementing-the-saga-pattern-with-masstransit", // 2024-11-30
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       "scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts", // 2024-12-21
+      // END: 2024cs
+      "unit-testing-clean-architecture-use-cases", // 2025-01-04
       // END: cs
     ]],[
     "cs-razor", [
       "flexible-pdf-reporting-in-net-using-razor-views", // 2024-06-29
+      // END: 2024cs-razor
+      // END: cs-razor
     ]],[
     "js-node", [
       "horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing", // 2024-03-30
       "how-i-implemented-full-text-search-on-my-website", // 2024-09-21
+      // END: 2024js-node
+      // END: js-node
     ]],[
     "erl-rabbitmq", [
       "implementing-the-saga-pattern-with-rebus-and-rabbitmq", // 202404-01
+      // END: 2024erl-rabbitmq
+      // END: erl-rabbitmq
     ]],[
     "docker", [
       "horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing", // 2024-03-30
@@ -306,6 +314,8 @@ export const template: SidebarInfoTemplate = {
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       "scheduling-background-jobs-with-quartz-in-dotnet-advanced-concepts", // 2024-12-21
       "what-rewriting-a-40-year-old-project-taught-me-about-software-development", // 2024-12-28
+      // END: 2024
+      "unit-testing-clean-architecture-use-cases", // 2025-01-04
     ]]
   ])
 };

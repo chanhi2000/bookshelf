@@ -93,7 +93,7 @@ NServiceBus uses the concept of an *endpoint* to send and receive messages. It's
 
 Let's start by installing the `NServiceBus` NuGet package:
 
-```pwsh
+```powershell
 Install-Package NServiceBus.Extensions.Hosting
 ```
 

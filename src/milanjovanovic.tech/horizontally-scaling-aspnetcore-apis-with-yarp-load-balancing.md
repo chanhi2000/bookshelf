@@ -114,7 +114,7 @@ Setting up YARP is quite straightforward. You'll install the YARP NuGet package,
 
 First, let's install the `Yarp.ReverseProxy` NuGet package:
 
-```pwsh
+```powershell
 Install-Package Yarp.ReverseProxy
 ```
 

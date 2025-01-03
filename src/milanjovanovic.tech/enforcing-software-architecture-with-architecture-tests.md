@@ -82,7 +82,7 @@ We're going to use the `NetArchTest.Rules` library for writing architecture test
 
 First, you have to install the NuGet package:
 
-```pwsh
+```powershell
 Install-Package NetArchTest.Rules
 ```
 

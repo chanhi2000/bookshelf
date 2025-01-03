@@ -27,7 +27,9 @@ head:
 prev: /programming/js-react/articles/README.md
 date: 2024-10-24
 isOriginal: false
-author: Sanjay R
+author:
+  - name: Sanjay R
+    url: https://freecodecamp.org/news/author/sanjayxr/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729397399755/9c747607-fa82-4caf-9c20-8e64ec82c3f2.jpeg
 ---
 
