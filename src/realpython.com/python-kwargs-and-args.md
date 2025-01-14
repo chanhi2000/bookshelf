@@ -98,7 +98,7 @@ This function works fine, but it’s limited to only two arguments. What if you 
 
 There are a few ways you can pass a varying number of arguments to a function. The first way is often the most intuitive for people that have experience with collections. You simply pass a list or a [**set**](/realpython.com/python-sets.md) of all the arguments to your function. So for `my_sum()`, you could pass a list of all the integers you need to add:
 
-```py :collpased-lines title="sum_integers_list.py"
+```py :collapsed-lines title="sum_integers_list.py"
 def my_sum(my_integers):
     result = 0
     for x in my_integers:
@@ -140,7 +140,7 @@ print(my_sum(1, 2, 3))
 
 The function still works, even if you pass the iterable object as `integers` instead of `args`. All that matters here is that you use the **unpacking operator** (`*`).
 
-Bear in mind that the iterable object you’ll get using the unpacking operator `*` is not a [**`list`**](/realpython.com/python-list.md) but a [`tuple`](/realpython.com/python-lists-tuples.md). A `tuple` is similar to a `list` in that they both support slicing and iteration. However, tuples are very different in at least one aspect: lists are [**mutable**](/realpython.com/python-mutable-vs-immutable-types.md), while tuples are not. To test this, run the following code. This script tries to change a value of a list:
+Bear in mind that the iterable object you’ll get using the unpacking operator `*` is not a [**`list`**](/realpython.com/python-list/README.md) but a [`tuple`](/realpython.com/python-lists-tuples.md). A `tuple` is similar to a `list` in that they both support slicing and iteration. However, tuples are very different in at least one aspect: lists are [**mutable**](/realpython.com/python-mutable-vs-immutable-types.md), while tuples are not. To test this, run the following code. This script tries to change a value of a list:
 
 ```py title="change_list.py"
 my_list = [1, 2, 3]

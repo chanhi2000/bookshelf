@@ -388,7 +388,7 @@ then track screenshot images with Git LFS
 git lfs track "app/src/debug/**/*.png"
 ```
 
-Add <FontIcon icon="fa-brands fa-git"/>`.gitattributes` to the repository
+Add <FontIcon icon="iconfont icon-git"/>`.gitattributes` to the repository
 
 ```sh
 git add .gitattributes

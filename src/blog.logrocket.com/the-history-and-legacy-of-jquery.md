@@ -48,7 +48,7 @@ cover: /assets/image/blog.logrocket.com/the-history-and-legacy-of-jquery/banner.
   name="The history and legacy of jQuery"
   desc="jQuery has lately fallen out of favor in web development, but it still powers an estimated 74 percent of sites and paved the way for modern web frameworks."
   url="https://blog.logrocket.com/the-history-and-legacy-of-jquery"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/the-history-and-legacy-of-jquery/banner.png"/>
 
 [<FontIcon icon="iconfont icon-jQuery"/>jQuery](https://jquery.com/) is the [<FontIcon icon="fas fa-globe"/>most widely used](https://trends.builtwith.com/javascript/jQuery) JavaScript library in the world. The web development community embraced it in the late 2000s, creating a rich ecosystem of websites, plugins, and frameworks that use jQuery under the hood.
@@ -211,7 +211,7 @@ Some people are unhappy with the rate of churn in web development tooling, but t
   "title": "The history and legacy of jQuery",
   "desc": "jQuery has lately fallen out of favor in web development, but it still powers an estimated 74 percent of sites and paved the way for modern web frameworks.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/the-history-and-legacy-of-jquery.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

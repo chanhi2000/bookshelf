@@ -88,6 +88,8 @@ export default hopeTheme({
     },
     prismjs: {
       theme: "dracula",
+      notationDiff: true,
+      notationFocus: true,
     },
     markdownHint: {
       alert: true,

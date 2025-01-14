@@ -215,7 +215,7 @@ The above image shows that there are three ports on the server. One of them is s
 
 Congratulations! You’ve successfully set up your own hacking lab using VMware. This lab gives you the flexibility to practice ethical hacking in a controlled, isolated environment.
 
-For more free tutorials on cybersecurity, [<FontIcon icon="fas fa-globe"/>join our newsletter](https://stealthsecurity.sh/). To learn how to hack the Mr.Robot and other boxes, join our private community [<FontIcon icon="fas fa-globe"/>Hacker’s Hub](https://skool.com/hackershub). If you are starting out in Cybersecurity, check out the [<FontIcon icon="fas fa-glboe"/>Hacker’s Handbook](https://book.stealthsecurity.sh/).
+For more free tutorials on cybersecurity, [<FontIcon icon="fas fa-globe"/>join our newsletter](https://stealthsecurity.sh/). To learn how to hack the Mr.Robot and other boxes, join our private community [<FontIcon icon="fas fa-globe"/>Hacker’s Hub](https://skool.com/hackershub). If you are starting out in Cybersecurity, check out the [<FontIcon icon="fas fa-globe"/>Hacker’s Handbook](https://book.stealthsecurity.sh/).
 
 See you soon with another article.
 

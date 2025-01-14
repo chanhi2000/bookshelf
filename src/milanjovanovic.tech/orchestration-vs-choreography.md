@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Orchestration vs Choreography
 description: Article(s) > Orchestration vs Choreography
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Start Your Open Source Journey: A Beginner's Guide to Contributing"
 description: "Article(s) > How to Start Your Open Source Journey: A Beginner's Guide to Contributing"
-icon: fa-brands fa-github
+icon: iconfont icon-github
 category:
   - Github
   - Markdown

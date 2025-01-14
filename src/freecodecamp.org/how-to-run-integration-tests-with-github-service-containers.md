@@ -6,6 +6,7 @@ icon: iconfont icon-github
 category:
   - DevOps
   - Github
+  - CI/CD
   - Github Actions
   - Article(s)
 tag:
@@ -14,6 +15,9 @@ tag:
   - devops
   - github
   - github-actions
+  - ci
+  - cd
+  - ci-cd
 head:
   - - meta:
     - property: og:title

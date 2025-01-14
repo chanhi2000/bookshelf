@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/web-animation-with-html-css-and-javascri
   name="Web animations with HTML, CSS, and JavaScript"
   desc="This guide runs through some basic animations in CSS and JavaScript and shows you how to add input animations to your site."
   url="https://blog.logrocket.com/web-animation-with-html-css-and-javascript"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/web-animation-with-html-css-and-javascript/banner.png"/>
 
 ## Introduction
@@ -305,7 +305,7 @@ These are just a few things you need to know about web animation. Remember, this
   "title": "Web animations with HTML, CSS, and JavaScript",
   "desc": "This guide runs through some basic animations in CSS and JavaScript and shows you how to add input animations to your site.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/web-animation-with-html-css-and-javascript.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

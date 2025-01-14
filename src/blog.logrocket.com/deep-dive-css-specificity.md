@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/deep-dive-css-specificity/banner.png
   name="A deep dive into CSS specificity"
   desc="Learn what CSS specificity is, how CSS hierarchy works, and all about the !important rule. Also learn how to calculate a specificity score."
   url="https://blog.logrocket.com/deep-dive-css-specificity"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/deep-dive-css-specificity/banner.png"/>
 
 Every CSS developer should be familiar with three key CSS concepts: [<FontIcon icon="fa-brands fa-firefox"/>cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade), [<FontIcon icon="fa-brands fa-firefox"/>inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance), and [<FontIcon icon="fa-brands fa-firefox"/>specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Specificity is a CSS method for resolving conflicts when selectors with different style rules are applied to the same element. Specificity is an essential component of CSS, and understanding how it works will save you a lot of time and trouble when debugging.
@@ -292,7 +292,7 @@ Specificity is one of the main pillars of CSS and a very useful concept to under
   "title": "A deep dive into CSS specificity",
   "desc": "Learn what CSS specificity is, how CSS hierarchy works, and all about the !important rule. Also learn how to calculate a specificity score.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/deep-dive-css-specificity.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

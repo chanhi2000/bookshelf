@@ -70,7 +70,7 @@ I've been tinkering with .NET Aspire lately, and I've got some thoughts to share
 
 > .NET Aspire is an opinionated, cloud-ready stack for building observable, production-ready, distributed applications.
 
-[<FontIcon icon="fa-brands fa-microsoft"/>**.NET Aspire**](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is Microsoft's latest offering for cloud-native application development. It aims to simplify the process of building, deploying, and managing distributed applications.
+[<FontIcon icon="fa-brands fa-microsoft"/>.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is Microsoft's latest offering for cloud-native application development. It aims to simplify the process of building, deploying, and managing distributed applications.
 
 Distributed applications often consist of small applications that consume external services like databases, message brokers, and caching. .NET Aspire gives you a set of tools to make building distributed applications easier.
 
@@ -82,7 +82,7 @@ How are you setting up a local development environment? I often use **Docker Com
 
 Here's a `docker-compose.yml` file from a recent project:
 
-```yml
+```yml :collapsed-lines title="docker-compose.yaml"
 services:
   contentplatform-api:
     image: ${DOCKER_REGISTRY-}contentplatform-api
@@ -142,7 +142,7 @@ So, I decided to migrate this application to .NET Aspire and documented the proc
 
 You can right-click an existing project in Visual Studio and select `Add > .NET Aspire Orchestrator Support...`.
 
-![Context menu with '.NET Aspire Orchestrator Support...' highlighted.<br/>Source: [<FontIcon icon="fas fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app)](https://milanjovanovic.tech/blogs/mnw_107/aspire_orchestration.png?imwidth=750)
+![Context menu with '.NET Aspire Orchestrator Support...' highlighted.<br/>Source: [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app)](https://milanjovanovic.tech/blogs/mnw_107/aspire_orchestration.png?imwidth=750)
 
 This will add an `AppHost` and `ServiceDefaults` project to your solution. You will then repeat this for the remaining projects in your solution to enlist them all in Aspire orchestration.
 
@@ -150,7 +150,7 @@ The `AppHost` project is responsible for orchestration. You can define your enti
 
 Here's the setup for my application using Aspire:
 
-```cs
+```cs :collapsed-lines
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
 var postgres = builder.AddPostgres("contentplatform-db")
@@ -318,8 +318,6 @@ You can find the source code for this example in [this repository (<FontIcon ico
   preview="https://opengraph.githubassets.com/b6a001b985225ba997fe2350fa0525207e489a68ceeab8aa2e7cea8d73a05d2d/m-jovanovic/aspire-orchestration"/>
 
 :::
-
-
 
 <!-- START: ARTICLE CARD -->
 ```component VPCard

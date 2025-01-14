@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Why Clean Architecture Is Great For Complex Projects
 description: Article(s) > Why Clean Architecture Is Great For Complex Projects
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

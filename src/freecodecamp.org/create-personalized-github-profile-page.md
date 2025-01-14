@@ -2,7 +2,7 @@
 lang: en-US
 title: How to Create Your Personalized GitHub Profile Page – GitHub Profile README Guide
 description: Article(s) > How to Create Your Personalized GitHub Profile Page – GitHub Profile README Guide
-icon: fa-brands fa-github
+icon: iconfont icon-github
 category: 
   - Git
   - Github

@@ -432,7 +432,7 @@ Once you have Node and npm installed, let’s run the following command in the r
 npx create-react-app students-fe
 ```
 
-If you don’t know `create-react-app`, [**read through a quick setup guide**](/blog.logrocket.com/create-react-app-a-quick-setup-guide-b812f0aad03c.md) for some help getting started.
+If you don’t know `create-react-app`, [**read through a quick setup guide**](/blog.logrocket.com/create-react-app-a-quick-setup-guide.md) for some help getting started.
 
 ### CRUD React components
 
@@ -916,7 +916,7 @@ In the world of SPAs, your backend APIs are practically fully independent from t
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://repository-images.githubusercontent.com/596892/cc2c69ec-9251-4b33-8283-b86a8659c9cb"/>
 
-As a challenge, try to add a [**pagination system**](/blog.logrocket.com/4-ways-to-render-large-lists-in-react/) to your API/React app. The Django REST Framework provides support for [<FontIcon icon="iconfont icon-django"/>customizable pagination styles](https://django-rest-framework.org/api-guide/pagination/).
+As a challenge, try to add a [**pagination system**](/blog.logrocket.com/render-large-lists-react-5-methods-examples.md) to your API/React app. The Django REST Framework provides support for [<FontIcon icon="iconfont icon-django"/>customizable pagination styles](https://django-rest-framework.org/api-guide/pagination/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

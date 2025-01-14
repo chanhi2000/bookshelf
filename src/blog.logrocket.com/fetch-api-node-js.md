@@ -49,7 +49,7 @@ cover: /assets/image/blog.logrocket.com/fetch-api-node-js/banner.png
   name="The Fetch API is finally stable in Node.js"
   desc="Learn about the features and drawbacks of the Fetch AP, which is now natively available in Node.js version 21."
   url="https://blog.logrocket.com/fetch-api-node-js"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/fetch-api-node-js/banner.png"/>
 
 ::: note Editor's note
@@ -237,7 +237,7 @@ This stable release offers several benefits including the ability to make HTTP r
   "title": "The Fetch API is finally stable in Node.js",
   "desc": "Learn about the features and drawbacks of the Fetch AP, which is now natively available in Node.js version 21.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/fetch-api-node-js.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/css-important-declaration-when-why/banne
 name="When and why to use the CSS !important declaration"
 desc="The !important notation in CSS can be applied to override other conflicting rules for the matching selector."
 url="https://blog.logrocket.com/css-important-declaration-when-why"
-logo="/images/asset/blog.logrocket.com/favicon.png"
+logo="/assets/image/blog.logrocket.com/favicon.png"
 preview="/assets/image/blog.logrocket.com/css-important-declaration-when-why/banner.png"/>
 
 `!important` in CSS is a special notation that we can apply to a CSS declaration to override other conflicting rules for the matching selector.
@@ -451,7 +451,7 @@ I hope you enjoyed reading this post. If you have questions or contributions, sh
 "title": "When and why to use the CSS !important declaration",
 "desc": "The !important notation in CSS can be applied to override other conflicting rules for the matching selector.",
 "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/css-important-declaration-when-why.html",
-"logo": "/images/asset/blog.logrocket.com/favicon.png",
+"logo": "/assets/image/blog.logrocket.com/favicon.png",
 "background": "rgba(112,76,182,0.2)"
 }
 ```

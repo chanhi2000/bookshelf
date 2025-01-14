@@ -96,7 +96,7 @@ To get started, we first want to navigate to the directory we want to create our
 
 We’ll use a Starter to create our project. To do this, we have two options for a package manager to use: yarn or npm. You can choose whichever you feel more comfortable with for the remainder of the walkthrough.
 
-::: code-tab#sh
+::: code-tabs#sh
 
 @tab:active <FontIcon icon="fa-brands fa-yarn"/>yarn
 
@@ -122,7 +122,7 @@ Once installation is finished, we’re now ready to get started with Next.js.
 
 Navigate in your terminal to the new directory where your project is located and run:
 
-::: code-tab#sh
+::: code-tabs#sh
 
 @tab:active <FontIcon icon="fa-brands fa-yarn"/>yarn
 

@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/hsl-hsla-vs-rgb-rgba-css/banner.png
   name="HSL and HSLA vs. RGB and RGBA in CSS"
   desc="This article explains the differences between HSL and RGB in CSS and how to use the CSS HSL functions to create flexible color systems."
   url="https://blog.logrocket.com/hsl-hsla-vs-rgb-rgba-css"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/hsl-hsla-vs-rgb-rgba-css/banner.png"/>
 
 HSL colors in CSS have been around for over ten years, but I’ve found that they’re still often underutilized. Despite its great utility, many developers avoided the HSL CSS function due to its limited browser support.
@@ -241,7 +241,7 @@ I hope you learned something new through this tutorial. Should you get stuck, le
   "title": "HSL and HSLA vs. RGB and RGBA in CSS",
   "desc": "This article explains the differences between HSL and RGB in CSS and how to use the CSS HSL functions to create flexible color systems.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/hsl-hsla-vs-rgb-rgba-css.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

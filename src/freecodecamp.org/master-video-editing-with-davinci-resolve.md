@@ -29,6 +29,9 @@ head:
 prev: /tool/davinci/articles/README.md
 date: 2024-08-20
 isOriginal: false
+author:
+  - name: Gavin Lon (@GavinLon)
+    url: https://youtube.com/@GavinLon
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724158572406/4cd99bcb-c8a7-4898-bc78-1dc0f49bcbe6.png
 ---
 

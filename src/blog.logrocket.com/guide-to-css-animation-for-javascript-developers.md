@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/guide-to-css-animation-for-javascript-de
   name="Guide to CSS animation for JavaScript developers"
   desc="CSS animations can make memorable, interactive experiences for websites. Learn how to use them with JavaScript for better user experiences."
   url="https://blog.logrocket.com/guide-to-css-animation-for-javascript-developers"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/guide-to-css-animation-for-javascript-developers/banner.png"/>
 
 It’s been well-documented that the human brain is hardwired for motion. Humans are more likely to pay attention to how elements move rather than focusing on static elements.
@@ -260,7 +260,7 @@ If you have any questions, share them in the comment section below, and I’ll r
   "title": "Guide to CSS animation for JavaScript developers",
   "desc": "CSS animations can make memorable, interactive experiences for websites. Learn how to use them with JavaScript for better user experiences.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/guide-to-css-animation-for-javascript-developers.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

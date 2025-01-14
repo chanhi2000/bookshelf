@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/shine-effect-only-css/banner.png
   name="Create a shine effect using only CSS"
   desc="Create a shine effect using CSS to add an eye-catching visual that will help direct your users' attention."
   url="https://blog.logrocket.com/shine-effect-only-css"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/shine-effect-only-css/banner.png"/>
 
 Used widely by software engineers, graphic designers, and both UI and UX professionals, CSS offers the ability to customize the design of your project by creating unique, eye-catching visuals. While some visual effects are relatively straightforward to achieve, [**others are more complicated, requiring detailed workarounds to obtain the desired output**](/blog.logrocket.com/guide-to-css-animation-for-javascript-developers.md).
@@ -273,7 +273,7 @@ form {
 
 At this point, your form should look like the image below:
 
-![Simple Form Styling CSS](https://blog.logrocket.com/wp-content/uploads/2022/01/simple-form-styling-css.jpeg)
+![Simple Form Styling CSS](/assets/image//blog.logrocket.com/shine-effect-only-css/simple-form-styling-css.jpeg)
 
 Now, we’ll style our `form-head` class and add more effects to our `input` element, like `border` and `border-bottom`, as shown below:
 
@@ -291,7 +291,7 @@ input {
 
 The code snippet above results in the image below:
 
-![Form Head Class Effects Registration Button](https://blog.logrocket.com/wp-content/uploads/2022/01/form-head-class-effects-registration-button.jpeg)
+![Form Head Class Effects Registration Button](/assets/image//blog.logrocket.com/shine-effect-only-css/form-head-class-effects-registration-button.webp)
 
 To wrap up the basics of our form, let’s add some additional properties to our `input` element:
 
@@ -309,7 +309,7 @@ input {
 
 Now, our form will look like the image below:
 
-![Form Basics Registration Button](https://blog.logrocket.com/wp-content/uploads/2022/01/form-basics-registration-button.jpeg)
+![Form Basics Registration Button](/assets/image//blog.logrocket.com/shine-effect-only-css/form-basics-registration-button.jpeg)
 
 ---
 
@@ -336,7 +336,7 @@ button {
 
 With the code snippet above, we can customize our button with certain properties like `color`, `font-weight`, `padding`, and `border-radius`. You can see the result in the image below:
 
-![Customize Button Additional Properties](https://blog.logrocket.com/wp-content/uploads/2022/01/customize-button-additional-properties.jpeg)
+![Customize Button Additional Properties](/assets/image//blog.logrocket.com/shine-effect-only-css/customize-button-additional-properties.jpeg)
 
 Finally, we’ll add a shine effect to our `Sign Up` button, as shown in the code snippet below:
 
@@ -374,7 +374,7 @@ Secondly, I added a `transition` property, which will determine how fast or slow
 
 Then, I added a `button:hover` effect property, which acts like an event listener, where we’ll include the colors that create a shine-like effect. Now, whenever the button is hovered on or clicked on, the selected colors will become a mix of brown, pink, and green along a `35deg` angle. The transition time is set to `0.5`seconds, which is the duration before the effects are applied on the button. The `background-position` remains unchanged because we assign `0%` to both the right and left positions:
 
-![Final CSS Shine Effect](https://blog.logrocket.com/wp-content/uploads/2022/01/final-css-shine-effect.jpeg)
+![Final CSS Shine Effect](/assets/image//blog.logrocket.com/shine-effect-only-css/final-css-shine-effect.jpeg)
 
 You could also [<FontIcon icon="fa-brands fa-youtube"/>check out the effect on YouTube](https://youtu.be/NpAEQzeSoOE).
 
@@ -396,7 +396,7 @@ I hope you enjoyed this article, and please be sure to leave a comment if you ha
   "title": "Create a shine effect using only CSS",
   "desc": "Create a shine effect using CSS to add an eye-catching visual that will help direct your users' attention.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/shine-effect-only-css.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

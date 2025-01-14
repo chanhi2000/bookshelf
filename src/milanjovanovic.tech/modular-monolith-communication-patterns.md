@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Modular Monolith Communication Patterns
 description: Article(s) > Modular Monolith Communication Patterns
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

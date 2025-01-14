@@ -333,7 +333,7 @@ The hypothesis tests aim to evaluate the performance of two different UUID stora
 - A randomly generated name composed of two random first names.
 - A random age between 18 and 99.
 
-```kotlin :collpased-lines
+```kotlin :collapsed-lines
 init {
     viewModelScope.launch(Dispatchers.IO + CoroutineExceptionHandler { \_, throwable ->
         println("An error occurred: ${throwable.localizedMessage}")

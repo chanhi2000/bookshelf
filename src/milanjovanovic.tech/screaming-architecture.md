@@ -2,7 +2,7 @@
 lang: ko-KR
 title: Screaming Architecture
 description: Article(s) > Screaming Architecture
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

@@ -131,7 +131,7 @@ class Registry<T> {
 }
 ```
 
-Why does Swift ban this? As I noted back in [part 4 on generics](/douggregor.net/swift-for-cpp-practitioner-4.md), Swift's generics are implemented with separate compilation. We do not know at the point where `sharedRegistry` is defined what types it will be specialized with, and in the general case (say, `Registry` is in a shared library), it's impossible to know what types it will be specialized with until the program runs. Therefore, we can't allocate space from global memory for every `Registry<T>.sharedRegistry` that we might come across.
+Why does Swift ban this? As I noted back in [part 4 on generics](/douggregor.net/swift-for-cpp-practitioners-4.md), Swift's generics are implemented with separate compilation. We do not know at the point where `sharedRegistry` is defined what types it will be specialized with, and in the general case (say, `Registry` is in a shared library), it's impossible to know what types it will be specialized with until the program runs. Therefore, we can't allocate space from global memory for every `Registry<T>.sharedRegistry` that we might come across.
   
 Yes, we *could* create a hash table indexed based on the generic argument for `T`, allocating new `sharedRegistry` instances on the heap each time there's a new generic argument... but this is *really* stretching the definition of "global variable", and the performance of such a feature would be surprising (to say the least). Instead, Swift prohibits static stored properties in generic types rather than provide an unsatisfying implementation.
   

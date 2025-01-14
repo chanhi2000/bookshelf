@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Benjamin Johnson
     url: https://blog.logrocket.com/author/bjohnson/
-cover: /images/asset/blog.logrocket.com/how-css-works-understanding-the-cascade/banner.png
+cover: /assets/image/blog.logrocket.com/how-css-works-understanding-the-cascade/banner.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,26 +47,36 @@ cover: /images/asset/blog.logrocket.com/how-css-works-understanding-the-cascade/
   name="How CSS works: Understanding the cascade"
   desc="A few weeks back I got to start a short series on CSS fundamentals. If you’re in the front-end web […]"
   url="https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
-  preview="/images/asset/blog.logrocket.com/how-css-works-understanding-the-cascade/banner.png"/>
+  logo="/assets/image/blog.logrocket.com/favicon.png"
+  preview="/assets/image/blog.logrocket.com/how-css-works-understanding-the-cascade/banner.png"/>
 
 A few weeks back I got to start a short series on CSS fundamentals. If you’re in the front-end web development space, CSS is one of those key things to know. Whether you’re into CSS-in-JS or you’d rather just have plain ol’ CSS, knowing how CSS works under the hood is crucial for writing efficient, scalable CSS.
 
-The [first post in this series](/blog.logrocket.com/how-css-works-parsing-painting-css-in-the-critical-rendering-path-b3ee290762d3.m) was a deep dive into how the browser actually renders CSS to pixels. In this second post, we’ll dive into an often-misunderstood feature of the CSS language — the cascade.
+The [**first post in this series**](/blog.logrocket.com/how-css-works-parsing-painting-css-in-the-critical-rendering-path.md) was a deep dive into how the browser actually renders CSS to pixels. In this second post, we’ll dive into an often-misunderstood feature of the CSS language — the cascade.
 
-The cascade is inherent to working with CSS — after all, it is what gives “Cascading Style Sheets” their *cascading* nature. The cascade can be a powerful tool, but using it wrong can lead to brittle stylesheets that give front-end developers nightmares any time they have to make a change. As we dive into the cascade, we’ll also look at a few ways to keep the cascade from getting out of hand.
+The cascade is inherent to working with CSS — after all, it is what gives “Cascading Style Sheets” their _cascading_ nature. The cascade can be a powerful tool, but using it wrong can lead to brittle stylesheets that give front-end developers nightmares any time they have to make a change. As we dive into the cascade, we’ll also look at a few ways to keep the cascade from getting out of hand.
 
 ---
 
 ## Defining the cascade
 
-Since we’ll be talking about the specifics of *how* the CSS Cascade works, it’ll be helpful for us all to be on the same page.
+Since we’ll be talking about the specifics of _how_ the CSS Cascade works, it’ll be helpful for us all to be on the same page.
 
 ::: info <FontIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec
 
 Here’s the definition from the [<FontIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec](https://w3.org/TR/css-cascade-4/#cascading).
 
 > The cascade takes a unordered list of declared values for a given property on a given element, sorts them by their declaration’s precedence, and outputs a single cascaded value.
+
+```component VPCard
+{
+  "title": "CSS Cascading and Inheritance Level 4",
+  "desc": "The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their declaration’s precedence as determined below, and outputs a single cascaded value.",
+  "link": "https://w3.org/TR/css-cascade-4/#cascading/",
+  "logo": "https://w3.org/favicon.ico",
+  "background": "rgba(47,93,149,0.2)"
+}
+```
 
 :::
 
@@ -78,7 +88,7 @@ The CSS cascade takes a few of these attributes and assigns each of them a weigh
 
 However, if there are two rules still in conflict at a given weight, the algorithm will continue to “cascade down” and check the lower-priority attributes until it finds one that wins.
 
-Here are the attributes that the CSS Cascade algorithm checks, listed in order from *highest weight* to *least weight*.
+Here are the attributes that the CSS Cascade algorithm checks, listed in order from _highest weight_ to _least weight_.
 
 1. Origin & Importance
 2. Selector Specificity
@@ -91,9 +101,9 @@ Don’t worry, we’ll get into each of these in-depth.
 
 ### Origin & importance
 
-The highest weighted attribute that the cascade checks is a combination of the *importance* and the *origin* of a given rule.
+The highest weighted attribute that the cascade checks is a combination of the _importance_ and the _origin_ of a given rule.
 
-As far as the *origin* of a CSS rule goes, there are three places that a rule can come from.
+As far as the _origin_ of a CSS rule goes, there are three places that a rule can come from.
 
 1. **_User-Agent_**: These are the default styles provided for the element by the browser. This is why inputs can look slightly different on different browsers, and it’s also one of the reasons that people like to use CSS resets, to make sure that user-agent styles are overridden.
 2. **_User_**: These are defined and controlled by the user of the browser. Not everyone will have one, but when people do add one, it’s usually for overriding styles & adding accessibility to websites.
@@ -101,25 +111,25 @@ As far as the *origin* of a CSS rule goes, there are three places that a rule ca
 
 The *importance* of a CSS declaration is determined by the appropriately-named `!important` syntax. Adding `!important` to a CSS rule automatically jumps it to the front of the cascade algorithm, which is why it’s often discouraged. Overriding styles that use `!important` can only be done with other rules that use `!important`, which over time can make your CSS more brittle. Many people (myself included) recommend that you only use `!important` as an escape hatch for when all else fails (such as when working with 3rd-party styles).
 
-The cascade algorithm considers the *combination* of these 2 attributes when figuring out which declaration wins. Each combination is given a weight (similar to the way parts of a CSS declaration are weighted), and the declaration with the highest weight wins. Here are the various combinations of origin & importance that the browser considers, listed in order from *highest weight* to *least weight*.
+The cascade algorithm considers the _combination_ of these 2 attributes when figuring out which declaration wins. Each combination is given a weight (similar to the way parts of a CSS declaration are weighted), and the declaration with the highest weight wins. Here are the various combinations of origin & importance that the browser considers, listed in order from _highest weight_ to _least weight_.
 
 1. User-Agent & `!important`
 2. User & `!important`
 3. Author & `!important`
-4. CSS Animations, `@keyframes` (This is the only exception, it is still originating from the *author,* but as animations are temporary/fleeting the browser weights them slightly higher than normal author rules)
+4. CSS Animations, `@keyframes` (This is the only exception, it is still originating from the _author_, but as animations are temporary/fleeting the browser weights them slightly higher than normal author rules)
 5. Author, normal weight
 6. User, normal weight
 7. User agent, normal weight
 
 When the browser comes up against 2 (or more) conflicting CSS declarations and one wins at the origin & importance level, the CSS cascade resolves to that rule. No questions asked. Game over.
 
-However, if the conflicting declarations have the same level of importance/origin, the cascade moves on to consider *selector specificity.*
+However, if the conflicting declarations have the same level of importance/origin, the cascade moves on to consider _selector specificity_.
 
 #### Selector specificity
 
-The second weight in the CSS cascade is *selector specificity.* In this tier, the browser looks at the *selectors* used in the CSS declaration.
+The second weight in the CSS cascade is _selector specificity_. In this tier, the browser looks at the _selectors_ used in the CSS declaration.
 
-As a front-end developer, you only have control over the “author” origin stylesheets on your websites — you can’t do much to change the *origin* of a rule. However, if you’re staying away from using `!important` in your code, you’ll find that you have a lot of control over the cascade at the specificity tier.
+As a front-end developer, you only have control over the “author” origin stylesheets on your websites — you can’t do much to change the _origin_ of a rule. However, if you’re staying away from using `!important` in your code, you’ll find that you have a lot of control over the cascade at the specificity tier.
 
 Similar to the way that the combinations of origin & importance each have their own weight, different types of CSS selectors are assigned priority. When evaluating specificity, the number of selectors and their priority are considered. CSS selectors can belong to one of the following weighted tiers.
 
@@ -189,7 +199,7 @@ However, with better knowledge of the CSS cascade comes higher responsibility. T
 "title": "How CSS works: Understanding the cascade",
   "desc": "A few weeks back I got to start a short series on CSS fundamentals. If you’re in the front-end web […]",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

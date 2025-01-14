@@ -4,6 +4,7 @@ title: "How to Build a Simple Secure Chat System Using Netcat"
 description: "Article(s) > How to Build a Simple Secure Chat System Using Netcat"
 icon: fas fa-shield-halved
 category:
+  - DevOps
   - Security
   - Netcat
   - Linux
@@ -12,6 +13,7 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - devops
   - security
   - sec
   - netcat

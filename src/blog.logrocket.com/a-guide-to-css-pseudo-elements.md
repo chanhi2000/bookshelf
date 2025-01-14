@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/a-guide-to-css-pseudo-elements/banner.pn
   name="A guide to CSS pseudo-elements"
   desc="Learn more about 12 CSS pseudo-elements that give you more styling options, with CodePen demonstrations included."
   url="https://blog.logrocket.com/css-pseudo-elements-guide"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/a-guide-to-css-pseudo-elements/banner.png"/>
 
 ::: note Editor's note
@@ -533,7 +533,7 @@ I hope you added a bit more to your CSS knowledge with this tutorial. Let me kno
   "title": "A guide to CSS pseudo-elements",
   "desc": "Learn more about 12 CSS pseudo-elements that give you more styling options, with CodePen demonstrations included.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/css-pseudo-elements-guide.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

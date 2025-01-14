@@ -337,7 +337,7 @@ $$
 The Gaussian kernel, also known as the RBF kernel, is often used in SVM to map the input feature vector to an infinite-dimensional feature space using a Gaussian function. This kernel can handle more complex relationships.
 
 $$
-K\left(\mathrm{x}_{1},\mathrm{x}_{2}\right)=\exp⁡\left(−\gamma\|\mathrm{x}_{i}-\mathrm{x}_{j}\|^{2}\right)
+K\left(\mathrm{x}_{1},\mathrm{x}_{2}\right)=\text{exp}⁡\left(−\gamma\|\mathrm{x}_{i}-\mathrm{x}_{j}\|^{2}\right)
 $$
 
 <!-- \exp: No character metrics for '⁡' in style 'Main-Regular' and mode 'text' -->
@@ -347,11 +347,10 @@ $$
 The sigmoid kernel acts similarly to the activation function in neural networks. It functions similarly to a two-layered perception network and can map data into a higher-dimensional feature space.
 
 $$
-K\left(\mathrm{x}_{1},\mathrm{x}_{2}\right)=\tanh⁡\left(\alpha\left(\mathrm{x}_{i}\cdot\mathrm{x}_{j}\right)+c\right)
+K\left(\mathrm{x}_{1},\mathrm{x}_{2}\right)=\text{tanh⁡}\left(\alpha\left(\mathrm{x}_{i}\cdot\mathrm{x}_{j}\right)+c\right)
 $$
 
 <!-- \tanh: No character metrics for '⁡' in style 'Main-Regular' and mode 'text' -->
-
 
 :::
 

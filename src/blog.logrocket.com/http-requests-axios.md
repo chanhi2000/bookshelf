@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/http-requests-axios/banner.png
   name="How to make HTTP requests with Axios"
   desc="Learn how to make HTTP requests with Axios, from POST requests to Axios interceptors, using examples for efficient API communication."
   url="https://blog.logrocket.com/http-requests-axios"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/http-requests-axios/banner.png"/>
 
 ::: note Editor's note
@@ -62,6 +62,8 @@ This article was last updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](
 Axios is a client HTTP API based on the `XMLHttpRequest` interface provided by browsers. In this tutorial, we’ll demonstrate how to make HTTP requests using Axios with clear examples, including how to make an Axios POST request with `axios.post()`, how to send multiple requests simultaneously with `Promise.all`, and much more.
 
 If you’re more of a visual learner, check out the video tutorial below. Note that it is a few years old and may not reflect the most current information:
+
+<VidStack src="youtube/rzGGK7BHCAA" />
 
 ---
 
@@ -1044,7 +1046,7 @@ Do you have any tips on using Axios? Let us know in the comments!
   "title": "How to make HTTP requests with Axios",
   "desc": "Learn how to make HTTP requests with Axios, from POST requests to Axios interceptors, using examples for efficient API communication.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/http-requests-axios.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

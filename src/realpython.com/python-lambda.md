@@ -176,7 +176,7 @@ You can apply the function above to an argument by surrounding the function and 
 # 3
 ```
 
-[<FontIcon icon="fa-brands fa-wikipeida-w"/>Reduction](https://en.wikipedia.org/wiki/Reduction_strategy_%28lambda_calculus%29) is a lambda calculus strategy to compute the value of the expression. In the current example, it consists of replacing the bound variable `x` with the argument `2`:
+[<FontIcon icon="fa-brands fa-wikipedia-w"/>Reduction](https://en.wikipedia.org/wiki/Reduction_strategy_%28lambda_calculus%29) is a lambda calculus strategy to compute the value of the expression. In the current example, it consists of replacing the bound variable `x` with the argument `2`:
 
 ```py
 (lambda x: x + 1)(2) = lambda 2: 2 + 1
@@ -1155,7 +1155,7 @@ list(filter(even, range(11)))
 # [0, 2, 4, 6, 8, 10]
 ```
 
-Note that `filter()` returns an iterator, hence the need to invoke the built-in type [**`list`**](/realpython.com/python-list.md) that constructs a list given an iterator.
+Note that `filter()` returns an iterator, hence the need to invoke the built-in type [**`list`**](/realpython.com/python-list/README.md) that constructs a list given an iterator.
 
 The implementation leveraging the list comprehension construct gives the following:
 

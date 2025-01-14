@@ -119,7 +119,7 @@ So, the main difference between a [**module**](/realpython.com/python-modules-pa
 
 ::: note
 
-Importable code is code that defines something but doesn’t perform a specific action. Some examples include function and class definitions. In contrast, executable code is code that performs specific actions. Some examples include [**function calls**](/realpython.com/defining-your-own-python-function/#function-calls-and-definition.md), loops, and [**conditionals**](/realpython.com/python-conditional-statements.md).
+Importable code is code that defines something but doesn’t perform a specific action. Some examples include function and class definitions. In contrast, executable code is code that performs specific actions. Some examples include [**function calls**](/realpython.com/defining-your-own-python-function.md#function-calls-and-definition.md), loops, and [**conditionals**](/realpython.com/python-conditional-statements.md).
 
 :::
 
@@ -143,7 +143,7 @@ To create a Python script, you can use any Python-friendly [**code editor or IDE
 print("Hello, World!")
 ```
 
-This is the classic `"Hello, World!"` program in Python. The executable code consists of a call to the built-in [**`print()`**](/realpython.com/python-print.md) function that displays the `"Hello, World!"` message on your screen.
+This is the classic `"Hello, World!"` program in Python. The executable code consists of a call to the built-in [**`print()`**](/realpython.com/python-print/README.md) function that displays the `"Hello, World!"` message on your screen.
 
 With this small program ready, you’re ready to learn different ways to run it. You’ll start by running the program from your command line, which is arguably the most commonly used approach to running scripts.
 

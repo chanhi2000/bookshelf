@@ -47,7 +47,7 @@ cover: /assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/banner
   name="An advanced guide to setting colors in CSS"
   desc="Learn the common and advanced techniques to apply colors with CSS to your projects including HEX, RBG, HSL, HWB, LAB, and LCH."
   url="https://blog.logrocket.com/advanced-guide-setting-colors-css"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/banner.png"/>
 
 Color is one of the first things you learn to apply as a web developer when learning CSS, but once you learn the basics, how often do you revisit it?
@@ -150,7 +150,7 @@ Note that if you set the lightness to `0`, regardless of the other parameters, y
 
 [<FontIcon icon="fas fa-globe"/>Below is a diagram](https://researchgate.net/publication/335024102/figure/fig2/AS:789313210036225@1565198342617/a-Color-wheel-of-hue-b-The-HSL-model-Creative-Commons.ppm) that shows the HSL color space and how you can manipulate it using the three parameters outlined above.
 
-![HSL Diagram Showing A 2D and 3D Color Wheel](https://blog.logrocket.com/wp-content/uploads/2022/01/HSL-diagram.jpeg)
+![HSL Diagram Showing A 2D and 3D Color Wheel](/assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/hsl-diagram.jpeg)
 
 Here are the same colors that we defined previously with HEX and RGB, but now with their corresponding HSL values:
 
@@ -376,7 +376,7 @@ If you’re curious to check out the browser support for the individual methods 
 
 ## Conclusion
 
-So, that’s it! In this article, we covered every way [**you can set colors in CSS**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript-fb547113a1b8.md) including some of the new and exciting methods yet to become widely supported in CSS as well as why and how to use each method for your next project.
+So, that’s it! In this article, we covered every way [**you can set colors in CSS**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript.md) including some of the new and exciting methods yet to become widely supported in CSS as well as why and how to use each method for your next project.
 
 I hope you found this article on setting colors in CSS helpful. If you did, [please consider following me over on Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`MrConerMurphy`)](https://x.com/MrConerMurphy), where I post helpful and actionable tips and content on the JavaScript ecosystem and web development as a whole. Or if Twitter isn’t your thing, [<FontIcon icon="fas fa-globe"/>visit my blog](https://conermurphy.com/blog) for more of my content.
 
@@ -386,7 +386,7 @@ I hope you found this article on setting colors in CSS helpful. If you did, [ple
   "title": "An advanced guide to setting colors in CSS",
   "desc": "Learn the common and advanced techniques to apply colors with CSS to your projects including HEX, RBG, HSL, HWB, LAB, and LCH.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/advanced-guide-setting-colors-css.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

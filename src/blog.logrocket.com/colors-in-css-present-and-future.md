@@ -47,10 +47,10 @@ cover: /assets/image/blog.logrocket.com/colors-in-css-present-and-future/banner.
   name="Colors in CSS: The present and future"
   desc="The CSS Color Module Level 4 is set to introduce a number of new color models for use across the web, including HWB, LCH, Lab, and CMYK."
   url="https://blog.logrocket.com/colors-in-css-present-and-future"
-  logo="/images/asset/blog.logrocket.com/favicon.png"
+  logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/colors-in-css-present-and-future/banner.jpg"/>
 
-In a [**previous blog post with LogRocket**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript-fb547113a1b8.md), I covered the RGB and HSL color models and how to manipulate their various color properties. One aspect that I did not have the chance to cover was some of the upcoming models coming to CSS. This post will overview all of the color models, new and old, that will be a part of the [<FontIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4/), their properties, and when they might be useful.
+In a [**previous blog post with LogRocket**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript.md), I covered the RGB and HSL color models and how to manipulate their various color properties. One aspect that I did not have the chance to cover was some of the upcoming models coming to CSS. This post will overview all of the color models, new and old, that will be a part of the [<FontIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4/), their properties, and when they might be useful.
 
 ---
 
@@ -180,7 +180,7 @@ Each of these color models brings something new to CSS: CMYK gives a printer-foc
   "title": "Colors in CSS: The present and future",
   "desc": "The CSS Color Module Level 4 is set to introduce a number of new color models for use across the web, including HWB, LCH, Lab, and CMYK.",
   "link": "https://chanhi2000.github.io/bookshelf/blog.logrocket.com/colors-in-css-present-and-future.html",
-  "logo": "/images/asset/blog.logrocket.com/favicon.png",
+  "logo": "/assets/image/blog.logrocket.com/favicon.png",
   "background": "rgba(112,76,182,0.2)"
 }
 ```

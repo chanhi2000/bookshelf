@@ -2,7 +2,7 @@
 lang: ko-KR
 title: What Is a Modular Monolith?
 description: Article(s) > What Is a Modular Monolith?
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

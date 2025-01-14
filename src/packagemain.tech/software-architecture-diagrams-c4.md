@@ -2,7 +2,7 @@
 lang: ko-KR
 title: "Software Architecture Diagrams with C4 Model"
 description: "Article(s) > Software Architecture Diagrams with C4 Model"
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System

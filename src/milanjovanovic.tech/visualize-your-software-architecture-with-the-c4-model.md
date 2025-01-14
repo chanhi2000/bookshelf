@@ -2,7 +2,7 @@
 lang: ko-KR
 title: "Visualize Your Software Architecture With The C4 Model"
 description: "Article(s) > Visualize Your Software Architecture With The C4 Model"
-icon: fas fa-pen
+icon: fas fa-pen-ruler
 category: 
   - Design
   - System
