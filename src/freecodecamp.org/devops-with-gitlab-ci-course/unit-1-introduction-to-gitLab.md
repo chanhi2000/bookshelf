@@ -95,7 +95,7 @@ test:
 - [How to set up your SSH key for GitLab on Windows 10](https://medium.com/devops-with-valentine/2021-how-to-your-ssh-key-for-gitlab-on-windows-10-587579192be0?sk=b836675d967a923ea81d911d73702629)
 - [How to set up your SSH key for GitLab on macOS](https://medium.com/devops-with-valentine/2021-how-to-setup-your-ssh-key-for-gitlab-on-macos-dfccec6904fb?sk=fe992efb74d7bd794cf76bb8a26f0437)
 - [How to set up your SSH key for GitLab on Linux](https://medium.com/devops-with-valentine/2021-how-to-your-ssh-key-for-gitlab-on-linux-1b94e2a3a49a?sk=1bca4bdb5c879f29be839aa42623113d)
-- [<FontIcon icon="fa-brands fa-youtube"/>Git for GitLab (Beginner's FULL COURSE)](https://www.youtube.com/watch?v=4lxvVj7wlZw)
+- [<FontIcon icon="fa-brands fa-youtube"/>Git for GitLab (Beginner's FULL COURSE)](https://youtu.be/4lxvVj7wlZw)
 - [How to Configure your own GitLab Runner with a Docker Executor on AWS EC2](https://medium.com/devops-with-valentine/how-to-configure-your-own-gitlab-runner-with-a-docker-executor-on-aws-ec2-d76c7be0660d?sk=fcb49b94811d5daeb5eb182e0afe467f)
 - [How to Configure your own GitLab Runner with a Docker Executor on Windows 10 or Windows 11](https://medium.com/devops-with-valentine/setup-gitlab-ci-runner-with-docker-executor-on-windows-10-11-c58dafba9191?sk=b550a70c0a7a60f1a3250a53145a3541)
 

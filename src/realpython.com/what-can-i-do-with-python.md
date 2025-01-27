@@ -424,7 +424,7 @@ Seaborn is a Python data visualization library based on Matplotlib. It provides 
 - [<FontIcon icon="fas fa-globe"/>Data Visualization With Python Learning Path](https://realpython.com/learning-paths/data-visualization-python/)
 - [<FontIcon icon="fas fa-globe"/>Data Science With Python Core Skills Learning Path](https://realpython.com/learning-paths/data-science-python-core-skills/)
 - [<FontIcon icon="fas fa-globe"/>Pandas for Data Science Learning Path Learning Path](https://realpython.com/learning-paths/pandas-data-science/)
-- [**Develop Data Visualization Interfaces in Python With Dash**](/realpython.com/python-dash.md)
+- [**Develop Data Visualization Interfaces in Python With Dash**](/realpython.com/python-dash/README.md)
 
 :::
 

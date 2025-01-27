@@ -72,7 +72,7 @@ According to the [<FontIcon icon="fa-brands fa-python"/>Python glossary](https:/
 
 :::
 
-Indeed, when you type the indicated [**`import` statement**](/realpython.com/python-import.md) into an interactive [**Python REPL**](/realpython.com/python-repl.md), then you’ll be presented with the nineteen aphorisms that make up the Zen of Python:
+Indeed, when you type the indicated [**`import` statement**](/realpython.com/python-import.md) into an interactive [**Python REPL**](/realpython.com/python-repl/README.md), then you’ll be presented with the nineteen aphorisms that make up the Zen of Python:
 
 ```py
 import this
@@ -100,7 +100,7 @@ import this
 # Namespaces are one honking great idea -- let's do more of those!
 ```
 
-The byline reveals the poem’s author, [<FontIcon icon="fa-brands fa-wikipedia-w"/>Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)), who’s a renowned software engineer and a long-standing [**CPython**](/realpython.com/cpython-source-code-guide.md) core developer best known for inventing the [**Timsort**](/realpython.com/sorting-algorithms-python.md#the-timsort-algorithm-in-python) sorting algorithm. He also authored the [**`doctest`**](/realpython.com/python-doctest.md) and [**`timeit`**](/realpython.com/python-timer.md#estimating-running-time-with-timeit) modules in the Python standard library, along with making many other contributions.
+The byline reveals the poem’s author, [<FontIcon icon="fa-brands fa-wikipedia-w"/>Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)), who’s a renowned software engineer and a long-standing [**CPython**](/realpython.com/cpython-source-code-guide.md) core developer best known for inventing the [**Timsort**](/realpython.com/sorting-algorithms-python/the-timsort-algorithm-in-python.md) sorting algorithm. He also authored the [**`doctest`**](/realpython.com/python-doctest.md) and [**`timeit`**](/realpython.com/python-timer.md#estimating-running-time-with-timeit) modules in the Python standard library, along with making many other contributions.
 
 Take your time to read through the Zen of Python and contemplate its wisdom. But don’t take the aphorisms literally, as they’re more of a guiding set of principles rather than strict instructions. You’ll learn about their humorous origins in the next section.
 

@@ -104,7 +104,7 @@ You must still specify the size of the array at the time of creation, as the cod
 
 :::
 
-```cs :collapsd-lines
+```cs :collapsed-lines
 // create an empty array of 20 indexes
 var numbers = new int[20];
 

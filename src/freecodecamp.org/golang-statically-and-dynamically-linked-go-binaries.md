@@ -295,7 +295,7 @@ Hopefully, after reading this article, you now have a better understanding of ho
 <li><a href="https://jvns.ca/blog/2021/11/17/debugging-a-weird--file-not-found--error/">Debugging a weird 'file not found' error</a>
 <li><a href="http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html">How the heck do we get to main()</a>
 <li><a href="https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/">A General Overview of What Happens Before main()</a>
-<li><a href="https://www.youtube.com/watch?v=q8irLfXwaFM">Rust Before Main</a>
+<li><a href="https://youtu.be/q8irLfXwaFM">Rust Before Main</a>
 
 -->
 

@@ -728,7 +728,7 @@ When you throw edge weights into the mix, then interesting possibilities open up
 
 Perhaps the most common use for traversing a weighted graph is when [planning a route](https://en.wikipedia.org/wiki/Journey_planner). A recipe to find the shortest path in a weighted graph, or a [multigraph](https://en.wikipedia.org/wiki/Multigraph) with many parallel connections, is [Dijkstra’s algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), which builds on top of the breadth-first search algorithm. However, Dijkstra’s algorithm uses a special **priority queue** instead of the regular FIFO queue.
 
-Explaining [Dijkstra’s shortest path algorithm](https://youtube.com/watch?v=pVfj6mxhdMw) is beyond the scope of this tutorial. However, in a nutshell, you can break it down into the following two steps:
+Explaining [Dijkstra’s shortest path algorithm](https://youtu.be/pVfj6mxhdMw) is beyond the scope of this tutorial. However, in a nutshell, you can break it down into the following two steps:
 
 1. Build the [shortest-path three](https://en.wikipedia.org/wiki/Shortest-path_tree) from a fixed source node to every other node in the graph.
 2. Trace back the path from the destination to the source node in the same way as you did before with the plain shortest-path algorithm.

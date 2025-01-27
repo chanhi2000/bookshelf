@@ -414,11 +414,114 @@ const THE_AI_ENGINEERING_HANDBOOK_HOW_TO_START_A_CAREER_AND_EXCEL_AS_AN_AI_ENGIN
   ]
 }
 
+const THE_CLEAN_CODE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-01-30
+  text: 'The Clean Code Handbook: How to Write Better Code for Agile Software Development',
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'the-clean-code-handbook',
+  children: [
+    'README',
+    'the-cost-of-bad-code',
+    'clean-coder-vs-messy-coder',
+    'ai-cant-save-you-if-your-code-is-a-mess',
+    '12-clean-code-design-patterns-for-building-agile-applications',
+    'modern-best-practices-to-help-you-write-clean-code-a-summary',
+    'automated-tools-for-maintaining-clean-code',
+    'the-role-of-documentation-in-agile-software-development',
+  ]
+}
+
+const NEXT_GEN_HEALTHCARE_WITH_AI_EPIGENETICS_AND_BIOENGINEERING: SidebarInfoSubgroupTemplate = { // 2025-02-05
+  text: 'Pioneering Next-Gen Healthcare with AI, Epigenetics, and Bioengineering',
+  collapsible: true,
+  icon: 'fas fa-brain',
+  subPath: 'next-gen-healthcare-with-ai-epigenetics-and-bioengineering',
+  children: [
+    'README',
+    'an-overview-of-bioengineering',
+    'regenerative-medicine',
+    'gene-editing',
+    'personalized-medicine',
+    'bioelectronic-medicine',
+    'synthetic-biology',
+    'environmental-engineering',
+    'aging-and-longevity',
+    'ethical-challenges-in-bioengineering',
+    'bioengineering-physical-devices-and-language-models',
+    'how-to-get-started-in-bioengineering',
+  ]
+}
+
+const HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP: SidebarInfoSubgroupTemplate = { // 2025-02-05
+  text: 'How to Build Scalable Access Control for Your Web App [Full Handbook]',
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'how-to-build-scalable-access-control-for-your-web-app',
+  children: [
+    'README',
+    'what-is-access-control-how-is-it-different-from-authz-authn-and-permissions',
+    'multi-layered-access-control',
+    'access-control-models',
+    'why-abac',
+    'attribute-based-access-control-in-depth',
+    '1-implementing-permissions-with-casl',
+    '2-build-your-custom-permissions-validation-framework',
+    'lets-summarize',
+  ]
+}
+
+const CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-06
+  text: 'Learn Clustering in Python – A Machine Learning Engineering Handbook',
+  collapsible: true,
+  icon: 'fa-brands fa-python ',
+  subPath: 'clustering-in-python-a-machine-learning-handbook',
+  children: [
+    'README',
+    'introduction-to-unsupervised-learning',
+    'supervised-vs-unsupervised-learning',
+    'important-terminology',
+    'how-to-prepare-data-for-unsupervised-learning',
+    'clustering-explained',
+    'k-means-clustering',
+    'elbow-method-for-optimal-number-of-clusters-k',
+    'hierarchical-clustering',
+    'dbscan-clustering',
+    'how-to-use-t-sne-for-visualizing-clusters-with-python',
+    'more-unsupervised-learning-techniques',
+  ] 
+}
+
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
+    "build-an-analytical-dashboard-with-nextjs", // 2025-02-06
+    "build-a-full-stack-app-with-nextjs-and-strapi", // 2025-02-05
+    HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP, // 2025-02-05
+    NEXT_GEN_HEALTHCARE_WITH_AI_EPIGENETICS_AND_BIOENGINEERING, // 2025-02-05
+    "how-to-use-the-vim-text-editor-intro-for-devs", // 2025-02-05
+    "tips-for-writing-clean-code", // 2025-02-05
+    "how-to-choose-a-cloud-development-environment", // 2025-02-05
+    "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-04
+    "learn-async-programming-in-typescript-promises-asyncawait-and-callbacks", // 2025-02-01
+    "langchain-alternatives-for-building-ai-and-agentic-workflows", // 2025-01-31
+    "what-is-a-process-id-process-management-tutorial", // 2025-01-31
+    "learn-the-basics-of-api-security", // 2025-01-31
+    "how-to-build-dependent-dropdowns-in-react", // 2025-01-30
+    THE_CLEAN_CODE_HANDBOOK, // 2025-01-30
+    "how-to-run-a-great-sprint-review-actionable-insights", // 2025-01-30
+    "master-object-oriented-programming-in-python", // 2025-01-30
+    "create-a-basic-cicd-pipeline-with-webhooks-on-linux", // 2025-01-29
+    "essential-cli-tui-tools-for-developers", // 2025-01-29
+    "java-collections-framework-reference-guide", // 2025-01-29
+    "how-to-build-an-application-with-aws-lambda", // 2025-01-29
+    "free-courses-top-cs-universities", // 2025-01-28
+    "how-to-use-deepseek-r1", // 2025-01-28
+    "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
+    "what-are-scripts-and-how-do-they-work", // 2025-01-27
     "how-to-use-collections-in-csharp", // 2025-01-24
     "how-to-develop-with-codeigniter-on-ubuntu-environment-setup", // 2025-01-24
     "how-to-use-granular-segmentation-with-feature-flags", // 2025-01-24
@@ -432,7 +535,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "how-to-use-langbase-memory-agents", // 2025-01-18
     "how-to-run-an-effective-daily-scrum", // 2025-01-18
     "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
-    "learn-to-use-github-actions-step-by-step-guide", // 2024-01-16
+    "learn-to-use-github-actions-step-by-step-guide", // 2025-01-16
     "simplify-python-library-rpm-packaging-with-mock-and-podman", // 2024-01-16
     "how-to-programmatically-highlight-text-with-the-css-custom-highlight-api", // 2025-01-16
     "build-a-dynamic-web-scraper-app-with-playwright-and-react", // 2025-01-15
@@ -535,123 +638,8 @@ const Y2024: SidebarYeargroupTemplate = {
     "rust-tutorial-build-a-json-parse", // 2024-05-29
     "how-do-numerical-conversions-work", // 2024-05-29
     "react-context-api-explained-with-examples", // 2024-05-30
-    "complete-c-programming-course-from-dr-chuck", // 2024-05-30
-    "learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go", // 2024-05-30
-    "javascript-prototypal-inheritance", // 2024-05-31
-    "how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126", // 2024-05-31
-    "automated-unit-testing-with-testgen-llm-and-cover-agent", // 2024-06-02
-    "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
-    "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
-    "how-to-build-a-rating-component-with-the-react-compound-component-pattern", // 2024-06-03
-    BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
-    APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK, // 2024-06-04
-    "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
-    "build-a-youtube-clone-with-flutter-firebase-and-riverpod", // 2024-06-04
-    "python-coding-challenges-for-beginners", // 2024-06-04
-    "linear-algebra-roadmap", // 2024-06-04
-    "the-javascript-this-keyword-explained-with-examples", // 2024-06-05
-    "learn-how-to-build-a-decentralized-file-storage-system-with-go", // 2024-06-05
-    "master-the-azure-devops-engineer-expert-certification-az-400", // 2024-06-06
-    "real-time-chat-with-go-fiber-htmx", // 2024-06-06
-    "weakmap-and-weakset-in-javascript", // 2024-06-07
-    "how-to-create-notice-blocks-in-markdown", // 2024-06-10
-    "unit-testing-in-python", // 2024-06-10
-    "how-to-fix-python-installation-errors-on-mac", // 2024-06-10
-    "learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence", // 2024-06-11
-    "learn-high-level-system-design-by-building-a-youtube-clone", // 2024-06-11
-    "retrieval-augmented-generation-rag-handbook", // 2024-06-11
-    "learn-threejs-by-building-five-projects", // 2024-06-12
-    "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
-    "free-linux-crash-course-with-labs", // 2024-06-13
-    "lambda-functions-in-python", // 2024-06-14
-    "how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom", // 2024-06-17
-    "how-the-black-scholes-equation-works-python-examples", // 2024-06-17
-    "how-to-handle-keyerror-exceptions-in-python", // 2024-06-17
-    "auto-scaling-and-load-balancing", // 2024-06-17
-    "first-class-functions-and-closures-in-python", // 2024-06-17
-    "how-to-enhance-embedded-links-in-react-with-microlinks", // 2024-06-18
-    "a-guide-to-object-oriented-programming-principles", // 2024-06-18
-    "how-to-host-static-sites-on-azure-static-web-apps", // 2024-06-18
-    "how-to-improve-your-digital-security-and-privacy", // 2024-06-18
-    "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
-    "what-is-trunk-based-development", // 2024-06-18
-    "building-intelligent-apps-with-mistral-ai", // 2024-06-18
-    "a-non-technical-introduction-to-generative-ai", // 2024-06-18
-    "decorators-in-python-tutorial", // 2024-06-18
-    "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
-    "for-else-loop-in-python", // 2024-06-19
-    "how-to-use-time-to-live-in-event-driven-architecture", // 2024-06-19
-    "best-practices-for-accessibility-in-web-development", // 2024-06-20
-    "learn-to-create-a-3d-rpg-game-with-godot", // 2024-06-20
-    "generative-ai-handbook", // 2024-06-20
-    "what-are-controlled-and-uncontrolled-components-in-react", // 2024-06-21
-    "introduction-to-solid-principles", // 2024-06-24
-    "mastering-vim-your-guide-to-efficient-text-editing", // 2024-06-24
-    "when-to-use-npm-packages", // 2024-06-24
-    "breakpoints-for-responsive-web-design", // 2024-06-24
-    "react-how-to-validate-user-input", // 2024-06-24
-    "create-an-ml-model-with-azure-machine-learning-designer", // 2024-06-25
-    "whats-new-in-react-19", // 2024-06-25
-    "scope-closures-and-hoisting-in-javascript", // 2024-06-26
-    "pyspark-for-beginners", // 2024-06-26
-    "how-to-create-database-migrations-in-go", // 2024-06-26
-    "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
-    "migrate-from-play-core-library", // 2024-06-26
-    "how-to-change-background-color-with-javascript", // 2024-06-28
-    "mastering-shadcn-ui-components", // 2024-06-28
-    "media-queries-vs-container-queries", // 2024-06-28
-    "infinite-scrolling-in-react", // 2024-07-01
-    "go-for-absolute-beginners", // 2024-07-01
-    "improve-your-javascript-projects-with-build-tools", // 2024-07-02
-    "excel-vs-google-sheets-tables", // 2024-07-02
-    "react-19-actions-simpliy-form-submission-and-loading-states", // 2024-07-02
-    "how-data-flows-in-redux", // 2024-07-03
-    "build-a-meditation-app-with-react-native-expo-router", // 2024-07-03
-    "how-to-use-callback-functions-in-javascript", // 2024-07-03
-    "upload-large-files-with-aws", // 2024-07-08
-    "what-is-a-markov-chain", // 2024-07-08
-    "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
-    "how-to-integrate-spring-boot-with-gatling", // 2024-07-08
-    "knowledge-distillation-in-deep-learning-models", // 2024-07-09
-    "how-to-use-pandoc", // 2024-07-09
-    "learn-typescript-with-interactive-lessons", // 2024-07-09
-    "prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification", // 2024-07-09
-    "improve-user-experience-with-optimistic-ui-swr", // 2024-07-09
-    "use-python-sdk-to-build-a-web-scraper", // 2024-07-10
-    "build-a-counter-button-with-react", // 2024-07-10
-    "nextjs-clerk-neon-fullstack-development", // 2024-07-10
-    "how-to-send-http-requests-using-javascript", // 2024-07-10
-    "how-to-use-python-generators", // 2024-07-10
-    "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
-    "more-secure-authentication-from-passwords-to-passkeys", // 2024-07-11
-    "how-to-deploy-a-web-app", // 2024-07-11
-    "learn-asynchronous-javascript", // 2024-07-11
-    "what-is-trpc", // 2024-07-11
-    "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
-    "generics-in-java", // 2024-07-12
-    "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
-    "difference-between-usememo-and-usecallback-hooks", // 2024-07-15
-    "how-to-use-linq", // 2024-07-15
-    "getting-started-in-cybersecurity", // 2024-07-16
-    "multithreading-for-beginners", // 2024-07-16
-    "what-are-monte-carlo-methods", // 2024-07-16
-    "how-to-deploy-node-js-app-on-azure", // 2024-07-17
-    "server-side-rendering-in-next-js-for-improved-seo", // 2024-07-17
-    "create-24-css-projects", // 2024-07-17
-    "pass-the-github-advanced-security-certification-exam", // 2024-07-17
-    "use-react-router-to-build-single-page-applications", // 2024-07-18
-    "learn-javascript-reactivity-build-signals-from-scratch", // 2024-07-18
-    "next-js-performance-optimization", // 2024-07-19
-    "migrate-a-flutter-application-from-getit-to-bloc", // 2024-07-19
-    "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
-    "how-to-use-enhanced-enums-in-dart", // 2024-07-22
-    "react-context-api-tutorial-examples", // 2024-07-22
-    "build-a-bitcoin-to-usd-calculator", // 2024-07-22
-    "comparable-vs-comparator-explained-in-java", // 2024-07-23
-    "how-to-build-a-quantum-ai-model", // 2024-07-23
-    "how-to-build-an-interpretable-ai-deep-learning-model", // 2024-07-23
-
     "mobile-app-development-with-react-native", // 2024-12-30
+    
     "how-to-become-a-web-developer-beginners-guide", // 2024-12-23
     "how-to-run-open-source-llms-on-your-own-computer-using-ollama", // 2024-12-21
     "classes-in-c-sharp-handbook-with-examples", // 2024-12-20
@@ -939,6 +927,121 @@ const Y2024: SidebarYeargroupTemplate = {
     "what-is-recursion", // 2024-07-25
     "learn-system-design-principles", // 2024-07-25
     "build-a-sticky-notes-app-with-react-and-appwrite", // 2024-07-25
+    "how-to-build-an-interpretable-ai-deep-learning-model", // 2024-07-23
+    "how-to-build-a-quantum-ai-model", // 2024-07-23
+    "comparable-vs-comparator-explained-in-java", // 2024-07-23
+    "build-a-bitcoin-to-usd-calculator", // 2024-07-22
+    "react-context-api-tutorial-examples", // 2024-07-22
+    "how-to-use-enhanced-enums-in-dart", // 2024-07-22
+    "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
+    "migrate-a-flutter-application-from-getit-to-bloc", // 2024-07-19
+    "next-js-performance-optimization", // 2024-07-19
+    "learn-javascript-reactivity-build-signals-from-scratch", // 2024-07-18
+    "use-react-router-to-build-single-page-applications", // 2024-07-18
+    "pass-the-github-advanced-security-certification-exam", // 2024-07-17
+    "create-24-css-projects", // 2024-07-17
+    "server-side-rendering-in-next-js-for-improved-seo", // 2024-07-17
+    "how-to-deploy-node-js-app-on-azure", // 2024-07-17
+    "what-are-monte-carlo-methods", // 2024-07-16
+    "multithreading-for-beginners", // 2024-07-16
+    "getting-started-in-cybersecurity", // 2024-07-16
+    "how-to-use-linq", // 2024-07-15
+    "difference-between-usememo-and-usecallback-hooks", // 2024-07-15
+    "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
+    "generics-in-java", // 2024-07-12
+    "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
+    "what-is-trpc", // 2024-07-11
+    "learn-asynchronous-javascript", // 2024-07-11
+    "how-to-deploy-a-web-app", // 2024-07-11
+    "more-secure-authentication-from-passwords-to-passkeys", // 2024-07-11
+    "how-to-upgrade-node-and-jest-while-on-react-scripts-v4", // 2024-07-10
+    "how-to-use-python-generators", // 2024-07-10
+    "how-to-send-http-requests-using-javascript", // 2024-07-10
+    "nextjs-clerk-neon-fullstack-development", // 2024-07-10
+    "build-a-counter-button-with-react", // 2024-07-10
+    "use-python-sdk-to-build-a-web-scraper", // 2024-07-10
+    "improve-user-experience-with-optimistic-ui-swr", // 2024-07-09
+    "prepare-to-pass-the-aws-sysops-administrator-associate-soa-c02-certification", // 2024-07-09
+    "learn-typescript-with-interactive-lessons", // 2024-07-09
+    "how-to-use-pandoc", // 2024-07-09
+    "knowledge-distillation-in-deep-learning-models", // 2024-07-09
+    "how-to-integrate-spring-boot-with-gatling", // 2024-07-08
+    "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
+    "what-is-a-markov-chain", // 2024-07-08
+    "upload-large-files-with-aws", // 2024-07-08
+    "how-to-use-callback-functions-in-javascript", // 2024-07-03
+    "build-a-meditation-app-with-react-native-expo-router", // 2024-07-03
+    "how-data-flows-in-redux", // 2024-07-03
+    "react-19-actions-simpliy-form-submission-and-loading-states", // 2024-07-02
+    "excel-vs-google-sheets-tables", // 2024-07-02
+    "improve-your-javascript-projects-with-build-tools", // 2024-07-02
+    "go-for-absolute-beginners", // 2024-07-01
+    "infinite-scrolling-in-react", // 2024-07-01
+    "media-queries-vs-container-queries", // 2024-06-28
+    "mastering-shadcn-ui-components", // 2024-06-28
+    "how-to-change-background-color-with-javascript", // 2024-06-28
+    "migrate-from-play-core-library", // 2024-06-26
+    "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
+    "how-to-create-database-migrations-in-go", // 2024-06-26
+    "pyspark-for-beginners", // 2024-06-26
+    "scope-closures-and-hoisting-in-javascript", // 2024-06-26
+    "whats-new-in-react-19", // 2024-06-25
+    "create-an-ml-model-with-azure-machine-learning-designer", // 2024-06-25
+    "react-how-to-validate-user-input", // 2024-06-24
+    "breakpoints-for-responsive-web-design", // 2024-06-24
+    "when-to-use-npm-packages", // 2024-06-24
+    "mastering-vim-your-guide-to-efficient-text-editing", // 2024-06-24
+    "introduction-to-solid-principles", // 2024-06-24
+    "what-are-controlled-and-uncontrolled-components-in-react", // 2024-06-21
+    "generative-ai-handbook", // 2024-06-20
+    "learn-to-create-a-3d-rpg-game-with-godot", // 2024-06-20
+    "best-practices-for-accessibility-in-web-development", // 2024-06-20
+    "how-to-use-time-to-live-in-event-driven-architecture", // 2024-06-19
+    "for-else-loop-in-python", // 2024-06-19
+    "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
+    "decorators-in-python-tutorial", // 2024-06-18
+    "a-non-technical-introduction-to-generative-ai", // 2024-06-18
+    "building-intelligent-apps-with-mistral-ai", // 2024-06-18
+    "what-is-trunk-based-development", // 2024-06-18
+    "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
+    "how-to-improve-your-digital-security-and-privacy", // 2024-06-18
+    "how-to-host-static-sites-on-azure-static-web-apps", // 2024-06-18
+    "a-guide-to-object-oriented-programming-principles", // 2024-06-18
+    "how-to-enhance-embedded-links-in-react-with-microlinks", // 2024-06-18
+    "first-class-functions-and-closures-in-python", // 2024-06-17
+    "auto-scaling-and-load-balancing", // 2024-06-17
+    "how-to-handle-keyerror-exceptions-in-python", // 2024-06-17
+    "how-the-black-scholes-equation-works-python-examples", // 2024-06-17
+    "how-to-create-multi-page-animations-using-framer-motion-and-react-router-dom", // 2024-06-17
+    "lambda-functions-in-python", // 2024-06-14
+    "free-linux-crash-course-with-labs", // 2024-06-13
+    "how-to-use-viewing-patterns-in-your-website-design", // 2024-06-12
+    "learn-threejs-by-building-five-projects", // 2024-06-12
+    "retrieval-augmented-generation-rag-handbook", // 2024-06-11
+    "learn-high-level-system-design-by-building-a-youtube-clone", // 2024-06-11
+    "learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence", // 2024-06-11
+    "how-to-fix-python-installation-errors-on-mac", // 2024-06-10
+    "unit-testing-in-python", // 2024-06-10
+    "how-to-create-notice-blocks-in-markdown", // 2024-06-10
+    "weakmap-and-weakset-in-javascript", // 2024-06-07
+    "real-time-chat-with-go-fiber-htmx", // 2024-06-06
+    "master-the-azure-devops-engineer-expert-certification-az-400", // 2024-06-06
+    "learn-how-to-build-a-decentralized-file-storage-system-with-go", // 2024-06-05
+    "the-javascript-this-keyword-explained-with-examples", // 2024-06-05
+    "linear-algebra-roadmap", // 2024-06-04
+    "python-coding-challenges-for-beginners", // 2024-06-04
+    "build-a-youtube-clone-with-flutter-firebase-and-riverpod", // 2024-06-04
+    "learn-to-code-rest-apis-using-nextjs-14", // 2024-06-04
+    APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK, // 2024-06-04
+    BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL, // 2024-06-04
+    "how-to-build-a-rating-component-with-the-react-compound-component-pattern", // 2024-06-03
+    "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
+    "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
+    "automated-unit-testing-with-testgen-llm-and-cover-agent", // 2024-06-02
+    "how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126", // 2024-05-31
+    "javascript-prototypal-inheritance", // 2024-05-31
+    "learn-the-basics-of-go-by-building-a-full-stack-web-app-with-react-and-go", // 2024-05-30
+    "complete-c-programming-course-from-dr-chuck", // 2024-05-30
   ],
 }
 
@@ -1066,6 +1169,7 @@ const Y2020: SidebarYeargroupTemplate = {
     "rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples", // 2020-04-23
     "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
     "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
+    "compiled-versus-interpreted-languages", // 2020-01-11
   ]
 }
 
@@ -1124,15 +1228,15 @@ export const template: SidebarInfoTemplate = {
       "learn-data-structures-from-a-google-engineer", // 2019-09-23
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
-      // END: 2019
-      // END: 2020
-      // END: 2021
+      // END: 2019java
+      // END: 2020java
+      // END: 2021java
       "queue-data-structure-definition-and-java-example-code", // 2022-03-04
       "object-oriented-programming-concepts-java", // 2022-04-19
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
-      // END: 2022
+      // END: 2022java
       "learn-neo4j-database-course", // 2023-06-02
-      // END: 2023
+      // END: 2023java
       "a-guide-to-object-oriented-programming-principles", // 2024-06-19    
       "introduction-to-solid-principles", // 2024-06-24
       "generics-in-java", // 2024-07-12
@@ -1141,6 +1245,9 @@ export const template: SidebarInfoTemplate = {
       "creational-design-patterns-in-java", // 2024-07-26
       "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
       "learn-java-testing-with-selenium", // 2024-08-27
+      // END: 2024java
+      "java-collections-framework-reference-guide", // 2025-01-29
+      // END: 2025java
       // END: java
     ]],[
     "java-spring",[
@@ -1247,6 +1354,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals", // 2025-01-03
       "create-christmas-icons-with-javascript-and-html", // 2025-01-09
       "how-to-programmatically-highlight-text-with-the-css-custom-highlight-api", // 2025-01-16
+      THE_CLEAN_CODE_HANDBOOK, // 2025-01-30
+      "tips-for-writing-clean-code", // 2025-02-05
       // END: 2025js
       // END: js
     ]],[
@@ -1257,6 +1366,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2024ts
       "start-learning-typescript-beginners-guide", // 2025-01-24
       // END: 2024ts
+      "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-
+      "learn-async-programming-in-typescript-promises-asyncawait-and-callbacks", // 2025-02-01
+      // END: 2025ts
       // END: ts
     ]],[
     "js-node", [
@@ -1313,6 +1425,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-langbase-memory-agents", // 2025-01-18
       "how-to-use-granular-segmentation-with-feature-flags", // 2025-01-24
       "containerize-a-nodejs-application-using-docker", // 2025-01-24
+      "what-are-scripts-and-how-do-they-work", // 2025-01-27
+      // END: 2025js-node
       // END: js-node
     ]],[
     "js-react", [
@@ -1408,6 +1522,9 @@ export const template: SidebarInfoTemplate = {
       "mobile-app-development-with-react-native", // 2024-12-30
       // END: 2024js-react
       "build-a-dynamic-web-scraper-app-with-playwright-and-react", // 2025-01-15
+      "how-to-build-dependent-dropdowns-in-react", // 2025-01-30
+      HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP, // 2025-02-05
+      // END: 2025js-react
       // END: js-react
     ]],[
     "js-vue", [
@@ -1448,6 +1565,8 @@ export const template: SidebarInfoTemplate = {
       "optimize-nextjs-web-apps-for-better-performance", // 2025-01-02
       "talk-to-databases-using-ai-build-a-sql-query-data-extractor", // 2025-01-09
       "integrate-discord-webhooks-with-nextjs-15-example-project", // 2025-01-21
+      "build-a-full-stack-app-with-nextjs-and-strapi", // 2025-02-05
+      "build-an-analytical-dashboard-with-nextjs", // 2025-02-06
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -1614,6 +1733,11 @@ export const template: SidebarInfoTemplate = {
       "simplify-python-library-rpm-packaging-with-mock-and-podman", // 2024-01-16
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
       "build-a-real-time-intrusion-detection-system-with-python", // 2025-01-21
+      "what-are-scripts-and-how-do-they-work", // 2025-01-27
+      "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
+      "master-object-oriented-programming-in-python", // 2025-01-30
+      "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-04
+      CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
       // END: 2025py
       // END: py
     ]],[
@@ -1626,6 +1750,10 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "py-flask", [
       "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
+      // END: 2024py-flask
+      "create-a-basic-cicd-pipeline-with-webhooks-on-linux", // 2025-01-29
+      // END: 2025py-flask
+      // END: py-flask
     ]],[
     "py-numpy", [
       "how-to-build-an-ai-model-for-predicting-data-with-python", // 2024-08-08
@@ -1790,7 +1918,17 @@ export const template: SidebarInfoTemplate = {
       "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
       "tools-for-open-source-intelligence-gathering", // 2024-10-29
       "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
+      // END: 2024sh
+      "what-are-scripts-and-how-do-they-work", // 2025-01-27
+      "essential-cli-tui-tools-for-developers", // 2025-01-29
+      "what-is-a-process-id-process-management-tutorial", // 2025-01-31
+      // END: 2025sh
       // END: sh
+    ]],[
+    "powershell", [
+      "what-is-a-process-id-process-management-tutorial", // 2025-01-31
+      // END: 2025pwsh
+      // END: pwsh
     ]],[
     "git", [
       "learn-the-basics-of-git-in-under-10-minutes", // 2019-01-06
@@ -1833,6 +1971,11 @@ export const template: SidebarInfoTemplate = {
       // END: md2024
       // END: md
     ]],[
+    "devops", [
+      "how-to-choose-a-cloud-development-environment", // 2025-02-05
+      // END: 2025devops
+      // END: devops
+    ]],[
     "github", [
       "learn-how-to-automate-deployment-on-github-pages-with-travis-ci", // 2019-06-22
       // END: 2019github
@@ -1861,12 +2004,17 @@ export const template: SidebarInfoTemplate = {
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
       // END: 2024github
       "how-to-run-integration-tests-with-github-service-containers", // 2025-01-08
-      "learn-to-use-github-actions-step-by-step-guide", // 2024-01-16
+      "learn-to-use-github-actions-step-by-step-guide", // 2025-01-16
+      "set-up-docs-as-code-with-docusaurus-and-github-actions", // 2025-02-05
       // END: 2025github
       // END: github
     ]],[
     "gitlab", [
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
+      // END: 2022gitlab
+      // END: 2023gitlab
+      // END: 2024gitlab
+      // END: gitlab
     ]],[
     "macos", [
       "mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos", //2024-04-25
@@ -1883,6 +2031,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
       // END: 2024linux-debian
       "how-to-develop-with-codeigniter-on-ubuntu-environment-setup", // 2025-01-24
+      "create-a-basic-cicd-pipeline-with-webhooks-on-linux", // 2025-01-29
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -1931,6 +2080,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-run-database-migrations-in-kubernetes", // 2024-10-02
       // END: 2024k8s
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
+      "essential-cli-tui-tools-for-developers", // 2025-01-29
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -1961,6 +2111,7 @@ export const template: SidebarInfoTemplate = {
       "aws-solutions-architect-professional-sap-c02-certification-course", // 2024-12-20
       // END: 2024aws
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
+      "how-to-build-an-application-with-aws-lambda", // 2025-01-29
       // END: 2025aws
       // END: aws
     ]],[
@@ -2031,6 +2182,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-discover-hidden-subdomains-as-an-ethical-hacker", // 2025-01-08
       "learn-metasploit-for-beginners", // 2025-01-22
       "keycloak-identity-and-access-management", // 2025-01-23
+      "learn-the-basics-of-api-security", // 2025-01-31
       // END: 2025security
       // END: security
     ]],[
@@ -2044,6 +2196,8 @@ export const template: SidebarInfoTemplate = {
     "vim", [
       "mastering-vim-your-guide-to-efficient-text-editing", // 2024-06-24
       // END: 2024vim
+      "how-to-use-the-vim-text-editor-intro-for-devs", // 2025-02-05
+      // END: 2025vim
       // END: vim
     ]],[
     "nmap", [
@@ -2207,6 +2361,9 @@ export const template: SidebarInfoTemplate = {
       "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
       "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
       "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-20
+      // END: 2024ai
+      NEXT_GEN_HEALTHCARE_WITH_AI_EPIGENETICS_AND_BIOENGINEERING, // 2025-02-05
+      // END: 2025ai
       // END: ai
     ]],[
     "llm", [
@@ -2226,6 +2383,7 @@ export const template: SidebarInfoTemplate = {
       "what-is-semantic-matching-find-words-in-a-document-using-nlp", // 2025-01-10
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
       "how-to-use-langbase-memory-agents", // 2025-01-18
+    "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
       // END: 2025llm
       // END: llm
     ]],[
@@ -2256,7 +2414,15 @@ export const template: SidebarInfoTemplate = {
     "langchain", [
       "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
       "build-your-own-rag-chatbot-with-javascript", // 2024-11-08
+      // END: 2024langchain
+      "langchain-alternatives-for-building-ai-and-agentic-workflows", // 2025-01-31
+      // END: 2025langchain
       // END: langchain
+    ]],[
+    "deepseek", [
+      "how-to-use-deepseek-r1", // 2025-01-28
+      // END: 2025deepseek
+      // END: deepseek
     ]],[
     "math", [
       "learn-college-calculus-in-free-course", // 2020-08-27
@@ -2281,6 +2447,7 @@ export const template: SidebarInfoTemplate = {
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
       // END: 2019
+      "compiled-versus-interpreted-languages", // 2020-01-11
       "introduction-to-computer-programming-and-computer-science-course", // 2020-04-22
       "learn-all-about-data-structures-used-in-computer-science", // 2020-09-09
       "learn-dynamic-programing-to-solve-coding-challenges", // 2020-12-04
@@ -2301,7 +2468,10 @@ export const template: SidebarInfoTemplate = {
       // END: 2022coen
       "learn-about-operating-systems-in-depth", // 2024-08-06
       "what-is-a-floating-point-arithmetic-problem", // 2024-10-24
+      // END: 2024coen
       "how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals", // 2025-01-03
+      "free-courses-top-cs-universities", // 2025-01-28
+      // END: 2025coen
       // END: coen
     ]],[
     "career", [
@@ -2317,6 +2487,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024career
       THE_AI_ENGINEERING_HANDBOOK_HOW_TO_START_A_CAREER_AND_EXCEL_AS_AN_AI_ENGINEER, // 2025-01-16
       "how-to-run-an-effective-daily-scrum", // 2025-01-18
+      "how-to-run-a-great-sprint-review-actionable-insights", // 2025-01-30
       // END: 2025career
       // END: career
     ]],[

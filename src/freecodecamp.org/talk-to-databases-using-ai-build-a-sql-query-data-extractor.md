@@ -242,7 +242,7 @@ After extensive experimentation, I chose the **Groq Adapter** because:
 
 #### How to Set Up Groq Cloud
 
-To get started with Groq Cloud, [<FontIcon icon="fas fa-glob"/>visit its website](https://console.groq.com/login) and either login if already have an account or create a new account if you’re new. Once logged in, navigate to the Groq Dashboard.
+To get started with Groq Cloud, [<FontIcon icon="fas fa-globe"/>visit its website](https://console.groq.com/login) and either login if already have an account or create a new account if you’re new. Once logged in, navigate to the Groq Dashboard.
 
 This is the homepage of groq cloud:
 

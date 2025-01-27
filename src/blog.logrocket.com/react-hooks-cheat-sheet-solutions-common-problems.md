@@ -558,13 +558,13 @@ const ArrayDep = () => {
 
 ### `useLayoutEffect` vs. `useEffect`
 
-What’s the [**difference between `useEffect` and `useLayoutEffect`**](/blog.logrocket.com/useeffect-vs-uselayouteffect.md)? The function passed to `useEffect` fires after layout and paint — i.e., after the render has been committed to the screen. This is OK for most side effects that shouldn’t block the browser from updating the screen.
+What’s the [**difference between `useEffect` and `useLayoutEffect`**](/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples.md)? The function passed to `useEffect` fires after layout and paint — i.e., after the render has been committed to the screen. This is OK for most side effects that shouldn’t block the browser from updating the screen.
 
 There are cases where you may not want the behavior `useEffect` provides, though; for example, if you need to make a visual change to the DOM as a side effect, `useEffect` won’t be the best choice.
 
 To prevent the user from seeing flickers of changes, you can use `useLayoutEffect`. The function passed to `useLayoutEffect` will be run before the browser updates the screen.
 
-You can [**read my follow-up piece**](/blog.logrocket.com/useeffect-vs-uselayouteffect.md) for a deep dive on the differences between `useEffect` and `useLayoutEffect`.
+You can [**read my follow-up piece**](/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples.md) for a deep dive on the differences between `useEffect` and `useLayoutEffect`.
 
 Here’s a live, editable [<FontIcon icon="fas fa-globe"/>`useLayoutEffect` cheat sheet](https://react-hooks-cheatsheet.com/uselayoutEffect).
 

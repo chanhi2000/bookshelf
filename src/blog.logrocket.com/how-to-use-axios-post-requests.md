@@ -32,7 +32,7 @@ isOriginal: false
 author:
   - name: Chimezie Innocent
     url : https://blog.logrocket.com/author/chimezieinnocent/
-cover: https://blog.logrocket.com/wp-content/uploads/2023/02/how-to-use-axios-post-requests.png
+cover: /assets/image/blog.logrocket.com/how-to-use-axios-post-requests/banner.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -66,7 +66,7 @@ cover: https://blog.logrocket.com/wp-content/uploads/2023/02/how-to-use-axios-po
   desc="This article offers an intro to Axios and covers how to use the Axios POST method in vanilla JavaScript and the React framework."
   url="https://blog.logrocket.com/how-to-use-axios-post-requests"
   logo="/assets/image/blog.logrocket.com/favicon.png"
-  preview="https://blog.logrocket.com/wp-content/uploads/2023/02/how-to-use-axios-post-requests.png"/>
+  preview="/assets/image/blog.logrocket.com/how-to-use-axios-post-requests/banner.png"/>
 
 ::: note Editor’s note
 
@@ -74,7 +74,7 @@ This guide to understanding Axios POST requests was last updated by [<FontIcon i
 
 :::
 
-![How To Use Axios POST Requests](https://blog.logrocket.com/wp-content/uploads/2023/02/how-to-use-axios-post-requests.png)
+![How To Use Axios POST Requests](/assets/image/blog.logrocket.com/how-to-use-axios-post-requests/banner.png)
 
 Sending requests to a web server is one of the things most commonly performed in frontend development. Creating a Facebook post, uploading a new Instagram image, sending a post on X, or signing up on a website all send requests to a server.
 
@@ -216,7 +216,7 @@ loginForm.addEventListener("submit", (e) => {
 
 You can submit `eve.holt@reqres.in` and `cityslicka` as the email and password values, respectively. The `reqres.in` dummy API will return a response `token` with a `200` status code for a successful POST request:
 
-![A Successful POST Requests Renders A 200 Code](https://blog.logrocket.com/wp-content/uploads/2021/12/post-request-success.png)
+![A Successful POST Requests Renders A 200 Code](/assets/image/blog.logrocket.com/how-to-use-axios-post-requests/post-request-success.png)
 
 ### Sending an Axios `POST` request in React
 
@@ -422,7 +422,7 @@ button {
 
 With that, we have our registration app to use our `POST` method:
 
-![Final Registration App Showing Name and Job Fields With A Registration Button](https://blog.logrocket.com/wp-content/uploads/2021/12/registration-app-post-axios.png)
+![Final Registration App Showing Name and Job Fields With A Registration Button](/assets/image/blog.logrocket.com/how-to-use-axios-post-requests/registration-app-post-axios.png)
 
 ---
 

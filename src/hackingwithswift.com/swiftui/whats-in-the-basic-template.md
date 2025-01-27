@@ -117,7 +117,7 @@ First, notice how `ContentView` is a struct. Developers familiar with UIKit will
 
 Second, `ContentView` conforms to the `View` protocol. Everything you want to show in SwiftUI needs to conform to `View`, and really that means only one thing: you need to have a property called `body` that returns some sort of `View`.
 
-Third, the return type of `body` is `some View`. The `some` keyword was introduced in Swift 5.1 and is part of a feature called [<FontIcon icon="fa-brands fa-youtube"/>opaque return types](https://www.youtube.com/watch?v=DvHkeUxiwYY), and in this case what it means is literally “this will return some sort of `View` but SwiftUI doesn't need to know (or care) what.”
+Third, the return type of `body` is `some View`. The `some` keyword was introduced in Swift 5.1 and is part of a feature called [<FontIcon icon="fa-brands fa-youtube"/>opaque return types](https://youtu.be/DvHkeUxiwYY), and in this case what it means is literally “this will return some sort of `View` but SwiftUI doesn't need to know (or care) what.”
 
 ::: important 
 

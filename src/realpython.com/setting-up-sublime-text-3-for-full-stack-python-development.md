@@ -112,7 +112,7 @@ Let’s start by looking at a few of the default features of Sublime Text 3:
 
 @tab 5.
 
-**Code Snippets** increase your productivity by giving you the ability to create common pieces of code with a single keyword. There are a number of default snippets. To try one for yourself, open a new file, type in `lorem`, and press Tab. You should get a paragraph of lorem ipsum text. Also, if you type `defs` and then press Tab in a Python file, it will setup a generic function.
+**Code Snippets** increase your productivity by giving you the ability to create common pieces of code with a single keyword. There are a number of default snippets. To try one for yourself, open a new file, type in `lorem`, and press <kbd>Tab</kbd>. You should get a paragraph of lorem ipsum text. Also, if you type `defs` and then press <kbd>Tab</kbd> in a Python file, it will setup a generic function.
 
 :::
 
@@ -350,7 +350,7 @@ I personally set the password to `null` because I don’t want it visible in tha
 
 [<FontIcon icon="iconfont icon-subl"/>AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) is used to create a new folder or file from within ST3 with key bindings alone.
 
-Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing Enter, the file will be created. In addition, if the directories specified do not yet exist, they will be created. By default, the path to the file being created will be filled shown in the status bar as you enter the path information.
+Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing <kbd>Enter</kbd>, the file will be created. In addition, if the directories specified do not yet exist, they will be created. By default, the path to the file being created will be filled shown in the status bar as you enter the path information.
 
 For a more detailed explanation on its usage, check out the documentation on [GitHub (<FontIcon icon="iconfont icon-github"/>`skuroda/Sublime-AdvancedNewFile`)](https://github.com/skuroda/Sublime-AdvancedNewFile#usage). Be sure to read about Tab Completion as well as Predefined Aliases.
 

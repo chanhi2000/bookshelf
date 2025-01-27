@@ -468,7 +468,7 @@ One important thing to keep in mind when returning `null`, however, is that even
 
 The `Number` component only renders the counter for even values. Otherwise, it returns `null`. When you look at the console, however, you’ll see that `componentDidUpdate` is always called regardless of the value returned by render:
 
-![The Number Component Rendering The Counter For Even Values](https://blog.logrocket.com/wp-content/uploads/2022/06/number-component-rendering-even-numbers.png)
+![The Number Component Rendering The Counter For Even Values](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/number-component-rendering-even-numbers.png)
 
 In our example, change the `renderInputField` method to look like the following code:
 
@@ -478,12 +478,12 @@ renderInputField() {
     return null;
   } else {
     return (
-        <p>
-          <input
-            onChange={this.handleChange}
-            value={this.state.inputText}
-          />
-        </p>
+      <p>
+        <input
+          onChange={this.handleChange}
+          value={this.state.inputText}
+        />
+      </p>
     );
   }
 }
@@ -571,11 +571,11 @@ One advantage of returning `null` instead of an empty element is that you’ll i
 
 For example, if you open the **Inspector** tab from the [Fiddle (<FontIcon icon="fa-brands fa-jsfiddle"/>`eh3rrera`)](https://jsfiddle.net/eh3rrera/q0w1aamt/) that renders the empty `<div>` element, you’ll see how the `<div>` element under the root is always updated:
 
-![Rendering The Empty `<div>` Element From Fiddle](https://blog.logrocket.com/wp-content/uploads/2022/06/rendering-div-element-from-fiddle.gif)
+![Rendering The Empty `<div>` Element From Fiddle](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/rendering-div-element-from-fiddle.webp)
 
 This differs from when `null` is returned to hide the component and the `<div>` element is not updated when the **Edit** button is clicked:
 
-![The `<div>` element is not updated when the edit button is clicked](https://blog.logrocket.com/wp-content/uploads/2022/06/div-element-not-updated-edit-button-clicked.gif)
+![The `<div>` element is not updated when the edit button is clicked](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/div-element-not-updated-edit-button-clicked.webp)
 
 You can check out the React docs to learn more about how [<FontIcon icon="fa-brands fa-react"/>React preserves and resets states](https://react.dev/learn/preserving-and-resetting-state).
 
@@ -1067,11 +1067,11 @@ Open the **Inspector** and click on the button. Then, repeat the click operation
 
 The `if...else` block treats the component with the code below:
 
-![Changing the position of the content using the if...else block](https://blog.logrocket.com/wp-content/uploads/2022/06/content-component-if-else-block.gif)
+![Changing the position of the content using the if...else block](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/content-component-if-else-block.webp)
 
 The short-circuit operator uses the following approach:
 
-![Changing the content position using the short-circuit operator](https://blog.logrocket.com/wp-content/uploads/2022/06/content-component-using-short-circuit-operator.gif)
+![Changing the content position using the short-circuit operator](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/content-component-using-short-circuit-operator.webp)
 
 ---
 

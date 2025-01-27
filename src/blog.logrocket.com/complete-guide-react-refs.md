@@ -331,7 +331,7 @@ To achieve this, we are adding a [**global click listener**](/blog.logrocket.com
 
 ### Integrating with DOM-based libraries
 
-React is a great library, but there are many [**other useful libraries and utilities**](/blog.logrocket.com/top-10-react-ui-libraries-kits.md) outside of its ecosystem that have been used on the web for years. For example, by using refs, we can seamlessly combine React with a top-notch animation library. It’s always beneficial to leverage the stability and resolution provided by these external tools to tackle specific issues.
+React is a great library, but there are many [**other useful libraries and utilities**](/blog.logrocket.com/top-react-ui-libraries-kits.md) outside of its ecosystem that have been used on the web for years. For example, by using refs, we can seamlessly combine React with a top-notch animation library. It’s always beneficial to leverage the stability and resolution provided by these external tools to tackle specific issues.
 
 One such library is the GreenSock Animating Platform, or [**GSAP**](/blog.logrocket.com/animations-react-hooks-greensock.md), which is widely used for animation examples. To use it, we simply need to pass a DOM element to any of its methods. Let’s enhance the appearance of our modal by adding some animations with GSAP:
 
@@ -444,7 +444,7 @@ const LabelledInput = (props) => {
 export default LabelledInput
 ```
 
-The issue now is that passing a ref to this component will return its instance, a React component reference, and not the `input` element we want to focus on, like in our first example. Luckily, React provides an inbuilt solution for this called [**`forwardRef`**](/blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react.md), which allows you to define internally what element the `ref` will point at:
+The issue now is that passing a ref to this component will return its instance, a React component reference, and not the `input` element we want to focus on, like in our first example. Luckily, React provides an inbuilt solution for this called [**`forwardRef`**](/blog.logrocket.com/use-forwardref-react.md), which allows you to define internally what element the `ref` will point at:
 
 ```js title="LabelledInput.jsx"
 import React from 'react'

@@ -8,6 +8,13 @@ category:
   - Computer
   - JavaScript
   - Article(s)
+tag:
+  - blog
+  - freecodecamp.org
+  - engineering
+  - coen
+  - computerengineering
+  - computer-engineering
 head:
   - - meta:
     - property: og:title

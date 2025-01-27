@@ -213,7 +213,7 @@ This article wasn't meant to persuade you to completely ditch Docker, rather its
 
 ## Resources
 
-- [Let's Try Every CRI Runtime Available for Kubernetes. No, Really!](https://www.youtube.com/watch?v=FKoVztEQHss)
+- [Let's Try Every CRI Runtime Available for Kubernetes. No, Really!](https://youtu.be/FKoVztEQHss)
 - [How Container Runtimes matter in Kubernetes?](https://events19.linuxfoundation.org/wp-content/uploads/2017/11/How-Container-Runtime-Matters-in-Kubernetes_-OSS-Kunal-Kushwaha.pdf)
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction)
 - [Comparing Next-Generation Container Image Building Tools](https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Comparing-Next-Generation-Container-Image-Building-Tools-OSS-Akihiro-Suda.pdf)

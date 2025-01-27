@@ -2,7 +2,7 @@
 lang: en-US
 title: Learn Java Testing with Selenium
 description: Article(s) > Learn Java Testing with Selenium
-icon: fa-brands fa-python
+icon: fa-brands fa-java
 category: 
   - Java
   - Selenium

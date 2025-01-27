@@ -80,7 +80,7 @@ A form, at its core, is mostly made of a parent form component and several child
 
 Consider the following basic form:
 
-![An [<FontIcon icon="iconfont icon-stackblitz"/>example of a basic form](https://stackblitz.com/edit/react-ts-jqjc8h?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/basic-form-example.png)
+![An [<FontIcon icon="iconfont icon-stackblitz"/>example of a basic form](https://stackblitz.com/edit/react-ts-jqjc8h?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/basic-form-example.png)
 
 At its core, this is a form with three input elements: two text fields and a **Submit** button.
 
@@ -110,7 +110,7 @@ Note how the props passed to the `Input` field are similar to standard HTML inpu
 
 This `Form` is relatively simple. When submitted, the form values are logged in the console. An empty object will be logged if you attempt to submit without any input entries:
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Logging form state](https://stackblitz.com/edit/react-ts-jqjc8h?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/logging-form-state.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Logging form state](https://stackblitz.com/edit/react-ts-jqjc8h?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/logging-form-state.png)
 
 ```tsx
 {/** ... **/}
@@ -151,7 +151,7 @@ The first layer of validation is to simply make the fields required. Do this by 
 
 Now, when you attempt to submit the form, you’ll see the default `This field is required` error message displayed below the required input fields.
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Default required messages](https://stackblitz.com/edit/react-ts-pzay2d?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/default-required-messages.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Default required messages](https://stackblitz.com/edit/react-ts-pzay2d?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/default-required-messages.png)
 
 ### Changing the required input validation message
 
@@ -181,7 +181,7 @@ To accomplish this, pass an `errorMessage` prop to the required inputs, as shown
 
 The above code produces the following:
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Custom error messages](https://stackblitz.com/edit/react-ts-pzsrhk?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/custom-error-messages.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Custom error messages](https://stackblitz.com/edit/react-ts-pzsrhk?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/custom-error-messages.png)
 
 ---
 
@@ -242,7 +242,7 @@ export default function App() {
 
 Now, the default `errorMessage` prop will always be shown when the basic `required` validation kicks in. However, once the inputs are filled and submitted, the `validate` function kicks in and the returned string is shown as the input error message:
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Custom validator functions](https://stackblitz.com/edit/react-ts-bjokq2?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/custom-validator-functions.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Custom validator functions](https://stackblitz.com/edit/react-ts-bjokq2?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/custom-validator-functions.png)
 
 ---
 
@@ -299,7 +299,7 @@ How does Informed deal with other form input types such as text areas, radio inp
 
 Consider the example below:
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Other form inputs](https://stackblitz.com/edit/react-ts-hrzu3i?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/other-form-inputs.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Other form inputs](https://stackblitz.com/edit/react-ts-hrzu3i?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/other-form-inputs.png)
 
 The form above leverages a text area, radio group, checkbox, and select inputs. With Informed, using these is as simple as importing the components (capitalize the names) and passing the same props you would the HTML element, with the addition of a `label` prop for accessibility.
 
@@ -381,7 +381,7 @@ import {Debug} from 'informed'
 
 All you have to do is render the `Debug` component, and you get a visual representation of the current synced state of the entire form.
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>The `debug` component](https://react-ts-r5ye9f.stackblitz.io)](https://blog.logrocket.com/wp-content/uploads/2023/02/debug-component.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>The `debug` component](https://react-ts-r5ye9f.stackblitz.io)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/debug-component.png)
 
 To view the state of a single form field, use `DebugField` with the `name` of the field in question, as shown below:
 
@@ -417,7 +417,7 @@ To validate the form and show errors immediately on mount, do this:
 
 And now, errors will be [<FontIcon icon="iconfont icon-stackblitz"/>displayed as soon as the form is mounted](https://react-ts-mtfabt.stackblitz.io) (after validation):
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Showing errors on mount](https://stackblitz.com/edit/react-ts-mtfabt?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/showing-errors-on-mount.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Showing errors on mount](https://stackblitz.com/edit/react-ts-mtfabt?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/showing-errors-on-mount.png)
 
 By default, validation will occur when a field is blurred, but you can change this behavior. To further control when your field validation occurs, use the `validateOn` prop with any of these values:
 
@@ -501,7 +501,7 @@ export default function App() {
 
 And now, when a user selects the **Married** option, we will go ahead and request their spouse’s name.
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally display an input field](https://stackblitz.com/edit/react-ts-dd2iap?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/conditionally-display-input-field.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally display an input field](https://stackblitz.com/edit/react-ts-dd2iap?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/conditionally-display-input-field.png)
 
 It’s important to note that the `useFormState` Hook is used in a separate child component rendered within the `Form`. If you went ahead to use the `useFormState` Hook in the parent component rendering the `Form`, this will not work.
 
@@ -579,7 +579,7 @@ Alternatively, you can also apply conditional rendering at the field level by pa
 
 Now, whenever the user selects their relationship status as `single`, we’ll go ahead and render a `select` input asking whether to set them up on a date or not.
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally rendering a field with the `relevant` prop](https://stackblitz.com/edit/react-ts-p31ahp?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/conditionally-rendering-field-with-relevant-prop.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally rendering a field with the `relevant` prop](https://stackblitz.com/edit/react-ts-p31ahp?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/conditionally-rendering-field-with-relevant-prop.png)
 
 Instead of using the `Relevant` component, we’re leveraging the `relevant` prop here. It’s got a similar API to the `when` prop passed to `Relevant`. The value of the prop is a function that receives the form state, and the expected return value is a `boolean`.
 
@@ -719,7 +719,7 @@ Assuming the application is only available in the US, let’s go ahead and provi
 
 Using the `relevant` prop, the phone number input will be displayed when the user’s relationship status is set to `single`, and they’d like a date.
 
-![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally displaying a telephone input](https://stackblitz.com/edit/react-ts-telnoq?file=App.tsx)](https://blog.logrocket.com/wp-content/uploads/2023/02/conditionally-display-telephone-input.png)
+![[<FontIcon icon="iconfont icon-stackblitz"/>Conditionally displaying a telephone input](https://stackblitz.com/edit/react-ts-telnoq?file=App.tsx)](/assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/conditionally-display-telephone-input.png)
 
 Now, we may go ahead and provide a `formatter` prop to this phone number input, as shown below:
 

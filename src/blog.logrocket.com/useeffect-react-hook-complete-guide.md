@@ -435,7 +435,7 @@ useEffect(() => {
 }, [count]);
 ```
 
-![Cleanup Function Called Multiple Times](https://blog.logrocket.com/wp-content/uploads/2020/11/cleanup-function-called-multiple-times-1.gif)
+![Cleanup Function Called Multiple Times](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/cleanup-function-called-multiple-times-1.gif)
 
 In comparison, the former example executes the cleanup function only once — on the mount — because we directly prevented using the state variable (count):
 
@@ -454,7 +454,7 @@ useEffect(() => {
 }, []);
 ```
 
-![ESLint Warns About A Missing Prop](https://blog.logrocket.com/wp-content/uploads/2020/11/eslint-wanrs-about-missing-prop.png)
+![ESLint Warns About A Missing Prop](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/eslint-wanrs-about-missing-prop.png)
 
 In this context, the latter approach is a small performance optimization because we reduce the number of cleanup function calls.
 
@@ -649,7 +649,7 @@ useEffect(async () => {
 
 I’m glad you asked, but no! The following error will occur:
 
-![Async/await Produces A Runtime Error](https://blog.logrocket.com/wp-content/uploads/2020/11/async-await-produces-runtime-error.png)
+![Async/await Produces A Runtime Error](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/async-await-produces-runtime-error.png)
 
 The mighty ESLint plugin also warns you about it. The reason is that this code returns a promise, but an effect can only return void or a cleanup function.
 
@@ -720,7 +720,7 @@ In this implementation, we utilized two refs: `shouldTrackRef` and `infoTrackedR
 
 The effect is rerun every time `count` changes, i.e., whenever the user clicks on the button. Our `if` statement checks the conditions and executes the actual business logic only if it evaluates to `true`:
 
-![The Effect's Logic Is Executed Once](https://blog.logrocket.com/wp-content/uploads/2020/11/effect-logic-executed-once-1.gif)
+![The Effect's Logic Is Executed Once](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/effect-logic-executed-once-1.gif)
 
 The log message `user found the button component` is only printed once after the right conditions are met.
 
@@ -753,7 +753,7 @@ function EffectsDemoEffectPrevData() {
 
 We synchronize our effect with the state variable `count` so that it is executed after the user clicks on the button. Inside of our effect, we assign the current value of the state variable to the mutable `current` property of `prevCountRef`. We output both values in the JSX section:
 
-![Accessing Data From Previous Renders](https://blog.logrocket.com/wp-content/uploads/2020/11/accessing-data-from-previous-renders.gif)
+![Accessing Data From Previous Renders](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/accessing-data-from-previous-renders.webp)
 
 When loading this demo, on initial render, the state variable has the initial value of the `useState` call. The ref value is `undefined`. It demonstrates once more that effects are run after render. When the user clicks, it works as expected.
 

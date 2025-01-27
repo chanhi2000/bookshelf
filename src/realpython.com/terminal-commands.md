@@ -130,7 +130,7 @@ It can be handy to create a desktop shortcut for the terminal or pin the applica
 
 ### <FontIcon icon="fa-brands fa-linux"/>Linux
 
-You can find the terminal application in the application menu of your Linux distribution. Alternatively, you can press Ctrl+Alt+T on your keyboard or use the application launcher and search for the word *Terminal*.
+You can find the terminal application in the application menu of your Linux distribution. Alternatively, you can press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> on your keyboard or use the application launcher and search for the word *Terminal*.
 
 After opening the terminal, you should see a window similar to the screenshot below:
 
@@ -280,7 +280,7 @@ ls
 # Library
 ```
 
-When you type `ls` and press Enter, you see a list of all the items in the current working directory. In this case, the example shows the folders that you commonly find in the user directory on a macOS machine.
+When you type `ls` and press <kbd>Enter</kbd>, you see a list of all the items in the current working directory. In this case, the example shows the folders that you commonly find in the user directory on a macOS machine.
 
 You can also use the `-a` flag with the `ls` command, which stands for *all*. The `-a` flag shows you all the items in the current working directory, including the hidden items.
 
@@ -512,7 +512,7 @@ python hello_terminal.py
 
 When you’re using the `python` command, the terminal looks for the Python executable in your [**PATH**](/realpython.com/add-python-to-path.md).
 
-If you run the `python` command without any arguments, then you’ll launch the [**interactive Python interpreter**](/realpython.com/interacting-with-python.md), also known as the [**REPL**](/realpython.com/python-repl.md). When you run the command with a script file as an argument, then Python runs the provided script.
+If you run the `python` command without any arguments, then you’ll launch the [**interactive Python interpreter**](/realpython.com/interacting-with-python.md), also known as the [**REPL**](/realpython.com/python-repl/README.md). When you run the command with a script file as an argument, then Python runs the provided script.
 
 In this case, you’re executing `hello_terminal.py`, and you see the output of your `print()` function directly in the terminal. This works because Python’s `print()` uses `stdout` by default.
 
@@ -634,7 +634,7 @@ clear
 
 You use the `clear` command to clear the terminal screen. It removes all the text and content currently displayed on the terminal, leaving a blank screen. For example, you might want to clear the terminal screen before you run new commands.
 
-In some terminals, you can use Ctrl+L or Cmd+L as keyboard shortcuts to clear the screen.
+In some terminals, you can use <kbd>Ctrl</kbd>+<kbd>L</kbd> or <kbd>Cmd</kbd>+<kbd>L</kbd> as keyboard shortcuts to clear the screen.
 
 You’ve learned how to use `pip` directly from the terminal in this section. Knowing how to use `pip` in the terminal is crucial for any Python developer, as it allows you to effectively manage and update the packages that you use in your projects.
 

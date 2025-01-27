@@ -85,7 +85,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726760870442/726967e
 <!--
 <p>The FARM stack is a modern web development stack that combines three powerful technologies: FastAPI, React, and MongoDB. This full-stack solution provides developers with a robust set of tools to build scalable, efficient, and high-performance web applications.</p>
 <p>In this article, I'll be giving you an introduction to each of the key technologies, and then we'll build a project using the FARM stack and Docker so you can see how everything works together.</p>
-<p>This article is based on a course I created <a target="_blank" href="https://www.youtube.com/watch?v=PWG7NlUDVaA">on the freeCodeCamp.org YouTube channel</a>. Watch it here:</p>
+<p>This article is based on a course I created <a target="_blank" href="https://youtu.be/PWG7NlUDVaA">on the freeCodeCamp.org YouTube channel</a>. Watch it here:</p>
 <div class="embed-wrapper">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PWG7NlUDVaA" style="aspect-ratio: 16 / 9; width: 100%; height: auto;" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" loading="lazy"></iframe></div>
 <p> </p>

@@ -82,7 +82,7 @@ Running a Python script is a fundamental task for any Python developer. You can 
 
 :::
 
-To get the most out of this tutorial, you should know the basics of working with your operating system’s [**terminal**](/realpython.com/terminal-commands.md) and file manager. It’d also be beneficial for you to be familiar with a Python-friendly [**IDE or code editor**](/realpython.com/python-ides-code-editors-guide.md) and with the standard Python [**REPL**](/realpython.com/python-repl.md) (Read-Eval-Print Loop).
+To get the most out of this tutorial, you should know the basics of working with your operating system’s [**terminal**](/realpython.com/terminal-commands.md) and file manager. It’d also be beneficial for you to be familiar with a Python-friendly [**IDE or code editor**](/realpython.com/python-ides-code-editors-guide.md) and with the standard Python [**REPL**](/realpython.com/python-repl/README.md) (Read-Eval-Print Loop).
 
 ::: info Free Download
 
@@ -173,7 +173,7 @@ python ./hello.py
 # Hello, World!
 ```
 
-After you press Enter, you’ll see the phrase `Hello, World!` on your screen. If the previous command doesn’t work right, then you may need to check if Python is in your system’s [**`PATH`**](/realpython.com/add-python-to-path.md). You can also check where you saved <FontIcon icon="fa-brands fa-python"/>`hello.py`.
+After you press <kbd>Enter</kbd>, you’ll see the phrase `Hello, World!` on your screen. If the previous command doesn’t work right, then you may need to check if Python is in your system’s [**`PATH`**](/realpython.com/add-python-to-path.md). You can also check where you saved <FontIcon icon="fa-brands fa-python"/>`hello.py`.
 
 :::: note
 
@@ -188,8 +188,8 @@ That’s it! You’ve run your first script! Note that on Windows, you also have
 If you’ve never worked with the command line or terminal, then you can try the following, depending on your operating system:
 
 - On Windows, recent versions of the OS come with an application called PowerShell that you can quickly run from the *Search* bar. Once you’ve launched this program, you can start running commands in it.
-- On Linux, there are several applications that give you access to the system command line. In many desktop environments, you can quickly access the default terminal by pressing Ctrl+Alt+T.
-- On macOS, you can access the system terminal from the Launchpad by typing *Terminal* and pressing Enter when the app appears.
+- On Linux, there are several applications that give you access to the system command line. In many desktop environments, you can quickly access the default terminal by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
+- On macOS, you can access the system terminal from the Launchpad by typing *Terminal* and pressing <kbd>Enter</kbd> when the app appears.
 
 :::
 
@@ -312,7 +312,7 @@ In this example, the `missing` name isn’t in the `sys.path` list, so Python is
 
 ## How to Run Python Code Interactively
 
-Running scripts isn’t the only way to run Python code. Because Python is an interpreted language, you can use the interpreter to run code interactively. When you run the `python` command without arguments, you start a new interactive session, or [**REPL**](/realpython.com/python-repl.md) (Read-Eval-Print Loop). In there, you can run any Python code and get immediate feedback about how the code works.
+Running scripts isn’t the only way to run Python code. Because Python is an interpreted language, you can use the interpreter to run code interactively. When you run the `python` command without arguments, you start a new interactive session, or [**REPL**](/realpython.com/python-repl/README.md) (Read-Eval-Print Loop). In there, you can run any Python code and get immediate feedback about how the code works.
 
 In the following sections, you’ll learn the basics of the Python interpreter and how to run code in it. This knowledge will be pretty valuable for you, especially in those situations where you need to quickly test a small piece of Python code.
 
@@ -340,7 +340,7 @@ Alternatively, **interactive mode** is when you launch the interpreter and use i
 
 ### Running Python Code Interactively
 
-Interactive sessions are a widely used tool for running Python code. To start a Python interactive session, or REPL, open a command-line window, type in the `python` command, and then press Enter.
+Interactive sessions are a widely used tool for running Python code. To start a Python interactive session, or REPL, open a command-line window, type in the `python` command, and then press <kbd>Enter</kbd>.
 
 These steps will take you into the Python interpreter, which looks something like the following:
 
@@ -406,7 +406,7 @@ An interactive session will allow you to test every piece of code that you execu
 To leave interactive mode and jump back to the system shell, you can use one of the following options:
 
 - Executing the built-in `quit()` or `exit()` functions
-- Pressing the Ctrl+Z and Enter key combination on Windows, or the Ctrl+D combination on Unix systems, such as Linux and macOS
+- Pressing the <kbd>Ctrl</kbd>+<kbd>Z</kbd> and Enter key combination on Windows, or the <kbd>Ctrl</kbd>+<kbd>D</kbd> combination on Unix systems, such as Linux and macOS
 
 Go ahead and give the Python REPL a try. You’ll see that it’s a great development tool that you must keep in your tool kit.
 
@@ -420,7 +420,7 @@ You can also run Python scripts and modules from an interactive session or from 
 
 When you [**import a module**](/realpython.com/absolute-vs-relative-python-imports.md) from another module, script, or interactive session, what really happens is that Python loads its contents for later access and use. The interesting point is that the [**`import`**](/realpython.com/absolute-vs-relative-python-imports.md) statement runs any executable code in the imported module.
 
-When the module contains only [**class**](/realpython.com/python-classes.md), function, [**variable**](/realpython.com/python-variables.md), and [**constant**](/realpython.com/python-constants.md) definitions, you probably won’t be aware that the code was run. However, when the module includes calls to functions, methods, or other statements that generate visible results, then you’ll witness its execution.
+When the module contains only [**class**](/realpython.com/python-classes.md), function, [**variable**](/realpython.com/python-variables.md), and [**constant**](/realpython.com/python-constants/README.md) definitions, you probably won’t be aware that the code was run. However, when the module includes calls to functions, methods, or other statements that generate visible results, then you’ll witness its execution.
 
 This provides you with another option to run scripts:
 
@@ -496,7 +496,7 @@ For developing a large and complex application, you should use an integrated dev
 
 Most of these programs have options that allow you to run your programs from inside the environment itself. It’s common for them to include a *Run* or *Build* action, which is usually available from the toolbar or from the main menu.
 
-Python’s standard distribution comes with [**IDLE**](/realpython.com/python-idle.md) as the default IDE. You can use this program to write, debug, modify, and run your modules and scripts. Other IDEs, such as [**PyCharm**](/realpython.com/pycharm-guide.md) and [**Thonny**](/realpython.com/python-thonny.md), also allow you to run scripts from inside the environment. For example, in PyCharm, you can press Ctrl+R on your keyboard to quickly run your app’s entry-point script.
+Python’s standard distribution comes with [**IDLE**](/realpython.com/python-idle.md) as the default IDE. You can use this program to write, debug, modify, and run your modules and scripts. Other IDEs, such as [**PyCharm**](/realpython.com/pycharm-guide.md) and [**Thonny**](/realpython.com/python-thonny.md), also allow you to run scripts from inside the environment. For example, in PyCharm, you can press <kbd>Ctrl</kbd>+<kbd>R</kbd> on your keyboard to quickly run your app’s entry-point script.
 
 Advanced code editors like [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/docs) and [**Sublime Text**](/realpython.com/setting-up-sublime-text-3-for-full-stack-python-development.md) also allow you to run your scripts. In Visual Studio Code, you can press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run the file that’s currently active, for example.
 

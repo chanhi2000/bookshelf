@@ -76,7 +76,7 @@ Logging in Python lets you record important information about your program’s e
 
 :::
 
-You’ll do the coding for this tutorial in the [**Python standard REPL**](/realpython.com/python-repl.md). If you prefer Python files, then you’ll find a full logging example as a script in the materials of this tutorial. You can download this script by clicking the link below:
+You’ll do the coding for this tutorial in the [**Python standard REPL**](/realpython.com/python-repl/README.md). If you prefer Python files, then you’ll find a full logging example as a script in the materials of this tutorial. You can download this script by clicking the link below:
 
 ::: info Quiz - Logging in Python
 
@@ -111,7 +111,7 @@ The main component of the `logging` module is something called the **logger**. Y
 
 ### Exploring the Root Logger
 
-To get a first impression of how the `logging` module and a logger work, open the [**Python standard REPL**](/realpython.com/python-repl.md) and enter the code below:
+To get a first impression of how the `logging` module and a logger work, open the [**Python standard REPL**](/realpython.com/python-repl/README.md) and enter the code below:
 
 ```py
 import logging

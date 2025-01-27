@@ -17,6 +17,24 @@ const PYTHON_PRINT: SidebarInfoSubgroupTemplate = { // 2019-08-12
   ]
 }
 
+const SORTING_ALGORITHMS_PYTHON: SidebarInfoSubgroupTemplate = { // 2020-04-15
+  text: 'Sorting Algorithms in Python',
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'sorting-algorithms-python',
+  children: [
+    'README',
+    'the-importance-of-sorting-algorithms-in-python',
+    'pythons-built-in-sorting-algorithm',
+    'the-significance-of-time-complexity',
+    'the-bubble-sort-algorithm-in-python',
+    'the-insertion-sort-algorithm-in-python',
+    'the-merge-sort-algorithm-in-python',
+    'the-quicksort-algorithm-in-python',
+    'the-timsort-algorithm-in-python',
+  ]
+}
+
 const QUEUE_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2022-06-29
   text: "Python Stacks, Queues, and Priority Queues in Practice",
   collapsible: true,
@@ -31,6 +49,39 @@ const QUEUE_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2022-06-29
     'using-asynchronous-queues',
     'using-multiprocessingqueue-for-interprocess-communication-ipc',
     'integrating-python-with-distributed-message-queues',
+  ]
+}
+
+const PYTHON_REPL: SidebarInfoSubgroupTemplate = { // 2023-01-25
+  text: "The Python Standard REPL: Try Out Code and Ideas Quickly",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-repl',
+  children: [
+    'README',
+    'getting-to-know-the-python-standard-repl',
+    'starting-and-ending-repl-interactive-sessions',
+    'running-code-in-a-repl-session',
+    'editing-code-in-the-standard-repl',
+    'getting-help-and-introspecting-code-in-the-repl',
+    'customizing-the-standard-repl',
+    'uncovering-missing-features-in-the-standard-repl',
+    'using-an-alternative-repl',
+  ]
+}
+
+const PYTHON_DASH: SidebarInfoSubgroupTemplate = { // 2023-02-28
+  text: "Develop Data Visualization Interfaces in Python With Dash",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-dash',
+  children: [
+    'README',
+    'what-is-dash',
+    'get-started-with-dash-in-python',
+    'style-your-dash-application',
+    'add-interactivity-to-your-dash-apps-using-callbacks',
+    'deploy-your-dash-application-to-pythonanywhere',
   ]
 }
 
@@ -59,11 +110,29 @@ const PYTHON_LIST: SidebarInfoSubgroupTemplate = { // 2023-07-19
   ]
 }
 
+const PYTHON_CONSTANTS: SidebarInfoSubgroupTemplate = { // 2025-01-19
+  text: "Python Constants: Improve Your Code's Maintainability",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-constants',
+  children: [
+    'README',
+    'understanding-constants-and-variables',
+    'defining-your-own-constants-in-python',
+    'putting-constants-into-action',
+    'handling-your-constants-in-a-real-world-project',
+    'exploring-other-constants-in-python',
+    'type-annotating-constants',
+    'defining-strict-constants-in-python',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = { 
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    PYTHON_CONSTANTS, // 2025-01-19
     "image-processing-with-the-python-pillow-library", // 2025-01-08
   ]
 }
@@ -77,6 +146,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
     "python-logging", // 2024-11-30
+    "ruff-python", // 2024-06-17
   ]
 }
 
@@ -87,7 +157,9 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     PYTHON_LIST, // 2023-07-19
     "zen-of-python", // 2023-06-07
+    PYTHON_DASH, // 2023-02-28
     "terminal-commands", // 2023-02-22
+    PYTHON_REPL, // 2023-01-25
   ]
 }
 
@@ -97,6 +169,7 @@ const Y2022: SidebarYeargroupTemplate = {
   children: [
     // END: 2022
     QUEUE_IN_PYTHON, // 2022-06-29
+    "why-close-file-python", // 2022-04-27
     "python-zipfile", // 2022-02-14
   ]
 }
@@ -117,6 +190,7 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "python-boolean", // 2020-10-19
+    SORTING_ALGORITHMS_PYTHON, // 2020-04-15
   ]
 }
 
@@ -139,6 +213,7 @@ const Y2018: SidebarYeargroupTemplate = {
     // END: 2018
     "absolute-vs-relative-python-imports", // 2018-09-19
     "documenting-python-code", // 2018-07-25
+    "python-histograms", // 2018-07-12
     "python-application-layouts", // 2018-06-04
     "vim-and-python-a-match-made-in-heaven", // 2018-06-01
     "python-modules-packages", // 2018-04-17
@@ -158,6 +233,7 @@ const Y2014: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2014
+    "twitter-sentiment-python-docker-elasticsearch-kibana", // 2014-11-13
     "setting-up-sublime-text-3-for-full-stack-python-development", // 2014-08-11
   ]
 }
@@ -169,6 +245,7 @@ export const template: SidebarInfoTemplate = {
     [
     "py", [
       "setting-up-sublime-text-3-for-full-stack-python-development", // 2014-08-11
+      "twitter-sentiment-python-docker-elasticsearch-kibana", // 2014-11-13
       // END: 2014py
       // END: 2015py
       // END: 2016py
@@ -176,6 +253,7 @@ export const template: SidebarInfoTemplate = {
       "python-modules-packages", // 2018-04-17
       "vim-and-python-a-match-made-in-heaven", // 2018-06-01
       "python-application-layouts", // 2018-06-04
+      "python-histograms", // 2018-07-12
       "documenting-python-code", // 2018-07-25
       "absolute-vs-relative-python-imports", // 2018-09-19
       // END: 2018py
@@ -184,22 +262,50 @@ export const template: SidebarInfoTemplate = {
       PYTHON_PRINT, // 2019-08-12
       "python-kwargs-and-args", // 2019-09-04
       // END: 2019py
+      SORTING_ALGORITHMS_PYTHON, // 2020-04-15
       "python-boolean", // 2020-10-19
       // END: 2020py
       "what-can-i-do-with-python", // 2021-07-07
       // END: 2021py
       "python-zipfile", // 2022-02-14
+      "why-close-file-python", // 2022-04-27
       QUEUE_IN_PYTHON, // 2022-06-29
       // END: 2022py
+      PYTHON_REPL, // 2023-01-25
+      PYTHON_DASH, // 2023-02-28
       "zen-of-python", // 2023-06-07
       PYTHON_LIST, // 2023-07-19
       // END: 2023py
+      "ruff-python", // 2024-06-17
       "python-logging", // 2024-11-30
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08
       "what-is-pip", // 2024-12-22
       // END: 2024py
       "image-processing-with-the-python-pillow-library", // 2025-01-08
+      PYTHON_CONSTANTS, // 2025-01-19
+      // END: 2025py
+      // END: py
+    ]],[
+    "py-numpy", [ 
+      "python-histograms", // 2018-07-12
+      // END: 2018py-numpy
+      // END: py-numpy
+    ]],[
+    "py-matplotlib", [ 
+      "python-histograms", // 2018-07-12
+      // END: 2018py-matplotlib
+      // END: py-matplotlib
+    ]],[
+    "py-scipy", [ 
+      "python-histograms", // 2018-07-12
+      // END: 2018py-scipy
+      // END: py-scipy
+    ]],[
+    "py-pandas", [ 
+      "python-histograms", // 2018-07-12
+      // END: 2018py-pandas
+      // END: py-pandas
     ]],[
     "git", [ 
       "terminal-commands", // 2023-02-22
@@ -215,19 +321,40 @@ export const template: SidebarInfoTemplate = {
       // END: 2025sh
       // END: sh
     ]],[
+    "docker", [ 
+      "twitter-sentiment-python-docker-elasticsearch-kibana", // 2014-11-13
+      // END: 2014docker
+      // END: 2015docker
+      // END: 2016docker
+      // END: 2017docker
+      // END: 2018docker
+      // END: 2019docker
+      // END: 2020docker
+      // END: 2021docker
+      // END: 2022docker
+      // END: 2023docker
+      // END: 2024docker
+      // END: 2025docker
+      // END: docker
+    ]],[
     "sublimetext", [ 
       "setting-up-sublime-text-3-for-full-stack-python-development", // 2014-08-11
-      // END: 2014py
-      // END: 2015py
-      // END: 2016py
-      // END: 2017py
-      // END: 2018py
-      // END: 2019py
-      // END: 2020py
-      // END: 2021py
-      // END: 2022py
-      // END: 2023py
-      // END: 2024py
+      // END: 2014sublimetext
+      // END: 2015sublimetext
+      // END: 2016sublimetext
+      // END: 2017sublimetext
+      // END: 2018sublimetext
+      // END: 2019sublimetext
+      // END: 2020sublimetext
+      // END: 2021sublimetext
+      // END: 2022sublimetext
+      // END: 2023sublimetext
+      // END: 2024sublimetext
+      // END: py
+    ]],[
+    "career", [ 
+      "world-class-companies-using-python", // 2018-02-08
+      // END: 2018career
     ]],[
     "all", [ 
       Y2025,

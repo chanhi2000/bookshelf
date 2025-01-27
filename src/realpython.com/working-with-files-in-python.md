@@ -1251,7 +1251,7 @@ Here’s the output:
 
 `.getinfo()` returns a `ZipInfo` object that stores information about a single member of the archive. To get information about a file in the archive, you pass its path as an argument to `.getinfo()`. Using `getinfo()`, you’re able to retrieve information about archive members such as the date the files were last modified, their compressed sizes, and their full filenames. Accessing `.file_size` retrieves the file’s original size in bytes.
 
-The following example shows how to retrieve more details about archived files in a [**Python REPL**](/realpython.com/python-repl.md). Assume that the `zipfile` module has been imported and `bar_info` is the same object you created in previous examples:
+The following example shows how to retrieve more details about archived files in a [**Python REPL**](/realpython.com/python-repl/README.md). Assume that the `zipfile` module has been imported and `bar_info` is the same object you created in previous examples:
 
 ```py
 bar_info.date_time

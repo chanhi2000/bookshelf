@@ -280,7 +280,7 @@ In future posts, we will cover additional `git` commands and how they can help u
 <SiteInfo
   name="Git Internals - Intro Video"
   desc="Many of us use git on a daily basis. But how many of us know what goes on under the hood?In this series, we will get a rare understanding of what goes on und..."
-  url="https://youtube.com/watch?v=fWMKue-WBok&list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7/"
+  url="https://youtu.be/fWMKue-WBok?list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7/"
   logo="https://youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png"
   preview="https://i.ytimg.com/vi/fWMKue-WBok/hqdefault.jpg"/>
 
