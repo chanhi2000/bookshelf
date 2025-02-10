@@ -1,5 +1,19 @@
 import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const READ_WRITE_FILES_PYTHON: SidebarInfoSubgroupTemplate = { // 2019-02-20
+  text: "Reading and Writing Files in Python (Guide)",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'read-write-files-python',
+  children: [
+    'README',
+    'what-is-a-file',
+    'opening-and-closing-a-file-in-python',
+    'reading-and-writing-opened-files',
+    'tips-and-tricks',
+  ]
+}
+
 const PYTHON_PRINT: SidebarInfoSubgroupTemplate = { // 2019-08-12
   text: "Your Guide to the Python print() Function",
   collapsible: true,
@@ -32,6 +46,42 @@ const SORTING_ALGORITHMS_PYTHON: SidebarInfoSubgroupTemplate = { // 2020-04-15
     'the-merge-sort-algorithm-in-python',
     'the-quicksort-algorithm-in-python',
     'the-timsort-algorithm-in-python',
+  ]
+}
+
+const PYTHON_DATETIME: SidebarInfoSubgroupTemplate = { // 2020-05-04
+  text: "Using Python datetime to Work With Dates and Times",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-datetime',
+  children: [
+    'README',
+    'programming-with-dates-and-times',
+    'using-the-python-datetime-module',
+    'starting-your-pycon-countdown',
+    'working-with-time-zones',
+    'improving-your-pycon-countdown',
+    'doing-arithmetic-with-python-datetime',
+    'finishing-your-pycon-countdown',
+    'alternatives-to-python-datetime-and-dateutil',
+  ]
+}
+
+const PYTHON39_NEW_FEATURES: SidebarInfoSubgroupTemplate = { // 2020-10-05
+  text: "Python 3.9: Cool New Features for You to Try",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python39-new-features',
+  children: [
+    'README',
+    'proper-time-zone-support',
+    'simpler-updating-of-dictionaries',
+    'more-flexible-decorators',
+    'annotated-type-hints',
+    'a-more-powerful-python-parser',
+    'other-pretty-cool-features',
+    'when-is-the-next-version-of-python-coming',
+    'so-should-you-upgrade-to-python-39',
   ]
 }
 
@@ -110,6 +160,23 @@ const PYTHON_LIST: SidebarInfoSubgroupTemplate = { // 2023-07-19
   ]
 }
 
+const USING_JUPYTERLAB: SidebarInfoSubgroupTemplate = { // 2023-11-13
+  text: "JupyterLab for an Enhanced Notebook Experience",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'using-jupyterlab',
+  children: [
+    'README',
+    'installing-and-starting-jupyterlab',
+    'understanding-jupyterlab-kernels',
+    'working-with-jupyter-notebook-in-jupyterlab',
+    'using-the-markdown-editor',
+    'managing-and-viewing-different-files',
+    'using-your-operating-system-without-leaving-jupyter',
+    'using-other-tools',
+  ]
+}
+
 const PYTHON_CONSTANTS: SidebarInfoSubgroupTemplate = { // 2025-01-19
   text: "Python Constants: Improve Your Code's Maintainability",
   collapsible: true,
@@ -155,6 +222,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    USING_JUPYTERLAB, // 2023-11-13
     PYTHON_LIST, // 2023-07-19
     "zen-of-python", // 2023-06-07
     PYTHON_DASH, // 2023-02-28
@@ -190,6 +258,8 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "python-boolean", // 2020-10-19
+    PYTHON39_NEW_FEATURES, // 2020-10-05
+    PYTHON_DATETIME,// 2020-05-04
     SORTING_ALGORITHMS_PYTHON, // 2020-04-15
   ]
 }
@@ -202,6 +272,7 @@ const Y2019: SidebarYeargroupTemplate = {
     "python-kwargs-and-args", // 2019-09-04
     PYTHON_PRINT, // 2019-08-12
     "python-lambda", // 2019-06-19
+    READ_WRITE_FILES_PYTHON, // 2019-02-20
     "working-with-files-in-python", // 2019-01-21
   ]
 }
@@ -258,11 +329,14 @@ export const template: SidebarInfoTemplate = {
       "absolute-vs-relative-python-imports", // 2018-09-19
       // END: 2018py
       "working-with-files-in-python", // 2019-01-21
+      READ_WRITE_FILES_PYTHON, // 2019-02-20
       "python-lambda", // 2019-06-19
       PYTHON_PRINT, // 2019-08-12
       "python-kwargs-and-args", // 2019-09-04
       // END: 2019py
       SORTING_ALGORITHMS_PYTHON, // 2020-04-15
+      PYTHON_DATETIME,// 2020-05-04
+      PYTHON39_NEW_FEATURES, // 2020-10-05
       "python-boolean", // 2020-10-19
       // END: 2020py
       "what-can-i-do-with-python", // 2021-07-07
@@ -306,6 +380,12 @@ export const template: SidebarInfoTemplate = {
       "python-histograms", // 2018-07-12
       // END: 2018py-pandas
       // END: py-pandas
+    ]],[
+      "py-jupyter", [
+      USING_JUPYTERLAB, // 2023-11-13
+      // END: 2023py-jupyter
+      // END: 2024py-jupyter
+      // END: py-jupyter
     ]],[
     "git", [ 
       "terminal-commands", // 2023-02-22

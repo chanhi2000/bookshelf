@@ -15,6 +15,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "stop-conflating-cqrs-and-mediatr", // 2025-02-08
+    "overriding-default-http-resilience-handlers-in-dotnet", // 2025-02-01
+    "implementing-aes-encryption-with-csharp", // 2025-01-25
     "scaling-monoliths-a-practical-guide-for-growing-systems", // 2025-01-18
     "working-with-llms-in-dotnet-using-microsoft-extensions-ai", // 2025-01-11
     "unit-testing-clean-architecture-use-cases", // 2025-01-04
@@ -289,6 +292,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2024cs
       "unit-testing-clean-architecture-use-cases", // 2025-01-04
       "working-with-llms-in-dotnet-using-microsoft-extensions-ai", // 2025-01-11
+      "implementing-aes-encryption-with-csharp", // 2025-01-25
+      "overriding-default-http-resilience-handlers-in-dotnet", // 2025-02-01
+      "stop-conflating-cqrs-and-mediatr", // 2025-02-08
       // END: 2025cs
       // END: cs
     ]],[

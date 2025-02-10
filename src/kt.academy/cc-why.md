@@ -23,7 +23,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-10-09
 isOriginal: false
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://marcinmoskala.com/coroutines_book/promotion/101_why.jpg
 ---
 

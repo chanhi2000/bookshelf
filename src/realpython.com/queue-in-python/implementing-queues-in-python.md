@@ -49,18 +49,15 @@ cover: https://files.realpython.com/media/How-to-Implement-A-Queue-in-Python_Wat
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Implement-A-Queue-in-Python_Watermarked.993460fe2ffc.jpg"/>
 
+First of all, should you implement a queue yourself in Python? In most cases, the answer to that question will be a decisive *no*. The language comes with batteries included, and queues are no exception. In fact, you’ll discover that Python has an abundance of queue implementations suited to solving various problems.
+
+That being said, trying to build something from scratch can be an invaluable learning experience. You might also get asked to provide a queue implementation during a [**technical interview**](/realpython.com/python-coding-interview-tips.md). So, if you find this topic interesting, then please read on. Otherwise, if you only seek to [use queues in practice](#using-queues-in-practice), then feel free to skip this section entirely.
 
 ---
 
-## Implementing Queues in Python
+## Representing FIFO and LIFO Queues With a Deque
 
-First of all, should you implement a queue yourself in Python? In most cases, the answer to that question will be a decisive *no*. The language comes with batteries included, and queues are no exception. In fact, you’ll discover that Python has an abundance of queue implementations suited to solving various problems.
-
-That being said, trying to build something from scratch can be an invaluable learning experience. You might also get asked to provide a queue implementation during a [technical interview](https://realpython.com/python-coding-interview-tips/). So, if you find this topic interesting, then please read on. Otherwise, if you only seek to [use queues in practice](#using-queues-in-practice), then feel free to skip this section entirely.
-
-### Representing FIFO and LIFO Queues With a Deque
-
-To represent a FIFO queue in the computer’s memory, you’ll need a [sequence](https://docs.python.org/3/glossary.html#term-sequence) that has O(1), or constant time, performance for the enqueue operation on one end, and a similarly efficient dequeue operation on the other end. As you already know by now, a deque or double-ended queue satisfies those requirements. Plus, it’s universal enough to adapt for a LIFO queue as well.
+To represent a FIFO queue in the computer’s memory, you’ll need a [<FontIcon icon="fa-brands fa-python"/>sequence](https://docs.python.org/3/glossary.html#term-sequence) that has O(1), or constant time, performance for the enqueue operation on one end, and a similarly efficient dequeue operation on the other end. As you already know by now, a deque or double-ended queue satisfies those requirements. Plus, it’s universal enough to adapt for a LIFO queue as well.
 
 However, because coding one would be out of scope of this tutorial, you’re going to leverage Python’s [`deque`](https://realpython.com/python-deque/) collection from the standard library.
 
@@ -74,7 +71,9 @@ Unfortunately, dequeuing an element from the front of a list with `list.pop(0)`,
 
 With that, you can proceed to define your custom `Queue` class based on Python’s `deque` collection.
 
-### Building a Queue Data Type
+---
+
+## Building a Queue Data Type
 
 Now that you’ve chosen a suitable queue representation, you can fire up your favorite [code editor](https://realpython.com/python-ides-code-editors-guide/), such as [Visual Studio Code](https://realpython.com/python-development-visual-studio-code/) or [PyCharm](https://realpython.com/pycharm-guide/), and create a new [Python module](https://realpython.com/python-modules-packages/) for the different queue implementations. You can call the file `queues.py` (plural form) to avoid a conflict with the similarly named `queue` (singular form) module already available in Python’s standard library.
 
@@ -162,7 +161,9 @@ Restart the Python interpreter and import your class again to see the updated co
 
 The queue has three elements initially, but its length drops to zero after consuming all elements in a loop. Next up, you’ll implement a stack data type that’ll dequeue elements in reverse order.
 
-### Building a Stack Data Type
+---
+
+## Building a Stack Data Type
 
 Building a [stack](https://realpython.com/how-to-implement-python-stack/) data type is considerably more straightforward because you’ve already done the bulk of the hard work. Since most of the implementation will remain the same, you can extend your `Queue` class using [inheritance](https://realpython.com/inheritance-composition-python/) and override the `.dequeue()` method to remove elements from the top of the stack:
 
@@ -213,7 +214,9 @@ In one-off scripts, you could probably get away with using a plain old Python `l
 
 Python lists are iterable out of the box. They can report their length and have a sensible textual representation. In the next section, you’ll choose them as the foundation for a priority queue.
 
-### Representing Priority Queues With a Heap
+---
+
+## Representing Priority Queues With a Heap
 
 The last queue that you’ll implement in this tutorial will be a priority queue. Unlike a stack, the priority queue can’t extend the `Queue` class defined earlier, because it doesn’t belong to the same type hierarchy. The order of elements in a FIFO or LIFO queue is determined solely by the elements’ time of arrival. In a priority queue, it’s an element’s priority and the insertion order that together determine the ultimate position within the queue.
 
@@ -293,7 +296,9 @@ Here, you have three tuples representing different people. Each has a first name
 
 You can enforce a prioritized order on the heap by storing tuples whose first element is a priority. However, there will be a few fine details that you need to be careful about. You’ll learn more about them in the next section.
 
-### Building a Priority Queue Data Type
+---
+
+## Building a Priority Queue Data Type
 
 Imagine you were building software for an automotive company. Modern vehicles are practically computers on wheels, which leverage a [controller area network (CAN) bus](https://en.wikipedia.org/wiki/CAN_bus) to broadcast messages about various events going on in your car, such as unlocking the doors or inflating an airbag. Clearly, some of those events are more important than others and should be prioritized accordingly.
 
@@ -387,7 +392,9 @@ Now, if you head back to your interactive Python interpreter, import the updated
 
 You get the critical message first, followed by the two important ones, and then the neutral message. So far, so good, right? However, there are two problems with your implementation. One of them you can already see in the output, while the other will only manifest itself under specific circumstances. Can you spot these problems?
 
-### Handling Corner Cases in Your Priority Queue
+---
+
+## Handling Corner Cases in Your Priority Queue
 
 Your queue can correctly order elements by priority, but at the same time, it violates **sort stability** when comparing elements with equal priorities. This means that in the example above, flashing the hazard lights takes precedence over engaging the windshield wipers, even though this ordering doesn’t follow the chronology of events. Both messages have the same priority, important, so the queue should sort them by their insertion order.
 
@@ -463,7 +470,9 @@ The last tiny detail to keep in mind after introducing this extra counter compon
 
 Your priority queue is almost ready, but it’s missing the two [special methods](https://realpython.com/python-classes/#special-methods-and-protocols), `.__len__()` and `.__iter__()`, which you implemented in the other two queue classes. While you can’t reuse their code through inheritance, as the priority queue is *not* a subtype of the FIFO queue, Python provides a powerful mechanism that lets you work around that issue.
 
-### Refactoring the Code Using a Mixin Class
+---
+
+## Refactoring the Code Using a Mixin Class
 
 To reuse code across unrelated classes, you can identify their least common denominator and then extract that code into a [mixin class](https://realpython.com/inheritance-composition-python/#mixing-features-with-mixin-classes). A mixin class is like a spice. It can’t stand on its own, so you wouldn’t typically instantiate it, but it can add that extra flavor once you mix it into another class. Here’s how it would work in practice:
 

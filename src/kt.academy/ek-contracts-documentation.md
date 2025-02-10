@@ -22,6 +22,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-07-08
 isOriginal: false
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2FEffectiveKotlin-Book%2Fpromotion%2Fcontracts_documentation.jpg&w=828&q=75
 ---
 

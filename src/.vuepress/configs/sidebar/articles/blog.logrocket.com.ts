@@ -170,7 +170,7 @@ export const template: SidebarInfoTemplate = {
       // END: ts
     ]],[
     "js-node", [
-      "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
+    "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
       "es-modules-in-node-today", // 2021-03-03
       // END: 2021js-node
       "intercepting-javascript-fetch-api-requests-responses", // 2022-02-18

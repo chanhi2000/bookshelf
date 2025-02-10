@@ -24,7 +24,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/kt.academy/cc-cancellation.html
 prev: /programming/java/articles/README.md
 date: 2024-03-11
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg
 ---
 

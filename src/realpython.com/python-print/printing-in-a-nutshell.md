@@ -694,7 +694,7 @@ print('line1\r\nline2\r\nline3')
 # line3
 ```
 
-On the flip side, when you [**open a file for reading**](/realpython.com/read-write-files-python.md) with `open()`, you don’t need to care about newline representation either. The function will translate any system-specific newline it encounters into a universal `'\n'`. At the same time, you have control over how the newlines should be treated both on input and output if you really need that.
+On the flip side, when you [**open a file for reading**](/realpython.com/read-write-files-python/README.md) with `open()`, you don’t need to care about newline representation either. The function will translate any system-specific newline it encounters into a universal `'\n'`. At the same time, you have control over how the newlines should be treated both on input and output if you really need that.
 
 :::
 
@@ -953,7 +953,7 @@ with open('file.txt', mode='w') as file_object:
 
 This will make your code immune to stream redirection at the operating system level, which might or might not be desired.
 
-For more information on [**working with files in Python**](/realpython.com/working-with-files-in-python.md), you can check out [**Reading and Writing Files in Python (Guide)**](/realpython.com/read-write-files-python.md).
+For more information on [**working with files in Python**](/realpython.com/working-with-files-in-python.md), you can check out [**Reading and Writing Files in Python (Guide)**](/realpython.com/read-write-files-python/README.md).
 
 ::: note
 

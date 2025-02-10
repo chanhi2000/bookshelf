@@ -22,6 +22,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-06-17
 isOriginal: false
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fimages%2Fpower_assert_cover.png&w=750&q=75
 ---
 

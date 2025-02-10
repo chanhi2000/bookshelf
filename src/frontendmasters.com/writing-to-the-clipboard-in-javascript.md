@@ -19,10 +19,12 @@ head:
       content: "Writing to the Clipboard in JavaScript"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/frontendmasters.com/writing-to-the-clipboard-in-javascript.html
-prev: /articles/README.md
+prev: /programming/js/articles/README.md
 date: 2024-08-23
 isOriginal: false
-author: Raymond Camden
+author:
+  - name: Raymond Camden
+    url: https://frontendmasters.com/blog/author/raymondcamden/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3629
 ---
 
@@ -30,9 +32,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/js/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -59,7 +59,7 @@ Computer languages allow you to represent data as well as executable code in a s
 
 Pretty-printing is about making a piece of data or code look more appealing to the human eye so that it can be understood more easily. This is done by indenting certain lines, inserting newlines, reordering elements, and so forth.
 
-Python comes with the `pprint` module in its standard library, which will help you in pretty-printing large data structures that don’t fit on a single line. Because it prints in a more human-friendly way, many popular [**REPL**](/realpython.com/interacting-with-python.md) tools, including [**JupyterLab**](/realpython.com/using-jupyterlab.md) and [**IPython**](/realpython.com/ipython-interactive-python-shell.md), use it by default in place of the regular `print()` function.
+Python comes with the `pprint` module in its standard library, which will help you in pretty-printing large data structures that don’t fit on a single line. Because it prints in a more human-friendly way, many popular [**REPL**](/realpython.com/interacting-with-python.md) tools, including [**JupyterLab**](/realpython.com/using-jupyterlab/README.md) and [**IPython**](/realpython.com/ipython-interactive-python-shell.md), use it by default in place of the regular `print()` function.
 
 ::: note
 

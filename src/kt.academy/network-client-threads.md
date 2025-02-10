@@ -26,7 +26,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-05-13
 isOriginal: false
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://marcinmoskala.com/kt-academy-articles/promotion/network-client-threads.jpg
 ---
 

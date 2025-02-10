@@ -45,7 +45,7 @@ cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermark
 <SiteInfo
   name="Develop Data Visualization Interfaces in Python With Dash"
   desc="In this tutorial, you'll learn how to build a dashboard using Python and Dash. Dash is a framework for building data visualization interfaces. It helps data scientists build fully interactive web applications quickly."
-  url="https://realpython.com/python-repl#style-your-dash-application"
+  url="https://realpython.com/python-dash#style-your-dash-application"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Data-Visualization-With-Dash_Watermarked.b3eae31c557f.jpg"/>
 

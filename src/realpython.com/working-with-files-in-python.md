@@ -99,7 +99,7 @@ with open('data.txt', 'w') as f:
     f.write(data)
 ```
 
-In the examples above, `open()` opens files for reading or writing and returns a file handle (`f` in this case) that provides methods that can be used to read or write data to the file. Check out [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python.md) and [<FontIcon icon="fas fa-globe"/>Working With File I/O in Python](https://dbader.org/blog/python-file-io) for more information on how to read and write to files.
+In the examples above, `open()` opens files for reading or writing and returns a file handle (`f` in this case) that provides methods that can be used to read or write data to the file. Check out [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python/README.md) and [<FontIcon icon="fas fa-globe"/>Working With File I/O in Python](https://dbader.org/blog/python-file-io) for more information on how to read and write to files.
 
 ---
 

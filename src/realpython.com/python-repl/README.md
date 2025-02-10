@@ -68,7 +68,7 @@ The Python standard shell, or **REPL (Read-Eval-Print Loop)**, allows you to run
 
 As a Python developer, you’ll spend a considerable part of your coding time in a REPL session because this tool allows you to test new ideas, explore and experiment with new tools and libraries, refactor and debug your code, and try out examples.
 
-::: info In this tutorial, you’ll learn how to
+::: important In this tutorial, you’ll learn how to
 
 - Run the Python **standard REPL**, or interactive shell
 - Write and execute **Python code** in an interactive session
@@ -182,7 +182,7 @@ In this quiz, you'll test your understanding of the Python standard REPL. The Py
 
 You’ve learned how to work with Python in interactive mode using the standard shell, or **REPL (Read-Eval-Print Loop)**. This tool comes in every Python installation so that you can use it at any moment to test new ideas, explore and experiment with new tools and libraries, refactor and debug your code, try out examples, and more.
 
-::: info In this tutorial, you’ve learned how to
+::: important In this tutorial, you’ve learned how to
 
 - Start the Python **standard REPL** from your command line
 - Use the REPL to write and execute **Python code**

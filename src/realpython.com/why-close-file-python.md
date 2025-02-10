@@ -58,7 +58,7 @@ with open("hello.txt", mode="w") as file:
     file.write("Hello, World!")
 ```
 
-The [**`with` statement**](/realpython.com/python-with-statement.md) initiates a context manager. In this example, the context manager [**opens**](/realpython.com/read-write-files-python.md#opening-and-closing-a-file-in-python) the file <FontIcon icon="fas fa-file-lines"/>`hello.txt` and **manages** the file resource as long as the **context** is active. In general, all the code in the indented block depends on the file object being open. Once the indented block either ends or raises an exception, then the file will close.
+The [**`with` statement**](/realpython.com/python-with-statement.md) initiates a context manager. In this example, the context manager [**opens**](/realpython.com/read-write-files-python/opening-and-closing-a-file-in-python.md) the file <FontIcon icon="fas fa-file-lines"/>`hello.txt` and **manages** the file resource as long as the **context** is active. In general, all the code in the indented block depends on the file object being open. Once the indented block either ends or raises an exception, then the file will close.
 
 If you’re not using a context manager or you’re working in a different language, then you might explicitly close files with the [**`try` … `finally` approach**](/realpython.com/python-with-statement.md#the-try-finally-approach):
 
@@ -88,7 +88,7 @@ When you open a file with `open()`, you make a [<FontIcon icon="fa-brands fa-wik
 
 A Python process making a system call and getting the integer 10 as the file handle
 
-Once you have the number associated with the file, you’re ready to do [**read or write operations**](/realpython.com/read-write-files-python.md). Whenever Python wants to read, write, or close the file, it’ll make another system call, providing the file handle number. The Python file object has a `.fileno()` method that you can use to find the file handle:
+Once you have the number associated with the file, you’re ready to do [**read or write operations**](/realpython.com/read-write-files-python/README.md). Whenever Python wants to read, write, or close the file, it’ll make another system call, providing the file handle number. The Python file object has a `.fileno()` method that you can use to find the file handle:
 
 ```py
 with open("test_file.txt", mode="w") as file:
@@ -290,7 +290,7 @@ You can never totally insulate yourself from a crash, but you can reduce your ex
 
 You’ve learned **why it’s important to close files in Python**. Because files are limited resources managed by the operating system, making sure files are closed after use will protect against hard-to-debug issues like running out of file handles or experiencing corrupted data. The best defense is always to open files with a context manager.
 
-Digging under the surface, you’ve seen what happens when you open too many files, and you’ve provoked a crash that leads to the contents of a file going missing. To learn more about opening files, see [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python.md). For an in-depth guide to context managers, check out [**Context Managers and Python’s `with` Statement**](/realpython.com/python-with-statement.md).
+Digging under the surface, you’ve seen what happens when you open too many files, and you’ve provoked a crash that leads to the contents of a file going missing. To learn more about opening files, see [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python/README.md). For an in-depth guide to context managers, check out [**Context Managers and Python’s `with` Statement**](/realpython.com/python-with-statement.md).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

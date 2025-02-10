@@ -68,11 +68,11 @@ In `git`, the equivalent of a directory is a **tree**. A **tree** is basically a
 
 ![A tree is a directory listing](https://freecodecamp.org/news/content/images/2020/12/image-35.png)
 
-Note that the **tree** **CAFE7** refers to the **blob F92A0** as <FontIcon icon="fas fa-image"/>`pic.png`. In another **tree**, that same **blob** may have another name.
+Note that the **tree** **CAFE7** refers to the **blob F92A0** as <FontIcon icon="fas fa-file-image"/>`pic.png`. In another **tree**, that same **blob** may have another name.
 
 ![A tree may contain sub-trees, as well as blobs](https://freecodecamp.org/news/content/images/2020/12/image-36.png)
 
-The diagram above is equivalent to a file system with a root directory that has one file at <FontIcon icon="fa-brands fa-js"/>`/test.js`, and a directory named <FontIcon icon="fas fa-folder-open"/>`/docs` with two files: <FontIcon icon="fas fa-folder-open"/>`/docs/`<FontIcon icon="fas fa-image"/>`pic.png` and `/docs/`<FontIcon icon="fas fa-file-lines"/>`1.txt`.
+The diagram above is equivalent to a file system with a root directory that has one file at <FontIcon icon="fa-brands fa-js"/>`/test.js`, and a directory named <FontIcon icon="fas fa-folder-open"/>`/docs` with two files: <FontIcon icon="fas fa-folder-open"/>`/docs/`<FontIcon icon="fas fa-file-image"/>`pic.png` and `/docs/`<FontIcon icon="fas fa-file-lines"/>`1.txt`.
 
 Now it’s time to take a snapshot of that file system — and store all the files that existed at that time, along with their contents.
 

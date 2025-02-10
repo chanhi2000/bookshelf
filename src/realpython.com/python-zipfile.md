@@ -153,7 +153,7 @@ Be aware that `zipfile` does have a few limitations. For example, the current da
 
 ### Opening ZIP Files for Reading and Writing
 
-In the `zipfile` module, you’ll find the [<FontIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile) class. This class works pretty much like Python’s built-in [**`open()`**](/realpython.com/read-write-files-python.md#opening-and-closing-a-file-in-python) function, allowing you to open your ZIP files using different modes. The read mode (`"r"`) is the default. You can also use the write (`"w"`), append (`"a"`), and exclusive (`"x"`) modes. You’ll learn more about each of these in a moment.
+In the `zipfile` module, you’ll find the [<FontIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile) class. This class works pretty much like Python’s built-in [**`open()`**](/realpython.com/read-write-files-python/opening-and-closing-a-file-in-python.md) function, allowing you to open your ZIP files using different modes. The read mode (`"r"`) is the default. You can also use the write (`"w"`), append (`"a"`), and exclusive (`"x"`) modes. You’ll learn more about each of these in a moment.
 
 `ZipFile` implements the **context manager protocol** so that you can use the class in a [**`with` statement**](/realpython.com/python-with-statement.md). This feature allows you to quickly open and work with a ZIP file without worrying about [**closing the file**](/realpython.com/why-close-file-python.md) after you finish your work.
 
@@ -387,7 +387,7 @@ with zipfile.ZipFile("sample.zip", mode="r") as archive:
 # --------------------
 ```
 
-The [**`for` loop**](/realpython.com/python-for-loop.md) iterates over the `ZipInfo` objects from `.infolist()`, retrieving the filename, the last modification date, the normal size, and the compressed size of each member file. In this example, you’ve used [**`datetime`**](/realpython.com/python-datetime.md) to format the date in a human-readable way.
+The [**`for` loop**](/realpython.com/python-for-loop.md) iterates over the `ZipInfo` objects from `.infolist()`, retrieving the filename, the last modification date, the normal size, and the compressed size of each member file. In this example, you’ve used [**`datetime`**](/realpython.com/python-datetime/README.md) to format the date in a human-readable way.
 
 ::: note
 

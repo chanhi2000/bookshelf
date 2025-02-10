@@ -115,7 +115,7 @@ Now that you’ve installed the package, you’re ready to start familiarizing y
 
 The main class defined in Pillow is the [<FontIcon icon="fas fa-globe"/>`Image`](https://pillow.readthedocs.io/en/stable/reference/Image.html) class. When you read an image using Pillow, the image is stored in an object of type `Image`.
 
-For the code in this section, you’ll need the image file named <FontIcon icon="fas fa-image"/>`buildings.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/memorycatcher-168384/)), which you can find in the image repository for this tutorial:
+For the code in this section, you’ll need the image file named <FontIcon icon="fas fa-file-image"/>`buildings.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/memorycatcher-168384/)), which you can find in the image repository for this tutorial:
 
 ::: tip Get Images
 
@@ -281,7 +281,7 @@ Therefore, the `Image` object for an RBG image contains three bands, one for eac
 
 The mode of an image describes what type of image you’re working with. Pillow supports most standard modes, including black-and-white (binary), grayscale, RGB, RGBA, and [<FontIcon icon="fa-brands fa-wikipedia-w"/>CMYK](https://en.wikipedia.org/wiki/CMYK_color_model). You can see the full list of supported modes in the Pillow documentation on [<FontIcon icon="fas fa-globe"/>modes](https://pillow.readthedocs.io/en/stable/handbook/concepts.html?highlight=bands#modes).
 
-You can find out how many bands are in an `Image` object using the [<FontIcon icon="fas fa-globe"/>`.getbands()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.getbands) method, and you can convert between modes using [<FontIcon icon="fas fa-globe"/>`.convert()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.convert). Now you’ll use the image named <FontIcon icon="fas fa-image"/>`strawberry.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/geoluro11-15863448/)) from the image repository for this tutorial:
+You can find out how many bands are in an `Image` object using the [<FontIcon icon="fas fa-globe"/>`.getbands()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.getbands) method, and you can convert between modes using [<FontIcon icon="fas fa-globe"/>`.convert()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.convert). Now you’ll use the image named <FontIcon icon="fas fa-file-image"/>`strawberry.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/geoluro11-15863448/)) from the image repository for this tutorial:
 
 ![Strawberry image for Python Pillow tutorial](https://files.realpython.com/media/strawberry-1.438a9555d0c2.jpg)
 
@@ -594,7 +594,7 @@ In this section, you’ve learned about several filters available in the `ImageF
 
 ## Image Segmentation and Superimposition: An Example
 
-In this section, you’ll use the image files named <FontIcon icon="fas fa-image"/>`cat.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/mabelamber-1377835/)) and <FontIcon icon="fas fa-image"/>`monastery.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/tama66-1032521/)), which you can find in the image repository for this tutorial:
+In this section, you’ll use the image files named <FontIcon icon="fas fa-file-image"/>`cat.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/mabelamber-1377835/)) and <FontIcon icon="fas fa-file-image"/>`monastery.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/tama66-1032521/)), which you can find in the image repository for this tutorial:
 
 ::: tip Get Images
 
@@ -612,7 +612,7 @@ You can use the Python Pillow library to extract the cat from the first image an
 
 ### Image Thresholding
 
-You’ll start by working on <FontIcon icon="fas fa-image"/>`cat.jpg`. You’ll need to remove the picture of the cat from the background using image segmentation techniques. In this example, you’ll segment the image using [<FontIcon icon="fa-brands fa-wikipedia-w"/>thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) techniques.
+You’ll start by working on <FontIcon icon="fas fa-file-image"/>`cat.jpg`. You’ll need to remove the picture of the cat from the background using image segmentation techniques. In this example, you’ll segment the image using [<FontIcon icon="fa-brands fa-wikipedia-w"/>thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) techniques.
 
 First, you can crop the image to a smaller one to remove some of the background. You can start a new REPL session for this project:
 
@@ -695,7 +695,7 @@ You can use the image processing techniques called [<FontIcon icon="fa-brands fa
 
 ### Erosion and Dilation
 
-You can look at the image file called <FontIcon icon="fas fa-image"/>`dot_and_hole.jpg`, which you can download from the repository linked to this tutorial:
+You can look at the image file called <FontIcon icon="fas fa-file-image"/>`dot_and_hole.jpg`, which you can download from the repository linked to this tutorial:
 
 ![Sample image to demonstrate erosion and dilation in Python Pillow](https://files.realpython.com/media/dot_and_hole.7d97ef4056d0.jpg)
 
@@ -703,7 +703,7 @@ The left-hand side of this binary image shows a white dot on a black background,
 
 Erosion is the process of removing white pixels from the boundaries in an image. You can achieve this in a binary image by using `ImageFilter.MinFilter(3)` as an argument for the `.filter()` method. This filter replaces the value of a pixel with the minimum value of the nine pixels in the `3x3` array centered around the pixel. In a binary image, this means that a pixel will have the value of zero if any of its neighboring pixels are zero.
 
-You can see the effect of erosion by applying `ImageFilter.MinFilter(3)` several times to the <FontIcon icon="fas fa-image"/>`dot_and_hole.jpg` image. You should continue with the same REPL session as in the previous section:
+You can see the effect of erosion by applying `ImageFilter.MinFilter(3)` several times to the <FontIcon icon="fas fa-file-image"/>`dot_and_hole.jpg` image. You should continue with the same REPL session as in the previous section:
 
 ```py
 from PIL import ImageFilter
@@ -969,7 +969,7 @@ See if you can spot the differences between the following two images:
 
 ![Spot the difference using Python Pillow](https://files.realpython.com/media/spot_the_difference.45817e5a37c0.jpg)
 
-This isn’t a hard one! However, you decide to cheat and write a Python program to solve the puzzle for you. You can download the image files <FontIcon icon="fas fa-image"/>`house_left.jpg` and <FontIcon icon="fas fa-image"/>`house_right.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/creozavr-2567670/)) from the repository accompanying this tutorial:
+This isn’t a hard one! However, you decide to cheat and write a Python program to solve the puzzle for you. You can download the image files <FontIcon icon="fas fa-file-image"/>`house_left.jpg` and <FontIcon icon="fas fa-file-image"/>`house_right.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/creozavr-2567670/)) from the repository accompanying this tutorial:
 
 ::: tip Get Images
 

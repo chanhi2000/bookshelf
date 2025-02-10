@@ -473,7 +473,7 @@ const HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP: SidebarInfoSubgroup
 const CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-06
   text: 'Learn Clustering in Python – A Machine Learning Engineering Handbook',
   collapsible: true,
-  icon: 'fa-brands fa-python ',
+  icon: 'fa-brands fa-python',
   subPath: 'clustering-in-python-a-machine-learning-handbook',
   children: [
     'README',
@@ -491,12 +491,63 @@ const CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK: SidebarInfoSubgroupTempl
   ] 
 }
 
+const LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-08
+  text: 'Learn TypeScript – A Handbook for Developers',
+  collapsible: true,
+  icon: 'iconfont icon-tyepscript',
+  subPath: 'learn-typescript-with-react-handbook',
+  children: [
+    'README',
+    'what-is-typescript',
+    'setting-up-the-project',
+    'type-annotations-and-type-inference',
+    'the-union-and-any-types',
+    'objects-in-typescript',
+    'function-params-and-function-returns',
+    'rest-parameters',
+    'objects-as-parameters-in-typescript',
+    'type-aliases-in-typescript',
+    'interfaces-in-typescript',
+    'tuples-and-enums',
+    'type-assertion-type-unknown-and-type-never-in-typescript',
+    'generics-in-typescript',
+  ] 
+}
+
+const HOW_TO_CREATE_AN_NPM_LIBRARY: SidebarInfoSubgroupTemplate = { // 2025-02-08
+  text: 'How to Create an npm Library',
+  collapsible: true,
+  icon: 'fa-brands fa-node',
+  subPath: 'how-to-create-an-npm-library',
+  children: [
+    'README',
+    'what-is-npm',
+    'why-use-npm-libraries',
+    'introducing-yarn-an-alternative-to-npm',
+    'how-to-create-your-own-npm-library',
+    'how-to-publish-your-library-to-npm',
+    'how-to-use-your-npm-library-in-a-react-project',
+    'best-practices-for-npm-and-yarn-libraries',
+  ]
+}
 
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "build-a-memory-game-in-react", // 2025-02-14
+    "learn-a-level-computer-science-concepts", // 2025-02-14
+    "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
+    "how-to-set-up-a-front-end-development-project", // 2025-02-13
+    "ssh-authentication-with-github-under-the-hood", // 2025-02-13
+    "what-are-logs-in-programming", // 2025-02-12
+    "beginners-guide-to-penetration-testing-cybersecurity", // 2025-02-08
+    HOW_TO_CREATE_AN_NPM_LIBRARY, // 2025-02-08
+    LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK, // 2025-02-08
+    "how-to-integrate-rtk-query-with-redux-toolkit", // 2025-02-07
+    "ai-engineering-roadmap", // 2025-02-07
+    "what-is-polymorphism-in-python-example", // 2025-02-07
     CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
     "build-an-analytical-dashboard-with-nextjs", // 2025-02-06
     "build-a-full-stack-app-with-nextjs-and-strapi", // 2025-02-05
@@ -1122,26 +1173,27 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
-    "how-to-deploy-your-front-end-app", // 2021-01-09
-    "jsx-in-react-introduction", // 2021-02-02
-    "what-is-an-api-and-how-to-test-it", // 2021-02-06
-    "css-positioning-and-flexbox-explained", // 2021-03-09
-    "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
-    "learn-flexbox-build-5-layouts", // 2021-03-30
-    "free-8-hour-node-express-course", // 2021-04-01
-    "learn-css-background-properties", // 2021-04-03
-    "react-router-cheatsheet", // 2021-04-19
-    "learn-css-media-queries-by-building-projects", // 2021-04-27
-    "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
-    "how-to-make-api-calls-with-fetch", // 2021-06-03
-    "closures-in-javascript", // 2021-06-08
-    "understanding-sorting-algorithms", // 2021-06-18
-    "react-context-for-beginners", // 2021-07-22
-    "css-flexbox-and-grid-tutorial", // 2021-09-09
-    "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
-    "learn-algorithms-and-data-structures-in-python", // 2021-09-18
-    "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
     "learn-sql-in-10-minutes", // 2021-11-24
+    "python-tuple-vs-list-what-is-the-difference", // 2021-09-21
+    "learn-algorithms-and-data-structures-in-python", // 2021-09-18
+    "synchronous-vs-asynchronous-in-javascript", // 2021-09-14
+    "css-flexbox-and-grid-tutorial", // 2021-09-09
+    "react-context-for-beginners", // 2021-07-22
+    "understanding-sorting-algorithms", // 2021-06-18
+    "closures-in-javascript", // 2021-06-08
+    "how-to-make-api-calls-with-fetch", // 2021-06-03
+    "javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream", // 2021-06-02
+    "learn-css-media-queries-by-building-projects", // 2021-04-27
+    "react-router-cheatsheet", // 2021-04-19
+    "learn-css-background-properties", // 2021-04-03
+    "free-8-hour-node-express-course", // 2021-04-01
+    "learn-flexbox-build-5-layouts", // 2021-03-30
+    "algorithms-and-data-structures-free-treehouse-course", // 2021-03-19
+    "css-positioning-and-flexbox-explained", // 2021-03-09
+    "what-is-an-api-and-how-to-test-it", // 2021-02-06
+    "render-3d-objects-in-browser-drawing-a-box-with-threejs", // 2021-02-04
+    "jsx-in-react-introduction", // 2021-02-02
+    "how-to-deploy-your-front-end-app", // 2021-01-09
   ]
 }
 
@@ -1368,12 +1420,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2024ts
       "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-
       "learn-async-programming-in-typescript-promises-asyncawait-and-callbacks", // 2025-02-01
+      LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK, // 2025-02-08
       // END: 2025ts
       // END: ts
     ]],[
     "js-node", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
       // END: 2016
+      "render-3d-objects-in-browser-drawing-a-box-with-threejs", // 2021-02-04
       "free-8-hour-node-express-course", // 2021-04-01
       // END: 2021
       // END: 2022
@@ -1426,6 +1480,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-granular-segmentation-with-feature-flags", // 2025-01-24
       "containerize-a-nodejs-application-using-docker", // 2025-01-24
       "what-are-scripts-and-how-do-they-work", // 2025-01-27
+      HOW_TO_CREATE_AN_NPM_LIBRARY, // 2025-02-08
+      "how-to-set-up-a-front-end-development-project", // 2025-02-13
+      "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -1524,6 +1581,8 @@ export const template: SidebarInfoTemplate = {
       "build-a-dynamic-web-scraper-app-with-playwright-and-react", // 2025-01-15
       "how-to-build-dependent-dropdowns-in-react", // 2025-01-30
       HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP, // 2025-02-05
+      "how-to-integrate-rtk-query-with-redux-toolkit", // 2025-02-07
+      "build-a-memory-game-in-react", // 2025-02-14
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -1738,6 +1797,7 @@ export const template: SidebarInfoTemplate = {
       "master-object-oriented-programming-in-python", // 2025-01-30
       "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-04
       CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
+      "what-is-polymorphism-in-python-example", // 2025-02-07
       // END: 2025py
       // END: py
     ]],[
@@ -1959,9 +2019,21 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "hs", [
       "how-to-use-pandoc", // 2024-07-09
+      // END: 2024hs
+      // END: 2025hs
+      // END: hs
+    ]],[
+    "vb", [
+      // END: 2024vb
+      "learn-a-level-computer-science-concepts", // 2025-02-14
+      // END: 2025vb
+      // END: vb
     ]],[
     "regex", [
       "how-to-match-parentheses-in-javascript-without-using-regex", // 2024-08-12
+      // END: 2024regex
+      // END: 2025regex
+      // END: regex
     ]],[
     "md", [
       "markdown-cheat-sheet", // 2022-02-10
@@ -2006,6 +2078,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-run-integration-tests-with-github-service-containers", // 2025-01-08
       "learn-to-use-github-actions-step-by-step-guide", // 2025-01-16
       "set-up-docs-as-code-with-docusaurus-and-github-actions", // 2025-02-05
+      "ssh-authentication-with-github-under-the-hood", // 2025-02-13
       // END: 2025github
       // END: github
     ]],[
@@ -2183,6 +2256,8 @@ export const template: SidebarInfoTemplate = {
       "learn-metasploit-for-beginners", // 2025-01-22
       "keycloak-identity-and-access-management", // 2025-01-23
       "learn-the-basics-of-api-security", // 2025-01-31
+      "beginners-guide-to-penetration-testing-cybersecurity", // 2025-02-08
+      "ssh-authentication-with-github-under-the-hood", // 2025-02-13
       // END: 2025security
       // END: security
     ]],[
@@ -2261,6 +2336,8 @@ export const template: SidebarInfoTemplate = {
       "api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication", // 2024-11-05
       "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
       // END: 2024mongodb
+      "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
+      // END: 2025mongodb
       // END: mongodb
     ]],[
     "sqlite", [
@@ -2383,7 +2460,8 @@ export const template: SidebarInfoTemplate = {
       "what-is-semantic-matching-find-words-in-a-document-using-nlp", // 2025-01-10
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
       "how-to-use-langbase-memory-agents", // 2025-01-18
-    "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
+      "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
+      "ai-engineering-roadmap", // 2025-02-07
       // END: 2025llm
       // END: llm
     ]],[

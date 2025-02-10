@@ -11,6 +11,7 @@ category:
 tag:
   - blog
   - learnk8s.io
+  - devops
   - kubernetes
   - k8s
 head:

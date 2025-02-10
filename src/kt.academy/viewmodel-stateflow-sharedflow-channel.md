@@ -25,7 +25,9 @@ head:
 prev: /programming/java-android/articles/README.md
 date: 2024-11-18
 isOriginal: false
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://marcinmoskala.com/kt-academy-articles/promotion/viewmodel-stateflow-sharedflow-channel.jpg
 ---
 

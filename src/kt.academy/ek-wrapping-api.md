@@ -26,7 +26,9 @@ head:
 prev: /programming/java-android/articles/README.md
 date: 2024-04-29
 isOriginal: false
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://marcinmoskala.com/EffectiveKotlin-Book/promotion/wrapping_api.jpg
 ---
 

@@ -28,6 +28,9 @@ head:
 prev: /programming/js-node/articles/README.md
 date: 2024-08-14
 isOriginal: false
+author:
+  - name: Oskar Dudycz
+    url : https://event-driven.io/en/about/
 cover: https://event-driven.io/static/5566e1eee42e2f76ee638e555fc4d646/a331c/2024-08-14-cover.png
 ---
 

@@ -26,7 +26,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-03-25
 isOriginal: false
-author: Renato Costa
+author: 
+  - name: Renato Costa
+    url: https://kt.academy/user/renatocosta
 cover: https://marcinmoskala.com/kt-academy-articles/renatocosta/promotion/nonblocking_spring_mvc.jpg
 ---
 

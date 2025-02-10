@@ -5,6 +5,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "optimizing-images-for-web-performance", // 2025-02-10
+    "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
+    "html-css-for-a-one-time-password-input", // 2025-02-05
+    "notes-on-the-code-editors-with-ai-landscape", // 2025-02-03
+    "mapping-with-leaflet", // 2025-01-29
     "full-bleed-layout-with-modern-css", // 2025-01-27
     "creating-an-angled-slider", // 2025-01-22
     "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
@@ -128,6 +133,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js
       "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
+      "mapping-with-leaflet", // 2025-01-29
       // END: 2025js
       // END: js
     ]], [
@@ -224,6 +230,10 @@ export const template: SidebarInfoTemplate = {
       "css-wishlist-for-2025", // 2025-01-14
       "creating-an-angled-slider", // 2025-01-22
       "full-bleed-layout-with-modern-css", // 2025-01-27
+      
+      "html-css-for-a-one-time-password-input", // 2025-02-05
+      "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
+      "optimizing-images-for-web-performance", // 2025-02-10
       // END: 2025css
       // END: css
     ]], [
@@ -239,6 +249,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2024fly
       // END: 2025fly
       // END: fly
+    ]], [
+    "vscode", [
+      // END: 2024vscode
+      "notes-on-the-code-editors-with-ai-landscape", // 2025-02-03
+      // END: 2025vscode
+      // END: vscode
     ]], [
     "chrome", [
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07

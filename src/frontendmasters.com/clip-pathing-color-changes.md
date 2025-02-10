@@ -22,7 +22,9 @@ head:
 prev: /programming/js/articles/README.md
 date: 2024-07-23
 isOriginal: false
-author: Chris Coyier
+author: 
+  - name: Chris Coyier
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3103
 ---
 

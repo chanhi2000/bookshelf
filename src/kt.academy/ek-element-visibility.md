@@ -23,7 +23,9 @@ head:
 prev: /programming/java/articles/README.md
 date: 2024-05-06
 isOriginal: false
-author: Marcin Moskała
+author: 
+  - name: Marcin Moskała
+    url: https://kt.academy/user/marcinmoskala
 cover: https://kt.academy/_next/image?url=https%3A//marcinmoskala.com/EffectiveKotlin-Book/promotion/element_visibility.jpg&w=640&q=75
 ---
 
