@@ -266,7 +266,7 @@ So, when you open the `modal`, you should see the text box focused by default:
 
 Remember that you need to access the element through the `current` property.
 
-Check out the [<FontIcon icon="fas fa-globe"/>CodeSandbox](https://codesandbox.io/s/adoring-haibt-v8u28p) for the example above.
+Check out the [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/adoring-haibt-v8u28p) for the example above.
 
 ### Detect if an element is contained
 
@@ -463,7 +463,7 @@ const LabelledInput = (props, ref) => {
 export default React.forwardRef(LabelledInput)
 ```
 
-See this [<FontIcon icon="fas fa-globe"/>example in action](https://codesandbox.io/s/input-modal-example-l2wst?module=%2Fsrc%2Flabelled-input.js).
+See this [<FontIcon icon="iconfont icon-codesandbox"/>example in action](https://codesandbox.io/s/input-modal-example-l2wst?module=%2Fsrc%2Flabelled-input.js).
 
 ::: sandpack#react jeremenichelli / Drafts / input-modal-example [rtl theme=dark]
 

@@ -97,7 +97,7 @@ ReactDOM.render(<JSXDemo />, document.getElementById('root'));
 
 Here, we're returning the JSX from the `JSXDemo` component and rendering that on the screen using the `ReactDOM.render` method.
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/awesome-framework-7kr3d?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/awesome-framework-7kr3d?file=/src/index.js).
 
 When the Babel executes the above JSX, it converts it to the following code:
 
@@ -109,7 +109,7 @@ class JSXDemo extends React.Component {
 }
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/billowing-dust-b357d?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/billowing-dust-b357d?file=/src/index.js).
 
 As you can see in the above Code Sandbox, the code still correctly prints the contents to the screen using `React.createElement`.
 
@@ -162,7 +162,7 @@ class JSXDemo extends React.Component {
 ReactDOM.render(<JSXDemo />, document.getElementById('root'));
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/epic-spence-jcp5t?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/epic-spence-jcp5t?file=/src/index.js).
 
 ![You will see the log printed as shown](https://freecodecamp.org/news/content/images/2021/01/log.png)
 
@@ -204,7 +204,7 @@ If there are any attributes added to the HTML tag as in our case, they will be p
 }
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/infallible-lake-rz7vj?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/infallible-lake-rz7vj?file=/src/index.js).
 
 ![You will see the log printed as shown below](https://freecodecamp.org/news/content/images/2021/01/create_element.png)
 
@@ -238,7 +238,7 @@ React.createElement("button", {
 }, "Click Here")
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/new-dew-sc2rp?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/new-dew-sc2rp?file=/src/index.js).
 
 ![The object representation will look like this](https://freecodecamp.org/news/content/images/2021/01/id_children.png)
 
@@ -269,7 +269,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox demo](https://codesandbox.io/s/objective-thunder-3hqqz?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox demo](https://codesandbox.io/s/objective-thunder-3hqqz?file=/src/index.js).
 
 Here, we're returning two paragraphs from the App component. But if you run the code, you will get this error:
 
@@ -316,7 +316,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/stoic-khorana-vnrt6?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/stoic-khorana-vnrt6?file=/src/index.js).
 
 But there are also other ways of making it work.
 
@@ -336,7 +336,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/crazy-banach-wy756?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/crazy-banach-wy756?file=/src/index.js).
 
 This will get the job done, but as you can see in the browser console, you will get a warning saying `Warning: Each child in a list should have a unique "key" prop.`
 
@@ -358,7 +358,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/relaxed-resonance-ljzzf?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/relaxed-resonance-ljzzf?file=/src/index.js).
 
 The other way to fix it is by using the `React.Fragment` component:
 
@@ -379,7 +379,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/fervent-morse-gsvk8?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/fervent-morse-gsvk8?file=/src/index.js).
 
 `React.Fragment` was added in React version 16.2 because we always have to wrap multiple adjacent elements in some tag (like div) inside every JSX returned by a component. But that adds unnecessary div tags.
 
@@ -432,7 +432,7 @@ const App = () => {
 };
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/keen-leftpad-jygwo?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/keen-leftpad-jygwo?file=/src/index.js).
 
 > Inside the curly brackets we can only write an expression that evaluates to some value.
 
@@ -479,7 +479,7 @@ const App = () => {
 };
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/ecstatic-shamir-7b5z6?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/ecstatic-shamir-7b5z6?file=/src/index.js).
 
 ### Conditional Operators in JSX Expressions
 
@@ -490,7 +490,7 @@ We can’t write *if conditions* in JSX expressions, which you might think of as
 <p>{shouldShow && "Shown"}</p>
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/condescending-wind-4rwtl) describing various ways of writing JSX expressions.
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/condescending-wind-4rwtl) describing various ways of writing JSX expressions.
 
 ---
 
@@ -513,7 +513,7 @@ const App = () => {
 };
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/frosty-dew-mj351?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/frosty-dew-mj351?file=/src/index.js).
 
 ---
 
@@ -539,7 +539,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/great-chandrasekhar-i48t2).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/great-chandrasekhar-i48t2).
 
 Note that in React, we need to use `className` instead of `class`.
 
@@ -547,11 +547,11 @@ This is because if you use `class` instead of `className`
 
 ![you will get a warning in the console as shown](https://freecodecamp.org/news/content/images/2021/01/class_warning.png)
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/happy-smoke-ecbtl?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/happy-smoke-ecbtl?file=/src/index.js).
 
 ![To understand why the warning is being shown, print the object representation of it and you will see the following](https://freecodecamp.org/news/content/images/2021/01/class_info-1.png)
 
-Here's a [<FontIcon icon="fa-brands fa-codepen"/>Code Sandbox Demo](https://codesandbox.io/s/epic-frost-e64ll?file=/src/index.js).
+Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https://codesandbox.io/s/epic-frost-e64ll?file=/src/index.js).
 
 As you can see, the props object has the `class` property with a value `active`. But in JavaScript, `class` is a reserved keyword so accessing `props.class` will result in an error.
 

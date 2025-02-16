@@ -5,6 +5,17 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "complete-guide-typescript-enums-react-native", // 2025-02-19
+    "event-loop-and-call-stack-js", // 2025-02-18
+    "react-context-tutorial", // 2025-02-17
+    "javascript-arrow-functions", // 2025-02-17
+    "javascript-null-empty-function", // 2025-02-14
+    "mern-stack", // 2025-02-13
+    "leveraging-parallel-computing-node-js", // 2025-02-13
+    "guide-modern-frontend-architecture-patterns", // 2025-02-12
+    "guide-graceful-degradation-web-development", // 2025-02-12
+    "building-high-performance-websites-using-htmx-go", // 2025-02-10
+    "improve-ux-with-scroll-select-box", // 2025-02-07
   ]
 }
 
@@ -16,6 +27,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "http-requests-axios", // 2024-11-27
     "axios-vs-fetch-best-http-requests", // 2024-11-21
     "understanding-redux-tutorial-examples", // 2024-10-17
+    "six-things-you-may-not-know-about-javascript", // 2024-10-16
     "react-usereducer-hook-ultimate-guide", // 2024-10-10
     "guide-usestate-react", // 2024-10-08
     "how-when-to-force-react-component-re-render", // 2024-09-25
@@ -157,6 +169,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2021js
       "copy-objects-in-javascript-complete-guide", // 2022-03-09
       // END: 2022js
+      // END: 2023js
+      "six-things-you-may-not-know-about-javascript", // 2024-10-16
+      // END: 2024js
+      "improve-ux-with-scroll-select-box", // 2025-02-07
+      "javascript-null-empty-function", // 2025-02-14
+      "javascript-arrow-functions", // 2025-02-17
+      "event-loop-and-call-stack-js", // 2025-02-18
+      // END: 2025js
       // END: js
     ]],[
     "ts", [
@@ -167,6 +187,10 @@ export const template: SidebarInfoTemplate = {
       "babel-vs-typescript-choosing-right-compiler-project", // 2023-07-10
       // END: 2023ts
       "practical-guide-typescript-decorators", // 2024-03-21
+      // END: 2024ts
+      "guide-graceful-degradation-web-development", // 2025-02-12
+      "complete-guide-typescript-enums-react-native", // 2025-02-19
+      // END: 2025ts
       // END: ts
     ]],[
     "js-node", [
@@ -180,6 +204,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2023js-node
       "commonjs-vs-es-modules-node-js", // 2024-06-06
       // END: 2024js-node
+      "leveraging-parallel-computing-node-js", // 2025-02-13
+      // END: 2025js-node
       // END: js-node
     ]],[
     "js-react", [
@@ -226,6 +252,9 @@ export const template: SidebarInfoTemplate = {
       "understanding-redux-tutorial-examples", // 2024-10-17
       "complete-guide-react-refs", // 2023-10-24
       // END: 2024js-react
+      "mern-stack", // 2025-02-13
+      "react-context-tutorial", // 2025-02-17
+      "complete-guide-typescript-enums-react-native", // 2025-02-19
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -286,6 +315,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "understanding-css-revert-layer", // 2024-04-24
       // END: 2024css
+      "improve-ux-with-scroll-select-box", // 2025-02-07
       // END: 2025css
       // END: css
     ]],[
@@ -294,6 +324,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2022go
       // END: 2023go
       // END: 2024go
+      "building-high-performance-websites-using-htmx-go", // 2025-02-10
+      // END: 2025go
       // END: go
     ]],[
     "docker", [

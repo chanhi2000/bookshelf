@@ -60,7 +60,7 @@ This article explains the React Hooks `useState` and `useRef`. You’ll learn th
 
 ![`useState` vs. `useRef`: Similarities, Differences, and Use Cases](/assets/image/blog.logrocket.com/usestate-vs-useref/banner.png)
 
-You can find the examples as part of a [<FontIcon icon="fas fa-globe"/>CodeSandbox](https://codesandbox.io/s/gifted-austin-28p3z?file=/src/App.js). To see the different examples in action, just adapt the following line in <FontIcon icon="fa-brands fa-react"/>`App.jsx`:
+You can find the examples as part of a [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/gifted-austin-28p3z?file=/src/App.js). To see the different examples in action, just adapt the following line in <FontIcon icon="fa-brands fa-react"/>`App.jsx`:
 
 ```jsx
 export default AppDemo6; // change to AppDemo<Nr>

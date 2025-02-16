@@ -70,7 +70,15 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 }
 ```
 
-2. [Loading Data with TanStack Router: Getting Going](https://frontendmasters.com/blog/tanstack-router-data-loading-1/)
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: Getting Going",
+  "desc": "TanStack Router is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety. This post […]",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -83,7 +91,6 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 ```
 
 :::
-
 Essentially, react-query allows us to write code like this:
 
 ```jsx
@@ -500,7 +507,15 @@ This has been a whirlwind route of TanStack Router and TanStack Query, but hopef
 }
 ```
 
-2. [Loading Data with TanStack Router: Getting Going](https://frontendmasters.com/blog/tanstack-router-data-loading-1/)
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: Getting Going",
+  "desc": "TanStack Router is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety. This post […]",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 ```component VPCard
 {
