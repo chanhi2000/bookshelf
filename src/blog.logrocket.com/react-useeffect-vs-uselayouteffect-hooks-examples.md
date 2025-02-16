@@ -189,7 +189,7 @@ The main differences between `useEffect` and `useLayoutEffect` lie in when they 
 
 ### Time of execution
 
-Modern browsers are very fast. We’ll employ some creativity to see how the time of execution differs between `useEffect` and `useLayoutEffect`. In the [<FontIcon icon="fas fa-globe"/>first example](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14), we’ll consider a counter similar to the one we looked at earlier:
+Modern browsers are very fast. We’ll employ some creativity to see how the time of execution differs between `useEffect` and `useLayoutEffect`. In the [<FontIcon icon="iconfont icon-codesandbox"/>first example](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14), we’ll consider a counter similar to the one we looked at earlier:
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 
@@ -280,7 +280,7 @@ In the next example, we’ll look at plotting graphs with respect to the time of
 
 ![`useEffect` And `useLayoutEffect` Title Shaking](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/useeffect-uselayouteffect-title-shaking.webp)
 
-I chose this example to make sure the browser actually has some changes to paint when the button is clicked, hence the animation. The visual state of the title is toggled within a `useEffect` function call. If it interests you, you can [<FontIcon icon="fas fa-globe"/>view the implementation](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-2-kqnqp?fontsize=14).
+I chose this example to make sure the browser actually has some changes to paint when the button is clicked, hence the animation. The visual state of the title is toggled within a `useEffect` function call. If it interests you, you can [<FontIcon icon="iconfont icon-codesandbox"/>view the implementation](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-2-kqnqp?fontsize=14).
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution-2 [rtl theme=dark]
 
@@ -409,7 +409,7 @@ The behavior of both `useEffect` and `useLayoutEffect` differ in how heavy compu
 
 > As an aside, I know `useMemo` is great for memoizing heavy computations. This article neglects that fact, instead comparing `useEffect` and `useLayoutEffect`. Check out this [**guide to the `useMemo` Hook**](/blog.logrocket.com/react-usememo-vs-usecallback.md) if you would like more information.
 
-As an example, I’ve set up an app that’s not practical, but decent enough to work for our use case. [<FontIcon icon="fas fa-globe"/>The app](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14) renders with an initial screen that seems harmless:
+As an example, I’ve set up an app that’s not practical, but decent enough to work for our use case. [<FontIcon icon="iconfont icon-codesandbox"/>The app](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14) renders with an initial screen that seems harmless:
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 
@@ -533,7 +533,7 @@ With `useLayoutEffect`, the computation will be triggered before the browser has
 
 ![UseLayoutEffect Computation Triggered Example](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/uselayouteffect-computation-triggered-example.gif)
 
-Again, you can watch it in [<FontIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/irUvYd39k4c). You can see how `useLayoutEffect` stops the browser from painting the DOM changes for a bit. You can play around with [<FontIcon icon="fas fa-globe"/>the demo](https://codesandbox.io/s/useeffect-vs-uselayouteffect-heavy-computation-zoi53?fontsize=14), but be careful not to crash your browser.
+Again, you can watch it in [<FontIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/irUvYd39k4c). You can see how `useLayoutEffect` stops the browser from painting the DOM changes for a bit. You can play around with [<FontIcon icon="iconfont icon-codesandbox"/>the demo](https://codesandbox.io/s/useeffect-vs-uselayouteffect-heavy-computation-zoi53?fontsize=14), but be careful not to crash your browser.
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 

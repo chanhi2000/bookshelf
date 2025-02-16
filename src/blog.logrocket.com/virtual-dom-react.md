@@ -98,7 +98,7 @@ const update = () => {
 setInterval(update, 1000);
 ```
 
-You can find the complete code [<FontIcon icon="fas fa-globe"/>on CodeSandbox](https://codesandbox.io/s/goofy-darwin-4g25ce?file=/src/index.js). The DOM tree representing the document looks like the following:
+You can find the complete code [<FontIcon icon="iconfont icon-codesandbox"/>on CodeSandbox](https://codesandbox.io/s/goofy-darwin-4g25ce?file=/src/index.js). The DOM tree representing the document looks like the following:
 
 ::: sandpack#vanilla hardcore-browser-me8ox [rtl theme=dark]
 
@@ -199,7 +199,7 @@ const update = () => {
 };
 ```
 
-For brevity, we have removed some of the code. You can [<FontIcon icon="fas fa-globe"/>see the complete code on CodeSandbox](https://codesandbox.io/s/proud-sky-kw2zfb?file=/src/index.js). We can also write JSX code in plain React, as follows:
+For brevity, we have removed some of the code. You can [<FontIcon icon="iconfont icon-codesandbox"/>see the complete code on CodeSandbox](https://codesandbox.io/s/proud-sky-kw2zfb?file=/src/index.js). We can also write JSX code in plain React, as follows:
 
 ::: sandpack#react baslogic / Drafts / proud-sky-kw2zfb [rtl theme=dark]
 
@@ -358,7 +358,7 @@ Updating the component state re-renders the component. However, as shown below, 
 
 ![Result Update Component State Dom Changed Text](/assets/image/blog.logrocket.com/virtual-dom-react/7-result-update-component-state-dom-changed-text.gif)
 
-See the [<FontIcon icon="fas fa-globe"/>code and demo on CodeSandbox](https://codesandbox.io/s/stupefied-sanderson-dgq4t9?file=/src/App.js).
+See the [<FontIcon icon="iconfont icon-codesandbox"/>code and demo on CodeSandbox](https://codesandbox.io/s/stupefied-sanderson-dgq4t9?file=/src/App.js).
 
 ::: sandpack#react Ibaslogic / Drafts / stupefied-sanderson-dgq4t9 [rtl theme=dark]
 

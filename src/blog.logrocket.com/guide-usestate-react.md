@@ -297,7 +297,7 @@ const Message = () => {
 };
 ```
 
-You can try this on [<FontIcon icon="fas fa-globe"/>Code Sandbox here](https://codesandbox.io/p/sandbox/7z31woqo9q?from-embed).
+You can try this on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/7z31woqo9q?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 01 [rtl theme=dark]
 
@@ -355,7 +355,7 @@ const Message = () => {
 };
 ```
 
-> You can try this on [<FontIcon icon="fas fa-globe"/>Code Sandbox here](https://codesandbox.io/p/sandbox/v0n08rw547?from-embed).
+> You can try this on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/v0n08rw547?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 02 [rtl theme=dark]
 
@@ -425,7 +425,7 @@ const Message = () => {
 };
 ```
 
-> Here’s the [<FontIcon icon="fas fa-globe"/>Code Sandbox](https://codesandbox.io/p/sandbox/50n0py0p6k?from-embed).
+> Here’s the [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/50n0py0p6k?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 03 [rtl theme=dark]
 
@@ -503,7 +503,7 @@ And we only update the `message` property like in the above example, React will 
 { message: 'message entered' } // id property is lost
 ```
 
-> You can see how the `id` property is lost [<FontIcon icon="fas fa-globe"/>here on Code Sandbox](https://codesandbox.io/p/sandbox/qqp8qp9zzq?from-embed).
+> You can see how the `id` property is lost [<FontIcon icon="iconfont icon-codesandbox"/>here on Code Sandbox](https://codesandbox.io/p/sandbox/qqp8qp9zzq?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 04 [rtl theme=dark]
 
@@ -562,7 +562,7 @@ onChange={e => {
 }}
 ```
 
-> Try it here on [<FontIcon icon="fas fa-globe"/>Code Sandbox](https://codesandbox.io/p/sandbox/usestate-05-qpykz?from-embed).
+> Try it here on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/usestate-05-qpykz?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 05 [rtl theme=dark]
 

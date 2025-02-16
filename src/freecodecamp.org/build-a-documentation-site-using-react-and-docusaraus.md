@@ -197,7 +197,7 @@ In the image above, you are first welcomed to an intuitive and easily navigable 
 
 The link to the Docusaurus Open Source GitHub repo and the icon for toggling your website between light and dark modes are at the top-right corner of the site.
 
-Alternatively, you can use [<FontIcon icon="fas fa-globe"/>docusaurus.new](https://docusaurus.io/docs/playground) to test Docusaurus quickly in a playground without having to go through the installation process. Here, you have an option to choose between [<FontIcon icon="fas fa-globe"/>CodeSandbox](https://codesandbox.io/) and [<FontIcon icon="fas fa-globe"/>StackBlitz](https://stackblitz.com/).
+Alternatively, you can use [<FontIcon icon="fas fa-globe"/>docusaurus.new](https://docusaurus.io/docs/playground) to test Docusaurus quickly in a playground without having to go through the installation process. Here, you have an option to choose between [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/) and [<FontIcon icon="fas fa-globe"/>StackBlitz](https://stackblitz.com/).
 
 ---
 

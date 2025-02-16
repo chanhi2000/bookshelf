@@ -1202,7 +1202,7 @@ Let’s take a look at an example.
 
 #### Changing state without transition
 
-I have created a [<FontIcon icon="fas fa-globe"/>CodeSandbox](https://codesandbox.io/s/compassionate-browser-ieidgo?file=/src/App.js) that makes two state updates:
+I have created a [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/compassionate-browser-ieidgo?file=/src/App.js) that makes two state updates:
 
 1. Updating the `textInput` state upon user input
 2. Looping and updating the `listItems` state with the currently entered user input
@@ -1217,7 +1217,7 @@ Now, let’s look at the same example but this time, we’ll transition the stat
 
 #### Changing state with transition
 
-As we can see in this [<FontIcon icon="fas fa-globe"/>CodeSandbox](https://codesandbox.io/s/nostalgic-cdn-002eg9?file=/src/App.js), there’s a significant improvement in our application. In this example we’re telling `react` to give `setListItems` state update a lower priority seeing as it requires a heavy computation. This means that `setTextInput` state would trigger a re-render upon state change and not have to be batched with the `setListItem` state change.
+As we can see in this [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/nostalgic-cdn-002eg9?file=/src/App.js), there’s a significant improvement in our application. In this example we’re telling `react` to give `setListItems` state update a lower priority seeing as it requires a heavy computation. This means that `setTextInput` state would trigger a re-render upon state change and not have to be batched with the `setListItem` state change.
 
 ::: note N.B.
 

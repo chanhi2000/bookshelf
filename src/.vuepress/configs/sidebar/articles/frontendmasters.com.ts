@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "rainbow-selection-in-css", // 2025-02-14
     "optimizing-images-for-web-performance", // 2025-02-10
     "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
     "html-css-for-a-one-time-password-input", // 2025-02-05
@@ -39,6 +40,18 @@ const Y2024: SidebarYeargroupTemplate = {
     "the-logical-border-radius-equivalents", // 2024-12-02
     "tweaking-one-set-of-colors-for-light-dark-modes", // 2024-11-25
     "tanstack-router-data-loading-2", // 2024-11-21
+    "tanstack-router-data-loading-1", // 2024-11-20
+    "no-fuss-light-dark-modes", // 2024-11-18
+    "showing-browser-support-for-web-platform-features-on-your-own-blog", // 2024-11-15
+    "custom-progress-element-using-anchor-positioning-scroll-driven-animations", // 2024-11-13
+    "scoped-scroll-timelines", // 2024-11-11
+    "why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing", // 2024-11-07
+    "mastering-interaction-to-next-paint-inp", // 2024-11-05
+    "named-scroll-view-timelines", // 2024-11-04
+    "edge-to-edge-text", // 2024-10-31
+    "scroll-driven-sections", // 2024-10-29
+    "9-16", // 2024-10-24
+    "view-transitions-staggering", // 2024-10-22
 
     "you-might-not-need-that-framework", // 2024-09-27
     "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
@@ -107,6 +120,15 @@ const Y2024: SidebarYeargroupTemplate = {
   ]
 }
 
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    // END: 2023
+    "container-queries-and-units", // 2023-12-21
+  ]
+}
+
 export const template: SidebarInfoTemplate = {
   name: 'frontendmasters.com',
   faviconPath: 'https://frontendmasters.com/favicon.ico',
@@ -130,6 +152,8 @@ export const template: SidebarInfoTemplate = {
       "writing-to-the-clipboard-in-javascript", // 2024-08-23
       "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
       "you-might-not-need-that-framework", // 2024-09-27
+
+      "why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing", // 2024-11-07
       // END: 2024js
       "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
@@ -159,6 +183,7 @@ export const template: SidebarInfoTemplate = {
       "what-does-hydration-mean", // 2024-09-09
       "introducing-tanstack-router", // 2024-09-13
 
+      "tanstack-router-data-loading-1", // 2024-11-20
       "tanstack-router-data-loading-2", // 2024-11-21
       "react-19-and-web-component-examples", // 2024-12-16
       "introducing-tanstack-start", // 2024-12-18
@@ -215,7 +240,17 @@ export const template: SidebarInfoTemplate = {
       "split-effects-with-no-content-duplication", // 2024-09-11
       "gradient-text-with-a-drop-shadow", // 2024-09-20
       "keeping-pixely-images-pixely-and-performant", // 2024-09-23
-      
+
+      "view-transitions-staggering", // 2024-10-22
+      "9-16", // 2024-10-24
+      "scroll-driven-sections", // 2024-10-29
+      "edge-to-edge-text", // 2024-10-31
+      "named-scroll-view-timelines", // 2024-11-04
+      "mastering-interaction-to-next-paint-inp", // 2024-11-05
+      "scoped-scroll-timelines", // 2024-11-11
+      "custom-progress-element-using-anchor-positioning-scroll-driven-animations", // 2024-11-13
+      "showing-browser-support-for-web-platform-features-on-your-own-blog", // 2024-11-15
+      "no-fuss-light-dark-modes", // 2024-11-18
       "tweaking-one-set-of-colors-for-light-dark-modes", // 2024-11-25
       "the-logical-border-radius-equivalents", // 2024-12-02
       "pure-css-halftone-effect-in-3-declarations", // 2024-12-03
@@ -230,10 +265,10 @@ export const template: SidebarInfoTemplate = {
       "css-wishlist-for-2025", // 2025-01-14
       "creating-an-angled-slider", // 2025-01-22
       "full-bleed-layout-with-modern-css", // 2025-01-27
-      
       "html-css-for-a-one-time-password-input", // 2025-02-05
       "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
       "optimizing-images-for-web-performance", // 2025-02-10
+      "rainbow-selection-in-css", // 2025-02-14
       // END: 2025css
       // END: css
     ]], [
@@ -281,6 +316,7 @@ export const template: SidebarInfoTemplate = {
     "all", [
       Y2025,
       Y2024,
+      Y2023,
     ]]
   ])
 }

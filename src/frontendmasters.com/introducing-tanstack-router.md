@@ -62,9 +62,35 @@ TanStack Router is more than just a router — it’s a full-fledged client-side
 
 ::: info Article Series
 
-1. [Introducing TanStack Router](/frontendmasters.com/introducing-tanstack-router.md)
-2. [Loading Data with TanStack Router: Getting Going](/frontendmasters.com/tanstack-router-data-loading-1.md)
-3. [Loading Data with TanStack Router: react-query](/frontendmasters.com/tanstack-router-data-loading-2.md)
+```component VPCard
+{
+  "title": "Introducing TanStack Router",
+  "desc": "TanStack Router is a comprehensive JavaScript framework for client-side applications, emphasizing type-safe routing and navigation. It includes nested layouts and efficient data loading.",
+  "link": "/frontendmasters.com/introducing-tanstack-router.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: Getting Going",
+  "desc": "TanStack Router is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety. This post […]",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: react-query",
+  "desc": "TanStack Query, or react-query, simplifies client-side data fetching with features like caching, automatic re-fetching, and error handling. It integrates smoothly with TanStack Router, allowing efficient prefetching and loading states using hooks like useSuspenseQuery. ",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 :::
 
@@ -602,9 +628,35 @@ We’ve barely scratched the surface. We just covered the absolute basics of typ
 
 ::: info Article Series
 
-1. [Introducing TanStack Router](/frontendmasters.com/introducing-tanstack-router.md)
-2. [Loading Data with TanStack Router: Getting Going](/frontendmasters.com/tanstack-router-data-loading-1.md)
-3. [Loading Data with TanStack Router: react-query](/frontendmasters.com/tanstack-router-data-loading-2.md)
+```component VPCard
+{
+  "title": "Introducing TanStack Router",
+  "desc": "TanStack Router is a comprehensive JavaScript framework for client-side applications, emphasizing type-safe routing and navigation. It includes nested layouts and efficient data loading.",
+  "link": "/frontendmasters.com/introducing-tanstack-router.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: Getting Going",
+  "desc": "TanStack Router is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety. This post […]",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Loading Data with TanStack Router: react-query",
+  "desc": "TanStack Query, or react-query, simplifies client-side data fetching with features like caching, automatic re-fetching, and error handling. It integrates smoothly with TanStack Router, allowing efficient prefetching and loading states using hooks like useSuspenseQuery. ",
+  "link": "/frontendmasters.com/tanstack-router-data-loading-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 :::
 

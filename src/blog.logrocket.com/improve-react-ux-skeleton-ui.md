@@ -306,7 +306,7 @@ That said, all three libraries adequately satisfy simple use cases. Feel free to
 
 ## Building a skeleton UI in React with Framer Motion
 
-With an understanding of how skeleton UIs work, we can now create our own skeleton UI with React and Framer Motion with a shimmer animation effect. [<FontIcon icon="fas fa-globe"/>The codebase for this project is available on CodeSandbox](https://codesandbox.io/s/skeletonui-w-framer-i7jwxs?file=/src/App.js).
+With an understanding of how skeleton UIs work, we can now create our own skeleton UI with React and Framer Motion with a shimmer animation effect. [<FontIcon icon="iconfont icon-codesandbox"/>The codebase for this project is available on CodeSandbox](https://codesandbox.io/s/skeletonui-w-framer-i7jwxs?file=/src/App.js).
 
 ::: sandpack#react Chinwike.M / Drafts / skeletonui-w-framer [rtl theme=dark]
 

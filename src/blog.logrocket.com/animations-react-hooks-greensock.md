@@ -96,7 +96,7 @@ We can use GSAP to create SVG and CSS animations, and we can also use it to crea
 
 ## Animating a Google-style loader
 
-Setting up is quick and easy: I have [<FontIcon icon="fas fa-globe"/>created a CodeSandbox](https://codesandbox.io/s/greensock-set-up-forked-zp5de) that has the GreenSock npm module and React, so you can fork it and follow along.
+Setting up is quick and easy: I have [<FontIcon icon="iconfont icon-codesandbox"/>created a CodeSandbox](https://codesandbox.io/s/greensock-set-up-forked-zp5de) that has the GreenSock npm module and React, so you can fork it and follow along.
 
 ::: sandpack#react philipszdavido / Greensock Set up (forked) [rtl theme=dark]
 
@@ -295,7 +295,7 @@ Our final animation is now complete, and here’s how it should look:
 
 ![Our completed animated loader](/assets/image/blog.logrocket.com/animations-react-hooks-greensock/animated-loader-completed.webp)
 
-You can find the complete code [<FontIcon icon="fas fa-globe"/>here](https://codesandbox.io/s/google-style-loader-forked-1ykqg?file=/src/loader.jsx).
+You can find the complete code [<FontIcon icon="iconfont icon-codesandbox"/>here](https://codesandbox.io/s/google-style-loader-forked-1ykqg?file=/src/loader.jsx).
 
 ::: sandpack#react philipszdavido / Google Style Loader (forked) [rtl theme=dark]
 
@@ -375,7 +375,7 @@ export default Loader;
 
 One animation down, one to go!
 
-I have created an `SVG` for the LogRocket icon, and it is a big one, so I have included it in the starter CodeSandbox, which you can [<FontIcon icon="fas fa-globe"/>check out here.](https://codesandbox.io/s/starter-logrocket-animation-forked-pvuhs?file=/src/index.js)
+I have created an `SVG` for the LogRocket icon, and it is a big one, so I have included it in the starter CodeSandbox, which you can [<FontIcon icon="iconfont icon-codesandbox"/>check out here.](https://codesandbox.io/s/starter-logrocket-animation-forked-pvuhs?file=/src/index.js)
 
 ::: sandpack#react philipszdavido / starter logrocket animation (forked) [rtl theme=dark]
 

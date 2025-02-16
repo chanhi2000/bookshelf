@@ -98,7 +98,7 @@ Generally, forcing a React component to re-render isn’t the best practice, eve
 
 Let’s build a simple component to demonstrate one common reason components aren’t rendering. We will build a simple app that will show a username, `Juan`, and, after pressing a button, the name will change to `Peter`.
 
-[<FontIcon icon="fas fa-globe"/>Here is a demonstration of the app with the complete code](https://codesandbox.io/s/react-wrong-state-change-byx8f). If you click the **Change user name** button, you will notice that nothing happens, even though we changed our state on the button:
+[<FontIcon icon="iconfont icon-codesandbox"/>Here is a demonstration of the app with the complete code](https://codesandbox.io/s/react-wrong-state-change-byx8f). If you click the **Change user name** button, you will notice that nothing happens, even though we changed our state on the button:
 
 ::: sandpack#react bajcmartinez / Drafts / react-wrong-state-chnge [rtl theme=dark]
 
@@ -161,7 +161,7 @@ function changeUserName() {
 }
 ```
 
-Note that we are using the [<FontIcon icon="fas fa-globe"/>spread operator](https://livecodestream.dev/post/how-to-use-the-spread-operator-in-javascript/) in JavaScript to preserve the properties of the original object while updating its `name` property under a new object. [<FontIcon icon="fas fa-globe"/>The final result can be observed here](https://codesandbox.io/s/react-correct-state-change-forked-f1wc7).
+Note that we are using the [<FontIcon icon="fas fa-globe"/>spread operator](https://livecodestream.dev/post/how-to-use-the-spread-operator-in-javascript/) in JavaScript to preserve the properties of the original object while updating its `name` property under a new object. [<FontIcon icon="iconfont icon-codesandbox"/>The final result can be observed here](https://codesandbox.io/s/react-correct-state-change-forked-f1wc7).
 
 ::: sandpack#react bajcmartinez / Drafts / react-correct-state-change (forked) [rtl theme=dark]
 
@@ -208,7 +208,7 @@ function MyComponent(props) {
 
 While it may seem impossible, incorrectly updating props without a state change can happen, and it usually leads to bugs. Let’s look at an example.
 
-In this [<FontIcon icon="fas fa-globe"/>demo](https://codesandbox.io/s/react-props-not-state-ml872), I built a clock that has a major problem: the time doesn’t change after I first load the screen. Not a very useful clock, right?
+In this [<FontIcon icon="iconfont icon-codesandbox"/>demo](https://codesandbox.io/s/react-props-not-state-ml872), I built a clock that has a major problem: the time doesn’t change after I first load the screen. Not a very useful clock, right?
 
 ::: sandpack#react bajcmartinez / Drafts / react-props-not-state [rtl theme=dark]
 
@@ -266,7 +266,7 @@ This code looks ugly and is generally not a great way to code for a React compon
 <Clock myTime={myTime} />
 ```
 
-This demo doesn’t work because props are a reflection of state, so a standalone change in props won’t trigger a re-render. To fix it, we need a total [<FontIcon icon="fas fa-globe"/>rewrite](https://codesandbox.io/s/react-props-as-state-forked-ii6cb).
+This demo doesn’t work because props are a reflection of state, so a standalone change in props won’t trigger a re-render. To fix it, we need a total [<FontIcon icon="iconfont icon-codesandbox"/>rewrite](https://codesandbox.io/s/react-props-as-state-forked-ii6cb).
 
 ::: sandpack#react bajcmartinez / Drafts / react-props-as-state (forked) [rtl theme=dark]
 
@@ -404,7 +404,7 @@ export default function App() {
 }
 ```
 
-Now, each time we click on the **Force re-render** button, the component will re-render. You can [<FontIcon icon="fas fa-globe"/>access the live demo here](https://codesandbox.io/s/forcing-functional-component-re-render-5uj12).
+Now, each time we click on the **Force re-render** button, the component will re-render. You can [<FontIcon icon="iconfont icon-codesandbox"/>access the live demo here](https://codesandbox.io/s/forcing-functional-component-re-render-5uj12).
 
 ::: sandpack#react bajcmartinez / Drafts / forcing-functional-component-re-render [rtl theme=dark]
 
