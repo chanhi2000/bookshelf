@@ -553,11 +553,39 @@ const HOW_TO_USE_CLASSES_IN_JAVASCRIPT_HANDBOOK: SidebarInfoSubgroupTemplate = {
   ]
 }
 
+const HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT: SidebarInfoSubgroupTemplate = { // 2025-02-21
+  text: 'How to Build a Replit Clone with Socket.io, Monaco Editor, and Copilotkit',
+  collapsible: true,
+  icon: 'iconfont icon-nextjs',
+  subPath: 'how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit',
+  children: [
+    'README',
+    'how-does-the-app-work',
+    'how-to-set-up-your-tools',
+    'structure-and-features-of-the-app',
+    'how-to-build-the-back-end',
+    'how-to-build-the-front-end',
+    'playing-with-the-replit-clone',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
+text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "learn-linear-algebra-for-machine-learning", // 2025-02-27
+    "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
+    "build-a-vision-transformer-from-scratch", // 2025-02-27
+    "how-to-code-a-crossy-road-game-clone-with-react-three-fiber", // 2025-02-27
+    "if-else-vs-switch-case-in-javascript", // 2025-02-27
+    "how-to-build-a-reusable-usesearch-hook-in-react", // 2025-02-26
+    "cold-start-problem-in-recommender-systems", // 2025-02-26
+    "how-to-run-latex-projects-locally-for-free-on-windows", // 2025-02-26
+    "speed-up-website-loading", // 2025-02-25
+    "how-to-code-a-crossy-road-game-clone-with-threejs", // 2025-02-21
+    "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
+    HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
     "secure-ways-to-access-deepseek-using-third-party-apps", // 2025-02-21
     "learn-kubernetes-and-eks-for-deployment", // 2025-02-21
     "how-to-build-an-aspnet-core-mvc-web-app", // 2025-02-20
@@ -1441,6 +1469,7 @@ export const template: SidebarInfoTemplate = {
       THE_CLEAN_CODE_HANDBOOK, // 2025-01-30
       "tips-for-writing-clean-code", // 2025-02-05
       HOW_TO_USE_CLASSES_IN_JAVASCRIPT_HANDBOOK, // 2025-02-18
+      "if-else-vs-switch-case-in-javascript", // 2025-02-27
       // END: 2025js
       // END: js
     ]],[
@@ -1518,6 +1547,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-a-front-end-development-project", // 2025-02-13
       "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
       "build-a-serverless-ai-agent-for-generating-cold-emails", // 2025-02-19
+      "how-to-code-a-crossy-road-game-clone-with-threejs", // 2025-02-21
+      "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -1618,6 +1649,8 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP, // 2025-02-05
       "how-to-integrate-rtk-query-with-redux-toolkit", // 2025-02-07
       "build-a-memory-game-in-react", // 2025-02-14
+      "how-to-build-a-reusable-usesearch-hook-in-react", // 2025-02-26
+      "how-to-code-a-crossy-road-game-clone-with-react-three-fiber", // 2025-02-27
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -1661,6 +1694,7 @@ export const template: SidebarInfoTemplate = {
       "integrate-discord-webhooks-with-nextjs-15-example-project", // 2025-01-21
       "build-a-full-stack-app-with-nextjs-and-strapi", // 2025-02-05
       "build-an-analytical-dashboard-with-nextjs", // 2025-02-06
+      HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -2068,6 +2102,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025vb
       // END: vb
     ]],[
+    "latex", [
+      "how-to-run-latex-projects-locally-for-free-on-windows", // 2025-02-26
+      // END: 2025latex
+      // END: latex
+    ]],[
     "regex", [
       "how-to-match-parentheses-in-javascript-without-using-regex", // 2024-08-12
       // END: 2024regex
@@ -2084,6 +2123,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "devops", [
       "how-to-choose-a-cloud-development-environment", // 2025-02-05
+      "speed-up-website-loading", // 2025-02-25
       // END: 2025devops
       // END: devops
     ]],[
@@ -2380,6 +2420,8 @@ export const template: SidebarInfoTemplate = {
       "handle-mongodb-migrations-with-ts-migrate-mongoose", // 2024-11-27
       // END: 2024mongodb
       "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
+      HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
+      "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -2405,6 +2447,9 @@ export const template: SidebarInfoTemplate = {
     "r", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
       "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
+      // END: 2024r
+      "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
+      // END: 2025r
       // END: r
     ]],[
     "vscode", [
@@ -2456,6 +2501,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-maintain-soc-2-compliance", // 2024-10-16
       "understanding-modern-development-frameworks-guide-for-devs", // 2024-11-20
       "how-to-write-user-stories-for-beginners", // 2024-12-17
+      // END: 2024system-design
+      "cold-start-problem-in-recommender-systems", // 2025-02-26
+      // END: 2025system-design
       // END: system-design
     ]],[
     "pm", [
@@ -2506,6 +2554,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-langbase-memory-agents", // 2025-01-18
       "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
       "ai-engineering-roadmap", // 2025-02-07
+      "learn-linear-algebra-for-machine-learning", // 2025-02-27
       // END: 2025llm
       // END: llm
     ]],[
@@ -2515,6 +2564,7 @@ export const template: SidebarInfoTemplate = {
       "make-llms-better-at-math-with-ai-agents", // 2024-12-19
       // END: 2024openai
       AI_IN_AGRICULTURE_BOOK, // 2025-01-15
+      "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       // END: 2025openai
       // END: openai
     ]],[
@@ -2549,8 +2599,15 @@ export const template: SidebarInfoTemplate = {
     "deepseek", [
       "how-to-use-deepseek-r1", // 2025-01-28
       "secure-ways-to-access-deepseek-using-third-party-apps", // 2025-02-21
+      "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
+      "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       // END: 2025deepseek
       // END: deepseek
+    ]],[
+    "vit", [
+      "build-a-vision-transformer-from-scratch", // 2025-02-27
+      // END: 2025vit
+      // END: vit
     ]],[
     "math", [
       "learn-college-calculus-in-free-course", // 2020-08-27
@@ -2564,6 +2621,7 @@ export const template: SidebarInfoTemplate = {
       "linear-algebra-roadmap", // 2024-06-04
       // END: 2024math
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
+      "learn-linear-algebra-for-machine-learning", // 2025-02-27
       // END: 2025math
       // END: math
     ]],[

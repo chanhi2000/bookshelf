@@ -95,7 +95,7 @@ While running these examples, note how after executing each expression, the inte
 
 With the examples in the previous section, you’ve executed [<FontIcon icon="fa-brands fa-python"/>simple statements](https://docs.python.org/3/reference/simple_stmts.html) in a Python interactive session. These expressions are known as simple statements because they don’t have an indented code block.
 
-Python also has [<FontIcon icon="fa-brands fa-python"/>compound statements](https://docs.python.org/3/reference/compound_stmts.html), such as [**conditionals**](/realpython.com/python-conditional-statements.md), loops, and [**`with`**](/realpython.com/python-with-statement.md) statements. Compound statements require an indented code block. The Python interpreter has a secondary prompt that lets you enter the code block of compound statements.
+Python also has [<FontIcon icon="fa-brands fa-python"/>compound statements](https://docs.python.org/3/reference/compound_stmts.html), such as [**conditionals**](/realpython.com/python-conditional-statements.md), loops, and [**`with`**](/realpython.com/python-with-statement/README.md) statements. Compound statements require an indented code block. The Python interpreter has a secondary prompt that lets you enter the code block of compound statements.
 
 Consider the following example of a conditional statement:
 

@@ -36,6 +36,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "guide-graceful-degradation-web-development", // 2025-02-12
     "building-high-performance-websites-using-htmx-go", // 2025-02-10
     "improve-ux-with-scroll-select-box", // 2025-02-07
+    "best-ci-cd-tools-react-native", // 2025-02-05
   ]
 }
 
@@ -46,6 +47,7 @@ const Y2024: SidebarYeargroupTemplate = {
     // END: 2024
     "http-requests-axios", // 2024-11-27
     "axios-vs-fetch-best-http-requests", // 2024-11-21
+    "build-micro-frontend-application-react", // 2024-11-04
     "understanding-redux-tutorial-examples", // 2024-10-17
     "six-things-you-may-not-know-about-javascript", // 2024-10-16
     "react-usereducer-hook-ultimate-guide", // 2024-10-10
@@ -67,6 +69,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
     "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
     "fetch-api-node-js", // 2023-11-01
     "complete-guide-react-refs", // 2023-10-24
@@ -77,6 +80,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
     "modern-guide-react-state-patterns", // 2023-07-31
     "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
+    "best-headless-cms-platforms", // 2023-07-05
     "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
     "rendering-large-lists-react-virtualized", // 2023-03-01
     "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
@@ -90,6 +94,7 @@ const Y2022: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2022
+    "build-react-dashboard-tremor", // 2022-11-23
     "react-createref-guide", // 2022-11-15
     "immutability-react-should-you-mutate-objects", // 2022-10-14
     "docker-desktop-alternatives", // 2022-10-14
@@ -229,6 +234,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022js-node
       "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
       "fetch-api-node-js", // 2023-11-01
+      "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
       // END: 2023js-node
       "commonjs-vs-es-modules-node-js", // 2024-06-06
       // END: 2024js-node
@@ -260,6 +266,7 @@ export const template: SidebarInfoTemplate = {
       "guide-choosing-right-react-state-management-solution", // 2022-09-09
       "immutability-react-should-you-mutate-objects", // 2022-10-14
       "react-createref-guide", // 2022-11-15
+      "build-react-dashboard-tremor", // 2022-11-23
       // END: 2022js-react
       "build-powerful-react-forms-with-informed", // 2023-02-09
       "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
@@ -283,7 +290,9 @@ export const template: SidebarInfoTemplate = {
       "react-usereducer-hook-ultimate-guide", // 2024-10-10
       "understanding-redux-tutorial-examples", // 2024-10-17
       "complete-guide-react-refs", // 2023-10-24
+      "build-micro-frontend-application-react", // 2024-11-04
       // END: 2024js-react
+      "best-ci-cd-tools-react-native", // 2025-02-05
       "mern-stack", // 2025-02-13
       "react-context-tutorial", // 2025-02-17
       "complete-guide-typescript-enums-react-native", // 2025-02-19
@@ -308,6 +317,13 @@ export const template: SidebarInfoTemplate = {
       "http-requests-axios", // 2024-11-27
       // END: 2024js-axios
       // END: js-axios
+    ]],[
+    "js-astro", [
+      "best-headless-cms-platforms", // 2023-07-05
+      // END: 2023js-astro
+      // END: 2024js-astro
+      // END: 2025js-astro
+      // END: js-astro
     ]],[
     "py-django", [
       "making-django-migrations-python", // 2021-12-17
@@ -360,6 +376,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2025go
       // END: go
     ]],[
+    "github", [
+      "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
+      // END: 2023github
+      // END: 2024github
+      // END: 2025github
+      // END: github
+    ]],[
     "docker", [
       "dockerizing-a-django-app", // 2022-04-08
       "docker-desktop-alternatives", // 2022-10-14
@@ -372,6 +395,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2023podman
       // END: 2024podman
       // END: podman
+    ]],[
+    "jenkins", [
+      "best-ci-cd-tools-react-native", // 2025-02-05
+      // END: 2025jenkins
+      // END: jenkins
     ]],[
     "all", [
       Y2025,

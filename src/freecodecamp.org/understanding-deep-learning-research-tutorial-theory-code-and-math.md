@@ -2,7 +2,7 @@
 lang: en-US
 title: "Understanding Deep Learning Research Tutorial - Theory, Code, and Math"
 description: "Article(s) > Understanding Deep Learning Research Tutorial - Theory, Code, and Math"
-icon: fas fa-brain
+icon: fas fa-language
 category:
   - AI
   - LLM
@@ -14,6 +14,7 @@ tag:
   - blog
   - freecodecamp.org
   - ai
+  - artificial-intelligence
   - llm
   - large-language-models
   - math
@@ -21,6 +22,7 @@ tag:
   - python
   - py
   - youtube
+  - crashcourse
 head:
   - - meta:
     - property: og:title

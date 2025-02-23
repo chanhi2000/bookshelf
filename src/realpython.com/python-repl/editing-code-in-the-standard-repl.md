@@ -49,7 +49,6 @@ cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg"/>
 
-
 Most versions of the Python interpreter support code editing when running in [<FontIcon icon="fa-brands fa-python"/>interactive](https://docs.python.org/3/tutorial/interactive.html) mode. These editing features include code history and basic code completion. If you usually work on Unix-like systems, such as Linux and macOS, then you may be familiar with some of these features, which are present in the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>Korn](https://en.wikipedia.org/wiki/KornShell) shells.
 
 These editing features are implemented using the [<FontIcon icon="fas fa-globe"/>GNU Readline](https://tiswww.case.edu/php/chet/readline/rltop.html) library, which supports several useful styles of editing.

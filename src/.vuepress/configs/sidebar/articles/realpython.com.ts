@@ -102,6 +102,25 @@ const QUEUE_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2022-06-29
   ]
 }
 
+const PYTHON_WITH_STATEMENT: SidebarInfoSubgroupTemplate = { // 2021-06-02
+  text: "Context Managers and Python's with Statement",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-with-statement',
+  children: [
+    'README',
+    'managing-resources-in-python',
+    'using-the-python-with-statement',
+    'summarizing-the-with-statements-advantages',
+    'using-the-async-with-statement',
+    'creating-custom-context-managers',
+    'coding-class-based-context-managers',
+    'creating-function-based-context-managers',
+    'writing-good-apis-with-context-managers',
+    'creating-an-asynchronous-context-manager',
+  ]
+}
+
 const PYTHON_REPL: SidebarInfoSubgroupTemplate = { // 2023-01-25
   text: "The Python Standard REPL: Try Out Code and Ideas Quickly",
   collapsible: true,
@@ -213,6 +232,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
     "python-logging", // 2024-11-30
+    "python-zip-function", // 2024-11-17
     "ruff-python", // 2024-06-17
   ]
 }
@@ -248,7 +268,9 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "python-zip-import", // 2021-12-27
     "what-can-i-do-with-python", // 2021-07-07
+    PYTHON_WITH_STATEMENT, // 2021-06-02
   ]
 }
 
@@ -282,11 +304,13 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "python-while-loop", // 2018-11-07
     "absolute-vs-relative-python-imports", // 2018-09-19
     "documenting-python-code", // 2018-07-25
     "python-histograms", // 2018-07-12
     "python-application-layouts", // 2018-06-04
     "vim-and-python-a-match-made-in-heaven", // 2018-06-01
+    "pipenv-guide", // 2018-04-24
     "python-modules-packages", // 2018-04-17
   ]
 }
@@ -322,11 +346,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2016py
       // END: 2017py
       "python-modules-packages", // 2018-04-17
+      "pipenv-guide", // 2018-04-24
       "vim-and-python-a-match-made-in-heaven", // 2018-06-01
       "python-application-layouts", // 2018-06-04
       "python-histograms", // 2018-07-12
       "documenting-python-code", // 2018-07-25
       "absolute-vs-relative-python-imports", // 2018-09-19
+      "python-while-loop", // 2018-11-07
       // END: 2018py
       "working-with-files-in-python", // 2019-01-21
       READ_WRITE_FILES_PYTHON, // 2019-02-20
@@ -339,7 +365,9 @@ export const template: SidebarInfoTemplate = {
       PYTHON39_NEW_FEATURES, // 2020-10-05
       "python-boolean", // 2020-10-19
       // END: 2020py
+      PYTHON_WITH_STATEMENT, // 2021-06-02
       "what-can-i-do-with-python", // 2021-07-07
+      "python-zip-import", // 2021-12-27
       // END: 2021py
       "python-zipfile", // 2022-02-14
       "why-close-file-python", // 2022-04-27
@@ -351,6 +379,7 @@ export const template: SidebarInfoTemplate = {
       PYTHON_LIST, // 2023-07-19
       // END: 2023py
       "ruff-python", // 2024-06-17
+      "python-zip-function", // 2024-11-17
       "python-logging", // 2024-11-30
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08

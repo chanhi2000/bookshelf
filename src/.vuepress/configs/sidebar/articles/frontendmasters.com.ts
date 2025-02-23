@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
+    "a-color-input-that-also-shows-the-value", // 2025-02-18
     "rainbow-selection-in-css", // 2025-02-14
     "optimizing-images-for-web-performance", // 2025-02-10
     "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
@@ -269,6 +271,8 @@ export const template: SidebarInfoTemplate = {
       "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
       "optimizing-images-for-web-performance", // 2025-02-10
       "rainbow-selection-in-css", // 2025-02-14
+      "a-color-input-that-also-shows-the-value", // 2025-02-18
+      "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
       // END: 2025css
       // END: css
     ]], [

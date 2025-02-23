@@ -484,7 +484,7 @@ with open("hello.py") as hello:
 # Hello, World!
 ```
 
-In this example, you use the [**`with` statement**](/realpython.com/python-with-statement.md) to open the <FontIcon icon="fa-brands fa-python"/>`hello.py` file for reading. Then, you read the file’s content with the `.read()` method. This method returns a string that you pass to `exec()` for execution.
+In this example, you use the [**`with` statement**](/realpython.com/python-with-statement/README.md) to open the <FontIcon icon="fa-brands fa-python"/>`hello.py` file for reading. Then, you read the file’s content with the `.read()` method. This method returns a string that you pass to `exec()` for execution.
 
 You must be careful when using the `exec()` function because it implies some important security risks, especially if you’re using it for running external code. To learn more about this function, check out [**Python’s `exec()`: Execute Dynamically Generated Code**](/realpython.com/python-exec.md).
 

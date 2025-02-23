@@ -77,7 +77,7 @@ finally:
 
 If you’re unfamiliar with what the `try-finally` block is, check out [**Python Exceptions: An Introduction**](/realpython.com/python-exceptions.md).
 
-The second way to close a file is to use the [**`with` statement**](/realpython.com/python-with-statement.md):
+The second way to close a file is to use the [**`with` statement**](/realpython.com/python-with-statement/README.md):
 
 ```py
 with open('dog_breeds.txt') as reader:

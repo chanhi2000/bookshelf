@@ -79,7 +79,7 @@ Knowing how to create, read, write, populate, extract, and list ZIP files using 
 
 If you commonly deal with ZIP files, then this knowledge can help to streamline your workflow to process your files confidently.
 
-To get the most out of this tutorial, you should know the basics of [**working with files**](/realpython.com/working-with-files-in-python.md), using the [**`with` statement**](/realpython.com/python-with-statement.md), handling file system paths with [**`pathlib`**](/realpython.com/python-pathlib.md), and working with classes and [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md).
+To get the most out of this tutorial, you should know the basics of [**working with files**](/realpython.com/working-with-files-in-python.md), using the [**`with` statement**](/realpython.com/python-with-statement/README.md), handling file system paths with [**`pathlib`**](/realpython.com/python-pathlib.md), and working with classes and [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md).
 
 To get the files and archives that you’ll use to code the examples in this tutorial, click the link below:
 
@@ -155,7 +155,7 @@ Be aware that `zipfile` does have a few limitations. For example, the current da
 
 In the `zipfile` module, you’ll find the [<FontIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile) class. This class works pretty much like Python’s built-in [**`open()`**](/realpython.com/read-write-files-python/opening-and-closing-a-file-in-python.md) function, allowing you to open your ZIP files using different modes. The read mode (`"r"`) is the default. You can also use the write (`"w"`), append (`"a"`), and exclusive (`"x"`) modes. You’ll learn more about each of these in a moment.
 
-`ZipFile` implements the **context manager protocol** so that you can use the class in a [**`with` statement**](/realpython.com/python-with-statement.md). This feature allows you to quickly open and work with a ZIP file without worrying about [**closing the file**](/realpython.com/why-close-file-python.md) after you finish your work.
+`ZipFile` implements the **context manager protocol** so that you can use the class in a [**`with` statement**](/realpython.com/python-with-statement/README.md). This feature allows you to quickly open and work with a ZIP file without worrying about [**closing the file**](/realpython.com/why-close-file-python.md) after you finish your work.
 
 Before writing any code, make sure you have a copy of the files and archives that you’ll be using:
 
