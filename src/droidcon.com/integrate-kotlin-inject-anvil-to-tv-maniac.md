@@ -48,7 +48,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x6
 <SiteInfo
   name="Integrate Kotlin-Inject-Anvil To Tv Maniac"
   desc="If you've used Anvil before, you know it takes away a lot of the boilerplate code and makes DI seamless. If Anvil is new to you, it basically allows you to contribute dagger modules and component interfaces to your DI graph, merge all the contributions, and add them to your component during compilation. Ralf Wonderatschek and Gabriel Peal gave an in-depth talk about this. Dagger + Anvil: Learning to Love Dependency Injection. You should check it out."
-  url="https://droidcon.com/integrate-kotlin-inject-anvil-to-tv-maniac"
+  url="https://droidcon.com/2024/12/12/integrate-kotlin-inject-anvil-to-tv-maniac"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp"/>
 

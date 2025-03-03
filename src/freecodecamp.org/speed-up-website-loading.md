@@ -9,7 +9,7 @@ category:
 tag:
   - blog
   - freecodecamp.org
-  - 
+  - devops
 head:
   - - meta:
     - property: og:title

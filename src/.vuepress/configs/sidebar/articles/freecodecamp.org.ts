@@ -569,11 +569,34 @@ const HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT: Si
   ]
 }
 
+const HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE: SidebarInfoSubgroupTemplate = { // 2025-03-04
+  text: 'How to Build a Social Learning Platform using Next.js, Stream, and Supabase',
+  collapsible: true,
+  icon: 'iconfont icon-nextjs',
+  subPath: 'how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase',
+  children: [
+    'README',
+    'how-to-set-up-server-side-authentication-with-supabase',
+    'the-application-database-design',
+    'how-to-add-a-video-conferencing-feature-with-stream',
+    'how-to-integrate-a-group-chat-feature-using-stream-chat-messaging',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "learn-software-design-basics", // 2025-03-08
+    "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
+    "learn-pytorch-in-five-projects", // 2025-03-07
+    "learn-machine-learning-concepts-plus-generative-ai", // 2025-03-06
+    "create-a-simple-mmo-game-in-unity", // 2025-03-06
+    "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
+    HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE, // 2025-03-04
+    "learn-git-through-gamification", // 2025-03-02
+    "how-to-use-zod-for-react-api-validation", // 2025-03-01
     "learn-linear-algebra-for-machine-learning", // 2025-02-27
     "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
     "build-a-vision-transformer-from-scratch", // 2025-02-27
@@ -673,7 +696,6 @@ text: '2025',
     "optimize-nextjs-web-apps-for-better-performance", // 2025-01-02
   ]
 }
-
 
 const Y2024: SidebarYeargroupTemplate = {
   text: '2024',
@@ -1651,6 +1673,9 @@ export const template: SidebarInfoTemplate = {
       "build-a-memory-game-in-react", // 2025-02-14
       "how-to-build-a-reusable-usesearch-hook-in-react", // 2025-02-26
       "how-to-code-a-crossy-road-game-clone-with-react-three-fiber", // 2025-02-27
+      "how-to-use-zod-for-react-api-validation", // 2025-03-01
+      "how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase", // 2025-03-02
+      "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -1721,6 +1746,10 @@ export const template: SidebarInfoTemplate = {
       "add-auth-to-flutter-apps-with-supabase-auth-ui", // 2024-06-03
       "authenticate-react-app-using-firebase", // 2024-10-02
       "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
+      // END: 2024js-supabase
+      HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE, // 2025-03-04
+      // END: 2025js-supabase
+      // END: js-supabase
     ]],[
     "js-gatsby", [
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
@@ -1886,6 +1915,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "py-numpy", [
       "how-to-build-an-ai-model-for-predicting-data-with-python", // 2024-08-08
+      // END: 2024py-numpy
+      "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
+      "learn-software-design-basics", // 2025-03-08
+      // END: 2025py-numpy
+      // END: py-numpy
     ]],[
     "py-fastapi", [
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
@@ -1894,10 +1928,23 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "py-torch", [
       "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
+      // END: 2024py-torch
+      "learn-pytorch-in-five-projects", // 2025-03-07
+      // END: 2025py-torch
       // END: py-torch
+    ]],[
+    "py-pandas", [
+      // END: 2024py-pandas
+      "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
+      "learn-software-design-basics", // 2025-03-08
+      // END: 2025py-pandas
+      // END: py-pandas
     ]],[
     "py-jupyter", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
+      // END: 2024py-jupyter
+      // END: 2025py-jupyter
+      // END: py-jupyter
     ]],[
     "dart", [
       "how-to-develop-a-flutter-app-from-scratch", // 2024-04-26
@@ -1986,11 +2033,17 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-collections-in-csharp", // 2025-01-24
       "how-to-use-fakelogger-to-make-testing-easier-in-net", // 2025-02-18
       "how-to-build-an-aspnet-core-mvc-web-app", // 2025-02-20
+      "create-a-simple-mmo-game-in-unity", // 2025-03-06
       // END: 2025cs
       // END: cs
     ]],[
     "cs-blazor", [
       "use-local-storage-in-blazor-apps", // 2024-07-29
+    ]],[
+    "cs-unity", [
+      "create-a-simple-mmo-game-in-unity", // 2025-03-06
+      // END: cs-unity2025
+      // END: cs-unity
     ]],[
     "c", [
       "complete-c-programming-course-from-dr-chuck", // 2024-05-30
@@ -2085,6 +2138,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-git-stash-to-manage-code", // 2024-10-11
       "how-to-simplify-your-git-commands-with-git-aliases", // 2024-11-12
       "how-to-perform-code-reviews-in-tech-the-painless-way", // 2024-12-04
+      // END: 2024git
+      "learn-git-through-gamification", // 2025-03-02
+      // END: 2025git
       // END: git
     ]],[
     "gd", [
@@ -2120,6 +2176,11 @@ export const template: SidebarInfoTemplate = {
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
       // END: md2024
       // END: md
+    ]],[
+    "cs-unity", [
+      "create-a-simple-mmo-game-in-unity", // 2025-03-06
+      // END: cs-unity2025
+      // END: cs-unity
     ]],[
     "devops", [
       "how-to-choose-a-cloud-development-environment", // 2025-02-05
@@ -2422,6 +2483,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server", // 2025-02-14
       HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
+      "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -2503,6 +2565,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-user-stories-for-beginners", // 2024-12-17
       // END: 2024system-design
       "cold-start-problem-in-recommender-systems", // 2025-02-26
+      "learn-software-design-basics", // 2025-03-08
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -2555,6 +2618,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-semantic-book-recommender-using-an-llm-and-python", // 2025-01-28
       "ai-engineering-roadmap", // 2025-02-07
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
+      "learn-machine-learning-concepts-plus-generative-ai", // 2025-03-06
       // END: 2025llm
       // END: llm
     ]],[

@@ -67,6 +67,10 @@ native thread와 mapping 되지 않기 때문에 context switchig이 필요하�
 
 아래 코드를 실행시키면 어떤 결과가 나올까요?
 
+::: kotlin-playground 1
+
+@file main.kt
+
 ```kotlin
 fun main() {
   thread {
@@ -76,22 +80,24 @@ fun main() {
   println("Hello,")
   Thread.sleep(2000)
 }
+// 
+// 결과는 다음과 같습니다.
+// 
+// Hello,
+// World!
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
-
-결과는 다음과 같습니다.
-
-```sh
-Hello,
-World!
-```
+:::
 
 `Thread.sleep()` 메서드는 blocking 메서드 이기 때문에
 
 "Hello," 문자열이 먼저 나타나고 1초 뒤에 "World!"가 나타납니다.
 
 이번에는 thread 대신에 `GlobalScope.launch` 를 이용하여 실행을 시켜보도록 하겠습니다.
+
+::: kotlin-playground 2
+
+@file main.kt
 
 ```kotlin
 fun main() {
@@ -102,16 +108,14 @@ fun main() {
   println("Hello,")
   Thread.sleep(2000)
 }
+// 
+// 결과는 역시 똑같습니다.
+// 
+// Hello,
+// World!
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
-
-결과는 역시 똑같습니다.
-
-```sh
-Hello,
-World!
-```
+:::
 
 위의 결과를 봤을때 다음과 같이 나타낼 수 있습니다.
 
@@ -122,7 +126,7 @@ World!
 
 `main` 함수에서 `delay()` 메서드를 사용하고 싶다면
 
-::: kotlin-playground 1
+::: kotlin-playground 3
 
 @file main.kt
 
@@ -153,6 +157,10 @@ coroutine은 thread 와 비슷한 동작을 하는데 왜 coroutine을 사용해
 
 아래 코드는 100_000개의 thread를 실행시키는 코드입니다.
 
+::: kotlin-playground 4
+
+@file main.kt
+
 ```kotlin
 fun main() = rubBlocking {
   repeat(100_000) {
@@ -162,15 +170,13 @@ fun main() = rubBlocking {
     }
   }
 }
+// 
+// 해당 코드를 실행시키면
+// 
+// out-of-memory error
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
-
-해당 코드를 실행시키면
-
-```
-out-of-memory error
-```
+:::
 
 메모리 부족으로 OOM 에러가 나타납니다.
 
@@ -186,7 +192,7 @@ thread pool를 이용하여 thread를 관리하면 10만번 반복되는 작업�
 
 **coroutine** 으로 10만번 작업을 실행하면 어떤 결과가 나올까요?
 
-::: kotlin-playground 2
+::: kotlin-playground 5
 
 @file main.kt
 
@@ -223,7 +229,7 @@ coroutine을 사용하면 많이 생성하더라도 아주 훌륭한 performance
 
 다음과 같이 반복되는 작업을 하고 있을때 해당 작업을 취소하고 싶으면 어떻게 해야할까요?
 
-::: kotlin-playground 3
+::: kotlin-playground 6
 
 @file main.kt
 
@@ -252,7 +258,7 @@ thread가 생성되고 `start()` 메서드를 호출하면 작업이 실행됩�
 
 다음은 3초뒤에 스레드를 종료시키는 코드입니다.
 
-::: kotlin-playground 4
+::: kotlin-playground 7
 
 @file main.kt
 
@@ -303,6 +309,10 @@ Java 1.2 버전부터 Deprecated 됬으며 사용하는것을 권장하지 않�
 
 방법은 thread를 Interrupting 하여 종료 시켜야 합니다.
 
+::: kotlin-playground 8
+
+@file main.kt
+
 ```kotlin
 fun main = runBlocking {
   val thread = thread {
@@ -320,7 +330,7 @@ fun main = runBlocking {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 2가지를 설정해줘야 하는데 interrupt state가 설정되었는지 확인을 해야합니다.
 
@@ -332,7 +342,7 @@ Blocking 메서드를 호출할 경우 try-catch로 감싸줘야합니다.
 
 ### **coroutine** 에서는 어떻게 작업을 취소할 수 있을까요?
 
-::: kotlin-playground 5
+::: kotlin-playground 9
 
 @file main.kt
 
@@ -367,7 +377,7 @@ thread 와 비슷하게 동작은 하지만 thread에 비하여 작업을 쉽게
 
 다음과 같은 코드를 실행시켰을 경우 결과가 어떻게 나올까요?
 
-::: kotlin-playground 6
+::: kotlin-playground 10
 
 @file main.kt
 
@@ -392,22 +402,22 @@ suspend fun doSomethingUsefulTwo(): Int {
     delay(1000)
     return 29
 }
+//
+// The answer is 42
+// Completed in 2009 ms
 ```
 
 :::
-
-결과는
-
-```plaintext title="log"
-The answer is 42
-Completed in 2009 ms
-```
 
 값은 42이지만 시간은 2초가 걸렸습니다.
 
 각 메서드에 1초씩 delay 되었기 때문에 총 2초가 걸렸습니다.
 
 해당 작업을 병렬로 처리하려면
+
+::: kotlin-playground 11
+
+@file main.kt
 
 ```kotlin
 fun main() = runBlocking {
@@ -430,7 +440,7 @@ suspend fun doSomethingUsefulTwo(): Int {
 }
 ```
 
-<!-- TODO: kotlin playground로 변경 -->
+:::
 
 coroutine의 `async` 를 사용하면 쉽게 병렬처리를 할 수 있습니다.
 

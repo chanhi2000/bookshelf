@@ -48,7 +48,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/game-story-collec
 <SiteInfo
   name="The problems of Kotlin/Wasm I had when making a game"
   desc="A short story of the problems I needed to face when publishing a simple game made with Kotlin/Wasm."
-  url="https://kt.academy/game-story-collection-processing-wasm"
+  url="https://kt.academy/article/game-story-collection-processing-wasm"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/game-story-collection-processing-wasm.jpg"/>
 

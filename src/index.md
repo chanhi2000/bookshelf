@@ -138,7 +138,7 @@ projects:
     name: 'fe-developers.kakaoent.com'
     desc: '카카오 엔터테인먼트 프론트엔드 개발팀이 관심있는 기술의 경험과 노하우를 공유합니다.'
     link: '/fe-developers.kakaoent.com/README.md'
-  - icon: https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg
+  - icon: https://yozm.wishket.com/favicon.ico
     name: yozm.wishket.com
     desc: "요즘 사람들의 IT 매거진, 요즘IT"
     link: /yozm.wishket.com/README.md

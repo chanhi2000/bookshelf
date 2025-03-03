@@ -22,7 +22,9 @@ head:
 prev: /programming/js/articles/README.md
 date: 2024-09-27
 isOriginal: false
-author: Maximiliano Firtman
+author:
+  - name: Maximiliano Firtman
+    url : https://frontendmasters.com/blog/author/maximilianofirtman/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4037
 ---
 

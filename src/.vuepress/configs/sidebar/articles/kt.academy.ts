@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "ak-compiler-plugin", // 2025-03-03
     "game-story-collection-processing-wasm", // 2025-01-20
     "modifier-order", // 2025-01-07
   ]
@@ -75,6 +76,7 @@ export const template: SidebarInfoTemplate = {
       "benchmark-reflection", // 2024-12-16
       // END: 2024kotlin
       "game-story-collection-processing-wasm", // 2025-01-20
+      "ak-compiler-plugin", // 2025-03-03
       // END: 2025kotlin
       // END: kotlin
     ]],[

@@ -15,6 +15,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
+    "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
+    "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
     "stop-conflating-cqrs-and-mediatr", // 2025-02-08
     "overriding-default-http-resilience-handlers-in-dotnet", // 2025-02-01
     "implementing-aes-encryption-with-csharp", // 2025-01-25
@@ -295,6 +298,9 @@ export const template: SidebarInfoTemplate = {
       "implementing-aes-encryption-with-csharp", // 2025-01-25
       "overriding-default-http-resilience-handlers-in-dotnet", // 2025-02-01
       "stop-conflating-cqrs-and-mediatr", // 2025-02-08
+      "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
+      "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
+      "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
       // END: 2025cs
       // END: cs
     ]],[
@@ -333,6 +339,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "postgres", [
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
+      // END: 2024postgres
+      "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
+      // END: 2025postgres
       // END: postgres
     ]],[
     "redis", [

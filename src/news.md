@@ -1220,7 +1220,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
   "title": "요즘IT", 
   "desc": "요즘 사람들의 IT 매거진, 요즘IT", 
   "link": "https://yozm.wishket.com/magazine/list/develop/", 
-  "logo": "https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg", 
+  "logo": "https://yozm.wishket.com/favicon.ico", 
   "background": "rgba(84,7,224,0.2)"
 }
 ```

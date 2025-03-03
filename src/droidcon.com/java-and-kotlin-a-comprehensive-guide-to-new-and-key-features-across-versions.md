@@ -303,7 +303,7 @@ Android Consultant | Trainer
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)com](https://proandroiddev.com/java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions-10cf026739fd)
+This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions-10cf026739fd)
 
 <SiteInfo
   name="Java and Kotlin: A Comprehensive Guide to New and Key Features Across Versions"

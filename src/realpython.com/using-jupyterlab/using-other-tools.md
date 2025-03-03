@@ -64,7 +64,7 @@ Clicking *Python 3* allows you to create a stand-alone console:
 
 ![jupyterlab's code console button](https://files.realpython.com/media/ie-code-console-buttonCR.c5a7ae7d3f7a.png)
 
-This uses [**IPython**](/realpython.com/ipython-interactive-python-shell.md), which provides an environment like the [**Python REPL**](/realpython.com/python-repl.md), where you can type code in directly or drag and drop it from a notebook or Markdown file, and then run it. This code has its own kernel process, so it won’t interfere with anything else that you have running elsewhere in JupyterLab. The screenshot below shows some code inserted into the lower part of a console:
+This uses [**IPython**](/realpython.com/ipython-interactive-python-shell.md), which provides an environment like the [**Python REPL**](/realpython.com/python-repl/README.md), where you can type code in directly or drag and drop it from a notebook or Markdown file, and then run it. This code has its own kernel process, so it won’t interfere with anything else that you have running elsewhere in JupyterLab. The screenshot below shows some code inserted into the lower part of a console:
 
 ![jupyterlab console output](https://files.realpython.com/media/ie-console-outputCR.aef5bb5eb354.png)
 

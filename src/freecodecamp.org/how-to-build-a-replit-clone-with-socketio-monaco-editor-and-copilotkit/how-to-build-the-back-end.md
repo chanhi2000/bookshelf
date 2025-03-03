@@ -52,8 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf
   desc="I’ve been coding for about a decade now. And over the years, I’ve tried my fair share of development tools—especially IDEs like Sublime Text, Atom, and even NetBeans back in my college days. But when VS Code came along, it completely changed the game..."
   url="https://freecodecamp.org/news/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit#heading-how-to-build-the-back-end"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://freecodecamp.org/news/author/prankurpandeyy/
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf3-2d89-4e95-9d3b-07224f3985be.png"/>
+  preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf3-2d89-4e95-9d3b-07224f3985be.png"/>
 
 Before we start building the back end, you’ll need to put all important credentials into your <FontIcon icon="fas fa-file-lines"/>`.env` file, which should look like this:
 

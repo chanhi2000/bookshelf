@@ -123,7 +123,7 @@ export const navbarEn = navbar([
         link: '/fe-developers.kakaoent.com/README.md'
       }, {
         text: 'yozm.wishket.com',
-        icon: 'https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg',
+        icon: 'https://yozm.wishket.com/favicon.ico',
         link: '/yozm.wishket.com/README.md'
       }, {
         text: 'popit.kr',

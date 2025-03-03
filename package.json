@@ -1,7 +1,7 @@
 {
   "name": "bookshelf",
   "description": "Bookshelf",
-  "version": "0.1.9",
+  "version": "0.1.11",
   "license": "MIT",
   "type": "module",
   "private": true,
@@ -32,6 +32,7 @@
     "@vue/repl": "4.4.2",
     "@vuepress/plugin-photo-swipe": "2.0.0-rc.56",
     "@vuepress/plugin-prismjs": "2.0.0-rc.56",
+    "baseline-status": "1.0.10",
     "chart.js": "4.4.3",
     "cross-env": "7.0.3",
     "dashjs": "4.7.4",

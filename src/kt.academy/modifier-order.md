@@ -51,7 +51,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/modifier-order.jp
 <SiteInfo
   name="How modifiers order affects Compose UI appearance"
   desc="A complete explanation of how modifier order affects the appearance of your Jetpack Compose UI."
-  url="https://kt.academy/modifier-order"
+  url="https://kt.academy/article/modifier-order"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/modifier-order.jpg"/>
 

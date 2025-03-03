@@ -48,7 +48,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/benchmark-reflect
 <SiteInfo
   name="Is reflection slowing down your code?"
   desc="Let's benchmark reflection and see how it affects the performance of your code."
-  url="https://kt.academy/benchmark-reflection"
+  url="https://kt.academy/article/benchmark-reflection"
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/benchmark-reflection.jpg"/>
 
@@ -290,7 +290,7 @@ open class SynchronizedCounter {
 
 How about logging? Logging is a popular operation, and I never herd anyone saying that we should not use it because it is slow. I tried to check it by adding simple `println` to method calls, and my computer quickly got drained out of memory. To avoid it, I made texts to print as short as possible, used `print`, and limited the number of iterations to 10,000 (from 1,000,000). It takes 192 ms, so for regular number of operations it should take around 19,204 ms. That is longer than reflection by several orders of magnitude, even unoptimized reflection.
 
-```kotlin
+```kotlin :collapsed-lines
 // Takes 192 ms/op
 // so for 1,000,000 operations it should take around 19,204 ms for the same number of operations
 @Benchmark

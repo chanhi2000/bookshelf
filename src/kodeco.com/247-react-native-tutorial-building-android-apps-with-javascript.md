@@ -148,7 +148,7 @@ npm install -g react-native-cli
 
 npm fetches the CLI tool and installs it globally; npm is similar in function to [<FontIcon icon="fas fa-globe"/>JCenter](https://bintray.com/bintray/jcenter) and is packaged with Node.js.
 
-Next, install Yarn using the instructions on the [Yarn website](https://yarnpkg.com/en/docs/install). Yarn is a fast npm client.  <!-- TODO: find yarn iconfont -->
+Next, install Yarn using the instructions on the [<FontIcon icon="fa-brands fa-yarn"/>Yarn website](https://yarnpkg.com/en/docs/install). Yarn is a fast npm client.
 
 ### Android Development Environment
 

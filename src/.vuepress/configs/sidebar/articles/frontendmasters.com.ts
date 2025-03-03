@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "movies-as-images", // 2025-03-05
+    "custom-property-fallbacks", // 2025-02-28
+    "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
     "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
     "a-color-input-that-also-shows-the-value", // 2025-02-18
     "rainbow-selection-in-css", // 2025-02-14
@@ -54,7 +57,12 @@ const Y2024: SidebarYeargroupTemplate = {
     "scroll-driven-sections", // 2024-10-29
     "9-16", // 2024-10-24
     "view-transitions-staggering", // 2024-10-22
-
+    "simple-typographic-email-template", // 2024-10-17
+    "fanout-with-grid-and-view-transitions", // 2024-10-14
+    "handling-paste-events-in-javascript", // 2024-10-11
+    "css-fan-out-with-grid-and-property", // 2024-10-09
+    "reminder-that-scope-and-html-style-blocks-are-a-potent-combo", //2024-10-07
+    "whats-the-difference-between-htmls-dialog-element-and-popovers", // 2024-09-30
     "you-might-not-need-that-framework", // 2024-09-27
     "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
     "keeping-pixely-images-pixely-and-performant", // 2024-09-23
@@ -154,7 +162,10 @@ export const template: SidebarInfoTemplate = {
       "writing-to-the-clipboard-in-javascript", // 2024-08-23
       "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
       "you-might-not-need-that-framework", // 2024-09-27
-
+      "whats-the-difference-between-htmls-dialog-element-and-popovers", // 2024-09-30
+      "reminder-that-scope-and-html-style-blocks-are-a-potent-combo", //2024-10-07
+      "css-fan-out-with-grid-and-property", // 2024-10-09
+      "handling-paste-events-in-javascript", // 2024-10-11
       "why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing", // 2024-11-07
       // END: 2024js
       "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
@@ -243,6 +254,8 @@ export const template: SidebarInfoTemplate = {
       "gradient-text-with-a-drop-shadow", // 2024-09-20
       "keeping-pixely-images-pixely-and-performant", // 2024-09-23
 
+      "fanout-with-grid-and-view-transitions", // 2024-10-14
+      "simple-typographic-email-template", // 2024-10-17
       "view-transitions-staggering", // 2024-10-22
       "9-16", // 2024-10-24
       "scroll-driven-sections", // 2024-10-29
@@ -273,6 +286,9 @@ export const template: SidebarInfoTemplate = {
       "rainbow-selection-in-css", // 2025-02-14
       "a-color-input-that-also-shows-the-value", // 2025-02-18
       "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
+      "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
+      "custom-property-fallbacks", // 2025-02-28
+      "movies-as-images", // 2025-03-05
       // END: 2025css
       // END: css
     ]], [
