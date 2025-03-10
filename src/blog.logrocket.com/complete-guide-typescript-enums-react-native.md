@@ -6,7 +6,7 @@ icon: fa-brands fa-react
 category:
   - Node.js
   - React.js
-  - TypeSript
+  - typescript
   - Article(s)
 tag:
   - blog

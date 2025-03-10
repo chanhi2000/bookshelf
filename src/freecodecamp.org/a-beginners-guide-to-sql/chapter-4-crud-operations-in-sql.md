@@ -17,7 +17,6 @@ head:
       content: "Chapter 4: CRUD Operations"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-4-crud-operations-in-sql.html
-prev: /data-science/articles/README.md
 date: 2023-09-05
 isOriginal: false
 author:

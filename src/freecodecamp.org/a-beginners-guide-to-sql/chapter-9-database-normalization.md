@@ -17,7 +17,6 @@ head:
       content: "Chapter 9: Database Normalization"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-9-database-normalization.html
-prev: /data-science/articles/README.md
 date: 2023-09-05
 isOriginal: false
 author:

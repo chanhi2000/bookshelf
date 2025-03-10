@@ -17,7 +17,6 @@ head:
       content: "Chapter 8: SQL Subqueries"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-8-sql-subqueries.html
-prev: /data-science/articles/README.md
 date: 2023-09-05
 isOriginal: false
 author:

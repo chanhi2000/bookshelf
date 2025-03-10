@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
     "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
     "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
     "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
@@ -301,6 +302,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
       "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
       "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
+      "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
       // END: 2025cs
       // END: cs
     ]],[

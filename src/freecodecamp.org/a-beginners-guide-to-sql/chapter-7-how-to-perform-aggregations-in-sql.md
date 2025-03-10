@@ -17,7 +17,6 @@ head:
       content: "Chapter 7: How to Perform Aggregations in SQL"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-7-how-to-perform-aggregations-in-sql.html
-prev: /data-science/articles/README.md
 date: 2023-09-05
 isOriginal: false
 author:

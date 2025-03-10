@@ -17,7 +17,6 @@ head:
       content: "Chapter 5: Basic SQL Queries"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-5-basic-sql-queries.html
-prev: /data-science/articles/README.md
 date: 2023-09-05
 isOriginal: false
 author:

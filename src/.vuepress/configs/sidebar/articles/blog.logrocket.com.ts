@@ -25,6 +25,18 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "javascript-dictionary", // 2025-02-25
+    "css-grid-template-columns", // 2025-02-25
+    "guide-node-js-readable-streams", // 2025-02-25
+    "advanced-react-state-management-using-url-parameters", // 2025-02-24
+    "best-react-native-ui-component-libraries", // 2025-02-21
+    "docker-alternatives", // 2025-02-21
+    "ternary-operator-javascript", // 2025-02-20
+    "tsup", // 2025-02-20
+    "react-higher-order-components", // 2025-02-20
+    "dependency-inversion-principle", // 2025-02-20
+    "building-telegram-bot-grammy", // 2025-02-20
+    "box-shadow-css", // 2025-02-19
     "complete-guide-typescript-enums-react-native", // 2025-02-19
     "event-loop-and-call-stack-js", // 2025-02-18
     "react-context-tutorial", // 2025-02-17
@@ -97,7 +109,6 @@ const Y2022: SidebarYeargroupTemplate = {
     "build-react-dashboard-tremor", // 2022-11-23
     "react-createref-guide", // 2022-11-15
     "immutability-react-should-you-mutate-objects", // 2022-10-14
-    "docker-desktop-alternatives", // 2022-10-14
     "a-guide-to-css-pseudo-elements", // 2022-09-29
     "hsl-hsla-vs-rgb-rgba-css", // 2022-09-16
     "guide-choosing-right-react-state-management-solution", // 2022-09-09
@@ -189,6 +200,11 @@ export const template: SidebarInfoTemplate = {
   faviconPath: "/assets/image/blog.logrocket.com/favicon.png",
   linksMap: new Map([
     [
+    "java-spring", [
+      "dependency-inversion-principle", // 2025-02-20
+      // END: 2025java
+      // END: java
+    ]],[
     "js", [
       "how-to-manipulate-css-colors-with-javascript", // 2019-03-12
       "the-history-and-legacy-of-jquery", // 2019-08-13
@@ -207,6 +223,8 @@ export const template: SidebarInfoTemplate = {
       "javascript-null-empty-function", // 2025-02-14
       "javascript-arrow-functions", // 2025-02-17
       "event-loop-and-call-stack-js", // 2025-02-18
+      "ternary-operator-javascript", // 2025-02-20
+      "javascript-dictionary", // 2025-02-25
       // END: 2025js
       // END: js
     ]],[
@@ -222,6 +240,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2024ts
       "guide-graceful-degradation-web-development", // 2025-02-12
       "complete-guide-typescript-enums-react-native", // 2025-02-19
+      "building-telegram-bot-grammy", // 2025-02-20
+      "dependency-inversion-principle", // 2025-02-20
+      "tsup", // 2025-02-20
       // END: 2025ts
       // END: ts
     ]],[
@@ -239,6 +260,7 @@ export const template: SidebarInfoTemplate = {
       "commonjs-vs-es-modules-node-js", // 2024-06-06
       // END: 2024js-node
       "leveraging-parallel-computing-node-js", // 2025-02-13
+      "guide-node-js-readable-streams", // 2025-02-25
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -296,6 +318,9 @@ export const template: SidebarInfoTemplate = {
       "mern-stack", // 2025-02-13
       "react-context-tutorial", // 2025-02-17
       "complete-guide-typescript-enums-react-native", // 2025-02-19
+      "react-higher-order-components", // 2025-02-20
+      "best-react-native-ui-component-libraries", // 2025-02-21
+      "advanced-react-state-management-using-url-parameters", // 2025-02-24
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -325,6 +350,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-astro
       // END: js-astro
     ]],[
+    "py", [
+      "dependency-inversion-principle", // 2025-02-20
+      // END: 2025py
+      // END: py
+    ]],[
     "py-django", [
       "making-django-migrations-python", // 2021-12-17
       "whats-new-django-v4", // 2021-12-30
@@ -335,6 +365,12 @@ export const template: SidebarInfoTemplate = {
       "django-rest-framework-create-api", // 2024-03-13
       // END: 2024py-django
       // END: py-django
+    ]],[
+    "cs", [
+      // END: 2024cs
+      "dependency-inversion-principle", // 2025-02-20
+      // END: 2025cs
+      // END: cs
     ]],[
     "css", [
       "how-css-works-parsing-painting-css-in-the-critical-rendering-path", // 2018-04-10
@@ -364,6 +400,8 @@ export const template: SidebarInfoTemplate = {
       "understanding-css-revert-layer", // 2024-04-24
       // END: 2024css
       "improve-ux-with-scroll-select-box", // 2025-02-07
+      "box-shadow-css", // 2025-02-19
+      "css-grid-template-columns", // 2025-02-25
       // END: 2025css
       // END: css
     ]],[
@@ -373,6 +411,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023go
       // END: 2024go
       "building-high-performance-websites-using-htmx-go", // 2025-02-10
+      "docker-alternatives", // 2025-02-21
       // END: 2025go
       // END: go
     ]],[
@@ -385,21 +424,31 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "docker", [
       "dockerizing-a-django-app", // 2022-04-08
-      "docker-desktop-alternatives", // 2022-10-14
       // END: 2022docker
+      // END: 2023docker
+      // END: 2024docker
+      "docker-alternatives", // 2025-02-21
+      // END: 2025docker
       // END: docker
     ]],[
     "podman", [
-      "docker-desktop-alternatives", // 2022-10-14
       // END: 2022podman
       // END: 2023podman
       // END: 2024podman
+      "docker-alternatives", // 2025-02-21
+      // END: 2025podman
       // END: podman
     ]],[
     "jenkins", [
       "best-ci-cd-tools-react-native", // 2025-02-05
       // END: 2025jenkins
       // END: jenkins
+    ]],[
+    "system-design", [
+      // END: 2024system-design
+      "dependency-inversion-principle", // 2025-02-20
+      // END: 2025system-design
+      // END: system-design
     ]],[
     "all", [
       Y2025,

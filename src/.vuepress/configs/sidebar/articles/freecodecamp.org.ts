@@ -583,11 +583,35 @@ const HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE: 
   ]
 }
 
+const BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB: SidebarInfoSubgroupTemplate = { // 2025-03-04
+  text: 'How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners',
+  collapsible: true,
+  icon: 'fas fa-user-tie',
+  subPath: 'become-a-full-stack-developer-and-get-a-job',
+  children: [
+    'README',
+    'what-is-full-stack-development-including-devops',
+    'devops-for-full-stack-developers',
+    'how-to-learn-full-stack-development',
+    'how-to-use-ai-in-your-development',
+    'building-full-stack-projects-with-ai',
+    'how-to-land-a-full-stack-developer-job-in-2025',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "connect-read-process-sensor-data-on-microcontrollers-for-beginners", // 2025-03-15
+    "learn-aws-incognito-for-authentication", // 2025-03-14
+    "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
+    "data-synchronization-for-edge-computing", // 2025-03-13
+    "javascript-essentials", // 2025-03-13
+    BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB, // 2025-03-13
+    "how-to-run-a-sprint-retrospective-start-stop-continue-method", // 2025-03-13
+    "how-to-enforce-type-safety-in-formdata-with-typescript", // 2025-03-10
     "learn-software-design-basics", // 2025-03-08
     "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
     "learn-pytorch-in-five-projects", // 2025-03-07
@@ -1506,6 +1530,7 @@ export const template: SidebarInfoTemplate = {
       "learn-async-programming-in-typescript-promises-asyncawait-and-callbacks", // 2025-02-01
       LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK, // 2025-02-08
       "build-a-serverless-ai-agent-for-generating-cold-emails", // 2025-02-19
+      "how-to-enforce-type-safety-in-formdata-with-typescript", // 2025-03-10
       // END: 2025ts
       // END: ts
     ]],[
@@ -1571,6 +1596,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-serverless-ai-agent-for-generating-cold-emails", // 2025-02-19
       "how-to-code-a-crossy-road-game-clone-with-threejs", // 2025-02-21
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
+      "javascript-essentials", // 2025-03-13
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2177,11 +2203,6 @@ export const template: SidebarInfoTemplate = {
       // END: md2024
       // END: md
     ]],[
-    "cs-unity", [
-      "create-a-simple-mmo-game-in-unity", // 2025-03-06
-      // END: cs-unity2025
-      // END: cs-unity
-    ]],[
     "devops", [
       "how-to-choose-a-cloud-development-environment", // 2025-02-05
       "speed-up-website-loading", // 2025-02-25
@@ -2233,9 +2254,15 @@ export const template: SidebarInfoTemplate = {
       "mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos", //2024-04-25
       "how-to-install-python-on-a-mac", // 2024-05-09
       "how-to-fix-python-installation-errors-on-mac", // 2024-06-10
+      // END: 2024macos
+      // END: macos
     ]],[
     "windows", [
       "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
+      // END: 2024windows
+      "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
+      // END: 2025windows
+      // END: windows
     ]],[
     "linux-debian", [
       "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
@@ -2329,6 +2356,7 @@ export const template: SidebarInfoTemplate = {
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
       "how-to-build-an-application-with-aws-lambda", // 2025-01-29
       "learn-kubernetes-and-eks-for-deployment", // 2025-02-21
+      "learn-aws-incognito-for-authentication", // 2025-03-14
       // END: 2025aws
       // END: aws
     ]],[
@@ -2402,6 +2430,7 @@ export const template: SidebarInfoTemplate = {
       "learn-the-basics-of-api-security", // 2025-01-31
       "beginners-guide-to-penetration-testing-cybersecurity", // 2025-02-08
       "ssh-authentication-with-github-under-the-hood", // 2025-02-13
+      "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
       // END: 2025security
       // END: security
     ]],[
@@ -2423,6 +2452,8 @@ export const template: SidebarInfoTemplate = {
       "hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts", // 2024-10-03
       "useful-nmap-scripts-for-ethical-hackers", // 2024-11-08
       // END: 2024nmap
+      "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
+      // END: 2025nmap
       // END: nmap
     ]],[
     "metasploit", [
@@ -2441,6 +2472,7 @@ export const template: SidebarInfoTemplate = {
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
       // END: 2024data-science
       "learn-relational-database-basics-key-concepts-for-beginners", // 2025-01-14
+      "data-synchronization-for-edge-computing", // 2025-03-13
       // END: 2025data-science
       // END: data-science
     ]],[
@@ -2738,6 +2770,8 @@ export const template: SidebarInfoTemplate = {
       THE_AI_ENGINEERING_HANDBOOK_HOW_TO_START_A_CAREER_AND_EXCEL_AS_AN_AI_ENGINEER, // 2025-01-16
       "how-to-run-an-effective-daily-scrum", // 2025-01-18
       "how-to-run-a-great-sprint-review-actionable-insights", // 2025-01-30
+      "how-to-run-a-sprint-retrospective-start-stop-continue-method", // 2025-03-13
+      BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB, // 2025-03-13
       // END: 2025career
       // END: career
     ]],[
@@ -2752,7 +2786,14 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "arduino", [
       "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
+      // END: 2024arduino
+      // END: 2025arduino
       // END: arduino
+    ]],[
+    "stm32", [
+      "connect-read-process-sensor-data-on-microcontrollers-for-beginners", // 2025-03-15
+      // END: 2025stm32
+      // END: stm32
     ]],[
     "api", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
