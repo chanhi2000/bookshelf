@@ -1,0 +1,41 @@
+import{_ as s}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as u,f as e,av as p,au as a,aw as l,ax as i,b as o,r as m,o as c}from"./app-TfhzDSA_.js";const h={},d={id:"frontmatter-title-관련",tabindex:"-1"},b={class:"header-anchor",href:"#frontmatter-title-관련"};function f(r,t){const n=m("VPCard");return c(),u("div",null,[e("h1",d,[e("a",b,[e("span",null,p(r.$frontmatter.title)+" 관련",1)])]),a(n,l(i({title:"Language - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/language/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[0]||(t[0]=e("nav",{class:"table-of-contents"},[e("ul")],-1)),t[1]||(t[1]=e("hr",null,null,-1)),a(n,l(i({title:"How to break out of multiple loop levels using labeled statements | Language - free Swift example code",desc:"How to break out of multiple loop levels using labeled statements",link:"https://hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[2]||(t[2]=e("blockquote",null,[e("p",null,"Available from iOS 8.0")],-1)),o(" TODO: 작성 "),o(` 
+Swift has a built-in \`break\` keyword that escapes the current loop you’re in, but what happens if you’re in two loops or more and want to break out of them all?
+
+Swift’s labeled statements are designed to solve this problem: they let you exit any number of loops or conditions, so execution picks up directly after the block you labeled.
+
+For example, consider this pair of loops that will find the first number that, when squared, makes 144:
+
+\`\`\`swift
+let numbers = 1...100
+
+for number1 in numbers {
+    for number2 in numbers {
+        if number1 == number2 && number1 * number2 == 144 {
+            print("Square found: \\(number1)")
+        }
+    }
+}
+\`\`\`
+
+As soon as we’ve found that square, we can stop looking. The problem is, a regular \`break\` won’t work here because it will exit only the inner loop – the outer loop will keep counting 13, 14, 15, and so on up to 100. However, if we add a label to the outer loop we can break out of both loops at once, like this:
+
+\`\`\`swift
+outerLoop: for number1 in numbers {
+    for number2 in numbers {
+        if number1 == number2 && number1 * number2 == 144 {
+            print("Square found: \\(number1)")
+            break outerLoop
+        }
+    }
+}
+\`\`\`
+
+Notice the \`outerLoop:\` before the \`for number1\` loop, and also the matching \`break outerLoop\` – that will cause both loops to exit as soon as the correct number is found.
+
+`),t[3]||(t[3]=e("details",{class:"hint-container details"},[e("summary",null,"Similar solutions…"),o(`
+/quick-start/swiftui/how-to-fix-function-declares-an-opaque-return-type-but-has-no-return-statements-in-its-body-from-which-to-infer-an-underlying-ty">How to fix “Function declares an opaque return type, but has no return statements in its body from which to infer an underlying type” 
+/example-code/calayer/how-to-make-a-uiview-fade-out">How to make a UIView fade out 
+/quick-start/swiftui/how-to-get-bordered-buttons-that-stand-out">How to get bordered buttons that stand out 
+/example-code/system/how-to-spell-out-numbers-using-numberformatters-spellout-style">How to spell out numbers using NumberFormatter's spellOut style 
+/quick-start/swiftui/how-to-create-views-in-a-loop-using-foreach">How to create views in a loop using ForEach</a>
+`)],-1))])}const k=s(h,[["render",f],["__file","how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html.vue"]]),y=JSON.parse('{"path":"/hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html","title":"How to break out of multiple loop levels using labeled statements","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to break out of multiple loop levels using labeled statements","description":"Article(s) > How to break out of multiple loop levels using labeled statements","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-8.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to break out of multiple loop levels using labeled statements"},{"property":"og:description","content":"How to break out of multiple loop levels using labeled statements"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to break out of multiple loop levels using labeled statements"}],["meta",{"property":"og:description","content":"Article(s) > How to break out of multiple loop levels using labeled statements"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-8.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to break out of multiple loop levels using labeled statements\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false},"headers":[],"git":{"contributors":[{"name":"chanhi2000","email":"chanhi2000@gmail.com","commits":2}]},"readingTime":{"minutes":1.81,"words":544},"filePathRelative":"hackingwithswift.com/example-code/language/how-to-break-out-of-multiple-loop-levels-using-labeled-statements.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{k as comp,y as data};
