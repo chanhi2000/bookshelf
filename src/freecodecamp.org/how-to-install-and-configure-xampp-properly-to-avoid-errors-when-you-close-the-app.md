@@ -20,7 +20,7 @@ head:
       content: "How to Install and Configure XAMPP Properly to Avoid Errors When You Close the App"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app.html
-prev: /devops/windows/articles/README.md
+prev: /devops/win/articles/README.md
 date: 2024-11-14
 isOriginal: false
 author: Md. Fahim Bin Amin
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/cckf4TsHAuw/up
 {
   "title": "Windows > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/windows/articles/README.md",
+  "link": "/devops/win/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

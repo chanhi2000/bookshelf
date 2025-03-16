@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727226065318/c1522ad
 {
   "title": "Windows > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/windows/articles/README.md",
+  "link": "/devops/win/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

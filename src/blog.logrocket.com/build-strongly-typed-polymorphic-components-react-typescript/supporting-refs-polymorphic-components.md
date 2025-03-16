@@ -59,7 +59,7 @@ Do you remember every reference to `React.ComponentPropsWithoutRef` so far? 😅
 
 This is the final and most complex part of our solution. I’ll need you to be patient here, but I’ll also do my best to explain every step in detail.
 
-First things first, do you remember [**how `refs` in React work**](/blog.logrocket.com/complete-guide-react-refs.md)? The most important concept here is that you just don’t pass `ref` as a prop and expect it to be passed down into your component like every other prop. The recommended way to handle `refs` in your functional components is to use the [**`forwardRef` function**](/blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/).
+First things first, do you remember [**how `refs` in React work**](/blog.logrocket.com/complete-guide-react-refs.md)? The most important concept here is that you just don’t pass `ref` as a prop and expect it to be passed down into your component like every other prop. The recommended way to handle `refs` in your functional components is to use the [**`forwardRef` function**](/blog.logrocket.com/use-forwardref-react/).
 
 Let’s start off on a practical note.
 

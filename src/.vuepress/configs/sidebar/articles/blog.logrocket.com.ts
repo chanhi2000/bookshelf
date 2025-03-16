@@ -25,6 +25,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "react-memo", // 2025-02-26
+    "react-usecallback", // 2025-02-26
+    "the-virtual-dom-react", // 2025-02-26
+    "switch-statements-javascript", // 2025-02-26
+    "building-reusable-multi-step-form-react-hook-form-zod", // 2025-02-26
     "javascript-dictionary", // 2025-02-25
     "css-grid-template-columns", // 2025-02-25
     "guide-node-js-readable-streams", // 2025-02-25
@@ -38,6 +43,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "building-telegram-bot-grammy", // 2025-02-20
     "box-shadow-css", // 2025-02-19
     "complete-guide-typescript-enums-react-native", // 2025-02-19
+    "creating-react-animations-with-motion", // 2025-02-18
     "event-loop-and-call-stack-js", // 2025-02-18
     "react-context-tutorial", // 2025-02-17
     "javascript-arrow-functions", // 2025-02-17
@@ -60,6 +66,8 @@ const Y2024: SidebarYeargroupTemplate = {
     "http-requests-axios", // 2024-11-27
     "axios-vs-fetch-best-http-requests", // 2024-11-21
     "build-micro-frontend-application-react", // 2024-11-04
+    "build-component-library-react-typescript", // 2024-10-23
+    "build-rest-api-node-express-mysql", // 2024-10-21
     "understanding-redux-tutorial-examples", // 2024-10-17
     "six-things-you-may-not-know-about-javascript", // 2024-10-16
     "react-usereducer-hook-ultimate-guide", // 2024-10-10
@@ -71,6 +79,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "practical-guide-typescript-decorators", // 2024-03-21
     "django-rest-framework-create-api", // 2024-03-13
     "modern-api-data-fetching-methods-react", // 2024-03-01
+    "building-high-performance-ecommerce-sites-astro", // 2024-02-28
     "understanding-axios-get-requests", // 2024-02-09
     "react-conditional-rendering-9-methods", // 2024-01-10
   ]
@@ -94,6 +103,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
     "best-headless-cms-platforms", // 2023-07-05
     "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
+    "exploring-anime-js-example-site-animation-project", // 2023-03-06
     "rendering-large-lists-react-virtualized", // 2023-03-01
     "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
     "build-powerful-react-forms-with-informed", // 2023-02-09
@@ -106,6 +116,7 @@ const Y2022: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2022
+    "build-inline-editable-ui-react", // 2022-12-15
     "build-react-dashboard-tremor", // 2022-11-23
     "react-createref-guide", // 2022-11-15
     "immutability-react-should-you-mutate-objects", // 2022-10-14
@@ -143,6 +154,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "using-axios-all-make-concurrent-requests", // 2021-10-26
     "animations-react-hooks-greensock", // 2021-10-13
     "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
+    "detect-click-outside-react-component-how-to", // 2021-09-24
     "css-margin-vs-padding", // 2021-08-24
     "using-setstate-react-components", // 2021-07-16
     "guide-to-css-animation-for-javascript-developers", // 2021-06-23
@@ -225,6 +237,7 @@ export const template: SidebarInfoTemplate = {
       "event-loop-and-call-stack-js", // 2025-02-18
       "ternary-operator-javascript", // 2025-02-20
       "javascript-dictionary", // 2025-02-25
+      "switch-statements-javascript", // 2025-02-26
       // END: 2025js
       // END: js
     ]],[
@@ -253,6 +266,7 @@ export const template: SidebarInfoTemplate = {
       "intercepting-javascript-fetch-api-requests-responses", // 2022-02-18
       "complete-guide-abortcontroller-node-js", // 2022-06-06
       // END: 2022js-node
+      "exploring-anime-js-example-site-animation-project", // 2023-03-06
       "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
       "fetch-api-node-js", // 2023-11-01
       "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
@@ -277,6 +291,7 @@ export const template: SidebarInfoTemplate = {
       "usestate-vs-useref", // 2021-05-24
       "create-react-app-a-quick-setup-guide", // 2021-06-08
       "using-setstate-react-components", // 2021-07-16
+      "detect-click-outside-react-component-how-to", // 2021-09-24
       "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
       "animations-react-hooks-greensock", // 2021-10-13
       "using-axios-all-make-concurrent-requests", // 2021-10-26
@@ -289,6 +304,7 @@ export const template: SidebarInfoTemplate = {
       "immutability-react-should-you-mutate-objects", // 2022-10-14
       "react-createref-guide", // 2022-11-15
       "build-react-dashboard-tremor", // 2022-11-23
+      "build-inline-editable-ui-react", // 2022-12-15
       // END: 2022js-react
       "build-powerful-react-forms-with-informed", // 2023-02-09
       "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
@@ -311,16 +327,22 @@ export const template: SidebarInfoTemplate = {
       "guide-usestate-react", // 2024-10-08
       "react-usereducer-hook-ultimate-guide", // 2024-10-10
       "understanding-redux-tutorial-examples", // 2024-10-17
+      "build-component-library-react-typescript", // 2024-10-23
       "complete-guide-react-refs", // 2023-10-24
       "build-micro-frontend-application-react", // 2024-11-04
       // END: 2024js-react
       "best-ci-cd-tools-react-native", // 2025-02-05
       "mern-stack", // 2025-02-13
       "react-context-tutorial", // 2025-02-17
+      "creating-react-animations-with-motion", // 2025-02-18
       "complete-guide-typescript-enums-react-native", // 2025-02-19
       "react-higher-order-components", // 2025-02-20
       "best-react-native-ui-component-libraries", // 2025-02-21
       "advanced-react-state-management-using-url-parameters", // 2025-02-24
+      "building-reusable-multi-step-form-react-hook-form-zod", // 2025-02-26
+      "the-virtual-dom-react", // 2025-02-26
+      "react-usecallback", // 2025-02-26
+      "react-memo", // 2025-02-26
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -343,9 +365,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-axios
       // END: js-axios
     ]],[
+    "js-express", [
+      "build-rest-api-node-express-mysql", // 2024-10-21
+      // END: 2024js-express
+      // END: 2025js-express
+      // END: js-express
+    ]],[
     "js-astro", [
       "best-headless-cms-platforms", // 2023-07-05
       // END: 2023js-astro
+      "building-high-performance-ecommerce-sites-astro", // 2024-02-28
       // END: 2024js-astro
       // END: 2025js-astro
       // END: js-astro
@@ -443,6 +472,12 @@ export const template: SidebarInfoTemplate = {
       "best-ci-cd-tools-react-native", // 2025-02-05
       // END: 2025jenkins
       // END: jenkins
+    ]],[
+    "mysql", [
+      "build-rest-api-node-express-mysql", // 2024-10-21
+      // END: 2024mysql
+      // END: 2025mysql
+      // END: mysql
     ]],[
     "system-design", [
       // END: 2024system-design

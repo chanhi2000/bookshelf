@@ -599,11 +599,31 @@ const BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB: SidebarInfoSubgroupTemplate =
   ]
 }
 
+const THE_WEB_ACCESSIBILITY_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-03-19
+  text: 'Everything You Need to Know About Web Acessibility',
+  collapsible: true,
+  icon: 'fa-brands fa-css3-alt',
+  subPath: 'the-web-accessibility-handbook',
+  children: [
+    'README',
+    'what-is-accessibility',
+    'basic-accessibility-practices',
+    'additional-css-and-javascript-practices',
+    'advanced-accessibility-practices-wai-aria',
+    'multimedia-accessibility',
+    'mobile-accessibility',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    THE_WEB_ACCESSIBILITY_HANDBOOK, // 2025-03-19
+    "automate-alert-provisioning-with-the-signoz-terraform-provider", // 2025-03-18
+    "how-to-debug-and-prevent-buffer-overflows-in-embedded-systems", // 2025-03-18
+    "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
     "connect-read-process-sensor-data-on-microcontrollers-for-beginners", // 2025-03-15
     "learn-aws-incognito-for-authentication", // 2025-03-14
     "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
@@ -2065,6 +2085,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "cs-blazor", [
       "use-local-storage-in-blazor-apps", // 2024-07-29
+      // END: cs-blazor
     ]],[
     "cs-unity", [
       "create-a-simple-mmo-game-in-unity", // 2025-03-06
@@ -2074,21 +2095,28 @@ export const template: SidebarInfoTemplate = {
     "c", [
       "complete-c-programming-course-from-dr-chuck", // 2024-05-30
       "how-to-create-linux-device-drivers", // 2024-10-03
+      // END: 2024c
+      "how-to-debug-and-prevent-buffer-overflows-in-embedded-systems", // 2025-03-18
+      // END: 2025c
+      // END: c
     ]],[
     "cpp", [
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
-      // END: 2019
-      // END: 2020
+      // END: 2019cpp
+      // END: 2020cpp
       "understanding-sorting-algorithms", // 2021-06-18
-      // END: 2021
+      // END: 2021cpp
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
-      // END: 2022
-      // END: 2023
+      // END: 2022cpp
+      // END: 2023cpp
       "run-sql-like-queries-on-cplusplus-files", // 2024-05-02
       "learn-cuda-programming", // 2024-09-24
       "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
+      // END: 2024cpp
+      // END: 2025cpp
+      // END: cpp
     ]],[
     "php", [
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
@@ -2393,6 +2421,8 @@ export const template: SidebarInfoTemplate = {
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
       // END: 2024terraform
       "a-beginners-guide-to-terraform-infrastructure-as-code-in-practice", // 2025-01-04
+      "automate-alert-provisioning-with-the-signoz-terraform-provider", // 2025-03-18
+      // END: 2025terraform
       // END: terraform
     ]],[
     "travis-ci", [
@@ -2478,6 +2508,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "mysql", [
       "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
+      // END: 2024mysql
+      // END: 2025mysql
+      // END: mysql
     ]],[
     "postgres", [
       "postgresql-indexing-strategies", // 2023-05-12
@@ -2543,6 +2576,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
       // END: 2024r
       "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
+      "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
       // END: 2025r
       // END: r
     ]],[

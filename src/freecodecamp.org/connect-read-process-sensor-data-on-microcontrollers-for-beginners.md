@@ -2,17 +2,19 @@
 lang: en-US
 title: "How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
 description: "Article(s) > How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
-icon: iconfont icon-stm32
+icon: iconfont icon-st-microelectronics
 category:
   - Hardware
-  - STM32
+  - STM
   - Youtube
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
   - hardware
-  - stm32
+  - st
+  - st-microelectronics
+  - stm
   - computer
 head:
   - - meta:
@@ -22,7 +24,7 @@ head:
       content: "How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html
-prev: /hw/stm32/articles/README.md
+prev: /hw/stm/articles/README.md
 date: 2025-03-15
 isOriginal: false
 author:
@@ -35,9 +37,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741902732575/fd41a2d
 
 ```component VPCard
 {
-  "title": "STM32 > Article(s)",
+  "title": "STM > Article(s)",
   "desc": "Article(s)",
-  "link": "/hw/stm32/articles/README.md",
+  "link": "/hw/stm/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -104,7 +106,7 @@ To get the most out of this article, you should have:
 
 Also, this article assumes the following:
 
-- You are working with a microcontroller equipped with the peripherals needed for sensor integration. The details of microcontroller peripherals can be found in a [<FontIcon icon="fas fa-globe"/>reference manual for example for an STM32F4](https://pdf.xab3.ro/manual/reference-manual-for-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-mcus-100) series microcontroller will have all the details :
+- You are working with a microcontroller equipped with the peripherals needed for sensor integration. The details of microcontroller peripherals can be found in a [<FontIcon icon="fas fa-globe"/>reference manual for example for an STMF4](https://pdf.xab3.ro/manual/reference-manual-for-stmf405415-stmf407417-stmf427437-and-stmf429439-mcus-100) series microcontroller will have all the details :
 - You are familiar with compilers, debuggers, and IDEs used in embedded systems. Some common tools include:
   - Compilers: [<FontIcon icon="fas fa-globe"/>GCC](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads), [<FontIcon icon="fas fa-globe"/>Clang](https://developer.arm.com/documentation/dui0773/l/Introducing-the-Toolchain/Toolchain-overview?lang=en),
   - Debuggers: [<FontIcon icon="fas fa-globe"/>GDB](https://sourceware.org/gdb/), [<FontIcon icon="fas fa-globe"/>LLDB](https://lldb.llvm.org/use/tutorial.html)
