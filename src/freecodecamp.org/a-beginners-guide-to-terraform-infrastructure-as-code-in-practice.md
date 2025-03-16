@@ -10,6 +10,7 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - devops
   - terraform
   - iac
   - amazon-web-services

@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-compone
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/banner.png"/>
 
-There’s a nonzero chance you’ve already used a polymorphic component. Open source [**component libraries**](https://blog.logrocket.com/build-component-library-react-typescript.md) typically implement some sort of polymorphic component.
+There’s a nonzero chance you’ve already used a polymorphic component. Open source [**component libraries**](/blog.logrocket.com/build-component-library-react-typescript.md) typically implement some sort of polymorphic component.
 
 Let’s consider some you may be familiar with: the Chakra UI `as` prop and MUI `component` prop.
 

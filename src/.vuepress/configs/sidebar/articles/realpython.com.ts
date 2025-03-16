@@ -1,5 +1,21 @@
 import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const ADVANCED_GIT_FOR_PYTHONISTAS: SidebarInfoSubgroupTemplate = { // 2018-08-13
+  text: "Advanced Git Tips for Python Developers",
+  collapsible: true,
+  icon: 'iconfont icon-git',
+  subPath: 'advanced-git-for-pythonistas',
+  children: [
+    'README',
+    'revision-selection',
+    'handling-interruptions-git-stash',
+    'comparing-revisions-git-diff',
+    'git-difftool',
+    'changing-history',
+    'resolving-merge-conflicts',
+  ]
+}
+
 const READ_WRITE_FILES_PYTHON: SidebarInfoSubgroupTemplate = { // 2019-02-20
   text: "Reading and Writing Files in Python (Guide)",
   collapsible: true,
@@ -256,6 +272,7 @@ const Y2022: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2022
+    "add-python-to-path", // 2022-09-26
     QUEUE_IN_PYTHON, // 2022-06-29
     "why-close-file-python", // 2022-04-27
     "python-zipfile", // 2022-02-14
@@ -283,6 +300,7 @@ const Y2020: SidebarYeargroupTemplate = {
     PYTHON39_NEW_FEATURES, // 2020-10-05
     PYTHON_DATETIME,// 2020-05-04
     SORTING_ALGORITHMS_PYTHON, // 2020-04-15
+    "any-python", // 2020-03-30
   ]
 }
 
@@ -306,6 +324,7 @@ const Y2018: SidebarYeargroupTemplate = {
     // END: 2018
     "python-while-loop", // 2018-11-07
     "absolute-vs-relative-python-imports", // 2018-09-19
+    ADVANCED_GIT_FOR_PYTHONISTAS, // 2018-08-13
     "documenting-python-code", // 2018-07-25
     "python-histograms", // 2018-07-12
     "python-application-layouts", // 2018-06-04
@@ -351,6 +370,7 @@ export const template: SidebarInfoTemplate = {
       "python-application-layouts", // 2018-06-04
       "python-histograms", // 2018-07-12
       "documenting-python-code", // 2018-07-25
+      ADVANCED_GIT_FOR_PYTHONISTAS, // 2018-08-13
       "absolute-vs-relative-python-imports", // 2018-09-19
       "python-while-loop", // 2018-11-07
       // END: 2018py
@@ -360,6 +380,7 @@ export const template: SidebarInfoTemplate = {
       PYTHON_PRINT, // 2019-08-12
       "python-kwargs-and-args", // 2019-09-04
       // END: 2019py
+      "any-python", // 2020-03-30
       SORTING_ALGORITHMS_PYTHON, // 2020-04-15
       PYTHON_DATETIME,// 2020-05-04
       PYTHON39_NEW_FEATURES, // 2020-10-05
@@ -372,6 +393,7 @@ export const template: SidebarInfoTemplate = {
       "python-zipfile", // 2022-02-14
       "why-close-file-python", // 2022-04-27
       QUEUE_IN_PYTHON, // 2022-06-29
+      "add-python-to-path", // 2022-09-26
       // END: 2022py
       PYTHON_REPL, // 2023-01-25
       PYTHON_DASH, // 2023-02-28
@@ -417,11 +439,17 @@ export const template: SidebarInfoTemplate = {
       // END: py-jupyter
     ]],[
     "git", [ 
+      ADVANCED_GIT_FOR_PYTHONISTAS, // 2018-08-13
+      // END: 201git
+      // END: 2019git
+      // END: 2020git
+      // END: 2021git
+      // END: 2022git
       "terminal-commands", // 2023-02-22
-      // END: 2023sh
-      // END: 2024sh
-      // END: 2025sh
-      // END: sh
+      // END: 2023git
+      // END: 2024git
+      // END: 2025git
+      // END: git
     ]],[
     "sh", [ 
       "terminal-commands", // 2023-02-22

@@ -12,6 +12,7 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - r
   - ai
   - artificial-intelligence
   - llm
@@ -41,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740093558918/453118b
 {
   "title": "R > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/r/articles/README.md",
+  "link": "/data-science/r/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

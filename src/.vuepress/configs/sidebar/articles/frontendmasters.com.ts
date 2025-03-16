@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "overlapping-inline-backgrounds", // 2025-03-18
+    "chilled-out-text-underlines", // 2025-03-12
+    "the-moment-you-need-a-database", // 2025-03-10
     "movies-as-images", // 2025-03-05
     "custom-property-fallbacks", // 2025-02-28
     "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
@@ -289,6 +292,8 @@ export const template: SidebarInfoTemplate = {
       "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
       "custom-property-fallbacks", // 2025-02-28
       "movies-as-images", // 2025-03-05
+      "chilled-out-text-underlines", // 2025-03-12
+      "overlapping-inline-backgrounds", // 2025-03-18
       // END: 2025css
       // END: css
     ]], [
@@ -320,7 +325,12 @@ export const template: SidebarInfoTemplate = {
       "figma-typography-variables", // 2024-08-05
       // END: 2024figma
       // END: figma
-    ]], [
+    ]],[
+    "data-science", [
+      "the-moment-you-need-a-database", // 2025-03-10
+      // END: 2025data-science
+      // END: data-science
+    ]],[
     "postgres", [
       "drizzle-database-migrations", // 2024-12-09
       // END: 2024postgres

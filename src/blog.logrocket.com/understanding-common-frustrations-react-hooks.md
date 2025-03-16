@@ -72,7 +72,7 @@ In this article, we’ll go over the common frustrations with React Hooks. We’
 
 ## What problems do React Hooks solve?
 
-Before I detail my frustrations with [**React Hooks**](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/), I want to state for the record that I am, for the most part, a fan of React Hooks.
+Before I detail my frustrations with [**React Hooks**](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/), I want to state for the record that I am, for the most part, a fan of React Hooks.
 <!-- TODO: /blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems.md -->
 
 I often hear that the main reason for the existence of Hooks is to replace class components. Sadly, the main heading in the official React site’s post [<FontIcon icon="fa-brands fa-react"/>introducing Hooks](https://reactjs.org/docs/hooks-intro.html) undersells Hooks with this not-so-bold statement:

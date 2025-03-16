@@ -547,9 +547,9 @@ picturesDir.mkdirs() // Ensure the directory exists
 
 ## 📌 Questions & Answers
 
-::: details 1. What is MediaStore in Android?
+::: details 1. What is <code>MediaStore</code> in Android?
 
-MediaStore is an API that provides structured access to **media files** (images, videos, audio) stored on **external storage**. It allows querying, inserting, and updating media files **without requiring direct file path access**.
+`MediaStore` is an API that provides structured access to **media files** (images, videos, audio) stored on **external storage**. It allows querying, inserting, and updating media files **without requiring direct file path access**.
 
 :::
 
@@ -565,7 +565,7 @@ If your app’s basic functionality requires certain data, such as when your app
 
 :::
 
-::: details 4. What are the advantages of using `MediaStore` over File API?
+::: details 4. What are the advantages of using <code>MediaStore</code> over File API?
 
 ✅ **No storage permission required** (Android 10+).  
 ✅ **Works with scoped storage** (File API does not).  

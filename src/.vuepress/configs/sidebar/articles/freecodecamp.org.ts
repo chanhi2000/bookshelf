@@ -599,11 +599,57 @@ const BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB: SidebarInfoSubgroupTemplate =
   ]
 }
 
+const THE_WEB_ACCESSIBILITY_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-03-19
+  text: 'Everything You Need to Know About Web Acessibility',
+  collapsible: true,
+  icon: 'fa-brands fa-css3-alt',
+  subPath: 'the-web-accessibility-handbook',
+  children: [
+    'README',
+    'what-is-accessibility',
+    'basic-accessibility-practices',
+    'additional-css-and-javascript-practices',
+    'advanced-accessibility-practices-wai-aria',
+    'multimedia-accessibility',
+    'mobile-accessibility',
+  ]
+}
+
+const PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE: SidebarInfoSubgroupTemplate = { // 2025-03-21
+  text: 'How Python Magic Methods Work: A Practical Guide',
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-magic-methods-practical-guide',
+  children: [
+    'README',
+    'what-are-magic-methods',
+    'object-representation',
+    'operator-overloading',
+    'container-methods',
+    'attribute-access',
+    'context-managers',
+    'callable-objects',
+    'advanced-magic-methods',
+    'performance-considerations',
+    'best-practice',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "learn-api-fundamentals-and-architecture", // 2025-03-22
+    "learn-any-language-with-ai", // 2025-03-21
+    "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
+    PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE, // 2025-03-21
+    "why-security-audits-are-important", // 2025-03-20
+    "how-to-write-effective-prompts-for-ai-agents-using-langbase", // 2025-03-20
+    THE_WEB_ACCESSIBILITY_HANDBOOK, // 2025-03-19
+    "automate-alert-provisioning-with-the-signoz-terraform-provider", // 2025-03-18
+    "how-to-debug-and-prevent-buffer-overflows-in-embedded-systems", // 2025-03-18
+    "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
     "connect-read-process-sensor-data-on-microcontrollers-for-beginners", // 2025-03-15
     "learn-aws-incognito-for-authentication", // 2025-03-14
     "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
@@ -1746,6 +1792,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-full-stack-app-with-nextjs-and-strapi", // 2025-02-05
       "build-an-analytical-dashboard-with-nextjs", // 2025-02-06
       HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
+      "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -1756,13 +1803,24 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-nuxt
       // END: js-nuxt
     ]],[
+    "js-express", [
+      "learn-api-fundamentals-and-architecture", // 2025-03-22
+      // END: 2025js-express
+      // END: js-express
+    ]],[
     "js-nest", [
       "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
       "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
       "how-to-handle-file-uploads-in-nestjs-with-multer", // 2024-08-28
+      // END: 2024js-nest
+      // END: 2025js-nest
+      // END: js-nest
     ]],[
     "js-angular", [
       "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
+      // END: 2024js-angular
+      // END: 2025js-angular
+      // END: js-angular
     ]],[
     "js-astro", [
       "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
@@ -1774,6 +1832,7 @@ export const template: SidebarInfoTemplate = {
       "mobile-app-development-course-with-react-native-supabase-nextjs", // 2024-10-16
       // END: 2024js-supabase
       HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE, // 2025-03-04
+      "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -1781,6 +1840,12 @@ export const template: SidebarInfoTemplate = {
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
       // END: 2024js-gatsby
       // END: js-gatsby
+    ]],[
+    "js-graphql", [
+      // END: 2024js-graphql
+      "learn-api-fundamentals-and-architecture", // 2025-03-22
+      // END: 2025js-graphql
+      // END: js-graphql
     ]],[
     "js-mermaid", [
       "diagrams-as-code-with-mermaid-github-and-vs-code", // 2023-09-07
@@ -1922,6 +1987,7 @@ export const template: SidebarInfoTemplate = {
       "vyper-and-python-smart-contracts-on-blockchain-course", // 2025-02-04
       CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
       "what-is-polymorphism-in-python-example", // 2025-02-07
+      PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE, // 2025-03-21
       // END: 2025py
       // END: py
     ]],[
@@ -2065,6 +2131,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "cs-blazor", [
       "use-local-storage-in-blazor-apps", // 2024-07-29
+      // END: cs-blazor
     ]],[
     "cs-unity", [
       "create-a-simple-mmo-game-in-unity", // 2025-03-06
@@ -2074,21 +2141,28 @@ export const template: SidebarInfoTemplate = {
     "c", [
       "complete-c-programming-course-from-dr-chuck", // 2024-05-30
       "how-to-create-linux-device-drivers", // 2024-10-03
+      // END: 2024c
+      "how-to-debug-and-prevent-buffer-overflows-in-embedded-systems", // 2025-03-18
+      // END: 2025c
+      // END: c
     ]],[
     "cpp", [
       "sorting-algorithms-explained-with-examples-in-python-java-and-c", // 2019-12-05
       "search-algorithms-explained-with-examples-in-java-python-and-c", // 2019-12-14
-      // END: 2019
-      // END: 2020
+      // END: 2019cpp
+      // END: 2020cpp
       "understanding-sorting-algorithms", // 2021-06-18
-      // END: 2021
+      // END: 2021cpp
       "bubble-sort-algorithm-in-java-cpp-python-with-example-code", // 2022-09-30
-      // END: 2022
-      // END: 2023
+      // END: 2022cpp
+      // END: 2023cpp
       "run-sql-like-queries-on-cplusplus-files", // 2024-05-02
       "learn-cuda-programming", // 2024-09-24
       "understand-how-expressjs-works-by-building-your-own-server-multiplexer-from-scratch", // 2024-10-03
       "how-to-use-switch-case-in-arduino-control-leds", // 2024-10-08
+      // END: 2024cpp
+      // END: 2025cpp
+      // END: cpp
     ]],[
     "php", [
       "how-to-create-an-ecommere-website-using-woocomerce", // 2022-03-03
@@ -2393,6 +2467,8 @@ export const template: SidebarInfoTemplate = {
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
       // END: 2024terraform
       "a-beginners-guide-to-terraform-infrastructure-as-code-in-practice", // 2025-01-04
+      "automate-alert-provisioning-with-the-signoz-terraform-provider", // 2025-03-18
+      // END: 2025terraform
       // END: terraform
     ]],[
     "travis-ci", [
@@ -2431,6 +2507,7 @@ export const template: SidebarInfoTemplate = {
       "beginners-guide-to-penetration-testing-cybersecurity", // 2025-02-08
       "ssh-authentication-with-github-under-the-hood", // 2025-02-13
       "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
+      "why-security-audits-are-important", // 2025-03-20
       // END: 2025security
       // END: security
     ]],[
@@ -2478,6 +2555,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "mysql", [
       "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
+      // END: 2024mysql
+      // END: 2025mysql
+      // END: mysql
     ]],[
     "postgres", [
       "postgresql-indexing-strategies", // 2023-05-12
@@ -2543,6 +2623,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-weather-app-with-r-shiny", // 2024-12-10
       // END: 2024r
       "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
+      "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
       // END: 2025r
       // END: r
     ]],[
@@ -2598,6 +2679,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024system-design
       "cold-start-problem-in-recommender-systems", // 2025-02-26
       "learn-software-design-basics", // 2025-03-08
+      "learn-api-fundamentals-and-architecture", // 2025-03-22
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -2651,6 +2733,7 @@ export const template: SidebarInfoTemplate = {
       "ai-engineering-roadmap", // 2025-02-07
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
       "learn-machine-learning-concepts-plus-generative-ai", // 2025-03-06
+      "how-to-write-effective-prompts-for-ai-agents-using-langbase", // 2025-03-20
       // END: 2025llm
       // END: llm
     ]],[

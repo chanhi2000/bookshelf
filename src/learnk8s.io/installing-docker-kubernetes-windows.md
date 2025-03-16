@@ -38,7 +38,7 @@ cover: https://static.learnk8s.io/3cdf8a189b55c44662936ce7b35ea160.svg
 {
   "title": "Windows > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/windows/articles/README.md",
+  "link": "/devops/win/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

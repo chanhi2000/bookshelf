@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/debug-react-apps-react-devtools/banner.p
 
 ::: note Editor’s Note
 
-This article on debugging React applications with React Developer Tools was last revised on 8 February 2023 to reflect recent updates to React Developer Tools and include React Hooks-related features. To learn more about React Hooks check out our [**cheat sheet here**](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/).
+This article on debugging React applications with React Developer Tools was last revised on 8 February 2023 to reflect recent updates to React Developer Tools and include React Hooks-related features. To learn more about React Hooks check out our [**cheat sheet here**](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/).
 <!-- TODO: /blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems.md -->
 
 :::

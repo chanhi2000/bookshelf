@@ -357,7 +357,7 @@ There are some caveats to this method:
 
 ### Forcing an update on a function component
 
-There’s no official API to re-render a function component, nor is there a [**React Hook**](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/) to do so. However, there are some clever tricks to signal to React that a component should be updated.
+There’s no official API to re-render a function component, nor is there a [**React Hook**](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/) to do so. However, there are some clever tricks to signal to React that a component should be updated.
 <!-- END: /blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems.md -->
 
 ### Replace state objects with a new instance of themselves

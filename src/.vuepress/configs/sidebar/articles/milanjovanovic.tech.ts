@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
+    "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
     "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
     "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
     "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
@@ -303,6 +305,7 @@ export const template: SidebarInfoTemplate = {
       "building-a-better-mediatr-publisher-with-channels-and-why-you-shouldnt", // 2025-02-22
       "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
       "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
+      "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
       // END: 2025cs
       // END: cs
     ]],[
@@ -330,6 +333,9 @@ export const template: SidebarInfoTemplate = {
     "github", [
       "how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet", // 2023-05-27
       "testcontainers-integration-testing-using-docker-in-dotnet", // 2023-09-02
+      // END: 2023github
+      "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
+      // END: 2025github
       // END: github
     ]],[
     "aws", [
@@ -338,6 +344,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "azure", [
       "messaging-made-easy-with-azure-service-bus", // 2023-02-11
+      // END: 2023azure
+      // END: 2024azure
+      "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
+      // END: 2025azure
+      // END: azure
     ]],[
     "postgres", [
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16

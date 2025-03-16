@@ -61,7 +61,7 @@ cover: https://www.tecmint.com/wp-content/uploads/2020/09/Install-Linux-on-Windo
 {
   "title": "Windows > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/windows/articles/README.md",
+  "link": "/devops/win/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

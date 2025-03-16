@@ -11,8 +11,9 @@ tag:
   - blog
   - freecodecamp.org
   - ai
+  - artificial-intelligence
   - llm
-  - large-language-model
+  - large-language-models
 head:
   - - meta:
     - property: og:title
