@@ -37,11 +37,54 @@ const BUILD_STRONGLY_TYPED_POLYMORPHIC_COMPONENTS_REACT_TYPESCRIPT: SidebarInfoS
   ]
 }
 
+const HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT: SidebarInfoSubgroupTemplate = { // 2023-06-21
+  text: 'How to create a custom toast component with React',
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'how-to-create-custom-toast-component-react',
+  children: [
+    'README',
+    'setting-up-our-react-application',
+    'selecting-icons-for-our-toast-notifications',
+    'creating-a-react-toast-component',
+    'structuring-toast-list-components',
+    'creating-the-toastlist-component-react',
+    'implementing-toast-and-toastlist-components',
+    'displaying-toast-notifications-using-the-showtoast-method',
+    'deleting-toast-notifications',
+    'positioning-toast-notifications',
+  ]
+}
+
+const HOW_TO_USE_CSS_VARIABLES: SidebarInfoSubgroupTemplate = { // 2025-03-20
+  text: 'How to use CSS variables like a pro',
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'how-to-use-css-variables',
+  children: [
+    'README',
+    'how-to-declare-and-use-css-variables',
+    'project-1-building-button-variations',
+    'project-2-setting-css-variables-dynamically-with-javascript',
+    'project-3-handling-responsive-design-features',
+    'project-4-generating-javascript-free-dynamic-elements',
+    'css-variables-vs-sass-variables',
+    'advanced-techniques-using-css-variables-in-animations',
+    'browser-support-for-the-css-variables-feature',
+    'common-mistakes-troubleshooting-css-variables',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    HOW_TO_USE_CSS_VARIABLES, // 2025-03-20
+    "cursor-css-property", // 2025-03-03
+    "react-select-comprehensive-guide", // 2025-03-03
+    "build-custom-react-native-turbo-module-android", // 2025-02-27
+    "curl-measure-rtt", // 2025-02-26
     "react-memo", // 2025-02-26
     "react-usecallback", // 2025-02-26
     "the-virtual-dom-react", // 2025-02-26
@@ -84,6 +127,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "axios-vs-fetch-best-http-requests", // 2024-11-21
     "build-micro-frontend-application-react", // 2024-11-04
     "build-component-library-react-typescript", // 2024-10-23
+    "building-microservices-node-js", // 2024-10-22
     "build-rest-api-node-express-mysql", // 2024-10-21
     "understanding-redux-tutorial-examples", // 2024-10-17
     "six-things-you-may-not-know-about-javascript", // 2024-10-16
@@ -98,6 +142,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "modern-api-data-fetching-methods-react", // 2024-03-01
     "building-high-performance-ecommerce-sites-astro", // 2024-02-28
     "understanding-axios-get-requests", // 2024-02-09
+    "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
     "react-conditional-rendering-9-methods", // 2024-01-10
   ]
 }
@@ -122,7 +167,11 @@ const Y2023: SidebarYeargroupTemplate = {
     "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
     "best-headless-cms-platforms", // 2023-07-05
     "declaring-jsx-types-typescript-5-1", // 2023-06-26
+    HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
+    "building-reusable-ui-components-with-react-hooks", // 2023-05-16
+    "understanding-prioritize-react-ui-updates", // 2023-04-17
     "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
+    "getting-started-with-create-react-app", // 2023-03-28
     "exploring-anime-js-example-site-animation-project", // 2023-03-06
     "rendering-large-lists-react-virtualized", // 2023-03-01
     "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
@@ -142,6 +191,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "immutability-react-should-you-mutate-objects", // 2022-10-14
     "a-guide-to-css-pseudo-elements", // 2022-09-29
     "hsl-hsla-vs-rgb-rgba-css", // 2022-09-16
+    "deep-dive-css-individual-transform-properties", // 2022-09-09
     "guide-choosing-right-react-state-management-solution", // 2022-09-09
     "css-style-button-accessibility", // 2022-09-07
     "full-stack-bud-go", // 2022-08-31
@@ -173,6 +223,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "whats-new-django-v4", // 2021-12-30
     "making-django-migrations-python", // 2021-12-17
     "why-your-css-fails", // 2021-12-01
+    "fundamentals-functional-programming-react", // 2021-11-15
     "using-axios-all-make-concurrent-requests", // 2021-10-26
     "animations-react-hooks-greensock", // 2021-10-13
     "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
@@ -187,6 +238,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "understanding-common-frustrations-react-hooks", // 2021-04-26
     "javascript-generators-the-superior-async-await", // 2021-04-14
     "es-modules-in-node-today", // 2021-03-03
+    "react-memo-vs-usememo", // 2021-02-18
     "managing-react-state-zustand", // 2021-02-14
     "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
     "avoiding-common-mistakes-in-react-hooks", // 2021-01-07
@@ -198,6 +250,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "how-the-virtual-dom-works-in-vue-js", // 2020-12-03
     "why-you-should-adopt-react-hooks-instead-of-classes", // 2020-11-12
     "understanding-asynchronous-javascript", // 2020-11-06
     "benchmarking-bundlers-2020-rollup-parcel-webpack", // 2020-10-07
@@ -205,6 +258,7 @@ const Y2020: SidebarYeargroupTemplate = {
     "web-animation-with-html-css-and-javascript", // 2020-09-30
     "react-reference-guide-refs-dom", // 2020-09-04
     "understanding-promise-all-in-javascript", // 2020-08-20
+    "getting-started-with-vite", // 2020-07-03
     "comparing-javascript-animation-libraries", // 2020-04-22
     BUILDING_STYLING_TABLES_REACT_TABLE_V7, // 2020-04-02
     "colors-in-css-present-and-future", // 2020-01-15
@@ -236,10 +290,15 @@ export const template: SidebarInfoTemplate = {
   faviconPath: "/assets/image/blog.logrocket.com/favicon.png",
   linksMap: new Map([
     [
+    "java-android", [
+      "build-custom-react-native-turbo-module-android", // 2025-02-27
+      // END: 2025java-android
+      // END: java-android
+    ]],[
     "java-spring", [
       "dependency-inversion-principle", // 2025-02-20
-      // END: 2025java
-      // END: java
+      // END: 2025java-spring
+      // END: java-spring
     ]],[
     "js", [
       "how-to-manipulate-css-colors-with-javascript", // 2019-03-12
@@ -286,6 +345,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js-node", [
       "comparing-javascript-animation-libraries", // 2020-04-22
+      "getting-started-with-vite", // 2020-07-03
       // END: 2020js-node
       "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
       "es-modules-in-node-today", // 2021-03-03
@@ -299,6 +359,7 @@ export const template: SidebarInfoTemplate = {
       "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
       // END: 2023js-node
       "commonjs-vs-es-modules-node-js", // 2024-06-06
+      "building-microservices-node-js", // 2024-10-22
       // END: 2024js-node
       "leveraging-parallel-computing-node-js", // 2025-02-13
       "guide-node-js-readable-streams", // 2025-02-25
@@ -314,6 +375,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020js-react
       "avoiding-common-mistakes-in-react-hooks", // 2021-01-07
       "managing-react-state-zustand", // 2021-02-14
+      "react-memo-vs-usememo", // 2021-02-18
       "using-state-machines-with-xstate-and-react", // 2021-05-04
       "understanding-common-frustrations-react-hooks", // 2021-04-26
       "usestate-vs-useref", // 2021-05-24
@@ -323,6 +385,7 @@ export const template: SidebarInfoTemplate = {
       "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
       "animations-react-hooks-greensock", // 2021-10-13
       "using-axios-all-make-concurrent-requests", // 2021-10-26
+      "fundamentals-functional-programming-react", // 2021-11-15
       // END: 2021js-react
       BUILD_STRONGLY_TYPED_POLYMORPHIC_COMPONENTS_REACT_TYPESCRIPT, // 2022-05-25
       "render-large-lists-react-5-methods-examples", // 2022-07-14
@@ -338,7 +401,11 @@ export const template: SidebarInfoTemplate = {
       "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
       "improve-react-ux-skeleton-ui", // 2022-02-28
       "rendering-large-lists-react-virtualized", // 2023-03-01
+      "getting-started-with-create-react-app", // 2023-03-28
       "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
+      "understanding-prioritize-react-ui-updates", // 2023-04-17
+      "building-reusable-ui-components-with-react-hooks", // 2023-05-16
+      HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
       "declaring-jsx-types-typescript-5-1", // 2023-06-26
       "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
       "build-react-reusable-components-faster-aspect", // 2022-07-13
@@ -373,6 +440,8 @@ export const template: SidebarInfoTemplate = {
       "the-virtual-dom-react", // 2025-02-26
       "react-usecallback", // 2025-02-26
       "react-memo", // 2025-02-26
+      "build-custom-react-native-turbo-module-android", // 2025-02-27
+      "react-select-comprehensive-guide", // 2025-03-03
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -382,6 +451,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-next
       // END: 2025js-next
       // END: js-next
+    ]],[
+    "js-vue", [
+      "how-the-virtual-dom-works-in-vue-js", // 2020-12-03
+      // END: 2020js-vue
+      // END: 2021js-vue
+      // END: 2022js-vue
+      // END: 2023js-vue
+      // END: 2024js-vue
+      // END: 2025js-vue
+      // END: js-vue
     ]],[
     "js-svelte", [
       "full-stack-bud-go", // 2022-08-31
@@ -466,17 +545,21 @@ export const template: SidebarInfoTemplate = {
       "deep-dive-css-specificity", // 2022-02-24
       "css-important-declaration-when-why", // 2022-04-06
       "css-style-button-accessibility", // 2022-09-07
+      "deep-dive-css-individual-transform-properties", // 2022-09-09
       "hsl-hsla-vs-rgb-rgba-css", // 2022-09-16
       "a-guide-to-css-pseudo-elements", // 2022-09-29
       // END: 2022css
       "creating-typewriter-animation-css", // 2023-01-12
       "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
       // END: 2023css
+      "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
       "understanding-css-revert-layer", // 2024-04-24
       // END: 2024css
       "improve-ux-with-scroll-select-box", // 2025-02-07
       "box-shadow-css", // 2025-02-19
       "css-grid-template-columns", // 2025-02-25
+      "cursor-css-property", // 2025-03-03
+      HOW_TO_USE_CSS_VARIABLES, // 2025-03-20
       // END: 2025css
       // END: css
     ]],[
@@ -524,6 +607,17 @@ export const template: SidebarInfoTemplate = {
       // END: 2024mysql
       // END: 2025mysql
       // END: mysql
+    ]],[
+    "mongodb", [
+      "building-microservices-node-js", // 2024-10-22
+      // END: 2024mongodb
+      // END: 2025mongodb
+      // END: mongodb
+    ]],[
+    "curl", [
+      "curl-measure-rtt", // 2025-02-26
+      // END: 2025curl
+      // END: curl
     ]],[
     "system-design", [
       // END: 2024system-design

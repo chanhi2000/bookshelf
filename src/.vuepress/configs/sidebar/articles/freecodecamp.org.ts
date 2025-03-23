@@ -640,6 +640,16 @@ text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "host-llms-locally-in-docker-on-azure", // 2025-03-27
+    "what-is-site-reliability-engineering", // 2025-03-27
+    "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
+    "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
+    "observability-in-cloud-native-applications", // 2025-03-26
+    "how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors", // 2025-03-26
+    "how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices", // 2025-03-26
+    "host-a-static-website-on-aws-s3-and-cloudfront", // 2025-03-25
+    "how-to-use-testcontainers-in-net", // 2025-03-26
+    "create-a-send-email-function-using-nodemailer-and-oauth2", // 2025-03-25
     "learn-api-fundamentals-and-architecture", // 2025-03-22
     "learn-any-language-with-ai", // 2025-03-21
     "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
@@ -1748,6 +1758,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-zod-for-react-api-validation", // 2025-03-01
       "how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase", // 2025-03-02
       "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
+      "create-a-send-email-function-using-nodemailer-and-oauth2", // 2025-03-25
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -1889,6 +1900,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024css
       "build-a-simple-portfolio-website-with-html-and-css", // 2025-01-14
       "how-to-programmatically-highlight-text-with-the-css-custom-highlight-api", // 2025-01-16
+      "how-to-use-testcontainers-in-net", // 2025-03-26
       // END: 2025css
       // END: css
     ]],[
@@ -1988,6 +2000,7 @@ export const template: SidebarInfoTemplate = {
       CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK, // 2025-02-06
       "what-is-polymorphism-in-python-example", // 2025-02-07
       PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE, // 2025-03-21
+      "how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices", // 2025-03-26
       // END: 2025py
       // END: py
     ]],[
@@ -2029,6 +2042,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024py-pandas
       "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
       "learn-software-design-basics", // 2025-03-08
+      "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -2037,6 +2051,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2024py-jupyter
       // END: 2025py-jupyter
       // END: py-jupyter
+    ]],[
+    "py-matplotlib", [
+      "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
+      // END: 2025py-matplotlib
+      // END: py-matplotlib
     ]],[
     "dart", [
       "how-to-develop-a-flutter-app-from-scratch", // 2024-04-26
@@ -2104,6 +2123,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "go-prometheus", [
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
+      "observability-in-cloud-native-applications", // 2025-03-26
       // END: 2025go-prometheus
     ]],[
     "cs", [
@@ -2280,6 +2300,8 @@ export const template: SidebarInfoTemplate = {
     "devops", [
       "how-to-choose-a-cloud-development-environment", // 2025-02-05
       "speed-up-website-loading", // 2025-02-25
+      "observability-in-cloud-native-applications", // 2025-03-26
+      "what-is-site-reliability-engineering", // 2025-03-27
       // END: 2025devops
       // END: devops
     ]],[
@@ -2381,6 +2403,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024docker
       "keycloak-identity-and-access-management", // 2025-01-23
       "containerize-a-nodejs-application-using-docker", // 2025-01-24
+      "host-llms-locally-in-docker-on-azure", // 2025-03-27
       // END: 2025docker
       // END: docker
     ]],[
@@ -2431,6 +2454,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-an-application-with-aws-lambda", // 2025-01-29
       "learn-kubernetes-and-eks-for-deployment", // 2025-02-21
       "learn-aws-incognito-for-authentication", // 2025-03-14
+      "host-a-static-website-on-aws-s3-and-cloudfront", // 2025-03-25
+      "how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors", // 2025-03-26
+      "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
       // END: 2025aws
       // END: aws
     ]],[
@@ -2444,6 +2470,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-node-js-app-on-azure", // 2024-07-17
       "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
       "pass-the-azure-ai-engineer-associate-certification-ai-102", // 2024-09-10
+      // END: 2024azure
+      "host-llms-locally-in-docker-on-azure", // 2025-03-27
+      // END: 2025azure
+      // END: azure
     ]],[
     "gcp", [
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
@@ -2614,6 +2644,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "graphql", [
       "integrate-wordpress-with-nextjs", // 2024-10-02
+      // END: 2024graphql
+      "how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors", // 2025-03-26
+      // END: graphql
     ]],[
     "spark", [
       "pyspark-for-beginners", // 2024-06-26
@@ -2632,6 +2665,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023vscode
       "how-to-deploy-node-js-app-on-azure", // 2024-07-17
       // END: 2024vscode
+      "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
       // END: 2025vscode
       // END: vscode
     ]],[
@@ -2680,6 +2714,7 @@ export const template: SidebarInfoTemplate = {
       "cold-start-problem-in-recommender-systems", // 2025-02-26
       "learn-software-design-basics", // 2025-03-08
       "learn-api-fundamentals-and-architecture", // 2025-03-22
+      "observability-in-cloud-native-applications", // 2025-03-26
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -2734,6 +2769,7 @@ export const template: SidebarInfoTemplate = {
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
       "learn-machine-learning-concepts-plus-generative-ai", // 2025-03-06
       "how-to-write-effective-prompts-for-ai-agents-using-langbase", // 2025-03-20
+      "host-llms-locally-in-docker-on-azure", // 2025-03-27
       // END: 2025llm
       // END: llm
     ]],[
