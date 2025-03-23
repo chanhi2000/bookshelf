@@ -117,7 +117,7 @@ There is a draft for `reading-flow` that [<FontIcon icon="fas fa-globe"/>Rachel 
 {
   "title": "A progress update on reading-flow – Rachel Andrew",
   "desc": "There’s a First Public Working Draft of CSS Display 4, which includes the work on the new reading-flow property. The property aims to solve the issue where the source (and therefore tab) order of a page gets disconnected from layout when using CSS grid layout or flexbox.",
-  "link": "https://rachelandrew.co.uk/archives/2024/12/20/a-progress-update-on-reading-flow//",
+  "link": "https://rachelandrew.co.uk/archives/2024/12/20/a-progress-update-on-reading-flow/",
   "logo": "https://rachelandrew.co.uk/wp-content/uploads/2022/07/favicon1.png",
   "background": "rgba(245,246,247,0.2)"
 }
@@ -347,7 +347,7 @@ This is a big wish as it’s not something that browser makers can just *do*. It
 <SiteInfo
   name="CSS Wish List 2025"
   desc="Back in 2023, I belatedly jumped on the bandwagon of people posting their CSS wish lists for the coming year.  This year I’m doing all that again, less belatedly! (I didn’t do it last year because I couldn’t even.  Get it?) I started this post by looking at what I wished for a couple of […]"
-  url="https://meyerweb.com/eric/thoughts/2025/01/08/css-wish-list-2025//"
+  url="https://meyerweb.com/eric/thoughts/2025/01/08/css-wish-list-2025/"
   logo="https://meyerweb.com/favicon.ico"
   preview="https://meyerweb.com/ui/i/hamonshu/fb-og-image.png"/>
 

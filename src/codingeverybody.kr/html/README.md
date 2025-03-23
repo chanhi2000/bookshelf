@@ -179,6 +179,6 @@ HTML 요소와 관련 구문 및 서식은 HTML 표준(권고)안에 따라 계�
 <SiteInfo
   name="W3C and WHATWG to work together to advance the open Web platform"
   desc="The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards."
-  url="https://w3.org/blog/2019/w3c-and-whatwg-to-work-together-to-advance-the-open-web-platform//"
+  url="https://w3.org/blog/2019/w3c-and-whatwg-to-work-together-to-advance-the-open-web-platform/"
   logo="https://www.w3.org/favicon.ico"
   preview="https://w3.org/assets/website-2021/images/w3c-opengraph-image.png"/>

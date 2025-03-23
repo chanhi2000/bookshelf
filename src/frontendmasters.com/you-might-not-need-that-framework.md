@@ -104,7 +104,7 @@ Gain speed and simplicity in writing web apps by taking a “vanilla” approach
 <SiteInfo
   name="Comprehensive Guide to Vanilla JavaScript | Build Efficient Web Apps"
   desc="Explore Vanilla JavaScript core concepts, work with DOM APIs, handle events, and build a web application from scratch. Delve into advanced topics like SPA routing, web components, and reactive programming."
-  url="https://frontendmasters.com/courses/vanilla-js-apps//"
+  url="https://frontendmasters.com/courses/vanilla-js-apps/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2023-07-06-vanilla-js-apps/posterframe.jpg"/>
 
@@ -212,7 +212,7 @@ How often have you searched for a plugin to handle a specific feature, like geol
 <SiteInfo
   name="JavaScript Design Patterns for Web Apps | Vanilla JS, SPA & MPA Techniques"
   desc="Implement classic patterns like Singleton, Factory, and Observer alongside modern patterns for single-page and multi-page architectures to build robust, efficient web apps using pure JavaScript."
-  url="https://frontendmasters.com/courses/js-design-patterns//"
+  url="https://frontendmasters.com/courses/js-design-patterns/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-08-13-js-design-patterns/posterframe.jpg"/>
 
@@ -223,7 +223,7 @@ Architect scalable web apps by applying design patterns in JavaScript! Implement
 <SiteInfo
   name="A Tour of Web Capabilities | From Basic to Advanced Browser APIs"
   desc="Explore what is possible with new Web APIs! Browsers can do so much now, including speech recognition, geolocation, OS integration, face detection, augmented reality, and reading from sensors, external hardware, and devices!"
-  url="https://frontendmasters.com/courses/device-web-apis//"
+  url="https://frontendmasters.com/courses/device-web-apis/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2023-07-11-device-web-apis/posterframe.jpg"/>
 
@@ -234,7 +234,7 @@ Explore APIs you may not realize exist on the web! Get an overview of new Web AP
 <SiteInfo
   name="Build Progressive Web Apps (PWAs) | Offline-Capable, Cross-Platform Development"
   desc="Create installable web apps with the power of Progressive Web Apps (PWAs). Build native app-like experiences with icons and splash screens tailored for all mobile and desktop platforms!"
-  url="https://frontendmasters.com/courses/pwas-v2//"
+  url="https://frontendmasters.com/courses/pwas-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-08-27-pwas-v2/posterframe.jpg"/>
 

@@ -63,7 +63,7 @@ Brad Frost was [<FontIcon icon="fas fa-globe"/>blogging about them](https://brad
 <SiteInfo
   name="The UX of login codes"
   desc="I could do a deep dive into the UX of login codes, but I'll do my best to keep it short. If your product texts/emails login codes, the experience better be amazing. The text/email never comes. You find yourself in limbo and eventually have to go fishing for the ”Didn't get your code?"
-  url="https://bradfrost.com/blog/post/the-ux-of-login-codes//"
+  url="https://bradfrost.com/blog/post/the-ux-of-login-codes/"
   logo="https://bradfrost.com/favicon.ico"
   preview="https://bradfrost.com/wp-content/uploads/2025/01/Screenshot-2025-01-14-at-9.13.07 AM.png"/>
 

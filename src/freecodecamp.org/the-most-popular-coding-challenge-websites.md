@@ -251,7 +251,7 @@ Kaggle also provides rankings and a nice user profile. You can check out my prof
 <SiteInfo
   name="CodeChef | CodeChef: Practical coding for everyone"
   desc="CodeChef | CodeChef: Practical coding for everyone"
-  url="https://codechef.com//"
+  url="https://codechef.com/"
   logo="https://codechef.com/favicon.ico"
   preview="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png"/>
 
@@ -444,7 +444,7 @@ You will also get your profile page where you can show your progress in problem 
 <SiteInfo
   name="Toph - Competitive Programming Platform"
   desc="Participate in exhilarating programming contests, solve unique algorithm and data structure challenges and be a part of an awesome community."
-  url="https://toph.co//"
+  url="https://toph.co/"
   logo="https://static.toph.co/images/favicon.png?_=6ab34dda79b8b71abded523715725495702acd40"
   preview="https://toph.co/images/og/generic.png"/>
 

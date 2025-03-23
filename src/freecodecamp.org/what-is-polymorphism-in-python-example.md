@@ -269,7 +269,7 @@ Polymorphism is related to many other object-oriented programming principles, su
 <SiteInfo
   name="Python OOP: Object Oriented Programming From Beginner to Pro"
   desc="Everything you need to develop great object oriented software. Classes, objects, polymorphism, SOLID, Design Patterns..."
-  url="https://udemy.com/course/python-oop-object-oriented-programming-from-beginner-to-pro//"
+  url="https://udemy.com/course/python-oop-object-oriented-programming-from-beginner-to-pro/"
   logo="https://udemy.com/staticx/udemy/images/v8/favicon-16x16.png"
   preview="https://img-c.udemycdn.com/course/480x270/6341221_65ef_3.jpg"/>
 

@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Recursion in Python – Real Python"
   desc="A recursive function is one that calls itself. In this video course, you'll see what recursion is, how it works in Python, and under what circumstances you should use it."
-  url="https://realpython.com/courses/python-recursion//"
+  url="https://realpython.com/courses/python-recursion/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/TUT20-Recursion-in-Python_Watermarked.692052217920.jpg"/>
 
@@ -1027,7 +1027,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Recursion in Python – Real Python"
   desc="A recursive function is one that calls itself. In this video course, you'll see what recursion is, how it works in Python, and under what circumstances you should use it."
-  url="https://realpython.com/courses/python-recursion//"
+  url="https://realpython.com/courses/python-recursion/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/TUT20-Recursion-in-Python_Watermarked.692052217920.jpg"/>
 

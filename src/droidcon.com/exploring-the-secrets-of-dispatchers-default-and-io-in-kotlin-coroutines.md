@@ -258,7 +258,7 @@ By matching the right dispatcher to your task type, you can ensure smoother, mor
 <SiteInfo
   name="CoroutineDispatcher"
   desc="Base class to be extended by all coroutine dispatcher implementations."
-  url="https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-dispatcher//"
+  url="https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-dispatcher/"
   logo="https://kotlinlang.org/assets/images/apple-touch-icon-114x114.png?v2"
   preview="https://kotlinlang.org/assets/images/open-graph/docs.png"/>
 

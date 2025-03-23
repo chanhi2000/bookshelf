@@ -1225,7 +1225,7 @@ Here's your medal for reading all the way until the end ❤️
 <SiteInfo
   name="CSS Media Queries Guide | CSS-Tricks"
   desc="CSS Media queries are a way to target browser by certain characteristics, features, and user preferences, then apply styles based on those things."
-  url="https://css-tricks.com/a-complete-guide-to-css-media-queries//"
+  url="https://css-tricks.com/a-complete-guide-to-css-media-queries/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://css-tricks.com/wp-json/social-image-generator/v1/image/319964"/>
 

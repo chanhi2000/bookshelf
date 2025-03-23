@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725110852270/9185d74
 <SiteInfo
   name="Skills You Need to Become a Backend Developer – A Roadmap for Beginners"
   desc="In this guide, I'll discuss the basic skills you need and steps you can take to become a backend developer. I'll give you a simple roadmap that'll help you know where you are and where you should go next. Front End vs Back End Every website has two p..."
-  url="https://freecodecamp.org/news/skills-you-need-to-become-a-backend-developer-roadmap//"
+  url="https://freecodecamp.org/news/skills-you-need-to-become-a-backend-developer-roadmap/"
   logo="https://freecodecamp.org/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1725110852270/9185d74e-4b0f-482f-8cc2-abbfc70a5849.png"/>
 

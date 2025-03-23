@@ -72,7 +72,7 @@ So I appreciate [<FontIcon icon="fas fa-globe"/>Rachel Andrews chiming in on thi
 <SiteInfo
   name="How to Use Baseline Data | 12 Days of Web"
   desc="Learn about using Baseline with fallback strategies and how Baseline can help you decide about polyfills."
-  url="https://12daysofweb.dev/2024/how-to-use-baseline-data//"
+  url="https://12daysofweb.dev/2024/how-to-use-baseline-data/"
   logo="https://12daysofweb.dev/img/favicon.png"
   preview="https://12daysofweb.dev/img/og/how-to-use-baseline-data.png"/>
 

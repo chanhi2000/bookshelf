@@ -125,35 +125,35 @@ The full list is split into subjects. Click on a subject below to go to the rele
 <SiteInfo
   name="1500+ Free Developer and IT Certifications — Class Central"
   desc="Massive list of free certificates and badges for developers in data science, software development, and more."
-  url="https://classcentral.com/report/free-developer-it-certifications//"
+  url="https://classcentral.com/report/free-developer-it-certifications/"
   logo="https://classcentral.com/report/wp-content/themes/blue-steel-v2/public/images/favicon-16x16.png"
   preview="https://classcentral.com/report/wp-content/uploads/2022/02/dev-it-certs.jpg"/>
 
 <SiteInfo
   name="Harvard CS50 Guide: How to Pick the Right Course (with Free Certificate) — Class Central"
   desc="In 2024, Harvard CS50 offers 10 free certificate courses on topics such as computer science, Python, and AI."
-  url="https://classcentral.com/report/harvard-cs50-guide//"
+  url="https://classcentral.com/report/harvard-cs50-guide/"
   logo="https://classcentral.com/report/wp-content/themes/blue-steel-v2/public/images/favicon-16x16.png"
   preview="https://classcentral.com/report/wp-content/uploads/2022/02/harvard-certificate.png"/>
 
 <SiteInfo
   name="40+ Free Certificates from Wolfram U: Expand Your Computational Universe — Class Central"
   desc="Guide to the Wolfram U platform, which offers 220+ hours of courses with a free certificate of completion."
-  url="https://classcentral.com/report/wolfram-u-free-certificates//"
+  url="https://classcentral.com/report/wolfram-u-free-certificates/"
   logo="https://classcentral.com/report/wp-content/themes/blue-steel-v2/public/images/favicon-16x16.png"
   preview="https://classcentral.com/report/wp-content/uploads/2024/07/wolfram-u-free-cert.png"/>
 
 <SiteInfo
   name="10,000+ Free Courses from Tech Giants: Learn from Google, Microsoft, Amazon, and More — Class Central"
   desc="Including thousands of free certificates and badges from these leading big tech companies."
-  url="https://classcentral.com/report/big-tech-free-courses//"
+  url="https://classcentral.com/report/big-tech-free-courses/"
   logo="https://classcentral.com/report/wp-content/themes/blue-steel-v2/public/images/favicon-16x16.png"
   preview="https://classcentral.com/report/wp-content/uploads/2023/11/big-tech-free-courses-banner-10k-update.png"/>
 
 <SiteInfo
   name="8000+ OpenCourseWare Courses from Top Institutions — Class Central"
   desc="Curated collection of thousands of open educational resources from MIT, Stanford, Yale, and more."
-  url="https://classcentral.com/report/ocw-courses//"
+  url="https://classcentral.com/report/ocw-courses/"
   logo="https://classcentral.com/report/wp-content/themes/blue-steel-v2/public/images/favicon-16x16.png"
   preview="https://classcentral.com/report/wp-content/uploads/2023/07/ocw-opencourseware-2024.png"/>
 

@@ -82,7 +82,7 @@ There are several advantages to **modularizing** code in a large application:
 <SiteInfo
   name="Python Modules and Packages Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python modules and packages, which are mechanisms that facilitate modular programming. Modular programming involves breaking a large programming task into smaller, more manageable subtasks or modules. This approach has several advantages, including simplicity, maintainability, and reusability."
-  url="https://realpython.com/quizzes/python-modules-packages//"
+  url="https://realpython.com/quizzes/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-Modules-and-Packages-An-Introduction_Watermarked.20936240a94d.jpg"/>
 
@@ -1178,7 +1178,7 @@ Happy Pythoning!
 <SiteInfo
   name="Python Modules and Packages Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python modules and packages, which are mechanisms that facilitate modular programming. Modular programming involves breaking a large programming task into smaller, more manageable subtasks or modules. This approach has several advantages, including simplicity, maintainability, and reusability."
-  url="https://realpython.com/quizzes/python-modules-packages//"
+  url="https://realpython.com/quizzes/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-Modules-and-Packages-An-Introduction_Watermarked.20936240a94d.jpg"/>
 

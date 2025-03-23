@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Manipulating ZIP Files With Python – Real Python"
   desc="In this video course, you'll learn how to manipulate ZIP files using Python's zipfile module from the standard library. Through hands-on examples, you'll learn how to read, write, compress, and extract files from your ZIP files quickly."
-  url="https://realpython.com/courses/zipfile-python//"
+  url="https://realpython.com/courses/zipfile-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Using-ZIP-Files-With-Python_Watermarked.220b1d6e93a4.jpg"/>
 
@@ -397,7 +397,7 @@ The example above was adapted from [<FontIcon icon="fas fa-globe"/>zipfile — Z
 {
   "title": "zipfile — ZIP Archive Access — PyMOTW 3",
   "desc": "The zipfile module can be used to manipulate ZIP archive files, the format popularized by the PC program PKZIP.",
-  "link": "https://pymotw.com/3/zipfile//",
+  "link": "https://pymotw.com/3/zipfile/",
   "logo": "https://pymotw.com/_static/favicon.png",
   "background": "rgba(41,42,131,0.2)"
 }
@@ -1272,7 +1272,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Manipulating ZIP Files With Python – Real Python"
   desc="In this video course, you'll learn how to manipulate ZIP files using Python's zipfile module from the standard library. Through hands-on examples, you'll learn how to read, write, compress, and extract files from your ZIP files quickly."
-  url="https://realpython.com/courses/zipfile-python//"
+  url="https://realpython.com/courses/zipfile-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Using-ZIP-Files-With-Python_Watermarked.220b1d6e93a4.jpg"/>
 

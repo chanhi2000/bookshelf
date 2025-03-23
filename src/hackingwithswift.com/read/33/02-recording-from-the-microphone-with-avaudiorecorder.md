@@ -335,5 +335,5 @@ At this point your code will run, and I encourage you to try it in the iOS Simul
 
 Note: if you're a less experienced macOS user, you might not know how to navigate to a folder like the one the iOS Simulator uses, because it's hidden by default. For example, you'll get something like this: **file:///Users/twostraws/Library/Developer/CoreSimulator/Devices/E470B24D-5C0C-455F-9726-DC1EAF30D5A4/data/Containers/Data/Application/D5E4C08C-2B1E-40BC-8EBE-97F136D0AFC0/Documents/whistle.m4a** – which hardly trips off the tongue!
 
-The easiest thing to do is copy that to a clipboard, open a Finder window, press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>, and paste it into the box. Now delete the "file://" from the start so that it reads "/Users/yourusername/.....", and "whistle.m4a" from the end, then press Return.
+The easiest thing to do is copy that to a clipboard, open a Finder window, press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>, and paste it into the box. Now delete the "file:/" from the start so that it reads "/Users/yourusername/.....", and "whistle.m4a" from the end, then press Return.
 

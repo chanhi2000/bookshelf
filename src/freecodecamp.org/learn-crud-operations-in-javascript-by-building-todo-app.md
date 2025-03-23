@@ -59,7 +59,7 @@ This is the app we're making today:
 {
   "title": "TODO App",
   "desc": "",
-  "link": "https://crud-application-al9am9v2v-joyshaheb.vercel.app//",
+  "link": "https://crud-application-al9am9v2v-joyshaheb.vercel.app/",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"
 }

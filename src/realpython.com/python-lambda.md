@@ -86,7 +86,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
 <SiteInfo
   name="Python Lambda Functions Quiz – Real Python"
   desc="Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!"
-  url="https://realpython.com/quizzes/python-lambda//"
+  url="https://realpython.com/quizzes/python-lambda/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-Python-Lambda-Functions_Watermarked.2afa4f5ea5d4.jpg"/>
 
@@ -1214,7 +1214,7 @@ Always use a `def` statement instead of an assignment statement that binds a lam
 <SiteInfo
   name="PEP 8 – Style Guide for Python Code | peps.python.org"
   desc="This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.  Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python."
-  url="https://peps.python.org/pep-0008//"
+  url="https://peps.python.org/pep-0008/"
   logo="https://peps.python.org/_static/py.png"
   preview="https://peps.python.org/_static/og-image.png"/>
 
@@ -1248,7 +1248,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
 <SiteInfo
   name="Python Lambda Functions Quiz – Real Python"
   desc="Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!"
-  url="https://realpython.com/quizzes/python-lambda//"
+  url="https://realpython.com/quizzes/python-lambda/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-Python-Lambda-Functions_Watermarked.2afa4f5ea5d4.jpg"/>
 

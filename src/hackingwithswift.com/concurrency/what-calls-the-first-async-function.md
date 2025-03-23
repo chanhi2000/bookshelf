@@ -123,7 +123,7 @@ Here’s how that looks:
 
 ```swift
 struct ContentView: View {
-    @State private var site = "https://"
+    @State private var site = "https:/"
     @State private var sourceCode = ""
 
     var body: some View {

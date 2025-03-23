@@ -85,7 +85,7 @@ You can do a lot with `pip`, but the Python community is very active and has cre
 <SiteInfo
   name="Using Python's pip to Manage Your Projects' Dependencies Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's standard package manager, pip. You'll revisit the ideas behind pip, important commands, and how to install packages."
-  url="https://realpython.com/quizzes/what-is-pip//"
+  url="https://realpython.com/quizzes/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/What-is-PIP_Watermarked.4944e95d83ad.jpg"/>
 
@@ -999,7 +999,7 @@ Here are some other package management tools that are available for Python:
 {
   "title": "Conda Documentation — conda-docs   documentation",
   "desc": "Conda provides package, dependency, and environment management for any language. The following documentation site provides all you need to get started with leveraging the power of conda.",
-  "link": "https://docs.conda.io/en/latest//",
+  "link": "https://docs.conda.io/en/latest/",
   "logo": "https://docs.conda.io/_static/favicon.ico?v=92f50989",
   "background": "rgba(98,174,63,0.2)"
 }
@@ -1105,7 +1105,7 @@ You can install packages from a <FontIcon icon="fas fa-file-lines"/>`requirement
 <SiteInfo
   name="Using Python's pip to Manage Your Projects' Dependencies Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's standard package manager, pip. You'll revisit the ideas behind pip, important commands, and how to install packages."
-  url="https://realpython.com/quizzes/what-is-pip//"
+  url="https://realpython.com/quizzes/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/What-is-PIP_Watermarked.4944e95d83ad.jpg"/>
 

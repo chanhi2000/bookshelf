@@ -1016,7 +1016,7 @@ For more learning resources:
 <SiteInfo
   name="MongoDB Documentation"
   desc="Welcome to the official MongoDB Documentation. Whether you're a developer, database administrator, or just starting your journey with MongoDB, our documentation provides you with the information and knowledge needed to build applications on MongoDB and the Atlas developer data platform."
-  url="https://mongodb.com/docs//"
+  url="https://mongodb.com/docs/"
   logo="https://mongodb.com/docs/assets/favicon.ico"
   preview="http://mongodb.com/docs/assets/meta_generic.png"/>
 
@@ -1024,7 +1024,7 @@ For more learning resources:
 {
   "title": "Index | Node.js v23.9.0 Documentation",
   "desc": "Welcome to the official API reference documentation for Node.js! Node.js is a JavaScript runtime built on the V8 JavaScript engine.",
-  "link": "https://nodejs.org/docs/latest/api//",
+  "link": "https://nodejs.org/docs/latest/api/",
   "logo": "https://nodejs.org/favicon.ico",
   "background": "rgba(9,12,21,0.2)"
 }

@@ -309,7 +309,7 @@ let fruit1 = fruits[0];
 let fruit2 = fruits[1];
 let fruit3 = fruits[2];
 
-console.log(fruit1, fruit2, fruit3); //"Mango" "Pineapple" "Orange"
+console.log(fruit1, fruit2, fruit3); /"Mango" "Pineapple" "Orange"
 ```
 
 This is like repeating the same thing over and over which could become cumbersome. Let's see how this could be distructured to get the first 3 fruits.
@@ -317,7 +317,7 @@ This is like repeating the same thing over and over which could become cumbersom
 ```js
 let [fruit1, fruit2, fruit3] = fruits;
 
-console.log(fruit1, fruit2, fruit3); //"Mango" "Pineapple" "Orange"
+console.log(fruit1, fruit2, fruit3); /"Mango" "Pineapple" "Orange"
 ```
 
 You might be wondering how you could skip data if you just want to print the first and final fruits, or the second and fourth fruits. You would use commas as follows:
@@ -352,7 +352,7 @@ const firstName = Susan.firstName;
 const age = Susan.age;
 const hobby1 = Susan.hobbies.hobby1;
 
-console.log(firstName, age, hobby1); //"Susan" 14 "singing"
+console.log(firstName, age, hobby1); /"Susan" 14 "singing"
 ```
 
 but with destructuring its a lot easier:
@@ -360,14 +360,14 @@ but with destructuring its a lot easier:
 ```js
 const {firstName, age, hobbies:{hobby1}} = Susan;
 
-console.log(firstName, age, hobby1); //"Susan" 14 "singing"
+console.log(firstName, age, hobby1); /"Susan" 14 "singing"
 ```
 
 We can also do this within a function:
 
 ```js
 function individualData({firstName, age, hobbies:{hobby1}}){
-  console.log(firstName, age, hobby1); //"Susan" 14 "singing"
+  console.log(firstName, age, hobby1); /"Susan" 14 "singing"
 }
 individualData(Susan);
 ```
@@ -391,7 +391,7 @@ We could destructure to get the first and second fruits and then place the“res
 ```js
 const [firstFruit, secondFruit, ...rest] = fruits
 
-console.log(firstFruit, secondFruit, rest); //"Mango" "Pineapple" ["Orange","Lemon","Apple"]
+console.log(firstFruit, secondFruit, rest); /"Mango" "Pineapple" ["Orange","Lemon","Apple"]
 ```
 
 Looking at the result, you'll see the first two items and then the third item is an array consisting of the remaining fruits that we didn't destructure. We can now conduct any type of processing on the newly generated array, such as:
@@ -399,7 +399,7 @@ Looking at the result, you'll see the first two items and then the third item is
 ```js
 const chosenFruit = rest.find((fruit) => fruit === "Apple");
 
-console.log(`This is an ${chosenFruit}`); //"This is an Apple"
+console.log(`This is an ${chosenFruit}`); /"This is an Apple"
 ```
 
 It's important to bear in mind that this has to come last always (placement is very important).

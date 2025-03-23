@@ -110,7 +110,7 @@ Common datatypes include `varchar` for data that might contain different charact
 <SiteInfo
   name="Database Data Types | Computer Science"
   desc="A database data type refers to the format of data storage that can hold a distinct type or range of values. Read more of the theory on Database data types or sign up to download our GCSE Computer Science resources today."
-  url="https://teachcomputerscience.com/database-data-types//"
+  url="https://teachcomputerscience.com/database-data-types/"
   logo="https://cdn-ilcffnh.nitrocdn.com/DVKboHyfbHExUdSsZwGLQZVyAFkHRoMi/assets/images/optimized/rev-99a0723/teachcomputerscience.com/wp-content/uploads/2019/07/cropped-logo-192x192.png"
   preview="https://teachcomputerscience.com/wp-content/uploads/2019/08/032-data.png"/>
 
@@ -214,7 +214,7 @@ Structured query language (SQL) is a programming language for storing and proces
 <SiteInfo
   name="What is SQL? - Structured Query Language (SQL) Explained - AWS"
   desc="What is SQL how and why businesses use SQL, and how to use SQL with AWS."
-  url="https://aws.amazon.com/what-is/sql//"
+  url="https://aws.amazon.com/what-is/sql/"
   logo="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico"
   preview="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
 

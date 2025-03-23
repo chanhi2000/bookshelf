@@ -510,7 +510,7 @@ With this new tool in your toolbox, you’ll be able to take your code to the ne
 <SiteInfo
   name="Ruff: A Modern Python Linter Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Ruff, a modern linter for Python. By working through this quiz, you'll revisit why you'd want to use Ruff to check your Python code and how it automatically fixes errors, formats your code, and provides optional configurations to enhance your linting."
-  url="https://realpython.com/quizzes/ruff-python//"
+  url="https://realpython.com/quizzes/ruff-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Showcase-Ruff-Linter_Watermarked.71e600eb11de.jpg"/>
 

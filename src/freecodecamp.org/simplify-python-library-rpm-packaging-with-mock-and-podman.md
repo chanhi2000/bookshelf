@@ -448,7 +448,7 @@ As an added bonus, the fact than you can run it inside Podman gives you even mor
 {
   "title": "Mock",
   "desc": "A ‘simple’ chroot build environment manager for building RPMs.",
-  "link": "https://rpm-software-management.github.io/mock//",
+  "link": "https://rpm-software-management.github.io/mock/",
   "logo": "https://avatars.githubusercontent.com/u/8504469?s=48&v=4",
   "background": "rgba(52,52,52,0.2)"
 }
@@ -485,7 +485,7 @@ As an added bonus, the fact than you can run it inside Podman gives you even mor
 {
   "title": "PyPA specifications - Python Packaging User Guide",
   "desc": "This is a list of currently active interoperability specifications maintained by the Python Packaging Authority. The process for updating these standards, and for proposing new ones, is documented on pypa.io.",
-  "link": "https://packaging.python.org/en/latest/specifications//",
+  "link": "https://packaging.python.org/en/latest/specifications/",
   "logo": "https://packaging.python.org/_static/py.png",
   "background": "rgba(110,163,248,0.2)"
 }

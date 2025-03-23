@@ -78,7 +78,7 @@ If you prefer to use an online REPL, then you also have a few options available:
 <SiteInfo
   name="In-Browser Python REPL - Python Morsels"
   desc="Run an interactive Python interpreter right from your web browser."
-  url="https://pythonmorsels.com/repl//"
+  url="https://pythonmorsels.com/repl/"
   logo="https://pythonmorsels.com/static/images/favicons/favicon-16x16.png"
   preview="https://pythonmorsels.com/static/images/favicons/og-linkedin-image.jpg"/>
 

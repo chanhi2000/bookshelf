@@ -62,7 +62,7 @@ A cybersecurity certification can help you boost your skills and demonstrate you
 <SiteInfo
   name="Certified Ethical Hacker Online Training | CEH Training - EC-Council Learning"
   desc="Certified Ethical Hacker online training is EC-Council's official ethical hacking training and certification course. Get CEH certified with iClass."
-  url="https://iclass.eccouncil.org/our-courses/certified-ethical-hacker-ceh//"
+  url="https://iclass.eccouncil.org/our-courses/certified-ethical-hacker-ceh/"
   logo="https://iclass.eccouncil.org/wp-content/uploads/2019/10/cropped-iclass-favicon-2-192x192.png"
   preview="https://iclass.eccouncil.org/wp-content/uploads/2022/09/CEH2022-Product-Image.png"/>
 

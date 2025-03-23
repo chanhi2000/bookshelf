@@ -89,6 +89,7 @@ This post is the second in a 3-part series on Svelte 5. [Part one](/frontendmas
   "background": "rgba(188,75,52,0.2)"
 }
 ```
+
 :::
 
 If you’d like to see and experiment with the code in this post, [see the GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/svelte-snippets`)](https://github.com/arackaf/svelte-snippets).
@@ -116,8 +117,8 @@ Let’s see how.
 
 We define snippets with the `#snippet` directive. The simplest snippet imaginable looks like this:
 
-```html
- `{#snippet helloWorld()}
+```svelte
+{#snippet helloWorld()}
   <span>Hello World</span>
 {/snippet}
 ```
@@ -130,7 +131,7 @@ That defines the snippet. To render the snippet, we use the `@render` directiv
 
 As you might have guessed, snippets can also receive props, or really, parameters, since snippets are more of a function, than a component. Parameters are listed in the parens, with types if you’re using TypeScript.
 
-```html
+```svelte
 {#snippet productDisplay(p: Product)}
 <div>
   <img src="{p.url}" alt="product url" />
@@ -146,7 +147,7 @@ As you might have guessed, snippets can also receive props, or really, parameter
 
 For example, this simple snippet…
 
-```html
+```svelte
 {#snippet productReview(review: Review)}
 <div>
   <span>{review.date}</span>
@@ -157,7 +158,7 @@ For example, this simple snippet…
 
 … can be used in this bigger snippet:
 
-```html :collapsed-lines
+```svelte :collapsed-lines
 {#snippet productDisplay(p: Product)}
 <div>
   <div>
@@ -179,7 +180,7 @@ For example, this simple snippet…
 
 Then you can reuse that `productDisplay` snippet with different products in your component. Let’s see a minimal, full example:
 
-```html :collapsed-lines
+```svelte :collapsed-lines
 <script lang="ts"> type Review = {
     date: string;
     content: string;
@@ -249,7 +250,7 @@ But the main benefit of snippets is for **injecting content into components**. P
 
 Snippets shine brightest when we pass them into other components. Let’s imagine a (grossly simplified) `DisplayProduct` page. It takes in a product, an optional related product, and a snippet to display a single product. This component will also render content in the header, which we’ll also pass in as a snippet.
 
-```html :collapsed-lines
+```svelte :collapsed-lines
 <script lang="ts"> import type { Snippet } from "svelte";
   import type { Product } from "./types";
 
@@ -279,7 +280,7 @@ The snippet for showing the header I decided to name “children” which has so
 
 Let’s put this component to use:
 
-```html
+```svelte
 {#snippet productDisplay(p: Product)}
 <div>
   <img src="{p.url}" alt="Image of product">
@@ -301,7 +302,7 @@ But notice the content we put directly inside of the `DisplayProduct` tags. If
 
 Let’s take a look at one more authoring convenience Svelte 5 gives us. If we’re just defining a snippet to be passed one time, to one component, Svelte lets us clean the syntax up a bit, like so:
 
-```html
+```svelte
 <DisplayProduct product="{searchedBook}" relatedProduct="{recommendedBook}">
   <h1>Product Display Page</h1>
   {#snippet productDisplay(p: Product)}
@@ -324,7 +325,7 @@ As before, we have our `<h1>` content directly inside of the tags, as children
 
 One nice feature with slots is that you could define default content pretty easily.
 
-```html
+```svelte
 <slot name="header-content">
   <span>Default content</span>
 </slot>
@@ -347,7 +348,7 @@ let { product, relatedProduct, productDisplay, children }: Props = $props();
 
 We have a few straightforward options for falling back to our own default content. We can simply test if we have a value for the snippet right in our template, and render the fallback if not.
 
-```html
+```svelte
 {#if children}
   {@render children()} 
 {:else}
@@ -361,7 +362,7 @@ Or, we can set up our fallback right in our script:
 let productDisplaySnippetToUse: Snippet<[Product]> = productDisplay ?? productDisplayFallback;
 ```
 
-```html
+```svelte
 {#snippet productDisplayFallback(p: Product)}
 <div>
   <img src="{p.url}" alt="product url" />
@@ -374,7 +375,7 @@ let productDisplaySnippetToUse: Snippet<[Product]> = productDisplay ?? productDi
 
 Then we render that:
 
-```js
+```svelte
 {@render productDisplaySnippetToUse(product)}
 ```
 
@@ -387,8 +388,6 @@ Svelte 5 is an exciting release. This post turned to one of the more interesting
 Out with slots, in with snippets.
 
 ::: info Article Series
-
-
 
 ```component VPCard
 {

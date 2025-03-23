@@ -73,7 +73,7 @@ In this quiz, you'll test your understanding of how to use `*args` and `**kwargs
 <SiteInfo
   name="Python args and kwargs: Demystified Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of how to use *args and **kwargs in Python. With this knowledge, you'll be able to add more flexibility to your functions."
-  url="https://realpython.com/quizzes/python-args-and-kwargs//"
+  url="https://realpython.com/quizzes/python-args-and-kwargs/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/args-and-kwargs-in-Python_Watermarked.508ab9494cb5.jpg"/>
 

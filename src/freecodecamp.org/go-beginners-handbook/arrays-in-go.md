@@ -109,8 +109,8 @@ var myArray = [3]string{"First", "Second", "Third"}
 myArrayCopy := myArray
 myArray[2] = "Another"
 
-myArray[2]     //"Another"
-myArrayCopy[2] //"Third"
+myArray[2]     /"Another"
+myArrayCopy[2] /"Third"
 ```
 
 Remember you can only add a single type of items in an array, so setting the `myArray[2] = 2` for example will raise an error.

@@ -635,7 +635,7 @@ To learn more you can visit:
 <SiteInfo
   name="Apache Kafka"
   desc="Apache Kafka: A Distributed Streaming Platform."
-  url="https://kafka.apache.org/documentation//"
+  url="https://kafka.apache.org/documentation/"
   logo="https://kafka.apache.org/images/apache_feather.gif"
   preview="http://apache-kafka.org/images/apache-kafka.png"/>
 

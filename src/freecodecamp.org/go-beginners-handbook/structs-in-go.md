@@ -70,7 +70,7 @@ and we can access the individual fields using the dot syntax:
 
 ```go
 flavio.Age //39
-flavio.Name //"Flavio"
+flavio.Name /"Flavio"
 ```
 
 You can also initialize a new variable from a struct in this way:

@@ -67,16 +67,16 @@ len(name) //4
 You can access individual characters using square brackets, passing the index of the character you want to get:
 
 ```go
-name[0] //"t" (indexes start at 0)
-name[1] //"e"
+name[0] /"t" (indexes start at 0)
+name[1] /"e"
 ```
 
 You can get a portion of the string using this syntax:
 
 ```go
-name[0:2] //"te"
-name[:2]  //"te"
-name[2:]  //"st"
+name[0:2] /"te"
+name[:2]  /"te"
+name[2:]  /"st"
 ```
 
 Using this you can create a copy of the string using:
@@ -102,8 +102,8 @@ var second = first
 
 first = "another test"
 
-first  //"another test"
-second //"test"
+first  /"another test"
+second /"test"
 ```
 
 Strings are reference types, which means if you pass a string to a function, the **reference** to the string will be copied, not its value. But since strings are immutable, in this case it’s not a big difference in practice with passing an `int`, for example.
@@ -114,7 +114,7 @@ You can concatenate two strings using the `+` operator:
 var first = "first"
 var second = "second"
 
-var word = first + " " + second  //"first second"
+var word = first + " " + second  /"first second"
 ```
 
 Go provides several string utilities in the the `strings` package.

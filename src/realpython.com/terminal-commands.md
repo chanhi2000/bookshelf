@@ -70,7 +70,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Using the Terminal on Windows – Real Python"
   desc="In this Code Conversation video course, you'll learn how to use the terminal on Windows. You'll navigate the file system with Philipp and Ian and perform common tasks like creating files and folders. If you've never used the terminal before, then this video course will help you get started."
-  url="https://realpython.com/courses/using-terminal-windows//"
+  url="https://realpython.com/courses/using-terminal-windows/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Using-the-Terminal-on-Windows_Watermarked.673920731e65.jpg"/>
 
@@ -853,7 +853,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Using the Terminal on Windows – Real Python"
   desc="In this Code Conversation video course, you'll learn how to use the terminal on Windows. You'll navigate the file system with Philipp and Ian and perform common tasks like creating files and folders. If you've never used the terminal before, then this video course will help you get started."
-  url="https://realpython.com/courses/using-terminal-windows//"
+  url="https://realpython.com/courses/using-terminal-windows/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Using-the-Terminal-on-Windows_Watermarked.673920731e65.jpg"/>
 

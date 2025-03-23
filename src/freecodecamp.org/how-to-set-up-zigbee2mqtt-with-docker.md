@@ -15,8 +15,8 @@ tag:
   - hardware
   - raspberry-pi
   - iot
-   - devops
-   - docker
+  - devops
+  - docker
 head:
   - - meta:
     - property: og:title

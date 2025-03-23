@@ -135,7 +135,7 @@ Once you know the fundamental layout techniques, [<FontIcon icon="fas fa-globe"/
 <SiteInfo
   name="Figma for Developers: Using Constraints, Auto Layout, Components & CSS Variables Generation"
   desc="Learn to use Figma's developer-friendly features like constraints, auto layout, component properties and CSS generation to efficiently build and translate designs to code. Bridge the gap between design and development."
-  url="https://frontendmasters.com/courses/figma-v2//"
+  url="https://frontendmasters.com/courses/figma-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-06-04-figma-v2/posterframe.jpg"/>
 
@@ -146,7 +146,7 @@ Figma isn’t just for designers—developers can also leverage its powerful fea
 <SiteInfo
   name="Tailwind CSS Course | Build Maintainable User Interfaces with Tailwind"
   desc="Learn Tailwind CSS‘s utility-first approach for responsive, and customizable web designs. Master themes, layers, responsive breakpoints, dark mode, and more to create maintainable user interfaces!"
-  url="https://frontendmasters.com/courses/tailwind-css//"
+  url="https://frontendmasters.com/courses/tailwind-css/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2023-12-13-tailwind-css/posterframe.jpg"/>
 
@@ -157,7 +157,7 @@ Use Tailwind CSS’s utility-first approach to build out entire web designs with
 <SiteInfo
   name="Create Consistent UIs with Storybook: Reusable Components, Testing, and Documentation"
   desc="Learn to create scalable design systems with Storybook. Build reusable UI components, test components, implement dark mode, and generate comprehensive documentation."
-  url="https://frontendmasters.com/courses/design-systems-v2//"
+  url="https://frontendmasters.com/courses/design-systems-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-06-05-design-systems-v2/posterframe.jpg"/>
 
@@ -186,7 +186,7 @@ Rust and Go are both seeing big lifts in usage for server-side work. Rust a bit 
 <SiteInfo
   name="Basics of Go | Learn Go Basics and Get Up to Speed Quickly"
   desc="Get an introduction to Go. Learn basic syntax like variables, constants, data types, and creating and importing packages. Get hands-on with all the necessary features of Go to get up to speed with the language quickly!"
-  url="https://frontendmasters.com/courses/go-basics//"
+  url="https://frontendmasters.com/courses/go-basics/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2023-08-08-go-basics/posterframe.jpg"/>
 
@@ -197,7 +197,7 @@ Get a quick introduction to Go. Learn basic syntax like variables, constants, da
 <SiteInfo
   name="Rust Programming Language Course | Rust Coding"
   desc="Go from zero Rust knowledge to being able to build your own complete Rust programs with Frontend Master's complete Rust course."
-  url="https://frontendmasters.com/courses/rust//"
+  url="https://frontendmasters.com/courses/rust/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2021-05-11-rust/posterframe.jpg"/>
 
@@ -212,7 +212,7 @@ Every major project is in Git and every organization has their own Git-based wor
 <SiteInfo
   name="Everything You'll Need to Know About Git: Become Your Team's Version Control Expert"
   desc="Never face an unsolvable Git problem again. Understand Git's architecture, branching, conflict resolution, and advanced techniques like interactive rebasing, bisecting, worktrees, and the reflog."
-  url="https://frontendmasters.com/courses/everything-git//"
+  url="https://frontendmasters.com/courses/everything-git/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-05-06-everything-git/posterframe.jpg"/>
 
@@ -227,7 +227,7 @@ Go deeper with surrounding topics to round out your knowledge of the fundamental
 <SiteInfo
   name="Learn Containers from Scratch | Basics, Docker, Kubernetes"
   desc="Get an introduction to containers from the ground up. Build a container by hand, then learn Docker, optimization, multi-container projects, and intro to Kubernetes."
-  url="https://frontendmasters.com/courses/complete-intro-containers-v2//"
+  url="https://frontendmasters.com/courses/complete-intro-containers-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-08-06-complete-intro-containers-v2/posterframe.jpg"/>
 
@@ -249,7 +249,7 @@ In this course, you will learn powerful commands, use Ubuntu, quit VIM, handle p
 <SiteInfo
   name="Web Security: Browser security fundamentals | Protect against CSRF, XSS, & SQL Injection"
   desc="Learn to identify and mitigate common vulnerabilities, implement protection strategies, and secure your web applications against various attack vectors."
-  url="https://frontendmasters.com/courses/web-security-v2//"
+  url="https://frontendmasters.com/courses/web-security-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-08-20-web-security-v2/posterframe.jpg"/>
 
@@ -260,7 +260,7 @@ Gain hands-on experience with security tools and pick up best practices for writ
 <SiteInfo
   name="Learn AWS for Front-End Engineers"
   desc="Build an enterprise-grade deployment infrastructure on AWS using S3, Route 53, CloudFront, lambda@edge, and more!"
-  url="https://frontendmasters.com/courses/aws-v2//"
+  url="https://frontendmasters.com/courses/aws-v2/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2022-03-01-aws-v2/posterframe.jpg"/>
 
@@ -275,7 +275,7 @@ If you’re wanting to become a lead or principle developer with a front-end spe
 <SiteInfo
   name="Front-End System Design: Advanced UI, Performance & Architecture Techniques to Ace Interviews"
   desc="Learn best practices for building scalable, high-performance web applications. Deep dive into front-end engineering: DOM APIs, virtualization, state management, and performance."
-  url="https://frontendmasters.com/courses/frontend-system-design//"
+  url="https://frontendmasters.com/courses/frontend-system-design/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2024-07-23-frontend-system-design/posterframe.jpg"/>
 

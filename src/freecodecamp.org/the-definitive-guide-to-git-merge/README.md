@@ -263,14 +263,14 @@ There is much more to be said about merges – different merge strategies, recur
 <SiteInfo
   name="I've Got A Feeling (song)"
   desc="“I’ve Got a Feeling” is a song by the English rock band the Beatles from their 1970 album Let It Be. It was recorded on 30 January 1969 during the..."
-  url="https://the-paulmccartney-project.com/song/ive-got-a-feeling//"
+  url="https://the-paulmccartney-project.com/song/ive-got-a-feeling/"
   logo="https://the-paulmccartney-project.com/_images/favicon-16x16.png"
   preview="https://the-paulmccartney-project.com/_images/artworks/let-it-be/main.jpg"/>
 
 <SiteInfo
   name="Did John Lennon or Paul McCartney Write the Classic 'A Day in the Life'?"
   desc="'A Day in the Life' has been called the greatest Beatles song of all time. Here's which half of the Lennon-McCartney team was mostly behind it."
-  url="https://cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html//"
+  url="https://cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html/"
   logo="https://cheatsheet.com/wp-content/uploads/2021/09/favicon.png"
   preview="https://cheatsheet.com/wp-content/uploads/2019/05/beatles-sgt-peppers.jpg?w=1200"/>
 

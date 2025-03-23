@@ -90,7 +90,7 @@ We have binary (require two arguments) arithmetic operators, like `+`, `-`, `*`,
 `+` can also join strings:
 
 ```go
-"a" + "b" //"ab"
+"a" + "b" /"ab"
 ```
 
 We have unary operators `++` and `--` to increment or decrement a number:

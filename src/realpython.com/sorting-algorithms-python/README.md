@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Introduction to Sorting Algorithms in Python – Real Python"
   desc="In this course, you'll learn all about five different sorting algorithms in Python from both a theoretical and a practical standpoint. You'll also learn several related and important concepts, including Big O notation and recursion."
-  url="https://realpython.com/courses/intro-sorting-algorithms//"
+  url="https://realpython.com/courses/intro-sorting-algorithms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg"/>
 
@@ -182,7 +182,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] Introduction to Sorting Algorithms in Python – Real Python"
   desc="In this course, you'll learn all about five different sorting algorithms in Python from both a theoretical and a practical standpoint. You'll also learn several related and important concepts, including Big O notation and recursion."
-  url="https://realpython.com/courses/intro-sorting-algorithms//"
+  url="https://realpython.com/courses/intro-sorting-algorithms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg"/>
 

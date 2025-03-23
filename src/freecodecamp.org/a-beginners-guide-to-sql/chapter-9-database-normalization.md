@@ -308,7 +308,7 @@ Remember the [<FontIcon icon="fas fa-globe"/>IIF function](https://sqlitetutoria
 <SiteInfo
   name="An Essential Guide to the SQLite IIF() Function"
   desc="In this tutorial, you will learn about the SQLite IIF() function that allows you to add the if-else logic to queries."
-  url="https://sqlitetutorial.net/sqlite-functions/sqlite-iif//"
+  url="https://sqlitetutorial.net/sqlite-functions/sqlite-iif/"
   logo="https://sqlitetutorial.net/wp-content/uploads/2016/05/favicon.png"
   preview="https://sqlitetutorial.net/wp-content/uploads/2018/11/tracks.png"/>
 

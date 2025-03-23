@@ -471,7 +471,7 @@ def main(text, title="Alert"):
  </html>
  """
         home.write(html)
-        path = "file://" + home.name
+        path = "file:/" + home.name
     webbrowser.open(path)
 ```
 

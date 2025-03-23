@@ -84,7 +84,7 @@ To get the most out of this tutorial, you should have a [<FontIcon icon="fas fa-
 <SiteInfo
   name="Basic Input and Output in Python Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's built-in functions for user interaction, namely input() and print(). These functions allow you to capture user input from the keyboard and display output to the console, respectively."
-  url="https://realpython.com/quizzes/python-input-output//"
+  url="https://realpython.com/quizzes/python-input-output/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Basic-Input-Output-and-String-Formatting-in-Python_Watermarked.65ba5b535841.jpg"/>
 
@@ -324,7 +324,7 @@ If you’re on Windows 10 or newer, then you can skip this section. [<FontIcon i
 <SiteInfo
   name="Console Improvements in the Windows 10 Technical Preview"
   desc="This post was written by Rich Eizenhoefer, a Program Manager in the Microsoft Developer Tools and Runtimes team. I have some good news about the Windows command line console, conhost.exe. In this blog post, I’m joined by our two console developers, Michael Niksa and Paul Campbell. We’d like to give you an overview of what’s"
-  url="https://blogs.windows.com/windowsdeveloper/2014/10/07/console-improvements-in-the-windows-10-technical-preview//"
+  url="https://blogs.windows.com/windowsdeveloper/2014/10/07/console-improvements-in-the-windows-10-technical-preview/"
   logo="https://blogs.windows.com/wp-content/uploads/prod/sites/3/2021/06/cropped-browser-icon-logo-192x192.jpg"
   preview="https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/img/theme/logos/windows.jpg"/>
 
@@ -555,7 +555,7 @@ With basic input and output handling skills, you can build interactive Python ap
 <SiteInfo
   name="Basic Input and Output in Python Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's built-in functions for user interaction, namely input() and print(). These functions allow you to capture user input from the keyboard and display output to the console, respectively."
-  url="https://realpython.com/quizzes/python-input-output//"
+  url="https://realpython.com/quizzes/python-input-output/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Basic-Input-Output-and-String-Formatting-in-Python_Watermarked.65ba5b535841.jpg"/>
 

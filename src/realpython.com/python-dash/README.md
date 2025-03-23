@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Data Visualization Interfaces in Python With Dash – Real Python"
   desc="In this course, you'll learn how to build a dashboard using Python and Dash. Dash is a framework for building data visualization interfaces. It helps data scientists build fully interactive web applications quickly."
-  url="https://realpython.com/courses/data-viz-with-dash//"
+  url="https://realpython.com/courses/data-viz-with-dash/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Data-Visualization-With-Dash_Watermarked.b3eae31c557f.jpg"/>
 
@@ -159,7 +159,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Data Visualization Interfaces in Python With Dash – Real Python"
   desc="In this course, you'll learn how to build a dashboard using Python and Dash. Dash is a framework for building data visualization interfaces. It helps data scientists build fully interactive web applications quickly."
-  url="https://realpython.com/courses/data-viz-with-dash//"
+  url="https://realpython.com/courses/data-viz-with-dash/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Data-Visualization-With-Dash_Watermarked.b3eae31c557f.jpg"/>
 

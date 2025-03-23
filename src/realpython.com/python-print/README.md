@@ -177,7 +177,7 @@ If you’re still thirsty for more information, have questions, or simply would 
 <SiteInfo
   name="The Python print() Function Quiz – Real Python"
   desc="In this interactive quiz, you can revisit what you know about Python's print() function. You'll also get to quiz yourself about some of its lesser-known features."
-  url="https://realpython.com/quizzes/python-print//"
+  url="https://realpython.com/quizzes/python-print/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/The-Python-Print-Function_Watermarked.26066d64ad82.jpg"/>
 
@@ -192,7 +192,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="[COURSE] The Python print() Function: Go Beyond the Basics – Real Python"
   desc="In this step-by-step course, you'll learn about the print() function in Python and discover some of its lesser-known features. Avoid common mistakes, take your ”hello world” to the next level, and know when to use a better alternative."
-  url="https://realpython.com/courses/python-print//"
+  url="https://realpython.com/courses/python-print/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/The-Python-Print-Function_Watermarked.26066d64ad82.jpg"/>
 

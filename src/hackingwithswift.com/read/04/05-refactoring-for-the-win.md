@@ -72,7 +72,7 @@ That's an array containing the websites we want the user to be able to visit.
 With that array, we can modify the web view's initial web page so that it's not hard-coded. In `viewDidLoad()`, change the initial web page to this:
 
 ```swift
-let url = URL(string: "https://" + websites[0])!
+let url = URL(string: "https:/" + websites[0])!
 webView.load(URLRequest(url: url))
 ```
 

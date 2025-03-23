@@ -101,7 +101,7 @@ A shallow copy successfully copies [<FontIcon icon="fas fa-globe"/>primitive typ
 <SiteInfo
   name="JavaScript Types"
   desc="You might sometimes read that JS is untyped, but that's incorrect. It's true that you can assign all sorts of different types to a variable, but JavaScript has types. In particular, it provides primitive types, and object types."
-  url="https://flaviocopes.com/javascript-types//"
+  url="https://flaviocopes.com/javascript-types/"
   logo="https://flaviocopes.com/img/favicon-16x16.png"
   preview="https://flaviocopes.com/og.jpg"/>
 

@@ -97,7 +97,7 @@ One of the most important skills you need to build as a Python developer is to b
 <SiteInfo
   name="How to Run Your Python Scripts Quiz – Real Python"
   desc="One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code."
-  url="https://realpython.com/quizzes/run-python-scripts//"
+  url="https://realpython.com/quizzes/run-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Run-A-Python-Script_Watermarked.65fe32bf5487.jpg"/>
 
@@ -541,7 +541,7 @@ One of the most important skills you need to build as a Python developer is to b
 <SiteInfo
   name="How to Run Your Python Scripts Quiz – Real Python"
   desc="One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code."
-  url="https://realpython.com/quizzes/run-python-scripts//"
+  url="https://realpython.com/quizzes/run-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Run-A-Python-Script_Watermarked.65fe32bf5487.jpg"/>
 

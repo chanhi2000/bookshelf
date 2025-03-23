@@ -213,7 +213,7 @@ Below is a prototype for a tag cluster composed of three-state tags designed to 
 <SiteInfo
   name="Counting With CSS Counters And CSS Grid | CSS-Tricks"
   desc="In this post, we're going to demonstrate how we can use the source order independence of CSS Grid to solve a layout issue that's the result of a source order constraint. Specifically, we're going to look at checkboxes and CSS Counters—two concepts that rely on source order when used together."
-  url="https://css-tricks.com/counting-css-counters-css-grid//"
+  url="https://css-tricks.com/counting-css-counters-css-grid/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://css-tricks.com/wp-json/social-image-generator/v1/image/266050"/>
 

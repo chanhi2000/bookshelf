@@ -90,7 +90,7 @@ I followed this [medium article (<FontIcon icon="fa-brands fa-medium"/>`@niranja
 <SiteInfo
   name="Download SonarQube"
   desc="Get the latest version of SonarQube, the leading product for code quality and security, from the official download page."
-  url="https://sonarsource.com/products/sonarqube/downloads//"
+  url="https://sonarsource.com/products/sonarqube/downloads/"
   logo="https://sonarsource.com/favicon.ico"
   preview="https://assets-eu-01.kc-usercontent.com:443/f42196a6-70a1-01d0-99f1-43134f12a58b/85b81454-7b7d-4a5b-aa0a-ccfb58055bf9/meta-tag-sonar.png"/>
 

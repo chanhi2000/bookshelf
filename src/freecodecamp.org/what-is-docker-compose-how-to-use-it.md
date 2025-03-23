@@ -166,7 +166,7 @@ Before proceeding further, here's a important note to us from the [<FontIcon ico
 <SiteInfo
   name="Docker Compose"
   desc="Learn how to use Docker Compose to define and run multi-container applications with this detailed introduction to the tool."
-  url="https://docs.docker.com/compose//"
+  url="https://docs.docker.com/compose/"
   logo="https://docs.docker.com/favicons/docs@2x.ico"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 

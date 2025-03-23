@@ -90,14 +90,14 @@ Add this method directly beneath the `openTapped()` method you just made:
 
 ```swift
 func openPage(action: UIAlertAction) {
-    let url = URL(string: "https://" + action.title!)!
+    let url = URL(string: "https:/" + action.title!)!
     webView.load(URLRequest(url: url))
 }
 ```
 
 This method takes one parameter, which is the `UIAlertAction` object that was selected by the user. Obviously it won't be called if Cancel was tapped, because that had a `nil` handler rather than `openPage`.
 
-What the method does is use the `title` property of the action (apple.com, hackingwithswift.com), put "https://" in front of it to satisfy App Transport Security, then construct a `URL` out of it. It then wraps that inside an `URLRequest`, and gives it to the web view to load. All you need to do is make sure the websites in the `UIAlertController` are correct, and this method will load anything.
+What the method does is use the `title` property of the action (apple.com, hackingwithswift.com), put "https:/" in front of it to satisfy App Transport Security, then construct a `URL` out of it. It then wraps that inside an `URLRequest`, and gives it to the web view to load. All you need to do is make sure the websites in the `UIAlertController` are correct, and this method will load anything.
 
 You can go ahead and test the app now, but there's one small change we can add to make the whole experience more pleasant: setting the title in the navigation bar. Now, we are the web view's navigation delegate, which means we will be told when any interesting navigation happens, such as when the web page has finished loading. We're going to use this to set the navigation bar title.
 

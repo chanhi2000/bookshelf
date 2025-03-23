@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725630140316/a95bd31
 <SiteInfo
   name="What are Type Predicates in TypeScript? Explained with Code examples"
   desc="Type predicates are an interesting syntactical feature in TypeScript. While they appear in the same place as return type annotations, they look more like short affirmative sentences than typical annotations. This gives you greater control over type c..."
-  url="https://freecodecamp.org/news/what-are-type-predicates-in-typescript//"
+  url="https://freecodecamp.org/news/what-are-type-predicates-in-typescript/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1725630140316/a95bd310-5465-4d0c-85fe-e42b91c2452e.jpeg"/>
 

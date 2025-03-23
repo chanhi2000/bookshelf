@@ -261,7 +261,7 @@ Remember that with great power comes great responsibility. Use magic methods jud
 {
   "title": "A Guide to Python's Magic Methods « rafekettler.com",
   "desc": "A guide to all the Magic Methods in Python",
-  "link": "https://rszalski.github.io/magicmethods//",
+  "link": "https://rszalski.github.io/magicmethods/",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"
 }
@@ -275,7 +275,7 @@ If you enjoyed this article, you might find these Python-related articles on my 
 {
   "title": "Practical Experiments for Optimizing Django query with the power of SQL joins",
   "desc": "Here we experiment with a couple of query optimization techniques for Django.",
-  "link": "https://wewake.dev/posts/practical-experiments-for-django-orm-query-optimizations//",
+  "link": "https://wewake.dev/posts/practical-experiments-for-django-orm-query-optimizations/",
   "logo": "https://wewake.dev/assets/img/favicons/favicon.ico",
   "background": "rgba(241,248,254,0.2)"
 }

@@ -562,9 +562,9 @@ From the code snippet above, the object contains a name, age, and role property.
 Therefore, you can access each value as shown below:
 
 ```js
-console.log(profile.name)  //"Ankur Tyagi"
+console.log(profile.name)  /"Ankur Tyagi"
 console.log(profile.age) //22
-console.log(profile.role) //"Technical Writer"
+console.log(profile.role) /"Technical Writer"
 ```
 
 However, destructuring provides a better and much cleaner way of getting the values within an object or array.

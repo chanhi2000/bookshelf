@@ -662,7 +662,7 @@ Thanks for reading!
 {
   "title": "Learn Vimscript the Hard Way",
   "desc": "",
-  "link": "https://learnvimscriptthehardway.stevelosh.com//",
+  "link": "https://learnvimscriptthehardway.stevelosh.com/",
   "logo": "",
   "background": "rgba(255,255,255,0.2)"
 }

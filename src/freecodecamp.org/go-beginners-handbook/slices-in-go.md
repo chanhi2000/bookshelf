@@ -115,7 +115,7 @@ mySlice2 := myArray[:]
 
 mySlice[0] = "test"
 
-fmt.Println(mySlice2[0]) //"test"
+fmt.Println(mySlice2[0]) /"test"
 ```
 
 Those 2 slices now share the same memory. Modifying one slice modifies the underlying array and causes the other slice generated from the array to be modified, too.

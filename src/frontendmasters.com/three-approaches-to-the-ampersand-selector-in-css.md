@@ -456,7 +456,7 @@ Either way, grouping style rulesets is crucial for enhancing code readability, m
 <SiteInfo
   name="Specifics On CSS Specificity | CSS-Tricks"
   desc="Let's specifically cover this subject. (rimshot!)"
-  url="https://css-tricks.com/specifics-on-css-specificity//"
+  url="https://css-tricks.com/specifics-on-css-specificity/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://css-tricks.com/wp-json/social-image-generator/v1/image/855"/>
 
@@ -464,7 +464,7 @@ Either way, grouping style rulesets is crucial for enhancing code readability, m
 {
   "title": "Using :has() as a CSS Parent Selector and much more",
   "desc": "It’s been a long-standing dream of front-end developers to have a way to apply CSS to an element based on what’s happening inside that element.",
-  "link": "https://webkit.org/blog/13096/css-has-pseudo-class//",
+  "link": "https://webkit.org/blog/13096/css-has-pseudo-class/",
   "logo": "https://webkit.org/favicon.ico",
   "background": "rgba(0,37,61,0.2)"
 }

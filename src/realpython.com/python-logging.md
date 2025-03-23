@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Logging Inside Python – Real Python"
   desc="In this video course, you'll learn why and how to get started with Python's powerful logging module to meet the needs of beginners and enterprise teams alike."
-  url="https://realpython.com/courses/logging-python//"
+  url="https://realpython.com/courses/logging-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974dc55c.jpg"/>
 
@@ -83,7 +83,7 @@ You’ll do the coding for this tutorial in the [**Python standard REPL**](/real
 <SiteInfo
   name="Logging in Python Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's logging module. With this knowledge, you'll be able to add logging to your applications, which can help you debug errors and analyze performance."
-  url="https://realpython.com/quizzes/logging-in-python//"
+  url="https://realpython.com/quizzes/logging-in-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974dc55c.jpg"/>
 
@@ -778,7 +778,7 @@ Using logging instead of `print()` allows you to control the level of detail in 
 <SiteInfo
   name="Logging in Python Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python's logging module. With this knowledge, you'll be able to add logging to your applications, which can help you debug errors and analyze performance."
-  url="https://realpython.com/quizzes/logging-in-python//"
+  url="https://realpython.com/quizzes/logging-in-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974dc55c.jpg"/>
 
@@ -793,7 +793,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Logging Inside Python – Real Python"
   desc="In this video course, you'll learn why and how to get started with Python's powerful logging module to meet the needs of beginners and enterprise teams alike."
-  url="https://realpython.com/courses/logging-python//"
+  url="https://realpython.com/courses/logging-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974dc55c.jpg"/>
 

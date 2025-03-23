@@ -142,7 +142,7 @@ You'll encounter them in three main flavors:
 <SiteInfo
   name="Django"
   desc="The web framework for perfectionists with deadlines."
-  url="https://djangoproject.com//"
+  url="https://djangoproject.com/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

@@ -58,7 +58,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Reading and Writing Files in Python – Real Python"
   desc="In this course, you'll learn about reading and writing files in Python. You'll cover everything from what a file is made up of to which libraries can help you along that way. You'll also take a look at some basic scenarios of file usage as well as some advanced techniques."
-  url="https://realpython.com/courses/reading-and-writing-files-python//"
+  url="https://realpython.com/courses/reading-and-writing-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Watermarked.0d394921fd90.jpg"/>
 
@@ -177,7 +177,7 @@ If you have any questions, hit us up in the comments.
 <SiteInfo
   name="Reading and Writing Files in Python Quiz – Real Python"
   desc="A quiz used for testing the user's knowledge of the topics covered in the Reading and Writing Files in Python article."
-  url="https://realpython.com/quizzes/read-write-files-python//"
+  url="https://realpython.com/quizzes/read-write-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Watermarked.0d394921fd90.jpg"/>
 
@@ -192,7 +192,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Reading and Writing Files in Python – Real Python"
   desc="In this course, you'll learn about reading and writing files in Python. You'll cover everything from what a file is made up of to which libraries can help you along that way. You'll also take a look at some basic scenarios of file usage as well as some advanced techniques."
-  url="https://realpython.com/courses/reading-and-writing-files-python//"
+  url="https://realpython.com/courses/reading-and-writing-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Watermarked.0d394921fd90.jpg"/>
 

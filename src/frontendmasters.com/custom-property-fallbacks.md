@@ -229,7 +229,7 @@ You can follow their progress on GitHub:
 <SiteInfo
   name="Master CSS Custom Properties (CSS Variables)"
   desc="Create reusable components without any JavaScript dependencies needed – with only vanilla CSS! Master CSS custom properties AKA CSS variables. "
-  url="https://frontendmasters.com/courses/css-variables//"
+  url="https://frontendmasters.com/courses/css-variables/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2021-11-09-css-variables/posterframe.jpg"/>
 
@@ -243,7 +243,7 @@ You can follow their progress on GitHub:
 <SiteInfo
   name="CSS Custom Properties Guide | CSS-Tricks"
   desc="Everything important and useful to know about CSS Custom Properties. Like that they are often referred to as ”CSS Variables” but that's not their real name."
-  url="https://css-tricks.com/a-complete-guide-to-custom-properties//"
+  url="https://css-tricks.com/a-complete-guide-to-custom-properties/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/custom-properties-code.png"/>
 

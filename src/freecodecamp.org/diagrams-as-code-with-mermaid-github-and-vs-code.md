@@ -6,6 +6,7 @@ icon: iconfont icon-mermaid
 category:
   - Node.js
   - Mermaid.js
+  - VSCode
   - Article(s)
 tag:
   - blog
@@ -16,6 +17,9 @@ tag:
   - mermaid
   - mermaidjs
   - mermaid-js
+  - vscode
+  - visualstudiocode
+  - productivity
 head:
   - - meta:
     - property: og:title
@@ -40,6 +44,16 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/09/mermaid-c
   "title": "Mermaid.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programmnig/js-mermaid/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "VSCode > Article(s)",
+  "desc": "Article(s)",
+  "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

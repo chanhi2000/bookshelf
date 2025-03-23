@@ -1115,7 +1115,7 @@ Visit the recommended resource given by the documentation itself for a working e
 {
   "title": "Edit fiddle - JSFiddle - Code Playground",
   "desc": "JSFiddle - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle.",
-  "link": "https://jsfiddle.net/yk4h7qou/2//",
+  "link": "https://jsfiddle.net/yk4h7qou/2/",
   "logo": "https://jsfiddle.net/img/favicon.png",
   "background": "rgba(223,168,74,0.2)"
 }

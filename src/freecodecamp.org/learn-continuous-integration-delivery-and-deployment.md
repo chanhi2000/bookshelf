@@ -1151,7 +1151,7 @@ If you would like to learn more about Continuous Integration, Delivery, and Depl
 <SiteInfo
   name="GitHub Actions - The Complete Guide"
   desc="Learn how to build automated CI / CD workflows with GitHub's DevOps service."
-  url="https://udemy.com/course/github-actions-the-complete-guide//"
+  url="https://udemy.com/course/github-actions-the-complete-guide/"
   logo="https://udemy.com/staticx/udemy/images/v8/favicon-16x16.png"
   preview="https://img-c.udemycdn.com/course/480x270/4900166_73e5.jpg"/>
 

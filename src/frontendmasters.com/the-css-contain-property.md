@@ -273,7 +273,7 @@ Those are my recommendations for the CSS `contain` property. It’s a property
 {
   "title": "CSS Containment Module Level 1",
   "desc": "This CSS module describes the contain property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.",
-  "link": "https://w3.org/TR/css-contain-1//",
+  "link": "https://w3.org/TR/css-contain-1/",
   "logo": "https://w3.org/favicon.ico",
   "background": "rgba(47,93,149,0.2)"
 }
