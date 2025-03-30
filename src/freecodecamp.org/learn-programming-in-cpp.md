@@ -294,11 +294,11 @@ After each year of the schedule has been printed, display a message with the yea
 
 This batch of programs shows how to use arrays in C/C++. An array is a collection of variables (all of the same type) that have a single name and sit next to each other in memory. Loops are almost always used to go through the elements of an array. They show how to create two and three dimensional arrays and use the random number generator in C/C++.
 
-- [<FontIcon icon="fas fa-gobe"/>4.1 Arrays](https://playbackpress.com/books/cppbook/chapter/4/1)
-- [<FontIcon icon="fas fa-gobe"/>4.2 Average and standard deviation of an array of values](https://playbackpress.com/books/cppbook/chapter/4/2)
-- [<FontIcon icon="fas fa-gobe"/>4.3 Problems with arrays](https://playbackpress.com/books/cppbook/chapter/4/3)
-- [<FontIcon icon="fas fa-gobe"/>4.4 Flipping coins](https://playbackpress.com/books/cppbook/chapter/4/4)
-- [<FontIcon icon="fas fa-gobe"/>4.5 Multi-dimensional arrays](https://playbackpress.com/books/cppbook/chapter/4/5)
+- [<FontIcon icon="fas fa-globe"/>4.1 Arrays](https://playbackpress.com/books/cppbook/chapter/4/1)
+- [<FontIcon icon="fas fa-globe"/>4.2 Average and standard deviation of an array of values](https://playbackpress.com/books/cppbook/chapter/4/2)
+- [<FontIcon icon="fas fa-globe"/>4.3 Problems with arrays](https://playbackpress.com/books/cppbook/chapter/4/3)
+- [<FontIcon icon="fas fa-globe"/>4.4 Flipping coins](https://playbackpress.com/books/cppbook/chapter/4/4)
+- [<FontIcon icon="fas fa-globe"/>4.5 Multi-dimensional arrays](https://playbackpress.com/books/cppbook/chapter/4/5)
 
 **Hands-On Practice**
 

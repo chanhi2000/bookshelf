@@ -177,7 +177,7 @@ This module supports most of the built-in types and is used by the Python debugg
 
 `pprint()` automatically sorts dictionary keys for you before printing, which allows for consistent comparison. When you’re comparing strings, you often don’t care about a particular order of serialized attributes. Anyways, it’s always best to compare actual dictionaries before serialization.
 
-Dictionaries often represent [**JSON data**](/realpython.com/python-json.md), which is widely used on the Internet. To correctly serialize a dictionary into a valid JSON-formatted string, you can take advantage of the `json` module. It too has pretty-printing capabilities:
+Dictionaries often represent [**JSON data**](/realpython.com/python-json/README.md), which is widely used on the Internet. To correctly serialize a dictionary into a valid JSON-formatted string, you can take advantage of the `json` module. It too has pretty-printing capabilities:
 
 ```py
 import json

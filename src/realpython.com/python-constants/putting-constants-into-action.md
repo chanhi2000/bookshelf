@@ -241,4 +241,4 @@ DEFAULT_READER = _DefaultReader()
 
 The `.read()` method in this example takes the path to a file, opens it, and prints its content to the screen line by line. This class will play the role of your default reader. The final step is to create a constant, `DEFAULT_READER`, to store an instance of your default reader. That’s it! You have a class that processes the input files and also a helper class that provides the default reader.
 
-Your users can also code custom readers. For example, they can code readers for [**CSV**](/realpython.com/python-csv.md) and [**JSON**](/realpython.com/python-json.md) files. Once they’ve written a given reader, they can pass it into the `FileHandler` class constructor and use the resulting instance to handle files that use the reader’s target file format.
+Your users can also code custom readers. For example, they can code readers for [**CSV**](/realpython.com/python-csv.md) and [**JSON**](/realpython.com/python-json/README.md) files. Once they’ve written a given reader, they can pass it into the `FileHandler` class constructor and use the resulting instance to handle files that use the reader’s target file format.

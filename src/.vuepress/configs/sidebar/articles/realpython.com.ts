@@ -212,6 +212,30 @@ const USING_JUPYTERLAB: SidebarInfoSubgroupTemplate = { // 2023-11-13
   ]
 }
 
+const PYTHON_YAML: SidebarInfoSubgroupTemplate = { // 2024-12-14
+  text: "YAML: The Missing Battery in Python",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-yaml',
+  children: [
+    'README',
+  ]
+}
+
+const PYTHON_JSON: SidebarInfoSubgroupTemplate = { // 2024-12-22
+  text: "Working With JSON Data in Python",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-json',
+  children: [
+    'README',
+    'introducing-json',
+    'writing-json-with-python',
+    'reading-json-with-python',
+    'interacting-with-json',
+  ]
+}
+
 const PYTHON_CONSTANTS: SidebarInfoSubgroupTemplate = { // 2025-01-19
   text: "Python Constants: Improve Your Code's Maintainability",
   collapsible: true,
@@ -244,7 +268,9 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    PYTHON_JSON, // 2024-12-22
     "what-is-pip", // 2024-12-22
+    PYTHON_YAML, // 2024-12-14
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
     "python-logging", // 2024-11-30
@@ -405,7 +431,9 @@ export const template: SidebarInfoTemplate = {
       "python-logging", // 2024-11-30
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08
+      PYTHON_YAML, // 2024-12-14
       "what-is-pip", // 2024-12-22
+      PYTHON_JSON, // 2024-12-22
       // END: 2024py
       "image-processing-with-the-python-pillow-library", // 2025-01-08
       PYTHON_CONSTANTS, // 2025-01-19

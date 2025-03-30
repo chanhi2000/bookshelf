@@ -153,6 +153,8 @@ const Y2023: SidebarYeargroupTemplate = {
   children: [
     // END: 2023
     "advanced-page-transitions-next-js-framer-motion", // 2023-12-28
+    "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
+    "vite-adoption-guide", // 2023-11-29
     "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
     "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
     "fetch-api-node-js", // 2023-11-01
@@ -332,6 +334,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022ts
       "declaring-jsx-types-typescript-5-1", // 2023-06-26
       "babel-vs-typescript-choosing-right-compiler-project", // 2023-07-10
+      "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
       // END: 2023ts
       "practical-guide-typescript-decorators", // 2024-03-21
       // END: 2024ts
@@ -357,6 +360,7 @@ export const template: SidebarInfoTemplate = {
       "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
       "fetch-api-node-js", // 2023-11-01
       "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
+      "vite-adoption-guide", // 2023-11-29
       // END: 2023js-node
       "commonjs-vs-es-modules-node-js", // 2024-06-06
       "building-microservices-node-js", // 2024-10-22
@@ -572,6 +576,13 @@ export const template: SidebarInfoTemplate = {
       "docker-alternatives", // 2025-02-21
       // END: 2025go
       // END: go
+    ]],[
+    "c", [
+      "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
+      // END: 2023c
+      // END: 2024c
+      // END: 2025c
+      // END: c
     ]],[
     "github", [
       "best-practices-ci-cd-pipeline-frontend", // 2023-11-08

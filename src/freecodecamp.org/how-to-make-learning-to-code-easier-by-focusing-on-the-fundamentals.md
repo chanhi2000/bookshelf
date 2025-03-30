@@ -503,7 +503,7 @@ The secret to becoming a great programmer is consistency. Choose a programming l
 
 ::: tip Example Practice
 
-Pick a small problem every day to practice applying data structures and algorithms. Use platforms like [<FontIcon icon="fas fa-gobe"/>LeetCode](https://leetcode.com/) or [<FontIcon icon="fas fa-globe"/>HackerRank](https://hackerrank.com/) for daily challenges that fit your skill level. Here’s an example of a coding challenge you might find on these platforms:
+Pick a small problem every day to practice applying data structures and algorithms. Use platforms like [<FontIcon icon="fas fa-globe"/>LeetCode](https://leetcode.com/) or [<FontIcon icon="fas fa-globe"/>HackerRank](https://hackerrank.com/) for daily challenges that fit your skill level. Here’s an example of a coding challenge you might find on these platforms:
 
 - **Problem**: Find the maximum number in a list of integers.
 
@@ -531,7 +531,7 @@ When you feel like you’ve got the basics down, it’s time to **level up**. Ge
 
 ::: tip Example Practice
 
-Join a hackathon or participate in a competitive coding challenge like [<FontIcon icon="fa-brands fa-google"/>Google Code Jam](https://codingcompetitions.withgoogle.com/) or [<FontIcon icon="fas fa-gobe"/>Codeforces](https://codeforces.com/). These challenges will push your problem-solving skills to the limit and help you learn new algorithms and techniques.
+Join a hackathon or participate in a competitive coding challenge like [<FontIcon icon="fa-brands fa-google"/>Google Code Jam](https://codingcompetitions.withgoogle.com/) or [<FontIcon icon="fas fa-globe"/>Codeforces](https://codeforces.com/). These challenges will push your problem-solving skills to the limit and help you learn new algorithms and techniques.
 
 **Why this helps**: Challenges force you to think critically and solve problems under time constraints. They help you learn faster and build confidence in your abilities.
 
