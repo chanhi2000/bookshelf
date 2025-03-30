@@ -223,7 +223,7 @@ Note that the `ready` prop accepts a boolean. When set to `false`, it assumes th
 
 `react-placeholder` also gives you the option to display your custom placeholder component using the `customPlaceholder` prop, which accepts a JSX element:
 
-```jsx :collapsed-liens title="Skeleton.jsx"
+```jsx :collapsed-lines title="Skeleton.jsx"
 import { TextBlock, RectShape } from "react-placeholder/lib/placeholders";
 import ReactPlaceholder from "react-placeholder";
 

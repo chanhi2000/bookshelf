@@ -342,7 +342,7 @@ Our final app will look something like this:
 
 The first step is to write our app’s stateless components, which we’ll need to build the cards with the data and rating system in them. In order to do this, we create a folder called <FontIcon icon="fas fa-folder-open"/>`components/`inside <FontIcon icon="fas fa-folder-open"/>`src/`and add a file called <FontIcon icon="fa-brands fa-js"/>`Card.js`:
 
-```jsx :collapsed-liens title="components/Card.js"
+```jsx :collapsed-lines title="components/Card.js"
 import React from 'react';
 
 const CardBox = (props) => {

@@ -201,7 +201,7 @@ python -c "import sample_name"
 # The value of __name__ is: sample_name
 ```
 
-With the `-c` switch, you can execute a small piece of Python code at the command line. In this example, you import the `sample_name` module, which [**prints**](/realpython.com/python-print.md) some messages to the screen. The first message tells you that `__name__` is of type [<FontIcon icon="fa-brands fa-python"/>`str`](https://docs.python.org/3/library/stdtypes.html#str), or string. The second message shows that `__name__` was set to `sample_name`, which is the name of the module you just imported.
+With the `-c` switch, you can execute a small piece of Python code at the command line. In this example, you import the `sample_name` module, which [**prints**](/realpython.com/python-print/README.md) some messages to the screen. The first message tells you that `__name__` is of type [<FontIcon icon="fa-brands fa-python"/>`str`](https://docs.python.org/3/library/stdtypes.html#str), or string. The second message shows that `__name__` was set to `sample_name`, which is the name of the module you just imported.
 
 Alternatively, if you take <FontIcon icon="fa-brands fa-python"/>`sample_name.py` and [**run it as a script**](/realpython.com/run-python-scripts.md), then Python will set [**`__name__` to the `"__main__"`**](/realpython.com/if-name-main-python.md) string . To confirm this fact, go ahead and run the following command:
 

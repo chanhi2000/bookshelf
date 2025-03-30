@@ -653,11 +653,58 @@ const WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE: SidebarI
   ]
 }
 
+const BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE: SidebarInfoSubgroupTemplate = { // 2025-04-01
+  text: 'How to Build a Team of AI Agents for Your Website for Free Using Agno and Groq',
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'build-a-team-of-ai-agents-for-your-website-for-free', 
+  children: [
+    'README',
+    'building-our-python-backend',
+    'building-our-react-frontend',
+  ]
+}
+
+const THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM: SidebarInfoSubgroupTemplate = { // 2025-04-03
+  text: 'The Cryptography Handbook: Exploring RSA PKCSv1.5, OAEP, and PSS',
+  collapsible: true,
+  icon: 'fas fa-shield-halved',
+  subPath: 'the-cryptography-handbook-rsa-algorithm', 
+  children: [
+    'README',
+    'the-alice-bob-paradigm',
+    'the-birth-of-the-rsa-cryptosystem',
+    'rsa-operations',
+    'issues-with-eulers-totient-function-in-rsa',
+    'the-carmichael-function',
+    'issues-with-raw-rsa',
+    'exploiting-textbook-rsas-determinism-and-malleability',
+    'low-exponent-attacks',
+    'hastads-broadcast-attack-low-exponent-meets-multiple-recipients',
+    'introduction-to-padding-schemes-in-rsa',
+    'public-key-cryptography-standards-pkcs1-v15',
+    'the-bleichenbacher-attack',
+    'optimal-asymmetric-encryption-padding-oaep',
+    'why-sha-1-or-md5-are-safe-in-rsa-oaep',
+    'adoption-in-cryptographic-libraries-pkcs1-v15-vs-oaep',
+    'enhancing-digital-signatures-the-transition-to-pss',
+    'the-road-ahead-assessing-rsas-long-term-viability',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "vulnerabilities-vs-exploits-for-ethical-hackers", // 2025-04-05
+    "use-wireshark-filters-to-analyze-network-traffic", // 2025-04-03
+    THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
+    "how-to-deploy-a-nodejs-application-on-aws", // 2025-04-03
+    "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
+    "fetch-api-vs-axios-vs-alova", // 2025-04-02
+    "understand-and-code-deepseek-v3", // 2025-04-02
+    BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE, // 2025-04-01
     WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
     "deploy-a-restful-web-service-on-microsoft-azure-app-service", // 2025-03-29
     "set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi", // 2025-03-29
@@ -1788,6 +1835,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase", // 2025-03-02
       "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
       "create-a-send-email-function-using-nodemailer-and-oauth2", // 2025-03-25
+      BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE, // 2025-04-01
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -1847,6 +1895,11 @@ export const template: SidebarInfoTemplate = {
       "learn-api-fundamentals-and-architecture", // 2025-03-22
       // END: 2025js-express
       // END: js-express
+    ]],[
+    "js-axios", [
+      "fetch-api-vs-axios-vs-alova", // 2025-04-02
+      // END: 2025js-axios
+      // END: js-axios
     ]],[
     "js-nest", [
       "how-to-setup-typeorm-datasource-nestjs-app", // 2024-04-25
@@ -2044,6 +2097,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices", // 2025-03-26
       "send-emails-in-python-using-mailtrap-smtp-and-the-email-api", // 2025-03-28
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
+      BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE, // 2025-04-01
       // END: 2025py
       // END: py
     ]],[
@@ -2236,12 +2290,18 @@ export const template: SidebarInfoTemplate = {
       "php-jwt-authentication-implementation", // 2024-04-24
       "php-array-handbook", // 2024-05-08
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
-      "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
       "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
       // END: 2024php
       "how-to-develop-with-codeigniter-on-ubuntu-environment-setup", // 2025-01-24
       // END: 2025php
       // END: php
+    ]],[
+    "php-laravel", [
+      "how-to-set-up-google-auth-in-laravel-apps", // 2024-12-04
+      // END: 2024php-laravel
+      "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
+      // END: 2025php-laravel
+      // END: php-laravel
     ]],[
     "php-wordpress", [
       "create-a-wordpress-website", // 2025-01-23
@@ -2588,6 +2648,9 @@ export const template: SidebarInfoTemplate = {
       "ssh-authentication-with-github-under-the-hood", // 2025-02-13
       "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
       "why-security-audits-are-important", // 2025-03-20
+      THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
+      "use-wireshark-filters-to-analyze-network-traffic", // 2025-04-03
+      "vulnerabilities-vs-exploits-for-ethical-hackers", // 2025-04-05
       // END: 2025security
       // END: security
     ]],[
@@ -2617,6 +2680,11 @@ export const template: SidebarInfoTemplate = {
       "learn-metasploit-for-beginners", // 2025-01-22
       // END: 2025metasploit
       // END: metasploit
+    ]],[
+    "wireshark", [
+      "use-wireshark-filters-to-analyze-network-traffic", // 2025-04-03
+      // END: 2025wireshark
+      // END: wireshark
     ]],[
     "figma", [
       "how-to-recreate-figma-components-in-penpot", // 2025-03-27
@@ -2691,6 +2759,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
+      "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -2862,6 +2931,7 @@ export const template: SidebarInfoTemplate = {
     "claude", [
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
       "learn-to-use-claude-ai", // 2024-10-23
+      // END: claude
     ]],[
     "langchain", [
       "how-to-use-langchain-and-gpt-to-analyze-multiple-documents", // 2024-11-07
@@ -2881,8 +2951,14 @@ export const template: SidebarInfoTemplate = {
       "secure-ways-to-access-deepseek-using-third-party-apps", // 2025-02-21
       "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
+      "understand-and-code-deepseek-v3", // 2025-04-02
       // END: 2025deepseek
       // END: deepseek
+    ]],[
+    "groq", [
+      BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE, // 2025-04-01
+      // END: 2025groq
+      // END: groq
     ]],[
     "vit", [
       "build-a-vision-transformer-from-scratch", // 2025-02-27
@@ -2902,6 +2978,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024math
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
+      THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
       // END: 2025math
       // END: math
     ]],[

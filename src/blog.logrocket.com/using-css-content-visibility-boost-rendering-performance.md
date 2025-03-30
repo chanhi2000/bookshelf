@@ -68,7 +68,7 @@ Rendering is the process of transforming the code of a webpage into pixels that 
 
 When you enter a URL in the address bar of a browser and fire off a request for a webpage, a series of events are kicked off. There are some technical background processes, but the main event is to download the resources that make up the webpage, such as the HTML file, font files, and CSS files.
 
-The part of the process that relates most to our discussion of rendering performance is what happens after the HTML file has been loaded in the browser. Google refers to this process as the [<FontIcon icon="fas fa-globe"/>rendering pixel pipeline](https://web.dev/rendering-performance/). The areas involved are:
+The part of the process that relates most to our discussion of rendering performance is what happens after the HTML file has been loaded in the browser. Google refers to this process as the [<FontIcon icon="iconfont icon-webdev"/>rendering pixel pipeline](https://web.dev/rendering-performance/). The areas involved are:
 
 1. **JavaScript**: JavaScript can be used to do things that result in visual changes, such as adding DOM elements to the page
 2. **Style**: This is the process of deciding which CSS rules apply to which elements. Once rules are known, they are applied and the final styles for each element are calculated
@@ -84,7 +84,7 @@ Google has color-coded and categorized the areas as follows:
 - **Rendering** — purple covering the Style and Layout areas
 - **Painting** — green covering the Paint and Composite areas
 
-![Pixel Pipeline<br/>Image credit: [<FontIcon icon="fas fa-globe"/>Web.dev under CC BY 4.0 license](https://web.dev/articles/rendering-performance)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
+![Pixel Pipeline<br/>Image credit: [<FontIcon icon="iconfont icon-webdev"/>Web.dev under CC BY 4.0 license](https://web.dev/articles/rendering-performance)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
 
 This facet of categorization is significant because this is how they are visually represented in the **Performance** tab of Chrome’s DevTools. You can see the matching color encoding in the summary pane below:
 
@@ -297,7 +297,7 @@ When I added `contain-intrinsic-size`, the performance also improved significant
 
 At the time of writing, the `content-visibility` property is [<FontIcon icon="fas fa-globe"/>only available](https://caniuse.com/?search=content-visibility) in Chrome, Edge, and Opera.
 
-It is in Firefox behind a flag. The CSS Containment Specification is slated to be adopted by all major browsers as a focus area of [<FontIcon icon="fas fa-globe"/>Interop 2023](https://web.dev/interop-2023/).
+It is in Firefox behind a flag. The CSS Containment Specification is slated to be adopted by all major browsers as a focus area of [<FontIcon icon="iconfont icon-webdev"/>Interop 2023](https://web.dev/interop-2023/).
 
 There are cases where you can treat usage as a progressive enhancement. I could not find a polyfill, so you may have to skip it if this is essential for you.
 

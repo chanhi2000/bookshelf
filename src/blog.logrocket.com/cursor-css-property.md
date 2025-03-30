@@ -144,7 +144,7 @@ body {
 
 To ensure that this cursor is used on all parts of your website, the best place to use the `cursor` property is in the `body` tag of your HTML. However, if you want, you can assign custom cursors to specific elements instead of the whole website.
 
-You can also add a `fallback` value to your `cursor` property. When using [**custom CSS properties, this value ensures**](/blog.logrocket.com/how-to-use-css-variables-like-a-pro.md) that if the image that serves as your custom property is missing or cannot be loaded, then your users will have another option.
+You can also add a `fallback` value to your `cursor` property. When using [**custom CSS properties, this value ensures**](/blog.logrocket.com/how-to-use-css-variables/README.md) that if the image that serves as your custom property is missing or cannot be loaded, then your users will have another option.
 
 In this case, `auto` is the `fallback` descriptor for your custom `cursor` property. Your users will see the regular cursor if the custom one is unavailable.
 

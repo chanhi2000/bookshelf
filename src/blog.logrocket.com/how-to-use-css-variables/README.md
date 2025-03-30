@@ -213,7 +213,7 @@ Use CSS variables when you need global or reusable values like colors, font size
 
 :::
 
-::: detaisl How do you initialize a variable in CSS?
+::: details How do you initialize a variable in CSS?
 
 CSS variables can be declared using either the `--` prefix or the `@property` at-rule.
 

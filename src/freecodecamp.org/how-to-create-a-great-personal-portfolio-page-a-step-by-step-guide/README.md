@@ -148,7 +148,7 @@ Here's why it's critical:
 - **Include Keywords**: If possible, incorporate relevant keywords related to your industry or profession.
 - **Consider Your Niche**: Ensure your domain name aligns with the type of work showcased on your portfolio.
 - **Avoid Numbers and Hyphens**: Numbers and hyphens can be confusing and are often forgotten when typing a domain name.
-- **Check Availability**: Verify that the domain name you want is not already taken and is available for purchase. You can use [<FontIcon icon="fas fa-globe"/>namecheap.com](https://namecheap.com/), [<FontIcon icon="fas fa-gobe"/>godaddy.com](https://godaddy.com/nl-nl) and many other online hosting websites.
+- **Check Availability**: Verify that the domain name you want is not already taken and is available for purchase. You can use [<FontIcon icon="fas fa-globe"/>namecheap.com](https://namecheap.com/), [<FontIcon icon="fas fa-globe"/>godaddy.com](https://godaddy.com/nl-nl) and many other online hosting websites.
 
 ---
 

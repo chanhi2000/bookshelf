@@ -86,7 +86,7 @@ After analyzing such scenarios, it makes sense to apply prefetching to them. How
 
 Let us look at couple of scenarios where prefetching is beneficial:
 
-1. Loading data/page earlier for the most visited link from your landing page. For example, consider that you have a “contact us” link. Let’s assume that this is the link that users mostly check and it contains a lot of data when it loads. Rather than loading the data when the contact us page loads, you can simply fetch the data on the homepage so that you don’t have to wait at the Contact Us page for the data. You can read more about prefetching pages [<FontIcon icon="fas fa-globe"/>here](https://web.dev/articles/link-prefetch).
+1. Loading data/page earlier for the most visited link from your landing page. For example, consider that you have a “contact us” link. Let’s assume that this is the link that users mostly check and it contains a lot of data when it loads. Rather than loading the data when the contact us page loads, you can simply fetch the data on the homepage so that you don’t have to wait at the Contact Us page for the data. You can read more about prefetching pages [<FontIcon icon="iconfont icon-webdev"/>here](https://web.dev/articles/link-prefetch).
 2. Prefetching table data for later pages.
 3. Fetching data from a parent component and loading it in the child component.
 4. Prefetching data that needs to be displayed in a popover.

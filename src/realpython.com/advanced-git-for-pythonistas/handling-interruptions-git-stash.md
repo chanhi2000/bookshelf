@@ -398,7 +398,7 @@ This dropped the last two stashes, and Git did not change your working directory
 
 The other interesting thing is that the output from the drop command gives you a SHA. Like other SHAs in Git, you can make use of this. If, for example, you really meant to do a `pop` and not a `drop` on `stash@{1}` above, you can create a new branch with that SHA it showed you (`9aaa9996`):
 
-```sh :collapsed-liens
+```sh :collapsed-lines
 git branch tmp 9aaa9996
 git status
 # 

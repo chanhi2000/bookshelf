@@ -82,7 +82,7 @@ Open your Next.js app in any code editor
 
 Inside the <FontIcon icon="fas fa-folder-open"/>`app` folder, make a new folder called <FontIcon icon="fas fa-folder-open"/>`api`. Inside the API folder, make another folder called <FontIcon icon="fas fa-folder-open"/>`copilotkit`. Then in there, make a new file called <FontIcon icon="fa-brands fa-js"/>`route.js` and paste this code inside the file:
 
-```jsx :collapsed-liens title="app/api/copilotkit/route.js"
+```jsx :collapsed-lines title="app/api/copilotkit/route.js"
 import {
   CopilotRuntime,
   GroqAdapter,
@@ -581,7 +581,7 @@ Now, create a <FontIcon icon="fas fa-folder-open"/>`lib` folder inside the <Font
 
 This version simplifies the instructions and improves clarity while maintaining the original meaning.
 
-```ts :collapsed-liens title="app/lib/models/File.js"
+```ts :collapsed-lines title="app/lib/models/File.js"
 import mongoose, { Schema, Document, Model } from "mongoose";
 
 // Define an interface for the file document

@@ -116,7 +116,7 @@ def greet(name="World"):
     print(f"Hello, {name}! Welcome to Real Python!")
 ```
 
-This module defines a [**function**](/realpython.com/defining-your-own-python-function.md) called `greet()` that takes `name` as an argument and [**prints**](/realpython.com/python-print.md) a friendly greeting message to the screen.
+This module defines a [**function**](/realpython.com/defining-your-own-python-function.md) called `greet()` that takes `name` as an argument and [**prints**](/realpython.com/python-print/README.md) a friendly greeting message to the screen.
 
 Now say that you want to package this module into a ZIP file that you can import later. To do this, you can run the following code:
 

@@ -136,7 +136,7 @@ A quiz used for testing the user's knowledge of the topics covered in the Readin
 There are common situations that you may encounter while working with files. Most of these cases can be handled using other modules. Two common file types you may need to work with are `.csv` and `.json`. *Real Python* has already put together some great articles on how to handle these:
 
 - [**Reading and Writing CSV Files in Python**](/realpython.com/python-csv.md)
-- [**Working With JSON Data in Python**](/realpython.com/python-json.md)
+- [**Working With JSON Data in Python**](/realpython.com/python-json/README.md)
 
 Additionally, there are built-in libraries out there that you can use to help you:
 

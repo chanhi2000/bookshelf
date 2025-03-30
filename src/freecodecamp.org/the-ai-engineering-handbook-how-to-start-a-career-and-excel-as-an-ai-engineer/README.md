@@ -2106,7 +2106,7 @@ Tatev holds an MSc and BSc in Econometrics and Operational Research from top tie
 
 As a top open-source contributor, Tatev has co-authored courses and books, including resources on **freeCodeCamp for 2024**, and has played a pivotal role in educating over **30,000 learners across 144 countries** through [<FontIcon icon="fas fa-globe"/>**LunarTech**](https://lunartech.ai)'s programs.
 
-[<FontIcon icon="fas fa-gobe"/>LunarTech](https://lunartech.ai) is Deep Tech innovation company building AI-powered products and delivering educational tools to help enterprises and people innovate, reducing operational costs and increasing profitability.
+[<FontIcon icon="fas fa-globe"/>LunarTech](https://lunartech.ai) is Deep Tech innovation company building AI-powered products and delivering educational tools to help enterprises and people innovate, reducing operational costs and increasing profitability.
 
 ::: info Connect With Us
 

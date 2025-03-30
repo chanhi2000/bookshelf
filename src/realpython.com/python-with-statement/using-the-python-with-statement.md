@@ -146,7 +146,7 @@ with os.scandir(".") as entries:
 # Downloads -> 4096 bytes
 ```
 
-In this example, you write a `with` statement with `os.scandir()` as the context manager supplier. Then you iterate over the entries in the selected directory (`"."`) and [**print**](/realpython.com/python-print.md) their name and size on the screen. In this case, `.__exit__()` calls [<FontIcon icon="fa-brands fa-python"/>`scandir.close()`](https://docs.python.org/3/library/os.html#os.scandir.close) to close the iterator and release the acquired resources. Note that if you run this on your machine, you’ll get a different output depending on the content of your current directory.
+In this example, you write a `with` statement with `os.scandir()` as the context manager supplier. Then you iterate over the entries in the selected directory (`"."`) and [**print**](/realpython.com/python-print/README.md) their name and size on the screen. In this case, `.__exit__()` calls [<FontIcon icon="fa-brands fa-python"/>`scandir.close()`](https://docs.python.org/3/library/os.html#os.scandir.close) to close the iterator and release the acquired resources. Note that if you run this on your machine, you’ll get a different output depending on the content of your current directory.
 
 ---
 

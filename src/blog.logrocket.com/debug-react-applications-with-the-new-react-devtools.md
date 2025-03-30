@@ -97,7 +97,7 @@ Now, you know how the React Developer Tools solution helps debug React apps and 
 - Searching and filtering components in complex apps
 - Inspecting and editing props and state real-time to see how components behave
 - Ability to find component owners (aka parents and ancestor components) in unfamiliar apps
-- Offers a way to [**suspend a React component**](/blog.logrocket.com/react-suspense-data-fetching/) and test the fallback component
+- Offers a way to [**suspend a React component**](/blog.logrocket.com/data-fetching-react-suspense.md) and test the fallback component
 - Offers a fully-featured profiler that comes with the flame graph and ranked graph to implement performance enhancements
 - Supports exporting and importing profiler results for collaborative debugging requirements (No need to share profiler screenshots/recodings with teammates)
 

@@ -65,7 +65,7 @@ When you open a new notebook, it contains a single gray rectangle. This is a **c
 
 To create some Markdown, select the code cell and then select *Markdown* from the dropdown menu in the toolbar. This will prepare the cell for you to enter Markdown text into. Now type the following Markdown text into this cell:
 
-```md :collapsed-liens
+```md :collapsed-lines
 ---
 
 ## Changes in World Population Since 1960

@@ -101,6 +101,21 @@ const PYTHON39_NEW_FEATURES: SidebarInfoSubgroupTemplate = { // 2020-10-05
   ]
 }
 
+const PYTHON_WEB_APPLICATIONS: SidebarInfoSubgroupTemplate = { // 2021-02-01
+  text: "Python Web Applications: Deploy Your Script as a Flask App",
+  collapsible: true,
+  icon: 'iconfont icon-flask',
+  subPath:'python-web-applications',
+  children: [
+    'README',
+    'brush-up-on-the-basics',
+    'build-a-basic-python-web-application',
+    'deploy-your-python-web-application',
+    'convert-a-script-into-a-web-application',
+    'improve-the-user-interface-of-your-web-application',
+  ]
+}
+
 const QUEUE_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2022-06-29
   text: "Python Stacks, Queues, and Priority Queues in Practice",
   collapsible: true,
@@ -212,6 +227,35 @@ const USING_JUPYTERLAB: SidebarInfoSubgroupTemplate = { // 2023-11-13
   ]
 }
 
+const PYTHON_YAML: SidebarInfoSubgroupTemplate = { // 2024-12-14
+  text: "YAML: The Missing Battery in Python",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-yaml',
+  children: [
+    'README',
+    'taking-a-crash-course-in-yaml',
+    'getting-started-with-yaml-in-python',
+    'loading-yaml-documents-in-python',
+    'dumping-python-objects-to-yaml-documents',
+    'parsing-yaml-documents-at-a-low-level',
+  ]
+}
+
+const PYTHON_JSON: SidebarInfoSubgroupTemplate = { // 2024-12-22
+  text: "Working With JSON Data in Python",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-json',
+  children: [
+    'README',
+    'introducing-json',
+    'writing-json-with-python',
+    'reading-json-with-python',
+    'interacting-with-json',
+  ]
+}
+
 const PYTHON_CONSTANTS: SidebarInfoSubgroupTemplate = { // 2025-01-19
   text: "Python Constants: Improve Your Code's Maintainability",
   collapsible: true,
@@ -244,7 +288,9 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    PYTHON_JSON, // 2024-12-22
     "what-is-pip", // 2024-12-22
+    PYTHON_YAML, // 2024-12-14
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
     "python-logging", // 2024-11-30
@@ -288,6 +334,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "python-zip-import", // 2021-12-27
     "what-can-i-do-with-python", // 2021-07-07
     PYTHON_WITH_STATEMENT, // 2021-06-02
+    PYTHON_WEB_APPLICATIONS, // 2021-02-01
   ]
 }
 
@@ -298,6 +345,7 @@ const Y2020: SidebarYeargroupTemplate = {
     // END: 2020
     "python-boolean", // 2020-10-19
     PYTHON39_NEW_FEATURES, // 2020-10-05
+    "python-wheels", // 2020-08-05
     PYTHON_DATETIME,// 2020-05-04
     SORTING_ALGORITHMS_PYTHON, // 2020-04-15
     "any-python", // 2020-03-30
@@ -383,6 +431,7 @@ export const template: SidebarInfoTemplate = {
       "any-python", // 2020-03-30
       SORTING_ALGORITHMS_PYTHON, // 2020-04-15
       PYTHON_DATETIME,// 2020-05-04
+      "python-wheels", // 2020-08-05
       PYTHON39_NEW_FEATURES, // 2020-10-05
       "python-boolean", // 2020-10-19
       // END: 2020py
@@ -405,7 +454,9 @@ export const template: SidebarInfoTemplate = {
       "python-logging", // 2024-11-30
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08
+      PYTHON_YAML, // 2024-12-14
       "what-is-pip", // 2024-12-22
+      PYTHON_JSON, // 2024-12-22
       // END: 2024py
       "image-processing-with-the-python-pillow-library", // 2025-01-08
       PYTHON_CONSTANTS, // 2025-01-19
@@ -432,7 +483,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2018py-pandas
       // END: py-pandas
     ]],[
-      "py-jupyter", [
+    "py-flask", [
+      PYTHON_WEB_APPLICATIONS, // 2021-02-01
+      // END: 2021py-flask
+      // END: 2022py-flask
+      // END: 2023py-flask
+      // END: 2024py-flask
+      // END: 2025py-flask
+      // END: py-flask
+    ]],[
+    "py-jupyter", [
       USING_JUPYTERLAB, // 2023-11-13
       // END: 2023py-jupyter
       // END: 2024py-jupyter
@@ -457,6 +517,15 @@ export const template: SidebarInfoTemplate = {
       // END: 2024sh
       // END: 2025sh
       // END: sh
+    ]],[
+    "gcp", [ 
+      PYTHON_WEB_APPLICATIONS, // 2021-02-01
+      // END: 2021gcp
+      // END: 2022gcp
+      // END: 2023gcp
+      // END: 2024gcp
+      // END: 2025gcp
+      // END: gcp
     ]],[
     "docker", [ 
       "twitter-sentiment-python-docker-elasticsearch-kibana", // 2014-11-13

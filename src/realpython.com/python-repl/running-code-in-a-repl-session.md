@@ -183,7 +183,7 @@ When you run Python in interactive mode, you’ll note that the interpreter imme
 
 The interpreter doesn’t display anything for statements that don’t generate return values. That’s the case with assignment statements, as you already learned.
 
-The Python interpreter behaves that way because its primary goal is to provide immediate feedback on how your code works. This behavior makes using the built-in [**`print()`**](/realpython.com/python-print.md) function almost unnecessary when you’re working interactively.
+The Python interpreter behaves that way because its primary goal is to provide immediate feedback on how your code works. This behavior makes using the built-in [**`print()`**](/realpython.com/python-print/README.md) function almost unnecessary when you’re working interactively.
 
 However, there’s at least one use case for `print()` in REPL sessions. You need to use `print()` when you want to display the result of an expression or statement that can or will return [**`None`**](/realpython.com/null-in-python.md).
 

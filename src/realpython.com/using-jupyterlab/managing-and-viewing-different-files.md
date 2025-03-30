@@ -80,7 +80,7 @@ After you double-click, your file opens in its own read-only tabbed window. In t
 
 ::: details A Caveat When Working With JSON Files
 
-JavaScript Object Notation, or [<FontIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON), is an open standard file and data interchange format for storing data and passing it between different systems. Although you can work directly with [**JSON files in Python**](/realpython.com/python-json.md), you can also view and edit them in JupyterLab. But there is a caveat.
+JavaScript Object Notation, or [<FontIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON), is an open standard file and data interchange format for storing data and passing it between different systems. Although you can work directly with [**JSON files in Python**](/realpython.com/python-json/README.md), you can also view and edit them in JupyterLab. But there is a caveat.
 
 If you need to have one JSON file open for editing and another for viewing in its formatted form, then creating a simple view won’t work. If you have a JSON file opened for editing and create a new view of it, then you end up with two views for editing. To overcome this, you must open the file twice: first for editing and again for reading. Thankfully, JupyterLab will still create two views on the same file meaning both will be synchronized.
 

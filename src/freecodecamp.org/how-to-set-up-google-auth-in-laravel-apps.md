@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Set Up Google Authentication in Laravel Applications"
 description: "Article(s) > How to Set Up Google Authentication in Laravel Applications"
-icon: fa-brands fa-php
+icon: fa-brands fa-laravel
 category:
   - PHP
   - Laravel
@@ -31,9 +31,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732711351776/931a1ad
 
 ```component VPCard
 {
-  "title": "PHP > Article(s)",
+  "title": "Laravel > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/php/articles/README.md",
+  "link": "/programming/php-laravel/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

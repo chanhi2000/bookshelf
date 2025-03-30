@@ -78,7 +78,7 @@ To follow along with this guide, you should have:
 
 ## What is Docusaurus?
 
-[<FontIcon icon="fas fa-globe"/>Docusaurus](https://docusaurus.io/) was released by the Meta Open Source team in 2017 to help devs build, deploy, and maintain documentation websites easily and quickly. The project’s other goal was to improve the speed of both developers and end users using the [<FontIcon icon="fas fa-globe"/>PRPL](https://web.dev/articles/apply-instant-loading-with-prpl) pattern.
+[<FontIcon icon="fas fa-globe"/>Docusaurus](https://docusaurus.io/) was released by the Meta Open Source team in 2017 to help devs build, deploy, and maintain documentation websites easily and quickly. The project’s other goal was to improve the speed of both developers and end users using the [<FontIcon icon="iconfont icon-webdev"/>PRPL](https://web.dev/articles/apply-instant-loading-with-prpl) pattern.
 
 Some of its cool features include search and localization, powered by [<FontIcon icon="fas fa-globe"/>Algolia](https://algolia.com/) (search) and [<FontIcon icon="fas fa-globe"/>Crowdin](https://crowdin.com/) (language support and internationalization).
 

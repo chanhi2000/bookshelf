@@ -573,7 +573,7 @@ Let’s choose some pre-made SVG illustrations and icons and create something by
 
 Then, I incorporated a drop icon from Tabler Icons below the SVG paths of the popsicle, assigning unique IDs for CSS customization. We can animate these drops with CSS translation and opacity changes. By varying the animation durations for each drop, we can achieve a random falling pattern:
 
-```css :collapsd-lines
+```css :collapsed-lines
 :root {
   --p-drop-right-speed: 3.5s;
   --p-drop-left-speed: 2.5s;

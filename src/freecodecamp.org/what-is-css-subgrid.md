@@ -361,7 +361,7 @@ Here are some helpful resources:
 
 - [<FontIcon icon="fa-brands fa-firefox"/>MDN on CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid)
 - [<FontIcon icon="fa-brands fa-youtube"/>Learn CSS Subgrid](https://youtu.be/Yl8hg2FG20Q)
-- [<FontIcon icon="fas fa-globe"/>Web Dev on CSS Subgrid](https://web.dev/articles/css-subgrid)
+- [<FontIcon icon="iconfont icon-webdev"/>Web Dev on CSS Subgrid](https://web.dev/articles/css-subgrid)
 
 <VidStack src="youtube/Yl8hg2FG20Q" />
 

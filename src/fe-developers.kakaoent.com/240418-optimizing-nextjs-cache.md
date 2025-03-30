@@ -70,7 +70,7 @@ cover: https://fe-developers.kakaoent.com/static/64f999e746db02b310c7a08bb93709a
 - [<FontIcon icon="fas fa-globe"/>Amazon은 로딩속도가 1초 빨라지면, 매출이 68억달러가 증가한다고 발표했습니다.](https://zdnet.co.kr/view/?no=20190418142445)
 - [<FontIcon icon="fas fa-globe"/>온라인 쇼핑몰의 빠른 로딩속도는 사이트의 신뢰도까지 향상 시킨다는 통계도 있습니다.](https://neilpatel.com/blog/loading-time/)
 
-웹 서버의 성능은 당연하게도 **웹페이지의 로딩속도**를 결정하는 중요한 요소 중 하나입니다. 웹 페이지 요청 과정을 표현한 아래 다이어그램에서 노란색 부분, 즉 [<FontIcon icon="fas fa-globe"/>TTFB(Time to First Byte)](https://web.dev/articles/ttfb?hl=ko)에 해당하는 영역이 웹 서버의 성능으로부터 영향을 받습니다.
+웹 서버의 성능은 당연하게도 **웹페이지의 로딩속도**를 결정하는 중요한 요소 중 하나입니다. 웹 페이지 요청 과정을 표현한 아래 다이어그램에서 노란색 부분, 즉 [<FontIcon icon="iconfont icon-webdev"/>TTFB(Time to First Byte)](https://web.dev/articles/ttfb?hl=ko)에 해당하는 영역이 웹 서버의 성능으로부터 영향을 받습니다.
 
 ![[<FontIcon icon="fa-brands fa-firefox"/>developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Navigation_timing)](https://fe-developers.kakaoent.com/fb6f7d36d4bf64e68cc3417a4fecfa26/performance-navigation-timing-timestamp-diagram.svg)
 

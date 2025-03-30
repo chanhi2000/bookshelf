@@ -125,7 +125,7 @@ According to Python’s coding style guide, [<FontIcon icon="fa-brands fa-python
 
 Here’s a sample module that includes a bunch of dunder names:
 
-```py :collapsed-liens title="greeting.py"
+```py :collapsed-lines title="greeting.py"
 """This module defines some module-level dunder names."""
 
 from __future__ import barry_as_FLUFL
