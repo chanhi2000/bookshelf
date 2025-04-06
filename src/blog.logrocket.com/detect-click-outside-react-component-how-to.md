@@ -230,7 +230,7 @@ export class InfoBox extends React.Component {
 }
 ```
 
-The above code snippet is similar to the functional component code, but there are some differences. For example, we use `React.createRef` instead of the `useRef` Hook because we [**cannot use React Hooks with class-based components**](/blog.logrocket.com/react-hooks-frustrations.md).
+The above code snippet is similar to the functional component code, but there are some differences. For example, we use `React.createRef` instead of the `useRef` Hook because we [**cannot use React Hooks with class-based components**](/blog.logrocket.com/understanding-common-frustrations-react-hooks.md).
 
 Now, update your <FontIcon icon="fa-brands fa-react"/>`App.js` by adding your new component references, as shown below. Note that we are using both functional and class-based components in the demo application, but you can use only the class-based implementation as you wish.
 

@@ -121,7 +121,7 @@ If your goal is to apply the same styling to multiple groups, converting ID name
 
 ### Being mindful of the stacking order
 
-SVG shapes are painted sequentially from top to bottom. To place a shape in the background, list it earlier in the code. Note that CSS’s `z-index` property doesn’t affect SVG elements, so [**prioritize source order for proper layering**](/blog.logrocket.com/guide-image-overlays-css.md).
+SVG shapes are painted sequentially from top to bottom. To place a shape in the background, list it earlier in the code. Note that CSS’s `z-index` property doesn’t affect SVG elements, so [**prioritize source order for proper layering**](/blog.logrocket.com/css-overlay.md).
 
 ### Setting SVG styling to the preferred initial state
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Support Multiple Languages In Your Flutter Application"
 description: "Article(s) > How to Support Multiple Languages In Your Flutter Application"
-icon: iconfont icon-dart
+icon: fa-brands fa-dart-lang
 category: 
   - Dart
   - Article(s)
@@ -56,7 +56,7 @@ After patting myself on the back, I started looking at the data of the users who
 
 ![Screenshot showing popular countries application was downloaded from](https://cdn.hashnode.com/res/hashnode/image/upload/v1731601377555/a9cc451f-9e8a-4084-b58a-55af1428dd51.jpeg)
 
-A people pleaser by heart, I figured the best course of action would be to add support to the spoken languages at the top 3 or 4 countries on that list. That is where I discovered the wonderful world of [<FontIcon icon="iconfont icon-dart"/>Internationalizing a Flutter application](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization).
+A people pleaser by heart, I figured the best course of action would be to add support to the spoken languages at the top 3 or 4 countries on that list. That is where I discovered the wonderful world of [<FontIcon icon="fa-brands fa-dart-lang"/>Internationalizing a Flutter application](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization).
 
 And that leads us to the purpose of this article: helping you understand how to add multiple language support in your Flutter application.
 
@@ -95,7 +95,7 @@ output-localization-file: app_localizations.dart  # Output file where the genera
 
 ::: info
 
-☝️ Head over [<FontIcon icon="iconfont icon-dart"/>here](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization#configuring-the-l10n-yaml-file) to read about more configuration options in the <FontIcon icon="iconfont icon-yaml"/>`l10.yaml` file
+☝️ Head over [<FontIcon icon="fa-brands fa-dart-lang"/>here](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization#configuring-the-l10n-yaml-file) to read about more configuration options in the <FontIcon icon="iconfont icon-yaml"/>`l10.yaml` file
 
 :::
 
@@ -265,7 +265,7 @@ test("DateService convert month number 8 to August", () {
 });
 ```
 
-As for integration tests, you will need to wrap your widget inside of a [<FontIcon icon="iconfont icon-dart"/>Localizations widget](https://api.flutter.dev/flutter/widgets/Localizations/Localizations.html).
+As for integration tests, you will need to wrap your widget inside of a [<FontIcon icon="fa-brands fa-dart-lang"/>Localizations widget](https://api.flutter.dev/flutter/widgets/Localizations/Localizations.html).
 
 ```dart
 testWidgets("Your test description", (WidgetTester tester) async {

@@ -331,7 +331,7 @@ It’s actually probably better to pick *one* (and a relatively popular one at t
 
 1. [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/) (React) — [React Learning Path](https://frontendmasters.com/learn/react/)
 2. [<FontIcon icon="iconfont icon-nuxtjs"/>Nuxt](https://nuxt.com/) (Vue) — [Vue Learning Path](https://frontendmasters.com/learn/vue/)
-3. [Astro](https://astro.build/) (Multi-framework capable) — [Astro Course](https://frontendmasters.com/courses/astro/)
+3. [<FontIcon icon="iconfont icon-astro"/>Astro](https://astro.build/) (Multi-framework capable) — [Astro Course](https://frontendmasters.com/courses/astro/)
 
 And if you’re intentionally *not* wanting to use a site where you’re writing JavaScript to build it:
 
@@ -343,7 +343,7 @@ If what you’re building is a pure content site a classic Content Management Sy
 
 - [WordPress](https://wordpress.org/) (PHP)
 - [CraftCMS](https://craftcms.com/) (PHP)
-- [Strapi](https://strapi.io/) (Node)
+- [<FontIcon icon="iconfont icon-strapi"/>Strapi](https://strapi.io/) (Node)
 
 If you’re interested in more of a full stack framework that helps with back-end needs as well:
 

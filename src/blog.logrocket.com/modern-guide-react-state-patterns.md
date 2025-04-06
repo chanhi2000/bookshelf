@@ -175,7 +175,7 @@ But, for the above code to work, we need to first wrap the component tree above 
 </ThemeContext.Provider>
 ```
 
-With that in place, the consumer component will receive the value supplied by the Provider. Whenever the value supplied to the Provider is updated, the child below will be able to access that latest updated value. For more information about how the Context API can be used with the `useContext` Hook to manage state, [**check out this article**](/blog.logrocket.com/react-context-api-deep-dive-examples.md).
+With that in place, the consumer component will receive the value supplied by the Provider. Whenever the value supplied to the Provider is updated, the child below will be able to access that latest updated value. For more information about how the Context API can be used with the `useContext` Hook to manage state, [**check out this article**](/blog.logrocket.com/react-context-tutorial.md).
 
 ---
 

@@ -206,7 +206,7 @@ It’s evident now that state management gets messy as the app gets more complex
 
 Let’s look at another practice in modern JavaScript frontend solutions, called [**prop drilling**](/blog.logrocket.com/solving-prop-drilling-react-apps.md), that can lead to problems in growing applications.
 
-In a frontend solution like React, if the data needs to be passed from a parent to a child deep down the tree while also avoiding prop drilling, this can still be accomplished using the built-in state features like the [**Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md).
+In a frontend solution like React, if the data needs to be passed from a parent to a child deep down the tree while also avoiding prop drilling, this can still be accomplished using the built-in state features like the [**Context API**](/blog.logrocket.com/react-context-tutorial.md).
 
 Paired with the native `useReducer` Hook, the Context API might be sufficient to handle states locally in smaller to medium-sized apps.
 

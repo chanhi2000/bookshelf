@@ -443,7 +443,7 @@ return (
 
 ![Increment Counter](/assets/image/blog.logrocket.com/understanding-react-higher-order-components/increment-counter-1.webp)
 
-Here, one important thing to notice is that the value of the `counter` state is not shared between our child components. If you want to share states between various React components, use [**React’s Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md), which allows you to effortlessly share states and Hooks throughout your app.
+Here, one important thing to notice is that the value of the `counter` state is not shared between our child components. If you want to share states between various React components, use [**React’s Context API**](/blog.logrocket.com/react-context-tutorial.md), which allows you to effortlessly share states and Hooks throughout your app.
 
 ### Passing parameters
 

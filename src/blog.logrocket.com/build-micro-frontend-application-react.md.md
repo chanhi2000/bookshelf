@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/build-micro-frontend-application-react/b
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 4 November 2024 to cover common issues when building micro-frontends and their solutions, as well as examples of micro-frontend communication strategies such as event-based communication and [**using React’s Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md).
+This article was last updated by [<FontIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 4 November 2024 to cover common issues when building micro-frontends and their solutions, as well as examples of micro-frontend communication strategies such as event-based communication and [**using React’s Context API**](/blog.logrocket.com/react-context-tutorial.md).
 
 :::
 

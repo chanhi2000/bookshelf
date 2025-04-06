@@ -144,7 +144,7 @@ export const template: SidebarInfoTemplate = {
     "git", [
       "kubernetes-secrets-in-git", // 2019-09-25
     ]],[
-    "windows", [
+    "win", [
       "installing-docker-kubernetes-windows", // 2020-12-14
     ]],[
     "docker", [

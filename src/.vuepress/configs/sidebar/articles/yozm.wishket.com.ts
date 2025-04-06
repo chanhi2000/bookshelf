@@ -5,6 +5,14 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "3059", // 2025-04-10
+    "3057", // 2025-04-09
+    "3055", // 2025-04-08
+    "3052", // 2025-04-07
+    "3050", // 2025-04-04
+    "3046", // 2025-04-03
+    "3045", // 2025-04-02
+    "3042", // 2025-04-01
     "3038", // 2025-03-28
     "3037", // 2025-03-27
     "3034", // 2025-03-26
@@ -359,6 +367,8 @@ export const template: SidebarInfoTemplate = {
         "2918", // 2025-01-06
         "3009", // 2025-03-11
         "3034", // 2025-03-26
+        "3042", // 2025-04-01
+        "3055", // 2025-04-08
         // END: 2025js
         // END: js
       ]], [
@@ -382,6 +392,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2024js-node
         "2967", // 2025-02-10
         "2980", // 2025-02-18
+        "3057", // 2025-04-09
         // END: 2025js-node
         // END: js-node
       ]], [
@@ -417,6 +428,8 @@ export const template: SidebarInfoTemplate = {
       "js-next", [
         "2800", // 2024-10-15
         // END: 2024js-next
+        "3046", // 2025-04-03
+        // END: 2025js-next
         // END: js-next
       ]], [
       "js-vue", [
@@ -507,12 +520,18 @@ export const template: SidebarInfoTemplate = {
         "2658", // 2024-07-04
         // END: macos
       ]],[
-      "windows", [
+      "win", [
         "2418", // 2024-01-16
+        // END: 2024win
+        // END: win
       ]],[
       "docker", [
         "2527", // 2024-04-03
         "2692", // 2024-07-29
+        // END: 2024docker
+        "3046", // 2025-04-03
+        // END: 2025docker
+        // END: docker
       ]],[
       "k8s", [
         "1990", // 2023-04-26
@@ -566,6 +585,8 @@ export const template: SidebarInfoTemplate = {
         "2692", // 2024-07-29
         "2867", // 2024-11-28
         // END: 2024security
+        "3059", // 2025-04-10
+        // END: 2025security
         // END: security
       ]],[
       "data-science", [
@@ -590,6 +611,9 @@ export const template: SidebarInfoTemplate = {
       ]],[
       "postgres", [
         "2833", // 2024-11-06
+        // END: 2024postgres
+        "3045", // 2025-04-02
+        // END: 2025postgres
         // END: postgres
       ]],[
       "sqlite", [
@@ -657,6 +681,7 @@ export const template: SidebarInfoTemplate = {
         "2933", // 2025-01-15
         "2950", // 2025-01-27
         "2952", // 2025-01-29
+        "3052", // 2025-04-07
         // END: 2025system-design
         // END: system-design
       ]],[
@@ -688,7 +713,10 @@ export const template: SidebarInfoTemplate = {
         "2805", // 2024-10-17
         "2828", // 2024-11-04
         "2887", // 2024-12-12
+        // END: 2024llm
         "3033", // 2025-03-25
+        "3057", // 2025-04-09
+        // END: 2025llm
         // END: llm
       ]],[
       "github-copilot", [
@@ -787,6 +815,8 @@ export const template: SidebarInfoTemplate = {
         "3010", // 2025-03-11
         "3011", // 2025-03-12
         "3038", // 2025-03-28
+    
+        "3052", // 2025-04-07
         // END: 2025career
         // END: career
       ]],[
@@ -810,6 +840,11 @@ export const template: SidebarInfoTemplate = {
         "2951", // 2025-01-28
         // END: 2025math
         // END: math
+      ]],[
+      "phys", [
+        "3050", // 2025-04-04
+        // END: 2025phys
+        // END: phys
       ]],[
       "all", [
         Y2025,

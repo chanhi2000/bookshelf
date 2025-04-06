@@ -2,7 +2,7 @@
 lang: en-US
 title: "Create a Full Stack Spotify Clone with Flutter"
 description: "Article(s) > Create a Full Stack Spotify Clone with Flutter"
-icon: iconfont icon-dart
+icon: fa-brands fa-dart-lang
 category: 
   - Dart
   - Python
