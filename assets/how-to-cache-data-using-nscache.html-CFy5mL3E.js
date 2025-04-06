@@ -1,0 +1,28 @@
+import{_ as r}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as l,f as t,av as h,au as n,aw as c,ax as i,b as a,r as m,o as p}from"./app-OR5iPMEZ.js";const u={},d={id:"frontmatter-title-관련",tabindex:"-1"},g={class:"header-anchor",href:"#frontmatter-title-관련"};function w(s,e){const o=m("VPCard");return p(),l("div",null,[t("h1",d,[t("a",g,[t("span",null,h(s.$frontmatter.title)+" 관련",1)])]),n(o,c(i({title:"System - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/system/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),e[0]||(e[0]=t("nav",{class:"table-of-contents"},[t("ul")],-1)),e[1]||(e[1]=t("hr",null,null,-1)),n(o,c(i({title:"How to cache data using NSCache | System - free Swift example code",desc:"How to cache data using NSCache",link:"https://hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),e[2]||(e[2]=t("blockquote",null,[t("p",null,"Available from iOS 4.0")],-1)),a(" TODO: 작성 "),a(` 
+Here's an easy win for you that will make your apps immediately much better: \`NSCache\` is a specialized class that behaves similarly to a mutable dictionary with one major difference: iOS will automatically remove objects from the cache if the device is running low on memory.
+
+Helpfully, if the system does encounter memory pressure \`NSCache\` will automatically start to remove items without you knowing about it, which means you won't get a memory warning unless even more RAM needs to be cleared. It will also remove items intelligently, trying to keep as much cached as possible.
+
+Here's how to use it, imagining a fictional class called \`ExpensiveObjectClass\` that you want to compute as infrequently as you can:
+
+\`\`\`swift
+let cache = NSCache<NSString, ExpensiveObjectClass>()
+let myObject: ExpensiveObjectClass
+
+if let cachedVersion = cache.object(forKey: "CachedObject") {
+    // use the cached version
+    myObject = cachedVersion
+} else {
+    // create it from scratch then store in the cache
+    myObject = ExpensiveObjectClass()
+    cache.setObject(myObject, forKey: "CachedObject")
+}
+\`\`\`
+
+`),e[3]||(e[3]=t("details",{class:"hint-container details"},[t("summary",null,"Similar solutions…"),a(`
+/quick-start/swiftui/all-swiftui-property-wrappers-explained-and-compared">All SwiftUI property wrappers explained and compared 
+/quick-start/concurrency/how-to-create-and-use-an-actor-in-swift">How to create and use an actor in Swift 
+/quick-start/swiftui/how-to-create-multi-column-lists-using-table">How to create multi-column lists using Table 
+/quick-start/concurrency/how-to-handle-different-result-types-in-a-task-group">How to handle different result types in a task group 
+/quick-start/concurrency/how-to-use-continuations-to-convert-completion-handlers-into-async-functions">How to use continuations to convert completion handlers into async functions</a>
+`)],-1))])}const b=r(u,[["render",w],["__file","how-to-cache-data-using-nscache.html.vue"]]),k=JSON.parse('{"path":"/hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache.html","title":"How to cache data using NSCache","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to cache data using NSCache","description":"Article(s) > How to cache data using NSCache","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-4.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to cache data using NSCache"},{"property":"og:description","content":"How to cache data using NSCache"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to cache data using NSCache"}],["meta",{"property":"og:description","content":"Article(s) > How to cache data using NSCache"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-4.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2018-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to cache data using NSCache\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2018-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2018-03-28T00:00:00.000Z","isOriginal":false},"headers":[],"git":{"contributors":[{"name":"chanhi2000","email":"chanhi2000@gmail.com","commits":2}]},"readingTime":{"minutes":1.39,"words":417},"filePathRelative":"hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache.md","localizedDate":"2018년 3월 28일","excerpt":"\\n"}');export{b as comp,k as data};
