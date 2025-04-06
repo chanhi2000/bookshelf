@@ -255,7 +255,7 @@ Each technology in the MERN stack plays a specific role in this process:
 
 #### Step 1: React collects user input
 
-The user fills a signup form with their name, email, and password. There are various ways to capture the user’s input, including the `useState` hook, [**Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md), or third-party [**state management solutions**](/blog.logrocket.com/guide-choosing-right-react-state-management-solution.md).
+The user fills a signup form with their name, email, and password. There are various ways to capture the user’s input, including the `useState` hook, [**Context API**](/blog.logrocket.com/react-context-tutorial.md), or third-party [**state management solutions**](/blog.logrocket.com/guide-choosing-right-react-state-management-solution.md).
 
 When they click “Sign up,” React sends this data to the backend via a POST request.
 

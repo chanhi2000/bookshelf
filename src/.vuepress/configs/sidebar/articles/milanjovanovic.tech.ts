@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "mediatr-and-masstransit-going-commercial-what-this-means-for-you", // 2025-04-05
+    "how-dotnet-aspire-simplifies-service-discovery", // 2025-03-29
     "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
     "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
     "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
@@ -306,6 +308,8 @@ export const template: SidebarInfoTemplate = {
       "introduction-to-dapr-for-dotnet-developers", // 2025-03-01
       "better-request-tracing-with-user-context-in-asp-net-core", // 2025-03-08
       "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
+      "how-dotnet-aspire-simplifies-service-discovery", // 2025-03-29
+      "mediatr-and-masstransit-going-commercial-what-this-means-for-you", // 2025-04-05
       // END: 2025cs
       // END: cs
     ]],[

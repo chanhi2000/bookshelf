@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "css-bursts-with-conic-gradients", // 2025-04-03
+    "reanimating-the-css-day-buttons", // 2025-03-31
+    "expanding-css-shadow-effects", // 2025-03-28
     "layered-text-headers", // 2025-03-24
     "one-thing-scope-can-do-is-reduce-concerns-about-source-order", // 2025-03-20
     "overlapping-inline-backgrounds", // 2025-03-18
@@ -298,6 +301,9 @@ export const template: SidebarInfoTemplate = {
       "overlapping-inline-backgrounds", // 2025-03-18
       "one-thing-scope-can-do-is-reduce-concerns-about-source-order", // 2025-03-20
       "layered-text-headers", // 2025-03-24
+      "expanding-css-shadow-effects", // 2025-03-28
+      "reanimating-the-css-day-buttons", // 2025-03-31
+      "css-bursts-with-conic-gradients", // 2025-04-03
       // END: 2025css
       // END: css
     ]], [

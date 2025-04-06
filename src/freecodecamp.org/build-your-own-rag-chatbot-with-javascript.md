@@ -21,6 +21,7 @@ tag:
   - nextjs
   - next-js
   - ai
+  - artificial-intelligence
   - llm
   - large-language-model
   - langchain

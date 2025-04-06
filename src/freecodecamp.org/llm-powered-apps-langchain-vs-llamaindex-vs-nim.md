@@ -15,6 +15,7 @@ tag:
   - python
   - py
   - ai
+  - artificial-intelligence
   - llm
   - large-language-model
 head:

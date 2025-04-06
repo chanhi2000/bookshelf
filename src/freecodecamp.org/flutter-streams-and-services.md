@@ -2,7 +2,7 @@
 lang: en-US
 title: How to Use Streams and Services for Flutter State
 description: Article(s) > How to Use Streams and Services for Flutter State
-icon: iconfont icon-dart
+icon: fa-brands fa-dart-lang
 category: 
   - Dart
   - Article(s)

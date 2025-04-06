@@ -27,7 +27,7 @@ export const template: SidebarInfoTemplate = {
     "js-node", [
       'minify-css-and-js-files-linux', // 2024-08-01
     ]],[
-    "windows", [
+    "win", [
       'install-windows-subsystem-for-linux', // 2020-09-18
     ]],[
     "linux-debian", [

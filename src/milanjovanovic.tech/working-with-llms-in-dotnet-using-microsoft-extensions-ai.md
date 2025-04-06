@@ -18,6 +18,7 @@ tag:
   - csharp
   - dotnet
   - ai
+  - artificial-intelligence
   - llm
   - large-language-models
   - meta

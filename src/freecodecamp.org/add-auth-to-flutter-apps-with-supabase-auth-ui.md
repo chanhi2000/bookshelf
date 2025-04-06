@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-Create a <FontIcon icon="iconfont icon-dart"/>`splash_screen.dart` file in the `lib` folder and paste the following in it:
+Create a <FontIcon icon="fa-brands fa-dart-lang"/>`splash_screen.dart` file in the `lib` folder and paste the following in it:
 
 ```dart
 import 'package:auth_ui_example/auth_screen.dart';
@@ -260,7 +260,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 This creates a stateful widget class that checks for an active session and redirects to the authentications screen if there is no active session. It also displays some text and a button that allows the user to sign out of the application.
 
-Finally, create <FontIcon icon="iconfont icon-dart"/>`auth_screen.dart` in the <FontIcon icon="fas fa-folder-open"/>`lib` folder and paste the following into it:
+Finally, create <FontIcon icon="fa-brands fa-dart-lang"/>`auth_screen.dart` in the <FontIcon icon="fas fa-folder-open"/>`lib` folder and paste the following into it:
 
 ```dart
 import 'package:flutter/material.dart';

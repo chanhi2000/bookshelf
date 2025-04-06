@@ -194,7 +194,7 @@ The component-based architecture recommends using reusable components to constru
 
 @tab Weaknesses of component-based architecture
 
-- Difficult to handle the application state with large component trees, possibly requiring additional library features to solve state management issues (i.e., [**the React Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md)) to reduce the component tree source’s data flow complexity
+- Difficult to handle the application state with large component trees, possibly requiring additional library features to solve state management issues (i.e., [**the React Context API**](/blog.logrocket.com/react-context-tutorial.md)) to reduce the component tree source’s data flow complexity
 - Component-based unit tests are simple and self-explanatory, but developers have to spend time implementing mock services to implement them
 - Beginners have to master component-based architecture, best practices, and design patterns (i.e., [**React Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md)) before applying
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: How to Migrate a Flutter Application from GetIt to Bloc
 description: Article(s) > How to Migrate a Flutter Application from GetIt to Bloc
-icon: iconfont icon-dart
+icon: fa-brands fa-dart-lang
 category: 
   - Dart
   - Article(s)

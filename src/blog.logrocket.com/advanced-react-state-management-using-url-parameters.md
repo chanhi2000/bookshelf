@@ -60,7 +60,7 @@ One of the best capabilities of modern Web apps is providing smooth and responsi
 
 ![Advanced React State Management Using URL Parameters](/assets/image/blog.logrocket.com/advanced-react-state-management-using-url-parameters/banner.png)
 
-React makes these interactions easier with its built-in and third-party state management solutions such as the [**`useState` Hook**](/blog.logrocket.com/guide-usestate-react.md), [**the Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md), [**Redux**](/blog.logrocket.com/understanding-redux-tutorial-examples.md), and more.
+React makes these interactions easier with its built-in and third-party state management solutions such as the [**`useState` Hook**](/blog.logrocket.com/guide-usestate-react.md), [**the Context API**](/blog.logrocket.com/react-context-tutorial.md), [**Redux**](/blog.logrocket.com/understanding-redux-tutorial-examples.md), and more.
 
 However, some cases demand that states persist in support of the app’s overall UX. In such scenarios, using client-side storage or databases doesn’t make much sense, as this persistence has more to do with the app’s universal usability than personalization.
 

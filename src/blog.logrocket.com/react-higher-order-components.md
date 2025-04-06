@@ -478,7 +478,7 @@ Here is the expected result:
 
 ![Increment Counter](/assets/image/blog.logrocket.com/react-higher-order-components/increment-counter-1.webp)
 
-While HOCs are useful for sharing logic across multiple components, they do not share state between different instances of wrapped components. If a shared state is required across multiple components, consider using [**React’s Context API**](/blog.logrocket.com/react-context-api-deep-dive-examples.md), which provides an efficient way to manage global state.
+While HOCs are useful for sharing logic across multiple components, they do not share state between different instances of wrapped components. If a shared state is required across multiple components, consider using [**React’s Context API**](/blog.logrocket.com/react-context-tutorial.md), which provides an efficient way to manage global state.
 
 ---
 

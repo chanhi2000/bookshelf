@@ -2,7 +2,7 @@
 lang: en-US
 title: "How is Flutter Platform-Agnostic?"
 description: "Article(s) > How is Flutter Platform-Agnostic?"
-icon: iconfont icon-dart
+icon: fa-brands fa-dart-lang
 category:
   - Dart
   - Flutter
@@ -124,7 +124,7 @@ The embedder serves as the bridge between the Flutter engine and the host platfo
 
 The Flutter engine executes Dart code, manages assets, handles events, and most importantly, renders UI. It draws (or rasterizes user interfaces) the same way irrespective of the platform. Hence, achieving platform-agnosticism.
 
-The Flutter engine uses [<FontIcon icon="fas fa-globe"/>Skia](https://skia.org) or [<FontIcon icon="iconfont icon-dart"/>Impeller](https://docs.flutter.dev/perf/impeller) for low-level rendering tasks. Skia is an open-source graphics library with a robust set of drawing capabilities. Skia makes it possible to create smooth UIs.
+The Flutter engine uses [<FontIcon icon="fas fa-globe"/>Skia](https://skia.org) or [<FontIcon icon="fa-brands fa-dart-lang"/>Impeller](https://docs.flutter.dev/perf/impeller) for low-level rendering tasks. Skia is an open-source graphics library with a robust set of drawing capabilities. Skia makes it possible to create smooth UIs.
 
 Recently, we've got Impeller. Impeller provides a new rendering runtime for Flutter. It is already the default rendering tool in iOS devices and is coming soon to Android. It is an improvement to and should replace Skia.
 

@@ -691,12 +691,46 @@ const THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM: SidebarInfoSubgroupTemplate = { /
     'the-road-ahead-assessing-rsas-long-term-viability',
   ]
 }
+const BUILD_A_MULTILINGUAL_SOCIAL_RECIPE_APP_WITH_FLUTTER_AND_STRAPI: SidebarInfoSubgroupTemplate = { // 2025-04-09
+  text: 'How to Build a Multilingual Social Recipe Application with Flutter and Strapi',
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'build-a-multilingual-social-recipe-app-with-flutter-and-strapi', 
+  children: [
+    'README',
+    'create-models',
+    'add-languages-and-enable-internationalization-in-strapi',
+    'add-recipe-content',
+    'generate-api-token-and-set-permissions',
+    'set-up-flutter',
+    'install-packages',
+    'add-environment-variables',
+    'create-models-1',
+    'create-services',
+    'authorization-and-authentication',
+    'build-app-components',
+    'fetch-recipes',
+    'view-recipe',
+    'create-request-recipe-screen',
+    'create-user-profile-screen',
+    'test-the-app',
+  ]
+}
 
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "use-typespec-for-documenting-and-modeling-apis", // 2025-04-12
+    "train-your-own-llm", // 2025-04-11
+    "how-to-extend-the-django-user-model", // 2025-04-10
+    "how-to-use-lazygit-to-improve-your-git-workflow", // 2025-04-10
+    "learn-clojure-programming-basics", // 2025-04-10
+    "learn-lynx-to-create-javascript-mobile-apps", // 2025-04-10
+    BUILD_A_MULTILINGUAL_SOCIAL_RECIPE_APP_WITH_FLUTTER_AND_STRAPI,// 2025-04-09
+    "c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot", // 2025-04-09
+    "add-live-chat-to-your-applications-with-rocketchat", // 2025-04-07
     "vulnerabilities-vs-exploits-for-ethical-hackers", // 2025-04-05
     "use-wireshark-filters-to-analyze-network-traffic", // 2025-04-03
     THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
@@ -1729,6 +1763,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-code-a-crossy-road-game-clone-with-threejs", // 2025-02-21
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
       "javascript-essentials", // 2025-03-13
+      "add-live-chat-to-your-applications-with-rocketchat", // 2025-04-07
+      "use-typespec-for-documenting-and-modeling-apis", // 2025-04-12
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2106,6 +2142,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-secure-your-django-app", // 2024-05-22
       "how-to-integrate-tailwind-with-django", // 2024-11-05
       "how-django-mvt-architecture-works", // 2024-12-11
+      // END: 2024py-django
+      "how-to-extend-the-django-user-model", // 2025-04-10
+      // END: 2025py-django
       // END: py-django
     ]],[
     "py-flask", [
@@ -2166,7 +2205,10 @@ export const template: SidebarInfoTemplate = {
       "flutter-streams-and-services", // 2024-09-25
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
       "how-to-support-multiple-languages-in-flutter", // 2024-11-15
-      // END: dart
+      // END: 2024dart
+      BUILD_A_MULTILINGUAL_SOCIAL_RECIPE_APP_WITH_FLUTTER_AND_STRAPI,// 2025-04-09
+      // END: 2025dart
+    // END: dart
     ]],[
     "rust", [
       "procedural-macros-in-rust", // 2024-04-24
@@ -2282,6 +2324,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024cpp
       "learn-programming-in-cpp", // 2025-03-27
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
+      "c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot", // 2025-04-09
       // END: 2025cpp
       // END: cpp
     ]],[
@@ -2379,6 +2422,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025hs
       // END: hs
     ]],[
+    "clj", [
+      "learn-clojure-programming-basics", // 2025-04-10
+      // END: 2025clj
+      // END: clj
+    ]],[
     "vb", [
       // END: 2024vb
       "learn-a-level-computer-science-concepts", // 2025-02-14
@@ -2443,6 +2491,7 @@ export const template: SidebarInfoTemplate = {
       "learn-to-use-github-actions-step-by-step-guide", // 2025-01-16
       "set-up-docs-as-code-with-docusaurus-and-github-actions", // 2025-02-05
       "ssh-authentication-with-github-under-the-hood", // 2025-02-13
+      "how-to-use-lazygit-to-improve-your-git-workflow", // 2025-04-10
       // END: 2025github
       // END: github
     ]],[
@@ -2460,7 +2509,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024macos
       // END: macos
     ]],[
-    "windows", [
+    "win", [
       "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
       // END: 2024windows
       "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
@@ -2513,6 +2562,7 @@ export const template: SidebarInfoTemplate = {
       "containerize-a-nodejs-application-using-docker", // 2025-01-24
       "host-llms-locally-in-docker-on-azure", // 2025-03-27
       "deploy-a-restful-web-service-on-microsoft-azure-app-service", // 2025-03-29
+      "c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot", // 2025-04-09
       // END: 2025docker
       // END: docker
     ]],[
@@ -2904,6 +2954,7 @@ export const template: SidebarInfoTemplate = {
       "learn-machine-learning-concepts-plus-generative-ai", // 2025-03-06
       "how-to-write-effective-prompts-for-ai-agents-using-langbase", // 2025-03-20
       "host-llms-locally-in-docker-on-azure", // 2025-03-27
+      "train-your-own-llm", // 2025-04-11
       // END: 2025llm
       // END: llm
     ]],[

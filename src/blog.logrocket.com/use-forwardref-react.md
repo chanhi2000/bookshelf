@@ -558,7 +558,7 @@ Functional components are often meant to be simple and stateless. If you find yo
 
 ### Using refs for data flow
 
-Refs should not be used as a replacement for state management or prop passing. Data should primarily flow through component props, and when necessary, state management libraries like [Redux](https://blog.logrocket.com/understanding-redux-tutorial-examples/) or [React’s Context API](https://blog.logrocket.com/react-context-api-deep-dive-examples/) can be used.
+Refs should not be used as a replacement for state management or prop passing. Data should primarily flow through component props, and when necessary, state management libraries like [**Redux**](/blog.logrocket.com/understanding-redux-tutorial-examples.md) or [**React’s Context API**](//blog.logrocket.com/react-context-tutorial.md) can be used.
 
 ### Using refs in place of controlled components
 

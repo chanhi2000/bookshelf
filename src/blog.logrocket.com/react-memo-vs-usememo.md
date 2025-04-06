@@ -212,7 +212,7 @@ Now, when we select a cheese type by clicking on it, our `<Counts />` component 
 
 While `React.memo()` is a HOC, [**`useMemo()`**](/blog.logrocket.com/react-reference-guide-hooks-api.md#usememo) is a React Hook. With `useMemo()`, we can return memoized values and avoid re-rendering if the dependencies to a function have not changed.
 
-To use `useMemo()` within our code, [**React developers have some advice for us**](/blog.logrocket.com/rethinking-hooks-memoization.md):
+To use `useMemo()` within our code, [**React developers have some advice for us**](/blog.logrocket.com/when-not-to-use-usememo-react-hook.md):
 
 - You may rely on `useMemo()` as a performance optimization, not as a semantic guarantee
 - Every value referenced inside the function should also appear in the dependencies array

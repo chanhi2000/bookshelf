@@ -84,7 +84,7 @@ $$
 
 In this function, the output, `y`, computes solely on the input, `x`. That means every time we call the function with the same input, `x`, we always get the same output, `y`.
 
-The function does not affect anything outside of itself and never modifies the input that passes in. Hence, it is called a deterministic or [**pure function**](/blog.logrocket.com/react-pure-components-functional.md).
+The function does not affect anything outside of itself and never modifies the input that passes in. Hence, it is called a deterministic or [**pure function**](/blog.logrocket.com/pure-component-in-react.md).
 
 Let’s see an example:
 
@@ -441,7 +441,7 @@ Similar to the above functional pattern, we can build a complex component in Rea
 
 This gives us the flexibility to decide what goes inside a component and customize the content to get the desired output.
 
-A good example of components that implement this concept includes `Hero` and [**`Sidebar`**](/blog.logrocket.com/create-sidebar-menu-react.md).
+A good example of components that implement this concept includes `Hero` and `Sidebar`.
 
 ### Building a reusable `Hero` component
 
