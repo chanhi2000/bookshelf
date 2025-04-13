@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742917115054/07184be
 {
   "title": "GraphQL > Article(s)",
   "desc": "Article(s)",
-  "link": "/data-science/GraphQL/articles/README.md",
+  "link": "/data-science/graphql/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "using-currentcolor-in-2025", // 2025-04-10
+    "custom-progress-element-using-the-attr-function", // 2025-04-09
     "css-bursts-with-conic-gradients", // 2025-04-03
     "reanimating-the-css-day-buttons", // 2025-03-31
     "expanding-css-shadow-effects", // 2025-03-28
@@ -304,6 +306,8 @@ export const template: SidebarInfoTemplate = {
       "expanding-css-shadow-effects", // 2025-03-28
       "reanimating-the-css-day-buttons", // 2025-03-31
       "css-bursts-with-conic-gradients", // 2025-04-03
+      "custom-progress-element-using-the-attr-function", // 2025-04-09
+      "using-currentcolor-in-2025", // 2025-04-10
       // END: 2025css
       // END: css
     ]], [

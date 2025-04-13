@@ -2,11 +2,12 @@
 lang: en-US
 title: "How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
 description: "Article(s) > How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
-icon: 
+icon: fa-brands fa-ubuntu
 category:
   - DevOps
   - Linux
   - Debian
+  - Ubuntu
   - PHP
   - Article(s)
 tag:
@@ -15,6 +16,7 @@ tag:
   - devops
   - linux
   - debian
+  - ubuntu
   - php
 head:
   - - meta:

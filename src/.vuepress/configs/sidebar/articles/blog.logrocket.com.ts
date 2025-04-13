@@ -182,6 +182,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "declaring-jsx-types-typescript-5-1", // 2023-06-26
     HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
     "building-reusable-ui-components-with-react-hooks", // 2023-05-16
+    "implement-react-state-management-signia", // 2023-05-10
     "understanding-prioritize-react-ui-updates", // 2023-04-17
     "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
     "getting-started-with-create-react-app", // 2023-03-28
@@ -246,6 +247,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "detect-click-outside-react-component-how-to", // 2021-09-24
     "css-margin-vs-padding", // 2021-08-24
     "using-setstate-react-components", // 2021-07-16
+    "level-up-your-css-selector-skills", // 2021-07-01
     "guide-to-css-animation-for-javascript-developers", // 2021-06-23
     "create-react-app-a-quick-setup-guide", // 2021-06-08
     "a-deep-dive-into-css-modules", // 2021-06-07
@@ -434,6 +436,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-create-react-app", // 2023-03-28
       "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
       "understanding-prioritize-react-ui-updates", // 2023-04-17
+      "implement-react-state-management-signia", // 2023-05-10
       "building-reusable-ui-components-with-react-hooks", // 2023-05-16
       HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
       "declaring-jsx-types-typescript-5-1", // 2023-06-26
@@ -572,6 +575,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020css
       "a-deep-dive-into-css-modules", // 2021-06-07
       "guide-to-css-animation-for-javascript-developers", // 2021-06-23
+      "level-up-your-css-selector-skills", // 2021-07-01
       "css-margin-vs-padding", // 2021-08-24
       "why-your-css-fails", // 2021-12-01
       // END: 2021css
