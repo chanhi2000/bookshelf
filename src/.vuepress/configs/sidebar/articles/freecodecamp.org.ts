@@ -717,11 +717,32 @@ const BUILD_A_MULTILINGUAL_SOCIAL_RECIPE_APP_WITH_FLUTTER_AND_STRAPI: SidebarInf
   ]
 }
 
+const BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R: SidebarInfoSubgroupTemplate = { // 2025-04-15
+  text: 'How to Build a Local RAG App with Ollama and ChromaDB in the R Programming Language',
+  collapsible: true,
+  icon: 'iconfont icon-r',
+  subPath: '"build-a-local-rag-app-with-ollama-and-chromadb-in-r', 
+  children: [
+    'README',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
 text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "an-animated-introduction-to-sql-learn-to-query-relational-databases", // 2025-04-17
+    "how-to-build-a-rest-api-in-django", // 2025-04-16
+    "how-to-build-rag-ai-agents-with-typescript", // 2025-04-16
+    "nestjs-unit-testing-e2e-testing-guide", // 2025-04-16
+    "how-to-build-a-graphql-api-in-django", // 2025-04-16
+    "how-php-type-juggling-works-explained-with-code-examples", // 2025-04-16
+    BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R, // 2025-04-15
+    "automate-cicd-with-github-actions-streamline-workflow", // 2025-04-15
+    "how-to-use-css-text-wrap-property", // 2025-04-14
+    "set-up-a-proxmox-cluster-virtualization-basics", // 2025-04-14
+    "how-to-use-django-signals-in-your-projects", // 2025-04-14
     "use-typespec-for-documenting-and-modeling-apis", // 2025-04-12
     "train-your-own-llm", // 2025-04-11
     "how-to-extend-the-django-user-model", // 2025-04-10
@@ -1697,6 +1718,7 @@ export const template: SidebarInfoTemplate = {
       LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK, // 2025-02-08
       "build-a-serverless-ai-agent-for-generating-cold-emails", // 2025-02-19
       "how-to-enforce-type-safety-in-formdata-with-typescript", // 2025-03-10
+      "how-to-build-rag-ai-agents-with-typescript", // 2025-04-16
       // END: 2025ts
       // END: ts
     ]],[
@@ -1943,6 +1965,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-handle-file-uploads-in-nestjs-with-multer", // 2024-08-28
       // END: 2024js-nest
       "create-microservices-with-nestjs", // 2025-03-27
+      "nestjs-unit-testing-e2e-testing-guide", // 2025-04-16
       // END: 2025js-nest
       // END: js-nest
     ]],[
@@ -1981,6 +2004,7 @@ export const template: SidebarInfoTemplate = {
     "js-graphql", [
       // END: 2024js-graphql
       "learn-api-fundamentals-and-architecture", // 2025-03-22
+      "how-to-build-a-graphql-api-in-django", // 2025-04-16
       // END: 2025js-graphql
       // END: js-graphql
     ]],[
@@ -2030,6 +2054,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-simple-portfolio-website-with-html-and-css", // 2025-01-14
       "how-to-programmatically-highlight-text-with-the-css-custom-highlight-api", // 2025-01-16
       "how-to-use-testcontainers-in-net", // 2025-03-26
+      "how-to-use-css-text-wrap-property", // 2025-04-14
       // END: 2025css
       // END: css
     ]],[
@@ -2144,6 +2169,9 @@ export const template: SidebarInfoTemplate = {
       "how-django-mvt-architecture-works", // 2024-12-11
       // END: 2024py-django
       "how-to-extend-the-django-user-model", // 2025-04-10
+      "how-to-use-django-signals-in-your-projects", // 2025-04-14
+      "how-to-build-a-graphql-api-in-django", // 2025-04-16
+      "how-to-build-a-rest-api-in-django", // 2025-04-16
       // END: 2025py-django
       // END: py-django
     ]],[
@@ -2336,6 +2364,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-wpscan-to-keep-your-wordpress-site-secure", // 2024-12-06
       // END: 2024php
       "how-to-develop-with-codeigniter-on-ubuntu-environment-setup", // 2025-01-24
+      "how-php-type-juggling-works-explained-with-code-examples", // 2025-04-16
       // END: 2025php
       // END: php
     ]],[
@@ -2492,6 +2521,7 @@ export const template: SidebarInfoTemplate = {
       "set-up-docs-as-code-with-docusaurus-and-github-actions", // 2025-02-05
       "ssh-authentication-with-github-under-the-hood", // 2025-02-13
       "how-to-use-lazygit-to-improve-your-git-workflow", // 2025-04-10
+      "automate-cicd-with-github-actions-streamline-workflow", // 2025-04-15
       // END: 2025github
       // END: github
     ]],[
@@ -2535,6 +2565,11 @@ export const template: SidebarInfoTemplate = {
       "learn-user-management-in-rhel-a-comprehensive-guide", // 2025-02-19
       // END: 2025linux-fedora
       // END: linux-fedora
+    ]],[
+    "proxmox", [
+      "set-up-a-proxmox-cluster-virtualization-basics", // 2025-04-14
+      // END: 2025proxmox
+      // END: proxmox
     ]],[
     "docker", [
       DEVOPS_WITH_GITLAB_CI_COURSE, // 2022-03-02
@@ -2649,9 +2684,10 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "netlify", [
       "how-to-deploy-your-front-end-app", // 2021-01-09
+      // END: netlify
     ]],[
     "vercel", [
-        // END: 2022js-next
+      // END: 2022js-next
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
@@ -2841,6 +2877,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024r
       "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
       "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
+      BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R, // 2025-04-15
       // END: 2025r
       // END: r
     ]],[
@@ -2965,6 +3002,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024openai
       AI_IN_AGRICULTURE_BOOK, // 2025-01-15
       "build-an-ai-chat-application-with-the-mern-stack", // 2025-02-27
+      "how-to-build-rag-ai-agents-with-typescript", // 2025-04-16
       // END: 2025openai
       // END: openai
     ]],[

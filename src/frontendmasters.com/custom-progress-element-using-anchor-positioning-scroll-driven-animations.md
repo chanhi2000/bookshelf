@@ -73,6 +73,30 @@ At the time of writing, only Chrome (and Edge) have the full support of the feat
 
 I highly recommend you read [**the previous article**](/frontendmasters.com/custom-range-slider-using-anchor-positioning-scroll-driven-animations.md) before this one. It’s not mandatory but I will be reusing many CSS tricks so this one will be easier to understand if you already know some of the tricks.
 
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Custom Progress Element Using Anchor Positioning & Scroll-Driven Animations",
+  "desc": "A single HTML `progress` element can have quite an elaborate design with custom colors, a tooltip showing the active %, and even an entrance animation. ",
+  "link": "/frontendmasters.com/custom-progress-element-using-anchor-positioning-scroll-driven-animations.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Custom progress element using the attr() function",
+  "desc": "Now that we're starting to be able to apply types (like `number`) to values of attributes we pull of HTML elements in CSS, doing interesting things with  is easier.",
+  "link": "/frontendmasters.com/custom-progress-element-using-the-attr-function.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
+
 ---
 
 ## The Initial Configuration
@@ -523,6 +547,30 @@ And here is the version with the animation where I am simply reusing the same te
 ## Conclusion
 
 I hope you enjoyed this CSS experimentation. It was a good exercise and we explored a lot of modern features. You will probably not use these components in a real project but you will for sure need some of the CSS tricks you have learned.
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Custom Progress Element Using Anchor Positioning & Scroll-Driven Animations",
+  "desc": "A single HTML `progress` element can have quite an elaborate design with custom colors, a tooltip showing the active %, and even an entrance animation. ",
+  "link": "/frontendmasters.com/custom-progress-element-using-anchor-positioning-scroll-driven-animations.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Custom progress element using the attr() function",
+  "desc": "Now that we're starting to be able to apply types (like `number`) to values of attributes we pull of HTML elements in CSS, doing interesting things with  is easier.",
+  "link": "/frontendmasters.com/custom-progress-element-using-the-attr-function.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
