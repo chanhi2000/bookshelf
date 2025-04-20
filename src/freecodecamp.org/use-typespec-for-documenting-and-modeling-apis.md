@@ -911,7 +911,7 @@ The TypeSpec ecosystem is still young but very promising, supported by Microsoft
 {
   "title": "OpenAPI Specification - Version 3.1.0 | Swagger",
   "desc": "The OpenAPI Specification defines a standard interface to RESTful APIs which allows both humans and computers to understand service capabilities without access to source code, documentation, or network traffic inspection.",
-  "link": "https://swagger.io/specification//",
+  "link": "https://swagger.io/specification/",
   "logo": "https://static1.smartbear.co/swagger/media/assets/swagger_fav.png",
   "background": "rgba(157,232,83,0.2)"
 }

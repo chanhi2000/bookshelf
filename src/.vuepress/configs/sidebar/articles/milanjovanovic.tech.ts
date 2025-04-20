@@ -15,6 +15,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
+    "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
+    "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
+    "understanding-microservices-core-concepts-and-benefits", // 2025-04-19
+    "what-is-vector-search-a-concise-guide", // 2025-04-12
     "mediatr-and-masstransit-going-commercial-what-this-means-for-you", // 2025-04-05
     "how-dotnet-aspire-simplifies-service-discovery", // 2025-03-29
     "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
@@ -310,6 +315,9 @@ export const template: SidebarInfoTemplate = {
       "options-pattern-validation-in-aspnetcore-with-fluentvalidation", // 2025-03-22
       "how-dotnet-aspire-simplifies-service-discovery", // 2025-03-29
       "mediatr-and-masstransit-going-commercial-what-this-means-for-you", // 2025-04-05
+      "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
+      "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
+      "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
       // END: 2025cs
       // END: cs
     ]],[
@@ -327,12 +335,16 @@ export const template: SidebarInfoTemplate = {
     "erl-rabbitmq", [
       "implementing-the-saga-pattern-with-rebus-and-rabbitmq", // 202404-01
       // END: 2024erl-rabbitmq
+      "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
+      // END: 2025erl-rabbitmq
       // END: erl-rabbitmq
     ]],[
     "docker", [
       "horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing", // 2024-03-30
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
       "dotnet-aspire-a-game-changer-for-cloud-native-development", // 2024-09-14
+      // END: 2024docker
+      // END: docker
     ]],[
     "github", [
       "how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet", // 2023-05-27
@@ -344,6 +356,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "aws", [
       "complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit", // 2024-08-17
+      // END: 2024aws
       // END: aws
     ]],[
     "azure", [
@@ -364,6 +377,7 @@ export const template: SidebarInfoTemplate = {
     "redis", [
       "caching-in-aspnetcore-improving-application-performance", // 2024-06-08
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
+      // END: 2024redis
       // END: redis
     ]],[
     "system-design", [
@@ -378,12 +392,19 @@ export const template: SidebarInfoTemplate = {
       "internal-vs-public-apis-in-modular-monoliths", // 2024-12-14
       // END: 2024system-design
       "scaling-monoliths-a-practical-guide-for-growing-systems", // 2025-01-18
+      "understanding-microservices-core-concepts-and-benefits", // 2025-04-19
+      "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       // END: 2025system-design
       // END: system-design
     ]],[
     "career", [
       "how-to-be-a-better-software-engineer-in-2023", // 2022-12-31
       "what-rewriting-a-40-year-old-project-taught-me-about-software-development", // 2024-12-28
+    ]],[
+    "llama", [
+      "what-is-vector-search-a-concise-guide", // 2025-04-12
+      // END: 2025llm
+      // END: llm
     ]],[
     "llama", [
       "working-with-llms-in-dotnet-using-microsoft-extensions-ai", // 2025-01-11

@@ -98,6 +98,10 @@ export const navbarEn = navbar([
         icon: 'https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png',
         link: '/packagemain.tech/README.md'
       }, {
+        text: 'gosolve.io',
+        icon: 'https://gosolve.io/wp-content/uploads/2022/03/cropped-ikona1-192x192.png',
+        link: '/gosolve.io/README.md'
+      }, {
         text: 'towardsdatascience.com',
         icon: 'https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png',
         link: '/towardsdatascience.com/README.md'

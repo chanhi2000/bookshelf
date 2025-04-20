@@ -75,7 +75,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Deploy Your Python Script on the Web With Flask – Real Python"
   desc="In this course, you’ll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world."
-  url="https://realpython.com/courses/deploy-python-script-web-flask//"
+  url="https://realpython.com/courses/deploy-python-script-web-flask/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg"/>
 
@@ -173,7 +173,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <SiteInfo
   name="Deploy Your Python Script on the Web With Flask – Real Python"
   desc="In this course, you’ll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world."
-  url="https://realpython.com/courses/deploy-python-script-web-flask//"
+  url="https://realpython.com/courses/deploy-python-script-web-flask/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg"/>
 

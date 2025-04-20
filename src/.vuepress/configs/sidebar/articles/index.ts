@@ -17,6 +17,7 @@ import { template as TEMPLATE_REALPYTHON } from './realpython.com';
 import { template as TEMPLATE_MILAN_JOVANOVIC } from './milanjovanovic.tech';
 import { template as TEMPLATE_EVENT_DRIVEN } from './event-driven.io';
 import { template as TEMPLATE_PACKAGEMAIN_TECH } from './packagemain.tech';
+import { template as TEMPLATE_GOSOLVE } from './gosolve.io';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -144,6 +145,7 @@ export const articleSidebars = {
   kakaoEnt:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KAKAO_ENT, type),
   milanJovanovic:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_MILAN_JOVANOVIC, type),
   packgemainTech:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_PACKAGEMAIN_TECH, type),
+  gosolve:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_GOSOLVE, type),
   eventDriven:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_EVENT_DRIVEN, type),
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),

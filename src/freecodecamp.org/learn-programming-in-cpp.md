@@ -9,8 +9,9 @@ category:
 tag:
   - blog
   - freecodecamp.org
-  - cpp
   - c++
+  - cpp
+  - c-plus-plus
 head:
   - - meta:
     - property: og:title

@@ -30,7 +30,6 @@ head:
 <DevGithubItems />
 <DevHackerNewsItems /> 
 
-
 ---
 
 ## <FontIcon icon="fas fa-bookmark"/>Bookmarks
@@ -433,6 +432,13 @@ head:
   url="https://www.compositional-it.com/news-blog/"
   logo="https://www.compositional-it.com/wp-content/themes/compositionalit/static/min/img/favicon.png"
   preview="https://www.compositional-it.com/wp-content/themes/compositionalit/static/min/img/placeholders/hero.jpg"/>
+
+<SiteInfo
+  name="selfh.st - Self-hosted content and software"
+  desc="Self-hosted news, content, updates, launches, events, and more"
+  url="https://selfh.st/"
+  logo="https://selfh.st/content/images/size/w256h256/2023/09/favicon-1.png"
+  preview="https://selfh.st/content/images/2024/07/selfh-st-logo-banner-3.png"/>
 
 https://www.techmeme.com/
 https://gracefullight.dev/archive/

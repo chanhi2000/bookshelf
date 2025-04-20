@@ -290,7 +290,7 @@ CREATE TABLE IF NOT EXISTS customers (
 );
 ```
 
-This first *migrations* table is essential, as it keeps all the migrations running so far. So, if you run the migration CLI once, it’ll only run the migrations once. Migrations are using internally [<FontIcon icon="iconfont icon-postgres"/>Postgres Advisory Locks](https://postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS) to ensure that no migrations are happening in parallel. Safety first!
+This first *migrations* table is essential, as it keeps all the migrations running so far. So, if you run the migration CLI once, it’ll only run the migrations once. Migrations are using internally [<FontIcon icon="iconfont icon-postgresql"/>Postgres Advisory Locks](https://postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS) to ensure that no migrations are happening in parallel. Safety first!
 
 In the future, you’ll also be able to provide your custom schema and data migrations through it!
 

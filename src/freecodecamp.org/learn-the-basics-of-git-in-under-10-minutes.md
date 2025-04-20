@@ -374,7 +374,7 @@ When you `git fetch`, Git gathers any commits from the target branch that do not
 
 ### One More Thing
 
-```
+```plaintext
 .gitignore
 ```
 
@@ -444,7 +444,7 @@ etc. depending upon the files you want git to untrack
 {
   "title": "Learn the Basics of Git in Under 10 Minutes",
   "desc": "By Gowtham Venkatesan Yes, the title is a clickbait. There is no way you can understand the basics of git technology in just 10 minutes. But you can get pretty close in about 25 minutes. And that is the purpose of this article. If you want to get sta...",
-  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-basics-of-git-in-under-10-minutes-da548267cc91.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-basics-of-git-in-under-10-minutes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

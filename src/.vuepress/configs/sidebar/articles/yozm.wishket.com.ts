@@ -5,6 +5,17 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "3097", // 2025-04-30
+    "3095", // 2025-04-29
+    "3093", // 2025-04-29
+    "3081", // 2025-04-23
+    "3077", // 2025-04-21
+    "3076", // 2025-04-21
+    "3072", // 2025-04-17
+    "3069", // 2025-04-16
+    "3066", // 2025-04-14
+    "3062", // 2025-04-11
+    "3061", // 2025-04-11
     "3059", // 2025-04-10
     "3057", // 2025-04-09
     "3055", // 2025-04-08
@@ -330,6 +341,8 @@ export const template: SidebarInfoTemplate = {
         "2682", // 2024-07-22
         "2743", // 2024-09-03
         // END: 2024java
+        "3093", // 2025-04-29
+        // END: 2025java
         // END: java
       ]], [
       "java-spring", [
@@ -373,6 +386,7 @@ export const template: SidebarInfoTemplate = {
         "3034", // 2025-03-26
         "3042", // 2025-04-01
         "3055", // 2025-04-08
+        "3072", // 2025-04-17
         // END: 2025js
         // END: js
       ]], [
@@ -398,6 +412,7 @@ export const template: SidebarInfoTemplate = {
         "2978", // 2025-02-17
         "2980", // 2025-02-18
         "3057", // 2025-04-09
+        "3097", // 2025-04-30
         // END: 2025js-node
         // END: js-node
       ]], [
@@ -516,7 +531,12 @@ export const template: SidebarInfoTemplate = {
       "github", [
         "2184", // 2023-08-21
         "2197", // 2023-08-25
+        // END: 2023github
         "2745", // 2024-09-04
+        // END: 2024github
+        "3097", // 2025-04-30
+        // END: 2025github
+        // END: github
       ]],[
       "jira", [
         "2295", // 2023-10-31
@@ -605,6 +625,7 @@ export const template: SidebarInfoTemplate = {
         "2940", // 2025-01-20
         "2962", // 2025-02-06
         "2972", // 2025-02-12
+        "3061", // 2025-04-11
         // END: 2025data-science
         // END: data-science
       ]],[
@@ -691,6 +712,7 @@ export const template: SidebarInfoTemplate = {
         "2950", // 2025-01-27
         "2952", // 2025-01-29
         "3052", // 2025-04-07
+        "3077", // 2025-04-21
         // END: 2025system-design
         // END: system-design
       ]],[
@@ -738,6 +760,9 @@ export const template: SidebarInfoTemplate = {
         "2619", // 2024-06-07
         "2641", // 2024-06-22
         "2798", // 2024-10-14
+        // END: 2024openai
+        "3076", // 2025-04-21
+        // END: 2025openai
         // END: openai
       ]],[
       "gemeni", [
@@ -826,8 +851,11 @@ export const template: SidebarInfoTemplate = {
         "3010", // 2025-03-11
         "3011", // 2025-03-12
         "3038", // 2025-03-28
-    
         "3052", // 2025-04-07
+        "3061", // 2025-04-11
+        "3062", // 2025-04-11
+        "3069", // 2025-04-16
+        "3093", // 2025-04-29
         // END: 2025career
         // END: career
       ]],[
@@ -844,6 +872,8 @@ export const template: SidebarInfoTemplate = {
         "2996", // 2025-02-28
         "3006", // 2025-03-07
         "3028", // 2025-03-21
+        "3066", // 2025-04-14
+        "3095", // 2025-04-29
         // END: 2025coen
         // END: coen
       ]],[

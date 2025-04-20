@@ -281,11 +281,11 @@ You can also see that the offset from UTC changed:
 
 `.utcoffset()` returns a `timedelta`. The [most effective way](https://talkpython.fm/episodes/show/271/unlock-the-mysteries-of-time-pythons-datetime-that-is) to calculate how many hours are represented by a given `timedelta` is to divide it by a `timedelta` representing one hour.
 
-There are many other weird stories about time zones. Paul Ganssle covers some of them in his PyCon 2019 presentation, [Working With Time Zones: Everything You Wish You Didn’t Need to Know](https://youtube.com/watch?v=rz3D8VG_2TY). See if you can find traces of any of the others in the Time Zone Database.
+There are many other weird stories about time zones. Paul Ganssle covers some of them in his PyCon 2019 presentation, [Working With Time Zones: Everything You Wish You Didn’t Need to Know](https://youtu.be/rz3D8VG_2TY). See if you can find traces of any of the others in the Time Zone Database.
 
 ### Using Best Practices
 
-Working with time zones can be [tricky](https://youtube.com/watch?v=-5wpm-gesOY). However, with the availability of `zoneinfo` in the standard library, it’s gotten a bit easier. Here are a [few suggestions](https://youtube.com/watch?v=rz3D8VG_2TY&t=24m10s) to keep in mind when working with dates and times:
+Working with time zones can be [tricky](https://youtu.be/-5wpm-gesOY). However, with the availability of `zoneinfo` in the standard library, it’s gotten a bit easier. Here are a [few suggestions](https://youtu.be/rz3D8VG_2TY&t=24m10s) to keep in mind when working with dates and times:
 
 - **Civil times** like the time of a meeting, a train departure, or a concert, are best stored in their native time zone. You can often do this by storing a naive time stamp together with the IANA key of the time zone. One example of a civil time stored as a [string](https://realpython.com/python-strings/) would be `"2020-10-05T14:00:00,Europe/Oslo"`. Having information about the time zone ensures that you can always recover the information, even if the time zones themselves change.
 - **Time stamps** represent specific moments in time and typically record an order of events. Computer logs are an example of this. You don’t want your logs to be jumbled up just because your time zone changes from Daylight Saving Time to standard time. Usually, you would store these kinds of time stamps as naive datetimes in UTC.
@@ -336,7 +336,7 @@ This makes your program compatible with all Python versions from 3.6 and up. See
 
 ## Simpler Updating of Dictionaries
 
-[Dictionaries](https://realpython.com/python-dicts/) are one of the fundamental data structures in Python. They’re used everywhere in the language and have gotten [quite optimized over time](https://youtube.com/watch?v=npw4s1QTmPg).
+[Dictionaries](https://realpython.com/python-dicts/) are one of the fundamental data structures in Python. They’re used everywhere in the language and have gotten [quite optimized over time](https://youtu.be/npw4s1QTmPg).
 
 There are several ways you can merge two dictionaries. However, the syntax is either a bit cryptic or cumbersome:
 

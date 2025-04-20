@@ -267,21 +267,21 @@ So—how are you planning to extend your Django user model, and what fields do y
 <SiteInfo
   name="Customizing authentication in Django | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/auth/customizing//"
+  url="https://docs.djangoproject.com/en/5.2/topics/auth/customizing/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Customizing authentication in Django | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/auth/customizing//"
+  url="https://docs.djangoproject.com/en/5.2/topics/auth/customizing/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Signals | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/signals//"
+  url="https://docs.djangoproject.com/en/5.2/topics/signals/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
@@ -295,7 +295,7 @@ So—how are you planning to extend your Django user model, and what fields do y
 <SiteInfo
   name="How To Get Started In Tech With No Experience"
   desc="I often get questions about starting a career in tech when I don't have any previous experience."
-  url="https://tchelete.com/how-to-get-started-in-tech-with-no-experience//"
+  url="https://tchelete.com/how-to-get-started-in-tech-with-no-experience/"
   logo="https://tchelete.com/wp-content/uploads/2022/09/cropped-android-chrome-512x512-1-2-192x192.png"
   preview="https://tchelete.com/wp-content/uploads/2022/02/photo-1573164713712-03790a178651.jpg"/>
 

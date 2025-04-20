@@ -73,7 +73,7 @@ Let's explore both approaches using a simple `UserNotes` table and see how they 
 
 We'll look at the implementation details, compare query performance, and discuss where each approach makes the most sense.
 
-I've included real execution plans from [<FontIcon icon="iconfont icon-postgres"/>PostgreSQL](https://postgresql.org) to demonstrate the significant performance differences between these approaches.
+I've included real execution plans from [<FontIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org) to demonstrate the significant performance differences between these approaches.
 
 ---
 
@@ -258,7 +258,7 @@ The `COUNT` query is omitted in cursor pagination because we're not counting the
 
 ## Examining the SQL Execution Plans
 
-I wanted to compare the execution plans for offset and cursor pagination. I used the `EXPLAIN ANALYZE` command in PostgreSQL to see the [<FontIcon icon="iconfont icon-postgres"/>query plans](https://postgresql.org/docs/current/using-explain.html).
+I wanted to compare the execution plans for offset and cursor pagination. I used the `EXPLAIN ANALYZE` command in PostgreSQL to see the [<FontIcon icon="iconfont icon-postgresql"/>query plans](https://postgresql.org/docs/current/using-explain.html).
 
 Here's the offset pagination query:
 

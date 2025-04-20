@@ -127,7 +127,7 @@ The [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk)
 
 The SDK is designed to work with Node.js, Next.js, React, or any modern JavaScript stack. You can use it to upload documents, create semantic memory, and run AI workflows (called Pipe agents) with just a few lines of code.
 
-[globe  Langbase](http://langbase.com) is an API-first AI platform. Its TypeScript SDK smooths out the experience, making it easy to get started without dealing with infrastructure. Just drop in your API key, write your logic, and you're good to go.
+[<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) is an API-first AI platform. Its TypeScript SDK smooths out the experience, making it easy to get started without dealing with infrastructure. Just drop in your API key, write your logic, and you're good to go.
 
 Now that you know about Langbase SDK, let’s start building the RAG agent.
 

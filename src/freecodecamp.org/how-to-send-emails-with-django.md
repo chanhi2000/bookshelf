@@ -249,14 +249,14 @@ If you want to dive deeper into emails with Django, check out these links:
 <SiteInfo
   name="Sending email | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/email//"
+  url="https://docs.djangoproject.com/en/5.2/topics/email/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Django Send Email: Tutorial with Code Snippets [2025]"
   desc="Learn how to send emails in Django using SMTP or email API: plain-text or HTML emails, with attachments, to multiple recipients, and more."
-  url="https://mailtrap.io/blog/django-send-email//"
+  url="https://mailtrap.io/blog/django-send-email/"
   logo="https://mailtrap.io/wp-content/uploads/2023/01/cropped-favicon-192x192.png"
   preview="https://mailtrap.io/wp-content/uploads/2019/08/Django_Монтажная-область-1-копия-8.png"/>
 

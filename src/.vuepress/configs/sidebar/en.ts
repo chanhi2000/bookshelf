@@ -27,6 +27,7 @@ export const sidebarEn = sidebar({
   '/sitepoint.com/':              [asb.sitepoint()],
   '/event-driven.io/':            [asb.eventDriven()],
   '/packagemain.tech/':           [asb.packgemainTech()],
+  '/gosolve.io/':                 [asb.gosolve()],
   '/towardsdatascience.com/':     [asb.towardsdatascience()],
   '/douggregor.net/':             [asb.douggregor()],
   '/tech.kakao.com/':             [asb.kakaoTech()],

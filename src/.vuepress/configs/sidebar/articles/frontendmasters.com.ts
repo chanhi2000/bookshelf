@@ -5,6 +5,14 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
+    "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
+    "curved-box-cutouts-in-css", // 2025-05-01
+    "seeking-an-answer-why-cant-html-alone-do-includes", // 2025-04-29
+    "react-internals-which-useeffect-runs-first", // 2025-04-28
+    "am-i-a-sadistic-developer-are-you", // 2025-04-24
+    "newfangled-browser-alternatives", // 2025-04-22
+    "lessons-learned-from-recreating-a-styled-dialog", // 2025-04-16
     "using-currentcolor-in-2025", // 2025-04-10
     "custom-progress-element-using-the-attr-function", // 2025-04-09
     "css-bursts-with-conic-gradients", // 2025-04-03
@@ -211,6 +219,7 @@ export const template: SidebarInfoTemplate = {
       "react-19-and-web-component-examples", // 2024-12-16
       "introducing-tanstack-start", // 2024-12-18
       // END: 2024js-react
+      "react-internals-which-useeffect-runs-first", // 2025-04-28
       // END: 2025js-react
       // END: js-react
     ]], [
@@ -308,6 +317,10 @@ export const template: SidebarInfoTemplate = {
       "css-bursts-with-conic-gradients", // 2025-04-03
       "custom-progress-element-using-the-attr-function", // 2025-04-09
       "using-currentcolor-in-2025", // 2025-04-10
+      "seeking-an-answer-why-cant-html-alone-do-includes", // 2025-04-29
+      "curved-box-cutouts-in-css", // 2025-05-01
+      "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
+      "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
       // END: 2025css
       // END: css
     ]], [
@@ -333,6 +346,8 @@ export const template: SidebarInfoTemplate = {
     "chrome", [
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
       // END: 2024chrome
+      "newfangled-browser-alternatives", // 2025-04-22
+      // END: 2025chrome
       // END: chrome
     ]], [
     "figma", [
@@ -355,6 +370,9 @@ export const template: SidebarInfoTemplate = {
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04
       "what-skills-should-you-focus-on-as-junior-web-developer-in-2024", // 2024-08-26
       "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
+      // END: 2024career
+      "am-i-a-sadistic-developer-are-you", // 2025-04-24
+      // END: 2025career
       // END: career
     ]], [
     "all", [
