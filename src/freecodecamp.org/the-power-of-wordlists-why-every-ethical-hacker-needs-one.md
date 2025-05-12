@@ -4,13 +4,15 @@ title: "The Power of Wordlists: Why Every Ethical Hacker Needs One"
 description: "Article(s) > The Power of Wordlists: Why Every Ethical Hacker Needs One"
 icon: fas fa-shield-halved
 category:
+  - DevOps
   - Security
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
-  - security
+  - devops
   - sec
+  - security
 head:
   - - meta:
     - property: og:title

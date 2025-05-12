@@ -94,7 +94,7 @@ You can [<FontIcon icon="iconfont icon-archlinux"/>install lazygit](https://aur.
 sudo pacman -S lazygit
 ```
 
-@tab <FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="fa-brands fa-debian"/>
+@tab <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
 
 You can install lazygit in Ubuntu and Debian using the following command:
 
@@ -113,7 +113,7 @@ lazygit --version
 # commit=, build date=, build source=nix, version=0.44.1, os=linux, arch=amd64, git version=2.47.0
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-redhat"/>
+@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
 
 You can install lazygit in Fedora and RHEL using DNF like this:
 
@@ -151,7 +151,7 @@ To use Lazygit, you don’t need any advanced knowledge about Lazygit or the Git
 
 The main thing to understand is how the key mappings (shortcut keys) work. In this tutorial, I won’t discuss every key mapping, but I’ll teach you about some of the most common Lazygit key mappings which you’ll use on a daily basis. They’ll help you build a solid base for using the tool effectively.
 
-To use Lazygit, first open the terminal you use. For example, I’m using the GNOME distro, so I’ll use the <FontIcon icon="fa-brands fa-gitlab"/>[Ptyxis terminal](https://gitlab.gnome.org/chergert/ptyxis).
+To use Lazygit, first open the terminal you use. For example, I’m using the GNOME distro, so I’ll use the [<FontIcon icon="fa-brands fa-gitlab"/>Ptyxis terminal](https://gitlab.gnome.org/chergert/ptyxis).
 
 Type the `lazygit` command in your terminal:
 
