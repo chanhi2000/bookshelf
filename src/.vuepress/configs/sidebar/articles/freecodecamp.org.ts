@@ -777,18 +777,29 @@ const ORACLE_ERP_TEST_AUTOMATION_GUIDE: SidebarInfoSubgroupTemplate = { // 2025-
   subPath: 'oracle-erp-test-automation-guide',
   children: [
     'README',
-    // TODO: 페이지 생성
+    'testing-example',
+    'best-practices-for-oracle-test-automation',
+    'role-of-ai-driven-tools-in-oracle-erp-automation',
+    'automating-testing-in-cicd-pipelines',
+    'challenges-and-solutions',
   ]
 }
 
 const HOW_IPV4_WORKS_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-05-01
-  text: 'Oracle ERP Test Automation Guide – Examples and Best Practices',
+  text: 'How IPv4 Works – A Handbook for Developers',
   collapsible: true,
   icon: 'fas fa-computer',
   subPath: 'how-ipv4-works-a-handbook-for-developers',
   children: [
     'README',
-    // TODO: 페이지 생성
+    'classful-addressing',
+    'cidr-classless-interdomain-routing',
+    'subnet-masks',
+    'interim-summary-ipv4-addresses',
+    'test-yourself',
+    'special-ipv4-addresses',
+    'ipv4-header',
+    'ipv4-fragmentation',
   ]
 }
 
@@ -809,8 +820,30 @@ const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTempla
   icon: 'fa-brands fa-node',
   subPath: 'the-front-end-performance-optimization-handbook',
   children: [
-  'README',
-  // TODO: 페이지 생성
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoSubgroupTemplate = { // 2025-05-12
+  text: 'How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js',
+  collapsible: true,
+  icon: 'iconfont icon-mermaid',
+  subPath: 'how-to-become-an-analytical-programmer-compare-five-projects',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER: SidebarInfoSubgroupTemplate = { // 2025-05-15
+  text: 'Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One',
+  collapsible: true,
+  icon: 'iconfont icon-microsoftazure',
+  subPath: 'load-balancing-with-azure-application-gateway-and-azure-load-balancer',
+  children: [
+    'README',
+    // TODO: 페이지 생성
   ]
 }
 
@@ -819,6 +852,16 @@ text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "how-dns-works-the-internets-address-book", // 2025-05-15
+    LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER, // 2025-05-15
+    "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
+    "learn-vite-for-a-better-web-development-workflow", // 2025-05-14
+    "how-web-services-work-with-examples", // 2025-05-14
+    "master-kotlin-and-android-60-hour-course", // 2025-05-14
+    "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
+    "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
+    "learn-object-oriented-programming-in-typescript", // 2025-05-12
+    HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS, // 2025-05-12
     "make-it-operations-more-efficient-with-aiops", // 2025-05-10
     "what-is-technical-debt-and-how-do-you-manage-it", // 2025-05-10
     "prepare-for-your-ios-interview", // 2025-05-09
@@ -1764,6 +1807,9 @@ export const template: SidebarInfoTemplate = {
       "working-on-a-multiple-library-project-in-android", // 2024-04-27
       "migrate-from-play-core-library", // 2024-06-26
       "how-to-use-tooltips-in-jetpack-compose", // 2024-10-02
+      // END: 2024java-android
+      "master-kotlin-and-android-60-hour-course", // 2025-05-14
+      // END: 2025java-android
       // END: java-android
     ]],[
     "java-kafka", [
@@ -1888,6 +1934,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-rag-ai-agents-with-typescript", // 2025-04-16
       "build-autonomous-agents-using-prompt-chaining-with-ai-primitives", // 2025-04-22
       "recursive-types-in-typescript-a-brief-exploration", // 2025-05-08
+      "learn-object-oriented-programming-in-typescript", // 2025-05-12
       // END: 2025ts
       // END: ts
     ]],[
@@ -1964,6 +2011,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-automate-mobile-testing-strategies", // 2025-04-29
       "how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes", // 2025-05-07
       "how-to-create-documentation-with-docspage", // 2025-05-07
+      "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2075,6 +2123,7 @@ export const template: SidebarInfoTemplate = {
       "a-brief-introduction-to-react", // 2025-05-02
       "how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop", // 2025-05-05
       "a-brief-introduction-to-web-components", // 2025-05-09
+      "learn-vite-for-a-better-web-development-workflow", // 2025-05-14
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2195,6 +2244,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-mermaid
       "how-to-make-flowcharts-with-mermaid", // 2025-01-13
       "use-mermaid-javascript-library-to-create-flowcharts", // 2025-01-13
+      HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS, // 2025-05-12
       // END: 2025js-mermaid
       // END: js-mermaid
     ]],[
@@ -2385,6 +2435,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-implement-instant-search-with-flask-and-htmx", // 2024-07-22
       // END: 2024py-flask
       "create-a-basic-cicd-pipeline-with-webhooks-on-linux", // 2025-01-29
+      "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
       // END: 2025py-flask
       // END: py-flask
     ]],[
@@ -2394,13 +2445,14 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
       "learn-software-design-basics", // 2025-03-08
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
+      "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
     "py-fastapi", [
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
-      // END: py-fastapi
+      // END: py-fastapi 
     ]],[
     "py-torch", [
       "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
@@ -2414,6 +2466,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-a-python-siem-system-using-ai-and-llms", // 2025-03-08
       "learn-software-design-basics", // 2025-03-08
       "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
+      "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -2577,6 +2630,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-develop-with-codeigniter-on-ubuntu-environment-setup", // 2025-01-24
       "how-php-type-juggling-works-explained-with-code-examples", // 2025-04-16
       "how-to-use-arrow-functions-in-php", // 2025-05-09
+      "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
       // END: 2025php
       // END: php
     ]],[
@@ -2821,6 +2875,7 @@ export const template: SidebarInfoTemplate = {
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       "how-to-dockerize-your-django-project", // 2025-04-19
       HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS, // 2025-04-29
+      "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
       // END: 2025docker
       // END: docker
     ]],[
@@ -2895,6 +2950,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024azure
       "host-llms-locally-in-docker-on-azure", // 2025-03-27
       "deploy-a-restful-web-service-on-microsoft-azure-app-service", // 2025-03-29
+      LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER, // 2025-05-15
       // END: 2025azure
       // END: azure
     ]],[
@@ -2985,6 +3041,7 @@ export const template: SidebarInfoTemplate = {
       "vulnerabilities-vs-exploits-for-ethical-hackers", // 2025-04-05
       "what-makes-code-vulnerable-and-how-to-fix-it", // 2025-04-22
       "how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial", // 2025-04-25
+      "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
       // END: 2025security
       // END: security
     ]],[
@@ -3386,6 +3443,8 @@ export const template: SidebarInfoTemplate = {
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       HOW_IPV4_WORKS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-05-01
       "what-is-technical-debt-and-how-do-you-manage-it", // 2025-05-10
+      "how-web-services-work-with-examples", // 2025-05-14
+      "how-dns-works-the-internets-address-book", // 2025-05-15
       // END: 2025coen
       // END: coen
     ]],[

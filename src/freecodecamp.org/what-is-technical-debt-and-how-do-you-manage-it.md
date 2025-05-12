@@ -13,6 +13,9 @@ tag:
   - freecodecamp.org
   - engineering
   - computer
+  - coen
+  - computerengineering
+  - computer-engineering
   - js
   - javascript
 head:

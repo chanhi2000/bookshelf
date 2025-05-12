@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
     "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
     "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
     "curved-box-cutouts-in-css", // 2025-05-01
@@ -145,6 +146,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
     "a-css-powered-add-remove-tags-ui", // 2024-04-11
     "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
+    "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
   ]
 }
 
@@ -237,6 +239,7 @@ export const template: SidebarInfoTemplate = {
       // END: js-svelte
     ]], [
     "css", [
+      "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
       "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
       "a-css-powered-add-remove-tags-ui", // 2024-04-11 
       "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
@@ -321,6 +324,7 @@ export const template: SidebarInfoTemplate = {
       "curved-box-cutouts-in-css", // 2025-05-01
       "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
       "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
+      "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
       // END: 2025css
       // END: css
     ]], [
