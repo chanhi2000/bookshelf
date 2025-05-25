@@ -52,8 +52,20 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 Creating unusual shapes is always a fun exercise and a good way to practice your CSS skills. One might argue that SVG is better for this job, but nowadays we have a lot of new CSS tricks that allow us to create shapes with a clean and optimized code. Through this two-article series, we will explore what can be done with CSS nowadays.
 
-
 ::: info Article Series
+
+```component VPCard
+{
+  "title": "Creating Flower Shapes using clip-path: shape()",
+  "desc": "Use the `arc` command within the `shape()` function we can draw a line that follows a circle from one point to the next, controlling the direction.",
+  "link": "/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+1. [Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)
+<!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md  -->
 
 ```component VPCard
 {
@@ -65,14 +77,11 @@ Creating unusual shapes is always a fun exercise and a good way to practice your
 }
 ```
 
-2. [Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)
-<!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md  -->
-
 ```component VPCard
 {
-  "title": "Creating Flower Shapes using clip-path: shape()",
-  "desc": "Use the `arc` command within the `shape()` function we can draw a line that follows a circle from one point to the next, controlling the direction.",
-  "link": "/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md",
+  "title": "Creating Blob Shapes using clip-path: shape()",
+  "desc": "Blobs! Gooey weird shapes you can fill with any background and even animate. ",
+  "link": "/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "chatgpt-and-old-and-broken-code", // 2025-05-20
+    "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
+    "to-flip-or-not-to-flip", // 2025-05-16
+    "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
     "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
     "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
     "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
@@ -325,6 +329,10 @@ export const template: SidebarInfoTemplate = {
       "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
       "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
       "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
+      "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
+      "to-flip-or-not-to-flip", // 2025-05-16
+      "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
+      "chatgpt-and-old-and-broken-code", // 2025-05-20
       // END: 2025css
       // END: css
     ]], [
@@ -369,6 +377,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2024postgres
       // END: 2025postgres
       // END: postgres
+    ]], [
+    "openai", [
+      "chatgpt-and-old-and-broken-code", // 2025-05-20
+      // END: 2025openai
+      // END: openai
     ]], [
     "career", [
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04

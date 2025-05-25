@@ -2,9 +2,9 @@
 lang: en-US
 title: "How to Connect Your AWS EC2 Instance to VS Code"
 description: "Article(s) > How to Connect Your AWS EC2 Instance to VS Code"
-icon: 
+icon: iconfont icon-vscode
 category:
-  - VsCode
+  - VSCode
   - DevOps
   - AWS
   - Article(s)

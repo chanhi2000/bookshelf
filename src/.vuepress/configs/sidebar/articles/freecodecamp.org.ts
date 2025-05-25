@@ -636,7 +636,7 @@ const PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE: SidebarInfoSubgroupTemplate = { // 2
 }
 
 const WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE: SidebarInfoSubgroupTemplate = { // 2025-03-29
-  text: 'Why Your Code is Slow: Common  Performance Mistakes Beginners Make',
+  text: 'Why Your Code is Slow: Common Performance Mistakes Beginners Make',
   collapsible: true,
   icon: 'fa-brands fa-python',
   subPath: 'why-your-code-is-slow-common-performance-mistakes-beginners-make', 
@@ -859,6 +859,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
+    "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
+    "how-to-use-react-19-in-pcf-components", // 2025-05-23
+    "learn-vuejs-in-this-beginners-course", // 2025-05-23
+    "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
     "an-animated-introduction-to-elixir", // 2025-05-23
     "master-database-management-systems", // 2025-05-22
     "how-to-refactor-complex-codebases", // 2025-05-22
@@ -2139,12 +2144,16 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop", // 2025-05-05
       "a-brief-introduction-to-web-components", // 2025-05-09
       "learn-vite-for-a-better-web-development-workflow", // 2025-05-14
+      "how-to-use-react-19-in-pcf-components", // 2025-05-23
       // END: 2025js-react
       // END: js-react
     ]],[
     "js-vue", [
       "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
       "how-event-handling-works-in-vue-3-guide-for-devs", // 2024-09-11
+      // END: 2024js-vue
+      "learn-vuejs-in-this-beginners-course", // 2025-05-23
+      // END: 2025js-vue
       // END: js-vue
     ]],[
     "js-next", [
@@ -2462,12 +2471,16 @@ export const template: SidebarInfoTemplate = {
       "learn-software-design-basics", // 2025-03-08
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
       "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
+      "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
     "py-fastapi", [
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
+      // END: 2024py-fastapi 
+      "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
+      // END: 2025py-fastapi 
       // END: py-fastapi 
     ]],[
     "py-torch", [
@@ -3151,8 +3164,11 @@ export const template: SidebarInfoTemplate = {
       "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
+      // END: 2024postgres
       "how-to-export-your-database-in-django", // 2025-04-22
       "how-to-use-postgresql-in-django", // 2025-04-22
+      "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
+      // END: 2025postgres
       // END: postgres
     ]],[
     "mongodb", [
@@ -3223,6 +3239,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-node-js-app-on-azure", // 2024-07-17
       // END: 2024vscode
       "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
+      "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
       // END: 2025vscode
       // END: vscode
     ]],[
@@ -3427,6 +3444,7 @@ export const template: SidebarInfoTemplate = {
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
       THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
       "learn-college-calculus-and-implement-with-python", // 2025-04-30
+      "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       // END: 2025math
       // END: math
     ]],[
@@ -3507,6 +3525,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
       // END: 2024raspberry-pi
       "set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi", // 2025-03-29
+      "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
       // END: 2025raspberry-pi
       // END: raspberry-pi
     ]],[
