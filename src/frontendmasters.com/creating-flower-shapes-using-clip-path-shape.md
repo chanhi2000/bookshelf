@@ -50,6 +50,43 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5824"/>
 
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Creating Flower Shapes using clip-path: shape()",
+  "desc": "Use the `arc` command within the `shape()` function we can draw a line that follows a circle from one point to the next, controlling the direction.",
+  "link": "/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+1. [Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)
+<!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md  -->
+
+```component VPCard
+{
+  "title": "Creating Flower Shapes using CSS Mask & Trigonometric Functions",
+  "desc": "Creating unusual shapes is always a fun exercise and a good way to practice your CSS skills. One might argue that SVG is better for this job, but nowadays we have a lot of new CSS tricks that allow us to create shapes with a clean and optimized code. Through this two-article series, we will […]",
+  "link": "/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Creating Blob Shapes using clip-path: shape()",
+  "desc": "Blobs! Gooey weird shapes you can fill with any background and even animate. ",
+  "link": "/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
+
 In [**a previous article**](/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md), we used modern CSS features such as `mask`, trigonometric functions, and CSS variables to create flower-like shapes.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/8hogoSIf.png?resize=883%2C354&ssl=1)
@@ -368,6 +405,19 @@ And don’t forget to bookmark [<FontIcon icon="fas fa-globe"/>my online genera
 
 ```component VPCard
 {
+  "title": "Creating Flower Shapes using clip-path: shape()",
+  "desc": "Use the `arc` command within the `shape()` function we can draw a line that follows a circle from one point to the next, controlling the direction.",
+  "link": "/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+1. [Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)
+<!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md  -->
+
+```component VPCard
+{
   "title": "Creating Flower Shapes using CSS Mask & Trigonometric Functions",
   "desc": "Creating unusual shapes is always a fun exercise and a good way to practice your CSS skills. One might argue that SVG is better for this job, but nowadays we have a lot of new CSS tricks that allow us to create shapes with a clean and optimized code. Through this two-article series, we will […]",
   "link": "/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md",
@@ -376,14 +426,11 @@ And don’t forget to bookmark [<FontIcon icon="fas fa-globe"/>my online genera
 }
 ```
 
-2. [Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)
-<!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md  -->
-
 ```component VPCard
 {
-  "title": "Creating Flower Shapes using clip-path: shape()",
-  "desc": "Use the `arc` command within the `shape()` function we can draw a line that follows a circle from one point to the next, controlling the direction.",
-  "link": "/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md",
+  "title": "Creating Blob Shapes using clip-path: shape()",
+  "desc": "Blobs! Gooey weird shapes you can fill with any background and even animate. ",
+  "link": "/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

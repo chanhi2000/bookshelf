@@ -636,7 +636,7 @@ const PYTHON_MAGIC_METHODS_PRACTICAL_GUIDE: SidebarInfoSubgroupTemplate = { // 2
 }
 
 const WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE: SidebarInfoSubgroupTemplate = { // 2025-03-29
-  text: 'Why Your Code is Slow: Common  Performance Mistakes Beginners Make',
+  text: 'Why Your Code is Slow: Common Performance Mistakes Beginners Make',
   collapsible: true,
   icon: 'fa-brands fa-python',
   subPath: 'why-your-code-is-slow-common-performance-mistakes-beginners-make', 
@@ -833,7 +833,7 @@ const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTempla
 }
 
 const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoSubgroupTemplate = { // 2025-05-12
-  text: 'How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js',
+  text: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   collapsible: true,
   icon: 'iconfont icon-mermaid',
   subPath: 'how-to-become-an-analytical-programmer-compare-five-projects',
@@ -844,7 +844,7 @@ const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoS
 }
 
 const LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER: SidebarInfoSubgroupTemplate = { // 2025-05-15
-  text: 'Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One',
+  text: "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
   collapsible: true,
   icon: 'iconfont icon-microsoftazure',
   subPath: 'load-balancing-with-azure-application-gateway-and-azure-load-balancer',
@@ -854,11 +854,111 @@ const LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER: Sid
   ]
 }
 
+const THE_AGENTIC_AI_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-28
+  text: "The Agentic AI Handbook: A Beginner's Guide to Autonomous Intelligent Agents",
+  collapsible: true,
+  icon: 'fas fa-language',
+  subPath: 'the-agentic-ai-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_AN_AI_POWERED_COOKING_ASSISTANT_WITH_FLUTTER_AND_GEMINI: SidebarInfoSubgroupTemplate = { // 2025-05-30
+  text: "How to Build an AI-Powered Cooking Assistant with Flutter and Gemini",
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'build-an-ai-powered-cooking-assistant-with-flutter-and-gemini',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const LEETCODE_DSA_CONCEPTS_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-30
+  text: "LeetCode Meditations: A Visual Handbook of Data Structures and Algorithms Concepts",
+  collapsible: true,
+  icon: 'fas fa-computer',
+  subPath: 'leetcode-dsa-concepts-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_BUILD_A_SIMPLE_PORTFOLIO_BLOG_WITH_NEXTJS: SidebarInfoSubgroupTemplate = { // 2025-05-30
+  text: "How To Build A Simple Portfolio Blog With Next.js",
+  collapsible: true,
+  icon: 'iconfont icon-nextjs',
+  subPath: 'how-to-build-a-simple-portfolio-blog-with-nextjs',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_A_MULTILAYER_PERCEPTRON_WITH_EXAMPLES_AND_PYTHON_CODE: SidebarInfoSubgroupTemplate = { // 2025-05-31
+  text: "Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code",
+  collapsible: true,
+  icon: 'iconfont icon-nextjs',
+  subPath: 'build-a-multilayer-perceptron-with-examples-and-python-code',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+
+const HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-03
+  text: "How to Code Linked Lists with TypeScript: A Handbook for Developers",
+  collapsible: true,
+  icon: 'iconfont icon-typescript',
+  subPath: 'how-to-code-linked-lists-with-typescript-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_FRONT_END_MONITORING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-03
+  text: "The Front-End Monitoring Handbook: Track Performance, Errors, and User Behavior",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'the-front-end-monitoring-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+  THE_FRONT_END_MONITORING_HANDBOOK, // 2025-06-03
+    "why-public-wi-fi-is-dangerous-and-how-to-protect-yourself", // 2025-06-03
+    HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
+    "a-beginners-guide-to-graphs", // 2025-06-03
+    BUILD_A_MULTILAYER_PERCEPTRON_WITH_EXAMPLES_AND_PYTHON_CODE, // 2025-05-31
+    "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
+    HOW_TO_BUILD_A_SIMPLE_PORTFOLIO_BLOG_WITH_NEXTJS, // 2025-05-30
+    "how-to-sort-dates-efficiently-in-javascript", // 2025-05-30
+    LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
+    "learn-python-for-data-science-full-course", // 2025-05-30
+    BUILD_AN_AI_POWERED_COOKING_ASSISTANT_WITH_FLUTTER_AND_GEMINI, // 2025-05-28
+    "how-attackers-target-travelers-and-how-to-defend-yourself", // 2025-05-29
+    THE_AGENTIC_AI_HANDBOOK, // 2025-05-28
+    "master-rest-api-development-with-net-9", // 2025-05-28
+    "build-your-own-vit-model-from-scratch", // 2025-05-28
+    "best-aws-services-for-frontend-deployment", // 2025-05-28
+    "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
+    "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
+    "how-to-use-react-19-in-pcf-components", // 2025-05-23
+    "learn-vuejs-in-this-beginners-course", // 2025-05-23
+    "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
     "an-animated-introduction-to-elixir", // 2025-05-23
     "master-database-management-systems", // 2025-05-22
     "how-to-refactor-complex-codebases", // 2025-05-22
@@ -1931,6 +2031,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-website-from-scratch-start-to-finish-walkthrough", // 2025-04-29
       "what-is-technical-debt-and-how-do-you-manage-it", // 2025-05-10
       "how-javascript-lint-rules-work-and-why-abstract-syntax-trees-matter", // 2025-05-22
+      LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
+      "how-to-sort-dates-efficiently-in-javascript", // 2025-05-30
+      "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
+      THE_FRONT_END_MONITORING_HANDBOOK, // 2025-06-03
       // END: 2025js
       // END: js
     ]],[
@@ -1950,6 +2054,7 @@ export const template: SidebarInfoTemplate = {
       "build-autonomous-agents-using-prompt-chaining-with-ai-primitives", // 2025-04-22
       "recursive-types-in-typescript-a-brief-exploration", // 2025-05-08
       "learn-object-oriented-programming-in-typescript", // 2025-05-12
+      HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
       // END: 2025ts
       // END: ts
     ]],[
@@ -2139,12 +2244,16 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop", // 2025-05-05
       "a-brief-introduction-to-web-components", // 2025-05-09
       "learn-vite-for-a-better-web-development-workflow", // 2025-05-14
+      "how-to-use-react-19-in-pcf-components", // 2025-05-23
       // END: 2025js-react
       // END: js-react
     ]],[
     "js-vue", [
       "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
       "how-event-handling-works-in-vue-3-guide-for-devs", // 2024-09-11
+      // END: 2024js-vue
+      "learn-vuejs-in-this-beginners-course", // 2025-05-23
+      // END: 2025js-vue
       // END: js-vue
     ]],[
     "js-next", [
@@ -2185,6 +2294,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_REPLIT_CLONE_WITH_SOCKETIO_MONACO_EDITOR_AND_COPILOTKIT, // 2025-02-21
       "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
       "how-incremental-static-regeneration-isr-works-in-nextjs", // 2025-05-02
+      HOW_TO_BUILD_A_SIMPLE_PORTFOLIO_BLOG_WITH_NEXTJS, // 2025-05-30
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -2416,6 +2526,11 @@ export const template: SidebarInfoTemplate = {
       "learn-college-calculus-and-implement-with-python", // 2025-04-30
       "build-a-local-ai", // 2025-05-07
       "how-to-refactor-complex-codebases", // 2025-05-22
+      "build-your-own-vit-model-from-scratch", // 2025-05-28
+      THE_AGENTIC_AI_HANDBOOK, // 2025-05-28
+      LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
+      BUILD_A_MULTILAYER_PERCEPTRON_WITH_EXAMPLES_AND_PYTHON_CODE, // 2025-05-31
+      "a-beginners-guide-to-graphs", // 2025-06-03
       // END: 2025py
       // END: py
     ]],[
@@ -2462,12 +2577,17 @@ export const template: SidebarInfoTemplate = {
       "learn-software-design-basics", // 2025-03-08
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
       "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
+      "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
+      "learn-python-for-data-science-full-course", // 2025-05-30
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
     "py-fastapi", [
       "use-the-farm-stack-to-develop-full-stack-apps", // 2024-09-18
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
+      // END: 2024py-fastapi 
+      "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
+      // END: 2025py-fastapi 
       // END: py-fastapi 
     ]],[
     "py-torch", [
@@ -2483,6 +2603,7 @@ export const template: SidebarInfoTemplate = {
       "learn-software-design-basics", // 2025-03-08
       "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
       "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
+      "learn-python-for-data-science-full-course", // 2025-05-30
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -2512,6 +2633,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024dart
       BUILD_A_MULTILINGUAL_SOCIAL_RECIPE_APP_WITH_FLUTTER_AND_STRAPI,// 2025-04-09
       "how-to-secure-mobile-apis-in-flutter", // 2025-05-07
+      BUILD_AN_AI_POWERED_COOKING_ASSISTANT_WITH_FLUTTER_AND_GEMINI, // 2025-05-28
       // END: 2025dart
       // END: dart
     ]],[
@@ -2955,6 +3077,7 @@ export const template: SidebarInfoTemplate = {
       "serverless-architecture-with-aws-lambda", // 2025-04-17
       HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS, // 2025-04-29
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
+      "best-aws-services-for-frontend-deployment", // 2025-05-28
       // END: 2025aws
       // END: aws
     ]],[
@@ -3067,6 +3190,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial", // 2025-04-25
       "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
       "how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead", // 2025-05-19
+      "how-attackers-target-travelers-and-how-to-defend-yourself", // 2025-05-29
+      "why-public-wi-fi-is-dangerous-and-how-to-protect-yourself", // 2025-06-03
       // END: 2025security
       // END: security
     ]],[
@@ -3151,8 +3276,11 @@ export const template: SidebarInfoTemplate = {
       "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
+      // END: 2024postgres
       "how-to-export-your-database-in-django", // 2025-04-22
       "how-to-use-postgresql-in-django", // 2025-04-22
+      "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
+      // END: 2025postgres
       // END: postgres
     ]],[
     "mongodb", [
@@ -3223,6 +3351,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-node-js-app-on-azure", // 2024-07-17
       // END: 2024vscode
       "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
+      "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
       // END: 2025vscode
       // END: vscode
     ]],[
@@ -3274,6 +3403,7 @@ export const template: SidebarInfoTemplate = {
       "observability-in-cloud-native-applications", // 2025-03-26
       "how-ux-and-marketing-are-saying-the-same-things-differently", // 2025-04-25
       "how-to-write-good-api-docs", // 2025-05-03
+      "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -3335,6 +3465,8 @@ export const template: SidebarInfoTemplate = {
       "build-autonomous-agents-using-prompt-chaining-with-ai-primitives", // 2025-04-22
       "free-genai-65-hour-bootcamp", // 2025-05-09
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
+      "build-your-own-vit-model-from-scratch", // 2025-05-28
+      THE_AGENTIC_AI_HANDBOOK, // 2025-05-28
       // END: 2025llm
       // END: llm
     ]],[
@@ -3354,6 +3486,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-video-subtitle-generator-using-the-gemini-api", // 2024-12-11
       // END: 2024gemini
       "how-to-create-an-ai-powered-bot", // 2025-04-24
+      BUILD_AN_AI_POWERED_COOKING_ASSISTANT_WITH_FLUTTER_AND_GEMINI, // 2025-05-28
       // END: 2025gemini
       // END: gemini
     ]],[
@@ -3427,6 +3560,7 @@ export const template: SidebarInfoTemplate = {
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
       THE_CRYPTOGRAPHY_HANDBOOK_RSA_ALGORITHM, // 2025-04-03
       "learn-college-calculus-and-implement-with-python", // 2025-04-30
+      "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       // END: 2025math
       // END: math
     ]],[
@@ -3473,6 +3607,9 @@ export const template: SidebarInfoTemplate = {
       "what-is-technical-debt-and-how-do-you-manage-it", // 2025-05-10
       "how-web-services-work-with-examples", // 2025-05-14
       "how-dns-works-the-internets-address-book", // 2025-05-15
+      LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
+      "a-beginners-guide-to-graphs", // 2025-06-03
+      HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
       // END: 2025coen
       // END: coen
     ]],[
@@ -3507,6 +3644,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-zigbee2mqtt-with-docker", // 2024-11-20
       // END: 2024raspberry-pi
       "set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi", // 2025-03-29
+      "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
       // END: 2025raspberry-pi
       // END: raspberry-pi
     ]],[

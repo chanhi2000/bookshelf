@@ -86,4 +86,3 @@ That's the first step of Core Data completed: the app now knows what kind of dat
 When you make *any* changes to the Core Data editor in Xcode, you should press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes. At the time of writing – and indeed for some time now – Xcode has not saved Core Data model changes when you build your app, so if you don’t save the changes yourself you’ll find they haven’t been applied and you’ll spend hours investigating ghost bugs.
 
 :::
-

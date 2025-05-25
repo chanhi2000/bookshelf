@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
+    "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
     "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
     "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
     "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
@@ -318,6 +320,8 @@ export const template: SidebarInfoTemplate = {
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
       "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
+      "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
+      "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
       // END: 2025cs
       // END: cs
     ]],[

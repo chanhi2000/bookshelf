@@ -162,10 +162,12 @@ export default hopeTheme({
       }
     },
     nprogress: true,
+    /*
     git: {
       createdTime: false,
       updatedTime: false,
-    }, 
+    },*/ 
+    git: false,
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

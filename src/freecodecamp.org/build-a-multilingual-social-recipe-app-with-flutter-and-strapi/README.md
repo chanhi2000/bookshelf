@@ -69,8 +69,8 @@ In this application, users will be able to view recipes, request a specific reci
 To follow along with this tutorial, make sure you have:
 
 - [<FontIcon icon="fa-brands fa-noe"/>Node.js](https://nodejs.org/en) installed.
-- Basic knowledge of [<FontIcon icon="fa-brands fa-dart"/>Flutter](https://flutter.dev/)
-- Basic understanding of Strapi with this [quick guide](https://docs.strapi.io/dev-docs/quick-start)
+- Basic knowledge of [<FontIcon icon="fa-brands fa-dart-lang"/>Flutter](https://flutter.dev/)
+- Basic understanding of Strapi with this [<FontIcon icon="fas fa-globe"/>quick guide](https://docs.strapi.io/dev-docs/quick-start)
 
 :::
 
