@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3972"/>
 
-[After Marc chimed in](/frontendmasters.com/gradient-text-with-a-drop-shadowm.md) with technique he needed to pull off as part of this years big promotion last week, it reminded me of another thing that ended up being relevant to the design aesthetic at play.
+[After Marc chimed in](/frontendmasters.com/gradient-text-with-a-drop-shadow.md) with technique he needed to pull off as part of this years big promotion last week, it reminded me of another thing that ended up being relevant to the design aesthetic at play.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-23-at-2.31.56%E2%80%AFPM.png?resize=1024%2C841&ssl=1)
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
-description: "Article(s) > Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+title: "Why Your Code is Slow: Common Performance Mistakes Beginners Make"
+description: "Article(s) > Why Your Code is Slow: Common Performance Mistakes Beginners Make"
 icon: fa-brands fa-python
 category:
   - Python
@@ -27,9 +27,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+      content: "Article(s) > Why Your Code is Slow: Common Performance Mistakes Beginners Make"
     - property: og:description
-      content: "Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+      content: "Why Your Code is Slow: Common Performance Mistakes Beginners Make"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make.html
 prev: /programming/py/articles/README.md
@@ -108,7 +108,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743176201295/448f040
 ---
 
 <SiteInfo
-  name="Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+  name="Why Your Code is Slow: Common Performance Mistakes Beginners Make"
   desc="Maybe you’ve experienced something like this before: you’ve written code that works, but when you hit “run,” it takes forever. You stare at the spinner, wondering if it’s faster to just solve the problem by hand. But you end up looking something like..."
   url="https://freecodecamp.org/news/why-your-code-is-slow-common-performance-mistakes-beginners-make"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -135,7 +135,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #1: Logging Everything in Production (Without Realizing It)",
-  "desc": "(1/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(1/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-1-logging-everything-in-production-without-realizing-it.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -145,7 +145,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #2: Using the Wrong Loops (When There’s a Faster Alternative)",
-  "desc": "(2/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(2/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-2-using-the-wrong-loops-when-theres-a-faster-alternative.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -155,7 +155,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #3: Writing Database Queries Inside Loops (Killer of Speed)",
-  "desc": "(3/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(3/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-3-writing-database-queries-inside-loops-killer-of-speed.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -165,7 +165,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #4: Not Knowing Your Hardware’s Dirty Secrets",
-  "desc": "(4/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(4/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-4-not-knowing-your-hardwares-dirty-secrets.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -175,7 +175,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #5: Memory Fragmentation",
-  "desc": "(5/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(5/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-5-memory-fragmentation.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -185,7 +185,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #6: The Cache (catch)",
-  "desc": "(6/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(6/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-6-the-cache-catch.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -195,7 +195,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "Mistake #7: The Copy-Paste Trap",
-  "desc": "(7/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(7/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-7-the-copy-paste-trap.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -205,7 +205,7 @@ In this guide, I’ll break down seven common mistakes that can really tank your
 ```component VPCard
 {
   "title": "How Do Pro Developers Write Faster Code?",
-  "desc": "(8/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "desc": "(8/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/how-do-pro-developers-write-faster-code.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -229,7 +229,7 @@ Happy coding! 😊
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "title": "Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "desc": "Maybe you’ve experienced something like this before: you’ve written code that works, but when you hit “run,” it takes forever. You stare at the spinner, wondering if it’s faster to just solve the problem by hand. But you end up looking something like...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

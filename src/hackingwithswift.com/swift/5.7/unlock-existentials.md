@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Unlock existentials for all protocols
 description: Article(s) > Unlock existentials for all protocols
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/unlock-existentials.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

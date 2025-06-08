@@ -188,9 +188,9 @@ If the database is inspected with MongoDB Compass, the migrations collection wil
 
 The `state` field of the migration document is set to `down`. After it runs successfully, it changes to `up`.
 
-You can update the code in `./migrations/<timestamp>-seed-users.ts` to the one in the snippet below:
+You can update the code in <FontIcon icon="fas fa-folder-open"/>`./migrations/`<FontIcon icon="iconfont icon-typescript"/>`<timestamp>-seed-users.ts` to the one in the snippet below:
 
-```ts title="migrations/<timestamp>-seed-users.ts"
+```ts
 require("dotenv").config() // load env variables
 const db = require("../db.js")
 const { UserModel } = require("../user.model.js");

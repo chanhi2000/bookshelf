@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Collection downcasts in cast patterns are now supported
 description: Article(s) > Collection downcasts in cast patterns are now supported
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/collection-downcasts.html
 next: /hackingwithswift.com/swift/5.7/if-let-shorthand.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

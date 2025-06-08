@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How Do Pro Developers Write Faster Code?"
-description: "Article(s) > (8/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+description: "Article(s) > (8/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make"
 icon: fa-brands fa-python
 category:
   - Python
@@ -24,7 +24,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (8/8) Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+      content: "Article(s) > (8/8) Why Your Code is Slow: Common Performance Mistakes Beginners Make"
     - property: og:description
       content: "How Do Pro Developers Write Faster Code?"
     - property: og:url
@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743176201295/448f040
 
 ```component VPCard
 {
-  "title": "Why Your Code is Slow: Common  Performance Mistakes Beginners Make",
+  "title": "Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "desc": "Maybe you’ve experienced something like this before: you’ve written code that works, but when you hit “run,” it takes forever. You stare at the spinner, wondering if it’s faster to just solve the problem by hand. But you end up looking something like...",
   "link": "/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743176201295/448f040
 ---
 
 <SiteInfo
-  name="Why Your Code is Slow: Common  Performance Mistakes Beginners Make"
+  name="Why Your Code is Slow: Common Performance Mistakes Beginners Make"
   desc="Maybe you’ve experienced something like this before: you’ve written code that works, but when you hit “run,” it takes forever. You stare at the spinner, wondering if it’s faster to just solve the problem by hand. But you end up looking something like..."
   url="https://freecodecamp.org/news/why-your-code-is-slow-common-performance-mistakes-beginners-make#heading-how-do-pro-developers-write-faster-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

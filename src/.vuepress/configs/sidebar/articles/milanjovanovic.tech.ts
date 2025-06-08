@@ -15,6 +15,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
+    "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+    "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
+    "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
     "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
     "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
     "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
@@ -318,6 +322,9 @@ export const template: SidebarInfoTemplate = {
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       "event-driven-architecture-in-dotnet-with-rabbitmq", // 2025-05-03
       "from-anemic-models-to-behavior-driven-models-a-practical-ddd-refactor-in-csharp", // 2025-05-10
+      "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
+      "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
       // END: 2025cs
       // END: cs
     ]],[
@@ -330,6 +337,8 @@ export const template: SidebarInfoTemplate = {
       "horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing", // 2024-03-30
       "how-i-implemented-full-text-search-on-my-website", // 2024-09-21
       // END: 2024js-node
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      // END: 2025js-node
       // END: js-node
     ]],[
     "erl-rabbitmq", [
@@ -344,6 +353,8 @@ export const template: SidebarInfoTemplate = {
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
       "dotnet-aspire-a-game-changer-for-cloud-native-development", // 2024-09-14
       // END: 2024docker
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      // END: 2025docker
       // END: docker
     ]],[
     "github", [
@@ -367,6 +378,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2025azure
       // END: azure
     ]],[
+    "nginx", [
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      // END: 2025nginx
+      // END: nginx
+    ]],[
+    "data-science", [
+      "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
+      // END: 2025data-science
+      // END: data-science
+    ]],[
     "postgres", [
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
       // END: 2024postgres
@@ -379,6 +400,11 @@ export const template: SidebarInfoTemplate = {
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
       // END: 2024redis
       // END: redis
+    ]],[
+    "nginx", [
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      // END: 2025nginx
+      // END: nginx
     ]],[
     "system-design", [
       "clean-architecture-folder-structure", // 2022-09-24

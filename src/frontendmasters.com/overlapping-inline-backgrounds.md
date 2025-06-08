@@ -230,7 +230,7 @@ In this case, the `mix-blend-mode` solution isn’t enough anymore because the
 
 To get around this, we wrap the entire `span` in another `span` and set the `padding` and `background` only on the outer `span` (`p > span`). This causes the black/white text of the inner `span` as well as that of the paragraph around the spans to get blended with the outer `span` background.
 
-![long wrapping span nesting solution ([live demo (<FontIcon icon="fa-brands fa-codepne"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azbpKpg))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420043339-b2559f56-e965-4ae6-812a-75c0d41c8275.png?resize=800%2C423&ssl=1)
+![long wrapping span nesting solution ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azbpKpg))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420043339-b2559f56-e965-4ae6-812a-75c0d41c8275.png?resize=800%2C423&ssl=1)
 
 If you’ve checked the above demo in Firefox, you may have noticed that it doesn’t work. This is due to [<FontIcon icon="fa-brands fa-firefox"/>bug 1951653](https://bugzilla.mozilla.org/show_bug.cgi?id=1951653).
 

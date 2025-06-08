@@ -5,6 +5,14 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "firstchild-can-be-white-space", // 2025-06-05
+    "the-simplest-way-to-deploy", // 2025-05-29
+    "css-spotlight-effect", // 2025-05-26
+    "move-modal-in-on-a-shape", // 2025-05-22
+    "chatgpt-and-old-and-broken-code", // 2025-05-20
+    "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
+    "to-flip-or-not-to-flip", // 2025-05-16
+    "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
     "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
     "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
     "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
@@ -14,6 +22,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "am-i-a-sadistic-developer-are-you", // 2025-04-24
     "newfangled-browser-alternatives", // 2025-04-22
     "lessons-learned-from-recreating-a-styled-dialog", // 2025-04-16
+    "the-latest-in-the-how-are-we-going-to-do-masonry-debate-apple-says-item-flow", // 2025-04-11
     "using-currentcolor-in-2025", // 2025-04-10
     "custom-progress-element-using-the-attr-function", // 2025-04-09
     "css-bursts-with-conic-gradients", // 2025-04-03
@@ -111,9 +120,11 @@ const Y2024: SidebarYeargroupTemplate = {
     "clip-pathing-color-changes", // 2024-07-23
     "introducing-svelte-5", // 2024-07-19
     "the-pitfalls-of-in-app-browsers", // 2024-07-17
+    "css-does-need-mixins", // 2024-07-12
     "single-directionally-allowed-overflow", // 2024-07-10
     "how-keyboard-navigation-works-in-a-css-game", // 2024-07-08
     "script-integrity", // 2024-07-05
+    "why-is-this-thing-in-dark-mode", // 2024-07-03
     "youtube-embeds-are-bananas-heavy-and-its-fixable", // 2024-07-01
     "browser-support-tests-in-javascript-for-modern-web-features", // 2024-06-28
     "text-reveal-with-conic-gradient", // 2024-06-26
@@ -122,6 +133,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "footnotes-progressively-enhanced-to-popovers", // 2024-06-19
     "introducing-drizzle", // 2024-06-17
     "one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto", // 2024-06-12
+    "masonry-and-reading-order", // 2024-06-10
     "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
     "live-demos-of-stand-alone-web-components", // 2024-06-06
     "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
@@ -132,6 +144,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "animating-dialog", // 2024-05-23
     "danger-preventing-zoom-from-changing-text-size", // 2024-05-22
     "weve-got-container-queries-now-but-are-we-actually-using-them", // 2024-05-21
+    "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
     "prefetching-when-server-loading-wont-do", // 2024-05-15
     "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
     "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
@@ -147,6 +160,9 @@ const Y2024: SidebarYeargroupTemplate = {
     "a-css-powered-add-remove-tags-ui", // 2024-04-11
     "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
     "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
+   
+    "the-color-input-the-color-picker", // 2024-01-18
+    "we-can-has-it-all", // 2024-01-10
   ]
 }
 
@@ -156,6 +172,7 @@ const Y2023: SidebarYeargroupTemplate = {
   children: [
     // END: 2023
     "container-queries-and-units", // 2023-12-21
+    "light-dom-only", // 2023-12-08
   ]
 }
 
@@ -169,6 +186,8 @@ export const template: SidebarInfoTemplate = {
       // END: java
     ]], [
     "js", [
+      "the-color-input-the-color-picker", // 2024-01-18
+
       "5-things-designers-can-do-with-javascript", // 2024-05-08
       "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
@@ -191,6 +210,7 @@ export const template: SidebarInfoTemplate = {
       "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
       "mapping-with-leaflet", // 2025-01-29
+      "css-spotlight-effect", // 2025-05-26
       // END: 2025js
       // END: js
     ]], [
@@ -239,6 +259,10 @@ export const template: SidebarInfoTemplate = {
       // END: js-svelte
     ]], [
     "css", [
+      "light-dom-only", // 2023-12-08
+      // END: 2023css
+      "we-can-has-it-all", // 2024-01-10
+
       "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
       "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
       "a-css-powered-add-remove-tags-ui", // 2024-04-11 
@@ -256,6 +280,7 @@ export const template: SidebarInfoTemplate = {
       "animating-dialog", // 2024-05-23
       "how-to-make-a-css-timer", // 2024-05-29
       "live-demos-of-stand-alone-web-components", // 2024-06-06
+      "masonry-and-reading-order", // 2024-06-10
       "one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto", // 2024-06-12
       "footnotes-progressively-enhanced-to-popovers", // 2024-06-19
       "pure-css-circular-text-without-requiring-a-monospace-font", // 2024-06-21
@@ -264,6 +289,7 @@ export const template: SidebarInfoTemplate = {
       "youtube-embeds-are-bananas-heavy-and-its-fixable", // 2024-07-01
       "how-keyboard-navigation-works-in-a-css-game", // 2024-07-08
       "single-directionally-allowed-overflow", // 2024-07-10
+      "css-does-need-mixins", // 2024-07-12
       "how-to-get-the-width-height-of-any-element-in-only-css", // 2024-07-25
       "what-if-you-used-container-units-for-everything", // 2024-08-02
       "relative-color-syntax-basic-use-cases", // 2024-08-12
@@ -320,13 +346,32 @@ export const template: SidebarInfoTemplate = {
       "css-bursts-with-conic-gradients", // 2025-04-03
       "custom-progress-element-using-the-attr-function", // 2025-04-09
       "using-currentcolor-in-2025", // 2025-04-10
+      "the-latest-in-the-how-are-we-going-to-do-masonry-debate-apple-says-item-flow", // 2025-04-11
       "seeking-an-answer-why-cant-html-alone-do-includes", // 2025-04-29
       "curved-box-cutouts-in-css", // 2025-05-01
       "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
       "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
       "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
+      "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
+      "to-flip-or-not-to-flip", // 2025-05-16
+      "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
+      "chatgpt-and-old-and-broken-code", // 2025-05-20
+      "move-modal-in-on-a-shape", // 2025-05-22
+      "css-spotlight-effect", // 2025-05-26
+      "firstchild-can-be-white-space", // 2025-06-05
       // END: 2025css
       // END: css
+    ]], [
+    "devops", [
+      "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
+      // END: 2024devops
+      // END: 2025devops
+      // END: devops
+    ]], [
+    "github", [
+      "the-simplest-way-to-deploy", // 2025-05-29
+      // END: 2025github
+      // END: github
     ]], [
     "docker", [
       "drizzle-database-migrations", // 2024-12-09
@@ -349,6 +394,7 @@ export const template: SidebarInfoTemplate = {
     ]], [
     "chrome", [
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
+      "why-is-this-thing-in-dark-mode", // 2024-07-03
       // END: 2024chrome
       "newfangled-browser-alternatives", // 2025-04-22
       // END: 2025chrome
@@ -369,6 +415,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2024postgres
       // END: 2025postgres
       // END: postgres
+    ]], [
+    "openai", [
+      "chatgpt-and-old-and-broken-code", // 2025-05-20
+      // END: 2025openai
+      // END: openai
     ]], [
     "career", [
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04

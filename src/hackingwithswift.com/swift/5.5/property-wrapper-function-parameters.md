@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Extending property wrappers to function and closure parameters
 description: Article(s) > Extending property wrappers to function and closure parameters
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/property-wrapper-function-parameters.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

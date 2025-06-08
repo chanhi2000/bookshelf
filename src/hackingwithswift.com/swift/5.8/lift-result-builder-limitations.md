@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Lift all limitations on variables in result builders
 description: Article(s) > Lift all limitations on variables in result builders
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.8/lift-result-builder-limitations.html
 prev: /hackingwithswift.com/swift/5.9/discarding-task-groups.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

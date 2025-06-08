@@ -4,14 +4,17 @@ title: "Mastering VIM: Your Guide to Efficient Text Editing"
 description: "Article(s) > Mastering VIM: Your Guide to Efficient Text Editing"
 icon: iconfont icon-vim
 category: 
+  - Linux
   - Shell
   - Vim
   - Article(s)
 tag: 
   - blog
   - freecodecamp.org
+  - linux
   - sh
   - shell
+  - cli
   - vi
   - vim
 head:

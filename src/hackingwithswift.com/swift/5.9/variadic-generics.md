@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "Value and Type Parameter Packs"
 description: "Article(s) > Value and Type Parameter Packs"
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/variadic-generics.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

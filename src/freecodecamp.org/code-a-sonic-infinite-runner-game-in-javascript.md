@@ -26,7 +26,9 @@ head:
 prev: /programming/js-node/articles/README.md
 date: 2024-10-18
 isOriginal: false
-author: Beau Carnes
+author:
+  - name: JSLegendDev
+    url: https://jslegenddev.substack.com/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729182842440/b8ec758a-735c-4e23-84c5-aaf15ec7bf75.png
 ---
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Opaque parameter declarations
 description: Article(s) > Opaque parameter declarations
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/opaque-parameter-declarations.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

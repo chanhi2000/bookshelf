@@ -156,7 +156,7 @@ We typically tolerate requesting more than we need in these scenarios because it
 
 ### Isomorphic Loaders
 
-In TanStack, we do have loaders. These are defined by TanStack Router. I wrote [**a three-part series on Router here**](/frontendmasters.com/blog/introducing-tanstack-router.md). If you haven’t read that, and aren’t familiar with Router, give it a quick look.
+In TanStack, we do have loaders. These are defined by TanStack Router. I wrote [**a three-part series on Router here**](/frontendmasters.com/introducing-tanstack-router.md). If you haven’t read that, and aren’t familiar with Router, give it a quick look.
 
 Start takes what we already have with Router, and adds server handling to it. On the initial load, your loader will run on the server, load your data, and send it down. On all subsequent client-side navigations, your loader will run *on the client*, like it already does. That means all subsequent invocations of your loader will run on the client, and have access to any client-side state, cache, etc. If you like react-query, you’ll be happy to know that’s integrated too. Your react-query client can run on the server, to load, and send data down on the initial page load. On subsequent navigations, these loaders will run on the client, which means your react-query `queryClient` will have full access to the usual client-side cache react-query always uses. That means it will know what does, and does not need to be loaded.
 

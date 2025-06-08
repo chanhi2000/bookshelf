@@ -5,6 +5,7 @@ description: Article(s) > Playing with the Speculation Rules API in the Console
 icon: fa-brands fa-js
 category: 
   - JavaScript
+  - Browser
   - Google
   - Google Chrome
   - Article(s)
@@ -13,6 +14,7 @@ tag:
   - frontendmasters.com
   - js
   - javascript
+  - browser
   - google
   - googlechrome
   - google-chrome

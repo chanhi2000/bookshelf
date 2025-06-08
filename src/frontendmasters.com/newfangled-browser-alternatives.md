@@ -6,7 +6,7 @@ icon: fa-brands fa-chrome
 category:
   - Browser
   - Google
-  - Chrome
+  - Google Chrome
   - Article(s)
 tag:
   - blog
@@ -14,6 +14,7 @@ tag:
   - browser
   - google
   - chrome
+  - googlechrome
   - google-chrome
 head:
   - - meta:

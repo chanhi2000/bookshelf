@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: "if and switch expressions"
 description: "Article(s) > if and switch expressions"
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/if-switch-expressions.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

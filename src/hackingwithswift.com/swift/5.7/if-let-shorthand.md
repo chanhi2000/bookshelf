@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: if let shorthand for unwrapping optionals
 description: Article(s) > if let shorthand for unwrapping optionals
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/if-let-shorthand.html
 prev: /hackingwithswift.com/swift/5.8/collection-downcasts.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

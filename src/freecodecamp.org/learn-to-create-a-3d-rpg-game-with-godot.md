@@ -23,7 +23,7 @@ head:
       content: Learn to Create a 3D RPG Game with Godot
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-create-a-3d-rpg-game-with-godot.html
-prev: /programming/godot/articles/README.md
+prev: /programming/gd/articles/README.md
 date: 2024-06-20
 isOriginal: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718896810124/a7b14835-9cfb-4211-a6a9-71b7dc34874f.jpeg
@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718896810124/a7b1483
 {
   "title": "Godot Engine > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/godot/articles/README.md",
+  "link": "/programming/gd/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

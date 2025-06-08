@@ -83,7 +83,7 @@ Let’s start with a classic example: creating a scroll progress bar at the top 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepne"/>Scroll Progress Timeline example - before animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/RNbRqoj) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - before animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/RNbRqoj) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 In this example, there’s a `<div>` with the ID “progress.” At the end of the CSS file, you’ll see it has a background color, a defined width and height, and it’s fixed at the top of the page. There’s also an animation that scales it from `0` to `1` along the x-axis — pretty standard if you’re familiar with CSS animations!
 

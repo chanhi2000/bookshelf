@@ -66,7 +66,7 @@ A strong portfolio should include:
 - **Live links**: Recruiters and potential employers should be able to see your work in action. Hosting your projects online adds credibility.
 - **Well-organized GitHub repositories**: Write clean, well-documented code with clear instructions in the README file. Think of it as a mini case study explaining what the project does, why you built it, and how someone else can use or contribute to it.
 
-[**Here’s a handbook**](/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide.md) that shares a whole lot of tips and strategies for creating a great portfolio. Here’s a [**fun tutorial**](/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website.md) that walks you through building your own interactive terminal-style portfolio page. And [**in this course**](/freecodecamp.org/create-a-developer-portfolio-as-a-2d-game.md), you’ll learn how to build a portfolio that looks like a 2D game. As you can see, you can really have a good time with this.
+[**Here’s a handbook**](/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/README.md) that shares a whole lot of tips and strategies for creating a great portfolio. Here’s a [**fun tutorial**](/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website.md) that walks you through building your own interactive terminal-style portfolio page. And [**in this course**](/freecodecamp.org/create-a-developer-portfolio-as-a-2d-game.md), you’ll learn how to build a portfolio that looks like a 2D game. As you can see, you can really have a good time with this.
 
 ### Where Can You Host Your Portfolio for Free?
 

@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Unavailable from async attribute
 description: Article(s) > Unavailable from async attribute
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.7/noasync.html
 next: /hackingwithswift.com/swift/5.6/existential-any.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

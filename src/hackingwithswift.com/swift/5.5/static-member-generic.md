@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Extending static member lookup in generic contexts
 description: Article(s) > Extending static member lookup in generic contexts
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/static-member-generic.html
 next: /hackingwithswift.com/swift/5.4/improved-implicit-member-syntax.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -82,7 +82,7 @@ The course’s first part focuses on the first three units, with a promise of a 
 
 Whether you’re studying for a university exam, aiming to ace a technical interview, or building a portfolio project, this course provides the tools and insights you need to succeed.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=NdeeSEknp58) (9-hour watch).
+Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/NdeeSEknp58) (9-hour watch).
 
 <VidStack src="youtube/NdeeSEknp58" />
 

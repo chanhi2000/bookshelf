@@ -2,14 +2,14 @@
 lang: en-US
 title: "Lessons Learned from Recreating a Styled Dialog"
 description: "Article(s) > Lessons Learned from Recreating a Styled Dialog"
-icon: 
+icon: fa-brands fa-css3-alt
 category:
-  - 
+  - CSS
   - Article(s)
 tag:
   - blog
   - frontendmasters.com
-  - 
+  - css
 head:
   - - meta:
     - property: og:title
@@ -18,7 +18,7 @@ head:
       content: "Lessons Learned from Recreating a Styled Dialog"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/frontendmasters.com/lessons-learned-from-recreating-a-styled-dialog.html
-prev: /articles/README.md
+prev: /programming/css/articles/README.md
 date: 2025-04-16
 isOriginal: false
 author:
@@ -31,9 +31,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "CSS > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/css/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

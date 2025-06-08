@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Sendable and @Sendable closures
 description: Article(s) > Sendable and @Sendable closures
 category:
@@ -19,6 +19,9 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.5/sendable.html
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

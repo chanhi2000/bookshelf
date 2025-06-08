@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: Discarding task groups
 description: Article(s) > Discarding task groups
 category:
@@ -20,6 +20,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/swift/5.9/discarding-task-groups.html
 next: /hackingwithswift.com/swift/5.8/lift-result-builder-limitations.md
 isOriginal: false
+author:
+  - name: Paul Hudson
+    url: https://hackingwithswift.com/about
 ---
 
 # {{ $frontmatter.title }} 관련

@@ -94,4 +94,3 @@ let explosion = SKEmitterNode(fileNamed: "PlayerExplosion")
 ```
 
 Done!
-
