@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745591647377/613d9a4
 
 ```component VPCard
 {
-  "title": "Debian > Article(s)",
+  "title": "Linux - Debain > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
   "logo": "/images/ico-wind.svg",

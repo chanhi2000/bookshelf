@@ -123,7 +123,7 @@ Similarly, the declaration in an ID selector is more than that of the class sele
 
 Followed by the CSS:
 
-```css ttile="style.css"
+```css title="style.css"
 .mytitle {
   color: blue;
 }

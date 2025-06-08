@@ -11,6 +11,8 @@ tag:
   - blog
   - frontendmasters.com
   - css
+  - js
+  - javascript
 head:
   - - meta:
     - property: og:title

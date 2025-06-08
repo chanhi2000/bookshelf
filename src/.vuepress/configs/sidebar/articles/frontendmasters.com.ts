@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "grainy-gradients", // 2025-06-13
+    "1fr-1fr-vs-auto-auto-vs-50-50", // 2025-06-11
+    "scroll-driven-letter-grid", // 2025-06-09
     "firstchild-can-be-white-space", // 2025-06-05
     "the-simplest-way-to-deploy", // 2025-05-29
     "css-spotlight-effect", // 2025-05-26
@@ -359,6 +362,7 @@ export const template: SidebarInfoTemplate = {
       "move-modal-in-on-a-shape", // 2025-05-22
       "css-spotlight-effect", // 2025-05-26
       "firstchild-can-be-white-space", // 2025-06-05
+      "grainy-gradients", // 2025-06-13
       // END: 2025css
       // END: css
     ]], [

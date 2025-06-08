@@ -7,7 +7,6 @@ category:
   - Go
   - DevOps
   - Kubernetes
-  - VM
   - Article(s)
 tag: 
   - blog

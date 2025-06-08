@@ -235,7 +235,7 @@ So a common practice is to use this "enhanced" shells like Bash or Zsh for gener
 
 When we get to scripting later on, we'll see how we can define what shell will execute a given script.
 
-If you're interested in a more detailed comparison between these shells, [here's a video that explains it really well](https://youtube.com/watch?v=dRdGq8khTJc):
+If you're interested in a more detailed comparison between these shells, [here's a video that explains it really well](https://youtu.be/dRdGq8khTJc):
 
 If had to recommend a shell, I would recommend bash as it's the most standard and commonly-used one. This means you'll be able to translate your knowledge into most environments.
 

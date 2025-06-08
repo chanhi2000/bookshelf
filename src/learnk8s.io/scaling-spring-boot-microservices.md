@@ -5,14 +5,24 @@ description: Article(s) > Scaling Microservices with Message Queues, Spring Boot
 icon: iconfont icon-k8s
 category:
   - DevOps
-  - VM
   - Kubernetes
+  - Docker
+  - Java
+  - Spring
+  - Kafka
   - Article(s)
 tag:
   - blog
   - learnk8s.io
+  - devops
   - kubernetes
   - k8s
+  - docker
+  - java
+  - spring
+  - java-spring
+  - kafka
+  - java-kafka
 head:
   - - meta:
     - property: og:title

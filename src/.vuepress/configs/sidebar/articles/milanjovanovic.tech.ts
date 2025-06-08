@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-
     "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
     "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
     "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24

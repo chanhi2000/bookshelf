@@ -2,6 +2,7 @@
 lang: en-US
 title: "How to Harden Your Node.js APIs – Security Best Practices"
 description: "Article(s) > How to Harden Your Node.js APIs – Security Best Practices"
+icon: fa-brands fa-node
 category:
   - Node.js
   - Article(s)
