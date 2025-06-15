@@ -1,0 +1,30 @@
+import{_ as s}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c,f as e,av as m,au as o,aw as r,ax as n,b as i,r as g,o as p}from"./app-BGkQLgjR.js";const d={},f={id:"frontmatter-title-관련",tabindex:"-1"},u={class:"header-anchor",href:"#frontmatter-title-관련"};function h(l,t){const a=g("VPCard");return p(),c("div",null,[e("h1",f,[e("a",u,[e("span",null,m(l.$frontmatter.title)+" 관련",1)])]),o(a,r(n({title:"Media - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/media/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[0]||(t[0]=e("nav",{class:"table-of-contents"},[e("ul")],-1)),t[1]||(t[1]=e("hr",null,null,-1)),o(a,r(n({title:"How to filter images using Core Image and CIFilter | Media - free Swift example code",desc:"How to filter images using Core Image and CIFilter",link:"https://hackingwithswift.com/example-code/media/how-to-filter-images-using-core-image-and-cifilter",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[2]||(t[2]=e("blockquote",null,[e("p",null,"Available from iOS 5.0")],-1)),i(" TODO: 작성 "),i(` 
+Core Image is the one of the most powerful frameworks available to iOS developers: it makes hardware-accelerated image manipulation ridiculously easy, which means you get to add powerful graphical effects to your apps and games with very little work.
+
+Most of the work is done by choosing the right \`CIFilter\`. Apple's official documentation goes into great detail about the various filters you can use, and you can also read <a href="/read/13/overview">Hacking with Swift project 13</a> for a hands-on tutorial showing off various effects. The code below applies a 50% sepia tone effect to an image:
+
+\`\`\`swift
+let inputImage = UIImage(named: "taylor-swift")!
+let context = CIContext(options: nil)
+
+if let currentFilter = CIFilter(name: "CISepiaTone") {
+    let beginImage = CIImage(image: inputImage)
+    currentFilter.setValue(beginImage, forKey: kCIInputImageKey)
+    currentFilter.setValue(0.5, forKey: kCIInputIntensityKey)
+
+    if let output = currentFilter.outputImage {
+        if let cgimg = context.createCGImage(output, from: output.extent) {
+            let processedImage = UIImage(cgImage: cgimg)
+            // do something interesting with the processed image
+        }
+    }
+}
+\`\`\`
+
+`),t[3]||(t[3]=e("details",{class:"hint-container details"},[e("summary",null,"Similar solutions…"),i(`
+/quick-start/swiftui/swiftui-tips-and-tricks">SwiftUI tips and tricks 
+/quick-start/swiftui/all-swiftui-property-wrappers-explained-and-compared">All SwiftUI property wrappers explained and compared 
+/example-code/uikit/how-to-create-live-playgrounds-in-xcode">How to create live playgrounds in Xcode 
+/example-code/games/how-to-create-a-random-terrain-tile-map-using-sktilemapnode-and-gkperlinnoisesource">How to create a random terrain tile map using SKTileMapNode and GKPerlinNoiseSource 
+/quick-start/concurrency/how-to-manipulate-an-asyncsequence-using-map-filter-and-more">How to manipulate an AsyncSequence using map(), filter(), and more</a>
+`)],-1))])}const y=s(d,[["render",h],["__file","how-to-filter-images-using-core-image-and-cifilter.html.vue"]]),k=JSON.parse('{"path":"/hackingwithswift.com/example-code/media/how-to-filter-images-using-core-image-and-cifilter.html","title":"How to filter images using Core Image and CIFilter","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to filter images using Core Image and CIFilter","description":"Article(s) > How to filter images using Core Image and CIFilter","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-5.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to filter images using Core Image and CIFilter"},{"property":"og:description","content":"How to filter images using Core Image and CIFilter"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-filter-images-using-core-image-and-cifilter.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/media/how-to-filter-images-using-core-image-and-cifilter.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to filter images using Core Image and CIFilter"}],["meta",{"property":"og:description","content":"Article(s) > How to filter images using Core Image and CIFilter"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-5.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to filter images using Core Image and CIFilter\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false,"gitInclude":[]},"headers":[],"readingTime":{"minutes":1.43,"words":429},"filePathRelative":"hackingwithswift.com/example-code/media/how-to-filter-images-using-core-image-and-cifilter.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{y as comp,k as data};

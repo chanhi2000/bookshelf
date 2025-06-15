@@ -1,0 +1,32 @@
+import{_ as l}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c,f as e,av as d,au as a,aw as n,ax as s,b as i,r as u,o as w}from"./app-BGkQLgjR.js";const p={},g={id:"frontmatter-title-관련",tabindex:"-1"},m={class:"header-anchor",href:"#frontmatter-title-관련"};function h(r,t){const o=u("VPCard");return w(),c("div",null,[e("h1",g,[e("a",m,[e("span",null,d(r.$frontmatter.title)+" 관련",1)])]),a(o,n(s({title:"UIKit - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/uikit/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[0]||(t[0]=e("nav",{class:"table-of-contents"},[e("ul")],-1)),t[1]||(t[1]=e("hr",null,null,-1)),a(o,n(s({title:"How to draw custom views in Interface Builder using IBDesignable | UIKit - free Swift example code",desc:"How to draw custom views in Interface Builder using IBDesignable",link:"https://hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[2]||(t[2]=e("blockquote",null,[e("p",null,"Available from iOS 8.0")],-1)),i(" TODO: 작성 "),i(`
+You've always been able to have custom views inside your apps, but if you're having a hard time visualizing how they look at design time then you should try \`@IBDesignable\`: it lets you see exactly how your custom views look inside IB, and if you combine it with \`@IBInspectable\` you can even adjust your view's design there too.
+
+This example view draws an ellipse that fills itself. If you add this to your project, create a view, then set that view to have this custom subclass, you'll see an ellipse appear immediately. You can move the view or resize it, and the ellipse will be updated. Plus, because I used \`@IBInspectable\` you can adjust the colors and stroke width right inside the attributes inspector, helping you make sure your UI looks exactly as you expect.
+
+\`\`\`swift
+@IBDesignable class EllipseView: UIView {
+    @IBInspectable var strokeWidth: CGFloat = 0
+    @IBInspectable var fillColor: UIColor = UIColor.black
+    @IBInspectable var strokeColor: UIColor = UIColor.clear
+
+    override func draw(_ rect: CGRect) {
+        guard let context = UIGraphicsGetCurrentContext() else { return }
+        let rectangle = bounds.insetBy(dx: strokeWidth / 2, dy: strokeWidth / 2)
+
+        context.setFillColor(fillColor.cgColor)
+        context.setStrokeColor(strokeColor.cgColor)
+        context.setLineWidth(strokeWidth)
+
+        context.addEllipse(in: rectangle)
+        context.drawPath(using: .fillStroke)
+    }
+}
+\`\`\`
+
+`),t[3]||(t[3]=e("details",{class:"hint-container details"},[e("summary",null,"Similar solutions…"),i(`
+/example-code/uikit/how-to-use-ibinspectable-to-adjust-values-in-interface-builder">How to use IBInspectable to adjust values in Interface Builder 
+/example-code/xcode/how-to-lock-interface-builder-controls-to-stop-accidental-changes">How to lock Interface Builder controls to stop accidental changes 
+/quick-start/swiftui/swiftui-vs-interface-builder-and-storyboards">SwiftUI vs Interface Builder and storyboards 
+/example-code/xcode/how-to-used-a-named-uicolor-in-code-and-interface-builder">How to used a named UIColor in code and Interface Builder 
+/quick-start/swiftui/how-to-draw-images-using-image-views">How to draw images using Image views</a>
+`)],-1))])}const I=l(p,[["render",h],["__file","how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html.vue"]]),v=JSON.parse('{"path":"/hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html","title":"How to draw custom views in Interface Builder using IBDesignable","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to draw custom views in Interface Builder using IBDesignable","description":"Article(s) > How to draw custom views in Interface Builder using IBDesignable","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-8.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to draw custom views in Interface Builder using IBDesignable"},{"property":"og:description","content":"How to draw custom views in Interface Builder using IBDesignable"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to draw custom views in Interface Builder using IBDesignable"}],["meta",{"property":"og:description","content":"Article(s) > How to draw custom views in Interface Builder using IBDesignable"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-8.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to draw custom views in Interface Builder using IBDesignable\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false,"gitInclude":[]},"headers":[],"readingTime":{"minutes":1.61,"words":482},"filePathRelative":"hackingwithswift.com/example-code/uikit/how-to-draw-custom-views-in-interface-builder-using-ibdesignable.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{I as comp,v as data};
