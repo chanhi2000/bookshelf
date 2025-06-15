@@ -854,14 +854,37 @@ const LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES: SidebarInfoSubgroupTem
   ]
 }
 
-const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-03
+const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-07
   text: 'The Front-End Performance Optimization Handbook – Tips and Strategies for Devs',
   collapsible: true,
   icon: 'fa-brands fa-node',
   subPath: 'the-front-end-performance-optimization-handbook',
   children: [
     'README',
-    // TODO: 페이지 생성
+    'reduce-http-requests',
+    'use-http2',
+    'use-server-side-rendering',
+    'use-a-cdn-for-static-resources',
+    'place-css-in-the-head-and-javascript-files-at-the-bottom',
+    'use-font-icons-iconfont-instead-of-image-icons',
+    'make-good-use-of-caching-avoid-reloading-the-same-resources',
+    'compress-files',
+    'image-optimization',
+    'load-code-on-demand-through-webpack-extract-third-party-libraries-reduce-redundant-code-when-converting-es6-to-es5',
+    'reduce-reflows-and-repaints',
+    'use-event-delegation',
+    'pay-attention-to-program-locality',
+    'if-else-vs-switch',
+    'lookup-tables',
+    'avoid-page-stuttering',
+    'use-requestanimationframe-to-implement-visual-changes',
+    'use-web-workers',
+    'use-bitwise-operations',
+    'dont-override-native-methods',
+    'reduce-the-complexity-of-css-selectors',
+    'use-flexbox-instead-of-earlier-layout-models',
+    'use-transform-and-opacity-properties-to-implement-animations',
+    'use-rules-reasonably-avoid-over-optimization',
   ]
 }
 
@@ -1020,11 +1043,67 @@ const THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES: SidebarInfoSubgr
   ]
 }
 
+const HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE: SidebarInfoSubgroupTemplate = { // 2025-06-17
+  text: "How to Build a Realtime Chat Application with Angular 20 and Supabase",
+  collapsible: true,
+  icon: 'fa-brands fa-anuglar',
+  subPath: 'how-to-build-a-realtime-chat-app-with-angular-20-and-supabase',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-17
+  text: "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools",
+  collapsible: true,
+  icon: 'fa-brands fa-docker',
+  subPath: 'how-to-debug-cicd-pipelines-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-06-18
+  text: "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools",
+  collapsible: true,
+  icon: 'fa-brands fa-docker',
+  subPath: 'the-logic-philosophy-and-science-of-software-testing-handbook-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-19
+  text: "The Data Communication and Networking Handbook",
+  collapsible: true,
+  icon: 'fas fa-computer',
+  subPath: 'the-data-communication-and-networking-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
+    "use-php-to-calculate-the-area-of-a-triangle", // 2025-06-20
+    "how-loops-work-in-php-beginners-guide", // 2025-06-19
+    THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK, // 2025-06-19
+    "build-a-conversational-ai-chatbot-with-stream-chat-and-react", // 2025-06-18
+    THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS, // 2025-06-18
+    "beginners-guide-to-cloud-data-analytics", // 2025-06-17
+    HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+    "configure-network-interfaces-in-linux", // 2025-06-17
+    "how-to-work-with-queues-in-typescript", // 2025-06-17
+    HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
+    "an-animated-introduction-to-programming-with-python", // 2025-06-17
     "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
     THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES, // 2025-06-14
     "how-to-build-a-medical-chatbot-with-flutter-and-gemini", // 2025-06-14
@@ -2183,6 +2262,7 @@ export const template: SidebarInfoTemplate = {
       "recursive-types-in-typescript-a-brief-exploration", // 2025-05-08
       "learn-object-oriented-programming-in-typescript", // 2025-05-12
       HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
+      "how-to-work-with-queues-in-typescript", // 2025-06-17
       // END: 2025ts
       // END: ts
     ]],[
@@ -2257,9 +2337,11 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-an-ai-powered-bot", // 2025-04-24
       "how-to-harden-your-nodejs-apis-security-best-practices", // 2025-04-26
       "how-to-automate-mobile-testing-strategies", // 2025-04-29
+      THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK,// 2025-05-07
       "how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes", // 2025-05-07
       "how-to-create-documentation-with-docspage", // 2025-05-07
       "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2375,6 +2457,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-react-19-in-pcf-components", // 2025-05-23
       COMPLETE_MICRO_FRONTENDS_GUIDE, // 2025-06-06
       "learn-the-mern-stack-in-2025", // 2025-06-10
+      "build-a-conversational-ai-chatbot-with-stream-chat-and-react", // 2025-06-18
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2460,6 +2543,7 @@ export const template: SidebarInfoTemplate = {
     "js-angular", [
       "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
       // END: 2024js-angular
+      HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
       // END: 2025js-angular
       // END: js-angular
     ]],[
@@ -2481,6 +2565,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-supabase
       HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE, // 2025-03-04
       "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
+      HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -2546,6 +2631,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-testcontainers-in-net", // 2025-03-26
       "how-to-use-css-text-wrap-property", // 2025-04-14
       "how-to-create-accessible-and-user-friendly-forms-in-react", // 2025-04-30
+      THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK,// 2025-05-07
       // END: 2025css
       // END: css
     ]],[
@@ -2665,6 +2751,7 @@ export const template: SidebarInfoTemplate = {
       BUILD_A_MULTILAYER_PERCEPTRON_WITH_EXAMPLES_AND_PYTHON_CODE, // 2025-05-31
       "a-beginners-guide-to-graphs", // 2025-06-03
       THE_OPEN_SOURCE_LLM_AGENT_HANDBOOK, // 2025-06-03
+      "an-animated-introduction-to-programming-with-python", // 2025-06-17
       // END: 2025py
       // END: py
     ]],[
@@ -2823,12 +2910,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2024go-grafana
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
       "how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant", // 2025-04-17
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025go-grafana
       // END: go-grafana
     ]],[
     "go-prometheus", [
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
       "observability-in-cloud-native-applications", // 2025-03-26
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025go-prometheus
     ]],[
     "cs", [
@@ -2907,6 +2996,8 @@ export const template: SidebarInfoTemplate = {
       "how-php-type-juggling-works-explained-with-code-examples", // 2025-04-16
       "how-to-use-arrow-functions-in-php", // 2025-05-09
       "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
+      "how-loops-work-in-php-beginners-guide", // 2025-06-19
+      "use-php-to-calculate-the-area-of-a-triangle", // 2025-06-20
       // END: 2025php
       // END: php
     ]],[
@@ -2958,6 +3049,7 @@ export const template: SidebarInfoTemplate = {
       "essential-cli-tui-tools-for-developers", // 2025-01-29
       "what-is-a-process-id-process-management-tutorial", // 2025-01-31
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
       // END: 2025sh
       // END: sh
     ]],[
@@ -3096,6 +3188,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2022gitlab
       // END: 2023gitlab
       // END: 2024gitlab
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      // END: 2025gitlab
       // END: gitlab
     ]],[
     "macos", [
@@ -3123,6 +3217,7 @@ export const template: SidebarInfoTemplate = {
       "set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi", // 2025-03-29
       "turn-ubuntu-2404-into-a-kvm-hypervisor", // 2025-04-29
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -3132,6 +3227,7 @@ export const template: SidebarInfoTemplate = {
       "guide-to-rhel-linux-basics", // 2025-01-11
       "learn-user-management-in-rhel-a-comprehensive-guide", // 2025-02-19
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
       // END: 2025linux-fedora
       // END: linux-fedora
     ]],[
@@ -3173,6 +3269,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-dockerize-your-django-project", // 2025-04-19
       HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS, // 2025-04-29
       "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025docker
       // END: docker
     ]],[
@@ -3193,6 +3290,7 @@ export const template: SidebarInfoTemplate = {
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES, // 2025-05-03
       FROM_COMMIT_TO_PRODUCTION_HANDS_ON_GITOPS_PROMOTION_WITH_GITHUB_ACTIONS_ARGO_CD_HELM_AND_KARGO, // 2025-06-06
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -3258,6 +3356,9 @@ export const template: SidebarInfoTemplate = {
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
       "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+      // END: 2024gcp
+      "beginners-guide-to-cloud-data-analytics", // 2025-06-17
+      // END: 2025gcp
       // END: gcp
     ]],[
     "vercel", [
@@ -3288,6 +3389,7 @@ export const template: SidebarInfoTemplate = {
     "jenkins", [
       "how-to-automate-mobile-testing-strategies", // 2025-04-29
       ORACLE_ERP_TEST_AUTOMATION_GUIDE, // 2025-05-01
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025jenkins
       // END: jenkins
     ]],[
@@ -3429,6 +3531,7 @@ export const template: SidebarInfoTemplate = {
       "learn-relational-database-basics-key-concepts-for-beginners", // 2025-01-14
       "data-synchronization-for-edge-computing", // 2025-03-13
       "master-database-management-systems", // 2025-05-22
+      "beginners-guide-to-cloud-data-analytics", // 2025-06-17
       // END: 2025data-science
       // END: data-science
     ]],[
@@ -3795,6 +3898,9 @@ export const template: SidebarInfoTemplate = {
       LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
       "a-beginners-guide-to-graphs", // 2025-06-03
       HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
+      THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS, // 2025-06-18
+      THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK, // 2025-06-19
+      "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
       // END: 2025coen
       // END: coen
     ]],[
