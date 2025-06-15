@@ -6,6 +6,8 @@ icon: fa-brands fa-linux
 category:
   - DevOps
   - Linux
+  - Debian
+  - Fedora
   - Shell
   - Article(s)
 tag:
@@ -13,6 +15,8 @@ tag:
   - freecodecamp.org
   - devops
   - linux
+  - debian
+  - fedora
   - sh
   - shell
 head:
@@ -23,7 +27,7 @@ head:
       content: "How to Get Information About Your Linux System Through the Command Line"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-linux-system-info-through-cli.html
-prev: /articles/README.md
+prev: /devops/linux-debian/articles/README.md
 date: 2025-06-11
 isOriginal: false
 author:
@@ -53,7 +57,6 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749636399891/4b457f7
   "background": "rgba(10,10,10,0.2)"
 }
 ```
-
 
 ```component VPCard
 {
