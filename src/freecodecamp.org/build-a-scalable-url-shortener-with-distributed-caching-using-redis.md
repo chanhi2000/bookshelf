@@ -26,7 +26,7 @@ head:
       content: "How to Build a Scalable URL Shortener with Distributed Caching Using Redis"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-scalable-url-shortener-with-distributed-caching-using-redis.html
-prev: /prgramming/js-node/articles/README.md
+prev: /programming/js-node/articles/README.md
 date: 2024-11-20
 isOriginal: false
 author: Birks Sachdev
@@ -39,7 +39,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/b9-odQi5oDo/up
 {
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/js-node/articles/README.md",
+  "link": "/programming/js-node/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

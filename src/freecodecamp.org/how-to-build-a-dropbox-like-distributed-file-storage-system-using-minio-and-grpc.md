@@ -24,7 +24,7 @@ head:
       content: "How to Build a Dropbox-like Distributed File Storage System Using MinIO and gRPC"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc.html
-prev: /prgramming/js-node/articles/README.md
+prev: /programming/js-node/articles/README.md
 date: 2024-11-13
 isOriginal: false
 author: Birks Sachdev
@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GWQ67jjUg9g/up
 {
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/js-node/articles/README.md",
+  "link": "/programming/js-node/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

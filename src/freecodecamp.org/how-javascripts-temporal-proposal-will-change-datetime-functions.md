@@ -19,7 +19,7 @@ head:
       content: "How JavaScript's Temporal Proposal Will Change Date/Time Functions"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascripts-temporal-proposal-will-change-datetime-functions.html
-prev: /prgramming/js/articles/README.md
+prev: /programming/js/articles/README.md
 date: 2024-11-14
 isOriginal: false
 author: Jesse Hall
@@ -32,7 +32,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mRGtYItJRnA/up
 {
   "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/js/articles/README.md",
+  "link": "/programming/js/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

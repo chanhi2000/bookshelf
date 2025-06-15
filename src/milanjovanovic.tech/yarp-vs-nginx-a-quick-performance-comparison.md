@@ -78,7 +78,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_144.png
 {
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/js-node/articles/README.md",
+  "link": "/programming/js-node/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

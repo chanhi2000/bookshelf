@@ -204,15 +204,33 @@ export const template: SidebarInfoTemplate = {
       "cloud-resources-kubernetes", // 2020-04-01
       "deploying-nodejs-kubernetes-eks", // 2022-06-27
       "terraform-eks", // 2023-01-11
+      // END: 2023aws
+      "allocatable-resources", // 2024-05-27
+      // END: 2024aws
+      // END: 2025aws
+      // END: aws
     ]],[
     "azure", [
       "cloud-resources-kubernetes", // 2020-04-01
       "terraform-aks", // 2021-03-17
+      // END: 2021azure
+      // END: 2022azure
+      // END: 2023azure
+      "allocatable-resources", // 2024-05-27
+      // END: 2024azure
+      // END: azure
     ]],[
     "gcp", [
       "cloud-resources-kubernetes", // 2020-04-01
       "kubernetes-custom-authentication", // 2020-04-15
+      // END: 2020gcp
+      // END: 2021gcp
+      // END: 2022gcp
       "terraform-gke", // 2023-01-11
+      // END: 2023gcp
+      "allocatable-resources", // 2024-05-27
+      // END: 2024gcp
+      // END: gcp
     ]],[
     "mongodb", [
       "developing-and-packaging-nodejs-docker", // 2022-06-27

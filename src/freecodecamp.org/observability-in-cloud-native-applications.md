@@ -19,6 +19,7 @@ tag:
   - go
   - golang
   - prometheus
+  - go-prometheus
 head:
   - - meta:
     - property: og:title

@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
+    "drawing-css-shapes-using-corner-shape", // 2025-06-18
+    "scope-in-css", // 2025-06-17
     "grainy-gradients", // 2025-06-13
     "1fr-1fr-vs-auto-auto-vs-50-50", // 2025-06-11
     "scroll-driven-letter-grid", // 2025-06-09
@@ -363,6 +366,9 @@ export const template: SidebarInfoTemplate = {
       "css-spotlight-effect", // 2025-05-26
       "firstchild-can-be-white-space", // 2025-06-05
       "grainy-gradients", // 2025-06-13
+      "scope-in-css", // 2025-06-17
+      "drawing-css-shapes-using-corner-shape", // 2025-06-18
+      "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
       // END: 2025css
       // END: css
     ]], [

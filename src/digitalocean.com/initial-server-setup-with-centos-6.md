@@ -4,6 +4,7 @@ title: "Initial Server Setup with CentOS 6"
 description: "Article(s) > Initial Server Setup with CentOS 6"
 icon: fa-brands fa-centos
 category: 
+  - DevOps
   - Linux
   - Fedora
   - CentOS
@@ -11,6 +12,7 @@ category:
 tag:
   - blog
   - digitalocean.com
+  - devops
   - linux
   - fedora
   - centos
@@ -33,7 +35,7 @@ cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 
 ```component VPCard
 {
-  "title": "Linux - Fedroa >  > Article(s)",
+  "title": "Linux - Fedroa > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-fedora/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",

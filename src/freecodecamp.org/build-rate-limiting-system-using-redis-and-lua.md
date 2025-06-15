@@ -28,7 +28,7 @@ head:
       content: "How to Build a Distributed Rate Limiting System Using Redis and Lua Scripts"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-rate-limiting-system-using-redis-and-lua.html
-prev: /prgramming/js-node/articles/README.md
+prev: /programming/js-node/articles/README.md
 date: 2024-11-20
 isOriginal: false
 author: Birks Sachdev
@@ -41,7 +41,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/CGWK6k2RduY/up
 {
   "title": "Node.js > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/js-node/articles/README.md",
+  "link": "/programming/js-node/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/CGWK6k2RduY/up
 {
   "title": "Lua > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/lua/articles/README.md",
+  "link": "/programming/lua/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -5,7 +5,6 @@ description: "Article(s) > Kubernetes networking: service, kube-proxy, load bala
 icon: iconfont icon-k8s
 category:
   - DevOps
-  - VM
   - Kubernetes
   - Article(s)
 tag:
@@ -21,7 +20,7 @@ head:
     - property: og:description
       content: "Kubernetes networking: service, kube-proxy, load balancing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/learnk8s.com/learnk8s.iokubernetes-services-and-load-balancing.html
+      content: https://chanhi2000.github.io/bookshelf/learnk8s.io/kubernetes-services-and-load-balancing.html
 prev: /devops/k8s/articles/README.md
 date: 2024-10-21
 isOriginal: false

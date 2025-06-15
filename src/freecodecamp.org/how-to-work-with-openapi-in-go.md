@@ -19,7 +19,7 @@ head:
       content: "How to Work with OpenAPI in Go"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-openapi-in-go.html
-prev: /prgramming/go/articles/README.md
+prev: /programming/go/articles/README.md
 date: 2025-02-19
 isOriginal: false
 author:
@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739971119374/b444d5f
 {
   "title": "Go > Article(s)",
   "desc": "Article(s)",
-  "link": "/prgramming/go/articles/README.md",
+  "link": "/programming/go/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

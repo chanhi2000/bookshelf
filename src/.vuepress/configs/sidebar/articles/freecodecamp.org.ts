@@ -854,14 +854,37 @@ const LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES: SidebarInfoSubgroupTem
   ]
 }
 
-const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-03
+const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-07
   text: 'The Front-End Performance Optimization Handbook – Tips and Strategies for Devs',
   collapsible: true,
   icon: 'fa-brands fa-node',
   subPath: 'the-front-end-performance-optimization-handbook',
   children: [
     'README',
-    // TODO: 페이지 생성
+    'reduce-http-requests',
+    'use-http2',
+    'use-server-side-rendering',
+    'use-a-cdn-for-static-resources',
+    'place-css-in-the-head-and-javascript-files-at-the-bottom',
+    'use-font-icons-iconfont-instead-of-image-icons',
+    'make-good-use-of-caching-avoid-reloading-the-same-resources',
+    'compress-files',
+    'image-optimization',
+    'load-code-on-demand-through-webpack-extract-third-party-libraries-reduce-redundant-code-when-converting-es6-to-es5',
+    'reduce-reflows-and-repaints',
+    'use-event-delegation',
+    'pay-attention-to-program-locality',
+    'if-else-vs-switch',
+    'lookup-tables',
+    'avoid-page-stuttering',
+    'use-requestanimationframe-to-implement-visual-changes',
+    'use-web-workers',
+    'use-bitwise-operations',
+    'dont-override-native-methods',
+    'reduce-the-complexity-of-css-selectors',
+    'use-flexbox-instead-of-earlier-layout-models',
+    'use-transform-and-opacity-properties-to-implement-animations',
+    'use-rules-reasonably-avoid-over-optimization',
   ]
 }
 
@@ -1020,11 +1043,147 @@ const THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES: SidebarInfoSubgr
   ]
 }
 
+const HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE: SidebarInfoSubgroupTemplate = { // 2025-06-17
+  text: "How to Build a Realtime Chat Application with Angular 20 and Supabase",
+  collapsible: true,
+  icon: 'fa-brands fa-anuglar',
+  subPath: 'how-to-build-a-realtime-chat-app-with-angular-20-and-supabase',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-17
+  text: "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools",
+  collapsible: true,
+  icon: 'fa-brands fa-docker',
+  subPath: 'how-to-debug-cicd-pipelines-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-06-18
+  text: "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools",
+  collapsible: true,
+  icon: 'fa-brands fa-docker',
+  subPath: 'the-logic-philosophy-and-science-of-software-testing-handbook-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-06-19
+  text: "The Data Communication and Networking Handbook",
+  collapsible: true,
+  icon: 'fas fa-computer',
+  subPath: 'the-data-communication-and-networking-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA: SidebarInfoSubgroupTemplate = { // 2025-06-23
+  text: "How to Implement a Service Worker with WorkBox in a Progressive Web App",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'implement-a-service-worker-with-workbox-in-a-pwa',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-06-24
+  text: "Kubernetes Networking Tutorial: A Guide for Developers",
+  collapsible: true,
+  icon: 'iconfont icon-k8s',
+  subPath: 'kubernetes-networking-tutorial-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS: SidebarInfoSubgroupTemplate = { // 2025-06-24
+  text: "Learn Embedded Systems Firmware Basics – A Handbook for Developers",
+  collapsible: true,
+  icon: 'iconfont icon-c',
+  subPath: 'learn-embedded-systems-firmware-basics-handbook-for-devs',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-06-26
+  text: "How to Build a Custom MCP Server with TypeScript – A Handbook for Developers",
+  collapsible: true,
+  icon: 'iconfont icon-typescript',
+  subPath: 'how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT: SidebarInfoSubgroupTemplate = { // 2025-07-02
+  text: "When to Use Async/Await vs Promises in JavaScript",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'when-to-use-asyncawait-vs-promises-in-javascript',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
+    "top-application-monitoring-tools-for-developers", // 2025-07-03
+    WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT, // 2025-07-02
+    "how-to-fetch-api-data-in-react-using-axios", // 2025-07-02
+    "how-to-use-the-view-transition-api", // 2025-07-02
+    "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
+    "javascript-frameworks-for-game-developers", // 2025-07-01
+    "how-to-audit-android-accessibility-with-the-accessibility-scanner-app", // 2025-07-01
+    "how-to-set-up-coolify-in-aws-ec2", // 2025-06-30
+    "how-to-use-local-notifications-in-flutter", // 2025-06-27
+    "routing-and-multi-screen-development-in-flutter-for-beginners", // 2025-06-27
+    "learn-the-evolution-of-the-transformer-architecture-used-in-llms", // 2025-06-26
+    "how-to-schedule-tasks-in-red-hat-enterprise-linux", // 2025-06-26
+    "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
+    "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+    HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
+    "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
+    "build-and-deploy-a-calendly-clone-with-google-calendar-integration", // 2025-06-24
+    LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
+    KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS, // 2025-06-24
+    IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA, // 2025-06-23
+    "how-to-choose-a-web-application-firewall-for-web-security", // 2025-06-22
+    "powerful-motion-graphics-frameworks-for-developers", // 2025-06-21
+    "start-a-career-in-technical-writing-through-open-source", // 2025-06-21
+    "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
+    "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
+    "use-php-to-calculate-the-area-of-a-triangle", // 2025-06-20
+    "how-loops-work-in-php-beginners-guide", // 2025-06-19
+    THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK, // 2025-06-19
+    "build-a-conversational-ai-chatbot-with-stream-chat-and-react", // 2025-06-18
+    THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS, // 2025-06-18
+    "beginners-guide-to-cloud-data-analytics", // 2025-06-17
+    HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+    "configure-network-interfaces-in-linux", // 2025-06-17
+    "how-to-work-with-queues-in-typescript", // 2025-06-17
+    HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
+    "an-animated-introduction-to-programming-with-python", // 2025-06-17
     "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
     THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES, // 2025-06-14
     "how-to-build-a-medical-chatbot-with-flutter-and-gemini", // 2025-06-14
@@ -2042,6 +2201,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-tooltips-in-jetpack-compose", // 2024-10-02
       // END: 2024java-android
       "master-kotlin-and-android-60-hour-course", // 2025-05-14
+      "how-to-audit-android-accessibility-with-the-accessibility-scanner-app", // 2025-07-01
       // END: 2025java-android
       // END: java-android
     ]],[
@@ -2163,6 +2323,10 @@ export const template: SidebarInfoTemplate = {
       "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
       THE_FRONT_END_MONITORING_HANDBOOK, // 2025-06-03
       "how-attackers-steal-data-from-websites-and-how-to-stop-them", // 2025-06-12
+      IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA, // 2025-06-23
+      "how-to-use-the-view-transition-api", // 2025-07-02
+      WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT, // 2025-07-02
+      "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
       // END: 2025js
       // END: js
     ]],[
@@ -2183,6 +2347,9 @@ export const template: SidebarInfoTemplate = {
       "recursive-types-in-typescript-a-brief-exploration", // 2025-05-08
       "learn-object-oriented-programming-in-typescript", // 2025-05-12
       HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
+      "how-to-work-with-queues-in-typescript", // 2025-06-17
+      "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
+      HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
       // END: 2025ts
       // END: ts
     ]],[
@@ -2257,9 +2424,14 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-an-ai-powered-bot", // 2025-04-24
       "how-to-harden-your-nodejs-apis-security-best-practices", // 2025-04-26
       "how-to-automate-mobile-testing-strategies", // 2025-04-29
+      THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK,// 2025-05-07
       "how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes", // 2025-05-07
       "how-to-create-documentation-with-docspage", // 2025-05-07
       "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      "powerful-motion-graphics-frameworks-for-developers", // 2025-06-21
+      "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
+      "javascript-frameworks-for-game-developers", // 2025-07-01
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2375,6 +2547,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-react-19-in-pcf-components", // 2025-05-23
       COMPLETE_MICRO_FRONTENDS_GUIDE, // 2025-06-06
       "learn-the-mern-stack-in-2025", // 2025-06-10
+      "build-a-conversational-ai-chatbot-with-stream-chat-and-react", // 2025-06-18
+      "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
+      "how-to-use-the-view-transition-api", // 2025-07-02
+      "how-to-fetch-api-data-in-react-using-axios", // 2025-07-02
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2426,6 +2602,8 @@ export const template: SidebarInfoTemplate = {
       "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
       "how-incremental-static-regeneration-isr-works-in-nextjs", // 2025-05-02
       HOW_TO_BUILD_A_SIMPLE_PORTFOLIO_BLOG_WITH_NEXTJS, // 2025-05-30
+      "build-and-deploy-a-calendly-clone-with-google-calendar-integration", // 2025-06-24
+      "how-to-use-the-view-transition-api", // 2025-07-02
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -2438,6 +2616,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js-express", [
       "learn-api-fundamentals-and-architecture", // 2025-03-22
+      "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       // END: 2025js-express
       // END: js-express
     ]],[
@@ -2460,6 +2639,7 @@ export const template: SidebarInfoTemplate = {
     "js-angular", [
       "how-to-transform-an-angular-appl-with-signals", // 2024-09-10
       // END: 2024js-angular
+      HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
       // END: 2025js-angular
       // END: js-angular
     ]],[
@@ -2471,6 +2651,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js-astro", [
       "how-to-build-a-callout-component-for-your-astro-blog", // 2024-10-22
+      // END: 2024js-astro
+      "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
+      // END: 2025js-astro
       // END: js-astro
     ]],[
     "js-supabase", [
@@ -2481,6 +2664,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-supabase
       HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE, // 2025-03-04
       "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
+      HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
+      "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -2546,6 +2731,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-testcontainers-in-net", // 2025-03-26
       "how-to-use-css-text-wrap-property", // 2025-04-14
       "how-to-create-accessible-and-user-friendly-forms-in-react", // 2025-04-30
+      THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK,// 2025-05-07
+      IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA, // 2025-06-23
+      "how-to-use-the-view-transition-api", // 2025-07-02
       // END: 2025css
       // END: css
     ]],[
@@ -2555,6 +2743,10 @@ export const template: SidebarInfoTemplate = {
       "create-a-front-end-portfolio-project-with-nextjs-and-threejs", // 2024-10-03
       "learn-tailwind-css-by-building-a-responsive-product-card", // 2024-10-11
       "how-to-integrate-tailwind-with-django", // 2024-11-05
+      // END: 2024css-tailwind
+      // END: css-tailwind
+      "build-and-deploy-a-calendly-clone-with-google-calendar-integration", // 2025-06-24
+      // END: 2025css-tailwind
       // END: css-tailwind
     ]],[
     "npm", [
@@ -2665,6 +2857,7 @@ export const template: SidebarInfoTemplate = {
       BUILD_A_MULTILAYER_PERCEPTRON_WITH_EXAMPLES_AND_PYTHON_CODE, // 2025-05-31
       "a-beginners-guide-to-graphs", // 2025-06-03
       THE_OPEN_SOURCE_LLM_AGENT_HANDBOOK, // 2025-06-03
+      "an-animated-introduction-to-programming-with-python", // 2025-06-17
       // END: 2025py
       // END: py
     ]],[
@@ -2771,6 +2964,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-secure-mobile-apis-in-flutter", // 2025-05-07
       BUILD_AN_AI_POWERED_COOKING_ASSISTANT_WITH_FLUTTER_AND_GEMINI, // 2025-05-28
       "how-to-build-a-medical-chatbot-with-flutter-and-gemini", // 2025-06-14
+      "routing-and-multi-screen-development-in-flutter-for-beginners", // 2025-06-27
+      "how-to-use-local-notifications-in-flutter", // 2025-06-27
       // END: 2025dart
       // END: dart
     ]],[
@@ -2823,12 +3018,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2024go-grafana
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
       "how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant", // 2025-04-17
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      "top-application-monitoring-tools-for-developers", // 2025-07-03
       // END: 2025go-grafana
       // END: go-grafana
     ]],[
     "go-prometheus", [
       "kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws", // 2025-01-22
       "observability-in-cloud-native-applications", // 2025-03-26
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      "top-application-monitoring-tools-for-developers", // 2025-07-03
       // END: 2025go-prometheus
     ]],[
     "cs", [
@@ -2871,6 +3070,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-debug-and-prevent-buffer-overflows-in-embedded-systems", // 2025-03-18
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
       "c-game-development-with-raylib", // 2025-06-05
+      LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
       // END: 2025c
       // END: c
     ]],[
@@ -2893,6 +3093,7 @@ export const template: SidebarInfoTemplate = {
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
       "c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot", // 2025-04-09
       "improve-you-c-skills-by-coding-an-audio-plugin", // 2025-05-06
+      LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
       // END: 2025cpp
       // END: cpp
     ]],[
@@ -2907,6 +3108,9 @@ export const template: SidebarInfoTemplate = {
       "how-php-type-juggling-works-explained-with-code-examples", // 2025-04-16
       "how-to-use-arrow-functions-in-php", // 2025-05-09
       "how-hackers-exploit-web-applications-and-how-to-prevent-them", // 2025-05-13
+      "how-loops-work-in-php-beginners-guide", // 2025-06-19
+      "use-php-to-calculate-the-area-of-a-triangle", // 2025-06-20
+      "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
       // END: 2025php
       // END: php
     ]],[
@@ -2958,6 +3162,7 @@ export const template: SidebarInfoTemplate = {
       "essential-cli-tui-tools-for-developers", // 2025-01-29
       "what-is-a-process-id-process-management-tutorial", // 2025-01-31
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
       // END: 2025sh
       // END: sh
     ]],[
@@ -3045,6 +3250,8 @@ export const template: SidebarInfoTemplate = {
       "speed-up-website-loading", // 2025-02-25
       "observability-in-cloud-native-applications", // 2025-03-26
       "what-is-site-reliability-engineering", // 2025-03-27
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      "top-application-monitoring-tools-for-developers", // 2025-07-03
       // END: 2025devops
       // END: devops
     ]],[
@@ -3096,6 +3303,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2022gitlab
       // END: 2023gitlab
       // END: 2024gitlab
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      // END: 2025gitlab
       // END: gitlab
     ]],[
     "macos", [
@@ -3123,6 +3332,7 @@ export const template: SidebarInfoTemplate = {
       "set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi", // 2025-03-29
       "turn-ubuntu-2404-into-a-kvm-hypervisor", // 2025-04-29
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -3132,6 +3342,8 @@ export const template: SidebarInfoTemplate = {
       "guide-to-rhel-linux-basics", // 2025-01-11
       "learn-user-management-in-rhel-a-comprehensive-guide", // 2025-02-19
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
+      "configure-network-interfaces-in-linux", // 2025-06-17
+      "how-to-schedule-tasks-in-red-hat-enterprise-linux", // 2025-06-26
       // END: 2025linux-fedora
       // END: linux-fedora
     ]],[
@@ -3173,6 +3385,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-dockerize-your-django-project", // 2025-04-19
       HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS, // 2025-04-29
       "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025docker
       // END: docker
     ]],[
@@ -3193,6 +3406,8 @@ export const template: SidebarInfoTemplate = {
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES, // 2025-05-03
       FROM_COMMIT_TO_PRODUCTION_HANDS_ON_GITOPS_PROMOTION_WITH_GITHUB_ACTIONS_ARGO_CD_HELM_AND_KARGO, // 2025-06-06
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS, // 2025-06-24
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -3234,6 +3449,7 @@ export const template: SidebarInfoTemplate = {
       "make-it-operations-more-efficient-with-aiops", // 2025-05-10
       "best-aws-services-for-frontend-deployment", // 2025-05-28
       "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
+      "how-to-set-up-coolify-in-aws-ec2", // 2025-06-30
       // END: 2025aws
       // END: aws
     ]],[
@@ -3258,16 +3474,11 @@ export const template: SidebarInfoTemplate = {
       "build-a-rag-chatbot-agent-cloud-google-sheets", // 2024-06-26
       "prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam", // 2024-10-25
       "learn-continuous-integration-delivery-and-deployment", // 2024-12-06
+      // END: 2024gcp
+      "beginners-guide-to-cloud-data-analytics", // 2025-06-17
+      "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
+      // END: 2025gcp
       // END: gcp
-    ]],[
-    "vercel", [
-      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
-      // END: 2020vercel
-      "how-to-deploy-your-project-on-vercel", // 2024-10-26
-      // END: 2024vercel
-      "deploy-to-vercel-with-github-actions", // 2025-06-11
-      // END: 2025vercel
-      // END: vercel
     ]],[
     "netlify", [
       "how-to-deploy-your-front-end-app", // 2021-01-09
@@ -3275,6 +3486,41 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-website-from-scratch-start-to-finish-walkthrough", // 2025-04-29
       // END: 2025netlify
       // END: netlify
+    ]],[
+    "cloudflare", [
+      "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
+      // END: 2025cloudflare
+      // END: cloudflare
+    ]],[
+    "vercel", [
+      "how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook", // 2020-09-18
+      // END: 2020vercel
+      "how-to-deploy-your-project-on-vercel", // 2024-10-26
+      // END: 2024vercel
+      "deploy-to-vercel-with-github-actions", // 2025-06-11
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      // END: 2025vercel
+      // END: vercel
+    ]],[
+    "fly", [
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      // END: 2025fly
+      // END: fly
+    ]],[
+    "heroku", [
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      // END: 2025heroku
+      // END: heroku
+    ]],[
+    "hostinger", [
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      // END: 2025hostinger
+      // END: hostinger
+    ]],[
+    "railway", [
+      "top-hosting-platforms-for-indie-hackers", // 2025-06-26
+      // END: 2025railway
+      // END: railway
     ]],[
     "terraform", [
       "comparing-iac-tools-aws-cdk-cloudformation-terraform", // 2024-06-03
@@ -3288,6 +3534,7 @@ export const template: SidebarInfoTemplate = {
     "jenkins", [
       "how-to-automate-mobile-testing-strategies", // 2025-04-29
       ORACLE_ERP_TEST_AUTOMATION_GUIDE, // 2025-05-01
+      HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       // END: 2025jenkins
       // END: jenkins
     ]],[
@@ -3358,6 +3605,8 @@ export const template: SidebarInfoTemplate = {
       "why-public-wi-fi-is-dangerous-and-how-to-protect-yourself", // 2025-06-03
       "how-attackers-steal-data-from-websites-and-how-to-stop-them", // 2025-06-12
       "how-to-improve-your-phones-privacy", // 2025-06-14
+      "how-to-choose-a-web-application-firewall-for-web-security", // 2025-06-22
+      "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
       // END: 2025security
       // END: security
     ]],[
@@ -3429,12 +3678,14 @@ export const template: SidebarInfoTemplate = {
       "learn-relational-database-basics-key-concepts-for-beginners", // 2025-01-14
       "data-synchronization-for-edge-computing", // 2025-03-13
       "master-database-management-systems", // 2025-05-22
+      "beginners-guide-to-cloud-data-analytics", // 2025-06-17
       // END: 2025data-science
       // END: data-science
     ]],[
     "mysql", [
       "object-relational-mapping-in-nodejs-with-sequelize-orm", // 2024-10-17
       // END: 2024mysql
+      "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
       // END: 2025mysql
       // END: mysql
     ]],[
@@ -3503,10 +3754,14 @@ export const template: SidebarInfoTemplate = {
       "integrate-wordpress-with-nextjs", // 2024-10-02
       // END: 2024graphql
       "how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors", // 2025-03-26
+      "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       // END: graphql
     ]],[
     "spark", [
       "pyspark-for-beginners", // 2024-06-26
+      // END: 2024spark
+      // END: 2025spark
+      // END: spark
     ]],[
     "r", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
@@ -3646,6 +3901,7 @@ export const template: SidebarInfoTemplate = {
       "build-your-own-vit-model-from-scratch", // 2025-05-28
       THE_AGENTIC_AI_HANDBOOK, // 2025-05-28
       THE_OPEN_SOURCE_LLM_AGENT_HANDBOOK, // 2025-06-03
+      "learn-the-evolution-of-the-transformer-architecture-used-in-llms", // 2025-06-26
       // END: 2025llm
       // END: llm
     ]],[
@@ -3682,6 +3938,8 @@ export const template: SidebarInfoTemplate = {
     "claude", [
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
       "learn-to-use-claude-ai", // 2024-10-23
+      // END: 2024claude
+      // END: 2025claude
       // END: claude
     ]],[
     "langchain", [
@@ -3724,6 +3982,10 @@ export const template: SidebarInfoTemplate = {
       "build-a-vision-transformer-from-scratch", // 2025-02-27
       // END: 2025vit
       // END: vit
+    ]],[
+    "mcp", [
+      HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
+      // END: mcp
     ]],[
     "chem", [
       "general-chemistry-college-course", // 2025-06-04
@@ -3795,6 +4057,9 @@ export const template: SidebarInfoTemplate = {
       LEETCODE_DSA_CONCEPTS_HANDBOOK, // 2025-05-30
       "a-beginners-guide-to-graphs", // 2025-06-03
       HOW_TO_CODE_LINKED_LISTS_WITH_TYPESCRIPT_HANDBOOK, // 2025-06-03
+      THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS, // 2025-06-18
+      THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK, // 2025-06-19
+      "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
       // END: 2025coen
       // END: coen
     ]],[
@@ -3820,6 +4085,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-a-good-conference-talk-proposal", // 2025-04-22
       "how-to-get-your-first-saas-customers", // 2025-05-01
       "prepare-for-your-ios-interview", // 2025-05-09
+      "start-a-career-in-technical-writing-through-open-source", // 2025-06-21
       // END: 2025career
       // END: career
     ]],[
@@ -3842,10 +4108,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025arduino
       // END: arduino
     ]],[
-    "stm32", [
+    "stm", [
       "connect-read-process-sensor-data-on-microcontrollers-for-beginners", // 2025-03-15
-      // END: 2025stm32
-      // END: stm32
+      LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
+      // END: 2025stm
+      // END: stm
     ]],[
     "api", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26

@@ -5,16 +5,16 @@ description: "Article(s) > How to Connect, Read, and Process Sensor Data on Micr
 icon: iconfont icon-st-microelectronics
 category:
   - Hardware
-  - STM
+  - ST Microelectronics
   - Youtube
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
+  - hw
   - hardware
-  - st
-  - st-microelectronics
   - stm
+  - st-microelectronics
   - computer
 head:
   - - meta:
@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741902732575/fd41a2d
 
 ```component VPCard
 {
-  "title": "STM > Article(s)",
+  "title": "ST Microelectronics > Article(s)",
   "desc": "Article(s)",
   "link": "/hw/stm/articles/README.md",
   "logo": "/images/ico-wind.svg",
