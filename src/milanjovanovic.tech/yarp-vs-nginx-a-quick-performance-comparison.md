@@ -184,7 +184,7 @@ nginx.proxy:
 
 The Nginx config does exactly what YARP does - just with different syntax:
 
-```nginx
+```conf
 events {}
 
 http {
@@ -336,7 +336,7 @@ So let me fix the Nginx configuration and re-run the tests.
 
 Here's the updated Nginx config with some tweaks to improve performance:
 
-```nginx :collapsed-lines
+```conf :collapsed-lines
 worker_processes auto;
 
 events {

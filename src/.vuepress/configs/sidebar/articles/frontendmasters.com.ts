@@ -5,6 +5,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
+    "satisfies-in-typescript", // 2025-07-03
+    "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
+    "step-gradients-with-a-given-number-of-steps", // 2025-06-30
+    "quantity-query-carousel", // 2025-06-25
     "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
     "drawing-css-shapes-using-corner-shape", // 2025-06-18
     "scope-in-css", // 2025-06-17
@@ -217,6 +222,7 @@ export const template: SidebarInfoTemplate = {
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
       "mapping-with-leaflet", // 2025-01-29
       "css-spotlight-effect", // 2025-05-26
+      "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       // END: 2025js
       // END: js
     ]], [
@@ -225,6 +231,7 @@ export const template: SidebarInfoTemplate = {
       "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
       "typescript-without-build-tools", // 2024-12-30
       // END: 2024ts
+      "satisfies-in-typescript", // 2025-07-03
       // END: 2025ts
       // END: ts
     ]], [
@@ -369,6 +376,10 @@ export const template: SidebarInfoTemplate = {
       "scope-in-css", // 2025-06-17
       "drawing-css-shapes-using-corner-shape", // 2025-06-18
       "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
+      "quantity-query-carousel", // 2025-06-25
+      "step-gradients-with-a-given-number-of-steps", // 2025-06-30
+      "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
+      "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       // END: 2025css
       // END: css
     ]], [

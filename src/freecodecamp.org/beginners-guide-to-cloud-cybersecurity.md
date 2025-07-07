@@ -8,6 +8,7 @@ category:
   - Google
   - Google Cloud
   - Security
+  - Youtube
   - Article(s)
 tag:
   - blog
@@ -18,6 +19,8 @@ tag:
   - gcp
   - sec
   - security
+  - youtube
+  - crashcourse
 head:
   - - meta:
     - property: og:title

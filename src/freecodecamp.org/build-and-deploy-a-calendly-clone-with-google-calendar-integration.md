@@ -7,6 +7,7 @@ category:
   - Node.js
   - Next.js
   - TaliwindCSS
+  - Youtube
   - Article(s)
 tag:
   - blog
@@ -20,6 +21,8 @@ tag:
   - css
   - tailwindcss
   - tailwind-css
+  - youtube
+  - crashcourse
 head:
   - - meta:
     - property: og:title

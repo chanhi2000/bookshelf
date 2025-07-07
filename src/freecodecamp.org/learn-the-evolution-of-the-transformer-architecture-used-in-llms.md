@@ -6,6 +6,7 @@ icon: fas fa-language
 category:
   - AI
   - LLM
+  - Youtube
   - Article(s)
 tag:
   - blog
@@ -14,6 +15,8 @@ tag:
   - artificial-intelligence
   - llm
   - large-language-model
+  - youtube
+  - crashcourse
 head:
   - - meta:
     - property: og:title

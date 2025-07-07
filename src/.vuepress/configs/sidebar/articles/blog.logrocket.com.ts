@@ -132,6 +132,7 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "5-ways-rapidly-improve-mysql-database-performance", // 2024-12-29
     "http-requests-axios", // 2024-11-27
     "react-onclick-event-handlers-guide", // 2024-11-26
     "axios-vs-fetch-best-http-requests", // 2024-11-21
@@ -152,6 +153,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "modern-api-data-fetching-methods-react", // 2024-03-01
     "building-high-performance-ecommerce-sites-astro", // 2024-02-28
     "understanding-axios-get-requests", // 2024-02-09
+    "5-ways-make-http-requests-node-js", // 2024-02-02
     "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
     "react-conditional-rendering-9-methods", // 2024-01-10
   ]
@@ -191,6 +193,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "rendering-large-lists-react-virtualized", // 2023-03-01
     "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
     "build-powerful-react-forms-with-informed", // 2023-02-09
+    "complete-guide-threads-node-js", // 2023-01-27
     "creating-typewriter-animation-css", // 2023-01-12
   ]
 }
@@ -375,6 +378,7 @@ export const template: SidebarInfoTemplate = {
       "intercepting-javascript-fetch-api-requests-responses", // 2022-02-18
       "complete-guide-abortcontroller-node-js", // 2022-06-06
       // END: 2022js-node
+      "complete-guide-threads-node-js", // 2023-01-27
       "exploring-anime-js-example-site-animation-project", // 2023-03-06
       "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
       "fetch-api-node-js", // 2023-11-01
@@ -384,6 +388,7 @@ export const template: SidebarInfoTemplate = {
       "commonjs-vs-es-modules-node-js", // 2024-06-06
       "building-microservices-node-js", // 2024-10-22
       // END: 2024js-node
+      "5-ways-make-http-requests-node-js", // 2024-02-02
       "leveraging-parallel-computing-node-js", // 2025-02-13
       "guide-node-js-readable-streams", // 2025-02-25
     
@@ -654,6 +659,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "mysql", [
       "build-rest-api-node-express-mysql", // 2024-10-21
+      "5-ways-rapidly-improve-mysql-database-performance", // 2024-12-29
       // END: 2024mysql
       // END: 2025mysql
       // END: mysql
