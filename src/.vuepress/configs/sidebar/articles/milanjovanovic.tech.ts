@@ -15,7 +15,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
-    "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-
+    "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
+    "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
+    "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
+    "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
+    "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-14
     "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
     "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
     "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
@@ -326,6 +330,11 @@ export const template: SidebarInfoTemplate = {
       "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
       "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
       "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-14
+      "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
+      "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
+      "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
+      "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
       // END: 2025cs
       // END: cs
     ]],[
@@ -342,6 +351,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-node
       // END: js-node
     ]],[
+    "go-grafana", [
+      "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
+      // END: 2025go-grafana
+      // END: go-grafana
+    ]],[
     "erl-rabbitmq", [
       "implementing-the-saga-pattern-with-rebus-and-rabbitmq", // 202404-01
       // END: 2024erl-rabbitmq
@@ -355,6 +369,8 @@ export const template: SidebarInfoTemplate = {
       "dotnet-aspire-a-game-changer-for-cloud-native-development", // 2024-09-14
       // END: 2024docker
       "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
+      "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
       // END: 2025docker
       // END: docker
     ]],[

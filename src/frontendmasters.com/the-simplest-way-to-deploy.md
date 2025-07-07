@@ -62,6 +62,7 @@ We’ve covered [**the very fastest way**](/frontendmasters.com/exactly-how-to-d
 
 Websites tend to need to be *updated.* Technically, you can keep using that tool to drag-and-drop your entire site again. But since we’re here to learn to be a better developer, **let’s do better** than that. We’re going to start using Git and GitHub. Let’s do the steps.
 
+
 ::: info Article Series
 
 ```component VPCard
@@ -79,6 +80,16 @@ Websites tend to need to be *updated.* Technically, you can keep using that tool
   "title": "The Simplest Way to Deploy Your Own Updatable Portfolio Site",
   "desc": "For the true beginners out there! We'll put the files in a GitHub repo and connect it to Netlify to host it.",
   "link": "/frontendmasters.com/the-simplest-way-to-deploy.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Deploy a Site with a Build Process & a Custom Domain Name",
+  "desc": "The last part of this series is taking our site that we've got in GitHub and addng an Astro build process to it, then mapping a domain we own to the Netlify-hosted site.",
+  "link": "/frontendmasters.com/deploy-a-site-with-a-build-process-a-custom-domain-name.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
@@ -218,12 +229,31 @@ Next time we’ll take things just a smidge further, adding in a tool to help us
 
 ::: info Article Series
 
-1. [Exactly How to Deploy Local Files to Make a Live Website](https://frontendmasters.com/blog/exactly-how-to-deploy-local-files-to-make-a-live-website/)
+```component VPCard
+{
+  "title": "Exactly How to Deploy Local Files to Make a Live Website",
+  "desc": "A very basic step-by-step guide of exactly how to do it for static files like .html, .css, and .js files. ",
+  "link": "/frontendmasters.com/exactly-how-to-deploy-local-files-to-make-a-live-website.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
 ```component VPCard
 {
   "title": "The Simplest Way to Deploy Your Own Updatable Portfolio Site",
   "desc": "For the true beginners out there! We'll put the files in a GitHub repo and connect it to Netlify to host it.",
   "link": "/frontendmasters.com/the-simplest-way-to-deploy.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Deploy a Site with a Build Process & a Custom Domain Name",
+  "desc": "The last part of this series is taking our site that we've got in GitHub and addng an Astro build process to it, then mapping a domain we own to the Netlify-hosted site.",
+  "link": "/frontendmasters.com/deploy-a-site-with-a-build-process-a-custom-domain-name.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

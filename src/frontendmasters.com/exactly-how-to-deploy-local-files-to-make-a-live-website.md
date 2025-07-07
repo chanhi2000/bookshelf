@@ -65,6 +65,7 @@ I’ll walk you through all this below, I just wanted to be clear about what we�
 
 Now let’s get into more detail.
 
+
 ::: info Article Series
 
 ```component VPCard
@@ -82,6 +83,16 @@ Now let’s get into more detail.
   "title": "The Simplest Way to Deploy Your Own Updatable Portfolio Site",
   "desc": "For the true beginners out there! We'll put the files in a GitHub repo and connect it to Netlify to host it.",
   "link": "/frontendmasters.com/the-simplest-way-to-deploy.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Deploy a Site with a Build Process & a Custom Domain Name",
+  "desc": "The last part of this series is taking our site that we've got in GitHub and addng an Astro build process to it, then mapping a domain we own to the Netlify-hosted site.",
+  "link": "/frontendmasters.com/deploy-a-site-with-a-build-process-a-custom-domain-name.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
@@ -228,6 +239,16 @@ Let us know what you’ve used or tried!
   "title": "The Simplest Way to Deploy Your Own Updatable Portfolio Site",
   "desc": "For the true beginners out there! We'll put the files in a GitHub repo and connect it to Netlify to host it.",
   "link": "/frontendmasters.com/the-simplest-way-to-deploy.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Deploy a Site with a Build Process & a Custom Domain Name",
+  "desc": "The last part of this series is taking our site that we've got in GitHub and addng an Astro build process to it, then mapping a domain we own to the Netlify-hosted site.",
+  "link": "/frontendmasters.com/deploy-a-site-with-a-build-process-a-custom-domain-name.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

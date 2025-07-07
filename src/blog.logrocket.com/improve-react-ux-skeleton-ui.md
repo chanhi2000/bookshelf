@@ -364,7 +364,7 @@ const Card = ({ item, channel }) => {
   return (
     <li className="card">
       <a
-        href={`https://www.youtube.com/watch?v=${item.id}`}
+        href={`https://www.youtu.be/${item.id}`}
         target="_blank"
         rel="noopener noreferrer"
         className="card-link"
@@ -842,7 +842,7 @@ const Card = ({ item, channel }) => {
   return (
     <li className="card">
       <a
-        href={`https://www.youtube.com/watch?v=${item.id}`}
+        href={`https://www.youtu.be/${item.id}`}
         target="_blank"
         rel="noopener noreferrer"
         className="card-link"

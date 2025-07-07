@@ -5,6 +5,16 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "3231", // 2025-07-10
+    "3228", // 2025-07-09
+    "3224", // 2025-07-08
+    "3223", // 2025-07-08
+    "3216", // 2025-07-03
+    "3211", // 2025-07-01
+    "3201", // 2025-06-25
+    "3200", // 2025-06-25
+    "3196", // 2025-06-24
+
     "3160", // 2025-05-30
     "3157", // 2025-05-29
     "3156", // 2025-05-29
@@ -427,6 +437,8 @@ export const template: SidebarInfoTemplate = {
         "3057", // 2025-04-09
         "3097", // 2025-04-30
         "3142", // 2025-05-23
+
+        "3216", // 2025-07-03
         // END: 2025js-node
         // END: js-node
       ]], [
@@ -457,6 +469,7 @@ export const template: SidebarInfoTemplate = {
         "3029", // 2025-03-21
         "3037", // 2025-03-27
         "3153", // 2025-05-28
+        "3211", // 2025-07-01
         // END: 2025js-react
         // END: js-react
       ]], [
@@ -506,6 +519,8 @@ export const template: SidebarInfoTemplate = {
         "2872", // 2024-12-03
         // END: 2024py
         "3119", // 2025-05-12
+
+        "3200", // 2025-06-25
         // END: 2025py
         // END: py
       ]], [
@@ -610,6 +625,7 @@ export const template: SidebarInfoTemplate = {
         "2922", // 2025-01-08
         "2939", // 2025-01-17
         "2956", // 2025-02-03
+        "3228", // 2025-07-09
         // END: 2025k8s
         // END: k8s
       ]],[
@@ -656,6 +672,7 @@ export const template: SidebarInfoTemplate = {
         "2972", // 2025-02-12
         "3061", // 2025-04-11
         "3157", // 2025-05-29
+        "3224", // 2025-07-08
         // END: 2025data-science
         // END: data-science
       ]],[
@@ -769,6 +786,9 @@ export const template: SidebarInfoTemplate = {
         "2970", // 2025-02-11
         "3111", // 2025-05-08
         "3113", // 2025-05-09
+        
+        "3196", // 2025-06-24
+        "3231", // 2025-07-10
         // END: 2025ai
         // END: ai
       ]],[
@@ -784,6 +804,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2024llm
         "3033", // 2025-03-25
         "3057", // 2025-04-09
+        "3223", // 2025-07-08
         // END: 2025llm
         // END: llm
       ]],[
@@ -804,6 +825,9 @@ export const template: SidebarInfoTemplate = {
       "gemeni", [
         "2655", // 2024-07-02
         // END: 2024gemini
+        "3216", // 2025-07-03
+        "3228", // 2025-07-09
+        // END: 2025gemini
         // END: gemini
       ]],[
       "llama", [
@@ -897,6 +921,10 @@ export const template: SidebarInfoTemplate = {
         "3111", // 2025-05-08
         "3113", // 2025-05-09
         "3144", // 2025-05-23
+
+        "3196", // 2025-06-24
+        "3201", // 2025-06-25
+        "3231", // 2025-07-10
         // END: 2025career
         // END: career
       ]],[

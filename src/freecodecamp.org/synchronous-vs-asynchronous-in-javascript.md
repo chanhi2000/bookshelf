@@ -22,7 +22,9 @@ head:
 prev: /programming/js/articles/README.md
 date: 2021-09-14
 isOriginal: false
-author: Tapas Adhikary
+author: 
+  - name: Tapas Adhikary
+    url : https://freecodecamp.org/news/author/atapas/
 cover: https://freecodecamp.org/news/content/images/2021/09/freeCodeCamp-Cover-2.png
 ---
 

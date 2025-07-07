@@ -27,7 +27,9 @@ head:
 prev: /programming/js-next/articles/README.md
 date: 2024-10-23
 isOriginal: false
-author: Tapas Adhikary
+author: 
+  - name: Tapas Adhikary
+    url : https://freecodecamp.org/news/author/atapas/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729165969570/14ca2ef4-8a08-40f8-ba70-c6c24c194850.png
 ---
 

@@ -170,8 +170,17 @@ const HOW_TO_CREATE_A_GREAT_PERSONAL_PORTFOLIO_PAGE_A_STEP_BY_STEP_GUIDE: Sideba
   icon: 'fas fa-user-tie',
   subPath: 'how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide',
   children: [
-    // TODO: 페이지 생성
     'README',
+    'why-is-a-personal-portfolio-website-important',
+    'how-to-choose-the-right-domain-name',
+    'how-to-design-your-portfolio-site',
+    'how-to-pick-the-right-tools',
+    'how-to-showcase-your-best-work',
+    'how-to-craft-your-brand-story-and-unique-voice',
+    'how-to-add-additional-content',
+    'what-pages-you-need-in-your-portfolio',
+    'how-to-organize-the-home-page',
+    'how-to-keep-your-portfolio-fresh',
   ],
 }
 
@@ -181,8 +190,27 @@ const HOW_TO_CREATE_AN_INTERACTIVE_TERMINAL_PORTFOLIO_WEBSITE: SidebarInfoSubgro
   icon: 'fa-brands fa-js',
   subPath: 'how-to-create-an-interactive-terminal-portfolio-website',
   children: [
-    // TODO: 페이지 생성
     'README',
+    'what-is-the-terminal-and-its-history',
+    'what-is-jquery-terminal',
+    'base-html-file',
+    'how-to-initialize-the-terminal',
+    'welcome-message',
+    'line-gaps',
+    'how-to-add-colors-to-ascii-art',
+    'how-to-make-your-first-command',
+    'default-commands',
+    'how-to-make-help-commands-executable',
+    'syntax-highlighting',
+    'tab-completion',
+    'how-to-add-shell-commands',
+    'how-to-improve-completion',
+    'typing-animation-command',
+    'credits-command',
+    'prefilled-commands',
+    'sharing-link-to-terminal-session',
+    'working-terminal-portfolio-demo',
+    'adding-executables-to-home-directory',
   ],
 }
 
@@ -1142,11 +1170,45 @@ const WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT: SidebarInfoSubgroupTempl
   ]
 }
 
+const HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK: SidebarInfoSubgroupTemplate = { // 2025-07-07
+  text: "How to Build Production-Ready Full Stack Apps with the MERN Stack",
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'how-to-build-production-ready-full-stack-apps-with-the-mern-stack',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS: SidebarInfoSubgroupTemplate = { // 2025-07-10
+  text: "How to Use the “this” Keyword in JavaScript: A Handbook for Devs",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "the-javascript-error-handling-handbook", // 2025-07-12
+    "build-and-deploy-a-polished-ai-project-and-get-sales", // 2025-07-10
+    HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-07-10
+    "transform-json-data-schema", // 2025-07-10
+    "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
+    "how-to-deploy-a-nextjs-blog-on-sevalla", // 2025-07-10
+    "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
+    "how-to-use-pytest-a-guide-to-testing-in-python", // 2025-07-09
+    "how-to-use-constructors-in-java-a-beginners-guide", // 2025-07-09
+    "what-are-json-web-tokens-jwt", // 2025-07-08
+    "how-to-work-with-react-forms", // 2025-07-07
+    HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
     "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
     "top-application-monitoring-tools-for-developers", // 2025-07-03
     WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT, // 2025-07-02
@@ -1714,7 +1776,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "how-to-future-proof-your-software-engineering-career-for-the-age-of-agi", // 2024-08-23
     "create-a-macos-app-with-react-native", // 2024-08-22
     "learn-to-use-the-gemini-ai-multimodal-model", // 2024-08-22
-    "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
+    "how-to-build-a-serverless-crud-rest-api", // 2024-08-22
     "how-to-create-software-architecture-diagrams-using-the-c4-mode", // 2024-08-21
     "what-is-css-subgrid", // 2024-08-21
     "how-to-build-good-coding-habits", // 2024-08-20
@@ -2177,6 +2239,7 @@ export const template: SidebarInfoTemplate = {
       BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R, // 2025-04-15
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       ORACLE_ERP_TEST_AUTOMATION_GUIDE, // 2025-05-01
+      "how-to-use-constructors-in-java-a-beginners-guide", // 2025-07-09
       // END: 2025java
       // END: java
     ]],[
@@ -2327,6 +2390,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-the-view-transition-api", // 2025-07-02
       WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT, // 2025-07-02
       "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
+      HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-07-10
       // END: 2025js
       // END: js
     ]],[
@@ -2384,7 +2448,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-implement-message-queues-in-your-backend-applications", // 2024-08-14
       "learn-ml5js-for-machine-learning-in-javascript", // 2024-08-14
       "how-to-read-and-write-files-with-nodejs", // 2024-08-19
-      "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
+      "how-to-build-a-serverless-crud-rest-api", // 2024-08-22
       "implement-api-rate-limiting-in-strapi", // 2024-09-10
       "how-to-handle-side-effects-in-jest", // 2024-09-16
       "tools-for-code-reuse", // 2024-09-25
@@ -2432,6 +2496,7 @@ export const template: SidebarInfoTemplate = {
       "powerful-motion-graphics-frameworks-for-developers", // 2025-06-21
       "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
       "javascript-frameworks-for-game-developers", // 2025-07-01
+      "how-to-deploy-a-nextjs-blog-on-sevalla", // 2025-07-10
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2551,6 +2616,8 @@ export const template: SidebarInfoTemplate = {
       "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       "how-to-use-the-view-transition-api", // 2025-07-02
       "how-to-fetch-api-data-in-react-using-axios", // 2025-07-02
+      HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
+      "how-to-work-with-react-forms", // 2025-07-07
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2617,6 +2684,7 @@ export const template: SidebarInfoTemplate = {
     "js-express", [
       "learn-api-fundamentals-and-architecture", // 2025-03-22
       "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
+      HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       // END: 2025js-express
       // END: js-express
     ]],[
@@ -2673,6 +2741,11 @@ export const template: SidebarInfoTemplate = {
       "what-are-pre-rendering-and-hydration-in-web-dev", // 2024-10-07
       // END: 2024js-gatsby
       // END: js-gatsby
+    ]],[
+    "js-n8n", [
+      "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
+      // END: 2025js-n8n
+      // END: js-n8n
     ]],[
     "js-graphql", [
       // END: 2024js-graphql
@@ -2858,6 +2931,7 @@ export const template: SidebarInfoTemplate = {
       "a-beginners-guide-to-graphs", // 2025-06-03
       THE_OPEN_SOURCE_LLM_AGENT_HANDBOOK, // 2025-06-03
       "an-animated-introduction-to-programming-with-python", // 2025-06-17
+      "how-to-use-pytest-a-guide-to-testing-in-python", // 2025-07-09
       // END: 2025py
       // END: py
     ]],[
@@ -2933,6 +3007,7 @@ export const template: SidebarInfoTemplate = {
       "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
       "learn-python-for-data-science-full-course", // 2025-05-30
       "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
+      "transform-json-data-schema", // 2025-07-10
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -3071,6 +3146,7 @@ export const template: SidebarInfoTemplate = {
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
       "c-game-development-with-raylib", // 2025-06-05
       LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
+      "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
       // END: 2025c
       // END: c
     ]],[
@@ -3094,6 +3170,7 @@ export const template: SidebarInfoTemplate = {
       "c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot", // 2025-04-09
       "improve-you-c-skills-by-coding-an-audio-plugin", // 2025-05-06
       LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
+      "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
       // END: 2025cpp
       // END: cpp
     ]],[
@@ -3274,7 +3351,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
       "pass-the-github-advanced-security-certification-exam", // 2024-07-17
       "host-your-first-project-on-github", // 2024-08-08
-      "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
+      "how-to-build-a-serverless-crud-rest-api", // 2024-08-22
       "how-to-manage-your-open-source-project-with-github", // 2024-09-05
       "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
@@ -3424,7 +3501,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-grafana-on-ec2", // 2024-08-02
       "ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown", // 2024-08-12
       "simplify-aws-multi-account-management", // 2024-08-13
-      "how-to-build-a-serverless-crud-rest-api", // 2024-08-21
+      "how-to-build-a-serverless-crud-rest-api", // 2024-08-22
       "ecs-monitoring-explained-with-examples", // 2024-09-23
       "prepare-to-pass-the-aws-certified-ai-practitioner-certification", // 2024-10-10
       "aws-security-specialty-certification-study-tips", // 2024-10-16
@@ -3607,6 +3684,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-improve-your-phones-privacy", // 2025-06-14
       "how-to-choose-a-web-application-firewall-for-web-security", // 2025-06-22
       "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
+      "what-are-json-web-tokens-jwt", // 2025-07-08
       // END: 2025security
       // END: security
     ]],[
@@ -3733,6 +3811,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-mern-stack-to-do-app", // 2025-03-05
       "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
       "learn-the-mern-stack-in-2025", // 2025-06-10
+      HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -3902,6 +3981,7 @@ export const template: SidebarInfoTemplate = {
       THE_AGENTIC_AI_HANDBOOK, // 2025-05-28
       THE_OPEN_SOURCE_LLM_AGENT_HANDBOOK, // 2025-06-03
       "learn-the-evolution-of-the-transformer-architecture-used-in-llms", // 2025-06-26
+      "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
       // END: 2025llm
       // END: llm
     ]],[
@@ -4105,6 +4185,7 @@ export const template: SidebarInfoTemplate = {
     "arduino", [
       "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
       // END: 2024arduino
+      "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
       // END: 2025arduino
       // END: arduino
     ]],[

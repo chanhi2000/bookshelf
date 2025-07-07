@@ -27,7 +27,7 @@ date: 2025-04-24
 isOriginal: false
 author:
   - name: Tapas Adhikary (@tapasadhikary)
-    url : https://youtube.com/@tapasadhikary
+    url: https://youtube.com/@tapasadhikary
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745432506798/1066c340-85a3-407c-b378-69d1e3e77447.png
 ---
 

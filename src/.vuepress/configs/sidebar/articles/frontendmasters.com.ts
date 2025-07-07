@@ -5,6 +5,12 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
+    "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
+    "satisfies-in-typescript", // 2025-07-03
+    "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
+    "step-gradients-with-a-given-number-of-steps", // 2025-06-30
+    "quantity-query-carousel", // 2025-06-25
     "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
     "drawing-css-shapes-using-corner-shape", // 2025-06-18
     "scope-in-css", // 2025-06-17
@@ -190,7 +196,7 @@ export const template: SidebarInfoTemplate = {
     "java", [
       "java-optionals", // 2024-08-30
       // END: java
-    ]], [
+    ]],[
     "js", [
       "the-color-input-the-color-picker", // 2024-01-18
 
@@ -217,17 +223,19 @@ export const template: SidebarInfoTemplate = {
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
       "mapping-with-leaflet", // 2025-01-29
       "css-spotlight-effect", // 2025-05-26
+      "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       // END: 2025js
       // END: js
-    ]], [
+    ]],[
     "ts", [
       "testing-types-in-typescript", // 2024-06-04
       "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
       "typescript-without-build-tools", // 2024-12-30
       // END: 2024ts
+      "satisfies-in-typescript", // 2025-07-03
       // END: 2025ts
       // END: ts
-    ]], [
+    ]],[
     "js-node", [
       "introducing-drizzle", // 2024-06-17
       "the-pitfalls-of-in-app-browsers", // 2024-07-17
@@ -235,7 +243,7 @@ export const template: SidebarInfoTemplate = {
       "drizzle-database-migrations", // 2024-12-09
       "baseline-data-choices", // 2024-12-26
       // END: js-node
-    ]], [
+    ]],[
     "js-react", [
       "prefetching-when-server-loading-wont-do", // 2024-05-15
       "combining-react-server-components-with-react-query-for-easy-data-management", // 2024-05-24
@@ -250,20 +258,20 @@ export const template: SidebarInfoTemplate = {
       "react-internals-which-useeffect-runs-first", // 2025-04-28
       // END: 2025js-react
       // END: js-react
-    ]], [
+    ]],[
     "js-next", [
       "introducing-fly-io", // 2024-12-12
       // END: 2024js-react
       // END: 2025js-react
       // END: js-next
-    ]], [
+    ]],[
     "js-svelte", [
       "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
       "introducing-svelte-5", // 2024-07-19
       "snippets-in-svelte-5", // 2024-08-07
       "fine-grained-reactivity-in-svelte-5", // 2024-08-14
       // END: js-svelte
-    ]], [
+    ]],[
     "css", [
       "light-dom-only", // 2023-12-08
       // END: 2023css
@@ -369,39 +377,54 @@ export const template: SidebarInfoTemplate = {
       "scope-in-css", // 2025-06-17
       "drawing-css-shapes-using-corner-shape", // 2025-06-18
       "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
+      "quantity-query-carousel", // 2025-06-25
+      "step-gradients-with-a-given-number-of-steps", // 2025-06-30
+      "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
+      "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       // END: 2025css
       // END: css
-    ]], [
+    ]],[
     "devops", [
       "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
       // END: 2024devops
+      "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
       // END: 2025devops
       // END: devops
-    ]], [
+    ]],[
     "github", [
       "the-simplest-way-to-deploy", // 2025-05-29
       // END: 2025github
       // END: github
-    ]], [
+    ]],[
+    "netlify", [
+      "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
+      // END: 2025netlify
+      // END: netlify
+    ]],[
+    "cloudflare", [
+      "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
+      // END: 2025cloudflare
+      // END: cloudflare
+    ]],[
     "docker", [
       "drizzle-database-migrations", // 2024-12-09
       "introducing-fly-io", // 2024-12-12
       // END: 2024docker
       // END: 2025docker
       // END: docker
-    ]], [
+    ]],[
     "fly", [
       "introducing-fly-io", // 2024-12-12
       // END: 2024fly
       // END: 2025fly
       // END: fly
-    ]], [
+    ]],[
     "vscode", [
       // END: 2024vscode
       "notes-on-the-code-editors-with-ai-landscape", // 2025-02-03
       // END: 2025vscode
       // END: vscode
-    ]], [
+    ]],[
     "chrome", [
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
       "why-is-this-thing-in-dark-mode", // 2024-07-03
@@ -409,7 +432,7 @@ export const template: SidebarInfoTemplate = {
       "newfangled-browser-alternatives", // 2025-04-22
       // END: 2025chrome
       // END: chrome
-    ]], [
+    ]],[
     "figma", [
       "figma-typography-variables", // 2024-08-05
       // END: 2024figma
@@ -425,12 +448,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2024postgres
       // END: 2025postgres
       // END: postgres
-    ]], [
+    ]],[
     "openai", [
       "chatgpt-and-old-and-broken-code", // 2025-05-20
       // END: 2025openai
       // END: openai
-    ]], [
+    ]],[
     "career", [
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04
       "what-skills-should-you-focus-on-as-junior-web-developer-in-2024", // 2024-08-26
@@ -439,7 +462,7 @@ export const template: SidebarInfoTemplate = {
       "am-i-a-sadistic-developer-are-you", // 2025-04-24
       // END: 2025career
       // END: career
-    ]], [
+    ]],[
     "all", [
       Y2025,
       Y2024,

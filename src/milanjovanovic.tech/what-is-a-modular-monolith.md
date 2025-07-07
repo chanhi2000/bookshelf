@@ -70,7 +70,7 @@ The modules are loosely coupled, which further promotes modularity and separatio
 
 But what are the benefits of a modular design?
 
-![Modular monolith.](https://milanjovanovic.tech//blogs/mnw_080/modular_monolith.png?imwidth=3840)
+![Modular monolith.](https://milanjovanovic.tech/blogs/mnw_080/modular_monolith.png?imwidth=3840)
 
 If we take the example of an apartment booking system illustrated above. During the holiday season, the system is expecting a traffic spike. The bookings and payments modules need to scale so they can be deployed independently. At the end of the holiday season, they can be merged back into a single deployment. Modular monoliths give you this kind of flexibility.
 
