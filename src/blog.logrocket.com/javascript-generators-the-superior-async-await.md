@@ -93,7 +93,7 @@ What makes `async...await` code so appealing is that it looks synchronous. The c
 
 What makes JavaScript generator functions so different is that they do not initially execute, and instead they return an iterator object with a `next` function. Execution in the function can suspend and resume at exactly the point that it was suspended in between `next` calls.
 
-I have been using the npm package [<FontIcon icon="iconfont icon-github"/>`thefrontside/effection`](https://github.com/thefrontside/effection) for some time now.
+I have been using the npm package [<FontIcon icon="iconfont icon-github"/>`thefrontside/effection`](https://github.com/thefrontside/effection)for some time now.
 
 Effection utilizes the magic of generators to allow us to write code like this:
 

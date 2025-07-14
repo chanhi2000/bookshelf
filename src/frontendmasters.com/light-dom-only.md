@@ -165,7 +165,7 @@ Their slider *does* use the Shadow DOM, which is fine of course. And actually, t
 
 ::: info Jim Nielsen (<FontIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
 
-> This feature of web components [<FontIcon icon="fas fa-globe"/>encourages a design of composability](https://blog.jim-nielsen.com/2023/as-good-as-html/). Rather than an empty “shell component” that takes data and (using JavaScript exclusively) renders the entirety of its contents, web components encourage an approach of composing core content with HTML and then wrapping it in a custom element that enhances its contents with additional functionality.
+> This feature of web components[<FontIcon icon="fas fa-globe"/>encourages a design of composability](https://blog.jim-nielsen.com/2023/as-good-as-html/). Rather than an empty “shell component” that takes data and (using JavaScript exclusively) renders the entirety of its contents, web components encourage an approach of composing core content with HTML and then wrapping it in a custom element that enhances its contents with additional functionality.
 
 ```component VPCard
 {
@@ -211,9 +211,9 @@ They certainly resonate with Eric Meyer!
 
 ::: info Blinded By the Light DOM (<FontIcon icon="fas fa-globe"/><code>meyerweb.com</code>)
 
-> I *like* the Light DOM.  It’s designed to work together pretty well.  This whole high-fantasy-flavored Shadowlands of the DOM thing just doesn’t sit right with me.
+> I*like*the Light DOM. It’s designed to work together pretty well. This whole high-fantasy-flavored Shadowlands of the DOM thing just doesn’t sit right with me.
 > 
-> If they do for you, that’s great!  Rock on with your bad self.  I say all this mostly to set the stage for why I only recently had a breakthrough using web components, and now I quite like them.  But not the shadow kind.  I’m talking about Fully Light-DOM Components here.
+> If they do for you, that’s great! Rock on with your bad self. I say all this mostly to set the stage for why I only recently had a breakthrough using web components, and now I quite like them. But not the shadow kind. I’m talking about Fully Light-DOM Components here.
 
 <SiteInfo
   name="Blinded By the Light DOM"
@@ -228,7 +228,7 @@ Some baby bear just-right porridge from Jeremy Keith:
 
 ::: info HTML web components (<FontIcon icon="fas fa-globe"/><code>adactio.com</code>)
 
-> Dave talks about how web components can be [<FontIcon icon="fas fa-globe"/>HTML with superpowers](https://daverupert.com/2021/10/html-with-superpowers/). I think that’s a good attitude to have. Instead of all-singing, all-dancing web components, it feels a lot more elegant to use web components to augment your existing markup with just enough extra behaviour.
+> Dave talks about how web components can be[<FontIcon icon="fas fa-globe"/>HTML with superpowers](https://daverupert.com/2021/10/html-with-superpowers/). I think that’s a good attitude to have. Instead of all-singing, all-dancing web components, it feels a lot more elegant to use web components to augment your existing markup with just enough extra behaviour.
 > 
 > Where does the shadow DOM come into all of this? It doesn’t. And that’s okay. I’m not saying it should be avoided completely, but it should be a last resort. See how far you can get with the composibility of regular HTML first.
 
@@ -245,9 +245,9 @@ Mayank has a pretty hardline stance, and gets into similar problems I have with 
 
 ::: info Mayank (<FontIcon icon="fas fa-globe"/><code>mayank.co</code>)
 
-> I’ve previously said [“shadow DOM is not fit for production use”](https://mayank.co/blog/web-components-are-not-components#shadow-dom-is-not-fit-for-production-use), a statement which attracted a surprising amount of heat. Maybe I’m asking for too much, but I would think that every respectable production-grade application has core needs — like accessibility, form participation, and the ability to work without JavaScript.
+> I’ve previously said[“shadow DOM is not fit for production use”](https://mayank.co/blog/web-components-are-not-components#shadow-dom-is-not-fit-for-production-use), a statement which attracted a surprising amount of heat. Maybe I’m asking for too much, but I would think that every respectable production-grade application has core needs — like accessibility, form participation, and the ability to work without JavaScript.
 >
-> Today though, I want to touch a little bit on the **styling** side of things.
+> Today though, I want to touch a little bit on the**styling**side of things.
 
 ```component VPCard
 {
@@ -265,7 +265,7 @@ Jim Neilsen used Light DOM only, found it useful, and even felt weird about it (
 
 ::: info Jim Neilsen (<FontIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
 
-> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using [<FontIcon icon="fa-brands fa-firefox"/>custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) to attach functionality to a specific kind of component.
+> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using[<FontIcon icon="fa-brands fa-firefox"/>custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)to attach functionality to a specific kind of component.
 > 
 > But it still kinda feels like web components. All of this could’ve been accomplished with regular ole’ web techniques
 
@@ -291,7 +291,7 @@ I’ll end with Miriam Suzanne:
 
 ::: info Miriam Suzanne (<FontIcon icon="fas fa-globe"/><code>oddbird.net</code>)
 
-> Let the light DOM handle content wherever possible.
+> Let the lightDOMhandle content wherever possible.
 
 <SiteInfo
   name="HTML Web Components are Just JavaScript?"

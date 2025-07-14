@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Satyam Tripathi
     url : https://freecodecamp.org/news/author/triposat
-cover: https://www.freecodecamp.org/news/content/images/2023/03/Getting-Started-With-DevOps--3--1.png
+cover: https://freecodecamp.org/news/content/images/2023/03/Getting-Started-With-DevOps--3--1.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/03/Getting-Started-
   desc="By Satyam Tripathi When developers and operations teams work together, they can identify and solve problems more quickly. This helps them deliver software to users faster and with fewer errors.  This general practice is called DevOps. It involves usi..."
   url="https://freecodecamp.org/news/how-devops-works"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/03/Getting-Started-With-DevOps--3--1.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/03/Getting-Started-With-DevOps--3--1.png"/>
 
 By 
 

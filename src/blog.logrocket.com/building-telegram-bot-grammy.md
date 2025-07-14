@@ -251,7 +251,7 @@ Finally, use the following CLI command to start the application:
 npm run watch & npm run dev
 ```
 
-The command type checks the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file on any changes, compiles the file, and then runs the resulting `bot.js` file. After running the command, test your telegram bot using the URL `https://t.me/<BOT USERNAME>`. Start the bot with the `/start` command and watch the bot respond. Make sure to keep the bot server running on your local host device:
+The command type checks the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file on any changes, compiles the file, and then runs the resulting `bot.js` file. After running the command, test your telegram bot using the URL`https://t.me/<BOT USERNAME>`. Start the bot with the `/start` command and watch the bot respond. Make sure to keep the bot server running on your local host device:
 
 ![The Gemini AI Bot Responding To The Start Command From A User](https://blog.logrocket.com/wp-content/uploads/2025/02/Gemini-AI-bot-responding-start-command.png)
 

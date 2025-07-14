@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "pdf-reporting-in-dotnet-with-html-templates-and-puppeteersharp", // 2025-07-19
     "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
     "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
     "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28

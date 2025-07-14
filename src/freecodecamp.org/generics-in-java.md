@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Anjan Baradwaj
     url : https://freecodecamp.org/news/author/anjanbaradwaj/
-cover: https://www.freecodecamp.org/news/content/images/2024/06/safety.png
+cover: https://freecodecamp.org/news/content/images/2024/06/safety.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/06/safety.png
   desc="In your Java program, you might have encountered the dreaded ClassCastException at runtime while working with different types of objects such as Integer, String, and so on. This error is mostly caused by casting an object to the wrong data type.  In ..."
   url="https://freecodecamp.org/news/generics-in-java"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/06/safety.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/06/safety.png"/>
 
 In your Java program, you might have encountered the dreaded `ClassCastException` at runtime while working with different types of objects such as Integer, String, and so on. This error is mostly caused by casting an object to the wrong data type.
 

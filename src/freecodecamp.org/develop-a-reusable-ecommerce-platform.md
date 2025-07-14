@@ -24,7 +24,7 @@ prev: /academics/system-design/articles/README.md
 date: 2020-12-31
 isOriginal: false
 author: Ramón Morcillo
-cover: https://www.freecodecamp.org/news/content/images/2020/12/plants.jpg
+cover: https://freecodecamp.org/news/content/images/2020/12/plants.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2020/12/plants.jpg
   desc="By Ramón Morcillo This is a story about my team’s hard work developing not a single eCommerce platform, but a reusable one for different owners. We kept the same codebase, look, and feel, and made it highly customizable.  I will conclude with what we..."
   url="https://freecodecamp.org/news/develop-a-reusable-ecommerce-platform"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2020/12/plants.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2020/12/plants.jpg"/>
 
 This is a story about my team’s hard work developing not a single eCommerce platform, but a reusable one for different owners. We kept the same codebase, look, and feel, and made it highly customizable.
 

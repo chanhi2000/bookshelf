@@ -141,7 +141,7 @@ So, as we said at the start, the ultimate goal is to bring the power of Koin's c
 
 It will help you catch problems early in the development cycle, as we’ll analyse your code directly saving time and frustration.
 
-- **Real-time Safety Checks**: The plugin will proactively detect Koin configuration issues directly in the IDE. 
+- **Real-time Safety Checks**: The plugin will proactively detect Koin configuration issues directly in the IDE.
 - **CI/CD Integration**: You can choose when to execute compile safety tasks within the CI/CD pipeline, thanks to a dedicated Gradle task that launches a compilation safety check.
 
 This functionality is targeted to be available in the second release of the Koin IDE Plugin, scheduled for Q2 2025, making this level of type-safety accessible to all Koin developers, directly within their everyday IDE workflows.

@@ -187,7 +187,7 @@ Here is my conclusion for this:
 - Rollup has simpler syntax and looks ideal for managing libraries
 - Parcel v2 is coming up with configuration file support with awesome default configs to extend for sophisticated apps
 
-**1️⃣ Rollup     2️⃣ Parcel     3️⃣ Webpack**
+**1️⃣ Rollup  2️⃣ Parcel  3️⃣ Webpack**
 
 :::
 
@@ -207,7 +207,7 @@ By code splitting, we mean to extract common dependencies or modules in a shared
 
 ::: info Results:
 
-**1️⃣ Rollup [6/8]     2️⃣ Webpack [4/8]     3️⃣ Parcel [3.5/8]**
+**1️⃣ Rollup [6/8]  2️⃣ Webpack [4/8]  3️⃣ Parcel [3.5/8]**
 
 :::
 
@@ -225,7 +225,7 @@ The bundlers were compared on [<FontIcon icon="fas fa-globe"/>10 different cachi
 
 ::: info Results
 
-**1️⃣ Parcel [8.5/10]     2️⃣ Webpack [8/10]     3️⃣ Rollup [6/10]**
+**1️⃣ Parcel [8.5/10]  2️⃣ Webpack [8/10]  3️⃣ Rollup [6/10]**
 
 :::
 
@@ -241,7 +241,7 @@ Bundlers consider applications as a graph. It handles each resource as a node co
 
 ::: info Results
 
-**1️⃣ Webpack [15.5/16]     2️⃣ Rollup [15/16]     3️⃣ Parcel [9.5/16]**
+**1️⃣ Webpack [15.5/16]  2️⃣ Rollup [15/16]  3️⃣ Parcel [9.5/16]**
 
 :::
 
@@ -253,7 +253,7 @@ Modern browsers now support ECMAScript Modules (ESM), but supporting older brows
 
 ::: info Results
 
-**1️⃣ Rollup [3/3]     2️⃣ Webpack [2/3]     2️⃣ Parcel [2/3]**
+**1️⃣ Rollup [3/3]  2️⃣ Webpack [2/3]  2️⃣ Parcel [2/3]**
 
 :::
 
@@ -267,7 +267,7 @@ The web.dev team identified [<FontIcon icon="fas fa-globe"/>seven criteria](http
 
 ::: info Results
 
-**1️⃣ Webpack [6/7]     1️⃣ Rollup [6/7]     3️⃣ Parcel [4.5/7]**
+**1️⃣ Webpack [6/7]  1️⃣ Rollup [6/7]  3️⃣ Parcel [4.5/7]**
 
 :::
 

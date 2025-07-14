@@ -50,19 +50,19 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5761"/>
 
-Recently, Matt Wilcox [<FontIcon icon="fas fa-globe"/>posted on Mastodon](https://mstdn.social/@mattwilcox/114386944917360151):
+Recently, Matt Wilcox[<FontIcon icon="fas fa-globe"/>posted on Mastodon](https://mstdn.social/@mattwilcox/114386944917360151):
 
-> The fact you can’t specify *which* container for container query units is a ballache. The moment you have nested containers you’re \[screwed\]; because if you want the calculated gap from the row’s container; but you’re inside a nested container… tough. Your units are wrong. And you can’t just say “no; not relative to *this* container; relative to the named outer container!”
+> The fact you can’t specify*which*container for container query units is a ballache. The moment you have nested containers you’re \[screwed\]; because if you want the calculated gap from the row’s container; but you’re inside a nested container… tough. Your units are wrong. And you can’t just say “no; not relative to*this*container; relative to the named outer container!”
 
-First off, if you’re not familiar with container queries and container query units, you can check out one of the many resources on the topic, for example this [<FontIcon icon="fas fa-globe"/>interactive guide](https://ishadeed.com/article/css-container-query-guide/) by Ahmad Shadeed, which I believe is the most recent out of all the detailed ones I’ve seen. As always, the date of the resources used is important for web stuff, especially since these units in particular have changed their name since [they were first proposed (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888) and we got an early draft of the spec.
+First off, if you’re not familiar with container queries and container query units, you can check out one of the many resources on the topic, for example this[<FontIcon icon="fas fa-globe"/>interactive guide](https://ishadeed.com/article/css-container-query-guide/)by Ahmad Shadeed, which I believe is the most recent out of all the detailed ones I’ve seen. As always, the date of the resources used is important for web stuff, especially since these units in particular have changed their name since[they were first proposed (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888)and we got an early draft of the spec.
 
-Now, the problem at hand: let’s say we have an `.inner-container` inside an `.outer-container` – they are both made to be containers:
+Now, the problem at hand: let’s say we have an`.inner-container`inside an`.outer-container`– they are both made to be containers:
 
 ```css
 [class*='container'] { container-type: size }
 ```
 
-We want any `.inner-child` of the `.inner-container` to be able to use length values set in container query units relative to the `.outer-container` (more precisely, to its `content-box` dimensions). The problem is, if we do something like this (a `20cqw` light blue strip at the start of the gradient going towards 3 o’clock):
+We want any`.inner-child`of the`.inner-container`to be able to use length values set in container query units relative to the`.outer-container`(more precisely, to its`content-box`dimensions). The problem is, if we do something like this (a`20cqw`light blue strip at the start of the gradient going towards 3 o’clock):
 
 ```css
 .inner-child {
@@ -70,13 +70,13 @@ We want any `.inner-child` of the `.inner-container` to be able to use lengt
 }
 ```
 
-… then the `20cqw` value is `20%` (a fifth) of the `content-box` width of the `.inner-container`. This can be seen below, where we have purple guidelines `20%` of the width apart.
+… then the`20cqw`value is`20%`(a fifth) of the`content-box`width of the`.inner-container`. This can be seen below, where we have purple guidelines`20%`of the width apart.
 
 ![Screenshot illustrating how a background sized to cqw on the child of the inner container is a fifth of the inner container's width.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/437958325-f8239b65-787e-498d-a43d-15c3373490a0-1.png?resize=1024%2C633&ssl=1)
 
 what 20cqw represents
 
-But what we want is for that `20cqw` value to be `20%` of the `content-box` width of the `.outer-container`.
+But what we want is for that`20cqw`value to be`20%`of the`content-box`width of the`.outer-container`.
 
 Strictly for the queries themselves, we could do something like this:
 
@@ -89,9 +89,9 @@ Strictly for the queries themselves, we could do something like this:
 }
 ```
 
-This allows us to set certain styles on the `.inner-child` elements based on where the `width` of the `.outer-container` (which isn’t the *nearest* container for `.inner-child`) is situated relative to the `500px` threshold.
+This allows us to set certain styles on the`.inner-child`elements based on where the`width`of the`.outer-container`(which isn’t the*nearest*container for`.inner-child`) is situated relative to the`500px`threshold.
 
-But we cannot do something like this to specify which container should be the one that the query units used on `.inner-child` are relative to:
+But we cannot do something like this to specify which container should be the one that the query units used on`.inner-child`are relative to:
 
 ```css
 .inner-child {
@@ -110,9 +110,9 @@ Nor can we do this:
 }
 ```
 
-However, we *are* getting closer!
+However, we*are*getting closer!
 
-What if we move the `--s` variable uspstream? After all, a `20cqw` length value set on the `.inner-container` is `20%` of the `content-box` width of its nearest container, which is the `.outer-container`. This would mean our code becomes:
+What if we move the`--s`variable uspstream? After all, a`20cqw`length value set on the`.inner-container`is`20%`of the`content-box`width of its nearest container, which is the`.outer-container`. This would mean our code becomes:
 
 ```css
 [class*='container'] { container-type: size }
@@ -130,15 +130,15 @@ What if we move the `--s` variable uspstream? After all, a `20cqw` length va
 }
 ```
 
-We also give the `.inner-container` a similar `background` restricted to `20cqw` from the left along the *x* axis and make the `.inner-child` semi-transparent, just to check if the `--s` values overlap (which is what we want, `--s` being `20%` or a fifth of the `.outer-container` width). However, [this fails (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/xbbgKzp), as it can be seen below:
+We also give the`.inner-container`a similar`background`restricted to`20cqw`from the left along the*x*axis and make the`.inner-child`semi-transparent, just to check if the`--s`values overlap (which is what we want,`--s`being`20%`or a fifth of the`.outer-container`width). However,[this fails (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/xbbgKzp), as it can be seen below:
 
 ![Screenshot. Both the inner container and its child have a background sized to `20cqw`. However, the container query units are relative to the outer container only for the inner container, the container query units used on its child being still relative to the inner container (one fifth of its `content-box` width).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/437957569-0be163ba-6508-49d8-8f4e-7dd96d7d38fe.png?resize=1024%2C633&ssl=1)
 
-For the `.inner-container` the `20cqw` of the `--s` is taken to be `20%` of the `content-box` width of its nearest container, `.outer-container` (dashed dark blue boundary). However, for the `.inner-child`, the `20cqw` of the `--s` aren’t taken to mean the same value. Instead, they are taken to mean `20%` of the `.content-box` width of the `.inner-container` (dotted dark red boundary).
+For the`.inner-container`the`20cqw`of the`--s`is taken to be`20%`of the`content-box`width of its nearest container,`.outer-container`(dashed dark blue boundary). However, for the`.inner-child`, the`20cqw`of the`--s`aren’t taken to mean the same value. Instead, they are taken to mean`20%`of the`.content-box`width of the`.inner-container`(dotted dark red boundary).
 
 Boo!
 
-But what happens if we also register `--s`?
+But what happens if we also register`--s`?
 
 ```css
 @property --s {
@@ -148,7 +148,7 @@ But what happens if we also register `--s`?
 }
 ```
 
-Bingo, [this works (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GggNemJ)!
+Bingo,[this works (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GggNemJ)!
 
 <CodePen
   user="thebabydino"

@@ -26,7 +26,7 @@ isOriginal: false
 author:
   - name: Valentine Gatwiri
     url : https://freecodecamp.org/news/author/gatwirival/
-cover: https://www.freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-3285715.jpg
+cover: https://freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-3285715.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-
   desc="MongoDB is an increasingly popular open source NoSQL database. And it has many advantages over traditional SQL databases.  It offers high scalability, reliability, and performance even with a huge amount of data.  This article covers the basics that ..."
   url="https://freecodecamp.org/news/how-to-start-using-mongodb"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-3285715.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-3285715.jpg"/>
 
 MongoDB is an increasingly popular open source NoSQL database. And it has many advantages over traditional SQL databases.
 

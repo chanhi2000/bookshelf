@@ -92,7 +92,7 @@ If you're interested in learning more, check out [<FontIcon icon="fa-brands fa-a
 
 ```component VPCard
 {
-  "title": "Rendering performance  |  Articles  |  web.dev",
+  "title": "Rendering performance | Articles | web.dev",
   "desc": "Users notice if sites and apps don&#39;t run well, so optimizing rendering performance is crucial!",
   "link": "https://web.dev/articles/rendering-performance/",
   "logo": "https://gstatic.com/devrel-devsite/prod/v31bf0d5ece3babea9777b807f088a03e9bb2225d007f11b8410e9c896eb213a6/web/images/favicon.png",

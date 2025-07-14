@@ -62,11 +62,11 @@ Allowing unintended navigation and unintended touches can lead to incomplete tra
 
 ###### The Solution: A Critical Loading Indicator in Jetpack Compose
 
-This is where the concept of marking certain functionalities as **“critical”** becomes invaluable.
+This is where the concept of marking certain functionalities as**“critical”**becomes invaluable.
 
 > *As an* ***elegant*** *and* ***easy*** *approach to this challenge, we can implement a custom loading indicator in Jetpack Compose that not only displays a visual cue but also* ***blocks user interactions****, including the back button.*
 
-This ensures that **during critical operations**, the user remains on the current screen until the process concludes.
+This ensures that**during critical operations**, the user remains on the current screen until the process concludes.
 
 Below is a simple snippet showing the core idea:
 
@@ -216,18 +216,18 @@ fun LoadingIndicator(isLoading: Boolean, isCritical: Boolean) {
 
 Let’s walk through how this snippet works and how it addresses the problem at hand.
 
-- When `isLoading` is set to **true**, the `LoadingIndicator` composable becomes active. If the operation is also marked as `isCritical`, the `BackHandler` is enabled without any action, **effectively disabling the back button** during the loading process. This prevents users from accidentally navigating away.
-- The `Box` composable creates a **full-screen overlay** with a semi-transparent black background, subtly dimming the underlying UI to signal that something important is happening. The `pointerInput` modifier captures and **consumes all touch events**, ensuring that users cannot interact with any elements beneath the overlay.
-- In addition, using the `.semantics { ... }` block provides **accessibility** features, letting screen readers announce **“Processing…”** and **“Please wait”**, which keeps visually impaired users informed.
+- When`isLoading`is set to**true**, the`LoadingIndicator`composable becomes active. If the operation is also marked as`isCritical`, the`BackHandler`is enabled without any action,**effectively disabling the back button**during the loading process. This prevents users from accidentally navigating away.
+- The`Box`composable creates a**full-screen overlay**with a semi-transparent black background, subtly dimming the underlying UI to signal that something important is happening. The`pointerInput`modifier captures and**consumes all touch events**, ensuring that users cannot interact with any elements beneath the overlay.
+- In addition, using the`.semantics { ... }`block provides**accessibility**features, letting screen readers announce**“Processing…”**and**“Please wait”**, which keeps visually impaired users informed.
 
 > **Are there more ways to blocking accidental navigation during critical tasks?  
 > “**Yes, keep reading as I will show additional ways and explain why this is the best way.”
 
 ###### Integrating the Loading Indicator
 
-To incorporate this `LoadingIndicator` into your Compose-based Android application, you can follow these simple steps:
+To incorporate this`LoadingIndicator`into your Compose-based Android application, you can follow these simple steps:
 
-**1. Manage State**: Use state management tools like **ViewModel** with LiveData or StateFlow to track whether the app is loading and whether the current operation is critical.
+**1. Manage State**: Use state management tools like**ViewModel**with LiveData or StateFlow to track whether the app is loading and whether the current operation is critical.
 
 var isLoading by remember { mutableStateOf(false) }
 
@@ -238,7 +238,7 @@ var isLoading by remember { mutableStateOf(false) } var isCritical by remember {
 var isLoading by remember { mutableStateOf(false) }
 var isCritical by remember { mutableStateOf(false) }
 
-**2. Trigger the Indicator**: When initiating a critical operation, such as a payment, set both `isLoading` and `isCritical` to **true**. Once the operation completes, reset them to **false**.
+**2. Trigger the Indicator**: When initiating a critical operation, such as a payment, set both`isLoading`and`isCritical`to**true**. Once the operation completes, reset them to**false**.
 
 fun initiatePayment() {
 
@@ -268,7 +268,7 @@ fun initiatePayment() {
     isCritical = false
 }
 
-**3. Display the Indicator**: Place the `LoadingIndicator` within your composable hierarchy, typically at a **high level** to ensure it overlays the entire screen.
+**3. Display the Indicator**: Place the`LoadingIndicator`within your composable hierarchy, typically at a**high level**to ensure it overlays the entire screen.
 
 @Composable
 
@@ -291,52 +291,52 @@ fun PaymentScreen() {
 
 ###### Exploring Alternative Approaches
 
-While our custom `LoadingIndicator` offers a **straightforward** solution, it’s valuable to acknowledge other methods developers might consider for handling similar challenges. Understanding these alternatives highlights the strengths of our approach.
+While our custom`LoadingIndicator`offers a**straightforward**solution, it’s valuable to acknowledge other methods developers might consider for handling similar challenges. Understanding these alternatives highlights the strengths of our approach.
 
-**1. Disabling Individual UI Components**: Some developers might opt to disable individual UI components, such as buttons and input fields, during critical operations. While effective, this method requires **meticulous** management of each interactive element’s state, which can become cumbersome in complex interfaces.
+**1. Disabling Individual UI Components**: Some developers might opt to disable individual UI components, such as buttons and input fields, during critical operations. While effective, this method requires**meticulous**management of each interactive element’s state, which can become cumbersome in complex interfaces.
 
 > Moreover, this approach often overlooks system-level interactions, such as the device’s physical back button, which can still allow users to navigate away unintentionally.
 
-**2. Another approach involves using modal dialogs or full-screen overlays** that cover the current content. While these can prevent interactions, managing their lifecycle and ensuring consistency across different screens can add unnecessary complexity.
+**2. Another approach involves using modal dialogs or full-screen overlays**that cover the current content. While these can prevent interactions, managing their lifecycle and ensuring consistency across different screens can add unnecessary complexity.
 
 > While modal dialogs can block the back button by default, customizing their behavior to suit specific needs might require extra handling, making the implementation less straightforward compared to our solution.
 
-**3. Navigation guards or interceptors** are another alternative, where navigation actions are conditionally allowed based on the app’s state. This method often ties closely with the navigation framework and can complicate the navigation logic, especially in larger applications.
+**3. Navigation guards or interceptors**are another alternative, where navigation actions are conditionally allowed based on the app’s state. This method often ties closely with the navigation framework and can complicate the navigation logic, especially in larger applications.
 
 > Implementing navigation guards that effectively block the back button during critical operations may necessitate intricate configurations and thorough testing to ensure reliability across all navigation paths.
 
-**4. Lastly, overlaying transparent views to capture and block touch events** is another method. However, this requires careful handling of view hierarchies and can be less intuitive to implement compared to our composable-based solution.
+**4. Lastly, overlaying transparent views to capture and block touch events**is another method. However, this requires careful handling of view hierarchies and can be less intuitive to implement compared to our composable-based solution.
 
 > Additionally, managing the physical back button within this context may not be inherently addressed, necessitating additional configurations.
 
-By briefly considering these alternatives, it becomes clear that our `LoadingIndicator` composable **strikes a balance** between simplicity and effectiveness, avoiding the overhead and complexity associated with other methods.
+By briefly considering these alternatives, it becomes clear that our`LoadingIndicator`composable**strikes a balance**between simplicity and effectiveness, avoiding the overhead and complexity associated with other methods.
 
 ###### The Advantages of Our Approach
 
-Our custom `LoadingIndicator` in Jetpack Compose offers several benefits:
+Our custom`LoadingIndicator`in Jetpack Compose offers several benefits:
 
 - **Enhanced User Experience**: By clearly indicating that a critical operation is in progress and preventing unintended interactions, users are less likely to experience confusion or frustration.
 - **Data Integrity**: Blocking navigation ensures that operations like payments complete successfully without interruptions that could lead to data inconsistencies.
-- **Simplicity and Reusability**: The `LoadingIndicator` is a **modular** component that can be easily reused across different parts of the application where critical loading states are necessary.
-- **Comprehensive Blocking**: Unlike some alternative methods, our approach effectively blocks both **touch interactions and the physical back button**, ensuring that users cannot navigate away or disrupt the operation inadvertently.
+- **Simplicity and Reusability**: The`LoadingIndicator`is a**modular**component that can be easily reused across different parts of the application where critical loading states are necessary.
+- **Comprehensive Blocking**: Unlike some alternative methods, our approach effectively blocks both**touch interactions and the physical back button**, ensuring that users cannot navigate away or disrupt the operation inadvertently.
 - **Visual Feedback**: The semi-transparent overlay coupled with the spinner provides immediate visual feedback, keeping users informed about the app’s state.
 
 . . .
 
 ###### Best Practices to Consider
 
-While our `LoadingIndicator` effectively blocks user interactions during critical operations, it’s essential to implement it **thoughtfully** to maintain a positive user experience. Below are some general guidelines, followed by **additional considerations** that can help create a more robust and polished implementation:
+While our`LoadingIndicator`effectively blocks user interactions during critical operations, it’s essential to implement it**thoughtfully**to maintain a positive user experience. Below are some general guidelines, followed by**additional considerations**that can help create a more robust and polished implementation:
 
 - **Timeouts and Error Handling**: Ensure that critical operations have appropriate timeouts and error handling mechanisms.
 - **Accessibility**: As shown above, add semantics to inform screen-reader users.
 - **Minimize Blocking Duration**: Keep blocking durations short to avoid user frustration.
-- **Consistent Usage**: Use the `LoadingIndicator` **consistently** across your app.
+- **Consistent Usage**: Use the`LoadingIndicator`**consistently**across your app.
 
 . . .
 
 ###### Animating the Loader for a Smoother Experience
 
-A sudden blocker overlay can feel abrupt — like **a door slamming shut**. For more fluidity, you could use `AnimatedVisibility` to transition the overlay in and out smoothly, along with built-in animations like `fadeIn()` and `fadeOut()`:
+A sudden blocker overlay can feel abrupt — like**a door slamming shut**. For more fluidity, you could use`AnimatedVisibility`to transition the overlay in and out smoothly, along with built-in animations like`fadeIn()`and`fadeOut()`:
 
 import androidx.compose.animation.AnimatedVisibility
 
@@ -432,13 +432,13 @@ fun AnimatedLoadingIndicator(isLoading: Boolean, isCritical: Boolean) {
     }
 }
 
-This short **fade-in/fade-out effect** can make your overlay appear more polished, improving user experience by reducing abrupt transitions.
+This short**fade-in/fade-out effect**can make your overlay appear more polished, improving user experience by reducing abrupt transitions.
 
 ###### Conclusion
 
-Managing user interactions during critical loading operations is crucial for **maintaining app reliability** and ensuring a **positive user experience**. By implementing a custom `LoadingIndicator` in Jetpack Compose that blocks both touch interactions and the back button, developers can safeguard essential processes—like payments—from unintended interruptions. This approach not only enhances data integrity but also provides clear and immediate feedback to users, aligning with best practices in mobile app development.
+Managing user interactions during critical loading operations is crucial for**maintaining app reliability**and ensuring a**positive user experience**. By implementing a custom`LoadingIndicator`in Jetpack Compose that blocks both touch interactions and the back button, developers can safeguard essential processes—like payments—from unintended interruptions. This approach not only enhances data integrity but also provides clear and immediate feedback to users, aligning with best practices in mobile app development.
 
-Embracing such solutions empowers developers to create **robust applications** that handle critical operations gracefully, ultimately leading to more trustworthy and **user-friendly** apps. As user expectations continue to rise, implementing **thoughtful** interaction management strategies — complete with **error handling**, **testing**, **state restoration**, **smooth animations**, and **accessibility** — will be key to delivering **exceptional** mobile experiences. -->
+Embracing such solutions empowers developers to create**robust applications**that handle critical operations gracefully, ultimately leading to more trustworthy and**user-friendly**apps. As user expectations continue to rise, implementing**thoughtful**interaction management strategies — complete with**error handling**,**testing**,**state restoration**,**smooth animations**, and**accessibility**— will be key to delivering**exceptional**mobile experiences. -->
 
 This article is previously published on [proandroiddev.com.](https://proandroiddev.com/safeguarding-critical-operations-block-accidental-navigation-in-jetpack-compose-6551c948d9a9)
 

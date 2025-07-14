@@ -68,7 +68,7 @@ In this tutorial, we’ll tell you all you need to know about the latest version
 
 ## Introducing React Table v7
 
-In March 2020, React Table creator Tanner Linsley released [React Table v7 (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), which he described as “the culmination of over a years \[sic\] worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.”
+In March 2020, React Table creator Tanner Linsley released[React Table v7 (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), which he described as “the culmination of over a years \[sic\] worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.”
 
 <VidStack src="youtube/fwOZUU3OqmY" />
 

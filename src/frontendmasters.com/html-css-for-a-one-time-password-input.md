@@ -67,7 +67,7 @@ Brad Frost was [<FontIcon icon="fas fa-globe"/>blogging about them](https://brad
   logo="https://bradfrost.com/favicon.ico"
   preview="https://bradfrost.com/wp-content/uploads/2025/01/Screenshot-2025-01-14-at-9.13.07 AM.png"/>
 
-I don’t like the pattern where each digit is its own text box. It’s an affordance that’s supposed to make things clearer, but it doesn’t (for me at least). Can I paste? *Where* do I paste? Is my paste going to carry over into all of the little boxes? Half the time there’s a dash in the code; does that get included?
+I don’t like the pattern where each digit is its own text box. It’s an affordance that’s supposed to make things clearer, but it doesn’t (for me at least). Can I paste?*Where*do I paste? Is my paste going to carry over into all of the little boxes? Half the time there’s a dash in the code; does that get included?
 
 :::
 

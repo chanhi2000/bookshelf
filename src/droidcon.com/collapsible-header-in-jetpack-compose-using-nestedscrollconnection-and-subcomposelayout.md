@@ -54,13 +54,13 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/1_P_Gj7ABxGbbaZdCfHefM4w-
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_P_Gj7ABxGbbaZdCfHefM4w-1024x821.webp)
 
-> In Jetpack Compose, building a collapsible header with a custom navigation bar can be straightforward using NestedScrollConnection—provided the header has fixed expanded and collapsed heights. However, when the header height is dynamic and depends on its content (e.g., based on backend responses), things get tricky. Using onGloballyPositioned to measure the header’s height alone may not suffice. To address this, I combined NestedScrollConnection with SubComposeLayout, as it handles dynamic header content effectively.
+> In Jetpack Compose, building a collapsible header with a custom navigation bar can be straightforward usingNestedScrollConnection—provided the header has fixed expanded and collapsed heights. However, when the header height is dynamic and depends on its content (e.g., based on backend responses), things get tricky. UsingonGloballyPositionedto measure the header’s height alone may not suffice. To address this, I combinedNestedScrollConnectionwithSubComposeLayout, as it handles dynamic header content effectively.
 
 ---
 
 ## Our Goal: The final header states
 
-Let’s start by looking at the two final states of the header that we’ll achieve using `NestedScrollConnection` and `SubComposeLayout` in Jetpack Compose.
+Let’s start by looking at the two final states of the header that we’ll achieve using`NestedScrollConnection`and`SubComposeLayout`in Jetpack Compose.
 
 ![Header transition from expanded form to collapsed form and vice versa](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*mxEou6UEf4mk4l3hV1K-3g.gif)
 
@@ -68,7 +68,7 @@ Let’s start by looking at the two final states of the header that we’ll achi
 
 ## UI Composition Overview
 
-To better understand how this UI is structured, let’s break it down. The layout uses a `Box` composable containing a `Column`. Within the `Column`, we have two key components: the `ExpandedHeader` and the `LazyColumn`. I’ll dive deeper into the `nestedScroll(connection)` and `scrollable` implementations in the following sections.
+To better understand how this UI is structured, let’s break it down. The layout uses a`Box`composable containing a`Column`. Within the`Column`, we have two key components: the`ExpandedHeader`and the`LazyColumn`. I’ll dive deeper into the`nestedScroll(connection)`and`scrollable`implementations in the following sections.
 
 ```kotlin :collapsed-lines title="collapsible_thing.kt"
 @Composable
@@ -115,8 +115,8 @@ fun CollapsibleThing(modifier: Modifier = Modifier) {
 
 ## Breaking Down ExpandedHeader
 
-The `ExpandedHeader` consists of two parts: the header and the navigation bar. To implement this, we use `SubComposeLayout`, creating two placeables—one for the header and another for the navigation bar. The `HeaderContent` represents the expanded state, while the `NavBar` corresponds to the collapsed state during transitions.  
-If you’re new to `SubComposeLayout` in Jetpack Compose, I highly recommend exploring these resources for a deeper understanding: [*`SubComposeLayoutSample`*](https://cs.android.com/androidx/platform/tools/dokka-devsite-plugin/+/master:testData/compose/samples/ui/samples/SubcomposeLayoutSample.kt) and [<FontIcon icon="fa-brands fa-android"/>*Advanced Layouts in Compose*](https://developer.android.com/quick-guides/content/video/advanced-layouts-compose).
+The`ExpandedHeader`consists of two parts: the header and the navigation bar. To implement this, we use`SubComposeLayout`, creating two placeables—one for the header and another for the navigation bar. The`HeaderContent`represents the expanded state, while the`NavBar`corresponds to the collapsed state during transitions.  
+If you’re new to`SubComposeLayout`in Jetpack Compose, I highly recommend exploring these resources for a deeper understanding:[*`SubComposeLayoutSample`*](https://cs.android.com/androidx/platform/tools/dokka-devsite-plugin/+/master:testData/compose/samples/ui/samples/SubcomposeLayoutSample.kt)and[<FontIcon icon="fa-brands fa-android"/>*Advanced Layouts in Compose*](https://developer.android.com/quick-guides/content/video/advanced-layouts-compose).
 
 ```kotlin :collapsed-lines title="expanded_header.kt"
 
@@ -264,9 +264,9 @@ fun HeaderContent() {
 
 ## The Role of NestedScrollConnection
 
-By default, the header isn’t scrollable — only the lazy list is. However, our goal is to allow the header to move upward in sync with the scroll offset of the lazy list. This is where `NestedScrollConnection` becomes essential.
+By default, the header isn’t scrollable — only the lazy list is. However, our goal is to allow the header to move upward in sync with the scroll offset of the lazy list. This is where`NestedScrollConnection`becomes essential.
 
-For a deeper dive into `NestedScrollConnection`, check out [this blog post (<FontIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/understanding-nested-scrolling-in-jetpack-compose-eb57c1ea0af0). Below, I’ll share my implementation of `NestedScrollConnection`, focusing on its `onPreScroll` and `onPostScroll` overrides.
+For a deeper dive into`NestedScrollConnection`, check out[this blog post (<FontIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/understanding-nested-scrolling-in-jetpack-compose-eb57c1ea0af0). Below, I’ll share my implementation of`NestedScrollConnection`, focusing on its`onPreScroll`and`onPostScroll`overrides.
 
 ```kotlin :collapsed-lines title="CollapsingAppBarNestedScrollConnection.kt"
 class CollapsingAppBarNestedScrollConnection : NestedScrollConnection {
@@ -316,7 +316,7 @@ class CollapsingAppBarNestedScrollConnection : NestedScrollConnection {
 
 ## Implementing NestedScrollConnection with the header?
 
-Here’s how we integrate `NestedScrollConnection` within our Activity and composables to enable smooth interactions between the header and the lazy list.
+Here’s how we integrate`NestedScrollConnection`within our Activity and composables to enable smooth interactions between the header and the lazy list.
 
 ```kotlin :collapsed-lines title="nestedScrollConnection_use.kt"
 // ...
@@ -353,7 +353,7 @@ fun CollapsibleThing(modifier: Modifier = Modifier) {
 
 ## Bring It All Together
 
-When all the pieces of this puzzle come together, the result is seamless. As the lazy list scrolls, the header scrolls along with it. Once the header reaches a specific progress, we dynamically adjust the alpha value of the `NavigationBar` background, its icons, and the title for a smooth transition effect.
+When all the pieces of this puzzle come together, the result is seamless. As the lazy list scrolls, the header scrolls along with it. Once the header reaches a specific progress, we dynamically adjust the alpha value of the`NavigationBar`background, its icons, and the title for a smooth transition effect.
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_2nBhAU8PxkFmGXcPmUp5fw-466x1024.webp)
 
@@ -363,7 +363,7 @@ When all the pieces of this puzzle come together, the result is seamless. As the
 
 ### 1.
 
-Calculation of header offset and progress was a challenge and we have to do some Maths here to calculate `headerOffset` and `progress` which we will use to adjust the height of header and alpha of navBar when lazy list scrolls up
+Calculation of header offset and progress was a challenge and we have to do some Maths here to calculate`headerOffset`and`progress`which we will use to adjust the height of header and alpha of navBar when lazy list scrolls up
 
 ```kotlin :collapsed-lines title="calculate_offset_progress.kt"
 // ...
@@ -389,7 +389,7 @@ override fun onPreScroll(available: Offset, source: NestedScrollSource): Offset 
 
 ### 2.
 
-When we scrolls the list up, the header scrolls up first and then the list. On the other hand, when I scroll down the list, the header was scrolling down first and then the list was scrolling but my requirement was that we we scroll down the list, we first scroll down the list untill it reaches to first item and then we scroll down the header. To solve this case, I added this below code snippet in `onPreScroll` and passing the zero offset when we scroll downward to pass it to the Node consumption phase. — More details on Node consumption phase is in this [blogpost (<FontIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/understanding-nested-scrolling-in-jetpack-compose-eb57c1ea0af0)
+When we scrolls the list up, the header scrolls up first and then the list. On the other hand, when I scroll down the list, the header was scrolling down first and then the list was scrolling but my requirement was that we we scroll down the list, we first scroll down the list untill it reaches to first item and then we scroll down the header. To solve this case, I added this below code snippet in`onPreScroll`and passing the zero offset when we scroll downward to pass it to the Node consumption phase. — More details on Node consumption phase is in this[blogpost (<FontIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/understanding-nested-scrolling-in-jetpack-compose-eb57c1ea0af0)
 
 ```kotlin :collapsed-lines title="scroll_down_delta.kt"
 // ...
@@ -436,7 +436,7 @@ Box(
 
 ### 4.
 
-Here is how we are adjusting height of header based on the header offset received through `NestedScrollConnection` , and placing the placeables calculated with `SubComposeLayout` .
+Here is how we are adjusting height of header based on the header offset received through`NestedScrollConnection`, and placing the placeables calculated with`SubComposeLayout`.
 
 ```kotlin :collapsed-lines title="header_height_adjustment.kt"
     // s...
@@ -464,7 +464,7 @@ Here is how we are adjusting height of header based on the header offset receive
 
 ### 5.
 
-In this way, we are calculating alpha value based on the progress received from `NestedScrollConnection` and changing the alpha of Navigation Bar Composable
+In this way, we are calculating alpha value based on the progress received from`NestedScrollConnection`and changing the alpha of Navigation Bar Composable
 
 ```kotlin :collapsed-lines title="calculate_alpha.kt"
 // ...
@@ -530,7 +530,7 @@ For more details, please refer to these resources.
 ```
 
 <SiteInfo
-  name="Material Components  |  Jetpack Compose  |  Android Developers"
+  name="Material Components | Jetpack Compose | Android Developers"
   desc="Material components allow you to build detailed interfaces in line with Material Design principles."
   url="https://developer.android.com/develop/ui/compose/components/"
   logo="https://gstatic.com/devrel-devsite/prod/v37f55fe835aa1d3f6236af95c23fa834466468c2920b868f810fdf5b149e5d9f/android/images/favicon.svg"

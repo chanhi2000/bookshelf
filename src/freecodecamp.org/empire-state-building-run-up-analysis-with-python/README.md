@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Jose Vicente Nunez
     url : https://freecodecamp.org/news/author/josevnz/
-cover: https://www.freecodecamp.org/news/content/images/2024/05/empire_state_runup-1.png
+cover: https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -64,7 +64,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/05/empire_state_run
   desc="A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m..."
   url="https://freecodecamp.org/news/empire-state-building-run-up-analysis-with-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/05/empire_state_runup-1.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1.png"/>
 
 A [<FontIcon icon="fa-brands fa-wikipedia-w"/>tower running race](https://en.wikipedia.org/wiki/Tower_running) is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition.
 

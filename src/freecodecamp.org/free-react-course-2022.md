@@ -31,7 +31,7 @@ prev: /programming/js-react/articles/README.md
 date: 2022-01-11
 isOriginal: false
 author: Bob Ziroll
-cover: https://www.freecodecamp.org/news/content/images/2022/01/react2022.png
+cover: https://freecodecamp.org/news/content/images/2022/01/react2022.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -55,7 +55,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/01/react2022.png
   desc="React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel..."
   url="https://freecodecamp.org/news/free-react-course-2022"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/01/react2022.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/01/react2022.png"/>
 
 React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React.
 

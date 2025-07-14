@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code"
-description: "Article(s) > Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code"
+title: "Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
+description: "Article(s) > Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code"
+      content: "Article(s) > Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
     - property: og:description
-      content: "Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code"
+      content: "Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilayer-perceptron-with-examples-and-python-code/
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748616370600/0190391
 ---
 
 <SiteInfo
-  name="Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code"
+  name="Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
   desc="The perceptron is a fundamental concept in deep learning, with many algorithms stemming from its original design. In this tutorial, I’ll show you how to build both single layer and multi-layer perceptrons (MLPs) across three frameworks: Custom class..."
   url="https://freecodecamp.org/news/build-a-multilayer-perceptron-with-examples-and-python-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -253,13 +253,13 @@ $$
 
 - $w_j$: $j$-th weight
 - $\eta$: learning rate
-- $(y_{i}​−\hat{y_​i})$: error
+- $(y_{i}−\hat{y_i})$: error
 
 This means that:
 
 1. When the prediction is **correct**, the error is zero, so the weight is unchanged.
-2. When the prediction is **too low** ($y_{i}​=1$ and $\hat{y_​{i}}​=0$), the weight is adjusted to the same direction to increase the weighted sum.
-3. When the prediction is **too high** ($y_{i}​=0$ and $\hat{y_{i}}​=1$), the weight is adjusted to the opposite direction to pull the weighted sum lower.
+2. When the prediction is **too low** ($y_{i}=1$ and $\hat{y_{i}}=0$), the weight is adjusted to the same direction to increase the weighted sum.
+3. When the prediction is **too high** ($y_{i}=0$ and $\hat{y_{i}}=1$), the weight is adjusted to the opposite direction to pull the weighted sum lower.
 
 #### How the bias terms work in the iteration loop
 
@@ -425,12 +425,12 @@ An MLP is a class of feedforward artificial neural network that consists of at l
 - one or more hidden layers, and
 - an output layer.
 
-Except for the input nodes, each node is a neuron that uses a **nonlinear** activation function.​
+Except for the input nodes, each node is a neuron that uses a **nonlinear** activation function.
 
 MLPs are widely used for classification problems as well as regression:
 
-- **Classification tasks:** MLPs are widely used for classification problems, such as handwriting recognition and speech recognition.​
-- **Regression analysis:** They are also applied in regression problems where the relationship between input and output is complex.​
+- **Classification tasks:** MLPs are widely used for classification problems, such as handwriting recognition and speech recognition.
+- **Regression analysis:** They are also applied in regression problems where the relationship between input and output is complex.
 
 ---
 
@@ -711,7 +711,7 @@ m_{t}&=\beta_{1}m_{t−1}+\left(1−\beta_{1}\right)\underbrace{\frac{\partial{L
 \end{align*}
 $$
 
-- $\beta_{1}$​​: **Decay rates**, typically set to $\beta_{1}=0.9$)
+- $\beta_{1}$: **Decay rates**, typically set to $\beta_{1}=0.9$)
 
 $\hat{v}$: Second moment (variance) estimate with a bias correction, leveraging **RMSprop**:
 
@@ -722,9 +722,9 @@ v_{t}&=\beta_{2}v_{t−1}+\left(1−\beta_{2}\right)\left(\frac{\partial{L}}{\pa
 \end{align*}
 $$
 
-- $\beta_{2}$​​: **Decay rates**, typically set to $\beta_{2}=0.999$
+- $\beta_{2}$: **Decay rates**, typically set to $\beta_{2}=0.999$
 
-Since both `m`​​ and `v`​ are initialized at zero, Adam computes the bias-corrected estimates to prevent them being biased toward zero.
+Since both `m` and `v` are initialized at zero, Adam computes the bias-corrected estimates to prevent them being biased toward zero.
 
 ::: info
 
@@ -1015,7 +1015,7 @@ This suggests that while the model learned effectively from the training data, i
 
 For the sequential classifier, we can further enhance the classifier by:
 
-- Initializing the output layer’s bias with the log-odds of positive class occurrences in the training data (y_train​) to address dataset imbalance and promote faster convergence,
+- Initializing the output layer’s bias with the log-odds of positive class occurrences in the training data (y_train) to address dataset imbalance and promote faster convergence,
 - Integrating 10% dropout between hidden layers to prevent overfitting by randomly deactivating neurons during training,
 - Including Precision and Recall in the model’s compilation metrics to optimize for classification performance,
 - Applying class weights to penalize misclassifications of the minority class more heavily, improving the model’s ability to learn rare patterns, and
@@ -1557,7 +1557,7 @@ You can find more info about me on my [<FontIcon icon="fas fa-globe"/>Portfolio]
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn to Build a Multilayer Perceptron with Real-Life Examples and Python Code",
+  "title": "Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode",
   "desc": "The perceptron is a fundamental concept in deep learning, with many algorithms stemming from its original design. In this tutorial, I’ll show you how to build both single layer and multi-layer perceptrons (MLPs) across three frameworks: Custom class...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilayer-perceptron-with-examples-and-python-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

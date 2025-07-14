@@ -173,7 +173,7 @@ const counter = {
 };
 ```
 
-Because the `increment` method is an arrow function, the [**`this` value**](/blog.logrocket.com/access-correct-this-inside-callback-javascript.md) in the function does not refer to the `counter` object. Instead, it inherits the outer `this`, which in this example would be the global window object.
+Because the `increment` method is an arrow function, the [**`this`value**](/blog.logrocket.com/access-correct-this-inside-callback-javascript.md) in the function does not refer to the `counter` object. Instead, it inherits the outer `this`, which in this example would be the global window object.
 
 As you might expect, if you call `counter.increment()`, it won’t change `counter.value`. Instead, `this.value` will be `undefined` since `this` refers to the window.
 

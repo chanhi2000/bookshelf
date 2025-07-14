@@ -82,9 +82,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4692"/>
 
-[<FontIcon icon="fas fa-globe"/>Drizzle ORM](https://orm.drizzle.team/) is an incredibly impressive [<FontIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) (ORM). Like traditional ORMs, it offers a domain-specific language (DSL) for querying entire object graphs. Imagine grabbing some “tasks”, along with “comments” on those tasks from your database. But unlike traditional ORMs, it also exposes SQL itself via a thin, strongly typed API. This allows you to write complex queries using things like `MERGE`, `UNION`, CTEs, and so on, but in a strongly typed API that looks incredibly similar to the SQL you already know (and hopefully love).
+[<FontIcon icon="fas fa-globe"/>Drizzle ORM](https://orm.drizzle.team/) is an incredibly impressive[<FontIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)(ORM). Like traditional ORMs, it offers a domain-specific language (DSL) for querying entire object graphs. Imagine grabbing some “tasks”, along with “comments” on those tasks from your database. But unlike traditional ORMs, it also exposes SQL itself via a thin, strongly typed API. This allows you to write complex queries using things like`MERGE`,`UNION`, CTEs, and so on, but in a strongly typed API that looks incredibly similar to the SQL you already know (and hopefully love).
 
-[**I wrote about Drizzle previously.**](/frontendmasters.com/introducing-drizzle.md) That post focused exclusively on the typed SQL API. This post will look at another drizzle feature: database migrations. Not only will Drizzle allow you to query your database via a strongly typed API, but it will also keep your object model and database in sync. Let’s get started!
+[**I wrote about Drizzlepreviously.**](/frontendmasters.com/introducing-drizzle.md) That post focused exclusively on the typed SQL API. This post will look at another drizzle feature: database migrations. Not only will Drizzle allow you to query your database via a strongly typed API, but it will also keep your object model and database in sync. Let’s get started!
 
 ---
 
@@ -113,7 +113,7 @@ docker container run \
 postgres:17.2-alpine3.20
 ```
 
-That does the same thing, while telling Docker to alias the directory in its image of <FontIcon icon="fas fa-folder-open"/>`/var/lib/postgresql/data` (where Postgres stores its data) onto the directory on your laptop at <FontIcon icon="fas fa-folder-open"/>`/Users/arackis/Documents/pg-data`. Adjust the latter path as desired. (The other path isn’t up for debate, as that’s what Postgres uses.)
+That does the same thing, while telling Docker to alias the directory in its image of<FontIcon icon="fas fa-folder-open"/>`/var/lib/postgresql/data`(where Postgres stores its data) onto the directory on your laptop at<FontIcon icon="fas fa-folder-open"/>`/Users/arackis/Documents/pg-data`. Adjust the latter path as desired. (The other path isn’t up for debate, as that’s what Postgres uses.)
 
 ---
 
@@ -137,13 +137,13 @@ npm i drizzle-orm drizzle-kit pg
 
 :::
 
-The <FontIcon icon="fa-brands fa-npm"/>`drizzle-orm` package is the main ORM that handles querying your database. The <FontIcon icon="fa-brands fa-npm"/>`drizzle-kit` package is what handles database migrations, which will be particularly relevant for this post. Lastly, the <FontIcon icon="fa-brands fa-npm"/>`pg` package is the Node Postgres drivers.
+The<FontIcon icon="fa-brands fa-npm"/>`drizzle-orm`package is the main ORM that handles querying your database. The <FontIcon icon="fa-brands fa-npm"/>`drizzle-kit`package is what handles database migrations, which will be particularly relevant for this post. Lastly, the<FontIcon icon="fa-brands fa-npm"/>`pg`package is the Node Postgres drivers.
 
 ---
 
 ## Configuring Drizzle
 
-Let’s start by adding a <FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts` to the root of our project.
+Let’s start by adding a<FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts`to the root of our project.
 
 ```ts :collapsed-lines title="drizzle.config.ts"
 import { defineConfig } from "drizzle-kit";
@@ -232,7 +232,7 @@ FOREIGN KEY (task)
 REFERENCES tasks (id);
 ```
 
-This will construct a basic database for an hypothetical Jira clone. We have tables for users, epics, tasks and tags, along with various foreign keys connecting them. Assuming you have `psql` installed (can be installed via libpq), you can execute that script from the command line like this:
+This will construct a basic database for an hypothetical Jira clone. We have tables for users, epics, tasks and tags, along with various foreign keys connecting them. Assuming you have`psql`installed (can be installed via libpq), you can execute that script from the command line like this:
 
 ```sh
 PGPASSWORD=docker psql -h localhost -p 5432 -U docker -f database-creation-script.sql
@@ -250,7 +250,7 @@ This tells Drizzle to look at our database and generate a schema from it.
 
 ### Files generated
 
-Inside the <FontIcon icon="fas fa-folder-open"/>`drizzle-schema` folder there’s now a <FontIcon icon="iconfont icon-typescript"/>`schema.ts` file with our Drizzle schema. Here’s a small sample of it.
+Inside the<FontIcon icon="fas fa-folder-open"/>`drizzle-schema`folder there’s now a<FontIcon icon="iconfont icon-typescript"/>`schema.ts`file with our Drizzle schema. Here’s a small sample of it.
 
 ```ts :collapsed-lines title="drizzle-schema/schema.ts"
 import { pgTable, serial, varchar, foreignKey, integer } from "drizzle-orm/pg-core";
@@ -288,13 +288,13 @@ export const tasks = pgTable(
 );
 ```
 
-The `users` entity is a table with some columns. The `tasks` entity is a bit more interesting. It’s also a table with some columns, but we can also see some foreign keys being defined.
+The`users`entity is a table with some columns. The`tasks`entity is a bit more interesting. It’s also a table with some columns, but we can also see some foreign keys being defined.
 
 In Postgres, foreign keys merely create a constraint that’s checked on inserts and updates to verify that a valid value is set, corresponding to a row in the target table. But it has no effect on application code, so you might wonder why Drizzle saw fit to bother creating it. Essentially, Drizzle will allow us to subsequently modify our schema in code, and generate an SQL file that will make equivalent changes in the database. For this to work, Drizzle needs to be aware of things like foreign keys, indexes, etc, so the schema in code, and the database are always truly in sync, and Drizzle knows what’s missing, and needs to be created.
 
 #### Relations
 
-The other file Drizzle created is <FontIcon icon="iconfont icon-typescript"/>`relations.ts`. Here’s a bit of it:
+The other file Drizzle created is<FontIcon icon="iconfont icon-typescript"/>`relations.ts`. Here’s a bit of it:
 
 ```ts title="relations.ts"
 import { relations } from "drizzle-orm/relations";
@@ -316,7 +316,7 @@ export const usersRelations = relations(users, ({ many }) => ({
 }));
 ```
 
-This defines the relationships between tables (and is closely related to foreign keys). If you choose to use the Drizzle query API (the one that’s *not* SQL with types), Drizzle is capable of understanding that some tables have foreign keys into other tables, and allows you to pull down objects, with related objects in one fell swoop. For example, the tasks table has a `user_id` column in it, representing the user it’s assigned to. With the relationship set up, we can write queries like this:
+This defines the relationships between tables (and is closely related to foreign keys). If you choose to use the Drizzle query API (the one that’s*not*SQL with types), Drizzle is capable of understanding that some tables have foreign keys into other tables, and allows you to pull down objects, with related objects in one fell swoop. For example, the tasks table has a `user_id` column in it, representing the user it’s assigned to. With the relationship set up, we can write queries like this:
 
 ```ts
 const tasks = await db.query.tasks.findMany({
@@ -332,9 +332,9 @@ This will pull down all tasks, along with the user each is assigned to.
 
 ## Making Changes (Migrations)
 
-With the code generation above, we’d now be capable of *using* Drizzle. But that’s not what this post is about. See my last post on Drizzle, or even just the Drizzle docs for guides on using it. This post is all about database migrations. So far, we took an existing database, and scaffolded a valid Drizzle schema. Now let’s run a script to add some things to the database, and see about updating our Drizzle schema.
+With the code generation above, we’d now be capable of*using*Drizzle. But that’s not what this post is about. See my last post on Drizzle, or even just the Drizzle docs for guides on using it. This post is all about database migrations. So far, we took an existing database, and scaffolded a valid Drizzle schema. Now let’s run a script to add some things to the database, and see about updating our Drizzle schema.
 
-We’ll add a new column to tasks called `importance`, and we’ll also add an index on the `tasks` table, on the `epic_id` column. This is unrelated to the foreign key we already have on this column. This is a traditional database index that would assist us in querying the `tasks` table on the `epic_id` column.
+We’ll add a new column to tasks called`importance`, and we’ll also add an index on the `tasks` table, on the `epic_id` column. This is unrelated to the foreign key we already have on this column. This is a traditional database index that would assist us in querying the `tasks` table on the`epic_id`column.
 
 Here’s the SQL script we’ll run:
 
@@ -367,7 +367,7 @@ Note the new columns being added, and the new index being created. Again, the in
 
 Let’s go the other way. Let’s start with a Drizzle schema, and generate an SQL script from it. In order to get a Drizzle schema, let’s just cheat and grab the <FontIcon icon="iconfont icon-typescript"/>`schema.ts` and <FontIcon icon="iconfont icon-typescript"/>`relations.ts` files Drizzle created above. We’ll paste them into the <FontIcon icon="fas fa-folder-open"/>`drizzle-schema` folder, and remove anything else Drizzle created: any snapshots, and anything in the meta folder Drizzle uses to track our history.
 
-Next, since we want Drizzle to *read* our schema files, rather than just generate them, we need to tell Drizzle where they are. We’ll go back into our <FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts` file, and add this line:
+Next, since we want Drizzle to*read*our schema files, rather than just generate them, we need to tell Drizzle where they are. We’ll go back into our <FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts` file, and add this line:
 
 ```ts title="drizzle.config.ts"
 schema: ["./drizzle-schema/schema.ts", "./drizzle-schema/relations.ts"],
@@ -383,7 +383,7 @@ Voila! We have database assets being created.
 
 ![Drizzle pull changes](https://i0.wp.com/adam-rackis-blog-staging.fly.dev/drizzle-migrations/drizzle-generate.png?ssl=1)
 
-The resulting sql file is huge. Mine is named <FontIcon icon="iconfont icon-postgresql"/>`0000_quick_wild_pack.sql` (Drizzle will add these silly names to make the files stand out) and looks like this, in part.
+The resulting sql file is huge. Mine is named<FontIcon icon="iconfont icon-postgresql"/>`0000_quick_wild_pack.sql`(Drizzle will add these silly names to make the files stand out) and looks like this, in part.
 
 ```sql :collapsed-lines title="0000_quick_wild_pack.sql"
 CREATE TABLE IF NOT EXISTS "epics" (
@@ -408,17 +408,17 @@ CREATE TABLE IF NOT EXISTS "tasks" (
 
 ### Making a schema change
 
-Now let’s make some changes to our schema. Let’s add that same `importance` column to our tasks table, add that same index on epicId, and then, for fun, let’s tell Drizzle that our foreign key on userId should have an `ON DELETE CASCADE` rule, meaning that if we delete a user, the database will automatically delete all tasks assigned to that user. This would probably be an awful rule to add to a real issue tracking software, but it’ll help us see Drizzle in action.
+Now let’s make some changes to our schema. Let’s add that same`importance`column to our tasks table, add that same index on epicId, and then, for fun, let’s tell Drizzle that our foreign key on userId should have an`ON DELETE CASCADE`rule, meaning that if we delete a user, the database will automatically delete all tasks assigned to that user. This would probably be an awful rule to add to a real issue tracking software, but it’ll help us see Drizzle in action.
 
 Here are the changes:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/drizzle-update-schema.png?resize=1024%2C673&ssl=1)
 
-And now we’ll run `npx drizzle-kit generate` and you should see:
+And now we’ll run`npx drizzle-kit generate` and you should see:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/drizzle-generate-2-1.png?resize=1024%2C349&ssl=1)
 
-As before, Drizzle generated a new sql file, this time called <FontIcon icon="iconfont icon-postgresql"/>`0001_curved_warhawk.sql` which looks like this:
+As before, Drizzle generated a new sql file, this time called<FontIcon icon="iconfont icon-postgresql"/>`0001_curved_warhawk.sql`which looks like this:
 
 ```sql :collapsed-lines title="0001_curved_warhawk.sql"
 ALTER TABLE "tasks" DROP CONSTRAINT "fk_task_user";
@@ -439,13 +439,13 @@ It added a column, overwrote the foreign key constraint we already had to add ou
 
 ## Mixing & Matching Approaches
 
-Make no mistake, you do not have to go all in on code-first, or database-first. You can mix and match approaches. You can scaffold a Drizzle schema from a pre-existing database using `drizzle-kit pull`, and then make changes to the code, and generate sql files to patch your database with the changes using `drizzle-kit generate`. Try it and see!
+Make no mistake, you do not have to go all in on code-first, or database-first. You can mix and match approaches. You can scaffold a Drizzle schema from a pre-existing database using`drizzle-kit pull`, and then make changes to the code, and generate sql files to patch your database with the changes using`drizzle-kit generate`. Try it and see!
 
 ---
 
 ## Going Further
 
-Believe it or not, we’re only scratching the surface of what drizzle-kit can do. If you like what you’ve seen so far, be sure to check out [<FontIcon icon="fas fa-globe"/>the docs](https://orm.drizzle.team/docs/kit-overview).
+Believe it or not, we’re only scratching the surface of what drizzle-kit can do. If you like what you’ve seen so far, be sure to check out[<FontIcon icon="fas fa-globe"/>the docs](https://orm.drizzle.team/docs/kit-overview).
 
 ---
 

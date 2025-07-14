@@ -25,7 +25,7 @@ isOriginal: false
 author:
   - name: Samyak Jain
     url : https://freecodecamp.org/news/author/samyakjainblog/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/decorators-in-python.jpg
+cover: https://freecodecamp.org/news/content/images/2024/07/decorators-in-python.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -49,7 +49,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/decorators-in-py
   desc="In this tutorial, you will learn about Python decorators: what they are, how they work, and when to use them. Table of Contents Foundation for Decorators [Introduction to Python Decorators](#Introduction to Python Decorators) Creating Simple Decorat..."
   url="https://freecodecamp.org/news/decorators-in-python-tutorial"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/decorators-in-python.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/decorators-in-python.jpg"/>
 
 In this tutorial, you will learn about Python decorators: what they are, how they work, and when to use them.
 

@@ -315,7 +315,7 @@ Now, our form will look like the image below:
 
 ## Adding a shine effect to our form button
 
-Now, we’ll add a shine effect to our sign-up `button` element. We’ll start by changing the position of our button to the center of the form, then we’ll add `hover` , `linear-gradient`, and `transition` effects:
+Now, we’ll add a shine effect to our sign-up `button` element. We’ll start by changing the position of our button to the center of the form, then we’ll add`hover` , `linear-gradient`, and `transition` effects:
 
 ```css title="style.css"
 .button-action {
@@ -370,7 +370,7 @@ button:hover {
 
 I included `linear-gradient` as an extra feature of the `background` property of the `button`, causing a blend of the selected default colors, yellow, purple, red, and blue. I indicated that I want these colors to be diagonal along a `45deg` angle.
 
-Secondly, I added a `transition` property, which will determine how fast or slow the selected colors display after the user performs an action. I chose `1s` as the `ease` time for the colors to transition.
+Secondly, I added a `transition` property, which will determine how fast or slow the selected colors display after the user performs an action. I chose `1s` as the `ease`time for the colors to transition.
 
 Then, I added a `button:hover` effect property, which acts like an event listener, where we’ll include the colors that create a shine-like effect. Now, whenever the button is hovered on or clicked on, the selected colors will become a mix of brown, pink, and green along a `35deg` angle. The transition time is set to `0.5`seconds, which is the duration before the effects are applied on the button. The `background-position` remains unchanged because we assign `0%` to both the right and left positions:
 

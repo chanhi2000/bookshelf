@@ -473,8 +473,8 @@ As an added bonus, the fact than you can run it inside Podman gives you even mor
 
 ```component VPCard
 {
-  "title": "Chapter 5. Packaging Python 3 RPMs | Red Hat Product Documentation",
-  "desc": "Chapter 5. Packaging Python 3 RPMs | Red Hat Documentation",
+  "title": "Chapter5.Packaging Python 3 RPMs | Red Hat Product Documentation",
+  "desc": "Chapter5.Packaging Python 3 RPMs | Red Hat Documentation",
   "link": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10-beta/html/packaging_and_distributing_software/packaging-python-3-rpms/",
   "logo": "https://docs.redhat.com/favicon.ico",
   "background": "rgba(218,47,32,0.2)"

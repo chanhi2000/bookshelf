@@ -64,13 +64,13 @@ In this blog post, I’ll share some examples of how to do that. I’m using an 
 
 As mentioned, I’m using an old demo project as the basis for the tests. In short, it contains a graph displaying data and is navigable with touch input, keyboard, switch device, and screen reader. The additional buttons for changing the highlighted sections in the chart also work for someone who has, for example, tremors in their hands or reduced dexterity.
 
-If you want to learn more about how I built the UI and the reasons behind the decisions, I’ve added links to all the blog posts in the [Related Blog Posts (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6#related-blog-posts) section.
+If you want to learn more about how I built the UI and the reasons behind the decisions, I’ve added links to all the blog posts in the[Related Blog Posts (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6#related-blog-posts)section.
 
 Alright, let’s get to writing tests!
 
 ### Setting Up The Tests
 
-Let’s first set up the tests by creating a test class in the `androidTest`-package, defining `composeTestRule`, and adding a setup function that runs before each test:
+Let’s first set up the tests by creating a test class in the`androidTest`-package, defining`composeTestRule`, and adding a setup function that runs before each test:
 
 ```kotlin title="GraphScreenTest.kt"
 class GraphScreenTest {
@@ -88,9 +88,9 @@ class GraphScreenTest {
 }
 ```
 
-Another part of the setup phase is deciding how we will retrieve the elements we use for testing. In this case, I decided to use test tags for simplicity, and I’ve defined a `TestTags`-object for sharing between the UI and tests. This solution is straightforward and might not be your choice in a production app, but as this is a demo, it uses the most explicit option.
+Another part of the setup phase is deciding how we will retrieve the elements we use for testing. In this case, I decided to use test tags for simplicity, and I’ve defined a`TestTags`-object for sharing between the UI and tests. This solution is straightforward and might not be your choice in a production app, but as this is a demo, it uses the most explicit option.
 
-You can find [all the changes from this blog post in this commit (<FontIcon icon="iconfont icon-github"/>`eevajonnapanula/graph-accessibility-example`)](https://github.com/eevajonnapanula/graph-accessibility-example/commit/e693b4ee915d9ba2b50be7b4783a9fa91c17aa62).
+You can find[all the changes from this blog post in this commit (<FontIcon icon="iconfont icon-github"/>`eevajonnapanula/graph-accessibility-example`)](https://github.com/eevajonnapanula/graph-accessibility-example/commit/e693b4ee915d9ba2b50be7b4783a9fa91c17aa62).
 
 <SiteInfo
   name="Add tests for alternative navigation options (#7) · eevajonnapanula/graph-accessibility-example@e693b4e"
@@ -117,7 +117,7 @@ fun touchInteractionsWorkCorrectly() {
 }
 ```
 
-Why these two? First, the `labels` variable is the one we’re using to check if things work correctly. It contains the information that changes, so by checking the year, we can ensure that navigation works correctly. Second, the chart is the one we’re interacting with.
+Why these two? First, the`labels`variable is the one we’re using to check if things work correctly. It contains the information that changes, so by checking the year, we can ensure that navigation works correctly. Second, the chart is the one we’re interacting with.
 
 The actual tests look like this:
 
@@ -147,7 +147,7 @@ fun touchInteractionsWorkCorrectly() {
 
 We first assert that the labels are not visible because that’s how the UI is before navigation actions. After that, we perform touch input by swiping right, asserting that the correct year (in this case, “2015”) is displayed in the labels component.
 
-The numbers we use for `swipeRight` are based on the code, and the 35-pixel swipe is still inside the area used in the code for deciding what year is shown. In the same way, the second swipe from 30 to 70 moves from the first year to the second year.
+The numbers we use for`swipeRight`are based on the code, and the 35-pixel swipe is still inside the area used in the code for deciding what year is shown. In the same way, the second swipe from 30 to 70 moves from the first year to the second year.
 
 ### Keyboard Navigation
 
@@ -173,9 +173,9 @@ fun keyboardNavigationWorksCorrectly() {
 }
 ```
 
-For this test, we define the same variables ( `labels` and `chart`) and then assert that the labels component is not displayed.
+For this test, we define the same variables (`labels`and`chart`) and then assert that the labels component is not displayed.
 
-Next, we’ll need to perform some keyboard input actions. We can do that with [<FontIcon icon="fa-brands fa-android"/>performKeyInput](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary#(androidx.compose.ui.test.SemanticsNodeInteraction).performKeyInput(kotlin.Function1)) and `pressKey`:
+Next, we’ll need to perform some keyboard input actions. We can do that with[<FontIcon icon="fa-brands fa-android"/>performKeyInput](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary#(androidx.compose.ui.test.SemanticsNodeInteraction).performKeyInput(kotlin.Function1))and`pressKey`:
 
 ```kotlin
 @Test
@@ -277,7 +277,7 @@ Do you test for these interactions and navigation alternatives? If so, do you ha
   preview="https://opengraph.githubassets.com/cc73352c9ef265973c211a41fea42f9669e49175ef8530206da5424e1c91bd16/eevajonnapanula/graph-accessibility-example/commit/e693b4ee915d9ba2b50be7b4783a9fa91c17aa62"/>
 
 <SiteInfo
-  name="androidx.compose.ui.test  |  Android Developers"
+  name="androidx.compose.ui.test | Android Developers"
   desc="In this page, you'll find documentation for types, properties, and functions available in the androidx.compose.ui.test package."
   url="https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary#(androidx.compose.ui.test.SemanticsNodeInteraction).performKeyInput(kotlin.Function1)"
   logo="https://gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/android/images/favicon.svg"

@@ -64,13 +64,13 @@ Before we proceed, it's essential to grasp the two primary methods for managing 
 
 ## 🖋️ Imperative Approach
 
-In the imperative approach, you directly issue commands to the Kubernetes API to create or modify resources. Each command specifies the desired action, and Kubernetes executes it immediately.​
+In the imperative approach, you directly issue commands to the Kubernetes API to create or modify resources. Each command specifies the desired action, and Kubernetes executes it immediately.
 
 Imagine telling someone, "Turn on the light." You're giving a direct command, and the action happens right away. Similarly, with imperative commands, you instruct Kubernetes step-by-step on what to do.
 
 ::: tip Example:
 
-To create a pod running an NGINX container, run the below command in the terminal of the master node:​
+To create a pod running an NGINX container, run the below command in the terminal of the master node:
 
 ```sh
 kubectl run nginx-pod --image=nginx

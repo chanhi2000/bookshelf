@@ -34,7 +34,7 @@ prev: /devops/github/articles/README.md
 date: 2023-04-08
 isOriginal: false
 author: German Cocca
-cover: https://www.freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_WHo-unsplash.jpg
+cover: https://freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_WHo-unsplash.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -68,7 +68,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_
   desc="Hi everyone! In this article you're going to learn about CI/CD (continuous integration and continuous deployment). We're going to review what this practice is about, how it compares to the previous approach in the software development industry, and f..."
   url="https://freecodecamp.org/news/what-is-ci-cd"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_WHo-unsplash.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2023/03/jj-ying-4XvAZN8_WHo-unsplash.jpg"/>
 
 Hi everyone! In this article you're going to learn about CI/CD (continuous integration and continuous deployment).
 

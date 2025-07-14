@@ -100,11 +100,11 @@ With this simple pattern, `DisposableEffect` provides a way to manage side effec
 
 ## When Not to Use DisposableEffect?
 
-While `DisposableEffect` is incredibly useful, there are times when it’s not the best choice. Here’s when you should **avoid using** `DisposableEffect`:
+While`DisposableEffect`is incredibly useful, there are times when it’s not the best choice. Here’s when you should**avoid using**`DisposableEffect`:
 
-- **Suspendable or Long-Running Tasks**: `DisposableEffect` is designed for non-suspendable tasks. If your side effect requires asynchronous or suspendable work, use `LaunchedEffect` instead, which can handle suspending functions gracefully.
-- **Constant Recomposition**: If the `DisposableEffect` key is constantly changing, this can lead to frequent disposal and re-initialization of the effect, which is inefficient. Avoid using `DisposableEffect` in cases where the dependency might change rapidly or unnecessarily.
-- **State Updates Inside** **DisposableEffect**: Since `DisposableEffect` is for handling side effects, avoid updating Compose `State` values inside it, as this can trigger undesired recompositions and performance issues. For state updates, rely on other lifecycle-aware APIs or state management tools.
+- **Suspendable or Long-Running Tasks**:`DisposableEffect`is designed for non-suspendable tasks. If your side effect requires asynchronous or suspendable work, use`LaunchedEffect`instead, which can handle suspending functions gracefully.
+- **Constant Recomposition**: If the`DisposableEffect`key is constantly changing, this can lead to frequent disposal and re-initialization of the effect, which is inefficient. Avoid using`DisposableEffect`in cases where the dependency might change rapidly or unnecessarily.
+- **State Updates Inside** **DisposableEffect**: Since`DisposableEffect`is for handling side effects, avoid updating Compose`State`values inside it, as this can trigger undesired recompositions and performance issues. For state updates, rely on other lifecycle-aware APIs or state management tools.
 - **Purely Declarative UI Logic**: For UI elements that don’t require
 
 ---
@@ -113,8 +113,8 @@ While `DisposableEffect` is incredibly useful, there are times when it’s not
 
 `DisposableEffect` is deeply integrated with the lifecycle of a composable. Here’s how it functions:
 
-– When the composable **enters the composition**, `DisposableEffect` runs its initialization code.  
-– When the composable **leaves the composition**, the `onDispose` block is triggered, providing a precise point to release resources.
+– When the composable**enters the composition**, `DisposableEffect` runs its initialization code.  
+– When the composable**leaves the composition**, the `onDispose` block is triggered, providing a precise point to release resources.
 
 ---
 
@@ -145,8 +145,8 @@ In this example, `startLocationUpdates()` begins tracking as the composable appe
 
 `DisposableEffect` and `LaunchedEffect` serve different purposes:
 
-– **LaunchedEffect** is intended for suspendable tasks that can be canceled if the key changes or the composable leaves the composition.  
-– **DisposableEffect** is ideal for managing non-suspendable side effects (like attaching listeners or managing resources).
+–**LaunchedEffect**is intended for suspendable tasks that can be canceled if the key changes or the composable leaves the composition.  
+–**DisposableEffect**is ideal for managing non-suspendable side effects (like attaching listeners or managing resources).
 
 Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `DisposableEffect` when you need reliable setup and teardown of side effects.
 
@@ -154,9 +154,9 @@ Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `Dis
 
 ## Best Practices
 
-– **Avoid Heavy Logic**: Since `DisposableEffect` isn’t suspendable, avoid long-running tasks within it. For asynchronous operations, pair it with `LaunchedEffect`.
+–**Avoid Heavy Logic**: Since `DisposableEffect` isn’t suspendable, avoid long-running tasks within it. For asynchronous operations, pair it with `LaunchedEffect`.
 
-– **Use Keys Effectively**: Be mindful of key usage. When the `DisposableEffect` key changes, the current effect is disposed of and a new one starts, so ensure your keys reflect the exact dependency you want to track.
+–**Use Keys Effectively**: Be mindful of key usage. When the `DisposableEffect` key changes, the current effect is disposed of and a new one starts, so ensure your keys reflect the exact dependency you want to track.
 
 ---
 
@@ -168,7 +168,7 @@ Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `Dis
 
 Android Consultant | Trainer  
 
-[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com) | [Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/) | [Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov) | [Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 

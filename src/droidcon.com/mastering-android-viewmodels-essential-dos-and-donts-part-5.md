@@ -54,15 +54,15 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_XDoCaRPSQa-h0DqkT5ckmA-
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/1_XDoCaRPSQa-h0DqkT5ckmA-600x278.webp)
 
-This will be the fifth installment in our series **“Mastering Android `ViewModels`”** where we dive deep into the essential dos and don’ts that can elevate your Android development skills. We’ve already covered several tips to improve performance and code quality in `ViewModels`, which have become an integral part of modern Android applications.
+This will be the fifth installment in our series**“Mastering Android `ViewModels`”**where we dive deep into the essential dos and don’ts that can elevate your Android development skills. We’ve already covered several tips to improve performance and code quality in `ViewModels`, which have become an integral part of modern Android applications.
 
 ::: info Mastering Android ViewModels: Essential Dos and Don’ts Series 🔄🔄🔄
 
-1. **Avoid initializing the state in the `init {}` block.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9)
-2. **Avoid exposing mutable states.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
-3. **Use `update{}` when using `MutableStateFlows`.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
-4. **Try not to import Android dependencies in the `ViewModels`.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
-5. **Lazily inject dependencies in the constructor.** ✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
+1. **Avoid initializing the state in the `init {}` block.**✅ [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-1-%EF%B8%8F-bdf05287bca9)
+2. **Avoid exposing mutable states.**✅[Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
+3. **Use `update{}` when using `MutableStateFlows`.**✅[Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-2-%EF%B8%8F-2b49281f0029)
+4. **Try not to import Android dependencies in the `ViewModels`.**✅[Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
+5. **Lazily inject dependencies in the constructor.**✅[Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-3-%EF%B8%8F3%EF%B8%8F%E2%83%A3-1833ce3ddd2b)
 6. **Embrace more reactive and less imperative coding. ✅** [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2)
 7. **Avoid initializing the `ViewModel` from the outside world. ✅** [Read here](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-4-%EF%B8%8F-a0bad53cebd2)
 
@@ -72,15 +72,15 @@ This will be the fifth installment in our series **“Mastering Android `ViewMo
 
 ## In this article we’ll cover
 
-1. Avoid hardcoding Coroutine Dispatchers.
-2. Unit test your ViewModels.
-3. Avoid exposing suspended functions.
+1.Avoid hardcoding Coroutine Dispatchers.
+2.Unit test your ViewModels.
+3.Avoid exposing suspended functions.
 
 ---
 
 ## 1. Avoid Hardcoding Coroutine Dispatchers
 
-When dealing with coroutines in your `ViewModel`, hardcoding dispatchers like `Dispatchers.IO` or `Dispatchers.Default` might seem convenient, but it can lead to tightly coupled and less testable code.
+When dealing with coroutines in your `ViewModel`, hardcoding dispatchers like`Dispatchers.IO`or`Dispatchers.Default`might seem convenient, but it can lead to tightly coupled and less testable code.
 
 ### The Problem with Hardcoding Dispatchers
 
@@ -200,26 +200,26 @@ Unit testing is essential to ensure your `ViewModels` behave as expected. Withou
 
 ### Best Practices for Testing `ViewModels`
 
-- **Use a `TestCoroutineDispatcher`** to control coroutine execution and test asynchronous code synchronously.
+- **Use a `TestCoroutineDispatcher`**to control coroutine execution and test asynchronous code synchronously.
 - Favor testing ViewModels as a non-Android test (use test folder instead of androidTest)
-- Avoid using `runBlocking{}` for testing `suspended` functions, instead use `runTest{}` from `coroutines-test`
-- Avoid manually peeking values from `StateFlows`, Use [<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine) instead
-- For testing `flows`, use [<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)
+- Avoid using`runBlocking{}`for testing`suspended`functions, instead use`runTest{}`from`coroutines-test`
+- Avoid manually peeking values from`StateFlows`, Use[<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)instead
+- For testing`flows`, use[<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)
 - Favor fakes over mocks
 
 ---
 
 ## 3. Avoid Exposing Suspended Functions
 
-While `suspend` functions make asynchronous programming in Kotlin easier, exposing them directly from your ViewModel can lead to misuse and increased complexity.
+While`suspend`functions make asynchronous programming in Kotlin easier, exposing them directly from your ViewModel can lead to misuse and increased complexity.
 
 ### Why It’s Problematic
 
-Exposing `suspend` functions can result in mismanagement of threading or lifecycle events, leading to bugs or crashes.
+Exposing`suspend`functions can result in mismanagement of threading or lifecycle events, leading to bugs or crashes.
 
 ### The Better Way
 
-Keep suspension internal to the ViewModel, and expose results through `Flow` or other observable patterns.
+Keep suspension internal to the ViewModel, and expose results through`Flow`or other observable patterns.
 
 ---
 
@@ -227,11 +227,11 @@ Keep suspension internal to the ViewModel, and expose results through `Flow` o
 
 Mastering `ViewModels` in Android development is crucial for creating robust, efficient, and maintainable applications. Throughout this series, we’ve discussed a comprehensive set of best practices to improve your code quality and application performance.
 
-🌟 **Congratulations** if you’ve made it this far in the article! 🎉 **Don’t forget to**:
+🌟**Congratulations**if you’ve made it this far in the article! 🎉**Don’t forget to**:
 
 - 👏 Smash the clap button as many times! So I can continue with the follow-up articles!
-- Follow [my YouTube channel (<FontIcon icon="fa-brands fa-youtube"/>`DroidFly`)](https://youtube.com/@DroidFly) for video tutorials and tips on Android development
-- ✨✨ If you need help with your Android ViewModels, Project, or your career development, Book a 1:1 or a Pair-Programming session with me, [**Book a time now**](https://mentorcruise.com/mentor/rezanajafi/) 🧑‍💻🧑‍💻🧑‍💻
+- Follow[my YouTube channel (<FontIcon icon="fa-brands fa-youtube"/>`DroidFly`)](https://youtube.com/@DroidFly)for video tutorials and tips on Android development
+- ✨✨If you need help with your Android ViewModels, Project, or your career development, Book a 1:1 or a Pair-Programming session with me, [**Book a time now**](https://mentorcruise.com/mentor/rezanajafi/) 🧑‍💻🧑‍💻🧑‍💻
 - check out the previous articles in this series with the links below:
 
 <SiteInfo

@@ -131,17 +131,17 @@ Here’s a code example that demonstrates type casting in Golang:
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 func main() {
-    var num1 int32 = 10
-    var num2 int64
+  var num1 int32 = 10
+  var num2 int64
 
-    num2 = int64(num1)
+  num2 = int64(num1)
 
-    fmt.Println("num1: ", num1)
-    fmt.Println("num2: ", num2)
+  fmt.Println("num1: ", num1)
+  fmt.Println("num2: ", num2)
 }
 ```
 

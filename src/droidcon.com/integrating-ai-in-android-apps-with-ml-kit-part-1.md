@@ -321,11 +321,11 @@ If you have a specific model that ML Kit doesn’t offer, you can use custom Ten
 
 ### Integrate a Custom Model:
 
-#### 1. Upload your model to Firebase Console
+#### 1.Upload your model to Firebase Console
 
 under “ML Kit” -> “Custom” Models.
 
-### 2. Download and Use the Model in Code
+### 2.Download and Use the Model in Code
 
 ```kotlin
 val modelInterpreter = FirebaseModelInterpreter.getInstance(firebaseModelOptions)
@@ -342,19 +342,19 @@ modelInterpreter.process(input)
 
 ## 6. Best Practices and Performance Tips
 
-### 1. Run ML Kit on a Separate Thread
+### 1.Run ML Kit on a Separate Thread
 
 Avoid UI blocking by processing ML Kit functions in a background thread.
 
-### 2. Optimize Model Size
+### 2.Optimize Model Size
 
 Smaller models ensure faster and smoother performance, especially for on-device processing.
 
-### 3. Minimize Camera Access
+### 3.Minimize Camera Access
 
 Release camera resources when not actively using ML Kit to save battery.
 
-### 4. Use Cloud APIs Wisely
+### 4.Use Cloud APIs Wisely
 
 For highly accurate results or complex models, cloud-based APIs are great, but be mindful of data costs :p.
 
@@ -368,7 +368,7 @@ ML Kit is a powerful and accessible tool for Android developers to integrate AI 
 
 ::: info Stay Connected for More!
 
-Thank you for reading! If you found this guide helpful, I’d love for you to **follow me here on Medium**. I regularly share tips, deep dives, and tutorials on Android development, AI integration, and the latest tools in the mobile development space. Following me ensures you won’t miss out on the latest in Android tech, coding best practices, and everything you need to build apps.
+Thank you for reading! If you found this guide helpful, I’d love for you to**follow me here on Medium**. I regularly share tips, deep dives, and tutorials on Android development, AI integration, and the latest tools in the mobile development space. Following me ensures you won’t miss out on the latest in Android tech, coding best practices, and everything you need to build apps.
 
 Let’s keep learning and building amazing things together — see you in the next post!
 

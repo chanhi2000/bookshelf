@@ -32,7 +32,7 @@ prev: /programming/js-next/articles/README.md
 date: 2020-09-18
 isOriginal: false
 author: Colby Fayock
-cover: https://www.freecodecamp.org/news/content/images/2020/09/jamstack-handbook.jpg
+cover: https://freecodecamp.org/news/content/images/2020/09/jamstack-handbook.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -66,7 +66,7 @@ cover: https://www.freecodecamp.org/news/content/images/2020/09/jamstack-handboo
   desc="The Jamstack architecture is a modern approach to an old idea: making fast, static websites, but making them dynamic with tools like JavaScript.  How can we leverage the web framework Next.js and hosting platform Vercel to build and deploy performant..."
   url="https://freecodecamp.org/news/how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2020/09/jamstack-handbook.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2020/09/jamstack-handbook.jpg"/>
 
 The Jamstack architecture is a modern approach to an old idea: making fast, static websites, but making them dynamic with tools like JavaScript.
 

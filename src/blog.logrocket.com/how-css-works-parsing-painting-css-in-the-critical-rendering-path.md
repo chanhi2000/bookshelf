@@ -94,7 +94,7 @@ The DOM is a tree-like data structure containing all of the HTML nodes on the pa
 
 As far as the critical rendering path goes, we consider HTML to be one of our render-blocking, critical resources — we can’t render any content if we haven’t parsed it yet!
 
-### Building the CSS Object Model
+### Building the CSS ObjectModel
 
 When the browser encounters a CSS stylesheet (either embedded or external), it needs to parse the text into something it can use for style layouts and paints. The data structure that the browser turns CSS into is creatively named the CSSOM, — the CSS Object Model.
 
@@ -106,7 +106,7 @@ Essentially, we parse through any CSS selectors we have and assign them their pl
 
 Turning CSS into the CSSOM is considered to be a “render-blocking” stage just like building the DOM out of our HTML. If it just went ahead and rendered to pixels without waiting for the CSSOM we’d see a flash of unstyled content (ugly!) for a moment while the CSSOM was parsing. After that, everything would shift around when finally applying the CSS. Not exactly a great UX by a long shot.
 
-### The render tree
+### The rendertree
 
 The browser uses the constructed CSSOM and DOM to create a “render tree”. In short, the render tree contains _all of the information needed for the browser to create pixels on the page_. The browser basically takes the DOM and CSSOM and smooshes them together, removing anything that won’t have an effect on the rendered output.
 
@@ -120,7 +120,7 @@ There’s one CSS rule that’s an exception, though. Applying `display: none;` 
 
 And with that we have a render tree, all ready to go! After we’ve combined our CSSOM and DOM into a render tree, the browser can use this and safely assume that the render tree contains exactly the information needed to paint those first pixels — nothing more, nothing less.
 
-### Racing down the home stretch: Layout and paint
+### Racing down the home stretch: Layout andpaint
 
 Armed with a complete render tree, the browser is ready to start putting actual pixels on the page. The last phase of the critical rendering pipeline contains two main steps: Layout and Paint.
 

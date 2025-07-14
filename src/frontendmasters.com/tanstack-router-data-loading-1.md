@@ -94,9 +94,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 This post is all about **data loading**. We’ll cover the built-in hooks TanStack Router ships with to load and invalidate data. Then we’ll cover how easily [<FontIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) (also known as react-query) integrates and see what the tradeoffs of each are.
 
-The code for everything we’re covering is [in this GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo). As before, I’m building an extremely austere, imaginary Jira knockoff. There’s nothing useful in that repo beyond the bare minimum needed for us to take a close look at how data loading works. If you’re building your own thing, be sure to check out the [<FontIcon icon="fas fa-globe"/>DevTools](https://tanstack.com/router/latest/docs/framework/react/devtools) for TanStack Router. They’re outstanding.
+The code for everything we’re covering is [in this GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo). As before, I’m building an extremely austere, imaginary Jira knockoff. There’s nothing useful in that repo beyond the bare minimum needed for us to take a close look at how data loading works. If you’re building your own thing, be sure to check out the[<FontIcon icon="fas fa-globe"/>DevTools](https://tanstack.com/router/latest/docs/framework/react/devtools)for TanStack Router. They’re outstanding.
 
-The app does load actual data via SQLite, along with some forced delays, so we can more clearly see (and fix) network waterfalls. If you want to run the project, clone it, run `npm i`, and then open **two** terminals. In the first, run `npm run server`, which will create the SQLite database, seed it with data, and set up the API endpoints to fetch, and update data. In the second, run `npm run dev` to start the main project, which will be on `http://localhost:5173/`. There are some (extremely basic) features to edit data. If at any point you want to reset the data, just reset the server task in your terminal.
+The app does load actual data via SQLite, along with some forced delays, so we can more clearly see (and fix) network waterfalls. If you want to run the project, clone it, run`npm i`, and then open**two**terminals. In the first, run`npm run server`, which will create the SQLite database, seed it with data, and set up the API endpoints to fetch, and update data. In the second, run`npm run dev`to start the main project, which will be on`http://localhost:5173/`. There are some (extremely basic) features to edit data. If at any point you want to reset the data, just reset the server task in your terminal.
 
 The app is contrived. It exists to show Router’s capabilities. We’ll often have odd use cases, and frankly questionable design decisions. This was purposeful, in order to simulate real-world data loading scenarios, without needing a real-world application.
 
@@ -112,15 +112,15 @@ Router is essentially a client-side framework. There are hooks to get SSR workin
 
 TanStack Router is an entire application framework. You could teach an entire course on it, and indeed there’s no shortage of YouTube videos out there. This blog will turn into a book if we try to cover each and every option in depth.
 
-In this post we’ll cover the most relevant features and show code snippets where helpful. Refer to the [<FontIcon icon="fas fa-globe"/>docs](https://tanstack.com/router/latest/docs/framework/react/overview) for details. Also check out the [repo for this post (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo) as all the examples we use in this post are fleshed out in their entirety there.
+In this post we’ll cover the most relevant features and show code snippets where helpful. Refer to the [<FontIcon icon="fas fa-globe"/>docs](https://tanstack.com/router/latest/docs/framework/react/overview)for details. Also check out the[repo for this post (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo)as all the examples we use in this post are fleshed out in their entirety there.
 
-Don’t let the extremely wide range of features scare you. The **vast** majority of the time, some basic loaders will get you exactly what you need. We’ll cover some of the advanced features, too, so you know they’re there, if you ever do need them.
+Don’t let the extremely wide range of features scare you. The**vast**majority of the time, some basic loaders will get you exactly what you need. We’ll cover some of the advanced features, too, so you know they’re there, if you ever do need them.
 
 ---
 
 ## Starting at the top: context
 
-When we create our router, we can give it “context.” This is global state. For our project, we’ll pass in our `queryClient` for react-query (which we’ll be using a little later). Passing the context in looks like this:
+When we create our router, we can give it “context.” This is global state. For our project, we’ll pass in our`queryClient`for react-query (which we’ll be using a little later). Passing the context in looks like this:
 
 ```tsx{8} title="main.tsx"
 import { createRouter } from "@tanstack/react-router";
@@ -142,17 +142,17 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 });
 ```
 
-This context will be available to all routes in the tree, and inside API hooks like `loader`, which we’ll get to shortly.
+This context will be available to all routes in the tree, and inside API hooks like`loader`, which we’ll get to shortly.
 
 ### Adding to context
 
-Context can change. We set up truly global context when we start Router up at our application’s root, but different locations in the route tree can add new things to context, which will be visible from there, downward in the tree. There’s two places for this, the `beforeLoad` function, and the `context` function. Yes: route’s can take a context *function* which modifies the route tree’s context *value*.
+Context can change. We set up truly global context when we start Router up at our application’s root, but different locations in the route tree can add new things to context, which will be visible from there, downward in the tree. There’s two places for this, the`beforeLoad`function, and the`context`function. Yes: route’s can take a context*function*which modifies the route tree’s context*value*.
 
 #### beforeLoad
 
-The `beforeLoad` method runs *always*, on each active route, anytime the URL changes in any way. This is a good place to check preconditions and redirect. If you return a value from here, that value will be merged into the router’s context, and visible from that route downward. This function **blocks** all loaders from running, so be **extremely careful** what you do in here. Data loading should generally be avoided unless absolutely needed, since any loaders will wait until this function is complete, potentially creating waterfalls.
+The `beforeLoad`method runs *always*, on each active route, anytime the URL changes in any way. This is a good place to check preconditions and redirect. If you return a value from here, that value will be merged into the router’s context, and visible from that route downward. This function**blocks**all loaders from running, so be**extremely careful**what you do in here. Data loading should generally be avoided unless absolutely needed, since any loaders will wait until this function is complete, potentially creating waterfalls.
 
-Here’s a good example of what to avoid, with an opportunity to see why. This `beforeLoad` fetches the current user, places it into context, and does a redirect if there is no user.
+Here’s a good example of what to avoid, with an opportunity to see why. This`beforeLoad`fetches the current user, places it into context, and does a redirect if there is no user.
 
 ```tsx title="routes/index.tsx"
 export const Route = createFileRoute("/")({
@@ -172,9 +172,9 @@ export const Route = createFileRoute("/")({
 })
 ```
 
-We’ll be looking at some data loading in a bit, and measure what starts when. You can go into the `getCurrentUser` function and uncomment the artificial delay in there, and see it block *everything*. This is especially obvious if you’re running Router’s DevTools. You’ll see this path block, and only once ready, allow all loaders below to execute.
+We’ll be looking at some data loading in a bit, and measure what starts when. You can go into the`getCurrentUser`function and uncomment the artificial delay in there, and see it block*everything*. This is especially obvious if you’re running Router’s DevTools. You’ll see this path block, and only once ready, allow all loaders below to execute.
 
-But this is a good enough example to show how this works. The `user` object is now in context, visible to routes beneath it.
+But this is a good enough example to show how this works. The`user`object is now in context, visible to routes beneath it.
 
 ::: tip
 
@@ -186,7 +186,7 @@ What we have is sufficient to show how the `beforeLoad` callback works.
 
 #### Context (function)
 
-There’s also a context `function` we can provide routes. This is a non-async function that also gives us an opportunity to add to context. But it runs much more conservatively. This function only runs when the URL changes in a way that’s relevant to *that route*. So for a route of, say, `app/epics/$epicId`, the context function will re-run when the epicId param changes. This might seem strange, but it’s useful for modifying the context, but only when the route has changed, especially when you need to put non-primitive values (objects and functions) onto context. These non-primitive values are always compared by reference, and therefore always unique against the last value generated. As a result, they would cause render churning if added in `beforeLoad`, since React would (incorrectly) think it needed to re-render a route when nothing had changed.
+There’s also a context`function`we can provide routes. This is a non-async function that also gives us an opportunity to add to context. But it runs much more conservatively. This function only runs when the URL changes in a way that’s relevant to*that route*. So for a route of, say,`app/epics/$epicId`, the context function will re-run when the epicId param changes. This might seem strange, but it’s useful for modifying the context, but only when the route has changed, especially when you need to put non-primitive values (objects and functions) onto context. These non-primitive values are always compared by reference, and therefore always unique against the last value generated. As a result, they would cause render churning if added in`beforeLoad`, since React would (incorrectly) think it needed to re-render a route when nothing had changed.
 
 For now, here’s some code in our root route to mark the time for when the initial render happens, so we can compare that to the timestamp of when various queries run in our tree. This will help us see, and fix network waterfalls.
 
@@ -207,19 +207,19 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 
 This code is in our root route, so it will never re-run, since there’s no path parameters the root route depends on.
 
-Now everywhere in our route tree will have a `timestarted` value that we can use to detect any delays from data fetches in our tree.
+Now everywhere in our route tree will have a`timestarted`value that we can use to detect any delays from data fetches in our tree.
 
 ---
 
 ## Loaders
 
-Let’s actually load some data. Router provides a `loader` function for this. Any of our route configurations can accept a loader function, which we can use to load data. Loaders all run in parallel. It would be bad if a layout needed to complete loading its data before the path beneath it started. Loaders receive any path params on the route’s URL, any search params (querystring values) the route has subscribed to, the context, and a few other goodies, and loads whatever data it needs. Router will detect what you return, and allow components to retrieve that data via the `useLoaderData` hook — strongly typed.
+Let’s actually load some data. Router provides a`loader`function for this. Any of our route configurations can accept a loader function, which we can use to load data. Loaders all run in parallel. It would be bad if a layout needed to complete loading its data before the path beneath it started. Loaders receive any path params on the route’s URL, any search params (querystring values) the route has subscribed to, the context, and a few other goodies, and loads whatever data it needs. Router will detect what you return, and allow components to retrieve that data via the`useLoaderData`hook — strongly typed.
 
 ### Loader in a route
 
 Let’s take a look at tasks.route.tsx.
 
-This is a route that will run for any URL at all starting with `/app/tasks`. It will run for that path, for `/app/tasks/$taskId`, for `app/tasks/$taskId/edit`, and so on.
+This is a route that will run for any URL at all starting with`/app/tasks`. It will run for that path, for`/app/tasks/$taskId`, for`app/tasks/$taskId/edit`, and so on.
 
 ```jsx
 export const Route = createFileRoute("/app/tasks")({
@@ -236,9 +236,9 @@ export const Route = createFileRoute("/app/tasks")({
 });
 ```
 
-We receive the context, and grab the `timestarted` value from it. We request some overview data on our tasks, and send that data down.
+We receive the context, and grab the`timestarted`value from it. We request some overview data on our tasks, and send that data down.
 
-The `gcTime` property controls how long old route data are kept in cache. So if we browse from tasks over to epics, and then come back in 5 minutes and 1 second, nothing will be there, and the page will load in fresh. `staleTime` controls how long a cached entry is considered “fresh.” This determines whether cached data are refetched in the background. Here it’s set to two minutes. This means if the user hits this page, then goes to the epics page, waits 3 minutes, then browses back to tasks, the cached data will show, while the tasks data is re-fetched in the background, and (if changed) update the UI.
+The `gcTime`property controls how long old route data are kept in cache. So if we browse from tasks over to epics, and then come back in 5 minutes and 1 second, nothing will be there, and the page will load in fresh.`staleTime`controls how long a cached entry is considered “fresh.” This determines whether cached data are refetched in the background. Here it’s set to two minutes. This means if the user hits this page, then goes to the epics page, waits 3 minutes, then browses back to tasks, the cached data will show, while the tasks data is re-fetched in the background, and (if changed) update the UI.
 
 You’re probably wondering if TanStack Router tells you this background re-fetch is happening, so you can show an inline spinner, and yes, you can detect this like so:
 
@@ -268,11 +268,11 @@ export const Route = createFileRoute("/app/tasks/")({
 });`
 ```
 
-This is the route for the specific URL `/app/tasks`. If the user were to browse to `/app/tasks/$taskId` then this component would not run. This is a specific page, not a layout (which Router calls a “route”). Basically the same as before, except now we’re loading the list of tasks to display on this page.
+This is the route for the specific URL`/app/tasks`. If the user were to browse to`/app/tasks/$taskId`then this component would not run. This is a specific page, not a layout (which Router calls a “route”). Basically the same as before, except now we’re loading the list of tasks to display on this page.
 
-We’ve added some new properties this time, though. The `pendingComponent` property allows us to render some content while the loader is working. We also specified `pendingMs`, which controls how long we *wait* before showing the pending component. Lastly, `pendingMinMs` allows us to force the pending component to stay on the screen for a specified amount of time, even if the data are ready. This can be useful to avoid a brief flash of a loading component, which can be jarring to the user.
+We’ve added some new properties this time, though. The `pendingComponent` property allows us to render some content while the loader is working. We also specified`pendingMs`, which controls how long we*wait*before showing the pending component. Lastly, `pendingMinMs` allows us to force the pending component to stay on the screen for a specified amount of time, even if the data are ready. This can be useful to avoid a brief flash of a loading component, which can be jarring to the user.
 
-If you’re wondering why we’d even want to use `pendingMs` to delay a loading screen, it’s for subsequent navigations. Rather than *immediately* transition from the current page to a new page’s loading component, this setting lets us stay on the current page for a moment, in the hopes that the new page will be ready quickly enough that we don’t have to show any pending component at all. Of course, on the initial load, when the web app first starts up, these pendingComponents do show immediately, as you’d expect.
+If you’re wondering why we’d even want to use`pendingMs`to delay a loading screen, it’s for subsequent navigations. Rather than*immediately*transition from the current page to a new page’s loading component, this setting lets us stay on the current page for a moment, in the hopes that the new page will be ready quickly enough that we don’t have to show any pending component at all. Of course, on the initial load, when the web app first starts up, these pendingComponents do show immediately, as you’d expect.
 
 ![Let’s run our tasks page.<br/>It’s ugly, and frankly useless, but it works. Now let’s take a closer look.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/img-0-tasks-page.jpg?resize=690%2C1024&ssl=1)
 
@@ -286,7 +286,7 @@ As we can see, these requests started a mere millisecond apart from each other, 
 
 #### Different routes using the same data
 
-If we look at the loader for the `app/tasks/$taskId` route, and the loader to the `app/tasks/$taskId/edit` route, we see the same fetch call:
+If we look at the loader for the`app/tasks/$taskId`route, and the loader to the`app/tasks/$taskId/edit`route, we see the same fetch call:
 
 ```tsx
 const task = await fetchJson<Task>(`api/tasks/${taskId}`);`
@@ -328,13 +328,13 @@ const save = async () => {
 };
 ```
 
-Note the call to `router.invalidate`. This tells Router to mark any cached entries matching that filter as stale, causing us to re-fetch them the next time we browse to those paths. We could also pass absolutely nothing to that same `invalidate` method, which would tell Router to invalidate *everything*.
+Note the call to`router.invalidate`. This tells Router to mark any cached entries matching that filter as stale, causing us to re-fetch them the next time we browse to those paths. We could also pass absolutely nothing to that same`invalidate`method, which would tell Router to invalidate*everything*.
 
 Here we invalidated the main tasks list, as well as the view and edit pages, for the individual task we just modified.
 
-Now when we navigate back to the main tasks page we’ll immediately see the prior, now-stale data, but new data will fetch, and update the UI when present. Recall that we can use `const { isFetching } = Route.useMatch();` to show an inline spinner while this fetch is happening.
+Now when we navigate back to the main tasks page we’ll immediately see the prior, now-stale data, but new data will fetch, and update the UI when present. Recall that we can use`const { isFetching } = Route.useMatch();`to show an inline spinner while this fetch is happening.
 
-If you’d prefer to completely remove the cache entries, and have the task page’s “Loading” component show, then you can use `router.clearCache` instead, with the same exact filter argument. That will *remove* those cache entries completely, forcing Router to completely re-fetch them, and show the pending component. This is because there is no longer any stale data left in the cache; `clearCache` removed it.
+If you’d prefer to completely remove the cache entries, and have the task page’s “Loading” component show, then you can use`router.clearCache`instead, with the same exact filter argument. That will*remove*those cache entries completely, forcing Router to completely re-fetch them, and show the pending component. This is because there is no longer any stale data left in the cache; `clearCache` removed it.
 
 There is one small caveat though: Router will prevent you from clearing the cache for the page you’re on. That means we can’t clear the cache for the edit task page, since we’re sitting on it already. To be clear, when we call clearCache, the filter function won’t even look at the route you’re on; the ability to remove it simply does not exist.
 

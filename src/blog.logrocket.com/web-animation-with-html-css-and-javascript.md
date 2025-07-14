@@ -150,7 +150,7 @@ So far, we have seen so many different kinds of animations that can be achieved 
 
 CSS allows us to animate HTML elements without making use of JavaScript.
 
-To use CSS animation, you must first specify some keyframes for the animation. Keyframes hold the styles that the  element will have at certain times.
+To use CSS animation, you must first specify some keyframes for the animation. Keyframes hold the styles that the element will have at certain times.
 
 For proper understanding, I will be explaining the basic properties we will be using.
 
@@ -166,7 +166,7 @@ It’s composed of 3 basic things:
 
 - **Animation name**: This is simply the name given to the animation, as illustrated in the picture above.
 - **Animation stages**: This indicates the stages of the animation. It’s mostly represented as a percentage, as shown in the picture above.
-- **Animation style or CSS properties**: These are the properties expected to change during the  the animation.
+- **Animation style or CSS properties**: These are the properties expected to change during the the animation.
 
 ### Animation properties
 

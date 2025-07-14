@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to automate deployment on GitHub-pages with Travis CI"
-description: "Article(s) > How to automate deployment on GitHub-pages with Travis CI"
+title: "How to automate deployment on GitHub-pages with TravisCI"
+description: "Article(s) > How to automate deployment on GitHub-pages with TravisCI"
 icon: iconfont icon-travis-ci
 category:
   - DevOps
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to automate deployment on GitHub-pages with Travis CI"
+      content: "Article(s) > How to automate deployment on GitHub-pages with TravisCI"
     - property: og:description
-      content: "How to automate deployment on GitHub-pages with Travis CI"
+      content: "How to automate deployment on GitHub-pages with TravisCI"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html
 prev: /devops/travis-ci/articles/README.md
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/2019/06/Druhv-article-image.
 ---
 
 <SiteInfo
-  name="How to automate deployment on GitHub-pages with Travis CI"
+  name="How to automate deployment on GitHub-pages with TravisCI"
   desc="By Dhruv Barochiya Disclaimer: This story is not sponsored by any of the tools that has been described into the article (Travis-CI, Github, Github-Pages) You have created a project in React.js and deployed it on the GitHub-pages (not yet ?? — creat..."
   url="https://freecodecamp.org/news/learn-how-to-automate-deployment-on-github-pages-with-travis-ci"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -240,7 +240,7 @@ I would like to take a moment to acknowledge the work of the people who gave me 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to automate deployment on GitHub-pages with Travis CI",
+  "title": "How to automate deployment on GitHub-pages with TravisCI",
   "desc": "By Dhruv Barochiya Disclaimer: This story is not sponsored by any of the tools that has been described into the article (Travis-CI, Github, Github-Pages) You have created a project in React.js and deployed it on the GitHub-pages (not yet ?? — creat...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

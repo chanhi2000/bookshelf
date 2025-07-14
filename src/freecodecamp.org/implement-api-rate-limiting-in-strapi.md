@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725233479497/7c12e6e
 <!-- TODO: 작성 -->
 
 <!-- 
-Implementing rate limiting in web applications is a necessary web development best practice. In an <a href="https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/">article</a> published earlier, I delved deep into the benefits and real life use cases of API rate limiting.
+Implementing rate limiting in web applications is a necessary web development best practice. In an <a href="https://freecodecamp.org/news/what-is-rate-limiting-web-apis/">article</a> published earlier, I delved deep into the benefits and real life use cases of API rate limiting.
 
 Some of the benefits include its use by developers to restrict malicious access to websites, prevent DDoS attacks, conserve website resources, and ensure optimal web server performance.
 

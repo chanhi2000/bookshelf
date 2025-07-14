@@ -35,7 +35,7 @@ isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
     url : https://freecodecamp.org/news/author/tiagomonteiro/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/pexels-dmitry-demidov-515774-3852577.jpg
+cover: https://freecodecamp.org/news/content/images/2024/07/pexels-dmitry-demidov-515774-3852577.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -79,7 +79,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/pexels-dmitry-de
   desc="Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI. Within Machine Learning, a field called Deep Learning represents one of the main areas of research...."
   url="https://freecodecamp.org/news/how-to-build-an-interpretable-ai-deep-learning-model"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/pexels-dmitry-demidov-515774-3852577.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/pexels-dmitry-demidov-515774-3852577.jpg"/>
 
 Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI.
 

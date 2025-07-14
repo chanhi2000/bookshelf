@@ -54,7 +54,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_JWq02DlSaAFqgXWWtUWTBg-
 
 Scrolling is a fundamental element of any mobile app, and Jetpack Compose provides powerful tools to create smooth and efficient scrolling experiences. This article dives into the world of scroll in Compose, starting with the foundational concepts and gradually progressing towards more complex scenarios.
 
-Compose offers two workhorses for creating scrollable lists: `LazyColumn` for vertical scrolling and `LazyRow` for horizontal scrolling. They behave similarly to `RecyclerView` in XML, efficiently rendering only the visible items while maintaining excellent performance.
+Compose offers two workhorses for creating scrollable lists:`LazyColumn`for vertical scrolling and`LazyRow`for horizontal scrolling. They behave similarly to`RecyclerView`in XML, efficiently rendering only the visible items while maintaining excellent performance.
 
 ---
 
@@ -136,19 +136,19 @@ fun Preview() {
 
 ![`Preview()`](https://miro.medium.com/v2/resize:fit:540/format:webp/1*F55VvDWYO23x3ODZltKBpA.gif)
 
-While `LazyColumn` and `LazyRow` handle most scrolling needs, `ScrollState` offers finer control. It acts as a state holder, keeping track of the current scroll position for various scrollable components like `Column` or `LazyColumn`.
+While`LazyColumn`and`LazyRow`handle most scrolling needs,`ScrollState`offers finer control. It acts as a state holder, keeping track of the current scroll position for various scrollable components like`Column`or`LazyColumn`.
 
 ---
 
 ## Understanding Scroll State
 
-In Jetpack Compose, `ScrollState` is a state holder that keeps track of the current scroll position for scrollable components such as `Column`, `LazyColumn`, or other containers that support scrolling. `ScrollState` gives us:
+In Jetpack Compose,`ScrollState`is a state holder that keeps track of the current scroll position for scrollable components such as`Column`,`LazyColumn`, or other containers that support scrolling.`ScrollState`gives us:
 
-1. **Position Tracking**: You can use `ScrollState` to access the current scroll offset or position of a scrollable component.
-2. **Smooth Scrolling**: `ScrollState` allows you to control smooth scrolling to specific positions in a list.
+1. **Position Tracking**: You can use`ScrollState`to access the current scroll offset or position of a scrollable component.
+2. **Smooth Scrolling**:`ScrollState`allows you to control smooth scrolling to specific positions in a list.
 3. **Listening to Scroll Events**: You can observe changes in the scroll position, which is particularly useful for things like showing/hiding toolbar animations based on scroll offset.
 
-### Important Properties and Methods of `ScrollState`
+### Important Properties and Methods of`ScrollState`
 
 ::: tabs
 
@@ -168,14 +168,14 @@ In Jetpack Compose, `ScrollState` is a state holder that keeps track of the cu
 
 There are different types of scroll states depending on the type of container:
 
-- **ScrollState**: Used for simple scrolling in containers like `Column`.
-- **LazyListState**: Specifically used for `LazyColumn` and `LazyRow`, giving more control over items and visibility states.
+- **ScrollState**: Used for simple scrolling in containers like`Column`.
+- **LazyListState**: Specifically used for`LazyColumn`and`LazyRow`, giving more control over items and visibility states.
 
 ---
 
 ## Example 1: Using ScrollState with Column
 
-To start, let’s see a simple example where we use `ScrollState` to observe and control the scroll position of a `Column` that supports vertical scrolling.
+To start, let’s see a simple example where we use`ScrollState`to observe and control the scroll position of a`Column`that supports vertical scrolling.
 
 ```kotlin :collapsed-lines title="ScrollableColumnExample.kt"
 import androidx.compose.foundation.background
@@ -225,19 +225,19 @@ fun ScrollableColumnExample() {
 
 In this example:
 
-- We create a `Column` with a `ScrollState` that allows it to scroll vertically.
-- `verticalScroll(scrollState)` attaches the scroll state to the column.
-- Inside the `LaunchedEffect`, we print the current scroll position each time `scrollState.value` changes.
+- We create a`Column`with a`ScrollState`that allows it to scroll vertically.
+- `verticalScroll(scrollState)`attaches the scroll state to the column.
+- Inside the`LaunchedEffect`, we print the current scroll position each time`scrollState.value`changes.
 
 :::
 
-This example demonstrates basic scroll behavior in a `Column` and how to observe the scroll position.
+This example demonstrates basic scroll behavior in a`Column`and how to observe the scroll position.
 
 ---
 
-## Example 2: Smooth Scrolling with `ScrollState`
+## Example 2: Smooth Scrolling with`ScrollState`
 
-If you want to programmatically scroll to a specific position, you can use `scrollState.animateScrollTo(offset)`. This is helpful for features like “scroll to top” or “scroll to a specific item.”
+If you want to programmatically scroll to a specific position, you can use`scrollState.animateScrollTo(offset)`. This is helpful for features like “scroll to top” or “scroll to a specific item.”
 
 ```kotlin :collapsed-lines title="SmoothScrollingExample.kt"
 import androidx.compose.foundation.layout.*
@@ -291,9 +291,9 @@ fun SmoothScrollingExample() {
 
 ::: info Explanation
 
-- We use `rememberCoroutineScope()` to launch a coroutine that allows asynchronous scrolling.
-- The button calls `scrollState.animateScrollTo(0)` to scroll smoothly to the top of the list.
-- `animateScrollTo()` is an asynchronous function, making the scrolling smooth and animated.
+- We use`rememberCoroutineScope()`to launch a coroutine that allows asynchronous scrolling.
+- The button calls`scrollState.animateScrollTo(0)`to scroll smoothly to the top of the list.
+- `animateScrollTo()`is an asynchronous function, making the scrolling smooth and animated.
 
 :::
 
@@ -418,9 +418,9 @@ fun showPeview() {
 
 ::: info How Nested Scrolling Works Here
 
-- The **parent scroll** (`parentScrollState`) allows the entire list of items to scroll vertically.
-- Each **child scroll** (`childScrollState`) manages the scrolling within the expanded item independently.
-- This approach avoids using `LazyColumn` or `LazyRow`, handling scrolling manually with `ScrollState` instead.
+- The**parent scroll**(`parentScrollState`) allows the entire list of items to scroll vertically.
+- Each**child scroll**(`childScrollState`) manages the scrolling within the expanded item independently.
+- This approach avoids using`LazyColumn`or`LazyRow`, handling scrolling manually with`ScrollState`instead.
 
 :::
 
@@ -448,7 +448,7 @@ Now PART 2 is available
 <VidStack src="youtube/JfYBCKRjFA0" />
 
 <SiteInfo
-  name="Scroll  |  Jetpack Compose  |  Android Developers"
+  name="Scroll | Jetpack Compose | Android Developers"
   desc="The verticalScroll and horizontalScroll modifiers provide the simplest way to allow the user to scroll an element when the bounds of its contents are larger than its maximum size constraints. With the verticalScroll and horizontalScroll modifiers you don't need to translate or offset the contents."
   url="https://developer.android.com/develop/ui/compose/touch-input/pointer-input/scroll/"
   logo="https://gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/android/images/favicon.svg"
@@ -461,9 +461,9 @@ Now PART 2 is available
   logo="https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19"
   preview="https://miro.medium.com/v2/resize:fit:1200/1*oL1k6XmTcDVBQXf9i8JTZw.png"/>
 
-I hope this article was helpful to you. You can write me back at [<FontIcon icon="fas fa-envelope"/>`karishma.agr1996@gmail.com`](mailto://karishma.agr1996@gmail.com) if you want me to improve something in upcoming articles. Your feedback is valuable.
+I hope this article was helpful to you. You can write me back at[<FontIcon icon="fas fa-envelope"/>`karishma.agr1996@gmail.com`](mailto://karishma.agr1996@gmail.com)if you want me to improve something in upcoming articles. Your feedback is valuable.
 
-Also, follow me on Medium and [Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`karishma-agrawal-she-her-06966a126`)](https://linkedin.com/in/karishma-agrawal-she-her-06966a126/)
+Also, follow me on Medium and[Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`karishma-agrawal-she-her-06966a126`)](https://linkedin.com/in/karishma-agrawal-she-her-06966a126/)
 
 Your claps are appreciated to help others find this article 😃 .
 

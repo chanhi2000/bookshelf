@@ -31,7 +31,7 @@ prev: /programming/js-next/articles/README.md
 date: 2024-08-02
 isOriginal: false
 author: Ankur Tyagi
-cover: https://www.freecodecamp.org/news/content/images/2024/07/Orange---Yellow-Gradient-Make-Design-Blog-Banner--79-.png
+cover: https://freecodecamp.org/news/content/images/2024/07/Orange---Yellow-Gradient-Make-Design-Blog-Banner--79-.png
 ---
 
 # {{ $frontmatter.title }} 관련

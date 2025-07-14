@@ -108,7 +108,7 @@ The above code is legitimate JSX, but it is not legitimate TypeScript. As a resu
 
 ![TypeScript Error Message Return Type Number Invalid JSX Element](/assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/typescript-playground-error-message-return-type-number-invalid-jsx-element.png)
 
-You can view this in the [<FontIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?#code/JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wG4AoczAVwDsNgJa4BhXSWpWmAFQAsUMZDGpRaAZwCCAOWogARkigAKAJRwA3uThwiIsXAAsAJgoBfSgB424Jl14ChSfRJlzFUOAHoAfOSA). The error is thrown because, according to TypeScript, function components that return anything except `JSX.Element | null` are not allowed as element types in React.
+You can view this in the [<FontIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?#code/JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wG4AoczAVwDsNgJa4BhXSWpWmAFQAsUMZDGpRaAZwCCAOWogARkigAKAJRwA3uThwiIsXAAsAJgoBfSgB424Jl14ChSfRJlzFUOAHoAfOSA). The error is thrown because, according to TypeScript, function components that return anything except`JSX.Element | null` are not allowed as element types in React.
 
 However, in React, function components can return a `ReactNode`. This type includes `number | string | Iterable<ReactNode> | undefined` and will likely also [include (<FontIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs/pull/229) `Promise<ReactNode>(` in the future.
 

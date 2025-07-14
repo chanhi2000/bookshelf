@@ -70,7 +70,7 @@ Excited? Let's begin.
 
 ## What is Conky?
 
-[<FontIcon icon="fas fa-globe"/>Conky](http://conky.sourceforge.net/) is a lightweight [system monitor](/itsfoss.com/linux-system-monitoring-tools.md) available on Linux and BSD. It can display the system information and statistics such as CPU consumption, disk usage, RAM utilization, network speed, etc. in an elegant way. All the information is displayed on top of your wallpaper. It gives your desktop a live wallpaper feel.
+[<FontIcon icon="fas fa-globe"/>Conky](http://conky.sourceforge.net/)is a lightweight [system monitor](/itsfoss.com/linux-system-monitoring-tools.md) available on Linux and BSD. It can display the system information and statistics such as CPU consumption, disk usage, RAM utilization, network speed, etc. in an elegant way. All the information is displayed on top of your wallpaper. It gives your desktop a live wallpaper feel.
 
 The looks of the displayed information can be changed via Conky configuration file. For example, take a look at this 'hacker themed Conky':
 
@@ -86,11 +86,11 @@ Don’t worry! You can still use Conky easily thanks to a GUI tool called Conky 
 
 ## Easier Method: Use Conky with Conky Manager GUI tool
 
-[Conky Manager 2](https://github.com/zcot/conky-manager2) is a GUI tool you can use to install, manage Conky themes on your system.
+[Conky Manager 2](https://github.com/zcot/conky-manager2)is a GUI tool you can use to install, manage Conky themes on your system.
 
 ::: note 📋
 
-The original Conky-Manager project was developed by Tony George, who has given us friendly tools like [Aptik](/itsfoss.com/restore-apps-ppa-ubuntu-aptik.md) and [Timeshift to backup Linux install](/itsfoss.com/backup-restore-linux-timeshift.md). The product was abandoned but has been forked into another project. Interestingly, the new version is available from Tony's PPA.
+The original Conky-Manager project was developed by Tony George, who has given us friendly tools like[Aptik](/itsfoss.com/restore-apps-ppa-ubuntu-aptik.md)and[Timeshift to backup Linux install](/itsfoss.com/backup-restore-linux-timeshift.md). The product was abandoned but has been forked into another project. Interestingly, the new version is available from Tony's PPA.
 
 :::
 
@@ -132,7 +132,7 @@ As I said before, using Conky Manager is like using a wallpaper application.
 
 Conky Manager comes with several predefined sets of Conky themes.
 
-Using them is easy. All you got to do is to **select a theme and check the “enable” box in front of it**, and it will be displayed on your desktop immediately.
+Using them is easy. All you got to do is to**select a theme and check the “enable” box in front of it**, and it will be displayed on your desktop immediately.
 
 Alternatively, you can also preview a Conky which opens up in a bottom panel to show the look of the selected Conky.
 
@@ -160,7 +160,7 @@ Click on a Conky theme you want to change. Now, click on the Widget settings but
 
 You may want to start the Conky automatically at startup time so that you won't need to run Conky Manager manually each time.
 
-To do this, click on the settings button on the right side of the toolbar. Here toggle the “**Run Conky at system startup**” box.
+To do this, click on the settings button on the right side of the toolbar. Here toggle the“**Run Conky at system startup**”box.
 
 ![Autostart Conky using the respective toggle button in Conky manager settings.](https://itsfoss.com/content/images/2024/11/autostart-conky.png)
 
@@ -217,7 +217,7 @@ You can see a preview is generated in the bottom preview bar.
 
 I am going to assume that you are [familiar with basic Linux commands](/itsfoss.com/linux-terminal-basics.md) such as copying files and changing directories for this part of Conky tutorial.
 
-Let’s first install Conky in your system. Most Linux distributions have the `conky-all` package. You can use this package to install Conky and other packages that many Conky scripts use.
+Let’s first install Conky in your system. Most Linux distributions have the`conky-all` package. You can use this package to install Conky and other packages that many Conky scripts use.
 
 In Debian and Ubuntu-based systems, use the command below:
 
@@ -231,9 +231,9 @@ Once you have installed this package, you can run the Conky using the following 
 conky
 ```
 
-It will display the default Conky installed with the above-mentioned package. The default config file is located in <FontIcon icon="fas fa-folder-open"/>`/etc/conky` directory. Conky actually relies on the config file <FontIcon icon="fas fa-file-lines"/>`.conkyrc` located in the home directory. If there is no such file in the system, it uses the <FontIcon icon="fas fa-folder-open"/>`/etc/conky/`<FontIcon icon="fas fa-file-lines"/>`conky.config` file.
+It will display the default Conky installed with the above-mentioned package. The default config file is located in<FontIcon icon="fas fa-folder-open"/>`/etc/conky` directory. Conky actually relies on the config file <FontIcon icon="fas fa-file-lines"/>`.conkyrc` located in the home directory. If there is no such file in the system, it uses the <FontIcon icon="fas fa-folder-open"/>`/etc/conky/`<FontIcon icon="fas fa-file-lines"/>`conky.config` file.
 
-And as you may see, it might not be the best-looking or well-integrated Conky for your system.
+And as you may see, it might not be the best-looking or well-integratedConky for your system.
 
 ![Default Conky is not the best one, obviously](https://itsfoss.com/content/images/2024/11/default-conky-view-in-ubuntu.png)
 
@@ -243,7 +243,7 @@ To modify the Conky on your own, you need to know a thing or two about the Conky
 
 ### Where can you find Conky themes? How do you use different types of Conky themes?
 
-This is not something that can be easily answered. You can search for the term Conky on [<FontIcon icon="fas fa-globe"/>DeviantArt](https://deviantart.com/) or [<FontIcon icon="fas fa-globe"/>OpenDesktop](https://opendesktop.org/search?projectSearchText=conky). You can also search on GitHub.
+This is not something that can be easily answered. You can search for the term Conky on[<FontIcon icon="fas fa-globe"/>DeviantArt](https://deviantart.com/)or[<FontIcon icon="fas fa-globe"/>OpenDesktop](https://opendesktop.org/search?projectSearchText=conky). You can also search on GitHub.
 
 ::: caution 🚧
 
@@ -251,7 +251,7 @@ Most of the Conky themes are created by hobbyists and at times these will be out
 
 :::
 
-Using these Conky themes is similar to using [source code installation](/itsfoss.com/install-software-from-source-code.md). A good Conky theme will come with a README or other help file that tells you what to change in the Conky theme files and other important things about using the Conky theme. Most of the time you have to change the path to image files or Lua script.
+Using these Conky themes is similar to using[source code installation](/itsfoss.com/install-software-from-source-code.md). A good Conky theme will come with a README or other help file that tells you what to change in the Conky theme files and other important things about using the Conky theme. Most of the time you have to change the path to image files or Lua script.
 
 Some Conky themes don’t have any instructions, and you have to manually explore what needs to be changed in the Lua script or Conky configuration files.
 
@@ -264,9 +264,9 @@ Most of the Conky themes will come in the following formats:
 
 Let’s discuss the two of the common kinds with examples.
 
-### Example 1: Install qclocktwo Conky to display time in words
+### Example 1: Install qclocktwo Conkyto display time in words
 
-Go to DeviantArt and [<FontIcon icon="fas fa-globe"/>download the qclocktwo Conky](https://mowgli-writes.deviantart.com/art/qlocktwo-conky-470067388). Extract the downloaded file and you’ll see a file named `qclocktwo`.
+Go to DeviantArt and[<FontIcon icon="fas fa-globe"/>download the qclocktwo Conky](https://mowgli-writes.deviantart.com/art/qlocktwo-conky-470067388). Extract the downloaded file and you’ll see a file named `qclocktwo`.
 
 ![Extract the downloaded "qclocktwo" archive file using Nautilus file manager right-click menu.](https://itsfoss.com/content/images/2024/11/extract-the-downloaded-conky-qclocktwo-archive-file.png)
 
@@ -290,11 +290,11 @@ In either case, you’ll see a beautiful Conky theme displaying time in the foll
 
 You’ll find many Conky themes that have their own wallpapers, images along with a Lua file and Conky configuration file.
 
-Using [Lua scripts (<FontIcon icon="iconfont icon-github"/>`brndnmtthws/conky`)](https://github.com/brndnmtthws/conky/wiki/Using-Lua-scripts-in-conky:-How-does-a-lua-script-work), Conky themes can create some graphics (if I can call it that) such as rings, clocks etc. This further enhances the capability of Conky where you see the system information with more animated elements.
+Using[Lua scripts (<FontIcon icon="iconfont icon-github"/>`brndnmtthws/conky`)](https://github.com/brndnmtthws/conky/wiki/Using-Lua-scripts-in-conky:-How-does-a-lua-script-work), Conky themes can create some graphics (if I can call it that) such as rings, clocks etc. This further enhances the capability of Conky where you see the system information with more animated elements.
 
-Let’s see it with an example. Download the [<FontIcon icon="fas fa-globe"/>Kit-Kat Conky](https://etlesteam.deviantart.com/art/Conky-KIT-KAT-583590943). After extracting the downloaded files, you’ll see that there is a `conkyrc` file and a Lua file under the `scripts` folder.
+Let’s see it with an example. Download the[<FontIcon icon="fas fa-globe"/>Kit-KatConky](https://etlesteam.deviantart.com/art/Conky-KIT-KAT-583590943). After extracting the downloaded files, you’ll see that there is a `conkyrc` file and a Lua file under the `scripts` folder.
 
-The main thing to look for here is the path to the lua file in the Conky configuration file. So if you open the `conkyrc_Kit-kat` file, you’ll see that the path in `lua_load` expects the lua file to be in the location <FontIcon icon="fas fa-folder-open"/>`~/.conky/Kit-Kat/scripts/lua`.
+The main thing to look for here is the path to the lua file in the Conky configuration file. So if you open the `conkyrc_Kit-kat` file, you’ll see that the path in`lua_load` expects the lua file to be in the location <FontIcon icon="fas fa-folder-open"/>`~/.conky/Kit-Kat/scripts/lua`.
 
 ![The "lua_load" line in the Conky lua script, opened in GNOME Text Editor.](https://itsfoss.com/content/images/2024/11/location-of-the-lua-script-points-to-kitkat-config-conky.png)
 
@@ -320,7 +320,7 @@ Before you start experimenting with Conky, here are a few more things you should
 
 - Most Conky themes on the internet are outdated. Be prepared to be disappointed when you see issues after issues in the Conky.
 - You can have more than one Conky in use at the same time. Just use the Conky command in the following fashion: `conky -c path_to_conky_1 path_to_conky_2`.
-- You can also [set Conky commands to run them at startup](/itsfoss.com/manage-startup-applications-ubuntu.md).
+- You can also[set Conky commands to run them at startup](/itsfoss.com/manage-startup-applications-ubuntu.md).
 
 ---
 

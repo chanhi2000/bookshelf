@@ -84,7 +84,7 @@ Check out this React `useState` video tutorial:
 
 <VidStack src="youtube/4qVNaohzDWU" />
 
-### Declare state variable
+### Declare statevariable
 
 Declaring a state variable is as simple as calling `useState` with some initial state value, like so: `useState(initialStateValue)`.
 
@@ -95,13 +95,13 @@ const DeclareStateVar = () => {
 }
 ```
 
-### Update state variable
+### Update statevariable
 
 Updating a state variable is as simple as invoking the updater function returned by the `useState` invocation: `const [stateValue, updaterFn] = useState(initialStateValue);`.
 
 ![](https://storage.googleapis.com/blog-images-backup/1*xKBiQT_91AU-PlNLGjv0Yg.gif)
 
-Note how the age state variable is being updated.
+Note how the age state variable is beingupdated.
 
 Here’s the code responsible for the screencast above:
 
@@ -163,7 +163,7 @@ const MultipleStateVars = () => {
 }
 ```
 
-### Use object state variable
+### Use object statevariable
 
 As opposed to strings and numbers, you could also use an object as the initial value passed to `useState`.
 
@@ -214,7 +214,7 @@ const StateObject = () => {
 }
 ```
 
-### Initialize state from function
+### Initialize state fromfunction
 
 As opposed to just passing an initial state value, state could also be initialized from a function, as shown below:
 
@@ -244,7 +244,7 @@ This is ideal when the state update depends on some previous value of state.
 
 ![](https://storage.googleapis.com/blog-images-backup/1*uAEGQN-IESENc82FnkJUfA.gif)
 
-A counter with functional setState updates.
+A counter with functional setStateupdates.
 
 Here’s the code for the screencast above:
 
@@ -274,13 +274,13 @@ Here’s a [<FontIcon icon="fas fa-globe"/>live, editable `useState` cheat sheet
 
 ## `useEffect`
 
-With [<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect), you invoke [**side effects from within functional components**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md), which is an important concept to understand in the React Hooks era.
+With[<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect), you invoke [**side effects from within functional components**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md), which is an important concept to understand in the React Hooks era.
 
-### Basic side effect
+### Basic sideeffect
 
 ![](https://storage.googleapis.com/blog-images-backup/1*RdkmsjpFV1_KRxtk1pRFlw.gif)
 
-Watch the title of the document update.
+Watch the title of the documentupdate.
 
 Here’s the code responsible for the screencast above:
 
@@ -302,7 +302,7 @@ const BasicEffect = () => {
 }
 ```
 
-### Effect with cleanup
+### Effect withcleanup
 
 It’s pretty common to clean up an effect after some time. This is possible by returning a function from within the effect function passed to `useEffect`. Below is an example with `addEventListener`.
 
@@ -620,7 +620,7 @@ const Bar = () => {
 ReactDOM.render(<Bar />)
 ```
 
-### Initialize state lazily
+### Initialize statelazily
 
 `useReducer` takes a third function parameter. You may initialize state from this function, and whatever’s returned from this function is returned as the state object. This function will be called with `initialState` — the second parameter.
 
@@ -713,9 +713,9 @@ Here’s an editable [<FontIcon icon="fas fa-globe"/>`useReducer` cheat sheet](h
 
 ## `useCallback`
 
-[<FontIcon icon="fa-brands fa-react"/>`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback) returns a [<FontIcon icon="fa-brands fa-wikipedia-w"/>memoized](https://en.wikipedia.org/wiki/Memoization) callback. Wrapping a component with `React.Memo()` signals the intent to reuse code. This does not automatically extend to functions passed as parameters.
+[<FontIcon icon="fa-brands fa-react"/>`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback) returns a [<FontIcon icon="fa-brands fa-wikipedia-w"/>memoized](https://en.wikipedia.org/wiki/Memoization) callback. Wrapping a component with`React.Memo()` signals the intent to reuse code. This does not automatically extend to functions passed as parameters.
 
-React [**saves a reference to the function when wrapped with `useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md#whatis). Pass this reference as a property to new components to reduce rendering time.
+React [**saves a reference to the function when wrapped with`useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md#whatis). Pass this reference as a property to new components to reduce rendering time.
 
 ### `useCallback` example
 
@@ -823,7 +823,7 @@ const Instructions = React.memo((props) => {
 ReactDOM.render(<App />)
 ```
 
-### `useCallback` with inline function
+### `useCallback` with inlinefunction
 
 `useCallback` also works with an inline function as well. Here’s the same solution with an inline `useCallback` call:
 
@@ -876,9 +876,9 @@ Here’s [<FontIcon icon="fas fa-globe"/>live, editable `useCallback` cheat shee
 
 ## `useMemo`
 
-The [<FontIcon icon="fa-brands fa-react"/>`useMemo`](https://reactjs.org/docs/hooks-reference.html#usememo) function returns a memoized value. [**`useMemo` is different from `useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md) in that it internalizes return values instead of entire functions. Rather than passing a handle to the same function, React skips the function and returns the previous result, until the parameters change.
+The [<FontIcon icon="fa-brands fa-react"/>`useMemo`](https://reactjs.org/docs/hooks-reference.html#usememo) function returns a memoized value.[**`useMemo` is different from `useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md)in that it internalizes return values instead of entire functions. Rather than passing a handle to the same function, React skips the function and returns the previous result, until the parameters change.
 
-This allows you to avoid repeatedly performing potentially costly operations until necessary. Use this method with care, as any changing variables defined in the function do not affect the behavior of `useMemo`. If you’re performing timestamp additions, for instance, this method does not care that the time changes, only that the function parameters differ.
+This allows you to avoid repeatedly performing potentially costly operations until necessary. Use this method with care, as any changing variables defined in the function do not affect the behavior of`useMemo`. If you’re performing timestamp additions, for instance, this method does not care that the time changes, only that the function parameters differ.
 
 ### `useMemo` example
 
@@ -992,17 +992,17 @@ Here’s a [<FontIcon icon="fas fa-globe"/>live, editable `useMemo` demo](https:
 
 ## `useRef`
 
-[<FontIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) returns a “ref” object. Values are accessed from the `.current` property of the returned object. The `.current` property could be initialized to an initial value — `useRef(initialValue)`, for example. The object is persisted for the entire lifetime of the component.
+[<FontIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) returns a “ref” object. Values are accessed from the`.current` property of the returned object. The `.current` property could be initialized to an initial value — `useRef(initialValue)`, for example. The object is persisted for the entire lifetime of the component.
 
 Learn more in this [**comprehensive `useRefs` guide**](/blog.logrocket.com/complete-guide-react-refs.md) or check out our `useRefs` video tutorial:
 
-### Accessing the DOM
+### Accessing theDOM
 
 Consider the sample application below:
 
 ![](https://storage.googleapis.com/blog-images-backup/1*HpWEeuuijusQkO9mT5ohXw.gif)
 
-Accessing the DOM via useRef.
+Accessing the DOM viauseRef.
 
 Here’s the code responsible for the screencast above:
 

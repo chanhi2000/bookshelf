@@ -101,7 +101,7 @@ It turns out you can do something similar in Docker too with a multi-stage build
 
 In this example, you will build a Node.js container.
 
-Let's start with an <FontIcon icon="fa-brands fa-js"/>`index.js`:
+Let's start with an<FontIcon icon="fa-brands fa-js"/>`index.js`:
 
 ```js
 const express = require('express')
@@ -114,7 +114,7 @@ app.listen(3000, () => {
 })
 ```
 
-and <FontIcon icon="iconfont icon-json"/>`package.json`:
+and<FontIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {

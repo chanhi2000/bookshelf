@@ -86,7 +86,7 @@ In modular design, business logic pertaining to particular features or functiona
 
 Although the concept of modules is [<FontIcon icon="fa-brands fa-wikipedia-w"/>quite different depending on the language](https://en.wikipedia.org/wiki/Modular_programming#Terminology), they are akin to the idea of [<FontIcon icon="fa-brands fa-wikipedia-w"/>namespaces](https://en.wikipedia.org/wiki/Module_pattern#Namespaces) in languages like Java. Modules enable code organization by splitting a codebase into reusable components such that each performs individual functions and can be combined or composed to form larger functionalities or an entire application.
 
-In Node.js, the [<FontIcon icon="fa-brands fa-node"/>module system](https://nodejs.org/docs/latest/api/modules.html#modules_modules) has come a long way from its earlier adoption of [<FontIcon icon="fas fa-globe"/>CommonJS](https://requirejs.org/docs/commonjs.html). Today, [<FontIcon icon="fa-brands fa-node"/>ECMAScript modules](https://nodejs.org/dist/latest-v13.x/docs/api/esm.html#esm_ecmascript_modules) (ES modules), which are now stable and fit for production use, are the official standard for packaging code for reuse in both client- and server-side JavaScript.
+In Node.js, the [<FontIcon icon="fa-brands fa-node"/>module system](https://nodejs.org/docs/latest/api/modules.html#modules_modules) has come a long way from its earlier adoption of [<FontIcon icon="fas fa-globe"/>CommonJS](https://requirejs.org/docs/commonjs.html). Today, [<FontIcon icon="fa-brands fa-node"/>ECMAScript modules](https://nodejs.org/dist/latest-v13.x/docs/api/esm.html#esm_ecmascript_modules) (ES modules), which are now stable and fit for production use,are the official standard for packaging code for reuse in both client- and server-side JavaScript.
 
 ---
 
@@ -116,7 +116,7 @@ Also, for better context, readers may need to be fairly knowledgeable with the [
 
 ## What are ES modules?
 
-With the release of Node version 15.3.0 (currently in v15.11.0), [<FontIcon icon="fa-brands fa-node"/>ES modules](https://nodejs.org/api/esm.html#esm_introduction) can now be used without an experimental flag, as they are now stable and compatible with the NPM ecosystem. Details about the stability index can be found [<FontIcon icon="fa-brands fa-node"/>here](https://nodejs.org/api/documentation.html) in the node.js ESM documentation. With ES modules, modules are defined with the use of the `import` and `export` keywords instead of the `require()` function in CommonJS. Here is how they are used:
+With the release of Node version 15.3.0 (currently in v15.11.0), [<FontIcon icon="fa-brands fa-node"/>ES modules](https://nodejs.org/api/esm.html#esm_introduction) can now be used without an experimental flag, as they are now stable and compatible with the NPM ecosystem. Details about the stability index can be found [<FontIcon icon="fa-brands fa-node"/>here](https://nodejs.org/api/documentation.html) in the node.js ESM documentation.With ES modules, modules are defined with the use of the `import` and `export` keywords instead of the `require()` function in CommonJS. Here is how they are used:
 
 ```js title="f.js"
 export function sayLanguage(language) {
@@ -245,7 +245,7 @@ To set the main entry point for a package for example, it is advisable to define
 
 ## CommonJS module system
 
-Prior to the introduction of ES modules, the community relied heavily on CommonJS for packaging server-side JavaScript code. In the CommonJS module system, each file is treated as a module, which exposes a set of APIs (via a well-defined interface) with the use of the [`exports` object (<FontIcon icon="iconfont icon-github"/>`nodejs/ecmascript-modules`)](https://github.com/nodejs/ecmascript-modules/blob/modules-lkgr/doc/api/modules.md#exports). To understand this better, here is an example using the object created by the module system:
+Prior to the introduction of ES modules, the community relied heavily on CommonJS for packaging server-side JavaScript code. In the CommonJS module system, each file is treated as a module, which exposes a set of APIs (via a well-defined interface) with the use of the [`exports`object (<FontIcon icon="iconfont icon-github"/>`nodejs/ecmascript-modules`)](https://github.com/nodejs/ecmascript-modules/blob/modules-lkgr/doc/api/modules.md#exports). To understand this better, here is an example using the object created by the module system:
 
 ```js title="a.js"
 function sayName(name) {

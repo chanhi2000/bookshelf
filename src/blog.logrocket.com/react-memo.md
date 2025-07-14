@@ -88,7 +88,7 @@ Even with `React.memo`, a component will still re-render if:
 - It **depends on context or state** that updates frequently
 - It contains `useEffect` or subscriptions that trigger updates
 
-**[`React.memo` vs. `useMemo`](/blog.logrocket.com/react-memo-vs-usememo.md) vs. [`useCallback`](/blog.logrocket.com/react-usememo-vs-usecallback.md) — what’s the difference?**
+**[`React.memo` vs. `useMemo`](/blog.logrocket.com/react-memo-vs-usememo.md)vs. [`useCallback`](/blog.logrocket.com/react-usememo-vs-usecallback.md) — what’s the difference?**
 
 - `React.memo` prevents re-renders for **entire components** when props haven’t changed
 - `useMemo` memoizes **computed values** to avoid expensive recalculations

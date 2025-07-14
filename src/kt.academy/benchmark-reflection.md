@@ -90,10 +90,10 @@ open class Counter {
  
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun increment() = value++
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun decrement() = value--
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun get() = value
 }
@@ -234,17 +234,17 @@ fun atomicCounterCall(bh: Blackhole, counter: AtomicCounter) {
   }
   bh.consume(counter)
 }
-​
+
 @State(Scope.Thread)
 open class AtomicCounter {
   var value = AtomicInteger(0)
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun increment() = value.incrementAndGet()
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun decrement() = value.decrementAndGet()
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun get() = value
 }
@@ -264,16 +264,16 @@ fun synchronizedCounterCall(bh: Blackhole, counter: SynchronizedCounter) {
   }
   bh.consume(counter)
 }
-​
+
 @State(Scope.Thread)
 open class SynchronizedCounter {
   var value = 0
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun increment() = synchronized(this) {
     value++
   }
-​
+
   @CompilerControl(CompilerControl.Mode.DONT_INLINE)
   fun decrement() = synchronized(this) {
     value--
@@ -303,21 +303,21 @@ fun printingCounterCall(bh: Blackhole, counter: PrintingCounter) {
   }
   bh.consume(counter)
 }
-​
+
 @State(Scope.Thread)
 open class PrintingCounter {
  var value = 0
-​
+
   fun increment() {
     print("I")
     value++
   }
-​
+
   fun decrement() {
     print("D")
     value--
   }
-​
+
   fun get() {
     print("G")
     value

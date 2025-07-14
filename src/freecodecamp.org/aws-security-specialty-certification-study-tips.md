@@ -148,7 +148,7 @@ Understand why it's important to set the range for ephemeral ports in outbound r
 Check out this [Medium article (<FontIcon icon="fa-brands fa-medium"/>`remy-nts`)](https://remy-nts.medium.com/aws-nacl-why-the-need-to-set-ephemeral-ports-range-for-outbound-rules-50ee93986555) on NACL and ephemeral ports.
 
 <SiteInfo
-  name="AWS/NACL : Why the need to set ephemeral ports range for outbound rules"
+  name="AWS/NACL: Why the need to set ephemeral ports range for outbound rules"
   desc="Reminder of NACL definition:"
   url="https://remy-nts.medium.com/aws-nacl-why-the-need-to-set-ephemeral-ports-range-for-outbound-rules-50ee93986555/"
   logo="https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19"

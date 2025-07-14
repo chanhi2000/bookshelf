@@ -282,7 +282,7 @@ Indexes and partitions usually speed up `SELECT` operations at the expense of sl
 
 In this article, we’ve discussed five ways that you can rapidly improve your MySQL database performance. Each approach has its own unique upsides and downsides and is applicable in different scenarios. However, whether or not the pros outweigh the cons is for you to decide.
 
-Familiarize yourself [<FontIcon icon="iconfont icon-mysql"/>with the documentation surrounding your storage engine of choice](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html). Use InnoDB or XtraDB as your storage engine, try your best to normalize the tables you’re working with, avoid using unnecessary sizes for your data types, and index your columns to speed up `SELECT` queries.
+Familiarize yourself [<FontIcon icon="iconfont icon-mysql"/>with the documentation surrounding your storage engine of choice](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html).Use InnoDB or XtraDB as your storage engine, try your best to normalize the tables you’re working with, avoid using unnecessary sizes for your data types, and index your columns to speed up `SELECT` queries.
 
 Indexes and partitions are used to speed up `SELECT` queries at the expense of slowing down `INSERT`, `UPDATE`, and `DELETE`. Both of these approaches have multiple types and can be incredibly useful if used wisely.
 

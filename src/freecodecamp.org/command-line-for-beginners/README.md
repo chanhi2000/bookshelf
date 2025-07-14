@@ -31,7 +31,7 @@ isOriginal: false
 author:
   - name: German Cocca
     url : https://freecodecamp.org/news/author/GerCocca/
-cover: https://www.freecodecamp.org/news/content/images/2022/03/pexels-pixabay-207580.jpg
+cover: https://freecodecamp.org/news/content/images/2022/03/pexels-pixabay-207580.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -65,7 +65,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/03/pexels-pixabay-2
   desc="Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell). The command line is one of the most useful and efficient tools we have as developers and as computer users in general. But us..."
   url="https://freecodecamp.org/news/command-line-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/03/pexels-pixabay-207580.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/03/pexels-pixabay-207580.jpg"/>
 
 Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell).
 

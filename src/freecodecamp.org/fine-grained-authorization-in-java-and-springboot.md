@@ -268,7 +268,7 @@ To set up the e-commerce application and git clone the source code.
 git clone https://github.com/tyaga001/java-spring-fine-grained-auth.git
 ```
 
-Then open the code in your Java IDE. I used [<FontIcon icon="iconfont icon-jetbrains"/>JetBrains](https://jetbrains.com/idea/) for all my work.
+Then open the code in your Java IDE.I used [<FontIcon icon="iconfont icon-jetbrains"/>JetBrains](https://jetbrains.com/idea/) for all my work.
 
 #### Installing Permit package SDK
 

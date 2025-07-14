@@ -171,7 +171,7 @@ $$
 
 where $\left(e,N\right)$ is the public key. The thus computed $C$ is our ciphertext generated using RSA-OAEP.
 
-When decrypting, the process is reversed: the recipient uses their private key $d$ to compute $m=c^{d}\:\text{mod}\:N$, recovers the $EM$, then splits it into the $0\text{x}00$, $maskedSeed$, and $maskedDB$, and uses the same $MGF$ and hash function to unravel the $XOR$s in reverse order​. Finally, they check that the recovered $lHash'$ matches the expected hash and that the block contains the proper structure​ $\left(\dots\:\vert\vert\:0\text{x}01\:\vert\vert\:\dots\right)$.
+When decrypting, the process is reversed: the recipient uses their private key $d$ to compute $m=c^{d}\:\text{mod}\:N$, recovers the $EM$, then splits it into the $0\text{x}00$, $maskedSeed$, and $maskedDB$, and uses the same $MGF$ and hash function to unravel the $XOR$s in reverse order. Finally, they check that the recovered $lHash'$ matches the expected hash and that the block contains the proper structure $\left(\dots\:\vert\vert\:0\text{x}01\:\vert\vert\:\dots\right)$.
 
 If any check fails, the padding is invalid. Only if everything checks out is the message M returned. The result is that an invalid ciphertext will almost always be detected and rejected without giving an attacker any useful information.
 

@@ -106,7 +106,7 @@ It shares some similarities with the code repository platform, such as uploading
 
 ### Remote services
 
-A developer can pull Docker images from [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/) to any machine that hosts its containers. Implying that you can always retrieve a Docker image, build it, and run an instance of it from wherever you are and whenever you want.
+A developer can pull Docker images from [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/)to any machine that hosts its containers. Implying that you can always retrieve a Docker image, build it, and run an instance of it from wherever you are and whenever you want.
 
 ### Cost efficiency
 

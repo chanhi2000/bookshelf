@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Eniola Ajala
     url : https://freecodecamp.org/news/author/eniola-ajala/
-cover: https://www.freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41D9-AE75-02A8631DE983.jpeg
+cover: https://freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41D9-AE75-02A8631DE983.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -64,7 +64,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41
   desc="Did you know that you can create machine learning models without writing any code? If you’re here, you’re probably curious about how to achieve this. In this article, I will guide you through building a regression model that predicts automobile price..."
   url="https://freecodecamp.org/news/create-an-ml-model-with-azure-machine-learning-designer"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41D9-AE75-02A8631DE983.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41D9-AE75-02A8631DE983.jpeg"/>
 
 Did you know that you can create machine learning models without writing any code? If you’re here, you’re probably curious about how to achieve this.
 

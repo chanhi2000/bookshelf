@@ -162,7 +162,7 @@ export const MyComponent = ({ isVisible }) => (
 )
 ```
 
-The `LazyMotion` component provides the `features` prop that is responsible for loading animation bundles. This component also allows for optimization of the Motion library. When installed, the Motion Library comes with a bundle size of around 34kb. The `LazyMotion` component allows us to reduce this to six kb for the initial render and then load a subset of features synchronously or asynchronously.
+The `LazyMotion` component provides the `features` prop that is responsible for loading animation bundles. Thiscomponent also allows for optimization of the Motion library. When installed, the Motion Library comes with a bundle size of around 34kb. The `LazyMotion` component allows us to reduce this to six kb for the initial render and then load a subset of features synchronously or asynchronously.
 
 ### The `LayoutGroup` component
 
@@ -539,7 +539,7 @@ Next, apply the following changes to the <FontIcon icon="fa-brands fa-react"/>`A
 import * as m from "motion/react-m";
 ```
 
-Then update the [<FontIcon icon="fa-brands fa-globe"/>`<button>` component](https://blog.logrocket.com/ux-design/types-of-buttons-in-ui-design/):
+Then update the [<FontIcon icon="fa-brands fa-globe"/>`<button>`component](https://blog.logrocket.com/ux-design/types-of-buttons-in-ui-design/):
 
 ```jsx
 <m.button

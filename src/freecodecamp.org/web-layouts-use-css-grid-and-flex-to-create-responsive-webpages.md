@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Ophy Boamah
     url : https://freecodecamp.org/news/author/CodeHemaa/
-cover: https://www.freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png
+cover: https://freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png
   desc="Your web layout is to your website what a floor plan is to a building. Without them, you’re just building castles in the air.  The first thing to do when you have a website or application to build or design is to decide on the layout. This is importa..."
   url="https://freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png"/>
 
 Your web layout is to your website what a floor plan is to a building. Without them, you’re just building castles in the air.
 

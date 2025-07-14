@@ -50,13 +50,13 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/1_bqXiu9b178PqdrckQOM31Q.
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/12/1_bqXiu9b178PqdrckQOM31Q.webp"/>
 
-Android Interface Definition Language (AIDL) is a powerful tool for enabling interprocess communication (IPC) in Android applications. While theoretical explanations are helpful, understanding AIDL becomes much easier when explored through a real-world use case. In this article, we’ll dive into AIDL by creating a simple **Currency Conversion Service** that processes conversion rates and provides results to multiple clients.
+Android Interface Definition Language (AIDL) is a powerful tool for enabling interprocess communication (IPC) in Android applications. While theoretical explanations are helpful, understanding AIDL becomes much easier when explored through a real-world use case. In this article, we’ll dive into AIDL by creating a simple**Currency Conversion Service** that processes conversion rates and provides results to multiple clients.
 
 ---
 
 ## The Use Case: Currency Conversion Service
 
-Imagine we are building a multi-featured financial app. One component of this app is a background service that provides real-time currency conversion rates. Since conversion calculations can be requested by different app components (e.g., budgeting tool, expense tracker), the service is designed to run in a **separate process**. To enable these components to interact with the service, we’ll use AIDL.
+Imagine we are building a multi-featured financial app. One component of this app is a background service that provides real-time currency conversion rates. Since conversion calculations can be requested by different app components (e.g., budgeting tool, expense tracker), the service is designed to run in a**separate process**. To enable these components to interact with the service, we’ll use AIDL.
 
 ---
 
@@ -78,7 +78,7 @@ interface ICurrencyConverter {
 }
 ```
 
-Save this file in the <FontIcon icon="fas fa-folder-open"/>`src/main/aidl` directory of your project.
+Save this file in the<FontIcon icon="fas fa-folder-open"/>`src/main/aidl` directory of your project.
 
 ### Step 2: Implement the Service
 
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
 
 ### Step 4: Permissions and Process Configuration
 
-To run the service in a separate process, update the <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`:
+To run the service in a separate process, update the<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`:
 
 ```xml title="AndroidManifest.xml"
 <service
@@ -172,7 +172,7 @@ This ensures the service runs in its own process, separate from the client compo
 ### Testing the Example
 
 1. **Start the App**: Launch the app and click a button to initiate a currency conversion.
-2. **Service in Action**: The app binds to the `CurrencyConverterService`, invokes the `convertCurrency` method, and retrieves the result.
+2. **Service in Action**: The app binds to the`CurrencyConverterService`, invokes the`convertCurrency`method, and retrieves the result.
 3. **Observe Interprocess Communication**: Despite being in separate processes, the service and the client communicate seamlessly through AIDL.
 
 ### Real-World Enhancements

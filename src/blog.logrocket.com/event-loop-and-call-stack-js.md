@@ -171,7 +171,7 @@ While the call stack manages synchronous execution, JavaScript’s true power li
 [<FontIcon icon="fa-brands fa-firefox"/>Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) are browser-provided interfaces that handle tasks outside JavaScript’s core runtime. They include:
 
 - **Timers** — `setTimeout`, `setInterval`
-- **Network requests** — `fetch`, `XMLHttpRequest`
+- **Network requests**— `fetch`, `XMLHttpRequest`
 - **DOM manipulation** — `addEventListener`, `click`, `scroll`
 - **Device APIs** — Geolocation, Camera, Notifications
 
@@ -324,7 +324,7 @@ recursiveMicrotask();
 
 The above script will hang as the microtask queue is never empty, and the approach to fix this issue is to use `setTimeout` to defer work to the task queue.
 
-### `async/await` and microtasks
+### `async/await`and microtasks
 
 [**`async/await`**](/blog.logrocket.com/async-await-typescript.md) syntax is syntactic sugar for promises. Code after `await` is wrapped in a microtask:
 

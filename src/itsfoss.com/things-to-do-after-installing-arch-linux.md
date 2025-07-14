@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "7 Essential Things To Do After Installing Arch Linux "
-description: "Article(s) > 7 Essential Things To Do After Installing Arch Linux "
+title: "7 Essential Things To Do After Installing Arch Linux"
+description: "Article(s) > 7 Essential Things To Do After Installing Arch Linux"
 icon: iconfont icon-archlinux
 category:
   - Linux
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > 7 Essential Things To Do After Installing Arch Linux "
+      content: "Article(s) > 7 Essential Things To Do After Installing Arch Linux"
     - property: og:description
-      content: "7 Essential Things To Do After Installing Arch Linux "
+      content: "7 Essential Things To Do After Installing Arch Linux"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/itsfoss.com/things-to-do-after-installing-arch-linux.html
 prev: /devops/linux-arch/articles/README.md
@@ -46,7 +46,7 @@ cover: https://itsfoss.com/content/images/wordpress/2018/01/things-to-do-after-i
 ---
 
 <SiteInfo
-  name="7 Essential Things To Do After Installing Arch Linux "
+  name="7 Essential Things To Do After Installing Arch Linux"
   desc="Brief: This tutorial shows you a few essential things to do after installing Arch Linux. This will help you get started with Arch Linux so that you can explore it further. Earlier I showed you how to install Arch Linux. Today, I am going to list a few basic and"
   url="https://itsfoss.com/things-to-do-after-installing-arch-linux"
   logo="https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png"
@@ -114,7 +114,7 @@ Once installed, you can enable to start each time you reboot your system.
 systemctl enable lxdm.service
 ```
 
-Reboot your system and you will see the LXDM login screen, select your desktop environment from the list and login.
+Reboot your system and you will see the LXDMlogin screen, select your desktop environment from the list and login.
 
 This is how my system looks like with LXDM and GNOME.
 
@@ -126,7 +126,7 @@ Why should you install LTS kernel in Arch Linux when it is supposed to be cuttin
 
 Installing an LTS kernel means you have a more stable kernel with better support to older hardware. Also, the LTS kernels are supported for at least 2 years with bug fixes and performance enhancements.
 
-If you rather choose to use the latest Linux kernel, you may find regression and bugs introduced by the latest kernel updates to your existing software and system. It’s not a certainty but it is definitely a possibility. For example, a [Kernel update broke GNOME](/itsfoss.com/fix-white-screen-login-arch-linux.md) in Arch based Linux some time back.
+If you rather choose to use the latest Linux kernel, you may find regression and bugs introduced by the latest kernel updates to your existing software and system. It’s not a certainty but it is definitely a possibility.For example, a [Kernel update broke GNOME](/itsfoss.com/fix-white-screen-login-arch-linux.md) in Arch based Linux some timeback.
 
 This is why it is advisable to use an LTS kernel if you prefer a more stable system and/or have an older one. But the decision is yours to make.
 
@@ -155,9 +155,9 @@ sudo pacman -Rs linux
 
 ### 3. Installing Yaourt
 
-[<FontIcon icon="iconfont icon-archlinux"/>Yaourt](https://archlinux.fr/yaourt-en) stands for Yet AnOther User Repository Tool which can be used to search, download and install packages from the official repository as well as AUR.
+[<FontIcon icon="iconfont icon-archlinux"/>Yaourt](https://archlinux.fr/yaourt-en)stands for Yet AnOther User Repository Tool which can be used to search, download and install packages from the official repository as well as AUR.
 
-[Arch User Repository](/itsfoss.com/aur-arch-linux.md) or [<FontIcon icon="iconfont icon-archlinux"/>AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) is a community-driven repository for Arch users and contains package descriptions to compile a package from source and install it. Most of the packages that make to the official repository start in the AUR first. Users contribute their own applications which are voted for or against and once it becomes popular enough, they are included in the official repository.
+[Arch User Repository](/itsfoss.com/aur-arch-linux.md) or [<FontIcon icon="iconfont icon-archlinux"/>AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) is a community-driven repository for Arch users and contains package descriptions to compile a package from source and install it.Most of the packages that make to the official repository start in the AUR first. Users contribute their own applications which are voted for or against and once it becomes popular enough, they areincluded in the official repository.
 
 AUR contains lots of useful applications that are not found in the main repo can be installed from AUR with help of Yaourt. Yaourt is similar to what [Synaptic Package Manager](/itsfoss.com/synaptic-package-manager.md) does, and can be installed by following these steps:
 
@@ -207,17 +207,17 @@ You can launch the GUI by searching for Add/Remove Software. It will show differ
 
 ![Pamac Package Manager](https://itsfoss.com/content/images/wordpress/2018/01/pamac-1-1.jpg)
 
-However, by default, the AUR packages are not enabled. To enable it, click on the options just beside the search option) and choose Preferences. Under the AUR tab, Enable AUR support.
+However, by default, the AUR packagesare not enabled. To enable it, click on the options just beside the search option) and choose Preferences. Under the AUR tab, Enable AUR support.
 
 ![Enable AUR support in Pamac](https://itsfoss.com/content/images/wordpress/2018/01/AUR.png)
 
 Installing software through Pamac is as easier as searching it through the GUI (which searches the community and AUR) and installing it with a click.
 
-### 5. Installing Codecs and plugins
+### 5.Installing Codecs and plugins
 
 Of course, you are going to use your personal system for recreational works like watching videos and listening to your favorite song. But before that, you will have to install codecs for these audio and video files.
 
-Type the below command in the terminal:
+Type the below command inthe terminal:
 
 ```sh
 sudo pacman -S a52dec faac faad2 flac jasper \
@@ -243,7 +243,7 @@ sudo pacman -S amarok
 For day to day use and setting up your Arch system for productive use, you need some basic applications like an office suite, email client, a web browser etc.
 
 ```sh
-sudo pacman -S libreoffice thunderbird firefox gedit flashplugin \
+sudo pacman -S libreoffice thunderbird firefox geditflashplugin \
 skype dropbox aria2
 ```
 
@@ -315,7 +315,7 @@ In this article, we have just listed out the most important things to do after i
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "7 Essential Things To Do After Installing Arch Linux ",
+  "title": "7 Essential Things To Do After Installing Arch Linux",
   "desc": "Brief: This tutorial shows you a few essential things to do after installing Arch Linux. This will help you get started with Arch Linux so that you can explore it further. Earlier I showed you how to install Arch Linux. Today, I am going to list a few basic and",
   "link": "https://chanhi2000.github.io/bookshelf/itsfoss.com/things-to-do-after-installing-arch-linux.html",
   "logo": "https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png",

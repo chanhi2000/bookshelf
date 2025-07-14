@@ -58,7 +58,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_khPFw1H7giplcH42MXQfFw-
 
 Creating smooth, responsive user experiences in modern UI development often involves complex scrolling interactions. One common requirement is nested scrolling, where a scrollable component is embedded within another. Jetpack Compose, with its declarative approach, provides an elegant way to handle such interactions.
 
-In **PART 1** of this article, we covered scroll states and the basics of nested scrolling. Now, in **PART 2**, we will build a dynamic UI with a collapsing toolbar and learn how to handle nested scrolling effectively.
+In**PART 1**of this article, we covered scroll states and the basics of nested scrolling. Now, in**PART 2**, we will build a dynamic UI with a collapsing toolbar and learn how to handle nested scrolling effectively.
 
 <SiteInfo
   name="Mastering Scroll in Jetpack Compose — PART 1"
@@ -82,13 +82,13 @@ We aim to create an interface with a lazy list where scrolling causes the top ca
 - Creating custom layouts
 - Resizing layouts based on states (collapsed or expanded)
 - Combining lazy list scrolling with screen content
-- Working with nested scrolling and `NestedScrollConnection`
+- Working with nested scrolling and`NestedScrollConnection`
 
 ---
 
 ## *Step 1:* Building the Header
 
-The header has two states: **expanded** and **collapsed**. We use dynamic elements with changing heights and widths to achieve a smooth transition between these states.
+The header has two states:**expanded**and**collapsed**. We use dynamic elements with changing heights and widths to achieve a smooth transition between these states.
 
 ![Expanded state](https://droidcon.com/wp-content/uploads/2024/11/1_kOtEtv7iOY8rF_g-xz5I3g-300x153.webp)
 
@@ -99,7 +99,7 @@ The header has two states: **expanded** and **collapsed**. We use dynamic ele
 To calculate the height for these containers we will use Custom layout in compose. If you already not know custom layout checkout [<FontIcon icon="fa-brands fa-android"/>*this*](https://developer.android.com/develop/ui/compose/layouts/custom).
 
 <SiteInfo
-  name="Custom layouts | Jetpack Compose | Android Developers"
+  name="Custom layouts | Jetpack Compose| Android Developers"
   desc="In Compose, UI elements are represented by the composable functions that emit a piece of UI when invoked, that is then added to a UI tree that gets rendered on the screen. Each UI element has one parent and potentially many children. Each element is also located within its parent, specified as an (x, y) position, and a size, specified as a width and a height."
   url="https://developer.android.com/develop/ui/compose/layouts/custom/"
   logo="https://gstatic.com/devrel-devsite/prod/v6f23042ee535b54d461e0cc5c1cc12493e4d0aea4f2d54a7a63063da7859ead0/android/images/favicon.svg"

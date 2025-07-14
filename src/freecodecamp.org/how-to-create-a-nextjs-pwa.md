@@ -74,7 +74,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726728761614/ba739b8
 <h3 id="heading-prerequisites"><strong>Prerequisites</strong></h3>
 <p>Before you begin, make sure you’re familiar with React.js and Next.js. If you’re new to PWAs, you might want to read some introductory articles to get a quick overview.</p>
 <ul>
-<li><p><a target="_blank" href="https://www.freecodecamp.org/news/what-are-progressive-web-apps-pwa-guide/"><em>What are Progressive Web Apps? PWA Guide for Beginners</em></a></p>
+<li><p><a target="_blank" href="https://freecodecamp.org/news/what-are-progressive-web-apps-pwa-guide/"><em>What are Progressive Web Apps? PWA Guide for Beginners</em></a></p>
 </li>
 <li><p><a target="_blank" href="https://web.dev/learn/pwa"><em>Learn Progressive Web Apps</em></a></p>
 </li>

@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/deep-dive-css-individual-transform-prope
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/banner.png"/>
 
-There’s a chance you’ve never known CSS without its ability to transform properties. That functionality is at the core of CSS and a cornerstone of user interfaces (UI) as we know them today. However, in recent years, CSS hasn’t shied away from overhauling some of its most foundational pieces. After revolutionizing layouts with [<FontIcon icon="fas fa-globe"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<FontIcon icon="fas fa-globe"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and restructuring its box model with [<FontIcon icon="fas fa-globe"/>logical properties](https://danyuschick.com/articles/css-logical-properties-are-the-future-of-the-web-and-i18n/), it was time to introduce its next evolution…
+There’s a chance you’ve never known CSS without its ability to transform properties. That functionality is at the core of CSS and a cornerstone of user interfaces (UI) as we know them today. However, in recent years, CSS hasn’t shied away from overhauling some of its most foundational pieces. After revolutionizing layouts with [<FontIcon icon="icofont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<FontIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and restructuring its box model with [<FontIcon icon="fas fa-globe"/>logical properties](https://danyuschick.com/articles/css-logical-properties-are-the-future-of-the-web-and-i18n/), it was time to introduce its next evolution…
 
 ![A Deep Dive Into CSS Individual Transform Properties](/assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/banner.png)
 
@@ -377,7 +377,7 @@ And for these two reasons alone, individual transform properties are a welcomed 
 ```
 
 <SiteInfo
-  name="Finer grained control over CSS transforms with individual transform properties  |  Articles  |  web.dev"
+  name="Finer grained control over CSS transforms with individual transform properties | Articles | web.dev"
   desc="Learn how you can use the individual translate, rotate, and scale CSS properties to approach transforms in an intuitive way."
   url="https://web.dev/articles/css-individual-transform-properties/"
   logo="https://gstatic.com/devrel-devsite/prod/v17c4f87be230ffee20589ee6dca0a2318ead9eddb228ec5c58233202ff69a933/web/images/favicon.png"

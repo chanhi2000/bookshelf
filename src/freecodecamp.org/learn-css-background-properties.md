@@ -670,7 +670,7 @@ Its three values are:
 When we use **`scroll`**, the image is fixed and we can freely scroll our content. The **`fixed`** value gives us a parallax effect on mouse scroll and **`local`** produces multiple images as long as our content doesn't end.
 
 <SiteInfo
-  name="All CSS Background Properties Explained in 5 Minutes"
+  name="All CSS Background Properties Explained in 5Minutes"
   desc="I remember when I first tried setting an image background in CSS.  What I thought would be a simple..."
   url="https://dev.to/hadrysmateusz/learn-all-8-background-css-properties-in-5-minutes-2lk4/"
   logo="https://media2.dev.to/dynamic/image/width=128,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"

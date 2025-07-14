@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Kunal Nalawade
     url : https://freecodecamp.org/news/author/KunalN25/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/photo-1619410283995-43d9134e7656.jpeg
+cover: https://freecodecamp.org/news/content/images/2024/07/photo-1619410283995-43d9134e7656.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -54,7 +54,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/photo-1619410283
   desc="React provides various hooks that make it easier to manage application state and other React features in functional components. Hooks provide class component features to functional components, and they don't need a lot of code compared to class compo..."
   url="https://freecodecamp.org/news/difference-between-usememo-and-usecallback-hooks"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/photo-1619410283995-43d9134e7656.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/photo-1619410283995-43d9134e7656.jpeg"/>
 
 React provides various hooks that make it easier to manage application state and other React features in functional components. Hooks provide class component features to functional components, and they don't need a lot of code compared to class components.
 

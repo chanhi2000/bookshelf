@@ -28,7 +28,7 @@ prev: /programming/js-react/articles/README.md
 date: 2022-06-07
 isOriginal: false
 author: Joel Olawanle
-cover: https://www.freecodecamp.org/news/content/images/2022/06/cover-template.jpg
+cover: https://freecodecamp.org/news/content/images/2022/06/cover-template.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/06/cover-template.j
   desc="By Joel Olawanle React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.  According to the 2021 Stack Overflow developer survey, React has surpassed jQuery as the most popul..."
   url="https://freecodecamp.org/news/react-interview-questions-and-answers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/06/cover-template.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/06/cover-template.jpg"/>
 
 React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.
 

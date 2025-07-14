@@ -857,7 +857,7 @@ This might allow you to trade off the pros and cons of both approaches.
 
 While you might find the answer through trial and error, we've also built a tool to help you with the process.
 
-[**The Kubernetes instance calculator**](/learnk8s.io/kubernetes-instance-calculator.md) lets you explore the best instance type for a given workload.
+[<FontIcon icon="fas fa-globe"/>The Kubernetes instance calculator](https://learnk8s.io/kubernetes-instance-calculator/) lets you explore the best instance type for a given workload.
 
 Make sure you give it a try.
 

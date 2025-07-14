@@ -76,7 +76,7 @@ So I appreciate [<FontIcon icon="fas fa-globe"/>Rachel Andrews chiming in on thi
   logo="https://12daysofweb.dev/img/favicon.png"
   preview="https://12daysofweb.dev/img/og/how-to-use-baseline-data.png"/>
 
-> The problem with progressive enhancement is that the appetite different people and teams have for it varies. I’ve been telling people for well over twenty years that [<FontIcon icon="fas fa-globe"/>websites do not need to look the same in all browsers](https://web.archive.org/web/20081205022337/http://www.edgeofmyseat.com/blog/it-doesnt-have-to-look-the-same). There are many developers (or their bosses or clients) who very much disagree, even as we approach 2025. This means that any decision around what makes or does not make for good progressive enhancement is entirely subjective.
+> The problem with progressive enhancement is that the appetite different people and teams have for it varies. I’ve been telling people for well over twenty years that[<FontIcon icon="fas fa-globe"/>websites do not need to look the same in all browsers](https://web.archive.org/web/20081205022337/http://www.edgeofmyseat.com/blog/it-doesnt-have-to-look-the-same). There are many developers (or their bosses or clients) who very much disagree, even as we approach 2025. This means that any decision around what makes or does not make for good progressive enhancement is entirely subjective.
 
 :::
 

@@ -293,8 +293,25 @@ Stay updated with my projects by following me on [Twitter (<FontIcon icon="fa-br
 
 ::: info Related Articles
 
-- [**How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies**](/freecodecamp.org/how-to-deploy-websites-and-applications.md)
-- [**What is Backend as a Service (BaaS)? A Beginner's Guide**](/freecodecamp.org/backend-as-a-service-beginners-guide/README.md)
+```component VPCard
+{
+  "title": "How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies",
+  "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough – it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
+  "link": "/freecodecamp.org/how-to-deploy-websites-and-applications.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "What is Backend as a Service (BaaS)? A Beginner's Guide",
+  "desc": "Building an authentication system can be complex, often requiring a server to store user data. Sometimes, you need a faster, easier solution. For those new to development or without technical expertise, managing servers, databases, and user logins ca...",
+  "link": "/freecodecamp.org/backend-as-a-service-beginners-guide.md",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```
 
 <SiteInfo
   name="How to Use AWS S3 Console for Website Deployment"

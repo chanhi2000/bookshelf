@@ -79,7 +79,7 @@ The example that got stuck in my head was reordering lists. Imagine a single lis
 
 ## The List
 
-We’re talking a regular ol list. Perhaps ironic that we’re *ordering* and *unordered* lists, but I’ll leave that as a semantic thoughtworm for the reader.
+We’re talking a regular ol list. Perhaps ironic that we’re*ordering*and*unordered*lists, but I’ll leave that as a semantic thoughtworm for the reader.
 
 Each list item has text, then a button which the intended action is that, when clicked, will move the list item to the top.
 

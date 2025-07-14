@@ -103,7 +103,7 @@ The state of the position combo box is handled by the `position` state variable,
 
 ---
 
-## Adding the `ToastList` component
+## Adding the `ToastList`component
 
 Finally, we conclude our app component file by adding `ToastList` at the end. We’ll use the toast and position state variables that we declared in the app component above. Additionally, we’ll pass the `removeToast` function as the `removeToast` prop of `ToastList` before exporting it as a default module:
 

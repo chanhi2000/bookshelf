@@ -54,7 +54,7 @@ cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CwviBMtZIwUrgyka
 
 ![Header](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CwviBMtZIwUrgykadkDXKg.png)
 
-Starting with version **1.4.0-alpha07** of **compose.material3:material3** we get a new API for **Checkbox**, which provides us an option to **customize** the **stroke** of the **checkmark** and **checkbox-outline****.**
+Starting with version**1.4.0-alpha07**of**compose.material3:material3**we get a new API for**Checkbox**, which provides us an option to**customize**the**stroke**of the**checkmark**and**checkbox-outline****.**
 
 <!-- ###### Existing API
 

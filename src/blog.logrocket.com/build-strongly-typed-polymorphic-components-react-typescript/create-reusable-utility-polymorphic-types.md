@@ -196,7 +196,7 @@ Omit<React.ComponentPropsWithoutRef<C>,
    PropsToOmit<C, Props>>;
 ```
 
-This basically omits the right types from `React.componentPropsWithoutRef`. Do you still [<FontIcon icon="iconfont icon-typescript"/>remember how `omit` works](https://typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)?
+This basically omits the right types from `React.componentPropsWithoutRef`. Do you still [<FontIcon icon="iconfont icon-typescript"/>remember how `omit`works](https://typescriptlang.org/docs/handbook/utility-types.html#omittype-keys)?
 
 Simple as it may seem, you now have a solution you can reuse on multiple components across different projects!
 

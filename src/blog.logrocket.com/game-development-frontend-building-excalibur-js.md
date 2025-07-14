@@ -144,7 +144,7 @@ We then set an event listener and listen for pointer click events. In the handle
 
 <VidStack src="/assets/image/blog.logrocket.com/game-development-frontend-building-excalibur-js/basic1.webm" />
 
-As you can see, after clicking the **Play game** button, our rectangle fades in, and when we click on it, the click position is logged in the console. Next, we will see how we can make our character react to user input.
+As you can see, after clicking the**Play game**button, our rectangle fades in, and when we click on it, the click position is logged in the console. Next, we will see how we can make our character react to user input.
 
 ### Handling user inputs
 
@@ -192,7 +192,7 @@ In a similar way, we can also handle the mouse or joystick inputs as well. For m
 
 After handling player inputs, we will now see how levels work in Excalibur. In most games, you will need to switch from one level to the next, and in Excalibur, levels can be defined as `Scenes`.
 
-A `Scene` is a collection of actors that are active together. This can include anything from start and end screens, individual levels, and even different stages within a level. The key thing to remember is that only one scene can be active at a time, and the engine only updates actors that belong to that scene. Anything outside the active scene won’t be rendered or updated.
+A `Scene`is a collection of actors that are active together. This can include anything from start and end screens, individual levels, and even different stages within a level. The key thing to remember is that only one scene can be active at a time, and the engine only updates actors that belong to that scene. Anything outside the active scene won’t be rendered or updated.
 
 Let’s take a look at the `level.ts` file, which has the default scene we have been using so far:
 

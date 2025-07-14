@@ -345,7 +345,7 @@ export default function App() {
 
 See that we have a high order calculation `WithCounter`. In its callback function, notice that we are using `useState` hook. This fails the rule of React Hook.
 
-The above code will throw `React Hook "useState" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function.`  error. In line 5, `const [count, setCount] = useState(0);`, we are calling the React `useState` Hook there. Even though the function is used as component in the `App` component, React will treat the component as a callback function.
+The above code will throw `React Hook "useState" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function.` error. In line 5, `const [count, setCount] = useState(0);`, we are calling the React `useState` Hook there. Even though the function is used as component in the `App` component, React will treat the component as a callback function.
 
 React Hooks should not be called in nested functions
 

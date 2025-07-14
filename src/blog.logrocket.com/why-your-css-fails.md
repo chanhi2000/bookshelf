@@ -350,7 +350,7 @@ Nowadays, most developers choose to reset everything to `border-box`, so it’s 
 }
 ```
 
-There are some variations on the above, with [<FontIcon icon="fas fa-globe"/>some people arguing for inheriting box-sizing](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/):
+There are some variations on the above, with [**some people arguing for inheriting box-sizing**](/css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice.md):
 
 ```css
 html {
@@ -419,7 +419,7 @@ CSS is an extremely powerful styling tool. Whether you choose to go with a pre-p
 
 With many people coming from boot camps that put the emphasis on JS (as is the industry itself), and with the proliferation of pre-packaged solutions such as Bootstrap, the quality of HTML and CSS has taken a toll.
 
-It’s been ten years since [<FontIcon icon="fas fa-globe"/>Chris Coyier said it](https://css-tricks.com/css-is-like/), but this quote is still relevant:
+It’s been ten years since [<FontIcon icon="iconfont icon-css-tricks"/>Chris Coyier said it](https://css-tricks.com/css-is-like/), but this quote is still relevant:
 
 > CSS is like chess. You can learn the basics in a day and spend a lifetime mastering it.
 

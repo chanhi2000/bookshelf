@@ -91,8 +91,8 @@ Several free performance metrics tools allow you to identify and analyze render-
 
 The most common tools include:
 
-- [<FontIcon icon="iconfont icon-lighthouse"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) — Built into Chrome Developer Tools and gives a lab-based performance audit in mobile and desktop views
-- [<FontIcon icon="fas fa-globe"/>PageSpeed Insights](https://pagespeed.web.dev/) — Reports field data and Lighthouse lab test scores in both desktop and mobile views
+- [<FontIcon icon="iconfont icon-lighthouse"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)— Built into Chrome Developer Tools and gives a lab-based performance audit in mobile and desktop views
+- [<FontIcon icon="fas fa-globe"/>PageSpeed Insights](https://pagespeed.web.dev/)— Reports field data and Lighthouse lab test scores in both desktop and mobile views
 - [<FontIcon icon="fas fa-globe"/>GTmetrix](https://gtmetrix.com/) — Reports field data and Lighthouse lab test scores with custom audits in desktop view
 
 When running tests on these tools, you’ll often find that the metrics reported don’t match up exactly. Each tool has differences in hardware, connection speed, locations, screen resolutions, and test methodology. We’ll use Lighthouse to improve the performance of a site with different speeds on mobile and desktop views.

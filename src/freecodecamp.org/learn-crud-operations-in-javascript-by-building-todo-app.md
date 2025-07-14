@@ -23,7 +23,7 @@ prev: /programming/js/articles/README.md
 date: 2022-04-14
 isOriginal: false
 author: Joy Shaheb
-cover: https://www.freecodecamp.org/news/content/images/2022/04/Frame-12--2-.png
+cover: https://freecodecamp.org/news/content/images/2022/04/Frame-12--2-.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,7 +47,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/04/Frame-12--2-.png
   desc="Today we're gonna learn how to do CRUD Operations in JavaScript by making a Todo App. Let's get started 🔥 This is the app we're making today: Live preview GitHub Repository You can watch this tutorial on YouTube as well if you like 🎥 https://you..."
   url="https://freecodecamp.org/news/learn-crud-operations-in-javascript-by-building-todo-app"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/04/Frame-12--2-.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/04/Frame-12--2-.png"/>
 
 Today we're gonna learn how to do CRUD Operations in JavaScript by making a Todo App. Let's get started 🔥
 

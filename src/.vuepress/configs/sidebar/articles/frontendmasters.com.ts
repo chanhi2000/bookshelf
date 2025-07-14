@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
+    "stacked-transforms", // 2025-07-15
     "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
     "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
     "satisfies-in-typescript", // 2025-07-03
@@ -185,6 +187,8 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "container-queries-and-units", // 2023-12-21
     "light-dom-only", // 2023-12-08
+
+    "what-is-sql-database-definition-for-beginners", // 2023-01-13
   ]
 }
 
@@ -381,6 +385,8 @@ export const template: SidebarInfoTemplate = {
       "step-gradients-with-a-given-number-of-steps", // 2025-06-30
       "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
       "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
+      "stacked-transforms", // 2025-07-15
+      "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
       // END: 2025css
       // END: css
     ]],[
@@ -439,6 +445,9 @@ export const template: SidebarInfoTemplate = {
       // END: figma
     ]],[
     "data-science", [
+      "what-is-sql-database-definition-for-beginners", // 2023-01-13
+      // END: 2023data-science
+      // END: 2024data-science
       "the-moment-you-need-a-database", // 2025-03-10
       // END: 2025data-science
       // END: data-science

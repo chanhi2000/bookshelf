@@ -335,7 +335,7 @@ const MenuContext = ({ data }) => {
 export default MenuContext;
 ```
 
-In the <FontIcon icon="fa-brands fa-react"/>`MenuContext.jsx` file, we create two states: `clicked` and `points`. The `clicked` state (with a Boolean value) will monitor when the mouse is right-clicked. The `points` (with an object state) will be used to get the `x` and `y` coordinates of where the **mouse** was clicked.
+In the <FontIcon icon="fa-brands fa-react"/>`MenuContext.jsx` file, we create two states: `clicked` and `points`. The `clicked` state (with a Booleanvalue) will monitor when the mouse is right-clicked. The `points` (with an objectstate) will be used to get the `x` and `y` coordinates of where the **mouse** was clicked.
 
 ---
 

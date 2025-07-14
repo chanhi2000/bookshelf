@@ -92,7 +92,7 @@ Makes you wonder what Microsoft thinks about all this. Microsoft has done the he
 VS Code isn’t the only editor on the block, even if it is pretty huge these days.
 
 - **[<FontIcon icon="fas fa-globe"/>Zed](https://zed.dev/)** — Zed is an entirely new editor with good momentum and very strong bones. I’m certainly rooting for it! They have basic autocomplete going in there (arguably the most important AI feature), and what looks like [<FontIcon icon="fas fa-globe"/>a fairly fresh take on other tools](https://zed.dev/ai). I’ve also heard tale of an active beta with even more, so it’s certainly something to watch.
-- **[LSP-AI (<FontIcon icon="iconfont icon-github"/>`SilasMarvin/lsp-ai`)](https://github.com/SilasMarvin/lsp-ai)** — This is an open source language server, which would theoretically work with *any* editor, like SublimeText, NeoVim, or Emacs or whatever. I’ve only just heard of the [<FontIcon icon="fas fa-globe"/>Helix](https://helix-editor.com) editor, which has some pretty big fans, so LSP-AI might be an answer in getting AI features into it, with it’s explicit language server support.
+- **[LSP-AI (<FontIcon icon="iconfont icon-github"/>`SilasMarvin/lsp-ai`)](https://github.com/SilasMarvin/lsp-ai)** —This is an open source language server, which would theoretically work with *any* editor, like SublimeText, NeoVim, or Emacs or whatever. I’ve only just heard of the [<FontIcon icon="fas fa-globe"/>Helix](https://helix-editor.com) editor, which has some pretty big fans, so LSP-AI might be an answer in getting AI features into it, with it’s explicit language server support.
 
 ---
 

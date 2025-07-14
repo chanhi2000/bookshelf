@@ -423,7 +423,7 @@ Scientific theories come about through hypotheses that are continually tested an
 These two approaches, one philosophical and one statistical, are distinct but complementary in the scientific method.
 
 - **Popperian Falsification** starts with a scientific hypothesis (for example, "P has an effect on Q"). Its core aim is to actively seek evidence that would disprove this hypothesis. If such disproving evidence is found, the hypothesis is falsified.
-- **Statistical Hypothesis Testing** begins with a null hypothesis (H0​) (for example, "P has no effect on Q"). Its goal is to determine if the collected data provides sufficiently extreme evidence to reject this null hypothesis.
+- **Statistical Hypothesis Testing** begins with a null hypothesis (H0) (for example, "P has no effect on Q"). Its goal is to determine if the collected data provides sufficiently extreme evidence to reject this null hypothesis.
 
 If the null hypothesis is rejected, it provides statistical support for the alternative hypothesis (that P *does* have an effect on Q). This statistically supported hypothesis then becomes a stronger candidate, continually subjected to further Popperian attempts at falsification through new experiments and observations.
 
@@ -911,7 +911,7 @@ If your test for a specific input passes, you want to be as confident as possibl
 
 #### Exception Handling and Specificity
 
-Instead of catching broad `Exception` types, catch and handle specific exceptions. This helps differentiate between various "causes" ($P_1,\:P_2​\:,\cdots$) that might lead to a generic "error" ($Q$). The more precise your error handling, the closer you get to a scenario where "If X error, then Y specific cause," moving towards a bidirectional understanding of error conditions.
+Instead of catching broad `Exception` types, catch and handle specific exceptions. This helps differentiate between various "causes" ($P_1,\:P_2\:,\cdots$) that might lead to a generic "error" ($Q$). The more precise your error handling, the closer you get to a scenario where "If X error, then Y specific cause," moving towards a bidirectional understanding of error conditions.
 
 #### Test-Driven Development (TDD) and Mutation Testing
 
@@ -1385,13 +1385,13 @@ The journey into formal logic and its intersection with practical domains like s
 
 ### Hypothesis Testing in Science and the Implication Truth Table
 
-Statistical hypothesis testing uses a probabilistic form of Modus Tollens. We start with a **null hypothesis (H0​): "If H0​ is true, then observing this data (or more extreme data) is likely."** We then observe data that is highly unlikely/unexpected if H0​ were true (that is, a small p-value). This serves as our **probabilistic "not Q."** Therefore, we conclude that H0​ is likely not true (we reject H0​). This is our **probabilistic "$\therefore\neg\:P$."**
+Statistical hypothesis testing uses a probabilistic form of Modus Tollens. We start with a **null hypothesis (H0): "If H0 is true, then observing this data (or more extreme data) is likely."** We then observe data that is highly unlikely/unexpected if H0 were true (that is, a small p-value). This serves as our **probabilistic "not Q."** Therefore, we conclude that H0 is likely not true (we reject H0). This is our **probabilistic "$\therefore\neg\:P$."**
 
 Here, the **"truthiness" of $P\:\Rightarrow\:Q$ is being tested**, rather than simply assumed to be true for developing arguments, as in Modus Ponens or Modus Tollens. There's no absolute truth or anything to "prove" definitively.
 
 Inferences are drawn from prior experiments (which inform the test data distribution) and context-specific experiment setups (which determine the significance level α), together defining the threshold (critical value) for what is considered an unlikely observation of Q.
 
-The experiment's result is a rejection (or lack thereof) of H0​, not a definitive proof that H0​ is true.
+The experiment's result is a rejection (or lack thereof) of H0, not a definitive proof that H0 is true.
 
 ### Inductive Reasoning's Relationship to Deductive Arguments
 

@@ -27,7 +27,7 @@ isOriginal: false
 author:
   - name: Michael Larocca
     url : https://freecodecamp.org/news/author/MichaelJudeLarocca/
-cover: https://www.freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png
+cover: https://freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -51,7 +51,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png
   desc="As a web developer, an optimized LinkedIn profile can bring numerous opportunities directly to you. After implementing invaluable optimization advice from industry experts who reviewed my profile, I now receive a steady flow of enticing prospects in ..."
   url="https://freecodecamp.org/news/linkedin-profile-optimization"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png"/>
 
 As a web developer, an optimized LinkedIn profile can bring numerous opportunities directly to you. After implementing invaluable optimization advice from industry experts who reviewed my profile, I now receive a steady flow of enticing prospects in my inbox.
 

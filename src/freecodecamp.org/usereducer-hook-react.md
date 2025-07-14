@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Kunal Nalawade
     url: https://freecodecamp.org/news/author/KunalN25/
-cover: https://www.freecodecamp.org/news/content/images/2023/01/photo-1672309046475-4cce2039f342.jpeg
+cover: https://freecodecamp.org/news/content/images/2023/01/photo-1672309046475-4cce2039f342.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -54,7 +54,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/01/photo-1672309046
   desc="State is an important part of a React application. Most functionalities involve making state updates in your component. But as your application grows, state updates become more and more complex. These complex state updates might get overwhelming when..."
   url="https://freecodecamp.org/usereducer-hook-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/01/photo-1672309046475-4cce2039f342.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2023/01/photo-1672309046475-4cce2039f342.jpeg"/>
 
 State is an important part of a React application. Most functionalities involve making state `updates` in your component.
 

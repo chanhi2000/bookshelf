@@ -109,7 +109,7 @@ If, like me, you have a hard time wrapping your mind around the trick, note that
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/10/Screenshot-2024-10-31-at-3.27.35%E2%80%AFPM.png?resize=1024%2C292&ssl=1)
 
-I think the longer the animation the more the text *scales down toward zero.* Phew — I told you it was weird.
+I think the longer the animation the more the text *scales down toward zero.* Phew —I told you it was weird.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -430,7 +430,7 @@ While DIP offers significant advantages, misusing it can lead to issues. Here ar
 
 - **Over-abstraction** — Introducing interfaces unnecessarily can make the system more complex than needed
   - _**Solution —**Use interfaces only when multiple implementations are likely_
--  **Interface bloat** — Creating interfaces with excessive methods makes implementations difficult to maintain
+- **Interface bloat** — Creating interfaces with excessive methods makes implementations difficult to maintain
   - _**Solution*** — *Keep interfaces focused on a [**single responsibility**](/blog.logrocket.com/solid-principles-single-responsibility-in-javascript-frameworks.md)_
 - **Misusing dependency injection** — Over-reliance on DI frameworks can lead to unnecessary complexity
   - _**Solution** — Use DI only where it provides clear modularity and testability benefits_

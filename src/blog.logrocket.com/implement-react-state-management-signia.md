@@ -303,7 +303,7 @@ The code above provides us with all the minimal functionality required to implem
 
 ### Creating the UI
 
-For our to-do list app’s UI, we’ll display the title at the top. To implement functionality to rename the list, you’ll simply provide an `edit` button and call the `setTitle` function that we’ve already defined in our state class.
+For our to-do list app’s UI, we’ll display the title at the top. To implement functionality to rename the list, you’ll simply providean `edit` button and call the `setTitle` function that we’ve already defined in our state class.
 
 Below the `Title`, we can have our `input box` with a `button` that you can use to add items to the list. Using Chakra UI, the code for the title along with the input box looks something like the following:
 

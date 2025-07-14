@@ -42,6 +42,10 @@ export const navbarEn = navbar([
         icon: 'https://frontendmasters.com/favicon.ico',
         link: '/frontendmasters.com/README.md'
       }, {
+        text: 'css-tricks.com',
+        icon: 'https://css-tricks.com/favicon.svg',
+        link: '/css-tricks.com/README.md'
+      }, {
         text: 'smashingmagazine.com',
         icon: 'https://smashingmagazine.com/images/favicon/favicon.svg',
         link: '/smashingmagazine.com/README.md'
@@ -156,6 +160,10 @@ export const navbarEn = navbar([
         icon: 'https://tecmint.com/wp-content/uploads/2020/07/favicon.ico',
         link: '/tecmint.com/README.md'
       }, {
+        text: 'docker.com',
+        icon: 'https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png',
+        link: '/docker.com/README.md'
+      }, {
         text: 'learnk8s.io',
         icon: 'https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg',
         link: '/learnk8s.io/README.md'
@@ -166,5 +174,4 @@ export const navbarEn = navbar([
       },     
     ]
   },
-  
 ])

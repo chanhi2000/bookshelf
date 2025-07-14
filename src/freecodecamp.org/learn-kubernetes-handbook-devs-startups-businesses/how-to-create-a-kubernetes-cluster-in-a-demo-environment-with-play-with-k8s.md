@@ -54,17 +54,17 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 As we've discussed earlier, a Kubernetes cluster is a set of machines (called nodes) that run containerized applications.
 
-Setting up a Kubernetes cluster locally or in the cloud can be complex and expensive. To simplify the learning process, Docker provides a free, browser-based platform called [<FontIcon icon="fas fa-globe"/>Play with Kubernetes](https://labs.play-with-k8s.com/). This environment allows you to create and interact with a Kubernetes cluster without installing anything on your local machine. It's an excellent tool for beginners to get hands-on experience with Kubernetes.​
+Setting up a Kubernetes cluster locally or in the cloud can be complex and expensive. To simplify the learning process, Docker provides a free, browser-based platform called [<FontIcon icon="fas fa-globe"/>Play with Kubernetes](https://labs.play-with-k8s.com/). This environment allows you to create and interact with a Kubernetes cluster without installing anything on your local machine. It's an excellent tool for beginners to get hands-on experience with Kubernetes.
 
 ---
 
 ## 🔐 Sign in to Play with Kubernetes
 
-1. **Visit the platform** at [<FontIcon icon="fas fa-globe"/>https://labs.play-with-k8s.com/](https://labs.play-with-k8s.com/).​
+1. **Visit the platform** at [<FontIcon icon="fas fa-globe"/>https://labs.play-with-k8s.com/](https://labs.play-with-k8s.com/).
 2. **Authenticate:**
     - Click on the "Login" button.
     - You can sign in using your Docker Hub or GitHub account.
-    - If you don't have an account, you can create one for free on [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/) or [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/).​
+    - If you don't have an account, you can create one for free on [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/) or [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/).
 
 ![Sign in to Play with k8s](https://cdn.hashnode.com/res/hashnode/image/upload/v1746083007442/a038ee6c-b471-4880-ba17-2e8927678780.png)
 
@@ -76,7 +76,7 @@ Once signed in, follow these steps to set up your cluster:
 
 ### Step 1: Start a New Session:
 
-Click on the **"Start"** button to initiate a new session.​ This will create a new session giving you about 4 hours of play time, after which the cluster and it’s resources will be automatically terminated.
+Click on the **"Start"** button to initiate a new session. This will create a new session giving you about 4 hours of play time, after which the cluster and it’s resources will be automatically terminated.
 
 ![Play with k8s timed session](https://cdn.hashnode.com/res/hashnode/image/upload/v1746083204331/8410e18b-4ed4-4374-8d4f-44f0fefa1623.png)
 
@@ -86,13 +86,13 @@ Then click on **"+ Add New Instance"** to create a new node (Virtual Machine).
 
 ![Create new master node (VM)](https://cdn.hashnode.com/res/hashnode/image/upload/v1746083280594/740d963a-c70f-43c6-8354-e6ea0c3d7f41.png)
 
-This will open a terminal window where you can run commands.​
+This will open a terminal window where you can run commands.
 
 ![Terminal of newly created node](https://cdn.hashnode.com/res/hashnode/image/upload/v1746083304493/ffd34d73-e5cd-41d0-908a-2240924e7ad0.png)
 
 ### Step 3: Initialize the Master Node:
 
-In the terminal, run the following command to initialize the master node:​
+In the terminal, run the following command to initialize the master node:
 
 ```sh
 kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr <SPECIFIED_IP_ADDRESS>
@@ -102,7 +102,7 @@ You can find the command in the terminal. In my case, the IP address is `10.5.0.
 
 ![Initialize the master node and the control plane](https://cdn.hashnode.com/res/hashnode/image/upload/v1746083865451/fdf18710-c987-4221-bc02-369cd709a849.png)
 
-This process will set up the control plane of your Kubernetes cluster.​
+This process will set up the control plane of your Kubernetes cluster.
 
 ### Step 4: Add Worker Nodes:
 
@@ -128,13 +128,13 @@ kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/m
 
 ### Step 6: Verify the Cluster:
 
-In the master node terminal (the first node with the highlighted user profile), run:​
+In the master node terminal (the first node with the highlighted user profile), run:
 
 ```sh
 kubectl get nodes
 ```
 
-You should see a list of nodes in your cluster, including the master and any worker nodes you've added.​
+You should see a list of nodes in your cluster, including the master and any worker nodes you've added.
 
 ![Nodes in the cluster](https://cdn.hashnode.com/res/hashnode/image/upload/v1746085583418/45e55418-4b0f-461f-98d8-3b0c8f19b839.png)
 

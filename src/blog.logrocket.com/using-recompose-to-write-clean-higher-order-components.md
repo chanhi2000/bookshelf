@@ -326,7 +326,7 @@ As you can see, the idea is good because we can reuse our code in this way, but 
 
 Is there any improvement over this?
 
-Recompose to the rescue!! 🙂
+Recompose to the rescue!!🙂
 
 ---
 
@@ -334,7 +334,7 @@ Recompose to the rescue!! 🙂
 
 What is Recompose? In their own words:
 
-> [<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) is a React utility belt for function components and higher-order components. Think of it like [<FontIcon icon="fas fa-globe"/>lodash](https://lodash.com/docs/4.17.10#lodash) for React.
+> [<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) is a React utility belt for function components and higher-order components. Think of it like [<FontIcon icon="fas fa-globe"/>lodash](https://lodash.com/docs/4.17.10#lodash) forReact.
 
 So, it’s a set of methods we can use to improve the organization, creation and application of our HOC’s encouraging the use of functional stateless components combined with the composition of HOCs.
 
@@ -393,7 +393,7 @@ const withStateTimes = withState('times', 'setTimes', 0)
 ...
 ```
 
-For real? Yes, for real 🙂
+For real? Yes, for real🙂
 
 The utility of Recompose starts to make sense, right?
 

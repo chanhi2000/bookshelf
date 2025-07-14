@@ -82,7 +82,7 @@ Before you start installing [<FontIcon icon="iconfont icon-hyprland"/>Hyprland](
 - It is Wayland-only and not all Xorg-only application will work on Hyprland.
 - Nvidia GPUs have limited compatibility due to their proprietary nature.
 - It is not officially supported in virtual machines, but somehow it works. To get a better result, you should try it on a bare metal.
-- If you are installing on a virtual machine, like VirtualBox, enable 3D Acceleration. Moreover, allow a RAM of at least 4 GB.
+- If you are installing on a virtual machine, like VirtualBox, enable 3D Acceleration. Moreover, allow a RAM of at least 4GB.
 
 ::: caution 🚧
 

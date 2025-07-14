@@ -60,15 +60,15 @@ This the next in my series of blog posts all about widgets. Check out [Widgets w
 
 :::
 
-I have recently been working on an app ([Pay Day: Earnings Time Tracker (<FontIcon icon="fa-brands fa-play-store"/>`dev.veryniche.buckaroo`)](https://play.google.com/store/apps/details?id=dev.veryniche.buckaroo)) that includes a lot of widgets that show different types of data, but very quickly I came across a problem. The standard way of passing data to a widget uses `PreferencesGlanceStateDefinition` to manage the state. The way of setting state is using key & value pairs where the values are always `strings`. In my app I also needed `enums` & `float` values and was constantly converting to and from strings for many different data arguments and many different widget implementations. This became hard to manage and hard to read and a reusable and type safe solution was required.
+I have recently been working on an app ([Pay Day: Earnings Time Tracker (<FontIcon icon="fa-brands fa-play-store"/>`dev.veryniche.buckaroo`)](https://play.google.com/store/apps/details?id=dev.veryniche.buckaroo)) that includes a lot of widgets that show different types of data, but very quickly I came across a problem. The standard way of passing data to a widget uses`PreferencesGlanceStateDefinition`to manage the state. The way of setting state is using key & value pairs where the values are always`strings`. In my app I also needed`enums`&`float`values and was constantly converting to and from strings for many different data arguments and many different widget implementations. This became hard to manage and hard to read and a reusable and type safe solution was required.
 
-I had read about using a `CustomGlanceStateDefinition` but I couldn’t find much about it in the official [<FontIcon icon="fa-brands fa-android"/>documentation](https://developer.android.com/develop/ui/compose/glance/glance-app-widget) so here is my deep dive to hopefully help anyone else struggling with managing complex `GlanceWidget` state!
+I had read about using a`CustomGlanceStateDefinition`but I couldn’t find much about it in the official[<FontIcon icon="fa-brands fa-android"/>documentation](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)so here is my deep dive to hopefully help anyone else struggling with managing complex`GlanceWidget`state!
 
 ---
 
 ## Basic widget state
 
-For the purposes of this article I have used a simpler [example (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/blog/CustomGlanceStateDefinition) that just displays a text quote. While this example probably could get away with just using the string based values, adding some structure to the model can enable better loading and error states.
+For the purposes of this article I have used a simpler[example (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/blog/CustomGlanceStateDefinition)that just displays a text quote. While this example probably could get away with just using the string based values, adding some structure to the model can enable better loading and error states.
 
 <SiteInfo
   name="KatieBarnett/MotivateMe"
@@ -123,7 +123,7 @@ class QuoteWidgetWorker(...) : CoroutineWorker(context, params) {
 
 <!-- @include: https://gist.github.com/KatieBarnett/db34d160b0a42ff033e455babff31f7f/raw/4d284816baca5b6b3dd30619cf0a60028cb98a4c/QuoteWidgetWorker.kt -->
 
-A `CoroutineWorker` is used to update the state periodically. You could use any method of setting the widget state, the same principles apply.
+A`CoroutineWorker` is used to update the state periodically. You could use any method of setting the widget state, the same principles apply.
 
 ---
 
@@ -131,9 +131,9 @@ A `CoroutineWorker` is used to update the state periodically. You could use any
 
 So this works well if the state is fairly straightforward and is just represented as simple strings, but what if we want a more complex model?
 
-My first attempt to use a more complex model, I started by serializing the model to `Json`.
+My first attempt to use a more complex model, I started by serializing the model to`Json`.
 
-Using my `QuoteWidget` example, a better model might be:
+Using my`QuoteWidget`example, a better model might be:
 
 ```kotlin title="WidgetState.kt"
 data class WidgetState(
@@ -148,9 +148,9 @@ data class Quote(
 
 <!-- @include: https://gist.github.com/KatieBarnett/e7f849c0e3604d1900ec6ef393dbadc6/raw/88891335815d279ace3f8f50589c126be6675c2b/WidgetState.kt -->
 
-Then, we can serialize the model as `Json` and then use that as the string value in the widget.
+Then, we can serialize the model as`Json`and then use that as the string value in the widget.
 
-The first step is to use `kotlinx.serialization` to serialize the data model:
+The first step is to use`kotlinx.serialization`to serialize the data model:
 
 ```kotlin title="WidgetState.kt"
 @Serializable
@@ -167,7 +167,7 @@ data class Quote(
 
 <!-- @include: https://gist.github.com/KatieBarnett/ac2dc1096815882e67a94bbab39e1d85/raw/50509292a93c477d819fc70cb61253ba97448e64/WidgetState.kt -->
 
-Then, we can use `kotlinx.serialization.json` to encode and decode the model to a string when writing and reading from the state object:
+Then, we can use`kotlinx.serialization.json` to encode and decode the model to a string when writing and reading from the state object:
 
 ```kotlin title="QuoteWidget.kt"
 class QuoteWidget : GlanceAppWidget(errorUiLayout = R.layout.widget_error_layout) {

@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Dionysia Lemonaki
     url : https://freecodecamp.org/news/author/dionysialemonaki/
-cover: https://www.freecodecamp.org/news/content/images/2022/11/pexels-christina-morillo-1181675.jpg
+cover: https://freecodecamp.org/news/content/images/2022/11/pexels-christina-morillo-1181675.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/11/pexels-christina
   desc="YAML is one of the most popular languages for writing configuration files. In this article, you will learn how YAML compares to XML and JSON - two languages also used for creating configuration files. You will also learn some of the rules and feature..."
   url="https://freecodecamp.org/news/what-is-yaml-the-yml-file-format"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/11/pexels-christina-morillo-1181675.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/11/pexels-christina-morillo-1181675.jpg"/>
 
 YAML is one of the most popular languages for writing configuration files.
 

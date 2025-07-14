@@ -168,7 +168,7 @@ Here’s an example of each one:
 
 The first two examples are very similar, except that `A[attr|=val]` also matches the value, followed by a dash-separated string. This can be useful for matching language attributes. e.g. `<p lang="en-us">`.
 
-Matching file extensions is made easy with `A[attr$="val"]` and coupled with `::after` so you can easily display the matched file too. Note the use of `attr()` and concatenation to join it with a static string.
+Matching file extensions is made easy with `A[attr$="val"]` and coupled with`::after` so you can easily display the matched file too. Note the use of `attr()` and concatenation to join it with a static string.
 
 The `A[attr*=val]` shows how you can match a specific domain no matter what protocol or subdomain is used.
 
@@ -241,7 +241,7 @@ Next, we have two pseudo-classes that can match if a form element (that supports
 
 Here, the valid range is between `10` and `20`. If it is outside of the range, you see the red background. Again, we can use the reset button type to reset the default value of the number input element.
 
-To round off this section, let’s take a look at the `:read-only`, `:read-write`, and `:placeholder-shown` pseudo-classes.
+To round off this section, let’s take a look at the `:read-only`,`:read-write`, and`:placeholder-shown` pseudo-classes.
 
 <CodePen
   user="dgwyer"
@@ -252,7 +252,7 @@ To round off this section, let’s take a look at the `:read-only`, `:read-writ
 
 Using these allows you to easily match elements that are read-only, or writable (editable). Matched elements don’t have to be from input fields either, as demonstrated in the example Pen.
 
-Finally, `:placeholder-shown` will match elements that haven’t been interacted with yet and still display the default placeholder text.
+Finally,`:placeholder-shown` will match elements that haven’t been interacted with yet and still display the default placeholder text.
 
 There are more pseudo-classes you may want to use for styling user interfaces such as:
 
@@ -303,7 +303,7 @@ You can use an index or an expression as the parameter for all of these structur
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-`:nth-last-child()` and `:nth-last-of-type()` are very similar to `:nth-child()` and `:nth-of-type()`, except that they match from the last element rather than the first.
+`:nth-last-child()` and`:nth-last-of-type()` are very similar to`:nth-child()` and`:nth-of-type()`, except that they match from the last element rather than the first.
 
 You can get quite creative with selectors by playing around with various combinations. For example, the previous Pen example contained the selector:
 
@@ -352,7 +352,7 @@ Content selectors belong to a specialized set of selectors for matching content.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-`::first-line` and `::first-letter` only work if applied to block-level elements. Also, be careful to use `::first-letter` only on specific elements, otherwise, every single paragraph would have a drop cap, which is probably not what you want!
+`::first-line`and`::first-letter` only work if applied to block-level elements. Also, be careful to use `::first-letter` only on specific elements, otherwise, every single paragraph would have a drop cap, which is probably not what you want!
 
 There are some exciting content selectors in the works which aren’t available right now, but when they are supported they’ll open up all sorts of possibilities.
 
@@ -368,7 +368,7 @@ Here’s a list of content selectors to watch out for:
 
 We’ve just got time to mention a couple of other selectors that didn’t fit into any of the previous categories. Don’t worry, we’re almost done!
 
-The `:target` selector targets an element with an ID that matches part of the current URL. So if we had an element with an `id` of `part1` and the URL:
+The`:target` selector targets an element with an ID that matches part of the current URL. So if we had an element with an `id`of`part1`and the URL:
 
 ```plaintext
 https://mysite.com#part1
@@ -393,7 +393,7 @@ footer p.content {
 }
 ```
 
-Then can be simplified with `:is()` and is equivalent to:
+Then can be simplified with`:is()`and is equivalent to:
 
 ```css
 :is(nav, header, main, sidebar, footer) p:content {
@@ -404,7 +404,7 @@ padding: 10px;
 
 Nice! This will help to make style sheets much more readable.
 
-Next, we have `:any-link`, which is a convenience selector and does the same as `:link` and `:visited` combined.
+Next, we have `:any-link`, which is a convenience selector and does the same as `:link`and`:visited`combined.
 
 So, these two selectors would effectively be the same:
 
@@ -424,9 +424,9 @@ And that brings us to the last selectors we’ll be looking at in this article:
 
 Both these relate to the language of your site.
 
-`:dir()` takes in a parameter `ltr` or `rtl`, depending on the direction of text you want to match, and it’s only currently supported in Firefox.
+`:dir()`takes in a parameter`ltr`or`rtl`, depending on the direction of text you want to match, and it’s only currently supported in Firefox.
 
-`:dir(rtl)` would match all elements with content with RTL direction.
+`:dir(rtl)`would match all elements with content with RTL direction.
 
 Every element in an HTML document can set its own individual language by using the `lang` attribute.
 
@@ -436,13 +436,13 @@ Every element in an HTML document can set its own individual language by using t
 <div lang=”is”>Tungumál þessa þáttar er sett á íslensku.</div>
 ```
 
-The same basic text is entered into three `<div>` tags but with the specific country added to the end of the content. Also, the country codes used in the `lang` attribute represent the corresponding country.
+The same basic text is entered into three`<div>` tags but with the specific country added to the end of the content. Also, the country codes used in the `lang` attribute represent the corresponding country.
 
 - `en` :  English language
 - `el` :  Greek language
 - `is` :  Icelandic language
 
-The `<div>` elements can be matched using the `:lang()` selector:
+The`<div>`elements can be matched using the`:lang()`selector:
 
 ```css
 :lang(en) { color: red; }
@@ -467,7 +467,7 @@ If you get stuck trying to figure out a selector or need to dig deeper into the 
 
 - [<FontIcon icon="fas fa-globe"/>CSS Diner](https://flukeout.github.io/): this is a fun game to test out your selector prowess
 - [<FontIcon icon="fa-brands fa-firefox"/>MDN Web Docs:](https://developer.mozilla.org/en-US/) a go-to resource for CSS
-- [<FontIcon icon="iconfont icon-w3c"/>CSS Specifications](https://w3.org/Style/CSS/specs.en.html): specifically [<FontIcon icon="iconfont icon-w3c"/>Selectors Level 4 and](https://w3.org/TR/selectors-4/) [<FontIcon icon="fas fa-globe"/>CSS Pseudo-Elements Module Level 4,](https://drafts.csswg.org/css-pseudo-4/)  for the latest [<FontIcon icon="iconfont icon-w3c"/>selectors](https://w3.org/TR/selectors-4/), pseudo-classes, and pseudo-elements
+- [<FontIcon icon="iconfont icon-w3c"/>CSS Specifications](https://w3.org/Style/CSS/specs.en.html): specifically [<FontIcon icon="iconfont icon-w3c"/>Selectors Level 4 and](https://w3.org/TR/selectors-4/) [<FontIcon icon="fas fa-globe"/>CSS Pseudo-Elements Module Level 4,](https://drafts.csswg.org/css-pseudo-4/) for the latest [<FontIcon icon="iconfont icon-w3c"/>selectors](https://w3.org/TR/selectors-4/), pseudo-classes, and pseudo-elements
 - [<FontIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/): to check browser compatibility
 
 ---

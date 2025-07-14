@@ -205,7 +205,7 @@ Do not call `setState()` in `constructor()`. Instead, if a component needs to us
 
 ### `componentDidMount()`
 
-`componentDidMount()` invokes immediately after a component mounts. You can call `setState()` immediately in `componentDidMount()` and triggers an extra rendering, but this happens before the browser updates the screen, calling `render()` twice.
+`componentDidMount()` invokes immediately after a component mounts. You can call `setState()` immediately in `componentDidMount()` and triggers an extra rendering, but this happens before the browser updates the screen, calling `render()`twice.
 
 ### `componentDidUpdate()`
 

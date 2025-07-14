@@ -83,9 +83,9 @@ SonarQube is an open-source tool that helps developers and teams improve the qua
 
 ## Steps to implement
 
-I followed this [medium article (<FontIcon icon="fa-brands fa-medium"/>`@niranjanky14`)](https://medium.com/@niranjanky14/sonarqube-tutorial-for-getting-started-in-android-app-7d11e2ef6932) while trying to implement SonarQube.
+I followed this [medium article (<FontIcon icon="fa-brands fa-medium"/>`@niranjanky14`)](https://medium.com/@niranjanky14/sonarqube-tutorial-for-getting-started-in-android-app-7d11e2ef6932)while trying to implement SonarQube.
 
-### Step 1. Download **SonarQube Free Edition** from below link
+### Step 1. Download**SonarQube Free Edition**from below link
 
 <SiteInfo
   name="Download SonarQube"
@@ -94,7 +94,7 @@ I followed this [medium article (<FontIcon icon="fa-brands fa-medium"/>`@niranja
   logo="https://sonarsource.com/favicon.ico"
   preview="https://assets-eu-01.kc-usercontent.com:443/f42196a6-70a1-01d0-99f1-43134f12a58b/85b81454-7b7d-4a5b-aa0a-ccfb58055bf9/meta-tag-sonar.png"/>
 
-### Step 2. Download and install **Docker** from below link
+### Step 2. Download and install**Docker**from below link
 
 <SiteInfo
   name="Home"
@@ -111,13 +111,13 @@ docker pull sonarqube:latest
 
 ::: note
 
-If you get an error — **Docker command not found**, then export its path
+If you get an error —**Docker command not found**, then export its path
 
 ```sh
 export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
 ```
 
-Keep Docker Application open in your system while typing the command **docker pull sonarqube:latest,** otherwise you may get the following error
+Keep Docker Application open in your system while typing the command**docker pull sonarqube:latest,** otherwise you may get the following error
 
 > *Cannot connect to the Docker daemon at `unix:///var/run/docker.sock`. Is the docker daemon running?*
 
@@ -142,7 +142,7 @@ docker pull sonarqube:latest
 # docker.io/library/sonarqube:latest
 ```
 
-### Step 4: After step 3, enter the following command to pull all the necessary postgres library
+### Step 4:After step 3, enter the following command to pull all the necessary postgres library
 
 If Step 4 is successful, you will see the following results
 
@@ -170,9 +170,9 @@ postgres:alpine
 # 44c04103a85884090a9cbe479c4dd3c2fa73f4d61c56c35cfaed5c474db52528
 ```
 
-### Step 5: Setup the SonarQube container with a link to PostgresSQL using the following command
+### Step 5:Setup the SonarQube container with a link to PostgresSQL using the following command
 
-On successful completion of Step 5, you will see a **hash** value. For me it was
+On successful completion of Step 5, you will see a**hash**value. For me it was
 
 ```sh
 docker run -d --name sonarqube \
@@ -185,9 +185,9 @@ docker run -d --name sonarqube \
 # b473d891d6f9e842fe2e7ba72b2b0493640ca44552250e6770d6d9468ad1c956
 ```
 
-Once SonarQube is up and running, you can access the web interface by opening `http://localhost:9000` (or the appropriate IP address if running on a remote server) in your web browser.
+Once SonarQube is up and running, you can access the web interface by opening`http://localhost:9000`(or the appropriate IP address if running on a remote server) in your web browser.
 
-The default login credentials for the first-time login are `admin` for both **username and password**. You’ll be prompted to change the password after the initial login.
+The default login credentials for the first-time login are`admin`for both**username and password**. You’ll be prompted to change the password after the initial login.
 
 Next, we can see how to configure SonarQube in Android Studio
 

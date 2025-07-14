@@ -49,7 +49,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3381"/>
 
-We’ve known it for a while now, but JavaScript is eventually getting native support for decorators. The proposal is in [stage 3 (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators) — it’s inevitable! I’m just coming around to explore the feature, and I’m kinda kicking myself for waiting so long, because I’m finding it to be tremendously helpful. Let’s spend some time exploring it.
+We’ve known it for a while now, but JavaScript is eventually getting native support for decorators. The proposal is in[stage 3 (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators)— it’s inevitable! I’m just coming around to explore the feature, and I’m kinda kicking myself for waiting so long, because I’m finding it to be tremendously helpful. Let’s spend some time exploring it.
 
 <SiteInfo
   name="tc39/proposal-decorators"
@@ -64,9 +64,9 @@ We’ve known it for a while now, but JavaScript is eventually getting native su
 
 It’s probably worth clarifying what’s meant by a “decorator.” Most of the time, people are talking about one of two things:
 
-### The decorator *design pattern*
+### The decorator*design pattern*
 
-This is the [<FontIcon icon="fa-brands fa-wikipedia-w"/>higher-level concept](https://en.wikipedia.org/wiki/Decorator_pattern) of augmenting or extending a function’s behavior by “decorating” it. Logging is a common example. You might want to know *when* and *with what* parameters it’s called, so you wrap it with another function:
+This is the[<FontIcon icon="fa-brands fa-wikipedia-w"/>higher-level concept](https://en.wikipedia.org/wiki/Decorator_pattern)of augmenting or extending a function’s behavior by “decorating” it. Logging is a common example. You might want to know*when*and*with what*parameters it’s called, so you wrap it with another function:
 
 ```js
 function add(a, b) {
@@ -89,9 +89,9 @@ addWithLogging(1, 2);
 // adding 1 2
 ```
 
-There’s no new language-specific feature here. One function simply accepts another as an argument and returns a new, souped-up version. The original function has been *decorated*.
+There’s no new language-specific feature here. One function simply accepts another as an argument and returns a new, souped-up version. The original function has been*decorated*.
 
-### Decorators as a *feature of the language*
+### Decorators as a*feature of the language*
 
 The decorator feature is a more tangible manifestation of the pattern. It’s possible you’ve seen an older, unofficial version of this before. We’ll keep using the logging example from above, but we’ll first need to refactor a bit because language-level decorators can only be used on class methods, fields, and on classes themselves.
 
@@ -123,9 +123,9 @@ class Calculator {
 new Calculator().add(1, 2); // method: add | arguments: 1, 2
 ```
 
-Despite being non-standard, there are a number of popular, mature libraries out there that have used this implementation. [TypeORM](https://typeorm.io/), [<FontIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/features), and [<FontIcon icon="iconfont icon-nestjs"/>NestJS](https://docs.nestjs.com/controllers) are just a few of the big ones. And I’m glad they have. It’s made building applications with them feel cleaner, more expressive, and easier to maintain.
+Despite being non-standard, there are a number of popular, mature libraries out there that have used this implementation.[TypeORM](https://typeorm.io/),[<FontIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/features), and[<FontIcon icon="iconfont icon-nestjs"/>NestJS](https://docs.nestjs.com/controllers)are just a few of the big ones. And I’m glad they have. It’s made building applications with them feel cleaner, more expressive, and easier to maintain.
 
-But because it’s non-standard, it could become problematic. For example, [there’s some nuance (<FontIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/issues/8864#issuecomment-688535867) between how it’s implemented by Babel and TypeScript, which probably caused frustration for engineers moving between applications with different build tooling. Standardization would serve them well.
+But because it’s non-standard, it could become problematic. For example,[there’s some nuance (<FontIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/issues/8864#issuecomment-688535867)between how it’s implemented by Babel and TypeScript, which probably caused frustration for engineers moving between applications with different build tooling. Standardization would serve them well.
 
 ---
 
@@ -167,7 +167,7 @@ There’s no shortage of scenarios in which this feature will be handy, but let�
 
 Limiting the number of times an action occurs in a given amount of time is an age-old need on the web. Typically, that’s meant reaching for a Lodash utility or rolling an implementation yourself.
 
-Think of a live search box. To prevent user experience issues and network load, you want to *debounce* those searches, only firing a request when the user has stopped typing for a period of time:
+Think of a live search box. To prevent user experience issues and network load, you want to*debounce*those searches, only firing a request when the user has stopped typing for a period of time:
 
 ```js
 function debounce(func) {
@@ -190,7 +190,7 @@ document.addEventListener('keyup', function(e) {
 });
 ```
 
-But decorators can only be used on a class or its members, so let’s flesh out a better example. You’ve got a `ViewController` class with a method for handling `keyup` events:
+But decorators can only be used on a class or its members, so let’s flesh out a better example. You’ve got a`ViewController`class with a method for handling`keyup`events:
 
 ```js
 class ViewController {
@@ -208,7 +208,7 @@ input.addEventListener('keyup', function (e) {
 });
 ```
 
-Using the `debounce()` method we wrote above, implementation would be clunky. Focusing in on the `ViewController` class itself:
+Using the`debounce()`method we wrote above, implementation would be clunky. Focusing in on the`ViewController`class itself:
 
 ```js
 class ViewController {
@@ -220,11 +220,11 @@ class ViewController {
 }
 ```
 
-You not only need to wrap your *entire* method, but you also need to switch from defining a class method to an instance property set to the debounced version of that method. It’s a little invasive.
+You not only need to wrap your*entire*method, but you also need to switch from defining a class method to an instance property set to the debounced version of that method. It’s a little invasive.
 
 ### Updating to a Native Decorator
 
-Turning that `debounce()` function into an official decorator won’t take much. In fact, the way it’s already written fits the API perfectly: it accepts the original function and spits out the augmented version. So, all we need to do is apply it with the `@` syntax:
+Turning that`debounce()`function into an official decorator won’t take much. In fact, the way it’s already written fits the API perfectly: it accepts the original function and spits out the augmented version. So, all we need to do is apply it with the`@`syntax:
 
 ```js{2}
 class ViewController {
@@ -238,7 +238,7 @@ class ViewController {
 
 That’s all it takes — a single line — for the exact same result.
 
-We can also make the debouncing delay configurable by making `debounce()` accept a `delay` value and return a decorator itself:
+We can also make the debouncing delay configurable by making`debounce()`accept a`delay`value and return a decorator itself:
 
 ```js
 // Accept a delay:
@@ -274,7 +274,7 @@ That’s a lot of value for minimal code wrangling, especially support being pro
 
 ### Memoization
 
-Whenever I think of great memoization that’s syntactically beautiful, Ruby first comes to mind. I’ve written about [<FontIcon icon="fas fa-globe"/>how elegant it is](https://macarthur.me/posts/memoization-with-tap-in-ruby/) in the past; the `||=` operator is all you really need:
+Whenever I think of great memoization that’s syntactically beautiful, Ruby first comes to mind. I’ve written about[<FontIcon icon="fas fa-globe"/>how elegant it is](https://macarthur.me/posts/memoization-with-tap-in-ruby/)in the past; the`||=`operator is all you really need:
 
 ```rb
 def results
@@ -301,7 +301,7 @@ function memoize(func) {
 }
 ```
 
-The nice thing about this is that each invocation of a decorator declares its own scope, meaning you can reuse it without risk of the `cachedValue` being overwritten with an unexpected value.
+The nice thing about this is that each invocation of a decorator declares its own scope, meaning you can reuse it without risk of the`cachedValue`being overwritten with an unexpected value.
 
 ```js :collapsed-lines
 class Student {
@@ -386,7 +386,7 @@ That’s cool, but it’s also worth noting that you could run into issues if yo
 
 ### Memoizing Getters
 
-Since decorators can be used on more than just methods, a slight adjustment means we can memoize getters too. We just need to use `context.name` (the name of the getter) as the cache key:
+Since decorators can be used on more than just methods, a slight adjustment means we can memoize getters too. We just need to use`context.name`(the name of the getter) as the cache key:
 
 ```js :collapsed-lines
 function memoize(func, context) {
@@ -423,7 +423,7 @@ milton.gpa // fresh
 milton.gpa // from the cache
 ```
 
-That context object contains some useful bits of information, by the way. One of those is the “kind” of field being decorated. That means we could even take this a step further by memoizing the getters *and* methods with the same decorator:
+That context object contains some useful bits of information, by the way. One of those is the “kind” of field being decorated. That means we could even take this a step further by memoizing the getters*and*methods with the same decorator:
 
 ```js :collapsed-lines
 function memoize(func, context) {
@@ -518,7 +518,7 @@ export function register(args = []) {
 }
 ```
 
-There’s not much to it. We’re accepting the class itself and optional constructor arguments needed to spin it up. Next up, we’ll create a container to hold the instances we create, as well as an `inject()` decorator.
+There’s not much to it. We’re accepting the class itself and optional constructor arguments needed to spin it up. Next up, we’ll create a container to hold the instances we create, as well as an`inject()`decorator.
 
 ```js
 const container = new Map();
@@ -539,7 +539,7 @@ export function inject(clazz) {
 }
 ```
 
-You’ll notice we’re using something else from the decorator specification. The `addInitializer()` method will fire a callback only after the decorated property has been defined. That means we’ll be able to lazily instantiate our injected dependencies, rather than booting up every registered class all at once. It’s a slight performance benefit. If a class uses the `EmailService` for example, but it’s never actually instantiated, we won’t unnecessarily boot up an instance of `EmailService` either.
+You’ll notice we’re using something else from the decorator specification. The `addInitializer()` method will fire a callback only after the decorated property has been defined. That means we’ll be able to lazily instantiate our injected dependencies, rather than booting up every registered class all at once. It’s a slight performance benefit. If a class uses the`EmailService`for example, but it’s never actually instantiated, we won’t unnecessarily boot up an instance of`EmailService`either.
 
 That said, here’s what’s going on when the decorator is invoked:
 
@@ -612,7 +612,7 @@ That makes for less responsibility on us, tidy inversion of control, and straigh
 
 ## Just Scratching the Surface
 
-If you read through [the proposal (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators?tab=readme-ov-file#adding-initialization-logic-with-addinitializer), you’ll see that the decorator specification is far deeper than what’s been explored here, and will certainly open up some novel use cases in the future, especially once more runtimes support it. But you don’t need to master the depths of the feature in order to benefit. At its foundation, the decorator feature is still firmly seated on the decorator pattern. If you keep that in mind, you’ll be in a strong position to greatly benefit from it in your own code.
+If you read through[the proposal (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators?tab=readme-ov-file#adding-initialization-logic-with-addinitializer), you’ll see that the decorator specification is far deeper than what’s been explored here, and will certainly open up some novel use cases in the future, especially once more runtimes support it. But you don’t need to master the depths of the feature in order to benefit. At its foundation, the decorator feature is still firmly seated on the decorator pattern. If you keep that in mind, you’ll be in a strong position to greatly benefit from it in your own code.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

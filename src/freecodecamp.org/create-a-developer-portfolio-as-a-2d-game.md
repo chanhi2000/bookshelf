@@ -29,7 +29,7 @@ isOriginal: false
 author:
   - name: JSLegendDev
     url: https://jslegenddev.substack.com/
-cover: https://www.freecodecamp.org/news/content/images/2024/04/gamedev.png
+cover: https://freecodecamp.org/news/content/images/2024/04/gamedev.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +53,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/04/gamedev.png
   desc="Are you tired of the same old developer portfolios? Want to stand out to potential employers or clients? We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to use Kaboom.js to craft a 2D game that doubles as your ..."
   url="https://freecodecamp.org/news/create-a-developer-portfolio-as-a-2d-game"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/04/gamedev.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/04/gamedev.png"/>
 
 Are you tired of the same old developer portfolios? Want to stand out to potential employers or clients?
 

@@ -51,6 +51,10 @@ projects:
     name: frontendmasters.com
     desc: "Learn JavaScript, React, and TypeScript to Node.js, Fullstack, and Backend | Frontend Masters"
     link: /frontendmasters.com/README.md
+  - icon: https://css-tricks.com/favicon.svg
+    name: css-tricks.com
+    desc: "CSS-Tricks - A Website About Making Websites"
+    link: /css-tricks.com/README.md
   - icon: https://smashingmagazine.com/images/favicon/favicon.svg
     name: smashingmagazine.com
     desc: "Smashing Magazine — For Web Designers And Developers"
@@ -67,6 +71,10 @@ projects:
     name: digitalocean.com
     desc: "DigitalOcean | Cloud Infrastructure for Developers"
     link: /digitalocean.com/README.md
+  - icon: https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png
+    name: docker.com
+    desc: "Docker Blog | Docker"
+    link: /docker.com/README.md
   - icon: https://tecmint.com/wp-content/uploads/2020/07/favicon.ico
     name: tecmint.com
     desc: "Tecmint: Linux Howtos, Tutorials & Guides"

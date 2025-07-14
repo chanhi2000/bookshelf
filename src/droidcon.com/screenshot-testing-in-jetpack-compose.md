@@ -54,13 +54,13 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-
 
 ![Designed by [<FontIcon icon="fas fa-globe"/>Freepik](http://freepik.com/)](https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-1024x1024.webp)
 
-In this article, I’ll introduce a useful tool for screenshot testing in Jetpack Compose. This tool was officially announced at the last Google I/O as part of a new library. Although it’s still in the early stages (version `0.0.1-alpha08`), it can already be integrated into your projects with minimal configuration and code, allowing you to start testing your UI efficiently.
+In this article, I’ll introduce a useful tool for screenshot testing in Jetpack Compose. This tool was officially announced at the last Google I/O as part of a new library. Although it’s still in the early stages (version`0.0.1-alpha08`), it can already be integrated into your projects with minimal configuration and code, allowing you to start testing your UI efficiently.
 
 ---
 
 ## What is Screenshot Testing?
 
-Screenshot testing involves comparing a **reference image** (a baseline) with the **current state** of your UI to detect visual discrepancies. Screenshots are taken with specific configurations such as:
+Screenshot testing involves comparing a**reference image**(a baseline) with the**current state**of your UI to detect visual discrepancies. Screenshots are taken with specific configurations such as:
 
 - **Screen size**
 - **Dark or light theme**
@@ -68,7 +68,7 @@ Screenshot testing involves comparing a **reference image** (a baseline) with 
 
 This approach allows developers to validate UI designs with stakeholders (e.g., designers) by taking screenshots, reviewing them, and then using these validated screenshots as a safeguard to ensure future changes don’t “break” the approved UI. If intentional UI changes occur, new reference images must replace the outdated ones.
 
-**The best part?** The process is automated — only new reference screenshots need manual validation.
+**The best part?**The process is automated — only new reference screenshots need manual validation.
 
 ---
 
@@ -80,22 +80,22 @@ Having Google’s developer team maintaining and evolving this tool ensures it f
 
 ### 2. Integration with Compose Previews
 
-One standout feature is its ability to leverage **Compose Preview annotations**. If you’re familiar with previews in Jetpack Compose, you know how useful they are for quickly visualizing UI components. With this screenshot testing tool, you can use custom preview annotations to define multiple configurations and test them effortlessly.
+One standout feature is its ability to leverage**Compose Preview annotations**. If you’re familiar with previews in Jetpack Compose, you know how useful they are for quickly visualizing UI components. With this screenshot testing tool, you can use custom preview annotations to define multiple configurations and test them effortlessly.
 
 For example, you can create a single annotation to generate previews for:
 
-- **Four screen sizes** in both **light and dark themes**, or
-- **Two screen sizes** with **five different font scales**.
+- **Four screen sizes**in both**light and dark themes**, or
+- **Two screen sizes**with**five different font scales**.
 
-If you want to learn more about optimizing your previews, check out [my post (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente/9-tips-to-improve-your-jetpack-compose-previews-a4e00831bacc), where I share tips like creating your own preview annotations.
+If you want to learn more about optimizing your previews, check out[my post (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente/9-tips-to-improve-your-jetpack-compose-previews-a4e00831bacc), where I share tips like creating your own preview annotations.
 
 ### 3. Dedicated Source Set for Screenshot Tests
 
-All screenshot tests are stored in a special source set called `screenshotTest`. This structure keeps screenshot tests separate from other unit and integration tests, maintaining a clean and organized codebase.
+All screenshot tests are stored in a special source set called`screenshotTest`. This structure keeps screenshot tests separate from other unit and integration tests, maintaining a clean and organized codebase.
 
 ### 4. Future Enhancements
 
-At **London Droidcon**, [Jose Alcérreca (<FontIcon icon="fa-brands fa-medium"/>`JoseAlcerreca`)](https://medium.com/u/e0a4c9469bb5) and [Adarsh Fernando (<FontIcon icon="fa-brands fa-medium"/>`adarshf`)](https://medium.com/u/d0f719b3e5e9) (in their talk on [testing strategies](/droidcon.com/scalable-testing-strategies.md), around the 19-minute mark) mentioned an upcoming feature: the ability to use screenshot tests as **previews** in the files where your composables are defined. This would eliminate the need to duplicate code — one function for the preview and another for the screenshot test. While this feature isn’t available in version `0.0.1-alpha08`, it’s a promising addition to look forward to!
+At**London Droidcon**,[Jose Alcérreca (<FontIcon icon="fa-brands fa-medium"/>`JoseAlcerreca`)](https://medium.com/u/e0a4c9469bb5)and[Adarsh Fernando (<FontIcon icon="fa-brands fa-medium"/>`adarshf`)](https://medium.com/u/d0f719b3e5e9)(in their talk on[testing strategies](/droidcon.com/scalable-testing-strategies.md), around the 19-minute mark) mentioned an upcoming feature: the ability to use screenshot tests as**previews**in the files where your composables are defined. This would eliminate the need to duplicate code — one function for the preview and another for the screenshot test. While this feature isn’t available in version`0.0.1-alpha08`, it’s a promising addition to look forward to!
 
 ---
 
@@ -108,8 +108,8 @@ Follow along as we configure the tool step-by-step, so you can start testing and
 
 To get started with screenshot testing in Jetpack Compose, you’ll need to ensure your project meets the following prerequisites:
 
-- **Kotlin Version**: At least `1.9.20` (or newer). For this guide, I’ll be using a more recent version for improved compatibility.
-- **Android Gradle Plugin**: Version `8.5.0-beta01` or higher.
+- **Kotlin Version**: At least`1.9.20`(or newer). For this guide, I’ll be using a more recent version for improved compatibility.
+- **Android Gradle Plugin**: Version`8.5.0-beta01`or higher.
 
 ```toml title="libs.versions.toml"
 [versions]
@@ -124,7 +124,7 @@ compose-screenshot = { id = "com.android.compose.screenshot", version.ref = "com
 
 ### Step 1: Add the Plugin
 
-Include the screenshot testing plugin in your **module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
+Include the screenshot testing plugin in your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
 
 ```kotlin title="build.gradle.kts"
 plugins {
@@ -136,13 +136,13 @@ plugins {
 
 ### Step 2: Enable Experimental Properties
 
-In your **project’s <FontIcon icon="fas fa-file-lines"/>`gradle.properties` file**, enable the necessary experimental properties:
+In your**project’s <FontIcon icon="fas fa-file-lines"/>`gradle.properties` file**, enable the necessary experimental properties:
 
 ```properties title="gradle.properties"
 android.experimental.enableScreenshotTest=true
 ```
 
-You’ll also need to set the experimental flag in your **module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
+You’ll also need to set the experimental flag in your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
 
 ```kotlin title="build.gradle.kts"
 android {
@@ -152,9 +152,9 @@ android {
 }
 ```
 
-### Step 3: Check the `ui-tooling` Dependency
+### Step 3: Check the`ui-tooling`Dependency
 
-Ensure the `ui-tooling` dependency is included in your **version catalog** (if you’re using one) and in your **module-level build.gradle.kts file**. This dependency is essential for rendering and testing Compose UI elements. If you’re using the **Compose BOM (Bill of Materials)**, the version should be managed automatically:
+Ensure the`ui-tooling`dependency is included in your**version catalog**(if you’re using one) and in your**module-level build.gradle.kts file**. This dependency is essential for rendering and testing Compose UI elements. If you’re using the**Compose BOM (Bill of Materials)**, the version should be managed automatically:
 
 ```toml title="libs.versions.toml"
 [libraries]
@@ -183,7 +183,7 @@ In the previous section, I mentioned an exciting upcoming feature: the ability t
 
 ### Step 1: Mark Previews as Internal
 
-For composables that already have preview functions, start by marking these preview functions as `internal`. This ensures they remain accessible within your testing source set while keeping them encapsulated.
+For composables that already have preview functions, start by marking these preview functions as`internal`. This ensures they remain accessible within your testing source set while keeping them encapsulated.
 
 ```kotlin :collapsed-lines title="OBookScaffold.kt"
 package com.example.obook.ui.component.scaffold
@@ -270,7 +270,7 @@ internal fun PreviewOBookScaffold() {
 
 ### Step 2: Reference Preview Functions in Testing Classes
 
-Next, create a dedicated testing class for each composable within the `screenshotTest` source set. In these classes, reference the existing preview function instead of creating a duplicate.
+Next, create a dedicated testing class for each composable within the`screenshotTest`source set. In these classes, reference the existing preview function instead of creating a duplicate.
 
 ```kotlin title="OBookScaffoldScreenshots.kt"
 package com.example.obook.ui.component.scaffold
@@ -294,10 +294,10 @@ class OBookScaffoldScreenshots {
 
 To generate reference images for your screenshot tests, use the following Gradle commands based on your operating system:
 
-- Linux and macOS: `./gradlew updateDebugScreenshotTest` (`./gradlew {:module:}update{Variant}ScreenshotTest`)
-- Windows: `gradlew updateDebugScreenshotTest` (`gradlew {:module:}update{Variant}ScreenshotTest`)
+- Linux and macOS:`./gradlew updateDebugScreenshotTest`(`./gradlew {:module:}update{Variant}ScreenshotTest`)
+- Windows:`gradlew updateDebugScreenshotTest`(`gradlew {:module:}update{Variant}ScreenshotTest`)
 
-In my case, I’m running macOS and have a single module named <FontIcon icon="fas fa-folder-open"/>`app`. Therefore, I use the following command:
+In my case, I’m running macOS and have a single module named<FontIcon icon="fas fa-folder-open"/>`app`. Therefore, I use the following command:
 
 ```sh
 ./gradlew :app:updateDebugScreenshotTest
@@ -311,13 +311,13 @@ After running the command, the reference images are generated and stored in the 
 /app/src/debug/screenshotTest/reference/com/example/obook/ui/component/scaffold/
 ```
 
-Inside this folder, I find a subfolder named after the testing class, `OBookScaffoldScreenshots`.
+Inside this folder, I find a subfolder named after the testing class,`OBookScaffoldScreenshots`.
 
 ![This folder contains five reference image files](https://droidcon.com/wp-content/uploads/2024/12/1_wVPkpKw8t5gKH5MmMrJC3Q.webp)
 
 ### Why Five Files?
 
-This is because I used the `@PreviewScreenSizes` annotation in my test class, which generates previews for **five different screen sizes**.
+This is because I used the`@PreviewScreenSizes`annotation in my test class, which generates previews for**five different screen sizes**.
 
 ### Preview Example
 
@@ -333,12 +333,12 @@ With reference images generated, you can now validate your screenshot tests and 
 
 Depending on your operating system, run the following commands:
 
-- Linux and macOS: `./gradlew validateDebugScreenshotTest` (`./gradlew {:module:}validate{Variant}ScreenshotTest`)
-- Windows: `gradlew validateDebugScreenshotTest` (`gradlew {:module:}validate{Variant}ScreenshotTest`)
+- Linux and macOS:`./gradlew validateDebugScreenshotTest`(`./gradlew {:module:}validate{Variant}ScreenshotTest`)
+- Windows:`gradlew validateDebugScreenshotTest`(`gradlew {:module:}validate{Variant}ScreenshotTest`)
 
 ### Example Usage
 
-In my case, since I have a single module named <FontIcon icon="fas fa-folder-open"/>`app`, the command is:
+In my case, since I have a single module named<FontIcon icon="fas fa-folder-open"/>`app`, the command is:
 
 ```sh
 ./gradlew :app:validateDebugScreenshotTest
@@ -376,7 +376,7 @@ In the case of a real error, you have two options:
 
 Git LFS is a tool to avoid having large files that are not code files in our repository. In our case the reference images.
 
-Follow [<FontIcon icon="iconfont icon-github"/>official documentation](https://docs.github.com/es/enterprise-cloud@latest/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) to install Git LFS. In my case, I will install it using Homebrew:
+Follow[<FontIcon icon="iconfont icon-github"/>official documentation](https://docs.github.com/es/enterprise-cloud@latest/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)to install Git LFS. In my case, I will install it using Homebrew:
 
 ```sh
 brew install git-lfs
@@ -518,7 +518,7 @@ When running the validation in GitHub Actions, an error might occur because the 
 
 ![Screenshot Difference](https://droidcon.com/wp-content/uploads/2024/12/1_RCGEiCDrx33Q_rFQFnSFcw-1024x457.webp)
 
-To address the issue of minor image differences, we can adjust the **Image Difference Threshold**. To configure this, add the following to your **module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`** file:
+To address the issue of minor image differences, we can adjust the**Image Difference Threshold**. To configure this, add the following to your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`**file:
 
 ```kotlin title="build.gradle.kts"
 android {
@@ -534,7 +534,7 @@ android {
 
 Now, when you run the pipeline again, the job will succeed without errors.
 
-In a real project scenario, it’s generally better to generate reference images on the server itself. This ensures that both the updates and validations occur on the same machine, eliminating the need for adjustments to the **Image Difference Threshold** configuration. This approach helps maintain consistency across environments and simplifies the testing process.
+In a real project scenario, it’s generally better to generate reference images on the server itself. This ensures that both the updates and validations occur on the same machine, eliminating the need for adjustments to the**Image Difference Threshold**configuration. This approach helps maintain consistency across environments and simplifies the testing process.
 
 ---
 
@@ -544,7 +544,7 @@ If you found this article helpful or interesting, please give it a clap and cons
 
 Have any questions? Feel free to reach out!
 
-You can also follow me on [Medium (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente) or [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`olivervicentealfonso`)](https://linkedin.com/in/olivervicentealfonso/) for more insightful articles and updates. Let’s stay connected!
+You can also follow me on[Medium (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente)or[LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`olivervicentealfonso`)](https://linkedin.com/in/olivervicentealfonso/)for more insightful articles and updates. Let’s stay connected!
 
 ::: info
 

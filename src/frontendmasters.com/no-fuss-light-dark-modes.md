@@ -121,7 +121,7 @@ I kinda like approach of just changing same-named `--custom-properties` myself, 
 
 - The site level choice needs to override any other choice, so it means you can’t leverage `@media` very cleanly. But you still need to use `@media` for the default if there isn’t a choice, so you can’t back away from it entirely.
 - You have to persist the choice, otherwise simply refreshing the browser could wipe away the choice, which is pretty weak sauce. Persisting data means at a minimum using `localStorage` or cookies, but you’d probably want to do better than that.
-- The user choice can be different on the site than what their system or browser-level choice might be, so you need to load what that choice is before you render anything. Otherwise you risk [<FontIcon icon="fas fa-globe"/>Flash of inAccurate coloR Theme (FART)](https://css-tricks.com/flash-of-inaccurate-color-theme-fart/) which is incredibly awkward.
+- The user choice can be different on the site than what their system or browser-level choice might be, so you need to load what that choice is before you render anything. Otherwise you risk [<FontIcon icon="fas fa-globe"/>Flash of inAccurate coloR Theme(FART)](https://css-tricks.com/flash-of-inaccurate-color-theme-fart/) which is incredibly awkward.
 
 I’d say it’s still worth doing if you’re working on a “big” site where you expect quite a bit of time-on-site from your users. You can also do something like I’ve done above *as a first step* and then move onto a toggle approach.
 

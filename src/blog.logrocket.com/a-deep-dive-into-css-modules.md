@@ -93,7 +93,7 @@ Let’s say that while styling a blog, we add the class name `post` to indicate 
 }
 ```
 
-​​As an application scales, you’re more likely to encounter name collision (potentially harming performance). 
+As an application scales, you’re more likely to encounter name collision (potentially harming performance). 
 
 ### Difficulty in clearing dead codes
 

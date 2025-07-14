@@ -22,7 +22,7 @@ prev: /programming/css/articles/README.md
 date: 2023-05-31
 isOriginal: false
 author: Fakorede Damilola
-cover: https://www.freecodecamp.org/news/content/images/2023/05/responsive-g619d39e59_1280.png
+cover: https://freecodecamp.org/news/content/images/2023/05/responsive-g619d39e59_1280.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -46,7 +46,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/05/responsive-g619d
   desc="The way we interact with the web has changed dramatically, and it will keep changing. In the past, most people used desktop computers to access the internet. But today, people are using a wide variety of devices, including laptop..."
   url="https://freecodecamp.org/news/responsive-design-best-practices"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/05/responsive-g619d39e59_1280.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/05/responsive-g619d39e59_1280.png"/>
 
 The way we interact with the web has changed dramatically, and it will keep changing.
 

@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5467"/>
 
-Design principles tell us a shadow is conveys that light is hiding an object, which casts the shadow behind it, giving us a sense of depth. However, if that’s *all* a shadow is ever used for, then it has not been utilized to its full potential. 
+Design principles tell us a shadow is conveys that light is hiding an object, which casts the shadow behind it, giving us a sense of depth. However, if that’s *all* a shadow is ever used for, then it has not been utilized to its full potential.
 
 ---
 
@@ -62,7 +62,7 @@ Shadows in CSS can be multi-directional, layered, and are animate-able. On top o
 
 ## Types of Shadows
 
-There are different types of shadows based on the type of component they affect. 
+There are different types of shadows based on the type of component they affect.
 
 - `box-shadow`
 - `filter: drop-shadow()`
@@ -77,7 +77,7 @@ The difference between box-shadow and drop-shadow() is worth knowing!
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-All of this is proof that you’ll benefit from understanding CSS shadows and learning ways to expand their uses beyond simply creating a proverbial shadow. 
+All of this is proof that you’ll benefit from understanding CSS shadows and learning ways to expand their uses beyond simply creating a proverbial shadow.
 
 ---
 
@@ -94,7 +94,7 @@ Below is an example of what could be possible with the things I’ll be covering
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>```html
 <div class="pokemon golduck">
-  <div class="text">Golduck</div>
+ <div class="text">Golduck</div>
 </div>
 ```
 
@@ -124,7 +124,7 @@ Below is an example of what could be possible with the things I’ll be covering
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The above shows off the `inset` keyword that `box-shadow` can use in a couple of different ways. Inward shadows make for terrific overlays, since it’s painted on *top* of an element’s background and originates from the edges of the element’s *padding box*. The other thing we got to confirm is that the `box-shadow` is indeed animate-able. 
+The above shows off the `inset` keyword that `box-shadow` can use in a couple of different ways. Inward shadows make for terrific overlays, since it’s painted on *top* of an element’s background and originates from the edges of the element’s *padding box*. The other thing we got to confirm is that the `box-shadow` is indeed animate-able.
 
 ---
 
@@ -165,7 +165,7 @@ Add a thin border matching the page’s background to the element if there’s a
 
 ## Animating Only Parts of a Shadow
 
-We can take this a step further. So far we’ve been animating the `box-shadow` property as a whole, but how about [<FontIcon icon="fas fa-globe"/>pin-pointing the animation to individual values](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/) of a shadow? That will not only produce a different result, but you can also assign different animation times for different aspects of a shadow: 
+We can take this a step further. So far we’ve been animating the `box-shadow` property as a whole, but how about [<FontIcon icon="fas fa-globe"/>pin-pointing the animation to individual values](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/) of a shadow? That will not only produce a different result, but you can also assign different animation times for different aspects of a shadow:
 
 ```css
 @property --l {
@@ -221,7 +221,7 @@ You can also use `@keyframes`, instead of `transition`, for the animations to ke
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
 
-For our main demo, let’s keep `transition`, and then combine the things we’ve seen so far as well as include a few more colors. 
+For our main demo, let’s keep `transition`, and then combine the things we’ve seen so far as well as include a few more colors.
 
 ```css
 @property --l {

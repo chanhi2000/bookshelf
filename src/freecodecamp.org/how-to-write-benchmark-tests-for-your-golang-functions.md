@@ -131,7 +131,7 @@ In practice, the sequence is:
 <li><p>The function then adds these two results together, because every Fibonacci number is the sum of the two preceding numbers.</p>
 </li>
 </ul>
-<p>For more theory on recursion, check out these <a target="_blank" href="https://www.freecodecamp.org/news/tag/recursion/">articles</a>.</p>
+<p>For more theory on recursion, check out these <a target="_blank" href="https://freecodecamp.org/news/tag/recursion/">articles</a>.</p>
 <h3 id="heading-iterative-method">Iterative Method</h3>
 <pre class="language-go" tabindex="0"><code class="language-go"><span class="token comment">// main.go</span>
 

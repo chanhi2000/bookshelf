@@ -53,7 +53,7 @@ cover: /assets/image/blog.logrocket.com/intercepting-javascript-fetch-api-reques
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/intercepting-javascript-fetch-api-requests/banner.png"/>
 
-Interceptors are code blocks that you can use to preprocess or post-process HTTP calls, helping with global error handling, authentication, logging, and more. In this article, you’ll learn how to [**intercept JavaScript Fetch API calls**](/blog.logrocket.com/axios-vs-fetch-best-http-requests.md).
+Interceptors are code blocks that you can use to preprocess or post-process HTTP calls, helping with global error handling, authentication, logging, and more.In this article, you’ll learn how to [**intercept JavaScript Fetch API calls**](/blog.logrocket.com/axios-vs-fetch-best-http-requests.md).
 
 ![JavaScript Intercept Fetch API Responses](/assets/image/blog.logrocket.com/intercepting-javascript-fetch-api-requests/banner.png)
 
@@ -71,7 +71,7 @@ First, let’s cover some fundamentals of the Fetch API, for example, the syntax
 const fetchResponsePromise = fetch(resource [, init])
 ```
 
-`resource` defines the resource you want to fetch, which can be either a [<FontIcon icon="fa-brands fa-firefox"/>`Request` object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
+`resource` defines the resource you want to fetch, which can be either a [<FontIcon icon="fa-brands fa-firefox"/>`Request`object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
 
 The Fetch API is promise-based. Therefore, when you call the Fetch method, you’ll get a response promise back. Here, it is referred to as `fetchResponsePromise`, as seen in the example above.
 

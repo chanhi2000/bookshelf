@@ -644,7 +644,7 @@ Focus an input field with the help of a ref.
 
 This technique is also widely used in React projects in combination with third-party (non-React) components when you need direct access to DOM elements.
 
-Another common use case is when you need the state value of the previous render cycle. The following example shows how to do this. Of course, you could also extract the logic into a custom [<FontIcon icon="fas fa-globe"/>`usePrevious`](https://usehooks.com/usePrevious/) Hook.
+Another common use case is when you need the state value of the previous render cycle. The following example shows how to do this. Of course, you could also extract the logic into a custom [<FontIcon icon="fas fa-globe"/>`usePrevious`](https://usehooks.com/usePrevious/)Hook.
 
 ```jsx :collapsed-lines title="AppDemo13.jsx"
 import { useEffect, useState, useRef } from "react";

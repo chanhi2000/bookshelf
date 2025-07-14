@@ -56,7 +56,7 @@ Then: nothing. Web standards just move at the pace that it moves and that’s us
 
 [**My own feedback**](/frontendmasters.com/feedback-on-masonry-layout.md) said [this is partially a conversation about tabbing order](/frontendmasters.com/feedback-on-masonry-layout.md), and it definitely [<FontIcon icon="fas fa-globe"/>is](https://piccalil.li/blog/masonry-and-tabbing/). So then the bigger question becomes, does this tabbing issue need to be solved *as a part of masonry*? Or can we solve it more broadly? [<FontIcon icon="fas fa-globe"/>Rachel introduces the idea](https://rachelandrew.co.uk/archives/2024/05/26/masonry-and-reading-order/) that it *[<FontIcon icon="fas fa-globe"/>can](https://drafts.csswg.org/css-display-4/#reading-order-items)* be more broadly solved.
 
-> … my personal hope is that we can land the proposal for `reading-order-items` before we have interoperable masonry, in whatever form it takes.
+> … my personal hope is that we can land the proposal for`reading-order-items`before we have interoperable masonry, in whatever form it takes.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -58,7 +58,7 @@ the desired result
 
 Before reading further, try thinking about this. You are only given the start and end steps and the rest should be obtained via linear interpolation. How would you create them? Maybe put together a quick demo.
 
-Note that this is a different problem from stepped gradients with [<FontIcon icon="fa-brands fa-stack-overflow"/>a certain step size](https://stackoverflow.com/q/22052984/1397351). The given step size problem is way more complex and it’s impossible to solve with CSS alone as long as we don’t have native looping. SVG filters [provide a solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpENPm), though they limit us to using just pixel values for the step size; having `em` or `calc()` values there isn’t possible without JS.
+Note that this is a different problem from stepped gradients with[<FontIcon icon="fa-brands fa-stack-overflow"/>a certain step size](https://stackoverflow.com/q/22052984/1397351). The given step size problem is way more complex and it’s impossible to solve with CSS alone as long as we don’t have native looping. SVG filters [provide a solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpENPm), though they limit us to using just pixel values for the step size; having`em` or`calc()` values there isn’t possible without JS.
 
 ---
 
@@ -406,7 +406,7 @@ The `filter` element also gets another attribute other than the `id`. We aren’
 
 In our particular case, if we don’t set the `color-interpolation-filters` attribute to `sRGB`, we won’t get equally sized steps in any browser other than older Safari versions which use `sRGB` anyway.
 
-Inside this `filter`, we have a [<FontIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/#Table-and-Discrete-Component-Transfers) primitive. This allows us to manipulate the RGBA channels individually (via the suggestively named `feFuncR`, `feFuncG`, `feFuncB` and `feFuncA`) in various ways. In this case, we have a gradient from `black (0% red)` to `red (100% red)` so we manipulate the red channel using `feFuncR`.
+Inside this `filter`, we have a [<FontIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/#Table-and-Discrete-Component-Transfers) primitive. This allows us to manipulate the RGBA channels individually (via the suggestively named `feFuncR`, `feFuncG`, `feFuncB` and `feFuncA`) in various ways. In this case, we have a gradient from`black (0%red)` to `red (100% red)` so we manipulate the red channel using `feFuncR`.
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>

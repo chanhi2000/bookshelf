@@ -221,13 +221,13 @@ inline class UserId(val id: String)
 
 #### SAM Conversion for Kotlin Interfaces
 
-In Kotlin 1.4, **SAM Conversion** allows you to pass lambda expressions for single abstract method (SAM) interfaces directly, without the need to explicitly create an object or override the method. This simplifies the code when using functional interfaces.
+In Kotlin 1.4,**SAM Conversion**allows you to pass lambda expressions for single abstract method (SAM) interfaces directly, without the need to explicitly create an object or override the method. This simplifies the code when using functional interfaces.
 
 ::: tip Example
 
 Before Kotlin 1.4 (Without SAM Conversion for Kotlin Interfaces)
 
-If you wanted to use a `Runnable` in Kotlin (which has only one method `run()`), you had to instantiate it like this:
+If you wanted to use a`Runnable`in Kotlin (which has only one method`run()`), you had to instantiate it like this:
 
 ```kotlin
 val runnable: Runnable = Runnable {
@@ -264,10 +264,10 @@ This makes the code more concise and easier to read, especially when dealing wit
 ### Kotlin 1.5 (2021)
 
 **– Sealed Interfaces**  
-Sealed interfaces in Kotlin 1.5 extend the concept of sealed classes to interfaces, allowing you to control which types can implement an interface. Like sealed classes, sealed interfaces ensure that all possible implementations are known at compile time, enabling the compiler to enforce exhaustive `when` statements. This is especially useful when modeling hierarchies where only a specific set of types is allowed, improving code safety and clarity. By restricting the set of implementors, sealed interfaces prevent unexpected or unintended classes from implementing the interface, which can reduce runtime errors.sealed interface Shape
+Sealed interfaces in Kotlin 1.5 extend the concept of sealed classes to interfaces, allowing you to control which types can implement an interface. Like sealed classes, sealed interfaces ensure that all possible implementations are known at compile time, enabling the compiler to enforce exhaustive`when`statements. This is especially useful when modeling hierarchies where only a specific set of types is allowed, improving code safety and clarity. By restricting the set of implementors, sealed interfaces prevent unexpected or unintended classes from implementing the interface, which can reduce runtime errors.sealed interface Shape
 
 **– Value Classes (Experimental)**  
-Value classes in Kotlin, introduced as an experimental feature, provide a way to wrap a value in a type while avoiding the overhead of creating a full-fledged object. By using the `@JvmInline` annotation, the compiler treats the value class as an inline type, meaning the wrapped value is directly used in memory without additional allocation. This leads to more efficient memory usage, especially for simple data types like `String`, `Int`, or `Long`, which are frequently used in performance-critical parts of the code.@JvmInline  
+Value classes in Kotlin, introduced as an experimental feature, provide a way to wrap a value in a type while avoiding the overhead of creating a full-fledged object. By using the`@JvmInline`annotation, the compiler treats the value class as an inline type, meaning the wrapped value is directly used in memory without additional allocation. This leads to more efficient memory usage, especially for simple data types like`String`,`Int`, or`Long`, which are frequently used in performance-critical parts of the code.@JvmInline  
 value class Password(val value: String)
 
 ### Kotlin 1.6 (2021)
@@ -297,7 +297,7 @@ Staying updated on Java and Kotlin versions ensures that developers can take adv
 
 Android Consultant | Trainer  
 
-[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com) | [Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/) | [Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov) | [Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 

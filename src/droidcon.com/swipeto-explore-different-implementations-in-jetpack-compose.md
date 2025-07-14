@@ -49,20 +49,20 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_3-hO6gU5ICeTlolbGhSQLQ-
 
 <SiteInfo
   name="SwipeTo explore different implementations in Jetpack Compose"
-  desc="Swipe gestures provide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options. Jetpack Compose makes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable."
+  desc="Swipe gesturesprovide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options.Jetpack Composemakes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable."
   url="https://droidcon.com/swipeto-explore-different-implementations-in-jetpack-compose"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/11/1_3-hO6gU5ICeTlolbGhSQLQ-1024x577.webp"/>
 
-**Swipe gestures** provide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options. **Jetpack Compose** makes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable.
+**Swipe gestures**provide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options.**Jetpack Compose**makes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable.
 
-In this article, we’ll explore how to implement the **SwipeToDismiss** and **SwipeToReveal** functionality and customize them for various use cases, empowering you to create dynamic, responsive UIs.
+In this article, we’ll explore how to implement the**SwipeToDismiss**and**SwipeToReveal**functionality and customize them for various use cases, empowering you to create dynamic, responsive UIs.
 
 ---
 
-## Base Implementation with `detectHorizontalDragGestures`
+## Base Implementation with`detectHorizontalDragGestures`
 
-The first approach for implementing swipe-based interactions is to use `detectHorizontalDragGestures`, a flexible and foundational solution that allows for full customization. This method enables both `SwipeToDismiss` and `SwipeToReveal` functionalities by managing the horizontal drag manually. Below is an example of how to implement this in a composable:
+The first approach for implementing swipe-based interactions is to use`detectHorizontalDragGestures`, a flexible and foundational solution that allows for full customization. This method enables both`SwipeToDismiss` and`SwipeToReveal` functionalities by managing the horizontal drag manually. Below is an example of how to implement this in a composable:
 
 ```kotlin
 @Composable
@@ -109,11 +109,11 @@ fun LibraryBook(
 
 In this implementation:
 
-- We maintain an `offsetX` state to control the horizontal position of the item as it’s dragged.
-- `DetectHorizontalDragGestures` handles horizontal dragging, updating `offsetX` within a specified range to prevent excessive movement.
-- The main content is shifted based on `offsetX`, revealing the delete action as you swipe.
+- We maintain an`offsetX` state to control the horizontal position of the item as it’s dragged.
+- `DetectHorizontalDragGestures` handles horizontal dragging, updating`offsetX` within a specified range to prevent excessive movement.
+- The main content is shifted based on`offsetX`, revealing the delete action as you swipe.
 
-This approach is straightforward, but it provides the flexibility to expand and customize as needed. If you want to dive deeper into this solution, [<FontIcon icon="fa-brands fa-youtube"/>Philipp Lackner’s video](https://youtu.be/-L_d-0Emmwc) provides an excellent walkthrough. Philipp shares various Compose techniques in his videos, so consider following him for more useful tips and tutorials.
+This approach is straightforward, but it provides the flexibility to expand and customize as needed. If you want to dive deeper into this solution,[<FontIcon icon="fa-brands fa-youtube"/>Philipp Lackner’s video](https://youtu.be/-L_d-0Emmwc)provides an excellent walkthrough. Philipp shares various Compose techniques in his videos, so consider following him for more useful tips and tutorials.
 
 <VidStack src="youtube/-L_d-0Emmwc" />
 
@@ -121,7 +121,7 @@ This approach is straightforward, but it provides the flexibility to expand and 
 
 ## Implementation with SwipeToDismissBox
 
-With recent updates to the **Compose libraries**, we now have the `SwipeToDismissBox`, which provides a more structured and controllable approach to swipe-based interactions. This component simplifies the process of implementing dismiss gestures and offers better control over the swipe state. Here’s how it enhances the previous implementation:
+With recent updates to the**Compose libraries**, we now have the`SwipeToDismissBox`, which provides a more structured and controllable approach to swipe-based interactions. This component simplifies the process of implementing dismiss gestures and offers better control over the swipe state. Here’s how it enhances the previous implementation:
 
 ```kotlin
 @Composable
@@ -186,14 +186,14 @@ fun LibraryBook2(
 
 In this updated example:
 
-- `SwipeToDismissBox` manages the swipe state internally, which simplifies the swipe handling compared to the `detectHorizontalDragGestures` approach.
-- The `backgroundContent` is displayed conditionally based on the swipe direction, using in my case, `AnimatedVisibility` to smoothly show icons for delete and read actions.
+- `SwipeToDismissBox` manages the swipe state internally, which simplifies the swipe handling compared to the`detectHorizontalDragGestures` approach.
+- The`backgroundContent`is displayed conditionally based on the swipe direction, using in my case,`AnimatedVisibility`to smoothly show icons for delete and read actions.
 
 ---
 
 ## Resetting the Swipe Position
 
-To reset the swipe position after an action is taken, you can leverage `LaunchedEffect` to monitor `dismissState.currentValue` and trigger a reset when a swipe is completed:
+To reset the swipe position after an action is taken, you can leverage`LaunchedEffect` to monitor`dismissState.currentValue`and trigger a reset when a swipe is completed:
 
 ```kotlin
 val dismissState = rememberSwipeToDismissBoxState()
@@ -219,9 +219,9 @@ LaunchedEffect(dismissState.currentValue) {
 
 ## Implementing SwipeToReveal with anchoredDraggable
 
-The `SwipeToDismissBox` works well for swipe to dismiss interactions, but if we want to implement `SwipeToReveal` (where swiping reveals options rather than dismissing the item) we need a different approach. I found a powerful alternative with the `anchoredDraggable` API, as it allows us to define anchor points where specific actions can be triggered, making it ideal for reveal-based interactions.
+The`SwipeToDismissBox` works well for swipe to dismiss interactions, but if we want to implement`SwipeToReveal` (where swiping reveals options rather than dismissing the item) we need a different approach. I found a powerful alternative with the`anchoredDraggable` API, as it allows us to define anchor points where specific actions can be triggered, making it ideal for reveal-based interactions.
 
-Here’s the example of implementing `SwipeToReveal` with `anchoredDraggable`:
+Here’s the example of implementing`SwipeToReveal` with`anchoredDraggable`:
 
 ```kotlin
 enum class SwipeToRevealValue { Read, Resting, Delete }
@@ -319,9 +319,9 @@ fun LibraryBook3(
 In this setup:
 
 - `AnchoredDraggableState` allows us to set specific anchor points for different actions. Here, swiping left reveals the delete option, while swiping right reveals the read option.
-- `AnimatedVisibility` and `slideInHorizontally` are used to animate the icons as they are revealed or hidden, creating a smooth interaction.
+- `AnimatedVisibility` and`slideInHorizontally` are used to animate the icons as they are revealed or hidden, creating a smooth interaction.
 
-This approach work well also in the case of the swipe to dismiss interactions. In this case we need to add a `LaunchedEffect` to call our callbacks at the right moment:
+This approach work well also in the case of the swipe to dismiss interactions. In this case we need to add a`LaunchedEffect` to call our callbacks at the right moment:
 
 ```kotlin
 LaunchedEffect(dragState) {
@@ -340,22 +340,22 @@ LaunchedEffect(dragState) {
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/1_h8pgP_-k6P19eEVIwBhMag.gif)
 
-The `LaunchedEffect` triggers the appropriate action based on the settled value, then resets the swipe position to maintain a clean UI state after each swipe.
+The`LaunchedEffect` triggers the appropriate action based on the settled value, then resets the swipe position to maintaina clean UI state after each swipe.
 
 ---
 
 ## Conclusion
 
-In this article, we’ve explored three powerful approaches to implementing swipe-based interactions in Jetpack Compose: `detectHorizontalDragGestures`, `SwipeToDismissBox`, and `anchoredDraggable`.  
+In this article, we’ve explored three powerful approaches to implementing swipe-based interactions in Jetpack Compose:`detectHorizontalDragGestures`,`SwipeToDismissBox`, and`anchoredDraggable`.  
 Each method has its strengths, allowing for a range of customization and control over swipe behaviors.
 
-- `detectHorizontalDragGestures` provides a low-level, customizable approach, ideal if you need control over gesture handling.
-- `SwipeToDismissBox` simplifies the setup for dismissible items with built-in state management, making it a great choice for straightforward swipe-to-dismiss interactions.
-- `anchoredDraggable` offers precise control over anchored states, making it well-suited for swipe functionalities.
+- `detectHorizontalDragGestures`provides a low-level, customizable approach, ideal if you need control over gesture handling.
+- `SwipeToDismissBox`simplifies the setup for dismissible items with built-in state management, making it a great choice for straightforward swipe-to-dismiss interactions.
+- `anchoredDraggable`offers precise control over anchored states, making it well-suited for swipe functionalities.
 
-By choosing the right tool for the job, you can create smooth, intuitive swipe interactions that enhance your app’s UX. **Compose** continues to evolve, and with these options, you can build flexible and engaging interfaces that feel natural and responsive to users.
+By choosing the right tool for the job, you can create smooth, intuitive swipe interactions that enhance your app’s UX.**Compose** continues to evolve, and with these options, you can build flexible and engaging interfaces that feel natural and responsive to users.
 
-If you found this article interesting, feel free to **follow me** for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on [**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)**](http://linkedin.com/in/stefano-natali-q21) if you prefer.
+If you found this article interesting, feel free to**follow me**for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)**](http://linkedin.com/in/stefano-natali-q21) if you prefer.
 
 Have a great day!
 
@@ -376,7 +376,7 @@ This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`
 ```component VPCard
 {
   "title": "SwipeTo explore different implementations in Jetpack Compose",
-  "desc": "Swipe gestures provide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options. Jetpack Compose makes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable.",
+  "desc": "Swipe gesturesprovide a natural way to interact with elements in an app, adding intuitive controls for actions like dismissing items or revealing options.Jetpack Composemakes it easy to implement in various ways. With recent updates of the Compose libraries, new APIs make swipe-based interactions simpler and more maintainable.",
   "link": "https://chanhi2000.github.io/bookshelf/droidcon.com/swipeto-explore-different-implementations-in-jetpack-compose.html",
   "logo": "https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png",
   "background": "rgba(4,20,221,0.2)"

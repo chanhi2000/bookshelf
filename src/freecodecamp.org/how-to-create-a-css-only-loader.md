@@ -22,7 +22,7 @@ prev: /programming/css/articles/README.md
 date: 2022-01-15
 isOriginal: false
 author: Temani Afif
-cover: https://www.freecodecamp.org/news/content/images/2022/01/header-loader.png
+cover: https://freecodecamp.org/news/content/images/2022/01/header-loader.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -46,7 +46,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/01/header-loader.pn
   desc="If you have a website, it's helpful to have a loader so users can tell something is happening once they've clicked a link or button. You can use this loader component in a lot of places, and it should be as simple as possible. In this post, we will s..."
   url="https://freecodecamp.org/news/how-to-create-a-css-only-loader"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/01/header-loader.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/01/header-loader.png"/>
 
 If you have a website, it's helpful to have a loader so users can tell something is happening once they've clicked a link or button.
 

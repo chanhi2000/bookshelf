@@ -68,11 +68,11 @@ Here’s an image example of such a UI:
 
 We’ll be coding such a control using a set of *stacked* HTML radio buttons.
 
-The UI’s functionality — jumping through different states on each click — is implemented by a bit of CSS-only trickery. We’ll be changing the value of the CSS property `pointer-events` in the radio buttons when one is selected.
+The UI’s functionality — jumping through different states on each click — is implemented by a bit of CSS-only trickery. We’ll be changing the value of the CSS property`pointer-events`in the radio buttons when one is selected.
 
-The `pointer-events` property when applied to HTML elements determines whether a pointer event, such as a `click` or `hover` — through mouse pointer, touch event, stylus usage, etc — occurs on an element or not. By default, the events do occur in the elements, which is equivalent to setting `pointer-events: auto;`.
+The`pointer-events`property when applied to HTML elements determines whether a pointer event, such as a `click` or `hover` — through mouse pointer, touch event, stylus usage, etc — occurs on an element or not. By default, the events do occur in the elements, which is equivalent to setting `pointer-events: auto;`.
 
-If `pointer-events: none;` is set, that element won’t receive any pointer events. This is useful for stacked or nested elements, where we might want a top element to ignore pointer events so that elements below it become the target.
+If`pointer-events: none;` is set, that element won’t receive any pointer events. This is useful for stacked or nested elements, where we might want a top element to ignore pointer events so that elements below it become the target.
 
 The same will be used to create a multi-state control in this article.
 
@@ -140,11 +140,11 @@ Below is a basic control we’ll be coding towards to demonstrate the technique.
 }
 ```
 
-In HTML shown above, there are three `<input>` radio buttons (for three states), which are nested within their respective `<label>` elements.
+In HTML shown above, there are three`<input>`radio buttons (for three states), which are nested within their respective`<label>`elements.
 
-The label elements are stacked over each other within the parent `<div>` element (`.control`), sharing the same dimensions and style. The default appearance of the radio buttons is removed. Naturally, the label elements will trigger the check/uncheck of the radio buttons within them.
+The label elements are stacked over each other within the parent`<div>`element (`.control`), sharing the same dimensions and style. The default appearance of the radio buttons is removed. Naturally, the label elements will trigger the check/uncheck of the radio buttons within them.
 
-Each label is colored differently in CSS. By default, the topmost label (`.one`) is checked on page load for having the `checked` HTML attribute. In CSS, its `pointer-events` property is set to `none`.
+Each label is colored differently in CSS. By default, the topmost label (`.one`) is checked on page load for having the`checked`HTML attribute. In CSS, its`pointer-events`property is set to`none`.
 
 Which means when we click the control, the topmost label isn’t the target anymore. Instead, it clicks the label below it and checks its radio button. Since only one radio button in a group with the same name attribute can be checked at a time, when the bottom label is checked, its radio button unchecks the topmost label’s. Consequently, the control transitions from its first to second state.
 
@@ -165,13 +165,13 @@ label:has(:checked) {
 }
 ```
 
-When a label’s radio button is checked, the following labels in the source code are hidden with `opacity: 0` so that it alone is visible to the user.
+When a label’s radio button is checked, the following labels in the source code are hidden with`opacity: 0`so that it alone is visible to the user.
 
-If a checked radio button’s label isn’t the first one in the source code (bottom-most on screen), it and the labels after it get `pointer-events: none`. This means the label underneath it on the screen becomes the target of any following pointer events.
+If a checked radio button’s label isn’t the first one in the source code (bottom-most on screen), it and the labels after it get`pointer-events: none`. This means the label underneath it on the screen becomes the target of any following pointer events.
 
-If the checked radio button’s label is the first one in the source code (bottom-most on screen), all the labels after it get the `pointer-events` value `auto`, allowing them to receive future pointer events. This resets the control.
+If the checked radio button’s label is the first one in the source code (bottom-most on screen), all the labels after it get the`pointer-events`value`auto`, allowing them to receive future pointer events. This resets the control.
 
-In a nutshell, when a user selects a state, the following state becomes selectable next by giving the current and all previously selected states `pointer-events: none`.
+In a nutshell, when a user selects a state, the following state becomes selectable next by giving the current and all previously selected states`pointer-events: none`.
 
 ---
 

@@ -72,7 +72,7 @@ Normally, whenever a user requests a webpage, the browser receives an HTML docum
 
 This tree-like structure is called the Document Object Model, also known as the DOM. It is a structural representation of the web document as nodes and objects, in this case, an HTML document.
 
-The DOM serves as an interface for the web document so that JavaScript and other scripting languages can access, manipulate, and programmatically interact with the document’s content. For example, developers can use DOM APIs to add or remove elements, modify their appearance, and perform user actions on web elements.
+The DOM serves as an interface for the web document so that JavaScript and other scripting languages can access, manipulate, andprogrammatically interact with the document’s content. For example, developers can use DOM APIs to add or remove elements, modify their appearance, and perform user actions on web elements.
 
 ---
 
@@ -163,7 +163,7 @@ Different JavaScript frameworks offer different solutions and strategies to opti
 
 ## Exploring the React virtual DOM
 
-As the name implies, the virtual DOM is a much lighter replica of the actual DOM in the form of objects. The virtual DOM can be saved in the browser memory and doesn’t directly change what is shown on the user’s browser. Implemented by several other frontend frameworks, like Vue, React’s declarative approach is unique.
+As the name implies, the virtual DOM is a much lighter replica of the actual DOM in the form of objects. The virtual DOM can be saved in the browser memory and doesn’t directly change what is shown on the user’s browser.Implemented by several other frontend frameworks, like Vue, React’s declarative approach is unique.
 
 ### How is the virtual DOM different from the real DOM?
 
@@ -316,7 +316,7 @@ As seen in the image above, only the node whose data changes gets repainted in t
 
 When a state change occurs in the UI, we’re not losing the input value.
 
-In summary, on every render, React compares the virtual DOM tree with the previous version to determine which node gets updated, ensuring that the updated node matches up with the actual DOM.
+In summary, on every render, React compares the virtual DOM treewith the previous version to determine which node gets updated, ensuring that the updated node matches up with the actual DOM.
 
 ### The React diffing process
 
@@ -434,7 +434,7 @@ However, let’s insert `item 2` at the beginning, as follows:
 
 Similarly, React compares from the top, and immediately realizes that `item 3` doesn’t match `item 2` of the updated tree. It therefore sees the list as an entirely new one that needs to be rebuilt.
 
-Instead of rebuilding the entire list, we want the DOM to compute minimal operations by only prepending `item 2`. React lets us add a `key` prop to [<FontIcon icon="fa-brands fa-react"/>uniquely identify the items](https://reactjs.org/docs/reconciliation.html#keys) as follows:
+Instead of rebuilding the entire list, we want the DOM to compute minimal operations by only prepending `item 2`. React lets us add a `key` prop to [<FontIcon icon="fa-brands fa-react"/>uniquely identify the items](https://reactjs.org/docs/reconciliation.html#keys)as follows:
 
 ```jsx
 <ul> 
@@ -452,7 +452,7 @@ Instead of rebuilding the entire list, we want the DOM to compute minimal operat
 </ul>
 ```
 
-With the implementation above, React would know that we have prepended `item 2` and appended `item 6`. As a result, it would work to preserve the items that are already available and add only the new items in the DOM.
+With the implementation above, React would know that we have prepended `item 2` and appended `item 6`. As a result, it would work to preserve the items that arealready available and add only the new items in the DOM.
 
 If we omit the `key` prop whenever we map to render a list of items, React is kind enough to alert us in the browser console.
 
@@ -493,7 +493,7 @@ The table below summarizes the differences between the real DOM, the virtual DOM
 | Description | An interface for web documents; allows scripts to interact with the document | An in-memory replica of the actual DOM | A tool for implementing web components, or an isolated DOM tree within an actual DOM for scoping purposes |
 | Relevance to developers | Developers manually perform DOM operations to manipulate the DOM | Developers don’t have to worry about state transitions; the virtual DOM abstracts DOM manipulation away from the developer. | Developers can create reusable web components without worrying about style conflicts from the hosting document |
 | Who uses them | Implemented in browsers | Used by libraries and frameworks like React, Vue, etc. | Used by web components |
-| Project complexity | Suitable for simple, small to medium-scale projects without complex interactivity | Suitable for complex projects with a  high level of interactivity | Suitable for simple to medium scale projects with less complex interactivity |
+| Project complexity | Suitable for simple, small to medium-scale projects without complex interactivity | Suitable for complex projects with a high level of interactivity | Suitable for simple to medium scale projects with less complex interactivity |
 | CPU and memory usage | When compared to virtual DOM updates, real DOM uses less CPU and memory | When compared to real DOM updates, virtual DOM uses more CPU and memory | When compared to virtual DOM updates, shadow DOM uses less CPU and memory |
 | Encapsulation | Does not support encapsulation since components can be modified outside of its scope | Supports encapsulation as components cannot be modified outside of its scope | Supports encapsulation as components cannot be modified outside of its scope |
 

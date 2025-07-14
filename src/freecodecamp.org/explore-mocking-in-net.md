@@ -28,7 +28,7 @@ isOriginal: false
 author:
   - name: Grant Riordan
     url : https://freecodecamp.org/news/author/grantdotdev/
-cover: https://www.freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotnet.png
+cover: https://freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotnet.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotne
   desc="Let's go on a journey to demystify the concept of mocking in .NET software development. Let's delve into how straightforward and accessible mocking truly is. Join me as we navigate through this subject, as I cover: Understanding mocking: Why it's ne..."
   url="https://freecodecamp.org/news/explore-mocking-in-net"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotnet.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotnet.png"/>
 
 Let's go on a journey to demystify the concept of mocking in .NET software development. Let's delve into how straightforward and accessible mocking truly is. Join me as we navigate through this subject, as I cover:
 

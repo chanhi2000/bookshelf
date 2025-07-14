@@ -91,7 +91,7 @@ It’s true we already have a `path()` function, but remember, it’s *sooooo* l
 
 ::: info
 
-> … using `path()` in `clip-path` can’t be *responsive*; you can’t write CSS rules so that the path adapts to the size of the element. This is where the new `shape()` function comes in.
+> … using`path()`in`clip-path`can’t be*responsive*; you can’t write CSS rules so that the path adapts to the size of the element. This is where the new`shape()`function comes in.
 
 :::
 
@@ -110,7 +110,7 @@ That’s using multiple different drawing commands (`line` and `arc`, but there 
 
 ::: info
 
-> `clip-path: shape()` lets you clip your element using arbitrary and responsive shapes, previously only possible using techniques like conic gradients or JavaScript-constructed SVG.
+> `clip-path: shape()`lets you clip your element using arbitrary and responsive shapes, previously only possible using techniques like conic gradients or JavaScript-constructed SVG.
 
 :::
 
@@ -218,7 +218,7 @@ I heard from Peter Herbert over email:
 
 ::: info
 
-> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found [<FontIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/), and I used [<FontIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71) to find the points.
+> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found[<FontIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/),and I used[<FontIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71)to find the points.
 
 :::
 

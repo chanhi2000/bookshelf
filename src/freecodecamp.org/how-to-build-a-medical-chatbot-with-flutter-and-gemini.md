@@ -391,14 +391,14 @@ Remember to always prioritize user safety and data privacy when developing AI so
   preview="https://ai.google.dev/static/site-assets/images/share-ais-02.png"/>
 
 <SiteInfo
-  name="Get a Gemini API key  |  Google AI for Developers"
+  name="Get a Gemini API key | Google AI for Developers"
   desc="Get your Gemini API key and start building in less than 5 minutes."
   url="https://ai.google.dev/gemini-api/docs/api-key/"
   logo="https://gstatic.com/devrel-devsite/prod/v7aeef7f1393bb1d75a4489145c511cdd5aeaa8e13ad0a83ec1b5b03612e66330/googledevai/images/favicon-new.png"
   preview="https://ai.google.dev/static/site-assets/images/api-key.png"/>
 
 <SiteInfo
-  name="Gemini API reference  |  Google AI for Developers"
+  name="Gemini API reference | Google AI for Developers"
   desc="The Gemini API lets you access the latest generative models from Google. This API reference provides detailed information for the classes and methods available in the Gemini API SDKs. Pick a language and follow the setup steps to get started building."
   url="https://ai.google.dev/api/"
   logo="https://gstatic.com/devrel-devsite/prod/v7aeef7f1393bb1d75a4489145c511cdd5aeaa8e13ad0a83ec1b5b03612e66330/googledevai/images/favicon-new.png"

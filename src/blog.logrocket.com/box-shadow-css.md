@@ -59,7 +59,7 @@ In this article, we’ll take a deep dive into the `box-shadow` property. We’l
 ::: info Update history
 
 - _**19 February 2025**: Updated by [<FontIcon icon="fas fa-globe"/>Abiola Farounbi](https://blog.logrocket.com/author/abiolafarounbi/) to add detailed syntax definitions, a browser compatibility table, visual CSS shadow examples, and an inline box-shadow generator tool_
-- _**4 November 2024**: Updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/) to address recent CSS developments that impact the use of the `box-shadow` property, including the View Transitions API, native CSS nesting, and the CSS `@layer` rule_
+- _**4 November 2024**: Updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/)to address recent CSS developments that impact the use of the `box-shadow`property, including the View Transitions API, native CSS nesting, and the CSS `@layer` rule_
 
 :::
 

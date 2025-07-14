@@ -26,7 +26,7 @@ isOriginal: false
 author:
   - name: Obum
     url : https://freecodecamp.org/news/author/obumnwabude/
-cover: https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-02-225922.png
+cover: https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-02-225922.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-
   desc="Flutter builds applications for multiple platforms (desktop, mobile, and web) from the same codebase. Flutter does this in a pixel-perfect and platform-agnostic manner.  In this article, we will explore how Flutter is platform-agnostic through how it..."
   url="https://freecodecamp.org/news/how-is-flutter-platform-agnostic"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-02-225922.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-02-225922.png"/>
 
 Flutter builds applications for multiple platforms (desktop, mobile, and web) from the same codebase. Flutter does this in a pixel-perfect and platform-agnostic manner.
 

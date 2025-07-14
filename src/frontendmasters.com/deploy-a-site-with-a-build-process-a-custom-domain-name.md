@@ -195,7 +195,7 @@ Just a little hand-tweaking of that new <FontIcon icon="iconfont icon-astro"/>`W
 
 We need to tell Netlify that our site is different now! No longer is it entirely static files. It’s true that Astro *makes* totally static files that can essentially be served in the same way, but when you use a site-building tool like Astro, the approach is to have the build process run when you deploy the site. That might sound a little strange if you’re learning about this for the first time, but it’s true.
 
-When Astro builds your site for you locally, it builds your website in a folder called <FontIcon icon="fas fa-folder-open"/>`dist`. You can see that in the <FontIcon icon="iconfont icon-git"/>`.gitignore` file that came into existence when we scaffolded Astro, dist is in there, which means “do not track any of the files in that folder in Git”, meaning they don’t go to GitHub at all, and don’t go to Netlify. The reason for that is generally that it’s just noisy. The changes to those “built” files will occur on almost every commit, and it’s not particularly interesting to see those files change in Git. It’s interesting to see what you, the author, changed, not the changes to the built files. So, because Netlify doesn’t have them, it can just build them for itself.
+When Astro builds your site for you locally, it builds your website in a folder called <FontIcon icon="fas fa-folder-open"/>`dist`. You can see that in the <FontIcon icon="iconfont icon-git"/>`.gitignore` file that came into existence when we scaffolded Astro, dist is in there, which means “do not track any of the files in that folder in Git”, meaning they don’t go to GitHub at all, and don’t go to Netlify. The reason for that is generally that it’s just noisy. The changes to those “built” files will occur on almost every commit, and it’s not particularly interesting to see those files change in Git. It’s interesting to seewhat you, the author, changed, not the changes to the built files. So, because Netlify doesn’t have them, it can just build them for itself.
 
 We need to go into the Netlify settings for our project into **Build & deploy > Continuous deployment > Build settings.**
 
@@ -223,7 +223,7 @@ Netlify itself will help you buy a domain name. And honestly, it’s almost sure
 
 But personally, I like to keep the domains I own registered separately from the web host. Let’s say you want to leave Netlify hosting one day, wouldn’t that be weird to manage the domain at Netlify while dealing with the hosting somewhere else? It feels weird to me, like the incentives are now off.
 
-I have most of my domains on [<FontIcon icon="fas fa-globe"/>GoDaddy](https://godaddy.com/), which is a big, popular choice, but I’ve heard good things about [<FontIcon icon="fas fa-globe"/>Porkbun](https://porkbun.com/), there is [<FontIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/products/registrar/), and a million others.
+I have most of my domains on[<FontIcon icon="fas fa-globe"/>GoDaddy](https://godaddy.com/),which is a big, popular choice, but I’ve heard good things about[<FontIcon icon="fas fa-globe"/>Porkbun](https://porkbun.com/), there is[<FontIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/products/registrar/), and a million others.
 
 I own `coyier.dev` and I’ve never done anything with it, so what I’ll do is set it up as the domain for this project.
 

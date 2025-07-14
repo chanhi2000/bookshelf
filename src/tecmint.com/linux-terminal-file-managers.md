@@ -97,7 +97,7 @@ In this article, we are going to review some of the most frequently used Linux c
 
 You can find our full review of the [**Midnight Commander a console-based file manager**](/tecmint.com/midnight-commander-a-console-based-file-manager-for-linux.md).
 
-To install **Midnight Commander** you can use the following commands:
+To install **Midnight Commander**you can use the following commands:
 
 ::: code-tabs#sh
 

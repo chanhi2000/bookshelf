@@ -261,7 +261,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </li>
 <li><p><a target="_blank" href="https://youtu.be/ui5SdYR7Ivs?si=UEyIeg1UtsXxkk2O">How to reuse code with codiumate (Youtube)</a></p>
 </li>
-<li><p><a target="_blank" href="https://www.freecodecamp.org/news/how-to-use-ai-to-improve-code-quality/">Using AI to improve code quality</a></p>
+<li><p><a target="_blank" href="https://freecodecamp.org/news/how-to-use-ai-to-improve-code-quality/">Using AI to improve code quality</a></p>
 </li>
 </ul>
 <h3 id="heading-conclusion">Conclusion</h3>

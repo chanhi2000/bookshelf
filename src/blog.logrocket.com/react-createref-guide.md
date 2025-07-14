@@ -66,18 +66,18 @@ This guide to using React `createRef` was last updated on 15 November 2022 to in
 
 If you’ve been developing web applications long enough, you’ve likely used JavaScript [<FontIcon icon="fa-brands fa-firefox"/>DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) libraries such as [<FontIcon icon="iconfont icon-jQuery"/>jQuery](http://jquery.com/), [<FontIcon icon="fas fa-globe"/>Mootools](https://mootools.net/), [<FontIcon icon="fas fa-globe"/>Prototype.js](http://prototypejs.org/learn/), and more. These libraries brought about a significant shift in how interactive web applications were built. With DOM abstraction APIs, manipulating a web app’s contents became much easier.
 
-​​For example, you would find yourself doing something like this with jQuery:
+For example, you would find yourself doing something like this with jQuery:
 
 ```js
-​​$('#button').on('click', function(evt) {
-​​  evt.preventDefault();
-​​  var content = $(`
-​​Random Post Title
-​​Random post text.
-​​`);
-​​
-​​  $('#element').append(content);
-​​});
+$('#button').on('click', function(evt) {
+  evt.preventDefault();
+  var content = $(`
+Random Post Title
+Random post text.
+`);
+
+  $('#element').append(content);
+});
 ```
 
 These days, JavaScript frameworks like [<FontIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/), [<FontIcon icon="fas fa-globe"/>Angular](https://blog.logrocket.com/tag/angular/), and [<FontIcon icon="fas fa-globe"/>Vue.js](https://blog.logrocket.com/tag/vue/) are commonly used for building modern-day applications. These frameworks are all made with a component-based architecture. While you can do a lot by leveraging their built-in functionalities, you sometimes need to interact with the actual DOM for some native behavior. Most modern frameworks provide APIs through which you can access the native DOM representation of your app, and React is no exception.
@@ -326,9 +326,9 @@ The process for the `<button>`‘s event handler is the same as before. We updat
 
 In the previous section, we saw how we could create refs using the `React.createRef` API. The actual reference is stored in the `current` attribute of the `ref`.
 
-In our examples, we have only created refs to DOM nodes in our React application. But it is also possible to create refs to React components, which will give us access to the `instance` methods of such components.
+In our examples, we have only created refs to DOM nodes in our React application. But it is also possible to create refs to React components, which will give us access to the `instance`methods of such components.
 
-Keep in mind that we can only create refs on `class` components since they create an `instance` of the class when mounted. Refs cannot be used on functional components.
+Keep in mind that we can only create refs on `class` components since they create an `instance`of the class when mounted. Refs cannot be used on functional components.
 
 Let’s consider a very simple example of using refs on React components. We will create two components in this example:
 

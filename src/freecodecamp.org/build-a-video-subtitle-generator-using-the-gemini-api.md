@@ -373,7 +373,7 @@ In the code above, the `safetySettings` are optional. These settings allow you t
 You can read more about Gemini’s safety settings [<FontIcon icon="iconfont icon-gemini"/>here](https://ai.google.dev/gemini-api/docs/safety-settings).
 
 <SiteInfo
-  name="Safety settings  |  Gemini API  |  Google AI for Developers"
+  name="Safety settings | Gemini API | Google AI for Developers"
   desc="The Gemini API provides safety settings that you can adjust during the prototyping stage to determine if your application requires more or less restrictive safety configuration. You can adjust these settings across four filter categories to restrict or allow certain types of content."
   url="https://ai.google.dev/gemini-api/docs/safety-settings/"
   logo="https://gstatic.com/devrel-devsite/prod/v3239347c48d1e3c46204782fd038ba187a6753dfa7d7a0d08a574587ae2085f5/googledevai/images/favicon-new.png"

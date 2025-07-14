@@ -265,4 +265,4 @@ This automatically populates the cells by getting the items from the `getCellPro
 
 Finally, in `App`, we used the `Table` component, which takes the `column` and `data` props. The values are the `columns` and `data` objects that we created earlier.
 
-The items displayed in the table in two panes. The left pane has the **Name** header with two columns: **First Name** and **Last Name**. Then, the right pane has the **Other Info** heading with the **Age** column.
+The items displayed in the table in two panes. The left pane has the **Name**header with two columns: **First Name** and **Last Name**. Then, the right pane has the **Other Info** heading with the **Age**column.

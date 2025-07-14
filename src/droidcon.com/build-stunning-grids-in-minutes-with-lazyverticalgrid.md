@@ -54,7 +54,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-
 
 ![Jetpack Compose `LazyVerticalGrid` in action in the NHL Hockey app on Google Play.](https://droidcon.com/wp-content/uploads/2024/10/1_L595ZfuVwNGgoBuPr5mzBQ-600x600.webp)
 
-Want to create stunning grid layouts in your Jetpack Compose app? Look no further than `LazyVerticalGrid`. This powerful tool **simplifies** the process of designing and implementing efficient grid-based interfaces. In this comprehensive tutorial, I’ll share my insights and experience using `LazyVerticalGrid` in a real-world **production** app on Google Play. I’ll explore its key features, best practices, and practical tips to help you create stunning grids that captivate your users. 🤓
+Want to create stunning grid layouts in your Jetpack Compose app? Look no further than`LazyVerticalGrid`. This powerful tool**simplifies**the process of designing and implementing efficient grid-based interfaces. In this comprehensive tutorial, I’ll share my insights and experience using`LazyVerticalGrid`in a real-world**production**app on Google Play. I’ll explore its key features, best practices, and practical tips to help you create stunning grids that captivate your users. 🤓
 
 **To populate the grid with player data, I make a network call to retrieve information for the selected season.** Here’s how I have implemented that:
 
@@ -89,16 +89,16 @@ suspend fun getSkatersAndGoalies(season: String) {
 }
 ```
 
-- **Fetch player data:** Use `repository.getAllNhlPlayers(season)` to retrieve player data for the specified season.
-- **Handle errors:** Catch any exceptions that might occur during the network call and emit an error state to the UI.
-- **Sort players:** Combine the forwards, defensemen, and goalies, then sort them by last name.
-- **Emit success:** Emit a success state to the UI, including the sorted players and the transformed season string.
+- **Fetch player data:**Use`repository.getAllNhlPlayers(season)`to retrieve player data for the specified season.
+- **Handle errors:**Catch any exceptions that might occur during the network call and emit an error state to the UI.
+- **Sort players:**Combine the forwards, defensemen, and goalies, then sort them by last name.
+- **Emit success:**Emit a success state to the UI, including the sorted players and the transformed season string.
 
 ---
 
 ## UI Composable
 
-**Now I bring the state to life by connecting it to the UI components.** Here’s how I’ve implemented it:
+**Now I bring the state to life by connecting it to the UI components.**Here’s how I’ve implemented it:
 
 ```kotlin
 @Composable
@@ -147,7 +147,7 @@ fun ShowLazyVerticalGridPlayers(uiState: PlayersUiState.Success, navController: 
 }
 ```
 
-The `LazyVerticalGrid` component creates a grid layout with 3 columns. It applies padding around the grid and its content, and populates the grid with `PlayerCell` components based on the `players` list.
+The`LazyVerticalGrid`component creates a grid layout with 3 columns. It applies padding around the grid and its content, and populates the grid with`PlayerCell`components based on the`players`list.
 
 ---
 
@@ -157,11 +157,11 @@ The `LazyVerticalGrid` component creates a grid layout with 3 columns. It appl
 
 ::: note
 
-You shouldn’t pass ViewModel instances down to other composables. (You can’t build **@Preview**) ❌👀
+You shouldn’t pass ViewModel instances down to other composables. (You can’t build**@Preview**) ❌👀
 
 — Instead —
 
-Use: **Property drilling**
+Use:**Property drilling**
 
 “Property drilling” refers to passing data through several nested children components to the location where they’re read.
 
@@ -171,7 +171,7 @@ Use: **Property drilling**
 
 ## The Cell
 
-**The `PlayerCell` composable displays each player’s information in a simple card format.** It includes the player’s headshot, name, and a “PROFILE” button to navigate to their details. Here’s how it’s structured:
+**The `PlayerCell` composable displays each player’s information in a simple card format.**It includes the player’s headshot, name, and a “PROFILE” button to navigate to their details. Here’s how it’s structured:
 
 ```kotlin
 @Composable
@@ -222,7 +222,7 @@ fun PlayerCell(player: Player, navController: NavController) {
 
 ## `@Preview` the Grid in Android Studio
 
-`ShowLazyVerticalGridPlayersScreenPreview` composable, allowing developers to visualize how the `ShowLazyVerticalGridPlayersScreen` component will look and behave without running the entire app. It uses a `@Preview` annotation to specify the preview configuration and provides a sample list of players to populate the grid.
+`ShowLazyVerticalGridPlayersScreenPreview`composable, allowing developers to visualize how the`ShowLazyVerticalGridPlayersScreen`component will look and behave without running the entire app. It uses a`@Preview`annotation to specify the preview configuration and provides a sample list of players to populate the grid.
 
 ```kotlin
 @RequiresApi(Build.VERSION_CODES.O)
@@ -278,11 +278,11 @@ fun `getSkatersAndGoalies() should emit list of skaters`() = runTest {
 }
 ```
 
-Major tech companies (*PayPal, Google, Meta, Salesforce…*) **value engineers who understand the significance of testing** for building reliable and high-quality applications and may help you land that big bank jobby-job. 🤞🏽😃💰
+Major tech companies (*PayPal, Google, Meta, Salesforce…*)**value engineers who understand the significance of testing**for building reliable and high-quality applications and may help you land that big bank jobby-job. 🤞🏽😃💰
 
-**That’s a wrap!** With `LazyVerticalGrid`, you’ve unlocked the power to build stunning grid layouts in your Jetpack Compose app. Ready to see it in action? [**<FontIcon icon="fa-brands fa-google-play"/>Download the NHL Hockey app on Google Play**](https://play.google.com/store/apps/dev?id=7614313297301862853&hl=en_US) and experience the magic firsthand. Don’t forget to leave a review and let me know what you think!
+**That’s a wrap!**With`LazyVerticalGrid`, you’ve unlocked the power to build stunning grid layouts in your Jetpack Compose app. Ready to see it in action?[**<FontIcon icon="fa-brands fa-google-play"/>Download the NHL Hockey app on Google Play**](https://play.google.com/store/apps/dev?id=7614313297301862853&hl=en_US)and experience the magic firsthand. Don’t forget to leave a review and let me know what you think!
 
-🗣️: reach out on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`BrickyardApps`)](https://x.com/BrickyardApps) or [Insta (<FontIcon icon="fa-brands fa-instagram"/>`brickyardmobile`)](https://instagram.com/brickyardmobile)
+🗣️: reach out on[X (<FontIcon icon="fa-brands fa-x-twitter"/>`BrickyardApps`)](https://x.com/BrickyardApps)or[Insta (<FontIcon icon="fa-brands fa-instagram"/>`brickyardmobile`)](https://instagram.com/brickyardmobile)
 
 <SiteInfo
   name="Android Apps by Brickyard Mobile on Google Play"

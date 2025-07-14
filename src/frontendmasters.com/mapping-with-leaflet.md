@@ -55,7 +55,7 @@ It *seems* relatively simple: you have some data that involves location and you 
 
 *But how do you choose which service to use?*
 
-Most folks default to Google Maps, which is a very powerful platform, but also comes with probably way more than you need, and has a cost involved at a certain level. What if there were a simpler, smaller, and dare I say, *free and open source* alternative? [<FontIcon icon="fas fa-globe"/>Leaflet.js](https://leafletjs.com/) is exactly that.
+Most folks default to Google Maps, which is a very powerful platform, but also comes with probably way more than you need, and has a cost involved at a certain level. What if there were a simpler, smaller, and dare I say, *free and open source* alternative?[<FontIcon icon="fas fa-globe"/>Leaflet.js](https://leafletjs.com/)is exactly that.
 
 Leaflet is incredibly simple and flexible. It lets you quickly add interactive maps to your web pages with little overhead.
 
@@ -93,7 +93,7 @@ The map will need a size of some sort, so I used the following CSS:
 }
 ```
 
-If you follow the [<FontIcon icon="fas fa-globe"/>Leaflet Quick Start](https://leafletjs.com/examples/quick-start/), you can see two dependencies that need adding, first, a CSS resource:
+If you follow the[<FontIcon icon="fas fa-globe"/>Leaflet Quick Start](https://leafletjs.com/examples/quick-start/), you can see two dependencies that need adding, first, a CSS resource:
 
 ```html
 <link 
@@ -299,13 +299,13 @@ This one method handles the click interaction, creating the popup, even automati
 
 ## What Else?
 
-This introduction only scratches the surface of what’s possible and you should peruse the [<FontIcon icon="fas fa-globe"/>docs](https://leafletjs.com/reference.html) for a full idea. Leaflet is great, and free, but, you should also be aware of some of the things you *don’t* get that you would with Google Maps or [<FontIcon icon="fas fa-globe"/>HERE](https://maps.here.com/?map=44.09044,-120.73045,8.44). These include the various ‘services’, like
+This introduction only scratches the surface of what’s possible and you should peruse the[<FontIcon icon="fas fa-globe"/>docs](https://leafletjs.com/reference.html)for a full idea. Leaflet is great, and free, but, you should also be aware of some of the things you*don’t*get that you would with Google Maps or [<FontIcon icon="fas fa-globe"/>HERE](https://maps.here.com/?map=44.09044,-120.73045,8.44). These include the various ‘services’, like
 
 - Routing
 - Traffic information
 - Geocoding (and Reverse Geocoding)
 
-This doesn’t mean you can’t make use of those services *along* with Leaflet. I discussed an example of this late last year: [<FontIcon icon="fas fa-globe"/>“Using Geocoding with Leaflet”](https://raymondcamden.com/2024/10/04/using-geocoding-with-leaflet). That being said, keep this in mind when planning your projects as it may impact your decision on whether or not to use the library.
+This doesn’t mean you can’t make use of those services*along*with Leaflet. I discussed an example of this late last year:[<FontIcon icon="fas fa-globe"/>“Using Geocoding with Leaflet”](https://raymondcamden.com/2024/10/04/using-geocoding-with-leaflet). That being said, keep this in mind when planning your projects as it may impact your decision on whether or not to use the library.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -91,7 +91,7 @@ Use a nested element (`.inner`) or a stacked element to create the small box. Th
 }
 ```
 
-The larger square box (`.outer`) and the smaller rectangle box (`.inner`) share the same `border-radius` value (`12px`).
+The larger square box (`.outer`) and the smaller rectangle box (`.inner`) share the same`border-radius`value (`12px`).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/pLA9AZ0M-1.png?resize=1024%2C614&ssl=1)
 
@@ -99,7 +99,7 @@ The larger square box (`.outer`) and the smaller rectangle box (`.inner`) share 
 
 ## The Smaller Box
 
-Add an `outline` of the same color as the page.
+Add an`outline`of the same color as the page.
 
 ```css
 .inner {
@@ -116,11 +116,11 @@ That’s all we need to do with the inner box.
 
 ## The Bigger Box
 
-Add two small `radial-gradient()` background images to the larger box’s background.
+Add two small`radial-gradient()`background images to the larger box’s background.
 
-1. Position the images where the smaller box’s corners overlap, with a negative offset equal to the *outline* size (`8px`).
-2. The *border radius* (`12px`) plus the smaller box’s *outline* (`8px`) equals the images’ size (`20px 20px`).
-3. The *gradients* are transparent circles the same size as the *border radius* (`12px`), with the rest white
+1. Position the images where the smaller box’s corners overlap, with a negative offset equal to the*outline*size (`8px`).
+2. The*border radius*(`12px`) plus the smaller box’s*outline*(`8px`) equals the images’ size (`20px 20px`).
+3. The*gradients*are transparent circles the same size as the*border radius*(`12px`), with the rest white
 
 ```css
 .outer {
@@ -140,7 +140,7 @@ The code is complete. You’ll get the final result as is. However, let’s make
 
 ## CSS Variables
 
-For ease of update, I’ll move the *length* values to CSS variables, and for clarity, I’ll list each of the `background-` properties separately.
+For ease of update, I’ll move the*length*values to CSS variables, and for clarity, I’ll list each of the`background-`properties separately.
 
 ```css :collapsed-lines
 .outer {
@@ -188,7 +188,7 @@ For ease of update, I’ll move the *length* values to CSS variables, and for 
 
 ## All Four Corner Placements
 
-Place the smaller box in the desired corner against the bigger one, and update the radial gradient image positions and circles accordingly.
+Place the smaller box in the desired corner against the bigger one, and update theradial gradientimage positions andcirclesaccordingly.
 
 ```css :collapsed-lines
 .outer {
@@ -236,7 +236,7 @@ Place the smaller box in the desired corner against the bigger one, and update t
 }
 ```
 
-The larger box in the example is a square, so `100%` is used in calculating the *radial gradient* images’ positions both vertically and horizontally where needed.
+The larger box in the example is a square, so`100%`is used in calculating the*radial gradient*images’ positions both vertically and horizontally where needed.
 
 <CodePen
   user="rpsthecoder"
@@ -249,7 +249,7 @@ The larger box in the example is a square, so `100%` is used in calculating th
 
 ## How to Use The Design?
 
-Since the design uses an *imitation* of a gap, effects like drop shadow that require cutouts won’t work. However, no extra markup or style changes are needed, only the background is affected, making it suitable for simple designs.
+Since the design uses an*imitation*of a gap, effects like drop shadow that require cutouts won’t work. However, no extra markup or style changes are needed, only the background is affected, making it suitable for simple designs.
 
 <CodePen
   user="rpsthecoder"

@@ -28,7 +28,7 @@ prev: /programming/js-react/articles/README.md
 date: 2022-04-13
 isOriginal: false
 author: Joel Olawanle
-cover: https://www.freecodecamp.org/news/content/images/2022/04/cover-template.png
+cover: https://freecodecamp.org/news/content/images/2022/04/cover-template.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/04/cover-template.p
   desc="By Joel Olawanle React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for creating UI component-based user interfaces.  React is maintained by Meta (previously Facebook) along with a community of individual..."
   url="https://freecodecamp.org/news/get-started-with-react-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/04/cover-template.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/04/cover-template.png"/>
 
 React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for creating UI component-based user interfaces.
 

@@ -154,7 +154,7 @@ Add the text to the `p` elements, then click on the first layout in the **CSS** 
 
 To remove the bullet symbols, change the **list-style** property in the `ul` element to **none**. Add a black background by specifying **background-color** of **#42a7f5** for the **div-0**.
 
-Next, align the elements and change the font to white by adding a **margin-right** of **7px** and a color of **#fff** to each `li` element.
+Next, align the elements and change the font to white by adding a**margin-right** of **7px** and a color of **#fff** to each `li` element.
 
 ![Home About Products Blue Header](/assets/image/blog.logrocket.com/build-react-reusable-components-faster-aspect/home-about-products-blue-header.png)
 
@@ -168,7 +168,7 @@ To style the child layout, click on **div-1** and go to the **CSS > QUICK LAYOUT
 
 ![Products Line](/assets/image/blog.logrocket.com/build-react-reusable-components-faster-aspect/products-line.png)
 
-Next, insert another `div` inside **div-2** to hold the product details. Inside the **div-3** insert two `p`, one `img`, and one `button`. Change the **text** property of the **p-3** element to “Techno m16”, and change the **text** property of the **p-4** element to **Price: $200**. Next, add a `p` to the **button** and set the **text** property to “Add to cart”.
+Next, insert another `div` inside **div-2** to hold the product details. Inside the **div-3** insert two `p`, one `img`, and one `button`. Change the **text** property of the **p-3**element to “Techno m16”, andchange the **text** property ofthe **p-4** elementto **Price: $200**. Next, add a `p` to the **button** and set the **text** property to “Add to cart”.
 
 Now, change the **font-size** properties of all the `p` elements in **div-3** to **12px** and set the **align** properties to **center**.
 

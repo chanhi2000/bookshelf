@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Anjan Baradwaj
     url : https://freecodecamp.org/news/author/anjanbaradwaj/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/Creational.png
+cover: https://freecodecamp.org/news/content/images/2024/07/Creational.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/Creational.png
   desc="Design Patterns provide you with an idea or a strategy for solving commonly occurring problems. They are proven solutions that follow the best practices and help you make your code flexible, reusable, and maintainable. The design patterns are classif..."
   url="https://freecodecamp.org/news/creational-design-patterns-in-java"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/Creational.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/Creational.png"/>
 
 Design Patterns provide you with an idea or a strategy for solving commonly occurring problems. They are proven solutions that follow the best practices and help you make your code flexible, reusable, and maintainable.
 

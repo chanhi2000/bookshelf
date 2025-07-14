@@ -83,9 +83,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4742"/>
 
-[<FontIcon icon="fa-brands fa-fly"/>Fly.io](https://fly.io/) is an increasingly popular infrastructure platform. Fly is a place to deploy your applications, similar to Vercel or Netlify, but with some different tradeoffs.
+[<FontIcon icon="fa-brands fa-fly"/>Fly.io](https://fly.io/)is an increasingly popular infrastructure platform. Fly is a place to deploy your applications, similar to Vercel or Netlify, but with some different tradeoffs.
 
-This post will introduce the platform, show how to deploy web apps, stand up databases, and some other fun things. If you leave here wanting to learn more, [<FontIcon icon="fa-brands fa-fly"/>the docs are here](https://fly.io/docs/) and are outstanding.
+This post will introduce the platform, show how to deploy web apps, stand up databases, and some other fun things. If you leave here wanting to learn more, [<FontIcon icon="fa-brands fa-fly"/>the docsare here](https://fly.io/docs/)and are outstanding.
 
 ---
 
@@ -117,15 +117,15 @@ If you’d like to go deeper on Docker, our course [<FontIcon icon="fas fa-globe
 
 ## Let’s launch an app!
 
-Let’s ship something. We’ll create a brand new Next.js app, using the standard scaffolding [<FontIcon icon="iconfont icon-nextjs"/>here](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Let’s ship something. We’ll create a brand new Next.js app, using the standard scaffolding[<FontIcon icon="iconfont icon-nextjs"/>here](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-We’ll create an app, run `npm i` and then `npm run dev` and verify that it works.
+We’ll create an app, run`npm i`and then`npm run dev`and verify that it works.
 
 ![screenshot of a running Next.js app](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-1-next-app.png?resize=1024%2C764&ssl=1)
 
-Now let’s deploy it to Fly. If you haven’t already, install the Fly CLI, and sign up for an account. Instructions can be found in the first few steps of the [<FontIcon icon="fa-brands fa-fly"/>quick start guide](https://fly.io/docs/getting-started/launch/).
+Now let’s deploy it to Fly. If you haven’t already, install the Fly CLI, and sign up for an account. Instructions can be found in the first few steps of the[<FontIcon icon="fa-brands fa-fly"/>quick start guide](https://fly.io/docs/getting-started/launch/).
 
-To deploy an app on Fly, you need to containerize your app. We *could* manually piece together a valid Dockerfile that would run our Next app, and then run `fly deploy`. But that’s a tedious process. Thankfully Fly has made life easier for us. Instead, we can just run `fly launch` from our app’s root directory.
+To deploy an app on Fly, you need to containerize your app. We*could*manually piece together a valid Dockerfile that would run our Next app, and then run`fly deploy`. But that’s a tedious process. Thankfully Fly has made life easier for us. Instead, we can just run`fly launch`from our app’s root directory.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-2-fly-launch-initial.png?resize=1024%2C419&ssl=1)
 
@@ -141,7 +141,7 @@ Hit confirm, and return to your command line. It should finish setting everythin
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-5-cli-finish.png?resize=1024%2C454&ssl=1)
 
-If we head over to our [<FontIcon icon="fa-brands fa-fly"/>Fly dashboard](https://fly.io/dashboard), we should see something like this:
+If we head over to our[<FontIcon icon="fa-brands fa-fly"/>Fly dashboard](https://fly.io/dashboard), we should see something like this:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-6-fly-dashboard.png?resize=1024%2C349&ssl=1)
 
@@ -232,7 +232,7 @@ We copy the <FontIcon icon="iconfont icon-json"/>`package.json` and lockfiles.
 COPY package-lock.json package.json ./
 ```
 
-Then run `npm i` (but *in* our Docker image):
+Then run`npm i`(but *in* our Docker image):
 
 ```dockerfile title="Dockerfile"
 RUN npm ci --include=dev
@@ -253,11 +253,11 @@ RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential node-gyp pkg-config python-is-python3
 ```
 
-That tells the Linux package manager to install some things Fly thinks Next might need, but in actuality [probably doesn’t (<FontIcon icon="fa-brands fa-x-twitter"/>`leeerob`)](https://x.com/leeerob/status/1862312276985868783). Don’t be surprised if these lines are absent when you read this, and try for yourself.
+That tells the Linux package manager to install some things Fly thinks Next might need, but in actuality[probably doesn’t (<FontIcon icon="fa-brands fa-x-twitter"/>`leeerob`)](https://x.com/leeerob/status/1862312276985868783). Don’t be surprised if these lines are absent when you read this, and try for yourself.
 
-Lastly, if you were wondering why the <FontIcon icon="iconfont icon-json"/>`package.json` and lockfiles were copied, followed by `npm install` *and then* followed by copying the rest of the application code, the reason is (Docker) performance. Briefly, each line in the Dockerfile creates a “layer.” These layers can be cached and re-used if nothing has changed. If anything *has* changed, that invalidates the cache for that layer, *and also* all layers after it. So you’ll want to push your likely-to-change work as low as possible. Your application code will almost always change between deployments; the dependencies in your <FontIcon icon="iconfont icon-json"/>`package.json` will change much less frequently. So we do that install first, by itself, so it will be more likely to be cached, and speed up our builds.
+Lastly, if you were wondering why the <FontIcon icon="iconfont icon-json"/>`package.json` and lockfiles were copied, followed by`npm install`*and then*followed by copying the rest of the application code, the reason is (Docker) performance. Briefly, each line in the Dockerfile creates a “layer.” These layers can be cached and re-used if nothing has changed. If anything*has*changed, that invalidates the cache for that layer,*and also*all layers after it. So you’ll want to push your likely-to-change work as low as possible. Your application code will almost always change between deployments; the dependencies in your <FontIcon icon="iconfont icon-json"/>`package.json` will change much less frequently. So we do that install first, by itself, so it will be more likely to be cached, and speed up our builds.
 
-I tried my best to provide the absolute minimal amount of a Docker intro to make this post make sense, without being overhwelming. I hope I’ve succeeded. If you’d like to learn more, there’s tons of books and YouTube videos, and even an entire course [<FontIcon icon="fas fa-globe"/>here on Frontend Masters](https://frontendmasters.com/courses/complete-intro-containers-v2/).
+I tried my best to provide the absolute minimal amount of a Docker intro to make this post make sense, without being overhwelming. I hope I’ve succeeded. If you’d like to learn more, there’s tons of books and YouTube videos, and even an entire course[<FontIcon icon="fas fa-globe"/>here on Frontend Masters](https://frontendmasters.com/courses/complete-intro-containers-v2/).
 
 ---
 
@@ -288,7 +288,7 @@ primary_region = 'iad'
   size = 'shared-cpu-1x'
 ```
 
-This is basically the config file for the Fly app. The options for this file are almost endless, and are documented [<FontIcon icon="fa-brands fa-fly"/>here](https://fly.io/docs/reference/configuration/). The three most important lines are the next three.
+This is basically the config file for the Fly app. The options for this file are almost endless, and are documented[<FontIcon icon="fa-brands fa-fly"/>here](https://fly.io/docs/reference/configuration/). The three most important lines are the next three.
 
 ```toml title="fly.toml"
 auto_stop_machines = 'stop'
@@ -308,17 +308,17 @@ min_machines_running = 0
 
 That line allows us to tell Fly to always keep a minimum number of machines running, no matter how minimal your current traffic is. Setting it to zero allows for no machines to be running, which means your next visitor will see a slow response as the first machine spins up.
 
-You may have noticed above that Fly spun up two machines initially, even though there was no traffic at all. It does this by default to give your app a higher availability, that is, in case anything happens to the one machine, the other will (hopefully) still be up and running. If you don’t want or need this, you can prevent it by passing `--ha=false` when you run `fly launch` or `fly deploy` (or you can just kill one of the machines in the dashboard – Fly will not re-create it on subsequent deploys).
+You may have noticed above that Fly spun up two machines initially, even though there was no traffic at all. It does this by default to give your app a higher availability, that is, in case anything happens to the one machine, the other will (hopefully) still be up and running. If you don’t want or need this, you can prevent it by passing`--ha=false`when you run`fly launch`or`fly deploy`(or you can just kill one of the machines in the dashboard – Fly will not re-create it on subsequent deploys).
 
 ### Machines won’t bill you if they’re not running
 
-When a machine is not running, you’ll be billed *essentially* zero for it. You’ll just pay $0.15 per GB, per month, per machine (machines will usually have only one GB).
+When a machine is not running, you’ll be billed*essentially*zero for it. You’ll just pay $0.15 per GB, per month, per machine (machines will usually have only one GB).
 
 ---
 
 ## Adding a database
 
-You can launch a Fly app anytime with just a Dockerfile. You could absolutely find an official Postgres Docker image and deploy from that. But it turns out Fly has this built in. Let’s run `fly postgres create` in a terminal, and see what happens
+You can launch a Fly app anytime with just a Dockerfile. You could absolutely find an official Postgres Docker image and deploy from that. But it turns out Fly has this built in. Let’s run`fly postgres create`in a terminal, and see what happens
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-10-fly-pg-created.png?resize=1024%2C381&ssl=1)
 
@@ -328,7 +328,7 @@ It’ll ask you for a name and a region, and then how serious of a Postgres setu
 
 ![Fly postgres create](https://i0.wp.com/adam-rackis-blog-staging.fly.dev/fly-io/img-10-fly-pg-created.png?ssl=1)
 
-The connection string listed at the bottom can be used to connect to your db *from within another Fly app* (which you own). But to run database creation and migration scripts, and for local development you’ll need to connect to this db on your local machine. To do that, you can run this:
+The connection string listed at the bottom can be used to connect to your db*from within another Fly app*(which you own). But to run database creation and migration scripts, and for local development you’ll need to connect to this db on your local machine. To do that, you can run this:
 
 ```sh
 fly proxy 5432 -a <YOUR_APP_NAME>
@@ -336,7 +336,7 @@ fly proxy 5432 -a <YOUR_APP_NAME>
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/img-11-fly-proxy.png?resize=902%2C122&ssl=1)
 
-[<FontIcon icon="fa-brands fa-fly"/>Now you can connect](https://fly.io/docs/postgres/connecting/) via the same connection string on your local machine, but on `localhost:5432` instead of `flycast:5432`.
+[<FontIcon icon="fa-brands fa-fly"/>Now you can connect](https://fly.io/docs/postgres/connecting/) via the same connection string on your local machine, but on`localhost:5432`instead of`flycast:5432`.
 
 ### Making your database publicly available
 
@@ -344,7 +344,7 @@ It’s not ideal, but if you want to [<FontIcon icon="fa-brands fa-fly"/>make yo
 
 ### Consider using a dedicated host for serious applications
 
-Fly’s [<FontIcon icon="fa-brands fa-fly"/>built-in Postgres support](https://fly.io/docs/postgres/) is superb, but there’s some things you’ll have to [<FontIcon icon="fa-brands fa-fly"/>manage yourself](https://fly.io/docs/postgres/getting-started/what-you-should-know/#heres-what-you-manage). If that’s not for you, [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/) is a fully managed pg host, and it’s also superb. Fly even has [<FontIcon icon="fa-brands fa-fly"/>a service](https://fly.io/docs/supabase/) for creating Supabase db’s on Fly infra, for extra low latency. It’s currently only in public alpha, but it might be worth keeping an eye on.
+Fly’s[<FontIcon icon="fa-brands fa-fly"/>built-in Postgres support](https://fly.io/docs/postgres/)is superb, but there’s some things you’ll have to[<FontIcon icon="fa-brands fa-fly"/>manage yourself](https://fly.io/docs/postgres/getting-started/what-you-should-know/#heres-what-you-manage). If that’s not for you,[<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/)is a fully managed pg host, and it’s also superb. Fly even has[<FontIcon icon="fa-brands fa-fly"/>a service](https://fly.io/docs/supabase/)for creating Supabase db’s on Fly infra, for extra low latency. It’s currently only in public alpha, but it might be worth keeping an eye on.
 
 ---
 
@@ -360,9 +360,9 @@ But sometimes it’s fun to tinker, especially for side projects. So let’s kic
 
 One of Fly’s greatest strengths is its flexibility. You give it a Dockerfile, and it’ll run it. To drive that point home, let’s conclude this post with a fun example.
 
-As much as I love Fly, it makes me a *little* uneasy that my database is running isolated in some VM under my account. Accidents happen, and I’d want automatic backups. Why don’t we build a Docker image to do just that?
+As much as I love Fly, it makes me a*little*uneasy that my database is running isolated in some VM under my account. Accidents happen, and I’d want automatic backups. Why don’t we build a Docker image to do just that?
 
-I’ll want to run a script, written in TypeScript, preferably without hating my life: Bun is ideal for this. I’ll also need to run the actual `pg_dump` command. So what should I build my Dockerfile from: the bun image, which would lack to pg utilities, or the pg base, which wouldn’t have bun installed. I could do either, and use the Linux package manager to install what I need. But really, there’s a simpler way: use a multi-stage Docker build. Let’s see the whole Dockerfile
+I’ll want to run a script, written in TypeScript, preferably without hating my life: Bun is ideal for this. I’ll also need to run the actual`pg_dump`command. So what should I build my Dockerfile from: the bun image, which would lack to pg utilities, or the pg base, which wouldn’t have bun installed. I could do either, and use the Linux package manager to install what I need. But really, there’s a simpler way: use a multi-stage Docker build. Let’s see the whole Dockerfile
 
 ```dockerfile :collapsed-lines title="Dockerfile"
 FROM oven/bun:latest AS BUILDER
@@ -385,7 +385,7 @@ RUN chmod +x ./run-backup.sh
 CMD ["./run-backup.sh"]
 ```
 
-We start with a Bun image. We run a `bun install` to tell Bun to install what we need: aws sdk’s and such. Then we tell Bun to compile our script into a standalone executable: yes, Bun can do that, and yes: it’s that easy.
+We start with a Bun image. We run a`bun install`to tell Bun to install what we need: aws sdk’s and such. Then we tell Bun to compile our script into a standalone executable: yes, Bun can do that, and yes: it’s that easy.
 
 ```dockerfile title="Dockerfile"
 FROM postgres:16.4
@@ -403,7 +403,7 @@ RUN chmod +x ./run-backup.sh
 CMD ["./run-backup.sh"]
 ```
 
-This drops into the <FontIcon icon="fas fa-folder-open"/>`/app` folder from the prior step, and copies over the `run-pg_dump` file, which Bun compiled for us, and also copies over <FontIcon icon="iconfont icon-shell"/>`run-backup.sh`. This is a shell script I wrote. It runs `pg_dump` a few times, to generate the files the Bun script (`run-pg_dump`) is expecting, and then calls it. Here’s what that file looks like:
+This drops into the <FontIcon icon="fas fa-folder-open"/>`/app` folder from the prior step, and copies over the`run-pg_dump`file, which Bun compiled for us, and also copies over<FontIcon icon="iconfont icon-shell"/>`run-backup.sh`. This is a shell script I wrote. It runs`pg_dump`a few times, to generate the files the Bun script (`run-pg_dump`) is expecting, and then calls it. Here’s what that file looks like:
 
 ```sh{1} title="run-backup.sh"
 #!/bin/sh
@@ -483,15 +483,15 @@ To see this whole thing all together, in one place, you can [see it in my GitHub
 
 ### Scheduling a custom job
 
-We have a working, valid Docker image. How do we tell Fly to run it on an interval? Fly has a command just for that: [<FontIcon icon="fa-brands fa-fly"/>`fly machine run`](https://fly.io/docs/flyctl/machine-run/). In fact, it can take a `schedule` argument, to have Fly run it on an interval. Unfortunately, the options are horribly limited: only hourly, daily, and monthly. But, as a workaround you can run this command at different times: this will set up executions at whatever interval you selected, scheduled off of when you ran the command.
+We have a working, valid Docker image. How do we tell Fly to run it on an interval? Fly has a command just for that:[<FontIcon icon="fa-brands fa-fly"/>`fly machine run`](https://fly.io/docs/flyctl/machine-run/). In fact, it can take a`schedule`argument, to have Fly run it on an interval. Unfortunately, the options are horribly limited: only hourly, daily, and monthly. But, as a workaround you can run this command at different times: this will set up executions at whatever interval you selected, scheduled off of when you ran the command.
 
 ```sh
 fly machine run . --schedule=daily
 ```
 
-If you ran that command at noon, that will schedule a daily task that runs at noon every day. If you run that command again at 5pm, it will schedule a *second* task to run daily, at 5pm (without interfering with the first). Each job will have a dedicated machine, but will be idle when not running, which means it will cost you almost nothing; you’ll pay the normal $0.15 per month, per GB on the machine.
+If you ran that command at noon, that will schedule a daily task that runs at noon every day. If you run that command again at 5pm, it will schedule a*second*task to run daily, at 5pm (without interfering with the first). Each job will have a dedicated machine, but will be idle when not running, which means it will cost you almost nothing; you’ll pay the normal $0.15 per month, per GB on the machine.
 
-I hate this limitation in scheduling machines. In theory there’s [a true cron job template here (<FontIcon icon="iconfont icon-github"/>`fly-apps/cron-manager`)](https://github.com/fly-apps/cron-manager), but it’s not the simplest thing to look through.
+I hate this limitation in scheduling machines. In theory there’s [a true cron job templatehere (<FontIcon icon="iconfont icon-github"/>`fly-apps/cron-manager`)](https://github.com/fly-apps/cron-manager), but it’s not the simplest thing to look through.
 
 <SiteInfo
   name="fly-apps/cron-manager"
@@ -508,7 +508,7 @@ That was a lot. Let’s lighten things up a bit with some happy odds and ends, b
 
 ### Custom domains
 
-Fly makes it easy to add a custom domain to your app. You’ll just need to add the right records. [<FontIcon icon="fa-brands fa-fly"/>Full instructions are here](https://fly.io/docs/networking/custom-domain/).
+Fly makes it easy to add a custom domain to your app. You’ll just need to add the right records. [<FontIcon icon="fa-brands fa-fly"/>Full instructions arehere](https://fly.io/docs/networking/custom-domain/).
 
 ### Secrets
 
@@ -518,7 +518,7 @@ You’ll probably have some secrets you want run in your app, in production. If 
 
 ## Learning More
 
-This post started brushing up against some full-stack topics. If this sparked your interest, be sure to check out the [<FontIcon icon="fas fa-globe"/>entire course on full-stack engineering](https://frontendmasters.com/courses/fullstack-v3/) here on Frontend Masters.
+This post started brushing up against some full-stack topics. If this sparked your interest, be sure to check out the[<FontIcon icon="fas fa-globe"/>entire courseon full-stack engineering](https://frontendmasters.com/courses/fullstack-v3/) here on Frontend Masters.
 
 ---
 

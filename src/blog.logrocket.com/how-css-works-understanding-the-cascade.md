@@ -58,7 +58,7 @@ The cascade is inherent to working with CSS — after all, it is what gives 
 
 ---
 
-## Defining the cascade
+## Defining thecascade
 
 Since we’ll be talking about the specifics of _how_ the CSS Cascade works, it’ll be helpful for us all to be on the same page.
 
@@ -109,13 +109,13 @@ As far as the _origin_ of a CSS rule goes, there are three places that a rule ca
 2. **_User_**: These are defined and controlled by the user of the browser. Not everyone will have one, but when people do add one, it’s usually for overriding styles & adding accessibility to websites.
 3. **_Author_**: This is CSS declared *by the HTML document*. When we’re writing stuff as front-end developers this is really the only origin that we have in our control.
 
-The *importance* of a CSS declaration is determined by the appropriately-named `!important` syntax. Adding `!important` to a CSS rule automatically jumps it to the front of the cascade algorithm, which is why it’s often discouraged. Overriding styles that use `!important` can only be done with other rules that use `!important`, which over time can make your CSS more brittle. Many people (myself included) recommend that you only use `!important` as an escape hatch for when all else fails (such as when working with 3rd-party styles).
+The *importance* of a CSS declaration is determined by the appropriately-named`!important` syntax. Adding`!important` to a CSS rule automatically jumps it to the front of the cascade algorithm, which is why it’s often discouraged. Overriding styles that use`!important` can only be done with other rules that use`!important`, which over time can make your CSS more brittle. Many people (myself included) recommend that you only use`!important` as an escape hatch for when all else fails (such as when working with 3rd-party styles).
 
 The cascade algorithm considers the _combination_ of these 2 attributes when figuring out which declaration wins. Each combination is given a weight (similar to the way parts of a CSS declaration are weighted), and the declaration with the highest weight wins. Here are the various combinations of origin & importance that the browser considers, listed in order from _highest weight_ to _least weight_.
 
-1. User-Agent & `!important`
-2. User & `!important`
-3. Author & `!important`
+1. User-Agent &`!important`
+2. User &`!important`
+3. Author &`!important`
 4. CSS Animations, `@keyframes` (This is the only exception, it is still originating from the _author_, but as animations are temporary/fleeting the browser weights them slightly higher than normal author rules)
 5. Author, normal weight
 6. User, normal weight
@@ -129,7 +129,7 @@ However, if the conflicting declarations have the same level of importance/origi
 
 The second weight in the CSS cascade is _selector specificity_. In this tier, the browser looks at the _selectors_ used in the CSS declaration.
 
-As a front-end developer, you only have control over the “author” origin stylesheets on your websites — you can’t do much to change the _origin_ of a rule. However, if you’re staying away from using `!important` in your code, you’ll find that you have a lot of control over the cascade at the specificity tier.
+As a front-end developer, you only have control over the “author” origin stylesheets on your websites — you can’t do much to change the _origin_ of a rule. However, if you’re staying away from using`!important` in your code, you’ll find that you have a lot of control over the cascade at the specificity tier.
 
 Similar to the way that the combinations of origin & importance each have their own weight, different types of CSS selectors are assigned priority. When evaluating specificity, the number of selectors and their priority are considered. CSS selectors can belong to one of the following weighted tiers.
 
@@ -152,7 +152,7 @@ If you have 2 CSS declarations with the same number of high-priority selectors, 
 
 Many people like to manage specificity by simply *not relying on it*. Keeping your selector specificity low makes sure that your CSS rules stay flexible.
 
-In my experience, if you default to only using `class` selectors for your custom styles and `element` selectors for your default styles, it’s *way* easier to override styles when you actually need to. If your CSS declarations have very high selector specificity you find yourself resorting to `!important` more and that can get ugly pretty quickly.
+In my experience, if you default to only using `class` selectors for your custom styles and `element` selectors for your default styles, it’s *way* easier to override styles when you actually need to. If your CSS declarations have very high selector specificity you find yourself resorting to`!important` more and that can get ugly pretty quickly.
 
 #### Source order
 
@@ -185,13 +185,13 @@ div {
 }
 ```
 
-### How does understanding the cascade help me write better CSS?
+### How does understanding the cascade help me write betterCSS?
 
 Since the CSS cascade is one of the more misunderstood parts of CSS (and often the source of a lot of bugs), knowing how it works will give you a huge edge on keeping your stylesheets maintainable.
 
-Knowing how to leverage CSS selector specificity to your advantage is a huge skill — I’ve seen far too much CSS that goes straight to the `!important` escape hatch when a higher-specificity selector would have done the trick. If you’re primarily using class selectors, you can easily do this by nesting selectors or adding another class when you *need* an override.
+Knowing how to leverage CSS selector specificity to your advantage is a huge skill — I’ve seen far too much CSS that goes straight to the`!important` escape hatch when a higher-specificity selector would have done the trick. If you’re primarily using class selectors, you can easily do this by nesting selectors or adding another class when you *need* an override.
 
-However, with better knowledge of the CSS cascade comes higher responsibility. The more specific parts of the cascade (such as `!important`, inline styles, id selector ) tend to result in stylesheets that are harder to update or override in the future. They do come in handy if you working with component libraries that use inline styles or CSS libraries that you don’t control.
+However, with better knowledge of the CSS cascade comes higher responsibility. The more specific parts of the cascade (such as`!important`, inline styles, id selector ) tend to result in stylesheets that are harder to update or override in the future. They do come in handy if you working with component libraries that use inline styles or CSS libraries that you don’t control.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

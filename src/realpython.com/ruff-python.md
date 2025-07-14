@@ -241,7 +241,7 @@ To fix this error, you can amend `ring_bearer()` to take the `name` argument:
 # ...
 
 def ring_bearer(name):
-    return name in ("Frodo", "Sam")
+  return name in ("Frodo", "Sam")
 ```
 
 Now that you’ve made that small edit to the code, you can run `ruff check` again to see if it passes:
@@ -300,7 +300,7 @@ You may be asking the question, why didn’t Ruff pick that up? This is a perfec
 
 ::: info Ruff <FontIcon icon="fas fa-globe"/>docs.astral.sh
 
-> By default, Ruff enables Flake8’s `F` rules, along with a subset of the `E` rules, omitting any stylistic rules that overlap with the use of a formatter, like `ruff format` or Black.
+> By default, Ruff enables Flake8’s`F`rules, along with a subset of the`E`rules, omitting any stylistic rules that overlap with the use of a formatter, like`ruff format`orBlack.
 
 ```component VPCard
 {

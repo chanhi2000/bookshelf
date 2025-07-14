@@ -244,7 +244,7 @@ There is much more to be said about merges – different merge strategies, recur
 
 <SiteInfo
   name="Git Pocket Guide"
-  desc="ChapterÂ 7.Â Merging Merging is the process of combining the recent changes from several branches into a single new commit that is on all those branches. Most often there are …  - Selection from Git Pocket Guide [Book]"
+  desc="ChapterÂ7.ÂMerging Merging is the process of combining the recent changes from several branches into a single new commit that is on all those branches. Most often there are …  - Selection from Git Pocket Guide [Book]"
   url="https://oreilly.com/library/view/git-pocket-guide/9781449327507/ch07.html/"
   logo="https://oreilly.com/favicon.ico"
   preview="https://oreilly.com/library/cover/9781449327507/1200w630h/"/>

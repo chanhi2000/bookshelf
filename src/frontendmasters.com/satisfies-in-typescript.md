@@ -51,13 +51,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6443"/>
 
-This is a post about one of TypeScript’s less common features: the `satisfies` keyword. It’s occasionally incredibly useful, and knowing how to properly wield it is a valuable trick to have up your sleeve. Let’s take a look!
+This is a post about one of TypeScript’s less common features: the`satisfies`keyword. It’s occasionally incredibly useful, and knowing how to properly wield it is a valuable trick to have up your sleeve. Let’s take a look!
 
 ---
 
 ## A quick intro on structural typing
 
-In a nutshell, structural typing means that TypeScript cares only about the *structure* of your values, not the types they were declared with. That means the following code contains no errors:
+In a nutshell, structural typing means that TypeScript cares only about the*structure*of your values, not the types they were declared with. That means the following code contains no errors:
 
 ```ts
 class Thing1 {
@@ -86,7 +86,7 @@ const val = {
 let thing4: Thing1 = val;
 ```
 
-The `Thing1` type only calls for a `name` property that’s a `string`. If you also specify *other* properties, TypeScript is (usually) OK with it. This might seem surprising coming from other languages, but it’s a pragmatic tradeoff given that TypeScript’s primary purpose is to provide some manner of type safety to a completely untyped programming language: JavaScript.
+The`Thing1`type only calls for a `name` property that’s a `string`. If you also specify *other* properties, TypeScript is (usually) OK with it. This might seem surprising coming from other languages, but it’s a pragmatic tradeoff given that TypeScript’s primary purpose is to provide some manner of type safety to a completely untyped programming language: JavaScript.
 
 I said *usually* above because occasionally TypeScript will be a bit stricter about not allowing “extra” values like we saw above. In particular, when assigning an object literal to a variable that’s declared with a type, TypeScript will require a strict matching.
 
@@ -134,7 +134,7 @@ const val3 = {
 } satisfies Thing1;
 ```
 
-That produced the same error we saw before, and the same error we *would have* gotten if we had declared `val3` as `Thing1`.
+That produced the same error we saw before, and the same error we*would have*gotten if we had declared `val3` as`Thing1`.
 
 ```ts
 const val3: Thing1 = {
@@ -152,7 +152,7 @@ The `satisfies` keyword allows you to assert that a certain value “satisfies�
 
 Bear with me.
 
-You’re probably thinking that this is completely pointless, since we can just move `Thing1` up into a proper type declaration, and even save a few keystrokes while doing so!
+You’re probably thinking that this is completely pointless, since we can just move`Thing1`up into a proper type declaration, and even save a few keystrokes while doing so!
 
 But not all situations lend themselves to this solution.
 
@@ -189,13 +189,13 @@ function getBackendResponse(): BackendResponse[] {
 }
 ```
 
-The `getBackendResponse` function is hard coded to return an empty array, but just pretend it makes a request and returns actual data. Then pretend we want to take that data and actually insert it. We have a function to do the inserting; we’re only interested in the types though, so we’ll leave the implementation empty
+The`getBackendResponse`function is hard coded to return an empty array, but just pretend it makes a request and returns actual data. Then pretend we want to take that data and actually insert it. We have a function to do the inserting; we’re only interested in the types though, so we’ll leave the implementation empty
 
 ```ts
 function insertInventoryItems(items: InventoryItem[]) {}
 ```
 
-Let’s put things together. Fetch some items from our external system, manipulate them into the proper structure for our own `InventoryItem` type, and then call our `insertInventoryItems` function
+Let’s put things together. Fetch some items from our external system, manipulate them into the proper structure for our own`InventoryItem`type, and then call our`insertInventoryItems`function
 
 ```js
 function main() {
@@ -214,7 +214,7 @@ function main() {
 
 Unfortunately, **this code has no errors**, even though we completely fat-fingered the `originCode` property.
 
-You already know that TypeScript will allow you to provide “extra” properties in places where excess property checking doesn’t exist, but you may be wondering why it’s not an error that we completely *left off* the real `originCode` property. The reason is that this is an optional property! That makes it all the more important that we disallow excess cruft.
+You already know that TypeScript will allow you to provide “extra” properties in places where excess property checking doesn’t exist, but you may be wondering why it’s not an error that we completely*left off*the real`originCode`property. The reason is that this is an optional property! That makes it all the more important that we disallow excess cruft.
 
 You might be thinking that we can just restructure our code so that excess property checking is in place, and we certainly could do that
 

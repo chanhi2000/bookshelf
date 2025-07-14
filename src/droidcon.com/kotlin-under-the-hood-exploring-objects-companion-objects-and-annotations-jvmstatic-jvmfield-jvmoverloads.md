@@ -50,7 +50,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_J39pAuo0okQu2yK40ZxLwA-
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/11/1_J39pAuo0okQu2yK40ZxLwA-600x300.webp"/>
 
-Hello! In this article, we will explore the inner workings of objects and companion objects in Kotlin, along with the annotations `@JvmStatic`, `@JvmField`, and `@JvmOverloads`.
+Hello! In this article, we will explore the inner workings of objects and companion objects in Kotlin, along with the annotations`@JvmStatic`,`@JvmField`, and`@JvmOverloads`.
 
 ::: info
 
@@ -74,7 +74,7 @@ Before diving into the inner workings, let’s first understand what an object a
 An object in Kotlin is primarily used to create singleton behavior, but it also serves other purposes, such as defining factory methods and creating anonymous objects.
 
 - An object can be defined inside a class or outside of it, meaning it can be placed anywhere in the code.
-- *An object is instantiated lazily, meaning it is created only when accessed for the first time.* We’ll explore how this works when we dive deeper.
+- *An object is instantiated lazily, meaning it is created only when accessed for the first time.*We’ll explore how this works when we dive deeper.
 
 ```kotlin
 object Utils {
@@ -84,7 +84,7 @@ object Utils {
 }
 ```
 
-In this example, we define a singleton object named `Utils`. The `getVersion()` function returns a version.
+In this example, we define a singleton object named`Utils`. The`getVersion()`function returns a version.
 
 ---
 
@@ -94,7 +94,7 @@ A companion object is tied to a class in Kotlin, allowing us to define static me
 
 - A companion object can only be defined within classes.
 - The companion object is instantiated as soon as the containing class is loaded, meaning it is created even if we haven’t accessed the companion object.
-- You can omit the name for a companion object; if you do, it will default to the name `Companion`.
+- You can omit the name for a companion object; if you do, it will default to the name`Companion`.
 
 ```kotlin
 class Settings { 
@@ -108,19 +108,19 @@ class Settings {
 
 You can call the method in two ways:
 
-- With the name of the companion object: `Settings.Utils.getVersion()`
-- Without specifying the name: `Settings.getVersion()`
+- With the name of the companion object:`Settings.Utils.getVersion()`
+- Without specifying the name:`Settings.getVersion()`
 
 If you do not give a name to the companion object, you can access it using:
 
 - `Settings.Companion.getVersion()`
-- Or simply: `Settings.getVersion()`
+- Or simply:`Settings.getVersion()`
 
 ---
 
 ## Decoding Object & Companion Object
 
-Now, let’s take a closer look at how it all works under the hood. To gain deeper insights, we can use IntelliJ IDEA’s decompilation feature. By navigating to **Tools -> Kotlin -> Kotlin Bytecode** and selecting **Decompile**, we can view the underlying Java code generated from our Kotlin constructs.
+Now, let’s take a closer look at how it all works under the hood. To gain deeper insights, we can use IntelliJ IDEA’s decompilation feature. By navigating to**Tools -> Kotlin -> Kotlin Bytecode**and selecting**Decompile**, we can view the underlying Java code generated from our Kotlin constructs.
 
 Let’s see what happens when we create an object in Kotlin:
 
@@ -158,11 +158,11 @@ I’ve simplified it by removing assertions and other metadata for clarity.
 
 So, what do we observe here?
 
-- The Kotlin `object` declaration translates to a `final` Java class, `Utils`.
-- A static variable, `INSTANCE`, holds the single instance of the `Utils` class, adhering to the singleton design pattern.
-- The private constructor prevents external instantiation, ensuring that the only way to access the instance is through `INSTANCE`.
-- Inside the static block, a new instance of `Utils` is created and assigned to `INSTANCE`, ensuring that this instance is created only once.
-- Also, we have the `getVersion()` method.
+- The Kotlin`object`declaration translates to a`final` Java class,`Utils`.
+- A static variable,`INSTANCE`, holds the single instance of the`Utils`class, adhering to the singleton design pattern.
+- The private constructor prevents external instantiation, ensuring that the only way to access the instance is through`INSTANCE`.
+- Inside the static block, a new instance of`Utils`is created and assigned to`INSTANCE`, ensuring that this instance is created only once.
+- Also, we have the`getVersion()`method.
 
 ::: note
 
@@ -235,10 +235,10 @@ public final class Setting {
 
 So, what’s happening?
 
-- First, the `MyUtils` class is instantiated when the `Setting` class is loaded, not when it’s accessed. However, we can observe that the instance of the `Utils` object is created only when it is accessed for the first time. *This is why it is said that the companion object is instantiated eagerly when the containing class is loaded, while the regular object is instantiated lazily.*
-- The `Utils` object behaves like a singleton, similar to the previous example.
+- First, the`MyUtils`class is instantiated when the`Setting`class is loaded, not when it’s accessed. However, we can observe that the instance of the`Utils`object is created only when it is accessed for the first time. *This is why it is said that the companion object is instantiated eagerly when the containing class is loaded, while the regular object is instantiated lazily.*
+- The`Utils`object behaves like a singleton, similar to the previous example.
 - The companion object is represented as a static inner class.
-- The `private MyUtils()` constructor ensures that this class cannot be instantiated from outside.
+- The`private MyUtils()`constructor ensures that this class cannot be instantiated from outside.
 - The synthetic method is added by the compiler to handle certain use cases in Kotlin.
 
 ---
@@ -251,7 +251,7 @@ This annotation tells the Kotlin compiler to generate an additional static metho
 - It is useful when we want to access Kotlin method/property from Java code.
 - The annotation only affects how the code is compiled to bytecode; it has no effect on how the code behaves in Kotlin itself.
 
-Let’s take our previous example and see how to call the `getVersion()` method of `Utils` from Java without using `@JvmStatic`.
+Let’s take our previous example and see how to call the`getVersion()`method of`Utils`from Java without using`@JvmStatic`.
 
 In Kotlin, you can call it directly like this:
 
@@ -273,9 +273,9 @@ String version = Setting.Utils.INSTANCE.getVersion();
 
 Why Does This Work Differently?
 
-As we previously discussed regarding the under-the-hood code of objects, when we create an object in Kotlin, a final class is generated in Java for that object. This class contains a static variable, `INSTANCE`, which holds the single instance of the `Utils` class & compiler generates a private constructor to prevent instantiation from outside the class, ensuring that the only way to access this instance is through `INSTANCE`. Therefore, in Java, we need to call `INSTANCE` if we do not use `@JvmStatic`.
+As we previously discussed regarding the under-the-hood code of objects, when we create an object in Kotlin, a final class is generated in Java for that object. This class contains a static variable,`INSTANCE`, which holds the single instance of the`Utils`class & compiler generates a private constructor to prevent instantiation from outside the class, ensuring that the only way to access this instance is through`INSTANCE`. Therefore, in Java, we need to call`INSTANCE`if we do not use`@JvmStatic`.
 
-Now, let’s use `@JvmStatic` in our previous example:
+Now, let’s use`@JvmStatic`in our previous example:
 
 ```kotlin title="Setting.kt"
 class Setting {
@@ -298,9 +298,9 @@ class Setting {
 
 Accessing Methods from Java:
 
-With `@JvmStatic`, we can now access these methods directly without needing to reference an instance variable:
+With`@JvmStatic`, we can now access these methods directly without needing to reference an instance variable:
 
-- To get the version from the `Utils` object, you can simply call:
+- To get the version from the`Utils`object, you can simply call:
 
 ```java
 String version = Setting.Utils.getVersion();
@@ -325,13 +325,13 @@ Now you might wonder how the underlying code looks.
 What’s the observation?
 
 - An extra static method is created in the parent class for the companion object (`generateUniqueId()`).
-- The method in the `Utils` object is treated differently. Instead of creating an extra static method, the `getVersion()` method is made static.
+- The method in the`Utils`object is treated differently. Instead of creating an extra static method, the`getVersion()`method is made static.
 
 ---
 
 ## `@JvmField`
 
-Using `@JvmField` tells the Kotlin compiler not to create getters and setters for a property. Instead, it allows you to access the property directly like a regular field in Java.
+Using`@JvmField`tells the Kotlin compiler not to create getters and setters for a property. Instead, it allows you to access the property directly like a regular field in Java.
 
 Let’s explore this with an example.
 
@@ -341,7 +341,7 @@ class Utils {
 }
 ```
 
-In Kotlin, you can access the `version` property easily:
+In Kotlin, you can access the`version`property easily:
 
 ```kotlin
 val version = Utils().version
@@ -370,9 +370,9 @@ public final class Utils {
 }
 ```
 
-Here, you can see that Kotlin generates a private field for `version` and provides a public getter method. Since the field is private, Java cannot access it directly.
+Here, you can see that Kotlin generates a private field for`version`and provides a public getter method. Since the field is private, Java cannot access it directly.
 
-Now, let’s see what happens when we apply `@JvmField` to our property:
+Now, let’s see what happens when we apply`@JvmField`to our property:
 
 ```kotlin
 class Utils {
@@ -381,14 +381,14 @@ class Utils {
 }
 ```
 
-Now you can access the `version` property from Java.
+Now you can access the`version`property from Java.
 
 ```java
 Utils utils = new Utils();
 String version = utils.version; // This works!
 ```
 
-Decompiled code with `@JvmField`, it looks like this:
+Decompiled code with`@JvmField`, it looks like this:
 
 ```java
 public final class Utils {
@@ -398,7 +398,7 @@ public final class Utils {
 }
 ```
 
-`version` is now a public field, with no generated getter. This makes it accessible directly from Java.
+`version`is now a public field, with no generated getter. This makes it accessible directly from Java.
 
 ---
 
@@ -414,7 +414,7 @@ class Repository {
 }
 ```
 
-In Kotlin, you can call the `getData()` function in different ways:
+In Kotlin, you can call the`getData()`function in different ways:
 
 ```kotlin
 val repo = Repository()
@@ -460,11 +460,11 @@ In this case, the method is generated only with all parameters. Java doesn’t s
 
 ::: info
 
-Kotlin generates a synthetic method to handle default parameters, but this method isn’t accessible from Java. This synthetic method, like `getData$default`, uses bitwise operations to determine which default values to apply based on the parameters provided.
+Kotlin generates a synthetic method to handle default parameters, but this method isn’t accessible from Java. This synthetic method, like`getData$default`, uses bitwise operations to determine which default values to apply based on the parameters provided.
 
 :::
 
-Now, let’s see what happens when we apply `@JvmOverloads`:
+Now, let’s see what happens when we apply`@JvmOverloads`:
 
 ```kotlin title="Repository.kt"
 class Repository {
@@ -501,10 +501,10 @@ public final class Repository {
 }
 ```
 
-- Kotlin generates additional overloaded versions of the `getData()` method.
-- It’s important to note that there’s no overload for just the `String` and `boolean` parameters. *As per the documentation, if a method has* *N* *parameters and* *M* *of them have default values, Kotlin generates* *M* *overloads. These overloads progressively omit parameters from the end.*
-- In this case, since `includeTranslation` is the last parameter with a default value, Kotlin generates overloads that skip directly to `String` and `Int`, but you won’t see an overload for just `String` and `boolean` because `Int` is in between.
-- That’s why when you try to call `getData(String, Boolean)` from Java, it will not work.
+- Kotlin generates additional overloaded versions of the`getData()`method.
+- It’s important to note that there’s no overload for just the`String`and`boolean`parameters.*As per the documentation, if a method has* *N* *parameters and* *M* *of them have default values, Kotlin generates* *M* *overloads. These overloads progressively omit parameters from the end.*
+- In this case, since`includeTranslation`is the last parameter with a default value, Kotlin generates overloads that skip directly to`String`and`Int`, but you won’t see an overload for just`String`and`boolean`because`Int`is in between.
+- That’s why when you try to call`getData(String, Boolean)`from Java, it will not work.
 
 Working Combinations from Java:
 

@@ -395,7 +395,7 @@ const endYear = 2007;
 
 In the code above we have been able to set foundational data for the date picker application. The `months` array contains all 12 months.
 
-The `startYear` and `endYear` define a range from which users can select their age range. We will use these constants to populate the dropdown options and validate date selections.
+The `startYear` and `endYear` define arange from which users can select their age range. We will use these constants to populate the dropdown options and validate date selections.
 
 ### Option selection
 

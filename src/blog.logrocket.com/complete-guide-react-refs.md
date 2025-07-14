@@ -111,7 +111,7 @@ export default ActionButton;
 
 In the code snippet above, we used the `useRef()` Hook to create a reference to the button element, which we named `buttonRef`. This reference enables us to access the current value of `buttonRef` using `buttonRef.current`. One advantage of using a ref is that it maintains its state across renders, making it a valuable tool for storing and updating values without causing unnecessary re-renders.
 
-### Creating refs using the `createRef` Hook
+### Creating refs using the `createRef`Hook
 
 To create a ref in a class component, we use `React.createRef()`. Here’s an example:
 

@@ -89,7 +89,7 @@ If you’re more of a hands-on learner, check out our [**MERN stack tutorial**](
 The MERN stack is a JavaScript stack consisting of four technologies:
 
 - [<FontIcon icon="iconfont icon-mongodb"/>**M**ongoDB](https://mongodb.com/) — A NoSQL-based document database that stores data in flexible, JSON-like BSON format, ideal for modern applications that need scalability and speed
-- [<FontIcon icon="iconfont icon-express"/>**E**xpress.js](https://expressjs.com/) — A lightweight Node.js framework that simplifies backend development by handling routing, middleware, and API requests efficiently
+- [<FontIcon icon="iconfont icon-express"/>**E**xpress.js](https://expressjs.com/)— A lightweight Node.js framework that simplifies backend development by handling routing, middleware, and API requests efficiently
 - [<FontIcon icon="fa-brands fa-react"/>**R**eact](https://react.dev/) — A popular frontend library for building dynamic user interfaces, allowing developers to create fast, interactive, and reusable UI components
 - [<FontIcon icon="fa-brands fa-node"/>**N**ode.js](https://nodejs.org/en) — A JavaScript runtime environment that enables server-side execution of JavaScript, allowing developers to build scalable backend services using a single programming language
 

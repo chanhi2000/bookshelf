@@ -26,7 +26,7 @@ prev: /explore/api/articles/README.md
 date: 2021-02-06
 isOriginal: false
 author: Idris Olubisi
-cover: https://www.freecodecamp.org/news/content/images/2021/02/api.PNG
+cover: https://freecodecamp.org/news/content/images/2021/02/api.PNG
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/02/api.PNG
   desc="Building an API is fun, right? In this article, I will explain what APIs are, why you need them, and we'll dive into API specifications, documentation, and more. Programming is made simpler by using APIs to abstract away certain implementations, and ..."
   url="https://freecodecamp.org/news/what-is-an-api-and-how-to-test-it"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/02/api.PNG"/>
+  preview="https://freecodecamp.org/news/content/images/2021/02/api.PNG"/>
 
 Building an API is fun, right?
 

@@ -977,7 +977,7 @@ It was partly a fail-safe because I thought that LinkedIn would block all reques
         },
         {
             "id": 3,
-            "url": "https://www.freecodecamp.org/news/automate-cicd-with-github-actions-streamline-workflow/",
+            "url": "https://freecodecamp.org/news/automate-cicd-with-github-actions-streamline-workflow/",
             "tags": ["DevOps"],
             "title": "",
             "description": "",

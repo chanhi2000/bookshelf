@@ -83,15 +83,15 @@ Now, let’s get to the coding part.
 
 ### Measuring
 
-Drawing text on Canvas is a two-step process: First, measure the text and then draw it. To start with measuring, we’ll need a `TextMeasurer`, and with Compose-code, we have this neat remember-function we can use:
+Drawing text on Canvas is a two-step process: First, measure the text and then draw it. To start with measuring, we’ll need a`TextMeasurer`, and with Compose-code, we have this neat remember-function we can use:
 
 ```kotlin
 val textMeasurer = rememberTextMeasurer()
 ```
 
-For measuring, `TextMeasurer` has a function `measure`, which takes in the text as either `AnnotatedString` or `String`, and a bunch of other (mainly) optional parameters that affect the size of the text. Things like `density`, `layoutDirection`, `style`, `fontFamilyResolver`, and others.
+For measuring,`TextMeasurer`has a function`measure`, which takes in the text as either`AnnotatedString`or`String`, and a bunch of other (mainly) optional parameters that affect the size of the text. Things like`density`,`layoutDirection`,`style`,`fontFamilyResolver`, and others.
 
-We will divide the text into two strings, as we want to animate and position them a bit differently. As both of our texts are just simple strings with one style, we can use the `String`-version for both. The first version of the “Not”-text looks like this:
+We will divide the text into two strings, as we want to animate and position them a bit differently. As both of our texts are just simple strings with one style, we can use the`String`-version for both. The first version of the “Not”-text looks like this:
 
 ```kotlin
 val notText =
@@ -106,7 +106,7 @@ val notText =
     )
 ```
 
-For the `measure`-function, we pass in the text and then styles. We want to use the theme typography here for straightforwardness, so we copy the small title styles and add a brush to have a linear gradient as the text color. Here, we’re using the bi-flag colors pink, purple, and blue.
+For the`measure`-function, we pass in the text and then styles. We want to use the theme typography here for straightforwardness, so we copy the small title styles and add a brush to have a linear gradient as the text color. Here, we’re using the bi-flag colors pink, purple, and blue.
 
 The second text is pretty similar:
 
@@ -125,7 +125,7 @@ val phaseText =
     )
 ```
 
-For this text, we’re utilizing the large title styles from the theme. In addition to gradient colors, we’re setting the font size to 30 `sp` to make the text bigger.
+For this text, we’re utilizing the large title styles from the theme. In addition to gradient colors, we’re setting the font size to 30`sp`to make the text bigger.
 
 Alright, now we have everything we need from the measuring step. Next up is drawing the texts on canvas.
 
@@ -133,9 +133,9 @@ Alright, now we have everything we need from the measuring step. Next up is draw
 
 ## Drawing
 
-Compose Canvas has a method called `drawText` for drawing text. It takes in a `TextLayoutResult`, which is the type that `measure` function returns. In addition, it takes other parameters meant for styling and positioning the text on Canvas.
+Compose Canvas has a method called`drawText`for drawing text. It takes in a`TextLayoutResult`, which is the type that`measure`function returns. In addition, it takes other parameters meant for styling and positioning the text on Canvas.
 
-For the `notText` we defined in the previous subsection, the `drawText` would look like this:
+For the`notText`we defined in the previous subsection, the`drawText`would look like this:
 
 ```kotlin
 drawText(
@@ -148,9 +148,9 @@ drawText(
 )
 ```
 
-We pass in the text layout result, and then we define the `topLeft` offset to position the text correctly.
+We pass in the text layout result, and then we define the`topLeft`offset to position the text correctly.
 
-The other text is a bit different. We want to position it relative to the `notText`, so we use `notText` for calculating the correct position:
+The other text is a bit different. We want to position it relative to the`notText`, so we use`notText`for calculating the correct position:
 
 ```kotlin
 drawText(
@@ -163,7 +163,7 @@ drawText(
 )
 ```
 
-So here, we define the y-offset to be the same as for the `notText`, and then we add 70% of the height of the `notText`. This could be the whole height, but I wanted to keep less break between the texts.
+So here, we define the y-offset to be the same as for the`notText`, and then we add 70% of the height of the`notText`. This could be the whole height, but I wanted to keep less break between the texts.
 
 ![After these steps, our text looks like this](https://droidcon.com/wp-content/uploads/2024/11/0_s2dsi0JrLwORGpMV-300x300.webp)
 
@@ -175,7 +175,7 @@ There is just one thing left for the drawing — using custom fonts. Let’s tal
 
 For this animation, I wanted to have custom fonts. After playing around with Google Fonts, I decided that the two fonts I’m using are Poppins and Damion.
 
-Android documentation has a page about adding fonts to your project: [<FontIcon icon="fa-brands fa-androd"/>Work with fonts](https://developer.android.com/develop/ui/compose/text/fonts#downloadable-fonts). However, I accidentally found that Android Studio lets you add Google Fonts as XML files straightforwardly. Here’s how it happens:
+Android documentation has a page about adding fonts to your project:[<FontIcon icon="fa-brands fa-androd"/>Work with fonts](https://developer.android.com/develop/ui/compose/text/fonts#downloadable-fonts). However, I accidentally found that Android Studio lets you add Google Fonts as XML files straightforwardly. Here’s how it happens:
 
 1. Go to Resource Manager and select the “Font”-tab.
 2. Click the “+” button to add new resource.
@@ -233,7 +233,7 @@ val phaseText =
 
 ## Animating the Text
 
-The last step we’ll need to take is animating the text. We will do that by animating colors and floats. To set things up, let’s define `infiniteTransition`, which we’re going to use later:
+The last step we’ll need to take is animating the text. We will do that by animating colors and floats. To set things up, let’s define`infiniteTransition`, which we’re going to use later:
 
 ```kotlin
 val infiniteTransition = rememberInfiniteTransition(
@@ -243,9 +243,9 @@ val infiniteTransition = rememberInfiniteTransition(
 
 We also want to show the color animation first on the “not”-text and only after that on the “a phase”-text. One way to accomplish that is to define a helper float, based on which we use to animate the words. We’ll get back to the implementation later.
 
-We’ll define a variable called `animationPosition`, an infinitely transitioning float from 0f to 4f, which restarts from 0 when it reaches 4. These values could be anything, but after testing, I found that these values worked best when combined with other things in this drawing.
+We’ll define a variable called`animationPosition`, an infinitely transitioning float from 0f to 4f, which restarts from 0 when it reaches 4. These values could be anything, but after testing, I found that these values worked best when combined with other things in this drawing.
 
-The code for `animationPosition` could look like this:
+The code for`animationPosition`could look like this:
 
 ```kotlin
 val animationPosition by infiniteTransition.animateFloat(
@@ -263,7 +263,7 @@ val animationPosition by infiniteTransition.animateFloat(
 )
 ```
 
-In addition, we will define a helper function for animating the colors. Let’s call it `biColorsAnimated`, define it to take in a Boolean parameter `animated`, and return a list of colors:
+In addition, we will define a helper function for animating the colors. Let’s call it`biColorsAnimated`, define it to take in a Boolean parameter`animated`, and return a list of colors:
 
 ```kotlin
 @Composable
@@ -272,7 +272,7 @@ fun biColorsAnimated(animated: Boolean): List<Color> {
 }
 ```
 
-Inside the function, we define our animated colors. We first create a list with the colors, and then map through it. For each color, we return `animateColorAsState`‘s value, which has the type `Color`, and finally, we return the list of colors:
+Inside the function, we define our animated colors. We first create a list with the colors, and then map through it. For each color, we return`animateColorAsState`‘s value, which has the type`Color`, and finally, we return the list of colors:
 
 ```kotlin
 val colors = listOf(
@@ -332,9 +332,9 @@ val phaseText =
     )
 ```
 
-We use the `animationPosition` value to define if the colors for that text are animated. For the first text, we change the colors from white to the bi flag colors if the `animationPosition` is between 0.5f and 1.5f, and for the second, if the value is between 2f and 3.5f.
+We use the`animationPosition`value to define if the colors for that text are animated. For the first text, we change the colors from white to the bi flag colors if the`animationPosition`is between 0.5f and 1.5f, and for the second, if the value is between 2f and 3.5f.
 
-These changes get us the animation you can see at the beginning of this blog post. You can find [<FontIcon icon="iconfont icon-github"/>the complete code in this code snippet](https://gist.github.com/eevajonnapanula/f47b5eab078cf903648555559ba50b2d).
+These changes get us the animation you can see at the beginning of this blog post. You can find[<FontIcon icon="iconfont icon-github"/>the complete code in this code snippet](https://gist.github.com/eevajonnapanula/f47b5eab078cf903648555559ba50b2d).
 
 <SiteInfo
   name="not-a-phase.kt"
@@ -370,7 +370,7 @@ I hope you’ve enjoyed this blog post and learned something. If you want to sha
   preview="https://miro.medium.com/v2/resize:fit:1200/1*Fu-haBheuLWMsukdcTc6Iw.png"/>
 
 <SiteInfo
-  name="Work with fonts   |  Jetpack Compose  |  Android Developers"
+  name="Work with fonts  | Jetpack Compose | Android Developers"
   desc="This page describes how to set fonts in your Compose app."
   url="https://developer.android.com/develop/ui/compose/text/fonts?hl=en#downloadable-fonts"
   logo="https://gstatic.com/devrel-devsite/prod/v6f23042ee535b54d461e0cc5c1cc12493e4d0aea4f2d54a7a63063da7859ead0/android/images/favicon.svg"

@@ -48,12 +48,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3519"/>
 
-The *purpose* of CSS’ `contain` property (“CSS containment”) is twofold:
+The*purpose*of CSS’`contain`property (“CSS containment”) is twofold:
 
 1. Optimization
 2. Styling possibilities
 
-When we apply `contain` to an element we’re isolating it (and it’s descendents) from the rest of the page, and this isolation what opens those possibilities. There are different types of containment which all do different things, and we’ll be getting into each of them.
+When we apply`contain`to an element we’re isolating it (and it’s descendents) from the rest of the page, and this isolation what opens those possibilities. There are different types of containment which all do different things, and we’ll be getting into each of them.
 
 ```css
 .element {
@@ -66,15 +66,15 @@ When we apply `contain` to an element we’re isolating it (and it’s descend
 }
 ```
 
-First, **optimization**. When something *changes* an element after the page has rendered, the browser rethinks the entire page in case that element affects the rest of the page (visible or not). But with a contained element, we let the browser know that the change we made is restricted to *only* the contained element and its children, and the browser needn’t bother with the rest of the page because there won’t be any impact on that.
+First,**optimization**. When something*changes*an element after the page has rendered, the browser rethinks the entire page in case that element affects the rest of the page (visible or not). But with a contained element, we let the browser know that the change we made is restricted to*only*the contained element and its children, and the browser needn’t bother with the rest of the page because there won’t be any impact on that.
 
-Second, **relative styling**. Meaning positioning, visibility, stacking, sizing, etc, and by “relative” I mean styling an element in comparison to that of the viewport or the parent element — *relative positioning* and *relative sizing* are two good examples of this that we’ve had for a long time.
+Second,**relative styling**. Meaning positioning, visibility, stacking, sizing, etc, and by “relative” I mean styling an element in comparison to that of the viewport or the parent element —*relative positioning*and*relative sizing*are two good examples of this that we’ve had for a long time.
 
 Since the introduction of CSS Containment, a lot more relative styling can be done in the scope the contained element and its descendants. You’ll see examples as we proceed.
 
 ::: note
 
-In this article, CSS Containment refers to the CSS `contain` property. [<FontIcon icon="iconfont icon-w3c"/>Its namesake W3C Standard](https://w3.org/TR/css-contain-3/), however, covers a few more specifications, like container units.
+In this article, CSS Containment refers to the CSS`contain`property. [<FontIcon icon="iconfont icon-w3c"/>Its namesake W3C Standard](https://w3.org/TR/css-contain-3/), however, covers a few more specifications, like container units.
 
 :::
 
@@ -84,14 +84,14 @@ In this article, CSS Containment refers to the CSS `contain` property. [<FontI
 
 Although “size containment” sounds highly useful, in practice you might not use this much.
 
-When an element’s size is *contained*, **the browser does not allow anything that happens inside the contained element (to the content or the descendant elements) to affect its size**. In other words, you have a way to achieve truly fixed sizing.
+When an element’s size is*contained*,**the browser does not allow anything that happens inside the contained element (to the content or the descendant elements) to affect its size**. In other words, you have a way to achieve truly fixed sizing.
 
-But fixed sizing is not in trend. These days we have a lot of options for for dynamic sizing. For instance, CSS units relative to the root font size (`rem`, `rex`, etc.), units responsive to the viewport size (`vw`, `dvh`, etc.), units relative to the current font size (`em`, `lh`, etc.), you name it. Which means we usually do a pretty good job of sizing the different elements on a page for different screen sizes and content.
+But fixed sizing is not in trend. These days we have a lot of options for for dynamic sizing. For instance, CSS units relative to the root font size (`rem`,`rex`, etc.), units responsive to the viewport size (`vw`,`dvh`, etc.), units relative to the current font size (`em`,`lh`, etc.), you name it. Which means we usually do a pretty good job of sizing the different elements on a page for different screen sizes and content.
 
 What if, for example, a user is interacting with a page and caused new dynamic information to appear on the page? This new information takes up space. Now have options and can make a choice.
 
 - Is it better to allow the element, and potentially the entire page, to reflow and change?
-- Or is it better to contain the element so that the changes *prevent* the reflow?
+- Or is it better to contain the element so that the changes*prevent*the reflow?
 
 If it feels like the latter, size containment can be the solution (or part of the solution) for you.
 
@@ -130,17 +130,17 @@ Setting an element’s dimensions yourself may feel like size containment alread
 
 ## Paint Containment
 
-If you’re familiar with the `overflow` property, that’s a good place to start understanding paint containment. However, they are not quite the same.
+If you’re familiar with the`overflow`property, that’s a good place to start understanding paint containment. However, they are not quite the same.
 
-Outside a paint-contained element’s box, **the browser neither displays any content, nor it makes the concealed content scrollable to by any means at all**. In this aspect, paint containment’s behavior is similar to `overflow: clip` rather than `overflow: hidden` (which allows scrolling to the concealed content or elements through methods like the JavaScript `scroll` event).
+Outside a paint-contained element’s box,**the browser neither displays any content, nor it makes the concealed content scrollable to by any means at all**. In this aspect, paint containment’s behavior is similar to`overflow:clip` rather than `overflow:hidden` (which allows scrolling to the concealed content or elements through methods like the JavaScript `scroll` event).
 
-So if you want to **trim the overflowed content** of an element while also ensuring that content is not at all scrollable to, a paint-containment can be used. A browser might also **save computational effort by not rendering an off screen paint-contained element**.
+So if you want to**trim the overflowed content**of an element while also ensuring that content is not at all scrollable to, a paint-containment can be used. A browser might also**save computational effort by not rendering an off screen paint-contained element**.
 
 I also have another good reason for why you might need paint containment.
 
-As I mentioned at the beginning of the article, containment is the isolation of an element in all factors. That’s worth repeating here. Paint containment is not just about clipping what’s fallen out of a container box, but also **isolating that box itself from the rest of the rendered page by creating new stacking and formatting contexts** for that element. Paint containment also generates a separate absolute and fixed positioning container box (I’ll explain this in Layout Containment).
+As I mentioned at the beginning of the article, containment is the isolation of an element in all factors. That’s worth repeating here. Paint containment is not just about clipping what’s fallen out of a container box, but also**isolating that box itself from the rest of the rendered page by creating new stacking and formatting contexts**for that element. Paint containment also generates a separate absolute and fixed positioning container box (I’ll explain this in Layout Containment).
 
-Below, there are two examples: the first one is a sample of paint containment (`contain: paint`), and the second is a comparison between the behavior of `overflow: clip` `and` `contain: paint`. You’ll notice the paint containment’s isolating effect clearly in the second example, where the contained element is unaffected by the CSS blending applied to its sibling element.
+Below, there are two examples: the first one is a sample of paint containment (`contain:paint`), and the second is a comparison between the behavior of `overflow:clip` `and` `contain:paint`. You’ll notice the paint containment’s isolating effect clearly in the second example, where the contained element is unaffected by the CSS blending applied to its sibling element.
 
 ```css
 .box {
@@ -198,13 +198,13 @@ section {
 
 ## Layout Containment
 
-Layout is essentially the *flow* of elements and content. Over the years, more than sizing, more than painting, the most work we have delegated to the browsers is in the scope of layout. There are CSS properties, like `float`, `vertical-align`, and such, for us to communicate to the browsers where we prefer an element to be a little re-positioned to from its natural place on the page.
+Layout is essentially the *flow* of elements and content. Over the years, more than sizing, more than painting, the most work we have delegated to the browsers is in the scope of layout. There are CSS properties, like`float`,`vertical-align`, and such, for us to communicate to the browsers where we prefer an element to be a little re-positioned to from its natural place on the page.
 
 And then there are full scale layouts, like Grid Layout, Page Layout (used for the print medium), Column Layout, etc., to tell the browser to place everything on the page in a particular fashion we fancy.
 
-The modern browsers do all that with incredible speed and efficiency, however, we can still make it easier on them by adding layout containments to elements, so that **any layout changes in the contained elements and its descendants can be handled independently**, and **if they are off screen, laying out their contents can be put off until needed**. If you are considering **optimizing your pages**, layout containment is a good candidate to consider.
+The modern browsers do all that with incredible speed and efficiency, however, we can still make it easier on them by adding layout containments to elements, so that**any layout changes in the contained elements and its descendants can be handled independently**, and**if they are off screen, laying out their contents can be put off until needed**. If you are considering**optimizing your pages**, layout containment is a good candidate to consider.
 
-And that’s not all. More often than not, position of all the boxes in a page are based on each other — One box moves, the other follows suit. Which is not we always want to happen. With the help of layout containment, **you can have multiple layouts in a page with the assurance that their contents are not going to flow into each other**, by forming layout islands that are unaffected by whatever’s happening in the nearby islands.
+And that’s not all. More often than not, position of all the boxes in a page are based on each other — One box moves, the other follows suit. Which is not we always want to happen. With the help of layout containment,**you can have multiple layouts in a page with the assurance that their contents are not going to flow into each other**, by forming layout islands that are unaffected by whatever’s happening in the nearby islands.
 
 Just as in the case of paint containment, layout containment also creates a separate formatting, and stacking, contexts for the contained elements. They also generate their own **absolute** and **fixed positioning containing boxes**, meaning they become the reference box to position any absolute — or fixed — positioned child elements.
 
@@ -238,25 +238,25 @@ Just as in the case of paint containment, layout containment also creates a sepa
 
 ## Inline-Size and Style Containments
 
-Although not yet a W3C recommendation, both `contain: inline-size` and `contain: style` are valid values, that are well supported in browsers, and are included in the W3C Working Drafts of CSS Containment Module Level 2 and 3. I didn’t mention them at the top only because they haven’t yet reached that recommendation status.
+Although not yet a W3C recommendation, both`contain: inline-size`and`contain: style`are valid values, that are well supported in browsers, and are included in the W3C Working Drafts of CSS Containment Module Level 2 and 3. I didn’t mention them at the top only because they haven’t yet reached that recommendation status.
 
 The functions of a Style Containment is also a bit tentative at the moment, and might grow before it hits the W3C recommendation status.
 
-I’ll briefly explain them both, however. **Inline Size Containment** is same as the Size Containment, but **for inline sizes only** (the horizontal/width direction in any left-to-right or right-to-left horizontal writing mode). This gives you a size restraint for elements along their inline axes. This is particularly common for container queries. I haven’t mentioned container queries here, but these things are conceptually linked. When you set a `container-type: inline-size` as is required for typical container queries, you are effectively also setting `contain: inline-size` implicitly.
+I’ll briefly explain them both, however.**Inline Size Containment**is same as the Size Containment, but**for inline sizes only** (the horizontal/width direction in any left-to-right or right-to-left horizontal writing mode). This gives you a size restraint for elements along their inline axes. This is particularly common for container queries. I haven’t mentioned container queries here, but these things are conceptually linked. When you set a `container-type: inline-size` as is required for typical container queries, you are effectively also setting `contain: inline-size` implicitly.
 
-When an element has **Style Containment**, the tallying of CSS Counters and the `quote` values of the `content` property inside the contained element are unaffected by any counter or quote values mentioned outside. Essentially, **the counters and quotes are scoped within a style-contained element**. Pretty niche!
+When an element has**Style Containment**, the tallying of CSS Counters and the`quote`values of the`content`property inside the contained element are unaffected by any counter or quote values mentioned outside. Essentially,**the counters and quotes are scoped within a style-contained element**. Pretty niche!
 
 ---
 
-## The `strict` and `content` Values
+## The`strict`and`content`Values
 
-As I mentioned at the top, you can combine the different `contain` values (by space-separating them). There are also keywords for pre-combined values.
+As I mentioned at the top, you can combine the different`contain`values (by space-separating them). There are also keywords for pre-combined values.
 
-When `contain` has the value `strict`, **all the containment types are applied** to an element. Probably not something you’d use unless you are working with an element or module on your page that’s prone to a lot of changes during the page’s existence on screen, like the display of live sports data or the like.
+When`contain`has the value`strict`,**all the containment types are applied**to an element. Probably not something you’d use unless you are working with an element or module on your page that’s prone to a lot of changes during the page’s existence on screen, like the display of live sports data or the like.
 
-Then there’s the `content` value, which is a **combination** of `paint`, `layout`**,** and `style`. You are more likely to want to use this if your goal is to simply ensure nothing spills outside an element’s boundary at all cost, or to keep the browser from rendering or laying out the contained elements and its children when they are off screen or hidden, for the sake of optimization.
+Then there’s the `content`value, which is a**combination** of `paint`, `layout`**,** and`style`.You are more likely to want to use this if your goal is to simply ensure nothing spills outside an element’s boundary at all cost, or to keep the browser from rendering or laying out the contained elements and its children when they are off screen or hidden, for the sake of optimization.
 
-Those are my recommendations for the CSS `contain` property. It’s a property that’s just as worthwhile to learn about for the sake of programming techniques, as it is for the sake of optimizing web pages.
+Those are my recommendations for the CSS`contain`property. It’s a property that’s just as worthwhile to learn about for the sake of programming techniques, as it is for the sake of optimizing web pages.
 
 ---
 

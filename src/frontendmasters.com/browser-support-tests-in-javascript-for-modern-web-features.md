@@ -130,7 +130,7 @@ if (typeof HTMLDialogElement === 'function') {
 @tab Declarative Shadow DOM
 
 <SiteInfo
-  name="Declarative Shadow DOM | web.dev"
+  name="Declarative Shadow DOM |web.dev"
   desc="Declarative Shadow DOM is a new way to implement and use Shadow DOM directly in HTML."
   url="https://web.dev/articles/declarative-shadow-dom/"
   logo="https://gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/web/images/favicon.png"

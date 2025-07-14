@@ -23,7 +23,7 @@ prev: /programming/js/articles/README.md
 date: 2021-06-02
 isOriginal: false
 author: Joy Shaheb
-cover: https://www.freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3-.png
+cover: https://freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3-.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,7 +47,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3
   desc="Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: Callbacks Promises Async / Await Here's what we'll cover in this article: What is Asynchronous JavaSc..."
   url="https://freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3-.png"/>
+  preview="https://freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3-.png"/>
 
 Today we're going to build and run an **ice cream shop** and learn **asynchronous JavaScript** at the same time. Along the way, you'll learn how to use:
 

@@ -451,7 +451,7 @@ class AuthScreen extends StatelessWidget {
 
 Run the app and you should see this:
 
-![Supabase authentication interface with an email input field and a 'Continue with magic Link' button.](https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-06-01-at-00.16.25.png)
+![Supabase authentication interface with an email input field and a 'Continue with magic Link' button.](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-06-01-at-00.16.25.png)
 
 Sign in and you should receive an email and be redirected back to the application.
 
@@ -513,7 +513,7 @@ Add the iOS and Web client secret from Google cloud to your `.env` file and you 
 
 Start the Android or iOS emulator. Then back in your Flutter project, run `flutter run` in your integrated terminal. Something like this should show up:
 
-![A mobile app screen displaying the Supabase Auth UI on an iOS emulator. The interface includes fields for entering an email and password, a "Sign In" button, options for password recovery, account sign-up, and login buttons for Google and GitHub.](https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-06-01-at-00.19.35.png)
+![A mobile app screen displaying the Supabase Auth UI on an iOS emulator. The interface includes fields for entering an email and password, a "Sign In" button, options for password recovery, account sign-up, and login buttons for Google and GitHub.](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-06-01-at-00.19.35.png)
 
 Click on the Google icon and you should be logged in.
 

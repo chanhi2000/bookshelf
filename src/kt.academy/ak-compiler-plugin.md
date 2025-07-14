@@ -193,20 +193,20 @@ class AllOpenComponentRegistrar : CompilerPluginRegistrar() {
     override val supportsK2: Boolean
        get() = true
 }
-​
+
 class FirAllOpenExtensionRegistrar : FirExtensionRegistrar() {
     override fun ExtensionRegistrarContext.configurePlugin() {
         +::FirAllOpenStatusTransformer
     }
 }
-​
+
 class FirAllOpenStatusTransformer(
     session: FirSession
 ) : FirStatusTransformerExtension(session) {
     override fun needTransformStatus(
         declaration: FirDeclaration
     ): Boolean = declaration is FirRegularClass
-​
+
     override fun transformStatus(
         status: FirDeclarationStatus,
         declaration: FirDeclaration
@@ -234,7 +234,7 @@ class FirScriptSamWithReceiverConventionTransformer(
             .containingClassLookupTag()
             ?.toFirRegularClassSymbol(session)
             ?: return null
-​
+
         return if (shouldTransform(it)) {
             val parameterTypes = function.valueParameters
                 .map { it.returnTypeRef.coneType }
@@ -263,7 +263,7 @@ Let's consider the following problem: Kotlin suspend functions can only be calle
 
 ```kotlin
 suspend fun suspendFunction() = /* ... */
-​
+
 fun blockingFunction() = runBlocking { suspendFunction() }
 ```
 

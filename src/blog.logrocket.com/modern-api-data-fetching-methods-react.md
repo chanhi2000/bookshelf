@@ -343,7 +343,7 @@ The result looks like this:
 
 If you pay attention to the Network tab in the demo above, the request data for individual posts is not cached when we revisit the page. This needs optimization! We may also consider adding other optimizations like deduping multiple requests for the same data, preventing race conditions.
 
-### The `useEffect` race condition
+### The `useEffect`race condition
 
 In our project, a race condition may occur when the single post ID frequently changes during user navigation. When `postId` changes and triggers a re-fetch using `useEffect`, there’s a possibility that network responses may arrive in a different order than the requests were sent, causing inconsistencies in the UI.
 

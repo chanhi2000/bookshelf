@@ -252,7 +252,7 @@ There are several situations in which hiding the mouse cursor might be useful, s
 
 - **In a game or interactive application** — Hiding the mouse cursor could help create a more immersive experience for the user
 - **In a presentation or slideshow** — Hiding the mouse cursor could reduce distractions and keep the focus on the content
-- **In fullscreen video or media** — Hiding the mouse cursor could help prevent the user from accidentally clicking on controls or other elements
+- **In fullscreen video or media**— Hiding the mouse cursor could help prevent the user from accidentally clicking on controls or other elements
 
 Remember that hiding the mouse cursor can be confusing or disorienting for some users, depending on the use case. This strategy should be used carefully and only when necessary.
 

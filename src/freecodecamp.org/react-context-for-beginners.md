@@ -28,7 +28,7 @@ prev: /programming/js-react/articles/README.md
 date: 2021-07-22
 isOriginal: false
 author: Reed
-cover: https://www.freecodecamp.org/news/content/images/2021/07/react-context-for-beginners.png
+cover: https://freecodecamp.org/news/content/images/2021/07/react-context-for-beginners.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/07/react-context-fo
   desc="React context is an essential tool for every React developer to know. It lets you easily share state in your applications. In this comprehensive guide, we will cover what React context is, how to use it, when and when not to use context, and lots mor..."
   url="https://freecodecamp.org/news/react-context-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/07/react-context-for-beginners.png"/>
+  preview="https://freecodecamp.org/news/content/images/2021/07/react-context-for-beginners.png"/>
 
 React context is an essential tool for every React developer to know. It lets you easily share state in your applications.
 

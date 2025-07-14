@@ -26,7 +26,7 @@ isOriginal: false
 author:
   - name: Vahe Aslanyan
     url : https://freecodecamp.org/news/author/vaheaslanyan/
-cover: https://www.freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Great-Personal-Portfolio-Page-Cover--1-.png
+cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Great-Personal-Portfolio-Page-Cover--1-.png
 ---
 
 # {{ $frontmatter.title }} 관련

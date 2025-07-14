@@ -483,9 +483,9 @@ fun main() = runBlocking {
 
 :::
 
-### 2. Using `supervisorScope`
+### 2. Using`supervisorScope`
 
-When using `supervisorScope`, you can handle failures of child coroutines independently. If one child coroutine fails, it does not cancel the other child coroutines or the parent coroutine.
+When using`supervisorScope`, you can handle failures of child coroutines independently. If one child coroutine fails, it does not cancel the other child coroutines or the parent coroutine.
 
 ::: tip Example
 
@@ -521,7 +521,7 @@ fun main() = runBlocking {
 
 :::
 
-::: kotlin-playground 2. Using supervisorScope
+::: kotlin-playground 2. UsingsupervisorScope
 
 @file main.kt
 
@@ -551,9 +551,9 @@ fun main() = runBlocking {
 
 :::
 
-### 3. `CoroutineExceptionHandler`
+### 3.`CoroutineExceptionHandler`
 
-You can use `CoroutineExceptionHandler` to handle uncaught exceptions at the coroutine level. This handler can be passed as part of the coroutine context to manage exceptions that are not caught within the coroutine.
+You can use`CoroutineExceptionHandler`to handle uncaught exceptions at the coroutine level. This handler can be passed as part of the coroutine context to manage exceptions that are not caught within the coroutine.
 
 ::: tip Example
 
@@ -575,7 +575,7 @@ fun main() = runBlocking {
 
 :::
 
-::: kotlin-playground 3. CoroutineExceptionHandler
+::: kotlin-playground 3.CoroutineExceptionHandler
 
 @file main.kt
 
@@ -598,7 +598,7 @@ fun main() = runBlocking {
 
 ### 4. Cleaning Up Resources
 
-When a coroutine fails or is cancelled, it is important to clean up any resources (like closing files or releasing locks). Use the `finally` block to ensure that cleanup code runs regardless of whether an exception occurs.
+When a coroutine fails or is cancelled, it is important to clean up any resources (like closing files or releasing locks). Use the`finally`block to ensure that cleanup code runs regardless of whether an exception occurs.
 
 ::: tip Example
 
@@ -764,33 +764,33 @@ Always launch coroutines within a specific scope, ensuring that they are tied to
 
 ### 2. Prefer CoroutineScope Over GlobalScope
 
-Use `CoroutineScope` for managing coroutines tied to specific components (e.g., activities, fragments) instead of `GlobalScope`, which can lead to uncontrolled coroutine lifetimes.
+Use`CoroutineScope`for managing coroutines tied to specific components (e.g., activities, fragments) instead of`GlobalScope`, which can lead to uncontrolled coroutine lifetimes.
 
 ### 3. Handle Exceptions
 
-Implement exception handling within coroutines to manage failures gracefully. Use `try-catch` blocks or coroutine exception handlers to catch and handle exceptions effectively.
+Implement exception handling within coroutines to manage failures gracefully. Use`try-catch`blocks or coroutine exception handlers to catch and handle exceptions effectively.
 
 ### 4. Use SupervisorScope When Necessary
 
-When dealing with nested coroutines, consider using `supervisorScope` to prevent failures in one child coroutine from affecting others.
+When dealing with nested coroutines, consider using`supervisorScope`to prevent failures in one child coroutine from affecting others.
 
 ### 5. Monitor Coroutine States
 
-Utilize `invokeOnCompletion` and check the states of jobs to manage the lifecycle and handle any necessary cleanup or state checks.
+Utilize`invokeOnCompletion`and check the states of jobs to manage the lifecycle and handle any necessary cleanup or state checks.
 
 ### 6. Avoid Blocking Calls
 
-Make sure not to block the coroutine dispatcher with long-running tasks. Use `withContext` to switch contexts if needed.
+Make sure not to block the coroutine dispatcher with long-running tasks. Use`withContext`to switch contexts if needed.
 
 ---
 
 ## Conclusion
 
-Understanding the lifecycle of coroutines, including the effects of nested coroutines and the role of `supervisorScope`, is essential for writing robust asynchronous code in Kotlin. By managing parent-child relationships and handling cancellations and failures effectively, you can create efficient and reliable applications.
+Understanding the lifecycle of coroutines, including the effects of nested coroutines and the role of`supervisorScope`, is essential for writing robust asynchronous code in Kotlin. By managing parent-child relationships and handling cancellations and failures effectively, you can create efficient and reliable applications.
 
-Whether you’re using `invokeOnCompletion` for cleanup, managing nested coroutines, or utilizing structured concurrency, Kotlin’s coroutines provide powerful tools for handling concurrency with ease.
+Whether you’re using`invokeOnCompletion`for cleanup, managing nested coroutines, or utilizing structured concurrency, Kotlin’s coroutines provide powerful tools for handling concurrency with ease.
 
-That’s it for this blog. Let’s connect on [**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`raystatic`)**](https://linkedin.com/in/raystatic/) and [**X (<FontIcon icon="fa-brands fa-x-twitter"/>`raystatic_`)**](https://x.com/raystatic_)
+That’s it for this blog. Let’s connect on[**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`raystatic`)**](https://linkedin.com/in/raystatic/)and[**X (<FontIcon icon="fa-brands fa-x-twitter"/>`raystatic_`)**](https://x.com/raystatic_)
 
 ::: info
 

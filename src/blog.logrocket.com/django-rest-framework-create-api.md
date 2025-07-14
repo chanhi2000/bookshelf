@@ -586,7 +586,7 @@ Now head back to the post endpoint `/todos/api`. Leave the request body as it is
 
 ## Customizing HTTP responses Django
 
-Here’s how you can customize HTTP responses in your project. Using the examples in the `TodolistApiView`, update the `GET` method with this:
+Here’s how you can customize HTTP responses in your project. Using the examples inthe `TodolistApiView`, update the `GET` method with this:
 
 ```py
 def get(self, request, *args, **kwargs):

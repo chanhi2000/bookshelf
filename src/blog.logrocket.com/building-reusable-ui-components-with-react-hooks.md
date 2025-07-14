@@ -128,7 +128,7 @@ Now that we have learned about reusable components, functional components, and H
 
 One advantage of creating a reusable input component is that you maintain the appearance of the input in various parts of your application. You can also determine what type of input component should be rendered by passing it a prop.
 
-Although we won’t go deep into [**styling**](/blog.logrocket.com/styling-react-5-ways-style-react-apps.md) in this tutorial, you can customize your components to suit your visual needs. To get started quickly, use [<FontIcon icon="iconfont icon-replit"/>this Reactjs Replit template](https://replit.com/@replit/React-Javascript?v=1) to create a new project. In your newly created [<FontIcon icon="iconfont icon-replit"/>Replit](https://repl.it) project, create a <FontIcon icon="fas fa-folder-open"/>`components` folder with a <FontIcon icon="fa-brands fa-react"/>`FormInput.jsx` file, and add the following code to it:
+Although we won’t go deep into [**styling**](/blog.logrocket.com/styling-react-5-ways-style-react-apps.md) in this tutorial, you can customize your components to suit your visual needs. To get started quickly, use [<FontIcon icon="iconfont icon-replit"/>this Reactjs Replit template](https://replit.com/@replit/React-Javascript?v=1) to create a new project. In your newly created [<FontIcon icon="iconfont icon-replit"/>Replit](https://repl.it) project, create a <FontIcon icon="fas fa-folder-open"/>`components` folder with a <FontIcon icon="fa-brands fa-react"/>`FormInput.jsx`file, and add the following code to it:
 
 ```jsx :collapsed-lines title="components/FormInput.jsx"
 import { useState } from "react";

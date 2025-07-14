@@ -80,7 +80,7 @@ We can categorize content management systems based on a few factors, including t
 
 ### Web content management system (WCMS)
 
-Web content management systems (WCMS) are the most prevalent type of CMS. A WCMS’s main purpose is creating, managing, and publishing content for websites. WCMS platforms provide tools for designing webpages, organizing content hierarchically, and facilitating collaboration among multiple contributors.
+Web content management systems (WCMS) are the most prevalent type of CMS. A WCMS’s main purpose iscreating, managing, and publishing content for websites. WCMS platforms provide tools for designing webpages, organizing content hierarchically, and facilitating collaboration among multiple contributors.
 
 ### Enterprise content management system (ECMS)
 
@@ -161,7 +161,7 @@ Prismic CMS integrates with third-party services and provides software developme
 
 ## Conclusion
 
-Choosing a headless CMS to pair with Astro can be quite difficult. Although there are a lot of awesome CMSs available, it’s important to place a high priority on seamless integration and support when choosing a headless CMS for Astro.
+Choosing a headless CMS to pair with Astro can be quite difficult. Although there are a lot of awesomeCMSs available, it’s important to place a high priority on seamless integration and support when choosing a headless CMS for Astro.
 
 As a rule of thumb, a headless CMS should offer an intuitive interface for organizing, editing, and creating content. It should also provide a solid API for content delivery that works well with Astro. This makes it possible for developers to quickly and easily add material to their Astro apps.
 

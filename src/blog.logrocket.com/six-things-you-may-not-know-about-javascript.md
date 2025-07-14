@@ -66,7 +66,7 @@ function returnSomething() {
 
 In almost any other language — C#, Java, the list goes on — we’d get back the object with `JavaScript Expert`. And you’d be forgiven for thinking that in JavaScript, we’d get back the same result.
 
-However, humor me, and pop this into your development console, and then execute the function. Almost unbelievably, it returns `undefined`.
+However, humor me, and pop this into your development console, and then execute the function. Almost unbelievably, it returns`undefined`.
 
 ---
 

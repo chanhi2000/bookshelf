@@ -161,7 +161,7 @@ In addition, errors are shown in the console terminal as well as the browser.
 
 You can see the whole start script [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/start.js).
 
-### Adding images and styles
+### Adding images andstyles
 
 You have two options when adding images, styles or by using other files (like fonts):
 
@@ -175,7 +175,7 @@ This also means that the assets can be imported in JavaScript:
 ```js
 import './styles.css';
 import logo from './logo.png';
-// ...
+//...
 const image = <img src={logo} className="image" alt="Logo" />;
 ```
 
@@ -241,9 +241,9 @@ REACT_APP_TITLE=App npm start
 
 Or one of the following files in the root of your project (files on the left have more priority than files on the right):
 
-- When using `npm start`: `.env.development.local`, `.env.development`, `.env.local`, `.env`
-- When using `npm run build`: `.env.production.local`, `.env.production`, `.env.local`, `.env`
-- When using `npm test`: `.env.test.local`, `.env.test`, `.env`
+- When using `npm start`:`.env.development.local`,`.env.development`,`.env.local`,`.env`
+- When using `npm run build`:`.env.production.local`,`.env.production`,`.env.local`,`.env`
+- When using `npm test`:`.env.test.local`,`.env.test`,`.env`
 
 As explained before, all these variables can be used with `process.env` inside a component:
 
@@ -267,7 +267,7 @@ In addition to `NODE_ENV`, there are other predefined environment variables that
 
 See the complete list [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md).
 
-### Proxying server requests
+### Proxying serverrequests
 
 It’s common to serve the frontend and backend of your app in the same server and port. However, you cannot do this because Create React App runs the app in its own development server.
 
@@ -330,7 +330,7 @@ If this is not enough for you, a third option is to configure the proxy of each 
 
 The configuration properties are the same as the ones supported by [<FontIcon icon="iconfont icon-github"/>`chimurai/http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) or [<FontIcon icon="iconfont icon-github"/>`nodejitsu/node-http-proxy`](https://github.com/nodejitsu/node-http-proxy#options).
 
-### Configuring a progressive web app
+### Configuring a progressive webapp
 
 A [<FontIcon icon="fa-brands fa-google"/>service worker](https://developers.google.com/web/fundamentals/primers/service-workers/) is registered in `src/index.js`. If you don’t want to enable it just remove the call to `registerServiceWorker()`.
 
@@ -344,14 +344,14 @@ Service workers require HTTPS (otherwise registration will fail, although the ap
 
 A [<FontIcon icon="fa-brands fa-google"/>web app manifest](https://developers.google.com/web/fundamentals/web-app-manifest/) where you can configure the app name, icons and other metadata about your application is located at `public/manifest.json`.
 
-### Testing the app
+### Testing theapp
 
 Create React App uses [<FontIcon icon="fas fa-globe"/>Jest](https://facebook.github.io/jest/) as its test runner and [<FontIcon icon="iconfont icon-github"/>`jsdom/jsdom`](https://github.com/jsdom/jsdom) to provide browser global variables like `window` or `document`.
 
 Test files should follow any of these naming conventions:
 
-- If they end with `.js`, `.jsx`, `.mjs`, the files should be located in a directory named `__tests__` (matching the expression `<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}`)
-- They should end with `.test.js` or `.specs.js` (matching the expression `<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}`)
+- If they end with`.js`, `.jsx`, `.mjs`, the files should be located in a directory named `__tests__` (matching the expression `<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}`)
+- They should end with`.test.js` or`.specs.js` (matching the expression `<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}`)
 
 Executing npm test will run the tests by executing the script:
 
@@ -391,7 +391,7 @@ For example:
 }
 ```
 
-### Deploying the app
+### Deploying theapp
 
 You can create a production version of your app in the build directory with npm run build, which is a shortcut to:
 
@@ -433,7 +433,7 @@ In the user manual of Create React App, [<FontIcon icon="fa-brands fa-reaft"/>yo
 - S3 and CloudFront
 - Surge
 
-### Ejecting the app
+### Ejecting theapp
 
 Ejecting will copy all the configuration files, scripts, and dependencies to your project while removing the dependency to `react-scripts`.
 

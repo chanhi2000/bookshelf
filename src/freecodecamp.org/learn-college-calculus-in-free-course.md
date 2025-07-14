@@ -29,7 +29,7 @@ isOriginal: false
 author:
   - name: Dr. Linda Green (@lindagreen7859)
     url : https://youtube.com/@lindagreen7859
-cover: https://www.freecodecamp.org/news/content/images/2020/08/calculus.png
+cover: https://freecodecamp.org/news/content/images/2020/08/calculus.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +53,7 @@ cover: https://www.freecodecamp.org/news/content/images/2020/08/calculus.png
   desc="Calculus concepts are important to understand for many types of software development.  Calculus is often used when developing algorithms for modeling real-word phenomena. It is also used in graphics and physics simulations, which are key parts to man..."
   url="https://freecodecamp.org/news/learn-college-calculus-in-free-course"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2020/08/calculus.png"/>
+  preview="https://freecodecamp.org/news/content/images/2020/08/calculus.png"/>
 
 Calculus concepts are important to understand for many types of software development.
 

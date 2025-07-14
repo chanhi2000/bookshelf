@@ -24,7 +24,7 @@ prev: /devops/netlify/articles/README.md
 date: 2021-01-09
 isOriginal: false
 author: Idris Olubisi
-cover: https://www.freecodecamp.org/news/content/images/2021/01/Turquoise-Confetti-Birthday-Greetings-Facebook-Cover.png
+cover: https://freecodecamp.org/news/content/images/2021/01/Turquoise-Confetti-Birthday-Greetings-Facebook-Cover.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/01/Turquoise-Confet
   desc="Hi everyone! In this article, I'm going to discuss how to deploy an application you've built. The application deployment process might seem complicated, and this might prevent some developers from deploying their applications after they've developed ..."
   url="https://freecodecamp.org/news/how-to-deploy-your-front-end-app"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/01/Turquoise-Confetti-Birthday-Greetings-Facebook-Cover.png"/>
+  preview="https://freecodecamp.org/news/content/images/2021/01/Turquoise-Confetti-Birthday-Greetings-Facebook-Cover.png"/>
 
 Hi everyone! In this article, I'm going to discuss how to deploy an application you've built.
 

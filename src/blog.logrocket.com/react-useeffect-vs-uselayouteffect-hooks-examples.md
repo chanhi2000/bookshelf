@@ -407,7 +407,7 @@ Expensive calculations are, well, expensive. If handled poorly, they can negativ
 
 The behavior of both `useEffect` and `useLayoutEffect` differ in how heavy computations are handled. As stated earlier, `useEffect` will defer the execution of the effect function until after the DOM mutations are painted, making it the obvious choice out of the two.
 
-> As an aside, I know `useMemo` is great for memoizing heavy computations. This article neglects that fact, instead comparing `useEffect` and `useLayoutEffect`. Check out this [**guide to the `useMemo` Hook**](/blog.logrocket.com/react-usememo-vs-usecallback.md) if you would like more information.
+> As an aside, I know `useMemo` is great for memoizing heavy computations. This article neglects that fact, instead comparing `useEffect` and `useLayoutEffect`. Check out this [**guide to the `useMemo`Hook**](/blog.logrocket.com/react-usememo-vs-usecallback.md) if you would like more information.
 
 As an example, I’ve set up an app that’s not practical, but decent enough to work for our use case. [<FontIcon icon="iconfont icon-codesandbox"/>The app](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14) renders with an initial screen that seems harmless:
 

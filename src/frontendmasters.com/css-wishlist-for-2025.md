@@ -69,7 +69,7 @@ Layout with `position: sticky;` doesn’t let you be as specific as you might wa
   logo="https://nerdy.dev/favicon.svg"
   preview="https://res.cloudinary.com/dnpmdb8r8/image/upload/f_auto,c_limit,q_auto,w_auto/argyleink/css-wishlist-2025.png"/>
 
-> For that all too common moment when you want to pick which element position sticky will respect. What if we could use `container-name` [or something (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9868) and reference it from position sticky by making it a function?
+> For that all too common moment when you want to pick which element position sticky will respect. What if we could use`container-name`[or something (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9868)and reference it from position sticky by making it a function?
 
 :::
 
@@ -123,7 +123,7 @@ There is a draft for `reading-flow` that [<FontIcon icon="fas fa-globe"/>Rachel 
 }
 ```
 
-> The property aims to solve the issue where the source (and therefore tab) order of a page gets disconnected from layout when using CSS grid layout or flexbox. This is a problem I’ve been [<FontIcon icon="fas fa-globe"/>talking and writing about for a long time](https://rachelandrew.co.uk/archives/2019/06/04/grid-content-re-ordering-and-accessibility/). As soon as I realized this problem existed when using grid, I felt as if we were giving people potential with one hand but then removing it with the other. I’m very happy that we’re now fixing that problem.
+> The property aims to solve the issue where the source (and therefore tab) order of a page gets disconnected from layout when using CSS grid layout or flexbox. This is a problem I’ve been[<FontIcon icon="fas fa-globe"/>talking and writing about for a long time](https://rachelandrew.co.uk/archives/2019/06/04/grid-content-re-ordering-and-accessibility/). As soon as I realized this problem existed when using grid, I felt as if we were giving people potential with one hand but then removing it with the other. I’m very happy that we’re now fixing that problem.
 
 :::
 
@@ -167,7 +167,7 @@ I just ran across this the other day so I figured I’d put it on my list. I had
 }
 ```
 
-> The pseudo-class `:local-link` is a selector which targets links that point to the same web site. At the moment it’s not supported by any browser.
+> The pseudo-class`:local-link`is a selector which targets links that point to the same web site. At the moment it’s not supported by any browser.
 
 :::
 
@@ -180,14 +180,14 @@ That would be cool. I wonder if people had easier access to *style* same-website
 ```component VPCard
 {
   "title": "The Shrinkwrap Problem: Possible Future Solutions",
-  "desc": "There is one old, yet unsolved, CSS problem: shrinking containers to fit the content when it automatically wraps. While not intentional, anchor positioning allows us to come closer to solving it, at least for a few cases. In this article, I’ll demonstrate how we can use anchor positioning to neatly decorate wrapping text or elements in flex or grid contexts.",
+  "desc": "There isone old, yet unsolved, CSS problem: shrinking containers tofit the content when itautomatically wraps. While not intentional, anchor positioning allows ustocome closer tosolving it, atleast for afew cases. Inthis article, I’ll demonstrate how wecan use anchor positioning toneatly decorate wrapping text orelements inflex orgrid contexts.",
   "link": "https://kizu.dev/shrinkwrap-problem/",
   "logo": "https://kizu.dev/favicon.ico",
   "background": "rgba(4,7,3,0.2)"
 }
 ```
 
-> There is one old, yet unsolved, CSS problem: shrinking containers to fit the content when it automatically wraps.
+> There isone old, yet unsolved, CSS problem: shrinking containers tofit the content when itautomatically wraps.
 
 :::
 
@@ -291,7 +291,7 @@ What’s less clear to me about this runtime version of randomness is how often 
 }
 ```
 
-> Trim off the leading block margin on the first child in an element, or the trailing block margin of the last child, so they don’t stick out of the element and mess with margin collapsing. Same thing with block margins on the first and last line boxes in an element.  And then, be able to do similar things with the inline margins of elements and line boxes!  All these things could be ours.
+> Trim off the leading block margin on the first child in an element, or the trailing block margin of the last child, so they don’t stick out of the element and mess with margin collapsing.Same thing with block margins on the first and last line boxes in an element. And then, be able to do similar things with the inline margins of elements and line boxes! All these things could be ours.
 
 :::
 
@@ -346,7 +346,7 @@ This is a big wish as it’s not something that browser makers can just *do*. It
 
 <SiteInfo
   name="CSS Wish List 2025"
-  desc="Back in 2023, I belatedly jumped on the bandwagon of people posting their CSS wish lists for the coming year.  This year I’m doing all that again, less belatedly! (I didn’t do it last year because I couldn’t even.  Get it?) I started this post by looking at what I wished for a couple of […]"
+  desc="Back in 2023, I belatedly jumped on the bandwagon of people posting their CSS wish lists for the coming year. This year I’m doing all that again, less belatedly! (I didn’t do it last year because I couldn’t even. Get it?) I started this post by looking at what I wished for a couple of […]"
   url="https://meyerweb.com/eric/thoughts/2025/01/08/css-wish-list-2025/"
   logo="https://meyerweb.com/favicon.ico"
   preview="https://meyerweb.com/ui/i/hamonshu/fb-og-image.png"/>

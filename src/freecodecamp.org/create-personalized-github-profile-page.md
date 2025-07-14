@@ -29,7 +29,7 @@ isOriginal: false
 author:
   - name: Sahil Mahapatra
     url : https://freecodecamp.org/news/author/dotslashbit/
-cover: https://www.freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post.png
+cover: https://freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +53,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-
   desc="Have you ever wanted to spruce up your GitHub profile page and make it stand out? Well, you're in luck!  With just a few simple steps, you can create a personalized GitHub profile that showcases your skills, projects, and personality. Let's dive in. ..."
   url="https://freecodecamp.org/news/create-personalized-github-profile-page"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post.png"/>
 
 Have you ever wanted to spruce up your GitHub profile page and make it stand out? Well, you're in luck!
 

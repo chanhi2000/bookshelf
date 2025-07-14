@@ -872,7 +872,7 @@ This option will throw an error when the response’s `status` satisfies the con
 { error: 'Character not found' }
 ```
 
-### Retrying failed requests with the `axios-retry` plugin
+### Retrying failed requests with the `axios-retry`plugin
 
 In some cases, it’s useful to automatically retry failed requests. The [<FontIcon icon="fa-brands fa-npm"/>`axios-retry`](https://npmjs.com/package/axios-retry) plugin provides an easy way to do this with Axios. Here’s how you can use it:
 

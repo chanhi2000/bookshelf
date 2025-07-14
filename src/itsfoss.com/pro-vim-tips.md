@@ -48,24 +48,24 @@ cover: https://itsfoss.com/content/images/wordpress/2017/02/vim-tips-tricks.jpg
 
 <SiteInfo
   name="8 Vim Tips And Tricks That Will Make You A Pro User"
-  desc="Brief: In this article, I’ll show you some of my favorites Vim tricks with practical examples. If you don’t use Vim, these tips might not give reasons for using Vim but if you use it already, you’ll definitely become a better Vim user. Even if I recently"
+  desc="Brief: In this article, I’ll show you some of my favorites Vim tricks with practical examples.If you don’t use Vim, these tips might not give reasons for using Vim but if you use it already, you’ll definitely become a better Vim user. Even if I recently"
   url="https://itsfoss.com/pro-vim-tips"
   logo="https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png"
   preview="https://itsfoss.com/content/images/wordpress/2017/02/vim-tips-tricks.jpg"/>
 
 ::: info Brief
 
-In this article, I’ll show you some of my favorites **Vim tricks** with practical examples. If you don’t use Vim, these tips might not give **reasons for using Vim** but if you use it already, you’ll definitely become a better Vim user.*
+In this article, I’ll show you some of my favorites **Vim tricks** with practical examples.If you don’t use Vim, these tips might not give **reasons for using Vim** but if you use it already, you’ll definitely become a better Vim user.*
 
 :::
 
 Even if I recently started to use [<FontIcon icon="fas fa-globe"/>Atom](https://atom.io/) more and more, I can hardly pass a day without using [<FontIcon icon="iconfont icon-vim"/>Vim](http://vim.org/). Not because I’m forced to. But because I feel that comfortable.
 
-Yes, *comfortable*. A very strange word when talking about Vi or any of its clone isn’t it? And I agree, it is certainly not the most *intuitive* text editor.
+Yes,*comfortable*. A very strange word when talking about Vi or any of its clone isn’t it? And I agree, it is certainly not the most *intuitive* text editor.
 
-But with some practice and by training a little bit your memory, you can perform apparently complex editing tasks in only a few keystrokes. Something that I’ve never really found with any other [command line text editors for Linux](/itsfoss.com/command-line-text-editors-linux.md).
+But with some practice and by training a little bit your memory, you can perform apparently complex editing tasks in only afew keystrokes. Something that I’ve never really found with any other [command line text editors for Linux](/itsfoss.com/command-line-text-editors-linux.md).
 
-But, instead of writing yet-an-other-vi-introduction, I chose today to let you touch the real power behind Vi(m) by presenting you few *tricks* I really use — and I miss in most if not all other editors. I will not give you the complete explanation of all those tricks, but I strongly encourage you to try and experiment with them until you get some grasp on how they work.
+But, instead of writing yet-an-other-vi-introduction, I chose today to let you touch the real power behind Vi(m) by presenting you few *tricks* I really use — and I miss in most if not all other editors.I will not give you the complete explanation of all those tricks, but I strongly encourage you to try and experiment with them until you get some grasp on how they work.
 
 If you liked Vim and want to master it completely, you can also enroll into [online Vim course provided by Linux Training Academy](https://itsfoss.com/recommends/vim-linux-training-academy/).
 
@@ -90,7 +90,7 @@ Each example comes with the original text (.orig) and a Bash script (.sh) invoki
 
 Am I the only one using that feature? Or is this because I’m doomed working with people believing that WRITING ALL CAPS IS COOL?
 
-Anyway, when programming, when adding a copyright notice, or even after a copy-paste, it is not that uncommon to have to change text capitalization. In that respect, Vim is much more evolved than the original Vi. And I bless every day Bram Moolenaar for his great work:
+Anyway, when programming, when adding a copyright notice, or even after a copy-paste, it is not that uncommon to have to change text capitalization. In that respect, Vim is much more evolved than the original Vi. And I bless every dayBram Moolenaar for his great work:
 
 ::: tabs
 
@@ -123,7 +123,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 
 ### 2. Vim search and replace tips
 
-This one I use *every* day. Why is this still not present in *all* text editor? Of course, most editors have some kind of search replace feature. But how many do really have the power of regex and substitution patterns? Of course, this is more complex to master than basic *string* substitutions. But I just couldn’t live without that feature. At such point, I sometimes see myself copying/pasting from some GUI editors into a terminal running *sed* and back. But Vi has that embedded since 40 years or so…
+This one I use *every* day. Why is this still not present in *all*text editor? Of course, most editors have some kind of search replace feature. But how many do really have the power of regex and substitution patterns? Of course, this is more complex to master than basic *string* substitutions. But I just couldn’t live without that feature. At such point, I sometimes see myself copying/pasting from some GUI editors into a terminal running *sed* and back. But Vi has that embedded since 40 years or so…
 
 ::: tabs
 
@@ -135,10 +135,10 @@ Does a boy get a chance to paint black a fence every day? That put the thing in 
 
 > **Commands**
 > 
-> - `:s/black/white/`: Replace the first occurrence of the string ‘black’ by ‘white’
-> - `:s/Ben\\( Rogers\\)\\@!/Ben Rogers/g`: Replace every occurrence of the string ‘Ben’ by ‘Ben Rogers’ except when ‘ Rogers’ was already present
-> - `:s/.\*/<p>\\r&\\r<\\/p>/`: Wrap the line between `<p>` and `</p>`
-> - `:-1s/–/\\&mdash;/g`:  Replace every occurrence of the string ‘`–`‘ by ‘`&mdash;`’ in the preceding line
+> - `:s/black/white/`: Replace thefirst occurrence of the string ‘black’ by ‘white’
+> - `:s/Ben\\( Rogers\\)\\@!/Ben Rogers/g`: Replace every occurrence of the string ‘Ben’ by ‘Ben Rogers’ except when ‘Rogers’ was already present
+> - `:s/.\*/<p>\\r&\\r<\\/p>/`:Wrap the line between `<p>` and `</p>`
+> - `:-1s/–/\\&mdash;/g`: Replace every occurrence of the string ‘`–`‘ by ‘`&mdash;`’ in the preceding line
 
 @tab Modified text
 
@@ -174,10 +174,10 @@ Pros:
 
 > **Commands**
 > 
-> - `/Power/`: Go to the first line containing the string ‘Power’
+> - `/Power/`: Go to thefirst line containing the string ‘Power’
 > - `ddp`: Swap the current line with the next one
 > - `:/user-friendly/m$`: Move the next line containing the string ‘user-friendly’ to the end of the file
-> - `g;`: Bring back cursor to the previous position
+> - `g;`: Bring back cursor to theprevious position
 > - `:/Cons/+1m-2`: Move two lines up the line following ‘Cons’
 
 @tab Modified text
@@ -272,7 +272,7 @@ source: https://www.netmarketshare.com
 > **Commands**
 > 
 > - `:2,/^EOT/-1!sort -k2n -k1M`: Sort data by year and month
-> - `:$r! date “+Data obtained the \\%c”`: Add the output of the `date` command at the end of the file
+> - `:$r!date “+Data obtained the \\%c”`: Add the output of the `date` command at the end of the file
 > - `:1,/^EOT/!bash`: Execute the embedded script and replace it by its result
 
 @tab Modified text
@@ -330,23 +330,23 @@ The Apple Computer, Inc. logo is an apple.
 
 ### 7. Getting help in Vim
 
-Ok, there is Intenet. But people still using the *man* like me will appreciate the *inline* help. You can obtain help by topic. Or by command. Always useful when you don’t remember the exact syntax or options for **Vim commands** — or if you’re unsure the command you need is a `normal` command or an `ex:` command.
+Ok, there is Intenet. But people still using the *man*like me will appreciatethe *inline* help. You can obtain help by topic. Or by command. Always useful when you don’t remember the exact syntax or options for **Vim commands** — or if you’re unsure the command you need is a `normal` command or an `ex:` command.
 
 ::: info Try this!
 
-- `:help help`
-- `:help m`
-- `:help :m`
+- `:helphelp`
+- `:helpm`
+- `:help:m`
 
 :::
 
 ### 8. Scripting in Vim
 
-When using Vi(m) you’re basically using a *visual* front end to another underlying editor called *ex*. Maybe did you noticed how many commands in the examples above starts by a colon (`:`)? That’s because those are *ex* commands. And this is yet another advantage of Vi(m) over so many text editors: not only you can use it *interactively* — but you can also *script* it.
+When using Vi(m) you’re basically using a *visual* front end to another underlying editor called *ex*. Maybe did you noticedhow many commands in the examples above starts by a colon(`:`)?That’s because those are *ex* commands. And this is yet another advantage of Vi(m) over so many text editors: not only you can use it *interactively* — but you can also *script* it.
 
-Why would someone want to do that? Speaking for myself, I find that a great way to automate some text processing. Beside, you can see a typical example straight from my hard drive.
+Why wouldsomeone want to do that? Speaking for myself, I find that a great way to automate some text processing. Beside, you can see a typical example straight from my hard drive.
 
-There is probably some mysterious commands in that ex script, but I can tell you this will remove any (eventually present) header from a script and will replace it by another one read from the NEW.HEADER file — adding a # before each added line. There is no doubt I could I’ve done that using other tools than ex. Indeed, that was even the subject of one of our [previous Bash Challenge](/itsfoss.com/bash-challenge-8.md). But ex *is* definitely an option.
+There is probably some mysterious commands in that ex script, but I can tell you this will remove any (eventually present) header from a script and will replace it by another one read from the NEW.HEADER file — adding a # before each added line. There is no doubt I could I’ve done that using other tools than ex. Indeed, that was even the subject of one of our [previous Bash Challenge](/itsfoss.com/bash-challenge-8.md). But ex *is*definitely an option.
 
 ::: note How mysterious…
 
@@ -368,7 +368,7 @@ So, dear apprentices, don’t hesitate to use the comment section below to share
 ```component VPCard
 {
   "title": "8 Vim Tips And Tricks That Will Make You A Pro User",
-  "desc": "Brief: In this article, I’ll show you some of my favorites Vim tricks with practical examples. If you don’t use Vim, these tips might not give reasons for using Vim but if you use it already, you’ll definitely become a better Vim user. Even if I recently",
+  "desc": "Brief: In this article, I’ll show you some of my favorites Vim tricks with practical examples.If you don’t use Vim, these tips might not give reasons for using Vim but if you use it already, you’ll definitely become a better Vim user. Even if I recently",
   "link": "https://chanhi2000.github.io/bookshelf/itsfoss.com/pro-vim-tips.html",
   "logo": "https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png",
   "background": "rgba(53,121,127,0.2)"

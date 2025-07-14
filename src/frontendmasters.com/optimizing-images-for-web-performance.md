@@ -50,15 +50,15 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5153"/>
 
-Images make websites look great, but they’re **also the biggest performance bottleneck**. They add **huge file sizes**, delay **Largest Contentful Paint (LCP)**, and can even mess with **Cumulative Layout Shift (CLS)** if they aren’t handled properly. And while developers are quick to optimize JavaScript and CSS, images are **often ignored**—despite being the **heaviest** assets on most pages.
+Images make websites look great, but they’re**also the biggest performance bottleneck**. They add**huge file sizes**, delay**Largest Contentful Paint (LCP)**, and can even mess with**Cumulative Layout Shift (CLS)**if they aren’t handled properly. And while developers are quick to optimize JavaScript and CSS, images are**often ignored**—despite being the**heaviest**assets on most pages.
 
-So, how do we make images **fast, responsive, and efficient**? Here’s how:
+So, how do we make images**fast, responsive, and efficient**? Here’s how:
 
 ---
 
 ## Choose the Right Image Format
 
-The **format** of an image has a massive impact on its size and loading speed. Picking the wrong one can easily **double or triple** your image payload. Check out this illustration:
+The**format**of an image has a massive impact on its size and loading speed. Picking the wrong one can easily**double or triple**your image payload. Check out this illustration:
 
 ![Size comparison of images in formats](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/02/image_formats.png?resize=1024%2C422&ssl=1)
 
@@ -70,20 +70,20 @@ Have a look at this photograph:
 
 Photographs are quite a bit more complex than illustrations (usually), and the best formats can change. Notice how JPG is smaller than PNG this time, but modern formats like WebP and AVIF are still way smaller.
 
-- **JPG**: Best for photos with lots of colors and gradients. Uses **lossy compression** to keep file sizes small.
-- **PNG**: Best for graphics, logos, and transparency. Uses **lossless compression**, but files can be **huge**.
-- **WebP**: A modern format that’s often **smaller** than JPG and PNG while keeping quality high.
-- **AVIF**: Even better compression than WebP, but **not universally supported** yet.
+- **JPG**: Best for photos with lots of colors and gradients. Uses**lossy compression**to keep file sizes small.
+- **PNG**: Best for graphics, logos, and transparency. Uses**lossless compression**, but files can be**huge**.
+- **WebP**: A modern format that’s often**smaller**than JPG and PNG while keeping quality high.
+- **AVIF**: Even better compression than WebP, but**not universally supported**yet.
 
-A **good rule of thumb**: **JPG for photos, PNG for graphics**, and use **WebP or AVIF where possible** for modern browsers.
+A**good rule of thumb**:**JPG for photos, PNG for graphics**, and use**WebP or AVIF where possible**for modern browsers.
 
 ---
 
 ## Use Responsive Images
 
-Not all users have the same screen size, so why serve the same **massive** image to everyone? Responsive images let you **deliver the right image size** based on the user’s device, reducing unnecessary downloads and improving load times.
+Not all users have the same screen size, so why serve the same**massive**image to everyone? Responsive images let you**deliver the right image size**based on the user’s device, reducing unnecessary downloads and improving load times.
 
-Instead of a single `<img>` tag, try using a `<picture>` with the **`srcset` and `sizes` attributes** to tell the browser which image to load:
+Instead of a single`<img>`tag, try using a`<picture>`with the**`srcset`and`sizes`attributes**to tell the browser which image to load:
 
 <CodePen
   user="toddhgardner"
@@ -109,9 +109,9 @@ One of the worst offenders for slow performance? **Loading every image on the pa
 >
 ```
 
-It’s very important to specify the `height` and `width` attributes of images, especially if they are going to be lazy-loaded. Setting these dimensions let’s the browser reserve space in your layout and prevent **layout shifts** when the content loads. For more about layout shifts and how to prevent them, check out this [<FontIcon icon="fas fa-globe"/>deep dive on Cumulative Layout Shift](https://requestmetrics.com/web-performance/cumulative-layout-shift/).
+It’s very important to specify the`height`and`width`attributes of images, especially if they are going to be lazy-loaded. Setting these dimensions let’s the browser reserve space in your layout and prevent**layout shifts**when the content loads. For more about layout shifts and how to prevent them, check out this[<FontIcon icon="fas fa-globe"/>deep dive on Cumulative Layout Shift](https://requestmetrics.com/web-performance/cumulative-layout-shift/).
 
-For images that are **critical for rendering**, like your **LCP element**, you should **override lazy-loading** with `fetchpriority="high"`. This tells the browser to **load it ASAP**.
+For images that are**critical for rendering**, like your**LCP element**, you should**override lazy-loading**with`fetchpriority="high"`. This tells the browser to**load it ASAP**.
 
 ```html{3}
 <img
@@ -126,11 +126,11 @@ For images that are **critical for rendering**, like your **LCP element**, you
 
 ## Serve Images from a CDN
 
-A **Content Delivery Network (CDN)** stores images in multiple locations worldwide, so they load from the nearest server instead of your origin. This speeds up delivery and reduces bandwidth costs.
+A**Content Delivery Network (CDN)**stores images in multiple locations worldwide, so they load from the nearest server instead of your origin. This speeds up delivery and reduces bandwidth costs.
 
 ### CDNs use modern HTTP Protocols
 
-Most CDNs will also speed up your images by serving them with modern protocols like HTTP/3, which has significant performance improvements over both HTTP/1 and HTTP/2. Check out this [<FontIcon icon="fas fa-globe"/>case study on HTTP/3 performance](https://requestmetrics.com/web-performance/http3-is-fast/).
+Most CDNs will also speed up your images by serving them with modern protocols like HTTP/3, which has significant performance improvements over both HTTP/1 and HTTP/2. Check out this[<FontIcon icon="fas fa-globe"/>case study on HTTP/3 performance](https://requestmetrics.com/web-performance/http3-is-fast/).
 
 ### HTTP Caching headers
 
@@ -138,15 +138,15 @@ Users always have to download an image at least once, but HTTP caching headers c
 
 Cache-Control: public, max-age=31536000, immutable
 
-This tells the browser that this image won’t change, and that it can be kept locally for 1 year without needing to be requested again. Caching isn’t just for images—it speeds up **all static assets**. If you’re not sure if your caching is set up correctly, there’s a **[<FontIcon icon="fas fa-globe"/>full guide on HTTP caching](https://requestmetrics.com/web-performance/http-caching/)** that explains how to check and optimize it.
+This tells the browser that this image won’t change, and that it can be kept locally for 1 year without needing to be requested again. Caching isn’t just for images—it speeds up**all static assets**. If you’re not sure if your caching is set up correctly, there’s a**[<FontIcon icon="fas fa-globe"/>full guide on HTTP caching](https://requestmetrics.com/web-performance/http-caching/)**that explains how to check and optimize it.
 
 ---
 
 ## Wrapping Up
 
-Images are one of the biggest opportunities for improving performance. By **choosing the right format, compressing efficiently, lazy-loading, and leveraging CDNs with modern protocols**, you can massively speed up your site.
+Images are one of the biggest opportunities for improving performance. By**choosing the right format, compressing efficiently, lazy-loading, and leveraging CDNs with modern protocols**, you can massively speed up your site.
 
-If you’re looking for more image optimization tips, with detailed breakdown and real-world examples, check out [<FontIcon icon="fas fa-globe"/>the complete guide to optimizing website images](https://requestmetrics.com/web-performance/high-performance-images/).
+If you’re looking for more image optimization tips, with detailed breakdown and real-world examples, check out[<FontIcon icon="fas fa-globe"/>the complete guide to optimizing website images](https://requestmetrics.com/web-performance/high-performance-images/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

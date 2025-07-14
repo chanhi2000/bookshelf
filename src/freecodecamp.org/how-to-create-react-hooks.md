@@ -28,7 +28,7 @@ prev: /programming/js-react/articles/README.md
 date: 2021-03-06
 isOriginal: false
 author: Reed
-cover: https://www.freecodecamp.org/news/content/images/2021/03/how-to-create-custom-react-hooks.png
+cover: https://freecodecamp.org/news/content/images/2021/03/how-to-create-custom-react-hooks.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -52,7 +52,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/03/how-to-create-cu
   desc="Custom React hooks are an essential tool that let you add special, unique functionality to your React applications. In many cases, if you want to add a certain feature to your application, you can simply install a third-party library that is made to..."
   url="https://freecodecamp.org/news/how-to-create-react-hooks/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/03/how-to-create-custom-react-hooks.png"/>
+  preview="https://freecodecamp.org/news/content/images/2021/03/how-to-create-custom-react-hooks.png"/>
 
 Custom React hooks are an essential tool that let you add special, unique functionality to your React applications.
 

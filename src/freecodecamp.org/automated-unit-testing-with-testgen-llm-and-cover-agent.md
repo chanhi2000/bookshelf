@@ -96,7 +96,7 @@ Meta's researchers implemented safeguards within TestGen-LLM to ensure the effec
 
 TestGen-LLM uses an approach called "Assured LLM-based Software Engineering" (Assured LLMSE). TestGen-LLM simply augments an existing test class with additional test cases, retaining all existing test cases and thereby guaranteeing that there will be no regression.
 
-![Test generation workflow(*[<FontIcon icon="fas fa-globe"/>From TestGen_LLM paper](https://arxiv.org/abs/2402.09171)*)](https://www.freecodecamp.org/news/content/images/2024/05/img-testgen-llm-paper.jpg)
+![Test generation workflow(*[<FontIcon icon="fas fa-globe"/>From TestGen_LLM paper](https://arxiv.org/abs/2402.09171)*)](https://freecodecamp.org/news/content/images/2024/05/img-testgen-llm-paper.jpg)
 
 The TestGen-LLM generates a bunch of tests, then filters out the tests that don’t run and drops any that don’t pass. Finally, it discards those that don't increase the code coverage.
 

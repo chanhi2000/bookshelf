@@ -138,7 +138,7 @@ For complex animations, you can use the Chrome DevTools Performance panel to vis
 
 ```component VPCard
 {
-  "title": "Stick to Compositor-Only Properties and Manage Layer Count  |  Articles  |  web.dev",
+  "title": "Stick to Compositor-Only Properties and Manage Layer Count | Articles | web.dev",
   "desc": "Compositing is where the painted parts of the page are put together for displaying on screen.",
   "link": "https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count/",
   "logo": "https://gstatic.com/devrel-devsite/prod/v31bf0d5ece3babea9777b807f088a03e9bb2225d007f11b8410e9c896eb213a6/web/images/favicon.png",

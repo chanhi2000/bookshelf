@@ -56,19 +56,19 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_cMIA8nBu_GImuIfLIgioxQ-
 
 ![All good so far](https://droidcon.com/wp-content/uploads/2024/11/1_cMIA8nBu_GImuIfLIgioxQ-600x360.webp)
 
-Widgets can look great against a home screen wallpaper when they have a solid background (check out my article [Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f) to see how to pick a color that matches the app icons) but what if instead the background is transparent? It looks fine if the text or graphics are a good contrast from the wallpaper:
+Widgets can look great against a home screen wallpaper when they have a solid background (check out my article[Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons) but what if instead the background is transparent? It looks fine if the text or graphics are a good contrast from the wallpaper:
 
 But what about if the wallpaper is not a good contrast? How do you choose a suitable color?
 
 ![Works on a light background, not on a dark.](https://droidcon.com/wp-content/uploads/2024/11/1_L6ieC3kyYswQJ3F9FpRH6Q-600x360.webp)
 
-Even if you are using dynamic colors in your `GlanceTheme` (as I am in the image above), the theme system won’t automatically check for contrast against the background. So we must do this ourselves.
+Even if you are using dynamic colors in your`GlanceTheme`(as I am in the image above), the theme system won’t automatically check for contrast against the background. So we must do this ourselves.
 
-First thing, we need to detect the device wallpaper. This can be done using the [<FontIcon icon="fa-brands fa-android"/>WallpaperManager API](https://developer.android.com/reference/android/app/WallpaperManager).
+First thing, we need to detect the device wallpaper. This can be done using the[<FontIcon icon="fa-brands fa-android"/>WallpaperManager API](https://developer.android.com/reference/android/app/WallpaperManager).
 
-First, get the `WallpaperManager` instance, then fetch the dominant colors. A list is available, arranged in order of priority (note: a minimum color occurrence percentage `MIN_COLOR_OCCURRENCE` — 5% by default — is applied for the color to appear in this list), from here we need to get the primary color and decide whether dark or light text should be used.
+First, get the`WallpaperManager`instance, then fetch the dominant colors. A list is available, arranged in order of priority (note: a minimum color occurrence percentage`MIN_COLOR_OCCURRENCE`— 5% by default — is applied for the color to appear in this list), from here we need to get the primary color and decide whether dark or light text should be used.
 
-This can be added to the `GlanceTheme` and initialised in a boolean state variable that can be then passed into the composable `content`.
+This can be added to the`GlanceTheme`and initialised in a boolean state variable that can be then passed into the composable`content`.
 
 ```kotlin{6} title="MotivateMeGlanceTheme.kt"
 @Composable
@@ -103,11 +103,11 @@ In the above code we can get the wallpaper colors using
 wallpaperManager.getWallpaperColors(FLAG_SYSTEM)
 ```
 
-`FLAG_SYSTEM` indicates we want the colors for the home screen — passing in `FLAG_LOCK` would give the colors of the lock screen.
+`FLAG_SYSTEM`indicates we want the colors for the home screen — passing in`FLAG_LOCK`would give the colors of the lock screen.
 
-An important thing to note is that `getWallpaperColors` is limited to `API 27` and above so you can either update the `minimumSdk` of the app to `27` or surround this with an version check if statement.
+An important thing to note is that`getWallpaperColors`is limited to`API 27`and above so you can either update the`minimumSdk`of the app to`27`or surround this with an version check if statement.
 
-To detect whether to use dark or light text, we can use a utility function `getUseDarkColorOnWallPaper`. In this we can use the wallpaper colors `colorHints` to check if we should use dark text with the `WallpaperColors.HINT_SUPPORTS_DARK_TEXT` flag. As per the API documentation, `HINT_SUPPORTS_DARK_TEXT`:
+To detect whether to use dark or light text, we can use a utility function`getUseDarkColorOnWallPaper`. In this we can use the wallpaper colors`colorHints`to check if we should use dark text with the`WallpaperColors.HINT_SUPPORTS_DARK_TEXT`flag. As per the API documentation,`HINT_SUPPORTS_DARK_TEXT`:
 
 ::: info
 
@@ -117,9 +117,9 @@ Specifies that dark text is preferred over the current wallpaper for best presen
 
 :::
 
-There is also `HINT_SUPPORTS_DARK_THEME` which could also be useful for a widget with a solid background to detect whether a dark or light background would be preferable.
+There is also`HINT_SUPPORTS_DARK_THEME`which could also be useful for a widget with a solid background to detect whether a dark or light background would be preferable.
 
-Using `HINT_SUPPORTS_DARK_TEXT` and `colorHints`:
+Using`HINT_SUPPORTS_DARK_TEXT`and`colorHints`:
 
 ```kotlin title="WidgetUtil.kt"
 fun getUseDarkColorOnWallpaper(colors: WallpaperColors?, type: Int): Boolean? {
@@ -145,7 +145,7 @@ fun getUseDarkColorOnWallpaper(colors: WallpaperColors?, type: Int): Boolean? {
 
 <!-- @include: https://gist.github.com/KatieBarnett/250ba461df486d9db169b66b021daf72/raw/eb002904924fc9f0b6c927d57c621735e380a43e/WidgetUtil.kt -->
 
-`colorHints` is only available in [Android 12 and above](https://android.com/intl/en_au/android-12/#a12-color-reimagined), if we are using a lower version a more manual approach is required. For this, we get the primary color as a HSV value and then evaluate the intensity and contrast in another utility function.
+`colorHints`is only available in[Android 12 and above](https://android.com/intl/en_au/android-12/#a12-color-reimagined), if we are using a lower version a more manual approach is required. For this, we get the primary color as a HSV value and then evaluate the intensity and contrast in another utility function.
 
 ::: note
 
@@ -177,7 +177,7 @@ fun colorIsDarkAdvanced(bgColor: Int): Boolean {
 
 Now that we can tell if we should use dark or light text on widget creation, we need to ensure that whenever the wallpaper is changed the color is checked and the widget theme is updated.
 
-To do this we can create a `WallpaperManager.OnColorsChangedListener` in a `DisposableEffect`:
+To do this we can create a`WallpaperManager.OnColorsChangedListener`in a`DisposableEffect`:
 
 ```kotlin title="MotivateMeGlanceTheme.kt"
 
@@ -217,7 +217,7 @@ Now, every time the wallpaper is changed the widget will update!
 
 ![Looking good in all situations!](https://droidcon.com/wp-content/uploads/2024/11/1_mky0GpsMOkUNapd6diKK2A-600x360.webp)
 
-To see a full example, see my [sample widget app (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-12):
+To see a full example, see my[sample widget app (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-12):
 
 <SiteInfo
   name="KatieBarnett/MotivateMe"
@@ -226,7 +226,7 @@ To see a full example, see my [sample widget app (<FontIcon icon="iconfont icon
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/e48744e1af1e9e66eb80f2b5d2e02dc223574c5da2a50758e30a7af1b5bb0d3f/KatieBarnett/MotivateMe"/>
 
-Check out my article [Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f) to see how to pick a color that matches the app icons and device dynamic colours.
+Check out my article[Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons and device dynamic colours.
 
 ::: info
 

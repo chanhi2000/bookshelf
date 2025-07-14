@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Git Reset Explained – How to Save the Day with the Reset Command"
-description: "Article(s) > Git Reset Explained – How to Save the Day with the Reset Command"
+title: "GitReset Explained – How to Save the Day with the Reset Command"
+description: "Article(s) > GitReset Explained – How to Save the Day with the Reset Command"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Git Reset Explained – How to Save the Day with the Reset Command"
+      content: "Article(s) > GitReset Explained – How to Save the Day with the Reset Command"
     - property: og:description
-      content: "Git Reset Explained – How to Save the Day with the Reset Command"
+      content: "GitReset Explained – How to Save the Day with the Reset Command"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9882740569d1a4ca1a78.jpg
 ---
 
 <SiteInfo
-  name="Git Reset Explained – How to Save the Day with the Reset Command"
+  name="GitReset Explained – How to Save the Day with the Reset Command"
   desc="Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa..."
   url="https://freecodecamp.org/news/save-the-day-with-git-reset"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -311,7 +311,7 @@ In future posts, we will cover additional `git` commands and how they can help u
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Git Reset Explained – How to Save the Day with the Reset Command",
+  "title": "GitReset Explained – How to Save the Day with the Reset Command",
   "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

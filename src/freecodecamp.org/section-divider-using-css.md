@@ -22,7 +22,7 @@ prev: /programming/css/articles/README.md
 date: 2022-02-26
 isOriginal: false
 author: Temani Afif
-cover: https://www.freecodecamp.org/news/content/images/2022/02/section-divider.png
+cover: https://freecodecamp.org/news/content/images/2022/02/section-divider.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -46,7 +46,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/02/section-divider.
   desc="It's always cool to have a fancy section divider on your website. And it's even better if we can make them responsive and easy to adjust. This is what you will learn in this article. We will explore different section dividers made using only CSS and ..."
   url="https://freecodecamp.org/news/section-divider-using-css"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/02/section-divider.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/02/section-divider.png"/>
 
 It's always cool to have a fancy section divider on your website. And it's even better if we can make them responsive and easy to adjust. This is what you will learn in this article.
 

@@ -22,7 +22,7 @@ prev: /data-science/articles/README.md
 date: 2021-11-24
 isOriginal: false
 author: Jason Dsouza
-cover: https://www.freecodecamp.org/news/content/images/2021/11/sql-in-10-min-image.jpeg
+cover: https://freecodecamp.org/news/content/images/2021/11/sql-in-10-min-image.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -46,7 +46,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/11/sql-in-10-min-im
   desc="By Jason Dsouza I’m an AI researcher, so one of the main things I deal with is data. A lot of it.  With more than 2.5 exabytes of data generated every day, it comes as no surprise that this data needs to be stored somewhere where we can access"
   url="https://freecodecamp.org/news/learn-sql-in-10-minutes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/11/sql-in-10-min-image.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2021/11/sql-in-10-min-image.jpeg"/>
 
 I’m an AI researcher, so one of the main things I deal with is data. A *lot* of it.
 

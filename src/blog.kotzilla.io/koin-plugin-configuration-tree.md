@@ -52,10 +52,10 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-12-09%20at%2013.18.28.pn
   logo="https://blog.kotzilla.io/hubfs/favicon.png"
   preview="https://blog.kotzilla.io/hubfs/Screenshot%202024-12-09%20at%2013.18.28.png"/>
 
-Since we announced that [we’re developing a Koin IDE Plugin](/blog.kotzilla.io/koin-ide-plugin.md), we've been hard at work. So we thought we’d share a sneak peek of what’s happening with you. We're targeting to have  V.1 of this plugin available in Q1 2025. For this first release, we plan to deliver Configuration Tree View and Contextual Navigation. This will be:
+Since we announced that [we’re developing a Koin IDE Plugin](/blog.kotzilla.io/koin-ide-plugin.md), we've been hard at work. So we thought we’d share a sneak peek of what’s happening with you. We're targeting to have V.1 of this plugin available in Q1 2025. For this first release, we plan to deliver Configuration Tree View and Contextual Navigation. This will be:
 
-- A tree view to help you visualize your Koin configurations including modules, components, and dependencies for each app. This view will also include an initial validation check to ensure no configurations are missing.
-- Easy navigation between components and their configuration details, including dependencies, without manually searching through the codebase.
+-A tree view to help you visualize your Koin configurations including modules, components, and dependencies for each app. This view will also include an initial validation check to ensure no configurations are missing.
+-Easy navigation between components and their configuration details, including dependencies, without manually searching through the codebase.
 
 We now have a Koin configuration tree view, which will display all your modules and their dependencies. This tree covers most of the regular declaration variants, such as the constructor DSL, with argument detection and type resolution — which will make it a breeze to navigate your Koin setup.
 

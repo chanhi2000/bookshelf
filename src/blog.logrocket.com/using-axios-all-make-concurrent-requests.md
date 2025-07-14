@@ -162,11 +162,11 @@ Also, notice that we are destructuring data from each response and renaming it `
 
 As of [July 15, 2020 (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios/blob/76f09afc03fbcf392d31ce88448246bcd4f91f8c/CHANGELOG.md#0200-pre-july-15-2020), Axios updated its [GitHub README (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios#concurrency-deprecated) to reflect that the `axios.all` helper method has been deprecated and [**should be replaced with `Promise.all`**](/blog.logrocket.com/understanding-promise-all-in-javascript.md).
 
-Since there is an [unofficial proposal (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios/issues/1042) to get rid of both the `axios.all` and `axios.spread` methods completely in v1 of Axios, let’s see how we can deprecate the `axios.all` methods using native JavaScript features like `Promise.all` and ES6 parameter destructuring.
+Since there is an [unofficial proposal (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios/issues/1042) to get rid of both the `axios.all` and `axios.spread`methods completely in v1 of Axios, let’s see how we can deprecate the `axios.all` methods using native JavaScript features like `Promise.all` and ES6 parameter destructuring.
 
 Note that only the docs provide this depreciation, not the codebase/library. So, `axios.all` still works in the latest version of Axios, and many developers still use `axios.all` in modern codebase. Pointing out the deprecation is in anticipation that `axios.all` could be replaced at some point in the future.
 
-There is one important thing we should consider at this point, however. The `axios.all` is a helper method built with the [<FontIcon icon="fa-brands fa-firefox"/>native `Promise.all` method in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all). This implies we can easily replace the `axios.all` method with `promise.all`.
+There is one important thing we should consider at this point, however. The `axios.all` is a helper method built with the [<FontIcon icon="fa-brands fa-firefox"/>native `Promise.all`method in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all). This implies we can easily replace the `axios.all` method with `promise.all`.
 
 The `Promise.all` method returns a promise that resolves when all of the promises in the iterable argument resolve.
 
@@ -244,7 +244,7 @@ const getGithubData = () => {
 }
 ```
 
-Next, let’s call the function when the page loads. To achieve this the React way, [**we’ll use the `useEffect` Hook**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md):
+Next, let’s call the function when the page loads. To achieve this the React way, [**we’ll use the `useEffect`Hook**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md):
 
 ```jsx
 // remember to import useEffect from react

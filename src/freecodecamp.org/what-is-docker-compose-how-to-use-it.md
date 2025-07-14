@@ -26,7 +26,7 @@ isOriginal: false
 author:
   - name: Arunachalam B
     url : https://freecodecamp.org/news/author/arunachalamb/
-cover: https://www.freecodecamp.org/news/content/images/2023/04/What-is-Docker-compose-1.png
+cover: https://freecodecamp.org/news/content/images/2023/04/What-is-Docker-compose-1.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/04/What-is-Docker-c
   desc="Docker helps you setup a development environment on your machine quickly. It only takes a couple of minutes to go through the entire process.  But let's assume you were assigned on a project which requires at least 10 different services in a running ..."
   url="https://freecodecamp.org/news/what-is-docker-compose-how-to-use-it"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/04/What-is-Docker-compose-1.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/04/What-is-Docker-compose-1.png"/>
 
 Docker helps you setup a development environment on your machine quickly. It only takes a couple of minutes to go through the entire process.
 

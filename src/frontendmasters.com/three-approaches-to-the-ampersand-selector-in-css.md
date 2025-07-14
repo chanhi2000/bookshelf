@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5123"/>
 
-In CSS nesting, the `&` (ampersand symbol) selector adds style rules based on the relation between nested selectors. For example, a pseudo-class (`:hover`) nested inside a type selector (`div`) becomes a compound selector (`div:hover`) when the nested pseudo-class is prefixed with `&`.
+In CSS nesting, the`&`(ampersand symbol) selector adds style rules based on the relation between nested selectors. For example, a pseudo-class (`:hover`) nested inside a type selector (`div`) becomes a compound selector (`div:hover`) when the nested pseudo-class is prefixed with`&`.
 
 ```scss
 div {
@@ -67,7 +67,7 @@ div:hover {
 */
 ```
 
-A use-case for the `&` selector is to combine it with the `:has()` pseudo-class to select and style elements based on the child elements they contain. In the following example, a `label` is styled for when the checkbox within it is checked.
+A use-case for the`&`selector is to combine it with the`:has()`pseudo-class to select and style elements based on the child elements they contain. In the following example, a`label`is styled for when the checkbox within it is checked.
 
 ```html
 <label>
@@ -99,17 +99,17 @@ label {
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In a way, the `&` symbol is a placeholder for the outer level selector in the nesting hierarchy. **This enables flexible combinations of selectors customized to suit our code’s modular organization preferences**. In this article, we’ll see three kinds of modular possibilities with the `&` selector in native CSS.
+In a way, the`&`symbol is a placeholder for the outer level selector in the nesting hierarchy.**This enables flexible combinations of selectors customized to suit our code’s modular organization preferences**. In this article, we’ll see three kinds of modular possibilities with the`&`selector in native CSS.
 
 ---
 
 ## 1) Linked Class Names
 
-Starting with the easiest approach, the `&` selector can be used to combine class names. Elements often have multiple class names to group and style them together. Sometimes, grouping is within a module, and other times style rules can intersect between modules due to shared class names.
+Starting with the easiest approach, the`&`selector can be used to combine class names. Elements often have multiple class names to group and style them together. Sometimes, grouping is within a module, and other times style rules can intersect between modules due to shared class names.
 
-**By using the** `&` **selector to concatenate class names, style rules for elements within a module can be arranged together based on their shared class names.**
+**By using the**`&`**selector to concatenate class names, style rules for elements within a module can be arranged together based on their shared class names.**
 
-In the example below, the three card modules, grouped under the class name `cards`, share most style rules, such as dimensions. However, they have different background images to reflect their content, defined separately within the `.cards` ruleset by concatenating the `&` selector with the exclusive class names of each card.
+In the example below, the three card modules, grouped under the class name`cards`, share most style rules, such as dimensions. However, they have different background images to reflect their content, defined separately within the`.cards`ruleset by concatenating the`&`selector with the exclusive class names of each card.
 
 ```html
 <div class="cards trek">
@@ -198,11 +198,11 @@ The conventional method of organizing nested style rulesets involves including t
 }
 ```
 
-However, the opposite is also possible due to the `&` selector: nesting a parent element’s style rules within its child element’s ruleset. This can be beneficial when it’s easier to **organize an element’s style rules by its purpose rather than its position in a layout**.
+However, the opposite is also possible due to the`&`selector: nesting a parent element’s style rules within its child element’s ruleset. This can be beneficial when it’s easier to**organize an element’s style rules by its purpose rather than its position in a layout**.
 
 For instance, styling can be static or dynamic. Dynamic styling happens when user interactions, or scripts, trigger the application of a selector’s ruleset to an element on a page. In such cases, it’s convenient to categorize rulesets into dynamic and static.
 
-In the following example, all rules related to the appearance of the agreement modules upon page load, such as layout, dimensions, and colors, are included in the `.agreements` ruleset. However, the style rules that modify the appearance of the agreement modules when their checkboxes are checked, i.e **when user interaction occurs**, are placed within the nesting selector `.isAgreed:checked`.
+In the following example, all rules related to the appearance of the agreement modules upon page load, such as layout, dimensions, and colors, are included in the`.agreements`ruleset. However, the style rules that modify the appearance of the agreement modules when their checkboxes are checked, i.e**when user interaction occurs**, are placed within the nesting selector`.isAgreed:checked`.
 
 ```html :collapsed-lines
 <article class="agreements terms">
@@ -289,7 +289,7 @@ In the above demo, a parent element selection is shown as example, but the same 
 
 ## 3) Recurring Selectors
 
-With IDs, class names, semantic markup, and so forth, we rarely need to repeat selectors within compound selectors to achieve specificity. However, **repeating selectors are still useful, particularly when the same type of elements are styled similarly but with slight adjustments based on their positions in the layout and among themselves**.
+With IDs, class names, semantic markup, and so forth, we rarely need to repeat selectors within compound selectors to achieve specificity. However,**repeating selectors are still useful, particularly when the same type of elements are styled similarly but with slight adjustments based on their positions in the layout and among themselves**.
 
 A good example of this is how paragraphs are typically spaced in an article. There’s the spacing between each paragraph, and the spacing between the paragraphs and another kind of element, such as an image, that’s inserted between them.
 
@@ -354,17 +354,17 @@ In the above example, the gaps between paragraphs are small compared to the larg
 
 The selectors can be explained like:
 
-1. `*:not(p) + p` — The paragraph below a non-paragraph element has a larger top margin
-2. `p:not(:has(+p))` — The paragraph above a non-paragraph element has a larger bottom margin
-3. `p + p` — The paragraph below another paragraph has a smaller top margin
+1. `*:not(p) + p`— The paragraph below a non-paragraph element has a larger top margin
+2. `p:not(:has(+p))`— The paragraph above a non-paragraph element has a larger bottom margin
+3. `p + p`— The paragraph below another paragraph has a smaller top margin
 
-Besides its flexibility, another compelling reason to use the `&` selector in organizing our code is that it lacks its own specificity. This means we can **rely on the specificity of the usual selectors and the nesting hierarchy** to apply the rules as intended.
+Besides its flexibility, another compelling reason to use the`&`selector in organizing our code is that it lacks its own specificity. This means we can**rely on the specificity of the usual selectors and the nesting hierarchy**to apply the rules as intended.
 
 ---
 
-## Using `&` in Vanilla CSS vs. Using `&` in Frameworks
+## Using `&`in Vanilla CSS vs.Using `&`in Frameworks
 
-The `&` is vanilla CSS always represents the outer level *selector*, which might not be the case for the `&` used in CSS frameworks, such as Sass. The `&` in frameworks could mean the outer level *string*.
+The`&`is vanilla CSS always represents the outer level*selector*, which might not be the case for the`&`used in CSS frameworks, such as Sass. The`&`in frameworks could mean the outer level*string*.
 
 ```html
 <div class="parent--one">text one</div>
@@ -389,7 +389,7 @@ That will not work in vanilla CSS, but it still can be done! A similar ruleset w
 }
 ```
 
-Note that, in the SCSS code, there is no real `.parent` selector, as in no element on page matches it, whereas in CSS, `[class|="parent"]` *will* match an element. If we add a style rule to the outer level ruleset in both of those code snippets, the SCSS will fail to find an element to apply the style rule, whereas the CSS will apply the style to both the elements that has the class name starting with `parent`.
+Note that, in the SCSS code, there is no real`.parent`selector, as in no element on page matches it, whereas in CSS,`[class|="parent"]`*will* match an element. If we add a style rule to the outer level ruleset in both of those code snippets, the SCSS will fail to find an element to apply the style rule, whereas the CSS will apply the style to both the elements that has the class name starting with`parent`.
 
 ```scss
 .parent {
@@ -407,7 +407,7 @@ Note that, in the SCSS code, there is no real `.parent` selector, as in no ele
 }
 ```
 
-Hence, the downside of an `&` that represents a selector-syntax string rather than a viable selector is that it might mislead us into thinking elements matching the perceived selector exist when they don’t, something that we don’t have to worry with the native `&` selector.
+Hence, the downside of an`&`that represents a selector-syntax string rather than a viable selector is that it might mislead us into thinking elements matching the perceived selector exist when they don’t, something that we don’t have to worry with the native`&`selector.
 
 ::: info <FontIcon icon="iconfont icon-w3c"/>CSS Nesting Module 1, W3C (<code>w3.org</code>)
 
@@ -427,9 +427,9 @@ When used in the selector of a nested style rule, the nesting selector **represe
 
 :::
 
-On the other hand, we can combine strings more freely to produce the selectors we want using the `&` in frameworks. Which is useful when class names are extensively relied on for modularity.
+On the other hand, we can combine strings more freely to produce the selectors we want using the`&`in frameworks. Which is useful when class names are extensively relied on for modularity.
 
-Either way, grouping style rulesets is crucial for enhancing code readability, maintainability, and to provide a desired order of use among conflicting style rules. The `&` selector in native CSS can help with that, as well as in **specifying selection criteria that might otherwise be challenging to define**.
+Either way, grouping style rulesets is crucial for enhancing code readability, maintainability, and to provide a desired order of use among conflicting style rules. The`&`selector in native CSS can help with that, as well as in**specifying selection criteria that might otherwise be challenging to define**.
 
 ---
 

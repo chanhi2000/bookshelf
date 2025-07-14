@@ -129,7 +129,7 @@ And remember, even in vanilla JS projects, it’s okay to use microlibraries for
 - Simplicity
 - Flexibility
 - High performance
-- No `node_modules` needed (just kidding?)
+- No`node_modules`needed(just kidding?)
 
 The goal isn’t to suggest using vanilla JS for every project. Instead, it’s about learning the tool and using it when it’s the best choice.
 
@@ -205,7 +205,7 @@ A new API, the [<FontIcon icon="fa-brands fa-firefox"/>Navigation API](https://d
 
 ## Browser APIs
 
-How often have you searched for a plugin to handle a specific feature, like geolocation or authentication? Browser APIs can replace many of these needs. For a comprehensive list of available APIs, check out the [<FontIcon icon="fas fa-globe"/>Baseline Project](https://web.dev/baseline), the [<FontIcon icon="fas fa-globe"/>Learn PWA Capabilities list](https://web.dev/learn/pwa/capabilities?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%2Fcapabilities), or my Frontend Masters courses on these topics.
+How often have you searched for a plugin to handle a specific feature, like geolocation or authentication? Browser APIs can replace many of these needs. For a comprehensive list of available APIs, check out the[<FontIcon icon="fas fa-globe"/>Baseline Project](https://web.dev/baseline), the[<FontIcon icon="fas fa-globe"/>Learn PWA Capabilities list](https://web.dev/learn/pwa/capabilities?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%2Fcapabilities), or my Frontend Masters courses on these topics.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/posterframe-1.webp?resize=1024%2C576&ssl=1)
 
@@ -248,11 +248,11 @@ Learning vanilla JS should be fun! While it may not be suitable for every projec
 
 We’ve seen that you can implement reusable, sandboxed components, reactive programming, templating, and client-side routing using modern web platform features—without libraries. The learning curve is small, so even if you don’t plan to use vanilla JS right away, learning these techniques and APIs will improve your knowledge of how everything works.
 
-Vanilla JS requires more decision-making and design pattern implementation from you, but it’s perfectly valid to use microlibraries like [<FontIcon icon="fas fa-globe"/>htmx](https://htmx.org/), [<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/), or a [Signals library (<FontIcon icon="iconfont icon-github"/>`maverick-js/signals`)](https://github.com/maverick-js/signals) in your projects.
+Vanilla JS requires more decision-making and design pattern implementation from you, but it’s perfectly valid to use microlibraries like[<FontIcon icon="fas fa-globe"/>htmx](https://htmx.org/),[<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/), or a[Signals library (<FontIcon icon="iconfont icon-github"/>`maverick-js/signals`)](https://github.com/maverick-js/signals)in your projects.
 
 Yes, vanilla JS can be more verbose and time-consuming compared to frameworks (if we don’t count the set up, the learning curve and the build system), but the benefits — like high performance — make it a suitable tool for many web apps.
 
-I hope you’ll embrace the simplicity and speed that vanilla JavaScript offers. The next time you start a new project, you’ll find yourself asking: *do I really need this framework?*
+I hope you’ll embrace the simplicity and speed that vanilla JavaScript offers. The next time you start a new project, you’ll find yourself asking:*do I really need this framework?*
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

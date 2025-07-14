@@ -79,7 +79,7 @@ React Context is a great feature that enables you to manage and share state acro
 ### How to use React Context
 
 1. **Create a Context** — First, you create a Context using the `createContext()` function. This creates a special object that stores the state that you want to share
-2. **Provide the Context** — You add the `<Context />` component to the top of the component tree that needs access to the shared state
+2. **Provide the Context**— You add the `<Context />` component to the top of the component tree that needs access to the shared state
 3. **Use the Context** — Any child component wrapped within the `<Context>` component can access the shared data using the `useContext()` Hook or the `<Context.Consumer />` component
 
 ---

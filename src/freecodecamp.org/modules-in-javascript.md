@@ -23,7 +23,7 @@ prev: /programming/js/articles/README.md
 date: 2022-04-14
 isOriginal: false
 author: German Cocca
-cover: https://www.freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1wOdmI-unsplash.jpg
+cover: https://freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1wOdmI-unsplash.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,7 +47,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/04/carson-arias-7Z0
   desc="Hi everyone! In this article we're going to take a look at modules in JavaScript. Modules are a technique heavily used in today's software design/architecture. First we're going to learn what they are and the different types of modules that exist. Th..."
   url="https://freecodecamp.org/news/modules-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1wOdmI-unsplash.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1wOdmI-unsplash.jpg"/>
 
 Hi everyone! In this article we're going to take a look at modules in JavaScript.
 

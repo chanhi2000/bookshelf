@@ -218,7 +218,7 @@ You can submit `eve.holt@reqres.in` and `cityslicka` as the email and password v
 
 ![A Successful POST Requests Renders A 200 Code](/assets/image/blog.logrocket.com/how-to-use-axios-post-requests/post-request-success.png)
 
-### Sending an Axios `POST` request in React
+### Sending an Axios `POST`request in React
 
 We can now perform the same `POST` request in a React project. We need to first install Axios using npm or Yarn. Depending on your package manager, install Axios by running one of the commands below:
 

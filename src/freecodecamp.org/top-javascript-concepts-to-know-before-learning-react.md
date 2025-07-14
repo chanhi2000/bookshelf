@@ -23,7 +23,7 @@ prev: /programming/js/articles/README.md
 date: 2022-01-28
 isOriginal: false
 author: Joel Olawanle
-cover: https://www.freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Geometric-Covid-19-General-Facts-Twitter-Post-3.jpg
+cover: https://freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Geometric-Covid-19-General-Facts-Twitter-Post-3.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -47,7 +47,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/01/Yellow-and-Purpl
   desc="By Joel Olawanle If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho..."
   url="https://freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Geometric-Covid-19-General-Facts-Twitter-Post-3.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Geometric-Covid-19-General-Facts-Twitter-Post-3.jpg"/>
 
 If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts.
 

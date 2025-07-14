@@ -243,7 +243,7 @@ With this, we can get various pieces of data we need for pagination, like `pageS
 
 `canPreviousPage` and `canNextPage` tell us whether we can move to the previous or next page respectively. `pageCount` has the total page count, and `gotoPage` is a function that lets us skip to the given page number. `previousPage` and `nextPage` are also functions that let us navigate to the given page.
 
-They’re used in the following `div` to navigate between pages:
+They’re used in the following `div`to navigate between pages:
 
 ```jsx :collapsed-lines
 <div>

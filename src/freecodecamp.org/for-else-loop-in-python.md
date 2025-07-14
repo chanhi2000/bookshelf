@@ -25,7 +25,7 @@ isOriginal: false
 author:
   - name: Bala Priya C
     url : https://freecodecamp.org/news/author/balapriyac/
-cover: https://www.freecodecamp.org/news/content/images/2024/06/fimg-1-.png
+cover: https://freecodecamp.org/news/content/images/2024/06/fimg-1-.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -49,7 +49,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/06/fimg-1-.png
   desc="Python supports the for-else loop construct that is lesser known but super helpful. If you’ve programmed in Python, you may have used the for loop to iterate over items in iterables such as lists. But for some use cases, using the for loop in conjunc..."
   url="https://freecodecamp.org/news/for-else-loop-in-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/06/fimg-1-.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/06/fimg-1-.png"/>
 
 Python supports the for-else loop construct that is lesser known but super helpful.
 

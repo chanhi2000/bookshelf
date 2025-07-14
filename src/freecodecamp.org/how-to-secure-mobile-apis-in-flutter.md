@@ -836,7 +836,7 @@ Remember: effective security starts with a mindset. It’s not just a one-time s
   preview="https://owasp.org/www--site-theme/favicon.ico"/>
 
 <SiteInfo
-  name="Security checklist  |  Android Developers"
+  name="Security checklist | Android Developers"
   desc="Android has built-in security features that significantly reduce the frequency and impact of application security issues. The system is designed so that you can typically build your apps with the default system and file permissions and avoid difficult decisions about security."
   url="https://developer.android.com/privacy-and-security/security-tips/"
   logo="https://gstatic.com/devrel-devsite/prod/va15d3cf2bbb0f0b76bff872a3310df731db3118331ec014ebef7ea080350285b/android/images/favicon.svg"

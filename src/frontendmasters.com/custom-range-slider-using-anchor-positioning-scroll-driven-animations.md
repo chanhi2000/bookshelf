@@ -48,7 +48,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3569"/>
 
-[<FontIcon icon="fa-brands fa-firefox"/>Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) and [<FontIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
+[<FontIcon icon="fa-brands fa-firefox"/>Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning)and[<FontIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
 
 Here is a demo of a custom range slider where I am relying on such features.
 
@@ -59,7 +59,7 @@ Here is a demo of a custom range slider where I am relying on such features.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-This whole UI is a semantic HTML `<input type="range">`, with another semantic `<output>` element showing off the current value, along with quite fancy CSS.
+This whole UI is a semantic HTML`<input type="range">`, with another semantic`<output>`element showing off the current value, along with quite fancy CSS.
 
 Intuitively, you may think there is a JavaScript code somewhere gathering the value of the input “on change” and updating the position/content of the tooltip. As for the motion, it’s probably a kind of JavaScript library that calculates the speed of the mouse movement to apply a rotation and create that traction illusion.
 
@@ -87,9 +87,9 @@ First, let’s start with the HTML structure:
 </label>
 ```
 
-An `input` element and an `output` element are all that we need here. The label part is not mandatory for the functionality, but form elements should always be labelled and you need a wrapper element anyway.
+An`input`element and an`output`element are all that we need here. The label part is not mandatory for the functionality, but form elements should always be labelled and you need a wrapper element anyway.
 
-I won’t detail the attributes of the `input` element but note the use of two CSS variables on the `output` element that should have the same values as the `min` and `max` attributes.
+I won’t detail the attributes of the`input`element but note the use of two CSS variables on the`output`element that should have the same values as the `min` and `max` attributes.
 
 In addition to the HTML code, I am going to consider the styling of the range slider and the tooltip as prerequisites as well. I will mainly focus on the new features and skip most of the aesthetic parts, although I have covered some of those aspects in other articles, [like here](/sitepoint.com/css-custom-range-slider.md) where I detail the styling of the range slider.
 
@@ -100,7 +100,7 @@ In addition to the HTML code, I am going to consider the styling of the range sl
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>  
 
-As for the tooltip, I have a [<FontIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/) and I am going to use the #41 and #42. I also have a [two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md) detailing the creation of most of the tooltips.
+As for the tooltip, I have a[<FontIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/)and I am going to use the #41 and #42. I also have a[two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md)detailing the creation of most of the tooltips.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/s_3FEC3DE430682F2526F00121B6B9A21346D04C3B20F98BA491C64590EEBAAF65_1723504367208_image.png?resize=989%2C307&ssl=1)
 
@@ -132,13 +132,13 @@ output {
 
 That’s all! No more than four CSS declarations and our tooltip is correctly placed and will follow the movement of the slider thumb.
 
-Anchor positioning is an upgrade of `position: absolute` here. Instead of positioning the element relatively to an ancestor having `position: relative` we can consider any element on the page called an “anchor”. To define an anchor we use `anchor-name` with whatever value you want. It’s mandatory to use the dashed indent notation like with custom properties. That same value can later be used within the absolute element to link it with the “anchor” using `position-anchor`.
+Anchor positioning is an upgrade of`position: absolute` here. Instead of positioning the element relatively to an ancestor having`position: relative`we can consider any element on the page called an “anchor”. To define an anchor we use`anchor-name`with whatever value you want. It’s mandatory to use the dashed indent notation like with custom properties. That same value can later be used within the absolute element to link it with the “anchor” using`position-anchor`.
 
-Defining the anchor is not enough, we also need to correctly position the element. For this, we have the `position-area`.
+Defining the anchor is not enough, we also need to correctly position the element. For this, we have the`position-area`.
 
 ::: info
 
-The `position-area` [<FontIcon icon="fas fa-firefox"/>CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
+The`position-area`[<FontIcon icon="fas fa-firefox"/>CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
 
 <SiteInfo
   name="position-area - CSS: Cascading Style Sheets | MDN"
@@ -164,7 +164,7 @@ Here is the demo so far:
 
 Hmmmm, there is an issue! Both tooltips are linked to the same thumb. This is understandable, because I used the same anchor name so the first one will get ignored.
 
-*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using [<FontIcon icon="iconfont icon-w3c"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
+*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using[<FontIcon icon="iconfont icon-w3c"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
 
 ```css
 label {
@@ -172,9 +172,9 @@ label {
 }
 ```
 
-The above code should limit the scope of the anchor `--thumb` to the `label` element and its descendant. In other words, the anchor cannot be seen outside the `label` element.
+The above code should limit the scope of the anchor`--thumb`to the`label`element and its descendant. In other words, the anchor cannot be seen outside the`label`element.
 
-Another fix is to add `position: relative` to `label`. I won’t detail how it works but it has to do with the creation of a containing block.
+Another fix is to add`position: relative`to`label`. I won’t detail how it works but it has to do with the creation of a containing block.
 
 <CodePen
   user="t_afif"
@@ -185,7 +185,7 @@ Another fix is to add `position: relative` to `label`. I won’t detail how i
 
 Hmmmmm. We have fixed the scoping problem but the position of the tooltip is still not good. If you move the thumb to the edges, the tooltip is no longer following. It’s limited to the boundary of the slider. It’s kind of strange, but it’s by design.
 
-By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by [<FontIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
+By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by[<FontIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
 
 > If the box overflows its inset-modified containing block, but would still fit within its original containing block, by default it will “shift” to stay within its original containing block, even if that violates its normal alignment. This behavior makes it more likely that positioned boxes remain visible and within their intended bounds, even when their containing block ends up smaller than anticipated.
 
@@ -206,7 +206,7 @@ Of course, it applies to only this particular demo. You may need a different fix
 
 Now that our tooltip is correctly positioned, let’s move to the content. This is where scroll-driven animations enter the story. I know what you are thinking: *“We have nothing to scroll, so how are we going to use scroll-driven animations?”*
 
-If you read [<FontIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) you will find something called a “*view progress timeline*”:
+If you read[<FontIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)you will find something called a “*view progress timeline*”:
 
 > You progress this timeline based on the change in visibility of an element (known as the subject) inside a scroller. The visibility of the subject inside the scroller is tracked as a percentage of progress — by default, the timeline is at 0% when the subject is first visible at one edge of the scroller, and 100% when it reaches the opposite edge.
 
@@ -223,9 +223,9 @@ input[type="range" i]::-webkit-slider-thumb {
 }`
 ```
 
-Similar to what we did with the anchor, we give a name and the axis (`inline`) which is the horizontal one in our default writing mode. Then, we define `overflow: hidden` on the input element. This will make the input our scroller while the thumb is the subject.
+Similar to what we did with the anchor, we give a name and the axis (`inline`) which is the horizontal one in our default writing mode. Then, we define`overflow: hidden`on the input element. This will make the input our scroller while the thumb is the subject.
 
-If you forget about the overflow (so easy to forget!), another element will get used as the scroller, and won’t really know which one, and nothing will work as expected. Always remember that you need to define the subject using `view-timeline` and the scroller using `overflow`. I will repeat it again: **don’t forget to define overflow on the scroller element!**
+If you forget about the overflow (so easy to forget!), another element will get used as the scroller, and won’t really know which one, and nothing will work as expected. Always remember that you need to define the subject using`view-timeline`and the scroller using`overflow`. I will repeat it again: **don’t forget to define overflow on the scroller element!**
 
 Next, we define the animation:
 
@@ -248,11 +248,11 @@ output {
 }
 ```
 
-Let’s start with `timeline-scope`. This is yet another scoping issue that will give you a lot of headaches. With anchor positioning, we saw that an anchor is by default available everywhere on the page and we have to limit its scope. With scroll-driven animations, the scope is limited to the element where it’s defined (the subject) and its descendant so we have to increase the scope to make it available to other elements. Two different implementations but the same issue.
+Let’s start with`timeline-scope`. This is yet another scoping issue that will give you a lot of headaches. With anchor positioning, we saw that an anchor is by default available everywhere on the page and we have to limit its scope. With scroll-driven animations, the scope is limited to the element where it’s defined (the subject) and its descendant so we have to increase the scope to make it available to other elements. Two different implementations but the same issue.
 
-Never **ever** forget about scoping when working with both features. Sometimes, everything is correctly defined and you are only missing `timeline-scope` or `position: relative` somewhere.
+Never**ever**forget about scoping when working with both features. Sometimes, everything is correctly defined and you are only missing`timeline-scope`or`position: relative`somewhere.
 
-Next we define an animation that animates an integer between the `min` and `max` variables, then link that animation with the timeline we previously defined using `animation-timeline`.
+Next we define an animation that animates an integer between the `min` and `max` variables, then link that animation with the timeline we previously defined using`animation-timeline`.
 
 Why the `max` is at 0% and the `min` at 100%? Isn’t that backwards, you ask?
 
@@ -269,9 +269,9 @@ I know that we don’t have scrolling in our case but consider the following exa
 
 When you scroll the container “from left to right” you have a red circle that moves “from right to left”. We still have the “from left to right” behavior but it’s linked to the scroll. As for the content, it will logically move in the opposite direction “from right to left”.
 
-When the scroll is at the left, the element is at the right and when the scroll is at the right, the element is at the left. The same logic applies to our thumb even if there is nothing to scroll. When the thumb is at the right edge, this is our `0%` state and we need to have the `max` value there. The left edge will be the `100%` state and it’s the `min` value.
+When the scroll is at the left, the element is at the right and when the scroll is at the right, the element is at the left. The same logic applies to our thumb even if there is nothing to scroll. When the thumb is at the right edge, this is our`0%`state and we need to have the `max` value there. The left edge will be the`100%`state and it’s the `min` value.
 
-The last step is to show the value using a pseudo-element and `counter()`
+The last step is to show the value using a pseudo-element and`counter()`
 
 ```css
 output::before {
@@ -289,15 +289,15 @@ And we are done!
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>  
 
-Wait a minute, the values aren’t good! We are not reaching the min and max values. For the first slider, we are supposed to go from `0` to `120` but instead, we have `9` and `111`.
+Wait a minute, the values aren’t good! We are not reaching the min and max values. For the first slider, we are supposed to go from`0`to`120`but instead, we have`9`and`111`.
 
 Another trick related to the scroll part of the feature and here is a figure to illustrate what is happening:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/DLxrh0pl.png?resize=977%2C254&ssl=1)
 
-The movement of the thumb is limited to the input container (the scroller) but the `0%` and `100%` state are defined to be outside the scroller. In our case, the subject cannot reach the `0%` and `100%` since it cannot go outside but luckily we can update the `0%` and `100%` state:
+The movement of the thumb is limited to the input container (the scroller) but the`0%`and`100%`state are defined to be outside the scroller. In our case, the subject cannot reach the`0%`and`100%`since it cannot go outside but luckily we can update the`0%`and`100%`state:
 
-We can either use `animation-range` to make both states inside the container:
+We can either use`animation-range`to make both states inside the container:
 
 ```css
 output {
@@ -309,7 +309,7 @@ output {
 
 ![](https://i0.wp.com/paper-attachments.dropboxusercontent.com/s_3FEC3DE430682F2526F00121B6B9A21346D04C3B20F98BA491C64590EEBAAF65_1723632516189_image.png?ssl=1)
 
-Or we consider `view-timeline-inset` with a value equal to the width of the thumb.
+Or we consider`view-timeline-inset`with a value equal to the width of the thumb.
 
 ```css
 input[type="range" i]::-webkit-slider-thumb{
@@ -319,7 +319,7 @@ input[type="range" i]::-webkit-slider-thumb{
 }
 ```
 
-The first method seems better as we don’t have to know the size of the thumb (the subject) but keep in mind both methods. The `view-timeline-inset` property may be more suitable in some situations.
+The first method seems better as we don’t have to know the size of the thumb (the subject) but keep in mind both methods.The `view-timeline-inset`property may be more suitable in some situations.
 
 <CodePen
   user="t_afif"
@@ -330,7 +330,7 @@ The first method seems better as we don’t have to know the size of the thumb (
 
 Now our slider is perfect!
 
-A lot of stuff to remember, right? Between the scoping issues, the range we have to correct, the overflow we should not forget, the `min` that should be at `100%` and `max` that should be at `0%`, etc. Don’t worry, I feel the same. They are new features with new mechanisms so it requires a lot of practice to get used to them and build a clear mental model. If you are a bit lost, that’s fine! No need to understand everything at once. Take the time to play with the different demos, read the doc of each property, and try things on your own.
+A lot of stuff to remember, right? Between the scoping issues, the range we have to correct, the overflow we should not forget, the `min` that should be at`100%`and `max` that should be at`0%`, etc. Don’t worry, I feel the same. They are new features with new mechanisms so it requires a lot of practice to get used to them and build a clear mental model. If you are a bit lost, that’s fine! No need to understand everything at once. Take the time to play with the different demos, read the doc of each property, and try things on your own.
 
 ---
 
@@ -369,11 +369,11 @@ output:before {
 }
 ```
 
-We add a new CSS variable `--e` with a number type. This variable will be equal to the `--val` variable. Until now, nothing fancy. We have two variables having the same value but one of them has a `transition`. Here comes the magic.
+We add a new CSS variable`--e`with a number type. This variable will be equal to the`--val`variable. Until now, nothing fancy. We have two variables having the same value but one of them has a `transition`. Here comes the magic.
 
-When you move the thumb, the animation will update the `--val` variable inside the output element. The pseudo-element will then inherit that value to update the content and also update `--e`. But since we are applying a transition to `--e`, it will not have an instant update but a smooth one (well, you know how transitions work!). This means that for a brief moment, both `--e` and `--val` will not be equal thus their difference is different from 0. We use that difference inside the rotation!
+When you move the thumb, the animation will update the`--val`variable inside the output element. The pseudo-element will then inherit that value to update the content and also update`--e`. But since we are applying a transition to`--e`, it will not have an instant update but a smooth one (well, you know how transitions work!). This means that for a brief moment, both`--e`and`--val`will not be equal thus their difference is different from 0. We use that difference inside the rotation!
 
-In addition to this, the difference can get bigger if you move the thumb fast or slow. Let’s suppose the current value is equal to `5`. If you move the thumb rapidly to the value `50`, the difference will be equal to `45` hence we get a big rotation. If you move to the value `7`, the difference will be equal to `2` and the rotation won’t be that big.
+In addition to this, the difference can get bigger if you move the thumb fast or slow. Let’s suppose the current value is equal to`5`. If you move the thumb rapidly to the value`50`, the difference will be equal to`45`hence we get a big rotation. If you move to the value`7`, the difference will be equal to`2`and the rotation won’t be that big.
 
 Here is the full demo again so you can play with it. Try different speeds of movement and see how the rotation is different each time.
 
@@ -388,7 +388,7 @@ If you want to dig more into this technique and see more examples I advise you t
 
 <SiteInfo
   name="Solved by CSS Scroll-Driven Animations: Style an element based on the active Scroll Direction and Scroll Speed"
-  desc="Combine Scroll-Driven Animations with @​property, transition-delay, calc(), sign() and abs() … and you can do Scroll Detection using only CSS!"
+  desc="Combine Scroll-Driven Animations with @property, transition-delay, calc(), sign() and abs() … and you can do Scroll Detection using only CSS!"
   url="https://bram.us/2023/10/23/css-scroll-detection/"
   logo="https://bram.us/favicon.ico"
   preview="https://bram.us/wordpress/wp-content/uploads/2023/10/sda-badass-short-020p-10fps.gif"/>
@@ -408,7 +408,7 @@ Let’s try a different idea.
 
 This time, I am adjusting the tooltip position (and its tail) to remain within the horizontal boundary of the input element. Can you figure out how it’s done? This will be your homework!
 
-For the tooltip part, I already did the job for you. I will redirect you again to [<FontIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/) where you can get the code of the tooltip shape. Within that code, I am already defining one variable that controls the tail position.
+For the tooltip part, I already did the job for you. I will redirect you again to[<FontIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/)where you can get the code of the tooltip shape. Within that code, I am already defining one variable that controls the tail position.
 
 ---
 
@@ -416,7 +416,7 @@ For the tooltip part, I already did the job for you. I will redirect you again t
 
 CSS is cool. A few years ago, doing such stuff with CSS would have been impossible. You would probably need one or two JavaScript libraries to handle the position of the tooltip, the dynamic content, the motion, etc. Now, all it takes is a few lines of CSS.
 
-It’s still early to adopt those features and include them in real projects but I think it’s a good time to explore them and get an overview of what could be done in the near future. If you want more “futuristic” experimentation make sure to check [<FontIcon icon="fas fa-globe"/>my CSS Tip website](https://css-tip.com/) where I regularly share cool demos!
+It’s still early to adopt those features and include them in real projects but I think it’s a good time to explore them and get an overview of what could be done in the near future. If you want more “futuristic” experimentation make sure to check[<FontIcon icon="fas fa-globe"/>my CSS Tip website](https://css-tip.com/)where I regularly share cool demos!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

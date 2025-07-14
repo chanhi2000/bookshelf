@@ -54,13 +54,13 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_vhOf2s2bGrVMycE24fzFPg-
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/1_vhOf2s2bGrVMycE24fzFPg-600x338.webp)
 
-In Android development, **Hilt** is often the go-to library for dependency injection due to its official support from Google and deep integration with Android libraries. However, I prefer **Koin** for its simplicity, fast adoption and Kotlin-first approach. In my experience, Koin’s lightweight design makes it easier to set up and maintain, while providing a powerful DI solution that doesn’t compromise on flexibility. Let’s explore why Koin is my favorite DI library and how you can use it effectively in your Android projects.
+In Android development,**Hilt**is often the go-to library for dependency injection due to its official support from Google and deep integration with Android libraries. However, I prefer**Koin**for its simplicity, fast adoption and Kotlin-first approach. In my experience, Koin’s lightweight design makes it easier to set up and maintain, while providing a powerful DI solution that doesn’t compromise on flexibility. Let’s explore why Koin is my favorite DI library and how you can use it effectively in your Android projects.
 
 ---
 
 ## Why Koin?
 
-There are a number of reasons why I love Koin. First, it’s easy to use. Koin has a simple and intuitive API that makes it easy to get started with dependency injection. Second, Koin is lightweight. It won’t add a lot of overhead to your application. Third, Koin is powerful. It provides a powerful set of features that can help you manage dependencies in complex applications. Finally, Koin offers direct integrations with **Jetpack Compose.**
+There are a number of reasons why I love Koin. First, it’s easy to use. Koin has a simple and intuitive API that makes it easy to get started with dependency injection. Second, Koin is lightweight. It won’t add a lot of overhead to your application. Third, Koin is powerful. It provides a powerful set of features that can help you manage dependencies in complex applications. Finally, Koin offers direct integrations with**Jetpack Compose.**
 
 ---
 
@@ -109,8 +109,8 @@ val myModules = module {
 
 Within a module, you can declare various types of components:
 
-- **Single:** Provides a single instance of a dependency throughout the application’s lifecycle.
-- **Factory:** Creates a new instance of a dependency each time it’s requested.
+- **Single:**Provides a single instance of a dependency throughout the application’s lifecycle.
+- **Factory:**Creates a new instance of a dependency each time it’s requested.
 - **ViewModel:** Specifically designed for Android ViewModel instances, ensuring proper lifecycle management.
 
 With the standard component definition you can also use the extensions functions (**`singleOf`, `factoryOf` and `viewModelOf`** ) to provide a more concise syntax for creating instances.
@@ -135,7 +135,7 @@ class MyApplication : Application() {
 }
 ```
 
-In your <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` file, update the `application` tag to reference your custom application class:
+In your<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`file, update the`application` tag to reference your custom application class:
 
 ```xml title="AndroidManifest.xml"
 <?xml version="1.0" encoding="utf-8"?>
@@ -158,7 +158,7 @@ By following these steps, you’ve successfully initialized Koin and made it rea
 
 Koin makes it straightforward to inject dependencies into your classes. By defining your modules and components, you can directly access them within your classes.
 
-Here’s an example of a `HomeViewModel` using dependencies provided by Koin:
+Here’s an example of a`HomeViewModel`using dependencies provided by Koin:
 
 ```kotlin
 class HomeViewModel(
@@ -170,7 +170,7 @@ class HomeViewModel(
 }
 ```
 
-For a **Jetpack Compose** environment, the setup is slightly different. In your **Activity**, it’s helpful to wrap all Compose code inside a `KoinAndroidContext` to define the Koin Context and then use the dependencies:
+For a**Jetpack Compose**environment, the setup is slightly different. In your**Activity**, it’s helpful to wrap all Compose code inside a`KoinAndroidContext` to define the Koin Context and then use the dependencies:
 
 ```kotlin
 class MainActivity : ComponentActivity() {
@@ -202,16 +202,16 @@ fun HomeInitScreen(
 
 In this example:
 
-- `NavigationViewModel` will follow the lifecycle of the **Activity**, making it suitable for app-wide navigation.
-- `HomeViewModel` will be scoped to the `HomeInitScreen` Composable function, fitting the more transient lifecycle of UI elements in Compose.
+- `NavigationViewModel`will follow the lifecycle of the**Activity**, making it suitable for app-wide navigation.
+- `HomeViewModel` will be scoped to the`HomeInitScreen`Composable function, fitting the more transient lifecycle of UI elements in Compose.
 
-This setup allows for precise lifecycle management with minimal boilerplate, making Koin an excellent choice for **Compose-based projects**.
+This setup allows for precise lifecycle management with minimal boilerplate, making Koin an excellent choice for**Compose-based projects**.
 
 ---
 
 ## Testing with Koin
 
-Koin’s structure makes it highly testable and ideal for achieving high code coverage. Dependencies can be easily **mocked or replaced**, and you can even define custom Koin modules specifically for testing purposes.
+Koin’s structure makes it highly testable and ideal for achieving high code coverage. Dependencies can be easily**mocked or replaced**, and you can even define custom Koin modules specifically for testing purposes.
 
 ```kotlin
 class MyTest: KoinTest { 
@@ -229,7 +229,7 @@ class MyTest: KoinTest {
 
 This flexibility allows you to isolate and test individual components effectively.
 
-To ensure that your Koin modules are configured correctly, you can use the **verify** extension provided by Koin’s testing utilities:
+To ensure that your Koin modules are configured correctly, you can use the**verify** extension provided by Koin’s testing utilities:
 
 ```kotlin
 class MyModulesTest: KoinTest {
@@ -247,7 +247,7 @@ class MyModulesTest: KoinTest {
 }
 ```
 
-This test verifies the correctness of the `myModules` definition, ensuring that all dependencies are defined and can be resolved.
+This test verifies the correctness of the`myModules` definition, ensuring that all dependencies are defined and can be resolved.
 
 By following these guidelines, you can effectively test your Koin-based applications, improving code quality and reducing potential issues.
 
@@ -257,7 +257,7 @@ By following these guidelines, you can effectively test your Koin-based applicat
 
 If you prefer Hilt’s annotation-based approach, Koin recently introduced annotations, allowing you to mark dependencies with simple annotations for a more declarative setup. This style lets you define dependencies similarly to Hilt.
 
-One key difference is that Koin traditionally resolves dependencies at runtime. This means that if a dependency is missing, the error only appears when the dependency is requested. With the new annotation-based approach, Koin now offers **compile-time checking** for dependencies, which catches these issues during the build process. This extra validation is especially valuable for large apps with complex dependency trees, adding a layer of robustness and reliability to your project.
+One key difference is that Koin traditionally resolves dependencies at runtime. This means that if a dependency is missing, the error only appears when the dependency is requested. With the new annotation-based approach, Koin now offers**compile-time checking**for dependencies, which catches these issues during the build process. This extra validation is especially valuable for large apps with complex dependency trees, adding a layer of robustness and reliability to your project.
 
 To update the implementation we already defined to Koin annotations, follow these steps:
 
@@ -300,7 +300,7 @@ dependencies {
 }
 ```
 
-- Enable compile-time safety checks in your <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`:
+- Enable compile-time safety checks in your<FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`:
 
 ```kotlin
 ksp {
@@ -326,7 +326,7 @@ class MyApplication : Application() {
 }
 ```
 
-and start migrating your dependencies by using Koin’s annotations: `@Single`, `@Factory`, and `@KoinViewModel`. Simply add the relevant annotation on top of each class to define its lifecycle and scope.
+and start migrating your dependencies by using Koin’s annotations:`@Single`,`@Factory`, and`@KoinViewModel`. Simply add the relevant annotation on top of each class to define its lifecycle and scope.
 
 ::: tip Example
 
@@ -354,7 +354,7 @@ class HomeViewModel(
 
 :::
 
-Once you’ve annotated your dependencies, Koin will verify them at compile time. If any dependencies are missing or misconfigured, you’ll receive an error during the build process, allowing you to catch issues early. This **compile-time validation** makes your app more robust, especially as it scales and new dependencies are added.
+Once you’ve annotated your dependencies, Koin will verify them at compile time. If any dependencies are missing or misconfigured, you’ll receive an error during the build process, allowing you to catch issues early. This**compile-time validation**makes your app more robust, especially as it scales and new dependencies are added.
 
 ::: info Migrating from Hilt to Koin
 
@@ -378,13 +378,13 @@ This guide walks you through the process of translating Hilt annotations to thei
 
 ## Conclusion
 
-Now you know why **Koin** is my favorite **Dependency Injection library for Android**. I really like its simplicity, flexibility, and Kotlin-centric approach. Its easy setup and clear lifecycle management make it ideal for both small and large applications.
+Now you know why**Koin** is my favorite**Dependency Injection library for Android**. I really like its simplicity, flexibility, and Kotlin-centric approach. Its easy setup and clear lifecycle management make it ideal for both small and large applications.
 
 With Koin, you have the flexibility to define dependencies in a straightforward syntax, while also benefiting from recent advancements like annotation support and compile-time checks. These features allow you to ensure dependency correctness during the build process, enhancing the reliability of your app as it grows in complexity.
 
 Whether you’re building a new project or considering a DI solution for an existing one, Koin’s simplicity and power make it an excellent choice. By following the guidelines in this article, you can take advantage of Koin’s capabilities to create a clean, maintainable, and testable codebase for your Android apps.
 
-If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
+If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
 
 Have a great day!
 

@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3266"/>
 
-You want to take your career to the next level – either through a raise, a promotion, or both! This guide is for mid-level developers who want to progress.
+You want to take your career to the next level –either through a raise, a promotion, or both! This guide is for mid-level developers who want to progress.
 
 If you’re earlier in your career, we just published [What Front-End Developer Skills Should You Focus on as Junior Engineer in 2024?](/frontendmasters.com/what-skills-should-you-focus-on-as-junior-web-developer-in-2024.md) — and now we want to do something similar except targeted toward already established developers are on the road towards senior developer.
 
@@ -72,7 +72,7 @@ Putting effort into really nailing your understanding of scope, closures, and th
 
 ### Learn Programming Paradigms: Functional and Object Oriented
 
-JavaScript is a “multi-paradigm” programming language, so learning Object Oriented and Functional Programming paradigms will pay off in getting you to the next level. [<FontIcon icon="fas fa-globe"/>Object Oriented programming](https://frontendmasters.com/courses/object-oriented-js/) is a popular way to structure larger applications. Then add skills to your toolbox from [<FontIcon icon="fas fa-globe"/>functional programming](https://frontendmasters.com/courses/functional-javascript-v3/) such as using map, reduce, filter, pure functions and composition.
+JavaScript is a “multi-paradigm” programming language, so learning Object Oriented and Functional Programming paradigms will pay off in getting you to the next level.[<FontIcon icon="fas fa-globe"/>Object Oriented programming](https://frontendmasters.com/courses/object-oriented-js/)is a popular way to structure larger applications. Then add skills to your toolbox from[<FontIcon icon="fas fa-globe"/>functional programming](https://frontendmasters.com/courses/functional-javascript-v3/)such as using map, reduce, filter, pure functions and composition.
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-18-at-12.03.43%E2%80%AFPM.png?resize=1024%2C574&ssl=1)](https://frontendmasters.com/courses/functional-javascript-v3/pure-functions-constants/)
 
@@ -96,7 +96,7 @@ We have a [<FontIcon icon="fas fa-globe"/>React learning path](https://frontendm
 
 ## Design Patterns
 
-Learning to apply common [<FontIcon icon="fas fa-globe"/>design patterns](https://frontendmasters.com/courses/js-design-patterns/) in your code will help you write more robust web applications. You’ll also develop a more critical eye for recognizing when frameworks and external libraries are useful, and when [<FontIcon icon="fas fa-globe"/>you might not need that framework](https://frontendmasters.com/courses/vanilla-js-apps/).
+Learning to apply common[<FontIcon icon="fas fa-globe"/>design patterns](https://frontendmasters.com/courses/js-design-patterns/)in your code will help you write more robust web applications. You’ll also develop a more critical eye for recognizing when frameworks and external libraries are useful, and when[<FontIcon icon="fas fa-globe"/>you might not need that framework](https://frontendmasters.com/courses/vanilla-js-apps/).
 
 ---
 
@@ -106,7 +106,7 @@ Often times what separates a good engineer from a great engineer is being able t
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-18-at-12.06.46%E2%80%AFPM.png?resize=1024%2C577&ssl=1)](https://frontendmasters.com/courses/blazingly-fast-js/speeding-up-web-sockets/)
 
-Knowing how to measure complexity and use the correct [<FontIcon icon="fas fa-globe"/>algorithms and data structures](https://frontendmasters.com/learn/computer-science/) can lead towards more efficient solutions and better engineering-thinking in general.
+Knowing how to measure complexity and use the correct[<FontIcon icon="fas fa-globe"/>algorithms and data structures](https://frontendmasters.com/learn/computer-science/)can lead towards more efficient solutions and better engineering-thinking in general.
 
 ---
 
@@ -124,7 +124,7 @@ Learn to set up a suite of testing and code quality tools in the [<FontIcon icon
 
 ## CSS & Design Tools: Figma, Tailwind, and Design Systems
 
-Having basic [<FontIcon icon="fas fa-globe"/>design skills](https://frontendmasters.com/courses/design-for-developers/) can make you a more desirable and well-rounded engineer.
+Having basic[<FontIcon icon="fas fa-globe"/>design skills](https://frontendmasters.com/courses/design-for-developers/)can make you a more desirable and well-rounded engineer.
 
 Then on the CSS front, it’s critical to know [<FontIcon icon="fas fa-globe"/>CSS Grid](https://frontendmasters.com/courses/css-grid/). Right here on the Frontend Masters site, we are currently revamping several key interfaces like our video player, and I can tell you CSS Grid has helped us simplify complex layouts on several occasions. If you want to practice your CSS skills, you can do that through [<FontIcon icon="fas fa-globe"/>CSS Projects](https://frontendmasters.com/courses/css-projects/).
 
@@ -167,7 +167,7 @@ Build scalable component libraries and design systems with Storybook. Create reu
 
 ## Accessibility
 
-Understanding [<FontIcon icon="fas fa-globe"/>accessibility](https://frontendmasters.com/courses/web-accessibility/) is important to making sure your websites are usable by everyone. One type of accessibility is ensuring the site can be navigated and used by keyboard, which is also helpful for some power users who prefer to work that way.
+Understanding [<FontIcon icon="fas fa-globe"/>accessibility](https://frontendmasters.com/courses/web-accessibility/)is important to making sure your websites are usable by everyone. One type of accessibility is ensuring the site can be navigated and used by keyboard, which is also helpful for some power users who prefer to work that way.
 
 Bonus if you learn tips for making [<FontIcon icon="fas fa-globe"/>accessible web apps](https://frontendmasters.com/courses/accessibility-v2/) in your framework of choice.
 
@@ -175,7 +175,7 @@ Bonus if you learn tips for making [<FontIcon icon="fas fa-globe"/>accessible we
 
 ## Full Stack: Servers, Deployment, and Building APIs
 
-Learning [<FontIcon icon="fas fa-globe"/>Node.js](https://frontendmasters.com/learn/node-js/) and how to build [<FontIcon icon="fas fa-globe"/>APIs in Node](https://frontendmasters.com/courses/api-design-nodejs-v4/) can help you journey towards [<FontIcon icon="fas fa-globe"/>full-stack](https://frontendmasters.com/learn/fullstack/) development.
+Learning[<FontIcon icon="fas fa-globe"/>Node.js](https://frontendmasters.com/learn/node-js/)and how to build[<FontIcon icon="fas fa-globe"/>APIs in Node](https://frontendmasters.com/courses/api-design-nodejs-v4/)can help you journey towards [<FontIcon icon="fas fa-globe"/>full-stack](https://frontendmasters.com/learn/fullstack/) development.
 
 Speaking of “full stack” — it’s becoming a more and more common term that developers self-identify as and that shows up on job descriptions. Frontend Masters, despite our name, has content across the stack from front-end to back. You can learn it all here. If you’re doing any build process, API, or server side work, don’t be afraid to use that term for yourself.
 
@@ -201,7 +201,7 @@ Get a quick introduction to Go. Learn basic syntax like variables, constants, da
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2021-05-11-rust/posterframe.jpg"/>
 
-Go from zero Rust knowledge to being able to build your own complete Rust programs! You’ll learn the foundations of Rust, what makes it so performant when to choose to use it for your projects. 
+Go from zero Rust knowledge to being able to build your own complete Rust programs! You’ll learn the foundations of Rust, what makes it so performant when to choose to use it for your projects.
 
 ---
 

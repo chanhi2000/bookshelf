@@ -57,7 +57,7 @@ As someone with a toddler, it’s surprising just how many things in our life ar
 
 Even things we take for granted, like eating. You or I could suck down any variety of foods without a second thought, while parents stare nervously at their firstborn eating a banana, ready to whack their back at the first sign of difficulty.
 
-Checking for `null`  can be nerve-wracking for both new and seasoned JavaScript developers. It’s something that should be very simple, but still bites a surprising amount of people.
+Checking for `null` can be nerve-wracking for both new and seasoned JavaScript developers. It’s something that should be very simple, but still bites a surprising amount of people.
 
 The basic reason for this is that in most languages, we only have to cater to `null`. But in JavaScript, we have to cater to both `null` and `undefined`. How do we do that?
 

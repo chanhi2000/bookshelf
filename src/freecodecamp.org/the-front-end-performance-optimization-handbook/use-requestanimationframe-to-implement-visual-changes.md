@@ -74,7 +74,7 @@ If you use `setTimeout` or `setInterval` to implement animations, the callback f
 
 ```component VPCard
 {
-  "title": "Optimize JavaScript execution  |  Articles  |  web.dev",
+  "title": "Optimize JavaScript execution | Articles | web.dev",
   "desc": "JavaScript often triggers visual changes. Sometimes that&#39;s directly through style manipulations, and sometimes it&#39;s calculations that result in visual changes, like searching or sorting data. Badly-timed or long-running JavaScript is a common cause of performance issues. You should look to minimize its impact where you can.",
   "link": "https://web.dev/articles/optimize-javascript-execution/",
   "logo": "https://gstatic.com/devrel-devsite/prod/v31bf0d5ece3babea9777b807f088a03e9bb2225d007f11b8410e9c896eb213a6/web/images/favicon.png",

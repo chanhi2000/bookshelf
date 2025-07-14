@@ -54,7 +54,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3341"/>
 
-This post is the second in a 3-part series on Svelte 5. [Part one](/frontendmasters.com/introducing-svelte-5.md) was a basic introduction, covering nuts and bolts features like state, props, and effects. This post is all about snippets, an exciting new feature that allows for content reuse, and more importantly, injecting content into components you render.
+This post is the second in a 3-part series on Svelte 5.[Part one](/frontendmasters.com/introducing-svelte-5.md)was a basic introduction, covering nuts and bolts features like state, props, and effects. This post is all about snippets, an exciting new feature that allows for content reuse, and more importantly, injecting content into components you render.
 
 ::: info Article Series
 
@@ -105,7 +105,7 @@ If you’d like to see and experiment with the code in this post, [see the GitHu
 
 ## What are snippets?
 
-Snippets are a new feature in Svelte 5. They allow you to define, well… snippets of content. They’re *almost* lightweight components that you can find inside of a component file. Before you get too excited: they do not, as of now, allow you to define multiple components in one file. Snippets cannot be exported from anywhere, and even if they could, they do not allow you to define state. They are limited to props.
+Snippets are a new feature in Svelte 5. They allow you to define, well… snippets of content. They’re*almost*lightweight components that you can find inside of a component file. Before you get too excited: they do not, as of now, allow you to define multiple components in one file. Snippets cannot be exported from anywhere, and even if they could, they do not allow you to define state. They are limited to props.
 
 They seem initially similar to React’s minimally useful Stateless Functional Components from back before hooks were a thing. But snippets also have a second use: they allow you to inject content into other components, and in so doing replace one of Svelte’s most awkward features: slots.
 
@@ -123,7 +123,7 @@ We define snippets with the `#snippet` directive. The simplest snippet imaginabl
 {/snippet}
 ```
 
-That defines the snippet. To render the snippet, we use the `@render` directive, like this:
+That defines the snippet. To render the snippet, we use the`@render`directive, like this:
 
 ```js
 {@render helloWorld()}
@@ -242,13 +242,13 @@ Then you can reuse that `productDisplay` snippet with different products in your
 
 If that was the extent of Snippets they’d be a marginally useful convenience for re-using small bits of markup within a single component.
 
-But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out [<FontIcon icon="iconfont icon-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot) if you’re curious.
+But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out[<FontIcon icon="iconfont icon-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot)if you’re curious.
 
 ---
 
 ## Passing snippets to components
 
-Snippets shine brightest when we pass them into other components. Let’s imagine a (grossly simplified) `DisplayProduct` page. It takes in a product, an optional related product, and a snippet to display a single product. This component will also render content in the header, which we’ll also pass in as a snippet.
+Snippets shine brightest when we pass them into other components. Let’s imagine a (grossly simplified)`DisplayProduct`page. It takes in a product, an optional related product, and a snippet to display a single product. This component will also render content in the header, which we’ll also pass in as a snippet.
 
 ```svelte :collapsed-lines
 <script lang="ts"> import type { Snippet } from "svelte";
@@ -274,7 +274,7 @@ Snippets shine brightest when we pass them into other components. Let’s imagin
 </section>
 ```
 
-There’s a `Snippet` type that Svelte exports for us, so we can type the snippets we’re receiving. Specifying the parameters that a snippet receives is a little weird, because of how TypeScript is: we list the argumentes as a Tuple. So our `productDisplay` snippet will take a single argument that’s a `Product`.
+There’s a`Snippet`type that Svelte exports for us, so we can type the snippets we’re receiving. Specifying the parameters that a snippet receives is a little weird, because of how TypeScript is: we list the argumentes as a Tuple. So our `productDisplay` snippet will take a single argument that’s a `Product`.
 
 The snippet for showing the header I decided to name “children” which has some significance as we’ll see in a moment.
 
@@ -296,9 +296,9 @@ Let’s put this component to use:
 </DisplayProduct>
 ```
 
-We’re passing the `productDisplay` snippet in for the `productDisplay` prop. Little note: Svelte allows you to write `{a}` instead of `a={a}` as a convenient shortcut.
+We’re passing the`productDisplay`snippet in for the`productDisplay`prop. Little note: Svelte allows you to write `{a}` instead of `a={a}` as a convenient shortcut.
 
-But notice the content we put directly inside of the `DisplayProduct` tags. If the component has a prop called `children` that’s a snippet, this content will be passed as that snippet. This is a special case just for props called children (similar to the children prop in React). You don’t *have* to do this; you’re free to manually pass a `children` prop, just like we did for `productDisplay` if you really want to.
+But notice the content we put directly inside of the`DisplayProduct`tags. If the component has a prop called`children`that’s a snippet, this content will be passed as that snippet. This is a special case just for props called children (similar to the children prop in React). You don’t*have*to do this; you’re free to manually pass a`children`prop, just like we did for`productDisplay`if you really want to.
 
 Let’s take a look at one more authoring convenience Svelte 5 gives us. If we’re just defining a snippet to be passed one time, to one component, Svelte lets us clean the syntax up a bit, like so:
 
@@ -317,7 +317,7 @@ Let’s take a look at one more authoring convenience Svelte 5 gives us. If we�
 </DisplayProduct>
 ```
 
-As before, we have our `<h1>` content directly inside of the tags, as children. But we’ve also defined a snippet inside of those tags. This is a nice shorthand for passing a snippet as a prop (with the same name) to our component. Don’t worry, if the name you give this inline snippet doesn’t match a prop, TypeScript will tell you.
+As before, we have our`<h1>`content directly inside of the tags, as children. But we’ve also defined a snippet inside of those tags. This is a nice shorthand for passing a snippet as a prop (with the same name) to our component. Don’t worry, if the name you give this inline snippet doesn’t match a prop, TypeScript will tell you.
 
 ---
 
@@ -333,7 +333,7 @@ One nice feature with slots is that you could define default content pretty easi
 
 Snippets don’t quite have anything like this built in, but they’re a flexible enough primitive that you really don’t need it.
 
-Let’s see how we can provide our own default content for when a Snippet is *not* passed in. As before let’s say we have our `DisplayProduct` component, except now our `productDisplay` and `children` snippets are optional
+Let’s see how we can provide our own default content for when a Snippet is *not* passed in. As before let’s say we have our`DisplayProduct`component, except now our `productDisplay` and `children` snippets are optional
 
 ```ts
 type Props = {

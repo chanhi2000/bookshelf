@@ -123,7 +123,7 @@ fetch('https://api.com/songs.json')
   });
 ```
 
-The [<FontIcon icon="fa-brands fa-firefox"/>`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) and [<FontIcon icon="fa-brands fa-firefox"/>`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) methods replicate jQuery’s selection capabilities:
+The [<FontIcon icon="fa-brands fa-firefox"/>`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)and [<FontIcon icon="fa-brands fa-firefox"/>`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) methods replicate jQuery’s selection capabilities:
 
 ```js
 // jQuery
@@ -133,7 +133,7 @@ const fooDivs = $('.foo div');
 const fooDivs = document.querySelectorAll('.foo div');
 ```
 
-Manipulating element classes can be done with `[classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)` now:
+Manipulating element classes can be done with `[classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)`now:
 
 ```js
 // jQuery

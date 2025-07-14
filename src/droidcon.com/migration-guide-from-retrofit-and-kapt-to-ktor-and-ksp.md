@@ -62,7 +62,7 @@ In this article, you’ll learn why we might need to migrate from Retrofit to Kt
 
 ## Introduction
 
-This is part 2 in the series of migrations from the Android project to the kotlin multiplatform project. In [Part 1 (<FontIcon icon="fa-brands fa-medium"/>`sgkantamani`)](https://sgkantamani.medium.com/migration-guide-from-hilt-to-koin-ea8083d3f7a9), we discussed the KMP technology and the tech stack used in migrating applications to KMP. Then as a first step, we started with dependency injection migration from Hilt to Koin. The following is the link to the article in case you missed it.
+This is part 2 in the series of migrations from the Android project to the kotlin multiplatform project. In[Part 1 (<FontIcon icon="fa-brands fa-medium"/>`sgkantamani`)](https://sgkantamani.medium.com/migration-guide-from-hilt-to-koin-ea8083d3f7a9), we discussed the KMP technology and the tech stack used in migrating applications to KMP. Then as a first step, we started with dependency injection migration from Hilt to Koin. The following is the link to the article in case you missed it.
 
 <SiteInfo
   name="Migration Guide From Hilt to Koin"
@@ -107,7 +107,7 @@ Then add the following line under the plugins section in the project-level gradl
 id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.23' apply false
 ```
 
-Now add the following lines in <FontIcon icon="fas fa-folder-open"/>`app/`<FontIcon icon="fas fa-file-lines"/>`proguard-rules.pro` to make sure Ktor works as expected in release builds even with obfuscation.
+Now add the following lines in<FontIcon icon="fas fa-folder-open"/>`app/`<FontIcon icon="fas fa-file-lines"/>`proguard-rules.pro`to make sure Ktor works as expected in release builds even with obfuscation.
 
 ```proguard
 # Ktor
@@ -164,7 +164,7 @@ val networkModule = module {
 }
 ```
 
-Now we need to replace the retrofit inject with the Ktor client, as I’ve a single API in the application, I’m replacing the retrofit service interface with Kotr client and requesting with the client directly. But the real-time use of Ktor will be much more complicated with multiple routes and header configuration for which please refer to this [<FontIcon icon="fa-brands fa-medium"/>article](https://betterprogramming.pub/how-to-use-ktor-in-your-android-app-a99f50cc9444).
+Now we need to replace the retrofit inject with the Ktor client, as I’ve a single API in the application, I’m replacing the retrofit service interface with Kotr client and requesting with the client directly. But the real-time use of Ktor will be much more complicated with multiple routes and header configuration for which please refer to this[<FontIcon icon="fa-brands fa-medium"/>article](https://betterprogramming.pub/how-to-use-ktor-in-your-android-app-a99f50cc9444).
 
 ::: tabs
 
@@ -194,7 +194,7 @@ That’s all, now the project network module is compatible with kotlin multiplat
 
 Before migrating your code to KSP, there are a few important considerations to keep in mind. Since KSP is relatively new, some libraries may not yet support it. However, there’s no need to worry — you can run KSP and Kapt side by side in your project.
 
-It’s worth noting that Kapt is now in maintenance mode, so it’s a good idea to encourage your library providers to upgrade to KSP as soon as possible. Fortunately, many popular libraries like Dagger, Moshi, Room, and others already support KSP. To know more about supported libraries refer to this [<FontIcon icon="iconfont icon-kotlin"/>link](https://kotlinlang.org/docs/ksp-overview.html#resources).
+It’s worth noting that Kapt is now in maintenance mode, so it’s a good idea to encourage your library providers to upgrade to KSP as soon as possible. Fortunately, many popular libraries like Dagger, Moshi, Room, and others already support KSP. To know more about supported libraries refer to this[<FontIcon icon="iconfont icon-kotlin"/>link](https://kotlinlang.org/docs/ksp-overview.html#resources).
 
 Now let’s start the migration, I prefer to increase the Kotlin version before integrating KSP, in the project-level gradle upgrade Kotlin plugin.
 
@@ -216,17 +216,17 @@ id 'org.jetbrains.kotlin.android' version '2.0.0' apply false
 
 :::
 
-Then move to the module-level gradle files starting with the app module, remove the `kapt` and add `ksp` plugin, have a look:
+Then move to the module-level gradle files starting with the app module, remove the`kapt`and add`ksp`plugin, have a look:
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_mwj65S07CAn-Yz0eKwV1UQ-1.webp)
 <!-- TODO: Google Lens -->
 
-Then remove all the `kapt` references like the following from the gradle:
+Then remove all the`kapt`references like the following from the gradle:
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_Uz43rrk7uxoE0ubBYYDOxw.webp)
 <!-- TODO: Google Lens -->
 
-As a final step replace all the `kapt` dependency integration to `ksp` as shown below:
+As a final step replace all the`kapt`dependency integration to`ksp`as shown below:
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_wEk7u7hPLpz90IVhUCcqlQ.webp)
 <!-- TODO: Google Lens -->
@@ -237,13 +237,13 @@ The following are some common issues to look out for stated in the Android Offic
 
 - Some libraries don’t support the same set of features with kapt and KSP. If your code breaks after migrating, check the library’s documentation.
 - KSP has more accurate Kotlin-type information than kapt (for example, about nullability), which means that KSP processors can be more precise about type requirements. This might require some fixes in your source code as well, in addition to updating your build files.
-- If you were previously passing in arguments to the annotation processor, you’ll likely need to pass in those arguments to KSP now. Note that the format of the arguments might differ between kapt and KSP. See the [<FontIcon icon="iconfont icon-kotlin"/>KSP documentation](https://kotlinlang.org/docs/ksp-quickstart.html#pass-options-to-processors) and consult the documentation of the library you’re using to learn more.
+- If you were previously passing in arguments to the annotation processor, you’ll likely need to pass in those arguments to KSP now. Note that the format of the arguments might differ between kapt and KSP. See the[<FontIcon icon="iconfont icon-kotlin"/>KSP documentation](https://kotlinlang.org/docs/ksp-quickstart.html#pass-options-to-processors)and consult the documentation of the library you’re using to learn more.
 
 . . .
 
 That is all for now, hope you learned something useful, thanks for reading.
 
-You can find me on [Medium (<FontIcon icon="fa-brands fa-medium"/>`sgkantamani`)](https://medium.com/@sgkantamani), [X (<FontIcon icon="fa-brands fa-x-twitter"/>`SG5202`)](https://x.com/SG5202), [Quora](https://quora.com/profile/Siva-Ganesh-Kantamani-1) and [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`siva-kantamani-bb59309b`)](https://linkedin.com/in/siva-kantamani-bb59309b/).
+You can find me on[Medium (<FontIcon icon="fa-brands fa-medium"/>`sgkantamani`)](https://medium.com/@sgkantamani),[X (<FontIcon icon="fa-brands fa-x-twitter"/>`SG5202`)](https://x.com/SG5202),[Quora](https://quora.com/profile/Siva-Ganesh-Kantamani-1)and[LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`siva-kantamani-bb59309b`)](https://linkedin.com/in/siva-kantamani-bb59309b/).
 
 ::: info
 

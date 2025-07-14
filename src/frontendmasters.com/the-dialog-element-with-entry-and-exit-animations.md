@@ -130,7 +130,7 @@ And a video in case you’re in a browser that doesn’t support it yet:
 
 <VidStack src="https://videos.files.wordpress.com/puie9YCG/cleanshot-2024-08-28-at-09.34.50_mp4_hd_1080p.mp4" />
 
-Note that not only does it *have* entry and exit animations, but those states are *different* — which is very cool! Emphasizing that, here’s one where I move the dialog along an `offset-path` so the exit is really a continuation of the path:
+Note that not only does it *have* entry and exit animations, but those states are *different* —which is very cool! Emphasizing that, here’s one where I move the dialog along an `offset-path` so the exit is really a continuation of the path:
 
 <CodePen
   user="chriscoyier"

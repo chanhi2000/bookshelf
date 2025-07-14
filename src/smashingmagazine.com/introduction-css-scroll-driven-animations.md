@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines"
-description: "Article(s) > An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines"
+title: "An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines"
+description: "Article(s) > An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines"
+      content: "Article(s) > An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines"
     - property: og:description
-      content: "An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines"
+      content: "An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/smashingmagazine.com/introduction-css-scroll-driven-animations.html
 prev: /programming/css/articles/README.md
@@ -44,7 +44,7 @@ cover: https://files.smashing.media/articles/introduction-css-scroll-driven-anim
 ---
 
 <SiteInfo
-  name="An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines"
+  name="An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines"
   desc="10 years after scroll-driven animations were first proposed, they’re finally here — no JavaScript, no dependencies, no libraries, just pure CSS."
   url="https://smashingmagazine.com/2024/12/introduction-css-scroll-driven-animations/"
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
@@ -666,7 +666,7 @@ My main struggle while trying to build the demos was more about CSS itself than 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "An Introduction To CSS Scroll-Driven Animations: Scroll And View Progress Timelines",
+  "title": "An IntroductionToCSSScroll-Driven Animations: Scroll And View Progress Timelines",
   "desc": "10 years after scroll-driven animations were first proposed, they’re finally here — no JavaScript, no dependencies, no libraries, just pure CSS.",
   "link": "https://chanhi2000.github.io/bookshelf/smashingmagazine.com/introduction-css-scroll-driven-animations.html",
   "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",

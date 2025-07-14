@@ -58,7 +58,7 @@ This post is to see how to render a composable list, more at an educational leve
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/1_8nScfAbqJD24zynwz7TivQ-1024x585.webp)
 
-I once had to deal with a screen that painted several nested lists dynamically, using generic types, quite complex due to the way it was built and also using the **hybrid XML + Jetpack Compose system**, so in the end I ended up using a composable list, or at least that was the solution I found by reusing the pieces I had available.
+I once had to deal with a screen that painted several nested lists dynamically, using generic types, quite complex due to the way it was built and also using the**hybrid XML + Jetpack Compose system**, so in the end I ended up using a composable list, or at least that was the solution I found by reusing the pieces I had available.
 
 But again, in most cases this approach will be the exception or you will probably come up with other solutions.
 
@@ -66,7 +66,7 @@ But again, in most cases this approach will be the exception or you will probabl
 
 ## Composables list
 
-In this example, the UI will receive three values ​​that will be emitted every second:
+In this example, the UI will receive three values that will be emitted every second:
 
 ```kotlin
 private val viewTypeState: MutableState<ViewType?> = mutableStateOf(null)
@@ -119,9 +119,9 @@ private fun getView(text: String): @Composable () -> Unit {
 }
 ```
 
-That is, the `getView()` method returns a composable lambda that, when invoked, will display a text view.
+That is, the`getView()`method returns a composable lambda that, when invoked, will display a text view.
 
-And the `RenderViews()` method goes through the list of views, invoking them item by item, to display the views on the screen.
+And the`RenderViews()`method goes through the list of views, invoking them item by item, to display the views on the screen.
 
 When running the above code, it looks like the result will be this:
 
@@ -135,7 +135,7 @@ So what’s going on?
 
 ## Reference in memory of lambdas
 
-What happens is that every time the lambda is invoked, **the same reference is obtained in memory**, so:
+What happens is that every time the lambda is invoked,**the same reference is obtained in memory**, so:
 
 1. The Header is emitted, the view with the header is added to the list, and the Header view is displayed.
 2. The Body is emitted, the view with the body is added to the list, and the Body view is displayed twice, since the first item that had the value of Header now has the value of Body.
@@ -143,9 +143,9 @@ What happens is that every time the lambda is invoked, **the same reference is 
 
 ![](https://miro.medium.com/v2/resize:fit:600/format:webp/1*r0LJwZ8gkKpfn7xMFpkWYQ.gif)
 
-And so on, the last value emitted is added to the list and affects the previous elements, since **the list lambdas have the same reference**, so they will always **render the same view** (Text) **with a different value** (title):
+And so on, the last value emitted is added to the list and affects the previous elements, since **the list lambdas have the same reference**, so they will always**render the same view**(Text)**with a different value**(title):
 
-![This could be due to how Kotlin handles different lambda instances depending on the context, in this case the *let* block, even though the content is different.](https://droidcon.com/wp-content/uploads/2024/11/1_NEDnzBfahhYQr3578pzjCw-1024x118.webp)
+![This could be due to how Kotlin handles different lambda instances depending on the context, in this case the*let*block, even though the content is different.](https://droidcon.com/wp-content/uploads/2024/11/1_NEDnzBfahhYQr3578pzjCw-1024x118.webp)
 
 ---
 
@@ -190,7 +190,7 @@ private fun RenderViews() {
 }
 ```
 
-![Thus, calling the `getView()` method generates different instances](https://droidcon.com/wp-content/uploads/2024/11/1_wDgDxc9GFVYCj_bGrVhSCA-1024x124.webp)
+![Thus, calling the `getView()`method generates different instances](https://droidcon.com/wp-content/uploads/2024/11/1_wDgDxc9GFVYCj_bGrVhSCA-1024x124.webp)
 
 ![](https://miro.medium.com/v2/resize:fit:600/format:webp/1*LgrOg28C5_fIpKisa7DXBw.gif)
 

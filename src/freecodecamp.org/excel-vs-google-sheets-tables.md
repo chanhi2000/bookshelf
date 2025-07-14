@@ -34,7 +34,7 @@ isOriginal: false
 author:
   - name: Eamonn Cottrell
     url : https://freecodecamp.org/news/author/sieis/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/4.jpg
+cover: https://freecodecamp.org/news/content/images/2024/07/4.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -68,7 +68,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/4.jpg
   desc="Google Sheets recently released an all new feature: tables. Well, new is a bit of an overstatement. Excel has had proper tables for many, many years, and it's been a point of contention in the spreadsheet community. In this article, I'll break down w..."
   url="https://freecodecamp.org/news/excel-vs-google-sheets-tables"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/4.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/4.jpg"/>
 
 Google Sheets recently released an all new feature: tables.
 

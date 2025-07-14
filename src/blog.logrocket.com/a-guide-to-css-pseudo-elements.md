@@ -417,7 +417,7 @@ The `::cue` CSS pseudo-element selects the WebVTT cues within a media element, u
 </video>
 ```
 
-To avoid CORS issues, ensure that the video and VTT files are coming from the same domain. Here is what the `::cue` powered VTT captions look like:
+To avoid CORS issues, ensure that the video and VTT files are coming from the same domain. Here is what the `::cue`powered VTT captions look like:
 
 ![Cue Powered VTT Captions](/assets/image/blog.logrocket.com/a-guide-to-css-pseudo-elements/cue-pseudo-element.png)
 

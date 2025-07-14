@@ -60,7 +60,7 @@ As React applications grow in complexity, performance optimization becomes a pri
 
 ![pure components in react using Using PureComponent and React.memo](/assets/image/blog.logrocket.com/pure-component-in-react/banner.png)
 
-In this tutorial, we’ll learn how to memoize components in React using [<FontIcon icon="fa-brands fa-react"/>`React.PureComponent`](https://react.dev/reference/react/PureComponent) and the [<FontIcon icon="fa-brands fa-react"/>`React.memo` API](https://react.dev/reference/react/memo). We’ll cover some of the fundamentals of React components before we dive into an example.
+In this tutorial, we’ll learn how to memoize components in React using [<FontIcon icon="fa-brands fa-react"/>`React.PureComponent`](https://react.dev/reference/react/PureComponent) and the [<FontIcon icon="fa-brands fa-react"/>`React.memo`API](https://react.dev/reference/react/memo). We’ll cover some of the fundamentals of React components before we dive into an example.
 
 You can keep up with the changes and suggestions for the React framework on the [React RFCs repository (<FontIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs).
 
@@ -214,9 +214,9 @@ const Title = ({ title }) => {
 
 While functional components don’t have direct lifecycle methods, they still go through the same three phases as class components:
 
-1. **Mounting —** `useEffect(() => {}, [])` This Hook is similar to `componentDidMount` in class components. The function inside `useEffect` runs after the component is first rendered
-2. **Updating —** `useEffect(() => {})` If you omit the dependency array (`[]`), `useEffect` will run after every render (similar to `componentDidUpdate`)
-3. **Unmounting —** `useEffect(() => { return () => {} })` The function returned inside `useEffect` (the cleanup function) is equivalent to `componentWillUnmount` in class components and is used to clean up resources when the component unmounts or before it re-renders
+1. **Mounting —**`useEffect(() => {}, [])`This Hook is similar to `componentDidMount` in class components. The function inside `useEffect` runs after the component is first rendered
+2. **Updating —**`useEffect(() => {})`If you omit the dependency array (`[]`), `useEffect` will run after every render (similar to `componentDidUpdate`)
+3. **Unmounting —**`useEffect(() => { return () => {} })`The function returned inside `useEffect` (the cleanup function) is equivalent to `componentWillUnmount` in class components and is used to clean up resources when the component unmounts or before it re-renders
 
 Note that `useEffect` is not a direct equivalent to lifecycle methods, but rather a different paradigm for handling side effects in your components.
 

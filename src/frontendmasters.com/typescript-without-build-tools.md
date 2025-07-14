@@ -120,7 +120,7 @@ So what are these products?
 
 ### Frameworks
 
-- [Astro](https://docs.astro.build/en/guides/typescript/): *“Astro ships with built-in support for [<FontIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/). You can import `.ts` and `.tsx` files in your Astro project, write TypeScript code directly inside your [<FontIcon icon="iconfont icon-astro"/>Astro component](https://docs.astro.build/en/basics/astro-components/#the-component-script), and even use an [`astro.config.ts`](https://docs.astro.build/en/guides/configuring-astro/#the-astro-config-file) file for your Astro configuration if you like.”*
+- [Astro](https://docs.astro.build/en/guides/typescript/): *“Astro ships with built-in support for[<FontIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/). You can import`.ts`and`.tsx`files in your Astro project, write TypeScript code directly inside your[<FontIcon icon="iconfont icon-astro"/>Astro component](https://docs.astro.build/en/basics/astro-components/#the-component-script), and even use an[`astro.config.ts`](https://docs.astro.build/en/guides/configuring-astro/#the-astro-config-file)file for your Astro configuration if you like.”*
 - [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/docs/pages/api-reference/config/typescript): *“Next.js comes with built-in TypeScript, automatically installing the necessary packages and configuring the proper settings”*
 - This is pretty common in UI meta frameworks… [<FontIcon icon="iconfont icon-nuxt"/>Nuxt](https://nuxt.com/docs/guide/concepts/typescript), [<FontIcon icon="fas fa-globe"/>Remix](https://remix.run/docs/hi/main/guides/typescript), [<FontIcon icon="iconfont icon-svelte"/>SvelteKit](https://svelte.dev/docs/svelte/typescript), [<FontIcon icon="fas fa-globe"/>Redwood](https://docs.redwoodjs.com/docs/typescript/introduction), etc. This, likely, is the thing that pushed other products to do the same.
 
@@ -132,7 +132,7 @@ So what are these products?
 
 ### Bundlers
 
-- [<FontIcon icon="fas fa-globe"/>Vite](https://vite.dev/guide/features#typescript): *“Vite supports importing `.ts` files out of the box.”*
+- [<FontIcon icon="fas fa-globe"/>Vite](https://vite.dev/guide/features#typescript): *“Vite supports importing`.ts`files out of the box.”*
 - [<FontIcon icon="fas fa-globe"/>esbuild](https://esbuild.github.io/content-types/#typescript): *“…esbuild has built-in support for parsing TypeScript syntax and discarding the type annotations.”*
 - [<FontIcon icon="fas fa-globe"/>Parcel](https://parceljs.org/languages/typescript/): *“Parcel supports TypeScript out of the box without any additional configuration.”*
 
@@ -150,9 +150,9 @@ I started writing this post a few weeks ago, and now I’ve just seen: [<FontIco
 
 > Node 23 will soon be able to run TypeScript files without any extra configuration.
 > 
-> You can run `node index.ts` with no further flags
+> You can run`node index.ts`with no further flags
 > 
-> Node will strip out the types using a version of `swc`, then run the resulting code.
+> Node will strip out the types using a version of`swc`, then run the resulting code.
 
 :::
 

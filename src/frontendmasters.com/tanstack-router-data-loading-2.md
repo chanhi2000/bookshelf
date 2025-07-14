@@ -104,11 +104,11 @@ const { data, isLoading } = useQuery({
 });
 ```
 
-The `queryKey` does what it sounds like: it lets you identify any particular key for a query. As the key changes, react-query is smart enough to re-run the query, which is contained in the `queryFn` property. As these queries come in, TanStack tracks them in a client-side cache, along with properties like `staleTime` and `gcTime`, which mean the same thing as they do in TanStack Router. These tools are built by the same people, after all.
+The `queryKey` does what it sounds like: it lets you identify any particular key for a query. As the key changes, react-query is smart enough to re-run the query, which is contained in the`queryFn`property. As these queries come in, TanStack tracks them in a client-side cache, along with properties like`staleTime`and`gcTime`, which mean the same thing as they do in TanStack Router. These tools are built by the same people, after all.
 
-There’s also a `useSuspenseQuery` hook which is the same idea, except instead of giving you an isLoading value, it relies on Suspense, and lets you handle loading state via Suspense boundaries.
+There’s also a`useSuspenseQuery`hook which is the same idea, except instead of giving you an isLoading value, it relies on Suspense, and lets you handle loading state via Suspense boundaries.
 
-This barely scratches the surface of Query. If you’ve never used it before, be sure to check out [<FontIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/latest).
+This barely scratches the surface of Query. If you’ve never used it before, be sure to check out[<FontIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/latest).
 
 We’ll move on and cover the setup and integration with Router, but we’ll stay high level to keep this post a manageable length.
 
@@ -116,7 +116,7 @@ We’ll move on and cover the setup and integration with Router, but we’ll sta
 
 ## Setup
 
-We need to wrap our entire app with a `QueryClientProvider` which injects a queryClient (and cache) into our application tree. Putting it around the `RouterProvider` we already have is as good a place as any.
+We need to wrap our entire app with a`QueryClientProvider`which injects a queryClient (and cache) into our application tree. Putting it around the`RouterProvider`we already have is as good a place as any.
 
 ```jsx
 const queryClient = new QueryClient();
@@ -154,13 +154,13 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 });
 ```
 
-This allows us access to the `queryClient` inside of our loader functions via the Router’s context. If you’re wondering why we need loaders at all, now that we’re using react-query, stay tuned.
+This allows us access to the`queryClient`inside of our loader functions via the Router’s context. If you’re wondering why we need loaders at all, now that we’re using react-query, stay tuned.
 
 ---
 
 ## Querying
 
-We used Router’s built-in caching capabilities for our tasks. For epics, let’s use react-query. Moreover, let’s use the `useSuspenseQuery` hook, since managing loading state via Suspense boundaries is extremely ergonomic. Moreover, Suspense boundaries is exactly how Router’s `pendingComponent` works. So you can use `useSuspenseQuery`, along with the same pendingComponent we looked at before!
+We used Router’s built-in caching capabilities for our tasks. For epics, let’s use react-query. Moreover, let’s use the`useSuspenseQuery`hook, since managing loading state via Suspense boundaries is extremely ergonomic. Moreover, Suspense boundaries is exactly how Router’s`pendingComponent`works. So you can use`useSuspenseQuery`, along with the same pendingComponent we looked at before!
 
 Let’s add another (contrived) summary query in our epics layout (route) component.
 
@@ -281,7 +281,7 @@ Let’s take a peak at our console though, and look at all the various logging w
 
 The results are… awful. Component-level data fetching with Suspense feels really good, but if you’re not careful, these waterfalls are extremely easy to create. The problem is, when a component suspends while waiting for data, it prevents its children from rendering. This is precisely what’s happening here. The route is suspending, and not even giving the child component, which includes the page (and any other nested route components underneath) from rendering, which prevents those components’ fetches from starting.
 
-There’s two potential solutions here: we could dump Suspense, and use the `useQuery` hook, instead, which does not suspend. That would require us to manually track multiple `isLoading` states (for each useQuery hook), and coordinate loading UX to go with that. For the epics page, we’d need to track both the count loading state, and the epics list state, and not show our UI until both have returned. And so on, for every other page.
+There’s two potential solutions here: we could dump Suspense, and use the`useQuery`hook, instead, which does not suspend. That would require us to manually track multiple `isLoading` states (for each useQuery hook), and coordinate loading UX to go with that. For the epics page, we’d need to track both the count loading state, and the epics list state, and not show our UI until both have returned. And so on, for every other page.
 
 The other solution is to start pre-fetching these queries sooner.
 
@@ -291,7 +291,7 @@ We’ll go with option 2.
 
 Remember previously we saw that loader functions all run in parallel. This is the perfect opportunity to start these queries off ahead of time, before the components even render. TanStack Query gives us an API to do just that.
 
-To prefetch with Query, we take the `queryClient` object we saw before, and call `queryClient.prefetchQuery` and pass in **the exact same query options** and Query will be smart enough, when the component loads and executes `useSuspenseQuery`, to see that the query is already in flight, and just latch onto that same request. That’s also a big reason why we put those query options into the `epicsSummaryQueryOptions` helper function: to make it easier to reuse in the loader, to prefetch.
+To prefetch with Query, we take the`queryClient`object we saw before, and call`queryClient.prefetchQuery`and pass in**the exact same query options**and Query will be smart enough, when the component loads and executes`useSuspenseQuery`, to see that the query is already in flight, and just latch onto that same request. That’s also a big reason why we put those query options into the`epicsSummaryQueryOptions`helper function: to make it easier to reuse in the loader, to prefetch.
 
 Here’s the loader we’ll add to the epics route:
 
@@ -302,7 +302,7 @@ loader({ context }) {
 },
 ```
 
-The loader receives the route tree’s context, from which it grabs the `queryClient`. From there, we call `prefetchQuery` and pass in the same options.
+The loader receives the route tree’s context, from which it grabs the `queryClient`. From there, we call`prefetchQuery`and pass in the same options.
 
 Let’s move on to the Epics page. To review, this is the relevant code from our Epics page:
 
@@ -318,7 +318,7 @@ function Index() {
 }
 ```
 
-We grab the current page from the URL, and the context, for the timestarted value. Now let’s do the same thing we just did, and repeat this code in the loader, to prefetch.
+We grab the current page from the URL,andthe context, for the timestarted value. Now let’s do the same thing we just did, and repeat this code in the loader, to prefetch.
 
 ```tsx
 async loader({ context, deps }) {
@@ -335,9 +335,9 @@ Now when we check the console, we see something a lot nicer.
 
 ### Fetching state
 
-What happens when we *page up*. The page value will change in the URL, Router will send a new page value down into our loader, and our component. Then, our `useSuspenseQuery` will execute with new query values, and suspend again. That means our existing list of tasks will disappear, and show the “loading tasks” pending component. That would be a terrible UX.
+What happens when we *page up*. The page value will change in the URL, Router will send a new page value down into our loader, and our component. Then, our`useSuspenseQuery`will execute with new query values, and suspend again. That means our existing list of tasks will disappear, and show the “loading tasks” pending component. That would be a terrible UX.
 
-Fortunately, React offers us a nice solution, with the `useDeferredValue` hook. The docs are [<FontIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useDeferredValue). This allows us to “defer” a state change. If a state change causes our deferred value on the page to suspend, React will keep the existing UI in place, and the deferred value will simply hold the old value. Let’s see it in action.
+Fortunately, React offers us a nice solution, with the`useDeferredValue`hook. The docs are[<FontIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useDeferredValue). This allows us to “defer” a state change. If a state change causes our deferred value on the page to suspend, React will keep the existing UI in place, and the deferred value will simply hold the old value. Let’s see it in action.
 
 ```tsx :collapsed-lines
 function Index() {
@@ -358,7 +358,7 @@ function Index() {
 }
 ```
 
-We wrap the changing page value in `useDeferredValue`, and just like that, our page does not suspend when the new query is in flight. And to detect that a new query is running, we compare the real, correct `page` value, with the `deferredPage` value. If they’re different, we know new data are loading, and we can display a loading spinner (or in this case, put an opacity overlay on the epics list)
+We wrap the changing page value in`useDeferredValue`, and just like that, our page does not suspend when the new query is in flight. And to detect that a new query is running, we compare the real, correct`page`value, with the`deferredPage`value. If they’re different, we know new data are loading, and we can display a loading spinner (or in this case, put an opacity overlay on the epics list)
 
 ### Queries are re-used!
 
@@ -385,7 +385,7 @@ We can use them in both routes, and have them be cached in between (assuming we 
 
 Just like with tasks, epics have a page where we can edit an individual epic. Let’s see what the saving logic looks like with react-query.
 
-Let’s quickly review the query *keys* for the epics queries we’ve seen so far. For an individual epic, it was:
+Let’s quickly review the query*keys*for the epics queries we’ve seen so far. For an individual epic, it was:
 
 ```tsx
 export const epicQueryOptions = (timestarted: number, id: string) => ({
@@ -421,7 +421,7 @@ export const epicsSummaryQueryOptions = (timestarted: number) => ({
 })
 ```
 
-Notice the pattern: `epics` followed by various things for the queries that affected multiple epics, and for an individual epic, we did `['epic', ${epicId}]`. With that in mind, let’s see just how easy it is to invalidate these queries after a mutation:
+Notice the pattern:`epics`followed by various things for the queries that affected multiple epics, and for an individual epic, we did`['epic', ${epicId}]`. With that in mind, let’s see just how easy it is to invalidate these queries after a mutation:
 
 ```jsx{8-9}
 const save = async () => {
@@ -442,7 +442,7 @@ const save = async () => {
 
 The magic is on the highlighted lines.
 
-With one fell sweep, we remove **all** cached entries for **any** query that *started with* `epics`, or started with `['epic', ${epicId}]`, and Query will handle the rest. Now, when we navigate back to the epics page (or any page that used these queries), we’ll see the suspense boundary show, while fresh data are loaded. If you’d prefer to keep stale data on the screen, while the fresh data load, that’s fine too: just use `queryClient.invalidateQueries` instead. If you’d like to detect if a query is re-fetching in the background, so you can display an inline spinner, use the `isFetching` property returned from `useSuspenseQuery`.
+With one fell sweep, we remove**all**cached entries for**any**query that*started with*`epics`, or started with`['epic', ${epicId}]`, and Query will handle the rest. Now, when we navigate back to the epics page (or any page that used these queries), we’ll see the suspense boundary show, while fresh data are loaded. If you’d prefer to keep stale data on the screen, while the fresh data load, that’s fine too: just use`queryClient.invalidateQueries`instead. If you’d like to detect if a query is re-fetching in the background, so you can display an inline spinner, use the`isFetching`property returned from`useSuspenseQuery`.
 
 ```tsx
 const { data: epicsData, isFetching } = useSuspenseQuery(
@@ -454,7 +454,7 @@ const { data: epicsData, isFetching } = useSuspenseQuery(
 
 We’ve gone pretty deep on TanStack Route and Query. Let’s take a look at one last trick.
 
-If you recall, we saw that pending components ship a related `pendingMinMs` that forced a pending component to stay on the page a minimum amount of time, even if the data were ready. This was to avoid a jarring flash of a loading state. We also saw that TanStack Router uses Suspense to show those pending components, which means that react-query’s `useSuspenseQuery` will seamlessly integrate with it. Well, almost seamlessly. Router can only use the `pendingMinMs` value with the promise we return from the Router’s loader. But now we don’t really return any promise from the loader; we prefetch some stuff, and rely on component-level data fetching to do the real work.
+If you recall, we saw that pending components ship a related`pendingMinMs`that forced a pending component to stay on the page a minimum amount of time, even if the data were ready. This was to avoid a jarring flash of a loading state. We also saw that TanStack Router uses Suspense to show those pending components, which means that react-query’s`useSuspenseQuery`will seamlessly integrate with it. Well, almost seamlessly. Router can only use the`pendingMinMs`value with the promise we return from the Router’s loader. But now we don’t really return any promise from the loader; we prefetch some stuff, and rely on component-level data fetching to do the real work.
 
 Well there’s nothing stopping you from doing both! Right now our loader looks like this:
 
@@ -467,9 +467,9 @@ async loader({ context, deps }) {
 },
 ```
 
-Query also ships with a `queryClient.ensureQueryData` method, which can load query data, and return a promise for that request. Let’s put it to good use so we can use `pendingMinMs` again.
+Query also ships with a`queryClient.ensureQueryData`method, which can load query data, and return a promise for that request. Let’s put it to good use so we can use`pendingMinMs`again.
 
-One thing you do *not* want to do is this:
+One thing you do*not*want to do is this:
 
 ```jsx
 await queryClient.ensureQueryData(epicsQueryOptions(context.timestarted, deps.page)),
@@ -485,7 +485,7 @@ await Promise.allSettled([
 ]);
 ```
 
-Which works, and keeps the pending component on the screen for the duration of `pendingMinMs`
+Which works, and keeps the pending component on the screen for the duration of`pendingMinMs`
 
 You won’t always, or even usually need to do this. But it’s handy for when you do.
 

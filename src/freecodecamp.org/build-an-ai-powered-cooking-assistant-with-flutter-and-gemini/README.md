@@ -1099,7 +1099,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     // TODO: Replace "YOUR_API_KEY" with your actual Gemini API Key
-    // Refer to https://www.freecodecamp.org/news/how-to-secure-mobile-apis-in-flutter/ for API key security.
+    // Refer to https://freecodecamp.org/news/how-to-secure-mobile-apis-in-flutter/ for API key security.
     apiKey = "YOUR_API_KEY"; // Secure this!
     _model = GenerativeModel(model: AppStrings.AI_MODEL, apiKey: apiKey);
     _initSpeech();

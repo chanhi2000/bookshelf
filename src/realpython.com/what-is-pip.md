@@ -105,7 +105,7 @@ So, what exactly does `pip` do? [<FontIcon icon="fas fa-globe"/>`pip`](https://p
 
 ```component VPCard
 {
-  "title": "pyinstall is dead, long live pip!",
+  "title": "pyinstall is dead, long livepip!",
   "desc": "I’ve finished renaming pyinstall to its new name: pip. The name pip is a acronym and declaration: pip installs packages.",
   "link": "https://ianbicking.org/blog/2008/10/pyinstall-is-dead-long-live-pip.html/",
   "logo": "https://ianbicking.org/favicon.ico",

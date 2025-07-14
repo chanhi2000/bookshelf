@@ -29,7 +29,7 @@ isOriginal: false
 author:
   - name: Hunor Márton Borbély
     url : https://freecodecamp.org/news/author/hunor/
-cover: https://www.freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg
+cover: https://freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +53,7 @@ cover: https://www.freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg
   desc="If you have ever wanted to build a game with JavaScript, you might have come across Three.js.  Three.js is a library that we can use to render 3D graphics in the browser. The whole thing is in JavaScript, so with some logic you can add animation, int..."
   url="https://freecodecamp.org/news/render-3d-objects-in-browser-drawing-a-box-with-threejs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg"/>
 
 If you have ever wanted to build a game with JavaScript, you might have come across Three.js.
 

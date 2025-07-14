@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)"
-description: "Article(s) > How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)"
+title: "How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
+description: "Article(s) > How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)"
+      content: "Article(s) > How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
     - property: og:description
-      content: "How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)"
+      content: "How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html
 prev: /devops/security/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747663111032/84a5cdc
 ---
 
 <SiteInfo
-  name="How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)"
+  name="How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
   desc="Passwords are the keys to your digital life  –  email, bank accounts, social media, and even your workplace systems. Unfortunately, they’re also one of the weakest links in cybersecurity.  Every year, billions of credentials are stolen and sold on th..."
   url="https://freecodecamp.org/news/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -168,7 +168,7 @@ Join the [<FontIcon icon="fas fa-globe"/>Stealth Security Newsletter](https://ne
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Cybercriminals Crack Your Passwords (And How to Stay One Step Ahead)",
+  "title": "How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)",
   "desc": "Passwords are the keys to your digital life  –  email, bank accounts, social media, and even your workplace systems. Unfortunately, they’re also one of the weakest links in cybersecurity.  Every year, billions of credentials are stolen and sold on th...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

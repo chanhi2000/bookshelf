@@ -93,7 +93,7 @@ In this article, we are going to create flower-like shapes. We are going to rely
 
 ![four flower-like shapes with purple to pink gradients. two of them have petals and two of them have spikes. two of them are filled and two of them are outlined.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/02/emMTHfAN.png?resize=749%2C448&ssl=1)
 
-Before we start, you can take a look at [<FontIcon icon="fas fa-globe"/>my online generator for flower shapes](https://css-generators.com/flower-shapes/) to get an overview of what we are building here. You can easily define your settings and get the CSS code in no time. Some of the code we will be writing can be complex so it’s always good to have a generator to make our life easy. That said I invite you to keep reading to understand the logic behind the code you are copying and be able to tweak it if needed. 
+Before we start, you can take a look at [<FontIcon icon="fas fa-globe"/>my online generator for flower shapes](https://css-generators.com/flower-shapes/) to get an overview of what we are building here. You can easily define your settings and get the CSS code in no time. Some of the code we will be writing can be complex so it’s always good to have a generator to make our life easy. That said I invite you to keep reading to understand the logic behind the code you are copying and be able to tweak it if needed.
 
 ---
 
@@ -265,7 +265,7 @@ Let’s try a different shape this time. It’s somehow the invert of the previo
 
 ![spiky flower shape with purple to orange coloring](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/02/s_8902C59F87FE310188B36E4009897C666C3E33E25BC1C2DF285794D452BA158A_1708960190302_image.png?resize=411%2C404&ssl=1)
 
-​​The code to get the above shape is the same as the previous one, but we are going to introduce `mask-composite`​. The idea is to cut the small circles from the bigger one which translates to a “subtract” composition.
+The code to get the above shape is the same as the previous one, but we are going to introduce`mask-composite`. The idea is to cut the small circles from the bigger one which translates to a“subtract”composition.
 
 Here is a figure to illustrate the process:
 

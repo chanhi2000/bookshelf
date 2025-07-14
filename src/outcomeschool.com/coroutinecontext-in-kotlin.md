@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "CoroutineContext in Kotlin"
-description: "Article(s) > CoroutineContext in Kotlin"
+title: "CoroutineContext inKotlin"
+description: "Article(s) > CoroutineContext inKotlin"
 icon: iconfont icon-kotlin
 category:
   - Java
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > CoroutineContext in Kotlin"
+      content: "Article(s) > CoroutineContext inKotlin"
     - property: og:description
-      content: "CoroutineContext in Kotlin"
+      content: "CoroutineContext inKotlin"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/outcomeschool.com/coroutinecontext-in-kotlin.html
 prev: /programming/java/articles/README.md
@@ -44,7 +44,7 @@ cover: https://outcomeschool.com/static/images/blog/coroutinecontext-in-kotlin.p
 ---
 
 <SiteInfo
-  name="CoroutineContext in Kotlin"
+  name="CoroutineContext inKotlin"
   desc="In this blog, we will learn about the CoroutineContext in Kotlin by going through the source code. We will also cover how to customize it."
   url="https://outcomeschool.com/coroutinecontext-in-kotlin"
   logo="https://outcomeschool.com/static/favicons/apple-touch-icon.png"
@@ -268,7 +268,7 @@ Follow Outcome School on:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "CoroutineContext in Kotlin",
+  "title": "CoroutineContext inKotlin",
   "desc": "In this blog, we will learn about the CoroutineContext in Kotlin by going through the source code. We will also cover how to customize it.",
   "link": "https://chanhi2000.github.io/bookshelf/outcomeschool.com/coroutinecontext-in-kotlin.html",
   "logo": "https://outcomeschool.com/static/favicons/apple-touch-icon.png",

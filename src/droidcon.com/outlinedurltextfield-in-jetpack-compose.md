@@ -54,11 +54,11 @@ cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xBO70tloHjOUiAOw
 
 ![Create your own OutlinedUrlTextField — AI was used to create this image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xBO70tloHjOUiAOwRMBeCQ.png)
 
-If you’ve worked with Jetpack Compose, chances are you’ve used the common [**OutlinedTextField**](https://m3.material.io/components/text-fields/overview) at some point in your app.
+If you’ve worked with Jetpack Compose, chances are you’ve used the common[**OutlinedTextField**](https://m3.material.io/components/text-fields/overview)at some point in your app.
 
 While it works well for general text input, handling URLs within this component can be less than ideal. That’s why I want to share our custom implementation: OutlinedUrlTextField, a tailored solution for managing URLs more effectively.
 
-You can find a complete example of how to create and use this component here: [GitHub Repository](https://github.com/jarroyoesp/OutlinedUrlTextField).
+You can find a complete example of how to create and use this component here:[GitHub Repository](https://github.com/jarroyoesp/OutlinedUrlTextField).
 
 <!-- How is it implemented?
 
@@ -371,15 +371,15 @@ fun OutlinedUrlTextField(
     }
 }
 
-The signature of *OutlinedUrlTextField* is very similar to the common *OutlinedTextField*, with one key difference: it includes a listener (*onUrlClick: (url: String) -> Unit*) that triggers when the user clicks on a URL.
+The signature of*OutlinedUrlTextField*is very similar to the common*OutlinedTextField*, with one key difference: it includes a listener (*onUrlClick: (url: String) -> Unit*) that triggers when the user clicks on a URL.
 
 To break down how it works, let’s divide the implementation into two modes:
 
 ###### **📝 Editing Enabled**
 
-When editing is enabled, our component is essentially a OutlinedTextField from *androidx.compose.material3*. However, we need to customize its behaviour to **highlight URLs** dynamically.
+When editing is enabled, our component is essentially a OutlinedTextField from*androidx.compose.material3*. However, we need to customize its behaviour to**highlight URLs**dynamically.
 
-To achieve this, we use a **custom** *VisualTransformation (UrlTransformation)*, which detects URLs in the text and applies styling to make them visually distinct and clickable.
+To achieve this, we use a**custom** *VisualTransformation (UrlTransformation)*, which detects URLs in the text and applies styling to make them visually distinct and clickable.
 
 private class UrlTransformation(
 
@@ -411,9 +411,9 @@ private class UrlTransformation(
     )
 }
 
-***UrlTransformation*** is a custom *VisualTransformation* in Jetpack Compose that detects and highlights URLs in a TextField using a given SpanStyle. It applies styling and makes URLs clickable, triggering onUrlClick when tapped. The transformation does not affect text input or cursor behaviour (*OffsetMapping.Identity*).
+***UrlTransformation***is a custom*VisualTransformation*in Jetpack Compose that detects and highlights URLs in a TextField using a given SpanStyle. It applies styling and makes URLs clickable, triggering onUrlClick when tapped. The transformation does not affect text input or cursor behaviour (*OffsetMapping.Identity*).
 
-To detect URLs in the text, we use the function *buildAnnotatedStringWithUrlHighlighting*.
+To detect URLs in the text, we use the function*buildAnnotatedStringWithUrlHighlighting*.
 
 This function scans the input text, identifies URLs using a regex pattern (*Patterns.WEB_URL*), and applies a SpanStyle to highlight them. Additionally, it makes the URLs clickable by attaching a listener that triggers onUrlClick(url).
 
@@ -514,7 +514,7 @@ How it Works
 
 ###### **🔏 Editing Not Enabled**
 
-When editing is **disabled**, we use a *BasicTextField* instead of OutlinedTextField. However, if we don’t customize it, the component will look plain and unstyled, lacking the visual consistency of an OutlinedTextField.
+When editing is**disabled**, we use a*BasicTextField* instead of OutlinedTextField. However, if we don’t customize it, the component will look plain and unstyled, lacking the visual consistency of an OutlinedTextField.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7q52KB93Fugd--PR7s1HTQ.png)
 
@@ -522,9 +522,9 @@ BasicTextField
 
 **How to Match the OutlinedTextField Style?**
 
-To make it visually similar to *OutlinedTextField*, we apply a custom *DecorationBox*, which replicates the outlined style, paddings, and background.
+To make it visually similar to*OutlinedTextField*, we apply a custom*DecorationBox*, which replicates the outlined style, paddings, and background.
 
-Additionally, we set innerTextField to support **URL highlighting**, ensuring that URLs remain visually distinct and clickable even in read-only mode.
+Additionally, we set innerTextField to support**URL highlighting**, ensuring that URLs remain visually distinct and clickable even in read-only mode.
 
 Here’s how it looks:
 
@@ -613,7 +613,7 @@ decorationBox = {
 
 OutlinedUrlTextField vs OutlinedTextField — Enabled=false
 
-And don’t forget to add the paddingTop to the *BasicTextField*, *modifier = modifier.padding(top = 8.dp),* If you don’t include this padding, the label will be **cut off** when the text is present, affecting the visual alignment with a standard OutlinedTextField.
+And don’t forget to add the paddingTop to the*BasicTextField*,*modifier = modifier.padding(top = 8.dp),* If you don’t include this padding, the label will be**cut off**when the text is present, affecting the visual alignment with a standard OutlinedTextField.
 
 And here you can see the final result, OutlinedUrlTextField vs OutlinedTextField:
 
@@ -661,7 +661,7 @@ EditModeEnabled=true
 
 EditModeEnabled=false
 
-You can find all the code: [GitHub Repository](https://github.com/jarroyoesp/OutlinedUrlTextField) -->
+You can find all the code:[GitHub Repository](https://github.com/jarroyoesp/OutlinedUrlTextField) -->
 
 This article is previously published on [proandroiddev.com.](https://proandroiddev.com/outlinedurltextfield-in-jetpack-compose-86cd1c6f0325)
 

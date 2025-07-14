@@ -3922,7 +3922,7 @@ Now let's dive in.
 
 This comprehensive dataset offers four years of detailed sales records from a global superstore. It provides a valuable foundation for us to understand customer behavior, optimize operations, and accurately predict future trends.
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-09-at-11.11.02.png" alt="Image" width="2000" height="1029" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-09-at-11.11.02.png" alt="Image" width="2000" height="1029" loading="lazy">
 *Screenshot from the Superstore dataset*
 
 **Dataset Contents:**
@@ -5270,7 +5270,7 @@ fig.show()
 ### -analyzing-the-results">Analyzing The Results
 
 <h4 id="heading-customer-segmentation-1">Customer Segmentation</h4>
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-18.png" alt="Image" width="428" height="411" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-18.png" alt="Image" width="428" height="411" loading="lazy">
 *Distribution of Clients - Consumer, Corporate, Home Office*
 
 <h4 id="heading-understanding-the-distribution-and-impact-of-customer-segments">Understanding the Distribution and Impact of Customer Segments</h4>
@@ -5278,7 +5278,7 @@ The analysis of our SuperStore dataset highlights a pivotal aspect of business s
 
 As you can see in the "Distribution of Clients" pie chart above, our customers are divided into three primary categories: Consumer (52.1%), Corporate (30.1%), and Home Office (17.8%). These segments reveal the diversity within our customer base and underscore the need for tailored marketing strategies.
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-19.png" alt="Image" width="567" height="455" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-19.png" alt="Image" width="567" height="455" loading="lazy">
 *Sales per Customer Category*
 
 <h4 id="heading-aligning-sales-focus-with-customer-segmentation">Aligning Sales Focus with Customer Segmentation</h4>
@@ -5476,7 +5476,7 @@ This approach not only boosts customer loyalty but also drives increased revenue
 
 ### -popular-mode-of-shipment">Popular Mode of Shipment
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-20.png" alt="Image" width="436" height="411" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-20.png" alt="Image" width="436" height="411" loading="lazy">
 *Popular Mode of Shipment*
 
 <h4 id="heading-analyzing-shipping-preferences">Analyzing Shipping Preferences</h4>
@@ -5723,10 +5723,10 @@ The key lies in understanding the unique characteristics and preferences of each
 
 ### -product-category-analysis">Product Category Analysis
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-21.png" alt="Image" width="437" height="411" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-21.png" alt="Image" width="437" height="411" loading="lazy">
 *Top Product Categories Based on Sales*
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-22.png" alt="Image" width="626" height="455" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-22.png" alt="Image" width="626" height="455" loading="lazy">
 *Top Product Categories Based on Sales*
 
 Now we'll discover which products are truly driving revenue, where your profit margins shine, and which categories are ripe for strategic investment. 
@@ -5837,7 +5837,7 @@ This strategic approach will not only maximize short-term revenue but also culti
 Analyzing our sales data over several years provides a clear trajectory of growth and helps us understand seasonal fluctuations that affect our business. This analysis is essential for strategic planning, resource allocation, and performance forecasting. 
 
 <h4 id="heading-yearly-sales-analysis-2014-2018-capitalizing-on-growth-and-navigating-fluctuations">Yearly Sales Analysis (2014-2018): Capitalizing on Growth and Navigating Fluctuations</h4>
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-24.png" alt="Image" width="609" height="485" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-24.png" alt="Image" width="609" height="485" loading="lazy">
 *Yearly Sales from 2014 to 2019*
 
 The consistent sales growth from 2014 to 2018, with a temporary dip in 2016, presents a valuable opportunity for strategic refinement and growth acceleration.
@@ -5856,7 +5856,7 @@ The consistent sales growth from 2014 to 2018, with a temporary dip in 2016, pre
 By proactively addressing the insights gleaned from this yearly sales analysis, SuperStore can not only sustain its current growth trajectory but also fortify its resilience against future market fluctuations, ensuring continued success in the years to come.
 
 <h4 id="heading-company-sales-analysis-charting-growth-and-uncovering-seasonal-patterns">Company Sales Analysis: Charting Growth and Uncovering Seasonal Patterns</h4>
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-26.png" alt="Image" width="622" height="515" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-26.png" alt="Image" width="622" height="515" loading="lazy">
 *Total Sales by Month from 2018 - 2019*
 
 The following analysis of SuperStore's total sales by month from 2014 to 2019 reveals a consistent upward trajectory, punctuated by seasonal fluctuations. This comprehensive view offers invaluable insights into the company's growth patterns and potential areas for optimization.
@@ -5883,7 +5883,7 @@ The following analysis meticulously examines SuperStore's sales data across mont
 
 By visualizing and dissecting these temporal trends, we aim to extract actionable insights that will inform strategic decision-making, optimize sales cycles, and unlock untapped growth potential. This comprehensive assessment serves as a compass, guiding the company towards sustained revenue enhancement and a deeper understanding of the factors influencing sales performance.
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-27.png" alt="Image" width="1031" height="690" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-27.png" alt="Image" width="1031" height="690" loading="lazy">
 *Monthly Sales Trend from Jan 2015 to Jan 2018*
 
 <h4 id="heading-monthly-sales-trends-seasonality-as-a-strategic-lever">Monthly Sales Trends: Seasonality as a Strategic Lever</h4>
@@ -5912,7 +5912,7 @@ The sales trends analysis paints a vivid picture of SuperStore's growth trajecto
 
 ### -total-sales-by-us-state">Total Sales by U.S. State
 
-<img src="https://www.freecodecamp.org/news/content/images/2024/05/image-28.png" alt="Image" width="880" height="362" loading="lazy">
+<img src="https://freecodecamp.org/news/content/images/2024/05/image-28.png" alt="Image" width="880" height="362" loading="lazy">
 *The choropleth map of the total sales by U.S. State*
 
 The choropleth map of the United States provides a vivid illustration of total sales distribution by state, revealing significant variances in market performance across the country. This geographical visualization is instrumental for identifying key markets, underperformers, and potential growth opportunities.

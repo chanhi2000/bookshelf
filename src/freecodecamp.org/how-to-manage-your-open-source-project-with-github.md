@@ -108,7 +108,7 @@ Click on the **Edit** button to edit a label, and click on the **Delete** button
 
 ## How to Use GitHub Projects
 
-![Project pag](https://www.freecodecamp.org/news/content/images/2024/08/project.png)
+![Project pag](https://freecodecamp.org/news/content/images/2024/08/project.png)
 
 The [<FontIcon icon="iconfont icon-github"/>Github Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects) tool is a versatile and flexible tool for planning and managing your repository work in one central location.
 
@@ -195,7 +195,7 @@ Enter the milestone title, due date and description and last, then click on the 
 
 By default, your created milestone should look like this:
 
-![Enter information about milestones.](https://www.freecodecamp.org/news/content/images/2024/08/bydefault-your-milestone-look-like-this.png)
+![Enter information about milestones.](https://freecodecamp.org/news/content/images/2024/08/bydefault-your-milestone-look-like-this.png)
 
 Our next task is to assign an issue to the milestone. Go to the issue and assign a milestone to it.
 

@@ -47,7 +47,7 @@ cover: https://gosolve.io/wp-content/uploads/2023/08/Facebook_BLOG_FOTOCOPY-6-10
 
 <SiteInfo
   name="Switching To Cloud App Development"
-  desc="If your company has a well-established software product, you might be considering moving it into a cloud service to achieve some new goals or reach new customers. To do so, one needs to get to know the current state of cloud technology and figure out which way to follow for optimal results. "
+  desc="If your company has a well-established software product, you might be considering moving it into a cloud service to achieve some new goals or reach new customers. To do so, one needs to get to know the current state of cloud technology and figure out which way to follow for optimal results."
   url="https://gosolve.io/switching-to-cloud-app-development"
   logo="https://gosolve.io/wp-content/uploads/2022/03/cropped-ikona1-192x192.png"
   preview="https://gosolve.io/wp-content/uploads/2023/08/Facebook_BLOG_FOTOCOPY-6-1024x1024.png"/>
@@ -168,7 +168,7 @@ For sure, it is necessary to train, expand or exchange the development team to b
 ```component VPCard
 {
   "title": "Switching To Cloud App Development",
-  "desc": "If your company has a well-established software product, you might be considering moving it into a cloud service to achieve some new goals or reach new customers. To do so, one needs to get to know the current state of cloud technology and figure out which way to follow for optimal results. ",
+  "desc": "If your company has a well-established software product, you might be considering moving it into a cloud service to achieve some new goals or reach new customers. To do so, one needs to get to know the current state of cloud technology and figure out which way to follow for optimal results.",
   "link": "https://chanhi2000.github.io/bookshelf/gosolve.io/switching-to-cloud-app-development.html",
   "logo": "https://gosolve.io/wp-content/uploads/2022/03/cropped-ikona1-192x192.png",
   "background": "rgba(56,119,242,0.2)"

@@ -107,7 +107,7 @@ Cloud-based apps facilitate collaboration by allowing multiple users to simultan
 
 ### Reduced development cost
 
-Cloud computing provides cost-effective development tools, enables developers to start small and scale as required, avoiding unnecessary wastage, and provides highly flexible and [<FontIcon icon="fa-brands fa-golang"/>scalable environments](https://gosolve.io/scalable-cloud-computing/), saving time and money by adapting products to user needs.
+Cloud computing provides cost-effective development tools, enables developers to start small and scale as required, avoiding unnecessary wastage, and provides highly flexible and [<FontIcon icon="fa-brands fa-golang"/>scalableenvironments](https://gosolve.io/scalable-cloud-computing/), saving time and money by adapting products to user needs.
 
 ---
 

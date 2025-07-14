@@ -26,7 +26,7 @@ prev: /academics/coen/articles/README.md
 date: 2022-06-16
 isOriginal: false
 author: Md. Fahim Bin Amin
-cover: https://www.freecodecamp.org/news/content/images/2022/06/fCC-Banner.png
+cover: https://freecodecamp.org/news/content/images/2022/06/fCC-Banner.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,7 +50,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/06/fCC-Banner.png
   desc="If you want to improve your analytical skills, there's no better way to do that than solving problems.  If you are a programmer, then this is something you should do for yourself. Programmers need to deal with all sorts of problems almost every day. ..."
   url="https://freecodecamp.org/news/the-most-popular-coding-challenge-websites"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/06/fCC-Banner.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/06/fCC-Banner.png"/>
 
 If you want to improve your analytical skills, there's no better way to do that than solving problems.
 

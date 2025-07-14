@@ -24,7 +24,7 @@ isOriginal: false
 author:
   - name: Omer Rosenbaum
     url : https://freecodecamp.org/news/author/omerros/
-cover: https://www.freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-for-Developers-Book-Cover--1-.png
+cover: https://freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-for-Developers-Book-Cover--1-.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://www.freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Pat
   desc="Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh..."
   url="https://freecodecamp.org/news/git-diff-and-patch"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-for-Developers-Book-Cover--1-.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-for-Developers-Book-Cover--1-.png"/>
 
 Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches.
 

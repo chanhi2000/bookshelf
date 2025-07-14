@@ -58,13 +58,13 @@ When applying for a job as an Android developer, you’ll need expertise in Andr
 
 The best way to prepare for an interview is to review the minimum requirements and preferred qualifications for the role, ensuring you align with the team’s needs. Interview questions can vary widely depending on the team, the company’s industry, and its development culture. As a result, tailoring your preparation to the specific team and company is crucial for success.
 
-While preferred requirements can vary greatly between teams, some common questions tend to surface universally for Android developer roles. In this article, you’ll discover the top nine Android developer interview questions featured in [*Dove Letter* (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter). [**_Dove Letter_** (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter) is a subscription repository where you can learn, discuss, and share new insights about Android and Kotlin with industrial Android developer interview questions, tips with code, articles, discussion, and trending news. If you’re interested in joining, be sure to check out “[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903).”
+While preferred requirements can vary greatly between teams, some common questions tend to surface universally for Android developer roles. In this article, you’ll discover the top nine Android developer interview questions featured in[*Dove Letter* (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).[**_Dove Letter_** (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter)is a subscription repository where you can learn, discuss, and share new insights about Android and Kotlin with industrial Android developer interview questions, tips with code, articles, discussion, and trending news. If you’re interested in joining, be sure to check out “[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903).”
 
 ---
 
 ## Android
 
-Android boasts over a decade of history, with [<FontIcon icon="fa-brands fa-android"/>Android 15 announced](https://developer.android.com/about/versions/15) already, reflecting significant technical advancements over time. Despite these changes, the core systems and components, such as the Activity and Fragment lifecycles or Intents, have remained largely consistent. Understanding these fundamental systems, even if they feel like “old-school” technologies, is still crucial for any Android developer.
+Android boasts over a decade of history, with[<FontIcon icon="fa-brands fa-android"/>Android 15 announced](https://developer.android.com/about/versions/15)already, reflecting significant technical advancements over time. Despite these changes, the core systems and components, such as the Activity and Fragment lifecycles or Intents, have remained largely consistent. Understanding these fundamental systems, even if they feel like “old-school” technologies, is still crucial for any Android developer.
 
 ### 1. Describe the Activity Lifecycle
 
@@ -84,11 +84,11 @@ The activity lifecycle
 
 #### Summary
 
-An activity goes through these methods based on user interactions and the Android system’s management of app resources. Developers use these callbacks to manage transitions, conserve resources, and provide a smooth experience for users. For more details, check out [<FontIcon icon="fa-brands fa-android"/>the Android official documentation](https://developer.android.com/reference/android/app/Activity).
+An activity goes through these methods based on user interactions and the Android system’s management of app resources. Developers use these callbacks to manage transitions, conserve resources, and provide a smooth experience for users. For more details, check out[<FontIcon icon="fa-brands fa-android"/>the Android official documentation](https://developer.android.com/reference/android/app/Activity).
 
 ::: note
 
-You might also encounter related questions, such as those about the Fragment lifecycle or View lifecycle in Android. For more insights, be sure to check out [Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
+You might also encounter related questions, such as those about the Fragment lifecycle or View lifecycle in Android. For more insights, be sure to check out[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
 
 :::
 
@@ -96,7 +96,7 @@ You might also encounter related questions, such as those about the Fragment lif
 
 An Intent in Android is an abstract description of an operation to be performed. It serves as a messaging object that allows activities, services, and broadcast receivers to communicate. Intents are typically used to start an activity, send a broadcast, or initiate a service. They can also pass data between components, making them a fundamental part of Android’s component-based architecture.
 
-There are two primary types of intents in Android: **explicit** and **implicit**.
+There are two primary types of intents in Android:**explicit**and**implicit**.
 
 #### A. Explicit Intent
 
@@ -163,37 +163,37 @@ Explicit intents are used for internal app navigation where the target component
 
 ### 3. What’s the difference between Serialization and Parcelable?
 
-In Android, both `Serializable` and `Parcelable` are mechanisms used to pass data between different components (such as activities or fragments), but they function differently in terms of performance and implementation. Here’s a comparison of the two:
+In Android, both`Serializable`and`Parcelable`are mechanisms used to pass data between different components (such as activities or fragments), but they function differently in terms of performance and implementation. Here’s a comparison of the two:
 
 #### `Serializable`
 
-- **Java Standard Interface**: `Serializable` is a standard Java interface used to convert an object into a byte stream, which can then be passed between activities or written to disk.
-- **Reflection-Based:** It works through Java reflection, meaning the system dynamically inspects the class and its fields at runtime to serialize the object.
-- **Performance:** `Serializable` is slower compared to `Parcelable` because reflection is a slow process. It also generates a lot of temporary objects during serialization, increasing the memory overhead.
-- **Use Case:** `Serializable` is useful in scenarios where performance is not critical or when dealing with non-Android-specific codebases.
+- **Java Standard Interface**:`Serializable`is a standard Java interface used to convert an object into a byte stream, which can then be passed between activities or written to disk.
+- **Reflection-Based:**It works through Java reflection, meaning the system dynamically inspects the class and its fields at runtime to serialize the object.
+- **Performance:**`Serializable`is slower compared to`Parcelable`because reflection is a slow process. It also generates a lot of temporary objects during serialization, increasing the memory overhead.
+- **Use Case:**`Serializable`is useful in scenarios where performance is not critical or when dealing with non-Android-specific codebases.
 
 #### `Parcelable`
 
-- **Android-Specific Interface:** `Parcelable` is an Android-specific interface designed specifically for high-performance inter-process communication (IPC) within Android components.
-- **Performance:** `Parcelable` is faster than `Serializable` because it’s optimized for Android and doesn’t rely on reflection. It minimizes garbage collection by avoiding creating many temporary objects.
-- **Use Case:** `Parcelable` is preferred for passing data in Android when performance is important, especially for IPC or passing data between activities or services.
+- **Android-Specific Interface:**`Parcelable`is an Android-specific interface designed specifically for high-performance inter-process communication (IPC) within Android components.
+- **Performance:**`Parcelable`is faster than`Serializable`because it’s optimized for Android and doesn’t rely on reflection. It minimizes garbage collection by avoiding creating many temporary objects.
+- **Use Case:**`Parcelable`is preferred for passing data in Android when performance is important, especially for IPC or passing data between activities or services.
 
 #### Summary
 
-In general, `Parcelable` is the recommended approach for Android applications due to its better performance in most use cases. However, if you need simplicity and performance is not a concern, `Serializable` might be easier to implement.
+In general,`Parcelable`is the recommended approach for Android applications due to its better performance in most use cases. However, if you need simplicity and performance is not a concern,`Serializable`might be easier to implement.
 
-- Use `Serializable` for simpler cases when dealing with non-performance-critical operations or when working with non-Android-specific code.
-- Use `Parcelable` when working with Android-specific components where performance matters, as it is much more efficient for Android’s IPC mechanism.
+- Use`Serializable`for simpler cases when dealing with non-performance-critical operations or when working with non-Android-specific code.
+- Use`Parcelable`when working with Android-specific components where performance matters, as it is much more efficient for Android’s IPC mechanism.
 
 ---
 
 ## Kotlin
 
-Since Google announced its [<FontIcon icon="fa-brands fa-android"/>Kotlin-first approach to Android development](https://developer.android.com/kotlin/first) at Google I/O 2019, the adoption of Kotlin has skyrocketed. By the end of 2024, the majority of Android projects have transitioned to Kotlin, especially with [<FontIcon icon="iconfont icon-jetpack-compose"/>Jetpack Compose reaching its stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html) and gaining widespread popularity. So, in most cases, most of the team is likely using Kotlin instead of Java in most cases nowadays.
+Since Google announced its[<FontIcon icon="fa-brands fa-android"/>Kotlin-first approach to Android development](https://developer.android.com/kotlin/first)at Google I/O 2019, the adoption of Kotlin has skyrocketed. By the end of 2024, the majority of Android projects have transitioned to Kotlin, especially with [<FontIcon icon="iconfont icon-jetpack-compose"/>Jetpack Compose reaching its stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html)and gaining widespread popularity. So, in most cases, most of the team is likely using Kotlin instead of Java in most cases nowadays.
 
 ### 1. What is data class in Kotlin? How does a data class in Kotlin differ from a regular class?
 
-In Kotlin, the [<FontIcon icon="iconfont icon-kotlin"/>data class](https://kotlinlang.org/docs/data-classes.html) is a special type of class specifically designed to hold data. Kotlin generates several useful methods automatically for data classes, which makes them ideal for representing simple data-holding objects.
+In Kotlin, the[<FontIcon icon="iconfont icon-kotlin"/>data class](https://kotlinlang.org/docs/data-classes.html)is a special type of class specifically designed to hold data. Kotlin generates several useful methods automatically for data classes, which makes them ideal for representing simple data-holding objects.
 
 ::: important Key Features of Data Classes
 
@@ -203,13 +203,13 @@ When you declare a data class, Kotlin automatically generates the following:
 2. `hashCode()`: Generates a hash code based on the properties.
 3. `toString()`: Provides a string representation of the object with its property values.
 4. `copy()`: Allows for creating a new object with some properties copied from the existing one, with the option to modify specific values.
-5. **Component functions**: For de-structuring declarations (e.g., `component1()`, `component2()`), allowing you to extract properties easily.
+5. **Component functions**: For de-structuring declarations (e.g.,`component1()`,`component2()`), allowing you to extract properties easily.
 
 :::
 
 ::: tip Example
 
-In the example below, Kotlin automatically provides `equals()`, `hashCode()`, `toString()`, and `copy()` for the `User` class.
+In the example below, Kotlin automatically provides`equals()`,`hashCode()`,`toString()`, and`copy()`for the`User`class.
 
 ```kotlin title="data_class.kt"
 data class User(val name: String, val age: Int)
@@ -221,7 +221,7 @@ data class User(val name: String, val age: Int)
 
 ::: info Differences Between Data Class and Normal Class
 
-1. **Boilerplate Reduction**: In a normal class, you would need to manually override `equals()`, `hashCode()`, `toString()`, and other utility methods. With a data class, Kotlin generates these for you automatically.
+1. **Boilerplate Reduction**: In a normal class, you would need to manually override`equals()`,`hashCode()`,`toString()`, and other utility methods. With a data class, Kotlin generates these for you automatically.
 2. **Primary Constructor Requirement**: A data class requires at least one property to be declared in the primary constructor, whereas a normal class does not.
 3. **Use Case**: Data classes are primarily used for holding immutable data (though you can use mutable properties), whereas normal classes can be used for any kind of behavior or logic.
 
@@ -229,7 +229,7 @@ data class User(val name: String, val age: Int)
 
 ::: tip Example of Normal Class for Comparison  
 
-In the example above, Kotlin automatically provides `equals()`, `hashCode()`, `toString()`, and `copy()` for the `User` class.
+In the example above, Kotlin automatically provides`equals()`,`hashCode()`,`toString()`, and`copy()`for the`User`class.
 
 ```kotlin title="data_class_2"
 class Person(val name: String, val age: Int)
@@ -241,15 +241,15 @@ class Person(val name: String, val age: Int)
 
 #### Summary
 
-Data classes are used for objects that only contain data, and Kotlin automatically generates utility methods like `equals()`, `hashCode()`, `toString()`, and `copy()`. A normal class is more flexible but doesn’t provide those methods by default, making it more suited for objects with behavior and complex logic.
+Data classes are used for objects that only contain data, and Kotlin automatically generates utility methods like`equals()`,`hashCode()`,`toString()`, and`copy()`. A normal class is more flexible but doesn’t provide those methods by default, making it more suited for objects with behavior and complex logic.
 
 ### 2. What’s the Extension, and what are its pros and cons?
 
-The [<FontIcon icon="iconfont icon-kotlin"/>Extensions](https://kotlinlang.org/docs/extensions.html) is a way to add new functionality to existing classes without modifying their code directly. Kotlin allows you to “extend” a class with new functions or properties using extension functions and extension properties. This is especially useful for enhancing classes from third-party libraries or the standard library where you don’t have access to the source code.
+The[<FontIcon icon="iconfont icon-kotlin"/>Extensions](https://kotlinlang.org/docs/extensions.html)is a way to add new functionality to existing classes without modifying their code directly. Kotlin allows you to “extend” a class with new functions or properties using extension functions and extension properties. This is especially useful for enhancing classes from third-party libraries or the standard library where you don’t have access to the source code.
 
 ::: tip Example of an Extension Function
 
-Suppose you want to add a `isEven()` function to the `Int` class. You can do it like this:
+Suppose you want to add a`isEven()`function to the`Int`class. You can do it like this:
 
 ```kotlin title="extension.kt"
 fun Int.isEven(): Boolean {
@@ -262,7 +262,7 @@ println(number.isEven())  // Output: true
 
 <!-- @include: https://gist.github.com/skydoves/4cb5ad0823c85ccc15075294b1853375/raw/73af39adcfa1a0eb242b4cd9c93cff16cd45769c/extension.kt -->
 
-Here, `isEven()` becomes a new function available to all `Int` objects, even though you haven’t modified the `Int` class itself.
+Here,`isEven()`becomes a new function available to all`Int`objects, even though you haven’t modified the`Int`class itself.
 
 :::
 
@@ -316,11 +316,11 @@ Extensions in Kotlin are powerful tools that enhance functionality in a clean, m
 
 ### 3. What’s the difference between Coroutines and Thread?
 
-The difference between [<FontIcon icon="iconfont icon-kotlin"/>Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) and Threads in Android (and Kotlin in general) lies in how they manage concurrency, resource consumption, and performance.
+The difference between[<FontIcon icon="iconfont icon-kotlin"/>Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)and Threads in Android (and Kotlin in general) lies in how they manage concurrency, resource consumption, and performance.
 
 #### A. Lightweight vs. Heavyweight
 
-Coroutines are lightweight. They run within a single thread but can be suspended without blocking the thread. This allows thousands of coroutines to run concurrently on fewer threads with minimal overhead. Threads, on the other hand, are heavyweight. Each thread has its own memory and resources, and switching between threads involves more overhead, leading to higher resource consumption when dealing with many threads.
+Coroutines are lightweight. They run within a single thread but can be suspended without blocking the thread. This allows thousands of coroutines to run concurrently on fewer threads with minimal overhead. Threads, on the other hand, are heavyweight.Each thread has its own memory and resources, and switching between threads involves more overhead, leading to higher resource consumption when dealing with many threads.
 
 #### B. Concurrency vs. Parallelism
 
@@ -336,7 +336,7 @@ Coroutines are more efficient regarding memory and CPU usage because they avoid 
 
 #### E. Context Switching
 
-Coroutines allow switching between tasks using suspension points (like `delay()` or `withContext()`), which is less expensive than switching between threads. Threads involve context switching handled by the operating system, which can be more costly in terms of performance.
+Coroutines allow switching between tasks using suspension points (like`delay()`or`withContext()`), which is less expensive than switching between threads. Threads involve context switching handled by the operating system, which can be more costly in terms of performance.
 
 #### F. Use Cases
 
@@ -344,7 +344,7 @@ Coroutines are ideal for I/O-bound tasks, like making network requests, handling
 
 #### G. Error Handling
 
-Coroutines provide structured concurrency APIs like `Job`, `CoroutineExceptionHandler` to handle exceptions and cancel tasks easily, and coroutine builder, such as `launch` and `async`, which immediately propagates exceptions. Threads require more manual error handling (try-catch or `uncaughtExceptionHandler`) and coordination for task cancellation and exception propagation.
+Coroutines provide structured concurrency APIs like`Job`,`CoroutineExceptionHandler`to handle exceptions and cancel tasks easily, and coroutine builder, such as`launch`and`async`, which immediately propagates exceptions. Threads require more manual error handling (try-catch or`uncaughtExceptionHandler`) and coordination for task cancellation and exception propagation.
 
 #### Summary
 
@@ -352,7 +352,7 @@ Coroutines are more suitable for managing large numbers of tasks concurrently wi
 
 ::: note
 
-You might also encounter related questions, such as those about the sealed/companion classes or Flow, StateFlow, and SharedFlow. For more insights, be sure to check out [Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
+You might also encounter related questions, such as those about the sealed/companion classes or Flow, StateFlow, and SharedFlow. For more insights, be sure to check out[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
 
 :::
 
@@ -360,7 +360,7 @@ You might also encounter related questions, such as those about the sealed/compa
 
 ## Jetpack Compose
 
-Jetpack Compose, Google’s modern UI toolkit, has demonstrated tremendous potential since [<FontIcon icon="iconfont icon-jetpack-compose"/>its stable 1.0 release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html). Its adoption for production has soared, with over 125,000 apps built with Jetpack Compose now live on the Google Play Store, [according to Google (<FontIcon icon="fa-brands fa-x-twitter"/>`AndroidDev`)](https://x.com/AndroidDev/status/1726662755724181663).
+Jetpack Compose, Google’s modern UI toolkit, has demonstrated tremendous potential since[<FontIcon icon="iconfont icon-jetpack-compose"/>its stable 1.0 release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html). Its adoption for production has soared, with over 125,000 apps built with Jetpack Compose now live on the Google Play Store,[according to Google (<FontIcon icon="fa-brands fa-x-twitter"/>`AndroidDev`)](https://x.com/AndroidDev/status/1726662755724181663).
 
 However, many companies are still in the process of adopting Jetpack Compose or considering a migration from traditional View systems, as transitioning an entire large-scale project can be costly. Whether Jetpack Compose-related questions are part of an interview will largely depend on the specific company.
 
@@ -396,12 +396,12 @@ fun Counter() {
 
 The example above plays:
 
-- Each time the button is clicked, `count` is updated, triggering recomposition of the `Counter` function.
-- Compose redraws only the `Text` composable showing the count value, rather than the entire UI.
+- Each time the button is clicked,`count`is updated, triggering recomposition of the`Counter`function.
+- Compose redraws only the`Text`composable showing the count value, rather than the entire UI.
 
 To summarize, the key points about recomposition are:
 
-- **State-Driven**: Recomposition occurs when state changes. `remember` and `mutableStateOf` are commonly used to hold state that affects recomposition.
+- **State-Driven**: Recomposition occurs when state changes.`remember`and`mutableStateOf`are commonly used to hold state that affects recomposition.
 - **Optimized Performance**: Compose tries to recompose only what’s necessary, helping to improve performance.
 - **Idempotency**: Composable functions should be designed to produce the same UI output for the same input, making recomposition reliable.
 
@@ -409,7 +409,7 @@ The Jetpack Compose Runtime library offers several functions that are closely re
 
 - `remember`: Caches values across recompositions, so they aren’t reset each time.
 - `derivedStateOf`: Optimizes recomposition by only triggering when the derived state changes.
-- `LaunchedEffect`, `SideEffect`, and `DisposableEffect`: Manage side effects in composable functions across recompositions.
+- `LaunchedEffect`,`SideEffect`, and`DisposableEffect`: Manage side effects in composable functions across recompositions.
 
 #### Summary
 
@@ -446,7 +446,7 @@ fun SliderComponent(value: Float, onValueChange: (Float) -> Unit) {
 
 <!-- @include: https://gist.github.com/skydoves/8eaf50d8dcc3306c27ae1d78402d4cc4/raw/9df41e4177024100889d6c9787f5ded3a850ef18/state_hoisting.kt -->
 
-In this example, the `Parent` composable manages the state (`sliderValue`), while the `SliderComponent` is stateless and receives both the value and the event handler from the parent. This approach promotes better structure and maintainability in Compose applications.
+In this example, the`Parent`composable manages the state (`sliderValue`), while the`SliderComponent`is stateless and receives both the value and the event handler from the parent. This approach promotes better structure and maintainability in Compose applications.
 
 :::
 
@@ -463,17 +463,17 @@ These benefits collectively improve the overall structure, maintainability, and 
 
 #### Summary
 
-You should hoist UI state to the lowest common ancestor of all the composables that need to read or modify that state. Keeping the state as close as possible to where it is consumed helps maintain a clean separation of concerns and ensures efficient data flow. From the state owner, expose an immutable state to consumers along with events or callbacks that allow them to modify the state as needed. For more details, refer to [<FontIcon icon="fa-brands fa-android"/>Where to hoist state](https://developer.android.com/develop/ui/compose/state-hoisting).
+You should hoist UI state to the lowest common ancestor of all the composables that need to read or modify that state. Keeping the state as close as possible to where it is consumed helps maintain a clean separation of concerns and ensures efficient data flow. From the state owner, expose an immutable state to consumers along with events or callbacks that allow them to modify the state as needed. For more details, refer to[<FontIcon icon="fa-brands fa-android"/>Where to hoist state](https://developer.android.com/develop/ui/compose/state-hoisting).
 
 ### 3. What are side-effects
 
 In Jetpack Compose, a side effect refers to any operation that affects state outside the scope of the composable function or persists beyond its recomposition. Since composables are designed to be pure functions that simply render UI based on the current state, side effects are used when you need to perform actions outside the composable function’s lifecycle, like updating shared state, triggering one-time events, or interacting with external resources.
 
-Jetpack Compose provides several side-effect APIs to handle these scenarios safely and predictably, such as `LaunchedEffect`, `SideEffect`, and `DisposableEffect`.
+Jetpack Compose provides several side-effect APIs to handle these scenarios safely and predictably, such as`LaunchedEffect`,`SideEffect`, and`DisposableEffect`.
 
 #### A. `LaunchedEffect`: Used for launching coroutines in a composable
 
-`LaunchedEffect` allows you to start a coroutine in response to certain key state changes. It runs within the `Composition` and will cancel and restart if the specified key changes, making it useful for one-time or reactive tasks, such as fetching data or handling animations.
+`LaunchedEffect`allows you to start a coroutine in response to certain key state changes. It runs within the`Composition`and will cancel and restart if the specified key changes, making it useful for one-time or reactive tasks, such as fetching data or handling animations.
 
 ::: tip Example
 
@@ -493,7 +493,7 @@ fun MyScreen(userId: String) {
 
 #### B. `SideEffect`: Used to perform non-restartable side effects
 
-`SideEffect` is invoked every time a composable successfully recomposes. It’s used for performing lightweight, non-restartable actions like updating a mutable shared object or logging.
+`SideEffect`is invoked every time a composable successfully recomposes. It’s used for performing lightweight, non-restartable actions like updating a mutable shared object or logging.
 
 ::: tip Example
 
@@ -513,7 +513,7 @@ fun MyComposable(screenName: String) {
 
 #### C. `DisposableEffect`: Used for effects that need cleanup
 
-- `DisposableEffect` is used for actions that require both setup and cleanup, such as registering a listener or resource that should be released when the composition leaves the screen or is recomposed. This API lets you define `onDispose` block, which will be invoked when the Composable function’s lifecycle is ended up.
+- `DisposableEffect`is used for actions that require both setup and cleanup, such as registering a listener or resource that should be released when the composition leaves the screen or is recomposed. This API lets you define`onDispose`block, which will be invoked when the Composable function’s lifecycle is ended up.
 
 ::: tip Example
 
@@ -535,7 +535,7 @@ fun MyComposableWithListener(listener: SomeListener) {
 
 #### Summary
 
-Using these side-effect APIs properly allows you to manage external resources, events, and state changes efficiently within the composable lifecycle, maintaining a clean, predictable UI. For more information, check out the official Android docs [<FontIcon icon="fa-brands fa-android"/>Side-effects in Compose](https://developer.android.com/develop/ui/compose/side-effects).
+Using these side-effect APIs properly allows you to manage external resources, events, and state changes efficiently within the composable lifecycle, maintaining a clean, predictable UI. For more information, check out the official Android docs[<FontIcon icon="fa-brands fa-android"/>Side-effects in Compose](https://developer.android.com/develop/ui/compose/side-effects).
 
 - `LaunchedEffect`: Triggers a coroutine based on state changes; ideal for async actions like data loading.
 - `SideEffect`: Executes non-restartable code after each recomposition; useful for logging or relevant actions.
@@ -547,7 +547,7 @@ Using these side-effect APIs properly allows you to manage external resources, e
 
 In this article, you’ve explored the top nine Android developer interview questions you might encounter during the hiring process. Remember, interview questions can vary significantly based on the role, team culture, industry, and even the interviewers themselves. It’s essential to tailor your preparation to align with the specific company and position you’re applying for.
 
-All these interview questions are covered in [Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter/), a private repository offering daily insights on Android and Kotlin, including topics like Compose, architecture, industry interview questions, and practical code tips. **In just 15 weeks since its launch, Dove Letter has surpassed 350 individual subscribers and 8 business/lifetime subscribers**. If you’re eager to deepen your knowledge of Android, Kotlin, and Compose, be sure to check out ‘[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903)’.
+All these interview questions are covered in[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter/), a private repository offering daily insights on Android and Kotlin, including topics like Compose, architecture, industry interview questions, and practical code tips.**In just 15 weeks since its launch, Dove Letter has surpassed 350 individual subscribers and 8 business/lifetime subscribers**. If you’re eager to deepen your knowledge of Android, Kotlin, and Compose, be sure to check out ‘[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903)’.
 
 As always, happy coding!
 

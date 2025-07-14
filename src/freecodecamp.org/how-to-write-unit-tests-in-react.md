@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Write Unit Tests in React"
-description: "Article(s) > How to Write Unit Tests in React"
+title: "How to Write Unit Tests inReact"
+description: "Article(s) > How to Write Unit Tests inReact"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Write Unit Tests in React"
+      content: "Article(s) > How to Write Unit Tests inReact"
     - property: og:description
-      content: "How to Write Unit Tests in React"
+      content: "How to Write Unit Tests inReact"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-unit-tests-in-react.html
 prev: /programming/js-react/articles/README.md
@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Kunal Nalawade
     url: https://freecodecamp.org/news/author/KunalN25/
-cover: https://www.freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg
+cover: https://freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -50,11 +50,11 @@ cover: https://www.freecodecamp.org/news/content/images/2023/01/unit-testing-in-
 ---
 
 <SiteInfo
-  name="How to Write Unit Tests in React"
+  name="How to Write Unit Tests inReact"
   desc="When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w..."
   url="https://freecodecamp.org/news/how-to-write-unit-tests-in-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg"/>
+  preview="https://freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg"/>
 
 When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected.
 
@@ -729,7 +729,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Write Unit Tests in React",
+  "title": "How to Write Unit Tests inReact",
   "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-unit-tests-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

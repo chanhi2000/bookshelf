@@ -307,7 +307,7 @@ Basically, whenever the user scrolls to the end of the page, it checks if the `h
 
 ## `react-virtualized`
 
-[<FontIcon icon="fa-brands fa-npm"/>`react-virtualized`](https://npmjs.com/package/react-virtualized) was specifically designed for rendering large lists and tabular data. It uses a technique similar to infinite scroll called windowing that renders only the visible parts of a list to the screen.
+[<FontIcon icon="fa-brands fa-npm"/>`react-virtualized`](https://npmjs.com/package/react-virtualized) was specifically designed for rendering large lists and tabular data. It uses a technique similar to infinite scroll called windowing that renders only thevisible parts of a list to the screen.
 
 One advantage `react-virtualized` has over the aforementioned solutions is its wealth of useful components, including `Collection`, `Grid`, `List`, `Masonryf`, and `Table`.
 
@@ -409,13 +409,13 @@ export default App;
 
 The code is very similar to that of `react-virtualized`. We used a `List` component, which accepts a set of props that defines the list, and passed in a `Row` component function, which is responsible for rendering each row in the list.
 
-The author of the library outlined the [differences between `react-window` and `react-virtualized` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-window#how-is-react-window-different-from-react-virtualized`)](https://github.com/bvaughn/react-window#how-is-react-window-different-from-react-virtualized) at this GitHub repository.
+The author of the library outlined the [differences between `react-window`and `react-virtualized` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-window#how-is-react-window-different-from-react-virtualized`)](https://github.com/bvaughn/react-window#how-is-react-window-different-from-react-virtualized) at this GitHub repository.
 
 ---
 
 ## React ViewPort List
 
-Like `react-virtualized`, [React ViewPort List (<FontIcon icon="fa-brands fa-npm"/>`react-viewport-list`)](https://npmjs.com/package/react-viewport-list) utilizes a technique called windowing, which renders only a portion of the list at a time, significantly reducing the time it takes to re-render components as well as the number of DOM nodes created. React ViewPort List  has some interesting features like:
+Like `react-virtualized`, [React ViewPort List (<FontIcon icon="fa-brands fa-npm"/>`react-viewport-list`)](https://npmjs.com/package/react-viewport-list) utilizes a technique called windowing, which renders only a portion of the list at a time, significantly reducing the time it takes to re-render components as well as the number of DOM nodes created. React ViewPort List has some interesting features like:
 
 - Support for vertical and horizontal lists️️
 - Support for scroll to index

@@ -80,7 +80,7 @@ It’s important to understand that the rendering pixel pipeline is a transforma
 
 Google has color-coded and categorized the areas as follows:
 
-- **Scripting** — yellow covering the JavaScript area
+- **Scripting**— yellow covering the JavaScript area
 - **Rendering** — purple covering the Style and Layout areas
 - **Painting** — green covering the Paint and Composite areas
 

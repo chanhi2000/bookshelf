@@ -215,7 +215,7 @@ You can try this method with any grid compositions — rows, columns, or both.
   preview="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png"/>
 
 <SiteInfo
-  name="@property: Next-gen CSS variables now with universal browser support  |  Blog  |  web.dev"
+  name="@property: Next-gen CSS variables now with universal browser support | Blog | web.dev"
   desc="Semantic custom properties with @property just reached Baseline Newly available."
   url="https://web.dev/blog/at-property-baseline/"
   logo="https://gstatic.com/devrel-devsite/prod/vdcd49b48a0f6579e36a0f52b513a1840db67522fa48e80a57742b4388044a7e9/web/images/favicon.png"

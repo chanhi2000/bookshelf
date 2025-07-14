@@ -25,7 +25,7 @@ isOriginal: false
 author:
   - name: Samyak Jain
     url : https://freecodecamp.org/news/author/samyakjainblog/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/first-class-functions-high-order-functions-and-closures-in-python.png
+cover: https://freecodecamp.org/news/content/images/2024/07/first-class-functions-high-order-functions-and-closures-in-python.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -49,7 +49,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/first-class-func
   desc="In modern programming, it's important to understand concepts like first-class functions, higher-order functions, and closures. These ideas help us write flexible and efficient code and serve as building blocks for many advanced coding techniques. Fir..."
   url="https://freecodecamp.org/news/first-class-functions-and-closures-in-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/first-class-functions-high-order-functions-and-closures-in-python.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/first-class-functions-high-order-functions-and-closures-in-python.png"/>
 
 In modern programming, it's important to understand concepts like first-class functions, higher-order functions, and closures. These ideas help us write flexible and efficient code and serve as building blocks for many advanced coding techniques.
 

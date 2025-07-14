@@ -68,7 +68,7 @@ There are a few other areas that I haven't mentioned so far, but can be a good a
 
 ```component VPCard
 {
-  "title": "How to Write Unit Tests in React",
+  "title": "How to Write Unit Tests inReact",
   "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w...",
   "link": "/freecodecamp.org/how-to-write-unit-tests-in-react.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

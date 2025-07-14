@@ -513,7 +513,7 @@ As mentioned earlier, React Hook Form’s `FormProvider` is used to provide form
 
 The `MultiStepFormContext` provides the necessary state and navigation functions we discussed to all child components, ensuring that buttons and progress indicators can interact with the form’s state.
 
-### 2. Parent `form` element
+### 2. Parent `form`element
 
 The `form` element should wrap up all the steps of your multi-step form. This is crucial because nesting separate `form` elements inside individual steps can cause issues.
 
@@ -550,7 +550,7 @@ export const useMultiStepForm = () => {
 }
 ```
 
-### Validating input in the `nextStep` function
+### Validating input in the `nextStep`function
 
 The `nextStep` function will handle step transitions. However, we’re going to modify this function further as we want to trigger validation on every step before transitioning to the next one:
 
@@ -812,7 +812,7 @@ First, what does the structure of the data we’re storing look like?
 
 In addition to saving the form state, we also want to save the current step (or step index) to ensure they continue exactly where they left off.
 
-### Initialize `localStorage` state
+### Initialize `localStorage`state
 
 We start by initializing the stored form state from `localStorage` in `MultiStepForm`. To ensure reusability, we’ll require our component to collect the `localStorageKey` prop. This prevents conflicts when multiple multi-step forms exist in the same application.
 

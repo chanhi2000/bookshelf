@@ -246,7 +246,7 @@ For the most part, using the right semantic elements should ensure keyboard acce
 ```html
 <p>
   Visit my blog at 
-  <a href="https://www.freecodecamp.org/news/author/KunalN25/">freecodecamp.org</a>
+  <a href="https://freecodecamp.org/news/author/KunalN25/">freecodecamp.org</a>
 </p>
 
 <button>Click me</button>

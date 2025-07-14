@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Tooltips in Jetpack Compose"
-description: "Article(s) > How to Use Tooltips in Jetpack Compose"
+title: "How to Use Tooltips in JetpackCompose"
+description: "Article(s) > How to Use Tooltips in JetpackCompose"
 icon: fa-brands fa-android
 category:
   - Java
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Tooltips in Jetpack Compose"
+      content: "Article(s) > How to Use Tooltips in JetpackCompose"
     - property: og:description
-      content: "How to Use Tooltips in Jetpack Compose"
+      content: "How to Use Tooltips in JetpackCompose"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-tooltips-in-jetpack-compose.html
 prev: /programming/java-android/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727813989960/b0a7ab2
 ---
 
 <SiteInfo
-  name="How to Use Tooltips in Jetpack Compose"
+  name="How to Use Tooltips in JetpackCompose"
   desc="When I wrote my last article about Jetpack Compose, I stated there that Jetpack Compose is missing some (in my opinion) basic components, and one of them is the tooltip. At the time, there was no built-in composable to display tooltips and there were..."
   url="https://freecodecamp.org/news/how-to-use-tooltips-in-jetpack-compose"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

@@ -64,9 +64,9 @@ We struggled so that you don’t have to anymore. In this tutorial, I’ll break
 
 <!-- ###### Part 1: Creating the Custom Shape for the Cutout
 
-###### The `BottomNavShape` Class:
+###### The`BottomNavShape`Class:
 
-To create the curved cutout effect, we define a custom `Shape` that carves out a semicircle and smooth curves from the navigation bar.
+To create the curved cutout effect, we define a custom`Shape`that carves out a semicircle and smooth curves from the navigation bar.
 
 ###### **The Code:**
 
@@ -387,14 +387,14 @@ class BottomNavShape(
 
 ###### **How It Works:**
 
-1. **Base Shape:** Start with a rounded rectangle (the main navigation panel).
-2. **Central Cutout:** Subtract a semicircle (`addOval`) from the base.
-3. **Side Curves:** Use `Path.combine` with `PathOperation.Difference` to carve out curved sections on both sides of the cutout.
-4. **Final Outline:** The result is a navigation bar with smooth curves and a docked area for the floating button.
+1. **Base Shape:**Start with a rounded rectangle (the main navigation panel).
+2. **Central Cutout:**Subtract a semicircle (`addOval`) from the base.
+3. **Side Curves:**Use`Path.combine`with`PathOperation.Difference`to carve out curved sections on both sides of the cutout.
+4. **Final Outline:**The result is a navigation bar with smooth curves and a docked area for the floating button.
 
 ###### Part 2: Building the Navigation Panel
 
-###### The `BottomNavPanelWithCutOut` Composable:
+###### The`BottomNavPanelWithCutOut`Composable:
 
 @Composable
 
@@ -476,13 +476,13 @@ fun BoxScope.BottomNavPanelWithCutOut() {
 
 ###### **Key Features:**
 
-- `clip()`: Uses our `BottomNavShape` to create the curved cutout.
+- `clip()`: Uses our`BottomNavShape`to create the curved cutout.
 - `padding(horizontal = 56.dp)`: Ensures icons stay clear of the central cutout area.
 - `Arrangement.SpaceBetween`: Distributes icons evenly across the available space.
 
 ###### Part 3: Adding the Docked/Floating Button
 
-###### The `BottomNavPanel` Composable:
+###### The`BottomNavPanel`Composable:
 
 @Composable
 
@@ -556,19 +556,19 @@ fun BoxScope.BottomNavPanel() {
 
 **Why This Works:**
 
-- The `Box` layout stacks the navigation panel and floating button.
-- `padding(bottom = 24.dp)` positions the button slightly above the panel.
-- `clip(CircleShape)` creates the circular button shape.
+- The`Box`layout stacks the navigation panel and floating button.
+- `padding(bottom = 24.dp)`positions the button slightly above the panel.
+- `clip(CircleShape)`creates the circular button shape.
 
 ###### Tips for Customization
 
-1. Adjust `cornerRadius` and `dockRadius` to control the curve sizes.
-2. Modify the floating button’s `size` and `padding` to match your design.
-3. Use `Surface` or `shadow` modifiers to add elevation effects.
+1. Adjust`cornerRadius`and`dockRadius`to control the curve sizes.
+2. Modify the floating button’s`size`and`padding`to match your design.
+3. Use`Surface`or`shadow`modifiers to add elevation effects.
 
 ###### Conclusion
 
-There you have it. By leveraging Jetpack Compose’s `Shape` and layout system, you’ve created a professional-grade navigation bar with a curved cutout and docked/floating action button.
+There you have it. By leveraging Jetpack Compose’s`Shape`and layout system, you’ve created a professional-grade navigation bar with a curved cutout and docked/floating action button.
 
 Give it a go. If you face any issues, feel free to drop a comment and I will certainly share the solution for you.
 

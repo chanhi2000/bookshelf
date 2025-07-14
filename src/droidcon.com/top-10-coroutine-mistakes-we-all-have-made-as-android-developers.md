@@ -66,11 +66,11 @@ In this article, we’ll explore the top 10 coroutine mistakes that many of us h
 
 @tab:active The Mistake
 
-Running long-running or blocking tasks on the `Main` dispatcher, which can freeze the UI and lead to Application Not Responding (ANR) errors.
+Running long-running or blocking tasks on the`Main`dispatcher, which can freeze the UI and lead to Application Not Responding (ANR) errors.
 
 @tab Why It Happens
 
-It’s easy to forget which dispatcher is being used, especially in complex codebases. Developers might launch a coroutine without specifying a dispatcher, inadvertently using the `Main` dispatcher by default.
+It’s easy to forget which dispatcher is being used, especially in complex codebases. Developers might launch a coroutine without specifying a dispatcher, inadvertently using the`Main`dispatcher by default.
 
 @tab How to Avoid It
 
@@ -92,7 +92,7 @@ GlobalScope.launch(Dispatchers.IO) {
 }
 ```
 
-Use `Dispatchers.IO` for I/O operations and `Dispatchers.Default` for CPU-intensive tasks. Reserve `Dispatchers.Main` for updating the UI.
+Use`Dispatchers.IO`for I/O operations and`Dispatchers.Default`for CPU-intensive tasks. Reserve`Dispatchers.Main`for updating the UI.
 
 :::
 
@@ -108,14 +108,14 @@ Not properly structuring coroutine scopes, leading to unmanaged coroutines that 
 
 @tab Why It Happens
 
-Using `GlobalScope` indiscriminately or failing to cancel coroutines when a component is destroyed.
+Using`GlobalScope`indiscriminately or failing to cancel coroutines when a component is destroyed.
 
 @tab How to Avoid It
 
 Use structured concurrency by tying coroutines to a specific lifecycle:
 
-- In activities or fragments, use `lifecycleScope` or `viewLifecycleOwner.lifecycleScope`.
-- In ViewModels, use `viewModelScope`.
+- In activities or fragments, use`lifecycleScope`or`viewLifecycleOwner.lifecycleScope`.
+- In ViewModels, use`viewModelScope`.
 
 :::
 
@@ -144,11 +144,11 @@ Failing to handle exceptions within coroutines properly, which can cause unexpec
 
 @tab Why It Happens
 
-Assuming that `try-catch` blocks will work the same way inside coroutines or not understanding how exceptions propagate in coroutine hierarchies.
+Assuming that`try-catch`blocks will work the same way inside coroutines or not understanding how exceptions propagate in coroutine hierarchies.
 
 @tab How to Avoid It
 
-- Use `try-catch` within the coroutine to handle exceptions. Be cautious to check for `CancellationException`, as it’s used to signal coroutine cancellation, and should typically be rethrown to allow the coroutine to cancel properly.
+- Use`try-catch`within the coroutine to handle exceptions. Be cautious to check for`CancellationException`, as it’s used to signal coroutine cancellation, and should typically be rethrown to allow the coroutine to cancel properly.
 - For structured concurrency, exceptions in child coroutines are propagated to the parent.
 
 :::
@@ -169,7 +169,7 @@ viewModelScope.launch {
 }
 ```
 
-Alternatively, use a `CoroutineExceptionHandler` for unhandled exceptions:
+Alternatively, use a`CoroutineExceptionHandler`for unhandled exceptions:
 
 ```kotlin
 val exceptionHandler = CoroutineExceptionHandler { \_, throwable ->
@@ -193,16 +193,16 @@ viewModelScope.launch(exceptionHandler) {
 
 @tab:active The Mistake
 
-Confusing `launch` and `async` builders, leading to unintended behavior, such as missing results or unnecessary concurrency.
+Confusing`launch`and`async`builders, leading to unintended behavior, such as missing results or unnecessary concurrency.
 
 @tab Why It Happens
 
-Misunderstanding the difference between `launch` (which returns `Job`) and `async` (which returns `Deferred` and is meant for obtaining a result).
+Misunderstanding the difference between`launch`(which returns`Job`) and`async`(which returns`Deferred`and is meant for obtaining a result).
 
 @tab How to Avoid It
 
-- Use `launch` when you don’t need a result and want to fire off a coroutine.
-- Use `async` when you need to compute a value asynchronously.
+- Use`launch`when you don’t need a result and want to fire off a coroutine.
+- Use`async`when you need to compute a value asynchronously.
 
 :::
 
@@ -226,7 +226,7 @@ val result = deferredResult.await()
 
 @tab:active The Mistake
 
-Relying on `GlobalScope` for launching coroutines, which can lead to coroutines that run longer than needed and are difficult to manage.
+Relying on`GlobalScope`for launching coroutines, which can lead to coroutines that run longer than needed and are difficult to manage.
 
 @tab Why It Happens
 
@@ -234,11 +234,11 @@ Forgetting to consider the coroutine’s lifecycle or for the sake of simplicity
 
 @tab How to Avoid It
 
-Avoid `GlobalScope` unless absolutely necessary. Instead, use structured concurrency with appropriate scopes:
+Avoid`GlobalScope`unless absolutely necessary. Instead, use structured concurrency with appropriate scopes:
 
-- `lifecycleScope` for UI-related components.
-- `viewModelScope` for ViewModels.
-- Custom `CoroutineScope` with proper cancellation.
+- `lifecycleScope`for UI-related components.
+- `viewModelScope`for ViewModels.
+- Custom`CoroutineScope`with proper cancellation.
 
 :::
 
@@ -259,12 +259,12 @@ Assuming that coroutines handle threading for you and neglecting the need for th
 @tab How to Avoid It
 
 - Use thread-safe data structures.
-- Synchronize access with `Mutex` or `Atomic` classes.
+- Synchronize access with`Mutex`or`Atomic`classes.
 - Confine mutable state to specific threads or coroutines.
 
 :::
 
-::: tip Example using `Mutex`
+::: tip Example using`Mutex`
 
 ```kotlin
 val mutex = Mutex()
@@ -321,7 +321,7 @@ job.cancel()
 
 @tab:active The Mistake
 
-Using blocking calls like `Thread.sleep()` or heavy computations inside coroutines without switching to an appropriate dispatcher, which can block the underlying thread.
+Using blocking calls like`Thread.sleep()`or heavy computations inside coroutines without switching to an appropriate dispatcher, which can block the underlying thread.
 
 @tab Why It Happens
 
@@ -330,8 +330,8 @@ Misunderstanding that coroutines are lightweight threads and thinking that block
 @tab How to Avoid It
 
 - Avoid blocking calls inside coroutines.
-- Use suspend functions like `delay()` instead of `Thread.sleep()`.
-- Offload heavy computations to `Dispatchers.Default`.
+- Use suspend functions like`delay()`instead of`Thread.sleep()`.
+- Offload heavy computations to`Dispatchers.Default`.
 
 :::
 
@@ -353,23 +353,23 @@ launch(Dispatchers.IO) {
 
 ---
 
-## 9. Misusing `withContext`
+## 9. Misusing`withContext`
 
 ::: tabs
 
 @tab:active The Mistake
 
-Using `withContext` incorrectly, such as nesting it unnecessarily or misunderstanding its purpose, leading to code that’s hard to read or inefficient.
+Using`withContext`incorrectly, such as nesting it unnecessarily or misunderstanding its purpose, leading to code that’s hard to read or inefficient.
 
 @tab Why It Happens
 
-Confusion about context switching and the scope of `withContext`.
+Confusion about context switching and the scope of`withContext`.
 
 @tab How to Avoid It
 
-- Use `withContext` to switch the context for a specific block of code.
-- Don’t nest `withContext` calls without need.
-- Keep `withContext` blocks as small as possible.
+- Use`withContext`to switch the context for a specific block of code.
+- Don’t nest`withContext`calls without need.
+- Keep`withContext`blocks as small as possible.
 
 :::
 
@@ -400,8 +400,8 @@ Testing asynchronous code is more complex, and developers might not be familiar 
 
 @tab How to Avoid It
 
-- Use `runBlockingTest` or `runTest` from `kotlinx-coroutines-test` for unit testing coroutines.
-- Leverage `TestCoroutineDispatcher` and `TestCoroutineScope` to control coroutine execution in tests.
+- Use`runBlockingTest`or`runTest`from`kotlinx-coroutines-test`for unit testing coroutines.
+- Leverage`TestCoroutineDispatcher`and`TestCoroutineScope`to control coroutine execution in tests.
 - Ensure that you advance time properly when testing code with delays or timeouts.
 
 :::
@@ -436,7 +436,7 @@ By following these best practices, you’ll harness the full potential of Kotlin
 
 Android Consultant | Trainer  
 
-[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com) | [Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/) | [Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov) | [Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 

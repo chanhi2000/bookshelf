@@ -53,7 +53,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 I’ve personally put “advanced `attr()` usage” on my CSS wishlists for years and years. All the sudden we’re seeing support for it start to drop! Props to the Chrome gang and others for shipping and highlighting this wonderfulness. I’m avoiding being entirely comprehensive about this feature in this post, so it’s worth perusing other coverage:
 
 - Una Kravets: [<FontIcon icon="fas fa-globe"/>New capabilities for `attr()`](https://una.im/advanced-attr/#attr-irl-product-card-demo)
-- Bramus Van Damme: [<FontIcon icon="fa-brands fa-chrome"/>CSS `attr()` gets an upgrade](https://developer.chrome.com/blog/advanced-attr)
+- Bramus Van Damme: [<FontIcon icon="fa-brands fa-chrome"/>CSS`attr()` gets an upgrade](https://developer.chrome.com/blog/advanced-attr)
 - [<FontIcon icon="fa-brands fa-firefox"/>MDN `attr()` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) are updated.
 - Amit Merchant: [<FontIcon icon="fas fa-globe"/>The `attr()` function in CSS now supports types](https://amitmerchant.com/attr-function-types-css/)
 

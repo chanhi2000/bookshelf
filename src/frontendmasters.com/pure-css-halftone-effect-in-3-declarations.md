@@ -50,13 +50,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4594"/>
 
-About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker [<FontIcon icon="fas fa-globe"/>wrote about](https://css-irl.info/css-halftone-patterns/) a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
+About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker[<FontIcon icon="fas fa-globe"/>wrote about](https://css-irl.info/css-halftone-patterns/)a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
 
 ---
 
 ## What’s a halftone effect?
 
-If you don’t know what a [<FontIcon icon="fa-brands fa-wikipedia-w"/>halftone](https://en.wikipedia.org/wiki/Halftone) effect is, a very basic pattern looks like this:
+If you don’t know what a[<FontIcon icon="fa-brands fa-wikipedia-w"/>halftone](https://en.wikipedia.org/wiki/Halftone)effect is, a very basic pattern looks like this:
 
 ![The simplest possible halftone pattern](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/1c35b289ba9c002b.png?resize=900%2C368&ssl=1)
 
@@ -66,7 +66,7 @@ This is what we’ll be creating with a single `<div>` (no pseudo-elements) and 
 
 ## The 3 CSS Declarations
 
-The **first declaration** is a `background` and it consists of two layers. One is the **pattern** – the dots in our most basic case. The other is the **map** – this decides where the dots are bigger and where they are smaller. In the most simple case, it’s a linear gradient. So what we have so far in terms of code looks like this:
+The**first declaration**is a`background` and it consists of two layers. One is the**pattern**– the dots in our most basic case. The other is the**map**– this decides where the dots are bigger and where they are smaller. In the most simple case, it’s a linear gradient. So what we have so far in terms of code looks like this:
 
 ```css
 background: 
@@ -74,23 +74,23 @@ background:
   linear-gradient(90deg, #000, #fff);
 ```
 
-We’ve made sure we have an integer number of dots along both axes by using the [<FontIcon icon="fas fa-globe"/>`space`](https://mastodon.social/@anatudor/113470617581654218) value for `background-repeat`.
+We’ve made sure we have an integer number of dots along both axes by using the[<FontIcon icon="fas fa-globe"/>`space`](https://mastodon.social/@anatudor/113470617581654218)value for`background-repeat`.
 
 Taken separately, the two layers look like this:
 
 ![the pattern and the map](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/8c3b7923f2d3f881.png?resize=720%2C440&ssl=1)
 
-Before we move any further, let’s take a closer look at these gradients. Each of the two layers goes from `black`, which can also be written as `rgb(0%, 0%, 0%)` or `hsl(0, 0%, 0%)` to `white`, which can also be written as `rgb(100%, 100%, 100%)` or `hsl(0, 0%, 100%)`.
+Before we move any further, let’s take a closer look at these gradients. Each of the two layers goes from`black`, which can also be written as`rgb(0%, 0%, 0%)`or`hsl(0, 0%, 0%)`to`white`, which can also be written as`rgb(100%, 100%, 100%)`or`hsl(0, 0%, 100%)`.
 
-Dead in the middle we have `grey`, which is `rgb(50%, 50%, 50%)` or `hsl(0, 0%, 50%)`. This is the `50%` lightness grey or, in short, as we’ll be calling it from now on, the `50%` grey.
+Dead in the middle we have`grey`, which is`rgb(50%, 50%, 50%)`or`hsl(0, 0%, 50%)`. This is the`50%`lightness grey or, in short, as we’ll be calling it from now on, the`50%`grey.
 
-Note that in the case of *any* grey, wherever it may be situated in between black and white, the saturation (the ‘S’ in HSL) is always `0%`, while the hue (the ‘H’ in HSL) is irrelevant, so we just use `0`. The only value that changes is the lightness (the ‘L’ in HSL), which goes from `0%` for `black` to `100%` for `white`.
+Note that in the case of*any*grey, wherever it may be situated in between black and white, the saturation (the ‘S’ in HSL) is always`0%`, while the hue (the ‘H’ in HSL) is irrelevant, so we just use`0`. The only value that changes is the lightness (the ‘L’ in HSL), which goes from`0%`for`black`to`100%`for`white`.
 
-Basically, going from `0%` to `100%` along the gradient line means going from `0%` to `100%` along the lightness axis of the [HSL bicone (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd).
+Basically, going from`0%`to`100%`along the gradient line means going from`0%`to`100%`along the lightness axis of the[HSL bicone (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd).
 
 ![HSL bicone slice showing the lightness axis<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/ZELeqVN))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/76247481aa23bfc8.png?resize=720%2C620&ssl=1)
 
-So in general, any `p%` grey can be written as `rgb(p%, p%, p%)` or `hsl(0, 0%, p%)`.
+So in general, any`p%`grey can be written as`rgb(p%, p%, p%)`or`hsl(0, 0%, p%)`.
 
 This can be seen in the interactive demo below where you can drag the bar along the entire lightness range.
 
@@ -101,9 +101,9 @@ This can be seen in the interactive demo below where you can drag the bar along 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Going back to our `background` with the pattern dots layer on top of the `linear-gradient()` map layer, we cannot see the map layer because it’s fully covered by the pattern layer. So the next step is to blend these two `background` layers using the `multiply` blend mode.
+Going back to our`background`with the pattern dots layer on top of the`linear-gradient()`map layer, we cannot see the map layer because it’s fully covered by the pattern layer. So the next step is to blend these two`background`layers using the`multiply`blend mode.
 
-This means the **second declaration** is:
+This means the**second declaration**is:
 
 ```css
 background-blend-mode: multiply
@@ -123,31 +123,31 @@ $$
 \end{align*}
 $$
 
-Note that what we’re multiplying is the decimal representation of percentage RGB values – that is, numbers in the `[0, 1]` interval. And when multiplying values in this interval, the result is always smaller or equal to the smallest of the two values multiplied.
+Note that what we’re multiplying is the decimal representation of percentage RGB values – that is, numbers in the`[0, 1]`interval. And when multiplying values in this interval, the result is always smaller or equal to the smallest of the two values multiplied.
 
-In our case, both gradients go from black to white, all we have in between are greys, which have all three RGB channels equal. So if at some point, both pixels in the pair of corresponding ones from the two layers have `rgb(50%, 50%, 50%)`, then the result of the `multiply` blend mode is `.25 = .5·.5` for each channel.
+In our case, both gradients go from black to white, all we have in between are greys, which have all three RGB channels equal. So if at some point, both pixels in the pair of corresponding ones from the two layers have`rgb(50%, 50%, 50%)`, then the result of the`multiply`blend mode is`.25 = .5·.5`for each channel.
 
-We can see that the result of the `multiply` blend mode is always *at least as dark* as the darker of the two pixels whose RGB values we multiply. This is because the two RGB values are in the `[0, 1]` interval and, as mentioned before, multiplying such values always gives us a result that’s at most as big as the smallest of the two numbers multiplied. The smaller the channel values are, the darker the grey they represent is.
+We can see that the result of the`multiply`blend mode is always*at least as dark*as the darker of the two pixels whose RGB values we multiply. This is because the two RGB values are in the`[0, 1]`interval and, as mentioned before, multiplying such values always gives us a result that’s at most as big as the smallest of the two numbers multiplied. The smaller the channel values are, the darker the grey they represent is.
 
-After blending our pattern and map layers, we can see how overall, the pattern dots are now darker on the left where the map is closer to `black.`
+After blending our pattern and map layers, we can see how overall, the pattern dots are now darker on the left where the map is closer to`black.`
 
 ![our two gradient layers, blended](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/fec92f6bed95ff66.png?resize=720%2C240&ssl=1)
 
-Below, you can see two scaled up dots from different points along the gradient line of the map. The second dot is further to the right (lighter) than the first one. The dark red circles mark the `50%` grey limit for each.
+Below, you can see two scaled up dots from different points along the gradient line of the map. The second dot is further to the right (lighter) than the first one. The dark red circles mark the`50%`grey limit for each.
 
 ![darker dot vs. lighter dot](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/acf9b33d53e9759e.png?resize=720%2C358&ssl=1)
 
-For the darker dot, the `50%` grey limit is a bigger circle than in the case of the lighter dot. Inside each dark red circle, we have greys darker than a `50%` one. Outside, we have greys lighter than a `50%` one. Keep this in mind for later.
+For the darker dot, the`50%`grey limit is a bigger circle than in the case of the lighter dot. Inside each dark red circle, we have greys darker than a`50%`one. Outside, we have greys lighter than a`50%`one. Keep this in mind for later.
 
-The third and **final declaration** is a `filter` using a large `contrast()` value.
+The third and**final declaration**is a`filter`using a large`contrast()`value.
 
-For those not familiar with how `contrast()` works, it does one of two things, depending on whether its argument is subunitary or not.
+For those not familiar with how`contrast()`works, it does one of two things, depending on whether its argument is subunitary or not.
 
-If its argument is subunitary, then it pushes every channel value towards `.5` , the middle of the `[0, 1]` interval. A value of `1` means no change, while a value of `0` means the channel has been pushed all the way to `.5`.
+If its argument is subunitary, then it pushes every channel value towards`.5`, the middle of the`[0, 1]`interval. A value of`1`means no change, while a value of`0`means the channel has been pushed all the way to`.5`.
 
-This means that `contrast(0)` always gives us a `50%` grey, regardless of the `filter` input.
+This means that`contrast(0)`always gives us a`50%`grey, regardless of the`filter`input.
 
-You can see this in the interactive demo below – regardless of whether we apply our `filter` on a plain solid `background` box, opaque or semitransparent, a gradient or an image one, dragging the contrast down to `0` always turns it into a `50%` grey with the same alpha as the input.
+You can see this in the interactive demo below – regardless of whether we apply our`filter`on a plain solid`background`box, opaque or semitransparent, a gradient or an image one, dragging the contrast down to`0`always turns it into a`50%`grey with the same alpha as the input.
 
 <CodePen
   user="thebabydino"
@@ -156,9 +156,9 @@ You can see this in the interactive demo below – regardless of whether we appl
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Note that `contrast(100%)` is the same as `contrast(1)`, `contrast(50%)` is the same as `contrast(.5)` and so on.
+Note that`contrast(100%)`is the same as`contrast(1)`,`contrast(50%)`is the same as`contrast(.5)`and so on.
 
-If the argument of the `contrast()` function is greater than `1` however, then each channel value gets pushed towards either `0` or `1`, whichever is closer. A contrast large enough can push the channel values all the way to `0` or `1`.
+If the argument of the`contrast()`function is greater than`1`however, then each channel value gets pushed towards either`0`or`1`, whichever is closer. A contrast large enough can push the channel values all the way to`0`or`1`.
 
 <CodePen
   user="thebabydino"
@@ -177,13 +177,13 @@ Coming back to our halftone pattern, we use:
 filter: contrast(16)
 ```
 
-Here, all greys darker than a `50%` one (`grey` or `rgb(50%, 50%, 50%)` or `hsl(0, 0%, 50%)`) get pushed to `black` and all the others to `white`.
+Here, all greys darker than a`50%`one (`grey`or`rgb(50%, 50%, 50%)`or`hsl(0, 0%, 50%)`) get pushed to`black`and all the others to`white`.
 
-Now remember how the `50%` grey limit was a bigger circle if the dot was darker? That’s our limit for the contrast.
+Now remember how the`50%`grey limit was a bigger circle if the dot was darker? That’s our limit for the contrast.
 
-Inside that circle, we have greys darker than a `50%` one, so they get pushed to `black` by large contrast vales. Outside it, the greys are lighter than a `50%` one, so they get pushed to `white` by large contrast values.
+Inside that circle, we have greys darker than a`50%`one, so they get pushed to`black`by large contrast vales. Outside it, the greys are lighter than a`50%`one, so they get pushed to`white`by large contrast values.
 
-Since the darker the dot, the bigger the `50%` limit circle, this means the halftone dots in the darker area of the map are bigger.
+Since the darker the dot, the bigger the`50%`limit circle, this means the halftone dots in the darker area of the map are bigger.
 
 So here’s the result we get after the third and final declaration:
 
@@ -191,11 +191,11 @@ So here’s the result we get after the third and final declaration:
 
 We’re starting to get somewhere, but what we have so far is not ideal. And it makes sense we aren’t there yet.
 
-Since the left half of the map is darker than a `50%` grey (the RGB channel values are below `50%` or `.5` in decimal representation of the percentage), blending any other layer with it using the `multiply` blend mode gives us a result that’s at least as dark.
+Since the left half of the map is darker than a`50%`grey (the RGB channel values are below`50%`or`.5`in decimal representation of the percentage), blending any other layer with it using the`multiply`blend mode gives us a result that’s at least as dark.
 
-This means the result of blending across the entire left half is a grey darker than a `50%` one, so that large value contrast pushes everything in the left half to `black`.
+This means the result of blending across the entire left half is a grey darker than a`50%`one, so that large value contrast pushes everything in the left half to`black`.
 
-The fix for this is pretty straightforward: we don’t make our gradients go all the way from black to white, but rather from mid greys to white. Furthermore, for best results, the map at its darkest should be a little bit brighter than a `50%` grey, while the pattern can be a bit darker.
+The fix for this is pretty straightforward: we don’t make our gradients go all the way from black to white, but rather from mid greys to white. Furthermore, for best results, the map at its darkest should be a little bit brighter than a`50%`grey, while the pattern can be a bit darker.
 
 ```css
 background: 
@@ -212,13 +212,13 @@ Much better!
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Now one thing to note here is that the contrast value needs to be enough to compensate for the blur radius of our dots. So if we increase the pattern size (the `background-size` for the pattern layer), then we also need to increase the contrast value accordingly.
+Now one thing to note here is that the contrast value needs to be enough to compensate for the blur radius of our dots. So if we increase the pattern size (the`background-size`for the pattern layer), then we also need to increase the contrast value accordingly.
 
-Let’s say we increase the `background-size` from `1em` to `9em`.
+Let’s say we increase the`background-size`from`1em`to `9em`.
 
 ![bigger dots, blurry edges](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/68e49afffb168fbf.png?resize=900%2C368&ssl=1)
 
-The dot edges are now blurry, so we also increase the contrast value from `16` to let’s say `80`.
+The dot edges are now blurry, so we also increase the contrast value from`16`to let’s say`80`.
 
 ![increased contrast, jagged edges](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/ae3db55090272760.png?resize=900%2C368&ssl=1)
 
@@ -232,7 +232,7 @@ filter: contrast(80) blur(2px) contrast(5)
 
 ![tiny blur + contrast smoothing fix](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/13512b65def103c7.png?resize=900%2C368&ssl=1)
 
-An [<FontIcon icon="fas fa-globe"/>even better fix](https://mastodon.social/@anatudor/112523336154596358) would involve using a custom SVG `filter`, but SVG filters are outside the scope of this article, so we’re not going there.
+An[<FontIcon icon="fas fa-globe"/>even better fix](https://mastodon.social/@anatudor/112523336154596358)would involve using a custom SVG`filter`, but SVG filters are outside the scope of this article, so we’re not going there.
 
 ---
 
@@ -259,13 +259,13 @@ If you search for halftone patterns online, you’ll see that most of them don�
 --pattern: var(--dot) 0 0/ 2em 2em, var(--dot) 1em 1em/ 2em 2em
 ```
 
-In practice, I’d probably use a variable instead of `2em` and compute the offsets for the second layer of dots to be half of that.
+In practice, I’d probably use a variable instead of`2em`and compute the offsets for the second layer of dots to be half of that.
 
 ![real halftone dots pattern](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/ede0f7f9f78f8a37.png?resize=800%2C542&ssl=1)
 
-Also, since we’ve increased the size of the dots, we’ve also bumped up the contrast value from `16` to `24`.
+Also, since we’ve increased the size of the dots, we’ve also bumped up the contrast value from`16`to`24`.
 
-Another option would be to use a `repeating-radial-gradient()`.
+Another option would be to use a`repeating-radial-gradient()`.
 
 ```css
 --pattern: repeating-radial-gradient(circle, #777, #fff, #777 1em)
@@ -273,7 +273,7 @@ Another option would be to use a `repeating-radial-gradient()`.
 
 ![halftone ripples](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/77e86cea5d4e399c.png?resize=800%2C542&ssl=1)
 
-Something like this can even be animated or made interactive. We can place these halftone ripples `at var(--x) var(--y)` and change these custom properties on `mousemove`.
+Something like this can even be animated or made interactive. We can place these halftone ripples`at var(--x) var(--y)`and change these custom properties on`mousemove`.
 
 <CodePen
   user="thebabydino"
@@ -282,7 +282,7 @@ Something like this can even be animated or made interactive. We can place these
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We don’t have to limit ourselves to radial gradients. Linear ones work just as well. We can use a `repeating-linear-gradient()`, for example:
+We don’t have to limit ourselves to radial gradients. Linear ones work just as well. We can use a`repeating-linear-gradient()`, for example:
 
 ```css
 --pattern: repeating-linear-gradient(#777, #fff, #777 1em)
@@ -299,7 +299,7 @@ We can also animate the gradient angle (like in the demo below on hover) or make
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can also restrict the `background-size` of a `linear-gradient()`:
+We can also restrict the`background-size`of a`linear-gradient()`:
 
 ```css
 --pattern: linear-gradient(45deg, #fff, #777) 0 / 1em 1em
@@ -332,7 +332,7 @@ We can also play with conic gradients here. A simple repeating one produces rays
 --pattern: repeating-conic-gradient(#777, #fff, #777 2.5%)
 ```
 
-Without any `filter` adjustment however, the edges of these rays look bad, and so does the middle.
+Without any`filter`adjustment however, the edges of these rays look bad, and so does the middle.
 
 ![rays, but with ugly edges](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/9a13d610e3cf9b1e.png?resize=800%2C542&ssl=1)
 
@@ -342,7 +342,7 @@ Using the tiny blur plus a contrast value that’s 2-3 times the blur tactic fix
 
 … but the pattern’s edges are now faded! We have two possible fixes here.
 
-The first would be to remove the `filter` from the element itself and apply it on another element stacked on top of it as a `backdrop-filter`.
+The first would be to remove the`filter`from the element itself and apply it on another element stacked on top of it as a`backdrop-filter`.
 
 <CodePen
   user="thebabydino"
@@ -351,7 +351,7 @@ The first would be to remove the `filter` from the element itself and apply it
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The second would be to make the element extend outwards a bit using a negative `margin` and then clip its edges by the same amount using `inset()`.
+The second would be to make the element extend outwards a bit using a negative`margin`and then clip its edges by the same amount using`inset()`.
 
 <CodePen
   user="thebabydino"
@@ -360,7 +360,7 @@ The second would be to make the element extend outwards a bit using a negative 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Things get a lot more fun if we limit the `background-size` of such a `conic-gradient()` pattern and then play with the start angle `--a` and the end percentage `--p`.
+Things get a lot more fun if we limit the`background-size`of such a`conic-gradient()`pattern and then play with the start angle`--a`and the end percentage`--p`.
 
 ```css
 --pattern: 
@@ -379,7 +379,7 @@ Things get a lot more fun if we limit the `background-size` of such a `conic-
 
 In this part, we’re keeping the pattern constant and trying out different maps.
 
-Our `linear-gradient()` map doesn’t necessarily need to go along the x axis – it can of course have a variable angle:
+Our`linear-gradient()`map doesn’t necessarily need to go along thexaxis – it can of course have a variable angle:
 
 ```css
 --map: linear-gradient(var(--a), #888, #fff)
@@ -423,7 +423,7 @@ We can also make our gradient a repeating one:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Or we can switch to a `radial-gradient()`:
+Or we can switch to a`radial-gradient()`:
 
 ```css
 --map: 
@@ -484,7 +484,7 @@ We can use a repeating one and control the number of repetitions as well.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-One thing that bugs me about some of the map variation demos, particularly about this last one, is the dot distortion. We can make it look less bad by sizing the element with the halftone `background` such that both its dimensions are multiples of the dot size and change the position in increments of the same dot size.
+One thing that bugs me about some of the map variation demos, particularly about this last one, is the dot distortion. We can make it look less bad by sizing the element with the halftone`background`such that both its dimensions are multiples of the dot size and change the position in increments of the same dot size.
 
 ```css
 --d: 1em;
@@ -499,19 +499,19 @@ width: round(down, 100vw, var(--d));
 height: round(down, 100vh, var(--d));
 ```
 
-But it’s [not enough (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dyxBXgm). In order for our dots to always be perfectly round, we need an SVG `filter` [solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/rNXjzLq). However, that’s outside the scope of this article, so we’re not discussing it here.
+But it’s[not enough (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dyxBXgm). In order for our dots to always be perfectly round, we need an SVG`filter`[solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/rNXjzLq). However, that’s outside the scope of this article, so we’re not discussing it here.
 
 Even more interestingly, our map can be an image too. Taking any random image as it is won’t work well.
 
 ![using a random image as it is for the map doesn’t work well](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/6d4acb5fd5471079.png?resize=800%2C542&ssl=1)
 
-We need to bring its saturation down to zero and, for this particular technique, we need to make sure the lightness of its pixels is pretty much in the `[50%, 100%]` interval.
+We need to bring its saturation down to zero and, for this particular technique, we need to make sure the lightness of its pixels is pretty much in the`[50%, 100%]`interval.
 
-The [`filter()` (<FontIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717) function [could help (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/rNgBqNy) here, but, sadly, for [<FontIcon icon="fas fa-globe"/>almost a decade now](https://iamvdo.me/en/blog/advanced-css-filters#filter), Safari has remained the only browser implementing it. We could make the pattern and the map layer each be a pseudo of an element, blend them together and apply the contrast `filter` on the pseudo-elements’ parent. This way, the map pseudo could have a `filter` applied on it too. However, here we’re looking for solutions that don’t involve extra elements or pseudo-elements.
+The[`filter()` (<FontIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717)function[could help (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/rNgBqNy)here, but, sadly, for[<FontIcon icon="fas fa-globe"/>almost a decade now](https://iamvdo.me/en/blog/advanced-css-filters#filter), Safari has remained the only browser implementing it. We could make the pattern and the map layer each be a pseudo of an element, blend them together and apply the contrast`filter`on the pseudo-elements’ parent. This way, the map pseudo could have a`filter`applied on it too. However, here we’re looking for solutions that don’t involve extra elements or pseudo-elements.
 
-Something we can do is make the map be the result of multiple blended background layers. Making the `background-color` *any* grey and blending it with the map image using the `luminosity` blend mode gives us a result that has the luminosity of the map image on top, the saturation of the `background-color` below and, since this is a grey (its saturation is `0%`), the hue becomes irrelevant.
+Something we can do is make the map be the result of multiple blended background layers. Making the`background-color`*any*grey and blending it with the map image using the`luminosity`blend mode gives us a result that has the luminosity of the map image on top, the saturation of the`background-color`below and, since this is a grey (its saturation is`0%`), the hue becomes irrelevant.
 
-Note that luminosity is [not the same as lightness (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/RwoOMOZ) (which is the ‘L’ in HSL), though in a lot of cases, they’re close enough.
+Note that luminosity is[not the same as lightness (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/RwoOMOZ)(which is the ‘L’ in HSL), though in a lot of cases, they’re close enough.
 
 ```css
 --pattern: 
@@ -528,11 +528,11 @@ We seem to be going in the right direction.
 
 ![using a fully desaturated map obtained via blending](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/43f69454ed0b1b46.png?resize=800%2C542&ssl=1)
 
-But it’s still not what we want, as this desaturated map is too dark, just like the first `black` to `white` map gradient we tried.
+But it’s still not what we want, as this desaturated map is too dark, just like the first`black`to`white`map gradient we tried.
 
-We can brighten our map using the `screen` blend mode. Think of this blend mode as being the same as `multiply`, only with the ends of the lightness interval reversed. `multiply` always produces a result that’s at least as dark as the darkest of its two inputs, `screen` always produces a result that’s at least as bright as the brightest of its two inputs.
+We can brighten our map using the`screen`blend mode. Think of this blend mode as being the same as`multiply`, only with the ends of the lightness interval reversed.`multiply`always produces a result that’s at least as dark as the darkest of its two inputs,`screen`always produces a result that’s at least as bright as the brightest of its two inputs.
 
-In our case, if we use `screen` to blend the desaturated image we got at the previous step with a midway grey like `#888`, then the result is always at least as bright as `#888`. And it is `#888` only where we blend it with pure black pixels. Wherever we blend it with pixels brighter than pure black, the result is brighter than `#888`. So basically, we get a map that’s `#888` at its darkest, just like our base map gradient.
+In our case, if we use`screen`to blend the desaturated image we got at the previous step with a midway grey like`#888`, then the result is always at least as bright as`#888`. And it is`#888`only where we blend it with pure black pixels. Wherever we blend it with pixels brighter than pure black, the result is brighter than`#888`. So basically, we get a map that’s`#888`at its darkest, just like our base map gradient.
 
 ```css
 --pattern: 
@@ -553,13 +553,13 @@ Much better!
 
 ![using a fully desaturared and brightened map via blending<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/MWNMjGO))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/e26625a9ee83b58f.png?resize=800%2C542&ssl=1)
 
-Again, some of the dots aren’t fully round, but in order to get fully round dots, we’d need an SVG `filter` and that’s a way too big of a topic to discuss here.
+Again, some of the dots aren’t fully round, but in order to get fully round dots, we’d need an SVG`filter`and that’s a way too big of a topic to discuss here.
 
 ### Palette variations
 
-The simplest possible variation would be having white halftone dots on a black background. To do this, we can simply chain `invert(1)` to our `filter`.
+The simplest possible variation would be having white halftone dots on a black background. To do this, we can simply chain`invert(1)`to our`filter`.
 
-Or… we can do something else! We can use the `screen` blend mode we’ve used before to brighten the image map. As mentioned, this works like `multiply`, but with the ends of the lightness interval reversed. So let’s reverse them for both the pattern and the map.
+Or… we can do something else! We can use the`screen`blend mode we’ve used before to brighten the image map. As mentioned, this works like`multiply`, but with the ends of the lightness interval reversed. So let’s reverse them for both the pattern and the map.
 
 ```css
 background: 
@@ -575,7 +575,7 @@ filter: contrast(16)
 
 But we’re not limited to just black and white.
 
-Remember the part about how contrast works? Large contrast values push all pixels of the `filter` input to one of 8 possible RGB values. So far, our `filter` input has been just greys, so they got pushed to either black or white. But we don’t necessarily need to have just greys there. We could tweak those values to either zero or max out a channel or two everywhere.
+Remember the part about how contrast works? Large contrast values push all pixels of the`filter`input to one of 8 possible RGB values. So far, our`filter`input has been just greys, so they got pushed to either black or white. But we don’t necessarily need to have just greys there. We could tweak those values to either zero or max out a channel or two everywhere.
 
 For example, if we max out one of the channels, then our black dots get that channel added to them. Maxing out the red channel gives us red dots, maxing out the blue channel gives us blue dots, maxing out both the red and blue channels gives us magenta dots.
 
@@ -590,13 +590,13 @@ You can play with various scenarios in the interactive demo below:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can of course also have more interesting palettes and we can even have halftone dots on top of image backgrounds using the pure CSS [blending technique (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qBGWXNR) I detailed in [a talk on the topic (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/project/full/ZjwjBe) I used to give in 2020 or by using [SVG (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/abMvzoo) [filters (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGXeGoa). Both of these approaches however require more than just one element with no pseudos and three CSS properties, so we won’t be going into details about them here.
+We can of course also have more interesting palettes and we can even have halftone dots on top of image backgrounds using the pure CSS[blending technique (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qBGWXNR)I detailed in[a talk on the topic (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/project/full/ZjwjBe)I used to give in 2020 or by using[SVG (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/abMvzoo)[filters (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGXeGoa). Both of these approaches however require more than just one element with no pseudos and three CSS properties, so we won’t be going into details about them here.
 
 ### Combining these variations (and more!)
 
 Varying more than one of the above can help with interesting results.
 
-By using top to bottom linear gradients for both the pattern and the map, with the pattern one having its size limited to `10%` of the element, we can get the effect below without needing to use a `mask` gradient with many irregulrly placed stops. Blending with some extra layers helps us with a nicer palette for the final result.
+By using top to bottom linear gradients for both the pattern and the map, with the pattern one having its size limited to`10%`of the element, we can get the effect below without needing to use a`mask`gradient with many irregulrly placed stops. Blending with some extra layers helps us with a nicer palette for the final result.
 
 <CodePen
   user="thebabydino"
@@ -605,7 +605,7 @@ By using top to bottom linear gradients for both the pattern and the map, with t
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can also animate a map’s `background-position` to get a blinds effect like below:
+We can also animate a map’s`background-position`to get a blinds effect like below:
 
 <CodePen
   user="thebabydino"
@@ -614,13 +614,13 @@ We can also animate a map’s `background-position` to get a blinds effect lik
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to [<FontIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
+In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<FontIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
 
 ![card with halftone effect<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GRNKqRv))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/6f1546f3d6c887ad.png?resize=800%2C540&ssl=1)
 
 Note that the code for all these demos so far is heavily commented, explaining the purpose of pretty much every CSS declaration in there.
 
-The example below uses a `repeating-radial-gradient()` pattern and a `conic-gradient()` map, which funny enough, also creates a tiny heart in the middle.
+The example below uses a`repeating-radial-gradient()` pattern and a`conic-gradient()` map, which funny enough, also creates a tiny heart in the middle.
 
 <CodePen
   user="thebabydino"
@@ -638,7 +638,7 @@ For a bit of a different effect, here’s a rhombic halftone one created by usin
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The demo below is a combination of two halftone patterns stacked one on top of the other, the top one being masked using a `conic-gradient()` [<FontIcon icon="fas fa-globe"/>checkerboard](https://css-tricks.com/background-patterns-simplified-by-conic-gradients/#aa-checkerboard) `mask`.
+The demo below is a combination of two halftone patterns stacked one on top of the other, the top one being masked using a`conic-gradient()`[<FontIcon icon="fas fa-globe"/>checkerboard](https://css-tricks.com/background-patterns-simplified-by-conic-gradients/#aa-checkerboard)`mask`.
 
 <CodePen
   user="thebabydino"
@@ -670,7 +670,7 @@ We aren’t limited to 2D. We can also use such paterns in 3D and even animate t
 <VidStack src="https://videos.files.wordpress.com/eeDElcKd/6256426a4cb6efcf-1_mp4_hd.mp4" />
 <!-- excavated cube with animated halftone<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>)](https://codepen.io/thebabydino/pen/RwQjpmQ)) -->
 
-Finally, even more demos showcasing halftone patterns can be found in [<FontIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/JYoLNJ):
+Finally, even more demos showcasing halftone patterns can be found in[<FontIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/JYoLNJ):
 
 ![the CodePen collection](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/14cc30f5f74044f0.png?resize=1024%2C781&ssl=1)
 

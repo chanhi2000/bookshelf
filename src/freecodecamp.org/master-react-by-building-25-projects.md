@@ -31,7 +31,7 @@ prev: /programming/js-react/articles/README.md
 date: 2024-02-07
 isOriginal: false
 author: Beau Carnes
-cover: https://www.freecodecamp.org/news/content/images/2024/02/react25a.png
+cover: https://freecodecamp.org/news/content/images/2024/02/react25a.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -55,7 +55,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/02/react25a.png
   desc="React is one of the most popular frontend JavaScript frameworks.  We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to build twenty-five different projects using React. Each project is designed to challenge and e..."
   url="https://freecodecamp.org/news/master-react-by-building-25-projects"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/02/react25a.png"/>
+  preview="https://freecodecamp.org/news/content/images/2024/02/react25a.png"/>
 
 React is one of the most popular frontend JavaScript frameworks.
 

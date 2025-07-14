@@ -89,7 +89,7 @@ Many people all too often use the word "refactor" when they mean a targeted rewr
 
 As Martin Fowler famously said,
 
-> *“Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations... However, the cumulative effect... is quite significant.”*​
+> *“Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations... However, the cumulative effect... is quite significant.”*
 
 In practice, this means continuously polishing code to reduce complexity and technical debt.
 
@@ -162,13 +162,13 @@ jobs:
 
 ### Identify High-Risk Areas
 
-The first step is to figure out what to refactor. High-risk areas are parts of the code likely to cause bugs or slow development. Common signs include long methods, large classes, duplicate code, and complex conditional logic​.
+The first step is to figure out what to refactor. High-risk areas are parts of the code likely to cause bugs or slow development. Common signs include long methods, large classes, duplicate code, and complex conditional logic.
 
 Such code “smells” often hint at deeper design problems. Tools like static analysis can automatically flag these issues.
 
 ![SonarQube Dashboard](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfS4aFy2hyRSq3UmgB2gQ8NN_-yUksNXcSavTtpnL8KIiWpGGidCSCstLKANZGOjJLqEF69wp-xjMGH6jrjurSaFtUIMS09vUaDgJ6vGtyabP-4QC5ISmT_cMvaaw6c2KlyVa1CKQ?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
-For example, SonarQube will mark code smells (like high complexity or long methods) that increase technical debt​. Using SonarQube or similar tools, you can generate reports on code complexity (for example, cyclomatic complexity metrics​) and find hotspots in the codebase that need more attention.
+For example, SonarQube will mark code smells (like high complexity or long methods) that increase technical debt. Using SonarQube or similar tools, you can generate reports on code complexity (for example, cyclomatic complexity metrics) and find hotspots in the codebase that need more attention.
 
 ### Set Clear Refactoring Goals
 
@@ -214,7 +214,7 @@ Look at version control history to see which files are often changed, especially
 
 #### Hotspot analysis
 
-A robust approach combines complexity and change frequency to find “hotspots.” For example, a tool or technique plotting modules by their complexity and how often they change can highlight the problematic areas. CodeScene (a code analysis tool) popularized this: *hotspots* are parts of the code that are highly complex and frequently modified, indicating areas where “paying down debt has a real impact”​.
+A robust approach combines complexity and change frequency to find “hotspots.” For example, a tool or technique plotting modules by their complexity and how often they change can highlight the problematic areas. CodeScene (a code analysis tool) popularized this: *hotspots* are parts of the code that are highly complex and frequently modified, indicating areas where “paying down debt has a real impact”.
 
 If a module is a mess and developers are in it every week, improving that module will likely yield outsized benefits (fewer bugs, faster adds).
 
@@ -318,7 +318,7 @@ This means making small, manageable changes over time rather than attempting a m
 
 ![Incremental refactoring](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaSmnIWRE9FKNmmABBzc6Tk6KFwsj29FQ2YwyQ_kWqryheb0yUdpec51lQHg5XahoxKgCm4vv9twD849H3Yo5dn0678tuGih9Z-HfBBCfhBngs4YhpH6x2pjzqnAeDVYGohXHvDQ?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
-Incremental delivery lets you confirm changes in production and makes diagnosing issues easier since you’re only changing one small thing at a time​. It also means the system keeps running during the refactor, so there’s less pressure to rush to “get the system back to working condition”​. If priorities shift, you can pause after some increments and still have a working product.
+Incremental delivery lets you confirm changes in production and makes diagnosing issues easier since you’re only changing one small thing at a time. It also means the system keeps running during the refactor, so there’s less pressure to rush to “get the system back to working condition”. If priorities shift, you can pause after some increments and still have a working product.
 
 #### Big bang refactoring (Rewrite)
 
@@ -365,7 +365,7 @@ processor.charge(100)
 - **Domain-based modularization:** If your system spans multiple business domains or functional areas, consider splitting along those lines. For example, an e-commerce monolith might be separated into modules like Accounts, Orders, Products, Shipping, and so on.  
     Each could become a subsystem or a package. The goal is to minimize the information these modules need to know about each other’s internals (high cohesion within modules and clear APIs between them).
 - **Microservices or services extraction:** In recent years, the trend has been to break monoliths into microservices, independent services that communicate over APIs. This form of architectural refactoring can significantly improve independent deployability and scalability. But it’s a significant undertaking with complexities (distributed systems, network calls, and so on). If you decide to go this route, do it gradually.  
-    A proven method is the **strangler fig pattern** mentioned earlier: you pick one piece of functionality and rewrite or extract it as a separate service, redirect traffic or calls to the new service. At the same time, the rest of the monolith remains intact and iteratively does this for other pieces​.
+    A proven method is the **strangler fig pattern** mentioned earlier: you pick one piece of functionality and rewrite or extract it as a separate service, redirect traffic or calls to the new service. At the same time, the rest of the monolith remains intact and iteratively does this for other pieces.
 - **Modular monolith:** Not every system needs to go full microservices. There’s an approach called a modular monolith, essentially structuring your single application into well-defined modules that communicate via explicit interfaces (almost like internal microservices but without the overhead of separate deployments).
 
 This can give you many microservices' advantages (clear boundaries, separate development responsibility) while avoiding operational complexity.
@@ -423,7 +423,7 @@ Make sure there’s a policy (and communication) around how long deprecated feat
 
 If you’re exposing an HTTP API, consider introducing a new versioned endpoint (for example, **/api/v2/send_email**) and maintain the older **/api/v1/send_email temporarily**. Internally, v1 might call v2 with default parameters, ensuring behavior stays consistent for existing clients.
 
-In summary, maintain backward compatibility whenever possible, and implement a clear deprecation policy for anything you do change​.
+In summary, maintain backward compatibility whenever possible, and implement a clear deprecation policy for anything you do change.
 
 ![Clear Deprecation Policy](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe3xM4som_GQrtHXI3NNR0G-4KJ-1D2YO-JbNdT75IxZ5_upcBRDnOVp7krEESiqwwtXg18pDypLq3VxDr44Hof76cs8HajOZy2w0FZ50kWmPk6Y7EwNByNLNrqAokmhmmL5sP3AA?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
@@ -497,11 +497,11 @@ A robust testing strategy will give you the confidence to make sweeping changes 
 
 Before you even begin refactoring a particular component, make sure you have tests that cover its current behavior. You're lucky if the codebase already has a good test suite, but many legacy systems have inadequate tests.
 
-One of the first tasks in those cases is often writing **characterization tests**. A characterization test is a test that documents what the system *currently does*, not what we think it should do​.
+One of the first tasks in those cases is often writing **characterization tests**. A characterization test is a test that documents what the system *currently does*, not what we think it should do.
 
-As Feathers says, “a characterization test is a test that characterizes the actual behavior of a piece of code.” This allows you to take a snapshot of what it does and ensure that it doesn’t change​.
+As Feathers says, “a characterization test is a test that characterizes the actual behavior of a piece of code.” This allows you to take a snapshot of what it does and ensure that it doesn’t change.
 
-This gives you a safety net so you can refactor with confidence that you’re not introducing regressions​. Use automated test suites to help things run smoothly (unit, integration, end-to-end).
+This gives you a safety net so you can refactor with confidence that you’re not introducing regressions. Use automated test suites to help things run smoothly (unit, integration, end-to-end).
 
 #### Continuous integration (CI)
 
@@ -509,7 +509,7 @@ It is highly recommended that testing be integrated into a CI pipeline that runs
 
 #### Canary releases and feature flags
 
-Beyond pre-release testing, consider strategies for safely deploying refactored code. A canary release involves rolling out the change to a small subset of users or servers first, observing it, and then gradually expanding​.
+Beyond pre-release testing, consider strategies for safely deploying refactored code. A canary release involves rolling out the change to a small subset of users or servers first, observing it, and then gradually expanding.
 
 ![Canary releases and feature flags](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAif0ftiqEhiRPDygrmhtzSsfrctq6ZPfJnMg04GwKmxKk-NFiP9GjEGE9rfz7U_WKhRcBYSBYlirjKwzr-PvfZz2FJpEWS6U0UqNh-WayiVM5BGIyz3sabSX-zdKKA0j_ojvhIA?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 

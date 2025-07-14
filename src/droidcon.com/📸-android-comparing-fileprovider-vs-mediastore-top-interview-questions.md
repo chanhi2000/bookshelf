@@ -54,11 +54,11 @@ cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Sx4veSpq_Z1oYBsP
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Sx4veSpq_Z1oYBsP5Q7nwQ.jpeg)
 
-In the world of modern android development, **Jetpack Compose** has revolutionized UI building, making it more intuitive and efficient. But what if you need a simple function to download, save, and share images within your app? Whether you are building a social media app, a gallery viewer, or just n2222eed to hand images dynamically, **this guide will walk you through the** comparison between `FileProvider` and `MediaStore` as well as suggest some of interview questions. Now let’s go 🔥
+In the world of modern android development,**Jetpack Compose** has revolutionized UI building, making it more intuitive and efficient. But what if you need a simple function to download, save, and share images within your app? Whether you are building a social media app, a gallery viewer, or just n2222eed to hand images dynamically,**this guide will walk you through the** comparison between`FileProvider`and`MediaStore`as well as suggest some of interview questions. Now let’s go 🔥
 
-- 📂 What is Android `FileProvider`?
-- 🔄 `FileProvider` in a Multi-Module Android Project?
-- 📸 What is Android `Media Store`?
+- 📂 What is Android`FileProvider`?
+- 🔄`FileProvider`in a Multi-Module Android Project?
+- 📸 What is Android`Media Store`?
 - 🚨Common Error & Solution
 - 📌 Questions & Answers
 
@@ -66,22 +66,22 @@ In the world of modern android development, **Jetpack Compose** has revolutioni
 
 ## 📱 Access app-specific files
 
-In many cases, your app creates files that other apps don’t need to access, or shouldn’t access. The system provides the following locations for storing such *app-specific* files:
+In many cases, your app creates files that other apps don’t need to access, or shouldn’t access. The system provides the following locations for storing such*app-specific*files:
 
-- **Internal storage directories:** These directories include both a dedicated location for storing persistent files, and another location for storing cache data. The system prevents other apps from accessing these locations, and on Android 10 (API level 29) and higher, these locations are encrypted. These characteristics make these locations a good place to store sensitive data that only your app itself can access.
-- **External storage directories:** These directories include both a dedicated location for storing persistent files, and another location for storing cache data. Although it’s possible for another app to access these directories if that app has the proper permissions, the files stored in these directories are meant for use only by your app. If you specifically intend to create files that other apps should be able to access, your app should store these files in the [<FontIcon icon="fa-brands fa-android"/>shared storage](https://developer.android.com/training/data-storage/shared) part of external storage instead.
+- **Internal storage directories:**These directories include both a dedicated location for storing persistent files, and another location for storing cache data. The system prevents other apps from accessing these locations, and on Android 10 (API level 29) and higher, these locations are encrypted. These characteristics make these locations a good place to store sensitive data that only your app itself can access.
+- **External storage directories:**These directories include both a dedicated location for storing persistent files, and another location for storing cache data. Although it’s possible for another app to access these directories if that app has the proper permissions, the files stored in these directories are meant for use only by your app. If you specifically intend to create files that other apps should be able to access, your app should store these files in the[<FontIcon icon="fa-brands fa-android"/>shared storage](https://developer.android.com/training/data-storage/shared)part of external storage instead.
 
 ::: info
 
-> When the user uninstalls your app, the files saved in app-specific storage are removed. Because of this behavior, you shouldn’t use this storage to save anything that the user expects to persist independently of your app. For example, if your app allows users to capture photos, the user would expect that they can access those photos even after they uninstall your app. So you should instead use shared storage to save those types of files to the appropriate [<FontIcon icon="fa-brands fa-android"/>media collection](https://developer.android.com/training/data-storage/shared/media).
+> When the user uninstalls your app, the files saved in app-specific storage are removed. Because of this behavior, you shouldn’t use this storage to save anything that the user expects to persist independently of your app. For example, if your app allows users to capture photos, the user would expect that they can access those photos even after they uninstall your app. So you should instead use shared storage to save those types of files to the appropriate[<FontIcon icon="fa-brands fa-android"/>media collection](https://developer.android.com/training/data-storage/shared/media).
 
 :::
 
 ### Scoped Storage & Why It Matters in Android 10+ 🚀
 
-In **Android 10 (API 29)** and above, Google introduced **Scoped Storage** to improve app security and user privacy. This change **restricts** how apps can access files on external storage. and **MediaStore** is the recommended way to interact with media files.
+In**Android 10 (API 29)**and above, Google introduced**Scoped Storage**to improve app security and user privacy. This change**restricts**how apps can access files on external storage. and**MediaStore**is the recommended way to interact with media files.
 
-Before **Scoped Storage**, apps could freely read/write to `Environment.getExternalStorageDirectory()`, but this **posed security risks** since apps could access files from other apps.
+Before**Scoped Storage**, apps could freely read/write to`Environment.getExternalStorageDirectory()`, but this**posed security risks**since apps could access files from other apps.
 
 ::: note
 
@@ -95,15 +95,15 @@ If your app requests a storage-related permission at runtime, the user-facing di
 
 @tab Limited File Access
 
-- Apps can no longer **freely access** all files in external storage (<FontIcon icon="fas fa-folder-open"/>`/sdcard/`).
-- Instead, apps can only access **their own app-specific directories** inside:
+- Apps can no longer**freely access**all files in external storage (<FontIcon icon="fas fa-folder-open"/>`/sdcard/`).
+- Instead, apps can only access**their own app-specific directories**inside:
   - <FontIcon icon="fas fa-folder-open"/>`Android/data/com.example.app/`
   - <FontIcon icon="fas fa-folder-open"/>`Android/media/com.example.app/`
 
 @tab FileProvider is Required for Sharing
 
-- Direct `file://` URIs are **blocked** (causes `FileUriExposedException`).
-- Apps must **use** `FileProvider.getUriForFile()` to share files.
+- Direct`file://` URIs are**blocked**(causes`FileUriExposedException`).
+- Apps must**use** `FileProvider.getUriForFile()`to share files.
 
 @tab Temporary Permissions for File Access
 
@@ -117,7 +117,7 @@ intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
 @tab Media Store APIs for Public Files
 
-- Apps should use `MediaStore` **APIs** to read/write **public** files (e.g., Photos, Downloads).
+- Apps should use`MediaStore` **APIs**to read/write**public**files (e.g., Photos, Downloads).
 
 :::
 
@@ -132,20 +132,20 @@ intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
 ---
 
-## What is Android `FileProvider`?
+## What is Android`FileProvider`?
 
-`FileProvider` is a special subclass of `ContentProvider` in Android that allows you to securely share files between different applications without exposing the internal storage file paths. It provides a way to generate `content://` URIs instead of `file://` URIs, which prevents issues with the **Scoped Storage** and **File URI Exposure Exception** on modern Android versions.
+`FileProvider`is a special subclass of`ContentProvider`in Android that allows you to securely share files between different applications without exposing the internal storage file paths. It provides a way to generate`content://`URIs instead of`file://` URIs, which prevents issues with the**Scoped Storage**and**File URI Exposure Exception**on modern Android versions.
 
 - ✅ Securely share files between apps.
-- ✅ Prevent `FileUriExposedException` on Android 7.0+.
-- ✅ Works with **camera intents, sharing files via email, social media, …**
+- ✅ Prevent`FileUriExposedException`on Android 7.0+.
+- ✅ Works with**camera intents, sharing files via email, social media, …**
 - ✅ Supports multiple modules in a project.
 
-### 📌 Basic Implementation of `FileProvider`
+### 📌 Basic Implementation of`FileProvider`
 
-#### 1. Specify the `FileProvider` in <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`
+#### 1. Specify the`FileProvider`in<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`
 
-Defining a [<FontIcon icon="fa-brands fa-android"/>`FileProvider`](https://developer.android.com/reference/androidx/core/content/FileProvider) for your app requires an entry in your manifest. This entry specifies the authority to use in generating content URIs, as well as the name of an XML file that specifies the directories your app can share.
+Defining a[<FontIcon icon="fa-brands fa-android"/>`FileProvider`](https://developer.android.com/reference/androidx/core/content/FileProvider)for your app requires an entry in your manifest. This entry specifies the authority to use in generating content URIs, as well as the name of an XML file that specifies the directories your app can share.
 
 ```xml title="AndroidManifest.xml"
 <provider
@@ -159,9 +159,9 @@ Defining a [<FontIcon icon="fa-brands fa-android"/>`FileProvider`](https://deve
 </provider>
 ```
 
-#### 2. Specify sharable directories <FontIcon icon="iconfont icon-code"/>`filepaths.xml` in <FontIcon icon="fas fa-folder-open"/>`res/xml/`
+#### 2. Specify sharable directories<FontIcon icon="iconfont icon-code"/>`filepaths.xml`in<FontIcon icon="fas fa-folder-open"/>`res/xml/`
 
-Once you have added the `FileProvider` to your app manifest, you need to specify the directories that contain the files you want to share. To specify the directories, start by creating the file <FontIcon icon="iconfont icon-code"/>`filepaths.xml` in the <FontIcon icon="fas fa-folder-open"/>`res/xml/` subdirectory of your project. In this file, specify the directories by adding an XML element for each directory. The following snippet shows you an example of the contents of <FontIcon icon="fas fa-folder-open"/>`res/xml/`<FontIcon icon="iconfont icon-code"/>`filepaths.xml`. The snippet also demonstrates how to share a subdirectory of the <FontIcon icon="fas fa-folder-open"/>`files/` directory in your internal storage area:
+Once you have added the`FileProvider`to your app manifest, you need to specify the directories that contain the files you want to share. To specify the directories, start by creating the file<FontIcon icon="iconfont icon-code"/>`filepaths.xml`in the<FontIcon icon="fas fa-folder-open"/>`res/xml/`subdirectory of your project. In this file, specify the directories by adding an XML element for each directory. The following snippet shows you an example of the contents of<FontIcon icon="fas fa-folder-open"/>`res/xml/`<FontIcon icon="iconfont icon-code"/>`filepaths.xml`. The snippet also demonstrates how to share a subdirectory of the<FontIcon icon="fas fa-folder-open"/>`files/`directory in your internal storage area:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -178,7 +178,7 @@ In this example:
 
 - `external-files-path`: Refers to the app’s external storage
 - `external-cache-path`: Refers to the app’s external cache directory
-- `<files-path>` tag shares directories within the <FontIcon icon="fas fa-folder-ope"/>`files/` directory of your app’s internal storage. The `path` attribute shares the <FontIcon icon="fas fa-folder-ope"/>`images/` subdirectory of <FontIcon icon="fas fa-folder-ope"/>`files/`. The `name` attribute tells the [<FontIcon icon="fa-brands fa-android"/>`FileProvider`](https://developer.android.com/reference/androidx/core/content/FileProvider) to add the path segment `myimages` to content URIs for files in the <FontIcon icon="fas fa-folder-ope"/>`files/images/` subdirectory.
+- `<files-path>`tag shares directories within the<FontIcon icon="fas fa-folder-ope"/>`files/`directory of your app’s internal storage. The`path`attribute shares the<FontIcon icon="fas fa-folder-ope"/>`images/`subdirectory of<FontIcon icon="fas fa-folder-ope"/>`files/`. The`name`attribute tells the[<FontIcon icon="fa-brands fa-android"/>`FileProvider`](https://developer.android.com/reference/androidx/core/content/FileProvider)to add the path segment`myimages`to content URIs for files in the<FontIcon icon="fas fa-folder-ope"/>`files/images/`subdirectory.
 
 ![Example of using `context.cacheDir`](https://miro.medium.com/v2/resize:fit:1400/1*SZbnT_ronQ2ryRiYWkgaug.png)
 
@@ -188,7 +188,7 @@ The XML file is the only way you can specify the directories you want to share; 
 
 :::
 
-#### 3. Define the `BuildConfig`
+#### 3. Define the`BuildConfig`
 
 - BuildConfig
 
@@ -219,54 +219,54 @@ interface FileProvider {
 
 ---
 
-## 🆚 `FileProvider` in a Multi-Module Android Project?
+## 🆚`FileProvider`in a Multi-Module Android Project?
 
-By default, `FileProvider` is tied to an `authority` (e.g., `com.example.app.fileprovider`), which is unique per module. In a **multi-module project**, each module **cannot define its own** `FileProvider` with the same `authority`. Instead, follow these steps:
+By default,`FileProvider`is tied to an`authority`(e.g.,`com.example.app.fileprovider`), which is unique per module. In a**multi-module project**, each module**cannot define its own** `FileProvider`with the same`authority`. Instead, follow these steps:
 
 ::: tabs
 
 @tab:active Approach 1
 
-Declare `FileProvider` in the **App Module**
+Declare`FileProvider`in the **App Module**
 
-- Allow feature modules to access `FileProvider`
-- Pass the `Context` of the main application to the modules.
-- Use `FileProvider.getUriForFile(...)` in the modules with the **app’s authority** (`com.example.app.fileprovider`).
+- Allow feature modules to access`FileProvider`
+- Pass the`Context`of the main application to the modules.
+- Use`FileProvider.getUriForFile(...)`in the modules with the**app’s authority**(`com.example.app.fileprovider`).
 
 **Use Approach 1 (App Module) if:**
 
 - Your project is small or medium-sized.
-- You don’t plan to reuse `FileProvider` in multiple apps.
+- You don’t plan to reuse`FileProvider`in multiple apps.
 - Simplicity is more important than modularity.
 
 @tab Approach 2
 
 Create a **Shared Module** for `FileProvider`
 
-- Create a new module (e.g., `foundation-io`).
-- Define the `FileProvider` in `foundation-io` and expose a method:
+- Create a new module (e.g.,`foundation-io`).
+- Define the`FileProvider`in`foundation-io`and expose a method:
 - All modules will use this method to get the URI.
 
 **Use Approach 2 (Shared Module) if:**
 
 - Your project is large, with multiple feature modules.
-- You want to **decouple** `FileProvider` from the main app.
+- You want to**decouple**`FileProvider`from the main app.
 - You might reuse the shared module in other projects.
-- Your team follows **clean architecture and modularization** best practices.
+- Your team follows**clean architecture and modularization**best practices.
 
 :::
 
 ::: note
 
-If you’re working on a **large-scale project** with multiple modules (e.g., a super app, SDK-based architecture), **Approach 2 (Shared Module) is the best choice** because it promotes **scalability, reusability, and maintainability**. However, if you **just need quick file sharing in a single app**, **Approach 1 (App Module) is simpler and works fine.**
+If you’re working on a**large-scale project**with multiple modules (e.g., a super app, SDK-based architecture),**Approach 2 (Shared Module) is the best choice**because it promotes**scalability, reusability, and maintainability**. However, if you**just need quick file sharing in a single app**,**Approach 1 (App Module) is simpler and works fine.**
 
 :::
 
 ---
 
-## 📸 What is Android `Media Store`?
+## 📸 What is Android`Media Store`?
 
-The contract between the media provider and applications. Contains definitions for the supported URIs and columns. The media provider provides an indexed collection of common media types, such as [<FontIcon icon="fa-brands fa-android"/>Audio](https://developer.android.com/reference/android/provider/MediaStore.Audio), [<FontIcon icon="fa-brands fa-android"/>Video](https://developer.android.com/reference/android/provider/MediaStore.Video), and [<FontIcon icon="fa-brands fa-android"/>Images](https://developer.android.com/reference/android/provider/MediaStore.Images), from any attached storage devices. Each collection is organized based on the primary MIME type of the underlying content; for example, `image/*` content is indexed under [<FontIcon icon="fa-brands fa-android"/>Images](https://developer.android.com/reference/android/provider/MediaStore.Images). The [<FontIcon icon="fa-brands fa-android"/>Files](https://developer.android.com/reference/android/provider/MediaStore.Files) collection provides a broad view across all collections, and does not filter by MIME type.
+The contract between the media provider and applications. Contains definitions for the supported URIs and columns. The media provider provides an indexed collection of common media types, such as[<FontIcon icon="fa-brands fa-android"/>Audio](https://developer.android.com/reference/android/provider/MediaStore.Audio),[<FontIcon icon="fa-brands fa-android"/>Video](https://developer.android.com/reference/android/provider/MediaStore.Video), and[<FontIcon icon="fa-brands fa-android"/>Images](https://developer.android.com/reference/android/provider/MediaStore.Images), from any attached storage devices. Each collection is organized based on the primary MIME type of the underlying content; for example,`image/*`content is indexed under[<FontIcon icon="fa-brands fa-android"/>Images](https://developer.android.com/reference/android/provider/MediaStore.Images). The[<FontIcon icon="fa-brands fa-android"/>Files](https://developer.android.com/reference/android/provider/MediaStore.Files)collection provides a broad view across all collections, and does not filter by MIME type.
 
 ### 1. Query Media Files (Images)
 
@@ -327,8 +327,8 @@ public Uri saveImageToGallery(Context context, Bitmap bitmap, String filename) {
 
 ::: note
 
-- The `RELATIVE_PATH` specifies where the image is stored (`Pictures/MyApp`).
-- No **WRITE_EXTERNAL_STORAGE** permission needed from **Android 10+**.
+- The`RELATIVE_PATH`specifies where the image is stored (`Pictures/MyApp`).
+- No**WRITE_EXTERNAL_STORAGE**permission needed from**Android 10+**.
 
 :::
 
@@ -343,8 +343,8 @@ public boolean deleteImage(Context context, Uri uri) {
 
 ::: important 🔹 Permissions Needed
 
-- **Android 10+**: No storage permission required, as long as using `MediaStore`.
-- **Android 9 and below**: Requires `WRITE_EXTERNAL_STORAGE` permission.
+- **Android 10+**: No storage permission required, as long as using`MediaStore`.
+- **Android 9 and below**: Requires`WRITE_EXTERNAL_STORAGE`permission.
 
 :::
 
@@ -361,10 +361,10 @@ public void updateMediaDetails(Context context, Uri uri, String newTitle) {
 
 The system automatically scans an external storage volume and adds media files to the following well-defined collections:
 
-- **Images,** including photographs and screenshots, which are stored in the <FontIcon icon="fas fa-folder-open"/>`DCIM/` and <FontIcon icon="fas fa-folder-open"/>`Pictures/` directories. The system adds these files to the [<FontIcon icon="fa-brands fa-android"/>`MediaStore.Images`](https://developer.android.com/reference/android/provider/MediaStore.Images) table.
-- **Videos,** which are stored in the <FontIcon icon="fas fa-folder-open"/>`DCIM/`, <FontIcon icon="fas fa-folder-open"/>`Movies/`, and <FontIcon icon="fas fa-folder-open"/>`Pictures/` directories. The system adds these files to the [<FontIcon icon="fa-brands fa-android"/>`MediaStore.Video`](https://developer.android.com/reference/android/provider/MediaStore.Video) table.
-- **Audio files,** which are stored in the <FontIcon icon="fas fa-folder-open"/>`Alarms/`, <FontIcon icon="fas fa-folder-open"/>`Audiobooks/`, <FontIcon icon="fas fa-folder-open"/>`Music/`, <FontIcon icon="fas fa-folder-open"/>`Notifications/`, <FontIcon icon="fas fa-folder-open"/>`Podcasts/`, and <FontIcon icon="fas fa-folder-open"/>`Ringtones/` directories. Additionally, the system recognizes audio playlists that are in the <FontIcon icon="fas fa-folder-open"/>`Music/` or <FontIcon icon="fas fa-folder-open"/>`Movies/` directories as well as voice recordings that are in the <FontIcon icon="fas fa-folder-open"/>`Recordings/` directory. The system adds these files to the [<FontIcon icon="fa-brands fa-android"/>`MediaStore.Audio`](https://developer.android.com/reference/android/provider/MediaStore.Audio) table. *The <FontIcon icon="fas fa-folder-open"/>`Recordings/` directory isn’t available on Android 11 (API level 30) and lower.*
-- **Downloaded files,** which are stored in the `Download/` directory. On devices that run Android 10 (API level 29) and higher, these files are stored in the [<FontIcon icon="fa-brands fa-android"/>`MediaStore.Downloads`](https://developer.android.com/reference/android/provider/MediaStore.Downloads) table. *This table isn’t available on Android 9 (API level 28) and lower.*
+- **Images,**including photographs and screenshots, which are stored in the<FontIcon icon="fas fa-folder-open"/>`DCIM/`and<FontIcon icon="fas fa-folder-open"/>`Pictures/`directories. The system adds these files to the[<FontIcon icon="fa-brands fa-android"/>`MediaStore.Images`](https://developer.android.com/reference/android/provider/MediaStore.Images)table.
+- **Videos,**which are stored in the<FontIcon icon="fas fa-folder-open"/>`DCIM/`,<FontIcon icon="fas fa-folder-open"/>`Movies/`, and<FontIcon icon="fas fa-folder-open"/>`Pictures/`directories. The system adds these files to the[<FontIcon icon="fa-brands fa-android"/>`MediaStore.Video`](https://developer.android.com/reference/android/provider/MediaStore.Video)table.
+- **Audio files,**which are stored in the<FontIcon icon="fas fa-folder-open"/>`Alarms/`,<FontIcon icon="fas fa-folder-open"/>`Audiobooks/`,<FontIcon icon="fas fa-folder-open"/>`Music/`,<FontIcon icon="fas fa-folder-open"/>`Notifications/`,<FontIcon icon="fas fa-folder-open"/>`Podcasts/`, and<FontIcon icon="fas fa-folder-open"/>`Ringtones/`directories. Additionally, the system recognizes audio playlists that are in the<FontIcon icon="fas fa-folder-open"/>`Music/`or<FontIcon icon="fas fa-folder-open"/>`Movies/`directories as well as voice recordings that are in the<FontIcon icon="fas fa-folder-open"/>`Recordings/`directory. The system adds these files to the[<FontIcon icon="fa-brands fa-android"/>`MediaStore.Audio`](https://developer.android.com/reference/android/provider/MediaStore.Audio)table.*The <FontIcon icon="fas fa-folder-open"/>`Recordings/` directory isn’t available on Android 11 (API level 30) and lower.*
+- **Downloaded files,**which are stored in the`Download/`directory. On devices that run Android 10 (API level 29) and higher, these files are stored in the[<FontIcon icon="fa-brands fa-android"/>`MediaStore.Downloads`](https://developer.android.com/reference/android/provider/MediaStore.Downloads)table.*This table isn’t available on Android 9 (API level 28) and lower.*
 
 ---
 
@@ -380,13 +380,13 @@ java.lang.SecurityException: Permission Denial: writing Uri content://media/exte
 
 @tab:active Cause
 
-- Your app is targeting **Android 10+** and trying to write to shared storage **without using MediaStore**.
-- You did not request **WRITE_EXTERNAL_STORAGE** (Android 9 and below).
+- Your app is targeting**Android 10+**and trying to write to shared storage**without using MediaStore**.
+- You did not request**WRITE_EXTERNAL_STORAGE**(Android 9 and below).
 
 @tab Solution
 
-- ✅ Use **MediaStore** API for Android 10+ instead of direct file paths.
-- ✅ **No permission required** for public media directories on Android 11+.
+- ✅ Use**MediaStore**API for Android 10+ instead of direct file paths.
+- ✅**No permission required**for public media directories on Android 11+.
 
 ```java
 ContentValues values = new ContentValues();
@@ -409,13 +409,13 @@ java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
 
 @tab:active Cause
 
-- The **file path is incorrect** or does not exist.
-- You are **trying to access a file before it has been saved**.
+- The**file path is incorrect**or does not exist.
+- You are**trying to access a file before it has been saved**.
 
 @tab Solution
 
-- ✅ **Verify the file exists** before accessing it.
-- ✅ Ensure you have **write permissions** if using direct storage access.
+- ✅**Verify the file exists**before accessing it.
+- ✅ Ensure you have**write permissions**if using direct storage access.
 
 :::
 
@@ -425,11 +425,11 @@ java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
 
 @tab:active Cause
 
-Media file is saved, but **not indexed by `MediaScanner`**.
+Media file is saved, but**not indexed by `MediaScanner`**.
 
 @tab Solution
 
-✅ **Manually scan the file** after saving.
+✅**Manually scan the file**after saving.
 
 ```java
 MediaScannerConnection.scanFile(context,
@@ -442,7 +442,7 @@ MediaScannerConnection.scanFile(context,
 
 ### 4. `FileUriExposedException` (Android 7+)
 
-**Direct file paths (`file://`) are not allowed** for sharing files across apps in Android 7+.
+**Direct file paths (`file://`) are not allowed**for sharing files across apps in Android 7+.
 
 ```plaintext title="output"
 android.os.FileUriExposedException: file:///storage/emulated/0/my_file.pdf exposed beyond app through ClipData.Item.getUri()
@@ -452,7 +452,7 @@ android.os.FileUriExposedException: file:///storage/emulated/0/my_file.pdf expos
 
 @tab:active Solution
 
-✅ Use **FileProvider** to generate a **content URI** instead.
+✅ Use**FileProvider**to generate a**content URI**instead.
 
 ```java
 Uri uri = FileProvider.getUriForFile(context, context.getPackageName() + ".fileprovider", new File(filePath));
@@ -475,11 +475,11 @@ java.lang.IllegalArgumentException: Couldn't find meta-data for provider with au
 
 @tab:active Cause
 
-The **authority name in <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`** does not match the one used in `FileProvider.getUriForFile()`.
+The**authority name in <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`**does not match the one used in`FileProvider.getUriForFile()`.
 
 @tab Solution
 
-✅ Ensure the `android:authorities` in <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` matches exactly.
+✅ Ensure the`android:authorities`in<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`matches exactly.
 
 :::
 
@@ -493,11 +493,11 @@ java.lang.SecurityException: Permission Denial: reading Uri content://com.exampl
 
 @tab:active Cause
 
-The receiving app **does not have permission** to read the file.
+The receiving app**does not have permission**to read the file.
 
 @tab Solution
 
-✅ **Grant temporary read permissions** when sharing a file.
+✅**Grant temporary read permissions**when sharing a file.
 
 ```java
 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
@@ -509,9 +509,9 @@ intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
 ![<FontIcon icon="fas fa-folder-open"/>`/storage/emulated/0/Pictures/..`](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*mxEBoewfZQ9ebrxygxr2eQ.png)
 
-The error **“Failed to find configured root that contains…”** usually occurs when trying to share a file **without proper FileProvider configuration**. In **Android 7.0 (API 24) and above**, direct `file://` URIs cannot be shared between apps due to security restrictions. Instead, you need to use a `content://` URI via `FileProvider`.
+The error**“Failed to find configured root that contains…”**usually occurs when trying to share a file**without proper FileProvider configuration**. In**Android 7.0 (API 24) and above**, direct`file://`URIs cannot be shared between apps due to security restrictions. Instead, you need to use a`content://`URI via`FileProvider`.
 
-- Inside the `<application>` tag:
+- Inside the`<application>` tag:
 
 ```xml title="AndroidManifest.xml"
 <provider
@@ -549,7 +549,7 @@ picturesDir.mkdirs() // Ensure the directory exists
 
 ::: details 1. What is <code>MediaStore</code> in Android?
 
-`MediaStore` is an API that provides structured access to **media files** (images, videos, audio) stored on **external storage**. It allows querying, inserting, and updating media files **without requiring direct file path access**.
+`MediaStore` is an API that provides structured access to**media files**(images, videos, audio) stored on**external storage**. It allows querying, inserting, and updating media files**without requiring direct file path access**.
 
 :::
 
@@ -567,16 +567,16 @@ If your app’s basic functionality requires certain data, such as when your app
 
 ::: details 4. What are the advantages of using <code>MediaStore</code> over File API?
 
-✅ **No storage permission required** (Android 10+).  
-✅ **Works with scoped storage** (File API does not).  
-✅ **Structured access** to media files.  
-✅ **Auto indexing** by the system.
+✅**No storage permission required**(Android 10+).  
+✅**Works with scoped storage**(File API does not).  
+✅**Structured access**to media files.  
+✅**Auto indexing**by the system.
 
 :::
 
 ::: details 5. What is <code>FileProvider</code> in Android?
 
-`FileProvider` is a **content provider** (`ContentProvider`) that allows **secure file sharing** between apps using `content://` URIs instead of `file://` paths.
+`FileProvider` is a**content provider**(`ContentProvider`) that allows**secure file sharing**between apps using`content://`URIs instead of`file://` paths.
 
 :::
 
@@ -588,17 +588,17 @@ When storing sensitive data — data that shouldn’t be accessible from any oth
 
 ::: details 7. What is Scoped Storage in Android?
 
-Scoped Storage (introduced in Android 10) **restricts** direct access to shared storage and requires apps to use `MediaStore` or `FileProvider`.
+Scoped Storage (introduced in Android 10)**restricts**direct access to shared storage and requires apps to use`MediaStore`or`FileProvider`.
 
 :::
 
 ::: details 8. How do you access files in Scoped Storage?
 
-- **For media files:** Use `MediaStore` API
-- **For app-specific files:** Use `getExternalFilesDir()`
-- **For file sharing:** Use `FileProvider`
+- **For media files:**Use`MediaStore` API
+- **For app-specific files:**Use`getExternalFilesDir()`
+- **For file sharing:**Use`FileProvider`
 
-To give users more control over their files and limit file clutter, Android 10 introduced a new storage paradigm for apps called [<FontIcon icon="fa-brands fa-android"/>scoped storage](https://developer.android.com/training/data-storage#scoped-storage). Scoped storage changes the way apps store and access files on a device’s external storage. To help you migrate your app to support scoped storage, follow the best practices for common storage use cases that are outlined in this guide. The use cases are organized into two categories: [<FontIcon icon="fa-brands fa-android"/>handling media files](https://developer.android.com/training/data-storage/use-cases#handle-media-files) and [<FontIcon icon="fa-brands fa-android"/>handling non-media files](https://developer.android.com/training/data-storage/use-cases#handle-non-media-files).
+To give users more control over their files and limit file clutter, Android 10 introduced a new storage paradigm for apps called[<FontIcon icon="fa-brands fa-android"/>scoped storage](https://developer.android.com/training/data-storage#scoped-storage). Scoped storage changes the way apps store and access files on a device’s external storage. To help you migrate your app to support scoped storage, follow the best practices for common storage use cases that are outlined in this guide. The use cases are organized into two categories:[<FontIcon icon="fa-brands fa-android"/>handling media files](https://developer.android.com/training/data-storage/use-cases#handle-media-files)and[<FontIcon icon="fa-brands fa-android"/>handling non-media files](https://developer.android.com/training/data-storage/use-cases#handle-non-media-files).
 
 :::
 
@@ -606,7 +606,7 @@ To give users more control over their files and limit file clutter, Android 10 i
 
 ## 🎯 Conclusion
 
-By leveraging **Jetpack Compose**,`FileProvider`, and Kotlin, we can easily **download, store, and share images** in an Android app. This approach ensures smooth performance, proper file handling, and seamless sharing across different applications. Whether you are working on an image-heavy app or simply adding a sharing feature, mastering these techniques will enhance your development workflow 🚀💡
+By leveraging**Jetpack Compose**,`FileProvider`, and Kotlin, we can easily**download, store, and share images**in an Android app. This approach ensures smooth performance, proper file handling, and seamless sharing across different applications. Whether you are working on an image-heavy app or simply adding a sharing feature, mastering these techniques will enhance your development workflow 🚀💡
 
 ### 🔹 `MediaStore` (Scoped Storage API)
 
@@ -614,27 +614,27 @@ By leveraging **Jetpack Compose**,`FileProvider`, and Kotlin, we can easily **
 
 @tab:active Purpose
 
-- `MediaStore` is part of the **Scoped Storage** model introduced in **Android 10 (API 29)**.
-- It provides access to **public media files** (e.g., images, videos, and audio) stored in shared storage, without needing `READ_EXTERNAL_STORAGE` or `WRITE_EXTERNAL_STORAGE` permissions (from Android 11 onwards).
+- `MediaStore`is part of the**Scoped Storage**model introduced in**Android 10 (API 29)**.
+- It provides access to**public media files**(e.g., images, videos, and audio) stored in shared storage, without needing`READ_EXTERNAL_STORAGE`or`WRITE_EXTERNAL_STORAGE`permissions (from Android 11 onwards).
 
 @tab Use Cases
 
-- Saving media files (images, videos, audio) in **public directories** (e.g., `Pictures/`, `Movies/`).
-- Querying and managing media content using the `ContentResolver` API.
-- Ensuring compliance with **Scoped Storage**, as direct file path access is restricted.
+- Saving media files (images, videos, audio) in**public directories**(e.g.,`Pictures/`,`Movies/`).
+- Querying and managing media content using the`ContentResolver`API.
+- Ensuring compliance with**Scoped Storage**, as direct file path access is restricted.
 
 @tab Advantages
 
 - ✅ No need for storage permissions (from Android 11+).
-- ✅ Works with **Scoped Storage**, avoiding direct file access.
-- ✅ Provides a **content URI**, making it safer for media handling.
-- ✅ Compatible with `MediaScanner` for indexing media files.
+- ✅ Works with**Scoped Storage**, avoiding direct file access.
+- ✅ Provides a**content URI**, making it safer for media handling.
+- ✅ Compatible with`MediaScanner`for indexing media files.
 
 @tab Disadvantages
 
-- ❌ Cannot store **non-media files** (e.g., PDFs, ZIPs).
-- ❌ Requires **querying APIs** (instead of direct file access)
-- ❌ Files are **not private** — they’re accessible to all apps with read access to shared storage.
+- ❌ Cannot store**non-media files**(e.g., PDFs, ZIPs).
+- ❌ Requires**querying APIs**(instead of direct file access)
+- ❌ Files are**not private**— they’re accessible to all apps with read access to shared storage.
 
 :::
 
@@ -644,73 +644,73 @@ By leveraging **Jetpack Compose**,`FileProvider`, and Kotlin, we can easily **
 
 @tab:active Purpose
 
-- `FileProvider` is a special `ContentProvider` that allows an app to **share private files** securely with other apps using a **content URI**, rather than exposing raw file paths.
+- `FileProvider`is a special`ContentProvider`that allows an app to**share private files**securely with other apps using a**content URI**, rather than exposing raw file paths.
 
 @tab Use Cases
 
-- Sharing **files (PDFs, images, videos, etc.)** with other apps (e.g., email, social media, or messaging apps).
-- Providing a secure way to expose **app-private storage files** (inside <FontIcon icon="fas fa-folder-open"/>`data/data/<package>/files`).
-- Granting **temporary read/write access** to specific files.
+- Sharing**files (PDFs, images, videos, etc.)**with other apps (e.g., email, social media, or messaging apps).
+- Providing a secure way to expose**app-private storage files**(inside<FontIcon icon="fas fa-folder-open"/>`data/data/<package>/files`).
+- Granting**temporary read/write access**to specific files.
 
 @tab Advantages
 
-- ✅ **Secure file sharing** (avoids exposing raw file paths).
-- ✅ Supports **any file type**, not just media files.
-- ✅ Provides **temporary access permissions** using `FLAG_GRANT_READ_URI_PERMISSION`.
-- ✅ Works with **intent-based sharing** (e.g., `Intent.ACTION_SEND`).
+- ✅**Secure file sharing**(avoids exposing raw file paths).
+- ✅ Supports**any file type**, not just media files.
+- ✅ Provides**temporary access permissions**using`FLAG_GRANT_READ_URI_PERMISSION`.
+- ✅ Works with**intent-based sharing**(e.g.,`Intent.ACTION_SEND`).
 
 @tab Disadvantages
 
-- ❌ Requires defining a **FileProvider in AndroidManifest.xml**.
-- ❌ Needs **XML configuration** for file paths.
-- ❌ **More complex setup** compared to direct file sharing.
+- ❌ Requires defining a**FileProvider in AndroidManifest.xml**.
+- ❌ Needs**XML configuration**for file paths.
+- ❌**More complex setup**compared to direct file sharing.
 
 :::
 
 <SiteInfo
-  name="Access app-specific files  |  App data and files  |  Android Developers"
+  name="Access app-specific files | App data and files | Android Developers"
   desc="In many cases, your app creates files that other apps don't need to access, or shouldn't access. The system provides the following locations for storing such app-specific files:"
   url="https://developer.android.com/training/data-storage/app-specific/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/social/android-developers.png"/>
 
 <SiteInfo
-  name="Overview of shared storage  |  App data and files  |  Android Developers"
+  name="Overview of shared storage | App data and files | Android Developers"
   desc="Use shared storage for user data that can or should be accessible to other apps and saved even if the user uninstalls your app."
   url="https://developer.android.com/training/data-storage/shared/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/social/android-developers.png"/>
 
 <SiteInfo
-  name="Setting up file sharing  |  App data and files  |  Android Developers"
+  name="Setting up file sharing | App data and files | Android Developers"
   desc="To securely offer a file from your app to another app, you need to configure your app to offer a secure handle to the file, in the form of a content URI. The Android"
   url="https://developer.android.com/training/secure-file-sharing/setup-sharing/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/social/android-developers.png"/>
 
 <SiteInfo
-  name="Retrieving file information  |  App data and files  |  Android Developers"
+  name="Retrieving file information | App data and files | Android Developers"
   desc="Before a client app tries to work with a file for which it has a content URI, the app can request information about the file from the server app, including the file's data type and file size. The da"
   url="https://developer.android.com/training/secure-file-sharing/retrieve-info/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/social/android-developers.png"/>
 
 <SiteInfo
-  name="Data and file storage overview  |  App data and files  |  Android Developers"
+  name="Data and file storage overview | App data and files | Android Developers"
   desc="Android uses a file system that's similar to disk-based file systems on other platforms. The system provides several options for you to save your app data:"
   url="https://developer.android.com/training/data-storage/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/training/data-storage/room_architecture.png"/>
 
 <SiteInfo
-  name="View on-device files with Device Explorer  |  Android Studio  |  Android Developers"
+  name="View on-device files with Device Explorer | Android Studio | Android Developers"
   desc="Learn how to view, copy, and delete files on an Android device with the Device Explorer."
   url="https://developer.android.com/studio/debug/device-file-explorer/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"
   preview="https://developer.android.com/static/images/social/android-developers.png"/>
 
 <SiteInfo
-  name="Send simple data to other apps  |  App data and files  |  Android Developers"
+  name="Send simple data to other apps | App data and files | Android Developers"
   desc="When you construct an intent, you must specify the action you want the intent to 'trigger.' Android defines several actions, including ACTION_SEND which, as you can probably guess, indicates that the intent is sending data from one activity …"
   url="https://developer.android.com/training/sharing/send/"
   logo="https://gstatic.com/devrel-devsite/prod/v6bfb74446ce17cd0d3af9b93bf26e056161cb79c5a6475bd6a9c25286fcb7861/android/images/favicon.svg"

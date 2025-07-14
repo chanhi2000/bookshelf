@@ -28,7 +28,7 @@ isOriginal: false
 author:
   - name: David Jaja
     url: https://freecodecamp.org/news/author/Daiveed/
-cover: https://www.freecodecamp.org/news/content/images/2024/06/Article-Image.png
+cover: https://freecodecamp.org/news/content/images/2024/06/Article-Image.png
 ---
 
 # {{ $frontmatter.title }} 관련

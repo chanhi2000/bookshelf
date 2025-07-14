@@ -87,7 +87,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 :::
 
-In [**a previous article**](/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md), we used modern CSS features such as `mask`, trigonometric functions, and CSS variables to create flower-like shapes.
+In[**a previous article**](/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md), we used modern CSS features such as `mask`, trigonometric functions, and CSS variables to create flower-like shapes.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/8hogoSIf.png?resize=883%2C354&ssl=1)
 
@@ -112,11 +112,11 @@ At the time of writing, only Chrome, Edge, and Safari have the full support of t
 
 ## What is `shape()`?
 
-You are probably familiar with `clip-path: polygon()`, right? A function that allows you to specify different points, draw straight lines between them and create various CSS shapes (I invite you to check [<FontIcon icon="fas fa-globe"/>my online collection of CSS shapes](https://css-shape.com/) to see some of them). I said “straight lines” because when it comes to curves, `clip-path` is very limited. We have `circle()` and `ellipse()`, but we cannot achieve complex shapes with them.
+You are probably familiar with`clip-path: polygon()`, right? A function that allows you to specify different points, draw straight lines between them and create various CSS shapes (I invite you to check[<FontIcon icon="fas fa-globe"/>my online collection of CSS shapes](https://css-shape.com/)to see some of them). I said “straight lines” because when it comes to curves,`clip-path`is very limited. We have`circle()`and`ellipse()`, but we cannot achieve complex shapes with them.
 
-`shape()` is the new value that overcomes such limitation. In addition to straight lines, it allows us to draw curves. But If you check the [<FontIcon icon="fa-brands fa-firefox"/>MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape) or [<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#shape-function), you can see that the syntax is a bit complex and not easy to grasp. It’s very similar to SVG path, which is good as it gives us a lot of options and flexibility, but it requires a lot of practice to get used to it.
+`shape()`is the new value that overcomes such limitation. In addition to straight lines, it allows us to draw curves. But If you check the[<FontIcon icon="fa-brands fa-firefox"/>MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape)or[<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#shape-function), you can see that the syntax is a bit complex and not easy to grasp. It’s very similar to SVG path, which is good as it gives us a lot of options and flexibility, but it requires a lot of practice to get used to it.
 
-I will not write a boring tutorial explaining the syntax and all the possible values, but rather focus on one command per article. In this article, we will study the `arc` command, and the next article will be about the `curve` command. And, of course, we are going to draw cool shapes. Otherwise it’s no fun!
+I will not write a boring tutorial explaining the syntax and all the possible values, but rather focus on one command per article. In this article, we will study the`arc`command, and the next article will be about the`curve`command. And, of course, we are going to draw cool shapes. Otherwise it’s no fun!
 
 ---
 
@@ -134,7 +134,7 @@ The code will look like the below:
 clip-path: shape(from Xa Ya, arc to Xb Yb of R [large or small] [cw or ccw])
 ```
 
-The first command of a shape is always a `from` to give the starting point, and then we use the `arc` to define the ending point, the radius, the size, and the direction.
+The first command of a shape is always a`from`to give the starting point, and then we use the`arc`to define the ending point, the radius, the size, and the direction.
 
 Here is a demo to illustrate the different values:
 
@@ -145,7 +145,7 @@ Here is a demo to illustrate the different values:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The points and the radii are the same. I am only changing the size and direction to choose one of the four possibilities. It should be noted that the size and direction aren’t mandatory. The defaults are `small` and `ccw`.
+The points and the radii are the same. I am only changing the size and direction to choose one of the four possibilities. It should be noted that the size and direction aren’t mandatory. The defaults are`small`and`ccw`.
 
 That’s all: we have what we need to draw flower shapes!
 
@@ -157,7 +157,7 @@ I will start with a figure from the previous article.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/fRZEXPDg.png?resize=775%2C338&ssl=1)
 
-Using the mask method, we had to draw a big circle at the center and small circles placed around it. Using `shape()`, we need to draw the arcs of the small circles. The starting and ending points of each arc are placed where the circles touch each other.
+Using the mask method, we had to draw a big circle at the center and small circles placed around it. Using`shape()`, we need to draw the arcs of the small circles. The starting and ending points of each arc are placed where the circles touch each other.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/GI44EdNN.png?resize=491%2C294&ssl=1)
 
@@ -245,11 +245,11 @@ $n: 10;
 
 *Wait, we get the inverted shape instead? Why is that?*
 
-We didn’t define the size and the direction of the arcs so by default the browser will use `small` and `ccw`. This gives us the inverted version of the flower. If you try the 4 different combinations (including the default one) you will get the following:
+We didn’t define the size and the direction of the arcs so by default the browser will use`small`and`ccw`. This gives us the inverted version of the flower. If you try the 4 different combinations (including the default one) you will get the following:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/F6iWJIUP.png?resize=926%2C344&ssl=1)
 
-`small ccw` and `large cw` give us the shape we are looking for. The `small cw` is an interesting variation, and the `large ccw` is a funny one. We can consider a CSS variable to easily control which shape we want to get.
+`small ccw`and`large cw`give us the shape we are looking for. The`small cw`is an interesting variation, and the`large ccw`is a funny one. We can consider a CSS variable to easily control which shape we want to get.
 
 <CodePen
   user="t_afif"
@@ -290,7 +290,7 @@ $n: 10;
 }
 ```
 
-I introduced a new variable `$c` within the loop that will have the value `small ccw` when `$i` is odd and `large cw` otherwise.
+I introduced a new variable`$c`within the loop that will have the value`small ccw`when`$i`is odd and`large cw`otherwise.
 
 <CodePen
   user="t_afif"
@@ -320,7 +320,7 @@ The first arc will use the inner curve (`small ccw`), the next one the outer cur
 
 We made a generic code that allow us to get any shape variation by simply controlling the size/direction of the arcs, but for each particular case, we can have a more simplified code.
 
-For the inverted variation (`small ccw`), the value of `D` can be replaced by `50%`. This will simplify the formula and also increase the area covered by the shape. We also need to update the value of the radius.
+For the inverted variation (`small ccw`), the value of`D`can be replaced by`50%`. This will simplify the formula and also increase the area covered by the shape. We also need to update the value of the radius.
 
 ```scss
 $n: 10;
@@ -348,7 +348,7 @@ $n: 10;
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can do the same for the main shape, but this time we can simplify the value of the radius and use `1%`.
+We can do the same for the main shape, but this time we can simplify the value of the radius and use`1%`.
 
 ```scss
 $n: 10;
@@ -376,13 +376,13 @@ $n: 10;
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-This one is interesting because using `1%` as a radius is kind of strange and not intuitive. In the explanation of the arc command, I said that we have exactly two circles with the given radius that intersect with the two points, but what if the radius is smaller than half the distance between the points? No circles can meet that condition.
+This one is interesting because using`1%`as a radius is kind of strange and not intuitive. In the explanation of the arc command, I said that we have exactly two circles with the given radius that intersect with the two points, but what if the radius is smaller than half the distance between the points? No circles can meet that condition.
 
-This case falls into an error handling where the browser will scale the radius until we can have at least one circle that meets the conditions (yes, it’s defined within [<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#typedef-shape-arc-command)). That circle will simply have its radius equal to half the distance between both points. It also means we only have two arcs with the same size (`small` and `large` will be equal)
+This case falls into an error handling where the browser will scale the radius until we can have at least one circle that meets the conditions (yes, it’s defined within[<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#typedef-shape-arc-command)). That circle will simply have its radius equal to half the distance between both points. It also means we only have two arcs with the same size (`small`and`large`will be equal)
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Bd23aq9Z.png?resize=699%2C397&ssl=1)
 
-In other words, if you specify a small radius (like `1%`), you are telling the browser to find the radius value for you (a lazy but clever move!). This trick won’t work in all the situations but can be handy in many of them so don’t forget about it.
+In other words, if you specify a small radius (like`1%`), you are telling the browser to find the radius value for you (a lazy but clever move!). This trick won’t work in all the situations but can be handy in many of them so don’t forget about it.
 
 ---
 
@@ -399,7 +399,7 @@ Let’s end with a last demo of a heart shape, where I am using the arc command.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-And don’t forget to bookmark [<FontIcon icon="fas fa-globe"/>my online generators](https://css-generators.com/) from where you can get the code of the flower shapes and more!
+And don’t forget to bookmark[<FontIcon icon="fas fa-globe"/>my online generators](https://css-generators.com/)from where you can get the code of the flower shapes and more!
 
 ::: info Article Series
 

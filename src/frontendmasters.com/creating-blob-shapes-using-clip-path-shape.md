@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5861"/>
 
-After [**the flower shapes**](/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md), let’s move to one of the coolest shapes: the **Blob**! Those distorted wiggly circles that were almost impossible to achieve using CSS. But now, they are possible using the new `shape()` function.
+After [**the flower shapes**](/frontendmasters.com/creating-flower-shapes-using-clip-path-shape.md), let’s move to one of the coolest shapes: the **Blob**! Those distorted wiggly circles that were almost impossible to achieve using CSS. But now, they are possible using the new`shape()`function.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/blobs1.jpg?resize=808%2C361&ssl=1)
 
@@ -91,9 +91,9 @@ After [**the flower shapes**](/frontendmasters.com/creating-flower-shapes-using-
 
 :::
 
-Before we start, take a look at [<FontIcon icon="fas fa-globe"/>my blob shape generator](https://css-generators.com/blob/). Unlike the flower shapes, blobs have the random factor so having a generator to get the code is a lifesaver. This said, stay with me to understand the logic behind creating them, maybe you will want to make your own generator of blobs.
+Before we start, take a look at[<FontIcon icon="fas fa-globe"/>my blob shape generator](https://css-generators.com/blob/). Unlike the flower shapes, blobs have the random factor so having a generator to get the code is a lifesaver. This said, stay with me to understand the logic behind creating them, maybe you will want to make your own generator of blobs.
 
-For this shape, we are going to rely on the `curve` command, so let’s start by understanding how it works.
+For this shape, we are going to rely on the`curve`command, so let’s start by understanding how it works.
 
 ::: note
 
@@ -183,7 +183,7 @@ Similar to the flower shape, the code will be a bunch of curve commands like bel
 }
 ```
 
-`[Xi, Yi]` are the starting/ending points (the blue ones), and `[Xci, Yci]` are the control points (the black ones). For the sake of simplicity, I will use pseudo-code to illustrate the calculation. The real implementation can be done using JavaScript like in [<FontIcon icon="fas fa-globe"/>my generator](https://css-generators.com/blob/), or using Sass (I will share a demo using Sass later).
+`[Xi, Yi]`are the starting/ending points (the blue ones), and`[Xci, Yci]`are the control points (the black ones). For the sake of simplicity, I will use pseudo-code to illustrate the calculation. The real implementation can be done using JavaScript like in[<FontIcon icon="fas fa-globe"/>my generator](https://css-generators.com/blob/), or using Sass (I will share a demo using Sass later).
 
 We first start by defining the control points:
 
@@ -198,7 +198,7 @@ for i in [1 N] {
 }
 ```
 
-R will define the distance of the points from the center, and it will have a random value between `50%` and `50% - D`.
+R will define the distance of the points from the center, and it will have a random value between`50%`and`50% - D`.
 
 Then we define the main points where each one is placed at the center of two consecutive control points:
 
@@ -251,7 +251,7 @@ Can you think of other variations?
 
 ## Animating The Blob
 
-Having the blob shape in CSS is already a cool feature. It’s one line of code that can be applied to any element, including images, and it’s responsive! In addition to this, we can easily animate them. The only requirement is to have the same structure inside `shape()`. So if we take two blobs having the same number of curve commands, then we can animate one into another!
+Having the blob shape in CSS is already a cool feature. It’s one line of code that can be applied to any element, including images, and it’s responsive! In addition to this, we can easily animate them. The only requirement is to have the same structure inside`shape()`. So if we take two blobs having the same number of curve commands, then we can animate one into another!
 
 Here is an example where we keep the same number of points and only adjust the depth:
 
@@ -266,7 +266,7 @@ You copy both codes from the generator, apply a transition, and you have a cool 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The bouncing effect you get is made with the `linear()` function which is another cool feature for custom easing. I am [<FontIcon icon="fas fa-globe"/>getting the code from here](https://linear-easing-generator.netlify.app/).
+The bouncing effect you get is made with the`linear()`function which is another cool feature for custom easing. I am [<FontIcon icon="fas fa-globe"/>getting the code from here](https://linear-easing-generator.netlify.app/).
 
 Now, if you update the Shape ID and still keep the same number of points, you can have a transition between two different blobs.
 
@@ -292,9 +292,9 @@ Cool, right? The code may look complex but in the end everything is generated fo
 
 ## Conclusion
 
-I hope you enjoyed this `shape()` exploration through this series of articles. Once this feature becomes widely supported, it will be a game changer and we can forget about all the hacky workarounds to create CSS shapes.
+I hope you enjoyed this`shape()`exploration through this series of articles. Once this feature becomes widely supported, it will be a game changer and we can forget about all the hacky workarounds to create CSS shapes.
 
-Don’t forget to keep an eye on my [<FontIcon icon="fas fa-globe"/>CSS Shapes](https://css-shape.com/) and [<FontIcon icon="fas fa-globe"/>CSS Generators](https://css-generators.com/) websites from where you can easily copy the code of any CSS shape.
+Don’t forget to keep an eye on my[<FontIcon icon="fas fa-globe"/>CSS Shapes](https://css-shape.com/)and[<FontIcon icon="fas fa-globe"/>CSS Generators](https://css-generators.com/)websites from where you can easily copy the code of any CSS shape.
 
 ::: info Article Series
 

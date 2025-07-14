@@ -56,7 +56,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_cvh9AVHBSgPV4h8PggKlvw.
 
 **Use dynamic colors from your wallpaper in your Widget GlanceTheme**
 
-[If you have gone to the effort (<FontIcon icon="fa-brands fa-medium"/>`proadnroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee) to provide [themed app icons (<FontIcon icon="fa-brands fa-medium"/>`proadnroiddev`)](https://medium.com/proandroiddev/its-time-for-an-app-icon-makeover-107ccbb506eb) for your Android app, you have allowed the user to have a beautiful and consistent home screen aesthetic. Why should app widgets be any different? With Jetpack Compose Glance, you can easily theme your widgets to use dynamic colors from the wallpaper (when supported) and fit right in with the app icons.
+[If you have gone to the effort (<FontIcon icon="fa-brands fa-medium"/>`proadnroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee)to provide[themed app icons (<FontIcon icon="fa-brands fa-medium"/>`proadnroiddev`)](https://medium.com/proandroiddev/its-time-for-an-app-icon-makeover-107ccbb506eb)for your Android app, you have allowed the user to have a beautiful and consistent home screen aesthetic. Why should app widgets be any different? With Jetpack Compose Glance, you can easily theme your widgets to use dynamic colors from the wallpaper (when supported) and fit right in with the app icons.
 
 ::: tip
 
@@ -73,7 +73,7 @@ Do you want your widget to stand out from the background with custom colours dep
 
 . . .
 
-If you haven’t looked into [<FontIcon icon="fa-brands fa-android"/>Glance theming](https://developer.android.com/develop/ui/compose/glance/theme), it is pretty easy to set up. It is just the same as [<FontIcon icon="fa-brands fa-android"/>Material Design 3](https://developer.android.com/develop/ui/compose/designsystems/material3) theming where you can provide a custom set of colors to style your widget to match your app branding.
+If you haven’t looked into[<FontIcon icon="fa-brands fa-android"/>Glance theming](https://developer.android.com/develop/ui/compose/glance/theme), it is pretty easy to set up. It is just the same as[<FontIcon icon="fa-brands fa-android"/>Material Design 3](https://developer.android.com/develop/ui/compose/designsystems/material3)theming where you can provide a custom set of colors to style your widget to match your app branding.
 
 ```kotlin title="MotivateMeGlanceTheme.kt"
 object MotivateMeGlanceColorScheme {
@@ -106,17 +106,17 @@ class QuoteWidget : GlanceAppWidget() {
 
 <!-- @include: https://gist.github.com/KatieBarnett/e6ead24c8afb4cb19c1089613bc092ee/raw/54ccca785faedfae9e16fa4814d9d2fdfdfa6f56/MotivateMeGlanceTheme.kt -->
 
-In this basic set up, we have the app color scheme `lightScheme` and `darkScheme` provided as `ColorProviders` (using `androidx.glance:glance-material3`) to `GlanceTheme` which will set the custom color scheme for the widget.
+In this basic set up, we have the app color scheme`lightScheme`and`darkScheme`provided as`ColorProviders`(using`androidx.glance:glance-material3`) to`GlanceTheme`which will set the custom color scheme for the widget.
 
-To use this, wrap the content by the `GlanceTheme` and the widget will use the app branding.
+To use this, wrap the content by the`GlanceTheme`and the widget will use the app branding.
 
 Now, this would look a lot better on this background with coordinating colors rather than the purple app branding which clashes with this particular wallpaper.
 
-For this, we need to use the dynamic system color theming available for some devices (manufacturer depending) with [<FontIcon icon="fa-brands fa-android"/>Android 12 and above](https://android.com/intl/en_au/android-12/#a12-color-reimagined). If you haven’t yet played with the system theming, you just need to long press on the wallpaper and select ‘Wallpaper & style’. Here you can select a color theme to match your wallpaper or personal preference.
+For this, we need to use the dynamic system color theming available for some devices (manufacturer depending) with[<FontIcon icon="fa-brands fa-android"/>Android 12 and above](https://android.com/intl/en_au/android-12/#a12-color-reimagined). If you haven’t yet played with the system theming, you just need to long press on the wallpaper and select ‘Wallpaper & style’. Here you can select a color theme to match your wallpaper or personal preference.
 
 ![This is what sets the colors for your themed app icons!](https://droidcon.com/wp-content/uploads/2024/11/2-1.webp)
 
-To use this color theme, just update your `GlanceTheme` definition to use `GlanceTheme.colors` for supported versions of Android:
+To use this color theme, just update your`GlanceTheme`definition to use`GlanceTheme.colors`for supported versions of Android:
 
 ```kotlin title="MotivateMeGlanceTheme.kt"
 @Composable
@@ -140,11 +140,11 @@ For non supported devices, the app branding will be used. Now the widget blends 
 
 ![Not quite camouflage, but better.](https://droidcon.com/wp-content/uploads/2024/11/3-1.webp)
 
-You may notice that it still doesn’t match the themed app icons. In the example above the background is using `GlanceTheme.colors.background` for the background and `GlanceTheme.colors.onBackground` for the foreground text and icon. If you want to match the themed app icons for your widget then use `GlanceTheme.colors.widgetBackground` for the background and `GlanceTheme.colors.primary` for the foreground.
+You may notice that it still doesn’t match the themed app icons. In the example above the background is using`GlanceTheme.colors.background`for the background and`GlanceTheme.colors.onBackground`for the foreground text and icon. If you want to match the themed app icons for your widget then use`GlanceTheme.colors.widgetBackground`for the background and`GlanceTheme.colors.primary` for the foreground.
 
 ![From standing out to blending in. Perfect!](https://droidcon.com/wp-content/uploads/2024/11/4-1-1024x614.webp)
 
-To see a full example, see my [sample widget app (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-11):
+To see a full example, see my[sample widget app (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-11):
 
 <SiteInfo
   name="KatieBarnett/MotivateMe"
@@ -153,7 +153,7 @@ To see a full example, see my [sample widget app (<FontIcon icon="iconfont icon
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/e48744e1af1e9e66eb80f2b5d2e02dc223574c5da2a50758e30a7af1b5bb0d3f/KatieBarnett/MotivateMe"/>
 
-Do you want your widget to stand out from the background with custom colours depending on the wallpaper? Check out my other article [Widgets with Glance: Standing out (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee)
+Do you want your widget to stand out from the background with custom colours depending on the wallpaper? Check out my other article[Widgets with Glance: Standing out (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee)
 
 <SiteInfo
   name="Widgets with Glance: Standing out"

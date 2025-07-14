@@ -184,7 +184,7 @@ But FID is [<FontIcon icon="fas fa-globe"/>wrought with limitations](https://web
 
 ```component VPCard
 {
-  "title": "Towards a better responsiveness metric  |  Blog  |  web.dev",
+  "title": "Towards a better responsiveness metric | Blog | web.dev",
   "desc": "Learn about our thoughts on measuring responsiveness and give us feedback.",
   "link": "https://web.dev/blog/better-responsiveness-metric/",
   "logo": "https://gstatic.com/devrel-devsite/prod/vda41147226ae308b24384f785d31d739107d2716272d99cd11c490ff3892954d/web/images/favicon.png",

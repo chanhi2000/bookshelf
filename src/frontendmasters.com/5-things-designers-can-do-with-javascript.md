@@ -313,11 +313,11 @@ CodePen Embed Fallback
 
 Think: “A small, re-usable bit of styling and/or functionality that wraps a bit of otherwise perfectly usable HTML”. Jeremy Keith [<FontIcon icon="fas fa-globe"/>listed some examples](https://adactio.com/journal/tags/webcomponents) recently:
 
-> - [<FontIcon icon="iconfont icon-github"/>`jgarber623/aria-collapsible`](https://github.com/jgarber623/aria-collapsible) for toggling the display of one element when you click on another.
-> - [<FontIcon icon="iconfont icon-github"/>`daviddarnes/play-button`](https://github.com/daviddarnes/play-button) for adding a play button to an `audio` or `video` element.
-> - Chris’s [`ajax-form`](https://gomakethings.com/html-web-components/) for sending a form via Ajax instead of a full page refresh.
-> - Jim’s [`user-avatar`](https://blog.jim-nielsen.com/2023/html-web-components-an-example/) for adding a tooltip to an image.
-> - [<FontIcon icon="iconfont icon-github"/>`zachleat/table-saw`](https://github.com/zachleat/table-saw) for making tables responsive.
+> - [<FontIcon icon="iconfont icon-github"/>`jgarber623/aria-collapsible`](https://github.com/jgarber623/aria-collapsible)for toggling the display of one element when you click on another.
+> - [<FontIcon icon="iconfont icon-github"/>`daviddarnes/play-button`](https://github.com/daviddarnes/play-button)for adding a play button to an`audio`or`video`element.
+> - Chris’s[`ajax-form`](https://gomakethings.com/html-web-components/)for sending a form via Ajax instead of a full page refresh.
+> - Jim’s[`user-avatar`](https://blog.jim-nielsen.com/2023/html-web-components-an-example/)for adding a tooltip to an image.
+> - [<FontIcon icon="iconfont icon-github"/>`zachleat/table-saw`](https://github.com/zachleat/table-saw)for making tables responsive.
 
 ---
 

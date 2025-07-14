@@ -63,7 +63,7 @@ cover: /assets/image/blog.logrocket.com/how-to-manipulate-css-colors-with-javasc
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript/banner.png"/>
 
-## Color models 101
+## Color models101
 
 I know you’re here to learn about manipulating colors  —  and we’ll get there. But before we do, we need a baseline understanding of how CSS notates colors. CSS uses two different color models: RGB and HSL. Let’s take a quick look at both.
 
@@ -91,13 +91,13 @@ I find HSL to be a more intuitive model. Relations between colors are more immed
 
 ---
 
-## Conversion between color models
+## Conversion between colormodels
 
 Both the RGB and HSL color models break down a color into various attributes. To convert between the syntaxes, we first need to calculate these attributes.
 
 With the exception of hue, each value we have discussed can be represented as a percentage. Even the RGB values are byte-sized representations of percentages. In the formulas and functions below, these percentages will be represented by decimals between 0 and 1. I would like to note that I will not cover the math for these in depth; rather, I will briefly go over the original mathematical formula and then convert it into a JavaScript formula.
 
-### Calculating lightness from RGB
+### Calculating lightness fromRGB
 
 Lightness is the easiest of the three HSL values to calculate. Mathematically, the formula is displayed as follows, where `M` is the maximum of the RGB values and `m` is the minimum:
 
@@ -115,7 +115,7 @@ const rgbToLightness = (r,g,b) =>
     1/2 * (Math.max(r,g,b) + Math.min(r,g,b));
 ```
 
-### Calculating saturation from RGB
+### Calculating saturation fromRGB
 
 Saturation is only slightly more complicated than lightness. If the lightness is either 0 or 1, then the saturation value will be 0. Otherwise, it follows the mathematical formula below, where `L` represents lightness:
 
@@ -139,7 +139,7 @@ const rgbToSaturation = (r,g,b) => {
 };
 ```
 
-### Calculating hue from RGB
+### Calculating hue fromRGB
 
 The formula for calculating the hue angle from RGB coordinates is a bit more complex:
 
@@ -148,7 +148,7 @@ h=\text{atan2}\left(\sqrt{3}\cdot\left(G-B\right),2\cdot{R-G-B}\right)
 $$
 <!-- ![](https://storage.googleapis.com/blog-images-backup/0*oLI0PhBJhkE8BK_e.png) -->
 
-> The mathematical formula for hue
+> The mathematical formula forhue
 
 ```js
 const rgbToHue = (r,g,b) => Math.round(
@@ -174,7 +174,7 @@ const rgbToHsl = (r,g,b) => {
 }
 ```
 
-### Calculating RGB from HSL
+### Calculating RGB fromHSL
 
 Before jumping into calculating RGB, we need a few prerequisite values.
 
@@ -185,7 +185,7 @@ C=\left(1-\lvert2L-1\rvert\right)\cdot{S}
 $$
 <!-- ![](https://storage.googleapis.com/blog-images-backup/0*Noxj7Gk7KGYqGfvx.png) -->
 
-> The mathematical formula for chroma
+> The mathematical formula forchroma
 
 We also have a temporary hue value, whose range we will use to decide which “segment” of the hue circle we belong on:
 
@@ -195,7 +195,7 @@ $$
 
 <!-- ![](https://storage.googleapis.com/blog-images-backup/0*DgjQEdahvhEjn60j.png) -->
 
-> The mathematical formula for hue prime
+> The mathematical formula for hueprime
 
 Next, we have an $x$ value, which will be used as the middle (second-largest) component value:
 
@@ -205,7 +205,7 @@ $$
 
 <!-- ![](https://storage.googleapis.com/blog-images-backup/0*rmrqPF1miT7a-O-O.png) -->
 
-> The mathematical formula for a temporary “x” value
+> The mathematical formula for a temporary “x”value
 
 We have an $m$ value, which is used to adjust each of the values for lightness:
 
@@ -234,7 +234,7 @@ $$
 
 <!-- ![](https://storage.googleapis.com/blog-images-backup/0*Vlii9C8Cum3apLK-.png) -->
 
-The mathematical formula to account for lightness with RGB
+The mathematical formula to account for lightness withRGB
 
 Putting all of this together into a JavaScript function:
 
@@ -261,7 +261,7 @@ const hslToRgb = (h,s,l) => {
 }
 ```
 
-### Creating a color object
+### Creating a colorobject
 
 For ease of access when manipulating their attributes, we will be dealing with a JavaScript object. This can be created by wrapping the previously written functions:
 
@@ -342,7 +342,7 @@ const isDark = ({lightness}) => lightness < .5;
 
 ---
 
-## Dealing with color arrays
+## Dealing with colorarrays
 
 ### Filters
 

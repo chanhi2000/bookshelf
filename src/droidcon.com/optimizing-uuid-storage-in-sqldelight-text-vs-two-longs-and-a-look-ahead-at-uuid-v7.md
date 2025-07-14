@@ -62,8 +62,8 @@ Using UUIDs as primary keys in Kotlin applications that interact with databases 
 
 This article examines two primary methods of storing UUID v4 values in a SQLDelight-managed database:
 
-1. **Storing UUIDs as Text**: This straightforward approach involves saving the UUID as a string in a `TEXT` column. It leverages the human-readable format of UUIDs, simplifying debugging and logging processes.
-2. **Storing UUIDs as Two Longs**: A more space-efficient method involves splitting the UUID into its most significant bits (MSB) and least significant bits (LSB), each stored in separate `BIGINT` (`Long`) columns. This approach can offer performance benefits but introduces additional complexity in handling the UUID data.
+1. **Storing UUIDs as Text**: This straightforward approach involves saving the UUID as a string in a`TEXT`column. It leverages the human-readable format of UUIDs, simplifying debugging and logging processes.
+2. **Storing UUIDs as Two Longs**: A more space-efficient method involves splitting the UUID into its most significant bits (MSB) and least significant bits (LSB), each stored in separate`BIGINT`(`Long`) columns. This approach can offer performance benefits but introduces additional complexity in handling the UUID data.
 
 The following sections explore each method’s implementation details, advantages, and disadvantages. A performance comparison is included to assist in making an informed decision based on specific application needs. While UUID v7 promises to address some of these challenges with time-based ordering and improved performance, it has yet to be widely supported, making UUID v4 the current standard in many applications.
 
@@ -83,11 +83,11 @@ f47ac10b-58cc-4372-a567-0e02b2c3d479
 
 The structure of a UUID v4 is as follows:
 
-- **Time Low (8 hexadecimal digits):** Randomly generated.
-- **Time Mid (4 hexadecimal digits):** Randomly generated.
-- **Time High and Version (4 hexadecimal digits):** The first 12 bits are random, and the next 4 bits represent the version (0100 for version 4).
-- **Clock Sequence (4 hexadecimal digits):** The first 2 bits are variant bits, and the remaining 14 bits are random.
-- **Node (12 hexadecimal digits):** Randomly generated.
+- **Time Low (8 hexadecimal digits):**Randomly generated.
+- **Time Mid (4 hexadecimal digits):**Randomly generated.
+- **Time High and Version (4 hexadecimal digits):**The first 12 bits are random, and the next 4 bits represent the version (0100 for version 4).
+- **Clock Sequence (4 hexadecimal digits):**The first 2 bits are variant bits, and the remaining 14 bits are random.
+- **Node (12 hexadecimal digits):**Randomly generated.
 
 UUIDs allow systems to generate unique identifiers independently, reducing the need for centralized ID generation mechanisms and minimizing the risk of identifier collisions in distributed environments.
 
@@ -103,8 +103,8 @@ val uuid = Uuid.random()
 
 Each UUID consists of two 64-bit numbers:
 
-- **Most Significant Bits (MSB):** The first 64 bits of the UUID.
-- **Least Significant Bits (LSB):** The last 64 bits of the UUID.
+- **Most Significant Bits (MSB):**The first 64 bits of the UUID.
+- **Least Significant Bits (LSB):**The last 64 bits of the UUID.
 
 In Kotlin, these can be accessed as follows:
 
@@ -112,7 +112,7 @@ In Kotlin, these can be accessed as follows:
 val key = uuid.toLongs { msb, lsb -> // Do something with the components }
 ```
 
-These components are crucial when considering alternative storage methods, such as storing the UUID as two `BIGINT` (`Long`) values in a database.
+These components are crucial when considering alternative storage methods, such as storing the UUID as two`BIGINT`(`Long`) values in a database.
 
 #### Reconstructing a UUID from MSB and LSB
 
@@ -128,15 +128,15 @@ Uuid.fromLongs(msb, lsb)
 
 While Kotlin’s interoperability with Java provides robust UUID handling, integrating UUIDs with SQLDelight requires additional considerations:
 
-- **No Native UUID Type in SQLDelight:** SQLDelight does not support a UUID column type out of the box, necessitating alternative storage solutions.
-- **Data Type Mapping:** Deciding whether to store UUIDs as `TEXT` strings or split them into numeric types affects performance and complexity.
-- **Serialization and Deserialization:** Converting UUIDs to and from the chosen storage format adds overhead and potential points of failure if not handled correctly.
+- **No Native UUID Type in SQLDelight:**SQLDelight does not support a UUID column type out of the box, necessitating alternative storage solutions.
+- **Data Type Mapping:**Deciding whether to store UUIDs as`TEXT`strings or split them into numeric types affects performance and complexity.
+- **Serialization and Deserialization:**Converting UUIDs to and from the chosen storage format adds overhead and potential points of failure if not handled correctly.
 
 ### Option 1: Storing UUIDs as Text
 
 #### SQLDelight Schema
 
-The SQLDelight schema defines the `player` table, where the `id` the column is of type `TEXT` and serves as the primary key. The schema also includes several queries for interacting with the data:
+The SQLDelight schema defines the`player`table, where the`id`the column is of type`TEXT`and serves as the primary key. The schema also includes several queries for interacting with the data:
 
 ```sql
 CREATE TABLE IF NOT EXISTS player (
@@ -148,14 +148,14 @@ CREATE TABLE IF NOT EXISTS player (
 
 Here:
 
-- `id` is a `TEXT` field that stores the UUID as a string.
-- `name` and `age` are additional fields to store player data.
+- `id`is a`TEXT`field that stores the UUID as a string.
+- `name`and`age`are additional fields to store player data.
 
 The schema also provides queries for inserting, retrieving, and managing players.
 
 #### Repository
 
-The `PlayerRepository` the class provides functions to interact with the `player` table.
+The`PlayerRepository`the class provides functions to interact with the`player`table.
 
 ```kotlin :collapsed-lines title="PlayerRepository.kt"
 class PlayerRepository(private val queries: PlayerQueries) {
@@ -208,7 +208,7 @@ class PlayerRepository(private val queries: PlayerQueries) {
 
 @tab:active Storage Overhead
 
-- A `UUID` stored as text uses 36 characters, consuming more space compared to numeric representations like two `BIGINT` columns.
+- A`UUID`stored as text uses 36 characters, consuming more space compared to numeric representations like two`BIGINT`columns.
 
 @tab Performance Impact
 
@@ -216,19 +216,19 @@ class PlayerRepository(private val queries: PlayerQueries) {
 
 @tab Conversion Overhead
 
-- The repository must handle conversions between `UUID` and `TEXT` For every database operation, additional processing overhead is introduced.
+- The repository must handle conversions between`UUID`and`TEXT`For every database operation, additional processing overhead is introduced.
 
 :::
 
-However, for applications requiring high performance or handling large datasets, alternative methods like storing UUIDs as two `LONG` columns may be more appropriate.
+However, for applications requiring high performance or handling large datasets, alternative methods like storing UUIDs as two`LONG`columns may be more appropriate.
 
 ### Option 2: Storing UUIDs as Two Longs
 
-Storing UUIDs as two `LONG` columns involves splitting the UUID into its Most Significant Bits (MSB) and Least Significant Bits (LSB). This approach is designed to optimize storage and query performance while maintaining the uniqueness and functionality of UUIDs.
+Storing UUIDs as two`LONG`columns involves splitting the UUID into its Most Significant Bits (MSB) and Least Significant Bits (LSB). This approach is designed to optimize storage and query performance while maintaining the uniqueness and functionality of UUIDs.
 
 #### SQLDelight Schema
 
-The schema for the `playerTwo` table uses two `INTEGER` columns to store the MSB and LSB, with the combination of these columns serving as the primary key:
+The schema for the`playerTwo`table uses two`INTEGER`columns to store the MSB and LSB, with the combination of these columns serving as the primary key:
 
 ```sql
 CREATE TABLE IF NOT EXISTS playerTwo (
@@ -242,13 +242,13 @@ CREATE TABLE IF NOT EXISTS playerTwo (
 
 Here:
 
-- `msBit` and `lsBit` store the 64-bit parts of the UUID.
-- `name` and `age` hold additional player data.
-- The combination of `msBit` and `lsBit` ensures uniqueness.
+- `msBit`and`lsBit`store the 64-bit parts of the UUID.
+- `name`and`age`hold additional player data.
+- The combination of`msBit`and`lsBit`ensures uniqueness.
 
 #### Repository
 
-The `Player2Repository` class facilitates interaction with the `playerTwo` table and handles the conversion between UUID objects and their split components (`msb` and `lsb`).
+The`Player2Repository`class facilitates interaction with the`playerTwo`table and handles the conversion between UUID objects and their split components (`msb`and`lsb`).
 
 ```kotlin :collapsed-lines title="Player2Repository.kt"
 class Player2Repository(private val queries: Player2Queries) {
@@ -287,7 +287,7 @@ class Player2Repository(private val queries: Player2Queries) {
 
 @tab:active Storage Efficiency
 
-- UUIDs stored as two `BIGINT` columns use less space compared to their string representation (`TEXT`), reducing overall database size.
+- UUIDs stored as two`BIGINT`columns use less space compared to their string representation (`TEXT`), reducing overall database size.
 
 @tab Improved Query Performance
 
@@ -295,7 +295,7 @@ class Player2Repository(private val queries: Player2Queries) {
 
 @tab Compatibility with Numeric Indexing
 
-- Leveraging indexes on `msBit` and `lsBit` improves the speed of lookups and range-based queries.
+- Leveraging indexes on`msBit`and`lsBit`improves the speed of lookups and range-based queries.
 
 :::
 
@@ -319,13 +319,13 @@ class Player2Repository(private val queries: Player2Queries) {
 
 ### Hypothesis Results: Performance Comparison
 
-The hypothesis tests aim to evaluate the performance of two different UUID storage methods in SQLDelight: storing UUIDs as `TEXT` and storing them as two `BIGINT` columns (MSB and LSB). The tests measure retrieval speed and assess the overhead of each approach.
+The hypothesis tests aim to evaluate the performance of two different UUID storage methods in SQLDelight: storing UUIDs as`TEXT`and storing them as two`BIGINT`columns (MSB and LSB). The tests measure retrieval speed and assess the overhead of each approach.
 
 #### Experimental Setup
 
 **Data Insertion:**
 
-- Insert a large dataset of 25,000 player records into both repositories (`playerRepository` using `TEXT` storage and `player2Repository` using two `BIGINT` columns).
+- Insert a large dataset of 25,000 player records into both repositories (`playerRepository`using`TEXT`storage and`player2Repository`using two`BIGINT`columns).
 
 **Each record includes:**
 
@@ -409,14 +409,14 @@ MainInteraction.RunSpeedTest -> {
 
 **Metrics Captured:**
 
-- Average retrieval time for `playerRepository`.
-- Average retrieval time for `player2Repository`.
+- Average retrieval time for`playerRepository`.
+- Average retrieval time for`player2Repository`.
 
 #### Expected Results
 
 **Query Performance:**
 
-- `player2Repository` (storing UUIDs as MSB and LSB) is expected to outperform `playerRepository` (storing UUIDs as `TEXT`) in retrieval times.
+- `player2Repository`(storing UUIDs as MSB and LSB) is expected to outperform`playerRepository`(storing UUIDs as`TEXT`) in retrieval times.
 
 #### Preliminary Observations
 
@@ -436,15 +436,15 @@ MainInteraction.RunSpeedTest -> {
 
 **Average Retrieval Time:**
 
-- Storing UUIDs as two `BIGINT` columns resulted in an average retrieval time of **95.26 ms**, which is approximately **15.7% faster** than the `TEXT` storage method (112.96 ms).
+- Storing UUIDs as two`BIGINT`columns resulted in an average retrieval time of**95.26 ms**, which is approximately**15.7% faster**than the`TEXT`storage method (112.96 ms).
 - This demonstrates the expected performance advantage of numeric comparisons over string comparisons in database queries.
 
 **Standard Deviation:**
 
-- The standard deviation for the `Two Key` method (6.02) is smaller compared to the `String` method (9.06), indicating that the retrieval times for the `Two Key` the method was more consistent.
+- The standard deviation for the`Two Key`method (6.02) is smaller compared to the`String`method (9.06), indicating that the retrieval times for the`Two Key`the method was more consistent.
 - This suggests better overall reliability and predictability in query performance when using numeric storage.
 
-Another study was performed with a more extensive database size, and the results indicated the same pattern. Storing UUIDs as two `BIGINT` columns resulted in an average retrieval time of **259.65 ms**, approximately **27.2% faster** than the `TEXT` storage method (356.50 ms).
+Another study was performed with a more extensive database size, and the results indicated the same pattern. Storing UUIDs as two`BIGINT`columns resulted in an average retrieval time of**259.65 ms**, approximately**27.2% faster**than the`TEXT`storage method (356.50 ms).
 
 ![](https://droidcon.com/wp-content/uploads/2024/12/1_YBM-NtFart3HNPjw-nHU0Q.webp)
 
@@ -502,7 +502,7 @@ As UUID v7 becomes more standardized and supported in frameworks like Kotlin and
 
 ## Wrap Up
 
-The choice of how to store UUIDs in a SQLDelight database is an important decision that balances performance, simplicity, and future scalability. By comparing two approaches — storing UUIDs as `TEXT` versus splitting them into two `BIGINT` columns—we’ve highlighted the trade-offs involved:
+The choice of how to store UUIDs in a SQLDelight database is an important decision that balances performance, simplicity, and future scalability. By comparing two approaches — storing UUIDs as`TEXT`versus splitting them into two`BIGINT`columns—we’ve highlighted the trade-offs involved:
 
 ### Storing UUIDs as `TEXT`
 
@@ -516,7 +516,7 @@ The choice of how to store UUIDs in a SQLDelight database is an important decisi
 - Numeric comparisons and indexing provide consistent and faster results.
 - Introduces additional complexity for splitting and reconstructing UUIDs.
 
-The performance results confirmed that using two `BIGINT` columns is approximately 15.7% faster on average than storing UUIDs as `TEXT`. This makes the two-key method an excellent choice for applications with large datasets or high-performance requirements. On the other hand, the simplicity of `TEXT` storage makes it more appealing for smaller projects or scenarios where developer convenience is prioritized.
+The performance results confirmed that using two`BIGINT`columns is approximately 15.7% faster on average than storing UUIDs as`TEXT`. This makes the two-key method an excellent choice for applications with large datasets or high-performance requirements. On the other hand, the simplicity of`TEXT`storage makes it more appealing for smaller projects or scenarios where developer convenience is prioritized.
 
 We also briefly explored the emerging UUID v7 standard, which promises to combine the benefits of time-based ordering with the unique properties of UUIDs. While it has yet to be widely supported in Kotlin or SQLDelight, its potential for optimizing database performance and scalability is exciting.
 

@@ -127,7 +127,7 @@ If you want to read more of my Git articles and handbooks, here they are:
 
 ```component VPCard
 {
-  "title": "Git Reset Explained – How to Save the Day with the Reset Command",
+  "title": "GitReset Explained – How to Save the Day with the Reset Command",
   "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
   "link": "freecodecamp.org/save-the-day-with-git-reset.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

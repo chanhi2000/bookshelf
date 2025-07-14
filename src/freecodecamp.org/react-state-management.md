@@ -30,7 +30,7 @@ isOriginal: false
 author:
   - name: Timothy Olanrewaju
     url: https://freecodecamp.org/news/author/SmoothTech/
-cover: https://www.freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8fBB-g-unsplash.jpg
+cover: https://freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8fBB-g-unsplash.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -54,7 +54,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXM
   desc="State management is a crucial concept in React, which is one of the most popular JavaScript libraries in the world for building dynamic user interfaces.  Due to its importance in handling data, it is essential know how to manage state, when you need ..."
   url="https://freecodecamp.org/news/react-state-management"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8fBB-g-unsplash.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8fBB-g-unsplash.jpg"/>
 
 State management is a crucial concept in React, which is one of the most popular JavaScript libraries in the world for building dynamic user interfaces.
 

@@ -92,8 +92,8 @@ To use container queries, you must first define a [<FontIcon icon="fa-brands fa-
 
 The `container-type` can have a value of `size`, `inline-size`, or `normal`.
 
-- `size` establishes a query container for the inline and block dimensions as well as for style (which we cover at the end of this article). 
-- `inline-size` establishes a query container for the inline dimensions as well as for style. You’ll likely use this 99% of the time.
+- `size` establishes a query container for the inline and block dimensions as well as for style (which we cover at the end of this article).
+- `inline-size` establishes a query container for the inline dimensions as well as for style.You’ll likely use this 99% of the time.
 - `normal` establishes a query container only for style.
 
 One potential gotcha is that if you use `container-type: size` you need to add an explicit height. It will ignore the height of children elements. This is [<FontIcon icon="fas fa-globe"/>how it is specced](https://drafts.csswg.org/css-contain-2/#containment-size) to behave.
@@ -106,7 +106,7 @@ You can also use the `container` shorthand to define both properties. Such as:
 
 ```css
 .my-component {
-  container: my-component / inline-size;
+ container: my-component / inline-size;
 }
 ```
 
@@ -116,9 +116,9 @@ Once you’ve defined a container, you can use a `@container` query and select a
 
 ```css
 @container (min-width: 500px) {
-  .my-component p {
-    font-size: 1.5rem;
-  }
+ .my-component p {
+  font-size: 1.5rem;
+ }
 }
 ```
 
@@ -126,9 +126,9 @@ Or, if you want to use the container name in the query:
 
 ```css
 @container my-component (min-width: 500px) {
-  .my-component p {
-    font-size: 1.5rem;
-  }
+ .my-component p {
+  font-size: 1.5rem;
+ }
 }
 ```
 
@@ -138,9 +138,9 @@ But you don’t *have to* refer to the container element in the selector, meanin
 
 ```css
 @container my-component (min-width: 500px) {
-  p {
-    font-size: 1.5rem;
-  }
+ p {
+  font-size: 1.5rem;
+ }
 }
 ```
 

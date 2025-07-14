@@ -69,7 +69,7 @@ If you prefer to use an online REPL, then you also have a few options available:
   preview="https://python.org/static/opengraph-icon-200x200.png"/>
 
 <SiteInfo
-  name="Replit – Build apps and sites with AI"
+  name="Replit –Build apps and sites with AI"
   desc="Replit is an AI-powered platform for building professional web apps and websites."
   url="https://replit.com/"
   logo="https://cdn.replit.com/dotcom/favicon-196.png"

@@ -29,7 +29,7 @@ prev: /programming/php/articles/README.md
 date: 2022-03-03
 isOriginal: false
 author: Beau Carnes
-cover: https://www.freecodecamp.org/news/content/images/2022/03/woocomerce.png
+cover: https://freecodecamp.org/news/content/images/2022/03/woocomerce.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -53,7 +53,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/03/woocomerce.png
   desc="Creating your own eCommerce website is easier than you may think. You don't even need to know how to code. I just created and published a course on the freeCodeCamp.org YouTube channel that will teach you how to build an online store with WooCommerce..."
   url="https://freecodecamp.org/news/how-to-create-an-ecommere-website-using-woocomerce"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/03/woocomerce.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/03/woocomerce.png"/>
 
 Creating your own eCommerce website is easier than you may think. You don't even need to know how to code.
 

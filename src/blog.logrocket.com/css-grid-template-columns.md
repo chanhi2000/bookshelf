@@ -582,8 +582,8 @@ Combining these properties means `grid-template-columns` defines the columns and
 `grid-auto-flow` has four primary values:
 
 - `row` — Places items in rows (default)
-- `column` — Places items in columns
-- `row dense` — Fills in gaps in rows
+- `column`— Places items in columns
+- `row dense`— Fills in gaps in rows
 - `column dense` — Fills in gaps in columns
 
 The default item flow in a grid container is `row`, meaning items are arranged horizontally in each row. When a row is full, the placement continues on the next row:

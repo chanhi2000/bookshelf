@@ -27,7 +27,7 @@ isOriginal: false
 author:
   - name: Manish Shivanandhan
     url : https://freecodecamp.org/news/author/manishshivanandhan/
-cover: https://www.freecodecamp.org/news/content/images/2022/11/cover.png
+cover: https://freecodecamp.org/news/content/images/2022/11/cover.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -51,7 +51,7 @@ cover: https://www.freecodecamp.org/news/content/images/2022/11/cover.png
   desc="Information technology has made a profound impact on our lives over the last three decades. It has helped us create global businesses, transform industries, and build powerful connections. But it has also led to increased risks in security and privac..."
   url="https://freecodecamp.org/news/principle-of-lease-privilege-meaning-cybersecurity"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2022/11/cover.png"/>
+  preview="https://freecodecamp.org/news/content/images/2022/11/cover.png"/>
 
 Information technology has made a profound impact on our lives over the last three decades. It has helped us create global businesses, transform industries, and build powerful connections.
 

@@ -62,7 +62,7 @@ There is lots of news of [<FontIcon icon="fa-brands fa-react"/>React 19 and goin
 
 @tab:active Server Side Rendering
 
-props passed to a custom element will render as attributes if their type is a primitive value like `string`, `number`, or the value is `true`. Props with non-primitive types like `object`, `symbol`, `function`, or value `false` will be omitted.
+props passed to a custom element will render as attributes if their type is a primitive value like`string`,`number`, or the value is`true`. Props with non-primitive types like`object`,`symbol`,`function`, or value`false`will be omitted.
 
 @tab Client Side Rendering
 

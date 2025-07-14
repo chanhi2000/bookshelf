@@ -25,7 +25,7 @@ isOriginal: false
 author:
   - name: Destiny Erhabor
     url : https://freecodecamp.org/news/author/CaesarSage/
-cover: https://www.freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4d061A-unsplash.jpg
+cover: https://freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4d061A-unsplash.jpg
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -49,7 +49,7 @@ cover: https://www.freecodecamp.org/news/content/images/2024/07/ferenc-almasi-Hf
   desc="When building web applications in Golang, working with JSON data is inevitable. Whether you're sending responses to clients or parsing requests, JSON encoding and decoding are essential skills to master.  In this article, we'll explore the different ..."
   url="https://freecodecamp.org/news/encoding-and-decoding-data-in-golang"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://www.freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4d061A-unsplash.jpg"/>
+  preview="https://freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4d061A-unsplash.jpg"/>
 
 When building web applications in Golang, working with JSON data is inevitable. Whether you're sending responses to clients or parsing requests, JSON encoding and decoding are essential skills to master.
 

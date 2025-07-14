@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Hackers Use Command Execution to Break Into Systems"
-description: "Article(s) > How Hackers Use Command Execution to Break Into Systems"
+title: "How Hackers Use Command Execution to Break IntoSystems"
+description: "Article(s) > How Hackers Use Command Execution to Break IntoSystems"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Hackers Use Command Execution to Break Into Systems"
+      content: "Article(s) > How Hackers Use Command Execution to Break IntoSystems"
     - property: og:description
-      content: "How Hackers Use Command Execution to Break Into Systems"
+      content: "How Hackers Use Command Execution to Break IntoSystems"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-hackers-use-command-execution-to-break-into-systems.html
 prev: /devops/security/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732527958866/65644a1
 ---
 
 <SiteInfo
-  name="How Hackers Use Command Execution to Break Into Systems"
+  name="How Hackers Use Command Execution to Break IntoSystems"
   desc="When learning about cybersecurity, you’ll quickly realize that some vulnerabilities are more dangerous than others. One of the most serious ones is called command execution.  Hackers use it to run harmful commands on a system, gain access to sensitiv..."
   url="https://freecodecamp.org/news/how-hackers-use-command-execution-to-break-into-systems"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -159,7 +159,7 @@ Want some real-world experience in cybersecurity? Try our five-day* [<FontIcon i
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Hackers Use Command Execution to Break Into Systems",
+  "title": "How Hackers Use Command Execution to Break IntoSystems",
   "desc": "When learning about cybersecurity, you’ll quickly realize that some vulnerabilities are more dangerous than others. One of the most serious ones is called command execution.  Hackers use it to run harmful commands on a system, gain access to sensitiv...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-hackers-use-command-execution-to-break-into-systems.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

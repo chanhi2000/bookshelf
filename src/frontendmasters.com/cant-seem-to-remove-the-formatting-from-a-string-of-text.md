@@ -69,7 +69,7 @@ That first “C” you see above isn’t a regular uppercase character C, our ty
   logo="https://en.wikipedia.org/static/favicon/wikipedia.ico"
   preview="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/New_Unicode_logo.svg/640px-New_Unicode_logo.svg.png"/>
 
-> As of [<FontIcon icon="fa-brands fa-wikipedia-w"/>Unicode](https://en.wikipedia.org/wiki/Unicode) version 16.0, there are 155,063 [<FontIcon icon="fa-brands fa-wikipedia-w"/>characters](https://en.wikipedia.org/wiki/Character_(computing)) with [<FontIcon icon="fa-brands fa-wikipedia-w"/>code points](https://en.wikipedia.org/wiki/Code_point), covering 168 modern and historical [<FontIcon icon="fa-brands fa-wikipedia-w"/>scripts](https://en.wikipedia.org/wiki/Script_(Unicode)), as well as multiple symbol sets.
+> As of[<FontIcon icon="fa-brands fa-wikipedia-w"/>Unicode](https://en.wikipedia.org/wiki/Unicode)version 16.0, there are 155,063[<FontIcon icon="fa-brands fa-wikipedia-w"/>characters](https://en.wikipedia.org/wiki/Character_(computing))with[<FontIcon icon="fa-brands fa-wikipedia-w"/>code points](https://en.wikipedia.org/wiki/Code_point), covering 168 modern and historical[<FontIcon icon="fa-brands fa-wikipedia-w"/>scripts](https://en.wikipedia.org/wiki/Script_(Unicode)), as well as multiple symbol sets.
 
 :::
 

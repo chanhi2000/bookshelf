@@ -134,7 +134,7 @@ Here’s a video of focus trapping at work with the modal state. Notice the “f
 
 ~There is no way to show a dialog in the modal state from HTML alone.~
 
-Welllll, the above isn’t strictly true anymore as I [<FontIcon icon="fas fa-globe"/>learned from Curtis Wilcox in the comments](https://frontendmasters.com/blog/lessons-learned-from-recreating-a-styled-dialog/#comment-25883). We can actually use the `popover` syntax to make a button in HTML alone that will open the dialog. That will (sadly) only open the dialog in the non-modal state, but at least it’s a toggle without JavaScript! The good news is that the Invoker Commands API is actually all over this. It’s used like this:
+Welllll, the above isn’t strictly true anymore as I [<FontIcon icon="fas fa-globe"/>learned from Curtis Wilcoxin the comments](https://frontendmasters.com/blog/lessons-learned-from-recreating-a-styled-dialog/#comment-25883). We can actually use the `popover` syntax to make a button in HTML alone that will open the dialog. That will (sadly) only open the dialog in the non-modal state, but at least it’s a toggle without JavaScript! The good news is that the Invoker Commands API is actually all over this. It’s used like this:
 
 ```html
 <dialog id="my-dialog">
@@ -235,7 +235,7 @@ When instead we could be living in the future like:
 
 I once [<FontIcon icon="fas fa-globe"/>said this](https://chriscoyier.net/2023/06/12/margin-trim-as-a-best-practice/) and I’m sticking to it:
 
-> If you add `padding` in the main flow direction of an element, adding `margin-trim` in that same direction.
+> If you add`padding`in the main flow direction of an element, adding`margin-trim`in that same direction.
 
 ---
 
@@ -273,7 +273,7 @@ In reading over [<FontIcon icon="fa-brands fa-firefox"/>the MDN for dialogs](htt
 
 ::: info The Dialog element <FontIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>
 
-> The [<FontIcon icon="fa-brands fa-firefox"/>`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus) attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add `autofocus` to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
+> The[<FontIcon icon="fa-brands fa-firefox"/>`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus)attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add`autofocus`to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
 
 :::
 

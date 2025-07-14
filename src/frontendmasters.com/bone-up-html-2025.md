@@ -227,7 +227,7 @@ I’m a fan here because the absolutely correct implementation of a toggle/switc
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-[**Daniel Yuschick has an article**](/smashingmagazine.com/switching-it-up-html-latest-control.md) digging into the details. I like the idea that pseudo elements specific to this UI will be exposed, like `::thumb` and `::track`, but I can’t tell you what the status of that is right now. Even [<FontIcon icon="fas fa-globe"/>the official demos](https://webkit.org/demos/html-switch/) in Safari Nightly Preview *with* the flag turned on aren’t rendering properly for me.
+[**Daniel Yuschick has an article**](/smashingmagazine.com/switching-it-up-html-latest-control.md) digging into the details. I like the idea that pseudo elements specific to this UI will be exposed, like `::thumb`and`::track`, but I can’t tell you what the status of that is right now. Even [<FontIcon icon="fas fa-globe"/>the official demos](https://webkit.org/demos/html-switch/) in Safari Nightly Preview *with* the flag turned on aren’t rendering properly for me.
 
 ---
 

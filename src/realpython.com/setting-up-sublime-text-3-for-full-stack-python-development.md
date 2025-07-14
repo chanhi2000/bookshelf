@@ -480,7 +480,7 @@ Install these by adding the Python files to your <FontIcon icon="fas fa-folder-o
 ```
 
 3. [Unofficial documentation reference](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html)
-4. [Pimp my Editor - Presentation](http://slides.com/nicklang/pimp-my-editor)
+4. [Pimp my Editor - Presentation](https://slides.com/nicklang/pimp-my-editor)
 
 ![](https://files.realpython.com/media/sublime-logo-python-logo.596cdae91f05.png)
 

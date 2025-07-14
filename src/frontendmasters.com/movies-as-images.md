@@ -61,7 +61,7 @@ Animated GIFs just suck for web performance, so don’t put them on websites. To
   logo="https://calendar.perfplanet.com/wp-content/themes/wpc2/wpclogo.png"
   preview="https://colinbendell.cloudinary.com/image/upload/c_crop,f_auto,g_auto,h_350,w_400/v1512090971/Wizard-Clap-by-Markus-Magnusson.gif"/>
 
-> Animated GIFs are terrible for web performance. They are HUGE in size, impact cellular data bills, require more CPU and memory, cause repaints, and are battery killers.
+> Animated GIFs are terrible for web performance. They are HUGE in size, impact cellular data bills, require more CPU and memory,cause repaints, and are battery killers.
 
 :::
 

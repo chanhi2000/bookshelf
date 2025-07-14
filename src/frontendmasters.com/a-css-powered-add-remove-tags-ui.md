@@ -43,12 +43,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 <SiteInfo
   name="A CSS-Powered Add/Remove Tags UI – Frontend Masters Boost"
-  desc="Checkboxes and labels used to have to be right next to each other to be a potent UI duo. You could do trickery like this:But now, thanks to :has() in CSS, we’re not beholden to that structure anymore. We can :has() it all, as it is said. Now that these HTML elements have some autonomy, without losing their connection to […]"
+  desc="Checkboxes and labelsusedto have to be right next to each other to be a potent UI duo. You could do trickery like this:But now, thanks to:has()in CSS, we’re not beholden to that structure anymore.We can :has() it all, as it is said. Now that these HTML elements have some autonomy, without losing their connection to […]"
   url="https://frontendmasters.com/blog/a-css-powered-add-remove-tags-ui/"
   logo="/favicon-16x16.png"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/1650"/>
 
-Checkboxes and labels *used* to have to be right next to each other to be a potent UI duo. You could do trickery like this:
+Checkboxes and labels*used*to have to be right next to each other to be a potent UI duo. You could do trickery like this:
 
 ```html
 <label for="toggle">Toggle</label>
@@ -62,7 +62,7 @@ Checkboxes and labels *used* to have to be right next to each other to be a po
 }
 ```
 
-But now, thanks to `:has()` in CSS, we’re not beholden to that structure anymore. [We can `:has()` it all](/frontendmasters.com/we-can-has-it-all.md), as it is said. Now that these HTML elements have some autonomy, without losing their connection to one another, a lot can be achieved
+But now, thanks to`:has()`in CSS, we’re not beholden to that structure anymore.[We can `:has()` it all](/frontendmasters.com/we-can-has-it-all.md), as it is said. Now that these HTML elements have some autonomy, without losing their connection to one another, a lot can be achieved
 
 Using this as a base concept, we can build a tag management component operated entirely in HTML & CSS.
 
@@ -70,15 +70,15 @@ Using this as a base concept, we can build a tag management component operated e
 
 ## A Tag Component with Interactive HTML
 
-A `<label>` is an interactive element that can trigger its controlled element. For instance, when we click a `<label>` paired with an `<input type="checkbox">` the checkbox’s `:checked` state toggles.
+A`<label>`is an interactive element that can trigger its controlled element. For instance, when we click a`<label>`paired with an`<input type="checkbox">`the checkbox’s`:checked`state toggles.
 
-A combo with a `<label>` allows us to design a toggle UI that can be operated from **_two different_** locations on a page (both the label and the checkbox). The controlled element is in one location and the label is in the other.
+A combo with a`<label>`allows us to design a toggle UI that can be operated from**_two different_**locations on a page (both the label and the checkbox). The controlled element is in one location and the label is in the other.
 
 How far and how independent these two locations have to be from each other for the duo to work used to be limited, since labels can’t directly inform us which state their controlled element is currently in. For that, we have to ask the controlled element itself each time, and keep the label close to the element, so the label can be accessed in CSS during the element’s state change.
 
 That was the case before.
 
-Because of modern CSS standards like Grid, `:has()` selector and such, there’s much more freedom now between the source code arrangement in the HTML and our [<FontIcon icon="fa-brands fa-codepen"/>ability to reach any element in CSS](https://codepen.io/chriscoyier/pen/xxejMyw).
+Because of modern CSS standards like Grid,`:has()`selector and such, there’s much more freedom now between the source code arrangement in the HTML and our[<FontIcon icon="fa-brands fa-codepen"/>ability to reach any element in CSS](https://codepen.io/chriscoyier/pen/xxejMyw).
 
 <CodePen
   user="chriscoyier"
@@ -115,11 +115,11 @@ body:has(#three:checked) p {
 }
 ```
 
-In this article, **I’ll be using checkboxes, labels**, **and** [<FontIcon icon="fa-brands fa-firefox"/>`:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) **selectors to design** **a UI where you can add and remove “tags”**. The UI will have a set of tags to select from, and a set of tags that have been selected. Clicking a tag in one set removes it from one area and makes it appear in the other set. It’s a functionality that’s perfect for checkboxes and labels to take on. Using the `:has()` selector means, I can keep the two set of tags in as much of a distance or depth from each other as I want, which in turn provides a lot flexibility.
+In this article,**I’ll be using checkboxes, labels**,**and**[<FontIcon icon="fa-brands fa-firefox"/>`:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)**selectors to design****a UI where you can add and remove “tags”**. The UI will have a set of tags to select from, and a set of tags that have been selected. Clicking a tag in one set removes it from one area and makes it appear in the other set. It’s a functionality that’s perfect for checkboxes and labels to take on. Using the`:has()`selector means, I can keep the two set of tags in as much of a distance or depth from each other as I want, which in turn provides a lot flexibility.
 
-Although the `:has()` selector can be used in many ways, in this article we’ll focus on its ability to target an element containing a specific child element. The parent is mentioned before the colon (`:`) and the child is mentioned inside the parentheses of `has()`. For example, `p:has(> mark)` selects all elements that have at least one direct descendant that’s a `<mark>`. Another example, `div:has(:checked)` selects all `<div>` elements that have at least one descendant (direct or not) element that’s in a checked state, like a radio or checkbox.
+Although the`:has()`selector can be used in many ways, in this article we’ll focus on its ability to target an element containing a specific child element. The parent is mentioned before the colon (`:`) and the child is mentioned inside the parentheses of`has()`. For example,`p:has(>mark)` selects all elements that have at least one direct descendant that’s a `<mark>`. Another example, `div:has(:checked)` selects all `<div>` elements that have at least one descendant (direct or not) element that’s in a checked state, like a radio or checkbox.
 
-Now that we’ve got the basics covered. Here’s the final demo we’ll be working towards. We’re going to use **movie genres** as our tags.
+Now that we’ve got the basics covered. Here’s the final demo we’ll be working towards. We’re going to use**movie genres**as our tags.
 
 <CodePen
   user="rpsthecoder"
@@ -141,7 +141,7 @@ There are two parts:
 
 Because we’ll be designing a cluster of tags of movie genres, a script is set up to add the checkboxes and labels for each genre to the HTML.
 
-The script uses HTML [<FontIcon icon="fa-brands fa-firefox"/>`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) to build the new elements off of. This is to prove that you could build all of this dynamically with arbitrary tags from a data source. You can use any method you prefer or not use script at all and directly build the HTML. You’ll see the full source code in a moment.
+The script uses HTML[<FontIcon icon="fa-brands fa-firefox"/>`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)to build the new elements off of. This is to prove that you could build all of this dynamically with arbitrary tags from a data source. You can use any method you prefer or not use script at all and directly build the HTML. You’ll see the full source code in a moment.
 
 ```html
 <div>
@@ -191,10 +191,10 @@ for (let i = 0; i < genres.length; i++) {
 
 In the script:
 
-1. A set of `genres` (tag values) is stored as an array
-2. For each item in the `genres` array, a new [<FontIcon icon="fa-brands fa-firefox"/>`clone`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode) is created from the [<FontIcon icon="fa-brands fa-firefox"/>`template`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement) that has an empty `plus` (checkbox) and `minus` (label) tag, as seen inside the `<template>` in HTML
-3. The empty tags’ text and attributes are filled using the `genres` item’s value and index
-4. Finally, the filled tags are added to their respective containers on the page — `<div>` and `<ul>`
+1. A set of`genres`(tag values) is stored as an array
+2. For each item in the`genres`array, a new[<FontIcon icon="fa-brands fa-firefox"/>`clone`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)is created from the[<FontIcon icon="fa-brands fa-firefox"/>`template`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement)that has an empty`plus`(checkbox) and`minus`(label) tag, as seen inside the`<template>`in HTML
+3. The empty tags’ text and attributes are filled using the`genres`item’s value and index
+4. Finally, the filled tags are added to their respective containers on the page —`<div>`and`<ul>`
 
 Here’s how the HTML source code will look like once the page renders:
 
@@ -214,8 +214,8 @@ Here’s how the HTML source code will look like once the page renders:
 </ul>
 ```
 
-1. The parent of each checkbox is `.plus`. They are meant to be the tags that are yet to be included. It’s sectioned off inside a `<div>`
-2. Each label is `.minus` — the tags that are included. These are arranged in a list inside a `<ul>`
+1. The parent of each checkbox is`.plus`. They are meant to be the tags that are yet to be included. It’s sectioned off inside a`<div>`
+2. Each label is`.minus`— the tags that are included. These are arranged in a list inside a`<ul>`
 
 ---
 
@@ -241,13 +241,13 @@ li { display: none; }
 }
 ```
 
-1. Initially, the list items (`li`) with the .`minus` tags are not displayed. It means the user hasn’t selected any tag to be included yet
-2. When user selects a tag — i.e. checks a checkbox (`:has(input:checked)`) — its parent element, `.plus`, is removed with `display:` “\`none\`
-3. And the corresponding `.minus` label’s parent (ex. `li:has([for='c1']`) is made visible with `display: revert`
+1. Initially, the list items (`li`) with the .`minus`tags are not displayed. It means the user hasn’t selected any tag to be included yet
+2. When user selects a tag — i.e. checks a checkbox (`:has(input:checked)`) — its parent element,`.plus`, is removed with`display:`“\`none\`
+3. And the corresponding`.minus`label’s parent (ex.`li:has([for='c1']`) is made visible with`display: revert`
 
 ::: note
 
-The CSS keyword `revert` changes a property value to its browser default
+The CSS keyword`revert`changes a property value to its browser default
 
 :::
 
@@ -266,7 +266,7 @@ for (let i = 0; i < genres.length; i++) {
 `:has(#c${i+1}:checked) li:has([for='c${i+1}']) { display: revert; }` 
 ```
 
-In the above script: A new `style` is added to the page, and to this `style` a css rule for each `genres` items is added. The css rule is same as in the css snippet from before. Here the `id` values are dynamically generated.
+In the above script: A new`style`is added to the page, and to this`style`a css rule for each`genres`items is added. The css rule is same as in the css snippet from before. Here the`id`values are dynamically generated.
 
 ---
 
@@ -325,7 +325,7 @@ label {
 }
 ```
 
-1. The `.plus` and `.minus` tags are colored and bordered. Each has a pseudo-element (`::after`) to add the “+” and “-“ icon next to it, respectively
+1. The`.plus`and`.minus`tags are colored and bordered. Each has a pseudo-element (`::after`) to add the “+” and “-“ icon next to it, respectively
 2. The checkbox’s default appearance is removed and is made to fill the area of its container element, so the entire container is clickable
 
 <CodePen
@@ -341,9 +341,9 @@ label {
 
 Notification messages can be displayed to the users in certain circumstances, and this can also be done entirely in CSS:
 
-1. When *no* tags are selected
-2. When *at least one* tag is selected
-3. When *all* tags have been selected
+1. When*no*tags are selected
+2. When*at least one*tag is selected
+3. When*all*tags have been selected
 
 ```css
 ul {
@@ -367,23 +367,23 @@ ul {
 }
 ```
 
-In the above CSS [<FontIcon icon="fa-brands fa-firefox"/>nested](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) code snippet:
+In the above CSS[<FontIcon icon="fa-brands fa-firefox"/>nested](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)code snippet:
 
-1. `&` represents `<ul>`. Hence `&::before` means `ul:before`
-2. `:has()` and `:not(:has())` represent when the root element (the page) contains a given selector (mentioned inside the parentheses) and when it doesn’t
-3. `input:checked` is a checked box
-4. `input:not(:checked)` is an unchecked box
+1. `&`represents`<ul>`. Hence`&::before`means`ul:before`
+2. `:has()`and`:not(:has())`represent when the root element (the page) contains a given selector (mentioned inside the parentheses) and when it doesn’t
+3. `input:checked`is a checked box
+4. `input:not(:checked)`is an unchecked box
 
 And here’s what’s happening in the code:
 
-1. A `::before` pseudo-element is added to the `<ul>`. This serves as the notification area
-2. When the page has no checked element, `'No tags included yet'` is displayed
-3. When the page has at least one checked and one unchecked box, `'Following tags are included'` is shown
-4. When the page doesn’t have any unchecked box, `'All tags are included'` appears
+1. A`::before`pseudo-element is added to the`<ul>`. This serves as the notification area
+2. When the page has no checked element,`'No tags included yet'`is displayed
+3. When the page has at least one checked and one unchecked box,`'Following tags are included'`is shown
+4. When the page doesn’t have any unchecked box,`'All tags are included'`appears
 
 ::: tip
 
-Instead of the root element you can scope the code to a common parent, too. Ex. using `main:has()` instead of `:has()`, when `<main>` is a common ancestor of the two group of tags
+Instead of the root element you can scope the code to a common parent, too. Ex. using`main:has()`instead of`:has()`, when`<main>`is a common ancestor of the two group of tags
 
 :::
 
@@ -404,7 +404,7 @@ Because there’s so much independence between the two set of tags, it frees you
 
 ::: tip Bonus
 
-You can even use CSS counters to add a running count of selected and unselected tags, if you want. Read on CSS counters for a similar use case [<FontIcon icon="fas fa-globe"/>here](https://css-tricks.com/counting-css-counters-css-grid/).
+You can even use CSS counters to add a running count of selected and unselected tags, if you want. Read on CSS counters for a similar use case[<FontIcon icon="fas fa-globe"/>here](https://css-tricks.com/counting-css-counters-css-grid/).
 
 <SiteInfo
   name="Counting With CSS Counters And CSS Grid | CSS-Tricks"
@@ -419,7 +419,7 @@ You can even use CSS counters to add a running count of selected and unselected 
 ```component VPCard
 {
   "title": "A CSS-Powered Add/Remove Tags UI",
-  "desc": "Checkboxes and labels used to have to be right next to each other to be a potent UI duo. You could do trickery like this:But now, thanks to :has() in CSS, we’re not beholden to that structure anymore. We can :has() it all, as it is said. Now that these HTML elements have some autonomy, without losing their connection to […]",
+  "desc": "Checkboxes and labelsusedto have to be right next to each other to be a potent UI duo. You could do trickery like this:But now, thanks to:has()in CSS, we’re not beholden to that structure anymore.We can :has() it all, as it is said. Now that these HTML elements have some autonomy, without losing their connection to […]",
   "link": "https://chanhi2000.github.io/bookshelf/frontendmasters.com/a-css-powered-add-remove-tags-ui.html",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"

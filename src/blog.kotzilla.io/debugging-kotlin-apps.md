@@ -91,14 +91,14 @@ In Android Studio, debugging typically begins with `println` statements to gain 
 
 ## Debugging in production
 
-Once an application is deployed, debugging shifts focus from development to observing application behavior in real-world scenarios. Observability platforms provide insights into performance and help identify issues that may not be apparent during development. While they are great for monitoring production and analyzing crashes, they also  often fall short when it comes to the nuanced debugging of component lifecycles and thread interactions.
+Once an application is deployed, debugging shifts focus from development to observing application behavior in real-world scenarios. Observability platforms provide insights into performance and help identify issues that may not be apparent during development.While they are great for monitoring production and analyzing crashes, they also often fall short when it comes to the nuanced debugging of component lifecycles and thread interactions.
 
 ### With observability tools you get
 
-- **Crash reporting**: Observability tools  almost always  include crash reporting features that provide detailed information about application crashes, including stack traces helping pinpoint where in the code the app crashed.
+- **Crash reporting**: Observability tools almost always include crash reporting features that provide detailed information about application crashes, including stack traces helping pinpoint where in the code the app crashed.
 
 - **Performance monitoring**: They track different performance metrics, such as app startup time, UI response times, and memory usage, allowing developers to identify slow rendering times or long network calls
-- **Error tracking and logging**: With custom logging and error tracking, you can capture and monitor errors that don’t cause the app to crash but still negatively impact user experience (e.g., failed API requests, timeouts). 
+- **Error tracking and logging**: With custom logging and error tracking, you can capture and monitor errors that don’t cause the app to crash but still negatively impact user experience (e.g., failed API requests, timeouts).
 - **Distributed tracing**: Distributed tracing allows you to follow requests through different services (e.g., between the mobile app and backend APIs), which is important for debugging interactions between the client and server.
 - **Real User Monitoring (RUM)**: They often provide features capturing user interactions with the mobile app, allowing you to identify specific slowdowns or crashes experienced by users on various devices or operating systems.
 
@@ -122,7 +122,7 @@ This allows the Kotzilla Platform to give you detailed, contextual insights into
 
 The Kotzilla Platform is a pretty comprehensive debugging tool designed specifically for Kotlin developers. It offers a unified approach that bridges the gap between development and production environments, providing insights and tools to tackle the unique issues of Kotlin app development.
 
- By using Koin's container, the [<FontIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.kotzilla.io/docs/seetings/overview) automatically collects essential data about your application's behavior without any intrusive instrumentation or performance overhead. This allows the platform to provide you with detailed, contextual insights into the inner workings of your Kotlin app.
+By using Koin's container, the [<FontIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.kotzilla.io/docs/seetings/overview) automatically collects essential data about your application's behavior without any intrusive instrumentation or performance overhead. This allows the platform to provide you with detailed, contextual insights into the inner workings of your Kotlin app.
 
 ---
 

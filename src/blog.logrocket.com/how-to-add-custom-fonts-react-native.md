@@ -225,7 +225,7 @@ You should see the default Expo screen in your simulator or device:
 
 ![default expo screen](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/6_default-expo-screen.png)
 
-### Loading custom fonts using the `useFonts` Hook
+### Loading custom fonts using the`useFonts` Hook
 
 In React Native with Expo, the `useFonts` Hook is the recommended approach for loading and using custom fonts. It takes an object where the key is the name you want to use to reference the font, and the value is the required statement pointing to the font file.
 
