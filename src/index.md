@@ -67,6 +67,10 @@ projects:
     name: digitalocean.com
     desc: "DigitalOcean | Cloud Infrastructure for Developers"
     link: /digitalocean.com/README.md
+  - icon: https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png
+    name: docker.com
+    desc: "Docker Blog | Docker"
+    link: /docker.com/README.md
   - icon: https://tecmint.com/wp-content/uploads/2020/07/favicon.ico
     name: tecmint.com
     desc: "Tecmint: Linux Howtos, Tutorials & Guides"

@@ -24,7 +24,7 @@ head:
       content: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/
-prev: /programming/js/articles/README.md
+prev: /programming/js-mermaid/articles/README.md
 date: 2025-05-12
 isOriginal: false
 author:
@@ -144,15 +144,15 @@ In most programming versions, the player faces off against the computer, which m
 
 We are going to compare the (vanilla) JavaScript code for the following 5 projects, ordered by complexity:
 
-1. **“CPC Rock Paper Scissors”** by Amit (@ghaste in CodePen)
-2. **“Rock Paper Scissor game using native drag & drop”** by Hmz C (@HmZ2 in CodePen)
-3. **“Rock Paper Scissors“** by Brad Traversy (@bradtraversy in CodePen)
-4. **“Rock Paper Scissors OOP“** by Damian (@CvtS in CodePen)
-5. **“Recurrent Neural Network - Rock, Paper, Scissors“** by Andrew Worscerter (@amwmedia in CodePen)
+1. **“CPC Rock Paper Scissors”** by Amit (<FontIcon icon="fa-brands fa-codepen"/>`@ghaste` in CodePen)
+2. **“Rock Paper Scissor game using native drag & drop”** by Hmz C (<FontIcon icon="fa-brands fa-codepen"/>`@HmZ2` in CodePen)
+3. **“Rock Paper Scissors“** by Brad Traversy (<FontIcon icon="fa-brands fa-codepen"/>`@bradtraversy` in CodePen)
+4. **“Rock Paper Scissors OOP“** by Damian (<FontIcon icon="fa-brands fa-codepen"/>`@CvtS` in CodePen)
+5. **“Recurrent Neural Network - Rock, Paper, Scissors“** by Andrew Worscerter (<FontIcon icon="fa-brands fa-codepen"/>`@amwmedia` in CodePen)
 
 In order to keep the article shorter, the full code won’t be provided here, except for some exceptional cases. You are encouraged to visit the corresponding projects in CodePen to have a look at the code alongside the analysis. Because the authors can update or even delete the code in CodePen at any time, I’ll also add links to Gists with the code I analyzed at the time I wrote the article.
 
-::: info Follow this link: 
+::: info Follow this link
 
 <SiteInfo
   name="Five Code Examples of Rock, Paper, Scissors"

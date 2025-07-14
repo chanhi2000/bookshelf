@@ -14,6 +14,7 @@ export const sidebarEn = sidebar({
   '/blog.logrocket.com/':         [asb.logrocket()],
   '/realpython.com/':             [asb.realpython()],
   '/digitalocean.com/':           [asb.digitalocean()],
+  '/docker.com/':                 [asb.docker()],
   '/tecmint.com/':                [asb.tecmint()],
   '/learnk8s.io/':                [asb.learnk8s()],
   '/itsfoss.com/':                [asb.itsfoss()],

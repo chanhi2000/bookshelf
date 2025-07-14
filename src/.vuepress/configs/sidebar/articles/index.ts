@@ -8,6 +8,7 @@ import { template as TEMPLATE_FREECODECAMP } from './freecodecamp.org';
 import { template as TEMPLATE_FRONTENDMASTER } from './frontendmasters.com';
 import { template as TEMPLATE_SMASHINGMAGAZINE } from './smashingmagazine.com';
 import { template as TEMPLATE_DIGITALOCEAN } from './digitalocean.com';
+import { template as TEMPLATE_DOCKER } from './docker.com';
 import { template as TEMPLATE_TECMINT } from './tecmint.com';
 import { template as TEMPLATE_KOTZILLA } from './blog.kotzilla.io';
 import { template as TEMPLATE_OUTCOMES_SCHOOL } from './outcomeschool.com';
@@ -133,6 +134,7 @@ export const articleSidebars = {
   frontendmaster:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_FRONTENDMASTER, type),
   smashingmagazion:   (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SMASHINGMAGAZINE, type),
   digitalocean:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DIGITALOCEAN, type),
+  docker:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DOCKER, type),
   tecmint:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TECMINT, type),
   kotzilla:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KOTZILLA, type),
   outcomesSchool:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_OUTCOMES_SCHOOL, type),

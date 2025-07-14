@@ -74,7 +74,7 @@ While other frameworks like React and Vue have longer startup times, Svelte’s 
 
 Svelte’s reactive syntax and lightweight nature make it an excellent choice for developers who want efficient, modern applications.
 
-Its minimalism aligns well with the simplicity required in [**<FontIcon icon="fas fa-globe"/>cloud development languages**](https://v2cloud.com/blog/best-programming-languages-for-cloud-computing), ensuring that applications are lean, scalable, and optimized for cloud environments.
+Its minimalism aligns well with the simplicity required in [<FontIcon icon="fas fa-globe"/>cloud development languages](https://v2cloud.com/blog/best-programming-languages-for-cloud-computing), ensuring that applications are lean, scalable, and optimized for cloud environments.
 
 This minimalism also means you may not always have all the required built-in features. But pretty much all the limitations are resolved with the help of external libraries.
 

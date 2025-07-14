@@ -1197,6 +1197,16 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-revert-a-migration-in-django", // 2025-07-17
+    "protect-github-repos-from-malicious-clones", // 2025-07-17
+    "learn-interactive-data-visualization-with-svelte-and-d3", // 2025-07-17
+    "how-to-activate-your-django-virtual-environment", // 2025-07-17
+    "learn-how-to-build-security-into-ai", // 2025-07-17
+    "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
+    "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
+    "how-in-memory-caching-works-in-redis", // 2025-07-17
+    "how-to-create-an-aws-free-tier-account", // 2025-07-16
+    "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
     "the-javascript-error-handling-handbook", // 2025-07-12
     "build-and-deploy-a-polished-ai-project-and-get-sales", // 2025-07-10
     HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-07-10
@@ -2391,6 +2401,7 @@ export const template: SidebarInfoTemplate = {
       WHEN_TO_USE_ASYNCAWAIT_VS_PROMISES_IN_JAVASCRIPT, // 2025-07-02
       "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
       HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-07-10
+      "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
       // END: 2025js
       // END: js
     ]],[
@@ -2714,6 +2725,7 @@ export const template: SidebarInfoTemplate = {
     "js-svelte", [
       "svelte-i18n-and-localization-made-easy", // 2024-12-06
       // END: 2024js-svelte
+      "learn-interactive-data-visualization-with-svelte-and-d3", // 2025-07-17
       // END: 2025js-svelte
       // END: js-svelte
     ]],[
@@ -2753,6 +2765,11 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-graphql-api-in-django", // 2025-04-16
       // END: 2025js-graphql
       // END: js-graphql
+    ]],[
+    "js-d3", [
+      "learn-interactive-data-visualization-with-svelte-and-d3", // 2025-07-17
+      // END: js-2025d3
+      // END: js-d3
     ]],[
     "js-mermaid", [
       "diagrams-as-code-with-mermaid-github-and-vs-code", // 2023-09-07
@@ -2807,6 +2824,7 @@ export const template: SidebarInfoTemplate = {
       THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK,// 2025-05-07
       IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA, // 2025-06-23
       "how-to-use-the-view-transition-api", // 2025-07-02
+      "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
       // END: 2025css
       // END: css
     ]],[
@@ -2960,6 +2978,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-register-models-in-django-admin", // 2025-04-29
       "how-to-get-user-model-in-django", // 2025-05-01
       "django-crash-course-for-beginners", // 2025-05-02
+      "how-to-activate-your-django-virtual-environment", // 2025-07-17
+      "how-to-revert-a-migration-in-django", // 2025-07-17
       // END: 2025py-django
       // END: py-django
     ]],[
@@ -3372,6 +3392,7 @@ export const template: SidebarInfoTemplate = {
       ORACLE_ERP_TEST_AUTOMATION_GUIDE, // 2025-05-01
       FROM_COMMIT_TO_PRODUCTION_HANDS_ON_GITOPS_PROMOTION_WITH_GITHUB_ACTIONS_ARGO_CD_HELM_AND_KARGO, // 2025-06-06
       "deploy-to-vercel-with-github-actions", // 2025-06-11
+      "protect-github-repos-from-malicious-clones", // 2025-07-17
       // END: 2025github
       // END: github
     ]],[
@@ -3527,6 +3548,7 @@ export const template: SidebarInfoTemplate = {
       "best-aws-services-for-frontend-deployment", // 2025-05-28
       "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
       "how-to-set-up-coolify-in-aws-ec2", // 2025-06-30
+      "how-to-create-an-aws-free-tier-account", // 2025-07-16
       // END: 2025aws
       // END: aws
     ]],[
@@ -3685,6 +3707,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-choose-a-web-application-firewall-for-web-security", // 2025-06-22
       "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
       "what-are-json-web-tokens-jwt", // 2025-07-08
+      "learn-how-to-build-security-into-ai", // 2025-07-17
+      "protect-github-repos-from-malicious-clones", // 2025-07-17
       // END: 2025security
       // END: security
     ]],[
@@ -3827,6 +3851,9 @@ export const template: SidebarInfoTemplate = {
       "build-rate-limiting-system-using-redis-and-lua", // 2024-11-20
       "build-a-scalable-url-shortener-with-distributed-caching-using-redis", // 2024-11-20
       "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
+      // END: 2024redis
+      "how-in-memory-caching-works-in-redis", // 2025-07-17
+      // END: 2025redis
       // END: redis
     ]],[
     "graphql", [
@@ -3947,6 +3974,7 @@ export const template: SidebarInfoTemplate = {
       "shadow-ai-hidden-risks-and-challenges", // 2025-02-18G
       "data-loading-with-python-and-ai", // 2025-04-18
       "essential-machine-learning-concepts-animated", // 2025-04-23
+      "learn-how-to-build-security-into-ai", // 2025-07-17
       // END: 2025ai
       // END: ai
     ]],[
@@ -4140,6 +4168,8 @@ export const template: SidebarInfoTemplate = {
       THE_LOGIC_PHILOSOPHY_AND_SCIENCE_OF_SOFTWARE_TESTING_HANDBOOK_FOR_DEVELOPERS, // 2025-06-18
       THE_DATA_COMMUNICATION_AND_NETWORKING_HANDBOOK, // 2025-06-19
       "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
+      "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
+      "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
       // END: 2025coen
       // END: coen
     ]],[
@@ -4166,6 +4196,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-get-your-first-saas-customers", // 2025-05-01
       "prepare-for-your-ios-interview", // 2025-05-09
       "start-a-career-in-technical-writing-through-open-source", // 2025-06-21
+      "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
+      "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
       // END: 2025career
       // END: career
     ]],[
