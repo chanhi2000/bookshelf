@@ -168,9 +168,28 @@ Reactivity is a core feature of modern UI libraries. It allows the UI to update 
 
 Here’s a basic example using a Proxy, which lets you intercept and modify operations on an object:
 
-CodePen Embed Fallback
+<CodePen
+  user="firt"
+  slug-hash="LYwYKWm"
+  title="Reactivity Basic Demo"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Read more: [Patterns for Reactivity with Modern Vanilla JavaScript](/frontendmasters.com/vanilla-javascript-reactivity.md)
+:::
+
+::: info Read more
+
+```component VPCard
+{
+  "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
+  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
+  "link": "/frontendmasters.com/vanilla-javascript-reactivity.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 ---
 

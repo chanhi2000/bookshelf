@@ -1192,11 +1192,45 @@ const HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS: SidebarInfo
   ]
 }
 
+const HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT: SidebarInfoSubgroupTemplate = { // 2025-07-19
+  text: "How to Use the “this” Keyword in JavaScript: A Handbook for Devs",
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-07-25
+  text: "How to Integrate Firebase into Your Flutter Applications: A Handbook for Developers",
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'how-to-integrate-firebase-into-your-flutter-applications-a-handbook-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-07-25
+    "how-to-use-ai-effectively-in-your-dev-projects", // 2025-07-24
+    "a-beginner-developers-guide-to-scrum", // 2025-07-24
+    "learn-typescript-in-1-hour", // 2025-07-23
+    "how-to-build-robust-networking-layers-in-swift-with-openapi", // 2025-07-23
+    "vps-vs-paas-how-to-choose-a-hosting-solution", // 2025-07-23
+    "helpful-built-in-functions-in-cpp", // 2025-07-23
+    "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
+    "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
+    "spring-vs-spring-boot-choosing-a-java-framework", // 2025-07-22
+    "how-to-build-simpler-accordion-menus-with-html-details", // 2025-07-21
+    HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
     "how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb", // 2025-07-18
     "shadcn-ui-dropdown-menu", // 2025-07-18
     "how-ai-agents-remember-things-vector-stores-in-llm-memory", // 2025-07-17
@@ -2235,6 +2269,7 @@ export const template: SidebarInfoTemplate = {
       // END: swift2019
       // END: swift2024
       "prepare-for-your-ios-interview", // 2025-05-09
+      "how-to-build-robust-networking-layers-in-swift-with-openapi", // 2025-07-23
       // END: swift2025
       // END: swift
     ]],[
@@ -2282,6 +2317,7 @@ export const template: SidebarInfoTemplate = {
       "build-smarter-spring-boot-applications-with-spring-ai", // 2024-12-19
       // END: 2024java-spring
       "best-choice-openfeign-or-webclient", // 2025-06-06
+      "spring-vs-spring-boot-choosing-a-java-framework", // 2025-07-22
       // END: 2025java-spring
       // END: java-spring
     ]],[
@@ -2443,6 +2479,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-work-with-queues-in-typescript", // 2025-06-17
       "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
       HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
+      "learn-typescript-in-1-hour", // 2025-07-23
       // END: 2025ts
       // END: ts
     ]],[
@@ -2650,6 +2687,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       "how-to-work-with-react-forms", // 2025-07-07
       "shadcn-ui-dropdown-menu", // 2025-07-18
+      HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2717,6 +2755,7 @@ export const template: SidebarInfoTemplate = {
       "learn-api-fundamentals-and-architecture", // 2025-03-22
       "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
+      HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
       // END: 2025js-express
       // END: js-express
     ]],[
@@ -2852,6 +2891,7 @@ export const template: SidebarInfoTemplate = {
       IMPLEMENT_A_SERVICE_WORKER_WITH_WORKBOX_IN_A_PWA, // 2025-06-23
       "how-to-use-the-view-transition-api", // 2025-07-02
       "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
+      "how-to-build-simpler-accordion-menus-with-html-details", // 2025-07-21
       // END: 2025css
       // END: css
     ]],[
@@ -3030,6 +3070,7 @@ export const template: SidebarInfoTemplate = {
       "automate-compliance-and-fraud-detection-in-finance-with-mlops", // 2025-05-13
       "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       "learn-python-for-data-science-full-course", // 2025-05-30
+      "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
@@ -3045,6 +3086,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-stable-diffusion-vae-from-scratch-using-pytorch", // 2024-12-04
       // END: 2024py-torch
       "learn-pytorch-in-five-projects", // 2025-03-07
+      "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       // END: 2025py-torch
       // END: py-torch
     ]],[
@@ -3072,6 +3114,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023py-matplotlib
       // END: 2024py-matplotlib
       "extract-youtube-analytics-data-and-analyze-in-python", // 2025-03-27
+      "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       // END: 2025py-matplotlib
       // END: py-matplotlib
     ]],[
@@ -3094,6 +3137,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-medical-chatbot-with-flutter-and-gemini", // 2025-06-14
       "routing-and-multi-screen-development-in-flutter-for-beginners", // 2025-06-27
       "how-to-use-local-notifications-in-flutter", // 2025-06-27
+      HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-07-25
       // END: 2025dart
       // END: dart
     ]],[
@@ -3224,6 +3268,7 @@ export const template: SidebarInfoTemplate = {
       "improve-you-c-skills-by-coding-an-audio-plugin", // 2025-05-06
       LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
       "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
+      "helpful-built-in-functions-in-cpp", // 2025-07-22
       // END: 2025cpp
       // END: cpp
     ]],[
@@ -3382,6 +3427,7 @@ export const template: SidebarInfoTemplate = {
       "what-is-site-reliability-engineering", // 2025-03-27
       "top-hosting-platforms-for-indie-hackers", // 2025-06-26
       "top-application-monitoring-tools-for-developers", // 2025-07-03
+      "vps-vs-paas-how-to-choose-a-hosting-solution", // 2025-07-23
       // END: 2025devops
       // END: devops
     ]],[
@@ -3926,6 +3972,7 @@ export const template: SidebarInfoTemplate = {
       "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
       "learn-the-mern-stack-in-2025", // 2025-06-10
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
+      HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -4000,6 +4047,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "davinci", [
       "master-video-editing-with-davinci-resolve", // 2024-08-20
+      // END: 2024davinci
+      // END: 2025davinci
+      // END: davinci
     ]],[
     "system-design", [
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
@@ -4065,6 +4115,7 @@ export const template: SidebarInfoTemplate = {
       "data-loading-with-python-and-ai", // 2025-04-18
       "essential-machine-learning-concepts-animated", // 2025-04-23
       "learn-how-to-build-security-into-ai", // 2025-07-17
+      "how-to-use-ai-effectively-in-your-dev-projects", // 2025-07-24
       // END: 2025ai
       // END: ai
     ]],[
@@ -4101,6 +4152,7 @@ export const template: SidebarInfoTemplate = {
       "learn-the-evolution-of-the-transformer-architecture-used-in-llms", // 2025-06-26
       "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
       "how-ai-agents-remember-things-vector-stores-in-llm-memory", // 2025-07-17
+      "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       // END: 2025llm
       // END: llm
     ]],[
@@ -4263,6 +4315,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-write-documentation-that-increases-sign-ups", // 2025-06-20
       "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
       "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
+      "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
+      "a-beginner-developers-guide-to-scrum", // 2025-07-24
+      "how-to-use-ai-effectively-in-your-dev-projects", // 2025-07-24
       // END: 2025coen
       // END: coen
     ]],[
@@ -4291,6 +4346,7 @@ export const template: SidebarInfoTemplate = {
       "start-a-career-in-technical-writing-through-open-source", // 2025-06-21
       "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
       "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
+      "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
       // END: 2025career
       // END: career
     ]],[

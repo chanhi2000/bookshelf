@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-figcaption-problem", // 2025-07-24
+    "introducing-zustand", // 2025-07-21
     "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
     "stacked-transforms", // 2025-07-15
     "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
@@ -187,7 +189,7 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "container-queries-and-units", // 2023-12-21
     "light-dom-only", // 2023-12-08
-
+    "vanilla-javascript-reactivity", // 2023-08-21
     "what-is-sql-database-definition-for-beginners", // 2023-01-13
   ]
 }
@@ -202,8 +204,9 @@ export const template: SidebarInfoTemplate = {
       // END: java
     ]],[
     "js", [
+      "vanilla-javascript-reactivity", // 2023-08-21
+      // END: 2023js
       "the-color-input-the-color-picker", // 2024-01-18
-
       "5-things-designers-can-do-with-javascript", // 2024-05-08
       "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
@@ -260,6 +263,7 @@ export const template: SidebarInfoTemplate = {
       "introducing-tanstack-start", // 2024-12-18
       // END: 2024js-react
       "react-internals-which-useeffect-runs-first", // 2025-04-28
+      "introducing-zustand", // 2025-07-21
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -387,6 +391,7 @@ export const template: SidebarInfoTemplate = {
       "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       "stacked-transforms", // 2025-07-15
       "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
+      "the-figcaption-problem", // 2025-07-24
       // END: 2025css
       // END: css
     ]],[

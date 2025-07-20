@@ -5,9 +5,14 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "getting-creative-with-versal-letters", // 2025-07-18
+    "getting-clarity-on-apples-liquid-glass", // 2025-07-17
     "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
     "css-blob-recipes", // 2025-06-27
     "guide-svg-animations-smil", // 2025-03-28
+    "revisiting-css-border-image", // 2025-03-21
+    "toe-dipping-into-view-transitions", // 2025-02-21
+    "revisiting-css-multi-column-layout", // 2025-01-27
   ],
 }
 
@@ -33,6 +38,8 @@ const Y2022: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2022
+    "when-do-you-use-css-columns", // 2022-08-18
+    "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
   ],
 }
 
@@ -98,6 +105,7 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
+    "probably-dont-base64-svg", // 2016-07-25
     "international-box-sizing-awareness-day", // 2016-03-04
   ],
 }
@@ -157,6 +165,7 @@ export const template: SidebarInfoTemplate = {
       "box-sizing", // 2015-05-06
       // END: 2015css
       "international-box-sizing-awareness-day", // 2016-03-04
+      "probably-dont-base64-svg", // 2016-07-25
       // END: 2016css
       "eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar", // 2017-01-05
       "animating-svg-css", // 2017-01-07
@@ -180,14 +189,28 @@ export const template: SidebarInfoTemplate = {
       "the-css-box-model", // 2021-02-18
       "all-about-floats", // 2021-03-25
       // END: 2021css
+      "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
+      "when-do-you-use-css-columns", // 2022-08-18
+      // END: 2022css
       // END: 2023css
       "hash-tag-links-padding", // 2024-12-20
       // END: 2024css
+      "revisiting-css-multi-column-layout", // 2025-01-27
+      "toe-dipping-into-view-transitions", // 2025-02-21
+      "revisiting-css-border-image", // 2025-03-21
       "guide-svg-animations-smil", // 2025-03-28
       "css-blob-recipes", // 2025-06-27
       "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
+      "getting-clarity-on-apples-liquid-glass", // 2025-07-17
+      "getting-creative-with-versal-letters", // 2025-07-18
       // END: 2025css
       // END: css
+    ]],[
+    "php",[
+      // END: 2024php
+      "toe-dipping-into-view-transitions", // 2025-02-21
+      // END: 2025php
+      // END: php
     ]],[
     "all", [
       Y2025,

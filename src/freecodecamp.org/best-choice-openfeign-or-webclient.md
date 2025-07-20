@@ -12,6 +12,8 @@ tag:
   - freecodecamp.org
   - java
   - kotlin
+  - spring
+  - springframework
 head:
   - - meta:
     - property: og:title
