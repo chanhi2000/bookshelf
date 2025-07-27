@@ -1218,7 +1218,15 @@ const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
-    // END: 2025
+    // END: 2025'
+    "algorithm-analysis-deep-dive", // 2025-08-01
+    "improve-your-technical-writing-skills-to-advance-your-career", // 2025-08-01
+    "what-is-unicode-the-secret-language-behind-every-text-you-see", // 2025-07-31
+    "how-to-use-mongodb-with-go", // 2025-07-31
+    "how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload", // 2025-07-31
+    "how-to-boost-conversions-with-ux-focused-microcopy", // 2025-07-29
+    "how-to-build-database-seed-scripts-for-your-node-application", // 2025-07-29
+    "object-oriented-design-patterns-with-java", // 2025-07-29
     HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-07-25
     "how-to-use-ai-effectively-in-your-dev-projects", // 2025-07-24
     "a-beginner-developers-guide-to-scrum", // 2025-07-24
@@ -2302,6 +2310,7 @@ export const template: SidebarInfoTemplate = {
       SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS, // 2025-04-18
       ORACLE_ERP_TEST_AUTOMATION_GUIDE, // 2025-05-01
       "how-to-use-constructors-in-java-a-beginners-guide", // 2025-07-09
+      "object-oriented-design-patterns-with-java", // 2025-07-29
       // END: 2025java
       // END: java
     ]],[
@@ -2807,6 +2816,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase", // 2025-03-21
       HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
       "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
+      "how-to-build-database-seed-scripts-for-your-node-application", // 2025-07-29
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -3182,6 +3192,7 @@ export const template: SidebarInfoTemplate = {
       "what-is-the-language-server-protocol-easier-code-editing-across-languages", // 2025-01-09
       "how-to-work-with-openapi-in-go", // 2025-02-19
       "what-is-typecasting-in-go", // 2025-04-22
+      "how-to-use-mongodb-with-go", // 2025-07-31
       // END: 2025go
       // END: go
     ]],[
@@ -3642,6 +3653,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-coolify-in-aws-ec2", // 2025-06-30
       "how-to-create-an-aws-free-tier-account", // 2025-07-16
       "how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb", // 2025-07-18
+      "how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload", // 2025-07-31
       // END: 2025aws
       // END: aws
     ]],[
@@ -3973,6 +3985,7 @@ export const template: SidebarInfoTemplate = {
       "learn-the-mern-stack-in-2025", // 2025-06-10
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
+      "how-to-use-mongodb-with-go", // 2025-07-31
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -4083,6 +4096,7 @@ export const template: SidebarInfoTemplate = {
       "how-ux-and-marketing-are-saying-the-same-things-differently", // 2025-04-25
       "how-to-write-good-api-docs", // 2025-05-03
       "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
+      "how-to-boost-conversions-with-ux-focused-microcopy", // 2025-07-29
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -4318,6 +4332,10 @@ export const template: SidebarInfoTemplate = {
       "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
       "a-beginner-developers-guide-to-scrum", // 2025-07-24
       "how-to-use-ai-effectively-in-your-dev-projects", // 2025-07-24
+      "how-to-boost-conversions-with-ux-focused-microcopy", // 2025-07-29
+      "what-is-unicode-the-secret-language-behind-every-text-you-see", // 2025-07-31
+      "improve-your-technical-writing-skills-to-advance-your-career", // 2025-08-01
+      "algorithm-analysis-deep-dive", // 2025-08-01
       // END: 2025coen
       // END: coen
     ]],[
@@ -4347,6 +4365,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-sustainable-open-source-contribution-routine", // 2025-07-17
       "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
       "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
+      "improve-your-technical-writing-skills-to-advance-your-career", // 2025-08-01
       // END: 2025career
       // END: career
     ]],[

@@ -6,6 +6,7 @@ icon: fa-brands fa-docker
 category:
   - DevOps
   - Docker
+  - Java
   - Youtube
   - Article(s)
 tag:
@@ -13,6 +14,7 @@ tag:
   - docker.com
   - devops
   - docker
+  - java
   - youtube
   - keynote
 head:
@@ -39,6 +41,16 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Java > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/java/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
