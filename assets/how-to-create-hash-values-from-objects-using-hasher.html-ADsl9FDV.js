@@ -1,0 +1,27 @@
+import{_ as c}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as l,f as e,av as h,au as s,aw as r,ax as n,b as a,r as u,o as m}from"./app-n2Oj_rFs.js";const p={},g={id:"frontmatter-title-관련",tabindex:"-1"},f={class:"header-anchor",href:"#frontmatter-title-관련"};function d(i,t){const o=u("VPCard");return m(),l("div",null,[e("h1",g,[e("a",f,[e("span",null,h(i.$frontmatter.title)+" 관련",1)])]),s(o,r(n({title:"Language - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/language/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[0]||(t[0]=e("nav",{class:"table-of-contents"},[e("ul")],-1)),t[1]||(t[1]=e("hr",null,null,-1)),s(o,r(n({title:"How to create hash values from objects using Hasher | Language - free Swift example code",desc:"How to create hash values from objects using Hasher",link:"https://hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[2]||(t[2]=e("blockquote",null,[e("p",null,"Available from iOS 8.0")],-1)),a(" TODO: 작성 "),a(` 
+Hash values are an invaluable way of identifying data uniquely, and any type that conforms to the \`Hashable\` protocol can be used to create all or part of a hash value by using the \`Hasher\` struct.
+
+To use this, create an instance of \`Hasher\`, provide it with whatever objects you want to hash, then call \`finalize()\` to generate the final value as an integer. For example:
+
+\`\`\`swift
+struct iPad: Hashable {
+    var serialNumber: String
+    var capacity: Int
+}
+
+let first = iPad(serialNumber: "12345", capacity: 128)
+let second = iPad(serialNumber: "abcde", capacity: 512)
+
+var hasher = Hasher()
+hasher.combine(first)
+hasher.combine(second)
+let hash = hasher.finalize()
+\`\`\`
+
+`),t[3]||(t[3]=e("details",{class:"hint-container details"},[e("summary",null,"Similar solutions…"),a(`
+/example-code/cryptokit/how-to-calculate-the-sha-hash-of-a-string-or-data-instance">How to calculate the SHA hash of a String or Data instance 
+/quick-start/swiftui/observable-objects-environment-objects-and-published">Observable objects, environment objects, and @Published 
+/quick-start/swiftui/how-to-use-stateobject-to-create-and-monitor-external-objects">How to use @StateObject to create and monitor external objects 
+/quick-start/swiftui/how-to-delete-core-data-objects-from-swiftui-views">How to delete Core Data objects from SwiftUI views 
+/quick-start/swiftui/how-to-add-core-data-objects-from-swiftui-views">How to add Core Data objects from SwiftUI views</a>
+`)],-1))])}const v=c(p,[["render",d],["__file","how-to-create-hash-values-from-objects-using-hasher.html.vue"]]),y=JSON.parse('{"path":"/hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.html","title":"How to create hash values from objects using Hasher","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"How to create hash values from objects using Hasher","description":"Article(s) > How to create hash values from objects using Hasher","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-8.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > How to create hash values from objects using Hasher"},{"property":"og:description","content":"How to create hash values from objects using Hasher"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"How to create hash values from objects using Hasher"}],["meta",{"property":"og:description","content":"Article(s) > How to create hash values from objects using Hasher"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-8.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"How to create hash values from objects using Hasher\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false,"gitInclude":[]},"headers":[],"readingTime":{"minutes":1.28,"words":384},"filePathRelative":"hackingwithswift.com/example-code/language/how-to-create-hash-values-from-objects-using-hasher.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{v as comp,y as data};
