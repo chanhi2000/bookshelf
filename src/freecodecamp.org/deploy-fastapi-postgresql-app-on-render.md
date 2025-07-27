@@ -6,6 +6,7 @@ icon: iconfont icon-fastapi
 category:
   - Python
   - FastAPI
+  - Data Science
   - PostgreSQL
   - Article(s)
 tag:
@@ -15,6 +16,7 @@ tag:
   - python
   - fastapi
   - py-fastapi
+  - data-science
   - sql
   - postgres
   - posgtresql

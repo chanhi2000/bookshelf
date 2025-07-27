@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "making-a-masonry-layout-that-works-today", // 2025-07-28
+    "how-to-discover-a-css-trick", // 2025-07-25
+    "a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers", // 2025-07-23
+    "a-primer-on-focus-trapping", // 2025-07-22
     "getting-creative-with-versal-letters", // 2025-07-18
     "getting-clarity-on-apples-liquid-glass", // 2025-07-17
     "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
@@ -203,8 +207,21 @@ export const template: SidebarInfoTemplate = {
       "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
       "getting-clarity-on-apples-liquid-glass", // 2025-07-17
       "getting-creative-with-versal-letters", // 2025-07-18
+      "a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers", // 2025-07-23
+      "how-to-discover-a-css-trick", // 2025-07-25
+      "making-a-masonry-layout-that-works-today", // 2025-07-28
       // END: 2025css
       // END: css
+    ]],[
+    "js-node",[
+      "a-primer-on-focus-trapping", // 2025-07-22
+      // END: 2025js-node
+      // END: js-node
+    ]],[
+    "js",[
+      "making-a-masonry-layout-that-works-today", // 2025-07-28
+      // END: 2025js
+      // END: js
     ]],[
     "php",[
       // END: 2024php

@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
     "named-query-filters-in-ef-10-multiple-query-filters-per-entity", // 2025-07-26 
     "pdf-reporting-in-dotnet-with-html-templates-and-puppeteersharp", // 2025-07-19
     "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
@@ -337,6 +338,7 @@ export const template: SidebarInfoTemplate = {
       "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
       "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
       "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
+      "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       // END: 2025cs
       // END: cs
     ]],[
@@ -411,6 +413,7 @@ export const template: SidebarInfoTemplate = {
       "hybrid-cache-in-aspnetcore-new-caching-library", // 2024-11-16
       // END: 2024postgres
       "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
+      "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       // END: 2025postgres
       // END: postgres
     ]],[
@@ -439,6 +442,7 @@ export const template: SidebarInfoTemplate = {
       "scaling-monoliths-a-practical-guide-for-growing-systems", // 2025-01-18
       "understanding-microservices-core-concepts-and-benefits", // 2025-04-19
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
+      "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       // END: 2025system-design
       // END: system-design
     ]],[

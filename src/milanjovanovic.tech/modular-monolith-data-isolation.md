@@ -184,8 +184,3 @@ There are four options you can choose from:
 - Different persistence
 
 I always go for logical isolation using schemas. It's easy to implement and helps me understand my boundaries better. Depending on the requirements, I can introduce separate databases later.
-
-Hope this was helpful.
-
-See you next week.
-

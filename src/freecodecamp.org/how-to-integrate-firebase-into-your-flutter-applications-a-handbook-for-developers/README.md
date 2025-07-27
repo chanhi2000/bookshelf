@@ -2246,8 +2246,7 @@ Depending on the specific "cutting-edge" aspects you want to explore, you'd dive
 ```component VPCard
 {
   "title": "Introduction to Firebase Local Emulator Suite",
-  "desc": "The Firebase Local Emulator Suite is a set of advanced tools for developers looking to build and test apps locally using numerous Firebase product emulators. It provides a rich user interface to help you get running and prototyping quickly.
-",
+  "desc": "The Firebase Local Emulator Suite is a set of advanced tools for developers looking to build and test apps locally using numerous Firebase product emulators. It provides a rich user interface to help you get running and prototyping quickly.",
   "link": "https://firebase.google.com/docs/emulator-suite/",
   "logo": "https://gstatic.com/devrel-devsite/prod/vbad538e1d00a1e89dedb22ab9f1082402199c262867d664247ae54051f01abb8/firebase/images/favicon.png",
   "background": "rgba(232,128,0,0.2)"
@@ -2285,8 +2284,7 @@ Depending on the specific "cutting-edge" aspects you want to explore, you'd dive
 ```component VPCard
 {
   "title": "Add the Firebase Admin SDK to your server",
-  "desc": "The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments.
-",
+  "desc": "The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments.",
   "link": "https://firebase.google.com/docs/admin/setup/",
   "logo": "https://gstatic.com/devrel-devsite/prod/vbad538e1d00a1e89dedb22ab9f1082402199c262867d664247ae54051f01abb8/firebase/images/favicon.png",
   "background": "rgba(232,128,0,0.2)"

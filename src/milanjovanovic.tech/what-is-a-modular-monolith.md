@@ -178,4 +178,3 @@ Want to dive deeper into modular monoliths? Check out these resources:
 <VidStack src="youtube/5dilYMii9T4" />
 
 That's all for today. Stay awesome, and I'll see you next week.
-

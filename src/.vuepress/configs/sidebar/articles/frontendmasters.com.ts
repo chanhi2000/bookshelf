@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "should-we-never-use-non-logical-properties", // 2025-07-31
     "the-figcaption-problem", // 2025-07-24
     "introducing-zustand", // 2025-07-21
     "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
@@ -392,6 +393,7 @@ export const template: SidebarInfoTemplate = {
       "stacked-transforms", // 2025-07-15
       "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
       "the-figcaption-problem", // 2025-07-24
+      "should-we-never-use-non-logical-properties", // 2025-07-31
       // END: 2025css
       // END: css
     ]],[
