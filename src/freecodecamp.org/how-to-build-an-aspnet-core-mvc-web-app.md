@@ -11,6 +11,7 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - c#
   - cs
   - csharp
   - dotnet

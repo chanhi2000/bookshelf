@@ -150,7 +150,7 @@ The final task will ask for your feedback about this lab. Let us know your thoug
 
 ### Let’s Go
 
-Go to [<FontIcon icon="fas fa-globe"/>TryHackMe](https://tryhackme.com/?utm_source=www.stealthsecurity.sh&utm_medium=referral&utm_campaign=hack-your-first-machine) and sign up for an account. Once you are done, [<FontIcon icon="fas fa-globe"/>click here](https://tryhackme.com/jr/SS_HYFM?utm_source=www.stealthsecurity.sh&utm_medium=referral&utm_campaign=hack-your-first-machine) to go to the lab.
+Go to [<FontIcon icon="fas fa-globe"/>TryHackMe](https://tryhackme.com/) and sign up for an account. Once you are done, [<FontIcon icon="fas fa-globe"/>click here](https://tryhackme.com/jr/SS_HYFM) to go to the lab.
 
 Happy hacking!
 

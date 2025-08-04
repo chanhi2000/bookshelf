@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "using-the-custom-highlight-api", // 2025-08-07
+    "count-auto-fill-columns", // 2025-08-06
+    "infinite-marquee-animation-using-modern-css", // 2025-08-04
     "should-we-never-use-non-logical-properties", // 2025-07-31
     "the-figcaption-problem", // 2025-07-24
     "introducing-zustand", // 2025-07-21
@@ -232,6 +235,7 @@ export const template: SidebarInfoTemplate = {
       "mapping-with-leaflet", // 2025-01-29
       "css-spotlight-effect", // 2025-05-26
       "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
+      "using-the-custom-highlight-api", // 2025-08-07
       // END: 2025js
       // END: js
     ]],[
@@ -394,6 +398,7 @@ export const template: SidebarInfoTemplate = {
       "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
       "the-figcaption-problem", // 2025-07-24
       "should-we-never-use-non-logical-properties", // 2025-07-31
+      "infinite-marquee-animation-using-modern-css", // 2025-08-04
       // END: 2025css
       // END: css
     ]],[

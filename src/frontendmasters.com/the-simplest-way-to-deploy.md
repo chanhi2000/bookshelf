@@ -52,7 +52,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5784"/>
 
-Let’s say you’ve got a set of static files (HTML, CSS, JavaScript, images, etc) that build your website. Perhaps it’s your portfolio website, thanks to having taken Jen Kramer’s course [<FontIcon icon="fas fa-globe"/>Web Development Project: Personal Portfolio Website](https://frontendmasters.com/courses/portfolio-website/?utm_source=boost&utm_medium=blog&utm_campaign=boost), for example, but it could be anything.
+Let’s say you’ve got a set of static files (HTML, CSS, JavaScript, images, etc) that build your website. Perhaps it’s your portfolio website, thanks to having taken Jen Kramer’s course [<FontIcon icon="fas fa-globe"/>Web Development Project: Personal Portfolio Website](https://frontendmasters.com/courses/portfolio-website/), for example, but it could be anything.
 
 ![A file directory labeled 'portfolio' showing three files: <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="fa-brands fa-js"/>`script.js`, and <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, with their sizes and types displayed.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-20-at-2.46.02%E2%80%AFPM.png?resize=1024%2C622&ssl=1)
 

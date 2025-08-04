@@ -49,8 +49,8 @@ cover: /assets/image/code-maze.com/aspnet-configuration-creating-custom-provider
   logo="/assets/image/code-maze.com/favicon.png"
   preview="/assets/image/code-maze.com/aspnet-configuration-creating-custom-provider/banner.png"/>
 
-In this article, we are going to create a custom configuration provider that reads our configuration from the database. We’ve seen how the [default configuration providers](/code-maze.com/aspnet-configuration-providers.md) work, and now we’re going to implement our own custom one.
-      
+In this article, we are going to create a custom configuration provider that reads our configuration from the database. We’ve seen how the [**default configuration providers**](/code-maze.com/aspnet-configuration-providers.md) work, and now we’re going to implement our own custom one.
+
 For the custom configuration provider, we’ll use Entity Framework Core, coupled with the SQL Server database.
 
 ::: info
@@ -66,13 +66,13 @@ The source code for this article can be found on the [ASP.NET Core Configuration
 
 :::
 
-First, let’s upgrade our solution to support EF Core using the [database-first approach](/code-maze.com/asp-net-core-web-api-with-ef-core-db-first-approach.md).
+First, let’s upgrade our solution to support EF Core using the [**database-first approach**](/code-maze.com/asp-net-core-web-api-with-ef-core-db-first-approach.md).
 
 ---
 
 ## Initializing EF Core
 
-Before we start, let’s take a moment to clear all the user secrets and environment variables, we’ve set in the [previous part](/code-maze.com/aspnet-configuration-providers.md). Once that’s finished, let’s proceed.
+Before we start, let’s take a moment to clear all the user secrets and environment variables, we’ve set in the [**previous part**](/code-maze.com/aspnet-configuration-providers.md). Once that’s finished, let’s proceed.
 
 We need to install two Nuget packages first:
 
@@ -100,8 +100,6 @@ public class ConfigurationEntity
 ```
 
 And a `DbContext` class (Models folder):
-
-
 
 ```cs
 public class ConfigurationDbContext : DbContext
@@ -313,6 +311,6 @@ It still works as it did previously! You can refresh the page a few times to mak
 
 ## Conclusion
 
-In this short article, we’ve seen how to implement our own custom configuration provider that reads the values from the database. In the next part, we’re going to learn how to [protect our sensitive configuration values](/code-maze.com/aspnet-configuration-securing-sensitive-data.md).
+In this short article, we’ve seen how to implement our own custom configuration provider that reads the values from the database. In the next part, we’re going to learn how to [**protect our sensitive configuration values**](/code-maze.com/aspnet-configuration-securing-sensitive-data.md).
 
-You can find other parts of this series on the [ASP.NET Core Web API page](/code-maze.com/net-core-series.md/#configuration).
+You can find other parts of this series on the [**ASP.NET Core Web API page**](/code-maze.com/net-core-series.md/#configuration).

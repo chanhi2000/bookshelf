@@ -1,4 +1,84 @@
-import { SidebarInfoTemplate } from ".";
+import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
+  collapsible: true,
+  children: [
+    // END: 2025
+    "dotnet-imeterfactory-application-performance", // 2025-02-26
+  ]
+}
+
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
+  collapsible: true,
+  children: [
+    // END: 2024
+  ]
+}
+
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    // END: 2023
+  ]
+}
+
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    // END: 2022
+  ]
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+  ]
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+  ]
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+  ]
+}
+
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+    "csharp-delegates", // 2018-10-31
+    "csharp-generic-list-dictionary", // 2018-10-26
+    "csharp-queue-stack-hashtable", // 2018-10-24
+    "csharp-generics", // 2018-10-19
+    "csharp-abstract-classes", // 2018-10-17
+    "csharp-interfaces", // 2018-10-12
+    "csharp-inheritance", // 2018-10-10
+    "csharp-enumerations", // 2018-10-05
+    "csharp-structures", // 2018-10-03
+    "csharp-anonymous-nullable-types", // 2018-09-28
+    "csharp-static-members-constants-extension-methods", // 2018-09-26
+    "csharp-properties", // 2018-09-21
+    "csharp-classes-constructors", // 2018-09-19
+    "csharp-data-types-variables", // 2018-07-27
+    "csharp-basics-ide-introduction", // 2018-07-26
+  ]
+}
 
 export const template: SidebarInfoTemplate = {
   name: "code-maze.com",
@@ -7,8 +87,30 @@ export const template: SidebarInfoTemplate = {
     [
     "java-elasticsearch", [
       "elasticsearch-aspnet-core", // 2024-04-28
+      // END: 2024java-elasticsearch
+      // END: 2025java-elasticsearch
+      // END: java-elasticsearch
     ]],[
     "cs", [
+      "csharp-basics-ide-introduction", // 2018-07-26
+      "csharp-data-types-variables", // 2018-07-27
+      "csharp-classes-constructors", // 2018-09-19
+      "csharp-properties", // 2018-09-21
+      "csharp-static-members-constants-extension-methods", // 2018-09-26
+      "csharp-anonymous-nullable-types", // 2018-09-28
+      "csharp-structures", // 2018-10-03
+      "csharp-enumerations", // 2018-10-05
+      "csharp-inheritance", // 2018-10-10
+      "csharp-interfaces", // 2018-10-12
+      "csharp-abstract-classes", // 2018-10-17
+      "csharp-generics", // 2018-10-19
+      "csharp-queue-stack-hashtable", // 2018-10-24
+      "csharp-generic-list-dictionary", // 2018-10-26
+      "csharp-delegates", // 2018-10-31
+      // END: 2018cs
+      // END: 2019cs
+      "aspnet-configuration-providers", // 2020-09-08
+      // END: 2020cs
       "what-is-continuous-integration", // 2021-10-09
       "top-8-continuous-integration-tools", // 2023-06-15
       "different-ways-consume-restful-api-csharp", // 2024-06-06
@@ -48,36 +150,22 @@ export const template: SidebarInfoTemplate = {
       "csharp-methods", // 2023-01-18
       "csharp-basics-arrays", // 2022-07-13
       "authentication-aspnetcore-jwt-2", // 2024-01-31
-      "csharp-basics-ide-introduction", // 2021-12-16
       "csharp-operators", // 2023-01-29
       "csharp-linear-structures-input-output", // 2021-12-16
       "csharp-loops", // 2021-12-20
       "cshrap-ref-out-keywords", // 2022-11-26
       "csharp-basics-streamwriter-streamreader", // 2020-08-27
       "unit-testing-aspnetcore-web-api", // 2024-01-31
-      "csharp-data-types-variables", // 2021-12-16
       "csharp-type-conversion", // 2021-12-16
       "csharp-string-methods", // 2021-12-16
       "csharp-access-modifiers", // 2023-02-27
       "csharp-basics-recursion", // 2020-08-27
       "csharp-basics-file-directory", // 2020-08-27
-      "csharp-properties", // 2020-08-27
-      "csharp-static-members-constants-extension-methods", // 2020-08-27
-      "csharp-anonymous-nullable-types", // 2022-05-09
       "action-filters-aspnetcore", // 2022-10-27
-      "csharp-structures", // 2022-10-02
-      "csharp-enumerations", // 2020-08-27
       "enabling-cors-in-asp-net-core", // 2024-03-07
-      "csharp-inheritance", // 2020-08-27
-      "csharp-interfaces", // 2024-02-15
       "net-core-web-api-ef-core-code-first", // 2024-01-31
-      "csharp-abstract-classes", // 2020-08-27
-      "csharp-generics", // 2020-08-27
       "get-started-angular-material", // 2021-01-20
-      "csharp-queue-stack-hashtable", // 2022-10-23
-      "csharp-generic-list-dictionary", // 2022-07-13
       "angular-material-navigation", // 2020-08-24
-      "csharp-delegates", // 2021-11-07
       "angular-material-table", // 2021-01-20
       "angular-material-error-details-pages", // 2021-01-27
       "angular-material-form-validation", // 2021-06-23
@@ -178,7 +266,6 @@ export const template: SidebarInfoTemplate = {
       "aspnet-configuration-basic-concepts", // 2021-12-27
       "aspnet-configuration-options", // 2021-12-27
       "aspnet-configuration-options-validation", // 2021-12-27
-      "aspnet-configuration-providers", // 2021-12-27
       "deploying-aspnet-core-web-api-azure-api-apps", // 2024-01-31
       "elasticsearch-aspnet-core", // 2024-04-28
       "azure-webjobs-in-app-service", // 2021-12-24
@@ -186,6 +273,10 @@ export const template: SidebarInfoTemplate = {
       "user-registration-angular-aspnet-identity", // 2022-05-17
       "custom-validators-and-handling-errors-with-angular-and-asp-net-core-identity", // 2022-10-12
       "csharp-getting-property-mappings-from-automapper", // 2024-04-21
+      // END: cs2024
+      // END: cs2025
+      "dotnet-imeterfactory-application-performance", // 2025-02-26
+      // END: cs
     ]],[
     "cs-blazor", [
       "blazor-webassembly-introduction", // 2022-03-22
@@ -219,6 +310,11 @@ export const template: SidebarInfoTemplate = {
       "custom-validation-in-blazor-webassembly", // 2021-12-24
       "binding-in-blazor-applications", // 2021-12-24
       "complex-model-validation-in-blazor", // 2021-12-24
+      // END: cs-blazor2021
+      // END: cs-blazor2022
+      // END: cs-blazor2023
+      // END: cs-blazor2024
+      // END: cs-blazor
     ]],[
     "js-angular", [
       "net-core-web-development-part7", // 2022-04-20
@@ -281,6 +377,8 @@ export const template: SidebarInfoTemplate = {
       "owasp-top-10-injection", // 2022-01-11
       "owasp-broken-authentication", // 2022-01-11
       "owasp-top-10-sensitive-data-exposure", // 2022-01-11
+      // END: security2025
+      // END: security
     ]],[
     "nginx", [
       "net-core-web-development-part17", // 2024-02-05
@@ -294,8 +392,18 @@ export const template: SidebarInfoTemplate = {
       "grpc-introduction-aspnetcore", // 2024-02-10
     ]],[
     "visualstudio", [
+      "csharp-basics-ide-introduction", // 2018-07-26
+      // END: visualstudio2018
+      // END: visualstudio2019
+      // END: visualstudio2020
+      // END: visualstudio2021
       "visual-studio-productivity", // 2022-02-20
+      // END: visualstudio2022
+      // END: visualstudio2023
       "publishing-an-asp-net-core-app-to-azure-app-service-using-visual-studio", // 2024-01-31
+      // END: visualstudio2024
+      // END: visualstudio2025
+      // END: visualstudio
     ]],[
     "postgres", [
       "configure-postgresql-ef-core", // 2022-01-13
@@ -353,36 +461,22 @@ export const template: SidebarInfoTemplate = {
       "csharp-methods", // 2023-01-18
       "csharp-basics-arrays", // 2022-07-13
       "authentication-aspnetcore-jwt-2", // 2024-01-31
-      "csharp-basics-ide-introduction", // 2021-12-16
       "csharp-operators", // 2023-01-29
       "csharp-linear-structures-input-output", // 2021-12-16
       "csharp-loops", // 2021-12-20
       "cshrap-ref-out-keywords", // 2022-11-26
       "csharp-basics-streamwriter-streamreader", // 2020-08-27
       "unit-testing-aspnetcore-web-api", // 2024-01-31
-      "csharp-data-types-variables", // 2021-12-16
       "csharp-type-conversion", // 2021-12-16
       "csharp-string-methods", // 2021-12-16
       "csharp-access-modifiers", // 2023-02-27
       "csharp-basics-recursion", // 2020-08-27
       "csharp-basics-file-directory", // 2020-08-27
-      "csharp-properties", // 2020-08-27
-      "csharp-static-members-constants-extension-methods", // 2020-08-27
-      "csharp-anonymous-nullable-types", // 2022-05-09
       "action-filters-aspnetcore", // 2022-10-27
-      "csharp-structures", // 2022-10-02
-      "csharp-enumerations", // 2020-08-27
       "enabling-cors-in-asp-net-core", // 2024-03-07
-      "csharp-inheritance", // 2020-08-27
-      "csharp-interfaces", // 2024-02-15
       "net-core-web-api-ef-core-code-first", // 2024-01-31
-      "csharp-abstract-classes", // 2020-08-27
-      "csharp-generics", // 2020-08-27
       "get-started-angular-material", // 2021-01-20
-      "csharp-queue-stack-hashtable", // 2022-10-23
-      "csharp-generic-list-dictionary", // 2022-07-13
       "angular-material-navigation", // 2020-08-24
-      "csharp-delegates", // 2021-11-07
       "angular-material-table", // 2021-01-20
       "angular-material-error-details-pages", // 2021-01-27
       "angular-material-form-validation", // 2021-06-23
@@ -506,7 +600,7 @@ export const template: SidebarInfoTemplate = {
       "aspnet-configuration-basic-concepts", // 2021-12-27
       "aspnet-configuration-options", // 2021-12-27
       "aspnet-configuration-options-validation", // 2021-12-27
-      "aspnet-configuration-providers", // 2021-12-27
+      "aspnet-configuration-providers", // 2020-09-08
       "blazor-webassembly-role-based-security-with-identityserver4", // 2022-05-23
       "atribute-based-access-control-blazor-webassembly-identityserver4", // 2022-05-23
       "deploying-aspnet-core-web-api-azure-api-apps", // 2024-01-31
@@ -529,6 +623,14 @@ export const template: SidebarInfoTemplate = {
       "user-registration-angular-aspnet-identity", // 2022-05-17
       "custom-validators-and-handling-errors-with-angular-and-asp-net-core-identity", // 2022-10-12
       "csharp-getting-property-mappings-from-automapper", // 2024-04-21
+      Y2025,
+      Y2024,
+      Y2023,
+      Y2022,
+      Y2021,
+      Y2020,
+      Y2019,
+      Y2018,
     ]]
   ])
 }

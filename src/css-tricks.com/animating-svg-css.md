@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/04/illustrator-p
 
 There isn’t just one way to animate SVG. There is the `<animate>` tag that goes right into the SVG code. There are libraries that help with it like [<FontIcon icon="fas fa-globe"/>Snap.svg](https://snapsvg.io/) or [<FontIcon icon="fas fa-globe"/>SVG.js](https://svgdotjs.github.io/). We’re going to look at another way: using inline SVG (SVG code right inside HTML) and animating the parts right through CSS.
 
-I played with this personally recently as my Alma mater [<FontIcon icon="fas fa-globe"/>Wufoo](https://ad.doubleclick.net/ddm/clk/270735259;104033101;o?https://www.wufoo.com/landing/1/?utm_source=csstricks&utm_medium=ppc&cmpid=brand&utm_network=d) was looking to freshen up the advertising graphic we’re running here. My latest design around here uses SVG quite a bit and I thought this would be another perfect opportunity to use it some more.
+I played with this personally recently as my Alma mater [<FontIcon icon="fas fa-globe"/>Wufoo](https://ad.doubleclick.net/ddm/clk/270735259;104033101;o?https://www.wufoo.com/landing/1/) was looking to freshen up the advertising graphic we’re running here. My latest design around here uses SVG quite a bit and I thought this would be another perfect opportunity to use it some more.
 
 The finished product is pretty simple. Here’s it is:
 

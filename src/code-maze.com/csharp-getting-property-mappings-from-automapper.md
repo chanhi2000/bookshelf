@@ -51,7 +51,7 @@ In this article, we’ll take a look at what property mappings are and how to re
 
 AutoMapper is a free .NET library that streamlines object mapping, reducing manual coding to boost development speed and minimize the risk of errors. Additionally, it offers versatile configuration options and supports complex needs like conditional mapping, custom transformations, and error handling.
 
-::: note
+::: info
 
 To download the source code for this article, you can visit our [GitHub repository (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/CodeMazeGuides`)](https://github.com/CodeMazeBlog/CodeMazeGuides/tree/main/dotnet-client-libraries/GettingPropertyMappingsWithAutomapper).
 
@@ -63,13 +63,13 @@ Let’s start
 
 ## Using AutoMapper to Map Classes
 
-We already have prepared a basic mapping functionality, so let’s check that out. If you haven’t used AutoMapper before, check out this article first [Getting Started with AutoMapper in ASP.NET Core](/code-maze.com/automapper-net-core.md).
+We already have prepared a basic mapping functionality, so let’s check that out. If you haven’t used AutoMapper before, check out this article first [**Getting Started with AutoMapper in ASP.NET Core**](/code-maze.com/automapper-net-core.md).
 
 ### Creating a Basic Mapping Configuration
 
 First, we have two classes to be mapped, `Source` and `Destination`:
 
-```csharp
+```cs
 public class Source
 {
     public string Name { get; set; }
@@ -85,7 +85,7 @@ public class Destination
 
 Then, there is a mapping profile:
 
-```csharp
+```cs
 public class MyProfile : Profile
 {
     public MyProfile()
@@ -101,7 +101,7 @@ Note that **if we don’t explicitly call the `ForMember()` method to specify th
 
 Finally, we have a new `MapperConfiguration` in the `Program` class:
 
-```csharp
+```cs
 var config = new MapperConfiguration(cfg =>
 {
     cfg.AddProfile(new MyProfile());
@@ -112,7 +112,7 @@ var config = new MapperConfiguration(cfg =>
 
 Now let’s map an instance of the `Source` class to the `Destination` class:
 
-```csharp
+```cs
 var mapper = config.CreateMapper();
 var source = new Source { Name = "Jack",Age = 20};
 var destination = mapper.Map<Source, Destination>(source);
@@ -123,7 +123,7 @@ First, we build the `IMapper` object. Then we create an instance of `Source` as 
 
 Let’s run the application and verify that the console displays the values of `FullName` and `YearsOld` in the mapped `Destination` object:
 
-```
+```plaintext title="output"
 Name: Jack, Age: 20
 ```
 
@@ -143,7 +143,7 @@ Now let’s take a look at property mappings, which represent the relationship o
 
 In AutoMapper, we get the defined property mappings by calling the `GetAllTypeMaps()` method:
 
-```csharp
+```cs
 var typeMaps = mapper.ConfigurationProvider.Internal().GetAllTypeMaps();
 foreach (var typeMap in typeMaps)
 {
@@ -162,7 +162,7 @@ The `typeMap.MemberMaps` collection represents the mapped properties. `typeMap.S
 
 Let’s rerun the application to see the mapped relationships:
 
-```
+```plaintext title="output"
 Name: Jack, Age: 20
 Source.Name is mapped to Destination.FullName
 Source.Age is mapped to Destination.YearsOld

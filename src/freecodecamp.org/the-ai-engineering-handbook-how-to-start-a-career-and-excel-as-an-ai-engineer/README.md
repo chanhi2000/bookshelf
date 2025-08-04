@@ -116,7 +116,7 @@ And if you’d like to have this handbook in a convenient PDF format, [<FontIcon
 
 As one of the most in-demand fields today, AI engineering sits at the heart of technological progress. Industry leaders are hunting for top-tier AI engineers across the globe. These engineers are being offered salaries ranging from $300,000 to $700,000 annually, with some even earning in the millions. The demand for AI engineers has never been higher, and the opportunities are vast for those ready to take the leap.
 
-The global artificial intelligence market is projected to grow from $184 billion in 2024 to over [$826 billion by 2030](https://statista.com/forecasts/1474143/global-ai-market-size?utm_source=chatgpt.com). This exponential growth is driven by AI engineers who are developing these products and solutions, transforming many industries and driving economic expansion.
+The global artificial intelligence market is projected to grow from $184 billion in 2024 to over [$826 billion by 2030](https://statista.com/forecasts/1474143/global-ai-market-size). This exponential growth is driven by AI engineers who are developing these products and solutions, transforming many industries and driving economic expansion.
 
 My name is [Tatev Aslanyan,](https://linkedin.com/in/tatev-karen-aslanyan/) and I’m from [LunarTech](https://lunartech.ai), a deep tech innovation company specializing in teaching cutting-edge technologies like data science and AI through [courses](https://academy.lunartech.ai/courses), [bootcamps](https://lunartech.ai/bootcamp/ai-engineering-bootcamp), and corporate training. In this comprehensive handbook, I will guide you step-by-step through what it takes to become a world-class AI engineer. You will learn:
 

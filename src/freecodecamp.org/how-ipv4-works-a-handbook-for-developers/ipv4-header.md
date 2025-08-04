@@ -2,7 +2,6 @@
 lang: en-US
 title: "IPv4 Header"
 description: "Article(s) > (7/8) How IPv4 Works – A Handbook for Developers" 
-icon: fas fa-computer
 category:
   - Engineering
   - Computer
