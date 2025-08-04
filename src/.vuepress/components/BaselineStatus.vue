@@ -7,17 +7,17 @@
         <BaselineIcon v-bind:support="baseline" aria-hidden="true"/>
         <div class="baseline-status-title" aria-hidden="true">
           <div>
-            {{ preTitle }} {{ feature.title }} {{ feature.year }} {{ feature.badge }}
+            {{ title }} {{ feature.year }} {{ feature.badge }}
           </div>
-          <BaselineStatusBrowsers v-bind:browser_implementations=feature.browser_implementations />
         </div>
+        <BaselineStatusBrowsers v-bind:browser_implementations="feature?.browser_implementations" />
         <span class="open-icon" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">
             <path d="M5.5 6.45356L0.25 1.20356L1.19063 0.262939L5.5 4.59419L9.80937 0.284814L10.75 1.22544L5.5 6.45356Z" fill="currentColor"/>
           </svg>
         </span>
       </summary>
-      <p>{{ feature.description }}</p>
+      <p>{{ description }}</p>
       <p v-if="baseline !== 'no_data'">
         <a :href="`https://github.com/web-platform-dx/web-features/blob/main/features/${feature.feature_id}.yml`" target="_top">Learn more</a>
       </p>
@@ -40,7 +40,7 @@ const BASELINE_DEFS = {
     title: '',
     defaultDescription: 'This feature works across the latest devices and browser versions. This feature might not work in older devices or browsers.'
   },
-  'widely': {
+  widely: {
     title: 'Widely available',
     defaultDescription: 'This feature is well established and works across many devices and browser versions.'
   },
@@ -68,7 +68,8 @@ export default {
       isLoading: false,
       feature: {},
       baseline: "no_data",
-      preTitle: "Baseline:",
+      title: "Baseline:",
+      description: "",
       support: '',
       browsers: {
         chrome: { icon: `` },
@@ -88,25 +89,30 @@ export default {
         const data = await response.json();
         console.log(JSON.stringify(data, 2, null))
         this.feature = data;
+        this.baseline = data?.baseline?.status || "no_data";
       } catch (error) {
         console.error("Error fetching data:", error);
       }
       this.isLoading = false;
+      console.log(`baseline: ${this.baseline}`)
+      this.title = BASELINE_DEFS[this.baseline]?.title || "Loading...";
+      const baselineDate = this.getBaselineDate(this.feature) ?? undefined;
+      this.description = this.getDescriptionDate(this.baseline, baselineDate);
+      this.browsers = this.feature?.browser_implementations || {};
     },
     getAriaLabel() {
-      const title = this.isLoading ? 'Loading...' : BASELINE_DEFS[this.baseline].title;
-      const badge = this.baseline === 'newly' ? `<span class="baseline-badge">newly available</span>` : '';
-      const baselineDate = this.getBaselineDate(this.feature);
-      const description = this.getDescriptionDate(this.baseline, baselineDate);
-      const year = (this.baseline === 'newly' && baselineDate) 
+      const badge = this.baseline === 'newly' 
+        ? `<span class="baseline-badge">newly available</span>` 
+        : '';
+      const year = (this.baseline === 'newly' && baselineDate)
         ? baselineDate.split(' ')[1]
         : '';
-      const { chrome, edge, firefox, safari } = this.feature.browser_implementations || {};
-      this.browsers
-      if (title === 'Unknown availability') {
+      const { chrome, edge, firefox, safari } = this.browsers || {};
+      // this.browsers
+      if (this.title === 'Unknown availability') {
         // chrome = edge = firefox = safari = 'unknown';
       }
-      return `Baseline: ${title}${year ? ` ${year}` : ''}${badge ? ` (newly available)` : ''}. Supported in Chrome: ${chrome === 'available' ? 'yes' : chrome}. Supported in Edge: ${edge === 'available' ? 'yes' : edge}. Supported in Firefox: ${firefox === 'available' ? 'yes' : firefox}. Supported in Safari: ${safari === 'available' ? 'yes' : safari}.`;
+      return `${this.title}${year ? ` ${year}` : ''}${badge ? ` (newly available)` : ''}. Supported in Chrome: ${chrome?.status === 'available' ? 'yes' : chrome?.status}. Supported in Edge: ${edge?.status === 'available' ? 'yes' : edge?.status}. Supported in Firefox: ${firefox?.status === 'available' ? 'yes' : firefox?.status}. Supported in Safari: ${safari?.status === 'available' ? 'yes' : safari?.status}.`;
     },
     
     /**
@@ -130,14 +136,11 @@ export default {
      * @returns {string}
      */
     getDescriptionDate(baseline, date) {
+      console.log(`getDescriptionDate ... baseline: ${baseline}, date: ${date}`)
       if (baseline === 'newly' && date) {
-        return `Since ${date} this feature works across the latest
-          devices and browser versions. This feature might not work in older
-          devices or browsers.`
+        return `Since ${date} this feature works across the latest devices and browser versions. This feature might not work in older devices or browsers.`
       } else if (baseline === 'widely' && date) {
-        return `This feature is well established and works across many
-          devices and browser versions. It’s been available across browsers
-          since ${date}`
+        return `This feature is well established and works across many devices and browser versions. It’s been available across browsers since ${date}`
       }
       return BASELINE_DEFS[baseline].defaultDescription;
     }
@@ -188,7 +191,7 @@ a:visited {
 }
 
 .baseline-status-title {
-  display: flex;flex-wrap: wrap;justify-content: space-between;flex: 1;gap: 1rem;
+  display:flex;flex-wrap:wrap;justify-content:space-between;flex:1;gap:1rem;
 }
 
 .baseline-status-title {
@@ -211,11 +214,19 @@ a:visited {
   white-space: nowrap;
 }
 
+  
+details { width: 100%; }
+summary {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;flex-wrap:wrap;justify-content:space-between;
+  gap: 16px;padding: 16px 0;
+}
 details > summary .open-icon {
   width: 10px;
   height: 20px;
-  margin-left: auto;
   color: inherit;
+  margin-left: auto;
 }
 
 @media (min-width: 420px) {

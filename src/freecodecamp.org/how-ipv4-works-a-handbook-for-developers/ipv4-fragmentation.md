@@ -2,7 +2,6 @@
 lang: en-US
 title: "IPv4 Fragmentation"
 description: "Article(s) > (8/8) How IPv4 Works – A Handbook for Developers" 
-icon: fas fa-computer
 category:
   - Engineering
   - Computer

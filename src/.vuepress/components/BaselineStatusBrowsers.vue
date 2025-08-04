@@ -1,7 +1,7 @@
 <template>
   <div class="baseline-status-browsers">
     <span v-for="(browser, key) in browsers" :key="key">
-      <BaselineStatusBrowser v-bind:browser="browser" v-bind:feature="feature[key]"/>
+      <BaselineStatusBrowser v-bind:browser="browser" v-bind:featureStatus="feature[key]"/>
     </span>
   </div>
 </template>
@@ -20,27 +20,28 @@ export default {
   data() {
     return {
       browsers: ['chrome', 'edge', 'firefox', 'safari'],
-      feature: [],
+      feature: ['unavailable', 'unavailable', 'unavailable', 'unavailable'],
     }
   },
   methods: {
     render() {
       // const { chrome, edge, firefox, safari } = this.browser_implementations || {};
       this.feature = this.browsers.map((browserName) => {
-        console.log(`${browserName}: ${JSON.stringify(this.browser_implementations)}`)
-        return (
-          this.browser_implementations &&
-          browserName in this.browser_implementations && 
+        const res = (
+          this.browser_implementations && browserName in this.browser_implementations && 
           this.browser_implementations[browserName] && 
           this.browser_implementations[browserName]?.status
-        )
-        ? this.browser_implementations[browserName]?.status ?? 'unavailable' 
-        : 'unavailable';
+        ) ? this.browser_implementations[browserName]?.status ?? 'unavailable' 
+          : 'unavailable';
+        console.log(`${browserName}: ${JSON.stringify(this.browser_implementations)}, res: ${res}`)
+        return res;
       })
     },
   },
   mounted() {
-    this.render()
+    setTimeout(() => {
+      this.render()
+    }, 1200)
   }
 }
 </script>
@@ -52,25 +53,11 @@ export default {
   --baseline-status-color-no_data: light-dark(#707070, #868686);
 }
 .baseline-status-browsers {
-  font-size: 0;
-  max-width: 200px;
   display: flex;
-  gap: 16px;
+  max-width: 200px;gap: 16px;font-size: 0;
+  margin-left: auto;;
 }
 .baseline-status-browsers span {
   white-space: nowrap;
-}
-.support-no_data {
-  color: var(--baseline-status-color-no_data);
-}
-.support-unavailable {
-  color: var(--baseline-status-color-limited);
-}
-.support-newly {
-  color: var(--baseline-status-color-newly);
-}
-.support-widely,
-.support-available {
-  color: var(--baseline-status-color-widely);
 }
 </style>

@@ -468,4 +468,3 @@ That’s it. Once the application is running in the production environment (indi
 In this article, we’ve gone through some basic concepts of ASP.NET Core application configuration. We’ve learned how to use change configuration settings for our application, use sections to logically group our configuration data, and read the hierarchical configuration structures.
 
 We still haven’t touched upon the [options pattern](/code-maze.com/aspnet-configuration-options.md) or [configuration providers](/code-maze.com/aspnet-configuration-providers.md), which are our next topics of this [series](/code-maze.com/net-core-series.md/#configuration).
-

@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "bringing-back-parallax-with-scroll-driven-css-animations", // 2025-08-06
+    "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
+    "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
     "making-a-masonry-layout-that-works-today", // 2025-07-28
     "how-to-discover-a-css-trick", // 2025-07-25
     "a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers", // 2025-07-23
@@ -210,6 +213,8 @@ export const template: SidebarInfoTemplate = {
       "a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers", // 2025-07-23
       "how-to-discover-a-css-trick", // 2025-07-25
       "making-a-masonry-layout-that-works-today", // 2025-07-28
+      "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
+      "bringing-back-parallax-with-scroll-driven-css-animations", // 2025-08-06
       // END: 2025css
       // END: css
     ]],[
@@ -220,6 +225,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js",[
       "making-a-masonry-layout-that-works-today", // 2025-07-28
+      "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
+      "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
       // END: 2025js
       // END: js
     ]],[

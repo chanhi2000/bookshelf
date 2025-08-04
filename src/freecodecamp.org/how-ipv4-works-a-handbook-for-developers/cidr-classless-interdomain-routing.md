@@ -2,7 +2,6 @@
 lang: en-US
 title: "CIDR: Classless Interdomain Routing"
 description: "Article(s) > (2/8) How IPv4 Works – A Handbook for Developers" 
-icon: fas fa-computer
 category:
   - Engineering
   - Computer

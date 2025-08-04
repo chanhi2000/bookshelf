@@ -25,7 +25,9 @@ head:
 prev: /devops/linux-arch/articles/README.md
 date: 2020-06-01
 isOriginal: false
-author: Abhishek Prakash
+author: 
+  - name: Abhishek Prakash
+    url: https://itsfoss.com/author/abhishek/
 cover: https://itsfoss.com/content/images/wordpress/2018/01/things-to-do-after-installing-arch-linux.jpg
 ---
 

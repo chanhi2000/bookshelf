@@ -25,7 +25,9 @@ head:
 prev: /devops/linux-debian/articles/README.md
 date: 2013-07-28
 isOriginal: false
-author: Abhishek Prakash
+author: 
+  - name: Abhishek Prakash
+    url: https://itsfoss.com/author/abhishek/
 cover: https://itsfoss.com/content/images/2024/11/conky.png
 ---
 

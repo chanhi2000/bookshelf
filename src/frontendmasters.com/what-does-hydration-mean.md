@@ -150,7 +150,7 @@ The most likely problem is mis-matching HTML. Since we started with Next.js, [<F
 
 ## Does using a JavaScript framework with SSR absolutely require hydration?
 
-If you don’t need any interactivity at all, no. Personally, I like the component model of building sites with JavaScript-based components even if it’s largely just static content. [<FontIcon icon="fas fa-globe"/>Astro](https://astro.build/) excels at that ([<FontIcon icon="fas fa-globe"/>here’s a course](https://frontendmasters.com/courses/astro/?utm_source=boost&utm_medium=blog&utm_campaign=boost)), but other frameworks can be configured to not output any JavaScript (thus skipping any hydration process).
+If you don’t need any interactivity at all, no. Personally, I like the component model of building sites with JavaScript-based components even if it’s largely just static content. [<FontIcon icon="fas fa-globe"/>Astro](https://astro.build/) excels at that ([<FontIcon icon="fas fa-globe"/>here’s a course](https://frontendmasters.com/courses/astro/)), but other frameworks can be configured to not output any JavaScript (thus skipping any hydration process).
 
 A blog post famously said [“Hydration is pure overhead.”](https://builder.io/blog/hydration-is-pure-overhead)
 

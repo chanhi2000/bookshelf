@@ -2,7 +2,7 @@
 lang: en-US
 title: "How Incremental Static Regeneration (ISR) Works in Next.js"
 description: "Article(s) > How Incremental Static Regeneration (ISR) Works in Next.js"
-icon: iconfont icon-node
+icon: iconfont icon-nextjs
 category:
   - Node.js
   - Next.js

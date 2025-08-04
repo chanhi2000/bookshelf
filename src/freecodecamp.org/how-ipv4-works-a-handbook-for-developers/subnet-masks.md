@@ -2,7 +2,6 @@
 lang: en-US
 title: "Subnet Masks"
 description: "Article(s) > (3/8) How IPv4 Works – A Handbook for Developers" 
-icon: fas fa-computer
 category:
   - Engineering
   - Computer

@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
     "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
     "named-query-filters-in-ef-10-multiple-query-filters-per-entity", // 2025-07-26 
     "pdf-reporting-in-dotnet-with-html-templates-and-puppeteersharp", // 2025-07-19
@@ -443,6 +444,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-microservices-core-concepts-and-benefits", // 2025-04-19
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
+      "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
       // END: 2025system-design
       // END: system-design
     ]],[

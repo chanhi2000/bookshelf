@@ -220,8 +220,12 @@ const EMPIRE_STATE_BUILDING_RUN_UP_ANALYSIS_WITH_PYTHON: SidebarInfoSubgroupTemp
   icon: 'iconfont icon-pandas',
   subPath: 'empire-state-building-run-up-analysis-with-python',
   children: [
-    // TODO: 페이지 생성
     'README',
+    'how-to-get-the-data-using-web-scraping',
+    'how-to-clean-up-the-data',
+    'how-to-analyze-the-data',
+    'how-to-visualize-the-results',
+    'how-to-run-the-applications',
   ],
 }
 
@@ -814,20 +818,21 @@ const SCALE_TESTOPS_FOR_GLOBAL_SOFTWARE_DEVELOPMENT_TEAMS: SidebarInfoSubgroupTe
 const HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS: SidebarInfoSubgroupTemplate = { // 2025-04-29
   text: 'How to Build a Production-Ready DevOps Pipeline with Free Tools',
   collapsible: true,
-  icon: 'fas fa-network',
+  icon: 'iconfont icon-github',
   subPath: 'how-to-build-a-production-ready-devops-pipeline-with-free-tools',
   children: [
     'README',
-    'how-to-set-up-your-source-control-and-project-structure',
-    'how-to-build-your-ci-pipeline-with-github-actions',
-    'how-to-optimize-docker-builds-for-ci',
-    'infrastructure-as-code-using-terraform-and-free-cloud-providers',
-    'how-to-set-up-container-orchestration-on-minimal-resources',
-    'how-to-create-a-free-deployment-pipeline',
-    'how-to-build-a-comprehensive-monitoring-system',
-    'how-to-implement-security-testing-and-scanning',
-    'performance-optimization-and-scaling',
-    'complete-cicd-pipeline-example',
+    // TODO: 페이지 작성
+    // 'how-to-set-up-your-source-control-and-project-structure',
+    // 'how-to-build-your-ci-pipeline-with-github-actions',
+    // 'how-to-optimize-docker-builds-for-ci',
+    // 'infrastructure-as-code-using-terraform-and-free-cloud-providers',
+    // 'how-to-set-up-container-orchestration-on-minimal-resources',
+    // 'how-to-create-a-free-deployment-pipeline',
+    // 'how-to-build-a-comprehensive-monitoring-system',
+    // 'how-to-implement-security-testing-and-scanning',
+    // 'performance-optimization-and-scaling',
+    // 'complete-cicd-pipeline-example',
   ]
 }
 
@@ -923,6 +928,11 @@ const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoS
   subPath: 'how-to-become-an-analytical-programmer-compare-five-projects',
   children: [
     'README',
+    '1-cpc-rock-paper-scissors-by-amit-a-project-with-fireworks-animations',
+    '2-rock-paper-scissors-game-using-native-drag-drop-by-hmz-c-a-project-using-the-html-drag-element',
+    '3-rock-paper-scissors-by-brad-traversy-a-project-with-a-modal-and-a-reset',
+    '4-rock-paper-scissors-oop-by-damian-a-project-written-in-oop',
+    '5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai',
     // TODO: 페이지 생성
   ]
 }
@@ -1074,7 +1084,7 @@ const THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES: SidebarInfoSubgr
 const HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE: SidebarInfoSubgroupTemplate = { // 2025-06-17
   text: "How to Build a Realtime Chat Application with Angular 20 and Supabase",
   collapsible: true,
-  icon: 'fa-brands fa-anuglar',
+  icon: 'fa-brands fa-angular',
   subPath: 'how-to-build-a-realtime-chat-app-with-angular-20-and-supabase',
   children: [
     'README',
@@ -1236,11 +1246,33 @@ const AI_IN_FINANCE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-08-02
   ]
 }
 
+const THE_NEXTJS_15_STREAMING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-08-07
+  text: "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton",
+  collapsible: true,
+  icon: 'iconfont icon-nextjs',
+  subPath: 'the-nextjs-15-streaming-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide", // 2025-08-09
+    "learn-time-series-forecasting-in-python", // 2025-08-08
+    "pass-the-google-cloud-associate-cloud-engineer-exam", // 2025-08-08
+    "how-to-replicate-figma-designs-in-flutter", // 2025-08-08
+    "key-metrics-that-can-make-or-break-your-startup", // 2025-08-08
+    "how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011", // 2025-08-07
+    "choose-the-right-language-js-vs-c-sharp", // 2025-08-07
+    "how-to-implement-zero-trust-authentication-in-your-web-apps", // 2025-08-07
+    THE_NEXTJS_15_STREAMING_HANDBOOK, // 2025-08-07
+    "improve-web-accessibility-with-landmarks", // 2025-08-06
+    "learn-react-and-tailwind-css-for-front-end-development", // 2025-08-04
     "embedded-swift-a-modern-approach-to-low-level-programming", // 2025-08-02
     "how-to-deploy-a-nextjs-api-to-production-using-sevalla", // 2025-08-02
     "how-infinite-loops-work-in-c", // 2025-08-02
@@ -2496,6 +2528,8 @@ export const template: SidebarInfoTemplate = {
       "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
       HOW_TO_USE_THE_THIS_KEYWORD_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-07-10
       "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
+      "how-to-implement-zero-trust-authentication-in-your-web-apps", // 2025-08-07
+      "choose-the-right-language-js-vs-c-sharp", // 2025-08-07
       // END: 2025js
       // END: js
     ]],[
@@ -2729,6 +2763,7 @@ export const template: SidebarInfoTemplate = {
       "shadcn-ui-dropdown-menu", // 2025-07-18
       HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
       SHARED_STATE_COMPLEXITY_IN_REACT_HANDBOOK, // 2025-08-01
+      "learn-react-and-tailwind-css-for-front-end-development", // 2025-08-04
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2783,6 +2818,7 @@ export const template: SidebarInfoTemplate = {
       "build-and-deploy-a-calendly-clone-with-google-calendar-integration", // 2025-06-24
       "how-to-use-the-view-transition-api", // 2025-07-02
       "how-to-deploy-a-nextjs-api-to-production-using-sevalla", // 2025-08-02
+      THE_NEXTJS_15_STREAMING_HANDBOOK, // 2025-08-07
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -2935,6 +2971,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-the-view-transition-api", // 2025-07-02
       "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
       "how-to-build-simpler-accordion-menus-with-html-details", // 2025-07-21
+      "improve-web-accessibility-with-landmarks", // 2025-08-06
       // END: 2025css
       // END: css
     ]],[
@@ -2947,6 +2984,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024css-tailwind
       // END: css-tailwind
       "build-and-deploy-a-calendly-clone-with-google-calendar-integration", // 2025-06-24
+      "learn-react-and-tailwind-css-for-front-end-development", // 2025-08-04
       // END: 2025css-tailwind
       // END: css-tailwind
     ]],[
@@ -3065,6 +3103,7 @@ export const template: SidebarInfoTemplate = {
       "how-ai-agents-remember-things-vector-stores-in-llm-memory", // 2025-07-17
       "learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock", // 2025-08-01
       "extract-insights-from-text-using-named-entity-recognition", // 2025-08-01
+      "how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide", // 2025-08-09
       // END: 2025py
       // END: py
     ]],[
@@ -3116,6 +3155,7 @@ export const template: SidebarInfoTemplate = {
       "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       "learn-python-for-data-science-full-course", // 2025-05-30
       "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
+      "learn-time-series-forecasting-in-python", // 2025-08-08
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
@@ -3145,6 +3185,7 @@ export const template: SidebarInfoTemplate = {
       "learn-python-for-data-science-full-course", // 2025-05-30
       "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
       "transform-json-data-schema", // 2025-07-10
+      "learn-time-series-forecasting-in-python", // 2025-08-08
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -3184,6 +3225,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-local-notifications-in-flutter", // 2025-06-27
       HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-07-25
       "how-to-push-silent-updates-in-flutter-using-shorebird", // 2025-08-02
+      "how-to-replicate-figma-designs-in-flutter", // 2025-08-08
       // END: 2025dart
       // END: dart
     ]],[
@@ -3270,6 +3312,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-an-aspnet-core-mvc-web-app", // 2025-02-20
       "create-a-simple-mmo-game-in-unity", // 2025-03-06
       WHY_YOUR_CODE_IS_SLOW_COMMON_PERFORMANCE_MISTAKES_BEGINNERS_MAKE, // 2025-03-29
+      "choose-the-right-language-js-vs-c-sharp", // 2025-08-07
       // END: 2025cs
       // END: cs
     ]],[
@@ -3392,6 +3435,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "powershell", [
       "what-is-a-process-id-process-management-tutorial", // 2025-01-31
+      "how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011", // 2025-08-07
       // END: 2025pwsh
       // END: pwsh
     ]],[
@@ -3543,10 +3587,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "win", [
       "how-to-use-ssh-to-connect-to-github-guide-for-windows", // 2024-09-27
-      // END: 2024windows
+      // END: 2024win
       "how-to-exploit-the-eternalblue-vulnerability-on-windows", // 2025-03-14
-      // END: 2025windows
-      // END: windows
+      "how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011", // 2025-08-07
+      // END: 2025win
+      // END: win
     ]],[
     "linux-debian", [
       "learn-linux-for-beginners-book-basic-to-advanced", // 2024-07-12
@@ -3720,6 +3765,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024gcp
       "beginners-guide-to-cloud-data-analytics", // 2025-06-17
       "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
+      "pass-the-google-cloud-associate-cloud-engineer-exam", // 2025-08-08
       // END: 2025gcp
       // END: gcp
     ]],[
@@ -3901,6 +3947,7 @@ export const template: SidebarInfoTemplate = {
       "what-are-json-web-tokens-jwt", // 2025-07-08
       "learn-how-to-build-security-into-ai", // 2025-07-17
       "protect-github-repos-from-malicious-clones", // 2025-07-17
+      "how-to-implement-zero-trust-authentication-in-your-web-apps", // 2025-08-07
       // END: 2025security
       // END: security
     ]],[
@@ -4301,6 +4348,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "mcp", [
       HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
+      "how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide", // 2025-08-09
       // END: mcp
     ]],[
     "chem", [
@@ -4419,6 +4467,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-document-governing-procedures-for-open-source-communities", // 2025-07-17
       "data-structure-and-algorithm-patterns-for-leetcode-interviews", // 2025-07-22
       "improve-your-technical-writing-skills-to-advance-your-career", // 2025-08-01
+      "key-metrics-that-can-make-or-break-your-startup", // 2025-08-08
       // END: 2025career
       // END: career
     ]],[

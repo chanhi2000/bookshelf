@@ -2,7 +2,6 @@
 lang: en-US
 title: "Interim Summary – IPv4 Addresses"
 description: "Article(s) > (4/8) How IPv4 Works – A Handbook for Developers" 
-icon: fas fa-computer
 category:
   - Engineering
   - Computer

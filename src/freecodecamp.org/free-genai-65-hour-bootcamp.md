@@ -27,7 +27,7 @@ date: 2025-05-09
 isOriginal: false
 author:
   - name: Andrew Brown
-    url: https://genai.cloudprojectbootcamp.com/
+    url: https://exampro.co/gcp-ace
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746719963573/21c89484-ff8e-45b1-8035-ac9650c22894.png
 ---
 

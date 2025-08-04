@@ -144,7 +144,7 @@ Of course, because it’s self-hosted, it’s not for everyone. You need to inst
 <SiteInfo
   name="Web Application Firewall (WAF) & API Protection | Fortinet"
   desc="FortiWeb web application firewall provides advanced capabilities to defend web applications and APIs from known and zero-day threats."
-  url="https://fortinet.com/products/web-application-firewall/fortiweb?utm_source=pr&utm_campaign=2019-q3-fortiweb/"
+  url="https://fortinet.com/products/web-application-firewall/fortiweb"
   logo="https://fortinet.com/content/dam/fortinet/images/favicon/favicon.ico"
   preview="https://fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg"/>
 

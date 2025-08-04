@@ -1149,7 +1149,7 @@ It’s important to note that this is an ongoing project, and we‘re’ activel
 
 **License:**All code samples in this article are licensed under the[Apache License, Version 2.0](https://apache.org/licenses/LICENSE-2.0).
 
-**P.S.**Interested in working with us? We’re hiring![Check out our open Engineering roles here](https://wise.jobs/engineering?utm_source=engineeringblog&utm_medium=blog&utm_campaign=careers_site). -->
+**P.S.**Interested in working with us? We’re hiring![Check out our open Engineering roles here](https://wise.jobs/engineering). -->
 
 This article is previously published on [proandroiddev.com.](https://proandroiddev.com/automating-ui-model-generation-with-ksp-4b1d9d1f5c95)
 

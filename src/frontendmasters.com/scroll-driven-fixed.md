@@ -107,7 +107,6 @@ Here’s that basic setup:
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
 <BaselineStatus featureid="scroll-driven-animations" />
-<!-- <BaselineIcon support="no_data" /> -->
 
 I bet you could imagine that this is the same exact trick for a “scroll position indicator” bit of UI. Position that `<div>` as like a 2px tall bar and have the `scaleX` transform go from 0 to 100% and donezo.
 

@@ -52,7 +52,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x6
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp"/>
 
-![Photo by [<FontIcon icon="fas fa-globe"/>Albert Stoynov](https://unsplash.com/@albertstoynov?utm_source=medium&utm_medium=referral)](https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp)
+![Photo by [<FontIcon icon="fas fa-globe"/>Albert Stoynov](https://unsplash.com/@albertstoynov)](https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp)
 
 ---
 
