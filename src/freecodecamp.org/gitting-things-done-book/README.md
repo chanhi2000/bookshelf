@@ -136,41 +136,50 @@ this is a short list. You can find a longer list of references on the [<FontIcon
 
 #### Diffs and Patches
 
-<!-- 
 Git Diffs algorithms:
 
-- <a href="https://en.wikipedia.org/wiki/Diff">https://en.wikipedia.org/wiki/Diff</a>
+- [https://en.wikipedia.org/wiki/Diff](https://en.wikipedia.org/wiki/Diff)
 
 The most default diff algorithm in Git is Myers:
 
-- <a href="https://nathaniel.ai/myers-diff/">https://nathaniel.ai/myers-diff/</a>
-- <a href="https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1/">https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1/</a>
-- <a href="https://blog.robertelder.org/diff-algorithm/">https://blog.robertelder.org/diff-algorithm/</a>
+- [https://www.nathaniel.ai/myers-diff/](https://nathaniel.ai/myers-diff/)
+- [https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1/](https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1/)
+- [https://blog.robertelder.org/diff-algorithm/](https://blog.robertelder.org/diff-algorithm/)
 
 #### Git Merge
 
-- <a href="https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging">https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging</a>
-- <a href="https://blog.plasticscm.com/2010/11/live-to-merge-merge-to-live.html">https://blog.plasticscm.com/2010/11/live-to-merge-merge-to-live.html</a>
+- [https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging)
+- [https://blog.plasticscm.com/2010/11/live-to-merge-merge-to-live.html](https://blog.plasticscm.com/2010/11/live-to-merge-merge-to-live.html)
 
 #### Git Rebase
 
-- <a href="https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/7-branching-and-the-power-of-rebase.html">https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/7-branching-and-the-power-of-rebase.html</a>
-- <a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing">https://git-scm.com/book/en/v2/Git-Branching-Rebasing</a>
+- [https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/7-branching-and-the-power-of-rebase.html](https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/7-branching-and-the-power-of-rebase.html)
+- [https://git-scm.com/book/en/v2/Git-Branching-Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 #### Beatles-Related Resources
 
-- <a href="https://the-paulmccartney-project.com/song/ive-got-a-feeling/">https://the-paulmccartney-project.com/song/ive-got-a-feeling/</a>
-- <a href="https://cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html/">https://cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html/</a>
-- <a href="http://lifeofthebeatles.blogspot.com/2009/06/ive-got-feeling-lyrics.html">http://lifeofthebeatles.blogspot.com/2009/06/ive-got-feeling-lyrics.html</a>
+- [https://www.the-paulmccartney-project.com/song/ive-got-a-feeling/](https://the-paulmccartney-project.com/song/ive-got-a-feeling/)
+- [https://www.cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html/](https://cheatsheet.com/entertainment/did-john-lennon-or-paul-mccartney-write-the-classic-a-day-in-the-life.html/)
+- [http://lifeofthebeatles.blogspot.com/2009/06/ive-got-feeling-lyrics.html](http://lifeofthebeatles.blogspot.com/2009/06/ive-got-feeling-lyrics.html)
 
 ### Part 3
 
-- <a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified">https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified</a>
-- <a href="https://edureka.co/blog/common-git-mistakes/">https://edureka.co/blog/common-git-mistakes/</a>
+- [https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
+- [https://www.edureka.co/blog/common-git-mistakes/](https://edureka.co/blog/common-git-mistakes/)
 
----
+::: info About the Author
 
-## About the Author
+[Omer Rosenbaum](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is [Swimm](https://swimm.io/)’s Chief Technology Officer. He's the author of the [Brief YouTube Channel](https://youtube.com/@BriefVid). He's also a cyber training expert and founder of Checkpoint Security Academy. He's the author of [Computer Networks (in Hebrew)](https://data.cyber.org.il/networks/networks.pdf). You can find him on [Twitter](https://twitter.com/Omer_Ros).
 
-<a href="https://linkedin.com/in/omer-rosenbaum-034a08b9/">Omer Rosenbaum</a> is <a href="https://swimm.io/">Swimm</a>’s Chief Technology Officer. He's the author of the <a href="https://youtube.com/@BriefVid">Brief YouTube Channel</a>. He's also a cyber training expert and founder of Checkpoint Security Academy. He's the author of <a href="https://data.cyber.org.il/networks/networks.pdf">Computer Networks (in Hebrew)</a>. You can find him on <a href="https://twitter.com/Omer_Ros">Twitter</a>.
--->
+:::
+
+<!-- TODO: add ARTICLE CARD -->
+```component VPCard
+{
+  "title": "Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book.html",
+  "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+  "background": "rgba(10,10,35,0.2)"
+}
+```

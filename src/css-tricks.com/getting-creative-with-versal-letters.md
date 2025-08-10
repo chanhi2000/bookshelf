@@ -106,7 +106,7 @@ Interactive examples from this article are [<FontIcon icon="fas fa-globe"/>avail
 
 ## Shadows
 
-![Text shadows applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-03.webp?resize=1200%2C250&ssl=1)
+![Text shadows applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-03.webp?resize=1200%2C250&ssl=1)
 
 When I want to lift a drop cap off the page, I can add a single [`text-shadow`](https://css-tricks.com/almanac/properties/t/text-shadow/). Shadows can be colourful and don’t have to be black. I created a [<FontIcon icon="fas fa-globe"/>full live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2) you can check out.
 
@@ -128,13 +128,13 @@ p::first-letter {
 }
 ```
 
-![Examples showing unstyled, single text shadow, and two text shadows ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-3))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-04.webp?resize=2326%2C652&ssl=1)
+![Examples showing unstyled, single text shadow, and two text shadows ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-3))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-04.webp?resize=2326%2C652&ssl=1)
 
 ---
 
 ## Strokes
 
-![A text shadow applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-4))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-05.webp?resize=1200%2C250&ssl=1)
+![A text shadow applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-4))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-05.webp?resize=1200%2C250&ssl=1)
 
 The [<FontIcon icon="iconfont icon-css-tricks"/>`text-stroke`](https://css-tricks.com/almanac/properties/t/text-stroke/) property — shorthand for `text-stroke-width` and `text-stroke-color` — adds an outline to the centre of the text shape. It’s a [<FontIcon icon="fas fa-globe"/>Baseline](https://webstatus.dev/features/text-stroke-fill?q=text-stroke) feature and is now widely available. I can make the cap text transparent or colour it to match the page background.
 
@@ -149,7 +149,7 @@ p::first-letter {
 
 ## Backgrounds
 
-![Solid and gradient backgrounds applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-5))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-06.webp?resize=1200%2C250&ssl=1)
+![Solid and gradient backgrounds applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-5))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-06.webp?resize=1200%2C250&ssl=1)
 
 Adding a background is a simple way to start making a cap more decorative. I could start by adding a solid [<FontIcon icon="iconfont icon-css-tricks"/>`background-color`](https://css-tricks.com/almanac/properties/b/background-color/).
 
@@ -227,11 +227,11 @@ p::first-letter {
 }
 ```
 
-![A border radius applied to the first letter, where the top-left and bottom-right edges are rounded ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-09.webp?resize=1200%2C250&ssl=1)
+![A border radius applied to the first letter, where the top-left and bottom-right edges are rounded ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-09.webp?resize=1200%2C250&ssl=1)
 
 And then there’s the [<FontIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/) property, a powerful, yet often [**overlooked CSS tool**](/css-tricks.com/revisiting-css-border-image.md). By slicing, repeating, and outsetting images, you can create intricate borders and decorative drop caps with minimal code.
 
-![A CSS border image applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-12))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/s_56E34CC562FF29CF4636A37359C805B2C8BD4869C3745A14E50DCA49B828F693_1751638531059_2025-07-04-9.png?resize=1200%2C300&ssl=1)
+![A CSS border image applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-12))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/s_56E34CC562FF29CF4636A37359C805B2C8BD4869C3745A14E50DCA49B828F693_1751638531059_2025-07-04-9.png?resize=1200%2C300&ssl=1)
 
 You can insert a bitmap or vector format image, or drop a CSS gradient into the border space:
 
@@ -269,7 +269,7 @@ Or a glossy sticker shape cap, made by combining `clip-path` with a gradient bac
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-12.webp?resize=1200%2C250&ssl=1)
 
-Two examples of transforming first letters, one rotated ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-15)) and one scaled ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16))
+Two examples of transforming first letters, one rotated ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-15)) and one scaled ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16))
 
 You can [<FontIcon icon="iconfont icon-css-tricks"/>`transform`](https://css-tricks.com/almanac/properties/t/transform/) a drop cap independently from the rest of a paragraph by rotating, scaling, skewing, or translating it to make it feel more dynamic:
 
@@ -351,7 +351,7 @@ p::first-letter {
 }
 ```
 
-![Patty Meltt’s biography with a stylsh new drop cap ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-19))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-16.webp?resize=1600%2C1200&ssl=1)
+![Patty Meltt’s biography with a stylsh new drop cap ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-19))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-16.webp?resize=1600%2C1200&ssl=1)
 
 The result is a drop cap that’s as stylish as cut-off jeans and a pair of gator-skinned boots.
 

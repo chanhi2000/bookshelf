@@ -493,7 +493,7 @@ Using this, we can do something very similar to what we did before, as the minim
 }
 ```
 
-For example, if `n` is `7`, then the column index `i%n` can be `0`, `1`, … `6` and `n - 1` is `6`. If our item of index `i` is on the last column, then its column index `i%n = i%7 = 6`, so the difference between `n - 1 = 7 - 1 = 6` and `i%n = i%7 = 6` is `0`. If our item of index i isn’t on the last column, then its column index `i%n = i%7 < 6`, so the difference between `n - 1 = 6` and `i%n < 6` is `1` or bigger. Taking the minimum between `1` and this difference ensures we always get either `0` or `1`.
+For example, if `n` is `7`, then the column index `i%n` can be `0`, `1`, … `6` and `n - 1` is `6`. If our item of index `i` is on the last column, then its column index `i%n = i%7 = 6`, so the difference between `n - 1 = 7 - 1 = 6` and `i%n = i%7 = 6` is `0`. If our item of index i isn’t on the last column, then its column index `i%n = i%7 < 6`, so the difference between `n - 1 = 6` and `i%n < 6` is `1` or bigger. Taking the minimum between `1` and this difference ensures we always get either `0` or `1`.
 <!-- TODO: LaTeX 로 표현 -->
 
 <CodePen

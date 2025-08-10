@@ -64,7 +64,7 @@ The code for everything in this post is on [my GitHub repo (<FontIcon icon="icon
 
 ## Getting Started
 
-We’ll look at a toy task management app that does minimal work so we can focus on state management. It shows a (static) list of tasks, a button to add a new task, a heading showing the number of tasks, and a component to change the UI view between three options.
+We’ll look at a toy task management app that does minimal work so we can focus on state management. It shows a (static) list of tasks, a button to add a new task, a heading showing the number of tasks, and a component to change the UI view between three options.
 
 Moreover, the same app was written 3 times, once using vanilla React context for state, once using Zustand simply but non-idiomatically, and then a third version using Zustand more properly, so we can see some of the performance benefits it offers.
 

@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/8-modules-packages-and-dependency-management.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -58,13 +60,11 @@ Managing modules, packages, and dependencies is essential for any non-trivial pr
 
 ## Node.js Modules vs. Python Packages
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-js"/>
+### <FontIcon icon="fa-brands fa-js"/>
 
 JavaScript uses the **Node.js module system**, which allows developers to organize code into modules. Modules can be imported using `require` (CommonJS) or `import` (ES6 modules).
 
-**Example: Exporting and Importing Modules in JavaScript**
+::: tip Example: Exporting and Importing Modules in JavaScript
 
 ```js title="Exporting from a module (utils.js)"
 export function add(a, b) {
@@ -98,11 +98,13 @@ console.log(add(2, 3));       // Output: 5
 console.log(multiply(2, 3));  // Output: 6
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+:::
 
-Python organizes reusable code into **modules** and **packages**. A module is simply a `.py` file, and a package is a directory containing a special `__init__.py` file, which can include one or more modules.
+### <FontIcon icon="fa-brands fa-python"/>
 
-**Example: Exporting and Importing Modules in Python**
+Python organizes reusable code into **modules** and **packages**. A module is simply a `.py` file, and a package is a directory containing a special <FontIcon icon="fa-brands fa-python"/>`__init__.py` file, which can include one or more modules.
+
+::: tip Example: Exporting and Importing Modules in Python
 
 ```py title="Exporting from a module (utils.py)"
 def add(a, b):
@@ -121,15 +123,15 @@ print(multiply(2, 3))  # Output: 6
 
 Python uses `import` for loading modules and supports relative imports for packages.
 
+:::
+
 ---
 
 ## Package Managers: NPM vs. pip
 
 Both languages provide package managers for installing and managing third-party libraries and dependencies.
 
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-js"/>NPM
+### <FontIcon icon="fa-brands fa-js"/>NPM
 
 - **Node Package Manager (NPM)** is JavaScript’s default package manager, and it comes bundled with Node.js.
 - It uses a `package.json` file to define dependencies, scripts, and metadata for a project.
@@ -140,16 +142,16 @@ npm install express
 
 ```json title="Example: Defining Dependencies in package.json"
 {
-    "dependencies": {
-        "express": "^4.18.2"
-    }
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>pip 
+### <FontIcon icon="fa-brands fa-python"/>pip\
 
 - Python uses **pip** (Python Installer Package) to manage libraries and frameworks.
-- Python projects commonly use a `requirements.txt` file to list dependencies.
+- Python projects commonly use a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file to list dependencies.
 
 ```sh title="Example: Installing a Library with pip"
 pip install flask
@@ -160,7 +162,7 @@ flask==2.3.0
 requests==2.31.0
 ```
 
-To install all dependencies in `requirements.txt`:
+To install all dependencies in <FontIcon icon="fas fa-file-lines"/>`requirements.txt`:
 
 ```sh
 bashCopy codepip install -r requirements.txt
@@ -168,7 +170,7 @@ bashCopy codepip install -r requirements.txt
 
 ::: note Comparison
 
-- NPM allows version ranges and automatically creates `node_modules` to manage dependencies. It also supports both development (`--save-dev`) and production dependencies.
+- NPM allows version ranges and automatically creates <FontIcon icon="fas fa-folder-open"/>`node_modules` to manage dependencies. It also supports both development (`--save-dev`) and production dependencies.
 - pip installs libraries globally or in a virtual environment but lacks the automatic distinction between dev and production dependencies, which must be handled manually.
 
 :::
@@ -179,13 +181,13 @@ bashCopy codepip install -r requirements.txt
 
 Python has a unique feature for isolating dependencies: **virtual environments**. Virtual environments ensure that dependencies for one project don’t interfere with another, avoiding conflicts.
 
-**Creating a Virtual Environment**:
+### Creating a Virtual Environment
 
 ```sh
 python -m venv myenv
 ```
 
-**Activating the Virtual Environment**:
+### Activating the Virtual Environment
 
 ::: tabs
 
@@ -203,27 +205,27 @@ source myenv/bin/activate
 
 :::
 
-**Installing Libraries in the Virtual Environment**:
+### Installing Libraries in the Virtual Environment
 
 ```sh
 pip install flask
 ```
 
-**Deactivating the Virtual Environment**:
+### Deactivating the Virtual Environment
 
 ```sh
 deactivate
 ```
 
-**JavaScript Alternative**: While JavaScript does not require virtual environments, tools like `nvm` (Node Version Manager) can be used to manage different Node.js versions for projects.
+### JavaScript Alternative
+
+While JavaScript does not require virtual environments, tools like `nvm` (Node Version Manager) can be used to manage different Node.js versions for projects.
 
 ---
 
 ## Project Structures and Best Practices
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-js"/>
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Project Structure
 
 A typical Node.js project includes:
 
@@ -237,7 +239,7 @@ my-node-project/
 ├── package-lock.json  # Dependency tree for consistency
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+### <FontIcon icon="fa-brands fa-python"/>Python Project Structure
 
 ```plaintext title="project structure"
 my-python-project/
@@ -249,8 +251,10 @@ my-python-project/
 ├── requirements.txt # Dependency list
 ```
 
-### Key Takeaways:
+::: important Key Takeaways:
 
 1. **Modules**: Both languages support modular programming. Python modules are simple <FontIcon icon="fa-brands fa-python"/>`.py` files, while JavaScript has both CommonJS and ES6 modules.
 2. **Package Managers**: NPM and pip serve similar purposes but have different approaches. NPM is more feature-rich, supporting scripts and version management, while pip is simpler but relies on virtual environments for isolation.
 3. **Dependency Isolation**: Python’s virtual environments ensure clean project separation, a feature not natively required in JavaScript due to its global Node.js architecture.
+
+:::

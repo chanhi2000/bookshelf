@@ -125,7 +125,7 @@ It is important to understand that the return type of a method and the number of
 
 Delegates are very useful in the encapsulation of our methods.
 
-C# has the two built-in delegates: `Func<T>` and `Action<T>`, there are widely used, so let’s talk more about them.
+C# has the two built-in delegates: `Func<T>` and `Action<T>`, there are widely used, so let’s talk more about them.
 
 ---
 

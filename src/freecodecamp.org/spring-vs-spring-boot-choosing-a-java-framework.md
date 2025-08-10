@@ -536,7 +536,7 @@ The next time you are faced with a project requiring you to choose a similar fra
 
 ```component VPCard
 {
-  "title": "1. Introduction to Spring Framework",
+  "title": "1. Introduction to Spring Framework",
   "desc": "Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. Spring handles the infrastructure so you can focus on your application.",
   "link": "https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html/",
   "logo": "https://docs.spring.io",

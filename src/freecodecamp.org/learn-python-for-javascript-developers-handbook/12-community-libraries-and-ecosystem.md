@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/12-community-libraries-and-ecosystem.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -58,7 +60,7 @@ The strength of a programming language often lies in its community, ecosystem, a
 
 Both Python and JavaScript have centralized repositories for distributing and installing open-source libraries: **PyPI (Python Package Index)** for Python and **NPM (Node Package Manager)** for JavaScript.
 
-**Python: PyPI**
+### <FontIcon icon="iconfont icon-pypi"/>Python: PyPI
 
 - PyPI hosts over 400,000 packages, supporting fields like data science, web development, machine learning, and automation.
 - Popular libraries include:
@@ -67,9 +69,9 @@ Both Python and JavaScript have centralized repositories for distributing and in
   - **Django** and **Flask** for web development.
   - **BeautifulSoup** and **Scrapy** for web scraping.
 
-**Example: Installing and Using a PyPI Library**
+::: tip Example: Installing and Using a PyPI Library
 
-```bash
+```sh
 pip install requests
 ```
 
@@ -80,7 +82,9 @@ response = requests.get("https://api.example.com/data")
 print(response.json())
 ```
 
-**JavaScript: NPM**
+:::
+
+### <FontIcon icon="fa-brands fa-npm"/>JavaScript: NPM
 
 - NPM is the world’s largest software registry, with over 2 million packages for frontend, backend, and full-stack development.
 - Popular libraries include:
@@ -89,9 +93,9 @@ print(response.json())
   - **Lodash** for utility functions.
   - **Axios** for HTTP requests.
 
-**Example: Installing and Using an NPM Library**
+::: tip Example: Installing and Using an NPM Library
 
-```bash
+```sh
 npm install axios
 ```
 
@@ -102,10 +106,14 @@ axios.get('https://api.example.com/data')
     .then(response => console.log(response.data));
 ```
 
-**Comparison**:
+:::
+
+::: info Comparison
 
 - **Breadth**: NPM focuses on web development, while PyPI covers a wider range of domains, including data science and scientific research.
 - **Tools**: NPM’s CLI offers additional functionality like scripts and versioning, while pip focuses purely on library installation.
+
+:::
 
 ---
 
@@ -113,23 +121,20 @@ axios.get('https://api.example.com/data')
 
 Both ecosystems excel in their respective strengths:
 
-**Data Science**:
+### Data Science
 
 - Python dominates with libraries like Pandas, Matplotlib, and TensorFlow, making it the top choice for data manipulation, visualization, and machine learning.
 - JavaScript has D3.js for interactive visualizations and TensorFlow.js for machine learning, though its ecosystem for data science is less mature.
-    
 
-**Web Development**:
+### Web Development
 
 - JavaScript is unrivaled in frontend development with React, Vue, and Angular. For backend services, Node.js with Express is a common choice.
 - Python excels in backend web development with frameworks like Django and Flask, offering rapid development and scalability.
-    
 
-**Automation**:
+### Automation
 
 - Python is widely used for scripting and automation, with libraries like `os`, `shutil`, and `schedule`.
 - JavaScript, while less focused on automation, can handle automation tasks effectively with Node.js and tools like Puppeteer for browser automation.
-    
 
 ---
 
@@ -137,16 +142,15 @@ Both ecosystems excel in their respective strengths:
 
 Python has established itself as the go-to language for data science and machine learning due to its extensive ecosystem and user-friendly syntax.
 
-**Popular Python Libraries for Data Science**:
+### Popular Python Libraries for Data Science
 
 1. **Pandas**: Data manipulation and analysis.
 2. **NumPy**: Numerical computing and arrays.
 3. **Matplotlib/Seaborn**: Data visualization.
 4. **Scikit-learn**: Machine learning algorithms.
 5. **TensorFlow/Keras**: Deep learning frameworks.
-    
 
-**Example: Data Analysis with Pandas**
+::: tip Example: Data Analysis with Pandas
 
 ```py
 import pandas as pd
@@ -157,7 +161,9 @@ df = pd.DataFrame(data)
 print(df.describe())
 ```
 
-**Machine Learning with TensorFlow**
+:::
+
+### Machine Learning with TensorFlow
 
 ```py
 import tensorflow as tf
@@ -176,16 +182,15 @@ Python’s simplicity makes it easy for non-programmers, such as data analysts a
 
 JavaScript’s dominance in web development stems from its ability to run natively in the browser and its wide array of frontend frameworks.
 
-**Popular JavaScript Libraries for Web Development**:
+### Popular JavaScript Libraries for Web Development
 
 1. **React**: Component-based UI development.
 2. **Vue**: Simple and progressive framework for building UIs.
 3. **Angular**: Comprehensive framework for large-scale applications.
 4. **Express**: Lightweight framework for creating REST APIs.
 5. **Next.js**: Full-stack framework for React applications with server-side rendering.
-    
 
-**Example: Creating a Frontend with React**
+::: tip Example: Creating a Frontend with React
 
 ```js
 import React from 'react';
@@ -198,7 +203,9 @@ function App() {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-**Example: Creating a Backend with Express**
+:::
+
+::: tip Example: Creating a Backend with Express
 
 ```js
 const express = require('express');
@@ -213,6 +220,8 @@ app.listen(3000, () => {
 });
 ```
 
+:::
+
 JavaScript’s ecosystem allows developers to build full-stack applications using a single language, streamlining development workflows.
 
 ---
@@ -221,13 +230,14 @@ JavaScript’s ecosystem allows developers to build full-stack applications usin
 
 Both Python and JavaScript have vibrant communities that contribute to their continuous growth and evolution:
 
-1. **Python**:
-    - Python Software Foundation (PSF) drives the language's development.
-    - Annual events like PyCon foster collaboration and learning.
-    - Strong academic adoption ensures its popularity in education and research.
-2. **JavaScript**:
-    - Backed by major organizations like Node.js Foundation and open-source communities.
-    - Events like JSConf and React Conf promote innovation.
-    - A highly active GitHub community ensures frequent updates and new libraries.
+### 1. Python
 
-<!-- TODO: 작성 -->
+- Python Software Foundation (PSF) drives the language's development.
+- Annual events like PyCon foster collaboration and learning.
+- Strong academic adoption ensures its popularity in education and research.
+
+### 2. JavaScript
+
+- Backed by major organizations like Node.js Foundation and open-source communities.
+- Events like JSConf and React Conf promote innovation.
+- A highly active GitHub community ensures frequent updates and new libraries.

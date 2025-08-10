@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
     "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
     "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
     "named-query-filters-in-ef-10-multiple-query-filters-per-entity", // 2025-07-26 
@@ -340,6 +341,7 @@ export const template: SidebarInfoTemplate = {
       "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
       "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
+      "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
       // END: 2025cs
       // END: cs
     ]],[
@@ -384,6 +386,7 @@ export const template: SidebarInfoTemplate = {
       "testcontainers-integration-testing-using-docker-in-dotnet", // 2023-09-02
       // END: 2023github
       "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
+      "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
       // END: 2025github
       // END: github
     ]],[

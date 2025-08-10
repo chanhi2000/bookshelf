@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
-description: "Article(s) > The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
+title: "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
+description: "Article(s) > The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
+      content: "Article(s) > The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
     - property: og:description
-      content: "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
+      content: "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nextjs-15-streaming-handbook/
 prev: /programming/js-next/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754503023167/aff9af7
 ---
 
 <SiteInfo
-  name="The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
+  name="The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton"
   desc="Next.js is currently one of the most popular and intelligent Web Frameworks out there. But many developers using Next.js often can’t fully utilise its superpowers simply because some of its advanced concepts are hard to understand. In this in-depth t..."
   url="https://freecodecamp.org/news/the-nextjs-15-streaming-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -966,7 +966,7 @@ Also, if you found the information here valuable, feel free to share it with oth
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton",
+  "title": "The Next.js 15 Streaming Handbook — SSR, React Suspense, and Loading Skeleton",
   "desc": "Next.js is currently one of the most popular and intelligent Web Frameworks out there. But many developers using Next.js often can’t fully utilise its superpowers simply because some of its advanced concepts are hard to understand. In this in-depth t...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nextjs-15-streaming-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

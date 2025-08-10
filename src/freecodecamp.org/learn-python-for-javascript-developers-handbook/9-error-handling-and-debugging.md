@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/9-error-handling-and-debugging.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -111,7 +113,7 @@ try {
 
 :::
 
-::: note Key Features of JavaScript Error Handling
+::: info Key Features of JavaScript Error Handling
 
 1. **Generic Catch Block**: JavaScript's `catch` block catches all errors by default. To handle specific error types, manual checks are needed.
 2. **Error Object**: JavaScript provides an `Error` object with properties like `message`, `name`, and `stack` for debugging.
@@ -256,7 +258,7 @@ Both Python and JavaScript have robust tools for debugging, ranging from built-i
 2. **IDE Debugging**: IDEs like PyCharm and VS Code provide graphical debugging with breakpoints and variable inspection.
 3. **Logging**: The `logging` module can be configured to capture detailed runtime information.
 
-@tab <FontIcon icon="fa-brands fa-js"/>Debugging Tools**:
+@tab <FontIcon icon="fa-brands fa-js"/>
 
 1. **Browser Developer Tools**: Chrome DevTools, Firefox Developer Tools, and Edge DevTools are indispensable for frontend debugging.
 2. **Node.js Debugger**: Debug Node.js applications using `node inspect` or `--inspect` with a compatible debugger like Chrome DevTools.

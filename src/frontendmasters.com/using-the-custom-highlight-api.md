@@ -101,7 +101,7 @@ Here’s that demo:
 
 ## Why is this useful?
 
-- Having the ability to target and style text *without* needing to touch the DOM *at all* is interesting. Sometimes, DOM APIs are criticized for being slow, so being able to avoid that might be advantageous, particularly if you have to do it *a lo**t.*
+- Having the ability to target and style text *without* needing to touch the DOM *at all* is interesting. Sometimes, DOM APIs are criticized for being slow, so being able to avoid that might be advantageous, particularly if you have to do it *a lo**t.*
 - Adding and removing `<span>`s, aside from potentially being “slow” affects the DOM structure and thus might affect other CSS and JavaScript deal with the DOM.
 - DOM weight can be a performance concern on web pages. Too much DOM, recalcs can be very “expensive” and the UX on the page can suffer with things like slow animations and scrolling.
 

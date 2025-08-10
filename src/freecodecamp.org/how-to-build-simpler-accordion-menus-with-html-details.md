@@ -212,7 +212,8 @@ To have an FAQ question expanded when the page loads, add the `open` attribute t
 
 According to [<FontIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), `<details>` is a well established feature that works across many devices and the popular browsers (Chrome, Edge, Firefox, and Safari) since January 2020.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752663542331/33407311-a4db-47ab-bc9f-16baaed5d060.png)
+<BaselineStatus featureid="details" />
+<!-- ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752663542331/33407311-a4db-47ab-bc9f-16baaed5d060.png) -->
 
 `<details>` includes built-in accessibility features that requires additional JavaScript in custom solutions such as keyboard navigation, screen reader support, and semantic structure. You can also add attributes like role, aria-expanded, and aria-labelledby to ensure even more accessibility.
 
@@ -236,7 +237,7 @@ Here are some helpful resources:
 ```component VPCard
 {
   "title": "Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion",
-  "desc": "Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.",
+  "desc": "Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.",
   "link": "/css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion.md",
   "logo": "https://css-tricks/favicon.svg",
   "background": "rgba(17,17,17,0.2)"
@@ -244,7 +245,7 @@ Here are some helpful resources:
 ```
 
 <SiteInfo
-  name="Details and summary  |  web.dev"
+  name="Details and summary  |  web.dev"
   desc="Discover how the very useful details and summary elements work, and where to use them."
   url="https://web.dev/learn/html/details/"
   logo="https://gstatic.com/devrel-devsite/prod/vbad538e1d00a1e89dedb22ab9f1082402199c262867d664247ae54051f01abb8/web/images/favicon.png"

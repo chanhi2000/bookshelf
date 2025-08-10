@@ -6,7 +6,7 @@ icon: iconfont icon-nextjs
 category:
   - Node.js
   - Next.js
-  - TaliwindCSS
+  - Taliwind CSS
   - Youtube
   - Article(s)
 tag:

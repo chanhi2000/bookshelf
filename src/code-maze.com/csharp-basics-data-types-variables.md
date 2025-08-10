@@ -170,7 +170,7 @@ Let’s do the same for the reference types:
 
 We should declare our variables in the following way:
 
-`<data type> <variable name>;  or <data type> <variable name>, <variable name> ... ;`
+`<data type> <variable name>;  or <data type> <variable name>, <variable name> ... ;`
 
 So a few examples would be:
 
@@ -205,7 +205,7 @@ class Program
 }
 ```
 
-To add value for the reference type variable, we need to use the  `new` keyword in the expression part (string is an exception to this rule):
+To add value for the reference type variable, we need to use the  `new` keyword in the expression part (string is an exception to this rule):
 
 ```cs
 class Program

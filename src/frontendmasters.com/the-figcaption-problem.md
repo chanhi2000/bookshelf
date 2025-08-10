@@ -71,7 +71,7 @@ We want that orange buddy. That’s the `<figure>` element sitting in the middle
 
 **_How hard can that be?!_**
 
-Well — it certainly is weird.
+Well — it certainly is weird.
 
 This all started with a post from Jeff Bridgforth that piqued my interest:
 

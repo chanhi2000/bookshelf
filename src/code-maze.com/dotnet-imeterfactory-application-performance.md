@@ -71,7 +71,7 @@ In .NET, we have various instruments available to capture an application’s per
 - `UpDownCounter<T>`: Captures values that can increase and decrease, such as queue sizes
 - `Histogram<T>`: Visualizes how data is distributed across ranges of values
 
-In addition to these, there are observable instruments like `ObservableCounter<T>`, `ObservableGauge<T>`, and `ObservableUpDownCounter<T>` that report their values as they are observed. 
+In addition to these, there are observable instruments like `ObservableCounter<T>`, `ObservableGauge<T>`, and `ObservableUpDownCounter<T>` that report their values as they are observed. 
 
 These instruments are carefully designed for different monitoring needs, allowing accurate and meaningful performance tracking.
 
@@ -101,7 +101,7 @@ We define a `MetricsService` class and inject `IMeterFactory` into it to initial
 
 Next, let’s see how to capture various metrics.
 
-Let’s declare a counter for holding the number of user clicks, a histogram for reporting response times, and a couple of variables for storing requests and memory consumption: 
+Let’s declare a counter for holding the number of user clicks, a histogram for reporting response times, and a couple of variables for storing requests and memory consumption: 
 
 ```cs
 public class MetricsService
@@ -213,7 +213,7 @@ public class MetricsController(IMetricsService metricsService) : ControllerBase
 
 We begin by recording a user-click event by calling the `RecordUserClick()` method. Next, we generate random values for response time within a loop and capture those values by calling the `RecordResponseTime()` method. Afterward, we log a request event by calling the `RecordRequest()` method. Finally, we record the current thread’s memory usage in megabytes by calling the `RecordMemoryConsumption()` method.
 
-Here, the controller’s  `Get()` method simulates the metrics data collection by invoking various methods from `MetricsService` with random values and returning an `HTTP 200 OK` response.
+Here, the controller’s  `Get()` method simulates the metrics data collection by invoking various methods from `MetricsService` with random values and returning an `HTTP 200 OK` response.
 
 Finally, let’s register the `MetricsService` in the dependency injection container:
 
@@ -306,7 +306,7 @@ Name                                                                            
     metrics.service.user_clicks (Count)                                                            1    
 ```
 
-As expected, we can see the output with all metrics collected. As we run the endpoint multiple times, notice how the `user_clicks` and `request` values increment by one. On the other hand, `response_time` shows the percentile of a large set of random samples. **Although** **the** **dotnet-counters tool renders Histogram instruments as three percentile statistics (50th, 95th, and 99th), other tools might summarize the distribution differently or offer more configuration options**. Similarly, `memory_consumption` shows a different value every time as it represents a Gauge.
+As expected, we can see the output with all metrics collected. As we run the endpoint multiple times, notice how the `user_clicks` and `request` values increment by one. On the other hand, `response_time` shows the percentile of a large set of random samples. **Although** **the** **dotnet-counters tool renders Histogram instruments as three percentile statistics (50th, 95th, and 99th), other tools might summarize the distribution differently or offer more configuration options**. Similarly, `memory_consumption` shows a different value every time as it represents a Gauge.
 
 ---
 
@@ -314,7 +314,7 @@ As expected, we can see the output with all metrics collected. As we run the end
 
 When we define instruments, we can specify an optional unit and description. These details do not change any calculations, but they can help us understand the data in the collection tool’s interface. Currently**, the dotnet-counters tool does not show the description text, but it does display the unit if provided**.
 
-Let’s modify the `MetricsService` constructor, to specify the unit as Seconds and add a description while creating the histogram for capturing the response time:
+Let’s modify the `MetricsService` constructor, to specify the unit as Seconds and add a description while creating the histogram for capturing the response time:
 
 ```cs
 _responseTime = meter.CreateHistogram<double>(name: "metrics.service.response_time",
@@ -501,7 +501,7 @@ This is an excellent way to display metrics that have multiple dimensions.
 
 We can test any custom `IMeterFactory` metrics that we add to our application using the `MetricCollector<T>` class. This class simplifies the process of recording measurements from specific instruments and helps us verify their accuracy. Let’s see how to do this.
 
-First, we need to add the `Microsoft.Extensions.DependencyInjection` and `Microsoft.Extensions.Diagnostics.Testing` NuGet packages. Next, we need to define a `CreateServiceProvider()` to use in our test methods:
+First, we need to add the `Microsoft.Extensions.DependencyInjection` and `Microsoft.Extensions.Diagnostics.Testing` NuGet packages. Next, we need to define a `CreateServiceProvider()` to use in our test methods:
 
 ```cs
 private static ServiceProvider CreateServiceProvider()
@@ -571,15 +571,15 @@ The `MetricCollector` simplifies the process of writing tests for the various me
 
 ## IMeterFactory Best Practices
 
-Let’s explore best practices for choosing and implementing **IMeterFactory** instruments. **For DI-aware libraries, avoid static variables and opt for dependency injection (DI) instead**.
+Let’s explore best practices for choosing and implementing **IMeterFactory** instruments. **For DI-aware libraries, avoid static variables and opt for dependency injection (DI) instead**.
 
-When creating a Meter, it’s important to choose a unique name. As discussed earlier, follow [OpenTelemetry naming guidelines (<FontIcon icon="iconfont icon-github"/>`open-telemetry/semantic-conventions`)](https://github.com/open-telemetry/semantic-conventions/blob/main/docs/general/metrics.md#general-guidelines) using a lowercase, dotted hierarchical structure and underscores to separate words for naming all constructs. Ensure the instrument name is unique across the system, often incorporating assembly or namespace names.
+When creating a Meter, it’s important to choose a unique name. As discussed earlier, follow [OpenTelemetry naming guidelines (<FontIcon icon="iconfont icon-github"/>`open-telemetry/semantic-conventions`)](https://github.com/open-telemetry/semantic-conventions/blob/main/docs/general/metrics.md#general-guidelines) using a lowercase, dotted hierarchical structure and underscores to separate words for naming all constructs. Ensure the instrument name is unique across the system, often incorporating assembly or namespace names.
 
 We should always choose the appropriate instrument based on need; however, keep in mind that the Observable equivalents may perform better in performance-intensive scenarios, such as when there are more than one million calls per second per thread.
 
-If we need to understand the distribution’s tail, such as the 90th, 95th, and 99th percentiles, instead of just averages, use a histogram to measure event timings. For measuring cache, queue, and file sizes, opt for an `UpDownCounter` or `ObservableUpDownCounter` based on ease of integration into existing code, either through API calls for increments and decrements or a callback for current values from a maintained variable.
+If we need to understand the distribution’s tail, such as the 90th, 95th, and 99th percentiles, instead of just averages, use a histogram to measure event timings. For measuring cache, queue, and file sizes, opt for an `UpDownCounter` or `ObservableUpDownCounter` based on ease of integration into existing code, either through API calls for increments and decrements or a callback for current values from a maintained variable.
 
-.NET APIs allow any string as a unit, but utilizing [<FontIcon icon="fas fa-globe"/>UCUM](https://ucum.org/), the international standard for unit names is advisable. For multi-dimensional metrics, the API accepts any object as the tag value. However, collection tools typically expect numeric types and strings, making it crucial to provide these formats. Additionally, it’s recommended to follow the naming guidelines for tag names.
+.NET APIs allow any string as a unit, but utilizing [<FontIcon icon="fas fa-globe"/>UCUM](https://ucum.org/), the international standard for unit names is advisable. For multi-dimensional metrics, the API accepts any object as the tag value. However, collection tools typically expect numeric types and strings, making it crucial to provide these formats. Additionally, it’s recommended to follow the naming guidelines for tag names.
 
 ---
 

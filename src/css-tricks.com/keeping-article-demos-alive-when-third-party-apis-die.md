@@ -196,7 +196,7 @@ And with [<FontIcon icon="fa-brands fa-digital-oceans"/>DigitalOcean Functions](
 
 For simple use cases, everything can be done through the Functions control panel, including writing the code in the built-in editor. Check out this concise presentation video to see it in action:
 
-For more complex needs, functions can be [<FontIcon icon="fa-brands fa-digital-oceans"/>developed locally and deployed](https://docs.digitalocean.com/products/functions/how-to/develop-functions/) using `doctl` (DigitalOcean’s CLI).
+For more complex needs, functions can be [<FontIcon icon="fa-brands fa-digital-oceans"/>developed locally and deployed](https://docs.digitalocean.com/products/functions/how-to/develop-functions/) using `doctl` (DigitalOcean’s CLI).
 
 To return the mocked response, it’s easier if we [<FontIcon icon="fa-brands fa-digital-oceans"/>create a separate Function](https://docs.digitalocean.com/products/functions/how-to/create-functions/) for each endpoint, since we can avoid adding unnecessary conditions. Fortunately, we can stick with JavaScript (Node.js), and starting with nearly the same base we used for `contactForm7Response`:
 

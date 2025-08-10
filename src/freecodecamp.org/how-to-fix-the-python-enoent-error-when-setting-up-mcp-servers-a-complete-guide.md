@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Fix the Python ENOENT Error When Setting Up MCP Servers – A Complete Guide"
 description: "Article(s) > How to Fix the Python ENOENT Error When Setting Up MCP Servers – A Complete Guide"
-icon: 
+icon: fa-brands fa-python
 category:
   - Python
   - AI

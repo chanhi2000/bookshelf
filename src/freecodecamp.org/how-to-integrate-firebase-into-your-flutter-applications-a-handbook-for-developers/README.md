@@ -2256,7 +2256,7 @@ Depending on the specific "cutting-edge" aspects you want to explore, you'd dive
 - **Firebase CLI:** Command-line tools for managing Firebase projects.
 
 <SiteInfo
-  name="Firebase CLI reference  |  Firebase Documentation"
+  name="Firebase CLI reference  |  Firebase Documentation"
   desc="The Firebase CLI (GitHub) provides a variety of tools for managing, viewing, and deploying to Firebase projects."
   url="https://firebase.google.com/docs/cli/"
   logo="https://gstatic.com/devrel-devsite/prod/vbad538e1d00a1e89dedb22ab9f1082402199c262867d664247ae54051f01abb8/firebase/images/favicon.png"

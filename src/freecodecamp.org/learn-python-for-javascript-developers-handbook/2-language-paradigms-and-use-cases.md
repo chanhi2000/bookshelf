@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/2-language-paradigms-and-use-cases.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -58,7 +60,7 @@ Both JavaScript and Python are high-level, interpreted languages, but they were 
 
 Understanding these differences in paradigms and common use cases helps clarify when to use each language and the kind of projects they are best suited for.
 
-### JavaScript
+### <FontIcon icon="fa-brands fa-js"/>JavaScript
 
 Known primarily as the language of the web, JavaScript was originally designed to add interactivity to HTML documents within browsers. Today, with the advent of frameworks like React, Angular, and Vue, JavaScript is at the core of modern, interactive frontend web development.
 
@@ -66,7 +68,7 @@ The language’s reach expanded even further with Node.js, which brought JavaScr
 
 JavaScript is event-driven and asynchronous by design, making it ideal for real-time applications such as chat apps, collaborative tools, and streaming services.
 
-### Python
+### <FontIcon icon="fa-brands fa-python"/>Python
 
 Initially created with a focus on readability and simplicity, Python has become one of the most versatile languages in the world. While JavaScript is often tied to web applications, Python is more commonly used in fields like scientific computing, data analysis, machine learning, and artificial intelligence. Its readability and simplicity make it a great choice for scripting, automation, and rapid prototyping.
 
@@ -80,27 +82,23 @@ Unlike JavaScript, Python is synchronous by default, which makes it better suite
 
 Both JavaScript and Python are dynamically typed, meaning that variables do not need to be declared with a specific type and can hold different types of data at runtime. But the two languages implement this dynamic typing in slightly different ways, and they each approach functional programming and object-oriented programming (OOP) differently.
 
-::: tabs
-
-@tab:active Dynamic Typing
+### Dynamic Typing
 
 Both languages allow flexibility in declaring variables without specifying types, making them highly flexible. But Python’s strict indentation requirements and clear error messages provide a more structured approach to dynamic typing.
 
 JavaScript, on the other hand, has a looser syntax, which sometimes leads to quirks, such as type coercion, that can result in unexpected behavior (for example, `0 == ''` evaluates to `true`).
 
-@tab Functional Programming
+### Functional Programming
 
 Both languages support functional programming techniques, but JavaScript leans heavily on it. Functions are first-class citizens in JavaScript, allowing developers to pass functions as arguments, return them from other functions, and store them in variables. Higher-order functions, such as `map`, `reduce`, and `filter`, are commonly used in JavaScript to process arrays and data collections.
 
 Python also supports functional programming, and it includes a `lambda` feature for anonymous functions as well as `map`, `filter`, and `reduce` functions. But functional programming is less central in Python, which encourages readability and simplicity over deeply functional constructs.
 
-@tab Object-Oriented Programming (OOP)
+### Object-Oriented Programming (OOP)
 
 JavaScript’s OOP model is prototype-based, meaning that objects can inherit directly from other objects without the need for classes. Since ES6, JavaScript has also included support for `class` syntax, making it easier for developers coming from class-based languages to work with objects.
 
 Python, on the other hand, uses a class-based model that is more in line with traditional OOP languages like Java and C++. Classes, inheritance, and polymorphism in Python are straightforward, making it an excellent choice for developers who prefer a clear and well-structured approach to OOP.
-
-:::
 
 ---
 

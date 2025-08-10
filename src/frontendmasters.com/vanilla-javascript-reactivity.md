@@ -46,12 +46,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 <SiteInfo
   name="Patterns for Reactivity with Modern Vanilla JavaScript"
-  desc="“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things."
+  desc="“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things."
   url="https://frontendmasters.com/blog/vanilla-javascript-reactivity/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/40"/>
 
-“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is **when data changes, you do things**.
+“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is **when data changes, you do things**.
 
 ::: info Article Series
 
@@ -61,7 +61,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 ```component VPCard
 {
   "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
-  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
+  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
   "link": "/frontendmasters.com/vanilla-javascript-reactivity.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
@@ -91,7 +91,7 @@ Hopefully, you’ll learn new patterns to add to your toolbox, no matter what fr
 
 ## PubSub Pattern (Publish Subscriber)
 
-PubSub is one of the most foundational patterns for reactivity. Firing an event out with `publish()` allows anyone to listen to that event `subscribe()` and do whatever they want in a decoupled from whatever fires that event.
+PubSub is one of the most foundational patterns for reactivity. Firing an event out with `publish()` allows anyone to listen to that event `subscribe()` and do whatever they want in a decoupled from whatever fires that event.
 
 ```js
 const pubSub = {
@@ -109,11 +109,11 @@ pubSub.subscribe('update', data => console.log(data));
 pubSub.publish('update', 'Some update'); // Some update
 ```
 
-Note the publisher has *no idea* of what is listening to it, so there is no way to unsubscribe or clean up after itself with this simple implementation.
+Note the publisher has *no idea* of what is listening to it, so there is no way to unsubscribe or clean up after itself with this simple implementation.
 
 ### Custom Events: Native Browser API for PubSub
 
-The browser has a JavaScript API for firing and subscribing to custom events. It allows you to send data along with the custom events using `dispatchEvent`.
+The browser has a JavaScript API for firing and subscribing to custom events. It allows you to send data along with the custom events using `dispatchEvent`.
 
 ```js
 const pizzaEvent = new CustomEvent("pizzaDelivery", {
@@ -126,7 +126,7 @@ window.addEventListener("pizzaDelivery", (e) => console.log(e.detail.name));
 window.dispatchEvent(pizzaEvent);
 ```
 
-You can scope these custom events to any DOM node. In the code example, we use the global `window` object, also known as a global event bus, so anything in our app can listen and do something with the event data.
+You can scope these custom events to any DOM node. In the code example, we use the global `window` object, also known as a global event bus, so anything in our app can listen and do something with the event data.
 
 ```html
 <div id="pizza-store"></div>
@@ -174,7 +174,7 @@ The cool thing about this is your events aren’t firing globally on the window.
 
 ## Observer Pattern
 
-The observer pattern has the same basic premise as the PubSub pattern. It allows you to have behavior “subscribed” to a Subject. And when the Subject fires the `notify` method, it notifies everything subscribed.
+The observer pattern has the same basic premise as the PubSub pattern. It allows you to have behavior “subscribed” to a Subject. And when the Subject fires the `notify` method, it notifies everything subscribed.
 
 ```js :collapsed-lines
 class Subject {
@@ -208,7 +208,7 @@ subject.addObserver(observer);
 subject.notify('Everyone gets pizzas!');
 ```
 
-The main difference between this and PubSub is that the Subject knows about its observers and can remove them. They aren’t *completely* decoupled like in PubSub.
+The main difference between this and PubSub is that the Subject knows about its observers and can remove them. They aren’t *completely* decoupled like in PubSub.
 
 ---
 
@@ -236,11 +236,11 @@ console.log(proxiedPizza.name); // Outputs "Getting property name" and "Margheri
 proxiedPizza.name = 'Pepperoni'; // Outputs "Setting property name to Pepperoni"`
 ```
 
-When you access or modify a property on the `proxiedPizza`, it logs a message to the console. But you could imagine wiring any functionality to property access on an object.
+When you access or modify a property on the `proxiedPizza`, it logs a message to the console. But you could imagine wiring any functionality to property access on an object.
 
 ### Reactive Individual Properties: `Object.defineProperty`
 
-You can do an identical thing for a specific property using `Object.defineProperty`. You can define getters and setters for properties and run code when a property is accessed or modified.
+You can do an identical thing for a specific property using `Object.defineProperty`. You can define getters and setters for properties and run code when a property is accessed or modified.
 
 ```js
 const pizza = {
@@ -263,9 +263,9 @@ console.log(pizza.name); // Outputs "Getting property name" and "Margherita"
 pizza.name = 'Pepperoni'; // Outputs "Setting property name to Pepperoni"`
 ```
 
-Here, we’re using `Object.defineProperty` to define a getter and setter for the name property of the pizza object. The actual value is stored in a private `_name` property, and the getter and setter provide access to that value while logging messages to the console.
+Here, we’re using `Object.defineProperty` to define a getter and setter for the name property of the pizza object. The actual value is stored in a private `_name` property, and the getter and setter provide access to that value while logging messages to the console.
 
-`Object.defineProperty` is more verbose than using a `Proxy`, especially if you want to apply the same behavior to many properties. But it’s a powerful and flexible way to define custom behavior for individual properties.
+`Object.defineProperty` is more verbose than using a `Proxy`, especially if you want to apply the same behavior to many properties. But it’s a powerful and flexible way to define custom behavior for individual properties.
 
 ### Asynchronous Reactive Data with Promises
 
@@ -328,7 +328,7 @@ async function updateData() {
 updateData();`
 ```
 
-Our `updateData` function is now async, so we can await all the subscribed functions to resolve before continuing our program. This pattern allows juggling asynchronous reactivity a bit simpler.
+Our `updateData` function is now async, so we can await all the subscribed functions to resolve before continuing our program. This pattern allows juggling asynchronous reactivity a bit simpler.
 
 ---
 
@@ -411,13 +411,13 @@ const subscription = observable.subscribe(observer);
 subscription.unsubscribe();
 ```
 
-The critical component of an Observable is the `next()` method, which sends data to the observers. A `complete()` method for when the Observable stream closes. And an `error()` method when something goes wrong. Also, there has to be a way to `subscribe()` to listen for changes and `unsubscribe()` to stop receiving data from the stream.
+The critical component of an Observable is the `next()` method, which sends data to the observers. A `complete()` method for when the Observable stream closes. And an `error()` method when something goes wrong. Also, there has to be a way to `subscribe()` to listen for changes and `unsubscribe()` to stop receiving data from the stream.
 
-The most popular libraries that use this pattern are [<FontIcon icon="fas fa-globe"/>Rx.js](https://rxjs.dev/) and [<FontIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/).
+The most popular libraries that use this pattern are [<FontIcon icon="fas fa-globe"/>Rx.js](https://rxjs.dev/) and [<FontIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/).
 
 ### “Signals” (Pattern of SolidJS)
 
-Hat tip Ryan Carniato’s [<FontIcon icon="fas fa-globe"/>Reactivity with SolidJS course](https://frontendmasters.com/courses/reactivity-solidjs/).
+Hat tip Ryan Carniato’s [<FontIcon icon="fas fa-globe"/>Reactivity with SolidJS course](https://frontendmasters.com/courses/reactivity-solidjs/).
 
 ```js :collapsed-lines
 const context = [];
@@ -467,11 +467,11 @@ createEffect(() => {
 setCount(10); // 10
 ```
 
-Here’s the complete code for his [vanilla reactivity system (<FontIcon icon="iconfont icon-github"/>`1Marc`)](https://gist.github.com/1Marc/09e739caa6a82cc176ab4c2abd691814) with a code sample that Ryan writes in his course.
+Here’s the complete code for his [vanilla reactivity system (<FontIcon icon="iconfont icon-github"/>`1Marc`)](https://gist.github.com/1Marc/09e739caa6a82cc176ab4c2abd691814) with a code sample that Ryan writes in his course.
 
 ### “Observable-ish” Values (Frontend Masters)
 
-Our Frontend Masters video player has many configurations that could change anytime to modify video playback. Kai on our team created [“Observable-ish” Values (<FontIcon icon="iconfont icon-github"/>`FrontendMasters/observablish-values`)](https://github.com/FrontendMasters/observablish-values) (many years ago now, but we just published it for this article’s sake), which is another take on a reactive system in vanilla JavaScript.
+Our Frontend Masters video player has many configurations that could change anytime to modify video playback. Kai on our team created [“Observable-ish” Values (<FontIcon icon="iconfont icon-github"/>`FrontendMasters/observablish-values`)](https://github.com/FrontendMasters/observablish-values) (many years ago now, but we just published it for this article’s sake), which is another take on a reactive system in vanilla JavaScript.
 
 It’s less than 100 lines of code and has stood the test of time! For 7+ years, this tiny bit of code has underpinned delivering millions of hours of video. It’s a mix of PubSub with the ability to have computed values by adding the results of multiple publishers together.
 
@@ -576,15 +576,15 @@ function addPizza() {
 addPizza();`
 ```
 
-`addPizza` demonstrates how to change the data by adding a new pizza recipe to the list and then re-rendering the list to reflect the changes.
+`addPizza` demonstrates how to change the data by adding a new pizza recipe to the list and then re-rendering the list to reflect the changes.
 
-The main drawback of this approach is you blow away the entire DOM on every render. You can more intelligently update only the bits of DOM that change using a library like [<FontIcon icon="fa-brands fa-npm"/>`lit-html`](https://npmjs.com/package/lit-html) ([<FontIcon icon="fas fa-globe"/>lit-html usage guide](https://lit.dev/docs/libraries/standalone-templates/)). We do this with several highly dynamic components on Frontend Masters, like our data grid component.
+The main drawback of this approach is you blow away the entire DOM on every render. You can more intelligently update only the bits of DOM that change using a library like [<FontIcon icon="fa-brands fa-npm"/>`lit-html`](https://npmjs.com/package/lit-html) ([<FontIcon icon="fas fa-globe"/>lit-html usage guide](https://lit.dev/docs/libraries/standalone-templates/)). We do this with several highly dynamic components on Frontend Masters, like our data grid component.
 
-See examples of other approaches in the [Vanilla TodoMVC repo (<FontIcon icon="iconfont icon-github"/>`1Marc/modern-todomvc-vanillajs`)](https://github.com/1Marc/modern-todomvc-vanillajs) and associated [**Vanilla TodoMVC article**](/frontendmasters.com/vanilla-javascript-todomvc.md).
+See examples of other approaches in the [Vanilla TodoMVC repo (<FontIcon icon="iconfont icon-github"/>`1Marc/modern-todomvc-vanillajs`)](https://github.com/1Marc/modern-todomvc-vanillajs) and associated [**Vanilla TodoMVC article**](/frontendmasters.com/vanilla-javascript-todomvc.md).
 
 ### Reactive DOM Attributes: MutationObserver
 
-One way to make DOM reactive is to add and remove attributes. We can listen to changes in attributes using the `MutationObserver` API.
+One way to make DOM reactive is to add and remove attributes. We can listen to changes in attributes using the `MutationObserver` API.
 
 ```js
 const mutationCallback = (mutationsList) => {
@@ -661,11 +661,11 @@ var observer = new IntersectionObserver(function(entries, observer) {
 observer.observe(pizzaStoreElement);
 ```
 
-Here’s an example [scrolling animation CodePen (<FontIcon icon="fa-brands fa-codepen"/>`1Marc`)](https://codepen.io/1Marc/pen/wvEKOEr) in very few lines of code using `IntersectionObserver`.
+Here’s an example [scrolling animation CodePen (<FontIcon icon="fa-brands fa-codepen"/>`1Marc`)](https://codepen.io/1Marc/pen/wvEKOEr) in very few lines of code using `IntersectionObserver`.
 
 ### Animation & Game Loop: requestAnimationFrame
 
-When working with game development, Canvas, WebGL, or those wild marketing sites, animations often require writing to a buffer and then writing the results on a given loop when the rendering thread becomes available. We do this with `requestAnimationFrame`.
+When working with game development, Canvas, WebGL, or those wild marketing sites, animations often require writing to a buffer and then writing the results on a given loop when the rendering thread becomes available. We do this with `requestAnimationFrame`.
 
 ```js
 function drawStuff() {
@@ -719,9 +719,9 @@ el.addEventListener('click', () => {
 
 What’s reactive about this is that the animation can play relative to where it is located when an interaction occurs (in this case, reversing its direction). Standard CSS animations and transitions aren’t relative to their current position.
 
-### Reactive CSS: Custom Properties and `calc`
+### Reactive CSS: Custom Properties and `calc`
 
-Lastly, we can write CSS that’s reactive by combining custom properties and `calc`.
+Lastly, we can write CSS that’s reactive by combining custom properties and `calc`.
 
 ```js
 barElement.style.setProperty('--percentage', newPercentage);
@@ -755,7 +755,7 @@ It’s incredible how many ways we can achieve reactivity using very little code
 
 ::: note Frontend Masters Team
 
-Next, check out the [<FontIcon icon="fas fa-globe"/>JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) and learn JavaScript deeply from awesome instructors like Anjana Vakil, Will Sentance and Kyle Simpson! Or dive right into the most loved course on the platform, [<FontIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)!
+Next, check out the [<FontIcon icon="fas fa-globe"/>JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) and learn JavaScript deeply from awesome instructors like Anjana Vakil, Will Sentance and Kyle Simpson! Or dive right into the most loved course on the platform, [<FontIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)!
 
 :::
 
@@ -767,7 +767,7 @@ Next, check out the [<FontIcon icon="fas fa-globe"/>JavaScript Learning Path](h
 ```component VPCard
 {
   "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
-  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
+  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
   "link": "/frontendmasters.com/vanilla-javascript-reactivity.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
@@ -783,7 +783,7 @@ Next, check out the [<FontIcon icon="fas fa-globe"/>JavaScript Learning Path](h
 ```component VPCard
 {
   "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
-  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
+  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
   "link": "https://chanhi2000.github.io/bookshelf/frontendmasters.com/vanilla-javascript-reactivity.html",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"

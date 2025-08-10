@@ -46,6 +46,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "blazor-webassembly-introduction", // 2020-06-08
   ]
 }
 
@@ -77,6 +78,15 @@ const Y2018: SidebarYeargroupTemplate = {
     "csharp-classes-constructors", // 2018-09-19
     "csharp-data-types-variables", // 2018-07-27
     "csharp-basics-ide-introduction", // 2018-07-26
+  ]
+}
+
+const Y2017: SidebarYeargroupTemplate = {
+  text: '2017',
+  collapsible: true,
+  children: [
+    // END: 2017
+    "http-series-part-1", // 2017-06-19
   ]
 }
 
@@ -114,7 +124,6 @@ export const template: SidebarInfoTemplate = {
       "what-is-continuous-integration", // 2021-10-09
       "top-8-continuous-integration-tools", // 2023-06-15
       "different-ways-consume-restful-api-csharp", // 2024-06-06
-      "http-series-part-1", // 2022-07-29
       "the-http-reference", // 2020-09-04
       "http-series-part-2", // 2020-09-04
       "http-series-part-3", // 2023-07-07
@@ -279,8 +288,11 @@ export const template: SidebarInfoTemplate = {
       // END: cs
     ]],[
     "cs-blazor", [
-      "blazor-webassembly-introduction", // 2022-03-22
+      "blazor-webassembly-introduction", // 2020-06-08
+      // END: cs-blazor2020
+      // END: cs-blazor2021
       "blazor-components", // 2022-06-15
+      // END: cs-blazor2022
       "blazor-webassembly-pagination", // 2024-01-31
       "blazor-webassembly-searching", // 2024-01-31
       "blazor-webassembly-sorting", // 2024-01-31
@@ -415,11 +427,24 @@ export const template: SidebarInfoTemplate = {
       "consume-graphql-api-with-asp-net-core", // 2022-01-13
       "consuming-graphql-api-angular", // 2024-01-31
     ]],[
+    "coen", [
+      // END: 2016coen
+      "http-series-part-1", // 2017-06-19
+      // END: 2017coen
+      // END: 2018coen
+      // END: 2019coen
+      // END: 2020coen
+      // END: 2021coen
+      // END: 2022coen
+      // END: 2023coen
+      // END: 2024coen
+      // END: 2025coen
+      // END: coen
+    ]],[
     "all", [
       "top-8-continuous-integration-tools", // 2023-06-15
       "what-is-continuous-integration", // 2021-10-09
       "different-ways-consume-restful-api-csharp", // 2024-06-06
-      "http-series-part-1", // 2022-07-29
       "the-http-reference", // 2020-09-04
       "http-series-part-2", // 2020-09-04
       "http-series-part-3", // 2023-07-07
@@ -560,7 +585,7 @@ export const template: SidebarInfoTemplate = {
       "deploy-aspnetcore-webapi-kubernetes-cluster-azure", // 2024-01-31
       "identityserver4-ui-webapi-basic-security", // 2024-01-31
       "identityserver4-integration-aspnetcore", // 2022-01-11
-      "blazor-webassembly-introduction", // 2022-03-22
+      
       "blazor-components", // 2022-06-15
       "using-refresh-tokens-in-asp-net-core-authentication", // 2024-04-04
       "blazor-webassembly-pagination", // 2024-01-31
@@ -631,6 +656,7 @@ export const template: SidebarInfoTemplate = {
       Y2020,
       Y2019,
       Y2018,
+      Y2017,
     ]]
   ])
 }

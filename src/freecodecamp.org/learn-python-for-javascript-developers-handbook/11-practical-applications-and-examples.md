@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/11-practical-applications-and-examples.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -56,10 +58,11 @@ Both Python and JavaScript excel in various practical applications, but their st
 
 ## Writing a Simple Web Scraper
 
-**Python: Using BeautifulSoup**  
+### <FontIcon icon="fa-brands fa-python"/>Python: Using BeautifulSoup
+
 Python’s libraries, such as BeautifulSoup and Requests, make web scraping straightforward and efficient.
 
-**Example: Web Scraper in Python**
+::: tip Example: Web Scraper in Python
 
 ```py
 import requests
@@ -78,39 +81,47 @@ for title in titles:
     print(title.text)
 ```
 
-**JavaScript: Using Puppeteer**  
+:::
+
+### <FontIcon icon="fa-brands fa-js"/>JavaScript: Using Puppeteer
+
 JavaScript can also scrape web content using libraries like Puppeteer, which allows headless browsing.
 
-**Example: Web Scraper in JavaScript**
+::: tip Example: Web Scraper in JavaScript
 
 ```js
 const puppeteer = require('puppeteer');
 
 (async () => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto('https://example.com');
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://example.com');
 
-    // Extract specific data
-    const titles = await page.$$eval('h2', elements => elements.map(el => el.textContent));
-    console.log(titles);
+  // Extract specific data
+  const titles = await page.$$eval('h2', elements => elements.map(el => el.textContent));
+  console.log(titles);
 
-    await browser.close();
+  await browser.close();
 })();
 ```
 
-**Key Differences**:
+:::
+
+::: info Key Differences
 
 - Python’s BeautifulSoup is simpler for static pages, while Puppeteer provides more flexibility for dynamic content rendered by JavaScript.
+
+:::
 
 ---
 
 ## Creating a REST API
 
-**Python: Flask**  
+### <FontIcon icon="iconfont icon-flask"/>Python: Flask
+
 Python’s Flask framework is lightweight and ideal for quickly building APIs.
 
-**Example: REST API in Python**
+::: tip Example: REST API in Python
 
 ```py
 from flask import Flask, jsonify
@@ -125,10 +136,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-**JavaScript: Express**  
+:::
+
+### <FontIcon icon="iconfont icon-expressjs"/>JavaScript: Express
+
 Express is a popular framework for creating REST APIs in JavaScript.
 
-**Example: REST API in JavaScript**
+::: tip Example: REST API in JavaScript
 
 ```js
 const express = require('express');
@@ -143,20 +157,24 @@ app.listen(3000, () => {
 });
 ```
 
-**Key Differences**:
+:::
+
+::: info Key Differences
 
 - Flask offers built-in simplicity with decorators for routing.
 - Express requires more explicit configuration but is better suited for large-scale Node.js projects.
-    
+
+:::
 
 ---
 
 ## Automation Scripts: File Handling, Network Requests, and Scripting
 
-**Python: Automation with os and shutil**  
+### Python: Automation with `os` and `shutil`
+
 Python excels at automation tasks, making file and system operations straightforward.
 
-**Example: File Automation in Python**
+::: tip Example: File Automation in Python
 
 ```py
 import os
@@ -173,10 +191,13 @@ for file in os.listdir("example_dir"):
     print(file)
 ```
 
-**JavaScript: File System Module (fs)**  
+:::
+
+### JavaScript: File System Module (`fs`)
+
 JavaScript’s `fs` module allows file handling, but it requires more boilerplate.
 
-**Example: File Automation in JavaScript**
+::: tip Example: File Automation in JavaScript
 
 ```js
 const fs = require('fs');
@@ -194,20 +215,24 @@ fs.readdirSync('example_dir').forEach(file => {
 });
 ```
 
-**Key Differences**:
+:::
+
+::: info Key Differences
 
 - Python’s `os` and `shutil` modules provide concise methods for file and system operations.
 - JavaScript requires more explicit handling for similar tasks using Node.js modules.
-    
+
+:::
 
 ---
 
 ## Data Processing and Visualization
 
-**Python: Data Science with Pandas and Matplotlib**  
+### Python: Data Science with Pandas and Matplotlib
+
 Python dominates data processing and visualization with libraries like Pandas and Matplotlib.
 
-**Example: Data Analysis in Python**
+::: tip Example: Data Analysis in Python
 
 ```py
 import pandas as pd
@@ -222,10 +247,13 @@ df.plot(x='Name', y='Age', kind='bar')
 plt.show()
 ```
 
-**JavaScript: Data Visualization with D3.js**  
+:::
+
+### JavaScript: Data Visualization with D3.js
+
 JavaScript excels at interactive web-based visualizations with D3.js.
 
-**Example: Data Visualization in JavaScript**
+::: tip Example: Data Visualization in JavaScript
 
 ```js
 const d3 = require('d3');
@@ -251,20 +279,24 @@ svg.selectAll("rect")
 console.log(svg.node().outerHTML);
 ```
 
-**Key Differences**:
+:::
+
+::: info Key Differences
 
 - Python’s data libraries are geared toward analysis and are simpler for static visualizations.
 - JavaScript’s D3.js creates highly interactive visualizations for web applications.
-    
+
+:::
 
 ---
 
 ## Machine Learning and AI
 
-**Python: TensorFlow**  
+### Python: TensorFlow
+
 Python’s TensorFlow library simplifies building machine learning models.
 
-**Example: Machine Learning in Python**
+::: tip Example: Machine Learning in Python
 
 ```py
 import tensorflow as tf
@@ -285,10 +317,13 @@ model.fit(xs, ys, epochs=500, verbose=0)
 print(model.predict([5]))  # Output: [[10]]
 ```
 
-**JavaScript: TensorFlow.js**  
+:::
+
+### JavaScript: TensorFlow.js
+
 TensorFlow.js brings machine learning capabilities to JavaScript.
 
-**Example: Machine Learning in JavaScript**
+::: tip Example: Machine Learning in JavaScript
 
 ```js
 const tf = require('@tensorflow/tfjs-node');
@@ -307,12 +342,16 @@ model.fit(xs, ys, { epochs: 500 }).then(() => {
 });
 ```
 
-**Key Differences**:
+:::
+
+::: info Key Differences
 
 - Python dominates in machine learning due to its mature ecosystem and extensive documentation.
 - TensorFlow.js allows machine learning in JavaScript, but it is less mature compared to Python’s TensorFlow.
 
-### Key Takeaways:
+:::
+
+::: important Key Takeaways:
 
 - **Web Scraping**: Python excels with BeautifulSoup for static content, while Puppeteer is better for dynamic content.
 - **REST APIs**: Python’s Flask is lightweight and easy to use, while JavaScript’s Express offers flexibility and scalability.
@@ -320,4 +359,4 @@ model.fit(xs, ys, { epochs: 500 }).then(() => {
 - **Data Visualization**: Python’s libraries focus on analysis, while JavaScript’s D3.js creates interactive, web-based visualizations.
 - **Machine Learning**: Python leads with TensorFlow and other ML frameworks, while TensorFlow.js brings ML capabilities to JavaScript.
 
-<!-- TODO: 작성 -->
+:::

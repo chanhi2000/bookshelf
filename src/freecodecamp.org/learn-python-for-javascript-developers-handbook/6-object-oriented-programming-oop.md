@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/6-object-oriented-programming-oop.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -60,11 +62,9 @@ Python uses a class-based model, with clearly defined syntax for attributes and 
 
 At its core, OOP involves defining **classes** (blueprints for objects), creating **instances** of those classes, and implementing **inheritance** to extend or modify behavior. Both Python and JavaScript support these concepts, albeit with different syntax.
 
-**Example**: Basic Class Definition
+::: tip Example Basic Class Definition
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>
+**<FontIcon icon="fa-brands fa-python"/>**
 
 ```py
 class Animal:
@@ -86,9 +86,9 @@ print(generic_animal.speak())  # Output: Generic Animal makes a sound.
 print(dog.speak())             # Output: Buddy barks.
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+**<FontIcon icon="fa-brands fa-js"/>**
 
-```js
+```js :collapsed-lines
 class Animal {
     constructor(name) {
         this.name = name;
@@ -113,6 +113,8 @@ console.log(genericAnimal.speak()); // Output: Generic Animal makes a sound.
 console.log(dog.speak());           // Output: Buddy barks.
 ```
 
+:::
+
 In both examples, you see:
 
 - **Class Definition**: `class` is used in both Python and JavaScript.
@@ -124,13 +126,11 @@ In both examples, you see:
 
 One key difference in OOP syntax between Python and JavaScript lies in how constructors are defined and how the instance is referenced within a class.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>Constructor and** `self`
+### <FontIcon icon="fa-brands fa-python"/>Constructor and `self`
 
 Python uses `__init__` as a special method to initialize an object. It explicitly requires `self` as the first parameter in all instance methods to refer to the object itself.
 
-**Example:**
+::: tip Example:
 
 ```py
 class Person:
@@ -145,11 +145,13 @@ person = Person("Alice", 30)
 print(person.greet())  # Output: My name is Alice and I am 30 years old.
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/> Constructor and** `this`
+:::
+
+### <FontIcon icon="fa-brands fa-js"/>Constructor and `this`
 
 JavaScript uses a `constructor` method to initialize an object. Inside methods, `this` is used to reference the current instance, but `this` can behave differently depending on the context.
 
-**Example:**
+::: tip Example:
 
 ```js
 class Person {
@@ -169,7 +171,7 @@ console.log(person.greet()); // Output: My name is Alice and I am 30 years old.
 
 :::
 
-::: note Key Differences
+::: info Key Differences
 
 1. **Explicit vs. Implicit Instance Reference**: Python always requires `self` explicitly, while JavaScript implicitly uses `this`.
 2. **Context Sensitivity**: In JavaScript, `this` can lose its binding in certain contexts (for example, when passing methods as callbacks). Arrow functions provide a way to avoid this issue by binding `this` to the lexical scope.
@@ -182,9 +184,7 @@ console.log(person.greet()); // Output: My name is Alice and I am 30 years old.
 
 Polymorphism allows methods to behave differently depending on the object that calls them. This is a fundamental OOP concept and is supported in both Python and JavaScript.
 
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>
 
 ```py
 class Bird:
@@ -205,7 +205,9 @@ get_flight_ability(sparrow)  # Output: Birds can fly.
 get_flight_ability(penguin)  # Output: Penguins cannot fly.
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>
 
 ```js
 class Bird {
@@ -239,11 +241,7 @@ getFlightAbility(penguin);  // Output: Penguins cannot fly.
 
 JavaScript's OOP was initially based on prototypes, where objects could inherit properties and methods directly from other objects. Although ES6 introduced `class`, it is syntactic sugar over JavaScript's prototypal inheritance.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-js"/>
-
-Prototype Example
+::: tip JavaScript Prototype Example
 
 ```js
 function Calculator() {}
@@ -261,7 +259,9 @@ console.log(calc.add(5, 3));       // Output: 8
 console.log(calc.multiply(5, 3));  // Output: 15
 ```
 
-Modern JavaScript Class Example
+:::
+
+::: tip Modern JavaScript Class Example
 
 ```js
 class Calculator {
@@ -279,11 +279,11 @@ console.log(calc.add(5, 3));       // Output: 8
 console.log(calc.multiply(5, 3));  // Output: 15
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+:::
 
 Python, in contrast, always uses a class-based system for OOP, avoiding the confusion of prototypes.
 
-**Example:**
+::: tip Example
 
 ```py
 class Calculator:
@@ -300,8 +300,10 @@ print(calc.multiply(5, 3))  # Output: 15
 
 :::
 
-### Key Takeaways:
+::: important Key Takeaways:
 
 - Python’s OOP model is straightforward, using `class`, `__init__` for constructors, and `self` to refer to instance attributes.
 - JavaScript has both prototypal and class-based OOP. The modern `class` syntax simplifies prototypal inheritance but can lead to confusion with `this`.
 - Both languages support core OOP principles like encapsulation, inheritance, and polymorphism, but Python’s implementation is more explicit and traditional, while JavaScript’s flexibility stems from its prototypal roots.
+
+:::

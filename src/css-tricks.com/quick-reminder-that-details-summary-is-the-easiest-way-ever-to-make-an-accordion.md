@@ -45,12 +45,12 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/03/accordion.jpg
 
 <SiteInfo
   name="Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion"
-  desc="Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work."
+  desc="Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work."
   url="https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion"
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/03/accordion.jpg"/>
 
-Gosh bless the `<details>` element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.
+Gosh bless the `<details>` element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.
 
 <CodePen
   user="chriscoyier"
@@ -59,7 +59,7 @@ Gosh bless the `<details>` element. Toss some content inside it and you have a
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Toss a `<summary>` in there to customize what the expander text says.
+Toss a `<summary>` in there to customize what the expander text says.
 
 <CodePen
   user="chriscoyier"
@@ -72,7 +72,7 @@ Works great for FAQs.
 
 There is really no limit to how you can style them. If you don’t like the default focus ring, you can remove that, but make sure to put some kind of styling back.
 
-[<FontIcon icon="fa-brands fa-codepen"/>Here](https://codepen.io/challenges/2018/march/) I’ve used a header element for each expandable section, which has a focus state that mimics other interactive elements on the page.
+[<FontIcon icon="fa-brands fa-codepen"/>Here](https://codepen.io/challenges/2018/march/) I’ve used a header element for each expandable section, which has a focus state that mimics other interactive elements on the page.
 
 The only browser that doesn’t support this are the Microsoft ones (and Opera Mini which makes sense—it doesn’t really do interactive).
 
@@ -141,7 +141,7 @@ But that seems to be limited to WebKit and Blink and, even then, the arrow will 
 ```component VPCard
 {
   "title": "Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion",
-  "desc": "Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.",
+  "desc": "Gosh bless the <details> element. Toss some content inside it and you have an accessible expand-for-more interaction with just about zero work.",
   "link": "https://chanhi2000.github.io/bookshelf/css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion.html",
   "logo": "https://css-tricks/favicon.svg",
   "background": "rgba(17,17,17,0.2)"

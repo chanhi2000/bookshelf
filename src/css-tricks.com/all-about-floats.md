@@ -172,7 +172,7 @@ Floats often get beat on for being *fragile*. The majority of this fragility com
 
 ::: note Quick fix
 
-Make sure you don’t have any images that do this, use `overflow: hidden` to cut off excess.
+Make sure you don’t have any images that do this, use `overflow: hidden` to cut off excess.
 
 :::
 

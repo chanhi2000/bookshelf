@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "interop-coroutines-to-callback", // 2025-08-11
+    "kmp-to-compose-guide", // 2025-07-28
+    "interop-blocking-to-coroutines", // 2025-07-14
+    "interop-callbacks-to-coroutines", // 2025-07-14
     "ak-compiler-plugin", // 2025-03-03
     "game-story-collection-processing-wasm", // 2025-01-20
     "modifier-order", // 2025-01-07
@@ -92,6 +96,7 @@ export const template: SidebarInfoTemplate = {
       "viewmodel-stateflow-sharedflow-channel", // 2024-11-18
       // END: 2024kotlin-android
       "modifier-order", // 2025-01-07
+      "kmp-to-compose-guide", // 2025-07-28
       // END: 2025kotlin-android
       // END: kotlin-android
     ]],[

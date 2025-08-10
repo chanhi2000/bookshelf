@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "architecture-through-component-colocation", // 2025-08-11
     "using-the-custom-highlight-api", // 2025-08-07
     "count-auto-fill-columns", // 2025-08-06
     "infinite-marquee-animation-using-modern-css", // 2025-08-04
@@ -254,6 +255,9 @@ export const template: SidebarInfoTemplate = {
       
       "drizzle-database-migrations", // 2024-12-09
       "baseline-data-choices", // 2024-12-26
+      // END: 2024js-node
+      "architecture-through-component-colocation", // 2025-08-11
+      // END: 2025js-node
       // END: js-node
     ]],[
     "js-react", [

@@ -95,7 +95,7 @@ Let’s add an animation to the background pattern within each hero section to m
 
 section.hero {
   /* previous code */
-+ animation: parallax 3s linear;
+  animation: parallax 3s linear; /* [!code ++] */
 }
 ```
 
@@ -114,9 +114,9 @@ Let’s use a scroll progress timeline for our animation:
 ```css
 section.hero {
   /* previous code */
-- animation: parallax 3s linear;
-+ animation: parallax linear;
-+ animation-timeline: scroll(); 
+  animation: parallax 3s linear; /* [!code --] */
+  animation: parallax linear; /* [!code ++] */
+  animation-timeline: scroll(); /* [!code ++] */
 }
 ```
 
@@ -142,12 +142,13 @@ Now let’s add a new parallax layer by animating the header text and icons with
 
 .hero-content {
   /* previous code */
-+ position: absolute;
-+ top: 25%;
-+ animation: float linear;
-+ animation-timeline: scroll(); 
+  position: absolute; /* [!code ++] */
+  top: 25%; /* [!code ++] */
+  animation: float linear; /* [!code ++] */
+  animation-timeline: scroll(); /* [!code ++] */
 }
 ```
+<!-- TODO: 이거 되는지 확인 -->
 
 <VidStack src="youtube/Hhb0ytMMj5M" />
 
@@ -158,8 +159,8 @@ Let’s try changing our animation timeline property for the hero text:
 ```css
 .hero-content {
   /* previous code */
-- animation-timeline: scroll(); 
-+ animation-timeline: view(); 
+  animation-timeline: scroll(); /* [!code --] */
+  animation-timeline: view(); /* [!code ++] */
 }
 ```
 
@@ -172,8 +173,8 @@ We can solve this by adding an `inset` parameter to the `view()` function. This 
 So, by using a negative value, we make the container larger than the window and trigger the animation to start a little before and end a little after the subject is visible. This accounts for the fact that the subject moves during the animation.
 
 ```css
-- animation-timeline: view();
-+ animation-timeline: view(-100px);
+  animation-timeline: view(); /* [!code --] */
+  animation-timeline: view(-100px); /* [!code ++] */
 ```
 
 Now both the text and background animate smoothly at different speeds.
@@ -219,7 +220,7 @@ As discussed before, animations are based on the original pre-animation position
 #spaceship {
   animation: launch;
   animation-timeline: view();
-+ animation-range: 0% 120%;
++ animation-range: 0% 120%; /* [!code ++] */
 }
 ```
 
@@ -310,7 +311,7 @@ For us, however, the webpage content and images will still all be visible if we 
 }
 ```
 
-In addition to considering accessibility, we should also take into account that scroll-driven animations are not supported by all browsers at the time of writing. If we care a lot about users seeing our animations, we can add a polyfill ([direct link](https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js)) to extend this functionality to currently unsupported browsers. This, however, will force the animation to run on the main thread.
+In addition to considering accessibility, we should also take into account that scroll-driven animations are not supported by all browsers at the time of writing. If we care a lot about users seeing our animations, we can add a polyfill ([<FontIcon icon="fas fa-globe"/>direct link](https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js)) to extend this functionality to currently unsupported browsers. This, however, will force the animation to run on the main thread.
 
 Alternatively, we could decide that performance is important enough to skip the animations on unsupported browsers, thereby keeping the main thread clear. In this case, we can use the `@supports` selector and include the styles only on supported browsers.
 

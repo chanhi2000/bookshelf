@@ -182,7 +182,7 @@ Here’s a basic example using a Proxy, which lets you intercept and modify oper
 ```component VPCard
 {
   "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
-  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
+  "desc": "“Reactivity” is how systems react to changes in data. There are many types of reactivity, but for this article, reactivity is when data changes, you do things.",
   "link": "/frontendmasters.com/vanilla-javascript-reactivity.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"

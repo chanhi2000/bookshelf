@@ -125,7 +125,7 @@ foreach (var item in queueCollection)
 }
 ```
 
-When we want to  remove an element at the beginning of the collection and return it, we are going to use the `Dequeue` method:
+When we want to  remove an element at the beginning of the collection and return it, we are going to use the `Dequeue` method:
 
 ```cs
 Queue queueCollection1 = new Queue();
@@ -201,7 +201,7 @@ foreach (var item in stackCollection1)
 }
 ```
 
-`Pop` removes the element which was included last in a collection and returns it:
+`Pop` removes the element which was included last in a collection and returns it:
 
 ```cs
 Stack stackCollection2 = new Stack();
@@ -218,7 +218,7 @@ foreach (var item in stackCollection2)
 }
 ```
 
-`Peek` returns an object ready to exit the collection, but it doesn’t remove it:
+`Peek` returns an object ready to exit the collection, but it doesn’t remove it:
 
 ```cs
 Stack stackCollection3 = new Stack();
@@ -289,7 +289,7 @@ foreach (var key in hashTable1.Keys)
 }
 ```
 
-`ContainsKey`  determines whether a collection contains a specific key:
+`ContainsKey`  determines whether a collection contains a specific key:
 
 ```cs
 if (hashTable.ContainsKey(Element.Second))
@@ -300,7 +300,7 @@ if (hashTable.ContainsKey(Element.Second))
 
 The `ContainsValue` method determines whether a collection contains a specific value.
 
-`Clear` removes all elements from a collection:
+`Clear` removes all elements from a collection:
 
 ```cs
 hashTable.Clear();

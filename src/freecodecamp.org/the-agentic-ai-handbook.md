@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "The Agentic AI Handbook: A Beginner's Guide to Autonomous Intelligent Agents"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-agentic-ai-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-agentic-ai-handbook.html
 prev: /ai/llm/articles/README.md
 date: 2025-05-28
 isOriginal: false
@@ -82,17 +82,6 @@ But at the moment, most popular AI systems are reactive or non-agentic, doing a 
 In this article, you’ll learn what makes Agentic AI fundamentally different from traditional reactive systems. We’ll cover its key components like autonomy, goal-setting, planning, reasoning, and memory and explore how these systems are being built today. We’ll also look at the challenges they present, and where they are currently in development. Finally, you’ll get a hands-on tutorial on how to build your own simple agent using Python and LangChain.
 
 :::
-
-### Table of Contents:
-
-1. [Agentic vs Reactive AI](#heading-agentic-vs-reactive-ai)
-2. [Key Components of AI Agency](#heading-key-components-of-ai-agency)
-3. [How Does Agentic AI Know What to Do?](#heading-how-does-agentic-ai-know-what-to-do)
-4. [So What’s the Current State of Agentic AI?](#heading-so-whats-the-current-state-of-agentic-ai)
-5. [Building Agentic AI: Frameworks and Approaches](#heading-building-agentic-ai-frameworks-and-approaches)
-6. [Major Challenges of Agentic AI](#heading-major-challenges-of-agentic-ai)
-7. [Code Snippet and Real-World Examples](#heading-code-snippet-and-real-world-examples)
-8. [Tutorial: Build Your First Agentic AI with Python](#heading-tutorial-build-your-first-agentic-ai-with-python)
 
 ---
 
@@ -513,7 +502,7 @@ You’ve given your agent a mission. It will now think, search, and summarize.
 
 You should see output like:
 
-```
+```plaintext title="output"
 > Entering new AgentExecutor chain...
 
 Thought: I should look up AI coding assistants on Wikipedia`

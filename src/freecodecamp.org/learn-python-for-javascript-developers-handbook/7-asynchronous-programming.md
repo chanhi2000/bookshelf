@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/7-asynchronous-programming.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -60,40 +62,44 @@ Both Python and JavaScript support asynchronous programming, but their implement
 
 JavaScript’s asynchronous model is based on the **event loop**, which processes tasks in a non-blocking manner. This makes it ideal for web applications where responsiveness is key. JavaScript uses **callbacks**, **Promises**, and **async/await** to handle asynchronous tasks.
 
-**Example: Fetching Data with Promises**
+::: tip Example: Fetching Data with Promises
 
 A common asynchronous operation is fetching data from an API.
 
 ```js
 fetch('https://api.example.com/data')
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 ```
 
-**How it works:**
+:::
+
+::: info How it works:
 
 1. The `fetch` function returns a Promise.
 2. The `.then` method is used to handle the resolved Promise, where `response.json()` parses the JSON data.
 3. The `.catch` method handles errors, such as network issues.
 
-**Example: Using Async/Await**
+:::
+
+::: tip Example: Using Async/Await
 
 Async/await simplifies the syntax for working with Promises.
 
 ```js
 async function fetchData() {
-    try {
-        const response = await fetch('https://api.example.com/data');
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
+  try {
+    const response = await fetch('https://api.example.com/data');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
 }
 
 fetchData();
@@ -101,13 +107,15 @@ fetchData();
 
 In this example, `await` pauses the execution of the `fetchData` function until the Promise is resolved or rejected, providing a more synchronous-like flow.
 
+:::
+
 ---
 
 ## Asyncio and Await Syntax in Python
 
 Python’s asynchronous programming revolves around the `asyncio` library, which introduced the `async` and `await` keywords to handle asynchronous operations. Unlike JavaScript, Python does not have a built-in event loop – it relies on `asyncio` to create and manage one.
 
-**Example: Fetching Data with Asyncio**
+::: tip Example: Fetching Data with Asyncio
 
 Using Python’s `aiohttp` library for asynchronous HTTP requests:
 
@@ -116,21 +124,25 @@ import asyncio
 import aiohttp
 
 async def fetch_data():
-    async with aiohttp.ClientSession() as session:
-        async with session.get('https://api.example.com/data') as response:
-            data = await response.json()
-            print(data)
+  async with aiohttp.ClientSession() as session:
+    async with session.get('https://api.example.com/data') as response:
+        data = await response.json()
+        print(data)
 
 asyncio.run(fetch_data())
 ```
 
-**How it works:**
+:::
+
+::: info How it works:
 
 1. The `async def` syntax defines an asynchronous function.
 2. `await` is used to pause execution until the `get` request completes.
-3. [`asyncio.run`](http://asyncio.run)`()` starts the event loop and runs the asynchronous function.
+3. `asyncio.run()` starts the event loop and runs the asynchronous function.
 
-::: note Key Differences from JavaScript
+:::
+
+::: important Key Differences from JavaScript
 
 - Python explicitly defines asynchronous functions with `async def`.
 - The `asyncio` library is required to run the event loop.
@@ -144,27 +156,27 @@ asyncio.run(fetch_data())
 
 Asynchronous programming is suitable for tasks that involve waiting, such as network requests, file I/O, or database queries. Here’s how Python and JavaScript handle common use cases:
 
-::: tabs
+### <FontIcon icon="fa-brands fa-js"/>Real-Time Applications (JavaScript)
 
-@tab:active <FontIcon icon="fa-brands fa-js"/>
+JavaScript’s event-driven model makes it ideal for real-time applications like chat systems, live streaming, or collaborative tools.
 
-**Real-Time Applications (JavaScript)**: JavaScript’s event-driven model makes it ideal for real-time applications like chat systems, live streaming, or collaborative tools.
-
-**Example: WebSocket in JavaScript**
+::: tip Example: WebSocket in JavaScript
 
 ```js
 const socket = new WebSocket('ws://example.com/socket');
 
 socket.onmessage = (event) => {
-    console.log('Message from server:', event.data);
+  console.log('Message from server:', event.data);
 };
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+:::
 
-**I/O-Bound Tasks (Python)**: Python’s asynchronous model excels at handling I/O-bound tasks such as file processing, web scraping, or database queries.
+### <FontIcon icon="fa-brands fa-python"/>I/O-Bound Tasks (Python)
 
-**Example: Asynchronous File Reading in Python**
+Python’s asynchronous model excels at handling I/O-bound tasks such as file processing, web scraping, or database queries.
+
+::: tip Example: Asynchronous File Reading in Python
 
 ```py
 import aiofiles
@@ -178,7 +190,9 @@ async def read_file():
 asyncio.run(read_file())
 ```
 
-**Performance Considerations**:
+:::
+
+::: note Performance Considerations
 
 1. **Concurrency**: Both languages handle concurrency well, but JavaScript’s event loop and non-blocking I/O model are better suited for high-throughput, real-time applications.
 2. **Threading**: Python’s `asyncio` works best for I/O-bound tasks. For CPU-bound tasks, Python relies on multi-threading or multi-processing.
@@ -186,8 +200,10 @@ asyncio.run(read_file())
 
 :::
 
-### Key Takeaways:
+::: important Key Takeaways:
 
 - **JavaScript**: Asynchronous programming is central to JavaScript’s design. Its event loop and Promises make it highly efficient for real-time, event-driven applications.
 - **Python**: Asynchronous programming is a newer addition to Python, focused on handling I/O-bound tasks efficiently with `asyncio`.
 - **Syntax**: Both languages use `async/await`, but Python requires explicit setup with `asyncio`, while JavaScript integrates it natively.
+
+:::

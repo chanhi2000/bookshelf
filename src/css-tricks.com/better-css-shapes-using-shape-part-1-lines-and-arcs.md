@@ -67,7 +67,7 @@ Even if I have detailed most of the modern techniques and tricks, CSS keeps evol
   "background": "rgba(17,17,17,0.2)"
 }
 ```
-2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
+2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
 3. [Curves](https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/)
 4. [Close and Move](https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/)
 
@@ -496,7 +496,7 @@ Don’t forget to bookmark the [<FontIcon icon="fas fa-globe"/>SVG to CSS conver
   "background": "rgba(17,17,17,0.2)"
 }
 ```
-2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
+2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
 3. [Curves](https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/)
 4. [Close and Move](https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/)
 

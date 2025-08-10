@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/5-functions-and-scope.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -58,23 +60,16 @@ Both Python and JavaScript support first-class functions, meaning functions can 
 
 ## Defining Functions in Python vs. JavaScript
 
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-python"/>
+### <FontIcon icon="fa-brands fa-python"/>Python Functions
 
 In Python, functions are defined using the `def` keyword, followed by the function name, parameters in parentheses, and a colon. Python uses indentation to define the function body, which makes the syntax clean and readable.
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Functions
+
 
 In JavaScript, functions can be defined in several ways: using the `function` keyword, as an arrow function (`=>`), or as a method within an object. Modern JavaScript commonly uses arrow functions for their brevity and lexical `this` behavior.
 
-:::
-
-**Example**: Basic Function Definition
-
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>Example Basic Function Definition
 
 ```py
 def greet(name):
@@ -83,7 +78,7 @@ def greet(name):
 print(greet("Alice"))  # Output: Hello, Alice!
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+::: tip <FontIcon icon="fa-brands fa-js"/>Example Basic Function Definition
 
 ```js
 function greet(name) {
@@ -93,7 +88,9 @@ function greet(name) {
 console.log(greet("Alice")); // Output: Hello, Alice!
 ```
 
-**Arrow Functions in JavaScript:**
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>Arrow Functions in JavaScript:
 
 ```js
 const greet = (name) => `Hello, ${name}!`;
@@ -102,7 +99,7 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 :::
 
-::: note Key Differences:
+::: info Key Differences:
 
 1. Python uses explicit keywords like `def` and `return`, while JavaScript has multiple ways to define functions, which can sometimes be overwhelming for beginners.
 2. Arrow functions in JavaScript provide concise syntax but are not equivalent to Python’s lambda (more on that below).
@@ -115,9 +112,7 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 **Scope** refers to where a variable is accessible in your code. Both Python and JavaScript have rules for variable scoping, but they are implemented differently.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>LEGB Rule
+### <FontIcon icon="fa-brands fa-python"/>Python’s LEGB Rule
 
 Python uses the LEGB rule to determine variable scope:
 
@@ -126,7 +121,7 @@ Python uses the LEGB rule to determine variable scope:
 - **G**lobal: Variables defined at the top level of the module.
 - **B**uilt-in: Predefined names in Python (for example, `len`, `print`).
 
-Example of Python scope:
+::: tip Example of Python scope
 
 ```py
 x = "global"
@@ -144,24 +139,26 @@ outer_function()  # Output: local
 print(x)          # Output: global
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>Closures
+:::
+
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Closures
 
 JavaScript handles scope using function-level and block-level scoping. Variables declared with `let` and `const` have block scope, while `var` has function scope.
 
 Closures are an essential concept in JavaScript, allowing inner functions to access variables from their outer (enclosing) functions even after the outer function has executed.
 
-Example of JavaScript closure:
+::: tip Example of JavaScript closure
 
 ```js
 function outerFunction() {
-    let x = "enclosing";
+  let x = "enclosing";
 
-    function innerFunction() {
-        let x = "local";
-        console.log(x);
-    }
+  function innerFunction() {
+    let x = "local";
+    console.log(x);
+  }
 
-    innerFunction();
+  innerFunction();
 }
 
 outerFunction(); // Output: local
@@ -169,7 +166,7 @@ outerFunction(); // Output: local
 
 :::
 
-::: note Key Differences
+::: info Key Differences
 
 - Python’s scope is determined by its LEGB rule, whereas JavaScript relies on closures and block scoping (with `let` and `const`).
 - Python has explicit mechanisms like the `global` and `nonlocal` keywords to modify variable scope, while JavaScript uses closures implicitly.
@@ -180,13 +177,11 @@ outerFunction(); // Output: local
 
 ## Anonymous Functions: Lambda Expressions vs. Arrow Functions
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>Lambda Expressions
+### <FontIcon icon="fa-brands fa-python"/>Python’s Lambda Expressions
 
 Python’s `lambda` allows you to define small, unnamed functions in a single line. They are typically used for short-lived operations, like filtering or mapping, where defining a full function would be unnecessary.
 
-Example of a Python lambda:
+::: tip Example of a Python lambda
 
 ```py
 square = lambda x: x ** 2
@@ -198,11 +193,11 @@ squared = map(lambda x: x ** 2, numbers)
 print(list(squared))  # Output: [1, 4, 9, 16]
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>Arrow Functions
+### <FontIcon icon="fa-brands fa-js"/>JavaScript’s Arrow Functions
 
 Arrow functions in JavaScript serve a similar purpose but are more versatile. They provide a concise way to define functions and automatically bind `this` to the enclosing context, which is particularly useful in object-oriented or asynchronous programming.
 
-Example of a JavaScript arrow function:
+::: tip Example of a JavaScript arrow function
 
 ```js
 const square = (x) => x ** 2;
@@ -216,7 +211,7 @@ console.log(squared); // Output: [1, 4, 9, 16]
 
 :::
 
-::: note Key Differences
+::: info Key Differences
 
 1. **Purpose**: Python’s `lambda` is limited to single expressions and is primarily used for quick operations. Arrow functions in JavaScript are more flexible and can have multiple statements and explicit return values.
 2. **Scope Binding**: Arrow functions inherit the `this` context of their enclosing block, while Python’s lambdas are independent functions with no context-related behavior.
@@ -229,9 +224,7 @@ console.log(squared); // Output: [1, 4, 9, 16]
 
 Both Python and JavaScript support default parameter values, but Python offers additional features like keyword arguments and variable-length arguments (`*args` and `**kwargs`).
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/> Default and Variable-Length Arguments
+### <FontIcon icon="fa-brands fa-python"/>Python Default and Variable-Length Arguments:
 
 ```py
 def greet(name="World", *args, **kwargs):
@@ -246,15 +239,16 @@ greet("Alice", 1, 2, color="blue", age=30)
 # Keyword Arguments: {'color': 'blue', 'age': 30}
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/> Default Parameters
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Default Parameters:
 
 ```js
 function greet(name = "World", ...args) {
-    console.log(`Hello, ${name}!`);
-    console.log("Arguments:", args);
+  console.log(`Hello, ${name}!`);
+  console.log("Arguments:", args);
 }
 
 greet("Alice", 1, 2, { color: "blue", age: 30 });
+//
 // Output:
 // Hello, Alice!
 // Arguments: [1, 2, { color: 'blue', age: 30 }]
@@ -264,9 +258,7 @@ greet("Alice", 1, 2, { color: "blue", age: 30 });
 
 Python’s keyword arguments (`**kwargs`) provide a more structured way to handle optional parameters compared to JavaScript’s `arguments` or rest parameters.
 
----
-
-### Key Takeaways
+::: important Key Takeaways
 
 - Python’s function syntax (`def`) is straightforward and emphasizes readability, while JavaScript offers flexibility with `function`, arrow functions, and method definitions.
 - Python’s LEGB scope rule makes variable visibility predictable and explicit, while JavaScript’s closures offer powerful but implicit scoping.
@@ -274,3 +266,5 @@ Python’s keyword arguments (`**kwargs`) provide a more structured way to handl
 - Python’s support for keyword and variable-length arguments adds flexibility and clarity when passing data to functions.
 
 This section demonstrates that while both languages handle functions and scope effectively, Python’s approach prioritizes simplicity and readability, while JavaScript offers more flexibility and dynamic behavior. Both approaches have their advantages, depending on the task at hand.
+
+:::

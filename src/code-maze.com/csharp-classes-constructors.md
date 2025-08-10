@@ -109,7 +109,7 @@ class Program
 }
 ```
 
-Now the `student` object can access the members from the `Student` class. For now, we have only one method inside the `Student` class and we can call it with the `student.GetFullName()` syntax. This will return an empty string, but we are going to fix that as soon as we introduce constructors.
+Now the `student` object can access the members from the `Student` class. For now, we have only one method inside the `Student` class and we can call it with the `student.GetFullName()` syntax. This will return an empty string, but we are going to fix that as soon as we introduce constructors.
 
 It is so important not to confuse the terms class and object. The class is a type definition but an object is an instance of that type. We can have several object instances of the same class:
 

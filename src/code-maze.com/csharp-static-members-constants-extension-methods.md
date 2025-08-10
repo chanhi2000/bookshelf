@@ -108,7 +108,7 @@ When we have a case like this one, it is usually a good solution to create a met
 
 To call a static method, as we said, we don’t need an instance of a class. We can call it with the following syntax: `ClassName.MethodName(arguments…);`
 
-So, when we want to use the `Sqrt` method or any other method from the `Math` class, we can call it like this:  `Math.Sqrt(16);`
+So, when we want to use the `Sqrt` method or any other method from the `Math` class, we can call it like this:  `Math.Sqrt(16);`
 
 ---
 

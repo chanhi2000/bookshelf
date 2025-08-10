@@ -23,7 +23,9 @@ head:
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/4-data-structures-and-collections.html
 date: 2024-11-22
 isOriginal: false
-author: German Cocca
+author:
+  - name: German Cocca
+    url : https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732278833514/c23ea6ad-25b9-45c9-a7a7-c32499ca1d8b.jpeg
 ---
 
@@ -60,25 +62,17 @@ In this section, we’ll explore Python’s main data structures and compare the
 
 In Python, lists are versatile, mutable sequences that allow you to store elements of different types. They are comparable to JavaScript’s arrays but come with built-in methods and utilities that make them easier to manipulate for many use cases.
 
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-python"/>Lists
+### <FontIcon icon="fa-brands fa-python"/>Python Lists
 
 - Lists in Python are denoted by square brackets (`[]`) and support various built-in functions, such as appending, inserting, and removing elements.
 - They can store any type of data, including other lists, making them useful for nested data structures.
 
-@tab <FontIcon icon="fa-brands fa-js"/>Arrays
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Arrays:
 
 - Arrays in JavaScript are also denoted by square brackets (`[]`) and can hold elements of different types.
 - JavaScript arrays are technically objects, so they come with a range of methods for manipulation (`push`, `pop`, `splice`, `map`, etc.).
 
-:::
-
-**Example**: Adding and removing elements in lists and arrays:
-
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>Example: Adding and removing elements in lists and arrays:
 
 ```py
 # Creating and manipulating a list
@@ -89,7 +83,9 @@ my_list.remove(2)       # Removes the first occurrence of 2
 print(my_list)          # Output: [1, 10, 3, 4]
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>Example: Adding and removing elements in lists and arrays:
 
 ```js
 // Creating and manipulating an array
@@ -112,17 +108,13 @@ Python offers tuples as an immutable sequence type, meaning their elements canno
 
 JavaScript does not have an equivalent immutable sequence structure, though arrays declared with `const` can serve a similar purpose in restricting reassignment.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>Tuple
+### <FontIcon icon="fa-brands fa-python"/>Python Tuple
 
 ```py
 my_tuple = (1, 2, 3)
 # Attempting to modify will raise an error:
 # my_tuple[0] = 10  # Raises TypeError
 ```
-
-:::
 
 Tuples are ideal for fixed collections, such as coordinates or configuration values, where data should not change.
 
@@ -132,25 +124,17 @@ Tuples are ideal for fixed collections, such as coordinates or configuration val
 
 Both JavaScript and Python offer sets as a way to store unique values. Sets are unordered and do not allow duplicates, making them ideal for collections where each item should be unique.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/> Sets
+### <FontIcon icon="fa-brands fa-python"/>Python Sets
 
 - In Python, sets are defined using curly braces (`{}`) or the `set()` function.
 - Python sets support set operations like union, intersection, and difference, which can be useful for tasks like finding common elements or removing duplicates.
 
-@tab <FontIcon icon="fa-brands fa-js"/> Sets
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Sets:
 
 - JavaScript introduced the `Set` object in ES6.
 - Similar to Python, JavaScript sets can perform union and intersection operations with some extra syntax.
 
-:::
-
-**Example**: Working with sets in Python and JavaScript:
-
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>Example: Working with sets in Python
 
 ```py
 # Creating and using a set
@@ -160,7 +144,9 @@ fruits.discard("banana")       # Removes "banana" from the set
 print(fruits)                  # Output: {"apple", "cherry", "orange"}
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>Example: Working with sets in JavaScript
 
 ```js
 // Creating and using a set
@@ -180,23 +166,15 @@ Python’s set functions (`union`, `intersection`, `difference`) make it easy to
 
 Python’s `dict` and JavaScript’s objects are both key-value pair data structures, but they have slightly different features and limitations.
 
-::: tabs
-
-@tab:active <FontIcon icon="fa-brands fa-python"/> Dictionaries
+### <FontIcon icon="fa-brands fa-python"/>Python Dictionaries
 
 Python’s dictionaries are optimized for fast lookup and can use immutable types (for example, strings, numbers, tuples) as keys. Dictionaries are widely used in Python for data management, configuration, and lookups.
 
-@tab <FontIcon icon="fa-brands fa-js"/>Objects 
+### <FontIcon icon="fa-brands fa-js"/>JavaScript Objects
 
 JavaScript objects serve a similar purpose but are less restrictive in terms of key types. Objects can use strings and symbols as keys but lack some of the dictionary-specific functions found in Python.
 
-:::
-
-**Example**: Creating and accessing elements in dictionaries and objects:
-
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>Example: Creating and accessing elements in dictionaries and objects:
 
 ```py
 # Creating and manipulating a dictionary
@@ -207,7 +185,9 @@ del person["age"]               # Removing a key-value pair
 print(person)                   # Output: {"name": "Alice", "city": "New York"}
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>Example: Creating and accessing elements in dictionaries and objects:
 
 ```js
 // Creating and manipulating an object
@@ -228,11 +208,7 @@ Python dictionaries also support powerful methods like `get`, `keys`, `values`, 
 
 Both Python and JavaScript work well with JSON, a format frequently used for data interchange in web applications. JavaScript’s native compatibility with JSON is a natural fit for web APIs, while Python’s `json` module allows for easy parsing and generation of JSON data.
 
-**Example**: Converting a dictionary/object to JSON and parsing JSON data:
-
-::: tabs
-
-@tab <FontIcon icon="fa-brands fa-python"/>
+::: tip <FontIcon icon="fa-brands fa-python"/>Example: Converting a dictionary/object to JSON and parsing JSON data:
 
 ```py
 import json
@@ -247,7 +223,9 @@ parsed_dict = json.loads(person_json)
 print(parsed_dict)  # Output: {'name': 'Alice', 'age': 30}
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+:::
+
+::: tip <FontIcon icon="fa-brands fa-js"/>Example: Converting a dictionary/object to JSON and parsing JSON data:
 
 ```js
 // Convert object to JSON string
@@ -262,10 +240,12 @@ console.log(parsedObject); // Output: { name: 'Alice', age: 30 }
 
 :::
 
-### Key Takeaways
+::: important Key Takeaways
 
 - **Lists and Arrays**: Python’s lists are versatile and come with built-in manipulation methods. JavaScript arrays are flexible but less concise in syntax.
 - **Tuples**: Python’s tuples are immutable sequences ideal for fixed data collections, which JavaScript lacks an equivalent for.
 - **Sets**: Both Python and JavaScript offer sets for unique collections, but Python’s sets support more direct mathematical operations.
 - **Dictionaries and Objects**: Python’s dictionaries and JavaScript’s objects serve similar purposes, though Python offers additional methods specifically for dictionary manipulation.
 - **JSON**: Both languages handle JSON data, with JavaScript having native JSON support and Python using the `json` module.
+
+:::

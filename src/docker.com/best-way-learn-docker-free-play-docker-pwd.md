@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/ssh.gif
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/ssh.gif"/>
 
-Last year at the Distributed System Summit in Berlin, Docker captains [Marcos Nils (<FontIcon icon="fa-brands fa-x-twitter"/>`marcosnils`)](https://twitter.com/marcosnils) and [Jonathan Leibiusky (<FontIcon icon="fa-brands fa-x-twitter"/>`xetorthio`)](https://twitter.com/xetorthio) started hacking on an in-browser solution to help people learn Docker. A few days later, [<FontIcon icon="fas fa-globe"/>Play-with-docker](https://play-with-docker.com/) (PWD) was born.
+Last year at the Distributed System Summit in Berlin, Docker captains [Marcos Nils (<FontIcon icon="fa-brands fa-x-twitter"/>`marcosnils`)](https://twitter.com/marcosnils) and [Jonathan Leibiusky (<FontIcon icon="fa-brands fa-x-twitter"/>`xetorthio`)](https://twitter.com/xetorthio) started hacking on an in-browser solution to help people learn Docker. A few days later, [<FontIcon icon="fas fa-globe"/>Play-with-docker](https://play-with-docker.com/) (PWD) was born.
 
 PWD is a Docker playground which allows users to run Docker commands in a matter of seconds. It gives the experience of having a free Alpine Linux Virtual Machine in browser, where you can build and run Docker containers and even create clusters in [<FontIcon icon="fa-brands fa-docker"/>Docker Swarm Mode](https://docs.docker.com/engine/swarm/). Under the hood Docker-in-Docker (DinD) is used to give the effect of multiple VMs/PCs. In addition to the playground, PWD also includes a training site composed of a large set of Docker labs and quizzes from beginner to advanced level available at [<FontIcon icon="fas fa-globe"/>`training.play-with-docker.com`](https://training.play-with-docker.com/).
 
@@ -74,7 +74,7 @@ As PWD success grew, the community started to ask if they could use PWD to run t
 
 ![Play With Docker](https://docker.com/app/uploads/ssh.gif)
 
-### 2. Adding support for file upload
+### 2. Adding support for file upload
 
 Another cool feature brought to you by Marcos and Jonathan is the ability to upload your Dockerfile directly into your PWD windows with a simple drag and drop of your file in your PWD instance.
 
@@ -86,15 +86,15 @@ In addition to file upload, PWD also has a feature which lets you spin up a 5 no
 
 ![Play with Docker](https://docker.com/app/uploads/templated-session-1.gif)
 
-### 4. Showcasing your applications with Docker in a single click
+### 4. Showcasing your applications with Docker in a single click
 
-Another cool feature that comes with PWD is its embeddable button that you can use in your sites to set up a PWD environment and deploy a compose stack right away and a [<FontIcon icon="fa-brands fa-chrome"/>chrome extension](https://chrome.google.com/webstore/detail/play-with-docker/kibbhpioncdhmamhflnnmfonadknnoan) that adds the “Try in PWD” button to the most popular images in DockerHub. Here’s a short demo of the extension in action:
+Another cool feature that comes with PWD is its embeddable button that you can use in your sites to set up a PWD environment and deploy a compose stack right away and a [<FontIcon icon="fa-brands fa-chrome"/>chrome extension](https://chrome.google.com/webstore/detail/play-with-docker/kibbhpioncdhmamhflnnmfonadknnoan) that adds the “Try in PWD” button to the most popular images in DockerHub. Here’s a short demo of the extension in action:
 
 ---
 
 ## PWD: the Training Site
 
- A number of new labs are available on [<FontIcon icon="fas fa-globe"/>`training.play-with-docker.com`](https://training.play-with-docker.com/). Some notable highlights include two labs that were originally hands-on labs from DockerCon in Austin, and a couple that highlight new features that are stable in Docker 17.06CE:
+ A number of new labs are available on [<FontIcon icon="fas fa-globe"/>`training.play-with-docker.com`](https://training.play-with-docker.com/). Some notable highlights include two labs that were originally hands-on labs from DockerCon in Austin, and a couple that highlight new features that are stable in Docker 17.06CE:
 
 ```component VPCard
 {
@@ -136,19 +136,19 @@ Another cool feature that comes with PWD is its embeddable button that you can u
 }
 ```
 
-All in all, there are now 36 labs, with more being added all the time. If you want to contribute a lab, check out the [GitHub repo (<FontIcon icon="iconfont icon-github"/>`play-with-docker/play-with-docker.github.io`)](https://github.com/play-with-docker/play-with-docker.github.io) and get started.
+All in all, there are now 36 labs, with more being added all the time. If you want to contribute a lab, check out the [GitHub repo (<FontIcon icon="iconfont icon-github"/>`play-with-docker/play-with-docker.github.io`)](https://github.com/play-with-docker/play-with-docker.github.io) and get started.
 
 ---
 
-## PWD: the Use Cases
+## PWD: the Use Cases
 
 With the traffic to the site and the feedback we’ve received, it’s fair to say that PWD has a lot of traction right now. Here are some of the most common use-cases:
 
 - Try new features fast as it’s updated with the latest dev versions.
-- Set up clusters in no-time and launch replicated services.
+- Set up clusters in no-time and launch replicated services.
 - Learn through it’s interactive tutorials: [<FontIcon icon="fas fa-globe"/>`training.play-with-docker.com`](http://training.play-with-docker.com/).
 - Give presentations at conferences and meetups.
-- Allow to run advanced workshops that’d usually require complex setups, such as Jérôme’s [advanced Docker Orchestration workshop (<FontIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/Docker-Orchestration)
+- Allow to run advanced workshops that’d usually require complex setups, such as Jérôme’s [advanced Docker Orchestration workshop (<FontIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/Docker-Orchestration)
 - Collaborate with community members to diagnose and detect issues.
 
 Get involved with PWD:

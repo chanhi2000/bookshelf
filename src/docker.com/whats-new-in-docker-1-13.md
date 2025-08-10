@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png"/>
 
-Today we’re releasing Docker 1.13 with lots of new features, improvements and fixes to help Docker users with New Year’s resolutions to build more and better container apps. Docker 1.13 builds on and improves [<FontIcon icon="fa-brands fa-docker"/>Docker swarm mode introduced in Docker 1.12](https://docs.docker.com/engine/swarm/) and has lots of other fixes. Read on for Docker 1.13 highlights.
+Today we’re releasing Docker 1.13 with lots of new features, improvements and fixes to help Docker users with New Year’s resolutions to build more and better container apps. Docker 1.13 builds on and improves [<FontIcon icon="fa-brands fa-docker"/>Docker swarm mode introduced in Docker 1.12](https://docs.docker.com/engine/swarm/) and has lots of other fixes. Read on for Docker 1.13 highlights.
 
 ![Docker 1.13](https://img.scoop.it/Cp1XsW_5vNwULxXiItcFO7nTzqrqzN7Y9aBZTaXoQ8Q=)
 
@@ -91,15 +91,15 @@ Docker 1.13 introduces a couple of nifty commands to help users understand how m
 - `docker system df` will show used space, similar to the unix tool df
 - `docker system prune` will remove all unused data.
 
-Prune can also be used to clean up just some types of data. For example: `docker volume prune` removes unused volumes only.
+Prune can also be used to clean up just some types of data. For example: `docker volume prune` removes unused volumes only.
 
 ---
 
 ## CLI restructured
 
-Docker has grown many features over the past couple years and the Docker CLI now has a lot of commands (40 at the time of writing). Some, like `build` or `run` are used a lot, some are more obscure, like `pause` or `history`. The many top-level commands clutters help pages and makes tab-completion harder.
+Docker has grown many features over the past couple years and the Docker CLI now has a lot of commands (40 at the time of writing). Some, like `build` or `run` are used a lot, some are more obscure, like `pause` or `history`. The many top-level commands clutters help pages and makes tab-completion harder.
 
-In Docker 1.13, we regrouped every command to sit under the logical object it’s interacting with. For example `list` and `start`of containers are now subcommands of `docker container` and `history` is a subcommand of `docker image`.
+In Docker 1.13, we regrouped every command to sit under the logical object it’s interacting with. For example `list` and `start`of containers are now subcommands of `docker container` and `history` is a subcommand of `docker image`.
 
 ```sh
 docker container list
@@ -113,7 +113,7 @@ These changes let us clean up the Docker CLI syntax, improve help text and make 
 
 ## Monitoring improvements
 
-`docker service logs` is a powerful new experimental command that makes debugging services much simpler. Instead of having to track down hosts and containers powering a particular service and pulling logs from those containers, `docker service logs` pulls logs from all containers running a service and streams them to your console.
+`docker service logs` is a powerful new experimental command that makes debugging services much simpler. Instead of having to track down hosts and containers powering a particular service and pulling logs from those containers, `docker service logs` pulls logs from all containers running a service and streams them to your console.
 
 Docker 1.13 also [adds an experimental Prometheus-style endpoint (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/25820) with basic metrics on containers, images and other daemon stats.
 
@@ -121,9 +121,9 @@ Docker 1.13 also [adds an experimental Prometheus-style endpoint (<FontIcon icon
 
 ## Build improvements
 
-`docker build` has a new experimental `--squash` flag. When squashing, Docker will take all the filesystem layers produced by a build and collapse them into a single new layer. This can simplify the process of creating minimal container images, but may result in slightly higher overhead when images are moved around (because squashed layers can no longer be shared between images). Docker still caches individual layers to make subsequent builds fast.
+`docker build` has a new experimental `--squash` flag. When squashing, Docker will take all the filesystem layers produced by a build and collapse them into a single new layer. This can simplify the process of creating minimal container images, but may result in slightly higher overhead when images are moved around (because squashed layers can no longer be shared between images). Docker still caches individual layers to make subsequent builds fast.
 
-1.13 also has [support for compressing the build context (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/25837) that is sent from CLI to daemon using the `--compress` flag. This will speed up builds done on remote daemons by reducing the amount of data sent.
+1.13 also has [support for compressing the build context (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/25837) that is sent from CLI to daemon using the `--compress` flag. This will speed up builds done on remote daemons by reducing the amount of data sent.
 
 ---
 
@@ -135,9 +135,9 @@ Docker for AWS and Azure are out of public beta and ready for production. We’v
 
 ## Get started with Docker 1.13
 
-Docker for Mac and Windows users on both beta and stable channels will get automatic upgrade notifications (in fact, beta channel users have been running Docker 1.13 release clients for the past couple of months). If you’re new to Docker, download Docker for [<FontIcon icon="fa-brands fa-docker"/>Mac](https://docs.docker.com/docker-for-mac/) and [<FontIcon icon="fa-brands fa-docker"/>Windows](https://docs.docker.com/docker-for-windows/) to get started.
+Docker for Mac and Windows users on both beta and stable channels will get automatic upgrade notifications (in fact, beta channel users have been running Docker 1.13 release clients for the past couple of months). If you’re new to Docker, download Docker for [<FontIcon icon="fa-brands fa-docker"/>Mac](https://docs.docker.com/docker-for-mac/) and [<FontIcon icon="fa-brands fa-docker"/>Windows](https://docs.docker.com/docker-for-windows/) to get started.
 
-To deploy [<FontIcon icon="fa-brands fa-docker"/>Docker for AWS](https://docs.docker.com/docker-for-aws/) or [<FontIcon icon="fa-brands fa-docker"/>Docker for Azure](https://docs.docker.com/docker-for-azure/), check out the docs or use these buttons to get started:
+To deploy [<FontIcon icon="fa-brands fa-docker"/>Docker for AWS](https://docs.docker.com/docker-for-aws/) or [<FontIcon icon="fa-brands fa-docker"/>Docker for Azure](https://docs.docker.com/docker-for-azure/), check out the docs or use these buttons to get started:
 
 ```component VPCard
 {

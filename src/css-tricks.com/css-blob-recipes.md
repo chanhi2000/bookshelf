@@ -58,7 +58,7 @@ To know if our following blobs are worth using, we’ll need them to pass three 
 2. They can be easily designed (ideally through an online tool).
 3. We can use gradient backgrounds, borders, shadows, and other CSS effects on them.
 
-Without further ado, let’s *Blob, Blob, Blob* right in.
+Without further ado, let’s *Blob, Blob, Blob* right in.
 
 ---
 
@@ -88,9 +88,9 @@ For example, this is one I generated just now. Keep it around, as it will come i
 
 ## Using `border-radius`
 
-While counterintuitive, we can use the [<FontIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/)` property to create blobs. This technique isn’t new by any means; it was [<FontIcon icon="fas fa-globe"/>first described by Nils Binder](https://9elements.com/blog/css-border-radius-can-do-that/) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
+While counterintuitive, we can use the [<FontIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/)` property to create blobs. This technique isn’t new by any means; it was [<FontIcon icon="fas fa-globe"/>first described by Nils Binder](https://9elements.com/blog/css-border-radius-can-do-that/) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
 
-To start, you may know the `border-radius` is a shorthand to each individual corner’s radius, going from the top left corner clockwise. For example, we can set each corner’s `border-radius` to get a bubbly square shape:
+To start, you may know the `border-radius` is a shorthand to each individual corner’s radius, going from the top left corner clockwise. For example, we can set each corner’s `border-radius` to get a bubbly square shape:
 
 ```html
 <div class="blob"></div>
@@ -109,7 +109,7 @@ To start, you may know the `border-radius` is a shorthand to each individual c
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-However, what `border-radius` does — and also why it’s called “radius” — is to shape each corner following a circle of the given radius. For example, if we set the top left corner to `25%`, it will follow a circle with a radius `25%` the size of the shape.
+However, what `border-radius` does — and also why it’s called “radius” — is to shape each corner following a circle of the given radius. For example, if we set the top left corner to `25%`, it will follow a circle with a radius `25%` the size of the shape.
 
 ```css
 .blob {
@@ -124,7 +124,7 @@ However, what `border-radius` does — and also why it’s called “radius”
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-What’s less known is that each corner property is still a *shortcut* towards its horizontal and vertical radii. Normally, you set both radii to the same value, getting a circle, but you can set them individually to create an ellipse. For example, the following sets the horizontal radius to `25%` of the element’s width and the vertical to `50%` of its height:
+What’s less known is that each corner property is still a *shortcut* towards its horizontal and vertical radii. Normally, you set both radii to the same value, getting a circle, but you can set them individually to create an ellipse. For example, the following sets the horizontal radius to `25%` of the element’s width and the vertical to `50%` of its height:
 
 ```css
 .blob {
@@ -139,7 +139,7 @@ What’s less known is that each corner property is still a *shortcut* towards
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can now shape each corner like an ellipse, and it is the combination of all four ellipses that creates the illusion of a blob! Just take into consideration that to use the horizontal and vertical radii syntax through the `border-radius` property, we’ll need to separate the horizontal from the vertical radii using a forward slash (`/`).
+We can now shape each corner like an ellipse, and it is the combination of all four ellipses that creates the illusion of a blob! Just take into consideration that to use the horizontal and vertical radii syntax through the `border-radius` property, we’ll need to separate the horizontal from the vertical radii using a forward slash (`/`).
 
 ```css
 .blob {
@@ -158,15 +158,15 @@ We can now shape each corner like an ellipse, and it is the combination of all f
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The syntax isn’t too intuitive, so designing a blob from scratch will likely be a headache. Luckily, [<FontIcon icon="fas fa-globe"/>Nils Binder made a tool](https://9elements.github.io/fancy-border-radius/) exactly for that!
+The syntax isn’t too intuitive, so designing a blob from scratch will likely be a headache. Luckily, [<FontIcon icon="fas fa-globe"/>Nils Binder made a tool](https://9elements.github.io/fancy-border-radius/) exactly for that!
 
 ### Blobbing blobs together
 
-This hack is awesome. We aren’t supposed to use `border-radius` like that, but we still do. Admittedly, we are limited to boring blobs. Due to the nature of `border-radius`, no matter how hard we try, we will only get convex shapes.
+This hack is awesome. We aren’t supposed to use `border-radius` like that, but we still do. Admittedly, we are limited to boring blobs. Due to the nature of `border-radius`, no matter how hard we try, we will only get convex shapes.
 
 ![Concave and convex shapes](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/06/convex_concave_i8a0vu.webp?resize=1024%2C576)
 
-Just going off `border-radius`, we can try to minimize it a little by sticking more than one blob together:
+Just going off `border-radius`, we can try to minimize it a little by sticking more than one blob together:
 
 <CodePen
   user="monknow"
@@ -185,7 +185,7 @@ However, I don’t want to spend too much time on this technique since it is too
 
 ## Multiple backgrounds and SVG filters
 
-This one is an improvement in the Gooey Effect, [**described here by Lucas Bebber**](/css-tricks.com/gooey-effect.md), although I don’t know who first came up with it. In the original effect, several elements can be morphed together like drops of liquid sticking to and flowing out of each other:
+This one is an improvement in the Gooey Effect, [**described here by Lucas Bebber**](/css-tricks.com/gooey-effect.md), although I don’t know who first came up with it. In the original effect, several elements can be morphed together like drops of liquid sticking to and flowing out of each other:
 
 <CodePen
   user="lbebber"
@@ -203,7 +203,7 @@ It works by first blurring shapes nearby, creating some connected shadows. Then 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-If you look at the code, you’ll notice Chris uses the [<FontIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property along the `blur()` and `contrast()` functions, which I’ve also seen in other blob demos. To be specific, it applies `blur()` on each individual circle and then `contrast()` on the parent element. So, if we have the following HTML:
+If you look at the code, you’ll notice Chris uses the [<FontIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property along the `blur()` and `contrast()` functions, which I’ve also seen in other blob demos. To be specific, it applies `blur()` on each individual circle and then `contrast()` on the parent element. So, if we have the following HTML:
 
 ```html
 <div class="blob">
@@ -227,7 +227,7 @@ If you look at the code, you’ll notice Chris uses the [<FontIcon icon="iconfo
 }
 ```
 
-However, there is a good reason why those demos stick to white shapes and black backgrounds (or vice versa) since things get unpredictable once colors aren’t contrast-y enough. See it for yourself in the following demo by changing the color. Just be wary: *shades get ugly*.
+However, there is a good reason why those demos stick to white shapes and black backgrounds (or vice versa) since things get unpredictable once colors aren’t contrast-y enough. See it for yourself in the following demo by changing the color. Just be wary: *shades get ugly*.
 
 <CodePen
   user="monknow"
@@ -236,9 +236,9 @@ However, there is a good reason why those demos stick to white shapes and black 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-To solve this, we will use an SVG filter instead. I don’t want to get too technical on SVG (if you want to, read Luca’s post!). In a nutshell, we can apply blurring and contrast filters using SVGs, but now, we can also pick which color channel we apply the contrast to, unlike normal `contrast()`, which modifies all colors.
+To solve this, we will use an SVG filter instead. I don’t want to get too technical on SVG (if you want to, read Luca’s post!). In a nutshell, we can apply blurring and contrast filters using SVGs, but now, we can also pick which color channel we apply the contrast to, unlike normal `contrast()`, which modifies all colors.
 
-Since we want to leave color channels (`R`, `G` and `B`) untouched, we will only crank the contrast up for the alpha channel. That translates to the next SVG filter, which can be embedded in the HTML:
+Since we want to leave color channels (`R`, `G` and `B`) untouched, we will only crank the contrast up for the alpha channel. That translates to the next SVG filter, which can be embedded in the HTML:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="position: absolute;">
@@ -252,7 +252,7 @@ Since we want to leave color channels (`R`, `G` and `B`) untouched, we will o
 </svg>
 ```
 
-To apply it, we will use again `filter`, but this time we’ll set it to `url("#blob")`, so that it pulls the SVG from the HTML.
+To apply it, we will use again `filter`, but this time we’ll set it to `url("#blob")`, so that it pulls the SVG from the HTML.
 
 ```css
 .blob {
@@ -274,7 +274,7 @@ That being said, this approach comes with two small, but important, changes to c
 1. The filter is applied to the parent element, not the individual shapes.
 2. The parent element must be transparent (which is a huge advantage). To change the background color, we can instead change the body or other ancestors’ background, and it will work with no issues.
 
-What’s left is to place the `.subblob` elements together such that they make a blobby enough shape, then apply the SVG filters to morph them:
+What’s left is to place the `.subblob` elements together such that they make a blobby enough shape, then apply the SVG filters to morph them:
 
 <CodePen
   user="monknow"
@@ -285,15 +285,15 @@ What’s left is to place the `.subblob` elements together such that they make
 
 ### Making it one element
 
-This works well, but it has a similar issue to the blob we made by morphing several `border-radius` instances: too many elements for a simple blob. Luckily, we can take advantage of the [<FontIcon icon="iconfont icon-css-tricks"/>`background`](https://css-tricks.com/almanac/properties/b/background/) property to create multiple shapes and morph them together using SVG filters, all in a single element. Since we are keeping it to one element, we will go back to just one empty `.blob` div:
+This works well, but it has a similar issue to the blob we made by morphing several `border-radius` instances: too many elements for a simple blob. Luckily, we can take advantage of the [<FontIcon icon="iconfont icon-css-tricks"/>`background`](https://css-tricks.com/almanac/properties/b/background/) property to create multiple shapes and morph them together using SVG filters, all in a single element. Since we are keeping it to one element, we will go back to just one empty `.blob` div:
 
 ```html
 <div class="blob"></div>
 ```
 
-To recap, the `background` shorthand can set all background properties and also set multiple backgrounds at once. Of all the properties, we only care about the [`background-image`](https://css-tricks.com/almanac/properties/b/background-image/), [`background-position`](https://css-tricks.com/almanac/properties/b/background-position/) and [`background-size`](https://css-tricks.com/almanac/properties/b/background-size/).
+To recap, the `background` shorthand can set all background properties and also set multiple backgrounds at once. Of all the properties, we only care about the [`background-image`](https://css-tricks.com/almanac/properties/b/background-image/), [`background-position`](https://css-tricks.com/almanac/properties/b/background-position/) and [`background-size`](https://css-tricks.com/almanac/properties/b/background-size/).
 
-First, we will use `background-image` along with `radial-gradient()` to create a circle inside the element:
+First, we will use `background-image` along with `radial-gradient()` to create a circle inside the element:
 
 ```css
 body {
@@ -315,7 +315,7 @@ Here is what each parameter does:
 - **`var(--blob-color) 100%`:** Fills the background shape from 0 to 100% with the same color, so it ends up as a solid color.
 - **`#0000`:** After the shape is done, it makes a full stop to transparency, so the color ends.
 
-The next part is moving and resizing the circle using the `background-position` and `background-size` properties. Luckily, both can be set on `background` after the gradient, separated from each other by a forward slash (`/`).
+The next part is moving and resizing the circle using the `background-position` and `background-size` properties. Luckily, both can be set on `background` after the gradient, separated from each other by a forward slash (`/`).
 
 ```css
 body {
@@ -345,7 +345,7 @@ As I mentioned, we can stack up different backgrounds together, which means we c
 }
 ```
 
-What’s even better is that SVG filters don’t care whether shapes are made of elements or backgrounds, so we can also morph them together using the last `url(#blob)` filter!
+What’s even better is that SVG filters don’t care whether shapes are made of elements or backgrounds, so we can also morph them together using the last `url(#blob)` filter!
 
 <CodePen
   user="monknow"
@@ -362,11 +362,11 @@ Again, all these tricks are awesome, but not enough for what we want! We accompl
 
 ## Using the `shape()` function
 
-Fortunately, there is a new way to make blobs that just dropped to CSS: the `shape()` function!
+Fortunately, there is a new way to make blobs that just dropped to CSS: the `shape()` function!
 
-I’ll explain `shape()`‘s syntax briefly, but for an in-depth explanation, you’ll want to check out both [<FontIcon icon="iconfont icon-css-tricks"/>this explainer from the CSS-Tricks Almanac](https://css-tricks.com/almanac/functions/s/shape/) as well as [<FontIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/)‘s three-part [**series on the `shape()` function**](/css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs.md), as well as [**his recent article about blobs**](/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md).
+I’ll explain `shape()`‘s syntax briefly, but for an in-depth explanation, you’ll want to check out both [<FontIcon icon="iconfont icon-css-tricks"/>this explainer from the CSS-Tricks Almanac](https://css-tricks.com/almanac/functions/s/shape/) as well as [<FontIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/)‘s three-part [**series on the `shape()` function**](/css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs.md), as well as [**his recent article about blobs**](/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md).
 
-First off, the CSS `shape()` function is used alongside the [<FontIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property to cut elements into any shape we want. More specifically, it uses a verbal version of SVG’s `path` syntax. The syntax has lots of commands for lots of types of lines, but when blobbing with `shape()`, we’ll define curves using the `curve` command:
+First off, the CSS `shape()` function is used alongside the [<FontIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property to cut elements into any shape we want. More specifically, it uses a verbal version of SVG’s `path` syntax. The syntax has lots of commands for lots of types of lines, but when blobbing with `shape()`, we’ll define curves using the `curve` command:
 
 ```css
 .blob {
@@ -381,11 +381,11 @@ First off, the CSS `shape()` function is used alongside the [<FontIcon icon="
 
 Let’s break down each parameter:
 
-- `X0 Y0` defines the starting point of the shape.
-- `curve` starts the curve where `X1 Y1` is the next point of the shape, while `Xc1 Yc1` defines a control point used in Bézier curves.
-- The next parameter is similar, but we used `Xc21 Yc21 / Xc22 Yc22` instead to define two control points on the Bézier curve.
+- `X0 Y0` defines the starting point of the shape.
+- `curve` starts the curve where `X1 Y1` is the next point of the shape, while `Xc1 Yc1` defines a control point used in Bézier curves.
+- The next parameter is similar, but we used `Xc21 Yc21 / Xc22 Yc22` instead to define two control points on the Bézier curve.
 
-I honestly don’t understand Bézier curves and control points completely, but luckily, we don’t need them to use `shape()` and blobs! Again, `shape()` uses a verbal version of SVG’s `path` syntax, so it can draw any shape an SVG can, which means that we can translate the SVG blobs we generated earlier… and CSS-ify them. To do so, we’ll grab the `d` attribute (which defines the `path`) from our SVG and paste it into Temani’s [<FontIcon icon="fas fa-globe"/>SVG to `shape()` generator](https://css-generators.com/svg-to-css/).
+I honestly don’t understand Bézier curves and control points completely, but luckily, we don’t need them to use `shape()` and blobs! Again, `shape()` uses a verbal version of SVG’s `path` syntax, so it can draw any shape an SVG can, which means that we can translate the SVG blobs we generated earlier… and CSS-ify them. To do so, we’ll grab the `d` attribute (which defines the `path`) from our SVG and paste it into Temani’s [<FontIcon icon="fas fa-globe"/>SVG to `shape()` generator](https://css-generators.com/svg-to-css/).
 
 This is the exact code the tool generated for me:
 
@@ -418,7 +418,7 @@ Let’s check if it passes our requirements:
 
 1. Yes, they can be made of a single element.
 2. Yes, they can also be created in a generator and then translated into CSS.
-3. Yes, we can use gradient backgrounds, but due to the nature of `clip-path()`, borders and shadows get cut out.
+3. Yes, we can use gradient backgrounds, but due to the nature of `clip-path()`, borders and shadows get cut out.
 
 Two out of three? Maybe two and a half of three? That’s a big improvement over the other approaches, even if it’s not perfect.
 

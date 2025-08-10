@@ -100,7 +100,7 @@ The custom configuration provider is a very powerful mechanism. It gives us the 
 
 A file configuration provider is by far the most used one, but there are some cases where we need to use others. It’s not uncommon for developers to work in big development teams on large projects, where even **putting the sensitive information in the apsettings.json file can cause problems for others** and commit rollbacks.
 
-We’ve all been there. Environment variables and user secrets can help us with that.
+We’ve all been there. Environment variables and user secrets can help us with that.
 
 There’s also the issue of [**production environment**](/code-maze.com/multiple-environments-in-asp-net-core.md) configuration values sensitivity. **We just can’t use sensitive information in files in production**. Azure key vault might be just the perfect solution for us in that case.
 

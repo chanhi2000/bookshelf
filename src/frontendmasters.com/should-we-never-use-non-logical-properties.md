@@ -111,12 +111,12 @@ So if we’re setting the size of that image, we’d still use `width` to constr
 
 ::: info [<FontIcon icon="fas fa-globe"/>Roma Komarov says](https://blog.kizu.dev/logical-props/)
 
-> While it might be a good idea to approach CSS with logical keywords first, there are cases where we could want to use physical properties and values. For example, when we want to match something with the positions on an image, which won’t change based on the writing mode.
+> While it might be a good idea to approach CSS with logical keywords first, there are cases where we could want to use physical properties and values. For example, when we want to match something with the positions on an image, which won’t change based on the writing mode.
 
 ```component VPCard
 {
   "title": "Notes on Using Logical Properties and Values",
-  "desc": "Adam Argyle asked today: “is it time to forget about physical properties like margin-top and left?” I have some thoughts occasionally on this, and decided to write them down as a list: maybe I’ll update it later with other related things, we’ll see. At the bottom of this post, I’ll also list several useful resources — don’t forget to check them out!",
+  "desc": "Adam Argyle asked today: “is it time to forget about physical properties like margin-top and left?” I have some thoughts occasionally on this, and decided to write them down as a list: maybe I’ll update it later with other related things, we’ll see. At the bottom of this post, I’ll also list several useful resources — don’t forget to check them out!",
   "link": "https://blog.kizu.dev/logical-props",
   "logo": "https://blog.kizu.dev/logical-props/favicon.svg",
   "background": "rgba(77,196,255,0.2)"
@@ -131,7 +131,7 @@ Miriam once wrote:
 
 ::: info A long-term plan for logical properties? (<FontIcon icon="fas fa-globe"/><code>miriamsuzanne.com</code>)
 
-> It’s not *bad* to use the physical properties sometimes, when they best express the design intent, but they shouldn’t be encouraged as the default choice.
+> It’s not *bad* to use the physical properties sometimes, when they best express the design intent, but they shouldn’t be encouraged as the default choice.
 > 
 
 <SiteInfo

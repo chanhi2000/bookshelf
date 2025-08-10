@@ -131,7 +131,7 @@ foreach (int number in numbers)
 }
 ```
 
-`AddRange` adds the elements of the specified collection to the end of a list:
+`AddRange` adds the elements of the specified collection to the end of a list:
 
 ```cs
 List<int> numbers = new List<int>();
@@ -149,7 +149,7 @@ foreach (int number in numbers)
 }
 ```
 
-`Contains` determines whether an element exists in the list:
+`Contains` determines whether an element exists in the list:
 
 ```cs
 if(numbers.Contains(34))
@@ -254,9 +254,9 @@ foreach (var item in dictExample)
 }
 ```
 
-`ContainsKey` determines if a collection contains a specific key.
+`ContainsKey` determines if a collection contains a specific key.
 
-`ContainsValue` determines if a collection contains a specific value:
+`ContainsValue` determines if a collection contains a specific value:
 
 ```cs
 if(dictExample.ContainsKey("First"))

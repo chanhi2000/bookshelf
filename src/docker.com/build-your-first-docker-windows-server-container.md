@@ -76,7 +76,7 @@ Switch to Windows containers and skip the next section.
 
 Windows Server 2016 is the where Docker Windows containers should be deployed for production. For developers planning to do lots of Docker Windows container development, it may also be worth setting up a Windows Server 2016 dev system (in a VM, for example), at least until Windows 10 and Docker for Windows support for Windows containers matures.
 
-For Microsoft Ignite 2016 conference attendees, USB flash drives with Windows Server 2016 preloaded are available at the expo. Not at ignite? [<FontIcon icon="fa-brands fa-microsoft"/>Download a free evaluation version](https://microsoft.com/en-us/evalcenter/evaluate-windows-server-2016) and install it on bare metal or in a VM running on Hyper-V, VirtualBox or similar. Running a VM with Windows Server 2016 is also a great way to do Docker Windows container development on macOS and older Windows versions.
+For Microsoft Ignite 2016 conference attendees, USB flash drives with Windows Server 2016 preloaded are available at the expo. Not at ignite? [<FontIcon icon="fa-brands fa-microsoft"/>Download a free evaluation version](https://microsoft.com/en-us/evalcenter/evaluate-windows-server-2016) and install it on bare metal or in a VM running on Hyper-V, VirtualBox or similar. Running a VM with Windows Server 2016 is also a great way to do Docker Windows container development on macOS and older Windows versions.
 
 Once Windows Server 2016 is running, log in, run *Windows Update to ensure you have all the latest updates* and install the Windows-native Docker Engine directly (that is, not using “Docker for Windows”). Run the following in an Administrative PowerShell prompt:
 
@@ -118,21 +118,21 @@ First, make sure the Docker installation is working:
 docker version
 # 
 # Client:
-# Version:      1.12.1
-# API version:  1.24
-# Go version:   go1.6.3
-# Git commit:   23cf638
-# Built:        Thu Aug 18 17:32:24 2016
-# OS/Arch:      windows/amd64
+# Version:      1.12.1
+# API version:  1.24
+# Go version:   go1.6.3
+# Git commit:   23cf638
+# Built:        Thu Aug 18 17:32:24 2016
+# OS/Arch:      windows/amd64
 # Experimental: true
 # 
 # Server:
-# Version:      1.12.2-cs2-ws-beta
-# API version:  1.25
-# Go version:   go1.7.1
-# Git commit:   62d9ff9
-# Built:        Fri Sep 23 20:50:29 2016
-# OS/Arch:      windows/amd64
+# Version:      1.12.2-cs2-ws-beta
+# API version:  1.25
+# Go version:   go1.7.1
+# Git commit:   62d9ff9
+# Built:        Fri Sep 23 20:50:29 2016
+# OS/Arch:      windows/amd64
 ```
 
 Next, pull a base image that’s compatible with the evaluation build, re-tag it and to a test-run:

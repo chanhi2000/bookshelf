@@ -106,15 +106,15 @@ For more details about how and when to enable caching, and what’s going on und
 
 A defining characteristic of containers is isolation: by default, many parts of the execution environment of a container are isolated both from other containers and from the host system. In the filesystem, isolation shows up as layering: the filesystem of a running container consists of a series of [<FontIcon icon="fa-brands fa-docker"/>incremental layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-layers), topped by a container-specific read/write layer that keeps changes made within the container concealed from the outside world.
 
-Isolation as a default encourages careful thinking about the best way to bypass isolation in order to share data with a container. For data-in-motion, Docker offers a [<FontIcon icon="fa-brands fa-docker"/>variety of ways](httuser-guided-caching-in-docker-for-mac.html.vueps://docs.docker.com/engine/userguide/networking/#default-networks) to connect containers via the network. For data-at-rest, [<FontIcon icon="fa-brands fa-docker"/>Docker Volumes](https://docs.docker.com/engine/tutorials/dockervolumes/) offer a flexible mechanism to share data between containers, and with the host.
+Isolation as a default encourages careful thinking about the best way to bypass isolation in order to share data with a container. For data-in-motion, Docker offers a [<FontIcon icon="fa-brands fa-docker"/>variety of ways](httuser-guided-caching-in-docker-for-mac.html.vueps://docs.docker.com/engine/userguide/networking/#default-networks) to connect containers via the network. For data-at-rest, [<FontIcon icon="fa-brands fa-docker"/>Docker Volumes](https://docs.docker.com/engine/tutorials/dockervolumes/) offer a flexible mechanism to share data between containers, and with the host.
 
-The simplest and most common way to use volumes is to bind-mount a host directory when starting a container — that is, to make the directory available at a specified point in the container’s filesystem. For example, the following command runs the `alpine` image, exposing the host directory <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` within the container as <FontIcon icon="fas fa-folder-open"/>`/project`:
+The simplest and most common way to use volumes is to bind-mount a host directory when starting a container — that is, to make the directory available at a specified point in the container’s filesystem. For example, the following command runs the `alpine` image, exposing the host directory <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` within the container as <FontIcon icon="fas fa-folder-open"/>`/project`:
 
 ```sh
 docker run -v /Users/yallop/project:/project:cached alpine command
 ```
 
-In this example, modifications to files under <FontIcon icon="fas fa-folder-open"/>`/project` in the container appear as modifications to the corresponding files under <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` on the host. Similarly, modifications to files under <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` on the host appear as modifications to files under /project in the container.
+In this example, modifications to files under <FontIcon icon="fas fa-folder-open"/>`/project` in the container appear as modifications to the corresponding files under <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` on the host. Similarly, modifications to files under <FontIcon icon="fas fa-folder-open"/>`/Users/yallop/project` on the host appear as modifications to files under /project in the container.
 
 There are many use cases for bind mounting. For example, you might
 
@@ -132,11 +132,11 @@ On Linux, bind-mounting a directory, like many Docker features, simply selective
 
 ### Bind mounts on Docker for Mac
 
-The Linux kernel makes container-style isolation efficient, but running containers on Docker editions for non-Linux operating systems such as [<FontIcon icon="fa-brands fa-docker"/>macOS](https://store.docker.com/editions/community/docker-ce-desktop-mac) involves several additional moving parts that carry additional overhead.
+The Linux kernel makes container-style isolation efficient, but running containers on Docker editions for non-Linux operating systems such as [<FontIcon icon="fa-brands fa-docker"/>macOS](https://store.docker.com/editions/community/docker-ce-desktop-mac) involves several additional moving parts that carry additional overhead.
 
 Docker containers run on top of a Linux kernel, and so the Docker for Mac container runtime system runs a minimal Linux instance using the [HyperKit (<FontIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit) framework. Containers running on top of the Linux system cannot directly access macOS filesystem or networking resources, and so Docker for Mac includes libraries that expose those resources in a way that the Docker engine can consume.
 
-Access to filesystem resources is provided by a separate non-privileged macOS process ([<FontIcon icon="fa-brands fa-docker"/>osxfs](https://docs.docker.com/docker-for-mac/osxfs/)) that communicates with a daemon (“transfused”) running on the virtualized Linux. A Linux system call such as `open` or `read` that accesses bind-mounted files in a container must be.
+Access to filesystem resources is provided by a separate non-privileged macOS process ([<FontIcon icon="fa-brands fa-docker"/>osxfs](https://docs.docker.com/docker-for-mac/osxfs/)) that communicates with a daemon (“transfused”) running on the virtualized Linux. A Linux system call such as `open` or `read` that accesses bind-mounted files in a container must be.
 
 - turned into a FUSE message in the Linux VFS
 - proxied over a virtio socket by transfused
@@ -145,7 +145,7 @@ Access to filesystem resources is provided by a separate non-privileged macOS pr
 
 The entire process then takes place in reverse to return the result of the macOS system call to the container.
 
-Each step in the process is fairly efficient, making the total round trip time around 100 microseconds. However, some software, written under the usually-correct assumption that system calls are instantaneous, can perform [tens of thousands of system calls (<FontIcon icon="iconfont icon-github"/>`nodejs/node`)](https://github.com/nodejs/node/pull/10253) for each user-facing operation. Even a comparatively low overhead can become [irksome (<FontIcon icon="iconfont icon-github"/>`docker/for-mac`)](https://github.com/docker/for-mac/issues/77) when scaled up by four orders of magnitude. Consequently, although syscall latency has been reduced several times since the initial release of Docker for Mac, and although a few opportunities for further reducing latency remain, optimizing latency alone will not completely address bind mount performance for all applications.
+Each step in the process is fairly efficient, making the total round trip time around 100 microseconds. However, some software, written under the usually-correct assumption that system calls are instantaneous, can perform [tens of thousands of system calls (<FontIcon icon="iconfont icon-github"/>`nodejs/node`)](https://github.com/nodejs/node/pull/10253) for each user-facing operation. Even a comparatively low overhead can become [irksome (<FontIcon icon="iconfont icon-github"/>`docker/for-mac`)](https://github.com/docker/for-mac/issues/77) when scaled up by four orders of magnitude. Consequently, although syscall latency has been reduced several times since the initial release of Docker for Mac, and although a few opportunities for further reducing latency remain, optimizing latency alone will not completely address bind mount performance for all applications.
 
 ### File sharing design constraints under Docker for Mac
 
@@ -188,7 +188,7 @@ docker run -v /Users/yallop/project:/project:cached \
 alpine command
 ```
 
-The [osxfs documentation](https://docs.docker.com/docker-for-mac/osxfs/) has more details about the guarantees provided by *consistent* and *cached*.  On Linux, where full consistency comes for free, *cached* behaves identically to *consistent.*
+The [osxfs documentation](https://docs.docker.com/docker-for-mac/osxfs/) has more details about the guarantees provided by *consistent* and *cached*.  On Linux, where full consistency comes for free, *cached* behaves identically to *consistent.*
 
 ---
 

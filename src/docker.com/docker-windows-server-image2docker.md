@@ -82,7 +82,7 @@ The recording clocks in at just under an hour. Here’s what we covered:
 
 ## Q&A
 
-::: details Can these \[Windows\] containers be hosted on a Linux host?
+::: details Can these \[Windows\] containers be hosted on a Linux host?
 
 No. Docker containers use the underlying operating system kernel to run processes, so you can’t mix and match kernels. You can only run Windows Docker images on Windows, and Linux Docker images on Linux.
 
@@ -116,11 +116,11 @@ Windows admins will want a unified platform for managing images and containers. 
 
 Docker containers have a different life cycle from full VMs or bare-metal servers. You wouldn’t deploy an app update or a Windows update inside a running container – instead you update the image that packages your app, then just kill the container and start a new container from the updated image.
 
-Microsoft are supporting that workflow with the two Windows base images on Docker Hub – for [Windows Server Core (<FontIcon icon="fa-brands fa-docker"/>`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/) and [Nano Server (<FontIcon icon="fa-brands fa-docker"/>`microsoft/nanoserver`)](https://hub.docker.com/r/microsoft/nanoserver/). They are following a monthly release cycle, and each release adds an incremental update with new patches and security updates.
+Microsoft are supporting that workflow with the two Windows base images on Docker Hub – for [Windows Server Core (<FontIcon icon="fa-brands fa-docker"/>`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/) and [Nano Server (<FontIcon icon="fa-brands fa-docker"/>`microsoft/nanoserver`)](https://hub.docker.com/r/microsoft/nanoserver/). They are following a monthly release cycle, and each release adds an incremental update with new patches and security updates.
 
 :::
 
-For your own applications, you would aim to have the same deployment schedule – after a new release of the Windows base image, you would rebuild your application images and deploy new containers. All this can be automated, so it’s much faster and more reliable than manual patching. [<FontIcon icon="fa-brands fa-docker"/>Docker Captain](https://docker.com/community/docker-captains) Stefan Scherer has a great blog post on [<FontIcon icon="fas fa-globe"/>keeping your Windows containers up to date](https://stefanscherer.github.io/keep-your-windows-containers-up-to-date/).
+For your own applications, you would aim to have the same deployment schedule – after a new release of the Windows base image, you would rebuild your application images and deploy new containers. All this can be automated, so it’s much faster and more reliable than manual patching. [<FontIcon icon="fa-brands fa-docker"/>Docker Captain](https://docker.com/community/docker-captains) Stefan Scherer has a great blog post on [<FontIcon icon="fas fa-globe"/>keeping your Windows containers up to date](https://stefanscherer.github.io/keep-your-windows-containers-up-to-date/).
 
 ---
 

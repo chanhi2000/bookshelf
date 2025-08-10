@@ -17,9 +17,13 @@ head:
       content: Summary
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/summary.html
-date: 2024-01-08
+next: /freecodecamp.org/gitting-things-done-book/README.md#appendixes
+date: 2024-01-09
 isOriginal: false
-cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png
+author:
+  - name: Omer Rosenbaum
+    url : https://freecodecamp.org/news/author/omerros/
+cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -43,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
   desc="Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us..."
   url="https://freecodecamp.org/news/gitting-things-done-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
-  preview="https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png"/>
+  preview="https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png"/>
 
 Well, this was FUN!
 

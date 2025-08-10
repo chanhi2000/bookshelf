@@ -129,7 +129,7 @@ That being said, we can see that the following statement will throw an error:
 
 ![nullable type error - Anonymous and Nullable types in C#](/assets/image/code-maze.com/csharp-anonymous-nullable-types/09-Nullable_Error.png)
 
-However, C# provides us with a modifier that we can use to declare a value type as a nullable value type. We can use the `?` sign to indicate that value type is nullable:
+However, C# provides us with a modifier that we can use to declare a value type as a nullable value type. We can use the `?` sign to indicate that value type is nullable:
 
 ```cs
 int? number = null;
