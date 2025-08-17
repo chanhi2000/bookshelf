@@ -110,7 +110,7 @@ But computers don’t store code points directly. They store bytes, the 1s and 0
 
 ### What Are Unicode Encodings?
 
-Unicode gives every character a unique code point, but computers don’t store “U+1F600” directly – they store bytes. To convert these code points into bytes that computers can save or transmit, we need encodings.
+Unicode gives every character a unique code point, but computers don’t store “U+1F600” directly - they store bytes. To convert these code points into bytes that computers can save or transmit, we need encodings.
 
 There are three main ways to turn Unicode code points into bytes:
 
@@ -192,7 +192,7 @@ document.getElementById("greeting").textContent = "Bonjour, мир!";
 
 Before Unicode, developers had to juggle different encodings like ASCII, which often led to corrupted text when files moved between systems. Now, thanks to Unicode, most languages, including Java, C#, Ruby, Go, and Rust, handle international text gracefully by default.
 
-This shift means developers can write apps that support global users from day one. Whether you’re building a chat app, an international e-commerce site, or a multilingual blog – with Unicode, your code speaks every language.
+This shift means developers can write apps that support global users from day one. Whether you’re building a chat app, an international e-commerce site, or a multilingual blog - with Unicode, your code speaks every language.
 
 ---
 
@@ -216,7 +216,7 @@ That’s why your favourite facepalm emoji or regional script exists. Someone pr
 
 Unicode isn’t just a technical convenience. It plays a direct role in how people engage with content.
 
-Pages with broken symbols or unreadable characters had significantly lower engagement rates compared to cleanly rendered ones. It was a clear signal that readability isn’t just about aesthetics – it affects how long people stay and interact with your content.
+Pages with broken symbols or unreadable characters had significantly lower engagement rates compared to cleanly rendered ones. It was a clear signal that readability isn’t just about aesthetics - it affects how long people stay and interact with your content.
 
 That’s why even small encoding errors can have a real impact, especially on multilingual platforms or international blogs. Unicode silently keeps everything running smoothly.
 

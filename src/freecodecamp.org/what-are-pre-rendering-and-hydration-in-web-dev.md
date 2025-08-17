@@ -78,7 +78,7 @@ To understand these concepts, we need to explore why they were created and what 
 
 ## Web Development in the Past: Traditional Server-Side Rendering
 
-Back in the days of traditional server-side rendering, rendering and interactivity were separated. We used server-side languages like [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en), [<FontIcon icon="fa-brands fa-php"/>PHP](https://php.net/), [<FontIcon icon="fa-brands fa-java"/>Java](https://java.com/en/), and [<FontIcon icon="iconfont icon-ruby"/>Ruby on Rails](https://rubyonrails.org/).
+Back in the days of traditional server-side rendering, rendering and interactivity were separated. We used server-side languages like [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en), [<FontIcon icon="fa-brands fa-php"/>PHP](https://php.net/), [<FontIcon icon="fa-brands fa-java"/>Java](https://java.com/en/), and [<FontIcon icon="iconfont icon-rails"/>Ruby on Rails](https://rubyonrails.org/).
 
 Within our servers, we created **views** using templating languages like [<FontIcon icon="fa-brands fa-wikipedia-w"/>JSP](https://en.wikipedia.org/wiki/Jakarta_Server_Pages) and [EJS](https://ejs.co/). Views are HTML pages, and you could inject JavaScript or Java inside them to add functionality, dynamic data retrieved from database queries, and interactive segments with languages like [<FontIcon icon="iconfont icon-jquery"/>JQuery](https://jquery.com/).
 
@@ -412,7 +412,7 @@ Everything we have discussed is what all these frameworks focus on.
 
 Static-Site Generation and Server-Side Rendering can be implemented using Gatsby.js, Next.js, and Remix. They focus on creating a pre-render HTML ready for the user to see, then initiate Hydration to add interactivity to the app.
 
-Gatsby.js, Next.js, and Remix do not replace the concept of single-page applications – they add to the process. Take a look at this flow:
+Gatsby.js, Next.js, and Remix do not replace the concept of single-page applications - they add to the process. Take a look at this flow:
 
 ![Pre-rendering and Single Page Application combined flow. (Source: How NextJS REALLY Works)](https://cdn.hashnode.com/res/hashnode/image/upload/v1725556321232/7d8629fd-b528-4cd7-9bc2-7de0bf1ab630.png?auto=compress,format&format=webp)
 

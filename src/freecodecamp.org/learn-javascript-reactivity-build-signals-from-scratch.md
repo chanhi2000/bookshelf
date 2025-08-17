@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/Frame-1--
 
 <SiteInfo
   name="Learn JavaScript Reactivity: How to Build Signals from Scratch"
-  desc="If you're learning JavaScript, you may have heard the terms reactivity or signals. But perhaps you haven't gotten to use them in practice yet. If so – or if you just want to learn more about these concepts – you're in the right place.  In this article, you'll learn..."
+  desc="If you're learning JavaScript, you may have heard the terms reactivity or signals. But perhaps you haven't gotten to use them in practice yet. If so - or if you just want to learn more about these concepts - you're in the right place.  In this article, you'll learn..."
   url="https://freecodecamp.org/news/learn-javascript-reactivity-build-signals-from-scratch/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/07/Frame-1--1-.svg"/>

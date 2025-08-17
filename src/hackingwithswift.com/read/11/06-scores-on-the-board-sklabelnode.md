@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -173,7 +173,7 @@ if objects.contains(editLabel) {
 
 The `// create a ball` comment is where your current ball creation code goes. The `// create a box` comment is what we're going to write in just a moment.
 
-First, we're going to use a new property on nodes called `zRotation`. When creating the background image, we gave it a Z position, which adjusts its depth on the screen, front to back. If you imagine sticking a skewer through the Z position – i.e., going directly into your screen – and through a node, then you can imagine Z rotation: it rotates a node on the screen as if it had been skewered straight through the screen.
+First, we're going to use a new property on nodes called `zRotation`. When creating the background image, we gave it a Z position, which adjusts its depth on the screen, front to back. If you imagine sticking a skewer through the Z position - i.e., going directly into your screen - and through a node, then you can imagine Z rotation: it rotates a node on the screen as if it had been skewered straight through the screen.
 
 To create randomness we’re going to be using both `Int.random(in:)` for integer values and `CGFloat.random(in:)` for `CGFloat` values, with the latter being used to create random red, green, and blue values for a `UIColor`. So, replace the `// create a box` comment with this:
 
@@ -191,7 +191,7 @@ addChild(box)
 
 So, we create a size with a height of 16 and a width between 16 and 128, then create an `SKSpriteNode` with the random size we made along with a random color, then give the new box a random rotation and place it at the location that was tapped on the screen. For a physics body, it's just a rectangle, but we need to make it non-dynamic so the boxes don't move when hit.
 
-At this point, we almost have a game: you can tap Edit, place as many blocks as you want, then tap Done and try to score by dropping balls. It's not perfect because we don't force the Y position of new balls to be the top of the screen, but that's something you can fix yourself – how else would you learn, right?
+At this point, we almost have a game: you can tap Edit, place as many blocks as you want, then tap Done and try to score by dropping balls. It's not perfect because we don't force the Y position of new balls to be the top of the screen, but that's something you can fix yourself - how else would you learn, right?
 
 ![Once the edit button has been tapped, users can create as many obstacles as they want.](https://hackingwithswift.com/img/books/hws/11-3@2x.png)
 

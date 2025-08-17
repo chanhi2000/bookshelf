@@ -47,12 +47,12 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c996b740569d1a4ca1f9c.jpg
 
 <SiteInfo
   name="How to Write a Developer Résumé Hiring Managers Will Actually Read"
-  desc="By Megan Kaczanowski Résumés are hard. And most people are bad at them – which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.  On..."
+  desc="By Megan Kaczanowski Résumés are hard. And most people are bad at them - which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.  On..."
   url="https://freecodecamp.org/news/how-to-write-a-resume-that-works"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn-media-2.freecodecamp.org/w1280/5f9c996b740569d1a4ca1f9c.jpg"/>
 
-Résumés are hard. And most people are bad at them – which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.
+Résumés are hard. And most people are bad at them - which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.
 
 On top of this, it's difficult to figure out how to sort through all the advice on the internet in order to figure out which is the good advice.
 
@@ -118,7 +118,7 @@ You don't have to include every job you've ever had, just the most relevant ones
 
 ## Make sure that your bullet points reflect achievements, not duties
 
-**This is the most important thing to do in a résumé** – and the thing that separates good résumés from great ones.
+**This is the most important thing to do in a résumé** - and the thing that separates good résumés from great ones.
 
 Many people list the things that they've done at a job - for example "wrote code for x software", "debugged y project in C++", and so on.
 
@@ -126,7 +126,7 @@ Instead, you want to list what your accomplishment was, or how you performed job
 
 Ideally, you can demonstrate this via quantifiable results (like "reduced average help desk ticket response time by 25%") with some type of measure or metric which demonstrates how well you performed your duties.
 
-If that isn't possible, you can still describe results (for example, "became the subject matter expert in Y"). This should be the most important part of your résumé – ensuring that your bullet points accurately describe the results you delivered in your role.
+If that isn't possible, you can still describe results (for example, "became the subject matter expert in Y"). This should be the most important part of your résumé - ensuring that your bullet points accurately describe the results you delivered in your role.
 
 One formula you can use for this is to say "[action verb such as created, wrote, developed] [product], using [highlight the language or tool you've used], in order to achieve [result]."
 
@@ -150,7 +150,7 @@ Some organizations will also filter résumés using automated keyword searches (
 
 ## Don't include subjective traits in your résumé
 
-Things like 'strong leader', 'team player' or 'critical thinker' are things that a potential employer should be able to infer from your experience – not something you explicitly tell them.
+Things like 'strong leader', 'team player' or 'critical thinker' are things that a potential employer should be able to infer from your experience - not something you explicitly tell them.
 
 In addition, because these are entirely subjective traits that most people will claim to have, the statements are essentially meaningless. Most employers will entirely disregard these types of assessments.
 
@@ -158,7 +158,7 @@ In addition, because these are entirely subjective traits that most people will 
 
 ## Include personal projects
 
-If you've worked hard on a website/game/project – even if it was not for work or school – those projects are great places to showcase your talents. (Particularly if they're included in your GitHub, which you should include a link to).
+If you've worked hard on a website/game/project - even if it was not for work or school - those projects are great places to showcase your talents. (Particularly if they're included in your GitHub, which you should include a link to).
 
 If the project shows off skills which aren't present in another area of your résumé, list them!
 
@@ -228,7 +228,7 @@ Cover letters are a way that you can stand out from your competition and show th
 
 This is more important to some organizations than others (FAANG companies typically won't care). But a great cover letter will never hurt your chances of being hired, only help them.
 
-It can also be a helpful exercise for you – it gives you the chance to think about and articulate why you're interested in working for this company. So when you're asked in an interview "why this organization?" you have an answer readily available.
+It can also be a helpful exercise for you - it gives you the chance to think about and articulate why you're interested in working for this company. So when you're asked in an interview "why this organization?" you have an answer readily available.
 
 Good luck with the job hunt, and don't let yourself get discouraged.
 
@@ -251,7 +251,7 @@ Here are some other popular articles with résumé advice from freeCodeCamp auth
 ```component VPCard
 {
   "title": "How to Write a Developer Résumé Hiring Managers Will Actually Read",
-  "desc": "By Megan Kaczanowski Résumés are hard. And most people are bad at them – which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.  On...",
+  "desc": "By Megan Kaczanowski Résumés are hard. And most people are bad at them - which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.  On...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-resume-that-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

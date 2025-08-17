@@ -74,7 +74,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-a-timer-with-swiftui-1~dark.mp4" />
 
-It's important to use `.main` for the runloop option, because our timer will update the user interface. As for the `.common` mode, that allows the timer to run alongside other common events – for example, if the text was in a scroll view that was moving.
+It's important to use `.main` for the runloop option, because our timer will update the user interface. As for the `.common` mode, that allows the timer to run alongside other common events - for example, if the text was in a scroll view that was moving.
 
 As you can see, the `onReceive()` closure gets passed in some input containing the current date. In the code above we assign that straight to `currentDate`, but you could use it to calculate how much time has passed since a previous date.
 

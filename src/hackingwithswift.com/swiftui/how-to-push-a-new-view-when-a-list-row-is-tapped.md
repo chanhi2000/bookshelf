@@ -60,7 +60,7 @@ There are two ways of specifying a navigation destination: by providing one expl
 
 ::: important
 
-If you can – if you don't need highly custom navigation and you're able to target iOS 16 or later – using `navigationDestination()` is strongly preferred, because it allows SwiftUI to instantiate your destination views lazily.
+If you can - if you don't need highly custom navigation and you're able to target iOS 16 or later - using `navigationDestination()` is strongly preferred, because it allows SwiftUI to instantiate your destination views lazily.
 
 :::
 

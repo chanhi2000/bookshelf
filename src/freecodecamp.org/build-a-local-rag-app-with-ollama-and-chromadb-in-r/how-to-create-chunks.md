@@ -68,7 +68,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744638731389/83993a5
 
 To understand why chunking is important before embedding, you need to understand what an embedding is.
 
-An embedding is a vectoral representation of a word or a sentence. Machines don’t understand human text – they understand numbers. LLMs work by transforming human text to numerical representations in order to give answers. The process of generating embeddings requires a lot of computation, and breaking down the data to be embedded optimizes the embedding process.
+An embedding is a vectoral representation of a word or a sentence. Machines don’t understand human text - they understand numbers. LLMs work by transforming human text to numerical representations in order to give answers. The process of generating embeddings requires a lot of computation, and breaking down the data to be embedded optimizes the embedding process.
 
 So now we’re going to split the dataframe into smaller chunks of a specified size to enable efficient batch processing and iteration.
 

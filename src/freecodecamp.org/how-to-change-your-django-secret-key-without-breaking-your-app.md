@@ -56,7 +56,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745592003292/023f4dd
 
 If you're working on a Django project, you've probably come across the `SECRET_KEY` in your settings file. It might seem like just another line of code, but it's one of the most important pieces of your project.
 
-`SECRET_KEY` keeps your app secure by signing cookies, passwords, and other sensitive data. And if it ever gets exposed or leaked – yeah, that’s a problem.
+`SECRET_KEY` keeps your app secure by signing cookies, passwords, and other sensitive data. And if it ever gets exposed or leaked - yeah, that’s a problem.
 
 Changing your Django `SECRET_KEY` is something you should do carefully. Maybe your key was committed to GitHub (we’ve all been there), or you just want to refresh it for better security.
 
@@ -86,7 +86,7 @@ If someone gets access to your `SECRET_KEY`, they could potentially:
 - Reset passwords or tamper with signed data
 - Compromise the entire app
 
-So yeah – it’s kind of a big deal.
+So yeah - it’s kind of a big deal.
 
 ---
 

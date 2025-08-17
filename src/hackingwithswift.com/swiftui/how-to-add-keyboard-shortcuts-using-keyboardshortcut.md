@@ -65,7 +65,7 @@ Button("Log in") {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-add-keyboard-shortcuts-using-keyboardshortcut-1.zip)
 
-Note that we don't need to specify that we mean <kbd>Cmd</kbd>+<kbd>L</kbd>, because SwiftUI assumes the Command key is used unless we specify otherwise. If you run that code sample on an iPad, you'll see that holding down the <kbd>Cmd</kbd> key brings up the keyboard shortcuts overlay, showing <kbd>“Cmd</kbd>+<kbd>L</kbd> Login” already – SwiftUI automatically figured out what our button did and made it available.
+Note that we don't need to specify that we mean <kbd>Cmd</kbd>+<kbd>L</kbd>, because SwiftUI assumes the Command key is used unless we specify otherwise. If you run that code sample on an iPad, you'll see that holding down the <kbd>Cmd</kbd> key brings up the keyboard shortcuts overlay, showing <kbd>“Cmd</kbd>+<kbd>L</kbd> Login” already - SwiftUI automatically figured out what our button did and made it available.
 
 ![The words “Log in” in blue, indicating they are tappable. Below that is iPadOS's command palette showing the Log In command has the <kbd>Cmd</kbd>+<kbd>L</kbd> shortcut.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-keyboard-shortcuts-using-keyboardshortcut-1~dark.png)
 
@@ -91,7 +91,7 @@ VStack {
 
 That shows you how to select one custom modifier, and how to select several modifiers at the same time.
 
-The third and final way to use `keyboardShortcut()` is with one of its built-in keys, which are useful for hard to type keys such as Escape and arrows, and also for *semantic* keys, such as a cancellation action and a default action. Semantic keys are *really* useful – every time you've pressed Return to accept the default action of an alert, or pressed Escape to cancel an action, you've used semantic keys.
+The third and final way to use `keyboardShortcut()` is with one of its built-in keys, which are useful for hard to type keys such as Escape and arrows, and also for *semantic* keys, such as a cancellation action and a default action. Semantic keys are *really* useful - every time you've pressed Return to accept the default action of an alert, or pressed Escape to cancel an action, you've used semantic keys.
 
 So, this creates a button with a default action shortcut, meaning that pressing Return will trigger it:
 

@@ -54,7 +54,7 @@ In this article I'm going to introduce you to the fundamentals of the Swift prog
 
 This article is aimed at two kinds of people: folks who have completed the introduction to my 100 Days of SwiftUI course and are looking for a quick review, and folks who are experienced with other languages and want to transfer their skills over to Swift.
 
-We're going to move fast because this is designed to be a primer – if you find yourself struggling to understand something, visit the [100 Days of SwiftUI](https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui) to complete the longer, more detailed introduction there.
+We're going to move fast because this is designed to be a primer - if you find yourself struggling to understand something, visit the [100 Days of SwiftUI](https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui) to complete the longer, more detailed introduction there.
 
 Let's get to it!
 
@@ -254,7 +254,7 @@ print(colors[0])
 print(readings[2])
 ```
 
-Tip: Make sure an item exists at the index you're asking for, otherwise your code will crash – your app will just stop working.
+Tip: Make sure an item exists at the index you're asking for, otherwise your code will crash - your app will just stop working.
 
 If your array is variable, you can use `append()` to add new items:
 
@@ -328,7 +328,7 @@ Adding items to a set is done by calling its `insert()` method, like this:
 numbers.insert(10)
 ```
 
-Sets have one big advantage over arrays: using `contains()` on a set is effectively instant no matter how many items the set contains – even a set with 10,000,000 items will respond instantly.
+Sets have one big advantage over arrays: using `contains()` on a set is effectively instant no matter how many items the set contains - even a set with 10,000,000 items will respond instantly.
 
 :::
 
@@ -764,7 +764,7 @@ let sayHello = {
 sayHello()
 ```
 
-In that code, `sayHello` is a closure – a chunk of code we can pass around and call whenever we want. If you want the closure to accept parameters, they must be written inside the braces:
+In that code, `sayHello` is a closure - a chunk of code we can pass around and call whenever we want. If you want the closure to accept parameters, they must be written inside the braces:
 
 ```swift
 let sayHello = { (name: String) -> String in
@@ -772,7 +772,7 @@ let sayHello = { (name: String) -> String in
 }
 ```
 
-The `in` is used to mark the end of the parameters and return type – everything after that is the body of the closure itself.
+The `in` is used to mark the end of the parameters and return type - everything after that is the body of the closure itself.
 
 Closures are used extensively in Swift. For example, there's an array method called `filter()` that runs all elements of the array through a test, and any that return true for the test get returned in a new array.
 
@@ -786,7 +786,7 @@ let onlyT = team.filter({ (name: String) -> Bool in
 })
 ```
 
-Inside the closure we list the parameter `filter()` passes us, which is a string from the array. We also say that our closure returns a Boolean, then mark the start of the closure's code by using `in` – after that, everything else is normal function code.
+Inside the closure we list the parameter `filter()` passes us, which is a string from the array. We also say that our closure returns a Boolean, then mark the start of the closure's code by using `in` - after that, everything else is normal function code.
 
 :::
 
@@ -869,7 +869,7 @@ print(red.title)
 red.printSummary()
 ```
 
-When we create instances of structs we do so using an _initializer_ – Swift lets us treat our struct like a function, passing in parameters for each of its properties. It silently generates this _memberwise initializer_ based on the struct's properties.
+When we create instances of structs we do so using an _initializer_ - Swift lets us treat our struct like a function, passing in parameters for each of its properties. It silently generates this _memberwise initializer_ based on the struct's properties.
 
 If you want to have a struct's method change one of its properties, mark it as _mutating_:
 
@@ -1113,7 +1113,7 @@ print(singer1.name)
 print(singer2.name)
 ```
 
-That will print “Justin” for both – even though we only changed one of them, the other also changed. In comparison, struct copies _don't_ share their data.
+That will print “Justin” for both - even though we only changed one of them, the other also changed. In comparison, struct copies _don't_ share their data.
 
 The fourth difference is that classes can have a _deinitializer_ that gets called when the last reference to an object is destroyed.
 
@@ -1172,7 +1172,7 @@ protocol Vehicle {
 }
 ```
 
-That lists the required methods for this protocol to work, but doesn't contain any code – we're specifying only method names, parameters, and return types.
+That lists the required methods for this protocol to work, but doesn't contain any code - we're specifying only method names, parameters, and return types.
 
 Once you have a protocol you can make data types conform to it by implementing the required functionality. For example, we could make a `Car` struct that conforms to `Vehicle`:
 
@@ -1323,7 +1323,7 @@ This approach means we can list required methods in a protocol, then add default
 
 ::: details Optionals
 
-Optionals represent the absence of data – for example, they distinguish between an integer having the value 0, and having no value at all.
+Optionals represent the absence of data - for example, they distinguish between an integer having the value 0, and having no value at all.
 
 To see optionals in action, think about this code:
 
@@ -1338,9 +1338,9 @@ let peachOpposite = opposites["Peach"]
 
 That attempts to read the value attached to the key “Peach”, which doesn't exist, so this can't be a regular string. Swift's solution is called _optionals_, which means data that might be present or might not.
 
-An optional string might have a string waiting inside for us, or there might be nothing at all – a special value called `nil`, that means “no value”. Any kind of data can be optional, including `Int`, `Double`, and `Bool`, as well as instances of enums, structs, and classes.
+An optional string might have a string waiting inside for us, or there might be nothing at all - a special value called `nil`, that means “no value”. Any kind of data can be optional, including `Int`, `Double`, and `Bool`, as well as instances of enums, structs, and classes.
 
-Swift won't let us use optional data directly, because it might be empty. That means we need to _unwrap_ the optional to use it – we need to look inside to see if there's a value, and, if there is, take it out and use it.
+Swift won't let us use optional data directly, because it might be empty. That means we need to _unwrap_ the optional to use it - we need to look inside to see if there's a value, and, if there is, take it out and use it.
 
 Swift gives us several ways of unwrapping optionals, but the one you'll see most looks like this:
 
@@ -1350,7 +1350,7 @@ if let marioOpposite = opposites["Mario"] {
 }
 ```
 
-That reads the optional value from the dictionary, and if it has a string inside it gets _unwrapped_ – the string inside gets placed into the `marioOpposite` constant, and isn't optional any more. Because we were able to unwrap the optional, the condition is a success so the `print()` code is run.
+That reads the optional value from the dictionary, and if it has a string inside it gets _unwrapped_ - the string inside gets placed into the `marioOpposite` constant, and isn't optional any more. Because we were able to unwrap the optional, the condition is a success so the `print()` code is run.
 
 :::
 
@@ -1387,7 +1387,7 @@ __Tip__: You can use guard with any condition, including ones that don't unwrap 
 
 ::: details Nil coalescing
 
-Swift has a third way of unwrapping optionals, called the _nil coalescing operator_ – it unwraps an optional and provides a default value if the optional was empty:
+Swift has a third way of unwrapping optionals, called the _nil coalescing operator_ - it unwraps an optional and provides a default value if the optional was empty:
 
 ```swift
 let tvShows = ["Archer", "Babylon 5", "Ted Lasso"]
@@ -1446,7 +1446,7 @@ if let user = try? getUser(id: 23) {
 }
 ```
 
-The `getUser()` function will always throw `networkFailed`, but we don't care _what_ was thrown – all we care about is whether the call sent back a user or not.
+The `getUser()` function will always throw `networkFailed`, but we don't care _what_ was thrown - all we care about is whether the call sent back a user or not.
 
 :::
 
@@ -1456,6 +1456,6 @@ The `getUser()` function will always throw `networkFailed`, but we don't care _w
 
 We've covered the majority of Swift language fundamentals here, but really we've only scratched the surface of what the language does. Fortunately, with what you've learned you already know enough to build some fantastic software with Swift and SwiftUI.
 
-If you're keen to continue your learning, I suggest you visit my [100 Days of SwiftUI][100] course, which teaches you how to build fantastic apps for iOS using Swift – it's all free, and has hundreds of videos too.
+If you're keen to continue your learning, I suggest you visit my [100 Days of SwiftUI][100] course, which teaches you how to build fantastic apps for iOS using Swift - it's all free, and has hundreds of videos too.
 
 [100]: https://chanhi2000.github.io/crashcourse/swift/100-days-of-swiftui/README.md

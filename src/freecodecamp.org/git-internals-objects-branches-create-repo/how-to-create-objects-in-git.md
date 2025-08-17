@@ -134,7 +134,7 @@ You should now feel comfortable with the commands used to check the created obje
 
 Note that this **commit** doesn’t have a **parent**, because it’s the first **commit**. When we add another **commit** we will have to declare its **parent** — we will do so later.
 
-The last hash that we got — `80e...8f` – is a **commit**’s hash. We are actually very used to using these hashes — we look at them all the time. Note that this **commit** owns a **tree** object, with its own hash, which we rarely specify explicitly.
+The last hash that we got — `80e...8f` - is a **commit**’s hash. We are actually very used to using these hashes — we look at them all the time. Note that this **commit** owns a **tree** object, with its own hash, which we rarely specify explicitly.
 
 ![Will something change in `git status`?](https://freecodecamp.org/news/content/images/2020/12/image-125.png)
 

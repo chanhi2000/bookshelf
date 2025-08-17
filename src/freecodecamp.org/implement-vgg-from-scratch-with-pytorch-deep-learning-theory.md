@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Implement VGG From Scratch with PyTorch – Deep Learning Theory"
-description: "Article(s) > Implement VGG From Scratch with PyTorch – Deep Learning Theory"
+title: "Implement VGG From Scratch with PyTorch - Deep Learning Theory"
+description: "Article(s) > Implement VGG From Scratch with PyTorch - Deep Learning Theory"
 icon: iconfont icon-pytorch
 category:
   - Python
@@ -32,9 +32,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Implement VGG From Scratch with PyTorch – Deep Learning Theory"
+      content: "Article(s) > Implement VGG From Scratch with PyTorch - Deep Learning Theory"
     - property: og:description
-      content: "Implement VGG From Scratch with PyTorch – Deep Learning Theory"
+      content: "Implement VGG From Scratch with PyTorch - Deep Learning Theory"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-vgg-from-scratch-with-pytorch-deep-learning-theory.html
 prev: /programming/py-torch/articles/README.md
@@ -93,7 +93,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752070387836/e75fb9b
 ---
 
 <SiteInfo
-  name="Implement VGG From Scratch with PyTorch – Deep Learning Theory"
+  name="Implement VGG From Scratch with PyTorch - Deep Learning Theory"
   desc="Visual Geometry Group (VGG) is one of the most influential convolutional neural networks in computer vision. It is a deep convolutional neural network architecture known for its simple, uniform use of small 3x3 filters stacked in sequence, enabling p..."
   url="https://freecodecamp.org/news/implement-vgg-from-scratch-with-pytorch-deep-learning-theory"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -157,7 +157,7 @@ Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCam
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Implement VGG From Scratch with PyTorch – Deep Learning Theory",
+  "title": "Implement VGG From Scratch with PyTorch - Deep Learning Theory",
   "desc": "Visual Geometry Group (VGG) is one of the most influential convolutional neural networks in computer vision. It is a deep convolutional neural network architecture known for its simple, uniform use of small 3x3 filters stacked in sequence, enabling p...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-vgg-from-scratch-with-pytorch-deep-learning-theory.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

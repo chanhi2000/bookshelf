@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Adapter
-description: Article(s) > C# Design Patterns – Adapter
+title: C# Design Patterns - Adapter
+description: Article(s) > C# Design Patterns - Adapter
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Adapter
+      content: Article(s) > C# Design Patterns - Adapter
     - property: og:description
-      content: C# Design Patterns – Adapter
+      content: C# Design Patterns - Adapter
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/adapter.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/adapter/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Adapter"
+  name="C# Design Patterns - Adapter"
   desc="In this article we are going to learn about Adapter design pattern, how to implement it in the project and when shoud we use it."
   url="https://code-maze.com/adapter/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -64,7 +64,7 @@ In this article, we are going to learn how to implement the Adapter pattern into
 
 ::: info
 
-The source code is available at the[Adapter Design Pattern – Source Code. (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-design-patterns`)](https://github.com/CodeMazeBlog/csharp-design-patterns/tree/adapter-desing-pattern)
+The source code is available at the[Adapter Design Pattern - Source Code. (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-design-patterns`)](https://github.com/CodeMazeBlog/csharp-design-patterns/tree/adapter-desing-pattern)
 
 For the main page of this series check out [C# Design Patterns](/code-maze.com/design-patterns-csharp.md).
 

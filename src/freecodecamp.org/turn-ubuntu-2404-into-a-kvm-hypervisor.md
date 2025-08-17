@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management"
-description: "Article(s) > How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management"
+title: "How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
+description: "Article(s) > How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
 icon: fa-brands fa-ubuntu
 category:
   - DevOps
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management"
+      content: "Article(s) > How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
     - property: og:description
-      content: "How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management"
+      content: "How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/turn-ubuntu-2404-into-a-kvm-hypervisor.html
 prev: /devops/linux-debian/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745591647377/613d9a4
 ---
 
 <SiteInfo
-  name="How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management"
+  name="How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
   desc="Virtualization lets you run multiple operating systems on one machine. It’s perfect for testing apps, hosting servers, or learning DevOps. A hypervisor is the software that lets you run multiple virtual machines on a single physical machine, and the ..."
   url="https://freecodecamp.org/news/turn-ubuntu-2404-into-a-kvm-hypervisor"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -60,7 +60,7 @@ A hypervisor is the software that lets you run multiple virtual machines on a si
 
 If you want to turn your Ubuntu 24.04 or Kubuntu 24.04 (Kubuntu is a Ubuntu variant with KDE Plasma desktop) system into a powerful hypervisor without **Proxmox**’s complexity, this guide is for you. With KVM, you’ll spin up virtual machines (VMs) in minutes, and with Cockpit’s web-based manager, you’ll control them from your browser.
 
-In this tutorial, you’ll transform an Ubuntu 24.04 or Kubuntu 24.04 Desktop or Server – fresh or existing – into a KVM hypervisor. You’ll set up the backend (KVM, QEMU, libvirt), add Cockpit for web-based VM management, and create a guest VM to test it all. Whether you’re a coder, homelabber, or IT enthusiast, this guide is beginner-friendly.
+In this tutorial, you’ll transform an Ubuntu 24.04 or Kubuntu 24.04 Desktop or Server - fresh or existing - into a KVM hypervisor. You’ll set up the backend (KVM, QEMU, libvirt), add Cockpit for web-based VM management, and create a guest VM to test it all. Whether you’re a coder, homelabber, or IT enthusiast, this guide is beginner-friendly.
 
 ---
 
@@ -71,7 +71,7 @@ This guide is designed for virtualization newcomers, but you’ll need a few bas
 - Running terminal commands like `sudo apt install` or `nano` and so on.
 - Basic Linux navigation (for example, editing files in `/etc`).
 - Basic networking knowledge, such as understanding network interfaces (for example, `enp4s0` or `wlp3s0`), IP addresses, and concepts like bridging or NAT. You’ll use tools like `ip link` or `nmcli` to set up a network bridge in Step 3.
-- Optional: Experience with VMs helps but isn’t required – I’ll explain everything.
+- Optional: Experience with VMs helps but isn’t required - I’ll explain everything.
 
 No worries if terms like “libvirt” sound new. I’ll break them down as we go.
 
@@ -83,7 +83,7 @@ No worries if terms like “libvirt” sound new. I’ll break them down as we g
 - **Internet access**: To download packages and VM ISOs.
 - **A web browser**: Firefox (default on Ubuntu) or Chrome to access Cockpit.
 - **An ISO image**: An ISO image for your guest VM (for example, Ubuntu 24.04 Desktop ISO from ubuntu.com or Windows ISO if you have it already).
-- **30–45 minutes**: Depending on your setup speed.
+- **30-45 minutes**: Depending on your setup speed.
 
 ---
 
@@ -440,7 +440,7 @@ If the VM boots and connects to your network, your KVM hypervisor is rocking! Yo
 
 ## Keep Exploring Your Hypervisor
 
-You’ve turned your Ubuntu 24.04 into a KVM hypervisor – congrats! Try these next steps:
+You’ve turned your Ubuntu 24.04 into a KVM hypervisor - congrats! Try these next steps:
 
 - **Add more VMs**: Create Windows or other Linux VMs using different ISOs.
 - **Use virt-manager**: Install virt-manager for a desktop-based alternative to Cockpit (`sudo apt install virt-manager`).
@@ -459,12 +459,12 @@ virsh list --all
 
 You’ve built a fast, free KVM hypervisor on Ubuntu 24.04, complete with Cockpit’s web UI and a running guest VM. It’s a perfect playground for coding, testing, or homelab fun.
 
-Share your ideas or comments with me – I’d love to hear them!
+Share your ideas or comments with me - I’d love to hear them!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Turn Ubuntu 24.04 into a KVM Hypervisor – Quick Setup with Web Management",
+  "title": "How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management",
   "desc": "Virtualization lets you run multiple operating systems on one machine. It’s perfect for testing apps, hosting servers, or learning DevOps. A hypervisor is the software that lets you run multiple virtual machines on a single physical machine, and the ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/turn-ubuntu-2404-into-a-kvm-hypervisor.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

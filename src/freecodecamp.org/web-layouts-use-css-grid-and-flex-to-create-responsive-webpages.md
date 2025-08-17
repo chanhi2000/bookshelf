@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page"
-description: "Article(s) > Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page"
+title: "Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
+description: "Article(s) > Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page"
+      content: "Article(s) > Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
     - property: og:description
-      content: "Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page"
+      content: "Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html
 prev: /programming/css/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png
 ---
 
 <SiteInfo
-  name="Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page"
+  name="Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
   desc="Your web layout is to your website what a floor plan is to a building. Without them, you’re just building castles in the air.  The first thing to do when you have a website or application to build or design is to decide on the layout. This is importa..."
   url="https://freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -363,7 +363,7 @@ Within our CSS file, we need to style the client logos div as well as the child 
 
 ![pre-grid homepage display](https://freecodecamp.org/news/content/images/2022/10/pregrid1-2.png)
 
-The image above shows how our web page will look after defining the content and styling just the heading, button and logos – that is, we haven't declared our container as a grid yet. Because almost all the elements we have here are block elements, we see them align on top of one another.
+The image above shows how our web page will look after defining the content and styling just the heading, button and logos - that is, we haven't declared our container as a grid yet. Because almost all the elements we have here are block elements, we see them align on top of one another.
 
 ### Grid Template Rows and Columns
 
@@ -385,7 +385,7 @@ We need to align them horizontally, by positioning both elements in the center o
 
 ### Align and Justify in CSS Grid
 
-Good news – we don't have to learn any new concepts to achieve our desired alignments in CSS Grid Layouts. Because fortunately, `align-items` and `justify-content`, as we learnt earlier, are not exclusive to Flebox. You can also use them to position items both horizontally and vertically.
+Good news - we don't have to learn any new concepts to achieve our desired alignments in CSS Grid Layouts. Because fortunately, `align-items` and `justify-content`, as we learnt earlier, are not exclusive to Flebox. You can also use them to position items both horizontally and vertically.
 
 ```css title="style.css"
 main {
@@ -819,7 +819,7 @@ This makes these concepts a must know so you can specify the arrangement of elem
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Web Layouts – How to Use CSS Grid and Flex to Create a Responsive Web Page",
+  "title": "Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page",
   "desc": "Your web layout is to your website what a floor plan is to a building. Without them, you’re just building castles in the air.  The first thing to do when you have a website or application to build or design is to decide on the layout. This is importa...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

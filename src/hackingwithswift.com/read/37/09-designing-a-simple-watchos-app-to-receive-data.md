@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,11 +61,11 @@ Look inside the WatchKit App folder for <FontIcon icon="iconfont icon-xcode"/>`I
 
 Select the label, set its Lines property to be 0 so that it spans as many lines as necessary, then align its text center and give it the following content: "Please read the instructions on your phone before continuing." Now select the button and give it the text "I'm Ready". Finally, select both the label and button then change their Vertical and Horizontal alignment properties to be Center.
 
-All being well, your WatchKit interface should look like the screenshot below. Don't worry that the views go right to the edge – the Watch's bezel blends seamlessly with the edge of the screen in its apps, so it will look fine on devices.
+All being well, your WatchKit interface should look like the screenshot below. Don't worry that the views go right to the edge - the Watch's bezel blends seamlessly with the edge of the screen in its apps, so it will look fine on devices.
 
 ![WatchKit views have some similarities with UIKit, but arguably more differences](https://hackingwithswift.com/img/books/hws/37-5@2x.png)
 
-That's it: that's our entire interface. Before we continue with any further coding, we need to create outlets for the label and button by using the Assistant Editor and Ctrl-dragging. Name the label `welcomeText` and the button `hideButton` – you'll notice these have the types `WKInterfaceLabel` and `WKInterfaceButton` because we're in WatchKit now, not UIKit.
+That's it: that's our entire interface. Before we continue with any further coding, we need to create outlets for the label and button by using the Assistant Editor and Ctrl-dragging. Name the label `welcomeText` and the button `hideButton` - you'll notice these have the types `WKInterfaceLabel` and `WKInterfaceButton` because we're in WatchKit now, not UIKit.
 
 Finally, create an action for when the button is tapped, again by Ctrl-dragging in the Assistant Editor. Name this `hideWelcomeText()`. We're done with Interface Builder now, so please go back to the standard editor and open the <FontIcon icon="fa-brands fa-swift"/>`InterfaceController.swift` file from the WatchKit Extension.
 
@@ -75,7 +75,7 @@ The first thing we're going to do is identical to the code from iOS: set ourselv
 import WatchConnectivity
 ```
 
-Now add this to the `willActivate()` method – for our purposes, that's the equivalent of `viewDidLoad()` in the iOS app:
+Now add this to the `willActivate()` method - for our purposes, that's the equivalent of `viewDidLoad()` in the iOS app:
 
 ```swift
 if WCSession.isSupported() {
@@ -85,7 +85,7 @@ if WCSession.isSupported() {
 }
 ```
 
-The code is identical to iOS – I told you this was going to be easy!
+The code is identical to iOS - I told you this was going to be easy!
 
 You'll get an error when you try to assign the delegate to the Watch's view controller, so you'll need to tell iOS you conform to the `WCSessionDelegate` protocol like this:
 
@@ -93,7 +93,7 @@ You'll get an error when you try to assign the delegate to the Watch's view cont
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
 ```
 
-With that, we're almost done with watchOS. In fact, we just need to do two more things, starting with implementing the `hideWelcomeText()` method. All this needs to do is hide the label and the button we created so that the watch's screen is blank apart from the time in the corner – we don't want any obvious UI in there that might alert people.
+With that, we're almost done with watchOS. In fact, we just need to do two more things, starting with implementing the `hideWelcomeText()` method. All this needs to do is hide the label and the button we created so that the watch's screen is blank apart from the time in the corner - we don't want any obvious UI in there that might alert people.
 
 Hiding things in WatchKit is almost the same as iOS, so update the `hideWelcomeText()` to this:
 

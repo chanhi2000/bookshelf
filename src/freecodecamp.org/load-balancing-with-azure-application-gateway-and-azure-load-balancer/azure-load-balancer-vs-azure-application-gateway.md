@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "🔍 Azure Load Balancer vs Azure Application Gateway"
-description: "Article(s) > (8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+description: "Article(s) > (8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 category:
   - DevOps
   - Microsoft
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > (8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
       content: "🔍 Azure Load Balancer vs Azure Application Gateway"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer#heading-azure-load-balancer-vs-azure-application-gateway"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb4-8d7b-47e5-ab31-126906f60b40.png"/>
 
-By now, you've seen how both tools help route traffic in Azure – but they solve different problems.
+By now, you've seen how both tools help route traffic in Azure - but they solve different problems.
 
 Let’s break down how they compare, and when you should use one over the other 👇🏾
 
@@ -62,9 +62,9 @@ Let’s break down how they compare, and when you should use one over the other 
 
 ### Azure Load Balancer
 
-It simply distributes incoming traffic evenly across a pool of VMs. It doesn’t care *what* the request is – it just balances the load.
+It simply distributes incoming traffic evenly across a pool of VMs. It doesn’t care *what* the request is - it just balances the load.
 
-Imagine a delivery guy who doesn't ask questions – he just drops each package at the next available house.
+Imagine a delivery guy who doesn't ask questions - he just drops each package at the next available house.
 
 That’s what Azure Load Balancer does: it sends traffic to one of your servers without looking inside the request.
 
@@ -82,11 +82,11 @@ That’s what Application Gateway does: it reads the request (like the URL or do
 
 ### Load Balancer
 
-Works at the transport layer (Layer 4 in the OSI model). It deals with TCP/UDP traffic – raw network traffic, like HTTP, video streaming, games, and so on.
+Works at the transport layer (Layer 4 in the OSI model). It deals with TCP/UDP traffic - raw network traffic, like HTTP, video streaming, games, and so on.
 
 ### Application Gateway
 
-Works at the application layer (Layer 7). It handles web traffic only – like websites and apps (HTTP/HTTPS) – and it can actually read what's being asked, like:
+Works at the application layer (Layer 7). It handles web traffic only - like websites and apps (HTTP/HTTPS) - and it can actually read what's being asked, like:
 
 - “Go to /login”
 - “Go to <FontIcon icon="fas fa-globe"/>`payment.mydomain.com`”.
@@ -111,7 +111,7 @@ TL;DR: Load Balancer just pushes packets. App Gateway actually *reads* your web 
 
 **Load Balancer** doesn’t handle security stuff. You’ll need to secure each server yourself (for example, set up HTTPS on each one).
 
-**Application Gateway** can secure everything in one place – you upload your SSL certificate once and it takes care of HTTPS for all services.
+**Application Gateway** can secure everything in one place - you upload your SSL certificate once and it takes care of HTTPS for all services.
 
 It can also protect you from hackers and bad traffic with something called **WAF (Web Application Firewall)**, which protects your app from threats like SQL injection, XSS, and so on (you need to set this up manually).
 

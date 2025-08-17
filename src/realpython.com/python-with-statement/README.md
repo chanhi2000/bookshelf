@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Stat
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Context Managers and Using Python's with Statement – Real Python"
+  name="[COURSE] Context Managers and Using Python's with Statement - Real Python"
   desc="In this video course, you'll learn what the Python with statement is and how to use it with existing context managers. You'll also learn how to create your own context managers."
   url="https://realpython.com/courses/with-statement-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -81,7 +81,7 @@ With this knowledge, you’ll write more expressive code and avoid [<FontIcon ic
 ::: info Quiz - Context Managers and Python's with Statement
 
 <SiteInfo
-  name="Context Managers and Python's with Statement Quiz – Real Python"
+  name="Context Managers and Python's with Statement Quiz - Real Python"
   desc="In this quiz, you'll assess your understanding of the Python with statement and context managers. By mastering these concepts, you'll be able to write more expressive code and manage system resources more effectively, avoiding resource leaks and ensuring proper setup and teardown of external resources."
   url="https://realpython.com/quizzes/python-with-statement/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -202,7 +202,7 @@ With this knowledge, you’ll write safe, concise, and expressive code. You’ll
 ::: info Quiz - Context Managers and Python's with Statement
 
 <SiteInfo
-  name="Context Managers and Python's with Statement Quiz – Real Python"
+  name="Context Managers and Python's with Statement Quiz - Real Python"
   desc="In this quiz, you'll assess your understanding of the Python with statement and context managers. By mastering these concepts, you'll be able to write more expressive code and manage system resources more effectively, avoiding resource leaks and ensuring proper setup and teardown of external resources."
   url="https://realpython.com/quizzes/python-with-statement/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -215,7 +215,7 @@ In this quiz, you'll assess your understanding of the Python with statement and 
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Context Managers and Using Python's with Statement – Real Python"
+  name="[COURSE] Context Managers and Using Python's with Statement - Real Python"
   desc="In this video course, you'll learn what the Python with statement is and how to use it with existing context managers. You'll also learn how to create your own context managers."
   url="https://realpython.com/courses/with-statement-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

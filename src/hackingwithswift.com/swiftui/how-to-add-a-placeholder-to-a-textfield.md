@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI's `TextField` supports placeholder text just like `UITextField` did – gray text that is shown in the text field when it's empty, either giving users a prompt (“Enter your password”) or showing some example data.
+SwiftUI's `TextField` supports placeholder text just like `UITextField` did - gray text that is shown in the text field when it's empty, either giving users a prompt (“Enter your password”) or showing some example data.
 
 To set your placeholder text, pass it in as part of the initializer for your text field, like this:
 

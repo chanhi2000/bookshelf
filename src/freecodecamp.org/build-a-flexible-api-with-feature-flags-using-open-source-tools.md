@@ -211,7 +211,7 @@ At the top, we declare variables to store Redis and Rate limiter clients to reus
 
 In `main()`, first, we load the environment variables from the system or the .env file. Then we call `initClients()`. This will create clients and store them in the variables we created.
 
-Next, we create a **Gin** router that handles all our incoming requests. These are the environment variables we need in our <FontIcon icon="iconfont icon-file-lines"/>`.env` file. For this demo, we need a Redis instance running to store all the data for rate-limiting functionality. We can use Docker or any remote machine – just remember to update `REDIS_URL` accordingly. I am going to use Docker.
+Next, we create a **Gin** router that handles all our incoming requests. These are the environment variables we need in our <FontIcon icon="iconfont icon-file-lines"/>`.env` file. For this demo, we need a Redis instance running to store all the data for rate-limiting functionality. We can use Docker or any remote machine - just remember to update `REDIS_URL` accordingly. I am going to use Docker.
 
 We could also go a mile ahead and get all the environment variables from the feature flags, but we won’t do this here.
 
@@ -450,7 +450,7 @@ We have loads of functionalities from integrations to scheduling the flags to co
 
 Now, let's create our first feature flag for the rate limit. Click on the **Create Feature** button in the top right corner. A sidebar window will open up. Set the name, then to make the flag turn on the right way while creating, we can select **Enabled by default.**
 
-In the value section, we need to set the flag value. It can take formats like Txt, JSON, XML, and so on. As our feature value is simple text like 20, 30, and so on, we will choose Txt (the default one) and set a random limit – we’ll go with **20**.
+In the value section, we need to set the flag value. It can take formats like Txt, JSON, XML, and so on. As our feature value is simple text like 20, 30, and so on, we will choose Txt (the default one) and set a random limit - we’ll go with **20**.
 
 You can also give tags and descriptions. Tags can be helpful when filtering out the Feature Flags. For example, we can create a tag `backend` to filter out all the feature flags related to Backend. The description is a concise explanation of what this particular future flag does when it is enabled (and will help with future understanding).
 
@@ -486,7 +486,7 @@ We can also schedule the update. For example, this can be useful when we expect 
 
 ![Screenshot of a software dashboard showing a feature management interface. The "rate_limit" feature is enabled with a value of 10. Options include editing value, segment overrides, and scheduling updates.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730545050685/f253ea86-de3d-4a6a-b5fd-35f489da86cf.png)
 
-If you now visit `localhost:8080/ping`, you will get a message `{"Your left over API request is":8}` – because the total limit is 10 and we have already requested two times.
+If you now visit `localhost:8080/ping`, you will get a message `{"Your left over API request is":8}` - because the total limit is 10 and we have already requested two times.
 
 ![Browser window displaying a JSON response with the text: "Your left over API request is: 8".](https://cdn.hashnode.com/res/hashnode/image/upload/v1730544415108/97e6fd9c-b5a1-4143-877a-6724cf871a6b.png)
 

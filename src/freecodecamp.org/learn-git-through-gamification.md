@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Git through Gamification – A Visual Guide to Key Version Control Concepts"
-description: "Article(s) > Learn Git through Gamification – A Visual Guide to Key Version Control Concepts"
+title: "Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
+description: "Article(s) > Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Git through Gamification – A Visual Guide to Key Version Control Concepts"
+      content: "Article(s) > Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
     - property: og:description
-      content: "Learn Git through Gamification – A Visual Guide to Key Version Control Concepts"
+      content: "Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-through-gamification.html
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740686401633/ffd9ac3
 ---
 
 <SiteInfo
-  name="Learn Git through Gamification – A Visual Guide to Key Version Control Concepts"
+  name="Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
   desc="Git has many concepts and commands that you’ll need to understand before you feel confident using it. Some of these concepts may sound trivial, especially to someone who has worked with Git before. But like most Git and coding concepts, even the “sim..."
   url="https://freecodecamp.org/news/learn-git-through-gamification"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -98,7 +98,7 @@ The two relevant sections here are:
 1. **Changes not staged for commit:** Lists existing files tracked by Git which currently contain code changes. In the example above, we see two “modified files”: <FontIcon icon="fa-brands fa-python"/>`main.py` and <FontIcon icon="fa-brands fa-python"/>`settings.py`.
 2. **Untracked files:** Lists new files in your project that Git doesn’t know about yet. In the example above, we see three new, untracked files: <FontIcon icon="fa-brands fa-python"/>`one.py`, <FontIcon icon="fa-brands fa-python"/>`two.py`, and <FontIcon icon="fa-brands fa-python"/>`three.py`.
 
-When it comes to understanding Git, thinking of the working directory as the changes Git sees in these two sections – **Untracked files** and **Modified files** – is quite helpful.
+When it comes to understanding Git, thinking of the working directory as the changes Git sees in these two sections - **Untracked files** and **Modified files** - is quite helpful.
 
 But the `git status` command reports these details in the terminal in a purely text-based way, which doesn’t do newer Git users any favors when it comes to wrapping their heads around Git.
 
@@ -218,7 +218,7 @@ Each white commit block points back to its parent commit with an arrow, forming 
 
 You might have noticed that some of the white commit blocks have colored blocks sitting on top of them. The green blocks are [<FontIcon icon="fas fa-globe"/>branch names](https://initialcommit.com/blog/git-branches), the yellow blocks are [<FontIcon icon="fas fa-globe"/>Git tags](https://initialcommit.com/blog/git-tag), the blue block is [Git’s HEAD pointer](https://initialcommit.com/blog/what-is-git-head), and the red blocks are remote-tracking branches. These are collectively referred to as [<FontIcon icon="fas fa-globe"/>Git refs](https://initialcommit.com/blog/what-is-git-head#git-refs-and-heads).
 
-Besides being able to easily distinguish between them, representing ref types as different colored blocks clarifies another often-confusing Git concept. In Git, branches (along with other refs types) are just “pointers” to a specific commit. It is tempting to think of a branch as a series of connected commits that share a history – and conceptually this is correct – but in Git, a branch is really just a glorified label pointing to a specific commit.
+Besides being able to easily distinguish between them, representing ref types as different colored blocks clarifies another often-confusing Git concept. In Git, branches (along with other refs types) are just “pointers” to a specific commit. It is tempting to think of a branch as a series of connected commits that share a history - and conceptually this is correct - but in Git, a branch is really just a glorified label pointing to a specific commit.
 
 In this gamified world, you can *literally walk through your commit history* to see, interact with, and examine the code changes in any commit.
 
@@ -245,7 +245,7 @@ If you or someone you know is a visual learner, beginner coder, or newer Git use
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Git through Gamification – A Visual Guide to Key Version Control Concepts",
+  "title": "Learn Git through Gamification - A Visual Guide to Key Version Control Concepts",
   "desc": "Git has many concepts and commands that you’ll need to understand before you feel confident using it. Some of these concepts may sound trivial, especially to someone who has worked with Git before. But like most Git and coding concepts, even the “sim...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-through-gamification.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

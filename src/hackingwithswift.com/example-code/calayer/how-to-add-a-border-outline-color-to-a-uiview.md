@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ yourView.layer.borderWidth = 10
 yourView.layer.borderColor = UIColor.red.cgColor
 ```
 
-Note that you need to use the `cgColor` property of your `UIColor` in order for this to work. Adding a border to a view even works if you also round the corners of your view – it's very flexible!
+Note that you need to use the `cgColor` property of your `UIColor` in order for this to work. Adding a border to a view even works if you also round the corners of your view - it's very flexible!
 
 -->
 

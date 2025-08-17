@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "⚙️ Azure Virtual Machines (VMs) – The Building Blocks"
-description: "Article(s) > (3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+title: "⚙️ Azure Virtual Machines (VMs) - The Building Blocks"
+description: "Article(s) > (3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 category:
   - DevOps
   - Microsoft
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > (3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
-      content: "⚙️ Azure Virtual Machines (VMs) – The Building Blocks"
+      content: "⚙️ Azure Virtual Machines (VMs) - The Building Blocks"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machines-vms-the-building-blocks.html
 date: 2025-05-15
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer#heading-azure-virtual-machines-vms-the-building-blocks"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ![Virtual Machine illustration](https://cdn.hashnode.com/res/hashnode/image/upload/v1746980948928/eb6a7fb2-7432-42ed-8cbd-bff6c8250d4e.jpeg)
 
-When it comes to running apps in the cloud, **Virtual Machines (VMs)** are the basic building blocks – kind of like renting an apartment in a giant digital skyscraper.
+When it comes to running apps in the cloud, **Virtual Machines (VMs)** are the basic building blocks - kind of like renting an apartment in a giant digital skyscraper.
 
 You don’t need to buy the whole building (aka physical servers), you just rent the space you need, when you need it.
 
@@ -62,7 +62,7 @@ You don’t need to buy the whole building (aka physical servers), you just rent
 
 ## What Exactly Is a Virtual Machine?
 
-A Virtual Machine is a software-based computer that runs inside a real, physical computer (a server) – hosted in a data center, like those run by Microsoft Azure.
+A Virtual Machine is a software-based computer that runs inside a real, physical computer (a server) - hosted in a data center, like those run by Microsoft Azure.
 
 It looks and behaves like a normal computer:
 
@@ -70,7 +70,7 @@ It looks and behaves like a normal computer:
 - You can install apps
 - It has memory (RAM), storage (disks), and CPU
 
-But the best part? You don’t need to worry about the hardware. Azure takes care of that behind the scenes – all you do is say:
+But the best part? You don’t need to worry about the hardware. Azure takes care of that behind the scenes - all you do is say:
 
 > “Hey Azure, give me a Linux VM with 4GB RAM and 2 CPUs.”
 
@@ -80,7 +80,7 @@ And boom 💥 — it spins up in minutes.
 
 ## Why Use a VM?
 
-Let’s say you’ve built a web app – it’s just a simple blog. You want to deploy it and make it accessible to the world.
+Let’s say you’ve built a web app - it’s just a simple blog. You want to deploy it and make it accessible to the world.
 
 Here's what you can do with a VM:
 
@@ -90,4 +90,4 @@ Here's what you can do with a VM:
 - Bind it to your domain name
 - Let the world visit your blog at `myawesomeblog.com`
 
-It’s your own personal environment – no sharing, full control.
+It’s your own personal environment - no sharing, full control.

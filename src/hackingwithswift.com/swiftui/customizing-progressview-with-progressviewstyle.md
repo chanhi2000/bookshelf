@@ -56,7 +56,7 @@ isOriginal: false
 
 SwiftUI gives us the `ProgressViewStyle` protocol to create custom designs for `ProgressView`, allowing us to read how complete the progress view and take that into account in our design.
 
-To make a custom `ProgressView` style, you need to create a struct that has a `makeBody()` method accepting the current configuration of the view. You can then go ahead and render the progress however you want – perhaps a text percentage, perhaps a growing circle, and so on – then return your finished layout to be rendered.
+To make a custom `ProgressView` style, you need to create a struct that has a `makeBody()` method accepting the current configuration of the view. You can then go ahead and render the progress however you want - perhaps a text percentage, perhaps a growing circle, and so on - then return your finished layout to be rendered.
 
 To demonstrate this, here’s a custom style that creates a gauge, showing progress as a stroked circle that completes as progress ramps up:
 

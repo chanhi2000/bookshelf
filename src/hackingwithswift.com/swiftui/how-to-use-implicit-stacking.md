@@ -84,7 +84,7 @@ struct ContentView: View {
 
 ![A list of three rows with an image of Paul Hudson beside the word “Anonymous”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-implicit-stacking-1@2x.png)
 
-Notice how we don't need to place the image and text views into a `HStack` to have them rendered side by side – SwiftUI figures it out for us.
+Notice how we don't need to place the image and text views into a `HStack` to have them rendered side by side - SwiftUI figures it out for us.
 
 ::: details Similar solutions…
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ First up, a few general pointers:
 <li>You must submit a Swift playground created by you, and only by you, demonstrating something interesting. I’m providing some example code below to help you start, but your finished submission must be your own work.
 <li>Your playground must work entirely offline, and be no larger than 25MB when zipped.
 <li>Apple will pay for your lodging in San Jose, your WWDC ticket, and your breakfast and lunch. You’re responsible for getting there and buying dinner.
-<li>You can optionally write an essay (maximum 500 words) describing “how you've considered sharing your coding knowledge and enthusiasm for computer science with others” – but let’s face it, that’s basically required if you’re serious.
+<li>You can optionally write an essay (maximum 500 words) describing “how you've considered sharing your coding knowledge and enthusiasm for computer science with others” - but let’s face it, that’s basically required if you’re serious.
 
 Before we dive into the code, there’s one last thing: I’m not the judge of the WWDC scholarship program, and I don’t even who the judges are, but if I *were* a judge I’d actively be looking for people from under-represented groups. Previous years have seen Apple specifically call out groups such as App Camp for Girls, Black Girls Code, Girl Develop It, and more.
 
@@ -78,7 +78,7 @@ OK, enough chat: let’s look at how to build a live playground using Xcode 10 a
 
 Start by launching Xcode, then choosing “Get started with a playground”. Choose an iOS blank template then name it whatever you please.
 
-By default, Playgrounds look like you’ll see below – big and empty. 
+By default, Playgrounds look like you’ll see below - big and empty. 
 
 <img class="hws" src="/img/hws/example-code-294-1.png" alt="">
 
@@ -102,7 +102,7 @@ class WWDCMasterViewController: UITableViewController {
 }
 ```
 
-The first import is new, and gives us access to live playground previewing. It then creates a new class called `WWDCMasterViewController` based on `UITableViewController`. It won’t do much just yet, but that’s OK – we’re just making sure everything works.
+The first import is new, and gives us access to live playground previewing. It then creates a new class called `WWDCMasterViewController` based on `UITableViewController`. It won’t do much just yet, but that’s OK - we’re just making sure everything works.
 
 After that class, we need to write some simple code to create and present our custom view controller. To make things a little more interesting, we’ll wrap it inside a navigation controller so we can push and pop a detail view later on. Add this code now:
 
@@ -123,7 +123,7 @@ All being well, Xcode will build and run that playground and show something insi
 
 There *is* a navigation bar at the top of the table view, but you can’t see it because it has the same color as the playground’s background.
 
-So, let’s start by making the navigation bar a little more obvious – add this code to `WWDCMasterViewController`:
+So, let’s start by making the navigation bar a little more obvious - add this code to `WWDCMasterViewController`:
 
 ```swift
 override func viewDidLoad() {
@@ -153,7 +153,7 @@ When that code runs, you’ll probably get a large black screen in the assistant
 
 To fix this problem, we need to implement the `cellForRowAt` method so that it grabs a reusable table view cell (or creates one if it doesn’t already exist), and configures it to show our Incredibly Awesome Reason for Attending WWDC.
 
-Here’s the first part of the method – add this to the `WWDCMasterViewController` class:
+Here’s the first part of the method - add this to the `WWDCMasterViewController` class:
 
 ```swift
 override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -162,7 +162,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
     cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
 
     if cell == nil {
-        // none to dequeue – make a new one
+        // none to dequeue - make a new one
         cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
         cell?.accessoryType = .disclosureIndicator
     }
@@ -257,11 +257,11 @@ Now for the fun part. When our view has finished loading fully and sized itself,
 <li>Position the word labels one above the other, in the horizontal center of the screen.
 <li>Create a `UIGravityBehavior` object that’s attached to all our labels, and add that to our `animator` property.
 <li>Create a `UICollisionBehavior` object that’s also attached to all our labels, and add that to our `animator` property as well.
-<li>Make the collision behavior use view bounds as boundaries – i.e., make sure our views stay on the screen.
+<li>Make the collision behavior use view bounds as boundaries - i.e., make sure our views stay on the screen.
 
 The easiest place to put this code is inside the `viewDidLayoutSubviews()` method, because at that point our main `UIView` will have its `frame` value set correctly.
 
-So, to finish up you need to add one more method to `WWDCDetailViewController` – I’ve made the comments match my numbers above:
+So, to finish up you need to add one more method to `WWDCDetailViewController` - I’ve made the comments match my numbers above:
 
 ```swift
 override func viewDidLayoutSubviews() {
@@ -303,13 +303,13 @@ override func viewDidLayoutSubviews() {
 
 Note: I added a `guard` statement in there so the method is run only once.
 
-When you run the code now, you should be able to tap a row to see the words fall down and bounce around in the detail view controller – what’s not to like?
+When you run the code now, you should be able to tap a row to see the words fall down and bounce around in the detail view controller - what’s not to like?
 
 <img class="hws" src="/img/hws/example-code-294-9.gif" alt="">
 
-So, at this point you have a table view, a navigation controller, a detail view being presented with animation, plus some UIKit dynamics – more than enough, I hope, to at least get you out of first gear when it comes to applying for a WWDC scholarship.
+So, at this point you have a table view, a navigation controller, a detail view being presented with animation, plus some UIKit dynamics - more than enough, I hope, to at least get you out of first gear when it comes to applying for a WWDC scholarship.
 
-As a reminder, Apple really does want to see some sort of technical accomplishment and creativity – you’ve seen how to create an interactive live view here, but you should aim significantly higher. Don’t be afraid to use SpriteKit. Add your own images and audio (within the 25MB limit!). Try to make something delightful, no matter how small.
+As a reminder, Apple really does want to see some sort of technical accomplishment and creativity - you’ve seen how to create an interactive live view here, but you should aim significantly higher. Don’t be afraid to use SpriteKit. Add your own images and audio (within the 25MB limit!). Try to make something delightful, no matter how small.
 
 Good luck!
 

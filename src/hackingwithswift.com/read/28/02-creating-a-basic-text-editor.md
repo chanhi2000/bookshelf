@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/0lEWz4fBzoA" />
 
-Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder, and embed the default view controller inside a navigation controller. Now place a text view inside (*not* a text field!) so that it fills up most of the space: it should touch the left and right edges of our view, go up to the bottom of the navigation bar, then go down to the bottom of the safe area – that’s where IB will snap to when you drag near the virtual home indicator at the bottom of the view controller. We don’t need anything special for our Auto Layout constraints, so just go to Editor > Resolve Auto Layout Issues > Add Missing Constraints to place them automatically.
+Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder, and embed the default view controller inside a navigation controller. Now place a text view inside (*not* a text field!) so that it fills up most of the space: it should touch the left and right edges of our view, go up to the bottom of the navigation bar, then go down to the bottom of the safe area - that’s where IB will snap to when you drag near the virtual home indicator at the bottom of the view controller. We don’t need anything special for our Auto Layout constraints, so just go to Editor > Resolve Auto Layout Issues > Add Missing Constraints to place them automatically.
 
 Delete the "Lorem ipsum" text in the text view, then use the assistant editor to make an outlet for it called `secret`. That's us done with the storyboard for now; switch back to the standard editor and open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`.
 
@@ -67,7 +67,7 @@ notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), nam
 notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
 ```
 
-As a reminder, that asks iOS to tell us when the keyboard changes or when it hides. As a double reminder: the hide is required because we do a little hack to make the hardware keyboard toggle work correctly – see project 19 if you don't remember why this is needed.
+As a reminder, that asks iOS to tell us when the keyboard changes or when it hides. As a double reminder: the hide is required because we do a little hack to make the hardware keyboard toggle work correctly - see project 19 if you don't remember why this is needed.
 
 Here's the `adjustKeyboard()` method, which again is identical apart from the outlet name to that seen in project 19:
 
@@ -97,7 +97,7 @@ Place a button over the text view, give it the title "Authenticate" and make it 
 
 Before you leave Interface Builder, you need to do something we haven't done yet, which is to move views backwards and forwards relative to each other. When the user has authenticated, we need to show the text box while making sure the button is no longer visible, and the easiest way to do that is to place the button behind the text view so that when the text is visible it covers up the button.
 
-To move the text view to the front, select the Authenticate button in the document outline then drag it *above* the text view. When you do this the button will disappear on the canvas, but that's OK – it's still there, and we can still use it.
+To move the text view to the front, select the Authenticate button in the document outline then drag it *above* the text view. When you do this the button will disappear on the canvas, but that's OK - it's still there, and we can still use it.
 
-The last thing to do is ensure the text view starts life hidden, so select it in Interface Builder, choose the attributes inspector, and check the Hidden box – it's near the bottom, not far below Tag. That's our layout complete!
+The last thing to do is ensure the text view starts life hidden, so select it in Interface Builder, choose the attributes inspector, and check the Hidden box - it's near the bottom, not far below Tag. That's our layout complete!
 

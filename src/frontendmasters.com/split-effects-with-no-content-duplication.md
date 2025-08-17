@@ -195,7 +195,7 @@ You can see that here, each of the three RGB channels are either zeroed or maxed
 
 We then apply an SVG`filter`. Here, we combine two concepts I’ve talked about this year before: using[<FontIcon icon="fas fa-globe"/>RGB channels as alpha masks](https://mastodon.social/@anatudor/112286525196818095)and painting the graphic we extract using[<FontIcon icon="fas fa-globe"/>an RGB value](https://mastodon.social/@anatudor/112157559510002242)(using one of the two ways I did for[these monojicons (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/YzgwErb)).
 
-Our`filter`extracts the intersection between the blue channel (the text fill) and the green channel (the progress area) – that is, the text fill within the limits of the progress area – and paints it`white`.
+Our`filter`extracts the intersection between the blue channel (the text fill) and the green channel (the progress area) - that is, the text fill within the limits of the progress area - and paints it`white`.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/4c8d4dd8abb9103b.png?resize=737%2C313&ssl=1)
 
@@ -203,7 +203,7 @@ The intersection between the text fill and the progress area, painted in white.
 
 This is pretty much like creating an alpha mask that makes opaque the area where both the blue channel and the green channel are maxed out. And at the same time, makes transparent the area where at least one of the two is`0`.
 
-The`filter`also extracts the difference between the red channel (the text stroke) and the green channel (the progress area) – that is, the text stroke outside the progress area, then paints it using a variable (which can be either`currentColor`or a custom property,`var(--c-neon)`, for example).
+The`filter`also extracts the difference between the red channel (the text stroke) and the green channel (the progress area) - that is, the text stroke outside the progress area, then paints it using a variable (which can be either`currentColor`or a custom property,`var(--c-neon)`, for example).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/89629fa5c262b96d.png?resize=1024%2C437&ssl=1)
 

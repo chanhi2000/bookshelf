@@ -55,7 +55,7 @@ In this article, you will learn how to code a socket program in Python. But befo
 
 We can define a socket as a quick connection which allows the transmission of data between two processes on the same machine or different machines over a network. It is commonly used in client-server interaction, as sockets allow applications to communicate using the built-in mechanisms of the hardware and operating system.
 
-Many of the today’s most used software – including web browsers, file sharing software, and social media instant messaging applications like WhatsApp and others – fundamentally depend on the concept of sockets.
+Many of the today’s most used software - including web browsers, file sharing software, and social media instant messaging applications like WhatsApp and others - fundamentally depend on the concept of sockets.
 
 Usually, a socket program is comprised of two main programs called the client and server. Here, the **client acts as the requester**, where it requests some data. The **server acts as the listener** and provides the client the requested data as the response.
 
@@ -103,7 +103,7 @@ if connection_object:
         data_receive = connection_object.recv(1024)
 ```
 
-In the above code, we created a socket instance for the server. You can see that `family=socket.AF_INET` defines the address family that this socket can accept – only IPv4 addresses. And `type=socket.SOCK_STREAM` defines that the socket accepts only TCP (Transmission Control Protocol) connections.
+In the above code, we created a socket instance for the server. You can see that `family=socket.AF_INET` defines the address family that this socket can accept - only IPv4 addresses. And `type=socket.SOCK_STREAM` defines that the socket accepts only TCP (Transmission Control Protocol) connections.
 
 For the server socket instance to listen and accept requests, it needs an IP address and a port. So, we have `ip_address = '127.0.0.1'` and `port = 5555`. Here, we have localhost as our IP address as the server and client reside in the same machine.
 

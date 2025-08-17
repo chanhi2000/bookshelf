@@ -91,7 +91,7 @@ networks:
 
 Hopefully this sparks your imagination as to what is now possible! [Check out this GitHub repository for a full example that you can try out (<FontIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app).
 
-It’s really easy to convert your existing applications to the new format. It’s mostly a case of adding the lines `version: "2"` and `services:` to the top of your file, but there are a few caveats, so [<FontIcon icon="fa-brands fa-docker"/>check out these instructions if you run into issues](https://docs.docker.com/compose/compose-file/#upgrading). If you’re not quite ready to make the jump yet, that’s fine – Compose 1.6 still works just fine with the old format.
+It’s really easy to convert your existing applications to the new format. It’s mostly a case of adding the lines `version: "2"` and `services:` to the top of your file, but there are a few caveats, so [<FontIcon icon="fa-brands fa-docker"/>check out these instructions if you run into issues](https://docs.docker.com/compose/compose-file/#upgrading). If you’re not quite ready to make the jump yet, that’s fine - Compose 1.6 still works just fine with the old format.
 
 As well as the new Compose file, there are also a couple of other new things in this release:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Skills You Need to Become a Backend Developer – A Roadmap for Beginners
-description: Article(s) > Skills You Need to Become a Backend Developer – A Roadmap for Beginners
+title: Skills You Need to Become a Backend Developer - A Roadmap for Beginners
+description: Article(s) > Skills You Need to Become a Backend Developer - A Roadmap for Beginners
 icon: fas fa-user-tie
 category: 
   - Career
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Skills You Need to Become a Backend Developer – A Roadmap for Beginners
+      content: Article(s) > Skills You Need to Become a Backend Developer - A Roadmap for Beginners
     - property: og:description
-      content: Skills You Need to Become a Backend Developer – A Roadmap for Beginners
+      content: Skills You Need to Become a Backend Developer - A Roadmap for Beginners
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fast-and-budget-friendly-user-research-and-testing.html
 prev: /projects/career/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725110852270/9185d74
 ---
 
 <SiteInfo
-  name="Skills You Need to Become a Backend Developer – A Roadmap for Beginners"
+  name="Skills You Need to Become a Backend Developer - A Roadmap for Beginners"
   desc="In this guide, I'll discuss the basic skills you need and steps you can take to become a backend developer. I'll give you a simple roadmap that'll help you know where you are and where you should go next. Front End vs Back End Every website has two p..."
   url="https://freecodecamp.org/news/skills-you-need-to-become-a-backend-developer-roadmap/"
   logo="https://freecodecamp.org/favicon.ico"

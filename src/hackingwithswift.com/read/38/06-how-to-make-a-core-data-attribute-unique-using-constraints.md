@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ Even better, Core Data can intelligently merge updates to objects in situations 
 
 In this app, we have the perfect unique attribute just waiting to be used: every commit has a "sha" attribute that is a long string of letters and numbers that identify that commit uniquely. SHA stands for "secure hash algorithm", and it's used in many places to generate unique identifiers from content.
 
-A "hash" is a little bit like like one-way, truncated encryption: one piece of input like "Hello world" will always generate the same hash, but if you change it to be "Hello World" – just capitalizing a single letter – you get a completely different hash. It's "truncated" because no matter how much content you give it as input, the "sha" will always be 40 letters. It's "one way" because you can't somehow reverse the hash to discover the original content, which is where hashes are different to encryption: an encrypted message can be decrypted to its original content, whereas a hashed message cannot be "dehashed" back to its original.
+A "hash" is a little bit like like one-way, truncated encryption: one piece of input like "Hello world" will always generate the same hash, but if you change it to be "Hello World" - just capitalizing a single letter - you get a completely different hash. It's "truncated" because no matter how much content you give it as input, the "sha" will always be 40 letters. It's "one way" because you can't somehow reverse the hash to discover the original content, which is where hashes are different to encryption: an encrypted message can be decrypted to its original content, whereas a hashed message cannot be "dehashed" back to its original.
 
 Hashes are frequently used as a checksum to verify that a file or data is correct: if you download a 10GB file and want to be sure it's exactly what the sender created, you can just compare your hash with theirs. Because hashes are truncated to a specific size, it is technically possible for two pieces of very different content to generate the same hash, known as a "collision", but this is extremely rare.
 
@@ -73,7 +73,7 @@ Received 100 new commits.
 Got 600 commits
 ```
 
-Select the data model (<FontIcon icon="iconfont icon-xcode"/>`Project38.xcdatamodeld`) and make sure the Commit entity is selected rather than one of its attributes. If you look in the Data Model inspector you'll see a field marked "Constraints" – click the + button at the bottom of that field. A new row will appear saying "comma,separated,properties". Click on that, hit Enter to make it editable, then type "sha" and hit Enter again. Make sure you press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes!
+Select the data model (<FontIcon icon="iconfont icon-xcode"/>`Project38.xcdatamodeld`) and make sure the Commit entity is selected rather than one of its attributes. If you look in the Data Model inspector you'll see a field marked "Constraints" - click the + button at the bottom of that field. A new row will appear saying "comma,separated,properties". Click on that, hit Enter to make it editable, then type "sha" and hit Enter again. Make sure you press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes!
 
 ![Just adding the word 'sha' to the list of constraints is enough to tell Core Data we need it to be unique.](https://hackingwithswift.com/img/books/hws/38-8@2x.png)
 
@@ -102,7 +102,7 @@ Received 100 new commits.
 Got 100 commits
 ```
 
-As you can see, 100 commits were loaded from the persistent store, 100 "new" commits were pulled in from GitHub, and after Core Data resolved unique attributes there were still only 100 commits in the persistent store. Perfect! If you run your project again after a few hours, the numbers will start to go up slowly as new commits appear on GitHub – Swift is a live project, after all!
+As you can see, 100 commits were loaded from the persistent store, 100 "new" commits were pulled in from GitHub, and after Core Data resolved unique attributes there were still only 100 commits in the persistent store. Perfect! If you run your project again after a few hours, the numbers will start to go up slowly as new commits appear on GitHub - Swift is a live project, after all!
 
-Note: in a couple of chapters I'll be introducing you to something called `NSFetchedResultsController`. Using attribute constraints can cause problems with `NSFetchedResultsController`, but in this tutorial we're always doing a full save and load of our objects because it's an easy way to avoid problems later. Don't worry about it for now – I'll mention it again at the appropriate time.
+Note: in a couple of chapters I'll be introducing you to something called `NSFetchedResultsController`. Using attribute constraints can cause problems with `NSFetchedResultsController`, but in this tutorial we're always doing a full save and load of our objects because it's an easy way to avoid problems later. Don't worry about it for now - I'll mention it again at the appropriate time.
 

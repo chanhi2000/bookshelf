@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-PDF417 barcodes - most frequently seen on boarding passes at airports, but also seen in digital postage stamps and other places – are built right into iOS. This function below accepts a string as its only parameter and returns a `UIImage` containing the PDF417 barcode representing that string:
+PDF417 barcodes - most frequently seen on boarding passes at airports, but also seen in digital postage stamps and other places - are built right into iOS. This function below accepts a string as its only parameter and returns a `UIImage` containing the PDF417 barcode representing that string:
 
 ```swift
 func generatePDF417Barcode(from string: String) -> UIImage? {

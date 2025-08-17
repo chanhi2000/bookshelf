@@ -63,7 +63,7 @@ if rowNumber.isMultiple(of: 2) {
 }
 ```
 
-Yes, we could write the same check using `if rowNumber % 2 == 0` but you have to admit that’s less clear – having `isMultiple(of:)` as a method means it can be listed in code completion options in Xcode, which aids discoverability.
+Yes, we could write the same check using `if rowNumber % 2 == 0` but you have to admit that’s less clear - having `isMultiple(of:)` as a method means it can be listed in code completion options in Xcode, which aids discoverability.
 
 ::: details Other Changes in Swift 5.0
 

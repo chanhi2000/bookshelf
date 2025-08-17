@@ -452,7 +452,7 @@ In general, `n` equally spaced values for `tableValues` produce `n` equal steps 
 
 <VidStack src="https://videopress.com/125d5472-caa4-459c-9c68-756c17d02e71" />
 
-adjusting the number of steps adjusts tableValues and the visual result ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/NPWmorj/) – note that if you’re on a wide gamut display, you’re likely to see this [<FontIcon icon="fa-brands fa-chrome"/>broken in Chrome](https://issues.chromium.org/issues/373410239))
+adjusting the number of steps adjusts tableValues and the visual result ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/NPWmorj/) - note that if you’re on a wide gamut display, you’re likely to see this [<FontIcon icon="fa-brands fa-chrome"/>broken in Chrome](https://issues.chromium.org/issues/373410239))
 
 If we use Pug, we can easily generate these values within a loop:
 
@@ -481,7 +481,7 @@ Below you can see how you can play with an interactive demo that allows to creat
 
 <VidStack src="https://videopress.com/a9dc491f-d20a-4ab4-ae6b-dd774c3f6f42" />
 
-picking the gradient channel and adjusting values for the fixed ones ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/ByNVrKL/) – note that this demo may also suffer from the Chrome wide gamut bug)
+picking the gradient channel and adjusting values for the fixed ones ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/ByNVrKL/) - note that this demo may also suffer from the Chrome wide gamut bug)
 
 Out of all these cases, the most interesting one is the one varying the alpha.
 
@@ -539,7 +539,7 @@ You can check out the live demo for various `--c0` and `--c1` combinations below
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-And yes, in case anyone is wondering, the pure CSS and the SVG `filter` results are identical – you can check it out in this demo.
+And yes, in case anyone is wondering, the pure CSS and the SVG `filter` results are identical - you can check it out in this demo.
 
 <CodePen
   user="thebabydino"
@@ -856,7 +856,7 @@ We could also smoothen the edges of each step using a technique similar to the [
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Another option would be to try to simplify this technique and smoothen the edges of even steps – this avoids increasing the number of primitives with the number of steps, but also comes with other technical challenges. So at the end of the day, it’s another path I’m not fully convinced it’s worth taking for such a small visual gain. Not to mention the weird edge rounding and the even more obvious clump in the middle of the `conic-gradient()`.
+Another option would be to try to simplify this technique and smoothen the edges of even steps - this avoids increasing the number of primitives with the number of steps, but also comes with other technical challenges. So at the end of the day, it’s another path I’m not fully convinced it’s worth taking for such a small visual gain. Not to mention the weird edge rounding and the even more obvious clump in the middle of the `conic-gradient()`.
 
 <CodePen
   user="thebabydino"

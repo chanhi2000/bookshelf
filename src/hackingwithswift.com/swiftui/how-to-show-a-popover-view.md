@@ -54,7 +54,7 @@ head:
 
 SwiftUI has a dedicated modifier for showing popovers, which on iPadOS appear as floating balloons and on iOS slide onto the screen like a sheet.
 
-To show a popover you need some state that determines whether the popover is currently visible, but that’s about it – unlike alerts and action sheets, popovers can contain any kind of view you want. So, just place whatever you need inside the popover and SwiftUI will take care of the rest.
+To show a popover you need some state that determines whether the popover is currently visible, but that’s about it - unlike alerts and action sheets, popovers can contain any kind of view you want. So, just place whatever you need inside the popover and SwiftUI will take care of the rest.
 
 For example, this shows a popover view when a button is tapped:
 

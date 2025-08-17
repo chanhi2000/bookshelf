@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Python for Data Science – Full Course for Beginners"
-description: "Article(s) > Learn Python for Data Science – Full Course for Beginners"
+title: "Learn Python for Data Science - Full Course for Beginners"
+description: "Article(s) > Learn Python for Data Science - Full Course for Beginners"
 icon: fa-brands fa-python
 category:
   - Python
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Python for Data Science – Full Course for Beginners"
+      content: "Article(s) > Learn Python for Data Science - Full Course for Beginners"
     - property: og:description
-      content: "Learn Python for Data Science – Full Course for Beginners"
+      content: "Learn Python for Data Science - Full Course for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-data-science-full-course.html
 prev: /programming/py-pandas/articles/README.md
@@ -64,7 +64,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748543757666/140c2e3
 ---
 
 <SiteInfo
-  name="Learn Python for Data Science – Full Course for Beginners"
+  name="Learn Python for Data Science - Full Course for Beginners"
   desc="If you're interested in data science but not sure where to begin, Python is a great starting point. It’s easy to pick up and has a bunch of libraries that make working with data a lot easier. We just published a course on the freeCodeCamp.org YouTube..."
   url="https://freecodecamp.org/news/learn-python-for-data-science-full-course"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -91,7 +91,7 @@ Are you ready to learn Data Science with Python? Watch the [<FontIcon icon="fa-b
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Python for Data Science – Full Course for Beginners",
+  "title": "Learn Python for Data Science - Full Course for Beginners",
   "desc": "If you're interested in data science but not sure where to begin, Python is a great starting point. It’s easy to pick up and has a bunch of libraries that make working with data a lot easier. We just published a course on the freeCodeCamp.org YouTube...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-data-science-full-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

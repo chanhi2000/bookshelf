@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/9FriGMWIbdc" />
 
-JSON – short for JavaScript Object Notation – is a way of describing data. It's not the easiest to read yourself, but it's compact and easy to parse for computers, which makes it popular online where bandwidth is at a premium.
+JSON - short for JavaScript Object Notation - is a way of describing data. It's not the easiest to read yourself, but it's compact and easy to parse for computers, which makes it popular online where bandwidth is at a premium.
 
 Before we do the parsing, here is a tiny slice of the actual JSON you'll be receiving:
 
@@ -67,7 +67,7 @@ Before we do the parsing, here is a tiny slice of the actual JSON you'll be rece
     },
     "results":[
         {
-            "title":"Legal immigrants should get freedom before undocumented immigrants – moral, just and fair",
+            "title":"Legal immigrants should get freedom before undocumented immigrants - moral, just and fair",
             "body":"I am petitioning President Trump's Administration to take a humane view of the plight of legal immigrants. Specifically, legal immigrants in Employment Based (EB) category. I believe, such immigrants were short changed in the recently announced reforms via Executive Action (EA), which was otherwise long due and a welcome announcement.",
             "issues":[
                 {
@@ -123,7 +123,7 @@ struct Petition {
 }
 ```
 
-That defines a custom struct with three properties. You might remember that one of the advantages of structs in Swift is that it gives us a *memberwise initializer* – a special function that can create new `Petition` instances by passing in values for `title`, `body`, and `signatureCount`.
+That defines a custom struct with three properties. You might remember that one of the advantages of structs in Swift is that it gives us a *memberwise initializer* - a special function that can create new `Petition` instances by passing in values for `title`, `body`, and `signatureCount`.
 
 We’ll come onto that in a moment, but first I mentioned the `Codable` protocol. Our `Petition` struct contains two strings and an integer, all of which conforms to `Codable` already, so we can ask Swift to make the whole `Petition` type conform to `Codable` like this:
 
@@ -169,12 +169,12 @@ Put that in place of the current `petitions` definition at the top of <FontIcon 
 
 It's now time to parse some JSON, which means to process it and examine its contents. We're going to start by updating the `viewDidLoad()` method for `ViewController` so that it downloads the data from the Whitehouse petitions server, converts it to a Swift `Data` object, then tries to convert it to an array of `Petition` instances.
 
-We haven’t used `Data` before. Like `String` and `Int` it’s one of Swift’s fundamental data types, although it’s even more low level – it holds literally any binary data. It might be a string, it might be the contents of a zip file, or literally anything else.
+We haven’t used `Data` before. Like `String` and `Int` it’s one of Swift’s fundamental data types, although it’s even more low level - it holds literally any binary data. It might be a string, it might be the contents of a zip file, or literally anything else.
 
 `Data` and `String` have quite a few things in common.
 You already saw that `String` can be created using `contentsOf` to load data from disk, and `Data` has exactly the same initializer.
 
-This is perfect for our needs – here's the new `viewDidLoad` method:
+This is perfect for our needs - here's the new `viewDidLoad` method:
 
 ```swift
 override func viewDidLoad() {
@@ -193,7 +193,7 @@ override func viewDidLoad() {
 
 ::: note
 
-Above I’ve included a URL for the official Whitehouse API feed, but that might go away or change at any point in the future. So, to avoid problems I’ve taken a copy of that feed and put it on my own site – you can use either the official API or my own copy.
+Above I’ve included a URL for the official Whitehouse API feed, but that might go away or change at any point in the future. So, to avoid problems I’ve taken a copy of that feed and put it on my own site - you can use either the official API or my own copy.
 
 :::
 
@@ -247,11 +247,11 @@ cell.detailTextLabel?.text = petition.body
 
 Our custom `Petition` type has properties for `title`, `body` and `signatureCount`, so now we can read them out to configure our cell correctly.
 
-If you run the app now, you'll see things are starting to come together quite nicely – every table row now shows the petition title, and beneath it shows the first few words of the petition's body. The subtitle automatically shows "…" at the end when there isn't enough room for all the text, but it's enough to give the user a flavor of what's going on.
+If you run the app now, you'll see things are starting to come together quite nicely - every table row now shows the petition title, and beneath it shows the first few words of the petition's body. The subtitle automatically shows "…" at the end when there isn't enough room for all the text, but it's enough to give the user a flavor of what's going on.
 
 ::: tip
 
-If you don’t see any data, make sure you named all the properties in the `Petition` struct correctly – the `Codable` protocol matches those names against the JSON directly, so if you have a typo in “signatureCount” then it will fail.
+If you don’t see any data, make sure you named all the properties in the `Petition` struct correctly - the `Codable` protocol matches those names against the JSON directly, so if you have a typo in “signatureCount” then it will fail.
 
 :::
 

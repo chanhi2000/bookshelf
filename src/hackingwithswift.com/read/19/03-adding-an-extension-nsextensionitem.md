@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,13 +59,13 @@ To get started with a fresh extension, go to the File menu and choose New > Targ
 
 ![Creating a new Action Extension target effectively creates a separate chunk of source code to manage inside your project.](https://hackingwithswift.com/img/books/hws/19-3@2x.png)
 
-When you create an extension inside an app, Xcode will ask you whether you want to activate its scheme. Check the "Do not show this message again" box then click Activate. With this change, when you run your code, you'll actually launch the extension – it's perfect for our needs right now.
+When you create an extension inside an app, Xcode will ask you whether you want to activate its scheme. Check the "Do not show this message again" box then click Activate. With this change, when you run your code, you'll actually launch the extension - it's perfect for our needs right now.
 
 Once your extension has been created, it will appear in the project navigation in its own yellow folder. You should see Project19 at the top, but look below and you'll see Extension. Open up the disclosure arrow and you'll see Xcode has given you two files: <FontIcon icon="fa-brands fa-swift"/>`ActionViewController.swift` and MainInterface.storyboard.
 
 If you look inside <FontIcon icon="fa-brands fa-swift"/>`ActionViewController.swift` you'll see a fair amount of code, and I have some bad news for you: the code is complicated, the code is pretty much all new, and most of it is required. It's complicated because it needs to be: your extension doesn't talk to Safari and Safari doesn't talk to your extension, because it opens up security risks. Instead, iOS acts as an intermediary between Safari and the extension, passing data safely between the two.
 
-To help make the code in `viewDidLoad()` a little easier to understand, I want you to delete it. Go on – zap it all, leaving `viewDidLoad()` doing nothing more than calling `super.viewDidLoad()`. We're going to replace it with code that is somewhat similar, but I've removed the complicated parts to try to make it easier. You'll probably want to return to Apple's template code in your own apps!
+To help make the code in `viewDidLoad()` a little easier to understand, I want you to delete it. Go on - zap it all, leaving `viewDidLoad()` doing nothing more than calling `super.viewDidLoad()`. We're going to replace it with code that is somewhat similar, but I've removed the complicated parts to try to make it easier. You'll probably want to return to Apple's template code in your own apps!
 
 Change your `viewDidLoad()` method to this:
 
@@ -93,5 +93,5 @@ Let's walk through that line by line:
 
 This code takes a number of shortcuts that Apple's own code doesn't, which is why it's significantly shorter. Once you've gotten to grips with this basic extension, I do recommend you go back and look at Apple's template code to see how it loops through all the items and providers to find the first image it can.
 
-Despite all that work, you can't see the results just yet – we need to do some configuration work first, because Apple's default action extension is configured for images, not for web page content.
+Despite all that work, you can't see the results just yet - we need to do some configuration work first, because Apple's default action extension is configured for images, not for web page content.
 

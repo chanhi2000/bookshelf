@@ -137,7 +137,7 @@ But the Raspberry Pi needs an empty MicroSD Card to install the Raspberry Pi OS 
 
 #### Insert your MicroSD Card into a flash drive with a SD Card slot
 
-Aside from using a flash drive with an SD Card slot (so as to get the memory card connected to the computer), you can also use a SD Card adapter. Make sure it’s inserted into your computer where you have the Raspberry PI Imager downloaded to flash – that is, transfer the OS into the SD Card.
+Aside from using a flash drive with an SD Card slot (so as to get the memory card connected to the computer), you can also use a SD Card adapter. Make sure it’s inserted into your computer where you have the Raspberry PI Imager downloaded to flash - that is, transfer the OS into the SD Card.
 
 ![My flash drive with an SD card slot](https://cdn.hashnode.com/res/hashnode/image/upload/v1747921369222/7deebdff-d0bc-4f08-9aab-07c562a712bd.jpeg)
 
@@ -161,7 +161,7 @@ Click the Raspberry Pi Imager download, follow all the instructions during the i
 
 For each of the three configurations, you must select one sequentially. Select a device according to the type of Raspberry Pi you have, and various options will appear. I selected the Raspberry Pi 4, as it is my preferred device. You may choose between the Raspberry Pi 5 and the Raspberry Pi Zero 2 W, depending on your device requirements.
 
-Next, proceed to the operating system – I would recommend choosing the 64-bit version. While many people opt for the legacy version (32-bit), I think the 64-bit version is best. Once you're finished, you can choose a storage option, and your MicroSD should appear. My storage is around 128GB, which is why you can see 125.1GB displayed there in the screenshot below:
+Next, proceed to the operating system - I would recommend choosing the 64-bit version. While many people opt for the legacy version (32-bit), I think the 64-bit version is best. Once you're finished, you can choose a storage option, and your MicroSD should appear. My storage is around 128GB, which is why you can see 125.1GB displayed there in the screenshot below:
 
 ![Screenshot of the Raspberry Pi Imager v1.8.5 interface. It shows options for selecting a Raspberry Pi device, operating system, and storage. Available devices include Raspberry Pi 5, 4, and Zero 2 W. Operating systems listed are Raspberry Pi OS in 64-bit and 32-bit versions, and there is a USB device listed for storage.](https://cdn.hashnode.com/res/hashnode/image/upload/v1747922610658/d5f4c750-ab40-47ed-8c0c-fe5951f68660.png)
 
@@ -287,7 +287,7 @@ It should get connected after trying this. Just make sure that the passwords are
 
 ![Screenshot of a portable hotspot setup screen showing fields for network name, password, security setting (WPA2-Personal), AP band selection (5 GHz), and an option to hide the SSID, which is off.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748028008935/192fb282-93c7-4b65-86a2-c26cdfac9d53.jpeg)
 
-To confirm if the Raspberry Pi is connected using the command line interface, use the `ping` command – it shows the devices connected to the device.
+To confirm if the Raspberry Pi is connected using the command line interface, use the `ping` command - it shows the devices connected to the device.
 
 ```bash
 ping raspberrypi.local
@@ -339,7 +339,7 @@ Host raspberrypi.local
 
 ![611b6a3d-cd4c-4756-982b-76efb0aa25c9](https://cdn.hashnode.com/res/hashnode/image/upload/v1747933533204/611b6a3d-cd4c-4756-982b-76efb0aa25c9.png)
 
-Enter your username as `raspberrypi.local` and input your password – the same as the password during loading Raspbian OS.
+Enter your username as `raspberrypi.local` and input your password - the same as the password during loading Raspbian OS.
 
 ![Visual Studio Code interface showing a prompt to enter a password for "pi@raspberrypi.local" to set up an SSH host. The background features a shortcut guide and a loading bar.](https://cdn.hashnode.com/res/hashnode/image/upload/v1747933839359/7f43b231-5177-4b11-9d10-7234961db3f7.png)
 

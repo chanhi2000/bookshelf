@@ -301,7 +301,7 @@ act -l
 
 You use the `--job` option command to run specific jobs from your workflows.
 
-Make sure your job name is unique – otherwise, it runs all jobs containing the same in your workflow. Whenever you can not pass an event by default, trigger the push event.
+Make sure your job name is unique - otherwise, it runs all jobs containing the same in your workflow. Whenever you can not pass an event by default, trigger the push event.
 
 @tab Graph
 

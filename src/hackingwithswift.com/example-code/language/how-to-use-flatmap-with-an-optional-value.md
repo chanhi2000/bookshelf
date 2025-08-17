@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ let stringNumber: String? = "5"
 let intNumber = stringNumber.map { Int($0) }
 ```
 
-When that code runs, `intNumber` will be an `Int??` – an optional optional integer. This is because we already have optionality from `stringNumber`, and the `Int` initializer from a string also returns an optional, so `map()` just puts them together.
+When that code runs, `intNumber` will be an `Int??` - an optional optional integer. This is because we already have optionality from `stringNumber`, and the `Int` initializer from a string also returns an optional, so `map()` just puts them together.
 
 In comparison, `flatMap()` acts differently:
 
@@ -76,7 +76,7 @@ In comparison, `flatMap()` acts differently:
 let flatMapNumber = stringNumber.flatMap { Int($0) }
 ```
 
-That will return a regular `Int?`, meaning that either the whole thing exists or nothing exists – it’s easier to work with.
+That will return a regular `Int?`, meaning that either the whole thing exists or nothing exists - it’s easier to work with.
 
 -->
 

@@ -64,7 +64,7 @@ Generally, we can categorize web security vulnerabilities into the following buc
 - **SQL injection**: A technique where attackers are able to insert malicious SQL code into SQL queries through unvalidated inputs, allowing them to modify / read database contents.
 - **Cross-Site Scripting (XSS)**: A technique where attackers inject malicious JavaScript in trusted websites. This allows them to execute the JavaScript code in the context of the browser and steal sensitive information or perform unauthorized operations.
 - **Sensitive information exposure**: A security issue where an application unintentionally reveals sensitive data like passwords, API keys and so on through logs, insecure storage, and other vulnerabilities.
-- **Common security misconfigurations**: Security issues that occurs due to improper configuration of web servers – like default credentials for administrator accounts, enabled debug mode, publicly available administrator dashboards with weak credentials, and so on.
+- **Common security misconfigurations**: Security issues that occurs due to improper configuration of web servers - like default credentials for administrator accounts, enabled debug mode, publicly available administrator dashboards with weak credentials, and so on.
 - **Basic authentication weaknesses**: Security issues that occur due to lapses in password policies, user authentication processes, improper session management, and so on.
 
 :::

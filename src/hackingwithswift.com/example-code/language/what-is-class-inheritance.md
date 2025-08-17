@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Swift allows you to define a custom class as inheriting from another, which means it gains the functionality of the original class while being able to add its own. This is used extensively on Apple platforms: `UIButton` inherits from `UIControl`, which inherits from `UIView`, which inherits from `UIResponder`, which inherits from `NSObject`, for example.
 
-This approach allows you to create something new by building upon and tweaking existing functionality. If you want to create a custom view for your app, you don’t need to go all the way back to basics – you can just inherit from `UIView` and make whatever changes you need. This means you automatically benefit from things like background colors, Auto Layout, `CALayer`, and more.
+This approach allows you to create something new by building upon and tweaking existing functionality. If you want to create a custom view for your app, you don’t need to go all the way back to basics - you can just inherit from `UIView` and make whatever changes you need. This means you automatically benefit from things like background colors, Auto Layout, `CALayer`, and more.
 
 While inheritance is both power and used extensively, it does create some problems. The main two are first that it’s available only with classes and so Swift’s structs and enums are excluded, and the second are that it creates tight coupling, where one piece of code depends heavily on another piece of code.
 

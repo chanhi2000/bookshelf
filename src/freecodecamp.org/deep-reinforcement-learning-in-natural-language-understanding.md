@@ -88,7 +88,7 @@ Imagine you’re playing a video game where you’re controlling a character, an
 
 We can think of DRL as a technique that enables computers or robots to learn how to play video games as time goes on. DRL involves a computer learning from its environment, learning from its experiences and mistakes. The computer, like the player, tries different actions and receives feedback based on its performance. If it performs well, it gets rewards, while if it fails, it gets a penalty.
 
-The computer’s job is to figure out the best possible actions to take in different situations to maximize rewards. Instead of learning from trial and error, DRL uses deep neural networks, which are like super-smart brains that can understand vast amounts of data and patterns. These neural networks help the computer make better decisions in the future, and over time, it can become even better at playing the game – sometimes even better than humans.
+The computer’s job is to figure out the best possible actions to take in different situations to maximize rewards. Instead of learning from trial and error, DRL uses deep neural networks, which are like super-smart brains that can understand vast amounts of data and patterns. These neural networks help the computer make better decisions in the future, and over time, it can become even better at playing the game - sometimes even better than humans.
 
 ![Deep reinforcement learning approach<br/>[<FontIcon icon="fas fa-globe"/>mage Source](https://researchgate.net/publication/333909668_Demand_Response_Management_for_Industrial_Facilities_A_Deep_Reinforcement_Learning_Approach)](https://cdn-images-1.medium.com/max/1600/1*7UeewswDEpqTALIvwkNNAw.png)
 
@@ -221,7 +221,7 @@ DRL is not a general-purpose solution for most NLU challenges, such as handling 
 That said, DRL still plays a valuable role in specific areas where feedback and long-term optimization are useful. It is commonly applied in:
 
 - **Improving dialogue strategy:** DRL helps conversational agents manage turn-taking, adjust tone, and adapt to user preferences across multiple interactions.
-- **Aligning model behavior using RLHF:** Reinforcement learning from human feedback (RLHF – more on this below) uses DRL to train models that respond in ways people find more helpful, safe, or contextually appropriate.
+- **Aligning model behavior using RLHF:** Reinforcement learning from human feedback (RLHF - more on this below) uses DRL to train models that respond in ways people find more helpful, safe, or contextually appropriate.
 - **Reward modeling for alignment and safety:** DRL enables the training of reward models that guide language systems toward ethical, culturally aware, or domain-specific behavior.
 
 Looking ahead, DRL is likely to grow in importance for applications that involve real-time interaction, long-horizon reasoning, or agent-driven workflows. For now, it serves as a targeted enhancement alongside more widely used training methods.
@@ -232,9 +232,9 @@ Let’s talk a bit more about RLHF, as it’s pretty important here. It’s also
 
 It works in three main steps:
 
-1. **Reward model training** – Human annotators rank model outputs for the same prompt. These rankings are used to train a reward model that scores outputs based on how helpful, safe, or relevant they are.
-2. **Policy optimization** – Using algorithms such as PPO (Proximal Policy Optimization), the base language model is fine-tuned to maximize the reward model’s score.
-3. **Iteration and safety** – RLHF loops are often combined with safety-focused reward modeling, constitutional AI (following explicit guidelines for safe behavior), refusal strategies for harmful requests, and red‑teaming to probe weaknesses.
+1. **Reward model training** - Human annotators rank model outputs for the same prompt. These rankings are used to train a reward model that scores outputs based on how helpful, safe, or relevant they are.
+2. **Policy optimization** - Using algorithms such as PPO (Proximal Policy Optimization), the base language model is fine-tuned to maximize the reward model’s score.
+3. **Iteration and safety** - RLHF loops are often combined with safety-focused reward modeling, constitutional AI (following explicit guidelines for safe behavior), refusal strategies for harmful requests, and red‑teaming to probe weaknesses.
 
 Data‑efficient variants are increasingly common, such as offline RL, replay buffers, and leveraging implicit feedback like click‑through logs.
 
@@ -441,7 +441,7 @@ Despite being over 100× smaller than GPT-3, InstructGPT was preferred by humans
 
 While DRL is not the default approach for most NLU tasks, it has shown promising results in targeted use cases, especially where learning from interaction or adapting over time adds value. Below are a few examples that illustrate how DRL can enhance language understanding in practice:
 
-### 1. Welocalize & Global E-Commerce Giant – DRL-Powered Multilingual NLU
+### 1. Welocalize & Global E-Commerce Giant - DRL-Powered Multilingual NLU
 
 A global e-commerce platform partnered with Welocalize to [<FontIcon icon="fas fa-globe"/>launch a DRL-powered multilingual NLU system](https://welocalize.com/insights/case-study-transforming-global-customer-interactions-with-nlu/) capable of interpreting customer intent across 30+ languages and domains. This system used reinforcement learning to adapt to cultural nuances and refine predictions through user interaction. Over 13 million high-quality utterances delivered for culturally adaptive, accurate customer support and product recommendations.
 

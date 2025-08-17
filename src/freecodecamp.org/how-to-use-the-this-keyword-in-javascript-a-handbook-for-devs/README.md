@@ -46,14 +46,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752155267760/5e5fc56
 
 <SiteInfo
   name="How to Use the “this” Keyword in JavaScript: A Handbook for Devs"
-  desc="The this keyword in JavaScript is like a chameleon – it changes its meaning depending on where and how it's used. Many developers struggle with this because it doesn't behave the same way in JavaScript as it does in other programming languages. Think..."
+  desc="The this keyword in JavaScript is like a chameleon - it changes its meaning depending on where and how it's used. Many developers struggle with this because it doesn't behave the same way in JavaScript as it does in other programming languages. Think..."
   url="https://freecodecamp.org/news/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1752155267760/5e5fc562-e515-4843-ad64-32129c293d67.png"/>
 
-The `this` keyword in JavaScript is like a chameleon – it changes its meaning depending on where and how it's used.
+The `this` keyword in JavaScript is like a chameleon - it changes its meaning depending on where and how it's used.
 
-Many developers struggle with `this` because it doesn't behave the same way in JavaScript as it does in other programming languages. Think of `this` as a spotlight that points to different objects depending on the context – much like how the word "here" means different locations depending on where you're standing when you say it.
+Many developers struggle with `this` because it doesn't behave the same way in JavaScript as it does in other programming languages. Think of `this` as a spotlight that points to different objects depending on the context - much like how the word "here" means different locations depending on where you're standing when you say it.
 
 In this handbook, you will learn why `this` keyword is important in JavaScript and how to work with it effectively.
 
@@ -86,9 +86,9 @@ function introduce() {
 
 ::: info Code explanation:
 
-- `function introduce()` – This creates a function called `introduce`
-- `this.name` – The `this` keyword here will refer to whatever object calls this function
-- `${this.name}` – This is template literal syntax that inserts the value of `this.name` into the string
+- `function introduce()` - This creates a function called `introduce`
+- `this.name` - The `this` keyword here will refer to whatever object calls this function
+- `${this.name}` - This is template literal syntax that inserts the value of `this.name` into the string
 - The function doesn't know what `this` refers to until it is actually called
 
 Understanding `this` is crucial for JavaScript development for a few key reasons:
@@ -127,7 +127,7 @@ Let's explore each rule with detailed examples.
 
 ---
 
-## Rule 1: Explicit Binding – Taking Control
+## Rule 1: Explicit Binding - Taking Control
 
 Explicit binding is when you explicitly tell JavaScript what `this` should refer to using `call()`, `apply()`, or `bind()`. This is like directly pointing at someone and saying "YOU do this task."
 
@@ -163,16 +163,16 @@ greet.call(person2, "Hi", ".");
 
 ::: info Code explanation
 
-- `const person1 = { name: "Alice", age: 30 };` – Creates an object with `name` and `age` properties
-- `const person2 = { name: "Bob", age: 25 };` – Creates another object with different values
-- `function greet(greeting, punctuation)` – Defines a function that takes two parameters
-- `this.name` and `this.age` – These refer to properties of whatever object `this` points to
-- `greet.call(person1, "Hello", "!")` – The `call()` method does three things:
+- `const person1 = { name: "Alice", age: 30 };` - Creates an object with `name` and `age` properties
+- `const person2 = { name: "Bob", age: 25 };` - Creates another object with different values
+- `function greet(greeting, punctuation)` - Defines a function that takes two parameters
+- `this.name` and `this.age` - These refer to properties of whatever object `this` points to
+- `greet.call(person1, "Hello", "!")` - The `call()` method does three things:
     1. Sets `this` inside the `greet` function to point to `person1`
     2. Passes `"Hello"` as the first argument (`greeting`)
     3. Passes `"!"` as the second argument (`punctuation`)
 - When the function runs, `this.name` becomes `person1.name` ("Alice") and `this.age` becomes `person1.age` (30)
-- `greet.call(person2, "Hi", ".")` – Same process but now `this` points to `person2`
+- `greet.call(person2, "Hi", ".")` - Same process but now `this` points to `person2`
 
 ### Using `apply()`
 
@@ -201,14 +201,14 @@ calculateAverage.call(student, "Mathematics", "Fall 2024");
 
 ::: info Code explanation
 
-- `const student = { name: "Sarah", grades: [85, 92, 78, 96] };` – Creates an object with a `name` string and `grades` array
-- `function calculateAverage(subject, semester)` – Function that calculates average of grades
-- `this.grades.reduce((sum, grade) => sum + grade, 0)` – Uses the `reduce` method to sum all grades:
-  - `(sum, grade) => sum + grade` – Arrow function that adds current grade to running sum
-  - `0` – Starting value for the sum
-- `this.grades.length` – Gets the number of grades in the array
-- `average.toFixed(1)` – Rounds the average to 1 decimal place
-- `calculateAverage.apply(student, ["Mathematics", "Fall 2024"])` – The `apply()` method:
+- `const student = { name: "Sarah", grades: [85, 92, 78, 96] };` - Creates an object with a `name` string and `grades` array
+- `function calculateAverage(subject, semester)` - Function that calculates average of grades
+- `this.grades.reduce((sum, grade) => sum + grade, 0)` - Uses the `reduce` method to sum all grades:
+  - `(sum, grade) => sum + grade` - Arrow function that adds current grade to running sum
+  - `0` - Starting value for the sum
+- `this.grades.length` - Gets the number of grades in the array
+- `average.toFixed(1)` - Rounds the average to 1 decimal place
+- `calculateAverage.apply(student, ["Mathematics", "Fall 2024"])` - The `apply()` method:
     1. Sets `this` to point to the `student` object
     2. Takes the array `["Mathematics", "Fall 2024"]` and spreads it as individual arguments
     3. So `subject` becomes `"Mathematics"` and `semester` becomes `"Fall 2024"`
@@ -246,15 +246,15 @@ showCarInfo.call(anotherCar); // Still outputs: "This is a 2023 Tesla Model 3"
 
 ::: info Code explanation
 
-- `const car = { brand: "Tesla", model: "Model 3", year: 2023 };` – Creates a car object with three properties
-- `function displayInfo()` – A function that uses `this.year`, `this.brand`, and `this.model`
-- `const showCarInfo = displayInfo.bind(car);` – The `bind()` method:
+- `const car = { brand: "Tesla", model: "Model 3", year: 2023 };` - Creates a car object with three properties
+- `function displayInfo()` - A function that uses `this.year`, `this.brand`, and `this.model`
+- `const showCarInfo = displayInfo.bind(car);` - The `bind()` method:
     1. Creates a new function based on `displayInfo`
     2. Permanently sets `this` to point to the `car` object
     3. Returns this new function and stores it in `showCarInfo`
-- `showCarInfo()` – When called, this function will always use `car` as `this`, regardless of how it's called
-- `const anotherCar = { brand: "BMW", model: "X3", year: 2022 };` – Creates another car object
-- `showCarInfo.call(anotherCar)` – Even though we try to use `call()` to change `this`, it doesn't work because `bind()` creates a permanent binding
+- `showCarInfo()` - When called, this function will always use `car` as `this`, regardless of how it's called
+- `const anotherCar = { brand: "BMW", model: "X3", year: 2022 };` - Creates another car object
+- `showCarInfo.call(anotherCar)` - Even though we try to use `call()` to change `this`, it doesn't work because `bind()` creates a permanent binding
 
 :::
 
@@ -279,14 +279,14 @@ multiplyByTwo(5, 6); // Output: "SuperCalc calculated: 2 × 5 × 6 = 60"
 
 ::: info Code explanation
 
-- `function multiply(a, b, c)` – Function that takes three numbers and multiplies them
-- `${this.name} calculated: ${a} × ${b} × ${c} = ${a * b * c}` – Template literal that shows the calculation
-- `const calculator = { name: "SuperCalc" };` – Object with a `name` property
-- `const multiplyByTwo = multiply.bind(calculator, 2);` – The `bind()` method here:
+- `function multiply(a, b, c)` - Function that takes three numbers and multiplies them
+- `${this.name} calculated: ${a} × ${b} × ${c} = ${a * b * c}` - Template literal that shows the calculation
+- `const calculator = { name: "SuperCalc" };` - Object with a `name` property
+- `const multiplyByTwo = multiply.bind(calculator, 2);` - The `bind()` method here:
     1. Sets `this` to point to `calculator`
     2. Sets the first argument (`a`) to always be `2`
     3. Returns a new function that only needs two more arguments
-- `multiplyByTwo(3, 4)` – When called:
+- `multiplyByTwo(3, 4)` - When called:
   - `a` is already set to `2` (from bind)
   - `b` becomes `3` (first argument passed)
   - `c` becomes `4` (second argument passed)
@@ -297,7 +297,7 @@ multiplyByTwo(5, 6); // Output: "SuperCalc calculated: 2 × 5 × 6 = 60"
 
 ---
 
-## Rule 2: Implicit Binding – The Natural Way
+## Rule 2: Implicit Binding - The Natural Way
 
 Implicit binding occurs when a function is called as a method of an object. The object to the left of the dot becomes the value of `this`. This is like saying "the owner of this method is doing the action."
 
@@ -327,15 +327,15 @@ restaurant.cookPizza("pepperoni and mushrooms");
 
 ::: info Code explanation
 
-- `const restaurant = { ... };` – Creates an object with four properties: `name`, `location`, `chef`, and two methods
-- `welcomeGuest: function() { ... }` – A method (function inside an object) that uses `this.name` and `this.location`
-- `cookPizza: function(toppings) { ... }` – Another method that takes a `toppings` parameter
-- `restaurant.welcomeGuest()` – When called this way:
+- `const restaurant = { ... };` - Creates an object with four properties: `name`, `location`, `chef`, and two methods
+- `welcomeGuest: function() { ... }` - A method (function inside an object) that uses `this.name` and `this.location`
+- `cookPizza: function(toppings) { ... }` - Another method that takes a `toppings` parameter
+- `restaurant.welcomeGuest()` - When called this way:
     1. JavaScript looks at what's to the left of the dot (`restaurant`)
     2. Sets `this` inside `welcomeGuest` to point to the `restaurant` object
     3. `this.name` becomes `restaurant.name` ("Mario's Pizza")
     4. `this.location` becomes `restaurant.location` ("New York")
-- `restaurant.cookPizza("pepperoni and mushrooms")` – Similar process:
+- `restaurant.cookPizza("pepperoni and mushrooms")` - Similar process:
     1. `this` points to `restaurant`
     2. `this.chef` becomes `restaurant.chef` ("Mario")
     3. `this.name` becomes `restaurant.name` ("Mario's Pizza")
@@ -365,9 +365,9 @@ company.departments.introduce();
 
 ::: info Code explanation
 
-- `const company = { name: "TechCorp", departments: { ... } };` – Creates a company object with a nested `departments` object
-- `departments: { name: "Engineering", head: "Jane Smith", introduce: function() { ... } }` – The nested object has its own properties and method
-- `company.departments.introduce()` – When called:
+- `const company = { name: "TechCorp", departments: { ... } };` - Creates a company object with a nested `departments` object
+- `departments: { name: "Engineering", head: "Jane Smith", introduce: function() { ... } }` - The nested object has its own properties and method
+- `company.departments.introduce()` - When called:
     1. JavaScript looks at what's immediately to the left of the dot before `introduce`
     2. That's `company.departments`, so `this` points to the `departments` object (not the `company` object)
     3. `this.name` becomes `"Engineering"` (from departments.name, not company.name)
@@ -382,7 +382,7 @@ One of the most common issues developers face with `this` is **context loss**. T
 
 When you pass a method as a callback (like to `setInterval`, `setTimeout`, or array methods), the function gets called without its original object context. Instead of `this` referring to your object, it falls back to default binding (undefined in strict mode, or the global object in non-strict mode).
 
-This is why `timer.tick` works perfectly when called as `timer.tick()`, but fails when passed as `setInterval(this.tick, 1000)` – the calling context changes completely.
+This is why `timer.tick` works perfectly when called as `timer.tick()`, but fails when passed as `setInterval(this.tick, 1000)` - the calling context changes completely.
 
 ```js :collapsed-lines
 const timer = {
@@ -413,15 +413,15 @@ timer.startCorrect(); // Will correctly increment and log the timer
 
 ::: info Code explanation
 
-- `const timer = { seconds: 0, ... };` – Creates a timer object with a `seconds` property starting at 0
-- `tick: function() { this.seconds++; ... }` – Method that increments `seconds` and logs current value
-- `start: function() { setInterval(this.tick, 1000); }` – **PROBLEMATIC** method:
+- `const timer = { seconds: 0, ... };` - Creates a timer object with a `seconds` property starting at 0
+- `tick: function() { this.seconds++; ... }` - Method that increments `seconds` and logs current value
+- `start: function() { setInterval(this.tick, 1000); }` - **PROBLEMATIC** method:
     1. `this.tick` refers to the `tick` method
     2. `setInterval(this.tick, 1000)` passes the `tick` function to `setInterval`
     3. When `setInterval` calls `tick` after 1 second, it calls it as a standalone function (not as `timer.tick()`)
     4. This means `this` inside `tick` becomes `undefined` (in strict mode) or the global object
     5. `this.seconds++` tries to increment `undefined.seconds`, resulting in `NaN`
-- `startCorrect: function() { setInterval(this.tick.bind(this), 1000); }` – **CORRECT** solution:
+- `startCorrect: function() { setInterval(this.tick.bind(this), 1000); }` - **CORRECT** solution:
     1. `this.tick.bind(this)` creates a new function where `this` is permanently bound to the `timer` object
     2. When `setInterval` calls this bound function, `this` still refers to `timer`
     3. `this.seconds++` correctly increments `timer.seconds`
@@ -434,7 +434,7 @@ timer.startCorrect(); // Will correctly increment and log the timer
 
 ---
 
-## Rule 3: New Binding – Constructor Functions
+## Rule 3: New Binding - Constructor Functions
 
 When a function is called with the `new` keyword, JavaScript creates a new object and sets `this` to that new object. This is like creating a new instance of something from a blueprint.
 
@@ -471,19 +471,19 @@ console.log(bob.name);
 
 ::: info Code explanation
 
-- `function Person(name, age, profession) { ... }` – This is a constructor function (note the capital P)
-- `this.name = name;` – Sets the `name` property of the new object to the passed `name` parameter
-- `this.age = age;` – Sets the `age` property of the new object to the passed `age` parameter
-- `this.profession = profession;` – Sets the `profession` property of the new object
-- `this.introduce = function() { ... }` – Adds a method to the new object
-- `const alice = new Person("Alice", 28, "developer");` – The `new` keyword:
+- `function Person(name, age, profession) { ... }` - This is a constructor function (note the capital P)
+- `this.name = name;` - Sets the `name` property of the new object to the passed `name` parameter
+- `this.age = age;` - Sets the `age` property of the new object to the passed `age` parameter
+- `this.profession = profession;` - Sets the `profession` property of the new object
+- `this.introduce = function() { ... }` - Adds a method to the new object
+- `const alice = new Person("Alice", 28, "developer");` - The `new` keyword:
     1. Creates a new empty object `{}`
     2. Sets `this` inside the `Person` function to point to this new object
     3. Calls `Person("Alice", 28, "developer")` with the new object as `this`
     4. The function adds properties to this new object
     5. Returns the new object and stores it in `alice`
-- `const bob = new Person("Bob", 35, "designer");` – Same process, creates a different object
-- `alice.introduce()` – Calls the `introduce` method on the `alice` object:
+- `const bob = new Person("Bob", 35, "designer");` - Same process, creates a different object
+- `alice.introduce()` - Calls the `introduce` method on the `alice` object:
     1. `this` inside `introduce` refers to `alice`
     2. `this.name` becomes `alice.name` ("Alice")
     3. `this.age` becomes `alice.age` (28)
@@ -515,18 +515,18 @@ console.log(myCar);
 
 ::: info Code explanation
 
-- `function Car(make, model) { ... }` – Constructor function for creating car objects
-- `console.log(this);` – When called with `new`, this shows the new empty object that was just created
-- `this.make = make;` – Adds a `make` property to the new object
-- `this.model = model;` – Adds a `model` property to the new object
-- `const myCar = new Car("Toyota", "Camry");` – The `new` process:
+- `function Car(make, model) { ... }` - Constructor function for creating car objects
+- `console.log(this);` - When called with `new`, this shows the new empty object that was just created
+- `this.make = make;` - Adds a `make` property to the new object
+- `this.model = model;` - Adds a `model` property to the new object
+- `const myCar = new Car("Toyota", "Camry");` - The `new` process:
     1. Creates new empty object: `{}`
     2. Sets `this` to point to this object
     3. Calls `Car("Toyota", "Camry")`
     4. Inside the function, `this.make = "Toyota"` and `this.model = "Camry"`
     5. Object becomes: `{ make: "Toyota", model: "Camry" }`
     6. Returns this object and stores it in `myCar`
-- `console.log(myCar);` – Shows the final object with all its properties
+- `console.log(myCar);` - Shows the final object with all its properties
 
 :::
 
@@ -577,27 +577,27 @@ account.withdraw(200);
 
 ::: info Code explanation
 
-- `function BankAccount(accountNumber, initialBalance) { ... }` – Constructor for bank account objects
-- `this.accountNumber = accountNumber;` – Sets the account number property
-- `this.balance = initialBalance;` – Sets the initial balance
-- `this.transactions = [];` – Creates an empty array to store transaction history
-- `this.deposit = function(amount) { ... }` – Adds a deposit method to each account object:
-    1. `this.balance += amount;` – Increases the balance by the deposit amount
-    2. `this.transactions.push(...)` – Adds a record to the transactions array
-    3. `console.log(...)` – Shows confirmation message with new balance
-- `this.withdraw = function(amount) { ... }` – Adds a withdrawal method:
-    1. `if (amount <= this.balance)` – Checks if there's enough money
+- `function BankAccount(accountNumber, initialBalance) { ... }` - Constructor for bank account objects
+- `this.accountNumber = accountNumber;` - Sets the account number property
+- `this.balance = initialBalance;` - Sets the initial balance
+- `this.transactions = [];` - Creates an empty array to store transaction history
+- `this.deposit = function(amount) { ... }` - Adds a deposit method to each account object:
+    1. `this.balance += amount;` - Increases the balance by the deposit amount
+    2. `this.transactions.push(...)` - Adds a record to the transactions array
+    3. `console.log(...)` - Shows confirmation message with new balance
+- `this.withdraw = function(amount) { ... }` - Adds a withdrawal method:
+    1. `if (amount <= this.balance)` - Checks if there's enough money
     2. If yes: decreases balance, adds transaction record, shows confirmation
     3. If no: shows an " insufficient funds message”
-- `const account = new BankAccount("123456789", 1000);` – Creates a new account with:
+- `const account = new BankAccount("123456789", 1000);` - Creates a new account with:
   - Account number: "123456789"
   - Initial balance: 1000
   - Empty transactions array
-- `account.deposit(500);` – Calls the deposit method on the account:
+- `account.deposit(500);` - Calls the deposit method on the account:
     1. `this` inside deposit refers to `account`
     2. `this.balance` (1000) becomes 1500
     3. Adds "Deposit: +$500" to transactions array
-- `account.withdraw(200);` – Calls withdraw method:
+- `account.withdraw(200);` - Calls withdraw method:
     1. Checks if 200 <= 1500 (true)
     2. `this.balance` (1500) becomes 1300
     3. Adds "Withdrawal: -$200" to transactions array
@@ -606,17 +606,17 @@ account.withdraw(200);
 
 Here are the best practices identified from the code example:
 
-- `function BankAccount(accountNumber, initialBalance) { ... }` – **Best Practice 1**: Constructor name uses PascalCase and descriptive parameters
-- `this.accountNumber = accountNumber;` – **Best Practice 2**: Initialize all properties with clear names
-- `this.transactions = [];` – **Best Practice 2**: Initialize collections to prevent undefined errors
-- `this.deposit = function(amount) { ... }` – **Best Practice 3**: Add methods that logically modify object state
-- `if (amount <= this.balance)` – **Best Practice 4**: Include validation logic to enforce business rules
-- `console.log(...)` – **Best Practice 5**: Provide immediate feedback for user operations
-- `this.transactions.push(...)` – **Best Practice 6**: Maintain audit trail with consistent data structure
+- `function BankAccount(accountNumber, initialBalance) { ... }` - **Best Practice 1**: Constructor name uses PascalCase and descriptive parameters
+- `this.accountNumber = accountNumber;` - **Best Practice 2**: Initialize all properties with clear names
+- `this.transactions = [];` - **Best Practice 2**: Initialize collections to prevent undefined errors
+- `this.deposit = function(amount) { ... }` - **Best Practice 3**: Add methods that logically modify object state
+- `if (amount <= this.balance)` - **Best Practice 4**: Include validation logic to enforce business rules
+- `console.log(...)` - **Best Practice 5**: Provide immediate feedback for user operations
+- `this.transactions.push(...)` - **Best Practice 6**: Maintain audit trail with consistent data structure
 
 ---
 
-## Rule 4: Default Binding – The Fallback
+## Rule 4: Default Binding - The Fallback
 
 When none of the other rules apply, JavaScript uses default binding. In non-strict mode, `this` defaults to the global object (window in browsers, global in Node.js). In strict mode, `this` is `undefined`.
 
@@ -643,17 +643,17 @@ sayHelloStrict();
 
 ::: info Code explanation
 
-- ``function sayHello() {console.log(`Hello from ${this}`);}`` – Function that logs the value of `this`
-- `sayHello();` – Called as a standalone function (not as a method, not with `new`, not with `call/apply/bind`)
+- ``function sayHello() {console.log(`Hello from ${this}`);}`` - Function that logs the value of `this`
+- `sayHello();` - Called as a standalone function (not as a method, not with `new`, not with `call/apply/bind`)
 - In non-strict mode:
     1. No explicit binding rule applies
     2. Not called as a method (no dot notation)
     3. Not called with `new`
     4. Falls back to default binding
     5. `this` becomes the global object (window in browsers)
-- `"use strict";` – Enables strict mode for the following code
-- `function sayHelloStrict() { console.log(`Hello from ${this}`); }` – Same function in strict mode
-- `sayHelloStrict();` – In strict mode:
+- `"use strict";` - Enables strict mode for the following code
+- `function sayHelloStrict() { console.log(`Hello from ${this}`); }` - Same function in strict mode
+- `sayHelloStrict();` - In strict mode:
     1. Same rules apply, but default binding behaves differently
     2. Instead of using global object, `this` becomes `undefined`
     3. This helps catch errors where `this` is used incorrectly
@@ -684,18 +684,18 @@ function showGlobalNameStrict() {
 
 ::: info Code explanation
 
-- `var globalName = "Global User";` – Creates a global variable using `var`
+- `var globalName = "Global User";` - Creates a global variable using `var`
 - In non-strict mode, `var` variables become properties of the global object
 - So `globalName` becomes `window.globalName` (in browsers)
-- `function showGlobalName() { console.log(this.globalName); }` – Function that accesses `this.globalName`
-- `showGlobalName();` – Called as standalone function:
+- `function showGlobalName() { console.log(this.globalName); }` - Function that accesses `this.globalName`
+- `showGlobalName();` - Called as standalone function:
     1. `this` refers to global object (window)
     2. `this.globalName` becomes `window.globalName`
     3. Which is the same as the global variable `globalName`
     4. Outputs: "Global User"
-- `"use strict";` – Enables strict mode
-- `function showGlobalNameStrict() { console.log(this.globalName); }` – Same function in strict mode
-- `showGlobalNameStrict();` – In strict mode:
+- `"use strict";` - Enables strict mode
+- `function showGlobalNameStrict() { console.log(this.globalName); }` - Same function in strict mode
+- `showGlobalNameStrict();` - In strict mode:
     1. `this` is `undefined` (not the global object)
     2. `this.globalName` tries to access `undefined.globalName`
     3. This throws an error: "Cannot read property of undefined"
@@ -704,7 +704,7 @@ function showGlobalNameStrict() {
 
 ---
 
-## Arrow Functions – The Game Changer
+## Arrow Functions - The Game Changer
 
 Arrow functions don't have their own `this` binding. They inherit `this` from the enclosing scope (lexical scoping). This is like having a function that always remembers where it came from.
 
@@ -751,17 +751,17 @@ team.showTeamArrow();
 
 ::: info Code explanation
 
-- `const team = { name: "Development Team", members: ["Alice", "Bob", "Charlie"], ... };` – Object with team info
-- `showTeamRegular: function() { ... }` – Regular function method
-- `console.log(`Team: ${[this.name](http://this.name)}`);` – Works correctly, `this` refers to `team` object
-- `this.members.forEach(function(member) { ... });` – **PROBLEM HERE**:
+- `const team = { name: "Development Team", members: ["Alice", "Bob", "Charlie"], ... };` - Object with team info
+- `showTeamRegular: function() { ... }` - Regular function method
+- `console.log(`Team: ${[this.name](http://this.name)}`);` - Works correctly, `this` refers to `team` object
+- `this.members.forEach(function(member) { ... });` - **PROBLEM HERE**:
     1. `forEach` takes a callback function
     2. `function(member) { ... }` is a regular function passed as callback
     3. When `forEach` calls this function, it calls it as a standalone function
     4. `this` inside the callback uses default binding (undefined or global)
     5. `this.name` is undefined, so output shows "undefined"
-- `showTeamArrow: function() { ... }` – Method using arrow function solution
-- `this.members.forEach((member) => { ... });` – **SOLUTION**:
+- `showTeamArrow: function() { ... }` - Method using arrow function solution
+- `this.members.forEach((member) => { ... });` - **SOLUTION**:
     1. `(member) => { ... }` is an arrow function
     2. Arrow functions don't have their own `this`
     3. They inherit `this` from the surrounding scope
@@ -823,20 +823,20 @@ obj.arrowMethod();
 
 ::: info Code explanation
 
-- `const globalArrow = () => { console.log(this); };` – Arrow function in global scope:
+- `const globalArrow = () => { console.log(this); };` - Arrow function in global scope:
     1. Arrow functions inherit `this` from enclosing scope
     2. Global scope's `this` is the global object (or undefined in strict mode)
     3. So `this` inside this arrow function refers to global object
-- `const obj = { name: "Object", ... };` – Object with different types of methods
-- `regularMethod: function() { ... }` – Regular function method:
+- `const obj = { name: "Object", ... };` - Object with different types of methods
+- `regularMethod: function() { ... }` - Regular function method:
     1. When called as `obj.regularMethod()`, `this` refers to `obj`
     2. `this.name` becomes `obj.name` ("Object")
-- `const innerArrow = () => { ... };` – Arrow function defined inside regular method:
+- `const innerArrow = () => { ... };` - Arrow function defined inside regular method:
     1. Arrow function inherits `this` from the enclosing scope
     2. Enclosing scope is `regularMethod` where `this` refers to `obj`
     3. So `this` inside arrow function also refers to `obj`
     4. `this.name` becomes `obj.name` ("Object")
-- `arrowMethod: () => { ... }` – Arrow function as object method:
+- `arrowMethod: () => { ... }` - Arrow function as object method:
     1. Arrow function inherits `this` from enclosing scope
     2. Enclosing scope is global scope (where `obj` is defined)
     3. Global scope's `this` is global object (or undefined)
@@ -895,15 +895,15 @@ console.log(getBoundInfo());
 
 ::: info Code explanation
 
-- `class Vehicle { ... }` – ES6 class definition
-- `constructor(make, model, year) { ... }` – Constructor method, similar to constructor function
-- `this.make = make;` – Sets properties on the instance being created
-- `drive(miles) { ... }` – Regular method where `this` refers to the instance
-- `getInfo() { ... }` – Regular method that can lose context when assigned to variable
-- `getInfoArrow = () => { ... }` – Arrow function as class property, permanently bound to instance
-- `const car = new Vehicle("Honda", "Civic", 2024);` – Creates new instance
-- `const getCarInfo = car.getInfo;` – Assigns method to variable (loses context)
-- `const getBoundInfo = car.getInfoArrow;` – Arrow function preserves context even when assigned
+- `class Vehicle { ... }` - ES6 class definition
+- `constructor(make, model, year) { ... }` - Constructor method, similar to constructor function
+- `this.make = make;` - Sets properties on the instance being created
+- `drive(miles) { ... }` - Regular method where `this` refers to the instance
+- `getInfo() { ... }` - Regular method that can lose context when assigned to variable
+- `getInfoArrow = () => { ... }` - Arrow function as class property, permanently bound to instance
+- `const car = new Vehicle("Honda", "Civic", 2024);` - Creates new instance
+- `const getCarInfo = car.getInfo;` - Assigns method to variable (loses context)
+- `const getBoundInfo = car.getInfoArrow;` - Arrow function preserves context even when assigned
 
 :::
 
@@ -969,11 +969,11 @@ const button = new Button(document.getElementById('myButton'));
 
 ::: info Code explanation
 
-- `class Button { ... }` – Class for managing button click events
-- `this.element.addEventListener('click', this.handleClick);` – **PROBLEM**: When the event fires, `this` inside `handleClick` refers to the button element, not the Button instance
-- `this.element.addEventListener('click', this.handleClick.bind(this));` – **SOLUTION 1**: `bind()` creates a new function with `this` permanently set to the Button instance
-- `this.element.addEventListener('click', () => this.handleClick());` – **SOLUTION 2**: Arrow function preserves `this` from surrounding scope
-- `handleClickArrow = () => { ... }` – **SOLUTION 3**: Arrow function as class property is automatically bound to instance
+- `class Button { ... }` - Class for managing button click events
+- `this.element.addEventListener('click', this.handleClick);` - **PROBLEM**: When the event fires, `this` inside `handleClick` refers to the button element, not the Button instance
+- `this.element.addEventListener('click', this.handleClick.bind(this));` - **SOLUTION 1**: `bind()` creates a new function with `this` permanently set to the Button instance
+- `this.element.addEventListener('click', () => this.handleClick());` - **SOLUTION 2**: Arrow function preserves `this` from surrounding scope
+- `handleClickArrow = () => { ... }` - **SOLUTION 3**: Arrow function as class property is automatically bound to instance
 
 :::
 
@@ -1028,12 +1028,12 @@ processor.processAll();
 
 ::: info Code explanation
 
-- `class DataProcessor { ... }` – Class for processing arrays of data
-- `processItem(item) { ... }` – Method that processes individual items and updates counter
-- `this.data.forEach(this.processItem);` – **PROBLEM**: `forEach` calls `processItem` as standalone function, losing `this` context
-- `this.data.forEach(this.processItem.bind(this));` – **SOLUTION 1**: Bind `this` to the method
-- `this.data.forEach((item) => this.processItem(item));` – **SOLUTION 2**: Arrow function preserves `this`
-- `const self = this;` – **SOLUTION 3**: Store reference to `this` in variable for use in regular function
+- `class DataProcessor { ... }` - Class for processing arrays of data
+- `processItem(item) { ... }` - Method that processes individual items and updates counter
+- `this.data.forEach(this.processItem);` - **PROBLEM**: `forEach` calls `processItem` as standalone function, losing `this` context
+- `this.data.forEach(this.processItem.bind(this));` - **SOLUTION 1**: Bind `this` to the method
+- `this.data.forEach((item) => this.processItem(item));` - **SOLUTION 2**: Arrow function preserves `this`
+- `const self = this;` - **SOLUTION 3**: Store reference to `this` in variable for use in regular function
 
 :::
 
@@ -1097,18 +1097,18 @@ client.fetchData('/users');
 
 ::: info Code explanation
 
-- `class ApiClient { ... }` – Class for making API requests
-- `async fetchData(endpoint) { ... }` – Async method where `this` is preserved throughout
-- `return this.processResponse(data);` – `this` context maintained in async functions
-- `fetchDataWithPromises(endpoint) { ... }` – Alternative using Promises
-- `.then(data => this.processResponse(data))` – Arrow function preserves `this` context in Promise chains
-- `.catch(error => this.handleError(error))` – Arrow function ensures `this` refers to the instance
+- `class ApiClient { ... }` - Class for making API requests
+- `async fetchData(endpoint) { ... }` - Async method where `this` is preserved throughout
+- `return this.processResponse(data);` - `this` context maintained in async functions
+- `fetchDataWithPromises(endpoint) { ... }` - Alternative using Promises
+- `.then(data => this.processResponse(data))` - Arrow function preserves `this` context in Promise chains
+- `.catch(error => this.handleError(error))` - Arrow function ensures `this` refers to the instance
 
 :::
 
 ---
 
-## When to Use 'this' – Practical Guidelines
+## When to Use 'this' - Practical Guidelines
 
 ### 1. Object-Oriented Programming
 
@@ -1677,7 +1677,7 @@ Mastering `this` will help you write more maintainable, reusable, and profession
 ```component VPCard
 {
   "title": "How to Use the “this” Keyword in JavaScript: A Handbook for Devs",
-  "desc": "The this keyword in JavaScript is like a chameleon – it changes its meaning depending on where and how it's used. Many developers struggle with this because it doesn't behave the same way in JavaScript as it does in other programming languages. Think...",
+  "desc": "The this keyword in JavaScript is like a chameleon - it changes its meaning depending on where and how it's used. Many developers struggle with this because it doesn't behave the same way in JavaScript as it does in other programming languages. Think...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

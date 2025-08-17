@@ -129,7 +129,7 @@ The second approach to creating alerts is to bind to some optional state that co
 There are two advantages to this method:
 
 1. You can attach any object you like at runtime, so your alert can show any number of different pieces of data.
-2. SwiftUI automatically unwraps the optional when it has value, so you can be sure it exists by the time you want to show your alert – no need to check and unwrap the value yourself.
+2. SwiftUI automatically unwraps the optional when it has value, so you can be sure it exists by the time you want to show your alert - no need to check and unwrap the value yourself.
 
 For example, this shows one alert with two different values depending on which TV show was chosen:
 

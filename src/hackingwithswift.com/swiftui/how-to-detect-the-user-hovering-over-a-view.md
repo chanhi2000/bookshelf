@@ -76,7 +76,7 @@ struct ContentView: View {
 
 The `hoverEffect()` modifier allows you to choose one of three ways the system can highlight the view when a hover happens: `.highlight` transforms the pointer into the shape of the view while creating a gentle directional effect, `.lift` transforms the pointer into the shape of the view while scaling up the view and placing a soft shadow behind it, and `.automatic` selects whichever highlight effect it thinks is most appropriate.
 
-Note that `.automatic` is the default if you just apply the `hoverEffect()` modifier without any parameters, but it *isn't* just selecting between `.highlight` and `.lift` – it's quite a different effect, and won't transform the pointer to match the shape of your view.
+Note that `.automatic` is the default if you just apply the `hoverEffect()` modifier without any parameters, but it *isn't* just selecting between `.highlight` and `.lift` - it's quite a different effect, and won't transform the pointer to match the shape of your view.
 
 To try it out, here's some code that places a tappable text label on the screen, giving it a `.lift` hover effect to make it clear that it's tappable:
 

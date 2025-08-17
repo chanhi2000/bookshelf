@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,9 +66,9 @@ var isHit = false
 
 Showing a penguin for the player to tap on will be handled by a new method called `show()`. This will make the character slide upwards so it becomes visible, then set `isVisible` to be true and `isHit` to be false. The movement is going to be created by a new `SKAction`, called `moveBy(x:y:duration:)`.
 
-This method will also decide whether the penguin is good or bad – i.e., whether the player should hit it or not. This will be done using Swift’s `Int.random()` method: one-third of the time the penguin will be good; the rest of the time it will be bad.
+This method will also decide whether the penguin is good or bad - i.e., whether the player should hit it or not. This will be done using Swift’s `Int.random()` method: one-third of the time the penguin will be good; the rest of the time it will be bad.
 
-To make it clear to the player which is which, we have two different pictures: penguinGood and penguinEvil. We can change the image inside our penguin sprite by changing its `texture` property. This takes a new class called `SKTexture`, which is to `SKSpriteNode` sort of what `UIImage` is to `UIImageView` – it holds image data, but isn't responsible for showing it.
+To make it clear to the player which is which, we have two different pictures: penguinGood and penguinEvil. We can change the image inside our penguin sprite by changing its `texture` property. This takes a new class called `SKTexture`, which is to `SKSpriteNode` sort of what `UIImage` is to `UIImageView` - it holds image data, but isn't responsible for showing it.
 
 Changing the character node's texture like this is helpful because it means we don't need to keep adding and removing nodes. Instead, we can just change the texture to match what kind of penguin this is, then change the node name to match so we can do tap detection later on.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The OSI Model – The 7 Layers of Networking Explained in Plain English"
-description: "Article(s) > The OSI Model – The 7 Layers of Networking Explained in Plain English"
+title: "The OSI Model - The 7 Layers of Networking Explained in Plain English"
+description: "Article(s) > The OSI Model - The 7 Layers of Networking Explained in Plain English"
 icon: fas fa-computer
 category:
   - Engineering
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The OSI Model – The 7 Layers of Networking Explained in Plain English"
+      content: "Article(s) > The OSI Model - The 7 Layers of Networking Explained in Plain English"
     - property: og:description
-      content: "The OSI Model – The 7 Layers of Networking Explained in Plain English"
+      content: "The OSI Model - The 7 Layers of Networking Explained in Plain English"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.html
 prev: /academics/coen/articles/README.md
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/2020/12/network-3537401_1920
 ---
 
 <SiteInfo
-  name="The OSI Model – The 7 Layers of Networking Explained in Plain English"
+  name="The OSI Model - The 7 Layers of Networking Explained in Plain English"
   desc="By Chloe Tucker This article explains the Open Systems Interconnection (OSI) model and the 7 layers of networking, in plain English. The OSI model is a conceptual framework that is used to describe how a network functions. In plain English, the OSI m..."
   url="https://freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -202,7 +202,7 @@ A bit the smallest unit of transmittable digital information. Bits are binary, s
 
 Bits are sent to and from hardware devices in accordance with the supported data rate (transmission rate, in number of bits per second or millisecond) and are synchronized so the number of bits sent and received per unit of time remains consistent (this is called bit synchronization). The way bits are transmitted depends on the signal transmission method.
 
-Nodes can send, receive, or send and receive bits. If they can only do one, then the node uses a simplex mode. If they can do both, then the node uses a duplex mode. If a node can send and receive at the same time, it’s full-duplex – if not, it’s just half-duplex.
+Nodes can send, receive, or send and receive bits. If they can only do one, then the node uses a simplex mode. If they can do both, then the node uses a duplex mode. If a node can send and receive at the same time, it’s full-duplex - if not, it’s just half-duplex.
 
 The original Ethernet was half-duplex. Full-duplex Ethernet is an option now, given the right equipment.
 
@@ -505,7 +505,7 @@ Chloe Tucker is an artist and computer science enthusiast based in Portland, Ore
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The OSI Model – The 7 Layers of Networking Explained in Plain English",
+  "title": "The OSI Model - The 7 Layers of Networking Explained in Plain English",
   "desc": "By Chloe Tucker This article explains the Open Systems Interconnection (OSI) model and the 7 layers of networking, in plain English. The OSI model is a conceptual framework that is used to describe how a network functions. In plain English, the OSI m...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

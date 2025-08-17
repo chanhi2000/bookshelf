@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
-description: "Article(s) > Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+title: "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
+description: "Article(s) > Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+      content: "Article(s) > Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
     - property: og:description
-      content: "Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+      content: "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python/
 prev: /programming/py-pandas/articles/README.md
@@ -60,7 +60,7 @@ cover: https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1
 ---
 
 <SiteInfo
-  name="Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+  name="Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
   desc="A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m..."
   url="https://freecodecamp.org/news/empire-state-building-run-up-analysis-with-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -89,7 +89,7 @@ This is a very personal piece for me. I will share my race results and give you 
 
 ## How I Ended Up Running to the Top of the Empire State Building
 
-Many of us have run a regular race at some point in our lives – there are many distances like *5K*, *10K*, *Half* *Marathon*, and *Full* *Marathon*. But there is no way to compare how you will perform while running the stairs all the way to the top of one of the most famous buildings in the world.
+Many of us have run a regular race at some point in our lives - there are many distances like *5K*, *10K*, *Half* *Marathon*, and *Full* *Marathon*. But there is no way to compare how you will perform while running the stairs all the way to the top of one of the most famous buildings in the world.
 
 If you have ever been at the base of the skyscrapers in New York City and have looked up, you get the idea. Picture yourself running up the stairs, all the way to the top, without stopping.
 
@@ -156,7 +156,7 @@ We can now move to the next stage:a getting the data.
 ```component VPCard
 {
   "title": "How to Get the Data using Web Scraping",
-  "desc": "(1/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "desc": "(1/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-get-the-data-using-web-scraping.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -166,7 +166,7 @@ We can now move to the next stage:a getting the data.
 ```component VPCard
 {
   "title": "How to Clean Up the Data",
-  "desc": "(2/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "desc": "(2/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-clean-up-the-data.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -176,7 +176,7 @@ We can now move to the next stage:a getting the data.
 ```component VPCard
 {
   "title": "How to Analyze the Data",
-  "desc": "(3/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "desc": "(3/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-analyze-the-data.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -186,7 +186,7 @@ We can now move to the next stage:a getting the data.
 ```component VPCard
 {
   "title": "How to Visualize the results",
-  "desc": "(4/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "desc": "(4/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-visualize-the-results.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -196,7 +196,7 @@ We can now move to the next stage:a getting the data.
 ```component VPCard
 {
   "title": "How to Run the Applications",
-  "desc": "(5/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "desc": "(5/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-run-the-applications.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -223,7 +223,7 @@ There is plenty more to learn about the tools you just saw in this tutorial:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "title": "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "desc": "A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,13 +1,14 @@
 ---
 lang: en-US
-title: "Learn API Fundamentals and Architecture – A Beginner-Friendly Guide"
-description: "Article(s) > Learn API Fundamentals and Architecture – A Beginner-Friendly Guide"
+title: "Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
+description: "Article(s) > Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
 icon: fas fa-pen-ruler
 category:
   - Design
   - System
   - Node.js
   - Express.js
+  - Data Science
   - GraphQL
   - Article(s)
 tag:
@@ -21,13 +22,14 @@ tag:
   - express
   - expressjs
   - express-js
+  - data-science
   - graphql
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn API Fundamentals and Architecture – A Beginner-Friendly Guide"
+      content: "Article(s) > Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
     - property: og:description
-      content: "Learn API Fundamentals and Architecture – A Beginner-Friendly Guide"
+      content: "Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-api-fundamentals-and-architecture.html
 prev: /academcis/system-design/articles/README.md
@@ -65,7 +67,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742310491936/3e9eb6e
 {
   "title": "GraphQL > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/js-graphql/articles/README.md",
+  "link": "/data-science/graphql/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -76,7 +78,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742310491936/3e9eb6e
 ---
 
 <SiteInfo
-  name="Learn API Fundamentals and Architecture – A Beginner-Friendly Guide"
+  name="Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
   desc="Here are some questions for you: How do you log in to apps with your Google, Apple, or Microsoft account? How do online payments with Paystack or PayPal work? How do apps like Facebook and Instagram share information and notifications? The answer is:..."
   url="https://freecodecamp.org/news/learn-api-fundamentals-and-architecture"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -133,10 +135,10 @@ Open APIs are APIs made available to the general public. This encourages develop
 
 Some very useful Open APIs include:
 
-- [<FontIcon icon="fas fa-globe"/>TradeWatch](https://tradewatch.io/) – Real-time financial market data
-- [<FontIcon icon="fas fa-globe"/>SearchApi](https://searchapi.io/) – Real-time Google SERP API
-- [<FontIcon icon="fas fa-globe"/>TwitterApi.io](http://twitterapi.io) – Access real-time and historical data
-- [<FontIcon icon="fas fa-globe"/>Instagram Post Generator](https://instagram-posts-generator.vercel.app/) – Generate posts with templates from popular IG pages
+- [<FontIcon icon="fas fa-globe"/>TradeWatch](https://tradewatch.io/) - Real-time financial market data
+- [<FontIcon icon="fas fa-globe"/>SearchApi](https://searchapi.io/) - Real-time Google SERP API
+- [<FontIcon icon="fas fa-globe"/>TwitterApi.io](http://twitterapi.io) - Access real-time and historical data
+- [<FontIcon icon="fas fa-globe"/>Instagram Post Generator](https://instagram-posts-generator.vercel.app/) - Generate posts with templates from popular IG pages
 
 ### Partner APIs
 
@@ -208,7 +210,7 @@ Each request is stateless and contains all the information required for processi
 
 ::: tip Practical Example and Real-world Use Cases
 
-To illustrate how REST APIs work in practice, let’s consider a Book API that lets users manage a collection of books. Our example API has been created using the [**NodeJS**](/freecodecamp.org/get-started-with-nodejs.md) and [<FontIcon icon="iconfont icon-expressjs"/>ExpressJS](https://expressjs.com/) frameworks. I won’t explain how these frameworks actually work here, as that’s beyond the scope of this article. So if you don’t understand the syntax in the code below, don’t worry – just focus on the **Requests** and **Responses** logic.
+To illustrate how REST APIs work in practice, let’s consider a Book API that lets users manage a collection of books. Our example API has been created using the [**NodeJS**](/freecodecamp.org/get-started-with-nodejs.md) and [<FontIcon icon="iconfont icon-expressjs"/>ExpressJS](https://expressjs.com/) frameworks. I won’t explain how these frameworks actually work here, as that’s beyond the scope of this article. So if you don’t understand the syntax in the code below, don’t worry - just focus on the **Requests** and **Responses** logic.
 
 This API follows REST principles by using standard HTTP methods to perform CRUD (Create, Read, Update, Delete) operations:
 
@@ -656,7 +658,7 @@ Looking ahead, the API landscape is set for exciting changes. With AI-driven API
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn API Fundamentals and Architecture – A Beginner-Friendly Guide",
+  "title": "Learn API Fundamentals and Architecture - A Beginner-Friendly Guide",
   "desc": "Here are some questions for you: How do you log in to apps with your Google, Apple, or Microsoft account? How do online payments with Paystack or PayPal work? How do apps like Facebook and Instagram share information and notifications? The answer is:...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-api-fundamentals-and-architecture.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

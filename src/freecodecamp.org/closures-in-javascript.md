@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Closures in JavaScript – A Beginner's Guide"
-description: "Article(s) > How to Use Closures in JavaScript – A Beginner's Guide"
+title: "How to Use Closures in JavaScript - A Beginner's Guide"
+description: "Article(s) > How to Use Closures in JavaScript - A Beginner's Guide"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Closures in JavaScript – A Beginner's Guide"
+      content: "Article(s) > How to Use Closures in JavaScript - A Beginner's Guide"
     - property: og:description
-      content: "How to Use Closures in JavaScript – A Beginner's Guide"
+      content: "How to Use Closures in JavaScript - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/closures-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2021/01/English-Header-4.png
 ---
 
 <SiteInfo
-  name="How to Use Closures in JavaScript – A Beginner's Guide"
+  name="How to Use Closures in JavaScript - A Beginner's Guide"
   desc="Closures are a confusing JavaScript concept to learn, because it's hard to see how they're actually used.  Unlike other concepts such as functions, variables, and objects, you don't always use closures conscientiously and directly..."
   url="https://freecodecamp.org/news/closures-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -103,7 +103,7 @@ This allows us to modify the value of the `count` variable from anywhere in the 
 
 ## Why do we use functions?
 
-But why do we use functions in our programs? Certainly it is possible – difficult, but possible – to write a program without using functions we define. So why do we create proper functions?
+But why do we use functions in our programs? Certainly it is possible - difficult, but possible - to write a program without using functions we define. So why do we create proper functions?
 
 Imagine a piece of code that does something wonderful, whatever, and is made up of X number of lines.
 
@@ -186,7 +186,7 @@ This is a technique that was used a lot in the ES5 days to implement the "module
 })(arg1, arg2)
 ```
 
-This lets you use private variables that can only be used by the module itself within the function – that is, it's allowed to emulate the access modifiers.
+This lets you use private variables that can only be used by the module itself within the function - that is, it's allowed to emulate the access modifiers.
 
 ```js
 const module = (function(){
@@ -304,7 +304,7 @@ Another place you can use and apply closures is in event handlers using React.
 
 Suppose you are using a third party library to render the items in your data collection. This library exposes a component called `RenderItem` that has only one available prop `onClick`. This prop does not receive any parameters and does not return a value.
 
-Now, in your particular app, you require that when a user clicks on the item the app displays an alert with the item's title. But the `onClick` event that you have available does not accept arguments – so what can you do? **Closures to the rescue**:
+Now, in your particular app, you require that when a user clicks on the item the app displays an alert with the item's title. But the `onClick` event that you have available does not accept arguments - so what can you do? **Closures to the rescue**:
 
 ```js
 // Closure
@@ -351,7 +351,7 @@ Closures are one of those concepts that can be hard to understand when you're st
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Closures in JavaScript – A Beginner's Guide",
+  "title": "How to Use Closures in JavaScript - A Beginner's Guide",
   "desc": "By Matías Hernández Closures are a confusing JavaScript concept to learn, because it's hard to see how they're actually used.  Unlike other concepts such as functions, variables, and objects, you don't always use closures conscientiously and directly...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/closures-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

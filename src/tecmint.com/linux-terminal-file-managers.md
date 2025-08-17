@@ -155,7 +155,7 @@ freestar.config.enabled_slots.push({ placementName: "tecmint_incontent", slotId:
 
 ::: info
 
-You can find our full review here: [**Ranger – a nice console file manager with vi key bindings**](/tecmint.com/ranger-console-file-manager-with-vi-key-bindings.md).
+You can find our full review here: [**Ranger - a nice console file manager with vi key bindings**](/tecmint.com/ranger-console-file-manager-with-vi-key-bindings.md).
 
 :::
 
@@ -362,7 +362,7 @@ sudo pkg install nnn
 
 :::
 
-A more detailed preview of **nnn** can be found at [**Nnn – a fast and friendly terminal file browser**](https://geeksmint.com/nnn-linux-terminal-file-browser/).
+A more detailed preview of **nnn** can be found at [**Nnn - a fast and friendly terminal file browser**](https://geeksmint.com/nnn-linux-terminal-file-browser/).
 
 ---
 
@@ -428,15 +428,15 @@ sudo pip install lfm
 
 ---
 
-## 7. lf – List Files
+## 7. lf - List Files
 
-**Lf** – “**List files**” is a command line file manager written in **Go**, inspired by **Ranger**. Originally it was meant to fill the gaps of missing features that the ranger had.
+**Lf** - “**List files**” is a command line file manager written in **Go**, inspired by **Ranger**. Originally it was meant to fill the gaps of missing features that the ranger had.
 
 ![lf - List Files ](https://tecmint.com/wp-content/uploads/2019/02/lf-List-files.png)
 
 Some of the main features of **lf** are:
 
-- It’s cross-platform – Linux, OSX, Windows (only partial).
+- It’s cross-platform - Linux, OSX, Windows (only partial).
 - Single binary without any runtime dependencies.
 - Low memory footprint.
 - Configuration with shell commands.
@@ -466,7 +466,7 @@ It has a built-in terminal, [**text editor**](/tecmint.com/best-open-source-linu
 
 ---
 
-## 10. Superfile – Terminal-based File Manager
+## 10. Superfile - Terminal-based File Manager
 
 [<FontIcon icon="fas fa-globe"/>Superfile](https://superfile.netlify.app/) is a modern and stylish terminal-based file manager designed for efficient navigation and organization of files for developers and system administrators.
 
@@ -478,7 +478,7 @@ Whether you’re managing local files or remote servers, superfile’s efficienc
 
 ---
 
-## 11. Clifm – Fast File Manager
+## 11. Clifm - Fast File Manager
 
 [Clifm (<FontIcon icon="iconfont icon-github"/>`leo-arch/clifm`)](https://github.com/leo-arch/clifm/) is a unique, lightning-fast command-line file manager that operates like a shell, allowing users to interact with their file system using familiar commands.
 
@@ -488,7 +488,7 @@ Unlike other terminal file managers like **Midnight Commander** or **Ranger**, w
 
 ---
 
-## 12. Yazi – Blazing Fast Terminal File Manager
+## 12. Yazi - Blazing Fast Terminal File Manager
 
 [Yazi (<FontIcon icon="iconfont icon-github"/>`sxyazi/yazi`)](https://github.com/sxyazi/yazi) is a fast and efficient terminal file manager written in Rust that uses asynchronous I/O to provide a smooth and responsive user experience.
 

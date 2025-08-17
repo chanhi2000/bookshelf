@@ -66,7 +66,7 @@ This is what we’ll be creating with a single `<div>` (no pseudo-elements) and 
 
 ## The 3 CSS Declarations
 
-The**first declaration**is a`background` and it consists of two layers. One is the**pattern**– the dots in our most basic case. The other is the**map**– this decides where the dots are bigger and where they are smaller. In the most simple case, it’s a linear gradient. So what we have so far in terms of code looks like this:
+The**first declaration**is a`background` and it consists of two layers. One is the**pattern**- the dots in our most basic case. The other is the**map**- this decides where the dots are bigger and where they are smaller. In the most simple case, it’s a linear gradient. So what we have so far in terms of code looks like this:
 
 ```css
 background: 
@@ -123,7 +123,7 @@ $$
 \end{align*}
 $$
 
-Note that what we’re multiplying is the decimal representation of percentage RGB values – that is, numbers in the`[0, 1]`interval. And when multiplying values in this interval, the result is always smaller or equal to the smallest of the two values multiplied.
+Note that what we’re multiplying is the decimal representation of percentage RGB values - that is, numbers in the`[0, 1]`interval. And when multiplying values in this interval, the result is always smaller or equal to the smallest of the two values multiplied.
 
 In our case, both gradients go from black to white, all we have in between are greys, which have all three RGB channels equal. So if at some point, both pixels in the pair of corresponding ones from the two layers have`rgb(50%, 50%, 50%)`, then the result of the`multiply`blend mode is`.25 = .5·.5`for each channel.
 
@@ -147,7 +147,7 @@ If its argument is subunitary, then it pushes every channel value towards`.5`, t
 
 This means that`contrast(0)`always gives us a`50%`grey, regardless of the`filter`input.
 
-You can see this in the interactive demo below – regardless of whether we apply our`filter`on a plain solid`background`box, opaque or semitransparent, a gradient or an image one, dragging the contrast down to`0`always turns it into a`50%`grey with the same alpha as the input.
+You can see this in the interactive demo below - regardless of whether we apply our`filter`on a plain solid`background`box, opaque or semitransparent, a gradient or an image one, dragging the contrast down to`0`always turns it into a`50%`grey with the same alpha as the input.
 
 <CodePen
   user="thebabydino"
@@ -379,7 +379,7 @@ Things get a lot more fun if we limit the`background-size`of such a`conic-gradie
 
 In this part, we’re keeping the pattern constant and trying out different maps.
 
-Our`linear-gradient()`map doesn’t necessarily need to go along thexaxis – it can of course have a variable angle:
+Our`linear-gradient()`map doesn’t necessarily need to go along thexaxis - it can of course have a variable angle:
 
 ```css
 --map: linear-gradient(var(--a), #888, #fff)
@@ -629,7 +629,7 @@ The example below uses a`repeating-radial-gradient()` pattern and a`conic-gradie
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-For a bit of a different effect, here’s a rhombic halftone one created by using two blended layers for the map – two otherwise identical linear gradients going in different directions:
+For a bit of a different effect, here’s a rhombic halftone one created by using two blended layers for the map - two otherwise identical linear gradients going in different directions:
 
 <CodePen
   user="thebabydino"

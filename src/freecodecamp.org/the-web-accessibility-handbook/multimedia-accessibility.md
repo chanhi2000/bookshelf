@@ -74,7 +74,7 @@ So, it’s helpful to add an `alt` attribute to an `img`. The `alt` attribute pr
 />
 ```
 
-Here, instead of reading the file path, the screen reader reads out the alternate text – that is, the value of the `alt` attribute. The alternate text should provide a description of the image to help users understand what it’s conveying. So, instead of just saying “Temple", the user knows which temple is being depicted in the image.
+Here, instead of reading the file path, the screen reader reads out the alternate text - that is, the value of the `alt` attribute. The alternate text should provide a description of the image to help users understand what it’s conveying. So, instead of just saying “Temple", the user knows which temple is being depicted in the image.
 
 You can also add extra context to the image with the `title` attribute.
 
@@ -117,7 +117,7 @@ You can also use `role="presentation"` to skip reading the image path or alterna
 
 ## Audio and video
 
-When using the [<FontIcon icon="fa-brands fa-firefox"/>`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [<FontIcon icon="fa-brands fa-firefox"/>`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) elements, remember to include multiple sources – that is, provide the audio and video in different formats. For browsers that do not support the formats you have mentioned, include a fallback download link so they can access the resource.
+When using the [<FontIcon icon="fa-brands fa-firefox"/>`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [<FontIcon icon="fa-brands fa-firefox"/>`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) elements, remember to include multiple sources - that is, provide the audio and video in different formats. For browsers that do not support the formats you have mentioned, include a fallback download link so they can access the resource.
 
 ```html
 <audio controls>
@@ -201,7 +201,7 @@ If the audio is a recording of some presentation, you should attach links to any
 
 ### Video Closed Captioning and Subtitles
 
-First, let’s understand the difference between captions and subtitles. They are implemented in a similar way and visually, they look the same – but their purposes are different.
+First, let’s understand the difference between captions and subtitles. They are implemented in a similar way and visually, they look the same - but their purposes are different.
 
 Captions denote who’s speaking and describe other sound effects in the video. They are mostly added with people who are deaf or hard of hearing in mind. Subtitles help people who don’t understand the language being spoken in the video, by translating it to text that uses the language of their choice.
 

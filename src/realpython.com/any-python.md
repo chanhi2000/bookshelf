@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Python-Pit-Stop-Articles_Red_Watermark
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Python any(): Powered Up Boolean Function – Real Python"
+  name="Python any(): Powered Up Boolean Function - Real Python"
   desc="If you've ever wondered how to simplify complex conditionals by determining if at least one in a series of conditions is true, then look no further. This video course will teach you all about how to use any() in Python to do just that."
   url="https://realpython.com/courses/python-any-boolean-function/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -325,7 +325,7 @@ If you would like to continue learning about conditional expressions and how to 
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Python any(): Powered Up Boolean Function – Real Python"
+  name="Python any(): Powered Up Boolean Function - Real Python"
   desc="If you've ever wondered how to simplify complex conditionals by determining if at least one in a series of conditions is true, then look no further. This video course will teach you all about how to use any() in Python to do just that."
   url="https://realpython.com/courses/python-any-boolean-function/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

@@ -51,14 +51,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746456835547/563ca5b
 
 <SiteInfo
   name="How to Build a Dynamic Wardrobe App with React Drag and Drop"
-  desc="Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma – so common that many of us turn to friends or family for a se..."
+  desc="Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma - so common that many of us turn to friends or family for a se..."
   url="https://freecodecamp.org/news/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746456835547/563ca5bd-27b0-421e-a0f3-a13f97388449.png"/>
 
-Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma – so common that many of us turn to friends or family for a second opinion before stepping out for a meeting or a hangout.
+Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma - so common that many of us turn to friends or family for a second opinion before stepping out for a meeting or a hangout.
 
-But what if you’re alone and need to make that choice quickly? Imagine having an app where you can drag and drop different clothing colors on your screen, instantly visualizing your outfit. If it looks good, that’s all the validation you need – no more second-guessing your look.
+But what if you’re alone and need to make that choice quickly? Imagine having an app where you can drag and drop different clothing colors on your screen, instantly visualizing your outfit. If it looks good, that’s all the validation you need - no more second-guessing your look.
 
 In this tutorial, we’ll build a dynamic wardrobe app using React. You’ll learn to structure components, handle drag-and-drop interactions, and craft a smooth user experience. Let’s get straight into it!
 
@@ -113,7 +113,7 @@ The `colorOptions` array provides a vibrant palette of colors that users can dra
 
 ### Step 4: Implementing Drag and Drop Functionality
 
-Now, let's create the drag and drop functionality, which is the core aspect of this project. We’ll need event handler functions to handle certain events when they are triggered by specific user interaction or browser events – in this case, dragging and dropping.
+Now, let's create the drag and drop functionality, which is the core aspect of this project. We’ll need event handler functions to handle certain events when they are triggered by specific user interaction or browser events - in this case, dragging and dropping.
 
 Here are the event handlers we need to implement the drag and drop functionality:
 
@@ -129,7 +129,7 @@ const handleDragStart = (e, color) => {
 
 Breaking it down:
 
-- `const handleDragStart = (e, color) => { ... }`: This function accepts two parameters – the **drag event object (`e`)** and **color**, a custom value representing the color associated with the color block being dragged.
+- `const handleDragStart = (e, color) => { ... }`: This function accepts two parameters - the **drag event object (`e`)** and **color**, a custom value representing the color associated with the color block being dragged.
 - `e.dataTransfer.setData("color", color)`:
   - `dataTransfer` is a property of the drag event that holds data being dragged.
   - `.setData("color", color)` stores the value of color under the key "color".
@@ -482,7 +482,7 @@ See you on the next one!
 ```component VPCard
 {
   "title": "How to Build a Dynamic Wardrobe App with React Drag and Drop",
-  "desc": "Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma – so common that many of us turn to friends or family for a se...",
+  "desc": "Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma - so common that many of us turn to friends or family for a se...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

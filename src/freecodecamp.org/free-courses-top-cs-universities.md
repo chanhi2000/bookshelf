@@ -194,7 +194,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Advanced Styling with Responsive Design**](https://classcentral.com/course/responsivedesign-4190) from *University of Michigan* ★★★★☆(8)
 - [**MATLAB and Octave for Beginners**](https://classcentral.com/course/matlab-ecole-polytechnique-federale-de-lausanne-m-7376) from *École Polytechnique Fédérale de Lausanne* ★★★★☆(8)
 - [**Introduction To Swift Programming**](https://classcentral.com/course/swiftprogramming-4248) from *University of Toronto* ★☆☆☆☆(7)
-- [**Introduction to Java Programming – Part 1**](https://classcentral.com/course/java-the-hong-kong-university-of-science-and-tech-1983) from *The Hong Kong University of Science and Technology* ★★★☆☆(6)
+- [**Introduction to Java Programming - Part 1**](https://classcentral.com/course/java-the-hong-kong-university-of-science-and-tech-1983) from *The Hong Kong University of Science and Technology* ★★★☆☆(6)
 - [**CS50's Introduction to Programming with Scratch**](https://classcentral.com/course/scratch-programming-harvard-university-cs50-s-int-39309) from *Harvard University* ★★★★☆(6)
 - [**Parallel programming**](https://classcentral.com/course/parprog1-5960) from *École Polytechnique Fédérale de Lausanne* ★★★★☆(6)
 - [**Creating Video Games**](https://classcentral.com/course/mit-ocw-cms-611j-creating-video-games-fall-2014-40923) from *Massachusetts Institute of Technology* ★★★★☆(6)
@@ -253,7 +253,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Software Engineering: Implementation and Testing**](https://classcentral.com/course/software-engineering-implementation-and-testing-81470) from *The Hong Kong University of Science and Technology*
 - [**Introduction to Python Programming**](https://classcentral.com/course/python-programming-intro-22536) from *University of Pennsylvania*
 - [**Databases: Advanced Topics in SQL**](https://classcentral.com/course/sql-stanford-university-databases-advanced-topics-20361) from *Stanford University*
-- [**Introduction to Java Programming – Part 2**](https://classcentral.com/course/java-the-hong-kong-university-of-science-and-tech-3486) from *The Hong Kong University of Science and Technology*
+- [**Introduction to Java Programming - Part 2**](https://classcentral.com/course/java-the-hong-kong-university-of-science-and-tech-3486) from *The Hong Kong University of Science and Technology*
 - [**Software Analysis & Testing**](https://classcentral.com/course/udacity-software-analysis-testing-8568) from *Georgia Institute of Technology*
 - [**Introduction to Java and Object-Oriented Programming**](https://classcentral.com/course/java-object-oriented-programming-22535) from *University of Pennsylvania*
 - [**Using JavaScript, JQuery, and JSON in Django**](https://classcentral.com/course/django-javascript-jquery-json-20951) from *University of Michigan*
@@ -404,7 +404,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**R 프로그래밍**](https://classcentral.com/course/r-programming-ko-60066) from *Johns Hopkins University*
 - [**Structure and Interpretation of Computer Programs**](https://classcentral.com/course/mit-ocw-6-001-structure-and-interpretation-of-computer-programs-spring-2005-292228) from *Massachusetts Institute of Technology*
 - [**15-445/645 Intro to Database Systems (Fall 2019)**](https://classcentral.com/course/youtube-15-445-645-intro-to-database-systems-fall-2019-91063) from *Carnegie Mellon University*
-- [**PACS & AI – From Integration to Cloud**](https://classcentral.com/course/youtube-pacs-ai-from-integration-to-cloud-182539) from *Yale University*
+- [**PACS & AI - From Integration to Cloud**](https://classcentral.com/course/youtube-pacs-ai-from-integration-to-cloud-182539) from *Yale University*
 - [**VR/AR in IR: Mixed Reality in Medicine**](https://classcentral.com/course/youtube-vr-ar-in-ir-mixed-reality-in-medicine-284114) from *Yale University*
 - [**基于Unity引擎的游戏开发进阶**](https://classcentral.com/course/unity-kaifa-jinjie-102534) from *Fudan University*
 - [**Jeremy Bailenson: Your Mind on the Metaverse**](https://classcentral.com/course/youtube-jeremy-bailenson-your-mind-on-the-metaverse-158531) from *Stanford University*
@@ -435,7 +435,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 ## Computer Science (736)
 
 - [**Information Systems Auditing, Controls and Assurance**](https://classcentral.com/course/information-systems-audit-17979) from *The Hong Kong University of Science and Technology* ★★★★★(686)
-- [**Harvard CS50 – Full Computer Science University Course**](https://classcentral.com/course/freecodecamp-harvard-cs50-full-computer-science-university-course-119762) from *Harvard University* ★★★★★(615)
+- [**Harvard CS50 - Full Computer Science University Course**](https://classcentral.com/course/freecodecamp-harvard-cs50-full-computer-science-university-course-119762) from *Harvard University* ★★★★★(615)
 - [**CS50's Introduction to Computer Science**](https://classcentral.com/course/computer-science-harvard-university-cs50-s-introd-442) from *Harvard University* ★★★★★(183)
 - [**Introduction to Computer Science and Programming Using Python**](https://classcentral.com/course/computer-science-massachusetts-institute-of-techn-1341) from *Massachusetts Institute of Technology* ★★★★☆(130)
 - [**Artificial Intelligence**](https://classcentral.com/course/mit-ocw-6-034-artificial-intelligence-fall-2010-40938) from *Massachusetts Institute of Technology* ★★★★★(76)
@@ -758,7 +758,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Introduction to CSS3**](https://classcentral.com/course/coursera-introduction-to-css3-jhu-298758) from *Johns Hopkins University*
 - [**Techniques d’intelligence artificielle : des fondements aux applications**](https://classcentral.com/course/computer-science-universite-de-montreal-technique-291683) from *Université de Montréal*
 - [**Portfolio Management, Governance, & the PMO**](https://classcentral.com/course/portfolio-management-university-of-washington-por-8590) from *University of Washington*
-- [**iLabX – The Internet Masterclass**](https://classcentral.com/course/computer-networking-technische-universitat-munche-13734) from *Technische Universität München (Technical University of Munich)*
+- [**iLabX - The Internet Masterclass**](https://classcentral.com/course/computer-networking-technische-universitat-munche-13734) from *Technische Universität München (Technical University of Munich)*
 - [**Quantum Computer Systems Design II: Principles of Quantum Architecture**](https://classcentral.com/course/quantum-computing-university-of-chicago-quantum-c-56653) from *The University of Chicago*
 - [**Quantum Communication and the Quantum Network Explorer**](https://classcentral.com/course/computer-science-delft-university-of-technology-q-291676) from *Delft University of Technology*
 - [**Supercomputing**](https://classcentral.com/course/supercomputing-7660) from *Partnership for Advanced Computing in Europe*
@@ -796,7 +796,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**MIT MAS.S62 Cryptocurrency Engineering and Design, Spring 2018**](https://classcentral.com/course/youtube-mit-mas-s62-cryptocurrency-engineering-and-design-spring-2018-53942) from *Massachusetts Institute of Technology*
 - [**Les coulisses des systèmes de recommandation**](https://classcentral.com/course/computer-science-universite-de-montreal-les-couli-295044) from *Université de Montréal*
 - [**Dive Into the World of Blockchain: Principles, Mechanics, and Tokens**](https://classcentral.com/course/blockchain-university-of-toronto-blockchain-princ-292544) from *University of Toronto*
-- [**LAFF – On Programming for Correctness**](https://classcentral.com/course/computer-programming-the-university-of-texas-at-a-7852) from *The University of Texas at Austin*
+- [**LAFF - On Programming for Correctness**](https://classcentral.com/course/computer-programming-the-university-of-texas-at-a-7852) from *The University of Texas at Austin*
 - [**Vision artificielle et exploitation intelligente des ressources naturelles**](https://classcentral.com/course/computer-science-universite-de-montreal-vision-ar-294709) from *Université de Montréal*
 - [**LAFF-On Programming for High Performance**](https://classcentral.com/course/computer-programming-the-university-of-texas-at-a-13675) from *The University of Texas at Austin*
 - [**计算几何 | Computational Geometry**](https://classcentral.com/course/geometry-tsinghua-university-ji-suan-ji-he-comput-5434) from *Tsinghua University*
@@ -1250,7 +1250,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Stanford Seminar - When DNA Meets AI**](https://classcentral.com/course/youtube-stanford-seminar-when-dna-meets-ai-108754) from *Stanford University* ★★★★★(2)
 - [**Stanford Seminar - Data Analytics at the Exascale for Free Electron Lasers Project**](https://classcentral.com/course/youtube-stanford-seminar-data-analytics-at-the-exascale-for-free-electron-lasers-project-191781) from *Stanford University* ★★★★☆(2)
 - [**Stanford Seminar - New Platforms for Development Solutions**](https://classcentral.com/course/youtube-stanford-seminar-new-platforms-for-development-solutions-192221) from *Stanford University* ★★★★★(2)
-- [**Data Analytics in Health – From Basics to Business**](https://classcentral.com/course/data-analysis-ku-leuven-data-analytics-in-health--7160) from *KU Leuven University* ★★★★★(1)
+- [**Data Analytics in Health - From Basics to Business**](https://classcentral.com/course/data-analysis-ku-leuven-data-analytics-in-health--7160) from *KU Leuven University* ★★★★★(1)
 - [**Advanced Linear Models for Data Science 1: Least Squares**](https://classcentral.com/course/linear-models-6180) from *Johns Hopkins University* ★★★★★(1)
 - [**Data Science: Productivity Tools**](https://classcentral.com/course/data-science-harvard-university-data-science-prod-10350) from *Harvard University* ★★★★★(1)
 - [**Advanced Linear Models for Data Science 2: Statistical Linear Models**](https://classcentral.com/course/linear-models-2-7476) from *Johns Hopkins University* ★★★★★(1)
@@ -1306,7 +1306,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Collaborative Data Science for Healthcare**](https://classcentral.com/course/data-science-massachusetts-institute-of-technolog-21608) from *Massachusetts Institute of Technology*
 - [**Prediction Models with Sports Data**](https://classcentral.com/course/prediction-models-sports-data-43833) from *University of Michigan*
 - [**Sampling People, Networks and Records**](https://classcentral.com/course/sampling-methods-6084) from *University of Michigan*
-- [**Data – What It Is, What We Can Do With It**](https://classcentral.com/course/data-what-it-is-what-can-we-do-with-it-22210) from *Johns Hopkins University*
+- [**Data - What It Is, What We Can Do With It**](https://classcentral.com/course/data-what-it-is-what-can-we-do-with-it-22210) from *Johns Hopkins University*
 - [**Computational Reasoning with Microsoft Excel**](https://classcentral.com/course/excel-the-national-university-of-singapore-comput-48177) from *National University of Singapore*
 - [**Digital Transformation with Data Analytics Projects**](https://classcentral.com/course/coursera-digital-transformation-with-data-analytics-projects-293837) from *University of Maryland, College Park*
 - [**Hacking COVID-19 — Course 2: Decoding SARS-CoV-2's Secrets**](https://classcentral.com/course/covid-19-genome-annotation-45962) from *University of California, San Diego*
@@ -1335,11 +1335,11 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Big Data Technology Capstone Project**](https://classcentral.com/course/big-data-the-hong-kong-university-of-science-and--58699) from *The Hong Kong University of Science and Technology*
 - [**Mastering Software Development in R Capstone**](https://classcentral.com/course/r-capstone-7181) from *Johns Hopkins University*
 - [**Data Visualization Capstone**](https://classcentral.com/course/data-visualization-capstone-22206) from *Johns Hopkins University*
-- [**Measurement – Turning Concepts into Data**](https://classcentral.com/course/measurement-turning-concepts-data-22203) from *Johns Hopkins University*
+- [**Measurement - Turning Concepts into Data**](https://classcentral.com/course/measurement-turning-concepts-data-22203) from *Johns Hopkins University*
 - [**Quantifying Relationships with Regression Models**](https://classcentral.com/course/quantifying-relationships-regression-models-22208) from *Johns Hopkins University*
 - [**Science des données et santé**](https://classcentral.com/course/computer-science-universite-de-montreal-science-d-295045) from *Université de Montréal*
 - [**Fundamentals of Data Analytics in the Public Sector with R**](https://classcentral.com/course/fundamentals-of-data-analytics-in-the-public-sect-104785) from *University of Michigan*
-- [**Data Literacy Capstone – Evaluating Research**](https://classcentral.com/course/data-literacy-capstone-evaluating-research-22204) from *Johns Hopkins University*
+- [**Data Literacy Capstone - Evaluating Research**](https://classcentral.com/course/data-literacy-capstone-evaluating-research-22204) from *Johns Hopkins University*
 - [**STAT115 2018**](https://classcentral.com/course/youtube-stat115-2018-97492) from *Harvard University*
 - [**STAT115 2019**](https://classcentral.com/course/youtube-stat115-2019-97493) from *Harvard University*
 - [**Data Science: A New Way of Thinking | 数据科学导论**](https://classcentral.com/course/data-science-tsinghua-university-data-science-a-n-12731) from *Tsinghua University*

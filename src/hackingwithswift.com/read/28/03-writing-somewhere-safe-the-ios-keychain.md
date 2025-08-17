@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/h9RVeeUVhf8" />
 
-When the app first runs, users should see a totally innocuous screen, with nothing secret visible. But we also don't want secret information to be visible when the user leaves the app for a moment then comes back, or if they double-tap the home button to multitask – doing so might mean that the app is left unlocked, which is the last thing we want.
+When the app first runs, users should see a totally innocuous screen, with nothing secret visible. But we also don't want secret information to be visible when the user leaves the app for a moment then comes back, or if they double-tap the home button to multitask - doing so might mean that the app is left unlocked, which is the last thing we want.
 
 To make this work, let's start by giving the view controller a totally innocuous title that absolutely won't make anyone wonder what's going on. Put this into `viewDidLoad()`:
 
@@ -63,7 +63,7 @@ title = "Nothing to see here"
 
 Next we're going to create two new methods: `unlockSecretMessage()` to load the message into the text view, and `saveSecretMessage()`. But before we do that, I want to introduce you to a helpful class called `KeychainWrapper`, which we'll be using to read and write keychain values.
 
-This class was not made by Apple; instead, it's open source software released under the MIT license, which means we can use it in our own projects as long as the copyright message remains intact. This class is needed because working with the keychain is *complicated* – far harder than anything we have done so far. So instead of using it directly, we'll be using this wrapper class that makes the keychain work like `UserDefaults`.
+This class was not made by Apple; instead, it's open source software released under the MIT license, which means we can use it in our own projects as long as the copyright message remains intact. This class is needed because working with the keychain is *complicated* - far harder than anything we have done so far. So instead of using it directly, we'll be using this wrapper class that makes the keychain work like `UserDefaults`.
 
 If you haven't already downloaded this project's files from [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), please do so now. In there you'll find the files <FontIcon icon="fa-brands fa-swift"/>`KeychainWrapper.swift` and <FontIcon icon="fa-brands fa-swift"/>`KeychainItemAccessibility.swift`; please copy them into your Xcode project to make the class available.
 
@@ -110,13 +110,13 @@ Here's the code:
 }
 ```
 
-I slipped a new method in there: `resignFirstResponder()`. This is used to tell a view that has input focus that it should give up that focus. Or, in Plain English, to tell our text view that we're finished editing it, so the keyboard can be hidden. This is important because having a keyboard present might arouse suspicion – as if our rather obvious navigation bar title hadn't done enough already…
+I slipped a new method in there: `resignFirstResponder()`. This is used to tell a view that has input focus that it should give up that focus. Or, in Plain English, to tell our text view that we're finished editing it, so the keyboard can be hidden. This is important because having a keyboard present might arouse suspicion - as if our rather obvious navigation bar title hadn't done enough already…
 
 Now, there are still two questions remaining: how should users trigger a save when they are ready, and how do we ensure that as soon as the user starts to leave the app we make their data safe? For the first problem, consider this: how often do you see a save button in iOS? Hardly ever, I expect!
 
 It turns out that one answer solves both problems: if we automatically save when the user leaves the app then the user need never worry about saving because it's done for them, and our save method above automatically hides the text when it's called so the app becomes safe as soon as any action is taken to leave it.
 
-We're already using `NotificationCenter` to watch for the keyboard appearing and disappearing, and we can watch for another notification that will tell us when the application will stop being active – i.e., when our app has been backgrounded or the user has switched to multitasking mode. This notification is called `UIApplication.willResignActiveNotification`, and you should make us an observer for it in `viewDidLoad()` like this:
+We're already using `NotificationCenter` to watch for the keyboard appearing and disappearing, and we can watch for another notification that will tell us when the application will stop being active - i.e., when our app has been backgrounded or the user has switched to multitasking mode. This notification is called `UIApplication.willResignActiveNotification`, and you should make us an observer for it in `viewDidLoad()` like this:
 
 ```swift
 notificationCenter.addObserver(self, selector: #selector(saveSecretMessage), name: UIApplication.willResignActiveNotification, object: nil)

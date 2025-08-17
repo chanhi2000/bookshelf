@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: HTTP – Security, TLS, and Certificates
-description: Article(s) > HTTP – Security, TLS, and Certificates
+title: HTTP - Security, TLS, and Certificates
+description: Article(s) > HTTP - Security, TLS, and Certificates
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > HTTP – Security, TLS, and Certificates
+      content: Article(s) > HTTP - Security, TLS, and Certificates
     - property: og:description
-      content: HTTP – Security, TLS, and Certificates
+      content: HTTP - Security, TLS, and Certificates
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/http-series-part-5.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/http-series-part-5/banner.png
 ---
 
 <SiteInfo
-  name="HTTP – Security, TLS, and Certificates"
+  name="HTTP - Security, TLS, and Certificates"
   desc="Do you really need HTTPS? In this article we're going to explore some HTTPS security basics and learn about its strengths and weaknesses."
   url="https://code-maze.com/http-series-part-5/"
   logo="/assets/image/code-maze.com/favicon.png"

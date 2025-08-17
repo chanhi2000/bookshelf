@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-When you create any animation – implicitly, explicitly, or with bindings – you can attach modifiers to that animation to adjust the way it works. For example, if you want an animation to start after a certain number of seconds you should use the `delay()` modifier.
+When you create any animation - implicitly, explicitly, or with bindings - you can attach modifiers to that animation to adjust the way it works. For example, if you want an animation to start after a certain number of seconds you should use the `delay()` modifier.
 
 As an example, this creates a red rectangle that, when tapped, will rotate by 360 degrees using a two-second animation with a one-second delay:
 

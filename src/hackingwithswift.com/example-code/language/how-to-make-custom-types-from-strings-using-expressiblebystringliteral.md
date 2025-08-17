@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift’s `ExpressibleByStringLiteral` protocol lets us create any type directly from a string – as long as Swift understands what type you mean, you can create whatever you want.
+Swift’s `ExpressibleByStringLiteral` protocol lets us create any type directly from a string - as long as Swift understands what type you mean, you can create whatever you want.
 
 For example, if you regularly hard-code URLs and are tired of force unwrapping them when you know they are definitely correct, you can make `URL` conform to `ExpressibleByStringLiteral` so that URLs can be created directly from strings:
 

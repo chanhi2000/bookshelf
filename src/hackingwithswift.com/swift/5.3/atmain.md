@@ -83,7 +83,7 @@ However, there are some provisos you should be aware of when using `@main`:
 
 - You may not use this attribute in an app that already has a <FontIcon icon="fa-brands fa-swift"/>`main.swift` file.
 - You may not have more than one `@main` attribute
-- The `@main` attribute can be applied only to a base class – it will *not* be inherited by any subclasses.
+- The `@main` attribute can be applied only to a base class - it will *not* be inherited by any subclasses.
 
 ::: details Other Changes in Swift 5.3
 

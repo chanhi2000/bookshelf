@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Check Python Version – How to Check Py in Mac, Windows, and Linux"
-description: "Article(s) > Check Python Version – How to Check Py in Mac, Windows, and Linux"
+title: "Check Python Version - How to Check Py in Mac, Windows, and Linux"
+description: "Article(s) > Check Python Version - How to Check Py in Mac, Windows, and Linux"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Check Python Version – How to Check Py in Mac, Windows, and Linux"
+      content: "Article(s) > Check Python Version - How to Check Py in Mac, Windows, and Linux"
     - property: og:description
-      content: "Check Python Version – How to Check Py in Mac, Windows, and Linux"
+      content: "Check Python Version - How to Check Py in Mac, Windows, and Linux"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html
 prev: /programming/py/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2023/06/Shittu-Olumide-Check
 ---
 
 <SiteInfo
-  name="Check Python Version – How to Check Py in Mac, Windows, and Linux"
+  name="Check Python Version - How to Check Py in Mac, Windows, and Linux"
   desc="By Shittu Olumide Python is a versatile and widely used programming language known for its simplicity and readability.  With its ever-evolving nature, different versions of Python are often released, each offering new features, enhancements, and bug ..."
   url="https://freecodecamp.org/news/check-python-version-how-to-check-py-in-mac-windows-and-linux/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -269,7 +269,7 @@ Happy Coding!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Check Python Version – How to Check Py in Mac, Windows, and Linux",
+  "title": "Check Python Version - How to Check Py in Mac, Windows, and Linux",
   "desc": "By Shittu Olumide Python is a versatile and widely used programming language known for its simplicity and readability.  With its ever-evolving nature, different versions of Python are often released, each offering new features, enhancements, and bug ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

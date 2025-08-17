@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Segues are visual connectors between view controllers in your storyboards, shown as lines between the two controllers. They allow you to present one view controller from another, optionally using adaptive presentation so iPads behave one way while iPhones behave another.
 
-When a segue is triggered – perhaps through a button press or a table view selection – the `prepare(for:)` method will be called on your view controller, at which point you can configure your destination view controller by setting some properties.
+When a segue is triggered - perhaps through a button press or a table view selection - the `prepare(for:)` method will be called on your view controller, at which point you can configure your destination view controller by setting some properties.
 
 For example, you might write something like this in response to a table view selection:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "DevOps for Full Stack Developers"
-description: "Article(s) > (2/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+description: "Article(s) > (2/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
 category:
   - Career
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+      content: "Article(s) > (2/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
     - property: og:description
       content: "DevOps for Full Stack Developers"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 
 ```component VPCard
 {
-  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners",
   "desc": "Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial...",
   "link": "/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 ---
 
 <SiteInfo
-  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
   desc="Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial..."
   url="https://freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job#heading-devops-for-full-stack-developers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -94,9 +94,9 @@ Before I learned about cloud computing, I used to deploy my projects on shared h
 
 Cloud platforms like AWS (Amazon Web Services), GCP (Google Cloud Platform), and Azure transformed the way I deployed applications. Unlike traditional hosting, cloud computing provided:
 
-Scalability – Instantly add or reduce resources based on demand.  
-Cost-efficiency – Pay only for what you use, avoiding unnecessary expenses.  
-Global Availability – Deploy applications across multiple data centers for better performance.
+Scalability - Instantly add or reduce resources based on demand.  
+Cost-efficiency - Pay only for what you use, avoiding unnecessary expenses.  
+Global Availability - Deploy applications across multiple data centers for better performance.
 
 Instead of worrying about physical servers, I could now launch virtual machines (EC2 on AWS, Compute Engine on GCP) to host applications, use managed databases (AWS RDS, Firebase, PostgreSQL on Azure) without setting up servers, and leverage serverless computing (AWS Lambda, Google Cloud Functions) for lightweight, event-driven applications.
 

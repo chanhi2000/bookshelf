@@ -191,7 +191,7 @@ This becomes particularly interesting when combined with `corner-shape`. The int
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/> -->
 
-By using multiple values, we can create additional designs and shapes, like my all time favorite shape – hexagons. Now we can generate perfect hexagons with just a few simple lines of CSS. Using a `bevel` shape for the corners, and giving different values to the horizontal and vertical radii (50% and 25%).
+By using multiple values, we can create additional designs and shapes, like my all time favorite shape - hexagons. Now we can generate perfect hexagons with just a few simple lines of CSS. Using a `bevel` shape for the corners, and giving different values to the horizontal and vertical radii (50% and 25%).
 
 ```css
 .hexagon {

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "HTTP – Overview of the Basic Concepts"
-description: "Article(s) > HTTP – Overview of the Basic Concepts"
+title: "HTTP - Overview of the Basic Concepts"
+description: "Article(s) > HTTP - Overview of the Basic Concepts"
 icon: fas fa-computer
 category: 
   - Engineering
@@ -17,9 +17,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: "Article(s) > HTTP – Overview of the Basic Concepts"
+      content: "Article(s) > HTTP - Overview of the Basic Concepts"
     - property: og:description
-      content: "HTTP – Overview of the Basic Concepts"
+      content: "HTTP - Overview of the Basic Concepts"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/http-series-part-1.html
 prev: /academics/coen/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/http-series-part-1/banner.png
 ---
 
 <SiteInfo
-  name="HTTP – Overview of the Basic Concepts"
+  name="HTTP - Overview of the Basic Concepts"
   desc="In the world driven by the Internet, messages are being sent between clients and servers countless times per day via HTTP."
   url="https://code-maze.com/http-series-part-1/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -325,7 +325,7 @@ Read about the architectural aspects of HTTP in [**part 2**](/code-maze.com/http
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "HTTP – Overview of the Basic Concepts",
+  "title": "HTTP - Overview of the Basic Concepts",
   "desc": "In the world driven by the Internet, messages are being sent between clients and servers countless times per day via HTTP.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/http-series-part-1.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

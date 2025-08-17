@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
-description: "Article(s) > Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+title: "Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
+description: "Article(s) > Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+      content: "Article(s) > Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
     - property: og:description
-      content: "Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+      content: "Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/
 prev: /programming/js/articles/README.md
@@ -43,13 +43,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727797253693/e0d1ebf
 ---
 
 <SiteInfo
-  name="Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
-  desc="When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen – it could be fetching data, sending information, or m..."
+  name="Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
+  desc="When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen - it could be fetching data, sending information, or m..."
   url="https://freecodecamp.org/news/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727797253693/e0d1ebfc-2071-4f2e-8e8b-d47c8f55844e.png"/>
 
-When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen – it could be fetching data, sending information, or making changes to existing content.
+When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen - it could be fetching data, sending information, or making changes to existing content.
 
 Each method serves a specific purpose to keep web communication clear, secure, and organized.
 
@@ -58,7 +58,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "GET Method",
-  "desc": "(1/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(1/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/get-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -68,7 +68,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "POST Method",
-  "desc": "(2/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(2/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/post-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -78,7 +78,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "PUT Method",
-  "desc": "(3/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(3/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/put-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -88,7 +88,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "PATCH Method",
-  "desc": "(4/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(4/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/patch-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -98,7 +98,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "DELETE Method",
-  "desc": "(5/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(5/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/delete-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -108,7 +108,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "HEAD Method",
-  "desc": "(6/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(6/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/head-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -118,7 +118,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "OPTIONS Method",
-  "desc": "(7/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(7/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/options-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -128,7 +128,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "TRACE Method",
-  "desc": "(8/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(8/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/trace-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -138,7 +138,7 @@ In this article, we will break down the most common HTTPS methods and explain ho
 ```component VPCard
 {
   "title": "CONNECT Method",
-  "desc": "(9/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples", 
+  "desc": "(9/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples", 
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/connect-method.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -71,7 +71,7 @@ There are a handful of important things to know about using `#Predicate`.
 
 First, it’s a macro that converts your Swift code into a serious of `PredicateExpressions` objects. This means your predicate is checked at compile time for type safety, unlike the older `NSPredicate` from Core Data.
 
-This means what looks like pure Swift code is in fact being evaluated and converted into something else entirely – something that SwiftData can ultimately convert to SQL to run with its queries.
+This means what looks like pure Swift code is in fact being evaluated and converted into something else entirely - something that SwiftData can ultimately convert to SQL to run with its queries.
 
 **This process isn’t perfect.** Some things that are type-safe will crash at runtime, sometimes you’ll find two almost identical predicates will behave differently, and many things just aren’t supported.
 
@@ -203,7 +203,7 @@ However, I’ve found that attempting to read any deeper properties inside these
 }) var movies: [Movie]
 ```
 
-Or making a predicate to find movies where no cast member has been in more than three movies – this will also fail, except it will do so loudly with a full crash:
+Or making a predicate to find movies where no cast member has been in more than three movies - this will also fail, except it will do so loudly with a full crash:
 
 ```swift
 @Query(filter: #Predicate<Movie> { movie in

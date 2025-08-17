@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -120,7 +120,7 @@ override func collectionView(_ collectionView: UICollectionView, cellForItemAt i
 }
 ```
 
-That makes the collection view work just fine, but we still need three more methods in order to get our basic app ready, and these are the methods to handle the image picker. If this code isn't identical to the code we've previously written, it might as well be – check project 10 if your memory is bad!
+That makes the collection view work just fine, but we still need three more methods in order to get our basic app ready, and these are the methods to handle the image picker. If this code isn't identical to the code we've previously written, it might as well be - check project 10 if your memory is bad!
 
 ```swift
 @objc func importPicture() {
@@ -140,5 +140,5 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
 }
 ```
 
-Done – no more boring old code now. At this point you can run the app if you want, but there's no need to other than being sure your code works – this is just a cut-down version of project 10 so far.
+Done - no more boring old code now. At this point you can run the app if you want, but there's no need to other than being sure your code works - this is just a cut-down version of project 10 so far.
 

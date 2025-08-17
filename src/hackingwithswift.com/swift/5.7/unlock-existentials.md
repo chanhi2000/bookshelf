@@ -63,7 +63,7 @@ let lastName: any Equatable = "Hudson"
 
 `Equatable` is a protocol with `Self` requirements, which means it provides functionality that refers to the specific type that adopts it. For example, `Int` conforms to `Equatable`, so when we say `4 == 4` we’re actually running a function that accepts two integers and returns true if they match.
 
-Swift *could* implement this functionality using a function similar to `func ==(first: Int, second: Int) -> Bool`, but that wouldn’t scale well – they would need to write dozens of such functions to handle Booleans, strings, arrays, and so on. So, instead the `Equatable` protocol has a requirement like this: `func ==(lhs: Self, rhs: Self) -> Bool`. In English, that means “you need to be able to accept two instances of the same type and tell me if they are the same.” That might be two integers, two strings, two Booleans, or two of any other type that conforms to `Equatable`.
+Swift *could* implement this functionality using a function similar to `func ==(first: Int, second: Int) -> Bool`, but that wouldn’t scale well - they would need to write dozens of such functions to handle Booleans, strings, arrays, and so on. So, instead the `Equatable` protocol has a requirement like this: `func ==(lhs: Self, rhs: Self) -> Bool`. In English, that means “you need to be able to accept two instances of the same type and tell me if they are the same.” That might be two integers, two strings, two Booleans, or two of any other type that conforms to `Equatable`.
 
 To avoid this problem and similar ones, any time `Self` appeared in a protocol before Swift 5.7 the compiler would simply not allow us to use it in code such as this:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Hack Your FirstMachine – A Guide for Aspiring Security Enthusiasts"
-description: "Article(s) > Hack Your FirstMachine – A Guide for Aspiring Security Enthusiasts"
+title: "Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
+description: "Article(s) > Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Hack Your FirstMachine – A Guide for Aspiring Security Enthusiasts"
+      content: "Article(s) > Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
     - property: og:description
-      content: "Hack Your FirstMachine – A Guide for Aspiring Security Enthusiasts"
+      content: "Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
     - property: og:url
       content: https://chanhi2000.github.iohttps://chanhi2000.github.io/bookshelf/freecodecamp.org/hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts.html
 prev: /devops/security/articles/README.md
@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
 ---
 
 <SiteInfo
-  name="Hack Your FirstMachine – A Guide for Aspiring Security Enthusiasts"
+  name="Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
   desc="Hacking your first machine is a milestone for anyone interested in cybersecurity. You may have watched countless tutorials and read many articles. But hacking a machine and taking control of it is a wonderful and important experience for any aspiring..."
   url="https://freecodecamp.org/news/hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -70,7 +70,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727929072898/8ba47c5
 
 Hacking your first machine is a milestone for anyone interested in cybersecurity. You may have watched countless tutorials and read many articles. But hacking a machine and taking control of it is a wonderful and important experience for any aspiring cybersecurity professional.
 
-Well, I’m here to give you that experience – for free.
+Well, I’m here to give you that experience - for free.
 
 I’ve created a hands-on lab with TryHackMe (THM). [<FontIcon icon="fas fa-globe"/>TryHackMe](https://tryhackme.com/) is an online platform that offers virtual labs for learning cybersecurity.
 

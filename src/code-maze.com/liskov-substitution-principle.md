@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: SOLID Principles in C# – Liskov Substitution Principle
-description: Article(s) > SOLID Principles in C# – Liskov Substitution Principle
+title: SOLID Principles in C# - Liskov Substitution Principle
+description: Article(s) > SOLID Principles in C# - Liskov Substitution Principle
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > SOLID Principles in C# – Liskov Substitution Principle
+      content: Article(s) > SOLID Principles in C# - Liskov Substitution Principle
     - property: og:description
-      content: SOLID Principles in C# – Liskov Substitution Principle
+      content: SOLID Principles in C# - Liskov Substitution Principle
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/liskov-substitution-principle.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/liskov-substitution-principle/banner.png
 ---
 
 <SiteInfo
-  name="SOLID Principles in C# – Liskov Substitution Principle"
+  name="SOLID Principles in C# - Liskov Substitution Principle"
   desc="In this article you will learn more about Liskov Substitution Principle, how to achieve it in your code and why should we use it."
   url="https://code-maze.com/liskov-substitution-principle/"
   logo="/assets/image/code-maze.com/favicon.png"

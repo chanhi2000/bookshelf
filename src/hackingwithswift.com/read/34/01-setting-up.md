@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ Why, then, am I choosing to write a tutorial based on it? Well, for some reason 
 
 Frustrating things further, this sample code is what's used to document GameplayKit, so you're kind of stuck trying to learn about a very large new technology while studying an unfriendly project, or reading the documentation… that's about the same unfriendly project. I wanted to produce a project that was easier to understand and easier to learn, then produce a tutorial that explained how it all worked.
 
-So, I took the Objective-C code and rewrote it in Swift. I then simplified the structure to make it more useful for learners, renamed some methods to make more sense, then cleaned up the user interface. Where it wasn't too strange I have tried to keep Apple's original structure, so if you choose to check out their original source code you won't be too lost – look for FourInARow in the Apple sample code. I accept any and all blame for bugs introduced in the Swift conversion process!
+So, I took the Objective-C code and rewrote it in Swift. I then simplified the structure to make it more useful for learners, renamed some methods to make more sense, then cleaned up the user interface. Where it wasn't too strange I have tried to keep Apple's original structure, so if you choose to check out their original source code you won't be too lost - look for FourInARow in the Apple sample code. I accept any and all blame for bugs introduced in the Swift conversion process!
 
 You might well say, "well, if you didn't like the 4IR game, how about Apple's DemoBots sample code? That's really cool, and it uses GameplayKit!" Yes, it does use GameplayKit. But it's also made up of 84 Swift files, 6,952 images, 14 SKS files for effects and scenes, and a custom shader. Cool: yes. Easy to learn from: not really. By all means download it, but this tutorial is aimed at people just getting started with GameplayKit.
 

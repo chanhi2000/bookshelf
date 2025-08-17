@@ -75,18 +75,18 @@ We just released a new video course on the freeCodeCamp.org YouTube channel that
 
 Here’s what the course covers:
 
-- **Introduction & Project Planning** – Understand the problem and design the architecture of the full pipeline.
-- **Data Collection** – Learn how to scrape YouTube comments and prepare the data you'll use to train the sentiment model.
-- **Data Preprocessing & EDA** – Clean the data, explore patterns, and prep it for training.
-- **Setup MLflow Server on AWS** – Use MLflow to track experiments and manage your models.
-- **Building a Baseline Model** – Start simple with a basic model to establish a performance benchmark.
-- **Improving the Model** – Experiment with techniques like Bag of Words, TFIDF, adjusting feature sizes, handling class imbalance, and hyperparameter tuning.
-- **Stacking Models** – Use ensemble techniques to combine different models for better performance.
-- **Build a Full ML Pipeline Using DVC** – Break your code into modular components (data ingestion, preprocessing, model building, etc.) and version everything using DVC.
-- **Model Evaluation and Registration with MLflow** – Evaluate performance and keep track of the best models.
-- **Deploy with Flask and Docker** – Wrap your model in a Flask API, containerize it with Docker, and prepare it for production.
-- **Create a Chrome Plugin** – Build a browser extension that interacts with your deployed model in real time.
-- **CI/CD Deployment on AWS** – Automate your deployment so updates happen smoothly and reliably.
+- **Introduction & Project Planning** - Understand the problem and design the architecture of the full pipeline.
+- **Data Collection** - Learn how to scrape YouTube comments and prepare the data you'll use to train the sentiment model.
+- **Data Preprocessing & EDA** - Clean the data, explore patterns, and prep it for training.
+- **Setup MLflow Server on AWS** - Use MLflow to track experiments and manage your models.
+- **Building a Baseline Model** - Start simple with a basic model to establish a performance benchmark.
+- **Improving the Model** - Experiment with techniques like Bag of Words, TFIDF, adjusting feature sizes, handling class imbalance, and hyperparameter tuning.
+- **Stacking Models** - Use ensemble techniques to combine different models for better performance.
+- **Build a Full ML Pipeline Using DVC** - Break your code into modular components (data ingestion, preprocessing, model building, etc.) and version everything using DVC.
+- **Model Evaluation and Registration with MLflow** - Evaluate performance and keep track of the best models.
+- **Deploy with Flask and Docker** - Wrap your model in a Flask API, containerize it with Docker, and prepare it for production.
+- **Create a Chrome Plugin** - Build a browser extension that interacts with your deployed model in real time.
+- **CI/CD Deployment on AWS** - Automate your deployment so updates happen smoothly and reliably.
 
 By the end, you’ll have a working, deployed MLOps project that shows you understand the full ML lifecycle. This course is perfect for anyone who already knows a bit of machine learning and wants to level up their engineering skills.
 

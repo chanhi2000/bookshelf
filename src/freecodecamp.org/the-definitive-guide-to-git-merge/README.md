@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Git Merge Handbook – Definitive Guide to Merging in Git"
-description: "Article(s) > The Git Merge Handbook – Definitive Guide to Merging in Git"
+title: "The Git Merge Handbook - Definitive Guide to Merging in Git"
+description: "Article(s) > The Git Merge Handbook - Definitive Guide to Merging in Git"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
-      content: "The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -64,7 +64,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "What is a Merge in Git?",
-  "desc": "(1/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(1/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/what-is-a-merge-in-git.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -74,7 +74,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "Time to Get Hands-on 🙌🏻",
-  "desc": "(2/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(2/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/time-to-get-hands-on.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -84,7 +84,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "Time For a More Advanced Case",
-  "desc": "(3/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(3/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/time-for-a-more-advanced-case.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -94,7 +94,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "Quick recap on a three-way merge",
-  "desc": "(4/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(4/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/quick-recap-on-a-three-way-merge.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -104,7 +104,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "Moving on 👣",
-  "desc": "(5/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(5/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/moving-on.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -114,7 +114,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "More Advanced Git Merge Cases",
-  "desc": "(6/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(6/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/more-advanced-git-merge-cases.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -124,7 +124,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "How Git's 3-way Merge Algorithm Works",
-  "desc": "(7/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(7/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/how-gits-3-way-merge-algorithm-works.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -134,7 +134,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "How to Resolve Merge Conflicts",
-  "desc": "(8/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(8/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/how-to-resolve-merge-conflicts.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -144,7 +144,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "How to Use VS Code to Resolve Conflicts",
-  "desc": "(9/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(9/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/how-to-use-vs-code-to-resolve-conflicts.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -154,7 +154,7 @@ OK, are you ready?
 ```component VPCard
 {
   "title": "One More Powerful Tool 🪛",
-  "desc": "(10/10) The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "desc": "(10/10) The Git Merge Handbook - Definitive Guide to Merging in Git",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/one-more-powerful-tool.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -166,21 +166,21 @@ OK, are you ready?
 
 ## Recap
 
-In this guide, you got an extensive overview of merging with Git. You learned that merging is the process of combining the recent changes from several branches into a single new commit. The new commit has two parents – those commits which had been the tips of the branches that were merged.
+In this guide, you got an extensive overview of merging with Git. You learned that merging is the process of combining the recent changes from several branches into a single new commit. The new commit has two parents - those commits which had been the tips of the branches that were merged.
 
 We considered a simple, fast-forward merge, which is possible when one branch diverged from the base branch, and then just added commits on top of the base branch.
 
 We then considered three-way merges, and explained the three-stage process:
 
 - First, Git locates the merge base. As a reminder, this is the first commit that is reachable from both branches.
-- Second, Git calculates two diffs – one diff from the merge base to the *first* branch, and another diff from the merge base to the *second* branch. Git generates patches based on those diffs.
+- Second, Git calculates two diffs - one diff from the merge base to the *first* branch, and another diff from the merge base to the *second* branch. Git generates patches based on those diffs.
 - Third and last, Git applies both patches to the merge base using a 3-way merge algorithm. The result is the state of the new, merge commit.
 
 We dove deeper into the process of a 3-way merge, whether at a file level or a hunk level. We considered when Git is able to rely on a 3-way merge to automatically resolve conflicts, and when it just can't.
 
 You saw the output of `git diff` when we are in a conflicting state, and how to resolve conflicts either manually or with VS Code.
 
-There is much more to be said about merges – different merge strategies, recursive merges, and so on. Yet, after this guide, you should have a robust understanding of what merge is, and what happens under the hood in the vast majority of cases.
+There is much more to be said about merges - different merge strategies, recursive merges, and so on. Yet, after this guide, you should have a robust understanding of what merge is, and what happens under the hood in the vast majority of cases.
 
 ---
 
@@ -258,7 +258,7 @@ There is much more to be said about merges – different merge strategies, recur
 
 ---
 
-## Appendix – Beatles-related resources
+## Appendix - Beatles-related resources
 
 <SiteInfo
   name="I've Got A Feeling (song)"
@@ -284,7 +284,7 @@ There is much more to be said about merges – different merge strategies, recur
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

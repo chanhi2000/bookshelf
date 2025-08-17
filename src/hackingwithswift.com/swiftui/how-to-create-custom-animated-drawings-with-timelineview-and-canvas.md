@@ -58,7 +58,7 @@ SwiftUI’s `Canvas` view lets us have free control over drawing in our app, and
 
 To demonstrate this we can produce some code that creates a simple rain effect.
 
-This starts by defining the data a single drop of rain needs to know in order to work: where it is located horizontally, and when it should be removed from the screen, and how the speed it should fall. That speed property is important, because it means our raindrops won’t all fall at a uniform speed – it makes the whole effect look a lot more realistic.
+This starts by defining the data a single drop of rain needs to know in order to work: where it is located horizontally, and when it should be removed from the screen, and how the speed it should fall. That speed property is important, because it means our raindrops won’t all fall at a uniform speed - it makes the whole effect look a lot more realistic.
 
 Alongside a single raindrop, we’re also going to create a class to manage the whole rainstorm. This will have a set of `Raindrop` instances, and a method that removes any old raindrops, and creates a new one with a random location and speed.
 

@@ -62,12 +62,12 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 Here are the topics you will learn about in this course:
 
-- **Introduction to API Security** – Discover why APIs have become a top target for cyberattacks and the risks they pose to businesses and users.
-- **Anatomy of Real-World API Breaches** – Examine real API breaches, how attackers exploited vulnerabilities, and what could have prevented them.
-- **OWASP API Security Top 10** – Understand the most critical API security risks identified by OWASP (updated in 2023) and how to mitigate them.
-- **The 3 Pillars of API Security** – Learn the key components of a strong API security strategy: **Governance, Testing, and Monitoring**.
-- **API Security Technology Landscape** – Explore different security technologies, their capabilities, and the gaps they leave behind.
-- **Conclusion and Best Practices** – Wrap up with key takeaways, best practices, and practical security recommendations for developers and security teams.
+- **Introduction to API Security** - Discover why APIs have become a top target for cyberattacks and the risks they pose to businesses and users.
+- **Anatomy of Real-World API Breaches** - Examine real API breaches, how attackers exploited vulnerabilities, and what could have prevented them.
+- **OWASP API Security Top 10** - Understand the most critical API security risks identified by OWASP (updated in 2023) and how to mitigate them.
+- **The 3 Pillars of API Security** - Learn the key components of a strong API security strategy: **Governance, Testing, and Monitoring**.
+- **API Security Technology Landscape** - Explore different security technologies, their capabilities, and the gaps they leave behind.
+- **Conclusion and Best Practices** - Wrap up with key takeaways, best practices, and practical security recommendations for developers and security teams.
 
 If you're looking to **strengthen your API security knowledge** and learn from an industry expert, this course is for you. Check it out on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/R-4_DbV1Su4) (2-hour watch).
 

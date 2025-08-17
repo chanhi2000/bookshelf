@@ -65,12 +65,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 <SiteInfo
   name="ChatGPT and the proliferation of obsolete and broken solutions to problems we hadn’t had for over half a decade before its launch"
-  desc="It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” – well, maybe not these exact words, but at least it rhymes. Both the question and this […]"
+  desc="It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” - well, maybe not these exact words, but at least it rhymes. Both the question and this […]"
   url="https://frontendmasters.com/blog/chatgpt-and-old-and-broken-code/"
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5808"/>
 
-It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” – well, maybe not these exact words, but at least it rhymes.
+It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” - well, maybe not these exact words, but at least it rhymes.
 
 <VidStack src="https://videopress.com/a6d5e9a3-67f7-4e11-b01f-715e618a5273" />
 
@@ -243,7 +243,7 @@ Wrong! Some months later, I went to a job interview. I’ve always been a show-o
 
 I started using[<FontIcon icon="fas fa-globe"/>Modernizr](https://modernizr.com/)to test for CSS gradient support after that. We didn’t have`@supports`back then, so Modernizr was the way to go for many years.
 
-Then there was[<FontIcon icon="fas fa-globe"/>the Android problem](https://css-tricks.com/image-under-text/#aa-but-there-is-no-perfect-system-for-this)– CSS gradients being supported, but not`-webkit-background-clip: text`, though support tests returned false positives. Since I didn’t have a smartphone and I don’t think I even knew anyone who had one at the time, I couldn’t test if any fix found on the internet would work and I don’t recall anyone ever complaining, so I confess I never even bothered with trying to cover this case.
+Then there was[<FontIcon icon="fas fa-globe"/>the Android problem](https://css-tricks.com/image-under-text/#aa-but-there-is-no-perfect-system-for-this)- CSS gradients being supported, but not`-webkit-background-clip: text`, though support tests returned false positives. Since I didn’t have a smartphone and I don’t think I even knew anyone who had one at the time, I couldn’t test if any fix found on the internet would work and I don’t recall anyone ever complaining, so I confess I never even bothered with trying to cover this case.
 
 Then things started to get even funnier.
 
@@ -251,7 +251,7 @@ In 2011, WebKit browsers started supporting a newer, different gradient syntax. 
 
 This really caught on. Prefixes[<FontIcon icon="fas fa-globe"/>were meant to solve a problem](https://alistapart.com/article/prefix-or-posthack/), but a lot of developers skipped reading the instructions on the box, so they wrote code with either too many prefixed versions of the same properties or, more commonly, not enough… usually just the WebKit one. Which meant other browsers started considering supporting the`-webkit-`prefix too.
 
-There was[<FontIcon icon="fas fa-globe"/>a lot](http://glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION:-THE-OPEN-WEB-NEEDS-YOU-NOW)[<FontIcon icon="fas fa-globe"/>written](https://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/)[<FontIcon icon="fas fa-globe"/>about it](https://sitepoint.com/w3c-css-webkit-prefix-crisis/)at the time, but basically what this meant was that Opera first implemented`-webkit-`prefixes in 2012 and then[<FontIcon icon="fas fa-globe"/>switched away](https://tobiasahlin.com/blog/opera-moves-to-webkit/)from Presto altogether a year later, at around the same time Blink[<FontIcon icon="fa-brands fa-chrome"/>was announced](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html). Another year later, IE[<FontIcon icon="fa-brands fa-edge"/>added](https://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/)the`-webkit-`prefix too. This would carry over to Edge and then Edge would also move to Blink. And then in[<FontIcon icon="fa-brands fa-firefox"/>2015](https://bugzilla.mozilla.org/show_bug.cgi?id=1107378)–[<FontIcon icon="fa-brands fa-firefox"/>2016](https://hacks.mozilla.org/2016/09/firefox-49-fixes-sites-designed-with-webkit-in-mind-and-more/), Firefox also implemented some non-standard`-webkit-`prefixed properties and mapped some other`-webkit-`prefixed properties to their`-moz-`or standard equivalents.
+There was[<FontIcon icon="fas fa-globe"/>a lot](http://glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION:-THE-OPEN-WEB-NEEDS-YOU-NOW)[<FontIcon icon="fas fa-globe"/>written](https://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/)[<FontIcon icon="fas fa-globe"/>about it](https://sitepoint.com/w3c-css-webkit-prefix-crisis/)at the time, but basically what this meant was that Opera first implemented`-webkit-`prefixes in 2012 and then[<FontIcon icon="fas fa-globe"/>switched away](https://tobiasahlin.com/blog/opera-moves-to-webkit/)from Presto altogether a year later, at around the same time Blink[<FontIcon icon="fa-brands fa-chrome"/>was announced](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html). Another year later, IE[<FontIcon icon="fa-brands fa-edge"/>added](https://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/)the`-webkit-`prefix too. This would carry over to Edge and then Edge would also move to Blink. And then in[<FontIcon icon="fa-brands fa-firefox"/>2015](https://bugzilla.mozilla.org/show_bug.cgi?id=1107378)-[<FontIcon icon="fa-brands fa-firefox"/>2016](https://hacks.mozilla.org/2016/09/firefox-49-fixes-sites-designed-with-webkit-in-mind-and-more/), Firefox also implemented some non-standard`-webkit-`prefixed properties and mapped some other`-webkit-`prefixed properties to their`-moz-`or standard equivalents.
 
 What this meant was that for a while, we had support for`-webkit-`prefixed gradients in non-WebKit browsers… but not support for`-webkit-text-fill-color`,`-webkit-background-clip: text`, so the following code:
 
@@ -284,7 +284,7 @@ You might say support. Indeed, there are people stuck on old browsers without th
 
 Even if they were that far back, the ChatGPT solution sets `color` to `transparent` alongside`-webkit-text-fill-color`. The whole point of using`-webkit-text-fill-color`before clipping backgrounds to`text`became cross-browser was to avoid setting`color`to`transparent`, which ChatGPT isn’t doing because it’s dumping that declaration in there too. So it’s not improving support, it’s just adding redundant code. Or breaking the solution for a problem that had become obsolete over half a decade before ChatGPT was launched. Whichever you prefer.
 
-In any case, the ChatGPT code is what we call “struţocămilă” in Romanian – an impossible animal that’s half ostrich, half camel.
+In any case, the ChatGPT code is what we call “struţocămilă” in Romanian - an impossible animal that’s half ostrich, half camel.
 
 ![A strange hybrid animal with the body of an ostrich and the head and neck of a camel.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/438891078-ee838909-3cd9-404a-bc22-705e62217d63.png?resize=1024%2C683&ssl=1)
 
@@ -376,7 +376,7 @@ It makes sense. Older solutions have had more time to become more popular and th
 ```component VPCard
 {
   "title": "ChatGPT and the proliferation of obsolete and broken solutions to problems we hadn’t had for over half a decade before its launch",
-  "desc": "It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” – well, maybe not these exact words, but at least it rhymes. Both the question and this […]",
+  "desc": "It was a lovely day on the internet when someone asked how to CSS animated gradient text like ChatGPT’s “Searching the web” and promptly got an answer saying “Have you tried asking ChatGPT? Here’s what it told me!” - well, maybe not these exact words, but at least it rhymes. Both the question and this […]",
   "link": "https://chanhi2000.github.io/bookshelf/frontendmasters.com/chatgpt-and-old-and-broken-code.html",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"

@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/location",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -40,7 +40,7 @@ head:
 ```component VPCard
 {
   "title": "Adding places to MKMapView using MKPlacemark",
-  "desc": "You can add places to any map view using the <code>MKPlacemark</code> class, and it’s different from adding regular annotations – the map view shows the whole address on the map, even from far away, so users can see important points easily",
+  "desc": "You can add places to any map view using the <code>MKPlacemark</code> class, and it’s different from adding regular annotations - the map view shows the whole address on the map, even from far away, so users can see important points easily",
   "link": "/hackingwithswift.com/example-code/location/adding-places-to-mkmapview-using-mkplacemark.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,7 +110,7 @@ head:
 ```component VPCard
 {
   "title": "How to make an iPhone transmit an iBeacon",
-  "desc": "iOS 7.0 introduced not only the ability to detect iBeacons, but also the ability to create iBeacons – for iPhones and iPads to broadcast their own beacon signal that can then be detected by other devices. To make this work, you add these two imports:",
+  "desc": "iOS 7.0 introduced not only the ability to detect iBeacons, but also the ability to create iBeacons - for iPhones and iPads to broadcast their own beacon signal that can then be detected by other devices. To make this work, you add these two imports:",
   "link": "/hackingwithswift.com/example-code/location/how-to-make-an-iphone-transmit-an-ibeacon.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

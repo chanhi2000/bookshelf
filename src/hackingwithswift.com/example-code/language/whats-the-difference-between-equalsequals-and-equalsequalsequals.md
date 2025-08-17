@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Swift gives us two equality operators, `==` and `===`, that do slightly differen
 
 First, `==` is the equality operator, which tests that two things are equal for whatever definition of “equal” those things use. For example, `5 == 5` is true because there `==` means an integer comparison, and the same is true for other built-in value types such as strings, booleans, and doubles.
 
-Things get more complicated when `==` is used with a struct you built, because by default they cannot be compared – you need to make them conform to the `Equatable` protocol.
+Things get more complicated when `==` is used with a struct you built, because by default they cannot be compared - you need to make them conform to the `Equatable` protocol.
 
 In comparison, `===` is the *identity operator*, which checks whether two instances of a class point to the same memory. This is different from equality, because two objects that were created independently using the same values will be considered equal using `==` but not `===` because they are different objects.
 

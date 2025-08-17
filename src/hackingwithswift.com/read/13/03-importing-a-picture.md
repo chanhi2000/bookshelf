@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,9 +68,9 @@ title = "YACIFP"
 navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPicture))
 ```
 
-Alright, so the first one isn't needed – it just sets the title to be YACIFP, short for "Yet Another Core Image Filters Program." (Spoiler: the App Store is full of them!) If you're feeling a bit less cynical than me, try "Instafilter" for a title instead. But what matters is the second line, because it starts the import process.
+Alright, so the first one isn't needed - it just sets the title to be YACIFP, short for "Yet Another Core Image Filters Program." (Spoiler: the App Store is full of them!) If you're feeling a bit less cynical than me, try "Instafilter" for a title instead. But what matters is the second line, because it starts the import process.
 
-Here's the `importPicture()` method – it's almost identical to the import method from project 10, so again no explaining required:
+Here's the `importPicture()` method - it's almost identical to the import method from project 10, so again no explaining required:
 
 ```swift
 @objc func importPicture() {

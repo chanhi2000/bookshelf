@@ -56,7 +56,7 @@ A couple weeks back I talked about how Docker containers were not virtual machin
 
 The answer is a resounding “yes.”
 
-At the most basic level VMs are a great place for Docker hosts to run. And by VMs I mean VMs in all their forms. Whether it’s a vSphere VM or a Hyper-V VM or an AWS EC2 instance, all of them will serve equally well as a Docker host. Depending on what you need to do, a VM might be the best place to land those containers. But the great thing about Docker is that, it doesn’t matter where you run containers – and it’s totally up to you.
+At the most basic level VMs are a great place for Docker hosts to run. And by VMs I mean VMs in all their forms. Whether it’s a vSphere VM or a Hyper-V VM or an AWS EC2 instance, all of them will serve equally well as a Docker host. Depending on what you need to do, a VM might be the best place to land those containers. But the great thing about Docker is that, it doesn’t matter where you run containers - and it’s totally up to you.
 
 Another question I hear relates to whether or not Docker container-based services can interact with VM-based services. Again, the answer is absolutely yes. Running your application in a set of Docker containers doesn’t preclude it from talking to theservices running in a VM.
 

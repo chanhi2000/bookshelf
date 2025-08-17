@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/WHKLXI8baJk" />
 
-You can use `UserDefaults` to store any basic data type for as long as the app is installed. You can write basic types such as `Bool`, `Float`, `Double`, `Int`, `String`, or `URL`, but you can also write more complex types such as arrays, dictionaries and `Date` – and even `Data` values.
+You can use `UserDefaults` to store any basic data type for as long as the app is installed. You can write basic types such as `Bool`, `Float`, `Double`, `Int`, `String`, or `URL`, but you can also write more complex types such as arrays, dictionaries and `Date` - and even `Data` values.
 
 When you write data to `UserDefaults`, it automatically gets loaded when your app runs so that you can read it back again. This makes using it really easy, but you need to know that it's a bad idea to store lots of data in there because it will slow loading of your app. If you think your saved data would take up more than say 100KB, `UserDefaults` is almost certainly the wrong choice.
 
@@ -65,7 +65,7 @@ To get started with `UserDefaults`, you create a new instance of the class like 
 let defaults = UserDefaults.standard
 ```
 
-Once that's done, it's easy to set a variety of values – you just need to give each one a unique key so you can reference it later. These values nearly always have no meaning outside of what you use them for, so just make sure the key names are memorable.
+Once that's done, it's easy to set a variety of values - you just need to give each one a unique key so you can reference it later. These values nearly always have no meaning outside of what you use them for, so just make sure the key names are memorable.
 
 Here are some examples:
 
@@ -76,7 +76,7 @@ defaults.set(true, forKey: "UseTouchID")
 defaults.set(CGFloat.pi, forKey: "Pi")
 ```
 
-You can also use the `set()` to store strings, arrays, dictionaries and dates. Now, here's a curiosity that's worth explaining briefly: in Swift, strings, arrays and dictionaries are all structs, not objects. But `UserDefaults` was written for `NSString` and friends – all of which are 100% interchangeable with Swift their equivalents – which is why this code works.
+You can also use the `set()` to store strings, arrays, dictionaries and dates. Now, here's a curiosity that's worth explaining briefly: in Swift, strings, arrays and dictionaries are all structs, not objects. But `UserDefaults` was written for `NSString` and friends - all of which are 100% interchangeable with Swift their equivalents - which is why this code works.
 
 Using `set()` for these advanced types is just the same as using the other data types:
 

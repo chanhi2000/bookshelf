@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Spring animations work by changing from a start state to an end state, with a sl
 
 Spring animations are built into iOS as of iOS 7.0 and require two values: how "springy" the spring should be, and how fast it should start. The first value is specified with `usingSpringWithDamping`, where higher values make the bouncing finish faster. The second value is specified with `initialSpringVelocity`, where higher values give the spring more initial momentum.
 
-Here's the code to make a view fade out, then fade it the tiniest bit, then fade out again – all done using a spring animation:
+Here's the code to make a view fade out, then fade it the tiniest bit, then fade out again - all done using a spring animation:
 
 ```swift
 UIView.animate(withDuration: 1, delay: 1, usingSpringWithDamping: 0.5, initialSpringVelocity: 5, options: .curveEaseInOut, animations: {

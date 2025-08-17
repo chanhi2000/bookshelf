@@ -94,7 +94,7 @@ If you run that code in the simulator you’ll see it’s redrawing constantly b
 
 ::: note
 
-This is a stress test specifically designed to make SwiftUI do a lot of work in order that Instruments shows us interesting data – you do *not* want to use the above code in an actual app.
+This is a stress test specifically designed to make SwiftUI do a lot of work in order that Instruments shows us interesting data - you do *not* want to use the above code in an actual app.
 
 :::
 
@@ -102,7 +102,7 @@ This is a stress test specifically designed to make SwiftUI do a lot of work in 
 
 ## Instrumenting our code
 
-Now press <kbd>Cmd</kbd>+<kbd>I</kbd> to run the code through Instruments, and choose the SwiftUI instrument. When it appears, press the record button to make it launch the app and start watching it. Now let it run for a few seconds while you click the button ten or so times, then press stop in Instruments – we have enough data to work with.
+Now press <kbd>Cmd</kbd>+<kbd>I</kbd> to run the code through Instruments, and choose the SwiftUI instrument. When it appears, press the record button to make it launch the app and start watching it. Now let it run for a few seconds while you click the button ten or so times, then press stop in Instruments - we have enough data to work with.
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layout-2~dark.mp4" />
 
@@ -121,11 +121,11 @@ For our little stress test sandbox you will see solid walls of color for View Bo
 
 ## Monitoring body invocations
 
-If you select the View Body track – that’s the first row in the list of instruments – you should be able to see that Instruments breaks down the results into SwiftUI and your project, with the former being primitive types like text views and buttons, and the latter containing your custom view types. In our case, that will mean “ContentView” should appear for the custom views, because that’s the name of our view.
+If you select the View Body track - that’s the first row in the list of instruments - you should be able to see that Instruments breaks down the results into SwiftUI and your project, with the former being primitive types like text views and buttons, and the latter containing your custom view types. In our case, that will mean “ContentView” should appear for the custom views, because that’s the name of our view.
 
-Now, what you *won’t* see here is a perfect one-to-one mapping of your code to SwiftUI views, because SwiftUI aggressively collapses its view hierarchy to do as little work as possible. So, don’t expect to see any `VStack` creation in the code – that is effectively free for this app.
+Now, what you *won’t* see here is a perfect one-to-one mapping of your code to SwiftUI views, because SwiftUI aggressively collapses its view hierarchy to do as little work as possible. So, don’t expect to see any `VStack` creation in the code - that is effectively free for this app.
 
-On this screen, the numbers that matter are Count and Avg Duration – how many times each thing was created, and how long it took. Because this is a stress test you should see very high numbers for Count, but our layout is trivial so the Avg Duration is likely to be a few dozen microseconds.
+On this screen, the numbers that matter are Count and Avg Duration - how many times each thing was created, and how long it took. Because this is a stress test you should see very high numbers for Count, but our layout is trivial so the Avg Duration is likely to be a few dozen microseconds.
 
 !["A table showing that ContentView was drawn 800 times, taking about 35 microseconds for each draw.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layout-3~dark@2x.png)
 
@@ -135,13 +135,13 @@ On this screen, the numbers that matter are Count and Avg Duration – how many 
 
 Next, select the View Properties track, which is the second row in the list of instruments. This shows all the properties for all views, including both their current value and all previous values.
 
-Our example app had a button that changed its label when tapped by adding one to a number, and that’s visible right there in this instrument – look for the view type ContentView and the Property Type `State<Int>`.
+Our example app had a button that changed its label when tapped by adding one to a number, and that’s visible right there in this instrument - look for the view type ContentView and the Property Type `State<Int>`.
 
-Sadly, Instruments isn’t (yet?) able to show us the exact property name there, which might be more confusing if you had several pieces of integer state being tracked. However, it does have a different trick up its sleeve: at the top of the recording window is an arrow marking the current view position, and if you drag that around you’ll see exactly how the application state evolved over time – every time you tapped the button you’ll see that state integer went up by one, and you can wind forward and backward to see it happen.
+Sadly, Instruments isn’t (yet?) able to show us the exact property name there, which might be more confusing if you had several pieces of integer state being tracked. However, it does have a different trick up its sleeve: at the top of the recording window is an arrow marking the current view position, and if you drag that around you’ll see exactly how the application state evolved over time - every time you tapped the button you’ll see that state integer went up by one, and you can wind forward and backward to see it happen.
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layout-4~dark.mp4" />
 
-This unlocks a *huge* amount of power, because it lets us directly see when state changes caused slow redraws or other work – it’s almost like being in a time machine where you can inspect the exact state of your app at every point during its run.
+This unlocks a *huge* amount of power, because it lets us directly see when state changes caused slow redraws or other work - it’s almost like being in a time machine where you can inspect the exact state of your app at every point during its run.
 
 ---
 
@@ -149,7 +149,7 @@ This unlocks a *huge* amount of power, because it lets us directly see when stat
 
 Although SwiftUI is able to drop down straight to Metal for increased performance, most of the time it prefers to use Core Animation for its rendering. This means we automatically get the built-in Core Animation profiling tools from Instruments, including the ability to detect expensive commits.
 
-Core Animation works best when multiple changes are placed together into a single group, known as a *transaction*. We effectively stack up a selection of work in one transaction, then ask CA to proceed with rendering the work – known as *committing* the transaction. 
+Core Animation works best when multiple changes are placed together into a single group, known as a *transaction*. We effectively stack up a selection of work in one transaction, then ask CA to proceed with rendering the work - known as *committing* the transaction. 
 
 So, when Instruments shows us expensive Core Animation commits, what it’s really showing us is how many times SwiftUI was forced to redraw the pixels on our screen because of updates. In theory this should only happen when the actual state of our app resulted in a different view hierarchy, because SwiftUI should be able to compare the new output of our `body` property with the previous output.
 
@@ -164,7 +164,7 @@ The final important track is the last one, Time Profiler, which shows us exactly
 1. The extended detail window on the right shows you the heaviest stack trace by default, which is the piece of code that took longest to run. Bright code (white or black, depending on your macOS color scheme) is code you wrote; dim code (gray) is system library code.
 2. On the left you can see all the threads that were created, along with disclosure indicators letting you drill down into the functions they called and the functions *those* functions called, etc. Most of the work will happen inside “start”.
 3. To avoid clutter you might want to click the Call Tree button at the bottom, then choose Hide System Libraries. This will only show code that you wrote, however if your problem is that you were using the system libraries badly this might not help.
-4. To get straight to specific details, you can also click Call Tree and choose Invert Call Tree to flip things around so that leaf functions – those at the end of the tree – are shown at the top, and the disclosure indicators now let you drill down (drill up?) to the functions that called them.
+4. To get straight to specific details, you can also click Call Tree and choose Invert Call Tree to flip things around so that leaf functions - those at the end of the tree - are shown at the top, and the disclosure indicators now let you drill down (drill up?) to the functions that called them.
 
 Although the time profiler is extremely useful for identifying performance problems, often just looking at the the heaviest stack trace will highlight the biggest problem.
 
@@ -177,7 +177,7 @@ Although the time profiler is extremely useful for identifying performance probl
 Before you charge off to profile your own code, there are a handful of things to be aware of:
 
 1. When examining a small part of your app’s performance, you should click and drag over the range in question so that you see only statistics for that part of the app. This lets you focus on performance for specific actions, such as responding to a button press.
-2. Even though you see solid color bars in Instruments, they only look that way from afar – you can zoom by holding down Cmd and pressing - and + to see more detail
+2. Even though you see solid color bars in Instruments, they only look that way from afar - you can zoom by holding down Cmd and pressing - and + to see more detail
 3. For the most accurate figures, always profile on a real device.
 4. If you want to make changes as a result of profiling your code, always make one change at a time. If you make two changes it’s possible one will increase your performance by 20% and the other will decrease it by 10%, but doing them together means you probably think as a whole they increased performance by 10%.
 5. Instruments runs your code in release mode, which enables all of Swift’s optimizations. This will also affect any debugging flags you’ve added to your code, so be careful.

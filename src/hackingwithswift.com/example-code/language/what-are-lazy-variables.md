@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ It's very common in iOS to want to create complex objects only when you need the
 
 Swift has a mechanism built right into the language that enables just-in-time calculation of expensive work, and it is called a *lazy variable*. These variables are created using a function you specify only when that variable is first requested. If it's never requested, the function is never run, so it does help save processing time.
 
-I don't want to produce a complicated example because that would rather defy the point, so instead I've built a simple (if silly!) one: imagine you want to calculate a person's age using the Fibonacci sequence. This sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on – each number is calculated by adding the previous two numbers in the sequence. So if someone was aged 8, their Fibonacci sequence age would be 21, because that's at position 8 in the sequence.
+I don't want to produce a complicated example because that would rather defy the point, so instead I've built a simple (if silly!) one: imagine you want to calculate a person's age using the Fibonacci sequence. This sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on - each number is calculated by adding the previous two numbers in the sequence. So if someone was aged 8, their Fibonacci sequence age would be 21, because that's at position 8 in the sequence.
 
 I chose this because the most common pedagogical way to teach the Fibonacci sequence is using a function like this one:
 

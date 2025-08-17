@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "What is Full Stack Development (Including DevOps)?"
-description: "Article(s) > (1/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+description: "Article(s) > (1/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
 category:
   - Career
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+      content: "Article(s) > (1/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
     - property: og:description
       content: "What is Full Stack Development (Including DevOps)?"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 
 ```component VPCard
 {
-  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners",
   "desc": "Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial...",
   "link": "/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 ---
 
 <SiteInfo
-  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
   desc="Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial..."
   url="https://freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job#heading-what-is-full-stack-development-including-devops"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -79,9 +79,9 @@ I also worked with tRPC, a modern framework that eliminates the need for REST AP
 
 For data storage, I experimented with different databases:
 
-- **MongoDB** – A NoSQL database that stores data in JSON-like documents, making it flexible for handling unstructured or semi-structured data.
-- **PostgreSQL** – A relational database system known for its robustness, performance, and ability to handle complex queries.
-- **Appwrite** – A cloud-based solution offering real-time data synchronization, authentication, and serverless backend services, making it ideal for fast-moving applications. I used it on my mobile app project just to test out the backend as a service and I was impressed to see the outcome.
+- **MongoDB** - A NoSQL database that stores data in JSON-like documents, making it flexible for handling unstructured or semi-structured data.
+- **PostgreSQL** - A relational database system known for its robustness, performance, and ability to handle complex queries.
+- **Appwrite** - A cloud-based solution offering real-time data synchronization, authentication, and serverless backend services, making it ideal for fast-moving applications. I used it on my mobile app project just to test out the backend as a service and I was impressed to see the outcome.
 
 Working with databases helped me understand the importance of efficient data modeling and how backend services interact with the frontend. But my learning didn’t stop there—I wanted to go beyond development and dive into the world of deployment and cloud infrastructure.
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,11 +61,11 @@ Add this code to `viewDidLoad()`, just after the call to `super`:
 navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
 ```
 
-That created a new UIBarButtonItem using the "add" system item, and configured it to run a method called `promptForAnswer()` when tapped – we haven’t created it yet, so you’ll get a compiler error for a few minutes as you read on. This new method will show a `UIAlertController` with space for the user to enter an answer, and when the user clicks Submit to that alert controller the answer is checked to make sure it's valid.
+That created a new UIBarButtonItem using the "add" system item, and configured it to run a method called `promptForAnswer()` when tapped - we haven’t created it yet, so you’ll get a compiler error for a few minutes as you read on. This new method will show a `UIAlertController` with space for the user to enter an answer, and when the user clicks Submit to that alert controller the answer is checked to make sure it's valid.
 
 Before I give you the code, let me explain what you need to know.
 
-You see, we're about to use a closure, and things get a little complicated. As a reminder, these are chunks of code that can be treated like a variable – we can send the closure somewhere, where it gets stored away and executed later. To make this work, Swift takes a copy of the code and captures any data it references, so it can use them later.
+You see, we're about to use a closure, and things get a little complicated. As a reminder, these are chunks of code that can be treated like a variable - we can send the closure somewhere, where it gets stored away and executed later. To make this work, Swift takes a copy of the code and captures any data it references, so it can use them later.
 
 But there's a problem: what if the closure references the view controller? Then what could happen is a strong reference cycle: the view controller owns an object that owns a closure that owns the view controller, and nothing could ever be destroyed.
 
@@ -96,9 +96,9 @@ Ready? Here's the `promptForAnswer()` method:
 }
 ```
 
-That code won’t build just yet, so don’t worry if you see errors – we’ll fix them soon. But first, let’s talk about what the code above does. It introduces quite a few new things, but before we look at them let's eliminate the easy stuff.
+That code won’t build just yet, so don’t worry if you see errors - we’ll fix them soon. But first, let’s talk about what the code above does. It introduces quite a few new things, but before we look at them let's eliminate the easy stuff.
 
-- It needs to be called from a `UIBarButtonItem` action, so we must mark it `@objc`. Hopefully you’re starting to sense when this is needed, but don’t worry if you forget – Xcode will always complain loudly if `@objc` is required and not present!
+- It needs to be called from a `UIBarButtonItem` action, so we must mark it `@objc`. Hopefully you’re starting to sense when this is needed, but don’t worry if you forget - Xcode will always complain loudly if `@objc` is required and not present!
 - Creating a new `UIAlertController`: we did that in project 2.
 - The `addTextField()` method just adds an editable text input field to the `UIAlertController`. We could do more with it, but it's enough for now.
 - The `addAction()` method is used to add a `UIAlertAction` to a `UIAlertController`. We used this in project 2 also.
@@ -116,7 +116,7 @@ Next, `action in`. If you remember project 2, we had to modify the `askQuestion(
 func askQuestion(action: UIAlertAction!) {
 ```
 
-We had no choice but to do that, because the `handler` parameter for `UIAlertAction` expects a method that takes itself as a parameter, and we also added a default value of “nil” so we could call it ourselves – hence the `!` part. And that's what's happening here: we're giving the `UIAlertAction` some code to execute when it is tapped, and it wants to know that that code accepts a parameter of type `UIAlertAction`.
+We had no choice but to do that, because the `handler` parameter for `UIAlertAction` expects a method that takes itself as a parameter, and we also added a default value of “nil” so we could call it ourselves - hence the `!` part. And that's what's happening here: we're giving the `UIAlertAction` some code to execute when it is tapped, and it wants to know that that code accepts a parameter of type `UIAlertAction`.
 
 The `in` keyword is important: everything before that describes the closure; everything after that *is* the closure. So `action in` means that it accepts one parameter in, of type `UIAlertAction`.
 
@@ -130,7 +130,7 @@ Fourth is `weak`. Swift "captures" any constants and variables that are used in 
 
 This is important, because the closure references the variables, and might even change them. But I haven't said yet what "capture" actually means, and that's because it depends what kind of data you're using. Fortunately, Swift hides it all away so you don't have to worry about it…
 
-…except for those strong reference cycles I mentioned. *Those* you need to worry about. That's where objects can't even be destroyed because they all hold tightly on to each other – known as *strong referencing*.
+…except for those strong reference cycles I mentioned. *Those* you need to worry about. That's where objects can't even be destroyed because they all hold tightly on to each other - known as *strong referencing*.
 
 Swift's solution is to let you declare that some variables aren't held onto quite so tightly. It's a two-step process, and it's so easy you'll find yourself doing it for everything just in case. In the event that Xcode thinks you’re taking it a bit too far, you’ll get a warning saying you can relax a bit.
 
@@ -146,7 +146,7 @@ We've already declared that `self` is weakly owned by the closure, but Swift wan
 
 In project 1, I told you there were two trains of thought regarding use of `self`, and said, "The first group of people never like to use `self.` unless it's required, because when it's required it's actually important and meaningful, so using it in places where it isn't required can confuse matters."
 
-Implicit capture of `self` in closures is that place when using `self` is required and meaningful: Swift won't let you avoid it here. By restricting your use of `self` to closures you can easily check your code doesn’t have any reference cycles by searching for "self" – there ought not to be too many to look through!
+Implicit capture of `self` in closures is that place when using `self` is required and meaningful: Swift won't let you avoid it here. By restricting your use of `self` to closures you can easily check your code doesn’t have any reference cycles by searching for "self" - there ought not to be too many to look through!
 
 ![You can add multiple text fields to an alert controller, which is perfect for accepting quick user input.](https://hackingwithswift.com/img/books/hws/5-2@2x.png)
 
@@ -167,7 +167,7 @@ Hopefully you can start to see how it breaks down:
 - Everything after `in` is the actual code of the closure.
 - Inside the closure we need to reference methods on our view controller using `self` so that we’re clearly acknowledging the possibility of a strong reference cycle.
 
-It’s complicated and I’m not going to pretend otherwise, but we are going to be coming back to this repeatedly in the future – you’ll have more than enough chance to understand it better.
+It’s complicated and I’m not going to pretend otherwise, but we are going to be coming back to this repeatedly in the future - you’ll have more than enough chance to understand it better.
 
 Before we move on, let's make your code compile again because right now it's calling `self?.submit()` and we haven't made that method yet. So, add this new method somewhere in the class:
 
@@ -176,5 +176,5 @@ func submit(_ answer: String) {
 }
 ```
 
-That's right, it's empty – but it's enough to make the code compile cleanly so we can carry on.
+That's right, it's empty - but it's enough to make the code compile cleanly so we can carry on.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-One of the great features of SpriteKit's actions is that they can be chained together using action sequences. SpriteKit automatically ensures each action finishes before the next one begins – all you need to do is create the actions then put them into an array.
+One of the great features of SpriteKit's actions is that they can be chained together using action sequences. SpriteKit automatically ensures each action finishes before the next one begins - all you need to do is create the actions then put them into an array.
 
 The example below makes a spaceship shrink down to 10% of its original size before fading out:
 

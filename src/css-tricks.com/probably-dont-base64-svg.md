@@ -74,7 +74,7 @@ Probably better [<FontIcon icon="fa-brands fa-stack-overflow"/>Stack Overflow an
 
 ::: info Dave Markle (<FontIcon icon="fa-brands fa-stackoverflow"/><code>stackoverflow.com</code>)
 
-> You never know – some protocols may interpret your binary data as control characters (like a modem), or your binary data could be screwed up because the underlying protocol might think that you’ve entered a special character combination (like how FTP translates line endings).
+> You never know - some protocols may interpret your binary data as control characters (like a modem), or your binary data could be screwed up because the underlying protocol might think that you’ve entered a special character combination (like how FTP translates line endings).
 > 
 > So to get around this, people encode the binary data into characters. Base64 is one of these types of encodings.
 
@@ -141,9 +141,9 @@ I ran them through [SVGO (<FontIcon icon="iconfont icon-github"/>`svg/svgo`)](ht
 
 Then I ran those through a [<FontIcon icon="fas fa-globe"/>base64 converter](https://mobilefish.com/services/base64/base64.php).
 
-- `cog.svg`: 916 bytes – 133% of the original size  
-- `play.svg`: 160 bytes – 136% of the original size  
-- `replay.svg`: 283 bytes – 134% of the original size
+- `cog.svg`: 916 bytes - 133% of the original size  
+- `play.svg`: 160 bytes - 136% of the original size  
+- `replay.svg`: 283 bytes - 134% of the original size
 
 So that makes sense, right? If it’s 4 characters for every 3 bytes, that’s 133% bigger, with the variation coming from uneven lengths and thus padding.
 

@@ -54,7 +54,7 @@ head:
 
 If you want a SwiftUI view to start animating as soon as it appears, you should use the `nAppear()` modifier to attach an animation. I’ll show you the basic code first, then show you two extensions I use to make this process easier.
 
-First, the simple version – this creates a circle that scales up and down forever:
+First, the simple version - this creates a circle that scales up and down forever:
 
 ```swift
 struct ContentView: View {

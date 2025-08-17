@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "“Rock Paper Scissors” by Brad Traversy: A project with a modal and a reset"
-description: "Article(s) > (3/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
+description: "Article(s) > (3/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
 category:
   - Node.js
   - Mermaid.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > (3/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
       content: "“Rock Paper Scissors” by Brad Traversy: A project with a modal and a reset"
     - property: og:url
@@ -35,8 +35,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -48,8 +48,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects#heading-3-rock-paper-scissors-by-brad-traversy-a-project-with-a-modal-and-a-reset"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
@@ -77,7 +77,7 @@ Inspecting this other code reveals a definitive pattern in the way the game is s
 
 - it initializes variables and states immediately after the project is accessed
 - it has event handlers added to the corresponding HTML elements in the interface
-- a function is usually associated to the event handler which is the one that coordinates the workflow – in this case the `play` function.
+- a function is usually associated to the event handler which is the one that coordinates the workflow - in this case the `play` function.
 - the workflow ends by showing results on the interface
 
 Also, this project in particular involves a second event handler with a function to close a modal used to show the results. A third event handler is added to restart the game.
@@ -153,7 +153,7 @@ Three functions are called from this event handler:
 - `getWinner`
 - `showWinner`
 
-Notice that again, all those functions are declared in the global scope – but this time, the `play` function is also in the same scope.
+Notice that again, all those functions are declared in the global scope - but this time, the `play` function is also in the same scope.
 
 ```mermaid :collapsed-lines title=""
 ---

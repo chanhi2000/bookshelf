@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Interface Builder is the standard tool for making iOS interfaces using drag and drop, but it does make it remarkably easy to make a mistake – moving a view by accident, adjusting a property with a typo, or perhaps embedding one view inside another by dragging.
+Interface Builder is the standard tool for making iOS interfaces using drag and drop, but it does make it remarkably easy to make a mistake - moving a view by accident, adjusting a property with a typo, or perhaps embedding one view inside another by dragging.
 
-Fortunately, there’s a quick and easy fix: you can select any control then lock it so that no more changes can happen. To try it out, select something (e.g. a button), then go to the Class inspector and look for the Lock property. It’s set to “Inherited – (Nothing)” by default, but you can change it to “All Properties” to ensure that it can’t be moved or have any of its settings adjusted.
+Fortunately, there’s a quick and easy fix: you can select any control then lock it so that no more changes can happen. To try it out, select something (e.g. a button), then go to the Class inspector and look for the Lock property. It’s set to “Inherited - (Nothing)” by default, but you can change it to “All Properties” to ensure that it can’t be moved or have any of its settings adjusted.
 
 -->
 

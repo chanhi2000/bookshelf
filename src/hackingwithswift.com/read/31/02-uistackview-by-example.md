@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -90,7 +90,7 @@ There are a few options for the Distribution attribute, and it's worth covering 
 
 - **Fill** will leave three of them their natural size, and make the fourth one take up the most space. It uses Auto Layout's content hugging priority to decide which one to stretch.
 - **Fill Equally** will make each subview the same size so they fill all the space available to the stack view.
-- **Fill Proportionally** uses the intrinsic content size of each subview to resize them by an equal amount. So view 1 was designed to have twice as much height as views 2, 3 and 4, that ratio will remain when they are resized – all the subviews get proportionally bigger or smaller.
+- **Fill Proportionally** uses the intrinsic content size of each subview to resize them by an equal amount. So view 1 was designed to have twice as much height as views 2, 3 and 4, that ratio will remain when they are resized - all the subviews get proportionally bigger or smaller.
 - **Equal Spacing** does not resize the subviews, and instead resizes the spacing between the subviews to fill the space.
 - **Equal Centering** is the most complicated, but for many people also the most aesthetically pleasing. It attempts to ensure the centers of each subview are equally spaced. This might mean that the right edge of view 1 is only 10 points from the left edge of view 2, while the right edge of view 2 is 50 points from the left edge of view 3, but what matters is that the centers of view 1, 2, 3 and 4 are all identically spaced.
 

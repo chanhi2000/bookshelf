@@ -107,7 +107,7 @@ public class EmailSender
 
 In this example, the `User` class manages user data (username and email), and contains logic for registering a user. This violates the SRP because the class has more than one reason to change. It could change due to:
 
-- Modifications in user data management – for example adding more fields, such as `firstName`, `gender`, `hobbies`.
+- Modifications in user data management - for example adding more fields, such as `firstName`, `gender`, `hobbies`.
 - Modifications to the logic of registering a user, for example we may choose to fetch a user from the database by their username rather than their email.
 
 To adhere to the Single Responsibility Principle, we should separate these responsibilities into separate classes.
@@ -231,7 +231,7 @@ public class Rectangle : Shape
 
 In this refactored code, we define an abstract `Shape` class with an abstract `CalculateArea()` method. Concrete shape classes (`Circle` and `Rectangle`) inherit from the `Shape` class and provide their own implementations of `CalculateArea()`.
 
-Adding a new shape, such as a triangle, would involve creating a new class – *extending* the codebase – that inherits from `Shape` and implements `CalculateArea()`, without *modifying* existing code. This adheres to the OCP by allowing for extension without modification.
+Adding a new shape, such as a triangle, would involve creating a new class - *extending* the codebase - that inherits from `Shape` and implements `CalculateArea()`, without *modifying* existing code. This adheres to the OCP by allowing for extension without modification.
 
 Being able to add functionality without modifying existing code means that we don’t have to worry as much about breaking existing working code and introducing bugs.
 
@@ -305,7 +305,7 @@ Expected area = 10 * 5 = 50. Calculated area = 50
 
 Perfect!
 
-Now, in our program, the `Square` class inherits from, or extends, the `Rectangle` class, because, mathematically, a square is just a special type of rectangle, where its height equals its width. Because of this, we decided that `Square` should extend `Rectangle` – it’s like saying “a square *is a* (special type of) rectangle”.
+Now, in our program, the `Square` class inherits from, or extends, the `Rectangle` class, because, mathematically, a square is just a special type of rectangle, where its height equals its width. Because of this, we decided that `Square` should extend `Rectangle` - it’s like saying “a square *is a* (special type of) rectangle”.
 
 But look what happens if we substitute the `Rectangle` class for the `Square` class:
 
@@ -450,7 +450,7 @@ System.Console.WriteLine(sphere.Volume());
 
 Usually, if I try to call a method on an object that doesn’t exist, VS Code will tell me that I’m making a mistake. But above, when I call `circle.Volume()`, VS code is like “no problem”. And VS code is correct, because the `IShape` interface forces `Circle` to implement a `Volume()` method, even though circles don’t have volume.
 
-It’s easy to see how violating ISP can introduce bugs into a program – above, everything looks fine, until we run the program and an exception gets thrown.
+It’s easy to see how violating ISP can introduce bugs into a program - above, everything looks fine, until we run the program and an exception gets thrown.
 
 **Fixing ISP**
 
@@ -641,7 +641,7 @@ Overall, dependency injection enhances modularity, testability, and maintainabil
 
 ## Conclusion
 
-Congratulations – you now understand the extremely important SOLID principles. These principles are going to save you a lot of headaches during your software development career, and guide you towards creating beautiful, maintainable, flexible, testable software.
+Congratulations - you now understand the extremely important SOLID principles. These principles are going to save you a lot of headaches during your software development career, and guide you towards creating beautiful, maintainable, flexible, testable software.
 
 If you’d like to take your software development skills to the next level and learn:
 

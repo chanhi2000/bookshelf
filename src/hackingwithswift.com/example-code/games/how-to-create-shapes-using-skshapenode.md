@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-SpriteKit's `SKShapeNode` class is a fast and convenient way to draw arbitrary shapes in your games, including circles, lines, rounded rectangles and more. You can assign a fill color, a stroke color and width, plus other drawing options such as whether it should glow – yes, really.
+SpriteKit's `SKShapeNode` class is a fast and convenient way to draw arbitrary shapes in your games, including circles, lines, rounded rectangles and more. You can assign a fill color, a stroke color and width, plus other drawing options such as whether it should glow - yes, really.
 
 The example code below draws a rounded rectangle smack in the middle of the game scene, giving it a red fill color and a 10-point blue border:
 

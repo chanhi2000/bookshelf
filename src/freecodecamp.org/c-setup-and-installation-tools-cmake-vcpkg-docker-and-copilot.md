@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot"
-description: "Article(s) > C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot"
+title: "C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot"
+description: "Article(s) > C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot"
+      content: "Article(s) > C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot"
     - property: og:description
-      content: "C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot"
+      content: "C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot.html
 prev: /devops/docker/articles/README.md
@@ -63,7 +63,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744126327420/6ec2b56
 ---
 
 <SiteInfo
-  name="C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot"
+  name="C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot"
   desc="Setting up a C++ development environment can be one of the most challenging aspects for newcomers, especially when juggling different operating systems and toolchains. Whether you’re aiming to build robust applications or contribute to professional-g..."
   url="https://freecodecamp.org/news/c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -94,7 +94,7 @@ Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCam
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot",
+  "title": "C++ Setup and Installation Tools - CMake, vcpkg, Docker & Copilot",
   "desc": "Setting up a C++ development environment can be one of the most challenging aspects for newcomers, especially when juggling different operating systems and toolchains. Whether you’re aiming to build robust applications or contribute to professional-g...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/c-setup-and-installation-tools-cmake-vcpkg-docker-and-copilot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

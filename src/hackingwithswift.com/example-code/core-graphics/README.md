@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Core Graphics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/core-graphics",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -130,7 +130,7 @@ head:
 ```component VPCard
 {
   "title": "How to find the scale from a CGAffineTransform",
-  "desc": "If you have a <code>CGAffineTransform</code> and want to know what its scale component is – regardless of whether it has been rotated or translated – use this code:...",
+  "desc": "If you have a <code>CGAffineTransform</code> and want to know what its scale component is - regardless of whether it has been rotated or translated - use this code:...",
   "link": "/hackingwithswift.com/example-code/core-graphics/how-to-find-the-scale-from-a-cgaffinetransform.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -160,7 +160,7 @@ head:
 ```component VPCard
 {
   "title": "How to use Core Graphics blend modes to draw a UIImage differently",
-  "desc": "If you're rendering images using Core Graphics you should definitely try out some of the alternate blend modes that are available. If you've ever used Photoshop's blend modes these will be familiar: screen, luminosity, multiply and so on – these are all available right in Core Graphics....",
+  "desc": "If you're rendering images using Core Graphics you should definitely try out some of the alternate blend modes that are available. If you've ever used Photoshop's blend modes these will be familiar: screen, luminosity, multiply and so on - these are all available right in Core Graphics....",
   "link": "/hackingwithswift.com/example-code/core-graphics/how-to-use-core-graphics-blend-modes-to-draw-a-uiimage-differently.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

@@ -68,7 +68,7 @@ The project we’ll be making is called iTour, and is a travel app that helps si
 
 I’ve designed the project specifically so that it covers a variety of core SwiftData techniques to give you a good grounding in how things work. You'll learn how to define Swift data models, how to link models together using relationships, how to query and display data in SwiftUI, how to add sorting and filtering, and more.
 
-Of course, we’re also building a real project at the same time – it’s going to be busy!
+Of course, we’re also building a real project at the same time - it’s going to be busy!
 
 Note: If you’d like to see my completed version of this project, you can find it here on GitHub: [<FontIcon icon="iconfont icon-github"/>`twostraws/iTour`](https://github.com/twostraws/iTour).
 

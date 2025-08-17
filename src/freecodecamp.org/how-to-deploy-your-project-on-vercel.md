@@ -157,7 +157,7 @@ At this point, your domain name should be available. If that is so, let’s cont
 
 In your deployment page on Vercel, click on “Domain” in the navigation bar, input your custom domain name (the one you bought) in the space provided and click on “Add”.
 
-When you click on the “Add” button, a prompt should pops up – don’t change anything, use the recommended option and click on the ‘Add’ button.
+When you click on the “Add” button, a prompt should pops up - don’t change anything, use the recommended option and click on the ‘Add’ button.
 
 For the next step, click on the “Nameservers” option, then click on “Enable vercel DNS”.
 

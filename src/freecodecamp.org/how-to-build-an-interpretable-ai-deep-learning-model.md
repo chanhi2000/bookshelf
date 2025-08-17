@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example"
-description: "Article(s) > How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example"
+title: "How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example"
+description: "Article(s) > How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example
+      content: Article(s) > How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example
     - property: og:description`
-      content: How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example
+      content: How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-an-interpretable-ai-deep-learning-model.html
 prev: /programming/py/articles/README.md
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/pexels-dm
 ---
 
 <SiteInfo
-  name="How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example"
+  name="How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example"
   desc="Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI. Within Machine Learning, a field called Deep Learning represents one of the main areas of research. It is from Deep Learning that most new, truly effective AI systems..."
   url="https://freecodecamp.org/news/how-to-build-an-interpretable-ai-deep-learning-model/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -90,9 +90,9 @@ We'll just discuss the basics of deep learning, the lack of interpretability pro
 
 Deep Learning is a subfield of artificial intelligence. It uses neural networks to process complex patterns, just like the strategies a sports team uses to win a match.
 
-The bigger the neural network, the more capable it is of doing awesome things – like ChatGPT, for example, which uses natural language processing to answer questions and interact with users.
+The bigger the neural network, the more capable it is of doing awesome things - like ChatGPT, for example, which uses natural language processing to answer questions and interact with users.
 
-To truly understand the basics of neural networks – what every single AI model has in common that enables it to work – we need to understand activation layers.
+To truly understand the basics of neural networks - what every single AI model has in common that enables it to work - we need to understand activation layers.
 
 ### Deep Learning = Training Neural Networks
 
@@ -153,7 +153,7 @@ In addition to glass box models, there are also black box models.
 These models are essentially different neural network architectures used in various datasets. Some examples are:
 
 - **CNN (Convolutional Neural Networks)**: Designed specifically for image classification and interpretation.
-- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data – text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<FontIcon icon="fas fa-globe"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
+- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data - text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<FontIcon icon="fas fa-globe"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
 - **Transformer-based architectures**: Revolutionized AI in 2017 due to their ability to handle sequential data more efficiently. RNN and LSTM have limited capabilities in this regard.
 
 Nowadays, most models that process text are transformer-based models.
@@ -324,9 +324,9 @@ sorted_importances = np.array(importances)[sorted_idx]
 
 **At this point, we need to interpret the model**: The global explanation of the trained Explainable Boosting Machine (EBM) model is obtained, providing an overview of how the model makes decisions.
 
-In this model, we conclude that the accuracy is approximately 0.9736842105263158 – which means the model is accurate 97 % of the time.
+In this model, we conclude that the accuracy is approximately 0.9736842105263158 - which means the model is accurate 97 % of the time.
 
-Of course, this only applies to the breast cancer data from **this dataset** – not for every single case of breast cancer detection. Since this is a sample, the dataset does not represent the full population of people seeking to detect breast cancer.
+Of course, this only applies to the breast cancer data from **this dataset** - not for every single case of breast cancer detection. Since this is a sample, the dataset does not represent the full population of people seeking to detect breast cancer.
 
 Quick note: In the real world, for classification, we'd use the **F1 score** instead of accuracy to predict how accurate a model is due to its consideration of both **precision** and **recall**.
 
@@ -388,7 +388,7 @@ This way, we can conclude from an artificial intelligence model, which methods i
 
 ---
 
-## Conclusion: KAN (Kolmogorov–Arnold Networks)
+## Conclusion: KAN (Kolmogorov-Arnold Networks)
 
 Thanks to explainable AI, we can study populations using new data-driven methods.
 
@@ -396,9 +396,9 @@ Instead of only using traditional statistics, surveys, and manual data analysis,
 
 But this is not the only way to have models built with explainable AI.
 
-In April 2024, a paper called [<FontIcon icon="fas fa-globe"/>KAN: Kolmogorov–Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
+In April 2024, a paper called [<FontIcon icon="fas fa-globe"/>KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
 
-Kolmogorov–Arnold Networks (KANs) promise to be more accurate and easier to understand than traditional models and perform better.
+Kolmogorov-Arnold Networks (KANs) promise to be more accurate and easier to understand than traditional models and perform better.
 
 They are also easier to visualize and interact with. So we'll see what happens with them.
 
@@ -414,7 +414,7 @@ You can find the full code here:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Build an Interpretable Artificial Intelligence Model – Simple Python Code Example",
+  "title": "How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example",
   "desc": "Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI. Within Machine Learning, a field called Deep Learning represents one of the main areas of research....",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-interpretable-ai-deep-learning-model.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

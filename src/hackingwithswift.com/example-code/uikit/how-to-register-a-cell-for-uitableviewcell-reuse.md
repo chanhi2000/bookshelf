@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -84,7 +84,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 ```
 
-If there aren't any cells created that can be reused, iOS will automatically create them – this API really is very easy.
+If there aren't any cells created that can be reused, iOS will automatically create them - this API really is very easy.
 
 Although knowing the above code is definitely useful, if you're using storyboards you will find it easier to create prototype cells and give them a reuse identifier directly inside Interface Builder.
 

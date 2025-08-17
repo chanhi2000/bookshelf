@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ Most of the work is done by the `viewControllerBefore` and `viewControllerAfter`
 
 To make this work in your own app, you'll obviously want to replace the plain view controller pages with your own `UIViewController` subclass that does something more interesting. If you're showing quite a few different pages, you should probably create them on demand rather than creating an array of them all up front.
 
-Anyway, here is the complete example – you can use this with the Xcode "Single View App” to get a page view controller up and running immediately:
+Anyway, here is the complete example - you can use this with the Xcode "Single View App” to get a page view controller up and running immediately:
 
 ```swift
 import UIKit

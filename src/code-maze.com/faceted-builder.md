@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Faceted Builder
-description: Article(s) > C# Design Patterns – Faceted Builder
+title: C# Design Patterns - Faceted Builder
+description: Article(s) > C# Design Patterns - Faceted Builder
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Faceted Builder
+      content: Article(s) > C# Design Patterns - Faceted Builder
     - property: og:description
-      content: C# Design Patterns – Faceted Builder
+      content: C# Design Patterns - Faceted Builder
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/faceted-builder.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/faceted-builder/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Faceted Builder"
+  name="C# Design Patterns - Faceted Builder"
   desc="You will learn how to create Faceted Builder design pattern and how to create complex objects which need more than one builder class."
   url="https://code-maze.com/faceted-builder/"
   logo="/assets/image/code-maze.com/favicon.png"

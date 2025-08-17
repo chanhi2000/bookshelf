@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Build an Accessible Modal – with Example Code
-description: Article(s) > How to Build an Accessible Modal – with Example Code
+title: How to Build an Accessible Modal - with Example Code
+description: Article(s) > How to Build an Accessible Modal - with Example Code
 icon: fa-brands fa-css3-alt
 category: 
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Build an Accessible Modal – with Example Code
+      content: Article(s) > How to Build an Accessible Modal - with Example Code
     - property: og:description
-      content: How to Build an Accessible Modal – with Example Code
+      content: How to Build an Accessible Modal - with Example Code
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-accessible-modal-with-example-code.html
 prev: /programming/css/articles/README.md
@@ -41,7 +41,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724337698676/aa23c21
 ---
 
 <SiteInfo
-  name="How to Build an Accessible Modal – with Example Code"
+  name="How to Build an Accessible Modal - with Example Code"
   desc="We often use modals or popups to display important information or prompt users to take action. Unlike regular pop-ups that can be opened in new windows or tabs, these dialogues keep the user on the same page by overlaying the existing content. This e..."
   url="https://freecodecamp.org/news/how-to-build-an-accessible-modal-with-example-code/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

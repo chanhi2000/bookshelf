@@ -75,7 +75,7 @@ For DNS to function, a device must know the IP address of at least one DNS serve
 
 Devices like routers, smartphones, and computers often ship with hardcoded DNS server IPs. Common examples include Google Public DNS (`8.8.8.8`, `8.8.4.4`) and Cloudflare DNS (`1.1.1.1`). These serve as default starting points for DNS queries.
 
-Also, when a device connects to a network (for example, home Wi-Fi), a Dynamic Host Configuration Protocol (DHCP) server – typically on the router – assigns an IP address and DNS server addresses. These are often provided by the Internet Service Provider (ISP), such as Comcast’s `75.75.75.75`, but can be overridden with alternatives like OpenDNS (`208.67.222.222`) or Quad9 (`9.9.9.9`).
+Also, when a device connects to a network (for example, home Wi-Fi), a Dynamic Host Configuration Protocol (DHCP) server - typically on the router - assigns an IP address and DNS server addresses. These are often provided by the Internet Service Provider (ISP), such as Comcast’s `75.75.75.75`, but can be overridden with alternatives like OpenDNS (`208.67.222.222`) or Quad9 (`9.9.9.9`).
 
 Advanced users can manually specify DNS servers. Public DNS providers use memorable IP addresses for simplicity, such as Google’s `8.8.8.8` (repeating digits), Cloudflare’s `1.1.1.1` (short sequence), or Quad9’s `9.9.9.9` (repeating digits).
 
@@ -85,7 +85,7 @@ This design ensures seamless operation for most users, with DHCP and default con
 
 ## How DNS Resolution Powers Your Application’s Network Requests
 
-When an application, like a web browser or a backend service, wants to make a network call – such as an HTTP request to load a webpage, a gRPC call for microservice communication, or an API fetch to retrieve data – it triggers a series of checks and queries to translate a domain name into an IP address. This process is designed for efficiency, leveraging caches and a distributed network of servers to handle the internet’s massive scale.
+When an application, like a web browser or a backend service, wants to make a network call - such as an HTTP request to load a webpage, a gRPC call for microservice communication, or an API fetch to retrieve data - it triggers a series of checks and queries to translate a domain name into an IP address. This process is designed for efficiency, leveraging caches and a distributed network of servers to handle the internet’s massive scale.
 
 ### 1. Valid IP Check
 
@@ -199,7 +199,7 @@ Traditionally, zone files for Root, TLD, and Authoritative name servers were tex
 
 Modern DNS infrastructure has replaced these with efficient databases or in-memory databases, using optimized data structures like hash tables or tries for faster lookups and scalability. This shift supports the growing number of TLDs and high query volumes across all server types.
 
-Similarly, the anycast routing proposal, introduced to enhance speed and reliability by distributing server instances globally, was designed for all name servers – Root, TLD, and Authoritative.
+Similarly, the anycast routing proposal, introduced to enhance speed and reliability by distributing server instances globally, was designed for all name servers - Root, TLD, and Authoritative.
 
 While root name servers universally adopt anycast, ensuring low latency and redundancy, not all TLD and authoritative name servers strictly follow it.
 
@@ -229,17 +229,17 @@ GoDaddy and Hostinger are among many registrars, known for their user-friendly p
 
 When you purchase a new domain (like `example.com`) through a registrar like GoDaddy or Hostinger, the following steps occur in the DNS system:
 
-- **Step 1: Registration with the registry** – The registrar sends your domain details to the registry for the TLD (for example, VeriSign for `.com`). The registry adds the domain to its database, recording the registrar as the managing entity and the authoritative name servers (for example, `ns1.example.com`) you specify.
-- **Step 2: Name server configuration** – You configure the domain’s name servers at the registrar’s control panel (for example, GoDaddy’s Domain Portfolio or Hostinger’s hPanel). These name servers, often provided by the registrar or hosting provider (for example, `ns1.hostinger.com`), point to the DNS zone file that contains DNS records for your domain.
-- **Step 3: DNS zone setup** – The DNS zone file, managed where the name servers point, is updated with DNS records like:
+- **Step 1: Registration with the registry** - The registrar sends your domain details to the registry for the TLD (for example, VeriSign for `.com`). The registry adds the domain to its database, recording the registrar as the managing entity and the authoritative name servers (for example, `ns1.example.com`) you specify.
+- **Step 2: Name server configuration** - You configure the domain’s name servers at the registrar’s control panel (for example, GoDaddy’s Domain Portfolio or Hostinger’s hPanel). These name servers, often provided by the registrar or hosting provider (for example, `ns1.hostinger.com`), point to the DNS zone file that contains DNS records for your domain.
+- **Step 3: DNS zone setup** - The DNS zone file, managed where the name servers point, is updated with DNS records like:
   - **A record**: Maps the domain (for example, `example.com`) to the hosting server’s IP address (for example, `192.0.2.1`).
   - **CNAME record**: Aliases subdomains (for example, `www.example.com`) to another domain.
   - **MX record**: Directs email to mail servers.
 
 If using the registrar’s hosting, these records may be set automatically. Otherwise, you manually configure them to point to your hosting provider’s IP.
 
-- **Step 4: DNS propagation** – After updating name servers or DNS records, changes propagate across the global DNS network, which can take 24–48 hours due to caching and server updates. During this period, your website may not be immediately accessible.
-- **Step 5: TLD registry update** – The registry updates its records to include the domain’s name servers, which are queried by recursive resolvers during DNS lookups. For domains with name servers in the same domain (for example, `ns1.example.com` for `example.com`), glue records (IP addresses of the name servers) are registered with the registry to prevent circular dependencies.
+- **Step 4: DNS propagation** - After updating name servers or DNS records, changes propagate across the global DNS network, which can take 24-48 hours due to caching and server updates. During this period, your website may not be immediately accessible.
+- **Step 5: TLD registry update** - The registry updates its records to include the domain’s name servers, which are queried by recursive resolvers during DNS lookups. For domains with name servers in the same domain (for example, `ns1.example.com` for `example.com`), glue records (IP addresses of the name servers) are registered with the registry to prevent circular dependencies.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn React Hooks – Common Hooks Explained with Code Examples"
-description: "Article(s) > Learn React Hooks – Common Hooks Explained with Code Examples"
+title: "Learn React Hooks - Common Hooks Explained with Code Examples"
+description: "Article(s) > Learn React Hooks - Common Hooks Explained with Code Examples"
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn React Hooks – Common Hooks Explained with Code Examples"
+      content: "Article(s) > Learn React Hooks - Common Hooks Explained with Code Examples"
     - property: og:description
-      content: "Learn React Hooks – Common Hooks Explained with Code Examples"
+      content: "Learn React Hooks - Common Hooks Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-hooks-with-example-code.html
 prev: /programming/js-react/articles/README.md
@@ -46,8 +46,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727212733982/7c9b8ae
 ---
 
 <SiteInfo
-  name="Learn React Hooks – Common Hooks Explained with Code Examples"
-  desc="Web development is a popular field in the tech industry. It involves building web software using HTML, CSS, and JavaScript – sometimes with the help of various frameworks and libraries. Using libraries and frameworks allows developers to focus more o..."
+  name="Learn React Hooks - Common Hooks Explained with Code Examples"
+  desc="Web development is a popular field in the tech industry. It involves building web software using HTML, CSS, and JavaScript - sometimes with the help of various frameworks and libraries. Using libraries and frameworks allows developers to focus more o..."
   url="https://freecodecamp.org/news/learn-react-hooks-with-example-code/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727212733982/7c9b8ae3-e8ac-4e20-b154-7edc60a6985a.avif"/>
@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727212733982/7c9b8ae
 <!-- TODO: 작성 -->
 
 <!-- 
-<p>Web development is a popular field in the tech industry. It involves building web software using HTML, CSS, and JavaScript – sometimes with the help of various frameworks and libraries.</p>
+<p>Web development is a popular field in the tech industry. It involves building web software using HTML, CSS, and JavaScript - sometimes with the help of various frameworks and libraries.</p>
 <p>Using libraries and frameworks allows developers to focus more on the development while the tools take care of certain functionality in the background. And React.js is a popular JavaScript library for building front-end applications.</p>
 <p>In this article, you’ll learn about the backbone of React which is <strong>Hooks,</strong> and how they can make your life easier as a developer.</p>
 <h2 id="heading-what-well-cover">What We’ll Cover:</h2>
@@ -96,7 +96,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727212733982/7c9b8ae
 </ul>
 <h2 id="heading-getting-started">Getting Started</h2>
 <p>So you've decided to build a React app—congratulations! 🎉 But as you dive into the world of React hooks, you might find yourself feeling overwhelmed. With a plethora of hooks available, figuring out which ones to use and when can be a bit daunting.</p>
-<p>Well, don’t worry – in this guide, I’ll break down every major hook so you can see how they fit together. We’ll also discuss which ones you'll use more frequently versus more rarely.</p>
+<p>Well, don’t worry - in this guide, I’ll break down every major hook so you can see how they fit together. We’ll also discuss which ones you'll use more frequently versus more rarely.</p>
 <p>By the end of this article, you'll have a comprehensive map of React hooks and their practical applications.</p>
 <h2 id="heading-what-are-hooks"><strong>What are Hooks?</strong></h2>
 <p>In JavaScript, we use variables to store data and later perform operations on that data.</p>
@@ -120,24 +120,24 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727212733982/7c9b8ae
 <h2 id="heading-types-of-react-hooks">Types of React Hooks</h2>
 <p>To make things easier, you can think of React hooks as falling into eight major categories:</p>
 <ul>
-<li><p><strong>State Management Hooks</strong> – For handling state.</p>
+<li><p><strong>State Management Hooks</strong> - For handling state.</p>
 </li>
-<li><p><strong>Effect Hooks</strong> – For side effects.</p>
+<li><p><strong>Effect Hooks</strong> - For side effects.</p>
 </li>
-<li><p><strong>Ref Hooks</strong> – For referencing JavaScript values or DOM elements.</p>
+<li><p><strong>Ref Hooks</strong> - For referencing JavaScript values or DOM elements.</p>
 </li>
-<li><p><strong>Performance Hooks</strong> – For optimizing performance.</p>
+<li><p><strong>Performance Hooks</strong> - For optimizing performance.</p>
 </li>
-<li><p><strong>Context Hooks</strong> – For accessing React context.</p>
+<li><p><strong>Context Hooks</strong> - For accessing React context.</p>
 </li>
-<li><p><strong>Transition Hooks</strong> – For smoother user experiences.</p>
+<li><p><strong>Transition Hooks</strong> - For smoother user experiences.</p>
 </li>
-<li><p><strong>Some Random Hooks</strong> – Special-purpose hooks.</p>
+<li><p><strong>Some Random Hooks</strong> - Special-purpose hooks.</p>
 </li>
-<li><p><strong>New Hooks (React 19)</strong> – Cutting-edge tools introduced in the latest React version.</p>
+<li><p><strong>New Hooks (React 19)</strong> - Cutting-edge tools introduced in the latest React version.</p>
 </li>
 </ul>
-<p>In React, you can also build custom hooks for different use cases. Every hook starts with the <code>use</code> keyword – even custom hooks start with this structure. This keyword is reserved for Hooks in React.</p>
+<p>In React, you can also build custom hooks for different use cases. Every hook starts with the <code>use</code> keyword - even custom hooks start with this structure. This keyword is reserved for Hooks in React.</p>
 <p>Let’s explore these hooks in detail.</p>
 <h3 id="heading-state-management-hooks"><strong>State Management Hooks</strong></h3>
 <h4 id="heading-1-usestate"><strong>1.</strong> <code>useState</code></h4>

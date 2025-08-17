@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 Before this project is finished, we're going to make two changes. First, we're going to add another tab to the `UITabBarController` that will show popular petitions, and second we're going to make our loading code a little more resilient by adding error messages.
 
-As I said previously, we can't really put the second tab into our storyboard because both tabs will host a `ViewController` and doing so would require us to duplicate the view controllers in the storyboard. You can do that if you really want, but please don't – it's a maintenance nightmare!
+As I said previously, we can't really put the second tab into our storyboard because both tabs will host a `ViewController` and doing so would require us to duplicate the view controllers in the storyboard. You can do that if you really want, but please don't - it's a maintenance nightmare!
 
 Instead, we're going to leave our current storyboard configuration alone, then create the second view controller using code. This isn't something you've done before, but it's not hard and we already took the first step, as you'll see.
 
@@ -97,7 +97,7 @@ if navigationController?.tabBarItem.tag == 0 {
 }
 ```
 
-That adjusts the code so that the first instance of `ViewController` loads the original JSON, and the second loads only petitions that have at least 10,000 signatures. Once again I’ve provided cached copies of the Whitehouse API data in case it changes or goes away in the future – use whichever one you prefer.
+That adjusts the code so that the first instance of `ViewController` loads the original JSON, and the second loads only petitions that have at least 10,000 signatures. Once again I’ve provided cached copies of the Whitehouse API data in case it changes or goes away in the future - use whichever one you prefer.
 
 The project is almost done, but we're going to make one last change. Our current loading code isn't very resilient: we have a couple of `if` statements checking that things are working correctly, but no `else` statements showing an error message if there's a problem.
 
@@ -138,7 +138,7 @@ if let url = URL(string: urlString) {
 showError()
 ```
 
-Both approaches are perfectly valid – do whichever you prefer.
+Both approaches are perfectly valid - do whichever you prefer.
 
-Regardless of which you opt for, now that error messages are shown when the app hits problems we’re done – good job!
+Regardless of which you opt for, now that error messages are shown when the app hits problems we’re done - good job!
 

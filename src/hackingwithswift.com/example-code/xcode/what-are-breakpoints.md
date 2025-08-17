@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Breakpoints are locations in your code where Xcode will pause so that you can inspect the state of your program. They don’t have any impact on the final performance of your code – in fact, they don’t even exist in your code at all – so there’s no harm using them liberally.
+Breakpoints are locations in your code where Xcode will pause so that you can inspect the state of your program. They don’t have any impact on the final performance of your code - in fact, they don’t even exist in your code at all - so there’s no harm using them liberally.
 
-To place a breakpoint, click to the left of a line of code you want to pause on – in the gutter, where the line numbers are visible if you use them. If you prefer keyboard shorts, press <kbd>Cmd</kbd>+. When you run your program now, Xcode will pause as soon as that line is reached.
+To place a breakpoint, click to the left of a line of code you want to pause on - in the gutter, where the line numbers are visible if you use them. If you prefer keyboard shorts, press <kbd>Cmd</kbd>+. When you run your program now, Xcode will pause as soon as that line is reached.
 
 To remove a breakpoint, either press <kbd>Cmd</kbd>+\ on it again, or drag it off the gutter.
 

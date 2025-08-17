@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746123776834/337004c
 
 <SiteInfo
   name="How to Activate Your Django Virtual Environment"
-  desc="If you’re starting with Django, one of the first steps you’ll hear about is activating a virtual environment. And if that sounds a little technical, don’t worry – I’m going to walk you through exactly what that means, why it matters, and how to do it..."
+  desc="If you’re starting with Django, one of the first steps you’ll hear about is activating a virtual environment. And if that sounds a little technical, don’t worry - I’m going to walk you through exactly what that means, why it matters, and how to do it..."
   url="https://freecodecamp.org/news/how-to-activate-your-django-virtual-environment"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746123776834/337004ca-692e-4df9-89db-81e78a16c7fe.png"/>
 
-If you’re starting with Django, one of the first steps you’ll hear about is *activating a virtual environment*. And if that sounds a little technical, don’t worry – I’m going to walk you through exactly what that means, why it matters, and how to do it step-by-step, without any confusing terms.
+If you’re starting with Django, one of the first steps you’ll hear about is *activating a virtual environment*. And if that sounds a little technical, don’t worry - I’m going to walk you through exactly what that means, why it matters, and how to do it step-by-step, without any confusing terms.
 
 I’ve helped a lot of people get started with Python and Django, and trust me: understanding virtual environments early on can save you tons of headaches later.
 
@@ -286,7 +286,7 @@ This is useful for team projects or for moving your app to a server.
 
 Activating your Django virtual environment might seem like a small thing, but it’s a big step toward becoming a confident and organized developer.
 
-Once you get the hang of it, it becomes second nature – and your future self will thank you for learning it the right way from the start.
+Once you get the hang of it, it becomes second nature - and your future self will thank you for learning it the right way from the start.
 
 Would you love to connect with me? You can do so on [<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`](https://X.com/_udemezue)
 
@@ -344,7 +344,7 @@ If you're serious about Django, here are some free and paid resources I recommen
 ```component VPCard
 {
   "title": "How to Activate Your Django Virtual Environment",
-  "desc": "If you’re starting with Django, one of the first steps you’ll hear about is activating a virtual environment. And if that sounds a little technical, don’t worry – I’m going to walk you through exactly what that means, why it matters, and how to do it...",
+  "desc": "If you’re starting with Django, one of the first steps you’ll hear about is activating a virtual environment. And if that sounds a little technical, don’t worry - I’m going to walk you through exactly what that means, why it matters, and how to do it...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-activate-your-django-virtual-environment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

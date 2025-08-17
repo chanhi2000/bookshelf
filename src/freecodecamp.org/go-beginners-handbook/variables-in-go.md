@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Variables in Go
-description: Article(s) > (8/21) The Go Handbook – Learn Golang for Beginners 
+description: Article(s) > (8/21) The Go Handbook - Learn Golang for Beginners 
 category:
   - Go
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (8/21) The Go Handbook – Learn Golang for Beginners
+      content: Article(s) > (8/21) The Go Handbook - Learn Golang for Beginners
     - property: og:description
       content: Variables in Go
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/2022/10/golang.png
 
 ```component VPCard
 {
-  "title": "The Go Handbook – Learn Golang for Beginners",
-  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
+  "title": "The Go Handbook - Learn Golang for Beginners",
+  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
   "link": "/freecodecamp.org/go-beginners-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/2022/10/golang.png
 ---
 
 <SiteInfo
-  name="The Go Handbook – Learn Golang for Beginners"
-  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
+  name="The Go Handbook - Learn Golang for Beginners"
+  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
   url="https://freecodecamp.org/news/go-beginners-handbook#heading-variables-in-go"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2022/10/golang.png"/>
@@ -160,4 +160,4 @@ and the error from the compiler:
 
 ![Error in compiler for unused declared variables](https://freecodecamp.org/news/content/images/2022/10/Screen_Shot_2022-07-28_at_15.45.44.png)
 
-If you declare a variable without initializing it to a value, it is assigned a value automatically that depends on the type – for example an integer is `0` and a string is an empty string.
+If you declare a variable without initializing it to a value, it is assigned a value automatically that depends on the type - for example an integer is `0` and a string is an empty string.

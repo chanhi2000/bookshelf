@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
-description: "Article(s) > How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
+title: "How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
+description: "Article(s) > How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
+      content: "Article(s) > How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
     - property: og:description
-      content: "How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
+      content: "How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/boost-web-performance-with-prefetching.html
 prev: /programming/js-react/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/-Vqn2WrfxTQ/up
 ---
 
 <SiteInfo
-  name="How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time"
+  name="How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
   desc="We've all encountered the frustration of waiting through long loading screens, only to find ourselves stuck with unresponsive pages. You see loading spinners everywhere, but nothing seems to move forward. Let me paint a clearer picture for you: This..."
   url="https://freecodecamp.org/news/boost-web-performance-with-prefetching"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -464,7 +464,7 @@ For more content, you can follow me on [Twitter (<FontIcon icon="fa-brands fa-x-
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Boost Web Performance with Prefetching – Improve User Experience by Reducing Load Time",
+  "title": "How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time",
   "desc": "We've all encountered the frustration of waiting through long loading screens, only to find ourselves stuck with unresponsive pages. You see loading spinners everywhere, but nothing seems to move forward. Let me paint a clearer picture for you: This...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/boost-web-performance-with-prefetching.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

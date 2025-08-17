@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Many functions return values, but sometimes you don’t care what the return value is – you might want to ignore it sometimes, and use it other times.
+Many functions return values, but sometimes you don’t care what the return value is - you might want to ignore it sometimes, and use it other times.
 
 As an example, Swift’s dictionaries have an `updateValue()` method that lets you change the value for a given key. If the key was found you’ll be sent back the previous value, but if the key wasn’t found you’ll get back nil. This makes it a nice way to update and check at the same time, if you need it:
 

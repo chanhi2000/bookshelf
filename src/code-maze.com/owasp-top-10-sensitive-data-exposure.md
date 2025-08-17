@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: OWASP Top 10 – Sensitive Data Exposure
-description: Article(s) > OWASP Top 10 – Sensitive Data Exposure
+title: OWASP Top 10 - Sensitive Data Exposure
+description: Article(s) > OWASP Top 10 - Sensitive Data Exposure
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > OWASP Top 10 – Sensitive Data Exposure
+      content: Article(s) > OWASP Top 10 - Sensitive Data Exposure
     - property: og:description
-      content: OWASP Top 10 – Sensitive Data Exposure
+      content: OWASP Top 10 - Sensitive Data Exposure
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/owasp-top-10-sensitive-data-exposure.html
 prev: /programming/cs/articles/README.md
@@ -53,7 +53,7 @@ cover: /assets/image/code-maze.com/owasp-top-10-sensitive-data-exposure/banner.p
 ---
 
 <SiteInfo
-  name="OWASP Top 10 – Sensitive Data Exposure"
+  name="OWASP Top 10 - Sensitive Data Exposure"
   desc="Sensitive data exposure occurs when an application accidentally exposes sensitive data and it usually occurs when we fail to protect our application data."
   url="https://code-maze.com/owasp-top-10-sensitive-data-exposure/"
   logo="/assets/image/code-maze.com/favicon.png"

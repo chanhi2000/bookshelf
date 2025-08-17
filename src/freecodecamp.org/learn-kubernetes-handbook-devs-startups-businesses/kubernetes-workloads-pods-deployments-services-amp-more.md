@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Kubernetes Workloads 🛠️ – Pods, Deployments, Services, & More"
-description: Article(s) > (3/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+title: "Kubernetes Workloads 🛠️ - Pods, Deployments, Services, & More"
+description: Article(s) > (3/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (3/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (3/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
-      content: "Kubernetes Workloads 🛠️ – Pods, Deployments, Services, & More"
+      content: "Kubernetes Workloads 🛠️ - Pods, Deployments, Services, & More"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/kubernetes-workloads-pods-deployments-services-amp-more.html
 date: 2025-05-03
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-kubernetes-workloads-pods-deployments-services-amp-more"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d3-f2a5-44eb-83b5-d1a614bead9f.png"/>
 
-Kubernetes workloads are the objects you use to manage and run your applications. Think of them as blueprints 📐 that tell Kubernetes **what** to run and **how** to run it – whether it’s a single app container, a group of containers, a database, or a batch job. Here are some of the workloads in Kubernetes:
+Kubernetes workloads are the objects you use to manage and run your applications. Think of them as blueprints 📐 that tell Kubernetes **what** to run and **how** to run it - whether it’s a single app container, a group of containers, a database, or a batch job. Here are some of the workloads in Kubernetes:
 
 ---
 
@@ -62,7 +62,7 @@ A **Pod** is the smallest and simplest unit in the Kubernetes object model. It r
 
 Think of a Pod as a wrapper around one or more containers that need to work together. They share the same network IP and storage, allowing them to communicate easily and share data. Pods are ephemeral (live for a short time, they can be replaced very easily). If a Pod dies, Kubernetes can create a new one to replace it almost instantly.
 
-Say you have an application which is split into 2 distributed monoliths – a frontend and a backend. The frontend will run in a container in Pod A, while the backend app will run in a container in another Pod B.
+Say you have an application which is split into 2 distributed monoliths - a frontend and a backend. The frontend will run in a container in Pod A, while the backend app will run in a container in another Pod B.
 
 ---
 
@@ -72,7 +72,7 @@ A **Deployment** provides declarative updates for Pods and ReplicaSets. You desc
 
 Deployments manage the lifecycle of your application Pods. They ensure that the specified number of Pods are running and can handle updates, rollbacks, and scaling. If a Pod fails, the Deployment automatically replaces it to maintain the desired state.
 
-Imagine you're managing a store. A Deployment is like the store manager – you tell it how many workers (Pods) you want, and it makes sure they’re always present. If one doesn't show up for work, the manager finds a replacement automatically. You can also tell it to hire more workers or fire some when needed.
+Imagine you're managing a store. A Deployment is like the store manager - you tell it how many workers (Pods) you want, and it makes sure they’re always present. If one doesn't show up for work, the manager finds a replacement automatically. You can also tell it to hire more workers or fire some when needed.
 
 ---
 
@@ -102,13 +102,13 @@ A **DaemonSet** ensures that all (or some) Nodes run an instance (a copy) of a s
 
 DaemonSets are used to deploy a Pod on every node in the cluster. This is useful for running background tasks like log collection or monitoring agents on all nodes (for example to get the CPU, memory, and disk usage of each node).
 
-A DaemonSet is like saying, “I want this helper app to run on **every single computer** we have.” As mentioned earlier, it’s great for things like log collectors or security checkers – small helpers that every machine should have.
+A DaemonSet is like saying, “I want this helper app to run on **every single computer** we have.” As mentioned earlier, it’s great for things like log collectors or security checkers - small helpers that every machine should have.
 
 ---
 
 ## 6️⃣ StatefulSets
 
-A **StatefulSet** is the workload API object used to manage stateful applications (applications that store data, for example in their filesystem – databases). It manages the deployment and scaling of a set of Pods and provides guarantees about the ordering and uniqueness of these Pods.
+A **StatefulSet** is the workload API object used to manage stateful applications (applications that store data, for example in their filesystem - databases). It manages the deployment and scaling of a set of Pods and provides guarantees about the ordering and uniqueness of these Pods.
 
 StatefulSets are designed for applications that require persistent storage and stable network identities, like databases.
 
@@ -128,4 +128,4 @@ A Job is like a one-time task. Imagine sending out a batch of emails or processi
 
 A **CronJob** creates Jobs on a time-based schedule. It runs a Job periodically on a given schedule, written in Cron format.
 
-A CronJob is like setting a reminder or alarm. It tells your app (in this case the Job) to do something every night at 2 AM, every Monday morning, or once a month – whatever schedule you give it.
+A CronJob is like setting a reminder or alarm. It tells your app (in this case the Job) to do something every night at 2 AM, every Monday morning, or once a month - whatever schedule you give it.

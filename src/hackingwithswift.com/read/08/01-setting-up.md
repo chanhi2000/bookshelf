@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,7 +57,7 @@ This is one of the last games you'll be making with UIKit; almost every game aft
 
 We’re going to be making a word game based on the popular indie game 7 Little Words. Users are going to see a list of hints and an array of buttons with different letters on, and need to use those buttons to enter words matching the hints.
 
-Of course I’ll also be using this project to teach lots of important concepts, in particular how to use Auto Layout to create user interfaces entirely in code – no storyboard needed. Being able to use storyboards is a great skill, and being able to create user interfaces in code is also a great skill. Best of all, though, is knowing how to do both, so you can pick whichever works best on a case-by-case basis.
+Of course I’ll also be using this project to teach lots of important concepts, in particular how to use Auto Layout to create user interfaces entirely in code - no storyboard needed. Being able to use storyboards is a great skill, and being able to create user interfaces in code is also a great skill. Best of all, though, is knowing how to do both, so you can pick whichever works best on a case-by-case basis.
 
 I should warn you ahead of time: although creating UI in code isn’t hard, it does take a lot of time. As you’ll see I encourage you to run your code regularly so you can see the parts come together, because otherwise this can feel endless!
 

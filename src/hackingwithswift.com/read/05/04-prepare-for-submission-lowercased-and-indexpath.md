@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -64,13 +64,13 @@ guard let answer = ac?.textFields?[0].text else { return }
 self?.submit(answer)
 ```
 
-The first line safely unwraps the array of text fields – it's optional because there might not be any. The second line pulls out the text from the text field and passes it to our (all-new-albeit-empty) `submit()` method.
+The first line safely unwraps the array of text fields - it's optional because there might not be any. The second line pulls out the text from the text field and passes it to our (all-new-albeit-empty) `submit()` method.
 
 This method needs to check whether the player's word can be made from the given letters. It needs to check whether the word has been used already, because obviously we don't want duplicate words. It also needs to check whether the word is actually a valid English word, because otherwise the user can just type in nonsense.
 
 If all three of those checks pass, `submit()` needs to add the word to the `usedWords` array, then insert a new row in the table view. We could just use the table view's `reloadData()` method to force a full reload, but that's not very efficient when we're changing just one row.
 
-First, let’s create dummy methods for the three checks we’re going to do: is the word possible, is it original, and is it real? Each of these will accept a word string and return true or false, but for now we’ll just always return true – we’ll come back to these soon. Add these methods now:
+First, let’s create dummy methods for the three checks we’re going to do: is the word possible, is it original, and is it real? Each of these will accept a word string and return true or false, but for now we’ll just always return true - we’ll come back to these soon. Add these methods now:
 
 ```swift
 func isPossible(word: String) -> Bool {
@@ -115,11 +115,11 @@ Once we know the word is good, we do three things: insert the new word into our 
 
 The next two things are related: we insert a new row into the table view. Given that the table view gets all its data from the used words array, this might seem strange. After all, we just inserted the word into the `usedWords` array, so why do we need to insert anything into the table view?
 
-The answer is animation. Like I said, we could just call the `reloadData()` method and have the table do a full reload of all rows, but it means a lot of extra work for one small change, and also causes a jump – the word wasn't there, and now it is.
+The answer is animation. Like I said, we could just call the `reloadData()` method and have the table do a full reload of all rows, but it means a lot of extra work for one small change, and also causes a jump - the word wasn't there, and now it is.
 
 This can be hard for users to track visually, so using `insertRows()` lets us tell the table view that a new row has been placed at a specific place in the array so that it can animate the new cell appearing. Adding one cell is also significantly easier than having to reload everything, as you might imagine!
 
-There are two quirks here that require a little more detail. First, `IndexPath` is something we looked at briefly in project 1, as it contains a section and a row for every item in your table. As with project 1 we aren't using sections here, but the row number should equal the position we added the item in the array – position 0, in this case.
+There are two quirks here that require a little more detail. First, `IndexPath` is something we looked at briefly in project 1, as it contains a section and a row for every item in your table. As with project 1 we aren't using sections here, but the row number should equal the position we added the item in the array - position 0, in this case.
 
 Second, the `with` parameter lets you specify how the row should be animated in. Whenever you're adding and removing things from a table, the `.automatic` value means "do whatever is the standard system animation for this change." In this case, it means "slide the new row in from the top."
 

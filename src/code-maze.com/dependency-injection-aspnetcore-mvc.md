@@ -42,7 +42,7 @@ cover: /assets/image/code-maze.com/dependency-injection-aspnetcore-mvc/banner.pn
 
 <SiteInfo
   name="Dependency Injection in ASP.NET Core MVC"
-  desc="In this article, we are going to discuss an important concept of ASP.NET Core MVC – Dependency Injection, and how to use DI in our Controllers and Views."
+  desc="In this article, we are going to discuss an important concept of ASP.NET Core MVC - Dependency Injection, and how to use DI in our Controllers and Views."
   url="https://code-maze.com/dependency-injection-aspnetcore-mvc/"
   logo="/assets/image/code-maze.com/favicon.png"
   preview="/assets/image/code-maze.com/dependency-injection-aspnetcore-mvc/banner.png"/>

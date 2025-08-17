@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Testing - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/testing/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ func testFailingExample() throws {
 }
 ```
 
-That creates an instance of the struct, attempts to run its `generateImages()` method, then asserts that the result of the method was true. If `generateImages()` throws an error it won’t be caught inside the test – there’s no `do`/`catch` blocks in there – so instead it will bubble up to the `XCTestCase`, which will automatically mark the test as being failed.
+That creates an instance of the struct, attempts to run its `generateImages()` method, then asserts that the result of the method was true. If `generateImages()` throws an error it won’t be caught inside the test - there’s no `do`/`catch` blocks in there - so instead it will bubble up to the `XCTestCase`, which will automatically mark the test as being failed.
 
 Although this approach works well for individual throwing methods like you see above, I don’t think you should use it for more complex tests because you can mask failures too easily. If you have three throwing function calls inside a single test, it’s a better idea to wrap them individually in `do`/`catch` blocks so you can deal with the error inline by calling `XCTFail()` at the point of failure.
 

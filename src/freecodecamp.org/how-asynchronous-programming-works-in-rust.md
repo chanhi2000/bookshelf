@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples"
-description: "Article(s) > How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples"
+title: "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
+description: "Article(s) > How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
 icon: fa-brands fa-rust
 category: 
   - Rust
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples"
+      content: "Article(s) > How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
     - property: og:description
-      content: "How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples"
+      content: "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-asynchronous-programming-works-in-rust.html
 prev: /programming/rust/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723746256888/b046d85
 ---
 
 <SiteInfo
-  name="How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples"
+  name="How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
   desc="If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works..."
   url="https://freecodecamp.org/news/how-asynchronous-programming-works-in-rust"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -65,7 +65,7 @@ With that said, let's begin!
 
 Asynchronous tasks work like a more integrated version of threads. You can use them in a lot of the same scenarios where you can use multiple threads. The benefits async programming provides over multiple threads is that multi-threaded applications have a larger overhead to work on multiple tasks compared to asynchronous applications.
 
-But this doesn’t make asynchronous applications better than multithreaded applications. Multi-threaded programs can run multiple computing-intensive tasks simultaneously – and multiple times faster than if you ran all the tasks in a single thread.
+But this doesn’t make asynchronous applications better than multithreaded applications. Multi-threaded programs can run multiple computing-intensive tasks simultaneously - and multiple times faster than if you ran all the tasks in a single thread.
 
 With asynchronous coding, trying to run multiple computing-intensive applications simultaneously will be much slower than just running every task on a single thread.
 
@@ -77,7 +77,7 @@ During the idle time of an asynchronous task, instead of blocking the thread, th
 
 ---
 
-## Overview of Asynchronous Rust – Futures
+## Overview of Asynchronous Rust - Futures
 
 The basics of asynchronous Rust are Futures. Futures are similar to promises in JavaScript. They are Rust's way of saying "hey, I'm going to give you the result later, but just hold on to this (the future instance) to keep track of if the result is ready."
 
@@ -188,7 +188,7 @@ If you have any questions or thoughts, feel free to reach out to me. Thanks for 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples",
+  "title": "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples",
   "desc": "If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-asynchronous-programming-works-in-rust.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Learn Full Stack Development"
-description: "Article(s) > (3/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+description: "Article(s) > (3/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
 category:
   - Career
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+      content: "Article(s) > (3/6) How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
     - property: og:description
       content: "How to Learn Full Stack Development"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 
 ```component VPCard
 {
-  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+  "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners",
   "desc": "Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial...",
   "link": "/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741296524045/6d9bed1
 ---
 
 <SiteInfo
-  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+  name="How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
   desc="Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial..."
   url="https://freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job#heading-how-to-learn-full-stack-development"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -73,7 +73,7 @@ Understanding how [**web browsers work**](/freecodecamp.org/web-page-rendering-o
 
 :::
 
-### HTML – Structuring Web Content
+### HTML - Structuring Web Content
 
 HTML (HyperText Markup Language) is the backbone of every website. It defines the structure of web pages using elements like headings, paragraphs, lists, and links. Writing semantic HTML ensures accessibility and better SEO.
 
@@ -85,7 +85,7 @@ HTML (HyperText Markup Language) is the backbone of every website. It defines th
 
 :::
 
-### CSS – Styling Web Pages
+### CSS - Styling Web Pages
 
 CSS (Cascading Style Sheets) controls the appearance of web pages, including layout, colors, fonts, and responsiveness. Using modern CSS techniques can improve design consistency and reduce development time.
 
@@ -97,7 +97,7 @@ CSS (Cascading Style Sheets) controls the appearance of web pages, including lay
 
 :::
 
-### JavaScript – Adding Interactivity
+### JavaScript - Adding Interactivity
 
 JavaScript is the scripting language that makes web pages dynamic. It enables interactive elements such as animations, forms, and real-time updates.
 
@@ -113,7 +113,7 @@ I’ve shared the important things to learn in another guide, where I have built
 
 You can also check out [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp’s new beta Certified Full Stack Developer curriculum](https://freecodecamp.org/learn/full-stack-developer/). It’s a completely reworked version of the curriculum that covers everything from HTML, CSS, and JavaScript to databases, Node.js, Python, and more.
 
-### React – Building UI Components
+### React - Building UI Components
 
 React is a JavaScript library for creating interactive and efficient user interfaces. It uses a component-based architecture, allowing for reusable and maintainable code.
 
@@ -123,7 +123,7 @@ Also, React's use of the virtual DOM ensures fast rendering, enhancing the perfo
 
 Here’s a [**popular course**](https://freecodecamp.org/learn-react-2024.md) that’ll teach you all the React fundamentals you need to know to get started. And [this handbook](/freecodecamp.org/react-for-beginners-handbook/REAMDE.md) will help reinforce these key React concepts.
 
-### Tailwind CSS – Responsive UI Development
+### Tailwind CSS - Responsive UI Development
 
 Tailwind CSS is a utility-first CSS framework that simplifies styling by providing prebuilt classes. It allows rapid development without writing custom CSS from scratch.
 
@@ -135,7 +135,7 @@ Tailwind also supports responsive design with built-in breakpoints, ensuring you
 
 [**In this course**](/freecodecamp.org/learn-tailwind-css-by-building-a-responsive-product-card.md), you’ll learn Tailwind basics by building a responsive product card project.
 
-### Performance Testing – Optimizing Web Applications
+### Performance Testing - Optimizing Web Applications
 
 [**Ensuring smooth performance**](/freecodecamp.org/performance-testing-for-web-applications.md) is essential for user experience. Performance testing tools help identify bottlenecks and improve page speed.
 
@@ -147,7 +147,7 @@ Tailwind also supports responsive design with built-in breakpoints, ensuring you
 
 :::
 
-### Next.js – Advanced React Framework
+### Next.js - Advanced React Framework
 
 Next.js is a powerful React framework that enhances web applications with several key features. It supports server-side rendering (SSR), which improves SEO and performance by pre-rendering pages on the server.
 
@@ -164,7 +164,7 @@ Here are a couple courses to help you learn all about Next.js and how to build p
 - [**Learn Next.js by building a cloud photo app**](/freecodecamp.org/create-a-google-photos-clone-with-nextjs-and-cloudinary.md)
 - [**Build scalable web apps with Next.js**](/freecodecamp.org/learn-next-js-tutorial.md)
 
-### Projects – Applying Knowledge in Real-World Applications
+### Projects - Applying Knowledge in Real-World Applications
 
 Building projects is the best way to strengthen frontend development skills. Working on real-world applications helps integrate different technologies and improve problem-solving abilities.
 
@@ -180,7 +180,7 @@ Building projects is the best way to strengthen frontend development skills. Wor
 
 ## Backend Development
 
-### Advanced JavaScript – Core Concepts for Backend Development
+### Advanced JavaScript - Core Concepts for Backend Development
 
 Before diving into backend technologies, it is crucial to have a solid grasp of JavaScript. Several important concepts are fundamental to mastering this language.
 
@@ -192,7 +192,7 @@ Async/Await is a more modern and readable way to handle promises. It allows deve
 
 Key topics to focus on include understanding the JavaScript event loop and execution context, which are fundamental to how JavaScript manages and executes code. Also, learning to handle [**asynchronous operations**](/freecodecamp.org/learn-asynchronous-javascript.md) effectively and implementing error handling using try/catch in asynchronous functions are crucial skills for any JavaScript developer.
 
-### Revision – Staying Up to Date with Backend Concepts
+### Revision - Staying Up to Date with Backend Concepts
 
 Technology evolves rapidly, and regularly reviewing what you have learned is essential to reinforce key concepts. One of the most important areas to revisit is APIs (Application Programming Interfaces), which facilitate communication between different parts of an application.
 
@@ -205,7 +205,7 @@ Technology evolves rapidly, and regularly reviewing what you have learned is ess
 
 Key topics to learn include designing RESTful APIs, handling API requests and responses, and understanding request headers, body, and status codes. These skills are fundamental for effective communication between different components of an application.
 
-### Node.js – Running JavaScript on the Server
+### Node.js - Running JavaScript on the Server
 
 JavaScript is commonly used in web browsers, but Node.js extends its capabilities by allowing it to run on a server, enabling the development of backend applications.
 
@@ -215,7 +215,7 @@ This makes it particularly well-suited for applications that require real-time i
 
 Key topics to learn include understanding the event-driven architecture of Node.js, which is fundamental to its operation. Additionally, becoming proficient with npm (Node Package Manager) is essential for installing and managing libraries. Working with built-in modules like fs (file system) and http is also crucial for leveraging Node.js's capabilities effectively. [**Here’s a course on Node.js + Express**](/freecodecamp.org/free-8-hour-node-express-course.md) to get you started.
 
-### Express.js – Simplifying Backend Development
+### Express.js - Simplifying Backend Development
 
 Node.js provides core functionality, but setting up a web server manually can be complex. Express.js is a web framework that simplifies this process.
 
@@ -245,7 +245,7 @@ Implementing authentication and authorization is another critical topic. Authent
 
 Using middleware for logging and request validation is also important. Middleware functions in Express.js can process requests before they reach the main application logic. Logging middleware can record details about each request, which is useful for monitoring and debugging. Request validation middleware can ensure that incoming requests meet certain criteria, such as containing required fields or adhering to specific formats. This helps in maintaining the integrity and security of the application.
 
-### Databases – Storing and Managing Data
+### Databases - Storing and Managing Data
 
 Databases are essential for storing and organizing application data. There are two main types of databases: NoSQL and SQL.
 
@@ -263,7 +263,7 @@ It's also important to know how to connect a Node.js application to a database. 
 
 By mastering these topics, you'll be able to build robust and efficient applications that can handle a wide range of data management needs. [**This article**](/freecodecamp.org/how-to-authenticate-users-and-implement-cors-in-nodejs-applications.md) puts into practice many of the concepts we’ve discussed so far that relate to backend security, so give it a read.
 
-### CORS – Managing Cross-Origin Requests
+### CORS - Managing Cross-Origin Requests
 
 CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers to control how resources on a web page can be requested from another domain outside the domain from which the resource originated. This mechanism is crucial for preventing unauthorized access to sensitive data while allowing legitimate cross-origin requests.
 
@@ -271,7 +271,7 @@ CORS (Cross-Origin Resource Sharing) is a security feature implemented by web br
 
 Browsers enforce CORS policies through a set of HTTP headers that dictate whether a request from one origin (domain) should be permitted to access resources from another origin.
 
-When a web page makes a cross-origin request, the browser first sends a preflight request using the HTTP OPTIONS method to check if the actual request is allowed. The server responds with appropriate CORS headers, such as Access-Control-Allow-Origin, which specifies the permitted origins. If the server allows the request, the browser proceeds with the actual request – otherwise, it blocks the request.
+When a web page makes a cross-origin request, the browser first sends a preflight request using the HTTP OPTIONS method to check if the actual request is allowed. The server responds with appropriate CORS headers, such as Access-Control-Allow-Origin, which specifies the permitted origins. If the server allows the request, the browser proceeds with the actual request - otherwise, it blocks the request.
 
 ### Configuring CORS in Express.js Applications
 
@@ -307,7 +307,7 @@ In this example, the cors middleware is used to enable CORS for all routes in th
 
 Proper CORS configuration is essential to maintain the security of your web application. Allowing all origins or using overly permissive CORS settings can expose your application to security vulnerabilities, such as cross-site request forgery (CSRF) attacks. It's important to specify only the trusted origins and limit the allowed methods and headers to what is necessary for your application to function properly.
 
-### .env Files – Managing Sensitive Data
+### .env Files - Managing Sensitive Data
 
 Sensitive information such as database credentials and API keys should not be hardcoded in the codebase. Instead, they are stored in .env (environment) files.
 
@@ -326,7 +326,7 @@ This ensures security and flexibility when deploying applications.
 
 :::
 
-### HTTP Status Codes – Understanding Server Responses
+### HTTP Status Codes - Understanding Server Responses
 
 Every API request returns an HTTP status code that indicates whether the request was successful or encountered an issue. These status codes are crucial for understanding the outcome of an API call and for debugging any issues that may arise.
 
@@ -356,7 +356,7 @@ Implementing error handling in Express.js applications is essential for maintain
 
 In Express.js, you can use middleware to handle errors globally. A custom error-handling middleware can catch errors and send appropriate responses to the client. Also, built-in error-handling functions can manage specific errors, such as validation failures or database errors.
 
-### Testing – Ensuring Code Reliability
+### Testing - Ensuring Code Reliability
 
 Testing helps catch errors before they affect users. There are different types of tests. Unit tests check individual functions and components to ensure they work as expected. Integration tests verify that different parts of the application work together correctly. Popular testing tools include Jest and Mocha, which automate tests and improve code quality.
 
@@ -458,9 +458,9 @@ First of all, AI can automatically create unit, integration, and functional test
 
 You can embed AI directly into your applications to create more intelligent user experiences. There are many potential use cases, including:
 
-- Chatbots and virtual assistants – AI-powered chatbots (like ChatGPT API) can handle customer support and user queries.
-- Recommendation systems – Machine learning models can suggest relevant products, movies, or content based on user behavior.
-- Predictive analytics – AI can analyze historical data to forecast trends, optimize inventory, or improve decision-making.
+- Chatbots and virtual assistants - AI-powered chatbots (like ChatGPT API) can handle customer support and user queries.
+- Recommendation systems - Machine learning models can suggest relevant products, movies, or content based on user behavior.
+- Predictive analytics - AI can analyze historical data to forecast trends, optimize inventory, or improve decision-making.
 
 [**Here’s a course**](/freecodecamp.org/learn-to-code-without-being-a-coder.md) that’ll teach you the basics of using AI tools like ChatGPT in your development process.
 

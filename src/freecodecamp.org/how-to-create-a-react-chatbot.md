@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Create a React Chatbot – a Step by Step Guide
-description: Article(s) > How to Create a React Chatbot – a Step by Step Guide
+title: How to Create a React Chatbot - a Step by Step Guide
+description: Article(s) > How to Create a React Chatbot - a Step by Step Guide
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Create a React Chatbot – a Step by Step Guide
+      content: Article(s) > How to Create a React Chatbot - a Step by Step Guide
     - property: og:description
-      content: How to Create a React Chatbot – a Step by Step Guide
+      content: How to Create a React Chatbot - a Step by Step Guide
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-react-chatbot.html
 prev: /programming/js-react/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/rcb-logo-
 ---
 
 <SiteInfo
-  name="How to Create a React Chatbot – a Step by Step Guide"
+  name="How to Create a React Chatbot - a Step by Step Guide"
   desc="In the ever-evolving realm of web technologies, the integration of AI-powered chatbots has become a defining trend in 2024.  With rapid advancements in Large Language Models (LLMs), chatbots have grown to become pivotal tools adopted across many websites and services. From FAQ bots to live chat support, they can..."
   url="https://freecodecamp.org/news/how-to-create-a-react-chatbot/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

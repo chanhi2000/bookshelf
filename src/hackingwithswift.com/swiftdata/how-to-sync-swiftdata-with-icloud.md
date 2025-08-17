@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftData comes with built-in support for iCloud syncing using CloudKit. It's absurdly easy to use – literally zero code required in some situations – but it does *not* support the public or shared database.
+SwiftData comes with built-in support for iCloud syncing using CloudKit. It's absurdly easy to use - literally zero code required in some situations - but it does *not* support the public or shared database.
 
 ::: important
 
@@ -73,7 +73,7 @@ If you want to sync your app's data to iCloud, go to the Signing & Capabilities 
 
 ::: tip
 
-Although you can attempt to test iCloud support in the simulator, I've found it rarely works well – it's much better to test on a real device.
+Although you can attempt to test iCloud support in the simulator, I've found it rarely works well - it's much better to test on a real device.
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Principle of Least Privilege – Definition and Meaning in Cybersecurity"
-description: "Article(s) > Principle of Least Privilege – Definition and Meaning in Cybersecurity"
+title: "Principle of Least Privilege - Definition and Meaning in Cybersecurity"
+description: "Article(s) > Principle of Least Privilege - Definition and Meaning in Cybersecurity"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Principle of Least Privilege – Definition and Meaning in Cybersecurity"
+      content: "Article(s) > Principle of Least Privilege - Definition and Meaning in Cybersecurity"
     - property: og:description
-      content: "Principle of Least Privilege – Definition and Meaning in Cybersecurity"
+      content: "Principle of Least Privilege - Definition and Meaning in Cybersecurity"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/principle-of-lease-privilege-meaning-cybersecurity.html
 prev: /devops/security/articles/README.md
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/2022/11/cover.png
 ---
 
 <SiteInfo
-  name="Principle of Least Privilege – Definition and Meaning in Cybersecurity"
+  name="Principle of Least Privilege - Definition and Meaning in Cybersecurity"
   desc="Information technology has made a profound impact on our lives over the last three decades. It has helped us create global businesses, transform industries, and build powerful connections. But it has also led to increased risks in security and privac..."
   url="https://freecodecamp.org/news/principle-of-lease-privilege-meaning-cybersecurity"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -81,7 +81,7 @@ So how can an organization implement PoLP? Here are five ways to get started.
 
 Managing access for individual users is a challenge in itself. Adding security to it makes it even harder. This is where Role-based access can help accomplish both these objectives.
 
-Organizational members can be grouped into classes based on their job functions – for example, Developers, Sysadmins, and Human resource professionals. Every group can have their own set of permissions for organisational resources.
+Organizational members can be grouped into classes based on their job functions - for example, Developers, Sysadmins, and Human resource professionals. Every group can have their own set of permissions for organisational resources.
 
 This makes implementing access controls more scalable. Adding/removing users will be a matter of adding them to their respective groups. Role-based access also removes the need for revoking individual access to services during employee changeovers.
 
@@ -195,7 +195,7 @@ Loved this article? Join [<FontIcon icon="fas fa-globe"/>Stealth Security Weekly
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Principle of Least Privilege – Definition and Meaning in Cybersecurity",
+  "title": "Principle of Least Privilege - Definition and Meaning in Cybersecurity",
   "desc": "Information technology has made a profound impact on our lives over the last three decades. It has helped us create global businesses, transform industries, and build powerful connections. But it has also led to increased risks in security and privac...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/principle-of-lease-privilege-meaning-cybersecurity.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

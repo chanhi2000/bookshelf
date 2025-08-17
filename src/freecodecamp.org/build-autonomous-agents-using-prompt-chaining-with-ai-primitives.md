@@ -78,12 +78,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745248868960/12efd5a
 
 <SiteInfo
   name="How to Build Autonomous Agents using Prompt Chaining with AI Primitives (No Frameworks)"
-  desc="Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal – usually by using LLMs, various tools, and memory to reason through a task. You can build ..."
+  desc="Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal - usually by using LLMs, various tools, and memory to reason through a task. You can build ..."
   url="https://freecodecamp.org/news/build-autonomous-agents-using-prompt-chaining-with-ai-primitives"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745248868960/12efd5ab-3d9b-4c93-979f-45bde796639b.png"/>
 
-Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal – usually by using LLMs, various tools, and memory to reason through a task.
+Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal - usually by using LLMs, various tools, and memory to reason through a task.
 
 You can build powerful agentic systems without heavyweight frameworks or orchestration engines. One of the simplest and most effective ways to do that is to use [<FontIcon icon="iconfont icon-langbase"/>Langbase](http://langbase.com) agentic architectures (built with AI primitives that don't require a framework to ship scalable AI agentic systems).
 
@@ -95,9 +95,9 @@ Before we begin creating a prompt chaining agent, you’ll need to have the foll
 
 In this tutorial, I’ll be using the following tech stack:
 
-- [<FontIcon icon="iconfont icon-langbase"/>Langbase](http://langbase.com/) – the platform to build and deploy your serverless AI agents.
-- [<FontIcon icon="iconfont icon-langbase"/>Langbase SDK](https://langbase.com/docs/sdk) – a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
-- [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) – to get the LLM key for the preferred model.
+- [<FontIcon icon="iconfont icon-langbase"/>Langbase](http://langbase.com/) - the platform to build and deploy your serverless AI agents.
+- [<FontIcon icon="iconfont icon-langbase"/>Langbase SDK](https://langbase.com/docs/sdk) - a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
+- [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) - to get the LLM key for the preferred model.
 
 You’ll also need to:
 
@@ -110,7 +110,7 @@ You’ll also need to:
 
 ## AI Primitives (Agentic Architecture)
 
-An AI primitive level approach means building AI systems using the most basic building blocks – without relying on heavy abstractions, orchestration engines, or full-blown frameworks.
+An AI primitive level approach means building AI systems using the most basic building blocks - without relying on heavy abstractions, orchestration engines, or full-blown frameworks.
 
 Langbase [<FontIcon icon="iconfont icon-langbase"/>Pipe](https://langbase.com/docs/pipe/quickstart) and [<FontIcon icon="iconfont icon-langbase"/>Memory agents](https://langbase.com/docs/memory) serve as these building blocks.
 
@@ -144,7 +144,7 @@ Rather than relying on a single prompt to do everything, you split the work into
 ![Here’s a reference architecture explaining the workflow](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchmBDXvU8DXnQu7EjqKoSUTdxQ__KsTZemZ9yaTGpeCAMUc1RX_Swby9NOtxXwONFdKGPrjFcjVZhQmQoKe1eu2nceFWGLaPA8bpu-JYB7rh4ChJmExLRRWJzjB4686HjUsP_t?key=l4b_IFG3ufUXGX7WLcs4Dknq)
 <!-- TODO:mermaid로 생성 -->
 
-This diagram is a visual reference for how prompt chaining can be used to build a lightweight agentic system using just LLM calls and conditional logic – without any heavyweight frameworks.
+This diagram is a visual reference for how prompt chaining can be used to build a lightweight agentic system using just LLM calls and conditional logic - without any heavyweight frameworks.
 
 Here’s a breakdown of what’s happening in the flow:
 
@@ -178,7 +178,7 @@ The [<FontIcon icon="iconfont icon-langbase"/>Langbase SDK](https://langbase.com
 
 The [<FontIcon icon="iconfont icon-langbase"/>SDK](http://langbase.com) is designed to work with Node.js, Next.js, React, or any modern JavaScript stack. You can use it to upload documents, create semantic memory, and run AI workflows (called Pipes agents) with just a few lines of code.
 
-[<FontIcon icon="iconfont icon-langbase"/>Langbase](http://langbase.com) is an API-first AI platform, and its TypeScript SDK smooths out the experience – making it easy to get started without dealing with infrastructure. Just drop in your API key, write your logic, and you're good to go.
+[<FontIcon icon="iconfont icon-langbase"/>Langbase](http://langbase.com) is an API-first AI platform, and its TypeScript SDK smooths out the experience - making it easy to get started without dealing with infrastructure. Just drop in your API key, write your logic, and you're good to go.
 
 Now that you know about Langbase SDK, let’s start building the prompt chaining agent.
 
@@ -511,7 +511,7 @@ Connect with me by 🙌:
 ```component VPCard
 {
   "title": "How to Build Autonomous Agents using Prompt Chaining with AI Primitives (No Frameworks)",
-  "desc": "Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal – usually by using LLMs, various tools, and memory to reason through a task. You can build ...",
+  "desc": "Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal - usually by using LLMs, various tools, and memory to reason through a task. You can build ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-autonomous-agents-using-prompt-chaining-with-ai-primitives.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

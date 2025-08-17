@@ -54,7 +54,7 @@ head:
 
 **Updated for iOS 15**
 
-SwiftUI's `TextField` view has no styling by default, which means it's an empty space on the screen. If that fits the style you want, great – you're done. But many of us will prefer to add a border around the text field to make it clearer.
+SwiftUI's `TextField` view has no styling by default, which means it's an empty space on the screen. If that fits the style you want, great - you're done. But many of us will prefer to add a border around the text field to make it clearer.
 
 If you want to get the “rounded rect” text field style that we're used to with `UITextField`, you should use the `.textFieldStyle(.roundedBorder))` modifier, like this:
 

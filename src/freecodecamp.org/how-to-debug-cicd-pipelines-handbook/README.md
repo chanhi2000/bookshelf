@@ -134,7 +134,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748620971355/d4893ec
 
 Observability is a game-changer for CI/CD pipelines, and it’s one of the most exciting aspects of DevOps. When I started working with CI/CD systems, I assumed the hardest part would be building the pipeline. But with increasingly complex setups, the real challenge is debugging failures, like builds crashing or tests failing only in production.
 
-Observability tools, such as logs, metrics, and traces, provide the visibility you need to pinpoint issues quickly. In this handbook, we’ll explore free and open-source tools you can use to make your CI/CD pipelines more reliable. We’ll use practical steps to troubleshoot like a pro – no enterprise licenses required.
+Observability tools, such as logs, metrics, and traces, provide the visibility you need to pinpoint issues quickly. In this handbook, we’ll explore free and open-source tools you can use to make your CI/CD pipelines more reliable. We’ll use practical steps to troubleshoot like a pro - no enterprise licenses required.
 
 ---
 
@@ -192,7 +192,7 @@ There are some things you should know and have to get the most out of this handb
 
 ## Why Observability is Important
 
-Modern CI/CD pipelines are no longer linear scripts – they are now complex, distributed systems involving multiple tools, environments, and infrastructure layers. One job runs on GitHub Actions, another deploys via Jenkins, and a third builds Docker images in a Kubernetes cluster.
+Modern CI/CD pipelines are no longer linear scripts - they are now complex, distributed systems involving multiple tools, environments, and infrastructure layers. One job runs on GitHub Actions, another deploys via Jenkins, and a third builds Docker images in a Kubernetes cluster.
 
 So when something breaks, you’re left chasing logs across tools, guessing where the issue originated, and wasting hours trying to reproduce it.
 
@@ -400,11 +400,11 @@ This helps when querying with LogQL.
 
 This section explains three different ways to get your CI pipeline logs into Loki for monitoring and analysis:
 
-#### Option 1 – Local setup:
+#### Option 1 - Local setup:
 
 Your CI agents write log files to disk, and Promtail (running on the same machine) reads those files and sends them to Loki.
 
-#### Option 2 – Using Docker logging driver (Docker containers):
+#### Option 2 - Using Docker logging driver (Docker containers):
 
 If your CI agents run in Docker containers, you install a special Loki plugin that automatically captures all container output and sends it directly to Loki without needing separate log files.
 
@@ -424,7 +424,7 @@ docker run --log-driver=loki \
 my-ci-agent-image
 ```
 
-#### Option 3 – Remote setup:
+#### Option 3 - Remote setup:
 
 If you can't install Promtail locally, you can use a log forwarding tool like [<FontIcon icon="fas fa-globe"/>Fluent Bit](https://fluentbit.io/) or [<FontIcon icon="fas fa-globe"/>Vector](https://vector.dev/) to collect logs and push them to Loki over the network.
 
@@ -432,7 +432,7 @@ If you can't install Promtail locally, you can use a log forwarding tool like [<
 
 Regardless of which option you choose, you’ll end up with all your CI pipeline logs centralized in Loki, where you can search through them, create dashboards in Grafana, and set up alerts when things go wrong.
 
-It essentially gives you flexibility to integrate log collection based on your infrastructure setup – whether you prefer local agents, Docker plugins, or remote forwarding.
+It essentially gives you flexibility to integrate log collection based on your infrastructure setup - whether you prefer local agents, Docker plugins, or remote forwarding.
 
 :::
 
@@ -1338,7 +1338,7 @@ Issues like container crashes, logs not ingested, or resource constraints here m
 
 :::
 
-Flaky tests – that is, those that pass sometimes and fail at other times – are common in CI/CD pipelines, and they can be frustrating. Let’s discuss some strategies for how you can tackle them:
+Flaky tests - that is, those that pass sometimes and fail at other times - are common in CI/CD pipelines, and they can be frustrating. Let’s discuss some strategies for how you can tackle them:
 
 #### 1. Analyze Test Logs Over Time
 
@@ -2068,7 +2068,7 @@ Once logs are collected, you can automate the analysis process by defining commo
 
 Establish error signatures or patterns that are common in your CI/CD process, such as failed builds due to missing dependencies, permission issues, or network timeouts.
 
-You can use regex or regular expressions to capture these patterns. Here’s an example – define a regex for failed test patterns:
+You can use regex or regular expressions to capture these patterns. Here’s an example - define a regex for failed test patterns:
 
 ```sh
 TEST_FAILURE_REGEX=".*FAILURE.*"
@@ -2197,7 +2197,7 @@ For more complex self-healing, you can integrate tools like Ansible, Puppet, or 
 
 ## How to Conduct Effective Postmortems Using Logs
 
-Logs are often the single most valuable resource when reconstructing what went wrong in a CI/CD pipeline. Conducting effective postmortems with log data allows teams to extract clear timelines, pinpoint root causes, and define steps to prevent recurrence – all based on concrete evidence.
+Logs are often the single most valuable resource when reconstructing what went wrong in a CI/CD pipeline. Conducting effective postmortems with log data allows teams to extract clear timelines, pinpoint root causes, and define steps to prevent recurrence - all based on concrete evidence.
 
 ### Extract Timeline and Key Events from the Logs
 
@@ -2440,7 +2440,7 @@ Here’s how you can take your setup even further:
 #### Communities
 
 - [<FontIcon icon="fa-brands fa-reddit"/>`r/devops` on Reddit](https://reddit.com/r/devops/)
-- [<FontIcon icon="fa-brands fa-slack"/>CNCF Slack – #observability channel](https://slack.cncf.io/)
+- [<FontIcon icon="fa-brands fa-slack"/>CNCF Slack - #observability channel](https://slack.cncf.io/)
 - [<FontIcon icon="fa-brands fa-stack-overflow"/>Log Management Best Practices on Stack Overflow](https://stackoverflow.com/questions/tagged/logging)
 
 By investing in observability early and thoughtfully, you not only reduce the time to detect and resolve issues, you also build a more resilient, predictable, and transparent delivery process for your entire engineering team.

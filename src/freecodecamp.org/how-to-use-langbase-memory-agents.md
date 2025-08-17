@@ -84,7 +84,7 @@ Here’s the thing: LLMs might seem human-like, but they don’t have memory bui
 
 These agents combine vector storage, Retrieval-Augmented Generation (RAG), and internet access to create a powerful managed context search API. Developers can use them to build smarter, more capable AI applications.
 
-In a RAG setup, memory – when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe) – becomes a **memory agent**. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
+In a RAG setup, memory - when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe) - becomes a **memory agent**. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
 
 ::: note
 

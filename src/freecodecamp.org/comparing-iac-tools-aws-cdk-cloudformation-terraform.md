@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared"
-description: "Article(s) > How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared"
+title: "How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
+description: "Article(s) > How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
 icon: fa-brands fa-aws
 category: 
   - DevOps
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared"
+      content: "Article(s) > How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
     - property: og:description
-      content: "How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared"
+      content: "How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html
 prev: /devops/aws/articles/README.md
@@ -63,7 +63,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Level-Up-
 ---
 
 <SiteInfo
-  name="How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared"
+  name="How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
   desc="Infrastructure as Code (IaC) has become a cornerstone of modern cloud resource management. It enables developers and engineers to manage their cloud resources with the same level of control and precision as application code.  When you're working with AWS, among the tools at the forefront of utilizing IaC are..."
   url="https://freecodecamp.org/news/comparing-iac-tools-aws-cdk-cloudformation-terraform/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -95,7 +95,7 @@ Now let's learn a bit more about the three tools we'll be comparing in this over
 
 ### What Does AWS CloudFormation Do?
 
-AWS CloudFormation uses YAML or JSON to describe as well as automatically and securely provision infrastructure resources needed for your applications – across all regions and accounts in your AWS cloud environment.
+AWS CloudFormation uses YAML or JSON to describe as well as automatically and securely provision infrastructure resources needed for your applications - across all regions and accounts in your AWS cloud environment.
 
 ### What Does AWS Cloud Development Kit (CDK) Do?
 
@@ -582,7 +582,7 @@ If you want to learn more about me and my story of transitioning from a Pro Athl
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Choose the Right IaC Tool – AWS CDK, CloudFormation, and Terraform Compared",
+  "title": "How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared",
   "desc": "Infrastructure as Code (IaC) has become a cornerstone of modern cloud resource management. It enables developers and engineers to manage their cloud resources with the same level of control and precision as application code.  When you're working with...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

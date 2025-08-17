@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 2: Guess the Flag – Hacking with Swift ",
+  "title": "Review - Project 2: Guess the Flag - Hacking with Swift ",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-2-guess-the-flag",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -82,5 +82,5 @@ One of the best ways to learn is to write your own code as often as possible, so
 
 1. Try showing the player’s score in the navigation bar, alongside the flag to guess.
 2. Keep track of how many questions have been asked, and show one final alert controller after they have answered 10. This should show their final score.
-3. When someone chooses the wrong flag, tell them their mistake in your alert message – something like “Wrong! That’s the flag of France,” for example.
+3. When someone chooses the wrong flag, tell them their mistake in your alert message - something like “Wrong! That’s the flag of France,” for example.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Swift has always had strong focus on type safety, but sometimes you need to be able to work with data where the structure isn’t known ahead of time.
 
-To handle this situation, Swift has an attribute called `@dynamicMemberLookup`, which instructs Swift to call a subscript method when accessing properties. This subscript method, `subscript(dynamicMember:)`, is *required* when using the `@dynamicMemberLookup` attribute – you’ll get passed the string name of the property that was requested, and can return any value you like.
+To handle this situation, Swift has an attribute called `@dynamicMemberLookup`, which instructs Swift to call a subscript method when accessing properties. This subscript method, `subscript(dynamicMember:)`, is *required* when using the `@dynamicMemberLookup` attribute - you’ll get passed the string name of the property that was requested, and can return any value you like.
 
 To help you understand the basics, here’s an example that creates a `Person` struct that reads its values from a dictionary:
 
@@ -88,7 +88,7 @@ print(person.nameOfPet)
 
 That will compile cleanly and run, even though `name`, `city`, and `nameOfPet` do not exist as properties on the `Person` type. Instead, they are all looked up at runtime: that code will print “Taylor Swift” and “Nashville” for the first two calls to `print()`, then an empty string for the final one because our dictionary doesn’t store anything for `nameOfPet`.
 
-This `subscript(dynamicMember:)` method *must* return a string, which is what enforces Swift’s type safety – even though you’re still dealing with dynamic data, Swift will ensure you get back what you expected.
+This `subscript(dynamicMember:)` method *must* return a string, which is what enforces Swift’s type safety - even though you’re still dealing with dynamic data, Swift will ensure you get back what you expected.
 
 If you want multiple different types, just implement different `subscript(dynamicMember:)` methods:
 

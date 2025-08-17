@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift's string interpolation means you can convert all sorts of data – including integers – to a string in just one line of code:
+Swift's string interpolation means you can convert all sorts of data - including integers - to a string in just one line of code:
 
 ```swift
 let str1 = "\(myInt)"

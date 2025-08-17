@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared"
-description: "Article(s) > How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared"
+title: "How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
+description: "Article(s) > How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
 icon: fas fa-network-wired
 category:
   - DevOps
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared"
+      content: "Article(s) > How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
     - property: og:description
-      content: "How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared"
+      content: "How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-a-cloud-development-environment.html
 prev: /devops/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738612280310/a3e39db
 ---
 
 <SiteInfo
-  name="How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared"
+  name="How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
   desc="Cloud Development Environments (CDEs) have become essential tools in modern software development, offering enhanced productivity and streamlined workflows. This article compares three leading CDEs: Harness CDE, Gitpod, and Coder. My goal here is to o..."
   url="https://freecodecamp.org/news/how-to-choose-a-cloud-development-environment"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -81,9 +81,9 @@ CDEs can help you and your team solve some critical pain points:
 
 ### CDEs make setup easier
 
-When using a CDE, you don’t have the hassle of setting up local machines. Instead, you have a pre-configured development environment that’s ready to go in minutes. With a traditional setup, you have to install dependencies, configure environments, and resolve compatibility issues – and this can take hours or even days. CDEs make this process much easier.
+When using a CDE, you don’t have the hassle of setting up local machines. Instead, you have a pre-configured development environment that’s ready to go in minutes. With a traditional setup, you have to install dependencies, configure environments, and resolve compatibility issues - and this can take hours or even days. CDEs make this process much easier.
 
-Let’s say a new developer joins your project that requires a complex stack – it needs a specific Python version, multiple frameworks, and environment variables. Instead of spending hours configuring their local machine, they can just launch a cloud-based workspace (like one of the tools we’ll discuss here), which comes pre-loaded with everything they need.
+Let’s say a new developer joins your project that requires a complex stack - it needs a specific Python version, multiple frameworks, and environment variables. Instead of spending hours configuring their local machine, they can just launch a cloud-based workspace (like one of the tools we’ll discuss here), which comes pre-loaded with everything they need.
 
 ### CDEs help reduce costs
 
@@ -175,7 +175,7 @@ Now let’s compare some basic features to see how these three tools stack up ag
 
 ### Cost/Pricing
 
-- **Harness CDE**: Competitive pricing with integrated platform features. A lot of features are free to use. Pricing varies based on scale and needs – contact Harness for details.
+- **Harness CDE**: Competitive pricing with integrated platform features. A lot of features are free to use. Pricing varies based on scale and needs - contact Harness for details.
 - **Gitpod**: Varies with free and paid plans, limited customization based on SaaS offerings. The free plan includes 50 hours/month, while paid plans offer unlimited hours.
 - **Coder**: Costs depend on self-managed infrastructure, offering high customization and control over environment setup. The tool is free for open-source use, and paid for self-managed deployments.
 
@@ -305,7 +305,7 @@ Till the next one, happy coding!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Choose a Cloud Development Environment – Harness CDE, Gitpod, and Coder Compared",
+  "title": "How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared",
   "desc": "Cloud Development Environments (CDEs) have become essential tools in modern software development, offering enhanced productivity and streamlined workflows. This article compares three leading CDEs: Harness CDE, Gitpod, and Coder. My goal here is to o...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-a-cloud-development-environment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

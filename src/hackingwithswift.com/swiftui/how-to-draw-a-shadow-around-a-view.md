@@ -136,7 +136,7 @@ Text("Hacking with Swift")
 
 ::: tip
 
-If you find your shadow effect isn’t strong enough, add another `shadow()` modifier – you can stack them up to create more complex shadow effects.
+If you find your shadow effect isn’t strong enough, add another `shadow()` modifier - you can stack them up to create more complex shadow effects.
 
 :::
 

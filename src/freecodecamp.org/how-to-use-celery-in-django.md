@@ -58,7 +58,7 @@ You’ve probably noticed that some tasks in your Django app seem to take a long
 
 The good news? You don’t have to sit around waiting. You can hand those tasks off to something else and let your app keep doing its thing. That "something else" is Celery.
 
-Celery lets you run time-consuming tasks in the background while your app stays fast. And if you're using Django, it's actually not that hard to plug it in – once you understand how the pieces work together.
+Celery lets you run time-consuming tasks in the background while your app stays fast. And if you're using Django, it's actually not that hard to plug it in - once you understand how the pieces work together.
 
 In this guide, I’ll walk you through what Celery is, why it’s useful, and exactly how to set it up with Django step by step.
 
@@ -73,7 +73,7 @@ Imagine you’re running an online shop. Someone places an order. You want to:
 - Notify your warehouse
 - Maybe even start printing a shipping label
 
-If your app tries to do all this at once, your user is going to be stuck staring at a loading screen. Instead, what if you only saved the order right away – and passed the rest to Celery to handle in the background?
+If your app tries to do all this at once, your user is going to be stuck staring at a loading screen. Instead, what if you only saved the order right away - and passed the rest to Celery to handle in the background?
 
 That’s exactly what Celery does.
 
@@ -93,9 +93,9 @@ And yeah, it works really well with Django.
 
 Celery is made up of a few parts:
 
-1. **Task producer (your Django app)** – This is where you call a task.
-2. **Broker (usually Redis)** – This is the middleman. It takes the task and holds it until a worker can grab it.
-3. **Worker** – This is Celery’s background process that grabs tasks from the broker and runs them.
+1. **Task producer (your Django app)** - This is where you call a task.
+2. **Broker (usually Redis)** - This is the middleman. It takes the task and holds it until a worker can grab it.
+3. **Worker** - This is Celery’s background process that grabs tasks from the broker and runs them.
 
 Here’s the flow:
 
@@ -204,7 +204,7 @@ def place_order(request):
     return render(request, "order_complete.html")
 ```
 
-Notice the `.delay()` – this is what sends the task to Celery.
+Notice the `.delay()` - this is what sends the task to Celery.
 
 ### 7. Run the Celery worker
 
@@ -283,7 +283,7 @@ No. There’s also Django Q, Dramatiq, and Huey. But Celery is the most mature a
 
 ## Wrapping It Up
 
-Using Celery in Django doesn’t just speed things up – it also helps improve the experience for your users.
+Using Celery in Django doesn’t just speed things up - it also helps improve the experience for your users.
 
 Offloading heavy or slow tasks makes your app feel snappier and more reliable.
 

@@ -176,7 +176,7 @@ Make sure you don’t have any images that do this, use `overflow: hidden` to cu
 
 :::
 
-- **Double Margin Bug** – Another thing to remember when dealing with IE 6 is that if you apply a margin in the same direction as the float, it will [<FontIcon icon="fas fa-globe"/>double the margin](https://cssnewbie.com/double-margin-float-bug/). *Quick fix:* set `display: inline` on the float, and don’t worry it will remain a block-level element.
+- **Double Margin Bug** - Another thing to remember when dealing with IE 6 is that if you apply a margin in the same direction as the float, it will [<FontIcon icon="fas fa-globe"/>double the margin](https://cssnewbie.com/double-margin-float-bug/). *Quick fix:* set `display: inline` on the float, and don’t worry it will remain a block-level element.
 - The **3px Jog** is when text that is up next to a floated element is mysteriously kicked away by 3px like a weird forcefield around the float. 
 
 ::: note Quick fix

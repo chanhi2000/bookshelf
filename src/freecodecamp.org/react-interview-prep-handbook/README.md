@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The React Interview Prep Handbook – Essential Topics and Code Examples"
-description: "Article(s) > The React Interview Prep Handbook – Essential Topics and Code Examples"
+title: "The React Interview Prep Handbook - Essential Topics and Code Examples"
+description: "Article(s) > The React Interview Prep Handbook - Essential Topics and Code Examples"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The React Interview Prep Handbook – Essential Topics and Code Examples"
+      content: "Article(s) > The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:description
-      content: "The React Interview Prep Handbook – Essential Topics and Code Examples"
+      content: "The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook.html
 prev: /programming/js-react/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 ---
 
 <SiteInfo
-  name="The React Interview Prep Handbook – Essential Topics and Code Examples"
+  name="The React Interview Prep Handbook - Essential Topics and Code Examples"
   desc="Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ..."
   url="https://freecodecamp.org/news/react-interview-prep-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -69,7 +69,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "JavaScript Fundamentals",
-  "desc": "(1/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(1/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/javascript-fundamentals.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -79,7 +79,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "React Essentials",
-  "desc": "(2/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(2/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/react-essentials.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -89,7 +89,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "React Hooks",
-  "desc": "(3/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(3/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/react-hooks.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -99,7 +99,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "Additional Concepts",
-  "desc": "(4/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(4/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/additional-concepts.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -109,7 +109,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "React Redux",
-  "desc": "(5/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(5/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/react-redux.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -119,7 +119,7 @@ So, in this article, I am going to list some of the topics to help you prepare f
 ```component VPCard
 {
   "title": "Additional Notes",
-  "desc": "(6/6) The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "desc": "(6/6) The React Interview Prep Handbook - Essential Topics and Code Examples",
   "link": "/freecodecamp.org/react-interview-prep-handbook/additional-notes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -140,7 +140,7 @@ During the interviews, just stay calm and confidently demonstrate your knowledge
 
 ```component VPCard
 {
-  "title": "React Interview Questions – Interview Prep with Answers and Examples",
+  "title": "React Interview Questions - Interview Prep with Answers and Examples",
   "desc": "By Joel Olawanle React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.  According to the 2021 Stack Overflow developer survey, React has surpassed jQuery as the most popul...",
   "link": "/freecodecamp.org/react-interview-questions-and-answers.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -157,7 +157,7 @@ During the interviews, just stay calm and confidently demonstrate your knowledge
 
 ```component VPCard
 {
-  "title": "Free React Course – 8 Real-World Projects and 140+ Coding Challenges",
+  "title": "Free React Course - 8 Real-World Projects and 140+ Coding Challenges",
   "desc": "React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel...",
   "link": "/freecodecamp.org/free-react-course-2022.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -168,7 +168,7 @@ During the interviews, just stay calm and confidently demonstrate your knowledge
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "title": "The React Interview Prep Handbook - Essential Topics and Code Examples",
   "desc": "Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

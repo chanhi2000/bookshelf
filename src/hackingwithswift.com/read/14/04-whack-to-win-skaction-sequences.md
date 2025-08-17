@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -98,7 +98,7 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-Nothing complicated there – this is all stuff you know already.
+Nothing complicated there - this is all stuff you know already.
 
 What *is* new is what comes in place of those two comments. The first comment marks the code block that will be executed if the player taps a friendly penguin, which is obviously against the point of the game.
 
@@ -110,9 +110,9 @@ The code for this block is going to do something interesting that you haven't se
 let whackSlot = node.parent?.parent as? WhackSlot
 ```
 
-It gets the parent of the parent of the node, and typecasts it as a `WhackSlot`. This line is needed because the player has tapped the penguin sprite node, not the slot – we need to get the parent of the penguin, which is the crop node it sits inside, then get the parent of the crop node, which is the `WhackSlot` object, which is what this code does.
+It gets the parent of the parent of the node, and typecasts it as a `WhackSlot`. This line is needed because the player has tapped the penguin sprite node, not the slot - we need to get the parent of the penguin, which is the crop node it sits inside, then get the parent of the crop node, which is the `WhackSlot` object, which is what this code does.
 
-You're also going to meet a new piece of code: SKAction's `playSoundFileNamed()` method, which plays a sound and optionally waits for the sound to finish playing before continuing – useful if you're using an action sequence.
+You're also going to meet a new piece of code: SKAction's `playSoundFileNamed()` method, which plays a sound and optionally waits for the sound to finish playing before continuing - useful if you're using an action sequence.
 
 We haven't used sound files in iOS yet, but there isn't really a whole lot to say. The three main sound file formats you'll use are MP3, M4A and CAF, with the latter being a renamed AIFF file. AIFF is a pretty terrible file format when it comes to file size, but it's much faster to load and use than MP3s and M4As, so you'll use them often.
 
@@ -154,7 +154,7 @@ charNode.xScale = 1
 charNode.yScale = 1
 ```
 
-Now, looking at our `touchesBegan()` method in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`, you should see we can actually move the code around a little to remove duplication. Specifically, checking `isVisible` and `isHit` doesn’t need to be done twice, and neither does calling `whackSlot.hit()` – a better idea is to move those lines outside of their conditions, like this:
+Now, looking at our `touchesBegan()` method in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`, you should see we can actually move the code around a little to remove duplication. Specifically, checking `isVisible` and `isHit` doesn’t need to be done twice, and neither does calling `whackSlot.hit()` - a better idea is to move those lines outside of their conditions, like this:
 
 ```swift
 for node in tappedNodes {

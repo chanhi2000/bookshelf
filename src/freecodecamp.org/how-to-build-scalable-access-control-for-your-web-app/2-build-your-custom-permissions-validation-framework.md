@@ -185,7 +185,7 @@ export interface Policy {
 }
 ```
 
-You might be wondering why you need to use `Partial` here. By using `Partial`, we’re saying that each field on `Post`, `User`, or `Comment` is not required when performing certain actions. This is particularly useful when you validate create actions, where the object may not be fully formed yet – some fields might still be missing. For example, when creating a new `Post`, you might only have a title and content, but not the full list of comments or tags.
+You might be wondering why you need to use `Partial` here. By using `Partial`, we’re saying that each field on `Post`, `User`, or `Comment` is not required when performing certain actions. This is particularly useful when you validate create actions, where the object may not be fully formed yet - some fields might still be missing. For example, when creating a new `Post`, you might only have a title and content, but not the full list of comments or tags.
 
 Then, install `cel-js`, a CEL evaluator for JavaScript to be used in your validator.
 
@@ -207,7 +207,7 @@ npm i cel-js
 
 Create a `validatePermission` function to pull the action rules for the given resource from the provided `policies` object and build a context that includes the `user`, `resource`, and `system` information. Note that you may have to use `__typename` (or similar) for resource type detection, similar to what you did in CASL.
 
-Using the `cel-js` library, evaluate the `conditions` specified in the action rules, which will check if the user meets the required criteria for the action. If the conditions are satisfied, the policy "takes effect," meaning the specified action is enforced according to the defined effect – whether allowing or denying the action. If there are no rules defined or an error occurred during evaluation, deny by default.
+Using the `cel-js` library, evaluate the `conditions` specified in the action rules, which will check if the user meets the required criteria for the action. If the conditions are satisfied, the policy "takes effect," meaning the specified action is enforced according to the defined effect - whether allowing or denying the action. If there are no rules defined or an error occurred during evaluation, deny by default.
 
 ```ts :collapsed-lines title="validator.ts"
 import * as cel from 'cel-js';
@@ -345,7 +345,7 @@ export const usePermission = (action: Action, resource: Resource, system: System
 
 There is one thing that most **definitely** needs to be changed in the above code. Take a guess?
 
-**How is `usePermission` beneficial for contextual validations based on the app state?** Because the hook is subscribed to the application state! So, when something changes – like typing into a comment box – the hook re-renders. Since the Comment component relies on this hook to control the comment button’s state, any update in the hook also triggers a re-render of the component. This means that as you type, the button becomes visible, and if the content is cleared, the button gets disabled.
+**How is `usePermission` beneficial for contextual validations based on the app state?** Because the hook is subscribed to the application state! So, when something changes - like typing into a comment box - the hook re-renders. Since the Comment component relies on this hook to control the comment button’s state, any update in the hook also triggers a re-render of the component. This means that as you type, the button becomes visible, and if the content is cleared, the button gets disabled.
 
 But, we don’t want the `usePermission` hook to re-render *every* time the app state changes. Let’s fix that.
 

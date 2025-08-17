@@ -56,7 +56,7 @@ Recently, Matt Wilcox[<FontIcon icon="fas fa-globe"/>posted on Mastodon](https:/
 
 First off, if you’re not familiar with container queries and container query units, you can check out one of the many resources on the topic, for example this[<FontIcon icon="fas fa-globe"/>interactive guide](https://ishadeed.com/article/css-container-query-guide/)by Ahmad Shadeed, which I believe is the most recent out of all the detailed ones I’ve seen. As always, the date of the resources used is important for web stuff, especially since these units in particular have changed their name since[they were first proposed (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888)and we got an early draft of the spec.
 
-Now, the problem at hand: let’s say we have an`.inner-container`inside an`.outer-container`– they are both made to be containers:
+Now, the problem at hand: let’s say we have an`.inner-container`inside an`.outer-container`- they are both made to be containers:
 
 ```css
 [class*='container'] { container-type: size }

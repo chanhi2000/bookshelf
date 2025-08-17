@@ -81,7 +81,7 @@ But don’t worry I’ve got you covered. By the end of this article, you’ll k
 
 ---
 
-## Why Programming Feels Hard – Hint: It’s Not About Talent
+## Why Programming Feels Hard - Hint: It’s Not About Talent
 
 Let me pick up my story again. By 2018, I was becoming a confident developer. I could build basic websites, fetch data from a database using APIs, and display it on the screen. I thought I had programming figured out.
 
@@ -127,7 +127,7 @@ So, users interact with your software, whether they’re clicking buttons, filli
 
 ### What Are Data Structures?
 
-Think of data structures like special containers for your data. But not just any containers – they’re the kind that let you quickly grab, change, and organize your data in the most efficient way possible. Without them, managing user input would be like trying to store your clothes in a messy pile rather than a neat closet. Not fun, right?
+Think of data structures like special containers for your data. But not just any containers - they’re the kind that let you quickly grab, change, and organize your data in the most efficient way possible. Without them, managing user input would be like trying to store your clothes in a messy pile rather than a neat closet. Not fun, right?
 
 ### A Few Data Structures You Should Know
 
@@ -206,7 +206,7 @@ Okay, so you've got your data. Now what? Well, you need to process it—and that
 
 ### Why Learn Algorithms Before You Learn a Programming Language?
 
-Before you dive into learning a programming language, it helps to first learn **algorithms**. Here’s why: algorithms teach you how to think like a problem-solver. They help you break down challenges, think logically, and tackle them systematically. And when you know your algorithms, you’re not just memorizing syntax – you’re also learning **how to solve problems efficiently**. That makes programming a lot easier.
+Before you dive into learning a programming language, it helps to first learn **algorithms**. Here’s why: algorithms teach you how to think like a problem-solver. They help you break down challenges, think logically, and tackle them systematically. And when you know your algorithms, you’re not just memorizing syntax - you’re also learning **how to solve problems efficiently**. That makes programming a lot easier.
 
 ### Let’s Dive Into Some Cool Algorithms
 
@@ -326,7 +326,7 @@ Here’s a breakdown of some common choices:
 
 ### How to Choose the Right Language for You
 
-The best way to choose a language is to consider what excites you and where you want to focus your efforts. Don’t worry too much about finding the "easiest" language – just focus on one that aligns with your interests.
+The best way to choose a language is to consider what excites you and where you want to focus your efforts. Don’t worry too much about finding the "easiest" language - just focus on one that aligns with your interests.
 
 For example, if you're excited about building websites, JavaScript might be the best place to start. If you’re interested in mobile apps, Swift or Kotlin could be a better fit.
 
@@ -375,7 +375,7 @@ Even if you know the syntax of a language, you’ll still face challenges when w
 
 #### 1. Problem-Solving
 
-Problem-solving is at the core of programming. It’s not enough to know how to write code – you also need to know how to break down a problem and figure out the best way to solve it. A good programmer typically spends just as much time thinking about the problem as they do writing the solution.
+Problem-solving is at the core of programming. It’s not enough to know how to write code - you also need to know how to break down a problem and figure out the best way to solve it. A good programmer typically spends just as much time thinking about the problem as they do writing the solution.
 
 - **Breaking down the problem**: Start by understanding the problem. Ask questions like: What am I trying to achieve? What do I already know? What inputs do I have, and what do I expect as the output?
 - **Dividing it into smaller parts**: Once you have a clear understanding, divide the problem into smaller, manageable pieces. This helps you focus on solving one part at a time rather than feeling overwhelmed by the entire issue.

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ Alternatively you can disable gravity entirely by using a zero vector:
 physicsWorld.gravity = .zero
 ```
 
-These changes don’t need to be permanent – you could disable gravity when the player picks up an anti-grav belt, then re-enable it after 30 seconds.
+These changes don’t need to be permanent - you could disable gravity when the player picks up an anti-grav belt, then re-enable it after 30 seconds.
 
 -->
 

@@ -192,7 +192,7 @@ You’ll likely want to bring your own padding, border, background, typography, 
 
 ## The Top Layer
 
-Another amazing feature of both dialogs and popovers is that, when open, they are placed on what is called the “top layer”. It is literally impossible for any other element to be on top of them. It doesn’t matter where they are in the DOM (could be quite nested) or what containing blocks or `z-index` is involved, the top layer is the top no matter what. (Although – it is true that if you open *subsequent dialogs/popovers*, e.g. a button in a dialog opens another dialog, the second one will beat the first and be on top, as you’d expect.) This top-layer ability is yet another thing you get for free and a fantastic reason to use these native features.
+Another amazing feature of both dialogs and popovers is that, when open, they are placed on what is called the “top layer”. It is literally impossible for any other element to be on top of them. It doesn’t matter where they are in the DOM (could be quite nested) or what containing blocks or `z-index` is involved, the top layer is the top no matter what. (Although - it is true that if you open *subsequent dialogs/popovers*, e.g. a button in a dialog opens another dialog, the second one will beat the first and be on top, as you’d expect.) This top-layer ability is yet another thing you get for free and a fantastic reason to use these native features.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/CleanShot-2024-09-30-at-11.35.04%402x.png?resize=1024%2C255&ssl=1)
 

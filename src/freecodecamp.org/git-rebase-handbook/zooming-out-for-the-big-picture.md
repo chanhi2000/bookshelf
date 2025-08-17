@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Zooming Out for the Big Picture"
-description: "Article(s) > (8/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (8/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (8/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (8/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "Zooming Out for the Big Picture"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-zooming-out-for-the-big-picture"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -61,9 +61,9 @@ Git rebase changes the history.
 
 This means that you should **not** rebase commits that exist outside your local copy of the repository, and that other people may have based their commits on.
 
-In other words, if the only commits in question are those you created locally – go ahead, use rebase, go wild.
+In other words, if the only commits in question are those you created locally - go ahead, use rebase, go wild.
 
-But if the commits have been pushed, this can lead to a huge problem – as someone else may rely on these commits, that you later overwrite, and then you and they will have different versions of the repository.
+But if the commits have been pushed, this can lead to a huge problem - as someone else may rely on these commits, that you later overwrite, and then you and they will have different versions of the repository.
 
 This is unlike `merge` which, as we have seen, does not modify history.
 

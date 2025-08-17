@@ -70,9 +70,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752683137033/9aff86c
 
 In open source communities, we often discuss contribution guidelines, codes of conduct, and onboarding new contributors. But one thing we don’t talk about nearly enough? Governance.
 
-Governance sounds serious. But at its core, it simply means: **how do we make decisions, and who gets to make them?** It doesn’t matter if you're working on a project at the grassroots level with a few maintainers or a mature open-source ecosystem – the guiding procedures influence how people contribute, manage issues, and develop into leaders.
+Governance sounds serious. But at its core, it simply means: **how do we make decisions, and who gets to make them?** It doesn’t matter if you're working on a project at the grassroots level with a few maintainers or a mature open-source ecosystem - the guiding procedures influence how people contribute, manage issues, and develop into leaders.
 
-And, like with anything in open source – if it isn't documented, it may as well not exist.
+And, like with anything in open source - if it isn't documented, it may as well not exist.
 
 In this article, I'll explain why governance documentation is important, what to include, and how to document governing procedures that are useful, clear, and human.
 
@@ -89,7 +89,7 @@ When governing procedures aren’t documented:
 - Power dynamics become invisible
 - Conflict becomes harder to manage or resolve fairly
 
-Documenting governance promotes trust, transparency, and predictability. It does not imply confining contributors to rigid rules – rather, it offers your community a common understanding of how things work and how they may change.
+Documenting governance promotes trust, transparency, and predictability. It does not imply confining contributors to rigid rules - rather, it offers your community a common understanding of how things work and how they may change.
 
 ---
 
@@ -166,7 +166,7 @@ Some lessons I’ve learnt:
 
 - Start small. Even a bulleted list in a README is better than nothing.
 - Use your community’s questions as your guide. If people keep asking, “how do I become a maintainer?” write that down.
-- Let people review and comment. Co-create – don’t just impose.
+- Let people review and comment. Co-create - don’t just impose.
 
 If you’re not sure where to begin, look to open-source projects that have done this well. For example, **Kubernetes** has a well-structured governance model documented in its [community repository (<FontIcon icon="iconfont icon-github"/>`kubernetes/community`)](https://github.com/kubernetes/community/blob/master/governance.md), outlining everything from roles to decision-making processes.
 

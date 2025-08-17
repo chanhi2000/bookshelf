@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Believe it or not, iOS has a built-in particle system that works great in all UI
 
 The "type of particles" part is handled by `CAEmitterCell`, which covers details like how fast to create, how long they should live, whether they should spin and/or fade out, what texture to use, and more. You can add as many `CAEmitterCells` to a `CAEmitterLayer` as you need.
 
-Here's some example code to get you started. This creates particles of three different colors, all falling and spinning down from the top of the screen. The image "particle_confetti" is just a small white triangle that I drew by hand – you should replace that with something more interesting.
+Here's some example code to get you started. This creates particles of three different colors, all falling and spinning down from the top of the screen. The image "particle_confetti" is just a small white triangle that I drew by hand - you should replace that with something more interesting.
 
 ```swift
 func createParticles() {

@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -54,9 +54,9 @@ isOriginal: false
 
 <VidStack src="youtube/id" />
 
-This wasn’t a *complicated* project, although it did involve quite a bit of code because of the various ways fireworks are launched. However, it’s a good example of where particle systems can really bring a game to life – we only have two different types here, but they still do wonders as simple special effects. 
+This wasn’t a *complicated* project, although it did involve quite a bit of code because of the various ways fireworks are launched. However, it’s a good example of where particle systems can really bring a game to life - we only have two different types here, but they still do wonders as simple special effects. 
 
-Plus of course you have yet more Swift coding experience under your belt, now complete with `follow()`, `UIBezierPath`, `for case let`, color blending, and, yes, even the shake gesture – although I wouldn't be surprised if you switch to having a button on the screen to make explosions easier!
+Plus of course you have yet more Swift coding experience under your belt, now complete with `follow()`, `UIBezierPath`, `for case let`, color blending, and, yes, even the shake gesture - although I wouldn't be surprised if you switch to having a button on the screen to make explosions easier!
 
 ---
 
@@ -66,7 +66,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 20: Fireworks Night – Hacking with Swift",
+  "title": "Review - Project 20: Fireworks Night - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-20-fireworks-night",
   "logo": "https://hackingwithswift.com/favicon.svg",

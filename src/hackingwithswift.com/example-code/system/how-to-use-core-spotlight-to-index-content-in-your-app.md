@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -91,7 +91,7 @@ That wraps the title and description up inside a `CSSearchableItemAttributeSet`,
 
 Note that you should change `domainIdentifier` to your own domain, e.g. `com.yoursite`.
 
-Now that your item is indexed, it will be available in Spotlight searches immediately. If a user finds one of your index items and taps it, your app will get launched and you should be able to pull out the unique identifier of the item that was tapped – this tells you what item was tapped so that you can take appropriate action.
+Now that your item is indexed, it will be available in Spotlight searches immediately. If a user finds one of your index items and taps it, your app will get launched and you should be able to pull out the unique identifier of the item that was tapped - this tells you what item was tapped so that you can take appropriate action.
 
 Put this code inside your app delegate, along with an import for CoreSpotlight:
 

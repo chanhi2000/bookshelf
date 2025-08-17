@@ -56,7 +56,7 @@ head:
 
 SwiftUI allows us to show a selection of options to the user with using its `confirmationDialog()` modifier, but if you’re targeting iOS 14 or earlier you need to use `ActionSheet` instead. I’ll show you both here, but if you’re targeting iOS 15 or later, or if you want to support macOS, you should use `confirmationDialog()`.
 
-To create your action sheet using `confirmationDialog()`, provide some title text, a binding to determine when the sheet should be shown, and optionally also whether you want the title text to appear – if you don’t specify this, SwiftUI will decide for you based on context.
+To create your action sheet using `confirmationDialog()`, provide some title text, a binding to determine when the sheet should be shown, and optionally also whether you want the title text to appear - if you don’t specify this, SwiftUI will decide for you based on context.
 
 So, this shows a sheet asking the user to select a paint color from three options:
 

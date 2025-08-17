@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -62,5 +62,5 @@ If you'd like to take this app further, you should concentrate on testing. Can y
 
 There's also a bug in the code that you ought to be able to fix easily: if the user enters nothing into the filter text box, `applyUserFilter()` gets called with an empty string as its parameter and no results will be shown. It's down to you to think up a better solution: is it better to pretend Cancel was tapped instead? Or perhaps consider an empty string to mean "show all words"? It's your project now, so please choose what you think best.
 
-Keep in mind that testing is only part of a sensible code review process. Yes, Xcode Server can check out your code and automatically validate that tests pass, but it is not a substitute for actual human interaction – looking through each other's code, and providing constructive criticism. Taking the time to read someone else's code, then encouraging and supporting them as they improve it, is a key developer skill – remember, code review is where mistakes get rubbed *out*, not rubbed *in*.
+Keep in mind that testing is only part of a sensible code review process. Yes, Xcode Server can check out your code and automatically validate that tests pass, but it is not a substitute for actual human interaction - looking through each other's code, and providing constructive criticism. Taking the time to read someone else's code, then encouraging and supporting them as they improve it, is a key developer skill - remember, code review is where mistakes get rubbed *out*, not rubbed *in*.
 

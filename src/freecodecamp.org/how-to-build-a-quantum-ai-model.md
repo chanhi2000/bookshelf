@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
-description: Article(s) > How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
+title: How to Build a Quantum Artificial Intelligence Model - With Python Code Examples
+description: Article(s) > How to Build a Quantum Artificial Intelligence Model - With Python Code Examples
 icon: fa-brands fa-python
 category: 
   - Python
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
+      content: Article(s) > How to Build a Quantum Artificial Intelligence Model - With Python Code Examples
     - property: og:description`
-      content: How to Build a Quantum Artificial Intelligence Model – With Python Code Examples
+      content: How to Build a Quantum Artificial Intelligence Model - With Python Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.how-to-build-a-quantum-ai-model.html
 prev: /programming/py/articles/README.md
@@ -55,7 +55,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/article_c
 ---
 
 <SiteInfo
-  name="How to Build a Quantum Artificial Intelligence Model – With Python Code Examples"
+  name="How to Build a Quantum Artificial Intelligence Model - With Python Code Examples"
   desc="Machine learning (ML) is one of the most important subareas of AI used in building great AI systems. In ML, deep learning is a narrow area focused solely on neural networks. Through the field of deep learning, systems like ChatGPT and many other AI models can be created. In other..."
   url="https://freecodecamp.org/news/how-to-build-a-quantum-ai-model/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

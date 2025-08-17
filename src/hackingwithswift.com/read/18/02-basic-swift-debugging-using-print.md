@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 We're going to start with the absolute easiest debugging technique, which is the `print()` function. This prints a message into the Xcode debug console that can say anything you want, because users won't see it in the UI. The "scattershot" approach to bug fixing is to litter your code with calls to `print()` then follow the messages to see what's going on.
 
-You'll meet lots of people telling you how bad this is, but the truth is it's the debugging method everyone starts with – it's easy, it's natural, and it often gives you enough information to solve your problem. Use it with Swift's string interpolation to see the contents of your variables when your app is running.
+You'll meet lots of people telling you how bad this is, but the truth is it's the debugging method everyone starts with - it's easy, it's natural, and it often gives you enough information to solve your problem. Use it with Swift's string interpolation to see the contents of your variables when your app is running.
 
 We’ve used `print()` several times already, always in its most basic form:
 

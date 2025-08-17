@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools"
-description: "Article(s) > Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools"
+title: "Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
+description: "Article(s) > Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
 icon: fa-brands fa-golang
 category:
   - Go
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools"
+      content: "Article(s) > Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
     - property: og:description
-      content: "Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools"
+      content: "Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-the-language-server-protocol-easier-code-editing-across-languages.html
 prev: /programming/go/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736371728078/f1da2e6
 ---
 
 <SiteInfo
-  name="Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools"
+  name="Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
   desc="In the past, many code editors were built just for one specific language. To provide rich and smart code editing, tight integration between the editor and the language tooling was a must. On the other hand, there were (and still are) more general-pur..."
   url="https://freecodecamp.org/news/what-is-the-language-server-protocol-easier-code-editing-across-languages"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -246,7 +246,7 @@ LSP is a win for both language providers and tooling vendors.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Understanding the Language Server Protocol – Easier Code Editing Across Languages and Tools",
+  "title": "Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools",
   "desc": "In the past, many code editors were built just for one specific language. To provide rich and smart code editing, tight integration between the editor and the language tooling was a must. On the other hand, there were (and still are) more general-pur...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-the-language-server-protocol-easier-code-editing-across-languages.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

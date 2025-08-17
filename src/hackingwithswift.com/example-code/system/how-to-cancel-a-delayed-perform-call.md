@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -81,7 +81,7 @@ NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(you
 
 Being able to filter the cancellation by both selector and object means you can be very specific: "cancel the printing call for this filename."
 
-If you've made a number of delayed calls and want to cancel them all – very helpful if you're about to leave a view controller, for example, and want to abandon any queued work – you can use this method call instead:
+If you've made a number of delayed calls and want to cancel them all - very helpful if you're about to leave a view controller, for example, and want to abandon any queued work - you can use this method call instead:
 
 ```swift
 NSObject.cancelPreviousPerformRequests(withTarget: self)

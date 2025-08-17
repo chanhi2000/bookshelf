@@ -96,11 +96,11 @@ As we navigate the digital world in 2024, several key trends and threats are sha
 
 ## Understanding Cyber Risk
 
-In the context of cybersecurity, **risk** is the potential for loss or damage resulting from a cyberattack or security breach. My favorite way to explain is it to think of it like a boxer with a "glass jaw" – a known weakness that an opponent can exploit.
+In the context of cybersecurity, **risk** is the potential for loss or damage resulting from a cyberattack or security breach. My favorite way to explain is it to think of it like a boxer with a "glass jaw" - a known weakness that an opponent can exploit.
 
 To understand cyber risk better, let's break it down:
 
-- **Vulnerabilities:** These are weaknesses in systems or processes that can be exploited by attackers. In our boxing analogy, this is the boxer's "glass jaw" – a vulnerability that makes them susceptible to a knockout.
+- **Vulnerabilities:** These are weaknesses in systems or processes that can be exploited by attackers. In our boxing analogy, this is the boxer's "glass jaw" - a vulnerability that makes them susceptible to a knockout.
 - **Exploits:** The act of actually punching the person with the glass jaw is the exploit. It's the action taken to leverage the vulnerability and cause harm. Similarly, in cybersecurity, an exploit is a specific technique or code used to take advantage of a vulnerability.
 - **Threats:** The possibility of someone throwing a punch at the person with the glass jaw is a threat. It's a potential danger that could exploit the vulnerability. In the digital world, threats are malicious actors or events like viruses, hackers, or even natural disasters that can harm systems or data.
 - **Threat Actor**: The person throwing the punch is the threat actor. They are the specific entity with the intent and capability to exploit the vulnerability. In cybersecurity, threat actors can be individuals, groups, or even nation-states that seek to compromise systems or steal data.
@@ -158,13 +158,13 @@ Imagine trying to get into your favorite coffee shop, but the door is locked! Av
 
 ## People, Processes, and Technology
 
-Cybersecurity is not just about technology – it's also about people and processes. These three elements work together to create a strong security posture.
+Cybersecurity is not just about technology - it's also about people and processes. These three elements work together to create a strong security posture.
 
 ### People and Security
 
 We are both the strongest and weakest link in the cybersecurity chain. We can create strong passwords, be vigilant against phishing attacks, and follow security best practices. But we can also fall victim to social engineering, click on malicious links, or inadvertently introduce vulnerabilities into our systems.
 
-That's why security awareness training is so important – it helps us become more resilient and less likely to be tricked by attackers.
+That's why security awareness training is so important - it helps us become more resilient and less likely to be tricked by attackers.
 
 ### Implementing Secure Processes
 

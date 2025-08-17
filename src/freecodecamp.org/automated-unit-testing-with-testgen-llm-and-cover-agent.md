@@ -414,7 +414,7 @@ The potential for the TestGen-LLM and Cover-Agent is immense, and further develo
 <PDF url="https://arxiv.org/pdf/2402.09171" />
 
 <SiteInfo
-  name="We created the first open-source implementation of Meta’s TestGen–LLM | CodiumAI"
+  name="We created the first open-source implementation of Meta’s TestGen-LLM | CodiumAI"
   desc="Most LLMs that are competent at generating code, such as ChatGPT, Gemini, and Code Llama, are capable of generating tests."
   url="https://codium.ai/blog/we-created-the-first-open-source-implementation-of-metas-testgen-llm/"
   logo="https://codium.ai/wp-content/uploads/2023/03/cropped-codium-fav-150x150.png"

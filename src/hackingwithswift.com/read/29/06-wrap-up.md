@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -54,7 +54,7 @@ isOriginal: false
 
 <VidStack src="youtube/CHBgsiN7Sfs" />
 
-This was a huge project, and gave you lots to learn about mixing UIKit and SpriteKit, texture atlases, scene transitions, and of course destructible terrain – while also giving you another real-world project under your belt.
+This was a huge project, and gave you lots to learn about mixing UIKit and SpriteKit, texture atlases, scene transitions, and of course destructible terrain - while also giving you another real-world project under your belt.
 
 This project should also have shown you how you can bring skills together to make something bigger and better: Core Graphics and physics combined to make destructible terrain, and really it wasn’t that hard!
 
@@ -66,7 +66,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 29: Exploding Monkeys – Hacking with Swift",
+  "title": "Review - Project 29: Exploding Monkeys - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-29-exploding-monkeys",
   "logo": "https://hackingwithswift.com/favicon.svg",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Git Rebase Handbook – A Definitive Guide to Rebasing"
-description: "Article(s) > The Git Rebase Handbook – A Definitive Guide to Rebasing"
+title: "The Git Rebase Handbook - A Definitive Guide to Rebasing"
+description: "Article(s) > The Git Rebase Handbook - A Definitive Guide to Rebasing"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
-      content: "The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook/
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,7 +67,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "What is Git Merge?",
-  "desc": "(1/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(1/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/what-is-git-merge.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -77,7 +77,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "cherry-pick as a Basis for Rebase",
-  "desc": "(2/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(2/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/cherry-pick-as-a-basis-for-rebase.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -87,7 +87,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "Time to Get Hands-On with Rebase",
-  "desc": "(3/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(3/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/time-to-get-hands-on-with-rebase.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -97,7 +97,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "Advanced Rebasing in Git",
-  "desc": "(4/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(4/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/advanced-rebasing-in-git.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -107,7 +107,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "How to rebase on a single branch",
-  "desc": "(5/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(5/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/how-to-rebase-on-a-single-branch.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -117,7 +117,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "More Rebase Use Cases + More Practice",
-  "desc": "(6/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(6/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/more-rebase-use-cases-more-practice.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -127,7 +127,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "A Note About Conflicts",
-  "desc": "(7/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(7/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/a-note-about-conflicts.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -137,7 +137,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 ```component VPCard
 {
   "title": "Zooming Out for the Big Picture",
-  "desc": "(8/8) The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "desc": "(8/8) The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "link": "/freecodecamp.org/git-rebase-handbook/zooming-out-for-the-big-picture.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -150,7 +150,7 @@ In previous posts, you understood [**what Git diffs are**](/freecodecamp.org/git
 
 In this tutorial, you learned about `git rebase`, a super-powerful tool to rewrite history in Git. You considered a few use cases where `git rebase` can be helpful, and how to use it with one, two, or three parameters, with and without the `--onto` switch.
 
-I hope I was able to convince you that `git rebase` is powerful – but also that it is quite simple once you get the gist. It is a tool to "copy-paste" commits (or, more accurately, patches). And it's a useful tool to have under your belt.
+I hope I was able to convince you that `git rebase` is powerful - but also that it is quite simple once you get the gist. It is a tool to "copy-paste" commits (or, more accurately, patches). And it's a useful tool to have under your belt.
 
 ::: info Omer Rosenbaum
 
@@ -228,7 +228,7 @@ I hope I was able to convince you that `git rebase` is powerful – but also tha
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

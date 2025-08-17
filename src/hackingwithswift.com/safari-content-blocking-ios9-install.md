@@ -54,7 +54,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "How to install an ad blocker in Safari for iOS – Hacking with Swift",
+  "title": "How to install an ad blocker in Safari for iOS - Hacking with Swift",
   "desc": "How to install an ad blocker in Safari for iOS",
   "link": "https://hackingwithswift.com/safari-content-blocking-ios9-install",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -104,7 +104,7 @@ Go to Settings and enable the content blocker
 
 You will see a list of all the content blockers installed on your device.
 
-![Flick the switch next to the ones you want – yes, "ones": it's plural because you can enable as many as you want.](https://hackingwithswift.com/img/articles/content_block6.png)
+![Flick the switch next to the ones you want - yes, "ones": it's plural because you can enable as many as you want.](https://hackingwithswift.com/img/articles/content_block6.png)
 
 @tab Step 3
 
@@ -130,7 +130,7 @@ Apple made it **super easy** to make your own content blocker, so why not give i
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -140,7 +140,7 @@ Apple made it **super easy** to make your own content blocker, so why not give i
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "/hackingwithswift.com/swift2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Generics"
-description: "Article(s) > C# Intermediate – Generics"
+title: "C# Intermediate - Generics"
+description: "Article(s) > C# Intermediate - Generics"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Generics"
+      content: "Article(s) > C# Intermediate - Generics"
     - property: og:description
-      content: "C# Intermediate – Generics"
+      content: "C# Intermediate - Generics"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-generics.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: https://code-maze.com/wp-content/uploads/2018/10/10-Generics.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Generics"
+  name="C# Intermediate - Generics"
   desc="In this article you will learn more about Generics in C#. We will talk about Generic Types, whata are the constraints and generic methods."
   url="https://code-maze.com/csharp-generics/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -215,7 +215,7 @@ In the next article, we are going to talk about [**Queue, Stack, and Hashtable i
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Generics",
+  "title": "C# Intermediate - Generics",
   "desc": "In this article you will learn more about Generics in C#. We will talk about Generic Types, whata are the constraints and generic methods.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-generics.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

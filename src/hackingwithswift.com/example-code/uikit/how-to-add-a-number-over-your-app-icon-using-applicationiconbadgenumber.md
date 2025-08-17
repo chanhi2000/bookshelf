@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ UNUserNotificationCenter.current().requestAuthorization(options: .badge) { (gran
 }
 ```
 
-Once you have that permission – anywhere inside the `// success!` comment or at some point afterwards – you can place an integer badge of your app icon with one line of code:
+Once you have that permission - anywhere inside the `// success!` comment or at some point afterwards - you can place an integer badge of your app icon with one line of code:
 
 ```swift
 UIApplication.shared.applicationIconBadgeNumber = 1

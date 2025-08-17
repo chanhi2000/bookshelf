@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Architecture of Mathematics – And How Developers Can Use it in Code"
-description: "Article(s) > The Architecture of Mathematics – And How Developers Can Use it in Code"
+title: "The Architecture of Mathematics - And How Developers Can Use it in Code"
+description: "Article(s) > The Architecture of Mathematics - And How Developers Can Use it in Code"
 icon: iconfont icon-numpy
 category:
   - Python
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Architecture of Mathematics – And How Developers Can Use it in Code"
+      content: "Article(s) > The Architecture of Mathematics - And How Developers Can Use it in Code"
     - property: og:description
-      content: "The Architecture of Mathematics – And How Developers Can Use it in Code"
+      content: "The Architecture of Mathematics - And How Developers Can Use it in Code"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html
 prev: /programming/py-numpy/articles/README.md
@@ -63,7 +63,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748012748947/1df613b
 ---
 
 <SiteInfo
-  name="The Architecture of Mathematics – And How Developers Can Use it in Code"
+  name="The Architecture of Mathematics - And How Developers Can Use it in Code"
   desc="”To understand is to perceive patterns.” - Isaiah Berlin Math is not just numbers. It is the science of finding complex patterns that shape our world. This means that to truly understand it, we need to see beyond numbers, formulas, and theorems and ..."
   url="https://freecodecamp.org/news/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -157,13 +157,13 @@ Albert Einstein created the general and special theories of relativity. These ha
 But this was only possible through the unification of geometry with calculus, called **differential geometry.** The evolution of differential geometry happened over the centuries, thanks to many great mathematicians. Below are some of them, but this is not a complete list:
 
 - **Euclid (circa 300 BCE):** Contributed to geometry, laying the groundwork for later mathematical systems
-- **Archimedes (circa 287–212 BCE):** Pioneered the understanding of volume, surface area, and the principles of mechanics
-- **René Descartes (1596–1650):** Developed Cartesian coordinates and analytical geometry
-- **Isaac Newton (1642–1727) & Gottfried Wilhelm Leibniz (1646–1716):** Newton’s laws of motion and gravitation, alongside Leibniz’s development of calculus, formed the basis of classical mechanics that Einstein sought to extend and modify in his theory of relativity.
-- **Leonhard Euler (1707–1783):** Contributed to the development of differential equations, which are essential in the mathematical foundations of physics.
-- **Gaspard Monge (1746–1818):** The father of differential geometry and pioneer in descriptive geometry
-- **Carl Friedrich Gauss (1777–1855):** Made groundbreaking advances in geometry, including the concept of curved surfaces.
-- **Bernhard Riemann (1826–1866):** Introduced Riemannian geometry, a branch of differential geometry.
+- **Archimedes (circa 287-212 BCE):** Pioneered the understanding of volume, surface area, and the principles of mechanics
+- **René Descartes (1596-1650):** Developed Cartesian coordinates and analytical geometry
+- **Isaac Newton (1642-1727) & Gottfried Wilhelm Leibniz (1646-1716):** Newton’s laws of motion and gravitation, alongside Leibniz’s development of calculus, formed the basis of classical mechanics that Einstein sought to extend and modify in his theory of relativity.
+- **Leonhard Euler (1707-1783):** Contributed to the development of differential equations, which are essential in the mathematical foundations of physics.
+- **Gaspard Monge (1746-1818):** The father of differential geometry and pioneer in descriptive geometry
+- **Carl Friedrich Gauss (1777-1855):** Made groundbreaking advances in geometry, including the concept of curved surfaces.
+- **Bernhard Riemann (1826-1866):** Introduced Riemannian geometry, a branch of differential geometry.
 
 Once again, as Isaac Newton wrote, in a letter to Robert Hooke in 1675:
 
@@ -179,7 +179,7 @@ Albert Einstein saw what no one else in his time saw, thanks to these great math
 
 The biggest paradox in math, in my opinion, is what Kurt Gödel discovered. His early 20th century research revealed a limitation within this cycle.
 
-This paradox – that is, [<FontIcon icon="fa-brands fa-wikipedia-w"/>his incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) – shows that in any consistent formal system capable of expressing simple arithmetic, there will always be true mathematical statements that cannot be proven within the system itself.
+This paradox - that is, [<FontIcon icon="fa-brands fa-wikipedia-w"/>his incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - shows that in any consistent formal system capable of expressing simple arithmetic, there will always be true mathematical statements that cannot be proven within the system itself.
 
 This means that in ALL systems, there are limits to what you can actually prove as to what is true and false. For for mathematicians, this means that the tree will never be completed. There are truths that are beyond formal truths, and yet we still assume that they are true (albeit unproven).
 
@@ -213,7 +213,7 @@ So, we’ve explored the structure and evolution of mathematics. Yet, it is impo
 
 ---
 
-## Code Examples – Analytical and Numerical Approaches
+## Code Examples - Analytical and Numerical Approaches
 
 These code examples demonstrate a couple ways you can use Python to solve math equations.
 
@@ -357,7 +357,7 @@ Find the full code [here (<FontIcon icon="iconfont icon-github"/>`tiagomonteiro0
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Architecture of Mathematics – And How Developers Can Use it in Code",
+  "title": "The Architecture of Mathematics - And How Developers Can Use it in Code",
   "desc": "”To understand is to perceive patterns.” - Isaiah Berlin Math is not just numbers. It is the science of finding complex patterns that shape our world. This means that to truly understand it, we need to see beyond numbers, formulas, and theorems and ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

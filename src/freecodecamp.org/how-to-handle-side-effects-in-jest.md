@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Handle Side Effects in Jest – A Guide to Effective Mocking
-description: Article(s) > How to Handle Side Effects in Jest – A Guide to Effective Mocking
+title: How to Handle Side Effects in Jest - A Guide to Effective Mocking
+description: Article(s) > How to Handle Side Effects in Jest - A Guide to Effective Mocking
 icon: fa-brands fa-node
 category: 
   - Node.js
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Handle Side Effects in Jest – A Guide to Effective Mocking
+      content: Article(s) > How to Handle Side Effects in Jest - A Guide to Effective Mocking
     - property: og:description
-      content: How to Handle Side Effects in Jest – A Guide to Effective Mocking
+      content: How to Handle Side Effects in Jest - A Guide to Effective Mocking
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-side-effects-in-jest.html
 prev: /programming/js-node/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726038899380/6210fc6
 ---
 
 <SiteInfo
-  name="How to Handle Side Effects in Jest – A Guide to Effective Mocking"
+  name="How to Handle Side Effects in Jest - A Guide to Effective Mocking"
   desc="Unit testing is a major topic for every developer. It is a fundamental practice in building software applications. Unit testing helps you to identify bugs early and makes code maintenance easier. By isolating and testing single units or components of..."
   url="https://freecodecamp.org/news/how-to-handle-side-effects-in-jest/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

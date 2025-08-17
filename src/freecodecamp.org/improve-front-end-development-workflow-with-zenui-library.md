@@ -209,7 +209,7 @@ Each component is showcased with a live preview, making it easier to find exactl
 
 Every component listed in the ZenUI Library has an associated code section.
 
-**You don’t need to install any dependencies** – simply **copy the JSX Code** for the selected component.
+**You don’t need to install any dependencies** - simply **copy the JSX Code** for the selected component.
 
 ### 4. Integrate the Code into Your Project
 
@@ -509,7 +509,7 @@ Also, you can generate a color palette by giving the color code. If you have a c
 
 After pasting your color code, just click on the “Generate” button and the color palette will be automatically generated.
 
-After generating the color palette, you can copy the color code from the generated palette for any part – just click on the palette part. For this, you need to copy the color code. You will see a modal come up with your color code variant like “HEX”, “RGB”, or “HSL” like in the below image:
+After generating the color palette, you can copy the color code from the generated palette for any part - just click on the palette part. For this, you need to copy the color code. You will see a modal come up with your color code variant like “HEX”, “RGB”, or “HSL” like in the below image:
 
 ![copy-color-code](https://cdn.hashnode.com/res/hashnode/image/upload/v1727274619884/871ad483-a3f8-4d8e-9b9e-76ac7cbd0ee5.png)
 

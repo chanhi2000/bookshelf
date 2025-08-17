@@ -118,7 +118,7 @@ Keycloak comes with a RESTful API for scripted and programmatic interactions. Th
 
 Because Keycloak is open source, there'll be no license fees to worry about. But open source gives you a lot more than just "cheap".
 
-Keycloak cuts out vendor lock-in, allowing you to work with any platform or cloud provider – or move between them whenever necessary. It can also reduce overall operational costs through its simplified deployments (how much time did it take you to get that Docker image up and running?), automated updates, and no limits or cost penalties for even millions of monthly API calls or active users.
+Keycloak cuts out vendor lock-in, allowing you to work with any platform or cloud provider - or move between them whenever necessary. It can also reduce overall operational costs through its simplified deployments (how much time did it take you to get that Docker image up and running?), automated updates, and no limits or cost penalties for even millions of monthly API calls or active users.
 
 Having out-of-the-box (and free) access to the full feature set (including RBAC and MFA) also simplifies planning and execution. There's nothing "more" efficient than having to wait a week to access paywalled functionality until you get a response to your request for more project funding. All Keycloak features are just a click away.
 
@@ -136,7 +136,7 @@ And while the documentation is generally excellent, it may not fully address spe
 
 It's possible that, because you're not working with a commercial product, demonstrating regulatory compliance could be a bit more involved. You may also need to adapt your logging functionality to comply with various audit trail requirements.
 
-Finally, customizable environments risk introducing destabilizing complexity. The further off the beaten trail your plugins and API implementations wander, the greater the odds that something will eventually break – especially around version upgrades.
+Finally, customizable environments risk introducing destabilizing complexity. The further off the beaten trail your plugins and API implementations wander, the greater the odds that something will eventually break - especially around version upgrades.
 
 ---
 

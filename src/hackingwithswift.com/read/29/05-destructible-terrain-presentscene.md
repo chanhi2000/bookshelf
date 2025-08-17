@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -121,7 +121,7 @@ We haven’t written those functions yet, so Xcode will complain.
 
 :::
 
-If a banana hits a player, it means they have lost the game: we need to create an explosion (yay, particles!), remove the destroyed player and the banana from the scene, then… what? Well, so far we've just left it there – we haven't looked at how to make games restart.
+If a banana hits a player, it means they have lost the game: we need to create an explosion (yay, particles!), remove the destroyed player and the banana from the scene, then… what? Well, so far we've just left it there - we haven't looked at how to make games restart.
 
 There are a number of things you could do: take players to a results screen, take them to a menu screen, and so on. In our case, we're going to reload the level so they can carry on playing. We could just delete all the buildings and generate it all from scratch, but that would be passing up a great opportunity to learn something new!
 
@@ -214,7 +214,7 @@ We haven’t written `hit(at:)` yet, so don’t worry about Xcode’s error mess
 
 The only new thing in there is the call to `convert()`, which asks the game scene to convert the collision contact point into the coordinates relative to the building node. That is, if the building node was at X:200 and the collision was at X:250, this would return X:50, because it was 50 points into the building node.
 
-If you're curious why I use `banana.name = ""`, it's to fix a small but annoying bug: if a banana just so happens to hit two buildings at the same time, then it will explode twice and thus call `changePlayer()` twice – effectively giving the player another throw. By clearing the banana's name here, the second collision won't happen because our `didBegin()` method won't see the banana as being a banana any more – its name is gone.
+If you're curious why I use `banana.name = ""`, it's to fix a small but annoying bug: if a banana just so happens to hit two buildings at the same time, then it will explode twice and thus call `changePlayer()` twice - effectively giving the player another throw. By clearing the banana's name here, the second collision won't happen because our `didBegin()` method won't see the banana as being a banana any more - its name is gone.
 
 And now for the part where we handle destroying chunks of the building. With your current knowledge of Core Graphics, this is something you can do with only one new thing: blend modes. When you draw anything to a Core Graphics context, you can set how it should be drawn. For example, should it be be drawn normally, or should it add to what's there to create a combination?
 
@@ -232,7 +232,7 @@ Here's a full break down of what the method needs to do:
 6. Convert the contents of the Core Graphics context back to a `UIImage`, which is saved in the `currentImage` property for next time we’re hit, and used to update our building texture.
 7. Call `configurePhysics()` again so that SpriteKit will recalculate the per-pixel physics for our damaged building.
 
-Here's that in code – put this method into the `BuildingNode` class:
+Here's that in code - put this method into the `BuildingNode` class:
 
 ```swift
 func hit(at point: CGPoint) {

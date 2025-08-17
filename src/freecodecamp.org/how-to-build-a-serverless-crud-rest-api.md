@@ -160,7 +160,7 @@ Alright, now that you're familiar with the tools and technologies we'll use here
 
 Meet Alyx, an entrepreneur who has recently been learning about serverless architecture. She's read about how it's a powerful and efficient way to build backends for web applications, offering a more modern approach to web application development.
 
-She wants to apply what she's learned so far about of the fundamentals of AWS serverless  computing. She knows that serverless doesn’t mean there are no servers involved – rather, it just abstracts away the management and provisioning of servers. And now she wants to focus solely on writing code and implementing business logic.
+She wants to apply what she's learned so far about of the fundamentals of AWS serverless  computing. She knows that serverless doesn’t mean there are no servers involved - rather, it just abstracts away the management and provisioning of servers. And now she wants to focus solely on writing code and implementing business logic.
 
 Let’s check out how Alyx, the owner of a thriving coffee shop, begins to leverage serverless architecture for the backend of her web application.
 
@@ -708,7 +708,7 @@ Again, you can verify that the order has been deleted in the DynamoDB table.
 
 ## Conclusion
 
-That’s it – congratulations! You’ve successfully completed all the steps. We’ve built a serverless REST API that supports CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) functionality with API Gateway, Lambda, DynamoDB, Serverless Framework and Node.js, automating deployment of approved code changes with Github Actions.
+That’s it - congratulations! You’ve successfully completed all the steps. We’ve built a serverless REST API that supports CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) functionality with API Gateway, Lambda, DynamoDB, Serverless Framework and Node.js, automating deployment of approved code changes with Github Actions.
 
 If you’ve gotten this far, **thanks for reading!** I hope it was worthwhile to you.
 

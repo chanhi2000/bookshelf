@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 Swift comes with built-in support for random number generation across a variety of types: `Int.random(in:)`, `Float.random(in:)`, `Double.random(in:)`, `CGFloat.random(in:)`, and even `Bool.random()` for flipping randomly between true or false.
 
-These are all designed to be highly random – i.e., it’s hard to predict what future values will be generated – but they aren’t cryptographically secure. That means they are fine for everything except working with secure data such as password hashing.
+These are all designed to be highly random - i.e., it’s hard to predict what future values will be generated - but they aren’t cryptographically secure. That means they are fine for everything except working with secure data such as password hashing.
 
 All the random methods that take an `in` parameter accept a range to work with. For example:
 
@@ -66,13 +66,13 @@ let float1 = Float.random(in: -100...100)
 
 Swift’s random number generators are automatically seeded, which means they are given an initial value to make them unique each time they are run.
 
-As for `Bool.random()`, it literally just returns true or false randomly – it’s effectively simulating a coin flip, but it does come in useful from time to time.
+As for `Bool.random()`, it literally just returns true or false randomly - it’s effectively simulating a coin flip, but it does come in useful from time to time.
 
-There are other ways to generate random numbers with Swift, and it’s quite common to see them around because the methods discussed above were introduced only in Swift 4.2 – four years after Swift was launched. So, many codebases use older methods that aren’t as good or as nice as the newer alternatives, but if you’re curious I’ll cover them below.
+There are other ways to generate random numbers with Swift, and it’s quite common to see them around because the methods discussed above were introduced only in Swift 4.2 - four years after Swift was launched. So, many codebases use older methods that aren’t as good or as nice as the newer alternatives, but if you’re curious I’ll cover them below.
 
 ::: note
 
-The below really is just here for historical purposes – you’re likely to find them in the wild a *lot* because there’s so much Swift out there, but if you’re just interested in learning modern Swift you can skip this part.
+The below really is just here for historical purposes - you’re likely to find them in the wild a *lot* because there’s so much Swift out there, but if you’re just interested in learning modern Swift you can skip this part.
 
 :::
 
@@ -107,11 +107,11 @@ So, here’s a smarter way of generating random numbers in a range:
 print(arc4random_uniform(6))
 ```
 
-Yes, the ARC4 family of functions comes with a built-in way of generating random numbers in a range. No, it's not new. No, I don't know why it's not used by everyone – the world's a funny place, huh?
+Yes, the ARC4 family of functions comes with a built-in way of generating random numbers in a range. No, it's not new. No, I don't know why it's not used by everyone - the world's a funny place, huh?
 
 Anyway, using `arc4random_uniform()` we can generate a range of numbers that don't have a modulo bias, don't require seeding, and are suitably random for all but cryptographic purposes.
 
-But it's not perfect, because its range is 0 up to the maximum you specify – what if you want a number between 10 and 20, or 100 and 500? Then you need to write something thoroughly ugly indeed:
+But it's not perfect, because its range is 0 up to the maximum you specify - what if you want a number between 10 and 20, or 100 and 500? Then you need to write something thoroughly ugly indeed:
 
 ```swift
 func RandomInt(min: Int, max: Int) -> Int {
@@ -122,7 +122,7 @@ func RandomInt(min: Int, max: Int) -> Int {
 
 That figures out the difference between the high and low ends of your range, uses that to calculate a random number, then re-adds the low end to get the full range. Because `arc4random_uniform()` works only with non-negative integers (`UInt32`) it has to do some typecasting to make the process seamless, and all those extra parentheses probably give you a headache.
 
-Does it work? Yes, absolutely. Could you remember it if you closed this window now? No chance – Swift’s newer `Int.random(in:)` is significantly better.
+Does it work? Yes, absolutely. Could you remember it if you closed this window now? No chance - Swift’s newer `Int.random(in:)` is significantly better.
 
 Anyway, now you’ve seen the modern way of generating numbers and the older way, so let’s move on to looking at GameplayKit. Before I continue, it's worth making it doubly clear that GameplayKit is available only on Apple’s platforms, so if you’re using open source Swift on Linux then you’ll need to stick with the other options shown above.
 

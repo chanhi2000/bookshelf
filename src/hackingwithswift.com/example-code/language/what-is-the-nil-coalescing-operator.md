@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ let name: String? = nil
 let unwrappedName = name ?? "Anonymous"
 ```
 
-Because `name` is an optional string, we need to unwrap it safely to ensure it has a meaningful value. The nil coalescing operator – `??` – does exactly that, but if it finds the optional has no value then it uses a default instead. In this case, the default is "Anonymous". What this means is that `unwrappedName` has the data type `String` rather than `String?` because it can be guaranteed to have a value.
+Because `name` is an optional string, we need to unwrap it safely to ensure it has a meaningful value. The nil coalescing operator - `??` - does exactly that, but if it finds the optional has no value then it uses a default instead. In this case, the default is "Anonymous". What this means is that `unwrappedName` has the data type `String` rather than `String?` because it can be guaranteed to have a value.
 
 You don't need to create a separate variable to use nil coalescing. For example, this works fine too:
 

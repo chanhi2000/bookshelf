@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-All navigation controllers have a toolbar built right in, but it's not showing by default. And even if it were showing, it doesn't have any items by default – that's down to you fill in.
+All navigation controllers have a toolbar built right in, but it's not showing by default. And even if it were showing, it doesn't have any items by default - that's down to you fill in.
 
 To get started, give a view controller some toolbar items by setting its `toolbarItems` property like this:
 

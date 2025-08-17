@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Event Propagation Works – Bubbling and Capturing."
-description: Article(s) > (16/18) The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples
+title: "How Event Propagation Works - Bubbling and Capturing."
+description: Article(s) > (16/18) The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples
 category: 
   - JavaScript
   - Article(s)
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (16/18) The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples
+      content: Article(s) > (16/18) The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples
     - property: og:description
-      content: "How Event Propagation Works – Bubbling and Capturing."
+      content: "How Event Propagation Works - Bubbling and Capturing."
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-event-propagation-works-bubbling-and-capturing.html
 date: 2024-09-10
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScrip
 
 ```component VPCard
 {
-  "title": "The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples",
+  "title": "The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples",
   "desc": "JavaScript is a widely used language in web development and powers interactive features of virtually every website out there. JavaScript makes it possible to create dynamic web pages and is very versatile. JavaScript remains one of the most in-demand programming languages in 2024. Many companies are looking for proficiency in...",
   "link": "/freecodecamp.org/js-interview-prep-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScrip
 ---
 
 <SiteInfo
-  name="The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples"
+  name="The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples"
   desc="JavaScript is a widely used language in web development and powers interactive features of virtually every website out there. JavaScript makes it possible to create dynamic web pages and is very versatile. JavaScript remains one of the most in-demand programming languages in 2024. Many companies are looking for proficiency in..."
   url="https://freecodecamp.org/news/js-interview-prep-handbook#heading-how-event-propagation-works-bubbling-and-capturing"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

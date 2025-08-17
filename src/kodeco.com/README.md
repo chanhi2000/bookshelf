@@ -760,7 +760,7 @@ head:
 ```component VPCard
 {
   "title": "Database Migrations With Vapor",
-  "desc": "In this Server-Side Swift tutorial, learn how to perform database migrations with Vapor on your application database – a useful tool for tasks such as creating tables, seeding data, and adding columns. ",
+  "desc": "In this Server-Side Swift tutorial, learn how to perform database migrations with Vapor on your application database - a useful tool for tasks such as creating tables, seeding data, and adding columns. ",
   "link": "https://www.kodeco.com/23848990-database-migrations-with-vapor",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-saving-data-persistence-server-side-swift-21604b3649bbd34135fe47792e34758272aa5d362ce63db503f948eacca0959d.svg",
   "background": "rgba(242,111,170,0.2)"
@@ -3289,7 +3289,7 @@ head:
 
 ```component VPCard
 {
-  "title": "Functional Programming with Kotlin and Arrow – Generate Typeclasses With Arrow",
+  "title": "Functional Programming with Kotlin and Arrow - Generate Typeclasses With Arrow",
   "desc": "In this Kotlin tutorial, you'll take the functional programming concepts learned in previous tutorials and apply them with the use of the Arrow framework.",
   "link": "https://kodeco.com/10966272-functional-programming-with-kotlin-and-arrow-generate-typeclasses-with-arrow",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-algorithms-data-structures-android-0945f90b82469b85618b767d5ab99937597c7699e0f6af075a8918ee40a6cd05.svg",
@@ -3399,7 +3399,7 @@ head:
 
 ```component VPCard
 {
-  "title": "Functional Programming with Kotlin and Arrow – More on Typeclasses",
+  "title": "Functional Programming with Kotlin and Arrow - More on Typeclasses",
   "desc": "Continuing the Functional Programming with Kotlin and Arrow Part 2 - Categories and Functors tutorial, you'll now go even further, using a specific and common use case, with a better understanding of data types and typeclasses, from Functor to Monad, passing through Applicatives and Semigroups.",
   "link": "https://kodeco.com/7059961-functional-programming-with-kotlin-and-arrow-more-on-typeclasses",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-language-android-3600400a7fb087f090ade0f46a022f54c378259e57e497ffc065d23d2f9f537d.svg",
@@ -3529,7 +3529,7 @@ head:
 
 ```component VPCard
 {
-  "title": "Dagger 2 Tutorial for Android - Advanced – Part 2",
+  "title": "Dagger 2 Tutorial for Android - Advanced - Part 2",
   "desc": "In this tutorial, you'll learn how to implement advanced features of Dagger 2 by using subcomponents, custom scopes and multibinding.",
   "link": "https://kodeco.com/7337181-dagger-2-tutorial-for-android-advanced-part-2",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg",
@@ -4194,7 +4194,7 @@ head:
 ```component VPCard
 {
   "title": "Getting Started with ProGuard",
-  "desc": "In this Android tutorial, you’ll learn how to strip down your app size by making use of ProGuard – an app shrinking and obfuscation tool.",
+  "desc": "In this Android tutorial, you’ll learn how to strip down your app size by making use of ProGuard - an app shrinking and obfuscation tool.",
   "link": "https://kodeco.com/7449-getting-started-with-proguard",
   "logo": "https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg",
   "background": "rgba(0,184,126,0.2)"

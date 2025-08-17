@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-iOS supports barcode scanning out of the box, but to be honest it's not that easy to do. So, here's a complete `UIViewController` subclass that you can add to your Swift project and get immediate support with no hassle – all you need to do is update the `found(code:)` method to take some interesting action, then present this view controller when you're ready:
+iOS supports barcode scanning out of the box, but to be honest it's not that easy to do. So, here's a complete `UIViewController` subclass that you can add to your Swift project and get immediate support with no hassle - all you need to do is update the `found(code:)` method to take some interesting action, then present this view controller when you're ready:
 
 ```swift
 import AVFoundation

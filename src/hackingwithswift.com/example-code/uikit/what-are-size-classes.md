@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Size Classes are the iOS method of creating adaptable layouts that look great on all sizes and orientations of iPhone and iPad. For example, you might want to say that your UI looks mostly the same in portrait and landscape, but on landscape some extra information is visible. You could do this in code by checking for a change in the size of your view controller and trying to figure out what it means, but that's a huge waste of time – particularly now that iPad has multiple different sizes thanks to multitasking in iOS 9.
+Size Classes are the iOS method of creating adaptable layouts that look great on all sizes and orientations of iPhone and iPad. For example, you might want to say that your UI looks mostly the same in portrait and landscape, but on landscape some extra information is visible. You could do this in code by checking for a change in the size of your view controller and trying to figure out what it means, but that's a huge waste of time - particularly now that iPad has multiple different sizes thanks to multitasking in iOS 9.
 
 With Size Classes, you don't think about orientation or even device size. You care about whether you are running in a compact size or regular size, and iOS takes care of mapping that to various device sizes and orientations. iOS will also tell you when your size class changes so you can update your UI.
 
@@ -69,7 +69,7 @@ For example, an iPad app running full screen in portrait has regular horizontal 
 - If the apps are running with an uneven split in landscape, the primary app has a regular horizontal class and the second has a compact horizontal size class. Both apps have regular vertical classes.
 - If the apps are running with an uneven split in portrait, both apps have compact horizontal size classes and regular vertical size classes.
 
-Size Classes can be implemented in code if you want, but it's much easier to use Interface Builder. The key is to change only the bits you have to – try to share as much of your user interface as possible!
+Size Classes can be implemented in code if you want, but it's much easier to use Interface Builder. The key is to change only the bits you have to - try to share as much of your user interface as possible!
 
 -->
 

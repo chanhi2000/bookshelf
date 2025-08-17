@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Water
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Working With JSON in Python – Real Python"
+  name="Working With JSON in Python - Real Python"
   desc="Learn how to work with Python's built-in json module to serialize the data in your programs into JSON format. Then, you'll deserialize some JSON from an online API and convert it into Python objects."
   url="https://realpython.com/courses/working-json-data-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -84,7 +84,7 @@ While JSON is the most common format for data distribution, it’s not the only 
 ::: info Interactive Quiz
 
 <SiteInfo
-  name="Working With JSON Data in Python Quiz – Real Python"
+  name="Working With JSON Data in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of working with JSON in Python. By working through this quiz, you'll revisit key concepts related to JSON data manipulation and handling in Python."
   url="https://realpython.com/quizzes/python-json/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -155,7 +155,7 @@ Additionally, you learned how to prettify JSON data in the terminal and minify J
 ::: info Interactive Quiz
 
 <SiteInfo
-  name="Working With JSON Data in Python Quiz – Real Python"
+  name="Working With JSON Data in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of working with JSON in Python. By working through this quiz, you'll revisit key concepts related to JSON data manipulation and handling in Python."
   url="https://realpython.com/quizzes/python-json/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -232,7 +232,7 @@ You can use Python’s `json.tool` module in the command line to validate JSON s
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Working With JSON in Python – Real Python"
+  name="Working With JSON in Python - Real Python"
   desc="Learn how to work with Python's built-in json module to serialize the data in your programs into JSON format. Then, you'll deserialize some JSON from an online API and convert it into Python objects."
   url="https://realpython.com/courses/working-json-data-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

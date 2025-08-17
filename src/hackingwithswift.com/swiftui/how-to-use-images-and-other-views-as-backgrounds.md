@@ -105,7 +105,7 @@ Text("Hacking with Swift")
 
 ![The words “Hacking with Swift” over a red circle which has been clipped at the top and bottom.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-images-and-other-views-as-backgrounds-3~dark.png)
 
-To be clear, you can use _any_ view as your background – another text view if you wanted, for example.
+To be clear, you can use _any_ view as your background - another text view if you wanted, for example.
 
 ::: details Similar solutions…
 

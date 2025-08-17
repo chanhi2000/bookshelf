@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "WKWebView - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/wkwebview",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to control the user interface of a WKWebView using WKUIDelegate",
-  "desc": "By default <code>WKWebView</code> works sort of like Safari, albeit in a single view rather than having tabs. If you want something more advanced –&nbsp;being able to monitor opening and closing windows, override behavior for JavaScript user interface, and so on – then the <code>WKUIDelegate</code> protocol is for you....",
+  "desc": "By default <code>WKWebView</code> works sort of like Safari, albeit in a single view rather than having tabs. If you want something more advanced -&nbsp;being able to monitor opening and closing windows, override behavior for JavaScript user interface, and so on - then the <code>WKUIDelegate</code> protocol is for you....",
   "link": "/hackingwithswift.com/example-code/wkwebview/how-to-control-the-user-interface-of-a-wkwebview-using-wkuidelegate.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

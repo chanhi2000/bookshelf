@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,7 +57,7 @@ Swift has another way of building complex data types called classes. They look s
 
 - You don't get an automatic memberwise initializer for your classes; you need to write your own.
 - You can define a class as being based off another class, adding any new things you want.
-- When you create an instance of a class it’s called an object. If you copy that object, both copies point at the same data by default – change one, and the copy changes too.
+- When you create an instance of a class it’s called an object. If you copy that object, both copies point at the same data by default - change one, and the copy changes too.
 
 All three of those are massive differences, so I'm going to cover them in more depth before continuing.
 
@@ -96,11 +96,11 @@ class Person {
 
 There are two things that might jump out at you in that code. 
 
-First, you don't write `func` before your `init()` method, because it's special. Second, because the parameter names being passed in are the same as the names of the properties we want to assign, you use `self.` to make your meaning clear – "the `clothes` property of this object should be set to the `clothes` parameter that was passed in." You can give them unique names if you want – it's down to you.
+First, you don't write `func` before your `init()` method, because it's special. Second, because the parameter names being passed in are the same as the names of the properties we want to assign, you use `self.` to make your meaning clear - "the `clothes` property of this object should be set to the `clothes` parameter that was passed in." You can give them unique names if you want - it's down to you.
 
 ::: important
 
-Swift requires that all non-optional properties have a value by the end of the initializer, or by the time the initializer calls any other method – whichever comes first.
+Swift requires that all non-optional properties have a value by the end of the initializer, or by the time the initializer calls any other method - whichever comes first.
 
 :::
 
@@ -212,15 +212,15 @@ Class inheritance is a big topic so don't fret if it's not clear just yet. Howev
 
 ## Working with Objective-C code
 
-If you want to have some part of Apple’s operating system call your Swift class’s method, you need to mark it with a special attribute: `@objc`. This is short for “Objective-C”, and the attribute effectively marks the method as being available for older Objective-C code to run – which is almost all of iOS, macOS, watchOS, and tvOS. For example, if you ask the system to call your method after one second has passed, you’ll need to mark it with `@objc`.
+If you want to have some part of Apple’s operating system call your Swift class’s method, you need to mark it with a special attribute: `@objc`. This is short for “Objective-C”, and the attribute effectively marks the method as being available for older Objective-C code to run - which is almost all of iOS, macOS, watchOS, and tvOS. For example, if you ask the system to call your method after one second has passed, you’ll need to mark it with `@objc`.
 
-Don’t worry too much about `@objc` for now – not only will I be explaining it in context later on, but Xcode will always tell you when it’s needed. Alternatively, if you don’t want to use `@objc` for individual methods you can put `@objcMembers` before your class to automatically make all its methods available to Objective-C.
+Don’t worry too much about `@objc` for now - not only will I be explaining it in context later on, but Xcode will always tell you when it’s needed. Alternatively, if you don’t want to use `@objc` for individual methods you can put `@objcMembers` before your class to automatically make all its methods available to Objective-C.
 
 ---
 
 ## Values vs References
 
-When you copy a struct, the whole thing is duplicated, including all its values. This means that changing one copy of a struct doesn't change the other copies – they are all individual. With classes, each copy of an object points at the same original object, so if you change one they all change. Swift calls structs "value types" because they just point at a value, and classes "reference types" because objects are just shared references to the real value.
+When you copy a struct, the whole thing is duplicated, including all its values. This means that changing one copy of a struct doesn't change the other copies - they are all individual. With classes, each copy of an object points at the same original object, so if you change one they all change. Swift calls structs "value types" because they just point at a value, and classes "reference types" because objects are just shared references to the real value.
 
 This is an important difference, and it means the choice between structs and classes is an important one:
 

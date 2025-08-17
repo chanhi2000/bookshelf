@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,7 +60,7 @@ Before iOS 11 it was common to create views that went edge to edge on the screen
 
 You don’t *need* to make your view fall inside the safe area, and in fact it’s common to ignore this for background views that should fill the screen behind your content. For example, the built-in Weather app runs its background graphics edge to edge, then puts its main content inside the safe area.
 
-If you use view controller containers such as `UINavigationController` and `UITabBarController` they will automatically keep your content clear of the safe area so you don’t need to worry about it. Otherwise, you should switch all your Auto Layout constraints over to the safe area layout guide inside Interface Builder – IB will automatically generate backwards-compatible constraints for older versions of iOS.
+If you use view controller containers such as `UINavigationController` and `UITabBarController` they will automatically keep your content clear of the safe area so you don’t need to worry about it. Otherwise, you should switch all your Auto Layout constraints over to the safe area layout guide inside Interface Builder - IB will automatically generate backwards-compatible constraints for older versions of iOS.
 
 -->
 

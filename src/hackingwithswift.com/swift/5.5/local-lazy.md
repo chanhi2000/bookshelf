@@ -72,7 +72,7 @@ func lazyTest() {
 lazyTest()
 ```
 
-When that runs you’ll see “Before lazy” and “After lazy” printed first, followed by “In printGreeting()” then “Hello, Paul” – Swift only runs the `printGreeting(to:)` code when its result is accessed on the `print(greeting)` line.
+When that runs you’ll see “Before lazy” and “After lazy” printed first, followed by “In printGreeting()” then “Hello, Paul” - Swift only runs the `printGreeting(to:)` code when its result is accessed on the `print(greeting)` line.
 
 In practice, this feature is going to be really helpful as a way of selectively running code when you have conditions in place: you can prepare the result of some work lazily, and only actual perform the work if it’s still needed later on.
 

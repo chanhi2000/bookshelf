@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How CSS Positioning and Flexbox Work – Explained with Examples"
-description: "Article(s) > How CSS Positioning and Flexbox Work – Explained with Examples"
+title: "How CSS Positioning and Flexbox Work - Explained with Examples"
+description: "Article(s) > How CSS Positioning and Flexbox Work - Explained with Examples"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How CSS Positioning and Flexbox Work – Explained with Examples"
+      content: "Article(s) > How CSS Positioning and Flexbox Work - Explained with Examples"
     - property: og:description
-      content: "How CSS Positioning and Flexbox Work – Explained with Examples"
+      content: "How CSS Positioning and Flexbox Work - Explained with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-positioning-and-flexbox-explained.html
 prev: /programming/css/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2021/03/Pink-Cute-Chic-Vinta
 ---
 
 <SiteInfo
-  name="How CSS Positioning and Flexbox Work – Explained with Examples"
+  name="How CSS Positioning and Flexbox Work - Explained with Examples"
   desc="By Nishant Kumar If you have ever used CSS, then you know how hard it is to position elements. But by the end of this tutorial you'll know much more about CSS positioning and Flexbox, and you'll be able to position elements in your dream project like..."
   url="https://freecodecamp.org/news/css-positioning-and-flexbox-explained"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -523,14 +523,14 @@ You can [find the code on Github (<FontIcon icon="iconfont icon-github"/>`nishan
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/0c0e5f7be7f2013b4dfc626c6f8d67de49128ba4e88bc37da8e7e2c6bbe76fa5/nishant-666/CSS-Positioning-and-Flexbox"/>
 
-That's all folks – thanks for reading.
+That's all folks - thanks for reading.
 
 > Keep Experimenting. Keep Learning!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How CSS Positioning and Flexbox Work – Explained with Examples",
+  "title": "How CSS Positioning and Flexbox Work - Explained with Examples",
   "desc": "By Nishant Kumar If you have ever used CSS, then you know how hard it is to position elements. But by the end of this tutorial you'll know much more about CSS positioning and Flexbox, and you'll be able to position elements in your dream project like...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-positioning-and-flexbox-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

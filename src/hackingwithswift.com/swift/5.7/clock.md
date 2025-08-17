@@ -72,7 +72,7 @@ try await Task.sleep(until: .now + .seconds(1), tolerance: .seconds(0.5), clock:
 
 ::: tip
 
-This tolerance is only in *addition* to the default sleep amount – the system won’t end the sleep before at least 1 second has passed.
+This tolerance is only in *addition* to the default sleep amount - the system won’t end the sleep before at least 1 second has passed.
 
 :::
 

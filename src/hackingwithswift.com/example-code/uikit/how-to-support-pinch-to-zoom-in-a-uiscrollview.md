@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ func viewForZooming(in scrollView: UIScrollView) -> UIView? {
 }
 ```
 
-That's it for code, but make sure you create your layouts consistently – whether you use Auto Layout or not, you need to be careful to [<FontIcon icon="fa-brands fa-apple"/>follow Apple's instructions](https://developer.apple.com/library/ios/technotes/tn2154/_index.html).
+That's it for code, but make sure you create your layouts consistently - whether you use Auto Layout or not, you need to be careful to [<FontIcon icon="fa-brands fa-apple"/>follow Apple's instructions](https://developer.apple.com/library/ios/technotes/tn2154/_index.html).
 
 -->
 

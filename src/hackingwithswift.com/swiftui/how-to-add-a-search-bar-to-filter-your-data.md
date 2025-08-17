@@ -158,7 +158,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data-3~dark.mp4" />
 
-As the search bar now appears inside a list, it will usually start life hidden – users need to tug the list gently downwards at the top to reveal it.
+As the search bar now appears inside a list, it will usually start life hidden - users need to tug the list gently downwards at the top to reveal it.
 
 For more advanced uses, `searchable()` allows us to show a list of suggestions to our users, even adding extra completion information to save them typing so much. This is done by passing a function to `searchable()` that returns a view containing your suggestions, and if you want users to be able to tap to complete their search use the `searchCompletion()` modifier for each suggestion.
 

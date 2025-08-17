@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Data Flow in Redux Explained – A State Management Handbook"
-description: "Article(s) > Data Flow in Redux Explained – A State Management Handbook"
+title: "Data Flow in Redux Explained - A State Management Handbook"
+description: "Article(s) > Data Flow in Redux Explained - A State Management Handbook"
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Data Flow in Redux Explained – A State Management Handbook"
+      content: "Article(s) > Data Flow in Redux Explained - A State Management Handbook"
     - property: og:description
-      content: "Data Flow in Redux Explained – A State Management Handbook"
+      content: "Data Flow in Redux Explained - A State Management Handbook"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-data-flows-in-redux/
 prev: /programming/js-react/articles/README.md
@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/2024/07/Data-Flow-in-Redux-E
 ---
 
 <SiteInfo
-  name="Data Flow in Redux Explained – A State Management Handbook"
+  name="Data Flow in Redux Explained - A State Management Handbook"
   desc="In complex React applications, managing application state effectively can become a challenge. This is where Redux, a predictable state management library, steps in. By introducing a unidirectional data flow, Redux brings order and clarity to how data..."
   url="https://freecodecamp.org/news/how-data-flows-in-redux"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -1241,7 +1241,7 @@ That's all for this article! If you'd like to continue the conversation or have 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Data Flow in Redux Explained – A State Management Handbook",
+  "title": "Data Flow in Redux Explained - A State Management Handbook",
   "desc": "In complex React applications, managing application state effectively can become a challenge. This is where Redux, a predictable state management library, steps in. By introducing a unidirectional data flow, Redux brings order and clarity to how data...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-data-flows-in-redux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

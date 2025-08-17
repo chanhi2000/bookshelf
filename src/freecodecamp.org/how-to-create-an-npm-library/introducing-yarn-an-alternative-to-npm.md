@@ -142,10 +142,10 @@ yarn add axios
 
 Yarn is a great choice when:
 
-- **You want faster installations** – Yarn installs multiple packages in parallel, making it faster than npm.
-- **You need better dependency consistency** – The `yarn.lock` file ensures that all developers use the same dependency versions.
-- **You're working with monorepos** – Yarn’s built-in **workspaces** make it easier to manage multiple projects within the same repository.
-- **You want improved security** – Yarn’s checksum verification prevents corrupted packages from being installed.
+- **You want faster installations** - Yarn installs multiple packages in parallel, making it faster than npm.
+- **You need better dependency consistency** - The `yarn.lock` file ensures that all developers use the same dependency versions.
+- **You're working with monorepos** - Yarn’s built-in **workspaces** make it easier to manage multiple projects within the same repository.
+- **You want improved security** - Yarn’s checksum verification prevents corrupted packages from being installed.
 
 Still, npm has improved significantly in recent years, especially with npm v7+, making it a viable choice for most projects.
 

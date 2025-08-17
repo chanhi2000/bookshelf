@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Get Started With React – A Beginner's Guide"
-description: "Article(s) > How to Get Started With React – A Beginner's Guide"
+title: "How to Get Started With React - A Beginner's Guide"
+description: "Article(s) > How to Get Started With React - A Beginner's Guide"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Get Started With React – A Beginner's Guide"
+      content: "Article(s) > How to Get Started With React - A Beginner's Guide"
     - property: og:description
-      content: "How to Get Started With React – A Beginner's Guide"
+      content: "How to Get Started With React - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-react-for-beginners.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2022/04/cover-template.png
 ---
 
 <SiteInfo
-  name="How to Get Started With React – A Beginner's Guide"
+  name="How to Get Started With React - A Beginner's Guide"
   desc="By Joel Olawanle React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for creating UI component-based user interfaces.  React is maintained by Meta (previously Facebook) along with a community of individual..."
   url="https://freecodecamp.org/news/get-started-with-react-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -78,7 +78,7 @@ Working with React simplifies our lives as developers because of its straightfor
 
 In the United States, the average yearly salary for a React developer is $120,000. Many businesses and companies use React, which forces them to look for new talent on a daily basis.
 
-If you have any reservations about learning or becoming a React developer, reconsider. There's no need to worry – there will likely always be a job for you as a React developer because there are thousands of open positions right now (even remotely).
+If you have any reservations about learning or becoming a React developer, reconsider. There's no need to worry - there will likely always be a job for you as a React developer because there are thousands of open positions right now (even remotely).
 
 ### It is not difficult to learn the basics of React
 
@@ -95,7 +95,7 @@ Since React is a JavaScript framework, it is critical to understand certain Java
 ```component VPCard
 {
   "title": "Top JavaScript Concepts to Know Before Learning React",
-  "desc": "By Joel Olawanle If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho...",
+  "desc": "By Joel Olawanle If you want to learn React - or any JavaScript framework - you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho...",
   "link": "/freecodecamp.org/top-javascript-concepts-to-know-before-learning-react.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -170,7 +170,7 @@ The <FontIcon icon="fas fa-folder-open"/>`node_modules` folder contains all of o
 
 If you delete the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder, the application will break because you'll no longer have your dependencies.
 
-To re-install these dependencies, you can use `npm install` – this will check the <FontIcon icon="iconfont icon-json"/>`pakage.json` file for a list of the dependencies and then install all of them. This will make it easy for you to push your code online or share your code with others without having to share the heavy <FontIcon icon="fas fa-folder-open"/>`node_modules` folder.
+To re-install these dependencies, you can use `npm install` - this will check the <FontIcon icon="iconfont icon-json"/>`pakage.json` file for a list of the dependencies and then install all of them. This will make it easy for you to push your code online or share your code with others without having to share the heavy <FontIcon icon="fas fa-folder-open"/>`node_modules` folder.
 
 ::: note
 
@@ -235,7 +235,7 @@ ReactDOM.render(
 
 ### `App.css` and `index.css`
 
-These both contain styles for your application. The <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file contains global styling and the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file almost works the same as it does for the <FontIcon icon="fa-brands fa-react"/>`App.js` file – but whether we use a CSS file is entirely up to us. While getting started, we can choose to delete one and use only one CSS file.
+These both contain styles for your application. The <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file contains global styling and the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file almost works the same as it does for the <FontIcon icon="fa-brands fa-react"/>`App.js` file - but whether we use a CSS file is entirely up to us. While getting started, we can choose to delete one and use only one CSS file.
 
 ---
 
@@ -304,7 +304,7 @@ Instead of attempting to take several courses at once, the best thing to do is f
 
 ```component VPCard
 {
-  "title": "Free React Course – 8 Real-World Projects and 140+ Coding Challenges",
+  "title": "Free React Course - 8 Real-World Projects and 140+ Coding Challenges",
   "desc": "React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel...",
   "link": "/freecodecamp.org/free-react-course-2022.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -337,7 +337,7 @@ Thanks for reading!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Get Started With React – A Beginner's Guide",
+  "title": "How to Get Started With React - A Beginner's Guide",
   "desc": "By Joel Olawanle React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for creating UI component-based user interfaces.  React is maintained by Meta (previously Facebook) along with a community of individual...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-react-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

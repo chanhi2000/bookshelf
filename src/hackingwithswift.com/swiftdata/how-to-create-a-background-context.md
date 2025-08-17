@@ -82,7 +82,7 @@ When a save is triggered on your background context, its changes will automatica
 
 Apple's official view is that autosave is enabled for the main context, but *not* for model context created by hand. In my experience this is inconsistent: yes, the main context always has autosave enabled, but any extra contexts you create by hand may or may not.
 
-Very roughly – and this is simply through observation rather than actual facts that will stand the test of time – if you create a new model context on the main actor, it will have autosave enabled, but if you create it to run on a separate actor then autosave will be disabled.
+Very roughly - and this is simply through observation rather than actual facts that will stand the test of time - if you create a new model context on the main actor, it will have autosave enabled, but if you create it to run on a separate actor then autosave will be disabled.
 
 ::: tip
 

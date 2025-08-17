@@ -69,12 +69,12 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 By completing this course, you will gain hands-on experience with:
 
-- **Next.js 15** – Understanding server and client components, dynamic routing, and data fetching
-- **Strapi 5** – Setting up and using a headless CMS to manage content efficiently
-- **Full-stack development** – Integrating front-end and back-end technologies seamlessly
-- **User-friendly navigation** – Building top navigation, footers, and internal links
-- **Blog and event management** – Creating structured content with search and pagination
-- **Form handling** – Implementing form submissions with server actions
+- **Next.js 15** - Understanding server and client components, dynamic routing, and data fetching
+- **Strapi 5** - Setting up and using a headless CMS to manage content efficiently
+- **Full-stack development** - Integrating front-end and back-end technologies seamlessly
+- **User-friendly navigation** - Building top navigation, footers, and internal links
+- **Blog and event management** - Creating structured content with search and pagination
+- **Form handling** - Implementing form submissions with server actions
 
 ---
 

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you attach an animation modifier to a view, you end up with implicit animation – changing some state elsewhere in your view might use animation, even though you’re just incrementing an integer or toggling a Boolean.
+If you attach an animation modifier to a view, you end up with implicit animation - changing some state elsewhere in your view might use animation, even though you’re just incrementing an integer or toggling a Boolean.
 
 An alternative is to use *explicit* animation, where you don’t attach modifiers to the view in question but instead ask SwiftUI to animate the precise change you want to make. To do this, wrap your changes in a call to `withAnimation()`.
 

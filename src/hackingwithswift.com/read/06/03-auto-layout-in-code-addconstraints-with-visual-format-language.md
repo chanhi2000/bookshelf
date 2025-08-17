@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -143,7 +143,7 @@ That's the easy stuff. So, let's look at the Visual Format Language itself: `"H:
 
 The `H:` parts means that we're defining a horizontal layout; we'll do a vertical layout soon. The pipe symbol, |, means "the edge of the view." We're adding these constraints to the main view inside our view controller, so this effectively means "the edge of the view controller." Finally, we have `[label1]`, which is a visual way of saying "put `label1` here". Imagine the brackets, [ and ], are the edges of the view.
 
-So, `"H:|[label1]|"` means "horizontally, I want my `label1` to go edge to edge in my view." But there's a hiccup: what is "label1"? Sure, *we* know what it is because it's the name of our variable, but variable names are just things for humans to read and write – the variable names aren't actually saved and used when the program runs.
+So, `"H:|[label1]|"` means "horizontally, I want my `label1` to go edge to edge in my view." But there's a hiccup: what is "label1"? Sure, *we* know what it is because it's the name of our variable, but variable names are just things for humans to read and write - the variable names aren't actually saved and used when the program runs.
 
 This is where our `viewsDictionary` dictionary comes in: we used strings for the key and `UILabels` for the value, then set "label1" to be our label. This dictionary gets passed in along with the VFL, and gets used by iOS to look up the names from the VFL. So when it sees `[label1]`, it looks in our dictionary for the "label1" key and uses its value to generate the Auto Layout constraints.
 

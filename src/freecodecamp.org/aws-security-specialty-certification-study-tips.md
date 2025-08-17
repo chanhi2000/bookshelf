@@ -64,7 +64,7 @@ So, whether you're considering this certification or you’re just curious about
 
 ## Should You Get Certified?
 
-There are mixed opinions in the tech industry about the importance of certifications. Some people argue that the certificates you have don't matter – it's all about your real-world knowledge.
+There are mixed opinions in the tech industry about the importance of certifications. Some people argue that the certificates you have don't matter - it's all about your real-world knowledge.
 
 But not everyone has the chance to work with real-world projects. And certification questions are based on real-world scenarios. So if you haven't had an opportunity to work with AWS security much in practice, you can learn from this exam and apply your learnings on actual projects.
 
@@ -396,9 +396,9 @@ S3 Glacier Vault Lock policies are a powerful feature for enforcing compliance c
 
 When initiating a job to retrieve an archive, you can specify one of the following retrieval options, based on your access time and cost requirements.
 
-- **Expedited**: Expedited retrievals allow you to quickly access your data that's stored in the S3 Glacier Flexible Retrieval storage class or the S3 Intelligent-Tiering Archive Access tier when occasional urgent requests for restoring archives are required. For all but the largest archives (more than 250 MB), data accessed by using Expedited retrievals is typically made available within 1–5 minutes. Provisioned capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
-- **Standard**: Standard retrievals allow you to access any of your archives within several hours. Standard retrievals are typically completed within 3–5 hours. Standard is the default option for retrieval requests that do not specify the retrieval option.
-- **Bulk**: Bulk retrievals are the lowest-cost S3 Glacier retrieval option, which you can use to retrieve large amounts, even petabytes, of data inexpensively in a day. Bulk retrievals are typically completed within 5–12 hours.
+- **Expedited**: Expedited retrievals allow you to quickly access your data that's stored in the S3 Glacier Flexible Retrieval storage class or the S3 Intelligent-Tiering Archive Access tier when occasional urgent requests for restoring archives are required. For all but the largest archives (more than 250 MB), data accessed by using Expedited retrievals is typically made available within 1-5 minutes. Provisioned capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
+- **Standard**: Standard retrievals allow you to access any of your archives within several hours. Standard retrievals are typically completed within 3-5 hours. Standard is the default option for retrieval requests that do not specify the retrieval option.
+- **Bulk**: Bulk retrievals are the lowest-cost S3 Glacier retrieval option, which you can use to retrieve large amounts, even petabytes, of data inexpensively in a day. Bulk retrievals are typically completed within 5-12 hours.
 
 ### RDS Copying Encrypted Snapshots
 

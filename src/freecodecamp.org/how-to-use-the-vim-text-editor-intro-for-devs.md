@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use the Vim Text Editor – An Introduction for Developers"
-description: "Article(s) > How to Use the Vim Text Editor – An Introduction for Developers"
+title: "How to Use the Vim Text Editor - An Introduction for Developers"
+description: "Article(s) > How to Use the Vim Text Editor - An Introduction for Developers"
 icon: iconfont icon-vim
 category: 
   - Shell
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use the Vim Text Editor – An Introduction for Developers"
+      content: "Article(s) > How to Use the Vim Text Editor - An Introduction for Developers"
     - property: og:description
-      content: "How to Use the Vim Text Editor – An Introduction for Developers"
+      content: "How to Use the Vim Text Editor - An Introduction for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-vim-text-editor-intro-for-devs.html
 prev: /tool/vim/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738684583892/739ec0f
 ---
 
 <SiteInfo
-  name="How to Use the Vim Text Editor – An Introduction for Developers"
+  name="How to Use the Vim Text Editor - An Introduction for Developers"
   desc="Imagine a carpenter without tools, a writer without a pen, or a chef without a knife—this is like trying to imagine a developer or sysadmin without a reliable text editor. For devs, text editors are the ultimate multitools, shaping how we create, man..."
   url="https://freecodecamp.org/news/how-to-use-the-vim-text-editor-intro-for-devs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -68,7 +68,7 @@ In this tutorial, you’ll learn what makes Vim so special. We’ll explore its 
 
 ## Text Editors in Linux
 
-Linux provides a variety of text editors, each designed for different types of users – from beginners to advanced developers.
+Linux provides a variety of text editors, each designed for different types of users - from beginners to advanced developers.
 
 Editors like **Nano** are great for newcomers who need a simple, user-friendly experience in the terminal. Nano displays helpful commands at the bottom of the screen, making it easy to navigate without a steep learning curve.
 
@@ -120,8 +120,8 @@ If the file you want to edit already exists, you can open it in Vim by using the
 
 Vim has several modes, but the most commonly used ones are:
 
-- **Normal Mode (Command Mode)** – Used for navigation and executing commands.
-- **Insert Mode** – Used for typing and editing text.
+- **Normal Mode (Command Mode)** - Used for navigation and executing commands.
+- **Insert Mode** - Used for typing and editing text.
 
 When you open a file in Vim, it starts in Command Mode by default. This mode allows you to navigate, execute commands, and perform various operations without directly modifying the text. To edit the text in the file, you need to switch to Insert Mode.
 
@@ -583,7 +583,7 @@ Stay tuned for more articles. Get ready to take your RHEL skills to the next lev
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use the Vim Text Editor – An Introduction for Developers",
+  "title": "How to Use the Vim Text Editor - An Introduction for Developers",
   "desc": "Imagine a carpenter without tools, a writer without a pen, or a chef without a knife—this is like trying to imagine a developer or sysadmin without a reliable text editor. For devs, text editors are the ultimate multitools, shaping how we create, man...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-vim-text-editor-intro-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

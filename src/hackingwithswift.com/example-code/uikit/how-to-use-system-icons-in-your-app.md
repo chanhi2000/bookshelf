@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 iOS 13 lets us use icons from a range of over 1500 designed by Apple, all of which come in a variety of weights and sizes. These icons form part of new `UIImage` API, and they are vector-based so you can us them at a range of sizes without loss of quality.
 
-**Note:** This is a stringly typed API, so you should download the new SF Symbols app that lists all variants – <a href="https://developer.apple.com/design/resources/">download it here</a>.
+**Note:** This is a stringly typed API, so you should download the new SF Symbols app that lists all variants - <a href="https://developer.apple.com/design/resources/">download it here</a>.
 
 To load a system icon you use the new `UIImage(systemName:)` initializer. In its most basic form it looks like this:
 

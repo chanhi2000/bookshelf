@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,9 +61,9 @@ isOriginal: false
 <!-- 
 Swift developers rely heavily on constants rather than variables, to the point where Xcode even warns you if you create a variable then never change it. There are three main reasons why immutability is important in Swift, and I want to walk through them briefly.
 
-First, immutability makes your code easier to reason about. If you use constants everywhere, you know for sure that your data can’t be changed by surprise by some other part of your program – in fact, it can’t be changed at *all*. This also makes multi-threaded code significantly easier to think about.
+First, immutability makes your code easier to reason about. If you use constants everywhere, you know for sure that your data can’t be changed by surprise by some other part of your program - in fact, it can’t be changed at *all*. This also makes multi-threaded code significantly easier to think about.
 
-Second, it stops you making silly mistakes. When you use a constant rather than a variable, Swift won’t let you change that constant no matter how hard you try – it’s like you’ve made a contract with yourself.
+Second, it stops you making silly mistakes. When you use a constant rather than a variable, Swift won’t let you change that constant no matter how hard you try - it’s like you’ve made a contract with yourself.
 
 Third, Swift can optimize it more efficiently. If Swift knows a value can’t be changed, it can in theory store your data in a more efficient way.
 

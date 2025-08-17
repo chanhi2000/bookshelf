@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,13 +53,13 @@ isOriginal: false
 
 In our app, Core Data is responsible for reading data from a persistent store (the SQLite database) and making it available for us to use as objects. After changing those objects, we can save them back to the persistent store, which is when Core Data converts them back from objects to database records.
 
-All this is done using a special data type called `NSManagedObject`. This is a Core Data subclass of `NSObject` that uses a unique keyword, `@NSManaged`, to provide lots of functionality for its properties. For example, you already saw the `hasChanges` property of a managed object context – that automatically gets set to true when you make changes to your objects, because Core Data tracks when you change properties that are marked `@NSManaged`.
+All this is done using a special data type called `NSManagedObject`. This is a Core Data subclass of `NSObject` that uses a unique keyword, `@NSManaged`, to provide lots of functionality for its properties. For example, you already saw the `hasChanges` property of a managed object context - that automatically gets set to true when you make changes to your objects, because Core Data tracks when you change properties that are marked `@NSManaged`.
 
 Behind the scenes, `@NSManaged` effectively means "extra code will automatically be provided when the program runs." It's a bit like functionality injection: when you say "this property is `@NSManaged`" then Core Data will add getters and setters to it when the app runs so that it handles things like change tracking.
 
 If this sounds complicated, relax: Xcode can do quite a bit of work for us. It's not perfect, as you'll see shortly, but it's certainly a head start. So, it's time for step three: creating objects in Core Data so that we can fetch and store data from GitHub.
 
-There are two ways Xcode can help, one of which isn’t good enough for this project but is slowly getting better – maybe when I update this project next it will be update to scratch. Let’s look at it briefly now: open Project38.xcdatamodeld, select the Commit entity again, then look in the data model inspector for the “Codegen” option. Change it to “Class Definition”, press <kbd>Cmd</kbd>+<kbd>S</kbd> to save the change, then press <kbd>Cmd</kbd>+<kbd>B</kbd> to have Xcode build the project.
+There are two ways Xcode can help, one of which isn’t good enough for this project but is slowly getting better - maybe when I update this project next it will be update to scratch. Let’s look at it briefly now: open Project38.xcdatamodeld, select the Commit entity again, then look in the data model inspector for the “Codegen” option. Change it to “Class Definition”, press <kbd>Cmd</kbd>+<kbd>S</kbd> to save the change, then press <kbd>Cmd</kbd>+<kbd>B</kbd> to have Xcode build the project.
 
 What just changed might look small, but it’s remarkably smart. Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add this code at the end of `viewDidLoad()`:
 
@@ -69,9 +69,9 @@ commit.message = "Woo"
 commit.url = "http://www.example.com"
 ```
 
-Can you figure out what Xcode has done for us? The Codegen value is short for “code generation” – when you pressed <kbd>Cmd</kbd>+<kbd>B</kbd> to build your project, Xcode converted the Commit Core Data entity into a Commit Swift class. You can’t see it in the project – it’s dynamically generated when the Swift code is being built – but it’s there for you to use, as you just saw. You get access to its attributes as properties that you can read and write, and any changes you make will get written back to the database when you call our `saveContext()` method.
+Can you figure out what Xcode has done for us? The Codegen value is short for “code generation” - when you pressed <kbd>Cmd</kbd>+<kbd>B</kbd> to build your project, Xcode converted the Commit Core Data entity into a Commit Swift class. You can’t see it in the project - it’s dynamically generated when the Swift code is being built - but it’s there for you to use, as you just saw. You get access to its attributes as properties that you can read and write, and any changes you make will get written back to the database when you call our `saveContext()` method.
 
-However, this feature is imperfect, at least right now – although that might change at any point in the future as Apple updates Xcode. First, try adding this line below the previous three:
+However, this feature is imperfect, at least right now - although that might change at any point in the future as Apple updates Xcode. First, try adding this line below the previous three:
 
 ```swift
 commit.date = Date()
@@ -79,9 +79,9 @@ commit.date = Date()
 
 That means “set the `date` property to the current date.” 
 
-Xcode’s auto-generated class has one small annoyance, and you’ll see it if you try using code completion to view its properties: all four of the properties it made for us are optional, so `name` is a `String?`, `date` is an `Date?`, and so on. Yes, even though we marked all the attributes as non-optional in the Core Data editor, that just means they need to have values by the time they get saved – Xcode will quite happily let them be nil at other times.
+Xcode’s auto-generated class has one small annoyance, and you’ll see it if you try using code completion to view its properties: all four of the properties it made for us are optional, so `name` is a `String?`, `date` is an `Date?`, and so on. Yes, even though we marked all the attributes as non-optional in the Core Data editor, that just means they need to have values by the time they get saved - Xcode will quite happily let them be nil at other times.
 
-Sometimes that’s OK, but usually it’s not. So, let’s put the codegen feature to one side for now – go back to the Core Data editor, change Codegen back to “Manual/None”, then press <kbd>Cmd</kbd>+<kbd>S</kbd> to save and <kbd>Cmd</kbd>+<kbd>B</kbd> to rebuild your app. You’ll get compiler errors now because the `Commit` class no longer exists, but that’s OK.
+Sometimes that’s OK, but usually it’s not. So, let’s put the codegen feature to one side for now - go back to the Core Data editor, change Codegen back to “Manual/None”, then press <kbd>Cmd</kbd>+<kbd>S</kbd> to save and <kbd>Cmd</kbd>+<kbd>B</kbd> to rebuild your app. You’ll get compiler errors now because the `Commit` class no longer exists, but that’s OK.
 
 You’ve seen codegen, which is the first way Xcode can help us create objects in Core Data. The *second* way is to create our own custom `NSManagedObject` subclass, which right now is the preferred way forward because it lets us take the dynamically generated class and customize it.
 
@@ -133,9 +133,9 @@ Rather than this:
 NSFetchRequest<Commit>(entityName: "Commit")
 ```
 
-Like I said, it’s syntactic sugar – it’s a piece of syntax that makes your code nicer.
+Like I said, it’s syntactic sugar - it’s a piece of syntax that makes your code nicer.
 
-This Core Data code generation is a head start, but not perfect: it has given us exactly what Xcode was dynamically generating before. Now, though, it’s flattened to real Swift code, which means we can change it – and you can see for yourself how Xcode has made everything optional.
+This Core Data code generation is a head start, but not perfect: it has given us exactly what Xcode was dynamically generating before. Now, though, it’s flattened to real Swift code, which means we can change it - and you can see for yourself how Xcode has made everything optional.
 
 Now that we have real Swift code to work with, we can go ahead and make changes. However, I should remind you that if you recreate the subclass using the Create NSManaged Subclass menu option, these changes will be lost and you will need to remove the optionality again. We'll be doing exactly this later on, so prepare yourself!
 
@@ -167,7 +167,7 @@ extension Commit {
 }
 ```
 
-If you build your code now, it should work again because we have a `Commit` class again. Before we continue, delete the testing code we had in `viewDidLoad()` – it’s time for real Core Data work!
+If you build your code now, it should work again because we have a `Commit` class again. Before we continue, delete the testing code we had in `viewDidLoad()` - it’s time for real Core Data work!
 
 ---
 
@@ -177,7 +177,7 @@ Now that we have Core Data objects defined, we can start to write our very first
 
 First, fetching the JSON. This needs to be a background operation because network requests are slow and we don't want the user interface to freeze up when data is loading This operation needs to go to the GitHub URL, [<FontIcon icon="iconfont icon-github"/>https://api.github.com/repos/apple/swift/commits?per_page=100](https://api.github.com/repos/apple/swift/commits?per_page=100) and convert the result into a SwiftyJSON object ready for conversion.
 
-To push all this into the background, we're going to use `performSelector(inBackground:)` to call `fetchCommits()` – a method we haven't written yet. Put this just before the end of `viewDidLoad()`:
+To push all this into the background, we're going to use `performSelector(inBackground:)` to call `fetchCommits()` - a method we haven't written yet. Put this just before the end of `viewDidLoad()`:
 
 ```swift
 performSelector(inBackground: #selector(fetchCommits), with: nil)
@@ -211,7 +211,7 @@ Here's our first draft of the `fetchCommits()` method:
 }
 ```
 
-There's nothing too surprising there – in fact right now it won't even do anything, because `saveContext()` will detect no Core Data changes have happened, so the `save()` call won't happen.
+There's nothing too surprising there - in fact right now it won't even do anything, because `saveContext()` will detect no Core Data changes have happened, so the `save()` call won't happen.
 
 The second of our smaller steps is to replace `// more code to go here!` with, well, *actual code.* Here's the revised version, with a few extra lines either side so you can see where it should go:
 
@@ -261,7 +261,7 @@ func configure(commit: Commit, usingJSON json: JSON) {
 }
 ```
 
-I love how easy SwiftyJSON makes JSON parsing! It automatically ensures a safe value gets returned even if the data is missing or broken. For example, `json["commit"]["message"].stringValue` will either return the commit message as a string or an empty string, regardless of what the JSON contains. So if "commit" or "message" don't exist, or if they do exist but actually contains an integer for some reason, we'll get back an empty string – it makes JSON parsing extremely safe while being easy to read and write.
+I love how easy SwiftyJSON makes JSON parsing! It automatically ensures a safe value gets returned even if the data is missing or broken. For example, `json["commit"]["message"].stringValue` will either return the commit message as a string or an empty string, regardless of what the JSON contains. So if "commit" or "message" don't exist, or if they do exist but actually contains an integer for some reason, we'll get back an empty string - it makes JSON parsing extremely safe while being easy to read and write.
 
 That completes step three of our Core Data code: we now create lots of objects when we download data from GitHub, and the finishing collection gets saved back to SQLite. That just leaves one final step before we have the full complement of fundamental Core Data code: we need to be able to load and use all those `Commit` objects we just saved!
 

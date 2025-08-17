@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-By default Swift strings can’t span more than one line. One simple way around this is to use the new line character `\n`, but that only works for strings that are displayed – if you’re just trying to format your string nicely, you should use multi-line strings instead.
+By default Swift strings can’t span more than one line. One simple way around this is to use the new line character `\n`, but that only works for strings that are displayed - if you’re just trying to format your string nicely, you should use multi-line strings instead.
 
 Multi-line strings work similarly to regular strings in that they support things like string interpolation, but they have the added benefit that they can be spread over as many lines as you need.
 
@@ -80,7 +80,7 @@ freely inside your strings, which is great!
 """
 ```
 
-That creates a new string with several line breaks right there in the definition – much easier to read and write.
+That creates a new string with several line breaks right there in the definition - much easier to read and write.
 
 -->
 

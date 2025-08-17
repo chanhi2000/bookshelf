@@ -58,7 +58,7 @@ let doubled1 = [1, 2, 3].map { $0 * 2 }
 let doubled2 = [1, 2, 3].map { return $0 * 2 }
 ```
 
-In Swift 5.1, this behavior has now been extended to functions as well: if they contain a single expression – effectively a single piece of code that evaluates to a value – then you can leave off the `return` keyword, like this:
+In Swift 5.1, this behavior has now been extended to functions as well: if they contain a single expression - effectively a single piece of code that evaluates to a value - then you can leave off the `return` keyword, like this:
 
 ```swift
 func double(_ number: Int) -> Int {

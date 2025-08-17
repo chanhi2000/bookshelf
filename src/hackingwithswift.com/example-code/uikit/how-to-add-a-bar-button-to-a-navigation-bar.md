@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -81,7 +81,7 @@ let play = UIBarButtonItem(title: "Play", style: .plain, target: self, action: #
 navigationItem.rightBarButtonItems = [add, play]
 ```
 
-Because navigation bar items are attached to view controllers rather than the bar itself, UIKit is able to animate them sliding in and out as view controllers are pushed and popped from a navigation controller – it just replaces the buttons from the existing controller with the buttons from the new controller.
+Because navigation bar items are attached to view controllers rather than the bar itself, UIKit is able to animate them sliding in and out as view controllers are pushed and popped from a navigation controller - it just replaces the buttons from the existing controller with the buttons from the new controller.
 
 -->
 

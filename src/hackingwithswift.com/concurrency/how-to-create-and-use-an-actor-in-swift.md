@@ -93,11 +93,11 @@ However, the *real* protection here is that the property and method are both enc
 1. Attempting to read from a dictionary at the same time we’re writing to it, which can cause your app to crash.
 2. Two or more simultaneous requests for the same uncached URL coming in, forcing our code to fetch and store the same data repeatedly. This is a data race: whether we make two requests or one depends on the exact way our code is executed.
 
-If we didn’t have an actor here – if we had used `class URLCache` or `struct URLCache` – then we would need to solve those two problems ourselves. It’s not *hard*, at least not in a simple way, but it’s error-prone and boring to do, so it’s great to be able to hand this work over to the Swift compiler to do for us.
+If we didn’t have an actor here - if we had used `class URLCache` or `struct URLCache` - then we would need to solve those two problems ourselves. It’s not *hard*, at least not in a simple way, but it’s error-prone and boring to do, so it’s great to be able to hand this work over to the Swift compiler to do for us.
 
-However, this ease of use does come with some extra responsibility: it’s really important you keep in mind the serial queue behavior of actors, because it’s entirely possible you can create massive speed bumps in your code just because you wrote `actor` rather than `class`. Think about the URL cache we just made, for example – just by using `actor` rather than `class` when we made it, we forced it to load only a single URL at a time. If that’s what you want then you’re all set, but if not then you’ll be wondering why all its requests are handled one by one.
+However, this ease of use does come with some extra responsibility: it’s really important you keep in mind the serial queue behavior of actors, because it’s entirely possible you can create massive speed bumps in your code just because you wrote `actor` rather than `class`. Think about the URL cache we just made, for example - just by using `actor` rather than `class` when we made it, we forced it to load only a single URL at a time. If that’s what you want then you’re all set, but if not then you’ll be wondering why all its requests are handled one by one.
 
-The canonical example of why data races are problematic – the one that is often taught in computer science degrees – is about *bank accounts*, because here data races can result in serious real-world problems. To see why, here’s an example `BankAccount` class that handles sending and receiving money:
+The canonical example of why data races are problematic - the one that is often taught in computer science degrees - is about *bank accounts*, because here data races can result in serious real-world problems. To see why, here’s an example `BankAccount` class that handles sending and receiving money:
 
 ```swift
 class BankAccount {
@@ -139,7 +139,7 @@ Well, in the worst case two parallel calls to `transfer()` would be called on th
 3. The first would then subtract the amount from the balance, and deposit it in the other account.
 4. The second would then subtract the amount from the balance, and deposit it in the other account.
 
-Do you see the problem there? Well, what happens if the account we’re transferring from contains $100, and we’re asked to transfer $80 to the other account? If we follow the steps above, both calls to `transfer()` will happen in parallel and see that there was enough for the transfer to take place, then both will transfer the money across. The end result is that our check for sufficient funds wasn’t useful, and one account ends up with -$60 – something that might incur fees, or perhaps not even be allowed depending on the type of account they have.
+Do you see the problem there? Well, what happens if the account we’re transferring from contains $100, and we’re asked to transfer $80 to the other account? If we follow the steps above, both calls to `transfer()` will happen in parallel and see that there was enough for the transfer to take place, then both will transfer the money across. The end result is that our check for sufficient funds wasn’t useful, and one account ends up with -$60 - something that might incur fees, or perhaps not even be allowed depending on the type of account they have.
 
 If we switch this type to be an actor, that problem goes away. This means using `actor BankAccount` rather than `class BankAccount`, but also using `async` and `await` because we can’t directly call `deposit()` on the other bank account and instead need to post the request as a message to be executed later.
 
@@ -178,7 +178,7 @@ await firstAccount.transfer(amount: 500, to: secondAccount)
 
 With that change, our bank accounts can no longer fall into negative values by accident, which avoids a potentially nasty result.
 
-In other places, actors can prevent bizarre results that ought to be impossible. For example, what would happen if our example was a basketball team rather than a bank account, and we were transferring players rather than money? Without actors we could end up in the situation where we transfer the same player twice – Team A would end up without them, and Team B would have them twice!
+In other places, actors can prevent bizarre results that ought to be impossible. For example, what would happen if our example was a basketball team rather than a bank account, and we were transferring players rather than money? Without actors we could end up in the situation where we transfer the same player twice - Team A would end up without them, and Team B would have them twice!
 
 ::: details Similar solutions…
 

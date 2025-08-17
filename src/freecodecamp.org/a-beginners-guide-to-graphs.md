@@ -62,14 +62,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748879365710/23d7601
 
 <SiteInfo
   name="A Beginner’s Guide to Graphs — From Google Maps to Chessboards"
-  desc="Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way – maybe you miss a turn (I do that often) – and Maps calmly recalculates your route, showing you..."
+  desc="Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way - maybe you miss a turn (I do that often) - and Maps calmly recalculates your route, showing you..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-graphs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748879365710/23d7601e-cde0-489b-a843-97190e58e5c9.png"/>
 
-Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way – maybe you miss a turn (I do that often) – and Maps calmly recalculates your route, showing you a new path that still gets you to your destination.
+Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way - maybe you miss a turn (I do that often) - and Maps calmly recalculates your route, showing you a new path that still gets you to your destination.
 
-Behind that seamless rerouting is a graph – not a chart, but a structure of **nodes** (places) and **edges** (roads) that allows Google Maps to calculate the shortest, fastest, or least congested path from point A to point B.
+Behind that seamless rerouting is a graph - not a chart, but a structure of **nodes** (places) and **edges** (roads) that allows Google Maps to calculate the shortest, fastest, or least congested path from point A to point B.
 
 Once you start noticing them, you’ll realize graphs are everywhere. If you’ve ever used:
 
@@ -103,7 +103,7 @@ This article is beginner-friendly, and no prior knowledge of graphs is required.
 
 ## What is a Graph?
 
-At its core, a graph is a collection of **nodes** (also called vertices) and **edges** – connections that link those nodes together.
+At its core, a graph is a collection of **nodes** (also called vertices) and **edges** - connections that link those nodes together.
 
 If it sounds simple, that’s because it is. The power of graphs isn’t in their complexity, it’s in their flexibility. You can use them to represent almost anything: people, cities, web pages, tasks, game moves, and the relationships between them.
 
@@ -152,13 +152,13 @@ Graphs can vary in **direction**, **weight**, and **structure**. Understanding t
 
 ### Directed Graphs
 
-In a directed graph (also known as a **digraph**), connections between nodes move in a specific direction. Think of it like a one-way street – if you can drive from Point A to Point B, that doesn't necessarily mean you can drive back the same way.
+In a directed graph (also known as a **digraph**), connections between nodes move in a specific direction. Think of it like a one-way street - if you can drive from Point A to Point B, that doesn't necessarily mean you can drive back the same way.
 
 A good example of this is X (Twitter). If you follow someone on X, it doesn’t automatically mean they follow you back. Your “follow” is a one-way connection, a directed edge from you to them.
 
-This kind of graph is especially useful in situations where relationships are not mutual. On the internet, links between web pages behave the same way. Page A might link to Page B, but Page B might not link back. Similarly, in workflow systems or task pipelines, each step flows into the next in a specific order, and you generally don’t loop back – Step 1 leads to Step 2, and so on.
+This kind of graph is especially useful in situations where relationships are not mutual. On the internet, links between web pages behave the same way. Page A might link to Page B, but Page B might not link back. Similarly, in workflow systems or task pipelines, each step flows into the next in a specific order, and you generally don’t loop back - Step 1 leads to Step 2, and so on.
 
-![An directed graph with six blue nodes (0–5) and edges connecting them.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365204873/4926ff56-af90-438d-8281-8423ffa1bfad.png)
+![An directed graph with six blue nodes (0-5) and edges connecting them.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365204873/4926ff56-af90-438d-8281-8423ffa1bfad.png)
 
 ### Undirected Graphs
 
@@ -168,9 +168,9 @@ A common example is a friendship on Facebook. If you’re friends with someone, 
 
 Undirected graphs are useful when the relationship itself is mutual and symmetrical, like shared devices on a network or road systems where travel is allowed both ways.
 
-The key difference here is that edges are just lines, not arrows – they don’t imply flow or hierarchy, just connection.
+The key difference here is that edges are just lines, not arrows - they don’t imply flow or hierarchy, just connection.
 
-![An undirected graph with six red nodes (0–5) and edges connecting them symmetrically, showing bidirectional relationships with no arrows.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365067259/af75d2bc-91ee-459a-8277-d0b53a039bd3.png)
+![An undirected graph with six red nodes (0-5) and edges connecting them symmetrically, showing bidirectional relationships with no arrows.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365067259/af75d2bc-91ee-459a-8277-d0b53a039bd3.png)
 
 ### Weighted Graphs
 
@@ -178,7 +178,7 @@ A weighted graph is one where each connection (edge) carries extra information, 
 
 Consider how you use Google Maps to get from one location to another. The app doesn’t just look for any route, it looks for the one that takes the **least time**, travels the **shortest distance**, or uses the **least fuel**. All of those are weights.
 
-In a graph like this, two cities might be connected, but one road might take 5 minutes while another takes 20, so the edge between those cities isn’t just a line – it’s a line with a value.
+In a graph like this, two cities might be connected, but one road might take 5 minutes while another takes 20, so the edge between those cities isn’t just a line - it’s a line with a value.
 
 This structure lets us make smarter decisions. We can ask questions like:
 
@@ -188,11 +188,11 @@ This structure lets us make smarter decisions. We can ask questions like:
 
 If undirected and directed graphs describe who is connected to whom, weighted graphs help us understand how strong, far, or costly those connections are.
 
-![A weighted undirected graph with nine purple nodes (0–8) and labeled edges showing weights. Edge values vary (e.g., 3, 5, 10), modeling a weighted graph.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365667877/bfa51c1c-e17d-4db9-aaf9-5d25d1825af0.png)
+![A weighted undirected graph with nine purple nodes (0-8) and labeled edges showing weights. Edge values vary (e.g., 3, 5, 10), modeling a weighted graph.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365667877/bfa51c1c-e17d-4db9-aaf9-5d25d1825af0.png)
 
 ### Unweighted Graphs
 
-In an unweighted graph, all edges are treated equally. A connection either exists, or it doesn’t – there’s no extra value or cost attached.
+In an unweighted graph, all edges are treated equally. A connection either exists, or it doesn’t - there’s no extra value or cost attached.
 
 Think of a group of friends where you only care about whether two people know each other. You’re not trying to measure how close they are or how often they talk, you just want to map the presence or absence of a relationship.
 
@@ -200,7 +200,7 @@ Unweighted graphs are useful for modeling systems where the existence of a conne
 
 In short, unweighted graphs are all about the “yes/no,” not the “how much.”
 
-![An unweighted graph with orange nodes (0–8). The nodes are connected without arrows, forming a loosely circular layout.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365816756/761186c7-befb-4dc9-8059-787aac271e05.png)
+![An unweighted graph with orange nodes (0-8). The nodes are connected without arrows, forming a loosely circular layout.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748365816756/761186c7-befb-4dc9-8059-787aac271e05.png)
 
 ### Cyclic Graphs
 
@@ -212,11 +212,11 @@ Cyclic graphs are especially useful in simulations, games, or real-world systems
 
 But they can also introduce complexity, especially in algorithms that aren’t meant to handle cycles. Recognizing whether your graph has cycles is often an important first step in choosing the right traversal method.
 
-![A green-node cyclic graph with eight nodes (0–7).](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366079943/bf3b7675-cee8-442a-a680-e52e9ee85612.png)
+![A green-node cyclic graph with eight nodes (0-7).](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366079943/bf3b7675-cee8-442a-a680-e52e9ee85612.png)
 
 ### Acyclic Graphs
 
-An acyclic graph is the opposite of a cyclic one – there are no loops. Once you start moving through the graph, you can’t return to a node you’ve already visited by following the direction of the edges. They can either be directed or undirected graphs.
+An acyclic graph is the opposite of a cyclic one - there are no loops. Once you start moving through the graph, you can’t return to a node you’ve already visited by following the direction of the edges. They can either be directed or undirected graphs.
 
 Think of task management systems where some tasks depend on others. You can't complete Task C until you’ve finished Task B, and you can't start B until A is done. There’s a natural order, and no looping back.
 
@@ -226,7 +226,7 @@ Acyclic graphs are common in:
 - Organizational charts
 - Tutorial progression systems (like one chapter unlocking the next)
 
-![A red-node acyclic graph with eight nodes (0–7).](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366703312/412cece1-85f2-4251-a422-776d56f115e7.png)
+![A red-node acyclic graph with eight nodes (0-7).](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366703312/412cece1-85f2-4251-a422-776d56f115e7.png)
 
 ### Directed Acyclic Graphs
 
@@ -236,9 +236,9 @@ This structure is incredibly common in computing, especially when you need to tr
 
 In Git, for example, every commit points to one or more parent commits, forming a directed graph of changes. But since commits can’t “revisit” an earlier state, the structure remains acyclic.
 
-In package managers, a library might depend on others, but you can't have a loop. Say library A depends on B, which depends on C, which depends on A again – that would break everything. A DAG ensures that dependencies move forward, not in circles.
+In package managers, a library might depend on others, but you can't have a loop. Say library A depends on B, which depends on C, which depends on A again - that would break everything. A DAG ensures that dependencies move forward, not in circles.
 
-![A blue-node directed acyclic graph (DAG) with eight nodes (0–7). ](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366537100/1110ebc4-33eb-4036-9ead-4a6178e02474.png)
+![A blue-node directed acyclic graph (DAG) with eight nodes (0-7). ](https://cdn.hashnode.com/res/hashnode/image/upload/v1748366537100/1110ebc4-33eb-4036-9ead-4a6178e02474.png)
 
 ---
 
@@ -257,7 +257,7 @@ Each has its strengths, and which one you use depends on the type of graph and w
 
 An adjacency list stores a graph as a collection of nodes, where each node maps to a list of its neighbors (nodes it’s connected to). An adjacency list is one of the most intuitive ways to represent a graph. But how you write this list depends on the type of graph you’re working with.
 
-**For an undirected graph**, the connection goes both ways, so each edge is written twice – once for each node.
+**For an undirected graph**, the connection goes both ways, so each edge is written twice - once for each node.
 
 **For a directed graph**, each connection only flows one way, so you only write it once, in the direction it points.
 
@@ -267,7 +267,7 @@ An adjacency list stores a graph as a collection of nodes, where each node maps 
 
 - Memory-efficient for sparse graphs (that is, not all nodes are connected)
 - Easy to add or remove nodes and edges
-- Fast to get a node’s neighbors – just read its list
+- Fast to get a node’s neighbors - just read its list
 
 **Downsides:**
 
@@ -295,7 +295,7 @@ An adjacency matrix uses a 2D array (or grid) to represent connections between n
 
 **Downsides:**
 
-- High space complexity – even if the graph has few edges, the matrix still takes up `O(V²)` space.
+- High space complexity - even if the graph has few edges, the matrix still takes up `O(V²)` space.
 - Inefficient for sparse graphs, where many cells are unused.
 - Finding neighbors requires scanning an entire row, which takes `O(V)` time.
 
@@ -315,7 +315,7 @@ Traversal is used when:
 
 There are two primary ways to traverse a graph: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)**. Let’s traverse through this graph using both methods:
 
-![An undirected graph with labeled nodes (A–E)](https://cdn.hashnode.com/res/hashnode/image/upload/v1748378930021/c8c46f1e-493d-4790-a48b-5059359bd3a4.png)
+![An undirected graph with labeled nodes (A-E)](https://cdn.hashnode.com/res/hashnode/image/upload/v1748378930021/c8c46f1e-493d-4790-a48b-5059359bd3a4.png)
 
 ### Breadth-First Search (BFS)
 
@@ -453,7 +453,7 @@ Imagine you're playing chess, and your knight is stuck in one corner of the boar
 
 This is a classic graph problem.
 
-Each square on the chessboard can be represented as a node. If a knight can legally move from one square to another, there's an edge between them. The knight’s movement rules – those L-shaped hops – define the graph’s edges. So if you think about it, you're navigating a graph, trying to find the shortest path from one node (start square) to another (target square).
+Each square on the chessboard can be represented as a node. If a knight can legally move from one square to another, there's an edge between them. The knight’s movement rules - those L-shaped hops - define the graph’s edges. So if you think about it, you're navigating a graph, trying to find the shortest path from one node (start square) to another (target square).
 
 Let’s break it down.
 
@@ -540,7 +540,7 @@ class Square:
         for dx, dy in zip(row_moves, col_moves):
             nx, ny = self.x_coord + dx, self.y_coord + dy
 
-            # Only add valid board positions (0–7 for an 8x8 board)
+            # Only add valid board positions (0-7 for an 8x8 board)
             if 0 <= nx < 8 and 0 <= ny < 8:
                 self.children.append(Square(nx, ny, self))
 ```
@@ -604,7 +604,7 @@ This returns the shortest sequence of moves the knight must take to travel from 
 [(3, 4), (2, 2), (0, 1)]
 ```
 
-Each tuple represents a square on the chessboard that the knight visits. This is the shortest possible path the knight can take (from start to end square) – and thanks to how BFS works, we know for sure that no shorter path exists. That guarantee of optimality is what makes Breadth-First Search a perfect fit here.
+Each tuple represents a square on the chessboard that the knight visits. This is the shortest possible path the knight can take (from start to end square) - and thanks to how BFS works, we know for sure that no shorter path exists. That guarantee of optimality is what makes Breadth-First Search a perfect fit here.
 
 ---
 
@@ -618,7 +618,7 @@ They allow you to model and solve complex real-world problems by connecting enti
 ```component VPCard
 {
   "title": "A Beginner’s Guide to Graphs — From Google Maps to Chessboards",
-  "desc": "Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way – maybe you miss a turn (I do that often) – and Maps calmly recalculates your route, showing you...",
+  "desc": "Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way - maybe you miss a turn (I do that often) - and Maps calmly recalculates your route, showing you...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-graphs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

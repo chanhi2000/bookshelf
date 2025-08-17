@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/imports.9d65e7197280.jpg
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Absolute vs Relative Imports in Python – Real Python"
+  name="[COURSE] Absolute vs Relative Imports in Python - Real Python"
   desc="If you’ve worked on a Python project that has more than one file, chances are you’ve had to use an import statement before. In this course, you’ll not only cover the pros and cons of absolute and relative imports but also learn about the best practices for writing import statements."
   url="https://realpython.com/courses/absolute-vs-relative-imports-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -314,7 +314,7 @@ Thanks for reading!
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Absolute vs Relative Imports in Python – Real Python"
+  name="[COURSE] Absolute vs Relative Imports in Python - Real Python"
   desc="If you’ve worked on a Python project that has more than one file, chances are you’ve had to use an import statement before. In this course, you’ll not only cover the pros and cons of absolute and relative imports but also learn about the best practices for writing import statements."
   url="https://realpython.com/courses/absolute-vs-relative-imports-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

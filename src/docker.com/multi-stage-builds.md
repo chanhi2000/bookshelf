@@ -102,9 +102,9 @@ ENTRYPOINT ["java", "-jar", "/app/AtSea-0.0.1-SNAPSHOT.jar"]
 CMD ["--spring.profiles.active=postgres"]
 ```
 
-This step uses COPY –from command to copy files from the intermediate images. Multi-stage builds can also use offsets instead of named stages, e.g.  “`COPY --from=0 /usr/src/atsea/app/react-app/build/ .”`
+This step uses COPY -from command to copy files from the intermediate images. Multi-stage builds can also use offsets instead of named stages, e.g.  “`COPY --from=0 /usr/src/atsea/app/react-app/build/ .”`
 
-Multi-stage builds facilitate the creation of small and significantly more efficient containers since the final image can be free of any build tools. External scripts are no longer needed to orchestrate a build. Instead, an application image is built and started by using docker-compose up –build. A stack is deployed using `docker stack deploy -c docker-stack.yml.`
+Multi-stage builds facilitate the creation of small and significantly more efficient containers since the final image can be free of any build tools. External scripts are no longer needed to orchestrate a build. Instead, an application image is built and started by using docker-compose up -build. A stack is deployed using `docker stack deploy -c docker-stack.yml.`
 
 ---
 

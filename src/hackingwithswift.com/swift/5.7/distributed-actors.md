@@ -52,11 +52,11 @@ author:
 
 > Available from Swift 5.7
 
-[SE-0336 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0336-distributed-actor-isolation.md) and [SE-0344 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0344-distributed-actor-runtime.md) introduce the ability for actors to work in a distributed form – to read and write properties or call methods over a network using remote procedure calls (RPC).
+[SE-0336 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0336-distributed-actor-isolation.md) and [SE-0344 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0344-distributed-actor-runtime.md) introduce the ability for actors to work in a distributed form - to read and write properties or call methods over a network using remote procedure calls (RPC).
 
 This is every part as complicated a problem as you might imagine, but there are three things to make it easier:
 
-1. Swift’s approach of *location transparency* effectively forces us to assume the actors are remote, and in fact provides no way of determining at compile time whether an actor is local or remote – we just use the same `await` calls we would no matter what, and if the actor happens to be local then the call is handled as a regular local actor function.
+1. Swift’s approach of *location transparency* effectively forces us to assume the actors are remote, and in fact provides no way of determining at compile time whether an actor is local or remote - we just use the same `await` calls we would no matter what, and if the actor happens to be local then the call is handled as a regular local actor function.
 2. Rather than forcing us to build our own actor transport systems, Apple is providing a [ready-made implementation (<FontIcon icon="iconfont icon-github"/>`apple/swift-distributed-actors`)](https://github.com/apple/swift-distributed-actors) for us to use. Apple has [<FontIcon icon="fa-brands fa-swift"/>said](https://swift.org/blog/distributed-actors/) they “only expect a handful of mature implementations to take the stage eventually,” but helpfully all the distributed actor features in Swift are agnostic of whatever actor transport you use.
 3. To move from an actor to a distributed actor we mostly just need to write `distributed actor` then `distributed func` as needed.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "What is a Merge in Git?"
-description: "Article(s) > (1/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (1/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (1/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "What is a Merge in Git?"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-what-is-a-merge-in-git"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -64,4 +64,4 @@ You see the branch <FontIcon icon="fas fa-code-branch"/>`feature_1`, which point
 
 Notice that commit `54a9d` is also on this branch, as it is the parent commit of `ba0d2`. So if you start from the pointer of <FontIcon icon="fas fa-code-branch"/>`feature_1`, you get to `ba0d2`, which then points to `54a9d`.
 
-When you merge with Git, you merge **commits**. Almost always, we merge two commits by referring to them with the branch names that point to them. Thus we say we "merge branches" – though under the hood, we actually merge commits.
+When you merge with Git, you merge **commits**. Almost always, we merge two commits by referring to them with the branch names that point to them. Thus we say we "merge branches" - though under the hood, we actually merge commits.

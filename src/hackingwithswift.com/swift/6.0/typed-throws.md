@@ -95,7 +95,7 @@ do {
 }
 ```
 
-That call site is the important change here: in earlier versions of Swift we'd need a so-called "Pokémon catch" at the end, because Swift couldn't be sure exactly error types could be thrown – you've "gotta catch 'em all."
+That call site is the important change here: in earlier versions of Swift we'd need a so-called "Pokémon catch" at the end, because Swift couldn't be sure exactly error types could be thrown - you've "gotta catch 'em all."
 
 This comes with several other advantages:
 

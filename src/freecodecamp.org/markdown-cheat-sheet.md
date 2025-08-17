@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Markdown Cheat Sheet – How to Write in Markdown with Examples"
-description: "Article(s) > Markdown Cheat Sheet – How to Write in Markdown with Examples"
+title: "Markdown Cheat Sheet - How to Write in Markdown with Examples"
+description: "Article(s) > Markdown Cheat Sheet - How to Write in Markdown with Examples"
 icon: fa-brands fa-markdown
 category:
   - Markdown
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Markdown Cheat Sheet – How to Write in Markdown with Examples"
+      content: "Article(s) > Markdown Cheat Sheet - How to Write in Markdown with Examples"
     - property: og:description
-      content: "Markdown Cheat Sheet – How to Write in Markdown with Examples"
+      content: "Markdown Cheat Sheet - How to Write in Markdown with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/markdown-cheat-sheet.html
 prev: /programming/md/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2022/01/Copy-of-C
 ---
 
 <SiteInfo
-  name="Markdown Cheat Sheet – How to Write in Markdown with Examples"
+  name="Markdown Cheat Sheet - How to Write in Markdown with Examples"
   desc="Markdown has gained popularity because it's easy to use and it's widely accepted across platforms.  You can use markdown to write content that can be conveyed in plain text. A good example would be a blog post. In this article, you'll learn what mark..."
   url="https://freecodecamp.org/news/markdown-cheat-sheet"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -219,7 +219,7 @@ Check out my other [blog posts (<FontIcon icon="fa-brands fa-free-code-camp"/>za
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Markdown Cheat Sheet – How to Write in Markdown with Examples",
+  "title": "Markdown Cheat Sheet - How to Write in Markdown with Examples",
   "desc": "Markdown has gained popularity because it's easy to use and it's widely accepted across platforms.  You can use markdown to write content that can be conveyed in plain text. A good example would be a blog post. In this article, you'll learn what mark...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/markdown-cheat-sheet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

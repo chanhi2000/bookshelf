@@ -152,7 +152,7 @@ You accumulated a lot of promises in your code, and you want to perform all thes
 
 You either have two choices here that you can use for this use case:
 
-1. You can perform all the promises one by one – you can run these promises one by one or chain them and process the data as soon as it is available
+1. You can perform all the promises one by one - you can run these promises one by one or chain them and process the data as soon as it is available
 2. You can perform all promises passing them as an array input to `Promise.all` and the method will return a value
 
 The better solution to use in this case is to use the `Promise.all` method. It will perform all the promises, return a single promise, and resolve when all of the promises passed are resolved:

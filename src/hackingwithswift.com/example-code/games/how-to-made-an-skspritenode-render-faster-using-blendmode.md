@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-All SpriteKit nodes have a `blendMode` property that describes how they should be drawn to the screen. The default value is `.alpha`, which means the sprite should be drawn so that its alpha transparency is respected – any parts that are translucent get blended with the existing background color at that point, and any fully transparent parts are not drawn at all.
+All SpriteKit nodes have a `blendMode` property that describes how they should be drawn to the screen. The default value is `.alpha`, which means the sprite should be drawn so that its alpha transparency is respected - any parts that are translucent get blended with the existing background color at that point, and any fully transparent parts are not drawn at all.
 
-Alpha drawing is obviously a sensible default, because it allows us to render sprites with irregular shapes and holes. However, if you know for a fact that your sprite is completely rectangular and has no holes then using `.alpha` is wasteful – SpriteKit is forced to do alpha blending even though it isn’t required. This is particularly common with background images: if they are designed to fill the full screen, there’s no need to make them drawing using `.alpha`. 
+Alpha drawing is obviously a sensible default, because it allows us to render sprites with irregular shapes and holes. However, if you know for a fact that your sprite is completely rectangular and has no holes then using `.alpha` is wasteful - SpriteKit is forced to do alpha blending even though it isn’t required. This is particularly common with background images: if they are designed to fill the full screen, there’s no need to make them drawing using `.alpha`. 
 
-To fix this – and make such drawing significantly faster – change the blend mode of opaque sprites to be `.replace`, which ignores any alpha in the texture:
+To fix this - and make such drawing significantly faster - change the blend mode of opaque sprites to be `.replace`, which ignores any alpha in the texture:
 
 ```swift
 background.blendMode = .replace

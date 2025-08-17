@@ -49,7 +49,7 @@ isOriginal: false
 
 > Available from Swift 5.5
 
-[SE-0317 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0317-async-let.md) introduced the ability to create and await child tasks using the simple syntax `async let`. This is particularly useful as an alternative to task groups where you’re dealing with heterogeneous result types – i.e., if you want tasks in a group to return different kinds of data.
+[SE-0317 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0317-async-let.md) introduced the ability to create and await child tasks using the simple syntax `async let`. This is particularly useful as an alternative to task groups where you’re dealing with heterogeneous result types - i.e., if you want tasks in a group to return different kinds of data.
 
 To demonstrate this, we could create a struct that has three different types of properties that will come from three different async functions:
 
@@ -73,7 +73,7 @@ func getFriends() async -> [String] {
 }
 ```
 
-If we wanted to create a `User` instance from all three of those values, `async let` is the easiest way – it run each function concurrently, wait for all three to finish, then use them to create our object.
+If we wanted to create a `User` instance from all three of those values, `async let` is the easiest way - it run each function concurrently, wait for all three to finish, then use them to create our object.
 
 Here’s how it looks:
 
@@ -94,7 +94,7 @@ You can only use `async let` if you are already in an async context, and if you 
 
 :::
 
-When working with throwing functions, you *don’t* need to use `try` with `async let` – that can automatically be pushed back to where you await the result. Similarly, the `await` keyword is also implied, so rather than typing `try await someFunction()` with an `async let` you can just write `someFunction()`.
+When working with throwing functions, you *don’t* need to use `try` with `async let` - that can automatically be pushed back to where you await the result. Similarly, the `await` keyword is also implied, so rather than typing `try await someFunction()` with an `async let` you can just write `someFunction()`.
 
 To demonstrate this, we could write an async function to recursively calculate numbers in the Fibonacci sequence. This approach is hopelessly naive because without memoization we’re just repeating vast amounts of work, so to avoid causing everything to grind to a halt we’re going to limit the input range from 0 to 22:
 

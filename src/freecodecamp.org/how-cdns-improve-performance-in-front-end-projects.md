@@ -121,7 +121,7 @@ There are three ways you can access CDN resources in your project:
 
 Remote CDN links allow developers to access styling resources from a third-party server by simply linking to the CDN in their HTML files via the `link` or `script` tag.
 
-Bootstrap, for example, has two primary CDN links – one for CSS stylesheet and another for JavaScript (handles dynamic interaction like dropdowns, pop-overs, and so on).
+Bootstrap, for example, has two primary CDN links - one for CSS stylesheet and another for JavaScript (handles dynamic interaction like dropdowns, pop-overs, and so on).
 
 To use a Bootstrap stylesheet in your project, you need to add this single line - `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css`
 
@@ -186,7 +186,7 @@ If you follow these steps, you should be able to localize the CDN resource and a
 
 ### Hybrid Hosted CDN
 
-This approach involves the combination of using both the remote link and local hosting of CDN resources. A hybrid approach – which involves using remote CDNs for core libraries and local hosting for custom stylesheets – may strike the perfect balance between performance and control.
+This approach involves the combination of using both the remote link and local hosting of CDN resources. A hybrid approach - which involves using remote CDNs for core libraries and local hosting for custom stylesheets - may strike the perfect balance between performance and control.
 
 ::: tabs
 

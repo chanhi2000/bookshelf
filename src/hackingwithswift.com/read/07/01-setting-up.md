@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/Qisx0mkHNTo" />
 
-This project will take a data feed from a website and parse it into useful information for users. As per usual, this is just a way of teaching you some new iOS development techniques, but let's face it – you already have two apps and two games under your belt, so you're starting to build up a pretty good library of work!
+This project will take a data feed from a website and parse it into useful information for users. As per usual, this is just a way of teaching you some new iOS development techniques, but let's face it - you already have two apps and two games under your belt, so you're starting to build up a pretty good library of work!
 
 This time you'll be learning about `UITabBarController` and a data format called JSON, which is a popular way to send and receive data online. It's not easy to find interesting JSON feeds that are freely available, but the option we'll be going for is the "We the people" Whitehouse petitions in the US, where Americans can submit requests for action, and others can vote on it.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
-description: "Article(s) > Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
+title: "Shodan - What to Know About the Internet’s Most Dangerous Search Engine"
+description: "Article(s) > Shodan - What to Know About the Internet’s Most Dangerous Search Engine"
 icon: fas fa-shield-halved
 category: 
   - Security
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
+      content: "Article(s) > Shodan - What to Know About the Internet’s Most Dangerous Search Engine"
     - property: og:description
-      content: "Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
+      content: "Shodan - What to Know About the Internet’s Most Dangerous Search Engine"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shodan-what-to-know-about-the-internets-most-dangerous-search-engine.html
 prev: /devops/security/articles/README.md
@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725990169364/3181020
 ---
 
 <SiteInfo
-  name="Shodan – What to Know About the Internet’s Most Dangerous Search Engine"
+  name="Shodan - What to Know About the Internet’s Most Dangerous Search Engine"
   desc="Shodan is a search engine that discovers devices connected to the internet. In this article, we’ll look at why it’s both a valuable tool and a potential threat. When you hear the term “search engine,” your mind likely jumps to Google, Bing, or Yahoo..."
   url="https://freecodecamp.org/news/shodan-what-to-know-about-the-internets-most-dangerous-search-engine/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

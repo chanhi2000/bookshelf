@@ -76,7 +76,7 @@ On the technical end, it’s necessary to include the targeted platform, the ava
 
 Typically, there’s not much hesitation concerning the frontend, as the number of relevant programming languages is pretty small, and so is the risk of a wrong choice. But at the backend, things get more complex. The options are plenty. Each one has advantages and downsides. Plus, the situation is fluid, with some technologies gaining wider support and some slowly fading.
 
-In recent years, the two languages have garnered a lot of attention from the industry and experienced significant growth in their respective communities: Python and Golang. Their fame is well-deserved. Both these languages are powerful tools for creating a wide range of high-demand solutions – each with its advantages and limitations.
+In recent years, the two languages have garnered a lot of attention from the industry and experienced significant growth in their respective communities: Python and Golang. Their fame is well-deserved. Both these languages are powerful tools for creating a wide range of high-demand solutions - each with its advantages and limitations.
 
 Let’s compare their strengths, weaknesses, and typical applications to find out how they’re different and how to get the best of them.
 
@@ -90,13 +90,13 @@ Conceived in 1989 by Guido van Rossum (and named after the cult comedy group rat
 
 ![Python programming language popularity over time according to Tiobe.com](https://images.surferseo.art/f8fd0672-8145-4d39-92d6-e6aaabac7e0b.png)
 
-Nowadays, Python is used in almost every field of programming – with possibly the sole exception of safety-critical embedded systems, which require faster solutions. As both a compiled and interpreted language, it is first compiled and then interpreted with an accompanying script, which affects the speed of code execution. Describing Python as slow would be a plain overstatement, but there are indeed faster languages.
+Nowadays, Python is used in almost every field of programming - with possibly the sole exception of safety-critical embedded systems, which require faster solutions. As both a compiled and interpreted language, it is first compiled and then interpreted with an accompanying script, which affects the speed of code execution. Describing Python as slow would be a plain overstatement, but there are indeed faster languages.
 
 ---
 
 ## Golang: superfast and lightweight programming language
 
-One of them is Go – sometimes referred to as Golang (we’re using both names interchangeably for language convenience) because of its former domain Golang.org, now redirecting to [<FontIcon icon="fa-brands fa-golang"/>Go.dev](https://Go.dev). It is a more recently developed language, designed by Google engineers in 2007, publicly announced in 2007, and released as version 1.0 in 2012. According to its creators, Go “combines the development speed of working in a dynamic language like Python with the performance and safety of a compiled language like C or C++.”
+One of them is Go - sometimes referred to as Golang (we’re using both names interchangeably for language convenience) because of its former domain Golang.org, now redirecting to [<FontIcon icon="fa-brands fa-golang"/>Go.dev](https://Go.dev). It is a more recently developed language, designed by Google engineers in 2007, publicly announced in 2007, and released as version 1.0 in 2012. According to its creators, Go “combines the development speed of working in a dynamic language like Python with the performance and safety of a compiled language like C or C++.”
 
 Unlike Python, Go is a compiled, strongly statically typed language. Go programs compile really fast and produce single, self-contained, small binaries. In terms of speed, Golang easily outperforms interpreted languages and wins the “Go vs. Python” rivalry. According to runtime performance tests, Go can run up to 40 times faster than its competitor.
 
@@ -182,7 +182,7 @@ Python is a dynamically typed language. The interpreter doesn’t know the varia
 
 One of Go’s main strengths is its native parallelism and concurrency support, and it beats Python in this regard. The latter also offers tools for managing these features, but they’re not included in the standard library. Go is widely recognized for handling both types of computation more efficiently.
 
-A noteworthy difference is Python’s support for inheritance and Golang’s lack thereof. Inheritance increases code reusability and simplifies development, though it might decrease the execution speed – the quality at which Golang excels.
+A noteworthy difference is Python’s support for inheritance and Golang’s lack thereof. Inheritance increases code reusability and simplifies development, though it might decrease the execution speed - the quality at which Golang excels.
 
 Regarding the core strengths of both languages and putting them to practical use, Go is perfect for systems programming and developing cloud systems, while Python works best for solving data science problems and developing machine learning applications.
 
@@ -228,7 +228,7 @@ Python may have some cool features for optimizing memory utilization, but it’s
 
 **It’s not the best choice for mobile apps**
 
-Python is basically a server-side language and not an ideal tool for mobile app development. One reason is its relatively low speed, another – the memory usage. The language has made some progress with libraries like Kivy and Beeware, but it still has a long way to go to compete in mobile computing.
+Python is basically a server-side language and not an ideal tool for mobile app development. One reason is its relatively low speed, another - the memory usage. The language has made some progress with libraries like Kivy and Beeware, but it still has a long way to go to compete in mobile computing.
 
 **It scores low on database handling**
 

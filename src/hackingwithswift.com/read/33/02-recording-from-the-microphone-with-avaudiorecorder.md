@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -52,9 +52,9 @@ isOriginal: false
 ```
 
 
-We're going to start off this project easily enough by looking at `AVAudioRecorder`: the iOS way of recording audio from the microphone. You might be tempted to skip past this so you can focus on the CloudKit parts, but please don't – I didn't put audio recording in here just for fun! Instead, it's used to demonstrate how to store binary assets (i.e., data files) inside CloudKit, so it's an integral part of the project.
+We're going to start off this project easily enough by looking at `AVAudioRecorder`: the iOS way of recording audio from the microphone. You might be tempted to skip past this so you can focus on the CloudKit parts, but please don't - I didn't put audio recording in here just for fun! Instead, it's used to demonstrate how to store binary assets (i.e., data files) inside CloudKit, so it's an integral part of the project.
 
-The built-in Xcode template will have given you one empty view controller inside <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, plus a <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` file. We're going to be doing almost all the user interface in code for this project, so you can almost ignore the storyboard entirely – in fact, all you need to do is select the view controller that was created and embed it inside a navigation controller. Now go to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add these lines to `viewDidLoad()`:
+The built-in Xcode template will have given you one empty view controller inside <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, plus a <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` file. We're going to be doing almost all the user interface in code for this project, so you can almost ignore the storyboard entirely - in fact, all you need to do is select the view controller that was created and embed it inside a navigation controller. Now go to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add these lines to `viewDidLoad()`:
 
 ```swift
 title = "What's that Whistle?"
@@ -71,7 +71,7 @@ That gives us a button to tap to add a whistle to the app, then customizes the t
 }
 ```
 
-So, that creates a new object of type `RecordWhistleViewController` (not yet written), and pushes it onto the view controller stack. That's it for <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` for now – trust me, we'll be adding a *lot* more code to it later!
+So, that creates a new object of type `RecordWhistleViewController` (not yet written), and pushes it onto the view controller stack. That's it for <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` for now - trust me, we'll be adding a *lot* more code to it later!
 
 Add a new file to your project, choosing Cocoa Touch Class. Make it a subclass of `UIViewController` and name it `RecordWhistleViewController`. Make sure "Also create XIB file" is not selected and that "Swift" is chosen for your language, then click Next to save it.
 
@@ -132,7 +132,7 @@ var recordingSession: AVAudioSession!
 var whistleRecorder: AVAudioRecorder!
 ```
 
-Now for the complicated part: setting up the recording environment. To do this, we're going to get hold of the built-in system audio session and ask for play and record privileges – record so we can grab audio from the microphone, and play so users can preview what was recorded. We'll use the `requestRecordPermission()` method of the audio session to ask the user whether we can record or not, and give that a trailing closure to execute when the user makes a choice.
+Now for the complicated part: setting up the recording environment. To do this, we're going to get hold of the built-in system audio session and ask for play and record privileges - record so we can grab audio from the microphone, and play so users can preview what was recorded. We'll use the `requestRecordPermission()` method of the audio session to ask the user whether we can record or not, and give that a trailing closure to execute when the user makes a choice.
 
 If the user grants us access to the microphone, we'll execute a new method called `loadRecordingUI()`, otherwise we'll call `loadFailUI()`. Both of these need to be pushed onto the main thread because the callback from `requestRecordPermission()` can happen on any thread. I'll provide you with method stubs for `loadRecordingUI()` and `loadFailUI()` for now, but we'll add to them shortly. Replace your current `viewDidLoad()` with this:
 
@@ -171,7 +171,7 @@ func loadFailUI() {
 
 Just calling `requestRecordPermission()` isn’t enough to record from the microphone. As with reading photos, we also need to add a string to the Info.plist file explaining to the user what we intend to do with the audio. So, open the Info.plist file now, select any row, then click the + next that appears next to it. Select the key name “Privacy - Microphone Usage Description” then give it the value “We need to record your whistle.” Done!
 
-To help the interface adapt to each user's preferences, we're going to use Dynamic Type to control our fonts. This means users can adjust the font size in the Settings app and have it reflected in our app. We don't need to worry about sizing up or positioning the buttons – just by using `.title1` and `.headline` we give the labels enough information to size themselves, and the stack view will do the rest.
+To help the interface adapt to each user's preferences, we're going to use Dynamic Type to control our fonts. This means users can adjust the font size in the Settings app and have it reflected in our app. We don't need to worry about sizing up or positioning the buttons - just by using `.title1` and `.headline` we give the labels enough information to size themselves, and the stack view will do the rest.
 
 Here's some new code for `loadRecordingUI()` and `loadFailUI()`; replace the previous stubs with this:
 
@@ -230,7 +230,7 @@ When we want to start recording, the app needs to do a few things:
 
 Before I show you the code for that, there are two other important things to know. First, when working in the simulator I usually like to print out the URL to a file using `print()`, because it means I can look at it in Finder and be sure it's working correctly. Second, creating an `AVAudioRecorder` can throw an error, so we need to wrap it in a `do/try/catch` block.
 
-That's it – here's the code for `startRecording()`, with numbers added to match the list above:
+That's it - here's the code for `startRecording()`, with numbers added to match the list above:
 
 ```swift
 func startRecording() {
@@ -305,7 +305,7 @@ To avoid adding yet another compiler error, add this empty `nextTapped()` method
 }
 ```
 
-So, that's the code to start and stop recording – amazingly you're most of the way there! Our one button will be used to trigger both events, so we need to write `recordTapped()`. All this will do is call `startRecording()` or `finishRecording()` depending on the current state of the app. And that's it! Here's the code:
+So, that's the code to start and stop recording - amazingly you're most of the way there! Our one button will be used to trigger both events, so we need to write `recordTapped()`. All this will do is call `startRecording()` or `finishRecording()` depending on the current state of the app. And that's it! Here's the code:
 
 ```swift
 @objc func recordTapped() {
@@ -329,11 +329,11 @@ func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully f
 }
 ```
 
-At this point your code will run, and I encourage you to try it in the iOS Simulator so you can see that it's working – if you kept my `print()` call in there, you can open that folder in Finder and see the finished m4a if everything has gone well.
+At this point your code will run, and I encourage you to try it in the iOS Simulator so you can see that it's working - if you kept my `print()` call in there, you can open that folder in Finder and see the finished m4a if everything has gone well.
 
 ![Adding our buttons into a UIStackView means we can animate them appearing and disappearing without much work](https://hackingwithswift.com/img/books/hws/33-7@2x.png)
 
-Note: if you're a less experienced macOS user, you might not know how to navigate to a folder like the one the iOS Simulator uses, because it's hidden by default. For example, you'll get something like this: **file:///Users/twostraws/Library/Developer/CoreSimulator/Devices/E470B24D-5C0C-455F-9726-DC1EAF30D5A4/data/Containers/Data/Application/D5E4C08C-2B1E-40BC-8EBE-97F136D0AFC0/Documents/whistle.m4a** – which hardly trips off the tongue!
+Note: if you're a less experienced macOS user, you might not know how to navigate to a folder like the one the iOS Simulator uses, because it's hidden by default. For example, you'll get something like this: **file:///Users/twostraws/Library/Developer/CoreSimulator/Devices/E470B24D-5C0C-455F-9726-DC1EAF30D5A4/data/Containers/Data/Application/D5E4C08C-2B1E-40BC-8EBE-97F136D0AFC0/Documents/whistle.m4a** - which hardly trips off the tongue!
 
 The easiest thing to do is copy that to a clipboard, open a Finder window, press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>, and paste it into the box. Now delete the "file:/" from the start so that it reads "/Users/yourusername/.....", and "whistle.m4a" from the end, then press Return.
 

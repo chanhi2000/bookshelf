@@ -63,7 +63,7 @@ On the other hand, you also learned how to build a custom permission framework t
 
 Both approaches share some key benefits:
 
-- **Dynamic and scalable**: Adding new actions or entities is as simple as updating a single file – no code rewrites required.
+- **Dynamic and scalable**: Adding new actions or entities is as simple as updating a single file - no code rewrites required.
 - **Separation of concerns**: Keeps validation logic separate from UI components, which makes your code easier to maintain.
 - **Readable**: You can define permissions using simple, conversational language like "*Can I read this post?*" or "*Can I create a comment?*"
 - **Reusable components**: You can reuse wrapper components and hooks across your app to reduce duplication.

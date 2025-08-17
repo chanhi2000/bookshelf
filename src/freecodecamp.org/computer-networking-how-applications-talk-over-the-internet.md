@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Computer Networking Tutorial – How Network Applications Talk Over the Internet"
-description: "Article(s) > Computer Networking Tutorial – How Network Applications Talk Over the Internet"
+title: "Computer Networking Tutorial - How Network Applications Talk Over the Internet"
+description: "Article(s) > Computer Networking Tutorial - How Network Applications Talk Over the Internet"
 icon: fas fa-computer
 category:
   - Engineering
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Computer Networking Tutorial – How Network Applications Talk Over the Internet"
+      content: "Article(s) > Computer Networking Tutorial - How Network Applications Talk Over the Internet"
     - property: og:description
-      content: "Computer Networking Tutorial – How Network Applications Talk Over the Internet"
+      content: "Computer Networking Tutorial - How Network Applications Talk Over the Internet"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/computer-networking-how-applications-talk-over-the-internet.html
 prev: /academics/coen/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2022/01/network-applications
 ---
 
 <SiteInfo
-  name="Computer Networking Tutorial – How Network Applications Talk Over the Internet"
+  name="Computer Networking Tutorial - How Network Applications Talk Over the Internet"
   desc="By Sahil Gupta Network applications are computer applications that participate in a computer network. These applications talk to each other by plugging into the network.  For example, when you visit google.com, your browser acts as a network applicat..."
   url="https://freecodecamp.org/news/computer-networking-how-applications-talk-over-the-internet"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -408,7 +408,7 @@ Thank you for reading! I hope you learned something new about computer networks 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Computer Networking Tutorial – How Network Applications Talk Over the Internet",
+  "title": "Computer Networking Tutorial - How Network Applications Talk Over the Internet",
   "desc": "By Sahil Gupta Network applications are computer applications that participate in a computer network. These applications talk to each other by plugging into the network.  For example, when you visit google.com, your browser acts as a network applicat...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/computer-networking-how-applications-talk-over-the-internet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

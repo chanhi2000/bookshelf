@@ -70,7 +70,7 @@ Your biggest security problem might be inside your own network. Hackers don't br
 
 Zero-Trust Authentication fixes this. Instead of trusting people once they log in, it checks every person, every device, and every request, every single time. The rule is simple: "Trust no one, verify everything."
 
-This isn't just theory – it works. Companies using zero-trust security have smaller breaches, meet compliance rules easier, and control who sees what data. This matters because [<FontIcon icon="fas fa-globe"/>95% of data breaches happen due to human mistakes, and the average breach now costs $4.88 million](https://securityweek.com/cost-of-data-breach-in-2024-4-88-million-says-latest-ibm-study/).
+This isn't just theory - it works. Companies using zero-trust security have smaller breaches, meet compliance rules easier, and control who sees what data. This matters because [<FontIcon icon="fas fa-globe"/>95% of data breaches happen due to human mistakes, and the average breach now costs $4.88 million](https://securityweek.com/cost-of-data-breach-in-2024-4-88-million-says-latest-ibm-study/).
 
 In this article, you will learn how to build a complete Zero-Trust Authentication system into your web app step by step. From multi-factor authentication (MFA) to behavioral anomaly detection, we will discuss the architecture decisions, code examples, and some real-world approaches you are likely able to implement right away.
 
@@ -92,7 +92,7 @@ Audit your system: examine login flows, token handling, protected routes, sessio
 
 ## What Is Zero-Trust Authentication?
 
-[<FontIcon icon="fas fa-globe"/>Zero-Trust Authentication](https://civilsdaily.com/news/what-is-zero-trust-authentication-zta/) (ZTA) redefines how access is granted in contemporary applications. It doesn't take network location or a single login event into account – it demands the continuous validation of an identity, context, and intent.
+[<FontIcon icon="fas fa-globe"/>Zero-Trust Authentication](https://civilsdaily.com/news/what-is-zero-trust-authentication-zta/) (ZTA) redefines how access is granted in contemporary applications. It doesn't take network location or a single login event into account - it demands the continuous validation of an identity, context, and intent.
 
 Whereas perimeter-based models consider anyone inside a network "safe," zero-trust presumes every request can be compromised. This means that access decisions are made in real time over verified identity, device posture, and behavioral signals. In short, it’s a "security-first" approach designed for a cloud-native, threat-aware world.
 
@@ -158,7 +158,7 @@ function verifyTOTP(token, secret) {
 }
 ```
 
-When the user enters their 6-digit code, this function checks if it's correct. The `window: 2` is smart – it allows for timing differences (like if their phone clock is slightly off). It returns true if the code is valid, false if not.
+When the user enters their 6-digit code, this function checks if it's correct. The `window: 2` is smart - it allows for timing differences (like if their phone clock is slightly off). It returns true if the code is valid, false if not.
 
 SMS verification can serve as a backup option. It’s less secure than TOTP but can work as a backup. Always limit how many SMS codes someone can request to prevent abuse:
 
@@ -266,7 +266,7 @@ class TokenService {
 }
 ```
 
-`generateTokenPair` will generate two signed JWTs – that is, an access token with a 15-minute expiration and a refresh token with a validity of 7 days. The refresh tokens are verified to grant new ones and are checked against a blocklist. This ensures that revoked tokens can’t be reused, even if they’re still technically valid.
+`generateTokenPair` will generate two signed JWTs - that is, an access token with a 15-minute expiration and a refresh token with a validity of 7 days. The refresh tokens are verified to grant new ones and are checked against a blocklist. This ensures that revoked tokens can’t be reused, even if they’re still technically valid.
 
 If you choose, a sliding session can be implemented to reduce friction by renewing tokens for an active user without violating your expiration strategy.
 
@@ -318,9 +318,9 @@ In the above code, when users log out or tokens are compromised, the `jti` is st
 
 ## Session Security
 
-In zero-trust environments, [<FontIcon icon="fas fa-globe"/>session management](https://descope.com/learn/post/session-management) goes far beyond keeping users logged in. A session must be treated as a constantly evaluated contract between the user, their device, and the system – and should be revoked the moment trust breaks down.
+In zero-trust environments, [<FontIcon icon="fas fa-globe"/>session management](https://descope.com/learn/post/session-management) goes far beyond keeping users logged in. A session must be treated as a constantly evaluated contract between the user, their device, and the system - and should be revoked the moment trust breaks down.
 
-Here, we’ll build a session system that incorporates adaptive [<FontIcon icon="fas fa-globe"/>trust scoring](https://prove.com/blog/trust-score), dynamic timeouts, real-time visibility, and [<FontIcon icon="fas fa-globe"/>revocation mechanisms](https://researchgate.net/publication/354720916_Revocation_Mechanisms_for_Blockchain_Applications_A_Review) – all aligned with zero-trust principles.
+Here, we’ll build a session system that incorporates adaptive [<FontIcon icon="fas fa-globe"/>trust scoring](https://prove.com/blog/trust-score), dynamic timeouts, real-time visibility, and [<FontIcon icon="fas fa-globe"/>revocation mechanisms](https://researchgate.net/publication/354720916_Revocation_Mechanisms_for_Blockchain_Applications_A_Review) - all aligned with zero-trust principles.
 
 For example, when a user successfully authenticates, you don’t just store a session ID. Instead, you collect contextual metadata to evaluate ongoing risk. The function below demonstrates how to initialize a session that’s both secure and context-aware.
 
@@ -461,7 +461,7 @@ The above code permits full-scale revocation. It blocklists all session tokens, 
 
 ## Role-Based Access Control (RBAC)
 
-Identity verification determines what users can access once they’re logged in. As the basis for any system that is aware of permissions and follows least privilege, [<FontIcon icon="fa-brands fa-wikipedia-w"/>RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) doesn’t grant access on an individual basis – it groups users into roles that define the operations they are permitted to perform.
+Identity verification determines what users can access once they’re logged in. As the basis for any system that is aware of permissions and follows least privilege, [<FontIcon icon="fa-brands fa-wikipedia-w"/>RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) doesn’t grant access on an individual basis - it groups users into roles that define the operations they are permitted to perform.
 
 Before assigning roles to users, you need a structured system to define what each role can do. A set of granular permissions is first identified and then aggregated under these roles, optionally allowing inheritance and hierarchy. The code below shows how to build a basic permission system:
 
@@ -550,7 +550,7 @@ With an array of permissions at its disposal, the app can undertake very precise
 
 Static roles are often insufficient. You may want to give people temporary or conditional access, for example, when the team lead takes over for a manager or when a user approves a higher access level for the sake of incident response.
 
-To support these cases, the RBAC system must allow dynamic role assignment – that is, the ability to assign roles on the basis of time, context, or an external trigger such as a security workflow.
+To support these cases, the RBAC system must allow dynamic role assignment - that is, the ability to assign roles on the basis of time, context, or an external trigger such as a security workflow.
 
 The code below assigns a temporary role to a user, notes the exact time at which the role was assigned to the user, and periodically revokes the right after some fixed amount of time. Also, it has a method to calculate a user's complete set of active rights, depending on their permanent rights, temporary rights, and role-based contextual rights.
 
@@ -749,7 +749,7 @@ Generating a fingerprint hash from device traits, this service uses historical e
 
 ### Behavioral Analysis
 
-People tend to use apps rather consistently – they type a certain way, move the mouse in a particular manner, or browse varied content. [<FontIcon icon="fas fa-globe"/>Behavioral analysis](https://zimperium.com/glossary/behavioral-analysis) tries to detect that anomaly by comparing ongoing activities to known ones.
+People tend to use apps rather consistently - they type a certain way, move the mouse in a particular manner, or browse varied content. [<FontIcon icon="fas fa-globe"/>Behavioral analysis](https://zimperium.com/glossary/behavioral-analysis) tries to detect that anomaly by comparing ongoing activities to known ones.
 
 ```js :collapsed-lines
 // Behavioral analysis system
@@ -998,7 +998,7 @@ In the above code, the class logs detailed authentication events such as the app
 
 From a security perspective, it’s envisaged to generate security reports with the advantage of flagging critical events such as brute-force attempts or logins from suspicious geographies that can send real-time alerts.
 
-Monitoring authentication events isn’t enough – the system must be able to interpret patterns and flag suspicious behavior. This detection system combines static rule-based checks with dynamic anomaly detection powered by machine learning. It identifies threats like brute-force attacks, credential stuffing, and unusual geographic access, then escalates them automatically for further action.
+Monitoring authentication events isn’t enough - the system must be able to interpret patterns and flag suspicious behavior. This detection system combines static rule-based checks with dynamic anomaly detection powered by machine learning. It identifies threats like brute-force attacks, credential stuffing, and unusual geographic access, then escalates them automatically for further action.
 
 The following code performs real-time threat detection by analyzing recent authentication events and contextual data. Here's what it does, broken down clearly:
 
@@ -1195,7 +1195,7 @@ class AutomatedThreatResponse {
 }
 ```
 
-Here, the system uses playbooks – predefined actions to be taken in response to threats. For example, locks user from further brute-force attempts for some time and sends them an email notification. Freezing the account and ending all sessions are some reactive measures you can take if suspicious behavior indicates a takeover. These measures ensure fast and consistent action to mitigate damage even before humans can get involved.
+Here, the system uses playbooks - predefined actions to be taken in response to threats. For example, locks user from further brute-force attempts for some time and sends them an email notification. Freezing the account and ending all sessions are some reactive measures you can take if suspicious behavior indicates a takeover. These measures ensure fast and consistent action to mitigate damage even before humans can get involved.
 
 ---
 
@@ -1207,7 +1207,7 @@ Complementing the improvement of security, zero-trust promises better user exper
 
 To have long-term success with this approach, you’ll need to continuously monitor your setup, perform periodic assessments, and be responsive to evolving attack patterns. Feedback loops and performance data are essential to keep the system secure yet user-friendly.
 
-As threats grow more sophisticated, so must our defenses. ZTA provides a durable foundation – ready to evolve with emerging technologies like adaptive biometrics and AI-driven risk engines. Organizations investing in it today will be better equipped to meet tomorrow’s security and usability demands.
+As threats grow more sophisticated, so must our defenses. ZTA provides a durable foundation - ready to evolve with emerging technologies like adaptive biometrics and AI-driven risk engines. Organizations investing in it today will be better equipped to meet tomorrow’s security and usability demands.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

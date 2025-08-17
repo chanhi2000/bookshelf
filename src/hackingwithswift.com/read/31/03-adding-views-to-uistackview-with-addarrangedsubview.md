@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -87,7 +87,7 @@ First, add an import for `WebKit` so we can use `WKWebView`:
 import WebKit
 ```
 
-Now here’s the code for `addWebView()` – put this into <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, just below `setDefaultTitle()`:
+Now here’s the code for `addWebView()` - put this into <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, just below `setDefaultTitle()`:
 
 ```swift
 @objc func addWebView() {
@@ -101,13 +101,13 @@ Now here’s the code for `addWebView()` – put this into <FontIcon icon="fa-br
 }
 ```
 
-You can't assign `self` to `webView.navigationDelegate` without conforming to the `WKNavigationDelegate` delegate, so please add that. While you're there, you should also add `UITextFieldDelegate` and `UIGestureRecognizerDelegate` – we'll be using these later. So, your view controller's class should start like this:
+You can't assign `self` to `webView.navigationDelegate` without conforming to the `WKNavigationDelegate` delegate, so please add that. While you're there, you should also add `UITextFieldDelegate` and `UIGestureRecognizerDelegate` - we'll be using these later. So, your view controller's class should start like this:
 
 ```swift
 class ViewController: UIViewController, WKNavigationDelegate, UITextFieldDelegate, UIGestureRecognizerDelegate {
 ```
 
-Notice that we don't need to give the web view a frame or any Auto Layout constraints – that's all handled for us by `UIStackView`.
+Notice that we don't need to give the web view a frame or any Auto Layout constraints - that's all handled for us by `UIStackView`.
 
 Remember, iOS apps can only load HTTPS websites by default, and you need to enable App Transport Security exceptions if you want to load non-secure websites. If you want to learn how to do that, [see my guide to App Transport Security](https://hackingwithswift.com/example-code/system/how-to-handle-the-https-requirements-in-ios-9-with-app-transport-security).
 
@@ -151,7 +151,7 @@ weak var activeWebView: WKWebView?
 
 It's `weak` because it might go away at any time if the user deletes it.
 
-With that property created, the `selectWebView()` method is straightforward: it needs to loop through the array of web views belonging to the stack view, updating each of them to have a zero-width border line, then set the newly selected one to have a border width of three points. Here's the code – place it below `addWebView()`:
+With that property created, the `selectWebView()` method is straightforward: it needs to loop through the array of web views belonging to the stack view, updating each of them to have a zero-width border line, then set the newly selected one to have a border width of three points. Here's the code - place it below `addWebView()`:
 
 ```swift
 func selectWebView(_ webView: WKWebView) {

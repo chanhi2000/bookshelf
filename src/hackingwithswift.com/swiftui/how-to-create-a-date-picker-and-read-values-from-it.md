@@ -110,7 +110,7 @@ struct ContentView: View {
 
 You can see I've set `displayedComponents` to `.date`, but you could also use `.hourAndMinute` to get time data instead.
 
-Using `in: ...Date.now` specifies the date range as being anything up to and including the current date, but nothing after. You could do the opposite – i.e., allow dates starting from now onwards – by using `in: Date.now...`, but you can also use precise ranges if that's what you want.
+Using `in: ...Date.now` specifies the date range as being anything up to and including the current date, but nothing after. You could do the opposite - i.e., allow dates starting from now onwards - by using `in: Date.now...`, but you can also use precise ranges if that's what you want.
 
 From iOS 14 onwards, you can use the new `GraphicalDatePickerStyle()` to get a more advanced date picker, that shows a calendar plus space to enter a precise time:
 

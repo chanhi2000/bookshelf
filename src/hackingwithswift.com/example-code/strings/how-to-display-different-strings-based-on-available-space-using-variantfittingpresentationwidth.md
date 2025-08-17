@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 It’s surprisingly easy to configure your project with multiple strings then have it choose one at runtime based on available space.
 
-First, press <kbd>Cmd</kbd>+N in Xcode to make a new file, then choose “Stringsdict file” – this is a property list XML file containing string settings. Name it “Localizable.stringsdict”, so that iOS picks it up automatically.
+First, press <kbd>Cmd</kbd>+N in Xcode to make a new file, then choose “Stringsdict file” - this is a property list XML file containing string settings. Name it “Localizable.stringsdict”, so that iOS picks it up automatically.
 
 Right-click on the new Localizable.stringsdict file in your Xcode project, then choose Open As > Source Code so you can see the XML inside. You should see that it ends like this:
 
@@ -87,7 +87,7 @@ Add this new XML directly before those two lines:
 </dict>
 ```
 
-That defines a single string key, “Login”, but provides three size variations: one for very little space (size 100), one for a medium amount of space (size 200), and one for lots of space (size 300). These size integers mean nothing to iOS – you can use any numbers that make sense to you, but increments of 100 leave you lots of space to insert new values in between later on.
+That defines a single string key, “Login”, but provides three size variations: one for very little space (size 100), one for a medium amount of space (size 200), and one for lots of space (size 300). These size integers mean nothing to iOS - you can use any numbers that make sense to you, but increments of 100 leave you lots of space to insert new values in between later on.
 
 Now that you have a width-varying string to work with, you can pass that to `NSLocalizedString()`. Note that you must cast the result to an `NSString`:
 
@@ -103,7 +103,7 @@ label.text = localized.variantFittingPresentationWidth(300)
 
 That method only exists on `NSString`, hence the earlier typecast.
 
-You can pass any integer you want into `variantFittingPresentationWidth()` – iOS will automatically resolve it to find the best match in your strings dictionary, counting downwards where necessary. For example, if you tried loading a string with width 500, the 300 string would be returned, but if you tried 299 then the 200 string would be returned.
+You can pass any integer you want into `variantFittingPresentationWidth()` - iOS will automatically resolve it to find the best match in your strings dictionary, counting downwards where necessary. For example, if you tried loading a string with width 500, the 300 string would be returned, but if you tried 299 then the 200 string would be returned.
 
 -->
 

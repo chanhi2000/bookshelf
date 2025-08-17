@@ -71,7 +71,7 @@ struct Book: Purchaseable {
 
 So far this is easy enough, but let's take it one step further: what if the user has a basket full of books, and wants to buy them all? We could loop over all books in the array by hand, calling `buy()` on each one. But a better approach is to write an extension on `Array` to make it conform to `Purchaseable`, then give it a `buy()` method that in turn calls `buy()` on each of its elements.
 
-This is where conditional conformances come in: if we tried to extend all arrays, we'd be adding functionality where it wouldn't make sense – we'd be adding `buy()` to arrays of strings, for example, even though those strings don't have a `buy()` method we can call.
+This is where conditional conformances come in: if we tried to extend all arrays, we'd be adding functionality where it wouldn't make sense - we'd be adding `buy()` to arrays of strings, for example, even though those strings don't have a `buy()` method we can call.
 
 Swift 4.1 lets us make arrays conform to `Purchaseable` only if their elements also conform to `Purchaseable`, like this:
 
@@ -95,7 +95,7 @@ var right: [String?] = ["Charlotte", "Paul", "John"]
 left == right
 ```
 
-That might seem trivial, but that code wouldn't even compile in Swift 4.0 – both `String` and `[String]` were equatable, but `[String?]` was not.
+That might seem trivial, but that code wouldn't even compile in Swift 4.0 - both `String` and `[String]` were equatable, but `[String?]` was not.
 
 The introduction of conditional conformance in Swift 4.1 means that it’s now possible to add protocol conformance to a type as long as it satisfies a condition. In this case, if the elements of the array are equatable, that means the whole thing is equatable. So, the above code now compiles in Swift 4.1
 

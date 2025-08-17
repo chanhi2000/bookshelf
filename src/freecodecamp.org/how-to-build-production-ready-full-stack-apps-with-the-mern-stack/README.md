@@ -90,7 +90,7 @@ In this guide, you'll build a complete Task Manager app with user authentication
 
 This article will serve as your hands-on, code-first guide to building, securing, and deploying a MERN application, drawing from my own practical experience. Every section has code you can run, and I’ll give concise explanations along the way.
 
-It doesn’t matter if you're just getting started with MERN or looking to level up your architecture and production deployment knowledge – this article is designed to get you from zero to production with confidence.
+It doesn’t matter if you're just getting started with MERN or looking to level up your architecture and production deployment knowledge - this article is designed to get you from zero to production with confidence.
 
 - [Project Setup: Laying the Groundwork](#heading-project-setup-laying-the-groundwork)
 - [Testing: Ensuring Robustness](#heading-testing-ensuring-robustness)
@@ -107,20 +107,20 @@ Before jumping in the project, here’s what you’ll need to get the most out o
 
 You’ll be using the following technologies throughout the project:
 
-- **Node.js & npm** – Backend runtime and package manager
-- **Express.js** – Web framework for Node
-- **MongoDB Atlas** – Cloud-hosted NoSQL database
-- **Mongoose** – ODM for MongoDB
-- **React** – Frontend UI library
-- **React Router** – For client-side routing
-- **Axios** – For making API requests
-- **Jest & Supertest** – For backend tests
-- **React Testing Library & Cypress** – For Frontend unit and E2E tests
-- **ESLint + Prettier** – For code formatting, linting
-- **Husky** – To setup pre-commit hooks
-- **Helmet, Joi, express-rate-limit, cors** – For security, validation, and best practices
-- **PM2 & NGINX** – For backend deployment
-- **Sentry** – For error monitoring
+- **Node.js & npm** - Backend runtime and package manager
+- **Express.js** - Web framework for Node
+- **MongoDB Atlas** - Cloud-hosted NoSQL database
+- **Mongoose** - ODM for MongoDB
+- **React** - Frontend UI library
+- **React Router** - For client-side routing
+- **Axios** - For making API requests
+- **Jest & Supertest** - For backend tests
+- **React Testing Library & Cypress** - For Frontend unit and E2E tests
+- **ESLint + Prettier** - For code formatting, linting
+- **Husky** - To setup pre-commit hooks
+- **Helmet, Joi, express-rate-limit, cors** - For security, validation, and best practices
+- **PM2 & NGINX** - For backend deployment
+- **Sentry** - For error monitoring
 
 **Skills & Setup**
 

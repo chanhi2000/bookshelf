@@ -63,7 +63,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 -->
 
 <SiteInfo
-  name="[COURSE] Running Python Scripts – Real Python"
+  name="[COURSE] Running Python Scripts - Real Python"
   desc="This step-by-step course will guide you through a series of ways to run Python scripts, depending on your environment, platform, needs, and skills as a programmer."
   url="https://realpython.com/courses/running-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -95,7 +95,7 @@ To get the most out of this tutorial, you should know the basics of working with
 One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code.
 
 <SiteInfo
-  name="How to Run Your Python Scripts Quiz – Real Python"
+  name="How to Run Your Python Scripts Quiz - Real Python"
   desc="One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code."
   url="https://realpython.com/quizzes/run-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -539,7 +539,7 @@ These skills are essential for you as a Python developer. They’ll make your de
 One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code.
 
 <SiteInfo
-  name="How to Run Your Python Scripts Quiz – Real Python"
+  name="How to Run Your Python Scripts Quiz - Real Python"
   desc="One of the most important skills you need to build as a Python developer is to be able to run Python scripts and code. Test your understanding on how good you are with running your code."
   url="https://realpython.com/quizzes/run-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -596,7 +596,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <VidStack src="vimeo/326699348" />
 -->
 <SiteInfo
-  name="[COURSE] Running Python Scripts – Real Python"
+  name="[COURSE] Running Python Scripts - Real Python"
   desc="This step-by-step course will guide you through a series of ways to run Python scripts, depending on your environment, platform, needs, and skills as a programmer."
   url="https://realpython.com/courses/running-python-scripts/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

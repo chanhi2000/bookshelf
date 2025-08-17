@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -75,7 +75,7 @@ if let str = String(data: data, encoding: .utf8) {
 }
 ```
 
-Using this optional approach avoids any problems around decoding invalid strings – if it succeeds you can be sure the string that was loaded is intact and correct.
+Using this optional approach avoids any problems around decoding invalid strings - if it succeeds you can be sure the string that was loaded is intact and correct.
 
 -->
 

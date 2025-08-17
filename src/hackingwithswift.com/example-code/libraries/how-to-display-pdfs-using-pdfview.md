@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, and one of the most useful is `PDFView` – it renders PDFs to the screen and lets users interact with them.
+Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, and one of the most useful is `PDFView` - it renders PDFs to the screen and lets users interact with them.
 
 To try it out, start by importing the PDFKit framework:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Work with SQLite in Python – A Handbook for Beginners"
-description: "Article(s) > How to Work with SQLite in Python – A Handbook for Beginners"
+title: "How to Work with SQLite in Python - A Handbook for Beginners"
+description: "Article(s) > How to Work with SQLite in Python - A Handbook for Beginners"
 icon: fa-brands fa-python
 category:
   - Python
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Work with SQLite in Python – A Handbook for Beginners"
+      content: "Article(s) > How to Work with SQLite in Python - A Handbook for Beginners"
     - property: og:description
-      content: "How to Work with SQLite in Python – A Handbook for Beginners"
+      content: "How to Work with SQLite in Python - A Handbook for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook.html
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/2443337
 ---
 
 <SiteInfo
-  name="How to Work with SQLite in Python – A Handbook for Beginners"
+  name="How to Work with SQLite in Python - A Handbook for Beginners"
   desc="SQLite is one of the most popular relational database management systems (RDBMS). It’s lightweight, meaning that it doesn’t take up much space on your system. One of its best features is that it’s serverless, so you don’t need to install or manage a ..."
   url="https://freecodecamp.org/news/work-with-sqlite-in-python-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -62,7 +62,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Set Up Your Python Environment",
-  "desc": "(1/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(1/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-set-up-your-python-environment.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -72,7 +72,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Create an SQLite Database",
-  "desc": "(2/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(2/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-create-an-sqlite-database.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -82,7 +82,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Create Database Tables",
-  "desc": "(3/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(3/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-create-database-tables.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -92,7 +92,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Insert Data into a Table",
-  "desc": "(4/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(4/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-insert-data-into-a-table.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -102,7 +102,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Query Data",
-  "desc": "(5/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(5/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-query-data.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -112,7 +112,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Update and Delete Data",
-  "desc": "(6/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(6/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-update-and-delete-data.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -122,7 +122,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Use Transactions",
-  "desc": "(7/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(7/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-use-transactions.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -132,7 +132,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Optimize SQLite Query Performance with Indexing",
-  "desc": "(8/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(8/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-optimize-sqlite-query-performance-with-indexing.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -142,7 +142,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Handle Errors and Exceptions",
-  "desc": "(9/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(9/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-handle-errors-and-exceptions.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -152,7 +152,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "How to Export and Import Data [Bonus Section]",
-  "desc": "(10/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(10/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-export-and-import-data-bonus-section.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -162,7 +162,7 @@ In this tutorial, you'll learn how to work with SQLite using Python. Here’s wh
 ```component VPCard
 {
   "title": "Wrapping Up",
-  "desc": "(11/11) How to Work with SQLite in Python – A Handbook for Beginners",
+  "desc": "(11/11) How to Work with SQLite in Python - A Handbook for Beginners",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/wrapping-up.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

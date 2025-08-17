@@ -55,9 +55,9 @@ isOriginal: false
 
 SwiftUI provides two properties wrappers that use very similar names to provide wildly different functionality. No, I don't know why, either. However, I can at least explain to you what the difference is, so you're sure to always use the correct options.
 
-The `@Binding` property wrapper is designed to let us read and write some external piece of data – something that was created elsewhere, such as an `@State` property from a parent view. If you were to create a custom text editor view, for example, you'd want to use `@Binding` to store access to the data you're writing, so that whichever parent view uses your text editor can say, “here is where you should store the user's text.”
+The `@Binding` property wrapper is designed to let us read and write some external piece of data - something that was created elsewhere, such as an `@State` property from a parent view. If you were to create a custom text editor view, for example, you'd want to use `@Binding` to store access to the data you're writing, so that whichever parent view uses your text editor can say, “here is where you should store the user's text.”
 
-In contrast, the `@Bindable` property wrapper allows us to get bindings from any property in an `@Observable` object, including all SwiftData model objects. If you create a local `@Observable` object using `@State`, you'll automatically be given bindings by the `@State` property wrapper. However, if you've been passed an object without any bindings – an object you *know* is `@Observable` – then you can use `@Bindable` to create bindings for you.
+In contrast, the `@Bindable` property wrapper allows us to get bindings from any property in an `@Observable` object, including all SwiftData model objects. If you create a local `@Observable` object using `@State`, you'll automatically be given bindings by the `@State` property wrapper. However, if you've been passed an object without any bindings - an object you *know* is `@Observable` - then you can use `@Bindable` to create bindings for you.
 
 If the distinction still seems fuzzy to you, think about the older `@ObservedObject` property wrapper from SwiftUI. If you made a view that had some kind of object as a property you wouldn't be able to make bindings to it, but if you marked it with `@ObservedObject` then you *would* get bindings.
 

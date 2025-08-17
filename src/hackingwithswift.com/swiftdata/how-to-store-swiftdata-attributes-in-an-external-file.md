@@ -55,7 +55,7 @@ isOriginal: false
 
 SwiftData is great for storing information such as strings, integers, dates, and custom `Codable` objects, but if you’re storing *larger* data such as images or even movies it’s a good idea to have SwiftData store them in external, peripheral files, then reference those filenames in your SwiftData object.
 
-Helpfully, SwiftData makes this trivial using the `.externalStorage` attribute, which suggests to SwiftData that this data is best stored separately. It will, if needed, stash that data externally from your main SwiftData storage, store only the filename to the external data, then transparently connect the two so you don’t need to take any further action – for the most part external data behaves no differently from internal data.
+Helpfully, SwiftData makes this trivial using the `.externalStorage` attribute, which suggests to SwiftData that this data is best stored separately. It will, if needed, stash that data externally from your main SwiftData storage, store only the filename to the external data, then transparently connect the two so you don’t need to take any further action - for the most part external data behaves no differently from internal data.
 
 For example, if you were storing a game player’s avatar, you might have code like this:
 
@@ -85,5 +85,5 @@ First, the `.externalStorage` attributes merely *suggests* to SwiftData that som
 
 Second, if you’re using `String` rather than `Data`, SwiftData seems happy to store strings of unlimited size without using external files at all no matter whether you use the attribute or not.
 
-Third, for the most part all this is an implementation detail: whether the data is stored right inside the database or not doesn’t matter to us, because it’s loaded and saved the same as internal data. However, you can’t use externally stored properties inside predicates, because the external files aren’t visible to the underlying data store – if you see an error message like **[Foundation.__NSSwiftData _bytesPtrForStore]: unrecognized selector sent to instance 0x600000c74ae0 with userInfo of (null)** chances are you might have fallen into this trap.
+Third, for the most part all this is an implementation detail: whether the data is stored right inside the database or not doesn’t matter to us, because it’s loaded and saved the same as internal data. However, you can’t use externally stored properties inside predicates, because the external files aren’t visible to the underlying data store - if you see an error message like **[Foundation.__NSSwiftData _bytesPtrForStore]: unrecognized selector sent to instance 0x600000c74ae0 with userInfo of (null)** chances are you might have fallen into this trap.
 

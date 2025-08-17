@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Chapter 4: The Philosophical Foundation of Intelligent Systems"
-description: Article(s) > (5/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
+description: Article(s) > (5/10) How AI Agents Can Help Supercharge Language Models - A Handbook for Developers [Full Book] 
 category: 
   - AI
   - LLM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (5/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book]
+      content: Article(s) > (5/10) How AI Agents Can Help Supercharge Language Models - A Handbook for Developers [Full Book]
     - property: og:description
       content: "Chapter 4: The Philosophical Foundation of Intelligent Systems"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf177
 
 ```component VPCard
 {
-  "title": "How AI Agents Can Help Supercharge Language Models – A Handbook for Developers",
+  "title": "How AI Agents Can Help Supercharge Language Models - A Handbook for Developers",
   "desc": "The rapid evolution of artificial intelligence (AI) has resulted in a powerful synergy between large language models (LLMs) and AI agents. This dynamic interplay is sort of like the tale of David and Goliath (without the fighting), where nimble AI ag...",
   "link": "/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf177
 ---
 
 <SiteInfo
-  name="How AI Agents Can Help Supercharge Language Models – A Handbook for Developers"
+  name="How AI Agents Can Help Supercharge Language Models - A Handbook for Developers"
   desc="The rapid evolution of artificial intelligence (AI) has resulted in a powerful synergy between large language models (LLMs) and AI agents. This dynamic interplay is sort of like the tale of David and Goliath (without the fighting), where nimble AI ag..."
   url="https://freecodecamp.org/news/how-ai-agents-can-supercharge-language-models-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf177
 
 The development of intelligent systems, especially in the field of artificial intelligence (AI), requires a thorough understanding of philosophical principles. This chapter delves into the core philosophical ideas that shape the design, development, and use of AI. It highlights the importance of aligning technological progress with ethical values.
 
-The philosophical foundation of intelligent systems is not just a theoretical exercise – it's a vital framework that ensures AI technologies benefit humanity. By promoting fairness, inclusivity, and improving the quality of life, these principles help guide AI to serve our best interests.
+The philosophical foundation of intelligent systems is not just a theoretical exercise - it's a vital framework that ensures AI technologies benefit humanity. By promoting fairness, inclusivity, and improving the quality of life, these principles help guide AI to serve our best interests.
 
 ---
 

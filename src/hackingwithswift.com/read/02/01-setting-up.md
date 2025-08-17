@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ Now, when some people hear that a tutorial is about a game, they skip on. But th
 
 At the same time, one of the keys to learning is to use what you've learned several times over in various ways, so that your new knowledge really sinks in. The purpose of this project is to do exactly that: it's not complicated, it's about giving you the chance to use the things you just learned so that you really start to internalize it all.
 
-That being said, there’s still lots to learn – we’ll look at asset catalogs, buttons, layers, actions, random numbers, alerts, and more.
+That being said, there’s still lots to learn - we’ll look at asset catalogs, buttons, layers, actions, random numbers, alerts, and more.
 
 ::: warning
 
@@ -67,7 +67,7 @@ if you skipped project 1 thinking it would all be about history or some other te
 
 :::
 
-So, launch Xcode, and choose "Create a new project" from the welcome screen. Choose Single View App from the list and click Next. For Product Name enter "Project2", then make sure you have Swift selected for language. Now click Next again and you'll be asked where you want to save the project – your desktop is fine.
+So, launch Xcode, and choose "Create a new project" from the welcome screen. Choose Single View App from the list and click Next. For Product Name enter "Project2", then make sure you have Swift selected for language. Now click Next again and you'll be asked where you want to save the project - your desktop is fine.
 
 ![Creating a new Single View App in Xcode.](https://hackingwithswift.com/img/books/hws/2-2@2x.png)
 

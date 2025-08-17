@@ -140,7 +140,7 @@ As you can see, that detects a lack of messages and sends back a welcome message
 
 ::: tip
 
-Using `withUnsafeThrowingContinuation()` comes with all the same warnings as using `withUnsafeContinuation()` – you should only switch over to it if it’s causing a performance problem.
+Using `withUnsafeThrowingContinuation()` comes with all the same warnings as using `withUnsafeContinuation()` - you should only switch over to it if it’s causing a performance problem.
 
 :::
 

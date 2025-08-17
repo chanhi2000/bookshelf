@@ -44,7 +44,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Error handling in Swift: try, catch, do and throw – Hacking with Swift",
+  "title": "Error handling in Swift: try, catch, do and throw - Hacking with Swift",
   "desc": "Error handling in Swift: try, catch, do and throw",
   "link": "https://hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -73,7 +73,7 @@ That illustrates three of the five new keywords you'll need to learn.
 
 The fourth and fifth keywords are `throw` and `throws`, and we'll look at them in depth now.
 
-Please create a new Xcode project, using the Single View App template. You can name it whatever you feel like, and target whatever device you want – it doesn't matter, because we're not doing anything visual here.
+Please create a new Xcode project, using the Single View App template. You can name it whatever you feel like, and target whatever device you want - it doesn't matter, because we're not doing anything visual here.
 
 Select <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add this new method:
 
@@ -85,7 +85,7 @@ func encrypt(_ str: String, withPassword password: String) -> String {
 }
 ```
 
-That method is going to encrypt an string using the password that gets sent in. Well, it's not *actually* going to do that – this article isn't about encryption, so my "encryption" algorithm is pathetic: it puts the password before and after the input string, then reverses it. You're welcome to add the complex encryption algorithm yourself later on!
+That method is going to encrypt an string using the password that gets sent in. Well, it's not *actually* going to do that - this article isn't about encryption, so my "encryption" algorithm is pathetic: it puts the password before and after the input string, then reverses it. You're welcome to add the complex encryption algorithm yourself later on!
 
 Modify `viewDidLoad()` to call that method by adding this:
 
@@ -155,7 +155,7 @@ guard password.count >= 5 else { throw EncryptionError.short }
 
 If you run the app now nothing will have changed, because we're providing the password "12345". But if you set that to an empty string, you'll see "Something went wrong!" printed in the Xcode console, showing the error.
 
-Of course, having a single error message isn't helpful – there are several ways the method call can fail, and we want to provide something meaningful for each of them. So, modify the `try/catch` block in `viewDidLoad()` to this:
+Of course, having a single error message isn't helpful - there are several ways the method call can fail, and we want to provide something meaningful for each of them. So, modify the `try/catch` block in `viewDidLoad()` to this:
 
 ```swift
 do {
@@ -178,7 +178,7 @@ Now there are meaningful error messages, so our code is starting to look better.
 
 If you recall, I said "Swift goes some way to ensuring you catch them all" and here's where that becomes clear: we're catching both errors we defined, but Swift also wants us to define a generic catch all to handle any other errors that might occur. We don't tell Swift what kind of error our encryption method might throw, just that it throws something, so this extra catch-all block is required.
 
-This does have one downside: if you add any future values to the enum, which we're about to do, it will just drop into the default `catch` block – you won't be asked to provide any code for it as would happen with a `switch/case` block.
+This does have one downside: if you add any future values to the enum, which we're about to do, it will just drop into the default `catch` block - you won't be asked to provide any code for it as would happen with a `switch/case` block.
 
 We're going to add a new value to our enum now, to detect obvious passwords. But we're going to use Swift's super-powerful enums so that we can return a message along with the error type. So, modify the `EncryptionError` enum to this:
 
@@ -196,7 +196,7 @@ Now when you want to throw an error of type `EncryptionError.obvious` you must p
 guard password != "12345" else { throw EncryptionError.obvious("I've got the same passcode on my luggage!") }
 ```
 
-Obviously you don't want to provide hundreds (or thousands!) of `guard` statements to filter out obvious passwords, but hopefully you remember [how to use UITextChecker](/hackingwithswift.com/read/05/05-checking-for-valid-answers.md) to do spell checking – that would be a smart thing here!
+Obviously you don't want to provide hundreds (or thousands!) of `guard` statements to filter out obvious passwords, but hopefully you remember [how to use UITextChecker](/hackingwithswift.com/read/05/05-checking-for-valid-answers.md) to do spell checking - that would be a smart thing here!
 
 ```component VPCard
 {

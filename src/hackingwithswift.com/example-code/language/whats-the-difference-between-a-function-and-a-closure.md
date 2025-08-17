@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Closures and functions are very similar in Swift, but there are some subtle differences. When you’re learning, it’s easiest to think of a closure as being a function that doesn’t have a name of its own, and captures any values from its environment.
 
-Nested functions – functions inside other functions – also capture values from their environment, but they have a name. As for global functions – functions that aren’t inside another function or type – they are also like closures, except they have a name and *don’t* capture values from their environment. Like I said, the differences are subtle!
+Nested functions - functions inside other functions - also capture values from their environment, but they have a name. As for global functions - functions that aren’t inside another function or type - they are also like closures, except they have a name and *don’t* capture values from their environment. Like I said, the differences are subtle!
 
 Helpfully, Swift completely blurs the lines between functions, methods, operators, and closures, allowing us to use them interchangeably as long as they accept and return the correct types of data.
 

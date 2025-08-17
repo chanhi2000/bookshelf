@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Debouncing in React – How to Delay a JS Function"
-description: "Article(s) > Debouncing in React – How to Delay a JS Function"
+title: "Debouncing in React - How to Delay a JS Function"
+description: "Article(s) > Debouncing in React - How to Delay a JS Function"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Debouncing in React – How to Delay a JS Function"
+      content: "Article(s) > Debouncing in React - How to Delay a JS Function"
     - property: og:description
-      content: "Debouncing in React – How to Delay a JS Function"
+      content: "Debouncing in React - How to Delay a JS Function"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/debouncing-explained.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2022/06/How-to-Build-a-Weath
 ---
 
 <SiteInfo
-  name="Debouncing in React – How to Delay a JS Function"
+  name="Debouncing in React - How to Delay a JS Function"
   desc="By Nishant Kumar There are some heavy tasks in software development. Take calling an API, for example. Suppose we have an API that searches a list of users, and we can't afford to fire it too often. We want to search only when we have typed the whole..."
   url="https://freecodecamp.org/news/debouncing-explained"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -72,7 +72,7 @@ So to achieve this, we have a feature in JavaScript called Debouncing.
 
 ---
 
-## Debouncing in JavaScript – a Practical Example
+## Debouncing in JavaScript - a Practical Example
 
 In the below example, we are simply calling an API using the **axios.get** method when we type any numeric character in the input box.
 
@@ -194,7 +194,7 @@ Happy learning.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Debouncing in React – How to Delay a JS Function",
+  "title": "Debouncing in React - How to Delay a JS Function",
   "desc": "By Nishant Kumar There are some heavy tasks in software development. Take calling an API, for example. Suppose we have an API that searches a list of users, and we can't afford to fire it too often. We want to search only when we have typed the whole...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/debouncing-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

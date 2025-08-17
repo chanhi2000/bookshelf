@@ -74,15 +74,15 @@ The number of uses for Go is rising each day. Besides web services, it can be us
 
 ---
 
-## Go vs Java – direct comparison
+## Go vs Java - direct comparison
 
-Java doesn’t need an introduction – it is much older than Go which means it’s much more popular and more refined. Similar to Go it’s a general-purpose object-oriented programming language, but through the years it has narrowed its field of operations. Syntax was based on C and C++, but the mechanics are different. A compiled Java code runs on Java Virtual Machine (JVM) and can work on every platform which supports it, which in reality means it can work pretty much on any machine.
+Java doesn’t need an introduction - it is much older than Go which means it’s much more popular and more refined. Similar to Go it’s a general-purpose object-oriented programming language, but through the years it has narrowed its field of operations. Syntax was based on C and C++, but the mechanics are different. A compiled Java code runs on Java Virtual Machine (JVM) and can work on every platform which supports it, which in reality means it can work pretty much on any machine.
 
 Of course, both languages have their pros and cons, but where lies the difference?
 
 ---
 
-## Java vs Go Usage – what are the key differences?
+## Java vs Go Usage - what are the key differences?
 
 According to a Stack Overflow survey, Java is mostly used for client-server web applications. It was designed for web services, including big systems like banking apps. You’ll often meet interactive JavaScript web pages with a backend made in Java (which communicates with a server also written in Java). It’s safe language as there’s full support from the developers.
 
@@ -92,7 +92,7 @@ Both programming languages have a wide usage spectrum although Java is more focu
 
 ### Programming language Maturity
 
-As we said previously – Java is an older language, which means it’s more popular and more refined. Many advantages come with that: it’s easier to find professionals skilled in Java, and its involvement in the banking system means it will be alive for a very long time (Java is displacing Cobol as the go-to language used by banks). Oracle is still supporting it and there are no plans to stop it anytime soon.
+As we said previously - Java is an older language, which means it’s more popular and more refined. Many advantages come with that: it’s easier to find professionals skilled in Java, and its involvement in the banking system means it will be alive for a very long time (Java is displacing Cobol as the go-to language used by banks). Oracle is still supporting it and there are no plans to stop it anytime soon.
 
 As a younger project Go is nowhere near as popular as Java, but that doesn’t mean it’s not good. It started as a Google internal language suited for their needs, but it evolved into a tool that gets adopted by bigger companies. As it’s newer and backed up by a giant like Google, it’s a safe bet that it will expand even more and convince more professionals to learn and use it.
 
@@ -100,7 +100,7 @@ As a younger project Go is nowhere near as popular as Java, but that doesn’t m
 
 Java is an older and more mature programming language; therefore, its community is simply bigger. According to the 2021 Stack Overflow most popular technologies survey, Java is the fifth most popular language, with 35.35% of users declaring using it. Above are only the biggest names: JavaScript, HTML/CSS, Python, and SQL.
 
-Go is further away at 14th place, with only 9.55% of users declaring to use it. This, of course, is to be expected considering what was said earlier – it’s normal for newer languages to have smaller communities.
+Go is further away at 14th place, with only 9.55% of users declaring to use it. This, of course, is to be expected considering what was said earlier - it’s normal for newer languages to have smaller communities.
 
 Stack Overflow is doing such surveys each year, so we can easily check the dynamics of Java and Go. Three years earlier, Java was also in fifth place, but with 45.3% of users declaring the usage, while Go was in 16th position with only 7.1% of users declaring the use of it. This clearly shows that although Java is in the lead right now, soon it may be an “old news” while Go is gaining more popularity each year and there is no sign of slowing down.
 
@@ -118,7 +118,7 @@ When Java was designed by James Gosling in 1995 its syntax was modelled after C+
 
 ---
 
-## Summarizing – Golang is easy to learn, fast and scalable
+## Summarizing - Golang is easy to learn, fast and scalable
 
 Why does Golang grow in popularity? The easiest answer here is: because it was made by (and for) Google. Of course, there is more to it. With a long history of making new languages and omitting mistakes of its predecessors, Go is one of the newest entries. It’s built with modern technologies in mind, easy to learn, fast and scalable. Simplicity makes a better syntax, clear code, and easier to find errors. It’s great for young developers, who won’t have to learn more complicated code, as it’s not needed anymore.
 

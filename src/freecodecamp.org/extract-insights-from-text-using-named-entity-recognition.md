@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747753280612/991828c
 
 Many of us enjoy reading the news and staying up-to-date on current events. But the number of new stories each day can be overwhelming.
 
-You probably want to know who’s involved in world events, where things are happening globally, and which organizations are being talked about. But fully reading through every article takes a long time – and you’re probably busy. This is where Named Entity Recognition (NER) can help.
+You probably want to know who’s involved in world events, where things are happening globally, and which organizations are being talked about. But fully reading through every article takes a long time - and you’re probably busy. This is where Named Entity Recognition (NER) can help.
 
 In this article, I’ll show you how to build a news analyzer that uses a transformer-based NER model to extract useful data from a live RSS feed.
 
@@ -71,7 +71,7 @@ Let’s walk through how it all works.
 
 Named Entity Recognition is a tool that helps you pick out important terms in text.
 
-It labels parts of a sentence as specific entity types  –  like names, places, or dates. Here’s what that looks like in practice. Take this sentence:
+It labels parts of a sentence as specific entity types  -  like names, places, or dates. Here’s what that looks like in practice. Take this sentence:
 
 > **“Apple CEO Tim Cook held a meeting with executives from Goldman Sachs in New York City.”**
 

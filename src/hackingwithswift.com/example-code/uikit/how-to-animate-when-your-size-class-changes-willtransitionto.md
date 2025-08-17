@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ To give you a very visible demonstration of how this works, I've written some ex
 
 Anyway, put this code into a view controller, then try it on an iPhone. When you rotate the simulator, the screen will change between red and blue, or green and blue, depending on the rotation. The important thing is that the change is animated because it's placed inside a call to `animate(alongsideTransition:)`, which automatically makes your animation match the rotation animation.
 
-Using this method requires two closures: the first is where you make the changes you want to animate, and the second is code to be run when the animation completes. So, when the new vertical size class is compact, the screen will animate from blue to red, then jump back to blue. I realize this isn't directly useful in your own apps, but that's because you'll want to make your own changes – just take the code below and replace the background color changes with your own logic.
+Using this method requires two closures: the first is where you make the changes you want to animate, and the second is code to be run when the animation completes. So, when the new vertical size class is compact, the screen will animate from blue to red, then jump back to blue. I realize this isn't directly useful in your own apps, but that's because you'll want to make your own changes - just take the code below and replace the background color changes with your own logic.
 
 ```swift
 override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {

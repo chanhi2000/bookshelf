@@ -75,7 +75,7 @@ ScrollView {
 
 ![A scrollview containing many items, showing that it scrolls from the bottom up rather than the top down.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-make-a-scrollview-start-at-the-bottom-1~dark@2x.png)
 
-If your UI alters somehow without the user scrolling – for example if the keyboard appears, or you adjust the size of the scroll view – then the scroll position will remain anchored to the bottom. However, if the user adjusts the scroll position manually, it will scroll freely as normal.
+If your UI alters somehow without the user scrolling - for example if the keyboard appears, or you adjust the size of the scroll view - then the scroll position will remain anchored to the bottom. However, if the user adjusts the scroll position manually, it will scroll freely as normal.
 
 ::: tip
 

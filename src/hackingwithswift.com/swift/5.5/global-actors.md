@@ -83,7 +83,7 @@ class NewDataController {
 }
 ```
 
-That’s all it takes – Swift will make sure whenever you call `save()` on a data controller, that work will happen on the main thread.
+That’s all it takes - Swift will make sure whenever you call `save()` on a data controller, that work will happen on the main thread.
 
 ::: note
 

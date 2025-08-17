@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-When placing one view over another, you can control the way they overlap by using the `blendMode()` modifier. This contains a variety of ways you can mix colors together, such as using their difference or using a color burn – these will be familiar if you’ve used Core Graphics or something like Photoshop before.
+When placing one view over another, you can control the way they overlap by using the `blendMode()` modifier. This contains a variety of ways you can mix colors together, such as using their difference or using a color burn - these will be familiar if you’ve used Core Graphics or something like Photoshop before.
 
 To demonstrate this we could create a `ZStack` with two overlapping circles inside, where the second has a `.multiply` blend mode so that it darkens the colors behind it:
 

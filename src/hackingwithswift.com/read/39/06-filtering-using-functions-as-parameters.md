@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ func applyUserFilter(_ input: String) {
 
 That's just enough functionality for us to start writing tests: an `applyUserFilter()` method that accepts a single string parameter, such as "home" or "100". What it needs to do is decide whether that parameter contains a number ("100") or not ("home"), then either show words with that frequency or words that match that substring.
 
-I've done some number crunching for you, and have found that 495 words appear at least 100 times, whereas only one word appears more than 10,000 times. I've also found that "test" appears 56 times, "Swift" appears 7 times, and "Objective-C" doesn't appear once – conclusive proof, I think, that Shakespeare prefers Swift.
+I've done some number crunching for you, and have found that 495 words appear at least 100 times, whereas only one word appears more than 10,000 times. I've also found that "test" appears 56 times, "Swift" appears 7 times, and "Objective-C" doesn't appear once - conclusive proof, I think, that Shakespeare prefers Swift.
 
 Using these numbers, as well as some more, we can write the following test in <FontIcon icon="fa-brands fa-swift"/>`Project39Tests.swift`:
 
@@ -100,13 +100,13 @@ I haven't included any messages to print when the tests fail, but I'm sure you c
 
 Finding the numbers for this wasn't hard, so you're welcome to try it yourself once you've written the real `applyUserFilter()` later on: just pass anything you want into `applyUserFilter()` then assert that it's equal to 0. When you run the test, Xcode will check all the assertions you've made, and tell you what the actual answer was. You can then update your number with Xcode's number, and you're done.
 
-If you run that new test now it will fail – after all, `filteredWords` is never actually being set in the `PlayData` class, so it will always contain 0. This is a feature of test-driven development: write tests that fail, then write just enough code to make those tests pass. For us, that means filling in `applyUserFilter()` so that it does something useful.
+If you run that new test now it will fail - after all, `filteredWords` is never actually being set in the `PlayData` class, so it will always contain 0. This is a feature of test-driven development: write tests that fail, then write just enough code to make those tests pass. For us, that means filling in `applyUserFilter()` so that it does something useful.
 
 To make this test pass is surprisingly easy, although I'm going to make your life more difficult by squeezing some extra knowledge into you.
 
 Let's start with identifying what the user is trying to do. They will enter a string into a `UIAlertController`, which could be "100", "556", "dog" or even "objective-c". Our code needs to decide whether the string they entered was an integer (in which case it is used to filter by frequency) or not (in which case it's used to filter by substring).
 
-Swift has a built-in way to find out whether a string contains an integer, because it comes with a special `Int` failable initializer that accepts a string. A failable initializer is just like that `init()` method we wrote for `PlayData`, but instead of `init()` it's `init?()` because it can fail – it can return `nil`. In this situation, we'll get `nil` back if Swift was unable to convert the string we gave it into an integer.
+Swift has a built-in way to find out whether a string contains an integer, because it comes with a special `Int` failable initializer that accepts a string. A failable initializer is just like that `init()` method we wrote for `PlayData`, but instead of `init()` it's `init?()` because it can fail - it can return `nil`. In this situation, we'll get `nil` back if Swift was unable to convert the string we gave it into an integer.
 
 Using this approach, we can begin to fill in `applyUserFilter()`:
 
@@ -192,7 +192,7 @@ Does this code work? Well, there's only one way to find out: re-run the `testUse
 
 Having two methods rather than one might seem pointless to you, but it's actually smart forward-thinking. Modifying the `filteredWords` property in only one place means that if we add more code to `applyFilter()` later on, it will immediately be used everywhere the method is called. If we had modified `filteredWords` directly, we'd need to remember all the places it was changed and copy-paste code there every time a change was made.
 
-This two-method approach also gives us encapsulation, which means that functionality is encapsulated inside an object rather than exposed for others to manipulate. If you want to adjust filters directly from <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` – which is a perfectly valid thing to want to do – you really wouldn't want to change the `filteredWords` property directly. Instead, it's much nicer to call a method, and trust that `PlayData` will do the right thing.
+This two-method approach also gives us encapsulation, which means that functionality is encapsulated inside an object rather than exposed for others to manipulate. If you want to adjust filters directly from <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` - which is a perfectly valid thing to want to do - you really wouldn't want to change the `filteredWords` property directly. Instead, it's much nicer to call a method, and trust that `PlayData` will do the right thing.
 
 There is a catch with this approach: what's stopping you from (unwisely!) trying to change the `filteredWords` property from <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`? The answer is "nothing" - you could put something like this in `viewDidLoad()` if you really wanted to:
 
@@ -208,7 +208,7 @@ To make this change, adjust the `filteredWords` property in `PlayData` to this:
 private(set) var filteredWords = [String]()
 ```
 
-That marks the setter of `filteredWords` – the code that handles writing – as private, which means only code inside the `PlayData` class can use it. The getter – the code that handles reading – is unaffected.
+That marks the setter of `filteredWords` - the code that handles writing - as private, which means only code inside the `PlayData` class can use it. The getter - the code that handles reading - is unaffected.
 
 You might think I engineered all this just to teach you even more Swift, but I couldn't possibly comment…
 

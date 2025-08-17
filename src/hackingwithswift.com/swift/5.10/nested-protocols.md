@@ -53,7 +53,7 @@ isOriginal: false
 
 This is particularly helpful when common names are given to protocols. For example, the word "transaction" could feasibly be used to mean an animation transaction, a bank transaction, and a database transaction all in the same app.
 
-One way to resolve this is by using compound names – we add more words to protocol names to clarify what we mean, like this:
+One way to resolve this is by using compound names - we add more words to protocol names to clarify what we mean, like this:
 
 ```swift
 protocol AnimationTransaction {

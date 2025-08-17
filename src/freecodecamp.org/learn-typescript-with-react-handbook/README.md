@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn TypeScript – A Handbook for Developers"
-description: "Article(s) > Learn TypeScript – A Handbook for Developers"
+title: "Learn TypeScript - A Handbook for Developers"
+description: "Article(s) > Learn TypeScript - A Handbook for Developers"
 icon: iconfont icon-typescript
 category:
   - TypeScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn TypeScript – A Handbook for Developers"
+      content: "Article(s) > Learn TypeScript - A Handbook for Developers"
     - property: og:description
-      content: "Learn TypeScript – A Handbook for Developers"
+      content: "Learn TypeScript - A Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/
 prev: /programming/ts/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 ---
 
 <SiteInfo
-  name="Learn TypeScript – A Handbook for Developers"
+  name="Learn TypeScript - A Handbook for Developers"
   desc="This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ..."
   url="https://freecodecamp.org/news/learn-typescript-with-react-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -70,7 +70,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "What is TypeScript?",
-  "desc": "(1/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(1/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/what-is-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -80,7 +80,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Setting Up the Project",
-  "desc": "(2/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(2/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/setting-up-the-project.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -90,7 +90,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Type Annotations and Type Inference",
-  "desc": "(3/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(3/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/type-annotations-and-type-inference.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -100,7 +100,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "The Union and Any Types",
-  "desc": "(4/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(4/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/the-union-and-any-types.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -110,7 +110,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Objects in TypeScript",
-  "desc": "(5/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(5/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/objects-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -120,7 +120,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Function Params And Function Returns",
-  "desc": "(6/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(6/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/function-params-and-function-returns.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -130,7 +130,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Rest Parameters",
-  "desc": "(7/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(7/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/rest-parameters.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -140,7 +140,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Objects as Parameters in TypeScript",
-  "desc": "(8/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(8/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/objects-as-parameters-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -150,7 +150,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Type Aliases in TypeScript",
-  "desc": "(9/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(9/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/type-aliases-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -160,7 +160,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Interfaces in TypeScript",
-  "desc": "(10/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(10/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/interfaces-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -170,7 +170,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Tuples and Enums",
-  "desc": "(11/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(11/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/tuples-and-enums.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -180,7 +180,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Type Assertion, Type Unknown, and Type Never in TypeScript",
-  "desc": "(12/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(12/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/type-assertion-type-unknown-and-type-never-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -190,7 +190,7 @@ I assume you are already familiar with the fundamentals of JavaScript and React.
 ```component VPCard
 {
   "title": "Generics in TypeScript",
-  "desc": "(13/13) Learn TypeScript – A Handbook for Developers",
+  "desc": "(13/13) Learn TypeScript - A Handbook for Developers",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/generics-in-typescript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -208,7 +208,7 @@ We also covered some advanced topics such as union and any types, readonly prope
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn TypeScript – A Handbook for Developers",
+  "title": "Learn TypeScript - A Handbook for Developers",
   "desc": "This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

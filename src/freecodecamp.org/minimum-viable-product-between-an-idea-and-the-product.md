@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Build an MVP for Your Project – and Why You Should Do It
-description: Article(s) > How to Build an MVP for Your Project – and Why You Should Do It
+title: How to Build an MVP for Your Project - and Why You Should Do It
+description: Article(s) > How to Build an MVP for Your Project - and Why You Should Do It
 icon: fas fa-pen-ruler
 category: 
   - Design
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Build an MVP for Your Project – and Why You Should Do It
+      content: Article(s) > How to Build an MVP for Your Project - and Why You Should Do It
     - property: og:description
-      content: How to Build an MVP for Your Project – and Why You Should Do It
+      content: How to Build an MVP for Your Project - and Why You Should Do It
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/minimum-viable-product-between-an-idea-and-the-product.html
 prev: /academics/system-design/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2020/02/MVP-as-a-
 ---
 
 <SiteInfo
-  name="How to Build an MVP for Your Project – and Why You Should Do It"
+  name="How to Build an MVP for Your Project - and Why You Should Do It"
   desc="Proof of concept, prototypes, wireframes, mockups… what actually constitutes a Minimum Viable Product (MVP)? Well, it's a product with just enough features to gather comprehensive qualitative feedback. In practice, it's as easy to understand the concept of an MVP as it is to ride a bicycle. Let's do it then..."
   url="https://freecodecamp.org/news/minimum-viable-product-between-an-idea-and-the-product/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

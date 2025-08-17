@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Get the User Model in Django – A Simple Guide With Examples"
-description: "Article(s) > How to Get the User Model in Django – A Simple Guide With Examples"
+title: "How to Get the User Model in Django - A Simple Guide With Examples"
+description: "Article(s) > How to Get the User Model in Django - A Simple Guide With Examples"
 icon: iconfont icon-django
 category:
   - Python
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Get the User Model in Django – A Simple Guide With Examples"
+      content: "Article(s) > How to Get the User Model in Django - A Simple Guide With Examples"
     - property: og:description
-      content: "How to Get the User Model in Django – A Simple Guide With Examples"
+      content: "How to Get the User Model in Django - A Simple Guide With Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-user-model-in-django.html
 prev: /programming/py-django/articles/README.md
@@ -48,13 +48,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746026362647/7b47e9e
 ---
 
 <SiteInfo
-  name="How to Get the User Model in Django – A Simple Guide With Examples"
-  desc="When I’m working with Django, one of the first things I often need to do is work with users – like getting the logged-in user, creating a new one, or extending the default user model to add more information. Now, Django has a built-in User model, but..."
+  name="How to Get the User Model in Django - A Simple Guide With Examples"
+  desc="When I’m working with Django, one of the first things I often need to do is work with users - like getting the logged-in user, creating a new one, or extending the default user model to add more information. Now, Django has a built-in User model, but..."
   url="https://freecodecamp.org/news/how-to-get-user-model-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746026362647/7b47e9e7-6baf-409a-8654-0ad1eb528e31.png"/>
 
-When I’m working with Django, one of the first things I often need to do is work with users – like getting the logged-in user, creating a new one, or extending the default user model to add more information.
+When I’m working with Django, one of the first things I often need to do is work with users - like getting the logged-in user, creating a new one, or extending the default user model to add more information.
 
 Now, Django has a built-in `User` model, but sometimes you might want a custom one. That's where things can get a little confusing if you're just starting.
 
@@ -70,7 +70,7 @@ Let's jump right into it.
 
 Before anything else, it’s important to know why this even matters.
 
-Django projects depend heavily on user information – not just for logins, but for permissions, profiles, admin management, and much more.
+Django projects depend heavily on user information - not just for logins, but for permissions, profiles, admin management, and much more.
 
 If you get the user model the wrong way, you can easily run into problems later, especially if you customize your user model.
 
@@ -93,7 +93,7 @@ User = get_user_model()
 ::: info What’s happening here?
 
 - `get_user_model()` is a built-in Django function.
-- It returns the correct User model – whether you're using the default one or a custom one you created.
+- It returns the correct User model - whether you're using the default one or a custom one you created.
 
 :::
 
@@ -125,7 +125,7 @@ In this example:
 - Then, I use Django’s built-in `create_user` method to create a user safely.
 - Finally, I send back a simple HTTP response showing the created username.
 
-Notice how clean and flexible it is – no matter what user model you're using under the hood.
+Notice how clean and flexible it is - no matter what user model you're using under the hood.
 
 ---
 
@@ -165,7 +165,7 @@ Here, the `Profile` model is tied to the correct user model. Again, this keeps y
 | Getting the actual User model in Python code (views, forms, admin, and so on) | `get_user_model()` |
 | Referring to the User model in database relationships (ForeignKey, OneToOneField, and so on) | `settings.AUTH_USER_MODEL` |
 
-Remember this table – it saves a lot of headaches later!
+Remember this table - it saves a lot of headaches later!
 
 ---
 
@@ -213,7 +213,7 @@ Working with users in Django doesn’t have to be tricky. Once you know to use `
 
 Now that you know how to get the user model in Django, what’s one thing you'd love to customize about your users in your project? Shoot me a message on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http://x.com/_udemezue/).
 
-If you want me to show you how to **build** a custom user model from scratch, let me know – it’s not hard once you know the steps.
+If you want me to show you how to **build** a custom user model from scratch, let me know - it’s not hard once you know the steps.
 
 ::: info Further Resources
 
@@ -244,8 +244,8 @@ If you want me to show you how to **build** a custom user model from scratch, le
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Get the User Model in Django – A Simple Guide With Examples",
-  "desc": "When I’m working with Django, one of the first things I often need to do is work with users – like getting the logged-in user, creating a new one, or extending the default user model to add more information. Now, Django has a built-in User model, but...",
+  "title": "How to Get the User Model in Django - A Simple Guide With Examples",
+  "desc": "When I’m working with Django, one of the first things I often need to do is work with users - like getting the logged-in user, creating a new one, or extending the default user model to add more information. Now, Django has a built-in User model, but...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-user-model-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

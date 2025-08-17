@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -92,7 +92,7 @@ let anon2 = names[1, default: "Anonymous"]
 let anon3 = names[556, default: "Anonymous"]
 ```
 
-Alternatively, you could write a `safeIndex` subscript that returns an optional value – `nil` if the index is out of bounds, or the value in question otherwise:
+Alternatively, you could write a `safeIndex` subscript that returns an optional value - `nil` if the index is out of bounds, or the value in question otherwise:
 
 ```swift
 extension Array {

@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: "Final Project – Battle Showdown"
+title: "Final Project - Battle Showdown"
 description: "(10/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
 category: 
   - Rust
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: "(10/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
     - property: og:description
-      content: "Final Project – Battle Showdown"
+      content: "Final Project - Battle Showdown"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/final-project.html
 date: 2024-06-04
@@ -351,7 +351,7 @@ impl Metadata for BattleShowdown {
 
 ---
 
-## Defining Initialization – `Init`
+## Defining Initialization - `Init`
 
 To define the types for this purpose, consider whether your program or smart contract needs to store data or perform actions before the user can interact with it. In the case of this game, the answer is yes.
 
@@ -1064,7 +1064,7 @@ And that's that for this project. There are some exciting features you can consi
 
 <SiteInfo
   name="Gear | The Most Advanced Platform for dApp development - 5 May 2024"
-  desc="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces."
+  desc="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily - and skip the meeting. An essential tool for hybrid workplaces."
   url="https://loom.com/"
   logo="https://cdn.loom.com/assets/favicons-loom/android-chrome-192x192.png"
   preview="https://cdn.loom.com/assets/img/og/loom-banner.png"/>

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Time For a More Advanced Case"
-description: "Article(s) > (3/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (3/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (3/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "Time For a More Advanced Case"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,13 +42,13 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-time-for-a-more-advanced-case"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbook-Book-Cover.png"/>
 
-Time to consider a more advanced case, which is probably the most common case where we use `git merge` explicitly – where you need to merge branches that *did* diverge from one another.
+Time to consider a more advanced case, which is probably the most common case where we use `git merge` explicitly - where you need to merge branches that *did* diverge from one another.
 
 Assume we have two people working on this repo now, John and Paul.
 
@@ -92,7 +92,7 @@ git add penny_lane.md
 git commit -m "Commit 6"
 ```
 
-So now our history looks like this – where we have two different branches, branching out from <FontIcon icon="fas fa-code-branch"/>`main`, with different histories.
+So now our history looks like this - where we have two different branches, branching out from <FontIcon icon="fas fa-code-branch"/>`main`, with different histories.
 
 ![The output of `git log` shows the history after John and Paul committed<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-203.png)
 
@@ -107,7 +107,7 @@ Actually, this is a fast-forward merge, as we have learned before. You can valid
 
 ![Merging `john_branch` into <FontIcon icon="fas fa-code-branch"/>`main` results in a fast-forwrad merge<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-349.png)
 
-At this point, Paul also wants to merge his branch into <FontIcon icon="fas fa-code-branch"/>`main`, but now a fast-forward merge is no longer relevant – there are two *different* histories here: the history of <FontIcon icon="fas fa-code-branch"/>`main`'s and that of <FontIcon icon="fas fa-code-branch"/>`paul_branch`'s. It's not that <FontIcon icon="fas fa-code-branch"/>`paul_branch` only adds commits on top of <FontIcon icon="fas fa-code-branch"/>`main` branch or vice versa.
+At this point, Paul also wants to merge his branch into <FontIcon icon="fas fa-code-branch"/>`main`, but now a fast-forward merge is no longer relevant - there are two *different* histories here: the history of <FontIcon icon="fas fa-code-branch"/>`main`'s and that of <FontIcon icon="fas fa-code-branch"/>`paul_branch`'s. It's not that <FontIcon icon="fas fa-code-branch"/>`paul_branch` only adds commits on top of <FontIcon icon="fas fa-code-branch"/>`main` branch or vice versa.
 
 Now things get interesting. 😎😎
 
@@ -121,7 +121,7 @@ Consider the history now:
 
 ![When you merge <FontIcon icon="fas fa-code-branch"/>`paul_branch`, you get a new merge commit<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-206.png)
 
-What you have is a new commit, with two parents – "Commit 5" and "Commit 6". In the working dir, you can see that both John's song as well as Paul's song are there: `ls`
+What you have is a new commit, with two parents - "Commit 5" and "Commit 6". In the working dir, you can see that both John's song as well as Paul's song are there: `ls`
 
 ![The working dir after the merge<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-242.png)
 
@@ -145,7 +145,7 @@ The 3-way merge process includes these stages:
 
 First, Git locates the common ancestor of the two branches. That is, the common commit from which the merging branches most recently diverged. Technically, this is actually the first commit that is reachable from both branches. This commit is then called the **merge base**.
 
-Second, Git calculates two diffs – one diff from the merge base to the first branch, and another diff from the merge base to the second branch. Git generates patches based on those diffs.
+Second, Git calculates two diffs - one diff from the merge base to the first branch, and another diff from the merge base to the second branch. Git generates patches based on those diffs.
 
 Third, Git applies both patches to the merge base using a 3-way merge algorithm. The result is the state of the new, merge commit.
 
@@ -153,7 +153,7 @@ Third, Git applies both patches to the merge base using a 3-way merge algorithm.
 
 So, back to our example.
 
-In the first step, Git looks from both branches – <FontIcon icon="fas fa-code-branch"/>`main` and <FontIcon icon="fas fa-code-branch"/>`paul_branch` – and traverses the history to find the first commit that is reachable from both. In this case, this would be...which commit?
+In the first step, Git looks from both branches - <FontIcon icon="fas fa-code-branch"/>`main` and <FontIcon icon="fas fa-code-branch"/>`paul_branch` - and traverses the history to find the first commit that is reachable from both. In this case, this would be...which commit?
 
 Correct, "Commit 4".
 
@@ -199,7 +199,7 @@ git diff 4f90a62 c5e4951 > paul_branch_diff.patch
 
 Now Git applies those patches on the merge base.
 
-First, try that out directly – just apply the patches (I will walk you through it in a moment). This is *not* what Git really does under the hood, but it will help you gain a better understanding of why Git needs to do something different.
+First, try that out directly - just apply the patches (I will walk you through it in a moment). This is *not* what Git really does under the hood, but it will help you gain a better understanding of why Git needs to do something different.
 
 Checkout the merge base first, that is, "Commit 4":
 
@@ -210,7 +210,7 @@ git checkout 4f90a62
 And apply John's patch first:
 
 ```sh
-git apply -–index john_branch_diff.patch
+git apply --index john_branch_diff.patch
 ```
 
 Notice that for now there is no merge commit. `git apply` updates the working dir as well as the index, as we used the `--index` switch.
@@ -221,11 +221,11 @@ You can observe the status using `git status`:
 
 So now John's new song is incorporated into the index. Apply the other patch:
 
-`git apply -–index paul_branch_diff.patch`
+`git apply --index paul_branch_diff.patch`
 
 As a result, the index contains changes from both branches.
 
-Now it's time to commit your merge. Since the porcelain command `git commit` always generates a commit with a *single* parent, you would need the underlying plumbing command – `git commit-tree`.
+Now it's time to commit your merge. Since the porcelain command `git commit` always generates a commit with a *single* parent, you would need the underlying plumbing command - `git commit-tree`.
 
 If you need a reminder about porcelain vs plumbing commands, check out [the post where I explained these terms, and created an entire repo from scratch (<FontIcon icon="fa-brands fa-medium"/>`swimm`)](https://medium.com/swimm/getting-hardcore-creating-a-repo-from-scratch-cc747edbb11c).
 
@@ -245,7 +245,7 @@ git commit-tree <TREE_SHA> -p <COMMIT_4> -p <COMMIT_5> -m "Merge commit!"
 
 Great, so you have created a commit object 💪🏻
 
-Recall that `git merge` also changes `HEAD` to point to the new merge commit object. So you can simply do the same: `git reset –-hard db315a`
+Recall that `git merge` also changes `HEAD` to point to the new merge commit object. So you can simply do the same: `git reset --hard db315a`
 
 If you look at the history now:
 
@@ -253,6 +253,6 @@ If you look at the history now:
 
 You can see that you've reached the same result as the merge done by Git, with the exception of the timestamp and thus the SHA-1 value, of course.
 
-So you got to merge both the **contents** of the two commits – that is, the state of the files, and also the **history** of those commits – by creating a merge commit that points to both histories.
+So you got to merge both the **contents** of the two commits - that is, the state of the files, and also the **history** of those commits - by creating a merge commit that points to both histories.
 
 In this simple case, you could actually just apply the patches using `git apply`, and everything worked quite well.

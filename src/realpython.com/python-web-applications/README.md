@@ -73,7 +73,7 @@ cover: https://files.realpython.com/media/Python-driven-Web-Applications_Waterma
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Deploy Your Python Script on the Web With Flask – Real Python"
+  name="Deploy Your Python Script on the Web With Flask - Real Python"
   desc="In this course, you’ll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world."
   url="https://realpython.com/courses/deploy-python-script-web-flask/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -171,7 +171,7 @@ If you want to learn more about web development with Python, then you’re now w
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Deploy Your Python Script on the Web With Flask – Real Python"
+  name="Deploy Your Python Script on the Web With Flask - Real Python"
   desc="In this course, you’ll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world."
   url="https://realpython.com/courses/deploy-python-script-web-flask/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

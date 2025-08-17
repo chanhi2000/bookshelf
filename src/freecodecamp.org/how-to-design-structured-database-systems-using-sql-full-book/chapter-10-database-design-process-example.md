@@ -85,7 +85,7 @@ When we’re building this diagram, our most significant decisions involve which
 
 From the entire domain, it's common to encounter a lot of information provided by the client or users that doesn't directly help us model the system, as they don’t expect it to be stored in the database. So all concepts related to information that is not intended to be stored **persistently** are usually not included in the design.
 
-As for the other issues, they are very subjective, and there is no set of rules to follow to know unequivocally which concepts to model with **entities** or **relationships** – or even to determine the **degree** of these relationships (which in this context we will assume is always 2 to avoid complicating the design with relationships involving more than two classes).
+As for the other issues, they are very subjective, and there is no set of rules to follow to know unequivocally which concepts to model with **entities** or **relationships** - or even to determine the **degree** of these relationships (which in this context we will assume is always 2 to avoid complicating the design with relationships involving more than two classes).
 
 ---
 
@@ -109,7 +109,7 @@ Lastly, during the explanations, we’ll show the SQL code used to create each t
 
 First, we have the entity `Person`, whose main goal is to model the existence of people in our system. It's important to note that in our domain, there are physical people, where each one is a physical entity that we can abstract through the concept of a person, which has a set of associated characteristics. In other words, even though there are many different people, they all share a set of characteristics that define them as people.
 
-These characteristics are what we’ll model as the attributes of the `Person` entity. These can then be "instantiated," as we saw earlier, resulting in a set of entity occurrences – or in other words, specific people defined by the values of their characteristics or attributes.
+These characteristics are what we’ll model as the attributes of the `Person` entity. These can then be "instantiated," as we saw earlier, resulting in a set of entity occurrences - or in other words, specific people defined by the values of their characteristics or attributes.
 
 To better understand this, we can translate this entity to the logical design level, where, being a single entity, we model it with a single table named `Person` with the corresponding attributes and data types that match the characteristics of people. In this way, the table schema will be the structure that defines "all people," like a template, while the specific people whose information we want to store in the system correspond to the tuples of the table, which will be inserted as we register people in the system.
 
@@ -149,7 +149,7 @@ At the same time, a cruise line does not necessarily have to have any customers,
 
 If we look at the relational diagram, to represent this entity or table, it's enough to write it in [<FontIcon icon="fa-brands fa-wikipedia-w"/>Datalog](https://en.wikipedia.org/wiki/Datalog) notation, with its name and attributes. The only thing to keep in mind is that the attributes that make up the primary key are underlined, and those that represent foreign keys each have an arrow coming from them pointing to the corresponding attribute of the primary key of the entity or table they reference.
 
-In cases like this where the foreign key is composite, each of its attributes has an arrow pointing to the corresponding attribute of the referenced entity. But the order in which the attributes are written in this diagram is not entirely relevant – meaning we can write them in any order as long as we correctly represent which are primary or foreign keys.
+In cases like this where the foreign key is composite, each of its attributes has an arrow pointing to the corresponding attribute of the referenced entity. But the order in which the attributes are written in this diagram is not entirely relevant - meaning we can write them in any order as long as we correctly represent which are primary or foreign keys.
 
 Regarding the DDL, since we will consider **PersonID** as a **surrogate key**, we declare it as [<FontIcon icon="fas fa-globe"/>SERIAL](https://geeksforgeeks.org/postgresql/postgresql-serial/) so the column stores **auto-incrementing** values. This way, to uniquely identify each tuple, the attribute will use an integer value that increases by one as tuples are inserted. This allows us to differentiate all of them by that number.
 
@@ -165,7 +165,7 @@ Now let’s look at what a Person can do.
 
 In our domain, people can rent bikes, and for each bike rental, we want to store certain information like the time the rental occurred, the duration in hours, the price per hour, and so on. So if we modeled this as an M-N association between `Bike` and `Person`, we couldn't store all this information unless we used an associative entity (which is only valid when the entity itself is weak in identification). But here we prefer to use a surrogate key to uniquely identify the rentals, which avoids making the entity representing them weak in identification.
 
-This is necessary because each rental requires storing associated information, in addition to the person and the bike involved. So an we’ll introduce an entity that relates to both `Bike` and `Person` through `1-*` associations** (each `Rental` associates a bike with a person), storing information about that "event." Then, as it has two associations with the many side in Rental, this entity will have two foreign keys – one to implement each association. One will reference the primary key of the Bike entity and the other the primary key of the `Person` entity.
+This is necessary because each rental requires storing associated information, in addition to the person and the bike involved. So an we’ll introduce an entity that relates to both `Bike` and `Person` through `1-*` associations** (each `Rental` associates a bike with a person), storing information about that "event." Then, as it has two associations with the many side in Rental, this entity will have two foreign keys - one to implement each association. One will reference the primary key of the Bike entity and the other the primary key of the `Person` entity.
 
 Here, we need to distinguish between both foreign keys, as each is composed of one attribute, unlike the previous case where `Person` had only one foreign key composed of several attributes. That is, regardless of the attributes that comprise each foreign key, it’s important to distinguish that one aims to uniquely identify a bike while the other uniquely identifies a person.
 
@@ -182,7 +182,7 @@ CREATE TABLE Rental (
 );
 ```
 
-When writing your DDL, the attributes are declared the same as before – the main difference here being that each foreign key has its own `FOREIGN KEY` constraint, which references the primary key attribute of the corresponding table. This is the case because here, both `Bike` and Person have primary keys with a single attribute.
+When writing your DDL, the attributes are declared the same as before - the main difference here being that each foreign key has its own `FOREIGN KEY` constraint, which references the primary key attribute of the corresponding table. This is the case because here, both `Bike` and Person have primary keys with a single attribute.
 
 Another important detail to consider is the minimum multiplicity on the Person and `Bike` sides in the associations of the conceptual diagram, where the 1 side of the associations has a minimum multiplicity of 1. This means that a Rental must always be associated with a person and a bike, so their foreign keys can never be `NULL`. This is why the `NOT NULL` constraint is used in the attributes.
 
@@ -194,7 +194,7 @@ This way, if someone tries to insert negative values for these attributes, the D
 
 ### `CarOwnership` entity
 
-Another entity related to Person in the diagram – that is, representing something else a Person can do – is `CarOwnership`. This aims to model that people can have cars, whether bought, rented, or leased. For this, we use the same conceptual structure as with `Rental`, where a person can have multiple cars and a car can belong to many people.
+Another entity related to Person in the diagram - that is, representing something else a Person can do - is `CarOwnership`. This aims to model that people can have cars, whether bought, rented, or leased. For this, we use the same conceptual structure as with `Rental`, where a person can have multiple cars and a car can belong to many people.
 
 As before, this implicit **`N-M` association** between `Car` and `Person` must store information about the ownership, such as its type, start date, price, and so on. So we’ll use an intermediate entity with `1-*` associations towards both entities, with the 1 side on them.
 
@@ -267,7 +267,7 @@ Also, if we wanted to reconstruct the conceptual entity from the relational diag
 
 With this, if any of the foreign keys are underlined, the entity is necessarily **weak** in identification, and the **«weak»** role would be specifically placed on the association modeled by that foreign key. The **many** side of that association would be placed on the side of the entity from which the foreign key originates. And we wouldn’t include its foreign key attributes in the conceptual diagram entity.
 
-In its DDL, we can see that the primary key is composed of StartDate along with the foreign key attributes, where each one represents a different foreign key pointing to a certain entity like `Person` or `City` – hence the addition of two FOREIGN KEY constraints. We’ve also added the `NOT NULL` constraint to both foreign keys due to the minimum multiplicity of the 1 side of the associations, which requires a `Residence` tuple to relate a person with a city. If we had `0..1` instead of `1..1` on those sides of the associations, then each foreign key of `Residence` might not reference any person or city, meaning it could be `NULL`.
+In its DDL, we can see that the primary key is composed of StartDate along with the foreign key attributes, where each one represents a different foreign key pointing to a certain entity like `Person` or `City` - hence the addition of two FOREIGN KEY constraints. We’ve also added the `NOT NULL` constraint to both foreign keys due to the minimum multiplicity of the 1 side of the associations, which requires a `Residence` tuple to relate a person with a city. If we had `0..1` instead of `1..1` on those sides of the associations, then each foreign key of `Residence` might not reference any person or city, meaning it could be `NULL`.
 
 Regarding the remaining constraints, no attribute can be null except `EndDate`. If it’s not `NULL`, then the date it stores must be after the date the residence began, as it wouldn't make sense for it to be earlier than the start date.
 
@@ -296,13 +296,13 @@ CREATE TABLE ShipAssignment (
 
 Here, we assume the end date of the assignment is always defined, meaning cruises are assigned to cruise lines through "contracts" that always start and end on specific dates, and assignments don’t last indefinitely. This implies that `EndDate` can never be `NULL`. So in the DDL, we include the `NOT NULL` constraint and a `CHECK` to ensure that `EndDate` is after the start date, guaranteeing that only valid tuples are inserted into the database.
 
-The foreign keys are formed solely by the attribute ShipFK, which refers to the CruiseShip entity. We use it to reference the cruise assigned to a certain cruise line. But the other foreign key, which is used to implement the other `1-*` association, is composed of the attributes **(`NameFK`, `FoundationDateFK`)**, which refer to the primary key of `CruiseLine` – and this, in turn, is composite and contains two attributes **(`Name`, `FoundationDate`)**.
+The foreign keys are formed solely by the attribute ShipFK, which refers to the CruiseShip entity. We use it to reference the cruise assigned to a certain cruise line. But the other foreign key, which is used to implement the other `1-*` association, is composed of the attributes **(`NameFK`, `FoundationDateFK`)**, which refer to the primary key of `CruiseLine` - and this, in turn, is composite and contains two attributes **(`Name`, `FoundationDate`)**.
 
 If we only look at the relational diagram, we’ll see that three attributes are part of foreign keys because there are arrows coming from them. Specifically, the arrow from one of them (`ShipFK`) will point to an attribute in a certain table. So we know that this attribute forms a foreign key by itself, while the other two have arrows pointing to attributes of another different entity (but both referencing the same one).
 
 So together, they form another foreign key because the entity or table they reference is **different** from the one referenced by the other attribute `ShipFK`.
 
-These attributes, in turn, serve to uniquely identify each tuple in ShipAssignment – because, with just the start and end dates, we can’t distinguish between any possible pair of tuples.
+These attributes, in turn, serve to uniquely identify each tuple in ShipAssignment - because, with just the start and end dates, we can’t distinguish between any possible pair of tuples.
 
 For example, if several ships are assigned to the same cruise line during the same time period, the start and end dates will match in both tuples, but they’ll represent different assignments even though the dates are the same. So the primary key of the table includes the attributes of the foreign keys, so that their values can distinguish any pair of tuples we might have in the table. Specifically, we include the foreign keys because a cruise can be or have been assigned to several cruise lines, just as a cruise line can have had multiple cruises assigned to it.
 
@@ -369,7 +369,7 @@ In addition to cities, our domain also includes ports, which are represented by 
 
 We can infer the existence of this foreign key by looking at the entity's associations, where all of them are of the `1-*` type, and only one has the **many side** in `Port`. This precisely models this relationship between `Port` and `City`. The others have their **1 side** in `Port`, indicating that they point to `Port`, meaning they reference some tuple in the `Port` table.
 
-At the same time, the foreign key of `Port` is also part of its primary key because a port can’t be identified by its name alone – we also need to know the city where it’s located.
+At the same time, the foreign key of `Port` is also part of its primary key because a port can’t be identified by its name alone - we also need to know the city where it’s located.
 
 For example, in this domain, we assume that there can be several ports with the same name, but not located in the same city. So if two ports are in the same city, according to the domain, we have the guarantee that their names can’t be the same. This allows us to define the primary key as the combination **(`Name`, `CityFK`)**.
 
@@ -421,7 +421,7 @@ CREATE TABLE CruiseLine (
 );
 ```
 
-Specifically, the primary key of this entity is made up of the company name and the foundation date. This combination of values might seem unique across the tuples we can store in the table, as it’s very unlikely that multiple cruise lines with the same name would be founded on the same date. But we shouldn’t make these assumptions ourselves – instead, we have to ensure that these conditions are met with the client, target user, or domain experts of our system.
+Specifically, the primary key of this entity is made up of the company name and the foundation date. This combination of values might seem unique across the tuples we can store in the table, as it’s very unlikely that multiple cruise lines with the same name would be founded on the same date. But we shouldn’t make these assumptions ourselves - instead, we have to ensure that these conditions are met with the client, target user, or domain experts of our system.
 
 Here, for simplicity, we directly assume that no cruise line has the same name as another founded on the same date, but you should always verify if this holds true in the domain.
 
@@ -441,7 +441,7 @@ In summary, we use an IS-A hierarchy because we need to model a situation where 
 
 But, practically, what matters to us is that a hierarchy allows us to have a superclass (the Vehicle entity in this case) where we have attributes corresponding to these common characteristics, and then a series of entities that inherit from it and represent specific types of individuals (each having specific characteristics depending on their type).
 
-With this, we gain clarity and maintainability in the diagram, as adding a new common characteristic to all vehicles only requires adding it to Vehicle – not to each and every inheriting entity. Similarly, if a new type of vehicle needs to be added to the system, we won’t need to include all the common attributes of vehicles in that entity.
+With this, we gain clarity and maintainability in the diagram, as adding a new common characteristic to all vehicles only requires adding it to Vehicle - not to each and every inheriting entity. Similarly, if a new type of vehicle needs to be added to the system, we won’t need to include all the common attributes of vehicles in that entity.
 
 ### How is this IS-A hierarchy implemented with tables?
 
@@ -449,11 +449,11 @@ At this point, we need to decide how to implement the hierarchy using tables in 
 
 To start, it's important to see that Vehicle has VehicleID as its primary key, which we assume is a surrogate key. With this, we know that if we had to implement any table for the inheriting entities, they should have a foreign key pointing to VehicleID, as it’s the primary key that can uniquely identify tuples of Vehicle.
 
-We see that the hierarchy here is **complete** and **disjoint**. It’s complete because all the "individuals" in the hierarchy must always be represented by the inheriting entities. In other words, we will never find a vehicle that only has the attributes of Vehicle – instead, all vehicles in our domain are necessarily of one of the types defined in the inheriting entities (or so we assume). It’s **disjoint** because a vehicle can’t be of multiple types at once, meaning it can’t be both a car and a cruise ship, which makes sense.
+We see that the hierarchy here is **complete** and **disjoint**. It’s complete because all the "individuals" in the hierarchy must always be represented by the inheriting entities. In other words, we will never find a vehicle that only has the attributes of Vehicle - instead, all vehicles in our domain are necessarily of one of the types defined in the inheriting entities (or so we assume). It’s **disjoint** because a vehicle can’t be of multiple types at once, meaning it can’t be both a car and a cruise ship, which makes sense.
 
 All this means that each of them will be implemented with a specific table. Our system stores many types of vehicles and will likely need to expand with even more types of vehicles. To simplify this process of adding new types of vehicles and to avoid the appearance of too many NULL values in tables, we’ll implement a table for each inheriting entity of the hierarchy.
 
-For the superclass, we’ll also implement a specific table, as each vehicle that exists in our system will be represented in one of the tables of the inheriting entities – but it’ll need to take values in the characteristics (attributes) of the superclass.
+For the superclass, we’ll also implement a specific table, as each vehicle that exists in our system will be represented in one of the tables of the inheriting entities - but it’ll need to take values in the characteristics (attributes) of the superclass.
 
 Here, we have several options. One option is not to implement a table for the superclass, duplicating all its attributes in each of the tables of the inheriting entities. This is easy to understand and initially seems practical, but it has significant drawbacks.
 
@@ -467,7 +467,7 @@ With the other option, we implement a specific table for the superclass, avoidin
 
 We can easily do this by counting the tuples in the Vehicle table, instead of adding up the tuple counts from each of the tables for different types of vehicles. We can resolve this query this way because all vehicles will have a **tuple in Vehicle** that stores the common features, as well as one in their specific vehicle type table that stores the rest of the features defining it as a car, cruise, bike, and so on.
 
-In this tuple, there’s a **foreign key** that references the tuple in the superclass table, thus associating the information from both tuples so it can query it and know all the information about a vehicle – both its **common** features to all vehicles and the **specific** ones of its type.
+In this tuple, there’s a **foreign key** that references the tuple in the superclass table, thus associating the information from both tuples so it can query it and know all the information about a vehicle - both its **common** features to all vehicles and the **specific** ones of its type.
 
 ```pgsql
 CREATE TYPE ColorType AS ENUM ( 'red', 'green', 'blue', 'yellow', 'black', 'white' ); 
@@ -488,7 +488,7 @@ But if we try to reconstruct the IS-A hierarchy from the entity-relationship dia
 
 This is because there’s not a single way to translate an IS-A hierarchy into a relational diagram. Depending on the semantics of the features and entities, plus the system requirements, it may be better to use more or fewer tables to implement it. But in cases like this where we have a table for each entity in the hierarchy, we can clearly see that there’s a `Vehicle` table with a primary key `VehicleID` (which is referenced by multiple tables, each having exactly the same foreign key referencing `Vehicle`).
 
-If we only look at this, we might think that `Vehicle` is an entity that has `1-*` associations with other entities – and this is entirely possible when looking only at the relational diagram.
+If we only look at this, we might think that `Vehicle` is an entity that has `1-*` associations with other entities - and this is entirely possible when looking only at the relational diagram.
 
 But to derive the conceptual design from the logical one and infer the existence of an IS-A hierarchy, we have to focus on the semantics of the tables and attributes. That's where we'll see that `Vehicle` contains attributes common to all types of vehicles that have foreign keys pointing to `Vehicle`. This gives us clues that `Vehicle` could be the superclass of a hierarchy, and the rest of the tables with foreign keys pointing to `Vehicle` could be inheriting entities.
 
@@ -496,7 +496,7 @@ But inferring the existence of an IS-A hierarchy in the conceptual design simply
 
 Still, even though conceptually we can transform the hierarchy into a series of `1-*` associations between `Vehicle` and the other entities, this is only true to the implementation if we implement one table per entity. Otherwise, we wouldn’t be correctly reflecting in the conceptual design what is actually implemented in the logical one.
 
-In summary, when we see an IS-A hierarchy, it doesn't necessarily mean there are foreign keys between the inheriting entities and the superclass, as not always as many tables as entities are used to implement the hierarchy. So to reconstruct a hierarchy at the conceptual level from the logical one, the most reliable thing to focus on is the constraints, notes, or indications left in the relational diagram explaining why certain tables were implemented – that is, where they come from.
+In summary, when we see an IS-A hierarchy, it doesn't necessarily mean there are foreign keys between the inheriting entities and the superclass, as not always as many tables as entities are used to implement the hierarchy. So to reconstruct a hierarchy at the conceptual level from the logical one, the most reliable thing to focus on is the constraints, notes, or indications left in the relational diagram explaining why certain tables were implemented - that is, where they come from.
 
 Implementing a hierarchy at the logical level usually involves a series of design decisions that must be properly justified, which we can then use to infer the existence of the hierarchy at the conceptual level.
 
@@ -533,11 +533,11 @@ So the foreign key must reference a valid tuple in Vehicle where the values for 
 
 The important thing about this attribute is to correctly define the `NOT NULL` and FOREIGN KEY constraints, ensuring it correctly references the primary key `VehicleID` of the Vehicle table.
 
-In the conceptual design, we see that this entity has multiple `1-*` associations, which indicate that there are three foreign keys from other entities pointing to `CruiseShip`. But if we only have the conceptual design, we can’t say anything about the possible foreign key generated by the IS-A hierarchy. That is, if we only have the conceptual diagram, we can’t "guess" how many tables have been used to implement the hierarchy – we only know that after creating the logical design. At most, we could consider all possible options for implementing the hierarchy and, for each one, analyze whether there is a foreign key coming from `CruiseShip`.
+In the conceptual design, we see that this entity has multiple `1-*` associations, which indicate that there are three foreign keys from other entities pointing to `CruiseShip`. But if we only have the conceptual design, we can’t say anything about the possible foreign key generated by the IS-A hierarchy. That is, if we only have the conceptual diagram, we can’t "guess" how many tables have been used to implement the hierarchy - we only know that after creating the logical design. At most, we could consider all possible options for implementing the hierarchy and, for each one, analyze whether there is a foreign key coming from `CruiseShip`.
 
 But if in addition to the entity-relationship diagram we know that there is a foreign key originating from `CruiseShip` and pointing to another entity, then the entity it points to must necessarily be Vehicle. This is because `1-*` type associations are elements that we know will generate foreign keys. But certain types of associations like 1-1 or `0..1`-`0..1` can lead to ambiguities, as we have seen before when trying to infer the existence of a hierarchy at the conceptual level.
 
-So by discarding entities related through `1-*` associations, the only option left would be Vehicle. With all this, we can also know that the implementation of the hierarchy at the logical level has been done by creating a table for the superclass and for the `CruiseShip` entity – but we couldn’t be sure whether the other entities have also been implemented with a table or not, as that heavily depends on the semantics.
+So by discarding entities related through `1-*` associations, the only option left would be Vehicle. With all this, we can also know that the implementation of the hierarchy at the logical level has been done by creating a table for the superclass and for the `CruiseShip` entity - but we couldn’t be sure whether the other entities have also been implemented with a table or not, as that heavily depends on the semantics.
 
 ### `Bike` entity
 
@@ -565,7 +565,7 @@ And since this foreign key is not part of the primary key, the entity is not wea
 
 ![Entity-relationship diagram with inheritance where `Bike` and `Car` are subclasses of Vehicle.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752833986569/a77fb4b1-3632-4d63-ad28-750c6768ef0d.png)
 
-To understand this, we can consider a simpler example of a hierarchy with only two inheriting entities (as you can see in the diagram above). If we only have the conceptual design, we still won't know which tables we'll use to implement the hierarchy – although we know we have several options, such as:
+To understand this, we can consider a simpler example of a hierarchy with only two inheriting entities (as you can see in the diagram above). If we only have the conceptual design, we still won't know which tables we'll use to implement the hierarchy - although we know we have several options, such as:
 
 - implementing or not implementing a table for the superclass
 - implementing a table to represent all inheriting entities, or just one table for each entity
@@ -583,7 +583,7 @@ On the other hand, if it points to one of the inheriting entities, it’s not a 
 
 So in the IS-A hierarchies of the conceptual model, the "weak" role is never used to indicate possible identification weakness that the tables implementing the entities might have. There are many ways to implement the hierarchy with tables, and the chosen method is not 100% determined by the conceptual diagram.
 
-But it’s very important to be clear that the entities in the hierarchy can have associations with other entities that make them weak in identification. In that case, even though they are part of an IS-A hierarchy, the "weak" role would be used to indicate that the entity is weak in identification (but not due to the hierarchy – rather because of an association with another entity).
+But it’s very important to be clear that the entities in the hierarchy can have associations with other entities that make them weak in identification. In that case, even though they are part of an IS-A hierarchy, the "weak" role would be used to indicate that the entity is weak in identification (but not due to the hierarchy - rather because of an association with another entity).
 
 ### `Car` entity
 
@@ -655,7 +655,7 @@ In our domain, cars can belong to a person through a record in the `Carownership
 
 The entity is very similar to some we have seen before, like `Residence` (while the entities it relates to here are different, as well as the reason for its existence). Implicitly, a car can be registered and associated with many driver's licenses, while the same driver's license can have an arbitrary number of cars associated with it. We can determine this by observing the **cardinalities** and **navigability** of the associations in the conceptual diagram.
 
-For example, if we have a car, then by conducting an exhaustive search in the tuples of `CarRegistration`, we can find out how many records it’s in or has participated in. Also, for each of those records, we automatically know the driver's license it has been associated with – so from one car, we can learn about many driver's licenses.
+For example, if we have a car, then by conducting an exhaustive search in the tuples of `CarRegistration`, we can find out how many records it’s in or has participated in. Also, for each of those records, we automatically know the driver's license it has been associated with - so from one car, we can learn about many driver's licenses.
 
 Conversely, the same applies: if we have a certain license, we can indirectly find out by looking in the `CarRegistration` table how many records associate cars with that license. And for each of those records, we would obtain the associated car.
 
@@ -693,7 +693,7 @@ Regarding the information stored in the car registration, we mainly have the reg
 
 Here, we could have defined the `CarRegistration` entity as weak in identification, including both foreign keys in a primary key like `{RegistrationDate, PlateFK, LicenseFK}`. But for simplicity, a surrogate key is preferred, which simplifies database operations. In fact, the only advantage of not using the surrogate key would be saving the space occupied by the values of that additional column (and we could remove it if need be). But doing so would complicate the identification of `CarRegistration` tuples, as well as make certain queries less efficient and less readable.
 
-And if we delve into the physical level, we would realize that having a primary key composed of more attributes would cause the DBMS to use more space to manage it. This would counteract the savings from removing the surrogate key – so the surrogate key remains the preferred option.
+And if we delve into the physical level, we would realize that having a primary key composed of more attributes would cause the DBMS to use more space to manage it. This would counteract the savings from removing the surrogate key - so the surrogate key remains the preferred option.
 
 In summary, at the conceptual level, we’ve learned that navigation from `Car` to `DrivingLicense` is not entirely possible, as there is no foreign key in `Car` pointing to `CarRegistration`. But at the logical level, we can get information from `CarRegistration` because we can examine all the tuples of `CarRegistration`, allowing us to know which of them has their corresponding foreign key referencing the car we started from.
 
@@ -701,7 +701,7 @@ That is, conceptually, `1-*` type associations are only navigable from the many 
 
 ### `DrivingLicenseRequest` entity
 
-In our domain, people can request a driver's license from a public entity, which in this case doesn't matter to us – we only care that it’s responsible for accepting or rejecting these requests. If a request is accepted, it should become the driver's license of the person who requested it, while if it is rejected, it will remain in the database as a failed request.
+In our domain, people can request a driver's license from a public entity, which in this case doesn't matter to us - we only care that it’s responsible for accepting or rejecting these requests. If a request is accepted, it should become the driver's license of the person who requested it, while if it is rejected, it will remain in the database as a failed request.
 
 To model this in our database, we have many options:
 
@@ -800,11 +800,11 @@ With this example, we see that in very specific cases, it’s possible to infer 
 
 On one hand, if the domain or requirements dictate that certain entities need to have their own identifiers, then we’ll have to define them as primary keys of the corresponding entities. In our domain, all requests must be uniquely identified by an attribute in `DrivingLicenseRequest`, so we add a surrogate key to that entity.
 
-If the requirements tell us that some of the attributes of an entity serve as an identifier, then we’ll use them as the primary key – but here for simplicity, we assume there is no domain-specific identifier, and we are the ones adding the surrogate key as an identifier to store the data in our system.
+If the requirements tell us that some of the attributes of an entity serve as an identifier, then we’ll use them as the primary key - but here for simplicity, we assume there is no domain-specific identifier, and we are the ones adding the surrogate key as an identifier to store the data in our system.
 
 On the other hand, if we don't have information on how the entities should be identified, then we have the freedom to do so however we want, mainly depending on the implementation chosen in the end.
 
-But regardless of the source of this identification, in general, it all comes down to whether or not each inheriting entity can be identified by its own attributes. This determines if the table it converts to at the logical level is weak in identification or not – because if we ultimately decide to define a primary key for an inheriting entity, then we will necessarily implement it with a concrete table.
+But regardless of the source of this identification, in general, it all comes down to whether or not each inheriting entity can be identified by its own attributes. This determines if the table it converts to at the logical level is weak in identification or not - because if we ultimately decide to define a primary key for an inheriting entity, then we will necessarily implement it with a concrete table.
 
 As you can see, the identification of each entity can give us clues about how the hierarchy will be implemented, but it’s not something unequivocal that always guarantees a single way to implement it.
 
@@ -847,7 +847,7 @@ CREATE ASSERTION ApprovalDateConstraint CHECK (
 );
 ```
 
-Finally, although we define constraints on the table – such as that the reapplication date can’t be earlier than the rejection date – there are also other constraints (like the rejection date must be after the application date).
+Finally, although we define constraints on the table - such as that the reapplication date can’t be earlier than the rejection date - there are also other constraints (like the rejection date must be after the application date).
 
 These types of constraints involving information from multiple tables need to be implemented with assertions or triggers. The simplest option is to use assertions as shown above, although we haven’t yet implemented the `ASSERTION` statements in PostgreSQL, so attempting to define them will result in an error from the DBMS. It’ll simply ignore these definitions.
 
@@ -875,7 +875,7 @@ We can see all of this in the entity-relationship diagram through the `1-*` type
 
 To understand this last point, imagine being told that there is a foreign key in `DrivingLicense` pointing to another entity. With this information, we can directly know that this foreign key points to the superclass of the hierarchy and exists because of the implementation where there is at least a specific table for `DrivingLicense`.
 
-This is because the rest of the associations of the `DrivingLicense` entity are of the `1-*` type, with the 1 on the `DrivingLicense` side – so these associations result in foreign keys pointing to `DrivingLicense`, not the other way around. In summary, with just the conceptual diagram, you can’t know exactly how a hierarchy has been implemented, but with some additional information, you can.
+This is because the rest of the associations of the `DrivingLicense` entity are of the `1-*` type, with the 1 on the `DrivingLicense` side - so these associations result in foreign keys pointing to `DrivingLicense`, not the other way around. In summary, with just the conceptual diagram, you can’t know exactly how a hierarchy has been implemented, but with some additional information, you can.
 
 ```pgsql
 CREATE TABLE DrivingLicense (
@@ -928,7 +928,7 @@ CREATE TABLE BusTrip (
 
 When constructing the relational diagram, we must also underline the foreign key attribute that points to `CityBus`, since it’s part of the primary key (it’s the weak entity in identification). More specifically, we can infer this from the entity-relationship diagram by looking at where the «weak» role is located, which indicates the **owner entity** of BusTrip, meaning the one it depends on for identification.
 
-In the DDL, this is reflected in the attributes that make up the primary key, where we find the three from the table itself and `PlateFK`, which is the foreign key responsible for referencing the bus that makes the trip. We won’t impose any additional restrictions on the `StartAddress` and EndAddress attributes, even though just any text can’t be stored in them – only texts that represent valid addresses in a city (specifically where the bus operates).
+In the DDL, this is reflected in the attributes that make up the primary key, where we find the three from the table itself and `PlateFK`, which is the foreign key responsible for referencing the bus that makes the trip. We won’t impose any additional restrictions on the `StartAddress` and EndAddress attributes, even though just any text can’t be stored in them - only texts that represent valid addresses in a city (specifically where the bus operates).
 
 For simplicity, we’ll assume that if an address is not valid, it’s the responsibility of another part of the system to check this, such as software in the application layer that validates addresses before inserting tuples into the database.
 
@@ -942,7 +942,7 @@ It’s important to use the `TIMESTAMP` data type here and not `DATE` because a 
 
 When we see how this is represented in the conceptual diagram, you might notice the XOR restriction that appears between the associations connecting `BusTicket` with `Person` and `BusPass`. This restriction represents that all existing tickets are either directly associated with a person who owns the ticket or are associated with a `BusPass` that’s owned by a person and allows multiple trips with a pass.
 
-This is how we’d semantically explain the restriction we want to model – but conceptually, when we have a restriction represented by a dashed line and a logical condition like XOR, it means that either the **`BusTicket`-`Person`** association exists, or the **`BusTicket`-`BusPass`** association exists. It’s not possible for neither to exist or for both to exist at the same time.
+This is how we’d semantically explain the restriction we want to model - but conceptually, when we have a restriction represented by a dashed line and a logical condition like XOR, it means that either the **`BusTicket`-`Person`** association exists, or the **`BusTicket`-`BusPass`** association exists. It’s not possible for neither to exist or for both to exist at the same time.
 
 Because these associations exist, the foreign key in `BusTicket` pointing to the respective entity is not `NULL`. That is, both associations are of type `1-*`, so they are clearly implemented with foreign keys in `BusTicket`. But the minimum cardinalities on both sides are 0, indicating that the associations as a whole may not exist. In other words, it means that the values of the foreign key attributes can be `NULL`.
 
@@ -952,7 +952,7 @@ On the other hand, if both foreign keys had values in their attributes, we would
 
 That is, if the foreign key **`BusTicket`→`BusPass`** is not `NULL`, then we are modeling the situation where a person uses their pass to travel by bus, while the other foreign key, when not `NULL`, represents that the person is not using a pass to travel but is doing so directly with a ticket.
 
-So both situations can’t occur at the same time thanks to the domain restrictions that dictate that a person either travels with a ticket or with a pass – but not both at once, and not neither. This is because a ticket is necessary to travel. This is why we use the XOR condition to represent that either one association exists or the other, but not both at the same time. It also prohibits neither from existing.
+So both situations can’t occur at the same time thanks to the domain restrictions that dictate that a person either travels with a ticket or with a pass - but not both at once, and not neither. This is because a ticket is necessary to travel. This is why we use the XOR condition to represent that either one association exists or the other, but not both at the same time. It also prohibits neither from existing.
 
 | **PersonFK** | **PassFK** | **Valid** | **Meaning** |
 | --- | --- | --- | --- |
@@ -1002,7 +1002,7 @@ CREATE TABLE BusTicket (
 );
 ```
 
-To uniquely identify each ticket, we have to use both the IssueTime attribute of the table and the foreign key pointing to `BusTrip`, which determines which trip will be made with that ticket. So we have a weak entity in identification again – and it’s peculiar in that the foreign key in this case is composed of several attributes, since the primary key of `BusTrip` (which is the owning entity on which it depends for identification) is itself composed of multiple attributes. Specifically, this primary key has 4 attributes – so in `BusTicket`, as the foreign key must reference the primary key of `BusTrip`, it will be composed of exactly 4 attributes (meaning as many as the primary key it points to).
+To uniquely identify each ticket, we have to use both the IssueTime attribute of the table and the foreign key pointing to `BusTrip`, which determines which trip will be made with that ticket. So we have a weak entity in identification again - and it’s peculiar in that the foreign key in this case is composed of several attributes, since the primary key of `BusTrip` (which is the owning entity on which it depends for identification) is itself composed of multiple attributes. Specifically, this primary key has 4 attributes - so in `BusTicket`, as the foreign key must reference the primary key of `BusTrip`, it will be composed of exactly 4 attributes (meaning as many as the primary key it points to).
 
 To declare this foreign key, we use the same FOREIGN KEY constraint as always, the only difference being that here we use several attributes instead of just one.
 
@@ -1012,7 +1012,7 @@ Since this is the only foreign key that can’t be `NULL` in the table, we need 
 
 On the other hand, for the other foreign keys that model associations with Person and BusPass, we shouldn’t add this constraint because these foreign keys will need to take a `NULL` value in certain situations. So none of the attributes require us to declare constraints.
 
-Finally, the `TIMESTAMP` data type isn’t the only one that can store date and time in the `IssueTime` attribute – we also have alternatives like `DATETIME` or `TIMESTAMP WITH TIME ZONE`. These have specific uses, such as storing the time zone in addition to the time itself. For simplicity, in this example, we’ll use `TIMESTAMP` for all attributes that need to store date and time.
+Finally, the `TIMESTAMP` data type isn’t the only one that can store date and time in the `IssueTime` attribute - we also have alternatives like `DATETIME` or `TIMESTAMP WITH TIME ZONE`. These have specific uses, such as storing the time zone in addition to the time itself. For simplicity, in this example, we’ll use `TIMESTAMP` for all attributes that need to store date and time.
 
 ### `BusPass` entity
 
@@ -1045,7 +1045,7 @@ Lastly, we can indicate the constraint that we modeled at the conceptual level w
 
 Continuing with the ways people in our domain travel by cruise, we have the entity `Voyage`. This models the trips taken by the cruises. Specifically, the entity stores information about the trip, such as the departure and arrival dates, as well as the ports where the trip begins and ends.
 
-We can also see that it has an attribute called `Distance`, which might initially seem irrelevant – but `Distance` records the total distance traveled by the cruise during the trip. And this doesn’t necessarily have to match the shortest distance between the departure and arrival ports.
+We can also see that it has an attribute called `Distance`, which might initially seem irrelevant - but `Distance` records the total distance traveled by the cruise during the trip. And this doesn’t necessarily have to match the shortest distance between the departure and arrival ports.
 
 The decision to use this meaning for this attribute came from our domain and its constraints. That is, if we are required to record the total distance the cruise travels, in addition to the distance between both ports, the simplest option would be to add an attribute in this entity that records that magnitude.
 
@@ -1053,7 +1053,7 @@ In other words, if we didn't need to know the distance traveled by the cruise it
 
 If we look at the conceptual model, we’ll see that this entity has two identical associations of the same type `1-*` with the entity `Port`, all with the aim of conceptually modeling that a voyage is associated with two ports, one for departure and one for arrival, where both can be the same. Regarding this last point, if they could not be the same, we would need to indicate that restriction with a note, as there are no standard elements in an entity-relationship diagram or in the relational model to represent such a situation.
 
-On the other hand, we could also consider modeling the trip so that is has departure and arrival ports through a single `Voyage`-`Port` association with a cardinality of 2 on the `Port` side. But if we did this, conceptually, we wouldn't distinguish which port was for departure and which was for arrival. Rather, we would be modeling that the cruise passes through two ports on that trip – but we wouldn't know for sure which was the arrival or departure port (at least at the conceptual level) since at the logical level there would necessarily have to be two foreign keys pointing to Port.
+On the other hand, we could also consider modeling the trip so that is has departure and arrival ports through a single `Voyage`-`Port` association with a cardinality of 2 on the `Port` side. But if we did this, conceptually, we wouldn't distinguish which port was for departure and which was for arrival. Rather, we would be modeling that the cruise passes through two ports on that trip - but we wouldn't know for sure which was the arrival or departure port (at least at the conceptual level) since at the logical level there would necessarily have to be two foreign keys pointing to Port.
 
 So to easily distinguish between the arrival and departure ports for a trip and to clarify the semantics of the association between `Voyage` and Port, we’ll use multiple associations, each with a role that explicitly indicates the relationship the port has with the trip.
 
@@ -1102,7 +1102,7 @@ For example, in `CruiseShip`, we would see that its primary key has only one att
 
 In the relational diagram, this is easier to interpret. We’ll see that one attribute references an attribute of the `CruiseShip` table, so we know it’s a foreign key that leads to a `1-*` association in the conceptual model.
 
-Also, there are two other attributes that together reference two attributes of `Port` – and together, they also form a foreign key that creates a `1-*` association in the conceptual diagram, where the many side is in the entity from which the foreign key originates ( that is, in `Voyage`).
+Also, there are two other attributes that together reference two attributes of `Port` - and together, they also form a foreign key that creates a `1-*` association in the conceptual diagram, where the many side is in the entity from which the foreign key originates ( that is, in `Voyage`).
 
 With this last foreign key, we can represent the departure port of the trip. There’s another pair of attributes **(`ArrivalNameFK`, `ArrivalCityFK`)** that follow the same pattern to represent the arrival port of the trip. From them, we can also infer that at the conceptual level, there’s another association with the same characteristics.
 
@@ -1124,7 +1124,7 @@ We do this because we assume that multiple people can book the same cabin for th
 
 The foreign key to `Person` has a single attribute since the primary key of `Person` has only one attribute. But the other foreign key that refers to the voyage being booked has exactly 7 attributes (as the `Voyage` entity requires 7 attributes to be uniquely identified).
 
-With this, we realize that the primary key of `CruiseBooking` will have a total of 10 attributes, making it a much more complex solution than simply using a surrogate key. So you can see why it’s very convenient to use surrogate keys whenever possible for this type of entity – especially when the foreign keys that will be part of the primary key have too many attributes, as in this case.
+With this, we realize that the primary key of `CruiseBooking` will have a total of 10 attributes, making it a much more complex solution than simply using a surrogate key. So you can see why it’s very convenient to use surrogate keys whenever possible for this type of entity - especially when the foreign keys that will be part of the primary key have too many attributes, as in this case.
 
 ```pgsql :collapsed-lines
 CREATE TYPE PaymentMethodType AS ENUM ('card', 'paypal', 'bank', 'cash', 'mobile');
@@ -1178,7 +1178,7 @@ If we look at the DDL, it seems much more complex than the previous ones. But ac
 
 We declare each foreign key with `FOREIGN KEY`, which is longer in this case due to the number of attributes that make up each one. The only important thing to keep in mind here is that one of the `FOREIGN KEY`s is exclusively dedicated to declaring the foreign key to `Person` (meaning the association between `CruiseBooking` and `Person`) while the other models the association with `Voyage`.
 
-We do this without mixing attributes of both foreign keys in the same `FOREIGN KEY` – as this would be an error since we wouldn't be modeling the conceptual diagram correctly. Each foreign key is independent of the others, so each `FOREIGN KEY` includes only the attributes that make up each corresponding foreign key.
+We do this without mixing attributes of both foreign keys in the same `FOREIGN KEY` - as this would be an error since we wouldn't be modeling the conceptual diagram correctly. Each foreign key is independent of the others, so each `FOREIGN KEY` includes only the attributes that make up each corresponding foreign key.
 
 To simplify the domain of the `PaymentMethod` attribute, we can define a `TYPE ENUM`, since the payment method is an attribute that will likely be used in other parts of the domain. Even if it's not needed now, it's possible that in a future expansion of the domain, we might need to include it in the schema. This is why it's important to declare it to make database management easier in a potential expansion.
 
@@ -1188,9 +1188,9 @@ In our domain, there are also pools, which are represented in the IS-A hierarchy
 
 Since they all share common attributes, we do the same as in the `Vehicle` hierarchy, using a superclass that includes these common attributes like the pool's name, its address, minimum and maximum depths, or the current state of the pool.
 
-We also include a **`1-*`** association between `Pool` and `City` to represent that all pools are located in a city – except for those of type `CruiseShip`, which are on a cruise ship and not in a city. In that specific case, the semantics of the association are different, as we’ll see later. From this, we can define different types of pools with distinct characteristics, where all of them inherit all the attributes of their superclass, including the association with `City`.
+We also include a **`1-*`** association between `Pool` and `City` to represent that all pools are located in a city - except for those of type `CruiseShip`, which are on a cruise ship and not in a city. In that specific case, the semantics of the association are different, as we’ll see later. From this, we can define different types of pools with distinct characteristics, where all of them inherit all the attributes of their superclass, including the association with `City`.
 
-As we can see, `CityPool` and `OlympicPool` have no issue with this, but `CruisePool` models pools on cruise ships, so its association with `City` does not have the same semantics as the others. In other words, the pool is not located in a city but on a cruise ship – so we assume that the associated city is its place of manufacture.
+As we can see, `CityPool` and `OlympicPool` have no issue with this, but `CruisePool` models pools on cruise ships, so its association with `City` does not have the same semantics as the others. In other words, the pool is not located in a city but on a cruise ship - so we assume that the associated city is its place of manufacture.
 
 As you can guess, this is not the only way to model this domain, nor is it the best, since the "locatedAt" semantics indicated in the conceptual diagram's association between `City` and `Pool` does not capture the meaning of that relationship when the pool is of type `CruisePool`. But once we clarify this, the model is correct in the sense that all essential elements are represented correctly, even if not in the best possible way.
 
@@ -1210,7 +1210,7 @@ Just like in the `DrivingLicenseRequest` hierarchy, pools here are also uniquely
 
 This might lead us to think that the best way to implement the hierarchy is, once again, with a table for each entity. But this doesn't necessarily have to be the case because a single table can be used to implement multiple entities at once, using the table's identifier to distinguish between the entities. This is because we assume that the domain does not impose any restrictions, unlike in the Vehicle hierarchy where each type of vehicle had to have its own identifier.
 
-Regarding the decision to implement a table for the **superclass**, whenever we have an **incomplete hierarchy**, we’ll need a specific table for the superclass – specifically to store information about pools that don’t belong to any type present in the inheriting entities. This means we need to include a **`Pool` table**.
+Regarding the decision to implement a table for the **superclass**, whenever we have an **incomplete hierarchy**, we’ll need a specific table for the superclass - specifically to store information about pools that don’t belong to any type present in the inheriting entities. This means we need to include a **`Pool` table**.
 
 Later, to decide whether to use that table to implement all entities in the hierarchy, only some of them, or to include a table for each inheriting entity, we need to look at the number of attributes the inheriting entities have. In this case, we see they have too many attributes, especially `CruisePool` and `CityPool`, so the simplest option is to implement a table for each entity in the hierarchy.
 
@@ -1220,7 +1220,7 @@ For example, while we represent `OlympicPool` with some attributes in `Pool` tha
 
 We also need to consider that some foreign keys point to `OlympicPool`, so those foreign keys would only be valid for tuples in `Pool` whose corresponding attributes `SpectatorMaxCapacity` and `CompetitionLanes` aren’t `NULL`, greatly complicating database management, creating more constraints, and possibly complicating certain queries.
 
-Although, no matter how complicated this option is, it would be possible to implement it, and it would be just as valid as implementing a table for each entity. That is, the complexity of an implementation can make it unfeasible but not incorrect – as long as the corresponding constraints are defined to maintain data integrity.
+Although, no matter how complicated this option is, it would be possible to implement it, and it would be just as valid as implementing a table for each entity. That is, the complexity of an implementation can make it unfeasible but not incorrect - as long as the corresponding constraints are defined to maintain data integrity.
 
 So even though in this case the simplest option is to use a table per entity, that doesn't mean there aren't other correct ways to implement the hierarchy. This means that from the entity-relationship diagram, we can’t infer the exact way it’s finally implemented, although it can be useful for making that decision.
 
@@ -1325,7 +1325,7 @@ To uniquely identify the tickets, the most important attribute is `EntryTimestam
 
 Specifically, the primary key needs the foreign key attributes `PersonFK` and `PoolFK` to differentiate entries by the person who bought them and the pool they enter, as well as the exact time of purchase. So if we consider the possible situations and combinations of values that can occur for the primary key of `Entry`, we’ll see that a person can’t buy multiple entries at the exact same moment to enter the same pool.
 
-This makes sense when the domain states that each ticket is associated with a single person and that a person can’t buy a ticket for someone else. In other words, if a person buys a ticket, they must use it themselves. They can’t buy multiple tickets for several people to enter. This doesn't have to be the case in all domains – we're just assuming here that people can't buy tickets for others.
+This makes sense when the domain states that each ticket is associated with a single person and that a person can’t buy a ticket for someone else. In other words, if a person buys a ticket, they must use it themselves. They can’t buy multiple tickets for several people to enter. This doesn't have to be the case in all domains - we're just assuming here that people can't buy tickets for others.
 
 In other domains, this might need to be modeled differently depending on the requirements. So, we’ll need to make sure that our model meets these types of requirements imposed by the domain, especially when defining **primary keys** or `UNIQUE` constraints.
 
@@ -1348,7 +1348,7 @@ CREATE TABLE Entry (
 
 On the other hand, the `EntryTimestamp` attribute of type `TIMESTAMP` is named differently from the `IssueTime` attribute of the `BusTicket` entity, for example.
 
-This isn't very important, but in a real design process, we might be required to use style guides that determine how we should name each attribute depending on its semantics, type, or constraints, as well as when and how we should declare certain constraints. In this specific case, we didn't follow any style guide – we simply named the attributes as descriptively as possible according to the circumstances. Still, following a style guide offers advantages in system maintainability and ease of administration, among others.
+This isn't very important, but in a real design process, we might be required to use style guides that determine how we should name each attribute depending on its semantics, type, or constraints, as well as when and how we should declare certain constraints. In this specific case, we didn't follow any style guide - we simply named the attributes as descriptively as possible according to the circumstances. Still, following a style guide offers advantages in system maintainability and ease of administration, among others.
 
 ### `Team` entity
 
@@ -1385,7 +1385,7 @@ So from all the other attributes we have, we finally include the foreign key `Co
 
 At first glance, this might seem entirely possible, but consider that some domain requirements might impose this condition, which we can leverage to define **(`Name`, `CoachFK`)** as the primary key. In any case, before making such a decision, make sure that the set of attributes meets the primary key restriction, either due to domain requirements or the semantics of the attributes themselves.
 
-We can declare foreign keys with `FOREIGN KEY` referencing the primary key of Person and OlympicPool. We impose the `NOT NULL` restriction on them since all teams must have a coach and an official Olympic pool. Here, we have also assumed the necessity of these elements, but in other cases it might not be mandatory to have an official pool or a coach – it all depends on the domain.
+We can declare foreign keys with `FOREIGN KEY` referencing the primary key of Person and OlympicPool. We impose the `NOT NULL` restriction on them since all teams must have a coach and an official Olympic pool. Here, we have also assumed the necessity of these elements, but in other cases it might not be mandatory to have an official pool or a coach - it all depends on the domain.
 
 If having a coach were not mandatory, we couldn’t include the foreign key attribute `CoachFK` in the primary key, as it could be NULL and would violate the primary key restriction. So for an entity to be weak in identification and another to be its owner, the association between them must be mandatory, meaning its minimum cardinality on the owner's side can’t be 0. Finally, we define a `TYPE ENUM` here for the type of sport the team plays, which is stored in the `Sport` attribute. But we don’t need to redefine it for the `Color` attribute, as we had the `ENUM ColorType` defined earlier, which is the best example of how a data type is **reused** across attributes with the same domain in different entities.
 
@@ -1465,11 +1465,11 @@ At the logical level, the foreign key referencing Team has two attributes, which
 
 Note that the `FOREIGN KEY` constraint only allows one `REFERENCES` clause. So if we have multiple foreign keys pointing to various entities, we have to use a separate `FOREIGN KEY` constraint for each foreign key. If we try to declare them all with a single constraint, we would have to indicate the multiple entities/tables being referenced, which means we would need to use multiple `REFERENCES` statements.
 
-After declaring the foreign keys and adding their respective `NOT NULL` constraint, since it’s mandatory for a participation to relate a team with a competition, we declare the foreign key as the set of attributes that form both foreign keys together. So in our system, there can be `Participation` tuples with different `Rank` or `RegistrationDate` values without any problem – but there can’t be multiple tuples with the same value in their primary key (meaning they can’t relate the same team with the same competition multiple times).
+After declaring the foreign keys and adding their respective `NOT NULL` constraint, since it’s mandatory for a participation to relate a team with a competition, we declare the foreign key as the set of attributes that form both foreign keys together. So in our system, there can be `Participation` tuples with different `Rank` or `RegistrationDate` values without any problem - but there can’t be multiple tuples with the same value in their primary key (meaning they can’t relate the same team with the same competition multiple times).
 
 Finally, if we try to reconstruct the conceptual entity from the relational diagram, the first thing we should notice is that all the foreign keys are underlined, and therefore form the primary key. As they are foreign keys, these attributes won’t appear in the conceptual entity of `Participation`.
 
-To determine how many foreign keys we actually have, and know how many `1-*` associations to introduce and with which entities to connect them, we can see that a subset of attributes like **(`TeamNameFK`, `CoachFK`)** refers to the same entity – so there will be a `1-*` relationship with that entity, with the many side in `Participation`. Doing the same with the attributes **(`NameFK`, `StartDateFK`, `EndDateFK`)**, we see that they all refer to attributes of the same entity. So they form a foreign key that results in a `1-*` association like the previous one, but connecting with another entity.
+To determine how many foreign keys we actually have, and know how many `1-*` associations to introduce and with which entities to connect them, we can see that a subset of attributes like **(`TeamNameFK`, `CoachFK`)** refers to the same entity - so there will be a `1-*` relationship with that entity, with the many side in `Participation`. Doing the same with the attributes **(`NameFK`, `StartDateFK`, `EndDateFK`)**, we see that they all refer to attributes of the same entity. So they form a foreign key that results in a `1-*` association like the previous one, but connecting with another entity.
 
 To infer the minimum cardinalities, we should look at the constraints indicated in the relational diagram: which foreign keys can or can’t be `NULL`, or how many participations each competition must have (as well as the participations each team must have).
 
@@ -1483,9 +1483,9 @@ The information that `SwimmingCompetition` stores mainly depends on the domain a
 
 With these attributes, the simplest way to uniquely identify each tuple in the `SwimmingCompetition` table is to define the set of attributes **(`Name`, `StartDate`, `EndDate`)** as the primary key.
 
-For example, there can be competitions in the database with exactly the same name, but they can never have the same start and end dates simultaneously (because that would mean they were the same competition). Ultimately, by declaring this primary key, we’re assuming that there are no different competitions with the same name and start and end dates – so if this condition aligns with the domain requirements, it would be correct.
+For example, there can be competitions in the database with exactly the same name, but they can never have the same start and end dates simultaneously (because that would mean they were the same competition). Ultimately, by declaring this primary key, we’re assuming that there are no different competitions with the same name and start and end dates - so if this condition aligns with the domain requirements, it would be correct.
 
-Consequently, there can be different competitions in the database with different combinations of values for the primary key attributes – but they might have the **same record time**, or the same prize in `PrizeAmount`, since there are no restrictions preventing it.
+Consequently, there can be different competitions in the database with different combinations of values for the primary key attributes - but they might have the **same record time**, or the same prize in `PrizeAmount`, since there are no restrictions preventing it.
 
 ```pgsql
 CREATE TABLE SwimmingCompetition (
@@ -1510,7 +1510,7 @@ But this is a decision we must make primarily considering the domain and its req
 
 Given everything a person can do in our domain in relation to other entities, they might break a rule that results in a sanction. So in our schema, we can introduce an IS-A hierarchy where the superclass is the entity `Sanction`, and its inherited entities are the different types of sanctions we define, all depending on their scope of application.
 
-Specifically, deciding to use a hierarchy to model sanctions is driven by the specific information that needs to be stored for each type of sanction. For this reason, if we tried to use a single `Sanction` entity to represent all these types, its semantics would be very complicated (as some attributes would only be useful if the sanction were of a certain type – and the same goes for many others). We would also need to use a specific attribute to represent the sanction type, since otherwise knowing the exact type might depend on which attributes were `NULL`, and this would complicate queries.
+Specifically, deciding to use a hierarchy to model sanctions is driven by the specific information that needs to be stored for each type of sanction. For this reason, if we tried to use a single `Sanction` entity to represent all these types, its semantics would be very complicated (as some attributes would only be useful if the sanction were of a certain type - and the same goes for many others). We would also need to use a specific attribute to represent the sanction type, since otherwise knowing the exact type might depend on which attributes were `NULL`, and this would complicate queries.
 
 So with this hierarchy, we can have a set of common attributes for all sanctions in `Sanction`, such as the monetary amount of the fine, the description, the date of the sanction, or the status, while in the inherited entities, we have specific attributes that characterize each type of sanction.
 
@@ -1557,7 +1557,7 @@ In the DDL of the `Sanction` table, we can see that its primary key `{SanctionID
 
 This table also stores the status of the sanction in an attribute, since the type of sanction is represented with inherited entities from the superclass at the conceptual level. So the status must be modeled as an attribute to avoid mixing the semantics of what we represent with each tool of the entity-relationship diagram.
 
-In other words, we could include new inherited entities that model the states of the sanctions, but we have to consider that each type of sanction could be in any of those states – leading to an unnecessarily complicated multi-level hierarchy.
+In other words, we could include new inherited entities that model the states of the sanctions, but we have to consider that each type of sanction could be in any of those states - leading to an unnecessarily complicated multi-level hierarchy.
 
 Because of this, we should separate the semantics of what we represent with inherited entities from the semantics of the sanction's status, modeling it with an attribute in the superclass, as any type of sanction can be in any state.
 
@@ -1677,7 +1677,7 @@ Lastly, we can see that some attributes of the foreign key pointing to `Entry` a
 
 Now that you understand the domain semantics and have completed the **conceptual** and **logical design phases**, we can implement the logical model on the DBMS.
 
-The easiest way to do this is by creating a script with a `.sql` extension that contains all the necessary DDL code to populate the database – that is, the statements we just reviewed where we create tables, data types, and constraints.
+The easiest way to do this is by creating a script with a `.sql` extension that contains all the necessary DDL code to populate the database - that is, the statements we just reviewed where we create tables, data types, and constraints.
 
 But since we aren’t working with a real project database here, we don't need to worry about the data that might be in tables that already exist in the database, especially those with the same name as any of the tables we’ll going to create. So for simplicity, before creating them, we’ll execute some DROP statements to remove tables with names matching any of the tables we are going to create. This will make sure that they contain no tuples.
 
@@ -1685,7 +1685,7 @@ Following this process, we’ll arrive at a DDL script [like this (<FontIcon ico
 
 When we run the script, keep in mind that the statements will execute one by one from top to bottom. So we first use the DROP statements to remove any tables in the database that have the same name as any of those we’ll create.
 
-This process is equivalent to **deleting** our entire database – that is, our logical model that was once created – so we first need to remove the tables that aren’t **referenced** by any **foreign keys** to maintain integrity while deleting the remaining tables.
+This process is equivalent to **deleting** our entire database - that is, our logical model that was once created - so we first need to remove the tables that aren’t **referenced** by any **foreign keys** to maintain integrity while deleting the remaining tables.
 
 Then, under the same condition, all corresponding tables that aren’t referenced by any foreign keys are successively deleted until no tables remain to be deleted.
 
@@ -1718,4 +1718,4 @@ OWNER TO user3; /*user3 is a sample user*/
 
 Once we’ve created the database, we can connect to it using the DBMS command `\c exampledatabase`. Finally, we can execute the `.sql` script with the command `\i /path_to_script/script.sql`. The DBMS should then notify us that the `DROP` statements have had no effect since there is no table with the corresponding name to delete (the database is empty). But, after creating the tables, if we run the script again, the `DROP` statements will delete them because they are created, preventing the DBMS from giving us these notifications.
 
-Similarly, if any statements encounter errors that prevent their execution, or in special situations like the one we just mentioned, the DBMS will notify us – but it won’t stop the execution of the script. It will simply move on to execute the next declared statements (at the syntactic level, it executes the next statement we have separated with the corresponding `;`).
+Similarly, if any statements encounter errors that prevent their execution, or in special situations like the one we just mentioned, the DBMS will notify us - but it won’t stop the execution of the script. It will simply move on to execute the next declared statements (at the syntactic level, it executes the next statement we have separated with the corresponding `;`).

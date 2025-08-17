@@ -56,7 +56,7 @@ Here is an overview of the shapes we’ll look at here, applied to the header of
 
 Cool right? Both designs are commonly used as section dividers. We will learn together how to create such shapes with some simple code.
 
-Before we start, you can find the code of the shapes we are making (and more!) within [<FontIcon icon="fas fa-globe"/>my online collection](https://css-shape.com/). You can easily copy the code from there – but don’t go away right now! Understanding the logic behind the code is also important and will help you customize it to fit your needs.
+Before we start, you can find the code of the shapes we are making (and more!) within [<FontIcon icon="fas fa-globe"/>my online collection](https://css-shape.com/). You can easily copy the code from there - but don’t go away right now! Understanding the logic behind the code is also important and will help you customize it to fit your needs.
 
 ---
 
@@ -80,9 +80,9 @@ So you might be wondering: I said “top center”, but why in the code do we on
 
 By default, if we don’t specify the position it will be the center of the element. This is equivalent to “`center`”, “`center center`”, “`50%`” or “`50% 50%`”. Note how we can either define one value or two values. If the second value is omitted, it will be equal to “`center`” so defining “`top`” is the same as “`top center`”.
 
-You don’t need to remember all the cases. Using the keywords such as "`top`”, “`left`”, and so on is, most of the time, enough – unless you need to create a custom shape (we will see this later on).
+You don’t need to remember all the cases. Using the keywords such as "`top`”, “`left`”, and so on is, most of the time, enough - unless you need to create a custom shape (we will see this later on).
 
-Let’s get back to the previous figure. If we increase the horizontal radius and make it bigger than 50% (85% for example), the ellipse will get bigger and will logically cover a bigger area. You start to see the trick, right? In the end, it’s only a portion at the bottom of the ellipse that is visible – the rounded edge we want!
+Let’s get back to the previous figure. If we increase the horizontal radius and make it bigger than 50% (85% for example), the ellipse will get bigger and will logically cover a bigger area. You start to see the trick, right? In the end, it’s only a portion at the bottom of the ellipse that is visible - the rounded edge we want!
 
 As a bonus, it’s responsive, since we are relying on percentage values. The horizontal radius is relative to the width while the vertical one is relative to the height. This said, you can also rely on pixel values if you want a fixed size for your ellipse. In some cases, it can give a better result.
 
@@ -205,7 +205,7 @@ And the opposite effect by changing `bottom` with `top`:
 
 You will notice that I am either using `top` everywhere or `bottom` everywhere which makes both pieces of code easy to remember.
 
-Now you might be wondering – how can we have the same curves and the top and bottom?
+Now you might be wondering - how can we have the same curves and the top and bottom?
 
 As you may have noticed, both curves don’t match, which makes the whole shape kind of broken. But we can fix this. We need to make sure both parts of the code create the same ellipse shape by setting the same radii.
 
@@ -218,7 +218,7 @@ As you may have noticed, both curves don’t match, which makes the whole shape 
 }
 ```
 
-Note the “`80% 100% at top`” which is the same in both declarations – but nothing will be visible if we use this code. Don’t forget that the `clip-path` will hide the outside part of the ellipse while the gradient will hide the inside part. So if both ellipses are the same, everything will be hidden.
+Note the “`80% 100% at top`” which is the same in both declarations - but nothing will be visible if we use this code. Don’t forget that the `clip-path` will hide the outside part of the ellipse while the gradient will hide the inside part. So if both ellipses are the same, everything will be hidden.
 
 To fix this, we have to offset the gradient and move it to the top to get the following:
 
@@ -276,7 +276,7 @@ The `top` of the `clip-path` becomes `bottom` and inside the gradient, we use `1
 
 ## Wrapping Up
 
-How many lines of code do you have to remember? Only two lines of code – that’s all! You can create a rounded edge using `clip-path`:
+How many lines of code do you have to remember? Only two lines of code - that’s all! You can create a rounded edge using `clip-path`:
 
 ```css
 .rounded-edge {

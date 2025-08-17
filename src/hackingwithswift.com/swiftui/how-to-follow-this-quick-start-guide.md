@@ -70,9 +70,9 @@ My code examples are specifically written for folks who are following along more
 
 ## Just starting out?
 
-If you're just starting out with SwiftUI you should read this guide in a roughly linear order – just keep reading and clicking Next until you're done. As far as possible I've written the guide so that later chapters build on earlier ones, so a linear approach really is a good idea.
+If you're just starting out with SwiftUI you should read this guide in a roughly linear order - just keep reading and clicking Next until you're done. As far as possible I've written the guide so that later chapters build on earlier ones, so a linear approach really is a good idea.
 
-If this is you, you should start by creating a new iOS app using the App template. It doesn't matter what you call it – it's just a sandbox where you can try out various code as you progress.
+If this is you, you should start by creating a new iOS app using the App template. It doesn't matter what you call it - it's just a sandbox where you can try out various code as you progress.
 
 ::: details Similar solutions…
 

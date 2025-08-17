@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -64,7 +64,7 @@ For example, if you had an optional string like this one:
 let name: String? = "twostraws"
 ```
 
-You could use the `map()` method to transform it safely, without having to check and unwrap it – if it were nil, the `map()` call would do nothing.
+You could use the `map()` method to transform it safely, without having to check and unwrap it - if it were nil, the `map()` call would do nothing.
 
 For example:
 

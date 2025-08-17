@@ -63,9 +63,9 @@ func fetchLatestNews(completion: @escaping ([String]) -> Void) {
 }
 ```
 
-If you wanted to use that using async/await you might be able to rewrite the function, but there are various reasons why that might not be possible – it might come from an external library, for example.
+If you wanted to use that using async/await you might be able to rewrite the function, but there are various reasons why that might not be possible - it might come from an external library, for example.
 
-Continuations allow us to create a shim between the completion handler and async functions so that we wrap up the older code in a more modern API. For example, the `withCheckedContinuation()` function creates a new continuation that can run whatever code you want, then call `resume(returning:)` to send a value back whenever you’re ready – even if that’s part of a completion handler closure.
+Continuations allow us to create a shim between the completion handler and async functions so that we wrap up the older code in a more modern API. For example, the `withCheckedContinuation()` function creates a new continuation that can run whatever code you want, then call `resume(returning:)` to send a value back whenever you’re ready - even if that’s part of a completion handler closure.
 
 So, we could make a second `fetchLatestNews()` function that is async, wrapping around the older completion handler function:
 

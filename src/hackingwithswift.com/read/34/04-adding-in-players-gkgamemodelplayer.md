@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-It's time to take our first step into GameplayKit, although at first this step will be small. Right now our game is single-player, and all chips that get dropped are red chips. We're going to upgrade this so that there are two players by creating a new `Player` class that stores a player's chip type, their name, their color, and a special GameplayKit value called `playerId` – this is just a number that identifies every player uniquely.
+It's time to take our first step into GameplayKit, although at first this step will be small. Right now our game is single-player, and all chips that get dropped are red chips. We're going to upgrade this so that there are two players by creating a new `Player` class that stores a player's chip type, their name, their color, and a special GameplayKit value called `playerId` - this is just a number that identifies every player uniquely.
 
 On top of that, we're also going to create a static property for players, which means it's a property that belongs to the class and thus can be called from anywhere. This will be an `allPlayers` array holding both `Player` objects for easy reference
 
@@ -86,9 +86,9 @@ Now make your `Player` class conform to the `GKGameModelPlayer` protocol, like t
 class Player: NSObject, GKGameModelPlayer {
 ```
 
-Xcode will be flagging up errors all over your code, but none of them are a result of GameplayKit – in fact, those two changes are all it takes to make GameplayKit work with our player data. Instead, the errors are because we've declared four properties non-optional and haven't given them any values, so we need to create a custom initializer.
+Xcode will be flagging up errors all over your code, but none of them are a result of GameplayKit - in fact, those two changes are all it takes to make GameplayKit work with our player data. Instead, the errors are because we've declared four properties non-optional and haven't given them any values, so we need to create a custom initializer.
 
-This initializer will accept one parameter, which is the chip color to use for each player. From that we can set the player ID (as the raw value of the chip type enum), the color (either red or black `UIColor`), and the player name (either "Red" or "Black"). It's pretty straightforward really – here's the code:
+This initializer will accept one parameter, which is the chip color to use for each player. From that we can set the player ID (as the raw value of the chip type enum), the color (either red or black `UIColor`), and the player name (either "Red" or "Black"). It's pretty straightforward really - here's the code:
 
 ```swift
 init(chip: ChipColor) {
@@ -123,7 +123,7 @@ That's the `Player` class finished: we won't be adding any more to it in this pr
 
 To take the next step in our game, we're going to start using the new `Player` class so that we have two players in the game, and we're also going to update the user interface to mark whose turn it is.
 
-Updating the user interface requires two methods in the `Board` class: one to determine if the board is full of pieces, and one to determine if a particular player has won. With these two we can show either "Red/Black Wins!" or "Draw!" in the user interface, but for now we're just going to return false from these methods – we'll put the real code in later.
+Updating the user interface requires two methods in the `Board` class: one to determine if the board is full of pieces, and one to determine if a particular player has won. With these two we can show either "Red/Black Wins!" or "Draw!" in the user interface, but for now we're just going to return false from these methods - we'll put the real code in later.
 
 Put these two into your `Board` class:
 

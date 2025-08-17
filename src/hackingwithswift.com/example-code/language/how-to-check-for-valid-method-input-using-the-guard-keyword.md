@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ func submit() {
 }
 ```
 
-This might seem like a job for a regular `if` statement, and to be fair that's correct – the two are very similar. The advantage with `guard`, however, is that it makes your intention clear: these values need to be set up correctly before continuing.
+This might seem like a job for a regular `if` statement, and to be fair that's correct - the two are very similar. The advantage with `guard`, however, is that it makes your intention clear: these values need to be set up correctly before continuing.
 
 The `guard` keyword is also helpful because it can be used to check and unwrap optionals that remain unwrapped until the end of the method. For example:
 

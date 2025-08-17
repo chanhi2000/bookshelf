@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Use React's Context API – Tutorial with Examples
-description: Article(s) > How to Use React's Context API – Tutorial with Examples
+title: How to Use React's Context API - Tutorial with Examples
+description: Article(s) > How to Use React's Context API - Tutorial with Examples
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Use React's Context API – Tutorial with Examples
+      content: Article(s) > How to Use React's Context API - Tutorial with Examples
     - property: og:description
-      content: How to Use React's Context API – Tutorial with Examples
+      content: How to Use React's Context API - Tutorial with Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-api-tutorial-examples.html
 prev: /programming/js-react/articles/README.md
@@ -47,8 +47,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/React.png
 ---
 
 <SiteInfo
-  name="How to Use React's Context API – Tutorial with Examples"
-  desc="In React, data is typically passed down from parent to child via props. But this can lead to 'prop drilling' – where we have to pass props down through lots of components to get them where they're needed. Also, some props (for example, the current authenticated user, UI theme, or..."
+  name="How to Use React's Context API - Tutorial with Examples"
+  desc="In React, data is typically passed down from parent to child via props. But this can lead to 'prop drilling' - where we have to pass props down through lots of components to get them where they're needed. Also, some props (for example, the current authenticated user, UI theme, or..."
   url="https://freecodecamp.org/news/react-context-api-tutorial-examples/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/07/React.png"/>

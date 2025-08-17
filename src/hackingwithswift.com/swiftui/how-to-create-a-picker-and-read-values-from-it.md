@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI's `Picker` view manages to combine `UIPickerView`, `UISegmentedControl`, and `UITableView` in one, while also adapting to other styles on other operating systems. The great thing is that we really don't have to care how it works – SwiftUI does a good job of adapting itself automatically to its environment.
+SwiftUI's `Picker` view manages to combine `UIPickerView`, `UISegmentedControl`, and `UITableView` in one, while also adapting to other styles on other operating systems. The great thing is that we really don't have to care how it works - SwiftUI does a good job of adapting itself automatically to its environment.
 
 As with most other controls, you must attach your picker to some sort of state that will track the picker's selection. For example, this creates a `colors` array and an integer that stores which color was selected, then uses that with a picker and a text view so you can see values being read back:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ class Polygon {
 }
 ```
 
-That initializer is your designated initializer: one that will set up all properties fully in a default way. You could add convenience initializers on top to perform certain tasks – creating squares or triangles would make sense in this scenario – but those must always end by calling a designated initializer.
+That initializer is your designated initializer: one that will set up all properties fully in a default way. You could add convenience initializers on top to perform certain tasks - creating squares or triangles would make sense in this scenario - but those must always end by calling a designated initializer.
 
 -->
 

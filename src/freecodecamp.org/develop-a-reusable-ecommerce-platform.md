@@ -72,7 +72,7 @@ The project was an ambitious one. Creating an ecommerce platform that would work
 
 ## The first MVP
 
-To tackle this difficult challenge, we started from the bottom with one of the 3 sub-companies – let’s call it sub-company H. In fact, it wasn’t one of the main sub-companies, it was a sub-company from a sub-company.
+To tackle this difficult challenge, we started from the bottom with one of the 3 sub-companies - let’s call it sub-company H. In fact, it wasn’t one of the main sub-companies, it was a sub-company from a sub-company.
 
 To explain it better, if we name the 3 main sub-companies L, N, and P, then H was a sub-company of N.
 
@@ -231,7 +231,7 @@ Because of this, we were able to work less stressed, have a better mood, deliver
 
 ### Teamwork inside the team.
 
-We realized that the best way to progress and develop was to feel comfortable – not just with the technologies but, most importantly, our teammates. Some of the measures that improved our relationship and teamwork were:
+We realized that the best way to progress and develop was to feel comfortable - not just with the technologies but, most importantly, our teammates. Some of the measures that improved our relationship and teamwork were:
 
 #### Team democracy.
 
@@ -265,7 +265,7 @@ The sprint retrospectives were the perfect moment to review all the things that 
 
 #### Teamwork with other partners.
 
-We were dependent on other teams' work – so having a good relationship with them was also an important point in our development process.
+We were dependent on other teams' work - so having a good relationship with them was also an important point in our development process.
 
 *Communication was the key point: the more we communicated the more we improved,*. And thanks to this, our goal was to be one whole team. Here are some actions we followed in order to enhance this communication:
 

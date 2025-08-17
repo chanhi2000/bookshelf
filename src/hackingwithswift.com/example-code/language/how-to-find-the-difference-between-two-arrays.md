@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-If you have two arrays that contain similar items and want to find out their differences – i.e., which items exist in one or the other, but not both – the easiest thing to do is use a `Set`. Sets have a `symmetricDifference()` method that does exactly this, so you just need to convert both arrays to a set, then convert the result back into an array.
+If you have two arrays that contain similar items and want to find out their differences - i.e., which items exist in one or the other, but not both - the easiest thing to do is use a `Set`. Sets have a `symmetricDifference()` method that does exactly this, so you just need to convert both arrays to a set, then convert the result back into an array.
 
 Here’s an extension to make it easier:
 

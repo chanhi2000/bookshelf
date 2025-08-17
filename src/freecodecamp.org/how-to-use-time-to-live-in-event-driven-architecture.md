@@ -62,7 +62,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Designer.
 
 <SiteInfo
   name="How to Use Time To Live in Event-Driven Architecture in AWS"
-  desc="Distributed systems generally involve the storage and exchange of huge amounts of data. Not all data is created the same, and some of it can even expire – by design.  As the Buddha said, 'All conditioned things are impermanent.' In this article, we'll look at how the concept of..."
+  desc="Distributed systems generally involve the storage and exchange of huge amounts of data. Not all data is created the same, and some of it can even expire - by design.  As the Buddha said, 'All conditioned things are impermanent.' In this article, we'll look at how the concept of..."
   url="https://freecodecamp.org/news/how-to-use-time-to-live-in-event-driven-architecture/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Designer.jpeg"/>

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you have the same view appearing in two different parts of your view hierarchy and want to animate between them – for example, going from a list view to a zoomed detail view – then you should use SwiftUI’s `matchedGeometryEffect()` modifier, which is a bit like Magic Move in Keynote.
+If you have the same view appearing in two different parts of your view hierarchy and want to animate between them - for example, going from a list view to a zoomed detail view - then you should use SwiftUI’s `matchedGeometryEffect()` modifier, which is a bit like Magic Move in Keynote.
 
 To use the modifier, attach it to a pair of views that are the same, in different parts of your hierarchy. With that done, when you switch between your two view states you’ll find SwiftUI smoothly animates your synchronized view.
 
@@ -68,10 +68,10 @@ struct ContentView: View {
                 Circle()
                     .fill(.red)
                     .frame(width: 44, height: 44)
-                Text("Taylor Swift – 1989")
+                Text("Taylor Swift - 1989")
                     .font(.headline)
             } else {
-                Text("Taylor Swift – 1989")
+                Text("Taylor Swift - 1989")
                     .font(.headline)
                 Circle()
                     .fill(.blue)
@@ -91,7 +91,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect-1~dark.mp4" />
 
-If you run that, you’ll see SwiftUI fades the views in and out to create a transition – it’s okay, but we can do better.
+If you run that, you’ll see SwiftUI fades the views in and out to create a transition - it’s okay, but we can do better.
 
 First, you need to use the `@Namespace` property wrapper to create a global namespace for your views. In practice this isn’t anything other than a property on your view, but behind the scenes this lets us attach views together. 
 
@@ -111,7 +111,7 @@ And use this for the text:
 .matchedGeometryEffect(id: "AlbumTitle", in: animation)
 ```
 
-And that’s it – when you run the example again you’ll see the two views move smoothly.
+And that’s it - when you run the example again you’ll see the two views move smoothly.
 
 Here’s how the final code looks:
 
@@ -127,11 +127,11 @@ struct ContentView: View {
                     .fill(.red)
                     .frame(width: 44, height: 44)
                     .matchedGeometryEffect(id: "Shape", in: animation)
-                Text("Taylor Swift – 1989")
+                Text("Taylor Swift - 1989")
                     .matchedGeometryEffect(id: "AlbumTitle", in: animation)
                     .font(.headline)
             } else {
-                Text("Taylor Swift – 1989")
+                Text("Taylor Swift - 1989")
                     .matchedGeometryEffect(id: "AlbumTitle", in: animation)
                     .font(.headline)
                 Circle()
@@ -153,7 +153,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-synchronize-animations-from-one-view-to-another-with-matchedgeometryeffect-2~dark.mp4" />
 
-For a more advanced example, try this – it borrows the album display style from Apple Music, expanding a small view up to something larger when tapped. In this example only the text is animated because it’s changing location:
+For a more advanced example, try this - it borrows the album display style from Apple Music, expanding a small view up to something larger when tapped. In this example only the text is animated because it’s changing location:
 
 ```swift
 struct ContentView: View {
@@ -176,7 +176,7 @@ struct ContentView: View {
                         .padding(.top, isZoomed ? 20 : 0)
 
                     if isZoomed == false {
-                        Text("Taylor Swift – 1989")
+                        Text("Taylor Swift - 1989")
                             .matchedGeometryEffect(id: "AlbumTitle", in: animation)
                             .font(.headline)
                         Spacer()
@@ -184,7 +184,7 @@ struct ContentView: View {
                 }
 
                 if isZoomed == true {
-                    Text("Taylor Swift – 1989")
+                    Text("Taylor Swift - 1989")
                         .matchedGeometryEffect(id: "AlbumTitle", in: animation)
                         .font(.headline)
                         .padding(.bottom, 60)

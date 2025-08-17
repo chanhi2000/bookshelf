@@ -75,7 +75,7 @@ Button("Insert example language") {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-core-data-objects-from-swiftui-views-1~dark.mp4" />
 
-Finally, save the context whenever is appropriate – that might be immediately, after a group of objects have been added, when the state of your app changes, and so on. 
+Finally, save the context whenever is appropriate - that might be immediately, after a group of objects have been added, when the state of your app changes, and so on. 
 
 If you’re using my `PersistenceController` setup code from earlier, replace `// more code here` with this:
 

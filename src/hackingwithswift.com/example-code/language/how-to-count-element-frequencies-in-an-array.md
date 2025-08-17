@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -79,7 +79,7 @@ Finally, create a `Dictionary` from that tuple array, asking it to add the 1s to
 let counts = Dictionary(mappedItems, uniquingKeysWith: +)
 ```
 
-That will create the dictionary `["b": 1, "a": 2, "c": 1]` because dictionaries are not stored in order – as you can see, it tells us that “a” appeared twice, while the other two appeared once.
+That will create the dictionary `["b": 1, "a": 2, "c": 1]` because dictionaries are not stored in order - as you can see, it tells us that “a” appeared twice, while the other two appeared once.
 
 -->
 

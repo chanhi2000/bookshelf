@@ -60,7 +60,7 @@ The process takes three steps:
 2. Create an `AnyTransition` extension that uses your view modifier for active and identity states.
 3. Apply that transition to your views using the `transition()` modifier.
 
-For example, we could write a shape and view modifier combination that lets us mimic the Iris animation in Keynote – it causes a new slide to appear in a circle that grows upwards, a bit like the old Looney Tunes intro sequence.
+For example, we could write a shape and view modifier combination that lets us mimic the Iris animation in Keynote - it causes a new slide to appear in a circle that grows upwards, a bit like the old Looney Tunes intro sequence.
 
 To demonstrate this in action, I’m going to show you a complete code example that does several things:
 

@@ -74,17 +74,17 @@ struct ContentView: View {
 }
 ```
 
-Notice how the `order` property isn’t given a default value – by using `@EnvironmentObject` we’re saying that value will be provided by the SwiftUI environment rather than explicitly created by this view.
+Notice how the `order` property isn’t given a default value - by using `@EnvironmentObject` we’re saying that value will be provided by the SwiftUI environment rather than explicitly created by this view.
 
 `@EnvironmentObject` has a lot in common with `@ObservedObject`: both must refer to a class that conforms to `ObservableObject`, both can be shared across many views, and both will update any views that are watching when significant changes happen. However, `@EnvironmentObject` specifically means “this object will be provided from some outside entity, rather than being created by the current view or specifically passed in.
 
-In practical terms, imagine if you had view A, and view A had some data that view E wanted. Using `@ObservedObject` view A would need to hand the object to view B, which would hand it to view C, then view D, and finally view E – all the intermediate views would need to be sent the object even though they didn’t actually need it.
+In practical terms, imagine if you had view A, and view A had some data that view E wanted. Using `@ObservedObject` view A would need to hand the object to view B, which would hand it to view C, then view D, and finally view E - all the intermediate views would need to be sent the object even though they didn’t actually need it.
 
-When using `@EnvironmentObject`, view A can create an object and place it into the environment. Any views inside it can then gain access to that environment object whenever they want just by asking for it, rather than having to pass it around explicitly – it makes our code much simpler.
+When using `@EnvironmentObject`, view A can create an object and place it into the environment. Any views inside it can then gain access to that environment object whenever they want just by asking for it, rather than having to pass it around explicitly - it makes our code much simpler.
 
 ::: warning
 
-When a view using `@EnvironmentObject` is shown, SwiftUI will immediately search the environment for an object of the correct type. If such an object can’t be found – i.e., if you forgot to place it in the environment – then your app will immediately crash. When you use `@EnvironmentObject` you are effectively promising that object will exist in the environment by the time it is needed, a bit like using implicitly unwrapped optionals.
+When a view using `@EnvironmentObject` is shown, SwiftUI will immediately search the environment for an object of the correct type. If such an object can’t be found - i.e., if you forgot to place it in the environment - then your app will immediately crash. When you use `@EnvironmentObject` you are effectively promising that object will exist in the environment by the time it is needed, a bit like using implicitly unwrapped optionals.
 
 :::
 

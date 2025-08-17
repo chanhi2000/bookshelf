@@ -54,9 +54,9 @@ isOriginal: false
 
 > Updated for Xcode 16
 
-SwiftUI provides a built-in model context called the main context, and it has autosave enabled – SwiftData will automatically save your changes but you can also create a custom model context without that.
+SwiftUI provides a built-in model context called the main context, and it has autosave enabled - SwiftData will automatically save your changes but you can also create a custom model context without that.
 
-If you want to do this across your whole app – if you want your primary model context to have save disabled – then you would modify your `App` struct to this:
+If you want to do this across your whole app - if you want your primary model context to have save disabled - then you would modify your `App` struct to this:
 
 ```swift
 WindowGroup {

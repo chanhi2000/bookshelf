@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "✅ Advantages of Using Kubernetes in Business"
-description: Article(s) > (6/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (6/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (6/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (6/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "✅ Advantages of Using Kubernetes in Business"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-advantages-of-using-kubernetes-in-business"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -72,7 +72,7 @@ You can run multiple microservices on fewer virtual machines (VMs) while Kuberne
 
 ## 2️⃣ High Availability and Uptime = Happy Customers
 
-Kubernetes watches your apps like a hawk 👀. If one of them crashes or fails, Kubernetes restarts or replaces it *immediately* – automatically.
+Kubernetes watches your apps like a hawk 👀. If one of them crashes or fails, Kubernetes restarts or replaces it *immediately* - automatically.
 
 ::: info For your business:
 
@@ -124,7 +124,7 @@ When you use cloud-managed services (like AWS Elastic Beanstalk or Azure App Ser
 
 ::: info With Kubernetes
 
-It works the same way on AWS, Azure, GCP, or even your own data center. This means you can switch cloud providers easily and avoid being locked into one vendor – aka cloud freedom! ☁️🕊️
+It works the same way on AWS, Azure, GCP, or even your own data center. This means you can switch cloud providers easily and avoid being locked into one vendor - aka cloud freedom! ☁️🕊️
 
 :::
 

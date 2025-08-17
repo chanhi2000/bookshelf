@@ -137,7 +137,7 @@ const server = http.createServer((req, res) => {
 });
 ```
 
-It’s going to be quite the journey – and a rewarding one at that!
+It’s going to be quite the journey - and a rewarding one at that!
 
 I'm assuming you have some backend knowledge and classify yourself as an advanced beginner who’s looking to level up.
 
@@ -317,7 +317,7 @@ git clone https://github.com/nodejs/node.git
 
 ### The Socket in Node.js Source Code
 
-Let the tracing begin! Node.js is a massive codebase – it’s an entire engine that does way more than just handle sockets. But we only care about the networking part today.
+Let the tracing begin! Node.js is a massive codebase - it’s an entire engine that does way more than just handle sockets. But we only care about the networking part today.
 
 First, navigate to the `lib` folder, and inside you’ll find a file called `net.js`. This is where most of the work happens for network applications. If you scroll down to line 210, you’ll see a familiar sight:
 
@@ -341,9 +341,9 @@ Here’s the thing: JavaScript is a prototype-based language. This means that ob
 ObjectSetPrototypeOf(Server.prototype, EventEmitter.prototype);
 ```
 
-In plain English: our `Server` object is inheriting all the behavior from other objects like `EventEmitter`, for example. This is a common pattern in JavaScript libraries – remember the mixin in Express?
+In plain English: our `Server` object is inheriting all the behavior from other objects like `EventEmitter`, for example. This is a common pattern in JavaScript libraries - remember the mixin in Express?
 
-At this point, if you’ve never worked with prototypes or Object-Oriented JavaScript (OOJS), this might feel like advanced territory. But don’t worry – the good folks at [<FontIcon icon="fa-brands fa-wikipedia-w"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain) have an excellent guide on prototypes to get you up to speed.
+At this point, if you’ve never worked with prototypes or Object-Oriented JavaScript (OOJS), this might feel like advanced territory. But don’t worry - the good folks at [<FontIcon icon="fa-brands fa-wikipedia-w"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain) have an excellent guide on prototypes to get you up to speed.
 
 Now, what’s one thing we know for sure about a Node.js server? It has a `listen` function. We use it all the time in server-side code (even in frameworks like Express). So, let’s check if our `Server` object has a `listen` function.
 

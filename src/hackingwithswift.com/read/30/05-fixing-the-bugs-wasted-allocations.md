@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 Back in Xcode, press <kbd>Cmd</kbd>+<kbd>I</kbd> to launch a fresh instance of Instruments, and this time I want you to choose the Allocations instrument. This tells you how many objects you're creating and what happens to them. Press record, then scroll around the table view a few times to get a complete picture of the app running. At the very least, you should go all the way down to the bottom and back up two or three times.
 
-What you'll see is a huge collection of information being shown – lots of "malloc", lots of "CFString", lots of "__NSArrayM” and more. Stuff we just don't care about right now, because most of the code we have is user interface work. Fortunately, there's a search box just below the detail pane – it should say "Instrument Detail" but if you type "UI" in there it will only show information that has "UI" somewhere in there, which just happens to be all of Apple's user interface libraries!
+What you'll see is a huge collection of information being shown - lots of "malloc", lots of "CFString", lots of "__NSArrayM” and more. Stuff we just don't care about right now, because most of the code we have is user interface work. Fortunately, there's a search box just below the detail pane - it should say "Instrument Detail" but if you type "UI" in there it will only show information that has "UI" somewhere in there, which just happens to be all of Apple's user interface libraries!
 
 In the picture below you can see how filtering for "UI" inside Instruments shows only data that has "UI" in its name somewhere, which primarily restricts the view to things that come from Apple's UIKit libraries.
 
@@ -63,7 +63,7 @@ In the picture below you can see how filtering for "UI" inside Instruments shows
 
 Once you filter by "UI" you'll see see `UIImage`, `UIImageView`, `UITableViewCell` and more. The allocations instrument will tell you how many of these objects are persistent (created and still exist) and how many are transient (created and since destroyed). Notice how just swiping around has created a large number of transient `UIImageView` and `UITableViewCell` objects?
 
-This is happening because each time the app needs to show a cell, it creates it then creates all the subviews inside it – namely an image view and a label, plus some hidden views we don’t usually care about. iOS works around this cost by using the method `dequeueReusableCell(withIdentifier:)`, but if you look at the `cellForRowAt` method you won’t find it there. This means iOS is forced to create a new cell from scratch, rather than re-using an existing cell. This is a common coding mistake to make when you're not using storyboards and prototype cells, and it's guaranteed to put a speed bump in your apps.
+This is happening because each time the app needs to show a cell, it creates it then creates all the subviews inside it - namely an image view and a label, plus some hidden views we don’t usually care about. iOS works around this cost by using the method `dequeueReusableCell(withIdentifier:)`, but if you look at the `cellForRowAt` method you won’t find it there. This means iOS is forced to create a new cell from scratch, rather than re-using an existing cell. This is a common coding mistake to make when you're not using storyboards and prototype cells, and it's guaranteed to put a speed bump in your apps.
 
 If you look inside `cellForRowAt` method you'll see this line:
 
@@ -85,7 +85,7 @@ if cell == nil {
 }
 ```
 
-That dequeues a cell, but if it gets `nil` back then we create one. Note the force unwrapped optional at the end of the first line – we’re saying that `cell` might initially be empty, but it will definitely have a value by the time it’s used.
+That dequeues a cell, but if it gets `nil` back then we create one. Note the force unwrapped optional at the end of the first line - we’re saying that `cell` might initially be empty, but it will definitely have a value by the time it’s used.
 
 The other solution you could use is to register a class with the table view for the reuse identifier "Cell". Using this method you would add this to `viewDidLoad()`:
 

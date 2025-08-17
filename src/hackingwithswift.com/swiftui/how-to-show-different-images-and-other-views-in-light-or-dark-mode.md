@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI can load light and dark mode images directly from your asset catalog depending on the user's current appearance setting, but if you *aren't* using an asset catalog – for example if you downloaded the images or generated them locally – you need to do a little extra work.
+SwiftUI can load light and dark mode images directly from your asset catalog depending on the user's current appearance setting, but if you *aren't* using an asset catalog - for example if you downloaded the images or generated them locally - you need to do a little extra work.
 
 The simplest solution is to create a new view that handles both light and dark mode images, like this:
 

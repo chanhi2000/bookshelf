@@ -220,7 +220,7 @@ Here's a helpful tutorial about [how to automate deployment on GitHub Pages with
 
 :::
 
-Side comment: I mention GitHub actions here because it's a popular tool – but keep in mind that other online repository providers like GitLab and BitBucket also provide very similar options to GitHub actions.
+Side comment: I mention GitHub actions here because it's a popular tool - but keep in mind that other online repository providers like GitLab and BitBucket also provide very similar options to GitHub actions.
 
 ### Built-in CI/CD features by hosts
 

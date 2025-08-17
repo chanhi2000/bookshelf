@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "WKWebView - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/wkwebview/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-By default `WKWebView` works sort of like Safari, albeit in a single view rather than having tabs. If you want something more advanced – being able to monitor opening and closing windows, override behavior for JavaScript user interface, and so on – then the `WKUIDelegate` protocol is for you.
+By default `WKWebView` works sort of like Safari, albeit in a single view rather than having tabs. If you want something more advanced - being able to monitor opening and closing windows, override behavior for JavaScript user interface, and so on - then the `WKUIDelegate` protocol is for you.
 
 First, make your view controller conform to it by adding `WKUIDelegate` to its list of protocols. Second, assign your view controller to the `uiDelegate` property of your web view:
 

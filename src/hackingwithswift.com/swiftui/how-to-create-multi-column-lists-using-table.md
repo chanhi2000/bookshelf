@@ -102,9 +102,9 @@ Notice how:
 3. The first table column reads its value using the simple key path `\.name`.
 4. The second table column uses no key path, but instead creates its own custom contents.
 
-The reason I've taken two different approaches is because `TableColumn` knows how to use a key path to display values that are simple strings, but for anything else – a `score` integer in our case – we need to add custom view creation code by hand. So, when you just want to display a simple string you should use a key path, but for displaying all other types you should use a custom view.
+The reason I've taken two different approaches is because `TableColumn` knows how to use a key path to display values that are simple strings, but for anything else - a `score` integer in our case - we need to add custom view creation code by hand. So, when you just want to display a simple string you should use a key path, but for displaying all other types you should use a custom view.
 
-Selection in tables works slightly differently from lists: rather than storing the specific object that was selected, `Table` instead wants to bind to the *identifier* of the object. As our User struct conforms to `Identifiable`, this will be `User.ID` – the associated type that points to our `id` property. So, we'd add a new property to store an optional `User.ID` value, then bind it to the `Table` like this:
+Selection in tables works slightly differently from lists: rather than storing the specific object that was selected, `Table` instead wants to bind to the *identifier* of the object. As our User struct conforms to `Identifiable`, this will be `User.ID` - the associated type that points to our `id` property. So, we'd add a new property to store an optional `User.ID` value, then bind it to the `Table` like this:
 
 ```swift
 struct ContentView: View {
@@ -185,7 +185,7 @@ TableColumn("Score", value: \.score) { user in
 .width(min: 50, max: 100)
 ```
 
-And second, rather than sending a fixed into `Table`, you can also pass a `rows` closure that specifies the exact data you want to show. This is helpful when you want to use static list rows, or mix static and dynamic at the same time. Each row needs to be sent in as a `TableRow` instance, which will take as its only parameter a value to show – one of our `User` instances in our case.
+And second, rather than sending a fixed into `Table`, you can also pass a `rows` closure that specifies the exact data you want to show. This is helpful when you want to use static list rows, or mix static and dynamic at the same time. Each row needs to be sent in as a `TableRow` instance, which will take as its only parameter a value to show - one of our `User` instances in our case.
 
 As an example, we could use a `ForEach` to create all the regular dynamic rows, but also add a “First” and “Last” user at the start and end of our table:
 

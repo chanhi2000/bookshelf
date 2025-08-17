@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-When you make a new SwiftUI project, Xcode will automatically create a new Swift file with the same name as your project, which will be used to bootstrap your app – to present your initial user interface.
+When you make a new SwiftUI project, Xcode will automatically create a new Swift file with the same name as your project, which will be used to bootstrap your app - to present your initial user interface.
 
 For example, the default file will look like this:
 

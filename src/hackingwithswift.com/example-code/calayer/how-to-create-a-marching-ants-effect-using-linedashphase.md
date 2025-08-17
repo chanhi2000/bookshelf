@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,13 +73,13 @@ layer.lineDashPattern = [8, 6]
 view.layer.addSublayer(layer)
 ```
 
-Now you need to create a `CABasicAnimation` to animate the `lineDashPhase` property. Annoyingly, the `lineDashPattern` – the part that describes the way the dashed are drawn – is actually an array of `NSNumber` so we need to boil it down to an integer with code like this:
+Now you need to create a `CABasicAnimation` to animate the `lineDashPhase` property. Annoyingly, the `lineDashPattern` - the part that describes the way the dashed are drawn - is actually an array of `NSNumber` so we need to boil it down to an integer with code like this:
 
 ```swift
 layer.lineDashPattern?.reduce(0) { $0 - $1.intValue } ?? 0
 ```
 
-With the line dash pattern used above – 8, 6 – that will result in `toValue` being set to 14. 
+With the line dash pattern used above - 8, 6 - that will result in `toValue` being set to 14. 
 
 Here’s the animation you need to give the above shape layer a marching ants effect:
 

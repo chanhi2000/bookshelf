@@ -44,7 +44,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-5.jpg
 ---
 
 <SiteInfo
-  name="Swift 4.1 improves Codable with keyDecodingStrategy – Hacking with Swift"
+  name="Swift 4.1 improves Codable with keyDecodingStrategy - Hacking with Swift"
   desc="Snake case is now just a few keystrokes away."
   url="https://hackingwithswift.com/articles/52/swift-4-1-improves-codable-with-keydecodingstrategy"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -54,11 +54,11 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-5.jpg
 
 Swift 4.0 [brought many great new features](/hackingwithswift.com/swift4.md), including multi-line strings, better keypaths, and lots of improved dictionary functionality. But it also gave us `Codable` for the first time: by far the easiest, safest way to convert Swift objects into JSON and XML.
 
-However, `Codable` had one particular annoyance that hit most users: if your JSON used snake_case for its key names and your Swift code used camelCase for its property names, `Codable` wouldn’t be able to convert between the two – you needed to create your own `CodingKeys` mapping to explain how the two matched up.
+However, `Codable` had one particular annoyance that hit most users: if your JSON used snake_case for its key names and your Swift code used camelCase for its property names, `Codable` wouldn’t be able to convert between the two - you needed to create your own `CodingKeys` mapping to explain how the two matched up.
 
 Well, Swift 4.1 has fixed this beautifully: along with [awesome new features of its own](/hackingwithswift.com/whats-new-in-swift-4-1.md) there’s a new `keyDecodingStrategy` property on `JSONDecoder` that can automatically convert between snake_case and camelCase if you need it. The inverse property, `keyEncodingStrategy`, also exists on `JSONEncoder` so you can convert your Swift camelCase names back into snake_case.
 
-Enough chat – let’s look at a practical example. Create a new Playground and give it this JSON string:
+Enough chat - let’s look at a practical example. Create a new Playground and give it this JSON string:
 
 ```swift
 let jsonString = """
@@ -79,7 +79,7 @@ let jsonString = """
 let jsonData = Data(jsonString.utf8)
 ```
 
-That stores an array of two items, each describing a Mac. As you can see, both `screen_size` and `cpu_count` use snake case – words are all lowercased, with underscores separating them. I’ve added a conversion to `Data` at the end, because that’s what `JSONDecoder` works with.
+That stores an array of two items, each describing a Mac. As you can see, both `screen_size` and `cpu_count` use snake case - words are all lowercased, with underscores separating them. I’ve added a conversion to `Data` at the end, because that’s what `JSONDecoder` works with.
 
 Now, we want to convert that JSON into an array of `Mac` instances using this struct:
 
@@ -91,7 +91,7 @@ struct Mac: Codable {
 }
 ```
 
-That follows standard Swift naming conventions, so the property names are all camelCased – words have no separators, but second and subsequent words all start with a capital letter.
+That follows standard Swift naming conventions, so the property names are all camelCased - words have no separators, but second and subsequent words all start with a capital letter.
 
 In Swift 4.0 you might try to decode that JSON like this:
 
@@ -114,7 +114,7 @@ So, add this line just before the start of the `do` block:
 decoder.keyDecodingStrategy = .convertFromSnakeCase
 ```
 
-When you want to go back the other way – to convert a `Codable` struct with camelCase properties back to JSON with snake_case keys, set the `keyEncodingStrategy` to `.convertToSnakeCase` like this:
+When you want to go back the other way - to convert a `Codable` struct with camelCase properties back to JSON with snake_case keys, set the `keyEncodingStrategy` to `.convertToSnakeCase` like this:
 
 ```swift
 let encoder = JSONEncoder()
@@ -122,7 +122,7 @@ encoder.keyEncodingStrategy = .convertToSnakeCase
 let encoded = try encoder.encode(macs)
 ```
 
-If you have more advanced uses – perhaps you prefer SCREAMING_SNAKE_CASE for some reason? – you can also specify a custom key strategy, but [looking at the tests for that (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/77e417f1d043b888a83652471b53cedb952fd655/test/stdlib/TestJSONEncoder.swift#L597) it seems a rather involved thing to do, at least for now.
+If you have more advanced uses - perhaps you prefer SCREAMING_SNAKE_CASE for some reason? - you can also specify a custom key strategy, but [looking at the tests for that (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/77e417f1d043b888a83652471b53cedb952fd655/test/stdlib/TestJSONEncoder.swift#L597) it seems a rather involved thing to do, at least for now.
 
 For more on the new features in Swift 4.1, see our article [what's new in Swift 4.1](/hackingwithswift.com/whats-new-in-swift-4-1.md).
 

@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Core Haptics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/core-haptics",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -40,7 +40,7 @@ head:
 ```component VPCard
 {
   "title": "How to detect whether haptic event playback is supported",
-  "desc": "Modern iPhones have extremely sensitive haptic engines inside, allowing us precise control over taps and vibrations, and even mixing effects – see “How to play custom vibrations using Core Haptics” and “How to modify haptic events over time using CHHapticParameterCurve” for more information on that",
+  "desc": "Modern iPhones have extremely sensitive haptic engines inside, allowing us precise control over taps and vibrations, and even mixing effects - see “How to play custom vibrations using Core Haptics” and “How to modify haptic events over time using CHHapticParameterCurve” for more information on that",
   "link": "/hackingwithswift.com/example-code/core-haptics/how-to-detect-whether-haptic-event-playback-is-supported.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

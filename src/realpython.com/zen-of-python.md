@@ -114,7 +114,7 @@ The initial discussion about creating such a document took place on the Python m
 
 ::: info Tim Peters from <FontIcon icon="fa-brands fa-python"/>mail.python.org
 
-> Clearly a job for Guido alone – although I doubt it’s one he’ll take on (fwiw, I wish he would too!). Here’s the outline he would start from, though:
+> Clearly a job for Guido alone - although I doubt it’s one he’ll take on (fwiw, I wish he would too!). Here’s the outline he would start from, though:
 > 
 > Beautiful is better than ugly.  
 > Explicit is better than implicit.  
@@ -128,15 +128,15 @@ The initial discussion about creating such a document took place on the Python m
 > Errors should never pass silently.  
 > Unless explicitly silenced.  
 > In the face of ambiguity, refuse the temptation to guess.  
-> There should be one– and preferably only one –obvious way to do it.  
+> There should be one- and preferably only one -obvious way to do it.  
 > Although that way may not be obvious at first unless you’re Dutch.  
 > Now is better than never.  
 > Although never is often better than *right* now.  
 > If the implementation is hard to explain, it’s a bad idea.  
 > If the implementation is easy to explain, it may be a good idea.  
-> Namespaces are one honking great idea – let’s do more of those!
+> Namespaces are one honking great idea - let’s do more of those!
 >
-> There you go: 20 Pythonic Fec^H^H^HTheses on the nose, counting the one I’m leaving for Guido to fill in. If the answer to *any* Python design issue isn’t obvious after reading those – well, I just give up.
+> There you go: 20 Pythonic Fec^H^H^HTheses on the nose, counting the one I’m leaving for Guido to fill in. If the answer to *any* Python design issue isn’t obvious after reading those - well, I just give up.
 
 ```component VPCard
 {
@@ -382,13 +382,13 @@ Guido is also known as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Benevolen
 
 The Zen of Python’s author has a great sense of humor. A long time ago, someone opened a [<FontIcon icon="fa-brands fa-python"/>ticket](https://bugs.python.org/issue3364) in Python’s old bug tracker to point out a punctuation error in another principle. The mistake is in the inconsistent use of the [<FontIcon icon="fa-brands fa-wikipedia-w"/>em dashes](https://en.wikipedia.org/wiki/Dash#Em_dash) (`—`) in the following sentence:
 
-> There should be one– and preferably only one –obvious way to do it.
+> There should be one- and preferably only one -obvious way to do it.
 
 However, that mistake was intentional! The joke, as explained by Tim Peters himself, is that there’s disagreement about whether you should use spaces around em dashes or not:
 
 ::: info from bugs.python.org
 
-> I’m afraid you missed the joke ;-) While you believe spaces are required on both sides of an em dash, there is no consensus on this point. For example, most (but not all) American authorities say /no/ spaces should be used. That’s the joke. In writing a line about “only one way to do it”, I used a device (em dash) for which at least two ways to do it (with spaces, without spaces) are commonly used, neither of which is obvious – and deliberately picked a third way just to rub it in.
+> I’m afraid you missed the joke ;-) While you believe spaces are required on both sides of an em dash, there is no consensus on this point. For example, most (but not all) American authorities say /no/ spaces should be used. That’s the joke. In writing a line about “only one way to do it”, I used a device (em dash) for which at least two ways to do it (with spaces, without spaces) are commonly used, neither of which is obvious - and deliberately picked a third way just to rub it in.
 > 
 > This will never change ;-)
 

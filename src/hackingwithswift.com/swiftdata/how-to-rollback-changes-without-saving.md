@@ -206,5 +206,5 @@ class Book: Codable {
 }
 ```
 
-As you can see, adding more properties and relationships is just a matter of adding more of the same `Encoder` and `Decoder` functionality – it's not much fun, but at least it works.
+As you can see, adding more properties and relationships is just a matter of adding more of the same `Encoder` and `Decoder` functionality - it's not much fun, but at least it works.
 

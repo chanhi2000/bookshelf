@@ -65,7 +65,7 @@ Text("Hello World")
 
 ![The words Hello World displayed on a plain background](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-static-labels-with-a-text-view-1~dark.png)
 
-Inside the preview window for your content view you're likely to see “Automatic preview updating paused” – go ahead and press <FontIcon icon="iconfont icon-select"/>`[Resume]` to have Swift start building your code and show you a live preview of how it looks.
+Inside the preview window for your content view you're likely to see “Automatic preview updating paused” - go ahead and press <FontIcon icon="iconfont icon-select"/>`[Resume]` to have Swift start building your code and show you a live preview of how it looks.
 
 ::: tip
 
@@ -85,7 +85,7 @@ Text("This is some longer text that is limited to three lines maximum, so anythi
 
 ![Three lines of text showing the line limit and frame modifiers.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-static-labels-with-a-text-view-2~dark.png)
 
-You can also provide line limit ranges rather than a specific value – you might want to allow any range between 3 and 6, for example:
+You can also provide line limit ranges rather than a specific value - you might want to allow any range between 3 and 6, for example:
 
 ```swift
 Text("This is some longer text that is limited to a specific range of lines, so anything more than six lines will cause the text to clip.")
@@ -95,7 +95,7 @@ Text("This is some longer text that is limited to a specific range of lines, so 
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
 
-If you need an _exact_ line limit – meaning “this text should have exactly two lines of height, not more and not less”, you should use the `reservesSpace` parameter like this:
+If you need an _exact_ line limit - meaning “this text should have exactly two lines of height, not more and not less”, you should use the `reservesSpace` parameter like this:
 
 ```swift
 Text("This is always two lines")
@@ -104,7 +104,7 @@ Text("This is always two lines")
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-create-static-labels-with-a-text-view-3.zip)
 
-That doesn't mean the text will somehow be stretched across two lines, only that the text view will be sized to be two lines in height no matter what its contents. This approach is particularly helpful when you need an exact number of lines – in grids and other layouts where you want nice and even spacing, for example.
+That doesn't mean the text will somehow be stretched across two lines, only that the text view will be sized to be two lines in height no matter what its contents. This approach is particularly helpful when you need an exact number of lines - in grids and other layouts where you want nice and even spacing, for example.
 
 If you place a line limit on some text then provide it with a string that's too long to fit in the available space, SwiftUI will truncate the text so that it ends with “...”.
 

@@ -76,7 +76,7 @@ Imagine you have a frontend built with React running on `http://localhost:3000` 
 
 When the frontend tries to talk to the backend, your browser sees that they’re not the same origin (they have different ports), and it blocks the request.
 
-That’s CORS doing its job. It assumes you might be trying to do something unsafe – like stealing cookies or user data – so it steps in.
+That’s CORS doing its job. It assumes you might be trying to do something unsafe - like stealing cookies or user data - so it steps in.
 
 Now, as a developer, if you trust the frontend and you own both ends, then it’s safe to let those requests through. You just need to tell Django it’s okay.
 
@@ -163,7 +163,7 @@ If your frontend is sending authentication credentials like cookies or tokens, y
 CORS_ALLOW_CREDENTIALS = True
 ```
 
-And make sure you **don’t** use `CORS_ALLOW_ALL_ORIGINS` with this setting – it won’t work due to security rules. Stick to `CORS_ALLOWED_ORIGINS`.
+And make sure you **don’t** use `CORS_ALLOW_ALL_ORIGINS` with this setting - it won’t work due to security rules. Stick to `CORS_ALLOWED_ORIGINS`.
 
 ### Allow Specific Headers
 
@@ -226,7 +226,7 @@ You don’t usually need to do anything here unless you’re using a custom midd
 
 ### 3. Using Django Rest Framework?
 
-No problem – `django-cors-headers` works out of the box. Just make sure it’s installed and the middleware is set up correctly.
+No problem - `django-cors-headers` works out of the box. Just make sure it’s installed and the middleware is set up correctly.
 
 ---
 
@@ -276,13 +276,13 @@ fetch("http://localhost:8000/api/data", {
 
 ## Final Thoughts
 
-CORS can feel like a wall you keep running into when building web apps. But once you get the hang of how it works – and how to set it up in Django – it becomes a small thing you configure and move on.
+CORS can feel like a wall you keep running into when building web apps. But once you get the hang of how it works - and how to set it up in Django - it becomes a small thing you configure and move on.
 
 Just remember:
 
 - Be specific in production
 - Always restart the server after changes
-- Don’t ignore warnings in your browser console – they’re your friends
+- Don’t ignore warnings in your browser console - they’re your friends
 
 Now you know how to enable CORS in Django the right way.
 

@@ -55,7 +55,7 @@ prev: /hackingwithswift.com/swiftui/how-to-add-haptic-effects-using-sensory-feed
 
 Any SwiftUI view can have gesture recognizers attached, and those gesture recognizers in turn can have closures attached that will be run when the recognizer activates.
 
-There are several gesture recognizers to work with, and I'm going to provide you with code samples for several of them to help get you started – you'll see how similar they are.
+There are several gesture recognizers to work with, and I'm going to provide you with code samples for several of them to help get you started - you'll see how similar they are.
 
 First, `TapGesture`. When you create this you can specify how many taps it takes to trigger the gesture, then attach an `onEnded` closure that will be run when the gesture happens. For example, this creates an image that gets smaller every time it's tapped:
 

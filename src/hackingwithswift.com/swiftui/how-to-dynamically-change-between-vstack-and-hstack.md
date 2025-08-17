@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-SwiftUI's `AnyLayout` struct allows us to switch between `HStack` and `VStack` freely, based on whatever environment context we want to take into account – just remember to use the `Layout`-conforming variants of each.
+SwiftUI's `AnyLayout` struct allows us to switch between `HStack` and `VStack` freely, based on whatever environment context we want to take into account - just remember to use the `Layout`-conforming variants of each.
 
 For example, we might want to show a group of images horizontally when we're in a regular horizontal size class, or vertically otherwise, like this:
 
@@ -104,7 +104,7 @@ As well as `VStackLayout` and `HStackLayout`, you can also use `ZStackLayout` an
 
 ::: tip
 
-Any grid rows that are used in non-grid layouts don't do anything – they become the same as using `Group`.
+Any grid rows that are used in non-grid layouts don't do anything - they become the same as using `Group`.
 
 :::
 

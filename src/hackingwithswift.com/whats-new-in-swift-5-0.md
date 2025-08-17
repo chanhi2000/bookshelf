@@ -45,7 +45,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-5.jpg
 ---
 
 <SiteInfo
-  name="What's new in Swift 5.0 – Hacking with Swift"
+  name="What's new in Swift 5.0 - Hacking with Swift"
   desc="Raw strings, future enum cases, compactMapValues(), and more!"
   url="https://hackingwithswift.com/articles/126/whats-new-in-swift-5-0"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -140,7 +140,7 @@ let result = Result { try String(contentsOfFile: someFile) }
 
 Third, rather than using a specific error enum that you’ve created, you can also use the general `Error` protocol. In fact, the Swift Evolution proposal says “it's expected that most uses of Result will use `Swift.Error` as the `Error` type argument.”
 
-So, rather than using `Result<Int, NetworkError>` you could use `Result<Int, Error>`. Although this means you lose the safety of typed throws, you gain the ability to throw a variety of different error enums – which you prefer really depends on your coding style.
+So, rather than using `Result<Int, NetworkError>` you could use `Result<Int, Error>`. Although this means you lose the safety of typed throws, you gain the ability to throw a variety of different error enums - which you prefer really depends on your coding style.
 
 ---
 
@@ -171,7 +171,7 @@ let answer = 42
 let dontpanic = #"The answer to life, the universe, and everything is \#(answer)."#
 ```
 
-Notice how I’ve used `\#(answer)` to use string interpolation – a regular `\(answer)` will be interpreted as characters in the string, so when you want string interpolation to happen in a raw string you must add the extra `#`.
+Notice how I’ve used `\#(answer)` to use string interpolation - a regular `\(answer)` will be interpreted as characters in the string, so when you want string interpolation to happen in a raw string you must add the extra `#`.
 
 One of the interesting features of Swift’s raw strings is the use of hash symbols at the start and end, because you can use more than one in the unlikely event you’ll need to. It’s hard to provide a good example here because it really ought to be extremely rare, but consider this string: **My dog said "woof"#gooddog**. Because there’s no space before the hash, Swift will see `"#` and immediately interpret it as the string terminator. In this situation we need to change our delimiter from `#"` to `##"`, like this:
 
@@ -181,7 +181,7 @@ let str = ##"My dog said "woof"#gooddog"##
 
 Notice how the number of hashes at the end must match the number at the start.
 
-Raw strings are fully compatible with Swift’s multi-line string system – just use `#"""` to start, then `"""#` to end, like this:
+Raw strings are fully compatible with Swift’s multi-line string system - just use `#"""` to start, then `"""#` to end, like this:
 
 ```swift
 let multiline = #"""
@@ -222,7 +222,7 @@ struct User {
 }
 ```
 
-If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and users the interpolation *type* – in this case `User` to figure out which method to call.
+If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and users the interpolation *type* - in this case `User` to figure out which method to call.
 
 In this case, we’re going to add an implementation that puts the user’s name and age into a single string, then calls one of the built-in `appendInterpolation()` methods to add that to our string, like this:
 
@@ -324,19 +324,19 @@ struct HTMLComponent: ExpressibleByStringLiteral, ExpressibleByStringInterpolati
             output.reserveCapacity(literalCapacity * 2)
         }
 
-        // a hard-coded piece of text – just add it
+        // a hard-coded piece of text - just add it
         mutating func appendLiteral(_ literal: String) {
             print("Appending \(literal)")
             output.append(literal)
         }
 
-        // a Twitter username – add it as a link
+        // a Twitter username - add it as a link
         mutating func appendInterpolation(twitter: String) {
             print("Appending \(twitter)")
             output.append("<a href=\"https://twitter/\(twitter)\">@\(twitter)</a>")
         }
 
-        // an email address – add it using mailto
+        // an email address - add it using mailto
         mutating func appendInterpolation(email: String) {
             print("Appending \(email)")
             output.append("<a href=\"mailto:\(email)\">\(email)</a>")
@@ -365,7 +365,7 @@ let text: HTMLComponent = "You should follow me on Twitter \(twitter: "twostraws
  print(text)
  ```
 
-Thanks to the `print()` calls that were scattered inside, you’ll see exactly how the string interpolation functionality works: you’ll see “Appending You should follow me on Twitter”, “Appending twostraws”, “Appending , or you can email me at “, “Appending paul@hackingwithswift.com”, and finally “Appending .” – each part triggers a method call, and is added to our string.
+Thanks to the `print()` calls that were scattered inside, you’ll see exactly how the string interpolation functionality works: you’ll see “Appending You should follow me on Twitter”, “Appending twostraws”, “Appending , or you can email me at “, “Appending paul@hackingwithswift.com”, and finally “Appending .” - each part triggers a method call, and is added to our string.
 
 ---
 
@@ -404,7 +404,7 @@ If you haven’t used `KeyValuePairs` before, now would be a good time to learn 
 
 :::
 
-As well as accepting a variety of inputs, you can also provide multiple overloads for a variety of outputs – one might return a string, one an integer, and so on. As long as Swift is able to resolve which one is used, you can mix and match all you want.
+As well as accepting a variety of inputs, you can also provide multiple overloads for a variety of outputs - one might return a string, one an integer, and so on. As long as Swift is able to resolve which one is used, you can mix and match all you want.
 
 Let’s look at an example. First, here’s a `RandomNumberGenerator` struct that generates numbers between 0 and a certain maximum, depending on what input was passed in:
 
@@ -439,7 +439,7 @@ let random = RandomNumberGenerator()
 let result = random(numberOfZeroes: 0)
 ```
 
-If you had used `dynamicallyCall(withArguments:)` instead – or at the same time, because you can have them both a single type – then you’d write this:
+If you had used `dynamicallyCall(withArguments:)` instead - or at the same time, because you can have them both a single type - then you’d write this:
 
 ```swift
 @dynamicCallable
@@ -458,7 +458,7 @@ let result = random(0)
 There are some important rules to be aware of when using `@dynamicCallable`:
 
 - You can apply it to structs, enums, classes, and protocols.
-- If you implement `withKeywordArguments:` and don’t implement `withArguments:`, your type can still be called without parameter labels – you’ll just get empty strings for the keys.
+- If you implement `withKeywordArguments:` and don’t implement `withArguments:`, your type can still be called without parameter labels - you’ll just get empty strings for the keys.
 - If your implementations of `withKeywordArguments:` or `withArguments:` are marked as throwing, calling the type will also be throwing.
 - You can’t add `@dynamicCallable` to an extension, only the primary definition of a type.
 - You can still add other methods and properties to your type, and use them as normal.
@@ -479,7 +479,7 @@ In the meantime, `@dynamicCallable` is not likely to be widely popular, but it *
 
 [SE-0192 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0192-non-exhaustive-enums.md) adds the ability to distinguish between enums that are fixed and enums that might change in the future.
 
-One of Swift’s security features is that it requires all switch statements to be exhaustive – that they must cover all cases. While this works well from a safety perspective, it causes compatibility issues when new cases are added in the future: a system framework might send something different that you hadn’t catered for, or code you rely on might add a new case and cause your compile to break because your switch is no longer exhaustive.
+One of Swift’s security features is that it requires all switch statements to be exhaustive - that they must cover all cases. While this works well from a safety perspective, it causes compatibility issues when new cases are added in the future: a system framework might send something different that you hadn’t catered for, or code you rely on might add a new case and cause your compile to break because your switch is no longer exhaustive.
 
 With the `@unknown` attribute we can now distinguish between two subtly different scenarios: “this default case should be run for all other cases because I don’t want to handle them individually,” and “I want to handle all cases individually, but if anything comes up in the future use this rather than causing an error.”
 
@@ -510,9 +510,9 @@ func showOld(error: PasswordError) {
 
 That uses two explicit cases for short and obvious passwords, but bundles the third case into a default block. 
 
-Now, if in the future we added a new case to the enum called `old`, for passwords that had been used previously, our `default` case would automatically be called even though its message doesn’t really make sense – the password might not be too simple.
+Now, if in the future we added a new case to the enum called `old`, for passwords that had been used previously, our `default` case would automatically be called even though its message doesn’t really make sense - the password might not be too simple.
 
-Swift can’t warn us about this code because it’s technically correct (the best kind of correct), so this mistake would easily be missed. Fortunately, the new `@unknown` attribute fixes it perfectly – it can be used only on the `default` case, and is designed to be run when new cases come along in the future.
+Swift can’t warn us about this code because it’s technically correct (the best kind of correct), so this mistake would easily be missed. Fortunately, the new `@unknown` attribute fixes it perfectly - it can be used only on the `default` case, and is designed to be run when new cases come along in the future.
 
 For example:
 
@@ -529,7 +529,7 @@ func showNew(error: PasswordError) {
 }
 ```
 
-That code will now issue warnings because the `switch` block is no longer exhaustive – Swift wants us to handle each case explicitly. Helpfully this is only a *warning*, which is what makes this attribute so useful: if a framework adds a new case in the future you’ll be warned about it, but it won’t break your source code.
+That code will now issue warnings because the `switch` block is no longer exhaustive - Swift wants us to handle each case explicitly. Helpfully this is only a *warning*, which is what makes this attribute so useful: if a framework adds a new case in the future you’ll be warned about it, but it won’t break your source code.
 
 ---
 
@@ -563,7 +563,7 @@ let messages = try? user?.getMessages()
 
 The `User` struct has a failable initializer, because we want to make sure folks create users with a valid ID. The `getMessages()` method would in theory contain some sort of complicated code to get a list of all the messages for the user, so it’s marked as `throws`; I’ve made it return a fixed string so the code compiles.
 
-The key line is the last one: because the user is optional it uses optional chaining, and because `getMessages()` can throw it uses `try?` to convert the throwing method into an optional, so we end up with a nested optional. In Swift 4.2 and earlier this would make `messages` a `String??` – an optional optional string – but in Swift 5.0 and later `try?` won’t wrap values in an optional if they are already optional, so `messages` will just be a `String?`.
+The key line is the last one: because the user is optional it uses optional chaining, and because `getMessages()` can throw it uses `try?` to convert the throwing method into an optional, so we end up with a nested optional. In Swift 4.2 and earlier this would make `messages` a `String??` - an optional optional string - but in Swift 5.0 and later `try?` won’t wrap values in an optional if they are already optional, so `messages` will just be a `String?`.
 
 This new behavior matches the existing behavior of optional chaining and conditional typecasting. That is, you could use optional chaining a dozen times in a single line of code if you wanted, but you wouldn’t end up with 12 nested optionals. Similarly, if you used optional chaining with `as?`, you would still end up with only one level of optionality, because that’s usually what you want.
 
@@ -587,7 +587,7 @@ if rowNumber.isMultiple(of: 2) {
 }
 ```
 
-Yes, we could write the same check using `if rowNumber % 2 == 0` but you have to admit that’s less clear – having `isMultiple(of:)` as a method means it can be listed in code completion options in Xcode, which aids discoverability.
+Yes, we could write the same check using `if rowNumber % 2 == 0` but you have to admit that’s less clear - having `isMultiple(of:)` as a method means it can be listed in code completion options in Xcode, which aids discoverability.
 
 ---
 
@@ -667,7 +667,7 @@ Swift 5.0 is the latest release of Swift, but previous releases have been packed
 
 ```component VPCard
 {
-  "title": "What's new in Swift 4.2 – Hacking with Swift",
+  "title": "What's new in Swift 4.2 - Hacking with Swift",
   "desc": "Enum case arrays, warning and compiler directives, and more!",
   "link": "/hackingwithswift.com/whats-new-in-swift-4-2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -677,7 +677,7 @@ Swift 5.0 is the latest release of Swift, but previous releases have been packed
 
 ```component VPCard
 {
-  "title": "What's new in Swift 4.1 – Hacking with Swift",
+  "title": "What's new in Swift 4.1 - Hacking with Swift",
   "desc": "Synthesized equatable, conditional conformance, and more!",
   "link": "/hackingwithswift.com/whats-new-in-swift-4-1.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -695,7 +695,7 @@ Swift 5.0 is the latest release of Swift, but previous releases have been packed
 }
 ```
 
-But there's more to come – Apple already announced the [<FontIcon icon="fa-brands fa-swift"/>Swift 5.1 release process](https://swift.org/blog/5-1-release-process/) on Swift.org, which will include module stability alongside some other improvements. At the time of writing there are very few hard dates attached to 5.1, but it's looking like we'll see it ship in beta around WWDC.
+But there's more to come - Apple already announced the [<FontIcon icon="fa-brands fa-swift"/>Swift 5.1 release process](https://swift.org/blog/5-1-release-process/) on Swift.org, which will include module stability alongside some other improvements. At the time of writing there are very few hard dates attached to 5.1, but it's looking like we'll see it ship in beta around WWDC.
 
 If you'd like to learn more about what's changing in Swift 5.1, see my article: [what's new in Swift 5.1](/hackingwithswift.com/whats-new-in-swift-5-1.md).
 

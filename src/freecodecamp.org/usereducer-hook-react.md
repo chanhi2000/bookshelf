@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "React Hooks Tutorial – How to Use the useReducer Hook"
-description: "Article(s) > React Hooks Tutorial – How to Use the useReducer Hook"
+title: "React Hooks Tutorial - How to Use the useReducer Hook"
+description: "Article(s) > React Hooks Tutorial - How to Use the useReducer Hook"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > React Hooks Tutorial – How to Use the useReducer Hook"
+      content: "Article(s) > React Hooks Tutorial - How to Use the useReducer Hook"
     - property: og:description
-      content: "React Hooks Tutorial – How to Use the useReducer Hook"
+      content: "React Hooks Tutorial - How to Use the useReducer Hook"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/usereducer-hook-react.html
 prev: /articles/README.md
@@ -50,7 +50,7 @@ cover: https://freecodecamp.org/news/content/images/2023/01/photo-1672309046475-
 ---
 
 <SiteInfo
-  name="React Hooks Tutorial – How to Use the useReducer Hook"
+  name="React Hooks Tutorial - How to Use the useReducer Hook"
   desc="State is an important part of a React application. Most functionalities involve making state updates in your component. But as your application grows, state updates become more and more complex. These complex state updates might get overwhelming when..."
   url="https://freecodecamp.org/usereducer-hook-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -133,7 +133,7 @@ const userData = [
 
 The reducer method contains our state updates. The method takes two arguments, the current state value and an action object. The action object contains the type of the action and additional data needed to perform the update.
 
-We'll perform three types of updates – for user added, updated, and deleted. We'll use switch-case to select the type of operation to be performed.
+We'll perform three types of updates - for user added, updated, and deleted. We'll use switch-case to select the type of operation to be performed.
 
 ```jsx
 const reducerMethod = (users, action) => {
@@ -246,7 +246,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "React Hooks Tutorial – How to Use the useReducer Hook",
+  "title": "React Hooks Tutorial - How to Use the useReducer Hook",
   "desc": "State is an important part of a React application. Most functionalities involve making state updates in your component. But as your application grows, state updates become more and more complex. These complex state updates might get overwhelming when...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/usereducer-hook-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

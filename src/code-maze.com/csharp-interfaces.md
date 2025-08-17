@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Interfaces"
-description: "Article(s) > C# Intermediate – Interfaces"
+title: "C# Intermediate - Interfaces"
+description: "Article(s) > C# Intermediate - Interfaces"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Interfaces"
+      content: "Article(s) > C# Intermediate - Interfaces"
     - property: og:description
-      content: "C# Intermediate – Interfaces"
+      content: "C# Intermediate - Interfaces"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-interfaces.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-interfaces/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Interfaces"
+  name="C# Intermediate - Interfaces"
   desc="In this article you are going to learn about Interfaces in C#, how to define them, implement them, work with multiple interfaces and more..."
   url="https://code-maze.com/csharp-interfaces/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -391,7 +391,7 @@ In the next article, we are going to talk about [**Abstract Classes in C#**](/co
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Interfaces",
+  "title": "C# Intermediate - Interfaces",
   "desc": "In this article you are going to learn about Interfaces in C#, how to define them, implement them, work with multiple interfaces and more...",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-interfaces.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

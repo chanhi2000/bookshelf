@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Supervised vs. Unsupervised Learning"
-description: "(2/11) Learn Clustering in Python – A Machine Learning Engineering Handbook"
+description: "(2/11) Learn Clustering in Python - A Machine Learning Engineering Handbook"
 category:
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "(2/11) Learn Clustering in Python – A Machine Learning Engineering Handbook"
+      content: "(2/11) Learn Clustering in Python - A Machine Learning Engineering Handbook"
     - property: og:description
       content: "Supervised vs. Unsupervised Learning"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 
 ```component VPCard
 {
-  "title": "Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "title": "Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "desc": "Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d...",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 ---
 
 <SiteInfo
-  name="Learn Clustering in Python – A Machine Learning Engineering Handbook"
+  name="Learn Clustering in Python - A Machine Learning Engineering Handbook"
   desc="Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d..."
   url="https://freecodecamp.org/news/clustering-in-python-a-machine-learning-handbook#heading-supervised-vs-unsupervised-learning"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

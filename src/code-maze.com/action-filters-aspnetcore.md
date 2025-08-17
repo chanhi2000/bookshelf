@@ -2,14 +2,14 @@
 lang: ko-KR
 title: Implementing Action Filters in ASP.NET Core
 description: Article(s) > Implementing Action Filters in ASP.NET Core
-icon: iconfont icon-csharp
+icon: iconfont icon-cs
 category: 
   - C#
   - Article(s)
 tag: 
   - blog
   - code-maze.com
-  - csharp
+  - cs
 head:  
   - - meta:
     - property: og:title
@@ -47,15 +47,15 @@ cover: /assets/image/code-maze.com/action-filters-aspnetcore/banner.png
   logo="/assets/image/code-maze.com/favicon.png"
   preview="/assets/image/code-maze.com/action-filters-aspnetcore/banner.png"/>
 
-Filters in .NET offer a great way to hook into the [MVC](/code-maze.com/asp-net-core-mvc-series.md) action invocation pipeline. Therefore, we can use filters to extract code that can be reused and make our actions cleaner and maintainable. There are some filters that are already provided by [ASP.NET Core](/code-maze.com/net-core-series.md) like the authorization filter, and there are the custom ones that we can create ourselves.
+Filters in .NET offer a great way to hook into the [**MVC**](/code-maze.com/asp-net-core-mvc-series.md) action invocation pipeline. Therefore, we can use filters to extract code that can be reused and make our actions cleaner and maintainable. There are some filters that are already provided by [**ASP.NET Core**](/code-maze.com/net-core-series.md) like the authorization filter, and there are the custom ones that we can create ourselves.
 
-There are [different filter types](/code-maze.com/filters-in-asp-net-core-mvc.md):
+There are [**different filter types**](/code-maze.com/filters-in-asp-net-core-mvc.md):
 
-- **Authorization filters** – They run first to determine whether a user is authorized for the current request
-- **Resource filters** – They run right after the authorization filters and are very useful for caching and performance
-- **Action filters** – They run right before and after the action method execution
-- **Exception filters** – They are used to handle exceptions before the response body is populated
-- **Result filters** – They run before and after the execution of the action methods result.
+- **Authorization filters**: They run first to determine whether a user is authorized for the current request
+- **Resource filters**: They run right after the authorization filters and are very useful for caching and performance
+- **Action filters**: They run right before and after the action method execution
+- **Exception filters**: They are used to handle exceptions before the response body is populated
+- **Result filters**: They run before and after the execution of the action methods result.
 
 In this article, we are going to talk about Action filters and how to use them to create cleaner and reusable code in our Web API.
 
@@ -75,7 +75,7 @@ Let’s start.
 
 To create an Action filter, we need to create a class that inherits either from the `IActionFilter` interface or `IAsyncActionFilter` interface or from the `ActionFilterAttribute` class which is the implementation of the `IActionFilter`, `IAsyncActionFilter`, and a few different interfaces as well:
 
-```csharp
+```cs
 public abstract class ActionFilterAttribute : Attribute, IActionFilter, IFilterMetadata, 
     IAsyncActionFilter, IResultFilter, IAsyncResultFilter, IOrderedFilter
 ```
@@ -84,7 +84,7 @@ In our examples, we are going to inherit from the `IActionFIlter` interface beca
 
 To implement the synchronous Action filter that runs before and after action method execution, we need to implement `OnActionExecuting` and `OnActionExecuted` methods:
 
-```csharp
+```cs
 namespace ActionFilters.Filters
 {
     public class ActionFilterExample : IActionFilter
@@ -104,7 +104,7 @@ namespace ActionFilters.Filters
 
 We can do the same thing with an asynchronous filter by inheriting from `IAsyncActionFilter`, but we only have one method to implement the `OnActionExecutionAsync`:
 
-```csharp
+```cs
 namespace ActionFilters.Filters
 {
     public class AsyncActionFilterExample : IAsyncActionFilter
@@ -127,7 +127,7 @@ Like the other types of filters, the action filter can be added to different sco
 
 If we want to use our filter globally, we need to register it inside the `AddControllers()` method in the `ConfigureServices` method:
 
-```csharp
+```cs
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddControllers(config => 
@@ -139,7 +139,7 @@ public void ConfigureServices(IServiceCollection services)
 
 **In .NET 6 and above, we don’t have the Startup class, so we have to use the Program class:**
 
-```csharp
+```cs
 builder.Services.AddControllers(config => 
 { 
     config.Filters.Add(new GlobalFilterExample()); 
@@ -152,14 +152,14 @@ But if we want to use our filter as a service type on the Action or Controller l
 
 @tab:active .NET Core
 
-```csharp
+```cs
 services.AddScoped<ActionFilterExample>();
 services.AddScoped<ControllerFilterExample>();
 ```
 
 @tab .NET 6 and above
 
-```csharp
+```cs
 builder.Services.AddScoped<ActionFilterExample>(); 
 builder.Services.AddScoped<ControllerFilterExample>();
 ```
@@ -168,7 +168,7 @@ builder.Services.AddScoped<ControllerFilterExample>();
 
 Finally, to use a filter registered on the Action or Controller level, we need to place it on top of the Controller or Action as a ServiceType:
 
-```csharp
+```cs
 namespace AspNetCore.Controllers
 {
     [ServiceFilter(typeof(ControllerFilterExample))]
@@ -196,7 +196,7 @@ The order in which our filters are executed is as follows:
 
 Of course, we can change the order of invocation by adding an additional property `Order` to the invocation statement:
 
-```csharp
+```cs
 namespace AspNetCore.Controllers
 {
     [ServiceFilter(typeof(ControllerFilterExample), Order=2)]
@@ -218,7 +218,7 @@ namespace AspNetCore.Controllers
 
 Or something like this on top of the same action:
 
-```csharp
+```cs
 [HttpGet]
 [ServiceFilter(typeof(ActionFilterExample), Order=2)]
 [ServiceFilter(typeof(ActionFilterExample2), Order=1)]
@@ -238,7 +238,7 @@ Our actions are quite clean and readable without `try-catch` blocks due to globa
 
 The important thing to notice is that our `Movie` model inherits from the `IEntity` interface:
 
-```csharp
+```cs
 [Table("Movie")]
 public class Movie: IEntity
 {
@@ -261,7 +261,7 @@ So let’s start with the validation code from the POST and PUT actions.
 
 If we look at our [POST and PUT actions](/code-maze.com/net-core-web-development-part6.md), we can notice the repeated code in which we validate our `Movie` model:
 
-```csharp
+```cs
 if (movie == null)
 {
      return BadRequest("Movie object is null");
@@ -279,7 +279,7 @@ So let’s do that.
 
 Let’s create a new folder in our solution explorer, and name it `ActionFilters`. Then inside that folder, we are going to create a new class `ValidationFilterAttribute`:
 
-```csharp
+```cs
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace ActionFilters.ActionFilters
@@ -301,7 +301,7 @@ namespace ActionFilters.ActionFilters
 
 Now we are going to modify the `OnActionExecuting` method to validate our model:
 
-```csharp
+```cs
 using ActionFilters.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -335,7 +335,7 @@ namespace ActionFilters.ActionFilters
 
 Next, let’s register this action filter in the `ConfigureServices` method:
 
-```csharp
+```cs
 public void ConfigureServices(IServiceCollection services)
 {
        services.AddDbContext<MovieContext>(options =>
@@ -349,7 +349,7 @@ public void ConfigureServices(IServiceCollection services)
 
 **For .NET 6, we have to use the **`builder`** variable inside the **`Program`** class:**
 
-```csharp
+```cs
 builder.Services.AddDbContext<MovieContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("sqlConString")));
        
@@ -360,7 +360,7 @@ builder.Services.AddControllers();
 
 Finally, let’s remove that validation code from our actions and call this action filter as a service:
 
-```csharp
+```cs
 [HttpPost]
 [ServiceFilter(typeof(ValidationFilterAttribute))]
 public IActionResult Post([FromBody] Movie movie)
@@ -402,7 +402,7 @@ To suppress the default validation, we have to modify the `Startup` class:
 
 @tab:active .NET Core
 
-```csharp
+```cs
 services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
@@ -411,7 +411,7 @@ services.Configure<ApiBehaviorOptions>(options =>
 
 @tab .NET 6 in the Program class:
 
-```csharp
+```cs
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
@@ -430,7 +430,7 @@ Now, if we send a PUT request for example with the invalid model we will get the
 
 If we take a look at our `GetById`, DELETE and PUT actions, we are going to see the code where we fetch the move by id from the database and check if it exists:
 
-```csharp
+```cs
 var dbMovie = _context.Movies.SingleOrDefault(x => x.Id.Equals(id));
 if (dbMovie == null)
 {
@@ -444,7 +444,7 @@ Of course, we need to inject our `context` in a new ActionFilter class by using 
 
 So, let’s create another Action Filter class `ValidateEntityExistsAttribute` in the `ActionFilters` folder and modify it:
 
-```csharp
+```cs
 using System.Linq;
 
 namespace ActionFilters.ActionFilters
@@ -498,13 +498,13 @@ Now let’s register it:
 
 @tab:active .NET Core
 
-```csharp
+```cs
 services.AddScoped<ValidateEntityExistsAttribute<Movie>>();
 ```
 
 @tab .NET 6 and above
 
-```csharp
+```cs
 builder.Services.AddScoped<ValidateEntityExistsAttribute<Movie>>();
 ```
 
@@ -512,7 +512,7 @@ builder.Services.AddScoped<ValidateEntityExistsAttribute<Movie>>();
 
 And let’s modify our actions:
 
-```csharp
+```cs
 [HttpGet("{id}", Name = "MovieById")]
 [ServiceFilter(typeof(ValidateEntityExistsAttribute<Movie>))]
 public IActionResult Get(Guid id)

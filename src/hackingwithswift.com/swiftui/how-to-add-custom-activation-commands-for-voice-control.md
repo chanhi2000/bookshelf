@@ -74,22 +74,22 @@ NavigationStack {
 
 There are several things in action there:
 
-1. Because the button is placed inside a toolbar, its title won’t be shown by default on iOS – the user has no clear indication what would activate it.
+1. Because the button is placed inside a toolbar, its title won’t be shown by default on iOS - the user has no clear indication what would activate it.
 2. The button has a sensible label already, which will be used by the system for VoiceOver by default. There’s no custom accessibility label because this default is fine.
 3. The accessibility hint provides some extra description after a short delay, if enabled.
 4. There are multiple labels being provided to the system, which will be used in descending order of importance.
 5. I’ve used common synonyms and variations for the input labels. Whichever one comes first will be used to display the “Show Names” text.
 6. I’ve repeated the button’s label as one of the accessibility input labels, otherwise it won’t be available as a synonym.
 7. SwiftUI will automatically internationalize our input labels, so if you have localized versions available for the user’s language they will be used instead.
-8. It’s really important to keep your input labels short – even shorter than accessibility labels. Remember, users need to read these out!
+8. It’s really important to keep your input labels short - even shorter than accessibility labels. Remember, users need to read these out!
 
-You can provide as many alternative input labels as you want – ideally the user should never need to say “Show Names” or “Show Numbers”, because their reasonable guess ought to be enough.
+You can provide as many alternative input labels as you want - ideally the user should never need to say “Show Names” or “Show Numbers”, because their reasonable guess ought to be enough.
 
-There are times when you want to have label, hint, and input labels all at the same time. One example I heard of was in an app like Stocks, where you might have a button with a title such as “Buy $AAPL at 185.83” – a great button title for sighted users, and containing important information for VoiceOver to read out, but would be frustrating to use as a command with Voice Control.
+There are times when you want to have label, hint, and input labels all at the same time. One example I heard of was in an app like Stocks, where you might have a button with a title such as “Buy $AAPL at 185.83” - a great button title for sighted users, and containing important information for VoiceOver to read out, but would be frustrating to use as a command with Voice Control.
 
 ::: tip
 
-If you’re new to Voice Control and are running at least iOS 17 or macOS Sonoma, you should try Apple’s interactive tutorial to learn how it works – go to <FontIcon icon="iconfont icon-select"/>`[Settings]` > `[Accessibility]` > `[Voice Control]` to find out more.
+If you’re new to Voice Control and are running at least iOS 17 or macOS Sonoma, you should try Apple’s interactive tutorial to learn how it works - go to <FontIcon icon="iconfont icon-select"/>`[Settings]` > `[Accessibility]` > `[Voice Control]` to find out more.
 
 :::
 

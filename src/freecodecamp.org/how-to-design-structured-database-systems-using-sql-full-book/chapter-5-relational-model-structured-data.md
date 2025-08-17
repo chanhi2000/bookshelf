@@ -59,7 +59,7 @@ Now that you understand some of the processes we use to design databases, we wil
 
 The reason relational databases are the simplest lies in the nature of the data they usually store and the constraints imposed on them, as we will see now. We’ll discuss both the conceptual and logical design levels simultaneously, where the fundamental elements of this type of system are mainly represented.
 
-It’s important to differentiate between how these elements are viewed from the conceptual level and from the logical level, as they essentially refer to very similar, and sometimes equivalent, concepts – but formally they are different concepts. In a relational database, the information is structured in entities related to each other and composed of a series of attributes, which is the conceptual view of the model.
+It’s important to differentiate between how these elements are viewed from the conceptual level and from the logical level, as they essentially refer to very similar, and sometimes equivalent, concepts - but formally they are different concepts. In a relational database, the information is structured in entities related to each other and composed of a series of attributes, which is the conceptual view of the model.
 
 ---
 
@@ -144,7 +144,7 @@ Sometimes we can use [**Crow's foot**](/freecodecamp.org/crows-foot-notation-rel
 
 To correctly understand what an entity is, think of it as if it were the schema of the table, or rather a class in object oriented programming that serves as a template to instantiate tuples. Just keep in mind that at the conceptual level they aren’t called tuples but rather instances or occurrences of an entity.
 
-Intuitively, we can see it as if the attributes represented in the entity were the actual values of the first row of the equivalent table – that is, its schema. In this way, if we have a schema (that is, a template), we can create instances of that entity/schema/template simply by assigning values to those attributes. So when we assign values to the properties of an entity, we have an entity occurrence, which at the logical level we can see as a tuple.
+Intuitively, we can see it as if the attributes represented in the entity were the actual values of the first row of the equivalent table - that is, its schema. In this way, if we have a schema (that is, a template), we can create instances of that entity/schema/template simply by assigning values to those attributes. So when we assign values to the properties of an entity, we have an entity occurrence, which at the logical level we can see as a tuple.
 
 For example, the entity `City` can be "instantiated" in a "tuple" like **[5, Paris, France, 2140526, 105.4]**. But at the conceptual level we should call it an **occurrence** instead of a tuple, since “instance” might cause confusion with the concept of instance we discussed earlier at the logical level.
 
@@ -161,7 +161,7 @@ Regarding notation, in the entity-relationship diagram, the entity is represente
 
 To the left of each attribute, a `-` is usually placed to indicate that it’s a private attribute. But this concept is not relevant in this database context, as it comes from the uses given in software engineering to the class diagram notation we use here.
 
-Lastly, attribute names are usually all in lowercase, although according to the style guide you follow, this can vary – like here, where we allow uppercase to minimize changes to attribute names when translating to logical design.
+Lastly, attribute names are usually all in lowercase, although according to the style guide you follow, this can vary - like here, where we allow uppercase to minimize changes to attribute names when translating to logical design.
 
 ---
 
@@ -197,7 +197,7 @@ One way to solve the problem of repeating groups is to store each temperature me
 
 As you can see, we have duplicated information to store each temperature measurement in a tuple, which avoids accumulating them all in a single value of the same tuple. But repeating data creates (unnecessary) redundancy in the database, which is a problem.
 
-Redundancy is not an issue in all situations, as it can sometimes be good for ensuring data availability. But in this case, we can see that it’s it’s completely unnecessary. First, because it greatly increases the space needed to store city data by repeating the city’s information. Also, because having city data repeated so many times means that every time these data need to be modified, you’ll have to make changes to all tuples recording the temperatures, causing operations to take too long. And if the schema is modified to add or remove attributes, all data in their respective columns must be deleted – so if there is a lot of repeated data in them, those operations will also have high latency.
+Redundancy is not an issue in all situations, as it can sometimes be good for ensuring data availability. But in this case, we can see that it’s it’s completely unnecessary. First, because it greatly increases the space needed to store city data by repeating the city’s information. Also, because having city data repeated so many times means that every time these data need to be modified, you’ll have to make changes to all tuples recording the temperatures, causing operations to take too long. And if the schema is modified to add or remove attributes, all data in their respective columns must be deleted - so if there is a lot of repeated data in them, those operations will also have high latency.
 
 ---
 
@@ -218,7 +218,7 @@ To ensure that it’s an inconsistency, we should look at the key values that un
 
 On the other hand, if in the last example the `Country` value of the second tuple were `"France"`, we wouldn't have any inconsistency, even though the temperature values don't match. So it's important to understand that inconsistency mainly depends on the schema's semantics, meaning what each attribute signifies.
 
-Finally, to solve the problem of repetitive groups, you’ll typically need to refine the schema – that is, to transform it. In this specific case, we’ll perform a normalization operation, which we’ll see how to do later. This involves separating a table like the one we had before with duplicated information into several tables:
+Finally, to solve the problem of repetitive groups, you’ll typically need to refine the schema - that is, to transform it. In this specific case, we’ll perform a normalization operation, which we’ll see how to do later. This involves separating a table like the one we had before with duplicated information into several tables:
 
 | `CityID` | `Name` | `Country` |
 | --- | --- | --- |
@@ -252,11 +252,11 @@ So, in conceptual design, we have the concept of **entity association**, which d
 
 ![Entity-relationship diagram showing entities City and Person, where each city can have one or more people living in it.](https://cdn.hashnode.com/res/hashnode/image/upload/v1751783067882/835a4c1c-1913-4847-9649-f2082d19d410.png)
 
-For example, in a domain, we can have entities like the ones above, **City** and **Person**. These model the existence of people and cities in the domain. But besides the existence of the entities themselves, it's possible that they have relationships with each other that we can model in our diagram – such as a person living in a certain city.
+For example, in a domain, we can have entities like the ones above, **City** and **Person**. These model the existence of people and cities in the domain. But besides the existence of the entities themselves, it's possible that they have relationships with each other that we can model in our diagram - such as a person living in a certain city.
 
 In this case, we use an association to allow a person in our system to live in a city, meaning we use an association to model that relationship between both entities.
 
-At first glance, we can see that the association is represented in the entity-relationship diagram as a relationship established between entities – but it's important to remember that entities are "templates" from which occurrences of entities are generated when implementing the system (that is, specific tuples). So when we introduce an association at the conceptual level, we have to view it in terms of the tuples that will later be generated from the related entities.
+At first glance, we can see that the association is represented in the entity-relationship diagram as a relationship established between entities - but it's important to remember that entities are "templates" from which occurrences of entities are generated when implementing the system (that is, specific tuples). So when we introduce an association at the conceptual level, we have to view it in terms of the tuples that will later be generated from the related entities.
 
 For example, here the relationship can occur between one occurrence (tuple) of a city and many occurrences of a person, since many people can live in a city. But the reverse may not be true depending on the domain requirements, which may determine that a person (occurrence of the entity **Person**, or tuple of the table **Person**) can only live in one city, as we’re assuming in this case.
 
@@ -282,13 +282,13 @@ To understand this using the previous example, we know that a person can only li
 
 If we look at the other side of the association, we see it has [The Role of Data in Today's Digital World](/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/the-role-of-data-in-todays-digital-world.md) (sometimes called multiplicity) `1…*`, where 1 is the minimum cardinality, indicating that a city must be related to at least one person. This means that in all the cities within our domain, there must be **at least** one inhabitant.
 
-On the other hand, the `*` in the **maximum cardinality** is a way to denote that there is no specific value that must be given to that cardinality – it can be any amount. This means a city can be associated with an arbitrary number of people, indicating that the cities in our domain can have any number of inhabitants.
+On the other hand, the `*` in the **maximum cardinality** is a way to denote that there is no specific value that must be given to that cardinality - it can be any amount. This means a city can be associated with an arbitrary number of people, indicating that the cities in our domain can have any number of inhabitants.
 
 Since the asterisk denotes any, unbounded amount, we don't have to worry about it being consistent with the minimum cardinality. That is, even if we set the minimum cardinality to 1, by using an asterisk for the maximum, we are indicating that the maximum can be any number from 1 to infinity. This means that cities will have at least one inhabitant and at most an infinite number.
 
 From the **minimum cardinality**, we can introduce the concepts of **optionality** and **obligation**. For example, before we had minimum cardinalities greater than 0, which indicate that a person must always be associated with a city, or a city must always be associated with at least one person. This means that when occurrences of these entities are created, they must meet the restriction imposed by the minimum cardinality of being associated with some occurrence of the other entity. So at creation, it must be directly associated with the other entity that indicates the association, to respect the minimum cardinality.
 
-To see this at the logical design level, we first need to introduce the tools of that level with which associations are implemented – although for now, we can view it by thinking in the object-oriented paradigm, where if we instantiate a person object, it must have a **reference** to another city object, and vice versa.
+To see this at the logical design level, we first need to introduce the tools of that level with which associations are implemented - although for now, we can view it by thinking in the object-oriented paradigm, where if we instantiate a person object, it must have a **reference** to another city object, and vice versa.
 
 ![Entity-relationship diagram showing City and Person entities.](https://cdn.hashnode.com/res/hashnode/image/upload/v1751792178992/276f82ef-6895-487c-b7a0-7f1d01d9525f.png)
 
@@ -304,7 +304,7 @@ Here we can see that a city may have no residents due to the minimum cardinality
 
 To correctly understand optionality, we can modify the example again so that a person can be associated with either no city or one city, indicating that the person may not live in any city or may live in one. Also, on the other side of the association, we also change the maximum cardinality to 500, indicating that a city can have an arbitrary number of residents between 0 and 500, meaning it can be associated with any number of people from 0 to 500, inclusive. This means having residents is optional.
 
-With this, it should be clear that we can set cardinalities as we want according to the domain and requirements – but we always need to ensure they are correct and make sense. For example, you can’t set a maximum cardinality that is strictly less than the minimum cardinality.
+With this, it should be clear that we can set cardinalities as we want according to the domain and requirements - but we always need to ensure they are correct and make sense. For example, you can’t set a maximum cardinality that is strictly less than the minimum cardinality.
 
 In this case, something peculiar happens: on both sides, we have a minimum cardinality of 0, meaning we have optionality. So when we create new instances of the entities, they don't have to be associated with instances of entities on the other side of the association. We can see this as if the association we modeled is entirely optional.
 
@@ -318,7 +318,7 @@ On the other hand, an association does not necessarily have to relate multiple e
 
 First of all, it’s very convenient to establish a role in recursive associations, as it’s the simplest way to represent their semantics so we can easily understand them when looking at the diagram.
 
-But in this case, it’s not as useful to specify the direction of the association since the friendship relationship can be considered symmetric. Here, we have modeled the friendship relationship so that one occurrence of `Person` can be associated with any number of other occurrences of `Person`, including none, which indicates that in our domain, a person (occurrence of `Person` entity) can have an arbitrary number of friends, including 0. Regarding notation, it makes no difference to use `0..*` or `*`, as they indicate the same thing – but we should always use the shortest and simplest notation to understand.
+But in this case, it’s not as useful to specify the direction of the association since the friendship relationship can be considered symmetric. Here, we have modeled the friendship relationship so that one occurrence of `Person` can be associated with any number of other occurrences of `Person`, including none, which indicates that in our domain, a person (occurrence of `Person` entity) can have an arbitrary number of friends, including 0. Regarding notation, it makes no difference to use `0..*` or `*`, as they indicate the same thing - but we should always use the shortest and simplest notation to understand.
 
 In summary, a recursive association is simply one where both related entities are the same. In this case, the friendship association necessarily relates people to people, meaning it establishes which people are friends with each other.
 
@@ -340,7 +340,7 @@ To achieve this, at a conceptual level, associative entities are used. These are
 
 As you can see, associative classes are **"related"** to associations between entities, not directly with other entities, and they don't have multiplicity or roles. This is because they exist only when the association between several entities is actually established. For example, when a person starts living in a city, they associate with a city, and this association relates to an occurrence of the associative class where the respective attributes like StartDate and EndDate are stored.
 
-So for each person-city association we have, there will also be an occurrence of the **Residence** entity with the values of its corresponding properties. Also, keep in mind that this association doesn't exist all the time, as the person may stop living in that city – so the association itself may cease to be valid or, rather, cease to exist conceptually.
+So for each person-city association we have, there will also be an occurrence of the **Residence** entity with the values of its corresponding properties. Also, keep in mind that this association doesn't exist all the time, as the person may stop living in that city - so the association itself may cease to be valid or, rather, cease to exist conceptually.
 
 But depending on how we translate the relational diagram to the logical design of the database, we might want to record the StartDate and EndDate values that the occurrence of the respective associative entity had.
 
@@ -348,13 +348,13 @@ If we want this, we will need to specify it in the logical model of the database
 
 ### Aggregation and Composition
 
-Since a **UML entity-relationship diagram** is used at the conceptual level, there are modifiers we can use in the associations to give them a particular meaning. But this has no effect at the logical level – meaning the introduction of these modifiers in the conceptual diagram doesn't imply any kind of change at the logical level. They are simply used to clarify the details of the modeled domain.
+Since a **UML entity-relationship diagram** is used at the conceptual level, there are modifiers we can use in the associations to give them a particular meaning. But this has no effect at the logical level - meaning the introduction of these modifiers in the conceptual diagram doesn't imply any kind of change at the logical level. They are simply used to clarify the details of the modeled domain.
 
 ![Entity-relationship diagram where City is made up of instances of Person and each person consists of a single Brain.](https://cdn.hashnode.com/res/hashnode/image/upload/v1751810875604/7b9044be-8d9b-43f2-8d80-61a190c23b6b.png)
 
 On one hand, an association can be of the aggregation type, like between Person and City, where aggregation is denoted by an unfilled diamond and signifies that a city can be composed of people. This means that the entity with the diamond is composed of entities on the other side of the association.
 
-Also, in the specific case where we create and destroy entity occurrences at the same time, the aggregation becomes a composition, denoted by a filled diamond. It then works the same way as aggregation – the only difference being the meaning it conveys.
+Also, in the specific case where we create and destroy entity occurrences at the same time, the aggregation becomes a composition, denoted by a filled diamond. It then works the same way as aggregation - the only difference being the meaning it conveys.
 
 For example, in the above diagram we have modeled that a person is composed of a single brain. Since a person's brain can’t exist independently of the person, the association is denoted as a composition. This is because aggregation would allow the brain to exist independently, which is not possible.
 
@@ -394,7 +394,7 @@ The Fan Trap appears when we have a "central" class like `City` that is associat
 
 This situation is initially correct, but the problem arises when we want to know which people from a certain city go to which pool. This becomes complicated because if we are given a certain person, we can know their city, as we have defined that a person can only live in one city. But the city can have many pools, so we don't know which specific pool the person goes to. We can only know which pools the city has where they live. Also, the city might have no pools, given the minimum cardinality of 0 on the pool side.
 
-On the other hand, if we are given a pool, we can determine which city it belongs to. Then with that city, we can find out the group of people living there, which we can use to solve the previous question – but in a much more complex way.
+On the other hand, if we are given a pool, we can determine which city it belongs to. Then with that city, we can find out the group of people living there, which we can use to solve the previous question - but in a much more complex way.
 
 To solve this problem, there are many alternatives, although the simplest in this case is to add an explicit association between `Person` and `Pool` to model the fact that a person goes to a pool. But if we’re not going to make these types of queries frequently, it might not be worthwhile to complicate the diagram.
 
@@ -404,7 +404,7 @@ There is also the **Chasm Trap**, which is similar to a Fan Trap but with import
 
 In other words, each pool may or may not have an association with a person, since not all people go to the pool. So, if we try to find all the pools in a city by simply looking at the pools the city's residents go to, we might encounter situations where no resident of the city goes to the pool. Thus, all the pools will take advantage of the 0..30 cardinality on the Person side to not have any associated people, meaning no one goes to those pools.
 
-So if there are pools that no one visits, we won't be able to find them through a group of people. This means that, given a city, we might not know all the pools it has, because if we solve the query this way, we can only be sure of knowing the pools that the city's residents visit. But if there's a pool that no one visits, then that pool won't be accessible through a person. In other words, people won't see those pools, since the `1..*` relationship requires them to visit some pool – but it can still happen that no one visits a certain pool.
+So if there are pools that no one visits, we won't be able to find them through a group of people. This means that, given a city, we might not know all the pools it has, because if we solve the query this way, we can only be sure of knowing the pools that the city's residents visit. But if there's a pool that no one visits, then that pool won't be accessible through a person. In other words, people won't see those pools, since the `1..*` relationship requires them to visit some pool - but it can still happen that no one visits a certain pool.
 
 The solution to this problem is practically the same as for the Fan Trap, although there are many alternatives depending on the domain and requirements. There are also more situations that can lead to these problems or ambiguities which you can [read more about here (<FontIcon icon="fa-brands fa-medium"/>`koushik-dutta`)](https://koushik-dutta.medium.com/avoiding-pitfalls-a-guide-to-sql-traps-and-how-to-solve-them-acdc3a95c74f).
 
@@ -412,7 +412,7 @@ The solution to this problem is practically the same as for the Fan Trap, althou
 
 ## Keys
 
-So far, we have talked about entities and associations at the conceptual level, as well as tables at the logical level. Continuing with the logical level, we have not yet introduced any mechanism to uniquely identify the tuples contained in a table. This can be very useful since tuples are data points – that is, occurrences of an entity, like people, cities, and so on.
+So far, we have talked about entities and associations at the conceptual level, as well as tables at the logical level. Continuing with the logical level, we have not yet introduced any mechanism to uniquely identify the tuples contained in a table. This can be very useful since tuples are data points - that is, occurrences of an entity, like people, cities, and so on.
 
 **Uniquely identifying** them makes it easier to perform operations or queries on the table. It also allows us to implement associations between entities at the logical level through references between tables.
 
@@ -667,7 +667,7 @@ To avoid this problem, whenever we have an association with **cardinality** 1 on
 
 As you can see, in this case, the foreign key is placed in the `Person` table, which is the one with the `*` in its cardinality on the diagram, since each person can only own one pool. This prevents the foreign key from having to store an arbitrary number of references.
 
-In this specific case, instead of a single attribute, we need to add `PoolName` (FK) and `CityName` (FK) because the primary key of Pool is not a single attribute but two. So the foreign key in `Person` will be a **composite foreign key** – meaning that instead of one attribute referencing another in a different table, there are two that simultaneously reference two attributes in another table.
+In this specific case, instead of a single attribute, we need to add `PoolName` (FK) and `CityName` (FK) because the primary key of Pool is not a single attribute but two. So the foreign key in `Person` will be a **composite foreign key** - meaning that instead of one attribute referencing another in a different table, there are two that simultaneously reference two attributes in another table.
 
 For this to be valid, each attribute of the foreign key must reference an attribute of the primary key in the Pool table, so that together PoolName (FK) refers to `PoolName`, and `CityName` (FK) refers to the `CityName` attribute of Pool. So together they reference the entire primary key of Pool.
 
@@ -679,7 +679,7 @@ As for their naming, there are many style guides to follow. Here, we have added 
 
 ## Weak Entities
 
-Now that we’ve defined how foreign keys allow us to implement associations between entities, we’ll continue by analyzing a case where one of the associated entities can’t be identified on its own with its attributes. Instead, it needs a foreign key that references another entity to be correctly identified – this means that the entity is considered weak in identification.
+Now that we’ve defined how foreign keys allow us to implement associations between entities, we’ll continue by analyzing a case where one of the associated entities can’t be identified on its own with its attributes. Instead, it needs a foreign key that references another entity to be correctly identified - this means that the entity is considered weak in identification.
 
 ### Existence weakness
 
@@ -743,7 +743,7 @@ In this case, since a person can only live in one city at a time, we don't need 
 
 Consequently, the primary key of Residence becomes **{StartDate, ID (FK)}**, for example. The only thing that changes besides this primary key is the conceptual diagram itself, where now the only owner entity of Residence is Person because the foreign key to City is no longer strictly necessary for its identification. So even though Residence remains weak, its only owner entity is Person. This is why the role "weak" is only written in the association that gives rise to the foreign key **ID (FK)**, which is indeed in the primary key of Residence (unlike the previous scenario where we placed the role in both associations).
 
-So as you can imagine, with the "weak" roles, we can not only know which entities are weak but also which entities own them. The role is always on the side of the association where the weak entity is found – that is, where the foreign key referencing the owner entity is located, which corresponds with the cardinality `*` seen before. Then on the other side of the association with the "weak" role, we find the owner entity.
+So as you can imagine, with the "weak" roles, we can not only know which entities are weak but also which entities own them. The role is always on the side of the association where the weak entity is found - that is, where the foreign key referencing the owner entity is located, which corresponds with the cardinality `*` seen before. Then on the other side of the association with the "weak" role, we find the owner entity.
 
 ![Entity-relationship diagram where Residence connects City and Person with residency dates.](https://cdn.hashnode.com/res/hashnode/image/upload/v1751895191612/68997989-56ee-4a31-bd47-18bb12d9cb60.png)
 
@@ -777,9 +777,9 @@ This is useful, for example, when we query the database to find the person who l
 
 We can repeat this step multiple times, navigating from entity to entity through the diagram. But the important thing is to know which associations are navigable in a certain direction.
 
-For example, if we are given a person, that tuple doesn't have any foreign keys, so with a tuple representing a person, we can't get information about any other entity in our diagram – not even Residence. If we only look at the values of the Person tuple, we won't know which Residence tuples are associated, because we would need to query and traverse the entire Residence table to find out.
+For example, if we are given a person, that tuple doesn't have any foreign keys, so with a tuple representing a person, we can't get information about any other entity in our diagram - not even Residence. If we only look at the values of the Person tuple, we won't know which Residence tuples are associated, because we would need to query and traverse the entire Residence table to find out.
 
-To sum up, the Residence-Person association is not navigable in both directions – we can only go from Residence to Person, but not the other way around. The same applies to City.
+To sum up, the Residence-Person association is not navigable in both directions - we can only go from Residence to Person, but not the other way around. The same applies to City.
 
 Navigability is important, because it's useful to know the direction in which the diagram's associations can be navigated before implementing anything. If our system needs to support a query like obtaining the city where a person currently lives, it might be more efficient to add an association directly from Person to City instead of having to go through all the Residence tuples to resolve the query, which would be more efficient.
 
@@ -844,7 +844,7 @@ Here we have a Temperature table that stores tuples with the temperatures in a c
 
 Given this restriction, we can see that the first tuple meets all the constraints, so it could be considered valid data. But with the information we have, we can’t ensure that this data is correct. That is, we have not taken a thermometer and measured the temperature in Paris, so we do not know if that 280 is the actual temperature in Paris or if it’s incorrect data. So even if data meets the constraints, we must ensure that it’s correct.
 
-This is a very complicated task that we won’t go into detail about here. We can implement mechanisms for error detection and correction in data, or we can conduct audits to verify that the data corresponds to reality – that is, the domain. Or third parties can supervise the data, because if the person who took that measurement tells us that the 280 is not what they recorded with the thermometer, then we know that data is incorrect. Otherwise, we would have no way to guarantee its correctness.
+This is a very complicated task that we won’t go into detail about here. We can implement mechanisms for error detection and correction in data, or we can conduct audits to verify that the data corresponds to reality - that is, the domain. Or third parties can supervise the data, because if the person who took that measurement tells us that the 280 is not what they recorded with the thermometer, then we know that data is incorrect. Otherwise, we would have no way to guarantee its correctness.
 
 On the other hand, in the second tuple, the temperature takes a negative value, so we can conclude that this data is not only incorrect but also invalid. It’s invalid because no Kelvin temperature can be negative, violating the domain constraint imposed earlier. It’s incorrect because if it’s invalid, then that value must necessarily be different from the true temperature of the city.
 
@@ -930,7 +930,7 @@ To resolve this situation, there are many policies that we will see later, altho
 
 ![Entity-relationship diagram where a `City` can have none or one Pool, and a pool can belong to none or one city.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752061005445/a3dab918-7ccc-42b8-b0da-2956bebe1e79.png)
 
-On the other hand, if the minimum cardinality on the `City` side is 0, this means that at the logical level, the foreign key of Pool may not exist – meaning the pool might not be in any city. So its foreign key can take the value NULL because it's the only simple way to implement that the foreign key itself "does not exist."
+On the other hand, if the minimum cardinality on the `City` side is 0, this means that at the logical level, the foreign key of Pool may not exist - meaning the pool might not be in any city. So its foreign key can take the value NULL because it's the only simple way to implement that the foreign key itself "does not exist."
 
 If we do this, we won't have to define the explicit constraint that the foreign key attribute is non-null, and when deleting a city record, we can set the deletion policy so that the foreign key in Pool is set to NULL.
 

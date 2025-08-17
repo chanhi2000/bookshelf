@@ -190,7 +190,7 @@ Traditionally, we fill backgrounds with solid or opaque solid color to establish
 - “The effect is technically impressive, but it introduces a layer of visual processing between you and your memories. What was once immediate now feels mediated. What was once direct now feels filtered.”
 - “While Apple’s rationale for Liquid Glass centers on ‘seeing’ content through a refractive surface, user interface controls are not meant to be seen—they are meant to be operated. When you tap a button, slide a slider, or toggle a switch, you are not observing these elements. You are manipulating them directly.”
 - “Buttons become amorphous shapes. Sliders lose their mechanical clarity. Toggle switches abandon their physical affordances. They appear as abstract forms floating behind glass—beautiful perhaps, but disconnected from the fundamental purpose of interface controls: to invite and respond to direct manipulation.”
-- “The most forward-thinking interface design today focuses on invisibility – making the interaction so seamless that the interface itself disappears. Liquid Glass makes the interface more visible, more present, and more demanding of attention.”
+- “The most forward-thinking interface design today focuses on invisibility - making the interaction so seamless that the interface itself disappears. Liquid Glass makes the interface more visible, more present, and more demanding of attention.”
 
 ```component VPCard
 {

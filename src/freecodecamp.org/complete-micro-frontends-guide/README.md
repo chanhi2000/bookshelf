@@ -117,11 +117,11 @@ Each team wants autonomy, and with micro frontends, each of these sections becom
 
 Here are a few things everyone considers:
 
-1. **Independent deployments** – A little or no effort to coordinate every release.
-2. **Team autonomy** – Teams choose their own stack and tools on the project.
-3. **Incremental upgrades** – Migrate legacy apps piece by piece incrementally without the need to rewrite the whole app at once.
-4. **Technical agnosticism** – Vue, React, Angular? Doesn’t matter. They can all work together seamlessly at the same time in a single app.
-5. **Better scalability** – Parallelize work across teams to enable efficiency of delivery and scale at ease.
+1. **Independent deployments** - A little or no effort to coordinate every release.
+2. **Team autonomy** - Teams choose their own stack and tools on the project.
+3. **Incremental upgrades** - Migrate legacy apps piece by piece incrementally without the need to rewrite the whole app at once.
+4. **Technical agnosticism** - Vue, React, Angular? Doesn’t matter. They can all work together seamlessly at the same time in a single app.
+5. **Better scalability** - Parallelize work across teams to enable efficiency of delivery and scale at ease.
 
 Now let’s discover how we can bring this idea to life in our projects.
 
@@ -263,9 +263,9 @@ They are, in many ways, the ideal foundation for micro frontends.
 A web component is made of:
 
 - **Custom Element** - defines your own HTML tag (`<user-profile>`) and behavior
-- **Shadow DOM** – provides scoped, encapsulated styles and DOM structure
-- **HTML Template** – brings reusable HTML blocks/fragments
-- **Slots** – acts as placeholder areas for host content (used in content projection)
+- **Shadow DOM** - provides scoped, encapsulated styles and DOM structure
+- **HTML Template** - brings reusable HTML blocks/fragments
+- **Slots** - acts as placeholder areas for host content (used in content projection)
 
 ![Micro-Frontend Method 2 - Web Components Key Blocks](https://cdn.hashnode.com/res/hashnode/image/upload/v1748772947093/6090d9bb-2c10-4a92-9ece-c5235b8382a2.png)
 
@@ -274,14 +274,14 @@ In web components**,** you have to sync the data (input/output) via:
 - **Attributes** (inputs):
   - In Javascript: `element.setAttribute()`, `element.getAttribute()`, and so on.
   - In HTML: `<element attr1=”value1” attr2=”value2”></element>`
-- **Properties** (inputs) – `element.someProp = value` (only Javascript)
+- **Properties** (inputs) - `element.someProp = value` (only Javascript)
 - **Custom Events** (outputs) - `new CustomEvent('name', data)`
 
 First, let me show you a basic implementation of a web component, and then you’ll learn how to leverage it for micro-frontends.
 
 Assuming that you’re building a reusable product-tile component that must:
 
-- Accept one input parameter – `“title”`
+- Accept one input parameter - `“title”`
 - Send an output event `"add-to-cart"` with this `“title”` to the outside world, when the component is mounted to the DOM.
 
 Here’s how this web component could look:
@@ -813,7 +813,7 @@ First, you have to register the application, and then you start it to enable rou
 
 :::
 
-Also, single-spa comes with so-called "Parcels" – a lower-level construct in comparison to applications. They’re essentially self-contained pieces of UI that you can dynamically mount anywhere. Think of them like “mini microfrontends” or reusable widgets that don’t control routing:
+Also, single-spa comes with so-called "Parcels" - a lower-level construct in comparison to applications. They’re essentially self-contained pieces of UI that you can dynamically mount anywhere. Think of them like “mini microfrontends” or reusable widgets that don’t control routing:
 
 ::: tip example
 
@@ -900,7 +900,7 @@ Now that you’ve registered and integrated your first micro app, you might be w
 @tab ❌ Cons
 
 - **Complex learning curve** - Lifecycle APIs and `SystemJS` can be intimidating
-- **Configurations** **can get verbose** – Managing multiple registries, import maps, deployment URLs, and lifecycle wrappers across apps adds setup overhead
+- **Configurations** **can get verbose** - Managing multiple registries, import maps, deployment URLs, and lifecycle wrappers across apps adds setup overhead
 - **Shared state is manual** - You must implement custom global state solutions
 - **Hard to SSR** - Designed for full client-side rendering
 - **More boilerplate** - Each app needs wrappers for lifecycles, routing, and so on.
@@ -1043,7 +1043,7 @@ export default function ProductTile({ title }) {
 }
 ```
 
-A `ProductTile` component supplies a prop – `“title”` – and renders it.
+A `ProductTile` component supplies a prop - `“title”` - and renders it.
 
 Now let’s expose this component to other apps, not just render it locally.
 
@@ -1057,8 +1057,8 @@ const ModuleFederationPlugin = require('webpack').container.ModuleFederationPlug
 const path = require('path');
 ```
 
-- `HtmlWebpackPlugin` – Handles HTML generation and script injection.
-- `ModuleFederationPlugin` – The core Webpack plugin that lets you expose and consume modules at runtime
+- `HtmlWebpackPlugin` - Handles HTML generation and script injection.
+- `ModuleFederationPlugin` - The core Webpack plugin that lets you expose and consume modules at runtime
 
 Then, define the actual config in `module.exports`:
 
@@ -1154,20 +1154,20 @@ Here are a few advantages and limitations of Module Federation, along with popul
 
 @tab:active ✅ Pros
 
-- **Runtime Integration** – Import remote components after both apps are built
-- **Independent Deployment** – Teams can ship apps on separate pipelines
-- **Code Sharing** – Share common libraries (React, lodash) to reduce duplication
-- **No iframes or wrappers** – Native component integration, not isolated like Web Components
-- **No import maps needed** – Webpack handles all the resolution logic
-- **Works across frameworks –** Can be used in React, Angular, Vue, even Web Components
+- **Runtime Integration** - Import remote components after both apps are built
+- **Independent Deployment** - Teams can ship apps on separate pipelines
+- **Code Sharing** - Share common libraries (React, lodash) to reduce duplication
+- **No iframes or wrappers** - Native component integration, not isolated like Web Components
+- **No import maps needed** - Webpack handles all the resolution logic
+- **Works across frameworks -** Can be used in React, Angular, Vue, even Web Components
 
 @tab ❌ Cons
 
-- **Tied to Webpack** – **Federation** is Webpack-specific (Vite/Rollup alternatives exist but are not native)
-- **Initial setup is complicated** – Requires per-app Webpack configuration and shared dependency coordination
-- **Runtime failures are possible –** If the remote is down, the host may break unless you handle fallbacks
-- **Version mismatch risks** – Shared libs (like React) must be tightly versioned and aligned
-- **No automatic SSR** – Requires custom hydration logic for federated components
+- **Tied to Webpack** - **Federation** is Webpack-specific (Vite/Rollup alternatives exist but are not native)
+- **Initial setup is complicated** - Requires per-app Webpack configuration and shared dependency coordination
+- **Runtime failures are possible -** If the remote is down, the host may break unless you handle fallbacks
+- **Version mismatch risks** - Shared libs (like React) must be tightly versioned and aligned
+- **No automatic SSR** - Requires custom hydration logic for federated components
 
 @tab 👨🏻‍💻 Popular Use Cases
 

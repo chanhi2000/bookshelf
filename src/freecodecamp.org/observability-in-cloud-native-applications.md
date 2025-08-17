@@ -168,7 +168,7 @@ Prometheus uses what's called a **pull-based model** to collect metrics from app
 
 OpenTelemetry is designed to be vendor-agnostic. This means you can instrument your applications once with OpenTelemetry and then send that telemetry data to any supported observability backend, which could be an open-source solution like Jaeger or Prometheus, or commercial platforms like Datadog, New Relic, Dynatrace, or Honeycomb.
 
-So, for example, you can use OpenTelemetry to instrument your application – and then Prometheus can pull metrics from OpenTelemetry while other tools handle logs and traces.
+So, for example, you can use OpenTelemetry to instrument your application - and then Prometheus can pull metrics from OpenTelemetry while other tools handle logs and traces.
 
 ---
 
@@ -270,7 +270,7 @@ This work is particularly important as more organizations adopt OpenTelemetry as
 
 ## Conclusion
 
-Observability in cloud native applications is clearly an interesting subject and important for building reliable, performant systems. The tools and concepts we've explored – metrics, logs, traces, Prometheus, and OpenTelemetry – form the foundation of modern observability practices.
+Observability in cloud native applications is clearly an interesting subject and important for building reliable, performant systems. The tools and concepts we've explored - metrics, logs, traces, Prometheus, and OpenTelemetry - form the foundation of modern observability practices.
 
 As I continue my mentorship program, I'll share more insights about how these technologies work together and try to break them down from the perspective of a first-time learner.
 

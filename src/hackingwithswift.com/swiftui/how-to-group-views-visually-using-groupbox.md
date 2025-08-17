@@ -108,7 +108,7 @@ GroupBox {
 
 ![Three concentric rounded rectangles, each containing a line of text, and the inner rectangle(s).](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-group-views-visually-using-groupbox-3~dark@2x.png)
 
-This effect works just as well – if not better! – in dark mode.
+This effect works just as well - if not better! - in dark mode.
 
 Like I said, you *can* add titles to your `GroupBox` and although it looks okay on macOS it doesn't look nice at all on iOS:
 

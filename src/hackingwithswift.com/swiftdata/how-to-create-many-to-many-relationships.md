@@ -102,11 +102,11 @@ modelContext.insert(newton)
 
 ::: note
 
-We don’t need to insert the `Movie` object – it will be inserted automatically by SwiftData because it’s used by the two actors.
+We don’t need to insert the `Movie` object - it will be inserted automatically by SwiftData because it’s used by the two actors.
 
 :::
 
-There are lots of ways you can get many-to-many relationships wrong, and I’m afraid SwiftData is entirely unforgiving here – if you don’t follow the steps correctly things will just behave strangely, or even crash at runtime.
+There are lots of ways you can get many-to-many relationships wrong, and I’m afraid SwiftData is entirely unforgiving here - if you don’t follow the steps correctly things will just behave strangely, or even crash at runtime.
 
 For example, if you attempt to manipulate the `movies` property of an actor before inserting them, you’ll get a hard crash. So, this code won’t work:
 

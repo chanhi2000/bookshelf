@@ -82,7 +82,7 @@ import os
 openai.api_key = os.getenv("OPENAI_API_KEY")
 ```
 
-Alright, now we can dive into learning about the advantages and challenges of precision agriculture – with our code examples to guide us.
+Alright, now we can dive into learning about the advantages and challenges of precision agriculture - with our code examples to guide us.
 
 ---
 
@@ -345,7 +345,7 @@ LLMs can handle a variety of agricultural data inputs and deliver personalized i
 
 ### 1. The Initial Investment
 
-One of the primary challenges in adopting precision agriculture is the significant initial investment. Advanced soil mapping technologies, AI models, and precision farming equipment require substantial capital outlay. But the long-term benefits – heightened crop yields, reduced input costs, and sustainable farming practices – often justify this upfront expenditure.
+One of the primary challenges in adopting precision agriculture is the significant initial investment. Advanced soil mapping technologies, AI models, and precision farming equipment require substantial capital outlay. But the long-term benefits - heightened crop yields, reduced input costs, and sustainable farming practices - often justify this upfront expenditure.
 
 Financial aid and subsidies from governments and agricultural bodies can also mitigate the initial costs, making these technologies more accessible to small and medium-sized farmers.
 

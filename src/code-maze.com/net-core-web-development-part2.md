@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API – .NET Service Configuration
-description: Article(s) > ASP.NET Core Web API – .NET Service Configuration
+title: ASP.NET Core Web API - .NET Service Configuration
+description: Article(s) > ASP.NET Core Web API - .NET Service Configuration
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API – .NET Service Configuration
+      content: Article(s) > ASP.NET Core Web API - .NET Service Configuration
     - property: og:description
-      content: ASP.NET Core Web API – .NET Service Configuration
+      content: ASP.NET Core Web API - .NET Service Configuration
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part2.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part2/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API – .NET Service Configuration"
+  name="ASP.NET Core Web API - .NET Service Configuration"
   desc="Find out how to use Workbench with MySQL to create a database, create and populate tables and place relations between them, with the backup process."
   url="https://code-maze.com/net-core-web-development-part2/"
   logo="/assets/image/code-maze.com/favicon.png"

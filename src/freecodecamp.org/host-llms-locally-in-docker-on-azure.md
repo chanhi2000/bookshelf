@@ -476,7 +476,7 @@ EOF
 
 ### Set Up Docker Compose
 
-Create a new file called <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yaml` at the root of the project – not inside the <FontIcon icon="fas fa-folder-open"/>`scripts` directory this time – and add the following lines of code:
+Create a new file called <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yaml` at the root of the project - not inside the <FontIcon icon="fas fa-folder-open"/>`scripts` directory this time - and add the following lines of code:
 
 ```yaml :collapsed-lines title="scripts/docker-compose.yaml"
 version: "3.9"

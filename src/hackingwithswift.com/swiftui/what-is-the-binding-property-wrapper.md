@@ -71,7 +71,7 @@ struct ContentView: View {
 }
 ```
 
-That uses `showingAddUser` for the `isPresented` parameter of our sheet, which means when that Boolean becomes true the add user view will be shown. However, how can we allow the add user view to dismiss itself if it needs to – if the user taps a Done button, for example?
+That uses `showingAddUser` for the `isPresented` parameter of our sheet, which means when that Boolean becomes true the add user view will be shown. However, how can we allow the add user view to dismiss itself if it needs to - if the user taps a Done button, for example?
 
 What we *want* to happen is for the add user view to set `showingAddUser` back to false, which will cause `ContentView` to hide it. This is exactly what `@Binding` is for: it lets us create a property in the add user view that says “this value will be provided from elsewhere, and will be shared between us and that other place.”
 
@@ -97,7 +97,7 @@ That property literally means “I have a Boolean value called `isPresented`, bu
 }
 ```
 
-This allows both `ContentView` and `AddView` to share the same Boolean value – when it changes in one place it also changes in the other.
+This allows both `ContentView` and `AddView` to share the same Boolean value - when it changes in one place it also changes in the other.
 
 ::: details Similar solutions…
 

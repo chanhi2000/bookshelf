@@ -55,7 +55,7 @@ cover: https://docker.com/app/uploads/i2d2-1.png
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/i2d2-1.png"/>
 
-In December we had a live webinar focused on Windows Server Docker containers. We covered a lot of ground and we had some great feedback – thanks to all the folks who joined us. This is a brief recap of the session, which also gives answers to the questions we didn’t get round to.
+In December we had a live webinar focused on Windows Server Docker containers. We covered a lot of ground and we had some great feedback - thanks to all the folks who joined us. This is a brief recap of the session, which also gives answers to the questions we didn’t get round to.
 
 ---
 
@@ -72,10 +72,10 @@ The recording clocks in at just under an hour. Here’s what we covered:
 - [<FontIcon icon="fa-brands fa-youtube"/>02:00](https://youtu.be/TWZ1Q0zVQRg?t=118) Docker on Windows Server 2016
 - [<FontIcon icon="fa-brands fa-youtube"/>05:30](https://youtu.be/TWZ1Q0zVQRg?t=329) Windows Server 2016 technical details
 - [<FontIcon icon="fa-brands fa-youtube"/>10:30](https://youtu.be/TWZ1Q0zVQRg?t=629) Hyper-V and Windows Server Containers
-- [<FontIcon icon="fa-brands fa-youtube"/>13:00](https://youtu.be/TWZ1Q0zVQRg?t=792) Docker for Windows Demo – ASP.NET Core app with SQL Server
+- [<FontIcon icon="fa-brands fa-youtube"/>13:00](https://youtu.be/TWZ1Q0zVQRg?t=792) Docker for Windows Demo - ASP.NET Core app with SQL Server
 - [<FontIcon icon="fa-brands fa-youtube"/>25:30](https://youtu.be/TWZ1Q0zVQRg?t=1528) Additional Partnerships between Docker, Inc. and Microsoft
 - [<FontIcon icon="fa-brands fa-youtube"/>27:30](https://youtu.be/TWZ1Q0zVQRg?t=1657) Introduction to Image2Docker
-- [<FontIcon icon="fa-brands fa-youtube"/>30:00](https://youtu.be/TWZ1Q0zVQRg?t=1800) Demo – Extracting ASP.NET Apps from a VM using Image2Docker
+- [<FontIcon icon="fa-brands fa-youtube"/>30:00](https://youtu.be/TWZ1Q0zVQRg?t=1800) Demo - Extracting ASP.NET Apps from a VM using Image2Docker
 - [<FontIcon icon="fa-brands fa-youtube"/>52:00](https://youtu.be/TWZ1Q0zVQRg?t=3150) Next steps and resources for learning Docker on Windows
 
 ---
@@ -86,7 +86,7 @@ The recording clocks in at just under an hour. Here’s what we covered:
 
 No. Docker containers use the underlying operating system kernel to run processes, so you can’t mix and match kernels. You can only run Windows Docker images on Windows, and Linux Docker images on Linux.
 
-However, with an upcoming release to the Windows network stack, you will be able to run a hybrid Docker Swarm – a single cluster containing a mixture of Linux and Windows hosts. Then you can run distributed apps with Linux containers and Windows containers communicating in the same Docker Swarm, using Docker’s networking layer.
+However, with an upcoming release to the Windows network stack, you will be able to run a hybrid Docker Swarm - a single cluster containing a mixture of Linux and Windows hosts. Then you can run distributed apps with Linux containers and Windows containers communicating in the same Docker Swarm, using Docker’s networking layer.
 
 :::
 
@@ -114,13 +114,13 @@ Windows admins will want a unified platform for managing images and containers. 
 
 ::: details What about Windows updates for the containers?
 
-Docker containers have a different life cycle from full VMs or bare-metal servers. You wouldn’t deploy an app update or a Windows update inside a running container – instead you update the image that packages your app, then just kill the container and start a new container from the updated image.
+Docker containers have a different life cycle from full VMs or bare-metal servers. You wouldn’t deploy an app update or a Windows update inside a running container - instead you update the image that packages your app, then just kill the container and start a new container from the updated image.
 
-Microsoft are supporting that workflow with the two Windows base images on Docker Hub – for [Windows Server Core (<FontIcon icon="fa-brands fa-docker"/>`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/) and [Nano Server (<FontIcon icon="fa-brands fa-docker"/>`microsoft/nanoserver`)](https://hub.docker.com/r/microsoft/nanoserver/). They are following a monthly release cycle, and each release adds an incremental update with new patches and security updates.
+Microsoft are supporting that workflow with the two Windows base images on Docker Hub - for [Windows Server Core (<FontIcon icon="fa-brands fa-docker"/>`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/) and [Nano Server (<FontIcon icon="fa-brands fa-docker"/>`microsoft/nanoserver`)](https://hub.docker.com/r/microsoft/nanoserver/). They are following a monthly release cycle, and each release adds an incremental update with new patches and security updates.
 
 :::
 
-For your own applications, you would aim to have the same deployment schedule – after a new release of the Windows base image, you would rebuild your application images and deploy new containers. All this can be automated, so it’s much faster and more reliable than manual patching. [<FontIcon icon="fa-brands fa-docker"/>Docker Captain](https://docker.com/community/docker-captains) Stefan Scherer has a great blog post on [<FontIcon icon="fas fa-globe"/>keeping your Windows containers up to date](https://stefanscherer.github.io/keep-your-windows-containers-up-to-date/).
+For your own applications, you would aim to have the same deployment schedule - after a new release of the Windows base image, you would rebuild your application images and deploy new containers. All this can be automated, so it’s much faster and more reliable than manual patching. [<FontIcon icon="fa-brands fa-docker"/>Docker Captain](https://docker.com/community/docker-captains) Stefan Scherer has a great blog post on [<FontIcon icon="fas fa-globe"/>keeping your Windows containers up to date](https://stefanscherer.github.io/keep-your-windows-containers-up-to-date/).
 
 ---
 

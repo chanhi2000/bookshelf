@@ -58,9 +58,9 @@ Ever since SwiftUI shipped, folks in the community were asking the same question
 
 It might sound easy from our perspective as external developers, but the truth is that taking something as mature and powerful as Core Data and transforming it for modern Swift is a gigantic undertaking.
 
-We wanted to keep all the power features of Core Data, such as data migration, iCloud support, faulting, and more, but we also wanted a significantly simpler API, we wanted tight integration with SwiftUI, and above all we wanted something "Swifty" – something that used the Swift language to its fullest, so it could be as expressive as possible.
+We wanted to keep all the power features of Core Data, such as data migration, iCloud support, faulting, and more, but we also wanted a significantly simpler API, we wanted tight integration with SwiftUI, and above all we wanted something "Swifty" - something that used the Swift language to its fullest, so it could be as expressive as possible.
 
-Apple announced SwiftData at WWDC23, and it has proved to be a gigantic step forward for app developers. The team behind it have managed to blend the power of Core Data with the simplicity and clarity of Swift, and when you start using it you'll realize just how amazing SwiftData is – it's often almost *invisible*, which is remarkable.
+Apple announced SwiftData at WWDC23, and it has proved to be a gigantic step forward for app developers. The team behind it have managed to blend the power of Core Data with the simplicity and clarity of Swift, and when you start using it you'll realize just how amazing SwiftData is - it's often almost *invisible*, which is remarkable.
 
 Getting to this point took an astonishing amount of effort from the SwiftData team, from the Core Data team, from the Swift and SwiftUI teams, plus developer publications and so many more.
 

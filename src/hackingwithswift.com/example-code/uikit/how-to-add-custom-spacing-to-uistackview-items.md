@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Each `UIStackView` has an overall `spacing` property that affects spacing between all of its arranged subviews, but in addition you can add custom spacing after specific views – for example, “put 20 points of space under this button.”
+Each `UIStackView` has an overall `spacing` property that affects spacing between all of its arranged subviews, but in addition you can add custom spacing after specific views - for example, “put 20 points of space under this button.”
 
 To make that happen, use the `setCustomSpacing()` method of your stack view, providing it the number of points of spacing you want and the view that should precede the spacing.
 

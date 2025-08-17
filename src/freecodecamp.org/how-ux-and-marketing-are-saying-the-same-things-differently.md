@@ -56,7 +56,7 @@ Could it be that the key to designing a great product experience might be hidden
 
 Well, for years, marketing and user experience (UX) have been treated as separate worlds. Marketing grabs attention and drives sales, while UX makes products easy and enjoyable to use.
 
-It may seem that they speak different languages, but if we dig a little deeper, we may find that they share a common foundation – often telling the same story in different words.
+It may seem that they speak different languages, but if we dig a little deeper, we may find that they share a common foundation - often telling the same story in different words.
 
 In this article, I’ll walk you through how the classic 4Ps of marketing (Product, Price, Place, and Promotion) intersect with UX to reveal how these disciplines can collaborate to create cohesive and effective product experiences.
 
@@ -64,11 +64,11 @@ In this article, I’ll walk you through how the classic 4Ps of marketing (Produ
 
 ## The Four P’s: Marketing’s Old Recipe for Success
 
-In 1960, marketing professor E. Jerome McCarthy introduced what he called the “marketing mix,” famously distilled as the [<FontIcon icon="fas fa-globe"/>Four P’s of marketing](https://management.org/marketing-mix). The four elements – *Product, Price, Place, Promotion* – became the cornerstone of modern marketing strategy.
+In 1960, marketing professor E. Jerome McCarthy introduced what he called the “marketing mix,” famously distilled as the [<FontIcon icon="fas fa-globe"/>Four P’s of marketing](https://management.org/marketing-mix). The four elements - *Product, Price, Place, Promotion* - became the cornerstone of modern marketing strategy.
 
 This simple framework was about orchestrating everything a business offers: making the right product, at the right price, available at the right place, with the right promotion.
 
-For decades, the 4Ps guided how companies aligned their offerings with customer needs and expectations. And even today, the 4Ps remain *“a foundational model in marketing,”* widely taught and practiced for one reason, which is that it works. Get each “P” right – build a product people want, price it fairly, distribute it conveniently, and communicate its value clearly – and that sets the stage for success.
+For decades, the 4Ps guided how companies aligned their offerings with customer needs and expectations. And even today, the 4Ps remain *“a foundational model in marketing,”* widely taught and practiced for one reason, which is that it works. Get each “P” right - build a product people want, price it fairly, distribute it conveniently, and communicate its value clearly - and that sets the stage for success.
 
 Marketing hasn’t really changed at its core since McCarthy’s time. Sure, we’ve gone digital and added more Ps (like People, Process, and so on), but the heart of marketing is still understanding customers and delivering value.
 
@@ -82,7 +82,7 @@ As [<FontIcon icon="fas fa-globe"/>Norman and Nielsen famously put it](https://n
 
 In other words, great UX has always been a team sport, with marketing playing an important position in shaping user expectations.
 
-Fast-forward to today, where marketing and UX are often seen as separate silos – but they’re really two sides of the same coin.
+Fast-forward to today, where marketing and UX are often seen as separate silos - but they’re really two sides of the same coin.
 
 Both exist to create value for people. Both put the *user* (or *customer*) at the center of their decisions. Both aim to make a product desirable and worthwhile. The difference is that they just approach it from different directions.
 
@@ -159,9 +159,9 @@ There’s often a quiet tension in organizations between the UX team and the mar
 
 But at the end of the day, both teams are trying to solve the same problem. Both try to connect people with a product in a meaningful way, using their own processes and coming at it from different angles.
 
-If users are churning or a product flops, it doesn’t really matter whether we call it a marketing failure or a UX failure – it’s usually a bit of both. This realization is exactly why the common ground between UX and marketing is so important in today’s digital product landscape.
+If users are churning or a product flops, it doesn’t really matter whether we call it a marketing failure or a UX failure - it’s usually a bit of both. This realization is exactly why the common ground between UX and marketing is so important in today’s digital product landscape.
 
-Thinking with a marketing mindset, in fact, can make UX design stronger and more holistic. The classic marketing questions – *Who is the customer? What do they need? What will they pay or sacrifice? How do they discover us?* – are strategic questions that UX designers should ask as well. They force us to zoom out from the interface and consider the entire user journey.
+Thinking with a marketing mindset, in fact, can make UX design stronger and more holistic. The classic marketing questions - *Who is the customer? What do they need? What will they pay or sacrifice? How do they discover us?* - are strategic questions that UX designers should ask as well. They force us to zoom out from the interface and consider the entire user journey.
 
 The 4Ps framework is about interplay, as it is about tactics in isolation to ensure we’re aligning everything from the thing being sold to how people find it, what it costs, and where they get it. It asks whether we are even solving the right problem, in the right way, for the right people. And that should be a UX concern as much as a marketing concern, as that is the central question of making any product successful.
 
@@ -175,13 +175,13 @@ This means that teams need a common lens. The 4Ps offer exactly such a lens, bri
 
 ## How to Mindfully Collaborate Between UX and Marketing Teams
 
-Getting UX and marketing to work together can be messy in practice, as we’re merging different domains – and of course we may not get it right at first. The important thing is to be mindful of potential friction points as well as opportunities for collaboration.
+Getting UX and marketing to work together can be messy in practice, as we’re merging different domains - and of course we may not get it right at first. The important thing is to be mindful of potential friction points as well as opportunities for collaboration.
 
 It’s similar to running a new campaign. The first few attempts rarely deliver results, and throwing hands up after initial failures is common, but shortsighted. Teams could instead try openly sharing failures and frustrations, which is a rare thing to do, but that is how we can find things we usually don’t.
 
 We should let marketing look into UX’s messy usability tests, let UX dig through marketing’s failed campaigns, and ask each other simple, tough questions. Questions like, ‘*What would marketing do here? How might UX solve this problem?’* It can feel awkward, even frustrating, but doing this can uncover critical insights neither team could find alone.
 
-Realistically, meaningful collaboration won’t happen by itself and thus might mean trying joint workshops once in a while – not every week, maybe just every few months – purely to understand each other's perspective. Marketers could step into the shoes of UX designers, and UX teams could tackle marketing challenges, engaging in a role-swapping session to build empathy.
+Realistically, meaningful collaboration won’t happen by itself and thus might mean trying joint workshops once in a while - not every week, maybe just every few months - purely to understand each other's perspective. Marketers could step into the shoes of UX designers, and UX teams could tackle marketing challenges, engaging in a role-swapping session to build empathy.
 
 We have to acknowledge from the get-go that these sessions could get uncomfortable, but that’s exactly the point. Solving big problems means dealing with uncertainty, making mistakes, and iterating patiently until we see what works.
 

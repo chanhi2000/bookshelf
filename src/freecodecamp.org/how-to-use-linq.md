@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How To Use LINQ in C# – With Code Examples
-description: Article(s) > How To Use LINQ in C# – With Code Examples
+title: How To Use LINQ in C# - With Code Examples
+description: Article(s) > How To Use LINQ in C# - With Code Examples
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How To Use LINQ in C# – With Code Examples
+      content: Article(s) > How To Use LINQ in C# - With Code Examples
     - property: og:description
-      content: How To Use LINQ in C# – With Code Examples
+      content: How To Use LINQ in C# - With Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-linq.html
 prev: /programming/cs/articles/README.md
@@ -53,7 +53,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/How-to-us
 ---
 
 <SiteInfo
-  name="How To Use LINQ in C# – With Code Examples"
+  name="How To Use LINQ in C# - With Code Examples"
   desc=".Net (pronounced as 'dot net') has many internal libraries and tools, but one that wields great power is LINQ (Language Integrated Query). It can be used in two ways: the language-level query syntax, or the LINQ API. In this article, we'll explore:  * What LINQ is.  * How..."
   url="https://freecodecamp.org/news/how-to-use-linq/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

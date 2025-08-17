@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Documenting-Python-Code_Watermarked.0b
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding
 
 <SiteInfo
-  name="[COURSE] Documenting Code in Python – Real Python"
+  name="[COURSE] Documenting Code in Python - Real Python"
   desc="Whether you're documenting a small script or a large project, whether you're a beginner or seasoned Pythonista, this guide will cover everything you need to know."
   url="https://realpython.com/courses/documenting-python-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -73,7 +73,7 @@ Feel free to read through this tutorial from beginning to end or jump to a secti
 In this quiz, you'll test your understanding of documenting Python code. With this knowledge, you'll be able to effectively document your Python scripts and projects, making them more understandable and maintainable.
 
 <SiteInfo
-  name="Documenting Python Code: A Complete Guide Quiz – Real Python"
+  name="Documenting Python Code: A Complete Guide Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of documenting Python code. With this knowledge, you'll be able to effectively document your Python scripts and projects, making them more understandable and maintainable."
   url="https://realpython.com/quizzes/documenting-python-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -733,7 +733,7 @@ In the end, don’t get discouraged or overwhelmed by the amount of work require
 In this quiz, you'll test your understanding of documenting Python code. With this knowledge, you'll be able to effectively document your Python scripts and projects, making them more understandable and maintainable.
 
 <SiteInfo
-  name="Documenting Python Code: A Complete Guide Quiz – Real Python"
+  name="Documenting Python Code: A Complete Guide Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of documenting Python code. With this knowledge, you'll be able to effectively document your Python scripts and projects, making them more understandable and maintainable."
   url="https://realpython.com/quizzes/documenting-python-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -746,7 +746,7 @@ In this quiz, you'll test your understanding of documenting Python code. With th
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding
 
 <SiteInfo
-  name="[COURSE] Documenting Code in Python – Real Python"
+  name="[COURSE] Documenting Code in Python - Real Python"
   desc="Whether you're documenting a small script or a large project, whether you're a beginner or seasoned Pythonista, this guide will cover everything you need to know."
   url="https://realpython.com/courses/documenting-python-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

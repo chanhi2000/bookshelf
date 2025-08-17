@@ -72,7 +72,7 @@ ZStack {
 
 ![The words “Visit Singapore” on a grey rectangle over an image of Singapore's Jewel indoor waterfall. The rectangle has a slightly translucent frosted glass effect.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-visual-effect-blurs-1~dark@2x.png)
 
-You can adjust the “thickness” of your material – how much of the background content shines through – by using one of several material types. From thinnest to thickest, they are:
+You can adjust the “thickness” of your material - how much of the background content shines through - by using one of several material types. From thinnest to thickest, they are:
 
 - `.ultraThinMaterial`
 - `.thinMaterial`

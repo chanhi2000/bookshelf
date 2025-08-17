@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -85,18 +85,18 @@ Now, this bit is really important, so read carefully. When you ask GameplayKit t
 
 Next, it starts to re-use its copies to save on memory: it will take one of those copies and apply a game state to it, which means it will reset the board so that it matches the position after one of its virtual moves. It will then rinse and repeat: it will examine all possible moves, and make one. It does this for all moves, and does so recursively until it has created a tree of all possible moves and outcomes, or at least as many as you ask it to scan.
 
-Each time the AI has made a move, it will ask us what the player score is. For some games this will be as simple as returning a score variable, but for our 4IR game it's a bit trickier because there is no score, only a win or a loss. The original Apple source code provides a simple heuristic for this, and I've kept it here because it's quite fun – the AI can sometimes make dumb mistakes, or sometimes play like a genius, which makes the game interesting!
+Each time the AI has made a move, it will ask us what the player score is. For some games this will be as simple as returning a score variable, but for our 4IR game it's a bit trickier because there is no score, only a win or a loss. The original Apple source code provides a simple heuristic for this, and I've kept it here because it's quite fun - the AI can sometimes make dumb mistakes, or sometimes play like a genius, which makes the game interesting!
 
-If you were wondering, a *heuristic* is the computer science term for a guesstimate – it's a function that tries to solve a problem quickly by taking shortcuts. For us, that means we'll tell the AI the player's score is 1000 if a move wins the game, -1000 if a move loses the game, or 0 otherwise.
+If you were wondering, a *heuristic* is the computer science term for a guesstimate - it's a function that tries to solve a problem quickly by taking shortcuts. For us, that means we'll tell the AI the player's score is 1000 if a move wins the game, -1000 if a move loses the game, or 0 otherwise.
 
-All this information is important because I hope now you can see why we separate the game model from the game view – why we have a `slots` array inside the game board and a `placedChips` array inside the view controller. If you're still not sure, try to imagine how many moves the AI needs to simulate in order to decide what to do – our board has seven columns, so:
+All this information is important because I hope now you can see why we separate the game model from the game view - why we have a `slots` array inside the game board and a `placedChips` array inside the view controller. If you're still not sure, try to imagine how many moves the AI needs to simulate in order to decide what to do - our board has seven columns, so:
 
 - The player goes first, and all seven columns are valid.
 - The AI calculates its first move, which could be any of those seven columns. (7 moves in total.)
 - The AI then calculates what the player might do, but the player's move depends on the previous AI move so it has to calculate one player move for every possible AI move. (49 more moves; 56 in total.)
 - The AI then calculates what its second move might look like, which of course depends on the players first and second moves, and the AI's first move. So, for every one of those 49 moves, it has to calculate 7 more. (343 moves; 399 in total.)
 
-…and so on. Eventually one column will become full so the multiplications will decrease, but you're still talking many thousands of copies of the board. Now imagine if the `Board` class kept track of all the `UIViews` used to draw the chips – suddenly we'd be copying far more than intended, and doing it 5000 times!
+…and so on. Eventually one column will become full so the multiplications will decrease, but you're still talking many thousands of copies of the board. Now imagine if the `Board` class kept track of all the `UIViews` used to draw the chips - suddenly we'd be copying far more than intended, and doing it 5000 times!
 
 So: if a couple of chapters ago you were thinking I was wasting your time by forcing you to separate your model from your view, I hope you can now see why. AI is slow enough without doing a huge stack of extra work for no reason!
 

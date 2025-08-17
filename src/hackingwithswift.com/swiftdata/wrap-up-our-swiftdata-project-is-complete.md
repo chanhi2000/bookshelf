@@ -71,10 +71,10 @@ And if you’d like to see my completed version of this project, you can find it
 One of the best ways to learn is to write your own code as often as possible, so here are three ways you should try your new knowledge to make sure you fully understand what’s going on:
 
 1. Add swipe to delete for sights.
-2. Use an array of sort descriptors to initialize `DestinationListingView`, with the first sort being the one the user chose and the second sort being a sensible alternative – arrival date then name, for example.
+2. Use an array of sort descriptors to initialize `DestinationListingView`, with the first sort being the one the user chose and the second sort being a sensible alternative - arrival date then name, for example.
 3. Add a second picker menu to the toolbar in `ContentView`, allowing the user to toggle showing all destinations or only ones that are in the future.
 
-Hacking with Swift+ subscribers can find the solutions to these three challenges – plus a huge exploration of bonus challenges – at this link: [https://hackingwithswift.com/plus/solutions/itour](https://hackingwithswift.com/plus/solutions/itour).
+Hacking with Swift+ subscribers can find the solutions to these three challenges - plus a huge exploration of bonus challenges - at this link: [https://hackingwithswift.com/plus/solutions/itour](https://hackingwithswift.com/plus/solutions/itour).
 
 
 

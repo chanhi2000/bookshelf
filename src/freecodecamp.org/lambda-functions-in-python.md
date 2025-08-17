@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
-description: "Article(s) > Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
+title: "Lambda Functions in Python - How to Use Lambdas with Map, Filter, and Reduce"
+description: "Article(s) > Lambda Functions in Python - How to Use Lambdas with Map, Filter, and Reduce"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
+      content: "Article(s) > Lambda Functions in Python - How to Use Lambdas with Map, Filter, and Reduce"
     - property: og:description
-      content: "Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
+      content: "Lambda Functions in Python - How to Use Lambdas with Map, Filter, and Reduce"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/lambda-functions-in-python.html
 prev: /programming/py/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/img_12--1
 ---
 
 <SiteInfo
-  name="Lambda Functions in Python – How to Use Lambdas with Map, Filter, and Reduce"
+  name="Lambda Functions in Python - How to Use Lambdas with Map, Filter, and Reduce"
   desc="In this tutorial, we will explore the various aspects of lambda functions in Python, including their syntax, use cases, and limitations.  By understanding how to effectively utilize lambda functions, you can write more concise and efficient Python code. This will enhance your programming skills and make your codebase cleaner..."
   url="https://freecodecamp.org/news/lambda-functions-in-python/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

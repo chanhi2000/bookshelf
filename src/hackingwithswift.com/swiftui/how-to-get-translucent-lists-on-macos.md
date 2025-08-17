@@ -54,7 +54,7 @@ head:
 
 **Updated for iOS 15**
 
-One subtle but important feature of macOS is the way sidebars are automatically made slightly transparent when a window is active, then made opaque when the window moves to the background – it’s a small hint to the user which window is active, but also lets a little of their background show through, giving them a little context of their environment.
+One subtle but important feature of macOS is the way sidebars are automatically made slightly transparent when a window is active, then made opaque when the window moves to the background - it’s a small hint to the user which window is active, but also lets a little of their background show through, giving them a little context of their environment.
 
 SwiftUI allows us to create these translucent sidebars using the `listStyle()` modifier on `List`, passing in `.sidebar` (or `SidebarListStyle()` for Xcode 12) like this:
 

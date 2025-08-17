@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Chapter 1: Introduction to AI Agents and Language Models"
-description: Article(s) > (2/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book] 
+description: Article(s) > (2/10) How AI Agents Can Help Supercharge Language Models - A Handbook for Developers [Full Book] 
 category: 
   - AI
   - LLM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (2/10) How AI Agents Can Help Supercharge Language Models – A Handbook for Developers [Full Book]
+      content: Article(s) > (2/10) How AI Agents Can Help Supercharge Language Models - A Handbook for Developers [Full Book]
     - property: og:description
       content: "Chapter 1: Introduction to AI Agents and Language Models"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf177
 
 ```component VPCard
 {
-  "title": "How AI Agents Can Help Supercharge Language Models – A Handbook for Developers",
+  "title": "How AI Agents Can Help Supercharge Language Models - A Handbook for Developers",
   "desc": "The rapid evolution of artificial intelligence (AI) has resulted in a powerful synergy between large language models (LLMs) and AI agents. This dynamic interplay is sort of like the tale of David and Goliath (without the fighting), where nimble AI ag...",
   "link": "/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725987639185/f8bf177
 ---
 
 <SiteInfo
-  name="How AI Agents Can Help Supercharge Language Models – A Handbook for Developers"
+  name="How AI Agents Can Help Supercharge Language Models - A Handbook for Developers"
   desc="The rapid evolution of artificial intelligence (AI) has resulted in a powerful synergy between large language models (LLMs) and AI agents. This dynamic interplay is sort of like the tale of David and Goliath (without the fighting), where nimble AI ag..."
   url="https://freecodecamp.org/news/how-ai-agents-can-supercharge-language-models-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

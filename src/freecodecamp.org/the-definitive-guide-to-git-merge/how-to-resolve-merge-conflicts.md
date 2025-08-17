@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Resolve Merge Conflicts"
-description: "Article(s) > (8/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (8/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (8/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (8/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "How to Resolve Merge Conflicts"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-how-to-resolve-merge-conflicts"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -117,7 +117,7 @@ Observe the history again:
 
 ![The history after John introduced "Commit 16"<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-308.png)
 
-You can see that the history diverges from <FontIcon icon="fas fa-code-branch"/>`main`, to two different branches – <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`, and <FontIcon icon="fas fa-code-branch"/>`john_branch_4`.
+You can see that the history diverges from <FontIcon icon="fas fa-code-branch"/>`main`, to two different branches - <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`, and <FontIcon icon="fas fa-code-branch"/>`john_branch_4`.
 
 At this point, John would like to merge the changes introduced by Paul.
 
@@ -147,14 +147,14 @@ It seems that Git cannot merge these branches on its own. You can get an overvie
 
 ![The output of `git status` right after the `merge` operation<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-310.png)
 
-The changes that Git had no problem resolving are staged for commit. And there is a separate section for "unmerged paths" – these are files with conflicts that Git could not resolve on its own.
+The changes that Git had no problem resolving are staged for commit. And there is a separate section for "unmerged paths" - these are files with conflicts that Git could not resolve on its own.
 
 It's time to understand why and when these conflicts happen, how to resolve them, and also how Git handles them under the hood.
 Alright then! I hope you are at least as excited as I am. 😇
 
 Let's recall what we know about 3-way merges:
 
-First, Git will look for the merge base – the common ancestor of <FontIcon icon="fas fa-code-branch"/>`john_branch_4` and <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`. Which commit would that be?
+First, Git will look for the merge base - the common ancestor of <FontIcon icon="fas fa-code-branch"/>`john_branch_4` and <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`. Which commit would that be?
 
 Correct, it would be the tip of <FontIcon icon="fas fa-code-branch"/>`main` branch, the commit in which we merged <FontIcon icon="fas fa-code-branch"/>`john_branch_3` into <FontIcon icon="fas fa-code-branch"/>`paul_branch_3`.
 
@@ -177,10 +177,10 @@ What about <FontIcon icon="fa-brands fa-markdown"/>`everyone.md`? Well, here we 
 Let's observe that by looking directly at the index with the command `git ls-files`:
 
 ```sh
-git ls-files -s –-abbrev
+git ls-files -s --abbrev
 ```
 
-![The output of `git ls-files -s –-abbrev` after the merge operation<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-312.png)
+![The output of `git ls-files -s --abbrev` after the merge operation<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-312.png)
 
 You can see that <FontIcon icon="fa-brands fa-markdown"/>`everyone.md` has three different entries. Git assigns each version a number that represents the "stage" of the file, and this is a distinct property of an index entry, alongside the file's name and the mode bits (I covered the index in [a previous post (<FontIcon icon="fa-brands fa-medium"/>`swimm`)](https://medium.com/swimm/a-visualized-intro-to-git-internals-objects-and-branches-68df85864037)).
 
@@ -188,9 +188,9 @@ When there is no merge conflict regarding a file, its "stage" is `0`. This is in
 
 On a conflict's state, we have:
 
-* Stage `1` – which is the merge base.
-* Stage `2` – which is "your" version. That is, the version of the file on the branch you are merging *into*. In our example, this would be <FontIcon icon="fas fa-code-branch"/>`john_branch_4`.
-* Stage `3` – which is "their" version, also called the `MERGE_HEAD`. That is, the version on the branch you are merging (into the current branch). In our example, that is <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`.
+* Stage `1` - which is the merge base.
+* Stage `2` - which is "your" version. That is, the version of the file on the branch you are merging *into*. In our example, this would be <FontIcon icon="fas fa-code-branch"/>`john_branch_4`.
+* Stage `3` - which is "their" version, also called the `MERGE_HEAD`. That is, the version on the branch you are merging (into the current branch). In our example, that is <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`.
 
 To observe the file's contents in a specific stage, you can use a command I introduced in [a previous post (<FontIcon icon="fa-brands fa-medium"/>`swimm`)](https://medium.com/swimm/getting-hardcore-creating-a-repo-from-scratch-cc747edbb11c), `git cat-file`, and provide the blob's SHA:
 
@@ -200,7 +200,7 @@ git cat-file -p
 
 ![Using `git cat-file` to present the content of the file on John's branch, right from its state in the index<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-313.png)
 
-And indeed, this is the content we expected – from John's branch, where the lines start with "Everybody" rather than "Everyone".
+And indeed, this is the content we expected - from John's branch, where the lines start with "Everybody" rather than "Everyone".
 
 A nice trick that allows you to see the content quickly without providing the blob's SHA-1 value, is by using `git show`, like so:
 
@@ -214,7 +214,7 @@ Git records the three states of the three commits into the index in this way at 
 
 In case all three stages match, then the selection is trivial.
 
-If one side made a change while the other did nothing – that is, stage 1 matches stage 2, then we choose stage 3 – or vice versa. That's exactly what happened with <FontIcon icon="fa-brands fa-markdown"/>`let_it_be.md` and <FontIcon icon="fa-brands fa-markdown"/>`across_the_universe.md`.
+If one side made a change while the other did nothing - that is, stage 1 matches stage 2, then we choose stage 3 - or vice versa. That's exactly what happened with <FontIcon icon="fa-brands fa-markdown"/>`let_it_be.md` and <FontIcon icon="fa-brands fa-markdown"/>`across_the_universe.md`.
 
 In case of a deletion on the incoming branch, for example, and given there were no changes on the current branch, then we would see that stage 1 matches stage 2, but there is no stage 3. In this case, `git merge` removes the file for the merged version.
 
@@ -222,7 +222,7 @@ What's really cool here is that for matching, Git doesn't need the actual files.
 
 ![Git performs the same 3-way merge algorithm on a files level<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-352.png)
 
-Cool, so for <FontIcon icon="fa-brands fa-markdown"/>`everyone.md` you have this special case – where stage 1, stage 2 and stage 3 are all different from one another. That is, they have different blob SHAs. It's time to go deeper and understand the merge conflict. 😊
+Cool, so for <FontIcon icon="fa-brands fa-markdown"/>`everyone.md` you have this special case - where stage 1, stage 2 and stage 3 are all different from one another. That is, they have different blob SHAs. It's time to go deeper and understand the merge conflict. 😊
 
 One way to do that would be to simply use `git diff`. In [**a previous post**](/freecodecamp.org/git-diff-and-patch.md), we examined `git diff` in detail, and saw that it shows the differences between various combinations of the working tree, index or commits. 
 
@@ -234,7 +234,7 @@ But `git diff` also has a special mode for helping with merge conflicts:
 
 This output may be confusing at first, but once you get used to it, it's pretty clear. Let's start by understanding it, and then see how you can resolve conflicts with other, more visual tools.
 
-The conflicted section is separated by the "equal" marks (====), and marked with the corresponding branches. In this context, "ours" is the current branch. In this example, that would be <FontIcon icon="fas fa-code-branch"/>`john_branch_4`, the branch that `HEAD` was pointing to when we initiated the `git merge` command. "Theirs" is the `MERGE_HEAD`, the branch that we are merging in – in this case, <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`.
+The conflicted section is separated by the "equal" marks (====), and marked with the corresponding branches. In this context, "ours" is the current branch. In this example, that would be <FontIcon icon="fas fa-code-branch"/>`john_branch_4`, the branch that `HEAD` was pointing to when we initiated the `git merge` command. "Theirs" is the `MERGE_HEAD`, the branch that we are merging in - in this case, <FontIcon icon="fas fa-code-branch"/>`paul_branch_4`.
 
 So `git diff` without any special flags shows changes between the working tree and the index, which in this case are the conflicts yet to be resolved. The output doesn't include staged changes, which is very convenient for resolving the conflict.
 
@@ -262,13 +262,13 @@ git diff --ours
 Similarly, if you wish to see how the result of the merge differs from the branch you merged into our branch, you can run:
 
 ```sh
-git diff -–theirs
+git diff --theirs
 ```
 
 You can even see how the result is different from both sides using:
 
 ```sh
-git diff -–base
+git diff --base
 ```
 
 Now you can stage the fixed version:
@@ -281,7 +281,7 @@ After staging, if you look at `git status`, you will see no conflicts:
 
 ![After staging the fixed version <FontIcon icon="fa-brands fa-markdown"/>`everyone.md`, there are no conflicts<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-316.png)
 
-You can now simply use `git commit`, and Git will present you with a commit message containing details about the merge. You can modify it if you like, or leave it as is. Regardless of the commit message, Git will create a "merge commit" – that is, a commit with more than one parent. 
+You can now simply use `git commit`, and Git will present you with a commit message containing details about the merge. You can modify it if you like, or leave it as is. Regardless of the commit message, Git will create a "merge commit" - that is, a commit with more than one parent. 
 
 To validate that, consider the history:
 

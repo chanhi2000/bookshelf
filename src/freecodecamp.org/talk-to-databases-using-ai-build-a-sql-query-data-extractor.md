@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor"
-description: "Article(s) > How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor"
+title: "How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
+description: "Article(s) > How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor"
+      content: "Article(s) > How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
     - property: og:description
-      content: "How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor"
+      content: "How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html
 prev: /programming/js-next/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733842504544/0e9da17
 ---
 
 <SiteInfo
-  name="How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor"
+  name="How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
   desc="Recently, I took a break from writing to focus on my exams. During this time, I had an interesting experience: I had the chance to explain SQL (Structured Query Language) to my peers. While exploring SQL in-depth, I encountered a common frustration: ..."
   url="https://freecodecamp.org/news/talk-to-databases-using-ai-build-a-sql-query-data-extractor"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -104,31 +104,31 @@ By combining these tools, we’ll build a powerful, user-friendly application th
 
 These are the steps we’ll follow in this tutorial to build our app:
 
-### Step 1 – Set Up the Database
+### Step 1 - Set Up the Database
 
 Either set up the database locally, deploy it, and access it, or use an online database tool that allows data access and extraction via REST APIs.
 
-### Step 2 – Obtain Cloud API Keys
+### Step 2 - Obtain Cloud API Keys
 
 Get the necessary API keys for your AI model to enable seamless integration.
 
-### Step 3 – Build a Web App
+### Step 3 - Build a Web App
 
 Create a web application and set up the backend to integrate CopilotKit. Configure it within the app for optimal functionality.
 
-### Step 4 – Train CopilotKit on Your Database
+### Step 4 - Train CopilotKit on Your Database
 
 Provide your database’s data to CopilotKit. It will read and understand the data to facilitate natural language processing.
 
-### Step 5 – Integrate CopilotKit Chat
+### Step 5 - Integrate CopilotKit Chat
 
 Add the CopilotKit chat interface into your application and configure it to ensure smooth operation.
 
-### Step 6 – Test Locally
+### Step 6 - Test Locally
 
 Test the app on your local machine to identify and fix any issues.
 
-### Step 7 – Deploy the App
+### Step 7 - Deploy the App
 
 Once everything is working as expected, deploy the application to a hosting platform.
 
@@ -326,7 +326,7 @@ We have successfully added the environment variables to our project. Now, it’s
 
 ### How to Configure the CopilotKit Back End
 
-![Open your Next.js app in any code editor – I prefer VSCode – and go to the root folder, which looks like this](https://cdn.hashnode.com/res/hashnode/image/upload/v1734968233629/f338c977-02dd-4ee1-ae66-7417f03e026b.png)
+![Open your Next.js app in any code editor - I prefer VSCode - and go to the root folder, which looks like this](https://cdn.hashnode.com/res/hashnode/image/upload/v1734968233629/f338c977-02dd-4ee1-ae66-7417f03e026b.png)
 
 Inside the app folder, make a new folder called `api`. Inside the API folder, make another folder called `copilotkit`. Then in there, make a new file called <FontIcon icon="fa-brands fa-js"/>`route.js` and inside the file paste this code:
 
@@ -919,7 +919,7 @@ I hope you’ve enjoyed building this simple AI chatbot to interact with the dat
 
 In the future, I plan to implement many new projects involving AI and other tools. AI tools are truly game-changing in the IT field, and I look forward to providing you with more detailed insights and practical implementations of the latest tools emerging in the space.
 
-So this is the end from my side. If you found this article useful, then do share it and connect with me – I am open to opportunities:
+So this is the end from my side. If you found this article useful, then do share it and connect with me - I am open to opportunities:
 
 ::: info Prankur Pandey
 
@@ -932,7 +932,7 @@ So this is the end from my side. If you found this article useful, then do share
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Talk to Any Database Using AI – Build Your Own SQL Query Data Extractor",
+  "title": "How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor",
   "desc": "Recently, I took a break from writing to focus on my exams. During this time, I had an interesting experience: I had the chance to explain SQL (Structured Query Language) to my peers. While exploring SQL in-depth, I encountered a common frustration: ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

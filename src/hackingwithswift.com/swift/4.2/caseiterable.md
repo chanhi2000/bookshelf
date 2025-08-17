@@ -62,7 +62,7 @@ enum Pasta: CaseIterable {
 }
 ```
 
-You can then go ahead and use that property as a regular array – it will be a `[Pasta]` given the code above, so we could print it like this:
+You can then go ahead and use that property as a regular array - it will be a `[Pasta]` given the code above, so we could print it like this:
 
 ```swift
 for shape in Pasta.allCases {

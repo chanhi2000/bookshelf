@@ -188,7 +188,7 @@ This phase helps us understand the actual security posture in protecting the web
 
 Usually, this phase is merely a continuation of the previous phase. But in an audit, equal weight is given to both risk and compliance. This means that we’ll need to conduct a separate compliance review for all the measures taken to mitigate the risks.
 
-Industry regulations and security standards such as GDPR, PCI DSS, Cybersecurity Best Practices, and ISO 27001 (Information Security Management System) are applicable to WalkGen. Assessing whether these standards are maintained and followed is important – otherwise the website may face threats or heavy fines for non-compliance.
+Industry regulations and security standards such as GDPR, PCI DSS, Cybersecurity Best Practices, and ISO 27001 (Information Security Management System) are applicable to WalkGen. Assessing whether these standards are maintained and followed is important - otherwise the website may face threats or heavy fines for non-compliance.
 
 These frameworks are general and foundational frameworks that must be adhered to by almost all companies, regardless of their working model. But there are certain frameworks that are more specific to companies like WalkGen.
 

@@ -486,7 +486,7 @@ write.csv(Books, file = "./books.csv", fileEncoding = "UTF-8")
 
 Let’s review what we’ve done so far: First, the script to scrape book data begins by loading the browser, maximizing the window size, and navigating to the Books To Scrape Page.
 
-Then we created an empty dataframe to hold the scraped data. We then scraped the data from the first page, saved it to the dataframe, and located the ‘Next‘ button in order to navigate to the next page – from which we scraped data and stored it.
+Then we created an empty dataframe to hold the scraped data. We then scraped the data from the first page, saved it to the dataframe, and located the ‘Next‘ button in order to navigate to the next page - from which we scraped data and stored it.
 
 The process of scraping, adding to the dataframe, and clicking the next page button continues until the ‘Next’ button is no longer available in the HTML DOM.
 

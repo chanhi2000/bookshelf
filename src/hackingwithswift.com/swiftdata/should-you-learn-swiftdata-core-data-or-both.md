@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Because SwiftData is an overlay over Core Data, deciding to learn either SwiftData or Core Data is a fairly easy one: if you are able to live without the missing features such as `NSFetchedResultsController`, and you are able to target iOS 17 and later, learning SwiftData is significantly faster and easier – you’ll be building apps in a tenth the time it would take for you to learn Core Data.
+Because SwiftData is an overlay over Core Data, deciding to learn either SwiftData or Core Data is a fairly easy one: if you are able to live without the missing features such as `NSFetchedResultsController`, and you are able to target iOS 17 and later, learning SwiftData is significantly faster and easier - you’ll be building apps in a tenth the time it would take for you to learn Core Data.
 
 However, the nice thing about its overlay status is that it’s surprisingly easy to move from SwiftData to Core Data without risking any user information. This means if you’re six months into a project and realize you just can’t live without one particular feature, you can move your code across to the older framework without too much hassle.
 
@@ -61,5 +61,5 @@ One slightly less obvious downside to SwiftData is that its newness means it has
 
 In the meantime, one thing you can be clear on is Apple's direction of travel: Swift, SwiftUI, and SwiftData are the best way to build apps for Apple's platforms, and will continue to expand for years to come.
 
-One signal for this is the logos: Swift, SwiftUI, and SwiftData all have logos that incorporate the Swift bird, which I think is intentional – I think it's Apple's way of saying these three form the new Cocoa. In the past, Cocoa meant using Foundation, AppKit, and Core Data, but now we have the Swift standard library, SwiftUI, and SwiftData, all of which combine to make app development as enjoyable, efficient, and safe as it can be.
+One signal for this is the logos: Swift, SwiftUI, and SwiftData all have logos that incorporate the Swift bird, which I think is intentional - I think it's Apple's way of saying these three form the new Cocoa. In the past, Cocoa meant using Foundation, AppKit, and Core Data, but now we have the Swift standard library, SwiftUI, and SwiftData, all of which combine to make app development as enjoyable, efficient, and safe as it can be.
 

@@ -62,7 +62,7 @@ This is why documentation tools like Docusaurus are great for helping you create
 
 In this tutorial, I'll show you how to build a documentation site using React and Docusaurus.
 
-If you are new to Docusaurus, you are probably wondering, “why React?, why not any other framework like Next.js?”, Don’t worry – I’ll also answer this question in this guide.
+If you are new to Docusaurus, you are probably wondering, “why React?, why not any other framework like Next.js?”, Don’t worry - I’ll also answer this question in this guide.
 
 ::: note Prerequisites
 
@@ -98,7 +98,7 @@ npx create-docusaurus@latest my-website classic
 
 ::: note
 
-The Docusaurus team recommends the `classic` template because it is easier to get started with fast. It also contains `@docusaurus/preset-classic` – which includes standard documentation, a blog, custom pages, and a CSS framework (with dark mode support).
+The Docusaurus team recommends the `classic` template because it is easier to get started with fast. It also contains `@docusaurus/preset-classic` - which includes standard documentation, a blog, custom pages, and a CSS framework (with dark mode support).
 
 :::
 
@@ -184,7 +184,7 @@ npm i
 npx docusaurus start
 ```
 
-After running the above command, the browser compiles the React and Markdown files and starts a local development server at `http://localhost:3000/`. Docusaurus enables hot reload, so you can see changes made to your React, Markdown, and MDX files automatically – without reloading your entire app.
+After running the above command, the browser compiles the React and Markdown files and starts a local development server at `http://localhost:3000/`. Docusaurus enables hot reload, so you can see changes made to your React, Markdown, and MDX files automatically - without reloading your entire app.
 
 Here is what the site looks like on your browser:
 
@@ -382,7 +382,7 @@ Beautiful right?
 
 Now, let’s talk about one of the most exciting features of Docusaurus: MDX and React components.
 
-You might ask – how can Docusaurus use `TOC` or `import` in the Markdown file? Well, that’s because Docusaurus uses MDX, which is basically Markdown with JSX.
+You might ask - how can Docusaurus use `TOC` or `import` in the Markdown file? Well, that’s because Docusaurus uses MDX, which is basically Markdown with JSX.
 
 To demonstrate this, let’s create a new Markdown file inside our <FontIcon icon="fas fa-folder-open"/>`Getting started` folder titled <FontIcon icon="fa-brands fa-markdown"/>`MDX.md`, then we create a separate file inside the <FontIcon icon="fas fa-folder-open"/>`src/components` folder and name the file <FontIcon icon="fa-brands fa-js"/>`Tag.js` . Then we paste in the following code:
 
@@ -463,7 +463,7 @@ import TabItem from '@theme/TabItem';
 I'm a text that doesn't belong to any tab. So I'm always visible.
 ```
 
-We imported `Tabs` from `@theme/Tabs` and `TabItem` from `@theme/TabItem`. Then, we created a Tabs component, which is the container, and the `TabItem` component is the tab itself. The `value` property is the value of the tab, while the `label` property is the label of the tab. The default property defines which tab is open by default – in this case, the “Book” tab.
+We imported `Tabs` from `@theme/Tabs` and `TabItem` from `@theme/TabItem`. Then, we created a Tabs component, which is the container, and the `TabItem` component is the tab itself. The `value` property is the value of the tab, while the `label` property is the label of the tab. The default property defines which tab is open by default - in this case, the “Book” tab.
 
 This is how it looks:
 
@@ -696,7 +696,7 @@ In the blog post, we can also use all the Markdown features plus JSX as we have 
 
 ## Custom Pages
 
-Technically, Docusaurus isn’t just a fancy documentation site generator with a blog. It’s a standard static site generator – which means you can create any page you want.
+Technically, Docusaurus isn’t just a fancy documentation site generator with a blog. It’s a standard static site generator - which means you can create any page you want.
 
 To see how creating a custom page in Docusaurus works, let’s create an <FontIcon icon="fa-brands fa-js"/>`about.js` file in the <FontIcon icon="fas fa-folder-open"/>`src/pages` folder and include the following code:
 

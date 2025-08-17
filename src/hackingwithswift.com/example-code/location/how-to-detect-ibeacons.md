@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -101,7 +101,7 @@ func locationManager(_ manager: CLLocationManager, didChangeAuthorization status
 
 Don't worry, we haven't written the `startScanning()` method yet.
 
-Once you've been authorized to scan for iBeacons, you can create `CLBeaconRegion` objects and pass them to the location manager. Each `CLBeaconRegion` is uniquely identified by a long number (it's UUID), and optionally also major and minor numbers. As well as monitoring for a beacon's existence, we're also going to ask iOS to range the beacon for us – i.e., tell us how close it thinks we are.
+Once you've been authorized to scan for iBeacons, you can create `CLBeaconRegion` objects and pass them to the location manager. Each `CLBeaconRegion` is uniquely identified by a long number (it's UUID), and optionally also major and minor numbers. As well as monitoring for a beacon's existence, we're also going to ask iOS to range the beacon for us - i.e., tell us how close it thinks we are.
 
 Here's the code:
 

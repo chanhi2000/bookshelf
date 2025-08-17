@@ -82,7 +82,7 @@ Cloud platforms not only streamline your business operations, but they also serv
 
 ### Collaboration made easy
 
-The cloud transforms your business into a well-connected global community. Your team can work together from different corners of the world, sharing data, insights, and strategies. Cloud-based tools such as Google Workspace and Microsoft 365 facilitate brainstorming and idea organization among team members and external stakeholders. Figma or InVision enable designing and refining user interfaces via the cloud. AWS and Azure are fast lanes for creating, evaluating, and launching prototypes with ease – and the list goes on.
+The cloud transforms your business into a well-connected global community. Your team can work together from different corners of the world, sharing data, insights, and strategies. Cloud-based tools such as Google Workspace and Microsoft 365 facilitate brainstorming and idea organization among team members and external stakeholders. Figma or InVision enable designing and refining user interfaces via the cloud. AWS and Azure are fast lanes for creating, evaluating, and launching prototypes with ease - and the list goes on.
 
 ### Top-level security
 
@@ -144,13 +144,13 @@ The downside of rehosting is the limited ability to leverage cloud-native capabi
 
 Refactoring focuses on optimizing existing applications for the cloud environment. This strategy involves rearchitecting the code so that the system fits in with cloud platform requirements. Refactoring allows you to take full advantage of cloud-native features, including more efficient resource use for cost optimization, which translates to long-term savings.
 
-Rearchitecting is advised for businesses driven by a strong need to add new features, enhance performance, and rapidly scale – objectives hard to achieve in existing infrastructure. Refactoring allows organizations to modernize their applications and leverage the benefits of the cloud, providing them with increased resilience. The drawbacks include the time, skills, and costs it takes to perform the migration, as this model is much more demanding than mere rehosting.
+Rearchitecting is advised for businesses driven by a strong need to add new features, enhance performance, and rapidly scale - objectives hard to achieve in existing infrastructure. Refactoring allows organizations to modernize their applications and leverage the benefits of the cloud, providing them with increased resilience. The drawbacks include the time, skills, and costs it takes to perform the migration, as this model is much more demanding than mere rehosting.
 
 ### Replatforming
 
 Replatforming is a cloud migration strategy that aims to strike a balance between swift transition and optimizing for cloud computing. This approach involves selective adjustments to applications, allowing them to take advantage of cloud-native services and features while retaining their fundamental functionalities. By optimizing code and architecture, businesses can enhance performance, scalability, and efficiency without undergoing a complete application overhaul.
 
-Replatforming is a convenient option for companies interested in benefiting from the cloud environment without resorting to radical and potentially expensive strategies. Advantages include cost efficiency, low migration effort, and access to cloud features. The main downside is so-called scope creep – uncontrolled growth of work scope that may require adopting the refactoring approach.
+Replatforming is a convenient option for companies interested in benefiting from the cloud environment without resorting to radical and potentially expensive strategies. Advantages include cost efficiency, low migration effort, and access to cloud features. The main downside is so-called scope creep - uncontrolled growth of work scope that may require adopting the refactoring approach.
 
 ### Rebuilding aka recreating
 
@@ -170,11 +170,11 @@ The retention approach, Amazon’s input to the cloud migration strategies frame
 
 ## Golang: cloud-friendly technology from Google
 
-Inventing a good cloud migration strategy is never easy. It involves sorting out tons of technical and business issues to deliver the best immediate and long-term results. Making yourself cozy in the cloud requires a vision, a good dose of planning, and choosing technologies that best suit your business goals. One of the most appealing options to consider for building robust cloud systems is Go or [**Golang**](/gosolve.io/what-is-golang.md) – an open-source programming language created by Google to address the challenges faced in large-scale systems.
+Inventing a good cloud migration strategy is never easy. It involves sorting out tons of technical and business issues to deliver the best immediate and long-term results. Making yourself cozy in the cloud requires a vision, a good dose of planning, and choosing technologies that best suit your business goals. One of the most appealing options to consider for building robust cloud systems is Go or [**Golang**](/gosolve.io/what-is-golang.md) - an open-source programming language created by Google to address the challenges faced in large-scale systems.
 
 Golang has grown to become a powerful contender in the field of developing efficient, scalable, and resilient cloud applications. Its key advantages include simplicity, performance, concurrency, fast garbage collection, internet-focused design, and more. When paired with the microservices architecture, Golang is a formidable tool for crafting cloud apps that take full advantage of cloud scalability, agility, and resource efficiency.
 
-The language’s native support for concurrency enables developers to efficiently manage multiple tasks and requests concurrently – a vital feature in cloud applications handling numerous users and data streams simultaneously. With a fast compiler, Golang ensures high-speed compilation, increasing performance. Golang’s approach to error handling also counts among its strengths, encouraging explicit checks and promoting code that is more robust and reliable for cloud environments.
+The language’s native support for concurrency enables developers to efficiently manage multiple tasks and requests concurrently - a vital feature in cloud applications handling numerous users and data streams simultaneously. With a fast compiler, Golang ensures high-speed compilation, increasing performance. Golang’s approach to error handling also counts among its strengths, encouraging explicit checks and promoting code that is more robust and reliable for cloud environments.
 
 ---
 

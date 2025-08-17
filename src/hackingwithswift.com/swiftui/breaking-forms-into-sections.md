@@ -56,11 +56,11 @@ isOriginal: false
 
 **Updated in iOS 15**
 
-SwiftUI's forms often work best when broken into sections, just like regular lists of content. How you break them up is down to you, but usually it works best when you group things according to their purpose – if it were an order page you might put items in one group, customization in another, and delivery in a third.
+SwiftUI's forms often work best when broken into sections, just like regular lists of content. How you break them up is down to you, but usually it works best when you group things according to their purpose - if it were an order page you might put items in one group, customization in another, and delivery in a third.
 
 Helpfully, form sections are *identical* to list sections, which means you can re-use the same code in both places. So, you can add a header and/or footer to your sections, or use neither and just get some on-screen spacing between your sections.
 
-As an example, this creates a form with two sections – the first with a segmented control and toggle, and the second with a save button:
+As an example, this creates a form with two sections - the first with a segmented control and toggle, and the second with a save button:
 
 ```swift
 struct ContentView: View {

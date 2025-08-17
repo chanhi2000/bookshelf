@@ -68,7 +68,7 @@ freely inside your strings, which is great!
 """
 ```
 
-That creates a new string with several line breaks right there in the definition – much easier to read *and* write.
+That creates a new string with several line breaks right there in the definition - much easier to read *and* write.
 
 For more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0168-multi-line-string-literals.md).
 

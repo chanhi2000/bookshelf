@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-Now it's time to make our game an actual game – i.e., something a player can win. Four in a Row is what's called a zero-sum game, which means for one player to win the other must lose. This in turn means it's very easy to determine a winner: as soon as either player manages to place four chips in a row in any direction, they win. As for detecting a draw, that's just a matter of checking to see if no more moves are available.
+Now it's time to make our game an actual game - i.e., something a player can win. Four in a Row is what's called a zero-sum game, which means for one player to win the other must lose. This in turn means it's very easy to determine a winner: as soon as either player manages to place four chips in a row in any direction, they win. As for detecting a draw, that's just a matter of checking to see if no more moves are available.
 
 Of the two, detecting a draw is far easier, so let's write that first. We already put a stub for `isFull()` into the `Board` class, but we can fill that out now: it will return false if any column passes the `canMove(in:)` test, otherwise it will return false. Here's the updated method for <FontIcon icon="fa-brands fa-swift"/>`Board.swift`:
 
@@ -83,7 +83,7 @@ The advantage to using this technique is that it can check for all other win typ
 
 To make the `squaresMatch(initialChip:)` method safe to call from any slot on the board, we'll make it return false if it will try to check outside the bounds of the board. For example, if it starts in the bottom left and tries to search for a downward win, we'll bail out immediately. The method will also return false as soon as it has failed to detect a win for a particular movement, because there's no point checking slots 3 and 4 if slot 2 doesn't match the player's chip color.
 
-That's everything you need to know, so here's the code for `squaresMatch(initialChip:)` – put this into the `Board` class:
+That's everything you need to know, so here's the code for `squaresMatch(initialChip:)` - put this into the `Board` class:
 
 ```swift
 func squaresMatch(initialChip: ChipColor, row: Int, col: Int, moveX: Int, moveY: Int) -> Bool {

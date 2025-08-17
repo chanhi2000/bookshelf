@@ -55,13 +55,13 @@ You could say Go was born out of frustration with other languages that were avai
 
 Although Google created Go much later than some of the other popular languages, its developers could take into consideration modern trends such as cloud computing into consideration while designing the language itself.
 
-Simplicity, great performance, user-friendly compiler, and easy deployment – code is compiled to a single binary, so there’s no hassle with multiple binary files. Add low resource usage and a standard library with a decent networking package and you have an excellent contender for the developer’s choice.
+Simplicity, great performance, user-friendly compiler, and easy deployment - code is compiled to a single binary, so there’s no hassle with multiple binary files. Add low resource usage and a standard library with a decent networking package and you have an excellent contender for the developer’s choice.
 
 Golang can be treated as the language of modern applications. To not look too far, there’s Kubernetes, one of the major containerization platforms written completely in Go
 
 ---
 
-## Go 1.18 – what came with this major programming language update?
+## Go 1.18 - what came with this major programming language update?
 
 As the Go dev blog states, Go 1.18 introduced significant “changes to the language, implementation of the core toolchain, runtime, and libraries”. And what changes do we talk about exactly?
 
@@ -85,7 +85,7 @@ Before starting a test fuzz please mind that it can consume a lot of memory to t
 
 ## Running fuzz tests in Go
 
-You can run fuzzing in two ways. First, as a unit test with the default `go test`. Second, with fuzzing with `go test -fuzz=TestName`. In general, fuzz tests are run similarly to the unit tests – every seed corpus file will be tested against the fuzz target. All failures will be then reported before exiting the given corpus entry.
+You can run fuzzing in two ways. First, as a unit test with the default `go test`. Second, with fuzzing with `go test -fuzz=TestName`. In general, fuzz tests are run similarly to the unit tests - every seed corpus file will be tested against the fuzz target. All failures will be then reported before exiting the given corpus entry.
 
 Here’s an example output:
 

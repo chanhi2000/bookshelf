@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-`NSNumber` is an Objective-C class designed to store a variety of types of numbers. It was important in Objective-C because its primitive number types – integers, doubles, etc – could not be used in most of Apple’s APIs without wrapping them in an object such as `NSNumber`, but mostly Swift does a good job of automatically converting its numbers to `NSNumber` when you need it.
+`NSNumber` is an Objective-C class designed to store a variety of types of numbers. It was important in Objective-C because its primitive number types - integers, doubles, etc - could not be used in most of Apple’s APIs without wrapping them in an object such as `NSNumber`, but mostly Swift does a good job of automatically converting its numbers to `NSNumber` when you need it.
 
 That being said, there are a few times when Swift won’t help you out, and you need to convert to `NSNumber` by hand. For example, this code is designed to convert numerical numbers like 50 into textual numbers like “fifty”, but it won’t compile:
 
@@ -72,7 +72,7 @@ formatter.numberStyle = .spellOut
 // let string1 = formatter.string(from: number) ?? ""
 ```
 
-The problem is that the `string(from:)` method expects an `NSNumber` and Swift isn’t able to automatically bridge the integer we created in `number`. The fix here is nice and easy – just add `as NSNumber` to help Swift bridge the two worlds:
+The problem is that the `string(from:)` method expects an `NSNumber` and Swift isn’t able to automatically bridge the integer we created in `number`. The fix here is nice and easy - just add `as NSNumber` to help Swift bridge the two worlds:
 
 ```swift
 let string2 = formatter.string(from: number as NSNumber) ?? ""

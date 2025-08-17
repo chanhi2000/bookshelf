@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer"
-description: "Article(s) > The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer"
+title: "The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
+description: "Article(s) > The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
 icon: fas fa-uer-tie
 category:
   - Career
@@ -24,9 +24,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer"
+      content: "Article(s) > The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
     - property: og:description
-      content: "The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer"
+      content: "The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html
 prev: /projects/career/articles/README.md
@@ -75,7 +75,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736973272685/95e5c57
 ---
 
 <SiteInfo
-  name="The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer"
+  name="The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
   desc="Have you ever wondered who’s behind the groundbreaking technologies like ChatGPT from OpenAI, Tesla’s autonomous vehicles, or the humanoid robots redefining our perception of artificial intelligence? What does it take to be one of those innovators dr..."
   url="https://freecodecamp.org/news/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -532,7 +532,7 @@ These resources provide a clear path to mastering the skills necessary to become
 
 ## Practical AI Engineering: Code Examples and Implementation
 
-AI engineering is the bridge between theoretical concepts and real-world applications. It’s not enough to understand algorithms or frameworks in isolation – the true power of AI lies in its implementation. By working with code examples, you can gain hands-on experience, transforming your abstract ideas into functional, scalable solutions.
+AI engineering is the bridge between theoretical concepts and real-world applications. It’s not enough to understand algorithms or frameworks in isolation - the true power of AI lies in its implementation. By working with code examples, you can gain hands-on experience, transforming your abstract ideas into functional, scalable solutions.
 
 The field of AI is vast, encompassing everything from machine learning and natural language processing to computer vision and generative models. Each domain presents unique challenges and opportunities, but the common thread is the need for practical expertise.
 
@@ -2139,7 +2139,7 @@ Spots are limited, and the demand for skilled AI engineers is higher than ever. 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer",
+  "title": "The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer",
   "desc": "Have you ever wondered who’s behind the groundbreaking technologies like ChatGPT from OpenAI, Tesla’s autonomous vehicles, or the humanoid robots redefining our perception of artificial intelligence? What does it take to be one of those innovators dr...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

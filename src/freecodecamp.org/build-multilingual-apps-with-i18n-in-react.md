@@ -228,7 +228,7 @@ Create a <FontIcon icon="fas fa-folder-open"/>`components` folder in the <FontIc
 
 ### Language Selector
 
-Create the `LanguageSelector` component – contains a `select` element to help users switch languages dynamically:
+Create the `LanguageSelector` component - contains a `select` element to help users switch languages dynamically:
 
 ```tsx title="src/components/LanguageSelector"
 import { useEffect, useState } from "react";

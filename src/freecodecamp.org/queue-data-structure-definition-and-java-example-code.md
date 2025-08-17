@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Queue Data Structure – Definition and Java Example Code"
-description: "Article(s) > Queue Data Structure – Definition and Java Example Code"
+title: "Queue Data Structure - Definition and Java Example Code"
+description: "Article(s) > Queue Data Structure - Definition and Java Example Code"
 icon: fa-brands fa-java
 category:
   - Java
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Queue Data Structure – Definition and Java Example Code"
+      content: "Article(s) > Queue Data Structure - Definition and Java Example Code"
     - property: og:description
-      content: "Queue Data Structure – Definition and Java Example Code"
+      content: "Queue Data Structure - Definition and Java Example Code"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/queue-data-structure-definition-and-java-example-code.html
 prev: /programming/java/articles/README.md
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/2022/03/queue-data-structure
 ---
 
 <SiteInfo
-  name="Queue Data Structure – Definition and Java Example Code"
+  name="Queue Data Structure - Definition and Java Example Code"
   desc="In this article, we will talk about the queue data structure, its operations, and how to implement these operations using an array in Java.  What Is a Queue? A queue is linear data structure that consists of a collection is of items that follow a fir..."
   url="https://freecodecamp.org/news/queue-data-structure-definition-and-java-example-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -86,7 +86,7 @@ The **back** is where the items are inserted and the **front** is the part of th
 
 The image shows an array with various cells. The items are inserted through the **back** and removed through the **front**. There are terms used for the insertion and deletion of items in a queue which we will cover in the next section.
 
-Note that you can reverse the structure of your queue – you can have the front on the right and the back on the left side. Whichever structure you go with, always remember that insertion of items happens through the back and deletion through the front.
+Note that you can reverse the structure of your queue - you can have the front on the right and the back on the left side. Whichever structure you go with, always remember that insertion of items happens through the back and deletion through the front.
 
 ---
 
@@ -111,7 +111,7 @@ The arrows show the position of the front and back of our array. When both posit
 
 ![Let us add some items into our array and see what happens](https://freecodecamp.org/news/content/images/2022/03/queue-0.png)
 
-We have inserted (enqueued) our first item – 5. The position of the front and back have moved as well.
+We have inserted (enqueued) our first item - 5. The position of the front and back have moved as well.
 
 ![Next, we will see what happens as we enqueue more items](https://freecodecamp.org/news/content/images/2022/03/queue-1.png)
 
@@ -127,7 +127,7 @@ Remember the **first-come-first-out** sequence? When we execute the dequeue oper
 
 ![Here, the first dequeue operation](https://freecodecamp.org/news/content/images/2022/03/dequeue-1.png)
 
-Now the front arrow has moved to index 1. This implies that the item at index 0 has been removed. By removed, we do not mean from the array but from the queue – only items from the front position to the back position are part of the queue.
+Now the front arrow has moved to index 1. This implies that the item at index 0 has been removed. By removed, we do not mean from the array but from the queue - only items from the front position to the back position are part of the queue.
 
 In the same order, if we keep removing items, it will get to a point where the front arrow meets the back arrow at the end of the queue. If we dequeue again at that point, the front arrow will move past the back arrow and then the queue will be considered empty because there is nothing there to delete. When this happens, we will reset their index to -1 (their initial starting point).
 
@@ -192,7 +192,7 @@ void enQueue(int itemValue) {
 }
 ```
 
-If the array is full then we get a message saying it is full. If the front and back is -1 then the item is assigned to the first cell which is index 0 – otherwise, the value is inserted and the back position is incremented.
+If the array is full then we get a message saying it is full. If the front and back is -1 then the item is assigned to the first cell which is index 0 - otherwise, the value is inserted and the back position is incremented.
 
 For **deQueue**:
 
@@ -326,7 +326,7 @@ public static void main(String[] args) {
 
 `peak()` prints the value of the front item.
 
-We did not execute `deQueue` so you can go on and try it yourself – display your array and take a peek after you dequeue and see what happens. There are various ways to modify the code, so have fun!
+We did not execute `deQueue` so you can go on and try it yourself - display your array and take a peek after you dequeue and see what happens. There are various ways to modify the code, so have fun!
 
 ---
 
@@ -341,7 +341,7 @@ Thank you for reading and happy coding!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Queue Data Structure – Definition and Java Example Code",
+  "title": "Queue Data Structure - Definition and Java Example Code",
   "desc": "In this article, we will talk about the queue data structure, its operations, and how to implement these operations using an array in Java.  What Is a Queue? A queue is linear data structure that consists of a collection is of items that follow a fir...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/queue-data-structure-definition-and-java-example-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

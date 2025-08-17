@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -92,7 +92,7 @@ for label in [label1, label2, label3, label4, label5] {
     label.heightAnchor.constraint(equalToConstant: 88).isActive = true
 
     if let previous = previous {
-        // we have a previous label – create a height constraint
+        // we have a previous label - create a height constraint
         label.topAnchor.constraint(equalTo: previous.bottomAnchor, constant: 10).isActive = true
     }
 
@@ -101,17 +101,17 @@ for label in [label1, label2, label3, label4, label5] {
 }
 ```
 
-That third anchor combines a different anchor with a constant value to get spacing between the views – these things are really flexible.
+That third anchor combines a different anchor with a constant value to get spacing between the views - these things are really flexible.
 
 Run the app now and you’ll see all the labels space themselves out neatly. I hope you’ll agree that anchors make Auto Layout code really simple to read and write!
 
-Anchors also let us control the safe area nicely. The “safe area” is the space that’s actually visible inside the insets of the iPhone X and other such devices – with their rounded corners, notch and similar. It’s a space that excludes those areas, so labels no longer run underneath the notch or rounded corners.
+Anchors also let us control the safe area nicely. The “safe area” is the space that’s actually visible inside the insets of the iPhone X and other such devices - with their rounded corners, notch and similar. It’s a space that excludes those areas, so labels no longer run underneath the notch or rounded corners.
 
 We can fix that using constraints. In our current code we’re saying “if we have a previous label, make the top anchor of this label equal to the bottom anchor of the previous label plus 10.” But if we add an `else` block we can push the first label away from the top of the safe area, so it doesn’t sit under the notch, like this:
 
 ```swift
 if let previous = previous {
-    // we have a previous label – create a height constraint
+    // we have a previous label - create a height constraint
     label.topAnchor.constraint(equalTo: previous.bottomAnchor, constant: 10).isActive = true
 } else {
     // this is the first label

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/xNX45MXsXWc" />
 
-Swift’s strings are plain text, which works fine in the vast majority of cases we work with text. But sometimes we want *more* – we want to be able to add formatting like bold or italics, select from different fonts, or add some color, and for *those* jobs we have a new class called `NSAttributedString`.
+Swift’s strings are plain text, which works fine in the vast majority of cases we work with text. But sometimes we want *more* - we want to be able to add formatting like bold or italics, select from different fonts, or add some color, and for *those* jobs we have a new class called `NSAttributedString`.
 
 Attributed strings are made up of two parts: a plain Swift string, plus a dictionary containing a series of attributes that describe how various segments of the string are formatted. In its most basic form you might want to create one set of attributes that affect the whole string, like this:
 
@@ -72,7 +72,7 @@ It’s common to use an explicit type annotation when making attributed strings,
 
 The *values* of the attributes dictionary are of type `Any`, because `NSAttributedString` attributes can be all sorts of things: numbers, colors, fonts, paragraph styles, and more.
 
-If you look in the output pane of your playground, you should be able to click on the box next to where it says “This is a test string” to get a live preview of how our string looks – you should see large, white text with a red background.
+If you look in the output pane of your playground, you should be able to click on the box next to where it says “This is a test string” to get a live preview of how our string looks - you should see large, white text with a red background.
 
 Of course, we could get the same effect with a regular string placed inside a `UILabel`: change the font and colors, and it would look the same. But what labels *can’t* do is add formatting to different parts of the string.
 
@@ -87,7 +87,7 @@ attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 32), range
 attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 40), range: NSRange(location: 15, length: 6))
 ```
 
-When you preview *that* you’ll see the font size get larger with each word – something a regular Swift string certainly can’t do even with help from `UILabel`.
+When you preview *that* you’ll see the font size get larger with each word - something a regular Swift string certainly can’t do even with help from `UILabel`.
 
 There are lots of formatting options for attributed strings, including:
 

@@ -95,11 +95,11 @@ Structs:
 
 You might think the advantages of actors are such that they should be used everywhere classes are currently used, but that is a bad idea. Not only do you lose the ability for inheritance, but you’ll also cause a huge amount of pain for yourself because every single external property access needs to use `await`.
 
-However, there are certainly places where actors are a natural fit. For example, if you were previously creating serial queues to handle specific workflows, they can be replaced almost entirely with actors – while also benefiting from increased safety and performance. So, if you have some work that absolutely must work one at a time, such as accessing a database, then trying converting it into something like a database actor.
+However, there are certainly places where actors are a natural fit. For example, if you were previously creating serial queues to handle specific workflows, they can be replaced almost entirely with actors - while also benefiting from increased safety and performance. So, if you have some work that absolutely must work one at a time, such as accessing a database, then trying converting it into something like a database actor.
 
 There is one area in particular where using actors rather than classes is going to cause problems, so I really can’t say this clearly enough:
 
-**Do not use actors for your SwiftUI data models.** You should use a class that conforms to the `ObservableObject` protocol instead. If needed, you can optionally also mark that class with `@MainActor` to ensure it does any UI work safely, but keep in mind that using `@StateObject` or `@ObservedObject` automatically makes a view’s code run on the main actor. If you desperately need to be able to carve off some async work safely, you can create a sibling actor – a separate actor that does not use `@MainActor`, but does not directly update the UI.
+**Do not use actors for your SwiftUI data models.** You should use a class that conforms to the `ObservableObject` protocol instead. If needed, you can optionally also mark that class with `@MainActor` to ensure it does any UI work safely, but keep in mind that using `@StateObject` or `@ObservedObject` automatically makes a view’s code run on the main actor. If you desperately need to be able to carve off some async work safely, you can create a sibling actor - a separate actor that does not use `@MainActor`, but does not directly update the UI.
 
 ::: details Similar solutions…
 

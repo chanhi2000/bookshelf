@@ -108,7 +108,7 @@ struct ContentView: View {
 
 ![A rectangular blue button with a location arrow and the words “Current Location”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-read-the-users-location-using-locationbutton-1~dark@2x.png)
 
-Apple provides a handful of variant designs for the button, activated by passing one of them in with its initializer – try `LocationButton(.shareMyCurrentLocation)`, for example.
+Apple provides a handful of variant designs for the button, activated by passing one of them in with its initializer - try `LocationButton(.shareMyCurrentLocation)`, for example.
 
 ![A rectangular blue button with a location arrow and the words “Share My Current Location”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-read-the-users-location-using-locationbutton-2~dark@2x.png)
 

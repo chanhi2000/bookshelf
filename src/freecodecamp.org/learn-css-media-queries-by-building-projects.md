@@ -483,7 +483,7 @@ We're all 50% done! Now let's setup the four media queries.
 
 You need to follow the proper order while writing the media queries. Start writing from the **largest display to the smallest display.**
 
-### First breakpoint for desktop – `1200px`
+### First breakpoint for desktop - `1200px`
 
 For the desktop screen, write this code in SCSS:👇
 
@@ -498,7 +498,7 @@ For the desktop screen, write this code in SCSS:👇
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w1cuuy0m4zw57sh9zdzf.png)
 
-### Second breakpoint for laptop – `992px`
+### Second breakpoint for laptop - `992px`
 
 For laptop screens, write this code in SCSS: 👇
 
@@ -513,7 +513,7 @@ For laptop screens, write this code in SCSS: 👇
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fng9y622xtb9pa6ngfwj.png)
 
-### Third breakpoint for tablet – `768px`
+### Third breakpoint for tablet - `768px`
 
 For tablets screens, write this code in SCSS: 👇
 
@@ -528,7 +528,7 @@ For tablets screens, write this code in SCSS: 👇
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7wqp9xjt4gg272pc3hkt.png)
 
-### Fourth breakpoint for mobile – `576px`
+### Fourth breakpoint for mobile - `576px`
 
 For mobile screens, write this code in SCSS: 👇
 
@@ -563,7 +563,7 @@ Create a folder named 'images' inside our Project-1 Folder. Place all the images
 
 ### The HTML
 
-#### Step 1 – Create the sections
+#### Step 1 - Create the sections
 
 We'll create three sections for our website. Write this code in your HTML:
 
@@ -575,7 +575,7 @@ We'll create three sections for our website. Write this code in your HTML:
 </div>
 ```
 
-#### Step 2 – Logo and menu items
+#### Step 2 - Logo and menu items
 
 We'll place the logo and menu items inside the `.header` div, like this:
 
@@ -590,7 +590,7 @@ We'll place the logo and menu items inside the `.header` div, like this:
 </div>
 ```
 
-#### Step 3 – Image and text
+#### Step 3 - Image and text
 
 We'll place the image and text inside the `.main` div, like this:
 
@@ -606,7 +606,7 @@ We'll place the image and text inside the `.main` div, like this:
 </div>
 ```
 
-#### Step 4 – Social media icons
+#### Step 4 - Social media icons
 
 We'll place the social media icons inside the `.footer` div, like this:
 
@@ -631,7 +631,7 @@ We'll place the social media icons inside the `.footer` div, like this:
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8ou3jrlk5g9mjodfh88n.png)
 
-#### Step 1 – Update the SCSS
+#### Step 1 - Update the SCSS
 
 Delete everything inside our SCSS and write this code instead:
 
@@ -651,7 +651,7 @@ Delete everything inside our SCSS and write this code instead:
 
 ![This is what we have so far](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3egdxy9f5wf8xgc2ekn8.png)
 
-#### Step 2 – Select all classes in HTML
+#### Step 2 - Select all classes in HTML
 
 Select all the classes we created in HTML on our stylesheet.
 
@@ -662,7 +662,7 @@ Select all the classes we created in HTML on our stylesheet.
 .footer { }
 ```
 
-#### Step 3 – Select all children
+#### Step 3 - Select all children
 
 Now select all the children of the parent classes.
 
@@ -686,7 +686,7 @@ Now select all the children of the parent classes.
 
 :::
 
-#### Step 4 – Define the .container
+#### Step 4 - Define the .container
 
 Define the `.container` for the desktop layout, like this:
 
@@ -739,7 +739,7 @@ Divide each section and create borders to see what we are doing:
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o77rk1bj2m722jf41mju.png)
 
-#### Step 5 – Complete `.header` styling
+#### Step 5 - Complete `.header` styling
 
 Let's complete the styling of our `.header` section using flex-box properties and the appropriate font-size:
 
@@ -771,7 +771,7 @@ Let's complete the styling of our `.header` section using flex-box properties an
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kx4d43xmeggdaw2h2pdf.png)
 
-#### Step 6 – Add the image
+#### Step 6 - Add the image
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7tyojtcpe7o1o9mukum6.png)
 
@@ -803,7 +803,7 @@ Let's add the image inside `.main` section and create a partition for image and 
 
 ![The result is a bit ugly at the moment, but don't lose hope~](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2q13at8wcniamqpwh7jv.png)
 
-#### Step7 – Make the image responsive
+#### Step7 - Make the image responsive
 
 Style the image to be responsive like this:
 
@@ -830,7 +830,7 @@ You can learn more about [Background Properties here](/freecodecamp.org/learn-cs
 
 ![4k test](https://media.giphy.com/media/7Us5yEqyNW6IkOR1fs/giphy.gif)
 
-#### Step 8 – Style the text
+#### Step 8 - Style the text
 
 Let's style our text now. First, we'll bring it to the exact center with this code:
 
@@ -880,7 +880,7 @@ Now, let's set font sizes for the text:
 
 At this point, you can remove all the borders we placed inside our header, main, and footer classes.
 
-#### Step 9 – The footer section
+#### Step 9 - The footer section
 
 First, resize the images like this:
 
@@ -915,7 +915,7 @@ Then, position the images to our desired place, with a small gap between the ico
 
 ![And here's the result, without the guides](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/itzk2rwz621vjm1k833c.png)
 
-#### Step 10 – The mobile layout
+#### Step 10 - The mobile layout
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9w8h1owma15wmrzqb5cd.png)
 
@@ -937,7 +937,7 @@ Create a media query at the 650px mark and style the `.header` class like this:
 }
 ```
 
-#### Step 11 – Center .main
+#### Step 11 - Center .main
 
 Now, place the .main section at the exact center with this code:
 
@@ -953,7 +953,7 @@ Now, place the .main section at the exact center with this code:
 }
 ```
 
-#### Step 12 – Style the image and text for mobile
+#### Step 12 - Style the image and text for mobile
 
 Style the image and text for mobile layout like this:
 
@@ -984,7 +984,7 @@ Style the image and text for mobile layout like this:
 }
 ```
 
-### Step 13 – Style the footer for mobile
+### Step 13 - Style the footer for mobile
 
 The last step is to style the footer section for the mobile layout:
 
@@ -1009,7 +1009,7 @@ The last step is to style the footer section for the mobile layout:
 
 ---
 
-## Project 3 – How to Build a Card Layout
+## Project 3 - How to Build a Card Layout
 
 ![In project 3, we'll build this](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tf2o5njarct4ew24dnqj.png)
 
@@ -1094,7 +1094,7 @@ Each row will have three boxes with class names `.box-*` like this. 👇 And yes
 
 Follow these small baby steps one by one to style the project.
 
-#### Step 1 – Add some SCSS code
+#### Step 1 - Add some SCSS code
 
 To select and style all the boxes and rows together, this is what we write in our CSS: 👇
 
@@ -1112,7 +1112,7 @@ To select and style all the boxes and rows together, this is what we write in ou
 }
 ```
 
-#### Step 2 – Make boxes behave like rows
+#### Step 2 - Make boxes behave like rows
 
 Boxes should behave like a row. This code will make that happen:
 
@@ -1125,7 +1125,7 @@ Boxes should behave like a row. This code will make that happen:
 
 ![And here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4utfjrr1bfmwwh81rb1a.png)
 
-#### Step 3 – Define the boxes
+#### Step 3 - Define the boxes
 
 Expand the boxes across the width and height and place the letters at the center.
 
@@ -1146,7 +1146,7 @@ Expand the boxes across the width and height and place the letters at the center
 
 ![Here's the result](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g4m7snz4kklns6xjinzh.png)
 
-#### Step 4 – Create gaps between rows
+#### Step 4 - Create gaps between rows
 
 Next we'll create a gap between the rows, like this:
 
@@ -1173,7 +1173,7 @@ Now let's create a gap between the boxes:
 
 ![And here's what it looks like](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xpus9dx40nxzysz9iceh.png)
 
-#### Step 5 – Set up the mobile layout
+#### Step 5 - Set up the mobile layout
 
 Create the media query which will be applied at the 650px mark:
 

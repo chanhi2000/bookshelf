@@ -52,7 +52,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Swift tasks can have a priority attached to them, such as `.high` or `.background`, but the priority can also be `nil` if no specific priority was assigned. This priority can be used by the system to determine which task should be executed next, but this isn’t guaranteed – think of it as a suggestion rather than a rule.
+Swift tasks can have a priority attached to them, such as `.high` or `.background`, but the priority can also be `nil` if no specific priority was assigned. This priority can be used by the system to determine which task should be executed next, but this isn’t guaranteed - think of it as a suggestion rather than a rule.
 
 Creating a task with a priority look like this:
 
@@ -94,7 +94,7 @@ However, like I said you can also specify an exact priority from one of the foll
 
 Like I said, priority inheritance helps get us a sensible priority by default, particularly when creating tasks in response to a user interface action.
 
-For example, we could build a simple SwiftUI app using a single task, and we don’t need to provide a specific priority –it will automatically run as high priority because it was started from our UI:
+For example, we could build a simple SwiftUI app using a single task, and we don’t need to provide a specific priority -it will automatically run as high priority because it was started from our UI:
 
 ```swift
 struct ContentView: View {
@@ -128,7 +128,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/how-to-control-the-priority-of-a-task-2.zip)
 
-Any task can query its current priority using `Task.currentPriority`, but this works from anywhere – if it’s called in a function that is not currently part of a task, Swift will query the system for an answer or send back `.medium`.
+Any task can query its current priority using `Task.currentPriority`, but this works from anywhere - if it’s called in a function that is not currently part of a task, Swift will query the system for an answer or send back `.medium`.
 
 ::: details Similar solutions…
 

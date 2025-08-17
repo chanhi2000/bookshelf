@@ -53,7 +53,7 @@ next: /hackingwithswift.com/swiftui/understanding-property-wrappers-in-swift-and
 
 > Updated for Xcode 15
 
-Everything in this guide is designed to help you solve hands-on, practical problems with your SwiftUI code, and it focuses specifically on helping you write SwiftUI projects effectively. But if you want to really extend your skills – if you want to understand how SwiftUI works behind the scenes, if you want to tackle more advanced techniques that help you deliver the best apps around, and if you want to learn how to identify and resolve even difficult performance problems, I have a whole other book for you: Pro SwiftUI.
+Everything in this guide is designed to help you solve hands-on, practical problems with your SwiftUI code, and it focuses specifically on helping you write SwiftUI projects effectively. But if you want to really extend your skills - if you want to understand how SwiftUI works behind the scenes, if you want to tackle more advanced techniques that help you deliver the best apps around, and if you want to learn how to identify and resolve even difficult performance problems, I have a whole other book for you: Pro SwiftUI.
 
 Pro SwiftUI is aimed at developers who are already feeling comfortable with building SwiftUI apps, but who want to take their knowledge to the next level. It’s a book, yes, but it also includes over 7 hours of videos demonstrating all the techniques in action.
 
@@ -63,7 +63,7 @@ While following along, you'll learn all this and more:
 - Taking advantage of layout neutrality to get exactly the layout you want
 - How TupleView and ViewBuilder combine to clean up your code
 - Making the most of structural and explicit identity
-- Creating advanced animations – even for things that don't seem animatable
+- Creating advanced animations - even for things that don't seem animatable
 - Overriding explicit and implicit animations
 - Building complex view transitions that go way beyond Apple's built-in options
 - Creating custom environment keys
@@ -79,7 +79,7 @@ This book is simply packed with tools, tips, and tricks to help you develop a th
 Find out more here
 
 <SiteInfo
-  name="Pro SwiftUI – Unleash SwiftUI's full potential"
+  name="Pro SwiftUI - Unleash SwiftUI's full potential"
   desc="Pro SwiftUI helps you get the most from SwiftUI by understanding how and why it works the way it does."
   url="https://hackingwithswift.com/store/pro-swiftui"
   logo="https://hackingwithswift.com/favicon.svg"

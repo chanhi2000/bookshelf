@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Storyboards deliver useful features, such as being able to see a lot of your use
 
 Fortunately, Interface Builder comes with a simple solution in the form of storyboard references: links that connect one storyboard to another, using any identifier or presentation segue you want. They let you break up one huge storyboard into several smaller ones, and in doing so also allow you to re-use scenes more easily.
 
-Storyboard references are easy to use, but don’t get a lot of use because they were introduced four years(!) after storyboards – a lot of folks either decided they didn’t like the initial storyboard implementation and haven’t checked back since, or still use the same approach they learned back in iOS 5.
+Storyboard references are easy to use, but don’t get a lot of use because they were introduced four years(!) after storyboards - a lot of folks either decided they didn’t like the initial storyboard implementation and haven’t checked back since, or still use the same approach they learned back in iOS 5.
 
 Using storyboard references takes three steps:
 

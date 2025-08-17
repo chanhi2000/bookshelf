@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "7. Analyzing The Results"
-description: "Article(s) > (7/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (7/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (7/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (7/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "7. Analyzing The Results"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -88,7 +88,7 @@ This chapter serves as a guide to the essential elements of Python, equipping yo
 ### -11-basic-python-syntax">1.1 Basic Python Syntax:
 
 <h4 id="heading-indentation-pythons-unique-way-of-structuring-code">Indentation: Python's unique way of structuring code</h4>
-In Python, indentation is not merely a stylistic choice – it's a fundamental aspect of the language's syntax. 
+In Python, indentation is not merely a stylistic choice - it's a fundamental aspect of the language's syntax. 
 
 Unlike languages like Java, which use curly braces `{}` to define code blocks, Python relies on consistent indentation to indicate the grouping of statements.
 
@@ -549,7 +549,7 @@ for</span> num in</span> [</span>1</span>,</span> 2</span>,</span> 3</span>,</sp
 By mastering control flow, you gain the ability to create versatile and adaptable programs that can handle diverse data scenarios. This knowledge will be invaluable as you tackle increasingly complex data analysis tasks in the upcoming chapters.
 
 <h5 id="heading-code-example">Code Example</h5>
-This code demonstrates how Python's control flow tools – loops (`for`, `while`) and conditional statements (`if...else`) – can be used to analyze structured customer data.
+This code demonstrates how Python's control flow tools - loops (`for`, `while`) and conditional statements (`if...else`) - can be used to analyze structured customer data.
 
 ```py
 # Scenario: Analyzing Customer Data</span>
@@ -1250,7 +1250,7 @@ print</span>(</span><span class="token string-interpolation">f"Total size of '</
 This demonstrates recursion's usefulness in several ways:
 
 - **Navigating Complex Structures:** Directory structures are inherently hierarchical (tree-like). Recursion allows you to elegantly traverse this structure without needing complex loops or manual tracking of subdirectories.
-<li>**Conciseness:** The recursive implementation is quite compact and expresses the logic in a way that closely mirrors how we think about directory sizes – the size of a directory is the sum of the sizes of its contents.
+<li>**Conciseness:** The recursive implementation is quite compact and expresses the logic in a way that closely mirrors how we think about directory sizes - the size of a directory is the sum of the sizes of its contents.
 <li>**Scalability:** This function can handle arbitrarily deep directory hierarchies without modification. It naturally adapts to the structure of the data.
 
 **Key Points:**
@@ -1730,7 +1730,7 @@ western_sales =</span> sales_data[</span>sales_data[</span>'Region'</span>]</spa
 ```
 
 <h4 id="heading-sorting-organizing-your-data-for-clarity">Sorting: Organizing Your Data for Clarity</h4>
-Sorting is like arranging your books on a shelf – it brings order and structure to your data. Pandas provides flexible sorting capabilities, allowing you to sort your DataFrame by one or more columns in ascending or descending order.
+Sorting is like arranging your books on a shelf - it brings order and structure to your data. Pandas provides flexible sorting capabilities, allowing you to sort your DataFrame by one or more columns in ascending or descending order.
 
 For instance, you can sort customer data by purchase date to see your most recent transactions or sort product data by sales volume to identify your top-performing items. Sorted data provides a clearer picture of relationships and trends, making it easier to draw meaningful conclusions.
 
@@ -1762,13 +1762,13 @@ sales_pivot =</span> sales_data.</span>pivot_table(</span>values=</span>'Sales'<
 <h4 id="heading-embrace-the-power-of-pandas">Embrace the Power of Pandas</h4>
 By mastering these data manipulation techniques, you'll gain the ability to extract meaningful insights from your data quickly and efficiently. Pandas is your versatile partner in the quest for data-driven decision-making.
 
-Remember, effective data analysis isn't just about having data – it's about knowing how to wield it. With Pandas, you'll be well-equipped to uncover the hidden patterns, trends, and opportunities that lie within your datasets, empowering you to make informed choices that drive your organization forward.
+Remember, effective data analysis isn't just about having data - it's about knowing how to wield it. With Pandas, you'll be well-equipped to uncover the hidden patterns, trends, and opportunities that lie within your datasets, empowering you to make informed choices that drive your organization forward.
 
 <h4 id="heading-213-data-cleaning">2.1.3 Data Cleaning</h4>
 Real-world data is rarely perfect. It's often riddled with missing values, outliers that skew your analysis, and inconsistencies that can undermine your conclusions. Data scientists often feel that cleaning and preparing data is the most time-consuming part of their job. But fear not, Pandas is your trusted ally in this essential task.
 
 <h5 id="heading-taming-missing-values-the-art-of-imputation">Taming Missing Values: The Art of Imputation</h5>
-Missing values are like blank spaces in a puzzle – they obscure the complete picture.  
+Missing values are like blank spaces in a puzzle - they obscure the complete picture.  
 
 Pandas offers several strategies to fill those gaps:
 
@@ -1814,7 +1814,7 @@ df[</span>'Date'</span>]</span> =</span> pd.</span>to_datetime(</span>df[</span>
 df[</span>'Category'</span>]</span> =</span> df[</span>'Category'</span>]</span>.</span>replace(</span>{</span>'Mens'</span>:</span>'Men'</span>,</span> 'Womens'</span>:</span>'Women'</span>}</span>)</span>
 ```
 
-Data cleaning is not a glamorous task, but it's a crucial one – and you should embrace it. Investing time in cleaning your data will pay dividends in the accuracy and reliability of your analysis.
+Data cleaning is not a glamorous task, but it's a crucial one - and you should embrace it. Investing time in cleaning your data will pay dividends in the accuracy and reliability of your analysis.
 
 **Remember:** Garbage in, garbage out. Clean data is the foundation of sound decision-making.
 
@@ -1825,14 +1825,14 @@ The initial exploration of a dataset is akin to a detective's first steps at a c
 Pandas offers a wealth of functions designed to illuminate your data's essential characteristics:
 
 - **`df.head()` and `df.tail()`:**  These functions offer a quick glimpse into your data, revealing the first or last few rows of your DataFrame. This is your initial "hello" to the dataset, providing a sense of its structure and content.
-<li>**`df.info()`:** Gain a high-level overview of your data, including column names, data types, and the number of non-null values. This is like checking the inventory at the crime scene – understanding what you're working with.
+<li>**`df.info()`:** Gain a high-level overview of your data, including column names, data types, and the number of non-null values. This is like checking the inventory at the crime scene - understanding what you're working with.
 <li>**`df.describe()`:** Uncover key statistical summaries of your numerical columns, such as mean, median, standard deviation, and quartiles. This is your statistical snapshot, revealing central tendencies and variability.
 <li>**`df.value_counts()`:** For categorical columns, this function reveals the frequency of each unique value, giving you a sense of the distribution of your data.
-<li>**`df.corr()`:** Calculate correlations between numerical columns to identify potential relationships and dependencies. This is like finding fingerprints at the scene – evidence of connections within the data.
+<li>**`df.corr()`:** Calculate correlations between numerical columns to identify potential relationships and dependencies. This is like finding fingerprints at the scene - evidence of connections within the data.
 <li>**Visualization:** Pandas seamlessly integrates with visualization libraries like Matplotlib and Seaborn, allowing you to create informative plots to further explore your data. Histograms, scatter plots, and bar charts are just a few examples of visualizations that can reveal patterns, outliers, and distributions.
 
 <h5 id="heading-the-power-of-exploratory-data-analysis-eda">The Power of Exploratory Data Analysis (EDA)</h5>
-Investing time in EDA is not merely a preliminary step – it's a critical phase that can save you hours of frustration down the line.
+Investing time in EDA is not merely a preliminary step - it's a critical phase that can save you hours of frustration down the line.
 
 Data scientists spend a lot of their time on data cleaning and preparation, including EDA. This investment pays off by ensuring your analysis is accurate, your models are robust, and your insights are meaningful.
 
@@ -2179,10 +2179,10 @@ In this section, we'll dive into Matplotlib and learn how to create different ty
 
 <h4 id="heading-231-basic-plots">2.3.1 Basic Plots</h4>
 <blockquote>
-"The simple graph has brought more information to the data analyst's mind than any other device." – John Tukey, Statistician
+"The simple graph has brought more information to the data analyst's mind than any other device." - John Tukey, Statistician
 
 </blockquote>
-Visuals aren't just pretty pictures – they're the key to unlocking your data's potential. Matplotlib's basic plot types empower you to tell compelling stories, reveal hidden patterns, and communicate complex insights with clarity.
+Visuals aren't just pretty pictures - they're the key to unlocking your data's potential. Matplotlib's basic plot types empower you to tell compelling stories, reveal hidden patterns, and communicate complex insights with clarity.
 
 <h5 id="heading-line-charts-unveiling-trends-over-time">Line Charts: Unveiling Trends Over Time</h5>
 Line charts are your go-to tool for visualizing trends and changes over time. Whether you're tracking sales figures, stock prices, or temperature fluctuations, line charts paint a clear picture of how your data evolves.
@@ -2279,7 +2279,7 @@ In the code above, we:
 <li>Display the plot using plt.show()
 
 <h4 id="heading-232-customization">2.3.2 Customization</h4>
-Your data visualizations are more than just graphs and charts – they're a form of visual communication that can captivate, inform, and inspire action. 
+Your data visualizations are more than just graphs and charts - they're a form of visual communication that can captivate, inform, and inspire action. 
 
 Matplotlib's extensive customization options empower you to craft visuals that not only showcase your data but also tell a compelling story.
 
@@ -2370,7 +2370,7 @@ In this series of examples, we will make use of the following example CSV file.
 
 Real-world data is rarely pristine. It often arrives in messy CSV files, riddled with missing values, inconsistent formats, and other imperfections that can derail your analysis. 
 
-But fear not – Pandas is your trusty sidekick in this data wrangling adventure. Let's walk through the essential steps of importing and cleaning data using Pandas and our sample CSV file, `sales_data.csv`.
+But fear not - Pandas is your trusty sidekick in this data wrangling adventure. Let's walk through the essential steps of importing and cleaning data using Pandas and our sample CSV file, `sales_data.csv`.
 
 <h4 id="heading-step-1-import-your-data">Step 1: Import Your Data</h4>
 First, make sure you have the `sales_data.csv` file in your working directory (or provide the correct file path). Then, use Pandas' `read_csv` function to import it into a DataFrame:
@@ -2487,7 +2487,7 @@ print</span>(</span>total_sales_by_category.</span>to_markdown(</span>numalign=<
 
 With your data loaded and cleaned, it's time to embark on the exciting journey of data exploration. Pandas equips you with a powerful suite of functions to analyze your dataset, uncover hidden patterns, and gain actionable insights.
 
-<h4 id="heading-dfdescribe-quantitative-snapshot">`df.describe()` – Quantitative Snapshot</h4>
+<h4 id="heading-dfdescribe-quantitative-snapshot">`df.describe()` - Quantitative Snapshot</h4>
 This function provides a concise statistical summary of your numerical columns. It's your initial reconnaissance mission, revealing central tendencies (mean, median), dispersion (standard deviation, range), and distribution quartiles. 
 
 This high-level overview quickly reveals potential outliers and distributions that warrant further investigation.
@@ -2496,7 +2496,7 @@ This high-level overview quickly reveals potential outliers and distributions th
 print</span>(</span>df.</span>describe(</span>)</span>.</span>to_markdown(</span>numalign=</span>"left"</span>,</span> stralign=</span>"left"</span>)</span>)</span>
 ```
 
-<h4 id="heading-dfgroupby-segmenting-for-deeper-insights">`df.groupby()` – Segmenting for Deeper Insights</h4>
+<h4 id="heading-dfgroupby-segmenting-for-deeper-insights">`df.groupby()` - Segmenting for Deeper Insights</h4>
 Grouping is a fundamental technique in data analysis. Pandas' `groupby()` function allows you to segment your data based on categorical variables. 
 
 For instance, you can group your sales data by customer segment or product category to understand how these factors influence sales performance.
@@ -2506,7 +2506,7 @@ sales_by_segment =</span> df.</span>groupby(</span>'Segment'</span>)</span>[</sp
 print</span>(</span>sales_by_segment.</span>to_markdown(</span>numalign=</span>"left"</span>,</span> stralign=</span>"left"</span>)</span>)</span>
 ```
 
-<h4 id="heading-dfvaluecounts-distribution-analysis">`df.value_counts()` –  Distribution Analysis</h4>
+<h4 id="heading-dfvaluecounts-distribution-analysis">`df.value_counts()` -  Distribution Analysis</h4>
 Understanding the frequency distribution of categorical variables is crucial for identifying common patterns and potential anomalies. `.value_counts()` reveals how often each unique value appears in a column, giving you a snapshot of the distribution.
 
 ```py
@@ -2764,7 +2764,7 @@ Finally, you'll embark on the journey of exploratory data analysis (EDA). This i
 
 By the end of this chapter, you'll have a solid grasp of the fundamental concepts and techniques of data analysis. You'll be able to confidently explore and interpret datasets, paving the way for more advanced analysis and modeling techniques.
 
-Remember, data is not just numbers and categories – it's a story waiting to be told. By mastering these foundational skills, you'll become a skilled storyteller, capable of extracting meaningful insights and driving data-informed decision-making.
+Remember, data is not just numbers and categories - it's a story waiting to be told. By mastering these foundational skills, you'll become a skilled storyteller, capable of extracting meaningful insights and driving data-informed decision-making.
 
 ### -41-data-types-and-structures">4.1 Data Types and Structures
 
@@ -2919,7 +2919,7 @@ Think of it as a detective examining clues at a crime scene. Descriptive statist
 So, are you ready to unveil the secrets hidden within your data? Let's dive into the fascinating world of descriptive statistics and unlock the power of your data to drive meaningful change.
 
 <h4 id="heading-421-measures-of-central-tendency">4.2.1 Measures of Central Tendency:</h4>
-Understanding the central tendency of your data is like finding the heart of a story – it gives you a sense of the typical or average value. These measures provide a quick snapshot of your data's central location, offering valuable insights into its overall behavior. 
+Understanding the central tendency of your data is like finding the heart of a story - it gives you a sense of the typical or average value. These measures provide a quick snapshot of your data's central location, offering valuable insights into its overall behavior. 
 
 Let's delve into the three main measures of central tendency:
 
@@ -2952,7 +2952,7 @@ The mean provides a measure of the "center" of your data. If the data points wer
 
 **Significance of Outliers:**
 
-One of the most important considerations when interpreting the mean is its sensitivity to outliers – extreme values that deviate significantly from the rest of the data. Since the mean takes into account every value in the dataset, a single outlier can drastically pull the mean towards it, potentially leading to a misleading representation of the central tendency.
+One of the most important considerations when interpreting the mean is its sensitivity to outliers - extreme values that deviate significantly from the rest of the data. Since the mean takes into account every value in the dataset, a single outlier can drastically pull the mean towards it, potentially leading to a misleading representation of the central tendency.
 
 For example, consider a dataset representing the salaries of 10 employees: {30,000, 35,000, 40,000, 45,000, 50,000, 55,000, 60,000, 65,000, 500,000}. The outlier salary of $500,000 significantly inflates the mean, making it appear that the average salary is much higher than it actually is for most employees.
 
@@ -3258,7 +3258,7 @@ Where:
 
 **Coffee Shop Service Example:** Two coffee shops have the same average wait time of 5 minutes. However, Shop A has a standard deviation of 1 minute, while Shop B has a standard deviation of 3 minutes. This means that the wait times at Shop A are more consistent, typically ranging between 4 and 6 minutes, while the wait times at Shop B are more unpredictable, ranging from 2 to 8 minutes. If you value consistent service, Shop A is the clear choice.
 
-**Practical Advice:** Don't just calculate the standard deviation – use it to gain actionable insights. Combine it with other statistical measures and visualizations to fully comprehend your data's behavior. 
+**Practical Advice:** Don't just calculate the standard deviation - use it to gain actionable insights. Combine it with other statistical measures and visualizations to fully comprehend your data's behavior. 
 
 Embrace standard deviation as your guide to understanding variation, making informed decisions, and driving improvements in your personal and professional endeavors.
 
@@ -3299,7 +3299,7 @@ Where:
 **Practical Advice:** Don't let skewness intimidate you. Statistical software can easily calculate it for you. Focus on understanding what it reveals about your data. Is your data symmetrical or skewed? If skewed, which way? How does this knowledge impact your analysis and decision-making? By embracing skewness, you unlock a deeper understanding of your data's story.
 
 <h5 id="heading-kurtosis-a-measure-of-the-tailedness-of-a-probability-distribution">Kurtosis: A measure of the "tailedness" of a probability distribution.</h5>
-Imagine your data as a silhouette against the horizon. Kurtosis reveals whether that silhouette is sleek and slender or broad and heavy-set. Technically, it's a measure of the "tailedness" of a probability distribution – the degree to which outliers (extreme values) are present in your data. This tells you how much of the data is concentrated near the mean versus spread out in the tails.
+Imagine your data as a silhouette against the horizon. Kurtosis reveals whether that silhouette is sleek and slender or broad and heavy-set. Technically, it's a measure of the "tailedness" of a probability distribution - the degree to which outliers (extreme values) are present in your data. This tells you how much of the data is concentrated near the mean versus spread out in the tails.
 
 Kurtosis equips you with a deeper understanding of your data's shape, enabling you to:
 
@@ -3379,7 +3379,7 @@ Percentiles provide valuable insights into relative standing and performance:
 
 - **Benchmarking:** Standardized tests often report scores in percentiles, allowing students to compare their performance to others nationwide. This helps identify areas of strength and weakness.
 <li>**Growth Tracking:** Monitoring changes in percentile scores over time can reveal individual or group progress. For example, a student whose math percentile increases from the 60th to the 80th percentile has shown significant improvement.
-<li>**Identifying Outliers:** Extreme percentiles (for example, the 99th percentile) can help identify outliers – individuals or data points that are exceptionally high or low compared to the rest of the group.
+<li>**Identifying Outliers:** Extreme percentiles (for example, the 99th percentile) can help identify outliers - individuals or data points that are exceptionally high or low compared to the rest of the group.
 <li>**Setting Standards:** Percentiles can be used to establish benchmarks or thresholds for performance. For example, a company might set a goal for its sales team to reach the 75th percentile in revenue generation.
 
 Calculating percentiles involves several steps:
@@ -3393,7 +3393,7 @@ Calculating percentiles involves several steps:
 
 **Infant Growth Example:** Pediatricians often use growth charts that plot percentiles for weight and height based on age and gender. If a baby's weight is at the 50th percentile, it means they weigh more than 50% of babies their age and gender. This helps parents and doctors track the child's growth and development compared to their peers.
 
-**Practical Advice:** Don't just focus on your percentile – consider the context and distribution of the data. A high percentile in one group might not be as impressive in another group with a higher overall performance. Use percentiles as a tool to understand relative standing, track progress, and set goals.
+**Practical Advice:** Don't just focus on your percentile - consider the context and distribution of the data. A high percentile in one group might not be as impressive in another group with a higher overall performance. Use percentiles as a tool to understand relative standing, track progress, and set goals.
 
 <h4 id="heading-426-quartiles">4.2.6 Quartiles</h4>
 Imagine your data as a map, charted from lowest to highest values. Quartiles are like compass points that divide your map into four equal territories, each representing 25% of your data. They're specific percentiles: Q1 (25th percentile), Q2 (50th percentile, also the median), and Q3 (75th percentile).
@@ -3426,7 +3426,7 @@ Quartiles provide valuable insights into your data's structure:
 Quartiles are a valuable tool for understanding the distribution of your data. Combine them with other descriptive statistics and visualizations (like histograms and box plots) to gain a comprehensive picture of your data's central tendency, spread, and potential outliers. Remember, quartiles are your compass points for navigating the landscape of your data, guiding you towards actionable insights.
 
 <h4 id="heading-427-box-plot-box-and-whisker-plot">4.2.7 Box Plot (Box and Whisker Plot):</h4>
-Imagine your data as a story with characters spread across different scenes. A box plot is like a movie trailer, summarizing the key plot points – the central action and the dramatic outliers. Technically, it's a visual representation of a dataset's distribution using five key numbers: the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum.
+Imagine your data as a story with characters spread across different scenes. A box plot is like a movie trailer, summarizing the key plot points - the central action and the dramatic outliers. Technically, it's a visual representation of a dataset's distribution using five key numbers: the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum.
 
 Box plots provide a concise yet powerful summary of your data's essential features:
 
@@ -3452,14 +3452,14 @@ A box plot tells a visual story about your data:
 
 **Real Estate Prices Example:** Imagine comparing housing prices in two neighborhoods. A box plot can quickly reveal that one neighborhood has a higher median price but also a wider range of prices, indicating greater variability in housing options. This visual comparison allows potential buyers to quickly grasp the key differences between the two markets.
 
-**Practical Advice:** Don't just view a box plot – engage with it. Ask yourself questions: What's the story your data is telling? Are there outliers? Is the distribution skewed? How do different groups compare? By interacting with the box plot, you unlock its full potential for understanding your data and making informed decisions.
+**Practical Advice:** Don't just view a box plot - engage with it. Ask yourself questions: What's the story your data is telling? Are there outliers? Is the distribution skewed? How do different groups compare? By interacting with the box plot, you unlock its full potential for understanding your data and making informed decisions.
 
 <h4 id="heading-428-outliers">4.2.8 Outliers:</h4>
-Imagine your data as a flock of birds flying in formation. Outliers are the mavericks – those birds that stray significantly from the group, soaring higher or dipping lower than the rest. 
+Imagine your data as a flock of birds flying in formation. Outliers are the mavericks - those birds that stray significantly from the group, soaring higher or dipping lower than the rest. 
 
 In statistical terms, outliers are data points that differ substantially from the majority of observations in your dataset. They stand out, defying the norms and challenging your assumptions.
 
-**Purpose and Use:** Outliers are not just anomalies – they are valuable clues that can unlock hidden truths within your data:
+**Purpose and Use:** Outliers are not just anomalies - they are valuable clues that can unlock hidden truths within your data:
 
 - **Data Quality Assurance:** In data collection and entry, outliers often signal errors or inconsistencies. Identifying and correcting these outliers can significantly improve the accuracy and reliability of your analysis.
 <li>**Uncovering Anomalies:** In fraud detection, outliers can be red flags for suspicious activity. For instance, an unusually large transaction in a customer's spending pattern might warrant further investigation.
@@ -3589,7 +3589,7 @@ Beyond its practical applications, EDA cultivates a culture of curiosity and inn
 
 These discoveries can spark new questions, challenge existing assumptions, and drive the pursuit of deeper insights.
 
-In essence, EDA is not merely a preliminary step – it's a continuous process of discovery that fuels data-driven decision-making, fosters innovation, and ultimately leads to more meaningful and impactful outcomes.
+In essence, EDA is not merely a preliminary step - it's a continuous process of discovery that fuels data-driven decision-making, fosters innovation, and ultimately leads to more meaningful and impactful outcomes.
 
 <h4 id="heading-the-eda-toolkit-your-arsenal-for-data-exploration">The EDA Toolkit: Your Arsenal for Data Exploration</h4>
 Exploratory Data Analysis (EDA) equips analysts with a robust suite of methodologies designed to facilitate a deep understanding of their datasets. These tools enable the identification of underlying patterns, relationships, and anomalies, laying the groundwork for accurate and insightful analysis.
@@ -3827,7 +3827,7 @@ print</span>(</span>grouped_stats)</span>
 ```
 
 <h4 id="heading-eda-in-action-real-world-applications-across-industries">EDA in Action: Real-World Applications Across Industries</h4>
-Exploratory Data Analysis (EDA) isn't confined to textbooks and research labs – it's a dynamic tool that's transforming industries and empowering professionals to make data-driven decisions that have real-world impact. 
+Exploratory Data Analysis (EDA) isn't confined to textbooks and research labs - it's a dynamic tool that's transforming industries and empowering professionals to make data-driven decisions that have real-world impact. 
 
 From retail giants to healthcare providers, from social scientists to environmental activists, EDA is the key to unlocking valuable insights and driving innovation.
 
@@ -3910,7 +3910,7 @@ You'll need a few things before you get started:
 As a developer, you know the power of data. But have you ever harnessed that power to drive real-world business outcomes? The Superstore Analytics Project is your opportunity to do just that. This chapter will help you:
 
 - **Become a Customer Insights Strategist:** Uncover the hidden motivations behind customer behavior. Using Python libraries like Pandas and Scikit-learn, you'll segment customers into actionable groups and identify opportunities for personalized marketing that truly resonates.
-<li>**Pioneer New Markets and Optimize Supply Chains:** Spatial analysis isn't just for maps – it's a powerful tool for identifying high-potential markets and streamlining logistics. Leverage libraries like Folium and NumPy to visualize data and guide strategic expansion decisions.
+<li>**Pioneer New Markets and Optimize Supply Chains:** Spatial analysis isn't just for maps - it's a powerful tool for identifying high-potential markets and streamlining logistics. Leverage libraries like Folium and NumPy to visualize data and guide strategic expansion decisions.
 <li>**Drive Revenue with High-Value Customer Retention:** The Pareto principle applies to customers too: a small percentage drive a large portion of revenue. Identify these VIPs through data analysis, then develop tailored strategies to maximize their lifetime value.
 <li>**Master the Art of Product Profitability Analysis:** Pandas and Matplotlib/Seaborn will be your allies as you dive into product sales data. Unearth top performers, uncover emerging trends, and make data-driven recommendations to optimize inventory and boost profitability.
 <li>**Elevate Store Performance through Location Intelligence:** GeoPandas and Plotly are your tools for unlocking insights hidden in store location data. Identify underperforming stores, benchmark against high performers, and make targeted recommendations for improvement.
@@ -3942,7 +3942,7 @@ This comprehensive dataset offers four years of detailed sales records from a gl
 - **Real-World Complexity:** Data mirrors the multifaceted nature of a global retail operation, offering greater realism than simulated datasets.
 <li>**Adaptive to Your Needs:** Supports a range of analytical techniques, from basic trend identification to sophisticated forecasting methodologies.
 
-This dataset can help you learn how to unlock valuable insights from real-world retail data – that's why we're using it here.
+This dataset can help you learn how to unlock valuable insights from real-world retail data - that's why we're using it here.
 
 ### -code-walkthrough">Code Walkthrough:
 
@@ -4264,7 +4264,7 @@ print</span>(</span>state_city_sales.</span>head(</span>20</span>)</span>)</span
 **Insights You Gain**:
 
 - **Target Marketing:** Focus on high-performing states/cities where your customer base is large.
-<li>**Expansion Planning:** Spot states with lots of customers but low sales – maybe there's room to grow.
+<li>**Expansion Planning:** Spot states with lots of customers but low sales - maybe there's room to grow.
 <li>**Localize Offers:** Tailor promotions to specific locations based on their spending habits.
 
 <h5 id="heading-exploring-your-product-mix">Exploring Your Product Mix</h5>

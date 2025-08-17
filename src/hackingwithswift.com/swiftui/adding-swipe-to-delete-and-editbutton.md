@@ -58,7 +58,7 @@ Before we're done with this app, let's make a handful of smaller changes that he
 
 First, what happens if the user looks at their order and decides against one of the items? Right now we can _add_ items but can't _delete_ them, but this isn't too hard to remedy.
 
-Just like UIKit, SwiftUI's `List` view can be manipulated using `IndexSet` – a collection of locations in its data. So, we can add a method to `OrderView` that accepts an `IndexSet` and uses it to delete those items from our order array:
+Just like UIKit, SwiftUI's `List` view can be manipulated using `IndexSet` - a collection of locations in its data. So, we can add a method to `OrderView` that accepts an `IndexSet` and uses it to delete those items from our order array:
 
 ```swift
 func deleteItems(at offsets: IndexSet) {
@@ -66,7 +66,7 @@ func deleteItems(at offsets: IndexSet) {
 }
 ```
 
-To connect that to SwiftUI, we need to add an `onDelete()` modifier to the `ForEach` that shows the menu items in the order. This accepts a closure that will be executed when deletion happens, and that closure must accept an `IndexSet` and delete those items – basically exactly what our `deleteItems(at:)` method already does.
+To connect that to SwiftUI, we need to add an `onDelete()` modifier to the `ForEach` that shows the menu items in the order. This accepts a closure that will be executed when deletion happens, and that closure must accept an `IndexSet` and delete those items - basically exactly what our `deleteItems(at:)` method already does.
 
 Modify the first section in the `OrderView` form to this:
 
@@ -93,7 +93,7 @@ Add this after the `navigationTitle()` modifier in `OrderView`:
 }
 ```
 
-SwiftUI already knows that an edit button should toggle the table between editing and non-editing mode, while also changing title between Edit and Done – another example of us getting the system default behavior for free.
+SwiftUI already knows that an edit button should toggle the table between editing and non-editing mode, while also changing title between Edit and Done - another example of us getting the system default behavior for free.
 
 Let's move on to a second upgrade: why do we let users press the Place Order button if they haven't added anything to their order? This doesn't make sense, and we shouldn't really allow it. So, let's _not_ allow it!
 

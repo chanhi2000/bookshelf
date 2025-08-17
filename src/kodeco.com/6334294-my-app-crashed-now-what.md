@@ -145,7 +145,7 @@ In the first exhibit, you’ll see some of these situations, but it’s good to 
 
 ---
 
-## Exhibit A: Dark Force – Force Unwrapping
+## Exhibit A: Dark Force - Force Unwrapping
 
 Build and run the app, then open the first item — titled **Force Unwrapping** — in the gallery screen.
 

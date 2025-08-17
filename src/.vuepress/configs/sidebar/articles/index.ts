@@ -46,6 +46,7 @@ import { template as TEMPLATE_DEVTOOLSTIPS } from './devtoolstips.org';
 import { template as TEMPLATE_PICCALILLI } from './piccalil.li';
 import { template as TEMPLATE_JOHNNYREILLY } from'./johnnyreilly.com';
 import { template as TEMPLATE_CODEMAZE } from './code-maze.com';
+import { template as TEMPLATE_C_SHARPCORNER } from './c-sharpcorner.com';
 import { template as TEMPLATE_TOWARDSDATASCIENCE } from './towardsdatascience.com';
 import { template as TEMPLATE_SHOPIFY } from './shopify.engineering';
 import { template as TEMPLATE_RUTGO_LETSGO } from './tistory.com/rutgo-letsgo';
@@ -174,6 +175,7 @@ export const articleSidebars = {
   piccalilli:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_PICCALILLI, type),
   johnnyreilly:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOHNNYREILLY, type),
   codemaze:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CODEMAZE, type),
+  csharpcorner:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_C_SHARPCORNER, type),
   devkuma:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DEVKUMA, type),
   devtoolstips:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DEVTOOLSTIPS, type), 
   towardsdatascience: (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TOWARDSDATASCIENCE, type),

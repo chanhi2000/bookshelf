@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI’s `@FetchRequest` property wrapper is great for making simple requests for objects, providing both sorting and filtering. But if you want to adjust the number of items you get back – perhaps to say “show me the first 10 items in my results” – then you need to do a little more work yourself.
+SwiftUI’s `@FetchRequest` property wrapper is great for making simple requests for objects, providing both sorting and filtering. But if you want to adjust the number of items you get back - perhaps to say “show me the first 10 items in my results” - then you need to do a little more work yourself.
 
 First, create your `@FetchRequest` property without an initial value. For example, if we wanted to work with a “ProgrammingLanguage” entity we might use this:
 

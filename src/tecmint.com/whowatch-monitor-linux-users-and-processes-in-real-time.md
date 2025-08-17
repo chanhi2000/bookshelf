@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "whowatch – Monitor Linux Users and Processes in Real Time"
-description: "Article(s) > whowatch – Monitor Linux Users and Processes in Real Time"
+title: "whowatch - Monitor Linux Users and Processes in Real Time"
+description: "Article(s) > whowatch - Monitor Linux Users and Processes in Real Time"
 icon: iconfont icon-shell
 category: 
   - Shell
@@ -32,9 +32,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > whowatch – Monitor Linux Users and Processes in Real Time"
+      content: "Article(s) > whowatch - Monitor Linux Users and Processes in Real Time"
     - property: og:description
-      content: "whowatch – Monitor Linux Users and Processes in Real Time"
+      content: "whowatch - Monitor Linux Users and Processes in Real Time"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/whowatch-monitor-linux-users-and-processes-in-real-time.html
 prev: /programming/sh/articles/README.md
@@ -83,7 +83,7 @@ cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Proc
 ---
 
 <SiteInfo
-  name="whowatch – Monitor Linux Users and Processes in Real Time"
+  name="whowatch - Monitor Linux Users and Processes in Real Time"
   desc="whowatch is a simple, easy-to-use interactive who-like command line program for monitoring processes and users on a Linux system in real time."
   url="https://tecmint.com/whowatch-monitor-linux-users-and-processes-in-real-time"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"
@@ -168,7 +168,7 @@ That’s all! `whowatch` is a simple, easy-to-use interactive command line utili
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "whowatch – Monitor Linux Users and Processes in Real Time",
+  "title": "whowatch - Monitor Linux Users and Processes in Real Time",
   "desc": "whowatch is a simple, easy-to-use interactive who-like command line program for monitoring processes and users on a Linux system in real time.",
   "link": "https://chanhi2000.github.io/bookshelf/tecmint.com/whowatch-monitor-linux-users-and-processes-in-real-time.html",
   "logo": "https://tecmint.com/wp-content/uploads/2020/07/favicon.ico",

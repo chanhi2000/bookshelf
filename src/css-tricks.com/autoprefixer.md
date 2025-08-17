@@ -96,7 +96,7 @@ Lea Verou’s [<FontIcon icon="fas fa-globe"/>-prefix-free](http://leaverou.gith
 
 ## Under the Hood
 
-Instead of being a preprocessor – such as Sass and Stylus – Autoprefixer is a postprocessor. It doesn’t use any specific syntax and works with common CSS. Autoprefixer can be easily integrated with Sass and Stylus, since it runs after CSS is already compiled.
+Instead of being a preprocessor - such as Sass and Stylus - Autoprefixer is a postprocessor. It doesn’t use any specific syntax and works with common CSS. Autoprefixer can be easily integrated with Sass and Stylus, since it runs after CSS is already compiled.
 
 Autoprefixer is based on [Rework (<FontIcon icon="iconfont icon-github"/>`visionmedia/rework`)](https://github.com/visionmedia/rework), a framework for writing your own CSS postproccesors. Rework parses CSS to useful JavaScript structure and exports it back to CSS after your manipulations.
 

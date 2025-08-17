@@ -126,7 +126,7 @@ When you’re learning to code, you’re focused on making things *work*—not m
 
 The difference between working code and blazing-fast code often comes down to avoiding a few common mistakes. Mistakes that are easy to make when you’re starting out, like using the wrong tool for the job, writing unnecessary code, or accidentally torturing your computer with hidden inefficiencies.
 
-I’ve been there. I once wrote a “quick” script to analyze data. It ran for 3 hours. Turns out, changing one line of code cut it to 10 seconds. Yes I was dumb when I was learning – but I don’t want you to be, too.
+I’ve been there. I once wrote a “quick” script to analyze data. It ran for 3 hours. Turns out, changing one line of code cut it to 10 seconds. Yes I was dumb when I was learning - but I don’t want you to be, too.
 
 That’s the power of understanding performance.
 

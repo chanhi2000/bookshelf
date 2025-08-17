@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,5 +59,5 @@ To sweeten the deal, I'm going to use this opportunity to teach you lots of new 
 
 To get started, create a new Xcode project using the Single View App template, and call it Project4. Make sure Swift is selected for the language, then save the project on your desktop.
 
-Open up <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, select the view controller, and choose Editor > Embed In > Navigation Controller – that's our storyboard finished. Nice!
+Open up <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, select the view controller, and choose Editor > Embed In > Navigation Controller - that's our storyboard finished. Nice!
 

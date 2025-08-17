@@ -44,7 +44,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Key features in Swift – Hacking with Swift",
+  "title": "Key features in Swift - Hacking with Swift",
   "desc": "Key features in Swift",
   "link": "https://hackingwithswift.com/new-features-swift-2",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -56,7 +56,7 @@ I already wrote overviews of [all the new features of Swift 2](/hackingwithswift
 
 So, I wrote four short articles explaining four key new features in Swift 2 syntax: try catch error handling, guard, defer and API availability checking.
 
-You can work through them in any order you want – enjoy!
+You can work through them in any order you want - enjoy!
 
 ::: info UPDATE
 
@@ -65,9 +65,9 @@ I put together a [huge and free collection of Swift example code](/hackingwithsw
 
 :::
 
-- [Error handling in Swift 2: `try`, `catch`, `do` and `throw`](/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch.md) – it's been entirely rewritten to be modern, fast and safe, and unless you use only a small subset of the iOS APIs you're going to need to learn about it,
-- [The `guard` keyword in Swift 2: early returns made easy](/hackingwithswift.com/new-syntax-swift-2-guard.md) – `guard` takes an `if` statement and adds extra optional unwrapping power, amongst other things.
-- [The `defer` keyword in Swift 2: `try`/`finally` done right](/hackingwithswift.com/new-syntax-swift-2-defer.md") – if you return from a method at the end or part way through, or if you exit a method by throwing an error, your deferred work will take place.
-- [Availability checking in Swift 2: backwards compatibility the smart way](/hackingwithswift.com/new-syntax-swift-2-availability-checking.md) – great for using `if #available` to run version-specific code in small blocks.
+- [Error handling in Swift 2: `try`, `catch`, `do` and `throw`](/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch.md) - it's been entirely rewritten to be modern, fast and safe, and unless you use only a small subset of the iOS APIs you're going to need to learn about it,
+- [The `guard` keyword in Swift 2: early returns made easy](/hackingwithswift.com/new-syntax-swift-2-guard.md) - `guard` takes an `if` statement and adds extra optional unwrapping power, amongst other things.
+- [The `defer` keyword in Swift 2: `try`/`finally` done right](/hackingwithswift.com/new-syntax-swift-2-defer.md") - if you return from a method at the end or part way through, or if you exit a method by throwing an error, your deferred work will take place.
+- [Availability checking in Swift 2: backwards compatibility the smart way](/hackingwithswift.com/new-syntax-swift-2-availability-checking.md) - great for using `if #available` to run version-specific code in small blocks.
 
 

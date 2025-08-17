@@ -54,13 +54,13 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftData is a fast, powerful, and easy-to-use way to store data in apps built for iOS, macOS, tvOS, watchOS, and even visionOS. It lets us create custom objects, define how they link together, retrieve them with filtering and sorting, and even synchronize them to iCloud – and much more too.
+SwiftData is a fast, powerful, and easy-to-use way to store data in apps built for iOS, macOS, tvOS, watchOS, and even visionOS. It lets us create custom objects, define how they link together, retrieve them with filtering and sorting, and even synchronize them to iCloud - and much more too.
 
 Not only does SwiftData take full advantage of the latest Swift language features, but it’s also built with SwiftUI in mind: if you’re building apps with SwiftUI, you’ll find SwiftData slots in almost invisibly.
 
 Behind the scenes, SwiftData is powered by a much bigger and more mature framework called Core Data. That brings all sorts of benefits, not least 20 years of development and maturity. But SwiftData is more than just a simple overlay: Apple really went to town in isolating and resolving the key pain points developers were reporting with the older framework, meaning that SwiftData is a significant improvement for anyone who has used Core Data in the past.
 
-One downside is that SwiftData supports only iOS 17 or later, along with other coordinated releases – that’s macOS Sonoma, tvOS 17, watchOS 10, and visionOS 1.0.
+One downside is that SwiftData supports only iOS 17 or later, along with other coordinated releases - that’s macOS Sonoma, tvOS 17, watchOS 10, and visionOS 1.0.
 
 SwiftData makes a great choice for any kind of on-device storage, including:
 

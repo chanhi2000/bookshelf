@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ view.addGestureRecognizer(swipe)
 view.addGestureRecognizer(tap)
 ```
 
-A swipe gesture is a tap followed by a linear movement, whereas a tap is just a tap – we need to make sure the swipe gesture has definitely not been recognizer before the tap gesture is checked.
+A swipe gesture is a tap followed by a linear movement, whereas a tap is just a tap - we need to make sure the swipe gesture has definitely not been recognizer before the tap gesture is checked.
 
 iOS often does a fairly good job of this, but there’s no need to leave it up to chance: if you call `require(toFail:)` on the tap gesture recognizer, passing in the swipe recognizer, iOS will definitely make sure they don’t compete:
 

@@ -42,7 +42,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 ---
 
 <SiteInfo
-  name="A CSS-Powered Add/Remove Tags UI – Frontend Masters Boost"
+  name="A CSS-Powered Add/Remove Tags UI - Frontend Masters Boost"
   desc="Checkboxes and labelsusedto have to be right next to each other to be a potent UI duo. You could do trickery like this:But now, thanks to:has()in CSS, we’re not beholden to that structure anymore.We can :has() it all, as it is said. Now that these HTML elements have some autonomy, without losing their connection to […]"
   url="https://frontendmasters.com/blog/a-css-powered-add-remove-tags-ui/"
   logo="/favicon-16x16.png"

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Inheritance"
-description: "Article(s) > C# Intermediate – Inheritance"
+title: "C# Intermediate - Inheritance"
+description: "Article(s) > C# Intermediate - Inheritance"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Inheritance"
+      content: "Article(s) > C# Intermediate - Inheritance"
     - property: og:description
-      content: "C# Intermediate – Inheritance"
+      content: "C# Intermediate - Inheritance"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-inheritance.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-inheritance/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Inheritance"
+  name="C# Intermediate - Inheritance"
   desc="You will learn about C# Inheritance, how to use base keyword, more about polimorphism with the new, virtual and override keywords and what rules to follow."
   url="https://code-maze.com/csharp-inheritance/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -419,7 +419,7 @@ In the next article, we are going to talk about [**Interfaces in C#**](/code-maz
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Inheritance",
+  "title": "C# Intermediate - Inheritance",
   "desc": "You will learn about C# Inheritance, how to use base keyword, more about polimorphism with the new, virtual and override keywords and what rules to follow.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-inheritance.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

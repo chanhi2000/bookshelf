@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ Of course, there's little point learning about technologies without using them, 
 
 You might remember in project 12 that I said `UserDefaults` is great for its simplicity but isn't good for private data. Well, the keychain is securely encrypted, so we can be assured that data we put there is safe.
 
-This project is modeled on project 19, where you met `UITextView` for the first time. This means we'll need to use the same keyboard detection and adjustment code – if you already completed project 19, you might find it easiest to copy and paste your code as needed.
+This project is modeled on project 19, where you met `UITextView` for the first time. This means we'll need to use the same keyboard detection and adjustment code - if you already completed project 19, you might find it easiest to copy and paste your code as needed.
 
 To get started, make a new Single View App project in Xcode named Project28.
 

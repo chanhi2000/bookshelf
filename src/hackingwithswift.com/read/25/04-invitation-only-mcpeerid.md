@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -93,7 +93,7 @@ Brilliant! Isn't it easy being a coder?
 
 There are two methods left: one that is used in this project only for diagnostic information, and one that's actually useful. Let's eliminate the diagnostic method first so that we can focus on the interesting bit.
 
-When a user connects or disconnects from our session, the method `session(_:peer:didChangeState:)` is called so you know what's changed – is someone connecting, are they now connected, or have they just disconnected? We're not going to be using this information in the project, but I do want to show you how it might be used by printing out some diagnostics. This is helpful for debugging, because it means you can look in Xcode's debug console to see these messages and know your code is working.
+When a user connects or disconnects from our session, the method `session(_:peer:didChangeState:)` is called so you know what's changed - is someone connecting, are they now connected, or have they just disconnected? We're not going to be using this information in the project, but I do want to show you how it might be used by printing out some diagnostics. This is helpful for debugging, because it means you can look in Xcode's debug console to see these messages and know your code is working.
 
 When this method is called, you'll be told what peer changed state, and what their new state is. There are only three possible session states: not connected, connecting, and connected. So, we can make our app print out useful information just by using switch/case and a bit of `print()`:
 
@@ -173,9 +173,9 @@ if mcSession.connectedPeers.count > 0 {
 }
 ```
 
-Yes, the code to ensure data gets sent intact to all peers, as opposed to having some parts lost in the ether, is just to use transmission mode `.reliable` – nothing more.
+Yes, the code to ensure data gets sent intact to all peers, as opposed to having some parts lost in the ether, is just to use transmission mode `.reliable` - nothing more.
 
-It’s possible that sending data might throw errors, so we need to surround our code in a `do/catch` block as shown above. When any error is thrown in the `do` block, Swift immediately jumps straight to the `catch` block where you can handle it – or in our case show a message. Swift automatically creates an `error` constant telling you what went wrong.
+It’s possible that sending data might throw errors, so we need to surround our code in a `do/catch` block as shown above. When any error is thrown in the `do` block, Swift immediately jumps straight to the `catch` block where you can handle it - or in our case show a message. Swift automatically creates an `error` constant telling you what went wrong.
 
 Anyway, I hope you'll agree that the multipeer connectivity framework is super easy to use. The advertiser assistant takes care of telling the world that our app is looking for connections, as well as handling people who want to join. The browser controller takes care of finding all compatible sessions, and sending invitations. Our job is just to hook it all together with a nice user interface, then relax and wait for the App Store riches to come in. Sort of.
 

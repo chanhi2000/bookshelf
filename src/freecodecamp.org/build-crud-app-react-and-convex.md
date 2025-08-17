@@ -73,7 +73,7 @@ In order to follow this tutorial, you must know the fundamentals of React. I wil
 
 ## How to Set Up Your Project
 
-Create a separate folder for the project and name it as you wish – I will name mine **Books.** We’ll set up Convex and React in that folder.
+Create a separate folder for the project and name it as you wish - I will name mine **Books.** We’ll set up Convex and React in that folder.
 
 You can create a React app using this command:
 

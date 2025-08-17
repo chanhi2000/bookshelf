@@ -68,7 +68,7 @@ func withOptionalAnimation<Result>(_ animation: Animation? = .default, _ body: (
 
 That automatically checks whether Reduce Motion is enabled every time the animation is triggered, and disables it for users who have specifically requested less animation. 
 
-In case you were wondering, `withAnimation()` is also a global function – a function that sits outside of any other type – so this new withOptionalAnimation()` function will behave the same.
+In case you were wondering, `withAnimation()` is also a global function - a function that sits outside of any other type - so this new withOptionalAnimation()` function will behave the same.
 
 So, you can use it wherever you would use `withAnimation()`, like this:
 

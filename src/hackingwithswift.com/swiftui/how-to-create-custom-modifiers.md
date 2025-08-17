@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you find yourself constantly attaching the same set of modifiers to a view – e.g., giving it a background color, some padding, a specific font, and so on – then you can avoid duplication by creating a custom view modifier that encapsulates all those changes. So, rather than say “make it red, make it use a large font” and so on, you can just say “make it look like a warning,” and apply a pre-made set of modifiers.
+If you find yourself constantly attaching the same set of modifiers to a view - e.g., giving it a background color, some padding, a specific font, and so on - then you can avoid duplication by creating a custom view modifier that encapsulates all those changes. So, rather than say “make it red, make it use a large font” and so on, you can just say “make it look like a warning,” and apply a pre-made set of modifiers.
 
 If you want to make your own, define a struct that conforms to the `ViewModifier` protocol. This protocol requires that you accept a `body(content:)` method that transforms some sort of content however you want, returning the result.
 

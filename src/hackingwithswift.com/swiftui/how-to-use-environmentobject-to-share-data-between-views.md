@@ -62,7 +62,7 @@ However, *unlike* `@ObservedObject` we don't pass our objects into other views b
 
 ::: note
 
-Environment objects *must* be supplied by an ancestor view – if SwiftUI can't find an environment object of the correct type you'll get a crash. This applies for previews too, so be careful.
+Environment objects *must* be supplied by an ancestor view - if SwiftUI can't find an environment object of the correct type you'll get a crash. This applies for previews too, so be careful.
 
 :::
 
@@ -125,9 +125,9 @@ There are several important parts I want to pick out in that code:
 
 1. Just like `@StateObject` and `@ObservedObject`, all classes used with `@EnvironmentObject` must conform to the `ObservableObject` protocol.
 2. We put `GameSettings` into the environment for the navigation stack, which means all views inside the navigation stack can read that object if they want it, as well as any views that get shown by the navigation stack.
-3. When you use the `@EnvironmentObject` property wrapper, you declare the type of thing you expect to receive but you do *not* create it – you're expecting to receive it from the environment, after all.
+3. When you use the `@EnvironmentObject` property wrapper, you declare the type of thing you expect to receive but you do *not* create it - you're expecting to receive it from the environment, after all.
 4. Because our detail view is shown inside the navigation stack, it will get access to the same environment, which in turn means it can read the `GameSettings` object we created.
-5. We didn't need to explicitly associate the `GameSettings` instance in the environment with the `settings` property in `ScoreView` – SwiftUI automatically figured out that it has a `GameSettings` instance in the environment, so that's the one it uses.
+5. We didn't need to explicitly associate the `GameSettings` instance in the environment with the `settings` property in `ScoreView` - SwiftUI automatically figured out that it has a `GameSettings` instance in the environment, so that's the one it uses.
 
 ::: warning
 
@@ -135,7 +135,7 @@ Now that our views rely on an environment object being present, it's important t
 
 :::
 
-If you need to add multiple objects to the environment, you should add multiple `environmentObject()` modifiers – just call them one after the other.
+If you need to add multiple objects to the environment, you should add multiple `environmentObject()` modifiers - just call them one after the other.
 
 ::: details Similar solutions…
 

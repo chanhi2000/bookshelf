@@ -94,7 +94,7 @@ JWTs are made up of 3 key parts:
 
 #### Header
 
-The header contains metadata information about the token. Think of it like a label on a package – it tells you what’s inside and how it was prepared.
+The header contains metadata information about the token. Think of it like a label on a package - it tells you what’s inside and how it was prepared.
 
 Typically, the header contains:
 
@@ -123,13 +123,13 @@ There are three types of claims:
 
 These are predefined claims that are recommended for common use cases. They are not mandatory but are very useful for interoperability. These include:
 
-- `iss` – issuer, who issued the token (for example, your application’s domain)
-- `sub` – subject, the subject of the token (for example, a User’s ID)
-- `aud` – audience, the audience of the token (that is, who the token is intended for – for example, a specific API)
-- `exp` – **expiration**, the expiry date as a timestamp
-- `iat` – issued at, when the token was issued as a timestamp
-- `nbf` – not before, when the token becomes valid (that is, the token cannot be used or deemed valid before this timestamp)
-- `jti` – JWT ID, a unique identifier for the token, useful for preventing replay attacks or blacklisting
+- `iss` - issuer, who issued the token (for example, your application’s domain)
+- `sub` - subject, the subject of the token (for example, a User’s ID)
+- `aud` - audience, the audience of the token (that is, who the token is intended for - for example, a specific API)
+- `exp` - **expiration**, the expiry date as a timestamp
+- `iat` - issued at, when the token was issued as a timestamp
+- `nbf` - not before, when the token becomes valid (that is, the token cannot be used or deemed valid before this timestamp)
+- `jti` - JWT ID, a unique identifier for the token, useful for preventing replay attacks or blacklisting
 
 ##### 2. Public Claims
 
@@ -238,7 +238,7 @@ The top segment below shows the full JWT token (header.payload.signature):
 
 This is where the magic happens, and it's often a point of confusion. The public key doesn't "decrypt" the original data like a symmetric key does. Instead, it performs a unique **verification** process.
 
-The receiver (the client or another server that needs to verify the JWT) possesses the **public key**. This key does **not** need to be kept secret – it can be freely distributed.
+The receiver (the client or another server that needs to verify the JWT) possesses the **public key**. This key does **not** need to be kept secret - it can be freely distributed.
 
 Here's a step-by-step explanation:
 
@@ -336,7 +336,7 @@ When a receiver gets an HS256-signed JWT, it goes through a verification process
 
 First, it separates the parts. The JWT is split into its three Base64Url-encoded components: Header, Payload, and Signature, as we did with asymmetric JWTs.
 
-Then, it obtains the shared secret key. The receiver must also possess the **exact same secret key** that the issuer used to sign the token. This key is *not* publicly distributed like a public key – it must be securely provisioned to any entity that needs to verify tokens.
+Then, it obtains the shared secret key. The receiver must also possess the **exact same secret key** that the issuer used to sign the token. This key is *not* publicly distributed like a public key - it must be securely provisioned to any entity that needs to verify tokens.
 
 Next, it re-calculates the signature. The receiver does this by taking the received Base64Url-encoded Header and Payload, combining them, and then re-applying the HMAC-SHA256 algorithm using the *same secret key*. This produces a new, locally computed signature.
 

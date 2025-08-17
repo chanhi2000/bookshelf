@@ -438,7 +438,7 @@ Also, keep in mind that there are some limitations that we’ve already touched 
 
 Shorebird is a transformative tool for any serious Flutter developer. It moves the release process from a monolithic, slow cycle to a dynamic, responsive one.
 
-By combining Shorebird's rapid patching with a robust forced-update strategy using `upgrader` and Remote Config, you gain unprecedented control over your production application. You can fix bugs in minutes, mitigate risks, and keep your users happy – all without waiting for the app store.
+By combining Shorebird's rapid patching with a robust forced-update strategy using `upgrader` and Remote Config, you gain unprecedented control over your production application. You can fix bugs in minutes, mitigate risks, and keep your users happy - all without waiting for the app store.
 
 ::: info References
 

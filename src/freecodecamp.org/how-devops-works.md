@@ -70,7 +70,7 @@ The DevOps Team is a combination of the Development Team and the Operations Team
 
 ![Development Team & Operations Team working separately](https://freecodecamp.org/news/content/images/2023/04/9ef9adf1-e2b7-45c1-acc1-5c5c4bf30c7a.jpg)
 
-**DevOps** is a methodology that allows a single team to manage the entire application development life cycle – that is development, testing, deployment, and operations.
+**DevOps** is a methodology that allows a single team to manage the entire application development life cycle - that is development, testing, deployment, and operations.
 
 This approach can help your team produce superior quality software quickly and with more reliability.
 

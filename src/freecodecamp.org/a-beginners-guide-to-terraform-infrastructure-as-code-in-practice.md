@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice"
-description: "Article(s) > A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice"
+title: "A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
+description: "Article(s) > A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
 icon: iconfont icon-terraform
 category:
   - DevOps
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice"
+      content: "Article(s) > A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
     - property: og:description
-      content: "A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice"
+      content: "A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html
 prev: /devops/terraform/articles/README.md
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735900327439/09832fb
 ---
 
 <SiteInfo
-  name="A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice"
+  name="A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
   desc="Over the years, cloud development has seen a major paradigm shift. Newer and more complex applications are deployed rapidly to the cloud to minimize downtime. And through all of this, the concept of Infrastructure-as-Code and various tools have emerg..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -81,11 +81,11 @@ On the other hand, the Imperative approach involves specifying the exact steps n
 
 Some tools are capable of both approaches while others are only suited to one or the other. Examples of some of the popular IaC tools used globally include [<FontIcon icon="iconfont icon-terraform"/>Terraform IaC](https://terraform.io/), [<FontIcon icon="fa-brands fa-aws"/>AWS Cloud Formation](https://aws.amazon.com/cloudformation/), [<FontIcon icon="iconfont icon-ansible"/>Ansible](https://redhat.com/en/ansible-collaborative), and [<FontIcon icon="fas fa-globe"/>Pulumi](https://pulumi.com/), [<FontIcon icon="fas fa-globe"/>Chef](https://chef.io/glossary/what-is-infrastructure-as-code), among others.
 
-Like the name implies – infrastructure as **code** – the code creating the infrastructure is written in various template languages within the IaC space. Popular template languages include JSON, YAML, ARM template, HCL, Heat Scripts, and so on.
+Like the name implies - infrastructure as **code** - the code creating the infrastructure is written in various template languages within the IaC space. Popular template languages include JSON, YAML, ARM template, HCL, Heat Scripts, and so on.
 
 You can also use scripting tools to execute cloud infrastructure. Some popular ones include Bash and PowerShell. These sometimes come preinstalled on most personal computers.
 
-Out of all these tools, though, Terraform is distinct for various reasons – and it’s the one we’ll be examining in this article.
+Out of all these tools, though, Terraform is distinct for various reasons - and it’s the one we’ll be examining in this article.
 
 ---
 
@@ -278,7 +278,7 @@ Feel free to message me with any comments or questions. You can also check out m
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "A Beginner's Guide to Terraform – Infrastructure-as-Code in Practice",
+  "title": "A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice",
   "desc": "Over the years, cloud development has seen a major paradigm shift. Newer and more complex applications are deployed rapidly to the cloud to minimize downtime. And through all of this, the concept of Infrastructure-as-Code and various tools have emerg...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

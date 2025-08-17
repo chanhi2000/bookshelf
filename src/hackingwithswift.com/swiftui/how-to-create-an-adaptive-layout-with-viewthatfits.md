@@ -72,7 +72,7 @@ ViewThatFits {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-create-an-adaptive-layout-with-viewthatfits-1.zip)
 
-That attempts a long title in large text, a short title in large text, then finally a short title in small text – SwiftUI will try them in that order, and stop as soon as one fits into the available space.
+That attempts a long title in large text, a short title in large text, then finally a short title in small text - SwiftUI will try them in that order, and stop as soon as one fits into the available space.
 
 This is particularly useful when you're working with views that can be arranged vertically or horizontally depending on space. For example, this creates a view with four different buttons, then decides to arrange them horizontally or vertically depending on how much space there is:
 
@@ -129,7 +129,7 @@ ViewThatFits {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-create-an-adaptive-layout-with-viewthatfits-3.zip)
 
-What's happening here is that `ViewThatFits` is measuring our text both horizontally and vertically, and is trying to find something that fits the text in both those dimensions – something where the text fits all on one line, without being truncated vertically.
+What's happening here is that `ViewThatFits` is measuring our text both horizontally and vertically, and is trying to find something that fits the text in both those dimensions - something where the text fits all on one line, without being truncated vertically.
 
 This sometimes causes problems, but fortunately we can tell `ViewThatFits` to care about only one dimension so that we can get more control.
 

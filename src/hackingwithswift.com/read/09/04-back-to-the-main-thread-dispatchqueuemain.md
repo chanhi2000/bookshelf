@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,9 +55,9 @@ isOriginal: false
 
 With this change, our code is both better and worse. It's better because it no longer blocks the main thread while the JSON downloads from Whitehouse.gov. It's worse because we're pushing work to the background thread, *and any further code called in that work will also be on the background thread*.
 
-This change also introduced some confusion: the `showError()` call will get called regardless of what the loading does. Yes, there’s still a call to `return` in the code, but it now effectively does nothing – it’s returning from the closure that was being executed asynchronously, not from the whole method.
+This change also introduced some confusion: the `showError()` call will get called regardless of what the loading does. Yes, there’s still a call to `return` in the code, but it now effectively does nothing - it’s returning from the closure that was being executed asynchronously, not from the whole method.
 
-The combination of these problems means that regardless of whether the download succeeds or fails, `showError()` will be called. And if the download succeeds, the JSON will be parsed on the background thread and the table view's `reloadData()` will be called on the background thread – and the error will be shown regardless.
+The combination of these problems means that regardless of whether the download succeeds or fails, `showError()` will be called. And if the download succeeds, the JSON will be parsed on the background thread and the table view's `reloadData()` will be called on the background thread - and the error will be shown regardless.
 
 Let’s fix those problems, starting with the user interface background work. It's OK to parse the JSON on a background thread, but *it's never OK to do user interface work there*.
 
@@ -98,7 +98,7 @@ DispatchQueue.global(qos: .userInitiated).async {
 
 Remember, we need to add `self.` to the `showError()` call because it’s inside a closure now.
 
-But this has created a second problem: `showError()` creates and shows a `UIAlertController` – we now have user interface work happening on a background thread, which is always a bad idea.
+But this has created a second problem: `showError()` creates and shows a `UIAlertController` - we now have user interface work happening on a background thread, which is always a bad idea.
 
 So, we need to modify `showError()` to push that work back to the main thread, like this:
 

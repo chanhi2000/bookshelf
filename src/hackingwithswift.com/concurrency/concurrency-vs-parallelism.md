@@ -62,11 +62,11 @@ As soon as you add a *second* CPU core to a computer, then things can run in *pa
 
 The really interesting stuff lies in our ability to split up work in a single program. Yes, having two CPU cores allows a computer to run two separate programs at the same time, but we can also split up our work into smaller parts called threads, and *those* can be run in parallel too.
 
-This splitting up of functionality requires us to do work – Swift can’t decide by itself to run some parts of our code in parallel with other parts, because that would introduce a lot of surprising bugs. Instead, we have to tell Swift ahead of time which parts of our code can be split up if needed, and also tell it what we should do when those tasks complete.
+This splitting up of functionality requires us to do work - Swift can’t decide by itself to run some parts of our code in parallel with other parts, because that would introduce a lot of surprising bugs. Instead, we have to tell Swift ahead of time which parts of our code can be split up if needed, and also tell it what we should do when those tasks complete.
 
-When you boil it right down, that’s the topic of this whole book: teaching Swift how it can split up the work in our programs so it runs as efficiently as possible. And it *is* about efficiency, because some Apple devices have many CPU cores – if your app is running full screen on that device and you’re only ever using one of those cores, you’re only getting a tiny fraction of the device’s possible performance.
+When you boil it right down, that’s the topic of this whole book: teaching Swift how it can split up the work in our programs so it runs as efficiently as possible. And it *is* about efficiency, because some Apple devices have many CPU cores - if your app is running full screen on that device and you’re only ever using one of those cores, you’re only getting a tiny fraction of the device’s possible performance.
 
-More importantly, you’re also helping to make sure your app remains responsive the entire time. Imagine if your user interface froze up every time you were waiting for the response to a network request – it would be a pretty horrible experience, right?
+More importantly, you’re also helping to make sure your app remains responsive the entire time. Imagine if your user interface froze up every time you were waiting for the response to a network request - it would be a pretty horrible experience, right?
 
 There’s a famous computer scientist called Rob Pike, and I think he explained the difference between concurrency and parallelism beautifully. Here’s what he said: 
 

@@ -52,9 +52,9 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI makes it relatively easy to show a single alert, but things become trickier if you try to show two or more alerts from a single view – you might find that one alert works and the other doesn’t, for example.
+SwiftUI makes it relatively easy to show a single alert, but things become trickier if you try to show two or more alerts from a single view - you might find that one alert works and the other doesn’t, for example.
 
-To solve this, you need to make sure you attach no more than one `alert()` modifier to each view. That might sound limiting, but remember: you don’t need to attach the alerts to the *same* view – you can attach them anywhere. In fact, you might find that attaching them directly to the thing that shows them (e.g. a button) works best for you.
+To solve this, you need to make sure you attach no more than one `alert()` modifier to each view. That might sound limiting, but remember: you don’t need to attach the alerts to the *same* view - you can attach them anywhere. In fact, you might find that attaching them directly to the thing that shows them (e.g. a button) works best for you.
 
 As an example, we can write some code to define two `@State` properties that each control an alert being shown. Rather than attaching both `alert()` modifiers to the same `VStack`, this attaches them each to whichever button is responsible for showing that alert:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ enum Satisfaction {
 }
 ```
 
-Those cases can now be referenced as `Satisfaction.happy`, so it’s clear what you mean – and internally it’s treated no different from an integer, so it has no performance impact.
+Those cases can now be referenced as `Satisfaction.happy`, so it’s clear what you mean - and internally it’s treated no different from an integer, so it has no performance impact.
 
 We can create a `Person` struct using that new enum, like this:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
-description: "Article(s) > How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
+title: "How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
+description: "Article(s) > How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
 icon: iconfont icon-st-microelectronics
 category:
   - Hardware
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
+      content: "Article(s) > How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
     - property: og:description
-      content: "How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
+      content: "How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html
 prev: /hw/stm/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741902732575/fd41a2d
 ---
 
 <SiteInfo
-  name="How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide"
+  name="How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
   desc="In today’s world, computers are ubiquitous and generally serve two primary purposes. The first is general-purpose computing, where they handle a wide range of tasks, including running diverse applications and programs. Examples include laptops, deskt..."
   url="https://freecodecamp.org/news/connect-read-process-sensor-data-on-microcontrollers-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -82,12 +82,12 @@ In this article, you’ll learn how to connect sensors to microcontrollers (MCUs
 
 Here’s a breakdown of what we’ll cover:
 
-- What sensors are and how they work – An introduction to sensors, common types, and how sensor pipelines help process sensor data.
-- Key sensor characteristics – Important parameters like sensitivity, accuracy, precision, range, drift, and response time to help you choose the right sensor for your project.
-- How to interface sensors with microcontrollers – Hardware connections and communication protocols like SPI, I²C, and GPIO that allow microcontrollers to read sensor data.
-- Software architecture for sensor data – A high-level overview of the software pipeline that processes sensor data, including drivers, ADC support, scaling, calibration, and post-processing.
-- Detailed design of pipeline components – A closer look at each step in the pipeline, focusing on scaling raw data, calibrating sensors, and applying filters to clean up noisy signals.
-- Practical tips for power management – Best practices for handling power efficiently using low-power modes, FIFO buffers, and DMA when working with sensor data in embedded systems.
+- What sensors are and how they work - An introduction to sensors, common types, and how sensor pipelines help process sensor data.
+- Key sensor characteristics - Important parameters like sensitivity, accuracy, precision, range, drift, and response time to help you choose the right sensor for your project.
+- How to interface sensors with microcontrollers - Hardware connections and communication protocols like SPI, I²C, and GPIO that allow microcontrollers to read sensor data.
+- Software architecture for sensor data - A high-level overview of the software pipeline that processes sensor data, including drivers, ADC support, scaling, calibration, and post-processing.
+- Detailed design of pipeline components - A closer look at each step in the pipeline, focusing on scaling raw data, calibrating sensors, and applying filters to clean up noisy signals.
+- Practical tips for power management - Best practices for handling power efficiently using low-power modes, FIFO buffers, and DMA when working with sensor data in embedded systems.
 
 By the end of this article, you’ll know how to design and implement a complete sensor data pipeline for an embedded system, from reading raw sensor data to preparing it for real-world use in intelligent, connected devices.
 
@@ -470,7 +470,7 @@ If you have questions or want to talk more about this topic, feel free to reach 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Connect, Read, and Process Sensor Data on Microcontrollers – A Beginner's Guide",
+  "title": "How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide",
   "desc": "In today’s world, computers are ubiquitous and generally serve two primary purposes. The first is general-purpose computing, where they handle a wide range of tasks, including running diverse applications and programs. Examples include laptops, deskt...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

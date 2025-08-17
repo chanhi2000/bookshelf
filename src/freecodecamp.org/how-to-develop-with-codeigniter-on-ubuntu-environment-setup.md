@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
-description: "Article(s) > How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
+title: "How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
+description: "Article(s) > How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
 icon: fa-brands fa-ubuntu
 category:
   - DevOps
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
+      content: "Article(s) > How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
     - property: og:description
-      content: "How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
+      content: "How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html
 prev: /devops/linux-debian/articles/README.md
@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737640002689/7c78cd9
 ---
 
 <SiteInfo
-  name="How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup"
+  name="How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
   desc="CodeIgniter is a popular open-source PHP framework you can use to build dynamic and robust web applications. It’s simple to use, fast, and flexible. This makes it a good option for any developer who wants to have a light yet powerful framework that w..."
   url="https://freecodecamp.org/news/how-to-develop-with-codeigniter-on-ubuntu-environment-setup"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -403,7 +403,7 @@ By carefully following the outlined steps—from installing prerequisites, confi
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Develop with CodeIgniter on Ubuntu – Step-by-Step Environment Setup",
+  "title": "How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup",
   "desc": "CodeIgniter is a popular open-source PHP framework you can use to build dynamic and robust web applications. It’s simple to use, fast, and flexible. This makes it a good option for any developer who wants to have a light yet powerful framework that w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

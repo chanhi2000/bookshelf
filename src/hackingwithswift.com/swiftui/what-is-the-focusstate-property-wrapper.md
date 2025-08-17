@@ -76,7 +76,7 @@ struct ContentView: View {
 }
 ```
 
-If you want to move keyboard focus between more than one view you should use an optional enum. This can be set to one of the cases from your enum to activate a particular piece of input, or you can set it to `nil` to make nothing focused – effectively dismissing the keyboard on iOS.
+If you want to move keyboard focus between more than one view you should use an optional enum. This can be set to one of the cases from your enum to activate a particular piece of input, or you can set it to `nil` to make nothing focused - effectively dismissing the keyboard on iOS.
 
 So, we could create two text fields to store a username and password, then move between them using `@FocusState` and `onSubmit()`:
 

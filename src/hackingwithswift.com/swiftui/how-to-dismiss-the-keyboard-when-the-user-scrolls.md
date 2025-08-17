@@ -85,7 +85,7 @@ The `scrollDismissesKeyboard()` modifier can be given one of four values, all of
 
 - Use `.automatic` to let SwiftUI judge what's the best thing to do based on the context of the scroll.
 - Use `.immediately` to make the keyboard dismiss fully as soon as any scroll happens.
-- Use `.interactively` to make the keyboard dismiss inline with the user's gesture – they need to scroll further to make it dismiss fully.
+- Use `.interactively` to make the keyboard dismiss inline with the user's gesture - they need to scroll further to make it dismiss fully.
 - Use `.never` if you want the keyboard to remain present during scrolling.
 
 According to Apple's documentation, text editors should use interactive dismissal by default, whereas other views should use immediate, but that certainly doesn't seem to be the case right now.

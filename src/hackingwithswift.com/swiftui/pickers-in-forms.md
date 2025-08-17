@@ -81,7 +81,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/pickers-in-forms-1.zip)
 
-On iOS, that will appear as a single list row that you can tap to display all possible options – Mild, Medium, and Mature.
+On iOS, that will appear as a single list row that you can tap to display all possible options - Mild, Medium, and Mature.
 
 If you want to disable this behavior, you can force the picker to adopt its regular style by using the `.pickerStyle(.wheel)` modifier, like this:
 

@@ -81,7 +81,7 @@ func travel<T: Vehicle>(to destinations: [String], using vehicle: T) {
 travel(to: ["London", "Amarillo"], using: vehicle)
 ```
 
-When that code compiles, Swift can see we’re calling `travel()` with a `Car` instance and so it is able to create optimized code to call the `travel()` function directly – a process known as *static dispatch*.
+When that code compiles, Swift can see we’re calling `travel()` with a `Car` instance and so it is able to create optimized code to call the `travel()` function directly - a process known as *static dispatch*.
 
 All this matters because there is a second way to use protocols, and it looks very similar to the other code we’ve used so far:
 
@@ -108,9 +108,9 @@ func travel2(to destinations: [String], using vehicle: Vehicle) {
 }
 ```
 
-That might look similar to the other `travel()` function, but as this one accepts any kind of `Vehicle` object Swift can no longer perform the same set of optimizations – it has to use a process called *dynamic dispatch*, which is less efficient than the static dispatch available in the generic equivalent. So, Swift was in a position where both uses of protocols looked very similar, and actually the slower, existential version of our function was easier to write.
+That might look similar to the other `travel()` function, but as this one accepts any kind of `Vehicle` object Swift can no longer perform the same set of optimizations - it has to use a process called *dynamic dispatch*, which is less efficient than the static dispatch available in the generic equivalent. So, Swift was in a position where both uses of protocols looked very similar, and actually the slower, existential version of our function was easier to write.
 
-To resolve this problem, Swift 5.6 introduces a new `any` keyword for use with existential types, so that we’re explicitly acknowledging the impact of existentials in our code. In Swift 5.6 this new behavior is enabled and works, but in future Swift versions failing to use it will generate warnings, and from Swift 6 onwards the plan is to issue errors – you will be *required* to mark existential types using `any`.
+To resolve this problem, Swift 5.6 introduces a new `any` keyword for use with existential types, so that we’re explicitly acknowledging the impact of existentials in our code. In Swift 5.6 this new behavior is enabled and works, but in future Swift versions failing to use it will generate warnings, and from Swift 6 onwards the plan is to issue errors - you will be *required* to mark existential types using `any`.
 
 So, you would write this:
 
@@ -129,7 +129,7 @@ I know it took a lot of explanation to reach this conclusion, but hopefully it m
 
 ::: note This is a big breaking change in Swift.
 
-Fortunately, like I said the Swift team are taking it slow – here’s what they said in the acceptance decision:
+Fortunately, like I said the Swift team are taking it slow - here’s what they said in the acceptance decision:
 
 > “The goal is that that one can write code that compiles without warnings for the current Swift release and at least one major release prior, after which warnings can be introduced to guide users to the new syntax in existing language modes. Finally, the old syntax can be removed or repurposed only in a new major language version.”
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-Are you psychic? Of course not. But what if we could use our coding skills to make a game to fool your friends into thinking otherwise – while also learning some new techniques along the way?
+Are you psychic? Of course not. But what if we could use our coding skills to make a game to fool your friends into thinking otherwise - while also learning some new techniques along the way?
 
 In this project we're going to build a simple game that recreates the classic [<FontIcon icon="fa-brands fa-wikipedia-w"/>Zener test](https://en.wikipedia.org/wiki/Zener_cards) for extrasensory perception. Our game will show the user eight cards face down, and users need to tap the card that has a star on its flip side. Casual players will get it right 1 in 8 times, but you'll get it right every time. Magic!
 
@@ -63,5 +63,5 @@ I've left the Apple Watch and 3D Touch code until the end of the project, so at 
 
 Are you ready to take your first step into the Twilight Zone? Go ahead and launch Xcode, then create a new project. When Xcode asks you which template you want, please select watchOS then iOS App with WatchKit App. Set the target to be iPhone, the language to be Swift, then deselect Include Notification Scene. Finally, name it Project37 and click Next.
 
-Once the project is created, please set it to support landscape left and right only; no portrait this time. You will also need to copy the image assets for this project into your project's asset catalog – you can find them all on [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift). You'll also find a Content directory in that download; please add that to your project too, because it contains some music for later on.
+Once the project is created, please set it to support landscape left and right only; no portrait this time. You will also need to copy the image assets for this project into your project's asset catalog - you can find them all on [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift). You'll also find a Content directory in that download; please add that to your project too, because it contains some music for later on.
 

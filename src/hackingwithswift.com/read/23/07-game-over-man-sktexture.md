@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,7 +57,7 @@ You are now within reach of the end of this project, and not a moment too soon, 
 
 First is the `subtractLife()` method, which is called when a penguin falls off the screen without being sliced. It needs to subtract 1 from the `lives` property that we created what seems like years ago, update the images in the `livesImages` array so that the correct number are crossed off, then end the game if the player is out of lives.
 
-To make it a bit clearer that something bad has happened, we're also going to add playing a sound and animate the life being lost – we'll set the X and Y scale of the life being lost to 1.3, then animate it back down to 1.0.
+To make it a bit clearer that something bad has happened, we're also going to add playing a sound and animate the life being lost - we'll set the X and Y scale of the life being lost to 1.3, then animate it back down to 1.0.
 
 Here's the code:
 

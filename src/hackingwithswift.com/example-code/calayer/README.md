@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/calayer",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to change a view’s anchor point without moving it",
-  "desc": "Every <code>UIView</code> has an anchor point, which is the point around which animations take place. Usually this is the center of the view –&nbsp;X:0.5 Y:0.5 –&nbsp;which means if you rotate a view it will spin around its center....",
+  "desc": "Every <code>UIView</code> has an anchor point, which is the point around which animations take place. Usually this is the center of the view -&nbsp;X:0.5 Y:0.5 -&nbsp;which means if you rotate a view it will spin around its center....",
   "link": "/hackingwithswift.com/example-code/calayer/how-to-change-a-views-anchor-point-without-moving-it.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -140,7 +140,7 @@ head:
 ```component VPCard
 {
   "title": "How to round only specific corners using maskedCorners",
-  "desc": "You can set the <code>cornerRadius</code> property of any <code>UIView</code> to have its edges rounded, but by default that rounds all corners at the same time. If you want only <em>some</em> corners to be rounded, you should set the layer’s <code>maskedCorners</code> property to be an array of the corners you want –&nbsp;it’s an option set, so you can set one or many depending on your needs....",
+  "desc": "You can set the <code>cornerRadius</code> property of any <code>UIView</code> to have its edges rounded, but by default that rounds all corners at the same time. If you want only <em>some</em> corners to be rounded, you should set the layer’s <code>maskedCorners</code> property to be an array of the corners you want -&nbsp;it’s an option set, so you can set one or many depending on your needs....",
   "link": "/hackingwithswift.com/example-code/calayer/how-to-round-only-specific-corners-using-maskedcorners.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -150,7 +150,7 @@ head:
 ```component VPCard
 {
   "title": "How to round the corners of a UIView",
-  "desc": "All <code>UIView</code> subclasses have the ability to round their corners thanks to their underlying <code>CALayer</code> –&nbsp;that's the bit that handles the actual drawing of your views. To round the corners of a view, use this code:... ",
+  "desc": "All <code>UIView</code> subclasses have the ability to round their corners thanks to their underlying <code>CALayer</code> -&nbsp;that's the bit that handles the actual drawing of your views. To round the corners of a view, use this code:... ",
   "link": "/hackingwithswift.com/example-code/calayer/how-to-round-the-corners-of-a-uiview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -160,7 +160,7 @@ head:
 ```component VPCard
 {
   "title": "What is CALayer?",
-  "desc": "All <code>UIView</code> subclasses have a <code>layer</code> property, which is responsible for drawing their contents efficiently. These layers are powered by Core Animation, which handles all the drawing and animation that UIKit requests. The layer is separate from the view because drawing is separate from placement – you can move a <code>UIView</code> around freely, change its <code>alpha</code>, add or remove it all you want, and so on, but that doesn’t affect the underlying way it’s <em>drawn</em>....",
+  "desc": "All <code>UIView</code> subclasses have a <code>layer</code> property, which is responsible for drawing their contents efficiently. These layers are powered by Core Animation, which handles all the drawing and animation that UIKit requests. The layer is separate from the view because drawing is separate from placement - you can move a <code>UIView</code> around freely, change its <code>alpha</code>, add or remove it all you want, and so on, but that doesn’t affect the underlying way it’s <em>drawn</em>....",
   "link": "/hackingwithswift.com/example-code/calayer/what-is-calayer.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

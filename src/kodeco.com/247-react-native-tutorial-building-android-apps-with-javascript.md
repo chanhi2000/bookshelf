@@ -384,7 +384,7 @@ Save your changes to <FontIcon icon="fa-brands fa-js"/>`App.js` and return to th
 
 ![Tap <kbd>R</kbd> twice, and you’ll see your application refresh to display the updated message](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_jsx.png)
 
-Re-running a React Native application is really as simple as refreshing a web browser! Note that this will only reflect changes made to your JavaScript files – native code or resource changes will require you to restart the packager.
+Re-running a React Native application is really as simple as refreshing a web browser! Note that this will only reflect changes made to your JavaScript files - native code or resource changes will require you to restart the packager.
   
 You can even skip having to refresh the app by enabling live reload.
 

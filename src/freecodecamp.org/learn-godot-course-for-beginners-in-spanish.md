@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Godot – Course for Beginners in Spanish"
-description: "Article(s) > Learn Godot – Course for Beginners in Spanish"
+title: "Learn Godot - Course for Beginners in Spanish"
+description: "Article(s) > Learn Godot - Course for Beginners in Spanish"
 icon: iconfont icon-godot
 category:
   - Godot Engine
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Godot – Course for Beginners in Spanish"
+      content: "Article(s) > Learn Godot - Course for Beginners in Spanish"
     - property: og:description
-      content: "Learn Godot – Course for Beginners in Spanish"
+      content: "Learn Godot - Course for Beginners in Spanish"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-godot-course-for-beginners-in-spanish.html
 prev: /programming/gd/articles/README.md
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748954260255/3d544e9
 ---
 
 <SiteInfo
-  name="Learn Godot – Course for Beginners in Spanish"
+  name="Learn Godot - Course for Beginners in Spanish"
   desc="Godot is an open-source, lightweight, and powerful game engine. This course will teach you how to use it to bring your game ideas to life. We just published a course on the freeCodeCamp.org Spanish YouTube channel that will guide you step by step thr..."
   url="https://freecodecamp.org/news/learn-godot-course-for-beginners-in-spanish"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -136,7 +136,7 @@ If you’re ready to start learning Godot, check out the course on the [freeCode
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Godot – Course for Beginners in Spanish",
+  "title": "Learn Godot - Course for Beginners in Spanish",
   "desc": "Godot is an open-source, lightweight, and powerful game engine. This course will teach you how to use it to bring your game ideas to life. We just published a course on the freeCodeCamp.org Spanish YouTube channel that will guide you step by step thr...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-godot-course-for-beginners-in-spanish.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

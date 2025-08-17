@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermark
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Data Visualization Interfaces in Python With Dash – Real Python"
+  name="Data Visualization Interfaces in Python With Dash - Real Python"
   desc="In this course, you'll learn how to build a dashboard using Python and Dash. Dash is a framework for building data visualization interfaces. It helps data scientists build fully interactive web applications quickly."
   url="https://realpython.com/courses/data-viz-with-dash/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -157,7 +157,7 @@ You can download the source code, data, and resources for the sample application
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Data Visualization Interfaces in Python With Dash – Real Python"
+  name="Data Visualization Interfaces in Python With Dash - Real Python"
   desc="In this course, you'll learn how to build a dashboard using Python and Dash. Dash is a framework for building data visualization interfaces. It helps data scientists build fully interactive web applications quickly."
   url="https://realpython.com/courses/data-viz-with-dash/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

@@ -60,7 +60,7 @@ Maybe you renamed a model, and suddenly your database is a mess. Or maybe you're
 
 That’s where reverting migrations comes in.
 
-Knowing how to undo a migration in Django is just as important as knowing how to make one. It’s not about being perfect – it’s about being able to fix mistakes fast, without panic. I've been there.
+Knowing how to undo a migration in Django is just as important as knowing how to make one. It’s not about being perfect - it’s about being able to fix mistakes fast, without panic. I've been there.
 
 A single migration can break everything if it goes wrong. But the good news is, Django gives you tools to take a step back safely.
 
@@ -287,11 +287,11 @@ It is, as long as you haven’t made changes to data that depend on the migratio
 
 ## Conclusion
 
-Reverting migrations in Django isn't scary once you get the hang of it. It's like using undo in a Word document – you just need to know how far back to go.
+Reverting migrations in Django isn't scary once you get the hang of it. It's like using undo in a Word document - you just need to know how far back to go.
 
 So now that you know how to revert a migration in Django, what’s the trickiest migration issue you've run into—and how did you fix it?
 
-Shoot me a [message (<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http://x.com/_udemezue/) – I’d love to hear your story.
+Shoot me a [message (<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http://x.com/_udemezue/) - I’d love to hear your story.
 
 ::: info Further Resources
 

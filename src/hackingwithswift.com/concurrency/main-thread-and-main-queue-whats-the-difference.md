@@ -54,9 +54,9 @@ isOriginal: false
 
 The main thread is the one that starts our program, and it’s also the one where all our UI work must happen. However, there is also a main *queue*, and although sometimes we use the terms “main thread” and “main queue” interchangeably, they aren’t quite the same thing.
 
-It’s a subtle distinction, but it can sometimes matter: although your main queue will always execute on the main thread (and is therefore where you’ll be doing your UI work!), it’s also possible that other queues might sometimes run on the main thread – the system is free to move things around in whatever way is most efficient.
+It’s a subtle distinction, but it can sometimes matter: although your main queue will always execute on the main thread (and is therefore where you’ll be doing your UI work!), it’s also possible that other queues might sometimes run on the main thread - the system is free to move things around in whatever way is most efficient.
 
-So, if you’re on the main queue then you’re definitely on the main thread, but being on the main thread doesn’t automatically mean you’re on the main queue – a different queue could temporarily be running on the main thread.
+So, if you’re on the main queue then you’re definitely on the main thread, but being on the main thread doesn’t automatically mean you’re on the main queue - a different queue could temporarily be running on the main thread.
 
 At this point you’re very likely staring at the screen wondering when this would ever be a problem, or perhaps even rereading what I said like it’s a cryptic riddle. Trust me, if you ever hit a problem where the main thread vs main queue matters, you’ll be glad you read this!
 

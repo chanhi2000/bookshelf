@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS 10 introduced new ways of generating haptic feedback using predefined vibration patterns shared by all apps, thus helping users understand that various types of feedback carry special significance. The core of this functionality is provided by `UIFeedbackGenerator`, but that's just an abstract class – the three classes you really care about are `UINotificationFeedbackGenerator`, `UIImpactFeedbackGenerator`, and `UISelectionFeedbackGenerator`.
+iOS 10 introduced new ways of generating haptic feedback using predefined vibration patterns shared by all apps, thus helping users understand that various types of feedback carry special significance. The core of this functionality is provided by `UIFeedbackGenerator`, but that's just an abstract class - the three classes you really care about are `UINotificationFeedbackGenerator`, `UIImpactFeedbackGenerator`, and `UISelectionFeedbackGenerator`.
 
 The first of these, `UINotificationFeedbackGenerator`, lets you generate feedback based on three system events: error, success, and warning. The second, `UIImpactFeedbackGenerator`, lets you generate light, medium, and heavy effects that Apple says provide a "physical metaphor that complements the visual experience." Finally, `UISelectionFeedbackGenerator` generates feedback that should be triggered when the user is changing their selection on screen, e.g. moving through a picker wheel.
 
@@ -132,7 +132,7 @@ When you run that on your phone, pressing the "Tap here!" button cycles through 
 
 One tip: because it can take a small amount of time for the system to prepare haptic feedback, Apple recommends you call the `prepare()` method on your generator before triggering the haptic effect. If you don't do this, and there *is* a slight delay between the visual effect and the matching haptic, it might confuse users more than it helps.
 
-Although you can technically use a success notification feedback for whatever you want, doing so inappropriately may confuse users, particularly those who are heavily reliant on haptic feedback for device interaction. Apple specifically requests that you use them judiciously, that you avoid using the wrong haptic for a given situation, and that you remember not all devices support this new haptic feedback – you need to consider older iPhones too.
+Although you can technically use a success notification feedback for whatever you want, doing so inappropriately may confuse users, particularly those who are heavily reliant on haptic feedback for device interaction. Apple specifically requests that you use them judiciously, that you avoid using the wrong haptic for a given situation, and that you remember not all devices support this new haptic feedback - you need to consider older iPhones too.
 
 -->
 

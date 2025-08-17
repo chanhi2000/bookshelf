@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -81,7 +81,7 @@ Because 8 is higher than the upper bound of 5, that will print 5.
 
 I explicitly made `i` an `Int` for a reason: there are other kinds of integers available in Swift. For example, `UInt` is an unsigned integer, which means it sacrifices the ability to hold negative numbers in exchange for the ability to hold much larger positive numbers.
 
-There are also integers of different sizes, e.g. `Int8` holds an integer made up of 8 binary digits, which holds a maximum value of 127, and `UInt64` is the largest type of integer and holds up to 18,446,744,073,709,551,615 – that’s 18 quintillion four hundred and forty-six quadrillion in case you were wondering.
+There are also integers of different sizes, e.g. `Int8` holds an integer made up of 8 binary digits, which holds a maximum value of 127, and `UInt64` is the largest type of integer and holds up to 18,446,744,073,709,551,615 - that’s 18 quintillion four hundred and forty-six quadrillion in case you were wondering.
 
 Our extension modifies the `Int` data type specifically, rather than *all* variations of integers, which means code like this won’t work because `UInt64` doesn’t have the extension:
 
@@ -126,7 +126,7 @@ extension BinaryInteger {
 }
 ```
 
-This time I’ve made it apply to `BinaryInteger`, which is a protocol that all of Swift’s integer types conform to. This means *all* integer types get access to the `clamp()` method, and work as expected – we don’t need to extend them all individually.
+This time I’ve made it apply to `BinaryInteger`, which is a protocol that all of Swift’s integer types conform to. This means *all* integer types get access to the `clamp()` method, and work as expected - we don’t need to extend them all individually.
 
 ![`clamp` now works with `UInt8`, which conforms to the `BinaryInteger` protocol.](https://hackingwithswift.com/img/books/hws/protocol-extensions-1.png)
 

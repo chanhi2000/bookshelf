@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732639814571/62719c4
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1732639814571/62719c49-cd15-4f2c-9586-22a5a300bc4a.png"/>
 
-If you want to practice and improve your web hosting skills, this tutorial is for you. With AWS EC2 and a little magic called user data scripts, you’ll be running a stunning website with a CSS template in no time. And the best part? You don’t need to manually install everything – the user data script does all the heavy lifting for you.
+If you want to practice and improve your web hosting skills, this tutorial is for you. With AWS EC2 and a little magic called user data scripts, you’ll be running a stunning website with a CSS template in no time. And the best part? You don’t need to manually install everything - the user data script does all the heavy lifting for you.
 
 Before getting started with this guide, make sure you've read through my [previous tutorial](/freecodecamp.org/host-a-website-on-aws-ec2-using-a-css-template.md) on AWS EC2. It covers the essentials of creating and configuring an EC2 instance. You'll learn how to navigate the AWS Management Console, select the right instance type, configure security groups, and more.
 
@@ -75,7 +75,7 @@ You might be wondering: why a user data script? Imagine it as a to-do list for y
 
 First things first, head over to your AWS Management Console. This is where all the magic happens.
 
-Log in to AWS and head to the AWS Console. If you don’t already have an account, don’t worry, you can just sign up – it's free for basic usage.
+Log in to AWS and head to the AWS Console. If you don’t already have an account, don’t worry, you can just sign up - it's free for basic usage.
 
 Now here are the steps you’ll follow to launch the instance:
 
@@ -154,7 +154,7 @@ Let’s take a moment to appreciate what you’ve accomplished:
 - Automated the setup using a user data script ✔️
 - Hosted a slick website using a CSS template ✔️
 
-You’ve just dipped your toes into the world of AWS and cloud hosting. It’s not as intimidating as it sounds, right? If you enjoyed this, keep exploring AWS – the possibilities are endless. Until next time, happy coding and hosting!
+You’ve just dipped your toes into the world of AWS and cloud hosting. It’s not as intimidating as it sounds, right? If you enjoyed this, keep exploring AWS - the possibilities are endless. Until next time, happy coding and hosting!
 
 ### Want more?
 

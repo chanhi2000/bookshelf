@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -78,7 +78,7 @@ You can now instantiate a `Mirror` object from `taylor`, like this:
 var mirror = Mirror(reflecting: taylor)
 ```
 
-That mirror isn’t a copy of `taylor`, a *reflection* of it – something you can inspect. For example, you can loop over all the properties inside `taylor` and print out their names and values like this:
+That mirror isn’t a copy of `taylor`, a *reflection* of it - something you can inspect. For example, you can loop over all the properties inside `taylor` and print out their names and values like this:
 
 ```swift
 for case let (label?, value) in mirror.children {

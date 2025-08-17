@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,13 +63,13 @@ func getHaterStatus() -> String {
 }
 ```
 
-That function doesn't accept any parameters, and it returns a string: "Hate". But what if today is a particularly sunny day, and those haters don't feel like hating – what then? Well, maybe we want to return nothing: this hater is doing no hating today. 
+That function doesn't accept any parameters, and it returns a string: "Hate". But what if today is a particularly sunny day, and those haters don't feel like hating - what then? Well, maybe we want to return nothing: this hater is doing no hating today. 
 
-Now, when it comes to a string you might think an empty string is a great way to communicate nothing, and that might be true sometimes. But how about numbers – is 0 an "empty number"? Or -1?
+Now, when it comes to a string you might think an empty string is a great way to communicate nothing, and that might be true sometimes. But how about numbers - is 0 an "empty number"? Or -1?
 
-Before you start trying to create imaginary rules for yourself, Swift has a solution: optionals. An optional value is one that might have a value or might not. Most people find optionals hard to understand, and that’s OK – I’m going to try explaining it in several ways, so hopefully one will work.
+Before you start trying to create imaginary rules for yourself, Swift has a solution: optionals. An optional value is one that might have a value or might not. Most people find optionals hard to understand, and that’s OK - I’m going to try explaining it in several ways, so hopefully one will work.
 
-For now, imagine a survey where you ask someone, “On a scale of 1 to 5 how awesome is Taylor Swift?” – what would someone answer if they had somehow never heard of her? 1 would be unfairly slating her, and 5 would be praising her when they had no idea who Taylor Swift was. The solution is optionals: “I don’t want to provide a number at all.”
+For now, imagine a survey where you ask someone, “On a scale of 1 to 5 how awesome is Taylor Swift?” - what would someone answer if they had somehow never heard of her? 1 would be unfairly slating her, and 5 would be praising her when they had no idea who Taylor Swift was. The solution is optionals: “I don’t want to provide a number at all.”
 
 When we used `-> String` it means "this will definitely return a string," which means this function *cannot* return no value, and thus can be called safe in the knowledge that you'll always get a value back that you can use as a string. If we wanted to tell Swift that this function might return a value or it might not, we need to use this instead:
 
@@ -93,7 +93,7 @@ func getHaterStatus(weather: String) -> String? {
 }
 ```
 
-That accepts one string parameter (the weather) and returns one string (hating status), but that return value might be there or it might not – it's nil. In this case, it means we might get a string, or we might get nil.
+That accepts one string parameter (the weather) and returns one string (hating status), but that return value might be there or it might not - it's nil. In this case, it means we might get a string, or we might get nil.
 
 ![A function that might return a String or nil.](https://hackingwithswift.com/img/books/hws/optionals-1@2x.png)
 
@@ -106,7 +106,7 @@ var status: String
 status = getHaterStatus(weather: "rainy")
 ```
 
-The first line creates a string variable, and the second assigns to it the value from `getHaterStatus()` – and today the weather is rainy, so those haters are hating for sure.
+The first line creates a string variable, and the second assigns to it the value from `getHaterStatus()` - and today the weather is rainy, so those haters are hating for sure.
 
 That code will not run, because we said that `status` is of type `String`, which requires a value, but `getHaterStatus()` might not provide one because it returns an optional string. That is, we said there would *definitely* be a string in `status`, but `getHaterStatus()` might return nothing at all. Swift simply will not let you make this mistake, which is extremely helpful because it effectively stops a whole class of common bugs.
 
@@ -135,7 +135,7 @@ func takeHaterAction(status: String) {
 }
 ```
 
-That takes a string and prints a message depending on its contents. This function takes a `String` value, and *not* a `String?` value – you can't pass in an optional here, it wants a real string, which means we can't call it using the `status` variable we made.
+That takes a string and prints a message depending on its contents. This function takes a `String` value, and *not* a `String?` value - you can't pass in an optional here, it wants a real string, which means we can't call it using the `status` variable we made.
 
 Swift has two solutions. Both are used, but one is definitely preferred over the other. The first solution is called optional unwrapping, and it's done inside a conditional statement using special syntax. It does two things at the same time: checks whether an optional has a value, and if so unwraps it into a non-optional type then runs a code block.
 
@@ -195,7 +195,7 @@ That takes the name of a Taylor Swift album, and returns the year it was release
 
 ![Calling the function with “Lantern” returns 0.](https://hackingwithswift.com/img/books/hws/optionals-4@2x.png)
 
-But does 0 make sense here? Sure, if the album was released back in 0 AD when Caesar Augustus was emperor of Rome, 0 might make sense, but here it's just confusing – people need to know ahead of time that 0 means “not recognized.”
+But does 0 make sense here? Sure, if the album was released back in 0 AD when Caesar Augustus was emperor of Rome, 0 might make sense, but here it's just confusing - people need to know ahead of time that 0 means “not recognized.”
 
 A much better idea is to rewrite that function so that it either returns an integer (when a year was found) or nil (when nothing was found), which is easy thanks to optionals. Here's the new function:
 
@@ -252,7 +252,7 @@ let bobPosition = position(of: "Bob", in: items)
 
 ![The positions of James, John, Sally, and Bob are 0, 1, 2, and 0 respectively.](https://hackingwithswift.com/img/books/hws/optionals-6@2x.png)
 
-That will output 0, 1, 2, 0 – the positions of James and Bob are the same, even though one exists and one doesn't. This is because I used 0 to mean "not found." The easy fix might be to make -1 not found, but whether it's 0 or -1 you still have a problem because you have to remember that specific number means “not found.”
+That will output 0, 1, 2, 0 - the positions of James and Bob are the same, even though one exists and one doesn't. This is because I used 0 to mean "not found." The easy fix might be to make -1 not found, but whether it's 0 or -1 you still have a problem because you have to remember that specific number means “not found.”
 
 The solution is optionals: return an integer if you found the match, or nil otherwise. In fact, this is exactly the approach the built-in "find in array" methods use: `someArray.firstIndex(of: someValue)`.
 
@@ -294,11 +294,11 @@ if year == nil {
 
 That gets the year an album was released. If the album couldn't be found, `year` will be set to nil, and an error message will be printed. Otherwise, the year will be printed.
 
-Or will it? Well, `yearAlbumReleased()` returns an optional integer, and this code doesn't use `if let` to unwrap that optional. As a result, it will print out the following: "It was released in Optional(2012)" – probably not what we wanted!
+Or will it? Well, `yearAlbumReleased()` returns an optional integer, and this code doesn't use `if let` to unwrap that optional. As a result, it will print out the following: "It was released in Optional(2012)" - probably not what we wanted!
 
 ![Printing an Optional String causes a warning and printing literally “Optional(2012)”.](https://hackingwithswift.com/img/books/hws/optionals-8@2x.png)
 
-At this point in the code, we have already checked that we have a valid value, so it's a bit pointless to have another `if let` in there to safely unwrap the optional. So, Swift provides a solution – change the second `print()` call to this:
+At this point in the code, we have already checked that we have a valid value, so it's a bit pointless to have another `if let` in there to safely unwrap the optional. So, Swift provides a solution - change the second `print()` call to this:
 
 ```swift
 print("It was released in \(year!)")
@@ -308,7 +308,7 @@ print("It was released in \(year!)")
 
 Note the exclamation mark: it means "I'm certain this contains a value, so force unwrap it now."
 
-Broadly speaking force unwrapping optionals is frowned upon – if you find yourself doing it frequently you might want to rethink your approach.
+Broadly speaking force unwrapping optionals is frowned upon - if you find yourself doing it frequently you might want to rethink your approach.
 
 ---
 
@@ -318,11 +318,11 @@ You can also use this exclamation mark syntax to create implicitly unwrapped opt
 
 - A regular variable must contain a value. Example: `String` must contain a string, even if that string is empty, i.e. `""`. It *cannot* be nil.
 - An *optional* variable might contain a value, or might not. It must be unwrapped before it is used. Example: `String?` might contain a string, or it might contain nil. The only way to find out is to unwrap it.
-- An implicitly unwrapped optional might contain a value, or might not, but it does *not* need to be unwrapped before it is used. Swift won't check for you, so you need to be extra careful. Example: `String!` might contain a string, or it might contain nil – and it's down to you to use it appropriately. It’s like a regular optional, but Swift lets you access the value directly without the unwrapping safety. If you try to do it, it means you know there’s a value there – but if you’re wrong your app will crash.
+- An implicitly unwrapped optional might contain a value, or might not, but it does *not* need to be unwrapped before it is used. Swift won't check for you, so you need to be extra careful. Example: `String!` might contain a string, or it might contain nil - and it's down to you to use it appropriately. It’s like a regular optional, but Swift lets you access the value directly without the unwrapping safety. If you try to do it, it means you know there’s a value there - but if you’re wrong your app will crash.
 
 ![A crash caused by using an implicitly-unwrapped Optional containing nil.](https://hackingwithswift.com/img/books/hws/optionals-10@2x.png)
 
-The main times you're going to meet implicitly unwrapped optionals is when you're working with user interface elements in UIKit on iOS or AppKit on macOS. These need to be declared up front, but you can't use them until they have been created – and Apple likes to create user interface elements at the last possible moment to avoid any unnecessary work. Having to continually unwrap values you definitely know will be there is annoying, so these are made implicitly unwrapped.
+The main times you're going to meet implicitly unwrapped optionals is when you're working with user interface elements in UIKit on iOS or AppKit on macOS. These need to be declared up front, but you can't use them until they have been created - and Apple likes to create user interface elements at the last possible moment to avoid any unnecessary work. Having to continually unwrap values you definitely know will be there is annoying, so these are made implicitly unwrapped.
 
-Don't worry if you find implicitly unwrapped optionals a bit hard to grasp – it will become clear as you work with the language, and you’ll be pleased to know they are rare in SwiftUI projects.
+Don't worry if you find implicitly unwrapped optionals a bit hard to grasp - it will become clear as you work with the language, and you’ll be pleased to know they are rare in SwiftUI projects.
 

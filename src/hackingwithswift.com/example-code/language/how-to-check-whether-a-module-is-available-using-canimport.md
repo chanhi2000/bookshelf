@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,11 +65,11 @@ For example, this code will check for UIKit, AppKit, and all other possibilities
 
 ```swift
 #if canImport(UIKit)
-// iOS, tvOS, and watchOS – use UIColor
+// iOS, tvOS, and watchOS - use UIColor
 #elseif canImport(AppKit)
-// macOS – use NSColor
+// macOS - use NSColor
 #else
-// all other platforms – use a custom color object
+// all other platforms - use a custom color object
 #endif
 ```
 

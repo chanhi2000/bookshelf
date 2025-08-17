@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.0 – Hacking with Swift",
+  "title": "What's new in Swift 3.0 - Hacking with Swift",
   "desc": "What's new in Swift 3.0",
   "link": "https://hackingwithswift.com/swift3",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -61,7 +61,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 10 for developers – Hacking with Swift",
+  "title": "What's new in iOS 10 for developers - Hacking with Swift",
   "desc": "What's new in iOS 10 for developers",
   "link": "/hackingwithswift.com/ios10.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -71,7 +71,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.2 – Hacking with Swift",
+  "title": "What's new in Swift 2.2 - Hacking with Swift",
   "desc": "What's new in Swift 2.2",
   "link": "/hackingwithswift.com/swift2-2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -81,7 +81,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "/hackingwithswift.com/swift2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -97,7 +97,7 @@ There are lots and lots of changes, some of which might seem petty. However, the
 
 ::: warning ADVANCE WARNING #2
 
-If you have not already read my [what's new in Swift 2.2](/hackingwithswift.com/swift2-2.md) article, you should do so now – everything that I said was deprecated there has been removed, including ++, --, C-style for loops, tuple splat syntax, and more.
+If you have not already read my [what's new in Swift 2.2](/hackingwithswift.com/swift2-2.md) article, you should do so now - everything that I said was deprecated there has been removed, including ++, --, C-style for loops, tuple splat syntax, and more.
 
 :::
 
@@ -184,7 +184,7 @@ names.insert("Jane", atIndex: 0)
 UIDevice.currentDevice()
 ```
 
-Can you identify the needless words? When you're working with `UIColor`, of course blue is going to be a color, so saying `blueColor()` is needless. When you append one attributed string to another, do you really need to specify that it's an attributed string you're appending as opposed to an elephant? And why should it be a method – surely a color should be a property!
+Can you identify the needless words? When you're working with `UIColor`, of course blue is going to be a color, so saying `blueColor()` is needless. When you append one attributed string to another, do you really need to specify that it's an attributed string you're appending as opposed to an elephant? And why should it be a method - surely a color should be a property!
 
 Here is that same code in Swift 3:
 
@@ -229,7 +229,7 @@ myPath.appendingPathComponent("file.txt")
 
 :::
 
-I've chosen the examples so far because the jump to Swift 3 isn't vast, but there are quite a few changes that were significant enough to make my brain hit a speedbump – usually when the resulting method is so short that it wasn't immediately obvious what it was.
+I've chosen the examples so far because the jump to Swift 3 isn't vast, but there are quite a few changes that were significant enough to make my brain hit a speedbump - usually when the resulting method is so short that it wasn't immediately obvious what it was.
 
 For example, look at this code:
 
@@ -259,7 +259,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?)
 
 ## Intermission
 
-If you're enjoying this article, you might like my Swift newsletter. I post very rarely, but always include discounts on my books – [<FontIcon icon="fas fa-globe"/>click here to sign up now](https://gumroad.com/twostraws/follow) and you'll get an **_instant $5 discount_** on the complete Hacking with Swift e-book.
+If you're enjoying this article, you might like my Swift newsletter. I post very rarely, but always include discounts on my books - [<FontIcon icon="fas fa-globe"/>click here to sign up now](https://gumroad.com/twostraws/follow) and you'll get an **_instant $5 discount_** on the complete Hacking with Swift e-book.
 
 And now back to your regularly scheduled broadcast…
 
@@ -271,7 +271,7 @@ Although syntactically irrelevant, the capital letters we use to name classes an
 
 I say "fairly closely" because there are some exceptions that are going to *stop* being exceptions in Swift 3: properties and parameters that started with initials in Swift 2.2 will now used lowerCamelCase in Swift 3.
 
-Sometimes this isn't too strange: Swift 2.2 created `NSURLRequest` objects using `NSURLRequest(URL: someURL)` – note the capital "URL". Swift 3 rewrites that to `URLRequest(url: someURL)`, and also means you'll use things like `webView.request?.url?.absoluteString` for reading the URL of a web view.
+Sometimes this isn't too strange: Swift 2.2 created `NSURLRequest` objects using `NSURLRequest(URL: someURL)` - note the capital "URL". Swift 3 rewrites that to `URLRequest(url: someURL)`, and also means you'll use things like `webView.request?.url?.absoluteString` for reading the URL of a web view.
 
 Where it's a bit more jarring is when only part of the property name is in caps, e.g. `CGColor` or `CIColor`. Yes, you've guessed it: they become `cgColor` and `ciColor` in Swift 3, so you'll be writing code like this:
 
@@ -303,7 +303,7 @@ enum Optional {
 }
 ```
 
-This means if you use `.Some` to work with optionals, you'll need to switch to `.some` instead. Of course, you could always take this opportunity to ditch `.some` entirely – these two pieces of code are identical:
+This means if you use `.Some` to work with optionals, you'll need to switch to `.some` instead. Of course, you could always take this opportunity to ditch `.some` entirely - these two pieces of code are identical:
 
 ```swift
 for case let .some(datum) in data {
@@ -382,7 +382,7 @@ Here's are some quotes from the Swift API guidelines:
 - "When adding “ed” is not grammatical because the verb has a direct object, name the nonmutating variant using the verb’s present participle"
 - "When the operation is naturally described by a noun, use the noun for the nonmutating method and apply the “form” prefix to name its mutating counterpart"
 
-Got that? It's no surprise that Swift's rules are expressed using lingustic terminology – it is after all a language! – but this at least gives me a chance to feel smug that I did a second degree in English. What it means is that many methods are changing names in subtle and sometimes confusing ways.
+Got that? It's no surprise that Swift's rules are expressed using lingustic terminology - it is after all a language! - but this at least gives me a chance to feel smug that I did a second degree in English. What it means is that many methods are changing names in subtle and sometimes confusing ways.
 
 Let's start with a couple of simple examples:
 

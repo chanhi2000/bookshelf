@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Generics are a way of making one data type act in a variety of ways depending on how it is created. You’ve already used them whether you realized or not: Swift has an `Array` type, but it is *generic* – it doesn’t contain any sort of specific data. Instead, you ask for arrays that hold specific kinds of data by using things like `[String]` to get a string array.
+Generics are a way of making one data type act in a variety of ways depending on how it is created. You’ve already used them whether you realized or not: Swift has an `Array` type, but it is *generic* - it doesn’t contain any sort of specific data. Instead, you ask for arrays that hold specific kinds of data by using things like `[String]` to get a string array.
 
-It’s not hard to create generics of your own, and to demonstrate that we’re going to create a simple `Queue` type. These are first-in, first-out data structures (FIFO), which means you add things to the back and remove them from the front – much like a real-life queue.
+It’s not hard to create generics of your own, and to demonstrate that we’re going to create a simple `Queue` type. These are first-in, first-out data structures (FIFO), which means you add things to the back and remove them from the front - much like a real-life queue.
 
-We want this queue to be generic, and in Swift you do that by writing the name of a generic placeholder inside angle brackets, like this: `struct Queue<T> {`. That `T` doesn’t mean anything special – it could have been `R` or `Element` – but `T` is commonly used.
+We want this queue to be generic, and in Swift you do that by writing the name of a generic placeholder inside angle brackets, like this: `struct Queue<T> {`. That `T` doesn’t mean anything special - it could have been `R` or `Element` - but `T` is commonly used.
 
 Inside the queue we’re going to have an internal array tracking the items we’re storing, and we’ll write methods to add and remove items.
 

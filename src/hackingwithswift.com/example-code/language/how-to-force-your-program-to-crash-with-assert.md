@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-This might seem like a strange topic – after all, why would anyone want their program to crash? Well, the answer is two-fold.
+This might seem like a strange topic - after all, why would anyone want their program to crash? Well, the answer is two-fold.
 
 First, if something has gone wrong that leaves your program in an unsafe state, continuing might mean corrupting user data.
 

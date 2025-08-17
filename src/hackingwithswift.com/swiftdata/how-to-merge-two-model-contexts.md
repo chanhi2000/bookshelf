@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-One of the very first questions I had about SwiftData was “how do you merge two `ModelContext` objects?” The answer is you can’t – or at least not directly, in the same way we would have merged two `NSManagedObjectContext` instances. Instead, the best we can do is spin off a new model context from a model container, make changes there, then save those changes back into the container when you’re ready.
+One of the very first questions I had about SwiftData was “how do you merge two `ModelContext` objects?” The answer is you can’t - or at least not directly, in the same way we would have merged two `NSManagedObjectContext` instances. Instead, the best we can do is spin off a new model context from a model container, make changes there, then save those changes back into the container when you’re ready.
 
 ::: tip
 

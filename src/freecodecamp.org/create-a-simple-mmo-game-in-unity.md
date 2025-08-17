@@ -63,11 +63,11 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 ::: info Throughout the course, you'll gain hands-on experience with:
 
-- **Unity Game Development** – Learn how to build and design your game using the Unity engine.
-- **C# Programming** – Write scripts to control player movement, interactions, and game mechanics.
-- **SpacetimeDB** – Implement a real-time multiplayer database to manage player data efficiently.
-- **Server and Client Architecture** – Set up the game’s backend and handle communication between players.
-- **Multiplayer Game Mechanics** – Create a competitive, interactive game world where players can grow, compete, and strategize.
+- **Unity Game Development** - Learn how to build and design your game using the Unity engine.
+- **C# Programming** - Write scripts to control player movement, interactions, and game mechanics.
+- **SpacetimeDB** - Implement a real-time multiplayer database to manage player data efficiently.
+- **Server and Client Architecture** - Set up the game’s backend and handle communication between players.
+- **Multiplayer Game Mechanics** - Create a competitive, interactive game world where players can grow, compete, and strategize.
 
 :::
 

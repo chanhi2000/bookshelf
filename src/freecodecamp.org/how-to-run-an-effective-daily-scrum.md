@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Run an Effective Daily Scrum – Tips for Team Members and Managers"
-description: "Article(s) > How to Run an Effective Daily Scrum – Tips for Team Members and Managers"
+title: "How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
+description: "Article(s) > How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
 icon: fas fa-user-tie
 category:
   - Career
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Run an Effective Daily Scrum – Tips for Team Members and Managers"
+      content: "Article(s) > How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
     - property: og:description
-      content: "How to Run an Effective Daily Scrum – Tips for Team Members and Managers"
+      content: "How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-an-effective-daily-scrum.html
 prev: /projects/career/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737127993830/ea47379
 ---
 
 <SiteInfo
-  name="How to Run an Effective Daily Scrum – Tips for Team Members and Managers"
+  name="How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
   desc="Let’s start with a simple question: Why do we get together for a short meeting each day?  If you work on a Scrum team, you’ve probably heard of a daily scrum, sometimes called a daily stand-up. It’s one of the key events in scrum. The “daily” usually..."
   url="https://freecodecamp.org/news/how-to-run-an-effective-daily-scrum"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -110,7 +110,7 @@ Let’s expand on each question:
 2. **Today’s Plans**: Next, we share what we’re about to tackle. For example, “Today, I’m going to fix a bug in the payment service.” That piece of information helps everyone see how the day’s work lines up with the sprint backlog.
 3. **Blockers**: This is a crucial point. If something is stopping me from completing my tasks, I mention it here. Let’s say, “I need access to the staging environment, but I’m waiting on a permissions update to give me access.” This means if anyone on the team can fix that, we speed up progress.
 
-In my teams, we usually have the Jira board open and associate each person’s update with the related story. This gives people a little more context. You don’t have to do this though – my teams just find it helpful.
+In my teams, we usually have the Jira board open and associate each person’s update with the related story. This gives people a little more context. You don’t have to do this though - my teams just find it helpful.
 
 ---
 
@@ -258,7 +258,7 @@ Follow me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`jatechlead`)](https:/
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Run an Effective Daily Scrum – Tips for Team Members and Managers",
+  "title": "How to Run an Effective Daily Scrum - Tips for Team Members and Managers",
   "desc": "Let’s start with a simple question: Why do we get together for a short meeting each day?  If you work on a Scrum team, you’ve probably heard of a daily scrum, sometimes called a daily stand-up. It’s one of the key events in scrum. The “daily” usually...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-an-effective-daily-scrum.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

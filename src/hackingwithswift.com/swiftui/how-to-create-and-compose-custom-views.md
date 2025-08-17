@@ -146,7 +146,7 @@ With this structure we now have several ways of showing employees:
 - Just their job details
 - Everything all at once
 
-More importantly, it means that when it comes to *using* all this work, our main content views don’t have to worry about what employees look like or how they should be treated – all that work is baked into our smaller views. This means we can create a `EmployeeView` with an example employee and have it just work.
+More importantly, it means that when it comes to *using* all this work, our main content views don’t have to worry about what employees look like or how they should be treated - all that work is baked into our smaller views. This means we can create a `EmployeeView` with an example employee and have it just work.
 
 To demonstrate all this together, here’s one code sample with all the smaller view structs, ending with a `ContentView` struct that displays a single employee. To the user the result is the same, but we end up with a whole bunch of small views that do individual things, each of which can be recombined in any number of different ways.
 

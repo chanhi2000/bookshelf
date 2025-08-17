@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Back to Basics – Recursion and Recursive Methods
-description: Article(s) > C# Back to Basics – Recursion and Recursive Methods
+title: C# Back to Basics - Recursion and Recursive Methods
+description: Article(s) > C# Back to Basics - Recursion and Recursive Methods
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Back to Basics – Recursion and Recursive Methods
+      content: Article(s) > C# Back to Basics - Recursion and Recursive Methods
     - property: og:description
-      content: C# Back to Basics – Recursion and Recursive Methods
+      content: C# Back to Basics - Recursion and Recursive Methods
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-basics-recursion.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/csharp-basics-recursion/banner.png
 ---
 
 <SiteInfo
-  name="C# Back to Basics – Recursion and Recursive Methods"
+  name="C# Back to Basics - Recursion and Recursive Methods"
   desc="Learn how to use Recursion and Recursive Methods in C#. And, what is the difference between regular methods and recursive ones."
   url="https://code-maze.com/csharp-basics-recursion/"
   logo="/assets/image/code-maze.com/favicon.png"

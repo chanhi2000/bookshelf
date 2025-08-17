@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More"
-description: "Article(s) > Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More"
+title: "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
+description: "Article(s) > Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More"
+      content: "Article(s) > Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
     - property: og:description
-      content: "Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More"
+      content: "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/synchronous-vs-asynchronous-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2021/09/freeCodeCamp-Cover-2
 ---
 
 <SiteInfo
-  name="Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More"
+  name="Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
   desc="Let me start this article by asking, ”What is JavaScript”? Well, here's the most confusing yet to-the-point answer I have found so far: JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language with lots of flexibi..."
   url="https://freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -55,7 +55,7 @@ Let me start this article by asking, "What is JavaScript"? Well, here's the most
 
 > JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language with lots of flexibility.
 
-Hold on a second – did it say single-threaded and asynchronous at the same time? If you understand what single-threaded means, you'll likely mostly associate it with synchronous operations. How can JavaScript be asynchronous, then?
+Hold on a second - did it say single-threaded and asynchronous at the same time? If you understand what single-threaded means, you'll likely mostly associate it with synchronous operations. How can JavaScript be asynchronous, then?
 
 In this article, we will learn all about the synchronous and asynchronous parts of JavaScript. You use both in web programming almost daily.
 
@@ -95,7 +95,7 @@ By default, every line in a function executes sequentially, one line at a time. 
 
 ---
 
-## Synchronous JavaScript – How the Function Execution Stack Works
+## Synchronous JavaScript - How the Function Execution Stack Works
 
 So what happens when you define a function and then invoke it? The JavaScript engine maintains a `stack` data structure called `function execution stack`. The purpose of the stack is to track the current function in execution. It does the following:
 
@@ -164,7 +164,7 @@ Great! Now that we understand how `synchronous` operations work in JavaScript, l
 
 ---
 
-## Asynchronous JavaScript – How Browser APIs and Promises Work
+## Asynchronous JavaScript - How Browser APIs and Promises Work
 
 The word `asynchronous` means **not occurring at the same time**. What does it mean in the context of JavaScript?
 
@@ -482,7 +482,7 @@ As promised before, here are a few articles you may find useful,
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More",
+  "title": "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More",
   "desc": "Let me start this article by asking, ”What is JavaScript”? Well, here's the most confusing yet to-the-point answer I have found so far: JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language with lots of flexibi...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/synchronous-vs-asynchronous-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

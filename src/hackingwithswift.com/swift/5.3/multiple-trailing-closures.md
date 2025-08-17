@@ -101,7 +101,7 @@ struct BadContentView: View {
 }
 ```
 
-However, I would caution against that for readability – a floating piece of code like that is never pleasant, and in Swift it looks like a labeled block rather than a second parameter to the `Button` initializer.
+However, I would caution against that for readability - a floating piece of code like that is never pleasant, and in Swift it looks like a labeled block rather than a second parameter to the `Button` initializer.
 
 ::: details Other Changes in Swift 5.3
 

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI lets us create new gestures out of sequences of other gestures, which allows us to trigger an action only when two gestures occur back to back – for example if the user drags a view then long-presses on it.
+SwiftUI lets us create new gestures out of sequences of other gestures, which allows us to trigger an action only when two gestures occur back to back - for example if the user drags a view then long-presses on it.
 
 Because the sequenced views need to be able to reference each other, you can't really create them as properties of your view. Instead, create them directly inside your `body` property, then use `firstGesture.sequenced(before: secondGesture)` to chain the two together into a single gesture.
 

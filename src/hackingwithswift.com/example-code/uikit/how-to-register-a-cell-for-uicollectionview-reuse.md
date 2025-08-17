@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -78,7 +78,7 @@ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath:
 
 If a cell doesn't already exist that can be re-used, a new one will be created automatically.
 
-As you might imagine, you will most of the time want to create your own custom `UICollectionViewCell` subclass and use that instead, but the code is the same – just use your class name instead.
+As you might imagine, you will most of the time want to create your own custom `UICollectionViewCell` subclass and use that instead, but the code is the same - just use your class name instead.
 
 If you're working with Interface Builder, all this work is done for you by creating prototype cells.
 

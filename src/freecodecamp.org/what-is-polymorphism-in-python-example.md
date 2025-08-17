@@ -139,7 +139,7 @@ for vehicle in vehicles:
 
 Notice the ugly code inside the `for` loop! Because `vehicles` is a list of any type of object, we have to figure out what type of object we are dealing with inside each loop before we can access any information on the object.
 
-This code will continue to get uglier as we add more vehicle types. For example, if we *extended* our codebase to include a new `Plane` class, then we’d need to *modify* (and potentially break) existing code – we’d have to add another conditional check in the `for` loop for planes.
+This code will continue to get uglier as we add more vehicle types. For example, if we *extended* our codebase to include a new `Plane` class, then we’d need to *modify* (and potentially break) existing code - we’d have to add another conditional check in the `for` loop for planes.
 
 ### Introducing: Polymorphism…
 

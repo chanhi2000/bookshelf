@@ -63,7 +63,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746809303458/b4635dd
 
 <SiteInfo
   name="What is Technical Debt and How Do You Manage it?"
-  desc="You’ve probably heard someone say, “We’ll fix it later.” Maybe you’ve said it yourself. In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works – for now. The design passes – for now. But over time, ..."
+  desc="You’ve probably heard someone say, “We’ll fix it later.” Maybe you’ve said it yourself. In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works - for now. The design passes - for now. But over time, ..."
   url="https://freecodecamp.org/news/what-is-technical-debt-and-how-do-you-manage-it"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746809303458/b4635ddc-d909-427a-9cc1-9b9f56ae1d41.png"/>
@@ -72,7 +72,7 @@ You’ve probably heard someone say, “We’ll fix it later.”
 
 Maybe you’ve said it yourself.
 
-In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works – for now. The design passes – for now.
+In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works - for now. The design passes - for now.
 
 But over time, these choices pile up. They slow you down. They make every change harder. That’s technical debt.
 
@@ -88,13 +88,13 @@ Let’s talk about what technical debt really is, how it forms, and how you can 
 
 ## What Is Technical Debt?
 
-Think of technical debt like financial debt. When you borrow money, you get something now – at the cost of interest later.
+Think of technical debt like financial debt. When you borrow money, you get something now - at the cost of interest later.
 
 In software, it’s the same. You make a quick decision to save time now, knowing it might cost you more effort down the line.
 
 There’s nothing inherently wrong with that. Sometimes, taking on debt is smart. You might need to ship fast to test an idea or respond to the market.
 
-But if you keep borrowing and never repay, the interest builds. And technical debt doesn’t just grow – it compounds. The longer you leave it, the worse it gets.
+But if you keep borrowing and never repay, the interest builds. And technical debt doesn’t just grow - it compounds. The longer you leave it, the worse it gets.
 
 You don’t just end up paying more later. You slow down your whole team.
 
@@ -102,7 +102,7 @@ Every new feature takes longer. Bugs multiply. Morale drops. And eventually, you
 
 ### Types of Technical Debt
 
-Not all debt is the same. Some is like a short-term loan – you know you’re taking it and why. Other debt is like a bad mortgage – no one even knows it’s there until things break.
+Not all debt is the same. Some is like a short-term loan - you know you’re taking it and why. Other debt is like a bad mortgage - no one even knows it’s there until things break.
 
 Here are the most common types:
 
@@ -119,7 +119,7 @@ Recognising which type you’re dealing with helps you prioritise. Not all debt 
 
 As you can probably imagine, technical debt shows up in many ways.
 
-Sometimes it’s deliberate. You make a tradeoff. You know it’s a shortcut, and you plan to clean it up later. That’s manageable – if you actually clean it up.
+Sometimes it’s deliberate. You make a tradeoff. You know it’s a shortcut, and you plan to clean it up later. That’s manageable - if you actually clean it up.
 
 But most technical debt isn’t planned. It sneaks in through decisions that feel small in the moment. A rushed feature. A new hire not trained on the codebase. A spec that changes mid-sprint. Over time, these small cracks become deep fractures.
 
@@ -188,11 +188,11 @@ You can’t eliminate all technical debt. But you can manage it.
 
 First, treat it like real debt. Track it. Prioritize it. Make regular payments.
 
-Start by writing it down. Every time someone takes a shortcut, log it. You don’t need a fancy tool – a shared doc or Jira tag works fine. Just make it visible.
+Start by writing it down. Every time someone takes a shortcut, log it. You don’t need a fancy tool - a shared doc or Jira tag works fine. Just make it visible.
 
-Next, build time into your workflow to pay it off. Use 10–20% of each sprint to refactor or improve the codebase. Don’t wait for a rewrite. Small, steady work adds up.
+Next, build time into your workflow to pay it off. Use 10-20% of each sprint to refactor or improve the codebase. Don’t wait for a rewrite. Small, steady work adds up.
 
-Code reviews help too. Encourage your team to ask: “Is this a shortcut?” If yes, make a conscious choice. Leave a clear comment. Note the tradeoff. Now it’s not a hidden cost – it’s a known one.
+Code reviews help too. Encourage your team to ask: “Is this a shortcut?” If yes, make a conscious choice. Leave a clear comment. Note the tradeoff. Now it’s not a hidden cost - it’s a known one.
 
 And when you do pay off debt, celebrate it. Make it part of your culture. The same way you’d celebrate shipping a feature, acknowledge when your team makes the codebase better. That builds pride and ownership.
 
@@ -234,7 +234,7 @@ Hope you enjoyed this article. [<FontIcon icon="fas fa-globe"/>Join my newslette
 ```component VPCard
 {
   "title": "What is Technical Debt and How Do You Manage it?",
-  "desc": "You’ve probably heard someone say, “We’ll fix it later.” Maybe you’ve said it yourself. In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works – for now. The design passes – for now. But over time, ...",
+  "desc": "You’ve probably heard someone say, “We’ll fix it later.” Maybe you’ve said it yourself. In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works - for now. The design passes - for now. But over time, ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-technical-debt-and-how-do-you-manage-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

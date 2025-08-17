@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Test Yourself"
-description: "Article(s) > (5/8) How IPv4 Works – A Handbook for Developers" 
+description: "Article(s) > (5/8) How IPv4 Works - A Handbook for Developers" 
 category:
   - Engineering
   - Computer
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/8) How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > (5/8) How IPv4 Works - A Handbook for Developers"
     - property: og:description
       content: "Test Yourself"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers#heading-test-yourself"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -90,7 +90,7 @@ What about this one? Does it belong to the same network as the previous addresse
 
 ![Additional address. Does this address fit in the network defined before?<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744465285214/f57fd6c2-7665-4565-943e-959b981fedc8.png)
 
-No, as the first two bytes are not `42.31` – this is a different network. So this address describes host `1.2`, within the network `42.32`.
+No, as the first two bytes are not `42.31` - this is a different network. So this address describes host `1.2`, within the network `42.32`.
 
 ![No, this address does not belong to the same network as the other ones<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744465302503/0fdd959f-2d10-4a56-826d-e71604ca5267.png)
 
@@ -114,7 +114,7 @@ Given this subnet mask, do addresses (1) and (3) above belong to the same networ
 
 ![Do these addresses have the same network ID given a 24-bit subnet mask?<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744465436680/ca71584d-53dc-4116-a109-d32c11e997ef.png)
 
-They do, as they both have the same most-significant three bytes – network `42.31.93`.
+They do, as they both have the same most-significant three bytes - network `42.31.93`.
 
 ![24-bit subnet mask<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744465461745/c01f5958-f675-45c5-bc41-de857483e25d.png)
 
@@ -134,7 +134,7 @@ Network prefixes do not have to align to `8` bits, or full bytes. Let's say you 
 
 Well, the first byte is clear: you have `8` bits on, so the first byte is `255`. What about the next one?
 
-In binary, you'd want to have six additional 1s, and then 2 0s – so in binary you'd write:
+In binary, you'd want to have six additional 1s, and then 2 0s - so in binary you'd write:
 
 ```plaintext
 11111100
@@ -158,7 +158,7 @@ Next, try the other way around. You have the following subnet mask:
 
 How many bits represent the network prefix?
 
-The first two bytes are clear: you have `16` bits. Converting the third byte to binary: `224` in decimal is `11100000` in binary. This means you have an additional three 1s, so you can write the subnet mask above as a prefix of `/19` bits – `16` bits for the two `255` bytes, and `3` additional bits for the `224` byte.
+The first two bytes are clear: you have `16` bits. Converting the third byte to binary: `224` in decimal is `11100000` in binary. This means you have an additional three 1s, so you can write the subnet mask above as a prefix of `/19` bits - `16` bits for the two `255` bytes, and `3` additional bits for the `224` byte.
 
 ![19-bit subnet mask<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744465642118/2587e3bc-0c88-48a9-b876-b96fd3a493d1.png)
 
@@ -198,7 +198,7 @@ You can see that the most significant `4` bits within the second byte are identi
 
 So, if you have a network prefix of `/11`, do these addresses belong to the same network?
 
-Yes, they do – their most significant `11` bits are identical.
+Yes, they do - their most significant `11` bits are identical.
 
 What about `/13`?
 

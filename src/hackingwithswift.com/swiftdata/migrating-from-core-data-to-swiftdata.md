@@ -69,5 +69,5 @@ Here’s a list to get you started, with Core Data names followed by SwiftData n
 - `NSMigrationStage`: `MigrationStage`
 - `NSEntityMigrationPolicy`: `SchemaMigrationPlan`
 
-Most notably, Xcode’s model editor is no longer needed now – it’s all code.
+Most notably, Xcode’s model editor is no longer needed now - it’s all code.
 

@@ -43,7 +43,7 @@ cover: https://hackingwithswift.com/uploads/recording.jpg
 ---
 
 <SiteInfo
-  name="I screwed up one key accessibility behavior, and now I'm on a mission to do better – Hacking with Swift"
+  name="I screwed up one key accessibility behavior, and now I'm on a mission to do better - Hacking with Swift"
   desc="Accessibility labels, hints, and grouping are great, but don’t forget to think about Voice Control too."
   url="https://hackingwithswift.com/articles/261/i-screwed-up-one-key-accessibility-behavior-and-now-i-m-on-a-mission-to-do-better"
   logo="https://hackingwithswift.com/favicon.svg"

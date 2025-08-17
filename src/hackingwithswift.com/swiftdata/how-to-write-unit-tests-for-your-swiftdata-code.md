@@ -76,7 +76,7 @@ class Movie {
 }
 ```
 
-Rather than querying that directly using `@Query`, we're going to query it using a fetch descriptor inside a view model. This takes a little more work, but it also means we can write unit tests by instantiating the view model directly – we can bypass SwiftUI entirely.
+Rather than querying that directly using `@Query`, we're going to query it using a fetch descriptor inside a view model. This takes a little more work, but it also means we can write unit tests by instantiating the view model directly - we can bypass SwiftUI entirely.
 
 So, here's some code that creates a view model capable of adding and deleting sample data, and also fetching a list of movies on demand:
 
@@ -262,5 +262,5 @@ func testCreatingSamplesWorks() throws {
 }
 ```
 
-Anyway, as you can see unit testing can work great with SwiftData – as long as you're happy to pull your data access out into a separate view model. This does make tracking updates significantly harder, but hopefully we'll get some sort of `NSFetchedResultsController` equivalent soon…
+Anyway, as you can see unit testing can work great with SwiftData - as long as you're happy to pull your data access out into a separate view model. This does make tracking updates significantly harder, but hopefully we'll get some sort of `NSFetchedResultsController` equivalent soon…
 

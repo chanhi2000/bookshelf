@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Trie Data Structures Work – Validate User Input with Automated Trie Visualization"
-description: "Article(s) > How Trie Data Structures Work – Validate User Input with Automated Trie Visualization"
+title: "How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
+description: "Article(s) > How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
 icon: iconfont icon-matplotlib
 category:
   - Python
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Trie Data Structures Work – Validate User Input with Automated Trie Visualization"
+      content: "Article(s) > How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
     - property: og:description
-      content: "How Trie Data Structures Work – Validate User Input with Automated Trie Visualization"
+      content: "How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-validate-user-input-with-automated-trie-visualization.html
 prev: /programming/py/articles/README.md
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/2023/04/Screenshot-2023-04-0
 ---
 
 <SiteInfo
-  name="How Trie Data Structures Work – Validate User Input with Automated Trie Visualization"
+  name="How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
   desc="Data structures play a vital role in computer science. They are essential for designing efficient software infrastructure.  Simply put, a data structure is a way of organizing and storing data in a computer so that it can be accessed and manipulated ..."
   url="https://freecodecamp.org/news/how-to-validate-user-input-with-automated-trie-visualization"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -388,7 +388,7 @@ In conclusion, by embracing visualization as a key component of our development 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Trie Data Structures Work – Validate User Input with Automated Trie Visualization",
+  "title": "How Trie Data Structures Work - Validate User Input with Automated Trie Visualization",
   "desc": "Data structures play a vital role in computer science. They are essential for designing efficient software infrastructure.  Simply put, a data structure is a way of organizing and storing data in a computer so that it can be accessed and manipulated ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-validate-user-input-with-automated-trie-visualization.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

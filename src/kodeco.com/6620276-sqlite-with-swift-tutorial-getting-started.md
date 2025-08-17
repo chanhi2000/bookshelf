@@ -979,7 +979,7 @@ extension SQLiteDatabase {
 }
 ```
 
-Now that you’ve got your SQLegs – see what I did there? – this code shouldn’t be too surprising. Given a `Contact` instance, you prepare a statement, bind the values, execute and finalize.
+Now that you’ve got your SQLegs - see what I did there? - this code shouldn’t be too surprising. Given a `Contact` instance, you prepare a statement, bind the values, execute and finalize.
 
 Again, using a potent mix of `defer`, `guard` and `throw` allows you to take advantage of modern Swift language features.
 

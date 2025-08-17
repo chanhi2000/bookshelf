@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ That runs the function (or "calls" it), so now you'll see "My favorite is Fearle
 
 As you can see, you define a function by writing `func`, then your function name, then open and close parentheses, then a block of code marked by open and close braces. You then call that function by writing its name followed by an open and close parentheses.
 
-Of course, that's a silly example – that function does the same thing no matter what, so there's no point in it existing. But what if we wanted to print a different album each time? In that case, we could tell Swift we want our function to accept a value when it's called, then use that value inside it.
+Of course, that's a silly example - that function does the same thing no matter what, so there's no point in it existing. But what if we wanted to print a different album each time? In that case, we could tell Swift we want our function to accept a value when it's called, then use that value inside it.
 
 Let's do that now:
 
@@ -95,7 +95,7 @@ favoriteAlbum(name: "Fearless")
 
 ![A function is passed `name` as a parameter.](https://hackingwithswift.com/img/books/hws/functions-3@2x.png)
 
-You might still be wondering what the point is, given that it's still just one line of code. Well, imagine we used that function in 20 different places around a big app, then your head designer comes along and tells you to change the message to "I love Fearless so much – it's my favorite!" Do you really want to find and change all 20 instances in your code? Probably not. With a function you change it once, and everything updates.
+You might still be wondering what the point is, given that it's still just one line of code. Well, imagine we used that function in 20 different places around a big app, then your head designer comes along and tells you to change the message to "I love Fearless so much - it's my favorite!" Do you really want to find and change all 20 instances in your code? Probably not. With a function you change it once, and everything updates.
 
 You can make your functions accept as many parameters as you want, so let's make it accept a name and a year:
 
@@ -137,7 +137,7 @@ countLettersInString(string: "Hello")
 
 While that certainly works, it’s a bit wordy. Plus it’s not the kind of thing you would say aloud: “count letters in string string hello”.
 
-Swift’s solution is to let you specify one name for the parameter when it’s being called, and another inside the method. To use this, just write the parameter name twice – once for external, one for internal.
+Swift’s solution is to let you specify one name for the parameter when it’s being called, and another inside the method. To use this, just write the parameter name twice - once for external, one for internal.
 
 For example, we could name the parameter `myString` when it’s being called, and `str` inside the method, like this:
 
@@ -165,7 +165,7 @@ countLettersInString("Hello")
 
 As you can see, that makes the line of code read like an English sentence: “count letters in string hello”.
 
-While there are many cases when using `_` is the right choice, Swift programmers generally prefer to name all their parameters. And think about it: why do we need the word “String” in the function – what else would we want to count letters on?
+While there are many cases when using `_` is the right choice, Swift programmers generally prefer to name all their parameters. And think about it: why do we need the word “String” in the function - what else would we want to count letters on?
 
 So, what you’ll commonly see is external parameter names like “in”, “for”, and “with”, and more meaningful internal names. So, the “Swifty” way of writing this function is like so:
 
@@ -225,7 +225,7 @@ if albumIsTaylor(name: "Blue") {
 
 ![Using a function's return value in a conditional statement.](https://hackingwithswift.com/img/books/hws/functions-9@2x.png)
 
-If your function returns a value and has only one line of code inside it, you can omit the `return` keyword entirely – Swift knows a value must be sent back, and because there is only one line that must be the one that sends back a value.
+If your function returns a value and has only one line of code inside it, you can omit the `return` keyword entirely - Swift knows a value must be sent back, and because there is only one line that must be the one that sends back a value.
 
 For example, we could write this:
 

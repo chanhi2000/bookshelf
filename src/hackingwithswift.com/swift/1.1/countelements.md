@@ -66,7 +66,7 @@ println(count(items))
 
 ::: note
 
-This has changed in later versions of Swift – `count` is now a property of strings and collections.
+This has changed in later versions of Swift - `count` is now a property of strings and collections.
 
 :::
 

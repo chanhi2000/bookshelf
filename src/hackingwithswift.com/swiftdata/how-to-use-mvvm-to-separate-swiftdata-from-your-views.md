@@ -54,7 +54,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftData and SwiftUI perform best when tightly integrated, and when you separate them – when you want to introduce view models into your code  you lose a fair amount of their power. However, with some extra work MVVM can be used just fine with SwiftUI and SwiftData, as long as you're careful to keep your data synchronized.
+SwiftData and SwiftUI perform best when tightly integrated, and when you separate them - when you want to introduce view models into your code  you lose a fair amount of their power. However, with some extra work MVVM can be used just fine with SwiftUI and SwiftData, as long as you're careful to keep your data synchronized.
 
 ::: tip
 
@@ -108,7 +108,7 @@ struct ContentView: View {
 }
 ```
 
-This suffers from the same problem you'll have seen outside of SwiftData – it's hard to write unit tests for this, because the query requires SwiftUI to be actively involved.
+This suffers from the same problem you'll have seen outside of SwiftData - it's hard to write unit tests for this, because the query requires SwiftUI to be actively involved.
 
 To move this over to MVVM we need to create a new view model class using the `@Observable` macro. This needs to be able to perform a SwiftData fetch when it loads, but also to repeat that fetch in the future when the data changes.
 
@@ -152,13 +152,13 @@ extension ContentView {
 
 ::: tip
 
-I place view models into an extension on their view, to help keep names simple – I'd much rather refer to `ViewModel` than something like `ContentViewViewModel`.
+I place view models into an extension on their view, to help keep names simple - I'd much rather refer to `ViewModel` than something like `ContentViewViewModel`.
 
 :::
 
 Your view model doesn't need to perform a complete fetch for every change you make, but you do need *some* way to make sure its data stays up to date over time.
 
-When it comes to creating the view model, you need to be able to pass in the active model context directly rather than trying to read it from the environment – your view model can't access the environment at all, and it won't be available during your SwiftUI view's initializer.
+When it comes to creating the view model, you need to be able to pass in the active model context directly rather than trying to read it from the environment - your view model can't access the environment at all, and it won't be available during your SwiftUI view's initializer.
 
 So, you'd need something like this:
 

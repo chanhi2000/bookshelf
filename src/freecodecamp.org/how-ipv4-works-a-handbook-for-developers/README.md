@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How IPv4 Works – A Handbook for Developers"
-description: "Article(s) > How IPv4 Works – A Handbook for Developers"
+title: "How IPv4 Works - A Handbook for Developers"
+description: "Article(s) > How IPv4 Works - A Handbook for Developers"
 icon: fas fa-computer
 category:
   - Engineering
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > How IPv4 Works - A Handbook for Developers"
     - property: og:description
-      content: "How IPv4 Works – A Handbook for Developers"
+      content: "How IPv4 Works - A Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/
 prev: /academics/coen/articles/README.md
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="The Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -68,7 +68,7 @@ Whether you're a network engineer, software developer, or IT professional, under
 5. [Classful Addressing](#heading-classful-addressing)
 6. [CIDR: Classless Interdomain Routing](#heading-cidr-classless-interdomain-routing)
 7. [Subnet Masks](#heading-subnet-masks)
-8. [Interim Summary – IPv4 Addresses](#heading-interim-summary-ipv4-addresses)
+8. [Interim Summary - IPv4 Addresses](#heading-interim-summary-ipv4-addresses)
 9. [Test Yourself](#heading-test-yourself)
 10. [Special IPv4 Addresses](#heading-special-ipv4-addresses)
 11. [IPv4 Header](#heading-ipv4-header)
@@ -97,7 +97,7 @@ IP addresses are hierarchical, logical addresses that power most internet connec
 
 [![An example IPv4 address<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744039300370/348d757a-c6b0-4930-8e3a-ee753c45f3fa.png)](https://youtu.be/zlDkqP3lMmU)
 
-Test yourself – Does the following address represent a valid IP address?
+Test yourself - Does the following address represent a valid IP address?
 
 [![Is this a valid IPv4 address?<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744039900249/587d8b94-1ac3-478c-87d9-4b0fd97023b2.png)](https://youtu.be/zlDkqP3lMmU)
 
@@ -159,7 +159,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "Classful Addressing",
-  "desc": "(1/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(1/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/classful-addressing.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -169,7 +169,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "CIDR: Classless Interdomain Routing",
-  "desc": "(2/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(2/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/cidr-classless-interdomain-routing.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -179,7 +179,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "Subnet Masks",
-  "desc": "(3/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(3/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/subnet-masks.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -188,8 +188,8 @@ In general, using a fixed length for the network ID and a fixed length for the h
 
 ```component VPCard
 {
-  "title": "Interim Summary – IPv4 Addresses",
-  "desc": "(4/8) How IPv4 Works – A Handbook for Developers",
+  "title": "Interim Summary - IPv4 Addresses",
+  "desc": "(4/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/interim-summary-ipv4-addresses.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -199,7 +199,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "Test Yourself",
-  "desc": "(5/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(5/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/test-yourself.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -209,7 +209,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "Special IPv4 Addresses",
-  "desc": "(6/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(6/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/special-ipv4-addresses.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -219,7 +219,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "IPv4 Header",
-  "desc": "(7/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(7/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/ipv4-header.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -229,7 +229,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 ```component VPCard
 {
   "title": "IPv4 Fragmentation",
-  "desc": "(8/8) How IPv4 Works – A Handbook for Developers",
+  "desc": "(8/8) How IPv4 Works - A Handbook for Developers",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/ipv4-fragmentation.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -238,7 +238,7 @@ In general, using a fixed length for the network ID and a fixed length for the h
 
 ---
 
-## Summary – IPv4
+## Summary - IPv4
 
 In this comprehensive guide to IPv4, you've learned about the fundamental building blocks of Internet communications. Let's recap the key concepts we covered:
 
@@ -298,7 +298,7 @@ While IPv4 has limitations, particularly its address space constraints, its eleg
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "The Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

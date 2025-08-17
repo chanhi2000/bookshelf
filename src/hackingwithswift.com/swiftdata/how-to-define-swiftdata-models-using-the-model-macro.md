@@ -71,7 +71,7 @@ class Employee {
 }
 ```
 
-That now becomes the source of truth for this data model – the complete definition of the data structure for that one type.
+That now becomes the source of truth for this data model - the complete definition of the data structure for that one type.
 
 ::: important
 

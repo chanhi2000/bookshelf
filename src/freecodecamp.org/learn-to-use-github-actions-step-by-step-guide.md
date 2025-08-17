@@ -85,7 +85,7 @@ Workflows are defined in the <FontIcon icon="fas fa-folder-open"/>`.github/workf
 
 ### Events
 
-An event is a specific activity in a repository that triggers or runs a workflow in your GitHub repository. For example, when you push code to the repository, it triggers the `push` event. The same happens when you create a new issue – it triggers the `issues` event. And when somebody makes a pull request in your repository, it triggers the `pull_request` event.
+An event is a specific activity in a repository that triggers or runs a workflow in your GitHub repository. For example, when you push code to the repository, it triggers the `push` event. The same happens when you create a new issue - it triggers the `issues` event. And when somebody makes a pull request in your repository, it triggers the `pull_request` event.
 
 ![Describing the different event types in GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1736342712858/866f61a7-4750-45bf-82ea-d4e9535069a4.png)
 
@@ -115,7 +115,7 @@ on:
       - 'releases/**'
 ```
 
-This is helpful because, if you don’t declare a specific event activity type in your event type, it can lead to unnecessary resources getting used. The GitHub Action will be triggered with every new pull request – so it’s best to define which type of event you’re using.
+This is helpful because, if you don’t declare a specific event activity type in your event type, it can lead to unnecessary resources getting used. The GitHub Action will be triggered with every new pull request - so it’s best to define which type of event you’re using.
 
 ### Jobs
 
@@ -226,7 +226,7 @@ You’ll see the following page where you can edit and create your action. Click
 
 ![Edit and create your Action in Github.](https://cdn.hashnode.com/res/hashnode/image/upload/v1736858011259/267d62ad-f41b-449e-b0dd-dab3a9251ba1.png)
 
-And that’s it – you’ve created your GitHub Action.
+And that’s it - you’ve created your GitHub Action.
 
 ### Create a GitHub Action Locally with Your IDE
 

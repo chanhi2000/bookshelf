@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -52,9 +52,9 @@ isOriginal: false
 }
 ```
 
-This project covered a huge amount, including Core Spotlight, `SFSafariViewController`, `NSAttributedString`, automatically sized table view cells, and also Dynamic Type. Plus, you have another project complete, and you're now able to customize it to fit your needs – as nice as a Hacking with Swift browser is, I'm sure you have better ideas!
+This project covered a huge amount, including Core Spotlight, `SFSafariViewController`, `NSAttributedString`, automatically sized table view cells, and also Dynamic Type. Plus, you have another project complete, and you're now able to customize it to fit your needs - as nice as a Hacking with Swift browser is, I'm sure you have better ideas!
 
-If you want to work on this project some more, a great place to start is to convert the `projects` array to contain objects of a custom subclass rather than just an array. Not only is it safer coding, but it's also more extensible – you might want to add images or other data, and our array stops being so simple when you add more to it! You should follow much the same technique as taught in [project 12](/hackingwithswift.com/read/12/overview.md) to handle loading and saving.
+If you want to work on this project some more, a great place to start is to convert the `projects` array to contain objects of a custom subclass rather than just an array. Not only is it safer coding, but it's also more extensible - you might want to add images or other data, and our array stops being so simple when you add more to it! You should follow much the same technique as taught in [project 12](/hackingwithswift.com/read/12/overview.md) to handle loading and saving.
 
 I'd also recommend you investigate some of the many other formatting options you can use with `NSAttributedString`. Right-click on `NSAttributedString.Key.font` and choose Jump to Definition to see a list, and just try things out! You'll see that Apple has put comments next to each key so you can see what kind of data to provide.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Place CSS in the Head and JavaScript Files at the Bottom"
-description: "Article(s) > (5/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+description: "Article(s) > (5/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
 category:
   - Node.js
   - CSS
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+      content: "Article(s) > (5/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
     - property: og:description
       content: "Place CSS in the Head and JavaScript Files at the Bottom"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 ```component VPCard
 {
-  "title": "The Front-End Performance Optimization Handbook – Tips and Strategies for Devs",
+  "title": "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs",
   "desc": "When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to...",
   "link": "/freecodecamp.org/the-front-end-performance-optimization-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 ---
 
 <SiteInfo
-  name="The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+  name="The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
   desc="When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to..."
   url="https://freecodecamp.org/news/the-front-end-performance-optimization-handbook#heading-place-css-in-the-head-and-javascript-files-at-the-bottom"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 If these CSS and JS tags are placed in the HEAD tag, and they take a long time to load and parse, then the page will be blank. So you should place JS files at the bottom (not blocking DOM parsing but will block rendering) so that HTML parsing is completed before loading JS files. This presents the page content to the user as early as possible.
 
-So then you might be wondering – why should CSS files still be placed in the head?
+So then you might be wondering - why should CSS files still be placed in the head?
 
 Because loading HTML first and then loading CSS will make users see an unstyled, "ugly" page at first glance. To avoid this situation, place CSS files in the head.
 

@@ -53,9 +53,9 @@ A relational database deals with related data. So, we’ll also take a look at d
 
 There are 3 types of relationships in relational database design:
 
-- **One-to-One** – A row in **Table A** can have only one matching row in **Table B**, and vice versa.
-- **One-to-Many (or Many-to-One)** – A row in **Table A** can have many matching rows in table B, but a row in table B can have only one matching row in **Table A**.
-- **Many-to-Many**– A row in **Table A** can have many matching rows in **Table B**, and vice versa.
+- **One-to-One** - A row in **Table A** can have only one matching row in **Table B**, and vice versa.
+- **One-to-Many (or Many-to-One)** - A row in **Table A** can have many matching rows in table B, but a row in table B can have only one matching row in **Table A**.
+- **Many-to-Many**- A row in **Table A** can have many matching rows in **Table B**, and vice versa.
 
 ::: info
 
@@ -158,12 +158,12 @@ After running the script, we can see the tables and relationships created as bel
 
 #### Tables
 
-- `Author`– Stores the information about the authors.
-- `AuthorContact`– Contains the contact information about the authors.
-- `Book`– Stores the information about the books.
-- `Publisher`– Keeps the information about the publishers.
-- `BookCategory`– Keeps the master list of all the categories.
-- `BookAuthors`– Represents the mapping between the books and the authors.
+- `Author`- Stores the information about the authors.
+- `AuthorContact`- Contains the contact information about the authors.
+- `Book`- Stores the information about the books.
+- `Publisher`- Keeps the information about the publishers.
+- `BookCategory`- Keeps the master list of all the categories.
+- `BookAuthors`- Represents the mapping between the books and the authors.
 
 #### Relationships
 
@@ -242,7 +242,7 @@ After running the above insert script, our database tables will look like this
 
 ---
 
-## Data Modelling – Creating Models and a Context
+## Data Modelling - Creating Models and a Context
 
 So, now we have our database tables with data. Let’s model our entities based on those.
 
@@ -256,7 +256,7 @@ Following the article linked above, let’s create a new project called`EFCoreDa
 
 Now it’s time to create the EF model based on our existing database.
 
-Go to **Tools –>  NuGet Package Manager –>  Package Manager Console**
+Go to **Tools ->  NuGet Package Manager ->  Package Manager Console**
 
 First, we need to install the following packages :
 

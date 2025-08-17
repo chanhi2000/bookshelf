@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740756200896/a57c4e9
 
 In React applications, handling API (Application Programming Interface) responses can be challenging. You might encounter data that’s missing crucial fields, that’s formatted unexpectedly, or that simply doesn’t match what you anticipated.
 
-This inconsistency can lead to errors in your code and make it difficult to work with the data effectively. Imagine wrestling with unpredictable API responses as your application grows – it can quickly become a development nightmare!
+This inconsistency can lead to errors in your code and make it difficult to work with the data effectively. Imagine wrestling with unpredictable API responses as your application grows - it can quickly become a development nightmare!
 
 This is where Zod comes in, offering a solution to effectively manage API data validation within React.
 
@@ -190,7 +190,7 @@ const result = userSchema.safeParse(userData);
 console.log(result); // ZodObject containing data and success status
 ```
 
-This code defines a schema for user data using Zod, including properties for name, age, and email. It then attempts to parse a sample `userData` object using this schema via `safeParse()`. If successful, it prints the parsed data – otherwise, it logs an error message indicating the use of invalid data.
+This code defines a schema for user data using Zod, including properties for name, age, and email. It then attempts to parse a sample `userData` object using this schema via `safeParse()`. If successful, it prints the parsed data - otherwise, it logs an error message indicating the use of invalid data.
 
 ![Here’s the image of the resulting code above](https://cdn.hashnode.com/res/hashnode/image/upload/v1738861119776/7f9cf3ec-fc83-452c-9477-1c7d6422efe3.png)
 

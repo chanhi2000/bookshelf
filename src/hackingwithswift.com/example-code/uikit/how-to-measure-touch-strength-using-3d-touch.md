@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
     if let touch = touches.first {
         if view.traitCollection.forceTouchCapability == .available {
             if touch.force == touch.maximumPossibleForce {
-                // user pressed hard – do something!
+                // user pressed hard - do something!
             }
         }
     }

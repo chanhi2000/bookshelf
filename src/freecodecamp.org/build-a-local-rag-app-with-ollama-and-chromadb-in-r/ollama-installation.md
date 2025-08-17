@@ -67,7 +67,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744638731389/83993a5
 
 Ollama is an open-sourced tool you can use to run and manage LLMs on your computer. Once installed, you can access various LLMs as per your needs. You will be using `llama3.2:3b-instruct-q4_K_M` model to build this chatbot.
 
-A quantized model is a version of a machine learning model that has been optimized to use less memory and computational power by reducing the precision of the numbers it uses. This enables you to use an LLM locally, especially when you don’t have access to a GPU (Graphics Processing Unit – a specialized processor that perform complex computations).
+A quantized model is a version of a machine learning model that has been optimized to use less memory and computational power by reducing the precision of the numbers it uses. This enables you to use an LLM locally, especially when you don’t have access to a GPU (Graphics Processing Unit - a specialized processor that perform complex computations).
 
 To start, you can download and install the Ollama software [<FontIcon icon="iconfont icon-ollama"/>here](https://ollama.com/download).
 

@@ -62,18 +62,18 @@ The following is a guest post by [<FontIcon icon="fas fa-globe"/>Sara Soueidan](
 
 SVG graphics can be animated using **animation elements**. The animation elements were initially defined in the [<FontIcon icon="iconfont icon-w3c"/>SMIL](https://w3.org/TR/2001/REC-smil-animation-20010904/) Animation specification; these elements include:
 
-- `<animate></animate>`– which allows you to animate scalar attributes and properties over a period of time.
-- `<set></set>` – which is a convenient shorthand for animate, which is useful for assigning animation values to non-numeric attributes and properties, such as the visibility property.
-- `<animatemotion></animatemotion>` – which moves an element along a motion path.
-- `<animatecolor></animatecolor>` – which modifies the color value of particular attributes or properties over time. Note that the element has been deprecated in favor of simply using the animate element to target properties that can take color values. Even though it’s still present in the SVG 1.1 specification, it is clearly noted that it has been deprecated; and it has been completely removed from the SVG 2 specification.
+- `<animate></animate>`- which allows you to animate scalar attributes and properties over a period of time.
+- `<set></set>` - which is a convenient shorthand for animate, which is useful for assigning animation values to non-numeric attributes and properties, such as the visibility property.
+- `<animatemotion></animatemotion>` - which moves an element along a motion path.
+- `<animatecolor></animatecolor>` - which modifies the color value of particular attributes or properties over time. Note that the element has been deprecated in favor of simply using the animate element to target properties that can take color values. Even though it’s still present in the SVG 1.1 specification, it is clearly noted that it has been deprecated; and it has been completely removed from the SVG 2 specification.
 
 In addition to the animation elements defined in the SMIL spec, SVG includes extensions compatible with the SMIL animations spec; these extensions include attributes that extend the functionality of the element and additional animation elements. The SVG extensions include:
 
-- `<animatetransform></animatetransform>` – allows you to animate one of SVG’s transformation attributes over time, such as the `transform` attribute.
-- `path` *(attribute)* – allows any feature from SVG’s path data syntax to be specified in a path attribute to the `animateMotion` element (SMIL Animation only allows a subset of SVG’s path data syntax within a path attribute). We’ll talk more about `animateMotion` in an upcoming section.
-- `<mpath></mpath>` – used in conjunction with the `animateMotion` element to reference a motion path that is to be used as a path for the motion. The mpath element is included inside the `animateMotion` element, before the closing tag.
-- `keypoints` *(attribute)* – used as an attribute for `animateMotion` to provide precise control of the velocity of motion path animations.
-- `rotate` *(attribute)* – used as an attribute for `animateMotion` to control whether an object is automatically rotated so that its x-axis points in the same direction (or opposite direction) as the directional tangent vector of the motion path. This attribute is the key to making motion along a path work as you’d expect. More about this in the `animateMotion` section.
+- `<animatetransform></animatetransform>` - allows you to animate one of SVG’s transformation attributes over time, such as the `transform` attribute.
+- `path` *(attribute)* - allows any feature from SVG’s path data syntax to be specified in a path attribute to the `animateMotion` element (SMIL Animation only allows a subset of SVG’s path data syntax within a path attribute). We’ll talk more about `animateMotion` in an upcoming section.
+- `<mpath></mpath>` - used in conjunction with the `animateMotion` element to reference a motion path that is to be used as a path for the motion. The mpath element is included inside the `animateMotion` element, before the closing tag.
+- `keypoints` *(attribute)* - used as an attribute for `animateMotion` to provide precise control of the velocity of motion path animations.
+- `rotate` *(attribute)* - used as an attribute for `animateMotion` to control whether an object is automatically rotated so that its x-axis points in the same direction (or opposite direction) as the directional tangent vector of the motion path. This attribute is the key to making motion along a path work as you’d expect. More about this in the `animateMotion` section.
 
 SVG animations can be similar to CSS animations and transitions via by their nature. Keyframes are created, things move, colors change, etc. However, they can do somethings that CSS animations can’t do, which we’ll cover.
 

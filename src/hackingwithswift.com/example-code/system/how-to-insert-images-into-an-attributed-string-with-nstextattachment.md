@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -84,7 +84,7 @@ fullString.append(NSAttributedString(string: "End of text"))
 yourLabel.attributedText = fullString
 ```
 
-Using this technique is much easier than Auto Layout, because iOS becomes responsible for drawing the image directly inside the string. This means if your user interface adjusts because of things like rotation or multi-tasking, the string – and its images – will redraw smoothly, with no further work from you.
+Using this technique is much easier than Auto Layout, because iOS becomes responsible for drawing the image directly inside the string. This means if your user interface adjusts because of things like rotation or multi-tasking, the string - and its images - will redraw smoothly, with no further work from you.
 
 -->
 

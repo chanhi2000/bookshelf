@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ func double(_ number: inout Int) {
 }
 ```
 
-That doesn’t return a value – it modifies the value that was passed in directly.
+That doesn’t return a value - it modifies the value that was passed in directly.
 
 When it comes to *calling* functions with `inout` parameters, Swift has two rules: we must pass in variables, and we also need to use `&` before the parameter name to acknowledge that it might be changed.
 

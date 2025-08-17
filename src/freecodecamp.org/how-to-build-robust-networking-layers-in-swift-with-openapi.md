@@ -62,7 +62,7 @@ This is how it would look in the case of Swift:
 
 You do the above steps for each API endpoint you have on your backend that your app uses. Not only is this process time-consuming and not challenging for developers, it’s also error prone.
 
-In the above case, if there was a minor change in the backend API – perhaps a renamed field or a new property – this would lead to the app potentially breaking. But you wouldn’t know this until you shipped it to QA or in a worse case, your consumer. This is where the OpenAPI Specification emerges as a modern, robust solution.
+In the above case, if there was a minor change in the backend API - perhaps a renamed field or a new property - this would lead to the app potentially breaking. But you wouldn’t know this until you shipped it to QA or in a worse case, your consumer. This is where the OpenAPI Specification emerges as a modern, robust solution.
 
 In this tutorial, you’ll learn what OpenAPI is and how it can help make your development process better. After that, we’ll implement OpenAPI by creating a small SwiftUI app and using OpenAPI methodologies to interface with the `JSONPlaceholder` API. Let’s get started.
 
@@ -114,13 +114,13 @@ For example, if the return value of an API is made optional, instead of crashing
 
 #### Improved Collaboration and Interoperability
 
-This makes sure that all the developers are on the same page with regard to a given endpoint. And since this specification is language agnostic, it will serve as a universal language for all teams involved in the project – mobile, web and backend.
+This makes sure that all the developers are on the same page with regard to a given endpoint. And since this specification is language agnostic, it will serve as a universal language for all teams involved in the project - mobile, web and backend.
 
 #### Other Tooling
 
 Once you have a specification, you can use that to power a wide variety of tools. You can generate interactive documentation, create mock servers for frontend development, and run automated tests.
 
-Alright hopefully you’re sold – so now how do you implement this into your project?
+Alright hopefully you’re sold - so now how do you implement this into your project?
 
 ---
 
@@ -140,15 +140,15 @@ The quality of a specification is really important because it directly determine
 
 For example, it might generate something like `get_all_my_meal_recipes_hyphen_detailed`. This might happen because the generator is forced to create a new name based on the API path if the identifier is not provided in the spec. So, instead of dealing with these issues one after the other, we will create a *good clear specification* to start with.
 
-Since we’re using the `jsonplaceholder` as our backend server, we are limited by what tweaks we can make – but it is a fantastic project that lets us mimic a backend server.
+Since we’re using the `jsonplaceholder` as our backend server, we are limited by what tweaks we can make - but it is a fantastic project that lets us mimic a backend server.
 
 In general, an <FontIcon icon="iconfont icon-yaml"/>`OpenAPI.yaml` file contains:
 
-1. OpenAPI Info and servers – This will provide the metadata about the API like the OpenAPI version, which server to point to for calls, and so on.
-2. Paths – This will provide the available endpoints. In our case, it can contain /posts as one of them. We also will have to mention the kind of endpoint (get, post, put, and so on)
-3. OperationID – This field instructs the generator to create a clear method with this name.
-4. Responses – This defines the possible outcomes of an API call. We will specify the structure of a successful 200 OK response or any other errors here.
-5. Components / Schemas – This defines all the reusable components and data models. If we have a Post schema definer here, the generator will use this to create a Post struct in Swift to match this.
+1. OpenAPI Info and servers - This will provide the metadata about the API like the OpenAPI version, which server to point to for calls, and so on.
+2. Paths - This will provide the available endpoints. In our case, it can contain /posts as one of them. We also will have to mention the kind of endpoint (get, post, put, and so on)
+3. OperationID - This field instructs the generator to create a clear method with this name.
+4. Responses - This defines the possible outcomes of an API call. We will specify the structure of a successful 200 OK response or any other errors here.
+5. Components / Schemas - This defines all the reusable components and data models. If we have a Post schema definer here, the generator will use this to create a Post struct in Swift to match this.
 
 Keeping in mind all these elements, I compiled a yaml file for us to use for this tutorial:
 
@@ -195,7 +195,7 @@ components:
 
 The first line here, `openapi: “3.0.3”`, just tells the generators and parsers that we are using version `3.0.3`.
 
-Next, we have some more metadata – the name and version of the API. We also have the server we are calling with our APIs.
+Next, we have some more metadata - the name and version of the API. We also have the server we are calling with our APIs.
 
 After defining this metadata, we now define our endpoints. For the sake of this example, let’s assume that we only have one endpoint to call to get posts. We represent this by saying `/posts` under paths. We then specify which kind it is by specifying `get:`.
 
@@ -205,7 +205,7 @@ We then list any components we have across our APIs like the `Post`. Note that w
 
 ### Step 2: Set up your project
 
-Create a new SwiftUI project. For the purpose of this tutorial, we’ll use an iOS app – but you can do this with any app. Select Swift as the language and SwiftUI for the interface.
+Create a new SwiftUI project. For the purpose of this tutorial, we’ll use an iOS app - but you can do this with any app. Select Swift as the language and SwiftUI for the interface.
 
 ![App Creation Screen](https://cdn.hashnode.com/res/hashnode/image/upload/v1753047209636/75cad7d3-f403-4285-8209-fd2bb65418e5.png)
 
@@ -264,7 +264,7 @@ Now, add the following swift packages to the project. (**Note: Please read the e
 
 One major caveat to note here when adding these packages is that **The Swift OpenAPI Generator** should **not** be added to your project target. This is because we’re only using this to generate the code, but we’re not using it in the app.
 
-If you get this error: `swift-openapi-generator/Sources/_OpenAPIGeneratorCore/PlatformChecks.swift:21:5 _OpenAPIGeneratorCore is only to be used by swift-openapi-generator itself—your target should not link this library or the command line tool directly.` – then you made this mistake.
+If you get this error: `swift-openapi-generator/Sources/_OpenAPIGeneratorCore/PlatformChecks.swift:21:5 _OpenAPIGeneratorCore is only to be used by swift-openapi-generator itself—your target should not link this library or the command line tool directly.` - then you made this mistake.
 
 The easiest way to fix this is removing the package and adding it again. Or you can go to `Project → Target → Build Phases → Link Binary with Libraries → Remove Swift OpenAPI Generator`.
 
@@ -278,7 +278,7 @@ generate:
   - client
 ```
 
-This tells our generator to generate the **types** – the swift structs, enums, and so on from the schema section of the file, and the **client** – the main class which interacts with the networking logic.
+This tells our generator to generate the **types** - the swift structs, enums, and so on from the schema section of the file, and the **client** - the main class which interacts with the networking logic.
 
 ![<FontIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1753048237863/963d6bc0-a368-427b-add3-75dcf4bd3edf.png)
 
@@ -509,7 +509,7 @@ There is a filter option in the `openapi-generator-config.yaml` file that will a
 
 While the swift package, `swift-openapi-generator`, is robust, it does not support all the features included in the specification. I had issues with some features of the newer spec version ( `3.1.1` and had to downgrade to `3.0.3` to make it work well ).
 
-There are also known issues like lack of support for certain types of recursive schemas. Sometimes, the generator errors out and fails and some other times, it generates incomplete types – which can result in a few hours of debugging (I speak from experience).
+There are also known issues like lack of support for certain types of recursive schemas. Sometimes, the generator errors out and fails and some other times, it generates incomplete types - which can result in a few hours of debugging (I speak from experience).
 
 In any case, knowing the limits of this generator can be helpful in avoiding issues it might cause. Also keep in mind that it is always getting better thanks to its open source nature.
 
@@ -517,7 +517,7 @@ In any case, knowing the limits of this generator can be helpful in avoiding iss
 
 ## Conclusion: Embrace Spec-Driven Development
 
-In this guide, you navigated the journey of adopting `swift-openapi-generator` – from understanding the power of API contracts to building a functional SwiftUI app. You also learned about the real life challenges of this process. While there is an initial learning curve, the benefits of this approach are profound.
+In this guide, you navigated the journey of adopting `swift-openapi-generator` - from understanding the power of API contracts to building a functional SwiftUI app. You also learned about the real life challenges of this process. While there is an initial learning curve, the benefits of this approach are profound.
 
 The core tenet of this approach is to foster more disciplined and more robust method for building applications. By making the OpenAPI document the single source of truth, you make sure that both the frontend and backend are perfectly in sync in perpetuity.
 

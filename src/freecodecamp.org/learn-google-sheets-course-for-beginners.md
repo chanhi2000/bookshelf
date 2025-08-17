@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Google Sheets – Course for Beginners"
-description: "Article(s) > Learn Google Sheets – Course for Beginners"
+title: "Learn Google Sheets - Course for Beginners"
+description: "Article(s) > Learn Google Sheets - Course for Beginners"
 icon: iconfont icon-microsoftexcel
 category:
   - Google
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Google Sheets – Course for Beginners"
+      content: "Article(s) > Learn Google Sheets - Course for Beginners"
     - property: og:description
-      content: "Learn Google Sheets – Course for Beginners"
+      content: "Learn Google Sheets - Course for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-google-sheets-course-for-beginners.html
 prev: /tool/xls/articles/README.md
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733249376070/af3b622
 ---
 
 <SiteInfo
-  name="Learn Google Sheets – Course for Beginners"
+  name="Learn Google Sheets - Course for Beginners"
   desc="Spreadsheets are important for modern data management, analysis, and organization. Whether you're tracking personal finances, managing a business, or conducting advanced data analysis, spreadsheets offer a versatile platform for countless tasks. Amon..."
   url="https://freecodecamp.org/news/learn-google-sheets-course-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -97,7 +97,7 @@ Watch the full course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCam
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Google Sheets – Course for Beginners",
+  "title": "Learn Google Sheets - Course for Beginners",
   "desc": "Spreadsheets are important for modern data management, analysis, and organization. Whether you're tracking personal finances, managing a business, or conducting advanced data analysis, spreadsheets offer a versatile platform for countless tasks. Amon...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-google-sheets-course-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

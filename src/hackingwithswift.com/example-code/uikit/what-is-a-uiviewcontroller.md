@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS developers often like to talk about the Model-View-Controller architecture (MVC), where every component in their code is either a Model, a View, or a Controller. This is the standard architecture on iOS, which makes it strange that one of the first types you meet is `UIViewController` – it has both “view” and “controller” in its name, so what is it?
+iOS developers often like to talk about the Model-View-Controller architecture (MVC), where every component in their code is either a Model, a View, or a Controller. This is the standard architecture on iOS, which makes it strange that one of the first types you meet is `UIViewController` - it has both “view” and “controller” in its name, so what is it?
 
 Well, there is no single answer. In the early days of iPhones, `UIViewController` represented one screen of content. Your mailbox was one view controller, and when you tapped to read a message that was shown in a different view controller.
 
-However, the story is more complex than that, because of view controller containment – you can put one view controller inside another, which helps break up your code. As a result, one screen of content might consist of four or five view controllers all working together.
+However, the story is more complex than that, because of view controller containment - you can put one view controller inside another, which helps break up your code. As a result, one screen of content might consist of four or five view controllers all working together.
 
 The main (and inescapable) role of view controllers is to respond to view lifecycle event. That is, your view controller code will get call when your view is created, shown, hidden, and destroyed, so it’s down to you to write code to respond to those events properly.
 

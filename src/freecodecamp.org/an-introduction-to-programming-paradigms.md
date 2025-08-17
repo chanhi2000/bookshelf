@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Programming Paradigms – Paradigm Examples for Beginners"
-description: "Article(s) > Programming Paradigms – Paradigm Examples for Beginners"
+title: "Programming Paradigms - Paradigm Examples for Beginners"
+description: "Article(s) > Programming Paradigms - Paradigm Examples for Beginners"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Programming Paradigms – Paradigm Examples for Beginners"
+      content: "Article(s) > Programming Paradigms - Paradigm Examples for Beginners"
     - property: og:description
-      content: "Programming Paradigms – Paradigm Examples for Beginners"
+      content: "Programming Paradigms - Paradigm Examples for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-programming-paradigms.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2022/04/anne-nygard-OJzEnupZ
 ---
 
 <SiteInfo
-  name="Programming Paradigms – Paradigm Examples for Beginners"
+  name="Programming Paradigms - Paradigm Examples for Beginners"
   desc="Hi everyone! In this article we're going to take a look at programming paradigms, a fancy title to describe popular ways or styles to organize your programming. I'll try to break it down in pieces and give a simple explanation of each paradigm. This ..."
   url="https://freecodecamp.org/news/an-introduction-to-programming-paradigms"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -342,7 +342,7 @@ Cheers and see you in the next one!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Programming Paradigms – Paradigm Examples for Beginners",
+  "title": "Programming Paradigms - Paradigm Examples for Beginners",
   "desc": "Hi everyone! In this article we're going to take a look at programming paradigms, a fancy title to describe popular ways or styles to organize your programming. I'll try to break it down in pieces and give a simple explanation of each paradigm. This ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-programming-paradigms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

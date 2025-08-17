@@ -179,7 +179,7 @@ There’s also **SQL Injection**. Poorly written plugins or themes can enable at
 
 Some plugins or themes might include malicious code—intentionally or due to poor security—that grants attackers unauthorized access to your site, known as **backdoors**. Once installed, a backdoor can grant persistent access, enable arbitrary file uploads, undermine site integrity, and steal sensitive data.
 
-There’s also **Remote Code Execution (RCE)** – vulnerabilities that allow attackers to execute arbitrary code on your server, often leading to full control of your site or server. Once attackers gain RCE access, they can create admin users, exfiltrate data, launch further attacks, and privilege escalation.
+There’s also **Remote Code Execution (RCE)** - vulnerabilities that allow attackers to execute arbitrary code on your server, often leading to full control of your site or server. Once attackers gain RCE access, they can create admin users, exfiltrate data, launch further attacks, and privilege escalation.
 
 #### Best Practices:
 
@@ -218,7 +218,7 @@ Weak passwords make brute-forcing easier and faster. A short or predictable pass
 
 Strong passwords are your first line of defense against brute-force attacks. Here are key characteristics of strong passwords:
 
-- **Length**: At least 12–16 characters long.
+- **Length**: At least 12-16 characters long.
 - **Complexity**: Use a mix of uppercase and lowercase letters, numbers, and special characters.
 - **Uniqueness**: Avoid reusing passwords across multiple accounts.
 - **Unpredictability**: Avoid dictionary words, common phrases, or personal information like birthdays.

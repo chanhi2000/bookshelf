@@ -60,7 +60,7 @@ Still here? Okay, let’s dig in to our three differences: priority, task local 
 
 The priority part is straightforward: if you’re inside a user-initiated task and create a new task, it will also have a priority of user-initiated, whereas creating a new detached task would give a nil priority unless you specifically asked for something.
 
-The task local values part is a little more complex, but to be honest probably isn’t going to be of interest to most people. Task local values allow us to share a specific value everywhere inside one specific task – they are like static properties on a type, except rather than everything sharing that property, each task has its own value. Detached tasks do *not* inherit the task local values of their parent because they do not have a parent.
+The task local values part is a little more complex, but to be honest probably isn’t going to be of interest to most people. Task local values allow us to share a specific value everywhere inside one specific task - they are like static properties on a type, except rather than everything sharing that property, each task has its own value. Detached tasks do *not* inherit the task local values of their parent because they do not have a parent.
 
 The *actor context* part is more important and more complex. When you create a regular task from inside an actor it will be isolated to that actor, which means you can use other parts of the actor synchronously:
 
@@ -88,7 +88,7 @@ await user.login()
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/whats-the-difference-between-a-task-and-a-detached-task-1.zip)
 
-In comparison, a detached task runs concurrently with all other code, including the actor that created it – it effectively has no parent, and therefore has greatly restricted access to the data inside the actor.
+In comparison, a detached task runs concurrently with all other code, including the actor that created it - it effectively has no parent, and therefore has greatly restricted access to the data inside the actor.
 
 So, if we were to rewrite the previous actor to use a detached task, it would need to call `authenticate()` like this:
 
@@ -195,7 +195,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/whats-the-difference-between-a-task-and-a-detached-task-5.zip)
 
-However, we *cannot* use `Task.detached` here – Swift will throw up an error that a property isolated to global actor 'MainActor' can not be mutated from a non-isolated context. In simpler terms, our view model updates the UI and so must be on the main actor, but our detached task does not belong to that actor.
+However, we *cannot* use `Task.detached` here - Swift will throw up an error that a property isolated to global actor 'MainActor' can not be mutated from a non-isolated context. In simpler terms, our view model updates the UI and so must be on the main actor, but our detached task does not belong to that actor.
 
 At this point, you might wonder why detached tasks would have any use. Well, consider this code:
 
@@ -229,11 +229,11 @@ struct ContentView: View {
 
 That’s the simplest piece of code that demonstrates the usefulness of detached tasks: a SwiftUI view monitoring an empty view model, plus a button that launches a couple of tasks to print out text.
 
-When that runs, you’ll see “In Task 1” printed 10,000 times, then “In Task 2” printed 10,000 times – even though we have created two tasks, they are executing sequentially. This happens because our `@StateObject` view model forces the entire view onto the main actor, meaning that it can only do one thing at a time.
+When that runs, you’ll see “In Task 1” printed 10,000 times, then “In Task 2” printed 10,000 times - even though we have created two tasks, they are executing sequentially. This happens because our `@StateObject` view model forces the entire view onto the main actor, meaning that it can only do one thing at a time.
 
-In contrast, if you change both `Task` initializers to `Task.detached`, you’ll see “In Task 1” and “In Task 2” get intermingled as both execute at the same time. Without any need for actor isolation, Swift can run those tasks concurrently – using a detached task has allowed us to shed our attachment to the main actor.
+In contrast, if you change both `Task` initializers to `Task.detached`, you’ll see “In Task 1” and “In Task 2” get intermingled as both execute at the same time. Without any need for actor isolation, Swift can run those tasks concurrently - using a detached task has allowed us to shed our attachment to the main actor.
 
-Although detached tasks do have very specific uses, generally I think they should be your last port of call – use them only if you’ve tried both a regular task and `async let`, and neither solved your problem.
+Although detached tasks do have very specific uses, generally I think they should be your last port of call - use them only if you’ve tried both a regular task and `async let`, and neither solved your problem.
 
 ::: details Similar solutions…
 

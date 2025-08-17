@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Storyboards were introduced way back in iOS 5 as a way to revamp interface design for iOS. At the time they didn't add much in the way of features that weren't available with the older XIBs, but in subsequent releases Apple have added helpful new features such as layout guides that make them much more useful – and arguably indispensable since iOS 7.
+Storyboards were introduced way back in iOS 5 as a way to revamp interface design for iOS. At the time they didn't add much in the way of features that weren't available with the older XIBs, but in subsequent releases Apple have added helpful new features such as layout guides that make them much more useful - and arguably indispensable since iOS 7.
 
-All new iOS projects come with at least one storyboard ready to use: Main.storyboard. Inside that you can create as many interfaces as you want, each representing one view controller in your app. You can then design in segues (pronounced "segway", like the gyro-bike things) that transition between view controllers – all without a single line of code.
+All new iOS projects come with at least one storyboard ready to use: Main.storyboard. Inside that you can create as many interfaces as you want, each representing one view controller in your app. You can then design in segues (pronounced "segway", like the gyro-bike things) that transition between view controllers - all without a single line of code.
 
 There is one drawback to storyboards, and it's something you'll hit fairly quickly: if you have more than four view controllers in your app, you'll probably find it a little cumbersome to navigate around, particularly if you're working on a laptop. If you're working on something important, move your view controllers around: keep them organized from the beginning, otherwise your storyboard will soon become a nightmare!
 

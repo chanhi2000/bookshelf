@@ -126,7 +126,7 @@ struct ContentView: View {
 
 ![A button saying Activate Inbox Zero, which has a fluttering animation when pressed](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-animate-sf-symbols-3~dark.gif)
 
-The variable color animation is particularly powerful, because SF Symbols lets you control how the animation displays each layer – `.variableColor.iterative` colors one layer at a time, `.variableColor.cumulative` adds each new layer to the previously colored layers, and you can add `reversing` to either of those to make the animation play forward then backward.
+The variable color animation is particularly powerful, because SF Symbols lets you control how the animation displays each layer - `.variableColor.iterative` colors one layer at a time, `.variableColor.cumulative` adds each new layer to the previously colored layers, and you can add `reversing` to either of those to make the animation play forward then backward.
 
 Here's one larger example that shows off a range of possibilities:
 
@@ -180,7 +180,7 @@ struct ContentView: View {
 
 ![A grid of icons that animate in various ways when activated. Some animate their layers individually, some animate their layers cumulatively, and some repeat.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-animate-sf-symbols-4~dark.gif)
 
-And finally, if you're keeping your views the same and are merely changing their content – if you're switching the icon for a fixed label based on user interaction, for example – then you should use the `contentTransition()` modifier along with one of the options for switching icons.
+And finally, if you're keeping your views the same and are merely changing their content - if you're switching the icon for a fixed label based on user interaction, for example - then you should use the `contentTransition()` modifier along with one of the options for switching icons.
 
 For example, this uses the `.replace` transition to make one icon fade out and another arrive:
 

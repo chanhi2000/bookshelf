@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: 
 }
 ```
 
-Finally, you need to trigger the text-to-speech engine – this might be by a button press perhaps, but it's down to you. Here's the method I attached to a button press:
+Finally, you need to trigger the text-to-speech engine - this might be by a button press perhaps, but it's down to you. Here's the method I attached to a button press:
 
 ```swift
 @IBAction func speak(_ sender: AnyObject) {

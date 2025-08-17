@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Change Background Color with JavaScript – BG Color in JS and HTML
-description: Article(s) > How to Change Background Color with JavaScript – BG Color in JS and HTML
+title: How to Change Background Color with JavaScript - BG Color in JS and HTML
+description: Article(s) > How to Change Background Color with JavaScript - BG Color in JS and HTML
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Change Background Color with JavaScript – BG Color in JS and HTML
+      content: Article(s) > How to Change Background Color with JavaScript - BG Color in JS and HTML
     - property: og:description
-      content: How to Change Background Color with JavaScript – BG Color in JS and HTML
+      content: How to Change Background Color with JavaScript - BG Color in JS and HTML
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-background-color-with-javascript.html
 prev: /programming/js/articles/README.md
@@ -41,7 +41,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/How-to-co
 ---
 
 <SiteInfo
-  name="How to Change Background Color with JavaScript – BG Color in JS and HTML"
+  name="How to Change Background Color with JavaScript - BG Color in JS and HTML"
   desc="You can style elements with JavaScript using the element's style property. In this article, you'll learn how to change background color using JavaScript. Here's what the mini project you'll build looks like: In the image above, each button changes t..."
   url="https://freecodecamp.org/news/how-to-change-background-color-with-javascript/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

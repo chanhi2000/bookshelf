@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -58,7 +58,7 @@ Our current code chooses the first three items in the countries array, and place
 1. Pick three random numbers, and use those to read the flags from the array.
 2. Shuffle up the order of the array, then pick the first three items.
 
-Both approaches are valid, but the former takes a little more work because we need to ensure that all three numbers are different – this game would be even less fun if all three flags were the same!
+Both approaches are valid, but the former takes a little more work because we need to ensure that all three numbers are different - this game would be even less fun if all three flags were the same!
 
 The second approach is easier to do, because Swift has built-in methods for shuffling arrays: `shuffle()` for in-place shuffling, and `shuffled()` to return a new, shuffled array.
 

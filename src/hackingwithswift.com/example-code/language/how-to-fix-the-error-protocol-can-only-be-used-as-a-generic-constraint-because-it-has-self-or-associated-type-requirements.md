@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Protocols with associated types are a powerful, if somewhat treacherous, feature of Swift. Sometimes it’s fair to say that the only winning move is not to play – i.e., to avoid them entirely – but if that isn’t the case you are sometimes likely to find yourself facing a difficult error: “protocol can only be used as a generic constraint because it has Self or associated type requirements.”
+Protocols with associated types are a powerful, if somewhat treacherous, feature of Swift. Sometimes it’s fair to say that the only winning move is not to play - i.e., to avoid them entirely - but if that isn’t the case you are sometimes likely to find yourself facing a difficult error: “protocol can only be used as a generic constraint because it has Self or associated type requirements.”
 
 As an example, here’s a protocol with an associated type:
 
@@ -92,7 +92,7 @@ func compareThing1(_ thing1: Identifiable, against thing2: Identifiable) -> Bool
 
 That will issue the error “protocol 'Identifiable' can only be used as a generic constraint because it has Self or associated type requirements.”
 
-The reason for the error is simple enough: although `thing1` and `thing2` being passed into the function both conform to `Identifiable` that doesn’t make them usable in the same way – the `id` of a person and the `id` of a website are completely different types, so there’s no meaningful way you can use them together.
+The reason for the error is simple enough: although `thing1` and `thing2` being passed into the function both conform to `Identifiable` that doesn’t make them usable in the same way - the `id` of a person and the `id` of a website are completely different types, so there’s no meaningful way you can use them together.
 
 As the error says, this protocol can be used only as a generic constraint. That’s actually pointing us to the solution here: if we use `Identifiable` as a generic constraint then we can tell Swift not only that `thing1` and `thing2` conform to the protocol but also that they are actually the same type.
 

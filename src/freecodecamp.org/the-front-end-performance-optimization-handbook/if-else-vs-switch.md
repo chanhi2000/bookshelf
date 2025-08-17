@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "if-else vs switch"
-description: "Article(s) > (14/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+description: "Article(s) > (14/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
 category:
   - Node.js
   - CSS
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (14/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+      content: "Article(s) > (14/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
     - property: og:description
       content: "if-else vs switch"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 ```component VPCard
 {
-  "title": "The Front-End Performance Optimization Handbook – Tips and Strategies for Devs",
+  "title": "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs",
   "desc": "When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to...",
   "link": "/freecodecamp.org/the-front-end-performance-optimization-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 ---
 
 <SiteInfo
-  name="The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+  name="The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
   desc="When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to..."
   url="https://freecodecamp.org/news/the-front-end-performance-optimization-handbook#heading-if-else-vs-switch"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -108,7 +108,7 @@ When debugging, it's easier to set breakpoints on specific cases in a switch sta
 
 Using switch communicates to other developers that you're checking multiple possible values of the same variable, rather than potentially unrelated conditions.
 
-For modern JavaScript, there's another alternative worth considering for simple value mapping – object literals:
+For modern JavaScript, there's another alternative worth considering for simple value mapping - object literals:
 
 ```js
 const colorActions = {

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Xcode’s jump bar – the popup menu describing all properties and methods in the current class, activated using Ctrl-6 – is a simple way to navigate around your file, particularly when you know you can just type a few letters to automatically filter the list.
+Xcode’s jump bar - the popup menu describing all properties and methods in the current class, activated using Ctrl-6 - is a simple way to navigate around your file, particularly when you know you can just type a few letters to automatically filter the list.
 
-However, if you’re finding the jump bar is getting messy, you should try to break it up by adding markers to your code. These come in a few flavors – `MARK`, `TODO`, and `FIXME` – but all help make your jump bar easier to read.
+However, if you’re finding the jump bar is getting messy, you should try to break it up by adding markers to your code. These come in a few flavors - `MARK`, `TODO`, and `FIXME` - but all help make your jump bar easier to read.
 
 Try adding this special comment before any method:
 
@@ -75,9 +75,9 @@ In the jump bar that will appear as a blue and white list icon so it sticks out.
 // FIXME: This code is awful.
 ```
 
-That will show up in the jump bar with an orange bandaid – it really stands out! 
+That will show up in the jump bar with an orange bandaid - it really stands out! 
 
-The third option is `MARK`, which renders your text in bold – it’s great for splitting up the jump bar, and is commonly used to mark divisions in your file.. Try this:
+The third option is `MARK`, which renders your text in bold - it’s great for splitting up the jump bar, and is commonly used to mark divisions in your file.. Try this:
 
 ```swift
 // MARK: UITableViewDataSource methods

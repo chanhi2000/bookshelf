@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726577970240/0263167
 <h2 id="heading-prerequisites"><strong>Prerequisites</strong></h2>
 <p>To follow along with this tutorial, you should have a basic understanding of HTML, CSS, and a little bit of Javascript.</p>
 <h2 id="heading-update-focus-styles">Update Focus Styles</h2>
-<p>The browser provides default focus styles for interactive elements like buttons or input fields. But sometimes these default focus styles might not be ideal for your design system – especially if the colors used in your design are too close to the default colors. This might make it difficult to notice.</p>
+<p>The browser provides default focus styles for interactive elements like buttons or input fields. But sometimes these default focus styles might not be ideal for your design system - especially if the colors used in your design are too close to the default colors. This might make it difficult to notice.</p>
 <p>Also, different browsers have different default focus styles and you might want to standardize the focus styles to ensure uniformity.</p>
 <p>You can change the default focus style of an element in CSS using the <code>:focus</code> pseudo-class. For example, the default focus style for an input element is a blue outline in Chrome and a blue outline with outline offset in Firefox, to update the default focus styles of an input element you can do this:</p>
 <pre class="language-css" tabindex="0"><code class="language-css"><span class="token selector">input:focus</span> <span class="token punctuation">{</span>
@@ -269,7 +269,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726577970240/0263167
 </li>
 </ul>
 <h2 id="heading-conclusion">Conclusion</h2>
-<p>When considering accessibility, well-structured HTML forms the foundation of an accessible page – but CSS also plays a vital role in enhancing that structure.</p>
+<p>When considering accessibility, well-structured HTML forms the foundation of an accessible page - but CSS also plays a vital role in enhancing that structure.</p>
 <p>CSS alone cannot fix poorly structured HTML. But when it’s applied thoughtfully to a solid foundation, it ensures a more inclusive and engaging experience by improving visual hierarchy, readability, and interaction for users of all abilities.</p>
 <p>Combining accessible HTML with CSS not only improves the user interface but also provides support for assistive technologies.</p>
 <p>Thank you so much for reading this article. If you found it helpful, consider sharing. Happy coding!</p>

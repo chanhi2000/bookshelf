@@ -57,7 +57,7 @@ SwiftData is built on top of Core Data, and uses the same underlying storage mec
 
 ::: important
 
-If you're moving from Core Data to SwiftData (or vice versa – it happens!), I would recommend *against* the coexistence approach because it's more trouble than it's worth. Instead, it's better to make the jump from one to the other without looking back, if you can.
+If you're moving from Core Data to SwiftData (or vice versa - it happens!), I would recommend *against* the coexistence approach because it's more trouble than it's worth. Instead, it's better to make the jump from one to the other without looking back, if you can.
 
 :::
 
@@ -97,15 +97,15 @@ Second, you need to make sure that your SwiftData and Core Data model names do n
 
 ::: important
 
-Do not change your Core Data entity names – these must remain the same as your SwiftData model class names. Instead, change the Name value under Class in the Core Data model editor, which affects the class name that gets generated for your entity.
+Do not change your Core Data entity names - these must remain the same as your SwiftData model class names. Instead, change the Name value under Class in the Core Data model editor, which affects the class name that gets generated for your entity.
 
 :::
 
 Apple used the simple prefix "CD" for Core Data objects, which is a simple change that's nice and clear to understand later on.
 
-Last but definitely not least: it is an absolute requirement that your SwiftData and Core Data models are the same – if for example you add a property to one, or rename a property, you must make the same change to the other model.
+Last but definitely not least: it is an absolute requirement that your SwiftData and Core Data models are the same - if for example you add a property to one, or rename a property, you must make the same change to the other model.
 
-Once you've done that work you're in a good place to see how well your Core Data and SwiftData stack work together – hopefully smoothly, but you might also notice a few places where Core Data changes aren't reflected in SwiftData queries. I've found that adding a sprinkling `objectWillChange.send()` to my Core Data view models gives SwiftData the nudge it needs to spot all the updates.
+Once you've done that work you're in a good place to see how well your Core Data and SwiftData stack work together - hopefully smoothly, but you might also notice a few places where Core Data changes aren't reflected in SwiftData queries. I've found that adding a sprinkling `objectWillChange.send()` to my Core Data view models gives SwiftData the nudge it needs to spot all the updates.
 
 Coexistence is great for times when you need backwards compatibility, or you want to move to SwiftData in incremental steps, but the tight requirements about keeping both sets of models in sync might prove rather onerous in the long term.
 

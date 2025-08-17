@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ Disabling orientations isn't a great solution, but sometimes it's the *right* so
 
 ::: note Please note
 
-This project and targets list can be hidden by clicking the disclosure button in the top-left of the project editor (directly beneath the icon with four squares), and you may find yours is already hidden. I strongly recommend you show this list – hiding it will only make things harder to find, so please make sure it's visible!
+This project and targets list can be hidden by clicking the disclosure button in the top-left of the project editor (directly beneath the icon with four squares), and you may find yours is already hidden. I strongly recommend you show this list - hiding it will only make things harder to find, so please make sure it's visible!
 
 :::
 
@@ -71,15 +71,15 @@ This view is called the project editor, and contains a huge number of options th
 
 You'll need to support selective orientations in some later projects, but for now let's take the smart solution: add extra rules to Auto Layout so it can make the layout work great in landscape mode.
 
-Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder, select the bottom flag, then <kbd>Ctrl</kbd>-drag from the flag to the white space directly below the flag – in the view controller itself. The direction you drag is important, so please drag straight down.
+Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder, select the bottom flag, then <kbd>Ctrl</kbd>-drag from the flag to the white space directly below the flag - in the view controller itself. The direction you drag is important, so please drag straight down.
 
-When you release your mouse button, a popup will appear that includes the option “Bottom Space to Safe Area” – please select that. This creates a new Auto Layout constraint that the bottom of the flag must be at least X points away from the bottom of the view controller, where X is equal to whatever space there is in there now.
+When you release your mouse button, a popup will appear that includes the option “Bottom Space to Safe Area” - please select that. This creates a new Auto Layout constraint that the bottom of the flag must be at least X points away from the bottom of the view controller, where X is equal to whatever space there is in there now.
 
 Although this is a valid rule, it will screw up your layout because we now have a complete set of exact vertical rules: the top flag should be 36 points from the top, the second 30 from the first, the third 30 from the second, and the third X away from the bottom. It's 207 for me, but yours might be different.
 
 Because we've told Auto Layout exactly how big all the spaces should be, it will add them up and divide the remaining space among the three flags however it thinks best. That is, the flags must now be stretched vertically in order to fill the space, which is almost certainly what we don't want.
 
-Instead, we're going to tell Auto Layout where there is some flexibility, and that's in the new bottom rule we just created. The bottom flag doesn't need to be precisely 207 points away from the bottom of the safe area – it just needs to be *some* distance away, so that it doesn't touch the edge. If there is more space, great, Auto Layout should use it, but all we care about is the minimum.
+Instead, we're going to tell Auto Layout where there is some flexibility, and that's in the new bottom rule we just created. The bottom flag doesn't need to be precisely 207 points away from the bottom of the safe area - it just needs to be *some* distance away, so that it doesn't touch the edge. If there is more space, great, Auto Layout should use it, but all we care about is the minimum.
 
 Select the third flag to see its list of constraints drawn in blue, then (carefully!) select the bottom constraint we just added. In the utilities view on the right, choose the attributes inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>), and you should see Relation set to Equal and Constant set to 207 (or some other value, depending on your layout).
 
@@ -89,7 +89,7 @@ Our problem is still not fixed, though: in landscape, an iPhone SE has just 320 
 
 Select the second button, then <kbd>Ctrl</kbd>-drag to the first button. When given the list of options, choose Equal Heights. Now do the same from the third button to the second button. This rule ensures that at all times the three flags have the same height, so Auto Layout can no longer squash one button to make it all fit and instead has to squash all three equally.
 
-That fixes part of the problem, but in some respects it has made things worse. Rather than having one squashed flag, we now have three! But with one more rule, we can stop the flags from being squashed ever. Select the first button, then <kbd>Ctrl</kbd>-drag a little bit upwards – but stay within the button! When you release your mouse button, you'll see the option "Aspect Ratio", so please choose it.
+That fixes part of the problem, but in some respects it has made things worse. Rather than having one squashed flag, we now have three! But with one more rule, we can stop the flags from being squashed ever. Select the first button, then <kbd>Ctrl</kbd>-drag a little bit upwards - but stay within the button! When you release your mouse button, you'll see the option "Aspect Ratio", so please choose it.
 
 The Aspect Ratio constraint solves the squashing once and for all: it means that if Auto Layout is forced to reduce the height of the flag, it will reduce its width by the same proportion, meaning that the flag will always look correct. Add the Aspect Ratio constraint to the other two flags, and run your app again. It should work great in portrait and landscape, all thanks to Auto Layout!
 

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-From iOS 16 and onwards, SwiftUI can animate text beautifully right out of the box – it takes no extra work from us. So, code like this smoothly animate some text between two different sizes, re-rendering the text automatically so it’s always crisp:
+From iOS 16 and onwards, SwiftUI can animate text beautifully right out of the box - it takes no extra work from us. So, code like this smoothly animate some text between two different sizes, re-rendering the text automatically so it’s always crisp:
 
 ```swift
 struct ContentView: View {
@@ -72,7 +72,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-animate-the-size-of-text-1.zip)
 
-If you need to target iOS 15 and below then SwiftUI doesn’t have a built-in way to animate text size, but we can create an animatable view modifier that makes the effect possible. This is *not* the same as using a simple `scaleEffect()` modifier – that will cause your text to become blurry when scaled up, whereas this custom animation will re-render your text correctly so it looks great at all sizes.
+If you need to target iOS 15 and below then SwiftUI doesn’t have a built-in way to animate text size, but we can create an animatable view modifier that makes the effect possible. This is *not* the same as using a simple `scaleEffect()` modifier - that will cause your text to become blurry when scaled up, whereas this custom animation will re-render your text correctly so it looks great at all sizes.
 
 This takes several steps:
 

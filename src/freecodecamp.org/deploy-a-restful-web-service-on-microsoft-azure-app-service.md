@@ -116,7 +116,7 @@ Wait, what?! **😕** Well, simply put, a container is like a tiny virtual machi
 
 @tab 5. Azure Resource Group
 
-An Azure resource group refers to a store or folder containing all related resources for an application you want to deploy to production using MS Azure Cloud. For example, if I want to deploy an eCommerce web app with MS Azure, I could create a resource group called EcommWebAppRG. I’d use this to create all the resources I needed for the web app to go live and be accessible – like VMs, DBs, caches, and other services.
+An Azure resource group refers to a store or folder containing all related resources for an application you want to deploy to production using MS Azure Cloud. For example, if I want to deploy an eCommerce web app with MS Azure, I could create a resource group called EcommWebAppRG. I’d use this to create all the resources I needed for the web app to go live and be accessible - like VMs, DBs, caches, and other services.
 
 Alrighty, now that all the terms are out of the way, lets get started with the tutorial so you can learn how to deploy a web service on Azure App Service.
 
@@ -295,7 +295,7 @@ Let’s go on to the Azure Portal to deploy the app.
 
 ::: note
 
-if you don’t have an active Azure Subscription, that’s fine – you can still follow along. If you want to get a trial account, you can [<FontIcon icon="iconfont icon-microsoftazure"/>get one here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
+if you don’t have an active Azure Subscription, that’s fine - you can still follow along. If you want to get a trial account, you can [<FontIcon icon="iconfont icon-microsoftazure"/>get one here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
 
 :::
 
@@ -347,7 +347,7 @@ Here, select the resource group you created earlier, give the app a name, then s
 
 Before you click on Create, go back to your dev workspace (VS Code or whatever IDE you are using) to push your Docker image to Docker Hub so you can add it there before proceeding to the next steps.
 
-But why do you need to push to Docker Hub? Well, first of all, for accessibility – so we can easily share it with others or have other services access it (which is what we need here).
+But why do you need to push to Docker Hub? Well, first of all, for accessibility - so we can easily share it with others or have other services access it (which is what we need here).
 
 Remember how I compared Docker Hub with Github earlier? Docker Hub helps you host your Docker image on the internet and make it available for others or for various services on the internet to access if you make it public. Otherwise it’s limited to only authorized services.
 
@@ -414,9 +414,9 @@ docker images
 # encoredotdev/postgres                             15          58b55b0e1fc7   10 months ago   878MB
 ```
 
-Copy the repository name and tag – in my case I have `ayobami6/client_info_webservice-client_info_app` and tag `latest` → `ayobami6/client_info_webservice-client_info_app:latest`.
+Copy the repository name and tag - in my case I have `ayobami6/client_info_webservice-client_info_app` and tag `latest` → `ayobami6/client_info_webservice-client_info_app:latest`.
 
-Then add your startup command. If you are not using Go for the development like I am, your startup command will be different – so just use the command you added to your Docker compose command key, like so `command: "./api"`. Copy just the value (mine is .`/api`) don’t add the double quotes, and add it to the startup command.
+Then add your startup command. If you are not using Go for the development like I am, your startup command will be different - so just use the command you added to your Docker compose command key, like so `command: "./api"`. Copy just the value (mine is .`/api`) don’t add the double quotes, and add it to the startup command.
 
 ![Add startup command to the web app container configuration](https://cdn.hashnode.com/res/hashnode/image/upload/v1743072910308/a208c0a1-718b-4725-99b5-47bf33691fca.jpeg)
 

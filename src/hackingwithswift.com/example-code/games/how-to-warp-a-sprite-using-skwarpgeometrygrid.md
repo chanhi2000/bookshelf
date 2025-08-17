@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-SpriteKit allows you to warp sprites by dividing them up into small squares then stretching those squares into different positions. The result is that you can warp a sprite in various ways – you can effectively pull different parts of it however you want.
+SpriteKit allows you to warp sprites by dividing them up into small squares then stretching those squares into different positions. The result is that you can warp a sprite in various ways - you can effectively pull different parts of it however you want.
 
-There’s a cost to doing this: a sprite is effectively one quad by default, which is a fancy way of saying it’s a rectangle. Behind the scenes that becomes two triangles, pieced together to look like a single rectangle. If we split that single sprite into two rows and two columns, you end up with four times as many triangles; if you split it into 10 rows and 10 columns, you end up with a huge number of triangles just to represent one tiny sprite – your game will slow down massively.
+There’s a cost to doing this: a sprite is effectively one quad by default, which is a fancy way of saying it’s a rectangle. Behind the scenes that becomes two triangles, pieced together to look like a single rectangle. If we split that single sprite into two rows and two columns, you end up with four times as many triangles; if you split it into 10 rows and 10 columns, you end up with a huge number of triangles just to represent one tiny sprite - your game will slow down massively.
 
 Helpfully, SpriteKit employs a technique called automatic quad subdivision: even though you create two rows and two columns, it will automatically split them further if it needs to, allowing to warp transformation to look silky smooth.
 
@@ -90,7 +90,7 @@ let src = [
 ]
 ```
 
-I added comments in there so you can hopefully see how all nine points are positioned. For example, the middle point is X: 0.5 Y: 0.5, meaning that it’s in the center of both axes. Having your source points as a property is a good idea if you plan to use them a lot – it’s easiest to take a copy of those points then make small changes than to keep setting them up from scratch.
+I added comments in there so you can hopefully see how all nine points are positioned. For example, the middle point is X: 0.5 Y: 0.5, meaning that it’s in the center of both axes. Having your source points as a property is a good idea if you plan to use them a lot - it’s easiest to take a copy of those points then make small changes than to keep setting them up from scratch.
 
 We’re also going to create a warp geometry that uses the `src` positions twice: the same for before and after. This means it will look identical to a sprite without a warp geometry attached, but it also means that when we apply a new geometry with the same number of rows and columns SpriteKit will be able to animate the change.
 

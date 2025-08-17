@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Reverse Engineer a Website – a Guide for Developers"
-description: "Article(s) > How to Reverse Engineer a Website – a Guide for Developers"
+title: "How to Reverse Engineer a Website - a Guide for Developers"
+description: "Article(s) > How to Reverse Engineer a Website - a Guide for Developers"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Reverse Engineer a Website – a Guide for Developers"
+      content: "Article(s) > How to Reverse Engineer a Website - a Guide for Developers"
     - property: og:description
-      content: "How to Reverse Engineer a Website – a Guide for Developers"
+      content: "How to Reverse Engineer a Website - a Guide for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-reverse-engineer-a-website.html
 prev: /devops/security/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/FlPc9_VocJ4/up
 ---
 
 <SiteInfo
-  name="How to Reverse Engineer a Website – a Guide for Developers"
+  name="How to Reverse Engineer a Website - a Guide for Developers"
   desc="While using one of your favorite websites, you might have often thought, ”What if this website had this particular functionality? That would be great!” If you have ever had such thoughts, this article is for you. In it, you'll learn how websites comm..."
   url="https://freecodecamp.org/news/how-to-reverse-engineer-a-website"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -247,7 +247,7 @@ Since you got the API endpoint from the previous section, which was the followin
 http://localhost:3000/api/sales
 ```
 
-You might expect to use this URL and fetch the data you used before – and have it work immediately in Postman and be able to use it on your website. But it doesn’t work like this, since this fetch request does not contain any data about the authorization.
+You might expect to use this URL and fetch the data you used before - and have it work immediately in Postman and be able to use it on your website. But it doesn’t work like this, since this fetch request does not contain any data about the authorization.
 
 You can try it in Postman yourself to see the error. Postman provides two ways to write the fetch URL: the first one is to write the call in the Postman UI, and the other one is to import the API call to try it (as you can see in the image below).
 
@@ -376,7 +376,7 @@ If you like this article, subscribe to my [newsletter](https://hadithtechen.subs
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Reverse Engineer a Website – a Guide for Developers",
+  "title": "How to Reverse Engineer a Website - a Guide for Developers",
   "desc": "While using one of your favorite websites, you might have often thought, ”What if this website had this particular functionality? That would be great!” If you have ever had such thoughts, this article is for you. In it, you'll learn how websites comm...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-reverse-engineer-a-website.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

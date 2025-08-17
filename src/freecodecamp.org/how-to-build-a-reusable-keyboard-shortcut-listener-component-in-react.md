@@ -51,12 +51,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733895763796/1768445
 
 <SiteInfo
   name="How to Build a Reusable Keyboard Shortcut Listener Component in React"
-  desc="If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C – Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised sho..."
+  desc="If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C - Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised sho..."
   url="https://freecodecamp.org/news/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1733895763796/17684457-fb85-48d4-b049-ddbaf0b5281e.png"/>
 
-If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C – Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised shortcuts we set up in our favourite tools, keyboard shortcuts save time and make us feel like a computer wiz.
+If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C - Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised shortcuts we set up in our favourite tools, keyboard shortcuts save time and make us feel like a computer wiz.
 
 Well, fear not! I’ve cracked the code for building components that trigger and respond to keyboard shortcuts. In this article, I’ll teach you how to create them with React, Tailwind CSS, and Framer Motion.
 
@@ -690,7 +690,7 @@ Want to connect or contact me? Feel free to hit me up on the following:
 ```component VPCard
 {
   "title": "How to Build a Reusable Keyboard Shortcut Listener Component in React",
-  "desc": "If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C – Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised sho...",
+  "desc": "If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C - Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised sho...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Testing - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/testing",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,7 +110,7 @@ head:
 ```component VPCard
 {
   "title": "How to write performance tests using measure()",
-  "desc": "Performance tests let you check how fast your code runs, but more importantly it lets you check how fast your code runs <em>over time</em> – you can spot performance changes as your code evolves....",
+  "desc": "Performance tests let you check how fast your code runs, but more importantly it lets you check how fast your code runs <em>over time</em> - you can spot performance changes as your code evolves....",
   "link": "/hackingwithswift.com/example-code/testing/how-to-write-performance-tests-using-measure.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

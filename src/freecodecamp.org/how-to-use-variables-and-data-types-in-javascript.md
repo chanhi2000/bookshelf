@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Use Variables and Data Types in JavaScript – Explained With Code Examples
-description: Article(s) > How to Use Variables and Data Types in JavaScript – Explained With Code Examples
+title: How to Use Variables and Data Types in JavaScript - Explained With Code Examples
+description: Article(s) > How to Use Variables and Data Types in JavaScript - Explained With Code Examples
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Use Variables and Data Types in JavaScript – Explained With Code Examples
+      content: Article(s) > How to Use Variables and Data Types in JavaScript - Explained With Code Examples
     - property: og:description
-      content: How to Use Variables and Data Types in JavaScript – Explained With Code Examples
+      content: How to Use Variables and Data Types in JavaScript - Explained With Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-variables-and-data-types-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723754441356/3441621
 ---
 
 <SiteInfo
-  name="How to Use Variables and Data Types in JavaScript – Explained With Code Examples"
+  name="How to Use Variables and Data Types in JavaScript - Explained With Code Examples"
   desc="A variable is like a box where you can store data or a reference to data. In this article, you will learn how to create and use variables. You'll also learn about the different data types in JavaScript and how to use them. Let's get started! Table of..."
   url="https://freecodecamp.org/news/how-to-use-variables-and-data-types-in-javascript/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

@@ -98,7 +98,7 @@ struct ContentView: View {
 
 ![A list containing “Come and eat at Joe's Original”, “Come and eat at The Real Joe's Original”, and “Come and eat at Original Joe's”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-list-of-dynamic-items-1~dark@2x.png)
 
-Most of that is just creating data – the last part is where the real action is: using `List(restaurants)` creates a list from the `restaurants` array, executing the following closure once for every item in the array. Each time the closure goes around the `restaurant` input will be filled with one item from the array, so we use that to create a `RestaurantRow`.
+Most of that is just creating data - the last part is where the real action is: using `List(restaurants)` creates a list from the `restaurants` array, executing the following closure once for every item in the array. Each time the closure goes around the `restaurant` input will be filled with one item from the array, so we use that to create a `RestaurantRow`.
 
 In fact, in trivial cases like this one we can make the code even shorter: `List(restaurants, rowContent: RestaurantRow.init)` does exactly the same thing.
 

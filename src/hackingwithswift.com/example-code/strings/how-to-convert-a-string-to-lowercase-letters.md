@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can convert any string to lowercase – that is, going from "HELLO" to "hello" – by calling its `lowercased()` method, like this:
+You can convert any string to lowercase - that is, going from "HELLO" to "hello" - by calling its `lowercased()` method, like this:
 
 ```swift
 let str = "Sunday, Monday, Happy Days"

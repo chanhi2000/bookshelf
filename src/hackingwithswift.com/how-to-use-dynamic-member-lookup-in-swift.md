@@ -45,7 +45,7 @@ cover: https://hackingwithswift.com/uploads/coding-man-3.jpg
 ---
 
 <SiteInfo
-  name="How to use Dynamic Member Lookup in Swift – Hacking with Swift"
+  name="How to use Dynamic Member Lookup in Swift - Hacking with Swift"
   desc="SE-0195 has been approved, so here’s a guide to get you started."
   url="https://hackingwithswift.com/articles/55/how-to-use-dynamic-member-lookup-in-swift"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -53,7 +53,7 @@ cover: https://hackingwithswift.com/uploads/coding-man-3.jpg
 
 ![](https://hackingwithswift.com/uploads/coding-man-3.jpg)
 
-[Swift Evolution proposal SE-0195 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md) brings Swift closer in behavior to scripting languages, but does so in a type-safe way – you don’t lose any of Swift’s safety, but you do gain the ability to write the kind of code you’re more likely to see in PHP and Python.
+[Swift Evolution proposal SE-0195 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md) brings Swift closer in behavior to scripting languages, but does so in a type-safe way - you don’t lose any of Swift’s safety, but you do gain the ability to write the kind of code you’re more likely to see in PHP and Python.
 
 In this article I want to walk you through the rationale for the change and provide code some samples showing how it works. If you’re short on time, the TL;DR version is that this change will help dynamic languages such as Python be used much more easily from Swift code, similar to the way we can already call into Objective-C.
 
@@ -61,7 +61,7 @@ In this article I want to walk you through the rationale for the change and prov
 
 ## Why change?
 
-There are lots of words you could use to describe Swift, but I think “safe” is probably the one that comes to mind first for many people – strong type safety, optionality, throwing functions, and more all combine to make it harder to make mistakes in Swift.
+There are lots of words you could use to describe Swift, but I think “safe” is probably the one that comes to mind first for many people - strong type safety, optionality, throwing functions, and more all combine to make it harder to make mistakes in Swift.
 
 On the other end of the spectrum, languages such as PHP, Python, and JavaScript are more relaxed about safety. That doesn’t mean they encourage bad code (after all, you can write bad code in any language), just that they require developers to keep more information in their head while working.
 
@@ -140,7 +140,7 @@ When that’s run, `taylor.printAddress` returns a closure that prints out a str
 
 ## Is it safe?
 
-Swift already has the `AnyObject` type, which behaves like Objective-C’s `id` type – you can use it to send any message to any object, and you may or may not get something sensible back.
+Swift already has the `AnyObject` type, which behaves like Objective-C’s `id` type - you can use it to send any message to any object, and you may or may not get something sensible back.
 
 For example, try casting a string to be `AnyObject`:
 
@@ -148,14 +148,14 @@ For example, try casting a string to be `AnyObject`:
 let str = "Hello, Swift" as AnyObject
 ```
 
-Even though that’s still a `String`, we’ve erased Swift’s knowledge of that type – it could be any kind of object as far as Swift is concerned. So, we could treating it as a `UILabel` and Swift will be fine with that:
+Even though that’s still a `String`, we’ve erased Swift’s knowledge of that type - it could be any kind of object as far as Swift is concerned. So, we could treating it as a `UILabel` and Swift will be fine with that:
 
 ```swift
 let bounds = str.bounds
 let alignment = str.textAlignment
 ```
 
-Both those properties will be set to `nil` because Swift will try reading the `bounds` and `textAlignment` properties, fail to do so because they don’t exist on strings, and so send back an optional string – everything gets wrapped in a layer of optionality because of the uncertainty.
+Both those properties will be set to `nil` because Swift will try reading the `bounds` and `textAlignment` properties, fail to do so because they don’t exist on strings, and so send back an optional string - everything gets wrapped in a layer of optionality because of the uncertainty.
 
 That extra layer of optionality makes property access safe, but it doesn’t make *method* use safe. `AnyObject` makes available all methods as implicitly unwrapped optionals, so you can call them like this:
 
@@ -180,7 +180,7 @@ That will crash your app without warning, because `Int` is unable to store the n
 
 However, these examples are different from the potential problems of dynamic member lookup. When using the `@dynamicMemberLookup` attribute, you can type literally any property after your instance name, and the compiler will be fine with it.
 
-To give you a practical example, imagine if `UITextField` had been written using `@dynamicMemberLookup` – all this code would compile cleanly:
+To give you a practical example, imagine if `UITextField` had been written using `@dynamicMemberLookup` - all this code would compile cleanly:
 
 ```swift
 let label = UILabel()
@@ -189,15 +189,15 @@ label.translatesAutoresizingMaskIntoConstraint = false
 label.inputAccessoryVíew = UIToolbar()
 ```
 
-Each of those three properties don’t exist on `UILabel`, but you might not notice that during a casual read through – `backgroundColor` has an extra U, `translatesAutoresizingMaskIntoConstraints` is missing its final S, and `inputAccessoryVíew` shouldn’t have an accent over the final I.
+Each of those three properties don’t exist on `UILabel`, but you might not notice that during a casual read through - `backgroundColor` has an extra U, `translatesAutoresizingMaskIntoConstraints` is missing its final S, and `inputAccessoryVíew` shouldn’t have an accent over the final I.
 
-This also means that code completion loses much if not all of its usefulness, because there’s nothing to complete. This isn’t too much of a surprise, though, and it’s something that Python IDEs have had to deal with for some time. Chris Lattner (the author of SE-0195) discussed future possibilities for code completion in the proposal itself – it’s [worth reading (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md#future-directions-python-code-completion).
+This also means that code completion loses much if not all of its usefulness, because there’s nothing to complete. This isn’t too much of a surprise, though, and it’s something that Python IDEs have had to deal with for some time. Chris Lattner (the author of SE-0195) discussed future possibilities for code completion in the proposal itself - it’s [worth reading (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md#future-directions-python-code-completion).
 
 ---
 
 ## Classes and protocols
 
-`@dynamicMemberLookup` plays a full part in Swift’s type system, which means you can assign them to protocols, structs, enums, and classes – even classes that are marked `@objc`.
+`@dynamicMemberLookup` plays a full part in Swift’s type system, which means you can assign them to protocols, structs, enums, and classes - even classes that are marked `@objc`.
 
 In practice, this means you can create a class using `@dynamicMemberLookup`, and any classes that inherit from it are also automatically `@dynamicMemberLookup`. So, this will print “Taylor Swift” because `User` inherits from `Person`:
 
@@ -277,5 +277,5 @@ Chris [<FontIcon icon="fa-brands fa-swift"/>has made it no secret](https://lists
 
 The official Swift Evolution proposal mentions Python dozens of times, along with Perl, Ruby, and even JavaScript, so clearly the big win here is enabling interoperability with Python rather than using `@dynamicMemberLookup` in pure Swift code. Python is already hugely popular in the machine learning world amongst others, and if Swift coders can connect with that existing community and their incredible work then that just helps us.
 
-[Swift 5.0 introduced `@dynamicCallable`](/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.md) as a counterpart to `@dynamicMemberLookup`, offering even more bridging for scripting languages. Although it's limited right now, future Swift versions might extend `@dynamicCallable` so that it can call any kind of method – we'll see!
+[Swift 5.0 introduced `@dynamicCallable`](/hackingwithswift.com/how-to-use-dynamiccallable-in-swift.md) as a counterpart to `@dynamicMemberLookup`, offering even more bridging for scripting languages. Although it's limited right now, future Swift versions might extend `@dynamicCallable` so that it can call any kind of method - we'll see!
 

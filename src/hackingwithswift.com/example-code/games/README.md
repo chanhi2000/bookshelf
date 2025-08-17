@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/games",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ head:
 ```component VPCard
 {
   "title": "How to advance time in an SKEmitterNode using advanceSimulationTime()",
-  "desc": "When you create a particle system in SpriteKit, the particles start at their creation point and move outwards from there. That’s fine for things like explosions and fire, but if you’re using the particles to simulate something that has no real start or end – space dust, for example – then having your particles start from a particular location looks wrong....",
+  "desc": "When you create a particle system in SpriteKit, the particles start at their creation point and move outwards from there. That’s fine for things like explosions and fire, but if you’re using the particles to simulate something that has no real start or end - space dust, for example - then having your particles start from a particular location looks wrong....",
   "link": "/hackingwithswift.com/example-code/games/how-to-advance-time-in-an-skemitternode-using-advancesimulationtime.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ head:
 ```component VPCard
 {
   "title": "How to change a sprite’s texture using SKTexture",
-  "desc": "Although you can create an <code>SKSpriteNode</code> from a color and size, most folks create them from textures – image data stored in an asset catalog or texture atlas. SpriteKit’s textures are handled using their own class called <code>SKTexture</code>, and you can load them individually then use them to change the texture used to draw a sprite....",
+  "desc": "Although you can create an <code>SKSpriteNode</code> from a color and size, most folks create them from textures - image data stored in an asset catalog or texture atlas. SpriteKit’s textures are handled using their own class called <code>SKTexture</code>, and you can load them individually then use them to change the texture used to draw a sprite....",
   "link": "/hackingwithswift.com/example-code/games/how-to-change-a-sprites-texture-using-sktexture.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -130,7 +130,7 @@ head:
 ```component VPCard
 {
   "title": "How to create a SpriteKit texture atlas in Xcode",
-  "desc": "A SpriteKit texture atlas is actually just a folder with the extension .atlas, but it's more efficient than loading textures individually because multiple images are stored in a single file and thus can be loaded faster. Even better, you don't need to worry about how they are placed or even orientation – you just use them as normal, and SpriteKit does the rest....",
+  "desc": "A SpriteKit texture atlas is actually just a folder with the extension .atlas, but it's more efficient than loading textures individually because multiple images are stored in a single file and thus can be loaded faster. Even better, you don't need to worry about how they are placed or even orientation - you just use them as normal, and SpriteKit does the rest....",
   "link": "/hackingwithswift.com/example-code/games/how-to-create-a-spritekit-texture-atlas-in-xcode.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -140,7 +140,7 @@ head:
 ```component VPCard
 {
   "title": "How to create shapes using SKShapeNode",
-  "desc": "SpriteKit's <code>SKShapeNode</code> class is a fast and convenient way to draw arbitrary shapes in your games, including circles, lines, rounded rectangles and more. You can assign a fill color, a stroke color and width, plus other drawing options such as whether it should glow – yes, really....",
+  "desc": "SpriteKit's <code>SKShapeNode</code> class is a fast and convenient way to draw arbitrary shapes in your games, including circles, lines, rounded rectangles and more. You can assign a fill color, a stroke color and width, plus other drawing options such as whether it should glow - yes, really....",
   "link": "/hackingwithswift.com/example-code/games/how-to-create-shapes-using-skshapenode.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -220,7 +220,7 @@ head:
 ```component VPCard
 {
   "title": "How to made an SKSpriteNode render faster using blendMode",
-  "desc": "All SpriteKit nodes have a <code>blendMode</code> property that describes how they should be drawn to the screen. The default value is <code>.alpha</code>, which means the sprite should be drawn so that its alpha transparency is respected – any parts that are translucent get blended with the existing background color at that point, and any fully transparent parts are not drawn at all....",
+  "desc": "All SpriteKit nodes have a <code>blendMode</code> property that describes how they should be drawn to the screen. The default value is <code>.alpha</code>, which means the sprite should be drawn so that its alpha transparency is respected - any parts that are translucent get blended with the existing background color at that point, and any fully transparent parts are not drawn at all....",
   "link": "/hackingwithswift.com/example-code/games/how-to-made-an-skspritenode-render-faster-using-blendmode.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -270,7 +270,7 @@ head:
 ```component VPCard
 {
   "title": "How to run SKActions in a sequence",
-  "desc": "One of the great features of SpriteKit's actions is that they can be chained together using action sequences. SpriteKit automatically ensures each action finishes before the next one begins – all you need to do is create the actions then put them into an array....",
+  "desc": "One of the great features of SpriteKit's actions is that they can be chained together using action sequences. SpriteKit automatically ensures each action finishes before the next one begins - all you need to do is create the actions then put them into an array....",
   "link": "/hackingwithswift.com/example-code/games/how-to-run-skactions-in-a-sequence.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -290,7 +290,7 @@ head:
 ```component VPCard
 {
   "title": "How to stop an SKPhysicsBody responding to physics using its dynamic property",
-  "desc": "Enabling physics in SpriteKit is just one line of code, but sometimes you want your physics to be a little more nuanced. For example, your player might have circle physics and should respond to gravity, whereas walls might have rectangle physics and not respond to gravity – they are there to be bounced off, but nothing more....",
+  "desc": "Enabling physics in SpriteKit is just one line of code, but sometimes you want your physics to be a little more nuanced. For example, your player might have circle physics and should respond to gravity, whereas walls might have rectangle physics and not respond to gravity - they are there to be bounced off, but nothing more....",
   "link": "/hackingwithswift.com/example-code/games/how-to-stop-an-skphysicsbody-responding-to-physics-using-its-dynamic-property.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -300,7 +300,7 @@ head:
 ```component VPCard
 {
   "title": "How to warp a sprite using SKWarpGeometryGrid",
-  "desc": "SpriteKit allows you to warp sprites by dividing them up into small squares then stretching those squares into different positions. The result is that you can warp a sprite in various ways – you can effectively pull different parts of it however you want....",
+  "desc": "SpriteKit allows you to warp sprites by dividing them up into small squares then stretching those squares into different positions. The result is that you can warp a sprite in various ways - you can effectively pull different parts of it however you want....",
   "link": "/hackingwithswift.com/example-code/games/how-to-warp-a-sprite-using-skwarpgeometrygrid.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

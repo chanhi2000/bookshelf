@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-You can force the text of any `UITextView` to have padding – i.e., to be indented from its edges – by setting its `textContainerInset` property to a value of your choosing. For example, to give a text view insets of 50 points from each edge, you would use this code:
+You can force the text of any `UITextView` to have padding - i.e., to be indented from its edges - by setting its `textContainerInset` property to a value of your choosing. For example, to give a text view insets of 50 points from each edge, you would use this code:
 
 ```swift
 textView.textContainerInset = UIEdgeInsets(top: 50, left: 50, bottom: 50, right: 50)

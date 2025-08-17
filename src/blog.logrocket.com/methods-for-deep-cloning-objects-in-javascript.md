@@ -129,8 +129,8 @@ In using this method, if we have matching keys in both target and source objects
 
 #### Parameters
 
-- `target` – target object to which values and properties are copied
-- `sources` – source object from which values and properties are copied
+- `target`: target object to which values and properties are copied
+- `sources`: source object from which values and properties are copied
 
 #### Return value
 

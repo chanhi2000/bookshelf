@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Embedded Systems Firmware Basics – A Handbook for Developers"
-description: "Article(s) > Learn Embedded Systems Firmware Basics – A Handbook for Developers"
+title: "Learn Embedded Systems Firmware Basics - A Handbook for Developers"
+description: "Article(s) > Learn Embedded Systems Firmware Basics - A Handbook for Developers"
 icon: iconfont icon-c 
 category:
   - C
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Embedded Systems Firmware Basics – A Handbook for Developers"
+      content: "Article(s) > Learn Embedded Systems Firmware Basics - A Handbook for Developers"
     - property: og:description
-      content: "Learn Embedded Systems Firmware Basics – A Handbook for Developers"
+      content: "Learn Embedded Systems Firmware Basics - A Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-embedded-systems-firmware-basics-handbook-for-devs.html
 prev: /programming/c/articles/README.md
@@ -74,28 +74,28 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750701027343/86918e8
 ---
 
 <SiteInfo
-  name="Learn Embedded Systems Firmware Basics – A Handbook for Developers"
-  desc="Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems – small, dedicated computers designed to perform specific tasks reliably a..."
+  name="Learn Embedded Systems Firmware Basics - A Handbook for Developers"
+  desc="Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems - small, dedicated computers designed to perform specific tasks reliably a..."
   url="https://freecodecamp.org/news/learn-embedded-systems-firmware-basics-handbook-for-devs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1750701027343/86918e8c-4348-4845-b048-6203ae0fcb38.png"/>
 
-Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems – small, dedicated computers designed to perform specific tasks reliably and efficiently.
+Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems - small, dedicated computers designed to perform specific tasks reliably and efficiently.
 
 An embedded system typically goes through a simple but powerful cycle:
 
-1. Sense – Gather information from the environment using sensors.
-2. Process – Use software logic to decide what to do with the data.
-3. Act – Trigger a response, like turning on a motor or lighting an LED.
+1. Sense - Gather information from the environment using sensors.
+2. Process - Use software logic to decide what to do with the data.
+3. Act - Trigger a response, like turning on a motor or lighting an LED.
 
-Each project begins with a use case – a specific goal like brewing coffee or controlling a car’s fuel injection. From that, engineers define system requirements, which are split into:
+Each project begins with a use case - a specific goal like brewing coffee or controlling a car’s fuel injection. From that, engineers define system requirements, which are split into:
 
 - Hardware (for example, microcontrollers, sensors, actuators)
 - Software (what we call embedded software)
 
 This handbook focuses on the software side of embedded systems: how we write code to make embedded systems intelligent. Embedded software runs on resource-constrained devices like microcontrollers, which may have just a few kilobytes of memory. The software might need to be highly efficient, reliable, and often capable of working in real-time.
 
-But embedded software isn't just about writing code – it’s also about understanding:
+But embedded software isn't just about writing code - it’s also about understanding:
 
 - How hardware works
 - How to manage memory and power
@@ -172,8 +172,8 @@ A microprocessor executes a series of instructions defined by its Instruction Se
 
 For example:
 
-- ARMv7 – used in ARM Cortex-M3.
-- ARMv7E – used in Cortex-M4 and M7.
+- ARMv7 - used in ARM Cortex-M3.
+- ARMv7E - used in Cortex-M4 and M7.
 
 Many vendors (for example, STMicroelectronics, NXP, TI) manufacture MCUs that support ARM ISAs but include their own peripheral sets. Understanding the ISA is essential for low-level coding and interpreting assembly instructions.
 
@@ -183,8 +183,8 @@ This [<FontIcon icon="iconfont icon-arm"/>ARMv7-M architecture reference manual]
 
 Most microcontrollers typically feature two types of memory:
 
-- **Flash** – Stores your code and read-only data.
-- **RAM** – Used during program execution to hold:
+- **Flash** - Stores your code and read-only data.
+- **RAM** - Used during program execution to hold:
   - The heap (for dynamic memory)
   - The stack
   - The .data and .bss sections (initialized/uninitialized global/static variables)
@@ -195,16 +195,16 @@ Later sections have resources that go deeper into memory mapping and how these r
 
 Microcontrollers are digital logic devices built from:
 
-- Combinatorial logic – Logic gates that evaluate outputs instantly
-- Sequential logic – Relies on clocks to move through states
+- Combinatorial logic - Logic gates that evaluate outputs instantly
+- Sequential logic - Relies on clocks to move through states
 
 The clock tree distributes timing signals across the CPU and peripherals. MCUs often support multiple clock sources (internal RC, external crystal, PLL), and use prescalers to drive components at different frequencies.
 
 For power-sensitive applications, MCUs offer multiple low-power modes:
 
-- Sleep – CPU off, timers and peripherals are mostly active, memory is retained
-- Deep Sleep – CPU off, most clocks off, memory is retained, wake-up is slower than sleep, power consumption is lower than Sleep
-- Standby – CPU off, few interrupts are active, everything else is powered down, memory is not retained. Lowest power mode.
+- Sleep - CPU off, timers and peripherals are mostly active, memory is retained
+- Deep Sleep - CPU off, most clocks off, memory is retained, wake-up is slower than sleep, power consumption is lower than Sleep
+- Standby - CPU off, few interrupts are active, everything else is powered down, memory is not retained. Lowest power mode.
 
 These modes reduce power consumption by turning off clocks and disabling unused peripherals. Designing the system to switch in and out of low-power states effectively is a core skill in embedded software development.
 
@@ -249,7 +249,7 @@ DMA or Direct Memory Access is an important peripheral which can be used to tran
 
 This [<FontIcon icon="fas fa-globe"/>article](https://parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/) provides a good overview of the communication protocols I2C, UART and SPI.
 
-We’ve now covered the essential building blocks of microcontroller hardware – from memory and clocks to interrupts and communication buses.
+We’ve now covered the essential building blocks of microcontroller hardware - from memory and clocks to interrupts and communication buses.
 
 Next, we’ll explore the software principles and tools that bring these microcontrollers to life, including compilers, debuggers, and embedded development frameworks.
 
@@ -280,14 +280,14 @@ Here’s a figure showing the five blocks of software design:
 
 Once you're designing individual components, design patterns help you write scalable and maintainable code. Here are some common patterns in embedded systems:
 
-- Publisher-Subscriber (Observer) – Useful for decoupling event producers and consumers (for example, sensor data being broadcast to multiple modules).
-- Singleton – Ensures only one instance of a module or resource manager exists (for example, for drivers or HAL layers).
-- Adapter – Translates between incompatible interfaces (for example, wrapping platform-specific code into a portable application layer).
-- State Machine – Represents system behavior as transitions between states (for example, Bluetooth states: `IDLE → SCANNING → CONNECTING → CONNECTED → DISCONNECTED`).
+- Publisher-Subscriber (Observer) - Useful for decoupling event producers and consumers (for example, sensor data being broadcast to multiple modules).
+- Singleton - Ensures only one instance of a module or resource manager exists (for example, for drivers or HAL layers).
+- Adapter - Translates between incompatible interfaces (for example, wrapping platform-specific code into a portable application layer).
+- State Machine - Represents system behavior as transitions between states (for example, Bluetooth states: `IDLE → SCANNING → CONNECTING → CONNECTED → DISCONNECTED`).
 
 Design patterns often need to be adapted for memory and timing constraints, but the core concepts remain highly relevant.
 
-There are lot of great resources on design patterns – here are a few that helped me:
+There are lot of great resources on design patterns - here are a few that helped me:
 
 1. Book: [<FontIcon icon="fa-brands fa-amazon"/>Head-first Design patterns](https://amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/) - A great book to get understand the concept of design patterns
 2. Book: [<FontIcon icon="fa-brands fa-amazon"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/)
@@ -298,9 +298,9 @@ There are lot of great resources on design patterns – here are a few that help
 
 While any language can theoretically be used if it compiles to machine code, in practice, three dominate the embedded world:
 
-- C – The industry standard. Provides deterministic behavior and low-level access, making it ideal for memory and timing-sensitive code.
-- C++ – Adds object-oriented features while maintaining control. Once considered risky in embedded due to synthesized code and overhead, it’s now widely adopted where systems benefit from abstraction and modularity.
-- Rust – A memory-safe alternative gaining traction in safety-critical and open-source embedded development.
+- C - The industry standard. Provides deterministic behavior and low-level access, making it ideal for memory and timing-sensitive code.
+- C++ - Adds object-oriented features while maintaining control. Once considered risky in embedded due to synthesized code and overhead, it’s now widely adopted where systems benefit from abstraction and modularity.
+- Rust - A memory-safe alternative gaining traction in safety-critical and open-source embedded development.
 
 Languages like Python (via MicroPython or CircuitPython) are used in educational or prototyping contexts but are not suitable for production due to performance and memory overhead.
 
@@ -313,11 +313,11 @@ Some resources on programming languages that might be helpful to understand conc
 
 Embedded systems require careful data handling due to strict memory and timing constraints. Mastering core data structures is essential:
 
-- Arrays – fixed-size data.
-- Linked Lists – Common in software timers, queues.
-- Stacks and Queues – Task scheduling, event management and data storage.
-- Bitfields/Flags – Memory efficient state representation.
-- Binary Trees – Used in routing tables or decision logic.
+- Arrays - fixed-size data.
+- Linked Lists - Common in software timers, queues.
+- Stacks and Queues - Task scheduling, event management and data storage.
+- Bitfields/Flags - Memory efficient state representation.
+- Binary Trees - Used in routing tables or decision logic.
   
 You'll often build event queues, circular buffers, or timer lists, all of which rely on these foundational structures.
 
@@ -451,7 +451,7 @@ SECTIONS
 
 Descriptions of the above file:
 
-- MEMORY: Defines your microcontroller’s memory layout – 1 MB Flash and 128 KB SRAM.
+- MEMORY: Defines your microcontroller’s memory layout - 1 MB Flash and 128 KB SRAM.
 - ENTRY(Reset_Handler): Sets the reset handler as the program entry point.
 - .isr_vector and .text: Code sections placed in Flash. `.isr_vector` must use `KEEP()` so it's not removed during linking.
 - .data : AT(_etext): Loads initialized variables from Flash but places them in RAM.
@@ -466,7 +466,7 @@ Here are some sources to understand Makefiles, cross-compilation, and Linkers. A
     - [<FontIcon icon="fas fa-globe"/>In Pyjama Makefile Article](https://gnu.org/software/make/manual/make.pdf)
 2. Linker Scripts:
     - [<FontIcon icon="fas fa-globe"/>Interrupt Blog on Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
-    - [Intro to Linker Files – Medium (<FontIcon icon="fa-brands fa-medium"/>`@pc0is0me`)](https://medium.com/@pc0is0me/an-introduction-to-linker-file-59ce2e9c5e73)
+    - [Intro to Linker Files - Medium (<FontIcon icon="fa-brands fa-medium"/>`@pc0is0me`)](https://medium.com/@pc0is0me/an-introduction-to-linker-file-59ce2e9c5e73)
 
 ### Flashing the Binary
 
@@ -509,7 +509,7 @@ This tells OpenOCD to:
 - Reset the MCU
 - Exit the session
 
-For a detailed walkthrough, check out: [<FontIcon icon="fas fa-globe"/>OpenOCD Deep Dive – Kickstart Embedded](https://kickstartembedded.com/2024/03/26/openocd-one-software-to-rule-debug-them-all/)
+For a detailed walkthrough, check out: [<FontIcon icon="fas fa-globe"/>OpenOCD Deep Dive - Kickstart Embedded](https://kickstartembedded.com/2024/03/26/openocd-one-software-to-rule-debug-them-all/)
 
 ---
 
@@ -540,8 +540,8 @@ These tools (like [<FontIcon icon="iconfont icon-st-microelectronics"/>STM32Cube
 
 **Drawbacks**:
 
-- Code bloat – HALs support many edge cases and configurations, which can inflate your binary size
-- Extra latency – HAL often inserts unnecessary layers that reduce performance.
+- Code bloat - HALs support many edge cases and configurations, which can inflate your binary size
+- Extra latency - HAL often inserts unnecessary layers that reduce performance.
 
 For performance-critical systems, developers often replace HAL drivers with custom, low-level implementations.
 
@@ -619,8 +619,8 @@ A Real-Time Operating System (like [<FontIcon icon="fas fa-globe"/>FreeRTOS](htt
 
 RTOS kernels often support different scheduling strategies like:
 
-- Rate Monotonic Scheduling (RMS) – Tasks with shorter periods get higher priority
-- Earliest Deadline First (EDF) – Tasks are prioritized based on impending deadlines
+- Rate Monotonic Scheduling (RMS) - Tasks with shorter periods get higher priority
+- Earliest Deadline First (EDF) - Tasks are prioritized based on impending deadlines
 
 ::: tip Example use cases
 
@@ -655,7 +655,7 @@ RTOS kernels often support different scheduling strategies like:
 
 :::
 
-RTOS Scheduling techniques are interesting – this part of the docs talks about [<FontIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/kernel/services/scheduling/index.html#scheduling-algorithm) scheduling.
+RTOS Scheduling techniques are interesting - this part of the docs talks about [<FontIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/kernel/services/scheduling/index.html#scheduling-algorithm) scheduling.
 
 ### Embedded Operating Systems
 
@@ -699,12 +699,12 @@ Drivers act as a bridge between your hardware and the application logic. They ab
 
 A typical embedded driver will include:
 
-- Configuration – Setting up the peripheral with initial parameters (for example, baud rate for UART)
-- Initialization – Preparing the peripheral for use, including enabling clocks and interrupts
-- Calibration (if needed) – Adjusting the peripheral based on specific environment or use case
-- Register Access – Reading from and writing to hardware registers (if applicable)
-- Power Management – Enabling/disabling the peripheral to save power or putting the peripheral into a low power mode
-- Interrupt Management – Handling asynchronous events triggered by the peripheral
+- Configuration - Setting up the peripheral with initial parameters (for example, baud rate for UART)
+- Initialization - Preparing the peripheral for use, including enabling clocks and interrupts
+- Calibration (if needed) - Adjusting the peripheral based on specific environment or use case
+- Register Access - Reading from and writing to hardware registers (if applicable)
+- Power Management - Enabling/disabling the peripheral to save power or putting the peripheral into a low power mode
+- Interrupt Management - Handling asynchronous events triggered by the peripheral
 
 Here’s a simplified view of a sensor driver API:
 
@@ -802,7 +802,7 @@ Even simple devices like smart plugs or fitness trackers can be exploited if the
 - **Firmware Update Integrity:** Use encrypted or signed updates, especially for Over-the-Air (OTA) upgrades. Unprotected updates can be a major attack vector.
 - **Lock Debug Interfaces:** After flashing the final firmware, disable or lock access to JTAG, SWD, or UART debug ports to prevent reverse engineering.
 - **Minimal Exposure:** Disable unused peripherals (for example, Bluetooth, USB, network interfaces) and avoid exposing debug info (like UART prints) in production.
-- **Watchdog Timers:** While not security features per se, watchdogs help ensure system recovery in the event of unexpected software behavior – which could result from attacks or bugs.
+- **Watchdog Timers:** While not security features per se, watchdogs help ensure system recovery in the event of unexpected software behavior - which could result from attacks or bugs.
 
 Security should be layered, as no single mechanism is sufficient on its own. Build security into every stage of the development process, from boot to communication to update handling.
 
@@ -839,7 +839,7 @@ The simplest and most common method. They send debug messages over a serial conn
 You can use `printf()` or similar to track variable values, function entries/exits, and system state
 
 - Pros: Easy to implement
-- Cons: Can affect timing – not usable if UART is unavailable or disabled
+- Cons: Can affect timing - not usable if UART is unavailable or disabled
 
 #### 2. Trace Variables
 
@@ -888,10 +888,10 @@ CoreSight solves these by enabling real-time tracing and non-intrusive observati
 
 #### Popular Debug Tools
 
-- ST-Link – HW from STMicrocontrollers
-- J-Link – Universal debugger supporting a wide range of MCUs
-- OpenOCD – Open-source interface for hardware debugging
-- GDB / LLDB – Command-line debuggers used alongside the above
+- ST-Link - HW from STMicrocontrollers
+- J-Link - Universal debugger supporting a wide range of MCUs
+- OpenOCD - Open-source interface for hardware debugging
+- GDB / LLDB - Command-line debuggers used alongside the above
 
 Single-stepping is most effective when compiler optimizations are off. With optimization, code might be reordered, inlined, or even eliminated.
 
@@ -935,9 +935,9 @@ Sometimes, a device fails in the field, where you can’t attach a debugger. Tha
 
 These techniques help you reconstruct what went wrong after the device has rebooted or been recovered.
 
-You can learn more here: [Debugging Techniques for Embedded Systems – Medium (<FontIcon icon="fa-brands fa-medium"/>`lanceharvieruntime`)](https://medium.com/@lanceharvieruntime/debugging-techniques-for-embedded-systems-94d00582074a).
+You can learn more here: [Debugging Techniques for Embedded Systems - Medium (<FontIcon icon="fa-brands fa-medium"/>`lanceharvieruntime`)](https://medium.com/@lanceharvieruntime/debugging-techniques-for-embedded-systems-94d00582074a).
 
-Debugging and forensics are invaluable when something goes wrong – but a robust system should aim to catch issues before they reach deployment.
+Debugging and forensics are invaluable when something goes wrong - but a robust system should aim to catch issues before they reach deployment.
 
 That’s where automated testing becomes essential. With embedded software increasingly powering critical applications, the ability to run consistent, repeatable tests across hardware configurations saves time, improves reliability, and enables faster development cycles.
 
@@ -960,7 +960,7 @@ Automated testing helps:
 - Reduce human error
 - Scale testing across versions and hardware setups
 
-But automating tests for embedded systems isn’t just writing test cases – it’s about setting up an infrastructure that connects your code to the physical hardware under test.
+But automating tests for embedded systems isn’t just writing test cases - it’s about setting up an infrastructure that connects your code to the physical hardware under test.
 
 ### Test Architecture: Host + DUT
 
@@ -1068,7 +1068,7 @@ While this requires effort to set up, the payoff is huge: confidence in your fir
 
 ### Building your Embedded Project
 
-After exploring the theory and tooling of embedded systems, it's time to apply what you've learned. This section walks you through the steps to create your own embedded system – from concept to code and deployment.
+After exploring the theory and tooling of embedded systems, it's time to apply what you've learned. This section walks you through the steps to create your own embedded system - from concept to code and deployment.
 
 Use the checklist below to guide your first project, whether you're prototyping a sensor device or automating a simple process.
 
@@ -1154,8 +1154,8 @@ Whether you're preparing for embedded job interviews, building your own IoT proj
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Embedded Systems Firmware Basics – A Handbook for Developers",
-  "desc": "Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems – small, dedicated computers designed to perform specific tasks reliably a...",
+  "title": "Learn Embedded Systems Firmware Basics - A Handbook for Developers",
+  "desc": "Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems - small, dedicated computers designed to perform specific tasks reliably a...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-embedded-systems-firmware-basics-handbook-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

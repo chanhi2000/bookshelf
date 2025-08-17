@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,9 +55,9 @@ Let's take our misdirection up a notch by adding some falling, spinning stars be
 
 We first met particle systems [in project 11](/hackingwithswift.com/read/11/overview.md) when we covered `SKEmitterNode`. That's a fast and easy way to create particle systems in SpriteKit, but we're not in SpriteKit now so we need an alternative.
 
-Fortunately, iOS has one, and in fact it even predates `SKEmitterNode`: `CAEmitterLayer`. From its name you should already be able to tell that it's a subclass of `CALayer`, which in turn means you need to use `CGColor` rather than `UIColor` and `CGImage` rather than `UIImage`. However, I should add that `CAEmitterLayer` isn't quite a beautifully polished as `SKEmitterNode` – it has no WYSIWYG editor, for example, so you need to do everything in code.
+Fortunately, iOS has one, and in fact it even predates `SKEmitterNode`: `CAEmitterLayer`. From its name you should already be able to tell that it's a subclass of `CALayer`, which in turn means you need to use `CGColor` rather than `UIColor` and `CGImage` rather than `UIImage`. However, I should add that `CAEmitterLayer` isn't quite a beautifully polished as `SKEmitterNode` - it has no WYSIWYG editor, for example, so you need to do everything in code.
 
-Each `CAEmitterLayer` defines the position, shape, size and rendering mode of a particle system, but it doesn't actually define any particles – that's handled by a separate class, called `CAEmitterCell`. You can create as many emitter cells as you want, then assign them to your emitter layer to have them all fire from the same position.
+Each `CAEmitterLayer` defines the position, shape, size and rendering mode of a particle system, but it doesn't actually define any particles - that's handled by a separate class, called `CAEmitterCell`. You can create as many emitter cells as you want, then assign them to your emitter layer to have them all fire from the same position.
 
 There are *lots* of properties you can set on emitter cells, and without a WYSIWYG editor you're basically stuck reading the documentation to find them all. To give you a jump start, I'm going to use quite a few to make our particle system:
 
@@ -108,7 +108,7 @@ func createParticles() {
 
 Note that I'm adding the particle emitter as a sublayer of the `gradientView` view. This is important, because it ensures the stars always go behind the cards. You will also need to a call to `createParticles()` to the view controller's `viewDidLoad()` method, just before the call to `loadCards()`.
 
-Go ahead and run the project now and I think you'll find the effect quite pleasing – it's subtle, yes, but again it's just enough to distract users into thinking maybe, just maybe, the position of the stars tells you where the green star card is.
+Go ahead and run the project now and I think you'll find the effect quite pleasing - it's subtle, yes, but again it's just enough to distract users into thinking maybe, just maybe, the position of the stars tells you where the green star card is.
 
 ![With a color-shifting background gradient and falling stars your users will have no idea what's going on](https://hackingwithswift.com/img/books/hws/37-4@2x.png)
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Next.js by Coding Your Own Dropbox Clone – Full Course"
-description: "Article(s) > Learn Next.js by Coding Your Own Dropbox Clone – Full Course"
+title: "Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
+description: "Article(s) > Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Next.js by Coding Your Own Dropbox Clone – Full Course"
+      content: "Article(s) > Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
     - property: og:description
-      content: "Learn Next.js by Coding Your Own Dropbox Clone – Full Course"
+      content: "Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-dropbox-clone-with-nextjs.html
 prev: /programming/js-next/articles/README.md
@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746632864462/6865d2b
 ---
 
 <SiteInfo
-  name="Learn Next.js by Coding Your Own Dropbox Clone – Full Course"
+  name="Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
   desc="Building modern full-stack applications requires a strong grasp of various interconnected technologies. And what better way to learn than by creating a real-world project that mimics a widely used tool like Dropbox? That’s exactly what this new cours..."
   url="https://freecodecamp.org/news/code-a-dropbox-clone-with-nextjs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -80,7 +80,7 @@ Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCam
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Next.js by Coding Your Own Dropbox Clone – Full Course",
+  "title": "Learn Next.js by Coding Your Own Dropbox Clone - Full Course",
   "desc": "Building modern full-stack applications requires a strong grasp of various interconnected technologies. And what better way to learn than by creating a real-world project that mimics a widely used tool like Dropbox? That’s exactly what this new cours...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-dropbox-clone-with-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API – Post, Put, Delete
-description: Article(s) > ASP.NET Core Web API – Post, Put, Delete
+title: ASP.NET Core Web API - Post, Put, Delete
+description: Article(s) > ASP.NET Core Web API - Post, Put, Delete
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API – Post, Put, Delete
+      content: Article(s) > ASP.NET Core Web API - Post, Put, Delete
     - property: og:description
-      content: ASP.NET Core Web API – Post, Put, Delete
+      content: ASP.NET Core Web API - Post, Put, Delete
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part6.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part6/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API – Post, Put, Delete"
+  name="ASP.NET Core Web API - Post, Put, Delete"
   desc="Learn how to handle Get Request in .NET Core by using previously created repository pattern for business logic and how to write great controller code."
   url="https://code-maze.com/net-core-web-development-part6/"
   logo="/assets/image/code-maze.com/favicon.png"

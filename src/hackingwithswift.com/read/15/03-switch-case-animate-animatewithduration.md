@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/nrp6SZWbRlY" />
 
-The `currentAnimation` property can have a value between 0 and 7, each one triggering a different animation. We're going to create a big `switch/case` block inside `tapped()`, but we're going to start small and work our way up – the `default` case will handle any values we don't explicitly catch.
+The `currentAnimation` property can have a value between 0 and 7, each one triggering a different animation. We're going to create a big `switch/case` block inside `tapped()`, but we're going to start small and work our way up - the `default` case will handle any values we don't explicitly catch.
 
 This switch/case statement is going to go inside a new method of the `UIView` class called `animate(withDuration:)`, which is a kind of method you haven't seen before because it actually accepts two closures. The parameters we'll be using are how long to animate for, how long to pause before the animation starts, any options you want to provide, what animations to execute, and finally a closure that will execute when the animation finishes.
 
@@ -94,7 +94,7 @@ All that code won't do anything yet, which is remarkable given that it's quite a
 
 - When the method begins, we hide the `sender` button so that our animations don't collide; it gets unhidden in the completion closure of the animation.
 - We call `animate(withDuration:)` with a duration of 1 second, no delay, and no interesting options.
-- For the `animations` closure we *don’t* need to use `[weak self]` because there’s no risk of strong reference cycles here  – the closures passed to `animate(withDuration:)` method will be used once then thrown away.
+- For the `animations` closure we *don’t* need to use `[weak self]` because there’s no risk of strong reference cycles here  - the closures passed to `animate(withDuration:)` method will be used once then thrown away.
 - We switch using the value of `self.currentAnimation`. We need to use `self` to make the closure capture clear, remember. This `switch/case` does nothing yet, because both possible cases just call `break`.
 - We use trailing closure syntax to provide our completion closure. This will be called when the animation completes, and its `finished` value will be true if the animations completed fully.
 - As I said, the completion closure unhides the `sender` button so it can be tapped again.

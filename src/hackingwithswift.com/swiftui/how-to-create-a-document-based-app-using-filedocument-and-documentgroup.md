@@ -63,7 +63,7 @@ Creating your own document-based app takes four steps:
 
 We’ll work through each of those here, starting with defining what your document is. Some document types save multiple files of different types, but for now we’re going to say that we support only plain text, and we want that text to be read and written directly to disk.
 
-First, add `import UniformTypeIdentifiers` to the top of your Swift file, so you can bring in uniform type identifiers – a fixed way of saying what data types your document can work with.
+First, add `import UniformTypeIdentifiers` to the top of your Swift file, so you can bring in uniform type identifiers - a fixed way of saying what data types your document can work with.
 
 Now add this struct, defining a simple text file:
 
@@ -97,7 +97,7 @@ struct TextFile: FileDocument {
 }
 ```
 
-Notice how in the `fileWrapper(configuration:)` method we convert our text string into a `Data` instance, then save that using a `FileWrapper`. It’s not our job to say where the file should be stored –  iOS takes care of that for us.
+Notice how in the `fileWrapper(configuration:)` method we convert our text string into a `Data` instance, then save that using a `FileWrapper`. It’s not our job to say where the file should be stored -  iOS takes care of that for us.
 
 Our second task is to create some sort of editor area where the user can edit our text. This should use an `@Binding` property wrapper so that it updates the text in our `TextFile` struct rather than keeping its own local copy:
 
@@ -130,7 +130,7 @@ Finally, we need to add a new key to Info.plist, so open that now, right-click i
 
 ![The Info.plist file with “Supports Document Browser” set to YES.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup-1~dark@2x.png)
 
-That’s it! Your document-based app is ready to go. If you run your app back now you’ll see the standard iOS document picker interface, and if you press + iOS will create a new file and open it for editing in `ContentView` –  nice!
+That’s it! Your document-based app is ready to go. If you run your app back now you’ll see the standard iOS document picker interface, and if you press + iOS will create a new file and open it for editing in `ContentView` -  nice!
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-document-based-app-using-filedocument-and-documentgroup-2~dark.mp4" />
 

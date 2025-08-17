@@ -102,7 +102,7 @@ By centralizing data in the cloud, an ecommerce platform can automate inventory 
 
 ---
 
-## Ecommerce on cloud – SaaS solutions for online shopping platforms
+## Ecommerce on cloud - SaaS solutions for online shopping platforms
 
 There is a huge variety of cloud tools e-commerce platforms can use to supercharge their performance. Some providers offer comprehensive solutions, like Google Cloud Platform, Microsoft Azure, or Salesforce Commerce Cloud (offering top-quality headless commerce platform), some target more specific needs, like payment processing. Below are several key types of SaaS services that can give an online store a performance boost.
 

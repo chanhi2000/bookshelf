@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Run Database Migrations in Kubernetes – Different Approaches with Examples"
-description: "Article(s) > How to Run Database Migrations in Kubernetes – Different Approaches with Examples"
+title: "How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
+description: "Article(s) > How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
 icon: fa-brands fa-golang
 category:
   - Go
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Run Database Migrations in Kubernetes – Different Approaches with Examples"
+      content: "Article(s) > How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
     - property: og:description
-      content: "How to Run Database Migrations in Kubernetes – Different Approaches with Examples"
+      content: "How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-database-migrations-in-kubernetes.html
 prev: /programming/go/articles/README.md
@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727685813983/f467202
 ---
 
 <SiteInfo
-  name="How to Run Database Migrations in Kubernetes – Different Approaches with Examples"
+  name="How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
   desc="In the era of Microservices and Kubernetes, managing database migrations has become more complex than ever. Traditional methods of running migrations during application startup are no longer sufficient. This article explores various approaches to han..."
   url="https://freecodecamp.org/news/how-to-run-database-migrations-in-kubernetes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

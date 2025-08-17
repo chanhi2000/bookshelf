@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Builder Design Pattern and Fluent Builder
-description: Article(s) > C# Design Patterns – Builder Design Pattern and Fluent Builder
+title: C# Design Patterns - Builder Design Pattern and Fluent Builder
+description: Article(s) > C# Design Patterns - Builder Design Pattern and Fluent Builder
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Builder Design Pattern and Fluent Builder
+      content: Article(s) > C# Design Patterns - Builder Design Pattern and Fluent Builder
     - property: og:description
-      content: C# Design Patterns – Builder Design Pattern and Fluent Builder
+      content: C# Design Patterns - Builder Design Pattern and Fluent Builder
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/builder-design-pattern.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/builder-design-pattern/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Builder Design Pattern and Fluent Builder"
+  name="C# Design Patterns - Builder Design Pattern and Fluent Builder"
   desc="In this article, you are going to learn what is Builder Design Pattern and how to implement it into your code to create more complex objects."
   url="https://code-maze.com/builder-design-pattern/"
   logo="/assets/image/code-maze.com/favicon.png"

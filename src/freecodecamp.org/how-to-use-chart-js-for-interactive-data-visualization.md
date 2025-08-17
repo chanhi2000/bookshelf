@@ -52,7 +52,7 @@ Data surrounds us, but its raw form can be overwhelming and difficult to interpr
 
 Among the many data visualization libraries available, Chart.js stands out for its simplicity, flexibility, and interactivity.
 
-This guide is like a roadmap to making charts with Chart.js. It doesn't matter if you're a coding expert or just getting started – I'll show you everything you need to know. We'll break down the basics of Chart.js, show you different types of charts (like bars and lines), and teach you how to make them look great and even respond to clicks.
+This guide is like a roadmap to making charts with Chart.js. It doesn't matter if you're a coding expert or just getting started - I'll show you everything you need to know. We'll break down the basics of Chart.js, show you different types of charts (like bars and lines), and teach you how to make them look great and even respond to clicks.
 
 [[toc]]
 

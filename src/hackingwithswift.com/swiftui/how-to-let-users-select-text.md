@@ -72,7 +72,7 @@ VStack(spacing: 50) {
 
 ![The line “You can't touch this” above the line “Break it down!”. A selection menu hovers over the second line.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-let-users-select-text-1~dark.png)
 
-When text is selected, the user automatically gains access to the regular text actions such as Copy and Share. However, right now at least the whole text area is copied – you don't get a text selection loupe, so you can't select just a few words.
+When text is selected, the user automatically gains access to the regular text actions such as Copy and Share. However, right now at least the whole text area is copied - you don't get a text selection loupe, so you can't select just a few words.
 
 Setting `textSelection()` on any kind of group of views will automatically make all text inside that group selectable. For example, we could make both text views in our previous example selectable by moving the modifier up to the stack:
 

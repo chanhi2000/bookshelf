@@ -59,7 +59,7 @@ Here's are some quotes from the Swift API guidelines:
 - "When adding “ed” is not grammatical because the verb has a direct object, name the nonmutating variant using the verb’s present participle"
 - "When the operation is naturally described by a noun, use the noun for the nonmutating method and apply the “form” prefix to name its mutating counterpart"
 
-Got that? It's no surprise that Swift's rules are expressed using lingustic terminology – it is after all a language! – but this at least gives me a chance to feel smug that I did a second degree in English. What it means is that many methods are changing names in subtle and sometimes confusing ways.
+Got that? It's no surprise that Swift's rules are expressed using lingustic terminology - it is after all a language! - but this at least gives me a chance to feel smug that I did a second degree in English. What it means is that many methods are changing names in subtle and sometimes confusing ways.
 
 Let's start with a couple of simple examples:
 

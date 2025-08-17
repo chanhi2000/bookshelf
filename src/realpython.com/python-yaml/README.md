@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/YAML-in-Python_Watermarked.9dec9dfe8fd
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="YAML: Python's Missing Battery – Real Python"
+  name="YAML: Python's Missing Battery - Real Python"
   desc="In this video course, you'll learn about working with YAML in Python. By the end of it, you'll know about the available libraries, their strengths and weaknesses, and the advanced and potentially dangerous features of YAML."
   url="https://realpython.com/courses/yaml-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -190,7 +190,7 @@ Common pitfalls when working with YAML in Python include the handling of implici
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="YAML: Python's Missing Battery – Real Python"
+  name="YAML: Python's Missing Battery - Real Python"
   desc="In this video course, you'll learn about working with YAML in Python. By the end of it, you'll know about the available libraries, their strengths and weaknesses, and the advanced and potentially dangerous features of YAML."
   url="https://realpython.com/courses/yaml-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

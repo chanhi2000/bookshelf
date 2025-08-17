@@ -538,7 +538,7 @@ Similarly, you can print this character in Python. Perhaps in a loop to form som
 
 The rules are the following:
 
-- Letters are encoded with a sequence of **dot** (·) and **dash** (–) symbols.
+- Letters are encoded with a sequence of **dot** (·) and **dash** (-) symbols.
 - A **dot** is one unit of time.
 - A **dash** is three units of time.
 - Individual **symbols** in a letter are spaced one unit of time apart.

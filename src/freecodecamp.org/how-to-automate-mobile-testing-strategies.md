@@ -586,13 +586,13 @@ This simulates a swipe-up gesture, helping you confirm that your app’s UI resp
 
 Mobile test automation is getting smarter with new technologies that make testing faster and more accurate. Some key trends include:
 
-- **Cloud-based testing** – Let's you test on many devices without needing physical setup.
-- **5G testing** – Checks app performance on high-speed networks.
-- **Low-code and no-code automation** – Makes test creation easier and faster.
-- **AI-driven testing** – Automates test generation and improves coverage.
-- **Self-healing test scripts** – Uses AI to update scripts when the app’s UI changes.
-- **Predictive analytics** – Uses machine learning to find possible defects early.
-- **Cross-platform automation** – Allows testing on both iOS and Android to run smoothly.
+- **Cloud-based testing** - Let's you test on many devices without needing physical setup.
+- **5G testing** - Checks app performance on high-speed networks.
+- **Low-code and no-code automation** - Makes test creation easier and faster.
+- **AI-driven testing** - Automates test generation and improves coverage.
+- **Self-healing test scripts** - Uses AI to update scripts when the app’s UI changes.
+- **Predictive analytics** - Uses machine learning to find possible defects early.
+- **Cross-platform automation** - Allows testing on both iOS and Android to run smoothly.
 
 ---
 

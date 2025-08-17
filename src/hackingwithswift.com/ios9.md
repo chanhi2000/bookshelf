@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "https://hackingwithswift.com/ios9",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -55,11 +55,11 @@ isOriginal: false
 
 If you already completed the entire [Hacking with Swift coding series](https://hackingwithswift.com/), you'll have watched Apple's WWDC15 keynote with as much excitement as I did. And yes: Swift 2 was announced along with iOS 9 and Xcode 7, so if you're keen to start learning then I'm here to help.
 
-So, while I'm busy updating the complete book, I wrote this article about some of the new things in iOS 9 and another [showing off what's new in Swift 2](/hackingwithswift.com/swift2.md). I'm not going to go over the headline features like multitasking – that kind of thing you can read on any tech news site. Instead, here are the features that particularly caught my eye…
+So, while I'm busy updating the complete book, I wrote this article about some of the new things in iOS 9 and another [showing off what's new in Swift 2](/hackingwithswift.com/swift2.md). I'm not going to go over the headline features like multitasking - that kind of thing you can read on any tech news site. Instead, here are the features that particularly caught my eye…
 
 ::: info Update
 
-I've made lots of [completely free tutorials for iOS 9](/hackingwithswift.com/ios9-tutorials.md) that help you build real projects while you learn – take a look!
+I've made lots of [completely free tutorials for iOS 9](/hackingwithswift.com/ios9-tutorials.md) that help you build real projects while you learn - take a look!
 
 :::
 
@@ -69,7 +69,7 @@ I've made lots of [completely free tutorials for iOS 9](/hackingwithswift.com/io
 
 ::: info Update
 
-I wrote a [tutorial on Core Spotlight in iOS 9](/hackingwithswift.com/read/32/overview.md) as Hacking with Swift project 32 – check it out!
+I wrote a [tutorial on Core Spotlight in iOS 9](/hackingwithswift.com/read/32/overview.md) as Hacking with Swift project 32 - check it out!
 
 ```component VPCard
 {
@@ -119,7 +119,7 @@ func application(application: UIApplication, continueUserActivity userActivity: 
 }
 ```
 
-Again, make sure you import CoreSpotlight so your code compiles. Hopefully you can now see why the unique identifier is so important – it's what your app gets handed so you can load the correct content.
+Again, make sure you import CoreSpotlight so your code compiles. Hopefully you can now see why the unique identifier is so important - it's what your app gets handed so you can load the correct content.
 
 There are various extensions to `CSSearchableItemAttributeSet` to encode data such as events and map co-ordinates, so this could prove to be one of the biggest new features in iOS 9. To see just how much information you can encode (focal length for images! media copyright information! contact phone numbers!) press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>O</kbd> and type CSSearchableItemAttributeSet then wait for the completions to appear - you'll see media, events, images, places and more.
 
@@ -137,7 +137,7 @@ But App Thinning is even cleverer, because with Xcode 7 you upload your app to i
 
 Still think that's not enough? Apparently Apple agrees, because as part of App Thinning you can now host content for your app in iTunes Connect, and request it inside your app only when needed. This has been possible with in-app purchases for a few years, but being able to tag and fetch content on demand is new and very interesting.
 
-I wonder whether Apple is shipping app thinning now in preparation to launch an @3x iPad – such a device would have huge images, so old school universal binaries would be more wasteful than ever.
+I wonder whether Apple is shipping app thinning now in preparation to launch an @3x iPad - such a device would have huge images, so old school universal binaries would be more wasteful than ever.
 
 ---
 
@@ -145,7 +145,7 @@ I wonder whether Apple is shipping app thinning now in preparation to launch an 
 
 ::: info Update
 
-I wrote a [tutorial on GameplayKit and GKMinmaxStrategist in iOS 9](/hackingwithswift.com/read/34/overview.md) as Hacking with Swift project 34 – check it out!
+I wrote a [tutorial on GameplayKit and GKMinmaxStrategist in iOS 9](/hackingwithswift.com/read/34/overview.md) as Hacking with Swift project 34 - check it out!
 
 ```component VPCard
 {
@@ -161,7 +161,7 @@ I wrote a [tutorial on GameplayKit and GKMinmaxStrategist in iOS 9](/hackingwith
 
 ::: info Update 2
 
-I wrote a [tutorial on GameplayKit and GKRandomSource in iOS 9](/hackingwithswift.com/read/35/overview.md) as Hacking with Swift project 35 – check that out too!
+I wrote a [tutorial on GameplayKit and GKRandomSource in iOS 9](/hackingwithswift.com/read/35/overview.md) as Hacking with Swift project 35 - check that out too!
 
 ```component VPCard
 {
@@ -177,7 +177,7 @@ I wrote a [tutorial on GameplayKit and GKRandomSource in iOS 9](/hackingwithswif
 
 This is easily one of the most surprising changes in iOS 9, and it was rushed over so quickly in the keynote that if you blinked you probably missed it. GameplayKit is surprising because of what it does: it's designed to make it easy to add high-level gameplay logic without having to code the algorithms yourself. State machines? Done. Randomization? Check. Path finding? Got it.
 
-To give you an idea of just how powerful GameplayKit is, Apple has shipped demo code for a four-in-a-row game that uses a new class called `GKMinmaxStrategist`. This is a class that can, under certain conditions, provide AI responses to automatically win in a game. Those conditions are pretty simple: the game must be sequential (i.e., players take turns), the game must be zero sum (one player loses when the other wins), the game must not be based on chance, and you must be able to provide GKMinmaxStrategist with perfect information – that is, all information required to play and win is openly visible.
+To give you an idea of just how powerful GameplayKit is, Apple has shipped demo code for a four-in-a-row game that uses a new class called `GKMinmaxStrategist`. This is a class that can, under certain conditions, provide AI responses to automatically win in a game. Those conditions are pretty simple: the game must be sequential (i.e., players take turns), the game must be zero sum (one player loses when the other wins), the game must not be based on chance, and you must be able to provide GKMinmaxStrategist with perfect information - that is, all information required to play and win is openly visible.
 
 ---
 
@@ -185,7 +185,7 @@ To give you an idea of just how powerful GameplayKit is, Apple has shipped demo 
 
 ::: info Update
 
-I wrote a [tutorial on SFSafariViewController in iOS 9](/hackingwithswift.com/read/32/overview.md) as Hacking with Swift project 32 – check it out!
+I wrote a [tutorial on SFSafariViewController in iOS 9](/hackingwithswift.com/read/32/overview.md) as Hacking with Swift project 32 - check it out!
 
 ```component VPCard
 {
@@ -243,7 +243,7 @@ let sfc = SFSafariViewController(URL: NSURL(string: "http://www.slashdot.org")!,
 
 ::: info Update
 
-I wrote a tutorial on UIStackView and iPad multitasking in iOS 9 as Hacking with Swift project 31 – check it out!
+I wrote a tutorial on UIStackView and iPad multitasking in iOS 9 as Hacking with Swift project 31 - check it out!
 
 ```component VPCard
 {
@@ -257,7 +257,7 @@ I wrote a tutorial on UIStackView and iPad multitasking in iOS 9 as Hacking with
 
 :::
 
-Android developers have long had a layout system called LinearLayout, where you add views to a superview and they automatically get placed either beneath each other or side by side. We haven't really had a good solution like this on iOS – table views are greatly at stacking information vertically, but are of course hugely limited in terms of their content.
+Android developers have long had a layout system called LinearLayout, where you add views to a superview and they automatically get placed either beneath each other or side by side. We haven't really had a good solution like this on iOS - table views are greatly at stacking information vertically, but are of course hugely limited in terms of their content.
 
 With `UIStackView`, that's all changed: you can now add a series of views to a superview, specify how much spacing you want between them, and Auto Layout handles the rest for you. You get to choose whether you want the subviews to have equal sizes (`.FillEqually`) or proportional sizes (`.FillProportionally`) based on their intrinsic content sizes. You can also choose whether you want the subviews to fill horizontally or vertically, and you can change your mind later.
 
@@ -287,7 +287,7 @@ One of the major SpriteKit annoyances has been its simplistic audio system. In i
 
 One of my favorite things to do when Apple flicks the switch on a new iOS release is to read through the complete list of API changes, looking for all the tiny improvements and tweaks Apple makes each year. Here are some of the changes that jumped out to me this year:
 
-- UIViewController now has an `addKeyCommand()` method to register UIKeyCommands on your view controllers – manna from heaven for users of external keyboards.
+- UIViewController now has an `addKeyCommand()` method to register UIKeyCommands on your view controllers - manna from heaven for users of external keyboards.
 - `MKMapView.showsTraffic`: set it to true, and it, er, shows the traffic. Simple, but such a huge feature to have.
 - `CIFeatureTypeText` sounds like Apple added some sort of OCR to iOS, but sadly it just gives you the bounds where text was located. It's a step forward, but only a small one.
 - Just look at AVFoundation. Go on, look at it and cry tears of joy.

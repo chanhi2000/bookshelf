@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Enumerations"
-description: "Article(s) > C# Intermediate – Enumerations"
+title: "C# Intermediate - Enumerations"
+description: "Article(s) > C# Intermediate - Enumerations"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Enumerations"
+      content: "Article(s) > C# Intermediate - Enumerations"
     - property: og:description
-      content: "C# Intermediate – Enumerations"
+      content: "C# Intermediate - Enumerations"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-enumerations.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-enumerations/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Enumerations"
+  name="C# Intermediate - Enumerations"
   desc="In this article you are going to learn about Enumerations in C#, what they are, how to use them in C# and how to use their assigned values."
   url="https://code-maze.com/csharp-enumerations"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -200,7 +200,7 @@ In the next article, we are going to talk about [**Inheritance in C#**](/code-ma
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Enumerations",
+  "title": "C# Intermediate - Enumerations",
   "desc": "In this article you are going to learn about Enumerations in C#, what they are, how to use them in C# and how to use their assigned values.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-enumerations.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

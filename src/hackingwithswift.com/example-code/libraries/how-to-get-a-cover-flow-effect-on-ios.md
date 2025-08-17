@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -64,7 +64,7 @@ You can get an instant Cover Flow effect on iOS by using the marvelous and free 
 If you haven't added Objective-C code to a Swift project before, follow these steps:
 
 - <a href="https://github.com/nicklockwood/iCarousel">Download iCarousel</a> and unzip it
-<li>Go into the folder you unzipped, open its iCarousel subfolder, then select iCarousel.h and iCarousel.m and drag them into your project navigation – that's the left pane in Xcode. Just below Info.plist is fine.
+<li>Go into the folder you unzipped, open its iCarousel subfolder, then select iCarousel.h and iCarousel.m and drag them into your project navigation - that's the left pane in Xcode. Just below Info.plist is fine.
 <li>Check "Copy items if needed" then click Finish.
 <li>Xcode will prompt you with the message "Would you like to configure an Objective-C bridging header?" Click "Create Bridging Header"
 <li>You should see a new file in your project, named YourProjectName-Bridging-Header.h.
@@ -106,7 +106,7 @@ func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIV
 
 That example loads the same image for all 10 carousel slides, so you'll need to change that to load data from your app.
 
-If you have the time, do check out the other carousel types that iCarousel offers – they're quite remarkable!
+If you have the time, do check out the other carousel types that iCarousel offers - they're quite remarkable!
 
 -->
 

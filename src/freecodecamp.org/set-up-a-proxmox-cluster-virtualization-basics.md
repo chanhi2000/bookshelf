@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Set Up a Proxmox Cluster for Free – Virtualization Basics"
-description: "Article(s) > How to Set Up a Proxmox Cluster for Free – Virtualization Basics"
+title: "How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
+description: "Article(s) > How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
 icon: 
 category:
   - DevOps
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Set Up a Proxmox Cluster for Free – Virtualization Basics"
+      content: "Article(s) > How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
     - property: og:description
-      content: "How to Set Up a Proxmox Cluster for Free – Virtualization Basics"
+      content: "How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-proxmox-cluster-virtualization-basics.html
 prev: /devops/proxmox/articles/README.md
@@ -48,13 +48,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744488492225/62339e6
 ---
 
 <SiteInfo
-  name="How to Set Up a Proxmox Cluster for Free – Virtualization Basics"
+  name="How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
   desc="Virtualization is a game-changer for developers, hobbyists, and IT enthusiasts. It lets you run multiple operating systems on one machine, which is perfect for testing apps, hosting servers, or learning new tech. If you want to take it further, clust..."
   url="https://freecodecamp.org/news/set-up-a-proxmox-cluster-virtualization-basics"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744488492225/62339e66-50ae-4546-8845-f5c86c415511.png"/>
 
-Virtualization is a game-changer for developers, hobbyists, and IT enthusiasts. It lets you run multiple operating systems on one machine, which is perfect for testing apps, hosting servers, or learning new tech. If you want to take it further, clustering ties multiple machines together for more power and flexibility. And you can use Proxmox Virtual Environment (VE) to build a cluster for free – no expensive licenses required.
+Virtualization is a game-changer for developers, hobbyists, and IT enthusiasts. It lets you run multiple operating systems on one machine, which is perfect for testing apps, hosting servers, or learning new tech. If you want to take it further, clustering ties multiple machines together for more power and flexibility. And you can use Proxmox Virtual Environment (VE) to build a cluster for free - no expensive licenses required.
 
 In this tutorial, you’ll set up a 3-node Proxmox cluster using three computers (or virtual machines for practice). By the end, you’ll have a working cluster ready to host virtual machines (VMs) and experiment with cool features like guest migration and VM replication etc.
 
@@ -78,7 +78,7 @@ This guide is beginner-friendly for clustering, but you’ll need some basic ski
 - **Proxmox VE:** Free and open-source. Grab the ISO from [<FontIcon icon="iconfont icon-proxmox"/>proxmox.com](http://proxmox.com).
 - **Network connection:** All three must be on the same network and be able to ping each other.
 - **A web browser:** For Proxmox’s web interface.
-- **30–60 minutes**: Depending on your setup pace.
+- **30-60 minutes**: Depending on your setup pace.
 
 ---
 
@@ -230,12 +230,12 @@ pvecm status
 
 ## Wrapping Up
 
-You’ve just set up a 3-node Proxmox cluster at no cost. It’s a playground for virtualization, DevOps practice, or even hosting small projects. Share your thoughts with me – I’d love to hear how you liked it.
+You’ve just set up a 3-node Proxmox cluster at no cost. It’s a playground for virtualization, DevOps practice, or even hosting small projects. Share your thoughts with me - I’d love to hear how you liked it.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Set Up a Proxmox Cluster for Free – Virtualization Basics",
+  "title": "How to Set Up a Proxmox Cluster for Free - Virtualization Basics",
   "desc": "Virtualization is a game-changer for developers, hobbyists, and IT enthusiasts. It lets you run multiple operating systems on one machine, which is perfect for testing apps, hosting servers, or learning new tech. If you want to take it further, clust...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-proxmox-cluster-virtualization-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

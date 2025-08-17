@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 Touch ID and Face ID are part of the Local Authentication framework, and our code needs to do three things:
 
-1. Check whether the device is capable of supporting biometric authentication – that the hardware is available and is configured by the user.
+1. Check whether the device is capable of supporting biometric authentication - that the hardware is available and is configured by the user.
 2. If so, request that the biometry system begin a check now, giving it a string containing the reason why we're asking. For Touch ID the string is written in code; for Face ID the string is written into our Info.plist file.
 3. If we get success back from the authentication request it means this is the device's owner so we can unlock the app, otherwise we show a failure message.
 
@@ -96,17 +96,17 @@ And now here's the new code for the `authenticateTapped()` method. We already wa
 }
 ```
 
-There is one important new piece of syntax in there that we haven’t used before, which is `&error`. The LocalAuthentication framework uses the Objective-C approach to reporting errors back to us, which is where the `NSError` type comes from – where Swift likes to have an enum that conforms to the `Error` protocol, Objective-C had a dedicated `NSError` type for handling errors.
+There is one important new piece of syntax in there that we haven’t used before, which is `&error`. The LocalAuthentication framework uses the Objective-C approach to reporting errors back to us, which is where the `NSError` type comes from - where Swift likes to have an enum that conforms to the `Error` protocol, Objective-C had a dedicated `NSError` type for handling errors.
 
-Here, though, we want LocalAuthentication to tell *us* what went wrong, and it can’t do that by returning a value from the `canEvaluatePolicy()` method – that already returns a Boolean telling us whether biometric authentication is available or not. So, instead what we use is the Objective-C equivalent of Swift’s `inout` parameters: we pass an empty `NSError` variable into our call to `canEvaluatePolicy()`, and if an error occurs that error will get filled with a real `NSError` instance telling us what went wrong.
+Here, though, we want LocalAuthentication to tell *us* what went wrong, and it can’t do that by returning a value from the `canEvaluatePolicy()` method - that already returns a Boolean telling us whether biometric authentication is available or not. So, instead what we use is the Objective-C equivalent of Swift’s `inout` parameters: we pass an empty `NSError` variable into our call to `canEvaluatePolicy()`, and if an error occurs that error will get filled with a real `NSError` instance telling us what went wrong.
 
-Objective-C’s equivalent to `inout` is what’s called a *pointer*, so named because it effectively points to a place in memory where something exists rather us passing around the actual value instead. If we had passed `error` into the method, it would mean “here’s the error you should use.” By passing in `&error` – Objective-C’s equivalent of `inout` – it means “if you hit an error, here’s the place in memory where you should store that error so I can read it.”
+Objective-C’s equivalent to `inout` is what’s called a *pointer*, so named because it effectively points to a place in memory where something exists rather us passing around the actual value instead. If we had passed `error` into the method, it would mean “here’s the error you should use.” By passing in `&error` - Objective-C’s equivalent of `inout` - it means “if you hit an error, here’s the place in memory where you should store that error so I can read it.”
 
-I hope you can now see this is another example of why Swift was such a leap forward compared to Objective-C – having to pass around pointers to things wasn’t terribly pleasant!
+I hope you can now see this is another example of why Swift was such a leap forward compared to Objective-C - having to pass around pointers to things wasn’t terribly pleasant!
 
 Apart from that, there are a couple of reminders: we need `[weak self]` inside the first closure but not the second because it's already weak by that point. You also need to use `self?.` inside the closure to make capturing clear. Finally, you must provide a reason why you want Touch ID/Face ID to be used, so you might want to replace mine ("Identify yourself!") with something a little more descriptive.
 
-You can see the “Identify yourself!” string in our code, which will be shown to Touch ID users. Face ID is handled slightly differently – open Info.plist, then add a new key called “Privacy - Face ID Usage Description”. This should contain similar text to what you use with Touch ID, so give it the value “Identify yourself!”.
+You can see the “Identify yourself!” string in our code, which will be shown to Touch ID users. Face ID is handled slightly differently - open Info.plist, then add a new key called “Privacy - Face ID Usage Description”. This should contain similar text to what you use with Touch ID, so give it the value “Identify yourself!”.
 
 That's enough to get basic biometric authentication working, but there are error cases you need to catch. For example, you’ll hit problems if the device does not have biometric capability or it isn’t configured. Similarly, you’ll get an error if the user failed authentication, which might be because their fingerprint or face wasn't scanning for whatever reason, but also if the system has to cancel scanning for some reason.
 
@@ -126,5 +126,5 @@ ac.addAction(UIAlertAction(title: "OK", style: .default))
 self.present(ac, animated: true)
 ```
 
-That completes the authentication code, so go ahead and try running the app now. If you’re using a physical device your regular Touch ID / Face ID should work just fine, but if you’re using the Simulator there are useful options under the Hardware menu – go to Hardware > Touch ID/Face ID > Toggle Enrolled State to opt in to biometric authentication, then use Hardware > Touch ID/Face ID > Matching Touch/Face when you’re asked for a fingerprint/face.
+That completes the authentication code, so go ahead and try running the app now. If you’re using a physical device your regular Touch ID / Face ID should work just fine, but if you’re using the Simulator there are useful options under the Hardware menu - go to Hardware > Touch ID/Face ID > Toggle Enrolled State to opt in to biometric authentication, then use Hardware > Touch ID/Face ID > Matching Touch/Face when you’re asked for a fingerprint/face.
 

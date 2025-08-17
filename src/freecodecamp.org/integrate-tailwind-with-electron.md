@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Integrate Tailwind with Electron – With Code Examples"
-description: "Article(s) > How to Integrate Tailwind with Electron – With Code Examples"
+title: "How to Integrate Tailwind with Electron - With Code Examples"
+description: "Article(s) > How to Integrate Tailwind with Electron - With Code Examples"
 icon: iconfont icon-electron
 category:
   - Node.js
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Integrate Tailwind with Electron – With Code Examples"
+      content: "Article(s) > How to Integrate Tailwind with Electron - With Code Examples"
     - property: og:description
-      content: "How to Integrate Tailwind with Electron – With Code Examples"
+      content: "How to Integrate Tailwind with Electron - With Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-tailwind-with-electron.html
 prev: /programming/js-electron/articles/README.md
@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755102784797/0a2d19f
 ---
 
 <SiteInfo
-  name="How to Integrate Tailwind with Electron – With Code Examples"
+  name="How to Integrate Tailwind with Electron - With Code Examples"
   desc="In this article, you’ll learn how to integrate Tailwind CSS with Electron to build stylish, responsive desktop applications. You’ll set up Tailwind in an Electron project, configure your project, style the components, and optimize the development wor..."
   url="https://freecodecamp.org/news/integrate-tailwind-with-electron"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -78,7 +78,7 @@ You’ll set up Tailwind in an Electron project, configure your project, style t
 
 [<FontIcon icon="iconfont icon-electron"/>Electron](https://electronjs.org/) is a framework that lets developers create desktop applications for Windows, macOS, and Linux using familiar web technologies like HTML, CSS, and JavaScript, along with Node.js for backend features.
 
-It's open-source, MIT-licensed, and completely free to use – whether you're building personal projects or commercial apps.
+It's open-source, MIT-licensed, and completely free to use - whether you're building personal projects or commercial apps.
 
 In this guide, we’ll look at why so many developers and companies choose Electron for building modern desktop apps.
 
@@ -88,7 +88,7 @@ In this guide, we’ll look at why so many developers and companies choose Elect
 
 [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com/) is essentially a utility-first framework for styling web interfaces. Unlike frameworks that provide full-blown, pre-designed UI components, Tailwind offers a comprehensive set of single-purpose utility classes. You apply these classes directly to your HTML elements, which means you can rapidly build out custom layouts and designs without diving into separate CSS files.
 
-The big advantage? Precision and flexibility – you can assemble unique, responsive interfaces by combining these classes however you see fit, all while keeping you markup lean and maintainable.
+The big advantage? Precision and flexibility - you can assemble unique, responsive interfaces by combining these classes however you see fit, all while keeping you markup lean and maintainable.
 
 ---
 
@@ -348,7 +348,7 @@ Your Electron window should now open with a well-styled button in the center, th
 
 ---
 
-## How to Use a Tailwind Component Library – a Practical Example
+## How to Use a Tailwind Component Library - a Practical Example
 
 We are going to use [<FontIcon icon="fas fa-globe"/>FlyonUI](https://flyonui.com/), an open source Tailwind component library. It includes a mix of utility classes in addition to JavaScript plugins. FlyonUI draws ideas from daisyUI but also from Preline, and combines flexibility and simplicity. It also helps you build interfaces that respond well and appear consistent.
 
@@ -486,7 +486,7 @@ I have written this tutorial with the help of [Pruthvi Prajapati (<FontIcon icon
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Integrate Tailwind with Electron – With Code Examples",
+  "title": "How to Integrate Tailwind with Electron - With Code Examples",
   "desc": "In this article, you’ll learn how to integrate Tailwind CSS with Electron to build stylish, responsive desktop applications. You’ll set up Tailwind in an Electron project, configure your project, style the components, and optimize the development wor...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-tailwind-with-electron.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

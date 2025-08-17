@@ -194,7 +194,7 @@ The next step is to configure advanced options such as adding a load balancer an
 
 ![configuring advanced options](https://freecodecamp.org/news/content/images/2024/05/asg-4.png)
 
-Next, configure the group size and scaling. Here, we want to configure the scale between minimum of 2 and maximum of 5. Also, set the metrics type to track the CPU utilization (set to 50 – you can increase to 70 or more) for scaling.
+Next, configure the group size and scaling. Here, we want to configure the scale between minimum of 2 and maximum of 5. Also, set the metrics type to track the CPU utilization (set to 50 - you can increase to 70 or more) for scaling.
 
 ![configuring group size and scaling](https://freecodecamp.org/news/content/images/2024/05/screencapture-us-east-1-console-aws-amazon-ec2-home-2024-05-03-23_41_58.png)
 

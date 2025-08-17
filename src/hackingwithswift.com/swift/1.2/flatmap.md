@@ -61,7 +61,7 @@ Decreasing the amount of containment also makes `flatMap()` a simple way of conv
 [[1, 2], [3, 4], [5, 6]].flatMap { $0 }
 ```
 
-There is no "map" operation there, so we're just left with the flattening behavior – that will result in a single array containing the value `[1, 2, 3, 4, 5, 6]`.
+There is no "map" operation there, so we're just left with the flattening behavior - that will result in a single array containing the value `[1, 2, 3, 4, 5, 6]`.
 
 ::: details Other changes in Swift 1.2…
 

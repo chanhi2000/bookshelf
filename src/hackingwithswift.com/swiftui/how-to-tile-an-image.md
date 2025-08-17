@@ -67,7 +67,7 @@ Image("logo")
 
 ![A phone showing tiled images of the Hacking With Swift logo.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-tile-an-image-1~dark.png)
 
-If you only want to tile part of the image – leading one or more edges fixed to the image view's edges – you can provide edge insets to the first parameter, like this:
+If you only want to tile part of the image - leading one or more edges fixed to the image view's edges - you can provide edge insets to the first parameter, like this:
 
 ```swift
 Image("logo")

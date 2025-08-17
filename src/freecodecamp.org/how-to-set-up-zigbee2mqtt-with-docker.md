@@ -67,7 +67,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731778246828/8371f4d
 
 [<FontIcon icon="fas fa-globe"/>Zigbee2MQTT](https://zigbee2mqtt.io/) is an open-source tool that lets you manage all of your [<FontIcon icon="fa-brands fa-wikipedia-w"/>Zigbee](https://en.wikipedia.org/wiki/Zigbee) devices locally, so you don’t need cloud services or multiple proprietary hubs. This gives you more control and flexibility, whether used on its own or integrated with platforms like [<FontIcon icon="fas fa-globe"/>Home Assistant](https://home-assistant.io/) or [<FontIcon icon="fas fa-globe"/>Node-RED](https://nodered.org/).
 
-In this guide, I’ll show you how to set it up using [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) for a streamlined, privacy-focused smart home. Docker provides an efficient way to run Zigbee2MQTT as a standalone service, offering a lightweight, modular setup – no Home Assistant required.
+In this guide, I’ll show you how to set it up using [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) for a streamlined, privacy-focused smart home. Docker provides an efficient way to run Zigbee2MQTT as a standalone service, offering a lightweight, modular setup - no Home Assistant required.
 
 ![Diagram showing the integration of Zigbee devices into a local network using Raspberry Pi](https://cdn.hashnode.com/res/hashnode/image/upload/v1731723376381/d983ba57-72ba-4e06-b994-c6b30ad36ca5.png)
 

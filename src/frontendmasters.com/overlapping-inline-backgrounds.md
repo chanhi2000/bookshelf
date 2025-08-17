@@ -150,7 +150,7 @@ Note that by default, the inputs of any primitives other than the very first one
 
 Also note that there’s a reason behind using the green channel to extract the text. This is because when using Chrome and a wide gamut display, we may hit[<FontIcon icon="fa-brands fa-chrome"/>a bug](https://issues.chromium.org/issues/373410239)which causes`feColorMatrix`to find for example red in what’s `0%` red, `100%` green and `0%` blue. And it’s not just that, but extracting the red channel out of`100%` red, `0%` green and`0%` blue doesn’t give us`100%` red, but a lower value.
 
-To get an idea of just how bad the problem is, check out the comparison screenshot below – everything should have all channels either maxed out or zeroed (like on the left), there should be no in betweens (like on the right).
+To get an idea of just how bad the problem is, check out the comparison screenshot below - everything should have all channels either maxed out or zeroed (like on the left), there should be no in betweens (like on the right).
 
 ![expected vs. wide gamut problem ([<FontIcon icon="fa-brands fa-codepen"/>live test](https://cdpn.io/pen/debug/KwKvRKr))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420838686-97a8bda8-f32c-4e6b-8ce7-4a2ff63feeb3.png?resize=1024%2C547&ssl=1)
 
@@ -377,7 +377,7 @@ Unfortunately, this is just how things are for SVG filters, even though CSS ones
 
 Amelia Bellamy-Royds[<FontIcon icon="fas fa-globe"/>suggested](https://mastodon.social/@AmeliaBR@front-end.social/114065645349479429)a`feComponentTransfer`[approach (<FontIcon icon="fa-brands fa-codepen"/>`AmeliaBR`)](https://codepen.io/AmeliaBR/pen/XJWjEmM?editors=1100)that allows setting the palette from the CSS and then using the SVG`filter`only to take care of the increase in alpha where there is overlap.
 
-What Amelia’s`filter`does is use`feComponentTransfer`to preserve the alpha of everything that’s fully transparent (the area outside the span) or fully opaque (the text), but map a bunch of alpha values in between to the desired background alpha`a`. This should also catch and map the background overlap alpha (which is$a+a-a\times{a}=2\times{a}-a\times{a}$– for more details, see this[<FontIcon icon="fas fa-globe"/>Adventures in CSS Semi-Transparency Land](https://css-tricks.com/adventures-in-css-semi-transparency-land/)article) to`a`.
+What Amelia’s`filter`does is use`feComponentTransfer`to preserve the alpha of everything that’s fully transparent (the area outside the span) or fully opaque (the text), but map a bunch of alpha values in between to the desired background alpha`a`. This should also catch and map the background overlap alpha (which is$a+a-a\times{a}=2\times{a}-a\times{a}$- for more details, see this[<FontIcon icon="fas fa-globe"/>Adventures in CSS Semi-Transparency Land](https://css-tricks.com/adventures-in-css-semi-transparency-land/)article) to`a`.
 
 This is a very smart solution and it seems to work really well for this particular background and text case as well as for similar cases. But there are still issues, points where it breaks.
 
@@ -385,9 +385,9 @@ First off, if we increase the alpha to something like`.75`, we start seeing an o
 
 ![overlap problem becoming visible when alpha is bumped up to`.75`](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420356221-86ba9f46-d026-4138-9975-04f6f8acddf8.png?resize=800%2C192&ssl=1)
 
-My first instinct was to do what Amelia also suggests doing in the comments to her version – increase the number of intervals as the alpha gets closer to the ends of the`[0, 1]`interval.
+My first instinct was to do what Amelia also suggests doing in the comments to her version - increase the number of intervals as the alpha gets closer to the ends of the`[0, 1]`interval.
 
-Since I’m using [<FontIcon icon="iconfont icon-pug"/>Pug](https://pugjs.org/api/getting-started.html) to generate the markup anyway, I figured this would be a good way to first measure how large the base intervals would need to be – and by that I mean the minimum between the distance between the ends of the`[0, 1]`interval and the desired alpha as well as the overlap alpha.
+Since I’m using [<FontIcon icon="iconfont icon-pug"/>Pug](https://pugjs.org/api/getting-started.html) to generate the markup anyway, I figured this would be a good way to first measure how large the base intervals would need to be - and by that I mean the minimum between the distance between the ends of the`[0, 1]`interval and the desired alpha as well as the overlap alpha.
 
 We’re excluding`2*a - a*a`and`1 - a`from the minimum computation since`a`is subunitary, so`a`is always bigger than`a*a`, which results in`a`being always smaller than`2*a - a*a = a*(2 - a)`, which also results in`1 + a*a - 2*a`being smaller than`1 - a`.
 
@@ -456,7 +456,7 @@ For example, if the desired alpha`a`is`.2`, then the overlap alpha is$0.2 +0.2-0
 0 .2 .4 .6 .8 1
 ```
 
-If before we mapped all those between`0`and`1`to the desired alpha`.2`, now we only map to the desired alpha`a`, those loosely matching the`[.2, .36]`interval – that is,`.2`and`.4`:
+If before we mapped all those between`0`and`1`to the desired alpha`.2`, now we only map to the desired alpha`a`, those loosely matching the`[.2, .36]`interval - that is,`.2`and`.4`:
 
 ```plaintext
 0 .2 .2 .6 .8 1
@@ -482,7 +482,7 @@ Probably ensuring the values outside the interval mapped to`a`are evenly distrib
 
 But you may have noticed there’s still a problem and this is not an SVG`filter`one, it comes from the CSS.
 
-To make it more obvious, let’s put result right next to what we got via the earlier method of seting the RGBA values from the SVG`filter`– can you see it?
+To make it more obvious, let’s put result right next to what we got via the earlier method of seting the RGBA values from the SVG`filter`- can you see it?
 
 <VidStack src="https://videos.files.wordpress.com/Pz5L7juY/comparison_mp4_hd.original.jpg?w=680" />
 
@@ -501,7 +501,7 @@ It’s pretty subtle here, but if you think it looks like this latest method is 
 
 This is because the blending fix for the background overlapping text problem results in the text`color`not being preserved. This was precisely why we switched from a blending-only solution to an SVG`filter`one in the case when the text isn’t black or white (or close enough and the particular choice of text and background preserves the text post-blending exactly as it was set).
 
-A lot of text and background combinations don’t make this very obvious because, in order to have[<FontIcon icon="fa-brands fa-firefox"/>a good contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast), we often need either the text or the background behind it to be very dark or very bright – which means there’s a chance all three RGB channels of the text are either below or above the corresponding RGB channels of the background, or even if one of the channels is deviating on the other side, it’s not deviating enough to make a noticeable difference. But sometimes we can still see there’s a problem, as illustrated by the interactive demo below, which allows changing the palette.
+A lot of text and background combinations don’t make this very obvious because, in order to have[<FontIcon icon="fa-brands fa-firefox"/>a good contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast), we often need either the text or the background behind it to be very dark or very bright - which means there’s a chance all three RGB channels of the text are either below or above the corresponding RGB channels of the background, or even if one of the channels is deviating on the other side, it’s not deviating enough to make a noticeable difference. But sometimes we can still see there’s a problem, as illustrated by the interactive demo below, which allows changing the palette.
 
 <CodePen
   user="thebabydino"
@@ -512,11 +512,11 @@ A lot of text and background combinations don’t make this very obvious because
 
 All of these palettes were chosen to have a good contrast ratio. Even so, there is some degree of text fading*for all of them*. And while it’s not easy to spot that for the first five, it’s way more noticeable for the second to last one and almost impossible to miss for the final one.
 
-Let’s take the second to last one, which uses a lighter blue than our initial palette, so it has a somewhat lower contrast making the problem more obvious. The higher the alpha gets, what should be golden text on a semitransparent deep blue background looks more pink-ish. This is due to the text being`rgb(100% 74.51% 4.31%)`and the background being`rgb(22.75% 21.18% 100%)`(we leave out the transparency for now and assume the alpha is`1`). Blending these using the`lighten`blend mode means taking the maximum value out of the two for each channel – that is,`100%`(`max(100%, 22.75%)`) for the red channel,`74.51%`(`max(74.51%, 21.18%)`) for the green one and`100%`(`max(4.31%, 100%)`) for the blue one. That means our text is`rgb(100% 74.51% 100%)`, a light pink, which is different from the`color`value of`rgb(100% 74.51% 4.31%)`(golden) we’ve set.
+Let’s take the second to last one, which uses a lighter blue than our initial palette, so it has a somewhat lower contrast making the problem more obvious. The higher the alpha gets, what should be golden text on a semitransparent deep blue background looks more pink-ish. This is due to the text being`rgb(100% 74.51% 4.31%)`and the background being`rgb(22.75% 21.18% 100%)`(we leave out the transparency for now and assume the alpha is`1`). Blending these using the`lighten`blend mode means taking the maximum value out of the two for each channel - that is,`100%`(`max(100%, 22.75%)`) for the red channel,`74.51%`(`max(74.51%, 21.18%)`) for the green one and`100%`(`max(4.31%, 100%)`) for the blue one. That means our text is`rgb(100% 74.51% 100%)`, a light pink, which is different from the`color`value of`rgb(100% 74.51% 4.31%)`(golden) we’ve set.
 
 <VidStack src="https://videos.files.wordpress.com/kNkKLwer/varying-alpha_mp4_hd.original.jpg?w=680" />
 
-The final text and background combination makes the problem even more clear. The higher the alpha gets, what should be lime text on a semitransparent blue background looks more like aqua text. This is due to the text being`rgb(0% 100% 0%)`and the background being`rgb(0% 0% 100%)`(again, we leave out the transparency for now and assume the alpha is`1`). Blending these using the`lighten`blend mode means taking the maximum value out of the two for each channel – that is,`0%`(`max(0%, 0%)`) for the red channel,`100%`(`max(100%, 0%)`) for the green one and`100%`(`max(0%, 100%)`) for the blue one. That means our text is`rgb(0% 100% 100%)`, so aqua, which is different from the`color`value of`rgb(0% 100% 0%)`(lime) we’ve set.
+The final text and background combination makes the problem even more clear. The higher the alpha gets, what should be lime text on a semitransparent blue background looks more like aqua text. This is due to the text being`rgb(0% 100% 0%)`and the background being`rgb(0% 0% 100%)`(again, we leave out the transparency for now and assume the alpha is`1`). Blending these using the`lighten`blend mode means taking the maximum value out of the two for each channel - that is,`0%`(`max(0%, 0%)`) for the red channel,`100%`(`max(100%, 0%)`) for the green one and`100%`(`max(0%, 100%)`) for the blue one. That means our text is`rgb(0% 100% 100%)`, so aqua, which is different from the`color`value of`rgb(0% 100% 0%)`(lime) we’ve set.
 
 <VidStack src="https://videos.files.wordpress.com/6vWnDPhz/final-palette_mp4_hd.original.jpg?w=680" />
 
@@ -528,7 +528,7 @@ So now we’re not going through all of my failed experiments, of which there we
 
 The shape of the span background and that of the text get passed to the SVG filter using the`1`alpha point. That means we have white text on black background, all opaque, so we can extract it in the SVG by mapping all alpha points except`1`to`0`.
 
-We pass the text and background RGB values using the`.75`and`.25`alpha points – this allows us to extract them in the SVG`filter`by mapping their corresponding alpha points to`1`, while all other alpha points are`0`.
+We pass the text and background RGB values using the`.75`and`.25`alpha points - this allows us to extract them in the SVG`filter`by mapping their corresponding alpha points to`1`, while all other alpha points are`0`.
 
 Finally, we pass the alpha value to the SVG via the green channel, using the`.5`alpha point. By mapping the`.5`alpha point to`1`, while all other alpha points get mapped to`0`, we can extract in the SVG`filter`the desired background alpha value via the green channel value.
 
@@ -719,11 +719,11 @@ Now you can probably guess what follows: we`dilate`this green frame to cover the
 </svg>
 ```
 
-We don’t save the`result`of this primitive this time, but we’ll get to that in a moment. This is what we have now – not too exciting yet, though things are about to change.
+We don’t save the`result`of this primitive this time, but we’ll get to that in a moment. This is what we have now - not too exciting yet, though things are about to change.
 
 ![middle frame dilated to fill entire filter area](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/421563823-bef2a12e-63c3-48ae-8c03-ab698869dae1-1.png?resize=800%2C512&ssl=1)
 
-Next, we use`feColorMatrix`to give this layer covering the entire`filter`area an alpha equal to that of its green channel. This is why we don’t save the result of the second`feMorphology`– because we only feed it into the input of the very next primitive,`feColorMatrix`and then we don’t need it anywhere after that. We don’t care about the RGB values of the`result`, only about the alpha, so we just zero them all.
+Next, we use`feColorMatrix`to give this layer covering the entire`filter`area an alpha equal to that of its green channel. This is why we don’t save the result of the second`feMorphology`- because we only feed it into the input of the very next primitive,`feColorMatrix`and then we don’t need it anywhere after that. We don’t care about the RGB values of the`result`, only about the alpha, so we just zero them all.
 
 ```xml{20-25} :collapsed-lines
 <svg width="0" height="0" aria-hidden="true">

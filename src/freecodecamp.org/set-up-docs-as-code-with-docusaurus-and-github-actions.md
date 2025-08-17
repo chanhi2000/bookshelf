@@ -264,7 +264,7 @@ BasedOnStyles = Vale, Microsoft
 
 Let’s understand what’s going on here:
 
-- The `StylesPath` is set to the styles folder where you added the Microsoft style guide you downloaded. The MinAlertLevel sets Vale alerts to `suggestion` – this means that Vale will highlight suggestions, warnings, and errors found in your docs. If the MinAlertLevel is set to errors, then Vale will highlight errors only. If set to warnings, then it’ll highlight warnings and errors (and so on).
+- The `StylesPath` is set to the styles folder where you added the Microsoft style guide you downloaded. The MinAlertLevel sets Vale alerts to `suggestion` - this means that Vale will highlight suggestions, warnings, and errors found in your docs. If the MinAlertLevel is set to errors, then Vale will highlight errors only. If set to warnings, then it’ll highlight warnings and errors (and so on).
 - `[*.md]` tells Vale to go through `.md` files only.
 - `BasedOnStyles` indicates which style guide you are using for the linting. In this case, it’s the Microsoft style guide and Vale style guide. So when the linter is running, it will highlight suggestions, warnings, and errors using the specified style guides.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
-description: "Article(s) > A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
+title: "A Beginner's Guide to LLMs - What's a Large-Language Model and How Does it Work?"
+description: "Article(s) > A Beginner's Guide to LLMs - What's a Large-Language Model and How Does it Work?"
 icon: fas fa-language
 category: 
   - AI
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
+      content: "Article(s) > A Beginner's Guide to LLMs - What's a Large-Language Model and How Does it Work?"
     - property: og:description
-      content: "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
+      content: "A Beginner's Guide to LLMs - What's a Large-Language Model and How Does it Work?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-large-language-models.html
 prev: /ai/llm/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723750839199/0dc3a4f
 ---
 
 <SiteInfo
-  name="A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?"
+  name="A Beginner's Guide to LLMs - What's a Large-Language Model and How Does it Work?"
   desc="ChatGPT was released in November 2022. Since then, we’ve witnessed rapid advancements in the field of AI and technology. But did you know that the journey of AI chatbots began way back in 1966 with ELIZA? ELIZA was not as sophisticated as today’s mod..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-large-language-models/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,7 +67,7 @@ In this article, you'll learn what LLMs are and what is the hype all about.
 
 Large Language Models are AI models trained on vast amounts of text data to understand, generate, and manipulate human language. They are based on deep learning architectures like transformers, which allow them to process and predict text in a way that mimics human understanding.
 
-In simpler terms, an LLM is a computer program that has been trained on many examples to differentiate between an apple and a Boeing 787 – and to be able to describe each of them.
+In simpler terms, an LLM is a computer program that has been trained on many examples to differentiate between an apple and a Boeing 787 - and to be able to describe each of them.
 
 Before they're ready for use and can answer your questions, LLMs are trained on massive datasets. Realistically, a program cannot conclude anything from a single sentence. But after analyzing, say, trillions of sentences, it's able to build a logic to complete sentences or even generate its own.
 

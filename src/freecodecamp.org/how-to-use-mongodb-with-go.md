@@ -109,7 +109,7 @@ With the basic setup complete, let’s now examine basic operations in MongoDB.
 
 In MongoDB, databases and [<FontIcon icon="iconfont icon-mongodb"/>collections](https://mongodb.com/docs/manual/reference/glossary/#std-term-collection) are created automatically upon the first data insertion, adopting a "lazy creation" approach. Specifically, a database is created when you insert your first document, and a collection is likewise created when data is first inserted into it.
 
-It's important to note that functions like `client.Database()` and `db.Collection()` only generate references to these structures – they don’t create the actual database or collection until data is inserted.
+It's important to note that functions like `client.Database()` and `db.Collection()` only generate references to these structures - they don’t create the actual database or collection until data is inserted.
 
 ### Insert data into the collection
 

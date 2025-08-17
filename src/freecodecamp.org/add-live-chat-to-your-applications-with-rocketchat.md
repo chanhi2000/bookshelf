@@ -81,7 +81,7 @@ Before you continue, there are a few things you should know and have:
 
 ## Getting Started
 
-First things first, let's set up a Rocket.Chat server. Again, you can either self host your own or use their cloud version. And don't worry – you don't have to pay anything right now or for this tutorial, as they provide a 30 day free trial.
+First things first, let's set up a Rocket.Chat server. Again, you can either self host your own or use their cloud version. And don't worry - you don't have to pay anything right now or for this tutorial, as they provide a 30 day free trial.
 
 ### Step 1: Set Up the Rocket.Chat Server
 

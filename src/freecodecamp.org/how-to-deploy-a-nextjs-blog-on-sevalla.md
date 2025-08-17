@@ -99,7 +99,7 @@ In a nutshell, Sevalla handles all the heavy lifting of deploying and scaling yo
 
 ## Building and Deploying a Next.js Blog
 
-Now let’s build and deploy our Next.js blog. We don't have to build one from scratch – there are many templates available for us to use, [like this one (<FontIcon icon="iconfont icon-github"/>`sevalla-templates/nextjs-blog`)](https://github.com/sevalla-templates/nextjs-blog).
+Now let’s build and deploy our Next.js blog. We don't have to build one from scratch - there are many templates available for us to use, [like this one (<FontIcon icon="iconfont icon-github"/>`sevalla-templates/nextjs-blog`)](https://github.com/sevalla-templates/nextjs-blog).
 
 We will do three things.
 
@@ -140,7 +140,7 @@ date: 2025-07-07
 Welcome to my first blog post using Next.js and MDX!
 ```
 
-Reload the home page, and you should now see two posts – the default post and your new post.
+Reload the home page, and you should now see two posts - the default post and your new post.
 
 ![New post in Next.js blog](https://cdn.hashnode.com/res/hashnode/image/upload/v1751871689247/e3ec1407-33d7-4c9c-9032-3e2e36b189a7.webp)
 

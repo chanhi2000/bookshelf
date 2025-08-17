@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How the Black-Scholes Equation Works – Explained with Python Code Examples"
-description: "Article(s) > How the Black-Scholes Equation Works – Explained with Python Code Examples"
+title: "How the Black-Scholes Equation Works - Explained with Python Code Examples"
+description: "Article(s) > How the Black-Scholes Equation Works - Explained with Python Code Examples"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How the Black-Scholes Equation Works – Explained with Python Code Examples"
+      content: "Article(s) > How the Black-Scholes Equation Works - Explained with Python Code Examples"
     - property: og:description
-      content: "How the Black-Scholes Equation Works – Explained with Python Code Examples"
+      content: "How the Black-Scholes Equation Works - Explained with Python Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-the-black-scholes-equation-works-python-examples.html
 prev: /programming/py/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/5.png
 ---
 
 <SiteInfo
-  name="How the Black-Scholes Equation Works – Explained with Python Code Examples"
+  name="How the Black-Scholes Equation Works - Explained with Python Code Examples"
   desc="The Black-Scholes Equation is probably one of the most influential equations that nobody has heard about...."
   url="https://freecodecamp.org/news/how-the-black-scholes-equation-works-python-examples/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

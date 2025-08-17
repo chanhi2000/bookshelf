@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity"
-description: "Article(s) > LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity"
+title: "LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
+description: "Article(s) > LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
 icon: fas fa-user-tie
 category:
   - Career
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity"
+      content: "Article(s) > LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
     - property: og:description
-      content: "LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity"
+      content: "LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linkedin-profile-optimization.html
 prev: /projects/career/articles/README.md
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png
 ---
 
 <SiteInfo
-  name="LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity"
+  name="LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
   desc="As a web developer, an optimized LinkedIn profile can bring numerous opportunities directly to you. After implementing invaluable optimization advice from industry experts who reviewed my profile, I now receive a steady flow of enticing prospects in ..."
   url="https://freecodecamp.org/news/linkedin-profile-optimization"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -514,7 +514,7 @@ Let's connect! I'm active on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "LinkedIn Profile Optimization – A Web Developer's Guide to Attract Opportunity",
+  "title": "LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity",
   "desc": "As a web developer, an optimized LinkedIn profile can bring numerous opportunities directly to you. After implementing invaluable optimization advice from industry experts who reviewed my profile, I now receive a steady flow of enticing prospects in ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/linkedin-profile-optimization.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

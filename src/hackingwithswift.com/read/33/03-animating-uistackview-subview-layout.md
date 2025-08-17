@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -54,7 +54,7 @@ isOriginal: false
 
 Before we get onto the CloudKit part of this tutorial, we're going to add a bit more to our user interface. Specifically, we're going to add a "Tap to Play" button into the stack view, and have it animate so that it slides out when recording has finished. This is the work of only a few minutes thanks to `UIStackView`, and I'm sure you'll agree the results look marvelous.
 
-While we're finishing up the user interface, we're going to quickly add a couple more simple view controllers to let the user attach some metadata to their whistle: they'll be able to select what genre it is, then enter some free text with any comments – something like "I definitely remember hearing it in the early 90s" to help listeners narrow the scope a little.
+While we're finishing up the user interface, we're going to quickly add a couple more simple view controllers to let the user attach some metadata to their whistle: they'll be able to select what genre it is, then enter some free text with any comments - something like "I definitely remember hearing it in the early 90s" to help listeners narrow the scope a little.
 
 First, the play button. Add this new property:
 
@@ -136,7 +136,7 @@ Add a new file to your project, choosing Cocoa Touch Class. Make it a subclass o
 static var genres = ["Unknown", "Blues", "Classical", "Electronic", "Jazz", "Metal", "Pop", "Reggae", "RnB", "Rock", "Soul"]
 ```
 
-This is marked as static so that we can use it in lots of other places – it's a shared list of all the music categories we want to work with. I added "Unknown" in there for people like me who struggle to tell the difference between some music types!
+This is marked as static so that we can use it in lots of other places - it's a shared list of all the music categories we want to work with. I added "Unknown" in there for people like me who struggle to tell the difference between some music types!
 
 In this class's `viewDidLoad()` method we're going to give it a title, configure the back button to take up less space, then register a cell for re-use. All old stuff:
 
@@ -156,7 +156,7 @@ For handling the content of the table view, it's all code you've seen in previou
 2. When reading the text of the cell that was tapped, we're going to use the nil coalescing operator. [The nil coalescing operator was covered in project 12](/hackingwithswift.com/read/12/02-reading-and-writing-basics-userdefaults.md), and in this situation it guarantees we have a genre.
 3. When the user has selected a genre, we're going to create an instance of the class `AddCommentsViewController`, store that genre there, then push it onto our navigation stack.
 
-That's it – here are the methods for handling the table view data source and delegate:
+That's it - here are the methods for handling the table view data source and delegate:
 
 ```swift
 override func numberOfSections(in tableView: UITableView) -> Int {
@@ -184,7 +184,7 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 }
 ```
 
-That completes the class – I've deliberately kept it simple because this tutorial is about CloudKit rather than tables! You can now return to <FontIcon icon="fa-brands fa-swift"/>`RecordWhistleViewController.swift` and fill in the `nextTapped()` method like this:
+That completes the class - I've deliberately kept it simple because this tutorial is about CloudKit rather than tables! You can now return to <FontIcon icon="fa-brands fa-swift"/>`RecordWhistleViewController.swift` and fill in the `nextTapped()` method like this:
 
 ```swift
 @objc func nextTapped() {

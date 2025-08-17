@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Vue Composables Work – Explained with Code Examples"
-description: "Article(s) > How Vue Composables Work – Explained with Code Examples"
+title: "How Vue Composables Work - Explained with Code Examples"
+description: "Article(s) > How Vue Composables Work - Explained with Code Examples"
 icon: fa-brands fa-vuejs
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Vue Composables Work – Explained with Code Examples"
+      content: "Article(s) > How Vue Composables Work - Explained with Code Examples"
     - property: og:description
-      content: "How Vue Composables Work – Explained with Code Examples"
+      content: "How Vue Composables Work - Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-vue-composables-work.html
 prev: /programming/js/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749830866913/e732db4
 ---
 
 <SiteInfo
-  name="How Vue Composables Work – Explained with Code Examples"
+  name="How Vue Composables Work - Explained with Code Examples"
   desc="Vue composables are a very helpful tool when developing Vue applications. They give developers an easy way to reuse logic across our applications. In addition to allowing for “stateless” logic (things like formatting or routine calculations), composa..."
   url="https://freecodecamp.org/news/how-vue-composables-work"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -70,7 +70,7 @@ In modern web applications, there are often pieces of logic that require managin
 
 For example, in an e-commerce application, you might have logic to increase and decrease the quantity of a product a person is adding to their cart. This logic could be used both on the product page, and inside the cart itself.
 
-The look and feel of both those places will be different, so re-using a full component wouldn’t make sense – but we still want to centralize the logic to make the code easier to maintain. That is where Composables come in.
+The look and feel of both those places will be different, so re-using a full component wouldn’t make sense - but we still want to centralize the logic to make the code easier to maintain. That is where Composables come in.
 
 (It is worth noting that not everything needs to be a composable. Logic that is only used in a single component shouldn’t be refactored into a composable until necessary.)
 
@@ -411,7 +411,7 @@ For more real world examples you can check out the [<FontIcon icon="iconfont ico
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Vue Composables Work – Explained with Code Examples",
+  "title": "How Vue Composables Work - Explained with Code Examples",
   "desc": "Vue composables are a very helpful tool when developing Vue applications. They give developers an easy way to reuse logic across our applications. In addition to allowing for “stateless” logic (things like formatting or routine calculations), composa...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-vue-composables-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

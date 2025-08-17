@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift has a helpful `stride()`, which lets you move from one value to another using any increment – and even lets you specify whether the upper bound is exclusive or inclusive.
+Swift has a helpful `stride()`, which lets you move from one value to another using any increment - and even lets you specify whether the upper bound is exclusive or inclusive.
 
 First, some examples. This first example counts from 0 to 10 in 2s:
 

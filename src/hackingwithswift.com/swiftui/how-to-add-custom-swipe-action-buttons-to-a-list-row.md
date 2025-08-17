@@ -82,7 +82,7 @@ List {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-custom-swipe-action-buttons-to-a-list-row-1~dark.mp4" />
 
-Notice how the buttons are tinted to make them stand out – without that each button will just appear gray.
+Notice how the buttons are tinted to make them stand out - without that each button will just appear gray.
 
 ::: tip
 

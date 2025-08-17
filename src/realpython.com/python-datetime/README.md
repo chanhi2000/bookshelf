@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Exampl
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: 
 
 <SiteInfo
-  name="Using Python's datetime Module – Real Python"
+  name="Using Python's datetime Module - Real Python"
   desc="Have you ever wondered about working with dates and times in Python? In this video course, you'll learn all about the built-in Python datetime library. You'll also learn about how to manage time zones and daylight saving time, and how to do accurate arithmetic on dates and times."
   url="https://realpython.com/courses/python-datetime-module"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -181,7 +181,7 @@ In the end, you created a script that counts down the time remaining until the n
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Using Python's datetime Module – Real Python"
+  name="Using Python's datetime Module - Real Python"
   desc="Have you ever wondered about working with dates and times in Python? In this video course, you'll learn all about the built-in Python datetime library. You'll also learn about how to manage time zones and daylight saving time, and how to do accurate arithmetic on dates and times."
   url="https://realpython.com/courses/python-datetime-module"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

@@ -43,7 +43,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-12.jpg
 ---
 
 <SiteInfo
-  name="What's new in Swift 6.0? – Hacking with Swift"
+  name="What's new in Swift 6.0? - Hacking with Swift"
   desc="When fully enabled, Swift 6 is likely to require changes in pretty much every project."
   url="https://hackingwithswift.com/articles/242/whats-new-in-swift-6"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -51,7 +51,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-12.jpg
 
 ---
 
-2024 is Swift's 10th anniversary, and for the last five of those years we've had no major-version Swift updates – literally half of Swift's life has been 5.0 through to 5.10.
+2024 is Swift's 10th anniversary, and for the last five of those years we've had no major-version Swift updates - literally half of Swift's life has been 5.0 through to 5.10.
 
 This is more common than you might think. In fact, several major programming languages have some kind of release that takes significantly longer than all others: Python 3 took years to arrive, PHP 6 took so long the team bailed out and jumped straight to PHP 7, and Perl 6 dragged on so much that it ended up evolving into a different language called Raku.
 
@@ -71,15 +71,15 @@ You can also [<FontIcon icon="fas fa-download"/>download this as an Xcode playgr
 
 Swift 6 contains another barrage of updates around concurrency, and the team ought to be proud of the extraordinary advances they have made to make this release possible.
 
-By far the biggest change is that complete concurrency checking is enabled by default. Unless you're very fortunate indeed, there's a very good chance your code will need some adjustment – it's no surprise the Swift team made it optional in earlier versions to give folks time to evaluate what's changing.
+By far the biggest change is that complete concurrency checking is enabled by default. Unless you're very fortunate indeed, there's a very good chance your code will need some adjustment - it's no surprise the Swift team made it optional in earlier versions to give folks time to evaluate what's changing.
 
-Swift 6 improves concurrency checking further, and the Swift team say it "removes many false-positive data-race warnings" that were present in 5.10. It also introduces several targeted changes that will do wonders to make concurrency easier to adopt – if you tried with 5.10 and found things just too gnarly to figure out, hopefully some of the changes in Swift 6 will help.
+Swift 6 improves concurrency checking further, and the Swift team say it "removes many false-positive data-race warnings" that were present in 5.10. It also introduces several targeted changes that will do wonders to make concurrency easier to adopt - if you tried with 5.10 and found things just too gnarly to figure out, hopefully some of the changes in Swift 6 will help.
 
 Easily the biggest is [<FontIcon icon="fa-brands fa-swift"/>SE-0414 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0414-region-based-isolation.md), defines isolation regions that allow the compiler to conclusively prove different parts of your code can run concurrently.
 
 At the core of this change lies the existing concept of *sendability*. A `Sendable` type is one that can be safely passed around in a concurrent environment, which can include value types such as structs, final classes with constant properties, actors that automatically protect their own mutable state, and more. 
 
-Before Swift 6 the compiler was very strict: if you had a non-sendable value on one actor and tried to send it to another actor, you'd get concurrency checking warnings. For example, although SwiftUI view bodies run on the main actor, SwiftUI views themselves *don't*, which can easily cause all sorts of false positive warnings from the compiler – Swift thinks there's a potential race condition when really there isn't.
+Before Swift 6 the compiler was very strict: if you had a non-sendable value on one actor and tried to send it to another actor, you'd get concurrency checking warnings. For example, although SwiftUI view bodies run on the main actor, SwiftUI views themselves *don't*, which can easily cause all sorts of false positive warnings from the compiler - Swift thinks there's a potential race condition when really there isn't.
 
 You can see the problem with the following code:
 
@@ -105,9 +105,9 @@ struct ContentView: View {
 
 Before Swift 6 the call to `loadData()` would throw up a warning: "passing argument of non-sendable type 'User' outside of main actor-isolated context may introduce data races."
 
-*After* Swift 6 this warning goes away: Swift now detects that the code doesn't actually present a problem because `user` isn't being accessed from two or more places at once, so it won't emit a warning – the compiler is able to analyze the program's flow and detect that it's safe.
+*After* Swift 6 this warning goes away: Swift now detects that the code doesn't actually present a problem because `user` isn't being accessed from two or more places at once, so it won't emit a warning - the compiler is able to analyze the program's flow and detect that it's safe.
 
-This change effectively means sendable objects are now either those that conform to `Sendable`, or those that don't need to conform to `Sendable` because the compiler can prove they are being used safely – it's a dramatic simplification of concurrency for developers, made possible by truly cutting-edge compiler development.
+This change effectively means sendable objects are now either those that conform to `Sendable`, or those that don't need to conform to `Sendable` because the compiler can prove they are being used safely - it's a dramatic simplification of concurrency for developers, made possible by truly cutting-edge compiler development.
 
 But there are many other, smaller improvements, including:
 
@@ -117,7 +117,7 @@ But there are many other, smaller improvements, including:
 
 Some other changes were present in earlier versions of Swift, but hidden behind feature flags. For example, [<FontIcon icon="fa-brands fa-swift"/>SE-0401 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0401-remove-property-wrapper-isolation.md) removes a feature that was introduced back in Swift 5.5: actor inference for property wrappers.
 
-Previously, any struct or class using a property wrapper with `@MainActor` for its wrapped value will automatically be `@MainActor`. This is what makes `@StateObject` and `@ObservedObject` convey main-actor-ness on SwiftUI views that use them – if you use either of those two property wrappers in a SwiftUI view, the whole view becomes `@MainActor` too.
+Previously, any struct or class using a property wrapper with `@MainActor` for its wrapped value will automatically be `@MainActor`. This is what makes `@StateObject` and `@ObservedObject` convey main-actor-ness on SwiftUI views that use them - if you use either of those two property wrappers in a SwiftUI view, the whole view becomes `@MainActor` too.
 
 As an example, consider the view model below, marked with `@MainActor` as is good practice:
 
@@ -206,9 +206,9 @@ class DataController {
 
 Because both `DataController` and `Logger` have been restricted to the main actor, Swift now considers the `Logger()` creation to also be restricted to the main actor, which makes perfect sense.
 
-Swift concurrency remains a bit of a moving target, but if you'd like to know more I highly recommend [<FontIcon icon="fas fa-globe"/>Matt Massicotte's blog](https://massicotte.org) – I don't think anyone is doing more to educate Swift developers about effective adoption of Swift concurrency.
+Swift concurrency remains a bit of a moving target, but if you'd like to know more I highly recommend [<FontIcon icon="fas fa-globe"/>Matt Massicotte's blog](https://massicotte.org) - I don't think anyone is doing more to educate Swift developers about effective adoption of Swift concurrency.
 
-And remember: if Swift 6 throws up concurrency warnings and errors about your code, those problems were there beforehand too – they just weren't being diagnosed automatically!
+And remember: if Swift 6 throws up concurrency warnings and errors about your code, those problems were there beforehand too - they just weren't being diagnosed automatically!
 
 ---
 
@@ -285,7 +285,7 @@ do {
 }
 ```
 
-That call site is the important change here: in earlier versions of Swift we'd need a so-called "Pokémon catch" at the end, because Swift couldn't be sure exactly which error types could be thrown – you've "gotta catch 'em all."
+That call site is the important change here: in earlier versions of Swift we'd need a so-called "Pokémon catch" at the end, because Swift couldn't be sure exactly which error types could be thrown - you've "gotta catch 'em all."
 
 This comes with several other advantages:
 
@@ -309,7 +309,7 @@ Even though typed throws seem very appealing, they aren't a great choice when th
 
 In fact, here I'll just defer to the authors of the evolution proposal, who sum it up like this: **even with the addition of typed throws to Swift, untyped throws is better for most scenarios.**
 
-Where typed throws *are* particularly useful is in the increasingly important realm of embedded Swift, where performance and predictability is critical. Apple's recent interest in typed throws would rather suggest that embedded Swift is something they are keen to invest in as a priority – perhaps the idea of having kernel-level Swift isn't so far away.
+Where typed throws *are* particularly useful is in the increasingly important realm of embedded Swift, where performance and predictability is critical. Apple's recent interest in typed throws would rather suggest that embedded Swift is something they are keen to invest in as a priority - perhaps the idea of having kernel-level Swift isn't so far away.
 
 ---
 
@@ -328,7 +328,7 @@ func == <each Element: Equatable>(lhs: (repeat each Element), rhs: (repeat each 
 }
 ```
 
-If that means nothing to you, the Simple English version is that [<FontIcon icon="fa-brands fa-swift"/>SE-0015 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0015-tuple-comparison-operators.md) added support for direct tuple comparison up to arity 6, meaning that two tuples with up to six items could be compared using `==`. If you tried comparing tuples with seven items – e.g. `(1, 2, 3, 4, 5, 6, 7) == (1, 2, 3, 4, 5, 6, 7)` – Swift would throw up an error. SE-0408, along with the code above, removes that restriction.
+If that means nothing to you, the Simple English version is that [<FontIcon icon="fa-brands fa-swift"/>SE-0015 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0015-tuple-comparison-operators.md) added support for direct tuple comparison up to arity 6, meaning that two tuples with up to six items could be compared using `==`. If you tried comparing tuples with seven items - e.g. `(1, 2, 3, 4, 5, 6, 7) == (1, 2, 3, 4, 5, 6, 7)` - Swift would throw up an error. SE-0408, along with the code above, removes that restriction.
 
 Tantalizingly, the Future Directions section](https://github.com/apple/swift-evolution/blob/main/proposals/0408-pack-iteration.md#future-directions) of this evolution proposal suggest that in the future we might see a variant of Swift's `zip()` function that supports any number of sequences.
 
@@ -410,13 +410,13 @@ public func sendMoney(from: Int, to: Int) -> BankTransaction {
 
 And now in the main app we can call `sendMoney()` to do the work.
 
-That's all regular Swift code, but it can create a rather unpleasant problem: very often wrapper libraries don't want to reveal the inner workings of the libraries they rely on internally, which is exactly what happens here – our main app is given access to the `BankTransaction` struct from the Transactions library, when really it should only use APIs from the Banking library.
+That's all regular Swift code, but it can create a rather unpleasant problem: very often wrapper libraries don't want to reveal the inner workings of the libraries they rely on internally, which is exactly what happens here - our main app is given access to the `BankTransaction` struct from the Transactions library, when really it should only use APIs from the Banking library.
 
 From 6.0 onwards we can solve this problem by using access control on the import for Transactions: by using `internal import Transactions` or similar in the Banking library, Swift will refuse to build any code declared as public that exposes API from the Transactions library.
 
-This really helps to clear up code boundaries: the Banking framework can still go ahead and use all the libraries it wants internally, but it won't be allowed to send those back to clients – the app in this case – by accident. If we genuinely did want to expose the internal framework types, we would use `public import Transactions` to make that explicit.
+This really helps to clear up code boundaries: the Banking framework can still go ahead and use all the libraries it wants internally, but it won't be allowed to send those back to clients - the app in this case - by accident. If we genuinely did want to expose the internal framework types, we would use `public import Transactions` to make that explicit.
 
-On a more fine-grained level, this also allows files inside the same module to add extra restrictions – one file could privately import a framework without wanting to accidentally expose the contents of that framework elsewhere.
+On a more fine-grained level, this also allows files inside the same module to add extra restrictions - one file could privately import a framework without wanting to accidentally expose the contents of that framework elsewhere.
 
 Although Swift 6 hasn't shipped yet, it's looking like the default for imports will be `internal` when running in Swift 6 mode, but `public` in Swift 5 mode to retain compatibility with existing code.
 
@@ -428,7 +428,7 @@ Noncopyable types were [introduced in Swift 5.9](/hackingwithswift.com/swift/5.9
 
 As a reminder, noncopyable types allow us create types that have unique ownership, which we can pass around using borrowing or consuming as needed.
 
-One example of noncopyable types I previously used were the secret messages used in the Mission Impossible movies – they famously self-destruct after being read, which we can model with a noncopyable type that is consumed (i.e. destroyed) upon reading:
+One example of noncopyable types I previously used were the secret messages used in the Mission Impossible movies - they famously self-destruct after being read, which we can model with a noncopyable type that is consumed (i.e. destroyed) upon reading:
 
 ```swift
 struct Message: ~Copyable {
@@ -489,7 +489,7 @@ enum ImpossibleOrder: ~Copyable {
 }
 ```
 
-Because that enum has associated values that are noncopyable, it must itself be noncopyable. However, the associated values being noncopyable also means that pattern matching with `where` was tricky – if you wanted to perform one set of actions for one `Message` type, and a different set for another `Message` type, you were out of luck.
+Because that enum has associated values that are noncopyable, it must itself be noncopyable. However, the associated values being noncopyable also means that pattern matching with `where` was tricky - if you wanted to perform one set of actions for one `Message` type, and a different set for another `Message` type, you were out of luck.
 
 With [<FontIcon icon="fa-brands fa-swift"/>SE-0432 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0432-noncopyable-switch.md) this is now resolved, meaning code like the below is now allowed:
 
@@ -516,7 +516,7 @@ Put together, this collection of changes helps make noncopyable types work much 
 
 ## 128-bit Integer Types
 
-.[<FontIcon icon="fa-brands fa-swift"/>SE-0425 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0425-int128.md) introduces `Int128` and `UInt128`. I literally have nothing more to say about these, because I think you already know exactly how they work – even the evolution proposal says, "the actual API of the types is uninteresting."
+.[<FontIcon icon="fa-brands fa-swift"/>SE-0425 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0425-int128.md) introduces `Int128` and `UInt128`. I literally have nothing more to say about these, because I think you already know exactly how they work - even the evolution proposal says, "the actual API of the types is uninteresting."
 
 Still, I'd feel guilty if I didn't at least give you a code sample, so here goes:
 
@@ -532,7 +532,7 @@ let enoughForAnybody: Int128 = 170_141_183_460_469_231_731_687_303_715_884_105_7
 
 *Most of the time you don't need to do anything to enable `BitwiseCopyable` support*. Swift will automatically apply it to most structs and enums you create as long as all the properties they contain are also bitwise copyable. That includes a huge collection of built-in types: all integers, all floating-point numbers, `Bool`, `Duration`, `StaticString`, and more.
 
-Where things take a little more thinking is when you're building a library – if Swift were to automatically apply a conformance to `BitwiseCopyable` it could cause problems if your type changed in the future in a way that made it *not* support the protocol.
+Where things take a little more thinking is when you're building a library - if Swift were to automatically apply a conformance to `BitwiseCopyable` it could cause problems if your type changed in the future in a way that made it *not* support the protocol.
 
 So, Swift disables the automatic inference for types you export with `public` or `package` visibility unless you explicitly mark those types with `@frozen`.
 
@@ -560,15 +560,15 @@ Until Swift 6 ships as final later in the year it's hard to tell exactly what mi
 - [<FontIcon icon="fa-brands fa-swift"/>SE-0415 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`): Function body macros](https://github.com/apple/swift-evolution/blob/main/proposals/0415-function-body-macros.md)
 - [<FontIcon icon="fa-brands fa-swift"/>SE-0419 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`): Swift Backtrace API](https://github.com/apple/swift-evolution/blob/main/proposals/0419-backtrace-api.md)
 
-The retroactive conformances change is particularly interesting, mostly because Apple does a less than optimal job of making some of its most common framework types conform to common protocols like `Equatable` and `Codable` – I really hope that changes before SE-0364 kicks in.
+The retroactive conformances change is particularly interesting, mostly because Apple does a less than optimal job of making some of its most common framework types conform to common protocols like `Equatable` and `Codable` - I really hope that changes before SE-0364 kicks in.
 
 ---
 
 ## Where next?
 
-Swift 6 feels like it has been on the horizon for some years now – I can certainly remember thinking about it pretty much ever since early concurrency discussions, when we started looking towards the compiler refusing to build code that wasn't provably concurrency-safe.
+Swift 6 feels like it has been on the horizon for some years now - I can certainly remember thinking about it pretty much ever since early concurrency discussions, when we started looking towards the compiler refusing to build code that wasn't provably concurrency-safe.
 
-Over time, Swift 6 became something of a dumping ground for code-breaking features – some evolution proposals landed in earlier versions of Swift, and were either disabled fully or in part without enabling specific compiler flags. Some or all of these will now enabled when Swift 6 language mode is enabled:
+Over time, Swift 6 became something of a dumping ground for code-breaking features - some evolution proposals landed in earlier versions of Swift, and were either disabled fully or in part without enabling specific compiler flags. Some or all of these will now enabled when Swift 6 language mode is enabled:
 
 - [<FontIcon icon="fa-brands fa-swift"/>Bare slash regexes](https://github.com/apple/swift-evolution/blob/main/proposals/0354-regex-literals.md)
 - [<FontIcon icon="fa-brands fa-swift"/>Access control for imports](https://github.com/apple/swift-evolution/blob/main/proposals/0409-access-level-on-imports.md)
@@ -582,7 +582,7 @@ Now that Swift 6 is finally here, there's undoubtedly going to be a fair amount 
 
 There will also be just as much churn in documentation: many tutorials, books, and conference videos will be outdated when projects start moving to Swift 6 across the board, unless Apple really does some magic with their framework updates alongside Swift 6.
 
-One thing that will help – which I think will also land in Swift 6, but it's hard to tell – is [<FontIcon icon="fa-brands fa-swift"/>SE-0435 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0435-swiftpm-per-target-swift-language-version-setting.md), which allows developers to control the Swift language setting on individual targets in their project. If this comes with Swift 6, it will certainly make it easier to move across to Swift 6 incrementally.
+One thing that will help - which I think will also land in Swift 6, but it's hard to tell - is [<FontIcon icon="fa-brands fa-swift"/>SE-0435 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0435-swiftpm-per-target-swift-language-version-setting.md), which allows developers to control the Swift language setting on individual targets in their project. If this comes with Swift 6, it will certainly make it easier to move across to Swift 6 incrementally.
 
 I know it probably feels like Swift's concurrency story has been in non-stop flux ever since it was introduced, but I also don't think it's over yet. Even with the remarkable efforts that went into Swift 5.10 and 6.0, I fully expect a few more years of refinement to happen both in Swift and particularly Apple's frameworks to help make concurrency as smooth as possible.
 

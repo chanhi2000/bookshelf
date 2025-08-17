@@ -450,7 +450,7 @@ class Auth {
 }
 ```
 
-The `login` method checks if the username is `"admin"` and the password is `"1234"`. If both match, it returns `true` – otherwise, `false`.
+The `login` method checks if the username is `"admin"` and the password is `"1234"`. If both match, it returns `true` - otherwise, `false`.
 
 Next, set up the tests:
 

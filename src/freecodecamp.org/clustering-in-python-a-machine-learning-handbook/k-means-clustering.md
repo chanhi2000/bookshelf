@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "K-Means Clustering"
-description: "(6/11) Learn Clustering in Python – A Machine Learning Engineering Handbook"
+description: "(6/11) Learn Clustering in Python - A Machine Learning Engineering Handbook"
 category:
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "(6/11) Learn Clustering in Python – A Machine Learning Engineering Handbook"
+      content: "(6/11) Learn Clustering in Python - A Machine Learning Engineering Handbook"
     - property: og:description
       content: "K-Means Clustering"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 
 ```component VPCard
 {
-  "title": "Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "title": "Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "desc": "Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d...",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 ---
 
 <SiteInfo
-  name="Learn Clustering in Python – A Machine Learning Engineering Handbook"
+  name="Learn Clustering in Python - A Machine Learning Engineering Handbook"
   desc="Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d..."
   url="https://freecodecamp.org/news/clustering-in-python-a-machine-learning-handbook#heading-k-means-clustering"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 
 K-Means clustering is a popular unsupervised learning algorithm used to partition data points into distinct groups based on similarity. In this section, we will dive into the theory behind K-Means clustering and explore its implementation in Python using the scikit-learn library.
 
-In Data Science and Data Analytics, we often want to categorize observations into set of **segments** or **clusters** for different purpose. For instance, a company might want to cluster its customers into 3–5 groups based on their transaction history or frequency of purchases. This is usually an **Unsupervised** **Learning** approach where the labels (groups/segments/clusters) are unknown.
+In Data Science and Data Analytics, we often want to categorize observations into set of **segments** or **clusters** for different purpose. For instance, a company might want to cluster its customers into 3-5 groups based on their transaction history or frequency of purchases. This is usually an **Unsupervised** **Learning** approach where the labels (groups/segments/clusters) are unknown.
 
 One of the most popular clustering approaches for clustering observations into groups is the unsupervised clustering algorithm **K-Means**. Following are conditions for K-Means clustering:
 
@@ -217,10 +217,10 @@ In this section, we will explore how to implement K-Means clustering in Python a
 
 Before we dive into the implementation, let’s briefly understand how the K-Means algorithm works. The algorithm follows these steps:
 
-1. **Step 1: Initialization** – Randomly select K centroids, where K represents the desired number of clusters.
-2. **Step 2: Assignment** – Assign each data point to the nearest centroid based on the Euclidean distance.
-3. **Step 3: Update** – Recalculate the centroids by taking the mean of all data points assigned to each cluster.
-4. **Step 4: Repeat** – Repeat steps 2 and 3 until convergence criteria are met (e.g., minimal centroid movement).
+1. **Step 1: Initialization** - Randomly select K centroids, where K represents the desired number of clusters.
+2. **Step 2: Assignment** - Assign each data point to the nearest centroid based on the Euclidean distance.
+3. **Step 3: Update** - Recalculate the centroids by taking the mean of all data points assigned to each cluster.
+4. **Step 4: Repeat** - Repeat steps 2 and 3 until convergence criteria are met (e.g., minimal centroid movement).
 
 ```py :collapsed-lines
 fig, ax = plt.subplots(figsize=(6, 6))

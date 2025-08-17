@@ -456,20 +456,20 @@ print(f"Improvement ratio: {original_time/optimized_time:.2f}x")
 
 This experiment demonstrates three different approaches to timing code with the `timeit` module:
 
-**Method 1: Basic string evaluation** – This approach evaluates a string of code after running the setup code. The advantages include:
+**Method 1: Basic string evaluation** - This approach evaluates a string of code after running the setup code. The advantages include:
 
 - Simple syntax for basic timing needs
 - Setup code runs only once, not during each timing run
 - Good for timing simple expressions
 
-**Method 2: Lambda functions** – This more advanced approach uses lambda functions to call our functions directly. Benefits include:
+**Method 2: Lambda functions** - This more advanced approach uses lambda functions to call our functions directly. Benefits include:
 
 - Direct access to functions and variables in the current scope
 - No need to import functions in setup code
 - Better for timing functions that take arguments
 - More intuitive for complex timing scenarios
 
-**Method 3: Implementation comparison** – This practical approach compares two different implementations of the same functionality. This is valuable when:
+**Method 3: Implementation comparison** - This practical approach compares two different implementations of the same functionality. This is valuable when:
 
 - Deciding between alternative implementations
 - Measuring the impact of optimizations
@@ -526,7 +526,7 @@ print(s.getvalue())
 
 This experiment demonstrates three powerful `cProfile` techniques for identifying bottlenecks:
 
-**Method 1: Basic profiling** – Using `cProfile.run()` to profile a function call provides an immediate overview of performance. This technique:
+**Method 1: Basic profiling** - Using `cProfile.run()` to profile a function call provides an immediate overview of performance. This technique:
 
 - Gives you a quick snapshot of all function calls
 - Shows precisely where time is being spent
@@ -535,7 +535,7 @@ This experiment demonstrates three powerful `cProfile` techniques for identifyin
 
 In our example, we can immediately see that `time.sleep()` is consuming most of the execution time.
 
-**Method 2: Programmatic profiling and analysis** – This approach gives you more control:
+**Method 2: Programmatic profiling and analysis** - This approach gives you more control:
 
 - You can enable/disable profiling for specific sections of code
 - You can save the results to a variable for further analysis
@@ -544,7 +544,7 @@ In our example, we can immediately see that `time.sleep()` is consuming most of 
 
 This method is particularly useful for profiling specific parts of a larger application.
 
-**Method 3: Caller analysis** – The `print_callers()` method is extremely valuable because it:
+**Method 3: Caller analysis** - The `print_callers()` method is extremely valuable because it:
 
 - Shows which functions are calling your bottleneck functions
 - Helps identify which code paths are contributing to performance issues
@@ -601,7 +601,7 @@ stats.strip_dirs().sort_stats('cumulative').print_stats(10)
 
 This experiment demonstrates a comprehensive real-world profiling strategy that combines multiple tools:
 
-**First step: High-level timing with** `timeit` – We start with `timeit` to:
+**First step: High-level timing with** `timeit` - We start with `timeit` to:
 
 - Get baseline performance metrics for specific functions
 - Compare different implementations directly
@@ -610,14 +610,14 @@ This experiment demonstrates a comprehensive real-world profiling strategy that 
 
 This gives us a quick overview that both implementations take about the same time, confirming our earlier findings.
 
-**Second step: Detailed profiling with** `cProfile` – Next, we use `cProfile` to:
+**Second step: Detailed profiling with** `cProfile` - Next, we use `cProfile` to:
 
 - Get a function-by-function breakdown of execution time
 - Identify specific bottlenecks at a granular level
 - See the number of calls to each function
 - Understand the call hierarchy
 
-**Third step: Saving and analyzing with** `pstats` – Finally, we:
+**Third step: Saving and analyzing with** `pstats` - Finally, we:
 
 - Save profiling data to a file for persistence
 - Load the data and apply filtering/sorting
@@ -677,7 +677,7 @@ This practice helps you prove that your optimizations are actually working and p
 
 - 80% of time is often spent in 20% of the code. Focus optimization efforts on these "hot spots"
 - Focus optimization efforts on the functions with the highest cumulative time.
-- Don't optimize what isn't slow – premature optimization wastes time and can make code more complex.
+- Don't optimize what isn't slow - premature optimization wastes time and can make code more complex.
 
 For example, in our experiments, the `time.sleep()` call was the clear bottleneck. Optimizing anything else would be pointless until that's addressed.
 

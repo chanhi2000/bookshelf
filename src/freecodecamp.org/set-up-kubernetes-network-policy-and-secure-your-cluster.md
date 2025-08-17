@@ -94,7 +94,7 @@ While Kubernetes networking meets the requirements of these goals, communication
 
 ## What Are Kubernetes Network Policies?
 
-Kubernetes Network Policies give you a way to enforce fine-grained control over the flow of traffic within your pods. These policies allow you to define which pods can communicate with each other or with other devices – so they act as a security layer with rules that restrict or allow specific types of traffic.
+Kubernetes Network Policies give you a way to enforce fine-grained control over the flow of traffic within your pods. These policies allow you to define which pods can communicate with each other or with other devices - so they act as a security layer with rules that restrict or allow specific types of traffic.
 
 For example, if certain pods handle sensitive data or information, Network Policies can ensure that only authorized pods or external systems can gain access to it.
 
@@ -290,7 +290,7 @@ To maximize the effectiveness and security benefits of your Kubernetes Network P
 
 In this article, you learned about Kubernetes Network Policies as a way to manage and restrict communication between pods. Since pods don’t have network isolation by default, setting up the right policies is important for security.
 
-While Network Policies play an important role, it is also important to protect your Cloud environment by ensuring your infrastructure is hardened – so make sure you also implement RBAC and regular vulnerability scans. You should also allocate only needed pod resources, build minimal base images for the pods, and follow Kubernetes security best practices in general.
+While Network Policies play an important role, it is also important to protect your Cloud environment by ensuring your infrastructure is hardened - so make sure you also implement RBAC and regular vulnerability scans. You should also allocate only needed pod resources, build minimal base images for the pods, and follow Kubernetes security best practices in general.
 
 By doing this, you can achieve end-to-end protection for your workloads.
 

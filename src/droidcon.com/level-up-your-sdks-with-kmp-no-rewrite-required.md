@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Level up your SDKs with KMP – no rewrite required!"
-description: "Article(s) > Level up your SDKs with KMP – no rewrite required!"
+title: "Level up your SDKs with KMP - no rewrite required!"
+description: "Article(s) > Level up your SDKs with KMP - no rewrite required!"
 icon: fa-brands fa-android
 category:
   - Java
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Level up your SDKs with KMP – no rewrite required!"
+      content: "Article(s) > Level up your SDKs with KMP - no rewrite required!"
     - property: og:description
-      content: "Level up your SDKs with KMP – no rewrite required!"
+      content: "Level up your SDKs with KMP - no rewrite required!"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/droidcon.com/level-up-your-sdks-with-kmp-no-rewrite-required.html
 prev: /programming/java-android/articles/README.md
@@ -49,7 +49,7 @@ cover: https://droidcon.com/wp-content/uploads/2021/09/droidcon-illustration-170
 ---
 
 <SiteInfo
-  name="Level up your SDKs with KMP – no rewrite required!"
+  name="Level up your SDKs with KMP - no rewrite required!"
   desc="There are several compelling reasons to explore adding Kotlin Multiplatform (KMP) to your existing SDKs or libraries. The main one - to reduce development time and cut maintenance costs by having a single codebase for shared logic."
   url="https://droidcon.com/level-up-your-sdks-with-kmp-no-rewrite-required"
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
@@ -62,7 +62,7 @@ There are several compelling reasons to explore adding Kotlin Multiplatform (KMP
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Level up your SDKs with KMP – no rewrite required!",
+  "title": "Level up your SDKs with KMP - no rewrite required!",
   "desc": "There are several compelling reasons to explore adding Kotlin Multiplatform (KMP) to your existing SDKs or libraries. The main one - to reduce development time and cut maintenance costs by having a single codebase for shared logic.",
   "link": "https://chanhi2000.github.io/bookshelf/droidcon.com/level-up-your-sdks-with-kmp-no-rewrite-required.html",
   "logo": "https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png",

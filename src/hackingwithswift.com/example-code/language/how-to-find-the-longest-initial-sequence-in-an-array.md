@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ For example, if we had an array of test scores:
 let scores = [89, 86, 96, 78, 92, 100]
 ```
 
-We could use `prefix(while:)` to return all scores over 85 that occurred before the first score below 85 – i.e., find me all the passing scores that took place before the first person failed.
+We could use `prefix(while:)` to return all scores over 85 that occurred before the first score below 85 - i.e., find me all the passing scores that took place before the first person failed.
 
 Here’s that in Swift:
 

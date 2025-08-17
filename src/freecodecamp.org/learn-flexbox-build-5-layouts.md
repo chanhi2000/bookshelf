@@ -68,7 +68,7 @@ You can also watch this tutorial on my YouTube channel here:
 
 We need a blueprint when constructing a house. In the same way, we need a blueprint to **layout** our **content across our browser.** At the same time, we need to make **responsive layouts** for **various screen sizes.**
 
-This is what **Flexbox** helps us do – create responsive layouts.
+This is what **Flexbox** helps us do - create responsive layouts.
 
 ### Flexbox Architecture
 
@@ -167,7 +167,7 @@ For example, Flexbox properties defined on the **Container class** work on **Blo
 
 Now let's create these layouts. We'll start with an easier difficulty level and move to more advanced layouts.
 
-### Layout Difficulty Level-1 – How to Build a Card Layout
+### Layout Difficulty Level-1 - How to Build a Card Layout
 
 ![Level-1](https://dev-to-uploads.s3.amazonaws.com/i/yjx1adsec062quujq7ke.png)
 
@@ -258,7 +258,7 @@ Alright then, next select all the `.box-*` classes and style them together like 
 }
 ```
 
-### Layout Difficulty Level-2 – How to Build a Nav Bar Layout
+### Layout Difficulty Level-2 - How to Build a Nav Bar Layout
 
 ![Level-2](https://dev-to-uploads.s3.amazonaws.com/i/dhkcw4npzbmp34lcm4yf.png)
 
@@ -301,7 +301,7 @@ Here are the style rules for the **container class** for level-2. At the bottom,
 }
 ```
 
-### Layout Difficulty Level-3 – How to Build a Sidebar Layout
+### Layout Difficulty Level-3 - How to Build a Sidebar Layout
 
 ![Level-3](https://dev-to-uploads.s3.amazonaws.com/i/evaqt7tcdldtu7g3f9io.png)
 
@@ -365,7 +365,7 @@ Now we individually target the block-1 and block-2 classes. We also change the f
 }
 ```
 
-### Layout Difficulty Level-4 – How to Build a Card Layout #2
+### Layout Difficulty Level-4 - How to Build a Card Layout #2
 
 ![Level-4](https://dev-to-uploads.s3.amazonaws.com/i/6bwmcadjacdyh5fobk1d.png)
 
@@ -469,7 +469,7 @@ Finally, we will include the media query mixin for the mobile version.
 }
 ```
 
-### Layout Difficulty Level-5 – The Holy Grail of Layouts
+### Layout Difficulty Level-5 - The Holy Grail of Layouts
 
 ![Level-5](https://dev-to-uploads.s3.amazonaws.com/i/8lb4gh8povgvcb40iz0h.png)
 

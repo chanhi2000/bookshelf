@@ -55,14 +55,14 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-bas
 
 <SiteInfo
   name="What is Trunk Based Development? A Different Approach to the Software Development Lifecycle"
-  desc="The Software Development Lifecycle (SDLC) is different at every company. The version control system used, peer review process, code review process, design review process, how you do CI, automated testing, and manual testing – all vary greatly depending on where you work. How a company plans, writes, builds, reviews, deploys..."
+  desc="The Software Development Lifecycle (SDLC) is different at every company. The version control system used, peer review process, code review process, design review process, how you do CI, automated testing, and manual testing - all vary greatly depending on where you work. How a company plans, writes, builds, reviews, deploys..."
   url="https://freecodecamp.org/news/what-is-trunk-based-development/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2021/01/Trunk-based-development.png"/>
 
 The **Software Development Lifecycle (SDLC)** is different at every company.
 
-The version control system used, peer review process, code review process, design review process, how you do CI, automated testing, and manual testing – all vary greatly depending on where you work.
+The version control system used, peer review process, code review process, design review process, how you do CI, automated testing, and manual testing - all vary greatly depending on where you work.
 
 How a company plans, writes, builds, reviews, deploys, and releases software is optimized for their particular use-case, all with their own strengths and drawbacks in mind.
 
@@ -78,7 +78,7 @@ There are two common approaches to enable multiple developers to work on one cod
 
 The first we'll refer to as the **release branching** method. I've also seen it called **feature branching**. But both of these same approaches follow the same general pattern.
 
-Usually via Git, developers all clone the codebase (so they all have identical copies on their machines). Then they make a new feature/release branch based on <FontIcon icon="fas fa-code-branch"/>`main`, and merge as the work is completed. The emphasis here is that they only merge once, at the end, when all the work is complete – and they merge the **whole branch** into <FontIcon icon="fas fa-code-branch"/>`main`.
+Usually via Git, developers all clone the codebase (so they all have identical copies on their machines). Then they make a new feature/release branch based on <FontIcon icon="fas fa-code-branch"/>`main`, and merge as the work is completed. The emphasis here is that they only merge once, at the end, when all the work is complete - and they merge the **whole branch** into <FontIcon icon="fas fa-code-branch"/>`main`.
 
 Here's an overview for how developers use the **Release Branch** method:
 
@@ -98,7 +98,7 @@ In a larger team (with checks and approvals necessary for MR's), they use *short
 
 In TBD, their code changes generally don't stay around for more than a few hours. They constantly get merged and integrated with the code everyone else is writing.
 
-Jez Humble is a Site Reliability Engineer at Google, and author of[<FontIcon icon="fa-brands fa-amazon"/>Continuous Delivery](https://amazon.com/dp/0321601912?tag=contindelive-20), who says "branching is not the problem, merging is the problem" – which is exactly what TBD tries to solve.
+Jez Humble is a Site Reliability Engineer at Google, and author of[<FontIcon icon="fa-brands fa-amazon"/>Continuous Delivery](https://amazon.com/dp/0321601912?tag=contindelive-20), who says "branching is not the problem, merging is the problem" - which is exactly what TBD tries to solve.
 
 It aims to avoid painful merges that so often occur when it is time to merge long-lived branches that have diverged histories from the trunk, or even merge multiple branches together into one from different teams/developers before merging with the trunk.
 

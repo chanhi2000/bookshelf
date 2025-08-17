@@ -84,7 +84,7 @@ All the examples included in this tutorial have been tested with Python 3.7.
 Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!
 
 <SiteInfo
-  name="Python Lambda Functions Quiz – Real Python"
+  name="Python Lambda Functions Quiz - Real Python"
   desc="Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!"
   url="https://realpython.com/quizzes/python-lambda/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -97,7 +97,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
 [<FontIcon icon="fas fa-globe"/>Get a sample chapter from Python Tricks: The Book](https://realpython.com/bonus/python-tricks-sample-pdf/) that shows you Python’s best practices with simple examples you can apply instantly to write more beautiful + Pythonic code.
 
 <SiteInfo
-  name="Python Tricks: The Book – Free Sample Chapter (PDF) – Real Python"
+  name="Python Tricks: The Book - Free Sample Chapter (PDF) - Real Python"
   desc=""
   url="https://realpython.com/bonus/python-tricks-sample-pdf/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1212,7 +1212,7 @@ The use of underscore (`_`) is a Python convention indicating that you can ignor
 Always use a `def` statement instead of an assignment statement that binds a lambda expression directly to an identifier. ([<FontIcon icon="fa-brands fa-python"/>Source](https://python.org/dev/peps/pep-0008/#programming-recommendations))
 
 <SiteInfo
-  name="PEP 8 – Style Guide for Python Code | peps.python.org"
+  name="PEP 8 - Style Guide for Python Code | peps.python.org"
   desc="This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.  Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python."
   url="https://peps.python.org/pep-0008/"
   logo="https://peps.python.org/_static/py.png"
@@ -1246,7 +1246,7 @@ Python lambdas are like salt. A pinch in your spam, ham, and eggs will enhance t
 Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!
 
 <SiteInfo
-  name="Python Lambda Functions Quiz – Real Python"
+  name="Python Lambda Functions Quiz - Real Python"
   desc="Python lambdas are little, anonymous functions, subject to a more restrictive but more concise syntax than regular Python functions. Test your understanding on how you can use them better!"
   url="https://realpython.com/quizzes/python-lambda/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

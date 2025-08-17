@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751385483454/7e7949a
 
 Learning how to `fetch` data from `APIs` is a must-have skill for any developer. Whether you're building a simple portfolio site or working on real-world applications, you'll often need to connect to external data sources. Being comfortable with API calls shows you're ready to contribute to real projects and work well in a team.
 
-This beginner-friendly tutorial is designed for junior developers and anyone new to React. You'll learn how to `fetch data` from an API, then `store` and `display` it in your React app. No advanced knowledge required – we'll break everything down step by step, so you can follow along and build confidence as you go.
+This beginner-friendly tutorial is designed for junior developers and anyone new to React. You'll learn how to `fetch data` from an API, then `store` and `display` it in your React app. No advanced knowledge required - we'll break everything down step by step, so you can follow along and build confidence as you go.
 
 We'll be using `React`, `Vite`, `Axios`, and `Tailwind CSS` to build a simple app that retrieves and displays data from a public API. First, we’ll fetch data using the built-in fetch method. Then we’ll refactor it using Axios, a popular library that simplifies `HTTP requests`.
 
@@ -68,7 +68,7 @@ To follow along with this article, you should:
 
 - Be familiar with basic React concepts like components and `useState`
 - Know what an `API` is and that it returns data (usually in JSON)
-- Have some experience with JavaScript promises and the `.then()` method. (If you’ve seen or used `.then()` before, that’s enough – we'll build on that).
+- Have some experience with JavaScript promises and the `.then()` method. (If you’ve seen or used `.then()` before, that’s enough - we'll build on that).
 - Be comfortable using `map()` to render lists from arrays (the data we get from the API)
 - Be able to run a React project using tools like Vite or Create React App
 
@@ -141,9 +141,9 @@ Some APIs are public, but still require an API key. This helps the provider trac
 GET https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY
 ```
 
-- `https://newsapi.org/v2/top-headlines` – the actual API endpoint
-- `country=us` – a query parameter specifying you want “US headlines”
-- `apiKey=YOUR_API_KEY` – this is your personal API key you get after signing up on [<FontIcon icon="fas fa-globe"/>newsapi.org](http://newsapi.org)
+- `https://newsapi.org/v2/top-headlines` - the actual API endpoint
+- `country=us` - a query parameter specifying you want “US headlines”
+- `apiKey=YOUR_API_KEY` - this is your personal API key you get after signing up on [<FontIcon icon="fas fa-globe"/>newsapi.org](http://newsapi.org)
 
 :::
 
@@ -167,7 +167,7 @@ This approach is more secure because it keeps the token out of the URL and brows
 
 ::: note
 
-When working with third-party APIs, always check the documentation to see how authentication should be handled. Authentication methods vary – some APIs require passing the key in the URL, others expect it in the headers.
+When working with third-party APIs, always check the documentation to see how authentication should be handled. Authentication methods vary - some APIs require passing the key in the URL, others expect it in the headers.
 
 :::
 
@@ -258,7 +258,7 @@ Axios is a third-party library that makes HTTP requests easier and more reliable
 
 #### Why Use Axios Over fetch
 
-- Axios automatically converts the response to JSON – you don’t need to call `.json()` manually.
+- Axios automatically converts the response to JSON - you don’t need to call `.json()` manually.
 - It has built-in support for request and response interceptors.
 - It makes it easier to send headers, handle errors, and work with non-GET requests (POST, DELETE, and so on).
 
@@ -318,7 +318,7 @@ A loading state is used to show that data is being fetched. Without it, users mi
 
 ### What is an Error State?
 
-An error state tells you something went wrong – maybe the API is down, or the URL was incorrect. Catching and displaying these errors helps you debug faster and gives users clear feedback.
+An error state tells you something went wrong - maybe the API is down, or the URL was incorrect. Catching and displaying these errors helps you debug faster and gives users clear feedback.
 
 #### Code Snippet
 

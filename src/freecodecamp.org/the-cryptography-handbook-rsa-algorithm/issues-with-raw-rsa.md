@@ -61,7 +61,7 @@ $$
 C=m^{e}\:\text{mod}\:n.
 $$
 
-An eavesdropper or an attacker, say Eve, can guess or derive plain texts by exploiting the predictability of outputs. Since RSA encryption is a public operation, an attacker can encrypt likely messages and compare results to a target cipher text – a trivial chosen plaintext *attack*.
+An eavesdropper or an attacker, say Eve, can guess or derive plain texts by exploiting the predictability of outputs. Since RSA encryption is a public operation, an attacker can encrypt likely messages and compare results to a target cipher text - a trivial chosen plaintext *attack*.
 
 Besides this, textbook RSA is also malleable. This means that its algebraic structure allows attackers to manipulate cipher texts in meaningful ways. For instance, given a cipher text $C=\text{RSA}\left(M\right)$, an attacker can multiply it by the encryption of a known value (say, $r$) to produce a new cipher text $C'=C\cdot{r^{e}}\:\text{mod}\:n$, which decrypts to the plaintext $M\cdot{r}$. When the legitimate receiver decrypts $C'$, the result is $M\cdot{r}$, from which the attacker can often recover $M$.
 

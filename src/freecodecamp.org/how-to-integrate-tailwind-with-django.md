@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Integrate Tailwind with Django – With Code Examples"
-description: "Article(s) > How to Integrate Tailwind with Django – With Code Examples"
+title: "How to Integrate Tailwind with Django - With Code Examples"
+description: "Article(s) > How to Integrate Tailwind with Django - With Code Examples"
 icon: iconfont icon-tailwindcss
 category:
   - Node.js
@@ -25,9 +25,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Integrate Tailwind with Django – With Code Examples"
+      content: "Article(s) > How to Integrate Tailwind with Django - With Code Examples"
     - property: og:description
-      content: "How to Integrate Tailwind with Django – With Code Examples"
+      content: "How to Integrate Tailwind with Django - With Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-tailwind-with-django.html
 prev: /programming/css-tailwind/articles/README.md
@@ -64,7 +64,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730270888412/a440ff7
 ---
 
 <SiteInfo
-  name="How to Integrate Tailwind with Django – With Code Examples"
+  name="How to Integrate Tailwind with Django - With Code Examples"
   desc="In modern web development, choosing the right technology is crucial because it impacts both the process and outcome of your projects. Using Django as a backend framework and Tailwind CSS as a utility-first CSS framework offers an efficient way to cre..."
   url="https://freecodecamp.org/news/how-to-integrate-tailwind-with-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -80,7 +80,7 @@ This article will explain why Django and Tailwind CSS work well together, how to
 
 [<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) is an open-source, full-featured Python web framework that follows the batteries-included approach. Django aims at making the development of complex, database-driven websites as fast and easy as possible by providing a lot of built-in functionalities like ORM, authentication system, admin panel, and many more. Django enables rapid development by focusing on writing the app's unique parts rather than wasting time writing a lot of boilerplate code.
 
-The reason for its popularity is that it follows the MVT design pattern which keeps data models, views, and templates well separated. In Django, security is paramount: it guards against SQL injection, cross-site scripting, and cross-site request forgery out of the box. Django scales well and is flexible – it is fit for both small projects and large, complex web applications, and that is why it is used by major sites such as Instagram and Pinterest.
+The reason for its popularity is that it follows the MVT design pattern which keeps data models, views, and templates well separated. In Django, security is paramount: it guards against SQL injection, cross-site scripting, and cross-site request forgery out of the box. Django scales well and is flexible - it is fit for both small projects and large, complex web applications, and that is why it is used by major sites such as Instagram and Pinterest.
 
 ---
 
@@ -498,7 +498,7 @@ Happy coding!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Integrate Tailwind with Django – With Code Examples",
+  "title": "How to Integrate Tailwind with Django - With Code Examples",
   "desc": "In modern web development, choosing the right technology is crucial because it impacts both the process and outcome of your projects. Using Django as a backend framework and Tailwind CSS as a utility-first CSS framework offers an efficient way to cre...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-tailwind-with-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift’s closures are reference types, which means if you point two variables at the same closure they share that closure – Swift just remembers that there are two things relying on it by incrementing its reference count.
+Swift’s closures are reference types, which means if you point two variables at the same closure they share that closure - Swift just remembers that there are two things relying on it by incrementing its reference count.
 
-When a closure gets passed into a function to be used, Swift needs to know whether that function will get used immediately or whether it will be saved for use later on. If it’s used immediately, the compiler can skip adding one to its reference count because the closure will be run straight away then forgotten about. But if it’s used later – or even *might* be used later – Swift needs to add one to its reference count so that it won’t accidentally be destroyed.
+When a closure gets passed into a function to be used, Swift needs to know whether that function will get used immediately or whether it will be saved for use later on. If it’s used immediately, the compiler can skip adding one to its reference count because the closure will be run straight away then forgotten about. But if it’s used later - or even *might* be used later - Swift needs to add one to its reference count so that it won’t accidentally be destroyed.
 
-For performance reasons, Swift assumes all closures are nonescaping closures, which means they will be used immediately inside the function and not stored, which in turn means Swift doesn’t touch the reference count. If this isn’t the case – if you take any measure to store the closure – then Swift will force you to mark it as `@escaping` so that the reference count must be changed.
+For performance reasons, Swift assumes all closures are nonescaping closures, which means they will be used immediately inside the function and not stored, which in turn means Swift doesn’t touch the reference count. If this isn’t the case - if you take any measure to store the closure - then Swift will force you to mark it as `@escaping` so that the reference count must be changed.
 
 -->
 

@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Swift’s actors are conceptually like classes that are safe to use in concurrent environments. This safety is made possible because Swift automatically ensures no two pieces of code attempt to access an actor’s data at the same time – it is made impossible by the compiler, rather than requiring developers to write boilerplate code using systems such as locks.
+Swift’s actors are conceptually like classes that are safe to use in concurrent environments. This safety is made possible because Swift automatically ensures no two pieces of code attempt to access an actor’s data at the same time - it is made impossible by the compiler, rather than requiring developers to write boilerplate code using systems such as locks.
 
 In the following chapters we’re going to explore more about how actors work and when you should use them, but here is the least you need to know:
 
@@ -105,16 +105,16 @@ This means several things:
 
 1. Actors are effectively operating a private serial queue for their message inbox, taking requests one at a time and fulfilling them. This executes requests in the order they were received, but you can also use task priority to escalate requests.
 2. Only one piece of code at a time can access an actor’s mutable state unless you specifically mark some things as being unprotected. Swift calls this *actor isolation*.
-3. Just like regular `await` calls, reading an actor’s property or method marks a potential suspension point – we might get a value back immediately, but it might also take a little time.
-4. Any state that is *not* mutable – i.e., a constant property – can be accessed without `await`, because it’s always going to be safe.
+3. Just like regular `await` calls, reading an actor’s property or method marks a potential suspension point - we might get a value back immediately, but it might also take a little time.
+4. Any state that is *not* mutable - i.e., a constant property - can be accessed without `await`, because it’s always going to be safe.
 
 In practice, the rule to remember is this: if you are writing code inside an actor’s method, you can read other properties on that actor and call its synchronous methods without using `await`, but if you’re trying to use that data from *outside* the actor `await` is required even for synchronous properties and methods. Think of situations where using `self` is possible: if you could `self` you don’t need `await`. 
 
 **Writing properties from outside an actor is not allowed, with or without `await`.**
 
-Of course, the real question here is why Swift needs actors at all – what’s their fundamental purpose? And the answer is straightforward: if you ever need to make sure that access to some object is restricted to a single task at a time, actors are perfect.
+Of course, the real question here is why Swift needs actors at all - what’s their fundamental purpose? And the answer is straightforward: if you ever need to make sure that access to some object is restricted to a single task at a time, actors are perfect.
 
-This is more common than you might think – yes, UI work should be restricted to the main thread, but you probably also want to restrict database access so that you can’t write conflicting data, for example. There are also times when simultaneous concurrent access to data can cause *data races* – when the outcome of your work depends on the order in which tasks complete. These errors are particularly nasty to find and fix, but with actors such data races become impossible.
+This is more common than you might think - yes, UI work should be restricted to the main thread, but you probably also want to restrict database access so that you can’t write conflicting data, for example. There are also times when simultaneous concurrent access to data can cause *data races* - when the outcome of your work depends on the order in which tasks complete. These errors are particularly nasty to find and fix, but with actors such data races become impossible.
 
 ::: tip
 

@@ -409,7 +409,7 @@ You can click on each service to open its page, where you can view the deploymen
 
 You should be able to manage the deployment process on your own, as everything is clearly explained. But if you need help, feel free to reach out.
 
-I should mention that I am not affiliated with Render in any way and I am not receiving any benefits for mentioning them here. I just found it to be a useful tool and wanted to share it with you – so I’ve used it here.
+I should mention that I am not affiliated with Render in any way and I am not receiving any benefits for mentioning them here. I just found it to be a useful tool and wanted to share it with you - so I’ve used it here.
 
 ---
 

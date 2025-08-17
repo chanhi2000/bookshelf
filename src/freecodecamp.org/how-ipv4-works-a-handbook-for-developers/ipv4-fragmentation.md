@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "IPv4 Fragmentation"
-description: "Article(s) > (8/8) How IPv4 Works – A Handbook for Developers" 
+description: "Article(s) > (8/8) How IPv4 Works - A Handbook for Developers" 
 category:
   - Engineering
   - Computer
@@ -16,12 +16,12 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (8/8) How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > (8/8) How IPv4 Works - A Handbook for Developers"
     - property: og:description
       content: "IPv4 Fragmentation"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/ipv4-fragmentation.html
-next: /freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md#summary–ipv4
+next: /freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md#summary-ipv4
 date: 2025-05-01
 isOriginal: false
 author:
@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers#heading-ipv4-fragmentation"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -76,17 +76,17 @@ Different MTUs stem from the different protocols and hardware that different net
 
 Now, consider this scenario: Machine A wants to send a packet to Machine B. This packet is `1800` bytes long. From A's perspective, there's no problem since its network supports packets of this size. Machine A transmits the packet.
 
-When the router receives this packet, it faces a problem: it cannot simply forward the packet to B's network because the packet is too big for the network's MTU. The router must **fragment** the packet – splitting it into smaller chunks of up to `1500` bytes, which will then be reassembled by Machine B.
+When the router receives this packet, it faces a problem: it cannot simply forward the packet to B's network because the packet is too big for the network's MTU. The router must **fragment** the packet - splitting it into smaller chunks of up to `1500` bytes, which will then be reassembled by Machine B.
 
 ---
 
 ## How Fragmentation Works in IP
 
-Let's examine the scenario further. The router needs to take an IP packet of `1800` bytes and split it into two fragments, each consisting of up to `1500` bytes. If Machine A sends another packet of `1800` bytes to Machine B, the router will have to split that one too – resulting in four different fragments that will be reassembled into two separate packets.
+Let's examine the scenario further. The router needs to take an IP packet of `1800` bytes and split it into two fragments, each consisting of up to `1500` bytes. If Machine A sends another packet of `1800` bytes to Machine B, the router will have to split that one too - resulting in four different fragments that will be reassembled into two separate packets.
 
 ![Two IP packets, each consisting of two fragments<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1745770316245/b137efa8-ae1c-42cb-918a-f6d0ee7b2c3a.png)
 
-When Machine B receives these fragments, it must ensure that it reassembles fragment #1 together with fragment #2 of packet A, and fragment #1 with fragment #2 of packet B – and not, for instance, fragment #1 of packet A with fragment #2 of packet B. It must also reassemble the fragments in the correct order – so structure a packet that consists of #1#2 and not #2#1. ![Possible issues in reassembling packets from two fragments<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1745770377464/12aad8f1-0251-4289-bc9a-75084dbc1f7a.png)
+When Machine B receives these fragments, it must ensure that it reassembles fragment #1 together with fragment #2 of packet A, and fragment #1 with fragment #2 of packet B - and not, for instance, fragment #1 of packet A with fragment #2 of packet B. It must also reassemble the fragments in the correct order - so structure a packet that consists of #1#2 and not #2#1. ![Possible issues in reassembling packets from two fragments<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1745770377464/12aad8f1-0251-4289-bc9a-75084dbc1f7a.png)
 
 ---
 
@@ -118,7 +118,7 @@ While using sequence numbers might seem simpler, it would create problems when p
 
 For example, if Computer A sends a packet to the first router, which fragments it into pieces of `1480` bytes and `320` bytes, and then these fragments are sent to another router that needs to fragment them again into even smaller pieces, how would you number them?
 
-With byte offsets, the solution is straightforward – if the first fragment has an offset of `0` and the next one has an offset of `1480`, then if we need to split them into maximum `800`-byte fragments, we'd have:
+With byte offsets, the solution is straightforward - if the first fragment has an offset of `0` and the next one has an offset of `1480`, then if we need to split them into maximum `800`-byte fragments, we'd have:
 
 - First fragment: `800` bytes with offset `0`
 - Second fragment: `680` bytes with offset `800`
@@ -130,7 +130,7 @@ With byte offsets, the solution is straightforward – if the first fragment has
 
 When Machine B receives a fragment, it needs to know whether this is an entire packet by itself or if it should expect additional fragments. For this purpose, each IP fragment carries a More Fragments (`MF`) bit that is set to `1` for every fragment that is not the last fragment of the packet. For the last fragment, it's set to `0`.
 
-In case the packet consists of a single fragment – the `MF` bit will be set to `0`, and the offset field will also hold the value `0` (that is, 13 bits of `0`s).
+In case the packet consists of a single fragment - the `MF` bit will be set to `0`, and the offset field will also hold the value `0` (that is, 13 bits of `0`s).
 
 Another bit related to fragmentation is the Don't Fragment (`DF`) bit. When this flag is turned on, intermediate devices should not fragment the original packet, even if it exceeds the MTU. Instead, they should drop it and typically send an ICMP "Fragmentation Needed" message back to the source.
 
@@ -138,7 +138,7 @@ In our example, if Machine A sets the Don't Fragment bit to `1`, the router woul
 
 Note that right after the identification field and before the `DF` flag, there is a reserved bit set to `0`. This bit was reserved in case it is needed in the future, for a reason unknown to the original authors of IPv4. ### Fragmentation Example
 
-Consider again our example above – with Machine A residing in a network where the MTU is `2000`, and Machine B residing in a network where the MTU is `1500`. Machine A sends a packet which is `1800` bytes long.
+Consider again our example above - with Machine A residing in a network where the MTU is `2000`, and Machine B residing in a network where the MTU is `1500`. Machine A sends a packet which is `1800` bytes long.
 
 ❓Can you fill the values in these tables?
 
@@ -172,7 +172,7 @@ For our example above, the values of the relevant fragmentation fields in IP wou
 
 **Second Fragment:**
 
-- Total Length: `340` (including `20` bytes of IP header, so `320` bytes of payload – together with the first fragment, we get to `1800` bytes of payload)
+- Total Length: `340` (including `20` bytes of IP header, so `320` bytes of payload - together with the first fragment, we get to `1800` bytes of payload)
 - Identification: `1337` (same as first fragment, indicating they belong together)
 - Don't Fragment bit: `0` (off, to allow further fragmentation if needed)
 - More Fragments bit: `0` (off, as this is the last fragment)
@@ -180,7 +180,7 @@ For our example above, the values of the relevant fragmentation fields in IP wou
 
 ---
 
-## IPv4 Fragmentation – Summary
+## IPv4 Fragmentation - Summary
 
 You've now learned about the final part of the IPv4 Header: fragmentation. Fragmentation is necessary to allow packets to travel across networks with different MTUs. The IPv4 header includes several fields specifically designed to support fragmentation:
 

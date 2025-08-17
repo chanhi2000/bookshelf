@@ -161,9 +161,9 @@ logging.basicConfig(filename='data_log.log', level=logging.DEBUG,
 
 Here:
 
-- `asctime` – The time when the event occurred.
-- `levelname` – The type of the log (for example, **DEBUG**, **INFO**).
-- `message` – The message we display.
+- `asctime` - The time when the event occurred.
+- `levelname` - The type of the log (for example, **DEBUG**, **INFO**).
+- `message` - The message we display.
 
 Now, when you run the program, the log file will generate and save your logs, showing the exact timing, error type, and message. Like this:
 

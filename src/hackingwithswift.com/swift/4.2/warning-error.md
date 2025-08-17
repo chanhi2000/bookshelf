@@ -54,7 +54,7 @@ isOriginal: false
 The two new directives are `#warning` and `#error`: the former will force Xcode to issue a warning when building your code, and the latter will issue a compile error so your code won’t build at all. Both of these are useful for different reasons:
 
 - `#warning` is mainly useful as a reminder to yourself or others that some work is incomplete. Xcode templates often use `#warning` to mark method stubs that you should replace with your own code.
-- `#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API – you want users to include their own key, so using `#error` will force them to change that code before continuing.
+- `#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API - you want users to include their own key, so using `#error` will force them to change that code before continuing.
 
 Both of these work in the same way: `#warning("Some message")` and `#error("Some message")`. For example:
 

@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -78,7 +78,7 @@ let set = Set(array)
 let array2 = Array(set)
 ```
 
-Using `contains()` on a set takes the same amount of time if you have one item as it does if you have one thousand items – it’s called an O(1) operation.
+Using `contains()` on a set takes the same amount of time if you have one item as it does if you have one thousand items - it’s called an O(1) operation.
 
 -->
 

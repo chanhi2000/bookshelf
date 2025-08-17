@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-The Fizz Buzz test is a simple coding test used in some coding interviews. It’s not designed to be hard, in fact quite the opposite – it’s designed to be easy enough that most folks can solve it without feeling too pressured.
+The Fizz Buzz test is a simple coding test used in some coding interviews. It’s not designed to be hard, in fact quite the opposite - it’s designed to be easy enough that most folks can solve it without feeling too pressured.
 
 To pass the test you must write a function that accepts an integer and returns a string. Which string to return depends on the input number:
 
@@ -87,7 +87,7 @@ func fizzbuzz(number: Int) -> String {
 print(fizzbuzz(number: 15))
 ```
 
-This approach breaks down a large input space – any number – into simple combinations of true and false, and we then use tuple pattern matching in the case statements to select the correct output.
+This approach breaks down a large input space - any number - into simple combinations of true and false, and we then use tuple pattern matching in the case statements to select the correct output.
 
 -->
 

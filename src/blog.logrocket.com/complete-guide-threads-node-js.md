@@ -80,7 +80,7 @@ Node.js uses two kinds of threads: a main thread handled by the event loop and s
 
 In Node.js, the main thread is the initial execution thread that starts when Node.js starts. It is responsible for the execution of JavaScript code and handling incoming requests. A worker thread is a separate execution thread that runs alongside the main thread.
 
-### Is Node.js multithreaded or single*–*threaded?
+### Is Node.js multithreaded or single-threaded?
 
 Single-threaded means that a program has only one thread of execution, which allows it to perform only one task at a given time. Meanwhile, the term “multi-threaded” implies that a program has multiple threads of execution, which allows it to perform multiple tasks concurrently.
 

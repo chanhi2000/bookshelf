@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Broadly speaking, `NSCoding` is the Objective-C way of archiving data and `Codable` is the Swift way. However, that doesn’t mean the two can’t work together – with a little work you can save any `NSCoding` data right inside `Codable`, which is helpful because many Apple types such as `UIColor` and `UIImage` conform to `NSCoding` but not `Codable`.
+Broadly speaking, `NSCoding` is the Objective-C way of archiving data and `Codable` is the Swift way. However, that doesn’t mean the two can’t work together - with a little work you can save any `NSCoding` data right inside `Codable`, which is helpful because many Apple types such as `UIColor` and `UIImage` conform to `NSCoding` but not `Codable`.
 
 Here’s a simple struct as an example:
 
@@ -111,7 +111,7 @@ init(from decoder: Decoder) throws {
 }
 ```
 
-The last step is to create an `encode(to:)` method that does the opposite – it takes a `UIColor` and converts it to data using `NSKeyedArchiver`. Put this inside the extension:
+The last step is to create an `encode(to:)` method that does the opposite - it takes a `UIColor` and converts it to data using `NSKeyedArchiver`. Put this inside the extension:
 
 ```swift
 func encode(to encoder: Encoder) throws {
@@ -123,7 +123,7 @@ func encode(to encoder: Encoder) throws {
 }
 ```
 
-That’s all the work done – by converting our `UIColor` into a `Data`, `Codable` can take care of the rest.
+That’s all the work done - by converting our `UIColor` into a `Data`, `Codable` can take care of the rest.
 
 If you want to try it out, here’s some sample code:
 

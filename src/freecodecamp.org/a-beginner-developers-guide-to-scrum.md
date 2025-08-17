@@ -68,7 +68,7 @@ Suddenly, people ask:
 
 Cue the imposter syndrome. Because no one teaches this stuff in JavaScript 101. This guide is for you.
 
-I’ll help make the Scrum process – a very common way developers work together – *make actual sense*. I’ll walk you through the basics, but also tell you what developers actually *do*, how standups feel when you're new, and what’s expected of you when you’re no longer coding in a vacuum.
+I’ll help make the Scrum process - a very common way developers work together - *make actual sense*. I’ll walk you through the basics, but also tell you what developers actually *do*, how standups feel when you're new, and what’s expected of you when you’re no longer coding in a vacuum.
 
 Let’s break it down.
 
@@ -111,7 +111,7 @@ Think: Air-traffic controller meets therapist. They make sure the process works.
 - Facilitates meetings
 - Removes blockers (“Your AWS access is stuck? I’ll escalate it.”)
 - Coaches the team on Scrum practices
-- Doesn’t manage people – manages *flow*
+- Doesn’t manage people - manages *flow*
 
 ### 3. Developers (YOU!)
 
@@ -122,7 +122,7 @@ Think: Builders. You write code, test it, ship it, fix it, and improve it. You a
 - Communicate progress
 - Demo what you’ve built at the end of the sprint
 
-You might also work with designers, testers, or DevOps folks – but within Scrum, you’re all “developers” building a product together.
+You might also work with designers, testers, or DevOps folks - but within Scrum, you’re all “developers” building a product together.
 
 ---
 
@@ -134,39 +134,39 @@ You might also work with designers, testers, or DevOps folks – but within Scru
 
 So, what does it *actually* look like when a team uses Scrum to build software?
 
-Let’s walk through a full sprint – not just the buzzwords, but what really happens when a group of humans tries to plan, build, review, and improve together. Think of this as your backstage pass to the rhythm of modern teamwork.
+Let’s walk through a full sprint - not just the buzzwords, but what really happens when a group of humans tries to plan, build, review, and improve together. Think of this as your backstage pass to the rhythm of modern teamwork.
 
 ### 📦 Step 1: Build and Refine the Product Backlog
 
-Before any coding starts, the team needs to agree on *what* they might build – not just this week, but in the near future too.
+Before any coding starts, the team needs to agree on *what* they might build - not just this week, but in the near future too.
 
-That’s where the **Product Backlog** comes in. This is a big, running list of everything the product might need – features, bug fixes, improvements, ideas, and maybe a few wild dreams. It’s like the wishlist for the product, but more organized (ideally).
+That’s where the **Product Backlog** comes in. This is a big, running list of everything the product might need - features, bug fixes, improvements, ideas, and maybe a few wild dreams. It’s like the wishlist for the product, but more organized (ideally).
 
 The Product Owner is responsible for maintaining and prioritizing this list. They decide what’s most important to work on based on customer needs, business goals, and feedback.
 
 But the PO doesn’t do this in isolation. Enter the **Backlog Refinement meeting**.
 
-In these sessions, the Scrum Team – that’s the PO, the Scrum Master (SM), and the Developers – come together to:
+In these sessions, the Scrum Team - that’s the PO, the Scrum Master (SM), and the Developers - come together to:
 
 - **Review** the most important upcoming items
 - **Clarify** any vague or confusing parts of each task
 - **Break big items** down into smaller, buildable pieces called **user stories**
 - **Estimate effort** (how much time or complexity is involved for each story)
 
-This meeting makes sure the team isn’t caught off guard in the sprint – that they understand the work ahead and can actually start sprinting when the time comes.
+This meeting makes sure the team isn’t caught off guard in the sprint - that they understand the work ahead and can actually start sprinting when the time comes.
 
-### 🧭 Step 2: Sprint Planning – What Are We Building This Time?
+### 🧭 Step 2: Sprint Planning - What Are We Building This Time?
 
 Now that we’ve got a solid backlog, it’s time to pick what to build *right now*.
 
-At the start of each sprint (which typically lasts 1 to 4 weeks), the team holds a **Sprint Planning meeting**. This meeting sets the stage for the entire sprint – it’s like the huddle before the big game.
+At the start of each sprint (which typically lasts 1 to 4 weeks), the team holds a **Sprint Planning meeting**. This meeting sets the stage for the entire sprint - it’s like the huddle before the big game.
 
 In Sprint Planning, the team:
 
 - Reviews the top items from the backlog
 - Discusses what can realistically be completed based on their availability and capacity
 - Chooses a handful of these stories to commit to
-- **Defines a Sprint Goal** – a simple statement that captures the purpose of this sprint
+- **Defines a Sprint Goal** - a simple statement that captures the purpose of this sprint
 
 ::: tip Example
 
@@ -176,7 +176,7 @@ For example, the Sprint Goal might be:
 
 :::
 
-Every user story chosen should contribute to that goal. The collection of these stories becomes the **Sprint Backlog** – basically, the to-do list for the sprint.
+Every user story chosen should contribute to that goal. The collection of these stories becomes the **Sprint Backlog** - basically, the to-do list for the sprint.
 
 So when we say:
 
@@ -188,11 +188,11 @@ We’re really just saying:
 
 Not too vague. Not too ambitious. Just achievable and focused.
 
-### ☀️ Step 3: Daily Standups – Stay in Sync
+### ☀️ Step 3: Daily Standups - Stay in Sync
 
 Now the sprint is underway! But how does everyone stay aligned and avoid working in silos?
 
-That’s where the **Daily Standup** comes in. Every day – usually in the morning – the team has a quick check-in (about 15 minutes) where each person answers three questions:
+That’s where the **Daily Standup** comes in. Every day - usually in the morning - the team has a quick check-in (about 15 minutes) where each person answers three questions:
 
 1. **What did I do yesterday?**
 2. **What am I working on today?**
@@ -210,30 +210,30 @@ These standups keep the team in sync and surface blockers early so they can be a
 
 You might hear your team mention a “burndown chart.” No, this isn’t about things going down in flames (hopefully).
 
-A **Sprint Burndown Chart** is a graph that shows how much work is left in the sprint – day by day.
+A **Sprint Burndown Chart** is a graph that shows how much work is left in the sprint - day by day.
 
 - The **y-axis** is the amount of work remaining (often measured in story points or tasks)
 - The **x-axis** is the number of days left in the sprint
 
-The line should ideally trend downward as work gets completed – hence “burning down.” If it flattens out or slopes up, that’s a red flag that the team might be stuck, behind schedule, or not updating the board.
+The line should ideally trend downward as work gets completed - hence “burning down.” If it flattens out or slopes up, that’s a red flag that the team might be stuck, behind schedule, or not updating the board.
 
 Think of it as a visual heartbeat of the sprint. You can learn more via a practical example [in this video](https://youtu.be/2K84aZn9AY8?si=tS8oMGxVD0CYtnlw).
 
-### 🖥️ Step 4: Sprint Review – Show What You’ve Built
+### 🖥️ Step 4: Sprint Review - Show What You’ve Built
 
 At the end of the sprint, the team holds a **Sprint Review** (also called a “demo”). This is where you show what was actually built during the sprint.
 
-- The **Developers** demo working features – live, not just screenshots
+- The **Developers** demo working features - live, not just screenshots
 - The **Product Owner** reviews whether the Sprint Goal was achieved
 - Stakeholders may ask questions, give feedback, or suggest tweaks
 
-This meeting isn’t just for show – it’s a feedback loop. It helps the team validate that what they built is useful, usable, and meets expectations. If changes are needed, those get added to the backlog for future sprints.
+This meeting isn’t just for show - it’s a feedback loop. It helps the team validate that what they built is useful, usable, and meets expectations. If changes are needed, those get added to the backlog for future sprints.
 
-### 🔍 Step 5: Sprint Retrospective – Look Back to Move Forward
+### 🔍 Step 5: Sprint Retrospective - Look Back to Move Forward
 
 Once the review is done, the team shifts focus from *what* they built to *how* they worked together.
 
-Enter the **Sprint Retrospective** – a meeting to reflect on the process, not the product.
+Enter the **Sprint Retrospective** - a meeting to reflect on the process, not the product.
 
 The team discusses:
 
@@ -247,7 +247,7 @@ The **Scrum Master** often facilitates this meeting and helps turn feedback into
 
 “We underestimated testing time. Next sprint, let’s budget for QA earlier.”
 
-The best teams take retros seriously. Why? Because even if your code is perfect, your *process* needs tuning too – and small process changes often lead to big gains.
+The best teams take retros seriously. Why? Because even if your code is perfect, your *process* needs tuning too - and small process changes often lead to big gains.
 
 ### ♻️ Scrum Is a Loop
 
@@ -258,7 +258,7 @@ Here’s the rhythm:
 3. Build and demo the product
 4. Reflect and improve
 
-Then do it all over again – with slightly better coordination and slightly more trust each time.
+Then do it all over again - with slightly better coordination and slightly more trust each time.
 
 It’s not about being fast. It’s about being intentional, consistent, and collaborative.
 
@@ -276,7 +276,7 @@ Here’s the rough beat:
 | 3.5-4 | **Sprint Review** | Demo what you built |
 | 4 | **Sprint Retrospective** | Reflect on how the sprint went as a team |
 
-Scrum works in **loops**. Every 2-4 weeks (depending on your cadence and sprint cycle), your team should have working, demo-able software to show for it – even if it’s small.
+Scrum works in **loops**. Every 2-4 weeks (depending on your cadence and sprint cycle), your team should have working, demo-able software to show for it - even if it’s small.
 
 And no, it’s not about “speed.” It’s about consistency, communication, and collaboration.
 
@@ -300,7 +300,7 @@ Now lets dive deeper and understand practically how each of these ceremonies wor
 
 So how does the team actually stay connected day to day? That’s where standups come in.
 
-Every morning, your team meets briefly – usually on Zoom or in a circle – and you answer 3 questions:
+Every morning, your team meets briefly - usually on Zoom or in a circle - and you answer 3 questions:
 
 1. What did I work on yesterday?
 2. What will I work on today?
@@ -308,7 +308,7 @@ Every morning, your team meets briefly – usually on Zoom or in a circle – an
 
 ::: tip Example:
 
-"Yesterday I cleaned up the signup validation logic. Today I’m working on the email verification flow. I’m stuck on SendGrid config – might need help setting up credentials."
+"Yesterday I cleaned up the signup validation logic. Today I’m working on the email verification flow. I’m stuck on SendGrid config - might need help setting up credentials."
 
 :::
 
@@ -316,7 +316,7 @@ It’s not about impressing anyone. It’s about keeping everyone in sync. Some 
 
 How does it work?
 
-The Scrum Master gathers everyone in a huddle room, the PO and Dev Team included, and opens the the Standup. They are the facilitator of the ceremony. Everyone gets a chance to answer the 3 questions above (usually about 2-5 minutes each). It’s not a full report – it’s quick. When one person is done, they pass it on to someone else.
+The Scrum Master gathers everyone in a huddle room, the PO and Dev Team included, and opens the the Standup. They are the facilitator of the ceremony. Everyone gets a chance to answer the 3 questions above (usually about 2-5 minutes each). It’s not a full report - it’s quick. When one person is done, they pass it on to someone else.
 
 This ensures there is team cohesion and transparency.
 
@@ -346,13 +346,13 @@ The Product Owner will have a prioritized view of things in the backlog. They wo
 
 So you might be wondering: how do you know what to work on? What to build? So much work, so little time? Thats where **user stories** come in.
 
-In Scrum, teams don’t just write vague tasks like “code the login.” Instead, they write user stories – short, human-centered feature descriptions that describe what the user needs, why they need it, and what success looks like.
+In Scrum, teams don’t just write vague tasks like “code the login.” Instead, they write user stories - short, human-centered feature descriptions that describe what the user needs, why they need it, and what success looks like.
 
 Here’s an example:
 
 *As a user, I want to be able to reset my password, so I can access my account if I forget it.*
 
-User stories are the scaffolding of teamwork. They’re written with empathy, not just efficiency. And each one comes with **acceptance criteria** – a checklist that clarifies what “done” actually means:
+User stories are the scaffolding of teamwork. They’re written with empathy, not just efficiency. And each one comes with **acceptance criteria** - a checklist that clarifies what “done” actually means:
 
 - A “Forgot Password” link is visible
 - Clicking it shows a form
@@ -360,13 +360,13 @@ User stories are the scaffolding of teamwork. They’re written with empathy, no
 
 Once a story is agreed upon, developers break it down into tasks, like “build form,” “hook into backend,” or “handle email validation.” It’s collaborative, not prescriptive. And user stories have priority so you know what’s the most important and what’s the least.
 
-A helpful rule of thumb many teams use is the [Gherkin-style "Given–When–Then" (<FontIcon icon="fa-brands fa-medium"/>`nic`)](https://medium.com/@nic/writing-user-stories-with-gherkin-dda63461b1d2) format:
+A helpful rule of thumb many teams use is the [Gherkin-style "Given-When-Then" (<FontIcon icon="fa-brands fa-medium"/>`nic`)](https://medium.com/@nic/writing-user-stories-with-gherkin-dda63461b1d2) format:
 
 - **Given** some initial context
 - **When** an event occurs
 - **Then** a specific outcome should happen
 
-This ensures that everyone – devs, testers, and product owners – shares the same understanding of behavior and expectations.
+This ensures that everyone - devs, testers, and product owners - shares the same understanding of behavior and expectations.
 
 [<FontIcon icon="fa-brands fa-youtube"/>Here is a great video example](https://youtu.be/7hoGqhb6qAs) thats outlines how to draft effective and powerful user stories.
 
@@ -376,13 +376,13 @@ This ensures that everyone – devs, testers, and product owners – shares the 
 
 ## What Counts as “Done”? Definition of Done and Why It’s Important
 
-Now you might be wondering – how do I know when a task is done and can be closed out?
+Now you might be wondering - how do I know when a task is done and can be closed out?
 
 The **Definition of Done** is a type of documentation in the form of a **team agreement**. The Definition of Done identifies the conditions that need to be achieved in order for the product to be considered done (as in **potentially shippable**).
 
 This is how we know that we "did the thing right". Meaning, we built the correct level of quality into the product. The Definition of Done is not the same as the acceptance criteria, which are written by the product owner to help us know we did the "right thing".
 
-Every team has a Definition of Done – it’s not just “I pushed code.” It could mean:
+Every team has a Definition of Done - it’s not just “I pushed code.” It could mean:
 
 - Code is written
 - Reviewed by a peer
@@ -390,7 +390,7 @@ Every team has a Definition of Done – it’s not just “I pushed code.” It 
 - Tested on staging
 - Possibly deployed
 
-This clarity keeps teams honest and accountable. No “it works on my machine” energy here. The DoD sets a quality bar. It prevents ambiguity, rework, and “it works on my machine” moments. When every card on the board passes the same finish line, teams move faster – and trust each other more.
+This clarity keeps teams honest and accountable. No “it works on my machine” energy here. The DoD sets a quality bar. It prevents ambiguity, rework, and “it works on my machine” moments. When every card on the board passes the same finish line, teams move faster - and trust each other more.
 
 Everyone should know what done is in a team. Either its Done as per DoD standards or its not.
 
@@ -416,7 +416,7 @@ In the retro, everyone’s encouraged to speak up:
 
 :::
 
-The goal is not to blame – it’s to *improve*. Over time, this feedback loop becomes gold. The Scrum Master usually facilitates, collects feedback (via tools like Parabol, Miro, or sticky notes), and helps turn insights into actionable experiments for the next sprint.
+The goal is not to blame - it’s to *improve*. Over time, this feedback loop becomes gold. The Scrum Master usually facilitates, collects feedback (via tools like Parabol, Miro, or sticky notes), and helps turn insights into actionable experiments for the next sprint.
 
 Over time, retros become the heartbeat of team evolution.
 
@@ -426,7 +426,7 @@ Over time, retros become the heartbeat of team evolution.
 
 ### 🧠 Why Retrospection Matters More Than You Think
 
-The Sprint Retrospective is more than just another meeting. It’s a mirror for your team – a safe, structured space to pause, reflect, and improve together.
+The Sprint Retrospective is more than just another meeting. It’s a mirror for your team - a safe, structured space to pause, reflect, and improve together.
 
 You discuss:
 
@@ -444,13 +444,13 @@ This is why many experienced Scrum practitioners consider the retro to be the mo
 
 Scrum doesn’t require software, but real-world teams use a variety of tools:
 
-- **Jira** – Tracks sprints, issues, velocity
-- **Trello** – Simple board, good for small teams
-- **Slack** – Where standups often happen if async
-- **Notion / Confluence** – Docs, retros, notes
-- **GitHub Projects** – Lightweight planning for devs
+- **Jira** - Tracks sprints, issues, velocity
+- **Trello** - Simple board, good for small teams
+- **Slack** - Where standups often happen if async
+- **Notion / Confluence** - Docs, retros, notes
+- **GitHub Projects** - Lightweight planning for devs
 
-Don’t worry if you’re not fluent in these yet. They’re tools – you’ll learn them on the job.
+Don’t worry if you’re not fluent in these yet. They’re tools - you’ll learn them on the job.
 
 ---
 
@@ -459,7 +459,7 @@ Don’t worry if you’re not fluent in these yet. They’re tools – you’ll 
 - ✍️ Practice writing user stories from your side projects
 - 🧪 Run a mini-sprint: Plan your weekend project, set goals, and “review” it at the end
 - 🤝 Contribute to an open-source project that uses Scrum or Agile workflows
-- 🧾 Write about what you learned – maybe as a tutorial (*hint hint*)
+- 🧾 Write about what you learned - maybe as a tutorial (*hint hint*)
 
 ---
 
@@ -467,9 +467,9 @@ Don’t worry if you’re not fluent in these yet. They’re tools – you’ll 
 
 So to recap, Scrum is a simple yet powerful way for teams to work together, stay organized, and deliver results quickly. It runs in short cycles called **sprints**, where the team plans what to do, checks in daily, shows their progress at the end, and reflects on how to improve.
 
-The four key ceremonies – **Sprint Planning**, **Daily Scrum**, **Sprint Review**, and **Sprint Retrospective** – help keep everyone aligned and focused. With clear roles and regular feedback, Scrum makes it easier to handle changes, solve problems early, and continuously get better as a team.
+The four key ceremonies - **Sprint Planning**, **Daily Scrum**, **Sprint Review**, and **Sprint Retrospective** - help keep everyone aligned and focused. With clear roles and regular feedback, Scrum makes it easier to handle changes, solve problems early, and continuously get better as a team.
 
-But scrum isn’t a magic spell. It’s just a way for humans to build complex things – together – without falling apart.
+But scrum isn’t a magic spell. It’s just a way for humans to build complex things - together - without falling apart.
 
 You don’t need to be a Scrum Master. You don’t need a certification. But if you understand how sprints work, what’s expected of you, and how to show up to meetings with clarity and candor, you’re 10 steps ahead of most.
 

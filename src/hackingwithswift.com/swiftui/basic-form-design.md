@@ -98,7 +98,7 @@ If you're using Xcode 12 you need to use `SegmentedPickerStyle()` rather than `.
 When that code is run you'll see two things that are fundamental to the behavior of forms:
 
 - On iOS the form automatically adopts the style of a grouped list, so users see a scrolling selection of options.
-- The button has adapted itself to look like an actionable list row – it's left-aligned and in blue.
+- The button has adapted itself to look like an actionable list row - it's left-aligned and in blue.
 
 You can have as many rows in your form as you need, but remember to use `Group` if you need more than 10.
 

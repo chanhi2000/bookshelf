@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/strings",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -40,7 +40,7 @@ head:
 ```component VPCard
 {
   "title": "How do you make raw strings in Swift?",
-  "desc": "Raw strings place hash signs – <code>#</code> – before and after their quote mark, and modify the way Swift handles strings in two ways.... ",
+  "desc": "Raw strings place hash signs - <code>#</code> - before and after their quote mark, and modify the way Swift handles strings in two ways.... ",
   "link": "/hackingwithswift.com/example-code/strings/how-do-you-make-raw-strings-in-swift.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to calculate the ROT13 of a string",
-  "desc": "ROT13 is a simple algorithm that shifts letters in a string forward 13 places. It’s obviously not suitable for any serious encryption, but it’s very useful for hiding text so its meaning is not obvious – posting spoilers on a forum, for example, is best done using ROT13 to avoid someone getting annoyed.... ",
+  "desc": "ROT13 is a simple algorithm that shifts letters in a string forward 13 places. It’s obviously not suitable for any serious encryption, but it’s very useful for hiding text so its meaning is not obvious - posting spoilers on a forum, for example, is best done using ROT13 to avoid someone getting annoyed.... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-calculate-the-rot13-of-a-string.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ head:
 ```component VPCard
 {
   "title": "How to capitalize words in a string using capitalized",
-  "desc": "Swift offers several ways of adjusting the letter case of a string, but if you're looking for title case – that is, Text Where The First Letter Of Each String Is Capitalized - then you need to use the <code>capitalized</code> property, like this:... ",
+  "desc": "Swift offers several ways of adjusting the letter case of a string, but if you're looking for title case - that is, Text Where The First Letter Of Each String Is Capitalized - then you need to use the <code>capitalized</code> property, like this:... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-capitalize-words-in-a-string-using-capitalized.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -100,7 +100,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert a string to a safe format for URL slugs and filenames",
-  "desc": "Swift strings are extraordinarily complex beasts, allowing you to mix in characters from any language – including emoji – freely. While this is really important to display text, it can also cause havoc while trying to create URLs and filenames, so if you need to refer to a string in those places you should first convert it to a <em>slug</em>.... ",
+  "desc": "Swift strings are extraordinarily complex beasts, allowing you to mix in characters from any language - including emoji - freely. While this is really important to display text, it can also cause havoc while trying to create URLs and filenames, so if you need to refer to a string in those places you should first convert it to a <em>slug</em>.... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-a-safe-format-for-url-slugs-and-filenames.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,7 +110,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert a string to lowercase letters",
-  "desc": "You can convert any string to lowercase – that is, going from 'HELLO' to 'hello' – by calling its <code>lowercased()</code> method, like this:... ",
+  "desc": "You can convert any string to lowercase - that is, going from 'HELLO' to 'hello' - by calling its <code>lowercased()</code> method, like this:... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-lowercase-letters.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -120,7 +120,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert a string to uppercase letters",
-  "desc": "If you want to convert a string to uppercase – that is, WHERE EVERY LETTER IS A CAPITAL LETTER – you should use the <code>uppercased()</code> method of your string, like this:... ",
+  "desc": "If you want to convert a string to uppercase - that is, WHERE EVERY LETTER IS A CAPITAL LETTER - you should use the <code>uppercased()</code> method of your string, like this:... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-convert-a-string-to-uppercase-letters.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -310,7 +310,7 @@ head:
 ```component VPCard
 {
   "title": "How to trim whitespace in a string",
-  "desc": "It's not hard to trim whitespace from a string in Swift, but the syntax is a little wordy – or 'self-descriptive' if you're feeling optimistic. You need to use the <code>trimmingCharacters(in:)</code> method and provide a list of the characters you want to trim. If you're just using whitespace (tabs, spaces and new lines) you can use the predefined <code>whitespacesAndNewlines</code> list of characters, like this:... ",
+  "desc": "It's not hard to trim whitespace from a string in Swift, but the syntax is a little wordy - or 'self-descriptive' if you're feeling optimistic. You need to use the <code>trimmingCharacters(in:)</code> method and provide a list of the characters you want to trim. If you're just using whitespace (tabs, spaces and new lines) you can use the predefined <code>whitespacesAndNewlines</code> list of characters, like this:... ",
   "link": "/hackingwithswift.com/example-code/strings/how-to-trim-whitespace-in-a-string.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

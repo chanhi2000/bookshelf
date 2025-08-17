@@ -85,7 +85,7 @@ It can automatically generate:
 - API documentation
 - and other interface-related artifacts
 
-TypeSpec isn't just a language – it's an API design platform that favors abstraction, encourages code reuse, and integrates with modern tools like Visual Studio Code via a dedicated extension. You can install the extension via the VS Code [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=typespec.typespec-vscode).
+TypeSpec isn't just a language - it's an API design platform that favors abstraction, encourages code reuse, and integrates with modern tools like Visual Studio Code via a dedicated extension. You can install the extension via the VS Code [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=typespec.typespec-vscode).
 
 ---
 
@@ -136,7 +136,7 @@ Create a folder containing the project and open it with Visual Studio Code. Then
 
 In the search bar that appears, enter `TypeSpec: Create TypeSpec Project`.
 
-Follow the quick selections to select the root folder of the project you've just created. Then choose the Template – for our case this will be `Generic REST API` – and enter the project name. Leave the emitter `OpenAPI 3.1 document` (3.1 is the current version at the time of writing) selected by default. This will put us `@typespec/http@typespec/openapi3`. Finally, wait for the project configuration to finish.
+Follow the quick selections to select the root folder of the project you've just created. Then choose the Template - for our case this will be `Generic REST API` - and enter the project name. Leave the emitter `OpenAPI 3.1 document` (3.1 is the current version at the time of writing) selected by default. This will put us `@typespec/http@typespec/openapi3`. Finally, wait for the project configuration to finish.
 
 You should have a basic TypeSpec project configuration with a structure that looks like this:
 
@@ -334,7 +334,7 @@ This adds validation rules directly to the schema, which will be taken into acco
 
 ### Comparison with Other Tools (OpenAPI / Swagger)
 
-So you might wonder – why should you use TypeSpec rather than writing directly in OpenAPI?
+So you might wonder - why should you use TypeSpec rather than writing directly in OpenAPI?
 
 Let's take the example of OpenAPI 3 (YAML):
 

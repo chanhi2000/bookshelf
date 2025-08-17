@@ -161,7 +161,7 @@ As you can see, this is a really simple HTML page, and it’s much harder to ach
 The accessibility score on it’s own does not mean your website is fully accessible. You also need to test the following:
 
 - Manual testing with a screen reader (Mac’s Voiceover or Windows’ Narrator).
-- Keyboard accessibility – test whether each and every part of your website is keyboard accessible
+- Keyboard accessibility - test whether each and every part of your website is keyboard accessible
 - Simulating your website with different color contrasts for different visual impairments.
 
 For simulating, Chrome Developer Tools provides a Rendering tool to emulate your website on different preferences, like light/dark mode, high/low color contrast, reduced motion and various visual impairments.
@@ -190,7 +190,7 @@ You can find all the code snippets on [GitHub (<FontIcon icon="iconfont icon-git
 
 ## Conclusion
 
-Accessibility isn’t just a feature added on top of your code – it should be a part of the development process. When you make a website accessible to everyone, it not only increases your user base, but also promotes inclusivity.
+Accessibility isn’t just a feature added on top of your code - it should be a part of the development process. When you make a website accessible to everyone, it not only increases your user base, but also promotes inclusivity.
 
 Even though the primary benefactors of accessibility are people with disabilities, it also benefits other users by making the website easier to use overall. A lot of the practices mentioned in the article, like using semantic elements, adding the right attributes, and so on are very easy to follow and go a long way towards ensuring accessibility.
 

@@ -154,8 +154,8 @@ export const StreamVideoProvider = ({ children }: { children: ReactNode }) => {
 
 The `StreamVideoProvider` component is initialized and manages Stream’s video functionality across the application. It wraps all pages that require access to Stream's real-time video features. This includes:
 
-- `instructor/[id]` – displays an instructor’s upcoming sessions.
-- `instructor/dashboard` – allows instructors to schedule new video calls.
+- `instructor/[id]` - displays an instructor’s upcoming sessions.
+- `instructor/dashboard` - allows instructors to schedule new video calls.
 
 Update the `getUser` function as shown below:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
-description: Article(s) > Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
+title: Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
+description: Article(s) > Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
 icon: fa-brands fa-rust
 category: 
   - Rust
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
+      content: Article(s) > Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
     - property: og:description
-      content: Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
+      content: Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rust-tutorial-build-a-json-parse.html
 prev: /programming/rust/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/JSON-Pars
 ---
 
 <SiteInfo
-  name="Rust Tutorial – Learn Advanced Iterators & Pattern Matching by Building a JSON Parser"
+  name="Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser"
   desc="Iterators and match patterns are two of the most used language features in Rust. If you have written any real world application, big or small, chances are that you've already used these, whether knowingly or unknowingly. In this tutorial, I aim to help you understand how they actually work, the..."
   url="https://freecodecamp.org/news/rust-tutorial-build-a-json-parse/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

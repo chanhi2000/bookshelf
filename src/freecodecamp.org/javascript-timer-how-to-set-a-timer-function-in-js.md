@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Timer – How to Set a Timer Function in JS"
-description: "Article(s) > JavaScript Timer – How to Set a Timer Function in JS"
+title: "JavaScript Timer - How to Set a Timer Function in JS"
+description: "Article(s) > JavaScript Timer - How to Set a Timer Function in JS"
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Timer – How to Set a Timer Function in JS"
+      content: "Article(s) > JavaScript Timer - How to Set a Timer Function in JS"
     - property: og:description
-      content: "JavaScript Timer – How to Set a Timer Function in JS"
+      content: "JavaScript Timer - How to Set a Timer Function in JS"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-timer-how-to-set-a-timer-function-in-js.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726513174015/5447091
 ---
 
 <SiteInfo
-  name="JavaScript Timer – How to Set a Timer Function in JS"
+  name="JavaScript Timer - How to Set a Timer Function in JS"
   desc="In Javascript, the timer function prevents your code from running everything at once when an event triggers or the page loads. This gives you more control over the timing of your program's actions and can enhance the user experience by creating smoot..."
   url="https://freecodecamp.org/news/javascript-timer-how-to-set-a-timer-function-in-js/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -65,7 +65,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726513174015/5447091
 <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>The above code block shows how to use the <code>setTimeout</code> syntax to execute a function after 3 seconds. The name of the variable is <code>timeoutId</code> which stores the execution of the setTimeout. The time set is 3000 milliseconds (or 3 seconds).</p>
-<p>You can use the <code>setInterval()</code> function when you want to execute a code block repeatedly but at specific intervals – for instance, when animating elements.</p>
+<p>You can use the <code>setInterval()</code> function when you want to execute a code block repeatedly but at specific intervals - for instance, when animating elements.</p>
 <p>The setInterval function is denoted by <code>setInterval()</code>. Here's how you can use it:</p>
 <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token comment">// Execute a function every 1 second</span>
 <span class="token keyword">const</span> intervalId <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>

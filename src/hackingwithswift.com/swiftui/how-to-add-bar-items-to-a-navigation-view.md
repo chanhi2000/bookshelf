@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-The `toolbar()` modifier lets us add single or multiple bar button items to the leading and trailing edge of a navigation stack, as well as other parts of our view if needed. These might be tappable buttons, but there are no restrictions – you can add any sort of view.
+The `toolbar()` modifier lets us add single or multiple bar button items to the leading and trailing edge of a navigation stack, as well as other parts of our view if needed. These might be tappable buttons, but there are no restrictions - you can add any sort of view.
 
 For example, this adds two buttons to the trailing edge of a navigation bar:
 
@@ -80,7 +80,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-bar-items-to-a-navigation-view-1~dark.mp4" />
 
-We haven't specified where the buttons should be displayed, but that's okay – SwiftUI knows that on iOS the trailing edge is the best place for left to right languages, and will automatically flip that to the other side for right to left languages.
+We haven't specified where the buttons should be displayed, but that's okay - SwiftUI knows that on iOS the trailing edge is the best place for left to right languages, and will automatically flip that to the other side for right to left languages.
 
 If you want to control the exact position of your button, you can do so by wrapping it in a `ToolbarItem` and specifying the placement you want. For example, this will create a button and force it be on the leading edge of the navigation bar:
 

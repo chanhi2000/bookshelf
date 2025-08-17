@@ -63,7 +63,7 @@ Simply put, the cloud is a network of remote servers around the world that store
 
 Cloud computing is all about accessing these resources over the internet (instead of a physical computer or server that you have to maintain yourself).
 
-For instance, when you upload a photo to Instagram or stream a show on Netflix, you’re accessing files that are stored in the cloud*.* Instagram and Netflix don’t store all of that data on your phone or laptop – they rely on massive, secure cloud servers to hold it all. Convenient, right?
+For instance, when you upload a photo to Instagram or stream a show on Netflix, you’re accessing files that are stored in the cloud*.* Instagram and Netflix don’t store all of that data on your phone or laptop - they rely on massive, secure cloud servers to hold it all. Convenient, right?
 
 ### A Fun Metaphor
 

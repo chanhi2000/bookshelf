@@ -424,7 +424,7 @@ In CommonJS, [modules are wrapped as functions (<FontIcon icon="iconfont icon-gi
 
 For a quick comparison, a CommonJS module goes through this phase in its lifecycle:
 
-Resolution –> Loading –> Wrapping –> Evaluation –> Caching
+Resolution -> Loading -> Wrapping -> Evaluation -> Caching
 
 This validates the fact that for CommonJS, there is no way to determine what gets exported as a module until the module is wrapped and evaluated. This is quite different for ES modules, as the imported symbols are already [parsed and understood by the language (<FontIcon icon="iconfont icon-github"/>`nodejs/node-eps`)](https://github.com/nodejs/node-eps/blob/master/002-es-modules.md#22-operations) before the code gets evaluated.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Time to Get Hands-on 🙌🏻"
-description: "Article(s) > (2/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (2/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (2/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "Time to Get Hands-on 🙌🏻"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-time-to-get-hands-on"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -90,7 +90,7 @@ Since <FontIcon icon="fas fa-code-branch"/>`new_feature` never really *diverged*
 
 ![The result of a fast-forward merge<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/05/image--7-.png)
 
-Even though you used `git merge`, there was no actual merging here. Actually, Git did something very simple – it reset the <FontIcon icon="fas fa-code-branch"/>`main` branch to point to the same commit as the branch <FontIcon icon="fas fa-code-branch"/>`new_feature`.
+Even though you used `git merge`, there was no actual merging here. Actually, Git did something very simple - it reset the <FontIcon icon="fas fa-code-branch"/>`main` branch to point to the same commit as the branch <FontIcon icon="fas fa-code-branch"/>`new_feature`.
 
 In case you don't want that to happen, but rather you want Git to really perform a merge, you could either change Git's configuration, or run the `merge` command with the `--no-ff` flag.
 
@@ -135,7 +135,7 @@ git log -n1
 
 ![The merge commit has two parents<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-201.png)
 
-You will see that this commit actually has two parents – "Commit 4", which was the commit that <FontIcon icon="fas fa-code-branch"/>`new_feature` pointed to when you ran `git merge`, and "Commit 3", which was the commit that <FontIcon icon="fas fa-code-branch"/>`main` pointed to. So a merge commit has two parents: the two commits it merged.
+You will see that this commit actually has two parents - "Commit 4", which was the commit that <FontIcon icon="fas fa-code-branch"/>`new_feature` pointed to when you ran `git merge`, and "Commit 3", which was the commit that <FontIcon icon="fas fa-code-branch"/>`main` pointed to. So a merge commit has two parents: the two commits it merged.
 
 The merge commit shows us the concept of merge quite well. Git takes two commits, usually referenced by two different branches, and merges them together.
 
@@ -145,6 +145,6 @@ Notice that you started on <FontIcon icon="fas fa-code-branch"/>`main` when it p
 
 This was a super simple case, where the branches you merged didn't diverge at all.
 
-By the way, you can use `git merge` to merge more than two commits – actually, any number of commits. This is rarely done and I don't see a good reason to elaborate on it here.
+By the way, you can use `git merge` to merge more than two commits - actually, any number of commits. This is rarely done and I don't see a good reason to elaborate on it here.
 
-Another way to think of `git merge` is by joining two or more *development histories* together. That is, when you merge, you incorporate changes from the named commits, since the time their histories diverged *from* the current branch, *into* the current branch. I used the term `branch` here, but I am stressing this again – we are actually merging commits.
+Another way to think of `git merge` is by joining two or more *development histories* together. That is, when you merge, you incorporate changes from the named commits, since the time their histories diverged *from* the current branch, *into* the current branch. I used the term `branch` here, but I am stressing this again - we are actually merging commits.

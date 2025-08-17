@@ -59,7 +59,7 @@ I spend a fair amount of time trying to solve two-dimensional problems, and a sl
 
 While I enjoy practicing coding in my off time, by day I am an air traffic controller. The problems we face as air traffic controllers aren’t different than any other job. There are routine problems with routine solutions and unique problems with unique solutions. It’s through a deeper understanding that we can solve the unique ones.
 
-From the outside looking in at air traffic control, it may seem everything is a unique problem–that there is an inherent requisite skill to do the job. However, while certain aptitudes can make learning any skill easier, it is ultimately experience that drives problem-solving to a subconscious level. The result is intuition.
+From the outside looking in at air traffic control, it may seem everything is a unique problem-that there is an inherent requisite skill to do the job. However, while certain aptitudes can make learning any skill easier, it is ultimately experience that drives problem-solving to a subconscious level. The result is intuition.
 
 Intuition follows observation. Observe a unique problem enough times, and it and its solution become routine. It’s noticing the consistencies across each situation where we begin to develop a sense of what *should* happen next.
 
@@ -84,7 +84,7 @@ Take some time to think about what this code will output. We will begin to build
 
 I grew up in the Northeastern United States. Although I speak English, my speech undeniably contains regional variety. This variety is called *dialect*. My particular dialect is an *implementation* (or version) of the English language standard.
 
-It may seem standards would give birth to dialects, but it is the dialect which initially drives the need for standards. JavaScript is similar. JavaScript is the dialect, not the standard. The standard is *ECMAScript*, created by ECMA–the European Computer Manufacturers Association. ECMAScript is an attempt to standardize JavaScript.
+It may seem standards would give birth to dialects, but it is the dialect which initially drives the need for standards. JavaScript is similar. JavaScript is the dialect, not the standard. The standard is *ECMAScript*, created by ECMA-the European Computer Manufacturers Association. ECMAScript is an attempt to standardize JavaScript.
 
 There is more than one implementation of ECMAScript, but JavaScript happens to be the most popular, and therefore, the name JavaScript and ECMAScript are often used interchangeably.
 

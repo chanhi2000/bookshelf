@@ -317,11 +317,11 @@ Convex is a serverless BaaS platform. It provides real-time data sync and scalab
 
 ::: info Convex Features
 
-- **Database** – Real-time data storage
-- **Serverless Functions** – Run backend logic without managing servers
-- **Authentication** – Built-in user auth & access control
-- **Caching** – Faster data retrieval
-- **Webhooks & Crons** – Automate tasks & trigger events
+- **Database** - Real-time data storage
+- **Serverless Functions** - Run backend logic without managing servers
+- **Authentication** - Built-in user auth & access control
+- **Caching** - Faster data retrieval
+- **Webhooks & Crons** - Automate tasks & trigger events
 
 To learn more, click here: [<FontIcon icon="iconfont icon-convex"/>Convex](https://convex.dev/)
 
@@ -329,8 +329,8 @@ To learn more, click here: [<FontIcon icon="iconfont icon-convex"/>Convex](https
 
 ::: important Pricing
 
-- **Free Plan** – Limited resources for small projects
-- **Pro Plan** – Pay-as-you-go based on usage
+- **Free Plan** - Limited resources for small projects
+- **Pro Plan** - Pay-as-you-go based on usage
 
 Check out full details for [<FontIcon icon="iconfont icon-convex"/>convex pricing](https://convex.dev/pricing)
 
@@ -344,11 +344,11 @@ A low-code platform that allows developers to build serverless apps with minimal
 
 ::: info 8base Features
 
-- **Backend Builder** – Manage your database easily.
-- **Serverless Functions** – Run custom backend logic.
-- **GraphQL API** – Auto-generated API for your data.
-- **Authentication** – Built-in user login & access control.
-- **File Management** – Store and manage files.
+- **Backend Builder** - Manage your database easily.
+- **Serverless Functions** - Run custom backend logic.
+- **GraphQL API** - Auto-generated API for your data.
+- **Authentication** - Built-in user login & access control.
+- **File Management** - Store and manage files.
 
 To learn more, click here: [<FontIcon icon="iconfont icon-8base"/>8base](https://8base.com/)
 
@@ -356,10 +356,10 @@ To learn more, click here: [<FontIcon icon="iconfont icon-8base"/>8base](https:/
 
 ::: important Pricing
 
-- **Free Plan** – $0/month (1 developer, basic features).
-- **Developer Plan** – $25/month per developer.
-- **Professional Plan** – $150/month (5 developers).
-- **Custom Plan** – Contact 8base for enterprise solutions.
+- **Free Plan** - $0/month (1 developer, basic features).
+- **Developer Plan** - $25/month per developer.
+- **Professional Plan** - $150/month (5 developers).
+- **Custom Plan** - Contact 8base for enterprise solutions.
 
 Check out full pricing details here: [<FontIcon icon="iconfont icon-8base"/>8base Pricing](https://8base.com/pricing)
 
@@ -416,9 +416,9 @@ To learn more, click here: [<FontIcon icon="iconfont icon-appwrite"/>write](http
 
 ::: important Pricing
 
-- **Free** – $0/month (5GB bandwidth, 2GB storage, 750K function runs).
-- **Pro** – Starts at $15/month (more storage, bandwidth, & features).
-- **Scale** – Starts at $599/month (for large-scale projects).
+- **Free** - $0/month (5GB bandwidth, 2GB storage, 750K function runs).
+- **Pro** - Starts at $15/month (more storage, bandwidth, & features).
+- **Scale** - Starts at $599/month (for large-scale projects).
 
 For more details on the pricing plan check their [<FontIcon icon="iconfont icon-appwrite"/>official pricing page](https://appwrite.io/pricing).
 
@@ -432,11 +432,11 @@ Nhost is a full backend platform with a GraphQL API, database, authentication, a
 
 ::: info Nhost Features
 
-- **Authentication** – Secure login with email, OAuth, and so on.
-- **Database** – Scalable storage with permissions.
-- **Serverless Functions** – Run backend code without servers.
-- **Storage** – Secure file hosting.
-- **Real-Time** – Instant updates on data changes.
+- **Authentication** - Secure login with email, OAuth, and so on.
+- **Database** - Scalable storage with permissions.
+- **Serverless Functions** - Run backend code without servers.
+- **Storage** - Secure file hosting.
+- **Real-Time** - Instant updates on data changes.
 
 To learn more, click here: [<FontIcon icon="iconfont icon-nhost"/>Nhost](https://nhost.io/).
 
@@ -444,9 +444,9 @@ To learn more, click here: [<FontIcon icon="iconfont icon-nhost"/>Nhost](https:/
 
 ::: important Pricing
 
-- **Free** – $0/month (basic features for small projects).
-- **Pro** – $25/month (more resources & support).
-- **Dedicated Compute** – $50/month per vCPU/2GB RAM (for scaling apps).
+- **Free** - $0/month (basic features for small projects).
+- **Pro** - $25/month (more resources & support).
+- **Dedicated Compute** - $50/month per vCPU/2GB RAM (for scaling apps).
 
 Check out full details here: [<FontIcon icon="iconfont icon-nhost"/>Nhost Pricing](https://nhost.io/pricing)
 
@@ -460,11 +460,11 @@ Back4App is an open-source BaaS that simplifies backend development. It provides
 
 ::: info Back4App Features
 
-- **Database** – Manage data with APIs & a visual editor
-- **Authentication** – Secure user login & roles
-- **Real-Time** – Instant data updates
-- **Push Notifications** – Send alerts to users.
-- **Cloud Functions** – Run custom backend code.
+- **Database** - Manage data with APIs & a visual editor
+- **Authentication** - Secure user login & roles
+- **Real-Time** - Instant data updates
+- **Push Notifications** - Send alerts to users.
+- **Cloud Functions** - Run custom backend code.
 
 To learn more, click here: [<FontIcon icon="iconfont icon-back4app"/>Back4apps](https://back4app.com/).
 
@@ -472,9 +472,9 @@ To learn more, click here: [<FontIcon icon="iconfont icon-back4app"/>Back4apps](
 
 ::: important Pricing
 
-- **Free** – 25K requests, 250MB storage, 1GB transfer/month.
-- **MVP Plan** – For launching small apps.
-- **Dedicated Plan** – For production apps with more resources.
+- **Free** - 25K requests, 250MB storage, 1GB transfer/month.
+- **MVP Plan** - For launching small apps.
+- **Dedicated Plan** - For production apps with more resources.
 
 The **MVP Plan** in Back4App refers to a **Minimum Viable Product (MVP) Plan**. It is designed for startups and developers who are launching a small app with essential backend services. This plan provides enough resources to test and validate an idea before scaling up.
 
@@ -492,10 +492,10 @@ AWS Amplify is a development platform from Amazon Web Services (AWS). It simplif
 
 ::: info AWS Amplify Features
 
-- **Authentication** – Secure login with email, social sign-in, and multi-factor authentication
-- **Database & API** – Build real-time APIs with AWS databases
-- **Storage** – Manage files and media with Amazon S3
-- **Hosting** – Deploy full-stack apps with continuous deployment
+- **Authentication** - Secure login with email, social sign-in, and multi-factor authentication
+- **Database & API** - Build real-time APIs with AWS databases
+- **Storage** - Manage files and media with Amazon S3
+- **Hosting** - Deploy full-stack apps with continuous deployment
 
 To learn more, click here: [<FontIcon icon="fa-brands fa-aws"/>Aws Amplify](https://aws.amazon.com/amplify/?gclid=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB&trk=e37f908f-322e-4ebc-9def-9eafa78141b8&sc_channel=ps&ef_id=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB:G:s&s_kwcid=AL!4422!3!647301987559!p!!g!!amplify%20framework!19613610159!148358959649)
 
@@ -509,10 +509,10 @@ To learn more, click here: [<FontIcon icon="fa-brands fa-aws"/>Aws Amplify](http
   - 15GB bandwidth
   - 500K API requests
 - **Pay-As-You-Go (After Free Tier)**
-  - **Build & Deploy** – $0.01 per build minute
-  - **Storage** – $0.023 per GB/month
-  - **Bandwidth** – $0.15 per GB served
-  - **API Requests** – $0.30 per 1M requests
+  - **Build & Deploy** - $0.01 per build minute
+  - **Storage** - $0.023 per GB/month
+  - **Bandwidth** - $0.15 per GB served
+  - **API Requests** - $0.30 per 1M requests
 
 Full details here: [AWS Amplify Pricing](https://aws.amazon.com/amplify/pricing/)
 
@@ -526,11 +526,11 @@ Supabase is an open-source alternative to Firebase. It uses PostgreSQL for its d
 
 ::: info Supabase Features
 
-- **Database** – PostgreSQL with full SQL support.
-- **Authentication** – Secure login with email, password, and social logins.
-- **Storage** – Store and serve files easily.
-- **Real-Time** – Get instant updates when data changes.
-- **Edge Functions** – Run serverless backend logic.
+- **Database** - PostgreSQL with full SQL support.
+- **Authentication** - Secure login with email, password, and social logins.
+- **Storage** - Store and serve files easily.
+- **Real-Time** - Get instant updates when data changes.
+- **Edge Functions** - Run serverless backend logic.
 
 To learn more, click here: [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
 
@@ -538,9 +538,9 @@ To learn more, click here: [<FontIcon icon="iconfont icon-supabase"/>Supabase](h
 
 ::: important Pricing
 
-- **Free** – Great for small projects i.e. projects for learning, and experimentation.
-- **Pro** – Starts at $25/month (includes $10 compute credits).
-- **Team** – Starts at $599/month (for advanced features & support).
+- **Free** - Great for small projects i.e. projects for learning, and experimentation.
+- **Pro** - Starts at $25/month (includes $10 compute credits).
+- **Team** - Starts at $599/month (for advanced features & support).
 
 Full details here: [<FontIcon icon="iconfont icon-supabase"/>Supabase Pricing](https://supabase.com/pricing)
 

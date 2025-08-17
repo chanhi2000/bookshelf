@@ -58,7 +58,7 @@ In this project, you will build a multilingual social recipe application using F
 
 Flutter is an open-source UI software development kit created by Google. It allows you to build beautiful and highly interactive user interfaces for mobile, web, and desktop from a single codebase.
 
-Strapi, on the other hand, is a headless CMS that makes it easy to create, manage and distribute content anywhere you need – all from one place.
+Strapi, on the other hand, is a headless CMS that makes it easy to create, manage and distribute content anywhere you need - all from one place.
 
 The multilingual feature of the application will allow users from different parts of the world to interact with the app in their native language, making it more user-friendly and accessible. This feature is particularly beneficial for a social recipe application where users share recipes from different cuisines and cultures.
 

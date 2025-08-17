@@ -83,5 +83,5 @@ So, using our credit card example the following might happen:
 3. We create a second credit card using the number 1234.
 4. We set the balance of that to be $0.
 
-SwiftData will not allow us to have two credit cards with the same number, because we marked that attribute as unique, so instead when that code finishes we’ll have just one card with a balance of $0 – the most recent value.
+SwiftData will not allow us to have two credit cards with the same number, because we marked that attribute as unique, so instead when that code finishes we’ll have just one card with a balance of $0 - the most recent value.
 

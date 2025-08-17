@@ -54,7 +54,7 @@ isOriginal: false
 
 Swift’s `Task` struct lets us start running some work immediately, and optionally wait for the result to be returned. And it *is* optional: sometimes you don’t care about the result of the task, or sometimes the task automatically updates some external value when it completes, so you can just use them as “fire and forget” operations if you need to. This makes them a great way to run async code from a synchronous function.
 
-First, let’s look at an example where we create two tasks back to back, then wait for them both to complete. This will fetch data from two different URLs, decode them into two different structs, then print a summary of the results, all to simulate a user starting up a game – what are the latest news updates, and what are the current highest scores?
+First, let’s look at an example where we create two tasks back to back, then wait for them both to complete. This will fetch data from two different URLs, decode them into two different structs, then print a summary of the results, all to simulate a user starting up a game - what are the latest news updates, and what are the current highest scores?
 
 Here’s how that looks:
 
@@ -104,15 +104,15 @@ await fetchUpdates()
 Let’s unpick the key parts:
 
 1. Creating and running a task is done by using its initializer, passing in the work you want to do. 
-2. Tasks don’t always need to return a value, but when they do chances are you’ll need to declare exactly what as you create the task – I’ve said `() -> [NewsItem] in`, for example.
-3. As soon as you create the task it will start running – there’s no `start()` method or similar.
+2. Tasks don’t always need to return a value, but when they do chances are you’ll need to declare exactly what as you create the task - I’ve said `() -> [NewsItem] in`, for example.
+3. As soon as you create the task it will start running - there’s no `start()` method or similar.
 4. The entire task is run concurrently with your other code, which means it might be able to run in parallel too. In our case, that means fetching and decoding the data happens inside the task, which keeps our main `fetchUpdates()` function free.
 5. If you want to read the return value of a task, you need to access its `value` property using `await`. In our case our task could also throw errors because we’re accessing the network, so we need to use `try` as well.
-6. Once you’ve copied out the value from your task you can use that normally without needing `await` or `try` again, although subsequent accesses to the task itself – e.g. `newsTask.value` – *will* need `try await` because Swift can’t statically determine that the value is already present.
+6. Once you’ve copied out the value from your task you can use that normally without needing `await` or `try` again, although subsequent accesses to the task itself - e.g. `newsTask.value` - *will* need `try await` because Swift can’t statically determine that the value is already present.
 
-Both tasks in that example returned a value, but that’s not a requirement – the “fire and forget” approach allows us to create a task without storing it, and Swift will ensure it runs until completion correctly.
+Both tasks in that example returned a value, but that’s not a requirement - the “fire and forget” approach allows us to create a task without storing it, and Swift will ensure it runs until completion correctly.
 
-To demonstrate this, we could make a small SwiftUI program to fetch a user’s inbox when a button is pressed. Button actions are *not* async functions, so we need to launch a new task inside the action. The task *can* call async functions, but in this instance we don’t actually care about the result so we’re not going to store the task – the function it calls will handle updating our SwiftUI view.
+To demonstrate this, we could make a small SwiftUI program to fetch a user’s inbox when a button is pressed. Button actions are *not* async functions, so we need to launch a new task inside the action. The task *can* call async functions, but in this instance we don’t actually care about the result so we’re not going to store the task - the function it calls will handle updating our SwiftUI view.
 
 Here’s the code:
 
@@ -178,10 +178,10 @@ In this case there are potentially four thread swaps happening in our code:
 
 - All UI work runs on the main thread, so the button’s action closure will fire on the main thread.
 - Although we create the task on the main thread, the work we pass to it will execute on a background thread. 
-- Inside `loadMessages()` we use `await` to load our URL data, and when that resumes we have another potential thread switch – we might be on the same background thread as before, or on a different background thread.
+- Inside `loadMessages()` we use `await` to load our URL data, and when that resumes we have another potential thread switch - we might be on the same background thread as before, or on a different background thread.
 - Finally, the `messages` property uses the `@State` property wrapper, which will automatically update its value on the main thread. So, even though we assign to it on a background thread, the actual update will get silently pushed back to the main thread.
 
-Best of all, we don’t have to care about this – we don’t need to know how the system is balancing the threads, or even that the threads exist, because Swift and SwiftUI take care of that for us. In fact, the concept of tasks is so thoroughly baked into SwiftUI that there’s a dedicated `task()` modifier that makes them even easier to use.
+Best of all, we don’t have to care about this - we don’t need to know how the system is balancing the threads, or even that the threads exist, because Swift and SwiftUI take care of that for us. In fact, the concept of tasks is so thoroughly baked into SwiftUI that there’s a dedicated `task()` modifier that makes them even easier to use.
 
 ::: details Similar solutions…
 

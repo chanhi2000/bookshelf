@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object"
-description: "Article(s) > JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object"
+title: "JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
+description: "Article(s) > JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object"
+      content: "Article(s) > JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
     - property: og:description
-      content: "JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object"
+      content: "JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prototypes-and-inheritance-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2022/04/pexels-maor-attias-5
 ---
 
 <SiteInfo
-  name="JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object"
+  name="JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
   desc="Hi everyone! In this short article we're going to talk about prototypal inheritance in JavaScript, and what are the implications of it. Table of Contents Intro How to access a prototype’s properties and methods in JavaScript The prototype chain A..."
   url="https://freecodecamp.org/news/prototypes-and-inheritance-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,7 +67,7 @@ You’re probably wondering: why the need for inheritance in the first place? We
 
 ### How to Access a Prototype’s Properties and Methods in JavaScript
 
-When we try to access a property of an object, the property is not only searched in the object itself. It's also searched in the prototype of the object, in the prototype of the prototype, and so on – until a property is found that matches the name or the end of the **prototype chain** is reached.
+When we try to access a property of an object, the property is not only searched in the object itself. It's also searched in the prototype of the object, in the prototype of the prototype, and so on - until a property is found that matches the name or the end of the **prototype chain** is reached.
 
 If the property or method isn’t found anywhere in the prototype chain, only then will JavaScript return `undefined`.
 
@@ -186,7 +186,7 @@ console.log(alien1.phrase) // output "I'm Ali the alien!"
 alien1.fly() // output "Zzzzzziiiiiinnnnnggggg"
 ```
 
-Any function can be invoked as a constructor with the keyword `new` and the prototype property of that function is used for the object to inherit methods from. In JavaScript, “class” is only used conceptually to describe the above practice – technically they’re just functions.😑
+Any function can be invoked as a constructor with the keyword `new` and the prototype property of that function is used for the object to inherit methods from. In JavaScript, “class” is only used conceptually to describe the above practice - technically they’re just functions.😑
 
 Although this doesn't necessarily make a lot of difference (we can still perfectly implement OOP and use classes like in most other programming languages), it's important to remember that JavaScript is built with prototype inheritance at its core.
 
@@ -199,7 +199,7 @@ That's it, everyone! As always, I hope you enjoyed the article and learned somet
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JavaScript Prototypes and Inheritance – and Why They Say Everything in JS is an Object",
+  "title": "JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object",
   "desc": "Hi everyone! In this short article we're going to talk about prototypal inheritance in JavaScript, and what are the implications of it. Table of Contents Intro How to access a prototype’s properties and methods in JavaScript The prototype chain A...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prototypes-and-inheritance-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

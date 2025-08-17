@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Create a Kubernetes Cluster in a Demo Environment with play-with-k8s"
-description: Article(s) > (4/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (4/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (4/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (4/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "How to Create a Kubernetes Cluster in a Demo Environment with play-with-k8s"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-how-to-create-a-kubernetes-cluster-in-a-demo-environment-with-play-with-k8s"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

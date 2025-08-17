@@ -49,14 +49,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745416742960/89cce35
 
 <SiteInfo
   name="How to Change the Password of a Superuser in Django"
-  desc="Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how. If you’re working on a Django project – whether it’s a hobby blog, a client’s website, or a bigger web application – mana..."
+  desc="Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how. If you’re working on a Django project - whether it’s a hobby blog, a client’s website, or a bigger web application - mana..."
   url="https://freecodecamp.org/news/how-to-change-the-password-of-a-superuser-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745416742960/89cce35f-2e91-4329-8fea-0d1551bea2c7.png"/>
 
 Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how.
 
-If you’re working on a Django project – whether it’s a hobby blog, a client’s website, or a bigger web application – managing your admin accounts safely is a must.
+If you’re working on a Django project - whether it’s a hobby blog, a client’s website, or a bigger web application - managing your admin accounts safely is a must.
 
 And one key part of that? Making sure your superuser password is strong, secure, and easy for *you* to update.
 
@@ -72,7 +72,7 @@ Let’s dive in.
 
 ## Why Changing the Superuser Password Matters
 
-Your Django superuser has full access to the admin dashboard. This means they can add or delete users, edit data, manage settings – everything. If that account gets compromised, the whole site is at risk.
+Your Django superuser has full access to the admin dashboard. This means they can add or delete users, edit data, manage settings - everything. If that account gets compromised, the whole site is at risk.
 
 Here’s what could go wrong if the password is weak or outdated:
 
@@ -82,7 +82,7 @@ Here’s what could go wrong if the password is weak or outdated:
 
 According to [<FontIcon icon="fas fa-globe"/>Verizon’s Data Breach Investigations Report](https://verizon.com/business/en-sg/resources/articles/analyzing-covid-19-data-breach-landscape/), over **80%** of hacking-related breaches are due to compromised or weak passwords. That’s a huge risk for something that’s easy to fix in a few minutes.
 
-So let’s make sure your Django admin is locked down tight – without breaking anything.
+So let’s make sure your Django admin is locked down tight - without breaking anything.
 
 ---
 
@@ -260,7 +260,7 @@ Let’s keep the conversation going, Connect with me on [X (<FontIcon icon="fa-b
 ```component VPCard
 {
   "title": "How to Change the Password of a Superuser in Django",
-  "desc": "Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how. If you’re working on a Django project – whether it’s a hobby blog, a client’s website, or a bigger web application – mana...",
+  "desc": "Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how. If you’re working on a Django project - whether it’s a hobby blog, a client’s website, or a bigger web application - mana...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-the-password-of-a-superuser-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

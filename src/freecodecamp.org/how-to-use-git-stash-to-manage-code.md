@@ -43,12 +43,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728563160215/147e5b8
 
 <SiteInfo
   name="How to Use Git Stash to Efficiently Manage Your Code"
-  desc="Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task – but you don't want to lose your progress. So what do you do? Fortunately, git stash comes to the rescue. In this article, you’ll learn all about t..."
+  desc="Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task - but you don't want to lose your progress. So what do you do? Fortunately, git stash comes to the rescue. In this article, you’ll learn all about t..."
   url="https://freecodecamp.org/how-to-use-git-stash-to-manage-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1728563160215/147e5b8d-960d-4a90-ad2f-6d71337ac0ce.jpeg"/>
 
-Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task – but you don't want to lose your progress. So what do you do? Fortunately, `git stash` comes to the rescue.
+Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task - but you don't want to lose your progress. So what do you do? Fortunately, `git stash` comes to the rescue.
 
 In this article, you’ll learn all about the [<FontIcon icon="iconfont icon-git"/>git stash](https://git-scm.com/docs/git-stash) command and why it’s important to stash your code. By the end of this article, you will have firsthand knowledge of how to use the `git stash` command in your projects.
 
@@ -196,7 +196,7 @@ Thank you for reading.
 ```component VPCard
 {
   "title": "How to Use Git Stash to Efficiently Manage Your Code",
-  "desc": "Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task – but you don't want to lose your progress. So what do you do? Fortunately, git stash comes to the rescue. In this article, you’ll learn all about t...",
+  "desc": "Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task - but you don't want to lose your progress. So what do you do? Fortunately, git stash comes to the rescue. In this article, you’ll learn all about t...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-git-stash-to-manage-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

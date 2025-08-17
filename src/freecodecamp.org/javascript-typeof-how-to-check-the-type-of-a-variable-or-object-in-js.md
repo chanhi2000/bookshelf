@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript TypeOf – How to Check the Type of a Variable or Object in JS"
-description: "Article(s) > JavaScript TypeOf – How to Check the Type of a Variable or Object in JS"
+title: "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
+description: "Article(s) > JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript TypeOf – How to Check the Type of a Variable or Object in JS"
+      content: "Article(s) > JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
     - property: og:description
-      content: "JavaScript TypeOf – How to Check the Type of a Variable or Object in JS"
+      content: "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2020/11/cover.png
 ---
 
 <SiteInfo
-  name="JavaScript TypeOf – How to Check the Type of a Variable or Object in JS"
+  name="JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
   desc="Data types and type checking are fundamental aspects of any programming language. Many programming languages like Java have strict type checking. This means that if a variable is defined with a specific type it can contain a value of only that type. ..."
   url="https://freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -87,7 +87,7 @@ In JavaScript, there are seven primitive types. A primitive is anything that is 
 6. undefined
 7. null
 
-Everything else is an `object` – even including `array` and `function`. An object is a collection of key-value pairs.
+Everything else is an `object` - even including `array` and `function`. An object is a collection of key-value pairs.
 
 ---
 
@@ -250,7 +250,7 @@ Fortunately there are ways to detect an Array correctly. We will see that soon.
 
 ---
 
-## Beyond `typeof` – Better Type Checking
+## Beyond `typeof` - Better Type Checking
 
 Now that we've seen some of the limitations with the `typeof` operator, let's see how to fix them and do better type checking.
 
@@ -425,7 +425,7 @@ That's all for now. See you again with my next article soon. Until then, please 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JavaScript TypeOf – How to Check the Type of a Variable or Object in JS",
+  "title": "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS",
   "desc": "Data types and type checking are fundamental aspects of any programming language. Many programming languages like Java have strict type checking. This means that if a variable is defined with a specific type it can contain a value of only that type. ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

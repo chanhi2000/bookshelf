@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -91,7 +91,7 @@ As you can see, this method removes the text from the current answer text field,
 
 That just leaves one very important method to fill in, and you already created its stub: the `submitTapped()` method for when the player taps the submit button.
 
-This method will use `firstIndex(of:)` to search through the `solutions` array for an item and, if it finds it, tells us its position. Remember, the return value of `firstIndex(of:)` is optional so that in situations where nothing is found you won't get a value back – we need to unwrap its return value carefully.
+This method will use `firstIndex(of:)` to search through the `solutions` array for an item and, if it finds it, tells us its position. Remember, the return value of `firstIndex(of:)` is optional so that in situations where nothing is found you won't get a value back - we need to unwrap its return value carefully.
 
 If the user gets an answer correct, we're going to change the answers label so that rather than saying "7 LETTERS" it says "HAUNTED", so they know which ones they have solved already. 
 
@@ -101,7 +101,7 @@ You've already learned how to use `components(separatedBy:)` to split text into 
 
 Once that's done, we clear the current answer text field and add one to the score. If the score is evenly divisible by 7, we know they have found all seven words so we're going to show a `UIAlertController` that will prompt the user to go to the next level.
 
-If you remember, Swift has a division remainder operator, `%`, that tells us what number remains when you divide one number evenly by another – that’s perfect here.
+If you remember, Swift has a division remainder operator, `%`, that tells us what number remains when you divide one number evenly by another - that’s perfect here.
 
 That's all the parts explained, so here's the complete `submitTapped()` method:
 
@@ -152,5 +152,5 @@ func levelUp(action: UIAlertAction) {
 
 As you can see, that code clears out the existing `solutions` array before refilling it inside `loadLevel()`. Then of course you'd need to create level2.txt, level3.txt and so on.
 
-To get you started, I've made an example level2.txt for you inside my example files for this project – try adding that to the project and see what you think. Any further levels are for you to do – just make sure there's a total of 20 letter groups each time!
+To get you started, I've made an example level2.txt for you inside my example files for this project - try adding that to the project and see what you think. Any further levels are for you to do - just make sure there's a total of 20 letter groups each time!
 

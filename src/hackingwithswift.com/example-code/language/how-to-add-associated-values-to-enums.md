@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Enums with associated values let you associate extra data with an enum case. This helps make them significantly more useful, because we can create gradations of cases rather than have them be absolute.
 
-For example, we could create a `Weather` enum that can store various weather types: sunny, cloudy, windy, and rainy. However, that doesn’t really describe those conditions very well – how cloudy is it? Is it gale force winds or just a breeze? Is the rain definitely going to happen, or is it a fairly remote chance?
+For example, we could create a `Weather` enum that can store various weather types: sunny, cloudy, windy, and rainy. However, that doesn’t really describe those conditions very well - how cloudy is it? Is it gale force winds or just a breeze? Is the rain definitely going to happen, or is it a fairly remote chance?
 
 With enum associated values we can describe these situations more accurately. For example:
 
@@ -74,7 +74,7 @@ enum Weather {
 }
 ```
 
-That leaves “sunny” as a simple value, but the other three all have associated values – how cloudy it is, what the speed of the wind is, and how likely the rain is.
+That leaves “sunny” as a simple value, but the other three all have associated values - how cloudy it is, what the speed of the wind is, and how likely the rain is.
 
 Using those values we can now create instances of those enums:
 

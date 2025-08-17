@@ -99,7 +99,7 @@ let ternaryResult = score > 500 ? "Pass" : "Fail"
 print(ternaryResult)
 ```
 
-However, the two are not identical, and there is one place in particular that might catch you out – you can see it in this code:
+However, the two are not identical, and there is one place in particular that might catch you out - you can see it in this code:
 
 ```swift
 let customerRating = 4

@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-If you want to delete and destroy all SwiftData objects – every instance of every model belonging to a specific container – you might think you should should call the `deleteAllData()` of `ModelContainer`. However, that is quite unhelpful as of iOS 17.0: the method call succeeds, but all that happens is SwiftData disconnects from its underlying data store with your data being unchanged – next time you create the same container it will all be back.
+If you want to delete and destroy all SwiftData objects - every instance of every model belonging to a specific container - you might think you should should call the `deleteAllData()` of `ModelContainer`. However, that is quite unhelpful as of iOS 17.0: the method call succeeds, but all that happens is SwiftData disconnects from its underlying data store with your data being unchanged - next time you create the same container it will all be back.
 
 ::: important
 

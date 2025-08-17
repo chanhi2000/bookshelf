@@ -44,7 +44,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Availability checking in Swift: backwards compatibility the smart way – Hacking with Swift",
+  "title": "Availability checking in Swift: backwards compatibility the smart way - Hacking with Swift",
   "desc": "Availability checking in Swift: backwards compatibility the smart way",
   "link": "https://hackingwithswift.com/new-syntax-swift-2-availability-checking",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -74,7 +74,7 @@ This approach was fraught with problems, not least trying to remember when each 
 
 Way back in Swift 2, Apple introduced API availability checking. If you set your app's Deployment Target to a lower iOS release than the base SDK, Xcode will automatically scan every API you use to make sure it's available in your lowest deployment target version. This information has been in Apple's API headers for years, but it's only now being exposed to the compiler. What it means is that if your app compiles, you can be guaranteed it doesn't call any code that can't run because of missing APIs.
 
-By default, you don't need to do anything: Swift will compare your actual usage against your minimum deployment target, and if it finds any unavailable API then you'll get an error – and *that's* when the work begins.
+By default, you don't need to do anything: Swift will compare your actual usage against your minimum deployment target, and if it finds any unavailable API then you'll get an error - and *that's* when the work begins.
 
 Returning to our example, if you *have* used `UICollectionViewCompositionalLayout` and your deployment target is set to iOS 12.0, you'll get a compile error because stack views aren't available before 13.0. The solution is to tell Xcode you want certain code to execute only on iOS 13.0 or later, like this:
 
@@ -86,7 +86,7 @@ if #available(iOS 13, *) {
 }
 ```
 
-In that code, `#available` is going to check whether we're on iOS 13 or later, or any other unknown platforms that might get announced in the future – that's the * at the end, and it's required. And that's it: all the code you'll put in place of "// use UICollectionViewCompositionalLayout" effectively has elevated rights to use iOS 13.0-only technology, whether that's classes, methods or enums.
+In that code, `#available` is going to check whether we're on iOS 13 or later, or any other unknown platforms that might get announced in the future - that's the * at the end, and it's required. And that's it: all the code you'll put in place of "// use UICollectionViewCompositionalLayout" effectively has elevated rights to use iOS 13.0-only technology, whether that's classes, methods or enums.
 
 If code inside a method should only be run on certain iOS versions, you can also use `#available` with `guard` to produce code like this:
 
@@ -96,7 +96,7 @@ guard #available(iOS 13, *) else {
 }
 ```
 
-The power of `#available` is that the compiler can now check and enforce API usage on older operating systems, which previously was entirely human – it's a huge improvement, and one I know will catch on quickly.
+The power of `#available` is that the compiler can now check and enforce API usage on older operating systems, which previously was entirely human - it's a huge improvement, and one I know will catch on quickly.
 
 ---
 
@@ -141,7 +141,7 @@ func iOS13Work() {
 
 Each time, there's effectively a privilege elevation so you can use version-limited APIs.
 
-For the ultimate in restrictions, you can also mark whole classes as being available only in a specific iOS release or later – just move the `@available` code wherever you want it.
+For the ultimate in restrictions, you can also mark whole classes as being available only in a specific iOS release or later - just move the `@available` code wherever you want it.
 
-There is one last neat feature about these availability checks in Swift: you no longer need to worry about "Required" and "Optional" frameworks – the compiler sorts all that out for you now. Hurray for developer productivity!
+There is one last neat feature about these availability checks in Swift: you no longer need to worry about "Required" and "Optional" frameworks - the compiler sorts all that out for you now. Hurray for developer productivity!
 

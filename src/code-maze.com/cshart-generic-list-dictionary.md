@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Generic List and Dictionary"
-description: "Article(s) > C# Intermediate – Generic List and Dictionary"
+title: "C# Intermediate - Generic List and Dictionary"
+description: "Article(s) > C# Intermediate - Generic List and Dictionary"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Generic List and Dictionary"
+      content: "Article(s) > C# Intermediate - Generic List and Dictionary"
     - property: og:description
-      content: "C# Intermediate – Generic List and Dictionary"
+      content: "C# Intermediate - Generic List and Dictionary"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-generic-list-dictionary.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-generic-list-dictionary/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Generic List and Dictionary"
+  name="C# Intermediate - Generic List and Dictionary"
   desc="In this article, you will learn about Generic List and Dictionary in C#. You will learn how lists work, how we can use tham and how to use key value pairs."
   url="https://code-maze.com/csharp-generic-list-dictionary"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -306,7 +306,7 @@ In the next article, we are going to talk about [**Delegates in C#**](/code-maze
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Generic List and Dictionary",
+  "title": "C# Intermediate - Generic List and Dictionary",
   "desc": "In this article, you will learn about Generic List and Dictionary in C#. You will learn how lists work, how we can use tham and how to use key value pairs.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-generic-list-dictionary.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

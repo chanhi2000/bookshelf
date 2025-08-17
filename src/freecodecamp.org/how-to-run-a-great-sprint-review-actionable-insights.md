@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Run a Great Sprint Review – Actionable Tips for Developers and Teams"
-description: "Article(s) > How to Run a Great Sprint Review – Actionable Tips for Developers and Teams"
+title: "How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
+description: "Article(s) > How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
 icon: fas fa-user-tie
 category:
   - Career
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Run a Great Sprint Review – Actionable Tips for Developers and Teams"
+      content: "Article(s) > How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
     - property: og:description
-      content: "How to Run a Great Sprint Review – Actionable Tips for Developers and Teams"
+      content: "How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-great-sprint-review-actionable-insights.html
 prev: /projects/career/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738170100236/fcc7407
 ---
 
 <SiteInfo
-  name="How to Run a Great Sprint Review – Actionable Tips for Developers and Teams"
+  name="How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
   desc="In my twenty years of being in the Software Engineer game, I’ve been through lots of Sprint Reviews. I’ve seen them done well, and I’ve seen them used as no more than a few hours every sprint for people to take a nice break in a meeting room. When do..."
   url="https://freecodecamp.org/news/how-to-run-a-great-sprint-review-actionable-insights"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738170100236/fcc7407
 
 In my twenty years of being in the Software Engineer game, I’ve been through lots of Sprint Reviews. I’ve seen them done well, and I’ve seen them used as no more than a few hours every sprint for people to take a nice break in a meeting room.
 
-When done right, the Sprint Review can be key to keeping your project on track. But badly run Sprint Reviews are worse than just the time they waste – they also reduce people’s trust in Scrum as a whole.
+When done right, the Sprint Review can be key to keeping your project on track. But badly run Sprint Reviews are worse than just the time they waste - they also reduce people’s trust in Scrum as a whole.
 
 In this article, I’ll walk you through some clear, step-by-step ideas for making your Sprint Review more valuable.
 
@@ -92,7 +92,7 @@ Get the people who have a demo to at least record themselves showing their workf
 
 You should also have a running order. Know who is presenting, in which order, and group them by similarity of topic. Who presents and when doesn’t really matter as long as the presentations are grouped together by topic.
 
-For instance, if you have six engineers – two working on a Login Page, two working on new back-end service, and two working on database performance – make sure that your running order groups these three distinct areas together.
+For instance, if you have six engineers - two working on a Login Page, two working on new back-end service, and two working on database performance - make sure that your running order groups these three distinct areas together.
 
 If two demos are fairly similar, you can explain the context once and then run through both demos back to back. Be efficient, as you have a lot of people in this meeting and everyone knows that [<FontIcon icon="fas fa-globe"/>meetings are expensive](https://calculatorlord.com/meeting-cost-calculator/).
 
@@ -188,7 +188,7 @@ If you focus on showing real progress, inviting open dialogue, and keeping thing
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Run a Great Sprint Review – Actionable Tips for Developers and Teams",
+  "title": "How to Run a Great Sprint Review - Actionable Tips for Developers and Teams",
   "desc": "In my twenty years of being in the Software Engineer game, I’ve been through lots of Sprint Reviews. I’ve seen them done well, and I’ve seen them used as no more than a few hours every sprint for people to take a nice break in a meeting room. When do...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-great-sprint-review-actionable-insights.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

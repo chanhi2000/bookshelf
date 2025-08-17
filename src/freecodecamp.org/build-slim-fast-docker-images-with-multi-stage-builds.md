@@ -94,7 +94,7 @@ To follow this guide, you should have:
 
 Before we dive into optimization, let’s quickly get clear on what Docker images actually are.
 
-A Docker image is a lightweight, standalone package that has everything your app needs to run – code, dependencies, environment variables, and config files. Think of it as a snapshot of your app, ready to spin up anywhere.
+A Docker image is a lightweight, standalone package that has everything your app needs to run - code, dependencies, environment variables, and config files. Think of it as a snapshot of your app, ready to spin up anywhere.
 
 When you run an image, Docker turns it into a container: a self-contained environment that behaves the same on your machine, in staging, or in production. That consistency is a huge win for development and deployment.
 
@@ -171,7 +171,7 @@ In the Dockerfile above, we’ve defined both a development and a production sta
 
 In the **Production Stage**, we again start from `python:3.9-slim`, but this time we copy only the virtual environment from the build stage along with the application code. Then we configure the environment to use that virtual environment and run the app using Gunicorn.
 
-Now, in a multi-stage build, you can experiment with using different Python versions across stages – but here’s why I didn’t go that route:
+Now, in a multi-stage build, you can experiment with using different Python versions across stages - but here’s why I didn’t go that route:
 
 - Some packages may have different dependencies, depending on the Python version.
 - My <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file contains version-specific dependencies, so sticking to the same Python version across both stages helps avoid compatibility issues.
@@ -249,9 +249,9 @@ docker images | grep 'my-'
 
 The image above compares the build sizes of our single-stage and multi-stage Docker images.
 
-![As you can see, `my-python-app` – the multi-stage build – is small and lightweight, while `my-chunky-app` is significantly larger. If you dig a bit deeper, you’ll notice that the multi-stage image built in just 1.2 seconds, whereas the single-stage one took a full 1 minute and 21 seconds. Pretty impressive difference, right?](https://cdn.hashnode.com/res/hashnode/image/upload/v1746885947258/9584255b-c6aa-4d25-8a4a-e4a841808b57.png)
+![As you can see, `my-python-app` - the multi-stage build - is small and lightweight, while `my-chunky-app` is significantly larger. If you dig a bit deeper, you’ll notice that the multi-stage image built in just 1.2 seconds, whereas the single-stage one took a full 1 minute and 21 seconds. Pretty impressive difference, right?](https://cdn.hashnode.com/res/hashnode/image/upload/v1746885947258/9584255b-c6aa-4d25-8a4a-e4a841808b57.png)
 
-In my opinion, these are solid reasons to use a multi-stage build – but it's not always necessary. There are cases where a single-stage build makes more sense. Let’s take a look at those.
+In my opinion, these are solid reasons to use a multi-stage build - but it's not always necessary. There are cases where a single-stage build makes more sense. Let’s take a look at those.
 
 ---
 
@@ -275,7 +275,7 @@ Pick what fits your project’s scale and complexity.
 
 ## Conclusion
 
-Multi-stage builds are an easy win. They help keep your Docker images clean, fast, and secure – especially as your app grows.
+Multi-stage builds are an easy win. They help keep your Docker images clean, fast, and secure - especially as your app grows.
 
 Not every project needs them, but when you do, they make a big difference. So next time you're Dockerizing something serious, reach for multi-stage. Your future self will thank you.
 

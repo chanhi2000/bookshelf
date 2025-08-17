@@ -62,7 +62,7 @@ struct User {
 }
 ```
 
-If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and uses the interpolation *type* – in this case `User` to figure out which method to call.
+If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and uses the interpolation *type* - in this case `User` to figure out which method to call.
 
 In this case, we’re going to add an implementation that puts the user’s name and age into a single string, then calls one of the built-in `appendInterpolation()` methods to add that to our string, like this:
 
@@ -164,19 +164,19 @@ struct HTMLComponent: ExpressibleByStringLiteral, ExpressibleByStringInterpolati
             output.reserveCapacity(literalCapacity * 2)
         }
 
-        // a hard-coded piece of text – just add it
+        // a hard-coded piece of text - just add it
         mutating func appendLiteral(_ literal: String) {
             print("Appending \(literal)")
             output.append(literal)
         }
 
-        // a Twitter username – add it as a link
+        // a Twitter username - add it as a link
         mutating func appendInterpolation(twitter: String) {
             print("Appending \(twitter)")
             output.append("<a href=\"https://twitter/\(twitter)\">@\(twitter)</a>")
         }
 
-        // an email address – add it using mailto
+        // an email address - add it using mailto
         mutating func appendInterpolation(email: String) {
             print("Appending \(email)")
             output.append("<a href=\"mailto:\(email)\">\(email)</a>")
@@ -205,7 +205,7 @@ let text: HTMLComponent = "You should follow me on Twitter \(twitter: "twostraws
 print(text)
 ```
 
-Thanks to the `print()` calls that were scattered inside, you’ll see exactly how the string interpolation functionality works: you’ll see “Appending You should follow me on Twitter”, “Appending twostraws”, “Appending , or you can email me at “, “Appending paul@hackingwithswift.com”, and finally “Appending .” – each part triggers a method call, and is added to our string.
+Thanks to the `print()` calls that were scattered inside, you’ll see exactly how the string interpolation functionality works: you’ll see “Appending You should follow me on Twitter”, “Appending twostraws”, “Appending , or you can email me at “, “Appending paul@hackingwithswift.com”, and finally “Appending .” - each part triggers a method call, and is added to our string.
 
 ::: details Other Changes in Swift 5.0
 

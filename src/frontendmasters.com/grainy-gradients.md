@@ -229,7 +229,7 @@ The inconvenient part about this`filter`is that it applies to the entire element
 
 the case when we also have a shadow and text
 
-In this case, applying the`filter`to the entire element causes all kinds of problems. The text “dissolves” into the gradient, the black`box-shadow`outside the box has some pixels displaced *inside* the box over the gradient – this is really noticeable in the brighter parts of this gradient. Furthermore, if we were to use the`clip-path`fix for the gradient pixels displaced*outside*the initial gradient box, this would also cut away the outer shadow.
+In this case, applying the`filter`to the entire element causes all kinds of problems. The text “dissolves” into the gradient, the black`box-shadow`outside the box has some pixels displaced *inside* the box over the gradient - this is really noticeable in the brighter parts of this gradient. Furthermore, if we were to use the`clip-path`fix for the gradient pixels displaced*outside*the initial gradient box, this would also cut away the outer shadow.
 
 ![Previous card with a banded gradient, text and box-shadow, now with a filter pplied on it too. This has unpleasant side effects as dscribed above.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/451869235-fc980f9a-2ad7-4f45-9d15-8a575205a83d.png?resize=900%2C450&ssl=1)
 

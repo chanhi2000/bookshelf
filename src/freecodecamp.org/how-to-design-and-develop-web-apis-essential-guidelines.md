@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZM55FiQB8ig/up
 
 Software applications have made our lives easier and better in many ways. We use them almost daily, and some people find themselves using applications more frequently than they interact with other people.
 
-But how do applications interact with each other? Well, they do it through APIs – Application Programming Interfaces. In this article, you’ll learn what APIs are. We’ll specifically focus on Web APIs and their design and development.
+But how do applications interact with each other? Well, they do it through APIs - Application Programming Interfaces. In this article, you’ll learn what APIs are. We’ll specifically focus on Web APIs and their design and development.
 
 ---
 

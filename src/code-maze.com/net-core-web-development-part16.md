@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API – IIS Deployment
-description: Article(s) > ASP.NET Core Web API – IIS Deployment
+title: ASP.NET Core Web API - IIS Deployment
+description: Article(s) > ASP.NET Core Web API - IIS Deployment
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -14,9 +14,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API – IIS Deployment
+      content: Article(s) > ASP.NET Core Web API - IIS Deployment
     - property: og:description
-      content: ASP.NET Core Web API – IIS Deployment
+      content: ASP.NET Core Web API - IIS Deployment
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part16.html
 prev: /programming/cs/articles/README.md
@@ -42,7 +42,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part16/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API – IIS Deployment"
+  name="ASP.NET Core Web API - IIS Deployment"
   desc="In this post: IIS Deployment, we are going to deploy our .NET Core and Angular application to the IIS server. We will go through all the needed steps."
   url="https://code-maze.com/net-core-web-development-part16/"
   logo="/assets/image/code-maze.com/favicon.png"

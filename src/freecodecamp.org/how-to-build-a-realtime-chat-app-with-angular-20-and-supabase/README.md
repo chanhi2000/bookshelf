@@ -254,7 +254,7 @@ Make sure you copy the Client ID and Client secret, as you will use this in the 
 
 To complete the authentication and authorization setup, head to the Supabase dashboard. Then navigate to the Authentication menu, which is located in the items on the left-side of the dashboard. On this part of the dashboard, you will select **Sign In / Providers**.
 
-On the Sign In / Providers page, scroll down to the **Auth Providers**, then select and enable **Google**. This is where you will paste in the credentials of the Client ID and Client Secret created on the **Google Cloud Console**. Then click on the save button – and make sure you copy the Callback URL (for OAuth).
+On the Sign In / Providers page, scroll down to the **Auth Providers**, then select and enable **Google**. This is where you will paste in the credentials of the Client ID and Client Secret created on the **Google Cloud Console**. Then click on the save button - and make sure you copy the Callback URL (for OAuth).
 
 The final step in this process is to head back to the GCP dashboard, and under the Clients tab, click on the edit icon of the OAuth 2.0 Client IDs you created previously.
 

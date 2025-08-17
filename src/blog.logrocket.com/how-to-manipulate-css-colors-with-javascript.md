@@ -71,7 +71,7 @@ I know you’re here to learn about manipulating colors  —  and we’ll ge
 
 ![How To Manipulate CSS Colors With JavaScript](/assets/image/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript/banner.png)
 
-An initialism for “red, green, blue,” [RGB (<FontIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/5783951de51e0db0f569d5abbd9cb2f7) consists of three numbers that each signify how much light of its respective color is included in the resulting end color. In CSS, each of these numbers is in the range of 0–255 and would be written as comma-separated parameters of the CSS `rgb` function. For example, `rgb(50,100,0)`.
+An initialism for “red, green, blue,” [RGB (<FontIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/5783951de51e0db0f569d5abbd9cb2f7) consists of three numbers that each signify how much light of its respective color is included in the resulting end color. In CSS, each of these numbers is in the range of 0-255 and would be written as comma-separated parameters of the CSS `rgb` function. For example, `rgb(50,100,0)`.
 
 RGB is an “additive” color system, which means that the higher each number is, the brighter the end color will be. If all values are equal, the color will be grayscale; if all values are zero, the result will be black; and if all values are 255, the result will be white.
 

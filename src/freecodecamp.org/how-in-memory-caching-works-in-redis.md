@@ -47,14 +47,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752680755362/97cde2e
 
 <SiteInfo
   name="How In-Memory Caching Works in Redis"
-  desc="When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce. Without it, your server can waste time fetching the same data over and over again – from a database, a third-party API, or a slow storage system. ..."
+  desc="When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce. Without it, your server can waste time fetching the same data over and over again - from a database, a third-party API, or a slow storage system. ..."
   url="https://freecodecamp.org/news/how-in-memory-caching-works-in-redis"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1752680755362/97cde2e5-3bb3-4b5d-b073-dcbf03c7f871.png"/>
 
 When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce.
 
-Without it, your server can waste time fetching the same data over and over again – from a database, a third-party API, or a slow storage system.
+Without it, your server can waste time fetching the same data over and over again - from a database, a third-party API, or a slow storage system.
 
 But when you store that data in memory, the same information can be served up in milliseconds. That’s where Redis comes in.
 
@@ -151,7 +151,7 @@ SMEMBERS tags
 
 @tab Sorted Sets
 
-Sets with scores – useful for leaderboards.
+Sets with scores - useful for leaderboards.
 
 ```redis
 ZADD leaderboard 100 "Bob"
@@ -254,7 +254,7 @@ Enjoyed this article? [Connect with me on Linkedin (<FontIcon icon="fa-brands fa
 ```component VPCard
 {
   "title": "How In-Memory Caching Works in Redis",
-  "desc": "When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce. Without it, your server can waste time fetching the same data over and over again – from a database, a third-party API, or a slow storage system. ...",
+  "desc": "When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce. Without it, your server can waste time fetching the same data over and over again - from a database, a third-party API, or a slow storage system. ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-in-memory-caching-works-in-redis.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

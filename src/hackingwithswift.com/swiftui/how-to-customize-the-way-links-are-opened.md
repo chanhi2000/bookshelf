@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-When your user taps a URL shown inside a SwiftUI `Text` or `Link` view, it will open in Safari by default. However, you can customize this behavior by replacing the `openURL` environment key – you might want to handle the link entirely, or perhaps pass it back to the system to open once your custom action completes.
+When your user taps a URL shown inside a SwiftUI `Text` or `Link` view, it will open in Safari by default. However, you can customize this behavior by replacing the `openURL` environment key - you might want to handle the link entirely, or perhaps pass it back to the system to open once your custom action completes.
 
 For example, this code adjusts both a `Link` and a `Text` view so that all URLs are sent to a `handleURL()` method to be acted on:
 

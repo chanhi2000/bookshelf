@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "ARKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/arkit",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -40,7 +40,7 @@ head:
 ```component VPCard
 {
   "title": "How to detect images using ARImageTrackingConfiguration | ARKit - free Swift example code",
-  "desc": "As clever as VoiceOver is, sometimes it will get the pronunciation wrong for certain words – particularly when it’s missing some context that would have made clear what the correct pronunciation was....",
+  "desc": "As clever as VoiceOver is, sometimes it will get the pronunciation wrong for certain words - particularly when it’s missing some context that would have made clear what the correct pronunciation was....",
   "link": "/hackingwithswift.com/example-code/arkit/how-to-detect-images-using-arimagetrackingconfiguration.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

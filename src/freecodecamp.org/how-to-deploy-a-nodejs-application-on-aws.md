@@ -162,7 +162,7 @@ After successfully cloning the code project, execute the command `cd simple-node
 
 After completing the above steps, the `npm start` command will bring your application to life. You should then see a success message on your screen.
 
-But if you navigate to the EC2 instance public IP address with the Instance IP address sub-port 3000, you’ll still see an error – so what haven’t we completed?
+But if you navigate to the EC2 instance public IP address with the Instance IP address sub-port 3000, you’ll still see an error - so what haven’t we completed?
 
 Here is where your knowledge of Networking comes in again. Now, navigate back to your cloud EC2 compute dashboard and go to the security groups. These contain and enforce your inbound and outbound rules.
 
@@ -185,7 +185,7 @@ Within the security groups in your dashboard, click on the **Add rule** button a
 
 Select the TCP network type, set the host to `0.0.0.0.0/0`, and set the port to port 3000. Lastly, to complete the IP address request setup, just click on the “allow from anywhere” option. Save the rule and refresh your tab. Within a few minutes, the endpoint will be made available on port 3000. To see the application live in action, click on the external IP address of the EC2 instance and add a suffix port 3000 to view the backend application interface. And violà, your application should now be live.
 
-But that’s not all – it's inconvenient to include the sub-port number while browsing the IP address. So you’ll need a compatible effective reverse proxy tool which routes any information from port 3000 to port 80 (which is a general port). A reverse proxy in this scenario routes and forwards requests from clients to a server serving as a protective intermediary. To do this, you can use a tool called Caddy.
+But that’s not all - it's inconvenient to include the sub-port number while browsing the IP address. So you’ll need a compatible effective reverse proxy tool which routes any information from port 3000 to port 80 (which is a general port). A reverse proxy in this scenario routes and forwards requests from clients to a server serving as a protective intermediary. To do this, you can use a tool called Caddy.
 
 ---
 
@@ -233,7 +233,7 @@ Within the port 80 section in the config file, add this line of code:
 reverse_proxy :3000
 ```
 
-Save the file – and now you’re done. You can restart the Caddy tool to reflect the new settings by running `sudo systemctl restart caddy.` Refreshing the IP address will display your powered-on Node.js application. With this, you’ve successfully hosted your Node.js application on EC2 and utilized a reverse proxy tool to bring it to life.
+Save the file - and now you’re done. You can restart the Caddy tool to reflect the new settings by running `sudo systemctl restart caddy.` Refreshing the IP address will display your powered-on Node.js application. With this, you’ve successfully hosted your Node.js application on EC2 and utilized a reverse proxy tool to bring it to life.
 
 ![Project's Home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1742827013554/f99be1e5-bfc6-444c-b620-9c47ae43dc3a.png)
 

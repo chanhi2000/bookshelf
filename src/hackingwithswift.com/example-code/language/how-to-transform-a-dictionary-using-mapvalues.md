@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Although dictionaries have a general `map()` method, they also have a specialized form of `map()` called `mapValues()` – it transforms just the *values* of the dictionary, leaving the keys untouched.
+Although dictionaries have a general `map()` method, they also have a specialized form of `map()` called `mapValues()` - it transforms just the *values* of the dictionary, leaving the keys untouched.
 
 This extra method is useful because dictionaries can’t have duplicate keys, but if you’re only transforming the *values* from a dictionary then this is not a problem.
 

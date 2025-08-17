@@ -72,7 +72,7 @@ The second way is if you have a friend who knows ancient Greek. When you're read
 
 Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage.
 
-Compiled languages need a “build” step – they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change. In our hummus example, the entire translation is written before it gets to you. If the original author decides that he wants to use a different kind of olive oil, the entire recipe would need to be translated again and resent to you.
+Compiled languages need a “build” step - they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change. In our hummus example, the entire translation is written before it gets to you. If the original author decides that he wants to use a different kind of olive oil, the entire recipe would need to be translated again and resent to you.
 
 ::: tip Example
 
@@ -96,7 +96,7 @@ Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
 ## A Small Caveat
 
-Most programming languages can have both compiled and interpreted implementations – the language itself is not necessarily compiled or interpreted. However, for simplicity’s sake, they’re typically referred to as such.
+Most programming languages can have both compiled and interpreted implementations - the language itself is not necessarily compiled or interpreted. However, for simplicity’s sake, they’re typically referred to as such.
 
 Python, for example, can be executed as either a compiled program or as an interpreted language in interactive mode. On the other hand, most command line tools, CLIs, and shells can theoretically be classified as interpreted languages.
 

@@ -137,12 +137,12 @@ By using a retrieval pipeline, the chatbot can fetch up-to-date, relevant data a
 
 Before you begin, ensure you have installed the latest version of the items listed here:
 
-1. [<FontIcon icon="fas fa-globe"/>RStudio](https://posit.co/download/rstudio-desktop/): **The IDE** – RStudio is the primary workspace where you'll write and test your R code. Its user-friendly interface, debugging tools, and integrated environment make it ideal for data analysis and chatbot development.
-2. [<FontIcon icon="iconfont icon-r"/>R](https://cran.rstudio.com/): **The Programming Language** – R is the backbone of your project. You'll use it to handle data manipulation, apply statistical models, and integrate your recipe chatbot components seamlessly.
-3. [<FontIcon icon="fa-brands fa-python"/>Python](https://python.org/downloads/) – Some libraries, like the embedding library you'll use for text vectorization, are built on Python. It’s vital to have Python installed to enable these functionalities alongside your R code.
-4. [<FontIcon icon="fa-brands fa-java"/>Java](https://java.com/en/download/) – Java serves as a foundational element for certain embedding libraries. It ensures efficient processing and compatibility for text embedding tasks required to train your chatbot.
-5. [<FontIcon icon="fa-brands fa-docker"/>Docker Desktop](https://docker.com/products/docker-desktop/) – Docker Desktop allows you to run ChromaDB, the vector database, locally on your machine. This enables fast and reliable storage of embeddings, ensuring your chatbot retrieves relevant information quickly.
-6. [<FontIcon icon="iconfont icon-ollama"/>Ollama](https://ollama.com/) – Ollama brings powerful Large Language Models (LLMs) directly to your local computer, removing the need for cloud resources. It lets you access multiple models, customize outputs, and integrate them into your chatbot effortlessly.
+1. [<FontIcon icon="fas fa-globe"/>RStudio](https://posit.co/download/rstudio-desktop/): **The IDE** - RStudio is the primary workspace where you'll write and test your R code. Its user-friendly interface, debugging tools, and integrated environment make it ideal for data analysis and chatbot development.
+2. [<FontIcon icon="iconfont icon-r"/>R](https://cran.rstudio.com/): **The Programming Language** - R is the backbone of your project. You'll use it to handle data manipulation, apply statistical models, and integrate your recipe chatbot components seamlessly.
+3. [<FontIcon icon="fa-brands fa-python"/>Python](https://python.org/downloads/) - Some libraries, like the embedding library you'll use for text vectorization, are built on Python. It’s vital to have Python installed to enable these functionalities alongside your R code.
+4. [<FontIcon icon="fa-brands fa-java"/>Java](https://java.com/en/download/) - Java serves as a foundational element for certain embedding libraries. It ensures efficient processing and compatibility for text embedding tasks required to train your chatbot.
+5. [<FontIcon icon="fa-brands fa-docker"/>Docker Desktop](https://docker.com/products/docker-desktop/) - Docker Desktop allows you to run ChromaDB, the vector database, locally on your machine. This enables fast and reliable storage of embeddings, ensuring your chatbot retrieves relevant information quickly.
+6. [<FontIcon icon="iconfont icon-ollama"/>Ollama](https://ollama.com/) - Ollama brings powerful Large Language Models (LLMs) directly to your local computer, removing the need for cloud resources. It lets you access multiple models, customize outputs, and integrate them into your chatbot effortlessly.
 
 :::
 

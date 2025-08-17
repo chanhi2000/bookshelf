@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -58,7 +58,7 @@ This has been the briefest possible introduction to Core Image, yet we still man
 
 Unless you really do intend to make Yet Another Core Image Filters Program (best of luck!) your use of Core Image will mostly be about manipulating a picture in a very specific way, using a filter you have hand-crafted to look great.
 
-If you want to try other filters, search on Google for "Core Image Filter Reference" and have a read – it will list the input keys for each of them so that you can get really fine-grained control over the filters.
+If you want to try other filters, search on Google for "Core Image Filter Reference" and have a read - it will list the input keys for each of them so that you can get really fine-grained control over the filters.
 
 ---
 
@@ -68,7 +68,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 13: Instafilter – Hacking with Swift",
+  "title": "Review - Project 13: Instafilter - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-13-instafilter",
   "logo": "https://hackingwithswift.com/favicon.svg",

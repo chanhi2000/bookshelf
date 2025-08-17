@@ -111,7 +111,7 @@ var fetchDescriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.releaseDa
 fetchDescriptor.fetchLimit = 3
 ```
 
-This works great in combination with the `offset` parameter of fetch descriptors, which allow us to do paging – we can tell SwiftData to skip the first *n* results. This is helpful when you know you have many results, so rather than fetching everything at once you can instead fetch in pages of 50 or 100 at a time.
+This works great in combination with the `offset` parameter of fetch descriptors, which allow us to do paging - we can tell SwiftData to skip the first *n* results. This is helpful when you know you have many results, so rather than fetching everything at once you can instead fetch in pages of 50 or 100 at a time.
 
 For example, if we had a page size of 100 and we were currently on the third page (counting from 0), we’d write code like this:
 
@@ -137,7 +137,7 @@ fetchDescriptor.propertiesToFetch = [\.name, \.releaseDate]
 
 ::: note
 
-If you don’t include a property in `propertiesToFetch` then later use it, SwiftData will automatically fetch the data at the point of use. This uses the same system of *faulting* that Core Data used – the properties you don’t request are filled with placeholders that automatically get substituted with their real data on request.
+If you don’t include a property in `propertiesToFetch` then later use it, SwiftData will automatically fetch the data at the point of use. This uses the same system of *faulting* that Core Data used - the properties you don’t request are filled with placeholders that automatically get substituted with their real data on request.
 
 Another great performance optimization you can make is to set the `relationshipKeyPathsForPrefetching` property to an array of relationship properties you want to prefetch. This is empty by default because SwiftData doesn’t fetch relationships until they are used, but if you know you’ll use that data then prefetching allows SwiftData to batch request it all for more efficiently.
 
@@ -148,5 +148,5 @@ var fetchDescriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.releaseDa
 fetchDescriptor.relationshipKeyPathsForPrefetching = [\.director]
 ```
 
-The last customization point is `includePendingChanges`, which controls whether the fetch should include changes you’ve made that have yet to be saved. This defaults to true, and while there were one or two places you would want otherwise with Core Data I genuinely can’t see this being useful in SwiftData – I’d leave it alone, if I were you.
+The last customization point is `includePendingChanges`, which controls whether the fetch should include changes you’ve made that have yet to be saved. This defaults to true, and while there were one or two places you would want otherwise with Core Data I genuinely can’t see this being useful in SwiftData - I’d leave it alone, if I were you.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers"
-description: "Article(s) > The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers"
+title: "The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
+description: "Article(s) > The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
 icon: fas fa-computer
 category:
   - Engineering
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers"
+      content: "Article(s) > The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
     - property: og:description
-      content: "The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers"
+      content: "The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html
 prev: /academics/coen/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750176539544/965a99e
 ---
 
 <SiteInfo
-  name="The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers"
+  name="The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
   desc="In an age of information overload, AI assistance, and rapid technological change, the ability to think clearly and reason soundly has never been more valuable. This handbook takes you on a journey from fundamental logical principles to their practica..."
   url="https://freecodecamp.org/news/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -65,7 +65,7 @@ Whether you're a high school student learning to think more clearly, a professio
 
 ### Part I: Foundational Theory
 
-We start with the bedrock of formal logic – understanding implications, truth tables, and the core rules of reasoning.
+We start with the bedrock of formal logic - understanding implications, truth tables, and the core rules of reasoning.
 
 You'll learn the scaffolding for everything that follows:
 
@@ -378,7 +378,7 @@ These two argument forms are central to rigorous deductive reasoning, allowing u
 
 ## The Origin of $P\:\Rightarrow\:Q$: Science and Reality
 
-In science, hypotheses often take the form "**If P, then Q**" where $P$ is a cause and $Q$ is its predicted effect –for example, "If a drug is given (P), then symptoms improve (Q)."
+In science, hypotheses often take the form "**If P, then Q**" where $P$ is a cause and $Q$ is its predicted effect -for example, "If a drug is given (P), then symptoms improve (Q)."
 
 Ideally, $P$ is controllable, as in experimental studies, but even in observational studies, P must be clearly defined and measurable.
 
@@ -386,7 +386,7 @@ Each experiment yields one observation, reflecting one of four possible truth-va
 
 ### The Falsifying Case in Science and Logic
 
-Each experiment produces a single observation – one of the four possible combinations of $P$ and $Q$.
+Each experiment produces a single observation - one of the four possible combinations of $P$ and $Q$.
 
 - If P=True, Q=False is observed (row 2 of the truth table), the hypothesis is **falsified**
 - In all other cases, the hypothesis is **not falsified** (yet)
@@ -408,7 +408,7 @@ But the falsifying case is useful for showing counterexamples to disprove the im
 
 #### In the Real Scientific world
 
-The falsifying case embodies **Falsifiability** – a crucial concept in Science.
+The falsifying case embodies **Falsifiability** - a crucial concept in Science.
 
 ::: info Karl R. Popper, The Logic of Scientifc Discovery
 
@@ -517,7 +517,7 @@ Now we move to the common pitfalls. This is an **invalid argument form** where w
 
 **Interpretation:**
 
-This fallacy highlights the difference between a one-to-one and a one-to-many relationship. Looking at our truth table, when $P\:\Rightarrow\:Q$ is True and $Q$ is True, $P$ could be **True (Row 1)** or **False (Row 3)**. The argument mistakenly concludes that P must always be True. The uncertainty arises because observing $Q$ as True doesn't uniquely point to $P$ as the cause – there could be many other reasons or paths that lead to $Q$.
+This fallacy highlights the difference between a one-to-one and a one-to-many relationship. Looking at our truth table, when $P\:\Rightarrow\:Q$ is True and $Q$ is True, $P$ could be **True (Row 1)** or **False (Row 3)**. The argument mistakenly concludes that P must always be True. The uncertainty arises because observing $Q$ as True doesn't uniquely point to $P$ as the cause - there could be many other reasons or paths that lead to $Q$.
 
 Think of walking down a forest path, unaware that another trail has merged into yours from behind you. When retracing your steps in reverse, you encounter a split (Q) at that merge and feel disoriented, unsure which path leads back to your start point (P). Just as multiple paths can converge on the same point, multiple causes can produce the same outcome.
 
@@ -685,7 +685,7 @@ This scenario arises when a test fails, and our primary focus is not immediately
                 
             - Or, have the underlying requirements changed or been misunderstood?
                 
-        - **Outcome:** This critical outcome prompts us to "rethink" – either the code needs fixing, or the test needs adjusting, or the specification needs clarification. This is common in **exploratory testing** or when working with new/evolving features where the exact behavior is still being defined.
+        - **Outcome:** This critical outcome prompts us to "rethink" - either the code needs fixing, or the test needs adjusting, or the specification needs clarification. This is common in **exploratory testing** or when working with new/evolving features where the exact behavior is still being defined.
             
     - **Sub-scenario 2B: Confirming Known Incorrectness (Corresponds to Row 4: P False, Q False):**
         
@@ -720,7 +720,7 @@ assert get_user_role(42) == "admin"
 
 Here, our implicit claim (the specification) is: **If the code is correct (P), then the output will match the expectation (Q).**
 
-In this example, the test passes – the output is "admin" **(Q)**, but can we definitively conclude that the function is correct **(P)**? Not necessarily.
+In this example, the test passes - the output is "admin" **(Q)**, but can we definitively conclude that the function is correct **(P)**? Not necessarily.
 
 This scenario often exemplifies the logical fallacy of **affirming the consequent**. We see the desired outcome (Q) and mistakenly assume that our specific intended cause (P, the correctness of *our specific implementation path*) was the reason.
 
@@ -746,13 +746,13 @@ The challenges highlighted above are particularly relevant when using **test dou
 
 Both remove external dependencies, allowing you to isolate and focus on the internal logic of the code without noise or side effects. But using them without understanding their limitations can lead to **false confidence**.
 
-If a test double simulates a "correct" response, but the real dependency it replaces has a bug, or the way the main code interacts with that dependency is flawed, the test will pass ($Q$ is True) – yet P (the code's overall correctness in a real environment) might be False, leading to a dangerous false positive.
+If a test double simulates a "correct" response, but the real dependency it replaces has a bug, or the way the main code interacts with that dependency is flawed, the test will pass ($Q$ is True) - yet P (the code's overall correctness in a real environment) might be False, leading to a dangerous false positive.
 
 Whether you encounter such logical fallacies in your testing depends on precisely what behavior or state you are attempting to verify, and whether you are over-interpreting the test results.
 
 ### Test Scope and Interpretation
 
-The choice of testing scope – from narrowly focused unit tests to broader integration tests, system tests, user acceptance tests (UAT), and even testing in production – represents a continuum. On this spectrum, various trade-offs are involved, especially concerning the effort-reward ratio. This effort is influenced by factors like individual developer skill, company engineering practices (for example, responsibility split between feature developer and dedicated tester roles), and industry regulations.
+The choice of testing scope - from narrowly focused unit tests to broader integration tests, system tests, user acceptance tests (UAT), and even testing in production - represents a continuum. On this spectrum, various trade-offs are involved, especially concerning the effort-reward ratio. This effort is influenced by factors like individual developer skill, company engineering practices (for example, responsibility split between feature developer and dedicated tester roles), and industry regulations.
 
 Generally:
 
@@ -777,7 +777,7 @@ Crucially, avoid blindly fixing tests just to make them pass. Always ensure you 
 
 ### Falsifiable Tests Reveal Regressions
 
-Beyond avoiding false positives (where the code is incorrect but the test passes), a good test must also be **falsifiable**. This means the test must be genuinely capable of failing under certain (incorrect) conditions. An unfalsifiable test is a broken test – it cannot serve its purpose of revealing regressions or confirming the presence of bugs.
+Beyond avoiding false positives (where the code is incorrect but the test passes), a good test must also be **falsifiable**. This means the test must be genuinely capable of failing under certain (incorrect) conditions. An unfalsifiable test is a broken test - it cannot serve its purpose of revealing regressions or confirming the presence of bugs.
 
 While we strive for the implication $P\:\Rightarrow\:Q$ to hold true for all the scenarios we care about, it may not be true for all cases due to unforeseen or mistaken assumptions, or simply because the code is incorrect. The test's ability to demonstrate this incorrectness by failing under specific, well-defined conditions makes it profoundly valuable.
 
@@ -846,7 +846,7 @@ You may now be thinking: what’s the point of studying logic if it has so many 
 
 ---
 
-## The Missing Ingredient – If and Only If
+## The Missing Ingredient - If and Only If
 
 In our exploration of logical implications, we've focused primarily on the **unidirectional relationship** $P\:\Rightarrow\:Q$ ("If P, then Q"). This statement tells us what happens *if* $P$ is true, but it remains silent on whether Q *only* happens when $P$ is true. It's like saying, "If it rains, the ground gets wet." This is true, but the ground can also get wet if a sprinkler is on, even if it's not raining.
 
@@ -860,7 +860,7 @@ When we assert "$P\:\Leftrightarrow\:Q$", we're making two distinct claims simul
 2. **If Q, then P** ($Q\:\Rightarrow\:P$): $P$ is also a necessary condition for Q. Whenever $Q$ is true, $P$ must also be true. In other words, Q cannot be true without P being true.
     
 
-Notice the **significant increase in the strength** of the statement. "If P, then Q" merely states a consequence. "$P\:\Leftrightarrow\:Q$" declares a **definitive equivalence**, where $P$ and $Q$ are inextricably linked. They rise and fall together – one cannot be true without the other being true, and one cannot be false without the other being false.
+Notice the **significant increase in the strength** of the statement. "If P, then Q" merely states a consequence. "$P\:\Leftrightarrow\:Q$" declares a **definitive equivalence**, where $P$ and $Q$ are inextricably linked. They rise and fall together - one cannot be true without the other being true, and one cannot be false without the other being false.
 
 ### Bidirectional Truth Table: Unambiguous Relationships
 
@@ -976,7 +976,7 @@ Let's formalize the logical mapping of mutation testing, recalling our definitio
 - Let P: Code is correct.
 - Let Q: Tests pass.
 
-Standard **happy path testing** primarily checks that $P\:\Rightarrow\:Q$ – "if the code is correct, then tests pass."
+Standard **happy path testing** primarily checks that $P\:\Rightarrow\:Q$ - "if the code is correct, then tests pass."
 
 **Mutation testing** focuses on the other side of the coin: we intentionally make $\neg\:P$ true (by introducing a fault), and then we expect $\neg\:Q$ (the tests should fail). This process rigorously checks whether the implication $\neg\:P\Rightarrow\neg\:Q$ ("if the code is *not* correct, then the tests *fail*") holds true for your test suite.
 
@@ -986,7 +986,7 @@ As we learned earlier, the statement $\neg\:P\Rightarrow\negQ$ is **logically eq
 
 So, by successfully verifying that introducing a fault ($\neg\:P$) leads to a test failure ($\neg\:Q$), we are simultaneously validating the contrapositive: `if tests pass (Q), then the code must be correct (P)`.
 
-This is incredibly significant! It moves us much closer to establishing a **bidirectional guarantee** between our code and our tests: $P\:\Leftrightarrow\:Q$ (code correctness is tightly coupled with test success). Mutation testing helps us confidently eliminate false positives in the test suite – situations where $Q$ is true (the test passes) but $P$ is false (the code is actually incorrect).
+This is incredibly significant! It moves us much closer to establishing a **bidirectional guarantee** between our code and our tests: $P\:\Leftrightarrow\:Q$ (code correctness is tightly coupled with test success). Mutation testing helps us confidently eliminate false positives in the test suite - situations where $Q$ is true (the test passes) but $P$ is false (the code is actually incorrect).
 
 In a world where LLMs help us write and refactor code quickly, having this "if and only if" confidence in our test suite is invaluable for ensuring the generated or refactored code truly meets expectations.
 
@@ -998,7 +998,7 @@ In software, we typically categorize errors into three main types:
 - **Runtime errors:** Errors that occur during program execution, often due to unexpected conditions (for example, `TypeError`, `AttributeError`, `ZeroDivisionError`).
 - **Logic errors:** The program runs without crashing, but it produces an incorrect result or behaves in a way that doesn't match the intended specification (for example, wrong algorithm, wrong return value).
 
-Mutation testing focuses on **logic errors** – failures where the program runs, but produces incorrect results. These are usually caught via `AssertionError` in the "Assert" phase of the Arrange–Act–Assert (AAA) testing pattern.
+Mutation testing focuses on **logic errors** - failures where the program runs, but produces incorrect results. These are usually caught via `AssertionError` in the "Assert" phase of the Arrange-Act-Assert (AAA) testing pattern.
 
 You could argue pedantically that `AssertionError` is a runtime error, but in testing, we treat it as a **signal for logical failure**:
 
@@ -1021,7 +1021,7 @@ If we introduce a mutation (making $\neg\:P$ true, that is, the code is now inco
 
 In this scenario, the implication **$\neg\:P\Rightarrow\negQ$ is falsified** because we have a True antecedent ($\neg\:P$) leading to a False consequent ($\negQ$ is false, because $Q$ is true).
 
-And, critically, if $\neg\:P\Rightarrow\negQ$ is falsified, then its logically equivalent contrapositive, $Q\:\Rightarrow\:P$ ("If the tests pass, then the code is correct"), is *also* falsified. This means we can no longer trust that a passing test suite reliably indicates correct code. Our desired $P\:\Leftrightarrow\:Q$ relationshi$p$ is broken – **the test suite is no longer fully effective** at guaranteeing correctness.
+And, critically, if $\neg\:P\Rightarrow\negQ$ is falsified, then its logically equivalent contrapositive, $Q\:\Rightarrow\:P$ ("If the tests pass, then the code is correct"), is *also* falsified. This means we can no longer trust that a passing test suite reliably indicates correct code. Our desired $P\:\Leftrightarrow\:Q$ relationshi$p$ is broken - **the test suite is no longer fully effective** at guaranteeing correctness.
 
 By pushing for zero surviving mutants, mutation testing forces us to minimize the surface area of these "hidden assumptions" in our test suite. It demands highly sensitive and specific tests that can pinpoint even subtle logical flaws, thereby moving us closer to building truly resilient systems.
 
@@ -1063,13 +1063,13 @@ This allows us to understand how **control flow** and **data flow** work with gr
 
 ## Real-World Challenges
 
-While striving for perfect "if-and-only-if" relationships provides a powerful logical ideal, the messy reality of modern software development presents significant hurdles. The very characteristics that make large systems powerful and scalable – their intricate interconnections and inherent dynamism – simultaneously obscure clear cause-and-effect relationships, making precise logical reasoning and debugging an ongoing battle.
+While striving for perfect "if-and-only-if" relationships provides a powerful logical ideal, the messy reality of modern software development presents significant hurdles. The very characteristics that make large systems powerful and scalable - their intricate interconnections and inherent dynamism - simultaneously obscure clear cause-and-effect relationships, making precise logical reasoning and debugging an ongoing battle.
 
 ### A Web of Complexity
 
 #### Fan-In, Fan-Out: The Nature of Modern Systems
 
-Any reasonably large software system rarely operates through purely linear control and data flows. Fan-out and fan-in patterns – where many components are called and then their results merged – are inevitable.
+Any reasonably large software system rarely operates through purely linear control and data flows. Fan-out and fan-in patterns - where many components are called and then their results merged - are inevitable.
 
 For example:
 
@@ -1150,7 +1150,7 @@ They also tend to concentrate similar failure modes. The same bug might appear a
 
 Promoting mentors based on real technical impact instead of tenure builds stronger teams and avoids the **Peter Principle** (people in a hierarchy tend to rise to a level of respective incompetence).
 
-Great mentors teach more than skills – they model falsifiability, independent thinking, and an ability to reason under uncertainty.
+Great mentors teach more than skills - they model falsifiability, independent thinking, and an ability to reason under uncertainty.
 
 They help others challenge assumptions, navigate tradeoffs, and grow both technically and interpersonally. In systems where root causes are murky, this kind of leadershi$p$ is essential.
 
@@ -1185,7 +1185,7 @@ While testing helps us uncover where our reasoning might falter, some domains de
 
 While traditional testing and fuzzing are powerful for finding bugs, they fundamentally cannot guarantee correctness for all possible inputs or scenarios. They can only prove the *presence* of bugs, not their *absence*.
 
-To achieve formal, mathematically verified proofs of program behavior – providing the strongest possible guarantees – we turn to **proof assistants**. These tools allow us to build step-by-step logical proofs, ensuring that a program or system design adheres to its specification with absolute rigor.
+To achieve formal, mathematically verified proofs of program behavior - providing the strongest possible guarantees - we turn to **proof assistants**. These tools allow us to build step-by-step logical proofs, ensuring that a program or system design adheres to its specification with absolute rigor.
 
 ### Prolog
 
@@ -1411,7 +1411,7 @@ The implication **$P\:\Rightarrow\:Q$ ("If you crossed the border, you must have
 
 ## Q.E.D.: The Enduring Power of Logic in an Uncertain World
 
-Throughout this handbook, we’ve journeyed from the foundational concepts of propositional logic and truth tables to the powerful argument forms of Modus Ponens and Modus Tollens. We explored how these tools enable valid deductions and identified common logical fallacies like Affirming the Consequent and Denying the Antecedent, understanding why they lead to incorrect inferences when an "if-then" relationship isn't a strict "if and only if." We learned the profound importance of falsifiability – the ability for a statement or hypothesis to be disproven – a cornerstone of both scientific inquiry and robust software testing.
+Throughout this handbook, we’ve journeyed from the foundational concepts of propositional logic and truth tables to the powerful argument forms of Modus Ponens and Modus Tollens. We explored how these tools enable valid deductions and identified common logical fallacies like Affirming the Consequent and Denying the Antecedent, understanding why they lead to incorrect inferences when an "if-then" relationship isn't a strict "if and only if." We learned the profound importance of falsifiability - the ability for a statement or hypothesis to be disproven - a cornerstone of both scientific inquiry and robust software testing.
 
 We then delved into the practical application of these logical principles in software development, mapping code correctness to test outcomes. We discovered how a failing test, when trusted, becomes a powerful application of Modus Tollens, pinpointing defects. We also confronted the "illusion of correctness" that arises from the affirming the consequent fallacy when tests pass for the wrong reasons, especially when using test doubles.
 
@@ -1425,7 +1425,7 @@ Despite these formidable challenges, the logical principles we've explored remai
 
 When confronted with a bug, your ability to reason logically allows you to formulate hypotheses, design focused experiments (your tests), and interpret their outcomes with precision. Whether you're debugging a complex microservice or reasoning about a simple function, applying Modus Tollens to a failing test or designing tests that aim for $P\:\Leftrightarrow\:Q$ clarity helps you cut through the noise.
 
-We also touched upon advanced tools like Proof Assistants (Prolog, Coq, TLA+, Isabelle, Lean), which represent the pinnacle of applying formal logic to guarantee system correctness – a testament to the enduring power of logical rigor in critical domains.
+We also touched upon advanced tools like Proof Assistants (Prolog, Coq, TLA+, Isabelle, Lean), which represent the pinnacle of applying formal logic to guarantee system correctness - a testament to the enduring power of logical rigor in critical domains.
 
 In the intricate dance between theory and practice, the principles of logic stand as an unshakeable foundation. They are the "rocks" upon which you can meticulously build your understanding and your systems. The more consistently you apply this critical thinking, driven by curiosity and a commitment to rigorous validation, the clearer your path becomes.
 
@@ -1478,7 +1478,7 @@ If you love problem solving, critical thinking, or have experiences on how you f
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Logic, Philosophy, and Science of Software Testing – A Handbook for Developers",
+  "title": "The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers",
   "desc": "In an age of information overload, AI assistance, and rapid technological change, the ability to think clearly and reason soundly has never been more valuable. This handbook takes you on a journey from fundamental logical principles to their practica...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

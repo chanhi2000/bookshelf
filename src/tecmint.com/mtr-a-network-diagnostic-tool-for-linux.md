@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "MTR – A Network Diagnostic Tool for Linux"
-description: "Article(s) > MTR – A Network Diagnostic Tool for Linux"
+title: "MTR - A Network Diagnostic Tool for Linux"
+description: "Article(s) > MTR - A Network Diagnostic Tool for Linux"
 icon: iconfont icon-shell
 category: 
   - Shell
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > MTR – A Network Diagnostic Tool for Linux"
+      content: "Article(s) > MTR - A Network Diagnostic Tool for Linux"
     - property: og:description
-      content: "MTR – A Network Diagnostic Tool for Linux"
+      content: "MTR - A Network Diagnostic Tool for Linux"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/mtr-a-network-diagnostic-tool-for-linux.html
 prev: /programming/sh/articles/README.md
@@ -71,7 +71,7 @@ cover: https://tecmint.com/wp-content/uploads/2018/06/MTR-Network-Diagnostic-Too
 ---
 
 <SiteInfo
-  name="MTR – A Network Diagnostic Tool for Linux"
+  name="MTR - A Network Diagnostic Tool for Linux"
   desc="MTR is a simple, cross-platform command-line network diagnostic tool that combines the functionality of commonly used traceroute and ping programs into a single tool."
   url="https://tecmint.com/mtr-a-network-diagnostic-tool-for-linux"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"

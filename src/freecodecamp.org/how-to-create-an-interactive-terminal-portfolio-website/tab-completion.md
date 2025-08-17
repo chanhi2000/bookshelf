@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730895455049/8fefc48
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1730895455049/8fefc48c-761d-4ec5-8f60-b6eb2f97a42a.png"/>
 
-Another feature we can add is to complete the command when you press the tab key. This is super easy – we only need to add the completion option set to true:
+Another feature we can add is to complete the command when you press the tab key. This is super easy - we only need to add the completion option set to true:
 
 ```js
 const term = $('body').terminal(commands, {

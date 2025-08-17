@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]"
-description: "Article(s) > Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]"
+title: "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
+description: "Article(s) > Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
 icon: iconfont icon-shell
 category:
   - Linux
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]"
+      content: "Article(s) > Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
     - property: og:description
-      content: "Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]"
+      content: "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/command-line-for-beginners.html
 prev: /programming/sh/articles/README.md
@@ -61,7 +61,7 @@ cover: https://freecodecamp.org/news/content/images/2022/03/pexels-pixabay-20758
 ---
 
 <SiteInfo
-  name="Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]"
+  name="Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
   desc="Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell). The command line is one of the most useful and efficient tools we have as developers and as computer users in general. But us..."
   url="https://freecodecamp.org/news/command-line-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -199,7 +199,7 @@ Different shells come with different syntax and different features, so to know e
 
 ---
 
-## A bit of history – Posix
+## A bit of history - Posix
 
 For shells, there's a common standard called [**Posix**](https://en.wikipedia.org/wiki/POSIX).
 
@@ -253,7 +253,7 @@ Also, there are many plugins available online that allow you to customize your s
 
 These customization options are also true for Terminals.
 
-So not only do you have many shell and terminal options to choose from – you also have many configuration options for each shell and terminal.
+So not only do you have many shell and terminal options to choose from - you also have many configuration options for each shell and terminal.
 
 If you're starting out, all this information can feel a bit overwhelming. But just know that there are many options available, and each option can be customized too. That's it.
 
@@ -773,7 +773,7 @@ Cheers and see you in the next one! =D
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]",
+  "title": "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]",
   "desc": "Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell). The command line is one of the most useful and efficient tools we have as developers and as computer users in general. But us...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/command-line-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

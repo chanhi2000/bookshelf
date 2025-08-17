@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: OWASP Top 10 – Injection
-description: Article(s) > OWASP Top 10 – Injection
+title: OWASP Top 10 - Injection
+description: Article(s) > OWASP Top 10 - Injection
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > OWASP Top 10 – Injection
+      content: Article(s) > OWASP Top 10 - Injection
     - property: og:description
-      content: OWASP Top 10 – Injection
+      content: OWASP Top 10 - Injection
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/owasp-top-10-injection.html
 prev: /programming/cs/articles/README.md
@@ -53,7 +53,7 @@ cover: /assets/image/code-maze.com/owasp-top-10-injection/banner.png
 ---
 
 <SiteInfo
-  name="OWASP Top 10 – Injection"
+  name="OWASP Top 10 - Injection"
   desc="In this article, we are going to look at the injection attack, which is the most critical web application security threat as per OWASP Top 10 list."
   url="https://code-maze.com/owasp-top-10-injection/"
   logo="/assets/image/code-maze.com/favicon.png"

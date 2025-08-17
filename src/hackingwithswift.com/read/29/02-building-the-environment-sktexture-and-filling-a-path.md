@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -75,7 +75,7 @@ enum CollisionTypes: UInt32 {
 }
 ```
 
-OK, back to <FontIcon icon="fa-brands fa-swift"/>`BuildingNode.swift`. Please add this code to the class – it's a property followed by two methods:
+OK, back to <FontIcon icon="fa-brands fa-swift"/>`BuildingNode.swift`. Please add this code to the class - it's a property followed by two methods:
 
 ```swift
 var currentImage: UIImage!
@@ -114,7 +114,7 @@ There's nothing complicated in there, but just to keep you on your toes I'm goin
 
 "Hue" is a value from 0 to 1 also, but it represents a position on a color wheel, like using a color picker on your Mac. Hues 0 and 1 both represent red, with all other colors lying in between.
 
-Now, programmers often look at HSB and think it's much clumsier than straight RGB, but there are reasons for both. The helpful thing about HSB is that if you keep the saturation and brightness constant, changing the hue value will cycle through all possible colors – it's an easy way to generate matching pastel colors, for example.
+Now, programmers often look at HSB and think it's much clumsier than straight RGB, but there are reasons for both. The helpful thing about HSB is that if you keep the saturation and brightness constant, changing the hue value will cycle through all possible colors - it's an easy way to generate matching pastel colors, for example.
 
 There's one more thing you need to know, but you'll be pleased to know it's a fairly basic Swift feature that we just haven't needed to use so far. It's a function called `stride()`, which lets you loop from one number to another with a specific interval. We're going to use this to count from the left edge of the building to the right edge in intervals of 40, to position our windows. We'll also do this vertically, to position the windows across the whole height of the building. To make it a little more attractive, we'll actually indent the left and right edges by 10 points.
 
@@ -173,7 +173,7 @@ func drawBuilding(size: CGSize) -> UIImage {
 }
 ```
 
-The only things new in there – and they are so tiny you probably didn't even notice – is my use of `.fill` rather than `.stroke` to draw the rectangles, and my use of `Bool.random()` to generate either true or false randomly.
+The only things new in there - and they are so tiny you probably didn't even notice - is my use of `.fill` rather than `.stroke` to draw the rectangles, and my use of `Bool.random()` to generate either true or false randomly.
 
 That's the `BuildingNode` class finished for now; we'll return to it later to add a method that will be called whenever it gets hit by a banana.
 
@@ -195,13 +195,13 @@ override func didMove(to view: SKView) {
 }
 ```
 
-All those HSB values aren't an accident, by the way – I've chosen them so they look similar to the original design.
+All those HSB values aren't an accident, by the way - I've chosen them so they look similar to the original design.
 
 The `createBuildings()` method is the important one here, and calling it will finish our background scene. It needs to move horizontally across the screen, filling space with buildings of various sizes until it hits the far edge of the screen. I'm going to make it start at -15 rather than the left edge so that the buildings look like they keep on going past the screen's edge. I'm also going to leave a 2-point gap between the buildings to distinguish their edges slightly more.
 
 Each building needs to be a random size. For the height, it can be anything between 300 and 600 points high; for the width, I want to make sure it divides evenly into 40 so that our window-drawing code is simple, so we'll generate a random number between 2 and 4 then multiply that by 40 to give us buildings that are 80, 120 or 160 points wide.
 
-As I said earlier, we'll be creating each building node with a solid red color to begin with, then drawing over it with the building texture once it's generated. Remember: SpriteKit positions nodes based on their center, so we need to do a little division of width and height to place these buildings correctly. Here's the `createBuildings()` method – please put this directly beneath `didMove(to:)`:
+As I said earlier, we'll be creating each building node with a solid red color to begin with, then drawing over it with the building texture once it's generated. Remember: SpriteKit positions nodes based on their center, so we need to do a little division of width and height to place these buildings correctly. Here's the `createBuildings()` method - please put this directly beneath `didMove(to:)`:
 
 ```swift
 func createBuildings() {
@@ -221,7 +221,7 @@ func createBuildings() {
 }
 ```
 
-Make sure you select the lowest-spec iPad from the list of simulator options, then press Play to see the results of your hard work – a random set of buildings will be generated each time you run the game. Well done!
+Make sure you select the lowest-spec iPad from the list of simulator options, then press Play to see the results of your hard work - a random set of buildings will be generated each time you run the game. Well done!
 
 ![Because we draw the buildings in code, our game level is different every time it runs.](https://hackingwithswift.com/img/books/hws/29-1@2x.png)
 

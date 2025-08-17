@@ -61,7 +61,7 @@ Although it’s not possible for me to diagnose every error you might hit, in th
 
 If none of these solutions have helped you, the best thing to do is a binary chop for your code: remove a few things and see if that works, then remove a few more things and a few more, until eventually your code compiles. You can then re-add the part that causes the problem, and try to fix it.
 
-Please keep in mind that SwiftUI leverages all of Swift’s most advanced features – the error messages are going to improve, but it might take a little time.
+Please keep in mind that SwiftUI leverages all of Swift’s most advanced features - the error messages are going to improve, but it might take a little time.
 
 ::: details Similar solutions…
 

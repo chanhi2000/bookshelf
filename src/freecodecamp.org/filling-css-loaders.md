@@ -59,11 +59,11 @@ I think a demo is worth thousands of words, so check out this Codepen:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In the above Pen, I’m showing you four different CSS filler-style loaders – but we can make even more. You can check out [<FontIcon icon="fas fa-globe"/>this collection](https://css-loaders.com/filling/) I created to see more than 20 different loaders.
+In the above Pen, I’m showing you four different CSS filler-style loaders - but we can make even more. You can check out [<FontIcon icon="fas fa-globe"/>this collection](https://css-loaders.com/filling/) I created to see more than 20 different loaders.
 
-You might think the article is going to be super long – I mean, how long will it take to explain how to create 20 different CSS loaders?
+You might think the article is going to be super long - I mean, how long will it take to explain how to create 20 different CSS loaders?
 
-Well don’t worry – this tutorial will be super quick, because I’ll show a few CSS tricks that help you create as many variation as you want. The loaders look different, but all of them rely on the same techniques. By simply adjusting a few setting you can get a whole new loader.
+Well don’t worry - this tutorial will be super quick, because I’ll show a few CSS tricks that help you create as many variation as you want. The loaders look different, but all of them rely on the same techniques. By simply adjusting a few setting you can get a whole new loader.
 
 ---
 
@@ -172,7 +172,7 @@ Can you figure out how they work before checking my code? This will be your firs
 
 ## How to Use Multiple Gradients
 
-Using one gradient is enough to create a lot of variations – but we can do even more if we introduce multiple gradients. If you check the fourth loader of the first demo, you’ll see that I’m using seven gradients – one gradient per character.
+Using one gradient is enough to create a lot of variations - but we can do even more if we introduce multiple gradients. If you check the fourth loader of the first demo, you’ll see that I’m using seven gradients - one gradient per character.
 
 ```css
 #l4 {
@@ -196,7 +196,7 @@ Using one gradient is enough to create a lot of variations – but we can do eve
 
 I’m using the same gradient, so we consider a CSS variable `--g` to avoid repetition. Then, I call that variable 7 times inside the background property. All the gradients have the same Y position (`bottom`) but a different X position. That’s why you see the `0, 1ch, 2ch, …,6ch`.
 
-Now if you check the animation, I’m simply animating the height of each gradient individually. At `0%`, all of them have a height equal to `0`. Then I update their height one by one until all of them are at `100%`. The width doesn’t change – it’s always equal to `1ch` (the width of one character).
+Now if you check the animation, I’m simply animating the height of each gradient individually. At `0%`, all of them have a height equal to `0`. Then I update their height one by one until all of them are at `100%`. The width doesn’t change - it’s always equal to `1ch` (the width of one character).
 
 It may look difficult at first glance, but if you think about it one gradient at a time, it’s pretty simple.
 
@@ -222,7 +222,7 @@ Then I animate the `background-position` like below:
 
 This one is probably a bit trickier, but it’s another example to illustrate all the possibilities. From the simple gradient configuration to the most complex one, we can create as many loaders as we want.
 
-What about creating your own CSS loader? You can use what you have learned from the article and try to create a loader that is not part of [<FontIcon icon="fas fa-globe"/>my collection](https://css-loaders.com/filling/). The best way to learn is to practice – so give it a try!
+What about creating your own CSS loader? You can use what you have learned from the article and try to create a loader that is not part of [<FontIcon icon="fas fa-globe"/>my collection](https://css-loaders.com/filling/). The best way to learn is to practice - so give it a try!
 
 ---
 

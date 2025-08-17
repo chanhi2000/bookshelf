@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Containerize a Node.js Application Using Docker – A Beginner's Guide"
-description: "Article(s) > How to Containerize a Node.js Application Using Docker – A Beginner's Guide"
+title: "How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
+description: "Article(s) > How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Containerize a Node.js Application Using Docker – A Beginner's Guide"
+      content: "Article(s) > How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
     - property: og:description
-      content: "How to Containerize a Node.js Application Using Docker – A Beginner's Guide"
+      content: "How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/containerize-a-nodejs-application-using-docker.html
 prev: /programming/js-node/articles/README.md
@@ -60,7 +60,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681497302/0540f73
 ---
 
 <SiteInfo
-  name="How to Containerize a Node.js Application Using Docker – A Beginner's Guide"
+  name="How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
   desc="Over the years, applications and tools have become more complex to keep up with people’s changing requirements and expectations. But this can create issues of code compatibility and remote access. For example, a codebase that functions properly on Wi..."
   url="https://freecodecamp.org/news/containerize-a-nodejs-application-using-docker"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -68,7 +68,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681497302/0540f73
 
 Over the years, applications and tools have become more complex to keep up with people’s changing requirements and expectations. But this can create issues of code compatibility and remote access. For example, a codebase that functions properly on Windows may develop compatibility errors when installed on Linux.
 
-Fortunately, Docker comes to the rescue. But you might be wondering – what is Docker, and how does it help? You’ll learn all this and more in this tutorial.
+Fortunately, Docker comes to the rescue. But you might be wondering - what is Docker, and how does it help? You’ll learn all this and more in this tutorial.
 
 But before we start, here are some prerequisites:
 
@@ -124,7 +124,7 @@ Docker is a cross-platform tool which can be installed across all popular operat
 
 If you’re currently using any OS other than Windows, you can easily set Docker up by following the steps in the Docker documentation [<FontIcon icon="fa-brands fa-docker"/>here](https://docs.docker.com/engine/install/).
 
-For windows users, it is essential that your PC meets the minimum specifications – otherwise the installation won't be successful. The minimum requirements are the following:
+For windows users, it is essential that your PC meets the minimum specifications - otherwise the installation won't be successful. The minimum requirements are the following:
 
 - A Windows OS version not less than Windows 10 home
 - A PC with WSL-2 installed or Hypervisor enabled.
@@ -133,7 +133,7 @@ With that, let's move on to downloading the Docker installer executable. You can
 
 ![Docker desktop GUI](https://cdn.hashnode.com/res/hashnode/image/upload/v1737154696376/dcbf3b23-10cc-452a-b206-46973163e8d6.png)
 
-To confirm that you’ve successfully installed the application, navigate to the command prompt terminal and run `Docker –-version`. You should see the exact version of the Docker engine tool you’ve installed if it was successful.
+To confirm that you’ve successfully installed the application, navigate to the command prompt terminal and run `Docker --version`. You should see the exact version of the Docker engine tool you’ve installed if it was successful.
 
 We’ll now move on to the project proper.
 
@@ -205,7 +205,7 @@ On testing it locally, it returns a CRUD API where you can create, fetch, update
 
 #### Step 1: Create the dockerfile
 
-In your project folder, create a file named <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. Make sure the name is **exactly** "Dockerfile" (no extension, and case-sensitive in some systems – so make sure it’s capitalized).
+In your project folder, create a file named <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. Make sure the name is **exactly** "Dockerfile" (no extension, and case-sensitive in some systems - so make sure it’s capitalized).
 
 If you're using a code editor, simply create a new file named <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. If you're using a basic text editor, save the file with the name <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` and ensure it doesn’t accidentally save with an extension like <FontIcon icon="fas fa-file-lines"/>`.txt`.
 
@@ -327,7 +327,7 @@ Feel free to ask me any questions! You can also check out my other articles [<Fo
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Containerize a Node.js Application Using Docker – A Beginner's Guide",
+  "title": "How to Containerize a Node.js Application Using Docker - A Beginner's Guide",
   "desc": "Over the years, applications and tools have become more complex to keep up with people’s changing requirements and expectations. But this can create issues of code compatibility and remote access. For example, a codebase that functions properly on Wi...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/containerize-a-nodejs-application-using-docker.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

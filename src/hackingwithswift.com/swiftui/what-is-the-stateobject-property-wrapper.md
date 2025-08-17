@@ -76,7 +76,7 @@ struct ContentView: View {
 
 That will make sure the `User` instance does not get destroyed when the view updates. 
 
-Previously you might have used `@ObservedObject` to get the same result, but that was dangerous – sometimes, and only sometimes, `@ObservedObject` could accidentally release the object it was storing, because it wasn’t designed to be the ultimate source of truth for the object. This won’t happen with `@StateObject`, so you should use it instead.
+Previously you might have used `@ObservedObject` to get the same result, but that was dangerous - sometimes, and only sometimes, `@ObservedObject` could accidentally release the object it was storing, because it wasn’t designed to be the ultimate source of truth for the object. This won’t happen with `@StateObject`, so you should use it instead.
 
 ::: important
 

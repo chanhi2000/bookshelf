@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Git Checkout Remote Branch – How to Fetch and List Remote Branches"
-description: "Article(s) > Git Checkout Remote Branch – How to Fetch and List Remote Branches"
+title: "Git Checkout Remote Branch - How to Fetch and List Remote Branches"
+description: "Article(s) > Git Checkout Remote Branch - How to Fetch and List Remote Branches"
 icon: iconfont icon-git
 category: 
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Git Checkout Remote Branch – How to Fetch and List Remote Branches"
+      content: "Article(s) > Git Checkout Remote Branch - How to Fetch and List Remote Branches"
     - property: og:description
-      content: "Git Checkout Remote Branch – How to Fetch and List Remote Branches"
+      content: "Git Checkout Remote Branch - How to Fetch and List Remote Branches"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/UT8LMo-wlyk/up
 ---
 
 <SiteInfo
-  name="Git Checkout Remote Branch – How to Fetch and List Remote Branches"
+  name="Git Checkout Remote Branch - How to Fetch and List Remote Branches"
   desc="You can use branches in Git to work on different features without affecting your main codebase. For example, you can experiment with a new layout for your webpage on a different branch without affecting the main branch where your website is being dep..."
   url="https://freecodecamp.org/news/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -167,7 +167,7 @@ Happy coding!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Git Checkout Remote Branch – How to Fetch and List Remote Branches",
+  "title": "Git Checkout Remote Branch - How to Fetch and List Remote Branches",
   "desc": "You can use branches in Git to work on different features without affecting your main codebase. For example, you can experiment with a new layout for your webpage on a different branch without affecting the main branch where your website is being dep...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

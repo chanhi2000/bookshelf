@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
-description: "Article(s) > Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+title: "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
+description: "Article(s) > Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 icon: iconfont icon-microsoftazure
 category:
   - DevOps
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
-      content: "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/
 prev: /devops/azure/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,17 +58,17 @@ You’ve probably heard someone mention load balancing when talking about cloud 
 
 It all sounds important...but also a little confusing. Like, why are there so many moving parts? And what do they actually do?
 
-In this guide, we’re going to break it all down – step by step – using real examples and simple language.
+In this guide, we’re going to break it all down - step by step - using real examples and simple language.
 
 You’ll learn:
 
 - What load balancers are (and why apps even need them)
 - How apps were deployed before load balancers existed (hint: everything lived on one lonely server)
-- How Azure Virtual Machines work – and how they let you scale up your apps
+- How Azure Virtual Machines work - and how they let you scale up your apps
 - What Virtual Machine Scale Sets are, and how they help handle sudden traffic spikes
 - The differences between Azure Load Balancer and Azure Application Gateway, and when to use each
 
-By the end, you won’t just understand what these tools do – you’ll know *when* and *why* to use them in real-world scenarios.
+By the end, you won’t just understand what these tools do - you’ll know *when* and *why* to use them in real-world scenarios.
 
 Whether you’re a curious beginner, a hands-on builder, or someone just trying to wrap their head around Azure’s ecosystem, this guide is for you.
 
@@ -77,7 +77,7 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 ```component VPCard
 {
   "title": "🧊 What Are Load Balancers?",
-  "desc": "(1/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "desc": "(1/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/what-are-load-balancers.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -87,7 +87,7 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 ```component VPCard
 {
   "title": "🖥️ How Applications Were Deployed Before Load Balancers",
-  "desc": "(2/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "desc": "(2/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/how-applications-were-deployed-before-load-balancers.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -96,8 +96,8 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 ```component VPCard
 {
-  "title": "⚙️ Azure Virtual Machines (VMs) – The Building Blocks",
-  "desc": "(3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "⚙️ Azure Virtual Machines (VMs) - The Building Blocks",
+  "desc": "(3/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machines-vms-the-building-blocks.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -106,8 +106,8 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 ```component VPCard
 {
-  "title": "📈 The Need for Scaling – Vertical vs Horizontal",
-  "desc": "(4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "📈 The Need for Scaling - Vertical vs Horizontal",
+  "desc": "(4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/the-need-for-scaling-vertical-vs-horizontal.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -116,8 +116,8 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 ```component VPCard
 {
-  "title": "🔁 Azure Virtual Machine Scale Sets (VMSS) – Scaling Made Simple",
-  "desc": "(5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "🔁 Azure Virtual Machine Scale Sets (VMSS) - Scaling Made Simple",
+  "desc": "(5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machine-scale-sets-vmss-scaling-made-simple.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -126,8 +126,8 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 ```component VPCard
 {
-  "title": "📦 Azure Load Balancer – Spreading the Traffic",
-  "desc": "(6/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "📦 Azure Load Balancer - Spreading the Traffic",
+  "desc": "(6/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-load-balancer-spreading-the-traffic.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -136,8 +136,8 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 ```component VPCard
 {
-  "title": "🍴 Azure Application Gateway – Smart Routing for Modern Apps",
-  "desc": "(7/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "🍴 Azure Application Gateway - Smart Routing for Modern Apps",
+  "desc": "(7/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-application-gateway-smart-routing-for-modern-apps.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -147,7 +147,7 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 ```component VPCard
 {
   "title": "🔍 Azure Load Balancer vs Azure Application Gateway",
-  "desc": "(8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "desc": "(8/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-load-balancer-vs-azure-application-gateway.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -157,7 +157,7 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 ```component VPCard
 {
   "title": "🧭 Use Cases: When to Use Each One",
-  "desc": "(9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "desc": "(9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/use-cases-when-to-use-each-one.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -170,21 +170,21 @@ Ready to untangle the cloud spaghetti? Let’s go! 🍝🚀
 
 By now, you’ve gone from simply hearing the words “load balancer” or “scale set” to understanding exactly how they work, when to use them, and what problems they solve. Whether you’re just launching a small app or scaling up a high-traffic service, Azure gives you flexible, powerful tools to grow with confidence.
 
-We started from the very beginning – a single virtual machine. It’s simple and great for small apps, but it quickly becomes a bottleneck as traffic grows.
+We started from the very beginning - a single virtual machine. It’s simple and great for small apps, but it quickly becomes a bottleneck as traffic grows.
 
 That’s where scaling comes in. We explored:
 
-- 🧱 **Vertical scaling** – Upgrading the same VM (quick fix, but limited)
-- 🧩 **Horizontal scaling** – Adding more VMs to handle traffic better
+- 🧱 **Vertical scaling** - Upgrading the same VM (quick fix, but limited)
+- 🧩 **Horizontal scaling** - Adding more VMs to handle traffic better
 
-Then we introduced Azure Virtual Machine Scale Sets (VMSS) – which bring auto-scaling to life. No more manual intervention – Azure can scale your servers up and down based on demand.
+Then we introduced Azure Virtual Machine Scale Sets (VMSS) - which bring auto-scaling to life. No more manual intervention - Azure can scale your servers up and down based on demand.
 
 But where things really get smart is with load balancers:
 
 - 📦 **Azure Load Balancer** helps spread traffic across your VMs — great for single-service apps
 - 🍴 **Azure Application Gateway** takes it further by routing requests based on URL paths or subdomains — perfect for multi-service or microservice apps
 
-### 🎯 TL;DR – What Should You Use?
+### 🎯 TL;DR - What Should You Use?
 
 - **Single VM**: For side projects, portfolios, or internal tools
 - **Manual scaling + Load Balancer**: For medium apps with predictable load
@@ -193,7 +193,7 @@ But where things really get smart is with load balancers:
 
 ### 💡 Final Thoughts
 
-Cloud apps grow – fast. And with growth comes complexity. But with the right Azure setup, you can stay one step ahead of your traffic, serve users better, and keep costs under control.
+Cloud apps grow - fast. And with growth comes complexity. But with the right Azure setup, you can stay one step ahead of your traffic, serve users better, and keep costs under control.
 
 Remember: you don’t need to start big. Start small, understand your app's traffic patterns, and scale only when you need to. Tools like Azure VM Scale Sets, Load Balancer, and Application Gateway give you the control and power to build scalable, modern applications without over-engineering.
 
@@ -222,7 +222,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

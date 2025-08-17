@@ -263,21 +263,21 @@ This makes the code more concise and easier to read, especially when dealing wit
 
 ### Kotlin 1.5 (2021)
 
-**– Sealed Interfaces**  
+**- Sealed Interfaces**  
 Sealed interfaces in Kotlin 1.5 extend the concept of sealed classes to interfaces, allowing you to control which types can implement an interface. Like sealed classes, sealed interfaces ensure that all possible implementations are known at compile time, enabling the compiler to enforce exhaustive`when`statements. This is especially useful when modeling hierarchies where only a specific set of types is allowed, improving code safety and clarity. By restricting the set of implementors, sealed interfaces prevent unexpected or unintended classes from implementing the interface, which can reduce runtime errors.sealed interface Shape
 
-**– Value Classes (Experimental)**  
+**- Value Classes (Experimental)**  
 Value classes in Kotlin, introduced as an experimental feature, provide a way to wrap a value in a type while avoiding the overhead of creating a full-fledged object. By using the`@JvmInline`annotation, the compiler treats the value class as an inline type, meaning the wrapped value is directly used in memory without additional allocation. This leads to more efficient memory usage, especially for simple data types like`String`,`Int`, or`Long`, which are frequently used in performance-critical parts of the code.@JvmInline  
 value class Password(val value: String)
 
 ### Kotlin 1.6 (2021)
 
-**– Stable Value Classes**  
+**- Stable Value Classes**  
 Value classes are now stable, offering better memory efficiency.
 
 ### Kotlin 1.9 (2023)
 
-**– Optimized JVM performance**  
+**- Optimized JVM performance**  
 Improvements that make Kotlin code run more efficiently on the JVM.
 
 ---

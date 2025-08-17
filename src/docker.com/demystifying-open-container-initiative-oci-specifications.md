@@ -60,7 +60,7 @@ The Open Container Initiative (OCI) announced the completion of the first versio
 
 ## Myth: The OCI is a replacement for Docker
 
-Standards are important, but they are far from a complete production platform. Take for example, the World Wide Web. It  has evolved over the last 25 years and was built on core dependable standards like TCP/IP, HTTP and HTML. Using TCP/IP as an example, when enterprises coalesced around TCP/IP as a common protocol, it fueled the growth of routers and in particular – Cisco. However, Cisco became a leader in its market by focusing on differentiated features on its routing platform. We believe the parallel exists with the OCI specifications and Docker.
+Standards are important, but they are far from a complete production platform. Take for example, the World Wide Web. It  has evolved over the last 25 years and was built on core dependable standards like TCP/IP, HTTP and HTML. Using TCP/IP as an example, when enterprises coalesced around TCP/IP as a common protocol, it fueled the growth of routers and in particular - Cisco. However, Cisco became a leader in its market by focusing on differentiated features on its routing platform. We believe the parallel exists with the OCI specifications and Docker.
 
 [<FontIcon icon="fa-brands fa-docker"/>Docker is a complete production platform](https://docker.com/) for developing, distributing, securing and orchestrating container-based solutions. The OCI specification is used by Docker, but it represents only about five percent of our code and a small part of the Docker platform concerned with the runtime behavior of a container and the layout of a container image. 
 
@@ -96,7 +96,7 @@ The OCI as an organization has a lot of supporting members representing the brea
 
 ## Myth: CRI-O is an OCI project
 
-CRI-O is an open source project in the Kubernetes incubator in the Cloud Native Computing Foundation (CNCF) – it is not an OCI project. It is based on an earlier version of the Docker architecture, whereas containerd is a direct CNCF project that is a larger container runtime that includes the runc reference implementation. containerd is responsible for image transfer and storage, container execution and supervision, and low-level functions to support storage and network attachments. Docker donated containerd to the CNCF with the support of the five largest cloud providers: Alibaba Cloud, AWS, Google Cloud Platform, IBM Softlayer and Microsoft Azure with a charter of being a core container runtime for multiple container platforms and orchestration systems.
+CRI-O is an open source project in the Kubernetes incubator in the Cloud Native Computing Foundation (CNCF) - it is not an OCI project. It is based on an earlier version of the Docker architecture, whereas containerd is a direct CNCF project that is a larger container runtime that includes the runc reference implementation. containerd is responsible for image transfer and storage, container execution and supervision, and low-level functions to support storage and network attachments. Docker donated containerd to the CNCF with the support of the five largest cloud providers: Alibaba Cloud, AWS, Google Cloud Platform, IBM Softlayer and Microsoft Azure with a charter of being a core container runtime for multiple container platforms and orchestration systems.
 
 ---
 

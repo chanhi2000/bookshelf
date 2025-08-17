@@ -96,7 +96,7 @@ Before we get into custom cursors, let’s have a look at all the available curs
 | ---: | --- |
 | `alias` | An alias or shortcut can be created |
 | `all-scroll` | Scroll in any direction |
-| `auto` | Default value – the browser pick a cursor |
+| `auto` | Default value - the browser pick a cursor |
 | `cell` | Select a table cell |
 | `col-resize` | Resize columns |
 | `context-menu` | Opens a menu |

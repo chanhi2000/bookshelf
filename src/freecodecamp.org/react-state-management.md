@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "State Management in React – When and Where to use State"
-description: "Article(s) > State Management in React – When and Where to use State"
+title: "State Management in React - When and Where to use State"
+description: "Article(s) > State Management in React - When and Where to use State"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > State Management in React – When and Where to use State"
+      content: "Article(s) > State Management in React - When and Where to use State"
     - property: og:description
-      content: "State Management in React – When and Where to use State"
+      content: "State Management in React - When and Where to use State"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-state-management.html
 prev: /programming/js-react/articles/README.md
@@ -50,7 +50,7 @@ cover: https://freecodecamp.org/news/content/images/2024/02/rahul-mishra-XXMA-8f
 ---
 
 <SiteInfo
-  name="State Management in React – When and Where to use State"
+  name="State Management in React - When and Where to use State"
   desc="State management is a crucial concept in React, which is one of the most popular JavaScript libraries in the world for building dynamic user interfaces.  Due to its importance in handling data, it is essential know how to manage state, when you need ..."
   url="https://freecodecamp.org/news/react-state-management"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -287,7 +287,7 @@ React is an interesting user interface library, but can get confusing sometimes 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "State Management in React – When and Where to use State",
+  "title": "State Management in React - When and Where to use State",
   "desc": "State management is a crucial concept in React, which is one of the most popular JavaScript libraries in the world for building dynamic user interfaces.  Due to its importance in handling data, it is essential know how to manage state, when you need ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-state-management.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

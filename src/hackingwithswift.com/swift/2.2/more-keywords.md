@@ -71,7 +71,7 @@ func printGreeting(name: String, repeat repeatCount: Int) {
 printGreeting("Taylor", repeat: 5)
 ```
 
-That uses `repeat` as an argument label, which makes sense because the function will print a string a number of times. Because `repeat` is a keyword, this code would not work before Swift 2.2 – you would need to write `repeat` instead, which is unpleasant.
+That uses `repeat` as an argument label, which makes sense because the function will print a string a number of times. Because `repeat` is a keyword, this code would not work before Swift 2.2 - you would need to write `repeat` instead, which is unpleasant.
 
 Note that there are still some keywords that may not be used, specifically `var`, `let` and `inout`.
 

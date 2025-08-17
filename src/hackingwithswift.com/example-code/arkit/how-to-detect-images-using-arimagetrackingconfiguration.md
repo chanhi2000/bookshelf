@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "ARKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/arkit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,15 +66,15 @@ ARKit can automatically scan for images in the world, which means you can attach
 
 To get started detecting images, create a new iOS project using the Augmented Reality App template and SceneKit, then clean it up: open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, clear out everything in `viewDidLoad()` except the call to `super.viewDidLoad()` and `sceneView.delegate = self`, and finally delete the three empty methods at the end. You can also delete art.scnassets, which isn’t needed here.
 
-The first step is to import the pictures you want ARKit to recognize. Remember, these should be digital copies of real-world pictures, so either scan the real-world objects or print your images. These pictures should *not* just be dragged into your asset catalog – we need to add them in a special way.
+The first step is to import the pictures you want ARKit to recognize. Remember, these should be digital copies of real-world pictures, so either scan the real-world objects or print your images. These pictures should *not* just be dragged into your asset catalog - we need to add them in a special way.
 
 In your asset catalog, right-click on the blank space below AppIcon and choose New AR Resource Group. It will be named “AR Resources” by default, but I’d like you to change that to something that represents your images. For example, if you were looking for pictures in an art gallery you might call it Paintings. Now drag your images to where it says “No AR items”, to add those numbers to the resource group.
 
 This process creates a set of images that ARKit is able to scan for, and although you can create as many as you want you can have only one active at a given time.
 
-When you next press <kbd>Cmd</kbd>+B to build your project, Xcode will scan your ARKit images to make sure they are suitable for AR detection. You should, at least at first, always get warnings for your images, because Xcode should report the images need “non-zero, positive width”. This is because adding PNG files to the ARKit catalog isn’t enough: Xcode needs to know an estimated *size* of the images in the real world, so it can detect them more accurately. So, select each of your images, then enter their size into the attributes inspector – the default unit is meters, but you’ll probably find it easier to change that to centimeters.
+When you next press <kbd>Cmd</kbd>+B to build your project, Xcode will scan your ARKit images to make sure they are suitable for AR detection. You should, at least at first, always get warnings for your images, because Xcode should report the images need “non-zero, positive width”. This is because adding PNG files to the ARKit catalog isn’t enough: Xcode needs to know an estimated *size* of the images in the real world, so it can detect them more accurately. So, select each of your images, then enter their size into the attributes inspector - the default unit is meters, but you’ll probably find it easier to change that to centimeters.
 
-Once you’ve entered a valid size for each image, Xcode’s warnings should go away – if any warnings remain it means your images fail the detection criteria, so read Xcode’s suggestions and try again.
+Once you’ve entered a valid size for each image, Xcode’s warnings should go away - if any warnings remain it means your images fail the detection criteria, so read Xcode’s suggestions and try again.
 
 The next step is to tell ARKit that we want to scan for images, and in particular those images we just added. Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and change `viewWillAppear()` to this:
 
@@ -85,7 +85,7 @@ override func viewWillAppear(_ animated: Bool) {
     let configuration = ARImageTrackingConfiguration()
 
     guard let trackingImages = ARReferenceImage.referenceImages(inGroupNamed: "YourGroupNameHere", bundle: nil) else {
-        // failed to read them – crash immediately!
+        // failed to read them - crash immediately!
         fatalError("Couldn't load tracking images.")
     }
 
@@ -96,7 +96,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 **Note:** Obviously you should change “YourGroupNameHere” to name of your AR resource group.
 
-That loads the AR resource group you created and asks ARKit to track them. If for some reason you need to track more than one image at a time, you can set the `maximumNumberOfTrackedImages` property on your session to whatever you need – it defaults to 1, but modern iPhones can handle about 4.
+That loads the AR resource group you created and asks ARKit to track them. If for some reason you need to track more than one image at a time, you can set the `maximumNumberOfTrackedImages` property on your session to whatever you need - it defaults to 1, but modern iPhones can handle about 4.
 
 Now that tracking is running, the final step is to make the app do something when your image is detected. Here’s some code for the `ViewController` class that places a translucent blue layer over each detected image:
 
@@ -124,9 +124,9 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
 
 Wrapping our node in a parent is helpful so that ARKit can move, rotate, and scale the parent without affecting the child node inside.
 
-**Tip:** You can read the name of the detected image by using `imageAnchor.referenceImage.name` – this will match whatever name it has in your asset catalog.
+**Tip:** You can read the name of the detected image by using `imageAnchor.referenceImage.name` - this will match whatever name it has in your asset catalog.
 
-That’s all the code you need, so if you run the app on a real device you should be able to try scanning your images. When it runs for the first time you’ll be asked for camera permissions, but after that you’ll find you can detect your images in any orientation, pick them up, move them around, and so on – ARKit is remarkably good at detecting all sorts of variations.
+That’s all the code you need, so if you run the app on a real device you should be able to try scanning your images. When it runs for the first time you’ll be asked for camera permissions, but after that you’ll find you can detect your images in any orientation, pick them up, move them around, and so on - ARKit is remarkably good at detecting all sorts of variations.
 
 -->
 

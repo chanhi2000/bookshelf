@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 SwiftyJSON is a super-simplified JSON parsing library that gives you clearer syntax than the built-in iOS libraries (yes, even more than `JSONEncoder` from `Codable`), and is free.
 
-You can <a href="https://github.com/SwiftyJSON/SwiftyJSON">download it from here</a> – unzip the file you downloaded, then look in its Source directory and drag <FontIcon icon="fa-brands fa-swift"/>`SwiftyJSON.swift` into your Xcode project. To use SwiftyJSON, you need to convert your JSON string into a `Data` object, then send it in for parsing. Once that's done, you simply request data in the format you want, and (here's the awesome bit) *SwiftyJSON is guaranteed to return something.*
+You can <a href="https://github.com/SwiftyJSON/SwiftyJSON">download it from here</a> - unzip the file you downloaded, then look in its Source directory and drag <FontIcon icon="fa-brands fa-swift"/>`SwiftyJSON.swift` into your Xcode project. To use SwiftyJSON, you need to convert your JSON string into a `Data` object, then send it in for parsing. Once that's done, you simply request data in the format you want, and (here's the awesome bit) *SwiftyJSON is guaranteed to return something.*
 
 That "something" is going to be your data, if all things are in good shape. But if you requested the wrong thing (either with a typo, or because you didn't understand your JSON structure correctly) or if the JSON has changed, SwiftyJSON will just return a default value instead.
 
@@ -98,7 +98,7 @@ Sometimes JSON has quite deeply nested dictionaries, but that's OK: SwiftyJSON c
 }
 ```
 
-You might want to check that the status code is 200 before continuing. To do that, just read the "metaData", "responseInfo" and "status" values all at once, and ask SwiftyJSON for its `intValue` – you'll either get the correct number (200) or 0 if any of those values don't exist. Like this:
+You might want to check that the status code is 200 before continuing. To do that, just read the "metaData", "responseInfo" and "status" values all at once, and ask SwiftyJSON for its `intValue` - you'll either get the correct number (200) or 0 if any of those values don't exist. Like this:
 
 ```swift
 if json["metadata"]["responseInfo"]["status"].intValue == 200 {

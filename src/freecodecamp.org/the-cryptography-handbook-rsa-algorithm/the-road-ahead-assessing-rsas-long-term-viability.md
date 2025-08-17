@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743630655223/f7e0c09
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743630655223/f7e0c094-2103-42cd-97bd-be79d14fff67.png"/>
 
-In 1994, Peter Shor’s algorithm[^1], demonstrated that a quantum computer can factor large integers in polynomial time, thereby efficiently breaking RSA’s underlying hard problem – the difficulty of factoring $n=p\times{q}$.
+In 1994, Peter Shor’s algorithm[^1], demonstrated that a quantum computer can factor large integers in polynomial time, thereby efficiently breaking RSA’s underlying hard problem - the difficulty of factoring $n=p\times{q}$.
 
 Although experimental quantum computers have made progress, they remain far from having the number of stable qubits required to break RSA keys of practical sizes ($2,048$ or $4,096$ bits).
 

@@ -110,7 +110,7 @@ By integrating **Memory Agents** by Langbase, we can give LLMs long-term memory�
 
 These agents combine vector storage, Retrieval-Augmented Generation (RAG), and internet access to create a powerful managed context search API. Developers can use them to build smarter, more capable AI applications.
 
-In a RAG setup, memory – when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) – becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
+In a RAG setup, memory - when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) - becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
 
 Memory agents ensure secure local memory storage. Data used to create memory embeddings stays protected, processed within secure environments, and only sent externally if explicitly configured. Access is strictly controlled via API keys, ensuring sensitive information remains safe.
 

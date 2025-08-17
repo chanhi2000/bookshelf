@@ -72,7 +72,7 @@ OldSettings.set("Friend", to: "Mooncake")
 print(OldSettings.get("Captain") ?? "Unknown")
 ```
 
-Wrapping the dictionary inside a type means that we can control access more carefully, and using an enum with no cases means we can’t try to instantiate the type – we can’t make various instances of `Settings`.
+Wrapping the dictionary inside a type means that we can control access more carefully, and using an enum with no cases means we can’t try to instantiate the type - we can’t make various instances of `Settings`.
 
 With Swift 5.1 we can now use a static subscript instead, allowing us to rewrite our code to this:
 

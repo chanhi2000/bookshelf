@@ -57,7 +57,7 @@ When you’re doing a penetration test, your first job is to understand the targ
 
 Before you touch a single exploit or send a single payload, you need to know what services are running, what ports are open, what technologies are in play, and where the weak spots might be.
 
-This phase is called **reconnaissance**. It can eat up hours – sometimes even days – if you’re doing it manually.
+This phase is called **reconnaissance**. It can eat up hours - sometimes even days - if you’re doing it manually.
 
 That’s where [Autorecon (<FontIcon icon="iconfont icon-github"/>`Tib3rius/AutoRecon`)](https://github.com/Tib3rius/AutoRecon) comes in.
 
@@ -69,7 +69,7 @@ Autorecon is a tool that automates most of the initial recon work. It’s not a 
 
 Autorecon takes a list of IPs or domain names and runs a series of predefined scans. Then it organizes the output neatly so you don’t waste time parsing through raw Nmap files or rerunning missed commands.
 
-If you’re just starting out with pentesting – whether you’re on your first TryHackMe box or your tenth OSCP practice lab – Autorecon can save you a ton of time. Let’s break down how it works.
+If you’re just starting out with pentesting - whether you’re on your first TryHackMe box or your tenth OSCP practice lab - Autorecon can save you a ton of time. Let’s break down how it works.
 
 ---
 
@@ -88,7 +88,7 @@ Let’s say you run it against an IP that has ports 22 (SSH), 80 (HTTP), and 139
 - Run `enum4linux` or `smbmap` on SMB.
 - Store everything in organized folders for later review.
 
-That’s what you’d do manually – but faster, cleaner, and without forgetting steps.
+That’s what you’d do manually - but faster, cleaner, and without forgetting steps.
 
 ---
 
@@ -136,7 +136,7 @@ Look for open ports and services:
 - **SMB ports open?** Look in the `enum4linux` and `smbmap` results to find shared drives or user info.
 - **FTP anonymous login allowed?** Use that access to explore directories.
 
-These findings will give you the next steps – like browsing a web service, crafting a payload, or checking for known exploits.
+These findings will give you the next steps - like browsing a web service, crafting a payload, or checking for known exploits.
 
 ---
 
@@ -261,9 +261,9 @@ Read the Nmap files, check the HTML reports. Tools don’t think like humans. Yo
 
 ## Final Thoughts
 
-Autorecon doesn’t replace your skills – but it helps supercharge them. Instead of spending 30 minutes typing out scan commands, you can run one command and start analyzing in minutes. This helps beginners stay focused, and it helps pros save time.
+Autorecon doesn’t replace your skills - but it helps supercharge them. Instead of spending 30 minutes typing out scan commands, you can run one command and start analyzing in minutes. This helps beginners stay focused, and it helps pros save time.
 
-So if you’re tired of rerunning the same Nmap scans over and over, or you just want cleaner results and fewer mistakes, let Autorecon do the heavy lifting – so you can focus on the part that really matters: breaking stuff.
+So if you’re tired of rerunning the same Nmap scans over and over, or you just want cleaner results and fewer mistakes, let Autorecon do the heavy lifting - so you can focus on the part that really matters: breaking stuff.
 
 ::: info
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Accessibility - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/accessibility/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-As clever as VoiceOver is, sometimes it will get the pronunciation wrong for certain words – particularly when it’s missing some context that would have made clear what the correct pronunciation was.
+As clever as VoiceOver is, sometimes it will get the pronunciation wrong for certain words - particularly when it’s missing some context that would have made clear what the correct pronunciation was.
 
-For example, if you have a `UILabel` containing the string “Live” should that be pronounced as “liv” or as “lyve”? Or how about “Read” – is that pronounced as “reed” or “red”? There’s no way for VoiceOver to know unless you tell it.
+For example, if you have a `UILabel` containing the string “Live” should that be pronounced as “liv” or as “lyve”? Or how about “Read” - is that pronounced as “reed” or “red”? There’s no way for VoiceOver to know unless you tell it.
 
 The official way to do this is by using the `UIAccessibilitySpeechAttributeIPANotation` key in an attributed string, but in practice using that just makes your sounds come out poorly.
 
@@ -72,7 +72,7 @@ label.text = "read"
 label.accessibilityLabel = "red"
 ```
 
-Using this approach, the screen will show “read” but VoiceOver users will hear “red” – it works for everyone.
+Using this approach, the screen will show “read” but VoiceOver users will hear “red” - it works for everyone.
 
 There are two places where this approach either won’t be enough or will prove extremely complicated.
 

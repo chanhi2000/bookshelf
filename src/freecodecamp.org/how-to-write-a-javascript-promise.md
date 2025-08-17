@@ -89,7 +89,7 @@ console.log(myCar);
 
 A promise is simply an object that we create like the later example. We instantiate it with the `new` keyword. Instead of the three parameters we passed in to make our car (color, type, and doors), we pass in a function that takes two arguments: `resolve` and `reject`.
 
-Ultimately, promises tell us something about the completion of the asynchronous function we returned it from–if it worked or didn’t. We say the function was successful by saying the promise *resolved*, and unsuccessful by saying the promise *rejected.*
+Ultimately, promises tell us something about the completion of the asynchronous function we returned it from-if it worked or didn’t. We say the function was successful by saying the promise *resolved*, and unsuccessful by saying the promise *rejected.*
 
 ```js
 const myPromise = new Promise(function(resolve, reject) {});
@@ -107,7 +107,7 @@ const myPromise = new Promise(function(resolve, reject) {
 
 ![Notice we resolved the promise with the value 10.](https://cdn-media-1.freecodecamp.org/images/1*voamRd9sJg_NZ0vOdbYJgg.png)
 
-See, not too scary–just an object we created. And, if we expand it a bit:
+See, not too scary-just an object we created. And, if we expand it a bit:
 
 ![Notice we have some methods we have access to namely “then” and “catch”](https://cdn-media-1.freecodecamp.org/images/1*szpVAwKfKzMasjP9Wlpigg.png)
 

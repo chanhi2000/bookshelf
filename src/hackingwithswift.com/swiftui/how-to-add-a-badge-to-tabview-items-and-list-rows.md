@@ -54,7 +54,7 @@ head:
 
 **New in iOS 15**
 
-SwiftUI's `badge()` modifier lets us add numbers and text to tab view items and list rows, with the purpose of drawing the user's attention to some supplementary status information – something like a number over a tab icon to represent an unread message count, for example.
+SwiftUI's `badge()` modifier lets us add numbers and text to tab view items and list rows, with the purpose of drawing the user's attention to some supplementary status information - something like a number over a tab icon to represent an unread message count, for example.
 
 For example, if you wanted to show the number 5 in red over a tab item, you would use this:
 

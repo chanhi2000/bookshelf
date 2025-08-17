@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-The best way to perform a bulk data import with SwiftData – i.e., to create a lot of model objects at the same time, perhaps as a result of a network call – is to use a background task through something like an actor. 
+The best way to perform a bulk data import with SwiftData - i.e., to create a lot of model objects at the same time, perhaps as a result of a network call - is to use a background task through something like an actor. 
 
 ::: tip
 
@@ -95,7 +95,7 @@ That does a few important things you should take note of for maximum performance
 1. It creates the model context inside the `backgroundInsert()` method, thus avoiding the significant cost of accessing an actor's property repeatedly.
 2. It inserts 100,000 test objects in chunks of 1000.
 3. After each batch it calls `save()` to write the data to disk, keeping the peak memory overhead lower.
-4. It has a *commented-out* 1-millisecond pause between each object insertion – the code goes as fast as possible, but if you want to throttle your inserts you should uncomment that line.
+4. It has a *commented-out* 1-millisecond pause between each object insertion - the code goes as fast as possible, but if you want to throttle your inserts you should uncomment that line.
 
 ::: important
 

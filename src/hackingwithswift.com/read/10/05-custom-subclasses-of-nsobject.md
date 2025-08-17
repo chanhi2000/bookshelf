@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ var name: String
 var image: String
 ```
 
-When you do that, you'll see errors: "Class 'Person' has no initializers." Swift is telling us that we aren't satisfying one of its core rules: objects of type `String` can't be empty. Remember, `String!` and `String?` can both be `nil`, but plain old `String` can't – it must have a value. Without an initializer, it means the object will be created and these two variables won't have values, so you're breaking the rules.
+When you do that, you'll see errors: "Class 'Person' has no initializers." Swift is telling us that we aren't satisfying one of its core rules: objects of type `String` can't be empty. Remember, `String!` and `String?` can both be `nil`, but plain old `String` can't - it must have a value. Without an initializer, it means the object will be created and these two variables won't have values, so you're breaking the rules.
 
 To fix this problem, we need to create an `init()` method that accepts two parameters, one for the name and one for the image. We'll then save that to the object so that both variables have a value, and Swift is happy.
 
@@ -99,5 +99,5 @@ That stores the image name in the `Person` object and gives them a default name 
 
 Can you spot the problem? If not, that's OK, but you should be able to spot it if you run the program.
 
-The problem is that although we've added the new person to our array and reloaded the collection view, we aren't actually using the `people` array with the collection view – we just return 10 for the number of items and create an empty collection view cell for each one! Let's fix that…
+The problem is that although we've added the new person to our array and reloaded the collection view, we aren't actually using the `people` array with the collection view - we just return 10 for the number of items and create an empty collection view cell for each one! Let's fix that…
 

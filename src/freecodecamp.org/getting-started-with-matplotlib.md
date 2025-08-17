@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Get Started with Matplotlib – With Code Examples and Visualizations"
-description: "Article(s) > How to Get Started with Matplotlib – With Code Examples and Visualizations"
+title: "How to Get Started with Matplotlib - With Code Examples and Visualizations"
+description: "Article(s) > How to Get Started with Matplotlib - With Code Examples and Visualizations"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Get Started with Matplotlib – With Code Examples and Visualizations"
+      content: "Article(s) > How to Get Started with Matplotlib - With Code Examples and Visualizations"
     - property: og:description
-      content: "How to Get Started with Matplotlib – With Code Examples and Visualizations"
+      content: "How to Get Started with Matplotlib - With Code Examples and Visualizations"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/getting-started-with-matplotlib.html
 prev: /programming/py/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727947002230/9ab7fb4
 ---
 
 <SiteInfo
-  name="How to Get Started with Matplotlib – With Code Examples and Visualizations"
+  name="How to Get Started with Matplotlib - With Code Examples and Visualizations"
   desc="One of the key steps in data analysis is data visualization, as it helps you notice certain features, tendencies, and relevant patterns that may not be obvious in raw data. Matplotlib is one of the most effective libraries for Python, and it allows t..."
   url="https://freecodecamp.org/getting-started-with-matplotlib"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

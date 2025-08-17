@@ -45,12 +45,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725024307257/62401ee
 
 <SiteInfo
   name="How to Build a RAG Pipeline with LlamaIndex"
-  desc="Large Language Models are everywhere these days – think ChatGPT – but they have their fair share of challenges. One of the biggest challenges faced by LLMs is hallucination. This occurs when the model generates text that is factually incorrect or mis..."
+  desc="Large Language Models are everywhere these days - think ChatGPT - but they have their fair share of challenges. One of the biggest challenges faced by LLMs is hallucination. This occurs when the model generates text that is factually incorrect or mis..."
   url="https://freecodecamp.org/news/how-to-build-a-rag-pipeline-with-llamaindex/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1725024307257/62401eea-25ab-4f00-93d7-76d7c49cf330.jpeg"/>
 
-Large Language Models are everywhere these days – think ChatGPT – but they have their fair share of challenges.
+Large Language Models are everywhere these days - think ChatGPT - but they have their fair share of challenges.
 
 One of the biggest challenges faced by LLMs is hallucination. This occurs when the model generates text that is factually incorrect or misleading, often based on patterns it has learned from its training data. So how can Retrieval-Augmented Generation, or RAG, help mitigate this issue?
 

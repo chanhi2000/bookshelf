@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 There's a reason I've made you put the card functionality into a separate view controller, and it's because we're going to be adding some functionality to cards to handle them being flipped over. iOS makes this kind of animation really easy, but it's done in a slightly different way to our previous animations.
 
-To handle tap detection we're going to use a `UITapGestureRecognizer` rather than something like `touchesBegan`. This will make more sense later on, but the TL;DR version is that part of the hoax effect will be you running your finger over the cards using your powers to "feel" for the star – something like `touchesBegan()` will just cause problems.
+To handle tap detection we're going to use a `UITapGestureRecognizer` rather than something like `touchesBegan`. This will make more sense later on, but the TL;DR version is that part of the hoax effect will be you running your finger over the cards using your powers to "feel" for the star - something like `touchesBegan()` will just cause problems.
 
 So, please add this gesture recognizer to the end of `viewDidLoad()` in the `CardViewController` class:
 
@@ -107,7 +107,7 @@ func cardTapped(_ tapped: CardViewController) {
 }
 ```
 
-You can see that calls `wasTapped()` and `wasntTapped()` methods in the card view controllers, each of which will perform some animation – we'll get onto that in a moment. Using the `afterDelay` variant of `perform()` will cause `wasntTapped()` to be called after 1 second, and `loadCards()` to be called after 2 seconds.
+You can see that calls `wasTapped()` and `wasntTapped()` methods in the card view controllers, each of which will perform some animation - we'll get onto that in a moment. Using the `afterDelay` variant of `perform()` will cause `wasntTapped()` to be called after 1 second, and `loadCards()` to be called after 2 seconds.
 
 For now, focus on the first two lines of that method: that's what stops users tapping two cards at once. By disabling the user interaction (and also checking that it was enabled beforehand) we can be sure the user gets to make only one choice. But we do need to re-enable user interaction when we're done, otherwise our app will be useless.
 
@@ -143,7 +143,7 @@ func wasTapped() {
 
 As you can see, all the work is done by the `transition(with:)` method. This takes a view to operate on as its first parameter, and all the animations you perform need to be done on subviews of this container view. We pass `.transitionFlipFromRight` to create the flip effect, but you should try using the code completion to explore other options.
 
-Inside the animations block, we just adjust the `isHidden` properties of the front and back image views, but in the context of `.transitionFlipFromRight` that will cause iOS to animate this change as a flip – it really is that simple.
+Inside the animations block, we just adjust the `isHidden` properties of the front and back image views, but in the context of `.transitionFlipFromRight` that will cause iOS to animate this change as a flip - it really is that simple.
 
-That's it! Run the project now and you'll find you can tap on any card to flip it over – a neat effect with hardly any code. Thanks, iOS!
+That's it! Run the project now and you'll find you can tap on any card to flip it over - a neat effect with hardly any code. Thanks, iOS!
 

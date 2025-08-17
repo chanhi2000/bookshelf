@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -163,17 +163,17 @@ At this point in the project, here's what you need to know about iCloud and Clou
 - When you write data to CloudKit it automatically figures out how to store it based on all the keys and values you provide, and their data types. You can change this later if you want.
 - All CloudKit calls are asynchronous, so you provide completion blocks to be executed when the call finishes. This will tell you what went wrong if anything, but the block can be called on any thread so be careful!
 
-Because CloudKit automatically figures out how to store your data, it means we can go ahead and start sending it whistles and whistle meta data and have it stored – no back-end configuration required.
+Because CloudKit automatically figures out how to store your data, it means we can go ahead and start sending it whistles and whistle meta data and have it stored - no back-end configuration required.
 
 To make things easier to explain, I'm going to split the `doSubmission()` method in two: a part that creates the record to send to iCloud, and a part that handles the result.
 
-The first part is straightforward, because like I said the `CKRecord` class looks and works much like a dictionary: you set any key to any (valid!) value, and it does the rest. By "valid" I mean things that you can normally store in a dictionary: strings, numbers, arrays, dates and so forth. You can even store `CLLocations` for doing map-based queries – it's surprisingly simple!
+The first part is straightforward, because like I said the `CKRecord` class looks and works much like a dictionary: you set any key to any (valid!) value, and it does the rest. By "valid" I mean things that you can normally store in a dictionary: strings, numbers, arrays, dates and so forth. You can even store `CLLocations` for doing map-based queries - it's surprisingly simple!
 
 You can also store assets inside `CKRecord` objects, which is exactly what we're going to do: the genre and comments are both simple string keys, but the whistle audio itself needs to be uploaded as a `CKAsset` before it's attached. This isn't hard to do, because there's a constructor method for `CKAsset` that takes a file URL just like we get back from `RecordWhistleViewController.getWhistleURL()`.
 
 One last thing before I show you the code: each `CKRecord` has a record type, which is a string. This is a name you provide and has meaning only to you, but identifies the particular type of data you're trying to save. We're working with whistles, so we'll use the record type "Whistles". Make sure you type it correctly, because it needs to match when you write and read.
 
-That's it – here's the first part of the `doSubmission()` method:
+That's it - here's the first part of the `doSubmission()` method:
 
 ```swift
 let whistleRecord = CKRecord(recordType: "Whistles")

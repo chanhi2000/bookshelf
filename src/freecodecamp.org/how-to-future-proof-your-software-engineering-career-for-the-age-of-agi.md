@@ -191,7 +191,7 @@ AGI systems will likely operate on a global scale, requiring vast amounts of com
 ### How to prepare
 
 - **Take courses:** Study [<FontIcon icon="fa-brands fa-free-code-camp"/>cloud computing platforms](https://freecodecamp.org/news/search?query=aws) like AWS, Google Cloud, or Microsoft Azure. Learning about distributed systems and IaC tools like [Terraform](/freecodecamp.org/learn-terraform-and-aws-by-building-a-dev-environment.md) and Ansible will also be beneficial.
-- **Obtain certifications:** Earning certifications in cloud architecture (like the AWS Certified Solutions Architect) can help solidify your knowledge. freeCodeCamp has many free courses to help you study for AWS certs – [like this one](/freecodecamp.org/ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown.md).
+- **Obtain certifications:** Earning certifications in cloud architecture (like the AWS Certified Solutions Architect) can help solidify your knowledge. freeCodeCamp has many free courses to help you study for AWS certs - [like this one](/freecodecamp.org/ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown.md).
 - **Build projects:** Work on setting up and managing cloud infrastructure for applications, experimenting with scalability and load balancing.
 - **Job titles to watch:** Cloud Infrastructure Engineer, Systems Architect for AI.
 

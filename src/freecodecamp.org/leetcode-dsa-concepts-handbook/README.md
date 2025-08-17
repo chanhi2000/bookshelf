@@ -75,20 +75,20 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748548297673/2ea8ee5
 
 <SiteInfo
   name="LeetCode Meditations: A Visual Handbook of Data Structures and Algorithms Concepts"
-  desc="It may seem like an oxymoron when the words ”LeetCode” and ”meditation” are used together – after all, one thing that almost everyone can agree is that LeetCode is challenging. It's called grinding LeetCode for a reason. It doesn't have anything to d..."
+  desc="It may seem like an oxymoron when the words ”LeetCode” and ”meditation” are used together - after all, one thing that almost everyone can agree is that LeetCode is challenging. It's called grinding LeetCode for a reason. It doesn't have anything to d..."
   url="https://freecodecamp.org/news/leetcode-dsa-concepts-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748548297673/2ea8ee5a-e873-4401-b024-86412bf00f8a.png"/>
 
-It may seem like an oxymoron when the words "LeetCode" and "meditation" are used together – after all, one thing that almost everyone can agree is that [<FontIcon icon="fas fa-globe"/>LeetCode](https://leetcode.com/) is challenging. It's called *grinding* LeetCode for a reason.
+It may seem like an oxymoron when the words "LeetCode" and "meditation" are used together - after all, one thing that almost everyone can agree is that [<FontIcon icon="fas fa-globe"/>LeetCode](https://leetcode.com/) is challenging. It's called *grinding* LeetCode for a reason.
 
 It doesn't have anything to do with the platform, of course, but rather what it represents: tackling problems for hours on end, usually to find a solution that is even harder to understand.
 
 But what is more challenging is finding a roadmap to solve those problems with very little knowledge of data structures and algorithms. This handbook is more or less based on the [<FontIcon icon="fas fa-globe"/>Blind 75 list](https://neetcode.io/practice?tab=blind75) that's included in [<FontIcon icon="fas fa-globe"/>neetcode.io](http://neetcode.io)'s practice problems. This is an amazing resource that offers an organized study roadmap for solving LeetCode problems.
 
-In fact, why not take a more structured and *calmer* approach? We can treat learning about the topics on the list like taking a brief walk in nature – a sort of meditation, if you will.
+In fact, why not take a more structured and *calmer* approach? We can treat learning about the topics on the list like taking a brief walk in nature - a sort of meditation, if you will.
 
-That said, this handbook is not about specific problems. Rather it’s about understanding the concepts behind them in a casual manner. It is also language agnostic – sometimes you’ll see TypeScript, sometimes Python, and sometimes JavaScript.
+That said, this handbook is not about specific problems. Rather it’s about understanding the concepts behind them in a casual manner. It is also language agnostic - sometimes you’ll see TypeScript, sometimes Python, and sometimes JavaScript.
 
 This handbook also requires you to be patient, to relax, to take a step back and pay attention. The mid-quality GIFs used in the handbook (maybe ironically!) intend to encourage this. They are not videos, so you can wait for it to come to a moment that you didn't understand or missed instead of hastily rewinding it back or rushing to a certain point in the future.
 
@@ -166,7 +166,7 @@ All the while, the length and capacity of `items` keep growing dynamically.
 
 Accessing an element is $O\left(1\right)$ as we have [<FontIcon icon="fa-brands fa-wikipedia-w"/>random access](https://en.wikipedia.org/wiki/Random_access).
 
-Inserting a new element or deleting an element is $O\left(n\right)$ (think about having to shift all the elements before inserting or after deleting an item). But, in order to not be too pessimistic, we can look at [<FontIcon icon="fa-brands fa-wikipedia-w"/>amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis) – in that case, inserting/deleting at the end of the array becomes $O\left(1\right)$.
+Inserting a new element or deleting an element is $O\left(n\right)$ (think about having to shift all the elements before inserting or after deleting an item). But, in order to not be too pessimistic, we can look at [<FontIcon icon="fa-brands fa-wikipedia-w"/>amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis) - in that case, inserting/deleting at the end of the array becomes $O\left(1\right)$.
 
 Space complexity is $O\left(n\right)$, as the need for space will grow proportionately as the input increases.
 
@@ -291,7 +291,7 @@ function isPalindrome(s: string) {
 }
 ```
 
-We initialize two pointers: `left` and `right`. `left` points to the start of the array, while the `right` points to the last element. As we loop while `left` is less than `right`, we check if they are equal. If not, we return `false` immediately. Otherwise, our `left` pointer is increased – that is, it's moved to the *right* one step, and our `right` pointer is decreased, meaning that it's moved to the *left* one step. When they eventually overlap, the loop terminates, and we return `true`.
+We initialize two pointers: `left` and `right`. `left` points to the start of the array, while the `right` points to the last element. As we loop while `left` is less than `right`, we check if they are equal. If not, we return `false` immediately. Otherwise, our `left` pointer is increased - that is, it's moved to the *right* one step, and our `right` pointer is decreased, meaning that it's moved to the *left* one step. When they eventually overlap, the loop terminates, and we return `true`.
 
 Let's say our string is `'racecar'`, which is a palindrome. It will go like this:
 
@@ -345,13 +345,13 @@ Now that we're familiar with the Two Pointers technique, we can add another one 
 
 ### Fixed window size
 
-If we have a size constraint in a given problem – say, we need to check a $k$-sized subarray – sliding window is an appropriate technique to use.
+If we have a size constraint in a given problem - say, we need to check a $k$-sized subarray - sliding window is an appropriate technique to use.
 
 For example, getting the maximum subarray (of size $k$) sum of a given array can be done like this:
 
 ![Animated visualization of fixed window size sliding window technique, array `[1, 5, 4, 2, 9]` with k = 3, having the `maxSum` of 15.](https://cdn.hashnode.com/res/hashnode/image/upload/v1747914357907/ecd51e70-e649-4856-a563-47621b950526.gif)
 
-Note that the window size is k, and it doesn't change throughout the operation – hence, **fixed size**.
+Note that the window size is k, and it doesn't change throughout the operation - hence, **fixed size**.
 
 A very cool thing to notice here is that with each **slide**, what happens to our sum is that we *add* the right element, and *decrease* the left element.
 
@@ -411,7 +411,7 @@ As opposed to the fixed window size version, the size of the window changes dyna
 
 For example, let's take a brief look at the problem [<FontIcon icon="fas fa-globe"/>Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock). We need to choose a day to buy a stock, and sell it in the *future*. The numbers in the array are prices, and we need to buy the stock at as low a price as we can, and sell it as high as we can.
 
-We can initialize `left` and `right` pointers again, but this time, we'll update them depending on a condition. When the left item is less than the one on the right, that means it's good – we can buy and sell at those prices, so we get their difference and update our `maxDiff` variable that holds the maximum difference between the two.
+We can initialize `left` and `right` pointers again, but this time, we'll update them depending on a condition. When the left item is less than the one on the right, that means it's good - we can buy and sell at those prices, so we get their difference and update our `maxDiff` variable that holds the maximum difference between the two.
 
 If, however, the left one is greater than the right one, we update our `left` pointer to be where the `right` is at. In both cases, we'll continue updating `right` until we reach the end of the array.
 
@@ -582,7 +582,7 @@ console.log(myStack.peek()) // 0
 
 Each method we defined for our stack has $O\left(1\right)$ time complexity, and it would be the same if we were to use an array as well. However, as mentioned above, arrays have limitations in that having to allocate a predefined stack size can lead to a stack overflow. And if we were to use a dynamic array, the whole array might need to be copied to go into another memory location after a certain size is reached, leading to $O\left(n\right)$ time. So, linked lists are ideal to implement a stack data type.
 
-If the space complexity is linear – $O\left(n\right)$– the stack will grow linearly with the number of items in it.
+If the space complexity is linear - $O\left(n\right)$- the stack will grow linearly with the number of items in it.
 
 :::
 
@@ -635,7 +635,7 @@ The time complexity of a binary search algorithm is $O\left(\log_{}{n}\right)$ i
 
 ## Chapter Six: Linked Lists
 
-A linked list is a linear data structure that you're likely to be familiar with. It is also a data structure that can grow and shrink dynamically – so unlike arrays, there's no need to allocate memory beforehand.
+A linked list is a linear data structure that you're likely to be familiar with. It is also a data structure that can grow and shrink dynamically - so unlike arrays, there's no need to allocate memory beforehand.
 
 An important part of a linked list is the **head pointer** that points to the beginning of the list. There may or may not be a **tail pointer** that also points to the end of the list.
 
@@ -1074,9 +1074,9 @@ class CircularLinkedList {
 
 ::: info Time and space complexity
 
-With linked lists, the time complexity for accessing an element is in the worst case $O\left(n\right)$. *Prepending* and *appending* an element depends on whether we have a tail pointer. If we have it, then both operations are $O\left(1\right)$, as we only need to arrange pointers. But if we don't have a tail pointer, *appending* an element requires traversing the whole list, so it is an $O\left(n\right)$ operation. Removing an element is similar – in the worst case, it is $O\left(n\right)$.
+With linked lists, the time complexity for accessing an element is in the worst case $O\left(n\right)$. *Prepending* and *appending* an element depends on whether we have a tail pointer. If we have it, then both operations are $O\left(1\right)$, as we only need to arrange pointers. But if we don't have a tail pointer, *appending* an element requires traversing the whole list, so it is an $O\left(n\right)$ operation. Removing an element is similar - in the worst case, it is $O\left(n\right)$.
 
-If the space complexity is linear – $O\left(n\right)$– then the amount of data to store grows linearly with the number of nodes in the list.
+If the space complexity is linear - $O\left(n\right)$- then the amount of data to store grows linearly with the number of nodes in the list.
 
 :::
 
@@ -1256,7 +1256,7 @@ Here, we do the same thing: iterating until we find the correct place, but also 
 
 ::: info Time and space complexity
 
-The time complexity is again $O\left(h\right)$ (*or if the tree is unbalanced,* $O\left(n\right)$) for the same reason as in the recursive solution. But the space complexity is constant – $O\left(1\right)$ – as we only use pointers.
+The time complexity is again $O\left(h\right)$ (*or if the tree is unbalanced,* $O\left(n\right)$) for the same reason as in the recursive solution. But the space complexity is constant - $O\left(1\right)$ - as we only use pointers.
 
 :::
 
@@ -1493,7 +1493,7 @@ This example is based on Vaidehi Joshi's [GitHub Gist (<FontIcon icon="iconfont 
 
 ## Chapter Eight: Heap / Priority Queue
 
-It’s now time to take a look at a data structure called a *heap*, which is a great way to implement an [<FontIcon icon="fa-brands fa-wikipedia-w"/>abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type) called a **priority queue**. They're so interrelated that priority queues are sometimes referred to as heaps – because heaps are a very efficient way to create a priority queue.
+It’s now time to take a look at a data structure called a *heap*, which is a great way to implement an [<FontIcon icon="fa-brands fa-wikipedia-w"/>abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type) called a **priority queue**. They're so interrelated that priority queues are sometimes referred to as heaps - because heaps are a very efficient way to create a priority queue.
 
 ### Heap properties
 
@@ -1505,7 +1505,7 @@ For example, when it comes to shape, this is a complete binary tree:
 
 ![Animated visualization of a tree with root node having two children, both of its left and right children having two children their own. The left child of the left child has only a left child on its own.](https://cdn.hashnode.com/res/hashnode/image/upload/v1747919274226/cdc2f987-3327-4220-8584-ad3999ea7f39.gif)
 
-But heaps must also be either a **max heap** or a **min heap** – all the parent nodes must be either greater than or equal to the values of their children (if it's a max heap) or less than or equal to the values of their children (if it's a min heap).
+But heaps must also be either a **max heap** or a **min heap** - all the parent nodes must be either greater than or equal to the values of their children (if it's a max heap) or less than or equal to the values of their children (if it's a min heap).
 
 A max heap might look like this:
 
@@ -1880,7 +1880,7 @@ Otherwise, everything stays the same.
 
 ::: info Time and space complexity
 
-A subset is, in the worst case, length n which is the length of our input. We'll have 2n subsets and since we also use a [<FontIcon icon="fa-brands fa-firefox"/>spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) in our example to copy `currentSubset`, the time complexity will be $O\left(n\cdot2^{n}\right)$. The space complexity is – *I think* – $O\left(n\cdot2^{n}\right)$ as well because of the recursive call stack (which is of depth `n`), and the space needed for `result` (which is in the worst case 2n).
+A subset is, in the worst case, length n which is the length of our input. We'll have 2n subsets and since we also use a [<FontIcon icon="fa-brands fa-firefox"/>spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) in our example to copy `currentSubset`, the time complexity will be $O\left(n\cdot2^{n}\right)$. The space complexity is - *I think* - $O\left(n\cdot2^{n}\right)$ as well because of the recursive call stack (which is of depth `n`), and the space needed for `result` (which is in the worst case 2n).
 
 :::
 
@@ -1888,11 +1888,11 @@ A subset is, in the worst case, length n which is the length of our input. We'll
 
 ## Chapter Ten: Tries
 
-The trie data structure [랴<FontIcon icon="fa-brands fa-wikipedia-w"/>gets its name from the word _re**trie**val_](https://en.wikipedia.org/wiki/Trie#History,_etymology,_and_pronunciation) – and it's usually pronounced as "try," so that we don't get confused with another familiar and friendly data structure, "tree."
+The trie data structure [랴<FontIcon icon="fa-brands fa-wikipedia-w"/>gets its name from the word _re**trie**val_](https://en.wikipedia.org/wiki/Trie#History,_etymology,_and_pronunciation) - and it's usually pronounced as "try," so that we don't get confused with another familiar and friendly data structure, "tree."
 
 But a trie is still a tree (or tree-like) data structure whose nodes usually store individual letters. So, by traversing the nodes in a trie, we can retrieve strings.
 
-Tries are useful for applications such as autocompletion and spellchecking – and the larger our trie is, the less work we have to do for inserting a new value.
+Tries are useful for applications such as autocompletion and spellchecking - and the larger our trie is, the less work we have to do for inserting a new value.
 
 ::: note
 
@@ -1904,7 +1904,7 @@ First, let's see what a trie looks like:
 
 ![Animated visualization of a trie having the values "sea" and "see"](https://cdn.hashnode.com/res/hashnode/image/upload/v1747920685051/e152eedd-75c6-478b-8291-5510b8f1421c.gif)
 
-In this trie, we can retrieve the strings "sea" and "see" – but not "sew", for example.
+In this trie, we can retrieve the strings "sea" and "see" - but not "sew", for example.
 
 There is a lot going on, but we can try to understand it piece by piece.
 
@@ -1928,7 +1928,7 @@ We're initializing `children` with `null` values. As we add a character to our t
 
 ::: note
 
-We're not storing the actual character itself in this implementation – it's implicit in the usage of indices.
+We're not storing the actual character itself in this implementation - it's implicit in the usage of indices.
 
 :::
 
@@ -1966,7 +1966,7 @@ Once we reach the node that indicates the last character of the word we inserted
 
 ::: note
 
-`word` is going to be lowercase in these examples – otherwise, we have to convert it, such as:
+`word` is going to be lowercase in these examples - otherwise, we have to convert it, such as:
 
 ```ts
 word = word.toLowerCase();
@@ -2690,7 +2690,7 @@ The time complexity for a depth-first search traversal of a graph is the similar
 
 Dynamic programming (DP) is one of those concepts that is a bit intimidating when you hear it for the first time. But the crux of it is simply breaking problems down into smaller parts and solving them. It’s also about storing those solutions so that we don't have to compute them again.
 
-Breaking problems down into subproblems is nothing new – that's pretty much what problem-solving is all about. What dynamic programming is also specifically concerned with are **overlapping subproblems** that are repeating – we want to calculate solutions to those subproblems so that we won't be calculating them again each time. Put another way, *we want to remember the past so that we won't be condemned to repeat it*.
+Breaking problems down into subproblems is nothing new - that's pretty much what problem-solving is all about. What dynamic programming is also specifically concerned with are **overlapping subproblems** that are repeating - we want to calculate solutions to those subproblems so that we won't be calculating them again each time. Put another way, *we want to remember the past so that we won't be condemned to repeat it*.
 
 For example, calculating $1+1+1+1+1$ is very easy if we have already calculated $1+1+1+1$. We can just remember the previous solution, and use it:
 
@@ -2769,7 +2769,7 @@ There are two different approaches with dynamic programming: **top-down** and **
 
 Top-down is like what it sounds: starting with a large problem, breaking it down to smaller components, memoizing them. It's what we just did with the `fib` example.
 
-Bottom-up is also like what it sounds: starting with the smallest subproblem, finding out a solution, and working our way up to the larger problem itself. It also has an advantage: with the bottom-up approach, we don't need to store every previous value – we can only keep the two elements at the bottom so that we can use them to build up to our target.
+Bottom-up is also like what it sounds: starting with the smallest subproblem, finding out a solution, and working our way up to the larger problem itself. It also has an advantage: with the bottom-up approach, we don't need to store every previous value - we can only keep the two elements at the bottom so that we can use them to build up to our target.
 
 With the bottom-up approach, our `fib` function can look like this:
 
@@ -2813,7 +2813,7 @@ The time complexities for both the top-down and bottom-up approaches in the Fibo
 
 ::: note
 
-The time complexity of the recursive Fibonacci function that doesn't use DP is exponential (in fact, $O\left(\phi^{n}\right)$ – yes [<FontIcon icon="fa-brands fa-wikipedia-w"/>the golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) as its base).
+The time complexity of the recursive Fibonacci function that doesn't use DP is exponential (in fact, $O\left(\phi^{n}\right)$ - yes [<FontIcon icon="fa-brands fa-wikipedia-w"/>the golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) as its base).
 
 :::
 
@@ -2980,7 +2980,7 @@ console.log(createBinaryString(result));
 // -> 11111111 11111111 11111111 11101110
 ```
 
-The leftmost bit indicates the signal – whether the number is negative or positive.
+The leftmost bit indicates the signal - whether the number is negative or positive.
 
 Remember that we said JavaScript uses 32-bit **signed** integers for bitwise operations. **The leftmost bit is** `1` for negative numbers and `0` for positive numbers. Also, the operator operates on the operands' bit representations in [<FontIcon icon="fa-brands fa-wikipedia-w"/>two's complement](https://en.wikipedia.org/wiki/Two's_complement). The operator is applied to each bit, and the result is constructed bitwise.
 
@@ -3232,7 +3232,7 @@ There are many other resources to check out if you want to go further, here are 
 ```component VPCard
 {
   "title": "LeetCode Meditations: A Visual Handbook of Data Structures and Algorithms Concepts",
-  "desc": "It may seem like an oxymoron when the words ”LeetCode” and ”meditation” are used together – after all, one thing that almost everyone can agree is that LeetCode is challenging. It's called grinding LeetCode for a reason. It doesn't have anything to d...",
+  "desc": "It may seem like an oxymoron when the words ”LeetCode” and ”meditation” are used together - after all, one thing that almost everyone can agree is that LeetCode is challenging. It's called grinding LeetCode for a reason. It doesn't have anything to d...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/leetcode-dsa-concepts-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

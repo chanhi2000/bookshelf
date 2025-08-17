@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIClolr - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uicolor/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ For example, when you are coloring a label, use `UIColor.label`, `.secondaryLabe
 
 For backgrounds you should use `UIColor.systemBackground`, `.secondarySystemBackground`, or similar so that when you layer one view over another they don’t appear to become merged.
 
-And when you’re using fixed colors like `.red` or `.blue` you should instead use `.systemRed` or `.systemBlue` to get a color that will adapt to the user’s trait environment – it will be a lighter red when in dark mode, and a darker red in light mode, rather than the fixed pure red of `.red`.
+And when you’re using fixed colors like `.red` or `.blue` you should instead use `.systemRed` or `.systemBlue` to get a color that will adapt to the user’s trait environment - it will be a lighter red when in dark mode, and a darker red in light mode, rather than the fixed pure red of `.red`.
 
 -->
 

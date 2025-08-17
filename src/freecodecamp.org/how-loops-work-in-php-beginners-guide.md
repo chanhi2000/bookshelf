@@ -141,7 +141,7 @@ while ($number > 0) {
 }
 ```
 
-If the first number is zero or negative, the loop will skip. That makes sense here – you only want the loop to run for valid numbers.
+If the first number is zero or negative, the loop will skip. That makes sense here - you only want the loop to run for valid numbers.
 
 You’ll learn how the PHP `do while` loop works in the next part.
 
@@ -221,13 +221,13 @@ Let’s move on to the following section to take a look at the most common loop 
 
 ## The `for` Loop in PHP
 
-The `for` loop works when you know how many times you want the loop to run. It gives you a clean way to set a counter, check a condition, and update the counter – all in one line. This makes the loop easy to read and control.
+The `for` loop works when you know how many times you want the loop to run. It gives you a clean way to set a counter, check a condition, and update the counter - all in one line. This makes the loop easy to read and control.
 
 The loop has three parts inside the parentheses:
 
-1. **Start** – This sets up the loop. You usually define a counter here, like `$i = 0`.
-2. **Condition** – The loop runs while this part is true. As soon as it becomes false, the loop stops.
-3. **Step** – This updates the counter after each loop run. You can increase or decrease the value here.
+1. **Start** - This sets up the loop. You usually define a counter here, like `$i = 0`.
+2. **Condition** - The loop runs while this part is true. As soon as it becomes false, the loop stops.
+3. **Step** - This updates the counter after each loop run. You can increase or decrease the value here.
 
 Here is the structure:
 
@@ -298,7 +298,7 @@ In the following section, you will learn about another loop called `foreach`. Le
 
 ## The `foreach` Loop in PHP
 
-[<FontIcon icon="fas fa-globe"/>PHP’s foreach](https://flatcoding.com/tutorials/php/foreach-loop-in-php/) loop is built to work with arrays. It lets you move through each item in the array, one at a time. You don’t need a counter, and you don’t need to check the size – PHP handles that part for you.
+[<FontIcon icon="fas fa-globe"/>PHP’s foreach](https://flatcoding.com/tutorials/php/foreach-loop-in-php/) loop is built to work with arrays. It lets you move through each item in the array, one at a time. You don’t need a counter, and you don’t need to check the size - PHP handles that part for you.
 
 There are two ways to use `foreach`, and both work only with arrays or objects that act like arrays:
 
@@ -319,7 +319,7 @@ foreach ($colors as $color) {
 }
 ```
 
-Here, the array has three values. The loop gives you one at a time. You don’t get the position or index – just the value.
+Here, the array has three values. The loop gives you one at a time. You don’t get the position or index - just the value.
 
 ```plaintext title="output"
 red  
@@ -449,13 +449,13 @@ So, **why would you skip part of a loop with** `continue`**?**
 
 You use the `continue` statement in PHP when you want to skip the rest of the current loop block and move to the next item. This helps when you need to avoid some steps in a loop based on a condition.
 
-You might use `continue` in a `foreach`, `for`, or `while` loop. If a value does not match what you need, you skip it and go on. You don’t stop the loop – you only skip the current run.
+You might use `continue` in a `foreach`, `for`, or `while` loop. If a value does not match what you need, you skip it and go on. You don’t stop the loop - you only skip the current run.
 
 **So why would you want to avoid loops in some cases?**
 
 Loops give you full control, but they can lead to clutter. You repeat the same logic over and over. That makes the code harder to read. You also risk bugs if you forget to update a counter or break at the right time.
 
-If all you want is to apply one action to every item in an array, a loop might feel like too much. You don’t need full control – just a clean way to map values. That is where a built-in function like `array_map` makes more sense.
+If all you want is to apply one action to every item in an array, a loop might feel like too much. You don’t need full control - just a clean way to map values. That is where a built-in function like `array_map` makes more sense.
 
 In the following part, you will see how `array_map` replaces a loop when you want a way to change every item in an array.
 
@@ -477,7 +477,7 @@ print_r($doubled);
 
 This does the same thing as a `foreach` loop where you multiply each number by 2 and store the result. But with `array_map`, the logic stays in one place.
 
-You pass the function and the array as arguments. That’s what people mean by a “functional style” – you use built-in tools that focus on input and output, not steps or counters.
+You pass the function and the array as arguments. That’s what people mean by a “functional style” - you use built-in tools that focus on input and output, not steps or counters.
 
 You get the same result, but the code is shorter to read. You also avoid side effects since `array_map` returns a new array without changing the original one.
 

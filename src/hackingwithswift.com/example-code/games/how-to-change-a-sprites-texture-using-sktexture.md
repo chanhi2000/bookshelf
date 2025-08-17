@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Although you can create an `SKSpriteNode` from a color and size, most folks create them from textures – image data stored in an asset catalog or texture atlas. SpriteKit’s textures are handled using their own class called `SKTexture`, and you can load them individually then use them to change the texture used to draw a sprite.
+Although you can create an `SKSpriteNode` from a color and size, most folks create them from textures - image data stored in an asset catalog or texture atlas. SpriteKit’s textures are handled using their own class called `SKTexture`, and you can load them individually then use them to change the texture used to draw a sprite.
 
 At its most basic, you can change a sprite’s texture like this:
 
@@ -68,7 +68,7 @@ let texture1 = SKTexture(imageNamed: "newTexture")
 someSprite.texture = texture1
 ```
 
-However, that only works if your sprite and the texture are the same size – if they don’t, the texture will get squashed to fit the available space.
+However, that only works if your sprite and the texture are the same size - if they don’t, the texture will get squashed to fit the available space.
 
 If the sprite and texture are *different* sizes then a better thing to do is use the `setTexture()` action, passing in true for its `resize` parameter like this:
 

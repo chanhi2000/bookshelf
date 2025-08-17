@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-We're going to make a `UITableView` with formatted text that matches a user's preferred size, and where every cell automatically resizes to fit its contents. What's more, it's going to be so easy that you'll barely notice – Apple really has polished this technology, so you get an incredible amount of power for free.
+We're going to make a `UITableView` with formatted text that matches a user's preferred size, and where every cell automatically resizes to fit its contents. What's more, it's going to be so easy that you'll barely notice - Apple really has polished this technology, so you get an incredible amount of power for free.
 
 First, though, we need to put in place the same basic `UITableViewController` foundations we’ve used several times before. So, start by opening <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, and making the `ViewController` class inherit from `UITableViewController` rather than `UIViewController`.
 
@@ -59,7 +59,7 @@ Next, open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` and delete th
 
 Finally, select the table view’s single prototype cell, then give it the identifier “Cell” and the style “Basic”. That’s our complete interface, so you can close <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` and return to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`.
 
-We want our view controller to track an array called `projects`, in which we’ll track lots of Hacking with Swift projects for this app. There are lots of pieces of metadata we could store about Hacking with Swift projects, but the goal here isn't to teach you about custom subclasses – we already did that in [the tutorial on `UserDefaults` and `NSCoding`](/hackingwithswift.com/read/12/overview.md). So, we're going to take an epic shortcut here so we can spend more time focusing on the new stuff: the projects array will hold an array of String arrays.
+We want our view controller to track an array called `projects`, in which we’ll track lots of Hacking with Swift projects for this app. There are lots of pieces of metadata we could store about Hacking with Swift projects, but the goal here isn't to teach you about custom subclasses - we already did that in [the tutorial on `UserDefaults` and `NSCoding`](/hackingwithswift.com/read/12/overview.md). So, we're going to take an epic shortcut here so we can spend more time focusing on the new stuff: the projects array will hold an array of String arrays.
 
 Arrays within arrays aren't complicated, but I'm just going to clarify in case some people didn't quite understand. Each project will be stored as an array of two elements: the project name and its subtitle. We'll then store an array of those to contain all the projects. At the end of this project we'll return to this as homework to test your skills, but for the purpose of this project it's perfectly fine.
 
@@ -69,7 +69,7 @@ So, add this property to the `ViewController` class now:
 var projects = [[String]]()
 ```
 
-Let's fill up that new property with the first eight projects from Hacking with Swift. I would do more, but there's no point – you get the idea, and it just takes up more space on your screen! Put this at the end of your `viewDidLoad()` method:
+Let's fill up that new property with the first eight projects from Hacking with Swift. I would do more, but there's no point - you get the idea, and it just takes up more space on your screen! Put this at the end of your `viewDidLoad()` method:
 
 ```swift
 projects.append(["Project 1: Storm Viewer", "Constants and variables, UITableView, UIImageView, FileManager, storyboards"])
@@ -111,17 +111,17 @@ Your project is now good to run, but what you'll see is deeply unsatisfying: eac
 
 Fortunately, iOS allows us to request automatic sizing of table view cells based on their contents. Even better, this technology is already baked right into our project!
 
-To make our project titles and subtitles fully visible, we just need to tell the `UITableViewCell` that its label should show more than one line. Go back to <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then use the document outline to select the “Title” label inside the table view cell – you'll know when you have the correct thing selected because the Attributes inspector will say Label at the top.
+To make our project titles and subtitles fully visible, we just need to tell the `UITableViewCell` that its label should show more than one line. Go back to <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then use the document outline to select the “Title” label inside the table view cell - you'll know when you have the correct thing selected because the Attributes inspector will say Label at the top.
 
-Once the label is selected, look for the Lines property – it will be 1 by default, but you should change that to 0, which means "as many lines as it takes to fit the text."
+Once the label is selected, look for the Lines property - it will be 1 by default, but you should change that to 0, which means "as many lines as it takes to fit the text."
 
-That's it. No, really: go ahead and run your app now and you'll see every cell now correctly fits its content. And if you rotate between portrait and landscape you'll even see everything resize smoothly – it really couldn't be simpler.
+That's it. No, really: go ahead and run your app now and you'll see every cell now correctly fits its content. And if you rotate between portrait and landscape you'll even see everything resize smoothly - it really couldn't be simpler.
 
 ![The second version of our app now wraps text across multiple lines, so at least you can see what the text sayss](https://hackingwithswift.com/img/books/hws/32-2@2x.png)
 
 But this has exposed another problem: the app looks terrible! All that text doesn't help users see what's important and what's not, so it's terrible user interface design. We're going to fix this with a technology called `NSAttributedString`, which a way of adding formatting such as fonts, colors and alignment to text, and can even be used to add hyperlinks if you want them.
 
-In our case, we're going to make the project titles big and their subtitles small. We could do this by creating a `UIFont` at various sizes, but a much smarter (and user friendly!) way is to use a technology called Dynamic Type. This lets users control font size across all applications to match their preferences – they just make their choice in Settings, and Dynamic Type-aware apps respect it.
+In our case, we're going to make the project titles big and their subtitles small. We could do this by creating a `UIFont` at various sizes, but a much smarter (and user friendly!) way is to use a technology called Dynamic Type. This lets users control font size across all applications to match their preferences - they just make their choice in Settings, and Dynamic Type-aware apps respect it.
 
 Apple pre-defined a set of fonts for use with Dynamic Type, all highly optimized for readability, and all responsive to a user's settings. To use them, all you need to do is use the `preferredFont(forTextStyle:)` method of `UIFont` and tell it what style you want. In our case we're going to use `.headline` for the project title and `.subheadline` for the project subtitle.
 

@@ -53,7 +53,7 @@ prev: /hackingwithswift.com/swiftui/how-to-detect-the-location-of-a-tap-inside-a
 
 > Updated for Xcode 15
 
-State is inevitable in any modern app, but with SwiftUI it's important to remember that all of our views are simply functions of their state – we don't change the views directly, but instead manipulate the state and let *that* dictate the result.
+State is inevitable in any modern app, but with SwiftUI it's important to remember that all of our views are simply functions of their state - we don't change the views directly, but instead manipulate the state and let *that* dictate the result.
 
 SwiftUI gives us several ways of storing state in our application, but they are subtly different and it's important to understand *how* they are different in order to use the framework properly.
 
@@ -85,9 +85,9 @@ So, when we say `@State` to make a property, we hand control over it to SwiftUI 
 
 ## What is @ObservedObject?
 
-For more complex properties – when you have a custom type you want to use that might have multiple properties and methods, or might be shared across multiple views – you will often use `@ObservedObject` instead. 
+For more complex properties - when you have a custom type you want to use that might have multiple properties and methods, or might be shared across multiple views - you will often use `@ObservedObject` instead. 
 
-This is very similar to `@State` except now we're using an external reference type rather than a simple local property like a string or an integer. You're still saying that your view depends on data that will change, except now it's data you're responsible for managing yourself – you need to create an instance of the class, create its own properties, and so on.
+This is very similar to `@State` except now we're using an external reference type rather than a simple local property like a string or an integer. You're still saying that your view depends on data that will change, except now it's data you're responsible for managing yourself - you need to create an instance of the class, create its own properties, and so on.
 
 Whatever type you use with `@ObservedObject` should conform to the `ObservableObject` protocol. When you add properties to observable objects you get to decide whether changes to each property should force views that are watching your object to refresh or not. You usually will, but it's not required.
 
@@ -105,7 +105,7 @@ When you use a custom publisher to announce that your object has changed, this *
 
 Somewhere between `@State` and `@ObservedObject` lies `@StateObject`. This is a specialized version of `@ObservedObject`, and it works in almost exactly the same way: you must conform to the `ObservableObject` protocol, you can use `@Published` to mark properties as causing change notifications, and any views that watch an `@StateObject` will refresh their body when the object changes.
 
-There is one important difference between `@StateObject` and `@ObservedObject`, which is *ownership* – which view *created* the object, and which view is just *watching* it.
+There is one important difference between `@StateObject` and `@ObservedObject`, which is *ownership* - which view *created* the object, and which view is just *watching* it.
 
 The rule is this: whichever view is the first to create your object must use `@StateObject`, to tell SwiftUI it is the owner of the data and is responsible for keeping it alive. All other views must use `@ObservedObject`, to tell SwiftUI they want to watch the object for changes but don't own it directly.
 
@@ -115,9 +115,9 @@ The rule is this: whichever view is the first to create your object must use `@S
 
 You've seen how `@State` declares simple properties for a type that automatically cause a refresh of the view when it changes, and how `@ObservedObject` declares a property for an external type that may or may not cause a refresh of the view when it changes. Both of these two must be set by your view, but `@ObservedObject` might be shared with other views.
 
-There's another type of property wrapper available to use, which is `@EnvironmentObject`. This is a value that is made available to your views through the application itself – it's shared data that every view can read if they want to. So, if your app had some important model data that all views needed to read, you could either hand it from view to view to view or just put it into the environment where every view has instant access to it.
+There's another type of property wrapper available to use, which is `@EnvironmentObject`. This is a value that is made available to your views through the application itself - it's shared data that every view can read if they want to. So, if your app had some important model data that all views needed to read, you could either hand it from view to view to view or just put it into the environment where every view has instant access to it.
 
-Think of `@EnvironmentObject` as a massive convenience for times when you need to pass lots of data around your app. Because all views point to the same model, if one view changes the model all views immediately update – there's no risk of getting different parts of your app out of sync.
+Think of `@EnvironmentObject` as a massive convenience for times when you need to pass lots of data around your app. Because all views point to the same model, if one view changes the model all views immediately update - there's no risk of getting different parts of your app out of sync.
 
 ---
 

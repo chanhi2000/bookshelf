@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -74,7 +74,7 @@ func classForPage() -> AnyClass {
 }
 ```
 
-What we’ve just done is create a new `PDFPage` subclass that will handle watermark rendering, then tell our `PDFDocument` to use it for all pages. We haven’t given the `SampleWatermark` class any code yet, which means it will look just like a regular page – we’re going to fix that now.
+What we’ve just done is create a new `PDFPage` subclass that will handle watermark rendering, then tell our `PDFDocument` to use it for all pages. We haven’t given the `SampleWatermark` class any code yet, which means it will look just like a regular page - we’re going to fix that now.
 
 When doing custom PDF rendering there are a few things to know:
 

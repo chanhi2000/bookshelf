@@ -170,7 +170,7 @@ To remove a library from your project, click on the libraries button. In the mod
 
 ---
 
-## Figma Vs. Penpot – My experience
+## Figma Vs. Penpot - My experience
 
 As a first-time user of Penpot and a long-term casual user of Figma, I noticed some differences and encountered some teething problems.
 

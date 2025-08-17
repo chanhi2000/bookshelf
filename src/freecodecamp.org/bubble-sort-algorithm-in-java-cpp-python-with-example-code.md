@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Bubble Sort – Algorithm in Java, C++, Python with Example Code"
-description: "Article(s) > Bubble Sort – Algorithm in Java, C++, Python with Example Code"
+title: "Bubble Sort - Algorithm in Java, C++, Python with Example Code"
+description: "Article(s) > Bubble Sort - Algorithm in Java, C++, Python with Example Code"
 icon: fas fa-computer
 category:
   - Engineering
@@ -25,9 +25,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Bubble Sort – Algorithm in Java, C++, Python with Example Code"
+      content: "Article(s) > Bubble Sort - Algorithm in Java, C++, Python with Example Code"
     - property: og:description
-      content: "Bubble Sort – Algorithm in Java, C++, Python with Example Code"
+      content: "Bubble Sort - Algorithm in Java, C++, Python with Example Code"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html
 prev: /academics/coen/articles/README.md
@@ -84,7 +84,7 @@ cover: https://freecodecamp.org/news/content/images/2022/09/bubbleSortCover.png
 ---
 
 <SiteInfo
-  name="Bubble Sort – Algorithm in Java, C++, Python with Example Code"
+  name="Bubble Sort - Algorithm in Java, C++, Python with Example Code"
   desc="Bubble sort is a type of sorting algorithm you can use to arrange a set of values in ascending order. If you want, you can also implement bubble sort to sort the values in descending order. A real-world example of a bubble sort algorithm is how the c..."
   url="https://freecodecamp.org/news/bubble-sort-algorithm-in-java-cpp-python-with-example-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -100,7 +100,7 @@ In this article, I will explain all you need to know about the bubble sort algor
 
 ## How the Bubble Sort Algorithm Works
 
-To implement a bubble sort algorithm, developers often write a function, and then a loop within a loop – inner loop and outer loop. You will see it in action when I show you the code in Python, C++, and Java.
+To implement a bubble sort algorithm, developers often write a function, and then a loop within a loop - inner loop and outer loop. You will see it in action when I show you the code in Python, C++, and Java.
 
 Let's say we want to sort a series of numbers 5, 3, 4, 1, and 2 so that they are arranged in ascending order…
 
@@ -136,7 +136,7 @@ The algorithm now has 3, 4, 1, 5, and 2 to compare. It compares the next two val
 
 :::
 
-That’s the first iteration. And the numbers are now arranged as 3, 4, 1, 2, and 5 – from the initial 5, 3, 4, 1, and 2. As you might realize, 5 should be the last number if the numbers are sorted in ascending order. This means the first iteration is really completed.
+That’s the first iteration. And the numbers are now arranged as 3, 4, 1, 2, and 5 - from the initial 5, 3, 4, 1, and 2. As you might realize, 5 should be the last number if the numbers are sorted in ascending order. This means the first iteration is really completed.
 
 ### Second Iteration of the Sorting and the Rest
 
@@ -356,7 +356,7 @@ Thank you for reading.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Bubble Sort – Algorithm in Java, C++, Python with Example Code",
+  "title": "Bubble Sort - Algorithm in Java, C++, Python with Example Code",
   "desc": "Bubble sort is a type of sorting algorithm you can use to arrange a set of values in ascending order. If you want, you can also implement bubble sort to sort the values in descending order. A real-world example of a bubble sort algorithm is how the c...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

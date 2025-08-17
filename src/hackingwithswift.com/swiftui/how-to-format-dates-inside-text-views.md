@@ -62,7 +62,7 @@ Text(Date.now...Date.now.addingTimeInterval(600))
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-format-dates-inside-text-views-1.zip)
 
-The text “2:37–2:47 PM”
+The text “2:37-2:47 PM”
 
 For example, that might show “10:30AM-10:40AM”.
 

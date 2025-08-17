@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ struct Taxi2 {
 
 When we want to reference that property we need to use `Taxi2.count`, because it belongs to the struct not to instances of that struct.
 
-The same is true of static methods, which are sometimes called “type methods” – they belong to the struct or class that defined them rather than instance of the class. In practice that means you can’t use `self` inside the method because there is no instance to refer to.
+The same is true of static methods, which are sometimes called “type methods” - they belong to the struct or class that defined them rather than instance of the class. In practice that means you can’t use `self` inside the method because there is no instance to refer to.
 
 -->
 

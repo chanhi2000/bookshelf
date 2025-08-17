@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "React Hooks"
-description: "Article(s) > (3/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
+description: "Article(s) > (3/6) The React Interview Prep Handbook - Essential Topics and Code Examples" 
 category:
   - Node.js
   - React.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/6) The React Interview Prep Handbook – Essential Topics and Code Examples"
+      content: "Article(s) > (3/6) The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:description
       content: "React Hooks"
     - property: og:url
@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 
 ```component VPCard
 {
-  "title": "The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "title": "The React Interview Prep Handbook - Essential Topics and Code Examples",
   "desc": "Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ...",
   "link": "/freecodecamp.org/react-interview-prep-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 ---
 
 <SiteInfo
-  name="The React Interview Prep Handbook – Essential Topics and Code Examples"
+  name="The React Interview Prep Handbook - Essential Topics and Code Examples"
   desc="Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ..."
   url="https://freecodecamp.org/news/react-interview-prep-handbook#heading-react-hooks"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -318,7 +318,7 @@ When to use:
 
 - When you have event handlers defined for an element inside your component, wrap them inside a `useCallback` to avoid unnecessary re-creations of event handlers.
 - When you call a function inside a `useEffect`, you would usually pass the function as a dependency. To avoid running `useEffect` unnecessarily on every render, wrap the function definition inside a `useCallback`.
-- If your custom Hook is returning a function, it is recommended to wrap it inside a `useCallback`. So, the users don't have to optimize the Hook – rather, they can focus on their own code.
+- If your custom Hook is returning a function, it is recommended to wrap it inside a `useCallback`. So, the users don't have to optimize the Hook - rather, they can focus on their own code.
 
 If you want to learn more about `useMemo` and `useCallback` hooks, check out my post below:
 
@@ -388,7 +388,7 @@ If you want to understand more about the `useReducer` hook, check out my post:
 
 ```component VPCard
 {
-  "title": "React Hooks Tutorial – How to Use the useReducer Hook",
+  "title": "React Hooks Tutorial - How to Use the useReducer Hook",
   "desc": "State is an important part of a React application. Most functionalities involve making state updates in your component. But as your application grows, state updates become more and more complex. These complex state updates might get overwhelming when...",
   "link": "/freecodecamp.org/usereducer-hook-react.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

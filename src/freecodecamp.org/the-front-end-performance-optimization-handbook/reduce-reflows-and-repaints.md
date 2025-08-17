@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Reduce Reflows and Repaints"
-description: "Article(s) > (11/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+description: "Article(s) > (11/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
 category:
   - Node.js
   - CSS
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (11/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+      content: "Article(s) > (11/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
     - property: og:description
       content: "Reduce Reflows and Repaints"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 ```component VPCard
 {
-  "title": "The Front-End Performance Optimization Handbook – Tips and Strategies for Devs",
+  "title": "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs",
   "desc": "When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to...",
   "link": "/freecodecamp.org/the-front-end-performance-optimization-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 ---
 
 <SiteInfo
-  name="The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+  name="The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
   desc="When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to..."
   url="https://freecodecamp.org/news/the-front-end-performance-optimization-handbook#heading-reduce-reflows-and-repaints"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -74,7 +74,7 @@ When the position or size of DOM elements is changed, the browser needs to regen
 
 ## Repaint
 
-After regenerating the rendering tree, each node of the rendering tree needs to be painted to the screen, a process called repaint. Not all actions will cause reflow – for example, changing font color will only cause repaint. Remember, reflow will cause repaint, but repaint will not cause reflow.
+After regenerating the rendering tree, each node of the rendering tree needs to be painted to the screen, a process called repaint. Not all actions will cause reflow - for example, changing font color will only cause repaint. Remember, reflow will cause repaint, but repaint will not cause reflow.
 
 Both reflow and repaint operations are very expensive because the JavaScript engine thread and the GUI rendering thread are mutually exclusive, and only one can work at a time.
 
@@ -103,7 +103,7 @@ element.style.padding = '20px';
 element.style.borderRadius = '5px';
 ```
 
-**Optimized version 1 – using CSS classes:**
+**Optimized version 1 - using CSS classes:**
 
 ```css title="style.css"
 .my-modified-element {
@@ -120,7 +120,7 @@ element.style.borderRadius = '5px';
 document.getElementById('myElement').classList.add('my-modified-element');
 ```
 
-**Optimized version 2 – batching style changes:**
+**Optimized version 2 - batching style changes:**
 
 ```js
 // Batching style changes using cssText
@@ -128,7 +128,7 @@ const element = document.getElementById('myElement');
 element.style.cssText = 'width: 100px; height: 200px; margin: 10px; padding: 20px; border-radius: 5px;';
 ```
 
-**Optimized version 3 – using document fragments (for multiple elements):**
+**Optimized version 3 - using document fragments (for multiple elements):**
 
 ```js
 // Instead of adding elements one by one
@@ -145,7 +145,7 @@ for (let i = 0; i < 100; i++) {
 list.appendChild(fragment);
 ```
 
-**Optimized version 4 – take element out of flow, modify, then reinsert:**
+**Optimized version 4 - take element out of flow, modify, then reinsert:**
 
 ```js
 // Remove from DOM, make changes, then reinsert
@@ -171,7 +171,7 @@ if (nextSibling) {
 }
 ```
 
-**Optimized version 5 – using display:none temporarily:**
+**Optimized version 5 - using display:none temporarily:**
 
 ```js
 const element = document.getElementById('myElement');

@@ -49,9 +49,9 @@ isOriginal: false
 
 > Available from Swift 2.2
 
-Another feature that has been deprecated is one that has been part of Swift since 2010 (yes, years before it launched). It's been named "the tuple splat", and not many people were using it. It's partly for that reason – although mainly because it introduces all sorts of ambiguities when reading code – that this syntax is being deprecated.
+Another feature that has been deprecated is one that has been part of Swift since 2010 (yes, years before it launched). It's been named "the tuple splat", and not many people were using it. It's partly for that reason - although mainly because it introduces all sorts of ambiguities when reading code - that this syntax is being deprecated.
 
-In case you were curious – and let's face it, you probably are – here's an example of tuple splat syntax in action:
+In case you were curious - and let's face it, you probably are - here's an example of tuple splat syntax in action:
 
 ```swift
 func describePerson(name: String, age: Int) {

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -103,7 +103,7 @@ func drawImagesAndText() {
 }
 ```
 
-That completes our project – good job!
+That completes our project - good job!
 
 ![Strings and UIImages have built-in methods that let you draw them to a Core Graphics context.](https://hackingwithswift.com/img/books/hws/27-4@2x.png)
 

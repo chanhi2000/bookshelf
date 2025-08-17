@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Handle Events in React – Explained with Code Examples
-description: Article(s) > How to Handle Events in React – Explained with Code Examples
+title: How to Handle Events in React - Explained with Code Examples
+description: Article(s) > How to Handle Events in React - Explained with Code Examples
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Handle Events in React – Explained with Code Examples
+      content: Article(s) > How to Handle Events in React - Explained with Code Examples
     - property: og:description
-      content: How to Handle Events in React – Explained with Code Examples
+      content: How to Handle Events in React - Explained with Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-events-in-react-19.html
 prev: /programming/js-react/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/React-log
 ---
 
 <SiteInfo
-  name="How to Handle Events in React – Explained with Code Examples"
+  name="How to Handle Events in React - Explained with Code Examples"
   desc="Event handling is fundamental to understanding how React processes browser events and updates the DOM. As a React developer, it's a critical skill to have, as it enables efficient management of user interactions within web apps. This article covers how to set up event handlers and proceeds to more elegant..."
   url="https://freecodecamp.org/news/how-to-handle-events-in-react-19/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

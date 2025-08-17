@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ enum Color: CaseIterable {
 }
 ```
 
-You can then use that property as a regular array – it will be a `[Color]` given the code above, so we could print each case like this:
+You can then use that property as a regular array - it will be a `[Color]` given the code above, so we could print each case like this:
 
 ```swift
 for color in Color.allCases {
@@ -105,7 +105,7 @@ enum Direction: CaseIterable {
 }
 ```
 
-**Note:** You must add `CaseIterable` to the original declaration of your enum rather than an extension in order for the `allCases` array to be synthesized – you can’t use extensions to retroactively make existing enums conform to the protocol.
+**Note:** You must add `CaseIterable` to the original declaration of your enum rather than an extension in order for the `allCases` array to be synthesized - you can’t use extensions to retroactively make existing enums conform to the protocol.
 
 -->
 

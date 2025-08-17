@@ -56,7 +56,7 @@ When using observed objects there are three key things we need to work with: the
 
 ::: tip
 
-It is really important that you use `@ObservedObject` only with views that were passed in from elsewhere. You should *not* use this property wrapper to create the initial instance of an observable object – that's what `@StateObject` is for.
+It is really important that you use `@ObservedObject` only with views that were passed in from elsewhere. You should *not* use this property wrapper to create the initial instance of an observable object - that's what `@StateObject` is for.
 
 :::
 
@@ -110,7 +110,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-observedobject-to-manage-state-from-external-objects-1~dark.mp4" />
 
-As you can see, other than using the `@ObservedObject` property wrapper with `progress`, everything else more or less looks the same – SwiftUI takes care of all the implementation details for us.
+As you can see, other than using the `@ObservedObject` property wrapper with `progress`, everything else more or less looks the same - SwiftUI takes care of all the implementation details for us.
 
 There is *one* important difference, though: the `progress` property isn't declared as private. This is because bound objects can be used by more than one view, so it's common to share it openly.
 

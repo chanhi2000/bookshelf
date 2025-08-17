@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -117,7 +117,7 @@ func authenticateUser(method: (String) throws -> Bool) rethrows {
 }
 ```
 
-Now Xcode will give you a warning: the `catch` block later on is unreachable because `authenticateUser` will never throw errors. But if you were to call it using `authenticateBiometrically` then you *would* need the `do`/`catch` blocks – Swift is able to evaluate the flow of our code much better, which means we need to write less code.
+Now Xcode will give you a warning: the `catch` block later on is unreachable because `authenticateUser` will never throw errors. But if you were to call it using `authenticateBiometrically` then you *would* need the `do`/`catch` blocks - Swift is able to evaluate the flow of our code much better, which means we need to write less code.
 
 -->
 

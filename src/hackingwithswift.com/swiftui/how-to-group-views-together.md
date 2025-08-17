@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you need several views to act as one – for example, to transition together or to apply the same modifier in many places all at once – then you should use SwiftUI's `Group` view. 
+If you need several views to act as one - for example, to transition together or to apply the same modifier in many places all at once - then you should use SwiftUI's `Group` view. 
 
 To demonstrate this, we could create a `VStack` with several pieces of text, and apply a single `font()` modifier to them all at once:
 
@@ -67,7 +67,7 @@ Group {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-group-views-together-1.zip)
 
-You could do the same with `VStack` or `HStack`, of course, but by using `Group` we haven't needed to specify how our text views should be arranged – if this view is placed into a larger view, that parent gets to decide whether the text views should be arranged horizontally, vertically, or some other way entirely.
+You could do the same with `VStack` or `HStack`, of course, but by using `Group` we haven't needed to specify how our text views should be arranged - if this view is placed into a larger view, that parent gets to decide whether the text views should be arranged horizontally, vertically, or some other way entirely.
 
 ::: details Similar solutions…
 

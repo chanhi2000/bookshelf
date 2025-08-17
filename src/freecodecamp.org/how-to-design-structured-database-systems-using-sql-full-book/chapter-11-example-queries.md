@@ -66,7 +66,7 @@ There is also always the option to look for real data sources to populate our da
 
 ## Running Basic Queries
 
-So, assuming we already have the database populated with tables and tuples within them, we can run different queries on them. After all – the main operation that other services from other software layers use from the database is querying. This lets them obtain data that they can then transform, use to calculate certain metrics, or simply display to the end user.
+So, assuming we already have the database populated with tables and tuples within them, we can run different queries on them. After all - the main operation that other services from other software layers use from the database is querying. This lets them obtain data that they can then transform, use to calculate certain metrics, or simply display to the end user.
 
 For example, right after inserting the data, the first query we can run to ensure that the insertion process worked is the following:
 
@@ -141,7 +141,7 @@ On the other hand, we can also encounter conditions where arithmetic or comparis
 
 While in other languages we might write `CB.paymentmethod = 'cash'`, in SQL we write the comparison operator with a single character `=`. If we want to negate it, we can do this either by using the logical operator `NOT` (affecting the entire equality condition) or by using `CB.paymentmethod <> 'cash'` which represents the condition where it checks that the payment method is not `‘cash‘`, meaning it’s different from that value.
 
-In addition to these operators, we also have a series of mathematical functions available. For example, to check if a number is even or odd, in most general-purpose programming languages we have the **modulo operator `%`** which calculates the remainder of dividing the number by 2 – so if it’s 0, the number is even.
+In addition to these operators, we also have a series of mathematical functions available. For example, to check if a number is even or odd, in most general-purpose programming languages we have the **modulo operator `%`** which calculates the remainder of dividing the number by 2 - so if it’s 0, the number is even.
 
 But in SQL, these operations aren’t implemented by default with arithmetic operators, but rather with functions. Specifically, to calculate the modulo, we use `MOD(Dividend, Divisor)`, although there are [<FontIcon icon="iconfont icon-postgresql"/>many other](https://postgresql.org/docs/current/functions-math.html) similar functions.
 
@@ -168,7 +168,7 @@ Then to get the difference between the departure and arrival dates of the cruise
 
 If we simply subtract them, depending on the order, we could get negative results, since one date is earlier than the other. So if we just want the absolute difference, we can wrap the operation with the `ABS()` function. And if we don't assign a specific name to that additional column, SQL by default assigns it the name **“abs“**. But we’ll want to change it sooner or later to avoid ambiguity problems if we use the `ABS()` function again to create another new column.
 
-In the previous query, we saw that all the information we needed was present in the `CruiseBooking` table from the FROM clause – but this is not always the case.
+In the previous query, we saw that all the information we needed was present in the `CruiseBooking` table from the FROM clause - but this is not always the case.
 
 For example, in the below query, we want to do a few things: first, we want to get all the bookings made by people whose names start with a letter that is later or equal to `'L'`. They should also meet a series of conditions like the ones we saw before. Finally, we want to calculate the difference in days between the current date and the booking date as we saw before.
 
@@ -196,7 +196,7 @@ Just keep in mind that there are certain cases where it might be convenient to u
 
 In this case, when performing the Cartesian product, we’ll get a series of tuples that combine all those from `CruiseBooking` and `Person`. This will result in tuples with information about these two tables where the person's information does not correspond with the person referenced by the foreign key of the `CruiseBooking` tuple.
 
-For that reason, we don't need those tuples from the Cartesian product – or in other words, we want to get all those where the foreign key `PersonFK` of `CruiseBooking` points to the person whose information is indeed in that same tuple of the Cartesian product.
+For that reason, we don't need those tuples from the Cartesian product - or in other words, we want to get all those where the foreign key `PersonFK` of `CruiseBooking` points to the person whose information is indeed in that same tuple of the Cartesian product.
 
 Formally, we express this condition as `CB.PersonFK = P.PersonID`. In this case, we need to assign alias names to the tables to differentiate their attributes and resolve possible ambiguity issues. So the most suitable type of `JOIN` for this query is an `INNER JOIN`, as it allows us to declare this equality condition exactly as we have written it here in an `ON` clause, as seen above.
 
@@ -220,7 +220,7 @@ For example, if someone has made 2 bookings, there will be 2 rows with their inf
 
 This query isn’t common in real cases, but this structure can be useful for solving other types of queries. So to build this list, the first operator we might think of is an OUTER JOIN. In this type of join, we specify the side of the table whose rows should always appear in the final list, filling in with `null`s in the other table when necessary.
 
-To understand this, in this example, we see that a person doesn’t have to have any associated booking – so for each person, there doesn't necessarily have to be a booking in their name. So there may be some people who don’t have any bookings associated with them. So when we’re trying to do an `INNER JOIN` with the `CruiseBooking` table, they won't appear in the resulting table from the query.
+To understand this, in this example, we see that a person doesn’t have to have any associated booking - so for each person, there doesn't necessarily have to be a booking in their name. So there may be some people who don’t have any bookings associated with them. So when we’re trying to do an `INNER JOIN` with the `CruiseBooking` table, they won't appear in the resulting table from the query.
 
 That's why, instead of an `INNER JOIN` where we impose a strict condition that all tuples from the operation must meet, we use an `OUTER JOIN`. So, if we want all people to appear in the list even if they haven't made any bookings, we need to specify the side of the `OUTER JOIN` where we placed the `Person` table in the `JOIN` operation.
 
@@ -234,7 +234,7 @@ FROM Person P LEFT JOIN cruiseBooking CB ON CB.PersonFK = P.PersonID
 ORDER BY P.PersonID;
 ```
 
-On the other hand, in both queries, you can see that we used `ON` to define the equality condition on the tuples of the Cartesian product produced by `JOIN`. We have to do this because if we use `USING` instead of `ON`, both attributes on which we want to impose the equality condition must be named exactly the same – so we can’t use `USING` here.
+On the other hand, in both queries, you can see that we used `ON` to define the equality condition on the tuples of the Cartesian product produced by `JOIN`. We have to do this because if we use `USING` instead of `ON`, both attributes on which we want to impose the equality condition must be named exactly the same - so we can’t use `USING` here.
 
 Aside from the `JOIN` operation from which the data is extracted, we often need to return the result sorted by an attribute. It may also simply be useful to have the result sorted so we can make checks more quickly, as in this case.
 
@@ -293,11 +293,11 @@ For example, say we want to find people who have lived in several different citi
 
 But given the condition we impose on the people, to know if someone has lived in more than one city, we need to check the `Residence` table and see if there are multiple `Residence` tuples for the same person with different cities.
 
-Specifically, the query we want to make should get all those people who have lived in at least two **different** cities. If we only impose the condition that a person appears in at least two tuples of the `Residence` table, we’d get people who have had at least two residences – not those who have lived in different cities in those residences.
+Specifically, the query we want to make should get all those people who have lived in at least two **different** cities. If we only impose the condition that a person appears in at least two tuples of the `Residence` table, we’d get people who have had at least two residences - not those who have lived in different cities in those residences.
 
-Therefore, the final condition ends up being that the person appears in at least two tuples of `Residence` where the associated city they have lived in is **different** in both tuples. Also, by checking this condition, we aren’t ensuring that the person only has those two tuples – we just need to know if they appear in at least two tuples with the previous characteristics (as a person may have had many residences).
+Therefore, the final condition ends up being that the person appears in at least two tuples of `Residence` where the associated city they have lived in is **different** in both tuples. Also, by checking this condition, we aren’t ensuring that the person only has those two tuples - we just need to know if they appear in at least two tuples with the previous characteristics (as a person may have had many residences).
 
-To implement this query, we might first think of using set operations and subqueries – but there is a way to solve it using only `JOIN` operations.
+To implement this query, we might first think of using set operations and subqueries - but there is a way to solve it using only `JOIN` operations.
 
 When we do a `JOIN` between two tables, we are really doing the Cartesian product, from which we only keep some tuples that meet certain conditions. For example, when doing a `JOIN` between `Person` and `Residence`, the foreign key `PersonFK` in `Residence` must refer to the person from that same tuple in the **Cartesian product**. This means it must match the PersonID attribute from the `Person` table. With this, we can see that we obtain all the residences each person has or has had.
 
@@ -311,7 +311,7 @@ In other words, we end up with a series of tuples where, in each one, we can fin
 
 Then if we also add the condition that for each pair of residences the cities they refer to must be different, we‘ll end up with tuples where the person who has had those residences have lived in at least two different cities. This doesn’t ensure that it’s exactly two, as they may have lived in many more (which we can see in the resulting tuples from these `JOIN` operations).
 
-When implementing this in SQL, we see that in both `ON` clauses, we declare the condition that the Residence tuples must refer to the same person of the tuple we want to construct – with that person and a pair of their residences. Also, in the second `JOIN`, we declare the condition that the cities of the pair of residences must be different using the operator `<>`. Finally, we order the result according to the values of the `PersonID` attribute.
+When implementing this in SQL, we see that in both `ON` clauses, we declare the condition that the Residence tuples must refer to the same person of the tuple we want to construct - with that person and a pair of their residences. Also, in the second `JOIN`, we declare the condition that the cities of the pair of residences must be different using the operator `<>`. Finally, we order the result according to the values of the `PersonID` attribute.
 
 ```pgsql
 SELECT DISTINCT P.Name
@@ -328,7 +328,7 @@ As you can see from the query result, there are people who have had many residen
 
 So, if we only want to get the person's name, we can replace `*` with `P.Name` in the `SELECT` statement to select only that attribute. To avoid duplicate values, we can use `DISTINCT`. Without `DISTINCT`, the same person's name may appear multiple times, depending on the number of residence pairs they have had in different cities. This also happens because SQL by default models tables with multisets, allowing such duplicates.
 
-If we care about removing duplicates, we should use `DISTINCT` – but this decision can affect other statements like `ORDER BY`. In this example, we’re ordering by the values of the `PersonID` attribute, which we don't need in the resulting table where only the Name attribute appears.
+If we care about removing duplicates, we should use `DISTINCT` - but this decision can affect other statements like `ORDER BY`. In this example, we’re ordering by the values of the `PersonID` attribute, which we don't need in the resulting table where only the Name attribute appears.
 
 Since `PersonID` doesn’t appear in the `SELECT` after using `DISTINCT`, the DBMS will give us an error. We have several options to fix it.
 
@@ -378,7 +378,7 @@ In addition to the day, month, and year, the `EXTRACT()` function allows us to o
 
 There are some SQL queries that require subqueries. A subquery is simply a query inside another query. It helps you solve a smaller problem so the main query can solve a bigger one.
 
-Let’s dive in a little deeper. When you run a query in SQL, you get a result table (a multiset, since rows can repeat). A subquery lets the outer query use that result – for example, to check membership or existence.
+Let’s dive in a little deeper. When you run a query in SQL, you get a result table (a multiset, since rows can repeat). A subquery lets the outer query use that result - for example, to check membership or existence.
 
 ```pgsql
 SELECT *
@@ -386,7 +386,7 @@ FROM Person P
 WHERE P.PersonID IN (SELECT PersonFK FROM Residence);
 ```
 
-This returns every person whose identifier appears in `Residence.PersonFK` – that is, everyone who has (or had) a recorded residence. The subquery produces the set of referenced person IDs, while the outer query keeps rows where `p.PersonID` is in that set.
+This returns every person whose identifier appears in `Residence.PersonFK` - that is, everyone who has (or had) a recorded residence. The subquery produces the set of referenced person IDs, while the outer query keeps rows where `p.PersonID` is in that set.
 
 Note that this is a [<FontIcon icon="iconfont icon-ibm"/>non-correlated subquery](https://ibm.com/docs/en/db2-for-zos/12.0.0?topic=subqueries-correlated-non-correlated) (it doesn’t reference the outer query), which many databases may **materialize once** or rewrite as a **semi-join** before applying the `IN` filter. In practice, this is usually comparable to an equivalent `EXISTS` or `JOIN`-based formulation. We’ll just choose the form that’s clearest and add appropriate indexes (for example, `Residence(PersonFK)`, `Person(PersonID)`) for speed.
 
@@ -401,7 +401,7 @@ FROM Person P INNER JOIN Residence R ON R.PersonFK = P.PersonID;
 
 Here, we combine the data from `Person` and `Residence` using the equality condition that requires the foreign key of `Residence` to reference the person in the same tuple of the Cartesian product. This way, we only get those tuples that have the information of a residence and the person associated with it.
 
-Then, to keep only the data of the people, we use `P.*` as before – but here we need to use `DISTINCT`, since a person may have multiple residences. Specifying `DISTINCT` prevents this from duplicating the data of the same person.
+Then, to keep only the data of the people, we use `P.*` as before - but here we need to use `DISTINCT`, since a person may have multiple residences. Specifying `DISTINCT` prevents this from duplicating the data of the same person.
 
 The `JOIN` operation is often considered inefficient because it’s a Cartesian product that must construct all tuples of that product and then filter them using the conditions we declare. But we can make it faster with the right hardware, like [<FontIcon icon="fas fa-globe"/>GPUs](https://arxiv.org/html/2406.13831v1).
 
@@ -448,7 +448,7 @@ On the other hand, the simplest way to check if the pool's minimum depth is grea
 
 So instead of writing `mindepth > 4` directly, the subquery first selects all `mindepth` values greater than 4, and the outer query uses IN to keep a pool row only if its `mindepth` is in that set. In practice, although this can also be a solution to the query, we should keep the code as simple as possible. We generally avoid these techniques.
 
-Also, we don’t need `alias P.` to refer to the `mindepth` of the outer query – as it’s the only one called that way in this query. But if we had to use it in the subquery, we’d need to use the `alias P.` to distinguish it from the `mindepth` attribute of the `Pool` table in the subquery. (This also doesn’t need an alias because it’s a simple subquery without another subquery inside it. This is possible to do, and sometimes even necessary.)
+Also, we don’t need `alias P.` to refer to the `mindepth` of the outer query - as it’s the only one called that way in this query. But if we had to use it in the subquery, we’d need to use the `alias P.` to distinguish it from the `mindepth` attribute of the `Pool` table in the subquery. (This also doesn’t need an alias because it’s a simple subquery without another subquery inside it. This is possible to do, and sometimes even necessary.)
 
 Here’s another equivalent way to solve the query using subqueries:
 
@@ -491,7 +491,7 @@ WHERE NOT EXISTS (
 
 We could approach this query so that it'd require `JOIN` operations to solve it. But in this case, it’s structured in a "nested" manner at the subquery level so that it requires the use of subqueries.
 
-So to get this list, we first go through all the people in the Person table. For each one, we check that there is no driver's license whose associated request was created by that person. We can implement this condition by applying the `NOT EXISTS` operator to a subquery that returns all valid driver's licenses associated with a person. We get these by filtering `DrivingLicense` to licenses whose matching `DrivingLicenseRequest` row has `PersonFK = P.PersonID` – that is, licenses requested by the current person.
+So to get this list, we first go through all the people in the Person table. For each one, we check that there is no driver's license whose associated request was created by that person. We can implement this condition by applying the `NOT EXISTS` operator to a subquery that returns all valid driver's licenses associated with a person. We get these by filtering `DrivingLicense` to licenses whose matching `DrivingLicenseRequest` row has `PersonFK = P.PersonID` - that is, licenses requested by the current person.
 
 Regarding this last point, as you can see in the code, the simplest way to implement it with subqueries is to check that the `LicenseID` of the valid driver's license exists in the set of `LicenseID` values from the requests in the `DrivingLicenseRequest` table whose foreign key points to the person being iterated over in Person. That makes this subquery **correlated** with the outer query we are making, as it includes the attribute `P.PersonID`.
 
@@ -531,11 +531,11 @@ SELECT P.PersonID,
 FROM Person P;
 ```
 
-In these cases where the subquery is nested in the `SELECT` statement, the subquery must meet a basic requirement: it has to return at most one tuple and one column. This is because the result of the subquery will be added in a new **additional column (and only one)** in our `SELECT`. Then we’ll calculate its result and add it in each tuple of the outer query – so the subquery can’t return more than one tuple.
+In these cases where the subquery is nested in the `SELECT` statement, the subquery must meet a basic requirement: it has to return at most one tuple and one column. This is because the result of the subquery will be added in a new **additional column (and only one)** in our `SELECT`. Then we’ll calculate its result and add it in each tuple of the outer query - so the subquery can’t return more than one tuple.
 
 For example, in this query, we want to list all the people in the database along with a column that contains the number of residences they have had. To solve this, the simplest approach is to go through all the tuples of `Person` and, for each one, count how many tuples of `Residence` have their foreign key `PersonFK` referencing that person.
 
-Going through the tuples of `Person` is simple: we just use a combination of `SELECT` and `FROM`. But in order to count how many tuples of `Residence` meet this condition for each person, we need a correlated subquery – specifically with the person being processed. We can uniquely identify this with `P.PersonID`.
+Going through the tuples of `Person` is simple: we just use a combination of `SELECT` and `FROM`. But in order to count how many tuples of `Residence` meet this condition for each person, we need a correlated subquery - specifically with the person being processed. We can uniquely identify this with `P.PersonID`.
 
 We need to do this because to count tuples in `Residence`, we have to compare the values of their foreign key `PersonFK` with the identifier `P.PersonID`. To get the value of this count, we can use a subquery: the aggregation function `COUNT(*)` lets us count all the tuples present in `Residence`. It does this after filtering them with the condition that their foreign key `PersonFK` references the person being processed in the Person table.
 
@@ -573,11 +573,11 @@ Then, to gather information about the city where each pool is located (along wit
 
 So although the type of `JOIN` is not explicitly specified, by using the `ON` clause SQL automatically interprets it as an `INNER JOIN` (it would also be interpreted as `INNER` type if we had used the `USING` clause). But this practice is not recommended, as in most situations where the JOIN type is omitted, the readability of the code is compromised, especially when there are many `JOIN`s in the same query.
 
-Here, in the `ON` clause, the `JOIN` condition states that in the same tuple of the Cartesian product, the foreign key `CityFK` – which represents the city where the pool is located – must have the same value as the `CityID` identifier of the city in the tuple.
+Here, in the `ON` clause, the `JOIN` condition states that in the same tuple of the Cartesian product, the foreign key `CityFK` - which represents the city where the pool is located - must have the same value as the `CityID` identifier of the city in the tuple.
 
 Then, to attach the extra column with the pool identifier from `CityPool` for those tuples that represent pools of that type, respectively, we’ll use a subquery. This subquery searches the `CityPool` table for a tuple whose `PoolID` matches the `PoolID` from `Pool`. This checks if the pool from `Pool` is actually of the `CityPool` type or not.
 
-In this way, the subquery will return the **identifier value** if it’s of the **`CityPool` type** – otherwise, it will return **nothing**, meaning it will return a **table without tuples** (or in other words, an empty set or **multiset**, rather).
+In this way, the subquery will return the **identifier value** if it’s of the **`CityPool` type** - otherwise, it will return **nothing**, meaning it will return a **table without tuples** (or in other words, an empty set or **multiset**, rather).
 
 This is allowed in SQL, but it can sometimes cause errors, so it's generally not a good practice to use subqueries in the `SELECT` that aren’t guaranteed to return at least some tuple.
 
@@ -613,7 +613,7 @@ But if it’s of another type, there won't even be a value for that `PoolID` att
 
 This happens because we shouldn’t compare `PoolID` with `NULL`, as its value may or may not exist. And if it doesn't exist, the check won't be executed for all the tuples in our query.
 
-Instead, we should perform this check on the result of the entire subquery. It can be `NULL` when the pool is not of type `CityPool` – and so we see values in the additional column filled with `NULL` in the final result. Or it can contain a valid identifier different from `NULL`, which violates the `IS NOT NULL` condition.
+Instead, we should perform this check on the result of the entire subquery. It can be `NULL` when the pool is not of type `CityPool` - and so we see values in the additional column filled with `NULL` in the final result. Or it can contain a valid identifier different from `NULL`, which violates the `IS NOT NULL` condition.
 
 In short, the check to ensure that the additional column is of **boolean** type should compare the result of the entire subquery (which is either NULL or a specific value) with the `NULL` value itself. This checks to see if each tuple in our resulting table matches or not.
 
@@ -632,7 +632,7 @@ WHERE (E.EntryTimestamp, E.PersonFK, E.PoolFK) IN (
 
 For example, above we have a query that retrieves all the tuples from `Entry` that have been sanctioned with some pool sanction from the `PoolSanction` table. To do this, we simply need to go through the tuples in `Entry` and, for each one, check if it has a sanction. In other words, we verify if there is a tuple in `PoolSanction` whose foreign key to `Entry` references the tuple we’re examining.
 
-When doing this, the first thing we notice is that the primary key of `Entry` doesn’t consist of a single attribute, but rather 3. This is just like the foreign key in `PoolSanction` – it determines that the entry that has been sanctioned doesn’t have one attribute, but three.
+When doing this, the first thing we notice is that the primary key of `Entry` doesn’t consist of a single attribute, but rather 3. This is just like the foreign key in `PoolSanction` - it determines that the entry that has been sanctioned doesn’t have one attribute, but three.
 
 So under normal conditions, we could use a subquery to get all the foreign key values from `PoolSanction`, then check if the identifier (primary key) of each entry belongs to that set of values using the `IN` operator. But here we can’t do it the same way because we need to work with three attributes instead of one.
 
@@ -744,11 +744,11 @@ In this case, the information for all cruise assignments, whether current or not
 
 So, if we set the condition that the `StartDate` of the assignment should be before the current date gotten from `CURRENT_DATE`, and that the `EndDate` is after the current date, we’ll get all those assignments that are valid on the current date. By extracting the values taken by the foreign key `ShipFK` for those assignments, we can identify the cruises that are currently assigned.
 
-But the query not only asks us to **identify them** – but also to get **information about them** stored in `CruiseShip`. So, we save the identifiers of the cruises we got earlier in a temporary table to use in the query. In other words, we could make the conditions on `StartDate` and `EndDate` apply to `ShipAssignment` in a subquery. But to simplify the notation and demonstrate how to use **CTEs**, we’ll use the `WITH` clause where we define all the subquery code and assign an alias to that temporary table (see above code).
+But the query not only asks us to **identify them** - but also to get **information about them** stored in `CruiseShip`. So, we save the identifiers of the cruises we got earlier in a temporary table to use in the query. In other words, we could make the conditions on `StartDate` and `EndDate` apply to `ShipAssignment` in a subquery. But to simplify the notation and demonstrate how to use **CTEs**, we’ll use the `WITH` clause where we define all the subquery code and assign an alias to that temporary table (see above code).
 
-Specifically, by doing this, we’ll be saving the identifiers of the currently active cruises in the temporary table named `ActiveShips`. This is the alias we assigned using the `AS` operator – but it works in reverse in the `WITH` clause: first, you write the alias name and then you writethe code that gets the data from the intermediate table (the element to which the alias name is assigned).
+Specifically, by doing this, we’ll be saving the identifiers of the currently active cruises in the temporary table named `ActiveShips`. This is the alias we assigned using the `AS` operator - but it works in reverse in the `WITH` clause: first, you write the alias name and then you writethe code that gets the data from the intermediate table (the element to which the alias name is assigned).
 
-So, when we use the `WITH` statement, we see that we have constructed an `ActiveShips` table with the result of what could be a **non-correlated subquery** – but for simplicity, we’ve refactored it so that its result is stored in an intermediate table with a certain alias.
+So, when we use the `WITH` statement, we see that we have constructed an `ActiveShips` table with the result of what could be a **non-correlated subquery** - but for simplicity, we’ve refactored it so that its result is stored in an intermediate table with a certain alias.
 
 Now, we can treat `ActiveShips` as if it were another table in the database, performing a `JOIN` between it and `CruiseShip` to get all the information about the active cruises. We impose an equality condition on the `ShipFK` and `ShipID` attributes of the **ActiveShips** and `CruiseShip` tables, respectively. This means we only keep those tuples from the Cartesian product where the foreign key `ShipFK` refers to the `ShipID` identifier of that same tuple. This allows us to find the complete information about a specific cruise.
 
@@ -767,7 +767,7 @@ WHERE DepartureDate BETWEEN '2025-01-01' AND '2025-06-30';
 
 We have another similar example in the query above. Here, we consider a query that gets information about all voyages that started in the first half of 2025 (approximately) and have a distance greater than 1000 kilometers. The approach in this case is simpler since all the information we need is found in the `Voyage` table. So the condition that the distance is greater than 1000 kilometers is easily modeled with a `WHERE` clause and the expression `Distance > 1000`.
 
-Just like before, in this query we could also skip using `WITH` and include both the distance and the condition on the start date of the voyage in a single `WHERE`. But often we might need to modify or expand a query – for example, in the future we might be asked for a query based on this one, but with more or fewer conditions. So if we conducted an **analysis** of our domain, user requirements, and the query code, we might conclude that tuples with voyages over 1000 kilometers could be needed in multiple parts of the same query.
+Just like before, in this query we could also skip using `WITH` and include both the distance and the condition on the start date of the voyage in a single `WHERE`. But often we might need to modify or expand a query - for example, in the future we might be asked for a query based on this one, but with more or fewer conditions. So if we conducted an **analysis** of our domain, user requirements, and the query code, we might conclude that tuples with voyages over 1000 kilometers could be needed in multiple parts of the same query.
 
 In this example, this phenomenon might not occur, but it illustrates that in a real situation, we may need to consider various factors that affect query design.
 
@@ -802,7 +802,7 @@ In this case, we can use `LEFT JOIN` so that by combining all these tables with 
 
 Specifically, since the foreign keys of the inheriting entities in the hierarchy are both called `LicenseID` (matching the identifier `{LicenseID}` of the superclass), the **`LEFT OUTER JOIN`s** are performed by applying an equality condition on this attribute. This ensures that the tuples we get contain information about the same request, rather than multiple requests in the same tuple of the Cartesian product.
 
-We use `LEFT JOIN` because the first table we combine is `DrivingLicenseRequest`. We know all its tuples are non-null because it represents the superclass of the hierarchy and contains information on all requests in the database, regardless of their status. So by placing this table on the left of the `JOIN` operation, we ensure that the information of all the tuples it contains appears – and it fills in `NULL` for the attributes from the other table, DrivingLicense.
+We use `LEFT JOIN` because the first table we combine is `DrivingLicenseRequest`. We know all its tuples are non-null because it represents the superclass of the hierarchy and contains information on all requests in the database, regardless of their status. So by placing this table on the left of the `JOIN` operation, we ensure that the information of all the tuples it contains appears - and it fills in `NULL` for the attributes from the other table, DrivingLicense.
 
 Then, we do another `LEFT JOIN` with `RejectedDrivingLicense` following the same process. This results in a table where, despite using USING in the JOIN operations, we can impose conditions on the `LicenseID` attributes of all the tables. So for a tuple of the resulting Cartesian product to represent a pending request, the `LicenseID` attributes of the `DrivingLicense` and `RejectedDrivingLicense` tables must be `NULL`. This indicates that there are no tuples in the respective tables because the `LEFT JOIN` has been filled in with `NULL` if they didn't exist. We declare this condition using a WHERE clause and the IS operator, as you can’t compare an attribute with `NULL` directly using the `=` operator.
 
@@ -844,7 +844,7 @@ If any of the subqueries return tuples, then the request is either accepted or r
 
 With this process, we get the pending requests, which we store in an intermediate table using the `WITH` clause. To combine the information of the person who made each request, we use the intermediate table in the query, specifically in an `INNER JOIN` operation with the Person table, just as we did before.
 
-So with this example, we’ve seen that there are multiple SQL constructions that lead to the same result – meaning a query doesn't necessarily have to be solved in just one way.
+So with this example, we’ve seen that there are multiple SQL constructions that lead to the same result - meaning a query doesn't necessarily have to be solved in just one way.
 
 Also, by using the `WITH` clause, we can define each intermediate table with SQL code that’s as **"complex"** as we need it to be. We can include subqueries, conditions, and generally any SQL statement, except for a `WITH`, which by default can’t appear inside another `WITH`.
 
@@ -852,7 +852,7 @@ If we need to use an intermediate table to solve a query defined as a **CTE**, w
 
 So far, we have seen that we can use the `WITH` statement to define an intermediate table that we use to solve the query more comfortably and easily in certain situations. But, we might need several intermediate tables to solve a query, not just one.
 
-For example, in the below code we have a query that gets information about people who have lived in at least two cities. We solved this query in the **“Tuple filtering”** section using `JOIN` operations – but we can also follow a similar approach where we first create several different intermediate tables and finally solve the query based on the results of these intermediate tables.
+For example, in the below code we have a query that gets information about people who have lived in at least two cities. We solved this query in the **“Tuple filtering”** section using `JOIN` operations - but we can also follow a similar approach where we first create several different intermediate tables and finally solve the query based on the results of these intermediate tables.
 
 ```pgsql
 WITH R1 AS (
@@ -873,7 +873,7 @@ FROM CityPairs MC INNER JOIN Person P ON MC.PersonFK = P.PersonID
 ORDER BY P.PersonID;
 ```
 
-First, we can create several intermediate tables that contain all the tuples from Residence – specifically the information about the person and city that make up each residence. We can do this by obtaining the attributes `PersonFK` and `CityFK`, which are foreign keys that refer to the person who has lived in a certain city during that residence. By constructing several intermediate tables with this information, we can rename `CityFK` with an alias like `CityA` in one of them and `CityB` in the other intermediate table, so that later the `JOIN` between them has a clearer syntax.
+First, we can create several intermediate tables that contain all the tuples from Residence - specifically the information about the person and city that make up each residence. We can do this by obtaining the attributes `PersonFK` and `CityFK`, which are foreign keys that refer to the person who has lived in a certain city during that residence. By constructing several intermediate tables with this information, we can rename `CityFK` with an alias like `CityA` in one of them and `CityB` in the other intermediate table, so that later the `JOIN` between them has a clearer syntax.
 
 To construct several intermediate tables in a single `WITH` statement, we can chain them with commas. Instead of using the `WITH` keyword multiple times, we have to use it only once and chain all the intermediate tables we want with commas, as shown above.
 
@@ -883,7 +883,7 @@ To do this, we can perform an `INNER JOIN` between `R1` and `R2` (a Cartesian pr
 
 These identifiers are for the people whose information we need to get from the `Person` table. So now we can finally perform an `INNER JOIN` between the intermediate table `CityPairs` and `Person`, so that the final result of the query is the information of the people who have had at least two residences in different cities. (They would not have appeared in a tuple of the Cartesian product between `R1` and `R2` otherwise.)
 
-The important point about this query is to note that we have used **multiple intermediate tables** in the same `WITH` clause to solve it – and this is entirely **possible** but not always recommended. We can resolve this query in various ways, each with its own advantages or disadvantages depending on the characteristics we need the code to have, such as clarity, efficiency, maintainability, and so on.
+The important point about this query is to note that we have used **multiple intermediate tables** in the same `WITH` clause to solve it - and this is entirely **possible** but not always recommended. We can resolve this query in various ways, each with its own advantages or disadvantages depending on the characteristics we need the code to have, such as clarity, efficiency, maintainability, and so on.
 
 To conclude this CTE section, let's consider another query where we need to get information about bus trips that have taken place after 2025 and where the bus has WiFi. The simplest way to create this query would be to gather information from the `CityBus` and BusTrip tables using a JOIN, and then apply conditions on the tuples of the corresponding Cartesian product. But to illustrate using multiple **intermediate tables (CTEs)** in a single `WITH` clause, in this case, we’ll divide the query resolution into several parts.
 
@@ -902,7 +902,7 @@ SELECT T.TripDate, T.StartAddress, T.EndAddress, B.RouteNumber
 FROM AvailableTrips T INNER JOIN WifiBuses B ON B.Plate = T.PlateFK;
 ```
 
-First, we’ll get information about buses with `WiFi` in an intermediate table. To construct this table, we simply apply the condition `FreeWifi=TRUE` on the tuples of the `CityBus` table. In this case, when we do a `SELECT * FROM CityBus;` we can see that in the `FreeWifi` attribute, the boolean values are represented with the letters `'t'` or `'f'` – so we might think that in the query we should compare the attribute with `'t'`.
+First, we’ll get information about buses with `WiFi` in an intermediate table. To construct this table, we simply apply the condition `FreeWifi=TRUE` on the tuples of the `CityBus` table. In this case, when we do a `SELECT * FROM CityBus;` we can see that in the `FreeWifi` attribute, the boolean values are represented with the letters `'t'` or `'f'` - so we might think that in the query we should compare the attribute with `'t'`.
 
 But boolean values in SQL are `TRUE` and `FALSE`, even though the DBMS [<FontIcon icon="fas fa-globe"/>represents](https://dba.stackexchange.com/questions/115234/why-t-and-f-instead-of-true-and-false) them with another type of notation. So the correct way to check if the attribute contains the logical value `true` is to compare it with `TRUE`. Even though the representation of the boolean value might change, in SQL we should always operate with boolean values using the literals `TRUE` and `FALSE`.
 
@@ -916,7 +916,7 @@ Also, with this query, we can more clearly see the effect of coding a query usin
 
 But by using intermediate tables where each one imposes a certain condition on the tuples of each table, we can reduce the number of tuples in each intermediate table, since **WifiBuses** won’t contain all existing buses, but only those with `WiFi` (which will be fewer).
 
-By applying this technique (known as [<FontIcon icon="iconfont icon-oracle"/>early filtering](https://docs.oracle.com/cloud/latest/big-data-discovery-cloud/BDDEQ/ceql_bp_filter_early.htm#BDDEQ-concept_F3B83B6965AC40429E5C68AB330BA74E)), we ensure that when performing the final `JOIN` between the intermediate tables, the Cartesian product results in **fewer tuples** – meaning it works with smaller tables and is therefore **more efficient**.
+By applying this technique (known as [<FontIcon icon="iconfont icon-oracle"/>early filtering](https://docs.oracle.com/cloud/latest/big-data-discovery-cloud/BDDEQ/ceql_bp_filter_early.htm#BDDEQ-concept_F3B83B6965AC40429E5C68AB330BA74E)), we ensure that when performing the final `JOIN` between the intermediate tables, the Cartesian product results in **fewer tuples** - meaning it works with smaller tables and is therefore **more efficient**.
 
 Just keep in mind that in modern DBMS, this optimization can be carried out [automatically](https://stackoverflow.com/questions/46727600/sql-performance-filter-first-or-join-first) even without using intermediate tables, depending on the nature of the query. So if it doesn’t significantly worsen the clarity of the query, we should filter the information from the tables to be combined via a `JOIN` as early as possible, which is why we have used multiple intermediate tables in a `WITH` clause.
 
@@ -1073,7 +1073,7 @@ So in the query, you can see that we use the `EXCEPT` operator to work with the 
 
 To implement the difference A-B, we use `EXCEPT`, where the query above the `EXCEPT` is set `A` and the one below is set `B`. This is important to keep in mind because `EXCEPT` is the only operator where the order of the operands can change the result of the query.
 
-For example, with the other operators `UNION` and `INTERSECT`, we can clearly see that it doesn't matter if we unite or intersect several sets A and `B` or `B` and `A` – in any order, the result will be the same. This is not the case with the difference `A`-`B`, which doesn't necessarily have to be equivalent to `B`-`A`. This property is called **commutativity**, and `EXCEPT` is the only set operator that **is not commutative**.
+For example, with the other operators `UNION` and `INTERSECT`, we can clearly see that it doesn't matter if we unite or intersect several sets A and `B` or `B` and `A` - in any order, the result will be the same. This is not the case with the difference `A`-`B`, which doesn't necessarily have to be equivalent to `B`-`A`. This property is called **commutativity**, and `EXCEPT` is the only set operator that **is not commutative**.
 
 Ultimately, in this query, we can see that the table aliases are all in lowercase. This is allowed in SQL, and we can even declare an alias in uppercase and then use it in lowercase, or vice versa. But if we enclose the aliases in quotes, like in **Person "P"**, we can only refer to the table with the alias exactly as it’s written in the quotes.
 
@@ -1115,7 +1115,7 @@ FROM Voyage V2
 ORDER BY DepartureCityFK, ArrivalCityFK;
 ```
 
-The approach we'll take for this query is based on set theory, as it’s particularly easy to solve in this case. First, we construct a query that returns all existing trips. From these, we can get all the information present in the `Voyage` table – but for simplicity, we'll only focus on the attributes that determine the departure and arrival cities of the trip (which are their foreign keys `DepartureCityFK` and `ArrivalCityFK`).
+The approach we'll take for this query is based on set theory, as it’s particularly easy to solve in this case. First, we construct a query that returns all existing trips. From these, we can get all the information present in the `Voyage` table - but for simplicity, we'll only focus on the attributes that determine the departure and arrival cities of the trip (which are their foreign keys `DepartureCityFK` and `ArrivalCityFK`).
 
 Then, from all those trips returned by the first query, we need to remove the return trips. That is, for each existing trip that departs from city x and arrives at city y, we look for a **return trip** in the `Voyage` table that departs from city y and arrives at city x. If it exists, we remove the original trip from the result table of the first query.
 
@@ -1149,9 +1149,9 @@ Regarding the implementation, we can see that in the first query used to build t
 
 Then, we make a union with a second query that retrieves people who have made an application, whether pending, accepted, or rejected. This time we get the data from the `DrivingLicenseRequest` table, which encompasses all existing applications in the database.
 
-By performing the union, we get all the people who have or have had pending, accepted, or rejected applications, since the first query returns only those with an approved license – but the second returns people who have also had rejected applications.
+By performing the union, we get all the people who have or have had pending, accepted, or rejected applications, since the first query returns only those with an approved license - but the second returns people who have also had rejected applications.
 
-To exclude those with rejected applications, the `EXTENT` operator is used along with another query that retrieves these people with rejected applications. So they are all excluded from the final query result – or rather from the intermediate table Persons. From this table, we finally get all its tuples and order them by the attribute `PersonFK` – that is, by the identifier of the people we obtain.
+To exclude those with rejected applications, the `EXTENT` operator is used along with another query that retrieves these people with rejected applications. So they are all excluded from the final query result - or rather from the intermediate table Persons. From this table, we finally get all its tuples and order them by the attribute `PersonFK` - that is, by the identifier of the people we obtain.
 
 As you can see, the order in which set operations are performed is from top to bottom. That is, these operators act on tables containing query results, so SQL performs these operations in a top-down order (although we can use parentheses to change the precedence of the operators according to the needs of the query). Also, in this case, we can see that the `UNION` operation is redundant since everything contained in the first query is also contained in the second.
 
@@ -1190,9 +1190,9 @@ Then, if we want to count how many people have that nationality, we simply count
 
 For each of those values, we’ll attach the value of `COUNT(*)` in the same tuple of the output table, which will correspond to the **number of tuples** in the corresponding **group**. This conceptually represents the number of people with that nationality.
 
-Finally, we can apply sorting with the `ORDER BY` statement – but we should keep in mind that we can only sort in this case with respect to the attributes we return in `SELECT`. This is because in the query, we’re creating groups represented by `Nationality` values, which means we can’t "return" the rest of the attributes in the `SELECT` as we did before.
+Finally, we can apply sorting with the `ORDER BY` statement - but we should keep in mind that we can only sort in this case with respect to the attributes we return in `SELECT`. This is because in the query, we’re creating groups represented by `Nationality` values, which means we can’t "return" the rest of the attributes in the `SELECT` as we did before.
 
-We can only calculate metrics with them and return those – but not the attributes themselves with all their values. This is because when grouping, the resulting table necessarily contains **only the "representative" values** of each group and metrics of other attributes calculated from those groups (or metrics of the group itself, such as the number of tuples it has in this case).
+We can only calculate metrics with them and return those - but not the attributes themselves with all their values. This is because when grouping, the resulting table necessarily contains **only the "representative" values** of each group and metrics of other attributes calculated from those groups (or metrics of the group itself, such as the number of tuples it has in this case).
 
 There are various metrics we can calculate with the basic **aggregation functions** that SQL provides by default. Below we see a query where we get, for each possible pool status, the smallest minimum depth and the largest maximum depth of the pools with that status, as well as the average depth and the number of pools in that status.
 
@@ -1210,13 +1210,13 @@ The implementation of this query is very similar to the previous one, as we need
 
 So in the `GROUP BY` clause, we only specify the `Status` attribute. This way, we group the tuples into as many groups as there are values present in the `Status` attribute in the table, and in each of these groups, we have all the tuples representing pools in that status.
 
-So along with the information for each status, we can calculate metrics for its associated group of tuples – that is, for the pools in that status. For example, with `MIN(MinDepth)`, we get the smallest value of the `MinDepth` attribute present in the group for which this metric is being calculated. In this case, it represents the smallest minimum depth of all pools in a certain status.
+So along with the information for each status, we can calculate metrics for its associated group of tuples - that is, for the pools in that status. For example, with `MIN(MinDepth)`, we get the smallest value of the `MinDepth` attribute present in the group for which this metric is being calculated. In this case, it represents the smallest minimum depth of all pools in a certain status.
 
 Similarly, with the aggregation operation `MAX(MaxDepth)`, we get the largest maximum depth, or in other words, the largest value of the `MaxDepth` attribute in the corresponding group of pools. With `COUNT(*)`, we get the number of pools in each group.
 
 On the other hand, the average depth associated with the pools in each group is calculated with `AVG((MinDepth + MaxDepth) / 2.0)`. First, it’s worth noting that both in the `SELECT` clause and in the input argument of an aggregation function like `AVG()`, we can perform arithmetic operations on the attributes.
 
-For example, in this case, with `(MinDepth + MaxDepth) / 2.0`, we calculate the average value between the minimum and maximum depth of **each pool** – not of each group, but of each tuple in the group – all using decimal values like 2.0 so that the result isn’t automatically rounded to an integer. Then, with this value calculated for each tuple, we use the aggregation function `AVG()` to calculate the average of this value for each group.
+For example, in this case, with `(MinDepth + MaxDepth) / 2.0`, we calculate the average value between the minimum and maximum depth of **each pool** - not of each group, but of each tuple in the group - all using decimal values like 2.0 so that the result isn’t automatically rounded to an integer. Then, with this value calculated for each tuple, we use the aggregation function `AVG()` to calculate the average of this value for each group.
 
 That is, with `(MinDepth + MaxDepth) / 2.0`, we get a certain value for each tuple, and then with `AVG()`, we take all those calculated values for the tuples of a certain group and calculate their average. Thus, for each possible state of a pool, we obtain the average depth of all the pools in that state, first calculating the average depth of each pool and then calculating the average of these depths across all pools in a certain state.
 
@@ -1247,7 +1247,7 @@ But since this `PersonID` attribute is enough to identify the group, it's fine i
 
 As you can guess, if instead of grouping by `{PersonID}` we group by a **candidate key** (or rather a **superkey** as in this case `{PersonID, Name}`), we’ll get the same groups as grouping by `{PersonID}`. This means that the same number of groups will still be generated as there are people in the table (since with a superkey we can **uniquely identify each person, and therefore each group)**.
 
-Adding the `Name` attribute to the grouping is not an arbitrary decision – we have to use the Name attribute in the `SELECT` statement. When using `GROUP BY`, we can only return in the `SELECT` statement those attributes that we have used in the `GROUP BY` clause (so, those we have used for grouping). So to get the person's name and not just their identifier, one option is to include the attribute in the `GROUP BY` so we can return it in the `SELECT` – or in other words, use the `Name` attribute for grouping.
+Adding the `Name` attribute to the grouping is not an arbitrary decision - we have to use the Name attribute in the `SELECT` statement. When using `GROUP BY`, we can only return in the `SELECT` statement those attributes that we have used in the `GROUP BY` clause (so, those we have used for grouping). So to get the person's name and not just their identifier, one option is to include the attribute in the `GROUP BY` so we can return it in the `SELECT` - or in other words, use the `Name` attribute for grouping.
 
 But, this won’t always work because there are times when we group by an attribute A and want to return information about another attribute B. But for **each value** of **attribute `A`**, we have **multiple tuples** with **multiple different values** in attribute `B`. This prevents us from using `B` for grouping, although we can still calculate metrics on B.
 
@@ -1255,7 +1255,7 @@ On the other hand, to count how many rentals each person has made, we just need 
 
 To get only those groups (people) who have made more than 2 rentals, we use the `HAVING` clause to impose that condition, since aggregation functions can’t be used in the `WHERE` clause. Also, we can’t use the alias given to the attribute constructed with `COUNT(*)` that’s returned in the `SELECT` in `HAVING`. Instead, we need to rewrite the definition of the attribute in `HAVING`.
 
-That is, just like with `WHERE`, we can’t impose conditions on the attributes or columns of the resulting table we return by simply referring to their aliases – we have to use their definitions, as in this case with `COUNT(*)`.
+That is, just like with `WHERE`, we can’t impose conditions on the attributes or columns of the resulting table we return by simply referring to their aliases - we have to use their definitions, as in this case with `COUNT(*)`.
 
 It's worth noting that including the Name attribute in the `GROUP BY` to **"return"** it in the `SELECT` isn’t the only option we have to do this (or even to get more information about the person). We always have the option to save the query result in an intermediate table with a `WITH` clause and then join it with the Person table or the appropriate one.
 
@@ -1294,7 +1294,7 @@ As you can see, we get the data from the Entry table, where we have to perform a
 
 In this way, with `AVG(E.Duration)`, we calculate the average of the `Duration` attribute for each group (so how long, on average, a person stayed at the pool on each visit) while `COUNT(*)` counts the number of those entries.
 
-Finally, it's important to note that in this query, we’re only getting the person-pool pairs that appear in the Entry table – we’re not constructing all possible pairs. So we won't find any tuple in the resulting table of the query where a person has never entered a certain pool.
+Finally, it's important to note that in this query, we’re only getting the person-pool pairs that appear in the Entry table - we’re not constructing all possible pairs. So we won't find any tuple in the resulting table of the query where a person has never entered a certain pool.
 
 If we wanted to include this information, we would need to structure the query differently, constructing all combinations of person-pool in an intermediate table and then calculating how many entries each person has in each pool in another way (either using subqueries, `OUTER JOIN` operations, or even more advanced functions that aren’t covered here).
 
@@ -1359,7 +1359,7 @@ FROM PersonsTable PT
 
 For example, above we have a query that retrieves information about all the people who have made at least one cruise booking. It also gets the number of different payment methods they have used to pay for all those bookings, as long as that number is at least two different payment methods.
 
-First, to implement this query, we use the `CruiseBooking` table and group by `PersonFK` – as when needing to calculate a number for each person, we should group the tuples of the table by the `PersonFK` attribute. This way, each group corresponds to the bookings made by a certain person.
+First, to implement this query, we use the `CruiseBooking` table and group by `PersonFK` - as when needing to calculate a number for each person, we should group the tuples of the table by the `PersonFK` attribute. This way, each group corresponds to the bookings made by a certain person.
 
 So we can easily use `COUNT(DISTINCT CB.PaymentMethod)` to count how many distinct values the `PaymentMethod` attribute takes in each group of tuples. This corresponds to the number of different payment methods the representative person of that group of tuples has used to pay for their bookings.
 
@@ -1371,11 +1371,11 @@ Although it may seem that the value of `NumPaymentMethods` is being calculated m
 
 Finally, we save the result of this grouping in an intermediate table called `PersonsTable`, where only the identifier of each person and their corresponding number of payment methods are stored. Later, we can use this intermediate table in a `JOIN` operation with the `Person` table. This will gather all the information of each person along with the attribute containing the number of payment methods in one table. Then this is ultimately returned as the query output to the user.
 
-So as expected, if we use the `DISTINCT` modifier on an attribute in an aggregation function in the `SELECT` clause and want to impose a condition on it, we have to write it exactly as it appears in a `HAVING` clause – regardless of whether it uses the modifier or not, since we write it exactly as it appears in the SELECT.
+So as expected, if we use the `DISTINCT` modifier on an attribute in an aggregation function in the `SELECT` clause and want to impose a condition on it, we have to write it exactly as it appears in a `HAVING` clause - regardless of whether it uses the modifier or not, since we write it exactly as it appears in the SELECT.
 
 So far, we have seen that we can give an aggregation function input attributes with which it will perform the corresponding aggregation operation. Also, if we need only the distinct values of a certain attribute or **result of an arithmetic operation between attributes**, we can add the DISTINCT modifier.
 
-But DISTINCT is not only used for a single attribute – we can also use it to. getunique combinations of values from a series of attributes, or even unique results obtained from an arithmetic operation involving multiple attributes. For example, in the query below, we want to get all the cruises along with the number of pairs of departure and arrival cities they have visited throughout their journeys.
+But DISTINCT is not only used for a single attribute - we can also use it to. getunique combinations of values from a series of attributes, or even unique results obtained from an arithmetic operation involving multiple attributes. For example, in the query below, we want to get all the cruises along with the number of pairs of departure and arrival cities they have visited throughout their journeys.
 
 ```pgsql
 SELECT V.ShipFK,
@@ -1389,7 +1389,7 @@ To do this, we simply group the tuples of the Voyage table by the `ShipFK` attri
 
 So to count how many **distinct** pairs of departure and arrival cities each cruise has traveled to, we can use the aggregation function `COUNT(DISTINCT (V.DepartureCityFK, V.ArrivalCityFK))`.
 
-As you might guess, a cruise can make the same trip several times, which means that within the same group of tuples, we might find the same combination of values for the attributes `(V.DepartureCityFK, V.ArrivalCityFK)` multiple times. These attributes uniquely identify the departure and arrival cities of the trip, so if the trip is made several times, there must be several "duplicate" tuples – or at least tuples with the same values in those attributes, since there can be multiple different ports in the same city.
+As you might guess, a cruise can make the same trip several times, which means that within the same group of tuples, we might find the same combination of values for the attributes `(V.DepartureCityFK, V.ArrivalCityFK)` multiple times. These attributes uniquely identify the departure and arrival cities of the trip, so if the trip is made several times, there must be several "duplicate" tuples - or at least tuples with the same values in those attributes, since there can be multiple different ports in the same city.
 
 If we look at all the combinations of values that the attributes `(V.DepartureCityFK, V.ArrivalCityFK)` take in each group, we’ll see that they represent the departure and arrival cities of the cruise in each trip it has made. By applying the `DISTINCT` modifier, we treat each pair of values as if it were unique, and we keep all those that are unique. This refers to pairs of different departure and arrival cities in the group on which this aggregation operation is calculated, ignoring all duplicate pairs (which would inflate the count artificially). This would represent the total trips the ship has made.
 
@@ -1578,7 +1578,7 @@ To implement this, we first perform a `JOIN` between `PoolSanction` and `Sanctio
 
 Then, as we need to count how many states each person has sanctions in, we group by the `PersonFK` attribute, creating groups of tuples that represent the sanctions each person has or has had. This way, we can use `HAVING` to require that the number of states in which a person has sanctions is equal to the total number of possible states a sanction can have.
 
-On one hand, with `COUNT(DISTINCT S.Status)`, we can count how many different values the `Status` attribute takes in each group – or in other words, the number of states of the sanctions associated with a person. And, since there are three possible states ('created', 'active', 'expired'), we simply compare the resulting count from the aggregation function with 3. But if we use the constant 3 in the comparison and later modify the database to include more or fewer states in the sanctions, we will be forced to change that number. This makes the query not as maintainable as it could be.
+On one hand, with `COUNT(DISTINCT S.Status)`, we can count how many different values the `Status` attribute takes in each group - or in other words, the number of states of the sanctions associated with a person. And, since there are three possible states ('created', 'active', 'expired'), we simply compare the resulting count from the aggregation function with 3. But if we use the constant 3 in the comparison and later modify the database to include more or fewer states in the sanctions, we will be forced to change that number. This makes the query not as maintainable as it could be.
 
 So another another option we have for declaring the condition in the `HAVING` clause is to compare the result of the aggregation function `COUNT(*)` with the result of a subquery that calculates how many possible states a sanction can have.
 
@@ -1659,7 +1659,7 @@ The implementation of this approach is very similar to how we express it in natu
 
 In this correlated subquery, we go through the tuples of `Residence` for the person we are currently checking the condition for, so to keep only the residences we are interested in, we impose the condition `R.PersonFK = P.PersonID` in the subquery. This ensures that the selected `Residence` tuples have their foreign key `PersonFK` pointing to the person we are going through, whose identification is given by `P.PersonID`.
 
-On the other hand, within this subquery, we also check that another correlated and nested subquery doesn’t return any tuples either. This last subquery is dedicated to getting all the entries where the person identified by `P.PersonID` has entered a pool located in the city identified by `R.CityFK` – that is, the city of the residence we are going through at the time of executing this subquery.
+On the other hand, within this subquery, we also check that another correlated and nested subquery doesn’t return any tuples either. This last subquery is dedicated to getting all the entries where the person identified by `P.PersonID` has entered a pool located in the city identified by `R.CityFK` - that is, the city of the residence we are going through at the time of executing this subquery.
 
 In summary, in this query, we have seen that divisions don’t always refer to situations where the tuples we want to obtain are "associated" with all the tuples of another table. Instead, as in this case, they can also refer to the output tuples of our query needing to meet a certain condition in relation to all the tuples of another table.
 
@@ -1684,9 +1684,9 @@ Regarding this quantity, we calculate it using the aggregation function `COUNT(D
 
 In this case, we could have directly written the number instead of using an uncorrelated subquery to get the total number of classes by looking at the distinct values of the `Class` attribute from the `CruiseShip` table. So as it stands, with the subquery, we’re implicitly assuming that the `CruiseShip` table contains cruises in all existing classes (but this may not be the case).
 
-Imagine if the table is empty, for example – the subquery would result in a total of 0 cruise classes, when in reality, there may be more (the domain of the `Class` attribute may contain more values than those actually appearing in the table).
+Imagine if the table is empty, for example - the subquery would result in a total of 0 cruise classes, when in reality, there may be more (the domain of the `Class` attribute may contain more values than those actually appearing in the table).
 
-But it’s important to clarify here that by “all cruise classes” we mean all possible values that the `Status` attribute can take – that is, the values we define as the domain of the attribute. On the other hand, in some circumstances, we can assume that all cruise classes correspond to the distinct values that the Status attribute takes in the `CruiseShip` table, all depending on the domain we are working with.
+But it’s important to clarify here that by “all cruise classes” we mean all possible values that the `Status` attribute can take - that is, the values we define as the domain of the attribute. On the other hand, in some circumstances, we can assume that all cruise classes correspond to the distinct values that the Status attribute takes in the `CruiseShip` table, all depending on the domain we are working with.
 
 For simplicity, from now on in this domain, we’ll assume that the distinct values of an attribute like `Class` found in its corresponding table are equivalent to all the values it can take. If we think about it, this makes sense because if there are only 2 distinct values in the `Class` attribute of the `CruiseShip` table, then all the bookings made throughout the time the database has existed will have to reference some cruise in the `CruiseShip` table (whose `Class` will have one of those two values). There might be no bookings referencing cruises of a certain class, but if there are cruises of two classes, then it makes sense to assume that those two classes make up **“all the classes the `Class` attribute can hold.”**
 
@@ -1720,9 +1720,9 @@ For example, imagine the `CruiseShip` table is empty. In that case, this approac
 
 On the contrary, in the other approach based on groupings, if the `CruiseShip` table is empty, then the uncorrelated subquery that counts the total number of classes would return 0. Also, the `HAVING` condition would never be met, preventing the return of people who do not meet the condition defined in the query statement.
 
-So as you can see, it’s not always better to use just one approach based on either **groupings** or **set theory** – it varies depending on the situation.
+So as you can see, it’s not always better to use just one approach based on either **groupings** or **set theory** - it varies depending on the situation.
 
-In this specific case, it’s more practical to use groupings – mainly for efficiency (since internally a grouping is usually faster than executing a correlated subquery multiple times) but also for simplicity of maintenance and code clarity.
+In this specific case, it’s more practical to use groupings - mainly for efficiency (since internally a grouping is usually faster than executing a correlated subquery multiple times) but also for simplicity of maintenance and code clarity.
 
 To wrap up our discussion on the division operator of relational algebra, it’s important to note that there are times when we have to do division using intermediate tables (CTE) instead of tables from the database itself.
 
@@ -1768,7 +1768,7 @@ To keep only those cruises that have traveled through every pair of cities calcu
 
 In the total count of pairs, we don’t have to use the `DISTINCT` modifier, since the `CROSS JOIN` never generates repeated city pairs given the very definition of the cross product operation. And there there are no identical tuples in the City table, meaning there are no identical cities in our database (much less with the same value of their primary key `CityID`). But if we wanted to use the `DISTINCT` modifier to count how many distinct tuples are in `AllPairs`, we could use the syntax `COUNT(DISTINCT AllPairs.*)`.
 
-Regarding this last subquery, we could have avoided explicitly constructing all the city pairs in `AllPairs` if we had directly performed the same computation as in `AllPairs` – but returning only `COUNT(*)`. This would directly count all the city pairs with the characteristics we are looking for. But we can only do this if we code the query using grouping and counting, as we’ll see that it can also be implemented based on set operations, for which we’ll necessarily need to construct and store the pairs in `AllPairs`.
+Regarding this last subquery, we could have avoided explicitly constructing all the city pairs in `AllPairs` if we had directly performed the same computation as in `AllPairs` - but returning only `COUNT(*)`. This would directly count all the city pairs with the characteristics we are looking for. But we can only do this if we code the query using grouping and counting, as we’ll see that it can also be implemented based on set operations, for which we’ll necessarily need to construct and store the pairs in `AllPairs`.
 
 So just as we have shown with other queries, we can also approach this one using **set theory operators**. As you can see below, the intermediate tables are constructed in the same way except for `ShipVisits`, where we don't need the cities involved in the trips to meet the condition of having an `area < 11`. This is because those `ShipVisits` tuples will later be compared with the city pairs in `AllPairs`, which do meet the condition. This way, we end up with cruises that have made a trip in all the pairs of `AllPairs`, regardless of additional tuples in `ShipVisits` with trips between cities that don't meet the condition we're looking for.
 
@@ -1805,9 +1805,9 @@ After constructing the CTEs, we solve the query in a way similar to the other di
 
 In each of these tuples, we check that there is no pair of cities from `AllPairs` for which there is no trip made by the cruise we are currently going through between the cities of that pair.
 
-To do this, we use the `NOT EXISTS` operator and two nested correlated subqueries. In the first, we go through the tuples of `AllPairs` – that is, the pairs of cities that do meet the condition of having an `area < 11`. Then for each pair, we use `NOT EXISTS` again on another correlated subquery that gets all the trips made by the cruise currently being processed in the query execution over the cities of the corresponding pair from `AllPairs`.
+To do this, we use the `NOT EXISTS` operator and two nested correlated subqueries. In the first, we go through the tuples of `AllPairs` - that is, the pairs of cities that do meet the condition of having an `area < 11`. Then for each pair, we use `NOT EXISTS` again on another correlated subquery that gets all the trips made by the cruise currently being processed in the query execution over the cities of the corresponding pair from `AllPairs`.
 
-In a more intuitive way, we’re getting all the cruises for which there is no pair of cities from `AllPairs` where the cruise hasn't traveled at least once. As you can guess, since the cities in `AllPairs` do meet the condition of having an area less than 11 km², it doesn't matter that ShipVisits has trips with cities that don't meet this condition – because in the query we check that for a certain pair of cities from `AllPairs` there is no trip of a cruise in those cities. So it’s really indifferent which cities are present in the trips of `ShipVisits`, as those that meet the condition will definitely be there since we don't impose any condition when constructing that intermediate table.
+In a more intuitive way, we’re getting all the cruises for which there is no pair of cities from `AllPairs` where the cruise hasn't traveled at least once. As you can guess, since the cities in `AllPairs` do meet the condition of having an area less than 11 km², it doesn't matter that ShipVisits has trips with cities that don't meet this condition - because in the query we check that for a certain pair of cities from `AllPairs` there is no trip of a cruise in those cities. So it’s really indifferent which cities are present in the trips of `ShipVisits`, as those that meet the condition will definitely be there since we don't impose any condition when constructing that intermediate table.
 
 In summary, with this approach, we can solve the query just as we did before using groupings and counts. But the difference here is that we can save the conditions (`area < 11`) that we imposed when constructing the tuples of `ShipVisits`.
 
@@ -1817,9 +1817,9 @@ For example, if the amount of data in the involved tables is small, the performa
 
 This is because the correlated subquery that goes through the tuples of `ShipVisits` is executed once for each tuple of `AllPairs`, and all of this is executed once for each tuple of `ShipVisits` (we could have replaced this last one with `CruiseShip` to improve performance, as the number of cruises is fixed and tends to be smaller than the number of trips).
 
-So the computation involved in going through all the tuples of `ShipVisits` is much greater than the computation of a simple `JOIN` used to construct the CTE itself – which, despite being computationally costly, only needs to be executed once (not multiple times depending on the number of tuples in other tables).
+So the computation involved in going through all the tuples of `ShipVisits` is much greater than the computation of a simple `JOIN` used to construct the CTE itself - which, despite being computationally costly, only needs to be executed once (not multiple times depending on the number of tuples in other tables).
 
-To finish with the division operation, we've seen that we can implement it in SQL using the `EXISTS` operator (either as is or negated with the logical `NOT` operator) and a correlated subquery. In it, the `SELECT` statement uses the `*` notation to return all the attributes of the corresponding table. This means that to check if the subquery returns any tuple or not, we construct its result so that each tuple possibly has multiple attributes – meaning all those that result from using the `SELECT *` notation. But sometimes instead of returning several attributes, it simply returns a column with a fixed value like the integer 1. In general, using the `SELECT *` notation in a correlated subquery to which the EXISTS operator is applied is considered good practice, so it’s coded this way by default. But there are also other possibilities like `SELECT 1`, which at first glance might seem more efficient because it doesn't return unnecessary attributes since it only checks if the subquery results in any tuple or not.
+To finish with the division operation, we've seen that we can implement it in SQL using the `EXISTS` operator (either as is or negated with the logical `NOT` operator) and a correlated subquery. In it, the `SELECT` statement uses the `*` notation to return all the attributes of the corresponding table. This means that to check if the subquery returns any tuple or not, we construct its result so that each tuple possibly has multiple attributes - meaning all those that result from using the `SELECT *` notation. But sometimes instead of returning several attributes, it simply returns a column with a fixed value like the integer 1. In general, using the `SELECT *` notation in a correlated subquery to which the EXISTS operator is applied is considered good practice, so it’s coded this way by default. But there are also other possibilities like `SELECT 1`, which at first glance might seem more efficient because it doesn't return unnecessary attributes since it only checks if the subquery results in any tuple or not.
 
 In summary, the decision on which attributes to return in a correlated subquery using the `EXISTS` operator is mainly determined by the characteristics of the DBMS, as each [<FontIcon icon="fas fa-globe"/>implementation](https://dba.stackexchange.com/questions/159413/exists-select-1-vs-exists-select-one-or-the-other) of the [<FontIcon icon="fa-brands fa-stack-overflow"/>DBMS](https://stackoverflow.com/questions/424212/performance-of-sql-exists-usage-variants) handles these operations differently at the physical level.
 
@@ -1827,7 +1827,7 @@ In summary, the decision on which attributes to return in a correlated subquery 
 
 ## Ranking Queries
 
-To conclude with the different "types" of queries we might encounter, there are queries where we need to calculate a **ranking** – that is, ordering elements based on the value they have for a certain metric. For example, ordering people by the number of bike rentals they have made, allowing us to find out who has made the most or fewest rentals, among many other similar tasks.
+To conclude with the different "types" of queries we might encounter, there are queries where we need to calculate a **ranking** - that is, ordering elements based on the value they have for a certain metric. For example, ordering people by the number of bike rentals they have made, allowing us to find out who has made the most or fewest rentals, among many other similar tasks.
 
 In this case, these approaches don’t have any equivalent operator in relational algebra. This is because the calculation of rankings is based on the combination of multiple techniques and tools like groupings, aggregations, or uncorrelated subqueries that aren’t present in relational algebra as specific operators.
 
@@ -1844,7 +1844,7 @@ In terms of approach, solving this query involves establishing a ranking of the 
 
 In SQL, implementing this query is very simple if we only want to get the metric value and its values are already calculated in an attribute. As you can see, we simply use the `MAX()` aggregation function, which we give the attribute where the metric values are calculated as an input argument. Finally, when we execute the query, we will see that only one tuple is returned with that maximum value in the attribute we have named with the alias `MaxCapacity`.
 
-But the implementation is not always that simple. For example, if we want to get not only the maximum value of the metric but also the specific element associated with that metric – in this case, the cruise ship with the highest passenger capacity – we first need to go through the tuples in `CruiseShip` and check each one to see if it corresponds to the cruise ship with the highest passenger capacity.
+But the implementation is not always that simple. For example, if we want to get not only the maximum value of the metric but also the specific element associated with that metric - in this case, the cruise ship with the highest passenger capacity - we first need to go through the tuples in `CruiseShip` and check each one to see if it corresponds to the cruise ship with the highest passenger capacity.
 
 Specifically, what we check in each tuple is whether the passenger count is equal to the maximum or not, so that we only keep those tuples where the `PassengerCapacity` value is exactly equal to the maximum value of that attribute.
 
@@ -1865,7 +1865,7 @@ If we want to get only one cruise ship, we have the option to add an additional 
 
 This [<FontIcon icon="fas fa-globe"/>LIMIT clause](https://datacamp.com/tutorial/sql-limit), it’s not part of the [<FontIcon icon="fas fa-globe"/>SQL-92 standard](https://contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt), but it can still be used in any query we need as long as the DBMS supports it (all **modern** DBMSs support it). Its use is simple: we just give it a number that indicates the number of tuples from the resulting table of the query that we want to get from the first tuple located at the top of the table, ignoring the rest.
 
-Another option we have is to do without the `MAX()` aggregation function. As you can see below, most of the query code is the same, except for the subquery. Instead of returning the maximum value of the `PassengerCapacity` attribute, it returns the attribute itself – meaning all the values in its corresponding column in the CruiseShip table.
+Another option we have is to do without the `MAX()` aggregation function. As you can see below, most of the query code is the same, except for the subquery. Instead of returning the maximum value of the `PassengerCapacity` attribute, it returns the attribute itself - meaning all the values in its corresponding column in the CruiseShip table.
 
 ```pgsql
 SELECT ShipID, PassengerCapacity
@@ -1901,7 +1901,7 @@ HAVING COUNT(*) >= ALL (
     );
 ```
 
-We can find the information to solve this query in the `Residence` table – specifically in the tuples themselves, where each one represents a residence. The person is referenced by the foreign key `PersonFK` and the city where the person has lived is referenced by the foreign key `CityFK`.
+We can find the information to solve this query in the `Residence` table - specifically in the tuples themselves, where each one represents a residence. The person is referenced by the foreign key `PersonFK` and the city where the person has lived is referenced by the foreign key `CityFK`.
 
 So, in this table, we don't have a number in an attribute that tells us the number of residences a person has had. Instead, the tuples themselves represent the residences of the people, and we need to count them to know which person has or has had the most residences.
 
@@ -1979,7 +1979,7 @@ ORDER BY DepthRank;
 
 For example, in the query above, we get a list of all the pools in the database, where for each one, we calculate its position in the pool ranking ordered by the value of its `MaxDepth` attribute, that is, by its maximum depth.
 
-Also, since there can be multiple pools with the same `MaxDepth` value, in that case, both pools will have the same position in the ranking. So the next position with a lower `MaxDepth` value won’t be the immediate next position – instead, you must add the number of pools from the previous position that had the same `MaxDepth` value to that ranking position.
+Also, since there can be multiple pools with the same `MaxDepth` value, in that case, both pools will have the same position in the ranking. So the next position with a lower `MaxDepth` value won’t be the immediate next position - instead, you must add the number of pools from the previous position that had the same `MaxDepth` value to that ranking position.
 
 | `PoolID` | `Name` | `MaxDepth` | `DepthRank` |
 | --- | --- | --- | --- |
@@ -1995,7 +1995,7 @@ As we can see, this way of defining and building the ranking is not what we migh
 
 Regarding the implementation, if we look at the attributes of the example table, specifically `MaxDepth` and its relationship with `DepthRank`, we can conclude that the position we should assign to each pool in the ranking matches the number of pools with a `MaxDepth` strictly greater than its own **plus 1**.
 
-For example, for the pool with `PoolID=2`, we see that there is no pool with a `MaxDepth` greater than its own – at most, there are some with an equivalent `MaxDepth`, but never greater because this pool has the highest `MaxDepth` value (meaning the maximum). Meanwhile, the pool with `PoolID=3` has two pools with a `MaxDepth` greater than its own.
+For example, for the pool with `PoolID=2`, we see that there is no pool with a `MaxDepth` greater than its own - at most, there are some with an equivalent `MaxDepth`, but never greater because this pool has the highest `MaxDepth` value (meaning the maximum). Meanwhile, the pool with `PoolID=3` has two pools with a `MaxDepth` greater than its own.
 
 So if we **add one** to the number of pools with a metric value, which in this case we can find in the `MaxDepth` attribute, greater than the `MaxDepth` value of a certain pool, then the amount we obtain is the ranking position of that pool.
 
@@ -2016,7 +2016,7 @@ ORDER BY MaxDepth DESC;
 
 For example, above we have a query where we get the pools that are among the top 5 distinct positions in the ranking. In other words, we don’t get the first 5 rows with pools ordered in the ranking according to their MaxDepth value, but we get all those whose ranking position is among the top 5 distinct positions.
 
-As you can see, the implementation is simple. We go through all the `Pool` tuples and for each one, we execute a subquery like the one we saw in the previous query: it gets the number of pools with a MaxDepth greater than the pool we are iterating over – that is, its position in the ranking. Then, we compare that number with 5 to ensure it’s strictly less.
+As you can see, the implementation is simple. We go through all the `Pool` tuples and for each one, we execute a subquery like the one we saw in the previous query: it gets the number of pools with a MaxDepth greater than the pool we are iterating over - that is, its position in the ranking. Then, we compare that number with 5 to ensure it’s strictly less.
 
 Also, here we need to note that we have not added 1 to `COUNT(*)`, which means the ranking starts counting at **position 0**, not 1, so we can later check that the position is among the top 5 distinct ones with `< 5` and not `< 6`. This doesn't have to be done this way necessarily, as we could have added 1 to `COUNT(*)` and declared the comparison using `< 6`, or `<=5`.
 
@@ -2039,7 +2039,7 @@ This is a Jupyter notebook that you can run from Google Collab. It contains Pyth
 
 The notebook contains a series of query statements with solutions, along with everything needed to execute them. These queries aren’t ordered or classified like those we saw in the last chapter, as the goal is for you to try to solve them from the statements without looking at the solution. This way, you can later see how they were solved and gain practice in formulating queries, which is one of the most valuable skills for providing services to end users from the database.
 
-You don’t necessarily have to do this in a Google Collab environment – you can also do it on a PostgreSQL installation on a **local machine** and execute the queries by copying and pasting the query code into the PostgreSQL terminal. But doing it in a remote environment like the one offered by Google Collab has certain advantages, such as not having to worry about installing anything manually, as everything is set up automatically by simply running the code cells or being able to see the text of the statements in the notebook rendered with markdown.
+You don’t necessarily have to do this in a Google Collab environment - you can also do it on a PostgreSQL installation on a **local machine** and execute the queries by copying and pasting the query code into the PostgreSQL terminal. But doing it in a remote environment like the one offered by Google Collab has certain advantages, such as not having to worry about installing anything manually, as everything is set up automatically by simply running the code cells or being able to see the text of the statements in the notebook rendered with markdown.
 
 Still, there are some disadvantages, such as the database being stored on a Google virtual machine, which means you don't have full control over the machine and environment in which the DBMS runs. Its execution can also be interrupted depending on how you use the virtual machine and the plan you have with Google Collab.
 

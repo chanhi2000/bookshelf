@@ -87,7 +87,7 @@ In this article, you’ll learn how to export data from YouTube Analytics to Pyt
 
 ## Step 1: Identify the Problem Statement
 
-Before proceeding, we need to know what we’re looking for – because YouTube Analytics has many metrics, and this can get overwhelming. My channel doesn’t have a ton of subscribers, but I have quite a few videos and views. So we’ll use my data as an example.
+Before proceeding, we need to know what we’re looking for - because YouTube Analytics has many metrics, and this can get overwhelming. My channel doesn’t have a ton of subscribers, but I have quite a few videos and views. So we’ll use my data as an example.
 
 Just note that this analysis I’ll conduct in this tutorial is specific to my channel and can vary from channel to channel. You’ll be able to use the techniques here to answer the same/similar questions using your data, but your results will be different from mine.
 
@@ -95,16 +95,16 @@ Here are the questions I would like to find an answer for:
 
 ### 1. Correlation Analysis
 
-- **Views and watch time** – Are longer watch times associated with higher views?
-- **Views and subscribers** – Do more views translate to more subscribers?
-- **Impressions and Click-Through Rate (CTR%) –** Does a stronger impression lead to better engagement?
-- **Watch time and average view duration** – Are longer videos watched more?
+- **Views and watch time** - Are longer watch times associated with higher views?
+- **Views and subscribers** - Do more views translate to more subscribers?
+- **Impressions and Click-Through Rate (CTR%) -** Does a stronger impression lead to better engagement?
+- **Watch time and average view duration** - Are longer videos watched more?
 
 ### 2. Audience Retention Analysis
 
-- **Average view duration vs. Video length** – Are longer videos watched in full?
-- **Drop-off points** – Which duration range has the best retention?
-- **Retention Rate (%)** – Watch time divided by duration?
+- **Average view duration vs. Video length** - Are longer videos watched in full?
+- **Drop-off points** - Which duration range has the best retention?
+- **Retention Rate (%)** - Watch time divided by duration?
 
 ---
 
@@ -122,7 +122,7 @@ You can select the range of data you are interested in using the date dropdown (
 
 The column headers you see in the dashboard are the filters. Each contains different metrics, and you can find some metrics in one or more filters. You can play around with the tabs and dropdowns to understand them better.
 
-This is just a foundation for understanding your YouTube channel performance. If you have a long-running channel with a large number of subscribers and views, trust me – you can get a lot of insights from your data.
+This is just a foundation for understanding your YouTube channel performance. If you have a long-running channel with a large number of subscribers and views, trust me - you can get a lot of insights from your data.
 
 For this tutorial, I will select my entire lifetime data (1) and click the download button at the top right-hand corner (2).
 
@@ -270,7 +270,7 @@ plt.show()
 
 The [<FontIcon icon="fas fa-globe"/>scatter plot](https://byjus.com/commerce/scatter-diagram/) above shows the relationship between audience retention rate (y-axis, measured as a percentage) and video duration (x-axis, measured in seconds) for various videos. Here are the following key observations:
 
-- There's a clear negative correlation between video duration and retention rate – as videos get longer, the retention rate generally decreases.
+- There's a clear negative correlation between video duration and retention rate - as videos get longer, the retention rate generally decreases.
 - The highest retention rates (35-40%) are found in shorter videos, mostly under 500 seconds (around 8 minutes).
 - Videos over 1500 seconds (25 minutes) consistently show retention rates below 15%.
 - The size and color of the dots represent the number of views, with larger, redder dots indicating more views (up to 1000) and smaller, blue dots representing fewer views (around 200).

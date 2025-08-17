@@ -99,7 +99,7 @@ In Kubernetes environments, the complexity of managing distributed microservices
 
 Imagine building a microservices application with several connected services handling critical components such as authentication, payments, and databases without proper monitoring. A sudden traffic spike could affect a single service, cascading to other services, causing the system to crash and resulting in downtime.
 
-Without proper visibility, you may struggle to find the root cause of the issue. You may spend hours manually going through logs – and meanwhile, users are frustrated, and businesses are losing revenue and customer trust.
+Without proper visibility, you may struggle to find the root cause of the issue. You may spend hours manually going through logs - and meanwhile, users are frustrated, and businesses are losing revenue and customer trust.
 
 Before we begin the project, you’ll learn key monitoring and observability concepts, as well as why tools like Prometheus and Grafana are crucial for setting up a robust monitoring stack on your Kubernetes infrastructure.
 
@@ -328,8 +328,8 @@ eksctl create cluster \
 
 Let’s break down the command:
 
-- `–name my-prac-cluster-1`: This specifies the name of the EKS cluster that will be created. In this case, the cluster will be named **my-prac-cluster-1**.
-- `–version 1.30`: This sets the Kubernetes version for the cluster. Here, the version will be version 1.30.
+- `-name my-prac-cluster-1`: This specifies the name of the EKS cluster that will be created. In this case, the cluster will be named **my-prac-cluster-1**.
+- `-version 1.30`: This sets the Kubernetes version for the cluster. Here, the version will be version 1.30.
 - `--region us-east-1`: This specifies the AWS region where the cluster will be provisioned on AWS. Here, it is set to us-east-1.
 - `--nodegroup-name worker-nodes`: This defines the name of the node groups that will be created. In this case, it’s named **worker-nodes**.
 - `--node-type t2.large`: This sets the instance type for the worker nodes in the `node-group`.
@@ -553,7 +553,7 @@ Now that everything is set up, we can delete our Kubernetes Cluster to avoid ext
 
 ```sh
 eksctl delete cluster my-prac-cluster-1 \
-–region us-east-1
+-region us-east-1
 ```
 
 ![A terminal window displaying a series of commands and system messages related to the deletion of an EKS cluster and associated resources. It shows timestamps for each action, status updates, and confirmation that all cluster resources were deleted successfully.](https://cdn.hashnode.com/res/hashnode/image/upload/v1734917455255/04b00a79-d963-4e28-bc99-4cb6ea8c65cf.jpeg)

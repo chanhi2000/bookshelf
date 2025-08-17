@@ -229,7 +229,7 @@ detach vdisk
 
 ![Command prompt showing "DISKPART> detach vdisk" and a confirmation message that DiskPart successfully detached the virtual disk file.](https://cdn.hashnode.com/res/hashnode/image/upload/v1754252460797/e29387d7-4f03-4ddb-80f7-f14a5051b0fe.png)
 
-There you go – the virtual hard drive has been successfully detached.
+There you go - the virtual hard drive has been successfully detached.
 
 This command releases any locks on the virtual drive and effectively dismounts it. If you don't use this command, the file remains "in use," preventing WSL (or you) from accessing it until you reboot or manually force it closed.
 
@@ -402,7 +402,7 @@ or like this (option 2):
 C:\Users\Alice\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc\LocalState\ext4.vhdx
 ```
 
-(You might find out that your WSL2 distro is located in some other directory than “Packages” – but don’t worry, your BasePath will match the correct folders).
+(You might find out that your WSL2 distro is located in some other directory than “Packages” - but don’t worry, your BasePath will match the correct folders).
 
 The idea is to build the two possible path options:
 
@@ -477,7 +477,7 @@ Before proceeding to the DiskPart utility, it’s important to stop all running 
 
 ```powershell
 Write-Host "Shutting down WSL…" -ForegroundColor Cyan
-wsl.exe –shutdown
+wsl.exe -shutdown
 ```
 
 A common mistake is to forget to launch PowerShell or the Command Prompt with Administrator rights. You can prevent this case with a message:
@@ -568,7 +568,7 @@ $lastPct with -1
 $lastPct = -1 # We initiate a sentinel value
 ```
 
-We are having a guaranteed “first” value that no real percent (0–100) will equal. That way, as soon as you see the first 0 percent, 10 percent, or whatever, it differs from -1. Then:
+We are having a guaranteed “first” value that no real percent (0-100) will equal. That way, as soon as you see the first 0 percent, 10 percent, or whatever, it differs from -1. Then:
 
 ```powershell
 if ($_ -match '(\d+)\s+percent') {
@@ -577,7 +577,7 @@ if ($_ -match '(\d+)\s+percent') {
 }
 ```
 
-This guarantees that on the very first percentage update (say “0 percent” or “10 percent”), `$pct –ne $lastPct` will be `true`, so it emits the first line. Afterwards, `$lastPct` holds the last real percentage, and it only prints again when a new, different progress percentage comes in.
+This guarantees that on the very first percentage update (say “0 percent” or “10 percent”), `$pct -ne $lastPct` will be `true`, so it emits the first line. Afterwards, `$lastPct` holds the last real percentage, and it only prints again when a new, different progress percentage comes in.
 
 The output looks more clean:
 

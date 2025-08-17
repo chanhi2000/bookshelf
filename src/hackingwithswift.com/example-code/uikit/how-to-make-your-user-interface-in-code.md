@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -100,7 +100,7 @@ for option in ["Always Allow", "Allow Once", "Deny", "Manage Settings"] {
 
 That’s a complex user interface, but if you’re writing that sort of thing inside your `viewDidLoad()` method you’re making a terrible mistake. In fact, if you write that kind of code and you aren’t just prototyping or learning something, then you lose all rights to complain that your view controllers are massive later on.
 
-All the code above – literally all of it – is *view* code, and needs to be treated as such. It is not controller code, and even with Apple’s muddied definition of MVC it is not *view controller* code either. It’s view code, and belongs in a subclass of `UIView`.
+All the code above - literally all of it - is *view* code, and needs to be treated as such. It is not controller code, and even with Apple’s muddied definition of MVC it is not *view controller* code either. It’s view code, and belongs in a subclass of `UIView`.
 
 This change is trivial to make: you copy all that code, paste it into a new subclass of `UIView` called `SharePromptView`, then change the class of your view controller to your new subclass. 
 

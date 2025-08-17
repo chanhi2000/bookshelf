@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Vision - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/vision",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image",
-  "desc": "The Vision framework has built-in support for detecting text in images, although realistically it’s limited to printed text in clear fonts – don’t expect to be able to throw raw handwriting at it and get useful results....",
+  "desc": "The Vision framework has built-in support for detecting text in images, although realistically it’s limited to printed text in clear fonts - don’t expect to be able to throw raw handwriting at it and get useful results....",
   "link": "/hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

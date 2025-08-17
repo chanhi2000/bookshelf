@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -64,7 +64,7 @@ func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo
 }
 ```
 
-Previously we've had very simple selectors, like `#selector(shareTapped)`. And we can use that approach here – Swift allows us to be really vague about the selector we intend to call, and this works just fine:
+Previously we've had very simple selectors, like `#selector(shareTapped)`. And we can use that approach here - Swift allows us to be really vague about the selector we intend to call, and this works just fine:
 
 ```swift
 #selector(image)
@@ -90,7 +90,7 @@ Putting it all together, here's the finished `save()` method:
 
 From here on it's easy, because we just need to write the `didFinishSavingWithError` method. This must show one of two messages depending on whether we get an error sent to us. The error might be, for example, that the user denied us permission to write to the photo album. This will be sent as an `Error?` object, so if it's `nil` we know there was no error.
 
-This parameter is important because if an error has occurred (i.e., the `error` parameter is not `nil`) then we need to unwrap the `Error` object and use its `localizedDescription` property – this will tell users what the error message was in their own language.
+This parameter is important because if an error has occurred (i.e., the `error` parameter is not `nil`) then we need to unwrap the `Error` object and use its `localizedDescription` property - this will tell users what the error message was in their own language.
 
 ```swift
 @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {

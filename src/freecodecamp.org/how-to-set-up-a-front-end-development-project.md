@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Tutorial – How to Set Up a Front End Development Project"
-description: "Article(s) > JavaScript Tutorial – How to Set Up a Front End Development Project"
+title: "JavaScript Tutorial - How to Set Up a Front End Development Project"
+description: "Article(s) > JavaScript Tutorial - How to Set Up a Front End Development Project"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Tutorial – How to Set Up a Front End Development Project"
+      content: "Article(s) > JavaScript Tutorial - How to Set Up a Front End Development Project"
     - property: og:description
-      content: "JavaScript Tutorial – How to Set Up a Front End Development Project"
+      content: "JavaScript Tutorial - How to Set Up a Front End Development Project"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-a-front-end-development-project.html
 prev: /programming/js-node/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739318785959/23632d3
 ---
 
 <SiteInfo
-  name="JavaScript Tutorial – How to Set Up a Front End Development Project"
+  name="JavaScript Tutorial - How to Set Up a Front End Development Project"
   desc="Let’s say you plan to build a website. Before you start, you want to set up a few tools to make your life easier. But which tools should you have? The JavaScript ecosystem is changing so fast that it can be overwhelming to pick the best tools to use...."
   url="https://freecodecamp.org/news/how-to-set-up-a-front-end-development-project"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -129,7 +129,7 @@ There are many more options, of course. If you want to dig deeper, check out [<F
 
 Before we get to the second must-have extension, we need to set up a few other things. First, we need to talk about Node.js. What is Node, and why do you need it even if you work as a front-end developer?
 
-Node is often associated with backend development, but that's not its only job. Node is a JavaScript runtime – this means it runs JavaScript files outside of the browser.
+Node is often associated with backend development, but that's not its only job. Node is a JavaScript runtime - this means it runs JavaScript files outside of the browser.
 
 ![You can run JavaScript as part of a website in your browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1738949060189/11f39633-76a1-4c38-92ef-88846ffdeb8f.png)
 
@@ -174,7 +174,7 @@ Now that we have Node, we can use a live server to see our site live in the brow
 These tools are called bundlers because they take all your files and turn them into a neat package you can run in the browser. So why do you need them?
 
 - They update your site live in the browser with hot reloading. When you save a file, you immediately see the result in your browser.
-- As web development tools have evolved, the browser won't understand your files when you use anything more advanced. For instance, are you using React? Then, you're using the JSX syntax – the one that looks like HTML. The JSX syntax is not part of JavaScript. You need a tool to convert it into plain JavaScript. Otherwise, it won't run in your browser. Or are you using TypeScript? You also need to turn that into JavaScript. Or, if you're using SCSS or any other CSS dialect, you need to convert it to plain CSS.
+- As web development tools have evolved, the browser won't understand your files when you use anything more advanced. For instance, are you using React? Then, you're using the JSX syntax - the one that looks like HTML. The JSX syntax is not part of JavaScript. You need a tool to convert it into plain JavaScript. Otherwise, it won't run in your browser. Or are you using TypeScript? You also need to turn that into JavaScript. Or, if you're using SCSS or any other CSS dialect, you need to convert it to plain CSS.
 - If you import libraries using the JavaScript module system, you need a live server to avoid CORS issues in your browser.
 
 This is what bundlers do. They make sure that you can use modern-day tooling while you're developing your application, and they can also create a final production build that you can publish on the internet.
@@ -410,7 +410,7 @@ What happens once you finish developing your app? How do you upload it to the we
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JavaScript Tutorial – How to Set Up a Front End Development Project",
+  "title": "JavaScript Tutorial - How to Set Up a Front End Development Project",
   "desc": "Let’s say you plan to build a website. Before you start, you want to set up a few tools to make your life easier. But which tools should you have? The JavaScript ecosystem is changing so fast that it can be overwhelming to pick the best tools to use....",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-a-front-end-development-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -133,7 +133,7 @@ Microcopy helps establish and reinforce that voice.
 
 ### It Motivates Action (Hello, Conversions!)
 
-The right words can be incredibly persuasive. For instance, "Start Your Free Trial" is good. "Start Your 14-Day Free Trial – No Credit Card Required!" is even better because it addresses potential objections upfront.
+The right words can be incredibly persuasive. For instance, "Start Your Free Trial" is good. "Start Your 14-Day Free Trial - No Credit Card Required!" is even better because it addresses potential objections upfront.
 
 ### It Can Delight and Surprise
 
@@ -301,7 +301,7 @@ Here are a few everyday examples and how minor tweaks make a significant impact:
 
 ## Wrapping Up
 
-Microcopy isn't an afterthought – it’s an integral part of the design process.
+Microcopy isn't an afterthought - it’s an integral part of the design process.
 
 It is everyone’s job. Designers, writers, engineers, and even product managers are all part of the microcopy puzzle.
 

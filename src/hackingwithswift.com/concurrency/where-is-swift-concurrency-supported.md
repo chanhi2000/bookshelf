@@ -58,11 +58,11 @@ However, if you’re building your code using Xcode 13.2 or later you can back d
 
 ::: important
 
-This backwards compatibility applies only to Swift language features, not to any APIs built using those language features. This means you can write your own code to use async/await, actors, and so on, but you won’t automatically gain access to the new Foundation APIs using those – things like the new `URLSession` APIs that use async/await still require iOS 15.
+This backwards compatibility applies only to Swift language features, not to any APIs built using those language features. This means you can write your own code to use async/await, actors, and so on, but you won’t automatically gain access to the new Foundation APIs using those - things like the new `URLSession` APIs that use async/await still require iOS 15.
 
 :::
 
-If you are keen to use the newer APIs in your project while also preserving backwards compatibility for older OS releases, your best bet is to add a runtime version check for iOS 15 then wrap the older APIs with continuations. This kind of hybrid solution allows you to keep using async/await elsewhere in your project – you get all the benefits of concurrency for the vast majority of your code, while keeping your backwards deployment shims neatly organized in one place so they can be removed in a year or two.
+If you are keen to use the newer APIs in your project while also preserving backwards compatibility for older OS releases, your best bet is to add a runtime version check for iOS 15 then wrap the older APIs with continuations. This kind of hybrid solution allows you to keep using async/await elsewhere in your project - you get all the benefits of concurrency for the vast majority of your code, while keeping your backwards deployment shims neatly organized in one place so they can be removed in a year or two.
 
 ::: details Similar solutions…
 

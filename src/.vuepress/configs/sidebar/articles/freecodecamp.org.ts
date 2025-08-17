@@ -34,7 +34,7 @@ const DEVOPS_WITH_GITLAB_CI_COURSE: SidebarInfoSubgroupTemplate = { // 2022-03-0
 }
 
 const COMMAND_LINE_FOR_BEGINNERS: SidebarInfoSubgroupTemplate = { // 2022-04-06
-  text: 'Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]',
+  text: 'Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]',
   collapsible: true,
   icon: 'iconfont icon-shell',
   subPath: 'command-line-for-beginners',
@@ -44,7 +44,7 @@ const COMMAND_LINE_FOR_BEGINNERS: SidebarInfoSubgroupTemplate = { // 2022-04-06
 }
 
 const THE_DEFINITIVE_GUIDE_TO_GIT_MERGE: SidebarInfoSubgroupTemplate = { // 2023-04-28
-  text: 'The Git Merge Handbook – Definitive Guide to Merging',
+  text: 'The Git Merge Handbook - Definitive Guide to Merging',
   collapsible: true,
   icon: 'iconfont icon-git',
   subPath: 'the-definitive-guide-to-git-merge',
@@ -64,7 +64,7 @@ const THE_DEFINITIVE_GUIDE_TO_GIT_MERGE: SidebarInfoSubgroupTemplate = { // 2023
 }
 
 const GIT_REBASE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2023-07-03
-  text: 'The Git Rebase Handbook – A Definitive Guide to Rebasing',
+  text: 'The Git Rebase Handbook - A Definitive Guide to Rebasing',
   collapsible: true,
   icon: 'iconfont icon-git',
   subPath: 'git-rebase-handbook',
@@ -82,7 +82,7 @@ const GIT_REBASE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2023-07-03
 }
 
 const A_BEGINNERS_GUIDE_TO_SQL: SidebarInfoSubgroupTemplate = { // 2023-09-05
-  text: 'The SQL Handbook – A Free Course for Web Developers',
+  text: 'The SQL Handbook - A Free Course for Web Developers',
   collapsible: true,
   icon: 'fas fa-database',
   subPath: 'a-beginners-guide-to-sql',
@@ -103,7 +103,7 @@ const A_BEGINNERS_GUIDE_TO_SQL: SidebarInfoSubgroupTemplate = { // 2023-09-05
 }
 
 const GO_BEGINNERS_HANDBOOK: SidebarInfoSubgroupTemplate = {  // 2022-10-19
-  text: 'The Go Handbook – Learn Golang for Beginners',
+  text: 'The Go Handbook - Learn Golang for Beginners',
   collapsible: true,
   icon: 'fa-brands fa-golang',
   subPath: 'go-beginners-handbook',
@@ -149,7 +149,7 @@ const GET_STARTED_WITH_QUARKUS_AND_JPASTREAMER_2: SidebarInfoSubgroupTemplate = 
 }
 
 const GITTING_THINGS_DONE_BOOK: SidebarInfoSubgroupTemplate = { // 2024-01-08
-  text: 'Gitting Things Done – A Visual and Practical Guide to Git [Full Book]',
+  text: 'Gitting Things Done - A Visual and Practical Guide to Git [Full Book]',
   collapsible: true,
   icon: 'iconfont icon-git',
   subPath: 'gitting-things-done-book',
@@ -165,7 +165,7 @@ const GITTING_THINGS_DONE_BOOK: SidebarInfoSubgroupTemplate = { // 2024-01-08
 }
 
 const HOW_TO_CREATE_A_GREAT_PERSONAL_PORTFOLIO_PAGE_A_STEP_BY_STEP_GUIDE: SidebarInfoSubgroupTemplate = { // 2024-03-23
-  text: 'How to Create a Great Personal Portfolio Page – a Handbook for Beginners',
+  text: 'How to Create a Great Personal Portfolio Page - a Handbook for Beginners',
   collapsible: true,
   icon: 'fas fa-user-tie',
   subPath: 'how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide',
@@ -215,7 +215,7 @@ const HOW_TO_CREATE_AN_INTERACTIVE_TERMINAL_PORTFOLIO_WEBSITE: SidebarInfoSubgro
 }
 
 const EMPIRE_STATE_BUILDING_RUN_UP_ANALYSIS_WITH_PYTHON: SidebarInfoSubgroupTemplate = { // 2024-05-09
-  text: "Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  text: "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   collapsible: true,
   icon: 'iconfont icon-pandas',
   subPath: 'empire-state-building-run-up-analysis-with-python',
@@ -230,7 +230,7 @@ const EMPIRE_STATE_BUILDING_RUN_UP_ANALYSIS_WITH_PYTHON: SidebarInfoSubgroupTemp
 }
 
 const JS_INTERVIEW_PREP_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-05-22
-  text: 'The JavaScript Interview Prep Handbook – Essential Topics to Know + Code Examples',
+  text: 'The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples',
   collapsible: true,
   icon: 'fa-brands fa-js',
   subPath: 'js-interview-prep-handbook',
@@ -278,7 +278,7 @@ const BUILD_AND_DEPLOY_SMART_CONTRACT_RUST_GEAR_PROTOCOL: SidebarInfoSubgroupTem
 }
 
 const APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK: SidebarInfoSubgroupTemplate = { // 2024-06-04
-  text: 'Applied Data Science with Python – Business Intelligence for Developers [Full Book]',
+  text: 'Applied Data Science with Python - Business Intelligence for Developers [Full Book]',
   collapsible: true,
   icon: 'fa-brands fa-python',
   subPath: 'applied-data-science-with-python-book',
@@ -296,7 +296,7 @@ const APPLIED_DATA_SCIENCE_WITH_PYTHON_BOOK: SidebarInfoSubgroupTemplate = { // 
 }
 
 const HOW_DATA_FLOWS_IN_REDUX: SidebarInfoSubgroupTemplate = { // 2024-06-04
-  text: 'Data Flow in Redux Explained – A State Management Handbook',
+  text: 'Data Flow in Redux Explained - A State Management Handbook',
   collapsible: true,
   icon: 'fa-brands fa-react',
   subPath: 'how-data-flows-in-redux',
@@ -307,7 +307,7 @@ const HOW_DATA_FLOWS_IN_REDUX: SidebarInfoSubgroupTemplate = { // 2024-06-04
 }
 
 const HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-09-10
-  text: 'How AI Agents Can Help Supercharge Language Models – A Handbook for Developers',
+  text: 'How AI Agents Can Help Supercharge Language Models - A Handbook for Developers',
   collapsible: true,
   icon: 'fas fa-language',
   subPath: 'how-ai-agents-can-supercharge-language-models-handbook',
@@ -327,7 +327,7 @@ const HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK: SidebarInfoSubgrou
 }
 
 const WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-10-02
-  text: 'How to Work with SQLite in Python – A Handbook for Beginners',
+  text: 'How to Work with SQLite in Python - A Handbook for Beginners',
   collapsible: true,
   icon: 'fa-brands fa-python',
   subPath: 'work-with-sqlite-in-python-handbook',
@@ -347,7 +347,7 @@ const WORK_WITH_SQLITE_IN_PYTHON_HANDBOOK: SidebarInfoSubgroupTemplate = { // 20
 }
 
 const LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES: SidebarInfoSubgroupTemplate = { // 2024-10-02
-  text: 'Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples',
+  text: 'Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples',
   collapsible: true,
   icon: 'fa-brands fa-js',
   subPath: 'learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples', 
@@ -366,7 +366,7 @@ const LEARN_HTTP_METHODS_LIKE_GET_POST_AND_DELETE_A_HANDBOOK_WITH_CODE_EXAMPLES:
 }
 
 const REACT_INTERVIEW_PREP_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-10-11
-  text: 'The React Interview Prep Handbook – Essential Topics and Code Examples',
+  text: 'The React Interview Prep Handbook - Essential Topics and Code Examples',
   collapsible: true,
   icon: 'fa-brands fa-react',
   subPath: 'react-interview-prep-handbook',
@@ -404,7 +404,7 @@ const LEARN_PYTHON_FOR_JAVASCRIPT_DEVELOPERS_HANDBOOK: SidebarInfoSubgroupTempla
 }
 
 const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfoSubgroupTemplate = { // 2024-11-29
-  text: 'The Microservices Book – Learn How to Build and Manage Services in the Cloud',
+  text: 'The Microservices Book - Learn How to Build and Manage Services in the Cloud',
   collapsible: true,
   icon: 'fa-brands fa-node',
   subPath: 'the-microservices-book-build-and-manage-services-in-the-cloud',
@@ -432,7 +432,7 @@ const THE_MICROSERVICES_BOOK_BUILD_AND_MANAGE_SERVICES_IN_THE_CLOUD: SidebarInfo
 }
 
 const CREATE_A_MINIMAL_API_IN_NET_CORE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-12-03
-  text: 'How to Create a Minimal API in .NET Core – A Step By Step Handbook',
+  text: 'How to Create a Minimal API in .NET Core - A Step By Step Handbook',
   collapsible: true,
   icon: 'iconfont icon-csharp',
   subPath: 'create-a-minimal-api-in-net-core-handbook',
@@ -474,7 +474,7 @@ const AI_IN_AGRICULTURE_BOOK: SidebarInfoSubgroupTemplate = { // 2025-01-15
 }
 
 const THE_AI_ENGINEERING_HANDBOOK_HOW_TO_START_A_CAREER_AND_EXCEL_AS_AN_AI_ENGINEER: SidebarInfoSubgroupTemplate = { // 2025-01-16
-  text: 'The AI Engineering Handbook – How to Start a Career and Excel as an AI Engineer',
+  text: 'The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer',
   collapsible: true,
   icon: 'fas fa-user-tie',
   subPath: 'the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer',
@@ -548,7 +548,7 @@ const HOW_TO_BUILD_SCALABLE_ACCESS_CONTROL_FOR_YOUR_WEB_APP: SidebarInfoSubgroup
 }
 
 const CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-06
-  text: 'Learn Clustering in Python – A Machine Learning Engineering Handbook',
+  text: 'Learn Clustering in Python - A Machine Learning Engineering Handbook',
   collapsible: true,
   icon: 'fa-brands fa-python',
   subPath: 'clustering-in-python-a-machine-learning-handbook',
@@ -569,7 +569,7 @@ const CLUSTERING_IN_PYTHON_A_MACHINE_LEARNING_HANDBOOK: SidebarInfoSubgroupTempl
 }
 
 const LEARN_TYPESCRIPT_WITH_REACT_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-08
-  text: 'Learn TypeScript – A Handbook for Developers',
+  text: 'Learn TypeScript - A Handbook for Developers',
   collapsible: true,
   icon: 'iconfont icon-tyepscript',
   subPath: 'learn-typescript-with-react-handbook',
@@ -609,7 +609,7 @@ const HOW_TO_CREATE_AN_NPM_LIBRARY: SidebarInfoSubgroupTemplate = { // 2025-02-0
 }
 
 const HOW_TO_USE_CLASSES_IN_JAVASCRIPT_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-02-18
-  text: 'How to Use Classes in JavaScript – A Handbook for Beginners',
+  text: 'How to Use Classes in JavaScript - A Handbook for Beginners',
   collapsible: true,
   icon: 'fa-brands fa-js',
   subPath: 'how-to-use-classes-in-javascript-handbook',
@@ -661,7 +661,7 @@ const HOW_TO_BUILD_A_SOCIAL_LEARNING_PLATFORM_USING_NEXTJS_STREAM_AND_SUPABASE: 
 }
 
 const BECOME_A_FULL_STACK_DEVELOPER_AND_GET_A_JOB: SidebarInfoSubgroupTemplate = { // 2025-03-04
-  text: 'How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners',
+  text: 'How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners',
   collapsible: true,
   icon: 'fas fa-user-tie',
   subPath: 'become-a-full-stack-developer-and-get-a-job',
@@ -849,7 +849,7 @@ const HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS: SidebarIn
 }
 
 const ORACLE_ERP_TEST_AUTOMATION_GUIDE: SidebarInfoSubgroupTemplate = { // 2025-05-01
-  text: 'Oracle ERP Test Automation Guide – Examples and Best Practices',
+  text: 'Oracle ERP Test Automation Guide - Examples and Best Practices',
   collapsible: true,
   icon: 'fa-brands fa-java',
   subPath: 'oracle-erp-test-automation-guide',
@@ -864,7 +864,7 @@ const ORACLE_ERP_TEST_AUTOMATION_GUIDE: SidebarInfoSubgroupTemplate = { // 2025-
 }
 
 const HOW_IPV4_WORKS_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-05-01
-  text: 'How IPv4 Works – A Handbook for Developers',
+  text: 'How IPv4 Works - A Handbook for Developers',
   collapsible: true,
   icon: 'fas fa-computer',
   subPath: 'how-ipv4-works-a-handbook-for-developers',
@@ -882,7 +882,7 @@ const HOW_IPV4_WORKS_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { 
 }
 
 const LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES: SidebarInfoSubgroupTemplate = { // 2025-05-03
-  text: 'Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses',
+  text: 'Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses',
   collapsible: true,
   icon: 'iconfont icon-k8s',
   subPath: 'learn-kubernetes-handbook-devs-startups-businesses',
@@ -900,7 +900,7 @@ const LEARN_KUBERNETES_HANDBOOK_DEVS_STARTUPS_BUSINESSES: SidebarInfoSubgroupTem
 }
 
 const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-05-07
-  text: 'The Front-End Performance Optimization Handbook – Tips and Strategies for Devs',
+  text: 'The Front-End Performance Optimization Handbook - Tips and Strategies for Devs',
   collapsible: true,
   icon: 'fa-brands fa-node',
   subPath: 'the-front-end-performance-optimization-handbook',
@@ -934,7 +934,7 @@ const THE_FRONT_END_PERFORMANCE_OPTIMIZATION_HANDBOOK: SidebarInfoSubgroupTempla
 }
 
 const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoSubgroupTemplate = { // 2025-05-12
-  text: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  text: "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   collapsible: true,
   icon: 'iconfont icon-mermaid',
   subPath: 'how-to-become-an-analytical-programmer-compare-five-projects',
@@ -950,7 +950,7 @@ const HOW_TO_BECOME_AN_ANALYTICAL_PROGRAMMER_COMPARE_FIVE_PROJECTS: SidebarInfoS
 }
 
 const LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER: SidebarInfoSubgroupTemplate = { // 2025-05-15
-  text: "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  text: "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   collapsible: true,
   icon: 'iconfont icon-microsoftazure',
   subPath: 'load-balancing-with-azure-application-gateway-and-azure-load-balancer',
@@ -1086,7 +1086,7 @@ const GET_LINUX_SYSTEM_INFO_THROUGH_CLI: SidebarInfoSubgroupTemplate = { // 2025
 }
 
 const THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES: SidebarInfoSubgroupTemplate = { // 2025-06-14
-  text: "The NestJS Handbook – Learn to Use Nest with Code Examples",
+  text: "The NestJS Handbook - Learn to Use Nest with Code Examples",
   collapsible: true,
   icon: 'iconfont icon-nestjs',
   subPath: 'the-nestjs-handbook-learn-to-use-nest-with-code-examples',
@@ -1163,7 +1163,7 @@ const KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate
 }
 
 const LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS: SidebarInfoSubgroupTemplate = { // 2025-06-24
-  text: "Learn Embedded Systems Firmware Basics – A Handbook for Developers",
+  text: "Learn Embedded Systems Firmware Basics - A Handbook for Developers",
   collapsible: true,
   icon: 'iconfont icon-c',
   subPath: 'learn-embedded-systems-firmware-basics-handbook-for-devs',
@@ -1174,7 +1174,7 @@ const LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS: SidebarInfoSubgr
 }
 
 const HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubgroupTemplate = { // 2025-06-26
-  text: "How to Build a Custom MCP Server with TypeScript – A Handbook for Developers",
+  text: "How to Build a Custom MCP Server with TypeScript - A Handbook for Developers",
   collapsible: true,
   icon: 'iconfont icon-typescript',
   subPath: 'how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers',
@@ -1240,7 +1240,7 @@ const HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DE
 }
 
 const SHARED_STATE_COMPLEXITY_IN_REACT_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-08-01
-  text: "Shared State Complexity in React – A Complete Handbook for Developers",
+  text: "Shared State Complexity in React - A Complete Handbook for Developers",
   collapsible: true,
   icon: 'fa-brands fa-react',
   subPath: 'shared-state-complexity-in-react-handbook',
@@ -1305,11 +1305,49 @@ const HOW_TO_DESIGN_STRUCTURED_DATABASE_SYSTEMS_USING_SQL_FULL_BOOK: SidebarInfo
   ]
 }
 
+const HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE: SidebarInfoSubgroupTemplate = { // 2025-08-14
+  text: "How to Build a Machine Learning System on Serverless Architecture",
+  collapsible: true,
+  icon: 'fas fa-pen-ruler',
+  subPath: 'how-to-build-a-machine-learning-system-on-serverless-architecture', 
+  children: [
+    'README',
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-debug-kubernetes-pods-with-traceloop-a-complete-beginners-guide", // 2025-08-30
+    "how-to-build-a-snake-game-using-phaserjs", // 2025-08-30
+    "how-to-build-your-ai-demos-with-gradio", // 2025-08-28
+    "create-3d-web-experiences-with-javascript-and-threejs", // 2025-08-28
+    "caching-a-nextjs-api-using-redis-and-sevalla", // 2025-08-28
+    "how-to-handle-permissions-in-flutter-for-beginners", // 2025-08-28
+    "prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass", // 2025-08-27
+    "use-arduinos-for-computer-vision", // 2205-08-27
+    "how-to-build-micro-frontends-in-react-with-vite-and-module-federation", // 2025-08-27
+    HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
+    "how-to-build-an-advice-generator-chrome-extension-with-manifest-v3", // 2025-08-26
+    "how-webgl-and-threejs-power-interactive-online-stores", // 2025-08-26
+    "how-bag-of-words-works", // 2025-08-25
+    "how-to-deploy-a-kubernetes-app-on-aws-eks", // 2025-08-22
+    "how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios", // 2025-08-22
+    "how-to-set-up-firebase-crashlytics-in-a-flutter-app-ios-and-android", // 2025-08-21
+    "how-to-build-a-tic-tac-toe-game-with-phaserjs", // 2025-08-21
+    "how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions", // 2025-08-21
+    "learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery", // 2025-08-21
+    "a-brief-introduction-to-ruby", // 2025-08-21
+    "building-an-ai-powered-e-commerce-chat-assistant-with-mongodb", // 2025-08-20
+    "what-are-dtos-java", // 2025-08-20
+    "how-to-convert-your-website-into-an-android-app-using-bubblewrap", // 2025-08-20
+    "how-to-assign-unique-ids-to-express-api-requests-for-tracing", // 2025-08-20
+    "code-and-train-qwen3-from-scratch", // 2025-08-19
+    "create-a-real-time-gesture-to-text-translator", // 2025-08-18
+    "how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla", // 2025-08-18
+    "how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc", // 2025-08-18
     "deep-reinforcement-learning-in-natural-language-understanding", // 2025-08-16
     "github-cli-wsl2-guide", // 2025-08-15
     "how-ai-is-changing-the-way-we-code", // 2025-08-15
@@ -2448,6 +2486,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024java-spring
       "best-choice-openfeign-or-webclient", // 2025-06-06
       "spring-vs-spring-boot-choosing-a-java-framework", // 2025-07-22
+      "what-are-dtos-java", // 2025-08-20
       // END: 2025java-spring
       // END: java-spring
     ]],[
@@ -2458,6 +2497,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024java-android
       "master-kotlin-and-android-60-hour-course", // 2025-05-14
       "how-to-audit-android-accessibility-with-the-accessibility-scanner-app", // 2025-07-01
+      "how-to-convert-your-website-into-an-android-app-using-bubblewrap", // 2025-08-20
       // END: 2025java-android
       // END: java-android
     ]],[
@@ -2588,6 +2628,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-word-search-game-using-html-css-and-javascript", // 2025-07-15
       "how-to-implement-zero-trust-authentication-in-your-web-apps", // 2025-08-07
       "choose-the-right-language-js-vs-c-sharp", // 2025-08-07
+      "how-to-build-a-tic-tac-toe-game-with-phaserjs", // 2025-08-21
       // END: 2025js
       // END: js
     ]],[
@@ -2695,6 +2736,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-langgraph-composio-powered-discord-bot", // 2025-06-25
       "javascript-frameworks-for-game-developers", // 2025-07-01
       "how-to-deploy-a-nextjs-blog-on-sevalla", // 2025-07-10
+      "how-to-convert-your-website-into-an-android-app-using-bubblewrap", // 2025-08-20
       // END: 2025js-node
       // END: js-node
     ]],[
@@ -2823,6 +2865,9 @@ export const template: SidebarInfoTemplate = {
       SHARED_STATE_COMPLEXITY_IN_REACT_HANDBOOK, // 2025-08-01
       "learn-react-and-tailwind-css-for-front-end-development", // 2025-08-04
       "how-ai-is-changing-the-way-we-code", // 2025-08-15
+      "building-an-ai-powered-e-commerce-chat-assistant-with-mongodb", // 2025-08-20
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
+      "how-to-build-micro-frontends-in-react-with-vite-and-module-federation", // 2025-08-27
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -2879,6 +2924,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-a-nextjs-api-to-production-using-sevalla", // 2025-08-02
       THE_NEXTJS_15_STREAMING_HANDBOOK, // 2025-08-07
       "learn-nextjs-15-caching-and-rendering", // 2025-08-14
+      "how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla", // 2025-08-18
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -2899,6 +2945,7 @@ export const template: SidebarInfoTemplate = {
       "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
+      "how-to-assign-unique-ids-to-express-api-requests-for-tracing", // 2025-08-20
       // END: 2025js-express
       // END: js-express
     ]],[
@@ -2951,6 +2998,8 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_REALTIME_CHAT_APP_WITH_ANGULAR_20_AND_SUPABASE, // 2025-06-17
       "build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile", // 2025-06-21
       "how-to-build-database-seed-scripts-for-your-node-application", // 2025-07-29
+      "how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions", // 2025-08-21
+      "how-to-set-up-firebase-crashlytics-in-a-flutter-app-ios-and-android", // 2025-08-21
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -2964,13 +3013,6 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-n8n
       // END: js-n8n
     ]],[
-    "js-graphql", [
-      // END: 2024js-graphql
-      "learn-api-fundamentals-and-architecture", // 2025-03-22
-      "how-to-build-a-graphql-api-in-django", // 2025-04-16
-      // END: 2025js-graphql
-      // END: js-graphql
-    ]],[
     "js-d3", [
       "learn-data-visualization-in-this-free-17-hour-course", // 2021-02-23
       // END: js-2021d3
@@ -2980,6 +3022,12 @@ export const template: SidebarInfoTemplate = {
       "learn-interactive-data-visualization-with-svelte-and-d3", // 2025-07-17
       // END: js-2025d3
       // END: js-d3
+    ]],[
+    "js-three", [
+      "how-webgl-and-threejs-power-interactive-online-stores", // 2025-08-26
+      "create-3d-web-experiences-with-javascript-and-threejs", // 2025-08-28
+      // END: 2025js-three
+      // END: js-three
     ]],[
     "js-mermaid", [
       "diagrams-as-code-with-mermaid-github-and-vs-code", // 2023-09-07
@@ -3172,6 +3220,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide", // 2025-08-09
       "how-ai-is-changing-the-way-we-code", // 2025-08-15
       "deep-reinforcement-learning-in-natural-language-understanding", // 2025-08-16
+      "how-bag-of-words-works", // 2025-08-25
       // END: 2025py
       // END: py
     ]],[
@@ -3210,6 +3259,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024py-flask
       "create-a-basic-cicd-pipeline-with-webhooks-on-linux", // 2025-01-29
       "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025py-flask
       // END: py-flask
     ]],[
@@ -3224,6 +3274,8 @@ export const template: SidebarInfoTemplate = {
       "learn-python-for-data-science-full-course", // 2025-05-30
       "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       "learn-time-series-forecasting-in-python", // 2025-08-08
+      "create-a-real-time-gesture-to-text-translator", // 2025-08-18
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025py-numpy
       // END: py-numpy
     ]],[
@@ -3240,6 +3292,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024py-torch
       "learn-pytorch-in-five-projects", // 2025-03-07
       "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025py-torch
       // END: py-torch
     ]],[
@@ -3254,6 +3307,8 @@ export const template: SidebarInfoTemplate = {
       "learn-mlops-by-creating-a-youtube-sentiment-analyzer", // 2205-06-15
       "transform-json-data-schema", // 2025-07-10
       "learn-time-series-forecasting-in-python", // 2025-08-08
+      "create-a-real-time-gesture-to-text-translator", // 2025-08-18
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -3271,6 +3326,18 @@ export const template: SidebarInfoTemplate = {
       "implement-vgg-from-scratch-with-pytorch-deep-learning-theory", // 2025-07-22
       // END: 2025py-matplotlib
       // END: py-matplotlib
+    ]],[
+    "py-opencv", [
+      // END: 2024py-opencv
+      "create-a-real-time-gesture-to-text-translator", // 2025-08-18
+      "use-arduinos-for-computer-vision", // 2205-08-27
+      // END: 2025py-opencv
+      // END: py-opencv
+    ]],[
+    "py-gradio", [
+      "how-to-build-your-ai-demos-with-gradio", // 2025-08-28
+      // END: 2025py-gradio
+      // END: py-gradio
     ]],[
     "dart", [
       // END: 2023dart
@@ -3295,6 +3362,11 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_INTEGRATE_FIREBASE_INTO_YOUR_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVELOPERS, // 2025-07-25
       "how-to-push-silent-updates-in-flutter-using-shorebird", // 2025-08-02
       "how-to-replicate-figma-designs-in-flutter", // 2025-08-08
+      "how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc", // 2025-08-18
+      "how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions", // 2025-08-21
+      "how-to-set-up-firebase-crashlytics-in-a-flutter-app-ios-and-android", // 2025-08-21
+      "how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios", // 2025-08-22
+      "how-to-handle-permissions-in-flutter-for-beginners", // 2025-08-28
       // END: 2025dart
       // END: dart
     ]],[
@@ -3467,6 +3539,11 @@ export const template: SidebarInfoTemplate = {
       "what-wordpress-development-looks-like-in-the-age-of-ai", // 2025-08-13
       // END: 2025php-wordpress
       // END: php-wordpress
+    ]],[
+    "rb", [
+      "a-brief-introduction-to-ruby", // 2025-08-21
+      // END: 2025rb
+      // END: rb
     ]],[
     "elixir", [
       "an-animated-introduction-to-elixir", // 2025-05-23
@@ -3641,6 +3718,8 @@ export const template: SidebarInfoTemplate = {
       "deploy-to-vercel-with-github-actions", // 2025-06-11
       "protect-github-repos-from-malicious-clones", // 2025-07-17
       "github-cli-wsl2-guide", // 2025-08-15
+      "how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions", // 2025-08-21
+      "how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios", // 2025-08-22
       // END: 2025github
       // END: github
     ]],[
@@ -3700,6 +3779,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025proxmox
       // END: proxmox
     ]],[
+    "virtualbox", [
+      // END: 2024virtualbox
+      // END: 2025virtualbox
+      // END: virtualbox
+    ]],[
     "docker", [
       "how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail", // 2021-02-10
       // END: 2021docker
@@ -3737,6 +3821,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_PRODUCTION_READY_DEVOPS_PIPELINE_WITH_FREE_TOOLS, // 2025-04-29
       "build-slim-fast-docker-images-with-multi-stage-builds", // 2025-05-15
       HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025docker
       // END: docker
     ]],[
@@ -3759,8 +3844,15 @@ export const template: SidebarInfoTemplate = {
       FROM_COMMIT_TO_PRODUCTION_HANDS_ON_GITOPS_PROMOTION_WITH_GITHUB_ACTIONS_ARGO_CD_HELM_AND_KARGO, // 2025-06-06
       HOW_TO_DEBUG_CICD_PIPELINES_HANDBOOK, // 2025-06-17
       KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS, // 2025-06-24
+      "how-to-deploy-a-kubernetes-app-on-aws-eks", // 2025-08-22
       // END: 2025k8s
       // END: k8s
+    ]],[
+    "vagrant", [
+      "build-a-private-hacking-lab-with-virtualbox", // 2024-10-25
+      // END: 2024vagrant
+      // END: 2025vagrant
+      // END: vagrant
     ]],[
     "aws", [
       "ultimate-guide-to-aws-amplify-and-reacxt", // 2020-11-10
@@ -3814,6 +3906,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb", // 2025-07-18
       "how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload", // 2025-07-31
       "learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock", // 2025-08-01
+      "how-to-deploy-a-kubernetes-app-on-aws-eks", // 2025-08-22
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025aws
       // END: aws
     ]],[
@@ -3842,6 +3936,7 @@ export const template: SidebarInfoTemplate = {
       "beginners-guide-to-cloud-data-analytics", // 2025-06-17
       "beginners-guide-to-cloud-cybersecurity", // 2025-07-02
       "pass-the-google-cloud-associate-cloud-engineer-exam", // 2025-08-08
+      "prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass", // 2025-08-27
       // END: 2025gcp
       // END: gcp
     ]],[
@@ -3870,6 +3965,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "sevalla", [
       "how-to-deploy-a-nextjs-api-to-production-using-sevalla", // 2025-08-02
+      "how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla", // 2025-08-18
       // END: 2025sevalla
       // END: sevalla
     ]],[
@@ -4107,7 +4203,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025mysql
       // END: mysql
     ]],[
-    "postgres", [
+    "postgresql", [
       "postgresql-indexing-strategies", // 2023-05-12
       "full-stack-project-create-a-recipe-app-using-react-node-js", // 2023-10-20
       "how-to-run-postgres-in-kubernetes",  // 2024-05-08
@@ -4117,13 +4213,14 @@ export const template: SidebarInfoTemplate = {
       "build-an-invoice-saas-app-with-next-js-and-neon-postgres", // 2024-08-01
       "create-database-documentation-using-dbdocs-with-dbml", // 2024-10-15
       "create-a-full-stack-spotify-clone-with-flutter", // 2024-11-15
-      // END: 2024postgres
+      // END: 2024postgresql
       "how-to-export-your-database-in-django", // 2025-04-22
       "how-to-use-postgresql-in-django", // 2025-04-22
       "deploy-fastapi-postgresql-app-on-render", // 2025-05-23
       HOW_TO_DESIGN_STRUCTURED_DATABASE_SYSTEMS_USING_SQL_FULL_BOOK, // 2025-08-14
-      // END: 2025postgres
-      // END: postgres
+      "how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla", // 2025-08-18
+      // END: 2025postgresql
+      // END: postgresql
     ]],[
     "mongodb", [
       "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26
@@ -4155,6 +4252,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_PRODUCTION_READY_FULL_STACK_APPS_WITH_THE_MERN_STACK, // 2025-07-07
       HOW_TO_BUILD_A_TELEHEALTH_APP_USING_STREAM_VIDEO_AND_CHAT_SDK_IN_REACT, // 2025-07-19
       "how-to-use-mongodb-with-go", // 2025-07-31
+      "building-an-ai-powered-e-commerce-chat-assistant-with-mongodb", // 2025-08-20
       // END: 2025mongodb
       // END: mongodb
     ]],[
@@ -4172,13 +4270,16 @@ export const template: SidebarInfoTemplate = {
       "build-a-flexible-api-with-feature-flags-using-open-source-tools", // 2024-11-20
       // END: 2024redis
       "how-in-memory-caching-works-in-redis", // 2025-07-17
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025redis
       // END: redis
     ]],[
     "graphql", [
       "integrate-wordpress-with-nextjs", // 2024-10-02
       // END: 2024graphql
+      "learn-api-fundamentals-and-architecture", // 2025-03-22
       "how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors", // 2025-03-26
+      "how-to-build-a-graphql-api-in-django", // 2025-04-16
       "an-animated-introduction-to-web-development-from-back-to-front", // 2025-06-26
       // END: graphql
     ]],[
@@ -4233,6 +4334,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025davinci
       // END: davinci
     ]],[
+    "chrome", [
+      "how-to-build-an-advice-generator-chrome-extension-with-manifest-v3", // 2025-08-26
+      // END: 2025chrome
+      // END: chrome
+    ]],[
     "system-design", [
       "develop-a-reusable-ecommerce-platform", // 2020-12-31
       // END: 2020system-design
@@ -4267,6 +4373,8 @@ export const template: SidebarInfoTemplate = {
       "how-microfrontends-work-iframes-to-module-federation", // 2025-05-30
       "how-to-boost-conversions-with-ux-focused-microcopy", // 2025-07-29
       HOW_TO_DESIGN_STRUCTURED_DATABASE_SYSTEMS_USING_SQL_FULL_BOOK, // 2025-08-14
+      "learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery", // 2025-08-21
+      HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -4404,6 +4512,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025langbase
       // END: langbase
     ]],[
+    "langgraph", [
+      "building-an-ai-powered-e-commerce-chat-assistant-with-mongodb", // 2025-08-20
+      // END: 2025langgraph
+      // END: langgraph
+    ]],[
     "deepseek", [
       "how-to-use-deepseek-r1", // 2025-01-28
       "secure-ways-to-access-deepseek-using-third-party-apps", // 2025-02-21
@@ -4417,6 +4530,11 @@ export const template: SidebarInfoTemplate = {
       BUILD_A_TEAM_OF_AI_AGENTS_FOR_YOUR_WEBSITE_FOR_FREE, // 2025-04-01
       // END: 2025groq
       // END: groq
+    ]],[
+    "qwen",[
+      "code-and-train-qwen3-from-scratch", // 2025-08-19
+      // END: 2025qwen
+      // END: qwen
     ]],[
     "vit", [
       "build-a-vision-transformer-from-scratch", // 2025-02-27
@@ -4571,6 +4689,7 @@ export const template: SidebarInfoTemplate = {
       "learn-arduino-in-spanish-course-for-beginners", // 2024-12-05
       // END: 2024arduino
       "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
+      "use-arduinos-for-computer-vision", // 2205-08-27
       // END: 2025arduino
       // END: arduino
     ]],[

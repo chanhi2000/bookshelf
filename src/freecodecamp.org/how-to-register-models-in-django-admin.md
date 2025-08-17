@@ -49,14 +49,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745937579596/e8aed22
 
 <SiteInfo
   name="How to Register Models in Django Admin"
-  desc="When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life. But to manage your data easily – adding, editing, or deleting entries – you need Django’s Admin panel. Now, here..."
+  desc="When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life. But to manage your data easily - adding, editing, or deleting entries - you need Django’s Admin panel. Now, here..."
   url="https://freecodecamp.org/news/how-to-register-models-in-django-admin"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745937579596/e8aed227-b7c3-4bf6-a448-a66782aeea42.png"/>
 
 When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life.
 
-But to manage your data easily – adding, editing, or deleting entries – you need Django’s Admin panel.
+But to manage your data easily - adding, editing, or deleting entries - you need Django’s Admin panel.
 
 Now, here’s the catch: just creating a model isn’t enough. If you want it to show up in the Admin panel, you have to **register** it.
 
@@ -70,7 +70,7 @@ In this guide, I’ll walk you through exactly how to register your models in Dj
 
 Django Admin is like your personal dashboard for the backend of your website. Once you register your models, you can manage your app's content without touching any code.
 
-Imagine being able to add new blog posts, approve users, update product listings – all with a few clicks. That’s the magic of Django Admin.
+Imagine being able to add new blog posts, approve users, update product listings - all with a few clicks. That’s the magic of Django Admin.
 
 Without properly registering your models, you’re stuck managing everything manually, which can get messy real quick.
 
@@ -104,7 +104,7 @@ In this model:
 - `body` is for longer content.
 - `date_created` automatically stores the time when the post is created.
 
-And that `__str__` method? That’s just telling Django how to show each Post in the Admin – it’ll display the post’s title instead of something like `Post object (1)`.
+And that `__str__` method? That’s just telling Django how to show each Post in the Admin - it’ll display the post’s title instead of something like `Post object (1)`.
 
 ::: tip Quick tip
 
@@ -163,7 +163,7 @@ Now:
 
 ::: tip Quick tip
 
-Customizing your Admin improves your workflow *a lot* – especially when you’re managing many entries.
+Customizing your Admin improves your workflow *a lot* - especially when you’re managing many entries.
 
 :::
 
@@ -215,7 +215,7 @@ But honestly, most of the time, you just stop registering it if you don't want i
 
 Registering models in Django Admin might seem like a tiny step, but it has a huge impact on how you work with your data.
 
-It turns your database into a friendly dashboard that anyone can use – even non-technical people.
+It turns your database into a friendly dashboard that anyone can use - even non-technical people.
 
 Once you get comfortable with registering and customising your models, you’ll move faster and feel a lot more in control of your app.
 
@@ -250,7 +250,7 @@ These are great places to go if you want to dive even deeper into Django Admin c
 ```component VPCard
 {
   "title": "How to Register Models in Django Admin",
-  "desc": "When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life. But to manage your data easily – adding, editing, or deleting entries – you need Django’s Admin panel. Now, here...",
+  "desc": "When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life. But to manage your data easily - adding, editing, or deleting entries - you need Django’s Admin panel. Now, here...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-register-models-in-django-admin.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

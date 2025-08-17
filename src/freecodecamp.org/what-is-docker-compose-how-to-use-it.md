@@ -58,7 +58,7 @@ But let's assume you were assigned on a project which requires at least 10 diffe
 
 In such case, you have to pull all those images individually from Docker and start all of them in their containers. At some point, one process may depend on another to run. So, you have to order them.
 
-It would be good if it's a one time process. But, not just once – every day, every time you start working on your project – you have to start all these services.
+It would be good if it's a one time process. But, not just once - every day, every time you start working on your project - you have to start all these services.
 
 That's a tedious process right?
 
@@ -147,7 +147,7 @@ Let's come back to docker-compose.
 
 Docker Compose is a tool you can use to define and share multi-container applications. This means you can run a project with multiple containers using a single source.
 
-For example, assume you're building a project with NodeJS and MongoDB together. You can create a single image that starts both containers as a service – you don't need to start each separately.
+For example, assume you're building a project with NodeJS and MongoDB together. You can create a single image that starts both containers as a service - you don't need to start each separately.
 
 Interesting right? And this solves the problem which I called out at the very beginning of this article.
 
@@ -155,7 +155,7 @@ To achieve this we need to define a <FontIcon icon="iconfont icon-yaml"/>`docker
 
 ### <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file
 
-The compose file is a YML file defining services, networks, and volumes for a Docker container. There are several versions of the compose file format available – 1, 2, 2.x, and 3.x.
+The compose file is a YML file defining services, networks, and volumes for a Docker container. There are several versions of the compose file format available - 1, 2, 2.x, and 3.x.
 
 Before proceeding further, here's a important note to us from the [<FontIcon icon="fa-brands fa-docker"/>Docker Compose team](https://docs.docker.com/compose/).
 

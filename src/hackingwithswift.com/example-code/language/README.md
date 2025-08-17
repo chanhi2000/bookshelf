@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/language",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,7 +60,7 @@ head:
 ```component VPCard
 {
   "title": "Fixing ”Ambiguous reference to member when using ceil or round”",
-  "desc": "If you've ever come across the error message ”No 'ceil' candidates produce the expected contextual result type 'Int'” – which can happen with calls to <code>ceil()</code>, <code>floor()</code>, and <code>round()</code> – it's usually down to Swift being unable to satisfy type requirements you have asked for....",
+  "desc": "If you've ever come across the error message ”No 'ceil' candidates produce the expected contextual result type 'Int'” - which can happen with calls to <code>ceil()</code>, <code>floor()</code>, and <code>round()</code> - it's usually down to Swift being unable to satisfy type requirements you have asked for....",
   "link": "/hackingwithswift.com/example-code/language/fixing-ambiguous-reference-to-member-when-using-ceil-or-round.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -210,7 +210,7 @@ head:
 ```component VPCard
 {
   "title": "How to check your program state using precondition()",
-  "desc": "You should already know that the <code>assert()</code> function lets you check the state of your program at runtime, and crash if things aren’t how they should be. One of the neat features of <code>assert()</code> is that it automatically gets removed when you build your app in release mode, but if you don’t want that to happen – if you want your app to crash if something is seriously wrong – then you should use the <code>precondition()</code> function instead....",
+  "desc": "You should already know that the <code>assert()</code> function lets you check the state of your program at runtime, and crash if things aren’t how they should be. One of the neat features of <code>assert()</code> is that it automatically gets removed when you build your app in release mode, but if you don’t want that to happen - if you want your app to crash if something is seriously wrong - then you should use the <code>precondition()</code> function instead....",
   "link": "/hackingwithswift.com/example-code/language/how-to-check-your-program-state-using-precondition.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -240,7 +240,7 @@ head:
 ```component VPCard
 {
   "title": "How to conform to the Comparable protocol",
-  "desc": "The <code>Comparable</code> protocol allows use to use the <code><</code>, <code>></code>, <code><=</code>, and <code>>=</code> operators with conforming data types, which in turn means that Swift knows how to sort arrays of those types. Most of Swift’s built-in types support <code>Comparable</code> out of the box, but if you want your own type to conform to them then you need to implement <code><</code> – from that Swift can provide default implementations of the other three operators....",
+  "desc": "The <code>Comparable</code> protocol allows use to use the <code><</code>, <code>></code>, <code><=</code>, and <code>>=</code> operators with conforming data types, which in turn means that Swift knows how to sort arrays of those types. Most of Swift’s built-in types support <code>Comparable</code> out of the box, but if you want your own type to conform to them then you need to implement <code><</code> - from that Swift can provide default implementations of the other three operators....",
   "link": "/hackingwithswift.com/example-code/language/how-to-conform-to-the-comparable-protocol.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -300,7 +300,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert a multidimensional array to a single-dimensional array",
-  "desc": "If you have an array of arrays – for example, an array of an array of integers – you can convert it to a single, flat array by using the <code>joined()</code> method. Because Swift sends back an optimized type (<code>FlattenSequence<[[YourType]]></code>, in this case), you might also want to add an array conversion for easier use....",
+  "desc": "If you have an array of arrays - for example, an array of an array of integers - you can convert it to a single, flat array by using the <code>joined()</code> method. Because Swift sends back an optimized type (<code>FlattenSequence<[[YourType]]></code>, in this case), you might also want to add an array conversion for easier use....",
   "link": "/hackingwithswift.com/example-code/language/how-to-convert-a-multidimensional-array-to-a-single-dimensional-array.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -380,7 +380,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert an Int to a String",
-  "desc": "Swift's string interpolation means you can convert all sorts of data – including integers – to a string in just one line of code:...",
+  "desc": "Swift's string interpolation means you can convert all sorts of data - including integers - to a string in just one line of code:...",
   "link": "/hackingwithswift.com/example-code/language/how-to-convert-an-int-to-a-string.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -420,7 +420,7 @@ head:
 ```component VPCard
 {
   "title": "How to convert JSON into Swift objects using Codable",
-  "desc": "Swift’s <code>Codable</code> protocol makes it easy to convert JSON to native Swift structs and classes – just design data types that hold the same keys and values as your JSON, then use <code>JSONDecoder</code> to convert....",
+  "desc": "Swift’s <code>Codable</code> protocol makes it easy to convert JSON to native Swift structs and classes - just design data types that hold the same keys and values as your JSON, then use <code>JSONDecoder</code> to convert....",
   "link": "/hackingwithswift.com/example-code/language/how-to-convert-json-into-swift-objects-using-codable.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -490,7 +490,7 @@ head:
 ```component VPCard
 {
   "title": "How to create an Objective-C bridging header to use code in Swift",
-  "desc": "If you want to use Objective-C code in your Swift app – and let's face it, that's going to happen quite a lot! – then you need to create a bridging header that allows your Swift code to work with your Objective-C code....",
+  "desc": "If you want to use Objective-C code in your Swift app - and let's face it, that's going to happen quite a lot! - then you need to create a bridging header that allows your Swift code to work with your Objective-C code....",
   "link": "/hackingwithswift.com/example-code/language/how-to-create-an-objective-c-bridging-header-to-use-code-in-swift.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -510,7 +510,7 @@ head:
 ```component VPCard
 {
   "title": "How to create multi-line string literals",
-  "desc": "By default Swift strings can’t span more than one line. One simple way around this is to use the new line character <code>\n</code>, but that only works for strings that are displayed – if you’re just trying to format your string nicely, you should use multi-line strings instead....",
+  "desc": "By default Swift strings can’t span more than one line. One simple way around this is to use the new line character <code>\n</code>, but that only works for strings that are displayed - if you’re just trying to format your string nicely, you should use multi-line strings instead....",
   "link": "/hackingwithswift.com/example-code/language/how-to-create-multi-line-string-literals.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -540,7 +540,7 @@ head:
 ```component VPCard
 {
   "title": "How to detect when the system is under pressure and you should reduce your work",
-  "desc": "You can – and should – read the thermal state of your device before doing any intensive work, because if the system is already under pressure you might find your app becomes unresponsive, even with basic things like animations....",
+  "desc": "You can - and should - read the thermal state of your device before doing any intensive work, because if the system is already under pressure you might find your app becomes unresponsive, even with basic things like animations....",
   "link": "/hackingwithswift.com/example-code/language/how-to-detect-when-the-system-is-under-pressure-and-you-should-reduce-your-work.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -560,7 +560,7 @@ head:
 ```component VPCard
 {
   "title": "How to find the difference between two arrays",
-  "desc": "If you have two arrays that contain similar items and want to find out their differences – i.e., which items exist in one or the other, but not both – the easiest thing to do is use a <code>Set</code>. Sets have a <code>symmetricDifference()</code> method that does exactly this, so you just need to convert both arrays to a set, then convert the result back into an array....",
+  "desc": "If you have two arrays that contain similar items and want to find out their differences - i.e., which items exist in one or the other, but not both - the easiest thing to do is use a <code>Set</code>. Sets have a <code>symmetricDifference()</code> method that does exactly this, so you just need to convert both arrays to a set, then convert the result back into an array....",
   "link": "/hackingwithswift.com/example-code/language/how-to-find-the-difference-between-two-arrays.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -670,7 +670,7 @@ head:
 ```component VPCard
 {
   "title": "How to fix the error “protocol can only be used as a generic constraint because it has Self or associated type requirements”",
-  "desc": "Protocols with associated types are a powerful, if somewhat treacherous, feature of Swift. Sometimes it’s fair to say that the only winning move is not to play – i.e., to avoid them entirely – but if that isn’t the case you are sometimes likely to find yourself facing a difficult error: “protocol can only be used as a generic constraint because it has Self or associated type requirements.”...",
+  "desc": "Protocols with associated types are a powerful, if somewhat treacherous, feature of Swift. Sometimes it’s fair to say that the only winning move is not to play - i.e., to avoid them entirely - but if that isn’t the case you are sometimes likely to find yourself facing a difficult error: “protocol can only be used as a generic constraint because it has Self or associated type requirements.”...",
   "link": "/hackingwithswift.com/example-code/language/how-to-fix-the-error-protocol-can-only-be-used-as-a-generic-constraint-because-it-has-self-or-associated-type-requirements.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -680,7 +680,7 @@ head:
 ```component VPCard
 {
   "title": "How to force a crash using fatalError()",
-  "desc": "Swift has a built-in function called <code>fatalError()</code>, which forces your application to crash. This might sound useful, but bear with me – this is an indispensable function for anyone serious about writing good Swift....",
+  "desc": "Swift has a built-in function called <code>fatalError()</code>, which forces your application to crash. This might sound useful, but bear with me - this is an indispensable function for anyone serious about writing good Swift....",
   "link": "/hackingwithswift.com/example-code/language/how-to-force-a-crash-using-fatalerror.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -690,7 +690,7 @@ head:
 ```component VPCard
 {
   "title": "How to force your program to crash with assert()",
-  "desc": "This might seem like a strange topic – after all, why would anyone want their program to crash? Well, the answer is two-fold....",
+  "desc": "This might seem like a strange topic - after all, why would anyone want their program to crash? Well, the answer is two-fold....",
   "link": "/hackingwithswift.com/example-code/language/how-to-force-your-program-to-crash-with-assert.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -700,7 +700,7 @@ head:
 ```component VPCard
 {
   "title": "How to format JSON using Codable and pretty printing",
-  "desc": "When you use <code>JSONEncoder</code> and <code>Codable</code> to create JSON from your Swift data, it comes out in a compressed format by default – it has all its excess whitespace removed. This makes it efficient for transferring over the network, but hard to debug because it’s just a big jumble of words....",
+  "desc": "When you use <code>JSONEncoder</code> and <code>Codable</code> to create JSON from your Swift data, it comes out in a compressed format by default - it has all its excess whitespace removed. This makes it efficient for transferring over the network, but hard to debug because it’s just a big jumble of words....",
   "link": "/hackingwithswift.com/example-code/language/how-to-format-json-using-codable-and-pretty-printing.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -750,7 +750,7 @@ head:
 ```component VPCard
 {
   "title": "How to ignore return values using @discardableResult",
-  "desc": "Many functions return values, but sometimes you don’t care what the return value is – you might want to ignore it sometimes, and use it other times....",
+  "desc": "Many functions return values, but sometimes you don’t care what the return value is - you might want to ignore it sometimes, and use it other times....",
   "link": "/hackingwithswift.com/example-code/language/how-to-ignore-return-values-using-discardableresult.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -810,7 +810,7 @@ head:
 ```component VPCard
 {
   "title": "How to make a variadic function",
-  "desc": "Variadic functions are functions that accept any number of parameters. The most common one in Swift is <code>print()</code> – most people use it to print a single value, but you can actually pass as many as you want, like this:...",
+  "desc": "Variadic functions are functions that accept any number of parameters. The most common one in Swift is <code>print()</code> - most people use it to print a single value, but you can actually pass as many as you want, like this:...",
   "link": "/hackingwithswift.com/example-code/language/how-to-make-a-variadic-function.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -830,7 +830,7 @@ head:
 ```component VPCard
 {
   "title": "How to make custom types from strings using ExpressibleByStringLiteral",
-  "desc": "Swift’s <code>ExpressibleByStringLiteral</code> protocol lets us create any type directly from a string – as long as Swift understands what type you mean, you can create whatever you want....",
+  "desc": "Swift’s <code>ExpressibleByStringLiteral</code> protocol lets us create any type directly from a string - as long as Swift understands what type you mean, you can create whatever you want....",
   "link": "/hackingwithswift.com/example-code/language/how-to-make-custom-types-from-strings-using-expressiblebystringliteral.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -860,7 +860,7 @@ head:
 ```component VPCard
 {
   "title": "How to pass the Fizz Buzz test",
-  "desc": "The Fizz Buzz test is a simple coding test used in some coding interviews. It’s not designed to be hard, in fact quite the opposite – it’s designed to be easy enough that most folks can solve it without feeling too pressured....",
+  "desc": "The Fizz Buzz test is a simple coding test used in some coding interviews. It’s not designed to be hard, in fact quite the opposite - it’s designed to be easy enough that most folks can solve it without feeling too pressured....",
   "link": "/hackingwithswift.com/example-code/language/how-to-pass-the-fizz-buzz-test.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -920,7 +920,7 @@ head:
 ```component VPCard
 {
   "title": "How to reverse sort an array",
-  "desc": "Regular sorting on comparable data is as easy as calling the <code>sort()</code> method, but if you want a <em>reverse</em> sort – e.g. highest to lowest numbers, or Z-A alphabetically – there are two options....",
+  "desc": "Regular sorting on comparable data is as easy as calling the <code>sort()</code> method, but if you want a <em>reverse</em> sort - e.g. highest to lowest numbers, or Z-A alphabetically - there are two options....",
   "link": "/hackingwithswift.com/example-code/language/how-to-reverse-sort-an-array.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -930,7 +930,7 @@ head:
 ```component VPCard
 {
   "title": "How to run code when an object is destroyed",
-  "desc": "All structs and classes can have initializers, which are special methods that run when those types are created. However, classes can also have <em>deinitializers</em> – code that gets run when an instance of the class is destroyed. This isn’t possible with structs because they only ever have one owner....",
+  "desc": "All structs and classes can have initializers, which are special methods that run when those types are created. However, classes can also have <em>deinitializers</em> - code that gets run when an instance of the class is destroyed. This isn’t possible with structs because they only ever have one owner....",
   "link": "/hackingwithswift.com/example-code/language/how-to-run-code-when-an-object-is-destroyed.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1000,7 +1000,7 @@ head:
 ```component VPCard
 {
   "title": "How to store NSCoding data using Codable",
-  "desc": "Broadly speaking, <code>NSCoding</code> is the Objective-C way of archiving data and <code>Codable</code> is the Swift way. However, that doesn’t mean the two can’t work together – with a little work you can save any <code>NSCoding</code> data right inside <code>Codable</code>, which is helpful because many Apple types such as <code>UIColor</code> and <code>UIImage</code> conform to <code>NSCoding</code> but not <code>Codable</code>....",
+  "desc": "Broadly speaking, <code>NSCoding</code> is the Objective-C way of archiving data and <code>Codable</code> is the Swift way. However, that doesn’t mean the two can’t work together - with a little work you can save any <code>NSCoding</code> data right inside <code>Codable</code>, which is helpful because many Apple types such as <code>UIColor</code> and <code>UIImage</code> conform to <code>NSCoding</code> but not <code>Codable</code>....",
   "link": "/hackingwithswift.com/example-code/language/how-to-store-nscoding-data-using-codable.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1050,7 +1050,7 @@ head:
 ```component VPCard
 {
   "title": "How to transform a dictionary using mapValues()",
-  "desc": "Although dictionaries have a general <code>map()</code> method, they also have a specialized form of <code>map()</code> called <code>mapValues()</code> – it transforms just the <em>values</em> of the dictionary, leaving the keys untouched....",
+  "desc": "Although dictionaries have a general <code>map()</code> method, they also have a specialized form of <code>map()</code> called <code>mapValues()</code> - it transforms just the <em>values</em> of the dictionary, leaving the keys untouched....",
   "link": "/hackingwithswift.com/example-code/language/how-to-transform-a-dictionary-using-mapvalues.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1060,7 +1060,7 @@ head:
 ```component VPCard
 {
   "title": "How to unwrap an optional in Swift",
-  "desc": "Optional values are a central concept in Swift, although admittedly they can be a little hard to understand at first. Put simply, an optional value is one that may or may not exist, which means Swift won't let you use it by accident – you need to either check whether it has a value and unwrap it, or force unwrap. Of the two options the first is definitely preferable, because it's significantly safer....",
+  "desc": "Optional values are a central concept in Swift, although admittedly they can be a little hard to understand at first. Put simply, an optional value is one that may or may not exist, which means Swift won't let you use it by accident - you need to either check whether it has a value and unwrap it, or force unwrap. Of the two options the first is definitely preferable, because it's significantly safer....",
   "link": "/hackingwithswift.com/example-code/language/how-to-unwrap-an-optional-in-swift.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1120,7 +1120,7 @@ head:
 ```component VPCard
 {
   "title": "How to use conditional conformance in Swift",
-  "desc": "Conditional conformances were introduced in Swift 4.1, and refined in Swift 4.2 to allow you to query them at runtime. They allow types to conform to a protocol only when certain conditions are met – hence “conditional conformance”....",
+  "desc": "Conditional conformances were introduced in Swift 4.1, and refined in Swift 4.2 to allow you to query them at runtime. They allow types to conform to a protocol only when certain conditions are met - hence “conditional conformance”....",
   "link": "/hackingwithswift.com/example-code/language/how-to-use-conditional-conformance-in-swift.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1150,7 +1150,7 @@ head:
 ```component VPCard
 {
   "title": "How to use local variable observers",
-  "desc": "You should already be familiar with the concept of property observers in Swift – those <code>willSet</code> and <code>didSet</code> blocks you can attach to property on classes and structs. Well, those same blocks can be attached to local and global variables as well, allowing you to respond to changes easily....",
+  "desc": "You should already be familiar with the concept of property observers in Swift - those <code>willSet</code> and <code>didSet</code> blocks you can attach to property on classes and structs. Well, those same blocks can be attached to local and global variables as well, allowing you to respond to changes easily....",
   "link": "/hackingwithswift.com/example-code/language/how-to-use-local-variable-observers.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1190,7 +1190,7 @@ head:
 ```component VPCard
 {
   "title": "How to use operator overloading",
-  "desc": "Operator overloading is the practice of adding new operators and modifying existing ones to do different things. Operators are those little symbols like <code>+</code>, <code>*</code>, and <code>/</code>, and Swift uses them in a variety of ways depending on context – a string plus another string equals a combined string, for example, whereas an integer plus another integer equals a summed integer....",
+  "desc": "Operator overloading is the practice of adding new operators and modifying existing ones to do different things. Operators are those little symbols like <code>+</code>, <code>*</code>, and <code>/</code>, and Swift uses them in a variety of ways depending on context - a string plus another string equals a combined string, for example, whereas an integer plus another integer equals a summed integer....",
   "link": "/hackingwithswift.com/example-code/language/how-to-use-operator-overloading.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1340,7 +1340,7 @@ head:
 ```component VPCard
 {
   "title": "Using stride() to loop over a range of numbers",
-  "desc": "Swift has a helpful <code>stride()</code>, which lets you move from one value to another using any increment – and even lets you specify whether the upper bound is exclusive or inclusive....",
+  "desc": "Swift has a helpful <code>stride()</code>, which lets you move from one value to another using any increment - and even lets you specify whether the upper bound is exclusive or inclusive....",
   "link": "/hackingwithswift.com/example-code/language/using-stride-to-loop-over-a-range-of-numbers.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1380,7 +1380,7 @@ head:
 ```component VPCard
 {
   "title": "What are generics?",
-  "desc": "Generics are a way of making one data type act in a variety of ways depending on how it is created. You’ve already used them whether you realized or not: Swift has an <code>Array</code> type, but it is <em>generic</em> – it doesn’t contain any sort of specific data. Instead, you ask for arrays that hold specific kinds of data by using things like <code>[String]</code> to get a string array....",
+  "desc": "Generics are a way of making one data type act in a variety of ways depending on how it is created. You’ve already used them whether you realized or not: Swift has an <code>Array</code> type, but it is <em>generic</em> - it doesn’t contain any sort of specific data. Instead, you ask for arrays that hold specific kinds of data by using things like <code>[String]</code> to get a string array....",
   "link": "/hackingwithswift.com/example-code/language/what-are-generics.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1390,7 +1390,7 @@ head:
 ```component VPCard
 {
   "title": "What are implicitly unwrapped optionals?",
-  "desc": "Regular Swift optionals, e.g. <code>String?</code>, may contain a value, but may also contain nil – they might have no value at all – so before we can use them we must check to see what they contain. These are a useful way of expressing uncertainty, because a full <code>String</code> (not optional) must always contain a string....",
+  "desc": "Regular Swift optionals, e.g. <code>String?</code>, may contain a value, but may also contain nil - they might have no value at all - so before we can use them we must check to see what they contain. These are a useful way of expressing uncertainty, because a full <code>String</code> (not optional) must always contain a string....",
   "link": "/hackingwithswift.com/example-code/language/what-are-implicitly-unwrapped-optionals.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1560,7 +1560,7 @@ head:
 ```component VPCard
 {
   "title": "What does the open keyword do?",
-  "desc": "When working with code from another module – e.g., UIKit or a module you wrote separate from your main app – Swift differentiates between public accessibility and public overridability. That is, someone can be public for folks to use, but not public for them to extend....",
+  "desc": "When working with code from another module - e.g., UIKit or a module you wrote separate from your main app - Swift differentiates between public accessibility and public overridability. That is, someone can be public for folks to use, but not public for them to extend....",
   "link": "/hackingwithswift.com/example-code/language/what-does-the-open-keyword-do.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1570,7 +1570,7 @@ head:
 ```component VPCard
 {
   "title": "What does unowned mean?",
-  "desc": "Unowned variables are similar to weak variables in that they provide a way to reference data without having ownership. However, weak variables can become <code>nil</code> – they are effectively optional. In comparison, unowned variables must never be set to nil once they have been initialized, which means you don't need to worry about unwrapping optionals....",
+  "desc": "Unowned variables are similar to weak variables in that they provide a way to reference data without having ownership. However, weak variables can become <code>nil</code> - they are effectively optional. In comparison, unowned variables must never be set to nil once they have been initialized, which means you don't need to worry about unwrapping optionals....",
   "link": "/hackingwithswift.com/example-code/language/what-does-unowned-mean.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1630,7 +1630,7 @@ head:
 ```component VPCard
 {
   "title": "What is a dictionary?",
-  "desc": "A dictionary is a collection of values stored at named positions. Whereas you would access values in an array using <code>myArray[5]</code>, with a dictionary you use named positions such as <code>myDict[”Paul”]</code> or <code>myDict[”Scotland”]</code>. You don't even need to use strings for the positions – you can use another object if you choose, such as dates....",
+  "desc": "A dictionary is a collection of values stored at named positions. Whereas you would access values in an array using <code>myArray[5]</code>, with a dictionary you use named positions such as <code>myDict[”Paul”]</code> or <code>myDict[”Scotland”]</code>. You don't even need to use strings for the positions - you can use another object if you choose, such as dates....",
   "link": "/hackingwithswift.com/example-code/language/what-is-a-dictionary.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1690,7 +1690,7 @@ head:
 ```component VPCard
 {
   "title": "What is a nested class or nested struct?",
-  "desc": "Nested types – i.e. nested structs and nested classes – are a useful way of organizing your code, and perhaps even restricting what others can do with it. In essence, a nested type is just one data type defined inside another, like this:...",
+  "desc": "Nested types - i.e. nested structs and nested classes - are a useful way of organizing your code, and perhaps even restricting what others can do with it. In essence, a nested type is just one data type defined inside another, like this:...",
   "link": "/hackingwithswift.com/example-code/language/what-is-a-nested-class-or-nested-struct.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1750,7 +1750,7 @@ head:
 ```component VPCard
 {
   "title": "What is a storyboard?",
-  "desc": "Storyboards were introduced way back in iOS 5 as a way to revamp interface design for iOS. At the time they didn't add much in the way of features that weren't available with the older XIBs, but in subsequent releases Apple have added helpful new features such as layout guides that make them much more useful – and arguably indispensable since iOS 7....",
+  "desc": "Storyboards were introduced way back in iOS 5 as a way to revamp interface design for iOS. At the time they didn't add much in the way of features that weren't available with the older XIBs, but in subsequent releases Apple have added helpful new features such as layout guides that make them much more useful - and arguably indispensable since iOS 7....",
   "link": "/hackingwithswift.com/example-code/language/what-is-a-storyboard.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1790,7 +1790,7 @@ head:
 ```component VPCard
 {
   "title": "What is an escaping closure?",
-  "desc": "Swift’s closures are reference types, which means if you point two variables at the same closure they share that closure – Swift just remembers that there are two things relying on it by incrementing its reference count....",
+  "desc": "Swift’s closures are reference types, which means if you point two variables at the same closure they share that closure - Swift just remembers that there are two things relying on it by incrementing its reference count....",
   "link": "/hackingwithswift.com/example-code/language/what-is-an-escaping-closure.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1880,7 +1880,7 @@ head:
 ```component VPCard
 {
   "title": "What is MVC?",
-  "desc": "MVC – short for Model-View-Controller – is Apple’s preferred way of architecting apps for its platforms, and so it’s the default approach used by most developers on Apple platforms....",
+  "desc": "MVC - short for Model-View-Controller - is Apple’s preferred way of architecting apps for its platforms, and so it’s the default approach used by most developers on Apple platforms....",
   "link": "/hackingwithswift.com/example-code/language/what-is-mvc.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1900,7 +1900,7 @@ head:
 ```component VPCard
 {
   "title": "What is NSNumber?",
-  "desc": "<code>NSNumber</code> is an Objective-C class designed to store a variety of types of numbers. It was important in Objective-C because its primitive number types – integers, doubles, etc – could not be used in most of Apple’s APIs without wrapping them in an object such as <code>NSNumber</code>, but mostly Swift does a good job of automatically converting its numbers to <code>NSNumber</code> when you need it....",
+  "desc": "<code>NSNumber</code> is an Objective-C class designed to store a variety of types of numbers. It was important in Objective-C because its primitive number types - integers, doubles, etc - could not be used in most of Apple’s APIs without wrapping them in an object such as <code>NSNumber</code>, but mostly Swift does a good job of automatically converting its numbers to <code>NSNumber</code> when you need it....",
   "link": "/hackingwithswift.com/example-code/language/what-is-nsnumber.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1920,7 +1920,7 @@ head:
 ```component VPCard
 {
   "title": "What is protocol-oriented programming?",
-  "desc": "One powerful feature of Swift is its ability to extend protocols – to be able to add new functionality not only to one type, but to a whole collection of types that all conform to the same protocol....",
+  "desc": "One powerful feature of Swift is its ability to extend protocols - to be able to add new functionality not only to one type, but to a whole collection of types that all conform to the same protocol....",
   "link": "/hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1930,7 +1930,7 @@ head:
 ```component VPCard
 {
   "title": "What is the @objc attribute?",
-  "desc": "By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime – all of UIKit, for example – you need to tell Swift what to do....",
+  "desc": "By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime - all of UIKit, for example - you need to tell Swift what to do....",
   "link": "/hackingwithswift.com/example-code/language/what-is-the-objc-attribute.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1940,7 +1940,7 @@ head:
 ```component VPCard
 {
   "title": "What is the @objcMembers attribute?",
-  "desc": "By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime – all of UIKit, for example – you need to tell Swift what to do....",
+  "desc": "By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime - all of UIKit, for example - you need to tell Swift what to do....",
   "link": "/hackingwithswift.com/example-code/language/what-is-the-objcmembers-attribute.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1950,7 +1950,7 @@ head:
 ```component VPCard
 {
   "title": "What is the autoclosure attribute?",
-  "desc": "The <code>@autoclosure</code> attribute can be applied to a closure parameter for a function, and automatically creates a closure from an expression you pass in. When you call a function that uses this attribute, the code you write <em>isn't</em> a closure, but it <em>becomes</em> a closure, which can be a bit confusing – even the official Swift reference guide warns that overusing autoclosures makes your code harder to understand....",
+  "desc": "The <code>@autoclosure</code> attribute can be applied to a closure parameter for a function, and automatically creates a closure from an expression you pass in. When you call a function that uses this attribute, the code you write <em>isn't</em> a closure, but it <em>becomes</em> a closure, which can be a bit confusing - even the official Swift reference guide warns that overusing autoclosures makes your code harder to understand....",
   "link": "/hackingwithswift.com/example-code/language/what-is-the-autoclosure-attribute.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1990,7 +1990,7 @@ head:
 ```component VPCard
 {
   "title": "What is the ternary operator?",
-  "desc": "The ternary operator allows you to run a check and return one of two values depending on the result of that check – it has the name “ternary” because it works with three values rather than two or one like other operators. You’ll often see it written as <code>?:</code> but in practice the <code>?</code> and <code>:</code> are used separately....",
+  "desc": "The ternary operator allows you to run a check and return one of two values depending on the result of that check - it has the name “ternary” because it works with three values rather than two or one like other operators. You’ll often see it written as <code>?:</code> but in practice the <code>?</code> and <code>:</code> are used separately....",
   "link": "/hackingwithswift.com/example-code/language/what-is-the-ternary-operator.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

@@ -94,7 +94,7 @@ If you peek into the pom.xml file you’ll find the selected dependencies. Also 
 
 As I dive into the realm of new technologies, I often include Oracle's sample database Sakila in my development playground as it is easily available as a Docker image. This project is no exception.
 
-Sakila models an old-fashioned video rental store, the kind where you'd eagerly await a film on tape or DVD.  Naturally, the core of this database centers around the Film table, complemented by various supporting tables – think Inventory, Customer, and Payment. For this demo, our focus will be on serving information about films and the actors starring in those films. The Film and Actor tables share a Many-to-Many relationship – a film can boast many actors, and conversely, an actor can star in numerous films.
+Sakila models an old-fashioned video rental store, the kind where you'd eagerly await a film on tape or DVD.  Naturally, the core of this database centers around the Film table, complemented by various supporting tables - think Inventory, Customer, and Payment. For this demo, our focus will be on serving information about films and the actors starring in those films. The Film and Actor tables share a Many-to-Many relationship - a film can boast many actors, and conversely, an actor can star in numerous films.
 
 ![An overview of the relevant parts of the database model, including the `film`, `actor` and `film_actor` table.](https://lh7-us.googleusercontent.com/CzbCJ_01BoL0XeHT2W4wJmMRJJXiA4iuYvJTuoUHqG5R1Kif6ySaoWs0XivSaAintn40jsRlF41xhYP3g14UNuv9uKYQ1B0wD3Zljm1QxXw0uFSlWPTNJkk_8vIzcyl-WtR7zzjU3nYhwSYGzZIYv5c)
 

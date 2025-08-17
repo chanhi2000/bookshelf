@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ Here's what Xcode will write for you:
 
 Before we look at what this is doing, I want you to make two more connections. This time it's a bit different, because we're connecting the other two flag buttons to the same `buttonTapped()` method. To do that, select each of the remaining two buttons, then <kbd>Ctrl</kbd>-drag onto the `buttonTapped()` method that was just created. The whole method will turn blue signifying that it's going to be connected, so you can just let go to make it happen. If the method flashes after you let go, it means the connection was made.
 
-So, what do we have? Well, we have a single method called `buttonTapped()`, which is connected to all three `UIButton`s. The event used for the attachment is called `TouchUpInside`, which is the iOS way of saying, "the user touched this button, then released their finger while they were still over it" – i.e., the button was tapped.
+So, what do we have? Well, we have a single method called `buttonTapped()`, which is connected to all three `UIButton`s. The event used for the attachment is called `TouchUpInside`, which is the iOS way of saying, "the user touched this button, then released their finger while they were still over it" - i.e., the button was tapped.
 
 Again, Xcode has inserted an attribute to the start of this line so it knows that this is relevant to Interface Builder, and this time it's `@IBAction`. `@IBAction` is similar to `@IBOutlet`, but goes the other way: `@IBOutlet` is a way of connecting code to storyboard layouts, and `@IBAction` is a way of making storyboard layouts trigger code.
 
@@ -94,7 +94,7 @@ Select the second flag (not the first one!), then look in the attributes inspect
 
 Now choose the third flag and set its tag to be 2. We don't need to change the tag of the first flag because 0 is the default.
 
-We're done with Interface Builder for now, so go back to the standard editor and select <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` – it's time to finish up by filling in the contents of the `buttonTapped()` method.
+We're done with Interface Builder for now, so go back to the standard editor and select <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` - it's time to finish up by filling in the contents of the `buttonTapped()` method.
 
 This method needs to do three things:
 
@@ -120,9 +120,9 @@ if sender.tag == correctAnswer {
 }
 ```
 
-Now for the tough bit: we're going to use a new data type called `UIAlertController()`. This is used to show an alert with options to the user. To make this work you're going to need to use a *closure* – something you’ve learned about in theory, but at last finally get to use in practice.
+Now for the tough bit: we're going to use a new data type called `UIAlertController()`. This is used to show an alert with options to the user. To make this work you're going to need to use a *closure* - something you’ve learned about in theory, but at last finally get to use in practice.
 
-If you remember, closures is a special kind of code block that can be used like a variable – Swift literally takes a copy of the block of code so that it can be called later. Swift also copies anything referenced inside the code, so you need to be careful how you use them. We're going to be using closures extensively later, but for now we’ll take two shortcuts.
+If you remember, closures is a special kind of code block that can be used like a variable - Swift literally takes a copy of the block of code so that it can be called later. Swift also copies anything referenced inside the code, so you need to be careful how you use them. We're going to be using closures extensively later, but for now we’ll take two shortcuts.
 
 Enter this just before the end of the `buttonTapped()` method:
 
@@ -146,7 +146,7 @@ We must use `askQuestion` and not `askQuestion()`. If you use the former, it mea
 
 :::
 
-There are many good reasons to use closures, but in the example here just passing in `askQuestion` is a neat shortcut – although it does break something that we'll need to fix in a moment.
+There are many good reasons to use closures, but in the example here just passing in `askQuestion` is a neat shortcut - although it does break something that we'll need to fix in a moment.
 
 The final line calls `present()`, which takes two parameters: a view controller to present and whether to animate the presentation. It has an optional third parameter that is another closure that should be executed when the presentation animation has finished, but we don’t need it here. We send our `UIAlertController` for the first parameter, and true for the second because animation is always nice.
 

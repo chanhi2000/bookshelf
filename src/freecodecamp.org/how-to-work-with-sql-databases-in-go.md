@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Work with SQL Databases in Go – Different Approaches and Examples"
-description: "Article(s) > How to Work with SQL Databases in Go – Different Approaches and Examples"
+title: "How to Work with SQL Databases in Go - Different Approaches and Examples"
+description: "Article(s) > How to Work with SQL Databases in Go - Different Approaches and Examples"
 icon: fa-brands fa-golang
 category: 
   - Go
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Work with SQL Databases in Go – Different Approaches and Examples"
+      content: "Article(s) > How to Work with SQL Databases in Go - Different Approaches and Examples"
     - property: og:description
-      content: "How to Work with SQL Databases in Go – Different Approaches and Examples"
+      content: "How to Work with SQL Databases in Go - Different Approaches and Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-sql-databases-in-go.html
 prev: /programming/go/articles/README.md
@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727195039014/02f3c2f
 ---
 
 <SiteInfo
-  name="How to Work with SQL Databases in Go – Different Approaches and Examples"
+  name="How to Work with SQL Databases in Go - Different Approaches and Examples"
   desc="Different programming languages have their own ways of working with relational databases and SQL. Ruby on Rails has its Active Record, Python has SQLAlchemy, Typescript has Drizzle, and so on. Go is a language with quite a diverse standard library, w..."
   url="https://freecodecamp.org/news/how-to-work-with-sql-databases-in-go/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -243,7 +243,7 @@ HAVING post_count &gt;= ?;`</span>
 <li>Same as database/sql</li>
 </ul>
 <h2 id="heading-orms">ORMs</h2>
-<p><a target="_blank" href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping</a> (ORM) is a technique (some call it a design pattern) of accessing a relational database by working with objects without having to craft complex SQL statements. It’s very popular in object-oriented languages – Ruby on Rails has its <a target="_blank" href="https://guides.rubyonrails.org/active_record_basics.html">Active Record</a>, Python has <a target="_blank" href="https://www.sqlalchemy.org/">SQLAlchemy</a>, Typescript has <a target="_blank" href="https://orm.drizzle.team/">Drizzle</a>, and so on.</p>
+<p><a target="_blank" href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object-relational mapping</a> (ORM) is a technique (some call it a design pattern) of accessing a relational database by working with objects without having to craft complex SQL statements. It’s very popular in object-oriented languages - Ruby on Rails has its <a target="_blank" href="https://guides.rubyonrails.org/active_record_basics.html">Active Record</a>, Python has <a target="_blank" href="https://www.sqlalchemy.org/">SQLAlchemy</a>, Typescript has <a target="_blank" href="https://orm.drizzle.team/">Drizzle</a>, and so on.</p>
 <p>And Go has <a target="_blank" href="https://github.com/go-gorm/gorm"><strong>GORM</strong></a>. In a nutshell, it lets you write queries as Go code by calling various methods on objects, which are then translated into SQL queries. But not only that, it has other features like database migrations, database resolvers, and more.</p>
 <p>You may need to spend a bit of time initially setting up your GORM models, but later it can reduce a lot of boilerplate code.</p>
 <p>Our simple schema and query example may not be the best to visualize the strengths and weaknesses of GORM, but should be enough to demonstrate how we can run a similar query and scan the results:</p>
@@ -288,7 +288,7 @@ HAVING post_count &gt;= ?;`</span>
 <li><p>We used methods such as <code>Select()</code>, <code>Joins()</code>, <code>Group()</code>, and <code>Having()</code> to produce the query we want.</p>
 </li>
 </ul>
-<p>With such an easy example, it’s hard to see the potential issues – everything looks just right. But when your project becomes more complex, you will most definitely encounter some issues with that. Just look at the StackOverflow questions marked with <a target="_blank" href="https://stackoverflow.com/questions/tagged/go-gorm">go-gorm</a>.</p>
+<p>With such an easy example, it’s hard to see the potential issues - everything looks just right. But when your project becomes more complex, you will most definitely encounter some issues with that. Just look at the StackOverflow questions marked with <a target="_blank" href="https://stackoverflow.com/questions/tagged/go-gorm">go-gorm</a>.</p>
 <p>It's good to be careful about using ORMs in performance-critical systems or where you need direct control over database interactions. This is because gorm uses a lot of reflection, and can add overhead and sometimes obscure what's happening at the database level. Any project where the functionality is wrapped in another huge layer runs the risk of increasing the overall complexity.</p>
 <p>Pros:</p>
 <ul>

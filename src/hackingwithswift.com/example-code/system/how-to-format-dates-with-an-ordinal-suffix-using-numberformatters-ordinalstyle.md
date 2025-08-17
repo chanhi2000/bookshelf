@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-As of iOS 9.0, Apple introduced a simple way to make ordinal style numbers, which is a fancy way of saying 1st, 2nd, 3rd or 100th – the kind of numbers you normally write for dates, for example. This uses the `NumberFormatterStyle.ordinal` style of writing numbers with `NumberFormatter`, like this:
+As of iOS 9.0, Apple introduced a simple way to make ordinal style numbers, which is a fancy way of saying 1st, 2nd, 3rd or 100th - the kind of numbers you normally write for dates, for example. This uses the `NumberFormatterStyle.ordinal` style of writing numbers with `NumberFormatter`, like this:
 
 ```swift
 let formatter = NumberFormatter()

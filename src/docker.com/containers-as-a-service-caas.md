@@ -72,9 +72,9 @@ The diagram below shows a typical CaaS workflow.
 
 ![caas diagram](https://docker.com/app/uploads/caas_diagram.png)
 
-Developers to the left pulling and pushing application content from a library of trusted base images. Operations teams on the right are monitoring and managing deployed applications and infrastructure. The two teams collaborating through a toolset that allows for a separation of concerns while unifying the two teams through the application lifecycle. The general workflow can be modified have greater centralized control or decentralize the registry and management to each individual application team – whatever is right for your business.
+Developers to the left pulling and pushing application content from a library of trusted base images. Operations teams on the right are monitoring and managing deployed applications and infrastructure. The two teams collaborating through a toolset that allows for a separation of concerns while unifying the two teams through the application lifecycle. The general workflow can be modified have greater centralized control or decentralize the registry and management to each individual application team - whatever is right for your business.
 
-CaaS doesn’t force a workflow on you – but instead gives you a framework to better manage your application delivery. That means the CaaS requirements need to be flexible enough to cover the environment and the one you’ll have tomorrow:
+CaaS doesn’t force a workflow on you - but instead gives you a framework to better manage your application delivery. That means the CaaS requirements need to be flexible enough to cover the environment and the one you’ll have tomorrow:
 
 - Provide tooling for both dev and IT ops
 - Provide tooling across the entire app lifecycle

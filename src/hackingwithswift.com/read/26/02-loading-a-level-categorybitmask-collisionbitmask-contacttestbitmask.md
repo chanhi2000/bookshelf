@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -92,7 +92,7 @@ func loadLevel() {
             } else if letter == "f"  {
                 // load finish
             } else if letter == " " {
-                // this is an empty space – do nothing!
+                // this is an empty space - do nothing!
             } else {
                 fatalError("Unknown level letter: \(letter)")
             }
@@ -128,7 +128,7 @@ enum CollisionTypes: UInt32 {
 }
 ```
 
-Note that your bitmasks should start at 1 then double each time. With that, let's start replacing the comments in the `loadLevel()` method with real code. First, here's how to create a wall – replace the `// load wall` comment with this:
+Note that your bitmasks should start at 1 then double each time. With that, let's start replacing the comments in the `loadLevel()` method with real code. First, here's how to create a wall - replace the `// load wall` comment with this:
 
 ```swift
 let node = SKSpriteNode(imageNamed: "block")
@@ -190,7 +190,7 @@ node.position = position
 addChild(node)
 ```
 
-That completes the method. It's long, but it's quite repetitive – there are several ways it could be refactored into something neater, but that would be cheating for later!
+That completes the method. It's long, but it's quite repetitive - there are several ways it could be refactored into something neater, but that would be cheating for later!
 
 To see the fruits of your labor, add a call to `loadLevel()` in `didMove(to:)` then run your game. Remember to use the lowest-spec iPad simulator you can find in order to help it run quickly!
 

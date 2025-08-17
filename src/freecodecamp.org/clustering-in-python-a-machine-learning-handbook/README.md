@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Clustering in Python – A Machine Learning Engineering Handbook"
-description: "Article(s) > Learn Clustering in Python – A Machine Learning Engineering Handbook"
+title: "Learn Clustering in Python - A Machine Learning Engineering Handbook"
+description: "Article(s) > Learn Clustering in Python - A Machine Learning Engineering Handbook"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Clustering in Python – A Machine Learning Engineering Handbook"
+      content: "Article(s) > Learn Clustering in Python - A Machine Learning Engineering Handbook"
     - property: og:description
-      content: "Learn Clustering in Python – A Machine Learning Engineering Handbook"
+      content: "Learn Clustering in Python - A Machine Learning Engineering Handbook"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738794333226/0f8cd7d
 ---
 
 <SiteInfo
-  name="Learn Clustering in Python – A Machine Learning Engineering Handbook"
+  name="Learn Clustering in Python - A Machine Learning Engineering Handbook"
   desc="Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d..."
   url="https://freecodecamp.org/news/clustering-in-python-a-machine-learning-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -63,17 +63,17 @@ If you enjoy learning through listening as well, here’s a 15-minute podcast wh
 
 ## By the end of this book, you’ll be able to:
 
-1. **Understand the fundamentals of Unsupervised Learning** – You will grasp the key differences between supervised and unsupervised learning, and how clustering fits into the broader field of machine learning.
-2. **Master important clustering terminology** – You will be familiar with essential concepts such as data points, centroids, distance metrics, and cluster evaluation methods.
-3. **Prepare data for clustering** – You will learn how to handle missing values, normalize datasets, remove outliers, and apply dimensionality reduction techniques like PCA and t-SNE.
-4. **Gain a deep understanding of clustering techniques** – You will explore various clustering methods, including K-Means, Hierarchical Clustering, and DBSCAN, and understand when to use each approach.
-5. **Implement K-Means clustering in Python** – You will learn to apply the K-Means algorithm using Python, optimize the number of clusters with the Elbow Method, and visualize cluster results effectively.
-6. **Apply hierarchical clustering** – You will understand Agglomerative and Divisive clustering, learn how to construct dendrograms, and use Python to implement hierarchical clustering.
-7. **Use DBSCAN for density-based clustering** – You will master DBSCAN’s approach to clustering, including its ability to identify noise points and clusters of arbitrary shapes.
-8. **Visualize clustering results** – You will be able to generate meaningful visualizations for clustering results using Matplotlib, Seaborn, and t-SNE to analyze and interpret data effectively.
-9. **Evaluate clustering performance** – You will learn how to assess cluster quality using techniques like the Silhouette Score, Davies-Bouldin Index, and Calinski-Harabasz Index.
-10. **Work with real-world datasets** – You will gain hands-on experience applying clustering techniques to real-world datasets, including customer segmentation, anomaly detection, and pattern recognition.
-11. **Expand your knowledge beyond clustering** – You will be introduced to other unsupervised learning techniques, such as mixture models and topic modeling, broadening your expertise in machine learning.
+1. **Understand the fundamentals of Unsupervised Learning** - You will grasp the key differences between supervised and unsupervised learning, and how clustering fits into the broader field of machine learning.
+2. **Master important clustering terminology** - You will be familiar with essential concepts such as data points, centroids, distance metrics, and cluster evaluation methods.
+3. **Prepare data for clustering** - You will learn how to handle missing values, normalize datasets, remove outliers, and apply dimensionality reduction techniques like PCA and t-SNE.
+4. **Gain a deep understanding of clustering techniques** - You will explore various clustering methods, including K-Means, Hierarchical Clustering, and DBSCAN, and understand when to use each approach.
+5. **Implement K-Means clustering in Python** - You will learn to apply the K-Means algorithm using Python, optimize the number of clusters with the Elbow Method, and visualize cluster results effectively.
+6. **Apply hierarchical clustering** - You will understand Agglomerative and Divisive clustering, learn how to construct dendrograms, and use Python to implement hierarchical clustering.
+7. **Use DBSCAN for density-based clustering** - You will master DBSCAN’s approach to clustering, including its ability to identify noise points and clusters of arbitrary shapes.
+8. **Visualize clustering results** - You will be able to generate meaningful visualizations for clustering results using Matplotlib, Seaborn, and t-SNE to analyze and interpret data effectively.
+9. **Evaluate clustering performance** - You will learn how to assess cluster quality using techniques like the Silhouette Score, Davies-Bouldin Index, and Calinski-Harabasz Index.
+10. **Work with real-world datasets** - You will gain hands-on experience applying clustering techniques to real-world datasets, including customer segmentation, anomaly detection, and pattern recognition.
+11. **Expand your knowledge beyond clustering** - You will be introduced to other unsupervised learning techniques, such as mixture models and topic modeling, broadening your expertise in machine learning.
 
 By the end of this handbook, you will have a strong foundation in clustering and unsupervised learning, empowering you to analyze complex datasets and uncover hidden patterns with confidence!
 
@@ -102,7 +102,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Introduction to Unsupervised Learning",
-  "desc": "(1/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(1/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/introduction-to-unsupervised-learning.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -112,7 +112,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Supervised vs. Unsupervised Learning",
-  "desc": "(2/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(2/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/supervised-vs-unsupervised-learning.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -122,7 +122,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Important Terminology",
-  "desc": "(3/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(3/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/important-terminology.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -132,7 +132,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "How to Prepare Data for Unsupervised Learning",
-  "desc": "(4/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(4/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/how-to-prepare-data-for-unsupervised-learning.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -142,7 +142,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Clustering Explained",
-  "desc": "(5/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(5/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/clustering-explained.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -152,7 +152,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "K-Means Clustering",
-  "desc": "(6/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(6/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/k-means-clustering.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -162,7 +162,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Elbow Method for Optimal Number of Clusters (K)",
-  "desc": "(7/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(7/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/elbow-method-for-optimal-number-of-clusters-k.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -172,7 +172,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "Hierarchical Clustering",
-  "desc": "(8/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(8/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/hierarchical-clustering.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -182,7 +182,7 @@ By building a strong foundation in these areas, you’ll be well-prepared to unl
 ```component VPCard
 {
   "title": "DBSCAN Clustering",
-  "desc": "(9/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(9/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/dbscan-clustering.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -294,7 +294,7 @@ By understanding the characteristics of each algorithm, you can make an informed
 ```component VPCard
 {
   "title": "How to Use t-SNE for Visualizing Clusters with Python",
-  "desc": "(10/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(10/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/how-to-use-t-sne-for-visualizing-clusters-with-python.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -304,7 +304,7 @@ By understanding the characteristics of each algorithm, you can make an informed
 ```component VPCard
 {
   "title": "More Unsupervised Learning Techniques",
-  "desc": "(11/11) Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "desc": "(11/11) Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "link": "/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/more-unsupervised-learning-techniques.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -400,7 +400,7 @@ Spots are limited, and the demand for skilled AI engineers is higher than ever. 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Clustering in Python – A Machine Learning Engineering Handbook",
+  "title": "Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "desc": "Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

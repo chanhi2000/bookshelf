@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIClolr - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uicolor/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ Creating a `UIColor` from red, green, blue, and alpha (RGBA) is easy enough:
 let color = UIColor(red: 0.8, green: 0.1, blue: 0.5, alpha: 1)
 ```
 
-But when you want to read those values back, you need to do a little more work. `UIColor` has a built-in method called `getRed()`, which unpacks the RGBA values into variable floats – you need to create four variables first, then pass them in by reference:
+But when you want to read those values back, you need to do a little more work. `UIColor` has a built-in method called `getRed()`, which unpacks the RGBA values into variable floats - you need to create four variables first, then pass them in by reference:
 
 ```swift
 var red: CGFloat = 0

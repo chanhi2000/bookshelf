@@ -156,7 +156,7 @@ Let's investigate what's happening with the browser developer tools.
 
 When such a bug occurs, you might be tempted to add a bunch of console logs.
 
-Many times, console logs get the job done – but you have to spend a lot of time figuring things out.
+Many times, console logs get the job done - but you have to spend a lot of time figuring things out.
 
 The browser developer tools give you more options such as adding breakpoints, watching particular expressions, and even stepping through the code line by line to see where the bug occurs.
 
@@ -197,7 +197,7 @@ For example, let's add a breakpoint to line 14, then enter the four numbers and 
 
 ![Breakpoint at line 14](https://cdn.hashnode.com/res/hashnode/image/upload/v1729768234921/8c1f0d4e-5fb2-4461-8e62-574d95a51672.png)
 
-At this point, you can see that the execution did not continue – that's why you see "value unavailable" for all the variables under “Local”.
+At this point, you can see that the execution did not continue - that's why you see "value unavailable" for all the variables under “Local”.
 
 From here, you can start stepping through the code line by line by pressing the step icon in the top right corner:
 
@@ -215,7 +215,7 @@ I will go ahead and set a breakpoint at line `23` and run the code again:
 
 ![Breakpoint at line 23](https://cdn.hashnode.com/res/hashnode/image/upload/v1729768528136/478fc837-0c16-4990-9b70-19ff1695331e.png)
 
-Now you can see that all the variable results apart from `average` appear to be strings. This takes us to the next Chrome developer tools debugger feature – watcher.
+Now you can see that all the variable results apart from `average` appear to be strings. This takes us to the next Chrome developer tools debugger feature - watcher.
 
 ### How to Use the Developer Tools Watch Feature
 
@@ -227,7 +227,7 @@ To add a watch expression, click the plus (+) icon right beside “Watch” and 
 
 ![Adding a watch expression](https://cdn.hashnode.com/res/hashnode/image/upload/v1729768780977/ef22ae71-068c-41a2-9a2e-509c7c6a8afb.png)
 
-Here are the watch expressions that confirm that `num1` through `num4` and `total` are strings – but they should be integers:
+Here are the watch expressions that confirm that `num1` through `num4` and `total` are strings - but they should be integers:
 
 ![Watch expressions](https://cdn.hashnode.com/res/hashnode/image/upload/v1729768808497/5d7352d6-37b3-490c-9ce2-f430c2d9a0e6.png)
 
@@ -237,7 +237,7 @@ You can also verify this in the console tab by checking the types of the variabl
 
 This means that the numbers you enter are interpreted as strings. That’s because, in JavaScript, values from HTML elements like input fields are always retrieved as strings.
 
-This happens because the `value` property of an input element returns a string, regardless of whether you enter numbers – and that’s how the bug was introduced.
+This happens because the `value` property of an input element returns a string, regardless of whether you enter numbers - and that’s how the bug was introduced.
 
 Remember that JavaScript only concatenates strings even if they’re numbers. That means `"3"` is a string type and not an integer type.
 

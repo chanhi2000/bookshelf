@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime – all of UIKit, for example – you need to tell Swift what to do.
+By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime - all of UIKit, for example - you need to tell Swift what to do.
 
-That’s where the `@objc` attribute comes in: when you apply it to a class or method it instructs Swift to make those things available to Objective-C as well as Swift code. So, any time you want to call a method from a `UIBarButtonItem` or a `Timer`, you’ll need to mark that method using `@objc` so it’s exposed – both of those, and many others, are Objective-C code.
+That’s where the `@objc` attribute comes in: when you apply it to a class or method it instructs Swift to make those things available to Objective-C as well as Swift code. So, any time you want to call a method from a `UIBarButtonItem` or a `Timer`, you’ll need to mark that method using `@objc` so it’s exposed - both of those, and many others, are Objective-C code.
 
-Don’t worry: if you *forget* to add `@objc` when it’s needed, your code simply won’t compile – it’s not something you can forget by accident and introduce a bug.
+Don’t worry: if you *forget* to add `@objc` when it’s needed, your code simply won’t compile - it’s not something you can forget by accident and introduce a bug.
 
 To expose a method to Objective-C, just write `@objc` before its name like this:
 

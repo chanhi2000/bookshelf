@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Generics in Java – Explained with Code Examples"
-description: "Article(s) > How to Use Generics in Java – Explained with Code Examples"
+title: "How to Use Generics in Java - Explained with Code Examples"
+description: "Article(s) > How to Use Generics in Java - Explained with Code Examples"
 icon: fa-brands fa-java
 category: 
   - Java
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Generics in Java – Explained with Code Examples"
+      content: "Article(s) > How to Use Generics in Java - Explained with Code Examples"
     - property: og:description
-      content: "How to Use Generics in Java – Explained with Code Examples"
+      content: "How to Use Generics in Java - Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/generics-in-java.html
 prev: /programming/java/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2024/06/safety.png
 ---
 
 <SiteInfo
-  name="How to Use Generics in Java – Explained with Code Examples"
+  name="How to Use Generics in Java - Explained with Code Examples"
   desc="In your Java program, you might have encountered the dreaded ClassCastException at runtime while working with different types of objects such as Integer, String, and so on. This error is mostly caused by casting an object to the wrong data type.  In ..."
   url="https://freecodecamp.org/news/generics-in-java"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -275,7 +275,7 @@ Let's connect on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`abaradwaj`)
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Generics in Java – Explained with Code Examples",
+  "title": "How to Use Generics in Java - Explained with Code Examples",
   "desc": "In your Java program, you might have encountered the dreaded ClassCastException at runtime while working with different types of objects such as Integer, String, and so on. This error is mostly caused by casting an object to the wrong data type.  In ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/generics-in-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

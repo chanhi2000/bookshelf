@@ -63,7 +63,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/Orange---
 
 <SiteInfo
   name="Full Stack Development with Next.js, Clerk, and Neon Postgres"
-  desc="Full stack development is constantly evolving, with new developer tools and products being introduced that allow us to build secure and reliable applications more efficiently. In this tutorial, I’ll walk you through how to build highly performant web applications with Neon – a serverless PostgreSQL database designed for the..."
+  desc="Full stack development is constantly evolving, with new developer tools and products being introduced that allow us to build secure and reliable applications more efficiently. In this tutorial, I’ll walk you through how to build highly performant web applications with Neon - a serverless PostgreSQL database designed for the..."
   url="https://freecodecamp.org/news/nextjs-clerk-neon-fullstack-development/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2024/07/Orange---Yellow-Gradient-Make-Design-Blog-Banner--77-.png"/>

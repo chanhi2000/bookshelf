@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/crjzwQ5yCAE" />
 
-Before we're done, there's a bug in our extension, and it's a bad one – or at least it's bad once you spot it. You see, when you tap to edit a text view, the iOS keyboard automatically appears so that user can start typing. But if you try typing lots, you'll notice that you can actually type underneath the keyboard because the text view hasn't adjusted its size because the keyboard appeared.
+Before we're done, there's a bug in our extension, and it's a bad one - or at least it's bad once you spot it. You see, when you tap to edit a text view, the iOS keyboard automatically appears so that user can start typing. But if you try typing lots, you'll notice that you can actually type underneath the keyboard because the text view hasn't adjusted its size because the keyboard appeared.
 
 If you don't see a keyboard when you tap to edit, it probably means you have the Connect Hardware Keyboard setting turned on. Press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>K</kbd> to disable the hardware keyboard and use the on-screen one.
 
@@ -61,9 +61,9 @@ Having our view adjust to the presence of a keyboard is tricky, because there ar
 
 In all the years I've done iOS development, I've seen at least a dozen ways of coping with keyboards, and few of them are easy. Even Apple's example solution requires fiddling around with constraints, which isn't ideal. I've tried to put together a solution that copes with all possibilities and also requires as little code as possible. If you manage to find something even simpler, do let me know!
 
-We can ask to be told when the keyboard state changes by using a new class called `NotificationCenter`. Behind the scenes, iOS is constantly sending out notifications when things happen – keyboard changing, application moving to the background, as well as any custom events that applications post. We can add ourselves as an observer for certain notifications and a method we name will be called when the notification occurs, and will even be passed any useful information.
+We can ask to be told when the keyboard state changes by using a new class called `NotificationCenter`. Behind the scenes, iOS is constantly sending out notifications when things happen - keyboard changing, application moving to the background, as well as any custom events that applications post. We can add ourselves as an observer for certain notifications and a method we name will be called when the notification occurs, and will even be passed any useful information.
 
-When working with the keyboard, the notifications we care about are `keyboardWillHideNotification` and `keyboardWillChangeFrameNotification`. The first will be sent when the keyboard has finished hiding, and the second will be shown when any keyboard state change happens – including showing and hiding, but also orientation, QuickType and more.
+When working with the keyboard, the notifications we care about are `keyboardWillHideNotification` and `keyboardWillChangeFrameNotification`. The first will be sent when the keyboard has finished hiding, and the second will be shown when any keyboard state change happens - including showing and hiding, but also orientation, QuickType and more.
 
 It might sound like we don't need `keyboardWillHideNotification` if we have `keyboardWillChangeFrameNotification`, but in my testing just using `keyboardWillChangeFrameNotification` isn't enough to catch a hardware keyboard being connected. Now, that's an extremely rare case, but we might as well be sure!
 
@@ -83,13 +83,13 @@ When working with keyboards, the dictionary will contain a key called `UIRespond
 
 One of the quirks of Objective-C was that arrays and dictionaries couldn't contain structures like `CGRect`, so Apple had a special class called `NSValue` that acted as a wrapper around structures so they could be put into dictionaries and arrays. That's what's happening here: we're getting an `NSValue` object, but we know it contains a `CGRect` inside so we use its `cgRectValue` property to read that value.
 
-Once we finally pull out the correct frame of the keyboard, we need to convert the rectangle to our view's co-ordinates. This is because rotation isn't factored into the frame, so if the user is in landscape we'll have the width and height flipped – using the `convert()` method will fix that.
+Once we finally pull out the correct frame of the keyboard, we need to convert the rectangle to our view's co-ordinates. This is because rotation isn't factored into the frame, so if the user is in landscape we'll have the width and height flipped - using the `convert()` method will fix that.
 
 The next thing we need to do in the `adjustForKeyboard()` method is to adjust the `contentInset` and `scrollIndicatorInsets` of our text view. These two essentially indent the edges of our text view so that it appears to occupy less space even though its constraints are still edge to edge in the view.
 
 Finally, we're going to make the text view scroll so that the text entry cursor is visible. If the text view has shrunk this will now be off screen, so scrolling to find it again keeps the user experience intact.
 
-It's not a lot of code, but it *is* complicated – par for the course on this project, it seems. Anyway, here's the method:
+It's not a lot of code, but it *is* complicated - par for the course on this project, it seems. Anyway, here's the method:
 
 ```swift
 @objc func adjustForKeyboard(notification: Notification) {

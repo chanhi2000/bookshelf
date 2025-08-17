@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,9 +73,9 @@ navigationController?.isToolbarHidden = false
 
 The first line is new, or at least part of it is: we're creating a new bar button item using the special system item type `.flexibleSpace`, which creates a flexible space. It doesn't need a target or action because it can't be tapped. The second line you've seen before, although now it's calling the `reload()` method on the web view rather than using a method of our own.
 
-The last two lines are new: the first creates an array containing the flexible space and the refresh button, then sets it to be our view controller's `toolbarItems` array. The second sets the navigation controller's `isToolbarHidden` property to be false, so the toolbar will be shown – and its items will be loaded from our current view.
+The last two lines are new: the first creates an array containing the flexible space and the refresh button, then sets it to be our view controller's `toolbarItems` array. The second sets the navigation controller's `isToolbarHidden` property to be false, so the toolbar will be shown - and its items will be loaded from our current view.
 
-That code will compile and run, and you'll see the refresh button neatly aligned to the right – that's the effect of the flexible space automatically taking up as much room as it can on the left.
+That code will compile and run, and you'll see the refresh button neatly aligned to the right - that's the effect of the flexible space automatically taking up as much room as it can on the left.
 
 The next step is going to be to add a `UIProgressView` to our toolbar, which will show how far the page is through loading. However, this requires two new pieces of information:
 
@@ -110,7 +110,7 @@ toolbarItems = [progressButton, spacer, refresh]
 
 That is, progress view first, then a space in the center, then the refresh button on the right.
 
-If you run the app now, you'll just see a thin gray line for our progress view – that's because it's default value is 0, so there's nothing colored in. Ideally we want to set this to match our webView's `estimatedProgress` value, which is a number from 0 to 1, but WKNavigationDelegate doesn't tell us when this value has changed.
+If you run the app now, you'll just see a thin gray line for our progress view - that's because it's default value is 0, so there's nothing colored in. Ideally we want to set this to match our webView's `estimatedProgress` value, which is a number from 0 to 1, but WKNavigationDelegate doesn't tell us when this value has changed.
 
 Apple's solution to this is huge. Apple's solution is powerful. And, best of all, Apple's solution is almost everywhere in its toolkits, so once you learn how it works you can apply it elsewhere. It's called key-value observing (KVO), and it effectively lets you say, "please tell me when the property X of object Y gets changed by anyone at any time."
 
@@ -122,13 +122,13 @@ webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), opt
 
 The `addObserver()` method takes four parameters: who the observer is (we're the observer, so we use `self`), what property we want to observe (we want the `estimatedProgress` property of `WKWebView`), which value we want (we want the value that was just set, so we want the new one), and a context value.
 
- `forKeyPath` and `context` bear a little more explanation. `forKeyPath` isn't named `forProperty` because it's not just about entering a property name. You can actually specify a path: one property inside another, inside another, and so on. More advanced key paths can even add functionality, such as averaging all elements in an array! Swift has a special keyword, `#keyPath`, which works like the `#selector` keyword you saw previously: it allows the compiler to check that your code is correct – that the `WKWebView` class actually has an `estimatedProgress` property.
+ `forKeyPath` and `context` bear a little more explanation. `forKeyPath` isn't named `forProperty` because it's not just about entering a property name. You can actually specify a path: one property inside another, inside another, and so on. More advanced key paths can even add functionality, such as averaging all elements in an array! Swift has a special keyword, `#keyPath`, which works like the `#selector` keyword you saw previously: it allows the compiler to check that your code is correct - that the `WKWebView` class actually has an `estimatedProgress` property.
 
  `context` is easier: if you provide a unique value, that same context value gets sent back to you when you get your notification that the value has changed. This allows you to check the context to make sure it was your observer that was called. There are some corner cases where specifying (and checking) a context is required to avoid bugs, but you won't reach them during any of this series.
 
 ::: warning
 
-in more complex applications, all calls to `addObserver()` should be matched with a call to `removeObserver()` when you're finished observing – for example, when you're done with the view controller.
+in more complex applications, all calls to `addObserver()` should be matched with a call to `removeObserver()` when you're finished observing - for example, when you're done with the view controller.
 
 :::
 
@@ -144,7 +144,7 @@ override func observeValue(forKeyPath keyPath: String?, of object: Any?, change:
 
 As you can see it's telling us which key path was changed, and it also sends us back the context we registered earlier so you can check whether this callback is for you or not.
 
-In this project, all we care about is whether the `keyPath` parameter is set to `estimatedProgress` – that is, if the `estimatedProgress` value of the web view has changed. And if it has, we set the `progress` property of our progress view to the new `estimatedProgress` value.
+In this project, all we care about is whether the `keyPath` parameter is set to `estimatedProgress` - that is, if the `estimatedProgress` value of the web view has changed. And if it has, we set the `progress` property of our progress view to the new `estimatedProgress` value.
 
 Minor note: `estimatedProgress` is a `Double`, which as you should remember is one way of representing decimal numbers like 0.5 or 0.55555. Unhelpfully, `UIProgressView`'s `progress` property is a `Float`, which is another (lower-precision) way of representing decimal numbers. Swift doesn't let you put a `Double` into a `Float`, so we need to create a new `Float` from the `Double`.
 

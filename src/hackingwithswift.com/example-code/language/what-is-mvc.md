@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-MVC – short for Model-View-Controller – is Apple’s preferred way of architecting apps for its platforms, and so it’s the default approach used by most developers on Apple platforms.
+MVC - short for Model-View-Controller - is Apple’s preferred way of architecting apps for its platforms, and so it’s the default approach used by most developers on Apple platforms.
 
 In MVC each piece of your code is one of three things:
 

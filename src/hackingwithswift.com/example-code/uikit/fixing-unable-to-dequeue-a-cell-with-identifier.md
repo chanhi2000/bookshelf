@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -90,7 +90,7 @@ If you're using modern Xcode templates where you get a prototype cell made for y
 let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 ```
 
-You should then ensure a prototype cell exists in your tableview with that identifier – double check the name, and make sure you've typed it into the "Identifier" box and not "Class" or something else.
+You should then ensure a prototype cell exists in your tableview with that identifier - double check the name, and make sure you've typed it into the "Identifier" box and not "Class" or something else.
 
 If you aren't using an Xcode template, use that line of code anyway then register your own re-use identifier like this:
 

@@ -87,7 +87,7 @@ From that simple definition, SwiftData is able to see that:
 1. Each school can have many students.
 2. Each student must belong to precisely one school.
 
-However, these two are separate things: if we create a student and set its `school` property, SwiftData doesn’t understand to add that student to the `students` array in that school – it doesn’t automatically infer that the relationship goes two ways.
+However, these two are separate things: if we create a student and set its `school` property, SwiftData doesn’t understand to add that student to the `students` array in that school - it doesn’t automatically infer that the relationship goes two ways.
 
 However, if we make one small change to our `Student` model, we *do* get a property relationship inference:
 
@@ -110,9 +110,9 @@ The only change is that we’ve marked the school as being optional, meaning tha
 2. Equally, adding or removing a student from a school’s list of students should adjust the student’s `school` property.
 3. So what happens if you remove a student from a school without also adding them to another school?
 
-When we defined the `school` property as being non-optional we’re saying that latter case should be impossible – a student must *always* belong to a school. If we attempt to break this rule, SwiftData will trigger a crash in our app because we’ve put it into an invalid state.
+When we defined the `school` property as being non-optional we’re saying that latter case should be impossible - a student must *always* belong to a school. If we attempt to break this rule, SwiftData will trigger a crash in our app because we’ve put it into an invalid state.
 
-So, SwiftData takes the only safe approach by default: it will only infer the relationship when it’s safe to do so – when it won’t inadvertently trigger a crash because we changed an array. If you see an error along the lines of, “warning: validation recovery attempt FAILED with Error Domain=NSCocoaErrorDomain Code=1570 %{PROPERTY}@ is a required value” then this is exactly what you’ve hit: you’re trying to set a non-optional value to nil. Given that Swift refuses to let us do this directly, it’s probably happening through a relationship.
+So, SwiftData takes the only safe approach by default: it will only infer the relationship when it’s safe to do so - when it won’t inadvertently trigger a crash because we changed an array. If you see an error along the lines of, “warning: validation recovery attempt FAILED with Error Domain=NSCocoaErrorDomain Code=1570 %{PROPERTY}@ is a required value” then this is exactly what you’ve hit: you’re trying to set a non-optional value to nil. Given that Swift refuses to let us do this directly, it’s probably happening through a relationship.
 
 On the flip side, as soon as we made the `school` property optional, that danger went away: removing a student from the `students` array will just set their `school` property to nil, so there’s no crash risk.
 
@@ -124,7 +124,7 @@ For the many times that isn’t enough, we can create an explicit relationship u
 @Relationship(inverse: \School.students) var school: School
 ```
 
-That can be optional or non-optional – there are no safety constraints here, because you’re telling SwiftData exactly what you want.
+That can be optional or non-optional - there are no safety constraints here, because you’re telling SwiftData exactly what you want.
 
 Alternatively, we can change the `School` class so its `students` property looks like this:
 
@@ -146,7 +146,7 @@ Remember, this is an issue of safety: by using an explicit relationship you’re
 
 :::
 
-We have four delete rules in SwiftData, with `.nullify` being the default – set the related model’s reference to nil when this object is deleted. If you have non-optional references – if you say that all students must have exactly one school, for example – then you should use a different delete rule instead. 
+We have four delete rules in SwiftData, with `.nullify` being the default - set the related model’s reference to nil when this object is deleted. If you have non-optional references - if you say that all students must have exactly one school, for example - then you should use a different delete rule instead. 
 
 For example, we might say that schools can have many students, and when we remove a student from our array we automatically delete that student object entirely. This uses the `.cascade` delete rule, like so:
 

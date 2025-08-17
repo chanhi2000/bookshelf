@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,9 +73,9 @@ This is easily split into two parts: on the left we're assigning to the `rightBa
 
 On the right we create a new instance of the `UIBarButtonItem` data type, setting it up with three parameters: a system item, a target, and an action. The system item we specify is `.action`, but you can type `.` to have code completion tell you the many other options available. The `.action` system item displays an arrow coming out of a box, signaling the user can do something when it's tapped.
 
-The `target` and `action` parameters go hand in hand, because combined they tell the `UIBarButtonItem` what method should be called. The `action` parameter is saying "when you're tapped, call the `shareTapped()` method," and the target parameter tells the button that the method belongs to the current view controller – `self`.
+The `target` and `action` parameters go hand in hand, because combined they tell the `UIBarButtonItem` what method should be called. The `action` parameter is saying "when you're tapped, call the `shareTapped()` method," and the target parameter tells the button that the method belongs to the current view controller - `self`.
 
-The part in `#selector` bears explaining a bit more, because it's new and unusual syntax. What it does is tell the Swift compiler that a method called "shareTapped" will exist, and should be triggered when the button is tapped. Swift will check this for you: if we had written "shareTaped" by accident – missing the second P – Xcode will refuse to build our app until we fix the typo.
+The part in `#selector` bears explaining a bit more, because it's new and unusual syntax. What it does is tell the Swift compiler that a method called "shareTapped" will exist, and should be triggered when the button is tapped. Swift will check this for you: if we had written "shareTaped" by accident - missing the second P - Xcode will refuse to build our app until we fix the typo.
 
 If you don't like the look of the various system bar button items available, you can create one with your own title or image instead. However, it's generally preferred to use the system items where possible because users already know what they do.
 
@@ -101,13 +101,13 @@ A lot of that code is old; we already learned about `present()` in project 2. Ho
 - We start with the method name, marked with `@objc` because this method will get called by the underlying Objective-C operating system (the `UIBarButtonItem`) so we need to mark it as being available to Objective-C code. When you call a method using `#selector` you’ll always need to use `@objc` too.
 - Our image view may or may not have an image inside, so we’ll read it out safely and convert it to JPEG data. This has a `compressionQuality` parameter where you can specify a value between 1.0 (maximum quality) and 0.0 (minimum quality_.
 - Next we create a `UIActivityViewController`, which is the iOS method of sharing content with other apps and services.
-- Finally, we tell iOS where the activity view controller should be anchored – where it should appear from.
+- Finally, we tell iOS where the activity view controller should be anchored - where it should appear from.
 
-On iPhone, activity view controllers automatically take up the full screen, but on iPad they appear as a popover that allows the user to see what they were working on below. This line of code tells iOS to anchor the activity view controller to the right bar button item (our share button), but this only has an effect on iPad – on iPhone it's ignored.
+On iPhone, activity view controllers automatically take up the full screen, but on iPad they appear as a popover that allows the user to see what they were working on below. This line of code tells iOS to anchor the activity view controller to the right bar button item (our share button), but this only has an effect on iPad - on iPhone it's ignored.
 
 ::: tip
 
-In case you were wondering, when you use `@IBAction` to make storyboards call your code, that automatically implies `@objc` – Swift knows that no `@IBAction` makes sense unless it can be called by Objective-C code.
+In case you were wondering, when you use `@IBAction` to make storyboards call your code, that automatically implies `@objc` - Swift knows that no `@IBAction` makes sense unless it can be called by Objective-C code.
 
 :::
 
@@ -117,9 +117,9 @@ So, the real focus is on the first parameter: we're passing in `[image]`. This i
 
 And… that's it. No, really. We're pretty much done: your app now supports sharing.
 
-Don’t worry if you’re not sure about `@objc` just yet – we’ll be coming back to it again and again. The main thing to remember is that when Swift code calls a Swift method that method doesn’t need to be marked `@objc`. On the other hand, when Objective-C code needs to call a Swift method – and that’s any time it gets called by one of Apple’s UI components, for example – then the `@objc` *is* required.
+Don’t worry if you’re not sure about `@objc` just yet - we’ll be coming back to it again and again. The main thing to remember is that when Swift code calls a Swift method that method doesn’t need to be marked `@objc`. On the other hand, when Objective-C code needs to call a Swift method - and that’s any time it gets called by one of Apple’s UI components, for example - then the `@objc` *is* required.
 
-![`UIActivityViewController` lets your users share, print, save and more – all in just two lines of code!](https://hackingwithswift.com/img/books/hws/3-1@2x.png)
+![`UIActivityViewController` lets your users share, print, save and more - all in just two lines of code!](https://hackingwithswift.com/img/books/hws/3-1@2x.png)
 
 ---
 
@@ -137,5 +137,5 @@ When you select “Privacy - Photo Library Additions Usage Description” you’
 
 In this app we only need to save images, so put this text in the box: “We need to save photos you like.”
 
-Now try running the app again, and this time selecting “Save Image” will show a message asking whether the user is OK with the app writing to their photos – much better!
+Now try running the app again, and this time selecting “Save Image” will show a message asking whether the user is OK with the app writing to their photos - much better!
 

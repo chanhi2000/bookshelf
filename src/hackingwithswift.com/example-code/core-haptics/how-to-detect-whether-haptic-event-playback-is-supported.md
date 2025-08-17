@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Core Haptics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/core-haptics/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Modern iPhones have extremely sensitive haptic engines inside, allowing us precise control over taps and vibrations, and even mixing effects – see “<a href="/example-code/core-haptics/how-to-play-custom-vibrations-using-core-haptics">How to play custom vibrations using Core Haptics</a>” and “<a href="/example-code/core-haptics/how-to-modify-haptic-events-over-time-using-chhapticparametercurve">How to modify haptic events over time using CHHapticParameterCurve</a>” for more information on that.
+Modern iPhones have extremely sensitive haptic engines inside, allowing us precise control over taps and vibrations, and even mixing effects - see “<a href="/example-code/core-haptics/how-to-play-custom-vibrations-using-core-haptics">How to play custom vibrations using Core Haptics</a>” and “<a href="/example-code/core-haptics/how-to-modify-haptic-events-over-time-using-chhapticparametercurve">How to modify haptic events over time using CHHapticParameterCurve</a>” for more information on that.
 
 However, not all devices support Core Haptics, which is why you should always check for supported hardware before trying to spin up any haptic feedback. Once you added an import for `CoreHaptics`, you can detect haptic availability like this:
 

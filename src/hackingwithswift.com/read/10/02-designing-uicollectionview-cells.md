@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ Use the document outline to select the collection view inside the collection vie
 
 Collection views are extremely similar to table views, with the exception that they display as grids rather than as simple rows. But while the display is different, the underlying method calls are so similar that you could probably dive right in yourself if you wanted! (Don’t worry, though: I’ll walk you through it.)
 
-Our collection view already has one prototype cell, which is the empty square you'll see in the top-left corner. This works the same as with table views – you'll remember we changed the initial cell in project 7 so that we could add subtitles.
+Our collection view already has one prototype cell, which is the empty square you'll see in the top-left corner. This works the same as with table views - you'll remember we changed the initial cell in project 7 so that we could add subtitles.
 
 Select that collection view cell now, then go to the attributes inspector: change its Background from "Default" (transparent) to white and give it the identifier “Person” so that we can reference it in code. Now place a `UIImageView` in there, with X:10, Y:10, width 120 and height 120. We'll be using this to show pictures of people's faces.
 
@@ -81,7 +81,7 @@ Place a `UILabel` in there too, with X:10, Y:134, width 120 and height 40. In th
 
 ![Your collection view cell design should have one image view and one label.](https://hackingwithswift.com/img/books/hws/10-2@2x.png)
 
-So far this has been fairly usual storyboard work, but now we're going to do something we've never done before: create a custom class for our cell. This is needed because our collection view cell has two views that we created – the image view and the label – and we need a way to manipulate this in code. The shortcut way would be to give them unique tags and give them variables when the app runs, but we're going to do it The Proper Way this time so you can learn.
+So far this has been fairly usual storyboard work, but now we're going to do something we've never done before: create a custom class for our cell. This is needed because our collection view cell has two views that we created - the image view and the label - and we need a way to manipulate this in code. The shortcut way would be to give them unique tags and give them variables when the app runs, but we're going to do it The Proper Way this time so you can learn.
 
 Go to the File menu and choose New > File, then select iOS > Source > Cocoa Touch Class and click Next. You'll be asked to fill in two text fields: where it says "Subclass of" you should enter "UICollectionViewCell", and where it says "Class" enter "PersonCell". Click Next then Create, and Xcode will create a new class called `PersonCell` that inherits from `UICollectionViewCell`.
 

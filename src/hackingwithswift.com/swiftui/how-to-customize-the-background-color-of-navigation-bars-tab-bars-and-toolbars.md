@@ -76,7 +76,7 @@ The background you choose here is used when the system deems it necessary, rathe
 
 :::
 
-Using `toolbarBackground(.teal)` doesn't specify *which* toolbar should be colored teal, so it's down to the system to select whatever is the primary toolbar – that's the navigation bar on iOS, but on macOS it will be the window toolbar instead.
+Using `toolbarBackground(.teal)` doesn't specify *which* toolbar should be colored teal, so it's down to the system to select whatever is the primary toolbar - that's the navigation bar on iOS, but on macOS it will be the window toolbar instead.
 
 If you want one or two bar types to be colored, or perhaps if you want to provide different styling for each bar, you can provide a second parameter to `toolbarBackground()` to get extra control. For example, we could ask the system to color both the tab bar and the navigation bar like this:
 

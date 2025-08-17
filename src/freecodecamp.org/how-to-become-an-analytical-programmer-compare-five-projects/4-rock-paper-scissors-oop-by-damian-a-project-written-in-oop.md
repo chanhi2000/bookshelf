@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "“Rock Paper Scissors OOP” by Damian: A project written in OOP"
-description: "Article(s) > (4/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
+description: "Article(s) > (4/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
 category:
   - Node.js
   - Mermaid.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > (4/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
       content: "“Rock Paper Scissors OOP” by Damian: A project written in OOP"
     - property: og:url
@@ -35,8 +35,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -48,8 +48,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects#heading-4-rock-paper-scissors-oop-by-damian-a-project-written-in-oop"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
@@ -168,7 +168,7 @@ class gameInst inst
 <!-- TODO: 내용 비교 후 이미지 삭제 -->
 ![First Simple SB-Diagram of the RPS game by Damian](https://cdn.hashnode.com/res/hashnode/image/upload/v1746311035208/e9dee7a0-2428-4c08-bc41-37b81846ae34.jpeg)
 
-Again, we can see aspects of this workflow that coincide with what we found in the previous projects – but this time those similarities are more difficult to capture. As in the previous code, the **controller pattern** is prevalent in this code, but instead of being associated with an anonymous function or a global one, it is now a **class’s module**.
+Again, we can see aspects of this workflow that coincide with what we found in the previous projects - but this time those similarities are more difficult to capture. As in the previous code, the **controller pattern** is prevalent in this code, but instead of being associated with an anonymous function or a global one, it is now a **class’s module**.
 
 The instantiation of the class runs the constructor which includes the immediate assignment of click event handlers into the interface (just as with the other projects). They use a module of the class, the `startGame` module, as a callback function.
 

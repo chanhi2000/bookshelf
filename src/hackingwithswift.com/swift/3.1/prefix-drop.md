@@ -50,7 +50,7 @@ isOriginal: false
 
 > Available from Swift 3.1
 
-Two useful new methods have been added to the `Sequence` protocol: `prefix(while:)` and `drop(while:)`. The former returns the longest subsequence that satisfies a predicate, which is a fancy way of saying that you give it a closure to run on every item, and it will go through all the elements in the sequence and return those that match the closure – but will stop as soon as it finds a non-matching element.
+Two useful new methods have been added to the `Sequence` protocol: `prefix(while:)` and `drop(while:)`. The former returns the longest subsequence that satisfies a predicate, which is a fancy way of saying that you give it a closure to run on every item, and it will go through all the elements in the sequence and return those that match the closure - but will stop as soon as it finds a non-matching element.
 
 Let's take a look at a code example:
 
@@ -60,7 +60,7 @@ let prefixed = names.prefix { $0.hasPrefix("Michael") }
 print(prefixed)
 ```
 
-That uses the `hasPrefix()` method to return the subsequence `["Michael Jackson", "Michael Jordan", "Michael Caine"` – the first three elements in the sequence. It won't include "Michael Douglas", because that comes after the first non-Michael. If you wanted *all* the Michaels regardless of their position, you should use `filter()` instead.
+That uses the `hasPrefix()` method to return the subsequence `["Michael Jackson", "Michael Jordan", "Michael Caine"` - the first three elements in the sequence. It won't include "Michael Douglas", because that comes after the first non-Michael. If you wanted *all* the Michaels regardless of their position, you should use `filter()` instead.
 
 The second new method, `drop(while:)` is effectively the opposite: it finds the longest subsequence that satisfies your predicate, then returns everything *after* it. For example:
 
@@ -70,7 +70,7 @@ let dropped = names.drop { $0.hasPrefix("Michael") }
 print(dropped)
 ```
 
-That will return the subsequence `["Taylor Swift", "Adele Adkins", "Michael Douglas"]` – everything after the initial Michaels.
+That will return the subsequence `["Taylor Swift", "Adele Adkins", "Michael Douglas"]` - everything after the initial Michaels.
 
 ::: details Other Changes in Swift 3.1
 

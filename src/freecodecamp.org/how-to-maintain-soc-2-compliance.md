@@ -92,7 +92,7 @@ You can achieve this by:
 
 ### 3. Continuously Monitor Your Systems
 
-SOC 2 is not just a one-time thorough audit – it always follows a set of guidelines. While SOC 2 audits take place annually, you can choose to conduct them more frequently, and also keep in mind the importance of regularly reviewing your security policies. You can also set up periodic internal audits as a litmus test of your safety measures.
+SOC 2 is not just a one-time thorough audit - it always follows a set of guidelines. While SOC 2 audits take place annually, you can choose to conduct them more frequently, and also keep in mind the importance of regularly reviewing your security policies. You can also set up periodic internal audits as a litmus test of your safety measures.
 
 But that means you must employ a procedure to monitor the systems regularly in the future. You can set up notifications on any abnormal incidences by using a security information and event management ([<FontIcon icon="fas fa-globe"/>SIEM](https://acecloudhosting.com/cyber-security/managed-security-services/siem/)) system to centralize and analyze security events, system outages, or slow network for adverse effects to the compliance level.
 

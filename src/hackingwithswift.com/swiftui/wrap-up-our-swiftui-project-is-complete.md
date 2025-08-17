@@ -55,7 +55,7 @@ next: /hackingwithswift.com/swiftui/how-to-create-static-labels-with-a-text-view
 
 <VidStack src="youtube/ki-vvd5ulDw" />
 
-I'm not going to claim this was an easy project, particularly because SwiftUI forces us to think in such a different way from UIKit. Not only do we have the declarative, reactive approach to logic, but we also have `@State`, environment objects, two-way bindings, and more to deal with – it's a combination of powerful new Swift language features in tandem with a whole new UI framework.
+I'm not going to claim this was an easy project, particularly because SwiftUI forces us to think in such a different way from UIKit. Not only do we have the declarative, reactive approach to logic, but we also have `@State`, environment objects, two-way bindings, and more to deal with - it's a combination of powerful new Swift language features in tandem with a whole new UI framework.
 
 In this project I've tried to expose you to a number of different things all at once, including lists, stacks, forms, navigation, alerts, and more. But even though we've only built a simple app, I hope you can appreciate how powerful SwiftUI is, and how it makes it easy to build real-world projects quickly.
 

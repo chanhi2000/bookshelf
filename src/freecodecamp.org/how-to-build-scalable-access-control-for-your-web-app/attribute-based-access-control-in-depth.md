@@ -181,7 +181,7 @@ Read on to find the answers to these questions!
 
 Before we dive into the implementation details, let me briefly revisit the question from the previous section: Where should you *define* the policies?
 
-When there are multiple ways to access a service – whether through a mobile app, web app, or other platforms – the back-end should serve as the source of truth for policy definitions. Defining ABAC policies in the back-end keeps things consistent and secure across all platforms. This means that all clients interact with the same set of rules, reducing the chances of policy discrepancies.
+When there are multiple ways to access a service - whether through a mobile app, web app, or other platforms - the back-end should serve as the source of truth for policy definitions. Defining ABAC policies in the back-end keeps things consistent and secure across all platforms. This means that all clients interact with the same set of rules, reducing the chances of policy discrepancies.
 
 So, the back-end is where all the policy definitions live, and it makes them available to the front-end when needed. The front-end then enforces these decisions on the user interface. But don't forget, the back-end should always enforce these policies as well.
 

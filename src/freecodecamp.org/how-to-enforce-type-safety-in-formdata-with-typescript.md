@@ -141,7 +141,7 @@ The `appendToFormData` function takes in three arguments. Here’s how it all wo
 - The second argument, `key`, is the key name of the field you want to append. Its type is of `MyFormDataKeys`, the union type we created to ensure only those keys we defined are appended to FormData.
 - The third argument is a string `value` which represents the value to be appended with the key.
 
-Note that **FormData only accepts the** `string` **and** `Blob` **types as values** in each key/value pair. In this guide, we’re only working with string values – but keep in mind that you can use blob values for appending files to API requests.
+Note that **FormData only accepts the** `string` **and** `Blob` **types as values** in each key/value pair. In this guide, we’re only working with string values - but keep in mind that you can use blob values for appending files to API requests.
 
 Now, let’s test out the function:
 

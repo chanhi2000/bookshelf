@@ -77,12 +77,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745248996492/6d3f566
 
 <SiteInfo
   name="How to Export Your Database in Django"
-  desc="When you're working on a Django project – whether it's a small side project or a growing web app – there comes a point where you need to export your database. Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data wi..."
+  desc="When you're working on a Django project - whether it's a small side project or a growing web app - there comes a point where you need to export your database. Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data wi..."
   url="https://freecodecamp.org/news/how-to-export-your-database-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745248996492/6d3f5665-3329-4894-9f99-3ba257867e0d.png"/>
 
-When you're working on a Django project – whether it's a small side project or a growing web app – there comes a point where you need to export your database.
+When you're working on a Django project - whether it's a small side project or a growing web app - there comes a point where you need to export your database.
 
 Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data with someone. Or maybe you just want to peek at your data in a different format.
 
@@ -343,7 +343,7 @@ Exporting your database in Django doesn’t have to be a big deal. With built-in
 ```component VPCard
 {
   "title": "How to Export Your Database in Django",
-  "desc": "When you're working on a Django project – whether it's a small side project or a growing web app – there comes a point where you need to export your database. Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data wi...",
+  "desc": "When you're working on a Django project - whether it's a small side project or a growing web app - there comes a point where you need to export your database. Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data wi...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-export-your-database-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

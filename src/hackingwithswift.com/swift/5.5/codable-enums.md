@@ -61,7 +61,7 @@ enum Weather: Codable {
 }
 ```
 
-That has one simple case, one case with a single associated values, and a third case with two associated values – all are integers, but you could use strings or other `Codable` types.
+That has one simple case, one case with a single associated values, and a third case with two associated values - all are integers, but you could use strings or other `Codable` types.
 
 With that enum defined, we can create an array of weather to make a forecast, then use `JSONEncoder` or similar and convert the result to a printable string:
 

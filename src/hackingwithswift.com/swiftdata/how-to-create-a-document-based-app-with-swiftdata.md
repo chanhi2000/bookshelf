@@ -192,5 +192,5 @@ You must *not* use the `modelContainer()` modifier when working with a SwiftData
 
 With those four changes done the app is fully upgraded to work with documents. Next time you run it you'll see the app launches straight to the standard document browser interface, where you can press <FontIcon icon="iconfont icon-select"/>`[+]` to create a new document, then create reports inside there.
 
-As I said earlier, SwiftData silently creates separate storage for each new document along with any associated files used in your data models, meaning that if you use `@Attribute(.externalStorage)` on any of your model properties those external files will be stored in your document. This is why it's so important to conform to "com.apple.package" – your "document" is really a directory of data containing the underlying SQLite database and all its external files.
+As I said earlier, SwiftData silently creates separate storage for each new document along with any associated files used in your data models, meaning that if you use `@Attribute(.externalStorage)` on any of your model properties those external files will be stored in your document. This is why it's so important to conform to "com.apple.package" - your "document" is really a directory of data containing the underlying SQLite database and all its external files.
 

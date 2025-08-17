@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750347297168/f873d57
 
 <SiteInfo
   name="How to Write Documentation That Increases Sign-ups"
-  desc="Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought – just add a few code snippets and move on. But if you’re serious about product adop..."
+  desc="Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought - just add a few code snippets and move on. But if you’re serious about product adop..."
   url="https://freecodecamp.org/news/how-to-write-documentation-that-increases-sign-ups"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1750347297168/f873d57d-22e5-4cbb-bda9-ca24861db09d.png"/>
 
-Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought – just add a few code snippets and move on.
+Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought - just add a few code snippets and move on.
 
 But if you’re serious about product adoption, your docs need to do more than exist. They need to guide, support, and convert. In this tutorial, we’ll break down how to write documentation that actually helps users and gets them to stick around.
 
@@ -62,7 +62,7 @@ But if you’re serious about product adoption, your docs need to do more than e
 
 ## What’s the Problem with Most Documentation?
 
-The most common problem with documentation is that its authors believe their audience knows everything. This leads to the loss of many potential leads – causing people to abandon your platform before even fully understanding it.
+The most common problem with documentation is that its authors believe their audience knows everything. This leads to the loss of many potential leads - causing people to abandon your platform before even fully understanding it.
 
 Here’s why:
 
@@ -251,7 +251,7 @@ Good documentation:
 
 Writing good docs requires careful planning, collaboration, and a solid understanding of your users. Whether your developers are writing it or you're working with a technical copywriter, excellent documentation is rarely a solo job. It requires input from the people who developed the product and those who support its users daily.
 
-When done right, your docs don’t just explain things – they make your product more straightforward to use, build trust with potential customers, and drive sign-ups.
+When done right, your docs don’t just explain things - they make your product more straightforward to use, build trust with potential customers, and drive sign-ups.
 
 Liked what you read? I help SaaS companies clarify their messaging and build authority through content. You can connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`tooba-jamal`)](https://linkedin.com/in/tooba-jamal/).
 
@@ -259,7 +259,7 @@ Liked what you read? I help SaaS companies clarify their messaging and build aut
 ```component VPCard
 {
   "title": "How to Write Documentation That Increases Sign-ups",
-  "desc": "Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought – just add a few code snippets and move on. But if you’re serious about product adop...",
+  "desc": "Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought - just add a few code snippets and move on. But if you’re serious about product adop...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-documentation-that-increases-sign-ups.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

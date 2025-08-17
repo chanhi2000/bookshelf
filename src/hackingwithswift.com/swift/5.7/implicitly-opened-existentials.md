@@ -62,7 +62,7 @@ func double<T: Numeric>(_ number: T) -> T {
 }
 ```
 
-If we call that directly, e.g. `double(5)`, then the Swift compiler can choose to *specialize* the function – to effectively create a version that accepts an `Int` directly, for performance reasons.
+If we call that directly, e.g. `double(5)`, then the Swift compiler can choose to *specialize* the function - to effectively create a version that accepts an `Int` directly, for performance reasons.
 
 However, what SE-0352 does is allow that function to be callable when all we know is that our data conforms to a protocol, like this:
 

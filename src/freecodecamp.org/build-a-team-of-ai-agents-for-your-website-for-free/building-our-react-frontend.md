@@ -203,7 +203,7 @@ Next is the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file. Below is t
 
 All of these styles relate to your Tailwind CSS setup throughout your project.
 
-Just one file remains for the CSS and it’s the <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file. This is a big file, so I will split the code into two parts – just copy and paste them into the file.
+Just one file remains for the CSS and it’s the <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file. This is a big file, so I will split the code into two parts - just copy and paste them into the file.
 
 Here is the first part:
 
@@ -754,7 +754,7 @@ function Footer() {
 export default Footer;
 ```
 
-The code is pretty much self-explanatory – it has some contact details which will show up at the bottom of your page in the footer section.
+The code is pretty much self-explanatory - it has some contact details which will show up at the bottom of your page in the footer section.
 
 Now we can work on the <FontIcon icon="fa-brands fa-react"/>`Layout.jsx`. I have also split it into two parts.
 

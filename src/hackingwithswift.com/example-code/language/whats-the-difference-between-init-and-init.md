@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -102,7 +102,7 @@ struct Person {
 }
 ```
 
-Notice the initializer is now called `init?()` to reflect that it returns an optional – the process might return `nil` if the creation fails. The logic is pretty simple: if there are 11 digits we assume it’s correct, otherwise we return nil. Note: if you *really* wanted to validate that number you’d need to use a regular expression.
+Notice the initializer is now called `init?()` to reflect that it returns an optional - the process might return `nil` if the creation fails. The logic is pretty simple: if there are 11 digits we assume it’s correct, otherwise we return nil. Note: if you *really* wanted to validate that number you’d need to use a regular expression.
 
 -->
 

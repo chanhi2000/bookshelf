@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,9 +53,9 @@ isOriginal: false
 
 <VidStack src="youtube/bOURBKBRR3A" />
 
-We're going to make an anagram game, where the user is asked to make words out of a larger word. We're going to put together a list of possible starter words for the game, and that list will be stored in a separate file. But how do we get the text from the file into the app? Well, it turns out that Swift's `String` data type makes it a cinch – thanks, Apple!
+We're going to make an anagram game, where the user is asked to make words out of a larger word. We're going to put together a list of possible starter words for the game, and that list will be stored in a separate file. But how do we get the text from the file into the app? Well, it turns out that Swift's `String` data type makes it a cinch - thanks, Apple!
 
-If you haven't already downloaded the assets for this project from [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), please do so now. In the project5-files folder you'll find the file start.txt – please drag that into your Xcode project, making sure that "Copy items if needed" is checked.
+If you haven't already downloaded the assets for this project from [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), please do so now. In the project5-files folder you'll find the file start.txt - please drag that into your Xcode project, making sure that "Copy items if needed" is checked.
 
 The start.txt file contains over 12,000 eight-letter words we can use for our game, all stored one word per line. We need to turn that into an array of words we can play with. Behind the scenes, those line breaks are marked with a special line break character that is usually expressed as `\n`. So, we need to load that word list into a string, then split it into an array by breaking up wherever we see `\n`.
 
@@ -70,7 +70,7 @@ var usedWords = [String]()
 
 Second, loading our array. This is done in three parts: finding the path to our start.txt file, loading the contents of that file, then splitting it into an array.
 
-Finding a path to a file is something you'll do a lot, because even though you know the file is called "start.txt" you don't know where it might be on the filesystem. So, we use a built-in method of `Bundle` to find it: `path(forResource:)`. This takes as its parameters the name of the file and its path extension, and returns a `String?` – i.e., you either get the path back or you get `nil` if it didn’t exist.
+Finding a path to a file is something you'll do a lot, because even though you know the file is called "start.txt" you don't know where it might be on the filesystem. So, we use a built-in method of `Bundle` to find it: `path(forResource:)`. This takes as its parameters the name of the file and its path extension, and returns a `String?` - i.e., you either get the path back or you get `nil` if it didn’t exist.
 
 Loading a file into a string is also something you'll need to get familiar with, and again there's an easy way to do it: when you create a `String` instance, you can ask it to create itself from the contents of a file at a particular path.
 

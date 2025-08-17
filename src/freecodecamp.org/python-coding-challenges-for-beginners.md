@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Python Coding Challenges For Beginner Developers – Code and Explanations
-description: Article(s) > Python Coding Challenges For Beginner Developers – Code and Explanations
+title: Python Coding Challenges For Beginner Developers - Code and Explanations
+description: Article(s) > Python Coding Challenges For Beginner Developers - Code and Explanations
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Python Coding Challenges For Beginner Developers – Code and Explanations
+      content: Article(s) > Python Coding Challenges For Beginner Developers - Code and Explanations
     - property: og:description
-      content: Python Coding Challenges For Beginner Developers – Code and Explanations
+      content: Python Coding Challenges For Beginner Developers - Code and Explanations
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-coding-challenges-for-beginners.html
 prev: /programming/py/articles/README.md
@@ -42,8 +42,8 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/pexels-pi
 ---
 
 <SiteInfo
-  name="Python Coding Challenges For Beginner Developers – Code and Explanations"
-  desc="Learning Python can be challenging, especially if you're not actually writing enough code. As a beginner, you may go through lessons and tutorials without practicing on your own – and this makes it harder to learn the language. The truth is, you cannot truly learn programming without writing code. It..."
+  name="Python Coding Challenges For Beginner Developers - Code and Explanations"
+  desc="Learning Python can be challenging, especially if you're not actually writing enough code. As a beginner, you may go through lessons and tutorials without practicing on your own - and this makes it harder to learn the language. The truth is, you cannot truly learn programming without writing code. It..."
   url="https://freecodecamp.org/news/python-coding-challenges-for-beginners/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2024/06/pexels-pixabay-139392.jpg"/>

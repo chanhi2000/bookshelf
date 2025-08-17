@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/IJChAEFA5as" />
 
-Computers are great at doing boring tasks billions of times in the time it took you to read this sentence. When it comes to repeating tasks in code, you can either copy and paste your code multiple times, or you can use *loops* – simple programming constructs that repeat a block of code for as long as a condition is true.
+Computers are great at doing boring tasks billions of times in the time it took you to read this sentence. When it comes to repeating tasks in code, you can either copy and paste your code multiple times, or you can use *loops* - simple programming constructs that repeat a block of code for as long as a condition is true.
 
 To demonstrate this, I want to introduce you to a special debugging function called `print()`: you give it some text to print, and it will print it. If you're running in a playground like we are, you'll see your text appear in the results window. If you're running a real app in Xcode, you'll see your text appear in Xcode's log window. Either way, `print()` is a great way to get a sneak peek at the contents of a variable.
 
@@ -169,7 +169,7 @@ for i in 0..<people.count {
 
 ## Inner loops
 
-You can put loops inside loops if you want, and even loops inside loops inside loops – although you might suddenly find you're doing something 10 million times, so be careful!
+You can put loops inside loops if you want, and even loops inside loops inside loops - although you might suddenly find you're doing something 10 million times, so be careful!
 
 We can combine two of our previous loops to create this:
 
@@ -198,7 +198,7 @@ One important note: although programmers conventionally use `i`, `j` and even `k
 
 ## While loops
 
-There's a third kind of loop you'll see, which repeats a block of code until you tell it to stop. This is used for things like game loops where you have no idea in advance how long the game will last – you just keep repeating "check for touches, animate robots, draw screen, check for touches…" and so on, until eventually the user taps a button to exit the game and go back to the main menu.
+There's a third kind of loop you'll see, which repeats a block of code until you tell it to stop. This is used for things like game loops where you have no idea in advance how long the game will last - you just keep repeating "check for touches, animate robots, draw screen, check for touches…" and so on, until eventually the user taps a button to exit the game and go back to the main menu.
 
 These loops are called `while` loops, and they look like this:
 
@@ -221,7 +221,7 @@ That code introduces a new keyword, called `break`. It's used to exit a `while` 
 
 These `while` loops work best when you're using unknown data, such as downloading things from the internet, reading from a file such as XML, looking through user input, and so on. This is because you only know when to stop the loop after you've run it a sufficient number of times.
 
-There is a counterpart to `break` called `continue`. Whereas breaking out of a loop stops execution immediately and continues directly after the loop, continuing a loop only exits the current iteration of the loop – it will jump back to the top of the loop and pick up from there.
+There is a counterpart to `break` called `continue`. Whereas breaking out of a loop stops execution immediately and continues directly after the loop, continuing a loop only exits the current iteration of the loop - it will jump back to the top of the loop and pick up from there.
 
 As an example, consider the code below:
 
@@ -239,5 +239,5 @@ for song in songs {
 
 ![Using continue to skip an iteration.](https://hackingwithswift.com/img/books/hws/loops-11@2x.png)
 
-That loops through three Taylor Swift songs, but it will only print the name of two. The reason for this is the `continue` keyword: when the loop tries to use the song "You Belong with Me", `continue` gets called, which means the loop immediately jumps back to the start – the `print()` call is never made, and instead the loop continues straight on to “Look What You Made Me Do”.
+That loops through three Taylor Swift songs, but it will only print the name of two. The reason for this is the `continue` keyword: when the loop tries to use the song "You Belong with Me", `continue` gets called, which means the loop immediately jumps back to the start - the `print()` call is never made, and instead the loop continues straight on to “Look What You Made Me Do”.
 

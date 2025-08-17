@@ -452,7 +452,7 @@ We also added an error handler middleware to handle errors and provide a proper 
 
 ![GET Endpoint Node Index Output](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/GET-endpint-node-index-output.png)
 
-Depending on the extensions you have installed on your browser, your output might look a bit different. Note that we’ve already implemented pagination for our `GET` API, which is possible because of the `getOffset` function in `helper.js` and how we run the `SELECT` query in <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguage.js`. Try `http://localhost:3000/programming-languages?page=2` to see languages 11–16. ---
+Depending on the extensions you have installed on your browser, your output might look a bit different. Note that we’ve already implemented pagination for our `GET` API, which is possible because of the `getOffset` function in `helper.js` and how we run the `SELECT` query in <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguage.js`. Try `http://localhost:3000/programming-languages?page=2` to see languages 11-16. ---
 
 ## `POST` a new programming language
 

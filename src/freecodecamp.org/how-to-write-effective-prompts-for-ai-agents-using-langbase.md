@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742397395773/51f66f8
 
 <SiteInfo
   name="How to Write Effective Prompts for AI Agents using Langbase"
-  desc="Prompt engineering isn’t just a skill these days – it gives you an important competitive edge in your development. In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a deve..."
+  desc="Prompt engineering isn’t just a skill these days - it gives you an important competitive edge in your development. In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a deve..."
   url="https://freecodecamp.org/news/how-to-write-effective-prompts-for-ai-agents-using-langbase"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1742397395773/51f66f8f-56a4-418e-a59e-141de64be2b2.png"/>
 
-Prompt engineering isn’t just a skill these days – it gives you an important competitive edge in your development.
+Prompt engineering isn’t just a skill these days - it gives you an important competitive edge in your development.
 
 In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a developer, product manager, or just building with AI, getting really good at prompt engineering will make you significantly more effective.
 
@@ -64,7 +64,7 @@ In 2025, the difference between AI agents that work and those that don’t comes
 
 To get the most out of this article, you’ll need:
 
-- A Langbase account – [<FontIcon icon="fas fa-globe"/>Sign up](http://langbase.com/signup) on Langbase if you haven’t already.
+- A Langbase account - [<FontIcon icon="fas fa-globe"/>Sign up](http://langbase.com/signup) on Langbase if you haven’t already.
 - Basic knowledge of [**LLMs**](/freecodecamp.org/how-to-start-building-projects-with-llms.md), [**AI agents**](/freecodecamp.org/how-ai-agents-can-supercharge-language-models-handbook/README.md), and [**RAG (retrieval-augmented generation)**](/freecodecamp.org/learn-rag-fundamentals-and-advanced-techniques.md).
 
 :::
@@ -141,15 +141,15 @@ Here’s a comparison between over and under-explaining prompts:
 
 Here are a few tips and tricks to help you effectively prompt engineer your AI and agents:
 
-- **Be specific** – Vague prompts lead to bad outputs. Define the format, tone, and level of detail you want. If needed, break complex tasks into smaller steps and chain your prompts.
-- **Control response length** – If you need a concise response, specify the word or character limit. For example: *“Summarize this in 50 words.”*
-- **Provide context** – LLMs don’t know everything. If the model needs specific knowledge, include it in your prompt. For dynamic context, use a RAG-based approach to inject relevant information on demand.
-- **Use step-by-step reasoning** – If a task requires logical reasoning, instruct the model explicitly: *“Think step by step before answering.”* This improves accuracy.
-- **Separate instructions from context** – Long prompts can get messy. Start with clear instructions, then separate additional info.
-- **Tell it what to do, not what to avoid** – Instead of saying, “Don’t explain the answer,” say, “Only output the final answer.” Positive instructions work better.
-- **Set constraints** – Define limits on tone, length, or complexity. Example: *“Write in a professional tone, under 3 sentences.”*
-- **Assign a role** – LLMs perform better with a defined persona. Start with, “You are an expert in X,” for example, to guide the model’s behavior.
-- **Use examples** – If precision matters, show the model what you expect. Techniques like few-shot and chain-of-thought (CoT) prompting help improve complex reasoning.
+- **Be specific** - Vague prompts lead to bad outputs. Define the format, tone, and level of detail you want. If needed, break complex tasks into smaller steps and chain your prompts.
+- **Control response length** - If you need a concise response, specify the word or character limit. For example: *“Summarize this in 50 words.”*
+- **Provide context** - LLMs don’t know everything. If the model needs specific knowledge, include it in your prompt. For dynamic context, use a RAG-based approach to inject relevant information on demand.
+- **Use step-by-step reasoning** - If a task requires logical reasoning, instruct the model explicitly: *“Think step by step before answering.”* This improves accuracy.
+- **Separate instructions from context** - Long prompts can get messy. Start with clear instructions, then separate additional info.
+- **Tell it what to do, not what to avoid** - Instead of saying, “Don’t explain the answer,” say, “Only output the final answer.” Positive instructions work better.
+- **Set constraints** - Define limits on tone, length, or complexity. Example: *“Write in a professional tone, under 3 sentences.”*
+- **Assign a role** - LLMs perform better with a defined persona. Start with, “You are an expert in X,” for example, to guide the model’s behavior.
+- **Use examples** - If precision matters, show the model what you expect. Techniques like few-shot and chain-of-thought (CoT) prompting help improve complex reasoning.
 
 ---
 
@@ -411,7 +411,7 @@ Thank you for reading!
 ```component VPCard
 {
   "title": "How to Write Effective Prompts for AI Agents using Langbase",
-  "desc": "Prompt engineering isn’t just a skill these days – it gives you an important competitive edge in your development. In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a deve...",
+  "desc": "Prompt engineering isn’t just a skill these days - it gives you an important competitive edge in your development. In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a deve...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-effective-prompts-for-ai-agents-using-langbase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

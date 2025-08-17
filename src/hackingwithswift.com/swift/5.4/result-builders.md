@@ -51,7 +51,7 @@ isOriginal: false
 
 Function builders unofficially arrived in Swift 5.1, but in the run up to Swift 5.4 they formally went through the Swift Evolution proposal process as [SE-0289 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md) in order to be discussed and refined. As part of that process they were renamed to result builders to better reflect their actual purpose, and even acquired some new functionality.
 
-First up, the most important part: result builders allow us to create a new value step by step by passing in a sequence of our choosing. They power large parts of SwiftUI’s view creation system, so that when we have a `VStack` with a variety of views inside, Swift silently groups them together into an internal `TupleView` type so that they can be stored as a single child of the `VStack` – it turns a sequence of views into a single view.
+First up, the most important part: result builders allow us to create a new value step by step by passing in a sequence of our choosing. They power large parts of SwiftUI’s view creation system, so that when we have a `VStack` with a variety of views inside, Swift silently groups them together into an internal `TupleView` type so that they can be stored as a single child of the `VStack` - it turns a sequence of views into a single view.
 
 Result builders deserve their own detailed article, but I at least want to give you some small code examples so you can see them in action.
 
@@ -117,7 +117,7 @@ However, because we used the `@resultBuilder` annotation with our `SimpleStringB
 print(makeSentence3())
 ```
 
-Notice how we no longer need the commas at the end of each string – `@resultBuilder` automatically transforms each statement in `makeSentence()` into a single string by using `SimpleStringBuilder`.
+Notice how we no longer need the commas at the end of each string - `@resultBuilder` automatically transforms each statement in `makeSentence()` into a single string by using `SimpleStringBuilder`.
 
 In practice, result builders are capable of significantly more, accomplished by adding more methods to your builder type. For example, we could add if/else support to our `SimpleStringBuilder` by adding two extra methods that describe how we want to transform the data. In our code we don’t want to transform our strings at all, so we can send them right back:
 

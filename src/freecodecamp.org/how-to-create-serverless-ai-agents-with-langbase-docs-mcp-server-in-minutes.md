@@ -65,12 +65,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746545857204/6df2b80
 
 <SiteInfo
   name="How to Create Serverless AI Agents with Langbase Docs MCP Server in Minutes"
-  desc="Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation – making it easy to build composable, agentic AI systems with memory without complex inf..."
+  desc="Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation - making it easy to build composable, agentic AI systems with memory without complex inf..."
   url="https://freecodecamp.org/news/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746545857204/6df2b802-a7dc-4745-ac64-117c1c0f7ee1.png"/>
 
-Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation – making it easy to build composable, agentic AI systems with memory without complex infrastructure.
+Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation - making it easy to build composable, agentic AI systems with memory without complex infrastructure.
 
 In this guide, you’ll learn how to set up the [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) Docs MCP server inside Cursor (an AI code editor), and build a summary AI agent that uses Langbase docs as live, on-demand context.
 
@@ -80,9 +80,9 @@ Before we begin creating the agent, you’ll need to have some things setup and 
 
 In this tutorial, I’ll be using the following tech stack:
 
-- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) – the platform to build and deploy your serverless AI agents.
-- [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk) – a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
-- [Cursor](http://cursor.com) – An AI code editor just like VS Code.
+- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) - the platform to build and deploy your serverless AI agents.
+- [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk) - a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
+- [Cursor](http://cursor.com) - An AI code editor just like VS Code.
 
 You’ll also need to:
 
@@ -94,7 +94,7 @@ You’ll also need to:
 
 ## What is Model Context Protocol (MCP)?
 
-[<FontIcon icon="fas fa-globe"/>Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is an open protocol that standardizes how applications provide external context to large language models (LLMs). With MCP, developers can connect AI models to various tools and data sources like documentation, APIs, and databases – in a clean, consistent way.
+[<FontIcon icon="fas fa-globe"/>Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is an open protocol that standardizes how applications provide external context to large language models (LLMs). With MCP, developers can connect AI models to various tools and data sources like documentation, APIs, and databases - in a clean, consistent way.
 
 Instead of relying solely on prompts, MCP allows LLMs to call custom tools (like documentation fetchers or API explorers) during a conversation.
 
@@ -104,7 +104,7 @@ At its core, MCP follows a client-server architecture where a host application c
 
 ![Here’s the general architecture of what it looks like](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjfGegMH-jHoYjgT3dRPhigOoIz8em0NyexLrfqwNEwdX7rvnbnCxfJG7nKqLk5fYcFu0_D5D8-DMb3vg0nLF4r-N8LlfH6IyFz18HjGZYlZ2J2_cq-jKq3Y6X_LPVxIz3rPs7?key=aHnkCxEY2NrPpuL4oNSIQJNY)
 
-The Model Context Protocol architecture lets AI clients (like Claude, IDEs, and developer tools) securely connect to multiple local or remote data sources in real time. MCP clients communicate with one or more MCP servers, which act as bridges to structured data – whether from local files, databases, or remote APIs.
+The Model Context Protocol architecture lets AI clients (like Claude, IDEs, and developer tools) securely connect to multiple local or remote data sources in real time. MCP clients communicate with one or more MCP servers, which act as bridges to structured data - whether from local files, databases, or remote APIs.
 
 This setup allows AI models to retrieve fresh, relevant context from different sources seamlessly, without embedding data directly into the model.
 
@@ -122,9 +122,9 @@ By standardizing how tools integrate into LLM workflows, MCP makes it easier for
 
 ## Cursor AI Code Editor
 
-[<FontIcon icon="fas fa-globe"/>Cursor](https://cursor.com/) is a developer-first AI code editor that integrates LLMs (like Claude, GPT, and more) directly into your IDE. Cursor supports MCP, meaning you can quickly attach custom tool servers – like the [<FontIcon icon="fas fa-globe"/>Langbase Docs MCP server](https://langbase.com/docs/guides/docs-mcp-server) – and make them accessible as AI-augmented tools while you code.
+[<FontIcon icon="fas fa-globe"/>Cursor](https://cursor.com/) is a developer-first AI code editor that integrates LLMs (like Claude, GPT, and more) directly into your IDE. Cursor supports MCP, meaning you can quickly attach custom tool servers - like the [<FontIcon icon="fas fa-globe"/>Langbase Docs MCP server](https://langbase.com/docs/guides/docs-mcp-server) - and make them accessible as AI-augmented tools while you code.
 
-Think of Cursor as VS Code meets AI agents – with built-in support for smart tools like docs fetchers and code examples retrievers.
+Think of Cursor as VS Code meets AI agents - with built-in support for smart tools like docs fetchers and code examples retrievers.
 
 ---
 
@@ -204,7 +204,7 @@ or
 “Find a code example of creating an AI agent pipe in Langbase”
 ```
 
-The AI will use the Docs MCP server to fetch precise documentation snippets – directly inside Cursor.
+The AI will use the Docs MCP server to fetch precise documentation snippets - directly inside Cursor.
 
 ---
 
@@ -238,7 +238,7 @@ Cursor will automatically invoke MCP calls, generate the required files and code
 
 Here’s a demo video of creating this summary agent with a single prompt and Langbase Docs MCP server:
 
-By combining Langbase’s Docs MCP server with Cursor AI, you’ve learned how to build serverless AI agents in minutes – all without leaving your IDE.
+By combining Langbase’s Docs MCP server with Cursor AI, you’ve learned how to build serverless AI agents in minutes - all without leaving your IDE.
 
 If you’re building AI agents, tools, or apps with Langbase, this is one of the fastest ways to simplify your development process.
 
@@ -254,7 +254,7 @@ Happy building! 🚀
 ```component VPCard
 {
   "title": "How to Create Serverless AI Agents with Langbase Docs MCP Server in Minutes",
-  "desc": "Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation – making it easy to build composable, agentic AI systems with memory without complex inf...",
+  "desc": "Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation - making it easy to build composable, agentic AI systems with memory without complex inf...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Classes and Constructors"
-description: "Article(s) > C# Intermediate – Classes and Constructors"
+title: "C# Intermediate - Classes and Constructors"
+description: "Article(s) > C# Intermediate - Classes and Constructors"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Classes and Constructors"
+      content: "Article(s) > C# Intermediate - Classes and Constructors"
     - property: og:description
-      content: "C# Intermediate – Classes and Constructors"
+      content: "C# Intermediate - Classes and Constructors"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-classes-constructors.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-classes-constructors/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Classes and Constructors"
+  name="C# Intermediate - Classes and Constructors"
   desc="In this article, you are going to learn how to use Classes and Constructors in C#. We will talk about partial classes as well and their usage."
   url="https://code-maze.com/csharp-classes-constructors"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -252,7 +252,7 @@ In the next article, we are going to talk about [**Properties in C#**](/code-maz
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Classes and Constructors",
+  "title": "C# Intermediate - Classes and Constructors",
   "desc": "In this article, you are going to learn how to use Classes and Constructors in C#. We will talk about partial classes as well and their usage.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-classes-constructors.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

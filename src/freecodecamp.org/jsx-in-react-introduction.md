@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JSX in React – Explained with Examples"
-description: "Article(s) > JSX in React – Explained with Examples"
+title: "JSX in React - Explained with Examples"
+description: "Article(s) > JSX in React - Explained with Examples"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JSX in React – Explained with Examples"
+      content: "Article(s) > JSX in React - Explained with Examples"
     - property: og:description
-      content: "JSX in React – Explained with Examples"
+      content: "JSX in React - Explained with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/jsx-in-react-introduction.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn-media-0.freecodecamp.org/2021/01/jsx.jpeg
 ---
 
 <SiteInfo
-  name="JSX in React – Explained with Examples"
+  name="JSX in React - Explained with Examples"
   desc="JSX is one of the core concepts of React. So if you understand it well, you'll be able to write better React code. In this article, we'll explore: What is JSX in React and how to use it How JSX is transformed to React.createElement What is a JSX exp..."
   url="https://freecodecamp.org/news/jsx-in-react-introduction"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -113,7 +113,7 @@ Here's a [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox Demo](https:/
 
 As you can see in the above Code Sandbox, the code still correctly prints the contents to the screen using `React.createElement`.
 
-This was the old way of writing code in React – but it's tedious to write the `React.createElement` every time, even for adding a simple div.
+This was the old way of writing code in React - but it's tedious to write the `React.createElement` every time, even for adding a simple div.
 
 So React introduced the JSX way of writing code which makes code easy to write and understand.
 
@@ -602,7 +602,7 @@ Subscribe to my [<FontIcon icon="fas fa-globe"/>weekly newsletter](https://yoges
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JSX in React – Explained with Examples",
+  "title": "JSX in React - Explained with Examples",
   "desc": "JSX is one of the core concepts of React. So if you understand it well, you'll be able to write better React code. In this article, we'll explore: What is JSX in React and how to use it How JSX is transformed to React.createElement What is a JSX exp...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/jsx-in-react-introduction.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "1. Python Foundations: Building Blocks for Data Mastery"
-description: "Article(s) > (1/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (1/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (1/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "1. Python Foundations: Building Blocks for Data Mastery"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -70,7 +70,7 @@ This chapter serves as a guide to the essential elements of Python, equipping yo
 
 ### Indentation: Python's unique way of structuring code
 
-In Python, indentation is not merely a stylistic choice – it's a fundamental aspect of the language's syntax. 
+In Python, indentation is not merely a stylistic choice - it's a fundamental aspect of the language's syntax. 
 
 Unlike languages like Java, which use curly braces `{}` to define code blocks, Python relies on consistent indentation to indicate the grouping of statements.
 
@@ -578,7 +578,7 @@ By mastering control flow, you gain the ability to create versatile and adaptabl
 
 #### code-example">Code Example
 
-This code demonstrates how Python's control flow tools – loops (`for`, `while`) and conditional statements (`if...else`) – can be used to analyze structured customer data.
+This code demonstrates how Python's control flow tools - loops (`for`, `while`) and conditional statements (`if...else`) - can be used to analyze structured customer data.
 
 ```py
 # Scenario: Analyzing Customer Data
@@ -1307,7 +1307,7 @@ print(<span class="token string-interpolation">f"Total size of '{directory_path}
 This demonstrates recursion's usefulness in several ways:
 
 - **Navigating Complex Structures:** Directory structures are inherently hierarchical (tree-like). Recursion allows you to elegantly traverse this structure without needing complex loops or manual tracking of subdirectories.
-<li>**Conciseness:** The recursive implementation is quite compact and expresses the logic in a way that closely mirrors how we think about directory sizes – the size of a directory is the sum of the sizes of its contents.
+<li>**Conciseness:** The recursive implementation is quite compact and expresses the logic in a way that closely mirrors how we think about directory sizes - the size of a directory is the sum of the sizes of its contents.
 <li>**Scalability:** This function can handle arbitrarily deep directory hierarchies without modification. It naturally adapts to the structure of the data.
 
 **Key Points:**

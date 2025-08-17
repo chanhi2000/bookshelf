@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can stop the iOS screen sleeping by using the `isIdleTimerDisabled` property of your application. When set to true, this means the screen will never dim or go to sleep while your app is running, so be careful – you don't want to waste your user's battery life!
+You can stop the iOS screen sleeping by using the `isIdleTimerDisabled` property of your application. When set to true, this means the screen will never dim or go to sleep while your app is running, so be careful - you don't want to waste your user's battery life!
 
 Here's an example:
 

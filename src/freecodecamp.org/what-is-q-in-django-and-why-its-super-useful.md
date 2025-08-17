@@ -58,7 +58,7 @@ Maybe you're trying to search for users with a username *or* an email that match
 
 That’s where `Q` comes in.
 
-I remember the first time I ran into this problem – trying to use `or` in a `.filter()` and realizing quickly that regular Python logic doesn’t play nice there.
+I remember the first time I ran into this problem - trying to use `or` in a `.filter()` and realizing quickly that regular Python logic doesn’t play nice there.
 
 The error messages were confusing, and the docs didn’t help much. So let me break it down for you in a simple, practical way.
 
@@ -68,7 +68,7 @@ By the end of this guide, you’ll understand exactly what `Q` is, how it works,
 
 ## What's Q All About?
 
-In Django, the `Q` object (from `django.db.models`) lets you build complex queries using **OR**, **AND**, and **NOT** logic – something that’s hard to do using just regular `.filter()` calls.
+In Django, the `Q` object (from `django.db.models`) lets you build complex queries using **OR**, **AND**, and **NOT** logic - something that’s hard to do using just regular `.filter()` calls.
 
 Normally, when you use `.filter()` in Django, it adds AND logic like this:
 
@@ -153,7 +153,7 @@ What if you want everyone *except* people named Alice?
 people = Person.objects.filter(~Q(name='Alice'))
 ```
 
-The `~` operator flips the condition – it's saying “not this”.
+The `~` operator flips the condition - it's saying “not this”.
 
 ---
 
@@ -168,7 +168,7 @@ You can reach for `Q` when:
 
 ### But are there times you shouldn't use Q?
 
-Yes – if you're writing a straightforward filter with only AND logic (like `name='Alice'` and `age=30`), using `Q` doesn't add much value. It can make your code unnecessarily verbose. Stick with plain `.filter()` unless you need more flexibility.
+Yes - if you're writing a straightforward filter with only AND logic (like `name='Alice'` and `age=30`), using `Q` doesn't add much value. It can make your code unnecessarily verbose. Stick with plain `.filter()` unless you need more flexibility.
 
 ---
 
@@ -260,7 +260,7 @@ But what if you wrote:
 Person.objects.exclude(Q(name='Alice') | Q(city='Paris'))
 ```
 
-Now it excludes anyone named Alice **or** who lives in Paris – a much broader exclusion! So always double-check what you're excluding.
+Now it excludes anyone named Alice **or** who lives in Paris - a much broader exclusion! So always double-check what you're excluding.
 
 @tab Inversion
 
@@ -315,7 +315,7 @@ This is especially useful for search forms or APIS where users can pass differen
 
 ## Wrapping Up
 
-So that’s `Q` In Django. It’s not some scary, abstract concept – it’s just a powerful way to control how your queries behave.
+So that’s `Q` In Django. It’s not some scary, abstract concept - it’s just a powerful way to control how your queries behave.
 
 Once you get used to using `Q`, your code becomes cleaner, easier to read, and more flexible when handling complex filters.
 
@@ -333,7 +333,7 @@ Want to go deeper?
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
-  name="Django Tutorials – Real Python"
+  name="Django Tutorials - Real Python"
   desc="Learn Django through these tutorials. Django is a high-level Python Web framework promoting rapid development and clean design. By mastering Django, you can rapidly develop complex web applications."
   url="https://realpython.com/tutorials/django/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

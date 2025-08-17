@@ -70,9 +70,9 @@ Whoever calls that function knows it will return some sort of `Fighter` but does
 
 But there’s a problem: what if we wanted to check whether a specific fighter was Red 5? You *might* think the solution is to make `Fighter` conform to the `Equatable` protocol so we can use `==`. However, as soon as you do that Swift will throw up a particularly dreaded error for the `launchFighter` function: “Protocol 'Fighter' can only be used as a generic constraint because it has Self or associated type requirements.”
 
-The “Self” part of that error is what is hitting us here. The `Equatable` protocol has to compare two instances of itself (“Self”) to see whether they are the same, but Swift has no guarantee that the two equatable things are remotely the same – we could be comparing a Fighter with an array of integers, for example.
+The “Self” part of that error is what is hitting us here. The `Equatable` protocol has to compare two instances of itself (“Self”) to see whether they are the same, but Swift has no guarantee that the two equatable things are remotely the same - we could be comparing a Fighter with an array of integers, for example.
 
-Opaque types solve this problem because even though *we* just see a protocol being used, internally the Swift compiler knows exactly what that protocol actually resolves to – it knows it’s an `XWing`, an array of strings, or whatever.
+Opaque types solve this problem because even though *we* just see a protocol being used, internally the Swift compiler knows exactly what that protocol actually resolves to - it knows it’s an `XWing`, an array of strings, or whatever.
 
 To send back an opaque type, use the keyword `some` before your protocol name:
 
@@ -114,8 +114,8 @@ An important proviso here is that functions with opaque return types must always
 
 You might well think “if we always need to return the same type, why not just write the function as `func launchFighter() -> XWing`? While that might work sometimes, it creates new problems such as:
 
-- We end up with types we don’t really want to expose to the world. For example, if we used `someArray.lazy.drop { … }` we get sent back a `LazyDropWhileSequence` – a dedicated and highly specific type from the Swift standard library. All we actually care about is that this thing is a sequence; we don’t need to know how Swift’s internals work.
-- We lose the ability to change our mind later. Making `launchFighter()` return only an `XWing` means we can’t switch to a different type in the future, and given how much Disney relies on Star Wars toy sales that would be a problem! By returning an opaque type we can return X-Wings today, then move to B-Wings in a year – we only ever return one in any given build of our code, but we can still have the flexibility to change our mind.
+- We end up with types we don’t really want to expose to the world. For example, if we used `someArray.lazy.drop { … }` we get sent back a `LazyDropWhileSequence` - a dedicated and highly specific type from the Swift standard library. All we actually care about is that this thing is a sequence; we don’t need to know how Swift’s internals work.
+- We lose the ability to change our mind later. Making `launchFighter()` return only an `XWing` means we can’t switch to a different type in the future, and given how much Disney relies on Star Wars toy sales that would be a problem! By returning an opaque type we can return X-Wings today, then move to B-Wings in a year - we only ever return one in any given build of our code, but we can still have the flexibility to change our mind.
 
 In some respects all this might sound similar to generics, which also solve the “Self or associated type requirements” problem. Generics allow us to write code like this:
 
@@ -148,7 +148,7 @@ So, opaque result types allow us to do several things:
 - We get to change our minds in the future whenever we need to.
 - We don’t expose private internal types to the outside world.
 
-If you ever forget the difference between protocols and opaque types, think of this: returning `Fighter` means "any sort of `Fighter` type but we don't know what", whereas returning `some Fighter` means "a specific sort of `Fighter` type but we still don't know what." In the latter case, the difference is that the underlying type is something specific that the compiler knows about, whereas in the former case it can literally be anything that conforms to the protocol – even being different every time we call the method.
+If you ever forget the difference between protocols and opaque types, think of this: returning `Fighter` means "any sort of `Fighter` type but we don't know what", whereas returning `some Fighter` means "a specific sort of `Fighter` type but we still don't know what." In the latter case, the difference is that the underlying type is something specific that the compiler knows about, whereas in the former case it can literally be anything that conforms to the protocol - even being different every time we call the method.
 
 ::: details Other Changes in Swift 5.1
 

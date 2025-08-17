@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Media Queries vs Container Queries – Which Should You Use and When?
-description: Article(s) > Media Queries vs Container Queries – Which Should You Use and When?
+title: Media Queries vs Container Queries - Which Should You Use and When?
+description: Article(s) > Media Queries vs Container Queries - Which Should You Use and When?
 icon: fa-brands fa-css3-alt
 category: 
   - HTML
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Media Queries vs Container Queries – Which Should You Use and When?
+      content: Article(s) > Media Queries vs Container Queries - Which Should You Use and When?
     - property: og:description
-      content: Media Queries vs Container Queries – Which Should You Use and When?
+      content: Media Queries vs Container Queries - Which Should You Use and When?
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/media-queries-vs-container-queries.html
 prev: /programming/css/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/titleimag
 ---
 
 <SiteInfo
-  name="Media Queries vs Container Queries – Which Should You Use and When?"
+  name="Media Queries vs Container Queries - Which Should You Use and When?"
   desc="As the web evolves, new tools and ideas are released with the goal of making our lives as web developers easier. This means we have to choose whether to stick with the old ways or discard them entirely for the shiny new stuff. But does this always demand an either-or..."
   url="https://freecodecamp.org/news/media-queries-vs-container-queries/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

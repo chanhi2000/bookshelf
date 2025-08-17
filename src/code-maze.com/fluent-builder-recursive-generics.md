@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Fluent Builder Interface With Recursive Generics
-description: Article(s) > C# Design Patterns – Fluent Builder Interface With Recursive Generics
+title: C# Design Patterns - Fluent Builder Interface With Recursive Generics
+description: Article(s) > C# Design Patterns - Fluent Builder Interface With Recursive Generics
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Fluent Builder Interface With Recursive Generics
+      content: Article(s) > C# Design Patterns - Fluent Builder Interface With Recursive Generics
     - property: og:description
-      content: C# Design Patterns – Fluent Builder Interface With Recursive Generics
+      content: C# Design Patterns - Fluent Builder Interface With Recursive Generics
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/fluent-builder-recursive-generics.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/fluent-builder-recursive-generics/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Fluent Builder Interface With Recursive Generics"
+  name="C# Design Patterns - Fluent Builder Interface With Recursive Generics"
   desc="In this article you will learn about Fluent Builder with Recursive Generics and how to use this pattern to allow inheritance between Fluent Builders."
   url="https://code-maze.com/fluent-builder-recursive-generics/"
   logo="/assets/image/code-maze.com/favicon.png"

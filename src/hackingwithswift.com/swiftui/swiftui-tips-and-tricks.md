@@ -118,7 +118,7 @@ Slider(value: .constant(0.5))
 
 ::: note
 
-Constant bindings like this one are just for testing and illustration purposes – you can’t change them at runtime.
+Constant bindings like this one are just for testing and illustration purposes - you can’t change them at runtime.
 
 :::
 
@@ -126,7 +126,7 @@ Constant bindings like this one are just for testing and illustration purposes �
 
 ## Presenting test views
 
-Another useful tip while you’re prototyping is that you can present any kind of view rather than a full detail view – even when working with a navigation stack.
+Another useful tip while you’re prototyping is that you can present any kind of view rather than a full detail view - even when working with a navigation stack.
 
 For example, if you had a list of users and wanted to make sure that tapping one of them worked, you could use a navigation link that points to a text view rather than a fully fledged custom custom view, like this:
 
@@ -169,7 +169,7 @@ This allows you to make one screen complete before going on to design the real d
 
 ## Add customizations for an individual platform
 
-Sometimes you have one SwiftUI view that works great on both iOS and macOS, but needs just a tiny modification – perhaps a little more padding on iOS, or slightly different styling.
+Sometimes you have one SwiftUI view that works great on both iOS and macOS, but needs just a tiny modification - perhaps a little more padding on iOS, or slightly different styling.
 
 For these times I recommend the following view extensions, which add `iOS()`, `macOS()`, `tvOS()`, and `watchOS()` methods for just this purpose:
 
@@ -215,9 +215,9 @@ extension View {
 }
 ```
 
-Each of those follow the same pattern: they create a new method using the platform name, each of which accept a function that is able to transform the current view somehow. Inside the method there is a compiler check to see whether the current platform manages the one we expect – if so we apply the modifier function, otherwise we don’t.
+Each of those follow the same pattern: they create a new method using the platform name, each of which accept a function that is able to transform the current view somehow. Inside the method there is a compiler check to see whether the current platform manages the one we expect - if so we apply the modifier function, otherwise we don’t.
 
-Those platform checks – `#if os(iOS)`, etc – are done at *compile* time, which means they will be optimized away. In fact, it’s likely the compiler will be able to optimize these methods entirely because they are so simple.
+Those platform checks - `#if os(iOS)`, etc - are done at *compile* time, which means they will be optimized away. In fact, it’s likely the compiler will be able to optimize these methods entirely because they are so simple.
 
 Use them like this:
 
@@ -257,7 +257,7 @@ struct ContentView: View {
 }
 ```
 
-Groups are purely logical containers – they don’t affect your layouts.
+Groups are purely logical containers - they don’t affect your layouts.
 
 ::: info Read more
 
@@ -279,7 +279,7 @@ Groups are purely logical containers – they don’t affect your layouts.
 
 SwiftUI is designed to work with themed user interfaces out of the box, which means it provides both semantic and adaptive colors by default. Although it might be tempting to use your own custom colors, you should at least check first whether you have something in the default SwiftUI set.
 
-For example, `Color.red` isn’t the pure red of RGB(255, 0, 0), but instead slightly lighter or slightly darker based on the environment – it adapts automatically without us needing to think about it.
+For example, `Color.red` isn’t the pure red of RGB(255, 0, 0), but instead slightly lighter or slightly darker based on the environment - it adapts automatically without us needing to think about it.
 
 Similarly, `Color.primary`, `Color.secondary`, and `Color.accentColor` all refer to fixed values that are provided by the environment, allowing us to structure and highlight content in a standardized way.
 
@@ -308,9 +308,9 @@ Text("Row 1")
     .padding(10)
 ```
 
-While it’s tempting to always control padding like this to “get things just right”, if you use the `padding()` modifier without any parameters you get *adaptive* padding – padding that automatically adjusts itself to its content and its environment.
+While it’s tempting to always control padding like this to “get things just right”, if you use the `padding()` modifier without any parameters you get *adaptive* padding - padding that automatically adjusts itself to its content and its environment.
 
-So, if your app is running on an iPad with a regular size class you’ll get more padding than if the user moves it down to a split view – all without having to write any code.
+So, if your app is running on an iPad with a regular size class you’ll get more padding than if the user moves it down to a split view - all without having to write any code.
 
 ::: info Read more
 
@@ -365,7 +365,7 @@ struct ContentView: View {
 
 ## How to make `print()` work
 
-If you press play in the SwiftUI preview to try out your designs, you’ll find that any calls to `print()` are ignored. If you’re using `print()` for testing purposes – e.g. as simple button tap actions – then this can be a real headache.
+If you press play in the SwiftUI preview to try out your designs, you’ll find that any calls to `print()` are ignored. If you’re using `print()` for testing purposes - e.g. as simple button tap actions - then this can be a real headache.
 
 Fortunately, there’s a simple fix: right-click on the play button in the preview canvas and choose “Debug Preview”. With that small change made you’ll find your `print()` calls work as normal.
 
@@ -375,7 +375,7 @@ Fortunately, there’s a simple fix: right-click on the play button in the previ
 
 When you create a list of items, it’s common to want to get the iOS-standard look of having an image on the left then some text on the right.
 
-Well, if you’re using a dynamic list of items – i.e., a list that’s attached to an array of data – then you actually get a `HStack` for free inside your list, so there’s no need to make one by hand.
+Well, if you’re using a dynamic list of items - i.e., a list that’s attached to an array of data - then you actually get a `HStack` for free inside your list, so there’s no need to make one by hand.
 
 So, this code will create a list based on picture names from an array, and relies on the implicit `HStack` to arrange the image and text side by side:
 
@@ -511,7 +511,7 @@ Make sure you zoom out or scroll around in the preview window to see all the dif
 
 ## Create custom modifiers
 
-If you find yourself regularly repeating the same set of view modifiers – for example, making a text view have padding, be of a specific size, have fixed background and foreground colors, etc – then you should consider moving those to a custom modifier rather than repeating your code.
+If you find yourself regularly repeating the same set of view modifiers - for example, making a text view have padding, be of a specific size, have fixed background and foreground colors, etc - then you should consider moving those to a custom modifier rather than repeating your code.
 
 For example, this creates a new `PrimaryLabel` modifier that adds padding, a black background, white text, a large font, and some corner rounding:
 
@@ -645,7 +645,7 @@ withAnimation(.spring()) {
 
 ## Showing multiple alerts in a view
 
-If you try to attach multiple `alert()` modifiers to a single view, you’ll find your code doesn’t work as you expect – one alert will work but the other won’t.
+If you try to attach multiple `alert()` modifiers to a single view, you’ll find your code doesn’t work as you expect - one alert will work but the other won’t.
 
 To fix this, you should attach your alerts to different parts of your view hierarchy, such as to the button or other view that triggers the alert to appear.
 
@@ -667,7 +667,7 @@ To fix this, you should attach your alerts to different parts of your view hiera
 
 ## Publishing new values from a binding
 
-Last but not least, to avoid problems when sending update notifications from a publisher – e.g. calling `send()` on a `PassthroughSubject` or updating any `@Published` property – you should make sure you’re always on the main thread.
+Last but not least, to avoid problems when sending update notifications from a publisher - e.g. calling `send()` on a `PassthroughSubject` or updating any `@Published` property - you should make sure you’re always on the main thread.
 
 As with UIKit and most other UI frameworks, you can do all the background work you want in your SwiftUI apps, but you should only ever manipulate the user interface on the main thread. Because state changes automatically trigger a refresh of your `body`, it’s important that you make sure you perform those state changes on the main thread.
 
@@ -691,7 +691,7 @@ As with UIKit and most other UI frameworks, you can do all the background work y
 
 The SwiftUI tips and tricks above are ones I’ve come across watching WWDC sessions, asking questions in the labs, and writing lots and lots of code while moving my own projects from UIKit.
 
-I’d love to hear what tips you have – [<FontIcon icon="fa-brands fa-x-twitter"/>send me a tweet @twostraws](https://twitter.com/twostraws) and let me know!
+I’d love to hear what tips you have - [<FontIcon icon="fa-brands fa-x-twitter"/>send me a tweet @twostraws](https://twitter.com/twostraws) and let me know!
 
 ::: details Similar solutions…
 

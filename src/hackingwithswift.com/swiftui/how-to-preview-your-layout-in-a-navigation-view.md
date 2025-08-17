@@ -54,9 +54,9 @@ head:
 
 If you’ve designed a view that you know will be presented as part of a navigation stack, but doesn’t itself contain a navigation stack, you won’t see its navigation title or buttons by default.
 
-Fortunately, you can add your view to a navigation stack right inside your preview – this simulates having a navigation bar at the top without actually adding one for the live code, so you can see exactly how it looks.
+Fortunately, you can add your view to a navigation stack right inside your preview - this simulates having a navigation bar at the top without actually adding one for the live code, so you can see exactly how it looks.
 
-For example, this view has no navigation stack but is configured to display in a specific way when presented as part of one – i.e. being pushed from another view:
+For example, this view has no navigation stack but is configured to display in a specific way when presented as part of one - i.e. being pushed from another view:
 
 ```swift
 struct ContentView: View {

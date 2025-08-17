@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Organize the Home Page"
-description: "Article(s) > (9/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners" 
+description: "Article(s) > (9/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners" 
 category:
   - Career
   - Tip
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (9/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+      content: "Article(s) > (9/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
     - property: og:description
       content: "How to Organize the Home Page"
     - property: og:url
@@ -32,7 +32,7 @@ cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Grea
 
 ```component VPCard
 {
-  "title": "How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "title": "How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "desc": "As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach...",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Grea
 ---
 
 <SiteInfo
-  name="How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+  name="How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
   desc="As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach..."
   url="https://freecodecamp.org/news/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide#heading-how-to-organize-the-home-page"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -143,7 +143,7 @@ Beyond these, your homepage doesn't require additional content. It's vital to ca
 
 ## Don'ts for Your Homepage
 
-- **Avoid Random Placement**: Structure your content logically – don't place information haphazardly.
+- **Avoid Random Placement**: Structure your content logically - don't place information haphazardly.
 - **Steer Clear of Long Paragraphs**: Keep your homepage breezy and easy to read with short, impactful statements.
 - **Don't Overwhelm with Content**: Your homepage isn't the place to squeeze in every detail of your portfolio.
 - **Avoid Image Neglect**: Images are crucial for visual engagement, so don't omit them.

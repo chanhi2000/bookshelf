@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -105,7 +105,7 @@ class Printer {
 }
 ```
 
-That instructs the Swift compiler to make an Objective-C thunk for that one method. This means you retain nearly all the performance benefits of the new Swift 4 approach – the thunk is generated only when needed.
+That instructs the Swift compiler to make an Objective-C thunk for that one method. This means you retain nearly all the performance benefits of the new Swift 4 approach - the thunk is generated only when needed.
 
 The second option is to use the `@objcMembers` attribute on your whole class or struct, like this:
 
@@ -122,7 +122,7 @@ Now, there are two important times when `@objc` isn’t needed:
 1. When you’re using `@IBAction` to connect an event from a storyboard. The `@IBAction` attribute automatically implies `@objc`, so you don’t need both.
 <li>When you’re implementing a method from an Objective-C protocol, that automatically implies `@objc` because it doesn’t make sense otherwise.
 
-Remember, if `@objc` is required but not present, Xcode will refuse to build your code – it’s not the kind of thing you can just forget.
+Remember, if `@objc` is required but not present, Xcode will refuse to build your code - it’s not the kind of thing you can just forget.
 
 Honestly, I think it’s sad that one of the world’s most progressive languages is having to look backwards like this, but it looks like we’re stuck with this change.
 

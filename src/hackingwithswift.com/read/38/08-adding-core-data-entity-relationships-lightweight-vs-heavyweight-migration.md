@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ It's time to take your Core Data skills up a notch: we're going to add a second 
 
 Open the data model (Project38.xcdatamodeld) for editing, then click the Add Entity button. Name the entity Author, then give it two attributes: "name" and "email". Please make both strings, and make sure both are not marked as optional. This time we're also going to make one further change: we’re going to make “name” indexed.
 
-To do that, long press on the Add Entity button and choose Add Fetch Index from the menu that appears. Name it “byNameIndex”, because this indexes our items by name. You’ll see a small + button under Fetch Index Elements in the main editor – click that to add a new index element, then change its property from “Expression” to “name”.
+To do that, long press on the Add Entity button and choose Add Fetch Index from the menu that appears. Name it “byNameIndex”, because this indexes our items by name. You’ll see a small + button under Fetch Index Elements in the main editor - click that to add a new index element, then change its property from “Expression” to “name”.
 
 ![You can index as many attributes as you want, but don't go overboard: it takes time to create and update indexes, so you should index only the attributes you really need.](https://hackingwithswift.com/img/books/hws/38-9@2x.png)
 
@@ -63,7 +63,7 @@ An indexed attribute is one that is optimized for fast searching. There is a cos
 
 We want every Author to have a list of commits that belong to them, and every Commit to have the Author that created it. In Core Data, this is represented using relationships, which are a bit like calculated properties except Core Data adds extra functionality to handle the situation when part of a relationship gets deleted.
 
-With the Author entity selected, click the + button under the Relationships section – it's just below the Attributes section. Name the new relationship "commits" and choose "commit" for its destination. In the Data Model inspector, change Type to be "To Many", which tells Core Data that each author has many Commits attached to it.
+With the Author entity selected, click the + button under the Relationships section - it's just below the Attributes section. Name the new relationship "commits" and choose "commit" for its destination. In the Data Model inspector, change Type to be "To Many", which tells Core Data that each author has many Commits attached to it.
 
 ![All relationships between objects should be managed inside your data model, because it allows Core Data to understand exactly what data you're storing and how it will be used.](https://hackingwithswift.com/img/books/hws/38-10@2x.png)
 
@@ -71,15 +71,15 @@ Now choose the Commit entity we created earlier and add a relationship named "au
 
 That's it for our model changes, so press <FontIcon icon="iconfont icon-Cmd"/>+<FontIcon icon="iconfont icon-S"/> to save then <FontIcon icon="iconfont icon-Cmd"/>+<FontIcon icon="iconfont icon-R"/> now to build and run the app. What you’ll see is… well, exactly what you saw before: the same list of commits. What changed?
 
-You’ve already seen how `NSPersistentContainer` does a huge amount of set up work on your behalf. Well, it’s also doing something remarkably clever here too because we just changed our data model. By default Core Data doesn't know how to handle that – it considers any variation in its data model an unwelcome surprise, so we need to tell Core Data how to handle the changed model or we need to tell it to figure out the differences itself.
+You’ve already seen how `NSPersistentContainer` does a huge amount of set up work on your behalf. Well, it’s also doing something remarkably clever here too because we just changed our data model. By default Core Data doesn't know how to handle that - it considers any variation in its data model an unwelcome surprise, so we need to tell Core Data how to handle the changed model or we need to tell it to figure out the differences itself.
 
 These two options are called "heavyweight migrations" and "lightweight migrations." The latter is usually preferable, and is what we'll be doing here, but it's only possible when your changes are small enough that Core Data can perform the conversion correctly. We added a new "authors" relationship, so if we tell Core Data to perform a lightweight migration it will simply set that value to be empty.
 
-The magic of `NSPersistentContainer` is that it automatically configures Core Data to perform a lightweight migration if it’s needed and if it’s possible – that is, if the changes are small enough to be figured out by the system. So, as long as your changes are strictly additive, `NSPersistentContainer` will take care of all the work. Awesome, right?
+The magic of `NSPersistentContainer` is that it automatically configures Core Data to perform a lightweight migration if it’s needed and if it’s possible - that is, if the changes are small enough to be figured out by the system. So, as long as your changes are strictly additive, `NSPersistentContainer` will take care of all the work. Awesome, right?
 
 Of course, all this cleverness doesn't actually use our new Author entity. To do *that* we first need to do something rather tedious: we need to re-use the NSManagedObject generator, which, if you remember, also means having to re-add our custom changes such as removing optionality from its properties.
 
-So, go back to the data model, and choose Editor > Create NSManagedObject Subclass again. This time I want you to choose both Author and Commit, but don't forget to change Group from the blue project icon to the yellow folder icon – Xcode does love to keep resetting that particular option.
+So, go back to the data model, and choose Editor > Create NSManagedObject Subclass again. This time I want you to choose both Author and Commit, but don't forget to change Group from the blue project icon to the yellow folder icon - Xcode does love to keep resetting that particular option.
 
 ![Run the Create NSManagedObject Subclass procedure again, but this time make sure you select both entities.](https://hackingwithswift.com/img/books/hws/38-11@2x.png)
 
@@ -170,7 +170,7 @@ ac.addAction(UIAlertAction(title: "Show only Durian commits", style: .default) {
 There are three things that bear explaining in that code:
 
 - By using `author.name` the predicate will perform two steps: it will find the "author" relation for our commit, then look up the "name" attribute of the matching object.
-- Joe is one of Apple's Swift engineers. Although it's fairly likely you'll see commits by him, it can't be guaranteed – I'm pretty sure that Apple give him a couple of days vacation each year. Maybe.
+- Joe is one of Apple's Swift engineers. Although it's fairly likely you'll see commits by him, it can't be guaranteed - I'm pretty sure that Apple give him a couple of days vacation each year. Maybe.
 - Durian is a fruit that's very popular in south-east Asia, particularly Malaysia, Singapore and Thailand. Although most locals are big fans, the majority of foreigners find that it really, really stinks, so I'm sure there's some psychological reason why Joe Groff chose it for his website: [<FontIcon icon="fas fa-globe"/>duriansoftware.com](http://duriansoftware.com/).
 
 Run your app now and the new filter should work. Remember, it might not return any objects, depending on just how many commits Joe has done recently. No pressure, Joe! In those changes, I also modified the detail view controller so that it shows the commit message in full, or at least as full as it can given the limited space.

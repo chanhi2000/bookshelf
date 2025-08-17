@@ -89,7 +89,7 @@ Text("SwiftUI ")
 
 ::: tip
 
-Combining text views like this is as close as we get to attributed strings in SwiftUI – there is no support for using `NSAttributedString` at this time.
+Combining text views like this is as close as we get to attributed strings in SwiftUI - there is no support for using `NSAttributedString` at this time.
 
 :::
 

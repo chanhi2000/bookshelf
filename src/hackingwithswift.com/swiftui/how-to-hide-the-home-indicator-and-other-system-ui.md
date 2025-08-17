@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-SwiftUI's `persistentSystemOverlays()` modifier lets us show or hide the so-called “non-transient system views” that are automatically placed over our UI – Apple's name for the home indicator, the multitask indicator on iPad, and more.
+SwiftUI's `persistentSystemOverlays()` modifier lets us show or hide the so-called “non-transient system views” that are automatically placed over our UI - Apple's name for the home indicator, the multitask indicator on iPad, and more.
 
 For example, this will request to hide the overlays:
 
@@ -69,7 +69,7 @@ Text("This needs to take up lots of space")
 
 ::: note
 
-This is a *request* to hide the overlays – it's down to the system to decide what it actually do.
+This is a *request* to hide the overlays - it's down to the system to decide what it actually do.
 
 :::
 

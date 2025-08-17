@@ -161,7 +161,7 @@ As you can see, using `gridCellColumns()` with the same number of columns you ha
 
 Important: Unlike `LazyHGrid` and `LazyVGrid`, a plain `Grid` loads all its views immediately, so be careful how much work you do.
 
-Grids are fantastic choices when you need exact layouts – we can use them to make a tic-tac-toe board:
+Grids are fantastic choices when you need exact layouts - we can use them to make a tic-tac-toe board:
 
 ```swift
 Grid(horizontalSpacing: 20, verticalSpacing: 20) {

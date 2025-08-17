@@ -66,7 +66,7 @@ This article is intended for junior to intermediate level developers looking to 
 
 ## How to Find the Best Anything
 
-I invite you to follow along with some basic non-technical examples which lay the groundwork for the rest of this article. The examples may sound silly to some, but I have layered in some conceptual patterns which you can apply to programming languages, tools, and concepts – as well as just about anything where terms like good, bad, best, or worst can apply.
+I invite you to follow along with some basic non-technical examples which lay the groundwork for the rest of this article. The examples may sound silly to some, but I have layered in some conceptual patterns which you can apply to programming languages, tools, and concepts - as well as just about anything where terms like good, bad, best, or worst can apply.
 
 ### How to Find the Best Water Bottle
 
@@ -99,7 +99,7 @@ Suppose three different contexts within which you have to make this decision:
 
 In summary, you shouldn’t ignore second-hand knowledge, expert opinions, popularity, ratings, reviews, testimonials, and even first-hand experience. But you will never find the best water bottle for every situation you find yourself in. The best “anything” depends on the problem you are trying to solve and the context (words like requirements or situation also apply here) of that problem.
 
-In other words, none of these things have an absolute or fixed value – their value is always relative. I call that the **Law of Suitability**.
+In other words, none of these things have an absolute or fixed value - their value is always relative. I call that the **Law of Suitability**.
 
 Let’s now discuss some examples which are directly related to software design and development.
 
@@ -107,7 +107,7 @@ Let’s now discuss some examples which are directly related to software design 
 
 ## How to Find the Best Programming Language
 
-The Law of Suitability applies just as much to programming languages as it does to water bottles – even though the details and contexts are different. There is no such thing as the best programming language for every person, team, problem, or feature.
+The Law of Suitability applies just as much to programming languages as it does to water bottles - even though the details and contexts are different. There is no such thing as the best programming language for every person, team, problem, or feature.
 
 But I do have some specific details and contexts to offer which may help you answer that question for yourself. This section will cover concrete details and some general ideas on how to choose a programming language. These patterns also apply to frameworks, libraries, and most other aspects of programming.
 
@@ -143,7 +143,7 @@ While *Expert B* is obviously displaying a lack of precision (either deliberatel
 
 In simple terms, low level programming languages are difficult for humans to read and write. Also, they tend to be faster and have a lower memory footprint than high level languages. Conversely, high level languages are closer to human language which generally makes them easier for humans to work with.
 
-I must confess, though, that I have seen plenty of examples of people writing unintelligible code in high level languages – please don’t do that.
+I must confess, though, that I have seen plenty of examples of people writing unintelligible code in high level languages - please don’t do that.
 
 Someone working on an embedded system might want to do so in a language like C or C++ to optimize performance or work around the limitations of memory and processing power.
 
@@ -157,7 +157,7 @@ Ironically, the main downsides and benefits of a language like Java (which is ve
 
 Speaking of enterprise systems, using structures, types, interfaces, classes, threading, concurrency primitives, and similar programming constructs can have a variety of benefits. It can insulate you from safety while providing some flexibility via type hierarchies, interfaces, protocols, abstractions and so on.
 
-Further, studying design patterns can teach you repeatable solutions to problems which have been encountered since the dawn of the general purpose computer – or shortly thereafter.
+Further, studying design patterns can teach you repeatable solutions to problems which have been encountered since the dawn of the general purpose computer - or shortly thereafter.
 
 But the Law of Suitability still applies here. Maybe you just need to write a quick script to migrate some data from one SQL database to another. Maybe you know how to approach problems using a more functional approach that doesn’t require or discourages the use of objects, classes, or structs. Maybe you realize one day that trying to apply design patterns, architectures, hierarchies and similar constructs in every situation has actually created as many problems as they were solving. More on that later.
 
@@ -179,7 +179,7 @@ But I have zero intention of using Haskell as my go to solution for building GUI
 
 ### Popularity Is Not A Guarantee Of Employment
 
-One of the most common things you ought to consider is whether or not the language you pick will help you get a job – assuming that’s a concern. Influencers absolutely love to tell people to choose one particular language because it has the most public commits on GitHub, or another because it has the largest number of programmers using it (which is in practice something that’s impossible to say for sure).
+One of the most common things you ought to consider is whether or not the language you pick will help you get a job - assuming that’s a concern. Influencers absolutely love to tell people to choose one particular language because it has the most public commits on GitHub, or another because it has the largest number of programmers using it (which is in practice something that’s impossible to say for sure).
 
 Let me flip that on its head: suppose that the most common programming language and platform combination is JavaScript and web. Let’s further suppose that we have pretty concrete data on the number of job postings on the web which confirms that the largest volume of jobs available is for that combination. Let’s finally suppose that for whatever reason, you strongly dislike JavaScript and enjoyed building a website using PHP.
 
@@ -189,7 +189,7 @@ But if you go looking, you may notice that there is a good supply of job posting
 
 ### Hardware & Working With What You Have
 
-This section is largely irrelevant to web developers, but may be extremely important for those looking to target specific hardware or operating systems. Simply put, if you don’t have a computer with Mac OS and XCode, you will have a very hard time developing an iOS app, for example. In my case, back in 2014, I chose Android development partly because I had studied a bit of Java – though a big consideration was that I had an Android phone.
+This section is largely irrelevant to web developers, but may be extremely important for those looking to target specific hardware or operating systems. Simply put, if you don’t have a computer with Mac OS and XCode, you will have a very hard time developing an iOS app, for example. In my case, back in 2014, I chose Android development partly because I had studied a bit of Java - though a big consideration was that I had an Android phone.
 
 There are some ways around this by paying to use a remote device (such as a remote Mac via an online service), but my experience with such services years ago is that they weren’t great.
 
@@ -213,7 +213,7 @@ Perhaps the most important point I can make in choosing a programming language i
 
 Roughly 12 years later, I have written non-trivial code in Java, Kotlin, Swift, C++, TypeScript, and SQL. Further, I have dabbled with code in C, Python, JavaScript, Racket, Haskell, Objective C, Visual Basic, and C#.
 
-It was not the case that I sought out to learn all of these things artificially – I don’t tend to learn things outside of the problems in front of me. It’s that these learning opportunities naturally unfolded along with my personal and professional interests.
+It was not the case that I sought out to learn all of these things artificially - I don’t tend to learn things outside of the problems in front of me. It’s that these learning opportunities naturally unfolded along with my personal and professional interests.
 
 Learning the fundamentals or approaching mastery of any general purpose programming language will have carry over to others. It’s true that someone learning Python or JavaScript without CS fundamentals is not going to have much of a clue how things work at the OS level or lower.
 
@@ -231,7 +231,7 @@ The next few topics revolve around a question which we’ll revisit a couple of 
 
 Before we proceed, here’s a useful but not definitive definition about the relationship between libraries and frameworks. You’ll find other definitions, but there’s remarkably little consensus on topics like this in this industry.
 
-For me, a library is code which you can take from somewhere and use it to build things. It could be anything from a single line to a large and complex sub-system – usually something in between. I could give you a long and pedantic definition, but that’s not appropriate for this context (suitability!).
+For me, a library is code which you can take from somewhere and use it to build things. It could be anything from a single line to a large and complex sub-system - usually something in between. I could give you a long and pedantic definition, but that’s not appropriate for this context (suitability!).
 
 One example could be Java’s Math (java.lang.Math) library, which provides you with the following: “*The class Math contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.*”
 
@@ -239,7 +239,7 @@ Some people use the term framework interchangeably with library, and I don’t h
 
 An example of this would be RxJava, which is a rather complex framework you can use to bind together and manage data flows across an entire application. I’ve used this framework in almost a dozen applications which did very different things in principle.
 
-I do consider a framework to be a library, fundamentally – they just have a different set of goals and often a larger footprint.
+I do consider a framework to be a library, fundamentally - they just have a different set of goals and often a larger footprint.
 
 ### How to Choose Libraries and Frameworks
 
@@ -289,11 +289,11 @@ There are more best practices and principles than I care to describe in detail. 
 
 The problem is that any programming principle I’ve come across has also been subject to the Law of Suitability. I’ll discuss one example from personal experience and point out that the question we asked above, “does it solve more problems than creates,” also applies here.
 
-### D.R.Y – Don’t Repeat Yourself
+### D.R.Y - Don’t Repeat Yourself
 
 This principle can be summarized with the idea that if you find duplicated code, you should pull it into a separate module (file, function, class, library, and so on). Without getting into the weeds, the act of pulling the duplicated code into a separate module can be thought of as a process of abstraction.
 
-To be fair to the creators and proponents of this idea, it’s more nuanced than that. But many developers never bother to dig that deep into nuances – nor should they have to. I ran into the nuances simply by applying this idea more than I should have.
+To be fair to the creators and proponents of this idea, it’s more nuanced than that. But many developers never bother to dig that deep into nuances - nor should they have to. I ran into the nuances simply by applying this idea more than I should have.
 
 There a couple of cases where code duplication is sometimes preferable:
 
@@ -337,12 +337,12 @@ Here is a list of architectures I have some familiarity with:
 - Clean Architecture (Robert C. Martin style)
 - Model-View-Intent
 
-To make matters more confusing, there are multiple different ways to implement these architectures – almost as many ways as developers implementing them! M-V-VM is one of the more common architectures in mobile development, and I can think of at least five different variations on how to achieve what some people think of as a single architecture.
+To make matters more confusing, there are multiple different ways to implement these architectures - almost as many ways as developers implementing them! M-V-VM is one of the more common architectures in mobile development, and I can think of at least five different variations on how to achieve what some people think of as a single architecture.
 
 Here are my general suggestions for working with these architectures:
 
 - Be wary of adding unnecessary complexity with the more complex architectures (particularly Clean Architecture, as many people get this horribly wrong)
-- Don’t try to make the project requirements fit the architecture – work the other way around (the best indicator for this is noticing that something you’re trying to implement is made unnecessarily difficult because of the architecture you’re using)
+- Don’t try to make the project requirements fit the architecture - work the other way around (the best indicator for this is noticing that something you’re trying to implement is made unnecessarily difficult because of the architecture you’re using)
 - Don’t be afraid of applying different approaches in different features of the same application instead of blindly applying the same pattern just for consistency’s sake
 
 ### The Design Pattern Trap
@@ -359,7 +359,7 @@ But I spend very little time in my day to day work thinking about or in design p
 - Not pretending that every complex problem has a simple solution (that is, as simple as it can be but no simpler)
 - Avoiding pre-mature optimization
 
-Again, I will only apply these principles and attitudes to the extent that I find they solve more problems than they create. Design patterns, when applied too rigorously, can break many of those principles – particularly when it comes to avoiding complexity and pre-mature optimization.
+Again, I will only apply these principles and attitudes to the extent that I find they solve more problems than they create. Design patterns, when applied too rigorously, can break many of those principles - particularly when it comes to avoiding complexity and pre-mature optimization.
 
 Don’t try to make your project requirements fit your patterns. Instead, think about which patterns might suit your project requirements and deviate as necessary.
 
@@ -370,7 +370,7 @@ Don’t try to make your project requirements fit your patterns. Instead, think 
 My goal with this piece was to provide three things:
 
 - A practical overview of choosing a programming language and avoiding the traps the people can fall into when navigating these sorts of topics
-- A philosophical but pragmatic framework which you can use to evaluate the suitability of anything – with emphasis on learning and developing software
+- A philosophical but pragmatic framework which you can use to evaluate the suitability of anything - with emphasis on learning and developing software
 - A breakdown of how I approach other topics like tools, architectures, and patterns
 
 While it can be important to consider things like job opportunities and your current hardware, don’t discount personal interest as a driving factor. From what little I remember about studying cognition (learning how to learn), interest is tightly coupled to motivation and memory. We can’t always exclusively do what interests us, but I suggest you look for intersections between personal and practical concerns as often as you can.

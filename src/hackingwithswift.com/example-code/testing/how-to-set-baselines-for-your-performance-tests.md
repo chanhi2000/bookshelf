@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Testing - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/testing/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,7 +60,7 @@ All performance tests in Xcode can have baselines attached to them, which are st
 
 To set a baseline for a performance test, first make sure it has been run at least once. You should see a gray bar next to the test saying “No baseline average for time”, but if you click the gray diamond to the left of your test a balloon appears offering more information.
 
-To set a baseline, click the Set Baseline button inside that balloon. You’ll see a “Max STDDEV” field set to 10% by default – that’s how much variance Xcode allows before it considers a test to have failed, but you can change it however you want. Broadly speaking, extremely fast code should have a higher standard deviation allowance than slower code, only because extremely fast code is likely to show more variance due to system conditions.
+To set a baseline, click the Set Baseline button inside that balloon. You’ll see a “Max STDDEV” field set to 10% by default - that’s how much variance Xcode allows before it considers a test to have failed, but you can change it however you want. Broadly speaking, extremely fast code should have a higher standard deviation allowance than slower code, only because extremely fast code is likely to show more variance due to system conditions.
 
 -->
 

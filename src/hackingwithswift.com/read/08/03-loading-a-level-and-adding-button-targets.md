@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -96,7 +96,7 @@ First, add these three empty methods below `viewDidLoad()`:
 }
 ```
 
-All three of those have the `@objc` attribute because they are going to be called by the buttons – by Objective-C code – when they are tapped.
+All three of those have the `@objc` attribute because they are going to be called by the buttons - by Objective-C code - when they are tapped.
 
 When we used `UIBarButtonItem` previously, we were able to specify the target and selector of that button right in the initializer. This is done a little differently with buttons: they have a dedicated `addTarget()` method that connects the buttons to some code.
 
@@ -106,7 +106,7 @@ So, in `loadView()` add this where we create the submit button:
 submit.addTarget(self, action: #selector(submitTapped), for: .touchUpInside)
 ```
 
-The target, action, and selector parts you know already, but the `.touchUpInside` part is new – that’s UIKit’s way of saying that the user pressed down on the button and lifted their touch while it was still inside. So, altogether that line means “when the user presses the submit button, call `submitTapped()` on the current view controller.”
+The target, action, and selector parts you know already, but the `.touchUpInside` part is new - that’s UIKit’s way of saying that the user pressed down on the button and lifted their touch while it was still inside. So, altogether that line means “when the user presses the submit button, call `submitTapped()` on the current view controller.”
 
 Now add this where the clear button is created:
 
@@ -116,7 +116,7 @@ clear.addTarget(self, action: #selector(clearTapped), for: .touchUpInside)
 
 That will call the `clearTapped()` method when the button is triggered.
 
-Finally, we want all the letter buttons to call `letterTapped()` when they are tapped – they share the same method, much like our flag buttons in project 2.
+Finally, we want all the letter buttons to call `letterTapped()` when they are tapped - they share the same method, much like our flag buttons in project 2.
 
 So, add this line inside our nested loop, just below the call to `letterButtons.append()`:
 

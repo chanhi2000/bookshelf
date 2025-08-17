@@ -69,7 +69,7 @@ The next block is the Padding String $PS$. This is a string of nonzero random by
 
 The next octet, $0\text{x}00$, is a Delimiter. This single zero byte marks the end of the padding. During decryption, this helps the recipient quickly identify where the padding stops and the real message begins.
 
-Finally, we have the actual data you want to protect – $M$. Once the recipient has verified the padding, they know exactly where to find this message.
+Finally, we have the actual data you want to protect - $M$. Once the recipient has verified the padding, they know exactly where to find this message.
 
 This mechanism helped solve the deterministic issue of naive RSA. In the next sections, let’s understand the mathematics involved in PKCS#1 v1.5 padding and its security implications.
 
@@ -85,7 +85,7 @@ $$
 k=\left\lceil\frac{L}{8}\right\rceil=\frac{1024}{8}=128\:\text{bytes}
 $$
 
-The total length of the encryption block will be equal to this RSA key length $k$ (in bytes). Now here the length of the data M shall not be more than k−11 octets, since the $11$ bytes are consumed by the blocks – $0\text{x}00\:\vert\vert\:0\text{x}02\:\vert\vert\:PS\:\vert\vert\:0\text{x}00$. This limitation guarantees that the length of the padding string $PS$ is at least eight octets, which is a security condition in PKCS#1v1.5:
+The total length of the encryption block will be equal to this RSA key length $k$ (in bytes). Now here the length of the data M shall not be more than k−11 octets, since the $11$ bytes are consumed by the blocks - $0\text{x}00\:\vert\vert\:0\text{x}02\:\vert\vert\:PS\:\vert\vert\:0\text{x}00$. This limitation guarantees that the length of the padding string $PS$ is at least eight octets, which is a security condition in PKCS#1v1.5:
 
 $$
 \vert{PS}\vert=k-\vert{M}\vert-3
@@ -156,6 +156,6 @@ $$
 2\times{256}^{6}\le{x}\lt{3}\times{256}^{6}
 $$
 
-This property which makes the range predictable, paved the way for the Bleichenbacher attack (also known as the “padding oracle” attack). If a system reveals whether a decrypted block is “correctly padded,” an attacker can systematically probe different ciphertexts and narrow down the plaintext – because the attacker knows it must lie in that narrow range. Let’s take a detailed look at the Bleichenbacher attack in the next sections and understand how the exploit works.
+This property which makes the range predictable, paved the way for the Bleichenbacher attack (also known as the “padding oracle” attack). If a system reveals whether a decrypted block is “correctly padded,” an attacker can systematically probe different ciphertexts and narrow down the plaintext - because the attacker knows it must lie in that narrow range. Let’s take a detailed look at the Bleichenbacher attack in the next sections and understand how the exploit works.
 
 [^1]: RFC 2313: [<FontIcon icon="fas fa-globe"/>PKCS #1: RSA Encryption](https://rfc-editor.org/rfc/rfc2313.html)

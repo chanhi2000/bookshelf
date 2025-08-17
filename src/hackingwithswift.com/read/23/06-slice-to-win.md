@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/kzGSiGXbxWo" />
 
-We need to modify `touchesMoved()` to detect when users slice penguins and bombs. The code isn't complicated, but it *is* long, so I'm going to split it into three. First, here's the structure – place this just before the end of `touchesMoved()`:
+We need to modify `touchesMoved()` to detect when users slice penguins and bombs. The code isn't complicated, but it *is* long, so I'm going to split it into three. First, here's the structure - place this just before the end of `touchesMoved()`:
 
 ```swift
 let nodesAtPoint = nodes(at: location)
@@ -151,7 +151,7 @@ run(SKAction.playSoundFileNamed("explosion.caf", waitForCompletion: false))
 endGame(triggeredByBomb: true)
 ```
 
-Before I walk you through the `endGame()` method, we need to adjust the `update()` method a little. Right now, if a penguin or a bomb falls below -140, we remove it from the scene. We're going to modify that so that if the player misses slicing a penguin, they lose a life. We're also going to delete the node's name just in case any further checks for enemies or bombs happen – clearing the node name will avoid any problems.
+Before I walk you through the `endGame()` method, we need to adjust the `update()` method a little. Right now, if a penguin or a bomb falls below -140, we remove it from the scene. We're going to modify that so that if the player misses slicing a penguin, they lose a life. We're also going to delete the node's name just in case any further checks for enemies or bombs happen - clearing the node name will avoid any problems.
 
 In the `update()` method, replace this code:
 

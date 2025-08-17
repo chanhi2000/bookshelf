@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-When managing SwiftUI's `NavigationStack` path using a `NavigationPath` object, we can save and load our whole path using `Codable` – we can store the complete navigation stack and restore it later, so the user comes back to the app exactly where they left it.
+When managing SwiftUI's `NavigationStack` path using a `NavigationPath` object, we can save and load our whole path using `Codable` - we can store the complete navigation stack and restore it later, so the user comes back to the app exactly where they left it.
 
 This is best handled by wrapping up your storage in a separate `ObservableObject` class, which can take the responsibility of loading and saving path data away from your views. For example, this class loads a saved when it's created, and saves the path whenever its `NavigationPath` property gets changed:
 
@@ -90,7 +90,7 @@ class PathStore: ObservableObject {
 }
 ```
 
-That's a neatly reusable class that you can put to work immediately – as long as the data you write into `NavigationPath` conforms to `Codable`, it will work.
+That's a neatly reusable class that you can put to work immediately - as long as the data you write into `NavigationPath` conforms to `Codable`, it will work.
 
 For example, we could create a simple detail view capable of showing a number the user selected while also allowing them to navigate deeper by selecting another number, then use that with our `PathStore` class so that navigation is automatically loaded and saved:
 
@@ -120,7 +120,7 @@ struct ContentView: View {
 }
 ```
 
-If you run that code, you'll see you can navigate through as many levels of `DetailView` as you want, and your data will automatically be stored – you can quit the app and return just fine, and your navigation history will remain intact.
+If you run that code, you'll see you can navigate through as many levels of `DetailView` as you want, and your data will automatically be stored - you can quit the app and return just fine, and your navigation history will remain intact.
 
 ::: details Similar solutions…
 

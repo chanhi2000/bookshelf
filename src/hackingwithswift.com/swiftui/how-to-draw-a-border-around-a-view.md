@@ -89,7 +89,7 @@ Text("Hacking with Swift")
 
 ![The text “Hacking with Swift” with a thick rectangular red border.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-draw-a-border-around-a-view-3~dark@2x.png)
 
-If you want anything more advanced – e.g., if you want to round the corners of your border – you need to use the `overlay()` modifier instead. For example, this adds a 4-point blue border with 16-point rounded corners:
+If you want anything more advanced - e.g., if you want to round the corners of your border - you need to use the `overlay()` modifier instead. For example, this adds a 4-point blue border with 16-point rounded corners:
 
 ```swift
 Text("Hacking with Swift")

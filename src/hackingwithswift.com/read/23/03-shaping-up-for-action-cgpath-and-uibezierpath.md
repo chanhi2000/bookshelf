@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-When the user finishes touching the screen, `touchesEnded()` will be called. I'm going to make this method fade out the slice shapes over a quarter of a second. We *could* remove them immediately but that looks ugly, and leaving them sitting there for no reason would rather destroy the effect. So, fading it is – add this `touchesEnded()` method:
+When the user finishes touching the screen, `touchesEnded()` will be called. I'm going to make this method fade out the slice shapes over a quarter of a second. We *could* remove them immediately but that looks ugly, and leaving them sitting there for no reason would rather destroy the effect. So, fading it is - add this `touchesEnded()` method:
 
 ```swift
 override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -91,7 +91,7 @@ So far this is all easy stuff, but we're going to look at an interesting method 
 4. Remove any actions that are currently attached to the slice shapes. This will be important if they are in the middle of a `fadeOut(withDuration:)` action.
 5. Set both slice shapes to have an alpha value of 1 so they are fully visible.
 
-We can convert that to code with ease – in fact, I've put numbered comments in the code below so you can match them up to the points above:
+We can convert that to code with ease - in fact, I've put numbered comments in the code below so you can match them up to the points above:
 
 ```swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -122,9 +122,9 @@ So, there's some challenge there but not a whole lot. Where it gets interesting 
 As with the previous method, let's take a look at what `redrawActiveSlice()` needs to do:
 
 1. If we have fewer than two points in our array, we don't have enough data to draw a line so it needs to clear the shapes and exit the method.
-2. If we have more than 12 slice points in our array, we need to remove the oldest ones until we have at most 12 – this stops the swipe shapes from becoming too long. 
+2. If we have more than 12 slice points in our array, we need to remove the oldest ones until we have at most 12 - this stops the swipe shapes from becoming too long. 
 3. It needs to start its line at the position of the first swipe point, then go through each of the others drawing lines to each point.
-4. Finally, it needs to update the slice shape paths so they get drawn using their designs – i.e., line width and color.
+4. Finally, it needs to update the slice shape paths so they get drawn using their designs - i.e., line width and color.
 
 To make this work, you're going to need to know that an `SKShapeNode` object has a property called `path` which describes the shape we want to draw. When it's `nil`, there's nothing to draw; when it's set to a valid path, that gets drawn with the `SKShapeNode`'s settings. `SKShapeNode` expects you to use a data type called `CGPath`, but we can easily create that from a `UIBezierPath`.
 
@@ -162,13 +162,13 @@ func redrawActiveSlice() {
 }
 ```
 
-At this point, we have something you can run: press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the game, then tap and swipe around on the screen to see the slice effect – I think you'll agree that `SKShapeNode` is pretty powerful!
+At this point, we have something you can run: press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the game, then tap and swipe around on the screen to see the slice effect - I think you'll agree that `SKShapeNode` is pretty powerful!
 
 ![As the player swipes, their slices light up the screen in a bright yellow curve.](https://hackingwithswift.com/img/books/hws/23-2@2x.png)
 
 Before we're done with the slice effect, we're going to add one more thing: a "swoosh" sound that plays as you swipe around. You've already seen the `playSoundFileNamed()` method of `SKAction`, but we're going to use it a little differently here.
 
-You see, if we just played a swoosh every time the player moved, there would be 100 sounds playing at any given time – one for every small movement they made. Instead, we want only one swoosh to play at once, so we're going to set to true a property called `isSwooshSoundActive`, make the `waitForCompletion` of our `SKAction` true, then use a completion closure for `runAction()` so that `isSwooshSoundActive` is set to false.
+You see, if we just played a swoosh every time the player moved, there would be 100 sounds playing at any given time - one for every small movement they made. Instead, we want only one swoosh to play at once, so we're going to set to true a property called `isSwooshSoundActive`, make the `waitForCompletion` of our `SKAction` true, then use a completion closure for `runAction()` so that `isSwooshSoundActive` is set to false.
 
 So, when the player first swipes we set `isSwooshSoundActive` to be true, and only when the swoosh sound has finished playing do we set it back to false again. This will allow us to ensure only one swoosh sound is playing at a time.
 

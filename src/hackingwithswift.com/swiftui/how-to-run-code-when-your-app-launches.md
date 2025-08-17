@@ -54,7 +54,7 @@ head:
 
 When you're using the SwiftUI App life cycle, your app launches through one struct that conforms to the `App` protocol. Its job is to create your initial view using either `WindowGroup`, `DocumentGroup`, or similar, but because its created before any of your actual views this is the perfect place for running code when your app launches.
 
-For example, if you wanted to set up some initial `UserDefaults` values, your app's initializer is a great place to call `register(defaults:)`. This method sets up *default defaults*, by which I mean initial values for `UserDefaults` values that exist only until you set them – as soon as you provide a value of your own, these aren't used any more, and these initial values also disappear when your app is terminated so you should call it every launch just to make sure.
+For example, if you wanted to set up some initial `UserDefaults` values, your app's initializer is a great place to call `register(defaults:)`. This method sets up *default defaults*, by which I mean initial values for `UserDefaults` values that exist only until you set them - as soon as you provide a value of your own, these aren't used any more, and these initial values also disappear when your app is terminated so you should call it every launch just to make sure.
 
 So, we might write something like this:
 

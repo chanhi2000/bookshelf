@@ -54,9 +54,9 @@ isOriginal: false
 
 When a thread pauses work on one actor to start work on another actor instead, we call it *actor hopping*, and it will happen any time one actor calls another.
 
-Behind the scenes, Swift manages a group of threads called the *cooperative thread pool*, creating as many threads as there are CPU cores so that we can’t be hit by thread explosion. Actors guarantee that they can be running only one method at a time, but they don’t care which thread they are running on – they will automatically move between threads as needed in order to balance system resources. 
+Behind the scenes, Swift manages a group of threads called the *cooperative thread pool*, creating as many threads as there are CPU cores so that we can’t be hit by thread explosion. Actors guarantee that they can be running only one method at a time, but they don’t care which thread they are running on - they will automatically move between threads as needed in order to balance system resources. 
 
-Actor hopping with the cooperative pool is fast – it will happen automatically, and we don’t need to worry about it. However, the main thread is *not* part of the cooperative thread pool, which means actor code being run from the main actor will require a context switch, which will incur a performance penalty if done too frequently.
+Actor hopping with the cooperative pool is fast - it will happen automatically, and we don’t need to worry about it. However, the main thread is *not* part of the cooperative thread pool, which means actor code being run from the main actor will require a context switch, which will incur a performance penalty if done too frequently.
 
 You can see the problem caused by frequent actor hopping in this toy example code:
 
@@ -135,11 +135,11 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/what-is-actor-hopping-and-how-can-it-cause-problems-2.zip)
 
-When that runs, the `loadUsers()` method will run on the main actor, because the whole `DataModel` class must run there – it has been annotated with `@MainActor` to avoid publishing changes from a background thread. However, the database’s `loadUser()` method will run somewhere on the cooperative pool: it might run on thread 3 the first time it’s called, thread 5 the second time, thread 8 the third time, and so on; Swift will take care of that for us.
+When that runs, the `loadUsers()` method will run on the main actor, because the whole `DataModel` class must run there - it has been annotated with `@MainActor` to avoid publishing changes from a background thread. However, the database’s `loadUser()` method will run somewhere on the cooperative pool: it might run on thread 3 the first time it’s called, thread 5 the second time, thread 8 the third time, and so on; Swift will take care of that for us.
 
 This means when our code runs it will repeatedly hop to and from the main actor, meaning there’s a significant performance cost introduced by all the context switching.
 
-The solution here is to avoid all the switches by running operations in batches – hop to the cooperative thread pool once to perform all the actor work required to load many users, then process those batches on the main actor. The batch size could potentially load all users at once depending on your need, but even batch sizes of two would halve the context switches compared to individual fetches.
+The solution here is to avoid all the switches by running operations in batches - hop to the cooperative thread pool once to perform all the actor work required to load many users, then process those batches on the main actor. The batch size could potentially load all users at once depending on your need, but even batch sizes of two would halve the context switches compared to individual fetches.
 
 For example, we could rewrite our previous example like this:
 
@@ -188,7 +188,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/what-is-actor-hopping-and-how-can-it-cause-problems-3.zip)
 
-Notice how the SwiftUI view is identical – we’re just rearranging our internal data access to be more efficient.
+Notice how the SwiftUI view is identical - we’re just rearranging our internal data access to be more efficient.
 
 ::: details Similar solutions…
 

@@ -82,7 +82,7 @@ I often hear that the main reason for the existence of Hooks is to replace class
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
 <SiteInfo
-  name="Introducing Hooks – React"
+  name="Introducing Hooks - React"
   desc="A JavaScript library for building user interfaces"
   url="https://legacy.reactjs.org/docs/hooks-intro.html/"
   logo="https://legacy.reactjs.org/favicon-32x32.png?v=f4d46f030265b4c48a05c999b8d93791"
@@ -195,7 +195,7 @@ On line 14, a new object is passed into `useFetch` on each render if we do not d
 
 I do understand why React has not gone down the route of doing deep object compares. You can get into some serious performance problems if not careful. I do seem to revisit this problem a lot, and there are a [number of fixes for this (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/14476#issuecomment-471199055). The more dynamic your objects are, the more workarounds you start adding.
 
-There is an [ESLint plugin (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) that you really should be using with [<FontIcon icon="fas fa-globe"/>the automatic –fix setup](https://oprea.rocks/blog/automatically-fix-eslint-code-validation-errors-in-visual-studio-code/) in your text editor of choice to apply ESLint fixes automatically. I do worry about any new feature that requires an external plugin to check correctness.
+There is an [ESLint plugin (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) that you really should be using with [<FontIcon icon="fas fa-globe"/>the automatic -fix setup](https://oprea.rocks/blog/automatically-fix-eslint-code-validation-errors-in-visual-studio-code/) in your text editor of choice to apply ESLint fixes automatically. I do worry about any new feature that requires an external plugin to check correctness.
 
 The fact that [<FontIcon icon="iconfont icon-github"/>`kentcdodds/use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect), [<FontIcon icon="iconfont icon-github"/>`alexreardon/use-memo-one`](https://github.com/alexreardon/use-memo-one), and others exist is a testimony to this being a common enough problem, or, at the very least, a point of confusion.
 

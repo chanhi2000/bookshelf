@@ -54,7 +54,7 @@ head:
 
 <VidStack src="youtube/yGqmf8hnC8U" />
 
-When a menu item is tapped, we want to bring in a detail view that shows more information. We already placed `ContentView` inside a navigation stack, so now we can use a new view type called `NavigationLink`. We need to give this a _destination_ – what kind of thing it should show – as well as what to show on-screen for the link.
+When a menu item is tapped, we want to bring in a detail view that shows more information. We already placed `ContentView` inside a navigation stack, so now we can use a new view type called `NavigationLink`. We need to give this a _destination_ - what kind of thing it should show - as well as what to show on-screen for the link.
 
 In practice, this looks like all the other containers we've used so far, so let's try it out with a neat shortcut: although we're going to be showing a detail view in just a minute, we can use a regular text view as a placeholder.
 
@@ -76,7 +76,7 @@ If you run the app now you'll see two important differences:
 2. When you tap on any item a new screen will slide in saying the name of whatever item you chose.
 Being able to present text views like this is a great timesaver while building up user interfaces!
 
-Of course, we want _more_ – we want a nice big picture, some details about the food, and more. So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to make another new SwiftUI view, this time called <FontIcon icon="fa-brands fa-swift"/>`ItemDetail.swift`.
+Of course, we want _more_ - we want a nice big picture, some details about the food, and more. So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to make another new SwiftUI view, this time called <FontIcon icon="fa-brands fa-swift"/>`ItemDetail.swift`.
 
 As with `ItemRow`, this needs to have a menu item passed in and stored as a property, so add this to `ItemDetail` now:
 
@@ -118,7 +118,7 @@ NavigationLink {
 } label: {
 ```
 
-That works, but behind the scenes it causes SwiftUI to do more work than you might think – every time it creates a row in our `List` it will also create the `NavigationLink`, and as part of that it will _also_ create the `ItemDetail` for every visible row.
+That works, but behind the scenes it causes SwiftUI to do more work than you might think - every time it creates a row in our `List` it will also create the `NavigationLink`, and as part of that it will _also_ create the `ItemDetail` for every visible row.
 
 That's far from ideal, so SwiftUI gives us a faster, simpler alternative: we can attach any `Hashable` object directly to the `NavigationLink` as its value, then use a `navigationDestination()` modifier to tell SwiftUI “when you're asked to navigate to a `MenuItem`, load an `ItemDetail` view with that value.
 
@@ -130,7 +130,7 @@ NavigationLink(value: item) {
 }
 ```
 
-And now we meed to add this modifier to the `List` – before `navigationTitle()` is fine, but it doesn't really matter:
+And now we meed to add this modifier to the `List` - before `navigationTitle()` is fine, but it doesn't really matter:
 
 ```swift
 .navigationDestination(for: MenuItem.self) { item in
@@ -152,7 +152,7 @@ struct ItemDetail_Previews: PreviewProvider {
 }
 ```
 
-That doesn't actually change what our code does at runtime – it's just the preview that has changed.
+That doesn't actually change what our code does at runtime - it's just the preview that has changed.
 
 You can see that our detail view has some layout issues, so let's correct them.
 
@@ -169,7 +169,7 @@ Text(item.description)
     .padding()
 ```
 
-The `padding()` modifier lets us specify the sides where we want padding and also how much to use, but without any parameters it will apply padding to all edges. How _much_ it will apply depends on the context – what device is being used, etc – but it generally looks good.
+The `padding()` modifier lets us specify the sides where we want padding and also how much to use, but without any parameters it will apply padding to all edges. How _much_ it will apply depends on the context - what device is being used, etc - but it generally looks good.
 
 Third, it looks strange having our content vertically centered, because our eyes are used to information being aligned to the top. To fix _that_ we can use another `Spacer()`, directly after the item description:
 
@@ -205,7 +205,7 @@ Text("Photo: \(item.photoCredit)")
 
 Tip: If you swap the order of the `padding()` and `background()` modifiers the result is different. The order matters!
 
-It's more visible now, but that just means we can see it doesn't look great – it shouldn't really be right over our food!
+It's more visible now, but that just means we can see it doesn't look great - it shouldn't really be right over our food!
 
 To fix that we can add some alignment to our `ZStack` so that the label is in the bottom-right corner:
 
@@ -230,9 +230,9 @@ Nice!
 
 There is one other layout issue, but you might not have noticed it yet depending on your Xcode configuration: some parts of our user interface hang off the screen!
 
-I've been using the iPhone 14 Pro Max device for my canvas so far, which works great because it has a huge screen. However, if I change to a small device – e.g. the iPhone SE (go to Product > Destination > iPhone SE (3rd Generation)) – that has a much smaller screen, and now you should see the photo credit area is now running off the right edge of the screen.
+I've been using the iPhone 14 Pro Max device for my canvas so far, which works great because it has a huge screen. However, if I change to a small device - e.g. the iPhone SE (go to Product > Destination > iPhone SE (3rd Generation)) - that has a much smaller screen, and now you should see the photo credit area is now running off the right edge of the screen.
 
-This is happening because SwiftUI displays images at their natural size by default, meaning that they take up the same amount of width and height on screen as they have in pixels. Our main image is too big for the iPhone SE screen, and so rather than squishing it SwiftUI just lets it overflow outside of the screen – the image hangs out, and in doing so allows everything else to grow too.
+This is happening because SwiftUI displays images at their natural size by default, meaning that they take up the same amount of width and height on screen as they have in pixels. Our main image is too big for the iPhone SE screen, and so rather than squishing it SwiftUI just lets it overflow outside of the screen - the image hangs out, and in doing so allows everything else to grow too.
 
 To fix this we need to add two new modifiers to our image: one to make the image resizable, and one to make it scale itself to fit the available space.
 
@@ -244,7 +244,7 @@ Image(item.mainImage)
     .scaledToFit()
 ```
 
-With that small change, our image will run edge to edge on all iPhone screen sizes, which is much better. As well as `scaledToFit()`, there is also a `scaledToFill()` modifier – the former will ensure the whole image is visible, even if that means leaving a little space empty, whereas the latter will never leave any space empty even if that means clipping some of the picture. Both will automatically retain the natural aspect ratio of the image they are applied to.
+With that small change, our image will run edge to edge on all iPhone screen sizes, which is much better. As well as `scaledToFit()`, there is also a `scaledToFill()` modifier - the former will ensure the whole image is visible, even if that means leaving a little space empty, whereas the latter will never leave any space empty even if that means clipping some of the picture. Both will automatically retain the natural aspect ratio of the image they are applied to.
 
 ::: details Further reading
 

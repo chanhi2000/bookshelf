@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-All `UIView` subclasses have the ability to round their corners thanks to their underlying `CALayer` – that's the bit that handles the actual drawing of your views. To round the corners of a view, use this code:
+All `UIView` subclasses have the ability to round their corners thanks to their underlying `CALayer` - that's the bit that handles the actual drawing of your views. To round the corners of a view, use this code:
 
 ```swift
 yourView.layer.cornerRadius = 10

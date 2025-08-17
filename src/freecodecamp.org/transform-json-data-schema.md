@@ -251,7 +251,7 @@ This creates a tabular or spreadsheet-like structure, where each row represents 
 
 ### Step 4: Write a custom function to rename relevant fields
 
-At this point, we need a function that takes in a single customer entry – a row – and returns a cleaned version that fits the target schema (`full_name`, `email_address`, `mobile` and `tier`).
+At this point, we need a function that takes in a single customer entry - a row - and returns a cleaned version that fits the target schema (`full_name`, `email_address`, `mobile` and `tier`).
 
 The function should also handle missing data by setting default values like **”Unknown”** or **”N/A”** when a field is absent.
 
@@ -314,7 +314,7 @@ When I used **list comprehension** to apply the custom function, my script’s r
 
 ### Final output preview
 
-If you followed this tutorial closely, your JSON output should look like this – whether you used the `pandas` method or the pure Python approach:
+If you followed this tutorial closely, your JSON output should look like this - whether you used the `pandas` method or the pure Python approach:
 
 ![The expected JSON output after schema transformation](https://cdn.hashnode.com/res/hashnode/image/upload/v1751961256627/d7b585f7-4585-4354-9fa7-a171adb31f90.jpeg)
 
@@ -343,7 +343,7 @@ import json
 from jsonschema import validate, ValidationError
 ```
 
-`validate()` checks whether your JSON data matches the rules defined in your schema. If the data is valid, nothing happens. But if there’s an error – like a missing field or wrong data type – it raises a `ValidationError`.
+`validate()` checks whether your JSON data matches the rules defined in your schema. If the data is valid, nothing happens. But if there’s an error - like a missing field or wrong data type - it raises a `ValidationError`.
 
 ### Step 2: Define a schema
 
@@ -373,7 +373,7 @@ schema = {
 
 - The data is an object that must contain a key: `customers`.
 - `customers` must be an **array** (a list), with each object representing one customer entry.
-- Each customer entry must have four fields–all strings:
+- Each customer entry must have four fields-all strings:
   - `full_name`
   - `email_address`
   - `mobile`

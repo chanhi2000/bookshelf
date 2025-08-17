@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift strings are extraordinarily complex beasts, allowing you to mix in characters from any language – including emoji – freely. While this is really important to display text, it can also cause havoc while trying to create URLs and filenames, so if you need to refer to a string in those places you should first convert it to a *slug*.
+Swift strings are extraordinarily complex beasts, allowing you to mix in characters from any language - including emoji - freely. While this is really important to display text, it can also cause havoc while trying to create URLs and filenames, so if you need to refer to a string in those places you should first convert it to a *slug*.
 
-If you look at a URL like <a href="https://www.hackingwithswift.com/whats-new-in-ios-11">https://www.hackingwithswift.com/whats-new-in-ios-11</a>, the *slug* is the last part – “whats-new-in-ios-11”. The conversion process stripped out punctuation (the apostrophe in “What’s”, lowercased it all, removed any non-Latin characters, then used dashed for word separators rather than spaces.
+If you look at a URL like <a href="https://www.hackingwithswift.com/whats-new-in-ios-11">https://www.hackingwithswift.com/whats-new-in-ios-11</a>, the *slug* is the last part - “whats-new-in-ios-11”. The conversion process stripped out punctuation (the apostrophe in “What’s”, lowercased it all, removed any non-Latin characters, then used dashed for word separators rather than spaces.
 
 This takes a little more work to do than you might think, particularly because of the way you need to convert non-Latin and accented characters. For example, “ä” needs to be converted to “a”, and languages such as German convert “ß” into “ss” when they are rendered as Latin characters.
 

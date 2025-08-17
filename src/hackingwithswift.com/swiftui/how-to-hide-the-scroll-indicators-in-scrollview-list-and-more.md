@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-SwiftUI's `scrollIndicators()` modifier allows us to determine whether to show the scroll indicators or not – those are the little flashing bars that both give the user a sense of the size of our content, but also allows for a long press scroll.
+SwiftUI's `scrollIndicators()` modifier allows us to determine whether to show the scroll indicators or not - those are the little flashing bars that both give the user a sense of the size of our content, but also allows for a long press scroll.
 
 Use it like this:
 
@@ -75,7 +75,7 @@ There are four options available to us, and there are subtle distinctions:
 
 1. The default is `.automatic`, which is what you'd get without the modifier in place - SwiftUI will do whatever it thinks is best.
 2. Specify `.visible` to get auto-hiding indicators on iOS, or to respect whatever is the user's preference on macOS.
-3. Use `.hidden` to hide the indicators on iOS, and *mostly* hide them on macOS too – if the user connects a mouse, the scroll indicators will return.
+3. Use `.hidden` to hide the indicators on iOS, and *mostly* hide them on macOS too - if the user connects a mouse, the scroll indicators will return.
 4. Use `.never` to hide the indicators on iOS and also on macOS, regardless of what pointing device user has.
 
 ::: details Similar solutions…

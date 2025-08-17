@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-A dictionary is a collection of values stored at named positions. Whereas you would access values in an array using `myArray[5]`, with a dictionary you use named positions such as `myDict["Paul"]` or `myDict["Scotland"]`. You don't even need to use strings for the positions – you can use another object if you choose, such as dates.
+A dictionary is a collection of values stored at named positions. Whereas you would access values in an array using `myArray[5]`, with a dictionary you use named positions such as `myDict["Paul"]` or `myDict["Scotland"]`. You don't even need to use strings for the positions - you can use another object if you choose, such as dates.
 
 These named positions are called "keys", so dictionaries represent what's known as a key-value pair: each key has exactly one value, and each can appear only once in a dictionary.
 

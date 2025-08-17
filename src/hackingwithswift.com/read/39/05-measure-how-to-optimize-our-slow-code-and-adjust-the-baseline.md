@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,15 +51,15 @@ isOriginal: false
 }
 ```
 
-You might have noticed there's a pre-written method called `setup()` in our unit tests, which contains this comment: "Put setup code here. This method is called before the invocation of each test method in the class." Why, then, do we have `let playData = PlayData()` in both our tests – couldn't that go into `setup()` to avoid repetition?
+You might have noticed there's a pre-written method called `setup()` in our unit tests, which contains this comment: "Put setup code here. This method is called before the invocation of each test method in the class." Why, then, do we have `let playData = PlayData()` in both our tests - couldn't that go into `setup()` to avoid repetition?
 
-Well, no, and you're about to see why. You will probably have noticed that our new word frequency code has slowed down our app quite a bit. Even when running in the iOS Simulator, using the full power of your Mac, this code now takes about two seconds to run – try to imagine how much slower it would be on a real device!
+Well, no, and you're about to see why. You will probably have noticed that our new word frequency code has slowed down our app quite a bit. Even when running in the iOS Simulator, using the full power of your Mac, this code now takes about two seconds to run - try to imagine how much slower it would be on a real device!
 
 Of course, this is all a clever ruse to teach you more things, and here I want to teach you how to use XCTest to check performance. Our new word counting code is slow, but the only reliable way to ensure it gets faster when we make changes is to create a new test that times how long it takes for our `PlayData` object to be created. This is why we can't create it inside the `setup()` method: we need to create it as part of a measurement in this next test, as you'll see.
 
 XCTest makes performance testing extraordinarily easy: you give it a closure to run, and it will execute that code 10 times in a row. You'll then get a report back of how long the call took on average, what the standard deviation was (how much variance there was between runs), and even how fast each of those 10 runs performed if you want the details.
 
-Let's write a performance test now – please add this to <FontIcon icon="fa-brands fa-swift"/>`Project39Tests.swift`:
+Let's write a performance test now - please add this to <FontIcon icon="fa-brands fa-swift"/>`Project39Tests.swift`:
 
 ```swift
 func testWordsLoadQuickly() {
@@ -77,7 +77,7 @@ Once the test finishes you'll see a green arrow to show it succeeded, but that d
 
 ![Performance tests offer different information to regular tests. As you can see here, you'll see the mean average time as well as the standard deviation, which helps you identify performance hotspots.](https://hackingwithswift.com/img/books/hws/39-9@2x.png)
 
-On the left of the line, in the gutter next to the line number, is a small gray diamond – clicking that will show you pop up information about all 10 runs. Also in that pop up is an important button that I want you to click now: Set Baseline. That marks your previous test run as the baseline against which future test runs should be compared to see whether performance has improved or worsened.
+On the left of the line, in the gutter next to the line number, is a small gray diamond - clicking that will show you pop up information about all 10 runs. Also in that pop up is an important button that I want you to click now: Set Baseline. That marks your previous test run as the baseline against which future test runs should be compared to see whether performance has improved or worsened.
 
 ![You can see detailed performance data, and set a baseline, by clicking the tiny gray diamond on the left of the standard deviation line.](https://hackingwithswift.com/img/books/hws/39-10@2x.png)
 
@@ -152,9 +152,9 @@ let sorted = wordCounts.allObjects.sorted { wordCounts.count(for: $0) > wordCoun
 allWords = sorted as! [String]
 ```
 
-Remember, that closure needs to accept two strings (`$0` and `$1`) and needs to return true if the first string comes before the second. We call `count(for:)` on each of those strings, so this code will return true ("sort before") if the count for `$0` is higher than the code for `$1` – perfect.
+Remember, that closure needs to accept two strings (`$0` and `$1`) and needs to return true if the first string comes before the second. We call `count(for:)` on each of those strings, so this code will return true ("sort before") if the count for `$0` is higher than the code for `$1` - perfect.
 
-If you run the app now you'll see the most frequently used words appear at the top – good job! Note, though, that running this sort takes a little time, so make sure you update the baseline for `testWordsLoadQuickly()` to reflect that change.
+If you run the app now you'll see the most frequently used words appear at the top - good job! Note, though, that running this sort takes a little time, so make sure you update the baseline for `testWordsLoadQuickly()` to reflect that change.
 
 ![The table view is now finished: it shows all words, with no duplicates, and sorted by frequency descending.](https://hackingwithswift.com/img/books/hws/39-11@2x.png)
 

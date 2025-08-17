@@ -92,7 +92,7 @@ struct ContentView: View {
 
 ::: note
 
-Xcode will get angry if you set your progress value higher than the progress total – make sure you cap it as you can see above.
+Xcode will get angry if you set your progress value higher than the progress total - make sure you cap it as you can see above.
 
 :::
 

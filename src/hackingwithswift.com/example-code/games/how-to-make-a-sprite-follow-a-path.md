@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ path.addLine(to: CGPoint(x: 0, y: 1000))
 
 That will move directly up.
 
-Next, turn that into an `SKAction` using `SKAction.follow()`. You can specify whether this path is an *offset* or contains absolute coordinates – we used X:0 Y:0 above, so if we request offset movement that will be equivalent to the node’s starting position.
+Next, turn that into an `SKAction` using `SKAction.follow()`. You can specify whether this path is an *offset* or contains absolute coordinates - we used X:0 Y:0 above, so if we request offset movement that will be equivalent to the node’s starting position.
 
 The `follow()` method also accepts parameters for speed (how fast the movement should happen), and whether the node should orient itself to the path. The orientation option is particularly neat: your node will turn itself so that it’s always facing towards the path.
 

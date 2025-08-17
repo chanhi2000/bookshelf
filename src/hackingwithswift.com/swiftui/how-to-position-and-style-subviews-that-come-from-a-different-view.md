@@ -73,7 +73,7 @@ struct HeadlinesView: View {
 }
 ```
 
-They don't have any layout attached to them – they aren't wrapped in a `VStack`, for example. As a result, we can use `Group(subviewsOf:)` to read all the text views inside `HeadlinesView`, adjusting each one by hand.
+They don't have any layout attached to them - they aren't wrapped in a `VStack`, for example. As a result, we can use `Group(subviewsOf:)` to read all the text views inside `HeadlinesView`, adjusting each one by hand.
 
 For example, we might make the first headline bigger than the others:
 
@@ -118,7 +118,7 @@ struct ContentView: View {
 }
 ```
 
-So, `Group(subviewsOf:)` take a view or a view builder – we don't really care which, or how either are created – and it hands it to us as a collection we can manipulate.
+So, `Group(subviewsOf:)` take a view or a view builder - we don't really care which, or how either are created - and it hands it to us as a collection we can manipulate.
 
 In comparison, `ForEach(subviewOf:)` takes a view or a view builder, and hands each element to us one by one. It's not quite as powerful because you can't access randomly elements in the collection freely, but it's still useful for simpler things.
 
@@ -126,7 +126,7 @@ If you need more complex layouts, you can use SwiftUI's existing `Section` view 
 
 ::: important
 
-In Xcode 16 beta 1, this API is a little broken – you'll find it works great in Xcode previews, but doesn't work at all in the simulator. If you find that it's fixed by the time you read this, please let me know and I'll remove this warning!
+In Xcode 16 beta 1, this API is a little broken - you'll find it works great in Xcode previews, but doesn't work at all in the simulator. If you find that it's fixed by the time you read this, please let me know and I'll remove this warning!
 
 :::
 
@@ -222,7 +222,7 @@ struct ContentView: View {
 }
 ```
 
-The real flexibility here is that `IconContentView` gets to decide how to use the data it's provided – maybe it wants to place the icons to the side like a `Label`, maybe it wants to use them as buttons that reveal the main subview when pressed, or something else entirely.
+The real flexibility here is that `IconContentView` gets to decide how to use the data it's provided - maybe it wants to place the icons to the side like a `Label`, maybe it wants to use them as buttons that reveal the main subview when pressed, or something else entirely.
 
 ::: details Similar solutions…
 

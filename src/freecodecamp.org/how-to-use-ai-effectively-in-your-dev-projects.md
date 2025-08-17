@@ -60,12 +60,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753305511556/b597336
 
 <SiteInfo
   name="How to Use AI Effectively in Your Dev Projects"
-  desc="“AI is not going to take your job – but a developer who knows how to use AI will.” I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used ..."
+  desc="“AI is not going to take your job - but a developer who knows how to use AI will.” I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used ..."
   url="https://freecodecamp.org/news/how-to-use-ai-effectively-in-your-dev-projects"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1753305511556/b5973363-1964-4abf-a29b-cf60668b33da.png"/>
 
-**“AI is not going to take your job – but a developer who knows how to use AI will.”** I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used to be, and that's a good thing.
+**“AI is not going to take your job - but a developer who knows how to use AI will.”** I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used to be, and that's a good thing.
 
 Let's get one thing straight: AI is here to help, not to replace. Your job, my job, was never *just* to write code. Writing code was always just a part of it. Our real job is to build software solutions that work. And since an AI, trained on the collective knowledge of millions of developers, can probably write better, cleaner boilerplate than you, you should let it. Your expertise is better used elsewhere.
 
@@ -171,7 +171,7 @@ And just like that, I've got the design of the website and the starter code for 
 
 ## Step 3: Writing the Boilerplate Code
 
-I said earlier that AI can write better code than you, and I stand by it. It was trained on all the code from every public repo, every tutorial, every developer put together. Assuming the collective brain of every developer is better than you alone, the AI has a serious edge – *if* you can guide it.
+I said earlier that AI can write better code than you, and I stand by it. It was trained on all the code from every public repo, every tutorial, every developer put together. Assuming the collective brain of every developer is better than you alone, the AI has a serious edge - *if* you can guide it.
 
 For my car rental site, I wanted to use React. So I just copied the HTML code from the design tool and pasted it into Gemini with some very clear instructions.
 
@@ -207,7 +207,7 @@ Overall, it took maybe ten minutes from the time I got the message from the clie
 
 ## Step 4: Making the Code *Actually* Good
 
-Look, I know this is far from done. The AI gave me a great start, but it's not a finished product. I still have to plug in a CMS or a database, set up the real logic – you get the idea. This is where the *real* development starts, and AI is still my co-pilot.
+Look, I know this is far from done. The AI gave me a great start, but it's not a finished product. I still have to plug in a CMS or a database, set up the real logic - you get the idea. This is where the *real* development starts, and AI is still my co-pilot.
 
 ### What the AI Got Right (and Wrong)
 
@@ -215,7 +215,7 @@ The AI did a surprisingly good job on the first pass. It correctly scaffolded th
 
 But it wasn't perfect. For example, the initial data for the cars was hardcoded directly inside the component. That's a huge no-no for a real app that needs to scale or pull from a database. Also, the components weren't as reusable as I'd like.
 
-This is where your job as a developer comes in – to review, refactor, and architect properly.
+This is where your job as a developer comes in - to review, refactor, and architect properly.
 
 ### Refactoring in Action
 
@@ -281,7 +281,7 @@ See the difference? Now it's a reusable, type-safe component that gets its data 
 
 ## So, What's the Takeaway?
 
-The game has changed. AI is a tool, probably the most powerful one we've ever been given. It automates the boring stuff so we can focus on the hard problems – architecture, performance, and user experience.
+The game has changed. AI is a tool, probably the most powerful one we've ever been given. It automates the boring stuff so we can focus on the hard problems - architecture, performance, and user experience.
 
 The developers who ignore this are going to be lapped by the ones who embrace it. It’s about working smarter, not harder.
 
@@ -311,7 +311,7 @@ If you have any questions, feel free to find me on Twitter at [<FontIcon icon="f
 ```component VPCard
 {
   "title": "How to Use AI Effectively in Your Dev Projects",
-  "desc": "“AI is not going to take your job – but a developer who knows how to use AI will.” I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used ...",
+  "desc": "“AI is not going to take your job - but a developer who knows how to use AI will.” I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-ai-effectively-in-your-dev-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

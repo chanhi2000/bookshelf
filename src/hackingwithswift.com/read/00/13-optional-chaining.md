@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -99,7 +99,7 @@ print("The album is \(album)")
 
 ![We've converted our Optional String to “TAYLOR SWIFT” in all caps.](https://hackingwithswift.com/img/books/hws/optional-chaining-3@2x.png)
 
-Note that there's a question mark in there, which is the optional chaining: everything after the question mark will only be run if everything before the question mark has a value. This doesn't affect the underlying data type of `album`, because that line of code will now either return nil or will return the uppercase album name – it's still an optional string.
+Note that there's a question mark in there, which is the optional chaining: everything after the question mark will only be run if everything before the question mark has a value. This doesn't affect the underlying data type of `album`, because that line of code will now either return nil or will return the uppercase album name - it's still an optional string.
 
 Your optional chains can be as long as you need, for example:
 
@@ -128,5 +128,5 @@ That double question mark is the nil coalescing operator, and in this situation 
 
 ![`album` is no longer an Optional.](https://hackingwithswift.com/img/books/hws/optional-chaining-4@2x.png)
 
-If you look in the results pane now, you'll see "The album is Taylor Swift" printed in there – no more optionals. This is because Swift can now be sure it will get a real value back, either because the function returned one or because you're providing "unknown". This in turn means you don't need to unwrap anything or risk crashes: you're guaranteed to have real data to work with, which makes your code safer and easier to work with.
+If you look in the results pane now, you'll see "The album is Taylor Swift" printed in there - no more optionals. This is because Swift can now be sure it will get a real value back, either because the function returned one or because you're providing "unknown". This in turn means you don't need to unwrap anything or risk crashes: you're guaranteed to have real data to work with, which makes your code safer and easier to work with.
 

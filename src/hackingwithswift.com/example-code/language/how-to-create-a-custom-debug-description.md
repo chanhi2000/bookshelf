@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Swift lets you print all types of data, but some data is more useful than others thanks to the `CustomDebugStringConvertible` protocol. If you write a type conforming to that protocol, you must include a `debugDescription` string property that describes how instances of this type should be represented while debugging.
 
-To test this out, we’re going to create a `Player` struct that stores a player’s name. When we try to debug an instance of this struct – i.e., print it out, or hover over it in the debugger – we just want the player’s name to come back, for easier debugging.
+To test this out, we’re going to create a `Player` struct that stores a player’s name. When we try to debug an instance of this struct - i.e., print it out, or hover over it in the debugger - we just want the player’s name to come back, for easier debugging.
 
 Try adding this struct to a playground:
 

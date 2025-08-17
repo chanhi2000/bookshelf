@@ -58,7 +58,7 @@ If you're building something with Django, there's one thing you can't skip: crea
 
 Now, if you're new to Django or still wrapping your head around the basics, don’t worry. I’ve been there too. Models might sound a bit intimidating at first, but they’re pretty straightforward once you see how they work.
 
-I’ll walk you through it all – step by step – so by the end of this post, you’ll not only know how to create models, but also how to use them in real projects.
+I’ll walk you through it all - step by step - so by the end of this post, you’ll not only know how to create models, but also how to use them in real projects.
 
 Let’s get into it.
 
@@ -83,7 +83,7 @@ class Book(models.Model):
 Let me break it down:
 
 - `title` and `author` are just short pieces of text, so I’m using `CharField`.
-- `published_date` is a date – easy enough, that’s what `DateField` is for.
+- `published_date` is a date - easy enough, that’s what `DateField` is for.
 - `price` is a number with decimals, so `DecimalField` does the job.
 
 Each line describes one piece of data I want to store for every book. Simple, right?
@@ -248,7 +248,7 @@ Now run:
 python manage.py createsuperuser
 ```
 
-Then go to `http://127.0.0.1:8000/admin`, log in, and boom – your models are there, with a full interface.
+Then go to `http://127.0.0.1:8000/admin`, log in, and boom - your models are there, with a full interface.
 
 ---
 
@@ -281,7 +281,7 @@ Use `CharField` for short text with a max length (like a name or title). Use `Te
 
 ## Final Thoughts
 
-Once you understand models, the rest of Django starts to click into place. Everything – forms, views, templates – eventually connects back to the model. It's how your app stores and works with real data.
+Once you understand models, the rest of Django starts to click into place. Everything - forms, views, templates - eventually connects back to the model. It's how your app stores and works with real data.
 
 The best way to learn is by building something. Start small, maybe a book catalog, a task manager, or a personal blog. Add models one at a time and play with them in the admin.
 

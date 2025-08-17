@@ -68,7 +68,7 @@ There are several reasons why the loading speed of a website is considered essen
 
 Website loading speed is a confirmed ranking factor. This means that search engines like Google definitely consider the loading time when evaluating a website’s quality. Usually, the [<FontIcon icon="fas fa-globe"/>ideal loading speed](https://sematext.com/glossary/page-load-time/) is between 0 and 2 seconds. However, 3 seconds is also sometimes acceptable.
 
-In case your site does not fulfill this criteria, then there is a high probability that it may receive a penalty from Google. This will result in lower rankings in the targeted niche – which no webmaster or business wants.
+In case your site does not fulfill this criteria, then there is a high probability that it may receive a penalty from Google. This will result in lower rankings in the targeted niche - which no webmaster or business wants.
 
 ### 2. Impact on User Experience:
 
@@ -88,7 +88,7 @@ Mobile contributes to [<FontIcon icon="fas fa-globe"/>58% of the global internet
 
 ---
 
-## How to Remove Extra Bits & Bytes from the Website – Different Strategies
+## How to Remove Extra Bits & Bytes from the Website - Different Strategies
 
 Here are some of the most proven strategies you can utilize to remove extra bits and bytes from your websites.
 
@@ -143,7 +143,7 @@ Just keep in mind that there are multiple downsides of code minification. For in
 
 Apart from code, unoptimized images, [<FontIcon icon="fas fa-globe"/>logo files](https://logocreator.io/blog/logo-file-formats/) and other media files are often the main culprits behind the slow [**loading speed**](/freecodecamp.org/developers-guide-to-website-speed-optimization.md) of a website. This means that you also need to optimize them as well. There are numerous things you can do in this regard.
 
-First of all – you should reduce the image size in terms of storage. It is generally recommended that each [<FontIcon icon="fas fa-globe"/>picture should be less than 500 KB in size](https://foregroundweb.com/image-size/). But note that this size can vary depending on the use case.
+First of all - you should reduce the image size in terms of storage. It is generally recommended that each [<FontIcon icon="fas fa-globe"/>picture should be less than 500 KB in size](https://foregroundweb.com/image-size/). But note that this size can vary depending on the use case.
 
 It’s also a good idea to choose next-generation picture formats like WebP instead of typical ones like JPEG or PNG. When it comes to video files, it’s also helpful if you go with the embedded ones from platforms like YouTube.
 
@@ -227,7 +227,7 @@ So now there is no need to spend time and effort on manually minifying your code
 ### 2. TinyPNG
 
 <SiteInfo
-  name="TinyPNG – Compress AVIF, WebP, PNG and JPEG images"
+  name="TinyPNG - Compress AVIF, WebP, PNG and JPEG images"
   desc="Free online image optimizer for faster websites! Reduce the file size of your AVIF, WEBP, JPEG and PNG images while preserving the image quality. "
   url="https://tinypng.com/"
   logo="https://tinypng.com/images/favicon.ico"
@@ -260,7 +260,7 @@ As I mentioned earlier, I recommend using next-gen image formats like WebP inste
 
 It’s available for free and does not ask for registration/signup. Simply visit the page and start performing conversions. The conversion is performed without causing any damage to the image’s quality and formatting.
 
-The tool also offers many extra features. For instance, you can adjust both the image’s width and height. You can also set image quality (WebP compression level) if required. And it doesn’t stop here – you can even select the right fit for the photo from the following options:
+The tool also offers many extra features. For instance, you can adjust both the image’s width and height. You can also set image quality (WebP compression level) if required. And it doesn’t stop here - you can even select the right fit for the photo from the following options:
 
 - Max
 - Crop
@@ -311,7 +311,7 @@ It offers a robust DNS resolution that reduces lookup times and helps the page l
 
 ## Wrapping Up
 
-If you want to experience higher ranking and increased user engagement, then you need to optimize your website’s loading speed. The extra bits and bytes like code files, media, and so on can cause real hurdles – but don’t worry.
+If you want to experience higher ranking and increased user engagement, then you need to optimize your website’s loading speed. The extra bits and bytes like code files, media, and so on can cause real hurdles - but don’t worry.
 
 By using these strategies and tools, you’ll be able to speed up page loading in no time. I hope you found this article interesting and valuable.
 

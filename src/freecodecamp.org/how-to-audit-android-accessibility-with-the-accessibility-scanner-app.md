@@ -125,7 +125,7 @@ While recording, I navigated to other pages within the app. The recording gave 5
 
 The Accessibility Scanner is a valuable tool for teams throughout the app development lifecycle. Engineers can use it early in the process to scan the app locally, identify accessibility issues, and resolve them before release. During the QA phase, designers and product managers can use the scanner to audit user interfaces and flag potential accessibility concerns. Even after an app is in production, all teams can continue to use the scanner to monitor and improve accessibility.
 
-But it’s important to note that the Accessibility Scanner is just one part of an accessibility strategy – it’s not a complete replacement for manual testing or audits. And it won’t catch all types of accessibility barriers – especially those that require keyboard navigation, screen reader testing, or cognitive usability reviews. But it is a simple and effective starting point for improving accessibility in Android apps.
+But it’s important to note that the Accessibility Scanner is just one part of an accessibility strategy - it’s not a complete replacement for manual testing or audits. And it won’t catch all types of accessibility barriers - especially those that require keyboard navigation, screen reader testing, or cognitive usability reviews. But it is a simple and effective starting point for improving accessibility in Android apps.
 
 You should use it alongside other tools, such as Android’s TalkBack for screen reader testing. Most importantly, real-world feedback from people who use assistive technologies is essential to identifying usability barriers that automated tools may miss.
 

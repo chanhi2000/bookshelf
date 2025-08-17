@@ -95,7 +95,7 @@ if let books = items as? Purchaseable {
 }
 ```
 
-In addition, support for automatic synthesis of `Hashable` conformance has improved greatly in Swift 4.2. Several built-in types from the Swift standard library – including optionals, arrays, dictionaries, and ranges – now automatically conform to the `Hashable` protocol when their elements conform to `Hashable`.
+In addition, support for automatic synthesis of `Hashable` conformance has improved greatly in Swift 4.2. Several built-in types from the Swift standard library - including optionals, arrays, dictionaries, and ranges - now automatically conform to the `Hashable` protocol when their elements conform to `Hashable`.
 
 For example:
 

@@ -133,7 +133,7 @@ AIOps lets your team automate daily tasks, eliminating the need for human interv
 
 #### 3. Event Correlation and Root Cause Analysis
 
-Event correlation is the technique of linking events from several related systems to identify the root cause of the problem. For instance, AIOps will examine server, network, and application logs to determine what’s wrong – whether it’s a network problem or a web application failure – and correct it.
+Event correlation is the technique of linking events from several related systems to identify the root cause of the problem. For instance, AIOps will examine server, network, and application logs to determine what’s wrong - whether it’s a network problem or a web application failure - and correct it.
 
 ---
 

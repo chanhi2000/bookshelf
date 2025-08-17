@@ -457,7 +457,7 @@ Sign in and you should receive an email and be redirected back to the applicatio
 
 ---
 
-## Native Auth Support – How to Sign in with Google
+## Native Auth Support - How to Sign in with Google
 
 To add native sign in with Google support across Android, Web, and iOS, you'll need to add a few more configurations.
 

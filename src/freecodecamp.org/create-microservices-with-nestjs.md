@@ -69,11 +69,11 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 This hands-on course covers essential topics for building microservices, including:
 
-- **Setting up a Nest.js microservices project** – Learn how to scaffold and structure a Nest.js application for microservices.
-- **Using MongoDB with Docker** – Understand the importance of Docker, run MongoDB in a container, and use Docker Compose for setup.
-- **Schema design and data validation** – Define schemas using Mongoose and validate request bodies to ensure data integrity.
-- **Inter-microservice communication** – Implement TCP-based communication between services and use events for interaction.
-- **Testing and debugging** – Learn how to test microservices and fix common issues to ensure reliability.
+- **Setting up a Nest.js microservices project** - Learn how to scaffold and structure a Nest.js application for microservices.
+- **Using MongoDB with Docker** - Understand the importance of Docker, run MongoDB in a container, and use Docker Compose for setup.
+- **Schema design and data validation** - Define schemas using Mongoose and validate request bodies to ensure data integrity.
+- **Inter-microservice communication** - Implement TCP-based communication between services and use events for interaction.
+- **Testing and debugging** - Learn how to test microservices and fix common issues to ensure reliability.
 
 ---
 

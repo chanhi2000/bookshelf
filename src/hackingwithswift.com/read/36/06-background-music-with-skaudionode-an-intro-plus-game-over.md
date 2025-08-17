@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-To make this a finished game – or at least as finished as it can be before getting into optimization – we're going to make four more changes: we're going to add background music, show an intro screen, show a game over screen, and let the player try again when they die. None of these things are difficult, but it's a chance to polish your skills while polishing the game so hopefully you won't skip this out!
+To make this a finished game - or at least as finished as it can be before getting into optimization - we're going to make four more changes: we're going to add background music, show an intro screen, show a game over screen, and let the player try again when they die. None of these things are difficult, but it's a chance to polish your skills while polishing the game so hopefully you won't skip this out!
 
 First up: background music. SpriteKit has a special class called `SKAudioNode` that adds several useful features to audio in SpriteKit, such as the ability to pan your audio left and right. For our purposes, however, `SKAudioNode` is good because it lets us stop the audio whenever we want. 
 
@@ -74,11 +74,11 @@ if let musicURL = Bundle.main.url(forResource: "music", withExtension: "m4a") {
 
 Note: if you value your sanity, you'll probably want to run your game now to make sure the music works (yes, that code is all it takes!) then comment out those two lines so you don't have to listen to the music on repeat for the rest of the time you work on the game.
 
-And yes, that's all it takes to add looping background music – hurray for `SKAudioNode`!
+And yes, that's all it takes to add looping background music - hurray for `SKAudioNode`!
 
-The next change we're going to make is to add an intro screen when the game starts. I'm just going to make mine show the game's logo – "Crashy Plane" – over the game screen, with the player's plane flying in the background. When the player taps the first time, the game will begin.
+The next change we're going to make is to add an intro screen when the game starts. I'm just going to make mine show the game's logo - "Crashy Plane" - over the game screen, with the player's plane flying in the background. When the player taps the first time, the game will begin.
 
-In a few minutes we're going to add a game over screen too, which means we have three possible game states: showing the logo, playing the game, and dead. We'll represent that with a dedicated enum, so add this just before the start of your `GameScene` class – i.e., just after the `import` lines:
+In a few minutes we're going to add a game over screen too, which means we have three possible game states: showing the logo, playing the game, and dead. We'll represent that with a dedicated enum, so add this just before the start of your `GameScene` class - i.e., just after the `import` lines:
 
 ```swift
 enum GameState {
@@ -114,7 +114,7 @@ func createLogos() {
 }
 ```
 
-That's not enough to make the game start in menu mode, though. First, add a call to `createLogos()` inside `didMove(to:)`. While you're there, *delete* the call to `startRocks()` because it's no longer needed – we don't want to start creating rocks before the game begins. Finally, do you remember this line of code in the `createPlayer()` method?
+That's not enough to make the game start in menu mode, though. First, add a call to `createLogos()` inside `didMove(to:)`. While you're there, *delete* the call to `startRocks()` because it's no longer needed - we don't want to start creating rocks before the game begins. Finally, do you remember this line of code in the `createPlayer()` method?
 
 ```swift
 player.physicsBody?.isDynamic = true
@@ -161,7 +161,7 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-You might think that removing the logo from the game is going to cause problems when we add the ability for the player to start again, but don't worry – it will all make sense soon!
+You might think that removing the logo from the game is going to cause problems when we add the ability for the player to start again, but don't worry - it will all make sense soon!
 
 ![Adding a simple introduction screen helps players prepare for the game, and also gives you a chance to remind them of your awesome brand name. Or not](https://hackingwithswift.com/img/books/hws/36-4@2x.png)
 
@@ -189,9 +189,9 @@ if let scene = GameScene(fileNamed: "GameScene") {
 
 That creates a fresh `GameScene` scene, gives it the same `aspectFill` resizing as our original game scene, then makes it transition in with a simple animation.
 
-But wait! Before you run the game – and I'm sure you're eager – there is one tiny further gameplay tweak to make. You see, we have an `update()` method that adjusts the rotation of the player every frame, but we also don't create the player until `didMove(to:)` is called. If the update method is called first (and it can be!) then Swift will try to adjust the rotation of a nil property because the player hasn't been created yet, which will make your game crash.
+But wait! Before you run the game - and I'm sure you're eager - there is one tiny further gameplay tweak to make. You see, we have an `update()` method that adjusts the rotation of the player every frame, but we also don't create the player until `didMove(to:)` is called. If the update method is called first (and it can be!) then Swift will try to adjust the rotation of a nil property because the player hasn't been created yet, which will make your game crash.
 
-The solution is simple, thanks to the `guard` keyword – just add this line to the start of the `update()` method:
+The solution is simple, thanks to the `guard` keyword - just add this line to the start of the `update()` method:
 
 ```swift
 guard player != nil else { return }
@@ -199,7 +199,7 @@ guard player != nil else { return }
 
 Translated, that single line means "ensure that player is not nil, otherwise exit the method."
 
-That's it! The main part of our game is done. I hope you agree it looks good, although I can't take any credit for that – it's the [<FontIcon icon="fas fa-globe"/>marvelous art of Kenney](http://kenney.itch.io/kenney-donation) that should take all the credit, and I do encourage you again to check out his complete pack of public domain game assets.
+That's it! The main part of our game is done. I hope you agree it looks good, although I can't take any credit for that - it's the [<FontIcon icon="fas fa-globe"/>marvelous art of Kenney](http://kenney.itch.io/kenney-donation) that should take all the credit, and I do encourage you again to check out his complete pack of public domain game assets.
 
 As final touches, you should set the score rectangles to have the color `UIColor.clear` so they are invisible, then go to <FontIcon icon="fa-brands fa-swift"/>`GameViewController.swift` and turn off `showsFPS`, `showsNodeCount` and `showsPhysics`.
 

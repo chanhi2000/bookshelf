@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail"
-description: "Article(s) > Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail"
+title: "Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
+description: "Article(s) > Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
 icon: fa-brands fa-aws
 category:
   - DevOps
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail"
+      content: "Article(s) > Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
     - property: og:description
-      content: "Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail"
+      content: "Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html
 prev: /devops/docker/articles/README.md
@@ -60,7 +60,7 @@ cover: https://freecodecamp.org/news/content/images/2021/02/ct-yt--containers--3
 ---
 
 <SiteInfo
-  name="Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail"
+  name="Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
   desc="By Marcia Villalba Containers have become the de-facto way to develop applications nowadays. They provide a standard way to package all the dependencies that your application needs.  But how you deploy a containerized application to the cloud? The cl..."
   url="https://freecodecamp.org/news/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -96,7 +96,7 @@ Using the cloud for your applications has many benefits over using your own on-p
 
 [<FontIcon icon="fa-brands fa-aws"/>Amazon Lightsail](https://aws.amazon.com/lightsail/) is part of AWS's cloud-based offerings. It is a service that provides everything you need to deploy applications and websites to the cloud in a simple and cost effective way.
 
-Even the pricing is made simpler – you know every month exactly what you are paying. Amazon Lightsail is an ideal way to deploy simple applications and websites and get started with AWS.
+Even the pricing is made simpler - you know every month exactly what you are paying. Amazon Lightsail is an ideal way to deploy simple applications and websites and get started with AWS.
 
 Lightsail is powered under the hood by AWS services such as virtual machines ([<FontIcon icon="fa-brands fa-aws"/>Amazon EC2](https://aws.amazon.com/ec2/)), relational databases ([<FontIcon icon="fa-brands fa-aws"/>Amazon RDS](https://aws.amazon.com/rds/)), and other services. It offers the same level of scalability, reliability and security that you expect from any other AWS service.
 
@@ -110,7 +110,7 @@ Lightsail provides an HTTPS endpoint that is ready to serve your application. It
 
 Let's see how Lightsail works by deploying a simple NodeJS application packaged as a container image. This image is the one that [<FontIcon icon="fa-brands fa-docker"/>Docker Desktop provides](https://docker.com/101-tutorial) for learning their platform.
 
-We will start this demo where most tutorials end – when your application image is hosted in [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/).
+We will start this demo where most tutorials end - when your application image is hosted in [<FontIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com/).
 
 ![](https://freecodecamp.org/news/content/images/2021/02/docker1010.png)
 
@@ -198,7 +198,7 @@ I’m Marcia Villalba, Developer Advocate for AWS and the host of a YouTube chan
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Docker Deployment Guide – How to Deploy Containers to the Cloud with AWS Lightsail",
+  "title": "Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail",
   "desc": "By Marcia Villalba Containers have become the de-facto way to develop applications nowadays. They provide a standard way to package all the dependencies that your application needs.  But how you deploy a containerized application to the cloud? The cl...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

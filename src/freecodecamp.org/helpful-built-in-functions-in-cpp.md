@@ -277,7 +277,7 @@ The element is found at the 3rd index
 
 ## The `binary_search()` Function
 
-The `binary_search()` function is also used to find an element in the range – but this function implements binary search instead of linear search as compared to the `find()` function. It’s also faster than the `find()` function, but you can only use it on sorted datasets with random access. It’s defined inside the `<algorithm>` header file.
+The `binary_search()` function is also used to find an element in the range - but this function implements binary search instead of linear search as compared to the `find()` function. It’s also faster than the `find()` function, but you can only use it on sorted datasets with random access. It’s defined inside the `<algorithm>` header file.
 
 ::: info Syntax
 

@@ -45,12 +45,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733174501446/a177379
 
 <SiteInfo
   name="How to Build a Weather App with R Shiny"
-  desc="In this tutorial, you’ll learn how to build a weather app in R. Really – a weather app, in R? Wait, hear me out. When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statisticia..."
+  desc="In this tutorial, you’ll learn how to build a weather app in R. Really - a weather app, in R? Wait, hear me out. When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statisticia..."
   url="https://freecodecamp.org/news/how-to-build-a-weather-app-with-r-shiny"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1733174501446/a177379f-3c32-424a-9fbe-6608310f2ea6.png"/>
 
-In this tutorial, you’ll learn how to build a weather app in R. Really – a weather app, in R? Wait, hear me out.
+In this tutorial, you’ll learn how to build a weather app in R. Really - a weather app, in R? Wait, hear me out.
 
 When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statistician dealing with complex models, an insane amount of mathematical equations, and copious amounts of data.
 
@@ -180,7 +180,7 @@ geocode <- function(location, api_key) {
 
 The `coordinates()` function is a helper function that extracts the latitude and longitude values from the JSON response. A quick inspection of the JSON response reveals the coordinate's position. The JSON object is simply a long list of lists and you can access elements by subsetting it.
 
-A blank data body would imply that the city/location is unavailable, and you’d get the message *"No such city exists!"*. If the JSON contains an element, the length would be more than 0 – it is a list after all.
+A blank data body would imply that the city/location is unavailable, and you’d get the message *"No such city exists!"*. If the JSON contains an element, the length would be more than 0 - it is a list after all.
 
 ```r
 coordinates <- function(body) {
@@ -667,7 +667,7 @@ La Fin!
 ```component VPCard
 {
   "title": "How to Build a Weather App with R Shiny",
-  "desc": "In this tutorial, you’ll learn how to build a weather app in R. Really – a weather app, in R? Wait, hear me out. When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statisticia...",
+  "desc": "In this tutorial, you’ll learn how to build a weather app in R. Really - a weather app, in R? Wait, hear me out. When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statisticia...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-weather-app-with-r-shiny.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

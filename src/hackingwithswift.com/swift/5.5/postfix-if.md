@@ -94,7 +94,7 @@ let result = [1, 2, 3]
 print(result)
 ```
 
-Technically you could make `result` end up as two completely different types if you wanted, but that seems like a bad idea. What you *definitely* can’t do is use other kinds of expressions such as using `+ [4]` instead of `.count` – if it doesn’t start with `.` then it’s not a postfix member expression.
+Technically you could make `result` end up as two completely different types if you wanted, but that seems like a bad idea. What you *definitely* can’t do is use other kinds of expressions such as using `+ [4]` instead of `.count` - if it doesn’t start with `.` then it’s not a postfix member expression.
 
 
 ::: details Other Changes in Swift 5.5

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Core Image has a filter that resamples an image down to 1x1 pixels so you can read the most dominant color in an image, although it’s weirdly hard to use. 
 
-To simplify things, here’s an extension on `UIImage` that returns an optional `UIColor` – it will be nil only if something went wrong while reading your image, but otherwise it will contain the average color for the entire image:
+To simplify things, here’s an extension on `UIImage` that returns an optional `UIColor` - it will be nil only if something went wrong while reading your image, but otherwise it will contain the average color for the entire image:
 
 ```swift
 extension UIImage {

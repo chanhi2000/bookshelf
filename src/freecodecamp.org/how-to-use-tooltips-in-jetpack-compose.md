@@ -249,7 +249,7 @@ https://play.google.com/store/apps/details?id=com.tomerpacific.laundry
 #### References
 
 <SiteInfo
-  name="Tooltips – Material Design 3"
+  name="Tooltips - Material Design 3"
   desc="Tooltips are informative, specific, and action-oriented text labels that provide contextual support"
   url="https://m3.material.io/components/tooltips/overview"
   logo="https://m3.material.io/static/assets/m3-favicon.svg"

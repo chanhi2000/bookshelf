@@ -70,7 +70,7 @@ Over the past 3 years, as Docker adoption skyrocketed, it grew into a complete p
 
 [![chart-c](https://docker.com/app/uploads/chart-c.png)]
 
-What Docker does best is provide developers and operators with great tools which make them more productive. Those tools come from integrating many different components into a cohesive whole. Most of those components are invented by others – but along the way we find ourselves developing some of those components from scratch. Over time we [<FontIcon icon="fa-brands fa-youtube"/>spin out these components as independent projects which anyone can reuse and contribute back to.](https://youtu.be/p_2NDz0K0uc&t=4m45s) containerd is the latest of those components.
+What Docker does best is provide developers and operators with great tools which make them more productive. Those tools come from integrating many different components into a cohesive whole. Most of those components are invented by others - but along the way we find ourselves developing some of those components from scratch. Over time we [<FontIcon icon="fa-brands fa-youtube"/>spin out these components as independent projects which anyone can reuse and contribute back to.](https://youtu.be/p_2NDz0K0uc&t=4m45s) containerd is the latest of those components.
 
 ![Docker Open source components](https://docker.com/app/uploads/Picture1-4.png)
 

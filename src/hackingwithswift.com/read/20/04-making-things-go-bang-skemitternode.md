@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -76,7 +76,7 @@ As I said earlier, the player's score needs to go up by more when they select mo
 
 There's one small piece of extra complexity: remember, the `fireworks` array stores the firework container node, so we need to read the firework image out of its `children` array.
 
-Enough talk – here's the code:
+Enough talk - here's the code:
 
 ```swift
 func explodeFireworks() {
@@ -95,7 +95,7 @@ func explodeFireworks() {
 
     switch numExploded {
     case 0:
-        // nothing – rubbish!
+        // nothing - rubbish!
         break
     case 1:
         score += 200
@@ -113,7 +113,7 @@ func explodeFireworks() {
 
 As you can see, exploding five fireworks is worth 20x more points than exploding just one, hence the incentive to select groups by color!
 
-There's one last thing to do before this game is complete, and that's to detect the device being shaken. This is easy enough to do because iOS will automatically call a method called `motionBegan()` on our game when the device is shaken. Well, it's a little more complicated than *that* – what actually happens is that the method gets called in <FontIcon icon="fa-brands fa-swift"/>`GameViewController.swift`, which is the `UIViewController` that hosts our SpriteKit game scene.
+There's one last thing to do before this game is complete, and that's to detect the device being shaken. This is easy enough to do because iOS will automatically call a method called `motionBegan()` on our game when the device is shaken. Well, it's a little more complicated than *that* - what actually happens is that the method gets called in <FontIcon icon="fa-brands fa-swift"/>`GameViewController.swift`, which is the `UIViewController` that hosts our SpriteKit game scene.
 
 The default view controller doesn't know that it has a SpriteKit view, and certainly doesn't know what scene is showing, so we need to do a little typecasting. Once we have a reference to our actual game scene, we can call `explodeFireworks()`. Put this method just after the `prefersStatusBarHidden` property in <FontIcon icon="fa-brands fa-swift"/>`GameViewController.swift`:
 

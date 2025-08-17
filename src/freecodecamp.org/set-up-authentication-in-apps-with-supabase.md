@@ -108,7 +108,7 @@ Because this process takes time and requires some action from the user, the clie
 
 ![A sequence diagram showing session management in a client-server architecture](https://freecodecamp.org/news/content/images/2024/01/image-136.png)
 
-The server can pass the user's information to the client in two ways – through tokens or session ids.
+The server can pass the user's information to the client in two ways - through tokens or session ids.
 
 In the case of tokens, the server generates a signed token and passes it to the client. This token is typically a JWT and may contain information regarding the user. The client will store this token and send it back to the server every time the user makes a request.
 

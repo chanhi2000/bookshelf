@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-If you're struggling with SwiftData, not sure whether your data is missing or your queries are bad, sometimes the easiest thing to do is inspect the underlying database directly – it's just SQLite, so you can read it using the built-in **sqlite3** command on your Mac.
+If you're struggling with SwiftData, not sure whether your data is missing or your queries are bad, sometimes the easiest thing to do is inspect the underlying database directly - it's just SQLite, so you can read it using the built-in **sqlite3** command on your Mac.
 
 Because this is something I do a lot, I have a small extension I use in my projects that prints the full command to run to open the current container using the **sqlite3** command:
 
@@ -75,7 +75,7 @@ With that in place, you can get the SQLite command like this:
 print(modelContext.sqliteCommand)
 ```
 
-Once you have the command, copy all of it – from **sqlite3** all the way through to the ending quote mark, and run it from your Mac's Terminal app. You should see the version number of your SQLite program, followed by `sqlite>`, which is the prompt where you can enter commands.
+Once you have the command, copy all of it - from **sqlite3** all the way through to the ending quote mark, and run it from your Mac's Terminal app. You should see the version number of your SQLite program, followed by `sqlite>`, which is the prompt where you can enter commands.
 
 If you're new to SQLite, here are some basics:
 
@@ -84,5 +84,5 @@ If you're new to SQLite, here are some basics:
 - Type `SELECT * FROM xxx;` and press return to show all the objects inside the table "xxx". Core Data (and therefore Swift Data) use table names that are the letter "Z" followed by your model name. So, to show all `User` model objects, you'd use `SELECT * FROM ZUSER;`
 - Press <kbd>Ctrl</kbd>+<kbd>D</kbd> to exit SQLite when you're done.
 
-There are many more useful SQL commands to know, but if I were you I'd restrict your work to just reading data – although you can technically insert, modify, or delete data, you're likely to confuse SwiftData.
+There are many more useful SQL commands to know, but if I were you I'd restrict your work to just reading data - although you can technically insert, modify, or delete data, you're likely to confuse SwiftData.
 

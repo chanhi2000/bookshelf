@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ This will create a new file called Project38.xcdatamodeld, and when you select t
 
 ![The Add Entity button should be at the bottom of the data model editor window.](https://hackingwithswift.com/img/books/hws/38-13@2x.png)
 
-A Core Data "entity" is like a Swift class in that it is just a description of what an object is going to look like. By default, new entities are called "Entity", but you can change that in the Data Model inspector in the right-hand pane of Xcode – press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> if it's not already visible. With your new entity selected, you should see a field named "Name", so please change "Entity" to be "Commit".
+A Core Data "entity" is like a Swift class in that it is just a description of what an object is going to look like. By default, new entities are called "Entity", but you can change that in the Data Model inspector in the right-hand pane of Xcode - press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> if it's not already visible. With your new entity selected, you should see a field named "Name", so please change "Entity" to be "Commit".
 
 ![New entities have the default name Entity, but obviously it's best that you change it to something more meaningful.](https://hackingwithswift.com/img/books/hws/38-3@2x.png)
 
@@ -71,18 +71,18 @@ The final change we're going to make is to mark each of these four property as n
 
 ::: note
 
-the Data Model inspector can be a bit buggy sometimes – if you find it's completely blank, you might need to try selecting one of the other files in your project and/or deselecting then re-selecting your entity to make things work.
+the Data Model inspector can be a bit buggy sometimes - if you find it's completely blank, you might need to try selecting one of the other files in your project and/or deselecting then re-selecting your entity to make things work.
 
 :::
 
 ![Select all four attributes and disable the Optional checkbox in the Data Model inspector.](https://hackingwithswift.com/img/books/hws/38-4@2x.png)
 
-Now, you might be forgiven for thinking, "at last! All that time spent mastering Swift optionals is paying off – I know what this checkbox does!" But I have some bad news for you. Or, more specifically, Core Data has some bad news for you: this Optional checkbox has nothing at all to do with Swift optionals, it just determines whether the objects that Core Data stores are required to have a value or not.
+Now, you might be forgiven for thinking, "at last! All that time spent mastering Swift optionals is paying off - I know what this checkbox does!" But I have some bad news for you. Or, more specifically, Core Data has some bad news for you: this Optional checkbox has nothing at all to do with Swift optionals, it just determines whether the objects that Core Data stores are required to have a value or not.
 
 That's the first step of Core Data completed: the app now knows what kind of data we want to store. We'll be coming back to add to our model later, but first it's time for step two: adding the base Core Data functionality to our app so we can load the model we just defined and save any changes we make.
 
 ::: warning
 
-When you make *any* changes to the Core Data editor in Xcode, you should press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes. At the time of writing – and indeed for some time now – Xcode has not saved Core Data model changes when you build your app, so if you don’t save the changes yourself you’ll find they haven’t been applied and you’ll spend hours investigating ghost bugs.
+When you make *any* changes to the Core Data editor in Xcode, you should press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes. At the time of writing - and indeed for some time now - Xcode has not saved Core Data model changes when you build your app, so if you don’t save the changes yourself you’ll find they haven’t been applied and you’ll spend hours investigating ghost bugs.
 
 :::

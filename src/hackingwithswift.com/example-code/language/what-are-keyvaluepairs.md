@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ isOriginal: false
 <li>You can add items with duplicate keys.
 <li>The order in which you add items is preserved.
 
-However, because `KeyValuePairs` doesn’t require its keys to be hashable, you don’t get the fast key look up of a regular dictionary – it’s O(*n*) rather than O(1) if you like Big O notation. Instead, you access them like an array, using numerical indexes.
+However, because `KeyValuePairs` doesn’t require its keys to be hashable, you don’t get the fast key look up of a regular dictionary - it’s O(*n*) rather than O(1) if you like Big O notation. Instead, you access them like an array, using numerical indexes.
 
 As an example, here’s a `KeyValuePairs` instance holding the name of a singer:
 

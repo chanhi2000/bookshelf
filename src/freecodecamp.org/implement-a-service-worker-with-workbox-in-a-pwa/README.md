@@ -149,12 +149,12 @@ The web app manifest is a JSON file that tells the browser about your web app, h
 
 Think of it like your app’s business card. It includes details like:
 
-- **App name and short name** – How your app is labeled on the home screen or app list.
-- **Icons** – Images used for app icons on different screen sizes and resolutions.
-- **Theme color and background color** – Defines the look of your app’s UI and loading screen.
-- **Start URL** – The page that opens when the app is launched.
-- **Display mode** – Controls whether the app opens in a browser tab, fullscreen, or a native-like window.
-- **Screenshots** – Optional preview images that show how your app looks on different devices in app stores or installation prompts.
+- **App name and short name** - How your app is labeled on the home screen or app list.
+- **Icons** - Images used for app icons on different screen sizes and resolutions.
+- **Theme color and background color** - Defines the look of your app’s UI and loading screen.
+- **Start URL** - The page that opens when the app is launched.
+- **Display mode** - Controls whether the app opens in a browser tab, fullscreen, or a native-like window.
+- **Screenshots** - Optional preview images that show how your app looks on different devices in app stores or installation prompts.
     
 
 ### A Service Worker
@@ -227,9 +227,9 @@ Workbox is a collection of libraries that helps developers build efficient servi
 
 Workbox is more than just a tool. It is a collection of powerful modules, each designed to simplify different parts of working with service workers. These modules are flexible and can be used in three key contexts:
 
-- **Service Worker Context** – Inside your service worker file, where you handle caching, routing, and other background tasks.
-- **Window Context** – Inside your main application (the client-side JS), where you register and communicate with the service worker.
-- **Build Tools Integration** – Tools like Webpack use Workbox to generate service worker files and precache manifests during your build process.
+- **Service Worker Context** - Inside your service worker file, where you handle caching, routing, and other background tasks.
+- **Window Context** - Inside your main application (the client-side JS), where you register and communicate with the service worker.
+- **Build Tools Integration** - Tools like Webpack use Workbox to generate service worker files and precache manifests during your build process.
     
 
 Let’s break down some of the most popular and essential modules Workbox offers:

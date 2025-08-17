@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "WKWebView - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/wkwebview/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 The `UIWebView` class has been around since iOS 2.0 as a way to show HTML content inside your app, but iOS 8.0 introduced `WKWebView` as an alternative - what's the difference?
 
-Well, there are several differences, but two are particularly important. First, `UIWebView` is part of UIKit, and thus is available to your apps as standard. You don't need to import anything – it's just there. This also means it's available inside Interface Builder, so you can drag and drop web view into your designs.
+Well, there are several differences, but two are particularly important. First, `UIWebView` is part of UIKit, and thus is available to your apps as standard. You don't need to import anything - it's just there. This also means it's available inside Interface Builder, so you can drag and drop web view into your designs.
 
 Second, `WKWebView` is run in a separate process to your app so that it can draw on native Safari JavaScript optimizations. This means `WKWebView` loads web pages faster and more efficiently than `UIWebView`, and also doesn't have as much memory overhead for you.
 

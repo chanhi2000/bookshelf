@@ -65,7 +65,7 @@ You’ll learn about implicit vs explicit typecasting, common pitfalls to avoid,
 
 I decided to write about this after running into a real issue in a company's codebase. The app was pulling data from a third-party API that returned JSON objects. The values were dynamic and stored as generic `interface{}` types, but the code was trying to use them directly as `int`, `float64`, and `string` without checking or converting the types properly. This caused silent bugs, unexpected behavior, and even crashes that took hours to trace back.
 
-If you're learning Go – or any language – knowing when and how to typecast can save hours of debugging. So let’s get into it.
+If you're learning Go - or any language - knowing when and how to typecast can save hours of debugging. So let’s get into it.
 
 ---
 
@@ -100,7 +100,7 @@ var b float64 = float64(a)        // Explicitly convert 'a' from int to float64 
                                   // Go requires manual (explicit) type conversion between different types
 ```
 
-Here, we’re converting an `int` (`a`) into a `float64` (`b`). This is a widening conversion – it’s safe because every integer can be represented as a float.
+Here, we’re converting an `int` (`a`) into a `float64` (`b`). This is a widening conversion - it’s safe because every integer can be represented as a float.
 
 Now the reverse:
 
@@ -228,7 +228,7 @@ func main() {
 }
 ```
 
-This works because we first check that the value is a `float64` and only then convert it to an `int`. That two-step process – type assertion then conversion – is key to avoiding errors.
+This works because we first check that the value is a `float64` and only then convert it to an `int`. That two-step process - type assertion then conversion - is key to avoiding errors.
 
 ---
 
@@ -294,7 +294,7 @@ This pattern keeps your code clean and readable while avoiding panics from unsaf
 
 Whether you’re just starting with Go or diving into more advanced patterns like generics, understanding typecasting is key to writing safe and reliable code.
 
-It may seem like a small detail, but incorrect type conversions can cause crashes, bugs, or silent data loss – especially when working with JSON, APIs, or user input.
+It may seem like a small detail, but incorrect type conversions can cause crashes, bugs, or silent data loss - especially when working with JSON, APIs, or user input.
 
 Here’s what you should take away:
 

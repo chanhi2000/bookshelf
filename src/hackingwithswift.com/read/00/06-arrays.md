@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ songs[2]
 
 That will print "Shake it Off", "You Belong with Me", and "Back to December" in the results pane.
 
-An item's position in an array is called its index, and you can read any item from the array just by providing its index. However, you do need to be careful: our array has three items in, which means indexes 0, 1 and 2 work great. But if you try and read `songs[3]` your playground will stop working – and if you tried that in a real app it would crash!
+An item's position in an array is called its index, and you can read any item from the array just by providing its index. However, you do need to be careful: our array has three items in, which means indexes 0, 1 and 2 work great. But if you try and read `songs[3]` your playground will stop working - and if you tried that in a real app it would crash!
 
 ![Playground crash because of an out-of-range index.](https://hackingwithswift.com/img/books/hws/arrays-3@2x.png)
 
@@ -101,7 +101,7 @@ type(of: songs)
 
 ![Adding a number to a String Array causes an error.](https://hackingwithswift.com/img/books/hws/arrays-5@2x.png)
 
-This time you'll see an error. The error isn’t because Swift can’t handle mixed arrays like this one – I’ll show you how to do that in just a moment! – but instead because Swift is being helpful. The error message you’ll see is, “heterogenous collection literal could only be inferred to '[Any]'; add explicit type annotation if this is intentional.” Or, in plain English, “it looks like this array is designed to hold lots of types of data – if you really meant that, please make it explicit.”
+This time you'll see an error. The error isn’t because Swift can’t handle mixed arrays like this one - I’ll show you how to do that in just a moment! - but instead because Swift is being helpful. The error message you’ll see is, “heterogenous collection literal could only be inferred to '[Any]'; add explicit type annotation if this is intentional.” Or, in plain English, “it looks like this array is designed to hold lots of types of data - if you really meant that, please make it explicit.”
 
 Type safety is important, and although it's neat that Swift can make arrays hold any kind of data this particular case was an accident. Fortunately, I've already said that you can use type annotations to specify exactly what type of data you want an array to store. To specify the type of an array, write the data type you want to store with brackets around it, like this:
 
@@ -125,7 +125,7 @@ var songs: [Any] = ["Shake it Off", "You Belong with Me", "Back to December", 3]
 
 ## Creating arrays
 
-If you make an array using the syntax shown above, Swift creates the array and fills it with the values we specified. Things aren't quite so straightforward if you want to create the array then fill it later – this syntax doesn't work:
+If you make an array using the syntax shown above, Swift creates the array and fills it with the values we specified. Things aren't quite so straightforward if you want to create the array then fill it later - this syntax doesn't work:
 
 ```swift
 var songs: [String]

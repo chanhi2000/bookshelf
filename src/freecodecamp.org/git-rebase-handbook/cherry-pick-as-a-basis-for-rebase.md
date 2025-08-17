@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "cherry-pick as a Basis for Rebase"
-description: "Article(s) > (2/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (2/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (2/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "cherry-pick as a Basis for Rebase"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,13 +43,13 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-cherry-pick-as-a-basis-for-rebase"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handbook-Book-Cover--1-.png"/>
 
-It is useful to think of rebase as performing `git cherry-pick` – a command takes a commit, computes the *patch* this commit introduces by computing the difference between the parent's commit and the commit itself, and then `cherry-pick` "replays" this difference.
+It is useful to think of rebase as performing `git cherry-pick` - a command takes a commit, computes the *patch* this commit introduces by computing the difference between the parent's commit and the commit itself, and then `cherry-pick` "replays" this difference.
 
 Let's do this manually.
 
@@ -133,7 +133,7 @@ git config --global alias.lol \
 
 :::
 
-It seems like you *copy-pasted* "Commit 5". Remember that even though it has the same commit message, and introduces the same changes, and even points to the same tree object as the original "Commit 5" in this case – it is still a different commit object, as it was created with a different timestamp.
+It seems like you *copy-pasted* "Commit 5". Remember that even though it has the same commit message, and introduces the same changes, and even points to the same tree object as the original "Commit 5" in this case - it is still a different commit object, as it was created with a different timestamp.
 
 Looking at the changes, using `git show HEAD`:
 
@@ -154,9 +154,9 @@ git branch -D my_branch
 
 ---
 
-## Beyond `cherry-pick` – How to Use `git rebase`
+## Beyond `cherry-pick` - How to Use `git rebase`
 
-You can look at `git rebase` as a way to perform multiple `cherry-pick`s one after the other – that is, to "replay" multiple commits. This is not the only thing you can do with `rebase`, but it's a good starting point for our explanation.
+You can look at `git rebase` as a way to perform multiple `cherry-pick`s one after the other - that is, to "replay" multiple commits. This is not the only thing you can do with `rebase`, but it's a good starting point for our explanation.
 
 It's time to play with `git rebase`! 👏🏻👏🏻
 

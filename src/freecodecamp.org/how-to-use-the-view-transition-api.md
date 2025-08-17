@@ -95,7 +95,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751324398272/d2f05e2
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1751324398272/d2f05e29-6925-43da-8c41-14b1c18a4898.png"/>
 
-If you want to add some amazing and visually appealing animations to your web page, the [<FontIcon icon="fa-brands fa-firefox"/>View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) is a great animation tool. It lets you create Cross-Document Transitions when navigating between pages. And not just in classic multi-page apps – you can also use it to build eye-catching transitions in single-page applications.
+If you want to add some amazing and visually appealing animations to your web page, the [<FontIcon icon="fa-brands fa-firefox"/>View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) is a great animation tool. It lets you create Cross-Document Transitions when navigating between pages. And not just in classic multi-page apps - you can also use it to build eye-catching transitions in single-page applications.
 
 In this article, you’ll learn how to:
 
@@ -124,7 +124,7 @@ I’ve also created a video to go along with this article. If you’re the type 
 
 ## Example Setup
 
-For your demo, you have two simple HTML pages – <FontIcon icon="fa-brands fa-html5"/>`from.html` and <FontIcon icon="fa-brands fa-html5"/>`to.html` – that share the same stylesheet (<FontIcon icon="fa-brands fa-css3-alt"/>`style.css`). <FontIcon icon="fa-brands fa-html5"/>`from.html` page displays a grid of story cards. When you click a card on the first page, its image enlarges and moves to the <FontIcon icon="fa-brands fa-html5"/>`to.html` page.
+For your demo, you have two simple HTML pages - <FontIcon icon="fa-brands fa-html5"/>`from.html` and <FontIcon icon="fa-brands fa-html5"/>`to.html` - that share the same stylesheet (<FontIcon icon="fa-brands fa-css3-alt"/>`style.css`). <FontIcon icon="fa-brands fa-html5"/>`from.html` page displays a grid of story cards. When you click a card on the first page, its image enlarges and moves to the <FontIcon icon="fa-brands fa-html5"/>`to.html` page.
 
 ![View Transition Demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1750879534660/6fb3252f-aef2-42f9-8e64-3e106369c0a5.gif)
 
@@ -205,7 +205,7 @@ To turn on cross-document transitions, add just one line to your CSS:
 }
 ```
 
-Now, when you navigate between two pages – even using the browser’s “Back” and “Forward” buttons – you’ll see a smooth cross-fade by default.
+Now, when you navigate between two pages - even using the browser’s “Back” and “Forward” buttons - you’ll see a smooth cross-fade by default.
 
 ### Debug Transition
 
@@ -223,7 +223,7 @@ If the animation feels too fast, you can use the Developer Tools in Google Chrom
 
 ### First View Transition
 
-By default, the entire document cross-fades, which is quite boring. To animate a specific element – like the “page title” – give it a `view-transition-name`:
+By default, the entire document cross-fades, which is quite boring. To animate a specific element - like the “page title” - give it a `view-transition-name`:
 
 ```css title="style.css"
 #title {
@@ -231,7 +231,7 @@ By default, the entire document cross-fades, which is quite boring. To animate a
 }
 ```
 
-Both pages use the same `id="title"`, so the API knows to treat them as one element. Now, when you click a card, the title gracefully moves from its position on the first page to its spot on the detail page – forward and backward. Just with these three lines of code, you get a pretty decent morph transition! Isn’t it interesting?
+Both pages use the same `id="title"`, so the API knows to treat them as one element. Now, when you click a card, the title gracefully moves from its position on the first page to its spot on the detail page - forward and backward. Just with these three lines of code, you get a pretty decent morph transition! Isn’t it interesting?
 
 ### Understanding View Transition Internals
 
@@ -278,7 +278,7 @@ Or to disable the `root` default cross-fade while keeping your `title` animation
 
 ### Animating Images Across Pages
 
-Let’s animate the story image from the gallery into the larger hero image on the detail page. Here, the IDs differ – `#story-image` on <FontIcon icon="fa-brands fa-html5"/>`from.html` and `#hero-image` on <FontIcon icon="fa-brands fa-html5"/>`to.html` – so you select both and name the transition `picture`:
+Let’s animate the story image from the gallery into the larger hero image on the detail page. Here, the IDs differ - `#story-image` on <FontIcon icon="fa-brands fa-html5"/>`from.html` and `#hero-image` on <FontIcon icon="fa-brands fa-html5"/>`to.html` - so you select both and name the transition `picture`:
 
 ```css title="style.css"
 #story-image,
@@ -301,7 +301,7 @@ Just by looking at it, you can already see the problem. While the animation is p
 
 There, you’ll notice a new pseudo-element group `::view-transition-group(picture)`. If you expand it, another group appears: `::view-transition-image-pair(picture)`.
 
-Inside that, you’ll find two more pseudo-elements: `::view-transition-old(picture)` and `::view-transition-new(picture)`. The naming is pretty self-explanatory. The “image pair” reflects my earlier analogy of treating the before-and-after states as snapshots – you have one for the old state and one for the new. Makes sense now?
+Inside that, you’ll find two more pseudo-elements: `::view-transition-old(picture)` and `::view-transition-new(picture)`. The naming is pretty self-explanatory. The “image pair” reflects my earlier analogy of treating the before-and-after states as snapshots - you have one for the old state and one for the new. Makes sense now?
 
 #### Improving the Animation
 
@@ -330,7 +330,7 @@ Now, if you repeat the debugging process and take a closer look, you’ll see th
 }
 ```
 
-Here, I’ve specifically targeted the `::view-transition-new(picture)` pseudo-element of the `to` page using the `#to` identifier – because I added unique IDs to the elements of both <FontIcon icon="fa-brands fa-html5"/>`from.html` and <FontIcon icon="fa-brands fa-html5"/>`to.html`.
+Here, I’ve specifically targeted the `::view-transition-new(picture)` pseudo-element of the `to` page using the `#to` identifier - because I added unique IDs to the elements of both <FontIcon icon="fa-brands fa-html5"/>`from.html` and <FontIcon icon="fa-brands fa-html5"/>`to.html`.
 
 ```html title="from.html"
 <html lang="en" id="from">
@@ -346,7 +346,7 @@ Here, I’ve specifically targeted the `::view-transition-new(picture)` pseudo-e
 
 Now, if you check the animation closely, you’ll notice that the transition from <FontIcon icon="fa-brands fa-html5"/>`from.html` to <FontIcon icon="fa-brands fa-html5"/>`to.html` looks perfect.
 
-Next, let’s handle the “back” navigation – transitioning from <FontIcon icon="fa-brands fa-html5"/>`to.html` back to <FontIcon icon="fa-brands fa-html5"/>`from.html`. If you debug this reverse transition, you’ll see that the old snapshot `::view-transition-new(picture)` appears completely distorted during the animation.
+Next, let’s handle the “back” navigation - transitioning from <FontIcon icon="fa-brands fa-html5"/>`to.html` back to <FontIcon icon="fa-brands fa-html5"/>`from.html`. If you debug this reverse transition, you’ll see that the old snapshot `::view-transition-new(picture)` appears completely distorted during the animation.
 
 ![Back navigation distortion issue](https://cdn.hashnode.com/res/hashnode/image/upload/v1750939152019/65b715c6-0e2b-4997-a9d1-795a5daab922.jpeg)
 
@@ -358,11 +358,11 @@ To fix this, you can target the new snapshot on the `from` page and set its `obj
 }
 ```
 
-Now, if you debug and inspect again, the distortion is gone! But if you carefully follow the animation, you’ll notice another issue – the lower snapshot (which is `::view-transition-old(picture)` on the <FontIcon icon="fa-brands fa-html5"/>`from.html` page) – is overlapping awkwardly, as illustrated in the diagram below:
+Now, if you debug and inspect again, the distortion is gone! But if you carefully follow the animation, you’ll notice another issue - the lower snapshot (which is `::view-transition-old(picture)` on the <FontIcon icon="fa-brands fa-html5"/>`from.html` page) - is overlapping awkwardly, as illustrated in the diagram below:
 
 ![New snapshot overlapping the old one](https://cdn.hashnode.com/res/hashnode/image/upload/v1750939706428/6f084418-c14e-4eb7-af50-aaca93d30d40.jpeg)
 
-To fix this final piece, you can target the `::view-transition-old(picture)` pseudo-element on the `from` page. Then you apply `object-fit: cover`, hide any `overflow`, and match the `border-radius` to `20px` – just like the destination snapshot – for a smooth and visually consistent transition.
+To fix this final piece, you can target the `::view-transition-old(picture)` pseudo-element on the `from` page. Then you apply `object-fit: cover`, hide any `overflow`, and match the `border-radius` to `20px` - just like the destination snapshot - for a smooth and visually consistent transition.
 
 ```css title="style.css"
 #from::view-transition-old(picture) {
@@ -376,11 +376,11 @@ To fix this final piece, you can target the `::view-transition-old(picture)` pse
 
 After making these changes, the picture animation finally feels perfect! As you can see, the View Transition API is both simple and powerful. All it really takes is targeting the right pseudo-elements and applying the CSS skills you already have to fine-tune the transition.
 
-It might feel a bit tedious at first – but that’s the nature of animation work, whether it’s in web development or video editing.
+It might feel a bit tedious at first - but that’s the nature of animation work, whether it’s in web development or video editing.
 
 These small, detailed adjustments are what make your animations smoother and your user experience truly delightful. The more you debug, the more opportunities you uncover for improvement. So let’s dive a bit deeper and see if there’s anything else you can refine.
 
-If you pause the animation and navigate from the <FontIcon icon="fa-brands fa-html5 "/>`from.html` page to the <FontIcon icon="fa-brands fa-html5"/>`to.html` page, you’ll notice that the snapshot of the incoming page title overlaps with the old one – as shown in the diagram below.
+If you pause the animation and navigate from the <FontIcon icon="fa-brands fa-html5 "/>`from.html` page to the <FontIcon icon="fa-brands fa-html5"/>`to.html` page, you’ll notice that the snapshot of the incoming page title overlaps with the old one - as shown in the diagram below.
 
 ![Page title overlap issue](https://cdn.hashnode.com/res/hashnode/image/upload/v1750961028146/c1946f2d-f659-4ffb-a597-93ec176d6dce.jpeg)
 
@@ -392,7 +392,7 @@ You can solve this easily. When your titles overlap during the transition, hide 
 }
 ```
 
-Now, if you check again, you’ll see that the title no longer overlaps – and the animation is finally looking perfect!
+Now, if you check again, you’ll see that the title no longer overlaps - and the animation is finally looking perfect!
 
 ### Endless Animation Opportunities
 
@@ -404,7 +404,7 @@ When you transition from the <FontIcon icon="fa-brands fa-html5 "/>`from.html` p
 
 If you inspect the elements in DevTools, you’ll see I’ve intentionally given the overlay an ID of `#overlay`. All the text content on the <FontIcon icon="fa-brands fa-html5"/>`to.html` page lives inside this element.
 
-Ideally, when you transition from <FontIcon icon="fa-brands fa-html5"/>`from.html` to <FontIcon icon="fa-brands fa-html5"/>`to.html`, the overlay should also appear with a smooth animation. Notice that the <FontIcon icon="fa-brands fa-html5 "/>`from.html` page doesn’t have this overlay at all. Up to this point, everything you’ve done has involved transitioning between elements that exist on both pages – elements that have counterparts. But in this case, you want to transition from “nothing” to “something.” And yes, that’s also possible with the View Transition API.
+Ideally, when you transition from <FontIcon icon="fa-brands fa-html5"/>`from.html` to <FontIcon icon="fa-brands fa-html5"/>`to.html`, the overlay should also appear with a smooth animation. Notice that the <FontIcon icon="fa-brands fa-html5 "/>`from.html` page doesn’t have this overlay at all. Up to this point, everything you’ve done has involved transitioning between elements that exist on both pages - elements that have counterparts. But in this case, you want to transition from “nothing” to “something.” And yes, that’s also possible with the View Transition API.
 
 #### Implement the Idea
 
@@ -416,17 +416,17 @@ Without saying anything else, let’s go ahead and target the `#overlay` element
 }
 ```
 
-Now that you’ve set this up, let’s see what’s actually happening. If you pause the animation and debug it, just like before, you’ll notice a new pseudo-element `::view-transition-group(overlay)`. Inside this group, within the image pair, you’ll find only `::view-transition-new(overlay)` – there’s no `::view-transition-old(overlay)`.
+Now that you’ve set this up, let’s see what’s actually happening. If you pause the animation and debug it, just like before, you’ll notice a new pseudo-element `::view-transition-group(overlay)`. Inside this group, within the image pair, you’ll find only `::view-transition-new(overlay)` - there’s no `::view-transition-old(overlay)`.
 
 Why is that? It’s simple: on the previous page (`from.html`), there is no element with the ID `overlay`. Since there’s nothing to take a snapshot of, the browser doesn’t create a `::view-transition-old(overlay)`.
 
-Likewise, when navigating back from <FontIcon icon="fa-brands fa-html5"/>`to.html` to <FontIcon icon="fa-brands fa-html5 "/>`from.html`, there will only be a `::view-transition-old(overlay)` – and no `::view-transition-new(overlay)` – because the overlay exists only on the page you’re leaving.
+Likewise, when navigating back from <FontIcon icon="fa-brands fa-html5"/>`to.html` to <FontIcon icon="fa-brands fa-html5 "/>`from.html`, there will only be a `::view-transition-old(overlay)` - and no `::view-transition-new(overlay)` - because the overlay exists only on the page you’re leaving.
 
 What you want to do now is animate this element in a nice way. Since you’re transitioning from “nothing” to “something”, you can define a custom CSS animation. A simple and elegant effect could be a fade-in from the bottom.
 
 #### Defining Custom Keyframes
 
-To achieve that, you can define a custom keyframe animation called `fade-in`. In this animation, you’ll start from `opacity: 0` and position the element slightly lower – for example, `translateY(50px)` – and then animate it upwards as it fades in.
+To achieve that, you can define a custom keyframe animation called `fade-in`. In this animation, you’ll start from `opacity: 0` and position the element slightly lower - for example, `translateY(50px)` - and then animate it upwards as it fades in.
 
 ```css title="style.css"
 @keyframes fade-in {
@@ -449,7 +449,7 @@ For the reverse (fading out) you can simply transition the `opacity` back to `0`
 
 #### Using the Keyframe Animations
 
-Now that you’ve defined our keyframe animations, you can target the `::view-transition-new(overlay)` element and apply the `fade-in` animation to it. You’ll also add a slight animation delay – let’s say `0.5` seconds. This delay ensures that our custom animation begins after the default cross-fade animation has completed. Since you previously set a `0.5` second delay for the transition, this timing helps everything flow smoothly, without overlapping animations.
+Now that you’ve defined our keyframe animations, you can target the `::view-transition-new(overlay)` element and apply the `fade-in` animation to it. You’ll also add a slight animation delay - let’s say `0.5` seconds. This delay ensures that our custom animation begins after the default cross-fade animation has completed. Since you previously set a `0.5` second delay for the transition, this timing helps everything flow smoothly, without overlapping animations.
 
 ```css title="style.css"
 ::view-transition-new(overlay) {
@@ -488,7 +488,7 @@ Now, if you check again, you’ll see that the animation looks perfect!
 
 ## Single-Page Experience
 
-Up until now, you’ve explored how the View Transition API works in the context of cross-document or multi-page applications – something that wasn’t natively possible before.
+Up until now, you’ve explored how the View Transition API works in the context of cross-document or multi-page applications - something that wasn’t natively possible before.
 
 But now, let’s shift our focus to Single Page Applications (SPAs). In most SPAs, animations have always been part of the experience, even before the View Transition API was introduced. Developers have long used various JavaScript tricks to create smooth transitions within SPAs. But with the View Transition API, you can now implement these transitions natively and much more easily. Let’s quickly take a look at how that works.
 
@@ -510,7 +510,7 @@ const newStoryButton = document.querySelector(".new-story-btn");
 
 #### Step 2: Set up the Click Event Listener
 
-Next, add a click event listener to that button. This means that when the user clicks the “New Story” button, the function you define inside this event listener will run. The function is marked `async` in case you later want to use `await` inside it – for example, if you fetch data or run animations that need to wait.
+Next, add a click event listener to that button. This means that when the user clicks the “New Story” button, the function you define inside this event listener will run. The function is marked `async` in case you later want to use `await` inside it - for example, if you fetch data or run animations that need to wait.
 
 ```js
 newStoryButton.addEventListener("click", async () => {
@@ -529,7 +529,7 @@ const container = document.querySelector(".stories-container");
 
 #### Step 4: Create a new Story Card
 
-You’ll call a helper function named `addStoryCard()` – presumably a custom function that returns a ready-made DOM element representing a story card. We pass it the story details: tag, title, description, and an image path. This function likely handles the creation of the HTML structure, styling, and maybe even animations for the card.
+You’ll call a helper function named `addStoryCard()` - presumably a custom function that returns a ready-made DOM element representing a story card. We pass it the story details: tag, title, description, and an image path. This function likely handles the creation of the HTML structure, styling, and maybe even animations for the card.
 
 ```js
 const newCard = addStoryCard({
@@ -573,7 +573,7 @@ Let’s take a closer look at the helper function `addStoryCard()`, which is res
 
 #### Step 1: Find the Template Card
 
-You begin by selecting the existing `.story-card` element from the DOM. This element acts as your template – a ready-made design that you can clone to create new cards. You also add a simple safety check: if for some reason the template doesn’t exist on the page, the function exits immediately by returning undefined.
+You begin by selecting the existing `.story-card` element from the DOM. This element acts as your template - a ready-made design that you can clone to create new cards. You also add a simple safety check: if for some reason the template doesn’t exist on the page, the function exits immediately by returning undefined.
 
 ```js
 function addStoryCard(data) {
@@ -584,7 +584,7 @@ function addStoryCard(data) {
 
 #### Step 2: Clone the Template
 
-Once you have the template, you’ll create a deep clone of it using `cloneNode(true)`. This means it copies the element and all of its nested child elements – preserving the full structure of the card. At this point, you have a fresh new card element in memory that looks just like the original.
+Once you have the template, you’ll create a deep clone of it using `cloneNode(true)`. This means it copies the element and all of its nested child elements - preserving the full structure of the card. At this point, you have a fresh new card element in memory that looks just like the original.
 
 ```js
 const newCard = templateCard.cloneNode(true);
@@ -606,7 +606,7 @@ if (data.image) {
 Now you customize the card’s text:
 
 - You look for the `.story-tag`, `.story-title`, and `.story-description` elements inside the card.
-- If they exist, you set their text content based on the data object that was passed in. This is where the story gets its actual content – like the tag (“Fantasy”), title (“Sky Kingdoms”), and description.
+- If they exist, you set their text content based on the data object that was passed in. This is where the story gets its actual content - like the tag (“Fantasy”), title (“Sky Kingdoms”), and description.
 
 ```js
 const tag = newCard.querySelector(".story-tag");
@@ -653,9 +653,9 @@ function addStoryCard(data) {
 }
 ```
 
-Now, if you click on the “New Story” button, a new story card appears dynamically – thanks to the simple DOM operations you’ve already written above. But you can make it more engaging. Instead of the card just popping into place, you want to add a smooth, eye-catching transition when it’s added to the container.
+Now, if you click on the “New Story” button, a new story card appears dynamically - thanks to the simple DOM operations you’ve already written above. But you can make it more engaging. Instead of the card just popping into place, you want to add a smooth, eye-catching transition when it’s added to the container.
 
-Can you do this with plain CSS? Unfortunately, no – because the card is being added dynamically via JavaScript, CSS alone won’t catch this change and animate it. That’s where the View Transition API in JavaScript comes in. With just a bit of extra code, you can bring this interaction to life with a smooth and polished transition effect.
+Can you do this with plain CSS? Unfortunately, no - because the card is being added dynamically via JavaScript, CSS alone won’t catch this change and animate it. That’s where the View Transition API in JavaScript comes in. With just a bit of extra code, you can bring this interaction to life with a smooth and polished transition effect.
 
 ### Applying the Animation
 
@@ -665,7 +665,7 @@ In your event listener function, after creating the card DOM node, you just appe
 container.appendChild(newCard);
 ```
 
-This line – `container.appendChild(newCard)` – is the core operation you want to animate.
+This line - `container.appendChild(newCard)` - is the core operation you want to animate.
 
 So how do you make this transition happen smoothly? You can’t use CSS alone here, because the new element is being inserted dynamically using JavaScript. But that’s not a problem, as JavaScript gives you full control over DOM manipulation, including the ability to apply styles on the fly.
 
@@ -685,7 +685,7 @@ const transition = document.startViewTransition(async () => {
 });
 ```
 
-Here, you use the `startViewTransition()` method provided by the browser. This is a modern API that helps you animate changes between two visual states of the page – before and after the DOM updates. Inside `startViewTransition()`, you pass an asynchronous callback function, in this case:
+Here, you use the `startViewTransition()` method provided by the browser. This is a modern API that helps you animate changes between two visual states of the page - before and after the DOM updates. Inside `startViewTransition()`, you pass an asynchronous callback function, in this case:
 
 ```js
 () => {
@@ -729,7 +729,7 @@ newCard.style.viewTransitionName = null;
 
 Now, if you reload the page and try it out, you’ll see a smooth, beautiful transition when a new card is created. It’s a subtle touch, but it makes the interaction feel much more polished and dynamic.
 
-And that’s how you can harness the power of JavaScript to add any animation you want – just like you did with CSS, but by setting style properties dynamically. The possibilities are endless when you combine your CSS skills with the flexibility of JavaScript and the View Transition API.
+And that’s how you can harness the power of JavaScript to add any animation you want - just like you did with CSS, but by setting style properties dynamically. The possibilities are endless when you combine your CSS skills with the flexibility of JavaScript and the View Transition API.
 
 ![View Transition in SPA](https://cdn.hashnode.com/res/hashnode/image/upload/v1751052383696/5f166113-6ca7-4f4c-b5dd-8fde64972523.gif)
 
@@ -797,7 +797,7 @@ For more details, check out the [<FontIcon icon="fa-brands fa-firefox"/>MDN docu
 
 You can find all the source code from this guide in [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`logicbaselabs/view-transition-api-tutorial`)](https://github.com/logicbaselabs/view-transition-api-tutorial). If it helped you in any way, consider giving it a star to show your support!
 
-Also, if you found the guide valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts – mention me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen), watch my [coding tutorials (<FontIcon icon="fa-brands fa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
+Also, if you found the guide valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts - mention me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen), watch my [coding tutorials (<FontIcon icon="fa-brands fa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

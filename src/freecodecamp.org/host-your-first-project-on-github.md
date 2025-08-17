@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Host Your Project on GitHub – Explained With Examples"
-description: "Article(s) > How to Host Your Project on GitHub – Explained With Examples"
+title: "How to Host Your Project on GitHub - Explained With Examples"
+description: "Article(s) > How to Host Your Project on GitHub - Explained With Examples"
 icon: iconfont icon-git
 category: 
   - Git
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Host Your Project on GitHub – Explained With Examples"
+      content: "Article(s) > How to Host Your Project on GitHub - Explained With Examples"
     - property: og:description
-      content: "How to Host Your Project on GitHub – Explained With Examples"
+      content: "How to Host Your Project on GitHub - Explained With Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-your-first-project-on-github.html
 prev: /programming/git/articles/README.md
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/2024/08/Screenshot-2024-08-0
 ---
 
 <SiteInfo
-  name="How to Host Your Project on GitHub – Explained With Examples"
+  name="How to Host Your Project on GitHub - Explained With Examples"
   desc="Seven years ago, I began my journey into web development with HTML and CSS. As soon as I got the hang of JavaScript, I built my first website. The excitement was overwhelming, and I wanted to share it with my friends and the world. Like many beginner..."
   url="https://freecodecamp.org/news/host-your-first-project-on-github"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -401,7 +401,7 @@ If you have any questions, feel free to find me on Twitter at [<FontIcon icon="f
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Host Your Project on GitHub – Explained With Examples",
+  "title": "How to Host Your Project on GitHub - Explained With Examples",
   "desc": "Seven years ago, I began my journey into web development with HTML and CSS. As soon as I got the hang of JavaScript, I built my first website. The excitement was overwhelming, and I wanted to share it with my friends and the world. Like many beginner...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-your-first-project-on-github.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

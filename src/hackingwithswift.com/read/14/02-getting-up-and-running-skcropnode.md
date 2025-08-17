@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/C2a0O7nMAoA" />
 
-We already went over the basics of SpriteKit in project 11, so this time we're going to move a little faster – add these two properties to your `GameScene` class:
+We already went over the basics of SpriteKit in project 11, so this time we're going to move a little faster - add these two properties to your `GameScene` class:
 
 ```swift
 var gameScore: SKLabelNode!
@@ -64,7 +64,7 @@ var score = 0 {
 }
 ```
 
-Blah blah property observers blah – this is old stuff to a Swift veteran like you, so I don't need to explain what that does.
+Blah blah property observers blah - this is old stuff to a Swift veteran like you, so I don't need to explain what that does.
 
 Now modify your `didMove(to:)` method so it reads this:
 
@@ -89,7 +89,7 @@ If you run the "game" now you'll see a grassy background with a tree on one side
 
 We set our game scene to have the size 1024x768, which will be sized correctly for most iPads. However, the 11-inch iPad Pro is a little bit special: it has an aspect ratio that’s ever so slightly different from the other iPads, and the default behavior of our Xcode template is to stretch the game so the edges get cut off.
 
-Very often that solution is perfectly fine – the difference is only very slight, after all – but in this case we can ask SpriteKit to gently stretch our scene so that it fits the device dimensions no matter what aspect ratio.
+Very often that solution is perfectly fine - the difference is only very slight, after all - but in this case we can ask SpriteKit to gently stretch our scene so that it fits the device dimensions no matter what aspect ratio.
 
 To do that, open <FontIcon icon="fa-brands fa-swift"/>`GameViewController.swift` and find this line of code:
 
@@ -103,7 +103,7 @@ Now modify it to this:
 scene.scaleMode = .fill
 ```
 
-If you run the game again you’ll see it looks identical on iPad, iPad Air, and iPad Pro 12.9-inch, but it is ever so slightly stretched on the 11-inch iPad Pro – imperceptible, really, but it avoids our score lying off the screen.
+If you run the game again you’ll see it looks identical on iPad, iPad Air, and iPad Pro 12.9-inch, but it is ever so slightly stretched on the 11-inch iPad Pro - imperceptible, really, but it avoids our score lying off the screen.
 
 Now that the small layout bug is fixed, the next job is to fill our game scene with holes, with a penguin in each hole. We want each hole to do as much work itself as possible, so rather than clutter our game scene with code we're going to create a subclass of `SKNode` that will encapsulate all hole related functionality.
 
@@ -136,13 +136,13 @@ We want to create four rows of slots, with five slots in the top row, then four 
 2. A `createSlot(at:)` method that handles slot creation.
 3. Four loops, one for each row.
 
-The first item is easy enough – just add this property above the existing `gameScore` definition in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`:
+The first item is easy enough - just add this property above the existing `gameScore` definition in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`:
 
 ```swift
 var slots = [WhackSlot]()
 ```
 
-As for number two, that's not hard either – we need to create a method that accepts a position, then creates a `WhackSlot` object, calls its `configure(at:)` method, then adds the slot both to the scene and to our array:
+As for number two, that's not hard either - we need to create a method that accepts a position, then creates a `WhackSlot` object, calls its `configure(at:)` method, then adds the slot both to the scene and to our array:
 
 ```swift
 func createSlot(at position: CGPoint) {
@@ -170,7 +170,7 @@ So far this has all been stuff you've done before, so I tried to get through it 
 
 By default, nodes don't crop, they just form part of a node tree. The reason we need the crop node is to hide our penguins: we need to give the impression that they are inside the holes, sliding out for the player to whack, and the easiest way to do that is just to have a crop mask shaped like the hole that makes the penguin invisible when it moves outside the mask.
 
-The easiest way to demonstrate the need for `SKCropNode` is to give it a `nil` mask – this will effectively stop the crop node from doing anything, thus allowing you to see the trick behind our game.
+The easiest way to demonstrate the need for `SKCropNode` is to give it a `nil` mask - this will effectively stop the crop node from doing anything, thus allowing you to see the trick behind our game.
 
 In <FontIcon icon="fa-brands fa-swift"/>`WhackSlot.swift`, add a property to your class in which we'll store the penguin picture node:
 
@@ -196,15 +196,15 @@ addChild(cropNode)
 
 Some parts of that are old and some are new, but all bear explaining.
 
-First, we create a new `SKCropNode` and position it slightly higher than the slot itself. The number 15 isn't random – it's the exact number of points required to make the crop node line up perfectly with the hole graphics. We also give the crop node a `zPosition` value of 1, putting it to the front of other nodes, which stops it from appearing behind the hole.
+First, we create a new `SKCropNode` and position it slightly higher than the slot itself. The number 15 isn't random - it's the exact number of points required to make the crop node line up perfectly with the hole graphics. We also give the crop node a `zPosition` value of 1, putting it to the front of other nodes, which stops it from appearing behind the hole.
 
 We then do something that, right now, means nothing: we set the `maskNode` property of the crop node to be `nil`, which is the default value. It's there because we'll be changing it in just a moment.
 
-We then create the character node, giving it the "good penguin" graphic, which is a blue color – the bad penguins are red, presumably because they are bubbling over with hellfire or something. This is placed at -90, which is way below the hole as if the penguin were properly hiding. And by "properly" you should read "bizarrely" because penguins aren't exactly known for hiding in holes in the countryside!
+We then create the character node, giving it the "good penguin" graphic, which is a blue color - the bad penguins are red, presumably because they are bubbling over with hellfire or something. This is placed at -90, which is way below the hole as if the penguin were properly hiding. And by "properly" you should read "bizarrely" because penguins aren't exactly known for hiding in holes in the countryside!
 
 I hope you noticed the important thing, which is that the character node is added to the crop node, and the crop node was added to the slot. This is because the crop node only crops nodes that are inside it, so we need to have a clear hierarchy: the slot has the hole and crop node as children, and the crop node has the character node as a child.
 
-If you run the game now you'll see that every hole now has a penguin directly beneath it. This is where the penguin is hiding, "in the hole", or at least would be if we gave the crop node a mask graphic. Now is probably a good time to select the whackMask.png graphic in the project navigator – it's a red square with a curved bottom to match the rim of the hole.
+If you run the game now you'll see that every hole now has a penguin directly beneath it. This is where the penguin is hiding, "in the hole", or at least would be if we gave the crop node a mask graphic. Now is probably a good time to select the whackMask.png graphic in the project navigator - it's a red square with a curved bottom to match the rim of the hole.
 
 ![Our penguins are positioned just below their holes, and they'll become invisible once added to a crop node.](https://hackingwithswift.com/14-1img/books/hws/14-1@2x.png)
 

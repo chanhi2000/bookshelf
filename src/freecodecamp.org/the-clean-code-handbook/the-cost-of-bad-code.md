@@ -55,7 +55,7 @@ To explain this stack bar graph, in the initial development phase, bad code is *
 
 But as we move into the maintenance and refactoring phases, the gap widens significantly, with bad code costing nearly twice as much as clean code.
 
-By the legacy phase, bad code reaches 100% cost – now it’s extremely expensive to update, while clean code remains more manageable at 45%.
+By the legacy phase, bad code reaches 100% cost - now it’s extremely expensive to update, while clean code remains more manageable at 45%.
 
 As of now, the most recent analysis on the cost of poor software quality in the U.S. is the 2022 report by the Consortium for Information and Software Quality ([<FontIcon icon="fas fa-globe"/>cisq.org](http://cisq.org)). This report estimates that poor software quality cost the U.S. economy at least $2.41 trillion in 2022, with technical debt accounting for about $1.52 trillion of this amount.
 

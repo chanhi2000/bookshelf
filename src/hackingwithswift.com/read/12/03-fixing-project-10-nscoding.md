@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -79,7 +79,7 @@ When we were working on this code in project 10, there were two outstanding ques
 
 It's time for the answers to become clear. You see, working with `NSCoding` requires you to use objects, or, in the case of strings, arrays and dictionaries, structs that are interchangeable with objects. If we made the `Person` class into a struct, we couldn't use it with `NSCoding`.
 
-The reason we inherit from `NSObject` is again because it's required to use `NSCoding` – although cunningly Swift won't mention that to you, your app will just crash.
+The reason we inherit from `NSObject` is again because it's required to use `NSCoding` - although cunningly Swift won't mention that to you, your app will just crash.
 
 Once you conform to the `NSCoding` protocol, you'll get compiler errors because the protocol requires you to implement two methods: a new initializer and `encode()`.
 
@@ -107,7 +107,7 @@ The initializer is used when loading objects of this class, and `encode()` is us
 
 With those changes, the `Person` class now conforms to `NSCoding`, so we can go back to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add code to load and save the `people` array.
 
-Let's start with writing, because once you understand that the reading code will make much more sense. As I said earlier, you can write `Data` objects to `UserDefaults`, but we don't currently have a `Data` object – we just have an array.
+Let's start with writing, because once you understand that the reading code will make much more sense. As I said earlier, you can write `Data` objects to `UserDefaults`, but we don't currently have a `Data` object - we just have an array.
 
 Fortunately, the `archivedData()` method of `NSKeyedArchiver` turns an object graph into a `Data` object using those `NSCoding` methods we just added to our class. Because we make changes to the array by adding people or by renaming them, let's create a single `save()` method we can use anywhere that's needed:
 
@@ -124,7 +124,7 @@ So: line 1 is what converts our array into a `Data` object, then lines 2 and 3 s
 
 You need to modify our collection view's `didSelectItemAt` method so that you call `self.save()` just after calling `self.collectionView.reloadData()`. Remember, the `self` is required because we're inside a closure. You then need to modify the image picker's `didFinishPickingMediaWithInfo` method so that it calls `save()` just before the end of the method.
 
-And that's it – we only change the data in two places, and both now have a call to `save()`.
+And that's it - we only change the data in two places, and both now have a call to `save()`.
 
 Finally, we need to load the array back from disk when the app runs, so add this code to `viewDidLoad()`:
 
@@ -138,5 +138,5 @@ if let savedPeople = defaults.object(forKey: "people") as? Data {
 }
 ```
 
-This code is effectively the `save()` method in reverse: we use the `object(forKey:)` method to pull out an optional `Data`, using `if let` and `as?` to unwrap it. We then give that to the `unarchiveTopLevelObjectWithData()` method of `NSKeyedUnarchiver` to convert it back to an object graph – i.e., our array of `Person` objects.
+This code is effectively the `save()` method in reverse: we use the `object(forKey:)` method to pull out an optional `Data`, using `if let` and `as?` to unwrap it. We then give that to the `unarchiveTopLevelObjectWithData()` method of `NSKeyedUnarchiver` to convert it back to an object graph - i.e., our array of `Person` objects.
 

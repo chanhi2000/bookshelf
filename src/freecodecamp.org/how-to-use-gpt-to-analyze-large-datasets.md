@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724798393633/8ad22b7
 
 Absorbing and then summarizing very large quantities of content in just a few seconds truly is a big deal. As an example, a while back I received a link to the recording of an important 90 minute business video conference that I'd missed a few hours before.
 
-The reason I'd missed the live version was because I had no time (I was, if you must know, rushing to finish my [<FontIcon icon="fa-brands fa-amazon"/>Manning book, The Complete Obsolete Guide to Generative AI](https://amzn.to/3yLFT3b) – from which this article is excerpted).
+The reason I'd missed the live version was because I had no time (I was, if you must know, rushing to finish my [<FontIcon icon="fa-brands fa-amazon"/>Manning book, The Complete Obsolete Guide to Generative AI](https://amzn.to/3yLFT3b) - from which this article is excerpted).
 
 Well, a half a dozen hours later I still had no time for the video. And, inexplicably, the book was still not finished.
 
@@ -172,9 +172,9 @@ I'll rate that as another successful experiment.
 
 ## Wrapping Up
 
-GPT – and other LLMs – are capable of independently parsing, analyzing, and deriving insights from large data sets.
+GPT - and other LLMs - are capable of independently parsing, analyzing, and deriving insights from large data sets.
 
-There will be limits to the magic, of course. GPT and its cousins can still hallucinate – especially when your prompts give it too much room to be "creative" or, sometimes, when you've been gone too deep into a single prompt thread. And there are also some hard limits to how much data OpenAI will allow you to upload.
+There will be limits to the magic, of course. GPT and its cousins can still hallucinate - especially when your prompts give it too much room to be "creative" or, sometimes, when you've been gone too deep into a single prompt thread. And there are also some hard limits to how much data OpenAI will allow you to upload.
 
 But, overall, you can accomplish more and faster than you can probably imagine right now.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,9 +63,9 @@ Auto Layout constraints a powerful way of expressing your layouts, but when they
 
 It’s an optional string so you don’t have to provide anything, but if you *do* set an identifier you’ll find it much easier to see where your constraints are going wrong because Xcode will use those identifiers in its debug logs.
 
-If you create your constraints in code, just set the `identifier` property to a string as you go – “Main Title Horizontal Center” for example. If you use Interface Builder, you can select any constraint and you’ll see a dedicated “Identifier” text property you can fill in.
+If you create your constraints in code, just set the `identifier` property to a string as you go - “Main Title Horizontal Center” for example. If you use Interface Builder, you can select any constraint and you’ll see a dedicated “Identifier” text property you can fill in.
 
-There is literally no reason not to add identifiers to your constraints – they don’t affect your layouts at all, but they do make layout debugging significantly easier!
+There is literally no reason not to add identifiers to your constraints - they don’t affect your layouts at all, but they do make layout debugging significantly easier!
 
 -->
 

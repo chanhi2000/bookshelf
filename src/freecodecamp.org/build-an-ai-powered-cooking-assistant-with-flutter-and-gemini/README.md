@@ -68,22 +68,22 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748533427117/1c8c238
 
 <SiteInfo
   name="How to Build an AI-Powered Cooking Assistant with Flutter and Gemini"
-  desc="After soaking in everything shared at GoogleIO, I can’t lie – I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li..."
+  desc="After soaking in everything shared at GoogleIO, I can’t lie - I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li..."
   url="https://freecodecamp.org/news/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748533427117/1c8c2384-c6a3-4ad8-ab40-1eee65b2c914.png"/>
 
-After soaking in everything shared at [<FontIcon icon="fa-brands fa-youtube"/>GoogleIO](https://youtube.com/playlist?list=PLOU2XLYxmsIL4mCDJICu2vLPNw-zdcGAt), I can’t lie – I feel supercharged! From [<FontIcon icon="fa-brands fa-google"/>What’s New in Flutter](https://io.google/2025/explore/pa-keynote-12) to [<FontIcon icon="fa-brands fa-google"/>Building Agentic Apps with Flutter and Firebase AI Logic](https://io.google/2025/explore/technical-session-6), and the deep dive into [<FontIcon icon="fa-brands fa-google"/>How Flutter Makes the Most of Your Platforms](https://io.google/2025/explore/technical-session-25), it felt like plugging directly into the Matrix of dev power.
+After soaking in everything shared at [<FontIcon icon="fa-brands fa-youtube"/>GoogleIO](https://youtube.com/playlist?list=PLOU2XLYxmsIL4mCDJICu2vLPNw-zdcGAt), I can’t lie - I feel supercharged! From [<FontIcon icon="fa-brands fa-google"/>What’s New in Flutter](https://io.google/2025/explore/pa-keynote-12) to [<FontIcon icon="fa-brands fa-google"/>Building Agentic Apps with Flutter and Firebase AI Logic](https://io.google/2025/explore/technical-session-6), and the deep dive into [<FontIcon icon="fa-brands fa-google"/>How Flutter Makes the Most of Your Platforms](https://io.google/2025/explore/technical-session-25), it felt like plugging directly into the Matrix of dev power.
 
 But the absolute showstopper for me? David’s presentation using [<FontIcon icon="iconfont icon-firebase"/>Firebase Studio](https://firebase.studio/) and [<FontIcon icon="fas fa-globe"/>Builder.io](https://builder.io) was a masterpiece. I’ve already checked it out, and it’s every bit as awesome as it looked. Pair that with everything Gemini is shipping... and wow. We’re entering a whole new era of app development.
 
-Artificial Intelligence (AI) is no longer a futuristic concept – it's an integral part of our daily lives, transforming how we interact with technology and the world around us.
+Artificial Intelligence (AI) is no longer a futuristic concept - it's an integral part of our daily lives, transforming how we interact with technology and the world around us.
 
 From personalized recommendations on streaming platforms to intelligent assistants that manage our schedules, AI's applications are vast and ever-expanding. Its ability to process massive datasets, identify patterns, and make informed decisions is revolutionizing industries from healthcare to finance…and now, even cooking!
 
 At the forefront of this AI revolution are powerful platforms like **Google's Vertex AI** and **Gemini**. Vertex AI is a unified machine learning platform that lets you build, deploy, and scale ML models faster and more efficiently. It provides a comprehensive suite of tools for the entire ML workflow, from data preparation to model deployment and monitoring. Think of it as your all-in-one workshop for crafting intelligent systems.
 
-Gemini, on the other hand, is Google's most capable and flexible AI model. It's a multimodal large language model (LLM), meaning it can understand and process information across various modalities – text, images, audio, and more. This makes Gemini incredibly versatile, enabling it to handle complex tasks that require a nuanced understanding of different types of data. For developers, Gemini opens up a world of possibilities for creating highly intelligent and intuitive applications.
+Gemini, on the other hand, is Google's most capable and flexible AI model. It's a multimodal large language model (LLM), meaning it can understand and process information across various modalities - text, images, audio, and more. This makes Gemini incredibly versatile, enabling it to handle complex tasks that require a nuanced understanding of different types of data. For developers, Gemini opens up a world of possibilities for creating highly intelligent and intuitive applications.
 
 Complementing these powerful AI models is **Firebase AI Studio**, a suite of tools within Firebase designed to simplify the integration of AI capabilities into your applications. It streamlines the process of connecting your app to Gemini models, making it easier to leverage the power of generative AI without getting bogged down in complex infrastructure.
 
@@ -328,7 +328,7 @@ Google Cloud's machine learning platform.
 ```component VPCard
 {
   "title": "How to Build an AI-Powered Cooking Assistant with Flutter and Gemini",
-  "desc": "After soaking in everything shared at GoogleIO, I can’t lie – I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li...",
+  "desc": "After soaking in everything shared at GoogleIO, I can’t lie - I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

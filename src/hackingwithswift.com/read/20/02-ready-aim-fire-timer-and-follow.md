@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,7 +60,7 @@ First, the easy stuff: we need to add some properties to our class:
 - The `gameTimer` property will be a `Timer`. We'll use this to call the `launchFireworks()` method every six seconds.
 - The `fireworks` property will be an array of `SKNode` objects. Fireworks, like the slots in project 14, will be a container node with other nodes inside them. This avoids accidental taps triggered by tapping on the fuse of a firework.
 - The `leftEdge`, `bottomEdge`, and `rightEdge` properties are used to define where we launch fireworks from. Each of them will be just off screen to one side.
-- The `score` property will track the player's score. I'm going to give you a `didSet` property observer but leave it blank for you to fill in later – you should know how to show a score label by now!
+- The `score` property will track the player's score. I'm going to give you a `didSet` property observer but leave it blank for you to fill in later - you should know how to show a score label by now!
 
 Add these properties now:
 
@@ -93,9 +93,9 @@ override func didMove(to view: SKView) {
 }
 ```
 
-![We're using a night sky as the background for this game – it is called Fireworks Night, after all!](https://hackingwithswift.com/img/books/hws/20-1@2x.png)
+![We're using a night sky as the background for this game - it is called Fireworks Night, after all!](https://hackingwithswift.com/img/books/hws/20-1@2x.png)
 
-That timer will carry on repeating until we tell it to stop, which in this project we won't – that'll be your job! Each time the timer fires, it will call `launchFireworks()`, which itself will call `createFirework()`. Initially we're going to write four types of firework “spreads” (different ways of launching fireworks) but this is something you could easily add more to later.
+That timer will carry on repeating until we tell it to stop, which in this project we won't - that'll be your job! Each time the timer fires, it will call `launchFireworks()`, which itself will call `createFirework()`. Initially we're going to write four types of firework “spreads” (different ways of launching fireworks) but this is something you could easily add more to later.
 
 First, let's take a look at the `createFirework()` method. This needs to accept three parameters: the X movement speed of the firework, plus X and Y positions for creation. Inside the method there's a lot going on. It needs to:
 
@@ -218,7 +218,7 @@ You'll notice I made `movementAmount` into a constant. This is because I was tes
 
 As you can see in the code, each firework is fired from different positions so that you get a nice spread on the screen. For example, firing a fan creates one firework on the far left and moving to the left, one in the center left and moving to the left, one in the center moving straight up, and so on.
 
-With that code, you're now able to run the game and see how it works – after a few seconds the first fireworks will start, then they'll continue launches as the timer continues to fire.
+With that code, you're now able to run the game and see how it works - after a few seconds the first fireworks will start, then they'll continue launches as the timer continues to fire.
 
 ![Fireworks can fire out in one of four formations, to add some challenge to the game.](https://hackingwithswift.com/img/books/hws/20-2@2x.png)
 

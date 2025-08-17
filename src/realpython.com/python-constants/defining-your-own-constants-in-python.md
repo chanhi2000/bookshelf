@@ -99,8 +99,8 @@ Again, Python doesn’t support constants or non-reassignable names. Using upper
 Because Python constants are just variables, both follow similar naming rules, with the only distinction being that constants use uppercase letters only. Following this idea, constants’ names can:
 
 - Be of any length
-- Consist of uppercase letters (`A`–`Z`)
-- Include digits (`0`–`9`) but not as their first character
+- Consist of uppercase letters (`A`-`Z`)
+- Include digits (`0`-`9`) but not as their first character
 - Use underscore characters (`_`) to separate words or as their first character
 
 Using uppercase letters makes your constants stand out from your variables. This way, other developers will unambiguously recognize their purpose.

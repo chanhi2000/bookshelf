@@ -72,7 +72,7 @@ Button {
 
 ![A white lightning bolt icon inside a green circle.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-clip-a-view-so-only-part-is-visible-1~dark@2x.png)
 
-The `Circle` clip shape will always make circles from views, even if their width and height are unequal – it will just crop the larger value to match the small.
+The `Circle` clip shape will always make circles from views, even if their width and height are unequal - it will just crop the larger value to match the small.
 
 As well as `Circle` there’s also `Capsule`, which crops a view to have rounded corners in a lozenge shape. For example, this creates the same button using a capsule shape:
 
@@ -92,7 +92,7 @@ Button {
 
 ![A white lightning bolt icon inside a green capsule or pill shape.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-clip-a-view-so-only-part-is-visible-2~dark@2x.png)
 
-I added some more precise padding there to get a better shape – you should experiment to find something you like.
+I added some more precise padding there to get a better shape - you should experiment to find something you like.
 
 
 ::: details Similar solutions…

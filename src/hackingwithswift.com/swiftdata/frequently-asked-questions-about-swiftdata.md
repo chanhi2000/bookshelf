@@ -59,7 +59,7 @@ Ever since SwiftData was announced folks have been asking a whole bunch of quest
 
 ## Is it hard to start using SwiftData?
 
-Core Data had quite a difficulty ramp for getting set up properly, but SwiftData takes such a small amount of code you’ll almost think you’ve missed something! Even when you start venturing into more advanced features, SwiftData does a great job of progressive disclosure – you can learn it bit by bit and get benefit at each step of the way, rather than having to learn many things at once just to get moving.
+Core Data had quite a difficulty ramp for getting set up properly, but SwiftData takes such a small amount of code you’ll almost think you’ve missed something! Even when you start venturing into more advanced features, SwiftData does a great job of progressive disclosure - you can learn it bit by bit and get benefit at each step of the way, rather than having to learn many things at once just to get moving.
 
 ---
 
@@ -71,7 +71,7 @@ Yes! SwiftData uses Core Data under the hood, which means all your data structur
 
 ## Can Core Data and SwiftData exist in the same app?
 
-Yes, you can have both stacks running at the same time. Heck, they can even be pointing to the same data, and will stay in sync. Please make sure you keep the two data models in sync, though – if you adjust your Core Data model, make sure you apply the same change to your SwiftData model too.
+Yes, you can have both stacks running at the same time. Heck, they can even be pointing to the same data, and will stay in sync. Please make sure you keep the two data models in sync, though - if you adjust your Core Data model, make sure you apply the same change to your SwiftData model too.
 
 ---
 
@@ -85,7 +85,7 @@ No, but if you try subclassing them you're going to cause a lot of pain for your
 
 We all know Swift and SwiftUI developers love using structs as a simple and efficient way to represent data, but with data it’s complicated: if we load an array of users, then pass one user around for editing, we need to be able to keep all the screens in our app up to date as the user makes changes.
 
-Sure, we could try to pass around an object identifier and just that to refer to an object, but if you think about it you’re kind of just recreating pointers – it’s a lot of extra effort just to land up with more or less the same result.
+Sure, we could try to pass around an object identifier and just that to refer to an object, but if you think about it you’re kind of just recreating pointers - it’s a lot of extra effort just to land up with more or less the same result.
 
 That’s not to say SwiftData must *only* use classes: you can incorporate any kind of `Codable` data into your models, including both structs and enums, and SwiftData will ensure they are saved and loaded correctly.
 
@@ -99,7 +99,7 @@ No; Apple really don’t want us trying to do this.
 
 ## Is there a way to add Codable support to a SwiftData object?
 
-Yes, but it takes a little thinking – we don’t get automatic `Codable` support, and instead we need to implement it ourself.
+Yes, but it takes a little thinking - we don’t get automatic `Codable` support, and instead we need to implement it ourself.
 
 ---
 

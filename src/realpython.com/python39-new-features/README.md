@@ -207,7 +207,7 @@ $ python -m pip install tzdata
 
 Once `tzdata` is installed, `zoneinfo` should be able to read information about all supported time zones. `tzdata` is maintained by the Python core team. Note that you need to keep the package updated in order to have access to the latest changes in the IANA Time Zone Database.
 
-You can make time zone–aware time stamps using the `tz` or `tzinfo` arguments to `datetime` functions:
+You can make time zone-aware time stamps using the `tz` or `tzinfo` arguments to `datetime` functions:
 
 ```py
 >>> from datetime import datetime
@@ -295,7 +295,7 @@ Because the IANA time zone database is updated all the time, you should be consc
 
 On Mac and Linux, you can usually trust your system to keep the local database updated. If you rely on the [`tzdata`](https://pypi.org/project/tzdata/) package, then you should remember to update it from time to time. In particular, you shouldn’t leave it pinned to one particular version for years.
 
-Names like `"America/Vancouver"` give you unambiguous access to a given time zone. However, when communicating time zone–aware datetimes to your users, it’s better to use regular time zone names. These are available as `.tzname()` on a time zone object:
+Names like `"America/Vancouver"` give you unambiguous access to a given time zone. However, when communicating time zone-aware datetimes to your users, it’s better to use regular time zone names. These are available as `.tzname()` on a time zone object:
 
 ```py
 >>> from datetime import datetime

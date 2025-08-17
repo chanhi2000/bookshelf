@@ -120,7 +120,7 @@ To find the right cloud application developer for your job, there are several av
 
 Another option is to check out job sites, which have listings specifically for cloud application developers. These platforms enable you to upload your job description and screen candidates based on their qualifications and experience.
 
-By leveraging online marketplaces, job sites, and industry-specific resources (like blogs), you can eventually discover your specific process of establishing a cloud software development team. Of course, this process can – and in some cases, it rather – start while the initial research is still going on.
+By leveraging online marketplaces, job sites, and industry-specific resources (like blogs), you can eventually discover your specific process of establishing a cloud software development team. Of course, this process can - and in some cases, it rather - start while the initial research is still going on.
 
 ### Tech Research
 

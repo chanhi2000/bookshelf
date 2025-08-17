@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/R9lb373n5JI" />
 
-The default map view works great out of the box – you can pan around, zoom in and out, and so on. If you were wondering, you need to hold down Option to trigger a virtual "pinch" gesture – just click and drag as if you were moving one finger, and the other "finger" will move in the opposite direction.
+The default map view works great out of the box - you can pan around, zoom in and out, and so on. If you were wondering, you need to hold down Option to trigger a virtual "pinch" gesture - just click and drag as if you were moving one finger, and the other "finger" will move in the opposite direction.
 
 Using the assistant editor, please create an outlet for your map view called `mapView`. You should also set your view controller to be the delegate of the map view by <kbd>Ctrl</kbd>-dragging from the map view to the orange and white view controller button just above the layout area. You will also need to add `import MapKit` to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` so it understands what `MKMapView` is.
 
@@ -90,7 +90,7 @@ class Capital: NSObject, MKAnnotation {
 
 There are our three properties, along with a basic initializer that just copies in the data it's given. Again, we need to use `self.` here because the parameters being passed in are the same name as our properties. I've added `import MapKit` to the file because that's where `MKAnnotation` and `CLLocationCoordinate2D` are defined.
 
-With this custom subclass, we can create capital cities by passing in their name, coordinate and information – I'll be using the `info` property to hold one priceless (read: off-the-cuff, I sucked at geography) informational nugget about each city. You're welcome to do better!
+With this custom subclass, we can create capital cities by passing in their name, coordinate and information - I'll be using the `info` property to hold one priceless (read: off-the-cuff, I sucked at geography) informational nugget about each city. You're welcome to do better!
 
 Put these lines into the `viewDidLoad()` method of <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 

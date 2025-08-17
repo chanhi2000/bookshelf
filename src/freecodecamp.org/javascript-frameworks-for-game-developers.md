@@ -128,7 +128,7 @@ What makes Babylon.js stand out is its performance and developer experience. It�
 
 There’s even a web-based playground where you can test and share code snippets live. That’s great for learning and debugging.
 
-Let’s say you want to build a first-person shooter or a multiplayer 3D arena game. Babylon.js gives you all the structure you need including scene management, game loop handling, input systems, and more. You don’t have to piece together different libraries to make things work  –  it’s all built in.
+Let’s say you want to build a first-person shooter or a multiplayer 3D arena game. Babylon.js gives you all the structure you need including scene management, game loop handling, input systems, and more. You don’t have to piece together different libraries to make things work  -  it’s all built in.
 
 Another plus is its strong [<FontIcon icon="fa-brands fa-wikipedia-w"/>WebXR](https://en.wikipedia.org/wiki/WebXR) support to create virtual reality or augmented reality experiences right in the browser. If that’s part of your plan, Babylon is definitely worth a look.
 
@@ -170,7 +170,7 @@ No matter which one you choose, the best way to learn is by building something s
 
 JavaScript might not be the first language people think of for game development, but it’s more than capable. With the right framework, you can create beautiful, responsive games that run anywhere. So pick your tool, fire up your editor, and start building.
 
-Hope you enjoyed this article. If you're into game development, check out the [<FontIcon icon="fas fa-globe"/>Eldorado marketplace](https://eldorado.gg/) – a platform for buying and selling in-game goods. You can also create dedicated e-commerce pages for your games, like [<FontIcon icon="fas fa-globe"/>Grow A Garden Shop](https://eldorado.gg/roblox-grow-a-garden-items/i/243), where players can purchase tools to enhance their gameplay experience.
+Hope you enjoyed this article. If you're into game development, check out the [<FontIcon icon="fas fa-globe"/>Eldorado marketplace](https://eldorado.gg/) - a platform for buying and selling in-game goods. You can also create dedicated e-commerce pages for your games, like [<FontIcon icon="fas fa-globe"/>Grow A Garden Shop](https://eldorado.gg/roblox-grow-a-garden-items/i/243), where players can purchase tools to enhance their gameplay experience.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

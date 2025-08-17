@@ -163,7 +163,7 @@ At least some of the columns within the tables that you run `SELECT` queries on 
 
 ### Data types and integers
 
-It’s important that you know your way around data types and character sets. To occupy less space on the disk, you should use `CHAR` (character) or `VARCHAR` (variable character) data types instead of `TEXT– CHAR` and `VARCHAR` data types. It’s the same with integers; consider using `SMALLINT` instead of `INT` if necessary to save hard drive space.
+It’s important that you know your way around data types and character sets. To occupy less space on the disk, you should use `CHAR` (character) or `VARCHAR` (variable character) data types instead of `TEXT- CHAR` and `VARCHAR` data types. It’s the same with integers; consider using `SMALLINT` instead of `INT` if necessary to save hard drive space.
 
 Specify the length of the data types properly. Consider specifying a size of, say, 50, instead of 255, the maximum value, when dealing with big data. Such an approach will save massive amounts of space on the disk.
 

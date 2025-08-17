@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ The combination of all three identify the user's precise location:
 - **Major:** You're in the Glasgow branch.
 - **Minor:** You're in the shoe department on the third floor.
 
-If you don't need that level of detail you can skip minor or even major – it's down to you.
+If you don't need that level of detail you can skip minor or even major - it's down to you.
 
 It's time to put this into code, so we're going to create a new method called `startScanning()` that contains the following:
 
@@ -85,7 +85,7 @@ func startScanning() {
 }
 ```
 
-You met `UUID` in project 10, but here we're converting a string into a UUID rather than generating a UUID and converting it to a string. The UUID I'm using there is one of the ones that comes built into the Locate Beacon app – look under "Apple AirLocate 5A4BCFCE" and find it there. Note that I'm scanning for specific major and minor numbers, so please enter those into your Locate Beacon app.
+You met `UUID` in project 10, but here we're converting a string into a UUID rather than generating a UUID and converting it to a string. The UUID I'm using there is one of the ones that comes built into the Locate Beacon app - look under "Apple AirLocate 5A4BCFCE" and find it there. Note that I'm scanning for specific major and minor numbers, so please enter those into your Locate Beacon app.
 
 The `identifier` field is just a string you can set to help identify this beacon in a human-readable way. That, plus the UUID, major and minor fields, goes into the `CLBeaconRegion` class, which is used to identify and work with iBeacons. It then gets sent to our location manager, asking it to monitor for the existence of the region and also to start measuring the distance between us and the beacon.
 
@@ -127,7 +127,7 @@ func update(distance: CLProximity) {
 
 Most of that is just choosing the right color and text, but you'll notice the method accepts a `CLProximity` as its parameter.
 
-Now, in theory this can only be be one of our four distance values, which is why we have a `default` case in there. However, Swift should show you a warning because Apple has marked `CLProximity` as an enum that might change in the future – they might add more fine-grained values, for example. 
+Now, in theory this can only be be one of our four distance values, which is why we have a `default` case in there. However, Swift should show you a warning because Apple has marked `CLProximity` as an enum that might change in the future - they might add more fine-grained values, for example. 
 
 This is only a *warning* rather than an *error* because you can build ship your code without covering future cases if you want to. However, if you do that you risk running into problems in the future: if Apple added an extra `.farFarAway` case in there, what would your code do?
 

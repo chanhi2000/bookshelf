@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Microservices Book – Learn How to Build and Manage Services in the Cloud"
-description: "Article(s) > The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+title: "The Microservices Book - Learn How to Build and Manage Services in the Cloud"
+description: "Article(s) > The Microservices Book - Learn How to Build and Manage Services in the Cloud"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+      content: "Article(s) > The Microservices Book - Learn How to Build and Manage Services in the Cloud"
     - property: og:description
-      content: "The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+      content: "The Microservices Book - Learn How to Build and Manage Services in the Cloud"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/
 prev: /programming/js-node/articles/README.md
@@ -72,7 +72,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732028836710/aedce66
 ---
 
 <SiteInfo
-  name="The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+  name="The Microservices Book - Learn How to Build and Manage Services in the Cloud"
   desc="In today’s fast-paced tech landscape, microservices have emerged as one of the most efficient ways to architect and manage scalable, flexible, and resilient cloud-based systems. Whether you're working with large-scale applications or building somethi..."
   url="https://freecodecamp.org/news/the-microservices-book-build-and-manage-services-in-the-cloud"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -131,7 +131,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "What are Microservices?",
-  "desc": "(1/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(1/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/what-are-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -141,7 +141,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Microservices vs Monolithic Architecture",
-  "desc": "(2/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(2/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/microservices-vs-monolithic-architecture.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -151,7 +151,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Core Microservices Concepts and Components",
-  "desc": "(3/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(3/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/core-microservices-components-and-concepts.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -161,7 +161,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Data Management in Microservices",
-  "desc": "(4/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(4/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/data-management-in-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -171,7 +171,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Service Discovery and Load Balancing",
-  "desc": "(5/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(5/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/service-discovery-and-load-balancing.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -181,7 +181,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "How to Build and Design Microservices",
-  "desc": "(6/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(6/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-build-and-design-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -191,7 +191,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "How to Implement Microservices",
-  "desc": "(7/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(7/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-implement-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -201,7 +201,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "How to Test Microservices",
-  "desc": "(8/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(8/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-test-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -211,7 +211,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "How to Deploy Microservices",
-  "desc": "(9/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(9/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-deploy-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -221,7 +221,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "How to Manage Microservices in the Cloud",
-  "desc": "(10/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(10/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-manage-microservices-in-the-cloud.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -231,7 +231,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Containerization and Orchestration",
-  "desc": "(11/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(11/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/containerization-and-orchestration.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -241,7 +241,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Continuous Integration and Continuous Deployment (CI/CD)",
-  "desc": "(12/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(12/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/continuous-integration-and-continuous-deployment-cicd-1.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -251,7 +251,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Monitoring and Logging",
-  "desc": "(13/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(13/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/monitoring-and-logging.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -261,7 +261,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Security Considerations",
-  "desc": "(14/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(14/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/security-considerations-1.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -271,7 +271,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Case Studies and Real-World Examples",
-  "desc": "(15/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(15/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/case-studies-and-real-world-examples.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -281,7 +281,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Real-World Examples of Microservices",
-  "desc": "(16/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(16/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/real-world-examples-of-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -291,7 +291,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Common Pitfalls and How to Avoid Them in Microservices",
-  "desc": "(17/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(17/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/common-pitfalls-and-how-to-avoid-them-in-microservices.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -301,7 +301,7 @@ Let’s begin the journey toward mastering microservices and cloud management!
 ```component VPCard
 {
   "title": "Future Trends and Innovations",
-  "desc": "(18/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "desc": "(18/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/future-trends-and-innovations.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -464,7 +464,7 @@ For those looking to deepen their understanding of microservices, here are some 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "title": "The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "desc": "In today’s fast-paced tech landscape, microservices have emerged as one of the most efficient ways to architect and manage scalable, flexible, and resilient cloud-based systems. Whether you're working with large-scale applications or building somethi...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

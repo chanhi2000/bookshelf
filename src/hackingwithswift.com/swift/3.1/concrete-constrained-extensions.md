@@ -80,7 +80,7 @@ let items = [5, 6, 10, 4, 110, 3].lessThanFirst()
 print(items)
 ```
 
-That extends a concrete type (only `Array`) but still using a protocol for its constraint. What if we wanted to go even more specific – extend a concrete type with a concrete constraint, for example only arrays that contains integers? Well, it turns out that isn't possible in Swift 3.0, which usually strikes people as odd: if Swift 3.0 can handle extending protocols with another protocol as a constraint, then surely extending a specific type with a specific constraint should be a cinch?
+That extends a concrete type (only `Array`) but still using a protocol for its constraint. What if we wanted to go even more specific - extend a concrete type with a concrete constraint, for example only arrays that contains integers? Well, it turns out that isn't possible in Swift 3.0, which usually strikes people as odd: if Swift 3.0 can handle extending protocols with another protocol as a constraint, then surely extending a specific type with a specific constraint should be a cinch?
 
 Fortunately, this discrepancy has been removed in Swift 3.1, which means we can now write code like this:
 
@@ -98,7 +98,7 @@ print(items)
 
 That extends a concrete type (only `Array`) and uses a concrete constraint (only where the elements are `Int`).
 
-Now, obviously we're using a trivial example here – in your own code this is going to be significantly more useful when you want to extend arrays containing your own custom structs.
+Now, obviously we're using a trivial example here - in your own code this is going to be significantly more useful when you want to extend arrays containing your own custom structs.
 
 ::: details Other Changes in Swift 3.1
 <!-- 

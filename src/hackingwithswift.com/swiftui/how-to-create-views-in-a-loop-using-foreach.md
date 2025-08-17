@@ -78,7 +78,7 @@ VStack(alignment: .leading) {
 
 ![A countdown from 10 to 1 followed by the text “Ready or not, here I come!”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-views-in-a-loop-using-foreach-1~dark.png)
 
-The `id: \.self` part is required so that SwiftUI can identify each element in the array uniquely – it means that if you add or remove an item, SwiftUI knows exactly which one.
+The `id: \.self` part is required so that SwiftUI can identify each element in the array uniquely - it means that if you add or remove an item, SwiftUI knows exactly which one.
 
 You can use this approach to create loops of any type. For example, this code creates an array of three colors, loops over them all, and creates text views using each color name and color value:
 
@@ -104,7 +104,7 @@ struct ContentView: View {
 
 Using `\.self` tells Swift each item is uniquely identified using its own value. So, if you have the array `[1, 2, 3]` and identify each value by `\.self` it means the first item has the identifier 1, the second 2, and the third 3.
 
-If you have custom types in your array, you should use `id` with whatever property inside your type identifies it uniquely. For example, you could create a struct where the `id` property is a `UUID`, which mean it's guaranteed to be unique – perfect for our purposes. We could create such a struct and then use it like this:
+If you have custom types in your array, you should use `id` with whatever property inside your type identifies it uniquely. For example, you could create a struct where the `id` property is a `UUID`, which mean it's guaranteed to be unique - perfect for our purposes. We could create such a struct and then use it like this:
 
 ```swift
 struct SimpleGameResult {

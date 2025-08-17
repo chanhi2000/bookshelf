@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can write any kind of object to disk as long as it supports the `NSCoding` protocol – which includes strings, arrays, dictionaries, `UIView`, `UIColor` and more right out of the box. To write to disk, use this:
+You can write any kind of object to disk as long as it supports the `NSCoding` protocol - which includes strings, arrays, dictionaries, `UIView`, `UIColor` and more right out of the box. To write to disk, use this:
 
 ```swift
 let randomFilename = UUID().uuidString

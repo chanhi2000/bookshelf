@@ -43,7 +43,7 @@ cover: https://hackingwithswift.com/uploads/swiftui.jpg
 ---
 
 <SiteInfo
-  name="What’s new in SwiftUI for iOS 18 – Hacking with Swift"
+  name="What’s new in SwiftUI for iOS 18 - Hacking with Swift"
   desc="We got new API for colors and gradients, more scrollview improvements, tab improvements, and more."
   url="https://hackingwithswift.com/articles/270/whats-new-in-swiftui-for-ios-18"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -51,7 +51,7 @@ cover: https://hackingwithswift.com/uploads/swiftui.jpg
 
 ---
 
-This is another good year for SwiftUI, with another batch of scrollview improvements, some welcome macOS features, remarkable control over text rendering, and more – the team at Apple have a lot to be proud of, and many developers will breathe a sigh of relief as API such as fine-grained subview control is now public for all of us to use.
+This is another good year for SwiftUI, with another batch of scrollview improvements, some welcome macOS features, remarkable control over text rendering, and more - the team at Apple have a lot to be proud of, and many developers will breathe a sigh of relief as API such as fine-grained subview control is now public for all of us to use.
 
 But there's also one major architectural change you need to be aware of, so let's start with that…
 
@@ -88,7 +88,7 @@ struct ContentView: View {
 
 That would throw up "Call to main actor-isolated initializer 'init()' in a synchronous nonisolated context", which is a rather complex way of saying "your class says it must be on the main actor, but you're creating it away from the main actor."
 
-When you rebuild your code with Xcode 16 that error goes away completely, and with no work from us – it's just gone. However, it's important to know *why*. You see, the `View` protocol now looks more like this:
+When you rebuild your code with Xcode 16 that error goes away completely, and with no work from us - it's just gone. However, it's important to know *why*. You see, the `View` protocol now looks more like this:
 
 ```swift
 @MainActor protocol View {
@@ -275,7 +275,7 @@ Alongside those major features, we also received some smaller but still importan
 - [How to activate different button behaviors when a modifier key is pressed](/hackingwithswift.com/swiftui/how-to-activate-different-button-behaviors-when-a-modifier-key-is-pressed.md)
 - [How to lets users drag anywhere to move a window](/hackingwithswift.com/swiftui/how-to-lets-users-drag-anywhere-to-move-a-window.md)
 
-That `@Entry` change alone is a real delight – it makes things like environment and preference key significantly easier.
+That `@Entry` change alone is a real delight - it makes things like environment and preference key significantly easier.
 
 ---
 
@@ -283,15 +283,15 @@ That `@Entry` change alone is a real delight – it makes things like environmen
 
 We're now five years into SwiftUI, so you might expect the platform has reached maturity. However, there are a handful of omissions that continue to cause problems, and we can only hope these get addressed soon.
 
-First, we still don't have any kind of WebKit or Safari integration. While a full `WebView` might perhaps be a lot of work, even some kind of `SafariView` to match `SFSafariViewController` would be *something*. I've filed feedback, I've talked to Apple's engineers in labs, and at this point I don't know what else to do. UIKit had `UIWebView` in its very first release – what do we need to get something similar in SwiftUI?
+First, we still don't have any kind of WebKit or Safari integration. While a full `WebView` might perhaps be a lot of work, even some kind of `SafariView` to match `SFSafariViewController` would be *something*. I've filed feedback, I've talked to Apple's engineers in labs, and at this point I don't know what else to do. UIKit had `UIWebView` in its very first release - what do we need to get something similar in SwiftUI?
 
-Second, working with the keychain remains incredibly hard. This API has always been problematic, but by ignoring it SwiftUI makes the problem worse – it's trivial to use `@AppStorage`, but doing so sacrifices essential user security. Sadly, we're in a state where the wrong choice is by far the easiest to reach for.
+Second, working with the keychain remains incredibly hard. This API has always been problematic, but by ignoring it SwiftUI makes the problem worse - it's trivial to use `@AppStorage`, but doing so sacrifices essential user security. Sadly, we're in a state where the wrong choice is by far the easiest to reach for.
 
-Third, we desperately need more control over remote images. SwiftUI for iOS 15 gave us the rather surprising `AsyncImageView` – still the only API that silently swallows errors, from what I can tell – but years on we haven't acquired any ability to adjust caching, retries, and more. Some configuration API similar to `defaultAppStorage()` would make a huge difference.
+Third, we desperately need more control over remote images. SwiftUI for iOS 15 gave us the rather surprising `AsyncImageView` - still the only API that silently swallows errors, from what I can tell - but years on we haven't acquired any ability to adjust caching, retries, and more. Some configuration API similar to `defaultAppStorage()` would make a huge difference.
 
 And finally, `TextEditor` still has no rich text support. I can imagine this being an extremely complex task, not least because it's clear the SwiftUI team want their text to retain meaningful metadata rather than just being blobs of attributes. However, this missing support limits where SwiftUI can be used, and I know many apps would benefit from adding more functionality here.
 
-Those are just four ideas, and I know other folks have their own priorities. Please do continue to file feedback with Apple – I know it can feel like a bit of a black hole sometimes, but your feedback reports *are* read and discussed internally, and every time someone duplicates a request it's effectively one more vote for that feature.
+Those are just four ideas, and I know other folks have their own priorities. Please do continue to file feedback with Apple - I know it can feel like a bit of a black hole sometimes, but your feedback reports *are* read and discussed internally, and every time someone duplicates a request it's effectively one more vote for that feature.
 
-SwiftUI is by far the best way to create apps for Apple's platforms, and this release continues to stretch its lead. Once we reach feature parity with UIKit – yes, `WKWebView` and `SFSafariViewController`, but also `DataScannerViewController`, list section index titles, and pretty much everything that still needs `@UIApplicationDelegateAdaptor` – then really there's nothing holding it back.
+SwiftUI is by far the best way to create apps for Apple's platforms, and this release continues to stretch its lead. Once we reach feature parity with UIKit - yes, `WKWebView` and `SFSafariViewController`, but also `DataScannerViewController`, list section index titles, and pretty much everything that still needs `@UIApplicationDelegateAdaptor` - then really there's nothing holding it back.
 

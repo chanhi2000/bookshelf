@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/tDfZfytNSls" />
 
-You've come so far already, and really there isn't a lot to show for your work other than being able to draw glowing slice shapes when you move touches around the screen. But that's all about to change, because we're now about to create the interesting code – we're going to make the game actually create some enemies.
+You've come so far already, and really there isn't a lot to show for your work other than being able to draw glowing slice shapes when you move touches around the screen. But that's all about to change, because we're now about to create the interesting code - we're going to make the game actually create some enemies.
 
 Now, you might very well be saying, “but Paul, we just wrote the enemy creating code, and I never want to see it again!” You're right (and I never want to see it again either!) but it's a bit more complicated: the `createEnemy()` method creates one enemy as required. The code we're going to write now will call `createEnemy()` in different ways so that we get varying groups of enemies.
 

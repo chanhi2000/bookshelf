@@ -68,7 +68,7 @@ cover: https://files.realpython.com/media/Showcase-Working-with-the-Terminal_Wat
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Using the Terminal on Windows – Real Python"
+  name="[COURSE] Using the Terminal on Windows - Real Python"
   desc="In this Code Conversation video course, you'll learn how to use the terminal on Windows. You'll navigate the file system with Philipp and Ian and perform common tasks like creating files and folders. If you've never used the terminal before, then this video course will help you get started."
   url="https://realpython.com/courses/using-terminal-windows/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -851,7 +851,7 @@ How important is the terminal for your workflow as a Python developer? Are there
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Using the Terminal on Windows – Real Python"
+  name="[COURSE] Using the Terminal on Windows - Real Python"
   desc="In this Code Conversation video course, you'll learn how to use the terminal on Windows. You'll navigate the file system with Philipp and Ian and perform common tasks like creating files and folders. If you've never used the terminal before, then this video course will help you get started."
   url="https://realpython.com/courses/using-terminal-windows/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

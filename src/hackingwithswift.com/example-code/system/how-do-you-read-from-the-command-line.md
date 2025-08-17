@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ if let name = readLine() {
 print("TTFN!")
 ```
 
-When that example is run, you'll see the first `print()` message, then the program will pause until the user has entered some text and pressed return. If they entered any text at all, including an empty string, they'll see the "Hello" output. If they entered no text – try it yourself by pressing Ctrl+D to trigger an "end of file" signal – they'll get the other message. Regardless of what they press, they'll see the final "TTFN!" message before the program finishes.
+When that example is run, you'll see the first `print()` message, then the program will pause until the user has entered some text and pressed return. If they entered any text at all, including an empty string, they'll see the "Hello" output. If they entered no text - try it yourself by pressing Ctrl+D to trigger an "end of file" signal - they'll get the other message. Regardless of what they press, they'll see the final "TTFN!" message before the program finishes.
 
 It should go without saying that command-line input is not available on iOS. Maybe in iOS 15…
 

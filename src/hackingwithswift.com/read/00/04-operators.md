@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 Operators are those little symbols you learned in your very first math classes: `+` to add, `-` to subtract, `*` to multiply, `/` to divide, `=` to assign value, and so on. They all exist in Swift, along with a few extras.
 
-Let's try a few basics – please type this into your playground:
+Let's try a few basics - please type this into your playground:
 
 ```swift
 var a = 10
@@ -129,7 +129,7 @@ c < 4
 
 ![Comparing Doubles with various operators.](https://hackingwithswift.com/img/books/hws/operators-6@2x.png)
 
-That shows off greater than (`>`), greater than or equal (`>=`), and less than (`<`). In the results window you'll see true, true, false, true – these are Booleans, because the answer to each of these statements can only ever be true or false.
+That shows off greater than (`>`), greater than or equal (`>=`), and less than (`<`). In the results window you'll see true, true, false, true - these are Booleans, because the answer to each of these statements can only ever be true or false.
 
 If you want to check for equality, you can't use = because it already has a meaning: it's used to give a variable a value. So, Swift has an alternative in the form of `==`, meaning "is equal to." For example:
 
@@ -154,7 +154,7 @@ stayOutTooLate
 
 ![Flipping a Boolean with the not operator.](https://hackingwithswift.com/img/books/hws/operators-9@2x.png)
 
-That will print out true, true, false – with the last value there because it flipped the previous true.
+That will print out true, true, false - with the last value there because it flipped the previous true.
 
 You can also use `!` with `=` to make `!=` or "not equal". For example:
 

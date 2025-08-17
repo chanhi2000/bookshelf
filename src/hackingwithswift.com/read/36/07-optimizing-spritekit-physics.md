@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,11 +51,11 @@ isOriginal: false
 }
 ```
 
-If you play our game on a real device, you’ll notice a problem: whenever new rocks are created off-screen, the game freezes briefly. It’s not a lot – maybe a tenth of a second depending on your device – but it’s still enough to be noticeable. You might also notice there’s a short delay the first time the player dies – try watching the particle system and you’ll see it’s far from smooth, at least the first time.
+If you play our game on a real device, you’ll notice a problem: whenever new rocks are created off-screen, the game freezes briefly. It’s not a lot - maybe a tenth of a second depending on your device - but it’s still enough to be noticeable. You might also notice there’s a short delay the first time the player dies - try watching the particle system and you’ll see it’s far from smooth, at least the first time.
 
-Both of these are optimization problems, and both can be fixed with a small amount of thinking. I know you might be tempted to move on to the next project, but trust me – spending a little time adding extra polish is good for you!
+Both of these are optimization problems, and both can be fixed with a small amount of thinking. I know you might be tempted to move on to the next project, but trust me - spending a little time adding extra polish is good for you!
 
-The reason our game pauses when rocks are created is because SpriteKit loads the rock texture and calculates pixel-perfect collisions for it. Although it’s an implementation detail – i.e., something we shouldn’t need to think about – SpriteKit will actually cache its textures for us, so although we can and should cache our rock texture it’s not the big problem here.
+The reason our game pauses when rocks are created is because SpriteKit loads the rock texture and calculates pixel-perfect collisions for it. Although it’s an implementation detail - i.e., something we shouldn’t need to think about - SpriteKit will actually cache its textures for us, so although we can and should cache our rock texture it’s not the big problem here.
 
 Instead, it’s that pesky pixel-perfect collision calculation: scanning the rock texture to see which pixels are transparent, so SpriteKit knows which parts we can crash into.
 
@@ -85,7 +85,7 @@ bottomRock.physicsBody = rockPhysics.copy() as? SKPhysicsBody
 
 That will remove the speed bump when creating new rocks, which means our game should stay nice and smooth while playing.
 
-As for the other problem – the little speed bump when the player first dies – this is solved with another cache, this time for the player’s explosion. Even though this won’t be used in our game, this will force SpriteKit to preload the texture and keep it in memory, so it’s already there when it’s really needed.
+As for the other problem - the little speed bump when the player first dies - this is solved with another cache, this time for the player’s explosion. Even though this won’t be used in our game, this will force SpriteKit to preload the texture and keep it in memory, so it’s already there when it’s really needed.
 
 So, please add this third property now:
 

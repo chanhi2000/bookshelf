@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ Using `zip()` we can combine them together:
 let combined1 = zip(wizards1, animals1)
 ```
 
-That will produce a single sequence combining the earlier two. To avoid doing extra work, Swift actually creates a special type called `Zip2Sequence` that stores both sequences internally – this is more efficient than doing the actual joining, but it does make the output harder to read if you’re using a playground. So, if you *are* using a playground you should wrap the output from `zip()` into a new array to make its output easier to read:
+That will produce a single sequence combining the earlier two. To avoid doing extra work, Swift actually creates a special type called `Zip2Sequence` that stores both sequences internally - this is more efficient than doing the actual joining, but it does make the output harder to read if you’re using a playground. So, if you *are* using a playground you should wrap the output from `zip()` into a new array to make its output easier to read:
 
 ```swift
 let combined2 = Array(zip(wizards1, animals1))

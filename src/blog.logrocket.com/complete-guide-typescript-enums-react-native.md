@@ -87,8 +87,8 @@ An enum (short for enumeration) is a TypeScript feature that lets you define a c
 
 There are two main types of enums in TypeScript:
 
-- **Numeric enums** – Automatically assign numbers to the values
-- **String enums** – Explicitly assign custom string values
+- **Numeric enums**: Automatically assign numbers to the values
+- **String enums**: Explicitly assign custom string values
 
 Here’s how they look:
 
@@ -243,9 +243,9 @@ export default App;
 
 Here’s what you might notic; it helps keep your code organized, reduces errors, and improves readability. Below are a few key benefits:
 
-- **Enum definition** – The Routes enum lists all the valid screen names. If you ever need to change `HomeScreen` to something else, you only update it in the enum
-- **Consistency** – By referencing `Routes.Home`, you ensure the same name is used everywhere, reducing bugs
-- **Readability** – It’s easier for someone reading the code to understand what `Routes.Home` represents compared to a raw string
+- **Enum definition**: The Routes enum lists all the valid screen names. If you ever need to change `HomeScreen` to something else, you only update it in the enum
+- **Consistency**: By referencing `Routes.Home`, you ensure the same name is used everywhere, reducing bugs
+- **Readability**: It’s easier for someone reading the code to understand what `Routes.Home` represents compared to a raw string
 
 ### 2. Handling theme colors
 
@@ -300,9 +300,9 @@ export default App;
 
 The benefits of this include:
 
-- **Enum centralization** – The `Colors` enum contains all the color values used in your app. If you want to update the primary color, you do it once in the enum
-- **Dynamic styling** – The `isDarkMode` variable dynamically switches between light and dark themes, with the enum handling the logic cleanly
-- **Maintainability** – When new colors are added, you can easily extend the `Colors` enum without touching multiple components
+- **Enum centralization**: The `Colors` enum contains all the color values used in your app. If you want to update the primary color, you do it once in the enum
+- **Dynamic styling**: The `isDarkMode` variable dynamically switches between light and dark themes, with the enum handling the logic cleanly
+- **Maintainability**: When new colors are added, you can easily extend the `Colors` enum without touching multiple components
 
 ### 3. Managing application states
 
@@ -349,7 +349,7 @@ This makes form states clearer, transitions more predictable, and conditions eas
 
 - **State definition** — The FormState enum lists all possible states the form can be in
 - **Clear transitions** — Using the enum makes state transitions explicit and predictable
-- **Readable conditions** – Instead of checking `formState === 'submitting`, you check `formState === FormState.Submitting`, which is easier to understand
+- **Readable conditions** - Instead of checking `formState === 'submitting`, you check `formState === FormState.Submitting`, which is easier to understand
 
 ---
 
@@ -363,9 +363,9 @@ Rather than throwing all enums into a single file, organize them based on their 
 
 A few examples:
 
-- <FontIcon icon="iconfont icon-typescript"/>`Routes.ts` – For screen names in navigation
-- <FontIcon icon="iconfont icon-typescript"/>`Theme.ts` – For managing theme colors
-- <FontIcon icon="iconfont icon-typescript"/>`FormStates.ts` – For tracking form submission status
+- <FontIcon icon="iconfont icon-typescript"/>`Routes.ts` - For screen names in navigation
+- <FontIcon icon="iconfont icon-typescript"/>`Theme.ts` - For managing theme colors
+- <FontIcon icon="iconfont icon-typescript"/>`FormStates.ts` - For tracking form submission status
 
 Keeping enums separate prevents clutter and helps avoid unintended dependencies.
 

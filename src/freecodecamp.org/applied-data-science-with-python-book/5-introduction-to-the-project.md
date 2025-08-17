@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "5. Introduction to the Project"
-description: "Article(s) > (5/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (5/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (5/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "5. Introduction to the Project"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -97,7 +97,7 @@ You'll need a few things before you get started:
 As a developer, you know the power of data. But have you ever harnessed that power to drive real-world business outcomes? The Superstore Analytics Project is your opportunity to do just that. This chapter will help you:
 
 - **Become a Customer Insights Strategist:** Uncover the hidden motivations behind customer behavior. Using Python libraries like Pandas and Scikit-learn, you'll segment customers into actionable groups and identify opportunities for personalized marketing that truly resonates.
-- **Pioneer New Markets and Optimize Supply Chains:** Spatial analysis isn't just for maps – it's a powerful tool for identifying high-potential markets and streamlining logistics. Leverage libraries like Folium and NumPy to visualize data and guide strategic expansion decisions.
+- **Pioneer New Markets and Optimize Supply Chains:** Spatial analysis isn't just for maps - it's a powerful tool for identifying high-potential markets and streamlining logistics. Leverage libraries like Folium and NumPy to visualize data and guide strategic expansion decisions.
 - **Drive Revenue with High-Value Customer Retention:** The Pareto principle applies to customers too: a small percentage drive a large portion of revenue. Identify these VIPs through data analysis, then develop tailored strategies to maximize their lifetime value.
 - **Master the Art of Product Profitability Analysis:** Pandas and Matplotlib/Seaborn will be your allies as you dive into product sales data. Unearth top performers, uncover emerging trends, and make data-driven recommendations to optimize inventory and boost profitability.
 - **Elevate Store Performance through Location Intelligence:** GeoPandas and Plotly are your tools for unlocking insights hidden in store location data. Identify underperforming stores, benchmark against high performers, and make targeted recommendations for improvement.
@@ -130,7 +130,7 @@ This comprehensive dataset offers four years of detailed sales records from a gl
 - **Real-World Complexity:** Data mirrors the multifaceted nature of a global retail operation, offering greater realism than simulated datasets.
 - **Adaptive to Your Needs:** Supports a range of analytical techniques, from basic trend identification to sophisticated forecasting methodologies.
 
-This dataset can help you learn how to unlock valuable insights from real-world retail data – that's why we're using it here.
+This dataset can help you learn how to unlock valuable insights from real-world retail data - that's why we're using it here.
 
 ---
 

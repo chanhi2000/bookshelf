@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 Sometimes you want code to execute only if a certain condition is true, and in Swift that is represented primarily by the `if` and `else` statements. You give Swift a condition to check, then a block of code to execute if that condition is true.
 
-You can optionally also write `else` and provide a block of code to execute if the condition is false, or even `else if` and have more conditions. A "block" of code is just a chunk of code marked with an open brace – `{` – at its start and a close brace – `}` – at its end.
+You can optionally also write `else` and provide a block of code to execute if the condition is false, or even `else if` and have more conditions. A "block" of code is just a chunk of code marked with an open brace - `{` - at its start and a close brace - `}` - at its end.
 
 Here's a basic example:
 
@@ -70,7 +70,7 @@ if person == "hater" {
 
 ![Using a condition to conditionally assign a value.](https://hackingwithswift.com/img/books/hws/conditional-statements-1@2x.png)
 
-That uses the `==` (equality) operator introduced previously to check whether the string inside `person` is exactly equivalent to the string "hater". If it is, it sets the `action` variable to "hate". Note that open and close braces, also known by their less technical name of "curly brackets" – that marks the start and end of the code that will be executed if the condition is true.
+That uses the `==` (equality) operator introduced previously to check whether the string inside `person` is exactly equivalent to the string "hater". If it is, it sets the `action` variable to "hate". Note that open and close braces, also known by their less technical name of "curly brackets" - that marks the start and end of the code that will be executed if the condition is true.
 
 Let's add `else if` and `else` blocks:
 
@@ -96,7 +96,7 @@ That will check each condition in order, and only one of the blocks will be exec
 
 ## Evaluating multiple conditions
 
-You can ask Swift to evaluate as many conditions as you want, but they all need to be true in order for Swift to execute the block of code. To check multiple conditions, use the `&&` operator – it means "and". For example:
+You can ask Swift to evaluate as many conditions as you want, but they all need to be true in order for Swift to execute the block of code. To check multiple conditions, use the `&&` operator - it means "and". For example:
 
 ```swift
 var action: String
@@ -126,5 +126,5 @@ if !stayOutTooLate && !nothingInBrain {
 
 ![A conditional which checks if both conditions are false.](https://hackingwithswift.com/img/books/hws/conditional-statements-4@2x.png)
 
-This time, the `action` variable will only be set if both `stayOutTooLate` and `nothingInBrain` are false – the `!` has flipped them around.
+This time, the `action` variable will only be set if both `stayOutTooLate` and `nothingInBrain` are false - the `!` has flipped them around.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 The `override` is used when you want to write your own method to replace an existing one in a parent class. It's used commonly when you're working with `UIViewControllers`, because view controllers already come with lots of methods like `viewDidLoad()` and `viewWillAppear()`. When you want to override these default methods, you need to specify this with the `override` keyword.
 
-Now, you might be wondering why the `override` keyword is even needed, but it's really about ensuring your code is safe – if you write a method and accidentally name it the same as something that already exists, Xcode will simply refuse to build your app until you add in the `override` keyword. Similarly, if you use `override` on a method that doesn't override something that already exists, Xcode will refuse to build.
+Now, you might be wondering why the `override` keyword is even needed, but it's really about ensuring your code is safe - if you write a method and accidentally name it the same as something that already exists, Xcode will simply refuse to build your app until you add in the `override` keyword. Similarly, if you use `override` on a method that doesn't override something that already exists, Xcode will refuse to build.
 
 -->
 

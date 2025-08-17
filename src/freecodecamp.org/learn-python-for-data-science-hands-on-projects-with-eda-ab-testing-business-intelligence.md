@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
-description: Article(s) > Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
+title: Learn Python for Data Science - Hands-on Projects with EDA, AB Testing & Business Intelligence
+description: Article(s) > Learn Python for Data Science - Hands-on Projects with EDA, AB Testing & Business Intelligence
 icon: fa-brands fa-python
 category: 
   - Python
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
+      content: Article(s) > Learn Python for Data Science - Hands-on Projects with EDA, AB Testing & Business Intelligence
     - property: og:description
-      content: Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence
+      content: Learn Python for Data Science - Hands-on Projects with EDA, AB Testing & Business Intelligence
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence.html
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718118785701/723c13b
 ---
 
 <SiteInfo
-  name="Learn Python for Data Science – Hands-on Projects with EDA, AB Testing & Business Intelligence"
+  name="Learn Python for Data Science - Hands-on Projects with EDA, AB Testing & Business Intelligence"
   desc="Data science skills are increasingly in-demand. We just published a hands-son data science with Python course on the freeCodeCamp.org YouTube channel. This comprehensive, 5.5+ hour course is designed to provide aspiring data scientists with essential..."
   url="https://freecodecamp.org/news/learn-python-for-data-science-hands-on-projects-with-eda-ab-testing-business-intelligence/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

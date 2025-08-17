@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 iOS notifications are a simple and powerful way to send data in a loosely coupled way. That is, the sender of a notification doesn't have to care about who (if anyone) receives the notification, it just posts it out there to the rest of the app and it could be picked up by lots of things or nothing depending on your app's state.
 
-As a basic example, you might want various parts of your app to do some work when the user logs in – you might want some views to refresh, you might want a database to update itself, and so on. To do this, just post a notification name like this:
+As a basic example, you might want various parts of your app to do some work when the user logs in - you might want some views to refresh, you might want a database to update itself, and so on. To do this, just post a notification name like this:
 
 ```swift
 let nc = NotificationCenter.default

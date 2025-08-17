@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ When your app launches you should clear the `effect` property of your visual eff
 visualEffectView.effect = nil
 ```
 
-When you want the blur to animate in – i.e., when you’re ready to show information on top – just set that `effect` property to a new instance of `UIBlurEffect` inside an animation block, like this:
+When you want the blur to animate in - i.e., when you’re ready to show information on top - just set that `effect` property to a new instance of `UIBlurEffect` inside an animation block, like this:
 
 ```swift
 UIView.animate(withDuration: 5) {

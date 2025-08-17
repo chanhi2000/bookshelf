@@ -99,7 +99,7 @@ struct AuthorsView: View {
 }
 ```
 
-As you can see, SwiftData automatically provides us with the director names property, even though that's provided through a relationship. SwiftData loads these relationships lazily – if there's a relationship you don't use, it won't be fetched.
+As you can see, SwiftData automatically provides us with the director names property, even though that's provided through a relationship. SwiftData loads these relationships lazily - if there's a relationship you don't use, it won't be fetched.
 
 ::: important:
 

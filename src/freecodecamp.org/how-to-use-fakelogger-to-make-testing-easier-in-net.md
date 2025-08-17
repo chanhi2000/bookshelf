@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739486043718/2d1e633
 
 <SiteInfo
   name="How to Use FakeLogger to Make Testing Easier In .Net"
-  desc="When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, No problem, I'll just mock ILogger using my favourite mocking library – for example Moq, NSubstitute, or F..."
+  desc="When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, No problem, I'll just mock ILogger using my favourite mocking library - for example Moq, NSubstitute, or F..."
   url="https://freecodecamp.org/news/how-to-use-fakelogger-to-make-testing-easier-in-net"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1739486043718/2d1e6339-fb93-4719-a89a-5b29e30c2bfc.png"/>
 
-When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, *No problem, I'll just mock* `ILogger` using my favourite mocking library – for example Moq, NSubstitute, or FakeItEasy.
+When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, *No problem, I'll just mock* `ILogger` using my favourite mocking library - for example Moq, NSubstitute, or FakeItEasy.
 
 While `ILogger` itself is an interface and can be mocked, many of its commonly used logging methods (like `LogInformation()`, `LogError()`, and so on) are what’s called static or extension methods. Since static and extension methods can't be mocked directly, you often need a custom abstraction layer (LoggingService) or a decorator to pass to various other methods or services.
 
@@ -141,7 +141,7 @@ public class Product
 
 ## How to Test the Logging Functionality
 
-Like most aspects of coding, there are multiple ways to achieve this. The recommended approach is to mock the logger and assert against the mocked logger object rather than a concrete instance. This allows for controlled, isolated, and verifiable tests without relying on external dependencies or real logging behaviour – meaning cleaner and more maintainable tests.
+Like most aspects of coding, there are multiple ways to achieve this. The recommended approach is to mock the logger and assert against the mocked logger object rather than a concrete instance. This allows for controlled, isolated, and verifiable tests without relying on external dependencies or real logging behaviour - meaning cleaner and more maintainable tests.
 
 You can do this using your preferred mocking library, such as **Moq, FakeItEasy, or NSubstitute**. You can learn more about these libraries and how to mock successfully in another tutorial I wrote, which you can find [**here**](https://freecodecamp.org/explore-mocking-in-net.md).
 
@@ -549,7 +549,7 @@ public void AllMessages_Should_BeSentInAnyOrder()
 
 Here, we can utilise the power of LINQ and FluentAssertions to `Select` each message stored within the `Collector` property, and then assert that the array of messages can `IntersectWith` the expected messages.
 
-The `IntersectWith` method asserts that the collection shares one or more items with the provided collection, a perfect fit for this kind of scenario where we don’t care about the order of logged messages – only that at some point they are logged.
+The `IntersectWith` method asserts that the collection shares one or more items with the provided collection, a perfect fit for this kind of scenario where we don’t care about the order of logged messages - only that at some point they are logged.
 
 ---
 
@@ -567,7 +567,7 @@ Hope you found this helpful! If you want to chat more, feel free to reach out on
 ```component VPCard
 {
   "title": "How to Use FakeLogger to Make Testing Easier In .Net",
-  "desc": "When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, No problem, I'll just mock ILogger using my favourite mocking library – for example Moq, NSubstitute, or F...",
+  "desc": "When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, No problem, I'll just mock ILogger using my favourite mocking library - for example Moq, NSubstitute, or F...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-fakelogger-to-make-testing-easier-in-net.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

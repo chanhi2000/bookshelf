@@ -170,7 +170,7 @@ You will use the `npx create-mf-app` starter command to initiate your server wit
 
 ![Server-Side Setup](https://freecodecamp.org/news/content/images/2024/07/sever-side-x2.png)
 
-You may get errors stating that you don't have Express or other libraries installed. Don't worry – you'll install every required library shortly.
+You may get errors stating that you don't have Express or other libraries installed. Don't worry - you'll install every required library shortly.
 
 After creating the server, let's make the client using React and the same command in the same <FontIcon icon="fas fa-folder-open"/>`trpclibrary` directory.
 

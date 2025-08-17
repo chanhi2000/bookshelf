@@ -52,7 +52,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Older Swift code uses completion handlers for notifying us when some work has completed, and sooner or later you’re going to have to use it from an `async` function – either because you’re using a library someone else created, or because it’s one of your own functions but updating it to async would take a lot of work.
+Older Swift code uses completion handlers for notifying us when some work has completed, and sooner or later you’re going to have to use it from an `async` function - either because you’re using a library someone else created, or because it’s one of your own functions but updating it to async would take a lot of work.
 
 Swift uses *continuations* to solve this problem, allowing us to create a bridge between older functions with completion handlers and newer async code.
 
@@ -125,9 +125,9 @@ print("Downloaded \(messages.count) messages.")
 
 As you can see, starting a continuation is done using the `withCheckedContinuation()` function, which passes into itself the continuation we need to work with. It’s called a “checked” continuation because Swift checks that we’re using the continuation correctly, which means abiding by one very simple, very important rule:
 
-**Your continuation must be resumed exactly once. Not zero times, and not twice or more times – exactly once.how-to-create-continuations-that-can-throw-errors
+**Your continuation must be resumed exactly once. Not zero times, and not twice or more times - exactly once.how-to-create-continuations-that-can-throw-errors
 
-If you call the checked continuation twice or more, Swift will cause your program to halt – it will just crash. I realize this sounds bad, but when the alternative is to have some bizarre, unpredictable behavior, crashing doesn’t sound so bad.
+If you call the checked continuation twice or more, Swift will cause your program to halt - it will just crash. I realize this sounds bad, but when the alternative is to have some bizarre, unpredictable behavior, crashing doesn’t sound so bad.
 
 On the other hand, if you fail to resume the continuation at all, Swift will print out a large warning in your debug log similar to this: “SWIFT TASK CONTINUATION MISUSE: fetchMessages() leaked its continuation!” This is because you’re leaving the task suspended, causing any resources it’s using to be held indefinitely.
 
@@ -169,7 +169,7 @@ let messages = await fetchMessages()
 print("Downloaded \(messages.count) messages.")
 ```
 
-That checks for data coming back, and checks that it can be decoded correctly, before completing and returning, but if either of those two checks fail then the completion handler is called with an empty array – no matter what happens, the completion handler gets called.
+That checks for data coming back, and checks that it can be decoded correctly, before completing and returning, but if either of those two checks fail then the completion handler is called with an empty array - no matter what happens, the completion handler gets called.
 
 But what if we had written something different? See if you can spot the problem with this alternative: 
 

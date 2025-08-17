@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIClolr - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uicolor/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -78,7 +78,7 @@ let col4 = UIColor(hue: 0.5, saturation: 0.66, brightness: 0.66, alpha: 1)
 let col5 = UIColor(hue: 0.75, saturation: 0.66, brightness: 0.66, alpha: 1)
 ```
 
-The advantage to using HSB rather than RGB is that you can generate very similar colors by keeping the saturation and brightness constant and changing only the hue – the code above generates some nice pastel shades of red, green, cyan and magenta, for example.
+The advantage to using HSB rather than RGB is that you can generate very similar colors by keeping the saturation and brightness constant and changing only the hue - the code above generates some nice pastel shades of red, green, cyan and magenta, for example.
 
 -->
 

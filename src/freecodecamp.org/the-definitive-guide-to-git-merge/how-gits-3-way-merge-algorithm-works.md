@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How Git's 3-way Merge Algorithm Works"
-description: "Article(s) > (7/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (7/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (7/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (7/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "How Git's 3-way Merge Algorithm Works"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-how-gits-3-way-merge-algorithm-works"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -56,7 +56,7 @@ git reset --hard
 
 You have now three versions: the merge base, which is "Commit 10", Paul's branch, and John's branch. In general terms, we can say these are the `merge base`, `commit A` and `commit B`. Notice that the `merge base` is by definition an ancestor of both `commit A` and `commit B`.
 
-To perform the merge, Git looks at the diff between the three different versions of the file in question on these three revisions. In your case, it's the file <FontIcon icon="fa-brands fa-markdown"/>`everyone.md`, and the revisions are "Commit 10", Paul's branch – that is, "Commit 11", and John's branch, that is, "Commit 12".
+To perform the merge, Git looks at the diff between the three different versions of the file in question on these three revisions. In your case, it's the file <FontIcon icon="fa-brands fa-markdown"/>`everyone.md`, and the revisions are "Commit 10", Paul's branch - that is, "Commit 11", and John's branch, that is, "Commit 12".
 
 Git makes the merging decision based on the status of each line in each of these versions.
 
@@ -76,15 +76,15 @@ In general, if the state of the merge base is the same as `A`, the algorithm goe
 
 ![If the state of the merge base is the same as `A`, and this state is different from `B`, the algorithm goes with `B`<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-353.png)
 
-Next, you can see lines where all three versions agree – they exist on the merge base, `A` and `B`, with equal data.
+Next, you can see lines where all three versions agree - they exist on the merge base, `A` and `B`, with equal data.
 
 ![Lines where all three versions agree<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-294.png)
 
-So the algorithm has a trivial choice – just take that version.
+So the algorithm has a trivial choice - just take that version.
 
 ![In case all three versions agree, the algorithm goes with that single version<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-355.png)
 
-In a previous example, we saw that if the merge base and `A` agree, and `B`'s version is different, the algorithm picks `B`. This works in the other direction too – for example, here you have a line that exists on John's branch, different than that on the merge base and Paul's branch.
+In a previous example, we saw that if the merge base and `A` agree, and `B`'s version is different, the algorithm picks `B`. This works in the other direction too - for example, here you have a line that exists on John's branch, different than that on the merge base and Paul's branch.
 
 ![A line where Paul's version matches the merge base's version, and John has a different version<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-296.png)
 
@@ -92,7 +92,7 @@ Hence, John's version is chosen.
 
 ![If the state of the merge base is the same as `B`, and this state is different from `A`, the algorithm goes with `A`<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-354.png)
 
-Now consider another case, where both `A` and `B` agree on a line, but the value they agree upon is different from the `merge base` – both John and Paul agreed to change the line "Everyone put their feet down" to "Everyone put their foot down":
+Now consider another case, where both `A` and `B` agree on a line, but the value they agree upon is different from the `merge base` - both John and Paul agreed to change the line "Everyone put their feet down" to "Everyone put their foot down":
 
 ![A line where Paul's version matches the John's version; yet the merge base has a different version<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-297.png)
 
@@ -100,7 +100,7 @@ In this case, the algorithm picks the version on both `A` and `B`.
 
 ![In case `A` and `B` agree on a version which is different from the merge base's version, the algorithm picks the version on both `A` and `B`<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-352.png)
 
-Notice this is not a democratic vote. In the previous case, the algorithm picked the minority version, as it resembled the newest version of this line. In this case, it *happens to* pick the majority – but only because `A` and `B` are the revisions that agree on the new version.
+Notice this is not a democratic vote. In the previous case, the algorithm picked the minority version, as it resembled the newest version of this line. In this case, it *happens to* pick the majority - but only because `A` and `B` are the revisions that agree on the new version.
 
 The same would happen if we used `git merge`:
 

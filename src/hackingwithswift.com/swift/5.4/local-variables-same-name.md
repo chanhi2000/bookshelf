@@ -77,7 +77,7 @@ let table = Table()
 table.printRows()
 ```
 
-That kind of usage is only allowed from Swift 5.4 and later. In earlier versions of Swift, it would create a circular reference because Swift couldn’t distinguish between the local `color` constant and the `color(forRow:)` method it was calling – you would have seen the error “Variable used within its own initial value”.
+That kind of usage is only allowed from Swift 5.4 and later. In earlier versions of Swift, it would create a circular reference because Swift couldn’t distinguish between the local `color` constant and the `color(forRow:)` method it was calling - you would have seen the error “Variable used within its own initial value”.
 
 This usually resulted in us either using `self.color(forRow: 1989)` to make it clear we mean the method call, or just naming the local value something else such as `colorForRow`.
 

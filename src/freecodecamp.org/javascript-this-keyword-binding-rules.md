@@ -204,7 +204,7 @@ Here we have passed multiple arguments to the `call()` method. The first argumen
 
 Here I am passing *Swimming* and *Blogging* as two parameters to the `getName()` function.
 
-Did you notice a pain point here? In case of a `call()`, the arguments need to be passed one by one – which is not a smart way of doing things! That's where our next method, `apply()`, comes into the picture.
+Did you notice a pain point here? In case of a `call()`, the arguments need to be passed one by one - which is not a smart way of doing things! That's where our next method, `apply()`, comes into the picture.
 
 ### How the JavaScript `apply()` Method Works
 

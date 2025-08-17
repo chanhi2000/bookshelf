@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,9 +61,9 @@ isOriginal: false
 <!-- 
 When you place a regular breakpoint on a line of code, Xcode will pause at that point when it’s reached. However, sometimes you need something a little more fine-grained: perhaps you want the breakpoint to be ignored the first few times it’s hit, or perhaps you want execution to be paused only when a certain condition is true.
 
-Xcode has conditional breakpoints just for this purpose: when you place a breakpoint you can right-click on it and choose “Edit Breakpoint” to see customization options. Try changing the Ignore value from 0 to 10, which will make the line hit repeatedly until finally execution pauses; or try adding a condition inside the Condition field – `myVar == 10` for example, which will pause only when `myVar` equals 10.
+Xcode has conditional breakpoints just for this purpose: when you place a breakpoint you can right-click on it and choose “Edit Breakpoint” to see customization options. Try changing the Ignore value from 0 to 10, which will make the line hit repeatedly until finally execution pauses; or try adding a condition inside the Condition field - `myVar == 10` for example, which will pause only when `myVar` equals 10.
 
-Conditional breakpoints look slightly different from regular breakpoints – look for the white arrow tip inside the main blue breakpoint arrow.
+Conditional breakpoints look slightly different from regular breakpoints - look for the white arrow tip inside the main blue breakpoint arrow.
 
 -->
 

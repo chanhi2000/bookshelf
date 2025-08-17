@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724012658962/2e754dc
 
 <SiteInfo
   name="How to Effectively Manage Unique Identifiers at Scale: From GUIDs to Snowflake IDs and Other Modern Solutions"
-  desc="What Are Unique Identifiers? 🪪 Unique identifiers (UIDs) are crucial components in software engineering and data management. They serve as distinct references for entities within a system and ensure that each item – whether a database record, a user..."
+  desc="What Are Unique Identifiers? 🪪 Unique identifiers (UIDs) are crucial components in software engineering and data management. They serve as distinct references for entities within a system and ensure that each item - whether a database record, a user..."
   url="https://freecodecamp.org/news/how-to-effectively-manage-unique-identifiers-at-scale/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1724012658962/2e754dc4-248a-4a2b-8819-993514474a22.jpeg"/>

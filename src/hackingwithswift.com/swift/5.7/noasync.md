@@ -90,7 +90,7 @@ func sneakyCaller() async {
 
 That runs in an async context, but calls a *synchronous* function, which can in turn call the `noasync` function `doRiskyWork()`.
 
-So, `noasync` is an improvement, but you still need to be careful when using it. Fortunately, as the Swift Evolution proposal says, “the attribute is expected to be used for a fairly limited set of specialized use-cases” – there’s a good chance you might never come across code that uses it.
+So, `noasync` is an improvement, but you still need to be careful when using it. Fortunately, as the Swift Evolution proposal says, “the attribute is expected to be used for a fairly limited set of specialized use-cases” - there’s a good chance you might never come across code that uses it.
 
 ::: details Other Changes in Swift 5.7
 

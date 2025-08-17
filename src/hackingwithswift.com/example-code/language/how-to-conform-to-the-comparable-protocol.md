@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-The `Comparable` protocol allows use to use the `<`, `>`, `<=`, and `>=` operators with conforming data types, which in turn means that Swift knows how to sort arrays of those types. Most of Swift’s built-in types support `Comparable` out of the box, but if you want your own type to conform to them then you need to implement `<` – from that Swift can provide default implementations of the other three operators.
+The `Comparable` protocol allows use to use the `<`, `>`, `<=`, and `>=` operators with conforming data types, which in turn means that Swift knows how to sort arrays of those types. Most of Swift’s built-in types support `Comparable` out of the box, but if you want your own type to conform to them then you need to implement `<` - from that Swift can provide default implementations of the other three operators.
 
 The `<` function needs to accept two instances of your type, one of the left-hand side and one on the right, and return true if the left-hand object should be ordered before the right-hand object.
 

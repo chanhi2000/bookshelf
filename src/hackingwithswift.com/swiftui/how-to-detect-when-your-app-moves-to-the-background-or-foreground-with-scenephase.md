@@ -91,7 +91,7 @@ As you can see, there are three states:
 
 1. The Active state is used when your app is in the foreground and interactive for the user, meaning that they are using it right now.
 2. The Background state is used when your app isn't currently visible, so you should cut back the amount of work you do.
-3. The Inactive state is used when your app is visible, but not directly interactive to the user. For example, if you enter multi-tasking mode while running the app – you can see your app's window alongside others, but you're not directly using it.
+3. The Inactive state is used when your app is visible, but not directly interactive to the user. For example, if you enter multi-tasking mode while running the app - you can see your app's window alongside others, but you're not directly using it.
 
 ::: details Similar solutions…
 

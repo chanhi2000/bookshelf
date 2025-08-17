@@ -61,7 +61,7 @@ The problem happens because SwiftData doesn't have the concept of a child contex
 
 ::: tip
 
-This solution works, but I've found it causes SwiftUI to screw up its list deselection animation when returning to the parent view – the row you were editing stays highlighted. I have yet to find a workaround for this, so if you have a better idea please let me know!
+This solution works, but I've found it causes SwiftUI to screw up its list deselection animation when returning to the parent view - the row you were editing stays highlighted. I have yet to find a workaround for this, so if you have a better idea please let me know!
 
 :::
 
@@ -140,7 +140,7 @@ struct EditingView: View {
 }
 ```
 
-As you can see, that exits the view without saving when "Discard" is pressed, which means all the local edits to the object aren't synchronized with the original context – they just get tossed away, because the local context is discarded without saving.
+As you can see, that exits the view without saving when "Discard" is pressed, which means all the local edits to the object aren't synchronized with the original context - they just get tossed away, because the local context is discarded without saving.
 
 In my various projects I've found this to be the simplest way of handling discardable editing of SwiftData objects, but if you have a better solution I'd love to hear it!
 

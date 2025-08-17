@@ -110,20 +110,20 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 This course provides a structured approach to building an AI chat app from scratch. Here’s what you’ll cover:
 
-- **Introduction** – Get an overview of the project and the technologies used.
-- **npm init** – Set up the Node.js project with the necessary dependencies.
-- **Backend Folder** – Organize the backend structure for efficient development.
-- **MongoDB Integration** – Learn how to connect and manage data with MongoDB.
-- **OpenAI Tokens** – Set up and securely manage API keys for ChatGPT integration.
-- **MongoDB Issues** – Troubleshoot common database connection issues.
-- **chat.js File** – Build the core chat logic to process and respond to user messages.
-- **.env File** – Manage environment variables to keep sensitive data secure.
-- **Frontend Folder** – Set up the React frontend for user interaction.
-- **Testing Endpoints** – Ensure your backend API is working correctly.
-- **Hugging Face Models** – Integrate AI models from Hugging Face for enhanced functionality.
-- **Response Handling** – Manage and format AI-generated responses.
-- **DeepSeek R1 Model** – Incorporate the DeepSeek R1 model for additional AI capabilities.
-- **Results** – Test and refine your AI chat application.
+- **Introduction** - Get an overview of the project and the technologies used.
+- **npm init** - Set up the Node.js project with the necessary dependencies.
+- **Backend Folder** - Organize the backend structure for efficient development.
+- **MongoDB Integration** - Learn how to connect and manage data with MongoDB.
+- **OpenAI Tokens** - Set up and securely manage API keys for ChatGPT integration.
+- **MongoDB Issues** - Troubleshoot common database connection issues.
+- **chat.js File** - Build the core chat logic to process and respond to user messages.
+- **.env File** - Manage environment variables to keep sensitive data secure.
+- **Frontend Folder** - Set up the React frontend for user interaction.
+- **Testing Endpoints** - Ensure your backend API is working correctly.
+- **Hugging Face Models** - Integrate AI models from Hugging Face for enhanced functionality.
+- **Response Handling** - Manage and format AI-generated responses.
+- **DeepSeek R1 Model** - Incorporate the DeepSeek R1 model for additional AI capabilities.
+- **Results** - Test and refine your AI chat application.
 
 :::
 

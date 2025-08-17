@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -101,7 +101,7 @@ If you’re using Xcode 13 or later, you can use double backticks to produce lin
 <source srcset="/img/sponsors/essentialdeveloper-dark.svg" media="(prefers-color-scheme: dark)">
 <img alt="Hacking with Swift is sponsored by Essential Developer." src="/img/sponsors/essentialdeveloper-light.svg">
 </picture>
-<strong class="badge badge-danger">SPONSORED** Join a FREE crash course for mid/senior iOS devs who want to achieve an expert level of technical and practical skills – it’s the fast track to being a complete senior developer! Hurry up because it'll be available only until September 29th.
+<strong class="badge badge-danger">SPONSORED** Join a FREE crash course for mid/senior iOS devs who want to achieve an expert level of technical and practical skills - it’s the fast track to being a complete senior developer! Hurry up because it'll be available only until September 29th.
 
 <p class="text-right"><a href="https://iosacademy.essentialdeveloper.com/p/ios-architect-crash-course-hwsfb5d/" class="btn btn-info" style="border-radius: 10px; text-decoration: none; margin-bottom: 0; font-weight: bold;">Click to save your spot</a>
 

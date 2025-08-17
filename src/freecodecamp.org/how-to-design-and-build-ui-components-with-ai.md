@@ -283,7 +283,7 @@ We tell Cody:
 
 - What we want (a React component)
 - A brief description of how that component behaves/what it does (container for to-dos)
-- Any additional context – stylesheets, preferences, conventions, or anything else.
+- Any additional context - stylesheets, preferences, conventions, or anything else.
 
 ```jsx title="src/components/TodoContainer.jsx"
 import React from 'react';

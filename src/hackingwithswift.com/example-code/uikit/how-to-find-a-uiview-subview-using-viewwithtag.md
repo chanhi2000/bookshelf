@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-If you need a quick way to get hold of a view inside a complicated view hierarchy, you're looking for `viewWithTag()` – give it the tag to find and a view to search from, and this method will search all subviews, and all sub-subviews, and so on, until it finds a view with the matching tag number. The method returns an optional `UIView` because it might not find a view with that tag, so unwrap it carefully.
+If you need a quick way to get hold of a view inside a complicated view hierarchy, you're looking for `viewWithTag()` - give it the tag to find and a view to search from, and this method will search all subviews, and all sub-subviews, and so on, until it finds a view with the matching tag number. The method returns an optional `UIView` because it might not find a view with that tag, so unwrap it carefully.
 
 Here's an example:
 
@@ -73,9 +73,9 @@ Easy to remember tags such as `0xDEADBEEF` are quite common amongst coders.
 
 NB: Extensive use of `viewWithTag()` is a sign of poor code structure. It's good for the occasional shortcut, but really shouldn't be relied on for serious development.
 
-You see, if you use `viewWithTag()` to find some specific nested view then you’re effectively saying “there's a view that I have given a magic number to, and it's definitely a `UIImageView` (for example), so please find it and use it.” This means you're bypassing all the safety of the Swift compiler: that number might change or be removed, or the view in question might change type or be removed – and neither of those would cause problems or get caught.
+You see, if you use `viewWithTag()` to find some specific nested view then you’re effectively saying “there's a view that I have given a magic number to, and it's definitely a `UIImageView` (for example), so please find it and use it.” This means you're bypassing all the safety of the Swift compiler: that number might change or be removed, or the view in question might change type or be removed - and neither of those would cause problems or get caught.
 
-If you use `viewWithTag()` rarely then it's fine, but if you find yourself doing it a lot then really you should be thinking about an alternative – making a custom subclass for your table view cell, for example.
+If you use `viewWithTag()` rarely then it's fine, but if you find yourself doing it a lot then really you should be thinking about an alternative - making a custom subclass for your table view cell, for example.
 
 -->
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 At this point you have a working project: you can press <kbd>Cmd</kbd>+<kbd>R</kbd> to run it, flick through the images in the table, then tap one to view it. But before this project is complete, there are several other small changes we're going to make that makes the end result a little more polished.
 
-First, you might have noticed that all the images are being stretched to fit the screen. This isn't an accident – it's the default setting of `UIImageView`.
+First, you might have noticed that all the images are being stretched to fit the screen. This isn't an accident - it's the default setting of `UIImageView`.
 
 This takes just a few clicks to fix: choose <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, select the image view in the detail view controller, then choose the attributes inspector. This is in the right-hand pane, near the top, and is the fourth of six inspectors, just to the left of the ruler icon.
 
@@ -96,9 +96,9 @@ If you run the app now, you'll see that you can tap to see a picture full size, 
 
 The third change is a small but important one. If you look at other apps that use table views and navigation controllers to display screens (again, Settings is great for this), you might notice gray arrows at the right of the table view cells. This is called a disclosure indicator, and it’s a subtle user interface hint that tapping this row will show more information.
 
-It only takes a few clicks in Interface Builder to get this disclosure arrow in our table view. Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then click on the table view cell – that’s the one that says “Title”, directly below “Prototype Cells”. The table view contains a cell, the cell contains a content view, and the content view contains a label called “Title” so it’s easy to select the wrong thing. As a result, you’re likely to find it easiest to use the document outline to select exactly the right thing – you want to select the thing marked “Picture”, which is the reuse identifier we attached to our table view cell.
+It only takes a few clicks in Interface Builder to get this disclosure arrow in our table view. Open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then click on the table view cell - that’s the one that says “Title”, directly below “Prototype Cells”. The table view contains a cell, the cell contains a content view, and the content view contains a label called “Title” so it’s easy to select the wrong thing. As a result, you’re likely to find it easiest to use the document outline to select exactly the right thing - you want to select the thing marked “Picture”, which is the reuse identifier we attached to our table view cell.
 
-When that’s selected, you should be able go to the attributes inspector and see “Style: Basic”, “Identifier: Picture”, and so on. You will also see “Accessory: None” – please change that to “Disclosure Indicator”, which will cause the gray arrow to show.
+When that’s selected, you should be able go to the attributes inspector and see “Style: Basic”, “Identifier: Picture”, and so on. You will also see “Accessory: None” - please change that to “Disclosure Indicator”, which will cause the gray arrow to show.
 
 The fourth is small but important: we’re going to place some text in the gray bar at the top. You’ve already seen that view controllers have `storyboard` and `navigationController` properties that we get from `UIViewController`. Well, they also have a `title` property that automatically gets read by navigation controller: if you provide this title, it will be displayed in the gray navigation bar at the top.
 
@@ -124,7 +124,7 @@ Add this to `viewDidLoad()` in `DetailViewController`:
 title = selectedImage
 ```
 
-We don’t need to unwrap `selectedImage` here because both `selectedImage` and `title` are optional strings – we’re assigning one optional string to another. `title` is optional because it’s nil by default: view controllers have no title, thus showing no text in the navigation bar.
+We don’t need to unwrap `selectedImage` here because both `selectedImage` and `title` are optional strings - we’re assigning one optional string to another. `title` is optional because it’s nil by default: view controllers have no title, thus showing no text in the navigation bar.
 
 ---
 
@@ -132,7 +132,7 @@ We don’t need to unwrap `selectedImage` here because both `selectedImage` and 
 
 This is an entirely optional change, but I wanted to introduce it to you nice and early so you can try it for yourself and see what you think.
 
-One of Apple’s design guidelines is the use of *large titles* – the text that appears in the gray bar at the top of apps. The default style is small text, which is what we’ve had so far, but with a couple of lines of code we can adopt the new design.
+One of Apple’s design guidelines is the use of *large titles* - the text that appears in the gray bar at the top of apps. The default style is small text, which is what we’ve had so far, but with a couple of lines of code we can adopt the new design.
 
 First, add this to `viewDidLoad()` in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
@@ -140,7 +140,7 @@ First, add this to `viewDidLoad()` in <FontIcon icon="fa-brands fa-swift"/>`View
 navigationController?.navigationBar.prefersLargeTitles = true
 ```
 
-That enables large titles across our app, and you’ll see an immediate difference: “Storm Viewer” becomes much bigger, and in the detail view controller all the image titles are also big. You’ll notice the title is no longer static either – if you pull down gently you’ll see it stretches ever so slightly, and if you try scrolling up in our table view you’ll see the titles shrinks away.
+That enables large titles across our app, and you’ll see an immediate difference: “Storm Viewer” becomes much bigger, and in the detail view controller all the image titles are also big. You’ll notice the title is no longer static either - if you pull down gently you’ll see it stretches ever so slightly, and if you try scrolling up in our table view you’ll see the titles shrinks away.
 
 Apple recommends you use large titles only when it makes sense, and that usually means only on the first screen of your app. As you’ve seen, the default behavior when enabled is to have large titles everywhere, but that’s because each new view controller that pushed onto the navigation controller stack inherits the style of its predecessor.
 
@@ -150,5 +150,5 @@ In this app we want “Storm Viewer” to appear big, but the detail screen to l
 navigationItem.largeTitleDisplayMode = .never
 ```
 
-That’s all it takes – the large titles should behave properly now.
+That’s all it takes - the large titles should behave properly now.
 

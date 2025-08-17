@@ -78,7 +78,7 @@ To use ts-migrate-mongoose for database migrations, you need to have the followi
 
 1. A Node.js project with mongoose installed as a dependency.
 2. A MongoDB database connected to the project.
-3. MongoDB Compass (Optional – to enable us view the changes in the database).
+3. MongoDB Compass (Optional - to enable us view the changes in the database).
 
 A starter repository which can be cloned from [<FontIcon icon="iconfont icon-github"/>`orimdominic/ts-migrate-mongoose-starter-repo`](https://github.com/orimdominic/ts-migrate-mongoose-starter-repo) has been created for ease. Clone the repository, fill the environment variables and start the application by running the `npm start` command.
 

@@ -53,6 +53,26 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750883709276/9a8aeb7
 }
 ```
 
+```component VPCard
+{
+  "title": "Express.js > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/js-express/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "GraphQL > Article(s)",
+  "desc": "Article(s)",
+  "link": "/data-science/graphql/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---

@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723804956795/2dbd964
 
 <SiteInfo
   name="How to Read and Write Files with Node.js"
-  desc="Node.js is a powerful JavaScript runtime environment that lets you run JS code outside the browser. And a fundamental part of many Node.js applications involves reading and writing files – whether that's text, JSON, HTML, or other file formats. So yo..."
+  desc="Node.js is a powerful JavaScript runtime environment that lets you run JS code outside the browser. And a fundamental part of many Node.js applications involves reading and writing files - whether that's text, JSON, HTML, or other file formats. So yo..."
   url="https://freecodecamp.org/news/how-to-read-and-write-files-with-nodejs/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1723804956795/2dbd964a-00c3-4489-819a-393b058ed1fd.png"/>

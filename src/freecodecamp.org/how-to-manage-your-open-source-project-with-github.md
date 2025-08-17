@@ -251,7 +251,7 @@ I've written other article related to GitHub, and you can check them out here:
 
 ```component VPCard
 {
-  "title": "Learn GitHub-Flavored Markdown Syntax and Formatting – With Examples",
+  "title": "Learn GitHub-Flavored Markdown Syntax and Formatting - With Examples",
   "desc": "Markdown is a lightweight, open-source, easy-to-read and easy-to-write method of formatting text that you can use as plain text in any IDE or editor. When writing on GitHub, you can use Markdown syntax and HTML elements to extend Markdown's functiona...",
   "link": "/freecodecamp.org/github-flavored-markdown-syntax-examples.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

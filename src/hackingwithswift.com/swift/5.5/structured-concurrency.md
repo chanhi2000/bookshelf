@@ -54,7 +54,7 @@ author:
 
 [SE-0304 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md) introduced a whole range of approaches to execute, cancel, and monitor concurrent operations in Swift, and builds upon the work introduced by async/await and async sequences.
 
-For easier demonstration purposes, here are a couple of example functions we can work with – an async function to simulate fetching a certain number of weather readings for a particular location, and a synchronous function to calculate which number lies at a particular position in the Fibonacci sequence:
+For easier demonstration purposes, here are a couple of example functions we can work with - an async function to simulate fetching a certain number of weather readings for a particular location, and a synchronous function to calculate which number lies at a particular position in the Fibonacci sequence:
 
 ```swift
 enum LocationError: Error {
@@ -140,7 +140,7 @@ Our task's operation is a non-escaping closure because the task immediately runs
 
 :::
 
-When it comes to reading the finished numbers, `await task1.value` will make sure execution of `printFibonacciSequence()` pauses until the task’s output is ready, at which point it will be returned. If you don’t actually care what the task returns – if you just want the code to start running and finish whenever – you don’t need to store the task anywhere.
+When it comes to reading the finished numbers, `await task1.value` will make sure execution of `printFibonacciSequence()` pauses until the task’s output is ready, at which point it will be returned. If you don’t actually care what the task returns - if you just want the code to start running and finish whenever - you don’t need to store the task anywhere.
 
 For task operations that throw uncaught errors, reading your task’s `value` property will automatically also throw errors. So, we could write a function that performs two pieces of work at the same time then waits for them both to complete:
 
@@ -200,17 +200,17 @@ Use `task.result` to get a `Result` value containing the task’s success and fa
 
 :::
 
-For more complex work, you should create *task groups* instead – collections of tasks that work together to produce a finished value.
+For more complex work, you should create *task groups* instead - collections of tasks that work together to produce a finished value.
 
 To minimize the risk of programmers using task groups in dangerous ways, they don’t have a simple public initializer. Instead, task groups are created using functions such as `withTaskGroup()`: call this with the body of work you want done, and you’ll be passed in the task group instance to work with. Once inside the group you can add work using the `addTask()` method, and it will start executing immediately.
 
 ::: important
 
-You should not attempt to copy that task group outside the body of `withTaskGroup()` – the compiler can’t stop you, but you’re just going to make problems for yourself.
+You should not attempt to copy that task group outside the body of `withTaskGroup()` - the compiler can’t stop you, but you’re just going to make problems for yourself.
 
 :::
 
-To see a simple example of how task groups work – along with demonstrating an important point of how they order their operations, try this:
+To see a simple example of how task groups work - along with demonstrating an important point of how they order their operations, try this:
 
 ```swift
 func printMessage() async {
@@ -242,7 +242,7 @@ All tasks in a task group must return the same type of data, so for complex work
 
 :::
 
-Each call to `addTask()` can be any kind of function you like, as long as it results in a string. However, although task groups automatically wait for all the child tasks to complete before returning, when that code runs it’s a bit of a toss up what it will print because the child tasks can complete in any order – we’re as likely to get “Hello From Task Group A” as we are “Hello A Task Group From”, for example.
+Each call to `addTask()` can be any kind of function you like, as long as it results in a string. However, although task groups automatically wait for all the child tasks to complete before returning, when that code runs it’s a bit of a toss up what it will print because the child tasks can complete in any order - we’re as likely to get “Hello From Task Group A” as we are “Hello A Task Group From”, for example.
 
 If your task group is executing code that might throw, you can either handle the error directly inside the group or let it bubble up outside the group to be handled there. That latter option is handled using a different function, `withThrowingTaskGroup()`, which must be called with `try` if you haven’t caught all the errors you throw.
 
@@ -283,7 +283,7 @@ func printAllWeatherReadings() async {
 
 In that instance, each of the calls to `addTask()` is identical apart from the location string being passed in, so you can use something like `for location in ["London", "Rome", "San Francisco"] {` to call `addTask()` in a loop.
 
-Task groups have a `cancelAll()` method that cancels any tasks inside the group, but using `addTask()` afterwards will continue to add work to the group. As an alternative, you can use `addTaskUnlessCancelled()` to skip adding work if the group has been cancelled – check its returned Boolean to see whether the work was added successfully or not.
+Task groups have a `cancelAll()` method that cancels any tasks inside the group, but using `addTask()` afterwards will continue to add work to the group. As an alternative, you can use `addTaskUnlessCancelled()` to skip adding work if the group has been cancelled - check its returned Boolean to see whether the work was added successfully or not.
 
 ::: details Other Changes in Swift 5.5
 

@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-SwiftUI's `searchable()` modifier lets us place a search bar directly into a `NavigationStack`, but along with just free-text search we can also allow the user to select search *tokens* – pre-filled chunks of text that represent a specific category or filter in your app.
+SwiftUI's `searchable()` modifier lets us place a search bar directly into a `NavigationStack`, but along with just free-text search we can also allow the user to select search *tokens* - pre-filled chunks of text that represent a specific category or filter in your app.
 
 This isn't *hard* to do, but it does require several steps. You need:
 
@@ -68,7 +68,7 @@ That might not sound *too* complex, but there's an extra wrinkle: the iOS implem
 
 ![An iOS search bar showing the Sci-Fi token active, with the search text Incept.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-search-tokens-to-a-search-field-1.png)
 
-Anyway, enough talk – here's a sample implementation of `searchable()` with token support:
+Anyway, enough talk - here's a sample implementation of `searchable()` with token support:
 
 ```swift
 // Holds one uniquely identifiable movie.
@@ -166,7 +166,7 @@ There are a few things that are worth pointing out in that code:
 
 In practice, I suspect you're more likely to have multiple tags attached to each piece of data you're working with, in which case I'd probably prefer Swift's `isSuperset(of:)` set operation for comparing the user's selected tags against those in your object. If you're working with lots of tokens, I would also suggest you filter your list of suggested tokens based on what the user has typed so far.
 
-One last thing: although the iOS implementation of `searchable()` replaces your search results with the suggested tokens, this does *not* happen on macOS. Instead, your search tokens appear as a popup below the search box, leaving your search results visible at the same time – it's a much nicer experience.
+One last thing: although the iOS implementation of `searchable()` replaces your search results with the suggested tokens, this does *not* happen on macOS. Instead, your search tokens appear as a popup below the search box, leaving your search results visible at the same time - it's a much nicer experience.
 
 ![A macOS search bar showing the Sci-Fi token active, with a popup menu below showing other available tags.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-search-tokens-to-a-search-field-2.png)
 

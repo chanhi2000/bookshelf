@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744856526204/09de1f5
 
 <SiteInfo
   name="How to Send Emails With Django"
-  desc="If you're building a Django app and you want to connect with users – maybe to welcome them, send password reset links, or deliver updates – email is one of the best tools you’ve got. Setting up email in Django might sound tricky at first, but it's pr..."
+  desc="If you're building a Django app and you want to connect with users - maybe to welcome them, send password reset links, or deliver updates - email is one of the best tools you’ve got. Setting up email in Django might sound tricky at first, but it's pr..."
   url="https://freecodecamp.org/news/how-to-send-emails-with-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744856526204/09de1f52-e08a-4b4c-a5fe-199aea652e20.png"/>
 
-If you're building a Django app and you want to connect with users – maybe to welcome them, send password reset links, or deliver updates – email is one of the best tools you’ve got.
+If you're building a Django app and you want to connect with users - maybe to welcome them, send password reset links, or deliver updates - email is one of the best tools you’ve got.
 
 Setting up email in Django might sound tricky at first, but it's pretty straightforward once you get the hang of it.
 
@@ -64,13 +64,13 @@ I’ve walked a bunch of people through it, and by the end of this guide, you’
 
 ## Why Email Matters in Web Apps
 
-Email isn’t just a nice-to-have – it's essential for communication, trust, and user experience.
+Email isn’t just a nice-to-have - it's essential for communication, trust, and user experience.
 
 Think about it:
 
 - How do you confirm someone’s account? Email.
 - How do you help users reset a password? Email.
-- Want to send updates, alerts, or custom reports? You guessed it – email.
+- Want to send updates, alerts, or custom reports? You guessed it - email.
 
 That’s why it’s worth setting up properly.
 
@@ -168,7 +168,7 @@ Now, your email will look polished in modern email clients but will still work i
 
 ### Step 4: Use Templates for Better Emails
 
-If you're sending emails with similar structure – like a welcome message or invoice – it makes sense to use templates.
+If you're sending emails with similar structure - like a welcome message or invoice - it makes sense to use templates.
 
 Create a file like <FontIcon icon="fa-brands fa-html"/>`welcome_email.html` in your templates folder:
 
@@ -222,7 +222,7 @@ msg.attach('invoice.pdf', pdf_content, 'application/pdf')
 
 ::: details What’s the difference between `send_mail` and `EmailMessage`?
 
-`send_mail` is a shortcut for simple use cases. For more complex ones – like HTML emails, attachments, or custom headers – `EmailMessage` or `EmailMultiAlternatives` is better.
+`send_mail` is a shortcut for simple use cases. For more complex ones - like HTML emails, attachments, or custom headers - `EmailMessage` or `EmailMultiAlternatives` is better.
 
 :::
 
@@ -240,7 +240,7 @@ Email is one of those features that seems small until it breaks—or until you n
 
 Do you have it working? Great.
 
-Still stuck? Don’t worry – it’s one of those things that gets easier every time.
+Still stuck? Don’t worry - it’s one of those things that gets easier every time.
 
 ::: info Further Resources
 
@@ -276,7 +276,7 @@ If you want to dive deeper into emails with Django, check out these links:
 ```component VPCard
 {
   "title": "How to Send Emails With Django",
-  "desc": "If you're building a Django app and you want to connect with users – maybe to welcome them, send password reset links, or deliver updates – email is one of the best tools you’ve got. Setting up email in Django might sound tricky at first, but it's pr...",
+  "desc": "If you're building a Django app and you want to connect with users - maybe to welcome them, send password reset links, or deliver updates - email is one of the best tools you’ve got. Setting up email in Django might sound tricky at first, but it's pr...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-send-emails-with-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

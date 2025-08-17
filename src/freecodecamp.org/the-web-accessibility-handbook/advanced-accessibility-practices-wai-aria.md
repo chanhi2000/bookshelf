@@ -215,7 +215,7 @@ You can go one step further and use the `aria-labelledby` attribute that uses an
 
 The screen reader reads out the text inside the `<span>` element to describe the input element. This is similar to having a `<label>` with a `for` attribute. You can also use this attribute to reference other interactive elements like `<button>` or `<a>` that do not have a label field to reference them.
 
-Keep in mind that the `aria-labelledby` attribute only defines an accessible name for the element – it does not provide other functionality like clicking on the label to focus on the input element. It’s better to use `<label>` with a `for` attribute.
+Keep in mind that the `aria-labelledby` attribute only defines an accessible name for the element - it does not provide other functionality like clicking on the label to focus on the input element. It’s better to use `<label>` with a `for` attribute.
 
 We have already discussed form labels in the [Interactive Elements](/freecodecamp.org/the-web-accessibility-handbook/basic-accessibility-practices.md#interactive-elements) section.
 

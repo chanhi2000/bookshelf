@@ -285,7 +285,7 @@ aws --version
 
 The above result indicates that everything is setup correctly. Nevertheless, if we would like to install or update the CLI, then AWS ships with a really good article on that in their [<FontIcon icon="fa-brands fa-aws"/>official documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
-Additionally, we have to have the access to AWS Cloud from our computer – and that's what we are going to set up in this step.
+Additionally, we have to have the access to AWS Cloud from our computer - and that's what we are going to set up in this step.
 
 In order to set up the access, let's sign in to the **AWS Management Console** and navigate to the **Users** feature of the **IAM Console**. We can do that easily with the search bar at the top:
 
@@ -295,7 +295,7 @@ On the next page, let's click the **Add users** button:
 
 ![Image shows empty list of Users in AWS IAM Console](https://freecodecamp.org/news/content/images/2022/04/2-1.png)
 
-Then we'll specify the preferred **User name** along with the **Access key** – **Programmatic access** credential type:
+Then we'll specify the preferred **User name** along with the **Access key** - **Programmatic access** credential type:
 
 ![Image shows user name and AWS access type options for new user](https://freecodecamp.org/news/content/images/2022/04/3-1.png)
 

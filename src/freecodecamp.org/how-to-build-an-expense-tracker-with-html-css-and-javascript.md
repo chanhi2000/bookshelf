@@ -64,7 +64,7 @@ To get the most out of this tutorial, having a basic understanding of HTML, CSS,
 
 :::
 
-But if you're new to these technologies, don't worry – I'll guide you through each step with detailed explanations.
+But if you're new to these technologies, don't worry - I'll guide you through each step with detailed explanations.
 
 ---
 

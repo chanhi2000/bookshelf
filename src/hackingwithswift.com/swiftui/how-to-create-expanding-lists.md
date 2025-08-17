@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI's `List` view has an enhanced initializer that lets us create expanding sections with child elements – they will be rendered with tappable arrows that open out to reveal children when tapped.
+SwiftUI's `List` view has an enhanced initializer that lets us create expanding sections with child elements - they will be rendered with tappable arrows that open out to reveal children when tapped.
 
 To use this form of `List` you need to have data in a precise form: your data model should have an optional array of children that are of the same type, so you can create a tree. Normally you're likely to load this kind of stuff from JSON or similar, but to keep things simple here I'll just paste in some hard-coded data so you can see what it ought to look like.
 

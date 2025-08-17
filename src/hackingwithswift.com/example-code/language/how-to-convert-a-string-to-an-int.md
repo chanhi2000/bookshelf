@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ let myString1 = "556"
 let myInt1 = Int(myString1)
 ```
 
-Because strings might contain something that isn’t a number – e.g. “Fish” rather than “556” – the `Int` initializer will return an optional integer, so if you want to force a value you should use nil coalescing like this:
+Because strings might contain something that isn’t a number - e.g. “Fish” rather than “556” - the `Int` initializer will return an optional integer, so if you want to force a value you should use nil coalescing like this:
 
 ```swift
 let myInt2 = Int(myString) ?? 0

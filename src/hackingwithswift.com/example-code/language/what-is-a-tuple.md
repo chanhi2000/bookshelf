@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,11 +69,11 @@ You can create a basic tuple like this:
 let person = (name: "Paul", age: 35)
 ```
 
-As you can see, it looks like an anonymous struct: you can read `person.name` and `person.age` just like you would with a struct. But, helpfully, we haven't had to define the struct ahead of time – this is something made to be thrown away. It also means you don't get to conform to protocols or write methods inside your tuples, but that's OK.
+As you can see, it looks like an anonymous struct: you can read `person.name` and `person.age` just like you would with a struct. But, helpfully, we haven't had to define the struct ahead of time - this is something made to be thrown away. It also means you don't get to conform to protocols or write methods inside your tuples, but that's OK.
 
 Tuples can be accessed using element names ("name" and "age" above), or using a position in the tuple, e.g. 0 and 1. You don't have to give your tuple elements names if you don't want to, but it's a good idea.
 
-To give you a fully fledged tuple example, here's a function that splits a name like "Paul Hudson" in two, and returns a tuple containing the first name (Paul) and the last name (Hudson). Obviously this just a trivial example – it makes no attempt to cater for middle names, honorifics, or languages where family names come first!
+To give you a fully fledged tuple example, here's a function that splits a name like "Paul Hudson" in two, and returns a tuple containing the first name (Paul) and the last name (Hudson). Obviously this just a trivial example - it makes no attempt to cater for middle names, honorifics, or languages where family names come first!
 
 ```swift
 func split(name: String) -> (firstName: String, lastName: String) {

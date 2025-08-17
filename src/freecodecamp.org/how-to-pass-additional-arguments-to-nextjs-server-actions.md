@@ -110,7 +110,7 @@ export async function updateUser(userId, formData) {
 }
 ```
 
-The `userId` value is something internal to the application – and you wouldn’t ask a user to submit the value as part of the form submission. Rather, you may need to pass it programmatically to your server action to perform further computations.
+The `userId` value is something internal to the application - and you wouldn’t ask a user to submit the value as part of the form submission. Rather, you may need to pass it programmatically to your server action to perform further computations.
 
 Right, that’s the use case we’re talking about. As we understand why we need it, let’s understand how to achieve it. But first, let’s create a form and a working server action for it.
 

@@ -5,6 +5,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-path-of-least-resistance-part-2", // 2025-08-30
+    "the-path-of-least-resistance-part-1", // 2025-08-27
+    "opening-a-details-element-from-the-url", // 2025-08-26
+    "very-early-playing-with-random-in-css", // 2025-08-25
+    "quick-dark-mode-toggles", // 2025-08-22
+    "obsessing-over-smooth-radial-gradient-disc-edges", // 2025-08-20
+    "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18
     "architecture-through-component-colocation", // 2025-08-11
     "using-the-custom-highlight-api", // 2025-08-07
     "count-auto-fill-columns", // 2025-08-06
@@ -403,6 +410,11 @@ export const template: SidebarInfoTemplate = {
       "the-figcaption-problem", // 2025-07-24
       "should-we-never-use-non-logical-properties", // 2025-07-31
       "infinite-marquee-animation-using-modern-css", // 2025-08-04
+      "obsessing-over-smooth-radial-gradient-disc-edges", // 2025-08-20
+      "very-early-playing-with-random-in-css", // 2025-08-25
+      "opening-a-details-element-from-the-url", // 2025-08-26
+      "the-path-of-least-resistance-part-1", // 2025-08-27
+      "the-path-of-least-resistance-part-2", // 2025-08-30
       // END: 2025css
       // END: css
     ]],[
@@ -412,6 +424,11 @@ export const template: SidebarInfoTemplate = {
       "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
       // END: 2025devops
       // END: devops
+    ]],[
+    "macos", [
+      "quick-dark-mode-toggles", // 2025-08-22
+      // END: 2025chrome
+      // END: chrome
     ]],[
     "github", [
       "the-simplest-way-to-deploy", // 2025-05-29
@@ -452,6 +469,17 @@ export const template: SidebarInfoTemplate = {
       "why-is-this-thing-in-dark-mode", // 2024-07-03
       // END: 2024chrome
       "newfangled-browser-alternatives", // 2025-04-22
+      "quick-dark-mode-toggles", // 2025-08-22
+      // END: 2025chrome
+      // END: chrome
+    ]],[
+    "firefox", [
+      "quick-dark-mode-toggles", // 2025-08-22
+      // END: 2025chrome
+      // END: chrome
+    ]],[
+    "safari", [
+      "quick-dark-mode-toggles", // 2025-08-22
       // END: 2025chrome
       // END: chrome
     ]],[
@@ -478,6 +506,11 @@ export const template: SidebarInfoTemplate = {
       "chatgpt-and-old-and-broken-code", // 2025-05-20
       // END: 2025openai
       // END: openai
+    ]],[
+    "system-design", [
+      "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18
+      // END: 2025system-design
+      // END: system-design
     ]],[
     "career", [
       "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04

@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: "Third Project – Building Messages"
+title: "Third Project - Building Messages"
 description: "(9/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
 category: 
   - Rust
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: "(9/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
     - property: og:description
-      content: "Third Project – Building Messages"
+      content: "Third Project - Building Messages"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/third-project-building-messages.html
 date: 2024-06-04
@@ -319,7 +319,7 @@ So this code simply defines a smart contract with three main functions: `init` f
 
 <SiteInfo
   name="Gear | The Most Advanced Platform for dApp development - 1 June 2024"
-  desc="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces."
+  desc="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily - and skip the meeting. An essential tool for hybrid workplaces."
   url="https://loom.com/"
   logo="https://cdn.loom.com/assets/favicons-loom/android-chrome-192x192.png"
   preview="https://cdn.loom.com/assets/img/og/loom-banner.png"/>

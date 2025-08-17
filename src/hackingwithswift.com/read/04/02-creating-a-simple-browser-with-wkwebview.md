@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -91,11 +91,11 @@ Anyway, there are only three things we care about, because by now you should und
 
 First, we create a new instance of Apple's `WKWebView` web browser component and assign it to the `webView` property. Third, we make our view (the root view of the view controller) that web view.
 
-Yes, I missed out the second line, and that's because it introduces new concept: delegation. Delegation is what's called a *programming pattern* – a way of writing code – and it's used extensively in iOS. And for good reason: it's easy to understand, easy to use, and extremely flexible.
+Yes, I missed out the second line, and that's because it introduces new concept: delegation. Delegation is what's called a *programming pattern* - a way of writing code - and it's used extensively in iOS. And for good reason: it's easy to understand, easy to use, and extremely flexible.
 
 A *delegate* is one thing acting in place of another, effectively answering questions and responding to events on its behalf. In our example, we're using WKWebView: Apple's powerful, flexible and efficient web renderer. But as smart as `WKWebView` is, it doesn't know (or care) how our application wants to behave, because that's our custom code.
 
-The delegation solution is brilliant: we can tell `WKWebView` that we want to be informed when something interesting happens. In our code, we're setting the web view's `navigationDelegate` property to `self`, which means "when any web page navigation happens, please tell me – the current view controller.”
+The delegation solution is brilliant: we can tell `WKWebView` that we want to be informed when something interesting happens. In our code, we're setting the web view's `navigationDelegate` property to `self`, which means "when any web page navigation happens, please tell me - the current view controller.”
 
 When you do this, two things happen:
 
@@ -130,7 +130,7 @@ webView.load(URLRequest(url: url))
 webView.allowsBackForwardNavigationGestures = true
 ```
 
-The first line creates a new data type called `URL`, which is Swift’s way of storing the location of files. You’re probably already familiar with URLs as being used online, like with [<FontIcon icon="fas fa-globe"/>https://hackingwithswift.com](https://hackingwithswift.com), but they are just as important for storing local filenames too – they are flexible little things!
+The first line creates a new data type called `URL`, which is Swift’s way of storing the location of files. You’re probably already familiar with URLs as being used online, like with [<FontIcon icon="fas fa-globe"/>https://hackingwithswift.com](https://hackingwithswift.com), but they are just as important for storing local filenames too - they are flexible little things!
 
 Even though we’re used to URLs being strings of text, Swift stores URLs in a specific `URL` data type that adds a lot of extra functionality. So, that first line of code creates a new `URL` out of the string “[<FontIcon icon="fas fa-globe"/>https://hackingwithswift.com](https://hackingwithswift.com)”. I'm using hackingwithswift.com as an example website, but please change it to something you like.
 
@@ -156,5 +156,5 @@ The third line enables a property on the web view that allows users to swipe fro
 
 It’s time to run the app, so please press <kbd>Cmd</kbd>+<kbd>R</kbd> to run your app, and you should be able to view your website. Step one done!
 
-![Just by embedding a web view into the app, we can now render any website content – win!](https://hackingwithswift.com/img/books/hws/4-1@2x.png)
+![Just by embedding a web view into the app, we can now render any website content - win!](https://hackingwithswift.com/img/books/hws/4-1@2x.png)
 

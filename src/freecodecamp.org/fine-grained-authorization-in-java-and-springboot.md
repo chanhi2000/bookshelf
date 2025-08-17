@@ -891,7 +891,7 @@ I hope you found this tutorial insightful.
 
 Here are some of my other recent blog posts that you might enjoy:
 
-- [Learn React – A Guide to the Key Concepts](/freecodecamp.org/learn-react-key-concepts.md)
+- [Learn React - A Guide to the Key Concepts](/freecodecamp.org/learn-react-key-concepts.md)
 - [<FontIcon icon="fas fa-globe"/>Neon Postgres vs Supabase](https://devtoolsacademy.com/blog/neon-vs-supabase)
 - [Full Stack Development with Next.js, Clerk, and Neon Postgres](/freecodecamp.org/nextjs-clerk-neon-fullstack-development.md)
 

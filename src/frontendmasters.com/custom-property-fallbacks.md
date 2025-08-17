@@ -228,7 +228,7 @@ You can follow their progress on GitHub:
 
 <SiteInfo
   name="Master CSS Custom Properties (CSS Variables)"
-  desc="Create reusable components without any JavaScript dependencies needed – with only vanilla CSS! Master CSS custom properties AKA CSS variables. "
+  desc="Create reusable components without any JavaScript dependencies needed - with only vanilla CSS! Master CSS custom properties AKA CSS variables. "
   url="https://frontendmasters.com/courses/css-variables/"
   logo="https://frontendmasters.com/favicon-16x16.png"
   preview="https://static.frontendmasters.com/assets/courses/2021-11-09-css-variables/posterframe.jpg"/>

@@ -81,7 +81,7 @@ let canVote = age >= 18 ? 'Yes' : 'No';
 console.log(canVote);  // Output: "Yes"
 ```
 
-In this example, the ternary operator checks if the `age` is greater than or equal to 18. If it is, the `canVote` variable is set to `'Yes'` – otherwise, it’s set to `'No'`. This is a concise alternative to the more traditional if-else structure.
+In this example, the ternary operator checks if the `age` is greater than or equal to 18. If it is, the `canVote` variable is set to `'Yes'` - otherwise, it’s set to `'No'`. This is a concise alternative to the more traditional if-else structure.
 
 ---
 

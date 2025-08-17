@@ -75,7 +75,7 @@ struct ContentView: View {
 
 When that's run, you should be able to type into the text field and see a greeting appear directly below.
 
-There are two important provisos when working with text fields. First, they don't have a border by default, so you probably won't see anything – you'll need to tap inside roughly where it is in order to activate the keyboard.
+There are two important provisos when working with text fields. First, they don't have a border by default, so you probably won't see anything - you'll need to tap inside roughly where it is in order to activate the keyboard.
 
 Second, you might find you can't type into the canvas preview of your layout. If you hit that problem, press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your code in the simulator.
 

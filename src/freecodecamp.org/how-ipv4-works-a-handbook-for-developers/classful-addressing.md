@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Classful Addressing"
-description: "Article(s) > (1/8) How IPv4 Works – A Handbook for Developers" 
+description: "Article(s) > (1/8) How IPv4 Works - A Handbook for Developers" 
 category:
   - Engineering
   - Computer
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/8) How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > (1/8) How IPv4 Works - A Handbook for Developers"
     - property: og:description
       content: "Classful Addressing"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers#heading-classful-addressing"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -94,7 +94,7 @@ What class does the following address belong to?
 
 It belongs to class C, as the value of its first byte, `200`, is between `192` and `223`. This means that its network identifier is `200.1.1`, and any address starting with this prefix will reside within the same network. This specific address describes host `9` within this network.
 
-To complete the picture, addresses starting with a value between `224` and `239` belong to "Class D" – that is, multicast addresses – addresses that belong to multiple devices. Addresses starting with a value between `240` and `255` were reserved for future use. Addresses starting with `0` are special addresses.
+To complete the picture, addresses starting with a value between `224` and `239` belong to "Class D" - that is, multicast addresses - addresses that belong to multiple devices. Addresses starting with a value between `240` and `255` were reserved for future use. Addresses starting with `0` are special addresses.
 
 ---
 
@@ -110,7 +110,7 @@ While classful addressing allows for more flexibility compared to the fixed-leng
 
 Consider this scenario: A small startup company with just two founders needs a network identifier. Which class would they need?
 
-Getting a class A or class B would be excessive, so they might get a class C – allowing `256` addresses. This is more than currently needed, but allows some expansion. What happens if the startup grows to more than `256` employees (and devices)?
+Getting a class A or class B would be excessive, so they might get a class C - allowing `256` addresses. This is more than currently needed, but allows some expansion. What happens if the startup grows to more than `256` employees (and devices)?
 
 At this point, they would need to get a class B address, giving no less than `65,536` addresses, when all they need is a bit over `256` addresses. This means wasting more than `60,000` addresses.
 

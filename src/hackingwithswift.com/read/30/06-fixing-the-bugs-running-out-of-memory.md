@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,9 +53,9 @@ isOriginal: false
 
 <VidStack src="youtube/Tg_ExH0ivoE" />
 
-Now, why does the app crash when you go the detail view controller enough times? There are two answers to this question, one code related and one not. For the second question, I already explained that we’re working with supremely over-sized images here – far larger than we actually need.
+Now, why does the app crash when you go the detail view controller enough times? There are two answers to this question, one code related and one not. For the second question, I already explained that we’re working with supremely over-sized images here - far larger than we actually need.
 
-But there's something else subtle here, and it's something we haven't covered yet so this is the perfect time. When you create a `UIImage` using `UIImage(named:)` iOS loads the image and puts it into an image cache for reuse later. This is sometimes helpful, particularly if you know the image will be used again. But if you know it's unlikely to be reused or if it's quite large, then don't bother putting it into the cache – it will just add memory pressure to your app and probably flush out other more useful images!
+But there's something else subtle here, and it's something we haven't covered yet so this is the perfect time. When you create a `UIImage` using `UIImage(named:)` iOS loads the image and puts it into an image cache for reuse later. This is sometimes helpful, particularly if you know the image will be used again. But if you know it's unlikely to be reused or if it's quite large, then don't bother putting it into the cache - it will just add memory pressure to your app and probably flush out other more useful images!
 
 If you look in the `viewDidLoad()` method of `ImageViewController` you'll see this line of code:
 
@@ -72,12 +72,12 @@ let original = UIImage(contentsOfFile: path)!
 
 Let's take a look at one more problem, this time quite subtle. Loading the images was slow because they were so big, and iOS was caching them unnecessarily. But `UIImage`'s cache is intelligent: if it senses memory pressure, it automatically clears itself to make room for other stuff. So why does our app run out of memory?
 
-To find another problems, profile the app using Instruments and select the allocations instrument again. This time filter on "imageviewcontroller" and to begin with you'll see nothing because the app starts on the table view. But if you tap into a detail view then go back, you'll see one is created *and remains persistent* – it hasn't been destroyed. Which means the image it's showing also hasn't been destroyed, hence the massive memory usage.
+To find another problems, profile the app using Instruments and select the allocations instrument again. This time filter on "imageviewcontroller" and to begin with you'll see nothing because the app starts on the table view. But if you tap into a detail view then go back, you'll see one is created *and remains persistent* - it hasn't been destroyed. Which means the image it's showing also hasn't been destroyed, hence the massive memory usage.
 
 What's causing the image view controller to never be destroyed? If you read through <FontIcon icon="fa-brands fa-swift"/>`SelectionViewController.swift` and <FontIcon icon="fa-brands fa-swift"/>`ImageViewController.swift` you might spot these two things:
 
 1. The selection view controller has a `viewControllers` array that claims to be a cache of the detail view controllers. This cache is never actually used, and even if it were used it really isn't needed.
-2. The image view controller has a property `var owner: SelectionViewController!` – that makes it a strong reference to the view controller that created it.
+2. The image view controller has a property `var owner: SelectionViewController!` - that makes it a strong reference to the view controller that created it.
 
 The first problem is easily fixed: just delete the `viewControllers` array and any code that uses it, because it's just not needed. The second problem smells like a strong reference cycle, so you should probably change it to this:
 
@@ -97,7 +97,7 @@ That timer does a hacky animation on the image, and it could easily be replaced 
 
 The reason is that when you provide code for your timer to run, the timer holds a strong reference to it so it can definitely be called when the timer is up. We're using `self` inside our timer’s code, which means our view controller owns the timer strongly and the timer owns the view controller strongly, so we have a strong reference cycle.
 
-There are several solutions here: rewrite the code using smarter animations, use a `weak self` closure capture list, or destroy the timer when it's no longer needed, thus breaking the cycle. We’re going to take the last option here, to give you a little more practice with invalidating timers – all we need to do is detect when the image view controller is about to disappear and stop the timer. We'll do this in `viewWillDisappear()`:
+There are several solutions here: rewrite the code using smarter animations, use a `weak self` closure capture list, or destroy the timer when it's no longer needed, thus breaking the cycle. We’re going to take the last option here, to give you a little more practice with invalidating timers - all we need to do is detect when the image view controller is about to disappear and stop the timer. We'll do this in `viewWillDisappear()`:
 
 ```swift
 override func viewWillDisappear(_ animated: Bool) {

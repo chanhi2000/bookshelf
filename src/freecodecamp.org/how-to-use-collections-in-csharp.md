@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Collections in C# – Lists, Arrays, Dictionaries, and More"
-description: "Article(s) > How to Use Collections in C# – Lists, Arrays, Dictionaries, and More"
+title: "How to Use Collections in C# - Lists, Arrays, Dictionaries, and More"
+description: "Article(s) > How to Use Collections in C# - Lists, Arrays, Dictionaries, and More"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Collections in C# – Lists, Arrays, Dictionaries, and More"
+      content: "Article(s) > How to Use Collections in C# - Lists, Arrays, Dictionaries, and More"
     - property: og:description
-      content: "How to Use Collections in C# – Lists, Arrays, Dictionaries, and More"
+      content: "How to Use Collections in C# - Lists, Arrays, Dictionaries, and More"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-collections-in-csharp.html
 prev: /programming/cs/articles/README.md
@@ -45,13 +45,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737729136643/4cc12d3
 ---
 
 <SiteInfo
-  name="How to Use Collections in C# – Lists, Arrays, Dictionaries, and More"
-  desc="One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection – ..."
+  name="How to Use Collections in C# - Lists, Arrays, Dictionaries, and More"
+  desc="One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection - ..."
   url="https://freecodecamp.org/news/how-to-use-collections-in-csharp"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1737729136643/4cc12d37-da1c-45f0-928f-fbe02d7fdf52.png"/>
 
-One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection – these are all common tasks where choosing the right data structure can make a big difference.
+One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection - these are all common tasks where choosing the right data structure can make a big difference.
 
 C# provides a rich set of built-in data structures, such as **lists**, **dictionaries**, and more, making it easier to work with data differently. Each structure has strengths and is optimised for specific scenarios, so understanding their differences is key to writing clean, efficient, and maintainable code.
 
@@ -329,7 +329,7 @@ Animal { Age = 2, Name = Elephant, Legs = 4, Sound = Trumpet }
 
 Queues work in just the same way as a queue does in everyday life, with a first-in, first-out approach.
 
-`Queue<T>` does not implement the ICollection interface like Dictionaries and Lists, meaning it doesn't have an `Add()` method. This means you cannot add elements to the Queue whilst instantiating. It also means you cannot use the `Add()` method to add items – instead, you use the `Enqueue()` method.
+`Queue<T>` does not implement the ICollection interface like Dictionaries and Lists, meaning it doesn't have an `Add()` method. This means you cannot add elements to the Queue whilst instantiating. It also means you cannot use the `Add()` method to add items - instead, you use the `Enqueue()` method.
 
 ```cs
 var arc = new Queue<string>();
@@ -373,7 +373,7 @@ foreach(var number in stack )
 // 5 4 3 2 1
 ```
 
-You may think looping through the items in a `Stack` would work the same as a List or Queue and would still print them out in order of going in. But the system knows it’s a stack, and so it enumerates the items in reverse order of how they were added – that is, the most recently added element (`5`) is returned first.
+You may think looping through the items in a `Stack` would work the same as a List or Queue and would still print them out in order of going in. But the system knows it’s a stack, and so it enumerates the items in reverse order of how they were added - that is, the most recently added element (`5`) is returned first.
 
 You can also utilise the `Pop()` method which will return the last item in the collection, and remove it at the same time.
 
@@ -567,8 +567,8 @@ Happy coding! 😊
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Collections in C# – Lists, Arrays, Dictionaries, and More",
-  "desc": "One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection – ...",
+  "title": "How to Use Collections in C# - Lists, Arrays, Dictionaries, and More",
+  "desc": "One of the first challenges beginners face when developing applications in C# is organising and managing data efficiently. Imagine keeping track of a list of items, mapping unique keys to values, or ensuring there are no duplicates in a collection - ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-collections-in-csharp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

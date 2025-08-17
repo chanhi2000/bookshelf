@@ -75,7 +75,7 @@ struct ContentView: View {
 }
 ```
 
-That shows the *concept*, but doesn’t provide any benefit because the lazy variable is always used – there’s no difference between using `lazy var` and `let` in that code. To see where it’s actually useful takes a longer code example, like this one:
+That shows the *concept*, but doesn’t provide any benefit because the lazy variable is always used - there’s no difference between using `lazy var` and `let` in that code. To see where it’s actually useful takes a longer code example, like this one:
 
 ```swift
 // The user is an active subscriber, not an active subscriber, or we don't know their status yet.
@@ -125,7 +125,7 @@ struct SubscriberView: View {
 This approach solves problems that would appear in the alternatives:
 
 - If we didn’t use `lazy`, then `fetchUsername()` would be called in all three cases of `state`, even when it isn’t used in one.
-- If we removed `lazy` and placed the call to `fetchUsername()` *inside* the two cases then we would be duplicating code – not a massive problem with a simple one liner, but you can imagine how this would cause problems in more complex code.
+- If we removed `lazy` and placed the call to `fetchUsername()` *inside* the two cases then we would be duplicating code - not a massive problem with a simple one liner, but you can imagine how this would cause problems in more complex code.
 - If we moved `user` out to a computed property, it would be called a second time when the user clicked the "Subscribe now" button.
 
 This change also allows us to use property wrappers and local computed properties inside result builders, although I suspect they will be less useful. For example, this kind of code is now allowed: 
@@ -142,7 +142,7 @@ struct CounterView: View {
 }
 ```
 
-However, although that will cause the underlying `UserDefaults` value to change with each tap, using `@AppStorage` in this way *won’t* cause the `body` property to be reinvoked every time `tapCount` changes – our UI won’t automatically be updated to reflect the change.
+However, although that will cause the underlying `UserDefaults` value to change with each tap, using `@AppStorage` in this way *won’t* cause the `body` property to be reinvoked every time `tapCount` changes - our UI won’t automatically be updated to reflect the change.
 
 ::: details Other Changes in Swift 5.8
 <!-- 

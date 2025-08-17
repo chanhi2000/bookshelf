@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API – How to Handle Get Request
-description: Article(s) > ASP.NET Core Web API – How to Handle Get Request
+title: ASP.NET Core Web API - How to Handle Get Request
+description: Article(s) > ASP.NET Core Web API - How to Handle Get Request
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API – How to Handle Get Request
+      content: Article(s) > ASP.NET Core Web API - How to Handle Get Request
     - property: og:description
-      content: ASP.NET Core Web API – How to Handle Get Request
+      content: ASP.NET Core Web API - How to Handle Get Request
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part5.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part5/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API – How to Handle Get Request"
+  name="ASP.NET Core Web API - How to Handle Get Request"
   desc="Learn how to handle Get Request in .NET Core by using previously created repository pattern for business logic and how to write great controller code."
   url="https://code-maze.com/net-core-web-development-part5/"
   logo="/assets/image/code-maze.com/favicon.png"

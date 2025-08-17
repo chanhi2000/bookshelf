@@ -56,7 +56,7 @@ head:
 
 SwiftUI's `defersSystemGestures()` modifier lets us request that our gestures take precedence over the system's own built-in gestures. This is important in various places, such as games where the user might be swiping around a lot, or when you place your own gestures at the screen edges.
 
-As an example, you might be using a drag gesture to let the user control the value of some input – perhaps they are getting fine control over a color, maybe they are working with audio such as a theremin, or maybe it's a game where they are swiping to move their character around. Here we could use `defersSystemGestures()` like this:
+As an example, you might be using a drag gesture to let the user control the value of some input - perhaps they are getting fine control over a color, maybe they are working with audio such as a theremin, or maybe it's a game where they are swiping to move their character around. Here we could use `defersSystemGestures()` like this:
 
 ```swift
 struct ContentView: View {
@@ -80,7 +80,7 @@ struct ContentView: View {
 
 On iOS that does three distinct things:
 
-1. If the user pulls down from the top, rather than Control Center appearing immediately they'll see a little tab that needs to be pulled again – it's much harder for them to active Control Center by accident.
+1. If the user pulls down from the top, rather than Control Center appearing immediately they'll see a little tab that needs to be pulled again - it's much harder for them to active Control Center by accident.
 2. The home indicator will fade to a lower opacity, and if the user drags directly on that faded home indicator then it will fade back in. They can then swipe up again to get to the task switcher or home screen.
 3. If the user swipes up from the bottom but to either side of the home indicator, our drag gesture will happen instead.
 

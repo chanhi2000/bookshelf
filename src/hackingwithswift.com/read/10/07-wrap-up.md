@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -54,7 +54,7 @@ isOriginal: false
 
 <VidStack src="youtube/kKpP62SCxo0" />
 
-`UICollectionView` and `UITableView` are the most common ways of showing lots of information in iOS, and you now know how to use both. You should be able to go back to project 1 and recognize a lot of very similar code, and that's by intention – Apple has made it easy to learn both view types by learning either one.
+`UICollectionView` and `UITableView` are the most common ways of showing lots of information in iOS, and you now know how to use both. You should be able to go back to project 1 and recognize a lot of very similar code, and that's by intention - Apple has made it easy to learn both view types by learning either one.
 
 You've also learned another batch of iOS development, this time `UIImagePickerController`, `UUID`, custom classes and more. You might not realize it yet, but you have enough knowledge now to make a huge range of apps!
 
@@ -70,7 +70,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 10: Names to Faces – Hacking with Swift",
+  "title": "Review - Project 10: Names to Faces - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-10-names-to-faces",
   "logo": "https://hackingwithswift.com/favicon.svg",

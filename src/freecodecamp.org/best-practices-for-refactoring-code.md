@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Code Refactoring Best Practices – with Python Examples"
-description: "Article(s) > Code Refactoring Best Practices – with Python Examples"
+title: "Code Refactoring Best Practices - with Python Examples"
+description: "Article(s) > Code Refactoring Best Practices - with Python Examples"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Code Refactoring Best Practices – with Python Examples"
+      content: "Article(s) > Code Refactoring Best Practices - with Python Examples"
     - property: og:description
-      content: "Code Refactoring Best Practices – with Python Examples"
+      content: "Code Refactoring Best Practices - with Python Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-practices-for-refactoring-code.html
 prev: /programming/py/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2022/08/Author-Share-ImageFR
 ---
 
 <SiteInfo
-  name="Code Refactoring Best Practices – with Python Examples"
+  name="Code Refactoring Best Practices - with Python Examples"
   desc="In this article, I will discuss what code refactoring is. We'll go over why you need to refactor your code, the advantages of code refactoring, and some best practices for code refactoring. What is Code Refactoring? Refactoring means organizing your ..."
   url="https://freecodecamp.org/news/best-practices-for-refactoring-code"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -89,7 +89,7 @@ Whatever you do, avoid creating a separation between technical value and busines
 
 ---
 
-## Refactoring Best Practices – with Python Examples
+## Refactoring Best Practices - with Python Examples
 
 If you want to get the most benefit from restructuring your code, you should keep the following in mind:
 
@@ -307,12 +307,12 @@ Note: It is a typical error to order the temporary count variable first in the f
 
 Hopefully, you now understand what code refactoring is along with the importance and reasons for refactoring your code.
 
-Based on the simple Python code above, you should understand that refactoring does not necessarily mean your code needs to be shorter after refactoring – but just somehow simpler and more understandable.
+Based on the simple Python code above, you should understand that refactoring does not necessarily mean your code needs to be shorter after refactoring - but just somehow simpler and more understandable.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Code Refactoring Best Practices – with Python Examples",
+  "title": "Code Refactoring Best Practices - with Python Examples",
   "desc": "In this article, I will discuss what code refactoring is. We'll go over why you need to refactor your code, the advantages of code refactoring, and some best practices for code refactoring. What is Code Refactoring? Refactoring means organizing your ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-practices-for-refactoring-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

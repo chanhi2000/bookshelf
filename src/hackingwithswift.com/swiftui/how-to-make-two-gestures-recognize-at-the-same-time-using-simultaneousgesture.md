@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-By default SwiftUI will trigger only one gesture recognizer action at a time, which is usually whichever one is the front-most view in your hierarchy – it would prefer a recognizer on a child view rather than its parent, for example. If you want to override this behavior to make two gestures trigger at once, you should use the `simultaneousGesture()` when creating your second and subsequent gestures.
+By default SwiftUI will trigger only one gesture recognizer action at a time, which is usually whichever one is the front-most view in your hierarchy - it would prefer a recognizer on a child view rather than its parent, for example. If you want to override this behavior to make two gestures trigger at once, you should use the `simultaneousGesture()` when creating your second and subsequent gestures.
 
 For example, in this code we have two tap gestures, but SwiftUI will execute only the one attached to the circle because it's the child of the `VStack`:
 
@@ -78,7 +78,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-make-two-gestures-recognize-at-the-same-time-using-simultaneousgesture-1~dark.mp4" />
 
-If you want *both* gestures to trigger – i.e., if you want both “Circle tapped” and “VStack tapped” to be printed – you should use `simultaneousGesture()` on the `VStack` like this:
+If you want *both* gestures to trigger - i.e., if you want both “Circle tapped” and “VStack tapped” to be printed - you should use `simultaneousGesture()` on the `VStack` like this:
 
 ```swift
 struct ContentView: View {
@@ -107,7 +107,7 @@ struct ContentView: View {
 
 ::: note
 
-You should use `simultaneousGesture()` with the gesture that would otherwise not be executed otherwise it won't work. So, in our previous example using `simultaneousGesture()` with the circle and a simple `onTapGesture()` with the `VStack` will still print just “Circle tapped” – it won't do what you expect.
+You should use `simultaneousGesture()` with the gesture that would otherwise not be executed otherwise it won't work. So, in our previous example using `simultaneousGesture()` with the circle and a simple `onTapGesture()` with the `VStack` will still print just “Circle tapped” - it won't do what you expect.
 
 :::
 

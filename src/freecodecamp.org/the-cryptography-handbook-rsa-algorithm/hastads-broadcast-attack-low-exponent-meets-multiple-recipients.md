@@ -71,7 +71,7 @@ Since each $N_{i}$ is different (and we assume they are pairwise coprime, as RSA
 
 <VidStack src="youtube/Mt9v7-xBuaA" />
 
-There is a unique solution modulo $N_{1}N_{2}N_{3}$ for $x$, and that solution turns out to be an integer, $x=M^{3}$ (because the true integer M3 is smaller than the product $N_{1}N_{2}N_{3}$ of each $M\lt{N}_{i}$). In essence, CRT lets Eve reconstruct $M^{3}$ exactly. Once they have $M^{3}$ as an ordinary integer, they simply take the cube root to find $M$. There’s no need to factor any modulus or invert the RSA function – the math falls out due to the low exponent.
+There is a unique solution modulo $N_{1}N_{2}N_{3}$ for $x$, and that solution turns out to be an integer, $x=M^{3}$ (because the true integer M3 is smaller than the product $N_{1}N_{2}N_{3}$ of each $M\lt{N}_{i}$). In essence, CRT lets Eve reconstruct $M^{3}$ exactly. Once they have $M^{3}$ as an ordinary integer, they simply take the cube root to find $M$. There’s no need to factor any modulus or invert the RSA function - the math falls out due to the low exponent.
 
 The sequence diagram below aims to provide a high-level understanding of the attack:
 

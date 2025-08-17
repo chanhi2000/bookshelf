@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
+    "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
     "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
     "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
     "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
@@ -342,6 +344,8 @@ export const template: SidebarInfoTemplate = {
       "global-error-handling-in-aspnetcore-from-middleware-to-modern-handlers", // 2025-07-12
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
+      "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
+      "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       // END: 2025cs
       // END: cs
     ]],[
@@ -363,6 +367,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025go-grafana
       // END: go-grafana
     ]],[
+    "go-prometheus", [
+      "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
+      // END: 2025go-prometheus
+      // END: go-prometheus
+    ]],[
     "erl-rabbitmq", [
       "implementing-the-saga-pattern-with-rebus-and-rabbitmq", // 202404-01
       // END: 2024erl-rabbitmq
@@ -378,6 +387,7 @@ export const template: SidebarInfoTemplate = {
       "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
       "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
       "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
+      "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       // END: 2025docker
       // END: docker
     ]],[

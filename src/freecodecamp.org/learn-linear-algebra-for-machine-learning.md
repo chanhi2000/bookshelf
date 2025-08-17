@@ -89,12 +89,12 @@ Linear algebra is at the heart of machine learning and deep learning. Here are s
 
 This course provides a structured approach to learning linear algebra from a machine learning perspective. You will explore topics such as:
 
-- **✅ Vectors and Matrices** – Understanding the building blocks of linear algebra and their real-world applications.  
-- **✅ Matrix Operations** – Addition, multiplication, and transformations that are crucial in machine learning.  
-- **✅ Determinants and Inverses** – Key properties that help in solving equations and understanding transformations.  
-- **✅ Eigenvalues and Eigenvectors** – Essential for dimensionality reduction and principal component analysis.  
-- **✅ Linear Transformations** – How matrices can be used to transform data in different ways.  
-- **✅ Applications in Machine Learning** – Practical examples of how these concepts are used in AI models.
+- **✅ Vectors and Matrices** - Understanding the building blocks of linear algebra and their real-world applications.  
+- **✅ Matrix Operations** - Addition, multiplication, and transformations that are crucial in machine learning.  
+- **✅ Determinants and Inverses** - Key properties that help in solving equations and understanding transformations.  
+- **✅ Eigenvalues and Eigenvectors** - Essential for dimensionality reduction and principal component analysis.  
+- **✅ Linear Transformations** - How matrices can be used to transform data in different ways.  
+- **✅ Applications in Machine Learning** - Practical examples of how these concepts are used in AI models.
 
 :::
 

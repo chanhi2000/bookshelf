@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can make interactive hyperlinks in any attributed string, which in turn means you can add interactive hyperlinks to any UIKit control. If you're working with `UITextView` (which is likely, let's face it), you get basic hyperlinks just by enabling the "Links" data detector in Interface Builder, but that doesn't work for arbitrary strings – for example, maybe you want the words “tap here" to be interactive.
+You can make interactive hyperlinks in any attributed string, which in turn means you can add interactive hyperlinks to any UIKit control. If you're working with `UITextView` (which is likely, let's face it), you get basic hyperlinks just by enabling the "Links" data detector in Interface Builder, but that doesn't work for arbitrary strings - for example, maybe you want the words “tap here" to be interactive.
 
 Here is a complete example of arbitrary hyperlinks using a `UITextView`. Make sure your text view has "Selectable" enabled, as this is required by iOS:
 

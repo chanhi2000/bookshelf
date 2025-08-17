@@ -60,12 +60,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749585600223/49e9c92
 
 <SiteInfo
   name="The Apple Code Signing Handbook"
-  desc="In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms – with various identifiers, certificates, and profiles – can appear complex. This guide attempts to make that journey ..."
+  desc="In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms - with various identifiers, certificates, and profiles - can appear complex. This guide attempts to make that journey ..."
   url="https://freecodecamp.org/news/apple-code-signing-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1749585600223/49e9c922-0b5d-4a98-a619-eedfd7a8b617.png"/>
 
-In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms – with various identifiers, certificates, and profiles – can appear complex. This guide attempts to make that journey more manageable and straightforward for you.
+In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms - with various identifiers, certificates, and profiles - can appear complex. This guide attempts to make that journey more manageable and straightforward for you.
 
 Throughout this handbook, you will learn how to:
 
@@ -93,7 +93,7 @@ The Bundle ID and the corresponding App ID registered with Apple form the basis 
 
 Think of the Bundle ID as a unique name or a fingerprint for your app. The `CFBundleIdentifier`, more commonly known as the **Bundle ID**, is a string that uniquely identifies your application.
 
-This identifier is not just a name – it serves multiple crucial purposes.
+This identifier is not just a name - it serves multiple crucial purposes.
 
 - The operating system relies on it to apply specific preferences and settings to an app.
 - This is used to launch the application from other apps etc.
@@ -116,7 +116,7 @@ While Xcode won’t stop you from creating something like `com.google.mapping` o
 
 :::
 
-The fundamental nature of the Bundle ID as a unique, system-wide identifier – coupled with its immutability after an app is first uploaded to App Store Connect – means that you should treat its selection with the same seriousness as choosing a **permanent, unchangeable identifier** for a critical entity. A mistake in the Bundle ID after this point can necessitate creating an entirely new app listing on the App Store.
+The fundamental nature of the Bundle ID as a unique, system-wide identifier - coupled with its immutability after an app is first uploaded to App Store Connect - means that you should treat its selection with the same seriousness as choosing a **permanent, unchangeable identifier** for a critical entity. A mistake in the Bundle ID after this point can necessitate creating an entirely new app listing on the App Store.
 
 ### App IDs in the Apple Developer Portal: Explicit vs. Wildcard
 
@@ -129,7 +129,7 @@ There are two main types of App IDs:
 - **Explicit App ID:** This type is used for a single application. The Bundle ID specified within an explicit App ID must be an exact match for the CFBundleIdentifier in the app's Info.plist file (for example, `com.mycompany.myapp`). Explicit App IDs are required for apps that use many of Apple's specific services and capabilities, such as In-App Purchases (which are enabled by default for explicit App IDs), Push Notifications, iCloud, HealthKit, and Sign in with Apple.
 - **Wildcard App ID:** This type can be used for a set of applications that share a common Bundle ID prefix. It contains an asterisk (\*) as the last part of its Bundle ID string (for example, `com.mycompany.*`). This wildcard App ID would match any app whose Bundle ID starts with `com.mycompany.`, such as `com.mycompany.app` or `com.mycompany.utility`. But you can’t use wildcard App IDs if the app requires services or capabilities that mandate an explicit App ID.
 
-The choice between an explicit and a wildcard App ID has significant implications. The App ID acts as a central registration point, and the capabilities are "enabled" for this registration – more on capabilities later in this handbook.
+The choice between an explicit and a wildcard App ID has significant implications. The App ID acts as a central registration point, and the capabilities are "enabled" for this registration - more on capabilities later in this handbook.
 
 You can think of an explicit App ID as a specific key designed to unlock extra "keyholes" (capabilities). A wildcard App ID, being more generic, might not fit these extra keyholes. If you choose a wildcard App ID initially for convenience, but you need a feature requiring an explicit App ID (like Push Notifications) later, you’ll be forced to create a new explicit App ID and reconfigure associated settings and provisioning profiles.
 
@@ -227,7 +227,7 @@ If you prefer programmatic management or automation, the App Store Connect API p
 
 ### What are Certificates?
 
-Certificates are digital credentials that verify a **developer's identity** – that is, you – to Apple and, by extension, to the app users.
+Certificates are digital credentials that verify a **developer's identity** - that is, you - to Apple and, by extension, to the app users.
 
 They are fundamental to Apple's code signing process, which is mandatory for all apps to ensure they originate from a **known source** and have not been tampered with since being signed.
 
@@ -252,14 +252,14 @@ Apple provides different types of certificates for various stages of development
 
 - **Purpose:** Used to sign apps during the development phase, allowing them to be installed and run on a limited number of *registered test devices* and simulators for debugging and testing.
 - **Identifies:** Typically identifies an individual developer through their developer ID.
-- **Used with:** Development provisioning profiles – more on this later.
+- **Used with:** Development provisioning profiles - more on this later.
 
 #### 2. Distribution Certificates (for example, "Apple Distribution"):
 
 - **Purpose:** Used to sign apps intended for distribution, either through Ad Hoc methods (to a limited set of *registered testers*) or for submission to the App Store.
 - **Identifies:** The development team via the team identifier.
 - **Use Cases:**
-    1. **App Store:** For signing the final version of an app that will be uploaded to App Store Connect for TestFlight beta testing or release on the App Store (iOS, macOS, tvOS, watchOS). These are used with App Store provisioning profiles – more on this later.
+    1. **App Store:** For signing the final version of an app that will be uploaded to App Store Connect for TestFlight beta testing or release on the App Store (iOS, macOS, tvOS, watchOS). These are used with App Store provisioning profiles - more on this later.
     2. **Ad Hoc:** For signing apps that will be distributed to a *limited number of registered test devices outside of the App Store or TestFlight*. These are used with Ad Hoc provisioning profile. More on this later.
 
 #### 3. Developer ID Certificates (for Mac apps distributed outside the Mac App Store):
@@ -282,7 +282,7 @@ The following table summarizes these certificate types:
 
 ![Create a new certificate screen in App Store Connect](https://cdn.hashnode.com/res/hashnode/image/upload/v1748216973656/76df3f64-c84e-4195-a092-37c1143d8b1b.png)
 
-### How to Create an Apple Certificate – An Overview
+### How to Create an Apple Certificate - An Overview
 
 Here’s a general outline of how you create an Apple Certificate:
 
@@ -297,14 +297,14 @@ Now we’ll go through each step in more detail. This part is very important, si
 
 A Certificate Signing Request (CSR) is a fancy name for an encrypted block of text containing information about who’s requesting the certificate (like your name and the public key). These are widely used in the cryptography world.
 
-For our purposes, you’ll generate a CSR on your Mac and then submit it to Apple to request a digital certificate. The CSR generation process also creates a new public/private key pair on the Mac – the private key is stored in Keychain Access and is used for the eventual code signing.
+For our purposes, you’ll generate a CSR on your Mac and then submit it to Apple to request a digital certificate. The CSR generation process also creates a new public/private key pair on the Mac - the private key is stored in Keychain Access and is used for the eventual code signing.
 
 To create a CSR using Keychain Access on macOS:
 
 1. Launch Keychain Access (you can find it at <FontIcon icon="fas fa-folder-open"/>`/Applications/Utilities/` or use spotlight).
 2. From the menu bar, choose Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority.... (Here the Certificate Authority would be Apple).
 3. In the dialog, enter your email address and a common name for the key (for example, "My Mac Key" or "[Your Name] Dev Key"). This name is primarily for your identification in the Keychain.
-4. Leave the "CA Email Address" field empty – we won’t email it to the Certificate Authority (Apple).
+4. Leave the "CA Email Address" field empty - we won’t email it to the Certificate Authority (Apple).
 5. Select the "Saved to disk" option and click "Continue".
 6. Save the file, which will have a <FontIcon icon="fas fa-file-lines"/>`.certSigningRequest` extension. The corresponding private key is now stored in the login keychain. **This private key is irreplaceable by Apple and you must store it yourself.**
 
@@ -322,7 +322,7 @@ Once you’ve created a CSR, you can request a certificate from the Apple Develo
 
 ![Prompt to upload the CSR after selecting the type of certificate](https://cdn.hashnode.com/res/hashnode/image/upload/v1748289386364/78f46b4e-b232-4484-98c2-dcb75120fd61.png)
 
-To install the certificate, double-click the downloaded <FontIcon icon="fas fa-key"/>`.cer` file. It will be added to the Keychain Access application – usually appearing in the "login" keychain under the "My Certificates" category, where it should be paired with the private key generated during the CSR generation process earlier.
+To install the certificate, double-click the downloaded <FontIcon icon="fas fa-key"/>`.cer` file. It will be added to the Keychain Access application - usually appearing in the "login" keychain under the "My Certificates" category, where it should be paired with the private key generated during the CSR generation process earlier.
 
 You can see my certificate and private key in the image below for reference.
 
@@ -330,7 +330,7 @@ You can see my certificate and private key in the image below for reference.
 
 To recap, the CSR certifies that you generated the request from your mac. The certificate certifies that Apple (in this case, an intermediary like the "Apple Worldwide Developer Relations Certification Authority") confirms that they verified the CSR and that it is indeed you who will sign with the certificate (<FontIcon icon="fas fa-key"/>`.cer`) file.
 
-This is enforced by only you having access to the private key – if you lose it, you cannot use this certificate anymore.
+This is enforced by only you having access to the private key - if you lose it, you cannot use this certificate anymore.
 
 So, if you use this certificate (and the private key) to sign an app, the app store / operating system knows that it is you for sure since Apple confirmed it.
 
@@ -348,7 +348,7 @@ A <FontIcon icon="fas fa-key"/>`.p12` file is a password-protected archive forma
 - Transferring the digital identity to another Mac (for example, for another team member or a new development machine).
 - Providing the identity to automated build systems or third-party build services.
 
-Historically, I have stored the <FontIcon icon="fas fa-key"/>`.p12` file on a shared drive with my team and shared the password to it verbally – you can also store it in a local backup disk.
+Historically, I have stored the <FontIcon icon="fas fa-key"/>`.p12` file on a shared drive with my team and shared the password to it verbally - you can also store it in a local backup disk.
 
 Great. So how do you create one?
 
@@ -376,14 +376,14 @@ A provisioning profile is a <FontIcon icon="fas fa-file-lines"/>`.mobileprovisio
 
 - **The App ID:** Specifies which application (or set of applications, if using a wildcard App ID) the profile applies to.
 - **Certificates:** Contains one or more developer or distribution certificates that can be used to sign the app.
-- **Device UDIDs (for Development and Ad Hoc):** For profiles intended for testing on specific devices, it includes a list of the Unique Device Identifiers (UDIDs) of those authorized devices – more on devices in the next section.
+- **Device UDIDs (for Development and Ad Hoc):** For profiles intended for testing on specific devices, it includes a list of the Unique Device Identifiers (UDIDs) of those authorized devices - more on devices in the next section.
 - **Entitlements:** A list of app services or capabilities (like Push Notifications, iCloud, App Groups) that the app is permitted to use. These are derived from the capabilities enabled for the *associated App ID*.
 
 You can open the file using `vim` or any editor to see parts of the content which include the App Id, Operating Systems, Certificates, and so on.
 
 The operating system checks the provisioning profile at app launch to ensure the app is authorized to run on the current device and use the requested services. If the profile is missing, invalid, or doesn't match the app's signature or the device, the app will not launch.
 
-They are difference from certificates, because certificates are tied to you as a developer. But provisioning profiles are to a specific app – with specific capabilities to a specific developer and maybe on specific devices.
+They are difference from certificates, because certificates are tied to you as a developer. But provisioning profiles are to a specific app - with specific capabilities to a specific developer and maybe on specific devices.
 
 If any of these change (let’s say you added a capability or your certificate expired, for example), you’ll need to generate the provisioning profile again. These are the files you will work with the most out of all the above, and any change can cause your profile to become invalid.
 
@@ -425,7 +425,7 @@ We will go over each of these types now. Feel free to skip to the one that you�
 #### Enterprise Provisioning Profile:
 
 - Exclusively for members of the **Apple Developer Enterprise Program**. It allows developers of these orgs to distribute proprietary, in-house applications directly to their employees, bypassing the public App Store.
-- Note: This program has stringent enrollment criteria and is strictly for internal distribution within the enrolled organization – these apps cannot be pushed to AppStore.
+- Note: This program has stringent enrollment criteria and is strictly for internal distribution within the enrolled organization - these apps cannot be pushed to AppStore.
 
 ### How to Create and Manage Provisioning Profiles
 
@@ -439,7 +439,7 @@ General steps for manual creation in the Developer Portal:
 2. Click the add button (+).
 3. Select the type of provisioning profile to create (for example, "iOS App Development," "Ad Hoc," "App Store").
 4. Choose the App ID you’re targeting from the dropdown list.
-5. Select the certificate(s) to include in the profile. Development profiles can include multiple development certificates – so you can include all the team member certificates here. Ad Hoc and App Store profiles include a single distribution certificate.
+5. Select the certificate(s) to include in the profile. Development profiles can include multiple development certificates - so you can include all the team member certificates here. Ad Hoc and App Store profiles include a single distribution certificate.
 6. If creating a Development or Ad Hoc profile, select the registered devices to include.
 7. Provide a name for the provisioning profile (this is for identification in the portal and Xcode).
 8. Click "Generate" and then "Download" the <FontIcon icon="fas fa-file-lines"/>`.mobileprovision` or <FontIcon icon="fas fa-file-lines"/>`.provisionprofile` file.
@@ -450,7 +450,7 @@ I really like Xcode's "Automatically manage signing" feature and it can simplify
 
 Provisioning profiles will become invalid and require regeneration if:
 
-- The capabilities of the associated App ID are changed – let’s say you added a new capability.
+- The capabilities of the associated App ID are changed - let’s say you added a new capability.
 - An included certificate expires or is revoked.
 - For Development/Ad Hoc profiles, if devices are added or removed from the registered list in a way that affects the profile's device set, or if the profile's own expiration date is reached. When such changes occur, you have to edit the profile (if possible) or delete it and recreate it in the Developer Portal, then re-download it and install it again. While this may seem like a complicated step, it’s straightforward if you do it a couple of times.
 
@@ -478,7 +478,7 @@ There are several ways to find a device's UDID:
 - **Finder (macOS Catalina and later):** Connect the iOS or iPadOS device to a Mac. Open Finder and select the device from the sidebar under "Locations." The UDID may be displayed directly, or it might be necessary to click on the line of text beneath the device's name (which shows model, storage, and OS version) to cycle through to display the UDID.
 - **iTunes (older macOS versions):** For Macs running macOS Mojave or earlier, connect the device and open iTunes. Select the device icon when it appears. In the "Summary" tab, click on the "Serial Number" field; this will change to display the UDID.
 - **Apple Silicon Macs:** When registering an Apple Silicon Mac, it's important to look for the "Provisioning UDID," which can be found in System Information under Hardware > Provisioning UDID.
-- **Other Ways:** There are some websites that will install a profile on to your device to get the UUID – so as an absolute last resort, you can do this. *But I highly recommend doing it in the one of the official ways to avoid any potential issues.*
+- **Other Ways:** There are some websites that will install a profile on to your device to get the UUID - so as an absolute last resort, you can do this. *But I highly recommend doing it in the one of the official ways to avoid any potential issues.*
 
 ### How to Register Devices in the Apple Developer Portal
 
@@ -569,7 +569,7 @@ You can follow me at [<FontIcon icon="fas fa-globe"/>Sravan Karuturi](https://ha
 ```component VPCard
 {
   "title": "The Apple Code Signing Handbook",
-  "desc": "In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms – with various identifiers, certificates, and profiles – can appear complex. This guide attempts to make that journey ...",
+  "desc": "In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms - with various identifiers, certificates, and profiles - can appear complex. This guide attempts to make that journey ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/apple-code-signing-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

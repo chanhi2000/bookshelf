@@ -44,7 +44,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "The guard keyword in Swift: early returns made easy – Hacking with Swift",
+  "title": "The guard keyword in Swift: early returns made easy - Hacking with Swift",
   "desc": "The guard keyword in Swift: early returns made easy",
   "link": "https://hackingwithswift.com/new-syntax-swift-2-guard",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -124,5 +124,5 @@ func printName() {
 }
 ```
 
-That last example shows how unwrapped optionals remain in scope – a key advantage of `guard` compared to regular early returns.
+That last example shows how unwrapped optionals remain in scope - a key advantage of `guard` compared to regular early returns.
 

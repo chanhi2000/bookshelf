@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Split view controllers on iPad have an automatic display mode, which means in landscape both the left and right view controllers are visible, but in portrait the left view controller slides over and away as needed.
 
-If this isn't preferable – if, for example, you want to mimic the way the Settings app works in portrait – you can force both view controllers to be visible at all times like this:
+If this isn't preferable - if, for example, you want to mimic the way the Settings app works in portrait - you can force both view controllers to be visible at all times like this:
 
 ```swift
 yourSplitViewController.preferredDisplayMode = .allVisible

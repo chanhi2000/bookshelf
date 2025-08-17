@@ -140,7 +140,7 @@ Modularity has the following advantages:
 - The project tends to be easier to maintain and less prone to errors and bugs when it's clearly organized and subdivided.
 - If your project is subdivided into many different pieces, each can be worked on and modified separately and independently, which is often very useful.
 
-I know this sounds a bit generic, but modularity or the practice of subdividing things is a very big part of what software architecture is all about. So just keep this concept in the back of your mind – it'll become more clear and apparent as we go through some examples.
+I know this sounds a bit generic, but modularity or the practice of subdividing things is a very big part of what software architecture is all about. So just keep this concept in the back of your mind - it'll become more clear and apparent as we go through some examples.
 
 If you'd like a bit more info about this topic, I recently wrote [an article about the use of modules in JS](/freecodecamp.org/modules-in-javascript.md) that you might find useful.
 
@@ -200,7 +200,7 @@ All **this communication happens through APIs** just like with a regular monolit
 
 This sounds a bit more complex, and it is, but microservices offer us the following benefits:
 
-- You can **scale particular services as needed**, instead of scaling the whole back end at once. Following our example, when we started to experience performance issues we vertically scaled our whole server – but actually the feature that requested the more resources was only the streaming. Now that we have the streaming feature separated into a single server, we can scale only that one and leave the rest alone as long as they keep working right.
+- You can **scale particular services as needed**, instead of scaling the whole back end at once. Following our example, when we started to experience performance issues we vertically scaled our whole server - but actually the feature that requested the more resources was only the streaming. Now that we have the streaming feature separated into a single server, we can scale only that one and leave the rest alone as long as they keep working right.
 - Features will be more **loosely coupled**, which means we'll be able to develop and deploy them independently.
 - The **codebase** for each server will be much smaller and **simpler**. Which is nice for the dev folks that have been working with us from the start, and also easier and quicker for new developers to understand.
 

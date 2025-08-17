@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-It takes just one method to enable swipe to delete in table views: `tableView(_:commit:forRowAt:)`. This method gets called when a user tries to delete one of your table rows using swipe to delete, but its very presence is what enables swipe to delete in the first place – that is, iOS literally checks to see whether the method exists, and, if it does, enables swipe to delete.
+It takes just one method to enable swipe to delete in table views: `tableView(_:commit:forRowAt:)`. This method gets called when a user tries to delete one of your table rows using swipe to delete, but its very presence is what enables swipe to delete in the first place - that is, iOS literally checks to see whether the method exists, and, if it does, enables swipe to delete.
 
 When you want to handle deleting, you have to do three things: first, check that it's a delete that's happening and not an insert (this is down to how you use the UI); second, delete the item from the data source you used to build the table; and third, call `deleteRows(at:)` on your table view.
 

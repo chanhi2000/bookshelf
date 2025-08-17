@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Angular Material Navigation Menu – Complete Responsive Navigation
-description: Article(s) > Angular Material Navigation Menu – Complete Responsive Navigation
+title: Angular Material Navigation Menu - Complete Responsive Navigation
+description: Article(s) > Angular Material Navigation Menu - Complete Responsive Navigation
 icon: fa-brands fa-angular
 category: 
   - Node.js
@@ -21,9 +21,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > Angular Material Navigation Menu – Complete Responsive Navigation
+      content: Article(s) > Angular Material Navigation Menu - Complete Responsive Navigation
     - property: og:description
-      content: Angular Material Navigation Menu – Complete Responsive Navigation
+      content: Angular Material Navigation Menu - Complete Responsive Navigation
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/angular-material-navigation.html
 prev: /programming/js-angular/articles/README.md
@@ -59,7 +59,7 @@ cover: /assets/image/code-maze.com/angular-material-navigation/banner.png
 ---
 
 <SiteInfo
-  name="Angular Material Navigation Menu – Complete Responsive Navigation"
+  name="Angular Material Navigation Menu - Complete Responsive Navigation"
   desc="In this article, we are going to learn about Angular Material Navigation, how to create it and make it fully responsive with side bar and main nav menu."
   url="https://code-maze.com/angular-material-navigation/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -87,7 +87,7 @@ Because this series is all about angular material, this article won’t be an ex
 
 ```component VPCard
 {
-  "title": "Angular Material Navigation Menu – Complete Responsive Navigation",
+  "title": "Angular Material Navigation Menu - Complete Responsive Navigation",
   "desc": "In this article, we are going to learn about Angular Material Navigation, how to create it and make it fully responsive with side bar and main nav menu.",
   "link": "/code-maze.com/angular-material-navigation.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -107,7 +107,7 @@ Because this series is all about angular material, this article won’t be an ex
 
 ```component VPCard
 {
-  "title": "Angular Material – Error and Details Pages With Material Components",
+  "title": "Angular Material - Error and Details Pages With Material Components",
   "desc": "In this article we create different pages by using Angular Material Progress Bar, Spinner, Check Box, Card, Select and Expansion Panel Components.",
   "link": "/code-maze.com/angular-material-error-details-pages.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -135,7 +135,7 @@ We strongly recommend reading our [<FontIcon icon="fas fa-globe"/>Angular Series
 
 ::: info
 
-The source code is available at GitHub [Angular Material Navigation Menu – Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/navigation)
+The source code is available at GitHub [Angular Material Navigation Menu - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/navigation)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"

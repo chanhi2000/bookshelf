@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
-description: Article(s) > Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
+title: Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+description: Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
 icon: iconfont icon-git
 category: 
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
+      content: Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
     - property: og:description
-      content: Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
+      content: Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/
 prev: /programming/git/articles/README.md
@@ -41,7 +41,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ---
 
 <SiteInfo
-  name="Gitting Things Done – A Visual and Practical Guide to Git [Full Book]"
+  name="Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
   desc="Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us..."
   url="https://freecodecamp.org/news/gitting-things-done-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -52,7 +52,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Introduction",
-  "desc": "(1/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/introduction.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -62,7 +62,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Part 1 - Main Objects and Introducing Changes",
-  "desc": "(2/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(2/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/part-1-main-objects-and-introducing-changes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -72,7 +72,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Part 2 - Branching and Integrating Changes",
-  "desc": "(3/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(3/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/part-2-branching-and-integrating-changes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -82,7 +82,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Part 3 - Undoing Changes",
-  "desc": "(4/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(4/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/part-3-undoing-changes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -92,7 +92,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Part 4 - Amazing and Useful Git Tools",
-  "desc": "(5/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(5/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/part-4-amazing-and-useful-git-tools.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -102,7 +102,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ```component VPCard
 {
   "title": "Summary",
-  "desc": "(6/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "desc": "(6/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "link": "/freecodecamp.org/gitting-things-done-book/summary.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -176,7 +176,7 @@ The most default diff algorithm in Git is Myers:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

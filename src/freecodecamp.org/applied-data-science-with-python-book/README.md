@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-description: "Article(s) > Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+title: "Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+description: "Article(s) > Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
-      content: "Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/applied-data-science-with-python-book/
 prev: /programming/py/articles/README.md
@@ -42,17 +42,17 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
 
-In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle.  
+In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle.  
 
 Imagine having the power to effortlessly transform raw data into a competitive weapon, predicting customer behavior, optimizing operations, and driving your business forward. This is the power of business intelligence, and Python is your key to tapping into it.
 
-This book isn't just about Python – it's about empowering you to become a data expert, equipped with the skills to streamline your workflow, gain a competitive edge in the job market, and become an indispensable asset to your team.
+This book isn't just about Python - it's about empowering you to become a data expert, equipped with the skills to streamline your workflow, gain a competitive edge in the job market, and become an indispensable asset to your team.
 
 I'll help equip you with the practical skills and knowledge to leverage Python for impactful business analysis. You'll start by building a solid foundation in the core elements of Python programming, learning the syntax, data types, functions, and control structures necessary to effectively manipulate and analyze data.
 
@@ -73,14 +73,14 @@ Whether you're starting your data career or seeking to advance your skills, this
 ```component VPCard
 {
   "title": "1. Python Foundations: Building Blocks for Data Mastery",
-  "desc": "(1/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(1/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }
 ```
 
-- [**1.1 Data Types:**](/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md#11-basic-python-syntax) There are a variety of data types you'll encounter – numbers, strings, booleans, and more – and understanding how to work with them is fundamental.
+- [**1.1 Data Types:**](/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md#11-basic-python-syntax) There are a variety of data types you'll encounter - numbers, strings, booleans, and more - and understanding how to work with them is fundamental.
 - [**1.2 Variables:**](/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md#12-data-types-and-variables) Data values can be stored and manipulated using variables, a key concept in data analysis.
 - [**1.3 Functions:**](/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md#13-operators-manipulating-and-comparing-data) Reusable code blocks, or functions, can be created to perform specific tasks, streamlining the analysis process.
 - [**1.4 Conditional Statements and Loops:**](/freecodecamp.org/applied-data-science-with-python-book/1-python-foundations-building-blocks-for-data-mastery.md#14-control-flow) The flow of code can be controlled with `if` statements, `for` loops, and `while` loops.
@@ -91,7 +91,7 @@ Whether you're starting your data career or seeking to advance your skills, this
 ```component VPCard
 {
   "title": "2. Essential Libraries: Your Data Wrangling Dream Team",
-  "desc": "(2/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(2/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/2-essential-libraries-your-data-wrangling-dream-team.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -114,7 +114,7 @@ Whether you're starting your data career or seeking to advance your skills, this
 ```component VPCard
 {
   "title": "3. Practical Examples: From Theory to Action",
-  "desc": "(3/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(3/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/3-practical-examples-from-theory-to-action.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -130,7 +130,7 @@ In addition to theory, you'll gain hands-on experience:
 ```component VPCard
 {
   "title": "4. Data Analysis Fundamentals: The Art of Making Sense of Data",
-  "desc": "(4/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(4/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/4-data-analysis-fundamentals-the-art-of-making-sense-of-data.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -145,7 +145,7 @@ In addition to theory, you'll gain hands-on experience:
 ```component VPCard
 {
   "title": "5. Introduction to the Project",
-  "desc": "(5/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(5/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/5-introduction-to-the-project.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -158,7 +158,7 @@ In addition to theory, you'll gain hands-on experience:
 ```component VPCard
 {
   "title": "6. Code Walkthrough",
-  "desc": "(6/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(6/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/6-code-walkthrough.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -173,7 +173,7 @@ In addition to theory, you'll gain hands-on experience:
 ```component VPCard
 {
   "title": "7. Analyzing The Results",
-  "desc": "(7/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(7/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/7-analyzing-the-results.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -191,7 +191,7 @@ In addition to theory, you'll gain hands-on experience:
 ```component VPCard
 {
   "title": "8. Conclusion and Future Steps",
-  "desc": "(8/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+  "desc": "(8/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/8-conclusion-and-future-steps.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

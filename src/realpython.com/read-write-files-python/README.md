@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Wa
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: 
 
 <SiteInfo
-  name="Reading and Writing Files in Python – Real Python"
+  name="Reading and Writing Files in Python - Real Python"
   desc="In this course, you'll learn about reading and writing files in Python. You'll cover everything from what a file is made up of to which libraries can help you along that way. You'll also take a look at some basic scenarios of file usage as well as some advanced techniques."
   url="https://realpython.com/courses/reading-and-writing-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -79,7 +79,7 @@ This tutorial is mainly for beginner to intermediate Pythonistas, but there are 
 ::: info Quiz - Reading and Writing Files in Python
 
 <SiteInfo
-  name="Reading and Writing Files in Python Quiz – Real Python"
+  name="Reading and Writing Files in Python Quiz - Real Python"
   desc="A quiz used for testing the user's knowledge of the topics covered in the Reading and Writing Files in Python article."
   url="https://realpython.com/quizzes/read-write-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -175,7 +175,7 @@ If you have any questions, hit us up in the comments.
 ::: info Quiz - Reading and Writing Files in Python
 
 <SiteInfo
-  name="Reading and Writing Files in Python Quiz – Real Python"
+  name="Reading and Writing Files in Python Quiz - Real Python"
   desc="A quiz used for testing the user's knowledge of the topics covered in the Reading and Writing Files in Python article."
   url="https://realpython.com/quizzes/read-write-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -190,7 +190,7 @@ A quiz used for testing the user's knowledge of the topics covered in the Readin
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: 
 
 <SiteInfo
-  name="Reading and Writing Files in Python – Real Python"
+  name="Reading and Writing Files in Python - Real Python"
   desc="In this course, you'll learn about reading and writing files in Python. You'll cover everything from what a file is made up of to which libraries can help you along that way. You'll also take a look at some basic scenarios of file usage as well as some advanced techniques."
   url="https://realpython.com/courses/reading-and-writing-files-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftData automatically saves all stored property into its data storage. If you don’t want that – if you have temporary data that is needed only while your program is running – then you can mark it using the `@Transient` macro so that SwiftData treats it as ephemeral and disposable, so it won’t be saved along with the rest of your data.
+SwiftData automatically saves all stored property into its data storage. If you don’t want that - if you have temporary data that is needed only while your program is running - then you can mark it using the `@Transient` macro so that SwiftData treats it as ephemeral and disposable, so it won’t be saved along with the rest of your data.
 
 For example, if you were building a game, you might want to track how many levels a player has completed in the current run so you can suggest they take a break after a while, like this:
 
@@ -70,9 +70,9 @@ For example, if you were building a game, you might want to track how many level
 }
 ```
 
-That starts with a default value of 0 when your app runs, and will automatically reset to 0 when the app terminates – it won’t be stored inside SwiftData.
+That starts with a default value of 0 when your app runs, and will automatically reset to 0 when the app terminates - it won’t be stored inside SwiftData.
 
-SwiftData automatically saves only the *stored* properties of your models – any computed properties are automatically transient. For example, if we wanted to put our `Player` model into a high score table, we might add a computed property that shows both their name and score:
+SwiftData automatically saves only the *stored* properties of your models - any computed properties are automatically transient. For example, if we wanted to put our `Player` model into a high score table, we might add a computed property that shows both their name and score:
 
 ```swift
 @Model class Player {

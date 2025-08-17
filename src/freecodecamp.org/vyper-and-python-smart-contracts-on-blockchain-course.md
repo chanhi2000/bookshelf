@@ -75,12 +75,12 @@ By the end of the course, you will be able to:
 
 This course goes beyond the basics, introducing you to key blockchain concepts and practical applications, including:
 
-- Fuzzing – Testing smart contract security
-- NFTs – Creating and managing non-fungible tokens
-- Algorithmic Trading – Building automated trading strategies
-- AI Integration – Using AI for smart contract development
-- ERC20 Tokens – Developing and interacting with Ethereum-based tokens
-- DeFi (Decentralized Finance) – Exploring financial applications on the blockchain
+- Fuzzing - Testing smart contract security
+- NFTs - Creating and managing non-fungible tokens
+- Algorithmic Trading - Building automated trading strategies
+- AI Integration - Using AI for smart contract development
+- ERC20 Tokens - Developing and interacting with Ethereum-based tokens
+- DeFi (Decentralized Finance) - Exploring financial applications on the blockchain
 
 ---
 
@@ -88,13 +88,13 @@ This course goes beyond the basics, introducing you to key blockchain concepts a
 
 The course is structured into multiple hands-on sections, including:
 
-- Blockchain Basics – Understanding how blockchain and smart contracts work
-- Python Crash Course – Learning Python from scratch
-- Web3 Development with Python – Interacting with blockchain via Web3Py
-- Smart Contract Deployment and Interactions – Using Vyper, Boa, and Moccasin frameworks
-- NFTs, ERC20 Tokens, and Stablecoins – Building real-world blockchain applications
-- Algorithmic Trading and AI in Blockchain – Implementing AI-powered trading strategies
-- Final Project – Applying skills in a real-world blockchain development challenge
+- Blockchain Basics - Understanding how blockchain and smart contracts work
+- Python Crash Course - Learning Python from scratch
+- Web3 Development with Python - Interacting with blockchain via Web3Py
+- Smart Contract Deployment and Interactions - Using Vyper, Boa, and Moccasin frameworks
+- NFTs, ERC20 Tokens, and Stablecoins - Building real-world blockchain applications
+- Algorithmic Trading and AI in Blockchain - Implementing AI-powered trading strategies
+- Final Project - Applying skills in a real-world blockchain development challenge
 
 This is one of the most in-depth courses available for learning smart contract development with Python and Vyper. Whether you are an aspiring blockchain developer or just curious about Web3, this course will equip you with the essential skills to get started.
 

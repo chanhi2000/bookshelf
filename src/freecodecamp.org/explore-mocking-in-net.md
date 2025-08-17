@@ -131,7 +131,7 @@ In essence, mocking helps developers write more reliable and efficient tests by 
 
 ### Code Isolation
 
-As I've already explained, mocking dependencies allows for isolation of code for testing. By mocking the dependencies, you can assert the points of failure in the code under test, and not the dependencies themselves (unless you mock them incorrectly – which hopefully this tutorial will help you avoid).
+As I've already explained, mocking dependencies allows for isolation of code for testing. By mocking the dependencies, you can assert the points of failure in the code under test, and not the dependencies themselves (unless you mock them incorrectly - which hopefully this tutorial will help you avoid).
 
 ### Faster Testing
 

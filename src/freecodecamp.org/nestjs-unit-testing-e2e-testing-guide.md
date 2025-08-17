@@ -282,7 +282,7 @@ The image below shows the unit test coverage results for a demo project:
 
 ![Unit test coverage overview showing test results with percentages for statements, branches, functions, and lines](https://camo.githubusercontent.com/e3de4ecc6be093ac92a514fa183f688c455b00cc15a3d003bfe2f25e31a08c4f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313331302f666f726d61743a776562702f302a515a5f4d4a77774c715752314d3136652e706e67)
 
-For files like services and controllers, it's generally better to have a higher unit test coverage, while for files like modules there's no need to write unit tests – nor is it possible to write them, as it's meaningless.
+For files like services and controllers, it's generally better to have a higher unit test coverage, while for files like modules there's no need to write unit tests - nor is it possible to write them, as it's meaningless.
 
 This is because NestJS modules are primarily configuration files that define the structure of your application by connecting controllers, services, and other components together. They don't contain actual business logic to test, but rather serve as wiring instructions for the dependency injection system. Testing modules would only verify that NestJS's core functionality works correctly, which is already tested by the NestJS team themselves.
 
@@ -477,7 +477,7 @@ For short-term projects and projects with very fast requirement iterations, it's
 
 For example, a project built for an event that will be useless after the event ends doesn't need tests. Also, for projects that undergo very fast requirement iterations, writing tests could enhance development efficiency, but that's based on the premise that function iterations are slow. If the function you just completed changes in a day or two, the related test code must be rewritten.
 
-So, it's better not to write tests at all in these cases and rely on the testing team instead – because writing tests is very time-consuming and not worth the effort for these situations.
+So, it's better not to write tests at all in these cases and rely on the testing team instead - because writing tests is very time-consuming and not worth the effort for these situations.
 
 ---
 

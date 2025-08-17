@@ -83,11 +83,11 @@ Machine Learning Operations, or MLOps for short, is a methodology that integrate
 
 MLOps has several main goals: continuous optimization, scalability, and the delivery of operational value over time.
 
-The financial industry provides great use cases for MLOps processes and techniques, as these can help businesses manage complicated data pipelines, deploy models in real-time, and evaluate their performance – all while making sure they're compliant with regulations.
+The financial industry provides great use cases for MLOps processes and techniques, as these can help businesses manage complicated data pipelines, deploy models in real-time, and evaluate their performance - all while making sure they're compliant with regulations.
 
 ### Why is MLOps Important in Finance?
 
-Financial institutions are subject to various rules including Anti-Money Laundering (AML), Know Your Customer (KYC), and Fraud Prevention Regulations – so they have to carefully manage private information. Ignoring these rules might result in severe fines and loss of reputation.
+Financial institutions are subject to various rules including Anti-Money Laundering (AML), Know Your Customer (KYC), and Fraud Prevention Regulations - so they have to carefully manage private information. Ignoring these rules might result in severe fines and loss of reputation.
 
 Detecting fraud in financial transactions also calls for advanced systems capable of real-time identification of suspicious activity.
 

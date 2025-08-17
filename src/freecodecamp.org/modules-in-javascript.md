@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Modules in JavaScript – CommonJS and ESmodules Explained"
-description: "Article(s) > Modules in JavaScript – CommonJS and ESmodules Explained"
+title: "Modules in JavaScript - CommonJS and ESmodules Explained"
+description: "Article(s) > Modules in JavaScript - CommonJS and ESmodules Explained"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Modules in JavaScript – CommonJS and ESmodules Explained"
+      content: "Article(s) > Modules in JavaScript - CommonJS and ESmodules Explained"
     - property: og:description
-      content: "Modules in JavaScript – CommonJS and ESmodules Explained"
+      content: "Modules in JavaScript - CommonJS and ESmodules Explained"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/modules-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2022/04/carson-arias-7Z03R1w
 ---
 
 <SiteInfo
-  name="Modules in JavaScript – CommonJS and ESmodules Explained"
+  name="Modules in JavaScript - CommonJS and ESmodules Explained"
   desc="Hi everyone! In this article we're going to take a look at modules in JavaScript. Modules are a technique heavily used in today's software design/architecture. First we're going to learn what they are and the different types of modules that exist. Th..."
   url="https://freecodecamp.org/news/modules-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -374,7 +374,7 @@ But there's one more thing about this. If we go to the network tab of the browse
 
 ![](https://freecodecamp.org/news/content/images/2022/04/screenshot_3.png)
 
-Of course if we're going to use the code inside each file, both need to be loaded – but this is not the best thing to do. That's because the browser needs to perform two different requests to load all the JS necessary.
+Of course if we're going to use the code inside each file, both need to be loaded - but this is not the best thing to do. That's because the browser needs to perform two different requests to load all the JS necessary.
 
 We should always try to reduce the requests to the minimun to increase the performance of our projects. So let's see how we can do this with the help of a module bundler.
 
@@ -424,7 +424,7 @@ This file will be responsible for the configuration of Webpack and how it will w
 
 What we're doing here first is setting the entry file (`entry: './main.js'`). Webpack will start by reading that file and then analyzing all the dependencies (modules imported from that file). In other words, the entry file is our main JS file where all other modules are imported.
 
-Then we're declaring the output – first declaring the path where it will be stored and then declaring the name of the bundled file.
+Then we're declaring the output - first declaring the path where it will be stored and then declaring the name of the bundled file.
 
 ```js
 output: {
@@ -508,7 +508,7 @@ Cheers and see you in the next one! =D
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Modules in JavaScript – CommonJS and ESmodules Explained",
+  "title": "Modules in JavaScript - CommonJS and ESmodules Explained",
   "desc": "Hi everyone! In this article we're going to take a look at modules in JavaScript. Modules are a technique heavily used in today's software design/architecture. First we're going to learn what they are and the different types of modules that exist. Th...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/modules-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

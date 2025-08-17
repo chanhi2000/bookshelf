@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,13 +63,13 @@ Swift has two anonymous types: `Any` and `AnyObject`. They are subtly different,
 
 `AnyObject` refers to any instance of a class, and is equivalent to `id` in Objective-C. It’s useful when you specifically want to work with a reference type, because it won’t allow any of Swift’s structs or enums to be used. `AnyObject` is also used when you want to restrict a protocol so that it can be used only with classes.
 
-`Any` refers to any instance of a class, struct, or enum – literally anything at all. You’ll see this in Swift wherever types are unknown or are mixed in ways that can be meaningfully categorized:
+`Any` refers to any instance of a class, struct, or enum - literally anything at all. You’ll see this in Swift wherever types are unknown or are mixed in ways that can be meaningfully categorized:
 
 ```swift
 let values: [Any] = [1, 2, "Fish"]
 ```
 
-Ideally you should avoid both `Any` and `AnyObject` in your code – it’s better to be more specific if you can be.
+Ideally you should avoid both `Any` and `AnyObject` in your code - it’s better to be more specific if you can be.
 
 -->
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS"
-description: "Article(s) > JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS"
+title: "JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
+description: "Article(s) > JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS"
+      content: "Article(s) > JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
     - property: og:description
-      content: "JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS"
+      content: "JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2020/11/cover-1.png
 ---
 
 <SiteInfo
-  name="JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS"
+  name="JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
   desc="Promises are important building blocks for asynchronous operations in JavaScript. You may think that promises are not so easy to understand, learn, and work with. And trust me, you are not alone!  Promises are challenging for many web developers, eve..."
   url="https://freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -85,7 +85,7 @@ The word 'asynchronous' means that something happens in the future, not right no
 
 While `callbacks` are helpful, there is a huge downside to them as well. At times, we may have one callback inside another callback that's in yet another callback and so on. I'm serious! Let's understand this "callback hell" with an example.
 
-### How to Avoid Callback Hell – PizzaHub Example
+### How to Avoid Callback Hell - PizzaHub Example
 
 Let's order a Veg Margherita pizza 🍕 from the PizzaHub. When we place the order, PizzaHub automatically detects our location, finds a nearby pizza restaurant, and finds if the pizza we are asking for is available.
 
@@ -183,14 +183,14 @@ The `new Promise()` constructor returns a `promise` object. As the executor func
 
 A `promise` object has the following internal properties:
 
-1. `state` – This property can have the following values:
+1. `state` - This property can have the following values:
 2. `pending`: Initially when the executor function starts the execution.
 3. `fulfilled`: When the promise is resolved.
 4. `rejected`: When the promise is rejected.
 
 ![Promise states](https://freecodecamp.org/news/content/images/2020/11/states_1.png)
 
-1. `result` – This property can have the following values:
+1. `result` - This property can have the following values:
 2. `undefined`: Initially when the `state` value is `pending`.
 3. `value`: When `resolve(value)` is called.
 4. `error`: When `reject(error)` is called.
@@ -604,7 +604,7 @@ let promise_1 = getPromise(POKEMONS_BAD_URL);
 
 ### The `Promise.race()` method
 
-`Promise.race([promises])` – It waits for the first (quickest) promise to settle, and returns the result/error accordingly.
+`Promise.race([promises])` - It waits for the first (quickest) promise to settle, and returns the result/error accordingly.
 
 ```js
 Promise.race([promise_1, promise_2, promise_3]).then(result => {
@@ -618,13 +618,13 @@ Promise.race([promise_1, promise_2, promise_3]).then(result => {
 
 ### The `Promise.resolve`/`reject` methods
 
-`Promise.resolve(value)` – It resolves a promise with the value passed to it. It is the same as the following:
+`Promise.resolve(value)` - It resolves a promise with the value passed to it. It is the same as the following:
 
 ```js
 let promise = new Promise(resolve => resolve(value));
 ```
 
-`Promise.reject(error)` – It rejects a promise with the error passed to it. It is the same as the following:
+`Promise.reject(error)` - It rejects a promise with the error passed to it. It is the same as the following:
 
 ```js
 let promise = new Promise((resolve, reject) => reject(error));
@@ -780,7 +780,7 @@ You may also like these other articles:
 
 ```component VPCard
 {
-  "title": "JavaScript TypeOf – How to Check the Type of a Variable or Object in JS",
+  "title": "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS",
   "desc": "Data types and type checking are fundamental aspects of any programming language. Many programming languages like Java have strict type checking. This means that if a variable is defined with a specific type it can contain a value of only that type. ...",
   "link": "/freecodecamp.org/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -793,7 +793,7 @@ That's all for now. See you again with my next article soon. Until then, please 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JavaScript Promise Tutorial – How to Resolve or Reject Promises in JS",
+  "title": "JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS",
   "desc": "Promises are important building blocks for asynchronous operations in JavaScript. You may think that promises are not so easy to understand, learn, and work with. And trust me, you are not alone!  Promises are challenging for many web developers, eve...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

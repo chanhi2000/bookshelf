@@ -54,7 +54,7 @@ head:
 
 **New in iOS 17**
 
-SwiftUI’s `withAnimation()` function can optionally be given a completion callback with code to run when the animation finishes. This might be where you adjust some program state, but you can also use it as a simple way to chain animations together – to animate one thing, then animate something else afterwards.
+SwiftUI’s `withAnimation()` function can optionally be given a completion callback with code to run when the animation finishes. This might be where you adjust some program state, but you can also use it as a simple way to chain animations together - to animate one thing, then animate something else afterwards.
 
 For example, this makes a button scale up then fade out:
 
@@ -112,7 +112,7 @@ struct ContentView: View {
 
 ![A button that scales up then disappears when pressed.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-run-a-completion-callback-when-an-animation-finishes-2~dark@2x.gif)
 
-I probably wouldn’t recommend that unless you had a very specific use case – the default setting ought to be fine.
+I probably wouldn’t recommend that unless you had a very specific use case - the default setting ought to be fine.
 
 ::: tip
 

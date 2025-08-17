@@ -47,12 +47,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733871988108/cde4ea9
 
 <SiteInfo
   name="How to Automate Branch-Specific Netlify Configurations with a Bash Script: A Step-by-Step Guide"
-  desc="When you’re working on a project with multiple environments – like staging and production – for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository. T..."
+  desc="When you’re working on a project with multiple environments - like staging and production - for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository. T..."
   url="https://freecodecamp.org/news/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1733871988108/cde4ea9b-705c-40e0-9730-09dbeebdfbae.png"/>
 
-When you’re working on a project with multiple environments – like staging and production – for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository.
+When you’re working on a project with multiple environments - like staging and production - for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository.
 
 This can be daunting in situations where multiple developers are actively working on a codebase, making changes to different branches, or managing multiple branch-specific configurations.
 
@@ -82,7 +82,7 @@ In your frontend deployment for each of the clients, all your requests made to e
 
 ## What are Redirects/Rewrites?
 
-Redirects, or rewrites, are rules you can create to have certain URLs automatically go to a new location anywhere on the internet (source: [<FontIcon icon="fas fa-globe"/>WPengine](https://wpengine.com/)). These are also generally known as **URL forwarding** and you can use them anywhere – in entire websites, sections of a website, or an entire web application.
+Redirects, or rewrites, are rules you can create to have certain URLs automatically go to a new location anywhere on the internet (source: [<FontIcon icon="fas fa-globe"/>WPengine](https://wpengine.com/)). These are also generally known as **URL forwarding** and you can use them anywhere - in entire websites, sections of a website, or an entire web application.
 
 In web applications, redirects are often utilized to determine how to process requests. Web hosting platforms such as Netlify and Vercel use them as well, giving developers the option to determine how their web applications process requests.
 
@@ -111,7 +111,7 @@ This is a sample <FontIcon icon="iconfont icon-toml"/>`netlify.toml` file source
 
 ![Sample netlify.toml file showing configuration](https://cdn.hashnode.com/res/hashnode/image/upload/v1733947216566/f64670b4-9d28-4c50-a753-1deb27dfc646.png)
 
-**Quick Note:** using the redirects file for redirecting certain requests to our API is perfectly fine. But it can be considered a security risk adding our API URL in plain text in the *redirects* file if the API_BASE_URL is supposed to be private. This is because any file in the public folder is what it sounds like – public – and anyone can access it.
+**Quick Note:** using the redirects file for redirecting certain requests to our API is perfectly fine. But it can be considered a security risk adding our API URL in plain text in the *redirects* file if the API_BASE_URL is supposed to be private. This is because any file in the public folder is what it sounds like - public - and anyone can access it.
 
 If the direct locations you desire to have in your app are public URLs, then feel free to utilize the `_redirects` file syntax. But if you prefer to have a private URL(s), utilizing a <FontIcon icon="iconfont icon-toml"/>`netlify.toml` configuration file in combination with the environment variables is generally a better idea.
 
@@ -133,7 +133,7 @@ To avoid the above problems, we will use a small script in our codebase to dynam
 
 Below is a screenshot of a sample <FontIcon icon="iconfont icon-toml"/>`netlify.toml` file we are trying to achieve for each build. You can see that all our requests that match `api/v1/` in our codebase will be routed to our API.
 
-You could have your API endpoint requests structured differently, for example `/api/your-endpoint` – just make sure to adjust the script accordingly. In this sample project, we use `api/v1/your-endpoint` as our structure.
+You could have your API endpoint requests structured differently, for example `/api/your-endpoint` - just make sure to adjust the script accordingly. In this sample project, we use `api/v1/your-endpoint` as our structure.
 
 ![Netlify configuration file showing build commands and redirect rules](https://cdn-images-1.medium.com/max/800/1*oj_oJDA7lnC9we2zuQHm4w.png)
 
@@ -282,7 +282,7 @@ When all the variables have been imported, you can inspect them to confirm that 
 
 ### Step 2: Trigger a new deploy
 
-When all your environment variables have been imported for the different contexts – production and staging in this case – navigate to “deploys” on the left panel of your screen. Then hit the “Trigger deploy” button, clear the cache, and initiate a new deployment.
+When all your environment variables have been imported for the different contexts - production and staging in this case - navigate to “deploys” on the left panel of your screen. Then hit the “Trigger deploy” button, clear the cache, and initiate a new deployment.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733954838853/79685cf6-54a5-4495-8777-914fcc46950f.png)
 
@@ -310,7 +310,7 @@ Feel free to connect with me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`fr
 ```component VPCard
 {
   "title": "How to Automate Branch-Specific Netlify Configurations with a Bash Script: A Step-by-Step Guide",
-  "desc": "When you’re working on a project with multiple environments – like staging and production – for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository. T...",
+  "desc": "When you’re working on a project with multiple environments - like staging and production - for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository. T...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

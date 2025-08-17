@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Special IPv4 Addresses"
-description: "Article(s) > (6/8) How IPv4 Works – A Handbook for Developers" 
+description: "Article(s) > (6/8) How IPv4 Works - A Handbook for Developers" 
 category:
   - Engineering
   - Computer
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (6/8) How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > (6/8) How IPv4 Works - A Handbook for Developers"
     - property: og:description
       content: "Special IPv4 Addresses"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers#heading-special-ipv4-addresses"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -62,7 +62,7 @@ The address `0.0.0.0` means "this host" and is used in two scenarios:
 
 First, when a machine boots up and doesn't yet have an IP address. IP addresses are logical addresses that need to be assigned to a machine. Prior to this assignment, a device has no IP address at all. If the device needs to communicate at this stage, it may use this special address, `0.0.0.0`.
 
-Second, when writing network applications that need to listen for incoming connections on all network interfaces. For example, if a machine has two interfaces – one with the IP address `1.1.1.1`, and another with the address `2.2.2.2` – listening on the address `0.0.0.0` means accepting connections regardless of which network interface receives them.
+Second, when writing network applications that need to listen for incoming connections on all network interfaces. For example, if a machine has two interfaces - one with the IP address `1.1.1.1`, and another with the address `2.2.2.2` - listening on the address `0.0.0.0` means accepting connections regardless of which network interface receives them.
 
 ---
 
@@ -88,7 +88,7 @@ This means "send a packet to the host `66.66` on this network." Of course, the r
 
 ## Broadcast Addresses
 
-The address `255.255.255.255`, where all bits are set to `1`, is the address of all hosts in the local network – the broadcast address. This is similar to the [**broadcast address in Ethernet**](https://freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/#heading-unicast-and-multicast-bits) (`FF:FF:FF:FF:FF:FF`). In both cases, all bits are set to `1`.
+The address `255.255.255.255`, where all bits are set to `1`, is the address of all hosts in the local network - the broadcast address. This is similar to the [**broadcast address in Ethernet**](https://freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/#heading-unicast-and-multicast-bits) (`FF:FF:FF:FF:FF:FF`). In both cases, all bits are set to `1`.
 <!-- TODO: /freecodecamp.org/the-complete-guide-to-the-ethernet-protocol/README.md -->
 
 Using a proper network identifier where the host identifier is all set to 1s can be used to send a broadcast packet to remote networks. For example, consider a network `12.34.0.0/16` and another network with the network ID of `12.35.0.0/16`. If a machine at `12.34.55.55` wants to send a packet to all devices in the other network, it could use the destination address: `12.35.255.255`.
@@ -101,13 +101,13 @@ Even though this is allowed according to the IP specification (RFC), in practice
 
 All addresses in the network `127.0.0.0/8` (that is, all addresses that start with `127`) are loopback addresses. Packets sent to any of these addresses are not put onto the physical network but are processed locally within the operating system. This is extremely useful for development and debugging.
 
-For example, when developing a simple chat program, you need two clients that exchange data. One approach would be to use two different physical computers, but this is tedious – you'd need to write a message on one computer, check the other computer to see if it was received, then write a message on the second computer, and go back to the first to validate receipt.
+For example, when developing a simple chat program, you need two clients that exchange data. One approach would be to use two different physical computers, but this is tedious - you'd need to write a message on one computer, check the other computer to see if it was received, then write a message on the second computer, and go back to the first to validate receipt.
 
 A much simpler approach is to use a loopback address. Both clients can run on the same machine and connect with one another. You can run two different client programs on the same physical computer and exchange messages between them without needing an additional machine.
 
 For instance, you might use the address `127.0.0.1`, with one client listening on port `1337` and the other on port `1338`. When client A sends a packet to client B, this packet never leaves your network card but remains within the operating system. Client B receives the packet from the loopback interface as if it had been received from the physical network.
 
-After debugging is complete, your client code doesn't need to change – the only difference is that they will communicate using real IP addresses instead of the loopback address.
+After debugging is complete, your client code doesn't need to change - the only difference is that they will communicate using real IP addresses instead of the loopback address.
 
 ![Loopback operation<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744736895494/fd1e4a8d-a834-4bf4-b4b9-1e83cf851161.png)
 

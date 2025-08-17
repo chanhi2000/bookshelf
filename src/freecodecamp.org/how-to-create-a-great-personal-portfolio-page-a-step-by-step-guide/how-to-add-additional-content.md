@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Add Additional Content"
-description: "Article(s) > (7/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners" 
+description: "Article(s) > (7/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners" 
 category:
   - Career
   - Tip
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (7/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+      content: "Article(s) > (7/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
     - property: og:description
       content: "How to Add Additional Content"
     - property: og:url
@@ -32,7 +32,7 @@ cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Grea
 
 ```component VPCard
 {
-  "title": "How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "title": "How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "desc": "As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach...",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Grea
 ---
 
 <SiteInfo
-  name="How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+  name="How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
   desc="As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach..."
   url="https://freecodecamp.org/news/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide#heading-how-to-add-additional-content"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -61,7 +61,7 @@ Incorporate feedback from previous clients or colleagues to highlight your skill
 
 ::: tip Example
 
-a section titled "What People Are Saying" can feature a carousel of quotes from past clients, such as: "Alex transformed our brand's vision into reality with exceptional design and attention to detail. Working with them was a game-changer!" – Jamie, Brand Manager
+a section titled "What People Are Saying" can feature a carousel of quotes from past clients, such as: "Alex transformed our brand's vision into reality with exceptional design and attention to detail. Working with them was a game-changer!" - Jamie, Brand Manager
 
 :::
 

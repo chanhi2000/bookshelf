@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/J7d0XPBYwKw" />
 
-We've been mixing UIKit and SpriteKit ever since our first SpriteKit project, way back in project 11. Don't believe me? Look inside `GameViewController.swift` and you'll see a plain old `UIViewController` do all the work of loading and showing our `GameScene` code. There's a <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` file containing that view controller, and if you go to the identity inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>) you'll see it has `SKView` set for its custom class – that's the view holding our scene.
+We've been mixing UIKit and SpriteKit ever since our first SpriteKit project, way back in project 11. Don't believe me? Look inside `GameViewController.swift` and you'll see a plain old `UIViewController` do all the work of loading and showing our `GameScene` code. There's a <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` file containing that view controller, and if you go to the identity inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>) you'll see it has `SKView` set for its custom class - that's the view holding our scene.
 
 This UIKit setup existed all along, but so far we've been ignoring it. No more: we're going to add some controls to that view so that players can fire bananas. The way the game works, each player gets to enter an angle and a velocity for their throw. We'll be recreating this with a `UISlider` for both of these numbers, along with a `UILabel` so players can see exactly what numbers they chose. We'll also add a "Launch" button that makes the magic happen.
 
@@ -61,7 +61,7 @@ Now, think about this for a moment: our game view controller needs to house and 
 
 This two-way communication could be done using `NotificationCenter`, but it's not very pleasant: we know the sender and receiver, and we know exactly what kind of data they will send and receive, so the easiest solution here is to give the view controller a property that holds the game scene, and give the game scene a property that holds the view controller.
 
-Hopefully that should be setting off some alarm bells in your head, because if two objects own each other then we have a strong reference cycle – neither object can be destroyed. The solution is to make one of them have a weak reference to the other: either the game controller owns the game scene strongly, or the game scene owns the game controller strongly, but not both. As it so happens, the game controller already strongly owns the game scene, albeit indirectly: it owns the `SKView` inside itself, and the view owns the game scene. So, it's owned, we just don't have a reference to it.
+Hopefully that should be setting off some alarm bells in your head, because if two objects own each other then we have a strong reference cycle - neither object can be destroyed. The solution is to make one of them have a weak reference to the other: either the game controller owns the game scene strongly, or the game scene owns the game controller strongly, but not both. As it so happens, the game controller already strongly owns the game scene, albeit indirectly: it owns the `SKView` inside itself, and the view owns the game scene. So, it's owned, we just don't have a reference to it.
 
 So, our solution is straightforward: add a strong reference to the game scene inside the view controller, and add a weak reference to the view controller from the game scene. Add this property to the game scene:
 
@@ -86,7 +86,7 @@ The first line sets the property to the initial game scene so that we can start 
 
 Now to design the user interface: this needs two sliders, each with two labels, plus a launch button and one more label that will show whose turn it is. When you open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` you'll probably see that it's shaped like an iPhone, which isn’t helpful when designing this user interface. Instead, I’d like you to click the View As button at the bottom of Interface Builder, and select a 9.7-inch iPad in landscape orientation so that we have more space for drawing.
 
-Drop two sliders into your layout, both 300 points wide. The first should be at X:20, the second should be at X:480, and both should be at Y:20. Now place two labels in there, both 120 points wide. The first should be at X:325, the second should be at X:785, and both should be at Y:24 – this is slightly lower than the sliders so that everything is centered neatly.
+Drop two sliders into your layout, both 300 points wide. The first should be at X:20, the second should be at X:480, and both should be at Y:20. Now place two labels in there, both 120 points wide. The first should be at X:325, the second should be at X:785, and both should be at Y:24 - this is slightly lower than the sliders so that everything is centered neatly.
 
 For the launch button, place a button at X:910 Y:13, with width 100 and height 44; for the "which player is it?" label, place a label at X:370 Y:64 with width 285 and height 35.
 
@@ -122,7 +122,7 @@ The action methods for our two sliders are both simple: they update the correct 
 }
 ```
 
-The only hard thing there is typing the ° symbol that represents degrees – to do that, press Shift+Option+8. With those methods written, we need to call both of them inside `viewDidLoad()` in order to have them load up with their default values. Add this to `viewDidLoad()` just after the call to `super`:
+The only hard thing there is typing the ° symbol that represents degrees - to do that, press Shift+Option+8. With those methods written, we need to call both of them inside `viewDidLoad()` in order to have them load up with their default values. Add this to `viewDidLoad()` just after the call to `super`:
 
 ```swift
 angleChanged(angleSlider)

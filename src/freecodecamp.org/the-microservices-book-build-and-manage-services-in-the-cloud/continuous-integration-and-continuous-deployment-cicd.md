@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Continuous Integration and Continuous Deployment (CI/CD)"
-description: "Article(s) > (12/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud" 
+description: "Article(s) > (12/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud" 
 category:
   - Node.js
   - RabbitMQ
@@ -25,7 +25,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (12/18) The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+      content: "Article(s) > (12/18) The Microservices Book - Learn How to Build and Manage Services in the Cloud"
     - property: og:description
       content: "Continuous Integration and Continuous Deployment (CI/CD)"
     - property: og:url
@@ -40,7 +40,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732028836710/aedce66
 
 ```component VPCard
 {
-  "title": "The Microservices Book – Learn How to Build and Manage Services in the Cloud",
+  "title": "The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "desc": "In today’s fast-paced tech landscape, microservices have emerged as one of the most efficient ways to architect and manage scalable, flexible, and resilient cloud-based systems. Whether you're working with large-scale applications or building somethi...",
   "link": "/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732028836710/aedce66
 ---
 
 <SiteInfo
-  name="The Microservices Book – Learn How to Build and Manage Services in the Cloud"
+  name="The Microservices Book - Learn How to Build and Manage Services in the Cloud"
   desc="In today’s fast-paced tech landscape, microservices have emerged as one of the most efficient ways to architect and manage scalable, flexible, and resilient cloud-based systems. Whether you're working with large-scale applications or building somethi..."
   url="https://freecodecamp.org/news/the-microservices-book-build-and-manage-services-in-the-cloud#heading-continuous-integration-and-continuous-deployment-cicd"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

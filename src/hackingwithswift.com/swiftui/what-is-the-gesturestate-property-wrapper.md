@@ -83,9 +83,9 @@ Image("niagara-falls")
 
 There’s quite a lot of code in there, so let’s unpack it:
 
-1. The `DragGesture().updating()` code creates a new drag gesture, asking it to modify the value stored in `dragAmount` – that’s our `CGSize`.
+1. The `DragGesture().updating()` code creates a new drag gesture, asking it to modify the value stored in `dragAmount` - that’s our `CGSize`.
 2. It takes a closure with three parameters: `value`, `state`, and `transaction`.
-3. The `value` parameter is the current data for the drag – where it started, how far it’s moved, where it’s predicted to end, and so on.
+3. The `value` parameter is the current data for the drag - where it started, how far it’s moved, where it’s predicted to end, and so on.
 4. The `state` parameter is an `inout` value that is our property. So, rather than reading or writing `dragAmount` directly, inside this closure we should modify `state`.
 5. The `transaction` parameter is an `inout` value that stores the whole animation context, giving us a little information about what’s going on such as whether this is a continuous or transient animation. Continuous animations might be produced by dragging a slider, whereas transient animations might be produced by tapping a button.
 6. To make our view draggable, all we do is assign the current translation the drag straight to `state` (which is really `dragAmount` in this case), which in turn is used in the `offset()` modifier to move the view.

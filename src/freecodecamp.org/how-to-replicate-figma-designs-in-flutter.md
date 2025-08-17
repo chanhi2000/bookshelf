@@ -20,7 +20,7 @@ head:
       content: "How to Replicate Figma Designs in Flutter — A Guide to Pixel-Perfect UI Replication"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-replicate-figma-designs-in-flutter.html
-prev: /articles/README.md
+prev: /programming/dart/articles/README.md
 date: 2025-08-08
 isOriginal: false
 author:
@@ -33,9 +33,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754608436544/1825df0
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Dart > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/dart/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

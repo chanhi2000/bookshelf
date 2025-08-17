@@ -98,7 +98,7 @@ undoManager?.redo()
 
 ::: important
 
-I’ve found that undo works perfectly every time, correctly undoing property changes or removing objects and relations that were inserted. However, I’ve found *redo* more flaky: it seems happy to redo simple property changes (changing someone’s name, for example), but struggles when redoing changes that involved objects with relations being deleted – I’ve had it crash several times. Tread carefully!
+I’ve found that undo works perfectly every time, correctly undoing property changes or removing objects and relations that were inserted. However, I’ve found *redo* more flaky: it seems happy to redo simple property changes (changing someone’s name, for example), but struggles when redoing changes that involved objects with relations being deleted - I’ve had it crash several times. Tread carefully!
 
 :::
 

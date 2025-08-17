@@ -112,7 +112,7 @@ Thanks to OpenAI’s GPT-4 and now GPT-4o, AI is no longer just sitting on the s
 
 Even advanced software like an [<FontIcon icon="fas fa-globe"/>AI voice generator](https://murf.ai/) is being built into dev tools, so developers can talk instead of typing. Devs are already building a lightweight to-do app just by speaking commands through AI voice generators integrated with their IDE.
 
-It’s not just your average fancy plugin – but a new baseline.
+It’s not just your average fancy plugin - but a new baseline.
 
 ### Everyone’s Using It
 
@@ -122,7 +122,7 @@ Still, simply using the tool isn't enough. As a developer, especially if you’r
 
 One team recently migrated a decade-old [**Java codebase**](/freecodecamp.org/javascript-algorithms-and-data-structures-v8.md) with the help of Copilot, resulting in cleaner, safer, and clearer logic. No massive rewrite was required.
 
-Another emerging trend is the intersection of [<FontIcon icon="fas fa-globe"/>AI and QR codes](https://qrcode-tiger.com/ai-and-qr-codes), where developers are utilizing AI to generate dynamic, context-aware QR codes that adapt to user behavior or location. These smart QR codes are integrated into applications for seamless user onboarding, multi-language content delivery, or dynamic promotions – all generated or managed with minimal manual coding thanks to AI.
+Another emerging trend is the intersection of [<FontIcon icon="fas fa-globe"/>AI and QR codes](https://qrcode-tiger.com/ai-and-qr-codes), where developers are utilizing AI to generate dynamic, context-aware QR codes that adapt to user behavior or location. These smart QR codes are integrated into applications for seamless user onboarding, multi-language content delivery, or dynamic promotions - all generated or managed with minimal manual coding thanks to AI.
 
 ![`ai-v2-img3`<br/>[Image Source](https://aitimejournal.com/what-is-artificial-intelligence-ai/29625/)](https://codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg)
 
@@ -136,9 +136,9 @@ Let’s walk through how AI now fits into the entire software creation process.
 
 ### Idea to Code Translation
 
-You have a rough idea – maybe it's a weather app. Perhaps it's a script that automatically generates reports. You used to write out specifications and slowly translate your thoughts into a structured format.
+You have a rough idea - maybe it's a weather app. Perhaps it's a script that automatically generates reports. You used to write out specifications and slowly translate your thoughts into a structured format.
 
-Now? You type: “Build a weather app using OpenWeatherMap API with hourly forecast.” AI drafts the scaffolding – functions and API calls – in seconds.
+Now? You type: “Build a weather app using OpenWeatherMap API with hourly forecast.” AI drafts the scaffolding - functions and API calls - in seconds.
 
 But here’s the catch: while AI can quickly generate the basic structure, like setting up API calls, fetching data, and laying out simple UI elements, it doesn’t always validate whether the API key is securely stored, if error handling is robust, or if the UI is accessible.
 
@@ -211,7 +211,7 @@ export default function Navbar() {
 
 :::
 
-A well-structured prompt gives AI clear instructions (framework, styling tool, behavior). The more specific you are, the closer the AI output will match your intended result. But you’ll still need to review the code it outputs for best practices and accessibility – and as long as you know to check for these key features, you can work with the AI to improve the code it generates.
+A well-structured prompt gives AI clear instructions (framework, styling tool, behavior). The more specific you are, the closer the AI output will match your intended result. But you’ll still need to review the code it outputs for best practices and accessibility - and as long as you know to check for these key features, you can work with the AI to improve the code it generates.
 
 As you can see, it’s not enough to let AI autocomplete for you without any oversight. You still need to understand what it’s completing. Why does this code work? Is it the best way to do it? Could there be a security loophole? Beginners should treat AI suggestions as opportunities to learn, not shortcuts to skip thinking.
 
@@ -318,17 +318,17 @@ What could be better:
 - No performance benchmark to show improvement.
     
 
-The more specific you are with your optimization request (for example, “optimize for speed without losing readability”), the better AI can balance performance and maintainability. A good refactor isn’t just faster – it’s safer and easier to understand.
+The more specific you are with your optimization request (for example, “optimize for speed without losing readability”), the better AI can balance performance and maintainability. A good refactor isn’t just faster - it’s safer and easier to understand.
 
 ### Learning and Skill Acceleration
 
 Coding used to mean searching Stack Overflow for hours. That’s changed.
 
-Now, you ask the AI tool: “Why does this line break?” It replies – context-aware and accurate.
+Now, you ask the AI tool: “Why does this line break?” It replies - context-aware and accurate.
 
 If you're a junior developer, learn asynchronous JavaScript by watching Copilot. With an AI tool like Copilot by your side, you can complete your loops, correct mistakes, and get real-time explanations of what the code is doing.
 
-The AI becomes a sort of tutor – suggesting solutions, providing reasoning, and helping you understand programming concepts as you build.
+The AI becomes a sort of tutor - suggesting solutions, providing reasoning, and helping you understand programming concepts as you build.
 
 :::: tip Example Prompt
 
@@ -365,7 +365,7 @@ What could be better:
 - Doesn’t mention browser compatibility or polyfills for older environments.
     
 
-For learning, the best prompts are concept + example requests. They help AI give explanations that stick and code you can directly experiment with – accelerating both understanding and hands-on skills.
+For learning, the best prompts are concept + example requests. They help AI give explanations that stick and code you can directly experiment with - accelerating both understanding and hands-on skills.
 
 ### AI in No-Code/Low-Code Platforms
 
@@ -438,7 +438,7 @@ Here is an example of a 'Back To Top' button that can be integrated into any web
 
 - No accessibility attributes (aria-label) for screen readers.
 - No hover/focus styles for better UX feedback.
-- No debounce on scroll listener – might slightly impact performance on heavy pages.
+- No debounce on scroll listener - might slightly impact performance on heavy pages.
 - Hardcoded colors and positions limit customization without editing CSS.
 
 :::
@@ -447,7 +447,7 @@ The prompt is clear and specific, so the AI produced a working, minimal solution
 
 ### Collaboration and Workflow Automation
 
-AI doesn’t just touch code – it touches the entire development lifecycle. And automation is just one facet of what AI can do.
+AI doesn’t just touch code - it touches the entire development lifecycle. And automation is just one facet of what AI can do.
 
 AI now auto-generates test cases. It syncs documentation. It creates changelogs from commits. It even suggests sprint tasks based on new PRs. It can also turn your user requirements into [<FontIcon icon="fas fa-globe"/>slide decks generated with AI](https://slidemodel.com/how-to-use-ai-to-generate-a-powerpoint-presentation/), ready for presenting to the stakeholders.
 
@@ -519,7 +519,7 @@ So yes, things are moving faster. But that speed comes with new developments and
 
 ### The Productivity Boom
 
-Developers are shipping faster than ever. Some reports show gains of 2–3 times in feature rollout speed. Bug fixes that took days now happen in hours.
+Developers are shipping faster than ever. Some reports show gains of 2-3 times in feature rollout speed. Bug fixes that took days now happen in hours.
 
 This isn’t just about speed. It’s about staying in flow. When AI handles tedious tasks, developers get more time for thoughtful design and tackling bigger problems.
 
@@ -545,7 +545,7 @@ Developers need to be diligent in reviewing, testing, and taking ownership of th
 
 No, AI hasn’t wiped out developer jobs. But the job description is evolving.
 
-In 2025, “prompt engineer” is more than just a trend. It’s a real skill. Knowing how to give the proper instruction – what to say, how to say it, and when – is becoming core to modern dev work.
+In 2025, “prompt engineer” is more than just a trend. It’s a real skill. Knowing how to give the proper instruction - what to say, how to say it, and when - is becoming core to modern dev work.
 
 New roles are emerging: AI trainers, code curators, and integration specialists.
 

@@ -54,7 +54,7 @@ head:
 
 **New in iOS 15**
 
-SwiftUI provides the `interactiveDismissDisabled()` modifier to control whether the user can swipe downwards to dismiss a sheet. Although swipe to dismiss is usually nice to have, sometimes that’s something you can’t allow – if the user must accept some terms and conditions, for example, then they must take some sort of action before the sheet can be dismissed.
+SwiftUI provides the `interactiveDismissDisabled()` modifier to control whether the user can swipe downwards to dismiss a sheet. Although swipe to dismiss is usually nice to have, sometimes that’s something you can’t allow - if the user must accept some terms and conditions, for example, then they must take some sort of action before the sheet can be dismissed.
 
 In its simplest form, you just need to attach the `interactiveDismissDisabled()` modifier directly to your sheet content, like this:
 

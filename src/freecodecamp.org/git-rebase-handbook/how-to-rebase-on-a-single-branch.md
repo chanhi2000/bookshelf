@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to rebase on a single branch"
-description: "Article(s) > (5/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (5/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (5/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "How to rebase on a single branch"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-advanced-rebasing-in-git"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

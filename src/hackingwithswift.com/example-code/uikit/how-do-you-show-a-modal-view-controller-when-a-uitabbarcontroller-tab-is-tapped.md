@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Usually tapping a tab in a `UITabBar` shows that tab, but it's often the case that you want to override that behavior, for example to show a view modally. If you're using one of Xcode's built-in storyboard templates for creating your user interface, it's not immediately obvious how to do this, but fortunately it's not so hard using the approach below.
 
-First, find the `viewDidLoad()` method for your initial view controller – whichever one is shown first in your app. Now add this code to it:
+First, find the `viewDidLoad()` method for your initial view controller - whichever one is shown first in your app. Now add this code to it:
 
 ```swift
 self.tabBarController?.delegate = UIApplication.shared.delegate as? UITabBarControllerDelegate
@@ -92,7 +92,7 @@ func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewC
 }
 ```
 
-There are two things to note about that code. First, you'll need to give your view controller a storyboard identifier so that `instantiateViewController(withIdentifier:)` will work. Second, this won't have any extra performance impact on your code – the view that would have been shown wasn't created yet, so creating a new one here won't be duplicating any work.
+There are two things to note about that code. First, you'll need to give your view controller a storyboard identifier so that `instantiateViewController(withIdentifier:)` will work. Second, this won't have any extra performance impact on your code - the view that would have been shown wasn't created yet, so creating a new one here won't be duplicating any work.
 
 -->
 

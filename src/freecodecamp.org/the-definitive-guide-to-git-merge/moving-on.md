@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Moving on 👣"
-description: "Article(s) > (5/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (5/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (5/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "Moving on 👣"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-moving-on"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -139,7 +139,7 @@ Ask Git to apply this patch:
 
 ```sh
 git diff main paul_branch_2 > paul_branch_2.patch
-git apply -–index paul_branch_2.patch
+git apply --index paul_branch_2.patch
 ```
 
 And this worked, no problem at all.
@@ -162,7 +162,7 @@ Save this patch and apply it then:
 
 ```sh
 git diff main john_branch_2 > john_branch_2.patch
-git apply –-index john_branch_2.patch
+git apply --index john_branch_2.patch
 ```
 
 ![Apply Paul's patch<br/><Source [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/ZS4stBVdDII)>](https://freecodecamp.org/news/content/images/2023/04/image-264.png)
@@ -194,7 +194,7 @@ Cool, look at the log from the new commit:
 
 Exactly what we wanted.
 
-You can also let Git perform the job for you. You can simply checkout <FontIcon icon="fas fa-code-branch"/>`john_branch_2`, which you haven't moved – so it still points to the same commit as it did before the merge. So all you need to do is run:
+You can also let Git perform the job for you. You can simply checkout <FontIcon icon="fas fa-code-branch"/>`john_branch_2`, which you haven't moved - so it still points to the same commit as it did before the merge. So all you need to do is run:
 
 ```sh
 git merge paul_branch_2
@@ -215,7 +215,7 @@ git reset --hard HEAD~
 And now apply Paul's changes:
 
 ```sh
-git apply -–index paul_branch_2.patch
+git apply --index paul_branch_2.patch
 ```
 
 ![Applying Paul's changes directly to John's branch<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-272.png)

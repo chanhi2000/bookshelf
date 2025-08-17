@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "ASP.NET Core Configuration – Configuration Providers"
-description: "Article(s) > ASP.NET Core Configuration – Configuration Providers"
+title: "ASP.NET Core Configuration - Configuration Providers"
+description: "Article(s) > ASP.NET Core Configuration - Configuration Providers"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > ASP.NET Core Configuration – Configuration Providers"
+      content: "Article(s) > ASP.NET Core Configuration - Configuration Providers"
     - property: og:description
-      content: "ASP.NET Core Configuration – Configuration Providers"
+      content: "ASP.NET Core Configuration - Configuration Providers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/aspnet-configuration-providers.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/aspnet-configuration-providers/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Configuration – Configuration Providers"
+  name="ASP.NET Core Configuration - Configuration Providers"
   desc="In this article, we're going to talk about different configuration providers in ASP.NET Core applications."
   url="https://code-maze.com/aspnet-configuration-providers/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -331,7 +331,7 @@ You can find other parts of this series on the [**ASP.NET Core Web API page**](/
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "ASP.NET Core Configuration – Configuration Providers",
+  "title": "ASP.NET Core Configuration - Configuration Providers",
   "desc": "In this article, we're going to talk about different configuration providers in ASP.NET Core applications.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/https:code-maze.comaspnet-configuration-providers.html",
   "logo": "https://chanhi2000.github.io/bookshelf/assets/image/code-maze.com/favicon.png",

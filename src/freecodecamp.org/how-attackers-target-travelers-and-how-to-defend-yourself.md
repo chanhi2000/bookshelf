@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Attackers Target Travelers – and How to Defend Yourself"
-description: "Article(s) > How Attackers Target Travelers – and How to Defend Yourself"
+title: "How Attackers Target Travelers - and How to Defend Yourself"
+description: "Article(s) > How Attackers Target Travelers - and How to Defend Yourself"
 icon: fas fa-shield-halved
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Attackers Target Travelers – and How to Defend Yourself"
+      content: "Article(s) > How Attackers Target Travelers - and How to Defend Yourself"
     - property: og:description
-      content: "How Attackers Target Travelers – and How to Defend Yourself"
+      content: "How Attackers Target Travelers - and How to Defend Yourself"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-target-travelers-and-how-to-defend-yourself.html
 prev: /devops/security/articles/README.md
@@ -47,17 +47,17 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748447045778/2e335ff
 ---
 
 <SiteInfo
-  name="How Attackers Target Travelers – and How to Defend Yourself"
-  desc="Traveling is one of life’s greatest joys  –  but it also puts a big target on your back for cybercriminals. Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on. From fake Wi-Fi networks to s..."
+  name="How Attackers Target Travelers - and How to Defend Yourself"
+  desc="Traveling is one of life’s greatest joys  -  but it also puts a big target on your back for cybercriminals. Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on. From fake Wi-Fi networks to s..."
   url="https://freecodecamp.org/news/how-attackers-target-travelers-and-how-to-defend-yourself"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748447045778/2e335ffb-b831-4eb3-8683-9a81152154c7.png"/>
 
-Traveling is one of life’s greatest joys  –  but it also puts a big target on your back for cybercriminals.
+Traveling is one of life’s greatest joys  -  but it also puts a big target on your back for cybercriminals.
 
 Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on.
 
-From fake Wi-Fi networks to shady SIM card scams, here are five of the most common digital threats you might face while abroad  – and what you can do to protect yourself.
+From fake Wi-Fi networks to shady SIM card scams, here are five of the most common digital threats you might face while abroad  - and what you can do to protect yourself.
 
 ---
 
@@ -73,7 +73,7 @@ Once you’re on, they can monitor your traffic and steal login details, message
 
 Here’s how to stay safe:
 
-- Avoid using public Wi-Fi for anything sensitive  – especially online banking or shopping.
+- Avoid using public Wi-Fi for anything sensitive  - especially online banking or shopping.
 - Always disable automatic connections to open networks in your device settings.
 - Use a VPN to encrypt your internet traffic. It adds a layer of security that makes it harder for hackers to snoop.
 
@@ -83,7 +83,7 @@ Public Wi-Fi may be convenient, but it comes with serious risks. By being cautio
 
 ## Phony Booking and Visa Websites
 
-Planning your trip online is easy  –  sometimes too easy.
+Planning your trip online is easy  -  sometimes too easy.
 
 Scammers have become incredibly good at creating [<FontIcon icon="fa-brands fa-yahoo"/>fake booking sites](https://yahoo.com/news/watch-fake-hotel-booking-sites-122912758.html) that look just like the real thing. You think you’re reserving a hotel room or applying for a visa, but you’re actually handing over your credit card and passport info to a fraudster.
 
@@ -93,10 +93,10 @@ Here’s what to do:
 
 - Always type website addresses directly into your browser instead of clicking on links from emails or ads.
 - Stick to well-known platforms or go directly to the airline's or hotel’s official website.
-- Look closely at the URL –  check for spelling errors and make sure it begins with “https://”.
+- Look closely at the URL -  check for spelling errors and make sure it begins with “https://”.
 - If applying for a visa, find the government’s official site through a trusted search engine or travel advisory page.
 
-These scams aren’t just inconvenient  –  they can cost you hundreds and delay your trip.
+These scams aren’t just inconvenient  -  they can cost you hundreds and delay your trip.
 
 ---
 
@@ -124,12 +124,12 @@ You’re low on cash, spot an ATM, and withdraw some local currency.
 
 What you don’t see is the skimming device attached to the card slot or a tiny hidden camera above the keypad.
 
-Skimmers copy your card’s data and, together with your PIN, can clone your card and drain your account. This isn’t limited to ATMs, either  – some restaurants and shops use portable card readers that store data for later use.
+Skimmers copy your card’s data and, together with your PIN, can clone your card and drain your account. This isn’t limited to ATMs, either  - some restaurants and shops use portable card readers that store data for later use.
 
 Here’s how to protect yourself:
 
 - Stick to ATMs that are inside banks or monitored locations like hotel lobbies.
-- Tug on the card slot gently  –  if anything feels loose or looks off, don’t use it.
+- Tug on the card slot gently  -  if anything feels loose or looks off, don’t use it.
 - Shield your hand while entering your PIN, even if you’re alone.
 - Use a credit card instead of a debit card when possible. Credit cards offer better fraud protection.
 
@@ -152,7 +152,7 @@ To avoid it:
 - Double-check email senders. Most companies don’t ask for sensitive information through email or text.
 - Don’t click on suspicious links. Go directly to the company’s website or app to check your account.
 - Be polite but cautious with people who ask for personal documents. Always verify their identity first.
-- Use strong, unique passwords for each account, and enable two-factor authentication through a secure app  – not SMS.
+- Use strong, unique passwords for each account, and enable two-factor authentication through a secure app  - not SMS.
 
 If anything feels off, trust your gut. It’s better to ask questions than to regret it later.
 
@@ -162,15 +162,15 @@ If anything feels off, trust your gut. It’s better to ask questions than to re
 
 Cyber scams can’t ruin your trip if you don’t give them the chance. A little preparation goes a long way. Always use a VPN to hide your internet activity. Stick to secure websites. Avoid public Wi-Fi unless absolutely necessary. Use strong passwords and keep your devices updated.
 
-Travel is meant to be fun, not stressful. With the right tools and a few smart habits, you can explore the world safely  – and stay connected without putting your information at risk.
+Travel is meant to be fun, not stressful. With the right tools and a few smart habits, you can explore the world safely  - and stay connected without putting your information at risk.
 
 Hope you enjoyed this article. Join the [<FontIcon icon="fas fa-globe"/>Stealth Security newsletter](https://newsletter.stealthsecurity.sh/) for more articles on cybersecurity. To learn the basics of Offensive Cybersecurity, try the [Security Starter](https://start.stealthsecurity.sh/) course.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Attackers Target Travelers – and How to Defend Yourself",
-  "desc": "Traveling is one of life’s greatest joys  –  but it also puts a big target on your back for cybercriminals. Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on. From fake Wi-Fi networks to s...",
+  "title": "How Attackers Target Travelers - and How to Defend Yourself",
+  "desc": "Traveling is one of life’s greatest joys  -  but it also puts a big target on your back for cybercriminals. Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on. From fake Wi-Fi networks to s...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-target-travelers-and-how-to-defend-yourself.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

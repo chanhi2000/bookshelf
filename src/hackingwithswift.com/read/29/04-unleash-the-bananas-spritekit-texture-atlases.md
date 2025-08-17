@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -75,7 +75,7 @@ var banana: SKSpriteNode!
 var currentPlayer = 1
 ```
 
-Now here's the code for `createPlayers()` – please put this in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`:
+Now here's the code for `createPlayers()` - please put this in <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift`:
 
 ```swift
 func createPlayers() {
@@ -105,11 +105,11 @@ func createPlayers() {
 }
 ```
 
-Now, one thing we haven't done yet is actually add in the images to be used inside the game, and the reason for that is because we're going to use a special technique called texture atlases. SpriteKit doesn't use them by default, which is why we haven't used them yet – there are bigger things to worry about! But this game is perfect for texture atlases, so we're going to use them now.
+Now, one thing we haven't done yet is actually add in the images to be used inside the game, and the reason for that is because we're going to use a special technique called texture atlases. SpriteKit doesn't use them by default, which is why we haven't used them yet - there are bigger things to worry about! But this game is perfect for texture atlases, so we're going to use them now.
 
 A texture atlas is a set of pictures that are combined into a single image. They might be stored in their original orientation, or they might be rotated. Alongside those images, the atlas also contains positions and sizes, which means to render one of those pictures SpriteKit loads the whole atlas and just draws the small window that represents the image you want.
 
-Texture atlases allows SpriteKit to draw lots of images without having to load and unload textures – it effectively just crops the big image as needed. Xcode automatically generates these atlases for us, even rotating sprites to make them fit more efficiently. And the best bit: just like using Assets.xcassets, you don't need to change your code to make them work; just load sprites the same way you've always done.
+Texture atlases allows SpriteKit to draw lots of images without having to load and unload textures - it effectively just crops the big image as needed. Xcode automatically generates these atlases for us, even rotating sprites to make them fit more efficiently. And the best bit: just like using Assets.xcassets, you don't need to change your code to make them work; just load sprites the same way you've always done.
 
 We want to use a texture atlas for our game, so open Assets.xcassets, right-click in the big empty space below AppIcon, and choose New Sprite Atlas. You should then drag all the images for this project onto that atlas, and drag the two particle systems directly into your Xcode project.
 

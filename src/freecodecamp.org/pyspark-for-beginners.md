@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: PySpark for Beginners – How to Process Data with Apache Spark & Python
-description: Article(s) > PySpark for Beginners – How to Process Data with Apache Spark & Python
+title: PySpark for Beginners - How to Process Data with Apache Spark & Python
+description: Article(s) > PySpark for Beginners - How to Process Data with Apache Spark & Python
 icon: fa-brands fa-python
 category: 
   - Python
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > PySpark for Beginners – How to Process Data with Apache Spark & Python
+      content: Article(s) > PySpark for Beginners - How to Process Data with Apache Spark & Python
     - property: og:description
-      content: PySpark for Beginners – How to Process Data with Apache Spark & Python
+      content: PySpark for Beginners - How to Process Data with Apache Spark & Python
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pyspark-for-beginners.html
 prev: /programming/py/articles/README.md
@@ -56,7 +56,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/pyspark.j
 ---
 
 <SiteInfo
-  name="PySpark for Beginners – How to Process Data with Apache Spark & Python"
+  name="PySpark for Beginners - How to Process Data with Apache Spark & Python"
   desc="If you’re diving into the world of big data, you’ve probably come across the term PySpark. PySpark is a tool that makes managing and analyzing large datasets easier. In this article, we will see the basics of PySpark, its benefits, and how you can get started with it. What is..."
   url="https://freecodecamp.org/news/pyspark-for-beginners/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

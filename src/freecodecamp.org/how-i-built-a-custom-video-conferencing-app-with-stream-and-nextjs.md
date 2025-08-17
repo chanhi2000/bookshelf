@@ -49,16 +49,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727433361539/498f074
 
 <SiteInfo
   name="How I Built a Custom Video Conferencing App with Stream and Next.js"
-  desc="Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth – plus you have to know how all of these things work together. And building a project like a video conferencing app from scratch can feel even more overwhe..."
+  desc="Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth - plus you have to know how all of these things work together. And building a project like a video conferencing app from scratch can feel even more overwhe..."
   url="https://freecodecamp.org/news/how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727433361539/498f0742-2ff1-4762-b268-2c25eb22017e.png"/>
 
-Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth – plus you have to know how all of these things work together.
+Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth - plus you have to know how all of these things work together.
 
 And building a project like a video conferencing app from scratch can feel even more overwhelming, especially with the complexities of managing video streams, user auth, and real-time interactions.
 
-But what if I told you there’s an easier way to do this – one that lets you build your video conferencing app in a fraction of the time?
+But what if I told you there’s an easier way to do this - one that lets you build your video conferencing app in a fraction of the time?
 
 In this article, I’ll show you how I built a video conferencing app using [<FontIcon icon="fas fa-globe"/>Stream](https://getstream.io/) and Clerk in Next.js.
 
@@ -87,7 +87,7 @@ Here's how I'll use `Stream` while building the app:
 - Set up real-time video and audio calls
 - Use Stream's UI components to quickly build the interface
 - Implement key features like `video` and `audio` calls
-- `Call Types` – I'll implement instant meetings and pre-scheduled calls using Stream
+- `Call Types` - I'll implement instant meetings and pre-scheduled calls using Stream
 - Leverage Stream's call and participant objects to manage `call state`
 
 ::: note Prerequisites

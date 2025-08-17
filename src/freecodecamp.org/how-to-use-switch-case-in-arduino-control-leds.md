@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Switch Case in Arduino – Control LEDs With the Switch Statement"
-description: "Article(s) > How to Use Switch Case in Arduino – Control LEDs With the Switch Statement"
+title: "How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
+description: "Article(s) > How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
 icon: iconfont icon-cpp
 category:
   - Hardware
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Switch Case in Arduino – Control LEDs With the Switch Statement"
+      content: "Article(s) > How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
     - property: og:description
-      content: "How to Use Switch Case in Arduino – Control LEDs With the Switch Statement"
+      content: "How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-switch-case-in-arduino-control-leds.html
 prev: /hw/articles/README.md
@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728178146204/a1c1a6a
 ---
 
 <SiteInfo
-  name="How to Use Switch Case in Arduino – Control LEDs With the Switch Statement"
+  name="How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
   desc="You can use a switch case statement to execute different blocks of code based on the value of a variable. It offers a more direct and cleaner approach to handling multiple conditions. In this article, you'll learn how to control LEDs using a switch c..."
   url="https://freecodecamp.org/how-to-use-switch-case-in-arduino-control-leds"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

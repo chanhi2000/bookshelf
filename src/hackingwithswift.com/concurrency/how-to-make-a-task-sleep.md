@@ -66,7 +66,7 @@ Calling `Task.sleep()` will make the current task sleep for *at least* the amoun
 
 :::
 
-Using nanoseconds is a bit clumsy, but Swift doesn’t have an alternative at this time – the plan seems to be to wait for a more thorough review of managing time in the language before committing to specific API.
+Using nanoseconds is a bit clumsy, but Swift doesn’t have an alternative at this time - the plan seems to be to wait for a more thorough review of managing time in the language before committing to specific API.
 
 In the meantime, we can add small `Task` extensions to make sleeping easier to accomplish. For example, this lets us sleep using seconds as a floating-point number:
 

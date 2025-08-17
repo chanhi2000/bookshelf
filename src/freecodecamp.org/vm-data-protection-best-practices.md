@@ -83,7 +83,7 @@ Before we proceed with VM security best practices, let’s go over some general 
 
 ## Specific Risks Associated with Virtual Environments
 
-Understanding the risks of virtualization – particularly with VMware, one of the most popular virtualization platforms for enterprises, and Proxmox, which has seen increasing adoption in recent times – will help you and your team build an effective data protection system in your virtualized environments.
+Understanding the risks of virtualization - particularly with VMware, one of the most popular virtualization platforms for enterprises, and Proxmox, which has seen increasing adoption in recent times - will help you and your team build an effective data protection system in your virtualized environments.
 
 The unique threats associated with these platforms dictate how you should secure your virtual machines, servers, networks, and other virtualized nodes.
 

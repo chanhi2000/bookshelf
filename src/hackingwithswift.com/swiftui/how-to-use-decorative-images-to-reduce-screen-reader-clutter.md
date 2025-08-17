@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI automatically uses the names of your images for screen reader labels, which is helpful if you have image names like “Photo of Paul Hudson” or “Hacking with Swift logo.” However, some images aren’t meant to be read because they are merely *decorative* – they don’t convey information that isn’t already elsewhere on the screen, or are instead just there to make the user interface look more attractive.
+SwiftUI automatically uses the names of your images for screen reader labels, which is helpful if you have image names like “Photo of Paul Hudson” or “Hacking with Swift logo.” However, some images aren’t meant to be read because they are merely *decorative* - they don’t convey information that isn’t already elsewhere on the screen, or are instead just there to make the user interface look more attractive.
 
 If you create these images using something like `Image("star")` the screen reader will read them out as part of its standard UI pass. A better idea is to create them using using the `Image(decorative:)` initializer, which tells SwiftUI the image shouldn’t be exposed to the screen reader:
 
@@ -60,7 +60,7 @@ If you create these images using something like `Image("star")` the screen reade
 Image(decorative: "star")
 ```
 
-Once you’ve built your user interface it’s worth doing a final check over using VoiceOver to make sure you have marked your images correctly – the last thing you want is the screen reader speaking out weird internal filenames that you thought were only used in your code!
+Once you’ve built your user interface it’s worth doing a final check over using VoiceOver to make sure you have marked your images correctly - the last thing you want is the screen reader speaking out weird internal filenames that you thought were only used in your code!
 
 ::: details Similar solutions…
 

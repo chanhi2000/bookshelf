@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you want to save unique data for each of your screens, you should use SwiftUI’s `@SceneStorage` property wrapper. This works a bit like `@AppStorage` in that you provide it with a name to save things plus a default value, but rather than working with `UserDefaults` it instead gets used for state restoration – and it even works great with the kinds of complex multi-scene set ups we see so often in iPadOS.
+If you want to save unique data for each of your screens, you should use SwiftUI’s `@SceneStorage` property wrapper. This works a bit like `@AppStorage` in that you provide it with a name to save things plus a default value, but rather than working with `UserDefaults` it instead gets used for state restoration - and it even works great with the kinds of complex multi-scene set ups we see so often in iPadOS.
 
 For example, if you have a text editor and want to store what the user was typing, you should use this kind of code:
 
@@ -68,7 +68,7 @@ struct ContentView: View {
 }
 ```
 
-Because that uses `@SceneStorage`, SwiftUI will automatically make sure that each scene instance has its own copy of the text – if you run the app side by side both will save and restore their data correctly.
+Because that uses `@SceneStorage`, SwiftUI will automatically make sure that each scene instance has its own copy of the text - if you run the app side by side both will save and restore their data correctly.
 
 Now, before you use `@SceneStorage` there are some important warnings from Apple:
 

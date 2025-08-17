@@ -47,12 +47,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754590848364/2e68c07
 
 <SiteInfo
   name="Key Metrics That Can Make or Break Your Startup"
-  desc="If you’ve built something worth pitching – something more than a fancy hobby with a login screen – you need to know your numbers. Not ”I’ll get back to you” know them, know them like you know your co-founder's coffee order. I have seen too many found..."
+  desc="If you’ve built something worth pitching - something more than a fancy hobby with a login screen - you need to know your numbers. Not ”I’ll get back to you” know them, know them like you know your co-founder's coffee order. I have seen too many found..."
   url="https://freecodecamp.org/news/key-metrics-that-can-make-or-break-your-startup"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1754590848364/2e68c07e-d5d8-4da7-bc41-3798c991bfbc.png"/>
 
-If you’ve built something worth pitching – something more than a fancy hobby with a login screen – you need to know your numbers. Not "I’ll get back to you" know them, know them like you know your co-founder's coffee order.
+If you’ve built something worth pitching - something more than a fancy hobby with a login screen - you need to know your numbers. Not "I’ll get back to you" know them, know them like you know your co-founder's coffee order.
 
 I have seen too many founders who are smart, legit, and ambitious get ghosted by investors simply because they couldn't walk through their unit economics.
 
@@ -68,7 +68,7 @@ Burn rate is the speed at which a startup is spending its cash. Basically, how f
 
 If you’re spending $80K a month to keep the lights on (payroll, AWS, your workspace snacks, and so on), that’s how much cash you’re burning each month. But many startups calculate two different burn rates: gross burn (how much cash you’re spending, ignoring any revenue), and net burn (monthly operating experiences minus any cash you take in each month). Net burn basically measures how fast your cash is shrinking, and it’s often what investors care more about.
 
-Real talk: investors want to know when the plane runs out of fuel before they board. Thats what this metric helps them understand – how fast you’re going through the money you have.
+Real talk: investors want to know when the plane runs out of fuel before they board. Thats what this metric helps them understand - how fast you’re going through the money you have.
 
 At some point, if a company has a high burn rate, it has to reduce structural costs by cutting expenditures on labor, rent, marketing, and/or capital equipment. The burn rate is an important metric for any company, but it's particularly important for startups that aren't yet generating revenue. It tells managers and investors how fast the company is spending its capital
 
@@ -90,9 +90,9 @@ The length of runway needed varies based on factors including the startup’s st
 
 While it’s a simple calculation at face value, a cash runway analysis is nuanced and unique to every startup and can be impacted by a multitude of circumstances.
 
-To calculate this, you just divide your total cash reserves by the amount you’re spending each month. Say you’ve got $250K in the bank and you’re spending $50K/month: 250/50 = 5. So you’ve got 5 months. Not 6. Not “it depends” – 5. That’s your runway.
+To calculate this, you just divide your total cash reserves by the amount you’re spending each month. Say you’ve got $250K in the bank and you’re spending $50K/month: 250/50 = 5. So you’ve got 5 months. Not 6. Not “it depends” - 5. That’s your runway.
 
-Investors ask “If we don’t fund you, how long do you survive?” If you don’t know that answer, you're not fundraising – you’re freelancing with hope.
+Investors ask “If we don’t fund you, how long do you survive?” If you don’t know that answer, you're not fundraising - you’re freelancing with hope.
 
 [<FontIcon icon="fa-brands fa-youtube"/>Here is a video](https://youtu.be/vtaMwtQgFGE) that explains cash runway with real world examples and the thought process behind it.
 
@@ -102,7 +102,7 @@ And [<FontIcon icon="fas fa-globe"/>here’s an article](https://jpmorgan.com/in
 
 ### Burn Rate vs Runway
 
-So, let’s just make this super clear: burn rate is simply how much you spend each month to run your operation – that is, your negative cash flow. Runway is how many months there are left before your bank balance reaches zero.
+So, let’s just make this super clear: burn rate is simply how much you spend each month to run your operation - that is, your negative cash flow. Runway is how many months there are left before your bank balance reaches zero.
 
 So again, why do these numbers matter?
 
@@ -112,9 +112,9 @@ They are not just numbers. They are your survival clock.
 
 Smart founders utilize these metrics to:
 
-- Trim the fat without cutting muscle – know what to focus on and what to let go
-- Forecast hiring/fundraising deadlines – know the process and prep for it. Numbers don’t line but they sure can get you ghosted.
-- Assure investors you’re not going to come knocking again in 90 days – establishing credibility is key, make an investor realize its not just a hobby, you mean business.
+- Trim the fat without cutting muscle - know what to focus on and what to let go
+- Forecast hiring/fundraising deadlines - know the process and prep for it. Numbers don’t line but they sure can get you ghosted.
+- Assure investors you’re not going to come knocking again in 90 days - establishing credibility is key, make an investor realize its not just a hobby, you mean business.
 
 The goal: Extend runway without stalling momentum. Keep the plane in the air, while building a bigger engine.
 
@@ -177,11 +177,11 @@ In this case, if your CAC is $80? You’re in the green. But if it’s $350? You
 
 Now, let’s connect this to CAC.
 
-Say your CAC is $80. You’re doing fine – your LTV is ~4x CAC. That’s what investors want to see.
+Say your CAC is $80. You’re doing fine - your LTV is ~4x CAC. That’s what investors want to see.
 
-Rule of thumb: you want your LTV to be at least 3x your CAC. A 1:1 ratio means you’re barely breaking even, before operational costs and the math stops working at scale. So if you can hit a 3:1 ratio, great – and based off my experience, your business will be much more appealing if it’s closer to 5:1. And keep in mind that different models can have different thresholds. For example, a SaaS company with low churn can afford higher CACs, while an e-commerce platform might need faster payback. And marketplaces and freemium models may have lower LTV per user, but they can often more easily offset it with volume.
+Rule of thumb: you want your LTV to be at least 3x your CAC. A 1:1 ratio means you’re barely breaking even, before operational costs and the math stops working at scale. So if you can hit a 3:1 ratio, great - and based off my experience, your business will be much more appealing if it’s closer to 5:1. And keep in mind that different models can have different thresholds. For example, a SaaS company with low churn can afford higher CACs, while an e-commerce platform might need faster payback. And marketplaces and freemium models may have lower LTV per user, but they can often more easily offset it with volume.
 
-If you don’t know your LTV or can’t defend it with data, it becomes hard to justify spend – and easy for investors to walk.
+If you don’t know your LTV or can’t defend it with data, it becomes hard to justify spend - and easy for investors to walk.
 
 If you want to know more, [<FontIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/vA1YX8963ts) walks you through the basics.
 
@@ -203,7 +203,7 @@ Gross profit margins can also allow a business to measure how efficient a compan
 
 If you sell a subscription for $50/month and it costs you $10/month to host, maintain, and support it, your gross margin is 80%.
 
-- Good: SaaS companies often hit 70–90%.
+- Good: SaaS companies often hit 70-90%.
 - Bad: If you're below 30%, your "scalable" business will collapse under weight.
 
 Want to know the conceptual math behind this metric and how it differs from Profit Margin? [<FontIcon icon="fa-brands fa-youtube"/>Here is a fantastic video](https://youtu.be/9xAMe0QBFhU&t=45s) that easily breaks it down.
@@ -258,7 +258,7 @@ And so on.
 
 The churn rate will indicate to a business that it needs to learn why its customers are leaving, and where it needs to adjust its business. It’s more expensive to attract new customers than it is to retain them, so reducing the churn rate can save a business resources in the future.
 
-Real talk: Say you had 500 users at the start of the month, and you lost 50 by the end of the month. That’s 10% churn – which is high! Annualize that and…ouch. You're not growing. You're replacing.
+Real talk: Say you had 500 users at the start of the month, and you lost 50 by the end of the month. That’s 10% churn - which is high! Annualize that and…ouch. You're not growing. You're replacing.
 
 Make sure you fix this before you fundraise. Or at least explain why churn’s high and what you’re doing to plug the holes.
 
@@ -283,7 +283,7 @@ There are two common interpretations:
 
 Both use the same principle: the shorter the payback period, the less cash you need to float your growth.
 
-If you want a target, aim for 6 months for customer-level payback. Closer to 3-6 is ideal. Long payback periods mean you need deep pockets – or exceptional retention – to stay afloat.
+If you want a target, aim for 6 months for customer-level payback. Closer to 3-6 is ideal. Long payback periods mean you need deep pockets - or exceptional retention - to stay afloat.
 
 [<FontIcon icon="fa-brands fa-youtube"/>Here’s a video](https://youtu.be/KbtTk2azIjY) where you can learn more.
 
@@ -311,7 +311,7 @@ And [<FontIcon icon="fa-brands fa-youtube"/>here’s another video](https://yout
 
 ---
 
-## 10. Valuation: What’s Your Company Worth – and What Supports that Number?
+## 10. Valuation: What’s Your Company Worth - and What Supports that Number?
 
 Valuation is a focused exercise that determines the value of an asset, investment, or company. So, how much your company’s worth. And the goal is typically to determine whether that value is a fair value.
 
@@ -322,7 +322,7 @@ Valuations can be conducted in one of two ways:
 
 Depending on how the analysis and conclusions are reached, there are a variety of methods and techniques used to develop valuations. And as you’d expect, there’s often significant variability between outputs (or valuations) based on the inputs and context.
 
-While valuations are predominantly quantitatively driven, there’s often a significant subjective influence that come from the assumptions and estimates made along the way. Valuations are also subject to developing situations and events outside of the analysis or the control of the analyst – for example, earnings reports or material news, or economic news – that can result in a change to a valuation stance.
+While valuations are predominantly quantitatively driven, there’s often a significant subjective influence that come from the assumptions and estimates made along the way. Valuations are also subject to developing situations and events outside of the analysis or the control of the analyst - for example, earnings reports or material news, or economic news - that can result in a change to a valuation stance.
 
 If you’re pre-revenue and you’re saying $30M because a friend raised at that, please stop. Their experience likely has nothing to do with yours.
 
@@ -330,13 +330,13 @@ $$
 \text{Valuation}=\text{traction}+\text{market\:comps}+\text{revenue}+\text{momentum}+\text{team}.
 $$
 
-Valuation isn’t just about what you want – it’s about what you can defend.
+Valuation isn’t just about what you want - it’s about what you can defend.
 
 Startups are typically valued using:
 
 - **Comparable Analysis (Comps):** What similar companies are worth
 - **Discounted Cash Flow (DCF):** Projecting future cash and discounting it back
-- **Revenue Multiples:** Often 5x–10x for SaaS, but varies wildly
+- **Revenue Multiples:** Often 5x-10x for SaaS, but varies wildly
 - **Precedent Transactions:** What investors paid in past rounds for similar startups
 
 But that’s the math.
@@ -361,7 +361,7 @@ Soft factors:
 - Market momentum
 - Hype or scarcity
 
-Don’t inflate. Don’t anchor to your friend’s raise. Know your comps. And show why *your* model is defensible, not just desirable. Inflated numbers make investors run. They don’t correct you – they just ghost you.
+Don’t inflate. Don’t anchor to your friend’s raise. Know your comps. And show why *your* model is defensible, not just desirable. Inflated numbers make investors run. They don’t correct you - they just ghost you.
 
 There are numerous books written on valuation and each technique could be its own PhD. But my role here is to give you a sneak peak into the metrics.
 
@@ -377,9 +377,9 @@ And [<FontIcon icon="fa-brands fa-youtube"/>here’s a more detailed video cours
 
 ### Real Experience
 
-I met a founder once – early days, rough product, but you could tell he actually cared. He wasn't trying to look good. No buzzwords. No "disrupt" talk. Just someone trying to solve something annoying and important.
+I met a founder once - early days, rough product, but you could tell he actually cared. He wasn't trying to look good. No buzzwords. No "disrupt" talk. Just someone trying to solve something annoying and important.
 
-He walked into the room with a twinkle. Not swagger – just that gentle intensity. We were leaning in.
+He walked into the room with a twinkle. Not swagger - just that gentle intensity. We were leaning in.
 
 Then, in the middle of the pitch, someone asked, "So what's your monthly burn?" And I swear to you, he said, "Umm... I think my co-founder has that. I haven't looked in a while."
 
@@ -424,7 +424,7 @@ I’ll leave you with [<FontIcon icon="fa-brands fa-youtube"/>one last video](ht
 
 I hope this gives you a perspective of being on the other side, evaluating your hard work and passion, and I hope it sets you up for success in your next Investor Review.
 
-I look forward to your thoughts, comments, and feedback. If this was helpful, engaging, and informative, do share it – you never know who may need it, or could benefit from it. I wish you all the very best in your funding rounds.
+I look forward to your thoughts, comments, and feedback. If this was helpful, engaging, and informative, do share it - you never know who may need it, or could benefit from it. I wish you all the very best in your funding rounds.
 
 Until then, keep learning, unlearning, and relearning, folks.
 
@@ -432,7 +432,7 @@ Until then, keep learning, unlearning, and relearning, folks.
 ```component VPCard
 {
   "title": "Key Metrics That Can Make or Break Your Startup",
-  "desc": "If you’ve built something worth pitching – something more than a fancy hobby with a login screen – you need to know your numbers. Not ”I’ll get back to you” know them, know them like you know your co-founder's coffee order. I have seen too many found...",
+  "desc": "If you’ve built something worth pitching - something more than a fancy hobby with a login screen - you need to know your numbers. Not ”I’ll get back to you” know them, know them like you know your co-founder's coffee order. I have seen too many found...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-metrics-that-can-make-or-break-your-startup.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

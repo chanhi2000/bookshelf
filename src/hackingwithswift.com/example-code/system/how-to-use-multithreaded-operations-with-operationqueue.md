@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ for image in images {
 }
 ```
 
-However, that’s single-threaded – it can only use one of the available CPU cores. With only a small change you can get the same behavior working across multiple cores, and the operation queue will wait until it’s all complete so it doesn’t change the meaning of your code:
+However, that’s single-threaded - it can only use one of the available CPU cores. With only a small change you can get the same behavior working across multiple cores, and the operation queue will wait until it’s all complete so it doesn’t change the meaning of your code:
 
 ```swift
 let queue = OperationQueue()
@@ -83,7 +83,7 @@ for image in images {
 queue.waitUntilAllOperationsAreFinished()
 ```
 
-You can add as many operations as you want, but they don’t all get executed at the same time. Instead, `OperationQueue` limits the number of operations based on system conditions – if it’s a more powerful device that isn’t doing much right now, you’ll get more operations than a less powerful device or a device that’s busy with other work.
+You can add as many operations as you want, but they don’t all get executed at the same time. Instead, `OperationQueue` limits the number of operations based on system conditions - if it’s a more powerful device that isn’t doing much right now, you’ll get more operations than a less powerful device or a device that’s busy with other work.
 
 You can override this behavior if you need something specific:
 

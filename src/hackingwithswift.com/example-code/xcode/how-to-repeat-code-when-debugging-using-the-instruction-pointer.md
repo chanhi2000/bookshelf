@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,11 +60,11 @@ Have you ever been debugging a problem in your code and really wished you could 
 
 This usually happens because you’ve narrowed the problem down to a small piece of your program, but accidentally stepped over too many lines or didn’t fully understand the problem the first time, and you’ll be pleased to know Xcode has a built-in way to help: you can move the instruction pointer.
 
-When you place a breakpoint in your code, Xcode will pause when that line is reached, and you can step through your code from there. However, what many folks don’t realize is that you can move execution *backwards* too – you can literally ask Xcode to wind back 1, 2, or 20 lines so that it runs them again, giving you a second chance to watch what happens as they execute.
+When you place a breakpoint in your code, Xcode will pause when that line is reached, and you can step through your code from there. However, what many folks don’t realize is that you can move execution *backwards* too - you can literally ask Xcode to wind back 1, 2, or 20 lines so that it runs them again, giving you a second chance to watch what happens as they execute.
 
-To try it yourself, wait until your breakpoint is hit, and you should see a light green-colored line pointing to where your code was paused – it will say something like “Thread 1: breakpoint 1.1”.
+To try it yourself, wait until your breakpoint is hit, and you should see a light green-colored line pointing to where your code was paused - it will say something like “Thread 1: breakpoint 1.1”.
 
-Directly to the left of that message is a box with three horizontal lines – you can click on that and drag it up or down as you need. When you release Xcode will give you a warning: are you sure you want to move the instruction pointer? Keep in mind that if you try to access some memory you just released, you’ll hit problems – use this power wisely!
+Directly to the left of that message is a box with three horizontal lines - you can click on that and drag it up or down as you need. When you release Xcode will give you a warning: are you sure you want to move the instruction pointer? Keep in mind that if you try to access some memory you just released, you’ll hit problems - use this power wisely!
 
 When you click Move, execution will advance or rewind as needed, so you can continue stepping through your code as you need.
 
@@ -76,7 +76,7 @@ The command here is called `expr`, or just `e`, and is typed directly into the �
 e username = "twostraws"
 ```
 
-This allows you to wind execution backwards a little, set your app state exactly as you want, then step through until you find your bug – and do this as often as you need until the problem is identified.
+This allows you to wind execution backwards a little, set your app state exactly as you want, then step through until you find your bug - and do this as often as you need until the problem is identified.
 
 -->
 

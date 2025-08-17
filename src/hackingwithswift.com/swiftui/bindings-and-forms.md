@@ -60,7 +60,7 @@ So far we've let users browse the menu, add items to an order, then see their to
 
 While this won't actually send anything off to a server somewhere, I do at least want to use this opportunity to show off one of SwiftUI's most impressive features: _forms_.
 
-Forms are containers like stacks, but they are specifically designed for things like settings screens and user input – anywhere the user might want to make several choices in one place. Forms do a few interesting things as you'll see, and along the way I'll be showing you how to use common UI controls like pickers, text fields, segmented controls, and more.
+Forms are containers like stacks, but they are specifically designed for things like settings screens and user input - anywhere the user might want to make several choices in one place. Forms do a few interesting things as you'll see, and along the way I'll be showing you how to use common UI controls like pickers, text fields, segmented controls, and more.
 
 Now I know what you're thinking: surely text fields are easy? Well, they aren't _hard_, but they also don't work like you're used to in UIKit.
 
@@ -82,17 +82,17 @@ struct CheckoutView_Previews: PreviewProvider {
 
 That's the easy stuff out of the way, so let's try something new: let's show a picker with various payment options, allowing users to choose cash, credit card, or iDine Points.
 
-This requires two new properties. First, we need a property that lists all possible values we want to show in our picker – add this now:
+This requires two new properties. First, we need a property that lists all possible values we want to show in our picker - add this now:
 
 ```swift
 let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
 ```
 
-Second, we need a property where SwiftUI can store the value that's selected in the picker. You see, when our UI changes SwiftUI wants to know about it so that it can update our view – maybe some views that were hidden are now shown, for example. Rather than us asking to watch changes by hand, we instead _bind_ our picker to a property on our struct, so that when the picker changes SwiftUI automatically changes the property too. And, just like environment objects, this will cause SwiftUI to re-invoke our `body` property so any changes are visible.
+Second, we need a property where SwiftUI can store the value that's selected in the picker. You see, when our UI changes SwiftUI wants to know about it so that it can update our view - maybe some views that were hidden are now shown, for example. Rather than us asking to watch changes by hand, we instead _bind_ our picker to a property on our struct, so that when the picker changes SwiftUI automatically changes the property too. And, just like environment objects, this will cause SwiftUI to re-invoke our `body` property so any changes are visible.
 
 We already used `@EnvironmentObject` for working with data that comes from an external source. Here, though, this data is just for our view, and will be a simple value rather than a dedicated class that conforms to `ObservableObject`.
 
-SwiftUI gives us a different property wrapper for these simple local values: `@State`. It works similarly to `@EnvironmentObject` in that if the object changes it automatically refreshes our UI, but it's designed for simple local values like integers and strings – if you want to use classes like `Order` you need to use something else instead.
+SwiftUI gives us a different property wrapper for these simple local values: `@State`. It works similarly to `@EnvironmentObject` in that if the object changes it automatically refreshes our UI, but it's designed for simple local values like integers and strings - if you want to use classes like `Order` you need to use something else instead.
 
 ::: important
 

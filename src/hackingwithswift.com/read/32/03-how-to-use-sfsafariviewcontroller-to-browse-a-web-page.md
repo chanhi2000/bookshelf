@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,7 +57,7 @@ When a user taps on one of our table rows, we want to show the Hacking with Swif
 
 Apple fixed all these problems in iOS 9 using a new class called `SFSafariViewController`, which effectively embeds all of Safari inside your app using an opaque view controller. That is, you can't style it, you can't interact with it, and you certainly can't pull any private data out of it, and as a result `SFSafariViewController` can take advantage of the user's secure web data in ways that `UIWebView` and `WKWebView` never could.
 
-What's more, Apple builds powerful features right into `SFSafariViewController`, so you get things like content blocking free of charge – and users get consistent features, consistent UI, and consistent security. Everybody wins!
+What's more, Apple builds powerful features right into `SFSafariViewController`, so you get things like content blocking free of charge - and users get consistent features, consistent UI, and consistent security. Everybody wins!
 
 `SFSafariViewController` is not part of UIKit, so you need to import a new framework to use it. Add this to the existing `import UIKit` line at the top of <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
@@ -85,7 +85,7 @@ func showTutorial(_ which: Int) {
 }
 ```
 
-You can see how easy it is to control reader mode – just set the `entersReaderIfAvailable` flag to be true or false as needed in the configuration object.
+You can see how easy it is to control reader mode - just set the `entersReaderIfAvailable` flag to be true or false as needed in the configuration object.
 
 There's only one more thing to do to finish this stage of the project: when any table row is tapped, we need to call that new `showTutorial()` method and pass in the index path of the row so the correct tutorial can be shown. This is as simple as adding a `didSelectRowAt` method like this:
 
@@ -95,5 +95,5 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 }
 ```
 
-That's it for the new `SFSafariViewController` – easy, huh?
+That's it for the new `SFSafariViewController` - easy, huh?
 

@@ -82,7 +82,7 @@ Text("Hacking with Swift")
 
 Those two pieces of code might look similar, but they yield different results because the order in which you apply modifiers matters. In the second example the view is padded *then* colored, which means the padding also gets colored red. In contrast, the first example colors then pads, so the padding remains uncolored.
 
-So, if you want some text to have a background color wider than the text itself, make sure to use the second code example – pad *then* color.
+So, if you want some text to have a background color wider than the text itself, make sure to use the second code example - pad *then* color.
 
 ::: details Similar solutions…
 

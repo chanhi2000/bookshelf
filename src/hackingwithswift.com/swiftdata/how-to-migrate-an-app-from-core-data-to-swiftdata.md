@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-If you already have an app built with Core Data and want to move it to SwiftData, you'll be pleased to know that the two are almost entirely compatible at the data layer – all your Core Data models will move across smoothly, with all user data preserved.
+If you already have an app built with Core Data and want to move it to SwiftData, you'll be pleased to know that the two are almost entirely compatible at the data layer - all your Core Data models will move across smoothly, with all user data preserved.
 
 ::: important
 
@@ -100,7 +100,7 @@ If your models include relationships, make sure Xcode has captured them correctl
 
 :::
 
-Once your models are where you want to them to do, you can delete any old controller classes you used previously – many projects have a `PersistenceController` or `DataController` class that sets up their Core Data stack, and that can all go.
+Once your models are where you want to them to do, you can delete any old controller classes you used previously - many projects have a `PersistenceController` or `DataController` class that sets up their Core Data stack, and that can all go.
 
 Finally, delete your data model file itself, because it's all done in code now. That feels better, doesn't it?
 

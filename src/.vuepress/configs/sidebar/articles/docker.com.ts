@@ -62,6 +62,10 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "introducing-play-kubernetes", // 2018-05-24
+    "improved-docker-container-integration-with-java-10", // 2018-04-04
+    "docker-windows-desktop-now-kubernetes", // 2018-01-31
+    "docker-mac-kubernetes", // 2018-01-10
   ],
 }
 
@@ -70,6 +74,7 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
+    "docker-windows-server-1709", // 2017-09-26
     "docker-official-images-now-multi-platform", // 2017-09-20
     "preview-linux-containers-on-windows", // 2017-09-14
     "demystifying-open-container-initiative-oci-specifications", // 2017-07-19
@@ -152,57 +157,71 @@ export const template: SidebarInfoTemplate = {
     [
     "java", [
       "java-development-using-docker", // 2016-09-21
-      // END: java2016
+      // END: 2016java
       "spring-boot-development-docker", // 2017-05-25
-      // END: java2017
-      // END: java2018
-      // END: java2019
-      // END: java2020
-      // END: java2021
-      // END: java2022
-      // END: java2023
-      // END: java2024
-      // END: java2025
+      // END: 2017java
+      "improved-docker-container-integration-with-java-10", // 2018-04-04
+      // END: 2018java
+      // END: 2019java
+      // END: 2020java
+      // END: 2021java
+      // END: 2022java
+      // END: 2023java
+      // END: 2024java
+      // END: 2025java
       // END: java
     ]],[
     "java-spring", [
       "spring-boot-development-docker", // 2017-05-25
-      // END: java-spring2017
-      // END: java-spring2018
-      // END: java-spring2019
-      // END: java-spring2020
-      // END: java-spring2021
-      // END: java-spring2022
-      // END: java-spring2023
-      // END: java-spring2024
-      // END: java-spring2025
+      // END: 2017java-spring
+      // END: 2018java-spring
+      // END: 2019java-spring
+      // END: 2020java-spring
+      // END: 2021java-spring
+      // END: 2022java-spring
+      // END: 2023java-spring
+      // END: 2024java-spring
+      // END: 2025java-spring
       // END: java-spring
     ]],[
     "go", [
       "docker-golang", // 2016-09-15
-      // END: go2016
-      // END: go2017
-      // END: go2018
-      // END: go2019
-      // END: go2020
-      // END: go2021
-      // END: go2022
-      // END: go2023
-      // END: go2024
-      // END: go2025
+      // END: 2016go
+      // END: 2017go
+      // END: 2018go
+      // END: 2019go
+      // END: 2020go
+      // END: 2021go
+      // END: 2022go
+      // END: 2023go
+      // END: 2024go
+      // END: 2025go
       // END: go
+    ]],[
+    "pwsh", [
+      "docker-windows-server-1709", // 2017-09-26
+      // END: 2017pwsh
+      // END: 2018pwsh
+      // END: 2019pwsh
+      // END: 2020pwsh
+      // END: 2021pwsh
+      // END: 2022pwsh
+      // END: 2023pwsh
+      // END: 2024pwsh
+      // END: 2025pwsh
+      // END: pwsh
     ]],[
     "docker", [
       "how-to-use-your-own-registry", // 2013-07-20
       "docker-can-now-run-within-docker", // 2023-09-06
       "gathering-lxc-docker-containers-metrics", // 2013-10-09
-      // END: docker2013
-      // END: docker2014
+      // END: 2013docker
+      // END: 2014docker
       "runc", // 2015-06-23
       "open-container-project-foundation", // 2015-06-23
       "new-apt-and-yum-repos", // 2015-07-23
       "containerd-daemon-to-control-runc", // 2015-12-18
-      // END: docker2015
+      // END: 2015docker
       "containers-as-a-service-caas", // 2016-02-02
       "compose-1-6", // 2016-02-04
       "docker-1-10", // 2016-02-05
@@ -221,7 +240,7 @@ export const template: SidebarInfoTemplate = {
       "image2docker-prototyping-windows-vm-conversions", // 2016-09-29
       "introducing-containerd", // 2016-12-14
       "understanding-docker-networking-drivers-use-cases", // 2016-12-20
-      // END: docker2016
+      // END: 2016docker
       "docker-windows-server-image2docker", // 2017-01-18
       "whats-new-in-docker-1-13", // 2017-01-20
       "cpu-management-docker-1-13", // 2017-01-21
@@ -235,43 +254,65 @@ export const template: SidebarInfoTemplate = {
       "demystifying-open-container-initiative-oci-specifications", // 2017-07-19
       "preview-linux-containers-on-windows", // 2017-09-14
       "docker-official-images-now-multi-platform", // 2017-09-20
-      // END: docker2017
-      // END: docker2018
-      // END: docker2019
-      // END: docker2020
-      // END: docker2021
-      // END: docker2022
-      // END: docker2023
-      // END: docker2024
+      "docker-windows-server-1709", // 2017-09-26
+      // END: 2017docker
+      "docker-mac-kubernetes", // 2018-01-10
+      "docker-windows-desktop-now-kubernetes", // 2018-01-31
+      "improved-docker-container-integration-with-java-10", // 2018-04-04
+      // END: 2018docker
+      // END: 2019docker
+      // END: 2020docker
+      // END: 2021docker
+      // END: 2022docker
+      // END: 2023docker
+      // END: 2024docker
       "docker-compose-with-provider-services", // 2025-07-10
-      // END: docker2025
+      // END: 2025docker
       // END: docker
+    ]],[
+    "k8s", [
+      "docker-mac-kubernetes", // 2018-01-10
+      "docker-windows-desktop-now-kubernetes", // 2018-01-31
+      "introducing-play-kubernetes", // 2018-05-24
+      // TODO: page/86
+      // END: 2018k8s
+      // END: 2019k8s
+      // END: 2020k8s
+      // END: 2021k8s
+      // END: 2022k8s
+      // END: 2023k8s
+      // END: 2024k8s
+      // END: 2025k8s
+      // END: k8s
     ]],[
     "macos", [
       "user-guided-caching-in-docker-for-mac", // 2017-05-06
-      // END: macos2017
-      // END: macos2018
-      // END: macos2019
-      // END: macos2020
-      // END: macos2021
-      // END: macos2022
-      // END: macos2023
-      // END: macos2024
-      // END: macos2025
+      // END: 2017macos
+      "docker-mac-kubernetes", // 2018-01-10
+      // END: 2018macos
+      // END: 2019macos
+      // END: 2020macos
+      // END: 2021macos
+      // END: 2022macos
+      // END: 2023macos
+      // END: 2024macos
+      // END: 2025macos
       // END: macos
     ]],[
     "win", [
       "docker-windows-server-image2docker", // 2017-01-18
       "preview-linux-containers-on-windows", // 2017-09-14
-      // END: win2017
-      // END: win2018
-      // END: win2019
-      // END: win2020
-      // END: win2021
-      // END: win2022
-      // END: win2023
-      // END: win2024
-      // END: win2025
+      "docker-windows-server-1709", // 2017-09-26
+      // END: 2017win
+      "docker-windows-desktop-now-kubernetes", // 2018-01-31
+      // END: 2018win
+      // END: 2019win
+      // END: 2020win
+      // END: 2021win
+      // END: 2022win
+      // END: 2023win
+      // END: 2024win
+      // END: 2025win
       // END: win
     ]],[
     "all", [

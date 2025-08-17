@@ -133,7 +133,7 @@ struct ContentView: View {
 
 ![A 3x3 grid of rotating circles, where each circle changes colors as it moves.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-dynamically-adjust-the-appearance-of-a-view-based-on-its-size-and-location-2~dark.gif)
 
-The modifier's name, `visualEffect()`, should make it clear that any adjustments you make are limited how the finished view looks – if you find yourself wanting to use it to adjust view *content*, you're looking in the wrong place.
+The modifier's name, `visualEffect()`, should make it clear that any adjustments you make are limited how the finished view looks - if you find yourself wanting to use it to adjust view *content*, you're looking in the wrong place.
 
 ::: details Similar solutions…
 

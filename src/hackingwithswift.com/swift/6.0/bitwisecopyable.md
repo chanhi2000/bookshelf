@@ -56,7 +56,7 @@ author:
 
 *Most of the time you don't need to do anything to enable `BitwiseCopyable` support*. Swift will automatically apply it to most structs and enums you create as long as all the properties they contain are also bitwise copyable. That includes a huge collection of built-in types: all integers, all floating-point numbers, `Bool`, `Duration`, `StaticString`, and more.
 
-Where things take a little more thinking is when you're building a library – if Swift were to automatically apply a conformance to `BitwiseCopyable` it could cause problems if your type changed in the future in a way that made it *not* support the protocol.
+Where things take a little more thinking is when you're building a library - if Swift were to automatically apply a conformance to `BitwiseCopyable` it could cause problems if your type changed in the future in a way that made it *not* support the protocol.
 
 So, Swift disables the automatic inference for types you export with `public` or `package` visibility unless you explicitly mark those types with `@frozen`.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,17 +59,17 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Localizing an app – i.e. making it display its user interface in other languages – is surprisingly painless in iOS, and really the only hard part is making sure you get all your text translated by native speakers of your target languages.
+Localizing an app - i.e. making it display its user interface in other languages - is surprisingly painless in iOS, and really the only hard part is making sure you get all your text translated by native speakers of your target languages.
 
-There are two steps to creating a localized app. The first is preparing our app to hold strings in different languages – a process known as internationalization, or i18n because it has an “i” then 18 letters then an “n”. Once that’s done, you can go ahead and get all your text placeholders translated into your target languages, which is (strictly speaking) what the term “localization” refers to. Just like “i18n”, you’ll often find localization written as “l10n”.
+There are two steps to creating a localized app. The first is preparing our app to hold strings in different languages - a process known as internationalization, or i18n because it has an “i” then 18 letters then an “n”. Once that’s done, you can go ahead and get all your text placeholders translated into your target languages, which is (strictly speaking) what the term “localization” refers to. Just like “i18n”, you’ll often find localization written as “l10n”.
 
 **Note:** Depending on what your app does, you might need to localize more than just your text strings. Sometimes icons and images have different meanings, and you may need to adjust the way you show dates, numbers, and money.
 
-Xcode uses the concept of *base internationalization* for the default state of your app. This is usually English, but you can change it if you want. You’ve probably noticed a “Base.lproj” directory inside your project – that’s the localized form of your project assets that will be used for your base language. As you add other languages, more of these folders will be created.
+Xcode uses the concept of *base internationalization* for the default state of your app. This is usually English, but you can change it if you want. You’ve probably noticed a “Base.lproj” directory inside your project - that’s the localized form of your project assets that will be used for your base language. As you add other languages, more of these folders will be created.
 
 To add a new language, go to your project settings. This means selecting your project in the project navigator pane, then selecting it in the projects and targets list. You should see two tabs: Info and Build Settings. Info is the one we want, so please select that now.
 
-The Info tab is where we configured the languages we want for our app, and you should already see “English - Development Language” in the list of localizations. Below that is a + button, so please click that now. A menu will appear asking you what language you’d like to target – I’m going to choose “French (fr)”, but you should choose whichever language you’re targeting.
+The Info tab is where we configured the languages we want for our app, and you should already see “English - Development Language” in the list of localizations. Below that is a + button, so please click that now. A menu will appear asking you what language you’d like to target - I’m going to choose “French (fr)”, but you should choose whichever language you’re targeting.
 
 Xcode will ask which files should be used to create the French localization. Leave both storyboard selected, then click Finish. Xcode will now create directories similar to “en.lproj” and “fr.lproj” depending on which language you chose, and in there will be strings files for the storyboards you selected when creating the localization.
 
@@ -79,7 +79,7 @@ Xcode will ask which files should be used to create the French localization. Lea
 
 Go to the File menu and choose New > File, then select Strings File from the list of file types and click Next. Give this file the name “Localizable.strings”, then click Create to open it for editing.
 
-By default this new file won’t be enabled for l10n, but if you activate the file inspector (Alt+<kbd>Cmd</kbd>+1) you should be able to find and click the Localize button. This will ask you what language this file should be moved to, but it’s empty so it doesn’t matter what you choose – I went for English. When you dismiss the dialog you’ll see the Localize button has been replaced with checkboxes for your available languages – please check them both.
+By default this new file won’t be enabled for l10n, but if you activate the file inspector (Alt+<kbd>Cmd</kbd>+1) you should be able to find and click the Localize button. This will ask you what language this file should be moved to, but it’s empty so it doesn’t matter what you choose - I went for English. When you dismiss the dialog you’ll see the Localize button has been replaced with checkboxes for your available languages - please check them both.
 
 Once both languages are selected you’ll see a disclosure indicator appear next to Localizable.strings in your project navigator. This is because it’s now available in both our languages: if you open that indicator arrow you’ll see “Localizable.strings (English)” and “Localizable.strings (French)”, both as separate text files you can edit. I’d like you to choose the English variant to start with.
 
@@ -102,11 +102,11 @@ print(buttonTitle)
 
 `NSLocalizedString` is a central function in localization, and causes Xcode to look up the meaning of “bear” in the current localization. We haven’t defined how to say “bear” in French yet, but we *have* defined a comment: “The name of the animal”. 
 
-I chose “bear” specifically because it has several meanings in English – it could mean carrying weight, it could mean giving birth, it could mean “turn” as in “turn left”, and it could mean the large carnivorous animal. This comment does nothing in our code, but it *does* help guide translators to know which meaning we’re referring to.
+I chose “bear” specifically because it has several meanings in English - it could mean carrying weight, it could mean giving birth, it could mean “turn” as in “turn left”, and it could mean the large carnivorous animal. This comment does nothing in our code, but it *does* help guide translators to know which meaning we’re referring to.
 
 Now, you *could* go ahead and start entering key-value pairs into your strings file, but there’s a much easier way: we can run a program to do it for us. 
 
-Open your Mac’s Terminal app, then change into the directory where your project’s <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` file is. Now run this command: `genstrings -o en.lproj *.swift` – that means “read all Swift files for localized strings, then write them out to the localized strings file for the English project.”
+Open your Mac’s Terminal app, then change into the directory where your project’s <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` file is. Now run this command: `genstrings -o en.lproj *.swift` - that means “read all Swift files for localized strings, then write them out to the localized strings file for the English project.”
 
 When that command completes (it will only take a fraction of a second), you should see the following in the English version of Localizable.strings:
 
@@ -115,7 +115,7 @@ When that command completes (it will only take a fraction of a second), you shou
 "bear" = "bear";
 ```
 
-Now you can see the importance of adding comments to each `NSLocalizedString()` call – it will automatically get used to generate your localization data. 
+Now you can see the importance of adding comments to each `NSLocalizedString()` call - it will automatically get used to generate your localization data. 
 
 Repeat the command, this time for French: `genstrings -o fr.lproj *.swift`. This time we need to change the resulting file, because bear in French is not “bear”. So, open “Localizable Strings (French)” and give it this content:
 
@@ -124,7 +124,7 @@ Repeat the command, this time for French: `genstrings -o fr.lproj *.swift`. This
 "bear" = "l'ours";
 ```
 
-Notice that the string on the left doesn’t change – that’s the *name* of our string, and is mostly for internal use only.
+Notice that the string on the left doesn’t change - that’s the *name* of our string, and is mostly for internal use only.
 
 **Tip:** If you try to load a localization string name that doesn’t exist, UIKit will show the key name itself to your user.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ One-sided ranges allow us to skip either the start or end of a range to have Swi
 let characters = ["Dr Horrible", "Captain Hammer", "Penny", "Bad Horse", "Moist"]
 ```
 
-If we wanted to read only the first three items from that array, we could use `characters[..<3]` – we skipped the start point, so Swift will automatically infer the start of the array:
+If we wanted to read only the first three items from that array, we could use `characters[..<3]` - we skipped the start point, so Swift will automatically infer the start of the array:
 
 ```swift
 let bigParts = characters[..<3]

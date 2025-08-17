@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,7 +56,7 @@ isOriginal: false
 
 As your Swift skill increases, I hope you're starting to feel the balance of these projects move away from explaining the basics and toward presenting and dissecting code. 
 
-In this project you learned how to download JSON using Swift’s Data type, then use the Codable protocol to convert that data into Swift objects we defined. Working with JSON is something you're going to be doing time and time again in your Swift career, and you've cracked it in about an hour of work – while also learning about `UITabBarController`, `UIStoryboard`, and more.
+In this project you learned how to download JSON using Swift’s Data type, then use the Codable protocol to convert that data into Swift objects we defined. Working with JSON is something you're going to be doing time and time again in your Swift career, and you've cracked it in about an hour of work - while also learning about `UITabBarController`, `UIStoryboard`, and more.
 
 Good job!
 
@@ -68,7 +68,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 7: Whitehouse Petitions – Hacking with Swift",
+  "title": "Review - Project 7: Whitehouse Petitions - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-7-whitehouse-petitions",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -84,7 +84,7 @@ One of the best ways to learn is to write your own code as often as possible, so
 
 1. Add a Credits button to the top-right corner using `UIBarButtonItem`. When this is tapped, show an alert telling users the data comes from the We The People API of the Whitehouse.
 2. Let users filter the petitions they see. This involves creating a second array of filtered items that contains only petitions matching a string the user entered. Use a `UIAlertController` with a text field to let them enter that string. This is a tough one, so I’ve included some hints below if you get stuck.
-3. Experiment with the HTML – this isn’t a HTML or CSS tutorial, but you can find lots of resources online to give you enough knowledge to tinker with the layout a little.
+3. Experiment with the HTML - this isn’t a HTML or CSS tutorial, but you can find lots of resources online to give you enough knowledge to tinker with the layout a little.
 
 ---
 
@@ -108,5 +108,5 @@ Still here? OK. The second challenge here is to let users filter the petitions t
 4. You’ll need a bar button item to show an alert controller that the user can type into.
 5. Once that’s done, go through all the items in your petitions array, adding any you want to the filtered petition.
 
-The important part here is the last one: how do you decide whether a petition matches the user’s search? One option is to use `contains()` to check whether the petition title or body text contains the user’s search string – try it and see how you get on!
+The important part here is the last one: how do you decide whether a petition matches the user’s search? One option is to use `contains()` to check whether the petition title or body text contains the user’s search string - try it and see how you get on!
 

@@ -94,7 +94,7 @@ Scripts are powerful tools for automating repetitive tasks, managing workflows, 
 
 ## Why Write Scripts?
 
-I’ve already touched on what you can do with scripts. So let’s look at some of their advantages (and challenges, too) so you understand why they’re so powerful – and when to use them.
+I’ve already touched on what you can do with scripts. So let’s look at some of their advantages (and challenges, too) so you understand why they’re so powerful - and when to use them.
 
 ### Advantages of scripts
 
@@ -238,7 +238,7 @@ fs.readdir(directory, (err, files) => {
 });
 ```
 
-The JavaScript implementation is somewhat similar to the Python implementation – but you’ll need to write more code. Generally, devs don’t prefer JavaScript for these kind of scripts. Most of them rely on Bash/Python. JavaScript is better-suited for browser-based automation scripts.
+The JavaScript implementation is somewhat similar to the Python implementation - but you’ll need to write more code. Generally, devs don’t prefer JavaScript for these kind of scripts. Most of them rely on Bash/Python. JavaScript is better-suited for browser-based automation scripts.
 
 Still, let’s see what we have here. In this JavaScript code, you have to use two different packages, `fs` and `path`. We define the directory at the top, read the files in the directory using the `readdir` method from the `fs` package, and pass the directory as the argument. Along with directory, we also pass a callback function that will be executed once the files are read.
 
@@ -299,7 +299,7 @@ def calculate_price_with_tax(price, tax_rate):
 
 Account for possible errors and handle them gracefully.
 
-In the below example, if the file is missing, the script won’t crash – instead, it will show a helpful error message.
+In the below example, if the file is missing, the script won’t crash - instead, it will show a helpful error message.
 
 ```py
 try:
@@ -383,7 +383,7 @@ I have an exercise for you. To run and verify this example script, you may think
 
 I wrote a script to generate those 100 files. I would also recommend that you try writing a script to generate 100 files with hyphens in their file names. Then try to run the example script to convert the hyphens to underscores.
 
-This may sound difficult at the beginning, but believe me you just need to write 5 lines of bash code to generate 100 files. Not just 100 – you can even generate a million/billion/trillion files with just 5 lines of code.
+This may sound difficult at the beginning, but believe me you just need to write 5 lines of bash code to generate 100 files. Not just 100 - you can even generate a million/billion/trillion files with just 5 lines of code.
 
 If you wish to learn more about Scripts, subscribe to my [<FontIcon icon="iconfont icon-globe"/>email newsletter](https://5minslearn.gogosoon.com/) and follow me on social media.
 

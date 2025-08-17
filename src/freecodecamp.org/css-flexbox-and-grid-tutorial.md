@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS"
-description: "Article(s) > CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS"
+title: "CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
+description: "Article(s) > CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS"
+      content: "Article(s) > CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
     - property: og:description
-      content: "CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS"
+      content: "CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-flexbox-and-grid-tutorial.html
 prev: /programming/css/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2021/09/SkilllzLanding.png
 ---
 
 <SiteInfo
-  name="CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS"
+  name="CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
   desc="In this tutorial, we are going to build a simple landing page for an online education platform called Skilllz. This tutorial will teach you how to use and implement CSS Flexbox and CSS Grid alignment. We'll also cover many other CSS concepts. And fin..."
   url="https://freecodecamp.org/news/css-flexbox-and-grid-tutorial"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -880,7 +880,7 @@ Thanks for following along and see you soon.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "CSS Flexbox and Grid Tutorial – How to Build a Responsive Landing Page with HTML and CSS",
+  "title": "CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS",
   "desc": "In this tutorial, we are going to build a simple landing page for an online education platform called Skilllz. This tutorial will teach you how to use and implement CSS Flexbox and CSS Grid alignment. We'll also cover many other CSS concepts. And fin...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-flexbox-and-grid-tutorial.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -64,10 +64,10 @@ Starting with Docker 1.12, we have added features to the core Docker Engine to m
 
 The Docker 1.12 design is based on four principles:
 
-- Simple Yet Powerful– Orchestration is a central part of modern distributed applications; it’s so central that we have seamlessly built it into our core Docker Engine. Our approach to orchestration follows our philosophy about containers: no setup, only a small number of simple concepts to learn, and an “it just works” user experience.
-- Resilient– Machines fail all the time. Modern systems should expect these failures to occur regularly and adapt without any application downtime that’s why a zero single-point-of-failure design is a must.
-- Secure– Security should be the default.Barriers to strong security — certificate generation, having to understand PKI — should be removed. But advanced users should still be able to control and audit every aspect of certificate signing and issuance.
-- Optional Features and Backward Compatibility– With millions of users, preserving backwards compatibility is a must for Docker Engine.All new features are optional, and you don’t incur any overhead (memory, cpu) if you don’t use them. Orchestration in Docker Engine aligns with our platform’s batteries included but swappable approach allowing users to continue using any third-party orchestrator that is built on Docker Engine.
+- Simple Yet Powerful- Orchestration is a central part of modern distributed applications; it’s so central that we have seamlessly built it into our core Docker Engine. Our approach to orchestration follows our philosophy about containers: no setup, only a small number of simple concepts to learn, and an “it just works” user experience.
+- Resilient- Machines fail all the time. Modern systems should expect these failures to occur regularly and adapt without any application downtime that’s why a zero single-point-of-failure design is a must.
+- Secure- Security should be the default.Barriers to strong security — certificate generation, having to understand PKI — should be removed. But advanced users should still be able to control and audit every aspect of certificate signing and issuance.
+- Optional Features and Backward Compatibility- With millions of users, preserving backwards compatibility is a must for Docker Engine.All new features are optional, and you don’t incur any overhead (memory, cpu) if you don’t use them. Orchestration in Docker Engine aligns with our platform’s batteries included but swappable approach allowing users to continue using any third-party orchestrator that is built on Docker Engine.
 
 Let’s take a look at how the new features in Docker 1.12 work.
 
@@ -75,7 +75,7 @@ Let’s take a look at how the new features in Docker 1.12 work.
 
 ## Creating Swarms with One Decentralized Building Block
 
-It all starts with creating a swarm–a self-healing group of engines–which for the bootstrap node is as simple as:
+It all starts with creating a swarm-a self-healing group of engines-which for the bootstrap node is as simple as:
 
 ```sh
 docker swarm init
@@ -90,8 +90,8 @@ Under the hood this creates a [<FontIcon icon="fas fa-globe"/>Raft](https://raft
 Just as you run a single container with docker run, you can now start a replicated, distributed, load balanced process on a swarm of Engines with docker service:
 
 ```sh
-docker service create –name frontend \
-–replicas 5 \
+docker service create -name frontend \
+-replicas 5 \
 -p 80:80/tcp \
 nginx:latest
 ```
@@ -112,9 +112,9 @@ A typical two-tier (web+db) application would be created like this:
 
 ```sh
 docker network create -d overlay mynet  
-docker service create –name frontend –replicas 5 -p 80:80/tcp \\  
-–network mynet mywebapp
-docker service create –name redis –network mynet redis:latest
+docker service create -name frontend -replicas 5 -p 80:80/tcp \\  
+-network mynet mywebapp
+docker service create -name redis -network mynet redis:latest
 ```
 
 This is the basic architecture of this application:

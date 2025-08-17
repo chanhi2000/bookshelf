@@ -59,7 +59,7 @@ In this tutorial, we’ll explore how to use CSS Subgrid to create a products se
 
 ## Limitations of CSS Grid
 
-Adding a display of Grid to a container means that only the direct children become grids. If these direct children also have children, they are not a part of the main grid – so they display in their normal flow.
+Adding a display of Grid to a container means that only the direct children become grids. If these direct children also have children, they are not a part of the main grid - so they display in their normal flow.
 
 This is problematic because without a direct link to one another, each will take up the space it needs and not care about its siblings. This leads to misaligned content you can see on the left of the image below.
 
@@ -89,7 +89,7 @@ Since the focus of this article is Subgrid, we won't place a lot of emphasis on 
 
 ### HTML Code
 
-In our <FontIcon icon="fa-brands fa-html5"/>`index.html` file, we'll create the basic structure of the project which includes linking our CSS file and Google Fonts – all within the `<head>` tag. Within the `<body>` tag, we'll create a main container to house all the cards. Next, we'll create three individual cards as articles – each with an icon, title, text and button.
+In our <FontIcon icon="fa-brands fa-html5"/>`index.html` file, we'll create the basic structure of the project which includes linking our CSS file and Google Fonts - all within the `<head>` tag. Within the `<body>` tag, we'll create a main container to house all the cards. Next, we'll create three individual cards as articles - each with an icon, title, text and button.
 
 ```html
 <!DOCTYPE html>
@@ -353,9 +353,9 @@ As you can see in the image above, just like we have for grid, Subgrid also has 
 
 ## Conclusion
 
-Subgrid is a helpful tool for aligning layouts – something you had to do manually in the past. Now, nested grids can inherit properties such as rows and columns from their parent grids. This extends the abilities of CSS Grid to create consistent and perfectly aligned designs.
+Subgrid is a helpful tool for aligning layouts - something you had to do manually in the past. Now, nested grids can inherit properties such as rows and columns from their parent grids. This extends the abilities of CSS Grid to create consistent and perfectly aligned designs.
 
-If you're ever tempted to create an unending loop of CSS grids just to get a design with differently sized content to align perfectly – instead, reach for CSS Subgrid to make your code cleaner and easier to manage.
+If you're ever tempted to create an unending loop of CSS grids just to get a design with differently sized content to align perfectly - instead, reach for CSS Subgrid to make your code cleaner and easier to manage.
 
 Here are some helpful resources:
 

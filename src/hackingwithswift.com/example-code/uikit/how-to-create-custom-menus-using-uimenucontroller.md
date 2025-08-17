@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS has a built-in menu system that, while *useful*, doesn't actually get much *use* – because users don't expect to see it, developers don't use it, thus making it even less likely that users expect to see it.
+iOS has a built-in menu system that, while *useful*, doesn't actually get much *use* - because users don't expect to see it, developers don't use it, thus making it even less likely that users expect to see it.
 
-Anyway, if you want to attach multiple actions to elements in your UI – pieces of text in a text view or web view, table view rows, and so on – you might find iOS menus are for you, so you need to turn to `UIMenuController`. This has extremely simple API: you just create a `UIMenuItem` object for every action you want, then register them all and wait for the user to do something.
+Anyway, if you want to attach multiple actions to elements in your UI - pieces of text in a text view or web view, table view rows, and so on - you might find iOS menus are for you, so you need to turn to `UIMenuController`. This has extremely simple API: you just create a `UIMenuItem` object for every action you want, then register them all and wait for the user to do something.
 
-Below is a complete example for a view controller that has a web view inside it – you'll need to create that in your storyboard. The code sets up a new menu item named "Grok" that runs the `runGrok()` method when tapped. I've made it do something real: when the user selects some text, they tap Grok to have that printed out to the Xcode console.
+Below is a complete example for a view controller that has a web view inside it - you'll need to create that in your storyboard. The code sets up a new menu item named "Grok" that runs the `runGrok()` method when tapped. I've made it do something real: when the user selects some text, they tap Grok to have that printed out to the Xcode console.
 
 Here's the code:
 

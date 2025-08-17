@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-The ternary operator allows you to run a check and return one of two values depending on the result of that check – it has the name “ternary” because it works with three values rather than two or one like other operators. You’ll often see it written as `?:` but in practice the `?` and `:` are used separately.
+The ternary operator allows you to run a check and return one of two values depending on the result of that check - it has the name “ternary” because it works with three values rather than two or one like other operators. You’ll often see it written as `?:` but in practice the `?` and `:` are used separately.
 
 Like I said, the ternary operator is used with three values: the check to run, what to return if the check is true, and what to return if the check is false. For example, if we had a `score` constant that contained an integer, we could make a `result` constant equal either to “Pass” or “Fail” depending on the value of `score`:
 

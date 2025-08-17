@@ -54,7 +54,7 @@ head:
 
 SwiftUI's `NavigationSplitView` has three options to control how sidebars are displayed, each of which can be adjusted using the `navigationSplitViewStyle()` modifier.
 
-The first is `.prominentDetail`, which tells SwiftUI you want the detail view to retain its full size at all times – the sidebar and content view will *slide over* the detail view, rather than pushing it to one side or squeezing it smaller:
+The first is `.prominentDetail`, which tells SwiftUI you want the detail view to retain its full size at all times - the sidebar and content view will *slide over* the detail view, rather than pushing it to one side or squeezing it smaller:
 
 ```swift
 struct ContentView: View {
@@ -73,7 +73,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-customize-the-display-mode-of-navigationsplitview-1.zip)
 
-The second option is `.balanced`, which will reduce the size of your detail view as the sidebar or content bar are shown – just switch `.prominentDetail` to `.balanced`, like this:
+The second option is `.balanced`, which will reduce the size of your detail view as the sidebar or content bar are shown - just switch `.prominentDetail` to `.balanced`, like this:
 
 ```swift
 struct ContentView: View {
@@ -92,7 +92,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-customize-the-display-mode-of-navigationsplitview-2.zip)
 
-The default is `.automatic`, which will vary according to the platform – at the time of writing, on iPhone it becomes `prominentDetail`, and on iPad it becomes `.balanced`.
+The default is `.automatic`, which will vary according to the platform - at the time of writing, on iPhone it becomes `prominentDetail`, and on iPad it becomes `.balanced`.
 
 ::: details Similar solutions…
 

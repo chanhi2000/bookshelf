@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Build CRUD Operations with .NET Core – A Todo API Handbook"
-description: "Article(s) > How to Build CRUD Operations with .NET Core – A Todo API Handbook"
+title: "How to Build CRUD Operations with .NET Core - A Todo API Handbook"
+description: "Article(s) > How to Build CRUD Operations with .NET Core - A Todo API Handbook"
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Build CRUD Operations with .NET Core – A Todo API Handbook"
+      content: "Article(s) > How to Build CRUD Operations with .NET Core - A Todo API Handbook"
     - property: og:description
-      content: "How to Build CRUD Operations with .NET Core – A Todo API Handbook"
+      content: "How to Build CRUD Operations with .NET Core - A Todo API Handbook"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-crud-operations-with-dotnet-core-handbook.html
 prev: /programming/cs/articles/README.md
@@ -56,7 +56,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/Attractiv
 ---
 
 <SiteInfo
-  name="How to Build CRUD Operations with .NET Core – A Todo API Handbook"
+  name="How to Build CRUD Operations with .NET Core - A Todo API Handbook"
   desc="Welcome to this comprehensive guide on building CRUD operations with .NET Core. We'll use a Todo API as our practical example so you can get hands-on experience as you learn. Throughout this tutorial, you'll learn how to create, read, update, and delete Todo items, and how to leverage Entity Framework..."
   url="https://freecodecamp.org/news/build-crud-operations-with-dotnet-core-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -2230,12 +2230,12 @@ Next, we created our API endpoints. These endpoints serve as the gateways for `c
 
 The final stage of our journey involved rigorous testing of our API using Postman. This ensured that our application was not only built as per our design but also functioned as expected, providing a reliable and efficient service.
 
-As we conclude, it's important to remember that the knowledge gained here forms a solid foundation for building more complex and feature-rich APIs. The journey of learning and exploration doesn't end here – it's just the beginning. Happy coding!
+As we conclude, it's important to remember that the knowledge gained here forms a solid foundation for building more complex and feature-rich APIs. The journey of learning and exploration doesn't end here - it's just the beginning. Happy coding!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Build CRUD Operations with .NET Core – A Todo API Handbook",
+  "title": "How to Build CRUD Operations with .NET Core - A Todo API Handbook",
   "desc": "Welcome to this comprehensive guide on building CRUD operations with .NET Core. We'll use a Todo API as our practical example so you can get hands-on experience as you learn.  Throughout this tutorial, you'll learn how to create, read, update, and de...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-crud-operations-with-dotnet-core-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

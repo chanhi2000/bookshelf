@@ -129,7 +129,7 @@ Actors and classes have some similarities:
 
 Beyond actor isolation, there are two other important differences between actors and classes:
 
-- Actors do not currently support inheritance, which makes their initializers much simpler – there is no need for convenience initializers, overriding, the `final` keyword, and more. This might change in the future.
+- Actors do not currently support inheritance, which makes their initializers much simpler - there is no need for convenience initializers, overriding, the `final` keyword, and more. This might change in the future.
 - All actors implicitly conform to a new `Actor` protocol; no other concrete type can use this. This allows you to restrict other parts of your code so it can work only with actors.
 
 The best way I’ve heard to explain how actors differ from classes is this: “actors pass messages, not memory.” So, rather than one actor poking directly around in another’s properties or calling their methods, we instead send a message asking for the data and let the Swift runtime handle it for us safely.

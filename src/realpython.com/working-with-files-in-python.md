@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Practical-Recipes-for-Working-With-Mul
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Practical Recipes for Working With Files in Python – Real Python"
+  name="[COURSE] Practical Recipes for Working With Files in Python - Real Python"
   desc="In this course, you'll learn how you can work with files in Python by using built-in modules to perform practical tasks that involve groups of files, like renaming them, moving them around, archiving them, and getting their metadata."
   url="https://realpython.com/courses/practical-recipes-files/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1660,7 +1660,7 @@ You’re now equipped to use Python to:미
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Practical Recipes for Working With Files in Python – Real Python"
+  name="[COURSE] Practical Recipes for Working With Files in Python - Real Python"
   desc="In this course, you'll learn how you can work with files in Python by using built-in modules to perform practical tasks that involve groups of files, like renaming them, moving them around, archiving them, and getting their metadata."
   url="https://realpython.com/courses/practical-recipes-files/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

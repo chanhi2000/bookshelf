@@ -134,8 +134,8 @@ Once you've signed up, you can access the dashboard and create a new project.
 
 Star by filling in the project name, region, and Postgres version options. In addition to this, we can choose two additional options:
 
-- **compute size** – You can choose a min and max compute size for the database. This is useful for autoscaling the database based on the load.
-<li>**suspend time** – You can set a time after which the database will be suspended if not being used. This is useful for saving costs when the database is not being used.
+- **compute size** - You can choose a min and max compute size for the database. This is useful for autoscaling the database based on the load.
+<li>**suspend time** - You can set a time after which the database will be suspended if not being used. This is useful for saving costs when the database is not being used.
 
 <img src="https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fggwuvqtb8ydl3mxd1dak.png" alt="Form with specifications required when creating a database" width="800" height="662" loading="lazy">
 *Creating a database project in Neon*
@@ -155,9 +155,9 @@ Next, let's set up our CRUD application. We'll use Spring Boot, as it provides e
 
 We can use the <a href="https://start.spring.io/">Spring Initializr</a> to generate a new Spring Boot project with the necessary dependencies:
 
-- Spring Web – for building web applications
-<li>Spring Data JPA – for working with databases using JPA
-<li>PostGres Driver – for connecting to the Postgres database
+- Spring Web - for building web applications
+<li>Spring Data JPA - for working with databases using JPA
+<li>PostGres Driver - for connecting to the Postgres database
 
 <img src="https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffifv17tc5d3swothe3zf.png" alt="Spring Initializer website form to select spring boot project specifications and dependencies" width="800" height="420" loading="lazy">
 *Creating a Spring Boot project using Spring Initializer*
@@ -313,7 +313,7 @@ You can configure autoscaling rules in the Azure portal by following these steps
 
 - Navigate to the Web App in the Azure portal.
 <li>Click the `Scale out (App Service Plan)` option from the left menu.
-<li>Configure the autoscaling rules – you can choose predefined rules like traffic or create custom rules based on metrics like CPU usage, memory usage, or custom metrics.
+<li>Configure the autoscaling rules - you can choose predefined rules like traffic or create custom rules based on metrics like CPU usage, memory usage, or custom metrics.
 <li>Save.
 
 Azure will automatically scale the application based on the configured rules.

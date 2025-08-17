@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIClolr - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uicolor/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-HTML color names let you use familiar titles like "steel blue" and "mint cream" rather than hex values, but sadly these standardized names aren't available in iOS – or at least not by default. Fortunately, it's easy to add an extension to `UIColor` that maps these names to hexadecimal color values, then add another extension to convert hex colors to `UIColors`. Here's the code:
+HTML color names let you use familiar titles like "steel blue" and "mint cream" rather than hex values, but sadly these standardized names aren't available in iOS - or at least not by default. Fortunately, it's easy to add an extension to `UIColor` that maps these names to hexadecimal color values, then add another extension to convert hex colors to `UIColors`. Here's the code:
 
 ```swift
 extension UIColor {

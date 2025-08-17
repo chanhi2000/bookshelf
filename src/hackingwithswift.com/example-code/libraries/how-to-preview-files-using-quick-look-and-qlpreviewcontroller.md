@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -81,7 +81,7 @@ func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
 
 Now for the important part: Quick Look will call a `previewItemAt` method for each item you want to preview, and you need to pass back a `QLPreviewItem` pointing at it.
 
-For this example I added three PDF files – 0.pdf, 1.pdf, and 2.pdf – to my project, so I’m going to pass back URLs to each of them. `URL` conforms to `QLPreviewItem` already, so we can just do an `as` typecast to make this work:
+For this example I added three PDF files - 0.pdf, 1.pdf, and 2.pdf - to my project, so I’m going to pass back URLs to each of them. `URL` conforms to `QLPreviewItem` already, so we can just do an `as` typecast to make this work:
 
 ```swift
 func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {

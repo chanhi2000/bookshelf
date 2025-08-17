@@ -130,7 +130,7 @@ For example, a small software team might choose the monolithic frontend pattern 
 
 The sample monolithic app stores all views and controllers within the same code repository
 
-Most open source SPAs (single-page applications), multi-page web apps, and other frontend projects hosted on a single GitHub code repository typically use monolithic architecture with component-based, MVC, or traditional page-based codebase arrangement. For example, [this to–do app source code (<FontIcon icon="iconfont icon-github"/>`amoraitis/TodoList`)](https://github.com/amoraitis/TodoList) uses a monolithic frontend with the MVC pattern:
+Most open source SPAs (single-page applications), multi-page web apps, and other frontend projects hosted on a single GitHub code repository typically use monolithic architecture with component-based, MVC, or traditional page-based codebase arrangement. For example, [this to-do app source code (<FontIcon icon="iconfont icon-github"/>`amoraitis/TodoList`)](https://github.com/amoraitis/TodoList) uses a monolithic frontend with the MVC pattern:
 
 :::
 

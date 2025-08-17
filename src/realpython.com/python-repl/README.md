@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Getting the Most Out of the Python Standard REPL – Real Python"
+  name="Getting the Most Out of the Python Standard REPL - Real Python"
   desc="In this video course, you'll learn how to use the Python standard REPL (Read-Eval-Print Loop) to run your code interactively. This tool will allow you to test new ideas, explore and experiment with new tools and libraries, refactor and debug your code, try out examples, and more."
   url="https://realpython.com/courses/python-repl/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -86,7 +86,7 @@ To get the most out of this tutorial, you should be familiar with your operating
 ::: info Quiz - The Python Standard REPL: Try Out Code and Ideas Quickly
 
 <SiteInfo
-  name="The Python Standard REPL: Try Out Code and Ideas Quickly Quiz – Real Python"
+  name="The Python Standard REPL: Try Out Code and Ideas Quickly Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of the Python standard REPL. The Python REPL allows you to run Python code interactively, which is useful for testing new ideas, exploring libraries, refactoring and debugging code, and trying out examples."
   url="https://realpython.com/quizzes/python-repl/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -198,7 +198,7 @@ You’ve also learned about alternative and feature-rich REPLs, such as **IDLE**
 ::: info Quiz - The Python Standard REPL: Try Out Code and Ideas Quickly
 
 <SiteInfo
-  name="The Python Standard REPL: Try Out Code and Ideas Quickly Quiz – Real Python"
+  name="The Python Standard REPL: Try Out Code and Ideas Quickly Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of the Python standard REPL. The Python REPL allows you to run Python code interactively, which is useful for testing new ideas, exploring libraries, refactoring and debugging code, and trying out examples."
   url="https://realpython.com/quizzes/python-repl/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -213,7 +213,7 @@ In this quiz, you'll test your understanding of the Python standard REPL. The Py
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Getting the Most Out of the Python Standard REPL – Real Python"
+  name="Getting the Most Out of the Python Standard REPL - Real Python"
   desc="In this video course, you'll learn how to use the Python standard REPL (Read-Eval-Print Loop) to run your code interactively. This tool will allow you to test new ideas, explore and experiment with new tools and libraries, refactor and debug your code, try out examples, and more."
   url="https://realpython.com/courses/python-repl/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

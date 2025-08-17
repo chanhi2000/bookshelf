@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: SOLID Principles in C# – Interface Segregation Principle
-description: Article(s) > SOLID Principles in C# – Interface Segregation Principle
+title: SOLID Principles in C# - Interface Segregation Principle
+description: Article(s) > SOLID Principles in C# - Interface Segregation Principle
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > SOLID Principles in C# – Interface Segregation Principle
+      content: Article(s) > SOLID Principles in C# - Interface Segregation Principle
     - property: og:description
-      content: SOLID Principles in C# – Interface Segregation Principle
+      content: SOLID Principles in C# - Interface Segregation Principle
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/interface-segregation-principle.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/interface-segregation-principle/banner.png
 ---
 
 <SiteInfo
-  name="SOLID Principles in C# – Interface Segregation Principle"
+  name="SOLID Principles in C# - Interface Segregation Principle"
   desc="In this article you are going to learn about Interface Segregation Principle, how to implement it and what are the benefits of its implementation."
   url="https://code-maze.com/interface-segregation-principle/"
   logo="/assets/image/code-maze.com/favicon.png"

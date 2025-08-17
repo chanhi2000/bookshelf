@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/What-is-a-Python-Boolean_Watermarked.b
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Python Booleans: Leveraging the Values of Truth – Real Python"
+  name="Python Booleans: Leveraging the Values of Truth - Real Python"
   desc="In this course, you'll learn about the built-in Python Boolean data type, which is used to represent the truth value of an expression. You'll see how to use Booleans to compare values, check for identity and membership, and control the flow of your programs with conditionals."
   url="https://realpython.com/courses/booleans-leveraging-truth/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1292,7 +1292,7 @@ You now know how short-circuit evaluation works and recognize the connection bet
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Python Booleans: Leveraging the Values of Truth – Real Python"
+  name="Python Booleans: Leveraging the Values of Truth - Real Python"
   desc="In this course, you'll learn about the built-in Python Boolean data type, which is used to represent the truth value of an expression. You'll see how to use Booleans to compare values, check for identity and membership, and control the flow of your programs with conditionals."
   url="https://realpython.com/courses/booleans-leveraging-truth/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

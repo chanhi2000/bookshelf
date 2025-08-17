@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "GET Method"
-description: "Article(s) > (1/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+description: "Article(s) > (1/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
 category:
   - JavaScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/9) Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
+      content: "Article(s) > (1/9) Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
     - property: og:description
       content: "GET Method"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/2443337
 
 ```component VPCard
 {
-  "title": "Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples",
-  "desc": "When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen – it could be fetching data, sending information, or m...",
+  "title": "Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples",
+  "desc": "When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen - it could be fetching data, sending information, or m...",
   "link": "/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/2443337
 ---
 
 <SiteInfo
-  name="Learn HTTP Methods like GET, POST, and DELETE – a Handbook with Code Examples"
-  desc="When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen – it could be fetching data, sending information, or m..."
+  name="Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
+  desc="When you interact with websites or apps, a lot happens behind the scenes. A key part of this process is how your browser or app talks to a server. HTTPS methods define what action needs to happen - it could be fetching data, sending information, or m..."
   url="https://freecodecamp.org/news/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/24433377-ebb8-49b5-b0ee-5736f629399d.png"/>

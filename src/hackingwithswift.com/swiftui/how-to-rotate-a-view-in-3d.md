@@ -56,7 +56,7 @@ SwiftUI’s `rotation3DEffect()` modifier lets us rotate views in 3D space to cr
 
 ::: important
 
-If you’ve never done 3D rotation before you should think about the X/Y/Z axes as being skewers through your views. The X axis goes horizontally, so if you rotate on the X axis it’s like putting a horizontal skewer through your view – any rotation makes the top or bottom nearer or further, but won’t adjust the leading and trailing edges.
+If you’ve never done 3D rotation before you should think about the X/Y/Z axes as being skewers through your views. The X axis goes horizontally, so if you rotate on the X axis it’s like putting a horizontal skewer through your view - any rotation makes the top or bottom nearer or further, but won’t adjust the leading and trailing edges.
 
 :::
 

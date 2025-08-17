@@ -276,7 +276,7 @@ const date = dayjs('2024-01-01').tz('America/New_York');
 const nextWeek = date.add(1, 'week');
 ```
 
-For a deeper dive into Day.js, check out this article: [**JavaScript Dates – How to Use the DayJS Library to work with Date and Time in JS**](/freecodecamp.org/javascript-date-time-dayjs.md)
+For a deeper dive into Day.js, check out this article: [**JavaScript Dates - How to Use the DayJS Library to work with Date and Time in JS**](/freecodecamp.org/javascript-date-time-dayjs.md)
 
 @tab 2. date-fns
 

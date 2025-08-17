@@ -134,13 +134,13 @@ func processWeather() async {
 }
 ```
 
-As you can see, all the closures and indenting have gone, making for what is sometimes called “straight-line code” – apart from the `await` keywords, it looks just like synchronous code.
+As you can see, all the closures and indenting have gone, making for what is sometimes called “straight-line code” - apart from the `await` keywords, it looks just like synchronous code.
 
 There are some straightforward, specific rules about the way async functions work:
 
-- Synchronous functions cannot simply call async functions directly – it wouldn’t make sense, so Swift will throw an error.
+- Synchronous functions cannot simply call async functions directly - it wouldn’t make sense, so Swift will throw an error.
 - Async functions can call other async functions, but they can also call regular synchronous functions if they need to.
-- If you have async and synchronous functions that can be called in the same way, Swift will prefer whichever one matches your current context – if the call site is currently async then Swift will call the async function, otherwise it will call the synchronous function. 
+- If you have async and synchronous functions that can be called in the same way, Swift will prefer whichever one matches your current context - if the call site is currently async then Swift will call the async function, otherwise it will call the synchronous function. 
 
 That last point is important, because it allows library authors to provide both synchronous and asynchronous versions of their code without having to name the async functions specially.
 
@@ -175,7 +175,7 @@ func save(users: [String]) async throws -> String {
 }
 ```
 
-As you can see, both those functions are marked `async throws` – they are asynchronous functions, and they might throw errors.
+As you can see, both those functions are marked `async throws` - they are asynchronous functions, and they might throw errors.
 
 When it comes to *calling* them the order of keywords is flipped to `try await` rather than `await try`, like this:
 
@@ -191,7 +191,7 @@ func updateUsers() async {
 }
 ```
 
-So, “asynchronous, throwing” in the function definition, but “throwing, asynchronous” at the call site – think of it as unwinding a stack. Not only does `try await` read a little more naturally than `await try`, but it’s also more reflective of what’s actually happening: we’re waiting for some work to complete, and when it *does* complete it might end up throwing.
+So, “asynchronous, throwing” in the function definition, but “throwing, asynchronous” at the call site - think of it as unwinding a stack. Not only does `try await` read a little more naturally than `await try`, but it’s also more reflective of what’s actually happening: we’re waiting for some work to complete, and when it *does* complete it might end up throwing.
 
 With async/await now in Swift itself, the `Result` type introduced in Swift 5.0 becomes much less important as one of its primary benefits was improving completion handlers. That doesn’t mean `Result` is useless, because it’s still the best way to store the result of an operation for later evaluation.
 

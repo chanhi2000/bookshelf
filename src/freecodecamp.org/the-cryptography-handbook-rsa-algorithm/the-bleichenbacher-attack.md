@@ -65,7 +65,7 @@ If $k=128\:\text{bytes}$, then $B=2^{8\times{126}}$, and a correctly padded $m$ 
 
 In the Bleichenbacher Attack, Eve will exploit RSA’s multiplicative property. They will choose a number $s$ (called the multiplier) and compute a new ciphertext $C'=\left(Cs^{e}\right)\:\text{mod}\:N$. This $C'$ here corresponds to a new plaintext: $m'=ms\:\text{mod}\:N$ (because $C'\equiv{m}^{e}\times{s}^{e}\equiv\left(ms\right)^{e}\:\left(\text{mod}\:N\right)$).
 
-To begin the attack, Eve finds some $s_{0}$ such that $C_{0}=C\times\left(s_{0}\right)^{e}\:\text{mod}\:N$ yields a valid padding. This is referred to as the Blinding step. This is usually easy – for example, $s_{0}$ can be chosen so that $m\times{s}_{0}$ is just slightly above $N$, which almost certainly will wrap around and land in $\left[2B,3B\right)$. The attacker does not know m to verify this directly. They rely on the padding oracle’s yes/no response to infer that the blinded plaintext $\left(m\times{s}_{0}\right)\:\text{mod}\:N$ falls in the correct range.
+To begin the attack, Eve finds some $s_{0}$ such that $C_{0}=C\times\left(s_{0}\right)^{e}\:\text{mod}\:N$ yields a valid padding. This is referred to as the Blinding step. This is usually easy - for example, $s_{0}$ can be chosen so that $m\times{s}_{0}$ is just slightly above $N$, which almost certainly will wrap around and land in $\left[2B,3B\right)$. The attacker does not know m to verify this directly. They rely on the padding oracle’s yes/no response to infer that the blinded plaintext $\left(m\times{s}_{0}\right)\:\text{mod}\:N$ falls in the correct range.
 
 If the oracle returns “valid padding” for a given $s_{0}$, it tells the attacker that $s_{0}\:\text{mod}\:N$ lies between $2B$ and $3B$. Mathematically:
 

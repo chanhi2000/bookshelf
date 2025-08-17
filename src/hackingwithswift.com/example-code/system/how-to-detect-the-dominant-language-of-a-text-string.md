@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ The `NSLinguisticTagger` class has dedicated code to help you identify the domin
 
 1. It detects the *dominant* language, which means if you provide it with text that contains more than one language it will return whichever one appears most often.
 <li>If you give it text where no identification can be made, e.g. some numbers or an empty string, it will return nil.
-<li>It is extraordinarily fast – you can feed it thousands of article-length strings a second and it will fly through them.
+<li>It is extraordinarily fast - you can feed it thousands of article-length strings a second and it will fly through them.
 
 Here’s an example to help you get started:
 

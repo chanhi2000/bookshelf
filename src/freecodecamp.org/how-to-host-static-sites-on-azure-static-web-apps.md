@@ -68,7 +68,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/host_stat
 
 <SiteInfo
   name="How to Host Static Sites on Azure Static Web Apps for Free"
-  desc="In this article, I will show you how you can host your React/Next.js app or any static web app on Azure Static Web Apps.  I will be showing you both ways of doing it – through the GUI and with the CLI. I assume you already have built a..."
+  desc="In this article, I will show you how you can host your React/Next.js app or any static web app on Azure Static Web Apps.  I will be showing you both ways of doing it - through the GUI and with the CLI. I assume you already have built a..."
   url="https://freecodecamp.org/news/how-to-host-static-sites-on-azure-static-web-apps/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2024/06/host_static_sites_swa_azure.png"/>

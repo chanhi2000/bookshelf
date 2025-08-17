@@ -45,12 +45,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741798507678/d66ed2f
 
 <SiteInfo
   name="Data Synchronization for Edge Computing with SymmetricDS"
-  desc="Edge computing is a distributed system design that moves computation and data storage to where it’s most required – at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of ..."
+  desc="Edge computing is a distributed system design that moves computation and data storage to where it’s most required - at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of ..."
   url="https://freecodecamp.org/news/data-synchronization-for-edge-computing"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1741798507678/d66ed2f3-4116-49ce-a4eb-06fcb7c36dc7.png"/>
 
-Edge computing is a distributed system design that moves computation and data storage to where it’s most required – at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of bandwidth and latency significantly.
+Edge computing is a distributed system design that moves computation and data storage to where it’s most required - at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of bandwidth and latency significantly.
 
 But edge computing environments face various problems, such as synchronizing data between edge nodes (like local devices) and central systems (which are usually cloud or data centers).
 
@@ -314,7 +314,7 @@ By using the methods we’ve discussed here, edge devices can still operate auto
 ```component VPCard
 {
   "title": "Data Synchronization for Edge Computing with SymmetricDS",
-  "desc": "Edge computing is a distributed system design that moves computation and data storage to where it’s most required – at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of ...",
+  "desc": "Edge computing is a distributed system design that moves computation and data storage to where it’s most required - at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-synchronization-for-edge-computing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

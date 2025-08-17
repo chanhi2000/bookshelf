@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 One of the many safety features of Swift is its type safety, which means it must know what kind of data is being held by all values at all times. However, sometimes you know information that Swift doesn’t: you know that the `UIViewController` you have a reference to is in fact your custom `PictureViewController` subclass, and you want to treat it like one.
 
-Typecasting is the process of passing on your extra knowledge to Swift – a way of saying “that thing you thought was an X is actually a Y”. Swift won’t let you typecast completely unrelated types, which means you can’t say things like “that thing you thought was a string is actually an integer”, but is instead mainly used for subclasses.
+Typecasting is the process of passing on your extra knowledge to Swift - a way of saying “that thing you thought was an X is actually a Y”. Swift won’t let you typecast completely unrelated types, which means you can’t say things like “that thing you thought was a string is actually an integer”, but is instead mainly used for subclasses.
 
 As an example, here’s how we create new view controllers from a storyboard:
 

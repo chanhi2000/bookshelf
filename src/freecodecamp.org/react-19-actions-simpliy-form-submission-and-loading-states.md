@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: React 19 Actions – How to Simplify Form Submission and Loading States
-description: Article(s) > React 19 Actions – How to Simplify Form Submission and Loading States
+title: React 19 Actions - How to Simplify Form Submission and Loading States
+description: Article(s) > React 19 Actions - How to Simplify Form Submission and Loading States
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > React 19 Actions – How to Simplify Form Submission and Loading States
+      content: Article(s) > React 19 Actions - How to Simplify Form Submission and Loading States
     - property: og:description
-      content: React 19 Actions – How to Simplify Form Submission and Loading States
+      content: React 19 Actions - How to Simplify Form Submission and Loading States
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-19-actions-simpliy-form-submission-and-loading-states.html
 prev: /programming/js-react/articles/README.md
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/React--1-
 ---
 
 <SiteInfo
-  name="React 19 Actions – How to Simplify Form Submission and Loading States"
+  name="React 19 Actions - How to Simplify Form Submission and Loading States"
   desc="React 19 introduces Actions, which are asynchronous functions. Actions are helpful in making form submissions easier. This tutorial dives into what Actions are and how to use them. You'll learn about:  1. The new React 19 feature, Actions  2. The new React 19 hooks, useActionState and useFormStatus ..."
   url="https://freecodecamp.org/news/react-19-actions-simpliy-form-submission-and-loading-states/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

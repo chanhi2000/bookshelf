@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Classes in JavaScript – A Handbook for Beginners"
-description: "Article(s) > How to Use Classes in JavaScript – A Handbook for Beginners"
+title: "How to Use Classes in JavaScript - A Handbook for Beginners"
+description: "Article(s) > How to Use Classes in JavaScript - A Handbook for Beginners"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Classes in JavaScript – A Handbook for Beginners"
+      content: "Article(s) > How to Use Classes in JavaScript - A Handbook for Beginners"
     - property: og:description
-      content: "How to Use Classes in JavaScript – A Handbook for Beginners"
+      content: "How to Use Classes in JavaScript - A Handbook for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4a
 ---
 
 <SiteInfo
-  name="How to Use Classes in JavaScript – A Handbook for Beginners"
+  name="How to Use Classes in JavaScript - A Handbook for Beginners"
   desc="Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was..."
   url="https://freecodecamp.org/news/how-to-use-classes-in-javascript-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,7 +67,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Functions, Functions Everywhere I Turn",
-  "desc": "(1/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(1/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/functions-functions-everywhere-i-turn.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -77,7 +77,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Hold on a second. Are we saying functions are bad now?",
-  "desc": "(2/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(2/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/hold-on-a-second-are-we-saying-functions-are-bad-now.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -87,7 +87,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Wait, what? JavaScript has no real classes?",
-  "desc": "(3/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(3/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/wait-what-javascript-has-no-real-classes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -97,7 +97,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Let's talk about objects in JavaScript.",
-  "desc": "(4/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(4/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/lets-talk-about-objects-in-javascript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -107,7 +107,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Constructor Functions: Object Blueprints—Let's Get Practical",
-  "desc": "(5/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(5/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/constructor-functions-object-blueprintslets-get-practical.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -117,7 +117,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Constructor Functions: Great for Blueprints, but... Memory Waste?",
-  "desc": "(6/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(6/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/constructor-functions-great-for-blueprints-but-memory-waste.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -127,7 +127,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Prototypes to the Rescue (Again): Sharing Methods Efficiently",
-  "desc": "(7/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(7/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/prototypes-to-the-rescue-again-sharing-methods-efficiently.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -137,7 +137,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Constructor Functions + Prototypes: A Powerful Combo",
-  "desc": "(8/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(8/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/constructor-functions-prototypes-a-powerful-combo.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -147,7 +147,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Inheritance with Constructor Functions: Passing Down the Family Traits (the Constructor Way)",
-  "desc": "(9/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(9/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/inheritance-with-constructor-functions-passing-down-the-family-tra.mdits-the-constructor-way.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -157,7 +157,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "Enter ES6 Classes: Syntactic Sugar for Prototypes",
-  "desc": "(10/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(10/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/enter-es6-classes-syntactic-sugar-for-prototypes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -166,8 +166,8 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 
 ```component VPCard
 {
-  "title": "ES6 Classes: Class Syntax – Prototypes in Disguise",
-  "desc": "(11/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "title": "ES6 Classes: Class Syntax - Prototypes in Disguise",
+  "desc": "(11/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/es6-classes-class-syntax-prototypes-in-disguise.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -177,7 +177,7 @@ In this article, we'll take a step-by-step approach, showing you how object-orie
 ```component VPCard
 {
   "title": "What’s Next? More Class Features and Real-World Examples",
-  "desc": "(12/12) How to Use Classes in JavaScript – A Handbook for Beginners",
+  "desc": "(12/12) How to Use Classes in JavaScript - A Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/whats-next-more-class-features-and-real-world-examples.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -197,7 +197,7 @@ If you have any questions, feel free to find me on Twitter at [<FontIcon icon="f
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Classes in JavaScript – A Handbook for Beginners",
+  "title": "How to Use Classes in JavaScript - A Handbook for Beginners",
   "desc": "Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

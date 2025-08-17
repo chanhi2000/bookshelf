@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
-description: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
+title: "How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
+description: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
 icon: fa-brands fa-node
 category: 
   - Node.js
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
+      content: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
     - property: og:description
-      content: "How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
+      content: "How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html
 prev: /programming/js-node/articles/README.md
@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723497228942/b766b55
 ---
 
 <SiteInfo
-  name="How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide"
+  name="How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
   desc="In my previous article about building a Node.js application, I didn’t fully explain how to obtain the MongoDB URL, as I wanted to keep the article concise. However, I realized that this information is essential for saving data to MongoDB. In this art..."
   url="https://freecodecamp.org/news/get-mongodb-url-to-connect-to-a-nodejs-application"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -171,7 +171,7 @@ Thank you for reading💖.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Get Your MongoDB URL to Connect to Your Node.js Application – A Step-by-Step Guide",
+  "title": "How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide",
   "desc": "In my previous article about building a Node.js application, I didn’t fully explain how to obtain the MongoDB URL, as I wanted to keep the article concise. However, I realized that this information is essential for saving data to MongoDB. In this art...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

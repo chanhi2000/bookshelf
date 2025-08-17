@@ -340,7 +340,7 @@ As our product continues to grow and evolve, we must establish a method to regul
 ```component VPCard
 {
   "title": "CSS Containment Module Level 2",
-  "desc": "Specification – content-visibility section",
+  "desc": "Specification - content-visibility section",
   "link": "https://drafts.csswg.org/css-contain/#content-visibility",
   "logo": "https://drafts.csswg.org/csslogo.ico",
   "background": "rgba(118,168,248,0.2)"

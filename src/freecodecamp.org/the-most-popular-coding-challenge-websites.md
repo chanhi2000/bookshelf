@@ -70,7 +70,7 @@ You can watch this complete video on YouTube as well if you like 🎥
 
 These days, technology is developing rapidly, and we are seeing some amazing changes and improvements almost every day.
 
-Whenever we talk about technology, a buzzword appears in our mind – and that is coding or programming. Now, coding/programming isn't just about solving different kinds of problems using different programming languages, but it's a large part of what you'll do as a developer.
+Whenever we talk about technology, a buzzword appears in our mind - and that is coding or programming. Now, coding/programming isn't just about solving different kinds of problems using different programming languages, but it's a large part of what you'll do as a developer.
 
 The fields of Web development, Machine Learning, Artificial Intelligence, Augmented Reality, App Development, and many others require strong problem-solving skills.
 
@@ -355,7 +355,7 @@ If you want to solve mathematical problems in a more analytical way, then this w
 
 <SiteInfo
   name="Codewars - Achieve mastery through coding practice and developer mentorship"
-  desc="A coding practice website for all programming levels – Join a community of over 3 million developers and improve your coding skills in over 55 programming languages!"
+  desc="A coding practice website for all programming levels - Join a community of over 3 million developers and improve your coding skills in over 55 programming languages!"
   url="https://codewars.com/"
   logo="https://cdn.prod.website-files.com/62e3ee10882dc50bcae8d07a/64fdd06dd5d080d41055024f_Codewars%2032.png"
   preview="https://cdn.prod.website-files.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png"/>
@@ -582,7 +582,7 @@ Who is eligible for ICPC?
 
 If you are a complete beginner, then start with [beecrowd](#1beecrowdformerlyuri). If you want to start problem solving along with learning a specific programming language, then start with [HackerRank](#2-hackerrank-2).
 
-After solving almost 50+ problems on beecrowd or HackerRank, start solving problems on [Codeforces](#3-codeforces-1). The first time, you won't be able to do that well in the programming contests on Codeforces, and that is completely okay – it is natural. You just need to try regularly. The questions might seem pretty hard to you, but it'll become easier day by day after solving problems continuously.
+After solving almost 50+ problems on beecrowd or HackerRank, start solving problems on [Codeforces](#3-codeforces-1). The first time, you won't be able to do that well in the programming contests on Codeforces, and that is completely okay - it is natural. You just need to try regularly. The questions might seem pretty hard to you, but it'll become easier day by day after solving problems continuously.
 
 You can participate in [AtCoder](#7atcoder) the day you start solving problems on Codeforces. You can also try [CodeChef](#6-codechef-1), but I find Codeforces is enough in this case.
 

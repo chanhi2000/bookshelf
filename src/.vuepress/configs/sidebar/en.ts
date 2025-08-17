@@ -22,6 +22,7 @@ export const sidebarEn = sidebar({
   '/antonioleiva.com/':           [asb.antonioleiva()],
   '/johnnyreilly.com/':           [asb.johnnyreilly()],
   '/code-maze.com/':              [asb.codemaze()],
+  '/c-sharpcorner.com/':          [asb.csharpcorner()],
   '/milanjovanovic.tech/':        [asb.milanJovanovic()],
   '/shopify.engineering/':        [asb.shopify()],
   '/devtoolstips.org/':           [asb.devtoolstips()],

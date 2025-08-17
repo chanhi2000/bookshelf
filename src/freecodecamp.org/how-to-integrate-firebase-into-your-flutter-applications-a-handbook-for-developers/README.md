@@ -1233,7 +1233,7 @@ if ('serviceWorker' in navigator) {
 </script>
 ```
 
-**For Firebase Console:** No explicit "enable" step – FCM is enabled by default.
+**For Firebase Console:** No explicit "enable" step - FCM is enabled by default.
 
 Here’s the code:
 
@@ -2145,9 +2145,9 @@ Here’s what’s going on:
 
 ## Conclusion
 
-Firebase is more than just a collection of backend services – it's an ecosystem designed to accelerate application development and streamline operations. When paired with Flutter's prowess in building beautiful, natively compiled applications, you gain an incredibly productive development stack.
+Firebase is more than just a collection of backend services - it's an ecosystem designed to accelerate application development and streamline operations. When paired with Flutter's prowess in building beautiful, natively compiled applications, you gain an incredibly productive development stack.
 
-From the robust Firebase Authentication that handles user identity, through the real-time prowess of Cloud Firestore for data, to the scalable Cloud Storage for assets, Cloud Functions for serverless logic, and Firebase Hosting for web deployment – every piece fits together seamlessly.
+From the robust Firebase Authentication that handles user identity, through the real-time prowess of Cloud Firestore for data, to the scalable Cloud Storage for assets, Cloud Functions for serverless logic, and Firebase Hosting for web deployment - every piece fits together seamlessly.
 
 Services like Remote Config and A/B Testing empower you to dynamically adapt and optimize your app, while Crashlytics and Performance Monitoring keep your app stable and performant. Finally, App Distribution simplifies beta testing, and the Local Emulators revolutionize your development workflow.
 

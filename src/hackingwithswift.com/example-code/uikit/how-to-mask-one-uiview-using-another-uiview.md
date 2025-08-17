@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ maskView.layer.cornerRadius = 64
 redView.mask = maskView
 ```
 
-The blue background color won’t be visible – that’s just there to make sure all pixels in the mask are opaque.
+The blue background color won’t be visible - that’s just there to make sure all pixels in the mask are opaque.
 
 -->
 

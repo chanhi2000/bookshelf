@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "2. Essential Libraries: Your Data Wrangling Dream Team"
-description: "Article(s) > (2/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (2/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (2/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "2. Essential Libraries: Your Data Wrangling Dream Team"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -241,7 +241,7 @@ western_sales = sales_data[sales_data['Region'] == 'West']
 
 ### sorting-organizing-your-data-for-clarity">Sorting: Organizing Your Data for Clarity
 
-Sorting is like arranging your books on a shelf – it brings order and structure to your data. Pandas provides flexible sorting capabilities, allowing you to sort your DataFrame by one or more columns in ascending or descending order.
+Sorting is like arranging your books on a shelf - it brings order and structure to your data. Pandas provides flexible sorting capabilities, allowing you to sort your DataFrame by one or more columns in ascending or descending order.
 
 For instance, you can sort customer data by purchase date to see your most recent transactions or sort product data by sales volume to identify your top-performing items. Sorted data provides a clearer picture of relationships and trends, making it easier to draw meaningful conclusions.
 
@@ -276,7 +276,7 @@ sales_pivot = sales_data.pivot_table(values='Sales', index='Product', columns='R
 
 By mastering these data manipulation techniques, you'll gain the ability to extract meaningful insights from your data quickly and efficiently. Pandas is your versatile partner in the quest for data-driven decision-making.
 
-Remember, effective data analysis isn't just about having data – it's about knowing how to wield it. With Pandas, you'll be well-equipped to uncover the hidden patterns, trends, and opportunities that lie within your datasets, empowering you to make informed choices that drive your organization forward.
+Remember, effective data analysis isn't just about having data - it's about knowing how to wield it. With Pandas, you'll be well-equipped to uncover the hidden patterns, trends, and opportunities that lie within your datasets, empowering you to make informed choices that drive your organization forward.
 
 ### 213-data-cleaning">2.1.3 Data Cleaning
 
@@ -284,7 +284,7 @@ Real-world data is rarely perfect. It's often riddled with missing values, outli
 
 #### taming-missing-values-the-art-of-imputation">Taming Missing Values: The Art of Imputation
 
-Missing values are like blank spaces in a puzzle – they obscure the complete picture.  
+Missing values are like blank spaces in a puzzle - they obscure the complete picture.  
 
 Pandas offers several strategies to fill those gaps:
 
@@ -334,7 +334,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 df['Category'] = df['Category'].replace({'Mens':'Men', 'Womens':'Women'})
 ```
 
-Data cleaning is not a glamorous task, but it's a crucial one – and you should embrace it. Investing time in cleaning your data will pay dividends in the accuracy and reliability of your analysis.
+Data cleaning is not a glamorous task, but it's a crucial one - and you should embrace it. Investing time in cleaning your data will pay dividends in the accuracy and reliability of your analysis.
 
 **Remember:** Garbage in, garbage out. Clean data is the foundation of sound decision-making.
 
@@ -347,15 +347,15 @@ The initial exploration of a dataset is akin to a detective's first steps at a c
 Pandas offers a wealth of functions designed to illuminate your data's essential characteristics:
 
 - **`df.head()` and `df.tail()`:**  These functions offer a quick glimpse into your data, revealing the first or last few rows of your DataFrame. This is your initial "hello" to the dataset, providing a sense of its structure and content.
-<li>**`df.info()`:** Gain a high-level overview of your data, including column names, data types, and the number of non-null values. This is like checking the inventory at the crime scene – understanding what you're working with.
+<li>**`df.info()`:** Gain a high-level overview of your data, including column names, data types, and the number of non-null values. This is like checking the inventory at the crime scene - understanding what you're working with.
 <li>**`df.describe()`:** Uncover key statistical summaries of your numerical columns, such as mean, median, standard deviation, and quartiles. This is your statistical snapshot, revealing central tendencies and variability.
 <li>**`df.value_counts()`:** For categorical columns, this function reveals the frequency of each unique value, giving you a sense of the distribution of your data.
-<li>**`df.corr()`:** Calculate correlations between numerical columns to identify potential relationships and dependencies. This is like finding fingerprints at the scene – evidence of connections within the data.
+<li>**`df.corr()`:** Calculate correlations between numerical columns to identify potential relationships and dependencies. This is like finding fingerprints at the scene - evidence of connections within the data.
 <li>**Visualization:** Pandas seamlessly integrates with visualization libraries like Matplotlib and Seaborn, allowing you to create informative plots to further explore your data. Histograms, scatter plots, and bar charts are just a few examples of visualizations that can reveal patterns, outliers, and distributions.
 
 #### the-power-of-exploratory-data-analysis-eda">The Power of Exploratory Data Analysis (EDA)
 
-Investing time in EDA is not merely a preliminary step – it's a critical phase that can save you hours of frustration down the line.
+Investing time in EDA is not merely a preliminary step - it's a critical phase that can save you hours of frustration down the line.
 
 Data scientists spend a lot of their time on data cleaning and preparation, including EDA. This investment pays off by ensuring your analysis is accurate, your models are robust, and your insights are meaningful.
 
@@ -714,10 +714,10 @@ In this section, we'll dive into Matplotlib and learn how to create different ty
 ### 231-basic-plots">2.3.1 Basic Plots
 
 <blockquote>
-"The simple graph has brought more information to the data analyst's mind than any other device." – John Tukey, Statistician
+"The simple graph has brought more information to the data analyst's mind than any other device." - John Tukey, Statistician
 
 </blockquote>
-Visuals aren't just pretty pictures – they're the key to unlocking your data's potential. Matplotlib's basic plot types empower you to tell compelling stories, reveal hidden patterns, and communicate complex insights with clarity.
+Visuals aren't just pretty pictures - they're the key to unlocking your data's potential. Matplotlib's basic plot types empower you to tell compelling stories, reveal hidden patterns, and communicate complex insights with clarity.
 
 #### line-charts-unveiling-trends-over-time">Line Charts: Unveiling Trends Over Time
 
@@ -819,7 +819,7 @@ In the code above, we:
 
 ### 232-customization">2.3.2 Customization
 
-Your data visualizations are more than just graphs and charts – they're a form of visual communication that can captivate, inform, and inspire action. 
+Your data visualizations are more than just graphs and charts - they're a form of visual communication that can captivate, inform, and inspire action. 
 
 Matplotlib's extensive customization options empower you to craft visuals that not only showcase your data but also tell a compelling story.
 

@@ -63,11 +63,11 @@ We just published a course on the freeCodeCamp.org YouTube channel that will tea
 
 ::: info What You'll Learn in This Course
 
-🔹 **Tabular Data Classification** – Learn how to use PyTorch for structured data, a crucial skill for predictive modeling in industries like finance, healthcare, and retail.
-🔹 **Image Classification** – Train a deep learning model to recognize objects in images, a fundamental task in computer vision.
-🔹 **Pre-trained Models for Image Classification** – Discover how to leverage powerful, pre-trained neural networks to achieve high accuracy with minimal training time.
-🔹 **Audio Classification** – Explore how PyTorch can be used to classify sounds and speech, an essential step in applications like voice recognition and music categorization.
-🔹 **Text Classification with BERT** – Learn how to use the BERT model for natural language processing tasks such as sentiment analysis and spam detection.
+🔹 **Tabular Data Classification** - Learn how to use PyTorch for structured data, a crucial skill for predictive modeling in industries like finance, healthcare, and retail.
+🔹 **Image Classification** - Train a deep learning model to recognize objects in images, a fundamental task in computer vision.
+🔹 **Pre-trained Models for Image Classification** - Discover how to leverage powerful, pre-trained neural networks to achieve high accuracy with minimal training time.
+🔹 **Audio Classification** - Explore how PyTorch can be used to classify sounds and speech, an essential step in applications like voice recognition and music categorization.
+🔹 **Text Classification with BERT** - Learn how to use the BERT model for natural language processing tasks such as sentiment analysis and spam detection.
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Python Modules and Packages – An Introduction"
-description: "Article(s) > Python Modules and Packages – An Introduction"
+title: "Python Modules and Packages - An Introduction"
+description: "Article(s) > Python Modules and Packages - An Introduction"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Python Modules and Packages – An Introduction"
+      content: "Article(s) > Python Modules and Packages - An Introduction"
     - property: og:description
-      content: "Python Modules and Packages – An Introduction"
+      content: "Python Modules and Packages - An Introduction"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/realpython.com/python-modules-packages.html
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://files.realpython.com/media/Python-Modules-and-Packages-An-Introdu
 ---
 
 <SiteInfo
-  name="Python Modules and Packages – An Introduction"
+  name="Python Modules and Packages - An Introduction"
   desc="This article explores Python modules and Python packages, two mechanisms that facilitate modular programming."
   url="https://realpython.com/python-modules-packages"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Python-Modules-and-Packages-An-Introdu
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Python Modules and Packages: An Introduction – Real Python"
+  name="[COURSE] Python Modules and Packages: An Introduction - Real Python"
   desc="In this course, you'll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable."
   url="https://realpython.com/courses/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -80,7 +80,7 @@ There are several advantages to **modularizing** code in a large application:
 ::: info Quiz - Python Modules and Packages
 
 <SiteInfo
-  name="Python Modules and Packages Quiz – Real Python"
+  name="Python Modules and Packages Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python modules and packages, which are mechanisms that facilitate modular programming. Modular programming involves breaking a large programming task into smaller, more manageable subtasks or modules. This approach has several advantages, including simplicity, maintainability, and reusability."
   url="https://realpython.com/quizzes/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1176,7 +1176,7 @@ Happy Pythoning!
 ::: info Quiz - Python Modules and Packages
 
 <SiteInfo
-  name="Python Modules and Packages Quiz – Real Python"
+  name="Python Modules and Packages Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python modules and packages, which are mechanisms that facilitate modular programming. Modular programming involves breaking a large programming task into smaller, more manageable subtasks or modules. This approach has several advantages, including simplicity, maintainability, and reusability."
   url="https://realpython.com/quizzes/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1191,7 +1191,7 @@ In this quiz, you'll test your understanding of Python modules and packages, whi
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Python Modules and Packages: An Introduction – Real Python"
+  name="[COURSE] Python Modules and Packages: An Introduction - Real Python"
   desc="In this course, you'll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable."
   url="https://realpython.com/courses/python-modules-packages/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1202,7 +1202,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Python Modules and Packages – An Introduction",
+  "title": "Python Modules and Packages - An Introduction",
   "desc": "This article explores Python modules and Python packages, two mechanisms that facilitate modular programming.",
   "link": "https://chanhi2000.github.io/bookshelf/realpython.com/python-modules-packages.html",
   "logo": "https://realpython.com/static/favicon.68cbf4197b0c.png",

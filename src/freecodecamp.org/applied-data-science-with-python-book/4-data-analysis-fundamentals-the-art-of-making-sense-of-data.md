@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "4. Data Analysis Fundamentals: The Art of Making Sense of Data"
-description: "Article(s) > (4/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (4/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (4/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "4. Data Analysis Fundamentals: The Art of Making Sense of Data"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -62,7 +62,7 @@ Finally, you'll embark on the journey of exploratory data analysis (EDA). This i
 
 By the end of this chapter, you'll have a solid grasp of the fundamental concepts and techniques of data analysis. You'll be able to confidently explore and interpret datasets, paving the way for more advanced analysis and modeling techniques.
 
-Remember, data is not just numbers and categories – it's a story waiting to be told. By mastering these foundational skills, you'll become a skilled storyteller, capable of extracting meaningful insights and driving data-informed decision-making.
+Remember, data is not just numbers and categories - it's a story waiting to be told. By mastering these foundational skills, you'll become a skilled storyteller, capable of extracting meaningful insights and driving data-informed decision-making.
 
 ## 4.1 Data Types and Structures
 
@@ -221,7 +221,7 @@ So, are you ready to unveil the secrets hidden within your data? Let's dive into
 
 ### 421-measures-of-central-tendency">4.2.1 Measures of Central Tendency:
 
-Understanding the central tendency of your data is like finding the heart of a story – it gives you a sense of the typical or average value. These measures provide a quick snapshot of your data's central location, offering valuable insights into its overall behavior. 
+Understanding the central tendency of your data is like finding the heart of a story - it gives you a sense of the typical or average value. These measures provide a quick snapshot of your data's central location, offering valuable insights into its overall behavior. 
 
 Let's delve into the three main measures of central tendency:
 
@@ -255,7 +255,7 @@ The mean provides a measure of the "center" of your data. If the data points wer
 
 **Significance of Outliers:**
 
-One of the most important considerations when interpreting the mean is its sensitivity to outliers – extreme values that deviate significantly from the rest of the data. Since the mean takes into account every value in the dataset, a single outlier can drastically pull the mean towards it, potentially leading to a misleading representation of the central tendency.
+One of the most important considerations when interpreting the mean is its sensitivity to outliers - extreme values that deviate significantly from the rest of the data. Since the mean takes into account every value in the dataset, a single outlier can drastically pull the mean towards it, potentially leading to a misleading representation of the central tendency.
 
 For example, consider a dataset representing the salaries of 10 employees: {30,000, 35,000, 40,000, 45,000, 50,000, 55,000, 60,000, 65,000, 500,000}. The outlier salary of $500,000 significantly inflates the mean, making it appear that the average salary is much higher than it actually is for most employees.
 
@@ -567,7 +567,7 @@ Where:
 
 **Coffee Shop Service Example:** Two coffee shops have the same average wait time of 5 minutes. However, Shop A has a standard deviation of 1 minute, while Shop B has a standard deviation of 3 minutes. This means that the wait times at Shop A are more consistent, typically ranging between 4 and 6 minutes, while the wait times at Shop B are more unpredictable, ranging from 2 to 8 minutes. If you value consistent service, Shop A is the clear choice.
 
-**Practical Advice:** Don't just calculate the standard deviation – use it to gain actionable insights. Combine it with other statistical measures and visualizations to fully comprehend your data's behavior. 
+**Practical Advice:** Don't just calculate the standard deviation - use it to gain actionable insights. Combine it with other statistical measures and visualizations to fully comprehend your data's behavior. 
 
 Embrace standard deviation as your guide to understanding variation, making informed decisions, and driving improvements in your personal and professional endeavors.
 
@@ -611,7 +611,7 @@ Where:
 
 #### Kurtosis: A measure of the "tailedness" of a probability distribution.
 
-Imagine your data as a silhouette against the horizon. Kurtosis reveals whether that silhouette is sleek and slender or broad and heavy-set. Technically, it's a measure of the "tailedness" of a probability distribution – the degree to which outliers (extreme values) are present in your data. This tells you how much of the data is concentrated near the mean versus spread out in the tails.
+Imagine your data as a silhouette against the horizon. Kurtosis reveals whether that silhouette is sleek and slender or broad and heavy-set. Technically, it's a measure of the "tailedness" of a probability distribution - the degree to which outliers (extreme values) are present in your data. This tells you how much of the data is concentrated near the mean versus spread out in the tails.
 
 Kurtosis equips you with a deeper understanding of your data's shape, enabling you to:
 
@@ -693,7 +693,7 @@ Percentiles provide valuable insights into relative standing and performance:
 
 - **Benchmarking:** Standardized tests often report scores in percentiles, allowing students to compare their performance to others nationwide. This helps identify areas of strength and weakness.
 - **Growth Tracking:** Monitoring changes in percentile scores over time can reveal individual or group progress. For example, a student whose math percentile increases from the 60th to the 80th percentile has shown significant improvement.
-- **Identifying Outliers:** Extreme percentiles (for example, the 99th percentile) can help identify outliers – individuals or data points that are exceptionally high or low compared to the rest of the group.
+- **Identifying Outliers:** Extreme percentiles (for example, the 99th percentile) can help identify outliers - individuals or data points that are exceptionally high or low compared to the rest of the group.
 - **Setting Standards:** Percentiles can be used to establish benchmarks or thresholds for performance. For example, a company might set a goal for its sales team to reach the 75th percentile in revenue generation.
 
 Calculating percentiles involves several steps:
@@ -707,7 +707,7 @@ Calculating percentiles involves several steps:
 
 **Infant Growth Example:** Pediatricians often use growth charts that plot percentiles for weight and height based on age and gender. If a baby's weight is at the 50th percentile, it means they weigh more than 50% of babies their age and gender. This helps parents and doctors track the child's growth and development compared to their peers.
 
-**Practical Advice:** Don't just focus on your percentile – consider the context and distribution of the data. A high percentile in one group might not be as impressive in another group with a higher overall performance. Use percentiles as a tool to understand relative standing, track progress, and set goals.
+**Practical Advice:** Don't just focus on your percentile - consider the context and distribution of the data. A high percentile in one group might not be as impressive in another group with a higher overall performance. Use percentiles as a tool to understand relative standing, track progress, and set goals.
 
 ### 4.2.6 Quartiles
 
@@ -742,7 +742,7 @@ Quartiles are a valuable tool for understanding the distribution of your data. C
 
 ### 4.2.7 Box Plot (Box and Whisker Plot):
 
-Imagine your data as a story with characters spread across different scenes. A box plot is like a movie trailer, summarizing the key plot points – the central action and the dramatic outliers. Technically, it's a visual representation of a dataset's distribution using five key numbers: the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum.
+Imagine your data as a story with characters spread across different scenes. A box plot is like a movie trailer, summarizing the key plot points - the central action and the dramatic outliers. Technically, it's a visual representation of a dataset's distribution using five key numbers: the minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum.
 
 Box plots provide a concise yet powerful summary of your data's essential features:
 
@@ -768,15 +768,15 @@ A box plot tells a visual story about your data:
 
 **Real Estate Prices Example:** Imagine comparing housing prices in two neighborhoods. A box plot can quickly reveal that one neighborhood has a higher median price but also a wider range of prices, indicating greater variability in housing options. This visual comparison allows potential buyers to quickly grasp the key differences between the two markets.
 
-**Practical Advice:** Don't just view a box plot – engage with it. Ask yourself questions: What's the story your data is telling? Are there outliers? Is the distribution skewed? How do different groups compare? By interacting with the box plot, you unlock its full potential for understanding your data and making informed decisions.
+**Practical Advice:** Don't just view a box plot - engage with it. Ask yourself questions: What's the story your data is telling? Are there outliers? Is the distribution skewed? How do different groups compare? By interacting with the box plot, you unlock its full potential for understanding your data and making informed decisions.
 
 ### 4.2.8 Outliers:
 
-Imagine your data as a flock of birds flying in formation. Outliers are the mavericks – those birds that stray significantly from the group, soaring higher or dipping lower than the rest. 
+Imagine your data as a flock of birds flying in formation. Outliers are the mavericks - those birds that stray significantly from the group, soaring higher or dipping lower than the rest. 
 
 In statistical terms, outliers are data points that differ substantially from the majority of observations in your dataset. They stand out, defying the norms and challenging your assumptions.
 
-**Purpose and Use:** Outliers are not just anomalies – they are valuable clues that can unlock hidden truths within your data:
+**Purpose and Use:** Outliers are not just anomalies - they are valuable clues that can unlock hidden truths within your data:
 
 - **Data Quality Assurance:** In data collection and entry, outliers often signal errors or inconsistencies. Identifying and correcting these outliers can significantly improve the accuracy and reliability of your analysis.
 - **Uncovering Anomalies:** In fraud detection, outliers can be red flags for suspicious activity. For instance, an unusually large transaction in a customer's spending pattern might warrant further investigation.
@@ -917,7 +917,7 @@ Beyond its practical applications, EDA cultivates a culture of curiosity and inn
 
 These discoveries can spark new questions, challenge existing assumptions, and drive the pursuit of deeper insights.
 
-In essence, EDA is not merely a preliminary step – it's a continuous process of discovery that fuels data-driven decision-making, fosters innovation, and ultimately leads to more meaningful and impactful outcomes.
+In essence, EDA is not merely a preliminary step - it's a continuous process of discovery that fuels data-driven decision-making, fosters innovation, and ultimately leads to more meaningful and impactful outcomes.
 
 ### The EDA Toolkit: Your Arsenal for Data Exploration
 
@@ -1170,7 +1170,7 @@ print(grouped_stats)
 
 ### eda-in-action-real-world-applications-across-industries">EDA in Action: Real-World Applications Across Industries
 
-Exploratory Data Analysis (EDA) isn't confined to textbooks and research labs – it's a dynamic tool that's transforming industries and empowering professionals to make data-driven decisions that have real-world impact. 
+Exploratory Data Analysis (EDA) isn't confined to textbooks and research labs - it's a dynamic tool that's transforming industries and empowering professionals to make data-driven decisions that have real-world impact. 
 
 From retail giants to healthcare providers, from social scientists to environmental activists, EDA is the key to unlocking valuable insights and driving innovation.
 

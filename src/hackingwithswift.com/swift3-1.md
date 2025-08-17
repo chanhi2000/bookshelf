@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.1 – Hacking with Swift",
+  "title": "What's new in Swift 3.1 - Hacking with Swift",
   "desc": "What's new in Swift 3.1",
   "link": "https://hackingwithswift.com/swift3-1",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -67,7 +67,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.0 – Hacking with Swift",
+  "title": "What's new in Swift 3.0 - Hacking with Swift",
   "desc": "What's new in Swift 3.0",
   "link": "/hackingwithswift.com/swift3",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -109,7 +109,7 @@ let items = [5, 6, 10, 4, 110, 3].lessThanFirst()
 print(items)
 ```
 
-That extends a concrete type (only `Array`) but still using a protocol for its constraint. What if we wanted to go even more specific – extend a concrete type with a concrete constraint, for example only arrays that contains integers? Well, it turns out that isn't possible in Swift 3.0, which usually strikes people as odd: if Swift 3.0 can handle extending protocols with another protocol as a constraint, then surely extending a specific type with a specific constraint should be a cinch?
+That extends a concrete type (only `Array`) but still using a protocol for its constraint. What if we wanted to go even more specific - extend a concrete type with a concrete constraint, for example only arrays that contains integers? Well, it turns out that isn't possible in Swift 3.0, which usually strikes people as odd: if Swift 3.0 can handle extending protocols with another protocol as a constraint, then surely extending a specific type with a specific constraint should be a cinch?
 
 Fortunately, this discrepancy has been removed in Swift 3.1, which means we can now write code like this:
 
@@ -127,7 +127,7 @@ print(items)
 
 That extends a concrete type (only `Array`) and uses a concrete constraint (only where the elements are `Int`).
 
-Now, obviously we're using a trivial example here – in your own code this is going to be significantly more useful when you want to extend arrays containing your own custom structs.
+Now, obviously we're using a trivial example here - in your own code this is going to be significantly more useful when you want to extend arrays containing your own custom structs.
 
 ---
 
@@ -146,9 +146,9 @@ struct Message {
 }
 ```
 
-That creates a `Message` struct that has an `Attachment` struct inside it – a nested type. I've added two `String` properties, because messages will have some text and attachments will hold some text.
+That creates a `Message` struct that has an `Attachment` struct inside it - a nested type. I've added two `String` properties, because messages will have some text and attachments will hold some text.
 
-Now, what if we wanted either `Message` or `Attachment` to have different kinds of data – perhaps `Int` or `Data`? Well, that requires generics, so you might have found yourself writing something like this:
+Now, what if we wanted either `Message` or `Attachment` to have different kinds of data - perhaps `Int` or `Data`? Well, that requires generics, so you might have found yourself writing something like this:
 
 ```swift
 struct Message<T> {
@@ -161,7 +161,7 @@ struct Message<T> {
 }
 ```
 
-That tells Swift we want `Message` to work across several data types, and whatever data type gets used to create the struct should also be used for the `title` property. Or at least that's what it *would* tell Swift, if such code were actually legal – Swift 3.0 does not allow you to mix nested type with generics. Fortunately, this is exactly what Swift 3.1 allows, because nested types can now appear inside generic types.
+That tells Swift we want `Message` to work across several data types, and whatever data type gets used to create the struct should also be used for the `title` property. Or at least that's what it *would* tell Swift, if such code were actually legal - Swift 3.0 does not allow you to mix nested type with generics. Fortunately, this is exactly what Swift 3.1 allows, because nested types can now appear inside generic types.
 
 Not content to stop there, Swift 3.1 takes this a step further: nested types can *also* be generic, either using their own generic type or by inheriting the generic type of their parent. For example:
 
@@ -176,13 +176,13 @@ struct Message<T> {
 }
 ```
 
-With that code, the `Message` struct will have a specific type assigned to it, and the `Attachment` struct will always have the same type – you can't use `String` for one and `Int` for the other. So, this code will work fine:
+With that code, the `Message` struct will have a specific type assigned to it, and the `Attachment` struct will always have the same type - you can't use `String` for one and `Int` for the other. So, this code will work fine:
 
 ```swift
 let msg = Message(title: "Hello", attachment: Message.Attachment(contents: "World"))
 ```
 
-Helpfully, if your goal is to make the nested type and its container use the same generic type, you don't even need to declare the nested type as generic – Swift makes the outer type available to the nested type, so in fact you can just write this:
+Helpfully, if your goal is to make the nested type and its container use the same generic type, you don't even need to declare the nested type as generic - Swift makes the outer type available to the nested type, so in fact you can just write this:
 
 ```swift
 struct Message<T> {
@@ -201,7 +201,7 @@ Generics are great and so are nested types, so I'm really pleased to see Swift 3
 
 ## Sequences get prefix(while:) and drop(while:) methods
 
-Two useful new methods have been added to the `Sequence` protocol: `prefix(while:)` and `drop(while:)`. The former returns the longest subsequence that satisfies a predicate, which is a fancy way of saying that you give it a closure to run on every item, and it will go through all the elements in the sequence and return those that match the closure – but will stop as soon as it finds a non-matching element.
+Two useful new methods have been added to the `Sequence` protocol: `prefix(while:)` and `drop(while:)`. The former returns the longest subsequence that satisfies a predicate, which is a fancy way of saying that you give it a closure to run on every item, and it will go through all the elements in the sequence and return those that match the closure - but will stop as soon as it finds a non-matching element.
 
 Let's take a look at a code example:
 
@@ -211,7 +211,7 @@ let prefixed = names.prefix { $0.hasPrefix("Michael") }
 print(prefixed)
 ```
 
-That uses the `hasPrefix()` method to return the subsequence `["Michael Jackson", "Michael Jordan", "Michael Caine"` – the first three elements in the sequence. It won't include "Michael Douglas", because that comes after the first non-Michael. If you wanted *all* the Michaels regardless of their position, you should use `filter()` instead.
+That uses the `hasPrefix()` method to return the subsequence `["Michael Jackson", "Michael Jordan", "Michael Caine"` - the first three elements in the sequence. It won't include "Michael Douglas", because that comes after the first non-Michael. If you wanted *all* the Michaels regardless of their position, you should use `filter()` instead.
 
 The second new method, `drop(while:)` is effectively the opposite: it finds the longest subsequence that satisfies your predicate, then returns everything *after* it. For example:
 
@@ -221,7 +221,7 @@ let dropped = names.drop { $0.hasPrefix("Michael") }
 print(dropped)
 ```
 
-That will return the subsequence `["Taylor Swift", "Adele Adkins", "Michael Douglas"]` – everything after the initial Michaels.
+That will return the subsequence `["Taylor Swift", "Adele Adkins", "Michael Douglas"]` - everything after the initial Michaels.
 
 ---
 
@@ -229,7 +229,7 @@ That will return the subsequence `["Taylor Swift", "Adele Adkins", "Michael Doug
 
 Swift 4.0 is almost certainly going to see the light of day in June, with a full release a few months afterwards. Although a major goal is to provide source stability for Swift 3 code, some breaking changes are almost inevitable.
 
-If you want to take a peek into the future, you should  [read the String Processing For Swift document (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/StringManifesto.md) from two of Apple's Swift engineers – yes, code will break, but hopefully this will result in strings being significantly easier for developers to work with. If you worked through the string problems in my  [<FontIcon icon="fas fa-globe"/>Swift Coding Challenges](https://hackingwithswift.com/store/swift-coding-challenges) book, you'll know how tricky strings can be right now.
+If you want to take a peek into the future, you should  [read the String Processing For Swift document (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/StringManifesto.md) from two of Apple's Swift engineers - yes, code will break, but hopefully this will result in strings being significantly easier for developers to work with. If you worked through the string problems in my  [<FontIcon icon="fas fa-globe"/>Swift Coding Challenges](https://hackingwithswift.com/store/swift-coding-challenges) book, you'll know how tricky strings can be right now.
 
-One feature we're all hoping for is true  [ABI compatibility (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/ABIStabilityManifesto.md), which would allow developers to distribute compiled libraries – one of the few key missing features that remain in Swift today. It would also reduce the size of every Swift app because iOS could store Swift's runtime libraries rather than them being distributed with every Swift app, so we get faster uploads to iTunes Connect, faster downloads to users, and slimmer apps all around. Hurray!
+One feature we're all hoping for is true  [ABI compatibility (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/ABIStabilityManifesto.md), which would allow developers to distribute compiled libraries - one of the few key missing features that remain in Swift today. It would also reduce the size of every Swift app because iOS could store Swift's runtime libraries rather than them being distributed with every Swift app, so we get faster uploads to iTunes Connect, faster downloads to users, and slimmer apps all around. Hurray!
 

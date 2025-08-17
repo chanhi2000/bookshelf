@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Refactor Complex Codebases – A Practical Guide for Devs"
-description: "Article(s) > How to Refactor Complex Codebases – A Practical Guide for Devs"
+title: "How to Refactor Complex Codebases - A Practical Guide for Devs"
+description: "Article(s) > How to Refactor Complex Codebases - A Practical Guide for Devs"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Refactor Complex Codebases – A Practical Guide for Devs"
+      content: "Article(s) > How to Refactor Complex Codebases - A Practical Guide for Devs"
     - property: og:description
-      content: "How to Refactor Complex Codebases – A Practical Guide for Devs"
+      content: "How to Refactor Complex Codebases - A Practical Guide for Devs"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-refactor-complex-codebases.html
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747835131515/f6ea465
 ---
 
 <SiteInfo
-  name="How to Refactor Complex Codebases – A Practical Guide for Devs"
+  name="How to Refactor Complex Codebases - A Practical Guide for Devs"
   desc="Developers often see refactoring as a secondary concern that they can delay indefinitely because it doesn’t immediately contribute to revenue or feature development. And managers frequently view refactoring as ”not a business need” until it boils ove..."
   url="https://freecodecamp.org/news/how-to-refactor-complex-codebases"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -190,7 +190,7 @@ Write down your refactoring goals and share them with your team. This sets expec
 
 ### 1. Identifying and Isolating Problem Areas
 
-It can be overwhelming to decide where to start refactoring a large codebase. Not every part of the code needs refactoring – some areas are delicate or rarely touched.
+It can be overwhelming to decide where to start refactoring a large codebase. Not every part of the code needs refactoring - some areas are delicate or rarely touched.
 
 The most impactful refactoring efforts typically target the “problem areas”: parts of the codebase that are overly complex, error-prone, or act as bottlenecks for development and performance. Identifying these areas is a crucial first step.
 
@@ -204,7 +204,7 @@ In my experience, simply asking, “If you had a magic wand, which part of the c
 
 #### Code complexity metrics
 
-Use static analysis tools to measure cyclomatic complexity, code duplication, large functions/classes, and so on. Files or modules with extremely high complexity numbers or thousands of lines are good candidates for scrutiny. But static complexity alone doesn’t tell the whole story – a file might be ugly but rarely touched.
+Use static analysis tools to measure cyclomatic complexity, code duplication, large functions/classes, and so on. Files or modules with extremely high complexity numbers or thousands of lines are good candidates for scrutiny. But static complexity alone doesn’t tell the whole story - a file might be ugly but rarely touched.
 
 ![SonarQube](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc07SWwlu4GxU6AwoXQEHyyEcQY-6YMOEPr7b7Quhk5UvLD7qx9XyZla2SzP32eGFoYY_Xy-SYZQ9mOMX7Mxeq1YCnFXQxudsMNbvak9CLZfSOeRIvdll_pLW56sAmvRcPZMk36Rg?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
@@ -232,7 +232,7 @@ Here are strategies to isolate and tackle it:
 
 #### Break dependencies (Create seams)
 
-Michael Feathers (in *Working Effectively with Legacy Code*) introduced the concept of “seams” – places where you can cut into a codebase to isolate a part for testing or refactoring. This might mean introducing an interface or abstraction between components so you can work on one side independently.
+Michael Feathers (in *Working Effectively with Legacy Code*) introduced the concept of “seams” - places where you can cut into a codebase to isolate a part for testing or refactoring. This might mean introducing an interface or abstraction between components so you can work on one side independently.
 
 For example, suppose PaymentService is tightly coupled to StripeGateway, with direct calls scattered throughout the code.
 
@@ -324,7 +324,7 @@ Incremental delivery lets you confirm changes in production and makes diagnosing
 
 This is the “tear it down and rebuild” approach. You stop adding new features, possibly freeze the code for a period, and devote a considerable effort to redesigning or rewriting a significant portion (or the entirety) of the system. The idea is to emerge on the other side with a *brand new, clean* system.
 
-So when (if ever) is a big bang justified? Perhaps when the existing system is truly untenable – for example, an outdated technology that **must** be replaced (such as a platform that can’t meet new performance or security requirements or code written in a language no longer supported). Even then, wise teams often simulate a big bang by breaking it into stages or developing the new system in parallel.
+So when (if ever) is a big bang justified? Perhaps when the existing system is truly untenable - for example, an outdated technology that **must** be replaced (such as a platform that can’t meet new performance or security requirements or code written in a language no longer supported). Even then, wise teams often simulate a big bang by breaking it into stages or developing the new system in parallel.
 
 Whenever possible, favor an incremental refactoring strategy. Teams successfully pull off massive transformations by treating the big refactor as a series of mini-refactors under a shared vision.
 
@@ -471,7 +471,7 @@ Now, that class no longer depends on how the data is fetched. Applying the depen
 
 #### Use dependency injection
 
-Once you have interfaces, use dependency injection to supply concrete implementations. Many frameworks support DI containers, or you can do it manually (passing in dependencies via constructors). Dependency injection means code A doesn’t instantiate code B itself – instead, B is passed into A.
+Once you have interfaces, use dependency injection to supply concrete implementations. Many frameworks support DI containers, or you can do it manually (passing in dependencies via constructors). Dependency injection means code A doesn’t instantiate code B itself - instead, B is passed into A.
 
 This approach also makes unit testing easier (you can inject mock dependencies).
 
@@ -479,7 +479,7 @@ This approach also makes unit testing easier (you can inject mock dependencies).
 
 If a particular subsystem is heavily entangled with others, consider creating a Facade, an object that provides a simplified interface to a larger body of code. Other parts of the system are then called the Facade, not the many internal methods of the subsystem. Internally, the subsystem can be refactored (even split into smaller pieces) as long as the Facade’s outward interface remains consistent.
 
-This is similar to how microservices work (other services don’t care how one service is implemented internally – they just call its API), but you can do it in-process, too.
+This is similar to how microservices work (other services don’t care how one service is implemented internally - they just call its API), but you can do it in-process, too.
 
 ![Facades or wrapper services](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe_X2G_VNTR-I2EIp86SgPD3Zlks70Q4iG3BsqIs94PMgh-_qNfRk7ogT4mqONP7qXzg8PpN92k342-2nH6ertfy32Ga6SFH3PdSLwxP4US9PPjMi6Rqc9hy-gHbSKVzvTvYmTzOQ?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
@@ -575,7 +575,7 @@ Performance should be treated as part of the “external behavior” that needs 
 
 ### 8. Automate Code Reviews with AI tools
 
-Refactoring code is an ongoing process, not a one-time event – AI code review tools help enforce clean-code standards, catch smells early, and reduce the repetitive tasks that can bog down human reviewers. This frees your engineers to focus on deeper architectural or domain-specific issues.
+Refactoring code is an ongoing process, not a one-time event - AI code review tools help enforce clean-code standards, catch smells early, and reduce the repetitive tasks that can bog down human reviewers. This frees your engineers to focus on deeper architectural or domain-specific issues.
 
 ![CodeRabbi AI Code Reviewer Tool](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWs-ZM80TK_JcjwyPEnywdJl6Tf4G6gYFa1cN_J2ugTlniaGr4a397JuUj721m7kUw0EKMnzYHykpHJdG_aW7w3_B2J91bLL1UoaabdNsmH1uckMJHcFVpAhqZM2r855AsVYwDJg?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
@@ -589,9 +589,9 @@ CodeRabbit analyzes pull requests line by line, applying both advanced language 
 
 Some other features include:
 
-- **Auto-generated summaries and 1-click fixes** – Summarize large PRs and apply straightforward fixes instantly.
-- **Real-time collaboration and AI chat** – Chat with the AI for clarifications, alternate code snippets, and instant feedback.
-- **Integrates with popular dev platforms** – Supports GitHub, GitLab, and Azure DevOps for seamless PR scanning.
+- **Auto-generated summaries and 1-click fixes** - Summarize large PRs and apply straightforward fixes instantly.
+- **Real-time collaboration and AI chat** - Chat with the AI for clarifications, alternate code snippets, and instant feedback.
+- **Integrates with popular dev platforms** - Supports GitHub, GitLab, and Azure DevOps for seamless PR scanning.
 
 CodeRabbit even has a free AI code reviews in VS Code and with this [VS Code extension (<FontIcon icon="iconfont icon-vscode"/>`CodeRabbit.coderabbit-vscode`)](https://marketplace.visualstudio.com/items?itemName=CodeRabbit.coderabbit-vscode), you can get the most advanced AI code reviews directly in your code editor, saving review time, catching more bugs, and helping you in refactoring.
 
@@ -635,7 +635,7 @@ Some of the new and interesting articles I've written in the last 24 months.
 ```component VPCard
 {
   "title": "How I Built a Custom Video Conferencing App with Stream and Next.js",
-  "desc": "Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth – plus you have to know how all of these things work together. And building a project like a video conferencing app from scratch can feel even more overwhe...",
+  "desc": "Building full-stack apps can be tough. You have to think about frontend, APIs, databases, auth - plus you have to know how all of these things work together. And building a project like a video conferencing app from scratch can feel even more overwhe...",
   "link": "/freecodecamp.org/how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -644,7 +644,7 @@ Some of the new and interesting articles I've written in the last 24 months.
 
 ```component VPCard
 {
-  "title": "How to Perform Code Reviews in Tech – The Painless Way",
+  "title": "How to Perform Code Reviews in Tech - The Painless Way",
   "desc": "Okay, I know you may be skeptical: other guides have promised painless code reviews only to reveal that their solution requires some hyper-specific tech stack or a paid developer tool. I won’t do that to you. This guide provides a straightforward and...",
   "link": "/freecodecamp.org/how-to-perform-code-reviews-in-tech-the-painless-way.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -661,7 +661,7 @@ Now it’s time to take the next step by subscribing to my [<FontIcon icon="fas 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Refactor Complex Codebases – A Practical Guide for Devs",
+  "title": "How to Refactor Complex Codebases - A Practical Guide for Devs",
   "desc": "Developers often see refactoring as a secondary concern that they can delay indefinitely because it doesn’t immediately contribute to revenue or feature development. And managers frequently view refactoring as ”not a business need” until it boils ove...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-refactor-complex-codebases.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

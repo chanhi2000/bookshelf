@@ -51,16 +51,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747861011004/173ecdc
 
 <SiteInfo
   name="How to Use React 19 in Power Apps PCF Components"
-  desc="The Power Apps Component Framework – PCF for short – lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript. When creating a new PCF project, you can choose from two types of controls: standar..."
+  desc="The Power Apps Component Framework - PCF for short - lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript. When creating a new PCF project, you can choose from two types of controls: standar..."
   url="https://freecodecamp.org/news/how-to-use-react-19-in-pcf-components"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1747861011004/173ecdcd-7bca-4c4f-967b-47616bd79a06.png"/>
 
-The Power Apps Component Framework – PCF for short – lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript.
+The Power Apps Component Framework - PCF for short - lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript.
 
 When creating a new PCF project, you can choose from two types of controls: **standard controls** and **React virtual controls**. For non-trivial components, React is often a good choice because it abstracts away much of the heavy DOM manipulation. But, when you’re using React with PCF, you’re currently limited to React 16 in Canvas apps and React 17 in Model-Driven apps.
 
-That doesn’t mean you *can’t* use a newer version – but doing so means opting out of virtualization support. For many PCF components, that trade-off is usually acceptable.
+That doesn’t mean you *can’t* use a newer version - but doing so means opting out of virtualization support. For many PCF components, that trade-off is usually acceptable.
 
 In this article, I’ll show you how to integrate the latest version of React (v19) with your PCF component. We’ll install the necessary dependencies and configure the component to take full advantage of the latest version of React.
 
@@ -142,7 +142,7 @@ From the command line, run:
 npm run start:watch
 ```
 
-This may take a moment. It will open a browser showing your PCF test harness. You’ll likely see an empty screen. That’s expected – we haven’t rendered anything yet.
+This may take a moment. It will open a browser showing your PCF test harness. You’ll likely see an empty screen. That’s expected - we haven’t rendered anything yet.
 
 Open <FontIcon icon="iconfont icon-typescript"/>`index.ts` in the `SampleComponent` folder. This file contains a class that implements the PCF standard control interface. Let’s create a basic non-React button.
 
@@ -281,7 +281,7 @@ With the above setup, React will now re-render your button when the property bag
 
 ## Wrapping Up
 
-You’ve now created a PCF component that uses the latest version of React! By installing and configuring React manually, you avoid the version limitations of Microsoft’s built-in React controls – unlocking the power of modern React features.
+You’ve now created a PCF component that uses the latest version of React! By installing and configuring React manually, you avoid the version limitations of Microsoft’s built-in React controls - unlocking the power of modern React features.
 
 While this setup doesn’t support virtualization, for many components that’s a fair trade-off for modern tooling and maintainability.
 
@@ -293,7 +293,7 @@ _**Enjoyed this article?**_ I write regularly about low-code, development patter
 ```component VPCard
 {
   "title": "How to Use React 19 in Power Apps PCF Components",
-  "desc": "The Power Apps Component Framework – PCF for short – lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript. When creating a new PCF project, you can choose from two types of controls: standar...",
+  "desc": "The Power Apps Component Framework - PCF for short - lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript. When creating a new PCF project, you can choose from two types of controls: standar...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-react-19-in-pcf-components.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

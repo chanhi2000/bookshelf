@@ -61,9 +61,9 @@ let first = await requestFirstData()
 let second = await requestSecondData(using: first)
 ```
 
-There the call to `requestSecondData()` cannot start until the call to `requestFirstData()` has completed and returned its value – it just doesn’t make sense for those two to run simultaneously.
+There the call to `requestSecondData()` cannot start until the call to `requestFirstData()` has completed and returned its value - it just doesn’t make sense for those two to run simultaneously.
 
-On the other hand, if you’re making several completely different requests – perhaps you want to download the latest news, the weather forecast, and check whether an app update was available – then those things do *not* rely on each other to complete and would be great candidates for `async let`:
+On the other hand, if you’re making several completely different requests - perhaps you want to download the latest news, the weather forecast, and check whether an app update was available - then those things do *not* rely on each other to complete and would be great candidates for `async let`:
 
 ```swift
 func getAppData() async -> ([News], [Weather], Bool) {
@@ -74,7 +74,7 @@ func getAppData() async -> ([News], [Weather], Bool) {
 }
 ```
 
-So, use `await` when it’s important you have a value before continuing, and `async let` when your work can continue without the value for the time being – you can always use `await` later on when it’s actually needed.
+So, use `await` when it’s important you have a value before continuing, and `async let` when your work can continue without the value for the time being - you can always use `await` later on when it’s actually needed.
 
 ::: details Similar solutions…
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "📈 The Need for Scaling – Vertical vs Horizontal"
-description: "Article(s) > (4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+title: "📈 The Need for Scaling - Vertical vs Horizontal"
+description: "Article(s) > (4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 category:
   - DevOps
   - Microsoft
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > (4/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
-      content: "📈 The Need for Scaling – Vertical vs Horizontal"
+      content: "📈 The Need for Scaling - Vertical vs Horizontal"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/the-need-for-scaling-vertical-vs-horizontal.html
 date: 2025-05-15
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer#heading-the-need-for-scaling-vertical-vs-horizontal"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb4-8d7b-47e5-ab31-126906f60b40.png"/>
 
-Imagine your app is growing. At first, it’s just a few users. Then a few hundred. Then thousands are logging in, placing orders, chatting, uploading photos – all at once 😮
+Imagine your app is growing. At first, it’s just a few users. Then a few hundred. Then thousands are logging in, placing orders, chatting, uploading photos - all at once 😮
 
 Suddenly, your server (VM) is under pressure. It’s like trying to pour a flood through a straw.
 
@@ -60,7 +60,7 @@ Suddenly, your server (VM) is under pressure. It’s like trying to pour a flood
 
 ## So, What Do You Do When One Server Isn’t Enough?
 
-This is where scaling comes in – the art of upgrading your app’s infrastructure to keep up with traffic.
+This is where scaling comes in - the art of upgrading your app’s infrastructure to keep up with traffic.
 
 There are two main ways to scale:
 
@@ -90,7 +90,7 @@ Think of it like upgrading from a regular car to a sports car. It’s the same v
 
 ### 🧩 Option 2: Horizontal Scaling (aka Scaling Out)
 
-Instead of boosting one server, you add more servers – multiple VMs running copies of your app.
+Instead of boosting one server, you add more servers - multiple VMs running copies of your app.
 
 Now:
 
@@ -110,8 +110,8 @@ It’s like opening more checkout counters in a busy supermarket 🛒
 
 @tab Cons
 
-- Needs something to split traffic between VMs – Load Balancers
-- More expensive. You end up paying the original amount for 1 VM (for example $30) for the number of VMs you provide – if you provide 3 VMs at $30 each, you end up paying $90 at the end of the month
+- Needs something to split traffic between VMs - Load Balancers
+- More expensive. You end up paying the original amount for 1 VM (for example $30) for the number of VMs you provide - if you provide 3 VMs at $30 each, you end up paying $90 at the end of the month
 
 :::
 

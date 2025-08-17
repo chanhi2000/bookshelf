@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: "First Project – Reading a Joke"
+title: "First Project - Reading a Joke"
 description: "(6/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
 category: 
   - Rust
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: "(6/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
     - property: og:description
-      content: "First Project – Reading a Joke"
+      content: "First Project - Reading a Joke"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/first-project-reading-a-joke.html
 date: 2024-06-04

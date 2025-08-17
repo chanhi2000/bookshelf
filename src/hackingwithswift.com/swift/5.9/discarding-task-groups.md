@@ -125,7 +125,7 @@ struct FileProcessor {
 }
 ```
 
-That will run forever, or at least until either the user terminates the program or the directory we’re watching stops being accessible. However, because it uses `withThrowingTaskGroup()` it has a problem: a new child task is created every time `addTask()` is called, but because it doesn’t call `group.next()` anywhere those child tasks are never destroyed. Little by little – maybe only a few hundred bytes each time – this code will eat more and more memory until eventually the operating system runs out of RAM and is forced to terminate the program.
+That will run forever, or at least until either the user terminates the program or the directory we’re watching stops being accessible. However, because it uses `withThrowingTaskGroup()` it has a problem: a new child task is created every time `addTask()` is called, but because it doesn’t call `group.next()` anywhere those child tasks are never destroyed. Little by little - maybe only a few hundred bytes each time - this code will eat more and more memory until eventually the operating system runs out of RAM and is forced to terminate the program.
 
 This problem goes away entirely with discarding task groups: just replacing `withThrowingTaskGroup(of: Void.self)` with `withThrowingDiscardingTaskGroup` means each child task is automatically destroyed as soon as its work finishes.
 

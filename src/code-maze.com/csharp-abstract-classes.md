@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Abstract Classes"
-description: "Article(s) > C# Intermediate – Abstract Classes"
+title: "C# Intermediate - Abstract Classes"
+description: "Article(s) > C# Intermediate - Abstract Classes"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Abstract Classes"
+      content: "Article(s) > C# Intermediate - Abstract Classes"
     - property: og:description
-      content: "C# Intermediate – Abstract Classes"
+      content: "C# Intermediate - Abstract Classes"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-abstract-classes.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-abstract-classes/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Abstract Classes"
+  name="C# Intermediate - Abstract Classes"
   desc="In this article you are going to laearn about Abstract Classes in C#, how to create them and what is Seald class as well."
   url="https://code-maze.com/csharp-abstract-classes"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -141,7 +141,7 @@ In the next article, we are going to talk about [**Generics in C#**](/code-maze.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Abstract Classes",
+  "title": "C# Intermediate - Abstract Classes",
   "desc": "In this article you are going to laearn about Abstract Classes in C#, how to create them and what is Seald class as well.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-abstract-classes.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,9 +61,9 @@ isOriginal: false
 <!-- 
 If you create your app using one of Xcode’s built-in templates, you’ll automatically get an `AppDelegate` class in <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift`, which comes with a handful of empty methods. 
 
-This class is *supposed* to be there to handle application lifecycle events - i.e., responding to the app being launched, backgrounded, foregrounded, receiving data, and so on. However, in practice `AppDelegate` is often abused as an easy dumping group for shared data – any thing that is used in several view controllers often gets thrown into the app delegate, but that’s nearly always the wrong place for it.
+This class is *supposed* to be there to handle application lifecycle events - i.e., responding to the app being launched, backgrounded, foregrounded, receiving data, and so on. However, in practice `AppDelegate` is often abused as an easy dumping group for shared data - any thing that is used in several view controllers often gets thrown into the app delegate, but that’s nearly always the wrong place for it.
 
-You may also sometimes see folks creating their initial user interface inside `AppDelegate`. This is broadly a bad idea unless you’re just starting out – if you’ve done this, consider splitting off that layout code either into a coordinator or into a view containment subclass.
+You may also sometimes see folks creating their initial user interface inside `AppDelegate`. This is broadly a bad idea unless you’re just starting out - if you’ve done this, consider splitting off that layout code either into a coordinator or into a view containment subclass.
 
 -->
 

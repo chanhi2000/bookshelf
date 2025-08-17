@@ -73,7 +73,7 @@ let answer = 42
 let dontpanic = #"The answer to life, the universe, and everything is \#(answer)."#
 ```
 
-Notice how I’ve used `\#(answer)` to use string interpolation – a regular `\(answer)` will be interpreted as characters in the string, so when you want string interpolation to happen in a raw string you must add the extra `#`.
+Notice how I’ve used `\#(answer)` to use string interpolation - a regular `\(answer)` will be interpreted as characters in the string, so when you want string interpolation to happen in a raw string you must add the extra `#`.
 
 One of the interesting features of Swift’s raw strings is the use of hash symbols at the start and end, because you can use more than one in the unlikely event you’ll need to. It’s hard to provide a good example here because it really ought to be extremely rare, but consider this string: **My dog said "woof"#gooddog**. Because there’s no space before the hash, Swift will see `"#` and immediately interpret it as the string terminator. In this situation we need to change our delimiter from `#"` to `##"`, like this:
 
@@ -83,7 +83,7 @@ let str = ##"My dog said "woof"#gooddog"##
 
 Notice how the number of hashes at the end must match the number at the start.
 
-Raw strings are fully compatible with Swift’s multi-line string system – just use `#"""` to start, then `"""#` to end, like this:
+Raw strings are fully compatible with Swift’s multi-line string system - just use `#"""` to start, then `"""#` to end, like this:
 
 ```swift
 let multiline = #"""

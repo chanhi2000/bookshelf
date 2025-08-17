@@ -84,7 +84,7 @@ enum Padding: Defaultable {
 }
 ```
 
-That kind of code wouldn’t have been possible before SE-0280 – Swift would have said that `Padding` doesn’t satisfy the protocol. However, if you think it through the protocol really *is* satisfied: we said it needs a static `defaultValue` that returns `Self`, i.e. whatever concrete type is conforming to the protocol, and that’s exactly what `Padding.defaultValue` does.
+That kind of code wouldn’t have been possible before SE-0280 - Swift would have said that `Padding` doesn’t satisfy the protocol. However, if you think it through the protocol really *is* satisfied: we said it needs a static `defaultValue` that returns `Self`, i.e. whatever concrete type is conforming to the protocol, and that’s exactly what `Padding.defaultValue` does.
 
 ::: details Other Changes in Swift 5.3
 

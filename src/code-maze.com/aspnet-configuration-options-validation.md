@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Configuration – Options Validation
-description: Article(s) > ASP.NET Core Configuration – Options Validation
+title: ASP.NET Core Configuration - Options Validation
+description: Article(s) > ASP.NET Core Configuration - Options Validation
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Configuration – Options Validation
+      content: Article(s) > ASP.NET Core Configuration - Options Validation
     - property: og:description
-      content: ASP.NET Core Configuration – Options Validation
+      content: ASP.NET Core Configuration - Options Validation
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/aspnet-configuration-options-validation.html
 prev: /programming/cs/articles/README.md
@@ -43,7 +43,7 @@ cover: /assets/image/code-maze.com/aspnet-configuration-options-validation/banne
 ---
 
 <SiteInfo
-  name="ASP.NET Core Configuration – Options Validation"
+  name="ASP.NET Core Configuration - Options Validation"
   desc="In this article, we're going to learn the importance of options validation and a few ways to implement it in our ASP.NET Core applications."
   url="https://code-maze.com/aspnet-configuration-options-validation/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -282,7 +282,7 @@ public class TitleConfigurationValidation : IValidateOptions<TitleConfiguration>
 
 We are going to implement the `IValidateOptions` interface using the `TitleConfiguration` as the options parameter for the `Validate()` method.
 
-The `IValidateOptions` interface declares only one method – `Validate()`, and it accepts two arguments, name and options. We can also see that this method returns `ValidateOptionsResult` which is a convenient way to provide result information. Much more convenient than just true or false like we did previously.
+The `IValidateOptions` interface declares only one method - `Validate()`, and it accepts two arguments, name and options. We can also see that this method returns `ValidateOptionsResult` which is a convenient way to provide result information. Much more convenient than just true or false like we did previously.
 
 First, we can move our existing options validation we did in the Startup class to this method:
 

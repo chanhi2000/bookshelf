@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-description: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+title: "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+description: "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
 icon: iconfont icon-mermaid
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
-      content: "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/
 prev: /programming/js-mermaid/articles/README.md
@@ -50,13 +50,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
 
-Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program’s flow.
+Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program’s flow.
 
 When it comes to software development, finding ways to visualize these mental models is a common thread. Many developers describe sketching workflows or imagining them mentally to reason through code. And in my own experience working with senior developers and software architects, this visualization habit is extremely common.
 
@@ -64,15 +64,15 @@ A 2013 Quora post captures this well:
 
 > “A top coder sees a program graphically (…) A data structure as a hierarchy of relationships, a program as a network of data pipes… The first and only time he reduces pictures to words is when he writes code.” —Rober Wagner
 
-So it appears that developing our ability to recognize patterns in code could help us to develop our expertise. But programming is rarely that straightforward – there are often multiple ways to solve the same problem. It also reflects a developer’s personal habits, experiences, and styles. So which patterns matter, then?
+So it appears that developing our ability to recognize patterns in code could help us to develop our expertise. But programming is rarely that straightforward - there are often multiple ways to solve the same problem. It also reflects a developer’s personal habits, experiences, and styles. So which patterns matter, then?
 
 Imagine you assign the same task to five developers: build a small game using HTML, CSS, and JavaScript. Each solution should follow the same functional rules. What are the chances their code will look the same?
 
-You’d expect that their implementations might differ, but the underlying **mental workflow** – the internal logic they follow – might be remarkably similar. If you can reconstruct this mental flow from each codebase, you can create a shared referential point for comparison. Once this conceptual diagram is in place, you can “overlay” it on each codebase to identify where they diverge in structure, logic, or abstraction.
+You’d expect that their implementations might differ, but the underlying **mental workflow** - the internal logic they follow - might be remarkably similar. If you can reconstruct this mental flow from each codebase, you can create a shared referential point for comparison. Once this conceptual diagram is in place, you can “overlay” it on each codebase to identify where they diverge in structure, logic, or abstraction.
 
 Ever since I started coding, spotting “patterns” while comparing other people’s code has fascinated me. I’ve found the process of comparing code not only educational but also enjoyable.
 
-Up until now, I’ve approached it mostly by intuition – but I’ve always felt the need for a more structured method. This article explores a more systematic approach to code comparison, reflecting on what works well and what can be improved.
+Up until now, I’ve approached it mostly by intuition - but I’ve always felt the need for a more structured method. This article explores a more systematic approach to code comparison, reflecting on what works well and what can be improved.
 
 ::: tip How to Read this Article
 
@@ -82,7 +82,7 @@ That said, there are different ways you might approach this article, depending o
 
 - **Just curious about the idea?** The core argument is already laid out in the introduction. Maybe read the conclusion too, and that might be enough for your needs.
 - **Looking to improve your portfolio?** Skim through the analyses. If you're working on a game project, you’ll find comparisons of five JavaScript implementations of Rock, Paper, Scissors. These may give you practical ideas for your own code.
-- **Interested in code analysis?** Read the whole thing. This article goes deeper into why analyzing code is valuable and presents a practical methodology – including tools – you can apply.
+- **Interested in code analysis?** Read the whole thing. This article goes deeper into why analyzing code is valuable and presents a practical methodology - including tools - you can apply.
 
 :::
 
@@ -110,7 +110,7 @@ System block diagrams visualize a program at a higher level. They use labeled bl
 
 Used for code comparison, placing two system block diagrams side by side immediately highlights structural and design differences. You can see at a glance how one solution favors modularity, another embeds logic in fewer blocks, or which one better separates concerns.
 
-Still, system block diagrams can be drawn in different ways – some emphasizing structure, others workflow. Is there a format that combines both?
+Still, system block diagrams can be drawn in different ways - some emphasizing structure, others workflow. Is there a format that combines both?
 
 ### The Use Case-Driven System Block Diagram
 
@@ -126,7 +126,7 @@ Interestingly, the example above effectively exemplifies its usage for **evaluat
 
 ## What We Are Going to Do
 
-To elaborate upon the suitability of this methodology for code analysis, we’ll apply the fundamentals of use case-driven system block diagram methodology to analyze five JavaScript projects’ code – each created by a different developer – implementing the Rock, Paper, Scissors game on [<FontIcon icon="fa-brands fa-codepen"/>CodePen](https://codepen.io/).
+To elaborate upon the suitability of this methodology for code analysis, we’ll apply the fundamentals of use case-driven system block diagram methodology to analyze five JavaScript projects’ code - each created by a different developer - implementing the Rock, Paper, Scissors game on [<FontIcon icon="fa-brands fa-codepen"/>CodePen](https://codepen.io/).
 
 The Rock, Paper, Scissors (RPS) game is a simple two-player challenge where each participant simultaneously shows either a “rock”, a “paper”, or “scissors” depicted by one of their hands, usually after a countdown. Then they apply the following rule to decide the “winner”:
 
@@ -173,20 +173,20 @@ To find the projects, I searched CodePen for any pen about “Rock Paper Scissor
 
 First of all, our goal here isn’t to judge the quality of the codebases. Instead, it’s to demonstrate how we can use this diagram-based methodology to compare them.
 
-CodePen projects often include quick demos, experiments, or even AI-generated snippets. Some developers might be more interested in the HTML/CSS of the project. But while they don’t always follow best practices, that’s what makes this exercise interesting – the diversity of approaches reveals valuable contrasts worth analyzing.
+CodePen projects often include quick demos, experiments, or even AI-generated snippets. Some developers might be more interested in the HTML/CSS of the project. But while they don’t always follow best practices, that’s what makes this exercise interesting - the diversity of approaches reveals valuable contrasts worth analyzing.
 
 ### The Methodology
 
 For the comparison, we’re using a methodology inspired by Rice University’s COMP310 course, which suggests the following high-level steps for constructing use case-driven system block diagrams:
 
 1. **Add all system use cases** to a single diagram. These use cases will be similar to “steps in a workflow”.
-2. **Group related cases** within conceptually – or functionally – related operations.
+2. **Group related cases** within conceptually - or functionally - related operations.
 3. **Encapsulate groups** into modules (or blocks) based on roles and responsibilities. Start drawing the relationships (note: what we should understand for encapsulation here shouldn’t be confused with other definitions like the one given in OOP).
-4. **Decouple operations** as much as possible – refine scope and minimize interconnections.
+4. **Decouple operations** as much as possible - refine scope and minimize interconnections.
 
 In order to allow the comparison between code examples, we will try to find cases (or steps), modules, and relations that are consistently similar between each code example, independently of the “architecture”.
 
-Although UML compliance is encouraged in the original course, we’ll take a lighter approach – preserving the intent and structure without strictly following every UML rule.
+Although UML compliance is encouraged in the original course, we’ll take a lighter approach - preserving the intent and structure without strictly following every UML rule.
 
 ### How We’ll Build the Diagrams
 
@@ -225,7 +225,7 @@ Be aware that to keep consistency in sizing and titling all resulting diagrams w
 ```component VPCard
 {
   "title": "“CPC Rock Paper Scissors” by Amit: A project with fireworks animations",
-  "desc": "(1/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "(1/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/1-cpc-rock-paper-scissors-by-amit-a-project-with-fireworks-animations.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -235,7 +235,7 @@ Be aware that to keep consistency in sizing and titling all resulting diagrams w
 ```component VPCard
 {
   "title": "“Rock paper scissors game using native drag & drop” by Hmz C: A project using the HTML Drag element",
-  "desc": "(2/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "(2/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/2-rock-paper-scissors-game-using-native-drag-drop-by-hmz-c-a-project-using-the-html-drag-element.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -245,7 +245,7 @@ Be aware that to keep consistency in sizing and titling all resulting diagrams w
 ```component VPCard
 {
   "title": "“Rock Paper Scissors” by Brad Traversy: A project with a modal and a reset",
-  "desc": "(3/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "(3/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/3-rock-paper-scissors-by-brad-traversy-a-project-with-a-modal-and-a-reset.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -255,7 +255,7 @@ Be aware that to keep consistency in sizing and titling all resulting diagrams w
 ```component VPCard
 {
   "title": "“Rock Paper Scissors OOP” by Damian: A project written in OOP",
-  "desc": "(4/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "(4/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/4-rock-paper-scissors-oop-by-damian-a-project-written-in-oop.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -264,8 +264,8 @@ Be aware that to keep consistency in sizing and titling all resulting diagrams w
 
 ```component VPCard
 {
-  "title": "“Recurrent Neural Network – Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI",
-  "desc": "(5/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "title": "“Recurrent Neural Network - Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI",
+  "desc": "(5/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -325,8 +325,8 @@ If you feel you want to implement this approach next time you come across severa
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

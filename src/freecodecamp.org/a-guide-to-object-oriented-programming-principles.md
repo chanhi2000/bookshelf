@@ -231,7 +231,7 @@ Polymorphism defines the capability of an object to be represented in different 
 
 In Java, polymorphism can be categorized into two types: compile-time polymorphism and runtime polymorphism.
 
-Compile-time polymorphism is achieved through method overloading – multiple methods have the same name but different type or number of parameters.
+Compile-time polymorphism is achieved through method overloading - multiple methods have the same name but different type or number of parameters.
 
 ```java
 class MathOperation {
@@ -257,7 +257,7 @@ In the above example, we have overloaded the `add()` method. There are two metho
 
 During compilation, based on the number of parameters passed to the method, the appropriate call is made.
 
-Runtime polymorphism is achieved through method overriding – a subclass has a method with the same name and same set of parameters as that of its superclass method. However, it provides its own implementation of the method. 
+Runtime polymorphism is achieved through method overriding - a subclass has a method with the same name and same set of parameters as that of its superclass method. However, it provides its own implementation of the method. 
 
 Here, the method resolution happens at runtime.
 

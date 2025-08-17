@@ -71,7 +71,7 @@ This article assumes that you already know how to [**define Python functions**](
 In this quiz, you'll test your understanding of how to use `*args` and `**kwargs` in Python. With this knowledge, you'll be able to add more flexibility to your functions.
 
 <SiteInfo
-  name="Python args and kwargs: Demystified Quiz – Real Python"
+  name="Python args and kwargs: Demystified Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of how to use *args and **kwargs in Python. With this knowledge, you'll be able to add more flexibility to your functions."
   url="https://realpython.com/quizzes/python-args-and-kwargs/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -546,7 +546,7 @@ If you still have questions, don’t hesitate to reach out in the comments secti
 In this quiz, you'll test your understanding of how to use `*args` and `**kwargs` in Python. With this knowledge, you'll be able to add more flexibility to your functions.
 
 <SiteInfo
-  name="Python args and kwargs: Demystified Quiz – Real Python"
+  name="Python args and kwargs: Demystified Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of how to use *args and **kwargs in Python. With this knowledge, you'll be able to add more flexibility to your functions."
   url="https://realpython.com/quizzes/python-args-and-kwargs/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

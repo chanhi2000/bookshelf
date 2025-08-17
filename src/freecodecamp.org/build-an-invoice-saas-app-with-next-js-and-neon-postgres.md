@@ -831,7 +831,7 @@ The `getDBVersion()` function establishes a connection with the Neon database an
 }
 ```
 
-Congratulations – you’ve successfully added Neon to your Next.js app.
+Congratulations - you’ve successfully added Neon to your Next.js app.
 
 However, interacting with the Neon database by writing SQL queries directly can require extra learning or introduce complexities for developers who are not familiar with SQL. It can also lead to errors or performance issues when performing complex queries.
 
@@ -997,7 +997,7 @@ await bankInfoDB.insert(bankInfoTable)
 };
 ```
 
-The `getUserBankInfo` function fetches the user’s bank information from the database, while the `updateBankInfo` function updates it. If the user already has one, the function updates it with the new details – otherwise, it creates a new entry.
+The `getUserBankInfo` function fetches the user’s bank information from the database, while the `updateBankInfo` function updates it. If the user already has one, the function updates it with the new details - otherwise, it creates a new entry.
 
 Next, update the <FontIcon icon="fas fa-folder-open"/>`db/`<FontIcon icon="iconfont icon-typescript"/>`index.ts` file to connect to the Neon database and export the Drizzle instance for each table. This will be used to execute typesafe SQL queries against your Postgres database hosted on Neon.
 

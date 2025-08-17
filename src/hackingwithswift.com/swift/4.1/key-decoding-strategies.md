@@ -67,7 +67,7 @@ do {
 }
 ```
 
-When you want to go back the other way – to convert a `Codable` struct with camelCase properties back to JSON with snake_case keys, set the `keyEncodingStrategy` to `.convertToSnakeCase` like this:
+When you want to go back the other way - to convert a `Codable` struct with camelCase properties back to JSON with snake_case keys, set the `keyEncodingStrategy` to `.convertToSnakeCase` like this:
 
 ```swift
 let encoder = JSONEncoder()

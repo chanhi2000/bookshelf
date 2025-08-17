@@ -111,7 +111,7 @@ One great combination is using Rust with the Gear Protocol. In this guide, I'll 
 
 ```component VPCard
 {
-  "title": "First Project – Reading a Joke",
+  "title": "First Project - Reading a Joke",
   "desc": "(6/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol",
   "link": "/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/first-project-reading-a-joke.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -121,7 +121,7 @@ One great combination is using Rust with the Gear Protocol. In this guide, I'll 
 
 ```component VPCard
 {
-  "title": "Next Project – <code>input-msg</code>",
+  "title": "Next Project - <code>input-msg</code>",
   "desc": "(7/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol",
   "link": "/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/next-project-input.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -141,7 +141,7 @@ One great combination is using Rust with the Gear Protocol. In this guide, I'll 
 
 ```component VPCard
 {
-  "title": "Third Project – Building Messages",
+  "title": "Third Project - Building Messages",
   "desc": "(9/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol",
   "link": "/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/third-project-building-messages.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -151,7 +151,7 @@ One great combination is using Rust with the Gear Protocol. In this guide, I'll 
 
 ```component VPCard
 {
-  "title": "Final Project – Battle Showdown",
+  "title": "Final Project - Battle Showdown",
   "desc": "(10/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol",
   "link": "/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/final-project.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ The actual act of authenticating users has a number of possible results, and you
 <li>The user might have a Touch ID-capable device, but might not have configured it.
 <li>The user failed to authenticate, perhaps because they asked to enter a passcode rather than use Touch ID.
 
-Note that Apple insists that your app provide a passcode method of authentication as a back up. More annoyingly, you need to request and store this passcode yourself – it's not even done by Apple using the system unlock code!
+Note that Apple insists that your app provide a passcode method of authentication as a back up. More annoyingly, you need to request and store this passcode yourself - it's not even done by Apple using the system unlock code!
 
 Asking for and setting a passcode is easy enough, so I'll leave that to you. The important bit is asking for Touch ID authentication, which is done using this code:
 

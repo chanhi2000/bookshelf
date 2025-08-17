@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Properties"
-description: "Article(s) > C# Intermediate – Properties"
+title: "C# Intermediate - Properties"
+description: "Article(s) > C# Intermediate - Properties"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Properties"
+      content: "Article(s) > C# Intermediate - Properties"
     - property: og:description
-      content: "C# Intermediate – Properties"
+      content: "C# Intermediate - Properties"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-properties.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-properties/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Properties"
+  name="C# Intermediate - Properties"
   desc="In this article you are going to learn about Properties in C#, how to use them, different property types and about property accessibility."
   url="https://code-maze.com/csharp-properties/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -279,7 +279,7 @@ In the next article, we are going to talk about [**Static methods, static classe
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Properties",
+  "title": "C# Intermediate - Properties",
   "desc": "In this article you are going to learn about Properties in C#, how to use them, different property types and about property accessibility.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-properties.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

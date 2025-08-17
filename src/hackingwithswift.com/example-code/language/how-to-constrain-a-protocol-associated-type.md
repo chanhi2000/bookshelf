@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ protocol Identifiable1 {
 }
 ```
 
-With that code, `ID` could be anything – a `String`, an `Int`, a `UILabel`, and so on. However, you might find you need to apply some constraints to that type: perhaps you need to use it as a dictionary key (`Hashable`), or sort it in an array (`Comparable`).
+With that code, `ID` could be anything - a `String`, an `Int`, a `UILabel`, and so on. However, you might find you need to apply some constraints to that type: perhaps you need to use it as a dictionary key (`Hashable`), or sort it in an array (`Comparable`).
 
 To make this work, Swift lets us apply constraints to associated types: “it can be any type, as long as that type conforms to…”. For example, this forces `ID` to conform to `Hashable`:
 

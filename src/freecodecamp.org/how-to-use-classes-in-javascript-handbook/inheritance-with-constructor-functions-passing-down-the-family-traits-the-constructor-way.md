@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Inheritance with Constructor Functions: Passing Down the Family Traits (the Constructor Way)"
-description: "Article(s) > (9/12) How to Use Classes in JavaScript – A Handbook for Beginners"
+description: "Article(s) > (9/12) How to Use Classes in JavaScript - A Handbook for Beginners"
 category:
   - JavaScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (/12) How to Use Classes in JavaScript – A Handbook for Beginners"
+      content: "Article(s) > (/12) How to Use Classes in JavaScript - A Handbook for Beginners"
     - property: og:description
       content: "Inheritance with Constructor Functions: Passing Down the Family Traits (the Constructor Way)"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4a
 
 ```component VPCard
 {
-  "title": "How to Use Classes in JavaScript – A Handbook for Beginners",
+  "title": "How to Use Classes in JavaScript - A Handbook for Beginners",
   "desc": "Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was...",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,13 +43,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4a
 ---
 
 <SiteInfo
-  name="How to Use Classes in JavaScript – A Handbook for Beginners"
+  name="How to Use Classes in JavaScript - A Handbook for Beginners"
   desc="Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was..."
   url="https://freecodecamp.org/news/how-to-use-classes-in-javascript-handbook#heading-inheritance-with-constructor-functions-passing-down-the-family-traits-the-constructor-way"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4af-8061-49c2-9575-2aa4096acb74.png"/>
 
-Alright, we're making good progress. We've got constructor functions to create object blueprints, and prototypes to share methods efficiently. But one of the big reasons people use OOP is for inheritance – the idea of creating specialized objects that build upon more general ones.
+Alright, we're making good progress. We've got constructor functions to create object blueprints, and prototypes to share methods efficiently. But one of the big reasons people use OOP is for inheritance - the idea of creating specialized objects that build upon more general ones.
 
 Think back to our `Person` and `Developer` example. A `Developer` is a `Person`, right? They have a name, an age, maybe they greet people, but they also have developer-specific properties, like a favorite programming language and the ability to code.
 

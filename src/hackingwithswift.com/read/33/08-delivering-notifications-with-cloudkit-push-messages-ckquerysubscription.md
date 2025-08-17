@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-You're probably feeling very tired at this point: this has been a long tutorial and you've had to learn a lot. Fortunately, this last chapter is a bonus – you don't need to read this to have a great CloudKit app, but I do add some neat CloudKit technologies here that make the whole experience better.
+You're probably feeling very tired at this point: this has been a long tutorial and you've had to learn a lot. Fortunately, this last chapter is a bonus - you don't need to read this to have a great CloudKit app, but I do add some neat CloudKit technologies here that make the whole experience better.
 
 So far, the app lets users record a whistle using `AVAudioRecorder`, send it off to CloudKit, download whistles others have posted, then write suggestions for what song they think it is. What we're going to add now is the ability for users to register themselves as experts for particular genres - they can say "I know all about jazz and blues music." When they do that, we'll automatically tell them when a new whistle has been posted in one of those categories, and they can jump right into the app to have a go at identifying it.
 
@@ -101,7 +101,7 @@ override func viewDidLoad() {
 }
 ```
 
-When it comes to how many sections and rows we have, we're going to specify 1 and the value of `SelectGenreViewController.genres.count` – that static property contains all the genres used in the app, so re-using it here is perfect:
+When it comes to how many sections and rows we have, we're going to specify 1 and the value of `SelectGenreViewController.genres.count` - that static property contains all the genres used in the app, so re-using it here is perfect:
 
 ```swift
 override func numberOfSections(in tableView: UITableView) -> Int {
@@ -113,7 +113,7 @@ override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
 }
 ```
 
-Now for the interesting part: we want users to be able to tap on rows that they like, and have iOS show a checkmark next to them. Once a genre is added to the `myGenres` array, we can check whether it's in there using the `contains()` of that array – if the array contains the genre, we put a check next to it.
+Now for the interesting part: we want users to be able to tap on rows that they like, and have iOS show a checkmark next to them. Once a genre is added to the `myGenres` array, we can check whether it's in there using the `contains()` of that array - if the array contains the genre, we put a check next to it.
 
 Here's the `cellForRowAt` method that does just that:
 
@@ -136,7 +136,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 The other part of this approach is catching `didSelectRowAt` so that we check and uncheck rows as they are tapped, adding and removing them from the `myGenres` array as necessary. Adding things to an array is as simple as calling the `append()` method on the array, but removing takes a little more hassle: we need to use `firstIndex(of:)` to find the location of an item in the array, and if that returns a value then we use `remove(at:)` to remove the item from the array at that index.
 
-As a finishing touch, we'll call `deselectRow(at:)` to deselect the selected row, so it highlights only briefly. That's all there is to it – here's the `didSelectRowAt` method:
+As a finishing touch, we'll call `deselectRow(at:)` to deselect the selected row, so it highlights only briefly. That's all there is to it - here's the `didSelectRowAt` method:
 
 ```swift
 override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -163,7 +163,7 @@ And now for the challenging part: when users click Save, we want to write their 
 
 Thanks to what was I'm sure many months of effort from Apple engineers, registering for push messages is a breeze thanks to a class called `CKQuerySubscription`. This lets you configure a query to run on the iCloud servers, and as soon as that query matches something it will automatically trigger a push message. In our case, that query will be "when anyone publishes a whistle in a genre we care about."
 
-But first: we need to flush out any existing subscriptions so that we don't get duplicate errors. In the interests of keeping it brief, the easiest way to do this is by calling `fetchAllSubscriptions()` to fetch all `CKQuerySubscriptions`, then passing each of them into `delete(withSubscriptionID:)`. As always, it's up to you to do useful error handling – I've done it enough for you already, so you're most of the way there.
+But first: we need to flush out any existing subscriptions so that we don't get duplicate errors. In the interests of keeping it brief, the easiest way to do this is by calling `fetchAllSubscriptions()` to fetch all `CKQuerySubscriptions`, then passing each of them into `delete(withSubscriptionID:)`. As always, it's up to you to do useful error handling - I've done it enough for you already, so you're most of the way there.
 
 Note: the two parameters you get from `fetchAllSubscriptions()` are an optional array of subscriptions and an error if one occurred. You need to unwrap the optional array, because the user might not have any subscriptions. Here's an initial version of `saveTapped()`:
 
@@ -196,9 +196,9 @@ Note: the two parameters you get from `fetchAllSubscriptions()` are an optional 
 }
 ```
 
-Again, please do put in some user-facing error messages telling users what's going on – they won't see the Xcode log messages, and it's important to keep them informed.
+Again, please do put in some user-facing error messages telling users what's going on - they won't see the Xcode log messages, and it's important to keep them informed.
 
-There's just one more thing to do before this entire project is done, and that's registering subscriptions with iCloud and handling the result. You tell it what condition to match and what message to send, then call the `save()` method, and you're done – iCloud takes care of the rest. Normally you'd need to opt into push messages and create a push certificate, but again Xcode and iCloud have taken away all this work when you enabled CloudKit what feels like long ago.
+There's just one more thing to do before this entire project is done, and that's registering subscriptions with iCloud and handling the result. You tell it what condition to match and what message to send, then call the `save()` method, and you're done - iCloud takes care of the rest. Normally you'd need to opt into push messages and create a push certificate, but again Xcode and iCloud have taken away all this work when you enabled CloudKit what feels like long ago.
 
 To make this work, we're going to loop through each string in the `myGenres` array, create a predicate that searches for it, then use that to create a `CKQuerySubscription` using the option `.firesOnRecordCreation`. That means we want this subscription to be informed when any record is created that matches our genre predicate.
 
@@ -206,7 +206,7 @@ If you want to attach a visible message to a push notification, you need to crea
 
 We're going to set a notification message that contains the genre that changed by using Swift's string interpolation. We're also going to use the value `default` for the `soundName` property, which will trigger the default iOS tri-tone sound when the message arrives. With that done, we can call `save()` to send it off to iCloud, then handle any error messages that come back.
 
-That's it – here's the code to put in place of the `more code to come!` comment:
+That's it - here's the code to put in place of the `more code to come!` comment:
 
 ```swift
 for genre in self.myGenres {
@@ -273,5 +273,5 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 If you want only part of the notification to be used, just change the array being passed to `completionHandler()`.
 
-That's it. No, really – this epic project is now done. Go ahead and run the app on a real iOS device, register for certain genres, then quit the app – unplug your phone, lock it, and put it to one side. Now launch the app in the simulator and create a new whistle in one of the genre you just marked, and you'll get your push.
+That's it. No, really - this epic project is now done. Go ahead and run the app on a real iOS device, register for certain genres, then quit the app - unplug your phone, lock it, and put it to one side. Now launch the app in the simulator and create a new whistle in one of the genre you just marked, and you'll get your push.
 

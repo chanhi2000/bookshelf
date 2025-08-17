@@ -87,7 +87,7 @@ LLM agents are one of the most exciting developments in AI right now. They’re 
 
 Large Language Models (LLMs) like GPT-4, Claude, Gemini, and LLaMA have evolved from simple chatbots into surprisingly capable reasoning engines. They've gone from answering trivia questions and generating essays to performing complex reasoning, following multi-step instructions, and interacting with tools like web search and code interpreters.
 
-But here’s the catch: these models are **reactive**. They wait for input and give output. They don't retain memory between tasks, plan ahead, or pursue goals on their own. That’s where **LLM agents** come in – they bridge this gap by adding structure, memory, and autonomy.
+But here’s the catch: these models are **reactive**. They wait for input and give output. They don't retain memory between tasks, plan ahead, or pursue goals on their own. That’s where **LLM agents** come in - they bridge this gap by adding structure, memory, and autonomy.
 
 ### What Can Agents Do Today?
 
@@ -125,7 +125,7 @@ Before we dive into the exciting world of agents, let's quickly chat a bit more 
 
 ### What Is an LLM?
 
-An LLM, or Large Language Model, is basically an AI that's learned from a massive amount of text from the internet – think books, articles, code, and tons more. You can picture it as a super-smart autocomplete engine. But it does way more than just finish your sentences. It can also:
+An LLM, or Large Language Model, is basically an AI that's learned from a massive amount of text from the internet - think books, articles, code, and tons more. You can picture it as a super-smart autocomplete engine. But it does way more than just finish your sentences. It can also:
 
 - Answer tricky questions
 - Summarize long articles or documents
@@ -139,7 +139,7 @@ These models work by simply predicting the next word in a sentence based on the 
 
 ### So, What’s an LLM Agent?
 
-While LLMs are super powerful, they usually just *react –* they only respond when you ask them something. An LLM agent, on the other hand, is *proactive*.
+While LLMs are super powerful, they usually just *react -* they only respond when you ask them something. An LLM agent, on the other hand, is *proactive*.
 
 LLM agents can:
 
@@ -188,10 +188,10 @@ In 2024, a wave of fantastic open-source frameworks hit the scene. These tools h
 
 These frameworks give you ready-made building blocks to handle the trickier parts of creating agents:
 
-- **Planning** – Letting agents decide their next move
-- **Tool Use** – Easily connecting agents to things like file systems, web browsers, APIs, or databases
-- **Memory** – Storing and retrieving past information or intermediate results for long-term context
-- **Multi-Agent Collaboration** – Setting up teams of agents that work together on shared goals
+- **Planning** - Letting agents decide their next move
+- **Tool Use** - Easily connecting agents to things like file systems, web browsers, APIs, or databases
+- **Memory** - Storing and retrieving past information or intermediate results for long-term context
+- **Multi-Agent Collaboration** - Setting up teams of agents that work together on shared goals
 
 ### Why Use a Framework Instead of Building from Scratch?
 
@@ -386,7 +386,7 @@ You draw the connections between these nodes, and LangGraph then executes it lik
 - It's fantastic for building workflows that have multiple steps or even branch off into different paths.
 - It plays nicely with both cloud-based models (like OpenAI) and models you run locally.
 
-Alright – now let’s write the code.
+Alright - now let’s write the code.
 
 ##### 1. Simulate Email Input
 
@@ -397,7 +397,7 @@ emails = """
 1. Subject: Standup Call at 10 AM
 2. Subject: Client Review due by 5 PM
 3. Subject: Lunch with Sarah at noon
-4. Subject: AWS Budget Warning – 80% usage
+4. Subject: AWS Budget Warning - 80% usage
 5. Subject: Dentist Appointment - 4 PM
 """
 ```
@@ -479,11 +479,11 @@ Here’s what’s going on:
 
 ```plaintext title="output"
 Your Schedule:
-- 10:00 AM – Standup Call
-- 12:00 PM – Lunch with Sarah
-- 4:00 PM – Dentist Appointment
+- 10:00 AM - Standup Call
+- 12:00 PM - Lunch with Sarah
+- 4:00 PM - Dentist Appointment
 - Submit client report by 5:00 PM
-- AWS Budget Warning – check usag
+- AWS Budget Warning - check usag
 ```
 
 Boom! You've just built an AI agent that can read your emails and whip up your daily schedule. Pretty cool, right? This is a simple yet powerful peek into what LLM agents can do with just a few lines of code.
@@ -558,7 +558,7 @@ emails = """
 1. Subject: Standup Call at 10 AM
 2. Subject: Client Review due by 5 PM
 3. Subject: Lunch with Sarah at noon
-4. Subject: AWS Budget Warning – 80% usage
+4. Subject: AWS Budget Warning - 80% usage
 5. Subject: Dentist Appointment - 4 PM
 """
 

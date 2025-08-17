@@ -68,7 +68,7 @@ In this article, you will learn:
 2. How to debug buffer overflows. You’ll learn how to use tools like GDB, LLDB, and memory maps to find memory corruption.
 3. How to prevent buffer overflows. We’ll cover some best practices like input validation, safe memory handling, and defensive programming.
 
-I’ll also show you some hands-on code examples – simple C programs that demonstrate buffer overflow issues and how to fix them.
+I’ll also show you some hands-on code examples - simple C programs that demonstrate buffer overflow issues and how to fix them.
 
 What this article doesn’t cover:
 
@@ -85,9 +85,9 @@ This article is designed for developers who have some experience with C programm
 Before reading, it helps if you know:
 
 1. Basic C programming.
-2. How memory works – the difference between stack, heap, and global variables.
-3. Basic debugging concepts – if you’ve used a debugger like GDB or LLDB, that’s a plus, but not required.
-4. What embedded systems are – a basic idea of how microcontrollers store and manage memory.
+2. How memory works - the difference between stack, heap, and global variables.
+3. Basic debugging concepts - if you’ve used a debugger like GDB or LLDB, that’s a plus, but not required.
+4. What embedded systems are - a basic idea of how microcontrollers store and manage memory.
 
 :::
 
@@ -520,7 +520,7 @@ Some buffer designs handle overflow better than others. Choosing the correct buf
 
 An MPU (Memory Protection Unit) helps detect unauthorized memory accesses, including buffer overflows, by restricting which regions of memory can be written to. It prevents buffer overflows from modifying critical memory regions and triggers a MemManage Fault if a process attemps to write outside an allowed region.
 
-But keep in mind that, an MPU does not prevent buffer overflows – it only detects and stops execution when they occur. Not all microcontrollers have an MPU, and some low-end MCUs lack hardware protection, making software-based safeguards even more critical.
+But keep in mind that, an MPU does not prevent buffer overflows - it only detects and stops execution when they occur. Not all microcontrollers have an MPU, and some low-end MCUs lack hardware protection, making software-based safeguards even more critical.
 
 Modern C compilers provide several flags to identify memory errors at compile-time:
 

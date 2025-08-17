@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Arrays have built-in methods for removing the first or last items, but there’s a subtle difference between them.
 
-First, there are two ways of removing the last item: `popLast()` and `removeLast()`. Both remove the last item from the array, but `popLast()` returns an optional – if the array was empty, you get back nil. If you call `removeLast()` on an empty array, your app crashes.
+First, there are two ways of removing the last item: `popLast()` and `removeLast()`. Both remove the last item from the array, but `popLast()` returns an optional - if the array was empty, you get back nil. If you call `removeLast()` on an empty array, your app crashes.
 
 So, in this example `last1` will contain 5 and `last2` will contain 4:
 
@@ -79,7 +79,7 @@ So, continuing the above example, this will put 1 into `first1`:
 let first1 = numbers.removeFirst()
 ```
 
-There is no `popFirst()` because it’s an expensive operation and the developers want you to think twice – each time you remove an item from the front the rest of the items have to move down, so trying to use `popFirst()` in a loop would be inefficient.
+There is no `popFirst()` because it’s an expensive operation and the developers want you to think twice - each time you remove an item from the front the rest of the items have to move down, so trying to use `popFirst()` in a loop would be inefficient.
 
 -->
 

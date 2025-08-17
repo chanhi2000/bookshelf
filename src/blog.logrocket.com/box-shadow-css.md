@@ -671,10 +671,10 @@ The `box-shadow` property is a powerful way to enhance the visual appeal of your
 
 ::: important
 
-- Less is more – When layering multiple shadows, the browser has to perform more rendering work. This may not be an issue on high-end devices, but users with older hardware or slow internet connections might experience lag
-- Be consistent – Avoid using inconsistent shadow styles. Shadows should follow a single light source to maintain a cohesive and realistic design
-- Use animations sparingly – Animating box-shadow can significantly impact performance. Since box-shadow already enhances UI elements, keep animations minimal, such as a subtle transition effect on :hover
-- Use a shadow layering tool – Instead of manually writing multiple shadow values, use tools like [<FontIcon icon="fas fa-globe"/>shadows.brumm.af](https://shadows.brumm.af/). This tool allows you to generate and adjust up to 10 box-shadow layers, making it easier to achieve complex and refined shadow effects
+- Less is more - When layering multiple shadows, the browser has to perform more rendering work. This may not be an issue on high-end devices, but users with older hardware or slow internet connections might experience lag
+- Be consistent - Avoid using inconsistent shadow styles. Shadows should follow a single light source to maintain a cohesive and realistic design
+- Use animations sparingly - Animating box-shadow can significantly impact performance. Since box-shadow already enhances UI elements, keep animations minimal, such as a subtle transition effect on :hover
+- Use a shadow layering tool - Instead of manually writing multiple shadow values, use tools like [<FontIcon icon="fas fa-globe"/>shadows.brumm.af](https://shadows.brumm.af/). This tool allows you to generate and adjust up to 10 box-shadow layers, making it easier to achieve complex and refined shadow effects
 
 :::
 

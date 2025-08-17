@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Use Python Generators – Explained With Code Examples
-description: Article(s) > How to Use Python Generators – Explained With Code Examples
+title: How to Use Python Generators - Explained With Code Examples
+description: Article(s) > How to Use Python Generators - Explained With Code Examples
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Use Python Generators – Explained With Code Examples
+      content: Article(s) > How to Use Python Generators - Explained With Code Examples
     - property: og:description`
-      content: How to Use Python Generators – Explained With Code Examples
+      content: How to Use Python Generators - Explained With Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-python-generators.html
 prev: /programming/py/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/SERIE-1.p
 ---
 
 <SiteInfo
-  name="How to Use Python Generators – Explained With Code Examples"
+  name="How to Use Python Generators - Explained With Code Examples"
   desc="Python generators are a powerful feature that allow lazy iteration through a sequence of values. They produce items one at a time and only when needed, which makes them the best choice for working with large datasets or streams of data where it would be inefficient and impractical to load..."
   url="https://freecodecamp.org/news/how-to-use-python-generators/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

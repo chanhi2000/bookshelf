@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,9 +56,9 @@ So far our app takes a recording from the microphone using `AVAudioRecorder` and
 
 This is where things get a little bit more complicated, but only a little. You see, there are two ways of writing to CloudKit: a core API and a convenience API. The core API exposes every possible behavior of the system, offering effectively unlimited functionality to do what you want. The convenience API takes a subset of those features and simplifies them, making it easier to learn and use but less powerful.
 
-When we wrote records two chapters ago we used the convenience API, but when it comes to reading we're going to use the core API. This isn't because I enjoy torturing you, there is a legitimate reason: when you read data using the convenience API it automatically downloads all the data for each record. Often that's helpful, because it means you have everything you need to show a record's data. But in our case that would mean downloading the audio for every record every time we loaded our data – and that's a huge waste of resources.
+When we wrote records two chapters ago we used the convenience API, but when it comes to reading we're going to use the core API. This isn't because I enjoy torturing you, there is a legitimate reason: when you read data using the convenience API it automatically downloads all the data for each record. Often that's helpful, because it means you have everything you need to show a record's data. But in our case that would mean downloading the audio for every record every time we loaded our data - and that's a huge waste of resources.
 
-Remember, CloudKit gives you a basic quota of about 64MB per day of asset transfer, and you need to be careful not to waste it. One of the features offered by the core API that is absent from the convenience API is the ability to selectively download records. In our case, that means we want the genre and user comments, but not the audio – we'll fetch that separately, as needed.
+Remember, CloudKit gives you a basic quota of about 64MB per day of asset transfer, and you need to be careful not to waste it. One of the features offered by the core API that is absent from the convenience API is the ability to selectively download records. In our case, that means we want the genre and user comments, but not the audio - we'll fetch that separately, as needed.
 
 Go ahead and select <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` for editing. We're going to be using the CloudKit framework, so please add this import:
 
@@ -68,7 +68,7 @@ import CloudKit
 
 This view controller is a `UIViewController` subclass right now, but as it’s going to contain a list of whistles to view I’d like you to change it to be a `UITableViewController` now. Yes, that includes doing a little work in Main.storyboard: you’ll need to delete the existing view controller, replace it with a table view controller, and change its class to be “ViewController”. This time, though, there’s one more step: you need to Ctrl-drag from the navigation controller to the table view controller, then choose “Root View Controller” under “Relationship Segue.”
 
-The new table view controller has a single prototype cell by default, but you can zap it – we’ll do it in code this time. To do that, select the table view, go to the attributes inspector, then change Prototype Cells from 1 to 0.
+The new table view controller has a single prototype cell by default, but you can zap it - we’ll do it in code this time. To do that, select the table view, go to the attributes inspector, then change Prototype Cells from 1 to 0.
 
 Our table is going to show a series of whistles to users, letting them see at a glance the genre and user comments before choosing which whistle to listen to. To make this work we're going to create a new class called `Whistle` that will store those two fields, but also a `URL` for where the audio is stored when it's downloaded, and the CloudKit record ID that identifies the whistle in iCloud so we can work with it.
 
@@ -161,14 +161,14 @@ override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
 }
 ```
 
-I know – this is all a bit easy now, right? Well, the next part isn't, because the next part is where CloudKit comes in. To make this work you're going to need to meet a few new classes:
+I know - this is all a bit easy now, right? Well, the next part isn't, because the next part is where CloudKit comes in. To make this work you're going to need to meet a few new classes:
 
 - **NSPredicate** describes a filter that we'll use to decide which results to show.
 - **NSSortDescriptor** tells CloudKit which field we want to sort on, and whether we want it ascending or descending.
 - **CKQuery** combines a predicate and sort descriptors with the name of the record type we want to query. That will be "Whistles" for us, if you remember.
 - **CKQueryOperation** is the work horse of CloudKit data fetching, executing a query and returning results.
 
-What complicates `CKQueryOperation` – and at the same time makes it so incredibly powerful – is that is has two separate closures attached to it. One streams records to you as they are downloaded, and one is called when all the records have been downloaded. To handle this, we're going to create a new array that will hold the whistles as they are parsed, and use it inside both closures.
+What complicates `CKQueryOperation` - and at the same time makes it so incredibly powerful - is that is has two separate closures attached to it. One streams records to you as they are downloaded, and one is called when all the records have been downloaded. To handle this, we're going to create a new array that will hold the whistles as they are parsed, and use it inside both closures.
 
 As I said already, one of the advantages of this core API is that we can request only the record keys we want, but it also lets us specify how many results we want to receive from iCloud. Putting all this together, we can write the first part of `loadWhistles()`:
 
@@ -189,11 +189,11 @@ func loadWhistles() {
 }
 ```
 
-Our use of `NSPredicate` is trivial right now: we just say "all records that match true," which means "all records." Notice how we set the `desiredKeys` property to be an array of the record keys we want – that's what makes this API so useful.
+Our use of `NSPredicate` is trivial right now: we just say "all records that match true," which means "all records." Notice how we set the `desiredKeys` property to be an array of the record keys we want - that's what makes this API so useful.
 
 The next part of the method is going to set a `recordFetchedBlock` closure on our `CKQueryOperation` object. This will be given one `CKRecord` value for every record that gets downloaded, and we'll convert that into a `Whistle` object. This means pulling out the record ID for the `recordID` property, then reading the `genre` and `comments` values of the dictionary. Both those two values must be converted to strings, because by default they come out as the data type `CKRecordValue?`.
 
-Here's the next part of `loadWhistles()` – replace the `// more to come here` comment with this:
+Here's the next part of `loadWhistles()` - replace the `// more to come here` comment with this:
 
 ```swift
 operation.recordFetchedBlock = { record in

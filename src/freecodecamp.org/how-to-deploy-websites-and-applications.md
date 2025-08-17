@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies"
-description: "Article(s) > How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies"
+title: "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
+description: "Article(s) > How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
 icon: fas fa-network-wired
 category:
   - DevOps
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies"
+      content: "Article(s) > How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
     - property: og:description
-      content: "How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies"
+      content: "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-websites-and-applications.html
 prev: /devops/articles/README.md
@@ -92,13 +92,13 @@ cover: https://freecodecamp.org/news/content/images/2023/08/cover-friendly-deplo
 ---
 
 <SiteInfo
-  name="How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies"
-  desc="Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough – it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ..."
+  name="How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
+  desc="Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough - it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ..."
   url="https://freecodecamp.org/news/how-to-deploy-websites-and-applications"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2023/08/cover-friendly-deploy.png"/>
 
-Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough – it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital.
+Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough - it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital.
 
 The key to making the right decision lies in understanding the goal of your application. Perhaps it’s a simple website, a one-page app, or it requires serverless or cloud functions. Having clarity about these aspects will significantly ease the deployment process.
 
@@ -359,7 +359,7 @@ Refresh the page to find the link leading to your published website.
 
 ### Pros of Deploying With GitHub Pages
 
-- GitHub Pages are simple to set up – and you can build your website there.
+- GitHub Pages are simple to set up - and you can build your website there.
 - It's free.
 - GitHub’s version control system makes it simple to keep track of changes and work with others.
 - GitHub Pages updates your website’s code whenever you make changes to it.
@@ -496,8 +496,8 @@ If you found this tutorial helpful, please share it with fellow developers who m
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies",
-  "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough – it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
+  "title": "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies",
+  "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough - it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-websites-and-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -89,7 +89,7 @@ sub(a,b)
 
 When you run the program above, your Python interpreter starts executing it line by line from top to bottom in a sequence. It starts from line `a=25` and ends at the `sub()` function.
 
-No matter how long your code is, Python executes it from the top. This way of executing code is also known as the **top-to-bottom** or **sequential** approach – or simply **Sequential programming**!
+No matter how long your code is, Python executes it from the top. This way of executing code is also known as the **top-to-bottom** or **sequential** approach - or simply **Sequential programming**!
 
 ---
 
@@ -101,7 +101,7 @@ For any program or application, Python creates and instructs a thread to start e
 
 That's correct! You can write a program to tell the Main thread to create multiple other threads that perform your tasks. So, a thread performs some work or a task (here main thread runs your program from top to bottom).
 
-So you can create multiple tasks and assign one thread to perform one task. Or you can also create one thread and run multiple tasks – just like Python interpreter created `Main thread` and executed both the tasks `add` and `sub` in sequential order.
+So you can create multiple tasks and assign one thread to perform one task. Or you can also create one thread and run multiple tasks - just like Python interpreter created `Main thread` and executed both the tasks `add` and `sub` in sequential order.
 
 ---
 
@@ -131,7 +131,7 @@ A program can create multiple threads and they can share resources, communicate 
 
 To simplify, think of a browser as a process. Within this process, it can run single or multiple threads.
 
-When you learn about concurrency in programming, you will see terms like "Multi-Threading", "Multi-Processing", "Asynchronous", and finally the big one "Concurrency". Don't let these terms intimidate you – the concepts are simpler than you think. And they're what you'll learn about next.
+When you learn about concurrency in programming, you will see terms like "Multi-Threading", "Multi-Processing", "Asynchronous", and finally the big one "Concurrency". Don't let these terms intimidate you - the concepts are simpler than you think. And they're what you'll learn about next.
 
 ---
 
@@ -316,7 +316,7 @@ The key point to note is that threads run simultaneously, allowing the program t
 
 ### Example 2:
 
-Let's consider two tasks: Task 1 retrieves a list of employees from a company's database, and Task 2 retrieves a list of active projects by the same company. It's clear that these tasks are not connected or dependent on each other – they are independent tasks.
+Let's consider two tasks: Task 1 retrieves a list of employees from a company's database, and Task 2 retrieves a list of active projects by the same company. It's clear that these tasks are not connected or dependent on each other - they are independent tasks.
 
 Let's write some sample code for these tasks:
 
@@ -338,7 +338,7 @@ get_employees()
 get_active_projects()
 ```
 
-Don't worry about the code inside the functions – we want to understand the concept here.
+Don't worry about the code inside the functions - we want to understand the concept here.
 
 When you run the program above, the Python interpreter tells the `main thread` to execute the program step by step, starting from the top and going downwards.
 
@@ -577,7 +577,7 @@ This module is mainly used in I/O operations. Asyncio allows you to write asynch
 
 By using asyncio, you can write non-blocking code that allows other tasks to run while waiting for I/O operations to finish, thus potentially improving overall concurrency and responsiveness of your application.
 
-It's important to note that asyncio doesn't eliminate the GIL itself – rather, it provides an alternative concurrency model that can be more efficient for certain types of applications.
+It's important to note that asyncio doesn't eliminate the GIL itself - rather, it provides an alternative concurrency model that can be more efficient for certain types of applications.
 
 For **CPU-bound tasks**, asyncio may not provide the same performance benefits as multiprocessing or other parallelism techniques, as it still operates within the constraints of the GIL. In such cases, multiprocessing or other concurrency approaches may be more suitable.
 

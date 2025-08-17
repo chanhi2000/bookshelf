@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -92,7 +92,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 
 That tells Swift you promise your class supports all the functionality required by the two protocols `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate`. The first of those protocols is useful, telling us when the user either selected a picture or cancelled the picker. The second, `UINavigationControllerDelegate`, really is quite pointless here, so don't worry about it beyond just modifying your class declaration to include the protocol.
 
-When you conform to the `UIImagePickerControllerDelegate` protocol, you don't need to add any methods because both are optional. But they aren't really – they are marked optional for whatever reason, but your code isn't much good unless you implement at least one of them!
+When you conform to the `UIImagePickerControllerDelegate` protocol, you don't need to add any methods because both are optional. But they aren't really - they are marked optional for whatever reason, but your code isn't much good unless you implement at least one of them!
 
 The delegate method we care about is `imagePickerController(_, didFinishPickingMediaWithInfo:)`, which returns when the user selected an image and it's being returned to you. This method needs to do several things:
 
@@ -111,9 +111,9 @@ The problem is, we don't know if this value exists as a `UIImage`, so we can't j
 
 Second, we need to generate a unique filename for every image we import. This is so that we can copy it to our app's space on the disk without overwriting anything, and if the user ever deletes the picture from their photo library we still have our copy. We're going to use a new type for this, called `UUID`, which generates a Universally Unique Identifier and is perfect for a random filename.
 
-Third, once we have the image, we need to write it to disk. You're going to need to learn two new pieces of code: `UIImage` has a `jpegData()` to convert it to a `Data` object in JPEG image format, and there's a method on `Data` called `write(to:)` that, well, writes its data to disk. We used `Data` earlier, but as a reminder it’s a relatively simple data type that can hold any type of binary type – image data, zip file data, movie data, and so on.
+Third, once we have the image, we need to write it to disk. You're going to need to learn two new pieces of code: `UIImage` has a `jpegData()` to convert it to a `Data` object in JPEG image format, and there's a method on `Data` called `write(to:)` that, well, writes its data to disk. We used `Data` earlier, but as a reminder it’s a relatively simple data type that can hold any type of binary type - image data, zip file data, movie data, and so on.
 
-Writing information to disk is easy enough, but finding where to put it is tricky. All apps that are installed have a directory called Documents where you can save private information for the app, and it's also automatically synchronized with iCloud. The problem is, it's not obvious how to find that directory, so I have a method I use called `getDocumentsDirectory()` that does exactly that – you don't need to understand how it works, but you do need to copy it into your code.
+Writing information to disk is easy enough, but finding where to put it is tricky. All apps that are installed have a directory called Documents where you can save private information for the app, and it's also automatically synchronized with iCloud. The problem is, it's not obvious how to find that directory, so I have a method I use called `getDocumentsDirectory()` that does exactly that - you don't need to understand how it works, but you do need to copy it into your code.
 
 With all that in mind, here are the new methods:
 
@@ -147,5 +147,5 @@ Now that we have a `UIImage` containing an image and a path where we want to sav
 
 Once we have a `Data` object containing our JPEG data, we just need to unwrap it safely then write it to the file name we made earlier. That's done using the `write(to:)` method, which takes a filename as its parameter.
 
-So: users can pick an image, and we'll save it to disk. But this still doesn't do anything – you won't see the picture in the app, because we aren't doing anything with it beyond writing it to disk. To fix that, we need to create a custom class to hold custom data…
+So: users can pick an image, and we'll save it to disk. But this still doesn't do anything - you won't see the picture in the app, because we aren't doing anything with it beyond writing it to disk. To fix that, we need to create a custom class to hold custom data…
 

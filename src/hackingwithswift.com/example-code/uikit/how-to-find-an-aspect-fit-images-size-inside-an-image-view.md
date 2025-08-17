@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 All images have a natural size, which is the number of pixels they are wide and high. All image views also have a size, which is whatever width and height they have once their Auto Layout constraints have been resolved. 
 
-Things get a little more complex when you place an image inside an image view and make it use *aspect fit* content mode – the image gets scaled down to fit inside the image view, so that all parts of the image are visible.
+Things get a little more complex when you place an image inside an image view and make it use *aspect fit* content mode - the image gets scaled down to fit inside the image view, so that all parts of the image are visible.
 
 If you need to find the size of an aspect fit image inside its image view, I have just the extension for you:
 

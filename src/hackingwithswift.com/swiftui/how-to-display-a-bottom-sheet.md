@@ -54,7 +54,7 @@ head:
 
 **New in iOS 16**
 
-SwiftUI’s `presentationDetents()` modifier lets us create sheets that slide up from the bottom of our view, but occupy only part of the screen – how much is down to us, and we have as much or as little control as we want.
+SwiftUI’s `presentationDetents()` modifier lets us create sheets that slide up from the bottom of our view, but occupy only part of the screen - how much is down to us, and we have as much or as little control as we want.
 
 To use the modifier, provide it with a set of the sizes you want to support, like this:
 
@@ -103,7 +103,7 @@ If you don’t ask for any detent, the default is `.large`.
 
 :::
 
-Be careful: Even with custom presentation detents in place, sheets will automatically take up the full screen when there’s a compact height size class – an iPhone in landscape, for example. Make sure you provide a way to dismiss your sheet if you support this scenario.
+Be careful: Even with custom presentation detents in place, sheets will automatically take up the full screen when there’s a compact height size class - an iPhone in landscape, for example. Make sure you provide a way to dismiss your sheet if you support this scenario.
 
 As well as specifying one of the built-in sizes, you can also provide a custom fraction in the range of 0 through 1. For example, this creates a sheet taking up the bottom 15% of the screen:
 
@@ -145,7 +145,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-display-a-bottom-sheet-4.zip)
 
-You can attach as many detents to your views as you need – just add them all to the set of detents, and SwiftUI will take care of the rest. For example, this lets the user go between 10% and 100% in 10% steps:
+You can attach as many detents to your views as you need - just add them all to the set of detents, and SwiftUI will take care of the rest. For example, this lets the user go between 10% and 100% in 10% steps:
 
 ```swift
 struct ContentView: View {

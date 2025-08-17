@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/xcode",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to add markers to the jump bar",
-  "desc": "Xcode’s jump bar – the popup menu describing all properties and methods in the current class, activated using Ctrl-6 – is a simple way to navigate around your file, particularly when you know you can just type a few letters to automatically filter the list.",
+  "desc": "Xcode’s jump bar - the popup menu describing all properties and methods in the current class, activated using Ctrl-6 - is a simple way to navigate around your file, particularly when you know you can just type a few letters to automatically filter the list.",
   "link": "/hackingwithswift.com/example-code/xcode/how-to-add-markers-to-the-jump-bar.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,7 +110,7 @@ head:
 ```component VPCard
 {
   "title": "How to lock Interface Builder controls to stop accidental changes",
-  "desc": "Interface Builder is the standard tool for making iOS interfaces using drag and drop, but it does make it remarkably easy to make a mistake – moving a view by accident, adjusting a property with a typo, or perhaps embedding one view inside another by dragging.",
+  "desc": "Interface Builder is the standard tool for making iOS interfaces using drag and drop, but it does make it remarkably easy to make a mistake - moving a view by accident, adjusting a property with a typo, or perhaps embedding one view inside another by dragging.",
   "link": "/hackingwithswift.com/example-code/xcode/how-to-lock-interface-builder-controls-to-stop-accidental-changes.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -120,7 +120,7 @@ head:
 ```component VPCard
 {
   "title": "How to make Xcode play sounds while debugging",
-  "desc": "Xcode has lots of tools to help you debug user interface problems, but it’s a little tricker to debug things you can’t see – network requests failing, data loading code going wrong, and so on.",
+  "desc": "Xcode has lots of tools to help you debug user interface problems, but it’s a little tricker to debug things you can’t see - network requests failing, data loading code going wrong, and so on.",
   "link": "/hackingwithswift.com/example-code/xcode/how-to-make-xcode-play-sounds-while-debugging.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -170,7 +170,7 @@ head:
 ```component VPCard
 {
   "title": "How to use vector images in your asset catalog",
-  "desc": "Xcode lets you use vector images for all your artwork, which saves you having to worry about retina artwork, super retina artwork, and whatever Apple dreams up in the future. Even better, using this vector artwork has no performance cost – iOS and Xcode do all the work for you,",
+  "desc": "Xcode lets you use vector images for all your artwork, which saves you having to worry about retina artwork, super retina artwork, and whatever Apple dreams up in the future. Even better, using this vector artwork has no performance cost - iOS and Xcode do all the work for you,",
   "link": "/hackingwithswift.com/example-code/xcode/how-to-use-vector-images-in-your-asset-catalog.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -190,7 +190,7 @@ head:
 ```component VPCard
 {
   "title": "What are breakpoints?",
-  "desc": "Breakpoints are locations in your code where Xcode will pause so that you can inspect the state of your program. They don’t have any impact on the final performance of your code – in fact, they don’t even exist in your code at all – so there’s no harm using them liberally.",
+  "desc": "Breakpoints are locations in your code where Xcode will pause so that you can inspect the state of your program. They don’t have any impact on the final performance of your code - in fact, they don’t even exist in your code at all - so there’s no harm using them liberally.",
   "link": "/hackingwithswift.com/example-code/xcode/what-are-breakpoints.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -210,7 +210,7 @@ head:
 ```component VPCard
 {
   "title": "What are watchpoints?",
-  "desc": "You’re probably already familiar with Xcode’s breakpoints, which allow you to pause code when a certain point is reached. Watchpoints also let you pause code, but their job is to pause when a variable is changed anywhere else in your code – it’s like a property observer, except implemented entirely using Xcode’s debugger.",
+  "desc": "You’re probably already familiar with Xcode’s breakpoints, which allow you to pause code when a certain point is reached. Watchpoints also let you pause code, but their job is to pause when a variable is changed anywhere else in your code - it’s like a property observer, except implemented entirely using Xcode’s debugger.",
   "link": "/hackingwithswift.com/example-code/xcode/what-are-watchpoints.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

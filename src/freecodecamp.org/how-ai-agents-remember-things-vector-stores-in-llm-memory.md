@@ -73,7 +73,7 @@ But large language models (LLMs) don’t actually have memory on their own. They
 
 So, how do they seem to recall things?
 
-The answer lies in something called a vector store – and that’s what you’ll learn about in this article.
+The answer lies in something called a vector store - and that’s what you’ll learn about in this article.
 
 ---
 
@@ -105,7 +105,7 @@ The model turns this sentence into a vector:
 [0.23, -0.41, 0.77, ..., 0.08]
 ```
 
-This vector doesn’t mean much to us, but to the AI, it’s a way to capture the sentence’s meaning. That vector gets stored in a vector database, along with some extra info – maybe a timestamp or a note that it came from this user.
+This vector doesn’t mean much to us, but to the AI, it’s a way to capture the sentence’s meaning. That vector gets stored in a vector database, along with some extra info - maybe a timestamp or a note that it came from this user.
 
 Later, if the user says:
 
@@ -117,7 +117,7 @@ The model turns this new sentence into a new vector. It then searches the vector
 
 The closest match might be “I live in Austin, Texas.” Now the AI knows what you probably meant by “my hometown.”
 
-This ability to look up related past inputs based on meaning – not just matching keywords – is what gives LLMs a form of memory.
+This ability to look up related past inputs based on meaning - not just matching keywords - is what gives LLMs a form of memory.
 
 ---
 
@@ -125,11 +125,11 @@ This ability to look up related past inputs based on meaning – not just matchi
 
 LLMs process language using a context window. That’s the amount of text they can “see” at once.
 
-For GPT-4-turbo, the window can handle up to 128,000 tokens, which sounds huge – but even that gets filled fast. You can’t keep the whole conversation there forever.
+For GPT-4-turbo, the window can handle up to 128,000 tokens, which sounds huge - but even that gets filled fast. You can’t keep the whole conversation there forever.
 
 Instead, you use a vector store as long-term memory. You embed and save useful info.
 
-Then, when needed, you query the vector store, retrieve the top relevant pieces, and feed them back into the LLM. This way, the model remembers just enough to act smart – without holding everything in its short-term memory.
+Then, when needed, you query the vector store, retrieve the top relevant pieces, and feed them back into the LLM. This way, the model remembers just enough to act smart - without holding everything in its short-term memory.
 
 ---
 
@@ -245,9 +245,9 @@ Pinecone is ideal if you want scalability and ease of use without managing hardw
 
 Other popular vector stores include:
 
-- [<FontIcon icon="fas fa-globe"/>Weaviate](https://weaviate.io) – Combines vector search with knowledge graphs. Offers strong semantic search with hybrid keyword support.
-- [<FontIcon icon="fas fa-globe"/>Chroma](https://trychroma.com) – Simple to use and good for prototyping. Often used in personal apps or demos.
-- [<FontIcon icon="fas fa-globe"/>Qdrant](https://qdrant.tech) – Open-source and built for high-performance vector search with filtering.
+- [<FontIcon icon="fas fa-globe"/>Weaviate](https://weaviate.io) - Combines vector search with knowledge graphs. Offers strong semantic search with hybrid keyword support.
+- [<FontIcon icon="fas fa-globe"/>Chroma](https://trychroma.com) - Simple to use and good for prototyping. Often used in personal apps or demos.
+- [<FontIcon icon="fas fa-globe"/>Qdrant](https://qdrant.tech) - Open-source and built for high-performance vector search with filtering.
 
 Each of these has its place depending on whether you need speed, scale, simplicity, or special features.
 
@@ -255,7 +255,7 @@ Each of these has its place depending on whether you need speed, scale, simplici
 
 ## Making AI Seem Smart with Retrieval-Augmented Generation
 
-This whole system – embedding user inputs, storing them in a vector database, and retrieving them later – is called [**retrieval-augmented generation (RAG)**](/freecodecamp.org/retrieval-augmented-generation-rag-handbook/README.md).
+This whole system - embedding user inputs, storing them in a vector database, and retrieving them later - is called [**retrieval-augmented generation (RAG)**](/freecodecamp.org/retrieval-augmented-generation-rag-handbook/README.md).
 
 The AI still doesn’t have a brain, but it can act like it does. You choose what to remember, when to recall it, and how to feed it back into the conversation.
 
@@ -289,7 +289,7 @@ The broader AI community is still shaping best practices around these issues. Bu
 
 ## Conclusion
 
-Vector stores give AI agents a way to fake memory – and they do it well. By embedding text into vectors and using tools like FAISS or Pinecone, we give models the power to recall what matters. It’s not real memory. But it makes AI systems feel more personal, more helpful, and more human.
+Vector stores give AI agents a way to fake memory - and they do it well. By embedding text into vectors and using tools like FAISS or Pinecone, we give models the power to recall what matters. It’s not real memory. But it makes AI systems feel more personal, more helpful, and more human.
 
 As these tools grow more advanced, so does the illusion. But behind every smart AI is a simple system of vectors and similarity. If you can master that, you can build assistants that remember, learn, and improve with time.
 

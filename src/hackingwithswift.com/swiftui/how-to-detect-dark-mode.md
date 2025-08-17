@@ -68,7 +68,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-detect-dark-mode-1~dark.mp4" />
 
-This should generally only be necessary for custom drawing – if you want to enable dark and light colors or dark and light images these can both be done using your asset catalog, and will also reload when the color scheme changes.
+This should generally only be necessary for custom drawing - if you want to enable dark and light colors or dark and light images these can both be done using your asset catalog, and will also reload when the color scheme changes.
 
 ::: details Similar solutions…
 

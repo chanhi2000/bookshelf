@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples"
-description: "Article(s) > How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples"
+title: "How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples"
+description: "Article(s) > How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples"
 icon: fa-brands fa-golang
 category: 
   - Go
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples"
+      content: "Article(s) > How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples"
     - property: og:description
-      content: "How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples"
+      content: "How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/encoding-and-decoding-data-in-golang.html
 prev: /programming/go/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4
 ---
 
 <SiteInfo
-  name="How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples"
+  name="How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples"
   desc="When building web applications in Golang, working with JSON data is inevitable. Whether you're sending responses to clients or parsing requests, JSON encoding and decoding are essential skills to master.  In this article, we'll explore the different ..."
   url="https://freecodecamp.org/news/encoding-and-decoding-data-in-golang"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -459,7 +459,7 @@ Each method has its own strengths and trade-offs, and knowing when and how to us
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Send and Parse JSON Data in Golang – Data Encoding and Decoding Explained With Examples",
+  "title": "How to Send and Parse JSON Data in Golang - Data Encoding and Decoding Explained With Examples",
   "desc": "When building web applications in Golang, working with JSON data is inevitable. Whether you're sending responses to clients or parsing requests, JSON encoding and decoding are essential skills to master.  In this article, we'll explore the different ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/encoding-and-decoding-data-in-golang.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

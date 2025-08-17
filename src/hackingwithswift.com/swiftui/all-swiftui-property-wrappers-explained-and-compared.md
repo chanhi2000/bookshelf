@@ -90,7 +90,7 @@ In comparison, `@Binding` is used for simple data that you want to change, but i
 
 There is a variation of `@State` called `@GestureState`, specifically for tracking active gestures. This isn’t used so often, but it does have the benefit that it sets your property back to its initial value when the gesture ends.
 
-For more advanced purposes – i.e., dealing with classes, or sharing data in many places – you should *not* use `@State` and `@Binding`. Instead, you should create your object somewhere using `@StateObject`, then use it in other views with `@ObservedObject`.
+For more advanced purposes - i.e., dealing with classes, or sharing data in many places - you should *not* use `@State` and `@Binding`. Instead, you should create your object somewhere using `@StateObject`, then use it in other views with `@ObservedObject`.
 
 **A simple rule is this: if you see “state” in the name of a property wrapper, it means that views definitely owns the data.**
 
@@ -112,11 +112,11 @@ SwiftUI has three property wrappers designed to store and/or retrieve data.
 
 The first is `@AppStorage`, which is a wrapper around `UserDefaults`. Every time you read or write a value from app storage, you’re actually reading or writing from `UserDefaults`.
 
-The second is `@SceneStorage`, which is a wrapper around Apple’s state restoration APIs. State restoration is what allows an app to be closed and reloaded, and come back to the same state the user left off – it makes it look like our apps were always running, even though they were silently terminated.
+The second is `@SceneStorage`, which is a wrapper around Apple’s state restoration APIs. State restoration is what allows an app to be closed and reloaded, and come back to the same state the user left off - it makes it look like our apps were always running, even though they were silently terminated.
 
 **`@AppStorage` and `@SceneStorage` are *not* secure and should *not* be used to store sensitive data.**
 
-Although `@AppStorage` and `@SceneStorage` sound the same, they are not: `@AppStorage` stores one value for your entire application, whereas `@SceneStorage` will automatically save multiple values for the same data for times when the user has your app window open multiple times – think iPadOS and macOS. 
+Although `@AppStorage` and `@SceneStorage` sound the same, they are not: `@AppStorage` stores one value for your entire application, whereas `@SceneStorage` will automatically save multiple values for the same data for times when the user has your app window open multiple times - think iPadOS and macOS. 
 
 So, you might use `@AppStorage` to store global values such as “what is the user’s high score?”, and you might use `@SceneStorage` to store “what page is the user reading right now?”
 

@@ -99,7 +99,7 @@ Calling `setScore2()` with the same input values as before will print different 
 
 ::: tip
 
-Our property wrapper is trivial because parameters passed into a function are immutable – we don’t need to handle re-clamping the wrapped value when it changes because it won’t change. However, you can make your property wrappers as complex as you need; they work just as they would with properties or local variables.
+Our property wrapper is trivial because parameters passed into a function are immutable - we don’t need to handle re-clamping the wrapped value when it changes because it won’t change. However, you can make your property wrappers as complex as you need; they work just as they would with properties or local variables.
 
 :::
 

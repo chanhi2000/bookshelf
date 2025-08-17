@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ isOriginal: false
 3. Create the search controller and assign it to your view controller.
 4. Implement its sole required method: `updateSearchResults()`.
 
-Let’s go through them here. First, open Main.storyboard, select your view controller, then embed it in a navigation controller – go to the Editor menu and choose Embed In > Navigation Controller.
+Let’s go through them here. First, open Main.storyboard, select your view controller, then embed it in a navigation controller - go to the Editor menu and choose Embed In > Navigation Controller.
 
 Second, modify your view controller’s definition so that it includes a conformance for `UISearchResultsUpdating`.
 

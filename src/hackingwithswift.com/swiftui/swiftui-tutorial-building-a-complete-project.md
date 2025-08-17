@@ -63,7 +63,7 @@ This was written for iOS 16.1, so you'll need at least Xcode 14.1 to follow alon
 
 :::
 
-The project we'll be making is called iDine, and is a restaurant app that lists items in a menu and helps folks place orders. I've designed the project specifically so that it covers as many different techniques as possible to give you a good grounding in how things work in SwiftUI. Of course, we're also building a real project at the same time – it's going to be busy!
+The project we'll be making is called iDine, and is a restaurant app that lists items in a menu and helps folks place orders. I've designed the project specifically so that it covers as many different techniques as possible to give you a good grounding in how things work in SwiftUI. Of course, we're also building a real project at the same time - it's going to be busy!
 
 ::: tip Note
 
@@ -81,12 +81,12 @@ Please copy them into your project like this:
 
 - Drag <FontIcon icon="fa-brands fa-swift"/>`Helper.swift` into your project navigator. This contains a helper extension that makes it easier to decode `Codable` data from a bundle. This is not related to SwiftUI, so we won't be covering it here.
 - You should also drag <FontIcon icon="fa-brands fa-swift"/>`Order.swift` and <FontIcon icon="fa-brands fa-swift"/>`Menu.swift` into the project navigator. These are custom types that store the data we're using in the app.
-- And drag menu.json into your project navigator too – this describes all the menu items our restaurant offers, and will be decoded into instances of `MenuSection` and `MenuItem`.
+- And drag menu.json into your project navigator too - this describes all the menu items our restaurant offers, and will be decoded into instances of `MenuSection` and `MenuItem`.
 - Drag the contents of the Images directory into your asset catalog, so we have all the pictures we need.
 
 ![Dragging our artwork into Xcode's asset catalog.](https://hackingwithswift.com/img/books/quick-start/swiftui/2-2~dark.png)
 
-OK, that's it – we're ready to go!
+OK, that's it - we're ready to go!
 
 ::: tip
 

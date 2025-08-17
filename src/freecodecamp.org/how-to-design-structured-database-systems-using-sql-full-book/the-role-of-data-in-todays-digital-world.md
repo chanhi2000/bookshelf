@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c2
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c26-3456-4e79-a01c-0b2a82f7a034.png"/>
 
-These days, every action we take on the internet leaves behind a trail of information or data – whether it's conducting a bank transaction or shopping online.
+These days, every action we take on the internet leaves behind a trail of information or data - whether it's conducting a bank transaction or shopping online.
 
 But you may sometimes wonder whether it actually makes sense for these digital actions to be recorded. Do we need records of keystrokes when using a keyboard app, images saved in a gallery app, files in a file management program, notes saved in a note-taking app, or even vehicle routes with integrated Android Auto technology?
 
@@ -65,7 +65,7 @@ For instance, understanding how a user types on a keyboard app can improve the r
 
 Similarly, simple images saved in a gallery may not seem significant enough to be recorded on external sites, or even registered at all.
 
-Image files, for example, can contain [<FontIcon icon="fa-brands fa-wikipedia-w"/>EXIF metadata](https://en.wikipedia.org/wiki/Exif) with information about the image, such as the location where it was captured, the date of creation, its resolution, orientation, and the camera model used – among other data. While a user may not be interested in this data, it serves as the foundation for various application services, including classifying images into albums based on location, creating visual timelines, and generating "memories." These features significantly enhance the user experience.
+Image files, for example, can contain [<FontIcon icon="fa-brands fa-wikipedia-w"/>EXIF metadata](https://en.wikipedia.org/wiki/Exif) with information about the image, such as the location where it was captured, the date of creation, its resolution, orientation, and the camera model used - among other data. While a user may not be interested in this data, it serves as the foundation for various application services, including classifying images into albums based on location, creating visual timelines, and generating "memories." These features significantly enhance the user experience.
 
 Besides metadata, the content of images also creates a "digital trail" on third-party servers, which might initially seem intrusive and not beneficial to the user. However, it can lead to enhanced services. Since these third parties have the resources to train large machine learning models, they can recognize objects and faces in images. This improves album classification and allows users to search through images using text. Third parties can also identify which people or items are in a photo and link their data with other services.
 
@@ -75,7 +75,7 @@ These features are implemented using artificial intelligence techniques that lea
 
 Ultimately, regardless of the legal and privacy issues related to these practices, recording what we do is not an end in itself. Rather, it’s a means of turning scattered information into useful knowledge, which can then be used to create services that enhance our productivity or user experience.
 
-One clear example of this is in this very article on the [<FontIcon icon="fas fa-globe"/>Hashnode platform](https://hashnode.com/changelog/free-ai-for-all-users-blogging?source=changelogs). It provides writers with translation, rewriting, and keyword optimization services for [<FontIcon icon="fa-brands fa-google"/>SEO searches](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=en), all of which are based on artificial intelligence models that have been trained using large amounts of text – that is, data.
+One clear example of this is in this very article on the [<FontIcon icon="fas fa-globe"/>Hashnode platform](https://hashnode.com/changelog/free-ai-for-all-users-blogging?source=changelogs). It provides writers with translation, rewriting, and keyword optimization services for [<FontIcon icon="fa-brands fa-google"/>SEO searches](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=en), all of which are based on artificial intelligence models that have been trained using large amounts of text - that is, data.
 
 So to make sure this is all technically feasible, we had to develop specific techniques for collecting, storing, and managing information securely, efficiently, and consistently.
 

@@ -92,5 +92,5 @@ However, there is a catch: if you use collections of value types, e.g. `[String]
 
 **If you attempt to do so, your app will just crash at runtime.** So, please be very careful.
 
-Of course, this behavior is an implementation detail of SwiftData, and is subject to change at any point in the future – do try it yourself before coming to a final conclusion.
+Of course, this behavior is an implementation detail of SwiftData, and is subject to change at any point in the future - do try it yourself before coming to a final conclusion.
 

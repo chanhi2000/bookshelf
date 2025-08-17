@@ -60,7 +60,7 @@ In SwiftUI, this setting is exposed to us as an environment Boolean, so you shou
 @Environment(\.accessibilityReduceMotion) var reduceMotion
 ```
 
-Now it’s down to you to decide what “reduce motion” means – should you remove your animations, or just change them to be less strong? Should you keep some important animations and just remove the ones that are for visual appeal?
+Now it’s down to you to decide what “reduce motion” means - should you remove your animations, or just change them to be less strong? Should you keep some important animations and just remove the ones that are for visual appeal?
 
 For example, if you wanted a bouncy spring animation for most users, but no animation at all for users who want reduced motion, you might use an animation modifier like this one:
 
@@ -96,7 +96,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-detect-the-reduce-motion-accessibility-setting-1~dark.mp4" />
 
-That creates a small circle, scaling it up with a spring animation every time the button is pressed. But if the user enables Reduce Motion, the animation is removed entirely – it uses `nil` for the `animation()` modifier.
+That creates a small circle, scaling it up with a spring animation every time the button is pressed. But if the user enables Reduce Motion, the animation is removed entirely - it uses `nil` for the `animation()` modifier.
 
 ::: details Similar solutions…
 

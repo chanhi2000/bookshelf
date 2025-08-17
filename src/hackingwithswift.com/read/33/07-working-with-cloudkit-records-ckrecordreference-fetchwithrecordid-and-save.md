@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,13 +57,13 @@ So far, our app records whistles using `AVAudioRecorder`, submits it to CloudKit
 
 The valuable thing about this screen is that it gives me a chance to show you the `CKRecord.Reference` class, which is used to link records together. Specifically, we're going to build what's called a one-to-many relationship: one whistle can have many suggestions attached to it. Using `CKRecord.Reference` let us query to find all suggestions for a specific whistle, but it has another brilliant advantage known as *cascade deletes*: if we delete a whistle from our database, iCloud will automatically delete any suggestions that belong to it.
 
-Now, an important warning: as each whistle holds multiple suggestions, and each suggestion is just going to be a string saying something like "I think this is the theme tune from Star Wars," you might be tempted to think "ah, that means our whistle should have an array of strings attached to its record." If you try that, it'll work, and it'll work great – in testing. But when it comes to shipping apps, this approach hits a core problem: conflicts.
+Now, an important warning: as each whistle holds multiple suggestions, and each suggestion is just going to be a string saying something like "I think this is the theme tune from Star Wars," you might be tempted to think "ah, that means our whistle should have an array of strings attached to its record." If you try that, it'll work, and it'll work great - in testing. But when it comes to shipping apps, this approach hits a core problem: conflicts.
 
 A conflict occurs when CloudKit receives two sets of different information, and it's something that record arrays are particularly prone to. You see, if I get the record and it has no suggestions, I might write "that's the Star Wars theme tune." But before I hit Submit, you also download the record, see that it has no suggestions, and write "That's totally the theme tune to a big movie, but I can't remember which one," then hit Submit straight away. In iCloud, that record is now updated to have your (quite useless!) suggestion, so when I submit mine there's a conflict: I'm telling CloudKit the record has one suggestion (mine) and CloudKit thinks it already had one suggestion (yours), so it isn't sure what to do.
 
-Conflict resolution isn't something CloudKit handles for you, because the correct answer depends on your app. In this case, the correct answer is to merge both the arrays, but really the whole premise is bad – using arrays to reference child objects like this is a terrible idea. This method of referencing is known as forward references, and as you can see it's error-prone. A much better solution are back references, which are where our Whistle record doesn't keep track of its suggestions; instead, the suggestions all know which whistle own it. So, the references go from the child back to the parent, rather than from the parent forward to its child.
+Conflict resolution isn't something CloudKit handles for you, because the correct answer depends on your app. In this case, the correct answer is to merge both the arrays, but really the whole premise is bad - using arrays to reference child objects like this is a terrible idea. This method of referencing is known as forward references, and as you can see it's error-prone. A much better solution are back references, which are where our Whistle record doesn't keep track of its suggestions; instead, the suggestions all know which whistle own it. So, the references go from the child back to the parent, rather than from the parent forward to its child.
 
-Enough theory – time for action. Create a new `UITableViewController` subclass called `ResultsViewController`. This will need to import AVFoundation so we can listen to whistles, and also CloudKit so we can download whistle audio and any user suggestions. So, add these imports now:
+Enough theory - time for action. Create a new `UITableViewController` subclass called `ResultsViewController`. This will need to import AVFoundation so we can listen to whistles, and also CloudKit so we can download whistle audio and any user suggestions. So, add these imports now:
 
 ```swift
 import AVFoundation
@@ -136,7 +136,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 }
 ```
 
-At this point your iOS career, every line of that should be second nature – I'm only repeating it here to help jog your memory. The real work happens when a user taps on the "Add suggestion" table view cell. This code needs to show a `UIAlertController` with a text field prompting the user to enter their suggestion. This code is a bit clumsy: if you haven't already read my [`addTextField` tutorial](/hackingwithswift.com/read/05/03-pick-a-word-any-word-uialertcontroller.md) that was inside project 5, that's a good place to start.
+At this point your iOS career, every line of that should be second nature - I'm only repeating it here to help jog your memory. The real work happens when a user taps on the "Add suggestion" table view cell. This code needs to show a `UIAlertController` with a text field prompting the user to enter their suggestion. This code is a bit clumsy: if you haven't already read my [`addTextField` tutorial](/hackingwithswift.com/read/05/03-pick-a-word-any-word-uialertcontroller.md) that was inside project 5, that's a good place to start.
 
 To summarize, here's what we're going to do:
 
@@ -144,7 +144,7 @@ To summarize, here's what we're going to do:
 - If the row that was tapped was not the last row in the second section (the "Add suggestion" row) we'll exit the method.
 - We'll create a `UIAlertController` in the style `.alert`, then add a text field to it.
 - We'll add a Submit button to the alert that, when tapped, will submit the suggestion if the text field has any text.
-- Because we configure the text field in one closure and submit it in another, we need to create it outside of both – just like in project 5.
+- Because we configure the text field in one closure and submit it in another, we need to create it outside of both - just like in project 5.
 - As an added touch, we're going to deselect the row that was tapped, making it highlighted only temporarily.
 
 Here's the code:
@@ -171,9 +171,9 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 }
 ```
 
-Don't worry that `self.add(suggestion: suggestion.text!)` will error at this point – we haven't written that yet.
+Don't worry that `self.add(suggestion: suggestion.text!)` will error at this point - we haven't written that yet.
 
-It's time for some CloudKit action again, and this time we're going to be using the `CKRecord.Reference` class to link a user's suggestion to the whistle they were reading about. When you create a `CKRecord.Reference` you need to provide it two things: a record ID to link to, and a behavior to trigger when that linked record is deleted. We already have the record ID to link to because we're storing it in the `whistle` property, and for the action to trigger we'll use `.deleteSelf` – when the parent whistle is deleted, delete the child suggestions too.
+It's time for some CloudKit action again, and this time we're going to be using the `CKRecord.Reference` class to link a user's suggestion to the whistle they were reading about. When you create a `CKRecord.Reference` you need to provide it two things: a record ID to link to, and a behavior to trigger when that linked record is deleted. We already have the record ID to link to because we're storing it in the `whistle` property, and for the action to trigger we'll use `.deleteSelf` - when the parent whistle is deleted, delete the child suggestions too.
 
 `CKRecord.Reference`, like `CKAssets`, can be placed directly into a `CKRecord`, which means the first part of `add(suggestion:)` is easy:
 
@@ -194,7 +194,7 @@ The second part of `add(suggestion:)` isn't much more difficult, because we'll u
 
 Remember: CloudKit tells us when the save completes by executing our code as a closure, and that could be running on any thread. We want to either reload the table view or show a message depending on whether there was an error, but regardless this work needs to be pushed to the main thread as it involves user interface changes.
 
-Here's the second part of `add(suggestion:)` – put this where the `more code to come!` comment is:
+Here's the second part of `add(suggestion:)` - put this where the `more code to come!` comment is:
 
 ```swift
 CKContainer.default().publicCloudDatabase.save(whistleRecord) { [unowned self] record, error in
@@ -215,7 +215,7 @@ Note that I append the user's new suggestion to the existing `suggestions` array
 
 There are two more tasks to do before this view controller is complete. First, when the view is loaded, we need to fetch the existing list of user suggestions and show them in the table. Second, we need to let users download and listen to each whistle so they can try to guess what it is.
 
-To download all suggestions that belong to a particular whistle we need to create another `CKRecord.Reference`, just like before. We can then pass that into an `NSPredicate` that will check for suggestions where `owningWhistle` matches that predicate. This time we're going to sort by `creationDate` ascending so that oldest suggestions appear first, but otherwise this isn't tricky – here's the first part of the new `viewDidLoad()` method:
+To download all suggestions that belong to a particular whistle we need to create another `CKRecord.Reference`, just like before. We can then pass that into an `NSPredicate` that will check for suggestions where `owningWhistle` matches that predicate. This time we're going to sort by `creationDate` ascending so that oldest suggestions appear first, but otherwise this isn't tricky - here's the first part of the new `viewDidLoad()` method:
 
 ```swift
 override func viewDidLoad() {
@@ -251,9 +251,9 @@ CKContainer.default().publicCloudDatabase.perform(query, inZoneWith: nil) { [uno
 }
 ```
 
-If that fails to fetch the suggestions, it prints a message to the Xcode log – see if you can have a go at making it a bit smarter.
+If that fails to fetch the suggestions, it prints a message to the Xcode log - see if you can have a go at making it a bit smarter.
 
-The last step in handling suggestions is to write that `parseResults` method. This gets called once the record results array has been unwrapped, so we know we'll definitely get a list of records through. It's then just a matter of looping through that array, pulling out the `text` property of each record, and adding it to our `suggestions` string array. To make things safer on multiple threads, we'll actually use an intermediate array called `newSuggestions` – it's never smart to modify data in a background thread that is being used on the main thread.
+The last step in handling suggestions is to write that `parseResults` method. This gets called once the record results array has been unwrapped, so we know we'll definitely get a list of records through. It's then just a matter of looping through that array, pulling out the `text` property of each record, and adding it to our `suggestions` string array. To make things safer on multiple threads, we'll actually use an intermediate array called `newSuggestions` - it's never smart to modify data in a background thread that is being used on the main thread.
 
 Here's the `parseResults()` method:
 
@@ -282,9 +282,9 @@ This new method needs to:
 4. Create a new right bar button item that says "Listen" and will call `listenTapped()`.
 5. If something goes wrong, show a meaningful error message and put the Download button back.
 
-Fetching whole records is done through a simple CloudKit convenience API: `fetch(withRecordID:)`. Once that fetches the complete whistle record, we can pull out the `CKAsset` and read its `fileURL` property to know where CloudKit downloaded it to. Please note: this download is just a cache – CloudKit will automatically remove downloaded files at a later date.
+Fetching whole records is done through a simple CloudKit convenience API: `fetch(withRecordID:)`. Once that fetches the complete whistle record, we can pull out the `CKAsset` and read its `fileURL` property to know where CloudKit downloaded it to. Please note: this download is just a cache - CloudKit will automatically remove downloaded files at a later date.
 
-Remember, all user interface work needs to be pushed onto the main thread, and you should be careful to handle your CloudKit errors properly. I put a comment in this code that you should replace with an error of your choosing – don't forget!
+Remember, all user interface work needs to be pushed onto the main thread, and you should be careful to handle your CloudKit errors properly. I put a comment in this code that you should replace with an error of your choosing - don't forget!
 
 Here's the `downloadTapped()` method:
 

@@ -81,7 +81,7 @@ The `copy` module is an in-built module in Python which is primarily used for co
 
 ### Why can’t we just use the assignment operator (`=`) for copying objects?
 
-If we use the assignment operator for the purpose of copying objects, it doesn’t actually **copy** the object – rather, it creates a binding between the object and the identifier. This means that if the original object points at memory location `x`, then the identifier in which we attempted to copy the object by using the `=` operator will also point at the same memory location, that is location `x`.
+If we use the assignment operator for the purpose of copying objects, it doesn’t actually **copy** the object - rather, it creates a binding between the object and the identifier. This means that if the original object points at memory location `x`, then the identifier in which we attempted to copy the object by using the `=` operator will also point at the same memory location, that is location `x`.
 
 Now, this may create problems while manipulating various aspects of the data, as the changes that we make in the object will reflect in its binding as well.
 
@@ -113,7 +113,7 @@ d1 = {'A': 1, 'B': 2, 'C': 3}
 d2 = {'A': 1, 'B': 2, 'C': 3}
 ```
 
-From above example, it may seem that the dictionary got copied in variable `d2` – but in reality, it’s just pointing to the object stored in variable `d1`. In this case, variable `d2` is just an alias or reference to the same object `d1`. We can prove this as follows:
+From above example, it may seem that the dictionary got copied in variable `d2` - but in reality, it’s just pointing to the object stored in variable `d1`. In this case, variable `d2` is just an alias or reference to the same object `d1`. We can prove this as follows:
 
 ```py
 d1 = {
@@ -135,7 +135,7 @@ d1 = {'A': 1, 'B': 2, 'C': 3, 'D': 4}
 d2 = {'A': 1, 'B': 2, 'C': 3, 'D': 4}
 ```
 
-Now, in the above code, we appended a key-value pair in dictionary `d1` only – but the change is seen in dictionary `d2`, too. From this, it is evident that both the identifiers were referencing the same object.
+Now, in the above code, we appended a key-value pair in dictionary `d1` only - but the change is seen in dictionary `d2`, too. From this, it is evident that both the identifiers were referencing the same object.
 
 From this we understand that, assignment operator `=` can be used for referencing the objects and we cannot use it for copying objects in true sense.
 

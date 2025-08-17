@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ In this game, we want the player to win or lose depending on how many green or r
 
 1. Add rectangle physics to our slots.
 2. Name the slots so we know which is which, then name the balls too.
-3. Make our scene the contact delegate of the physics world – this means, "tell us when contact occurs between two bodies."
+3. Make our scene the contact delegate of the physics world - this means, "tell us when contact occurs between two bodies."
 4. Create a method that handles contacts and does something appropriate.
 
 The first step is easy enough: add these two lines just before you call `addChild()` for `slotBase`:
@@ -73,7 +73,7 @@ The slot base needs to be non-dynamic because we don't want it to move out of th
 
 The second step is also easy, but bears some explanation. As with UIKit, it's easy enough to store a variable pointing at specific nodes in your scene for when you want to make something happen, and there are lots of times when that's the right solution.
 
-But for general use, Apple recommends assigning names to your nodes, then checking the name to see what node it is. We need to have three names in our code: good slots, bad slots and balls. This is really easy to do – just modify your `makeSlot(at:)` method so the `SKSpriteNode` creation looks like this:
+But for general use, Apple recommends assigning names to your nodes, then checking the name to see what node it is. We need to have three names in our code: good slots, bad slots and balls. This is really easy to do - just modify your `makeSlot(at:)` method so the `SKSpriteNode` creation looks like this:
 
 ```swift
 if isGood {
@@ -97,7 +97,7 @@ We don't need to name the bouncers, because we don't actually care when their co
 
 Now comes the tricky part, which is setting up our scene to be the contact delegate of the physics world. The initial change is easy: we just need to conform to the `SKPhysicsContactDelegate` protocol then assign the physics world's `contactDelegate` property to be our scene. But by default, you still won't get notified when things collide.
 
-What we need to do is change the `contactTestBitMask` property of our physics objects, which sets the contact notifications we want to receive. This needs to introduce a whole new concept – bitmasks – and really it doesn't matter at this point, so we're going to take a shortcut for now, then return to it in a later project.
+What we need to do is change the `contactTestBitMask` property of our physics objects, which sets the contact notifications we want to receive. This needs to introduce a whole new concept - bitmasks - and really it doesn't matter at this point, so we're going to take a shortcut for now, then return to it in a later project.
 
 Let's set up all the contact delegates and bitmasks now. First, make your class conform to the `SKPhysicsContactDelegate` protocol by modifying its definition to this:
 
@@ -167,13 +167,13 @@ func didBegin(_ contact: SKPhysicsContact) {
 }
 ```
 
-If you're particularly observant, you may have noticed that we don't have a special case in there for when both bodies are balls – i.e., if one ball collides with another. This is because our `collisionBetween()` method will ignore that particular case, because it triggers code only if the other node is named "good" or "bad".
+If you're particularly observant, you may have noticed that we don't have a special case in there for when both bodies are balls - i.e., if one ball collides with another. This is because our `collisionBetween()` method will ignore that particular case, because it triggers code only if the other node is named "good" or "bad".
 
 Run the game now and you'll start to see things coming together: you can drop balls on the bouncers and they will bounce, but if they touch one of the good or bad slots the balls will be destroyed. It works, but it's boring. Players want to score points so they feel like they achieved something, even if that "something" is just nudging up a number on a CPU.
 
 Before I move on, I want to return to my philosophical question from earlier: “did the ball hit the slot, did the slot hit the ball, or did *both* happen?” That last case won’t happen all the time, but it will happen *sometimes*, and it’s important to take it into account.
 
-If SpriteKit reports a collision twice – i.e. “ball hit slot *and* slot hit ball” – then we have a problem. Look at this line of code:
+If SpriteKit reports a collision twice - i.e. “ball hit slot *and* slot hit ball” - then we have a problem. Look at this line of code:
 
 ```swift
 collisionBetween(ball: contact.bodyA.node!, object: contact.bodyB.node!)
@@ -185,7 +185,7 @@ And now this line of code:
 ball.removeFromParent()
 ```
 
-The first time that code runs, we force unwrap both nodes and remove the ball – so far so good. The *second* time that code runs (for the other half of the same collision), our problem strikes: we try to force unwrap something we already removed, and our game will crash.
+The first time that code runs, we force unwrap both nodes and remove the ball - so far so good. The *second* time that code runs (for the other half of the same collision), our problem strikes: we try to force unwrap something we already removed, and our game will crash.
 
 To solve this, we’re going to rewrite the `didBegin()` method to be clearer and safer: we’ll use `guard` to ensure both `bodyA` and `bodyB` have nodes attached. If either of them don’t then this is a ghost collision and we can bail out immediately.
 
@@ -202,5 +202,5 @@ func didBegin(_ contact: SKPhysicsContact) {
 }
 ```
 
-It takes a little more explanation and a little more code, but the result is safer – and that’s always worth striving for!
+It takes a little more explanation and a little more code, but the result is safer - and that’s always worth striving for!
 

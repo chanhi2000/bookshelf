@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -91,7 +91,7 @@ Both `#warning` and `#error` work alongside the existing `#if` compiler directiv
 Both `#warning` and `#error` are useful for different reasons:
 
 - `#warning` is mainly useful as a reminder to yourself or others that some work is incomplete. Xcode templates often use `#warning` to mark method stubs that you should replace with your own code. Think of `#warning` as being like a `FIXME` comment that automatically shows up in your build output.
-<li>`#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API – you want users to include their own key, so using `#error` will force them to change that code before continuing.
+<li>`#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API - you want users to include their own key, so using `#error` will force them to change that code before continuing.
 
 -->
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "3. Practical Examples: From Theory to Action"
-description: "Article(s) > (3/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+description: "Article(s) > (3/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
 category: 
   - Python
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/8) Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
+      content: "Article(s) > (3/8) Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:description
       content: "3. Practical Examples: From Theory to Action"
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 
 ```component VPCard
 {
-  "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
-  "desc": "In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
+  "title": "Applied Data Science with Python - Business Intelligence for Developers [Full Book]",
+  "desc": "In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into...",
   "link": "/freecodecamp.org/applied-data-science-with-python-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-D
 ---
 
 <SiteInfo
-  name="Applied Data Science with Python – Business Intelligence for Developers [Full Book]"
-  desc="In the high-stakes game of modern business, data isn't just an asset – it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
+  name="Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
+  desc="In the high-stakes game of modern business, data isn't just an asset - it's the power you need to outpace your competition. But as a developer, you know that turning raw data into actionable insights can be a frustrating battle. Imagine having the power to effortlessly transform raw data into..."
   url="https://freecodecamp.org/news/applied-data-science-with-python-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/06/Applied-Data-Science-with-Python-Cover-Version-2--1-.png"/>
@@ -99,7 +99,7 @@ Order ID,Order Date,Customer ID,Segment,Product,Category,Sales,Quantity,Profit
 
 Real-world data is rarely pristine. It often arrives in messy CSV files, riddled with missing values, inconsistent formats, and other imperfections that can derail your analysis. 
 
-But fear not – Pandas is your trusty sidekick in this data wrangling adventure. Let's walk through the essential steps of importing and cleaning data using Pandas and our sample CSV file, `sales_data.csv`.
+But fear not - Pandas is your trusty sidekick in this data wrangling adventure. Let's walk through the essential steps of importing and cleaning data using Pandas and our sample CSV file, `sales_data.csv`.
 
 #### -step-1-import-your-data">Step 1: Import Your Data
 
@@ -223,7 +223,7 @@ print(total_sales_by_category.to_markdown(numalign="left", stralign="left"))
 
 With your data loaded and cleaned, it's time to embark on the exciting journey of data exploration. Pandas equips you with a powerful suite of functions to analyze your dataset, uncover hidden patterns, and gain actionable insights.
 
-#### -dfdescribe-quantitative-snapshot">`df.describe()` – Quantitative Snapshot
+#### -dfdescribe-quantitative-snapshot">`df.describe()` - Quantitative Snapshot
 
 This function provides a concise statistical summary of your numerical columns. It's your initial reconnaissance mission, revealing central tendencies (mean, median), dispersion (standard deviation, range), and distribution quartiles. 
 
@@ -233,7 +233,7 @@ This high-level overview quickly reveals potential outliers and distributions th
 print(df.describe().to_markdown(numalign="left", stralign="left"))
 ```
 
-#### -dfgroupby-segmenting-for-deeper-insights">`df.groupby()` – Segmenting for Deeper Insights
+#### -dfgroupby-segmenting-for-deeper-insights">`df.groupby()` - Segmenting for Deeper Insights
 
 Grouping is a fundamental technique in data analysis. Pandas' `groupby()` function allows you to segment your data based on categorical variables. 
 
@@ -244,7 +244,7 @@ sales_by_segment = df.groupby('Segment')['Sales'].sum()
 print(sales_by_segment.to_markdown(numalign="left", stralign="left"))
 ```
 
-#### -dfvaluecounts-distribution-analysis">`df.value_counts()` –  Distribution Analysis
+#### -dfvaluecounts-distribution-analysis">`df.value_counts()` -  Distribution Analysis
 
 Understanding the frequency distribution of categorical variables is crucial for identifying common patterns and potential anomalies. `.value_counts()` reveals how often each unique value appears in a column, giving you a snapshot of the distribution.
 

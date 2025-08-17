@@ -72,7 +72,7 @@ Performance-wise, we were extremely careful in making sure 1.11 would not be any
 
 ## Creatingan ecosystem for container execution backends
 
-runC is the firstimplementation of the [Open Containers Runtime specification (<FontIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`)](https://github.com/opencontainers/runtime-spec)and the default executor bundled with Docker Engine. Thanks to the open specification, future versions of Engine will allow you to specify different executors, thus enabling the ecosystem of alternative execution backends without any changes to Docker itself. By separating out this piece, an ecosystem partner can build their own compliant executor to the specification, and make it available to the user community at any time – without being dependent on the Engine release schedule or wait to be reviewed and merged into the codebase.
+runC is the firstimplementation of the [Open Containers Runtime specification (<FontIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`)](https://github.com/opencontainers/runtime-spec)and the default executor bundled with Docker Engine. Thanks to the open specification, future versions of Engine will allow you to specify different executors, thus enabling the ecosystem of alternative execution backends without any changes to Docker itself. By separating out this piece, an ecosystem partner can build their own compliant executor to the specification, and make it available to the user community at any time - without being dependent on the Engine release schedule or wait to be reviewed and merged into the codebase.
 
 What does this mean for you? This gives you choice: the runtime is now pluggable. Following the Docker principle of batteries included but swappable, Docker Engine will ship with runC available as the default with the ability to choose from a variety of container executors that are for specific platforms or have different security and performance features. By separating out the thing that runs containers from the Engine, this opens up new possibilities. As an example, 1.11 is a huge step toward allowing Engine restarts/upgrades without restarting the containers, improving the availability of containers. This is probably one of the most requested features by Docker users. In fact, with this new architecture, you will even be able to restart containerd and your containers will keep running.
 
@@ -138,7 +138,7 @@ If you're a Mac or Windows user, the Docker ..."
 
 ### Machine 0.7
 
-In this version of Machine, the MicrosoftAzure driver now uses the new Azure APIs and is easier to authenticate. [<FontIcon icon="iconfont icon-microsoftauzre"/>See Azure’s blog post for more details.](https://azure.microsoft.com/en-us/blog/docker-machine-azure-driver/)There are also a bunch of other improvements in this release –[take a look at the full release notes for details (<FontIcon icon="iconfont icon-github"/>`docker/machine`)](https://github.com/docker/machine/releases/tag/v0.7.0).
+In this version of Machine, the MicrosoftAzure driver now uses the new Azure APIs and is easier to authenticate. [<FontIcon icon="iconfont icon-microsoftauzre"/>See Azure’s blog post for more details.](https://azure.microsoft.com/en-us/blog/docker-machine-azure-driver/)There are also a bunch of other improvements in this release -[take a look at the full release notes for details (<FontIcon icon="iconfont icon-github"/>`docker/machine`)](https://github.com/docker/machine/releases/tag/v0.7.0).
 
 ### Registry 2.4
 

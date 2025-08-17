@@ -103,10 +103,10 @@ The game will help you test your memory skills while enjoying cute anime picture
 
 Here’s a list of the main technologies we’ll be using:
 
-- **NPM** – A package manager for JavaScript that helps manage dependencies and scripts for the project.
-- **Vite** – A build tool that provides a fast development environment, particularly optimized for modern web projects.
-- **React** – A popular JavaScript library for building user interfaces, enabling efficient rendering and state management.
-- **CSS Modules** – A styling solution that scopes CSS to individual components, preventing style conflicts and ensuring maintainability.
+- **NPM** - A package manager for JavaScript that helps manage dependencies and scripts for the project.
+- **Vite** - A build tool that provides a fast development environment, particularly optimized for modern web projects.
+- **React** - A popular JavaScript library for building user interfaces, enabling efficient rendering and state management.
+- **CSS Modules** - A styling solution that scopes CSS to individual components, preventing style conflicts and ensuring maintainability.
 
 ---
 
@@ -235,7 +235,7 @@ Alright, now let’s get coding.
 
 **Set Up the Development Environment**
 
-In order to start with a clean React project, open your terminal app and run the following commands (you may name your project folder as you like – in my case the name is ‘memory-card’):
+In order to start with a clean React project, open your terminal app and run the following commands (you may name your project folder as you like - in my case the name is ‘memory-card’):
 
 ```sh
 npm create vite@latest memory-card -- --template react

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Build a Login Page with the Material Tailwind Framework – Step by Step Guide
-description: Article(s) > How to Build a Login Page with the Material Tailwind Framework – Step by Step Guide
+title: How to Build a Login Page with the Material Tailwind Framework - Step by Step Guide
+description: Article(s) > How to Build a Login Page with the Material Tailwind Framework - Step by Step Guide
 icon: iconfont icon-tailwindcss
 category: 
   - Node.js
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Build a Login Page with the Material Tailwind Framework – Step by Step Guide
+      content: Article(s) > How to Build a Login Page with the Material Tailwind Framework - Step by Step Guide
     - property: og:description
-      content: How to Build a Login Page with the Material Tailwind Framework – Step by Step Guide
+      content: How to Build a Login Page with the Material Tailwind Framework - Step by Step Guide
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-login-page-with-material-tailwind-framework.html
 prev: /programming/css-tailwind/articles/README.md
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/how-to-bu
 ---
 
 <SiteInfo
-  name="How to Build a Login Page with the Material Tailwind Framework – Step by Step Guide"
+  name="How to Build a Login Page with the Material Tailwind Framework - Step by Step Guide"
   desc="Login pages are like the front doors to our web apps. They should be inviting, easy to use, and safe. If you're looking to create one that combines both style and function, you're in the right place. In this guide, we'll explore how to build a login page with Material..."
   url="https://freecodecamp.org/news/how-to-build-a-login-page-with-material-tailwind-framework/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

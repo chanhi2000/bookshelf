@@ -59,8 +59,8 @@ This article will help you gain a solid grasp of OOP in TypeScript by walking yo
 
 To get the most out of this article, you should be familiar with:
 
-- **JavaScript fundamentals** – variables, functions, objects, and arrays.
-- **Basic TypeScript syntax** – including types and how they differ from plain JavaScript.
+- **JavaScript fundamentals** - variables, functions, objects, and arrays.
+- **Basic TypeScript syntax** - including types and how they differ from plain JavaScript.
 
 :::
 
@@ -68,7 +68,7 @@ To get the most out of this article, you should be familiar with:
 
 I’ve organized this article into two sections. The first section covers TypeScript language features that enable you to implement Object-Oriented Programming (OOP). The second part discusses concepts derived from these features that lead to the four OOP principles: inheritance, polymorphism, encapsulation, and abstraction.
 
-While many teachers, books, and courses start by explaining these principles, I prefer to start with the language features themselves. The reason is simple: they are formal structures – in other words, concrete. Moreover, throughout the article, you'll notice that the OOP principles naturally emerge when you use the language structure correctly.
+While many teachers, books, and courses start by explaining these principles, I prefer to start with the language features themselves. The reason is simple: they are formal structures - in other words, concrete. Moreover, throughout the article, you'll notice that the OOP principles naturally emerge when you use the language structure correctly.
 
 :::
 
@@ -195,7 +195,7 @@ class SavingsAccount implements BankAccount {
 
 Just like interfaces, abstract classes define a model or contract that other classes must follow. But while an interface only describes the structure of a class without providing implementations, an abstract class can include method declarations and concrete implementations.
 
-Unlike regular classes, though, abstract classes **cannot be instantiated directly** – they exist solely as a base from which other classes can inherit their methods and attributes.
+Unlike regular classes, though, abstract classes **cannot be instantiated directly** - they exist solely as a base from which other classes can inherit their methods and attributes.
 
 In TypeScript, the `abstract` keyword is used to define an abstract class. In the following example, you’ll refactor the banking system by replacing the interface with an abstract class to define base behavior for all bank accounts.
 
@@ -260,7 +260,7 @@ savingsAccount.withdraw(500); // uses the withdraw method from SavingsAccount
 
 Now that you understand the key language mechanisms, you can formalize the pillars of Object-Oriented Programming that guide the creation of systems that are better organized, reusable, and scalable.
 
-### Inheritance – Superclass and Subclass
+### Inheritance - Superclass and Subclass
 
 Inheritance is a mechanism that allows a class to derive characteristics from another class. When a class `B` inherits from a class `A`, it means that `B` automatically acquires the attributes and methods of `A` without needing to redefine them.
 
@@ -372,13 +372,13 @@ With this approach, you ensure flexibility and code reusability, as new account 
 
 Encapsulation is one of the fundamental principles of OOP, but its concept can be applied to any programming paradigm. It involves hiding the internal implementation details of a module, class, function, or any other software component, exposing only what is necessary for external use. This improves code security, maintainability, and modularity by preventing unauthorized access and ensuring controlled interactions.
 
-#### Access Modifiers – `public`, `private`, and `protecte
+#### Access Modifiers - `public`, `private`, and `protecte
 
 In OOP, encapsulation is essential for controlling the visibility and access to methods and attributes within a class. In TypeScript, this is achieved using access modifiers, which are defined by the keywords `public`, `protected`, and `private`.
 
-- `public` – Allows the attribute or method to be accessed from anywhere, both inside and outside the class. This is the default visibility, meaning that if no access modifier is specified in the code, TypeScript assumes it as `public`.
-- `protected` – Allows access within the class and its subclasses but prevents external access.
-- `private` – Restricts access to the attribute or method only within the class itself.
+- `public` - Allows the attribute or method to be accessed from anywhere, both inside and outside the class. This is the default visibility, meaning that if no access modifier is specified in the code, TypeScript assumes it as `public`.
+- `protected` - Allows access within the class and its subclasses but prevents external access.
+- `private` - Restricts access to the attribute or method only within the class itself.
 
 ```ts :collapsed-lines
 export class Person {

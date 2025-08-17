@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -96,7 +96,7 @@ If we want to add a shadow effect to the text, we can use the `setShadow` method
 ctx.cgContext.setShadow(offset: .zero, blur: 5, color: UIColor.red.cgColor)
 ```
 
-The advantage of using `setShadow()` is that once you enable a shadow color, everything you draw has the same color – all text, all images, and all shapes. 
+The advantage of using `setShadow()` is that once you enable a shadow color, everything you draw has the same color - all text, all images, and all shapes. 
 
 When you’re done with the shadow and want normal rendering to resume, just use nil for the color value like this:
 
@@ -104,7 +104,7 @@ When you’re done with the shadow and want normal rendering to resume, just use
 ctx.cgContext.setShadow(offset: .zero, blur: 0, color: nil)
 ```
 
-The other way of drawing shadows is using `NSAttributedString` and the `NSShadow` class. This is an object you create and can attach to any attributed strings you want, giving you the flexibility to add shadowing to only certain parts of a string rather than the whole thing – something that `setShadow()` can’t do.
+The other way of drawing shadows is using `NSAttributedString` and the `NSShadow` class. This is an object you create and can attach to any attributed strings you want, giving you the flexibility to add shadowing to only certain parts of a string rather than the whole thing - something that `setShadow()` can’t do.
 
 First, create an `NSShadow` instance like this:
 
@@ -128,7 +128,7 @@ let attrs: [NSAttributedString.Key: Any] = [
 
 Here the end result will look identical to `NSShadow`, but as I said you now have the ability to shadow only parts of a string - or even add different shadows across the string.
 
-**Pro-tip:** If you want to make your shadow stronger – to make it darker so that the color shows through more clearly – just draw your object repeatedly. For example, this will draw our attributed string five times to give it a really strong red glow:
+**Pro-tip:** If you want to make your shadow stronger - to make it darker so that the color shows through more clearly - just draw your object repeatedly. For example, this will draw our attributed string five times to give it a really strong red glow:
 
 ```swift
 for _ in 1...5 {

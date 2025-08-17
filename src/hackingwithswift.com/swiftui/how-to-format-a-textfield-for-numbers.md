@@ -54,7 +54,7 @@ head:
 
 You can attach a formatter to SwiftUI's `TextField` in order to restrict what kind of data it can contain, but honestly it's a bit limited in what it can do.
 
-To demonstrate the functionality – and also its limitations – we could write some code to let the user enter a score in a game, and show what they entered. Here's the code:
+To demonstrate the functionality - and also its limitations - we could write some code to let the user enter a score in a game, and show what they entered. Here's the code:
 
 ```swift
 struct ContentView: View {
@@ -112,14 +112,14 @@ Regardless of which code option you choose, if you try using it you'll notice a 
 2. The user is free to enter any kind of text that they want, and it only jumps back to being a number when they press Return.
 3. Before validation, they can even enter invalid numbers, such as 12.34.56.
 
-If you're happy with that – if you're happy that the text field allows any input, and only validates its numbers and updates its state when the user presses Return – then you're good to go.
+If you're happy with that - if you're happy that the text field allows any input, and only validates its numbers and updates its state when the user presses Return - then you're good to go.
 
 However, if you want to try to fix some those you'll soon hit more problems. For example, you might try to attach the `.keyboardType(.decimalPad)` modifier to your text field in order to restrict it to numbers and decimal point only. However, now:
 
 1. The user can still enter multiple decimal points before validation happens.
 2. By default, the decimal pad keyboard has no Return key to hide the keyboard; you'll need to add one yourself.
 
-I wish there were a nice workaround for this, but I'm afraid there is not – not without rolling your own wrapper around `UITextField`, that is. In the meantime, you either accept the shortcomings of the existing functionality, or use an alternative input mechanism such as `Stepper`.
+I wish there were a nice workaround for this, but I'm afraid there is not - not without rolling your own wrapper around `UITextField`, that is. In the meantime, you either accept the shortcomings of the existing functionality, or use an alternative input mechanism such as `Stepper`.
 
 ::: details Similar solutions…
 

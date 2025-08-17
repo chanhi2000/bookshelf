@@ -83,7 +83,7 @@ const term = $('body').terminal(commands, {
 
 ::: note
 
-The second argument to the jQuery Terminal is an object with options – we used a single option `greetings`.
+The second argument to the jQuery Terminal is an object with options - we used a single option `greetings`.
 
 :::
 

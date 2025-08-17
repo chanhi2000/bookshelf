@@ -60,11 +60,11 @@ Simply put, landmarks are semantic regions in a web page that define the purpose
 
 Common HTML landmarks include:
 
-- `<header>` – Represents introductory content or a page header.
-- `<nav>` – Identifies navigation links.
-- `<main>` – Marks the main content area of the page.
-- `<aside>` – Contains complementary or related information.
-- `<footer>` – Represents page or section footer.
+- `<header>` - Represents introductory content or a page header.
+- `<nav>` - Identifies navigation links.
+- `<main>` - Marks the main content area of the page.
+- `<aside>` - Contains complementary or related information.
+- `<footer>` - Represents page or section footer.
 
 ---
 
@@ -175,7 +175,7 @@ The HTML is divided into 5 landmark sections which are header, navigation, main,
 
 Here’s a breakdown of what each landmark is and how it's typically used:
 
-### `<nav>` – Navigation Section
+### `<nav>` - Navigation Section
 
 Used for menus, site-wide links, or breadcrumbs.
 
@@ -194,7 +194,7 @@ Jump straight to the navigation to find the “Contact” page without browsing 
 
 :::
 
-### `<main>` – Primary Page Content
+### `<main>` - Primary Page Content
 
 Used once per page to wrap the most important content.
 
@@ -211,7 +211,7 @@ Skip past the header and sidebar to dive into the tutorial or article.
 
 :::
 
-### `<aside>` – Complementary Information
+### `<aside>` - Complementary Information
 
 Used for sidebars, ads, related links, or pull quotes.
 
@@ -230,7 +230,7 @@ Users can skip the aside if they don’t want extra content, or jump to it for h
 
 :::
 
-### `<footer>` – Page Footer
+### `<footer>` - Page Footer
 
 Used for closing content like copyright.
 
@@ -246,7 +246,7 @@ Quickly navigate to support links, licensing info, or a newsletter sign-up.
 
 :::
 
-### `<header>` – Top-of-Page or Section Header
+### `<header>` - Top-of-Page or Section Header
 
 Used for introductory content, such as logos or search bars.
 

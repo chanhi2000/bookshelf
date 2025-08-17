@@ -560,11 +560,11 @@ When a release is published from the `main` branch, the app deploys to the produ
 
 :::
 
-##### 2. Job 1 – Testing the Codebase:
+##### 2. Job 1 - Testing the Codebase:
 
 The first job in the pipeline, Test, ensures the codebase is functional and error-free before proceeding with delivery or deployment
 
-##### 3. Job 2 – Building and Deploying the Application:
+##### 3. Job 2 - Building and Deploying the Application:
 
 Aha! Moment ✨: These jobs run sequentially. 😃 The **Build** job begins only after the **Test** job is completed successfully. It prepares the application for deployment and manages the actual deployment process.
 
@@ -617,7 +617,7 @@ Once you’re logged into Docker Hub, click on your profile picture (or avatar) 
 
 Then in the left-hand menu of your account settings, scroll to the **"Security"** tab. This section is where you manage your tokens and passwords.
 
-Now you’ll need to create a new access token. In the Security tab, you’ll see a link labelled **“Personal access tokens”** – click on it. Click the button labelled **“Generate new token”**.
+Now you’ll need to create a new access token. In the Security tab, you’ll see a link labelled **“Personal access tokens”** - click on it. Click the button labelled **“Generate new token”**.
 
 You’ll be asked to give your token a description. You can name it something like "GitHub Actions CI/CD" so that you know what it's for.
 
@@ -827,7 +827,7 @@ To add a new key:
 
 Now, download the key file. A JSON file will automatically be downloaded to your computer. This file contains the credentials needed to authenticate with Google Cloud.
 
-Make sure you keep the key secure and store it in a safe location. Don’t share it – treat it as sensitive information.
+Make sure you keep the key secure and store it in a safe location. Don’t share it - treat it as sensitive information.
 
 ### Step 6: Add the Service Account Key to GitHub Secrets 🔒
 
@@ -1003,7 +1003,7 @@ This will allow you to monitor the status of the CD pipeline and check if there 
 
 If you look at the CD steps and workflow, you'll see that the step to deploy the application to the **production** environment was skipped, while the step to deploy to the **staging** environment was executed.
 
-#### Continuous Delivery (CD) pipeline – what’s going on:
+#### Continuous Delivery (CD) pipeline - what’s going on:
 
 The **Continuous Delivery (CD) Pipeline** automates the process of deploying the application to Google Cloud Run (testing environment). This workflow is triggered by a push to the <FontIcon icon="fas fa-code-branch"/>`staging` branch, which happens after the changes from the feature branch are merged into <FontIcon icon="fas fa-code-branch"/>`staging`. It can also be manually triggered via `workflow_dispatch` or upon a new release being published.
 
@@ -1123,7 +1123,7 @@ Navigate to **Cloud Run** from the menu. Select the service corresponding to the
 
 Locate the **Service URL** in the service details page. Open the URL in your browser to access the live application.
 
-And now, congratulations – you’re done!
+And now, congratulations - you’re done!
 
 ---
 

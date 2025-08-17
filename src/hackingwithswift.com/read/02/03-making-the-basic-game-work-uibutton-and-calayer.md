@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/XXqrQvWpVzE" />
 
-We're going to create an array of strings that will hold all the countries that will be used for our game, and at the same time we're going to create another property that will hold the player's current score – it's a game, after all!
+We're going to create an array of strings that will hold all the countries that will be used for our game, and at the same time we're going to create another property that will hold the player's current score - it's a game, after all!
 
 Let's start with the new properties. Add these two lines directly beneath the `@IBOutlet` lines you added earlier in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
@@ -62,7 +62,7 @@ var countries = [String]()
 var score = 0
 ```
 
-The first line is something you saw in project 1: it creates a new property called `countries` that will hold a new array of strings. The second one creates a new property called `score` that is set to 0. As you’ve seen previously, Swift’s type inference works wonders here – it figures out what data type a variable or constant should be based on what we put into it. 
+The first line is something you saw in project 1: it creates a new property called `countries` that will hold a new array of strings. The second one creates a new property called `score` that is set to 0. As you’ve seen previously, Swift’s type inference works wonders here - it figures out what data type a variable or constant should be based on what we put into it. 
 
 We're going to be putting all this into practice over the next few minutes. First, let's fill our countries array with the flags we have, so add this code inside the `viewDidLoad()` method:
 
@@ -104,7 +104,7 @@ The first line is easy enough: we're declaring a new method called `askQuestion(
 - `button1.setImage()` assigns a `UIImage` to the button. We have the US flag in there right now, but this will change it when `askQuestion()` is called.
 - `for: .normal` The `setImage()` method takes a second parameter that describes which state of the button should be changed. We're specifying `.normal`, which means "the standard state of the button."
 
-That `.normal` parameter looks like an enum, but it’s actually a static property of a struct called `UIControlState`. In Objective-C – the language UIKit was written in – it’s an enum, but in Swift it gets mapped to a struct that just happens to be *used* like an enum, so if you want to be technically correct it’s not a true enum in Swift. At this point in your Swift career there is no difference, but let’s face it: “technically correct” is the best kind of correct.
+That `.normal` parameter looks like an enum, but it’s actually a static property of a struct called `UIControlState`. In Objective-C - the language UIKit was written in - it’s an enum, but in Swift it gets mapped to a struct that just happens to be *used* like an enum, so if you want to be technically correct it’s not a true enum in Swift. At this point in your Swift career there is no difference, but let’s face it: “technically correct” is the best kind of correct.
 
 ![This is how your code should look at this point.](https://hackingwithswift.com/img/books/hws/2-11@2x.png)
 
@@ -139,9 +139,9 @@ Remember how points and pixels are different things? In this case, our border wi
 
 By default, the border of `CALayer` is black, but you can change that if you want by using the `UIColor` data type. I said that `CALayer` brings with it a little more complexity, and here's where it starts to be visible: `CALayer` sits at a lower technical level than `UIButton`, which means it doesn't understand what a `UIColor` is. `UIButton` knows what a `UIColor` is because they are both at the same technical level, but `CALayer` is below `UIButton`, so `UIColor` is a mystery.
 
-Don't despair, though: `CALayer` has its own way of setting colors called `CGColor`, which comes from Apple's Core Graphics framework. This, like `CALayer`, is at a lower level than `UIButton`, so the two can talk happily – again, as long as you're happy with the extra complexity.
+Don't despair, though: `CALayer` has its own way of setting colors called `CGColor`, which comes from Apple's Core Graphics framework. This, like `CALayer`, is at a lower level than `UIButton`, so the two can talk happily - again, as long as you're happy with the extra complexity.
 
-Even better, `UIColor` (which sits above `CGColor`) is able to convert to and from `CGColor` easily, which means you don't need to worry about the complexity – hurray!
+Even better, `UIColor` (which sits above `CGColor`) is able to convert to and from `CGColor` easily, which means you don't need to worry about the complexity - hurray!
 
 So, let's put all that together into some code that changes the border color using `UIColor` and `CGColor` together. Put these three just below the three `borderWidth` lines in `viewDidLoad()`:
 
@@ -161,5 +161,5 @@ UIColor(red: 1.0, green: 0.6, blue: 0.2, alpha: 1.0).cgColor
 
 You need to specify four values: red, green, blue and alpha, each of which should range from 0 (none of that color) to 1.0 (all of that color). The code above generates an orange color, then converts it to a `CGColor` so it can be assigned to a `CALayer`'s `borderColor` property.
 
-That's enough with the styling, I think – if you run the app now it should look better.
+That's enough with the styling, I think - if you run the app now it should look better.
 

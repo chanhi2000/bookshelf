@@ -77,11 +77,11 @@ struct ContentView: View {
 
 ::: important
 
-Apple hasn’t documented this because, well, *Apple*, but I would imagine this works the same as the older UIKit equivalent where this is a *request* to show the review dialog – there’s a good chance it will do nothing, because the system doesn’t want to spam the user with messages.
+Apple hasn’t documented this because, well, *Apple*, but I would imagine this works the same as the older UIKit equivalent where this is a *request* to show the review dialog - there’s a good chance it will do nothing, because the system doesn’t want to spam the user with messages.
 
 :::
 
-So, even though I’ve just shown you a code example using a button, please be much smarter in your own projects: wait until the user has used your app successfully quite a few times so they are happy, then call `requestReview()` in a way that is *not* in response to a button press – remember, it might do nothing at all.
+So, even though I’ve just shown you a code example using a button, please be much smarter in your own projects: wait until the user has used your app successfully quite a few times so they are happy, then call `requestReview()` in a way that is *not* in response to a button press - remember, it might do nothing at all.
 
 ::: details Similar solutions…
 

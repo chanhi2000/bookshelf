@@ -75,7 +75,7 @@ The following sections explore each method’s implementation details, advantage
 
 A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems uniquely. Standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE), UUIDs are essential for ensuring that identifiers are unique within a single system and across multiple systems worldwide.
 
-Version 4 UUIDs (UUID v4) are generated using random numbers. This randomness provides a very low probability of generating duplicate UUIDs, making them ideal for applications that require unique identifiers without central coordination. A typical UUID v4 is represented as a string of five groups of hexadecimal digits separated by hyphens, following the pattern 8–4–4–4–12. For example:
+Version 4 UUIDs (UUID v4) are generated using random numbers. This randomness provides a very low probability of generating duplicate UUIDs, making them ideal for applications that require unique identifiers without central coordination. A typical UUID v4 is represented as a string of five groups of hexadecimal digits separated by hyphens, following the pattern 8-4-4-4-12. For example:
 
 ```plaintext title="uuid"
 f47ac10b-58cc-4372-a567-0e02b2c3d479

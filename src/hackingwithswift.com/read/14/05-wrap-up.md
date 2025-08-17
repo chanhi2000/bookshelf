@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,7 +56,7 @@ isOriginal: false
 
 You have another game under your belt, and I hope your brain is already starting to bubble up ideas for things you can do to improve it. Plus, you learned more skills, not least `SKCropNode`, `SKTexture`, GCD's `asyncAfter()`, plus lots of new `SKAction` types, so it's all time well spent.
 
-Try experimenting with the difficulty and see what you come up with – is it easier or harder if the penguin show/hide animation happens at random speeds?
+Try experimenting with the difficulty and see what you come up with - is it easier or harder if the penguin show/hide animation happens at random speeds?
 
 ---
 
@@ -66,7 +66,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 14: Whack-a-Penguin – Hacking with Swift",
+  "title": "Review - Project 14: Whack-a-Penguin - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-14-whack-a-penguin",
   "logo": "https://hackingwithswift.com/favicon.svg",

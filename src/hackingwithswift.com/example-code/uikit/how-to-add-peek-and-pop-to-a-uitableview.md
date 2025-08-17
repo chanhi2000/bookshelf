@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Peek and pop are features of 3D Touch that let users press hard on something to 
 
 First, the trivial case: if you’re using storyboards and segues, Xcode can do all the work for you. If you want to see how easy it is, create a new iOS app using the Master-Detail project template, then open Main.storyboard. Find the Show Detail segue that moves from the table view to the detail view, then check the box marked “Preview & Commit Segues” in the attributes inspector.
 
-That’s it: iOS will automatically make peek and pop code for that segue – you can press hard on a table view cell to bring up the detail controller as a preview, then press harder to make it full screen. (Note: if you’re using the simulator this isn’t easy to do – try using a real device!)
+That’s it: iOS will automatically make peek and pop code for that segue - you can press hard on a table view cell to bring up the detail controller as a preview, then press harder to make it full screen. (Note: if you’re using the simulator this isn’t easy to do - try using a real device!)
 
 If you’re *not* using segues you need to write some code yourself. First, make your view controller conform to `UIViewControllerPreviewingDelegate` so that you’re able to respond to previewing requests correctly. Second, you need to tell the system we want to support previewing by calling `registerForPreviewing()` in your `viewDidLoad()` method:
 
@@ -101,7 +101,7 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 
 Now for the important part: filling in the peek and pop methods.
 
-You need to write a `viewControllerForLocation` method, which gets called with whatever location on the screen the user touched. You can pass that straight to the table view to ask it what row is at that location, then tell the previewing context to use that row as its source rect – iOS will cause that row to zoom up while the others get blurred. Finally you can return the correct view controller, but if no cell was tapped you need to return `nil` instead so that no 3D Touch effect happens.
+You need to write a `viewControllerForLocation` method, which gets called with whatever location on the screen the user touched. You can pass that straight to the table view to ask it what row is at that location, then tell the previewing context to use that row as its source rect - iOS will cause that row to zoom up while the others get blurred. Finally you can return the correct view controller, but if no cell was tapped you need to return `nil` instead so that no 3D Touch effect happens.
 
 Here’s how that looks in code:
 
@@ -116,7 +116,7 @@ func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewCont
 }
 ```
 
-As for the pop effect, that’s just one line of code inside a `commit` method. You’ll be given the view controller that’s currently being peeked, so your method just needs to decide how to present it. For example, if you’re using a navigation controller you probably want to call `pushViewController()` here – iOS will automatically convert that into a pop zoom animation with bounce effect, but the end result will be a pushed view controller so you can go back like normal.
+As for the pop effect, that’s just one line of code inside a `commit` method. You’ll be given the view controller that’s currently being peeked, so your method just needs to decide how to present it. For example, if you’re using a navigation controller you probably want to call `pushViewController()` here - iOS will automatically convert that into a pop zoom animation with bounce effect, but the end result will be a pushed view controller so you can go back like normal.
 
 Here’s that in Swift:
 
@@ -126,7 +126,7 @@ func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit v
 }
 ```
 
-That’s all the code – it’s not really that hard to do, and UIKit makes the result look great.
+That’s all the code - it’s not really that hard to do, and UIKit makes the result look great.
 
 -->
 

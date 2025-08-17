@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,16 +57,16 @@ It should come as no surprise that Apple considers a user's location to be priva
 
 You might think that you'd only ever want location access when your app is running. After all, what's the point in asking for information when your app isn't around to use it?
 
-There are times you'll want both. For example, if you're creating a map app that shows users how to get from their current location to your nearest store, you'll only need their location when the app is being used. But if you're creating an app that needs to be woken up when the user reaches a location, then you'll need access even when the app isn't running – iOS monitors the user's location on your behalf and automatically starts your app as needed.
+There are times you'll want both. For example, if you're creating a map app that shows users how to get from their current location to your nearest store, you'll only need their location when the app is being used. But if you're creating an app that needs to be woken up when the user reaches a location, then you'll need access even when the app isn't running - iOS monitors the user's location on your behalf and automatically starts your app as needed.
 
 Using location when the app isn’t running is of course highly sensitive information, so Apple flags it up in three ways:
 
 1. If you request Always access, users will still get the chance to choose When In Use.
 2. If they choose Always, iOS will automatically ask them again after a few days to confirm they still want to grant Always access.
-3. When your app is using location data in the background the iOS UI will update to reflect that – users will know it’s happening.
+3. When your app is using location data in the background the iOS UI will update to reflect that - users will know it’s happening.
 4. Users can, at any point, go into the settings app and change from Always down to When In Use.
 
-In this app we’re going to request Always access so that our app can detect beacons in the background. Requesting location access requires a change to your apps Info.plist file, which is the property list file we first met way back in project 3. We need to add to that file the reason why we want the user’s location – a string that will be shown in the iOS UI when the user is being asked to accept or decline our request.
+In this app we’re going to request Always access so that our app can detect beacons in the background. Requesting location access requires a change to your apps Info.plist file, which is the property list file we first met way back in project 3. We need to add to that file the reason why we want the user’s location - a string that will be shown in the iOS UI when the user is being asked to accept or decline our request.
 
 Because of the rules above, we need to add two keys: “Privacy - Location Always and When In Use Usage Description” and “Privacy - Location When In Use Usage Description”. So, please add them both now, make sure their types are set to String, then in the value fields enter some text to explain to users *why* you want their location. For example, "We want to help you find your nearest store." When your user is prompted to grant location access, this text will be shown alongside Apple's own descriptive message.
 

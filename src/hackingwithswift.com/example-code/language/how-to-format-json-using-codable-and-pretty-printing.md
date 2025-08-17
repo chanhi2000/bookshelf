@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-When you use `JSONEncoder` and `Codable` to create JSON from your Swift data, it comes out in a compressed format by default – it has all its excess whitespace removed. This makes it efficient for transferring over the network, but hard to debug because it’s just a big jumble of words.
+When you use `JSONEncoder` and `Codable` to create JSON from your Swift data, it comes out in a compressed format by default - it has all its excess whitespace removed. This makes it efficient for transferring over the network, but hard to debug because it’s just a big jumble of words.
 
 For debugging purposes, it’s a good idea to enable pretty printing for your encoded JSON, which will tell `JSONEncoder` to separate everything using line breaks and spaces so you can read it more easily.
 

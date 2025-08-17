@@ -63,7 +63,7 @@ So here, we’ll explore a range of options that can help you select a database 
 
 ## Types of Data According to Structure
 
-First, the most relevant factor in determining a database's paradigm in a project is the data itself – particularly its complexity. Data complexity is defined by its structure, variability, and internal relationships. This mainly determines how the data is stored and processed.
+First, the most relevant factor in determining a database's paradigm in a project is the data itself - particularly its complexity. Data complexity is defined by its structure, variability, and internal relationships. This mainly determines how the data is stored and processed.
 
 So, before analyzing the different paradigms or approaches available, you should understand the meaning of [<FontIcon icon="fas fa-globe"/>data complexity](https://acceldata.io/blog/data-complexity).
 
@@ -130,7 +130,7 @@ As previously mentioned, the data volume has an impact on almost every database 
 
 Finally, databases are expected to have low [<FontIcon icon="fa-brands fa-aws"/>latency](https://aws.amazon.com/what-is/latency/?nc1=h_ls) when performing operations, since the speed at which users are served is often determined by the latency of these operations. Also, as the number of users is usually large, the database must support concurrency.
 
-But the persistent storage operations conducted during these processes – plus the mutual exclusion locks that ensure [<FontIcon icon="fas fa-globe"/>concurrency](https://geeksforgeeks.org/dbms/concurrency-control-in-dbms/) (and compliance with ACID principles) – slow down data processing. As a result, [<FontIcon icon="fa-brands fa-aws"/>in-memory database](https://aws.amazon.com/nosql/in-memory/) implementations are frequently preferred to mitigate this issue. In addition to saving data in persistent storage, these implementations use **RAM memory** as a cache to store some of the data and respond to queries more quickly, achieving a close-to-real-time latency.
+But the persistent storage operations conducted during these processes - plus the mutual exclusion locks that ensure [<FontIcon icon="fas fa-globe"/>concurrency](https://geeksforgeeks.org/dbms/concurrency-control-in-dbms/) (and compliance with ACID principles) - slow down data processing. As a result, [<FontIcon icon="fa-brands fa-aws"/>in-memory database](https://aws.amazon.com/nosql/in-memory/) implementations are frequently preferred to mitigate this issue. In addition to saving data in persistent storage, these implementations use **RAM memory** as a cache to store some of the data and respond to queries more quickly, achieving a close-to-real-time latency.
 
 So despite being the simplest and most effective at modeling everyday problems, structured databases have certain disadvantages. These have led to the development of alternative database models and approaches. Each of these models attempts to address a specific issue with structured databases, providing support for more complex data and more technically challenging requirements.
 
@@ -160,7 +160,7 @@ It’s worth noting that, for a project to be considered Big Data, there are no 
 
 The first is volume. As we’ve already discussed, the volume of data refers to the amount of data generated and stored within a given project. The more data that’s generated and stored, the more likely the project is to be categorized as Big Data. Still, there is no specific amount that defines this distinction, as it also depends on other factors, including the availability and complexity of the data.
 
-The next is velocity. This is the rate at which data is generated and must be processed. For example, in a project consisting of a social network or an IoT device network, data may be generated at a very high velocity – that is, a large amount of data per unit of time. This data must be processed as quickly as possible. This means that the faster the data is generated, the more likely it is to be considered part of the Big Data ecosystem.
+The next is velocity. This is the rate at which data is generated and must be processed. For example, in a project consisting of a social network or an IoT device network, data may be generated at a very high velocity - that is, a large amount of data per unit of time. This data must be processed as quickly as possible. This means that the faster the data is generated, the more likely it is to be considered part of the Big Data ecosystem.
 
 The last main factor is variety, also called data heterogeneity. This means the more heterogeneous the data, the more difficult it is to process. This requires greater computing power, which makes the project more likely to be considered Big Data.
 
@@ -173,7 +173,7 @@ These are the main factors, although more have been added over time thanks to te
 - **Veracity**: Degree of reliability of the information received in terms of data quality and accuracy, in order to avoid decisions based on incorrect or biased information.
 - **Viability:** The degree to which the data can be effectively used in the project, as sometimes their volume or other factors make their processing technically unfeasible.
 - **Visualization:** It's the ease with which data can be transformed into understandable dashboards for users, allowing them to explore it intuitively.
-- **Value:** The expected value to be obtained from processing the data. Generally, it's economic value, although it doesn't need to be economic – it mainly depends on the application domain.
+- **Value:** The expected value to be obtained from processing the data. Generally, it's economic value, although it doesn't need to be economic - it mainly depends on the application domain.
 - **Viscosity:** This is the significance that data have in decision-making. Not the value added by their processing, but the relevance they have when making a decision.
 
 In summary, although volume is one of the key factors determining whether a problem or project is considered Big Data, it’s not the only one. The speed at which data is generated and the heterogeneity of the data require a large amount of computation to process it, which is the primary issue that led to the concept of Big Data.
@@ -184,7 +184,7 @@ In summary, although volume is one of the key factors determining whether a prob
 
 The first model or database approach we’ll examine is [<FontIcon icon="iconfont icon-gcp"/>NoSQL](https://cloud.google.com/discover/what-is-nosql?hl=en). Its name indicates that these databases aren’t only structured, but also that the data can vary in structure.
 
-The main characteristic of this database approach is its **flexibility** in storing data – it doesn’t force data to adhere to a fixed schema, such as a tabular one. They also focus on offering easy **horizontal scalability**, which allows the computational capacity of the database to be expanded by increasing the number of machines. This makes them efficient at processing complex, large-volume data and thus supporting Big Data problems.
+The main characteristic of this database approach is its **flexibility** in storing data - it doesn’t force data to adhere to a fixed schema, such as a tabular one. They also focus on offering easy **horizontal scalability**, which allows the computational capacity of the database to be expanded by increasing the number of machines. This makes them efficient at processing complex, large-volume data and thus supporting Big Data problems.
 
 To understand what they entail in practice, we could consider a use case involving a database for a bicycle rental system, that lets users rent bicycles through a subscription.
 
@@ -268,14 +268,14 @@ Finally, it’s important to emphasize that, in this model, the documents are se
 
 ### Column-oriented model
 
-This model is similar to the **structured** model (the one used in relational databases) where information is stored in tables – but instead of each data point being kept in a row, it’s stored in a [<FontIcon icon="fas fa-globe"/>column](https://geeksforgeeks.org/dbms/columnar-data-model-of-nosql/). For example, in our use case, we could have:
+This model is similar to the **structured** model (the one used in relational databases) where information is stored in tables - but instead of each data point being kept in a row, it’s stored in a [<FontIcon icon="fas fa-globe"/>column](https://geeksforgeeks.org/dbms/columnar-data-model-of-nosql/). For example, in our use case, we could have:
 
 | **Attribute** | bike1 | bike2 | bike3 |
 | --- | --- | --- | --- |
 | **model** | model1 | model2 | model3 |
 | **status** | available | in_use | maintenance |
-| **sensor_cadence** | – | 85 | – |
-| **sensor_speed** | – | 24.5 | – |
+| **sensor_cadence** | - | 85 | - |
+| **sensor_speed** | - | 24.5 | - |
 
 In this type of database, the points are still rows in a table. But the items that the management system considers to compose the table aren’t the rows, but the columns.
 
@@ -297,7 +297,7 @@ This model is characterized by its support for analysis and big data projects si
 
 ## Data Warehousing
 
-Apart from the different options offered by the NoSQL model, you may have other needs that require different types of models. NoSQL is currently focused primarily on efficient data storage and querying. It’s especially useful in projects where data generation is the bottleneck – that is, a system that specializes in storing data is needed.
+Apart from the different options offered by the NoSQL model, you may have other needs that require different types of models. NoSQL is currently focused primarily on efficient data storage and querying. It’s especially useful in projects where data generation is the bottleneck - that is, a system that specializes in storing data is needed.
 
 Conversely, other projects, especially those related to organizations, require a system that not only stores data efficiently but also manages the difficulty of extracting strategic information, as data lacks value on its own. The [<FontIcon icon="fas fa-globe"/>Warehousing model](https://geeksforgeeks.org/dbms/data-warehousing/) offers support for the centralization, organization, and subsequent transformation of data into knowledge that guides decision-making.
 
@@ -395,7 +395,7 @@ Some basic navigation and aggregation [<FontIcon icon="iconfont icon-ibm"/>opera
 
 ## Data Lakes
 
-In addition to the Warehousing model, we have [<FontIcon icon="iconfont icon-gcp"/>Data Lakes](https://cloud.google.com/learn/what-is-a-data-lake?hl=en), which are like Warehouses where data is not stored following a common schema but is kept as it stems from its respective sources. That is, to populate a Warehouse with data, ETL components are needed to transform and adapt it to a **schema**. But with a data lake, such components do not exist because there is no schema that the data must follow – instead, it’s simply stored in its original format and structure.
+In addition to the Warehousing model, we have [<FontIcon icon="iconfont icon-gcp"/>Data Lakes](https://cloud.google.com/learn/what-is-a-data-lake?hl=en), which are like Warehouses where data is not stored following a common schema but is kept as it stems from its respective sources. That is, to populate a Warehouse with data, ETL components are needed to transform and adapt it to a **schema**. But with a data lake, such components do not exist because there is no schema that the data must follow - instead, it’s simply stored in its original format and structure.
 
 The main reason for this is that a Data Lake aims to analyze the data, while a Warehouse aims to integrate the data through transformations to turn it into knowledge that supports high-level [<FontIcon icon="fas fa-globe"/>business decision analysis](https://revealbi.io/blog/data-warehousing).
 
@@ -415,7 +415,7 @@ While a simple HTML document serves to structure a series of data at the **layou
 
 This technology is based on a series of components:
 
-- **RDF (Resource Description Framework):** A [<FontIcon icon="fa-brands fa-wikipedia-w"/>standard](https://en.wikipedia.org/wiki/Resource_Description_Framework) where information is represented through [<FontIcon icon="fa-brands fa-stack-overflow"/>Subject – Predicate – Object](https://stackoverflow.com/questions/273218/whats-a-rdf-triple) triples, where the subject is usually a resource or entity within the domain, the predicate is an attribute or relationship that the entity has with a value, which is the object of the triple. This way of representing information is easily understandable by people and easily processed by machines, being independent of the language used to manage the triples (such as **XML** or **Turtle**).
+- **RDF (Resource Description Framework):** A [<FontIcon icon="fa-brands fa-wikipedia-w"/>standard](https://en.wikipedia.org/wiki/Resource_Description_Framework) where information is represented through [<FontIcon icon="fa-brands fa-stack-overflow"/>Subject - Predicate - Object](https://stackoverflow.com/questions/273218/whats-a-rdf-triple) triples, where the subject is usually a resource or entity within the domain, the predicate is an attribute or relationship that the entity has with a value, which is the object of the triple. This way of representing information is easily understandable by people and easily processed by machines, being independent of the language used to manage the triples (such as **XML** or **Turtle**).
 
 ```xml
 <http://example.org/users/user1> domain:name "Juan"
@@ -440,7 +440,7 @@ This technology is based on a series of components:
 
 ```component VPCard
 {
-  "title": "The Music Ontology – Getting started",
+  "title": "The Music Ontology - Getting started",
   "desc": "Below are a few typical examples of using the Music Ontology, in three different syntaxes: RDFa in HTML for embedding music-related data on a web page, and JSON-LD and Turtle for exposing music-related data as part of an API.",
   "link": "http://musicontology.com/docs/getting-started.html/",
   "logo": "",

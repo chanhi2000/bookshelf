@@ -65,14 +65,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745329406033/4d3cb01
 
 <SiteInfo
   name="How to Use PostgreSQL in Django"
-  desc="If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django. I’ve used it across multiple projects – from small web apps ..."
+  desc="If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django. I’ve used it across multiple projects - from small web apps ..."
   url="https://freecodecamp.org/news/how-to-use-postgresql-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745329406033/4d3cb010-d612-4ca8-8039-2d922e8b0337.png"/>
 
 If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django.
 
-I’ve used it across multiple projects – from small web apps to large-scale platforms – and it never disappoints.
+I’ve used it across multiple projects - from small web apps to large-scale platforms - and it never disappoints.
 
 In this post, I’ll walk you through how to connect PostgreSQL with Django step-by-step.
 
@@ -112,7 +112,7 @@ Here is how to get started:
 
 If you haven’t installed PostgreSQL yet, you can grab it from the [<FontIcon icon="iconfont icon-postgresql"/>official PostgreSQL website](https://postgresql.org/download/). It works on Windows, macOS, and Linux.
 
-Make sure you remember the username, password, and database name when you set it up – you’ll need those later.
+Make sure you remember the username, password, and database name when you set it up - you’ll need those later.
 
 ### Step 2: Install the PostgreSQL Adapter for Python
 
@@ -201,7 +201,7 @@ Follow the prompts, then run:
 python manage.py runserver
 ```
 
-Open your browser and go to `http://127.0.0.1:8000/admin`. Log in with your superuser account. You’ll be in the Django admin dashboard – and yes, all of this is backed by PostgreSQL now!
+Open your browser and go to `http://127.0.0.1:8000/admin`. Log in with your superuser account. You’ll be in the Django admin dashboard - and yes, all of this is backed by PostgreSQL now!
 
 ---
 
@@ -249,7 +249,7 @@ For learning or small projects, SQLite is fine. But for serious apps with lots o
 
 ::: details Do I need to install PostgreSQL on my production server?
 
-Yes – unless you’re using a hosted PostgreSQL solution like [<FontIcon icon="fa-brands fa-aws"/>Amazon RDS](https://aws.amazon.com/rds/postgresql/), [<FontIcon icon="fas fa-globe"/>Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql), or [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
+Yes - unless you’re using a hosted PostgreSQL solution like [<FontIcon icon="fa-brands fa-aws"/>Amazon RDS](https://aws.amazon.com/rds/postgresql/), [<FontIcon icon="fas fa-globe"/>Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql), or [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
 
 :::
 
@@ -304,7 +304,7 @@ If you want to dive deeper, here are a few links I recommend:
 ```component VPCard
 {
   "title": "How to Use PostgreSQL in Django",
-  "desc": "If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django. I’ve used it across multiple projects – from small web apps ...",
+  "desc": "If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django. I’ve used it across multiple projects - from small web apps ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-postgresql-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -80,7 +80,7 @@ Text("Hello World")
 
 ![The words “Hello World” in white over a gradient fading from white at the top to black at the bottom.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-render-a-gradient-1~dark.png)
 
-The colors are specified as an array and you can have as many as you want – by default SwiftUI will space them equally. So, we could go from white to red to black like this:
+The colors are specified as an array and you can have as many as you want - by default SwiftUI will space them equally. So, we could go from white to red to black like this:
 
 ```swift
 Text("Hello World")

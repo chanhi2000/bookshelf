@@ -66,12 +66,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744814746615/7262629
 
 <SiteInfo
   name="How to Build RAG AI Agents with TypeScript"
-  desc="The most powerful AI systems don’t just generate – they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, an..."
+  desc="The most powerful AI systems don’t just generate - they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, an..."
   url="https://freecodecamp.org/news/how-to-build-rag-ai-agents-with-typescript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744814746615/72626297-def9-466a-8c1a-2cdb1b411300.png"/>
 
-The most powerful AI systems don’t just generate – they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, and context-aware AI systems.
+The most powerful AI systems don’t just generate - they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, and context-aware AI systems.
 
 In this guide, you'll build a RAG-based AI agent in TypeScript using [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk). You'll plug in your own data as memory, use any embedding model, retrieve relevant context, and call an LLM to generate a precise response.
 
@@ -88,9 +88,9 @@ Before we begin creating a RAG-based AI agent, you’ll need to have some tools 
 
 In this tutorial, I’ll be using the following tech stack:
 
-- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com/) – the platform to build and deploy your serverless AI agents.
-- [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk) – a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
-- [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) – to get the LLM key for the preferred model.
+- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com/) - the platform to build and deploy your serverless AI agents.
+- [<FontIcon icon="fas fa-globe"/>Langbase SDK](https://langbase.com/docs/sdk) - a TypeScript AI SDK, designed to work with JavaScript, TypeScript, Node.js, Next.js, React, and the like.
+- [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) - to get the LLM key for the preferred model.
 
 :::
 
@@ -111,13 +111,13 @@ Here’s the tabular comparison of RAG vs Agentic RAG:
 
 | **Feature**  | RAG | Agentic RAG |
 | ---: | :--- | :--- |
-| Task Complexity | Simple query tasks – no complex decision-making | Handles complex, multi-step tasks using multiple tools and agents |
-| Decision-Making | Limited – no autonomy | Agents decide what to retrieve, how to grade, reason, reflect, and generate |
+| Task Complexity | Simple query tasks - no complex decision-making | Handles complex, multi-step tasks using multiple tools and agents |
+| Decision-Making | Limited - no autonomy | Agents decide what to retrieve, how to grade, reason, reflect, and generate |
 | Multi-Step Reasoning | Single-step queries and responses only | Supports multi-step reasoning with retrieval, grading, filtering, and evaluation |
 | Key Role | LLM + external data for answers | Adds intelligent agents for retrieval, generation, critique, and orchestration |
 | Real-Time Data Retrieval | Not supported | Built for real-time retrieval and dynamic integration |
 | Retrieval Integration | Static, pre-defined vector databases | Agents dynamically retrieve from diverse and flexible sources |
-| Context Awareness | Static context – no runtime adaptability | High – agents adapt to queries, pull relevant context, and fetch live data if needed |
+| Context Awareness | Static context - no runtime adaptability | High - agents adapt to queries, pull relevant context, and fetch live data if needed |
 
 ---
 
@@ -206,7 +206,7 @@ Let’s now use the Langbase SDK to create an AI memory (Langbase memory agent) 
 
 These agents combine vector storage, RAG, and internet access to create a powerful managed context search API. You can use them to build smarter, more capable AI applications.
 
-In a RAG setup, memory – when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) – becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers – addressing the limitations of LLMs when it comes to handling private data.
+In a RAG setup, memory - when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) - becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers - addressing the limitations of LLMs when it comes to handling private data.
 
 To create it, add the following code to <FontIcon icon="iconfont icon-typescript"/>`create-memory.ts` file you created in Step 1:
 
@@ -315,7 +315,7 @@ Let’s break down what’s happening in this code:
 - Each upload includes metadata like `category` and `topic` to help organize the content.
 - Upload success or failure is logged to the console.
 
-This step ensures your AI agent will have actual content to pull from – FAQs, architecture docs, or anything else you upload into memory.
+This step ensures your AI agent will have actual content to pull from - FAQs, architecture docs, or anything else you upload into memory.
 
 Then, run the <FontIcon icon="iconfont icon-typescript"/>`upload-docs.ts` file to upload the documents to the AI memory by this command in your terminal. This will upload the documents to the AI memory:
 
@@ -707,7 +707,7 @@ Thank you for reading!
 ```component VPCard
 {
   "title": "How to Build RAG AI Agents with TypeScript",
-  "desc": "The most powerful AI systems don’t just generate – they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, an...",
+  "desc": "The most powerful AI systems don’t just generate - they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, an...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-rag-ai-agents-with-typescript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

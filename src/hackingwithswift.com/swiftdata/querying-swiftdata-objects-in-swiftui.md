@@ -119,7 +119,7 @@ func addSamples() {
 }
 ```
 
-That creates some instances of our `Destination` model, but Swift will warn us that they aren’t used – we are creating them, but we aren't actually telling SwiftData to store them.
+That creates some instances of our `Destination` model, but Swift will warn us that they aren’t used - we are creating them, but we aren't actually telling SwiftData to store them.
 
 To do that we need to learn an important SwiftData concept called the *model context*, which has the job of tracking all objects that are currently being used by our app. That's not *every* object, because it would be terrifically inefficient to load everything all at once. Instead, it's just objects that we're actively using right now.
 
@@ -139,7 +139,7 @@ modelContext.insert(florence)
 modelContext.insert(naples)
 ```
 
-Run the app again then press Add Samples, and you should see the new destinations appear in our list – it works! Even better, if you go back to Xcode and press <kbd>Cmd</kbd>+<kbd>R</kbd> again to relaunch the app, you’ll see they are still there, because SwiftData automatically saved them for us.
+Run the app again then press Add Samples, and you should see the new destinations appear in our list - it works! Even better, if you go back to Xcode and press <kbd>Cmd</kbd>+<kbd>R</kbd> again to relaunch the app, you’ll see they are still there, because SwiftData automatically saved them for us.
 
 This autosave behavior is enabled by default: as soon as our button code finishes executing SwiftData will save all our changes to its permanent storage, so our data is always safe.
 

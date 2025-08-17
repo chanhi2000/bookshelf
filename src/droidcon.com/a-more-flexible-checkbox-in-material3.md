@@ -214,7 +214,7 @@ Preview of 2 states — New API
 
 ###### Stay in touch
 
-[navczydev.bsky.social](https://bsky.app/profile/navczydev.bsky.social?source=post_page-----378edc1f9aca--------------------------------------- "navczydev.bsky.social")[Nav Singh (@navczydev@androiddev.social)](https://androiddev.social/@navczydev?source=post_page-----378edc1f9aca--------------------------------------- "Nav Singh (@navczydev@androiddev.social)")[navczydev – Overview](https://github.com/navczydev?source=post_page-----378edc1f9aca--------------------------------------- "navczydev - Overview")[x.com](https://x.com/navczydev?source=post_page-----378edc1f9aca--------------------------------------- "x.com")
+[navczydev.bsky.social](https://bsky.app/profile/navczydev.bsky.social?source=post_page-----378edc1f9aca--------------------------------------- "navczydev.bsky.social")[Nav Singh (@navczydev@androiddev.social)](https://androiddev.social/@navczydev?source=post_page-----378edc1f9aca--------------------------------------- "Nav Singh (@navczydev@androiddev.social)")[navczydev - Overview](https://github.com/navczydev?source=post_page-----378edc1f9aca--------------------------------------- "navczydev - Overview")[x.com](https://x.com/navczydev?source=post_page-----378edc1f9aca--------------------------------------- "x.com")
 
 ###### References
 

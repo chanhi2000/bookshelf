@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/t0l0-Kx_4l0" />
 
-There’s a lot more you can do with notifications, but chances are the thing you *most* want to do is act on the user’s response – to show one or more options alongside your alert, then respond to the user’s choice.
+There’s a lot more you can do with notifications, but chances are the thing you *most* want to do is act on the user’s response - to show one or more options alongside your alert, then respond to the user’s choice.
 
 We already set the `categoryIdentifier` property for our notification, which is a text string that identifies a type of alert. We can now use that same text string to create buttons for the user to choose from, and iOS will show them when any notifications of that type are shown.
 
@@ -95,13 +95,13 @@ You can call `registerCategories()` wherever you want, but in this project the s
 
 Now that we have registered the “alarm” category with a single button, the last thing to do is implement the `didReceive` method for the notification center. This is triggered on our view controller because we’re the center’s delegate, so it’s down to us to decide how to handle the notification.
 
-We attached some customer data to the `userInfo` property of the notification content, and this is where it gets handed back – it’s your chance to link the notification to whatever app content it relates to.
+We attached some customer data to the `userInfo` property of the notification content, and this is where it gets handed back - it’s your chance to link the notification to whatever app content it relates to.
 
 When the user acts on a notification  you can read its `actionIdentifier` property to see what they did. We have a single button with the “show” identifier, but there’s also `UNNotificationDefaultActionIdentifier` that gets sent when the user swiped on the notification to unlock their device and launch the app.
 
 So: we can pull out our user info then decide what to do based on what the user chose. The method also accepts a completion handler closure that you should call once you’ve finished doing whatever you need to do. This might be much later on, so it’s marked with the `@escaping` keyword.
 
-Here’s the code – add this method to `ViewController` now:
+Here’s the code - add this method to `ViewController` now:
 
 ```swift
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -130,5 +130,5 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 }
 ```
 
-Our project now creates notifications, attaches them to categories so you can create action buttons, then responds to whichever button was tapped by the user – we’re done!
+Our project now creates notifications, attaches them to categories so you can create action buttons, then responds to whichever button was tapped by the user - we’re done!
 

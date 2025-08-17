@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c2
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c26-3456-4e79-a01c-0b2a82f7a034.png"/>
 
-Once you learn about the main functions a database needs to provide, you can understand its advantages and why it exists – especially when compared to trying to implement these functions without a database. To help illustrate this, we’ll start by analyzing a case where we try to solve a problem involving data without a database. This will show the problems that can arise and how they are resolved.
+Once you learn about the main functions a database needs to provide, you can understand its advantages and why it exists - especially when compared to trying to implement these functions without a database. To help illustrate this, we’ll start by analyzing a case where we try to solve a problem involving data without a database. This will show the problems that can arise and how they are resolved.
 
 ---
 
@@ -77,15 +77,15 @@ Similarly, there is a wide variety of decisions we can consider when designing p
 
 Also, when we’re implementing these programs, we need to account for details such as **concurrent** access to data, which is difficult to implement from scratch, as well as other security features, such as data encryption, compression, and detecting erroneous or incomplete data. These features are essential to providing a good analysis service, but they are difficult to program and maintain.
 
-In short, without a database, it’s possible to solve the problem of storing and analyzing data – but implementing all the software is potentially quite complicated, especially if we aim to do so from scratch. If we have the right resources, it may be possible to complete this process and end up with a sufficiently efficient system. But in most cases, using a database is more convenient.
+In short, without a database, it’s possible to solve the problem of storing and analyzing data - but implementing all the software is potentially quite complicated, especially if we aim to do so from scratch. If we have the right resources, it may be possible to complete this process and end up with a sufficiently efficient system. But in most cases, using a database is more convenient.
 
 ---
 
 ## Storing Data Using a Database
 
-One way to simplify these processes is to use a database, which is an **organized collection** of data that models a **domain** and provides storage and analytical support for the processes we need to apply to the data. Without a database, data had to be stored in "single files" – but using a database, it’s stored according to a model that defines the type of information and its internal relationships. This is why the definition uses the term "organized."
+One way to simplify these processes is to use a database, which is an **organized collection** of data that models a **domain** and provides storage and analytical support for the processes we need to apply to the data. Without a database, data had to be stored in "single files" - but using a database, it’s stored according to a model that defines the type of information and its internal relationships. This is why the definition uses the term "organized."
 
-As for the term "collection," it refers to the idea that a database is a set of data from the same [<FontIcon icon="fa-brands fa-wikipedia-w"/>domain](https://en.wikipedia.org/wiki/Domain_(software_engineering)). Here, by "domain" we mean the problem we are dealing with, for which we need to store and analyze data. In our example above, the domain would be the "universe" of people and all the tax concepts associated with them – that is, the set of concepts and information from the real environment that may be relevant to solve a problem using those data.
+As for the term "collection," it refers to the idea that a database is a set of data from the same [<FontIcon icon="fa-brands fa-wikipedia-w"/>domain](https://en.wikipedia.org/wiki/Domain_(software_engineering)). Here, by "domain" we mean the problem we are dealing with, for which we need to store and analyze data. In our example above, the domain would be the "universe" of people and all the tax concepts associated with them - that is, the set of concepts and information from the real environment that may be relevant to solve a problem using those data.
 
 The advantages of a database extend beyond just storage. They also include the **normalization** of storage and organization, allowing for efficient **queries** on the stored data. These queries form the basic operations of any analysis process (querying). They’re also the fundamental support for other tasks such as the technical maintenance of the information system, data management, or even features like the system's scalability.
 

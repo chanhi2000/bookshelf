@@ -81,7 +81,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744843935296/c359998
 
 Imagine you’re tasked with building a web application that can handle incoming traffic surges as your users grow without accumulating too much cost. Sounds like a dream, right?
 
-But here’s the thing: traditionally, to do this, you would have to manage lots of infrastructure – resources on which your application will be deployed – which can be a real headache. You’d have servers (VM instances or physical computers) to configure, databases to scale, load balancers to monitor...it’s a whole lot 😩
+But here’s the thing: traditionally, to do this, you would have to manage lots of infrastructure - resources on which your application will be deployed - which can be a real headache. You’d have servers (VM instances or physical computers) to configure, databases to scale, load balancers to monitor...it’s a whole lot 😩
 
 This is where Serverless architecture comes to the rescue. With the Serverless model, you can deploy your applications to handle thousands of users without you having to worry about incurring too much cost, managing infrastructure, servers, networking, and so on.
 
@@ -103,11 +103,11 @@ Before we dive deeper, let’s break down what we mean by Servers. In the tech w
 
 - **Store your data:** Like a central filing cabinet for your digital documents.
 - **Run your applications:** They execute the code that keeps your app or website running.
-- **Handle requests:** Servers respond to user requests – like loading a webpage or processing a login.
+- **Handle requests:** Servers respond to user requests - like loading a webpage or processing a login.
 
-Alright, now let’s talk about Serverless Architecture – but first, let’s clear up a common misconception. When most people hear the word "Serverless", they immediately think, "Wait… no servers? How does that even work?!" 😅
+Alright, now let’s talk about Serverless Architecture - but first, let’s clear up a common misconception. When most people hear the word "Serverless", they immediately think, "Wait… no servers? How does that even work?!" 😅
 
-Here’s the truth: Serverless doesn’t mean there are no servers involved (surprise, surprise! 😉). Instead, it means you, as a developer, don’t have to worry about managing the servers that your application runs on. The server-side infrastructure is fully handled by the cloud provider – in this case, AWS Lambda. You just focus on writing code and deploying it, and AWS takes care of the rest.
+Here’s the truth: Serverless doesn’t mean there are no servers involved (surprise, surprise! 😉). Instead, it means you, as a developer, don’t have to worry about managing the servers that your application runs on. The server-side infrastructure is fully handled by the cloud provider - in this case, AWS Lambda. You just focus on writing code and deploying it, and AWS takes care of the rest.
 
 ### So, What’s the Big Deal with Serverless?
 
@@ -127,13 +127,13 @@ Imagine you’re at a restaurant. Instead of running the kitchen yourself (like 
 
 Now that you understand how Serverless works, let’s take a little detour and explore the other models used to deploy applications. After all, Serverless isn’t the only kid on the block, and this will give you some important perspective when choosing the right model for your use case. 👀
 
-When you build an app, you need somewhere to host it – a home for your code to live and run. Over the years, the tech world has come up with different ways to handle this, and each one gives you a different level of control (and responsibility) over your servers.
+When you build an app, you need somewhere to host it - a home for your code to live and run. Over the years, the tech world has come up with different ways to handle this, and each one gives you a different level of control (and responsibility) over your servers.
 
 Let’s break it down.
 
 ### 🏠 Infrastructure as a Service (IaaS)
 
-With IaaS, cloud providers like AWS, Google Cloud, or Microsoft Azure give you the building blocks – virtual servers (also called instances), storage, and networking tools – but it’s still your job to set everything up.
+With IaaS, cloud providers like AWS, Google Cloud, or Microsoft Azure give you the building blocks - virtual servers (also called instances), storage, and networking tools - but it’s still your job to set everything up.
 
 It’s like renting an empty apartment. You get the walls, the doors, and the roof, but you still have to bring your own furniture, set up your Wi-Fi, and clean the place regularly. 🏡🧹
 
@@ -151,7 +151,7 @@ Amazon EC2 (Elastic Compute Cloud) is a classic IaaS service. You rent a virtual
 
 ### 🎯 Platform as a Service (PaaS)
 
-Next up, we’ve got PaaS – a more polished setup.
+Next up, we’ve got PaaS - a more polished setup.
 
 In this model, the cloud provider takes care of the infrastructure and the underlying operating system, so you don’t have to. You just upload your code, configure a few settings, and the platform runs your app.
 
@@ -182,7 +182,7 @@ Triggers are events that tell your Serverless application, “Hey, it’s time t
 - A new row being added to a database.
 - An automated schedule (like a reminder that runs every day at 8 AM).
 
-When one of these events happens, your application instantly comes to life, runs the exact task you programmed, and then goes back to “sleep” until the next trigger. This is how Serverless keeps your cloud costs low and your resources efficient – no constant running in the background, only action when there’s actually something to do!.⚡😎
+When one of these events happens, your application instantly comes to life, runs the exact task you programmed, and then goes back to “sleep” until the next trigger. This is how Serverless keeps your cloud costs low and your resources efficient - no constant running in the background, only action when there’s actually something to do!.⚡😎
 
 For example, if a user sends a request that triggers your application to run for just 10 seconds and uses 20MB of memory, that’s all you pay for — the exact time and resources consumed.
 
@@ -207,10 +207,10 @@ Whether you’re a developer, a tech-curious startup, or a business leader tryin
 
 That said, having some light knowledge in these areas will make the ride even smoother:
 
-- 🧑‍💻 Basic Programming Concepts – like how Node.js apps run and what a server does.
-- 💡 Familiarity with Common Tech Terms – words like “deploy,” “application,” “CPU,” and “software” will pop up, but don’t worry: I’ve done my best to break these down into simple, relatable explanations.
+- 🧑‍💻 Basic Programming Concepts - like how Node.js apps run and what a server does.
+- 💡 Familiarity with Common Tech Terms - words like “deploy,” “application,” “CPU,” and “software” will pop up, but don’t worry: I’ve done my best to break these down into simple, relatable explanations.
 
-No prior cloud experience? No problem! This guide holds your hand all the way from setup to deployment – all in plain language, no jargon.
+No prior cloud experience? No problem! This guide holds your hand all the way from setup to deployment - all in plain language, no jargon.
 
 So buckle up, and let’s proceed with deploying your very own application to AWS Lambda. 😁
 
@@ -256,15 +256,15 @@ Now, it’s important to understand what’s going on inside our codebase, espec
 
 ### Deploying to Lambda vs Other Serverless Platforms ⚡
 
-When you deploy to platforms like Vercel, Render, or Google Cloud Run, you usually package your web server just the way you wrote it – whether it’s a Node.js Express server or a Next.js app – and the platform handles it pretty much as-is.
+When you deploy to platforms like Vercel, Render, or Google Cloud Run, you usually package your web server just the way you wrote it - whether it’s a Node.js Express server or a Next.js app - and the platform handles it pretty much as-is.
 
 Those platforms run your server like a mini container (or microservice) that’s always ready to handle incoming traffic, just like a waiter standing by at your table, waiting for your order.
 
 But AWS Lambda works a little differently.
 
-Lambda expects your code to be organized around functions – not full web servers. Think of Lambda as a chef that only shows up the moment an order is placed, cooks the food, and disappears once the job is done. 👨‍🍳🍽️
+Lambda expects your code to be organized around functions - not full web servers. Think of Lambda as a chef that only shows up the moment an order is placed, cooks the food, and disappears once the job is done. 👨‍🍳🍽️
 
-So if you’ve got a full-blown Node.js Express server, you’ll need to do a tiny bit of “translation” to fit Lambda’s expectations – and that’s where the lambda.js file comes in.
+So if you’ve got a full-blown Node.js Express server, you’ll need to do a tiny bit of “translation” to fit Lambda’s expectations - and that’s where the lambda.js file comes in.
 
 #### The <FontIcon icon="fa-brands fa-js"/>`lambda.js` File — Your Lambda Translator 🔀
 
@@ -311,7 +311,7 @@ But since we’re deploying to Lambda, you don’t directly start the server her
 module.exports = app;
 ```
 
-This way, your application stays “server-agnostic” – it’s not hardcoded to run on a traditional server. Lambda (via the <FontIcon icon="fa-brands fa-js"/>`lambda.js` file) takes care of starting and stopping your app whenever it’s triggered by an event (like an HTTP request). Smart, right? 💡
+This way, your application stays “server-agnostic” - it’s not hardcoded to run on a traditional server. Lambda (via the <FontIcon icon="fa-brands fa-js"/>`lambda.js` file) takes care of starting and stopping your app whenever it’s triggered by an event (like an HTTP request). Smart, right? 💡
 
 Why this setup? 🤔
 
@@ -379,9 +379,9 @@ Let’s break down the important steps— in plain English: 😎
 - `COPY --from=builder /app/ ${LAMBDA_TASK_ROOT}`: This grabs all the files from the builder stage and copies them into Lambda’s special working directory (`${LAMBDA_TASK_ROOT}`).
 - `COPY --from=builder /app/node_modules ${LAMBDA_TASK_ROOT}/node_modules`: Same thing, but this one specifically copies the node_modules folder (all your installed dependencies) into Lambda’s working directory.
 - `COPY --from=builder /app/package.json ${LAMBDA_TASK_ROOT}`: Copies the <FontIcon icon="iconfont icon-json"/>`package.json` file into Lambda’s working directory.
-- `COPY --from=builder /app/package-lock.json ${LAMBDA_TASK_ROOT}`: Copies the lock file for your dependencies – so Lambda knows exactly which versions of libraries to use.
+- `COPY --from=builder /app/package-lock.json ${LAMBDA_TASK_ROOT}`: Copies the lock file for your dependencies - so Lambda knows exactly which versions of libraries to use.
 - `EXPOSE 5000`: This tells Docker, *“Hey, my app is going to listen for requests on port 5000!"* (Though Lambda doesn’t use this directly, it’s useful for local testing.)
-- `CMD [ "lambda.handler" ]`: This tells AWS Lambda which function to run when the container starts.<br/>In this case, it’s looking for a `handler` function inside your app – that’s the entry point!
+- `CMD [ "lambda.handler" ]`: This tells AWS Lambda which function to run when the container starts.<br/>In this case, it’s looking for a `handler` function inside your app - that’s the entry point!
 
 ### How to Create Our Own Docker Image
 
@@ -400,7 +400,7 @@ docker build -t demo-lambda-project:latest .
 ```
 
 - The `docker build` command tells Docker to create an image.
-- The `-t demo-lambda-project:latest` flag assigns a tag (or name) to your image (we’ll change this later to the image naming convention supported by AWS Elastic Container Registry – ECR).
+- The `-t demo-lambda-project:latest` flag assigns a tag (or name) to your image (we’ll change this later to the image naming convention supported by AWS Elastic Container Registry - ECR).
   - Here, `demo-lambda-project` is the name, and `latest` is the tag indicating the most recent build.
 - The `.` at the end tells Docker to look for the Dockerfile in the current directory.
 
@@ -431,13 +431,13 @@ Once you’re in the ECR section, look for a button that says "Create repository
 You’ll need to add some info like:
 
 - **Repository name:** In the form that appears, enter `lambda-practice` as the repository name. This name will be used to reference your repository later when uploading your Docker image.
-- **Tag mutability:** You’ll also see an option for Tag Mutability. For this tutorial, set it to Mutable. This means that if you need to update or change a tag on your image later, you can do so. (Keep in mind that in some scenarios, you might want immutable tags for images used in production environments – but mutable tags are great for testing and development, especially since we want to use the tag `latest` for our images.)
+- **Tag mutability:** You’ll also see an option for Tag Mutability. For this tutorial, set it to Mutable. This means that if you need to update or change a tag on your image later, you can do so. (Keep in mind that in some scenarios, you might want immutable tags for images used in production environments - but mutable tags are great for testing and development, especially since we want to use the tag `latest` for our images.)
 
 When you’re happy with the settings, click the "Create repository" button at the bottom of the form.
 
 ![Configure AWS ECR repository](https://cdn.hashnode.com/res/hashnode/image/upload/v1744650070919/3010590f-f2e3-4d52-9631-8c5d4e1a5239.png)
 
-### Repository Created – Now Let's Take a Look
+### Repository Created - Now Let's Take a Look
 
 After creating the repository, AWS will redirect you to the page listing your repositories.
 
@@ -614,7 +614,7 @@ You can deploy your function on AWS Lambda in several ways, each catering to dif
 2. **Direct editing in the console:** Write or edit your function code directly in the AWS Lambda code editor. Handy for quick tweaks, but not ideal for larger projects.
 3. **Container image:** Package your application as a Docker container image and deploy it. This approach is particularly useful if you have complex dependencies, need a custom runtime, or want consistent environments across development and production.
 
-In this tutorial, we’re taking the container image route because it offers flexibility, consistency, and scalability – all while letting us reuse our existing Docker configuration. Let’s walk through the steps for deploying your containerized application to AWS Lambda:
+In this tutorial, we’re taking the container image route because it offers flexibility, consistency, and scalability - all while letting us reuse our existing Docker configuration. Let’s walk through the steps for deploying your containerized application to AWS Lambda:
 
 ### Step 1: Access the AWS Lambda Console
 
@@ -648,7 +648,7 @@ Once everything is set, click "Create function" to finalize the deployment.
 
 ### How to Enable Access to Your Lambda Function
 
-Awesome – hurray, you’ve successfully deployed your image from AWS ECR to AWS Lambda! Now the next step is to make sure your function is up and running and can be triggered properly. But you might be wondering, “How do I actually access my Lambda function to see if it’s working?” Let's break it down:
+Awesome - hurray, you’ve successfully deployed your image from AWS ECR to AWS Lambda! Now the next step is to make sure your function is up and running and can be triggered properly. But you might be wondering, “How do I actually access my Lambda function to see if it’s working?” Let's break it down:
 
 #### Understanding Lambda Function Triggers
 
@@ -695,11 +695,11 @@ And that’s it! You’ve successfully set up a public HTTP endpoint that trigge
 
 You've just walked through the entire journey of deploying a Node.js web server, containerized with Docker, all the way to AWS Lambda using AWS ECR as your image repository. 🚀
 
-From writing and containerizing your Node.js application, creating an AWS ECR repository, setting up IAM users and access keys, pushing your Docker image to ECR, to deploying it on Lambda – you’ve covered it all like a pro. 💪
+From writing and containerizing your Node.js application, creating an AWS ECR repository, setting up IAM users and access keys, pushing your Docker image to ECR, to deploying it on Lambda - you’ve covered it all like a pro. 💪
 
 Not only that, but you also configured a public-facing Function URL so your serverless app can now handle requests from anywhere in the world 🌍.
 
-You’ve just combined modern cloud-native workflows with serverless deployment – giving you flexibility, scalability, and lightning-fast response times without the headache of managing servers 😁.
+You’ve just combined modern cloud-native workflows with serverless deployment - giving you flexibility, scalability, and lightning-fast response times without the headache of managing servers 😁.
 
 👏 Give yourself a pat on the back. You’ve officially containerized and deployed your Node.js web server to AWS Lambda!
 
@@ -711,11 +711,11 @@ When it comes to deploying applications in the cloud, the serverless model has t
 
 ### Cost-Efficiency 💰
 
-For most businesses – especially startups – serverless offers a major financial advantage. Here’s why:
+For most businesses - especially startups - serverless offers a major financial advantage. Here’s why:
 
 In traditional models like IaaS (Infrastructure as a Service) and PaaS (Platform as a Service), such as using AWS EC2 or AWS Elastic Beanstalk, you provision resources upfront.
 
-For example: You spin up a server with 4 GB RAM and 4 vCPUs, and AWS charges you $100/month (this covers 730 hours – the whole month). Even if your app barely does anything – say it only serves real requests for 120 hours, and uses just 1 GB of memory – you still pay the full $100, because the resources were reserved and waiting for traffic 24/7. But with Serverless:
+For example: You spin up a server with 4 GB RAM and 4 vCPUs, and AWS charges you $100/month (this covers 730 hours - the whole month). Even if your app barely does anything - say it only serves real requests for 120 hours, and uses just 1 GB of memory - you still pay the full $100, because the resources were reserved and waiting for traffic 24/7. But with Serverless:
 
 - You don’t pre-allocate or reserve compute power.
 - Your application only runs when someone actually needs it (for example, when a user makes an HTTP request).
@@ -762,7 +762,7 @@ Let’s walk through a few important downsides you should consider:
 
 ### No Built-in Support for Background Jobs ⏰
 
-Unlike traditional servers where you can run background processes – like sending out newsletters at midnight or cleaning up databases at scheduled times – serverless platforms such as AWS Lambda don’t natively support background tasks or recurring jobs.
+Unlike traditional servers where you can run background processes - like sending out newsletters at midnight or cleaning up databases at scheduled times - serverless platforms such as AWS Lambda don’t natively support background tasks or recurring jobs.
 
 For example, let’s say you wanted your app to automatically generate reports every day at 3 AM. In a typical server setup, you’d just write a cron job and call it a day.
 
@@ -775,14 +775,14 @@ This adds a bit of extra setup, management, and sometimes extra cost.
 
 ### Unpredictable Cloud Costs 💸
 
-One of the biggest selling points of serverless is “pay-as-you-use” – but this can also become a financial blind spot, because:
+One of the biggest selling points of serverless is “pay-as-you-use” - but this can also become a financial blind spot, because:
 
 - Costs depend on traffic volume and resource usage.
 - If your app suddenly goes viral or experiences a traffic spike, your cloud bill could skyrocket without warning.
 
 For example, an app that runs stable at $30/month for low traffic could unexpectedly hit $1000+ if a marketing campaign or external event drives huge numbers of users to your service. While this means your app is succeeding, your budget might take a hit.
 
-In contrast, with traditional models like AWS EC2 or Elastic Beanstalk, your costs are usually predictable – even if your server sits idle all month.
+In contrast, with traditional models like AWS EC2 or Elastic Beanstalk, your costs are usually predictable - even if your server sits idle all month.
 
 ---
 
@@ -800,7 +800,7 @@ But if your app has burst traffic (users come and go), event-driven logic (like 
 
 ### When Serverless is the Perfect Fit: A Startup Building an Event-Driven API
 
-Imagine you’re running a small tech startup that just launched an app for booking fitness classes. Your team is small, budgets are tight, and traffic is unpredictable – some days you have 50 users, some days 5,000. In this case:
+Imagine you’re running a small tech startup that just launched an app for booking fitness classes. Your team is small, budgets are tight, and traffic is unpredictable - some days you have 50 users, some days 5,000. In this case:
 
 - Your backend mostly handles HTTP requests: new sign-ups, class bookings, cancellations, and payments.
 - Traffic spikes during lunch breaks and weekends, but is quiet at night.
@@ -815,11 +815,11 @@ Imagine you’re running a small tech startup that just launched an app for book
 
 :::
 
-By using Serverless in this case, you can save money, scale automatically, and stay laser-focused on features – not infrastructure.
+By using Serverless in this case, you can save money, scale automatically, and stay laser-focused on features - not infrastructure.
 
 ### When Serverless is Not a Good Fit: A Video Streaming Platform
 
-Now imagine you’re building the next YouTube-like service for a niche audience – say, education-based content for universities.
+Now imagine you’re building the next YouTube-like service for a niche audience - say, education-based content for universities.
 
 In this case:
 
@@ -837,7 +837,7 @@ In this case:
 
 ::: info Better alternative
 
-For this kind of use case, a traditional server-based setup – like EC2 or container orchestration via ECS or Kubernetes – would offer more control, predictable pricing, and support for long-running processes
+For this kind of use case, a traditional server-based setup - like EC2 or container orchestration via ECS or Kubernetes - would offer more control, predictable pricing, and support for long-running processes
 
 ✅ **Bottom line:**  
 Serverless is fantastic for modern apps, but like any tool, it’s best used when its strengths match your project’s needs.
@@ -852,7 +852,7 @@ Congratulations on making it to the end of this tutorial! 🚀
 
 In this article, we explored the power of serverless computing by walking step-by-step through the process of deploying a Node.js web server using Docker and AWS Lambda.
 
-From building your container image, pushing it to AWS ECR, and finally deploying it on Lambda – you’ve now seen how easy it is to get an app running without the hassle of provisioning servers.
+From building your container image, pushing it to AWS ECR, and finally deploying it on Lambda - you’ve now seen how easy it is to get an app running without the hassle of provisioning servers.
 
 We also discussed the advantages of adopting the Serverless model in deploying your applications, it’s disadvantages, and real-world use cases in which you should adopt the serverless approach.
 

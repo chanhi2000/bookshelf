@@ -70,7 +70,7 @@ So, rather than receiving the result of our work through a single completion clo
 
 To solve this problem you need to know that continuations are just structs with a specific generic type. For example, a checked continuation that succeeds with a string and never throws an error has the type `CheckedContinuation<String, Never>`, and an unchecked continuation that returns an integer array and can throw errors has the type `UnsafeContinuation<[Int], Error>`.
 
-All this is important because to solve our delegate callback problem we need to stash away a continuation in one method – when we trigger some functionality – then resume it from different methods based on whether our code succeeds or fails.
+All this is important because to solve our delegate callback problem we need to stash away a continuation in one method - when we trigger some functionality - then resume it from different methods based on whether our code succeeds or fails.
 
 I want to demonstrate this using real code, so we’re going to create an `ObservableObject` to wrap Core Location, making it easier to request the user’s location.
 
@@ -126,7 +126,7 @@ func locationManager(_ manager: CLLocationManager, didFailWithError error: Error
 }
 ```
 
-So, by storing our continuation as a property we’re able to resume it in two different places – once where things go to plan, and once where things go wrong for whatever reason. Either way, no matter what happens our continuation resumes exactly once.
+So, by storing our continuation as a property we’re able to resume it in two different places - once where things go to plan, and once where things go wrong for whatever reason. Either way, no matter what happens our continuation resumes exactly once.
 
 At this point our continuation wrapper is complete, so we can use it inside a SwiftUI view. If we put everything together, here’s the end result:
 

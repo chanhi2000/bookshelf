@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.2 – Hacking with Swift",
+  "title": "What's new in Swift 2.2 - Hacking with Swift",
   "desc": "What's new in Swift 2.2",
   "link": "https://hackingwithswift.com/swift2-2",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -53,13 +53,13 @@ isOriginal: false
 }
 ```
 
-Swift 2.2 is almost here, and cleans up a number of quirks, adds some missing features, and deprecates – perhaps controversially – some language features. This article goes over all the major changes, along with several minor ones, and gives you practical code examples so you can get up and running straight away.
+Swift 2.2 is almost here, and cleans up a number of quirks, adds some missing features, and deprecates - perhaps controversially - some language features. This article goes over all the major changes, along with several minor ones, and gives you practical code examples so you can get up and running straight away.
 
 If you liked this article, you might also want to read:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "/hackingwithswift.com/swift2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -69,7 +69,7 @@ If you liked this article, you might also want to read:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -93,11 +93,11 @@ Swift 2.2 formally deprecates the `++` and `--` operators, which means they stil
 
 In their place, you need to use `+= 1` and `-= 1` instead. These operators have been there all along, and are not going away.
 
-You might wonder why two long-standing operators are being removed, particularly when they exist in C, C#, Java, and – critically to its "joke" – C++. There are several answers, not least:
+You might wonder why two long-standing operators are being removed, particularly when they exist in C, C#, Java, and - critically to its "joke" - C++. There are several answers, not least:
 
 1. Writing `++` rather than `+= 1` is hardly a dramatic time saving
 2. Although it's easy once you know it, `++` doesn't have an obvious meaning to people learning Swift, whereas `+=` at least reads as "add and assign."
-3. C-style loops – one of the most common situations where `++` and `--` were used – have also been deprecated, which brings me on to my next point…
+3. C-style loops - one of the most common situations where `++` and `--` were used - have also been deprecated, which brings me on to my next point…
 
 ---
 
@@ -220,11 +220,11 @@ if singer == alien {
 }
 ```
 
-Swift 2.2's automatic tuple comparison works with tuples with two elements just like the function we wrote, but it also works with tuples of other sizes – up to arity 6, which means a tuple that contains six elements.
+Swift 2.2's automatic tuple comparison works with tuples with two elements just like the function we wrote, but it also works with tuples of other sizes - up to arity 6, which means a tuple that contains six elements.
 
 (In case you were wondering: "arity" is pronounced like "arrity", but "tuple" is pronounced any number of ways: "toople", "tyoople" and "tupple" are all common.)
 
-There are two reasons why Swift's tuple comparisons work only up to arity 6 (rather than arity 6 million). First, each extra comparison requires more code inside the Swift standard library. Second, using tuples that big is probably a code smell – switch to a struct instead.
+There are two reasons why Swift's tuple comparisons work only up to arity 6 (rather than arity 6 million). First, each extra comparison requires more code inside the Swift standard library. Second, using tuples that big is probably a code smell - switch to a struct instead.
 
 You can see how tuple comparison works by changing our two tuples like this:
 
@@ -246,9 +246,9 @@ As you can see, Swift literally has functions to compare tuples all the way up t
 
 ## Tuple splat syntax is deprecated
 
-Staying with tuples for a moment longer: another feature that has been deprecated is one that has been part of Swift since 2010 (yes, years before it launched). It's been named "the tuple splat", and not many people were using it. It's partly for that reason – although mainly because it introduces all sorts of ambiguities when reading code – that this syntax is being deprecated.
+Staying with tuples for a moment longer: another feature that has been deprecated is one that has been part of Swift since 2010 (yes, years before it launched). It's been named "the tuple splat", and not many people were using it. It's partly for that reason - although mainly because it introduces all sorts of ambiguities when reading code - that this syntax is being deprecated.
 
-In case you were curious – and let's face it, you probably are – here's an example of tuple splat syntax in action:
+In case you were curious - and let's face it, you probably are - here's an example of tuple splat syntax in action:
 
 ```swift
 func describePerson(name: String, age: Int) {
@@ -287,7 +287,7 @@ func printGreeting(name: String, repeat repeatCount: Int) {
 printGreeting("Taylor", repeat: 5)
 ```
 
-That uses `repeat` as an argument label, which makes sense because the function will print a string a number of times. Because `repeat` is a keyword, this code would not work before Swift 2.2 – you would need to write ``repeat`` instead, which is unpleasant.
+That uses `repeat` as an argument label, which makes sense because the function will print a string a number of times. Because `repeat` is a keyword, this code would not work before Swift 2.2 - you would need to write ``repeat`` instead, which is unpleasant.
 
 Note that there are still some keywords that may not be used, specifically `var`, `let` and `inout`.
 
@@ -373,7 +373,7 @@ navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Tap!", style: .Plain
 
 If you look closely, I wrote `"buttonTaped"` rather than `"buttonTapped"`, but Xcode wasn't able to notify me of my mistake if either of those methods didn't exist.
 
-This has been resolved as of Swift 2.2: using strings for selectors has been deprecated, and you should now write `#selector(buttonTapped)` in that code above. If the `buttonTapped()` method doesn't exist, you'll get a compile error – another whole class of bugs eliminated at compile time!
+This has been resolved as of Swift 2.2: using strings for selectors has been deprecated, and you should now write `#selector(buttonTapped)` in that code above. If the `buttonTapped()` method doesn't exist, you'll get a compile error - another whole class of bugs eliminated at compile time!
 
 ---
 
@@ -433,7 +433,7 @@ This metadata gets used in code completion ("Say hello to a specific person" get
 
 In Swift 2.2, three new keywords have been added: `recommended`, `recommendedover`, and `keyword`. These appear to be designed to make code completion more useful by letting you specify which properties and methods should return matches inside Xcode, but right now it doesn't appear to be working so that's only a hunch.
 
-When things do suddenly spring into life – soon, I hope! – you can use them like this:
+When things do suddenly spring into life - soon, I hope! - you can use them like this:
 
 ```swift
 /**

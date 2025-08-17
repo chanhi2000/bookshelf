@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ func updateMotion() {
         physicsWorld.gravity = CGVector(dx: diff.x / 100, dy: diff.y / 100)
     }
 #else
-    // we're on a device – use the accelerometer
+    // we're on a device - use the accelerometer
     if let accelerometerData = motionManager.accelerometerData {
         physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * -50, dy: accelerometerData.acceleration.x * 50)
     }

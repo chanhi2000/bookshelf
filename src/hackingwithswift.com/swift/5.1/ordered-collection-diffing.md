@@ -51,7 +51,7 @@ isOriginal: false
 
 [SE-0240 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0240-ordered-collection-diffing.md) introduced the ability to calculate and apply the differences between ordered collections. This could prove particularly interesting for developers who have complex collections in table views, where they want to add and remove lots of items smoothly using animations.
 
-The basic principle is straightforward: Swift 5.1 gives us a new `difference(from:)` method that calculates the differences between two ordered collections – what items to remove and what items to insert. This can be used with any ordered collection that contains `Equatable` elements.
+The basic principle is straightforward: Swift 5.1 gives us a new `difference(from:)` method that calculates the differences between two ordered collections - what items to remove and what items to insert. This can be used with any ordered collection that contains `Equatable` elements.
 
 To demonstrate this, we can create an array of scores, calculate the difference from one to the other, then loop over those differences and apply each one to make our two collections the same.
 

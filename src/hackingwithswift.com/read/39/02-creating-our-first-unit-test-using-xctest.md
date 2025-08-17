@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -97,7 +97,7 @@ func testAllWordsLoaded() {
 
 If we include the method name and the closing brace, that's only four lines of code, none of which look that difficult. However, it masks quite a lot of functionality, so I want to walk through exactly what it does and why.
 
-First, the method has a very specific name: it starts with "test" all in lowercase, it accepts no parameters and returns nothing. When you create a method like this inside an `XCTestCase` subclass, Xcode automatically considers it to be a test that should run on your code. When Xcode recognizes a test, you'll see an empty gray diamond appear in the left-hand gutter, next to the line numbers. If you hover over that – but don't click it just yet! – it will turn into a play button, which will run the test.
+First, the method has a very specific name: it starts with "test" all in lowercase, it accepts no parameters and returns nothing. When you create a method like this inside an `XCTestCase` subclass, Xcode automatically considers it to be a test that should run on your code. When Xcode recognizes a test, you'll see an empty gray diamond appear in the left-hand gutter, next to the line numbers. If you hover over that - but don't click it just yet! - it will turn into a play button, which will run the test.
 
 ![Xcode expects you to use a precise naming convention for your test methods, and if you follow these guidelines you should see empty gray diamonds next to your tests.](https://hackingwithswift.com/img/books/hws/39-3@2x.png)
 

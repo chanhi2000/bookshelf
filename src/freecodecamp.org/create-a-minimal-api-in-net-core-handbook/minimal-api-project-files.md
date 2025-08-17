@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Minimal API Project Files"
-description: Article(s) > (4/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook
+description: Article(s) > (4/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook
 category:
   - C#
   - DotNet
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (4/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook
+      content: Article(s) > (4/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook
     - property: og:description
       content: "Minimal API Project Files"
     - property: og:url
@@ -32,7 +32,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733158500882/9af04a1
 
 ```component VPCard
 {
-  "title": "How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "title": "How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "desc": "Minimal APIs are an exciting feature introduced in .NET 6, designed to revolutionize how you create APIs. Imagine building robust APIs with minimal code and zero boilerplate—no more wrestling with controllers, routing, or middleware. That’s what mini...",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733158500882/9af04a1
 ---
 
 <SiteInfo
-  name="How to Create a Minimal API in .NET Core – A Step By Step Handbook"
+  name="How to Create a Minimal API in .NET Core - A Step By Step Handbook"
   desc="Minimal APIs are an exciting feature introduced in .NET 6, designed to revolutionize how you create APIs. Imagine building robust APIs with minimal code and zero boilerplate—no more wrestling with controllers, routing, or middleware. That’s what mini..."
   url="https://freecodecamp.org/news/create-a-minimal-api-in-net-core-handbook#heading-minimal-api-project-files"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

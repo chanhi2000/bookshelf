@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,9 +63,9 @@ When you’re just learning Swift, the difference between an optional (`String?`
 
 When you use `String` you’re saying this will always have a string inside, and can never have nothing inside. It might be an empty string (`""`), but even an empty string is still a string.
 
-When you use `String?` you’re saying this might have a string inside, but it might have nothing at all inside – not even an empty string. Swift won’t let you use these without unwrapping them, which is usually done using `if let`.
+When you use `String?` you’re saying this might have a string inside, but it might have nothing at all inside - not even an empty string. Swift won’t let you use these without unwrapping them, which is usually done using `if let`.
 
-When you use `String!` you’re saying this might have a string inside, but it might have nothing at all inside – not even an empty string. However, Swift lets you use these as if they were a `String`, as if they always *do* have a value, but if you try to use a nil value by accident your code will crash. This effectively lets you say “I know this *might* be nil, but I’m so sure it has a value that I’m willing for my program to crash if I’m wrong.”
+When you use `String!` you’re saying this might have a string inside, but it might have nothing at all inside - not even an empty string. However, Swift lets you use these as if they were a `String`, as if they always *do* have a value, but if you try to use a nil value by accident your code will crash. This effectively lets you say “I know this *might* be nil, but I’m so sure it has a value that I’m willing for my program to crash if I’m wrong.”
 
 So: `String` is definitely a string, `String?` might be nil or might be a string, and `String!` might be nil but when you use it you’re absolutely sure it has a string.
 

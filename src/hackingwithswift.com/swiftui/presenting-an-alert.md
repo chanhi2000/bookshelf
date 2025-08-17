@@ -70,7 +70,7 @@ Now we'll attach an `alert()` modifier to our form, with a simple title, a two-w
 .alert("Order confirmed", isPresented: $showingPaymentAlert) {
     // add buttons here
 } message: {
-    Text("Your total was \(totalPrice) – thank you!")
+    Text("Your total was \(totalPrice) - thank you!")
 }
 ```
 
@@ -86,7 +86,7 @@ Button("Confirm order") {
 }
 ```
 
-Run the program and see what you think – it's really coming together now!
+Run the program and see what you think - it's really coming together now!
 
 ![An iOS alert showing the order was confirmed.](https://hackingwithswift.com/img/books/quick-start/swiftui/2-15~dark.png)
 

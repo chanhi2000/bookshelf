@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Core Graphics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/core-graphics/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-If you're rendering images using Core Graphics you should definitely try out some of the alternate blend modes that are available. If you've ever used Photoshop's blend modes these will be familiar: screen, luminosity, multiply and so on – these are all available right in Core Graphics.
+If you're rendering images using Core Graphics you should definitely try out some of the alternate blend modes that are available. If you've ever used Photoshop's blend modes these will be familiar: screen, luminosity, multiply and so on - these are all available right in Core Graphics.
 
 To give you an idea what's possible, here's some code that takes two UIImages and draws them into one single image. The first image is drawn using normal rendering, and the second using `.luminosity`.
 
@@ -79,7 +79,7 @@ if let img = UIImage(named: "example"), let img2 = UIImage(named: "example2") {
 }
 ```
 
-How that looks depends on the source images you used – try drawing them the other way around to see what difference it makes, or try using `.multiply` rather than `.luminosity`.
+How that looks depends on the source images you used - try drawing them the other way around to see what difference it makes, or try using `.multiply` rather than `.luminosity`.
 
 If you're looking for a more advanced example, this function accepts an image and returns the same image with a rainbow effect to it. This is done by drawing six colored strips onto an image, then overlaying the original image using the blend mode `.luminosity` along with a slight alpha.
 
@@ -91,7 +91,7 @@ func addRainbow(to img: UIImage) -> UIImage {
     // figure out the height of one section (there are six)
     let sectionHeight = img.size.height / 6
 
-    // set up the colors – these are based on my trial and error
+    // set up the colors - these are based on my trial and error
     let red = UIColor(red: 1, green: 0.5, blue: 0.5, alpha: 0.8)
     let orange = UIColor(red: 1, green: 0.7, blue: 0.35, alpha: 0.8)
     let yellow = UIColor(red: 1, green: 0.85, blue: 0.1, alpha: 0.65)

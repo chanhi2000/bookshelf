@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-You can't do this – `UIStackView` is a non-drawing view, meaning that `drawRect()` is never called and its background color is ignored. If you desperately want a background color, consider placing the stack view inside another `UIView` and giving that view a background color.
+You can't do this - `UIStackView` is a non-drawing view, meaning that `drawRect()` is never called and its background color is ignored. If you desperately want a background color, consider placing the stack view inside another `UIView` and giving that view a background color.
 
 -->
 

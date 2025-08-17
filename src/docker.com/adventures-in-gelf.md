@@ -201,7 +201,7 @@ If we have a GELF receiver on the machine 1.2.3.4 on the default UDP port 12201,
 
 ```sh
 docker run \
-–log-driver gelf –log-opt gelf-address=udp://1.2.3.4:12201 \
+-log-driver gelf -log-opt gelf-address=udp://1.2.3.4:12201 \
 alpine echo hello world
 ```
 

@@ -88,7 +88,7 @@ If you’re now excited, let’s get straight into it!
 
 This application is powered by three main players: Stream Chat, the Web Speech API, and a Node.js + Express backend.
 
-[<FontIcon icon="fas fa-globe"/>Stream Chat](https://getstream.io/) is a platform that helps you easily build and integrate rich, real-time chat and messaging experiences into your applications. It offers a variety of SDKs (Software Development Kits) for different platforms (like Android, iOS, React) and pre-built UI components to streamline development. Its robustness and engaging chat functionality make it a great choice for this app – we don’t need to build anything from scratch.
+[<FontIcon icon="fas fa-globe"/>Stream Chat](https://getstream.io/) is a platform that helps you easily build and integrate rich, real-time chat and messaging experiences into your applications. It offers a variety of SDKs (Software Development Kits) for different platforms (like Android, iOS, React) and pre-built UI components to streamline development. Its robustness and engaging chat functionality make it a great choice for this app - we don’t need to build anything from scratch.
 
 [<FontIcon icon="fa-brands fa-firefox"/>Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) is a browser standard that allows you to integrate voice input and output into your apps, enabling features like speech recognition (converting spoken speech to text) and speech synthesis (converting text to speech). We’ll use the speech recognition feature in this project.
 
@@ -98,14 +98,14 @@ The Node.js + Express backend manages correct agent instantiation and processes 
 
 ## Backend Implementation Guide
 
-Let’s begin with our backend, the engine room – where user input is routed to the appropriate AI model, and a processed response is returned. Our backend supports multiple AI models, specifically OpenAI and Anthropic.
+Let’s begin with our backend, the engine room - where user input is routed to the appropriate AI model, and a processed response is returned. Our backend supports multiple AI models, specifically OpenAI and Anthropic.
 
 ### Project Setup
 
 1. Create a folder, call it ‘**My-Chat-Application**’.
 2. Clone this [Github repository (<FontIcon icon="iconfont icon-github"/>`GetStream/ai-assistant-nodejs`)](https://github.com/GetStream/ai-assistant-nodejs)
 3. After cloning, rename the folder to ‘**backend**’
-4. Open the <FontIcon icon="fas fa-file-lines"/>`.env.example` file and provide the necessary keys (you’ll need to provide either the OpenAI or Anthropic key – the Open Weather key is optional).
+4. Open the <FontIcon icon="fas fa-file-lines"/>`.env.example` file and provide the necessary keys (you’ll need to provide either the OpenAI or Anthropic key - the Open Weather key is optional).
 5. Rename the <FontIcon icon="fas fa-file-lines"/>`.env.example`file to <FontIcon icon="fas fa-file-lines"/>`.env`
 6. Install dependencies by running this command:
 

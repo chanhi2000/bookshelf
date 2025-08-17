@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,11 +53,11 @@ isOriginal: false
 
 Lots of scrolling 2D games use multiple depth levels that scroll at various speeds and deliver a surprisingly nice effect. We'll be controlling the depth of our graphics by setting the `zPosition` property of sprites, starting with the sky: this is just two colored blocks that sit right at the very back of the game.
 
-You can create `SKSpriteNodes` with nothing more than a color and a size, and that's what we'll use here. I've sampled the sky colors based on the other graphics that we'll be adding soon – the top and bottom parts of the sky are very, *very* similar, but just different enough to be visible.
+You can create `SKSpriteNodes` with nothing more than a color and a size, and that's what we'll use here. I've sampled the sky colors based on the other graphics that we'll be adding soon - the top and bottom parts of the sky are very, *very* similar, but just different enough to be visible.
 
 To make things easier for my brain, I'm going to be setting the `anchorPoint` property of the sprite nodes. This means they calculate their positions differently from the default, which might not sound easy at all, but trust me: it is!
 
-By default, nodes have the anchor point X:0.5, Y:0.5, which means they calculate their position from their horizontal and vertical center. We'll be modifying that to be X:0.5, Y:1 so that they measure from their center top instead – it makes it easier to position because one part of the sky will take up 67% of the screen and the other part will take up 33%.
+By default, nodes have the anchor point X:0.5, Y:0.5, which means they calculate their position from their horizontal and vertical center. We'll be modifying that to be X:0.5, Y:1 so that they measure from their center top instead - it makes it easier to position because one part of the sky will take up 67% of the screen and the other part will take up 33%.
 
 Here's the `createSky()` method; add this just below `createPlayer()`:
 
@@ -80,7 +80,7 @@ func createSky() {
 }
 ```
 
-Add a call to `createSky()` inside `didMove(to:)` then press Play again – you should see some sky behind the player's plane now. Can you spot that it's two different colors?
+Add a call to `createSky()` inside `didMove(to:)` then press Play again - you should see some sky behind the player's plane now. Can you spot that it's two different colors?
 
 Next up is the background. In the assets for this game it's a set of distant mountains and clouds with a faint blue color, but we can't just add this to the game using a sprite node. The reason is simple: while the sky is just two fixed (and very similar!) colors, the background mountains need to scroll.
 
@@ -119,7 +119,7 @@ let moveForever = SKAction.repeatForever(moveLoop)
 background.run(moveForever)
 ```
 
-So, each mountain will move to the left a distance equal to its width, then jump back another distance equal to its width. This repeats in a sequence forever, so the mountains loop indefinitely – try running the app to see how it looks!
+So, each mountain will move to the left a distance equal to its width, then jump back another distance equal to its width. This repeats in a sequence forever, so the mountains loop indefinitely - try running the app to see how it looks!
 
 ![Placing the plane on a simple moving background gives the feeling of movement without much work](https://hackingwithswift.com/img/books/hws/36-1@2x.png)
 

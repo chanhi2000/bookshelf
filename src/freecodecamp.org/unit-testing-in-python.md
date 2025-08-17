@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Write Unit Tests in Python – with Example Test Code
-description: Article(s) > How to Write Unit Tests in Python – with Example Test Code
+title: How to Write Unit Tests in Python - with Example Test Code
+description: Article(s) > How to Write Unit Tests in Python - with Example Test Code
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Write Unit Tests in Python – with Example Test Code
+      content: Article(s) > How to Write Unit Tests in Python - with Example Test Code
     - property: og:description
-      content: How to Write Unit Tests in Python – with Example Test Code
+      content: How to Write Unit Tests in Python - with Example Test Code
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/unit-testing-in-python.html
 prev: /programming/py/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/WhatsApp-
 ---
 
 <SiteInfo
-  name="How to Write Unit Tests in Python – with Example Test Code"
+  name="How to Write Unit Tests in Python - with Example Test Code"
   desc="Unit testing is a software testing technique in which individual components or units of a software application are tested independently from the rest of the application.  In software development, it's beneficial to break your application into small, isolated units. This approach allows you to write independent tests to check..."
   url="https://freecodecamp.org/news/unit-testing-in-python/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

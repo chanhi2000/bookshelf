@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "https://hackingwithswift.com/swift2",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -55,13 +55,13 @@ isOriginal: false
 
 Swift 2.0 is here, and packed full with features. If you already completed the entire [<FontIcon icon="fas fa-globe"/>Hacking with Swift coding series](https://hackingwithswift.com/) (it's free!), you'll have watched Apple's WWDC15 keynote with as much excitement as I did. And yes: Swift 2 is now available with Xcode 7, so if you're keen to start learning then I'm here to help.
 
-While I'm busy updating my free online Swift tutorial series, I wrote this article about some of the new features in Swift 2 and another [**showing off what's new in iOS 9**](/hackingwithswift.com/ios9.md). I've even put up a whole page of [**free tutorials for iOS 9**](/hackingwithswift.com/ios9-tutorials.md) teaching many of the amazing new features – you should check it out!
+While I'm busy updating my free online Swift tutorial series, I wrote this article about some of the new features in Swift 2 and another [**showing off what's new in iOS 9**](/hackingwithswift.com/ios9.md). I've even put up a whole page of [**free tutorials for iOS 9**](/hackingwithswift.com/ios9-tutorials.md) teaching many of the amazing new features - you should check it out!
 
 If you liked this article, you might also want to read:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.2 – Hacking with Swift",
+  "title": "What's new in Swift 2.2 - Hacking with Swift",
   "desc": "What's new in Swift 2.2",
   "link": "/hackingwithswift.com/swift2-2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -71,7 +71,7 @@ If you liked this article, you might also want to read:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -95,11 +95,11 @@ I made a super-fast video going over the key new features in Swift 2. You can re
 
 ::: info Update
 
-I wrote a tutorial on Swift 2's try catch error handling – check it out!
+I wrote a tutorial on Swift 2's try catch error handling - check it out!
 
 ```component VPCard
 {
-  "title": "Error handling in Swift: try, catch, do and throw – Hacking with Swift",
+  "title": "Error handling in Swift: try, catch, do and throw - Hacking with Swift",
   "desc": "Error handling in Swift: try, catch, do and throw",
   "link": "/hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -109,7 +109,7 @@ I wrote a tutorial on Swift 2's try catch error handling – check it out!
 
 :::
 
-This is a common feature of other languages, but something notably missing from Swift – at least until now. I'm not going to wade into the larger debate about the merits of `try/catch` (trust me, this can cause major fights!), I'm just going to explain what it does and how you can use it once you install Xcode 7.
+This is a common feature of other languages, but something notably missing from Swift - at least until now. I'm not going to wade into the larger debate about the merits of `try/catch` (trust me, this can cause major fights!), I'm just going to explain what it does and how you can use it once you install Xcode 7.
 
 `try`/`catch` is a way of programming that means "try this thing, but if it fails do this other thing instead." Swift uses enums for error types so that it can ensure your error catching is exhaustive, just like with `switch` statements. So for example, you might define your error list something like this:
 
@@ -131,7 +131,7 @@ First up, `throws` is a simple keyword that you add to your method to tell Swift
 func doStuff() throws -> String {
 ```
 
-Once that's done, you cannot call that method unless your code is written to handle any errors it throws – Xcode simply won't compile. When you want to throw an error from inside your methods, you just write `throw` followed by the type of error you want to throw, like this:
+Once that's done, you cannot call that method unless your code is written to handle any errors it throws - Xcode simply won't compile. When you want to throw an error from inside your methods, you just write `throw` followed by the type of error you want to throw, like this:
 
 ```swift
 func doStuff() throws -> String {
@@ -170,11 +170,11 @@ If you remember, we made the `doStuff()` method print "Do stuff 1" then "Do stuf
 
 - "Do stuff 1" will be printed
 - "Do stuff 2" will be printed
-- The NetworkError error will be thrown, immediately exiting the `doStuff()` method – its return statement will never be reached
+- The NetworkError error will be thrown, immediately exiting the `doStuff()` method - its return statement will never be reached
 - Control will jump to the `catch` block
 - "An error occurred" will be printed
 
-To be clear: in the code above, "Success" will never be printed – as soon as any `try` methods throw an error, execution stops and jumps to the `catch` block.
+To be clear: in the code above, "Success" will never be printed - as soon as any `try` methods throw an error, execution stops and jumps to the `catch` block.
 
 As I said, you can mix and match generic and specific `catch` blocks, but you do need to be sure that all possible errors are caught. For example, this will execute one chunk of code for NetworkError errors, and another chunk for all other errors:
 
@@ -195,7 +195,7 @@ do {
 
 This is a small change, but trust me: it's a welcome one. To try it out in Xcode 7, go to Navigate > Generated Interface.
 
-In Objective C header files provided a list of the functionality exposed by classes – think of them like summaries telling you what methods are available and what parameters they take, but with none of the code.
+In Objective C header files provided a list of the functionality exposed by classes - think of them like summaries telling you what methods are available and what parameters they take, but with none of the code.
 
 Swift doesn't have header files, whch means you write all your code in a <FontIcon icon="fa-brands fa-swift"/>`.swift` file and don't have to worry about updating header files. Instead, you use keywords like "private" to mark how methods should be exposed to the outside world.
 
@@ -209,11 +209,11 @@ Apple's solution is simple and efficient: Xcode can now show synthesized header 
 
 ::: info update
 
-I wrote a tutorial on the guard keyword in Swift 2 – check it out!
+I wrote a tutorial on the guard keyword in Swift 2 - check it out!
 
 ```component VPCard
 {
-  "title": "The guard keyword in Swift: early returns made easy – Hacking with Swift",
+  "title": "The guard keyword in Swift: early returns made easy - Hacking with Swift",
   "desc": "The guard keyword in Swift: early returns made easy",
   "link": "/hackingwithswift.com/new-syntax-swift-2-guard.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -256,7 +256,7 @@ if let unwrappedName = userName {
     return
 }
 
-// this won't work – unwrappedName doesn't exist here!
+// this won't work - unwrappedName doesn't exist here!
 print("Your username is \(unwrappedName)")
 ```
 
@@ -264,7 +264,7 @@ print("Your username is \(unwrappedName)")
 
 ## Measuring strings has changed. Again.
 
-If you just read `username.text.characters.count` and did a double take, I don't blame you: Apple has changed how strings are measured yet again. What was `countElements()` became `count()`, and has now gone away entirely – and in fact if you try to use `count()` with a String you'll get an error.
+If you just read `username.text.characters.count` and did a double take, I don't blame you: Apple has changed how strings are measured yet again. What was `countElements()` became `count()`, and has now gone away entirely - and in fact if you try to use `count()` with a String you'll get an error.
 
 Instead, you should access the `characters` property of your String, then call `count` on that. Or at least that's what you should do until Apple changes its mind again…
 
@@ -274,11 +274,11 @@ Instead, you should access the `characters` property of your String, then call `
 
 ::: info Update
 
-I wrote a tutorial on the defer keyword of Swift 2 – check it out!
+I wrote a tutorial on the defer keyword of Swift 2 - check it out!
 
 ```component VPCard
 {
-  "title": "The defer keyword in Swift: try/finally done right – Hacking with Swift",
+  "title": "The defer keyword in Swift: try/finally done right - Hacking with Swift",
   "desc": "The defer keyword in Swift: try/finally done right",
   "link": "/hackingwithswift.com/new-syntax-swift-2-defer.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -308,7 +308,7 @@ func doStuff() {
 }
 ```
 
-If you run that, you'll see "Checkpoint 1", "Checkpoint 2", "Checkpoint 3", "Do clean up here", then "Checkpoint 4". So, even though the `defer` line appears before checkpoint 3, it gets executed after – it gets deferred until the method is about to end.
+If you run that, you'll see "Checkpoint 1", "Checkpoint 2", "Checkpoint 3", "Do clean up here", then "Checkpoint 4". So, even though the `defer` line appears before checkpoint 3, it gets executed after - it gets deferred until the method is about to end.
 
 I put "Do clean up code here" in there because that's exactly what `defer` is good at: when you know you need to flush a cache, write out a file or whatever, and you want to make sure that code gets executed regardless of what path is taken through your method.
 
@@ -345,7 +345,7 @@ As soon as `doStuff()` throws its error, the method is exited and at that point 
 
 This is a simple change that is going to go a long way to help code readability. As you know, Swift developers prefer declaring things as constants (using `let`) rather than variables (using `var`). But what if you made something a variable by accident? Or if you thought you might need to change it, then never do?
 
-As of Xcode 7 and Swift 2, you'll get warnings in your code whenever you declare variables that never change – Xcode literally examines the way you use the variable and knows if you never change it.
+As of Xcode 7 and Swift 2, you'll get warnings in your code whenever you declare variables that never change - Xcode literally examines the way you use the variable and knows if you never change it.
 
 ---
 
@@ -353,11 +353,11 @@ As of Xcode 7 and Swift 2, you'll get warnings in your code whenever you declare
 
 ::: info Update
 
-I wrote a tutorial on #availability – check it out!
+I wrote a tutorial on #availability - check it out!
 
 ```component VPCard
 {
-  "title": "Availability checking in Swift: backwards compatibility the smart way – Hacking with Swift",
+  "title": "Availability checking in Swift: backwards compatibility the smart way - Hacking with Swift",
   "desc": "Availability checking in Swift: backwards compatibility the smart way",
   "link": "/hackingwithswift.com/new-syntax-swift-2-availability-checking.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -367,7 +367,7 @@ I wrote a tutorial on #availability – check it out!
 
 :::
 
-One regular problem that iOS developers hit is that we need to be careful when using new APIs – if you try and use `UIStackView` on iOS 8, for example, your app will crash. In the olden days, Objective C developers would write code like this:
+One regular problem that iOS developers hit is that we need to be careful when using new APIs - if you try and use `UIStackView` on iOS 8, for example, your app will crash. In the olden days, Objective C developers would write code like this:
 
 ```swift
 NSClassFromString(@"UIAlertController") != nil

@@ -145,7 +145,7 @@ npm install axios
 
 ### Build the To-Do App UI
 
-Inside the <FontIcon icon="fas fa-folder-open"/>`src` folder, create an <FontIcon icon="fa-brands fa-reacet"/>`App.tsx` file if it doesn’t already exist, and add the below code. It’s a lot, but don’t worry – I’ll break it down bit by bit afterwards:
+Inside the <FontIcon icon="fas fa-folder-open"/>`src` folder, create an <FontIcon icon="fa-brands fa-reacet"/>`App.tsx` file if it doesn’t already exist, and add the below code. It’s a lot, but don’t worry - I’ll break it down bit by bit afterwards:
 
 ```jsx :collapsed-lines title="frontend/src/App.tsx"
 // BLOCK 1: Importing Dependencies
@@ -914,7 +914,7 @@ Follow the steps to create a free cluster. Once the cluster is created, click Co
 
 Replace the `your_mongodb_atlas_uri` in <FontIcon icon="fas fa-file-lines"/>`.env` file with your MongoDB Atlas connection string.
 
-If you are still not comfortable with how to set up MongoDB atlas, read this: [**MongoDB Atlas Tutorial – How to Get Started**](/freecodecamp.org/get-started-with-mongodb-atlas.md).
+If you are still not comfortable with how to set up MongoDB atlas, read this: [**MongoDB Atlas Tutorial - How to Get Started**](/freecodecamp.org/get-started-with-mongodb-atlas.md).
 
 ### Run the Application
 

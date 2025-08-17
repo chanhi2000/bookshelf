@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,11 +51,11 @@ isOriginal: false
 }
 ```
 
-A Core Data model defines what your data should look like, but it doesn't actually store the real data anywhere. To make our app work, we need to load that model, create a real working database from it, load that database, then prepare what’s called a “managed object context” – an environment where we can create, read, update, and delete Core Data objects entirely in memory, before writing back to the database in one lump.
+A Core Data model defines what your data should look like, but it doesn't actually store the real data anywhere. To make our app work, we need to load that model, create a real working database from it, load that database, then prepare what’s called a “managed object context” - an environment where we can create, read, update, and delete Core Data objects entirely in memory, before writing back to the database in one lump.
 
 This all used to be a massive amount of work, to the point where it would put people off Core Data for life. But from iOS 10 onwards, Apple rolled all this work up into a single new class called `NSPersistentContainer`. This has removed almost all the tedium from setting up Core Data, and you can now get up and running in just a few lines of code.
 
-So, in this second step we're going to write code to load the model we just defined, load a persistent store where saved objects can be stored, and also create a managed object context where our objects will live while they are active – all using the new `NSPersistentContainer` class. Once it finishes its work, we’ll have a managed object context ready to work with, and any changes we make to Core Data objects won't be saved until we explicitly request it. It is significantly faster to manipulate objects inside your managed object context as much as you need to before saving rather than saving after every change.
+So, in this second step we're going to write code to load the model we just defined, load a persistent store where saved objects can be stored, and also create a managed object context where our objects will live while they are active - all using the new `NSPersistentContainer` class. Once it finishes its work, we’ll have a managed object context ready to work with, and any changes we make to Core Data objects won't be saved until we explicitly request it. It is significantly faster to manipulate objects inside your managed object context as much as you need to before saving rather than saving after every change.
 
 When data is saved, it's nearly always written out to an SQLite database. There are other options, but take my word for it: almost everyone uses SQLite. SQLite is a very small, very fast, and very portable database engine, and what Core Data does is provide a wrapper around it: when you read, write and query a managed object context, Core Data translates that into Structured Query Language (SQL) for SQLite to parse.
 
@@ -81,7 +81,7 @@ To set up the basic Core Data system, we need to write code that will do the fol
 4. Load that database into the `NSPersistentStoreCoordinator` so it knows where we want it to save. If it doesn't exist, it will be created automatically
 5. Create an `NSManagedObjectContext` and point it at the persistent store coordinator.
 
-Beautifully, brilliantly, all five of those steps are exactly what `NSPersistentContainer` does for us. So what used to be 15 to 20 lines of code is now summed up in just six – add this to `viewDidLoad()` now:
+Beautifully, brilliantly, all five of those steps are exactly what `NSPersistentContainer` does for us. So what used to be 15 to 20 lines of code is now summed up in just six - add this to `viewDidLoad()` now:
 
 ```swift
 container = NSPersistentContainer(name: "Project38")
@@ -97,7 +97,7 @@ The first line creates the persistent container, and must be given the name of t
 
 There’s one small thing we do still need to do ourselves, and that’s to write a small method to save any changes from memory back to the database on disk. The persistent container gives us a property called `viewContext`, which is a managed object context: an environment where we can manipulate Core Data objects entirely in RAM.
 
-Once you’ve finished your changes and want to write them permanently – i.e., save them to disk – you need to call the `save()` method on the `viewContext` property. However, this should only be done if there are any changes since the last save – there’s no point doing unnecessary work. So, before calling `save()` you should read the `hasChanges` property. We’re going to wrap this all up in a single method called `saveContext()` – add this new method just after `viewDidLoad()`:
+Once you’ve finished your changes and want to write them permanently - i.e., save them to disk - you need to call the `save()` method on the `viewContext` property. However, this should only be done if there are any changes since the last save - there’s no point doing unnecessary work. So, before calling `save()` you should read the `hasChanges` property. We’re going to wrap this all up in a single method called `saveContext()` - add this new method just after `viewDidLoad()`:
 
 ```swift
 func saveContext() {

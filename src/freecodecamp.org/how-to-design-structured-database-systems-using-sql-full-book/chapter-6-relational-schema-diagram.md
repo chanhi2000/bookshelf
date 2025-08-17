@@ -65,11 +65,11 @@ As you can see, here we have a relational diagram representing the logical desig
 
 First, instead of entities, we have tables here, each with a series of attributes. If any attribute is used in a primary key, it’s underlined like PoolID or CityID, with all other attributes being "normal" table attributes. Also, foreign keys are represented directly with arrows. In this case, CityFK is a foreign key that references the CityID attribute of the City table because it’s a primary key, which is why it's denoted with an arrow pointing from the foreign key attribute to the corresponding attribute in the other table.
 
-Regarding the foreign key, keep in mind that an attribute can only point to one other attribute – meaning `CityFK` can only have one arrow pointing to one attribute, not several, as the foreign key references a single attribute in another table. If we were asked to convert this relational diagram into an entity-relationship diagram, the foreign key itself would determine the cardinalities of the association (at least the maximum cardinalities, since, for that foreign key to make sense, at the conceptual level, it would translate to a pool being in only one city at most, while a city can have an arbitrary number of pools).
+Regarding the foreign key, keep in mind that an attribute can only point to one other attribute - meaning `CityFK` can only have one arrow pointing to one attribute, not several, as the foreign key references a single attribute in another table. If we were asked to convert this relational diagram into an entity-relationship diagram, the foreign key itself would determine the cardinalities of the association (at least the maximum cardinalities, since, for that foreign key to make sense, at the conceptual level, it would translate to a pool being in only one city at most, while a city can have an arbitrary number of pools).
 
 These types of diagrams aren’t standard like UML. They only need to meet the characteristics mentioned earlier. That's why, in many cases, tables are represented with squares similar to UML entities instead of being shown in textual format with Datalog.
 
-But unlike UML diagrams, there are very few implicit restrictions here. Most restrictions need to be added with notes in the margins. For example, to indicate that an attribute can’t have a NULL value, we can’t do it with diagram elements – instead, it must be represented by other means, such as a note or a piece of code in **OCL**.
+But unlike UML diagrams, there are very few implicit restrictions here. Most restrictions need to be added with notes in the margins. For example, to indicate that an attribute can’t have a NULL value, we can’t do it with diagram elements - instead, it must be represented by other means, such as a note or a piece of code in **OCL**.
 
 ---
 
@@ -99,7 +99,7 @@ For example, here we have a 1-M relationship between the entities House and Pers
 
 ![Relational schema diagram where House references Person through a foreign key.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752074660667/ba64c7d8-7315-4f00-b3ff-0915af14d5d4.png)
 
-Just like before, we implement both entities with tables, and the 1-M association between them with a foreign key in the entity on the side where the maximum cardinality is `*`. Specifically, to avoid repetitive groups, we place the foreign key in house, since a house can only have one person as its owner. This means it won't be necessary to store an arbitrary number of references in the attribute of its foreign key – one is enough.
+Just like before, we implement both entities with tables, and the 1-M association between them with a foreign key in the entity on the side where the maximum cardinality is `*`. Specifically, to avoid repetitive groups, we place the foreign key in house, since a house can only have one person as its owner. This means it won't be necessary to store an arbitrary number of references in the attribute of its foreign key - one is enough.
 
 And as always, the foreign key refers to the primary key of Person, so that it can reference a value of an attribute that can uniquely identify a person, and thus determine the owner of a house.
 
@@ -107,9 +107,9 @@ And as always, the foreign key refers to the primary key of Person, so that it c
 
 ## Minimum cardinality issues
 
-Regarding the previous entity-relationship diagram, we can see that the `1..1` side indicates that at a minimum, a house must always be associated with a person who will be its owner. This means that a house must always have an owner. But this is not realistic, as when a house is built, it may be without an owner for some time, causing the cardinality on that side of the association to become `0..1`. In turn, the minimum cardinality of 0 means that a house may not have an owner – so its foreign key should not exist while the house has no owner. To model this, attributes, including foreign keys, are allowed to take NULL as a value by default (as we’ve seen before). This way, to represent that the foreign key does not point anywhere, we simply choose not to restrict the possibility of it taking this NULL value. So when a house has no owner, its foreign key attribute will be NULL until it references a person – that is, a tuple in the Person table.
+Regarding the previous entity-relationship diagram, we can see that the `1..1` side indicates that at a minimum, a house must always be associated with a person who will be its owner. This means that a house must always have an owner. But this is not realistic, as when a house is built, it may be without an owner for some time, causing the cardinality on that side of the association to become `0..1`. In turn, the minimum cardinality of 0 means that a house may not have an owner - so its foreign key should not exist while the house has no owner. To model this, attributes, including foreign keys, are allowed to take NULL as a value by default (as we’ve seen before). This way, to represent that the foreign key does not point anywhere, we simply choose not to restrict the possibility of it taking this NULL value. So when a house has no owner, its foreign key attribute will be NULL until it references a person - that is, a tuple in the Person table.
 
-This situation, where a foreign key is allowed to take the NULL value, is not explicitly indicated in the relational diagram. Instead, it’s indicated when the opposite situation occurs – where if the foreign key can’t be NULL, we need to add a note clearly indicating this (as is the case in the original entity-relationship diagram we just saw).
+This situation, where a foreign key is allowed to take the NULL value, is not explicitly indicated in the relational diagram. Instead, it’s indicated when the opposite situation occurs - where if the foreign key can’t be NULL, we need to add a note clearly indicating this (as is the case in the original entity-relationship diagram we just saw).
 
 On the other hand, the association in the diagram has a multiplicity of `0..*` on the House side, indicating that a person doesn’t have to own any house. But if we had a minimum cardinality greater than 0, then this restriction would need to be defined with a note in the relational diagram, as well as with specific SQL tools (since there are no standard elements to model this type of requirement caused by minimum cardinalities in such a situation).
 
@@ -147,7 +147,7 @@ But if we really need to implement an N-M relationship and we’re sure that thi
 
 ![Entity-relationship diagram where Property is a weak entity that connects House and Person with sales data.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752070430749/a6f7f0cc-7fcb-4fce-ac0f-6d41fc1e7610.png)
 
-For example, considering the situation where we do need to store information in an intermediate class, we previously saw that Property had its own primary key, **PropertyID**, probably derived from a surrogate key. But if there is no surrogate key, we must try to identify the tuples of Property through their attributes. In this case, this isn’t possible given their semantics – meaning the significance of what they store – as there could be multiple tuples with the same dates, prices, and so on.
+For example, considering the situation where we do need to store information in an intermediate class, we previously saw that Property had its own primary key, **PropertyID**, probably derived from a surrogate key. But if there is no surrogate key, we must try to identify the tuples of Property through their attributes. In this case, this isn’t possible given their semantics - meaning the significance of what they store - as there could be multiple tuples with the same dates, prices, and so on.
 
 So, knowing that two foreign keys will appear in Property referencing House and **Person** when translated to the logical level, we can use them to define the primary key of Property using **BuyDate** and the foreign key attributes themselves.
 
@@ -161,9 +161,9 @@ Also, it’s important to note that if Property had a surrogate key and did not 
 
 ![Relational schema diagram where Property references House and Person through foreign keys.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752071302075/d712f40f-1b86-4a5c-bc84-0f5f33851215.png)
 
-Regarding the logical-level translation of this last case, we. doit in the same way – the difference being that we no longer have the PropertyID attribute in Property. Also, its primary key is now **{BuyDate, HouseFK, PersonFK}**, so we underline all those attributes.
+Regarding the logical-level translation of this last case, we. doit in the same way - the difference being that we no longer have the PropertyID attribute in Property. Also, its primary key is now **{BuyDate, HouseFK, PersonFK}**, so we underline all those attributes.
 
-As a general rule, when a foreign key is underlined in a relational diagram, it indicates that the conceptual-level entity corresponding to the table is weak in identification. This lets us know how many entities it depends on – that is, its owning entities.
+As a general rule, when a foreign key is underlined in a relational diagram, it indicates that the conceptual-level entity corresponding to the table is weak in identification. This lets us know how many entities it depends on - that is, its owning entities.
 
 ---
 
@@ -185,7 +185,7 @@ In this case, the superclass **Pool** is an entity that contains all existing po
 
 In our model, we have only specified these two types of pools, while in reality, there are many other types of pools. In this hierarchy, they’d be represented by individuals in the set generated by Pool, as they don’t have any inheriting class to belong to. So in this case, our hierarchy would not be complete, but **partial**, since there are pools that do not belong to any inheriting entity.
 
-On the other hand, **disjunction** refers to the possibility of individuals belonging to more than one inheriting entity at the same time. For example, in our case, a pool is either a city pool or an Olympic pool, or it’s neither of those types – so we will never find a pool that is both a city and an Olympic pool at the same time.
+On the other hand, **disjunction** refers to the possibility of individuals belonging to more than one inheriting entity at the same time. For example, in our case, a pool is either a city pool or an Olympic pool, or it’s neither of those types - so we will never find a pool that is both a city and an Olympic pool at the same time.
 
 If we consider the sets of individuals of the inheriting entities, the hierarchy is considered **disjoint** when those sets are disjoint, as in this case where pools are either one type or the other, but not both at the same time. Conversely, in cases where the latter occurs, the hierarchy is called overlapping.
 
@@ -207,7 +207,7 @@ For example, if a tuple represents a pool from the Pool entity, then all the att
 
 The same thing happens when we try to distinguish city pools, where all the attributes of OlympicPool must be NULL, since `CityPool` inherits all the attributes of the Pool entity. So all those attributes plus those specific to `CityPool` will have values, while those of OlympicPool will be NULL to indicate that the pool is a city pool. This also happens when we want to know if a tuple represents an Olympic pool, where the attributes of `CityPool` will be NULL.
 
-So if we implement the IS-A hierarchy with a single table, we will have the problem of distinguishing the types of pools – that is, knowing if a tuple represents an occurrence of the superclass entity or one of the inheriting entities. This could lead to a potentially large number of NULL values occupying unnecessary space in the table, even though working with such a table might be easy to understand.
+So if we implement the IS-A hierarchy with a single table, we will have the problem of distinguishing the types of pools - that is, knowing if a tuple represents an occurrence of the superclass entity or one of the inheriting entities. This could lead to a potentially large number of NULL values occupying unnecessary space in the table, even though working with such a table might be easy to understand.
 
 Also, we can also consider the ease with which the schema can be extended or modified as an advantage. This is because if a foreign key is later added in our domain in any of the 3 tables of the hierarchy referencing another entity, it would simply be necessary to add a foreign key attribute to the Pool table. Similarly, if an external foreign key points to any of the entities in the hierarchy, it would only need to reference PoolID.
 
@@ -239,7 +239,7 @@ But, if we insist on using two tables to implement the hierarchy, we could refin
 
 As you can see above, we have two tables where one is exclusively dedicated to storing tuples that contain the attributes characterizing an Olympic pool. The other entity encompasses all pools, including city pools and Olympic pools. This is because an Olympic pool also inherits the attributes of the superclass, so to represent it in this schema, we create two tuples: one in Pool that stores the values of the superclass attributes, leaving the rest as NULL, and another tuple in OlympicPool that stores the remaining attributes, with its foreign key (which is also the primary key), referencing the corresponding tuple in Pool with the superclass attribute values.
 
-The main advantage of this option is that it solves the problem of having an external foreign key referencing Pool – as in this case, it would simply need to point to the primary key {PoolID} of Pool, instead of several attributes at once as it did before.
+The main advantage of this option is that it solves the problem of having an external foreign key referencing Pool - as in this case, it would simply need to point to the primary key {PoolID} of Pool, instead of several attributes at once as it did before.
 
 But this leaves us with a significantly more complex schema to understand and work with, as the way to store a city pool is entirely different from storing an Olympic pool. This complicates certain operations like inserting an Olympic pool, where we’d need to create two tuples in Pool and OlympicPool so that the primary/foreign key of OlympicPool points to the tuple created in Pool. It also complicates counting the pools that are neither Olympic nor city pools in the system, where all those tuples in Pool with NULL in the attributes characterizing city pools must be found.
 
@@ -247,7 +247,7 @@ Finally, although we see that the primary key of OlympicPool is also foreign in 
 
 ### 3 tables
 
-So, if we have an incomplete hierarchy and really want to make sure that the implementation lets us distinguish between the different types of pools and identify those pools that don’t belong to any inheriting entity, we can use three tables – one for each entity, respectively.
+So, if we have an incomplete hierarchy and really want to make sure that the implementation lets us distinguish between the different types of pools and identify those pools that don’t belong to any inheriting entity, we can use three tables - one for each entity, respectively.
 
 ![Relational schema where CityPool and OlympicPool inherit from Pool, adding specific attributes.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752084637220/69491535-2a0c-4080-bf09-10967addced1.png)
 
@@ -287,6 +287,6 @@ Regarding the inheriting entities, we should create a table for each one when th
 
 In short, the more entities we combine into a single table, the more NULL values we will encounter, since to **distinguish** them, the table attributes that do not correspond to the concept or entity we want to represent must be NULL, as if they don’t exist.
 
-This would also complicate database operations, as operations would need to consider which attributes should or should not be NULL – as well as the constraints – which must account for the presence of NULL values to be verified.
+This would also complicate database operations, as operations would need to consider which attributes should or should not be NULL - as well as the constraints - which must account for the presence of NULL values to be verified.
 
 On the other hand, if we know the hierarchy is complete, then instead of implementing a table for the superclass, we can decide to implement tables for each inheriting entity, where each one has the attributes of the superclass. But this option loses its purpose when we have a superclass with too many attributes, which would be repeated in several tables, potentially many.

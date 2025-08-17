@@ -98,11 +98,11 @@ Encapsulation helps to bundle data and functionality together while restricting 
 
 Object-oriented programming is widely used in the software industry and is a fundamental skill for developers working on large-scale applications. Understanding OOP provides several benefits:
 
-- **Improved Code Organization** – OOP structures code into modular, reusable components, making it easier to read and manage.
-- **Enhanced Code Maintainability** – Encapsulation and abstraction help prevent unintended modifications, reducing the risk of errors.
-- **Code Reusability** – Inheritance allows developers to reuse existing functionality instead of rewriting code from scratch.
-- **Scalability** – OOP principles enable applications to grow in complexity without becoming unmanageable.
-- **Industry Relevance** – Many programming languages and frameworks are based on OOP, making it a valuable skill for any developer.
+- **Improved Code Organization** - OOP structures code into modular, reusable components, making it easier to read and manage.
+- **Enhanced Code Maintainability** - Encapsulation and abstraction help prevent unintended modifications, reducing the risk of errors.
+- **Code Reusability** - Inheritance allows developers to reuse existing functionality instead of rewriting code from scratch.
+- **Scalability** - OOP principles enable applications to grow in complexity without becoming unmanageable.
+- **Industry Relevance** - Many programming languages and frameworks are based on OOP, making it a valuable skill for any developer.
 
 ---
 
@@ -110,13 +110,13 @@ Object-oriented programming is widely used in the software industry and is a fun
 
 The course is structured to gradually introduce concepts, ensuring that learners fully grasp each topic before moving on. Below is a general outline of the course contents:
 
-- **Introduction** – Overview of object-oriented programming and its importance.
-- **Creating Classes and Objects** – Understanding how to define and instantiate objects in Python.
-- **Working with Object Attributes and Methods** – Learning how to modify and access data within objects.
-- **Encapsulation and Data Protection** – Implementing public, protected, and private attributes.
-- **Inheritance and Code Reusability** – Using inheritance to build more efficient programs.
-- **Polymorphism and Flexibility** – Applying polymorphism to create adaptable code.
-- **Conclusion** – Summarizing key concepts and reinforcing best practices.
+- **Introduction** - Overview of object-oriented programming and its importance.
+- **Creating Classes and Objects** - Understanding how to define and instantiate objects in Python.
+- **Working with Object Attributes and Methods** - Learning how to modify and access data within objects.
+- **Encapsulation and Data Protection** - Implementing public, protected, and private attributes.
+- **Inheritance and Code Reusability** - Using inheritance to build more efficient programs.
+- **Polymorphism and Flexibility** - Applying polymorphism to create adaptable code.
+- **Conclusion** - Summarizing key concepts and reinforcing best practices.
 
 ---
 

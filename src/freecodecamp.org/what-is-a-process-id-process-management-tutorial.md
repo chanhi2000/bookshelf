@@ -87,7 +87,7 @@ Simply put,
 
 Let’s understand what’s going on in the background.
 
-Whenever a program runs, no matter the language, it needs memory and time to execute. So, when you run a program, the operating system creates a new process for it. To identify the program, the computer assigns it a unique identifier – the **Process ID** – and then it begins execution.
+Whenever a program runs, no matter the language, it needs memory and time to execute. So, when you run a program, the operating system creates a new process for it. To identify the program, the computer assigns it a unique identifier - the **Process ID** - and then it begins execution.
 
 Let’s revisit our previous example:
 
@@ -198,7 +198,7 @@ This forcefully terminates the process and bypasses any shutdown procedures it m
 
 ---
 
-## How to Stop Cron Jobs Using a PID – Practical Example
+## How to Stop Cron Jobs Using a PID - Practical Example
 
 So, let’s say you’ve got a cron job running, and it’s acting up. How do you stop it?
 

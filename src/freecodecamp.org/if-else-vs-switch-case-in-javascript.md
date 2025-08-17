@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "If-Else vs Switch Case in JavaScript – Which One is Better?"
-description: "Article(s) > If-Else vs Switch Case in JavaScript – Which One is Better?"
+title: "If-Else vs Switch Case in JavaScript - Which One is Better?"
+description: "Article(s) > If-Else vs Switch Case in JavaScript - Which One is Better?"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > If-Else vs Switch Case in JavaScript – Which One is Better?"
+      content: "Article(s) > If-Else vs Switch Case in JavaScript - Which One is Better?"
     - property: og:description
-      content: "If-Else vs Switch Case in JavaScript – Which One is Better?"
+      content: "If-Else vs Switch Case in JavaScript - Which One is Better?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/if-else-vs-switch-case-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740585035432/f829418
 ---
 
 <SiteInfo
-  name="If-Else vs Switch Case in JavaScript – Which One is Better?"
+  name="If-Else vs Switch Case in JavaScript - Which One is Better?"
   desc="JavaScript has been a popular programming language for almost 30 years now. Whether you’re using it for web applications, mobile applications, backend services, or even desktop applications, you’ll find that JavaScript has deep roots. Many of the lib..."
   url="https://freecodecamp.org/news/if-else-vs-switch-case-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -57,7 +57,7 @@ Many of the libraries and frameworks you likely use to build modern web applicat
 
 While these libraries and frameworks provide a lot of helpful abstractions on low-level programming, as an application developer you still have to have a solid grasp of JavaScript fundamentals to be able to use them effectively.
 
-A very basic programming concept is `Control Flow` and decision-making. And it’s not related to JavaScript alone – you’ll encounter it in most of the programming languages you work with.
+A very basic programming concept is `Control Flow` and decision-making. And it’s not related to JavaScript alone - you’ll encounter it in most of the programming languages you work with.
 
 In this article, you’ll learn about two primary techniques for managing control flow in JavaScript: using `if-else` and `switch-case`. Many of you may be aware of their constructs and usages. But the focus of this article is to draw a comparison between the two, so that by the end of it you’ll know which one to choose for each use case.
 
@@ -102,7 +102,7 @@ if (catchingBus) {
 // Some other code here...
 ```
 
-In the code snippet above, the result of the condition `catchingBus` is `true`. So the code execution flow will enter the if-block and execute the console log, `I will get home on time`. If you change the value of the condition to `false`, the if-block will be skipped. In such cases, you may want to handle an alternate use case – so you bring an `else` block along with the `if`.
+In the code snippet above, the result of the condition `catchingBus` is `true`. So the code execution flow will enter the if-block and execute the console log, `I will get home on time`. If you change the value of the condition to `false`, the if-block will be skipped. In such cases, you may want to handle an alternate use case - so you bring an `else` block along with the `if`.
 
 In the code snippet below, we have both if and else. In this case, the condition results in `false`. So, the `else` block will be executed and `I will be late to get home` will be logged into the console.
 
@@ -254,7 +254,7 @@ See you soon with my next article. Until then, please take care of yourself, and
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "If-Else vs Switch Case in JavaScript – Which One is Better?",
+  "title": "If-Else vs Switch Case in JavaScript - Which One is Better?",
   "desc": "JavaScript has been a popular programming language for almost 30 years now. Whether you’re using it for web applications, mobile applications, backend services, or even desktop applications, you’ll find that JavaScript has deep roots. Many of the lib...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/if-else-vs-switch-case-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

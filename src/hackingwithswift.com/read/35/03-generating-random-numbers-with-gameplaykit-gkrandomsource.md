@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ To produce a truly random number you'd use the `nextInt()` method like this:
 print(GKRandomSource.sharedRandom().nextInt())
 ```
 
-That produces a number between -2,147,483,648 and 2,147,483,647 – yes, that's a negative number, which means it's not a drop-in replacement for `arc4random()`. Plus, even with GameplayKit's great new logic, Apple includes a warning that it's not guaranteed to be random for very specific situations, so for both these reasons it's not likely you'll want to use `nextInt()` much.
+That produces a number between -2,147,483,648 and 2,147,483,647 - yes, that's a negative number, which means it's not a drop-in replacement for `arc4random()`. Plus, even with GameplayKit's great new logic, Apple includes a warning that it's not guaranteed to be random for very specific situations, so for both these reasons it's not likely you'll want to use `nextInt()` much.
 
 As an alternative, try using the `nextInt(upperBound:)` method, which works identically to `arc4random()`:
 

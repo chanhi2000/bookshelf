@@ -53,11 +53,11 @@ prev: /hackingwithswift.com/swiftui/how-to-change-the-tint-color-for-individual-
 
 > Updated for Xcode 15
 
-With its firm focus on declarative user interfaces, it should be no surprise that SwiftUI gives us a fantastic mechanism for building forms – collections of user input controls designed to gather information, such as an order form or a settings screen.
+With its firm focus on declarative user interfaces, it should be no surprise that SwiftUI gives us a fantastic mechanism for building forms - collections of user input controls designed to gather information, such as an order form or a settings screen.
 
 Even better, several parts of SwiftUI automatically adapt to being placed inside forms, with their appearance and behavior changing so they work better alongside other groups of input controls.
 
-If you thought *that* was clever, you're going to love this: SwiftUI actually dynamically adjusts the layouts to the point where it can make whole new screens automatically for us depending on what platform your code is running on – it fully decouples the *purpose* of our controls from their visuals. This means we describe what we *want* and SwiftUI figures out the idiomatic way to make that happen on the current platform.
+If you thought *that* was clever, you're going to love this: SwiftUI actually dynamically adjusts the layouts to the point where it can make whole new screens automatically for us depending on what platform your code is running on - it fully decouples the *purpose* of our controls from their visuals. This means we describe what we *want* and SwiftUI figures out the idiomatic way to make that happen on the current platform.
 
 ::: tip
 

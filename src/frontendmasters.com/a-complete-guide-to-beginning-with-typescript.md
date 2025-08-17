@@ -299,16 +299,16 @@ Lastly, it can take the most current ECMAScript specifications, as well as ECMAS
 
 We suggest becoming familiar with the following before you begin hands-on learning:
 
-- [<FontIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?strict=false&q=410#handbook-0)– A no-setup online simple TypeScript editor and compiler with tutorials.
+- [<FontIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?strict=false&q=410#handbook-0)- A no-setup online simple TypeScript editor and compiler with tutorials.
 - [<FontIcon icon="iconfont icon-vscode"/>TypeScript in VS Code](https://code.visualstudio.com/docs/typescript/typescript-tutorial)(or how TypeScript can augment your code editor of choice)
 - [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en/)&[<FontIcon icon="fa-brands fa-npm"/>npm](https://docs.npmjs.com/cli/v6)
-- [<FontIcon icon="iconfont icon-typescript"/>TypeScript Compiler](https://typescriptlang.org/docs/handbook/compiler-options.html)(aka, tsc) – the Node.js CLI tool provided by the[<FontIcon icon="fa-brands fa-npm"/>`typescript` package](https://npmjs.com/package/typescript).
+- [<FontIcon icon="iconfont icon-typescript"/>TypeScript Compiler](https://typescriptlang.org/docs/handbook/compiler-options.html)(aka, tsc) - the Node.js CLI tool provided by the[<FontIcon icon="fa-brands fa-npm"/>`typescript` package](https://npmjs.com/package/typescript).
 
 ---
 
 ## Start Learning
 
-### Step 1 – Introductory TypeScript
+### Step 1 - Introductory TypeScript
 
 Video Courses:
 
@@ -328,9 +328,9 @@ Reading Material:
 Exercises:
 
 - [TypeScript Tooling in 5 minutes](https://typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)\[free\]
-- [Learn TypeScript](https://codecademy.com/learn/learn-typescript)\[free – account required\]
+- [Learn TypeScript](https://codecademy.com/learn/learn-typescript)\[free - account required\]
 
-### Step 2 – TypeScript Intermediate to Advanced Concepts
+### Step 2 - TypeScript Intermediate to Advanced Concepts
 
 Video Courses:
 
@@ -350,11 +350,11 @@ Exercises:
 
 - [TypeScript Playground Examples](https://typescriptlang.org/play?strict=false&q=410#handbook-2)(click on “Examples”, read comments) \[free\]
 
-### Step 3 – TypeScript & Friends
+### Step 3 - TypeScript & Friends
 
 Video Courses:
 
-- [Full Stack TypeScript](https://typescript-training.com/course/full-stack-typescript)– Combines TypeScript and GraphQL \[$\]
+- [Full Stack TypeScript](https://typescript-training.com/course/full-stack-typescript)- Combines TypeScript and GraphQL \[$\]
 - [React and TypeScript, v2](https://frontendmasters.com/courses/react-typescript-v2/)\[$\]
 - [Enterprise TypeScript](https://frontendmasters.com/courses/enterprise-typescript/)\[$\]
 - [JavaScript and TypeScript Monorepos](https://frontendmasters.com/courses/monorepos/)\[$\]

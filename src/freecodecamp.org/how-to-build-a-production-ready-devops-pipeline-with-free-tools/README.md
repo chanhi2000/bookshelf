@@ -159,7 +159,7 @@ If DevOps feels out of reach because you’re also concerned about the cost, don
 
 ## Introduction
 
-When people hear "DevOps," they often picture complex enterprise systems powered by pricey tools and premium cloud services. But the truth is, you don't actually need a massive budget to build a solid, professional-grade DevOps pipeline. The foundations of good DevOps – automation, consistency, security, and visibility – can be built entirely with free tools.
+When people hear "DevOps," they often picture complex enterprise systems powered by pricey tools and premium cloud services. But the truth is, you don't actually need a massive budget to build a solid, professional-grade DevOps pipeline. The foundations of good DevOps - automation, consistency, security, and visibility - can be built entirely with free tools.
 
 In this guide, you will learn how to build a production-ready DevOps pipeline using zero-cost resources. We will use a simple CRUD (Create, Read, Update, Delete) app with frontend, backend API, and database as our example project to demonstrate every step of the process.
 
@@ -609,7 +609,7 @@ Turning on BuildKit can significantly speed up complex Docker builds and is high
 
 ### Why Infrastructure as Code (IaC) Matters
 
-When you manage infrastructure manually – that is, clicking around cloud dashboards or setting things up by hand – it’s easy to lose track of what you did and how to repeat it.
+When you manage infrastructure manually - that is, clicking around cloud dashboards or setting things up by hand - it’s easy to lose track of what you did and how to repeat it.
 
 Infrastructure as Code (IaC) solves this by letting you define your infrastructure with code, version it just like application code, and track every change over time. This makes your setups easy to replicate across environments (development, staging, production), ensures changes are declarative and auditable, and reduces human error.
 
@@ -642,7 +642,7 @@ Then, configure the provider by authenticating with your API key. It is best pra
 
 #### Provision a Web App on Render
 
-Next, define the infrastructure you want – in this case, a web service hosted on Render:
+Next, define the infrastructure you want - in this case, a web service hosted on Render:
 
 ```tf
 # Define a web service on Render's free tier
@@ -1134,7 +1134,7 @@ You can configure your pipelines to fail automatically if vulnerabilities exceed
     ignore-unfixed: true        # Skip vulnerabilities without fixes
 ```
 
-This forces a no-compromise security posture – that is, if critical or high vulnerabilities are detected, the build stops immediately.
+This forces a no-compromise security posture - that is, if critical or high vulnerabilities are detected, the build stops immediately.
 
 ### 5. Implement Custom Security Checks
 

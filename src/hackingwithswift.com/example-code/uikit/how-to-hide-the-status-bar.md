@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ override var prefersStatusBarHidden: Bool {
 
 Any view controller containing that code will hide the status bar by default.
 
-If you want to animate the status bar in or out, just call `setNeedsStatusBarAppearanceUpdate()` on your view controller – that will force `prefersStatusBarHidden` to be read again, at which point you can return a different value. If you want, your call to `setNeedsStatusBarAppearanceUpdate()` can actually be inside an animation block, which causes the status bar to hide or show in a smooth way.
+If you want to animate the status bar in or out, just call `setNeedsStatusBarAppearanceUpdate()` on your view controller - that will force `prefersStatusBarHidden` to be read again, at which point you can return a different value. If you want, your call to `setNeedsStatusBarAppearanceUpdate()` can actually be inside an animation block, which causes the status bar to hide or show in a smooth way.
 
 -->
 

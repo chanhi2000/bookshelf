@@ -62,7 +62,7 @@ A blog sounded like a good solution for this, so I set out to build one. In this
 
 The basic idea here was to build a website where I wouldn’t need to write code in the future. I just wanted to be able to add the URL of a new article to a JSON file, and the website would extract information like the title, date, cover image, and description and then update itself with it. No database.
 
-To understand how I would go about it, I checked the metadata of the HTML text from each of the platforms I considered. I used my articles, of course, like the one in the project folder. I found out that most of them used Open Graph metadata. So, that was easy to scrape. But, I also found out that some information wasn’t in the meta tags – instead, it was in the JSON-LD. At the end of the day, I ended up using both in my functions.
+To understand how I would go about it, I checked the metadata of the HTML text from each of the platforms I considered. I used my articles, of course, like the one in the project folder. I found out that most of them used Open Graph metadata. So, that was easy to scrape. But, I also found out that some information wasn’t in the meta tags - instead, it was in the JSON-LD. At the end of the day, I ended up using both in my functions.
 
 (1/5) [How the Blog Site Works](#heading-how-the-blog-site-works)
 (2/5) [The Structure of an Article on the Blog](#heading-what-does-an-article-look-like)
@@ -82,11 +82,11 @@ If you don't have those skills, you may still be able to understand the general 
 
 ## How the Blog Site Works
 
-The project consists of client components and server components. It is a website, so ideally, it's just a front-end. But it has to fetch data from URLs – and doing that from the client-side won’t work due to CORS blocking, as the requests will be emanating from a browser. So, it has to run on the server.
+The project consists of client components and server components. It is a website, so ideally, it's just a front-end. But it has to fetch data from URLs - and doing that from the client-side won’t work due to CORS blocking, as the requests will be emanating from a browser. So, it has to run on the server.
 
 ![Home page calling the fetch articles function.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748524048812/76baf11d-a80a-4d07-beba-065c74536541.png)
 
-The `fetchArticles()` function runs on the server – then this happens:
+The `fetchArticles()` function runs on the server - then this happens:
 
 ![Rough flowchart showing what happens in the fetchArticles function](https://cdn.hashnode.com/res/hashnode/image/upload/v1748536836320/9813a669-ac07-480a-8270-6f2f36ceda22.png)
 
@@ -100,7 +100,7 @@ But the `HomePage` component calls the `fetchArticles()` function and sets the `
 
 ![The HomePage component, and its child component, HomeClient.](https://cdn.hashnode.com/res/hashnode/image/upload/v1746881308147/1fedcbb0-f9d4-47dd-afea-b7f231595a58.png)
 
-Inside the `HomeClient` component, there are two components – the `Hero` component, and the `MainBody` component. The Hero component shows the welcome message, and also has the search bar. The MainBody component is where the tags and the article grid are. Logic for filtering articles are also in the MainBody component.
+Inside the `HomeClient` component, there are two components - the `Hero` component, and the `MainBody` component. The Hero component shows the welcome message, and also has the search bar. The MainBody component is where the tags and the article grid are. Logic for filtering articles are also in the MainBody component.
 
 ![The Hero and MainBody components inside the HomeClient component.](https://cdn.hashnode.com/res/hashnode/image/upload/v1746881333468/267d0158-df41-4a1d-8098-e3219fe7db4d.png)
 
@@ -184,7 +184,7 @@ Here, the `filtered` constant is equal to the filtered values of `articles`.
 const filtered = articles.filter();
 ```
 
-Inside the [<FontIcon icon="fa-brands fa-firefox"/>filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written – `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
+Inside the [<FontIcon icon="fa-brands fa-firefox"/>filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written - `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
 
 If any tag at all is active, then the results for both `tagMatch` and `searchMatch` are returned, but if no tag at all is active, then only the `searchMatch` is returned as true.
 
@@ -202,7 +202,7 @@ The filtered article list is what is then passed into the `ArticleCard` componen
 
 At the root, we have the config files and `node_modules` which is not displayed here. The `public` folder holds all the images and icons. Then, in the `src` folder, we have `app`, `component`, and `utils`.
 
-The `components` folder holds the files for the components – the nav bar, footer, hero, main body and article card. The `utils` folder has all the functions that run in the background and do not need to render anything. The `fetchArticles` function is there, along with other functions for extracting the date published, title, description, image URL, and others from HTTP responses gotten from the article URLs. The `app` folder has the favicon, the global CSS stylesheet, the `page` and `layout` files, `articles.json` which is the JSON file where I add new article URLs for rendering, a test HTML file (wsl.html), and the `about/` and `api/` directories.
+The `components` folder holds the files for the components - the nav bar, footer, hero, main body and article card. The `utils` folder has all the functions that run in the background and do not need to render anything. The `fetchArticles` function is there, along with other functions for extracting the date published, title, description, image URL, and others from HTTP responses gotten from the article URLs. The `app` folder has the favicon, the global CSS stylesheet, the `page` and `layout` files, `articles.json` which is the JSON file where I add new article URLs for rendering, a test HTML file (wsl.html), and the `about/` and `api/` directories.
 
 Inside the about folder, we have the about page, and inside the API folder, we have tthe folder, `metadata-local-test` which is no longer relevant to the project. I used it initially to create an internal API to fetch from the URLs. But I later restructured the codebase.
 
@@ -875,7 +875,7 @@ Then, we have four groups `()()()()`. The first one is a non-captured group `(?:
 
 The second group is also a non-capturing group, also denoted by `?:` being the first thing inside the bracket. This one matches any 'www.' in the string. It's also optional. A URL may not necessarily be written with it.
 
-The third group is a capturing group as it doesn't have `?:` inside the brackets. Rather, it has a character class in it `[]`. But it's a negated class `[^ ]`. It makes sure that the class does not contain a newline character `n` (the newline character n is not a string of letter n – that's why it is escaped) or a forward slash `/`, because a URL is supposed to be one line, and not multiple lines. The `+` means one or more characters, `([^\/\n]+)`. Whatever is in this group will get captured in the variable.
+The third group is a capturing group as it doesn't have `?:` inside the brackets. Rather, it has a character class in it `[]`. But it's a negated class `[^ ]`. It makes sure that the class does not contain a newline character `n` (the newline character n is not a string of letter n - that's why it is escaped) or a forward slash `/`, because a URL is supposed to be one line, and not multiple lines. The `+` means one or more characters, `([^\/\n]+)`. Whatever is in this group will get captured in the variable.
 
 Then, the next one matches a dot (it is escaped with a backslash `.`). After that is the last group which is also non-capturing and matches any character which is alphanumeric, capital or small letter `[a-zA-Z]`, that occurs more than two times `{2, }`.
 
@@ -952,7 +952,7 @@ In the <FontIcon icon="fas fa-folder-open"/>`app/` directory, create a new file 
 
 ![The <FontIcon icon="fas fa-folder-open"/>`app/` directory](https://cdn.hashnode.com/res/hashnode/image/upload/v1746947297567/ed6b282b-971e-428b-a7b6-9d6bf5e44520.png)
 
-Then populate it like in this file below – an array of objects with id, URL, tags, and so on. Even though we are not trying to get the title, description, and everything from this file directly, I put in that feature. If you go back to our `fetchArticles()` function, you'll see that for most of the properties, whatever you write here will override what was gotten from the URLs.
+Then populate it like in this file below - an array of objects with id, URL, tags, and so on. Even though we are not trying to get the title, description, and everything from this file directly, I put in that feature. If you go back to our `fetchArticles()` function, you'll see that for most of the properties, whatever you write here will override what was gotten from the URLs.
 
 It was partly a fail-safe because I thought that LinkedIn would block all requests, and as you can see from my blog already, some description tags were not well organized. So, we can replace them later with a cleaner description just by modifying this file.
 
@@ -991,7 +991,7 @@ Here, we have an "articles" object with an array of objects, each of which have 
 
 ### 8. Add the finishing touches
 
-Now you can add your own favicon in the app directory. It could be a 24px by 24px file, or 48px by 48px file. It doesn't necessarily have to be in the app directory or be an icon file or be named 'favicon' – but I did it that way. You can just add this in the HTML header of your layout.tsx file which is your Next.js version of <FontIcon icon="fa-brands fa-html5"/>`index.html`. The favicon is the icon that shows on the tab in your browser when you open the page.
+Now you can add your own favicon in the app directory. It could be a 24px by 24px file, or 48px by 48px file. It doesn't necessarily have to be in the app directory or be an icon file or be named 'favicon' - but I did it that way. You can just add this in the HTML header of your layout.tsx file which is your Next.js version of <FontIcon icon="fa-brands fa-html5"/>`index.html`. The favicon is the icon that shows on the tab in your browser when you open the page.
 
 ```html title="index.html"
 <link rel="icon" href="/favicon.ico" sizes="any" />

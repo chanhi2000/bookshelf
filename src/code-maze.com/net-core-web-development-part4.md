@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API –  Repository Pattern
-description: Article(s) > ASP.NET Core Web API –  Repository Pattern
+title: ASP.NET Core Web API -  Repository Pattern
+description: Article(s) > ASP.NET Core Web API -  Repository Pattern
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API –  Repository Pattern
+      content: Article(s) > ASP.NET Core Web API -  Repository Pattern
     - property: og:description
-      content: ASP.NET Core Web API –  Repository Pattern
+      content: ASP.NET Core Web API -  Repository Pattern
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part4.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part4/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API –  Repository Pattern"
+  name="ASP.NET Core Web API -  Repository Pattern"
   desc="Let's learn how to create a Repository pattern in ASP.NET Core Web API application and how to create a Repository layer to fetch the data from the database."
   url="https://code-maze.com/net-core-web-development-part4/"
   logo="/assets/image/code-maze.com/favicon.png"

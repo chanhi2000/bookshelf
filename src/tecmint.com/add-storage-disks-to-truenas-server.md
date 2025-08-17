@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "How to Configure ZFS Storage and NFS Shares in TrueNAS – Part 2"
-description: "Article(s) > How to Configure ZFS Storage and NFS Shares in TrueNAS – Part 2"
+title: "How to Configure ZFS Storage and NFS Shares in TrueNAS - Part 2"
+description: "Article(s) > How to Configure ZFS Storage and NFS Shares in TrueNAS - Part 2"
 icon: iconfont icon-truenas
 category: 
   - Shell
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Configure ZFS Storage and NFS Shares in TrueNAS – Part 2"
+      content: "Article(s) > How to Configure ZFS Storage and NFS Shares in TrueNAS - Part 2"
     - property: og:description
-      content: "How to Configure ZFS Storage and NFS Shares in TrueNAS – Part 2"
+      content: "How to Configure ZFS Storage and NFS Shares in TrueNAS - Part 2"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/add-storage-disks-to-truenas-server.html
 prev: /devops/linux-debian/articles/README.md
@@ -48,7 +48,7 @@ cover: https://tecmint.com/wp-content/uploads/2014/11/Add-Storage-Disks-to-TrueN
 ---
 
 <SiteInfo
-  name="How to Configure ZFS Storage and NFS Shares in TrueNAS – Part 2"
+  name="How to Configure ZFS Storage and NFS Shares in TrueNAS - Part 2"
   desc="In this article, we will cover the configuration of TrueNAS to set up ZFS storage disks and enable NFS share on TrueNAS to share on Unix and Windows systems."
   url="https://tecmint.com/add-storage-disks-to-truenas-server"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"

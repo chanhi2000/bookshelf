@@ -62,7 +62,7 @@ I'm excited to announce that Dave Gray, one of our most popular instructors, has
 
 ### Hands-On Learning with Small Projects
 
-Learning Python isn't just about memorizing syntax – it's about building practical skills. This course is packed with a variety of small projects that you'll work on throughout your Python journey. These projects serve as invaluable learning tools, helping you grasp Python's fundamental concepts and apply them in real-world scenarios. By actively coding and solving problems, you'll solidify your understanding of Python and gain confidence in your programming abilities.
+Learning Python isn't just about memorizing syntax - it's about building practical skills. This course is packed with a variety of small projects that you'll work on throughout your Python journey. These projects serve as invaluable learning tools, helping you grasp Python's fundamental concepts and apply them in real-world scenarios. By actively coding and solving problems, you'll solidify your understanding of Python and gain confidence in your programming abilities.
 
 ### Structured like a Video Textbook
 

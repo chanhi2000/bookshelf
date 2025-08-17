@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI centers its views by default, which means if you place three text views inside a `VStack` all three will sit centered vertically in the screen. If you want to change this – if you want to force views towards the top, bottom, left, or right of the screen – then you should use a `Spacer` view.
+SwiftUI centers its views by default, which means if you place three text views inside a `VStack` all three will sit centered vertically in the screen. If you want to change this - if you want to force views towards the top, bottom, left, or right of the screen - then you should use a `Spacer` view.
 
 For example, this places one text view inside a `VStack`, which means it will be centered vertically:
 

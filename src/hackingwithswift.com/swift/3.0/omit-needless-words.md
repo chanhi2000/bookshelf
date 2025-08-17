@@ -61,7 +61,7 @@ names.insert("Jane", atIndex: 0)
 UIDevice.currentDevice()
 ```
 
-Can you identify the needless words? When you're working with `UIColor`, of course blue is going to be a color, so saying `blueColor()` is needless. When you append one attributed string to another, do you really need to specify that it's an attributed string you're appending as opposed to an elephant? And why should it be a method – surely a color should be a property!
+Can you identify the needless words? When you're working with `UIColor`, of course blue is going to be a color, so saying `blueColor()` is needless. When you append one attributed string to another, do you really need to specify that it's an attributed string you're appending as opposed to an elephant? And why should it be a method - surely a color should be a property!
 
 Here is that same code in Swift 3:
 
@@ -106,7 +106,7 @@ myPath.appendingPathComponent("file.txt")
 
 :::
 
-I've chosen the examples so far because the jump to Swift 3 isn't vast, but there are quite a few changes that were significant enough to make my brain hit a speedbump – usually when the resulting method is so short that it wasn't immediately obvious what it was.
+I've chosen the examples so far because the jump to Swift 3 isn't vast, but there are quite a few changes that were significant enough to make my brain hit a speedbump - usually when the resulting method is so short that it wasn't immediately obvious what it was.
 
 For example, look at this code:
 

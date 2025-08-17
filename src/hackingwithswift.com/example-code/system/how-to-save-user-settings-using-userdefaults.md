@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -75,7 +75,7 @@ defaults.set("Paul Hudson", forKey: "Name")
 defaults.set(Date.now, forKey: "LastRun")
 ```
 
-When you set values like that, they become permanent – you can quit the app then re-launch and they'll still be there, so it's the ideal way to store app configuration data. As an advance warning, you might find some old tutorials recommend calling the `synchronize()` method to force your data to save, but Apple has asked us not to do that for some years now.
+When you set values like that, they become permanent - you can quit the app then re-launch and they'll still be there, so it's the ideal way to store app configuration data. As an advance warning, you might find some old tutorials recommend calling the `synchronize()` method to force your data to save, but Apple has asked us not to do that for some years now.
 
 As mentioned, you can use `UserDefaults` to store arrays and dictionaries, like this:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Use Pandoc – An Open Source Tool for Technical Writers
-description: Article(s) > How to Use Pandoc – An Open Source Tool for Technical Writers
+title: How to Use Pandoc - An Open Source Tool for Technical Writers
+description: Article(s) > How to Use Pandoc - An Open Source Tool for Technical Writers
 icon: fas fa-brain
 category: 
   - Haskell
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Use Pandoc – An Open Source Tool for Technical Writers
+      content: Article(s) > How to Use Pandoc - An Open Source Tool for Technical Writers
     - property: og:description
-      content: How to Use Pandoc – An Open Source Tool for Technical Writers
+      content: How to Use Pandoc - An Open Source Tool for Technical Writers
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-pandoc.html
 prev: /programming/hs/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/pandoc-fr
 ---
 
 <SiteInfo
-  name="How to Use Pandoc – An Open Source Tool for Technical Writers"
+  name="How to Use Pandoc - An Open Source Tool for Technical Writers"
   desc="Technical writers frequently navigate the complexities of various document formats and revisions. Pandoc, a free and open-source tool, offers a powerful solution to streamline these processes. In this tutorial, I'll explain the Pandoc's functionalities, specifically focusing on two key areas that can significantly enhance the workflow for technical writers..."
   url="https://freecodecamp.org/news/how-to-use-pandoc/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

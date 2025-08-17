@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974d
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Logging Inside Python – Real Python"
+  name="Logging Inside Python - Real Python"
   desc="In this video course, you'll learn why and how to get started with Python's powerful logging module to meet the needs of beginners and enterprise teams alike."
   url="https://realpython.com/courses/logging-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -81,7 +81,7 @@ You’ll do the coding for this tutorial in the [**Python standard REPL**](/real
 ::: info Quiz - Logging in Python
 
 <SiteInfo
-  name="Logging in Python Quiz – Real Python"
+  name="Logging in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's logging module. With this knowledge, you'll be able to add logging to your applications, which can help you debug errors and analyze performance."
   url="https://realpython.com/quizzes/logging-in-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -776,7 +776,7 @@ Using logging instead of `print()` allows you to control the level of detail in 
 ::: info Quiz - Logging in Python
 
 <SiteInfo
-  name="Logging in Python Quiz – Real Python"
+  name="Logging in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's logging module. With this knowledge, you'll be able to add logging to your applications, which can help you debug errors and analyze performance."
   url="https://realpython.com/quizzes/logging-in-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -791,7 +791,7 @@ In this quiz, you'll test your understanding of Python's logging module. With th
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Logging Inside Python – Real Python"
+  name="Logging Inside Python - Real Python"
   desc="In this video course, you'll learn why and how to get started with Python's powerful logging module to meet the needs of beginners and enterprise teams alike."
   url="https://realpython.com/courses/logging-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

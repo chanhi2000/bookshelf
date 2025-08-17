@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Once you have an `MKMapView` up and running, it only takes a few lines of code m
 
 Start by making your view controller the delegate of your map view, so that we can receive events. You should also make your view controller conform to `MKMapViewDelegate` in code.
 
-Adding pins to the map takes two code changes. First you need to create an annotation describing where the pin is and what its name is – put this in your `viewDidLoad()` method:
+Adding pins to the map takes two code changes. First you need to create an annotation describing where the pin is and what its name is - put this in your `viewDidLoad()` method:
 
 ```swift
 let london = MKPointAnnotation()

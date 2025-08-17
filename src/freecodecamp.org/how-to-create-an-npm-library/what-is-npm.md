@@ -68,9 +68,9 @@ This command should return the version of npm installed on your system.
 
 npm operates through three key components:
 
-1. **The npm Registry** – A public repository that hosts open-source JavaScript packages.
-2. **The npm CLI (Command Line Interface)** – A tool that allows developers to install, update, and manage packages from the command line.
-3. **The package.json File** – A metadata file that keeps track of dependencies, scripts, and project configurations.
+1. **The npm Registry** - A public repository that hosts open-source JavaScript packages.
+2. **The npm CLI (Command Line Interface)** - A tool that allows developers to install, update, and manage packages from the command line.
+3. **The package.json File** - A metadata file that keeps track of dependencies, scripts, and project configurations.
 
 When you install a package using npm, it pulls the package from the registry and saves it in the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder within your project.
 
@@ -120,9 +120,9 @@ A typical <FontIcon icon="iconfont icon-json"/>`package.json` file looks like th
 }
 ```
 
-- `dependencies` – Lists essential packages required for the application to function.
-- `devDependencies` – Includes development-only dependencies (for example, testing and linting tools).
-- `scripts` – Defines CLI commands for automating tasks.
+- `dependencies` - Lists essential packages required for the application to function.
+- `devDependencies` - Includes development-only dependencies (for example, testing and linting tools).
+- `scripts` - Defines CLI commands for automating tasks.
 
 To install all dependencies listed in <FontIcon icon="iconfont icon-json"/>`package.json`, simply run:
 

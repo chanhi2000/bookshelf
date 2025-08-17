@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Create an AWS Free Tier Account – A Step-by-Step Guide"
-description: "Article(s) > How to Create an AWS Free Tier Account – A Step-by-Step Guide"
+title: "How to Create an AWS Free Tier Account - A Step-by-Step Guide"
+description: "Article(s) > How to Create an AWS Free Tier Account - A Step-by-Step Guide"
 icon: fa-brands fa-aws
 category:
   - DevOps
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Create an AWS Free Tier Account – A Step-by-Step Guide"
+      content: "Article(s) > How to Create an AWS Free Tier Account - A Step-by-Step Guide"
     - property: og:description
-      content: "How to Create an AWS Free Tier Account – A Step-by-Step Guide"
+      content: "How to Create an AWS Free Tier Account - A Step-by-Step Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-aws-free-tier-account.html
 prev: /devops/aws/articles/README.md
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752599184286/ff14fec
 ---
 
 <SiteInfo
-  name="How to Create an AWS Free Tier Account – A Step-by-Step Guide"
+  name="How to Create an AWS Free Tier Account - A Step-by-Step Guide"
   desc="I recently started learning cloud engineering through a bootcamp. One of our first tasks was to create an AWS account. For those of us who didn’t already have one, it seemed like a simple enough assignment. But as I went through the signup process, I..."
   url="https://freecodecamp.org/news/how-to-create-an-aws-free-tier-account"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,11 +67,11 @@ This article walks you through the exact steps to create an AWS account, with pr
 
 ## What is AWS?
 
-Let’s say you want a place to live. Normally, you’d have to buy land, build the house from the ground up, handle the wiring and plumbing, and maybe even oversee construction. After all that, you’d still need to furnish the house – buy furniture, paint the walls, maybe call in an interior decorator. Then you'd have to reach out to the electricity company to connect your house to the grid…and so on.
+Let’s say you want a place to live. Normally, you’d have to buy land, build the house from the ground up, handle the wiring and plumbing, and maybe even oversee construction. After all that, you’d still need to furnish the house - buy furniture, paint the walls, maybe call in an interior decorator. Then you'd have to reach out to the electricity company to connect your house to the grid…and so on.
 
 Compare that to renting a house. With renting, a lot of that heavy lifting is already done. You move into an already-built space. If you want to repaint or get different furniture, you can. If electricity isn’t already included, you call someone to help. But still, you’re dealing with multiple providers: the landlord, the interior decorator, the electrician, and so on.
 
-Now imagine there’s a single provider that gives you access to everything in one place: a ready-to-use space, electricity, furniture, interior design, and even maintenance, all on-demand – like a pre-furnished apartment. All you have to do is log in to your account, select the services you need, and pay only for what you use. If you're away for a while (say, on a long vacation), you can pause your utilities while you’re gone. That’s basically what AWS does, but for computing power and digital infrastructure.
+Now imagine there’s a single provider that gives you access to everything in one place: a ready-to-use space, electricity, furniture, interior design, and even maintenance, all on-demand - like a pre-furnished apartment. All you have to do is log in to your account, select the services you need, and pay only for what you use. If you're away for a while (say, on a long vacation), you can pause your utilities while you’re gone. That’s basically what AWS does, but for computing power and digital infrastructure.
 
 Amazon Web Services (AWS) is a platform that gives you access to computing tools like servers (EC2), storage (S3), databases, and more, without needing to “build the house” yourself. You only pay for what you use. Most people (especially students or learners) start with the free tier, which gives you enough resources to learn and build basic projects without being charged. And that’s what you’ll learn how to set up here.
 
@@ -253,7 +253,7 @@ If you're reading this because you're just starting out like I was, well done. Y
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Create an AWS Free Tier Account – A Step-by-Step Guide",
+  "title": "How to Create an AWS Free Tier Account - A Step-by-Step Guide",
   "desc": "I recently started learning cloud engineering through a bootcamp. One of our first tasks was to create an AWS account. For those of us who didn’t already have one, it seemed like a simple enough assignment. But as I went through the signup process, I...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-aws-free-tier-account.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

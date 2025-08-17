@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples"
-description: "Article(s) > Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples"
+title: "Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
+description: "Article(s) > Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples"
+      content: "Article(s) > Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
     - property: og:description
-      content: "Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples"
+      content: "Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/asynchronous-programming-in-javascript-examples.html
 prev: /programming/js/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2024/02/Await-2.png
 ---
 
 <SiteInfo
-  name="Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples"
+  name="Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
   desc="All programming languages have runtime engines that execute their code. In JavaScript, the runtime engine is single-threaded, which means that it runs code line by line or sequentially. The JavaScript runtime engine makes it a synchronous programming..."
   url="https://freecodecamp.org/news/asynchronous-programming-in-javascript-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -297,7 +297,7 @@ You can check the [<FontIcon icon="fas fa-globe"/>promises and async/await secti
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Asynchronous Programming in JavaScript – Callbacks, Promises, & Async/Await Examples",
+  "title": "Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples",
   "desc": "All programming languages have runtime engines that execute their code. In JavaScript, the runtime engine is single-threaded, which means that it runs code line by line or sequentially. The JavaScript runtime engine makes it a synchronous programming...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/asynchronous-programming-in-javascript-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

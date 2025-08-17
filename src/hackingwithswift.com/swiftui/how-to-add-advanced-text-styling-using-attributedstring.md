@@ -194,9 +194,9 @@ struct ContentView: View {
 
 Even more impressive is how it handles structured information.
 
-For example, if we format a `Date` instance as an attributed string it retains knowledge of what each component represents – it remembers that “November” is the month part of the string, for example.
+For example, if we format a `Date` instance as an attributed string it retains knowledge of what each component represents - it remembers that “November” is the month part of the string, for example.
 
-This means we can style our strings _semantically_: we can say “make the whole have a secondary color, apart from the weekday part – that should have a primary color”, like this:
+This means we can style our strings _semantically_: we can say “make the whole have a secondary color, apart from the weekday part - that should have a primary color”, like this:
 
 ```swift
 struct ContentView: View {
@@ -219,9 +219,9 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-add-advanced-text-styling-using-attributedstring-7.zip)
 
-Notice how that code has no idea where the weekday actually appears in the text – it's language and locale independent, so it will be styled correctly for everyone.
+Notice how that code has no idea where the weekday actually appears in the text - it's language and locale independent, so it will be styled correctly for everyone.
 
-The same is true of working with the names of people using `PersonNameComponents` – this makes an `AttributedString` instance where the family name of someone is bold:
+The same is true of working with the names of people using `PersonNameComponents` - this makes an `AttributedString` instance where the family name of someone is bold:
 
 ```swift
 struct ContentView: View {

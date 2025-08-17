@@ -76,7 +76,7 @@ Inside the castle, access to different areas is controlled by who you are and yo
 
 But things get more nuanced with **Attribute-Based Access Control (ABAC)**. For instance, only students enrolled in *Care of Magical Creatures* have access to the Forbidden Forest, but they’re only allowed in during daylight hours, when it's safer. The forest is too dangerous at night, and only those with the right attributes (like a specific timetable) can enter at the right time.
 
-Within Hogwarts is the *Philosopher’s Stone*, hidden away in a vault guarded by powerful enchantments. This is your Data Layer – the most precious resources, secured by powerful protections. Just like database permissions, the vault is protected by Fluffy, the three-headed dog, a series of enchantments, and traps. Similarly, row-level and column-level security ensure that only Harry Potter can retrieve the Stone because he is the only one worthy (you can only access what’s meant for you).
+Within Hogwarts is the *Philosopher’s Stone*, hidden away in a vault guarded by powerful enchantments. This is your Data Layer - the most precious resources, secured by powerful protections. Just like database permissions, the vault is protected by Fluffy, the three-headed dog, a series of enchantments, and traps. Similarly, row-level and column-level security ensure that only Harry Potter can retrieve the Stone because he is the only one worthy (you can only access what’s meant for you).
 
 To summarize,
 

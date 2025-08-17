@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Build a React App – A Walkthrough of the Many Different Ways"
-description: "Article(s) > How to Build a React App – A Walkthrough of the Many Different Ways"
+title: "How to Build a React App - A Walkthrough of the Many Different Ways"
+description: "Article(s) > How to Build a React App - A Walkthrough of the Many Different Ways"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Build a React App – A Walkthrough of the Many Different Ways"
+      content: "Article(s) > How to Build a React App - A Walkthrough of the Many Different Ways"
     - property: og:description
-      content: "How to Build a React App – A Walkthrough of the Many Different Ways"
+      content: "How to Build a React App - A Walkthrough of the Many Different Ways"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-react-app-different-ways.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2023/03/randy-fath-ymf4_9Y9S
 ---
 
 <SiteInfo
-  name="How to Build a React App – A Walkthrough of the Many Different Ways"
+  name="How to Build a React App - A Walkthrough of the Many Different Ways"
   desc="Hi everyone! In this article we're going to take a look at some of the many ways you can build a React application these days. We'll compare their main characteristics, along with their pros and cons. We'll start by explaining what React is and what ..."
   url="https://freecodecamp.org/news/how-to-build-a-react-app-different-ways"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -980,7 +980,7 @@ If you want, you can also follow me on [LinkedIn (<FontIcon icon="fa-brands fa-l
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Build a React App – A Walkthrough of the Many Different Ways",
+  "title": "How to Build a React App - A Walkthrough of the Many Different Ways",
   "desc": "Hi everyone! In this article we're going to take a look at some of the many ways you can build a React application these days. We'll compare their main characteristics, along with their pros and cons. We'll start by explaining what React is and what ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-react-app-different-ways.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -248,7 +248,7 @@ In the code above we have attached a relative position to `.custom-select`. This
 
 When a user sees “January”, “15th”, or “2025”, the `.select-display` handles the styling. The buttons have a purple gradient, white text, and a small shadow that makes them appear to “float”.
 
-Whenever our form is open – i.e. a user clicks either date, year, or month – we want to attach a downward arrow (▼) to each of these buttons, making it rotate 180°.
+Whenever our form is open - i.e. a user clicks either date, year, or month - we want to attach a downward arrow (▼) to each of these buttons, making it rotate 180°.
 
 But why is this here, you may ask? Whenever the month/day/year is clicked as the options are displayed, the arrow toggles 180° — indicating either an open or closed state:
 
@@ -445,9 +445,9 @@ The function above takes three parameters which are `container, items, and type.
 
 These parameters define:
 
-- `container` – Which dropdown to populate (`monthSelect`, `daySelect`, `yearSelect`)
-- `items` – The values to display (months, days 1-31, years 1990-2025)
-- `type` – Dropdown identifier (month, day, year)
+- `container`:  Which dropdown to populate (`monthSelect`, `daySelect`, `yearSelect`)
+- `items`:  The values to display (months, days 1-31, years 1990-2025)
+- `type`:  Dropdown identifier (month, day, year)
 
 The function takes these data and transforms them into clickable options inside each dropdown. It creates a new div with the `option-item` class, which was earlier styled in the CSS above. It also sets up a basic click handler that selects the option and closes the dropdown.
 

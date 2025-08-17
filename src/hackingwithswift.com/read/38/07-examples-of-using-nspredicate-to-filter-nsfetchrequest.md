@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -95,7 +95,7 @@ And here's an initial version of that new method for you to add to your view con
 
 We'll be replacing the four comments one by one as you learn about predicates.
 
-Let's start with something easy: matching an exact string. If we wanted to find commits with the message "I fixed a bug in Swift" – the kind of commit message that is frowned upon because it's not very descriptive! – you would write a predicate like this:
+Let's start with something easy: matching an exact string. If we wanted to find commits with the message "I fixed a bug in Swift" - the kind of commit message that is frowned upon because it's not very descriptive! - you would write a predicate like this:
 
 ```swift
 commitPredicate = NSPredicate(format: "message == 'I fixed a bug in Swift'")
@@ -119,7 +119,7 @@ ac.addAction(UIAlertAction(title: "Show only fixes", style: .default) { [unowned
 })
 ```
 
-The `CONTAINS[c]` part is an operator, just like ==, except it's much more useful for our app. The `CONTAINS` part will ensure this predicate matches only objects that contain a string somewhere in their message – in our case, that's the text "fix". The `[c]` part is predicate-speak for "case-insensitive", which means it will match "FIX", "Fix", "fix" and so on. Note that we need to use `self.` twice inside the closure to make capturing explicit.
+The `CONTAINS[c]` part is an operator, just like ==, except it's much more useful for our app. The `CONTAINS` part will ensure this predicate matches only objects that contain a string somewhere in their message - in our case, that's the text "fix". The `[c]` part is predicate-speak for "case-insensitive", which means it will match "FIX", "Fix", "fix" and so on. Note that we need to use `self.` twice inside the closure to make capturing explicit.
 
 Another useful string operator is `BEGINSWITH`, which works just like `CONTAINS` except the matching text must be at the start of a string. To make this second example more exciting, I'm also going to introduce the `NOT` keyword, which flips the match around: this action below will match only objects that *don't* begin with 'Merge pull request'. Put this in place of the `// 2` comment:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Key-value observing is the ability for Swift to attach code to variables, so that whenever the variable is changed the code runs. It’s similar to property observers (`willSet` and `didSet` ), except KVO is for adding observers *outside* of the type definition.
 
-KVO isn’t terribly nice in pure Swift code, because it relies on the Objective-C runtime – you need to use `@objc` classes that inherit from `NSObject`, then mark each of your properties with `@objc dynamic`.
+KVO isn’t terribly nice in pure Swift code, because it relies on the Objective-C runtime - you need to use `@objc` classes that inherit from `NSObject`, then mark each of your properties with `@objc dynamic`.
 
 For example, we could create a `Person` class like this:
 
@@ -91,9 +91,9 @@ taylor.name = "Justin Bieber"
 
 That will print “I’m now called Justin Bieber.”
 
-Although KVO is unpleasant in pure Swift code, it’s better when working with Apple’s own APIs – they are all automatically both `@objc` and `dynamic` because they are written in Objective-C. 
+Although KVO is unpleasant in pure Swift code, it’s better when working with Apple’s own APIs - they are all automatically both `@objc` and `dynamic` because they are written in Objective-C. 
 
-However, one warning: even though large parts of UIKit might work with KVO, this is a coincidence rather than a promise – Apple make no guarantees about UIKit remaining KVO-compatible in the future.
+However, one warning: even though large parts of UIKit might work with KVO, this is a coincidence rather than a promise - Apple make no guarantees about UIKit remaining KVO-compatible in the future.
 
 -->
 

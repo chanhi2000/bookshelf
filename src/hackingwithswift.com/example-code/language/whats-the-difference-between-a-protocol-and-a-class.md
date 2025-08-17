@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ In their basic form, a protocol describes what an unknown type of object can do.
 
 In a more advanced form, you can write extensions on your protocols that provide default implementations of the methods. You still can’t provide storage for properties, however.
 
-In comparison, classes are concrete things. While they might adopt protocols – i.e., say they implement the required properties and methods – they aren’t required to do that. You can create objects from classes, whereas protocols are just type definitions. Try to think of protocols as being abstract definitions, whereas classes and structs are real things you can create.
+In comparison, classes are concrete things. While they might adopt protocols - i.e., say they implement the required properties and methods - they aren’t required to do that. You can create objects from classes, whereas protocols are just type definitions. Try to think of protocols as being abstract definitions, whereas classes and structs are real things you can create.
 
 -->
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Git and GitHub – a Guide for Beginners and Experienced Developers"
-description: "Article(s) > How to Use Git and GitHub – a Guide for Beginners and Experienced Developers"
+title: "How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
+description: "Article(s) > How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
 icon: iconfont icon-git
 category:
   - Git
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Git and GitHub – a Guide for Beginners and Experienced Developers"
+      content: "Article(s) > How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
     - property: og:description
-      content: "How to Use Git and GitHub – a Guide for Beginners and Experienced Developers"
+      content: "How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-git-github-for-beginners-and-experienced-devs.html
 prev: /programming/git/articles/README.md
@@ -58,7 +58,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/04/Attractiv
 ---
 
 <SiteInfo
-  name="How to Use Git and GitHub – a Guide for Beginners and Experienced Developers"
+  name="How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
   desc="Welcome to Git and GitHub for Beginners! This comprehensive guide is tailored to help you navigate the world of version control and collaboration.  Whether you're a newbie just starting out or an experienced developer looking to brush up on your skil..."
   url="https://freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -326,7 +326,7 @@ Once you have created your new repository, you can start adding files and making
 
 *Congratulations!* You have successfully created a new repository using the command line.
 
-Now we have successfully created a repository using the GitHub website and the command line – but how do we connect them? Now let's learn how to connect a local repository to a remote repository on GitHub.
+Now we have successfully created a repository using the GitHub website and the command line - but how do we connect them? Now let's learn how to connect a local repository to a remote repository on GitHub.
 
 ---
 
@@ -738,7 +738,7 @@ You can contact me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>)](https://tw
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Git and GitHub – a Guide for Beginners and Experienced Developers",
+  "title": "How to Use Git and GitHub - a Guide for Beginners and Experienced Developers",
   "desc": "Welcome to Git and GitHub for Beginners! This comprehensive guide is tailored to help you navigate the world of version control and collaboration.  Whether you're a newbie just starting out or an experienced developer looking to brush up on your skil...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-git-github-for-beginners-and-experienced-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

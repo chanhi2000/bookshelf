@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
-description: "Article(s) > JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+title: "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+description: "Article(s) > JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+      content: "Article(s) > JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
     - property: og:description
-      content: "JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+      content: "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2021/05/FCC-Thumbnail--3-.pn
 ---
 
 <SiteInfo
-  name="JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+  name="JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
   desc="Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: Callbacks Promises Async / Await Here's what we'll cover in this article: What is Asynchronous JavaSc..."
   url="https://freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -77,7 +77,7 @@ If you want to build projects efficiently, then this concept is for you.
 
 The theory of async JavaScript helps you break down big complex projects into smaller tasks.
 
-Then you can use any of these three techniques – **callbacks, promises or Async/await** – to run those small tasks in a way that you get the best results.
+Then you can use any of these three techniques - **callbacks, promises or Async/await** - to run those small tasks in a way that you get the best results.
 
 Let's dive in!🎖️
 
@@ -93,13 +93,13 @@ In a synchronous system, tasks are completed one after another.
 
 Think of this as if you have just one hand to accomplish 10 tasks. So, you have to complete one task at a time.
 
-Take a look at the GIF 👇 – one thing is happening at a time here:
+Take a look at the GIF 👇 - one thing is happening at a time here:
 
 ![Synchronous System](https://media.giphy.com/media/ICIS16DkE9qB9HVxtq/giphy.gif)
 
 You'll see that until the first image is loaded completely, the second image doesn't start loading.
 
-Well, JavaScript is by default Synchronous **\[single threaded\]**. Think about it like this – one thread means one hand with which to do stuff.
+Well, JavaScript is by default Synchronous **\[single threaded\]**. Think about it like this - one thread means one hand with which to do stuff.
 
 ### What is an Asynchronous System?
 
@@ -107,7 +107,7 @@ In this system, tasks are completed independently.
 
 Here, imagine that for 10 tasks, you have 10 hands. So, each hand can do each task independently and at the same time.
 
-Take a look at the GIF 👇 – you can see that each image loads at the same time.
+Take a look at the GIF 👇 - you can see that each image loads at the same time.
 
 ![Asynchronous System](https://media.giphy.com/media/MMDnmJnE7uhX6KtcKc/giphy.gif)
 
@@ -316,7 +316,7 @@ Here's the result in our console 👇
 
 ### Take a break
 
-So far so good – take a break!
+So far so good - take a break!
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tnr74waq6noc0djln3qx.png)
 
@@ -428,7 +428,7 @@ If you remember, here are our steps:
 
 ![Chart contains steps to make ice cream](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rphpp2lqjnk7f0tv5g3d.png)
 
-Let's complete our ice cream production by nesting a function inside another function – this is also known as a callback, remember?
+Let's complete our ice cream production by nesting a function inside another function - this is also known as a callback, remember?
 
 ```js
 let production = () =>{
@@ -1126,7 +1126,7 @@ Here's your medal for reading until the end. ❤️
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦",
+  "title": "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦",
   "desc": "Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: Callbacks Promises Async / Await Here's what we'll cover in this article: What is Asynchronous JavaSc...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

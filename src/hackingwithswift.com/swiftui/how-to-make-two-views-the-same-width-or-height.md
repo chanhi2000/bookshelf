@@ -52,9 +52,9 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI makes it easy to create two views that are the same size, regardless of whether you want the same height or the same width, by combining a `frame()` modifier with `fixedSize()` – there's no need for a `GeometryReader` or similar.
+SwiftUI makes it easy to create two views that are the same size, regardless of whether you want the same height or the same width, by combining a `frame()` modifier with `fixedSize()` - there's no need for a `GeometryReader` or similar.
 
-On iOS, the key is to give each view you want to size an infinite maximum height or width, which will automatically make it stretch to fill all the available space. You then apply `fixedSize()` to the container they are in, which tells SwiftUI those views should only take up the space they need. The result is that SwiftUI figures out the least amount of space the views need, then allows them to take up that full amount – the two views will always match their sizes no matter what they contain.
+On iOS, the key is to give each view you want to size an infinite maximum height or width, which will automatically make it stretch to fill all the available space. You then apply `fixedSize()` to the container they are in, which tells SwiftUI those views should only take up the space they need. The result is that SwiftUI figures out the least amount of space the views need, then allows them to take up that full amount - the two views will always match their sizes no matter what they contain.
 
 Here's an example showing how to make two text views have the same height even though they have very different text lengths. Thanks to the `frame()` and `fixedSize()` combination both text views are laid out at the same size:
 

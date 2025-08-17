@@ -90,7 +90,7 @@ Before you begin the **ParrotOS** installation, ensure that your system meets th
 - **Graphics**: A graphics card capable of 1024×768 resolution.
 - **USB Drive**: For installation media.
 
-This guide will help you install **ParrotOS Home Edition** (the latest version – **Parrot OS 6.2**) on your computer step-by-step through the default official installer: **Calamares**.
+This guide will help you install **ParrotOS Home Edition** (the latest version - **Parrot OS 6.2**) on your computer step-by-step through the default official installer: **Calamares**.
 
 ---
 

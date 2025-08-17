@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "React Interview Questions – Interview Prep with Answers and Examples"
-description: "Article(s) > React Interview Questions – Interview Prep with Answers and Examples"
+title: "React Interview Questions - Interview Prep with Answers and Examples"
+description: "Article(s) > React Interview Questions - Interview Prep with Answers and Examples"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > React Interview Questions – Interview Prep with Answers and Examples"
+      content: "Article(s) > React Interview Questions - Interview Prep with Answers and Examples"
     - property: og:description
-      content: "React Interview Questions – Interview Prep with Answers and Examples"
+      content: "React Interview Questions - Interview Prep with Answers and Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-questions-and-answers.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2022/06/cover-template.jpg
 ---
 
 <SiteInfo
-  name="React Interview Questions – Interview Prep with Answers and Examples"
+  name="React Interview Questions - Interview Prep with Answers and Examples"
   desc="By Joel Olawanle React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.  According to the 2021 Stack Overflow developer survey, React has surpassed jQuery as the most popul..."
   url="https://freecodecamp.org/news/react-interview-questions-and-answers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -152,7 +152,7 @@ You can read more about [JSX in React in this article](/freecodecamp.org/jsx-in-
 
 ```component VPCard
 {
-  "title": "JSX in React – Explained with Examples",
+  "title": "JSX in React - Explained with Examples",
   "desc": "JSX is one of the core concepts of React. So if you understand it well, you'll be able to write better React code. In this article, we'll explore: What is JSX in React and how to use it How JSX is transformed to React.createElement What is a JSX exp...",
   "link": "/freecodecamp.org/jsx-in-react-introduction.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -176,7 +176,7 @@ You can read more about [JSX in React in this article](/freecodecamp.org/jsx-in-
 
 ```component VPCard
 {
-  "title": "JSX in React – Explained with Examples",
+  "title": "JSX in React - Explained with Examples",
   "desc": "JSX is one of the core concepts of React. So if you understand it well, you'll be able to write better React code. In this article, we'll explore: What is JSX in React and how to use it How JSX is transformed to React.createElement What is a JSX exp...",
   "link": "/freecodecamp.org/jsx-in-react-introduction.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -315,7 +315,7 @@ class App extends React.Component {
 
 ## How to Update the State of a Component in React
 
-It is important to know that when we update a state directly it won’t re-render the component – meaning we don’t get to see the update.
+It is important to know that when we update a state directly it won’t re-render the component - meaning we don’t get to see the update.
 
 If we want it to re-render, then we have to use the `setState()` method which updates the component’s state object and re-reders the component.
 
@@ -606,7 +606,7 @@ Read more about [React Context in this guide](/freecodecamp.org/react-context-fo
 
 ```component VPCard
 {
-  "title": "React Context for Beginners – The Complete Guide (2021)",
+  "title": "React Context for Beginners - The Complete Guide (2021)",
   "desc": "React context is an essential tool for every React developer to know. It lets you easily share state in your applications. In this comprehensive guide, we will cover what React context is, how to use it, when and when not to use context, and lots mor...",
   "link": "/freecodecamp.org/react-context-for-beginners.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -623,7 +623,7 @@ React router is a standard library used in React applications to handle routing 
 Installing this library into your React project is as simple as typing the following command into your terminal:
 
 ```sh
-npm install – -save react-router-dom
+npm install - -save react-router-dom
 ```
 
 ---
@@ -636,7 +636,7 @@ Instead of attempting to take several courses at once, find a helpful tutorial a
 
 ```component VPCard
 {
-  "title": "Free React Course – 8 Real-World Projects and 140+ Coding Challenges",
+  "title": "Free React Course - 8 Real-World Projects and 140+ Coding Challenges",
   "desc": "React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel...",
   "link": "/freecodecamp.org/free-react-course-2022.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -657,7 +657,7 @@ Instead of attempting to take several courses at once, find a helpful tutorial a
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "React Interview Questions – Interview Prep with Answers and Examples",
+  "title": "React Interview Questions - Interview Prep with Answers and Examples",
   "desc": "By Joel Olawanle React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.  According to the 2021 Stack Overflow developer survey, React has surpassed jQuery as the most popul...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-questions-and-answers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

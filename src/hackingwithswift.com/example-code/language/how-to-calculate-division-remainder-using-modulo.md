@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Swift has a dedicated remainder operator in the form of `%`, and it’s used to return the remainder after dividing one number wholly into another. For example, `14 % 3` is 2, because you can fit four 3s into 14, and afterwards you have the remainder 2.
 
-The remainder operator is helpful for calculating things like odd and even numbers – if you want alternate rows of your table to be a slightly different color, for example, you might write this:
+The remainder operator is helpful for calculating things like odd and even numbers - if you want alternate rows of your table to be a slightly different color, for example, you might write this:
 
 ```swift
 for i in 1...10 {

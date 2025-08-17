@@ -57,7 +57,7 @@ isOriginal: false
 
 So far we’ve had a simple data model containing a collection of destinations. To finish the app we’re going to upgrade this so that each destination has a list of sights that users want to visit there, for example they might say when they visit Rome they want to see the colosseum, the forum, the Vatican, and so on.
 
-In SwiftData this is called a *relationship*: each destination has many sights to see. Rather than trying to cram all the sights into a single `Destination` object, we can instead create a separate `Sight` model, then tell SwiftData that our original `Destination` model has an array of sights – it will take care of linking the two for us.
+In SwiftData this is called a *relationship*: each destination has many sights to see. Rather than trying to cram all the sights into a single `Destination` object, we can instead create a separate `Sight` model, then tell SwiftData that our original `Destination` model has an array of sights - it will take care of linking the two for us.
 
 To get started, create another new Swift file called <FontIcon icon="fa-brands fa-swift"/>`Sight.swift`, give it an import for SwiftData, then add this code there:
 
@@ -72,7 +72,7 @@ class Sight {
 }
 ```
 
-That stores only a single piece of data, which is the name of the sight – later on you're welcome to add more to it, such as perhaps tracking whether the user has visited it already.
+That stores only a single piece of data, which is the name of the sight - later on you're welcome to add more to it, such as perhaps tracking whether the user has visited it already.
 
 Now we can return to the `Destination` model and add a new property there:
 
@@ -136,5 +136,5 @@ To do that, we need to attach the `@Relationship` macro to the `sights` property
 @Relationship(deleteRule: .cascade) var sights = [Sight]()
 ```
 
-A *cascade* delete rule means "when we delete this object, delete all its sights too" – exactly what we want.
+A *cascade* delete rule means "when we delete this object, delete all its sights too" - exactly what we want.
 

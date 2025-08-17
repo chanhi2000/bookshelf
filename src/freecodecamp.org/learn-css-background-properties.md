@@ -264,7 +264,7 @@ When we use this property, it will stretch the image to the whole screen even wh
 
 ### The contain value
 
-Same steps here – we must include an image, set its height, and stop image repetition like this:👇
+Same steps here - we must include an image, set its height, and stop image repetition like this:👇
 
 ```css title="style.css"
 .container {

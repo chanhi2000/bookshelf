@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Git Cheat Sheet – Helpful Git Commands with Examples
-description: Article(s) > Git Cheat Sheet – Helpful Git Commands with Examples
+title: Git Cheat Sheet - Helpful Git Commands with Examples
+description: Article(s) > Git Cheat Sheet - Helpful Git Commands with Examples
 icon: iconfont icon-git
 category: 
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Git Cheat Sheet – Helpful Git Commands with Examples
+      content: Article(s) > Git Cheat Sheet - Helpful Git Commands with Examples
     - property: og:description
-      content: Git Cheat Sheet – Helpful Git Commands with Examples
+      content: Git Cheat Sheet - Helpful Git Commands with Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-cheat-sheet-helpful-git-commands-with-examples.html
 prev: /programming/git/articles/README.md
@@ -37,7 +37,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723993272242/896730c
 ```
 
 <SiteInfo
-  name="Git Cheat Sheet – Helpful Git Commands with Examples"
+  name="Git Cheat Sheet - Helpful Git Commands with Examples"
   desc="This Git Cheat Sheet will provide you with a handy list of common (and not so common) commands that will make your life easier when working with Git. You can also download the Git Cheat Sheet in PDF format (along with some other resources) for free b..."
   url="https://freecodecamp.org/news/git-cheat-sheet-helpful-git-commands-with-examples/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -1707,7 +1707,7 @@ It overwrites the remote branch with your local changes.
 
 This can be necessary when you have rewritten history (for example, with a rebase) and need to update the remote branch to match your local branch.
 
-But it can also potentially overwrite others' changes – so use it with caution.
+But it can also potentially overwrite others' changes - so use it with caution.
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
-description: "Article(s) > Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+title: "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
+description: "Article(s) > Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
 icon: iconfont icon-k8s
 category:
   - DevOps
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+      content: "Article(s) > Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
     - property: og:description
-      content: "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+      content: "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/
 prev: /devops/k8s/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,11 +58,11 @@ You’ve probably heard the word Kubernetes floating around, or it’s cooler ni
 
 So what is Kubernetes, really? Why is it everywhere? And should you care?
 
-In this handbook, we’ll unpack Kubernetes in a way that actually makes sense. No buzzwords. No overwhelming tech-speak. Just straight talk. You’ll learn what Kubernetes is, how it came about, and why it became such a big deal – especially for teams building and running huge apps with millions of users.
+In this handbook, we’ll unpack Kubernetes in a way that actually makes sense. No buzzwords. No overwhelming tech-speak. Just straight talk. You’ll learn what Kubernetes is, how it came about, and why it became such a big deal - especially for teams building and running huge apps with millions of users.
 
 We’ll rewind a bit to see how things were done before Kubernetes showed up (spoiler: it wasn’t pretty), and walk through the real problems it was designed to solve.
 
-By the end, you’ll not only understand the purpose of Kubernetes, but you’ll also know how to deploy a simple app on a Kubernetes cluster – even if you’re just getting started.
+By the end, you’ll not only understand the purpose of Kubernetes, but you’ll also know how to deploy a simple app on a Kubernetes cluster - even if you’re just getting started.
 
 Yep, by the time we’re done, you’ll go from *“I keep hearing about Kubernetes”* to *“Hey, I kinda get it now!”* 😄
 
@@ -96,7 +96,7 @@ So, if your banking app suddenly gets millions of users, you'd have to manually 
 Kubernetes is like a super-efficient manager for all these microservices. It’s a platform that helps you:
 
 - **Automate** the deployment (getting the apps up and running)
-- **Scale** the microservices (making them bigger or smaller as needed based on the inflow of traffic – your customers)
+- **Scale** the microservices (making them bigger or smaller as needed based on the inflow of traffic - your customers)
 - **Monitor** them (keeping an eye on their health)
 - **Ensure reliability** (so if one microservice breaks/fails, k8s replaces it immediately)
 
@@ -106,7 +106,7 @@ In simple terms, Kubernetes takes all your little microservices and organizes th
 
 ## How Applications Were Deployed Before Kubernetes
 
-Before Kubernetes came into the picture, software teams had quite the juggling act when it came to deploying applications – especially when they were made up of lots of microservices.
+Before Kubernetes came into the picture, software teams had quite the juggling act when it came to deploying applications - especially when they were made up of lots of microservices.
 
 One popular method was using a **distributed system** setup. Here’s what that looked like:
 
@@ -116,7 +116,7 @@ Imagine each microservice (like your user onboarding, payments, deposits, and so
 - The software dependencies it needed (like programming languages, libraries, tools) also had to be installed.
 - Everything had to be configured manually ON EACH server.
 
-And all of these servers had to talk to each other – sometimes over the public internet, or via private networks like VPNs.
+And all of these servers had to talk to each other - sometimes over the public internet, or via private networks like VPNs.
 
 Sounds like a lot of work, right? 😮 It was! Managing updates, fixing bugs, scaling up during traffic spikes, and keeping things from crashing could turn into a full-time headache for developers and system admins. 😖
 
@@ -126,7 +126,7 @@ A more modern solution that eased the pain (a little) was using containers.
 
 **So, what are containers?**
 
-Think of a container like a lunchbox for your microservice. Instead of installing the microservice and its supporting tools directly on a server, you pack everything it needs – code, settings, software libraries – into this single, neat container. Wherever the container goes, the microservice runs exactly the same way. No surprises!
+Think of a container like a lunchbox for your microservice. Instead of installing the microservice and its supporting tools directly on a server, you pack everything it needs - code, settings, software libraries - into this single, neat container. Wherever the container goes, the microservice runs exactly the same way. No surprises!
 
 Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) made this super easy. Once your microservice was packed into a container, you could deploy it on:
 
@@ -137,7 +137,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "The Problem Kubernetes Solves 🧠",
-  "desc": "(1/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(1/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/the-problem-kubernetes-solves.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -146,8 +146,8 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 
 ```component VPCard
 {
-  "title": "How Kubernetes Works – Components of a Kubernetes Environment 🧑‍🔧",
-  "desc": "(2/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "How Kubernetes Works - Components of a Kubernetes Environment 🧑‍🔧",
+  "desc": "(2/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-kubernetes-works-components-of-a-kubernetes-environment.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -156,8 +156,8 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 
 ```component VPCard
 {
-  "title": "Kubernetes Workloads 🛠️ – Pods, Deployments, Services, & More",
-  "desc": "(3/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Kubernetes Workloads 🛠️ - Pods, Deployments, Services, & More",
+  "desc": "(3/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/kubernetes-workloads-pods-deployments-services-amp-more.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -167,7 +167,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "How to Create a Kubernetes Cluster in a Demo Environment with play-with-k8s",
-  "desc": "(4/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(4/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-to-create-a-kubernetes-cluster-in-a-demo-environment-with-play-with-k8s.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -177,7 +177,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "How to Deploy an Application on Your Kubernetes Cluster",
-  "desc": "(5/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(5/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-to-deploy-your-application-on-a-kubernetes-cluster.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -187,7 +187,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "✅ Advantages of Using Kubernetes in Business",
-  "desc": "(6/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(6/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/advantages-of-using-kubernetes-in-business.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -197,7 +197,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "😬 Disadvantages of Using Kubernetes",
-  "desc": "(7/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(7/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/disadvantages-of-using-kubernetes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -207,7 +207,7 @@ Tools like [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) m
 ```component VPCard
 {
   "title": "Use Cases: When (and When Not) to Use Kubernetes",
-  "desc": "(8/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "desc": "(8/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/use-cases-when-and-when-not-to-use-kubernetes.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -228,8 +228,8 @@ That’s where Kubernetes came to the rescue
 
 We explored:
 
-- **The problems Kubernetes solves** – like auto-scaling, efficient resource management, cost savings, and seamless container grouping.
-- **Kubernetes architecture and components** – breaking down complex terms like the cluster, master node, worker nodes, Pods, Services, Kubelet, and more, into simple, easy-to-digest ideas.
+- **The problems Kubernetes solves** - like auto-scaling, efficient resource management, cost savings, and seamless container grouping.
+- **Kubernetes architecture and components** - breaking down complex terms like the cluster, master node, worker nodes, Pods, Services, Kubelet, and more, into simple, easy-to-digest ideas.
 - **Kubernetes workloads** like Deployments, Pods, Services, DaemonSets, and StatefulSets, and what they do behind the scenes to keep our apps running reliably.
 
 From theory to practice, we even got our hands dirty:
@@ -240,16 +240,16 @@ From theory to practice, we even got our hands dirty:
 
 Then we took a business lens 🔍 and looked at:
 
-- The advantages of Kubernetes – from auto-scaling during traffic surges, to cost efficiency, and cloud-agnostic deployment.
-- And also the disadvantages – like needing experienced DevOps engineers and not being ideal for every stage of a product's lifecycle.
+- The advantages of Kubernetes - from auto-scaling during traffic surges, to cost efficiency, and cloud-agnostic deployment.
+- And also the disadvantages - like needing experienced DevOps engineers and not being ideal for every stage of a product's lifecycle.
 
-Finally, we wrapped up with real-life use cases, highlighting when Kubernetes is a must-have, and when it’s better to wait – especially for early-stage startups still trying to find their audience.
+Finally, we wrapped up with real-life use cases, highlighting when Kubernetes is a must-have, and when it’s better to wait - especially for early-stage startups still trying to find their audience.
 
-So, whether you're a DevOps newbie, a startup founder, or just someone curious about how modern tech keeps your favorite apps online – you now have a strong foundational understanding of Kubernetes 🙌
+So, whether you're a DevOps newbie, a startup founder, or just someone curious about how modern tech keeps your favorite apps online - you now have a strong foundational understanding of Kubernetes 🙌
 
 Kubernetes is powerful, but it doesn't have to be overwhelming. With a solid grasp of the basics (which you now have 💪), you're well on your way to managing scalable applications like a pro.
 
-Start simple. Grow smart. And when the time is right – Kubernetes will be your best friend.
+Start simple. Grow smart. And when the time is right - Kubernetes will be your best friend.
 
 ---
 
@@ -289,7 +289,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

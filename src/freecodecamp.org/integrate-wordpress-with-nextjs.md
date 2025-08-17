@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Integrate WordPress as a Headless CMS with Next.js – With Code Examples"
-description: "Article(s) > How to Integrate WordPress as a Headless CMS with Next.js – With Code Examples"
+title: "How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
+description: "Article(s) > How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Integrate WordPress as a Headless CMS with Next.js – With Code Examples"
+      content: "Article(s) > How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
     - property: og:description
-      content: "How to Integrate WordPress as a Headless CMS with Next.js – With Code Examples"
+      content: "How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-wordpress-with-nextjs.html
 prev: /programming/js-next/articles/README.md
@@ -61,7 +61,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727738740919/4dd5ea1
 ---
 
 <SiteInfo
-  name="How to Integrate WordPress as a Headless CMS with Next.js – With Code Examples"
+  name="How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
   desc="When building a dynamic blog website, it's common to fetch data from a content source, such as a CMS (Content Management System) like WordPress. Recently, I faced the challenge of integrating WordPress into my existing Next.js project. I had a blog h..."
   url="https://freecodecamp.org/news/integrate-wordpress-with-nextjs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

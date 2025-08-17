@@ -60,8 +60,8 @@ In this tutorial, I'll explain how to [<FontIcon icon="fas fa-globe"/>merge Word
 
 ::: note Prerequisites
 
-1. <FontIcon icon="fa-brands fa-node"/>Node.js and <FontIcon icon="fa-brands fa-npm"/>npm – Ensure both are installed to manage dependencies.
-2. **Libraries** – The following libraries are required:
+1. <FontIcon icon="fa-brands fa-node"/>Node.js and <FontIcon icon="fa-brands fa-npm"/>npm - Ensure both are installed to manage dependencies.
+2. **Libraries** - The following libraries are required:
     - [<FontIcon icon="fa-brands fa-npm"/>`docx-merger`](https://npmjs.com/package/docx-merger) for server-side merging of Word files.
     - [<FontIcon icon="fa-brands fa-npm"/>`mammoth`](https://npmjs.com/package/mammoth) for converting `.docx` to HTML, useful for client-side merging.
     - `html-docx-js` (or a similar library) for converting HTML back to `.docx`.
@@ -139,10 +139,10 @@ Server-side merging with `docx-merger` is ideal for scenarios that require high-
 
 Here’s what makes `mammoth` a powerful tool for client-side document handling:
 
-- **High-Fidelity** – `.docx` to HTML Conversion: `mammoth` translates `.docx` content into clean, semantic HTML, preserving essential formatting like headings, paragraphs, and lists. This ensures that the converted documents retain their original structure and are easy to manipulate in a web environment.
-- **Embedded Image Handling with Base64** – When `mammoth` encounters embedded images in a `.docx` file, it encodes them as Base64 and includes them in `<img>` tags within the HTML output. This allows images to be seamlessly displayed, merged, or manipulated alongside text, making the final document more cohesive and visually accurate when re-exported to `.docx`.
-- **Dynamic Document Editing** – Because `mammoth` outputs HTML, it’s easy to add or adjust document content on the client side using JavaScript or client-side frameworks. Users can combine multiple HTML snippets from different `.docx` files, rearrange sections, or even inject new content dynamically, which is valuable for applications that require real-time content customization.
-- **Conversion Back to** `.docx` with `html-docx-js` – After creating or editing a document in HTML, you can convert it back into `.docx` format using libraries like `html-docx-js`. This library takes the merged HTML content and generates a downloadable `.docx` file, making it straightforward to return the final document to the user in the original format.
+- **High-Fidelity** - `.docx` to HTML Conversion: `mammoth` translates `.docx` content into clean, semantic HTML, preserving essential formatting like headings, paragraphs, and lists. This ensures that the converted documents retain their original structure and are easy to manipulate in a web environment.
+- **Embedded Image Handling with Base64** - When `mammoth` encounters embedded images in a `.docx` file, it encodes them as Base64 and includes them in `<img>` tags within the HTML output. This allows images to be seamlessly displayed, merged, or manipulated alongside text, making the final document more cohesive and visually accurate when re-exported to `.docx`.
+- **Dynamic Document Editing** - Because `mammoth` outputs HTML, it’s easy to add or adjust document content on the client side using JavaScript or client-side frameworks. Users can combine multiple HTML snippets from different `.docx` files, rearrange sections, or even inject new content dynamically, which is valuable for applications that require real-time content customization.
+- **Conversion Back to** `.docx` with `html-docx-js` - After creating or editing a document in HTML, you can convert it back into `.docx` format using libraries like `html-docx-js`. This library takes the merged HTML content and generates a downloadable `.docx` file, making it straightforward to return the final document to the user in the original format.
 
 Using `mammoth` for client-side merging offers a flexible, interactive way to manage document content in the browser, with features that support both text and images. Combined with `html-docx-js` or a similar tool, you can build powerful applications that allow users to customize and merge documents on the fly, then export their work as `.docx` files.
 

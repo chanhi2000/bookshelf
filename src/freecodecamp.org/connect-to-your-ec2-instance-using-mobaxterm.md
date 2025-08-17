@@ -65,7 +65,7 @@ Plus, it’s like the Swiss Army knife for remote connections. Whether you’re 
 
 ## Step 1: Install MobaXterm
 
-If you’re not already familiar with MobaXterm, it’s basically used for all things remote access. You can download it [<FontIcon icon="fas fa-globe"/>here](https://mobaxterm.mobatek.net/download-home-edition.html) for free. Installation is super easy – just download, click, and install.
+If you’re not already familiar with MobaXterm, it’s basically used for all things remote access. You can download it [<FontIcon icon="fas fa-globe"/>here](https://mobaxterm.mobatek.net/download-home-edition.html) for free. Installation is super easy - just download, click, and install.
 
 <SiteInfo
   name="MobaXterm free Xserver and tabbed SSH client for Windows"
@@ -84,7 +84,7 @@ Before we continue, there are two key pieces of information you’ll need:
 
 **Public IP Address**: This is the unique address AWS assigns to your EC2 instance. To find it, go to the **EC2 Dashboard** in AWS, select your running instance, and grab the **Public IPv4 Address** (it looks like `13.123.45.67`).
 
-**Your .pem File**: This is the private key file you downloaded when you created your EC2 instance. If you didn’t save it, you may have to create a new key pair because AWS only lets you download it once. (No pressure – just don’t lose it this time!)
+**Your .pem File**: This is the private key file you downloaded when you created your EC2 instance. If you didn’t save it, you may have to create a new key pair because AWS only lets you download it once. (No pressure - just don’t lose it this time!)
 
 ---
 

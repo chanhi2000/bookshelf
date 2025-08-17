@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -119,11 +119,11 @@ let renderer = UIGraphicsImageRenderer(size: original.size)
 
 The problem is that the images being loaded are 750x750 pixels at 1x resolution, so 1500x1500 at 2x and 2250x2250 at 3x. If you look at `viewDidLoad()` you’ll see that the row height is 90 points, so we’re loading huge pictures into a tiny space. That means loading a 1500x1500 image or larger, creating a second render buffer that size, rendering the image into it, and so on.
 
-Clearly those images don’t need to be anything like that size, but sometimes you don’t have control over it. In this app you might be able to go back to the original designer and ask them to provide smaller assets, or if you were feeling ready for a fight you could resize them yourself, but what if you had fetched these assets from a remote server? And wait until you see the size of the images in the detail view – those images might only take up 500KB on disk, but when they are uncompressed by iOS they’ll need around 45 MB of RAM!
+Clearly those images don’t need to be anything like that size, but sometimes you don’t have control over it. In this app you might be able to go back to the original designer and ask them to provide smaller assets, or if you were feeling ready for a fight you could resize them yourself, but what if you had fetched these assets from a remote server? And wait until you see the size of the images in the detail view - those images might only take up 500KB on disk, but when they are uncompressed by iOS they’ll need around 45 MB of RAM!
 
-A second thing to notice is that the result of this new shadowing isn’t quite the same, because the shadow being rendered is now properly clipped inside the bounds of its image view. Although it’s more technically correct, it doesn’t look the same, and I’m going to assume that the original look – ugly as it was – was intentional.
+A second thing to notice is that the result of this new shadowing isn’t quite the same, because the shadow being rendered is now properly clipped inside the bounds of its image view. Although it’s more technically correct, it doesn’t look the same, and I’m going to assume that the original look - ugly as it was - was intentional.
 
-So, option 1 – making Core Graphics draw the shadow – helps eliminate the second render pass, but it has very different results and a result we should rule it out. However, it did at least point us to an interesting problem: we’re squeezing very large images into a tiny space. iOS doesn’t know or care that this is happening because it just does what its told, but we have more information: we know the image isn’t needed at that crazy size, so we can use that knowledge to deliver huge performance increases.
+So, option 1 - making Core Graphics draw the shadow - helps eliminate the second render pass, but it has very different results and a result we should rule it out. However, it did at least point us to an interesting problem: we’re squeezing very large images into a tiny space. iOS doesn’t know or care that this is happening because it just does what its told, but we have more information: we know the image isn’t needed at that crazy size, so we can use that knowledge to deliver huge performance increases.
 
 First, change the rendering code to this:
 
@@ -158,5 +158,5 @@ cell.imageView?.layer.shadowPath = UIBezierPath(ovalIn: renderRect).cgPath
 
 When you run that, you'll still see the same shadows everywhere, but the dark yellow color is gone. This means we’ve successfully eliminated the second render pass by giving iOS the pre-calculated shadow path, and we’ve also sped up drawing by scaling down the amount of working being done. You can turn off Color Offscreen-Rendered Yellow now; we don’t need it any more.
 
-Working with rounded corners *and* shadows can be tricky, as you’ve seen here. If it weren’t for the shadowing, we could eliminate the first render pass by setting `layer.cornerRadius` to have iOS round the corners for us – it’s a nice and easy way to create rounded rectangle shapes (or even circles!) without any custom rendering code.
+Working with rounded corners *and* shadows can be tricky, as you’ve seen here. If it weren’t for the shadowing, we could eliminate the first render pass by setting `layer.cornerRadius` to have iOS round the corners for us - it’s a nice and easy way to create rounded rectangle shapes (or even circles!) without any custom rendering code.
 

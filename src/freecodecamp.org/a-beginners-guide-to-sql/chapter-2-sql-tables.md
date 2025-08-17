@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Chapter 2: SQL Tables"
-description: "Article(s) > (2/11) The SQL Handbook – A Free Course for Web Developers"
+description: "Article(s) > (2/11) The SQL Handbook - A Free Course for Web Developers"
 category:
   - Data Science
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/11) The SQL Handbook – A Free Course for Web Developers"
+      content: "Article(s) > (2/11) The SQL Handbook - A Free Course for Web Developers"
     - property: og:description
       content: "Chapter 2: SQL Tables"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cov
 
 ```component VPCard
 {
-  "title": "The SQL Handbook – A Free Course for Web Developers",
+  "title": "The SQL Handbook - A Free Course for Web Developers",
   "desc": "SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ...",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cov
 ---
 
 <SiteInfo
-  name="The SQL Handbook – A Free Course for Web Developers"
+  name="The SQL Handbook - A Free Course for Web Developers"
   desc="SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-sql#heading-chapter-2-sql-tables"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -167,6 +167,6 @@ It's important to note that SQLite does not have a separate `BOOLEAN` storage cl
 - `0` = `false`
 - `1` = `true`
 
-It's not actually all that weird – boolean values are just binary bits after all!
+It's not actually all that weird - boolean values are just binary bits after all!
 
 SQLite will still let you write your queries using `boolean` expressions and `true`/`false` keywords, but it will convert the booleans to integers under-the-hood.

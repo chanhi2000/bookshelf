@@ -123,7 +123,7 @@ await getAverageTemperature()
 
 As you can see, it just takes one call to `Task.checkCancellation()` to make sure our task isn’t wasting time calculating data that’s no longer needed.
 
-If you want to handle cancellation yourself – if you need to clean up some resources or perform some other calculations, for example – then instead of calling `Task.checkCancellation()` you should check the value of `Task.isCancelled` instead. This is a simple Boolean that returns the current cancellation state, which you can then act on however you want.
+If you want to handle cancellation yourself - if you need to clean up some resources or perform some other calculations, for example - then instead of calling `Task.checkCancellation()` you should check the value of `Task.isCancelled` instead. This is a simple Boolean that returns the current cancellation state, which you can then act on however you want.
 
 To demonstrate this, we could rewrite our function a third time so that cancelling the task or failing to fetch data returns an average temperature of 0. This time we’re going to cancel the task ourselves as soon as it’s created, but because we’re always returning a default value we no longer need to handle errors when reading the task’s result:
 

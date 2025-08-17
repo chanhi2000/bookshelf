@@ -101,7 +101,7 @@ For more info about code playbacks, you can watch a short demo:
 
 <VidStack src="youtube/uYbHqCNjVDM" />
 
-Part 1 of the book focuses on core Elixir – syntax basics, pattern matching, functions and modules, key data structures like tuples, maps, lists, functional concepts like closures, recursion, enumeration, and efficient immutability.
+Part 1 of the book focuses on core Elixir - syntax basics, pattern matching, functions and modules, key data structures like tuples, maps, lists, functional concepts like closures, recursion, enumeration, and efficient immutability.
 
 - [1.1 Hello Elixir!!!](https://playbackpress.com/books/exbook/chapter/1/1)
 - [1.2 Numbers and the Match Operator](https://playbackpress.com/books/exbook/chapter/1/2)
@@ -116,7 +116,7 @@ Part 1 of the book focuses on core Elixir – syntax basics, pattern matching, f
 - [1.11 Poker Probabilities](https://playbackpress.com/books/exbook/chapter/1/11)
 - [1.12 Recursion in Elixir](https://playbackpress.com/books/exbook/chapter/1/12)
 
-Part 2 explores Elixir's concurrency model – working with processes, message passing between processes, dividing work across processes, and real-world examples and benchmarking. The concepts are applied to practical problems like estimating poker probabilities and generating calendars.
+Part 2 explores Elixir's concurrency model - working with processes, message passing between processes, dividing work across processes, and real-world examples and benchmarking. The concepts are applied to practical problems like estimating poker probabilities and generating calendars.
 
 - [2.1 Adding Tests to the Mix](https://playbackpress.com/books/exbook/chapter/2/1)
 - [2.2 Process Basics](https://playbackpress.com/books/exbook/chapter/2/2)

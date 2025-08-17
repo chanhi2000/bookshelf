@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "React Essentials"
-description: "Article(s) > (2/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
+description: "Article(s) > (2/6) The React Interview Prep Handbook - Essential Topics and Code Examples" 
 category:
   - Node.js
   - React.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/6) The React Interview Prep Handbook – Essential Topics and Code Examples"
+      content: "Article(s) > (2/6) The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:description
       content: "React Essentials"
     - property: og:url
@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 
 ```component VPCard
 {
-  "title": "The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "title": "The React Interview Prep Handbook - Essential Topics and Code Examples",
   "desc": "Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ...",
   "link": "/freecodecamp.org/react-interview-prep-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 ---
 
 <SiteInfo
-  name="The React Interview Prep Handbook – Essential Topics and Code Examples"
+  name="The React Interview Prep Handbook - Essential Topics and Code Examples"
   desc="Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ..."
   url="https://freecodecamp.org/news/react-interview-prep-handbook#heading-react-essentials"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

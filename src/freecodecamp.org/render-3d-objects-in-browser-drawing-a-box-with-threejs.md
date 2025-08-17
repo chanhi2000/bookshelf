@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Three.js Tutorial – How to Render 3D Objects in the Browser"
-description: "Article(s) > Three.js Tutorial – How to Render 3D Objects in the Browser"
+title: "Three.js Tutorial - How to Render 3D Objects in the Browser"
+description: "Article(s) > Three.js Tutorial - How to Render 3D Objects in the Browser"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Three.js Tutorial – How to Render 3D Objects in the Browser"
+      content: "Article(s) > Three.js Tutorial - How to Render 3D Objects in the Browser"
     - property: og:description
-      content: "Three.js Tutorial – How to Render 3D Objects in the Browser"
+      content: "Three.js Tutorial - How to Render 3D Objects in the Browser"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/render-3d-objects-in-browser-drawing-a-box-with-threejs.html
 prev: /programming/js-node/articles/README.md
@@ -49,7 +49,7 @@ cover: https://freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg
 ---
 
 <SiteInfo
-  name="Three.js Tutorial – How to Render 3D Objects in the Browser"
+  name="Three.js Tutorial - How to Render 3D Objects in the Browser"
   desc="If you have ever wanted to build a game with JavaScript, you might have come across Three.js.  Three.js is a library that we can use to render 3D graphics in the browser. The whole thing is in JavaScript, so with some logic you can add animation, int..."
   url="https://freecodecamp.org/news/render-3d-objects-in-browser-drawing-a-box-with-threejs"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -270,7 +270,7 @@ Through this whole tutorial, we saw all the examples through the same camera. Th
 
 So we managed to put together the scene and a camera. Now only the final piece is missing that renders the image into our browser.
 
-We need to define a WebGLRenderer. This is the piece that is capable of rendering the actual image into an HTML canvas when we provide a scene and a camera. This is also where we can set the actual size of this canvas – the width and height of the canvas in pixels as it should appear in the browser.
+We need to define a WebGLRenderer. This is the piece that is capable of rendering the actual image into an HTML canvas when we provide a scene and a camera. This is also where we can set the actual size of this canvas - the width and height of the canvas in pixels as it should appear in the browser.
 
 ```js :collapsed-lines
 import * as THREE from "three";
@@ -326,7 +326,7 @@ If you have any feedback or questions on this tutorial, feel free to Tweet me [<
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Three.js Tutorial – How to Render 3D Objects in the Browser",
+  "title": "Three.js Tutorial - How to Render 3D Objects in the Browser",
   "desc": "If you have ever wanted to build a game with JavaScript, you might have come across Three.js.  Three.js is a library that we can use to render 3D graphics in the browser. The whole thing is in JavaScript, so with some logic you can add animation, int...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/render-3d-objects-in-browser-drawing-a-box-with-threejs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

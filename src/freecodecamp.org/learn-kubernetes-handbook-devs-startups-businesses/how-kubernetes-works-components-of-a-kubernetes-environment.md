@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Kubernetes Works – Components of a Kubernetes Environment 🧑‍🔧"
-description: Article(s) > (2/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+title: "How Kubernetes Works - Components of a Kubernetes Environment 🧑‍🔧"
+description: Article(s) > (2/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (2/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (2/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
-      content: "How Kubernetes Works – Components of a Kubernetes Environment 🧑‍🔧"
+      content: "How Kubernetes Works - Components of a Kubernetes Environment 🧑‍🔧"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-kubernetes-works-components-of-a-kubernetes-environmen.html
 date: 2025-05-03
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,15 +46,15 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-how-kubernetes-works-components-of-a-kubernetes-environmen"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d3-f2a5-44eb-83b5-d1a614bead9f.png"/>
 
-So by now you’ve seen the problem: running dozens (or hundreds!) of microservices manually is like juggling too many balls – you’re bound to drop some.
+So by now you’ve seen the problem: running dozens (or hundreds!) of microservices manually is like juggling too many balls - you’re bound to drop some.
 
-That’s why Kubernetes was created. But... how does it actually do all this magic? Let’s first break it down with the technical definition (simple but sharp – perfect for interviews) and then the layperson’s analogy (so it sticks in your head!).
+That’s why Kubernetes was created. But... how does it actually do all this magic? Let’s first break it down with the technical definition (simple but sharp - perfect for interviews) and then the layperson’s analogy (so it sticks in your head!).
 
 ---
 
@@ -73,7 +73,7 @@ A cluster is made up of two types of computers (called nodes):
 
 ## 2️⃣ Master Node (Control Plane) 👑
 
-The Master Node is like the brain of Kubernetes. It manages and coordinates the whole cluster – deciding which applications run where, monitoring health, and scaling things up or down as needed.
+The Master Node is like the brain of Kubernetes. It manages and coordinates the whole cluster - deciding which applications run where, monitoring health, and scaling things up or down as needed.
 
 It’s like the boss of the entire cluster. It doesn’t run your applications directly. Instead, it:
 
@@ -91,7 +91,7 @@ Inside the Master Node are a few clever mini-components that handle the real wor
 
 The API Server is the front door to Kubernetes. It handles communication between users and the system, taking commands and feeding them into the cluster.
 
-This is where you (or your team) give Kubernetes instructions. Whether you're deploying a new app or scaling an existing one, you "talk" to the API Server first. It's like submitting a request at the front desk – the API server passes it on to the right people (or machines).
+This is where you (or your team) give Kubernetes instructions. Whether you're deploying a new app or scaling an existing one, you "talk" to the API Server first. It's like submitting a request at the front desk - the API server passes it on to the right people (or machines).
 
 ---
 
@@ -122,7 +122,7 @@ If one of them crashes, the Controller Manager sees that and spins up a new one 
 
 ## 6️⃣ etcd 📚
 
-etcd is Kubernetes' memory – a distributed key-value store where cluster data is saved: config files, state, and metadata.
+etcd is Kubernetes' memory - a distributed key-value store where cluster data is saved: config files, state, and metadata.
 
 Imagine a notebook where all rules, records, and plans are written down. Without etcd, Kubernetes would forget everything.
 
@@ -132,7 +132,7 @@ Imagine a notebook where all rules, records, and plans are written down. Without
 
 Worker Nodes are the servers that run the actual application containers, doing the heavy lifting in the cluster.
 
-These are the machines where your microservices actually live and run. The Master Node gives orders, but the Worker Nodes do the heavy lifting – they run your containers!
+These are the machines where your microservices actually live and run. The Master Node gives orders, but the Worker Nodes do the heavy lifting - they run your containers!
 
 Each worker node has a few helpers to manage its microservices:
 
@@ -157,8 +157,8 @@ Imagine your banking app’s login service needs to talk to the payments service
 
 So, to summarize:
 
-- The Master Node is the boss – it plans, watches, and assigns tasks.
-- The Worker Nodes do the actual work – running your microservices.
+- The Master Node is the boss - it plans, watches, and assigns tasks.
+- The Worker Nodes do the actual work - running your microservices.
 - Components like etcd, Kubelet, Scheduler, Controller Manager, and Kube Proxy all work together like parts of a well-oiled machine.
 
-Kubernetes is designed to handle your microservices automatically – keeping them alive, scaling them up, moving them around, and restarting them if they crash – so you don’t have to babysit them yourself.
+Kubernetes is designed to handle your microservices automatically - keeping them alive, scaling them up, moving them around, and restarting them if they crash - so you don’t have to babysit them yourself.

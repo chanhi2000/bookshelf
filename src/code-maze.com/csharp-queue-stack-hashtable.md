@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Queue, Stack, and Hashtable"
-description: "Article(s) > C# Intermediate – Queue, Stack, and Hashtable"
+title: "C# Intermediate - Queue, Stack, and Hashtable"
+description: "Article(s) > C# Intermediate - Queue, Stack, and Hashtable"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Queue, Stack, and Hashtable"
+      content: "Article(s) > C# Intermediate - Queue, Stack, and Hashtable"
     - property: og:description
-      content: "C# Intermediate – Queue, Stack, and Hashtable"
+      content: "C# Intermediate - Queue, Stack, and Hashtable"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-queue-stack-hashtable.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-queue-stack-hashtable/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Queue, Stack, and Hashtable"
+  name="C# Intermediate - Queue, Stack, and Hashtable"
   desc="Let's learn about Queue, Stack, And Hashtable Collections in C#. We'll also show the usage of different methods they provide."
   url="https://code-maze.com/csharp-queue-stack-hashtable/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -353,7 +353,7 @@ In the next article, we are going to talk about [**List and Dictionary in C#**](
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Queue, Stack, and Hashtable",
+  "title": "C# Intermediate - Queue, Stack, and Hashtable",
   "desc": "Let's learn about Queue, Stack, And Hashtable Collections in C#. We'll also show the usage of different methods they provide.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-queue-stack-hashtable.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

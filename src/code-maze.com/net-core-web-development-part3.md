@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Web API – Logging With NLog
-description: Article(s) > ASP.NET Core Web API – Logging With NLog
+title: ASP.NET Core Web API - Logging With NLog
+description: Article(s) > ASP.NET Core Web API - Logging With NLog
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Web API – Logging With NLog
+      content: Article(s) > ASP.NET Core Web API - Logging With NLog
     - property: og:description
-      content: ASP.NET Core Web API – Logging With NLog
+      content: ASP.NET Core Web API - Logging With NLog
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/net-core-web-development-part3.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/net-core-web-development-part3/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Web API – Logging With NLog"
+  name="ASP.NET Core Web API - Logging With NLog"
   desc="Why is logging so important in a development and how to use NLog to create custom logging service in .NET Core application? Find out in his post."
   url="https://code-maze.com/net-core-web-development-part3/"
   logo="/assets/image/code-maze.com/favicon.png"

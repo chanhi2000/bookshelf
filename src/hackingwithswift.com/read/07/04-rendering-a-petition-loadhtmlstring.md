@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -118,7 +118,7 @@ I've tried to make the HTML as clear as possible, but if you don't care for HTML
 
 That's it for the detail view controller, it really is that simple. However, we still need to connect it to the table view controller by implementing the `didSelectRowAt` method. 
 
-Previously we used the `instantiateViewController()` method to load a view controller from <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, but in this project `DetailViewController` isn’t in the storyboard – it’s just a free-floating class. This makes `didSelectRowAt` easier, because it can load the class directly rather than loading the user interface from a storyboard.
+Previously we used the `instantiateViewController()` method to load a view controller from <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, but in this project `DetailViewController` isn’t in the storyboard - it’s just a free-floating class. This makes `didSelectRowAt` easier, because it can load the class directly rather than loading the user interface from a storyboard.
 
 So, add this new method to your `ViewController` class now:
 
@@ -130,5 +130,5 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 }
 ```
 
-Go ahead and run the project now by pressing <kbd>Cmd</kbd>+<kbd>R</kbd> or clicking play, then tap on a row to see more detail about each petition. Some petitions don’t have detail text, but most do – try a few and see what you can find.
+Go ahead and run the project now by pressing <kbd>Cmd</kbd>+<kbd>R</kbd> or clicking play, then tap on a row to see more detail about each petition. Some petitions don’t have detail text, but most do - try a few and see what you can find.
 

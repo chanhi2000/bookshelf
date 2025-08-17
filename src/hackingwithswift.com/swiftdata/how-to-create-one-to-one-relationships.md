@@ -55,7 +55,7 @@ isOriginal: false
 
 One-to-one relationships mean that every X object has exactly one Y object attached to it, for example saying that every person has exactly one passport, or each pet has exactly one owner.
 
-Although one-to-one relationships are possible with SwiftData, they are fairly rare, mostly because they are rare in real life – both of the two examples I just gave might seem reasonable at first, but if you think them through they fall apart pretty fast: 
+Although one-to-one relationships are possible with SwiftData, they are fairly rare, mostly because they are rare in real life - both of the two examples I just gave might seem reasonable at first, but if you think them through they fall apart pretty fast: 
 
 - Many people have more than one passport because they are citizens of more than one country, or have no passport because they don’t travel. 
 - While it’s true that most pets have exactly one owner, a true one-to-one relationship means that each owner must have exactly one pet, which is clearly nonsense.
@@ -110,7 +110,7 @@ modelContext.insert(city)
 
 ::: important
 
-Don’t try to insert both the `city` *and* `country` objects – inserting one automatically inserts the other because the two have a relationship, and in fact trying to insert them both is likely to throw up a fatal error with the message, “Duplicate registration attempt for object”.
+Don’t try to insert both the `city` *and* `country` objects - inserting one automatically inserts the other because the two have a relationship, and in fact trying to insert them both is likely to throw up a fatal error with the message, “Duplicate registration attempt for object”.
 
 :::
 

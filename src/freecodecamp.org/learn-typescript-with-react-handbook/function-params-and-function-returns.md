@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Function Params And Function Returns"
-description: "Article(s) > (6/13) Learn TypeScript – A Handbook for Developers"
+description: "Article(s) > (6/13) Learn TypeScript - A Handbook for Developers"
 category:
   - TypeScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (6/13) Learn TypeScript – A Handbook for Developers"
+      content: "Article(s) > (6/13) Learn TypeScript - A Handbook for Developers"
     - property: og:description
       content: "Function Params And Function Returns"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 
 ```component VPCard
 {
-  "title": "Learn TypeScript – A Handbook for Developers",
+  "title": "Learn TypeScript - A Handbook for Developers",
   "desc": "This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ...",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 ---
 
 <SiteInfo
-  name="Learn TypeScript – A Handbook for Developers"
+  name="Learn TypeScript - A Handbook for Developers"
   desc="This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ..."
   url="https://freecodecamp.org/news/learn-typescript-with-react-handbook#heading-function-params-and-function-returns"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

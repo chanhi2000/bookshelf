@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: JavaScript Concatenate Strings – How JS String Concatenation Works
-description: Article(s) > JavaScript Concatenate Strings – How JS String Concatenation Works
+title: JavaScript Concatenate Strings - How JS String Concatenation Works
+description: Article(s) > JavaScript Concatenate Strings - How JS String Concatenation Works
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > JavaScript Concatenate Strings – How JS String Concatenation Works
+      content: Article(s) > JavaScript Concatenate Strings - How JS String Concatenation Works
     - property: og:description
-      content: JavaScript Concatenate Strings – How JS String Concatenation Works
+      content: JavaScript Concatenate Strings - How JS String Concatenation Works
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-js-string-concatenation-works.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mfB1B1s4sMc/up
 ---
 
 <SiteInfo
-  name="JavaScript Concatenate Strings – How JS String Concatenation Works"
+  name="JavaScript Concatenate Strings - How JS String Concatenation Works"
   desc="When coding in JavaScript, you may need to combine multiple strings to create a new, longer string. This operation is known as concatenation. In this article, you will learn five ways to concatenate strings in JavaScript. How to Concatenate Strings i..."
   url="https://freecodecamp.org/news/how-js-string-concatenation-works/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

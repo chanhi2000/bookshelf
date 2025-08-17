@@ -52,12 +52,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729783303497/1b442db
 
 <SiteInfo
   name="Prepare For and Pass the Google Cloud Digital Leader Certification Exam"
-  desc="We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam – and it's completely free. This in-depth course, created by cloud expert Andrew Brown, is d..."
+  desc="We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam - and it's completely free. This in-depth course, created by cloud expert Andrew Brown, is d..."
   url="https://freecodecamp.org/news/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1729783303497/1b442dbf-9474-4a71-adab-fc8b6aa8ebb9.png"/>
 
-We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam – and it's completely free.
+We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam - and it's completely free.
 
 This in-depth course, created by cloud expert Andrew Brown, is designed to take you from the basics of cloud computing to a complete understanding of Google Cloud's core services and capabilities. Whether you're a business professional, a tech enthusiast, or someone looking to transition into cloud computing, this certification is an excellent starting point.
 
@@ -95,7 +95,7 @@ Ready to begin your cloud journey? Head over to the [<FontIcon icon="fa-brands f
 ```component VPCard
 {
   "title": "Prepare For and Pass the Google Cloud Digital Leader Certification Exam",
-  "desc": "We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam – and it's completely free. This in-depth course, created by cloud expert Andrew Brown, is d...",
+  "desc": "We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam - and it's completely free. This in-depth course, created by cloud expert Andrew Brown, is d...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

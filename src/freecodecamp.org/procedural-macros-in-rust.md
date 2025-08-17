@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Procedural Macros in Rust – A Handbook for Beginners
-description: Article(s) > Procedural Macros in Rust – A Handbook for Beginners
+title: Procedural Macros in Rust - A Handbook for Beginners
+description: Article(s) > Procedural Macros in Rust - A Handbook for Beginners
 icon: fa-brands fa-rust
 category: 
   - Rust
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Procedural Macros in Rust – A Handbook for Beginners
+      content: Article(s) > Procedural Macros in Rust - A Handbook for Beginners
     - property: og:description
-      content: Procedural Macros in Rust – A Handbook for Beginners
+      content: Procedural Macros in Rust - A Handbook for Beginners
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/procedural-macros-in-rust.html
 prev: /programming/rust/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/Procedura
 ---
 
 <SiteInfo
-  name="Procedural Macros in Rust – A Handbook for Beginners"
+  name="Procedural Macros in Rust - A Handbook for Beginners"
   desc="In this handbook, you'll learn about procedural macros in Rust, and what purposes they serve. You'll also learn how to write your own procedural macros with both hypothetical and real-world examples. This guide assumes that you're familiar with Rust and its basic concepts, such as data-types, iterators, and traits. If..."
   url="https://freecodecamp.org/news/procedural-macros-in-rust/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

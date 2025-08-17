@@ -54,7 +54,7 @@ head:
 
 SwiftUI provides an `openWindow` environment key that allows us to create new windows on macOS whenever we need them.
 
-To get started, first edit your `App` scene to include a new `Window`. This means providing a window title, but also an *identifier* – a name we’ll use when asking the system to open this window:
+To get started, first edit your `App` scene to include a new `Window`. This means providing a window title, but also an *identifier* - a name we’ll use when asking the system to open this window:
 
 ```swift
 Window("What's New", id: "whats-new") {
@@ -84,7 +84,7 @@ struct ContentView: View {
 }
 ```
 
-The window can also be opened by going to the Window menu – macOS will automatically show it there, using the window title you provided.
+The window can also be opened by going to the Window menu - macOS will automatically show it there, using the window title you provided.
 
 ::: details Similar solutions…
 

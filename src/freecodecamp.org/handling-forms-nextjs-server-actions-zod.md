@@ -192,7 +192,7 @@ function ContactForm() {
 export default ContactForm;
 ```
 
-In the code above, we are creating a simple contact form. We made it a client component – you’ll see why in a bit.
+In the code above, we are creating a simple contact form. We made it a client component - you’ll see why in a bit.
 
 Import the `ContactForm` component in your <FontIcon icon="fa-brands fa-react"/>`page.tsx` file:
 

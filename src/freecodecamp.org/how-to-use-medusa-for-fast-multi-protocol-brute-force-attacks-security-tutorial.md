@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks – Security Tutorial"
-description: "Article(s) > How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks – Security Tutorial"
+title: "How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
+description: "Article(s) > How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
 icon: iconfont icon-kalilinux
 category: 
   - Linux
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks – Security Tutorial"
+      content: "Article(s) > How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
     - property: og:description
-      content: "How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks – Security Tutorial"
+      content: "How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial.html
 prev: /devops/linux-debian/articles/README.md
@@ -72,13 +72,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727713757103/5146e80
 ---
 
 <SiteInfo
-  name="How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks – Security Tutorial"
-  desc="As a pentester (a fancy term for an ethical hacker), you will often attack systems the same way a malicious hacker does. But your goal will be to find weaknesses – so teams can work to address them. One such system is password-based authentication. B..."
+  name="How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
+  desc="As a pentester (a fancy term for an ethical hacker), you will often attack systems the same way a malicious hacker does. But your goal will be to find weaknesses - so teams can work to address them. One such system is password-based authentication. B..."
   url="https://freecodecamp.org/news/how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727713757103/5146e802-f632-475a-9a3c-ea69827fbefe.jpeg"/>
 
-As a pentester (a fancy term for an ethical hacker), you will often attack systems the same way a malicious hacker does. But your goal will be to find weaknesses – so teams can work to address them. One such system is password-based authentication.
+As a pentester (a fancy term for an ethical hacker), you will often attack systems the same way a malicious hacker does. But your goal will be to find weaknesses - so teams can work to address them. One such system is password-based authentication.
 
 Brute-force attacks are a common method used to crack passwords. They work by trying many username and password combinations.
 

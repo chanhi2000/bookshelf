@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ If you choose to index your app’s content using Spotlight (and you should), yo
 
 All the work is done using the `CSSearchQuery` class, which works asynchronously. You need to give it two closures to work with: one to call when it finds a matching item (which should append the item to a results array), and one to call when the search finishes, at which point you should update your UI with the search results.
 
-`CSSearchQuery` works similarly to Core Data – it even has the same approach to specifying search criteria. In this example we’re going to search for `"contentDescription == \"*\(text)*\"c"`, which means “find things that have a `contentDescription` value equal to any text, followed by our search text, then any text, using case-insensitive matching.
+`CSSearchQuery` works similarly to Core Data - it even has the same approach to specifying search criteria. In this example we’re going to search for `"contentDescription == \"*\(text)*\"c"`, which means “find things that have a `contentDescription` value equal to any text, followed by our search text, then any text, using case-insensitive matching.
 
 There are a few more things you need to know before I show you the code:
 

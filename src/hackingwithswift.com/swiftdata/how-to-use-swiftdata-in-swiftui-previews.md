@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftData makes basic Xcode previews trivial, because they work immediately as long as you don't try to insert any data – any properties created using the `@Query` macro will quietly return no results. However, if you want some sample model data you need to tread a little more carefully, including creating your data using an in-memory data store.
+SwiftData makes basic Xcode previews trivial, because they work immediately as long as you don't try to insert any data - any properties created using the `@Query` macro will quietly return no results. However, if you want some sample model data you need to tread a little more carefully, including creating your data using an in-memory data store.
 
 As an example, here's a trivial `User` model with a small SwiftUI that accepts a user to edit:
 
@@ -133,7 +133,7 @@ That query won't detect any SwiftData objects unless you have specifically inser
 }
 ```
 
-Just as with Core Data, it's usually a good idea to set up some kind of standard `preview` singleton you can work with in many views – something that creates the in-memory configuration, creates a container from it using whatever types are in your project, then inserts some standard sample data.
+Just as with Core Data, it's usually a good idea to set up some kind of standard `preview` singleton you can work with in many views - something that creates the in-memory configuration, creates a container from it using whatever types are in your project, then inserts some standard sample data.
 
 For example, you might do this:
 

@@ -85,7 +85,7 @@ Images aren't supported.
 
 :::
 
-This automatic Markdown conversion happens because SwiftUI interprets those strings as being instances of `LocalizedStringKey` – strings that can be localized by our app. This means if you want to create Markdown text from a property or variable, you should mark it explicitly as being `LocalizedStringKey` to get the Markdown rendering:
+This automatic Markdown conversion happens because SwiftUI interprets those strings as being instances of `LocalizedStringKey` - strings that can be localized by our app. This means if you want to create Markdown text from a property or variable, you should mark it explicitly as being `LocalizedStringKey` to get the Markdown rendering:
 
 ```swift
 struct ContentView: View {
@@ -99,7 +99,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-render-markdown-content-in-text-3.zip)
 
-If you wanted the original text unchanged – i.e., you wanted the raw, unformatted Markdown symbols to be left in place – just remove the `LocalizedStringKey` annotation. Alternatively, you can disable both Markdown and localization entirely using the `Text(verbatim:)` initializer.
+If you wanted the original text unchanged - i.e., you wanted the raw, unformatted Markdown symbols to be left in place - just remove the `LocalizedStringKey` annotation. Alternatively, you can disable both Markdown and localization entirely using the `Text(verbatim:)` initializer.
 
 ::: details Similar solutions…
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ for word in allWords {
 }
 ```
 
-That uses an important dictionary subscript method that provides the default value of 0 if the key doesn’t exist. When reading keys it’s common to use nil coalescing instead – e.g. `let count = wordCount[word] ?? 0` – but when *modifying* like we’re doing here having that default value is useful.
+That uses an important dictionary subscript method that provides the default value of 0 if the key doesn’t exist. When reading keys it’s common to use nil coalescing instead - e.g. `let count = wordCount[word] ?? 0` - but when *modifying* like we’re doing here having that default value is useful.
 
 Once that loop completes, `wordCounts` will contain every word that is used in the plays, as well as its frequency. Because we're using words as the dictionary keys, each word can appear only once in the dictionary. This means we can instantly remove duplicates from `wordCounts` by creating a new array from its keys.
 
@@ -91,13 +91,13 @@ XCTAssertEqual(playData.allWords.count, 18440, "allWords was not 18440")
 
 That's the first of two problems down: every word now appears only once in the table, and you can run the app now to verify that.
 
-The last problem is to fix the detail text label so that it says how many times a word is used rather than just "Detail". With our new `wordCounts` dictionary we can fix this in just one line of code in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` – add this line to `cellForRowAt` just before the return line:
+The last problem is to fix the detail text label so that it says how many times a word is used rather than just "Detail". With our new `wordCounts` dictionary we can fix this in just one line of code in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` - add this line to `cellForRowAt` just before the return line:
 
 ```swift
 cell.detailTextLabel!.text = "\(playData.wordCounts[word]!)"
 ```
 
-If you run the app now you'll see every word now has its count next to it – that wasn't so hard, was it?
+If you run the app now you'll see every word now has its count next to it - that wasn't so hard, was it?
 
 ![Using our word counting code, we can now show frequency next to every word in the plays.](https://hackingwithswift.com/img/books/hws/39-8@2x.png)
 

@@ -85,7 +85,7 @@ struct ContentView: View {
 }
 ```
 
-That works exactly as expected – the extra attribute hasn’t made the method behave differently at all in normal circumstances.
+That works exactly as expected - the extra attribute hasn’t made the method behave differently at all in normal circumstances.
 
 However, take a look at *this* code:
 
@@ -98,7 +98,7 @@ struct ContentView: View {
 }
 ```
 
-That’s subtly different: I removed the dot before `titleStyle()`, which is an *unqualified access* – I haven’t said where I’m calling `titleStyle()`, so SwiftUI assumes I’m actually calling it on `ContentView`. This means it’s actually calling `self.padding()`, so we have an infinitely recursive view and ultimately a crash.
+That’s subtly different: I removed the dot before `titleStyle()`, which is an *unqualified access* - I haven’t said where I’m calling `titleStyle()`, so SwiftUI assumes I’m actually calling it on `ContentView`. This means it’s actually calling `self.padding()`, so we have an infinitely recursive view and ultimately a crash.
 
 Sadly, SwiftUI doesn’t use `@warn_unqualified_access` with its own modifiers, but you can at least add it for the custom ones you build.
 

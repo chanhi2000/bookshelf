@@ -21,7 +21,7 @@ projects:
     link: /news.md
   - icon: https://hackingwithswift.com/favicon.svg
     name: hackingwithswift.com
-    desc: "Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials"
+    desc: "Hacking with Swift - learn to code iPhone and iPad apps with free Swift tutorials"
     link: /hackingwithswift.com/README.md
   - icon: https://cdn.freecodecamp.org/universal/favicons/favicon.ico
     name: freecodecamp.org
@@ -95,6 +95,10 @@ projects:
     name: code-maze.com
     desc: "Code Maze - C#, .NET and Web Development Tutorials"
     link: /code-maze.com/README.md
+  - icon: https://c-sharpcorner.com/images/layout/favicon-icon-dark.svg
+    name: c-sharpcorner.com
+    desc: "C# Corner: AI-Powered Upskilling and Growth Platform"
+    link: /c-sharpcorner.com/README.md
   - icon: 'https://milanjovanovic.tech/profile_favicon.png'
     name: 'milanjovanovic.tech'
     desc: 'Milan Jovanović | Helping You Become a Better .NET Engineer'

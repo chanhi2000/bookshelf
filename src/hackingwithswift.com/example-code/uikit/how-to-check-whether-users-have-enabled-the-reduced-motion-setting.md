@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-There’s a lot of animation in UIKit, and many users find it either distracting or hard to follow. As a result, iOS has a Reduce Motion accessibility setting that disables many animation and parallax effects, and simplifies most others – at least in their own apps.
+There’s a lot of animation in UIKit, and many users find it either distracting or hard to follow. As a result, iOS has a Reduce Motion accessibility setting that disables many animation and parallax effects, and simplifies most others - at least in their own apps.
 
-If you want to follow suit – and you should – all you need to do is read the property `UIAccessibility.isReduceMotionEnabled`. This returns a boolean telling you whether the setting is active or not, so if it’s true you should take steps to animate differently or perhaps not at all.
+If you want to follow suit - and you should - all you need to do is read the property `UIAccessibility.isReduceMotionEnabled`. This returns a boolean telling you whether the setting is active or not, so if it’s true you should take steps to animate differently or perhaps not at all.
 
 -->
 

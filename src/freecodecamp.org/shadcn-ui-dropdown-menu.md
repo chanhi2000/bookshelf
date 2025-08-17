@@ -230,7 +230,7 @@ import { User, Settings, LogOut } from "lucide-react"
 </DropdownMenuItem>
 ```
 
-Icons help users scan options quickly – a great touch for UX.
+Icons help users scan options quickly - a great touch for UX.
 
 ### Step 8: It’s Already Accessible!
 
@@ -240,7 +240,7 @@ shadcn/ui (thanks to Radix UI) makes your dropdown menu:
 - Screen-reader ready
 - Following best web practices
 
-You don’t need to configure accessibility – it just works
+You don’t need to configure accessibility - it just works
 
 ---
 

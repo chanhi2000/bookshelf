@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "React Context for Beginners – The Complete Guide (2021)"
-description: "Article(s) > React Context for Beginners – The Complete Guide (2021)"
+title: "React Context for Beginners - The Complete Guide (2021)"
+description: "Article(s) > React Context for Beginners - The Complete Guide (2021)"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > React Context for Beginners – The Complete Guide (2021)"
+      content: "Article(s) > React Context for Beginners - The Complete Guide (2021)"
     - property: og:description
-      content: "React Context for Beginners – The Complete Guide (2021)"
+      content: "React Context for Beginners - The Complete Guide (2021)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-for-beginners.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2021/07/react-context-for-be
 ---
 
 <SiteInfo
-  name="React Context for Beginners – The Complete Guide (2021)"
+  name="React Context for Beginners - The Complete Guide (2021)"
   desc="React context is an essential tool for every React developer to know. It lets you easily share state in your applications. In this comprehensive guide, we will cover what React context is, how to use it, when and when not to use context, and lots mor..."
   url="https://freecodecamp.org/news/react-context-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -129,7 +129,7 @@ The issue is that we are drilling the `theme` prop through multiple components t
 
 The `Header` component doesn't need `theme` other than to pass it down to its child component. In other words, it would be better for `User` , `Login` and `Menu` to consume the `theme` data directly.
 
-This is the benefit of React context – we can bypass using props entirely and therefore avoid the issue of props drilling.
+This is the benefit of React context - we can bypass using props entirely and therefore avoid the issue of props drilling.
 
 ---
 
@@ -331,7 +331,7 @@ Click below to try the React Bootcamp for yourself:
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "React Context for Beginners – The Complete Guide (2021)",
+  "title": "React Context for Beginners - The Complete Guide (2021)",
   "desc": "React context is an essential tool for every React developer to know. It lets you easily share state in your applications. In this comprehensive guide, we will cover what React context is, how to use it, when and when not to use context, and lots mor...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

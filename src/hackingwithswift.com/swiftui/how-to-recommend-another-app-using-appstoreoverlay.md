@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI gives us a dedicated modifier that can recommend other apps on the App Store, which is a great way to cross-sell to users – “if you liked this, you’ll also like *that*”, and so on. This is particularly helpful if you’re using App Clips, where you can recommend the full app from your clip once your user has performed their primary action.
+SwiftUI gives us a dedicated modifier that can recommend other apps on the App Store, which is a great way to cross-sell to users - “if you liked this, you’ll also like *that*”, and so on. This is particularly helpful if you’re using App Clips, where you can recommend the full app from your clip once your user has performed their primary action.
 
 This modifier needs some state to watch that will determine whether the App Store overlay is active or not, along with an `SKOverlay.AppConfiguration` that determines which app to recommend.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Custom URL schemes allow your app to be launched from anywhere else in the system, but you can also use them to query which of your other apps are installed and even pass data.
 
-To register your custom URL scheme, go to your project settings, select your target, then go to the Info tab. Underneath the rows from your Info.plist file are Document Types, Exported UTIs, Imported UTIs, and URL Types – you need to open that last disclosure indicator.
+To register your custom URL scheme, go to your project settings, select your target, then go to the Info tab. Underneath the rows from your Info.plist file are Document Types, Exported UTIs, Imported UTIs, and URL Types - you need to open that last disclosure indicator.
 
 There are a selection of properties you can add for each URL type you add, but really you only need two: an identifier that is unique to your app and that URL, plus the URL scheme that should be used. For identifier enter “com.yourcompany.yourapp.yoururl”, e.g. com.apple.pages.open, and for URL schemes enter just the part you want before “://“, e.g. you should enter “myapp” if you want to use “myapp://“.
 

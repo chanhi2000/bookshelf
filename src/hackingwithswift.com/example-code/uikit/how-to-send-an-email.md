@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-In the MessageUI framework lies the `MFMailComposeViewController` class, which handles sending emails from your app. You get to set the recipients, message title and message text, but you don't get to send it – that's for the user to tap themselves.
+In the MessageUI framework lies the `MFMailComposeViewController` class, which handles sending emails from your app. You get to set the recipients, message title and message text, but you don't get to send it - that's for the user to tap themselves.
 
 Here's some example code:
 

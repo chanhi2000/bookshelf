@@ -253,7 +253,7 @@ While this example is harmless and goes away with a refresh of your page, you ca
 
 To avoid this, you can use Flask’s built-in [<FontIcon icon="iconfont icon-flask"/>`escape()`](https://flask.palletsprojects.com/en/1.1.x/api/#flask.escape), which converts the special HTML characters `<`, `>`, and `&` into equivalent representations that can be displayed correctly.
 
-You’ll first need to import `escape` into your Python script to use this functionality. Then, when you submit the form, you can convert any special HTML characters and make your form input ’90s hacker–proof:
+You’ll first need to import `escape` into your Python script to use this functionality. Then, when you submit the form, you can convert any special HTML characters and make your form input ’90s hacker-proof:
 
 ```py{2,8}
 from flask import Flask

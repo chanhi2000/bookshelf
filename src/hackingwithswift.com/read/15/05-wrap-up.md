@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -58,7 +58,7 @@ Core Animation is an extraordinary toolkit, and UIKit wraps it in a simple and f
 
 In this project you learned about the `animate(withDuration:)` method of `UIView`, spring animations, as well as alpha values and `CGAffineTransform`. 
 
-Remember, animation isn’t just there to make our apps look pretty – it also helps guide the users eyes. So, if you're moving something around conceptually (e.g., moving an email to a folder, showing a palette of paint brushes, rolling a dice, etc) then move it around *visually* too. Your users will thank you for it!
+Remember, animation isn’t just there to make our apps look pretty - it also helps guide the users eyes. So, if you're moving something around conceptually (e.g., moving an email to a folder, showing a palette of paint brushes, rolling a dice, etc) then move it around *visually* too. Your users will thank you for it!
 
 ---
 
@@ -68,7 +68,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 15: Animation – Hacking with Swift",
+  "title": "Review - Project 15: Animation - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-15-animation",
   "logo": "https://hackingwithswift.com/favicon.svg",

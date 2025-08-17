@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Swift Knowledge Base - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ SwiftUI is such a big topic that it has its own dedicated guidebook: [SwiftUI by
 
 ### Can I use this code in my project?
 
-Yes! I have a very permissive license that allows almost everyone to use my code commercially and non-commercially – [please see my full code license for details](https://hackingwithswift.com/license).
+Yes! I have a very permissive license that allows almost everyone to use my code commercially and non-commercially - [please see my full code license for details](https://hackingwithswift.com/license).
 
 ### Why is this better than just using Google?
 
-Swift is a language that has changed a lot since its launch, and continues to change with every new Xcode release. This frequently makes it hard to find answers to common questions, because what worked a year ago is today probably incompatible! So, I made this as a one-stop-shop for 600 of the most common questions I get asked about Swift – you don't need trial and error: *everything* here has been tested thoroughly.
+Swift is a language that has changed a lot since its launch, and continues to change with every new Xcode release. This frequently makes it hard to find answers to common questions, because what worked a year ago is today probably incompatible! So, I made this as a one-stop-shop for 600 of the most common questions I get asked about Swift - you don't need trial and error: *everything* here has been tested thoroughly.
 
 ### Why are some answers so brief?
 
@@ -71,7 +71,7 @@ I tried to make *every* answer brief, because when you're looking for answers yo
 
 ### Why are some answers so easy?
 
-I get a lot of questions from readers every day, some on Disqus, some on Twitter, and some by email. I've tried to make the answers you see here representative of the questions I get, and it's true: there is a huge range of skills out there. So, some questions are easy, some are hard, and some are in between – and that's okay.
+I get a lot of questions from readers every day, some on Disqus, some on Twitter, and some by email. I've tried to make the answers you see here representative of the questions I get, and it's true: there is a huge range of skills out there. So, some questions are easy, some are hard, and some are in between - and that's okay.
 
 ### Why is there nothing about SomeAwesomeClass?
 

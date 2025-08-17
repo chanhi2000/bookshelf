@@ -578,7 +578,7 @@ You are often advised to rely less on Context or other libraries for local state
 ## References
 
 <SiteInfo
-  name="Composition vs Inheritance – React"
+  name="Composition vs Inheritance - React"
   desc="A JavaScript library for building user interfaces"
   url="https://legacy.reactjs.org/docs/composition-vs-inheritance.html/"
   logo="https://legacy.reactjs.org/favicon-32x32.png?v=f4d46f030265b4c48a05c999b8d93791"
@@ -586,7 +586,7 @@ You are often advised to rely less on Context or other libraries for local state
 
 
 <SiteInfo
-  name="Context – React"
+  name="Context - React"
   desc="A JavaScript library for building user interfaces"
   url="https://legacy.reactjs.org/docs/context.html/"
   logo="https://legacy.reactjs.org/favicon-32x32.png?v=f4d46f030265b4c48a05c999b8d93791"

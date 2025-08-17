@@ -44,12 +44,12 @@ cover: https://freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Ge
 
 <SiteInfo
   name="Top JavaScript Concepts to Know Before Learning React"
-  desc="By Joel Olawanle If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho..."
+  desc="By Joel Olawanle If you want to learn React - or any JavaScript framework - you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho..."
   url="https://freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2022/01/Yellow-and-Purple-Geometric-Covid-19-General-Facts-Twitter-Post-3.jpg"/>
 
-If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts.
+If you want to learn React - or any JavaScript framework - you'll first need to understand the fundamental JavaScript methods and concepts.
 
 Otherwise it's like a youngster learning to run before learning to walk.
 
@@ -98,7 +98,7 @@ A callback function can be either an ordinary function or an arrow function.
 
 As previously stated, a callback function is executed after the original function is executed. You may now begin to consider stacking so many callback functions on top of each other because you do not want a specific function to run until the parent function has finished running or a specific time has passed.
 
-For example, let's attempt to display 5 names in the console after 2 seconds each – that is, the first name appears after 2 seconds, the second after 4 seconds, and so on...
+For example, let's attempt to display 5 names in the console after 2 seconds each - that is, the first name appears after 2 seconds, the second after 4 seconds, and so on...
 
 ```js
 setTimeout(() => {
@@ -128,7 +128,7 @@ You can learn what synchronous and asynchronous means in JavaScript via [this ar
 
 ```component VPCard
 {
-  "title": "Synchronous vs Asynchronous JavaScript – Call Stack, Promises, and More",
+  "title": "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More",
   "desc": "Let me start this article by asking, ”What is JavaScript”? Well, here's the most confusing yet to-the-point answer I have found so far: JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language with lots of flexibi...",
   "link": "/freecodecamp.org/synchronous-vs-asynchronous-in-javascript.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -150,7 +150,7 @@ const myPromise = new Promise((resolve, reject) => {
 });
 ```
 
-Promises have two parameters, one for success (resolve) and one for failure (reject). Each has a condition that must be satisfied in order for the Promise to be resolved – otherwise, it will be rejected:
+Promises have two parameters, one for success (resolve) and one for failure (reject). Each has a condition that must be satisfied in order for the Promise to be resolved - otherwise, it will be rejected:
 
 ```js
 const promise = new Promise((resolve, reject) => {  
@@ -243,7 +243,7 @@ You can read more about map() [here](https://freecodecamp.org/news/javascript-ma
 
 ## Filter() and Find() in JavaScript
 
-`Filter()` provides a new array depending on certain criteria. Unlike map(), it can alter the size of the new array, whereas `find()` returns just a single instance (this might be an object or item). If several matches exist, it returns the first match – otherwise, it returns undefined.
+`Filter()` provides a new array depending on certain criteria. Unlike map(), it can alter the size of the new array, whereas `find()` returns just a single instance (this might be an object or item). If several matches exist, it returns the first match - otherwise, it returns undefined.
 
 Suppose you have an array collection of registered users with different ages:
 
@@ -329,7 +329,7 @@ const [,fruit2 ,, fruit4,] = fruits;
 
 ### Object destructuring
 
-Let’s now see how we could destructure an object – because in React you will be doing a lot of object descructuring.
+Let’s now see how we could destructure an object - because in React you will be doing a lot of object descructuring.
 
 Suppose we have an object of user which contains their firstname, lastname, and lots more,
 
@@ -378,7 +378,7 @@ You can read more about destructuring Arrays and Objects [here](https://freecode
 
 ## Rest and Spread Operators in JavaScript
 
-JavaScript spread and rest operators use three dots `...`. The rest operator gathers or collects items – it puts the “rest” of some specific user-supplied values into a JavaScript array/object.
+JavaScript spread and rest operators use three dots `...`. The rest operator gathers or collects items - it puts the “rest” of some specific user-supplied values into a JavaScript array/object.
 
 Suppose you have an array of fruits:
 
@@ -404,7 +404,7 @@ console.log(`This is an ${chosenFruit}`); /"This is an Apple"
 
 It's important to bear in mind that this has to come last always (placement is very important).
 
-We've just worked with arrays – now let's deal with objects, which are absolutely the same.
+We've just worked with arrays - now let's deal with objects, which are absolutely the same.
 
 Assume we had a user object that has their firstname, lastname, and a lot more. We could destructure it and then extract the remainder of the data.
 
@@ -458,7 +458,7 @@ let animals = [pets, carnivorous];
 console.log(animals); //[["cat", "dog" , "rabbits"], ["lion", "wolf", "leopard", "tiger"]]
 ```
 
-This is not what we want – we want all the items in just one single array. And we can achieve this using the spread operator:
+This is not what we want - we want all the items in just one single array. And we can achieve this using the spread operator:
 
 ```js
 let animals = [...pets, ...carnivorous];
@@ -598,7 +598,7 @@ You can read more about this [here](https://hackmamba.io/blog/2020/11/dynamic-ja
 
 This is arguably the most powerful array function. It can replace the `filter()` and `find()` methods and is also quite handy when doing `map()` and `filter()` methods on large amounts of data.
 
-When you chain map and filter method together, you wind up doing the work twice – first filtering every single value and then mapping the remaining values. On the other hand, `reduce()` allows you to filter and map in a single pass. This method is powerful, but it's also a little more sophisticated and tricky.
+When you chain map and filter method together, you wind up doing the work twice - first filtering every single value and then mapping the remaining values. On the other hand, `reduce()` allows you to filter and map in a single pass. This method is powerful, but it's also a little more sophisticated and tricky.
 
 We iterate over our array and then obtain a callback function, which is similar to `map()`, `filter()`, `find()`, and the others. The main distinction is that it reduces our array to a single value, which may be a number, array, or object.
 
@@ -632,7 +632,7 @@ console.log(totalSalary); // 2150
 
 ::: note NB
 
-We passed a second argument which is the total, it could be anything – for example a number or object.
+We passed a second argument which is the total, it could be anything - for example a number or object.
 
 :::
 
@@ -704,7 +704,7 @@ users.forEach((user) => {
 });
 ```
 
-When you look in your console, you'll notice that the first iteration was completed, but the second iteration had no hobby. So it had to throw an error and break out of the iteration – which meant it couldn't acquire data from other Objects in the array.
+When you look in your console, you'll notice that the first iteration was completed, but the second iteration had no hobby. So it had to throw an error and break out of the iteration - which meant it couldn't acquire data from other Objects in the array.
 
 **Output:**
 
@@ -780,7 +780,7 @@ We will see how this can be done with async/await in the next section. You can r
 
 ```component VPCard
 {
-  "title": "Fetch API – How to Make a GET Request and POST Request in JavaScript",
+  "title": "Fetch API - How to Make a GET Request and POST Request in JavaScript",
   "desc": "By Kingsley Ubah Often times you might want your system to communicate with other web servers to get information. For example, let's say a new user wants to sign up for an account on your website. And instead of having to manually fill out a form to ...",
   "link": "/freecodecamp.org/how-to-make-api-calls-with-fetch.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -856,7 +856,7 @@ You can read more about async/await [here](/freecodecamp.org/javascript-async-aw
 
 ```component VPCard
 {
-  "title": "JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦",
+  "title": "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦",
   "desc": "Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: Callbacks Promises Async / Await Here's what we'll cover in this article: What is Asynchronous JavaSc...",
   "link": "/freecodecamp.org/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -872,7 +872,7 @@ In this article, we have learned over 10 JavaScript methods and concepts that ev
 
 There are so many other methods and concepts you should know, but these are the ones you might not really pay attention to while learning JavaScript. These are important to understand before you learn React.
 
-Suppose you are just getting started with JavaScript – I have curated an awesome list of resources that will help you learn JavaScript concepts and topics [here (<FontIcon icon="iconfont icon-github"/>`olawanlejoel/Awesome-Javascript`)](https://github.com/olawanlejoel/Awesome-Javascript). Don’t forget to star and share!
+Suppose you are just getting started with JavaScript - I have curated an awesome list of resources that will help you learn JavaScript concepts and topics [here (<FontIcon icon="iconfont icon-github"/>`olawanlejoel/Awesome-Javascript`)](https://github.com/olawanlejoel/Awesome-Javascript). Don’t forget to star and share!
 
 You can access over 200 of my articles by [visiting my website](https://joelolawanle.com/contents). You can also use the search field to see if I've written a specific article.
 
@@ -880,7 +880,7 @@ You can access over 200 of my articles by [visiting my website](https://joelolaw
 ```component VPCard
 {
   "title": "Top JavaScript Concepts to Know Before Learning React",
-  "desc": "By Joel Olawanle If you want to learn React – or any JavaScript framework – you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho...",
+  "desc": "By Joel Olawanle If you want to learn React - or any JavaScript framework - you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-javascript-concepts-to-know-before-learning-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

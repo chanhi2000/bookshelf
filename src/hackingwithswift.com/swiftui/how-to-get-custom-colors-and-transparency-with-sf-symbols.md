@@ -94,7 +94,7 @@ Image(systemName: "shareplay")
 
 ![The Apple Shareplay symbol showing a blue person icon in front of two black arcs.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-get-custom-colors-and-transparency-with-sf-symbols-3~dark.png)
 
-How those colors are applied depends on each individual symbol – sometimes symbols are defined with two layers and sometimes three, and you'll need to explore them individually to see how they break down.
+How those colors are applied depends on each individual symbol - sometimes symbols are defined with two layers and sometimes three, and you'll need to explore them individually to see how they break down.
 
 For symbols that contain three variants, just add an extra color:
 

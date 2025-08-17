@@ -86,7 +86,7 @@ Using a restaurant analogy, think of an instance as a chef doing the work of con
 
 But if your restaurant had a sale that was more popular than anticipated, or a large party of tourists were to suddenly descend upon the restaurant, how would you cope? What if you could add more chefs on the fly immediately when needed?
 
-This is how dynamic auto scaling works. Dynamic scaling will cause chefs to spontaneously appear in the kitchen, ready to transform orders into delicious meals, based on a predefined metric that you can choose to measure how overworked the chefs are – that is, how much they are struggling to fulfill current orders.
+This is how dynamic auto scaling works. Dynamic scaling will cause chefs to spontaneously appear in the kitchen, ready to transform orders into delicious meals, based on a predefined metric that you can choose to measure how overworked the chefs are - that is, how much they are struggling to fulfill current orders.
 
 Remember that these scaling policies are simply rules. These rules can be very simple, like:
 
@@ -158,7 +158,7 @@ Load balancers accept connections from clients and distribute the requests acros
 
 ```component VPCard
 {
-  "title": "The OSI Model – The 7 Layers of Networking Explained in Plain English",
+  "title": "The OSI Model - The 7 Layers of Networking Explained in Plain English",
   "desc": "By Chloe Tucker This article explains the Open Systems Interconnection (OSI) model and the 7 layers of networking, in plain English. The OSI model is a conceptual framework that is used to describe how a network functions. In plain English, the OSI m...",
   "link": "/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -180,7 +180,7 @@ While other balancing algorithms exist, the round robin algorithm is the most po
 
 The diagram above is a logical depiction of how load balancers work. It only shows one load balancer, which is not a very resilient design. This logical abstraction is easy to illustrate, but is not accurate.
 
-Behind the scenes, multiple load balancer nodes are deployed into each subnet within an availability zone. The load balancer is created with a single DNS record that points at all the elastic load balancer nodes created – that is, this single DNS record points at all of the IP addresses of the actual nodes deployed. All incoming requests are distributed equally across all the load balancer nodes and the load balancer nodes in turn equally distribute requests to target instances. In this way, you don’t have a single point of failure.
+Behind the scenes, multiple load balancer nodes are deployed into each subnet within an availability zone. The load balancer is created with a single DNS record that points at all the elastic load balancer nodes created - that is, this single DNS record points at all of the IP addresses of the actual nodes deployed. All incoming requests are distributed equally across all the load balancer nodes and the load balancer nodes in turn equally distribute requests to target instances. In this way, you don’t have a single point of failure.
 
 A more realistic, albeit more complex, representation of how load balancers work is shown below. In this example, requests will come to any of the load balancer nodes deployed across the three subnets and then they are equally distributed across the target instances.
 
@@ -196,7 +196,7 @@ What exactly does being “aware” mean? Since user requests are first sent to 
 
 ---
 
-## Bringing it Together – Load Balancing and Auto Scaling in Action
+## Bringing it Together - Load Balancing and Auto Scaling in Action
 
 The diagram below shows load balancing and auto scaling used for a three tiered web application consisting of web, application, and database tiers. Each of these tiers have separate instances/infrastructure.
 

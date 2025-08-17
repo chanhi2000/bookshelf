@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-`UIStepper` is one of those controls that doesn’t get used often, which is a shame – it’s trivial to add, and helps users select a value more accurately than a `UISlider`.
+`UIStepper` is one of those controls that doesn’t get used often, which is a shame - it’s trivial to add, and helps users select a value more accurately than a `UISlider`.
 
 Here’s some code to help you try it out:
 

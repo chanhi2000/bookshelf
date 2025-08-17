@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Summary
-description: Article(s) > (6/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
+description: Article(s) > (6/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
 category: 
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (6/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book] 
+      content: Article(s) > (6/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book] 
     - property: og:description
       content: Summary
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-
 
 ```component VPCard
 {
-  "title": "Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
   "link": "/freecodecamp.org/gitting-things-done-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-
 ---
 
 <SiteInfo
-  name="Gitting Things Done – A Visual and Practical Guide to Git [Full Book]"
+  name="Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
   desc="Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us..."
   url="https://freecodecamp.org/news/gitting-things-done-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -91,7 +91,7 @@ If you want to read more of my Git articles and handbooks, here they are:
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -101,7 +101,7 @@ If you want to read more of my Git articles and handbooks, here they are:
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -111,7 +111,7 @@ If you want to read more of my Git articles and handbooks, here they are:
 
 ```component VPCard
 {
-  "title": "Git Diff and Patch – Full Handbook for Developers",
+  "title": "Git Diff and Patch - Full Handbook for Developers",
   "desc": "Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh...",
   "link": "/freecodecamp.org/git-diff-and-patch.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -131,7 +131,7 @@ If you want to read more of my Git articles and handbooks, here they are:
 
 ```component VPCard
 {
-  "title": "GitReset Explained – How to Save the Day with the Reset Command",
+  "title": "GitReset Explained - How to Save the Day with the Reset Command",
   "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
   "link": "freecodecamp.org/save-the-day-with-git-reset.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

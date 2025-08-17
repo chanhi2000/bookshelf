@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The React Router Cheatsheet – Everything You Need to Know"
-description: "Article(s) > The React Router Cheatsheet – Everything You Need to Know"
+title: "The React Router Cheatsheet - Everything You Need to Know"
+description: "Article(s) > The React Router Cheatsheet - Everything You Need to Know"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The React Router Cheatsheet – Everything You Need to Know"
+      content: "Article(s) > The React Router Cheatsheet - Everything You Need to Know"
     - property: og:description
-      content: "The React Router Cheatsheet – Everything You Need to Know"
+      content: "The React Router Cheatsheet - Everything You Need to Know"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-router-cheatsheet.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2021/04/the-react-router-che
 ---
 
 <SiteInfo
-  name="The React Router Cheatsheet – Everything You Need to Know"
+  name="The React Router Cheatsheet - Everything You Need to Know"
   desc="If you're building React applications for the web, you're going to need to use a dedicated router to display pages and navigate your user around them.  That's why today we're going to go over the most popular and most powerful router for React applic..."
   url="https://freecodecamp.org/news/react-router-cheatsheet"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -56,7 +56,7 @@ cover: https://freecodecamp.org/news/content/images/2021/04/the-react-router-che
 
 If you're building React applications for the web, you're going to need to use a dedicated router to display pages and navigate your user around them.
 
-That's why today we're going to go over the most popular and most powerful router for React applications – React Router.
+That's why today we're going to go over the most popular and most powerful router for React applications - React Router.
 
 We're going to go over 11 of the essential features you need to know if you're using React Router in your projects today, specifically for the web using the package <FontIcon icon="fa-brands fa-npm"/>`react-router-dom`.
 
@@ -644,7 +644,7 @@ Click below to try the React Bootcamp for yourself:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The React Router Cheatsheet – Everything You Need to Know",
+  "title": "The React Router Cheatsheet - Everything You Need to Know",
   "desc": "If you're building React applications for the web, you're going to need to use a dedicated router to display pages and navigate your user around them.  That's why today we're going to go over the most popular and most powerful router for React applic...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-router-cheatsheet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
-description: "Article(s) > Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
+title: "Design-first vs Logic-first Approach - How Should You Start Your Front-end Projects?"
+description: "Article(s) > Design-first vs Logic-first Approach - How Should You Start Your Front-end Projects?"
 icon: fas fa-pen-ruler
 category: 
   - Design
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
+      content: "Article(s) > Design-first vs Logic-first Approach - How Should You Start Your Front-end Projects?"
     - property: og:description
-      content: "Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
+      content: "Design-first vs Logic-first Approach - How Should You Start Your Front-end Projects?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/design-first-vs-logic-first-approach.html
 prev: /academics/system-design/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724861983210/118e84b
 ---
 
 <SiteInfo
-  name="Design-first vs Logic-first Approach – How Should You Start Your Front-end Projects?"
+  name="Design-first vs Logic-first Approach - How Should You Start Your Front-end Projects?"
   desc="Front-end development is the aspect of web development that involves building user-friendly, dynamic and intuitive interfaces. A front-end developer is primarily concerned about the interface design that the user interacts with and the user’s experie..."
   url="https://freecodecamp.org/news/design-first-vs-logic-first-approach/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

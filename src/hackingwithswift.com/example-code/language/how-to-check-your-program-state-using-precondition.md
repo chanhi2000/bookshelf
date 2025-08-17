@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You should already know that the `assert()` function lets you check the state of your program at runtime, and crash if things aren’t how they should be. One of the neat features of `assert()` is that it automatically gets removed when you build your app in release mode, but if you don’t want that to happen – if you want your app to crash if something is seriously wrong – then you should use the `precondition()` function instead.
+You should already know that the `assert()` function lets you check the state of your program at runtime, and crash if things aren’t how they should be. One of the neat features of `assert()` is that it automatically gets removed when you build your app in release mode, but if you don’t want that to happen - if you want your app to crash if something is seriously wrong - then you should use the `precondition()` function instead.
 
-`precondition()` works identically to `assert()`: give it a condition to check along with an optional message to print if the check fails. At runtime – even in release mode – Swift will run the check for you and crash if the check fails.
+`precondition()` works identically to `assert()`: give it a condition to check along with an optional message to print if the check fails. At runtime - even in release mode - Swift will run the check for you and crash if the check fails.
 
 For example:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "NaturalLanguage - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/naturallanguage/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-iOS gives us the ability to search for similar words for a term by using *word embeddings*, which are maps of strings created using machine learning that describe how similar various words are in terms of their meaning. This kind of thing is useful when handling user searches: you might have tagged a photo with “hat”, but your user searched for “sombrero” – word embeddings let us find similar words, and we can then use those variations for data searches.
+iOS gives us the ability to search for similar words for a term by using *word embeddings*, which are maps of strings created using machine learning that describe how similar various words are in terms of their meaning. This kind of thing is useful when handling user searches: you might have tagged a photo with “hat”, but your user searched for “sombrero” - word embeddings let us find similar words, and we can then use those variations for data searches.
 
 To get started, first add `import NaturalLanguage`, then create a word embedding for the language you want to target:
 
@@ -77,7 +77,7 @@ let similarWords = embedding?.neighbors(for: "rain", maximumCount: 10)
 
 That will set `similarWords` to be an array of tuples, where each tuple contains two values: a word that is similar, and a distance from your original word. This array is sorted by distance, so closest words come first.
 
-We asked for “rain”, so we’ll get back “downpour” with a distance of 0.614, “rainstorm” with a distance of 0.661, “torrential” with a distance of 0.701, and more – drenching, rainfall, flooding, storm, flood, monsoon, and more.
+We asked for “rain”, so we’ll get back “downpour” with a distance of 0.614, “rainstorm” with a distance of 0.661, “torrential” with a distance of 0.701, and more - drenching, rainfall, flooding, storm, flood, monsoon, and more.
 
 Here’s a full example so you can try it easily:
 

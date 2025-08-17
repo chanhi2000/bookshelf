@@ -88,9 +88,9 @@ npm makes it easy to manage dependencies in a project. Instead of manually downl
 
 Some key features include:
 
-🔹 **Automatic installation** – Run `npm install`, and all dependencies are set up.  
-🔹 **Version control** – Specify package versions to avoid breaking changes.  
-🔹 **Peer dependencies** – Ensure compatibility between different libraries.
+🔹 **Automatic installation** - Run `npm install`, and all dependencies are set up.  
+🔹 **Version control** - Specify package versions to avoid breaking changes.  
+🔹 **Peer dependencies** - Ensure compatibility between different libraries.
 
 For example, here’s how npm helps manage dependency versions in <FontIcon icon="iconfont icon-json"/>`package.json`:
 
@@ -101,8 +101,8 @@ For example, here’s how npm helps manage dependency versions in <FontIcon icon
 }
 ```
 
-- `^18.0.0` – Allows minor updates but prevents major breaking changes.
-- `axios` – Ensures HTTP requests are handled consistently across different projects.
+- `^18.0.0` - Allows minor updates but prevents major breaking changes.
+- `axios` - Ensures HTTP requests are handled consistently across different projects.
 
 To update all dependencies safely, run:
 
@@ -118,9 +118,9 @@ This ensures your project is always running on the latest stable versions.
 
 npm has an active and growing community, meaning developers around the world contribute and maintain thousands of useful libraries. This results in:
 
-🌎 **Faster development** – No need to reinvent the wheel.  
-🛠️ **Well-tested solutions** – Many libraries are battle-tested in production environments.  
-📚 **Rich documentation** – Most npm packages come with clear usage instructions and examples.
+🌎 **Faster development** - No need to reinvent the wheel.  
+🛠️ **Well-tested solutions** - Many libraries are battle-tested in production environments.  
+📚 **Rich documentation** - Most npm packages come with clear usage instructions and examples.
 
 Popular npm libraries include:
 

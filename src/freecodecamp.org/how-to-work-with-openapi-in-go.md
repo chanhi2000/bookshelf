@@ -94,7 +94,7 @@ Once the requirements are ready, it's time to open your [<FontIcon icon="iconfon
 
 And it's important to understand that it's not only about writing the JSON/YAML spec, but actually agreeing on the API design.
 
-I recommend that you follow some API design guide – [<FontIcon icon="iconfont icon-gcp"/>Google has one](https://cloud.google.com/apis/design), for example. This will help you avoid mixed styles (like **/resourceName/{id}** and **/resource_name/{id}**, inconsistent use of HTTP methods, or unclear resource relationships.
+I recommend that you follow some API design guide - [<FontIcon icon="iconfont icon-gcp"/>Google has one](https://cloud.google.com/apis/design), for example. This will help you avoid mixed styles (like **/resourceName/{id}** and **/resource_name/{id}**, inconsistent use of HTTP methods, or unclear resource relationships.
 
 ### openapi.yaml
 
@@ -148,7 +148,7 @@ We defined the skeleton of our schema, but the majority of OpenAPI schema lays i
 
 ### Paths and Operations
 
-Let's now add a few endpoints to our schema. The operations are grouped by paths, so you can have multiple HTTP methods on a single path – for example `GET /devices/{deviceId}` and `DELETE /devices/{deviceId}`.
+Let's now add a few endpoints to our schema. The operations are grouped by paths, so you can have multiple HTTP methods on a single path - for example `GET /devices/{deviceId}` and `DELETE /devices/{deviceId}`.
 
 It's a good practice to define all types (request bodies, responses, errors) in the `components` section and reference them instead of manually defining them in the `paths` section. This allows for easier re-use of entities. For example, in our API we have a type `Device` which can be used in many endpoints.
 
@@ -287,9 +287,9 @@ The `x-` props will be used by the Go server generator to use existing Go types 
 
 ## How to Generate a Go Server
 
-We didn't go through all possible schema properties here and just covered the main ones – so if you’re not familiar with OAS, you should now have a good understanding of this standard. You can read the whole specification [<FontIcon icon="iconfont icon-openapi"/>here](https://spec.openapis.org/oas/latest.html). But now as our schema is ready, we can generate a Go server from it.
+We didn't go through all possible schema properties here and just covered the main ones - so if you’re not familiar with OAS, you should now have a good understanding of this standard. You can read the whole specification [<FontIcon icon="iconfont icon-openapi"/>here](https://spec.openapis.org/oas/latest.html). But now as our schema is ready, we can generate a Go server from it.
 
-You can find the full list of generators on [<FontIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) – there are a lot of them. But the most popular one for Go servers is [<FontIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`](https://github.com/oapi-codegen/oapi-codegen).
+You can find the full list of generators on [<FontIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) - there are a lot of them. But the most popular one for Go servers is [<FontIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`](https://github.com/oapi-codegen/oapi-codegen).
 
 > oapi-codegen currently doesn’t support this OAS 3.1. [issue (<FontIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`)](https://github.com/oapi-codegen/oapi-codegen/issues/373). [<FontIcon icon="iconfont icon-github"/>`ogen-go/ogen`](https://github.com/ogen-go/ogen/) does, though.
 
@@ -412,7 +412,7 @@ Now when we run our server using `go run .`, we can curl `localhost:8080/devices
 
 ### How to visualize API docs
 
-Sometimes it's handy to have Swagger docs shipped together with your API – for testing, for example, or just as public documentation. `oapi-codegen` doesn't generate the Swagger UI out of the box, but we can have a simple HTML page that has a Swagger JS which loads our OAS.
+Sometimes it's handy to have Swagger docs shipped together with your API - for testing, for example, or just as public documentation. `oapi-codegen` doesn't generate the Swagger UI out of the box, but we can have a simple HTML page that has a Swagger JS which loads our OAS.
 
 You can find the HTML code for our <FontIcon icon="fas fa-folder-open"/>`pkg/api/`<FontIcon icon="fa-brands fa-html5"/>`index.html` [<FontIcon icon="iconfont icon-swagger"/>here](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/).
 

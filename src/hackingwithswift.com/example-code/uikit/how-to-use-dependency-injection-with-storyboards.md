@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -89,7 +89,7 @@ class MainViewController {
 }
 ```
 
-Having optionals in here was unavoidable because we had to let the storyboard handle initializing the view controller, but it adds all sorts of complexity – we can set that value to `nil` by accident, we can forget to set it at all, and we need to unwrap it as needed.
+Having optionals in here was unavoidable because we had to let the storyboard handle initializing the view controller, but it adds all sorts of complexity - we can set that value to `nil` by accident, we can forget to set it at all, and we need to unwrap it as needed.
 
 From iOS 13.0 and later there’s a better solution: a new method on `UIStoryboard` called `instantiateViewController(identifier:creator:)`, which lets us determine how to create and configure our view controllers.
 
@@ -128,7 +128,7 @@ func show(user: User) {
 }
 ```
 
-What’s really changing here is that we’re now handed the `NSCoder` instance that can create our view controller, and we can use that however we want – including alongside other properties we want to inject. However, it means more places where we can remove optionality from properties, which is always welcome.
+What’s really changing here is that we’re now handed the `NSCoder` instance that can create our view controller, and we can use that however we want - including alongside other properties we want to inject. However, it means more places where we can remove optionality from properties, which is always welcome.
 -->
 
 ::: details Similar solutions…

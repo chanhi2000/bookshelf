@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,9 +53,9 @@ isOriginal: false
 
 It's time for something new, and something I've held back from covering in Hacking with Swift because only a small proportion of people have an Apple Watch. So, I'm covering it here only briefly, and only at the very end of the project so that if you don't have an Apple Watch you can just skip on past.
 
-Still here? OK: we're going to upgrade our project so that when your finger moves over the correct card your Apple Watch will gently tap your wrist. The haptic vibration of Apple Watches is so marvelously subtle that no one will have any idea what's happening – the effect is very impressive!
+Still here? OK: we're going to upgrade our project so that when your finger moves over the correct card your Apple Watch will gently tap your wrist. The haptic vibration of Apple Watches is so marvelously subtle that no one will have any idea what's happening - the effect is very impressive!
 
-I have good news and bad news. First the good news: for our purposes, communicating between Apple Watch and iOS could not be any easier – it take us maybe five minutes in total to complete the code. Now the bad news: even when the settings are adjusted, your Watch will go to sleep after 70 seconds of inactivity, so it's down you to make sure the app stays awake.
+I have good news and bad news. First the good news: for our purposes, communicating between Apple Watch and iOS could not be any easier - it take us maybe five minutes in total to complete the code. Now the bad news: even when the settings are adjusted, your Watch will go to sleep after 70 seconds of inactivity, so it's down you to make sure the app stays awake.
 
 That bad news will make more sense once you're using the finished product, so without further ado let's crack on with development. In <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` add this new import:
 
@@ -63,7 +63,7 @@ That bad news will make more sense once you're using the finished product, so wi
 import WatchConnectivity
 ```
 
-As you might imagine, the WatchConnectivity framework is responsible for connectivity between iOS apps and watchOS apps, and we'll be using it to send messages between our phone and a Watch. The messages are dictionaries of any data you want, so you can send strings, numbers, arrays and more – it's up to you.
+As you might imagine, the WatchConnectivity framework is responsible for connectivity between iOS apps and watchOS apps, and we'll be using it to send messages between our phone and a Watch. The messages are dictionaries of any data you want, so you can send strings, numbers, arrays and more - it's up to you.
 
 In order to work with a session, we need to check whether it's supported on our current phone, then activate it. Put this code into the `viewDidLoad()` method of <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
@@ -101,7 +101,7 @@ func sessionDidDeactivate(_ session: WCSession) {
 
 Sending a message from a phone to a watch is trivial, like I said, but there is one small piece of complexity: if we want the watch to buzz every time it receives a message (spoiler: that's exactly what we want), we need a way to rate limit those messages. That is, we don't want to send 100 messages a second when the user is touching the right card, because it would make your watch go nuts.
 
-To solve this problem, we're going to add a new property that tracks when the last watch message was sent. This way, we can avoid sending a message to the watch if there was one sent very recently – i.e., less than about half a second ago.
+To solve this problem, we're going to add a new property that tracks when the last watch message was sent. This way, we can avoid sending a message to the watch if there was one sent very recently - i.e., less than about half a second ago.
 
 Add this property to the class:
 

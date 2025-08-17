@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,7 +55,7 @@ isOriginal: false
 
 It's time for another game, and we'll be using more of SpriteKit to build a whack-a-mole game, except with penguins because Whack-a-Penguin isn't trademarked. You're going to learn about `SKCropNode`, `SKTexture` and some more types of `SKAction`, and we'll also use more GCD to execute closures after a delay.
 
-Create a new SpriteKit game project in Xcode, named Project14 and targeting landscape iPads, then delete most of the example code just like you did in project 11 – you want the same clean project, with no “Hello World” template content.
+Create a new SpriteKit game project in Xcode, named Project14 and targeting landscape iPads, then delete most of the example code just like you did in project 11 - you want the same clean project, with no “Hello World” template content.
 
 If you don’t remember all the steps, here’s the abridged version:
 
@@ -85,7 +85,7 @@ All set? Open up <FontIcon icon="fa-brands fa-swift"/>`GameScene.swift` and get 
 
 ::: note Reminder
 
-When working with SpriteKit projects I strongly recommend you use a device if possible. If you don’t have a physical iPad to hand, use the lowest-spec iPad simulator rather than something like the 12.9-inch iPad Pro – you'll get much slightly frame rates, making it much more suitable for testing.
+When working with SpriteKit projects I strongly recommend you use a device if possible. If you don’t have a physical iPad to hand, use the lowest-spec iPad simulator rather than something like the 12.9-inch iPad Pro - you'll get much slightly frame rates, making it much more suitable for testing.
 
 :::
 

@@ -54,7 +54,7 @@ head:
 
 **New in iOS 15**
 
-SwiftUI provides a `safeAreaInset()` modifier that lets us place content outside the device's safe area, while also having other views adjust their layout so their content remains visible – it effectively shrinks the safe area to ensure all content can be seen as intended. This is different from `ignoresSafeArea()`, which merely extends a view's edges so they go edge to edge.
+SwiftUI provides a `safeAreaInset()` modifier that lets us place content outside the device's safe area, while also having other views adjust their layout so their content remains visible - it effectively shrinks the safe area to ensure all content can be seen as intended. This is different from `ignoresSafeArea()`, which merely extends a view's edges so they go edge to edge.
 
 For example, a list would normally scroll to the very end of the screen, but we could place something outside the safe area at the bottom and have the list automatically adjust its insets so all its contents are visible when we scroll to its end:
 

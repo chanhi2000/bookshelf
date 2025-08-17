@@ -89,7 +89,7 @@ These problems are easy to fix with RGB and HSL functions in CSS, but before we 
 
 [**The RGB color function in CSS**](/blog.logrocket.com/exploring-css-color-module-level-5.md) allows you to specify red, green, and blue parametric values to generate colors. The outcome will be a mix of all three of these values.
 
-All three of the values may vary from 0–255, and it’s tricky to contemplate the outcome without referencing a color wheel tool.
+All three of the values may vary from 0-255, and it’s tricky to contemplate the outcome without referencing a color wheel tool.
 
 The RGB function in CSS also takes an optional fourth parameter, responsible for the opaqueness of the final color. It is often specified using the RGBA function, but modern browsers allow you to add an alpha value in the RGB function itself.
 

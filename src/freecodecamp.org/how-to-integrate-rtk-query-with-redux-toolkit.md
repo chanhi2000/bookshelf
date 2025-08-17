@@ -202,7 +202,7 @@ Open the <FontIcon icon="iconfont icon-json"/>`db.json` file and paste in the fo
       "id": "4"
     },
     {
-      "title": "Mission: Impossible – Fallout",
+      "title": "Mission: Impossible - Fallout",
       "description": "Ethan Hunt and his IMF team must track down stolen plutonium while being hunted by assassins and former allies. With incredible stunts and non-stop action sequences, Hunt races against time to prevent a global catastrophe.",
       "year": 2018,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTk3NDY5MTU0NV5BMl5BanBnXkFtZTgwNDI3MDE1NTM@._V1_.jpg",
@@ -719,7 +719,7 @@ In programming, caching is one of the hardest things to do. But RTK Query makes 
 
 When you call your API, RTK Query automatically caches the result of successfully calling your API. This means that subsequent calls to the API return the cached result.
 
-For example, if you try editing any movie in your app, you'll notice that nothing changes. This doesn't mean that it's not working – in fact, it is working. And the results returned are the cached version (the results when you first called the API, that is on component mount).
+For example, if you try editing any movie in your app, you'll notice that nothing changes. This doesn't mean that it's not working - in fact, it is working. And the results returned are the cached version (the results when you first called the API, that is on component mount).
 
 To stop this behaviour, you need to invalidate the cache each time you make changes to your backend. This will cause RTK Query to automatically refetch the data to reflect your changes.
 
@@ -800,7 +800,7 @@ In real-world applications, you want to display something meaningful, such as a 
 
 Similarly, when your API request is loading, you want to display a loading spinner or a loading skeleton UI so that your users know that your app data is loading.
 
-For the purposes of this article, we are not going to dive into advanced error handling or managing loading states – but these would be things you’d want to look into.
+For the purposes of this article, we are not going to dive into advanced error handling or managing loading states - but these would be things you’d want to look into.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "🔁 Azure Virtual Machine Scale Sets (VMSS) – Scaling Made Simple"
-description: "Article(s) > (5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+title: "🔁 Azure Virtual Machine Scale Sets (VMSS) - Scaling Made Simple"
+description: "Article(s) > (5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 category:
   - DevOps
   - Microsoft
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > (5/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
-      content: "🔁 Azure Virtual Machine Scale Sets (VMSS) – Scaling Made Simple"
+      content: "🔁 Azure Virtual Machine Scale Sets (VMSS) - Scaling Made Simple"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machine-scale-sets-vmss-scaling-made-simple.html
 date: 2025-05-15
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer#heading-azure-virtual-machine-scale-sets-vmss-scaling-made-simple"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb4-8d7b-47e5-ab31-126906f60b40.png"/>
 
-Okay – so we’ve talked about **horizontal scaling**: adding multiple VMs to handle growing traffic. Sounds great, right?
+Okay - so we’ve talked about **horizontal scaling**: adding multiple VMs to handle growing traffic. Sounds great, right?
 
 But here’s the thing: manually spinning up and configuring 5, 10, or 100 VMs... every time your app gets busy? Yeah, that’s not fun 🙃
 
@@ -76,7 +76,7 @@ Think of VMSS like a juice dispenser at a party:
 - If 10 guests show up? It starts filling 5 cups
 - Party slows down? Back to 2 cups again
 
-You never have to refill manually – the dispenser adjusts on its own. 🎉
+You never have to refill manually - the dispenser adjusts on its own. 🎉
 
 ---
 
@@ -84,7 +84,7 @@ You never have to refill manually – the dispenser adjusts on its own. 🎉
 
 1. **You set the rules:** “If CPU usage goes above 70%, add 2 more VMs.”
 2. **Azure watches traffic and adjusts the number of VMs** automatically.
-3. **All VMs are identical** – like clones, all running the same app setup.
+3. **All VMs are identical** - like clones, all running the same app setup.
 4. **It works with Azure Load Balancer** to spread traffic across all these VMs smoothly.
 
 ---
@@ -101,6 +101,6 @@ You’ve built an app where users order food. During lunch and dinner, traffic e
 
 :::
 
-You only pay for what you use. And users get a smooth experience – no delays, no crashes 👌🏾
+You only pay for what you use. And users get a smooth experience - no delays, no crashes 👌🏾
 
 ![Auto-scaling illustration](https://cdn.hashnode.com/res/hashnode/image/upload/v1746982520998/7fe3c997-fc8f-418a-861b-e999905ca43c.png)

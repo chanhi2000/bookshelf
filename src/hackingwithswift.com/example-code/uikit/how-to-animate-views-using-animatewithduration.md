@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Animation in iOS is done by starting an animation block, then telling iOS what changes you want to make. Because the animation block is active, those changes won't happen straight away – instead, iOS will execute them smoothly over the time you specified, so you don't have to worry when it will finish or what all the intermediate states are.
+Animation in iOS is done by starting an animation block, then telling iOS what changes you want to make. Because the animation block is active, those changes won't happen straight away - instead, iOS will execute them smoothly over the time you specified, so you don't have to worry when it will finish or what all the intermediate states are.
 
 Here's a basic example to make a view fade out:
 
@@ -71,7 +71,7 @@ UIView.animate(withDuration: 1) {
 }
 ```
 
-If you want to remove the view from its superview once the fade has finished, you can use a more advanced version of the same method that gives you a completion block – a closure that will be run once the animation finishes. Here's how that looks:
+If you want to remove the view from its superview once the fade has finished, you can use a more advanced version of the same method that gives you a completion block - a closure that will be run once the animation finishes. Here's how that looks:
 
 ```swift
 UIView.animate(withDuration: 1, animations: {

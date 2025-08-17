@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Objects in TypeScript"
-description: "Article(s) > (5/13) Learn TypeScript – A Handbook for Developers"
+description: "Article(s) > (5/13) Learn TypeScript - A Handbook for Developers"
 category:
   - TypeScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/13) Learn TypeScript – A Handbook for Developers"
+      content: "Article(s) > (5/13) Learn TypeScript - A Handbook for Developers"
     - property: og:description
       content: "Objects in TypeScript"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 
 ```component VPCard
 {
-  "title": "Learn TypeScript – A Handbook for Developers",
+  "title": "Learn TypeScript - A Handbook for Developers",
   "desc": "This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ...",
   "link": "/freecodecamp.org/learn-typescript-with-react-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 ---
 
 <SiteInfo
-  name="Learn TypeScript – A Handbook for Developers"
+  name="Learn TypeScript - A Handbook for Developers"
   desc="This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ..."
   url="https://freecodecamp.org/news/learn-typescript-with-react-handbook#heading-objects-in-typescript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -98,7 +98,7 @@ You’ll get another error:
 Type 'string' is not assignable to type 'number'.
 ```
 
-Having to write the full object type each time can get repetitive, especially for objects with many properties or when the same structure is used in multiple places. But don’t worry – I’ll soon introduce **type aliases**, which make defining and reusing object types much simpler. You’ll see how to use type aliases to simplify object types and make your code cleaner. After that, we’ll explore how to apply these concepts in React.
+Having to write the full object type each time can get repetitive, especially for objects with many properties or when the same structure is used in multiple places. But don’t worry - I’ll soon introduce **type aliases**, which make defining and reusing object types much simpler. You’ll see how to use type aliases to simplify object types and make your code cleaner. After that, we’ll explore how to apply these concepts in React.
 
 For now, focus on understanding the basics and how TypeScript enforces structure. It’s like peeking under the hood to see how TypeScript works behind the scenes.
 

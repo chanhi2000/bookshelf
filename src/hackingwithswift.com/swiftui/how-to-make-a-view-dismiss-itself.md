@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-When you show a SwiftUI view using a sheet, it’s common to want to dismiss that view when something happens – when the user taps on a button, for example. There are two ways of solving this in SwiftUI, and I’m going to show you both so you can decide which suits your needs.
+When you show a SwiftUI view using a sheet, it’s common to want to dismiss that view when something happens - when the user taps on a button, for example. There are two ways of solving this in SwiftUI, and I’m going to show you both so you can decide which suits your needs.
 
 The first option is to tell the view to dismiss itself using its presentation mode environment key. Any view can dismiss itself, regardless of how it was presented, using `@Environment(\.dismiss)`, and calling that property as a function will cause the view to be dismissed.
 
@@ -89,7 +89,7 @@ struct ContentView: View {
 
 The other option is to pass a binding into the view that was shown, so it can changing the binding’s value back to false. You still need to have some sort of state property in your presenting view, but now you pass that *into* the detail view as a binding.
 
-Using this approach, the detail view settings its binding to false also updates the state in the original view, causing the detail view to dismiss – both the detail view and original view point to the same Boolean value, so changing one changes it in the other place too.
+Using this approach, the detail view settings its binding to false also updates the state in the original view, causing the detail view to dismiss - both the detail view and original view point to the same Boolean value, so changing one changes it in the other place too.
 
 Here’s that in code:
 

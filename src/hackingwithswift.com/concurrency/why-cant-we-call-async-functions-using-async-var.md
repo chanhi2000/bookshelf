@@ -52,7 +52,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Swift’s `async let` syntax provides short, helpful syntax for running lots of work concurrently, allowing us to wait for them all later on. However, it only works as `async let` – it’s not possible to use `async var`.
+Swift’s `async let` syntax provides short, helpful syntax for running lots of work concurrently, allowing us to wait for them all later on. However, it only works as `async let` - it’s not possible to use `async var`.
 
 If you think about it, this restriction makes sense. Consider pseudocode like this:
 
@@ -69,7 +69,7 @@ print("Username is \(username)")
 
 That attempts to create a variable asynchronously, then writes to it directly. Have we cancelled the async work? If not, when the async work completes will it overwrite our new value? Do we still need to use `await` when reading the value even after we’ve explicitly set it?
 
-This kind of code would create all sorts of confusion, so it’s just not allowed – `async let` is our only option.
+This kind of code would create all sorts of confusion, so it’s just not allowed - `async let` is our only option.
 
 ::: details Similar solutions…
 

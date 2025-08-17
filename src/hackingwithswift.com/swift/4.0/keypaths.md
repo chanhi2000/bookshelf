@@ -49,7 +49,7 @@ isOriginal: false
 
 > Available from Swift 4.0
 
-One of the most loved features of Objective-C is its ability to reference a property dynamically rather than directly – that is, to be able to say "given object X, here is the property I'd like to read" without actually reading it. These references, called *keypaths*, are distinct from direct property accesses because they don't actually read or write the value, they just stash it away for use later on.
+One of the most loved features of Objective-C is its ability to reference a property dynamically rather than directly - that is, to be able to say "given object X, here is the property I'd like to read" without actually reading it. These references, called *keypaths*, are distinct from direct property accesses because they don't actually read or write the value, they just stash it away for use later on.
 
 If you've never used keypaths before, let me show you an analogy of how they work using regular Swift methods. We're going to define a struct called `Starship` and a struct called `Crew`, then create one instance of each:
 
@@ -82,7 +82,7 @@ let enterWarp = voyager.goToMaximumWarp
 enterWarp()
 ```
 
-Because functions are first-class types in Swift, the last two lines are able to create a reference to the `goToMaximumWarp()` method called `enterWarp`, then call that later on whenever we want to. The problem is, you can't do the same thing for properties – you can't say "create a reference to the captain's name property that I can check when the inevitable mutiny happens," because Swift will just read the property directly and you'll just get its original value.
+Because functions are first-class types in Swift, the last two lines are able to create a reference to the `goToMaximumWarp()` method called `enterWarp`, then call that later on whenever we want to. The problem is, you can't do the same thing for properties - you can't say "create a reference to the captain's name property that I can check when the inevitable mutiny happens," because Swift will just read the property directly and you'll just get its original value.
 
 This is fixed with keypaths: they are *uninvoked references to properties* just like our `enterWarp()` code. If you invoke the reference now you get the current value, but if you invoke the reference later you get the latest value. You can dig through any number of properties, and Swift uses its type inference to ensure you get the correct type back.
 
@@ -100,7 +100,7 @@ let starshipCaptain = voyager[keyPath: captainName]
 
 That will make `starshipName` a string and `starshipMaxWarp` a double, because Swift is able to infer the types correctly. The third example there even goes into the property of a property, and Swift still figures it out correctly.
 
-Future plans for this include being able to access array indexes and to create keypaths from strings at runtime – for more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0161-key-paths.md).
+Future plans for this include being able to access array indexes and to create keypaths from strings at runtime - for more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0161-key-paths.md).
 
 ::: details Other Changes in Swift 4.0
 

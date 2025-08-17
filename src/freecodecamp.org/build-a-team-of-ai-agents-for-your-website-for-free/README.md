@@ -110,7 +110,7 @@ For this tutorial, we’ll build a portfolio website. But you can use the ideas 
 
 ## What Are AI Agents?
 
-AI agents are computer systems or programs that are designed to use artificial intelligence to interact with their world and achieve certain objectives. They are able to perceive their world – through sensors, user input, or data – and act to achieve goals, typically with some degree of autonomy. This means that they will decide things for themselves, sometimes with little to no human intervention, depending on how they were designed.
+AI agents are computer systems or programs that are designed to use artificial intelligence to interact with their world and achieve certain objectives. They are able to perceive their world - through sensors, user input, or data - and act to achieve goals, typically with some degree of autonomy. This means that they will decide things for themselves, sometimes with little to no human intervention, depending on how they were designed.
 
 ---
 
@@ -132,7 +132,7 @@ If you go to the [<FontIcon icon="iconfont icon-gro"/>Groq Cloud Playground](htt
 
 This is great because Groq Cloud gives us the flexibility to choose from any of these AI LLM models for our AI agent application. Agno basically acts as the orchestration layer for multiple AI agents. In our case, that would be WelcomeAgent, ProjectAgent, CareerAgent, BusinessAdvisor and ResearchAgent.
 
-The platform is able to manage their conversations, task delegation, and memory. When any of our AI agents need to reason or generate output, Agno then uses Groq Cloud, which can run large language models (LLMs), and it does this with ultra-low latency. The advantage to this is that it ensures that it has fast and efficient responses. Groq Cloud itself is not an LLM – rather, it is a high-performance inference engine which hosts and serves LLMs from lots of different providers.
+The platform is able to manage their conversations, task delegation, and memory. When any of our AI agents need to reason or generate output, Agno then uses Groq Cloud, which can run large language models (LLMs), and it does this with ultra-low latency. The advantage to this is that it ensures that it has fast and efficient responses. Groq Cloud itself is not an LLM - rather, it is a high-performance inference engine which hosts and serves LLMs from lots of different providers.
 
 For this project, we will use Meta’s LLaMA 3 model because it strikes a strong balance between performance and accuracy and is openly accessible. This means that it is well-suited for the AI agents in our portfolio website.
 
@@ -164,12 +164,12 @@ All of this combined provides you with a practical and approachable way to explo
 
 The website will have the following six pages:
 
-- Home – the main webpage
-- Projects – showcasing some featured projects and technical skills
-- Career – showing skills, experience, education, and certifications
-- Services – client services and the engagement process
-- Research – a way to search the web regarding the tech industry
-- Contact – a page with a form to contact the user
+- Home - the main webpage
+- Projects - showcasing some featured projects and technical skills
+- Career - showing skills, experience, education, and certifications
+- Services - client services and the engagement process
+- Research - a way to search the web regarding the tech industry
+- Contact - a page with a form to contact the user
 
 You can see what your frontend React application will look like below:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -76,7 +76,7 @@ let php = Language(name: "PHP", version: 7)
 let perl = Language(name: "Perl", version: 6)
 ```
 
-You can see I've marked the Language struct as conforming to the `Codable` protocol – there’s no need to add custom loading and saving code like we had with `NSCoding`.
+You can see I've marked the Language struct as conforming to the `Codable` protocol - there’s no need to add custom loading and saving code like we had with `NSCoding`.
 
 With that one tiny conformance, we can convert it to a `Data` representation of JSON like this:
 
@@ -87,7 +87,7 @@ if let encoded = try? encoder.encode(swift) {
 }
 ```
 
-Swift will automatically encode all properties inside your data type – you don't need to do anything.
+Swift will automatically encode all properties inside your data type - you don't need to do anything.
 
 To prove that everything is working well, we can try converting that `Data` object into a string so we can print it out, then decode it back into a new Language instance that we can read from:
 
@@ -104,7 +104,7 @@ if let encoded = try? encoder.encode(swift) {
 }
 ```
 
-Notice how decoding doesn't require a typecast – you provide the data type name as its first parameter, so Swift infers the return type from there.
+Notice how decoding doesn't require a typecast - you provide the data type name as its first parameter, so Swift infers the return type from there.
 
 -->
 

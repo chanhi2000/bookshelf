@@ -51,7 +51,7 @@ isOriginal: false
 
 Swift 4.2 implemented [SE-0206 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0206-hashable-enhancements.md), which simplifies the way we make custom types conform to the `Hashable` protocol.
 
-From Swift 4.1 onwards conformance to `Hashable` can be synthesized by the compiler. However, if you want your own hashing implementation – for example, if your type has many properties but you know that one of them was enough to identify it uniquely – you still need to write your own code using whatever algorithm you thought was best.
+From Swift 4.1 onwards conformance to `Hashable` can be synthesized by the compiler. However, if you want your own hashing implementation - for example, if your type has many properties but you know that one of them was enough to identify it uniquely - you still need to write your own code using whatever algorithm you thought was best.
 
 Swift 4.2 introduced a new `Hasher` struct that provides a randomly seeded, universal hash function to make this process easier:
 

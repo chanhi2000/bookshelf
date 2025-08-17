@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS 10 introduced a new closure-based animation class in the form of `UIViewPropertyAnimator`. Amongst other things, it lets you interactively adjust the position of an animation, making it jump to any point in time that we need – a technique commonly called *scrubbing*. 
+iOS 10 introduced a new closure-based animation class in the form of `UIViewPropertyAnimator`. Amongst other things, it lets you interactively adjust the position of an animation, making it jump to any point in time that we need - a technique commonly called *scrubbing*. 
 
 To try it yourself, create a new Single View App project targeting iPad, then lock it so that it supports landscape only and use Interface Builder to embed its view controller inside a navigation controller.
 
@@ -88,7 +88,7 @@ redBox.center.y = view.center.y
 view.addSubview(redBox)
 ```
 
-That creates a 128x128 red box, centered vertically and part-way off the left edge of the screen. Even though we’re going to manipulate it elsewhere in the app, we *don’t* need a property for it – `UIViewPropertyAnimator` works using closures, so it will capture the box for us.
+That creates a 128x128 red box, centered vertically and part-way off the left edge of the screen. Even though we’re going to manipulate it elsewhere in the app, we *don’t* need a property for it - `UIViewPropertyAnimator` works using closures, so it will capture the box for us.
 
 Next, add a property for the animator:
 
@@ -107,7 +107,7 @@ animator = UIViewPropertyAnimator(duration: 2, curve: .easeInOut) { [unowned sel
 
 That doesn’t actually *run* the animation, which is OK for now. Instead, it creates the animation and stores it away in the `animator` property, ready for us to manipulate.
 
-At this point, we have a slider on the screen and a red box too, so we just need to connect it all. When the slider is moved, its `.valueChanged` event will be triggered, and we can add a method to catch that. We can actually feed the slider’s `value` property – the number from 0.0 to 1.0 – directly into the `fractionComplete` property of our `UIViewPropertyAnimator`, which controls how much of the animation has happened, and UIKit will take care of the rest for us.
+At this point, we have a slider on the screen and a red box too, so we just need to connect it all. When the slider is moved, its `.valueChanged` event will be triggered, and we can add a method to catch that. We can actually feed the slider’s `value` property - the number from 0.0 to 1.0 - directly into the `fractionComplete` property of our `UIViewPropertyAnimator`, which controls how much of the animation has happened, and UIKit will take care of the rest for us.
 
 Add this method to `ViewController`:
 
@@ -123,9 +123,9 @@ To make that get called by the slider, add this to `viewDidLoad()`:
 slider.addTarget(self, action: #selector(sliderChanged), for: .valueChanged)
 ```
 
-That’s it! We’ve created the user interface, prepared an animation, then connected the slider’s value to the animation’s progress. If you run the app now you’ll see you can drag the slider from left to right and back again to manipulate the box – you literally have exact control over its position in the animation.
+That’s it! We’ve created the user interface, prepared an animation, then connected the slider’s value to the animation’s progress. If you run the app now you’ll see you can drag the slider from left to right and back again to manipulate the box - you literally have exact control over its position in the animation.
 
-If you wanted to make the animation play the traditional way – i.e., without user control – just call its `startAnimation()` method. You can also set `animator.isReversed = true` to force the animation to move backwards, ultimately returning to its starting state.
+If you wanted to make the animation play the traditional way - i.e., without user control - just call its `startAnimation()` method. You can also set `animator.isReversed = true` to force the animation to move backwards, ultimately returning to its starting state.
 
 -->
 

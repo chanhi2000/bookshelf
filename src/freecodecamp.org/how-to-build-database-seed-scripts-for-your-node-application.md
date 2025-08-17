@@ -24,7 +24,7 @@ head:
       content: "How to Build Database Seed Scripts for Your Node Application"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-database-seed-scripts-for-your-node-application.html
-prev: /js-supabase/articles/README.md
+prev: /programming/js-supabase/articles/README.md
 date: 2025-07-29
 isOriginal: false
 author:
@@ -39,7 +39,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753746696472/4a181d0
 {
   "title": "Supabase > Article(s)",
   "desc": "Article(s)",
-  "link": "/js-supabase/articles/README.md",
+  "link": "/programming/js-supabase/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -62,7 +62,7 @@ Instead of manually creating test users, products, or other entities every time 
 
 The benefits of using seed files go far beyond convenience. They provide consistent test data across different environments, dramatically faster development setup times, and truly reproducible environments that eliminate the "it works on my machine" problem. When your entire team can spin up identical databases with realistic data in seconds, everyone can develop significantly faster and debugging becomes more predictable.
 
-[Firebase](https://medium.com/firebase-developers/what-is-firebase-the-complete-story-abridged-bcc730c5f2c0), Google's backend-as-a-service (BaaS) platform, offers an excellent foundation for implementing seed files thanks to its flexible [NoSQL](https://mongodb.com/resources/basics/databases/nosql-explained) structure and robust [Node.js SDK](https://youtube.com/watch?v=lqZEXpQDuHU). [Firestore's](https://firebase.google.com/docs/firestore) document-based architecture naturally accommodates the varied data types and relationships commonly found in seed files. At the same time, Firebase's real-time capabilities make sure that your seeded data immediately reflects across all connected clients.
+[Firebase](https://medium.com/firebase-developers/what-is-firebase-the-complete-story-abridged-bcc730c5f2c0), Google's backend-as-a-service (BaaS) platform, offers an excellent foundation for implementing seed files thanks to its flexible [NoSQL](https://mongodb.com/resources/basics/databases/nosql-explained) structure and robust [Node.js SDK](https://youtu.be/lqZEXpQDuHU). [Firestore's](https://firebase.google.com/docs/firestore) document-based architecture naturally accommodates the varied data types and relationships commonly found in seed files. At the same time, Firebase's real-time capabilities make sure that your seeded data immediately reflects across all connected clients.
 
 Seed files prove most valuable during initial project setup, feature development requiring specific data configurations, automated testing scenarios, and when onboarding new team members. They're particularly crucial when working with complex data relationships or when your application requires substantial amounts of interconnected data to function properly.
 
@@ -674,7 +674,7 @@ describe('Seed Data Tests', () => {
 });
 ```
 
-There are three basic things that these tests check for your seed system. The structure test makes sure seeded documents have all the necessary fields – if you add a required field to your application but fail to update the seed data, this test will alert you.
+There are three basic things that these tests check for your seed system. The structure test makes sure seeded documents have all the necessary fields - if you add a required field to your application but fail to update the seed data, this test will alert you.
 
 The referential integrity test is vital to enforce the intended relationships between the data. It makes sure that every product actually references a category existing in the database. If you don't have this test, you can accidentally create orphaned records that break the application.
 
@@ -705,7 +705,7 @@ Adding npm scripts will make your tests easier to run. Testing then becomes apar
 }
 ```
 
-Here, `test:all-seeds` runs both sets of tests in the right order-from checking the raw data all the way to testing the seeding process. `dev:safe` is an example seed test integration into the developer flow – seed testing is assured before you run the development server.
+Here, `test:all-seeds` runs both sets of tests in the right order-from checking the raw data all the way to testing the seeding process. `dev:safe` is an example seed test integration into the developer flow - seed testing is assured before you run the development server.
 
 ### Create Jest Configuration
 

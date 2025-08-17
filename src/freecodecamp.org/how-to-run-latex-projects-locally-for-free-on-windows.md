@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740494599916/ce7cfad
 
 LaTeX is a high-quality typesetting system that is widely used in technical, academic, and scientific writing. It’s very popular in academia, especially in fields like mathematics, physics, computer science, and engineering.
 
-LaTeX is not a word processor like Microsoft Word – rather, it’s a document preparation system that allows you to focus on the content of your writing while it handles the formatting. If you use LaTeX to write your formal documents (like a CV, résumé, or research paper), then you don’t need to worry about the formatting and structure, as everything can be done using LaTeX scripts.
+LaTeX is not a word processor like Microsoft Word - rather, it’s a document preparation system that allows you to focus on the content of your writing while it handles the formatting. If you use LaTeX to write your formal documents (like a CV, résumé, or research paper), then you don’t need to worry about the formatting and structure, as everything can be done using LaTeX scripts.
 
 If you use LaTeX to write your academic or research papers, you might be familiar with website-based applications like [<FontIcon icon="fas fa-globe"/>Overleaf](https://overleaf.com/). Overleaf is a website that allows anyone to read, write, and compile LaTeX scripts online.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS can dynamically generate shadows for any `UIView`, and these shadows automatically adjust to fit the shape of the item in question – even following the curves of text inside a `UILabel`. This functionality is built right in, so all you need to do is configure its properties, and there are four you need to care about:
+iOS can dynamically generate shadows for any `UIView`, and these shadows automatically adjust to fit the shape of the item in question - even following the curves of text inside a `UILabel`. This functionality is built right in, so all you need to do is configure its properties, and there are four you need to care about:
 
 - `shadowColor` sets the color of the shadow, and needs to be a `CGColor`.
 <li>`shadowOpacity` sets how transparent the shadow is, where 0 is invisible and 1 is as strong as possible.

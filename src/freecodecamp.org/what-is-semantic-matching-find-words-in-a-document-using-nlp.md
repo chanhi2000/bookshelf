@@ -144,7 +144,7 @@ In order to perform semantic matching in NLP, there are certain things you need 
 
 ### What is Word Embedding?
 
-Word embedding is an advanced text representation technique used to represent words in a lower-dimensional vector representation. This vector representation captures inter-word semantic and syntactic information. This means that words that have similar meanings – even though they might be spelled differently – will have close to similar vector representations.
+Word embedding is an advanced text representation technique used to represent words in a lower-dimensional vector representation. This vector representation captures inter-word semantic and syntactic information. This means that words that have similar meanings - even though they might be spelled differently - will have close to similar vector representations.
 
 ### What does Lower-Dimensional Vector representation mean?
 
@@ -218,7 +218,7 @@ Now we are going to use semantic matching to look for a word or phrase in the do
 
 Word embedding generates embeddings for individual words. Our PDF document contains a **large volume of textual components**, including digits, special characters, symbols, stopwords, and the actual words we want to match. So, to save time on preprocessing, we are going to utilize `KeyBERT`. This is a library that allows us to get meaningful keywords (words or phrases) from a particular document in a minimal way.
 
-Keep in mind that by default, `KeyBERT` extracts single keywords – but we can also tell it to extract phrases with two or more words. We’ll use it here to extract single-word and 2-word phrases. Below is the implementation of using `KeyBERT` to extract keywords from our document:
+Keep in mind that by default, `KeyBERT` extracts single keywords - but we can also tell it to extract phrases with two or more words. We’ll use it here to extract single-word and 2-word phrases. Below is the implementation of using `KeyBERT` to extract keywords from our document:
 
 ```py
 from keybert import KeyBERT

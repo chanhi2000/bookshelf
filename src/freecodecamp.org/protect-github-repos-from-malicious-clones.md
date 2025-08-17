@@ -82,7 +82,7 @@ If you haven’t heard about what’s going on:
 
 :::
 
-Because search engines and GitHub’s own search rankings favor recent activity, these cloned repositories often float to the top – then they lure unsuspecting developers into pulling code that may contain malware.
+Because search engines and GitHub’s own search rankings favor recent activity, these cloned repositories often float to the top - then they lure unsuspecting developers into pulling code that may contain malware.
 
 One of my [repositories (<FontIcon icon="iconfont icon-github"/>`brooks-code/miniature-fortnight`)](http://github.com/brooks-code/miniature-fortnight) has been targeted by such an attack, prompting me to monitor it closely. This guide offers tips to spot malicious repository clones before they catch you off guard.
 
@@ -113,7 +113,7 @@ It's not the first time this has happened. Before GitHub was targeted, PyPI was 
 
 ### Verify the contributors profiles
 
-That's a first check: if you see a rather empty GitHub profile – one without reputation that contains just one repository but with a lot of daily commits to it – well, that's a bit suspicious.
+That's a first check: if you see a rather empty GitHub profile - one without reputation that contains just one repository but with a lot of daily commits to it - well, that's a bit suspicious.
 
 In the fake repository, the original author will be listed as a contributor, too. Check that profile. You should be able to find the legitimate repository and do some comparisons.
 
@@ -137,7 +137,7 @@ users generally click on the first few search results, and in that type of attac
 
 In my case, the original repository is a submission for the HackaViz 2025 competition. Hackathons offer a good attack surface because, beyond the fact they draw niche communities, they are also time sensitive.
 
-Now, let’s move forward a year and imagine Hackaviz 2026 is starting soon. The attacker has easily outranked the untouched original submission. Which repository is most likely to be visited when future competitors – unaware of the scam – will look for the previous submissions?
+Now, let’s move forward a year and imagine Hackaviz 2026 is starting soon. The attacker has easily outranked the untouched original submission. Which repository is most likely to be visited when future competitors - unaware of the scam - will look for the previous submissions?
 
 ### Examine the commit pattern
 

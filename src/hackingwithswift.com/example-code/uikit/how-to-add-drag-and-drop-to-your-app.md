@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -134,13 +134,13 @@ leftTableView.dragInteractionEnabled = true
 rightTableView.dragInteractionEnabled = true
 ```
 
-Xcode will throw up several warnings because our current view controller class doesn't conform to the `UITableViewDragDelegate` or `UITableViewDropDelegate` protocols. This can be fixed by adding those two protocols to our class – scroll up to the top and change the class definition to this:
+Xcode will throw up several warnings because our current view controller class doesn't conform to the `UITableViewDragDelegate` or `UITableViewDropDelegate` protocols. This can be fixed by adding those two protocols to our class - scroll up to the top and change the class definition to this:
 
 ```swift
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITableViewDragDelegate, UITableViewDropDelegate {
 ```
 
-This in turn creates another problem: we're saying we conform to those two new protocols, but we aren't implementing their required methods. Xcode can automatically complete required methods for protocols – click the number "2" on the red highlighted line of code, and you should see a more detailed explanation appear. Click "Fix" to have Xcode insert the two missing methods for us – you should see this appear in your class:
+This in turn creates another problem: we're saying we conform to those two new protocols, but we aren't implementing their required methods. Xcode can automatically complete required methods for protocols - click the number "2" on the red highlighted line of code, and you should see a more detailed explanation appear. Click "Fix" to have Xcode insert the two missing methods for us - you should see this appear in your class:
 
 ```swift
 func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem] {
@@ -181,7 +181,7 @@ func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSessio
 
 Now we need to fill in `performDropWith`, which is tricky because there are two potential complexities.
 
-First, we might be getting several strings at the same time if someone is dragging in lots of things, so we need to insert them all sensibly. Second, we might be told where the user wants to insert the rows, but we might not – they might just drag the strings onto some whitespace in the table, so we need to decide what that means for us.
+First, we might be getting several strings at the same time if someone is dragging in lots of things, so we need to insert them all sensibly. Second, we might be told where the user wants to insert the rows, but we might not - they might just drag the strings onto some whitespace in the table, so we need to decide what that means for us.
 
 To solve those two problems means writing more code than you may have expected, but I'll try to walk you through it step by step to make it a bit easier.
 
@@ -207,7 +207,7 @@ The next step is to ask the drop coordinator to load all the objects it has for 
 
 We need to send this a closure of code to run when the items are ready, which is where the complexity starts: we need to insert them all one by one below the destination index path, modifying either the `leftItems` or `rightItems` arrays, before finally calling `insertRows()` on our table view to make them appear.
 
-So, again: we've just written code to figure out the destination index path for a drop operation. But if we get multiple items then all we have is the initial destination index path – the path for the first item. The second item should be one row lower, the third item should be two rows lower, and so on. As we move down each item to copy, we're going to create a new index path and stash it away in an `indexPaths` array so we can call `insertRows()` on our table view all at once.
+So, again: we've just written code to figure out the destination index path for a drop operation. But if we get multiple items then all we have is the initial destination index path - the path for the first item. The second item should be one row lower, the third item should be two rows lower, and so on. As we move down each item to copy, we're going to create a new index path and stash it away in an `indexPaths` array so we can call `insertRows()` on our table view all at once.
 
 Add this code to your `performDropWith` method, below the previous code we just wrote:
 
@@ -241,7 +241,7 @@ coordinator.session.loadObjects(ofClass: NSString.self) { items in
 }
 ```
 
-That's all the code complete – you should be able to run the app now and drag rows between the two table views to copy them. This code also automatically supports drag and drop from other apps, so you can try dragging things from external apps onto your table views.
+That's all the code complete - you should be able to run the app now and drag rows between the two table views to copy them. This code also automatically supports drag and drop from other apps, so you can try dragging things from external apps onto your table views.
 
 -->
 

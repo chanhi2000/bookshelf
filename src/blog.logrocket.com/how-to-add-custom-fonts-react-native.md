@@ -398,9 +398,9 @@ These strategies will help you get the most out of React Native fonts
 
 While custom fonts provide unique branding, system fonts offer several advantages:
 
-1. **No loading time** – They’re built into the device
-2. **Better performance** – Optimized for the platform
-3. **Native feel** – Familiar to users of each platform
+1. **No loading time**: They’re built into the device
+2. **Better performance**: Optimized for the platform
+3. **Native feel**: Familiar to users of each platform
 
 To use system fonts effectively, you can use `Platform.select()` to provide platform-specific font families:
 

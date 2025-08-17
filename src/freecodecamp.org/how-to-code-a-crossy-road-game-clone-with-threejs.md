@@ -564,7 +564,7 @@ The Road and Car functions are new here, so let's examine them next. The Road fu
 
 ![The Road component](https://cdn.hashnode.com/res/hashnode/image/upload/v1739807755293/e731a758-ac20-40f5-819b-82a5ae81e65f.png)
 
-The size of the plane is also determined by the constants `tileSize` and `tilesPerRow`. Unlike the grass function, though, it doesn't have any height. It's completely flat. The road will also serve as a container for the cars and trucks in the row, so that's why we wrap the plane into a group – so that we can add children to it.
+The size of the plane is also determined by the constants `tileSize` and `tilesPerRow`. Unlike the grass function, though, it doesn't have any height. It's completely flat. The road will also serve as a container for the cars and trucks in the row, so that's why we wrap the plane into a group - so that we can add children to it.
 
 ```js
 import * as THREE from "three";
@@ -815,7 +815,7 @@ If a car reaches the end of the lane, we respawn it at the other end, depending 
 
 Now, let's move on to animating the player. Moving the player on the map is more complex than moving the vehicles. The player can move in all directions, bump into trees, or get hit by cars, and it shouldn't be able to move outside the map.
 
-In this chapter, we are focusing on two parts: collecting user inputs and executing the movement commands. Player movement is not instant – we need to collect the movement commands into a queue and execute them one by one. We are going to collect user inputs and put them into a queue. We collect both click events from the control buttons on the screen and from keyboard events.
+In this chapter, we are focusing on two parts: collecting user inputs and executing the movement commands. Player movement is not instant - we need to collect the movement commands into a queue and execute them one by one. We are going to collect user inputs and put them into a queue. We collect both click events from the control buttons on the screen and from keyboard events.
 
 ### Collecting User Inputs
 
@@ -958,7 +958,7 @@ Below you can see what a sine wave looks like. It goes from 0 to 2 Pi. So if you
 
 To make the jump look higher, we can multiply this with a value. In this case, we multiply the result of the sine function by eight, so as a result, the player will have a jump where the maximum height of the jump will be eight units.
 
-We also need to add the original Z position to the value – otherwise, the player will sink halfway into the ground after the first step.
+We also need to add the original Z position to the value - otherwise, the player will sink halfway into the ground after the first step.
 
 ![For the vertical movement we use a sine wave](https://cdn.hashnode.com/res/hashnode/image/upload/v1739810397620/89119f6e-ced5-4cdb-8254-96fbf66479ed.png)
 
@@ -1096,7 +1096,7 @@ export function queueMove(direction) {
 // ...
 ```
 
-This way, as you can see, you can move around the map – but you can never move before the first row, you can't go too far to the left or too far to the right, and you also can’t go through a tree anymore.
+This way, as you can see, you can move around the map - but you can never move before the first row, you can't go too far to the left or too far to the right, and you also can’t go through a tree anymore.
 
 ---
 

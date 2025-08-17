@@ -61,7 +61,7 @@ Although we're now more than two years into Swift concurrency, Xcode still ships
 
 :::
 
-As an example, let's say you're building an app that is able to scour various sources for information on a particular topic, and bring them all together in a local SwiftData store so you could perform various analysis work on it – perhaps you're running through some machine learning algorithms, you're performing semantic analysis, or whatever. 
+As an example, let's say you're building an app that is able to scour various sources for information on a particular topic, and bring them all together in a local SwiftData store so you could perform various analysis work on it - perhaps you're running through some machine learning algorithms, you're performing semantic analysis, or whatever. 
 
 We would start with a SwiftData model able to hold a topic name, plus a `content` string containing all the relevant text you found from various sources, like this:
 

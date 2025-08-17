@@ -58,14 +58,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727909892455/221e81f
 
 <SiteInfo
   name="How to Start Your Open Source Journey: A Beginner's Guide to Contributing"
-  desc="Open source software has become the backbone of modern technology, powering everything from small startups to giant corporations. Contributing to open source projects is not just a way to give back to the community – it's also an excellent opportunit..."
+  desc="Open source software has become the backbone of modern technology, powering everything from small startups to giant corporations. Contributing to open source projects is not just a way to give back to the community - it's also an excellent opportunit..."
   url="https://freecodecamp.org/news/how-to-start-your-open-source-journey-beginners-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727909892455/221e81fb-d41d-463a-a1fa-d5ef2d316eaf.png"/>
 
 Open source software has become the backbone of modern technology, powering everything from small startups to giant corporations.
 
-Contributing to open source projects is not just a way to give back to the community – it's also an excellent opportunity to enhance your skills, build your portfolio, and connect with like-minded developers from around the world.
+Contributing to open source projects is not just a way to give back to the community - it's also an excellent opportunity to enhance your skills, build your portfolio, and connect with like-minded developers from around the world.
 
 But for many beginners, the prospect of contributing to open source can be daunting. Common barriers include not knowing where to start, fear of making mistakes, or feeling intimidated by complex codebases.
 
@@ -487,7 +487,7 @@ Remember, each project offers unique learning opportunities and challenges.
 
 Contributing to open source can be an incredibly rewarding experience. It allows you to improve your coding skills, collaborate with developers worldwide, and make a meaningful impact on projects used by millions of people.
 
-Remember, everyone starts somewhere. Don't be afraid to make mistakes – they're part of the learning process. The open source community is generally welcoming and supportive of newcomers.
+Remember, everyone starts somewhere. Don't be afraid to make mistakes - they're part of the learning process. The open source community is generally welcoming and supportive of newcomers.
 
 We hope this guide, along with tools like Git Begin and our Job Scraper project, will help you take your first steps into the world of open source contribution. Happy coding, and we look forward to seeing your contributions!
 

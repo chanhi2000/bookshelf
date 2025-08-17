@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ numbers.forEach {
 }
 ```
 
-The difference is that `forEach()` can’t skip over any items – you can’t exit the loop part way, without processing the rest of the items. This helps people reading your code to figure out your intent: you want to act on all items, and won’t stop in the middle.
+The difference is that `forEach()` can’t skip over any items - you can’t exit the loop part way, without processing the rest of the items. This helps people reading your code to figure out your intent: you want to act on all items, and won’t stop in the middle.
 
 -->
 

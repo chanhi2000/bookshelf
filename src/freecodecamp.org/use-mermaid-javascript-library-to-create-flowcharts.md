@@ -79,9 +79,9 @@ When compared to the most common drag-and-drop types of diagramming tools, Merma
 
 ### Challenges with Mermaid
 
-Of course, it is not a perfect tool. One of the main challenges with Mermaid – and with many script-based diagramming tools – is that it’s a WYSIWYG tool: Mermaid’s results are almost impossible to predict, and after that they are hard to customize.
+Of course, it is not a perfect tool. One of the main challenges with Mermaid - and with many script-based diagramming tools - is that it’s a WYSIWYG tool: Mermaid’s results are almost impossible to predict, and after that they are hard to customize.
 
-Also, for each diagram you can make with Mermaid, there are prescribed shapes and arrows – the introduction of new shapes or relationships are limited.
+Also, for each diagram you can make with Mermaid, there are prescribed shapes and arrows - the introduction of new shapes or relationships are limited.
 
 Some other limitations are:
 
@@ -182,7 +182,7 @@ Just keep in mind that you can select only one direction for your flowchart (eit
 
 ### How to Write a Comment
 
-Now, before we start using shapes, let’s see how to write a comment in a Mermaid flowchart. A comment will not render on the chart – they’re just there to help you out. You likely know how useful they are as a developer.
+Now, before we start using shapes, let’s see how to write a comment in a Mermaid flowchart. A comment will not render on the chart - they’re just there to help you out. You likely know how useful they are as a developer.
 
 To write a comment, just precede the text of the comment with "`%%`” :
 
@@ -239,7 +239,7 @@ Across the Mermaid documentation, **nodes** are used as a generic term to refer 
 
 ### How to Create Your First Node (The Process Shape)
 
-Adding a node to a flowchart with Mermaid is very easy. Just think of a unique name – or its **ID** according to the Mermaid documentation. For the sake of clarity, I’ll also refer to this ID as the **node ID**.
+Adding a node to a flowchart with Mermaid is very easy. Just think of a unique name - or its **ID** according to the Mermaid documentation. For the sake of clarity, I’ll also refer to this ID as the **node ID**.
 
 The node ID should be a single word with no space and preferably no other characters other than alphanumeric ones. The node ID will hold for the rest of the script and you will use it to recall that shape in other parts of the script.
 
@@ -931,7 +931,7 @@ classDef asNode fill:grey, color:orange
 
 If you want to style edges, then you have to proceed differently. What actually worked for me was the use of another reserved word, `linkStyle`, which styles the **line** of the edge.
 
-The problem with edges is that they don’t have IDs: they are treated more like being part of an array, so they should be referred with an index – which won’t always correspond to the edge you want. Here is an example, based on [<FontIcon icon="iconfont icon-obsedian"/>this discussion](https://forum.obsidian.md/t/styling-links-in-mermaid/38789/2):
+The problem with edges is that they don’t have IDs: they are treated more like being part of an array, so they should be referred with an index - which won’t always correspond to the edge you want. Here is an example, based on [<FontIcon icon="iconfont icon-obsedian"/>this discussion](https://forum.obsidian.md/t/styling-links-in-mermaid/38789/2):
 
 ```mermaid :collapsed-lines title="Styling links"
 flowchart TD

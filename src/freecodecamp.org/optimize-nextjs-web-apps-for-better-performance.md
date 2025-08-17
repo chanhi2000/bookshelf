@@ -60,7 +60,7 @@ As engineers, we often get so carried away with other aspects of development tha
 
 At its core, every business thrives on delivering value to its users. When users are unable to access this value due to poor performance, it ultimately impacts the business's success. Slow load times, among other factors, frustrate users and drive them away before they even get a chance to engage.
 
-Optimizing performance is more than just a technical detail – it’s also a critical part of creating a successful application. Without it, even the best features can go unnoticed if users don’t stick around long enough to see them.
+Optimizing performance is more than just a technical detail - it’s also a critical part of creating a successful application. Without it, even the best features can go unnoticed if users don’t stick around long enough to see them.
 
 In this article, we’ll explore key approaches to optimize your Next.js application, making it faster and more efficient.
 

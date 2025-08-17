@@ -62,7 +62,7 @@ With CASL, you get **declarative access control**, which means you define *what*
 
 The best part? You can define permissions using a clear, expressive syntax. This makes it easy to manage even complex permission rules. For example, you can control what a user can (or cannot) do based on their role, the resources they own, and other factors.
 
-And it’s not just for React/React Native – they provide supporting packages for [<FontIcon icon="fas fa-globe"/>Angular](https://casl.js.org/v6/en/package/casl-angular), [<FontIcon icon="fas fa-globe"/>Vue](https://casl.js.org/v6/en/package/casl-vue) and [<FontIcon icon="fas fa-globe"/>Aurelia](https://casl.js.org/v6/en/package/casl-aurelia) too.
+And it’s not just for React/React Native - they provide supporting packages for [<FontIcon icon="fas fa-globe"/>Angular](https://casl.js.org/v6/en/package/casl-angular), [<FontIcon icon="fas fa-globe"/>Vue](https://casl.js.org/v6/en/package/casl-vue) and [<FontIcon icon="fas fa-globe"/>Aurelia](https://casl.js.org/v6/en/package/casl-aurelia) too.
 
 ---
 
@@ -121,7 +121,7 @@ export type AppAbility = PureAbility<[Actions, Subjects]>
 export const createAppAbility = createMongoAbility as CreateAbility<AppAbility>
 ```
 
-Note that `createMongoAbility` is only used to support simple operators from [<FontIcon icon="iconfont icon-mongodb"/>MongoDB Query Language](https://mongodb.com/docs/manual/reference/operator/query/), like $in, $lte, $eq that are used to specify conditions for your rules. Don't worry – this doesn't mean your app has to use MongoDB, nor do you need to be familiar with the query language. You can also skip these entirely and create custom operators.
+Note that `createMongoAbility` is only used to support simple operators from [<FontIcon icon="iconfont icon-mongodb"/>MongoDB Query Language](https://mongodb.com/docs/manual/reference/operator/query/), like $in, $lte, $eq that are used to specify conditions for your rules. Don't worry - this doesn't mean your app has to use MongoDB, nor do you need to be familiar with the query language. You can also skip these entirely and create custom operators.
 
 Next, define a function called `defineAbilityFor`, which takes a `user` object as its argument and returns an ability instance. The `user` object is expected to have a `role` property (such as 'admin' or 'author') that determines the user's permissions.
 

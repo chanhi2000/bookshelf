@@ -82,7 +82,7 @@ The course is divided into three main sections, each full of coding interview pr
 
 ---
 
-## SECTION 0 – Introduction
+## SECTION 0 - Introduction
 
 - Introduction to the course on the Stack data structure
 - Stack implementation intuitions + Code in Python3 and C++
@@ -91,7 +91,7 @@ The course is divided into three main sections, each full of coding interview pr
 
 ---
 
-## SECTION 1 – Parentheses
+## SECTION 1 - Parentheses
 
 - Introduction to Parentheses questions
 - Valid Parentheses | InterviewBit | LeetCode
@@ -101,7 +101,7 @@ The course is divided into three main sections, each full of coding interview pr
 
 ---
 
-## SECTION 2 – Calculator
+## SECTION 2 - Calculator
 
 - Introduction to Calculator questions
 - Convert Infix to Postfix

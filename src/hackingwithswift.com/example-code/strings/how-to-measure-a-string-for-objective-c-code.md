@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ let str = "Hello, world"
 let count = str.count
 ```
 
-However, this falls down when you need to work with Objective-C code, for example `NSRegularExpression`, `NSDataDetector`, `UITextChecker`, and more – they use UTF-16 rather than Swift’s extended grapheme clusters, and so if you use `count` with them you’re likely to miss characters.
+However, this falls down when you need to work with Objective-C code, for example `NSRegularExpression`, `NSDataDetector`, `UITextChecker`, and more - they use UTF-16 rather than Swift’s extended grapheme clusters, and so if you use `count` with them you’re likely to miss characters.
 
 Instead, the correct solution is to measure your string’s length using `utf16.count`, like this:
 

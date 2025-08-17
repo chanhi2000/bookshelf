@@ -72,7 +72,7 @@ Before we explore the specific AWS services for frontend hosting, let’s first 
 - AWS has data centers worldwide, reducing latency and ensuring high availability. This means that apps deployed using their services can be easily and quickly accessed anywhere in the world (as long as that region has a nearby data center).
 - Any provisioned AWS service has security features like encryption, IAM, and DDoS protection.
 - AWS automatically scales to handle high traffic spikes without downtime.
-- AWS is flexible – it supports frameworks like React, Vue, Angular, and Next.js.
+- AWS is flexible - it supports frameworks like React, Vue, Angular, and Next.js.
 - AWS easily integrates with other AWS services like databases (DynamoDB, RDS), APIs (API Gateway), and authentication (Cognito).
 
 ---
@@ -81,7 +81,7 @@ Before we explore the specific AWS services for frontend hosting, let’s first 
 
 ### Amazon S3 (Simple Storage Service)
 
-Amazon S3 is a storage service from AWS mainly used to store files like HTML, CSS, JavaScript, Images, and Videos. These files make up static websites – that is, websites that don’t change based on user actions.
+Amazon S3 is a storage service from AWS mainly used to store files like HTML, CSS, JavaScript, Images, and Videos. These files make up static websites - that is, websites that don’t change based on user actions.
 
 Many developers use S3 to host their static websites because it’s reliable, it works well, and it doesn’t cost much. You just upload your files to an S3 bucket, make them public, and your website is live. You can also connect a custom domain and add extra features like faster loading through a CDN (like CloudFront).
 
@@ -205,7 +205,7 @@ AWS Amplify is ideal for teams or solo developers building full-stack apps with 
 
 @tab:active Pros
 
-- Simple full-stack hosting – frontend and backend in one place.
+- Simple full-stack hosting - frontend and backend in one place.
 - Fast setup with automatic scaling.
 - Comes with HTTPS, custom domain setup, and performance monitoring.
 
@@ -295,8 +295,8 @@ Stay updated with my projects by following me on [Twitter (<FontIcon icon="fa-br
 
 ```component VPCard
 {
-  "title": "How to Deploy Your Websites and Apps – User-Friendly Deployment Strategies",
-  "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough – it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
+  "title": "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies",
+  "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough - it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
   "link": "/freecodecamp.org/how-to-deploy-websites-and-applications.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

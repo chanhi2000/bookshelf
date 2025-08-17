@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-iOS 7.0 introduced not only the ability to detect iBeacons, but also the ability to create iBeacons – for iPhones and iPads to broadcast their own beacon signal that can then be detected by other devices. To make this work, you add these two imports:
+iOS 7.0 introduced not only the ability to detect iBeacons, but also the ability to create iBeacons - for iPhones and iPads to broadcast their own beacon signal that can then be detected by other devices. To make this work, you add these two imports:
 
 ```swift
 import CoreBluetooth

@@ -52,11 +52,11 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Each task in a Swift task group must return the same type of data as all the other tasks in the group, which is often problematic – what if you need one task group to handle several different types of data?
+Each task in a Swift task group must return the same type of data as all the other tasks in the group, which is often problematic - what if you need one task group to handle several different types of data?
 
 In this situation you should consider using `async let` for your concurrency if you can, because every `async let` expression can return its own unique data type. So, the first might result in an array of strings, the second in an integer, and so on, and once you’ve awaited them all you can use them however you please.
 
-However, if you *need* to use task groups – for example if you need to create your tasks in a loop – then there is a solution: create an enum with associated values that wrap the underlying data you want to return. Using this approach, each of the tasks in your group still return a single data type – one of the cases from your enum – but *inside* those cases you can place the unique data types you’re actually using.
+However, if you *need* to use task groups - for example if you need to create your tasks in a loop - then there is a solution: create an enum with associated values that wrap the underlying data you want to return. Using this approach, each of the tasks in your group still return a single data type - one of the cases from your enum - but *inside* those cases you can place the unique data types you’re actually using.
 
 This is best demonstrated with some example code, but because it’s quite a lot I’m going to add inline comments so you can see what’s going on:
 

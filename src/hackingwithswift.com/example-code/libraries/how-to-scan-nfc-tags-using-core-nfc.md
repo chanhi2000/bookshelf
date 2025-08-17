@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/libraries/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Any iPhones since the iPhone 7 are able to scan any NFC tags you have around, and it doesn’t take much work – iOS even provides default user interface for you.
+Any iPhones since the iPhone 7 are able to scan any NFC tags you have around, and it doesn’t take much work - iOS even provides default user interface for you.
 
 To try it out, start by selecting your project in the project navigator, then choosing the Capabilities tab for your target. You need to enable the Near Field Communication Tag Reading capability, which configures your app to have NFC-scanning permissions.
 
@@ -102,7 +102,7 @@ func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error
 }
 ```
 
-Both of those methods are easy enough, but error handling is particularly so – we're just going to make the error print out to the Xcode console. Fill in the `didInvalidateWithError` method like this:
+Both of those methods are easy enough, but error handling is particularly so - we're just going to make the error print out to the Xcode console. Fill in the `didInvalidateWithError` method like this:
 
 ```swift
 func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {

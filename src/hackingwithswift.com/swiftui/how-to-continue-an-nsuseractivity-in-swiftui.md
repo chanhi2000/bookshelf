@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI has a dedicated `onContinueUserActivity()` modifier that can catch a variety of `NSUserActivity` types – clicks from the web, launches from Spotlight or Siri, and more. Previously you might have handled this in your `AppDelegate` using something like `application(_:continue:restorationHandler:)`, but SwiftUI’s approach is more fine-grained and lets us divide functionality more easily.
+SwiftUI has a dedicated `onContinueUserActivity()` modifier that can catch a variety of `NSUserActivity` types - clicks from the web, launches from Spotlight or Siri, and more. Previously you might have handled this in your `AppDelegate` using something like `application(_:continue:restorationHandler:)`, but SwiftUI’s approach is more fine-grained and lets us divide functionality more easily.
 
 To implement this, first create a function that will accept an `NSUserActivity`. You don’t need to do this inside your `App` struct, but it would make sense to do so because you can then route it wherever you need in the rest of your program.
 
@@ -81,7 +81,7 @@ WindowGroup {
 }
 ```
 
-Of course, that’s just the bare bones of handling a user activity – you’ve detected the activity and your code has been run, but now you need to do the actual work of responding to the event somehow.
+Of course, that’s just the bare bones of handling a user activity - you’ve detected the activity and your code has been run, but now you need to do the actual work of responding to the event somehow.
 
 If you’re not sure where to start, you should probably make your `handleSpotlight()` set some shared state in your program that drives your UI, for example causing a detail view to present.
 

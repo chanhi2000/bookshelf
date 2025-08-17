@@ -112,7 +112,7 @@ Type boto3 s3 in the web search bar to view a list of related documentation.
 
 ![Once the documentation is open, copy the first command you see.<br/>(boto3 command](https://cdn.hashnode.com/res/hashnode/image/upload/v1736792202800/5647c731-734f-4134-a558-9d66eee47734.png)
 
-![Paste it on your CMD OR terminal of your choice – but before then remember to `cd` into the right directory.](https://cdn.hashnode.com/res/hashnode/image/upload/v1736792298332/d3384fc3-e31c-4d37-8e17-40ad7e77df28.png)
+![Paste it on your CMD OR terminal of your choice - but before then remember to `cd` into the right directory.](https://cdn.hashnode.com/res/hashnode/image/upload/v1736792298332/d3384fc3-e31c-4d37-8e17-40ad7e77df28.png)
 
 ![In the documentation, scroll down and click on "create_bucket.](https://cdn.hashnode.com/res/hashnode/image/upload/v1736792399748/0cd59a14-b037-464b-8193-7ec515c4772e.png)
 

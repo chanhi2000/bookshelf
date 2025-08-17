@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The SQL Handbook – A Free Course for Web Developers"
-description: "Article(s) > The SQL Handbook – A Free Course for Web Developers"
+title: "The SQL Handbook - A Free Course for Web Developers"
+description: "Article(s) > The SQL Handbook - A Free Course for Web Developers"
 icon: fas fa-database
 category:
   - Data Science
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The SQL Handbook – A Free Course for Web Developers"
+      content: "Article(s) > The SQL Handbook - A Free Course for Web Developers"
     - property: og:description
-      content: "The SQL Handbook – A Free Course for Web Developers"
+      content: "The SQL Handbook - A Free Course for Web Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/
 prev: /data-science/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cov
 ---
 
 <SiteInfo
-  name="The SQL Handbook – A Free Course for Web Developers"
+  name="The SQL Handbook - A Free Course for Web Developers"
   desc="SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-sql"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -66,7 +66,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 1: Introduction",
-  "desc": "(1/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(1/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-1-introduction.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -76,7 +76,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 2: SQL Tables",
-  "desc": "(2/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(2/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-2-sql-tables.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -86,7 +86,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 3: Constraints",
-  "desc": "(3/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(3/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-3-constraints.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -96,7 +96,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 4: CRUD Operations",
-  "desc": "(3/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(3/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-4-crud-operations-in-sql.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -106,7 +106,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 5: Basic SQL Queries",
-  "desc": "(5/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(5/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-5-basic-sql-queries.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -116,7 +116,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 6: How to Structure Return Data in SQL",
-  "desc": "(6/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(6/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-6-how-to-structure-return-data-in-sql.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -126,7 +126,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 7: How to Perform Aggregations in SQL",
-  "desc": "(7/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(7/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-7-how-to-perform-aggregations-in-sql.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -136,7 +136,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 8: SQL Subqueries",
-  "desc": "(8/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(8/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-8-sql-subqueries.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -146,7 +146,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 9: Database Normalization",
-  "desc": "(9/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(9/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-9-database-normalization.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -156,7 +156,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 10: How to Join Tables in SQL",
-  "desc": "(10/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(10/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-10-how-to-join-tables-in-sql.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -166,7 +166,7 @@ This a free and open text-based handbook. If you want to get started, just scrol
 ```component VPCard
 {
   "title": "Chapter 11: Database Performance",
-  "desc": "(11/11) The SQL Handbook – A Free Course for Web Developers",
+  "desc": "(11/11) The SQL Handbook - A Free Course for Web Developers",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/chapter-11-database-performance.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -188,7 +188,7 @@ If you want to see the other content I'm creating related to web development, ch
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The SQL Handbook – A Free Course for Web Developers",
+  "title": "The SQL Handbook - A Free Course for Web Developers",
   "desc": "SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

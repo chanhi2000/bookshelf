@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift’s `Codable` protocol makes it easy to convert JSON to native Swift structs and classes – just design data types that hold the same keys and values as your JSON, then use `JSONDecoder` to convert.
+Swift’s `Codable` protocol makes it easy to convert JSON to native Swift structs and classes - just design data types that hold the same keys and values as your JSON, then use `JSONDecoder` to convert.
 
 Here’s some example JSON we can work with:
 
@@ -82,7 +82,7 @@ let jsonData = Data(jsonString.utf8)
 
 That stores two people in an array, each with a name and an age.
 
-We need to make a matching Swift struct that can hold those fields. The only requirement `Codable` has is that all the properties inside the struct also conform to `Codable` – in our case that’s a string and an integer, so we’re all set.
+We need to make a matching Swift struct that can hold those fields. The only requirement `Codable` has is that all the properties inside the struct also conform to `Codable` - in our case that’s a string and an integer, so we’re all set.
 
 Start by adding this type:
 

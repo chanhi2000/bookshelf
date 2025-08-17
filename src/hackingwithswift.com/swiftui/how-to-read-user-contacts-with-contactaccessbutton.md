@@ -137,11 +137,11 @@ struct ContentView: View {
 }
 ```
 
-As you can see, most of the work happens in the `fetchContacts(with:)` method – `ContactAccessButton` wraps all the UI part, but actually loading the data is still a bit of a slog. It would be nice if Apple could simplify this a little so that `ContactAccessButton` could be given a list of keys to fetch, and send back `CNContact` objects pre-filled with that data.
+As you can see, most of the work happens in the `fetchContacts(with:)` method - `ContactAccessButton` wraps all the UI part, but actually loading the data is still a bit of a slog. It would be nice if Apple could simplify this a little so that `ContactAccessButton` could be given a list of keys to fetch, and send back `CNContact` objects pre-filled with that data.
 
 ::: note
 
-Once the user has clicked Add for a given contact, it's down to you to store that contact safely – they will *not* be shown for future search results.
+Once the user has clicked Add for a given contact, it's down to you to store that contact safely - they will *not* be shown for future search results.
 
 :::
 
@@ -157,7 +157,7 @@ ContactAccessButton(queryString: searchText) { results in
 .contactAccessButtonCaption(.email)
 ```
 
-As an alternative to `ContactAccessButton`, the `contactAccessPicker()` modifier lets us present a list of the user's contacts in a privacy-safe way – it's controlled by the system rather than us – so that the user can add or remove many contacts at once.
+As an alternative to `ContactAccessButton`, the `contactAccessPicker()` modifier lets us present a list of the user's contacts in a privacy-safe way - it's controlled by the system rather than us - so that the user can add or remove many contacts at once.
 
 ::: important
 

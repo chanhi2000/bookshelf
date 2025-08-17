@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -112,7 +112,7 @@ let output = String(decoding: outputData, as: UTF8.self)
 let error = String(decoding: errorData, as: UTF8.self)
 ```
 
-And that’s it – you’ve run a program with custom arguments, and read its output back.
+And that’s it - you’ve run a program with custom arguments, and read its output back.
 
 -->
 

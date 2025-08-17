@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Xcode ships with a fixed version of Swift, but that doesn't mean you need to *use* that version. In fact, it's possible to install multiple versions of the Swift toolchain, and switch between them as often as you need. At the time of writing, that means you can use Swift 5.0 with Xcode 10, and try out Swift development releases alongside.
 
-All set? Start by going to <a href="https://swift.org/download/#snapshots">https://swift.org/download/#snapshots</a> and looking for the latest Swift snapshot. If you're on macOS you'll see a link for "Xcode", but there are also Linux downloads available. Don't click "Debugging Symbols" or "Signature" – either click Xcode or an Ubuntu version.
+All set? Start by going to <a href="https://swift.org/download/#snapshots">https://swift.org/download/#snapshots</a> and looking for the latest Swift snapshot. If you're on macOS you'll see a link for "Xcode", but there are also Linux downloads available. Don't click "Debugging Symbols" or "Signature" - either click Xcode or an Ubuntu version.
 
 <img class="hws" src="/img/hws/example-code-288-1.png" alt="">
 

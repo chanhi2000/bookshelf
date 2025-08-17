@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Subnet Masks"
-description: "Article(s) > (3/8) How IPv4 Works – A Handbook for Developers" 
+description: "Article(s) > (3/8) How IPv4 Works - A Handbook for Developers" 
 category:
   - Engineering
   - Computer
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/8) How IPv4 Works – A Handbook for Developers"
+      content: "Article(s) > (3/8) How IPv4 Works - A Handbook for Developers"
     - property: og:description
       content: "Subnet Masks"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 
 ```component VPCard
 {
-  "title": "How IPv4 Works – A Handbook for Developers",
+  "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
   "link": "/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746028336196/79d9778
 ---
 
 <SiteInfo
-  name="How IPv4 Works – A Handbook for Developers"
+  name="How IPv4 Works - A Handbook for Developers"
   desc="OraThe Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show..."
   url="https://freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers#heading-subnet-masks"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,7 +58,7 @@ Another way to express the network prefix is by using a [<FontIcon icon="fas fa-
 255.255.0.0
 ```
 
-When converted to binary, `255` in decimal equals eight `1`s in binary – so all bits are on. So if you translate this mask into binary, you get:
+When converted to binary, `255` in decimal equals eight `1`s in binary - so all bits are on. So if you translate this mask into binary, you get:
 
 ```plaintext
 11111111 11111111 00000000 00000000
@@ -68,7 +68,7 @@ In other words, `16` bits are on, which means a network prefix of `16` bits. Bot
 
 ![16-bit subnet mask address<br/>(Source: <FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://cdn.hashnode.com/res/hashnode/image/upload/v1744090679551/5466e739-1e1b-4e34-a044-0d680ca9ad6e.png)
 
-With CIDR, an address can reside in different networks given different network prefixes, or subnet masks. If you consider the same example address with a different prefix, say that of `8` bits – both additional addresses would belong to the same network, as they all share the first `8` bits – `200`.
+With CIDR, an address can reside in different networks given different network prefixes, or subnet masks. If you consider the same example address with a different prefix, say that of `8` bits - both additional addresses would belong to the same network, as they all share the first `8` bits - `200`.
 
 How would you present a network prefix of `8` bits as a subnet mask? You need the first `8` bits to be on, so that means `255` in decimal, and the remaining bits are off, resulting in this subnet mask:
 

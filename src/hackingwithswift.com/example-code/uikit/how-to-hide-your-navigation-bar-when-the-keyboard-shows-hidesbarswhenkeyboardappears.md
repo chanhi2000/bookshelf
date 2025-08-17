@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Showing the keyboard on an iPhone dramatically reduces how much space you have available, which is particularly annoying if the user is trying to type into a multi-line text view.
 
-One simple way you can free up space is by setting to true the `hidesBarsWhenKeyboardAppears` property of your navigation controller – that will cause the navigation bar and any toolbars to hide themselves when the keyboard is shown.
+One simple way you can free up space is by setting to true the `hidesBarsWhenKeyboardAppears` property of your navigation controller - that will cause the navigation bar and any toolbars to hide themselves when the keyboard is shown.
 
 Use this code to enable it:
 

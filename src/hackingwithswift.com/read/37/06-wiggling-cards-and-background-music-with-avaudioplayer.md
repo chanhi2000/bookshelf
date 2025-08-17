@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-The last part of our misdirection is going to be truly evil. That being said, it is entirely optional because I won't be teaching any vital new techniques here – I just enjoy screwing with my friends' heads!
+The last part of our misdirection is going to be truly evil. That being said, it is entirely optional because I won't be teaching any vital new techniques here - I just enjoy screwing with my friends' heads!
 
 We're going to add two more simple distractions to our app. First, we're going to make random cards move ever so slightly on the screen. The movement has to be small so that people catch it in the corner of their eye, but then aren't 100% sure anything actually happened. Second, we're going to add some background music to make people wonder whether there's something in the sound effects that tells you where the star is.
 
@@ -85,7 +85,7 @@ Once the `wiggle()` method has been called once it will carry on calling itself,
 perform(#selector(wiggle), with: nil, afterDelay: 1)
 ```
 
-The very last piece of misdirection is an easy one: making some music play. Some mystic-sounding music was in the Content folder you should have downloaded from GitHub in the first chapter, and is a piece of music called "Phantom from Space" by Kevin MacLeod. It's licensed under Creative Commons Attribution 3.0 – see [<FontIcon icon="fas fa-globe"/>this link](http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500038) for more information.
+The very last piece of misdirection is an easy one: making some music play. Some mystic-sounding music was in the Content folder you should have downloaded from GitHub in the first chapter, and is a piece of music called "Phantom from Space" by Kevin MacLeod. It's licensed under Creative Commons Attribution 3.0 - see [<FontIcon icon="fas fa-globe"/>this link](http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500038) for more information.
 
 You should already have added the Content folder to your project, so all that's left is to use it. This is done with four small changes in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, starting with this import to the top:
 

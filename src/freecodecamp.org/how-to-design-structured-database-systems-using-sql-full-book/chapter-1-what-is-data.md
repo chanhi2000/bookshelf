@@ -59,9 +59,9 @@ Before we start working with databases, it's helpful to have a clear understandi
 
 The official [<FontIcon icon="fa-brands fa-wikipedia-w"/>definition of data](https://en.wikipedia.org/wiki/Data) covers the most basic level, which states that data is a symbolic representation of a quantitative or qualitative attribute or variable that describes an empirical fact, event, or entity.
 
-It's important to note that data has no inherent meaning. In other words, data is merely a value representing something observable or measurable – it doesn't provide any interpretable meaning.
+It's important to note that data has no inherent meaning. In other words, data is merely a value representing something observable or measurable - it doesn't provide any interpretable meaning.
 
-For instance, the number 27 is data to which we initially can't provide meaning, though we can store, transform, compress, and encrypt it, and so on, if possible. Later, if we discover that this value stems from a variable representing temperatures, then we have more than just data – we have semantics, or meaning.
+For instance, the number 27 is data to which we initially can't provide meaning, though we can store, transform, compress, and encrypt it, and so on, if possible. Later, if we discover that this value stems from a variable representing temperatures, then we have more than just data - we have semantics, or meaning.
 
 In this example, the number 27 is considered raw data. [<FontIcon icon="fas fa-globe"/>Raw data](https://lenovo.com/ca/en/glossary/raw-data/) is data that has been collected from a source, yet it lacks meaning or [<FontIcon icon="fa-brands fa-wikipedia-w"/>semantics](https://en.wikipedia.org/wiki/Semantic_data_model) and has not been processed or organized.
 
@@ -78,7 +78,7 @@ As you can see, the **data type** defines how an attribute's values can be, whil
 
 For instance, if an attribute is labeled as an integer and represents a person's age, it's evident that the domain can’t contain negative numbers, despite the int data type allowing them. Consequently, the domain can be defined as all possible integer values with additional constraints ensuring that values less than zero aren’t considered, leaving only the positive integers needed.
 
-Through these concepts, we can understand data in its most basic form. If we take a decimal number like 3.24, it may indicate a measurement for scientific purposes. A text string like "Juan", on the other hand, may represent a person's name. In other words, the semantics of a sequence of characters define its meaning. Alone, the sequence of characters doesn't represent anything – but together, they can represent a Spanish text with a meaning, such as someone's name.
+Through these concepts, we can understand data in its most basic form. If we take a decimal number like 3.24, it may indicate a measurement for scientific purposes. A text string like "Juan", on the other hand, may represent a person's name. In other words, the semantics of a sequence of characters define its meaning. Alone, the sequence of characters doesn't represent anything - but together, they can represent a Spanish text with a meaning, such as someone's name.
 
 Beyond atomic data, which are the most basic elements that can contain information, there’s also much more complex data out there. This includes document data, spatial and geographic data, network or graph data, and multidimensional data. The only difference between the "atomic" data we saw earlier and these complex forms of data is that the latter are composed of relationships or **associations** between simpler data.
 
@@ -98,7 +98,7 @@ The [<FontIcon icon="fas fa-globe"/>DIKW (Data, Information, Knowledge, Wisdom) 
 
 ### 1. Data
 
-At this level, our knowledge of the world – or rather, what we know about it – is represented as raw data. As previously mentioned, raw data is devoid of semantics. The only options here are to store and analyze the data. Although they don't explicitly provide high-level knowledge, we can clean the data to avoid missing or corrupt values and calculate statistical measures.
+At this level, our knowledge of the world - or rather, what we know about it - is represented as raw data. As previously mentioned, raw data is devoid of semantics. The only options here are to store and analyze the data. Although they don't explicitly provide high-level knowledge, we can clean the data to avoid missing or corrupt values and calculate statistical measures.
 
 ::: tip Example
 

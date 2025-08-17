@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Create Documentation with docs.page – A Beginner's Tutorial"
-description: "Article(s) > How to Create Documentation with docs.page – A Beginner's Tutorial"
+title: "How to Create Documentation with docs.page - A Beginner's Tutorial"
+description: "Article(s) > How to Create Documentation with docs.page - A Beginner's Tutorial"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Create Documentation with docs.page – A Beginner's Tutorial"
+      content: "Article(s) > How to Create Documentation with docs.page - A Beginner's Tutorial"
     - property: og:description
-      content: "How to Create Documentation with docs.page – A Beginner's Tutorial"
+      content: "How to Create Documentation with docs.page - A Beginner's Tutorial"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-documentation-with-docspage.html
 prev: /programming/js-node/articles/README.md
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746471569068/23f70d3
 ---
 
 <SiteInfo
-  name="How to Create Documentation with docs.page – A Beginner's Tutorial"
-  desc="One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation – especially for medium to large-scale documentation websites. docs.page is an open-source documentation tool that helps yo..."
+  name="How to Create Documentation with docs.page - A Beginner's Tutorial"
+  desc="One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation - especially for medium to large-scale documentation websites. docs.page is an open-source documentation tool that helps yo..."
   url="https://freecodecamp.org/news/how-to-create-documentation-with-docspage"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746471569068/23f70d3e-a76e-4287-a6a9-579c23a4fcb2.png"/>
 
-One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation – especially for medium to large-scale documentation websites.
+One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation - especially for medium to large-scale documentation websites.
 
 [<FontIcon icon="fas fa-globe"/>docs.page](http://docs.page) is an open-source documentation tool that helps you create instant, fast, beautiful, and responsive documentation websites with minimal configuration. It is an open-source project developed by Invertase, a company known for creating developer tools and SDKs.
 
@@ -111,7 +111,7 @@ The <FontIcon icon="fas fa-folder-open"/>`docs` folder contains the Markdown fil
 
 ## How to Enable Live Preview in docs.page
 
-You can set up live preview of your local documentation in real-time in the browser – but it's a little different: you don't need to run any development commands on your laptop or machine.
+You can set up live preview of your local documentation in real-time in the browser - but it's a little different: you don't need to run any development commands on your laptop or machine.
 
 To open the live preview of your local documentation, first visit [<FontIcon icon="fas fa-globe"/>https://docs.page](https://docs.page) and click the **Local Preview** button.
 
@@ -159,7 +159,7 @@ The <FontIcon icon="iconfont icon-json"/>`docs.json` file is the primary file fo
 - Tabs
 - Sidebar
 
-There’s so much you can configure using docs.page – but in this tutorial, we’ll focus on some of the most important options:
+There’s so much you can configure using docs.page - but in this tutorial, we’ll focus on some of the most important options:
 
 ### Basic Properties
 
@@ -544,13 +544,13 @@ The best examples of remote assets include images from Unsplash, Pixabay, and Pe
 ![Natural](https://images.unsplash.com/photo-1728044849236-5e8a061e1895)
 ```
 
-You can use remote and local assets based on your requirements – both have advantages and disadvantages. With remote assets, you can add an image directly in your mdx file. When using local assets, you add an image to the public folder and then reference it in your mdx file.
+You can use remote and local assets based on your requirements - both have advantages and disadvantages. With remote assets, you can add an image directly in your mdx file. When using local assets, you add an image to the public folder and then reference it in your mdx file.
 
 ---
 
 ## How to Publish Your Documentation Website
 
-With docs.page, you can easily publish your documentation website. No configuration is required – once your documentation website is ready, you can just push your local code to a GitHub repository.
+With docs.page, you can easily publish your documentation website. No configuration is required - once your documentation website is ready, you can just push your local code to a GitHub repository.
 
 You can now access your documentation website immediately via the docs.page domain.
 
@@ -562,7 +562,7 @@ For example, if your GitHub repository is officialrajdeepsingh/docs-page-demo, y
 
 ## How to Live Preview Upcoming Changes to Your Docs Website
 
-You can view previews of upcoming changes to your documentation before going public. As your documentation website grows, use the [<FontIcon icon="iconfont icon-github"/>docs.page Github app](https://github.com/apps/docs-page) – any pull request you create in your Github repository automatically generates a unique live preview URL.
+You can view previews of upcoming changes to your documentation before going public. As your documentation website grows, use the [<FontIcon icon="iconfont icon-github"/>docs.page Github app](https://github.com/apps/docs-page) - any pull request you create in your Github repository automatically generates a unique live preview URL.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746278906018/0a299083-ff0a-4aea-a94e-95f94741e9af.png)
 
@@ -595,8 +595,8 @@ If [<FontIcon icon="fas fa-globe"/>docs.page](http://docs.page) ever decides to 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Create Documentation with docs.page – A Beginner's Tutorial",
-  "desc": "One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation – especially for medium to large-scale documentation websites. docs.page is an open-source documentation tool that helps yo...",
+  "title": "How to Create Documentation with docs.page - A Beginner's Tutorial",
+  "desc": "One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation - especially for medium to large-scale documentation websites. docs.page is an open-source documentation tool that helps yo...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-documentation-with-docspage.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Go Handbook – Learn Golang for Beginners"
-description: "Article(s) > The Go Handbook – Learn Golang for Beginners"
+title: "The Go Handbook - Learn Golang for Beginners"
+description: "Article(s) > The Go Handbook - Learn Golang for Beginners"
 icon: fa-brands fa-golang
 category:
   - Go
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Go Handbook – Learn Golang for Beginners"
+      content: "Article(s) > The Go Handbook - Learn Golang for Beginners"
     - property: og:description
-      content: "The Go Handbook – Learn Golang for Beginners"
+      content: "The Go Handbook - Learn Golang for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook/
 prev: /programming/go/articles/README.md
@@ -43,8 +43,8 @@ cover: https://freecodecamp.org/news/content/images/2022/10/golang.png
 ---
 
 <SiteInfo
-  name="The Go Handbook – Learn Golang for Beginners"
-  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
+  name="The Go Handbook - Learn Golang for Beginners"
+  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
   url="https://freecodecamp.org/news/go-beginners-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2022/10/golang.png"/>
@@ -53,7 +53,7 @@ Golang is an awesome, simple, modern, and fast programming language.
 
 It’s compiled, open source, and strongly typed.
 
-Golang – also called Go – was created by Google engineers with these main goals:
+Golang - also called Go - was created by Google engineers with these main goals:
 
 - make their projects compile (and run) faster
 - be simple so people can pick it up in little time
@@ -83,7 +83,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "How to get started with Go",
-  "desc": "(1/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(1/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/how-to-get-started-with-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -93,7 +93,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "How to install Go",
-  "desc": "(2/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(2/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/how-to-install-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -103,7 +103,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "How to setup your editor",
-  "desc": "(3/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(3/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/how-to-setup-your-editor.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -113,7 +113,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "How to write Hello, World! in Go",
-  "desc": "(4/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(4/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/how-to-write-hello-world-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -123,7 +123,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "How to compile and run a Go program",
-  "desc": "(5/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(5/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/how-to-compile-and-run-a-go-program.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -133,7 +133,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "The Go workspace",
-  "desc": "(6/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(6/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/the-go-workspace.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -143,7 +143,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Diving into the Go language",
-  "desc": "(7/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(7/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/diving-into-the-go-language.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -153,7 +153,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Variables in Go",
-  "desc": "(8/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(8/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/variables-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -163,7 +163,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Basic types in Go",
-  "desc": "(9/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(9/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/basic-types-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -173,7 +173,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Strings in Go",
-  "desc": "(10/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(10/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/strings-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -183,7 +183,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Arrays in Go",
-  "desc": "(11/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(11/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/arrays-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -193,7 +193,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Slices in Go",
-  "desc": "(12/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(12/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/slices-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -203,7 +203,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Maps in Go",
-  "desc": "(13/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(13/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/maps-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -213,7 +213,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Loops in Go",
-  "desc": "(14/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(14/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/loops-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -223,7 +223,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Conditionals in Go",
-  "desc": "(15/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(15/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/conditionals-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -233,7 +233,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Operators in Go",
-  "desc": "(16/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(16/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/operators-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -243,7 +243,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Structs in Go",
-  "desc": "(17/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(17/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/structs-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -253,7 +253,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Functions in Go",
-  "desc": "(18/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(18/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/functions-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -263,7 +263,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Pointers in Go",
-  "desc": "(19/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(19/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/pointers-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -273,7 +273,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Methods in Go",
-  "desc": "(20/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(20/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/methods-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -283,7 +283,7 @@ This handbook will introduce you to the Go programming language so you can get s
 ```component VPCard
 {
   "title": "Interfaces in Go",
-  "desc": "(21/21) The Go Handbook – Learn Golang for Beginners",
+  "desc": "(21/21) The Go Handbook - Learn Golang for Beginners",
   "link": "/freecodecamp.org/go-beginners-handbook/interfaces-in-go.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -322,8 +322,8 @@ you can get a PDF and ePub version of this Go Beginner's Handbook here
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Go Handbook – Learn Golang for Beginners",
-  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
+  "title": "The Go Handbook - Learn Golang for Beginners",
+  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

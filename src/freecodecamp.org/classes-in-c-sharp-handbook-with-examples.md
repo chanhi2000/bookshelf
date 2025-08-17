@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The C# Class Handbook – Types of Classes with Code Examples"
-description: "Article(s) > The C# Class Handbook – Types of Classes with Code Examples"
+title: "The C# Class Handbook - Types of Classes with Code Examples"
+description: "Article(s) > The C# Class Handbook - Types of Classes with Code Examples"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The C# Class Handbook – Types of Classes with Code Examples"
+      content: "Article(s) > The C# Class Handbook - Types of Classes with Code Examples"
     - property: og:description
-      content: "The C# Class Handbook – Types of Classes with Code Examples"
+      content: "The C# Class Handbook - Types of Classes with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/classes-in-c-sharp-handbook-with-examples.html
 prev: /programming/cs/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734711601436/b4de90b
 ---
 
 <SiteInfo
-  name="The C# Class Handbook – Types of Classes with Code Examples"
+  name="The C# Class Handbook - Types of Classes with Code Examples"
   desc="Classes are the fundamental building blocks of object-oriented programming in C#. They allow you to create reusable and modular code by grouping related data and functions. Different types of classes serve various purposes. For instance, organizing y..."
   url="https://freecodecamp.org/news/classes-in-c-sharp-handbook-with-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -84,7 +84,7 @@ Static classes in C# are a unique type of class designed to house a collection o
 
 Unlike regular classes, static classes cannot be instantiated, and they exclusively contain static members. This characteristic means they cannot be inherited, making them perfect for organizing stateless methods that don't require the features of object-oriented programming.
 
-In essence, when we refer to stateless grouping, it implies that there's no need to create an instance to call a static method – you can simply use the class or method name directly. This approach provides a clear and efficient way to manage utility functions, enhancing code organization and accessibility.
+In essence, when we refer to stateless grouping, it implies that there's no need to create an instance to call a static method - you can simply use the class or method name directly. This approach provides a clear and efficient way to manage utility functions, enhancing code organization and accessibility.
 
 ### Example of a Static Class in C
 
@@ -1056,7 +1056,7 @@ Whether you’re designing utility classes, defining abstract interfaces, or enc
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The C# Class Handbook – Types of Classes with Code Examples",
+  "title": "The C# Class Handbook - Types of Classes with Code Examples",
   "desc": "Classes are the fundamental building blocks of object-oriented programming in C#. They allow you to create reusable and modular code by grouping related data and functions. Different types of classes serve various purposes. For instance, organizing y...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/classes-in-c-sharp-handbook-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

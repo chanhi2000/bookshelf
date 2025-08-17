@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Prototypes to the Rescue (Again): Sharing Methods Efficiently"
-description: "Article(s) > (7/12) How to Use Classes in JavaScript – A Handbook for Beginners"
+description: "Article(s) > (7/12) How to Use Classes in JavaScript - A Handbook for Beginners"
 category:
   - JavaScript
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (7/12) How to Use Classes in JavaScript – A Handbook for Beginners"
+      content: "Article(s) > (7/12) How to Use Classes in JavaScript - A Handbook for Beginners"
     - property: og:description
       content: "Prototypes to the Rescue (Again): Sharing Methods Efficiently"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4a
 
 ```component VPCard
 {
-  "title": "How to Use Classes in JavaScript – A Handbook for Beginners",
+  "title": "How to Use Classes in JavaScript - A Handbook for Beginners",
   "desc": "Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was...",
   "link": "/freecodecamp.org/how-to-use-classes-in-javascript-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4a
 ---
 
 <SiteInfo
-  name="How to Use Classes in JavaScript – A Handbook for Beginners"
+  name="How to Use Classes in JavaScript - A Handbook for Beginners"
   desc="Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was..."
   url="https://freecodecamp.org/news/how-to-use-classes-in-javascript-handbook#heading-prototypes-to-the-rescue-again-sharing-methods-efficiently"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

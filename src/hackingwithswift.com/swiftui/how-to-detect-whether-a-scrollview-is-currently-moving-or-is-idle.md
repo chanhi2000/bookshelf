@@ -91,7 +91,7 @@ The `oldPhase` and `newPhase` values can have one of five different values:
 - `.interacting`: The user has their finger down right now, either stationary or moving.
 - `.tracking`: Used when the system thinks a user scroll event might be coming soon; I suspect this one isn't so helpful.
 
-Having access to both the old and new values allows you to add subtle interactions – perhaps moving to idle after a drag triggers one result, whereas doing so after an animation triggers a different result.
+Having access to both the old and new values allows you to add subtle interactions - perhaps moving to idle after a drag triggers one result, whereas doing so after an animation triggers a different result.
 
 ::: details Similar solutions…
 

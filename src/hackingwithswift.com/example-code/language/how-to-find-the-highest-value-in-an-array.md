@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ let numbers = [1, 2, 3, 4, 5]
 let max = numbers.max()
 ```
 
-Note: because `max()` can be called on an empty array, it returns an *optional* – you need to check and unwrap it yourself.
+Note: because `max()` can be called on an empty array, it returns an *optional* - you need to check and unwrap it yourself.
 
 -->
 

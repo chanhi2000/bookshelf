@@ -152,10 +152,10 @@ Here, the **table schema** refers to the **attributes** that define it, which is
 | **Data Type** | **Category** | **Description** |
 | --- | --- | --- |
 | `BIT` | Exact Numeric | Fixed-size bit string (for example, `BIT(1)` stores a single 0 or 1). |
-| `TINYINT` | Exact Numeric | Integer typically from –128 to 127 (1 byte). |
-| `SMALLINT` | Exact Numeric | Integer typically from –32,768 to 32,767 (2 bytes). |
-| `INTEGER` / `INT` | Exact Numeric | Integer typically from –2,147,483,648 to 2,147,483,647 (4 bytes). |
-| `BIGINT` | Exact Numeric | Integer typically from –9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (8 bytes). |
+| `TINYINT` | Exact Numeric | Integer typically from -128 to 127 (1 byte). |
+| `SMALLINT` | Exact Numeric | Integer typically from -32,768 to 32,767 (2 bytes). |
+| `INTEGER` / `INT` | Exact Numeric | Integer typically from -2,147,483,648 to 2,147,483,647 (4 bytes). |
+| `BIGINT` | Exact Numeric | Integer typically from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (8 bytes). |
 | `DECIMAL(p, s)` | Exact Numeric | Fixed-point number with precision `p` and scale `s` (for example, money). |
 | `NUMERIC(p, s)` | Exact Numeric | Synonym for `DECIMAL`, same fixed-point behavior. |
 | `FLOAT(p)` | Approximate Numeric | Floating-point with precision of at least `p` bits. |
@@ -432,7 +432,7 @@ For example, if we assume that in our problem there aren't multiple different bi
 
 So to explicitly declare that Model can serve for tuple identification, we use `UNIQUE`. This indicates that all the values that this attribute takes in (all the tuples of the table) must be different.
 
-But `UNIQUE` allows the attribute to take the value NULL at most once – so if we want to ensure that we declare it as a candidate key, we might consider adding a `NOT NULL` constraint in case we don't accept NULL as a valid value for a candidate key.
+But `UNIQUE` allows the attribute to take the value NULL at most once - so if we want to ensure that we declare it as a candidate key, we might consider adding a `NOT NULL` constraint in case we don't accept NULL as a valid value for a candidate key.
 
 We can also apply this to more than one attribute, where `UNIQUE` would determine that the combination of values of all those attributes included in the constraint must be different in all the tuples of the table.
 
@@ -474,7 +474,7 @@ As you can see, declaring foreign keys is very similar to primary keys, except t
 
 To understand this, the simplest case is when a tuple is inserted into a table like Rental, where values must be provided for its foreign keys. By default (NO ACTION), SQL allows a foreign key to take NULL values, meaning NULL satisfies the foreign key constraint. But in this case, we should add a `NOT NULL` constraint on these attributes because, in the conceptual model, a Rental entity was related to at least one Bike entity and one Person entity, as indicated by the minimum cardinality.
 
-So if we insert a tuple with a NULL value in the foreign key attribute and we had the `NOT NULL` constraint, we’d receive an error. On the other hand, if we insert a value that is not NULL but doesn’t exist in the attribute of the table we are referencing, then the DBMS won’t allow that insertion either – as that foreign key won’t be referencing an existing tuple in the table it points to.
+So if we insert a tuple with a NULL value in the foreign key attribute and we had the `NOT NULL` constraint, we’d receive an error. On the other hand, if we insert a value that is not NULL but doesn’t exist in the attribute of the table we are referencing, then the DBMS won’t allow that insertion either - as that foreign key won’t be referencing an existing tuple in the table it points to.
 
 To indicate where it points, we use `REFERENCES` in the `FOREIGN KEY` constraint itself, where the table and the attribute the foreign key should point to are specified. Specifically, this attribute must be the primary key of the referenced table to avoid referential integrity errors. This means that the foreign key points to an attribute that can truly uniquely identify the tuples of the referenced table.
 
@@ -628,11 +628,11 @@ As you can see from its acronym, at the most fundamental level in our database, 
 
 Of all these operations, the most important one is querying the data. If we think about it, any service provided to the end user can be reduced to a query on stored data.
 
-For example, simply viewing saved information means it has to be retrieved through a query. Really any metric that needs to be calculated on the data also involves querying and then computing on it. So even though DML involves a wide variety of statements with diverse objectives, we will focus here on those that form the fundamental blocks for performing queries – CRUD.
+For example, simply viewing saved information means it has to be retrieved through a query. Really any metric that needs to be calculated on the data also involves querying and then computing on it. So even though DML involves a wide variety of statements with diverse objectives, we will focus here on those that form the fundamental blocks for performing queries - CRUD.
 
 When working with relational databases, there’s a certain the mechanism that queries follow to obtain the data we request from the DBMS.
 
-First, we have a series of tables where information is stored in tuples. These we will call base tables, meaning the ones we initially create with CREATE TABLE. We don’t modify these base tables directly – instead, we apply a series of operations to them, many from relational algebra, resulting in intermediate tables. These intermediate tables pass through the sequence of operators until we reach a final table with the results we asked for.
+First, we have a series of tables where information is stored in tuples. These we will call base tables, meaning the ones we initially create with CREATE TABLE. We don’t modify these base tables directly - instead, we apply a series of operations to them, many from relational algebra, resulting in intermediate tables. These intermediate tables pass through the sequence of operators until we reach a final table with the results we asked for.
 
 In other words, a query consists of obtaining a resulting table with data from a set of base tables.
 
@@ -642,7 +642,7 @@ With this, we can see each operator as if it were a mathematical function that t
 
 In contrast, when we program in SQL, we don't directly use these relational operators, as they are formal tools that support data querying. Instead, we use a series of DML statements, some of which resemble relational operators but are actually meant to be combined with other statements to form a query.
 
-SQL is not a formal language like relational algebra – it’s an implementation based on this formal language, as well as on relational calculus, which allows us to abstract certain formal details. So when we’re executing a SQL query, the DBMS will transform it from a sequence of SQL statements into an execution plan more similar to a sequence of relational algebra operators. Then it’s internally resolved with advanced techniques that work on the formal operators themselves.
+SQL is not a formal language like relational algebra - it’s an implementation based on this formal language, as well as on relational calculus, which allows us to abstract certain formal details. So when we’re executing a SQL query, the DBMS will transform it from a sequence of SQL statements into an execution plan more similar to a sequence of relational algebra operators. Then it’s internally resolved with advanced techniques that work on the formal operators themselves.
 
 It's also important to note that most of the optimization is done by the DBMS when analyzing the structure of the query. Despite this, we should always try to "help" the DBMS optimizer by writing SQL queries that aim to minimize its workload. For this, there are certain [<FontIcon icon="fas fa-globe"/>techniques](https://geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations/) you should follow (but that we won’t cover in detail here).
 
@@ -670,7 +670,7 @@ This isn’t common to do with such a simple example, but it’s useful to show 
 
 When trying to transfer the functionality of these statements to relational algebra operators, we’ll see that there is no specific operator for `FROM` that does something similar.
 
-But for `SELECT` there is an operator that does almost the same thing. Specifically, in relational algebra, there is the projection operator **π(Table, ListAttributes)**. It takes as input a table with data and a list of some of its attributes, and returns another table constructed from the input where only the attributes in the list are kept – with all the data from their columns – discarding the rest of the attributes not appearing in the list.
+But for `SELECT` there is an operator that does almost the same thing. Specifically, in relational algebra, there is the projection operator **π(Table, ListAttributes)**. It takes as input a table with data and a list of some of its attributes, and returns another table constructed from the input where only the attributes in the list are kept - with all the data from their columns - discarding the rest of the attributes not appearing in the list.
 
 This is exactly what SELECT does: we have an input table given by the FROM clause, and then we define a series of attributes we want the resulting table to have, discarding the rest.
 
@@ -713,7 +713,7 @@ This statement doesn’t have a direct equivalent with any relational algebra op
 
 ### `WHERE`
 
-With what we've seen so far, we can retrieve data from tables, even removing duplicates or unnecessary attributes for the result – but we haven't introduced a way to keep only those tuples that meet certain conditions.
+With what we've seen so far, we can retrieve data from tables, even removing duplicates or unnecessary attributes for the result - but we haven't introduced a way to keep only those tuples that meet certain conditions.
 
 This is precisely what the `WHERE` clause in SQL does, which has a very similar relational algebra operator called the **selection operator** (don’t confuse with `SELECT`) and denoted as **σ(Table,Condition)**. This operator takes a table with data and a condition applied to the tuples stored in the table, so that only those tuples that meet the condition are considered in the output table provided by the operator.
 
@@ -768,7 +768,7 @@ FROM Rental
 WHERE RentalDate BETWEEN '2025-06-01' AND '2025-06-30';
 ```
 
-Continuing with text operations, we also have the SIMILAR operator from the SQL-99 standard, which allows comparing text with regular expressions, using the same wildcard characters as in LIKE. But these regular expressions aren’t the ones we find in POSIX or Perl – they are simply expressions formed by the LIKE wildcard characters with a series of logical operators similar to those of conventional regular expressions.
+Continuing with text operations, we also have the SIMILAR operator from the SQL-99 standard, which allows comparing text with regular expressions, using the same wildcard characters as in LIKE. But these regular expressions aren’t the ones we find in POSIX or Perl - they are simply expressions formed by the LIKE wildcard characters with a series of logical operators similar to those of conventional regular expressions.
 
 ```pgsql
 SELECT * 
@@ -981,7 +981,7 @@ WHERE B.BikeID = ANY (
   );
 ```
 
-In other words, conceptually, checking if something belongs to a set is equivalent to checking if it’s equal to any of the elements contained in the set. Ultimately, the `ANY` operator allows us to check if a certain value meets a condition with respect to any of the values stored in a nested query – that is, in a multiset, since we can do it with tuples as well as values.
+In other words, conceptually, checking if something belongs to a set is equivalent to checking if it’s equal to any of the elements contained in the set. Ultimately, the `ANY` operator allows us to check if a certain value meets a condition with respect to any of the values stored in a nested query - that is, in a multiset, since we can do it with tuples as well as values.
 
 ```pgsql
 SELECT B.*
@@ -1049,7 +1049,7 @@ So going back to our query, as you can see in the result, the implicit `JOIN` pe
 
 Regarding the tuples it contains, we see that the Cartesian product returns tuples where each possible tuple of Rental is combined with each possible tuple of Person. This forms tuples with values in all the attributes of the resulting `JOIN` table.
 
-The implicit join has no filtering criteria or additional functionality – it simply returns the complete Cartesian product of the tables involved in the operation.
+The implicit join has no filtering criteria or additional functionality - it simply returns the complete Cartesian product of the tables involved in the operation.
 
 Its name, implicit, comes from the fact that the `JOIN` operator and the type of `JOIN` we want to perform aren’t explicitly written. Instead, it's enough to list several tables separated by a comma in the FROM clause.
 
@@ -1064,9 +1064,9 @@ FROM Rental CROSS JOIN Person;
 
 Besides the `CROSS` type, there are other types that provide additional functionalities to the `JOIN`, allowing us to filter the tuples we get from a Cartesian product.
 
-For example, so far with the Cartesian product, we have obtained all combinations of tuples from Rental and Person. If there are N tuples in Rental and M tuples in Person, then the Cartesian product will return `N*M` tuples – meaning all possible combinations of tuples from both tables we are working with.
+For example, so far with the Cartesian product, we have obtained all combinations of tuples from Rental and Person. If there are N tuples in Rental and M tuples in Person, then the Cartesian product will return `N*M` tuples - meaning all possible combinations of tuples from both tables we are working with.
 
-If we look at the resulting table from this operation, we will see that some values of different attributes like PersonPK and PersonID match in the same tuple. This means a tuple from Rental has been combined with a tuple from Person so that this is the person referenced by the foreign key in Rental. In other words, we have a tuple that not only contains the information from Rental but also has the information from the Person tuple representing the person who made that rental – and it’s been"concatenated" or combined with it.
+If we look at the resulting table from this operation, we will see that some values of different attributes like PersonPK and PersonID match in the same tuple. This means a tuple from Rental has been combined with a tuple from Person so that this is the person referenced by the foreign key in Rental. In other words, we have a tuple that not only contains the information from Rental but also has the information from the Person tuple representing the person who made that rental - and it’s been"concatenated" or combined with it.
 
 So if we want to keep only those tuples from the Cartesian product where PersonFK matches PersonID from the Person table, we could apply a condition in a `WHERE` clause to filter those tuples. But by doing this, we would first create all possible tuples from the Cartesian product and then go through them all to filter, which is not entirely optimal.
 
@@ -1115,11 +1115,11 @@ FROM Person P1
   );
 ```
 
-To understand this, we can perform a `NATURAL JOIN` between the Person table and itself. First, if we don't rename any attribute, then all will have the same name in both tables – so the `NATURAL JOIN` will impose an equality condition for each attribute. This means that it’ll return only those tuples that satisfy `P1.PersonID=P2.PersonID`, `P1.Name=P2.Name`, and so on for the rest of the attributes, since they have the same name despite being in tables with different aliases. This will result in the same Person table, as the `NATURAL JOIN`, in addition to imposing these conditions, "merges" attributes that meet these conditions. So if they have the same name, it leaves only one occurrence of them, not both (as happens in other types of `JOIN`s).
+To understand this, we can perform a `NATURAL JOIN` between the Person table and itself. First, if we don't rename any attribute, then all will have the same name in both tables - so the `NATURAL JOIN` will impose an equality condition for each attribute. This means that it’ll return only those tuples that satisfy `P1.PersonID=P2.PersonID`, `P1.Name=P2.Name`, and so on for the rest of the attributes, since they have the same name despite being in tables with different aliases. This will result in the same Person table, as the `NATURAL JOIN`, in addition to imposing these conditions, "merges" attributes that meet these conditions. So if they have the same name, it leaves only one occurrence of them, not both (as happens in other types of `JOIN`s).
 
 But if we rename the attributes of one of the tables except for `PersonID`, we’ll see that `NATURAL JOIN` only imposes the equality condition `P1.PersonID=Person.PersonID`, since `PersonID` is the only attribute that’s exactly the same in both tables.
 
-In the resulting table, we’ll get the same as before but with the renamed attributes included, as they aren’t discarded or subjected to any condition that makes them unnecessary. Even if we rename `PersonID` as well, we’ll get the Cartesian product of `Person` with itself – because if none of the attributes have the same name in both tables, then `NATURAL JOIN` doesn’t impose any equality condition.
+In the resulting table, we’ll get the same as before but with the renamed attributes included, as they aren’t discarded or subjected to any condition that makes them unnecessary. Even if we rename `PersonID` as well, we’ll get the Cartesian product of `Person` with itself - because if none of the attributes have the same name in both tables, then `NATURAL JOIN` doesn’t impose any equality condition.
 
 Another option we have to impose equality conditions on attributes with the same name in both tables is to use an `INNER JOIN`. Instead of declaring conditions in an `ON` clause, we use a `USING` clause where we define the attributes on which equality conditions are imposed. These must have exactly the same name in both tables.
 
@@ -1225,7 +1225,7 @@ If all the values of the attribute are `NULL`, `SUM()` returns `0`. Unlike `COUN
 
 Similarly, `AVG()` calculates the average of the values taken by a single attribute, ignoring `NULL`s. Unlike `SUM()`, this function returns `NULL` when all the values of the input attribute are `NULL`, since internally it can be calculated as `SUM()/COUNT()`.
 
-So if `SUM()` returns 0 when counting an attribute full of `NULL`s and `COUNT()` ignores those `NULL` values, the average will be 0/0, which is undefined – causing `AVG()` to return `NULL`. It’s also important to note that if we use `DISTINCT`, both the sum and the average will be different.
+So if `SUM()` returns 0 when counting an attribute full of `NULL`s and `COUNT()` ignores those `NULL` values, the average will be 0/0, which is undefined - causing `AVG()` to return `NULL`. It’s also important to note that if we use `DISTINCT`, both the sum and the average will be different.
 
 ```pgsql
 SELECT MIN(Price), MAX(Price)
@@ -1258,7 +1258,7 @@ FROM Rental R INNER JOIN Person P ON R.PersonFK=P.PersonID
 WHERE P.Name='Carol King';
 ```
 
-Now, if we want to calculate this value for the rest of the people in the database who have ever rented a bike at least once, we would have to run this query multiple times for each person in the system, which isn’t practical. Instead, we can take advantage of the fact that the Rental table itself has the foreign key PersonFK for people who have rented bikes – and we can use this to calculate this sum for all of them more simply using `GROUP BY`.
+Now, if we want to calculate this value for the rest of the people in the database who have ever rented a bike at least once, we would have to run this query multiple times for each person in the system, which isn’t practical. Instead, we can take advantage of the fact that the Rental table itself has the foreign key PersonFK for people who have rented bikes - and we can use this to calculate this sum for all of them more simply using `GROUP BY`.
 
 ```pgsql
 SELECT R.PersonFK, SUM(Price) AS PriceSum 
@@ -1266,7 +1266,7 @@ FROM Rental R
 GROUP BY R.PersonFK;
 ```
 
-As you can see, this query returns all the people who have ever rented a bike – meaning those referenced from the Rental table. For each one, it calculates the sum of the prices of their rentals. This is possible thanks to `GROUP BY`, which groups all the tuples in the Rental table by the PersonFK attribute.
+As you can see, this query returns all the people who have ever rented a bike - meaning those referenced from the Rental table. For each one, it calculates the sum of the prices of their rentals. This is possible thanks to `GROUP BY`, which groups all the tuples in the Rental table by the PersonFK attribute.
 
 Since each person can have multiple rentals in the Rental table, we need to get all the tuples that reference each person and group them so that we can perform an aggregation operation like `SUM()` on one of the attributes.
 

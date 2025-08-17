@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Testing - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/testing/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,7 +56,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Performance tests let you check how fast your code runs, but more importantly it lets you check how fast your code runs *over time* – you can spot performance changes as your code evolves.
+Performance tests let you check how fast your code runs, but more importantly it lets you check how fast your code runs *over time* - you can spot performance changes as your code evolves.
 
 Writing a performance test takes just two steps:
 

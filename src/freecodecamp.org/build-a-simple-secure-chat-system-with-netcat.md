@@ -94,7 +94,7 @@ Don't worry if you're new to networking - I’ll explain everything as we go!
 
 ## Install Netcat
 
-[<FontIcon icon="fas fa-globe"/>Netcat](https://nc110.sourceforge.io/) is like a digital "pipe" between computers – anything you put in one end comes out the other. Before we start using it, let's get it installed on your system.
+[<FontIcon icon="fas fa-globe"/>Netcat](https://nc110.sourceforge.io/) is like a digital "pipe" between computers - anything you put in one end comes out the other. Before we start using it, let's get it installed on your system.
 
 Open your terminal and run these commands:
 
@@ -124,7 +124,7 @@ You should see a message starting with "OpenBSD netcat". If you do, great! If no
 
 Before we dive into building tools, let's understand what a network connection actually is. Think of it like a phone call: one person needs to wait for the call (the listener), and another person needs to make the call (the connector).
 
-In networking, we use "ports" to make these connections. You can think of ports like different phone lines – they let multiple conversations happen at the same time.
+In networking, we use "ports" to make these connections. You can think of ports like different phone lines - they let multiple conversations happen at the same time.
 
 Let's try making our first connection:
 
@@ -138,7 +138,7 @@ Let's try making our first connection:
 nc -l 12345
 ```
 
-What did we just do? The `-l` tells Netcat to "listen" for a connection, and `12345` is the port number we chose. Your terminal will look like it's frozen – that's normal! It's waiting for someone to connect.
+What did we just do? The `-l` tells Netcat to "listen" for a connection, and `12345` is the port number we chose. Your terminal will look like it's frozen - that's normal! It's waiting for someone to connect.
 
 @tab 2.
 
@@ -148,7 +148,7 @@ What did we just do? The `-l` tells Netcat to "listen" for a connection, and `12
 nc localhost 12345
 ```
 
-Here, `localhost` means "this computer" – we're connecting to ourselves for practice. If you want to connect to another computer, you can replace `localhost` with its IP address.
+Here, `localhost` means "this computer" - we're connecting to ourselves for practice. If you want to connect to another computer, you can replace `localhost` with its IP address.
 
 :::
 
@@ -232,7 +232,7 @@ Think of it like sending a document through a fax machine!
 
 ## How to Create a Secure Chat System
 
-Our previous examples sent everything as plain text – anyone could read it if they intercepted the connection. Let's make something more secure by adding encryption.
+Our previous examples sent everything as plain text - anyone could read it if they intercepted the connection. Let's make something more secure by adding encryption.
 
 First, let's understand what encryption does:
 

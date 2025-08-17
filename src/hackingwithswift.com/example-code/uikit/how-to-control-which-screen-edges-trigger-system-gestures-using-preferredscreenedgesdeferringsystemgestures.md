@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 iOS 11.0 was the first to showcase complex system gestures based around the iPhone X, and it’s the point now where all edges of the screen do different things on different devices. 
 
-Historically, iOS apps automatically delayed system gestures from the top and bottom edges if they were run as full screen apps – if they hid the status bar – but as of iOS 11 you should now make your view controllers override the `preferredScreenEdgesDeferringSystemGestures` property to tell the system which edges should delay the built-in system gestures.
+Historically, iOS apps automatically delayed system gestures from the top and bottom edges if they were run as full screen apps - if they hid the status bar - but as of iOS 11 you should now make your view controllers override the `preferredScreenEdgesDeferringSystemGestures` property to tell the system which edges should delay the built-in system gestures.
 
 For example, if you main view controller uses the bottom screen edge you might give it code like this:
 

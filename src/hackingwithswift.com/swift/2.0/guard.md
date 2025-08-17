@@ -82,7 +82,7 @@ if let unwrappedName = userName {
     return
 }
 
-// this won't work – unwrappedName doesn't exist here!
+// this won't work - unwrappedName doesn't exist here!
 print("Your username is \(unwrappedName)")
 ```
 

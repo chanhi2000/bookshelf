@@ -74,13 +74,13 @@ In many cases, a flowchart is considered part of a larger family of diagrams, us
 
 ![[<FontIcon icon="fas fa-globe"/>An example of a flow diagram](https://visual-paradigm.com/tutorials/flowchart-tutorial/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1732568840505/37302d26-7815-468c-86cf-45fbae2e843a.webp)
 
-You'll notice that it uses certain different shapes and colors – we'll discuss these further below.
+You'll notice that it uses certain different shapes and colors - we'll discuss these further below.
 
 ### How Common Are Flowcharts These Days?
 
-“*Aren't they from the time of, like, Cobol?*” you might ask. Well, yes they are – and from even before that. Flow diagrams were quite popular from their introduction in the 1920's all the way to the 1970's. But their use started to fall off soon after that.
+“*Aren't they from the time of, like, Cobol?*” you might ask. Well, yes they are - and from even before that. Flow diagrams were quite popular from their introduction in the 1920's all the way to the 1970's. But their use started to fall off soon after that.
 
-So you might wonder: are developers actually using flowcharts – or any kind of diagram – nowadays? I did some quick research across different developer community chats. I found that while not all devs say they use flowcharts, many of them mentioned that they were important in helping them *sketch a vizualization* of the code or the system.
+So you might wonder: are developers actually using flowcharts - or any kind of diagram - nowadays? I did some quick research across different developer community chats. I found that while not all devs say they use flowcharts, many of them mentioned that they were important in helping them *sketch a vizualization* of the code or the system.
 
 I also found that senior developers were less interested in the use of diagrams because they usually knew the algorithms or the codebase almost by heart. But newer developers who were exposed to a codebase for the first time, revisiting a forgotten algorithm, or those needing to share some code with others tended to use flowcharts more often.
 
@@ -101,7 +101,7 @@ Still, making flowcharts is an intellectual process that entails some risks, par
 
 In the following sections, we will go through all those points in more detail:
 
-- The semiotic of the flowchart – that is, the use of symbols to convey information. We'll also discuss the role of the flowchart as an information tool, its limitations, and how to address them.
+- The semiotic of the flowchart - that is, the use of symbols to convey information. We'll also discuss the role of the flowchart as an information tool, its limitations, and how to address them.
 - The most common symbols, their meanings, and how to use them
 - The intellectual processes of constructing flowcharts and their risks
 - A methodology to help you reduce those risks
@@ -185,7 +185,7 @@ Some people prefer to use a single circle to represent the start and a double ci
 
 ![Start and End points using circles](https://cdn.hashnode.com/res/hashnode/image/upload/v1736354321682/7d3639b1-bba8-4708-9d3b-2ea401d20973.jpeg)
 
-I personally prefer the circle – but it's up to you. Just make sure you pick one and stick with it for consistency.
+I personally prefer the circle - but it's up to you. Just make sure you pick one and stick with it for consistency.
 
 ### The Arrow or Flowline Shape
 
@@ -379,7 +379,7 @@ Then there are the **AI** tools. Many of those tools are based on the scripting 
 2. Then it translates the prompt into a script using a scriptable diagramming tool
 3. The diagram renders according to the AI-generated code.
 
-I've found that these AI tools are still not quite up to the task for more complex projects – but they can come handy if you just want a quick solution. One that I have used is codetoflow.io, but there are also (guess what…) ChatGPT plugins you can use.
+I've found that these AI tools are still not quite up to the task for more complex projects - but they can come handy if you just want a quick solution. One that I have used is codetoflow.io, but there are also (guess what…) ChatGPT plugins you can use.
 
 #### Parsers
 
@@ -405,7 +405,7 @@ But if you want to learn more about Mermaid, [**I've written another tutorial fo
 
 ---
 
-## How to Build a Flowchart – Methodology and Example
+## How to Build a Flowchart - Methodology and Example
 
 When building a flowchart, you can follow these steps:
 
@@ -600,7 +600,7 @@ Perfect.
 
 Let's now focus on the second for-loop. It turns out that it's syntactically different from the previous one. And in fact, there are [<FontIcon icon="fa-brands fa-wikipedia-w"/>different kinds of loops in programming](https://en.wikipedia.org/wiki/For_loop). The one we refined earlier is usually known as the “traditional” one, or better a *numeric range* type for-loop. The second one is an *iterator* type for-loop.
 
-An [<FontIcon icon="fas fa-globe"/>iterator](https://refactoring.guru/design-patterns/iterator) is a functionality that moves incrementally along a group of values or *items*. That functionality can have subprocesses to initialize the iterator – one to get the current value the iterator is pointing to, as well as a subprocess to go to the next one.
+An [<FontIcon icon="fas fa-globe"/>iterator](https://refactoring.guru/design-patterns/iterator) is a functionality that moves incrementally along a group of values or *items*. That functionality can have subprocesses to initialize the iterator - one to get the current value the iterator is pointing to, as well as a subprocess to go to the next one.
 
 Also, remember that a for-loop stops repeating a workflow branch as soon as the condition evaluates to `false`.
 
@@ -864,7 +864,7 @@ flowchart TD
 
 ### Step 7: Extend the Flowchart
 
-This step is optional. If you have done what you can to keep the flowchart as clear as possible – but you are finding that it still needs more refinement – you may be dealing with a complex process.
+This step is optional. If you have done what you can to keep the flowchart as clear as possible - but you are finding that it still needs more refinement - you may be dealing with a complex process.
 
 In this case, it's time to think about a separate flowchart to continue or extend the one you are working on. There are ways to indicate the connection between pages. You can also show a section of a flowchart as a generalization and show a more refined flowchart on a separate pages using references.
 

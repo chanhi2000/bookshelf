@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744293031605/8b4f148
 
 <SiteInfo
   name="How to Extend the Django User Model"
-  desc="If you're working with Django and building anything that involves user accounts – like a blog, a store, or a membership site – you’ll likely hit a point where the default user model just isn’t enough. Maybe you want to add a profile picture, a phone ..."
+  desc="If you're working with Django and building anything that involves user accounts - like a blog, a store, or a membership site - you’ll likely hit a point where the default user model just isn’t enough. Maybe you want to add a profile picture, a phone ..."
   url="https://freecodecamp.org/news/how-to-extend-the-django-user-model"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744293031605/8b4f148d-2e5f-49bd-90a8-7c295be2c2db.png"/>
 
-If you're working with Django and building anything that involves user accounts – like a blog, a store, or a membership site – you’ll likely hit a point where the default user model just isn’t enough.
+If you're working with Django and building anything that involves user accounts - like a blog, a store, or a membership site - you’ll likely hit a point where the default user model just isn’t enough.
 
 Maybe you want to add a profile picture, a phone number, or extra permissions.
 
@@ -89,7 +89,7 @@ You also might want to do things like track user preferences and roles. Or you m
 
 These modifications are significant because they go beyond the default capabilities of Django’s built-in user model. And trying to squeeze this extra info into the built-in user model without doing it properly can cause bugs or break your database migrations. Luckily, Django gives us a few clean ways to do it.
 
-By extending the model, you ensure that all parts of your system – forms, views, authentication backends, and administrative interfaces – have the additional data they need to manage users properly.
+By extending the model, you ensure that all parts of your system - forms, views, authentication backends, and administrative interfaces - have the additional data they need to manage users properly.
 
 Without such customizations, you might encounter limitations when trying to implement features that require extra user-related information.
 
@@ -305,7 +305,7 @@ So—how are you planning to extend your Django user model, and what fields do y
 ```component VPCard
 {
   "title": "How to Extend the Django User Model",
-  "desc": "If you're working with Django and building anything that involves user accounts – like a blog, a store, or a membership site – you’ll likely hit a point where the default user model just isn’t enough. Maybe you want to add a profile picture, a phone ...",
+  "desc": "If you're working with Django and building anything that involves user accounts - like a blog, a store, or a membership site - you’ll likely hit a point where the default user model just isn’t enough. Maybe you want to add a profile picture, a phone ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-extend-the-django-user-model.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

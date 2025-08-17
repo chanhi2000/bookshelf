@@ -49,7 +49,7 @@ isOriginal: false
 
 > Available from Swift 5.5
 
-[SE-0298 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0298-asyncsequence.md) introduced the ability to loop over asynchronous sequences of values using a new `AsyncSequence` protocol. This is helpful for places when you want to process values in a sequence as they become available rather than precomputing them all at once – perhaps because they take time to calculate, or because they aren’t available yet.
+[SE-0298 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0298-asyncsequence.md) introduced the ability to loop over asynchronous sequences of values using a new `AsyncSequence` protocol. This is helpful for places when you want to process values in a sequence as they become available rather than precomputing them all at once - perhaps because they take time to calculate, or because they aren’t available yet.
 
 Using `AsyncSequence` is almost identical to using `Sequence`, with the exception that your types should conform to `AsyncSequence` and `AsyncIterator`, and your `next()` method should be marked `async`. When it comes time for your sequence to end, make sure you send back `nil` from `next()`, just as with `Sequence`.
 
@@ -81,7 +81,7 @@ struct DoubleGenerator: AsyncSequence {
 
 ::: tip
 
-If you just remove “async” from everywhere it appears in that code, you have a valid `Sequence` doing exactly the same thing – that’s how similar these two are.
+If you just remove “async” from everywhere it appears in that code, you have a valid `Sequence` doing exactly the same thing - that’s how similar these two are.
 
 :::
 

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If we combine `GeometryReader` with any view that can change position – such as something that has a drag gestures or is inside a `List` – we can create 3D effects that look great on the screen. `GeometryReader` allows us to read the coordinates for a view, and feed those values directly into a `rotation3DEffect()` modifier.
+If we combine `GeometryReader` with any view that can change position - such as something that has a drag gestures or is inside a `List` - we can create 3D effects that look great on the screen. `GeometryReader` allows us to read the coordinates for a view, and feed those values directly into a `rotation3DEffect()` modifier.
 
 For example, we could create a Cover Flow-style scrolling effect by stacking up many text views horizontally in a scroll view, then applying `rotation3DEffect()` so that as they move in the scroll view they gently spin around, like this:
 
@@ -80,7 +80,7 @@ ScrollView(.horizontal, showsIndicators: false) {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-3d-effects-like-cover-flow-using-scrollview-and-geometryreader-1~dark.mp4 "/>
 
-You don't always need to use `GeometryReader` to get interesting effects like – you could something similar with a `DragGesture()`, for example. So, this code creates a card-like rectangle that can be dragged around in both X and Y axes, and uses two `rotation3DEffect()` modifiers to apply values from that drag:
+You don't always need to use `GeometryReader` to get interesting effects like - you could something similar with a `DragGesture()`, for example. So, this code creates a card-like rectangle that can be dragged around in both X and Y axes, and uses two `rotation3DEffect()` modifiers to apply values from that drag:
 
 ```swift
 struct ContentView: View {

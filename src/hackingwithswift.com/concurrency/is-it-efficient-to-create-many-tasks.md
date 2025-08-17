@@ -55,7 +55,7 @@ isOriginal: false
 
 SwiftUI provides a `task()` modifier that starts a new detached task as soon as a view appears, and automatically cancels the task when the view disappears. This is sort of the equivalent of starting a task in `onAppear()` then cancelling it `onDisappear()`, although `task()` has an extra ability to track an identifier and restart its task when the identifier changes.
 
-In the simplest scenario – and probably the one you’re going to use the most – `task()` is the best way to load your view’s initial data, which might be loaded from local storage or by fetching and decoding a remote URL.
+In the simplest scenario - and probably the one you’re going to use the most - `task()` is the best way to load your view’s initial data, which might be loaded from local storage or by fetching and decoding a remote URL.
 
 For example, this downloads data from a server and decodes it into an array for display in a list:
 
@@ -106,7 +106,7 @@ struct ContentView: View {
 
 The `task()` modifier is a great place to load the data for your SwiftUI views. Remember, they can be recreated many times over the lifetime of your app, so you should avoid putting this kind of work into their initializers if possible.
 
-A more advanced usage of `task()` is to attach some kind of `Equatable` identifying value – when that value changes SwiftUI will automatically cancel the previous task and create a new task with the new value. This might be some shared app state, such as whether the user is logged in or not, or some local state, such as what kind of filter to apply to some data. 
+A more advanced usage of `task()` is to attach some kind of `Equatable` identifying value - when that value changes SwiftUI will automatically cancel the previous task and create a new task with the new value. This might be some shared app state, such as whether the user is logged in or not, or some local state, such as what kind of filter to apply to some data. 
 
 As an example, we could upgrade our messaging view to support both an Inbox and a Sent box, both fetched and decoded using the same `task()` modifier. By setting the message box type as the identifier for the task with `.task(id: selectedBox)`, SwiftUI will automatically update its message list every time the selection changes.
 
@@ -179,7 +179,7 @@ That example uses the shared `URLSession`, which means it will cache its respons
 
 :::
 
-One particularly interesting use case for `task()` is with `AsyncSequence` collections that continuously generate values. This might be a server that maintains an open connection while sending fresh content, it might be the `URLWatcher` example we looked at previously, or perhaps just a local value. For example, we could write a simple random number generator that regularly emits new random numbers – with the `task()` modifier we can constantly watch that for changes, and stream the results into a SwiftUI view.
+One particularly interesting use case for `task()` is with `AsyncSequence` collections that continuously generate values. This might be a server that maintains an open connection while sending fresh content, it might be the `URLWatcher` example we looked at previously, or perhaps just a local value. For example, we could write a simple random number generator that regularly emits new random numbers - with the `task()` modifier we can constantly watch that for changes, and stream the results into a SwiftUI view.
 
 To bring this example to life, we’re going to add one more thing: the random number generator will print a message every time a number is generated, and the resulting number list will be shown inside a detail view. Both of these are done so you can see how `task()` automatically cancels its work: the numbers will automatically start streaming when the detail view is shown, and stop streaming when the view is dismissed.
 
@@ -246,7 +246,7 @@ struct DetailView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/how-to-run-tasks-using-swiftuis-task-modifier-3.zip)
 
-Notice how the `generateNumbers()` method at the end doesn’t actually have any way of exiting? That’s because it will exit automatically when `generator` stops returning values, which will happen when the task is cancelled, and *that* will happen when `DetailView` is dismissed – it takes no special work from us.
+Notice how the `generateNumbers()` method at the end doesn’t actually have any way of exiting? That’s because it will exit automatically when `generator` stops returning values, which will happen when the task is cancelled, and *that* will happen when `DetailView` is dismissed - it takes no special work from us.
 
 ::: tip
 

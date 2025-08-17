@@ -76,7 +76,7 @@ NavigationSplitView {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-customize-a-views-width-in-navigationsplitview-1.zip)
 
-However, if you're happy to allow flexibility – and if you're platform supports it, which right now might just be macOS – you an provide minimum, ideal, and maximum sizes instead, like this:
+However, if you're happy to allow flexibility - and if you're platform supports it, which right now might just be macOS - you an provide minimum, ideal, and maximum sizes instead, like this:
 
 ```swift
 NavigationSplitView {

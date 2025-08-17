@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Factory Method
-description: Article(s) > C# Design Patterns – Factory Method
+title: C# Design Patterns - Factory Method
+description: Article(s) > C# Design Patterns - Factory Method
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Factory Method
+      content: Article(s) > C# Design Patterns - Factory Method
     - property: og:description
-      content: C# Design Patterns – Factory Method
+      content: C# Design Patterns - Factory Method
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/factory-method.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/factory-method/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Factory Method"
+  name="C# Design Patterns - Factory Method"
   desc="We are going to learn about Factory method design pattern, how to implement it into the application and how to use Factory Method refactoring technique."
   url="https://code-maze.com/factory-method/"
   logo="/assets/image/code-maze.com/favicon.png"

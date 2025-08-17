@@ -53,9 +53,9 @@ prev: /hackingwithswift.com/swiftui/how-to-become-a-swiftui-expert.md
 
 > Updated for Xcode 15
 
-SwiftUI relies heavily on property wrappers to make our code easier to read, write, and maintain, but if you’ve never used them before you might wonder where all the `@` and `$` signs have come from – they can seem quite alien at first.
+SwiftUI relies heavily on property wrappers to make our code easier to read, write, and maintain, but if you’ve never used them before you might wonder where all the `@` and `$` signs have come from - they can seem quite alien at first.
 
-Although property wrappers are a general Swift feature since they were introduced in Swift 5.1, they are particularly common in SwiftUI – you’ll see `@Published`, `@ObservedObject`, `@EnvironmentObject` and many more, all with the purpose of helping reduce the amount of boilerplate in our code.
+Although property wrappers are a general Swift feature since they were introduced in Swift 5.1, they are particularly common in SwiftUI - you’ll see `@Published`, `@ObservedObject`, `@EnvironmentObject` and many more, all with the purpose of helping reduce the amount of boilerplate in our code.
 
 We’ll be going into detail on each one of SwiftUI’s property wrappers in the next few chapters, but just briefly it’s worth summarizing the basics:
 

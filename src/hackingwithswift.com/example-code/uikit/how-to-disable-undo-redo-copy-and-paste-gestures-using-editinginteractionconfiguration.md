@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS provides built-in gestures for undo, redo, copy, and paste in text views, triggered using a variety of three-finger moves – swiping left and right, or pinching in or out respectively. If you have existing gestures that collide with these, you can disable the system gestures by overriding the `editingInteractionConfiguration` property to return `.none`.
+iOS provides built-in gestures for undo, redo, copy, and paste in text views, triggered using a variety of three-finger moves - swiping left and right, or pinching in or out respectively. If you have existing gestures that collide with these, you can disable the system gestures by overriding the `editingInteractionConfiguration` property to return `.none`.
 
 For example, if you have a `UITextView` as a property inside a `UIViewController` and you wanted to disable three-finger gesture support inside that view controller, you would override `editingInteractionConfiguration` like this:
 

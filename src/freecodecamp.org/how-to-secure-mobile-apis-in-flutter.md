@@ -52,11 +52,11 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746626043471/57ea35c
 
 As mobile applications continue to evolve in functionality and scope, securing the APIs that power these apps has become more critical than ever.
 
-In the context of Flutter, a framework that enables cross-platform development, understanding how to secure mobile APIs is essential – not only for maintaining user trust but also for safeguarding sensitive business data.
+In the context of Flutter, a framework that enables cross-platform development, understanding how to secure mobile APIs is essential - not only for maintaining user trust but also for safeguarding sensitive business data.
 
 In this article, we’ll explore common API vulnerabilities in mobile applications, particularly Flutter apps, and outline practical strategies to mitigate these risks.
 
-Securing API keys in a Flutter application is essential to prevent unauthorized access to sensitive resources. API keys are often used for authentication with external services – but if they’re exposed, they can lead to security vulnerabilities.
+Securing API keys in a Flutter application is essential to prevent unauthorized access to sensitive resources. API keys are often used for authentication with external services - but if they’re exposed, they can lead to security vulnerabilities.
 
 In this guide, we will discuss how to securely store and manage API keys using Firebase Remote Config, Flutter Secure Storage, AES encryption, and device-specific identifiers.
 
@@ -813,7 +813,7 @@ Use tools like OWASP ZAP, Burp Suite, and Postman to manually and automatically 
 
 Securing mobile APIs is a foundational requirement in modern app development. For Flutter developers, this means going beyond building beautiful UIs to ensuring the underlying API infrastructure is resilient against threats. The risks of exposed endpoints, leaked secrets, and insecure communication are very real, but preventable.
 
-Security is about proactive defense, and you should make it a core part of your development workflow. With consistent practices, regular audits, and attention to detail, you’ll protect both your users and your product from unnecessary risks. Flutter provides the flexibility and power to build fast, cross-platform apps – so don’t let poor API security undermine that potential.
+Security is about proactive defense, and you should make it a core part of your development workflow. With consistent practices, regular audits, and attention to detail, you’ll protect both your users and your product from unnecessary risks. Flutter provides the flexibility and power to build fast, cross-platform apps - so don’t let poor API security undermine that potential.
 
 By following the best practices outlined in this article, such as using HTTPS, implementing proper authentication and authorization, securely storing credentials, and leveraging tools like Firebase App Check, you can significantly reduce your app’s attack surface.
 

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI gives us a dedicated `Link` view that looks like a button but opens a URL in Safari when pressed. It's easy enough to use – just give it a title for the button, plus a destination URL to show, like this:
+SwiftUI gives us a dedicated `Link` view that looks like a button but opens a URL in Safari when pressed. It's easy enough to use - just give it a title for the button, plus a destination URL to show, like this:
 
 ```swift
 Link("Learn SwiftUI", destination: URL(string: "https://hackingwithswift.com/quick-start/swiftui")!)

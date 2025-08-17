@@ -54,7 +54,7 @@ head:
 
 **New in iOS 15**
 
-SwiftUI provides a `foregroundStyle()` modifier to control the way text, images, and shapes are styled all at once. In its simplest form this is similar to using `foregroundStyle()` with `.secondary`, but not only does it unlock more of the semantic colors – `.tertiary` and `.quaternary`, it also adds support for anything that conforms to `ShapeStyle`.
+SwiftUI provides a `foregroundStyle()` modifier to control the way text, images, and shapes are styled all at once. In its simplest form this is similar to using `foregroundStyle()` with `.secondary`, but not only does it unlock more of the semantic colors - `.tertiary` and `.quaternary`, it also adds support for anything that conforms to `ShapeStyle`.
 
 So, here's an example of an image and some text rendered using quaternary style, which is the lowest of four importance levels for content:
 

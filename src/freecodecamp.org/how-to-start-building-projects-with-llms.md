@@ -79,9 +79,9 @@ In one of my [<FontIcon icon="fa-brands fa-medium"/>previous](https://dswharshit
 
 :::
 
-Andrej emphasizes that you should build concrete projects, and explain everything you learn in your own words. (He also instructs us to only compare ourselves to a younger version of ourselves – never to others.)
+Andrej emphasizes that you should build concrete projects, and explain everything you learn in your own words. (He also instructs us to only compare ourselves to a younger version of ourselves - never to others.)
 
-And I agree – building projects is the best way to not just learn but really grok these concepts. It will further sharpen the skills you’re learning to think about cutting edge use cases.
+And I agree - building projects is the best way to not just learn but really grok these concepts. It will further sharpen the skills you’re learning to think about cutting edge use cases.
 
 But the main challenge with this learning philosophy is that good projects can be hard to find.
 
@@ -458,6 +458,6 @@ To make the tool accessible via WhatsApp:
 
 To continue building further projects, check out the course.
 
-It is a beginner track course where you start from learning to build with LLMs, then apply those skills to build 3 different types of LLM applications. Not just that – you learn to serve your applications as WA chatbots.
+It is a beginner track course where you start from learning to build with LLMs, then apply those skills to build 3 different types of LLM applications. Not just that - you learn to serve your applications as WA chatbots.
 
 

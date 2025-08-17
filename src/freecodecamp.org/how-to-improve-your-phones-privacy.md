@@ -48,12 +48,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749831817564/98cdcb4
 
 <SiteInfo
   name="How to Improve Your Phone’s Privacy"
-  desc="We use our phones for everything  –  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk. Apps are hungry for your data. Hackers are always looking for cracks in your security. ..."
+  desc="We use our phones for everything  -  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk. Apps are hungry for your data. Hackers are always looking for cracks in your security. ..."
   url="https://freecodecamp.org/news/how-to-improve-your-phones-privacy"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1749831817564/98cdcb42-6e7f-49c3-9a7c-49e8db78fc3f.png"/>
 
-We use our phones for everything  –  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk.
+We use our phones for everything  -  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk.
 
 Apps are hungry for your data. Hackers are always looking for cracks in your security. And sometimes, we accidentally give away more than we realize.
 
@@ -79,7 +79,7 @@ Also, turn off “Precise Location” for apps that don’t need it. Your phone 
 
 ## Make Your Passcode Stronger
 
-Next up is your passcode. It’s your phone’s first line of defense, but far too many people still use weak ones  –  like birthdays, 123456, or just swiping a simple pattern.
+Next up is your passcode. It’s your phone’s first line of defense, but far too many people still use weak ones  -  like birthdays, 123456, or just swiping a simple pattern.
 
 If someone grabs your phone, a weak passcode makes it much easier for them to get in, especially if they’ve watched you unlock it a few times.
 
@@ -97,9 +97,9 @@ Many apps ask for permissions they don’t really need.
 
 A flashlight app that wants access to your contacts? A calendar app asking for microphone access? These are red flags.
 
-The more permissions you grant, the more ways your data can leak  –  sometimes to advertisers, other times to third parties you’ve never heard of.
+The more permissions you grant, the more ways your data can leak  -  sometimes to advertisers, other times to third parties you’ve never heard of.
 
-Go through your app permissions and turn off access that doesn’t make sense. Does that casual game really need your location? Does a recipe app need to see your photos? Probably not. This isn’t just about avoiding creepy behavior  –  it’s about reducing the number of ways bad actors can exploit your phone if something goes wrong.
+Go through your app permissions and turn off access that doesn’t make sense. Does that casual game really need your location? Does a recipe app need to see your photos? Probably not. This isn’t just about avoiding creepy behavior  -  it’s about reducing the number of ways bad actors can exploit your phone if something goes wrong.
 
 Some malicious apps have been caught using these permissions to record audio, access files, or even track your activity across other apps. A regular permissions check-up can help stop that from happening.
 
@@ -109,11 +109,11 @@ Some malicious apps have been caught using these permissions to record audio, ac
 
 One of the most overlooked privacy upgrades is switching to an [<FontIcon icon="fas fa-globe"/>eSIM card](https://saily.com/what-is-esim/). That’s a digital SIM card built into your phone, and it offers real advantages over traditional physical SIM cards. The biggest one is security.
 
-Physical SIM cards can be switched out easily if someone steals your phone. There’s also the risk of SIM swapping  –  where attackers convince your carrier to transfer your number to a different SIM, giving them control of your calls, texts, and even two-factor authentication codes.
+Physical SIM cards can be switched out easily if someone steals your phone. There’s also the risk of SIM swapping  -  where attackers convince your carrier to transfer your number to a different SIM, giving them control of your calls, texts, and even two-factor authentication codes.
 
 With an eSIM, there’s no physical card to remove, and activating or transferring it requires extra authentication through your carrier.
 
-If your phone supports eSIM – and most modern iPhones, Pixels, and Galaxy devices do –  you can switch by contacting your mobile carrier or using their app.
+If your phone supports eSIM - and most modern iPhones, Pixels, and Galaxy devices do -  you can switch by contacting your mobile carrier or using their app.
 
 Once your eSIM is set up, consider removing the physical SIM entirely. It’s one less way someone can try to hijack your phone number.
 
@@ -127,7 +127,7 @@ Even when you’re not actively connected, your phone continues to look for know
 
 For instance, there have been real-world attacks like [<FontIcon icon="fa-brands fa-wikipedia-w"/>BlueBorne](https://en.wikipedia.org/wiki/BlueBorne_%28security_vulnerability%29), which let hackers take over phones just by being nearby with Bluetooth turned on.
 
-Another risk is “Wi-Fi spoofing” –  when someone sets up a fake public network to trick your phone into connecting, giving them access to your traffic.
+Another risk is “Wi-Fi spoofing” -  when someone sets up a fake public network to trick your phone into connecting, giving them access to your traffic.
 
 To protect yourself, get into the habit of turning off Wi-Fi and Bluetooth when you’re not using them. You’ll save battery, too.
 
@@ -143,7 +143,7 @@ Plain old text messages are easy to intercept. Phone carriers can access them, a
 
 WhatsApp also uses strong encryption, but it’s owned by Meta (formerly Facebook), which has a spottier track record when it comes to data privacy.
 
-If you’re serious about protecting private conversations  –  especially with family, coworkers, or anyone handling sensitive info  – make the switch to an encrypted app.
+If you’re serious about protecting private conversations  -  especially with family, coworkers, or anyone handling sensitive info  - make the switch to an encrypted app.
 
 ---
 
@@ -161,7 +161,7 @@ Phones with outdated operating systems are more vulnerable to spyware, data thef
 
 ## Conclusion
 
-None of these steps will make you invisible –  but they will make your phone a lot harder to compromise. That’s the goal. Privacy isn’t about locking everything down forever. It’s about knowing what you’re sharing, and taking steps to control it.
+None of these steps will make you invisible -  but they will make your phone a lot harder to compromise. That’s the goal. Privacy isn’t about locking everything down forever. It’s about knowing what you’re sharing, and taking steps to control it.
 
 Hope you enjoyed this article. You can [<FontIcon icon="fas fa-globe"/>learn more about me](https://manishshivanandhan.com/) or [connect with me on Linkedidn (<FontIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva/).
 
@@ -169,7 +169,7 @@ Hope you enjoyed this article. You can [<FontIcon icon="fas fa-globe"/>learn mor
 ```component VPCard
 {
   "title": "How to Improve Your Phone’s Privacy",
-  "desc": "We use our phones for everything  –  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk. Apps are hungry for your data. Hackers are always looking for cracks in your security. ...",
+  "desc": "We use our phones for everything  -  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk. Apps are hungry for your data. Hackers are always looking for cracks in your security. ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-phones-privacy.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -101,9 +101,9 @@ TabView {
         }
 ```
 
-That creates an instance of `ContentView`, but for its tab item we're using a new view type called `Label` that handles both showing text and showing an image at the same time. This is more or less the same as using a separate `Text` and `Image` pair, but `Label` adds some extra smarts – it ensures both stay aligned the same, even when they change size.
+That creates an instance of `ContentView`, but for its tab item we're using a new view type called `Label` that handles both showing text and showing an image at the same time. This is more or less the same as using a separate `Text` and `Image` pair, but `Label` adds some extra smarts - it ensures both stay aligned the same, even when they change size.
 
-This label is the thing that represents its view in the tab bar. The image is created using the `systemImage` form of `Label`, which lets us load images from the built-in SF Symbols icon set – this is over 2400 icons that Apple designed specifically for apps to use.
+This label is the thing that represents its view in the tab bar. The image is created using the `systemImage` form of `Label`, which lets us load images from the built-in SF Symbols icon set - this is over 2400 icons that Apple designed specifically for apps to use.
 
 To bring the tab bar to life, we need to change <FontIcon icon="fa-brands fa-swift"/>`iDineApp.swift` so it creates an `MainView` rather than a `ContentView`. So, find this code:
 
@@ -119,9 +119,9 @@ MainView()
     .environmentObject(order)
 ```
 
-Now – at last! – you should be able to press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app, select some food, add it to your order, and see that information appear in the `Order` tab automatically.
+Now - at last! - you should be able to press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app, select some food, add it to your order, and see that information appear in the `Order` tab automatically.
 
-What I love about this approach is that we're not doing the real heavy lifting of making different parts of our UI sync up – the `ObservableObject` protocol and `@EnvironmentObject` attribute are making sure all parts of our UI stay up to date. So, as soon as the `ItemDetail` screen announces that something has been added to the order, the `OrderView` screen will automatically refresh to show the changes.
+What I love about this approach is that we're not doing the real heavy lifting of making different parts of our UI sync up - the `ObservableObject` protocol and `@EnvironmentObject` attribute are making sure all parts of our UI stay up to date. So, as soon as the `ItemDetail` screen announces that something has been added to the order, the `OrderView` screen will automatically refresh to show the changes.
 
 In the background, any view that relies on an environment object will be refreshed when it announces changes. In practice that means SwiftUI will re-invoke the `body` property, which in turn means everything inside `body` will read the latest values from the environment.
 

@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743630655223/f7e0c09
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743630655223/f7e0c094-2103-42cd-97bd-be79d14fff67.png"/>
 
-Now that you understand how OAEP transformed RSA encryption by mitigating vulnerabilities in deterministic padding, it’s time to turn our attention to RSA digital signatures – a critical function for ensuring message integrity and authenticity.
+Now that you understand how OAEP transformed RSA encryption by mitigating vulnerabilities in deterministic padding, it’s time to turn our attention to RSA digital signatures - a critical function for ensuring message integrity and authenticity.
 
 Early RSA signature schemes suffered from similar problems as raw encryption: their deterministic nature made them prone to forgery and replay attacks. This vulnerability paved the way for an improvement: the Probabilistic Signature Scheme (PSS).
 

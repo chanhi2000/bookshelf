@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime – all of UIKit, for example – you need to tell Swift what to do.
+By default Swift generates code that is only available to other Swift code, but if you need to interact with the Objective-C runtime - all of UIKit, for example - you need to tell Swift what to do.
 
 If you just want to expose a single method or property, you can mark that method using the `@objc` attribute. However, if you want *all* methods in a class to be exposed to Objective-C you can use a shortcut: the `@objcMembers` keyword:
 

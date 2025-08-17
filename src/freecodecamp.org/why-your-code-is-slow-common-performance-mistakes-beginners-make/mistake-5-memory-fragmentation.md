@@ -74,7 +74,7 @@ Imagine a C++ server that handles requests by allocating buffers of random sizes
 
 ```cpp
 void process_request() {  
-    // Allocate a buffer of random size between 1–1024 bytes  
+    // Allocate a buffer of random size between 1-1024 bytes  
     char* buffer = new char[rand() % 1024 + 1];  
     // ... process ...  
     delete[] buffer;  
@@ -136,7 +136,7 @@ for (int i = 0; i < 1_000_000; i++) {
 
 **Why this hurts performance**:
 
-- **Memory overhead:** Each `Integer` object adds 16–24 bytes of extra memory (object headers, pointers). With 1,000,000 numbers, that’s an extra 16–24MB wasted just on overhead.
+- **Memory overhead:** Each `Integer` object adds 16-24 bytes of extra memory (object headers, pointers). With 1,000,000 numbers, that’s an extra 16-24MB wasted just on overhead.
 - **Garbage collection (GC) pressure:** Since objects are allocated on the heap, the GC constantly cleans up old `Integer` objects, leading to latency spikes.
 - **CPU cache inefficiency:** Primitives like `int` are tightly packed in memory, but `Integer` objects are scattered across the heap with extra indirection, wrecking cache locality.
 

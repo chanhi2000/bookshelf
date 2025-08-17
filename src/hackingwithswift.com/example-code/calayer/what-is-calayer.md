@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-All `UIView` subclasses have a `layer` property, which is responsible for drawing their contents efficiently. These layers are powered by Core Animation, which handles all the drawing and animation that UIKit requests. The layer is separate from the view because drawing is separate from placement – you can move a `UIView` around freely, change its `alpha`, add or remove it all you want, and so on, but that doesn’t affect the underlying way it’s *drawn*.
+All `UIView` subclasses have a `layer` property, which is responsible for drawing their contents efficiently. These layers are powered by Core Animation, which handles all the drawing and animation that UIKit requests. The layer is separate from the view because drawing is separate from placement - you can move a `UIView` around freely, change its `alpha`, add or remove it all you want, and so on, but that doesn’t affect the underlying way it’s *drawn*.
 
-Although most views use a plain `CALayer` behind them, there are specialized subclasses that do more advanced things. `CATiledLayer` is responsible for tiling images in the way you see in the Maps app, `CAEmitterLayer` handles creating particles, `CAGradientLayer` draws color gradients, and more – there’s a selection depending on your need.
+Although most views use a plain `CALayer` behind them, there are specialized subclasses that do more advanced things. `CATiledLayer` is responsible for tiling images in the way you see in the Maps app, `CAEmitterLayer` handles creating particles, `CAGradientLayer` draws color gradients, and more - there’s a selection depending on your need.
 
-Broadly speaking, iOS developers mostly work with `CALayer` through the `layer` property of their views – things like rounding corners, adding borders, and drawing shadows can all be done there.
+Broadly speaking, iOS developers mostly work with `CALayer` through the `layer` property of their views - things like rounding corners, adding borders, and drawing shadows can all be done there.
 
 -->
 

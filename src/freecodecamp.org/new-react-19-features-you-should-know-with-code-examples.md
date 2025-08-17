@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "New React 19 Features You Should Know –  Explained with Code Examples"
-description: "Article(s) > New React 19 Features You Should Know –  Explained with Code Examples"
+title: "New React 19 Features You Should Know -  Explained with Code Examples"
+description: "Article(s) > New React 19 Features You Should Know -  Explained with Code Examples"
 icon: fa-brands fa-react
 category:
   - Article(s)
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > New React 19 Features You Should Know –  Explained with Code Examples"
+      content: "Article(s) > New React 19 Features You Should Know -  Explained with Code Examples"
     - property: og:description
-      content: "New React 19 Features You Should Know –  Explained with Code Examples"
+      content: "New React 19 Features You Should Know -  Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/new-react-19-features-you-should-know-with-code-examples.html
 prev: /programming/js-react/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727367514092/a75164c
 ---
 
 <SiteInfo
-  name="New React 19 Features You Should Know –  Explained with Code Examples"
+  name="New React 19 Features You Should Know -  Explained with Code Examples"
   desc="React.js is 11 years old, and it has become one of the most popular JavaScript libraries out there. And now, React is transitioning from version 18 to version 19. So hold onto your hats, React enthusiasts 🎩. React 19 has recently landed, and it’s a ..."
   url="https://freecodecamp.org/news/new-react-19-features-you-should-know-with-code-examples/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,7 +58,7 @@ React.js is 11 years old, and it has become one of the most popular JavaScript l
 
 And now, React is transitioning from version 18 to version 19. So hold onto your hats, React enthusiasts 🎩. React 19 has recently landed, and it’s a game-changer.
 
-But before you start worrying about a steep learning curve, here’s some great news: React 19 isn’t about adding complexity – it’s about removing it.
+But before you start worrying about a steep learning curve, here’s some great news: React 19 isn’t about adding complexity - it’s about removing it.
 
 In this guide, you’ll learn how this new version will simplify your coding life and turbocharge your React projects.
 
@@ -147,7 +147,7 @@ Look at this code example:
 
 ::: note Code explanation
 
-you no longer need to use `useCallback` or `useMemo` – React 19 automatically handles optimizations.
+you no longer need to use `useCallback` or `useMemo` - React 19 automatically handles optimizations.
 
 ```jsx
 // No need for manual memoization React 19
@@ -172,7 +172,7 @@ function Child({ innerRef }) {
 }
 ```
 
-`forwardRef` is no longer required – instead, refs are passed like regular props.
+`forwardRef` is no longer required - instead, refs are passed like regular props.
 
 :::
 

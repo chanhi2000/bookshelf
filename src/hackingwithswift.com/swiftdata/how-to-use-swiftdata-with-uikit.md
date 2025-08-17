@@ -204,7 +204,7 @@ title = "Add Users"
 navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add Samples", style: .plain, target: self, action: #selector(addSamples))
 ```
 
-Now you can go ahead and run the app – you'll see that tapping Add Samples correctly updates the list of users.
+Now you can go ahead and run the app - you'll see that tapping Add Samples correctly updates the list of users.
 
-Again, in UIKit it is *your* responsibility to make sure your data source remains up to date at all times – the `@Query` macro is not available to do that task for you.
+Again, in UIKit it is *your* responsibility to make sure your data source remains up to date at all times - the `@Query` macro is not available to do that task for you.
 

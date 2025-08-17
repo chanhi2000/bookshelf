@@ -56,7 +56,7 @@ isOriginal: false
 
 Fetching JSON from the network and using `Codable` to convert it into native Swift objects is probably the most common task for any Swift developer, usually followed by displaying that data in a `List` or `UITableView` depending on whether they are using SwiftUI or UIKit.
 
-Well, using Swift’s concurrency features we can write a small but beautiful extension for `URLSession` that makes such work just a single line of code – you just tell iOS what data type to expect and the URL to fetch, and it will do the rest. To add some extra flexibility, we can also provide options to customize decoding strategies for keys, data, and dates, providing sensible defaults for each one to keep our call sites clear for the most common usages.
+Well, using Swift’s concurrency features we can write a small but beautiful extension for `URLSession` that makes such work just a single line of code - you just tell iOS what data type to expect and the URL to fetch, and it will do the rest. To add some extra flexibility, we can also provide options to customize decoding strategies for keys, data, and dates, providing sensible defaults for each one to keep our call sites clear for the most common usages.
 
 Here’s how it’s done:
 
@@ -85,7 +85,7 @@ extension URLSession {
 That does several things:
 
 1. It’s an extension on `URLSession`, so you can go ahead and create your own custom session with a unique configuration if needed.
-2. It uses generics, so that it will work with anything that conforms to the `Decodable` protocol – that’s half of `Codable`, so if you use `Codable` it will work there too.
+2. It uses generics, so that it will work with anything that conforms to the `Decodable` protocol - that’s half of `Codable`, so if you use `Codable` it will work there too.
 3. It uses `T.self` for the default data type, so if Swift can infer your type then you don’t need to repeat yourself.
 4. It allows all errors to propane to your call site, so you can handle networking and/or decoding errors as needed.
 

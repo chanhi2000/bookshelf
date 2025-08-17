@@ -231,7 +231,7 @@ You can just install a VS Code extension/linters like [<FontIcon icon="fas fa-gl
 
 These linters can help you write better code by finding mistakes, helping you follow coding rules, and keeping your code consistent. They can also catch errors, make your code easier to read, and save time on fixing bugs and reviews.
 
-But fixing your formatting doesn’t just mean it’s clean code – it’s way more than that.
+But fixing your formatting doesn’t just mean it’s clean code - it’s way more than that.
 
 Beyond formatting, you should stick to a consistent style guide for things like function names or variable names.
 
@@ -245,7 +245,7 @@ function getuser() {}
 
 But some of you may ask, why is the code inconsistent?
 
-Well, it uses several different naming conventions – like `total_price` uses snake_case, `UserData` uses PascalCase, and `getuser()` is in lowercase instead of camelCase.
+Well, it uses several different naming conventions - like `total_price` uses snake_case, `UserData` uses PascalCase, and `getuser()` is in lowercase instead of camelCase.
 
 This makes your code harder to read and more confusing. Instead, you can follow a consistent style. Here’s how:
 

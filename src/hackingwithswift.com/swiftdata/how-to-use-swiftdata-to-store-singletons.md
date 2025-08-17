@@ -105,11 +105,11 @@ struct ContentView: View {
 }
 ```
 
-While this approach definitely works, it’s worth asking whether it’s the best option – would using a simple `Codable` type work better, for example? 
+While this approach definitely works, it’s worth asking whether it’s the best option - would using a simple `Codable` type work better, for example? 
 
 ::: note
 
-Although SwiftData supports working with document-based apps, it does not provide the document as a singleton inside there – you still need to issue a query for a collection of results.
+Although SwiftData supports working with document-based apps, it does not provide the document as a singleton inside there - you still need to issue a query for a collection of results.
 
 :::
 

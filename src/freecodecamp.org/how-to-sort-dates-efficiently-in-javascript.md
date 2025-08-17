@@ -46,12 +46,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748612402734/7124a95
 
 <SiteInfo
   name="How to Sort Dates Efficiently in JavaScript"
-  desc="Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone – for example, ”2025-05-01T15:00:00.00”. Without much thought, I wro..."
+  desc="Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone - for example, ”2025-05-01T15:00:00.00”. Without much thought, I wro..."
   url="https://freecodecamp.org/news/how-to-sort-dates-efficiently-in-javascript"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748612402734/7124a95d-0a33-4ab6-93d2-d94fc354ae12.png"/>
 
-Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone – for example, `"2025-05-01T15:00:00.00"`.
+Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone - for example, `"2025-05-01T15:00:00.00"`.
 
 Without much thought, I wrote something similar to:
 
@@ -61,7 +61,7 @@ const sorted = data.sort((a, b) => {
 })
 ```
 
-This worked fine on small datasets. But the array I was sorting had nearly **30,000 objects**. On a fast development machine, the performance hit was around **100–150ms** – already noticeable when combined with other UI work. When I tested with **4× CPU throttling** in the browser, the delay increased to nearly **400ms**, which more accurately simulates a lower-end device. That's a reasonable approach to ensure your app still performs well for users on slower machines.
+This worked fine on small datasets. But the array I was sorting had nearly **30,000 objects**. On a fast development machine, the performance hit was around **100-150ms** - already noticeable when combined with other UI work. When I tested with **4× CPU throttling** in the browser, the delay increased to nearly **400ms**, which more accurately simulates a lower-end device. That's a reasonable approach to ensure your app still performs well for users on slower machines.
 
 Results in browser:
 
@@ -71,13 +71,13 @@ sort_with_date_conversion: 397.955078125 ms
 
 Output with performance throttled by 4x slowdown
 
-In this article, you will learn how to sort dates efficiently in JavaScript. We'll walk through what makes the method above inefficient, as well as a better pattern–especially when dealing with large amounts of data.
+In this article, you will learn how to sort dates efficiently in JavaScript. We'll walk through what makes the method above inefficient, as well as a better pattern-especially when dealing with large amounts of data.
 
 ---
 
 ## Why 400ms *Feels* Slow
 
-According to Jakob Nielsen's classic *"Usability Engineering*" (1993), delays under 100 milliseconds are perceived as instantaneous. Between 100ms and 1,000ms, users start to notice lag – even if it doesn't require UI feedback. In my case, 400ms felt **choppy**, especially since the PCF component was already handling other tasks. It wasn't going to cut it.
+According to Jakob Nielsen's classic *"Usability Engineering*" (1993), delays under 100 milliseconds are perceived as instantaneous. Between 100ms and 1,000ms, users start to notice lag - even if it doesn't require UI feedback. In my case, 400ms felt **choppy**, especially since the PCF component was already handling other tasks. It wasn't going to cut it.
 
 ---
 
@@ -232,7 +232,7 @@ The original data is preserved and the performance falls well within what is per
 - **Avoid object creation inside `.sort()`**, especially for large arrays.
 - **ISO 8601 strings are lexicographically sortable.** Use string comparison when you can.
 - If your date strings aren't sortable, **map them to a sortable form first**, sort, and optionally map them back.
-- Minor tweaks in sorting can yield **massive performance gains** – especially in UI components or real-time visualizations.
+- Minor tweaks in sorting can yield **massive performance gains** - especially in UI components or real-time visualizations.
 
 :::
 
@@ -242,7 +242,7 @@ The original data is preserved and the performance falls well within what is per
 ```component VPCard
 {
   "title": "How to Sort Dates Efficiently in JavaScript",
-  "desc": "Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone – for example, ”2025-05-01T15:00:00.00”. Without much thought, I wro...",
+  "desc": "Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone - for example, ”2025-05-01T15:00:00.00”. Without much thought, I wro...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-sort-dates-efficiently-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -80,7 +80,7 @@ Before we start, you'll need to know **Linux Basic Syntax.** You can learn it th
 
 :::
 
-Don't worry if you're new to [<FontIcon icon="fas fa-globe"/>Wireshark](https://labex.io/skilltrees/wireshark) – I’ll explain everything as we go.
+Don't worry if you're new to [<FontIcon icon="fas fa-globe"/>Wireshark](https://labex.io/skilltrees/wireshark) - I’ll explain everything as we go.
 
 ---
 

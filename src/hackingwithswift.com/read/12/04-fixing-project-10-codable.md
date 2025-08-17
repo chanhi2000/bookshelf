@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,11 +61,11 @@ There are three primary differences between the two solutions:
 
 1. The `Codable` system works on both classes and structs. We made `Person` a class because `NSCoding` only works with classes, but if you didn’t care about Objective-C compatibility you could make it a struct and use `Codable` instead.
 2. When we implemented `NSCoding` in the previous chapter we had to write `encode()` and `init()` calls ourself. With `Codable` this isn’t needed unless you need more precise control - it does the work for you.
-3. When you encode data using `Codable` you can save to the same format that `NSCoding` uses if you want, but a much more pleasant option is JSON – `Codable` reads and writes JSON natively.
+3. When you encode data using `Codable` you can save to the same format that `NSCoding` uses if you want, but a much more pleasant option is JSON - `Codable` reads and writes JSON natively.
 
 All three of those combined means that you can define a struct to hold data, and have Swift create instances of that struct directly from JSON with no extra work from you.
 
-Anyway, to demonstrate more of `Codable` in action I’d like you to close project12a and open project12b – this should be identical to project 10, because it doesn’t contain any of the `NSCoding` changes.
+Anyway, to demonstrate more of `Codable` in action I’d like you to close project12a and open project12b - this should be identical to project 10, because it doesn’t contain any of the `NSCoding` changes.
 
 First, let’s modify the `Person` class so that it conforms to `Codable`:
 
@@ -109,7 +109,7 @@ if let savedPeople = defaults.object(forKey: "people") as? Data {
 }
 ```
 
-This code is effectively the `save()` method in reverse: we use the `object(forKey:)` method to pull out an optional `Data`, using `if let` and `as?` to unwrap it. We then give that to an instance of `JSONDecoder` to convert it back to an object graph – i.e., our array of `Person` objects.
+This code is effectively the `save()` method in reverse: we use the `object(forKey:)` method to pull out an optional `Data`, using `if let` and `as?` to unwrap it. We then give that to an instance of `JSONDecoder` to convert it back to an object graph - i.e., our array of `Person` objects.
 
-Once again, note the interesting syntax for `decode()` method: its first parameter is `[Person].self`, which is Swift’s way of saying “attempt to create an array of `Person` objects.” This is why we don’t need a typecast when assigning to `people` – that method will automatically return `[People]`, or if the conversion fails then the `catch` block will be executed instead.
+Once again, note the interesting syntax for `decode()` method: its first parameter is `[Person].self`, which is Swift’s way of saying “attempt to create an array of `Person` objects.” This is why we don’t need a typecast when assigning to `people` - that method will automatically return `[People]`, or if the conversion fails then the `catch` block will be executed instead.
 

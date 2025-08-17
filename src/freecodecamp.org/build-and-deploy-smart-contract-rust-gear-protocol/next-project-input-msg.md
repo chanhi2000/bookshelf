@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: "Next Project – input-msg"
+title: "Next Project - input-msg"
 description: "(7/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
 category: 
   - Rust
@@ -15,7 +15,7 @@ head:
     - property: og:title
       content: "(7/10) How to Build and Deploy a Smart Contract With Rust and the Gear Protocol"
     - property: og:description
-      content: "Next Project – input-msg"
+      content: "Next Project - input-msg"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/next-project-input-msg.html
 date: 2024-06-04

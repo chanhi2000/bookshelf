@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -84,7 +84,7 @@ Once you’re ready, wrap the request inside an instance of `MKLocalSearch`, lik
 let search = MKLocalSearch(request: searchRequest)
 ```
 
-When you’re ready, call the `start()` method on your search. This accepts one parameter, which is a closure that runs when the search completes – it will be handed the response data or an error, depending on what happened. This closure will always be run on your application’s main thread, so you can present some user interface immediately if you want.
+When you’re ready, call the `start()` method on your search. This accepts one parameter, which is a closure that runs when the search completes - it will be handed the response data or an error, depending on what happened. This closure will always be run on your application’s main thread, so you can present some user interface immediately if you want.
 
 As an example, this code will loop over all the results that were found for the search, printing out the phone number for each one:
 

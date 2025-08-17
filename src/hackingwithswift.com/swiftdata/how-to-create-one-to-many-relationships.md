@@ -83,7 +83,7 @@ class Director {
 }
 ```
 
-If you prefer to make the relationship explicit – and I usually recommend doing so, not least because it helps clarify your intent – you’re specify exactly what the inverse should be, and also what happens when a deletion takes place.
+If you prefer to make the relationship explicit - and I usually recommend doing so, not least because it helps clarify your intent - you’re specify exactly what the inverse should be, and also what happens when a deletion takes place.
 
 So, we might adjust the `Director` definition to this, to say that when we delete a director we replace them with nil in any movie they directed:
 
@@ -96,7 +96,7 @@ So, we might adjust the `Director` definition to this, to say that when we delet
 There are a handful of rules you need to follow with these relationships:
 
 1. If you intend to use inferred relationships, one side of your data must be optional.
-2. If you use an explicit relationship where one side of your data is non-optional, be careful how you delete objects – SwiftData uses the `.nullify` delete rule by default, which can put your data into in an invalid state. To avoid this problem, either use an option value, or use a `.cascade` delete rule.
+2. If you use an explicit relationship where one side of your data is non-optional, be careful how you delete objects - SwiftData uses the `.nullify` delete rule by default, which can put your data into in an invalid state. To avoid this problem, either use an option value, or use a `.cascade` delete rule.
 3. Do not attempt to use collection types other than `Array`, because your code will simply not compile.
 
 :::

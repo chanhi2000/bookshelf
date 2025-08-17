@@ -54,7 +54,7 @@ head:
 
 <VidStack src="youtube/7AY3v2woKio" />
 
-If you look in the SwiftUI preview window you'll see the standard iOS picker interface – a pop up menu of options. By default it will show the first option, because it reads the value of `paymentType`, which we set to “Cash”. However, when the user brings up the menu their selection changes – they might select “Credit Card” or “iDine Points” instead of cash.
+If you look in the SwiftUI preview window you'll see the standard iOS picker interface - a pop up menu of options. By default it will show the first option, because it reads the value of `paymentType`, which we set to “Cash”. However, when the user brings up the menu their selection changes - they might select “Credit Card” or “iDine Points” instead of cash.
 
 So, this picker doesn't just _read_ the value of `paymentType`, it also _writes_ the value. This is what's called a two-way binding, because any changes to the value of `paymentType` will update the picker, and any changes to the picker will update `paymentType`.
 
@@ -105,7 +105,7 @@ Let's continue on with our form by adding two more components: one that lets use
 @State private var loyaltyNumber = ""
 ```
 
-Now we can add controls to our form to represent those – `Toggle` is the equivalent of a `UISwitch`, and `TextField` is the equivalent of `UITextField`. Add these two inside our existing form section:
+Now we can add controls to our form to represent those - `Toggle` is the equivalent of a `UISwitch`, and `TextField` is the equivalent of `UITextField`. Add these two inside our existing form section:
 
 ```swift
 Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails)
@@ -118,7 +118,7 @@ There's not a lot of code there, but it's worth mentioning some details:
 2. The `Toggle` switch has some text inside that will automatically appear to the left as a description.
 3. The `TextField` has some placeholder text so users know what to type in there.
 
-Before you run the app, there's another change I'd like to talk about first. That text field we just added – should it _always_ be there, or only when the toggle switch is enabled?
+Before you run the app, there's another change I'd like to talk about first. That text field we just added - should it _always_ be there, or only when the toggle switch is enabled?
 
 We bound `Toggle` to the value of `addLoyaltyDetails`, which means when the user flicks it on or off that Boolean gets set to true or false. Wouldn't it be great if the text field was visible only when the toggle was on?
 
@@ -148,7 +148,7 @@ Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
 
 That will cause the loyalty card row to slide in and out smoothly.
 
-Let's try another common control: segmented controls. In SwiftUI this is actually just a `Picker` with a modifier, so it works in exactly the same way – we give it a two-way binding that stores its selection, then use a `ForEach` to loop over an array to create some options to choose from.
+Let's try another common control: segmented controls. In SwiftUI this is actually just a `Picker` with a modifier, so it works in exactly the same way - we give it a two-way binding that stores its selection, then use a `ForEach` to loop over an array to create some options to choose from.
 
 For this screen, we can use a segmented control to represent various tip percentages that the user can select from. So, first add this property to store the options we want to show:
 

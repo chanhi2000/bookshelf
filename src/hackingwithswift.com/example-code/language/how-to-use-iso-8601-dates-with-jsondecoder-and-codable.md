@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Encoding and decoding dates using the `Codable` protocol isn’t hard to do, but it does produce some unexpected data by default: `Date` stores its information as a floating-point number counting the number of seconds since January 1st 2001, rather than something standard involved days, months, and years.
 
-ISO-8601 is the web’s standard way of referring to dates and times, and looks like this: 2018-12-25T17:30:00Z – in English that’s December 25th 2018, at 5:30pm UTC. Both `JSONEncoder` and `JSONDecoder` are able to use this date format rather than the floating-point default – all you have to do is set their `dateEncodingStrategy` and `dateDecodingStrategy` properties.
+ISO-8601 is the web’s standard way of referring to dates and times, and looks like this: 2018-12-25T17:30:00Z - in English that’s December 25th 2018, at 5:30pm UTC. Both `JSONEncoder` and `JSONDecoder` are able to use this date format rather than the floating-point default - all you have to do is set their `dateEncodingStrategy` and `dateDecodingStrategy` properties.
 
 If you’re decoding dates, use this:
 

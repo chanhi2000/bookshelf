@@ -153,7 +153,7 @@ Here’s a sample message you can send to people you’ve been interacting with 
 Hi [Name],
 ```
 
-I’ve really enjoyed your insights in the [community/project name] discussions, and I’d love to learn more about your open source journey. Would you be open to a 15–20 minute virtual coffee chat sometime this week or next?
+I’ve really enjoyed your insights in the [community/project name] discussions, and I’d love to learn more about your open source journey. Would you be open to a 15-20 minute virtual coffee chat sometime this week or next?
 
 ### 5. Leverage Tools
 

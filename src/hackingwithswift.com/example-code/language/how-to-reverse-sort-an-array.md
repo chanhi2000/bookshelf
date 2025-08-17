@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Regular sorting on comparable data is as easy as calling the `sort()` method, but if you want a *reverse* sort – e.g. highest to lowest numbers, or Z-A alphabetically – there are two options.
+Regular sorting on comparable data is as easy as calling the `sort()` method, but if you want a *reverse* sort - e.g. highest to lowest numbers, or Z-A alphabetically - there are two options.
 
 The first is to run a regular sort, reverse that sort, then convert the result to an array. For example:
 

@@ -57,7 +57,7 @@ isOriginal: false
 
 The best way to start any new project is to define your data model, because once that's correct you normally find the rest of the app flows smoothly from there.
 
-In SwiftData all our models are created using code – we can kiss goodbye to the Core Data model editor UI in Xcode, because now everything is described in pure Swift.
+In SwiftData all our models are created using code - we can kiss goodbye to the Core Data model editor UI in Xcode, because now everything is described in pure Swift.
 
 For this project we’re going to create a simple model to describe one destination, so create a new Swift file called <FontIcon icon="fa-brands fa-swift"/>`Destination.swift` and give it this code:
 
@@ -96,7 +96,7 @@ class Destination {
 }
 ```
 
-I'm a big fan of providing default values wherever they make sense. When creating a new, empty destination then all the values would be empty apart from priority, which we'll give a value of 2 by default – not low, not high, just in the middle.
+I'm a big fan of providing default values wherever they make sense. When creating a new, empty destination then all the values would be empty apart from priority, which we'll give a value of 2 by default - not low, not high, just in the middle.
 
 So, modify your initializer to this:
 

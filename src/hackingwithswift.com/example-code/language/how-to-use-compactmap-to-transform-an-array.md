@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ For example, consider this array of strings:
 let numbers = ["1", "2", "Fish"]
 ```
 
-Two of those hold a number, but one does not. We can use `compactMap()` to convert those to integers, because creating an `Int` from a `String` is a failable initializer – it returns an `Int?` because you might have passed an invalid number. 
+Two of those hold a number, but one does not. We can use `compactMap()` to convert those to integers, because creating an `Int` from a `String` is a failable initializer - it returns an `Int?` because you might have passed an invalid number. 
 
 `compactMap()` will read those optional integers, unwrap all the optionals for us, then discard any items that returned `nil`, all in one line of code:
 

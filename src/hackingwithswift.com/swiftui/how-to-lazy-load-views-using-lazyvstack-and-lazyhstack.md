@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-By default, SwiftUI's `VStack` and `HStack` load all their contents up front, which is likely to be slow if you use them inside a scroll view. If you want to load content lazily – i.e., only when it scrolls into view, you should use `LazyVStack` and `LazyHStack` as appropriate.
+By default, SwiftUI's `VStack` and `HStack` load all their contents up front, which is likely to be slow if you use them inside a scroll view. If you want to load content lazily - i.e., only when it scrolls into view, you should use `LazyVStack` and `LazyHStack` as appropriate.
 
 For example, this will display 1000 text views lined up vertically, making sure each one is created only as it's scrolled into view:
 

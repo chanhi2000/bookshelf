@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Shared State Complexity in React – A Complete Handbook for Developers"
-description: "Article(s) > Shared State Complexity in React – A Complete Handbook for Developers"
+title: "Shared State Complexity in React - A Complete Handbook for Developers"
+description: "Article(s) > Shared State Complexity in React - A Complete Handbook for Developers"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Shared State Complexity in React – A Complete Handbook for Developers"
+      content: "Article(s) > Shared State Complexity in React - A Complete Handbook for Developers"
     - property: og:description
-      content: "Shared State Complexity in React – A Complete Handbook for Developers"
+      content: "Shared State Complexity in React - A Complete Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shared-state-complexity-in-react-handbook.html
 prev: /programming/ts/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754003865317/3c91ac3
 ---
 
 <SiteInfo
-  name="Shared State Complexity in React – A Complete Handbook for Developers"
+  name="Shared State Complexity in React - A Complete Handbook for Developers"
   desc="Imagine you're building a simple shopping website. You have a product page where users can add items to their cart, and a header that displays the number of items in the cart. Sounds simple, right? But here's the challenge: how does the header know w..."
   url="https://freecodecamp.org/news/shared-state-complexity-in-react-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -74,7 +74,7 @@ By the end, you'll understand how to build React applications that stay organize
 
 - [Understanding the Building Blocks: Props in React](#heading-understanding-the-building-blocks-props-in-react)
 - [What is Prop Drilling and Why is it a Problem?](#heading-what-is-prop-drilling-and-why-is-it-a-problem)
-- [Solution 1: React Context API – Understanding the Concept](#heading-solution-1-react-context-api-understanding-the-concept)
+- [Solution 1: React Context API - Understanding the Concept](#heading-solution-1-react-context-api-understanding-the-concept)
 - [Advanced Context Patterns and Concepts](#heading-advanced-context-patterns-and-concepts)
 - [Solution 2: State Management Libraries Explained](#heading-solution-2-state-management-libraries-explained)
 - [Performance Optimization Strategies Explained](#heading-performance-optimization-strategies-explained)
@@ -289,7 +289,7 @@ Before we get into complex state management, let's understand the fundamentals.
 
 ### What are props?
 
-**Props** (short for "properties") are how React components communicate with each other. Think of props like passing notes between classrooms in a school – they carry information from one component to another.
+**Props** (short for "properties") are how React components communicate with each other. Think of props like passing notes between classrooms in a school - they carry information from one component to another.
 
 ```jsx :collapsed-lines
 // This is a simple component that displays a person's information
@@ -593,7 +593,7 @@ As your app grows, you end up with:
 
 ---
 
-## Solution 1: React Context API – Understanding the Concept
+## Solution 1: React Context API - Understanding the Concept
 
 The **Context API** is React's built-in solution for sharing data between components without prop drilling. Think of it like a radio station that broadcasts information, and any component can tune in to listen.
 
@@ -701,7 +701,7 @@ function CartProvider({ children }) {
 1. **Function component**: `CartProvider` is just a regular React component
 2. **children prop**: This contains whatever JSX is placed inside `<CartProvider>...</CartProvider>`
 3. **State management**: We manage cart state exactly like before with `useState`
-4. **value prop**: This is crucial – whatever we put here becomes available to all child components
+4. **value prop**: This is crucial - whatever we put here becomes available to all child components
 5. **Return JSX**: We wrap `children` in `CartContext.Provider` to "broadcast" our data
 
 :::
@@ -4512,7 +4512,7 @@ By following these principles and patterns, you'll build React applications that
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Shared State Complexity in React – A Complete Handbook for Developers",
+  "title": "Shared State Complexity in React - A Complete Handbook for Developers",
   "desc": "Imagine you're building a simple shopping website. You have a product page where users can add items to their cart, and a header that displays the number of items in the cart. Sounds simple, right? But here's the challenge: how does the header know w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/shared-state-complexity-in-react-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -83,7 +83,7 @@ For example, say you need to install a Python library system wide. You could try
 
 But it may be simpler with an package manager like [<FontIcon icon="fa-brands fa-redhat"/>RedHat RPM](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/packaging_and_distributing_software/introduction-to-rpm_packaging-and-distributing-software) or [<FontIcon icon="fa-brands fa-debian"/>Debian DPKG](https://dpkg.org/), which can also help you keep track of dependencies and can even check if a package’s contents are tampered with after the installation with a checksum.
 
-Also, system administration tools written in Python often require that you use an interpreter with all the required libraries ready to go. For example, imagine a system Python with the popular [<FontIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) module installed by default, and such package is used by the tool – just calling the import without initializing any virtual environments.
+Also, system administration tools written in Python often require that you use an interpreter with all the required libraries ready to go. For example, imagine a system Python with the popular [<FontIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) module installed by default, and such package is used by the tool - just calling the import without initializing any virtual environments.
 
 For the sake of argument, say you need to go the route of an RPM packaging. You’ll quickly realize that your RPM package has runtime dependencies (libraries than your Python library needs to run once installed) and build dependencies (libraries you need to build your library but that are not required to use the library).
 
@@ -133,7 +133,7 @@ In this tutorial, I’ll show you how you can handle those concerns using an Ope
 
 ## Why Mock?
 
-As we discussed above, we already have [<FontIcon icon="fa-brands fa-python"/>Python virtual environments](https://docs.python.org/3/library/venv.html) – so why bother to have an RPM of the same library?
+As we discussed above, we already have [<FontIcon icon="fa-brands fa-python"/>Python virtual environments](https://docs.python.org/3/library/venv.html) - so why bother to have an RPM of the same library?
 
 Well, if you want to ensure consistent deployment across different systems, RPM packaging can be beneficial. It allows for easier management and distribution of software, especially in environments where system-wide installations are preferred over virtual environments.
 
@@ -298,7 +298,7 @@ https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everythi
 do rpm -ihv $dep; done
 ```
 
-Then we update the [<FontIcon icon="fas fa-globe"/>RPM spec file](https://rpm-software-management.github.io/rpm/manual/spec.html) for Textual, which describes how the RPM is created, bumping the version from 0.62.0 to 1.0.0. What I like to do is to create a new SRPM for Textual. For that I do the following (I’m still inside the Podman container – yes you can reuse it as long it keeps running):
+Then we update the [<FontIcon icon="fas fa-globe"/>RPM spec file](https://rpm-software-management.github.io/rpm/manual/spec.html) for Textual, which describes how the RPM is created, bumping the version from 0.62.0 to 1.0.0. What I like to do is to create a new SRPM for Textual. For that I do the following (I’m still inside the Podman container - yes you can reuse it as long it keeps running):
 
 ::: tabs
 

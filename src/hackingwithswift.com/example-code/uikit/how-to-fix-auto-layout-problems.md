@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ First, customize the `identifier` property of each of your constraints. This is 
 
 Second, try calling the `exerciseAmbiguityInLayout()` method of the view that’s causing problems. This is a method specifically designed to debugging, and causes a view to randomly shift between all layouts that are possible given the constraints you’ve applied. If you run this a few times then it should be clear what’s causing the issue: if two views vary in their widths, it means your current constraints don’t make it clear which is the correct layout.
 
-Third, try creating your constraints in Interface Builder. You don’t need to keep them there if you prefer doing things in code, but if you try to create them in IB you’ll be able to see visually where the problem is – IB will flag up a warning or error depending on your mistake.
+Third, try creating your constraints in Interface Builder. You don’t need to keep them there if you prefer doing things in code, but if you try to create them in IB you’ll be able to see visually where the problem is - IB will flag up a warning or error depending on your mistake.
 
 Finally, try pasting Xcode’s Auto Layout errors into <a href="http://www.wtfautolayout.com/">http://www.wtfautolayout.com/</a>. This is a web service that reads Xcode Auto Layout errors and converts them into a graphical representation of what’s happened. It won’t direct you to the solution, but it might at least help make it clearer.
 

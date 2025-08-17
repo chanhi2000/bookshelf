@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Array - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/arrays/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -69,7 +69,7 @@ for item in array {
 }
 ```
 
-That will print "Found Apples", "Found Peaches" then "Found Plums" to the Xcode console. Each time the loop goes around, one item is read from the array and placed into the constant `item` – and note that *is* a constant, so don't try to change it.
+That will print "Found Apples", "Found Peaches" then "Found Plums" to the Xcode console. Each time the loop goes around, one item is read from the array and placed into the constant `item` - and note that *is* a constant, so don't try to change it.
 
 -->
 

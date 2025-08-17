@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -97,11 +97,11 @@ There are three new things in there.
 
 First, notice how I’ve used `indexPath.item` rather than `indexPath.row`, because collection views don’t really think in terms of rows.
 
-Second, that code sets the `cornerRadius` property, which rounds the corners of a `CALayer` – or in our case the `UIView` being drawn by the `CALayer`.
+Second, that code sets the `cornerRadius` property, which rounds the corners of a `CALayer` - or in our case the `UIView` being drawn by the `CALayer`.
 
 Third, I snuck in a new `UIColor` initializer: `UIColor(white:alpha:)`. This is useful when you only want grayscale colors.
 
-With that done, the app works: you can run it with <kbd>Cmd</kbd>+<kbd>R</kbd>, import photos, and admire the way they all appear correctly in the app. But don't get your hopes up, because we're not done yet – you still can't assign names to people!
+With that done, the app works: you can run it with <kbd>Cmd</kbd>+<kbd>R</kbd>, import photos, and admire the way they all appear correctly in the app. But don't get your hopes up, because we're not done yet - you still can't assign names to people!
 
 For this last part of the project, we're going to recap how to add text fields to a `UIAlertController`, just like you did in project 5. All of the code is old, but I'm going to go over it again to make sure you fully understand.
 

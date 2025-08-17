@@ -83,10 +83,10 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It abstracts infrastructure details and provides a declarative way to manage applications. The course starts with an introduction to Kubernetes, covering key concepts such as:
 
-- **Pods** – The smallest deployable unit in Kubernetes, which can contain one or more containers.
-- **Deployments** – A higher-level object that manages the deployment and scaling of pods.
-- **Services** – Used to expose applications to the network, ensuring that users and other services can reach them.
-- **ConfigMaps and Secrets** – Tools for managing environment variables and sensitive data separately from application code.
+- **Pods** - The smallest deployable unit in Kubernetes, which can contain one or more containers.
+- **Deployments** - A higher-level object that manages the deployment and scaling of pods.
+- **Services** - Used to expose applications to the network, ensuring that users and other services can reach them.
+- **ConfigMaps and Secrets** - Tools for managing environment variables and sensitive data separately from application code.
 
 ### Amazon Elastic Kubernetes Service (EKS)
 

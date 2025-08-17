@@ -132,7 +132,7 @@ func main() {
 
 ### Key Components of the SSE Implementation
 
-The [<FontIcon icon="fa-brands fa-firefox"/>event stream](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#event_stream_format) is a simple stream of text data which must be encoded using UTF-8. Messages in the event stream are separated by a pair of newline characters – `\n\n`. A colon as the first character of a line is in essence a comment, and is ignored.
+The [<FontIcon icon="fa-brands fa-firefox"/>event stream](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#event_stream_format) is a simple stream of text data which must be encoded using UTF-8. Messages in the event stream are separated by a pair of newline characters - `\n\n`. A colon as the first character of a line is in essence a comment, and is ignored.
 
 In our server it is done here:
 
@@ -173,10 +173,10 @@ for {
 
 Each message received has some combination of the following fields, one per line. In our server we send only the data field which is enough, as other fields are optional. More details [<FontIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events).
 
-- **event** – a string identifying the type of event described.
-- **data** – the data field for the message.
-- **id** – the event ID to set the EventSource object's last event ID value.
-- **retry** – the reconnection time.
+- **event** - a string identifying the type of event described.
+- **data** - the data field for the message.
+- **id** - the event ID to set the EventSource object's last event ID value.
+- **retry** - the reconnection time.
 
 ### How to Receive the Events on the Client Side
 

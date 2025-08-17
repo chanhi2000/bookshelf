@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can add places to any map view using the `MKPlacemark` class, and it’s different from adding regular annotations – the map view shows the whole address on the map, even from far away, so users can see important points easily.
+You can add places to any map view using the `MKPlacemark` class, and it’s different from adding regular annotations - the map view shows the whole address on the map, even from far away, so users can see important points easily.
 
 Your address needs to be specified as a series of keys from the Contacts framework, so start by adding this import:
 

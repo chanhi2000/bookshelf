@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Binary Search in Python – How to Code the Algorithm with Examples"
-description: "Article(s) > Binary Search in Python – How to Code the Algorithm with Examples"
+title: "Binary Search in Python - How to Code the Algorithm with Examples"
+description: "Article(s) > Binary Search in Python - How to Code the Algorithm with Examples"
 icon: fa-brands fa-python
 category:
   - Python
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Binary Search in Python – How to Code the Algorithm with Examples"
+      content: "Article(s) > Binary Search in Python - How to Code the Algorithm with Examples"
     - property: og:description
-      content: "Binary Search in Python – How to Code the Algorithm with Examples"
+      content: "Binary Search in Python - How to Code the Algorithm with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-search-in-python-with-examples.html
 prev: /programming/py/articles/README.md
@@ -59,7 +59,7 @@ cover: https://freecodecamp.org/news/content/images/2022/07/pexels-pixabay-27759
 ---
 
 <SiteInfo
-  name="Binary Search in Python – How to Code the Algorithm with Examples"
+  name="Binary Search in Python - How to Code the Algorithm with Examples"
   desc="In our daily lives, we're constantly searching for information or trying to find solutions to problems we encounter. When going through search results on the web, we pick the most relevant articles or resources that we think will help us. Search is s..."
   url="https://freecodecamp.org/news/binary-search-in-python-with-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -77,7 +77,7 @@ Search is such a part of our lives because we cannot always have the answers. An
 
 - What is a Search Algorithm?
 - What is a Binary Search algorithm?
-- How Binary Search Works – Divide and Conquer
+- How Binary Search Works - Divide and Conquer
 - Processes involved in Binary Search Algorithms
 - Methods Used in Binary Search Algorithms
 - Real-life examples of Binary Search
@@ -128,7 +128,7 @@ There are [different types of sorting algorithms](/freecodecamp.org/sorting-algo
 
 ---
 
-## How Binary Search Works – Divide and Conquer
+## How Binary Search Works - Divide and Conquer
 
 A binary search algorithm uses a technique called “divide and conquer” to tackle its task. The merge sort algorithm employs the same technique to sort items in a list.
 
@@ -142,7 +142,7 @@ In binary search algorithms, the “divide and conquer” method works this way:
 
 You can implement this method using recursion or iteration in the binary search process.
 
-### How the Binary Search Algorithm Works – Step by Step
+### How the Binary Search Algorithm Works - Step by Step
 
 First, before performing the search, you need to sort the list.
 
@@ -303,8 +303,8 @@ Now let's see what's going on here:
 - Afterwards, we introduce a while loop to make the conditions run on repeat. Above the while loop we create a variable name "is_found" and set it to "True". This condition checks if the "item to be searched" is found or not.
 - In the while loop, we check all the conditions. The first condition is to check if the middle element and the variable "to_search" are equal. If they are equal, the position of the item will be returned.
 - Then we check for the second condition (if middle element != item to be searched) which leads us to the two scenarios:  
-  – if the middle element is greater than the item to be searched, the new position will shift to the left once. The search will begin from the first index and end at the new position which is the new last index.  
-  – If the middle element is less than the item to be searched, the new position will shift to the right once. The search will begin from the new position as the new first index and end at the last index.
+  - if the middle element is greater than the item to be searched, the new position will shift to the left once. The search will begin from the first index and end at the new position which is the new last index.  
+  - If the middle element is less than the item to be searched, the new position will shift to the right once. The search will begin from the new position as the new first index and end at the last index.
 
 At the end of these scenarios, we check if the new middle element is the same as the item to be searched. If it is the same, the position of the item will be returned. If not, the conditions are checked until the values are equal.
 
@@ -370,8 +370,8 @@ print(binary_search(list_container,first,last,search))
 - Then we check if the value of the last index is greater than or equal to the value of the first index. If the condition is true, we assign the operation of finding the middle element index to the variable name "mid_index". Then the middle element is gotten from the list using the mid index as position.
 - We create an "if" statement under the first "if" block to check if the middle element and the variable "to_search" are equal. If they are equal, the position of the item will be returned.
 - Then we check for the second condition, (if middle element != item to be searched) which leads us to two scenarios:  
-  – if the middle element is greater than the item to be searched, the new position will shift to the left once. The search will begin from the first index and end at the new position. We return the function and pass in the new position as the last index value.  
-  – if the middle element is less than the item to be searched, the new position will shift to the right once. The search will begin from the new position and end at the last index. We return the function and pass in the new position as the first index value.
+  - if the middle element is greater than the item to be searched, the new position will shift to the left once. The search will begin from the first index and end at the new position. We return the function and pass in the new position as the last index value.  
+  - if the middle element is less than the item to be searched, the new position will shift to the right once. The search will begin from the new position and end at the last index. We return the function and pass in the new position as the first index value.
 - The last condition will be on the same indent as the first "if" statement. If the to_search is not in the list, it will return a statement
 
 The final step is to call the function and the result is displayed.
@@ -403,7 +403,7 @@ You might not realize it, but we perform binary search all the time. Here are a 
 
 At the end of this article, you should be familiar with how binary search algorithms work and how to implement them in code.
 
-It's fine if you could not grasp everything at once – just give yourself some time and practice. If you encounter any errors or have questions, you can reach out to me on [X (<FontIcon icon="fa-brands fa-x-twitter   "/>`HeritageAlabi1`)](https://twitter.com/HeritageAlabi1).
+It's fine if you could not grasp everything at once - just give yourself some time and practice. If you encounter any errors or have questions, you can reach out to me on [X (<FontIcon icon="fa-brands fa-x-twitter   "/>`HeritageAlabi1`)](https://twitter.com/HeritageAlabi1).
 
 ‌‌
 
@@ -422,7 +422,7 @@ It's fine if you could not grasp everything at once – just give yourself some 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Binary Search in Python – How to Code the Algorithm with Examples",
+  "title": "Binary Search in Python - How to Code the Algorithm with Examples",
   "desc": "In our daily lives, we're constantly searching for information or trying to find solutions to problems we encounter. When going through search results on the web, we pick the most relevant articles or resources that we think will help us. Search is s...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-search-in-python-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

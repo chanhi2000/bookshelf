@@ -123,7 +123,7 @@ ldd main1
 
 ## Dynamically Linked Program
 
-As mentioned above, Go has a mechanism called `cgo` to call C code from Go. Even Go’s stdlib uses it in multiple places – for example in the [<FontIcon icon="fa-brands fa-golang"/>`net`](https://pkg.go.dev/net) package, where it uses the standard C library to work with DNS.
+As mentioned above, Go has a mechanism called `cgo` to call C code from Go. Even Go’s stdlib uses it in multiple places - for example in the [<FontIcon icon="fa-brands fa-golang"/>`net`](https://pkg.go.dev/net) package, where it uses the standard C library to work with DNS.
 
 Importing such packages or using cgo in your code by default produces a dynamically-linked binary, linked to those **libc** libraries.
 
@@ -279,7 +279,7 @@ This method allows for various applications, such as debugging, testing, and eve
 LD_PRELOAD=/path/to/my/malloc.so /bin/ls
 ```
 
-It also shows that **statically linked binaries** are more secure, as they don’t have this issue since they don’t seek any external libraries. Also, there is a “**secure-execution mode”** – a security feature implemented by the dynamic linker on Linux systems to restrict certain behaviours when running programs that require elevated privileges.
+It also shows that **statically linked binaries** are more secure, as they don’t have this issue since they don’t seek any external libraries. Also, there is a “**secure-execution mode”** - a security feature implemented by the dynamic linker on Linux systems to restrict certain behaviours when running programs that require elevated privileges.
 
 ---
 

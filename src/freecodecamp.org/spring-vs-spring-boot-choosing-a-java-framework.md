@@ -13,6 +13,7 @@ tag:
   - java
   - kotlin
   - spring
+  - java-spring
   - springframework
 head:
   - - meta:
@@ -68,7 +69,7 @@ You may have heard of Spring and Spring Boot by now, as they are very popular an
 
 ::: note Prerequisites
 
-To fully understand the content of this article, you should have a good working knowledge of the Java programming language, be familiar with the concept of APIs (**Application Programming Interfaces**), and know how to use Java project build tools – especially Maven, as it’s the build tool we’ll use for this article’s code examples.
+To fully understand the content of this article, you should have a good working knowledge of the Java programming language, be familiar with the concept of APIs (**Application Programming Interfaces**), and know how to use Java project build tools - especially Maven, as it’s the build tool we’ll use for this article’s code examples.
 
 :::
 

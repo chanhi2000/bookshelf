@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Python-while-Loops-Indefinite-Iteratio
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: 
 
 <SiteInfo
-  name="[COURSE] Mastering While Loops – Real Python"
+  name="[COURSE] Mastering While Loops - Real Python"
   desc="Master indefinite iteration using the Python ”while” loop. You’ll be able to construct basic and complex while loops, interrupt loop execution with break and continue, use the else clause with a while loop, and deal with infinite loops."
   url="https://realpython.com/courses/mastering-while-loops/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -84,7 +84,7 @@ When you’re finished, you should have a good grasp of how to use indefinite it
 ::: info Quiz - Python while Loops: Repeating Tasks Conditionally
 
 <SiteInfo
-  name="Python while Loops: Repeating Tasks Conditionally Quiz – Real Python"
+  name="Python while Loops: Repeating Tasks Conditionally Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's while loop. This loop allows you to execute a block of code repeatedly as long as a given condition remains true. Understanding how to use while loops effectively is a crucial skill for any Python developer."
   url="https://realpython.com/quizzes/python-while-loop/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

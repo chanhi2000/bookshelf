@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Conditional conformances <a href="/articles/50/whats-new-in-swift-4-1">were introduced in Swift 4.1</a>, and <a href="/articles/77/whats-new-in-swift-4-2">refined in Swift 4.2</a> to allow you to query them at runtime. They allow types to conform to a protocol only when certain conditions are met – hence “conditional conformance”.
+Conditional conformances <a href="/articles/50/whats-new-in-swift-4-1">were introduced in Swift 4.1</a>, and <a href="/articles/77/whats-new-in-swift-4-2">refined in Swift 4.2</a> to allow you to query them at runtime. They allow types to conform to a protocol only when certain conditions are met - hence “conditional conformance”.
 
 For example, if we had a `Purchaseable` protocol:
 
@@ -91,7 +91,7 @@ extension Array: Purchaseable where Element: Purchaseable {
 }
 ```
 
-You can add conditional conformances to new types, and you can use any protocol you want – it doesn’t need to be one you define.
+You can add conditional conformances to new types, and you can use any protocol you want - it doesn’t need to be one you define.
 
 For example, you might a generic `Box` class that is able to wrap a value so it can be passed by reference:
 
@@ -133,7 +133,7 @@ With that in place, we can now check two boxes for equality directly, like this:
 box1 == box2
 ```
 
-Conditional conformance was enhanced in Swift 4.2, giving the ability to query a conditional conformance at runtime. Although this compiled in Swift 4.1, it would crash at runtime – a result no one wanted. 
+Conditional conformance was enhanced in Swift 4.2, giving the ability to query a conditional conformance at runtime. Although this compiled in Swift 4.1, it would crash at runtime - a result no one wanted. 
 
 Well, that’s now fixed, so if you receive data of one type and want to check if it can be converted to a conditionally conformed protocol, it works great.
 

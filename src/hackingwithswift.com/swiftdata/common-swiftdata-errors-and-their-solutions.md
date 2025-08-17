@@ -126,7 +126,7 @@ To solve this check that you have the correct `modelContainer()` modifier in pla
 
 This error appears when you attempt to use the reserved property name `description` in any SwiftData model. This is used internally by Core Data, so SwiftData simply doesn't allow you to use it.
 
-The solution is just to find another word for that string – content, details, text, message, etc.
+The solution is just to find another word for that string - content, details, text, message, etc.
 
 ---
 
@@ -152,7 +152,7 @@ The correct approach is to remove `modelContext.insert(mi2)` entirely: create th
 
 ## `EXC_BAD_ACCESS (code=1, address=0x0)`
 
-If this occurs you're in trouble, because it could mean a whole range of things. In my experience, I've found this occurs the most when I've accidentally used a predicate that isn't supported by SwiftData – one that compiles cleanly, but crashes at runtime. If Xcode resolves the error to somewhere next to a `#Predicate` usage, well done: this is your error!
+If this occurs you're in trouble, because it could mean a whole range of things. In my experience, I've found this occurs the most when I've accidentally used a predicate that isn't supported by SwiftData - one that compiles cleanly, but crashes at runtime. If Xcode resolves the error to somewhere next to a `#Predicate` usage, well done: this is your error!
 
 For example, if we have an `Author` model like this:
 
@@ -177,7 +177,7 @@ Then you might reasonably assume you could write a query like this one:
 }) var authors: [Author]
 ```
 
-Certainly it compiles cleanly. However, it also triggers the dreaded `EXC_BAD_ACCESS`, because we're trying to search a string array in a predicate – something that isn't allowed in SwiftData.
+Certainly it compiles cleanly. However, it also triggers the dreaded `EXC_BAD_ACCESS`, because we're trying to search a string array in a predicate - something that isn't allowed in SwiftData.
 
 To fix this you need to create a relationship rather than a simple array. Internally SwiftData sees something like `[String]` and uses `Codable` to convert it to a data blob that can be saved alongside its parent model. This makes it impossible to search by SQLite, the underlying data store.
 
@@ -201,7 +201,7 @@ Let's say you have a `School` model that has an array of `Student` objects. If y
 
 SwiftData works hard to ensure your data remains consistent, so it automatically inserts related data for you. In this case, it's enough to insert the school object, because SwiftData will insert all the students that belong to it automatically.
 
-However if you try to do both – if you try to insert the school and also the students – you'll get the error above: "Fatal error: Duplicate registration attempt for object with id…"
+However if you try to do both - if you try to insert the school and also the students - you'll get the error above: "Fatal error: Duplicate registration attempt for object with id…"
 
 To solve it, look at the line that threw the error, because that will tell you the second place the object is being inserted. Now work backwards: was that object related to something else that you already inserted? Remove one of the two insertions, and the problem should go away.
 
@@ -237,11 +237,11 @@ class Student {
 }
 ```
 
-That sets each school has an array of students, and each student belongs to a school. That sounds sensible, but notice how I've used the `@Relationship` macro there – I've explicitly specified the inverse relationship, because without that SwiftData won't infer it for us.
+That sets each school has an array of students, and each student belongs to a school. That sounds sensible, but notice how I've used the `@Relationship` macro there - I've explicitly specified the inverse relationship, because without that SwiftData won't infer it for us.
 
 The reason it won't infer is an important one: this is a dangerous relationship. The default delete rule for relationships is `.nullify`, which means "set to nil any value that referred to me." 
 
-In our case, if we deleted a school from our data store, all the students would have their `school` property set to nil – something that isn't allowed, because we used `School` rather than `School?` for that property.
+In our case, if we deleted a school from our data store, all the students would have their `school` property set to nil - something that isn't allowed, because we used `School` rather than `School?` for that property.
 
 There are two ways to fix this problem, depending on what you want to happen:
 
@@ -256,7 +256,7 @@ These messages appear when you've used the `@Relationship` macro and provided to
 
 Annoyingly this problem is handled silently by SwiftData by default: when its autosave system detects the validation failure it simply doesn't save the invalid change. This can make it a little hard to find exactly what's causing the problem at first, but you should definitely start by searching your project for either `minimumModelCount` or `maximumModelCount` depending on which error you're receiving.
 
-Once you've found the offending data, you either need to avoid adding it to your relationship, or adjust the rules – one of the two has to change.
+Once you've found the offending data, you either need to avoid adding it to your relationship, or adjust the rules - one of the two has to change.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Back to Basics – Files, StreamWriter and StreamReader
-description: Article(s) > C# Back to Basics – Files, StreamWriter and StreamReader
+title: C# Back to Basics - Files, StreamWriter and StreamReader
+description: Article(s) > C# Back to Basics - Files, StreamWriter and StreamReader
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Back to Basics – Files, StreamWriter and StreamReader
+      content: Article(s) > C# Back to Basics - Files, StreamWriter and StreamReader
     - property: og:description
-      content: C# Back to Basics – Files, StreamWriter and StreamReader
+      content: C# Back to Basics - Files, StreamWriter and StreamReader
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-basics-streamwriter-streamreaders.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/csharp-basics-streamwriter-streamreaders/bann
 ---
 
 <SiteInfo
-  name="C# Back to Basics – Files, StreamWriter and StreamReader"
+  name="C# Back to Basics - Files, StreamWriter and StreamReader"
   desc="Find out how to work with files by using StreamWriter and StreamReader classes. Furthermore, learn about initialization and their methods as well."
   url="https://code-maze.com/csharp-basics-streamwriter-streamreaders/"
   logo="/assets/image/code-maze.com/favicon.png"

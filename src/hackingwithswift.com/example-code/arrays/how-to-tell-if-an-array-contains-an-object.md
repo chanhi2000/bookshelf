@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Array - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/arrays/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ let array = ["Apples", "Peaches", "Plums"]
 if array.contains("Apples") {
     print("We've got apples!")
 } else {
-    print("No apples here – sorry!")
+    print("No apples here - sorry!")
 }
 ```
 

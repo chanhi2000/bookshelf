@@ -117,9 +117,9 @@ Open `package.json` and ensure it includes useful metadata:
 }
 ```
 
-🔹 **repository** – Useful if you plan to host the project on GitHub.  
-🔹 **keywords** – Helps people discover your package on npm.  
-🔹 **license** – Specifies how others can use your package (for example, MIT, GPL, and so on).
+🔹 **repository** - Useful if you plan to host the project on GitHub.  
+🔹 **keywords** - Helps people discover your package on npm.  
+🔹 **license** - Specifies how others can use your package (for example, MIT, GPL, and so on).
 
 ---
 

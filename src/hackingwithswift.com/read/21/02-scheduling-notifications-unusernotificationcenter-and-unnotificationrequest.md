@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/QD_mVOeOaGA" />
 
-We only need two buttons to control the entire user interface for this project, and the easiest way to do that is using navigation bar buttons. So, open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder and embed the view controller inside a navigation controller – and that’s it for the interface.
+We only need two buttons to control the entire user interface for this project, and the easiest way to do that is using navigation bar buttons. So, open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder and embed the view controller inside a navigation controller - and that’s it for the interface.
 
 Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add these two method stubs:
 
@@ -74,7 +74,7 @@ navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Register", style: .pl
 navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Schedule", style: .plain, target: self, action: #selector(scheduleLocal))
 ```
 
-OK, time to explain how this project needs to work. First, you can't post messages to the user's lock screen unless you have their permission. This is a sensible restriction – it would, after all, be awfully annoying if any app could bother you when it pleased.
+OK, time to explain how this project needs to work. First, you can't post messages to the user's lock screen unless you have their permission. This is a sensible restriction - it would, after all, be awfully annoying if any app could bother you when it pleased.
 
 So, in order to send local notifications in our app, we first need to request permission, and that's what we'll put in the `registerLocal()` method. You register your settings based on what you actually need, and that's done with a method called `requestAuthorization()` on `UNUserNotificationCenter`. For this example we're going to request an alert (a message to show), along with a badge (for our icon) and a sound (because users just *love* those.)
 
@@ -86,7 +86,7 @@ All this functionality is contained in the UserNotifications framework, so befor
 import UserNotifications
 ```
 
-OK, let’s go – change your `registerLocal()` method to be this:
+OK, let’s go - change your `registerLocal()` method to be this:
 
 ```swift
 @objc func registerLocal() {
@@ -110,7 +110,7 @@ Once we have user permission, it's time to fill in the `scheduleLocal()` method.
 
 Before I dive into the code, there are a few extra things I want to discuss.
 
-First, the reason a notification request is split into two smaller components is because they are interchangeable. For example, the trigger – when to show the notification – can be a calendar trigger that shows the notification at an exact time, it can be an interval trigger that shows the notification after a certain time interval has lapsed, or it can be a geofence that shows the notification based on the user’s location.
+First, the reason a notification request is split into two smaller components is because they are interchangeable. For example, the trigger - when to show the notification - can be a calendar trigger that shows the notification at an exact time, it can be an interval trigger that shows the notification after a certain time interval has lapsed, or it can be a geofence that shows the notification based on the user’s location.
 
 I’ll be demonstrating both calendar and interval triggers here, but to do calendar triggers requires learning another new data type called `DateComponents`. We’re going to start with a calendar notification, which is where you specify a day, a month, an hour, a minute, or any combination of those to produce specific times. For example, if you specify hour 8 and minute 30, and *don’t* specify a day, it means either “8:30 tomorrow” or “8:30 every day” depending on whether you ask for the notification to be repeated.
 
@@ -123,7 +123,7 @@ dateComponents.minute = 30
 let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
 ```
 
-When it comes to *what* to show, we need to use the class `UNMutableNotificationContent`. This has lots of properties that customize the way the alert looks and works – we’ll be using these:
+When it comes to *what* to show, we need to use the class `UNMutableNotificationContent`. This has lots of properties that customize the way the alert looks and works - we’ll be using these:
 
 
 - The `title` property is used for the main title of the alert. This should be a couple of words at most.
@@ -147,9 +147,9 @@ The combination of content and trigger is enough to be combined into a request, 
 
 Apple’s example for this is an app that displays live sports scores to the user. When something interesting happens, what the user really wants is for the existing notification to be updated with new information, rather than have multiple notifications from the same app over time.
 
-For technique project we don’t care what name is used for each notification, but we do want it to be unique. So, we’ll be using the `UUID` class to generate unique identifiers – we’ve used this before, so hopefully you’re familiar.
+For technique project we don’t care what name is used for each notification, but we do want it to be unique. So, we’ll be using the `UUID` class to generate unique identifiers - we’ve used this before, so hopefully you’re familiar.
 
-OK, enough talk – time for some code. Change the `scheduleLocal()` method to this:
+OK, enough talk - time for some code. Change the `scheduleLocal()` method to this:
 
 ```swift
 @objc func scheduleLocal() {
@@ -174,7 +174,7 @@ OK, enough talk – time for some code. Change the `scheduleLocal()` method to t
 
 If you want to test out your notifications, there are two more things that will help. 
 
-First, you can cancel pending notifications – i.e., notifications you have scheduled that have yet to be delivered because their trigger hasn’t been met – using the `center.removeAllPendingNotificationRequests()` method, like this:
+First, you can cancel pending notifications - i.e., notifications you have scheduled that have yet to be delivered because their trigger hasn’t been met - using the `center.removeAllPendingNotificationRequests()` method, like this:
 
 ```swift
 center.removeAllPendingNotificationRequests()

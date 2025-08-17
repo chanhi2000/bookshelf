@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Core Graphics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/core-graphics/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-If you have a `CGAffineTransform` and want to know what its scale component is – regardless of whether it has been rotated or translated – use this code:
+If you have a `CGAffineTransform` and want to know what its scale component is - regardless of whether it has been rotated or translated - use this code:
 
 ```swift
 func scale(from transform: CGAffineTransform) -> Double {

@@ -112,7 +112,7 @@ Most programming languages come with a predefined set of escape sequences for sp
 
 The last two are reminiscent of mechanical typewriters, which required two separate commands to insert a newline. The first command would move the carriage back to the beginning of the current line, while the second one would advance the roll to the next line.
 
-By comparing the corresponding **ASCII character codes**, you’ll see that putting a backslash in front of a character changes its meaning completely. However, not all characters allow for this–only the special ones.
+By comparing the corresponding **ASCII character codes**, you’ll see that putting a backslash in front of a character changes its meaning completely. However, not all characters allow for this-only the special ones.
 
 To compare ASCII character codes, you may want to use the built-in `ord()` function:
 

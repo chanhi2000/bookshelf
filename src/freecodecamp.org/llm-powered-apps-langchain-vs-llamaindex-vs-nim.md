@@ -130,7 +130,7 @@ Finally, we use the invoke method to send a question to the Gemini model. In thi
 
 LangChain defines Chains as “sequences of calls”. To understand how chains work, we need to know what LCEL is.
 
-LCEL stands for LangChain Expression Language, which is a declarative way to easily compose chains together – that’s it. LCEL just helps us multiple combine chains in long chains.
+LCEL stands for LangChain Expression Language, which is a declarative way to easily compose chains together - that’s it. LCEL just helps us multiple combine chains in long chains.
 
 LangChain supports two types of chains
 

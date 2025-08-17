@@ -69,7 +69,7 @@ Or we can sort by priority in descending order like this:
 @Query(sort: \Destination.priority, order: .reverse) var destinations: [Destination]
 ```
 
-That handles only one property, but so if you need more than one – if you want to sort by priority descending then name ascending, for example, you need to use a `SortDescriptor` array:
+That handles only one property, but so if you need more than one - if you want to sort by priority descending then name ascending, for example, you need to use a `SortDescriptor` array:
 
 ```swift
 @Query(sort: [SortDescriptor(\Destination.priority, order: .reverse), SortDescriptor(\Destination.name)]) var destinations: [Destination]
@@ -79,7 +79,7 @@ You can have as many sort descriptors as you need in that array, and SwiftData w
 
 This approach works great when you know your sort order at compile time, but very often you want your user to be able to sort their data however they want.
 
-This takes quite a bit more work, because properties created with `@Query` don't have any sort of simple `sortOrder` property we can use. Instead, you need to move your `@Query` property down one view in SwiftUI’s hierarchy – you need to put it into a subview where you can inject a sort using the view's initializer.
+This takes quite a bit more work, because properties created with `@Query` don't have any sort of simple `sortOrder` property we can use. Instead, you need to move your `@Query` property down one view in SwiftUI’s hierarchy - you need to put it into a subview where you can inject a sort using the view's initializer.
 
 The first step is to make a new SwiftUI view called `DestinationListingView`, then giving it a SwiftData import line at the top. 
 
@@ -89,7 +89,7 @@ Next, we need to move some code from `ContentView` into `DestinationListingView`
 2. The whole `List` into there, but not its modifiers.
 3. The `deleteDestinations()` method.
 
-You should also *copy* the `@Environment` property for `modelContext` into `DestinationListingView` – this should be copied rather than moved, because we need it in both places.
+You should also *copy* the `@Environment` property for `modelContext` into `DestinationListingView` - this should be copied rather than moved, because we need it in both places.
 
 Finally, put `DestinationListingView` where the `List` was in `ContentView`, like this:
 

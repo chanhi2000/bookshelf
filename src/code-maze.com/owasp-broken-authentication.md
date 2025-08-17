@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: OWASP Top 10 – Broken Authentication
-description: Article(s) > OWASP Top 10 – Broken Authentication
+title: OWASP Top 10 - Broken Authentication
+description: Article(s) > OWASP Top 10 - Broken Authentication
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > OWASP Top 10 – Broken Authentication
+      content: Article(s) > OWASP Top 10 - Broken Authentication
     - property: og:description
-      content: OWASP Top 10 – Broken Authentication
+      content: OWASP Top 10 - Broken Authentication
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/owasp-broken-authentication.html
 prev: /programming/cs/articles/README.md
@@ -53,7 +53,7 @@ cover: /assets/image/code-maze.com/owasp-broken-authentication/banner.png
 ---
 
 <SiteInfo
-  name="OWASP Top 10 – Broken Authentication"
+  name="OWASP Top 10 - Broken Authentication"
   desc="Broken Authentication, the second most critical vulnerability as per OWASP Top10 list allows attackers to gain control over user accounts in a system."
   url="https://code-maze.com/owasp-broken-authentication/"
   logo="/assets/image/code-maze.com/favicon.png"

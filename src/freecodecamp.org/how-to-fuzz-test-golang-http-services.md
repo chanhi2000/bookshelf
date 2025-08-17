@@ -88,14 +88,14 @@ It’s a good practice to integrate fuzzing into your team’s software developm
 
 ## Fuzz Testing in Go
 
-There are many fuzzing tools that have been available for a while – such as [<FontIcon icon="iconfont icon-github"/>`google/oss-fuzz`](https://github.com/google/oss-fuzz), for example – but since Go 1.18, fuzzing was added to Go’s standard library. So it’s now part of the regular testing package since it’s a kind of test. You can also use it together with the other testing primitives which is nice.
+There are many fuzzing tools that have been available for a while - such as [<FontIcon icon="iconfont icon-github"/>`google/oss-fuzz`](https://github.com/google/oss-fuzz), for example - but since Go 1.18, fuzzing was added to Go’s standard library. So it’s now part of the regular testing package since it’s a kind of test. You can also use it together with the other testing primitives which is nice.
 
 The steps to create a fuzz test in Go are the following:
 
 1. In a <FontIcon icon="fa-brands fa-golang"/>`_test.go` file, create a function that starts with `Fuzz` which accepts `*testing.F`
 2. Add corpus seeds using `f.Add()` to allow the fuzzer to generate the data based on it.
 3. Call the fuzz target using `f.Fuzz()` by passing fuzzing arguments which our target function accepts.
-4. Start the fuzzer using the regular `go test` command, but with the `–fuzz=Fuzz` flag
+4. Start the fuzzer using the regular `go test` command, but with the `-fuzz=Fuzz` flag
 
 ::: note
 

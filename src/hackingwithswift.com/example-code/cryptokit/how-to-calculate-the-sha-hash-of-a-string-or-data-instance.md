@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CryptoKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/cryptokit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -74,7 +74,7 @@ You then call the `hash(data:)` method of whichever kind of hash you want: SHA-2
 let hashed = SHA256.hash(data: inputData)
 ```
 
-Finally, you can print out the textual representation of the hash – what we’d considered the user-facing hash string itself – like this:
+Finally, you can print out the textual representation of the hash - what we’d considered the user-facing hash string itself - like this:
 
 ```swift
 print(hashed.description)

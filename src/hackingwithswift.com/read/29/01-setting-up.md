@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,5 +59,5 @@ The game? It's called Gorillas, and it first shipped with an old text-based oper
 
 "Destructible terrain" means "terrain that can be destroyed," which is a key part of Gorillas. If you've never played it before, you won't know that it pits two players against each other, both standing on high-rise buildings and both flinging exploding bananas at each other using physics. Realistic, right? Well, no, but it's certainly fun!
 
-Make a new SpriteKit project named Project29. Please make it target iPads in landscape orientation, then through the usual project cleaning effort to remove all of the unneeded template code – including, as always, setting the anchor point to X:0 Y:0 and size 1024x768. You should download the files for this project from [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), but for now please don’t copy any of its files into your project.
+Make a new SpriteKit project named Project29. Please make it target iPads in landscape orientation, then through the usual project cleaning effort to remove all of the unneeded template code - including, as always, setting the anchor point to X:0 Y:0 and size 1024x768. You should download the files for this project from [GitHub (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), but for now please don’t copy any of its files into your project.
 

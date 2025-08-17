@@ -65,7 +65,7 @@ func == <each Element: Equatable>(lhs: (repeat each Element), rhs: (repeat each 
 }
 ```
 
-If that means nothing to you, the Simple English version is that [SE-0015 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0015-tuple-comparison-operators.md) added support for direct tuple comparison up to arity 6, meaning that two tuples with up to six items could be compared using ==. If you tried comparing tuples with seven items – e.g. `(1, 2, 3, 4, 5, 6, 7) == (1, 2, 3, 4, 5, 6, 7)` – Swift would throw up an error. SE-0408, along with the code above, removes that restriction.
+If that means nothing to you, the Simple English version is that [SE-0015 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0015-tuple-comparison-operators.md) added support for direct tuple comparison up to arity 6, meaning that two tuples with up to six items could be compared using ==. If you tried comparing tuples with seven items - e.g. `(1, 2, 3, 4, 5, 6, 7) == (1, 2, 3, 4, 5, 6, 7)` - Swift would throw up an error. SE-0408, along with the code above, removes that restriction.
 
 Tantalizingly, the [Future Directions section (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0408-pack-iteration.md#future-directions) of this evolution proposal suggests that in the future we might see a variant of Swift's `zip()` function that supports any number of sequences.
 

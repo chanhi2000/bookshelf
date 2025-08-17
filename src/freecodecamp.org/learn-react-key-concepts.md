@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn React – A Guide to the Key Concepts"
-description: "Article(s) > Learn React – A Guide to the Key Concepts"
+title: "Learn React - A Guide to the Key Concepts"
+description: "Article(s) > Learn React - A Guide to the Key Concepts"
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn React – A Guide to the Key Concepts"
+      content: "Article(s) > Learn React - A Guide to the Key Concepts"
     - property: og:description
-      content: "Learn React – A Guide to the Key Concepts"
+      content: "Learn React - A Guide to the Key Concepts"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-key-concepts.html
 prev: /programming/js-react/articles/README.md
@@ -48,15 +48,15 @@ cover: https://freecodecamp.org/news/content/images/2023/12/Orange---Yellow-Grad
 ---
 
 <SiteInfo
-  name="Learn React – A Guide to the Key Concepts"
-  desc="Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot. This guide follows the 80/20 rule – we'll focus on a few key Rea..."
+  name="Learn React - A Guide to the Key Concepts"
+  desc="Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot. This guide follows the 80/20 rule - we'll focus on a few key Rea..."
   url="https://freecodecamp.org/news/learn-react-key-concepts"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2023/12/Orange---Yellow-Gradient-Make-Design-Blog-Banner--56-.png"/>
 
 Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot.
 
-This guide follows the 80/20 rule – we'll focus on a few key React concepts that you'll use in the majority of your work with React.
+This guide follows the 80/20 rule - we'll focus on a few key React concepts that you'll use in the majority of your work with React.
 
 I created this resource for beginner and intermediate developers. In it, I’ll cover all the basic concepts you need to know to get started with React.
 
@@ -269,7 +269,7 @@ class HelloWorld extends Component {
 
 The code snippet above creates a Class Component with a state called greeting containing a "Hello World" value. The state is declared using the this.state keyword and the render method then displays the value of the greeting state within an h1 element.
 
-Remember: you should generally avoid using class components in your applications, and use functional components instead – which we'll discuss now.
+Remember: you should generally avoid using class components in your applications, and use functional components instead - which we'll discuss now.
 
 #### Functional Components (Stateless)
 
@@ -312,7 +312,7 @@ Every component you see uses JSX. The best thing about React is that you can eas
 
 [JSX](https://legacy.reactjs.org/docs/introducing-jsx.html) stands for JavaScript Syntax Extension, and it lets you use HTML-like syntax in your React components.
 
-A function called `React.createElement()` enables us to create JSX elements in React. It accepts three arguments – the HTML element, an object containing the HTML element’s attribute, and the content of the HTML element.
+A function called `React.createElement()` enables us to create JSX elements in React. It accepts three arguments - the HTML element, an object containing the HTML element’s attribute, and the content of the HTML element.
 
 Let’s see some examples: The code snippet above creates a button that displays “Click here” with a background colour and text color attributes.
 
@@ -649,7 +649,7 @@ The code snippet above shows that when you declare a state, React allows you to 
 
 ## How to Display List Items in React
 
-So far, you’ve seen how to display states and props values within JSX elements in React. But in some cases, you may need to display list items on a webpage – for example, data received from an API endpoint. How do we render this in React? You’ll learn about that shortly.
+So far, you’ve seen how to display states and props values within JSX elements in React. But in some cases, you may need to display list items on a webpage - for example, data received from an API endpoint. How do we render this in React? You’ll learn about that shortly.
 
 Let’s consider the following code snippet that renders a list of foods:
 
@@ -901,15 +901,15 @@ export default function Counter() {
 }
 ```
 
-Note that you should avoid using useEffect without its dependency array – it will cause performance issues within your application.
+Note that you should avoid using useEffect without its dependency array - it will cause performance issues within your application.
 
 #### With an empty dependency array
 
-A useEffect hook can also contain an empty dependency array. This means that the function within the useEffect function should run only once – when the component mounts or is loaded on the web page.
+A useEffect hook can also contain an empty dependency array. This means that the function within the useEffect function should run only once - when the component mounts or is loaded on the web page.
 
 This method is mostly used when you need to fetch data from an API endpoint and display it on the web page when it loads.
 
-Here is an example, the useEffect function runs only once (when the page mounts). An empty dependency array tells React that the useEffect runs once – when the component is rendered on the web page.
+Here is an example, the useEffect function runs only once (when the page mounts). An empty dependency array tells React that the useEffect runs once - when the component is rendered on the web page.
 
 ```js
 import { useEffect, useState } from "react"
@@ -1113,8 +1113,8 @@ Now it’s time to take the next step by subscribing to my [**newsletter**](http
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn React – A Guide to the Key Concepts",
-  "desc": "Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot. This guide follows the 80/20 rule – we'll focus on a few key Rea...",
+  "title": "Learn React - A Guide to the Key Concepts",
+  "desc": "Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot. This guide follows the 80/20 rule - we'll focus on a few key Rea...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-key-concepts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

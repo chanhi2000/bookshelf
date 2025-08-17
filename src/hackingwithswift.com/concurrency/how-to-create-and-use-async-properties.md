@@ -52,11 +52,11 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Just as Swift’s functions can be asynchronous, computed properties can also be asynchronous: attempting to access them must also use `await` or similar, and may also need `throws` if errors can be thrown when computing the property. This is what allows things like the `value` property of `Task` to work – it’s a simple property, but we must access it using `await` because it might not have completed yet.
+Just as Swift’s functions can be asynchronous, computed properties can also be asynchronous: attempting to access them must also use `await` or similar, and may also need `throws` if errors can be thrown when computing the property. This is what allows things like the `value` property of `Task` to work - it’s a simple property, but we must access it using `await` because it might not have completed yet.
 
 ::: important
 
-This is only possible on read-only computed properties – attempting to provide a setter will cause a compile error.
+This is only possible on read-only computed properties - attempting to provide a setter will cause a compile error.
 
 :::
 
@@ -166,7 +166,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/how-to-create-and-use-async-properties-1.zip)
 
-That call to `source.contents` is where the real action happens – it’s a property, yes, but it must also be accessed asynchronously so that it can do its work of fetching and decoding without blocking the UI.
+That call to `source.contents` is where the real action happens - it’s a property, yes, but it must also be accessed asynchronously so that it can do its work of fetching and decoding without blocking the UI.
 
 ::: details Similar solutions…
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
-description: Article(s) > The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
+title: The JavaScript Class Handbook - Complete Guide to Class Fields and the Super Keyword
+description: Article(s) > The JavaScript Class Handbook - Complete Guide to Class Fields and the Super Keyword
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
+      content: Article(s) > The JavaScript Class Handbook - Complete Guide to Class Fields and the Super Keyword
     - property: og:description
-      content: The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword
+      content: The JavaScript Class Handbook - Complete Guide to Class Fields and the Super Keyword
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-class-handbook.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/JavaScrip
 ---
 
 <SiteInfo
-  name="The JavaScript Class Handbook – Complete Guide to Class Fields and the Super Keyword"
+  name="The JavaScript Class Handbook - Complete Guide to Class Fields and the Super Keyword"
   desc="Classes let you privatize your data while providing users indirect access to it. It is an excellent way to prevent direct access to your constructor’s data. This handbook aims to show you exactly how classes work in JavaScript. We will also discuss class fields and the super keyword. Table of..."
   url="https://freecodecamp.org/news/javascript-class-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

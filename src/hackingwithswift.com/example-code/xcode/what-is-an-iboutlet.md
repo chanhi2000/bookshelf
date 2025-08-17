@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -58,7 +58,7 @@ isOriginal: false
 <!-- 
 When you connect your storyboard to your code Xcode inserts two special markers: `@IBAction` and `@IBOutlet`. Both of these effectively do nothing when you build your app, but they are still important because Xcode uses them to understand which of your properties and methods are relevant to Interface Builder.
 
-In the case of `@IBOutlet`, this is a connection from an Interface Builder user interface component – e.g. a `UIButton` – to a property in a view controller or other piece of Swift code. To the left of the code you should see a black circle with a ring around it, which is Xcode’s visual confirmation that a given `@IBOutlet` has an active connection.
+In the case of `@IBOutlet`, this is a connection from an Interface Builder user interface component - e.g. a `UIButton` - to a property in a view controller or other piece of Swift code. To the left of the code you should see a black circle with a ring around it, which is Xcode’s visual confirmation that a given `@IBOutlet` has an active connection.
 
 If you’re using the assistant editor with IB in one pane and your code in the other, you can hover over that circle with your mouse pointer to see the UI component highlighted.
 

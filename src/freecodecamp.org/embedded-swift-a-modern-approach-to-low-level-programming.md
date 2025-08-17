@@ -380,7 +380,7 @@ The table below provides the memory management comparison between Swift and C:
 | **Feature** | **Swift (ARC)** | **C (Manual)** |
 | --- | --- | --- |
 | Memory strategy | Automatic reference counting | Manual with `malloc`/`free` |
-| Overhead per object | 4–8 bytes (for ref count) | None for stack; variable for heap |
+| Overhead per object | 4-8 bytes (for ref count) | None for stack; variable for heap |
 | Deallocation | Deterministic, triggered by ARC | Developer-controlled |
 | Weak reference support | Requires additional metadata | Not built-in |
 | Thread safety | Atomic operations in ARC | Not guaranteed |
@@ -400,9 +400,9 @@ The table below provides the instruction cycle comparison between Swift and C:
 
 | **Instruction-Level Feature** | **Swift** | **C** |
 | --- | --- | --- |
-| Reference count updates | 2–4 instructions per assignment | N/A |
-| Bounds checking | 1–3 instructions per array access | None |
-| Optional unwrapping | 1–2 instructions per check | N/A |
+| Reference count updates | 2-4 instructions per assignment | N/A |
+| Bounds checking | 1-3 instructions per array access | None |
+| Optional unwrapping | 1-2 instructions per check | N/A |
 | Method dispatch | Protocols introduce indirection | Direct calls or function pointers |
 | Optimization potential | ARC elision, inlining, dead code removal | Full manual control, inline assembly |
 | Predictability | High in optimized builds, with some abstraction overhead | Very high, minimal abstraction |
@@ -438,7 +438,7 @@ Although elegant and safe, this loop includes several safety mechanisms:
 3. Overflow protection in debug mode
 4. Optional handling or runtime checks if `data` might be empty
 
-These checks introduce runtime overhead, resulting in an estimated 8–10 instructions per iteration on most platforms (depending on optimization level and target architecture). In release builds, Swift aggressively inlines and strips redundant checks, but some level of abstraction cost remains, especially compared to raw memory access in C.
+These checks introduce runtime overhead, resulting in an estimated 8-10 instructions per iteration on most platforms (depending on optimization level and target architecture). In release builds, Swift aggressively inlines and strips redundant checks, but some level of abstraction cost remains, especially compared to raw memory access in C.
 
 Now, compare that to its equivalent in C:
 
@@ -454,7 +454,7 @@ float process_data(float* data, int count) {
 // Estimated: ~4-5 instructions per iteration
 ```
 
-This version performs direct memory access with pointer arithmetic, no bounds checks, and no type safety. The C code is lower-level, with fewer runtime checks, and compiles down to just 4–5 instructions per iteration, depending on the target CPU and compiler flags. It is lean and fast, ideal for cycles-per-instruction-critical scenarios.
+This version performs direct memory access with pointer arithmetic, no bounds checks, and no type safety. The C code is lower-level, with fewer runtime checks, and compiles down to just 4-5 instructions per iteration, depending on the target CPU and compiler flags. It is lean and fast, ideal for cycles-per-instruction-critical scenarios.
 
 The table below shows the comparison of single loop performance between Swift and C:
 
@@ -462,7 +462,7 @@ The table below shows the comparison of single loop performance between Swift an
 | ---: | :--- | :--- |
 | Array access | Bounds-checked | Direct pointer access |
 | Loop iteration | High-level iterator abstraction | Raw loop with pointer increment |
-| Instruction count (per loop) | ~8–10 (in debug), ~6–8 (in release) | ~4–5 |
+| Instruction count (per loop) | ~8-10 (in debug), ~6-8 (in release) | ~4-5 |
 | Division | Safe (avoids divide-by-zero in dev) | Direct |
 | Overflow behavior | Checked in debug, unchecked in release | Unchecked |
 | Readability and safety | High | Low |
@@ -474,7 +474,7 @@ Now that we’ve compared Swift and C in terms of memory and cycle costs, let’
 
 ## How to Setup Embedded Swift
 
-In this section, we'll walk through how to configure and use Embedded Swift for development on STM32 microcontrollers. STM32 is a popular family of ARM Cortex-M–based microcontrollers, commonly used in industrial, consumer, and IoT applications.
+In this section, we'll walk through how to configure and use Embedded Swift for development on STM32 microcontrollers. STM32 is a popular family of ARM Cortex-M-based microcontrollers, commonly used in industrial, consumer, and IoT applications.
 
 ::: note Prerequisites
 
@@ -808,7 +808,7 @@ There are a number of emerging use cases for embedded Swift. For example, Swift�
 
 The automotive sector is also exploring Swift for infotainment systems, driver assistance features, and safety-critical logic (where deterministic execution and safety matter).
 
-Swift’s expressive syntax and compile-time safety make it suitable for industrial automation – think real-time control loops, sensor fusion systems, and edge devices in smart manufacturing.
+Swift’s expressive syntax and compile-time safety make it suitable for industrial automation - think real-time control loops, sensor fusion systems, and edge devices in smart manufacturing.
 
 It’s also useful for medical devices, as it aligns well with strict medical regulations around memory safety, type guarantees, and predictable resource usage.
 

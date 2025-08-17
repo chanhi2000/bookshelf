@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Facade
-description: Article(s) > C# Design Patterns – Facade
+title: C# Design Patterns - Facade
+description: Article(s) > C# Design Patterns - Facade
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Facade
+      content: Article(s) > C# Design Patterns - Facade
     - property: og:description
-      content: C# Design Patterns – Facade
+      content: C# Design Patterns - Facade
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/facade.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/facade/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Facade"
+  name="C# Design Patterns - Facade"
   desc="In this article we are going the describe the Facade Pattern and what difference does it make in our code, as well as its implementation."
   url="https://code-maze.com/facade/"
   logo="/assets/image/code-maze.com/favicon.png"

@@ -54,7 +54,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Safari Content Blocking in iOS: a tutorial by example – Hacking with Swift",
+  "title": "Safari Content Blocking in iOS: a tutorial by example - Hacking with Swift",
   "desc": "Safari Content Blocking in iOS: a tutorial by example",
   "link": "https://hackingwithswift.com/safari-content-blocking-ios9",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -78,7 +78,7 @@ One of the new features that has been introduced is the ability to write extensi
 
 First I'll talk about what Apple has actually introduced, then I'll walk you through how to create your own content blocker for iOS 9, and then I want to talk a little about what it means for ad blockers.
 
-But before any of that, I want to make one thing clear: I'm not taking a stance for or against ad blockers in this tutorial. You get to do what you want on your computer, and you live with the consequences. Hacking with Swift has its running costs paid for using very unobtrusive adverts, so obviously I hope that if you do use an ad blocker you choose to whitelist this site, but if you block the ads here then that's your call – I'm just happy my work is useful to you!
+But before any of that, I want to make one thing clear: I'm not taking a stance for or against ad blockers in this tutorial. You get to do what you want on your computer, and you live with the consequences. Hacking with Swift has its running costs paid for using very unobtrusive adverts, so obviously I hope that if you do use an ad blocker you choose to whitelist this site, but if you block the ads here then that's your call - I'm just happy my work is useful to you!
 
 ---
 
@@ -88,15 +88,15 @@ Safari for OS X has an extensions system where developers could use JavaScript a
 
 In the case of AdBlock Plus, probably the most popular ad blocking extension in the world, they went further: the extension injects a giant stylesheet into the web browser for every HTML frame on a site. This adjusted layouts and made absolutely certain that ads were gone and that the page didn't have massive holes in.
 
-Blocking ads saves a lot of bandwidth, and also saves a lot of CPU time and RAM: no more Flash animations, no more auto-playing movies, and no more fixed skyscraper adverts that cause web page scrolling to stutter. But the AdBlock Plus rules are so complicated – almost 50,000 of them – that it would often take far more RAM to browse a page with AdBlock turned on than with it turned off. You can read a detailed discussion of [<FontIcon icon="fa-brands fa-firefox"/>why AdBlock Plus is slow](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/) if you are so inclined.
+Blocking ads saves a lot of bandwidth, and also saves a lot of CPU time and RAM: no more Flash animations, no more auto-playing movies, and no more fixed skyscraper adverts that cause web page scrolling to stutter. But the AdBlock Plus rules are so complicated - almost 50,000 of them - that it would often take far more RAM to browse a page with AdBlock turned on than with it turned off. You can read a detailed discussion of [<FontIcon icon="fa-brands fa-firefox"/>why AdBlock Plus is slow](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/) if you are so inclined.
 
 This was never going to work on mobile: although they definitely succeed in blocking adverts, the performance cost of ad blockers is so high to make it unworkably slow on mobile. Plus, the very nature of ad blockers requires the ad block extension to know every page you're visiting and what you did there, which is hardly a pleasing thing to think about.
 
-So, Apple introduced a solution: content blocking Safari extensions. They introduce a way to programmatically determine what websites users can visit and what content can be shown, but using a dramatically new model that offers significant performance enhancements and – best of all – absolute user privacy. It's such an improvement that they are immediately making it available on OS X, replacing the existing `onBeforeLoad` system.
+So, Apple introduced a solution: content blocking Safari extensions. They introduce a way to programmatically determine what websites users can visit and what content can be shown, but using a dramatically new model that offers significant performance enhancements and - best of all - absolute user privacy. It's such an improvement that they are immediately making it available on OS X, replacing the existing `onBeforeLoad` system.
 
 ::: info Apple has not announced ad blocking in iOS 9.
 
-It *has* announced a new method of filtering data that could, with vast amounts of work, be used to build an ad blocking system. Of course, the modern definition of "one man year" is "365 Reddit users working overnight," so even the vast amounts of work might turn out to be trivial if massively crowdsourced – we'll have to see.
+It *has* announced a new method of filtering data that could, with vast amounts of work, be used to build an ad blocking system. Of course, the modern definition of "one man year" is "365 Reddit users working overnight," so even the vast amounts of work might turn out to be trivial if massively crowdsourced - we'll have to see.
 
 :::
 
@@ -112,7 +112,7 @@ I'm not going to say any more about the Daily Mail because you're here for the c
 
 <VidStack src="youtube/r9dqNTTdYKY" />
 
-Still here? OK. We're going to write an extension that blocks the Daily Mail, and it's going to be so trivial that you'll probably want to create your own content blocker straight away. No, seriously: Apple really did an incredible job with this technology, so I expect to see a variety of content blockers ready by iOS 9 launch day – if yours is one, [<FontIcon icon="fa-brands fa-x-twitter"/>let me know: @twostraws on Twitter](http://x.com/twostraws)!
+Still here? OK. We're going to write an extension that blocks the Daily Mail, and it's going to be so trivial that you'll probably want to create your own content blocker straight away. No, seriously: Apple really did an incredible job with this technology, so I expect to see a variety of content blockers ready by iOS 9 launch day - if yours is one, [<FontIcon icon="fa-brands fa-x-twitter"/>let me know: @twostraws on Twitter](http://x.com/twostraws)!
 
 ::: warning
 
@@ -122,9 +122,9 @@ You need to install Xcode 7, which is currently in beta. Amazingly, you don't ne
 
 Fire up Xcode, then create a new iOS project using the Single View App template. Click Next and name it NoMoreMail and choose any device you like, then click Next and Create.
 
-Safari Content Blockers are written almost entirely in JSON, which means we need no Swift code and no storyboard. But we do need to create a new target for our extension – this is because it lives as separate binary code inside your app bundle. So, go to File > New > Target, then choose iOS > Application Extension > Content Blocker Extension and click Next. For Product Name enter "ContentBlocker", then click Finish.
+Safari Content Blockers are written almost entirely in JSON, which means we need no Swift code and no storyboard. But we do need to create a new target for our extension - this is because it lives as separate binary code inside your app bundle. So, go to File > New > Target, then choose iOS > Application Extension > Content Blocker Extension and click Next. For Product Name enter "ContentBlocker", then click Finish.
 
-When you create any kind of extension in Xcode, you'll be asked whether you want to activate the new scheme – an alert saying "Activate Content Blocker scheme?" will appear. Please click Cancel, otherwise it gets a little fussy deploying the app.
+When you create any kind of extension in Xcode, you'll be asked whether you want to activate the new scheme - an alert saying "Activate Content Blocker scheme?" will appear. Please click Cancel, otherwise it gets a little fussy deploying the app.
 
 On the left of the Xcode window you should need see a yellow folder called "ContentBlocker", and if you expand that you'll see three files:
 
@@ -151,13 +151,13 @@ The first symbol, `[`, symbolises the start of an array. The second symbol, `{`,
 
 I'm not going to claim that JSON is easy to read, but at least the default example uses lots of whitespace so you can see what's going on: this rule will block one particular example image.
 
-Press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app. The iOS Simulator will launch, and you'll be left staring at a blank screen – or at least you ought to be. My Xcode 7 beta is a bit temperamental and sometimes I need to <kbd>Cmd</kbd>+<kbd>R</kbd> again after five seconds or so.
+Press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app. The iOS Simulator will launch, and you'll be left staring at a blank screen - or at least you ought to be. My Xcode 7 beta is a bit temperamental and sometimes I need to <kbd>Cmd</kbd>+<kbd>R</kbd> again after five seconds or so.
 
 Anyway, that white screen is your app. We don't care about the app, because that's a whole other world. Of course, if you want to [learn how to make apps for iPhone and iPad](https://hackingwithswift.com) you've come to the right site!
 
 Instead, I want you to press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> in the iOS Simulator to return to the home screen. Now swipe to the left to find the Settings app, then choose Safari > Content Blockers and you should see NoMoreMail listed in there. It's off by default, but just flick the switch next to it and the content blocker becomes active. What's more, it becomes active inside Safari, and inside any apps that use [the new iOS 9 `SFSafariViewController`](/hackingwithswift.com/read/32/overview.md).
 
-When you flicked that switch, iOS animated it from white to green. But behind the scenes a huge amount more happened: it ran your extension, fetched out the blockerList.json file, and compiled it into an optimized form representing all your rules. That optimized form is what's given to Safari, which is why this new model is so much faster – extensions don't link into Safari at all, they just provide rules once, up front, then let Safari do the rest.
+When you flicked that switch, iOS animated it from white to green. But behind the scenes a huge amount more happened: it ran your extension, fetched out the blockerList.json file, and compiled it into an optimized form representing all your rules. That optimized form is what's given to Safari, which is why this new model is so much faster - extensions don't link into Safari at all, they just provide rules once, up front, then let Safari do the rest.
 
 This should also show you how Apple has managed to introduce content blockers without compromising on privacy: apps tell Safari the kind of content that should be blocked, but they do it indirectly and the communication only ever flows one way: apps have no knowledge of any user behavior whatsoever. Again, just in case anyone from Apple is reading this: you did a great job!
 
@@ -199,7 +199,7 @@ This is a bit like killing a fly by beating it to death with a loaded Uzi, but i
 
 So, press <kbd>Cmd</kbd>+<kbd>R</kbd> to launch your app, then press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> to go to Settings, then find and toggle your content blocker in the Safari settings. Remember: you need to do this every time you want iOS to re-read your blockerList.json file.
 
-And now to take a small risk: launch Safari and go to [<FontIcon icon="fas fa-globe"/>dailymail.co.uk](www.dailymail.co.uk). If you've followed the steps above correctly, you'll see a blank page – Safari will simply refuse to load the page.
+And now to take a small risk: launch Safari and go to [<FontIcon icon="fas fa-globe"/>dailymail.co.uk](www.dailymail.co.uk). If you've followed the steps above correctly, you'll see a blank page - Safari will simply refuse to load the page.
 
 This is of course a huge victory in itself, but it's not perfect. For example, a legitimate URL like http://theguardian.com/media/dailymail leads to a page on The Guardian discussing the Daily Mail, which might be of interest to you. Of course, if you're perfectly happy nuking the Daily Mail from all parts of the mobile web, then stop here!
 
@@ -236,7 +236,7 @@ This is a particularly easy example to work with, because you don't need much in
 
 CSS selectors let you work with element names, IDs, types and attributes, and we want to focus on the last two: we want to write a CSS selector that matches any web link that points to the Daily Mail.
 
-If you're a web developer you'll know you can create some very powerful selectors indeed, but our needs are quite simple – replace your current blockerList.json file with this:
+If you're a web developer you'll know you can create some very powerful selectors indeed, but our needs are quite simple - replace your current blockerList.json file with this:
 
 ```json
 [
@@ -254,13 +254,13 @@ If you're a web developer you'll know you can create some very powerful selector
 
 That matches all `a` page elements that have a `href` attribute containing the string "www.dailymail". It uses the `.*` URL filter, which means it applies to all websites. Then it uses the `css-display-none` action type to hide any elements that match the selector.
 
-You're done! Try searching for "daily mail" in Google and you'll see all the links are gone – I hope you'll agree this stuff is as easy as it could be!
+You're done! Try searching for "daily mail" in Google and you'll see all the links are gone - I hope you'll agree this stuff is as easy as it could be!
 
-It's worth adding that there are other ways to be directed to a website than through clicking hyperlinks, so if you want to block a particular site you should block it and its links together – do both rules, not just one.
+It's worth adding that there are other ways to be directed to a website than through clicking hyperlinks, so if you want to block a particular site you should block it and its links together - do both rules, not just one.
 
 If you want to try more advanced CSS selectors, I suggest you take advantage of Safari's developer tools. Launch Safari then look for the Develop menu item. If you don't see it, choose Safari > Preferences, then click the Advanced button and select "Show Develop menu in menu bar".
 
-From that Develop menu bar you should see Simulator then the name of the web page the simulator is currently looking at in Safari/iOS. If you click that, Safari/Mac will show you all the HTML in the Safari/iOS page, and you can hover your mouse over various page elements to see them highlighted in the iOS Simulator – it's a great way to find elements you want to block, then look for a good CSS selector.
+From that Develop menu bar you should see Simulator then the name of the web page the simulator is currently looking at in Safari/iOS. If you click that, Safari/Mac will show you all the HTML in the Safari/iOS page, and you can hover your mouse over various page elements to see them highlighted in the iOS Simulator - it's a great way to find elements you want to block, then look for a good CSS selector.
 
 ---
 
@@ -268,17 +268,17 @@ From that Develop menu bar you should see Simulator then the name of the web pag
 
 Safari content blocking is a huge innovation: the fact that the system can optimize the rules ahead of time rather than trying to interact with an extension is a huge win for performance. Then of course there's privacy: no one needs to know what web pages you visit, which is just how it should be.
 
-But – and this is a huge but – it's not quite good enough to implement AdBlock Plus. The developers of AdBlock Plus have posted a blog entry [<FontIcon icon="fas fa-globe"/>explaining why the implementation is not sufficient for their purposes](https://adblockplus.org/blog/content-blocking-in-safari-9-and-ios-9-good-news-or-the-death-knell-of-ad-blocking-on-safari), but it's not a huge surprise - the content blocking system is a complete re-engineering of what's come before, so if AdBlock Plus is going to exist on iOS 9 they will have to re-engineer as well. Not impossible, but not easy either.
+But - and this is a huge but - it's not quite good enough to implement AdBlock Plus. The developers of AdBlock Plus have posted a blog entry [<FontIcon icon="fas fa-globe"/>explaining why the implementation is not sufficient for their purposes](https://adblockplus.org/blog/content-blocking-in-safari-9-and-ios-9-good-news-or-the-death-knell-of-ad-blocking-on-safari), but it's not a huge surprise - the content blocking system is a complete re-engineering of what's come before, so if AdBlock Plus is going to exist on iOS 9 they will have to re-engineer as well. Not impossible, but not easy either.
 
 Complicating things somewhat is that Apple has said "if the rule compiler detects that a set of rules would negatively impact user experience, it refuses to load them and returns an error." Remember that site I linked to that said AdBlock Plus was slow? Yeah, that. Helpfully, one of the WebKit engineers confirmed to me that they expect to allow 50,000(!) rules per extension, and that's a rule that applies across all devices that run iOS 9.
 
-Keep in mind we're only in the early days of iOS 9 beta testing, and Apple are likely to make changes in future betas. I don't know whether they will implement the changes AdBlock Plus are asking for, but I feel confident they will continue to work on performance – no one wants their Safari web browser to run slowly because three or four content blockers are running, so I think it likely Apple will continue to push hard for more optimizations.
+Keep in mind we're only in the early days of iOS 9 beta testing, and Apple are likely to make changes in future betas. I don't know whether they will implement the changes AdBlock Plus are asking for, but I feel confident they will continue to work on performance - no one wants their Safari web browser to run slowly because three or four content blockers are running, so I think it likely Apple will continue to push hard for more optimizations.
 
 That's it from me. If you have any questions or comments, you can [<FontIcon icon="fa-brands fa-x-twitter"/>find me on Twitter: @twostraws](http://x.com/twostraws). If you'd like to read more, here are some links that are likely to be useful:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -288,7 +288,7 @@ That's it from me. If you have any questions or comments, you can [<FontIcon ico
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "/hackingwithswift.com/swift2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",

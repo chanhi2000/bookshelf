@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Entity Framework Core Relationships – Convention, Data Annotations and Fluent API
-description: Article(s) > Entity Framework Core Relationships – Convention, Data Annotations and Fluent API
+title: Entity Framework Core Relationships - Convention, Data Annotations and Fluent API
+description: Article(s) > Entity Framework Core Relationships - Convention, Data Annotations and Fluent API
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > Entity Framework Core Relationships – Convention, Data Annotations and Fluent API
+      content: Article(s) > Entity Framework Core Relationships - Convention, Data Annotations and Fluent API
     - property: og:description
-      content: Entity Framework Core Relationships – Convention, Data Annotations and Fluent API
+      content: Entity Framework Core Relationships - Convention, Data Annotations and Fluent API
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/efcore-relationships.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/efcore-relationships/banner.png
 ---
 
 <SiteInfo
-  name="Entity Framework Core Relationships – Convention, Data Annotations and Fluent API"
+  name="Entity Framework Core Relationships - Convention, Data Annotations and Fluent API"
   desc="In this article, we are going to learn about EF Core Relationships and different ways to accomplish relationship creation."
   url="https://code-maze.com/efcore-relationships/"
   logo="/assets/image/code-maze.com/favicon.png"

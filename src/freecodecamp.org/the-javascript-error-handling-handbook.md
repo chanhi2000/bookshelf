@@ -57,7 +57,7 @@ JavaScript has been a popular programming language for over three decades. We bu
 
 Being a loosely typed language, JavaScript imposes the challenge of handling type safety correctly. TypeScript is useful for managing types, but we still need to handle runtime errors efficiently in our code.
 
-Errors like `TypeError`, `RangeError`, `ReferenceError` are probably pretty familiar to you if you’ve been building with JavaScript for a while. All these errors may cause invalid data, bad page transitions, unwanted results, or even the entire application to crash – none of which will make end users happy!
+Errors like `TypeError`, `RangeError`, `ReferenceError` are probably pretty familiar to you if you’ve been building with JavaScript for a while. All these errors may cause invalid data, bad page transitions, unwanted results, or even the entire application to crash - none of which will make end users happy!
 
 In this handbook, you’ll learn everything you need to know about error handling in JavaScript. We will start with an understanding of errors, their types, and occurrences. Then you’ll learn how to deal with these errors so that they don’t cause a bad user experience. At the end, you’ll also learn to build your own custom error types and clean-up methodologies to handle your code flow better for optimizations and performance.
 
@@ -100,17 +100,17 @@ eval("var x = ;"); // Uncaught EvalError
 
 Here is the list of possible runtime errors you may encounter, along with their descriptions:
 
-- `ReferenceError` – Occurs when trying to access a variable that is not defined.
-- `TypeError` – Occurs when an operation is performed on a value of the wrong type.
-- `RangeError` – Occurs when a value is outside the allowable range.
-- `SyntaxError` – Occurs when there is a mistake in the syntax of the JavaScript code.
-- `URIError` – Occurs when an incorrect URI function is used in encoding and decoding URIs.
-- `EvalError` – Occurs when there is an issue with the eval() function.
-- `InternalError` – Occurs when the JavaScript engine runs into an internal limit (stack overflow).
-- `AggregateError` – Introduced in ES2021, used for handling multiple errors at once.
-- `Custom Errors` – These are user-defined errors, and we will learn how to create and use them soon.
+- `ReferenceError` - Occurs when trying to access a variable that is not defined.
+- `TypeError` - Occurs when an operation is performed on a value of the wrong type.
+- `RangeError` - Occurs when a value is outside the allowable range.
+- `SyntaxError` - Occurs when there is a mistake in the syntax of the JavaScript code.
+- `URIError` - Occurs when an incorrect URI function is used in encoding and decoding URIs.
+- `EvalError` - Occurs when there is an issue with the eval() function.
+- `InternalError` - Occurs when the JavaScript engine runs into an internal limit (stack overflow).
+- `AggregateError` - Introduced in ES2021, used for handling multiple errors at once.
+- `Custom Errors` - These are user-defined errors, and we will learn how to create and use them soon.
 
-Have you noticed that all the code examples we used above result in a message explaining what the error is about? If you look at those messages closely, you will find a word called `Uncaught`. It means the error occurred, but it was not caught and managed. That’s exactly what we will now go for – so you know how to handle these errors.
+Have you noticed that all the code examples we used above result in a message explaining what the error is about? If you look at those messages closely, you will find a word called `Uncaught`. It means the error occurred, but it was not caught and managed. That’s exactly what we will now go for - so you know how to handle these errors.
 
 ---
 
@@ -130,7 +130,7 @@ try {
 
 ### The `try` Block
 
-The `try` block contains the code – the business logic – which might throw an error. Developers always want their code to be error-free. But at the same time, you should be aware that the code might throw an error for several possible reasons, like:
+The `try` block contains the code - the business logic - which might throw an error. Developers always want their code to be error-free. But at the same time, you should be aware that the code might throw an error for several possible reasons, like:
 
 - Parsing JSON
 - Running API logic
@@ -213,7 +213,7 @@ divideNumbers(15, 0);
 
 ### Handling JSON
 
-Often, you will get JSON as a response to an API call. You need to parse this JSON in your JavaScript code to extract the values. What if the API sends you some malformed JSON by mistake? You cann’t afford to let your user interface crash because of this. You need to handle it gracefully – and here comes the try…catch block again to the rescue:
+Often, you will get JSON as a response to an API call. You need to parse this JSON in your JavaScript code to extract the values. What if the API sends you some malformed JSON by mistake? You cann’t afford to let your user interface crash because of this. You need to handle it gracefully - and here comes the try…catch block again to the rescue:
 
 ```js
 function parseJSONSafely(str) {
@@ -235,7 +235,7 @@ Without `try`...`catch`, the second call will crash the app.
 
 ## Anatomy of the Error Object
 
-Getting errors in programming can be a scary feeling. But `Error`s in JavaScript aren’t just some scary, annoying messages – they are structured objects that carry a lot of helpful information about what went wrong, where, and why.
+Getting errors in programming can be a scary feeling. But `Error`s in JavaScript aren’t just some scary, annoying messages - they are structured objects that carry a lot of helpful information about what went wrong, where, and why.
 
 As developers, we need to understand the anatomy of the `Error` object to help us better with faster debugging and smarter recovery in production-level application issues.
 

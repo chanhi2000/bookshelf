@@ -141,8 +141,8 @@ You can also omit the host port, so the container port will be randomly assigned
 
 Benefits of omitting the host port:
 
-- Avoids port conflicts – for example when you run many services on the same host.
-- Enhances Portability – your configurations become less dependent on the specific host environment.
+- Avoids port conflicts - for example when you run many services on the same host.
+- Enhances Portability - your configurations become less dependent on the specific host environment.
 
 ```yaml :collaspsed-lines title=".github/workflows/test.yaml"
 jobs:
@@ -178,7 +178,7 @@ Running on the runner machine:
 
 Prior to running the integration tests that connect to your provisioned containers, you’ll often need to make sure that the services are ready. You can do this by specifying [<FontIcon icon="fa-brands fa-docker"/>docker create options](https://docs.docker.com/reference/cli/docker/container/create/#options) such as **health-cmd**.
 
-This is very important – otherwise the services may not be ready when you start accessing them.
+This is very important - otherwise the services may not be ready when you start accessing them.
 
 In the case of MongoDB and Redis, these will be the following:
 

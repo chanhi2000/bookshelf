@@ -88,7 +88,7 @@ struct ContentView: View {
 
 When that code runs, the user will see “Detail 8”, and can tap back to “Detail 4”, then “Detail 1”, until eventually reaching the list of numbers.
 
-This approach is powerful, because we can at any point modify the navigation stack to push a custom view on there – it's a simple array, so we can append items, or insert them, remove them, or whatever else we need. In this code sample the path array starts empty, then gets added to over time by using the `List` or clicking buttons:
+This approach is powerful, because we can at any point modify the navigation stack to push a custom view on there - it's a simple array, so we can append items, or insert them, remove them, or whatever else we need. In this code sample the path array starts empty, then gets added to over time by using the `List` or clicking buttons:
 
 ```swift
 struct ContentView: View {
@@ -120,7 +120,7 @@ struct ContentView: View {
 
 ::: tip
 
-This means you can restore the full state of an app – including its full navigation state – by serializing your navigation path.
+This means you can restore the full state of an app - including its full navigation state - by serializing your navigation path.
 
 :::
 
@@ -157,13 +157,13 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-use-programmatic-navigation-in-swiftui-3.zip)
 
-You can adjust your path however you want – we appended a single value there, but you could append multiple values at once if needed, and something like the old UIKit “pop to root view controller” becomes just as simple as clearing everything from your path – something like `navPath.removeLast(navPath.count)` should do the trick.
+You can adjust your path however you want - we appended a single value there, but you could append multiple values at once if needed, and something like the old UIKit “pop to root view controller” becomes just as simple as clearing everything from your path - something like `navPath.removeLast(navPath.count)` should do the trick.
 
 ---
 
 ## Supporting iOS 15 and earlier
 
-There are two ways of doing this, both of which rely on initializers for `NavigationLink`. The first is binding the `NavigationLink` to a Boolean state – when that Boolean becomes true the navigation will happen immediately, and when it becomes false again the new view will be dismissed.
+There are two ways of doing this, both of which rely on initializers for `NavigationLink`. The first is binding the `NavigationLink` to a Boolean state - when that Boolean becomes true the navigation will happen immediately, and when it becomes false again the new view will be dismissed.
 
 SwiftUI does require that we pass some sort of view to `NavigationLink` even when doing programmatic navigation. You'll probably want to use `EmptyView` to show nothing at all, for example here's a complete example of programmatic navigation, where I'm toggling the Boolean on a button press:
 
@@ -190,7 +190,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-programmatic-navigation-in-swiftui-1~dark.mp4" />
 
-The advantage to this approach over a simple `NavigationLink` is that our button can do any amount of other work before triggering the programmatic navigation – maybe you want to save some data, or authenticate the user, etc.
+The advantage to this approach over a simple `NavigationLink` is that our button can do any amount of other work before triggering the programmatic navigation - maybe you want to save some data, or authenticate the user, etc.
 
 If you have several possible destinations, you can bind more than one `NavigationLink` to some selection state, giving each one a unique tag. When you update your selection state to match one of those tags will cause the appropriate `NavigationLink` to activate, which gives you multi-destination programmatic navigation without having lots of Booleans.
 

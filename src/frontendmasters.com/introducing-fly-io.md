@@ -308,7 +308,7 @@ min_machines_running = 0
 
 That line allows us to tell Fly to always keep a minimum number of machines running, no matter how minimal your current traffic is. Setting it to zero allows for no machines to be running, which means your next visitor will see a slow response as the first machine spins up.
 
-You may have noticed above that Fly spun up two machines initially, even though there was no traffic at all. It does this by default to give your app a higher availability, that is, in case anything happens to the one machine, the other will (hopefully) still be up and running. If you don’t want or need this, you can prevent it by passing`--ha=false`when you run`fly launch`or`fly deploy`(or you can just kill one of the machines in the dashboard – Fly will not re-create it on subsequent deploys).
+You may have noticed above that Fly spun up two machines initially, even though there was no traffic at all. It does this by default to give your app a higher availability, that is, in case anything happens to the one machine, the other will (hopefully) still be up and running. If you don’t want or need this, you can prevent it by passing`--ha=false`when you run`fly launch`or`fly deploy`(or you can just kill one of the machines in the dashboard - Fly will not re-create it on subsequent deploys).
 
 ### Machines won’t bill you if they’re not running
 

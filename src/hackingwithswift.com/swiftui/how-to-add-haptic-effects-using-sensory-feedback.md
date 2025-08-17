@@ -57,7 +57,7 @@ next: /hackingwithswift.com/swiftui/how-to-add-a-gesture-recognizer-to-a-view.md
 
 SwiftUI's `sensoryFeedback()` modifier provides built-in support for a range of simple haptics, which means we can create vibration effects for success, failure, selection, impacts, and more.
 
-To trigger feedback, attach the `sensoryFeedback()` to any view, telling it what kind of effect to make and what the trigger should be – when the effect should be played. SwiftUI will monitor the trigger value, and run your haptic effect whenever it changes.
+To trigger feedback, attach the `sensoryFeedback()` to any view, telling it what kind of effect to make and what the trigger should be - when the effect should be played. SwiftUI will monitor the trigger value, and run your haptic effect whenever it changes.
 
 For example, if you had a button that marks a task as being complete, you could play a haptic when completion happens:
 

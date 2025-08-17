@@ -44,7 +44,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-4.jpg
 ---
 
 <SiteInfo
-  name="Learn what's new in Swift 4.1 with a playground – Hacking with Swift"
+  name="Learn what's new in Swift 4.1 with a playground - Hacking with Swift"
   desc="See the code, run the code, edit the code"
   url="https://hackingwithswift.com/articles/70/learn-whats-new-in-swift-4-1-with-a-playground-with-a-playground"
   logo="https://hackingwithswift.com/favicon.svg"

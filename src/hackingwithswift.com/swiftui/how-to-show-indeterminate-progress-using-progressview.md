@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI's `ProgressView` can be created without any sort of binding attached, which will cause them to become indeterminate – they will show a spinner that animates forever, rather than showing some sort of clear progress.
+SwiftUI's `ProgressView` can be created without any sort of binding attached, which will cause them to become indeterminate - they will show a spinner that animates forever, rather than showing some sort of clear progress.
 
 All it takes is code like this:
 

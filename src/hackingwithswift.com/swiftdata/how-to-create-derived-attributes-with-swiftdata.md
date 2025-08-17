@@ -126,7 +126,7 @@ SwiftData properties do not support `willSet` or `didSet` property observers, so
 
 :::
 
-A third option is to create a new `@Transient` attribute for the values you want. Unlike regular SwiftData properties, `@Transient` properties *do* support `willSet` and `didSet` property observers, but honestly this is more trouble than it’s worth – you’d need transient properties for everything you want to watch, so you’re creating a huge amount of work for yourself.
+A third option is to create a new `@Transient` attribute for the values you want. Unlike regular SwiftData properties, `@Transient` properties *do* support `willSet` and `didSet` property observers, but honestly this is more trouble than it’s worth - you’d need transient properties for everything you want to watch, so you’re creating a huge amount of work for yourself.
 
 Let’s hope we either get regular `didSet` and `willSet` support soon, or, better yet, actual derived attributes implemented at the database level…
 

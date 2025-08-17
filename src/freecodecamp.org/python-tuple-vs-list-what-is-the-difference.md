@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Python Tuple VS List – What is the Difference?"
-description: "Article(s) > Python Tuple VS List – What is the Difference?"
+title: "Python Tuple VS List - What is the Difference?"
+description: "Article(s) > Python Tuple VS List - What is the Difference?"
 icon: fa-brands fa-python
 category:
   - Python
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Python Tuple VS List – What is the Difference?"
+      content: "Article(s) > Python Tuple VS List - What is the Difference?"
     - property: og:description
-      content: "Python Tuple VS List – What is the Difference?"
+      content: "Python Tuple VS List - What is the Difference?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-tuple-vs-list-what-is-the-difference.html
 prev: /programming/py/articles/README.md
@@ -59,7 +59,7 @@ cover: https://freecodecamp.org/news/content/images/2021/09/pexels-christina-mor
 ---
 
 <SiteInfo
-  name="Python Tuple VS List – What is the Difference?"
+  name="Python Tuple VS List - What is the Difference?"
   desc="Tuples and lists are two of the four available built-in data types that you can use to store data in Python. They are both useful and they might seem similar at first glance. But they have significant differences and each one is best used in differen..."
   url="https://freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -378,7 +378,7 @@ Because of this ability and the guarantee that data is never changed, tuples can
 
 On the other hand, you can easily change and modify lists because lists are **mutable**.
 
-This means that lists are changeable – you can add items to a list, remove items from a list, move items around and switch them easily in a list.
+This means that lists are changeable - you can add items to a list, remove items from a list, move items around and switch them easily in a list.
 
 Lists are useful when you want your data to be flexible, or not always stay the same, and be modified when needed.
 
@@ -566,7 +566,7 @@ Thanks for reading and happy learning!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Python Tuple VS List – What is the Difference?",
+  "title": "Python Tuple VS List - What is the Difference?",
   "desc": "Tuples and lists are two of the four available built-in data types that you can use to store data in Python. They are both useful and they might seem similar at first glance. But they have significant differences and each one is best used in differen...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-tuple-vs-list-what-is-the-difference.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,5 +110,5 @@ default:
 
 One thing you should know is that `switch/case` blocks in Swift don't fall through like they do in some other languages you might have seen. If you're used to writing `break` in your `case` blocks, you should know this isn't needed in Swift. 
 
-Instead, you use the `fallthrough` keyword to make one case fall into the next – it's effectively the opposite. Of course, if you have no idea what any of this means, that's even better: don't worry about it!
+Instead, you use the `fallthrough` keyword to make one case fall into the next - it's effectively the opposite. Of course, if you have no idea what any of this means, that's even better: don't worry about it!
 

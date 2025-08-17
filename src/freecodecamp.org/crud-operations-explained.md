@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "CRUD Operations – What is CRUD?"
-description: "Article(s) > CRUD Operations – What is CRUD?"
+title: "CRUD Operations - What is CRUD?"
+description: "Article(s) > CRUD Operations - What is CRUD?"
 icon: fas fa-computer
 category:
   - Engineering
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > CRUD Operations – What is CRUD?"
+      content: "Article(s) > CRUD Operations - What is CRUD?"
     - property: og:description
-      content: "CRUD Operations – What is CRUD?"
+      content: "CRUD Operations - What is CRUD?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/crud-operations-explained.html
 prev: /academics/coen/articles/README.md
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/2022/06/crud.png
 ---
 
 <SiteInfo
-  name="CRUD Operations – What is CRUD?"
+  name="CRUD Operations - What is CRUD?"
   desc="Despite being commonly pronounced /krʌd/, CRUD is not a word. It’s an abbreviation that stands for Create, Read, Update, and Delete or Destroy. In this article, I will show you what CRUD means, and what the individual terms mean and do. I will also s..."
   url="https://freecodecamp.org/news/crud-operations-explained"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -60,7 +60,7 @@ In this article, I will show you what CRUD means, and what the individual terms 
 
 ## What is CRUD?
 
-CRUD refers to the four basic operations a software application should be able to perform – Create, Read, Update, and Delete.
+CRUD refers to the four basic operations a software application should be able to perform - Create, Read, Update, and Delete.
 
 In such apps, users must be able to **create data**, have access to the data in the UI by **reading** the data, **update** or **edit** the data, and **delete** the data.
 
@@ -68,7 +68,7 @@ In full-fledged applications, CRUD apps consist of 3 parts: an API (or server), 
 
 The API contains the code and methods, the database stores and helps the user retrieve the information, while the user interface helps users interact with the app.
 
-You can make a CRUD app with any of the programming languages out there. And the app doesn’t have to be full stack – you can make a CRUD app with client-side JavaScript.
+You can make a CRUD app with any of the programming languages out there. And the app doesn’t have to be full stack - you can make a CRUD app with client-side JavaScript.
 
 In fact, the app with which I will be showing you how create, read, update and delete operations work is made with client-side JavaScript.
 
@@ -148,8 +148,8 @@ This article showed you what CRUD means and what each individual operation in a 
 You can think about CRUD in this way:
 
 - You create a social account and fill in your information - `CREATE`
-- You get access to the information you entered and people can search for you – `READ`
-- You get a new job at Google and changed your employment status to employed – `UPDATE`
+- You get access to the information you entered and people can search for you - `READ`
+- You get a new job at Google and changed your employment status to employed - `UPDATE`
 - You get tired of social media toxicity and delete your account - `DELETE`
 
 To learn how you can make your own CRUD app, check out [this tutorial](/freecodecamp.org/learn-crud-operations-in-javascript-by-building-todo-app.md) by Joy Shaheb of freeCodeCamp.
@@ -159,7 +159,7 @@ Keep coding 👋
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "CRUD Operations – What is CRUD?",
+  "title": "CRUD Operations - What is CRUD?",
   "desc": "Despite being commonly pronounced /krʌd/, CRUD is not a word. It’s an abbreviation that stands for Create, Read, Update, and Delete or Destroy. In this article, I will show you what CRUD means, and what the individual terms mean and do. I will also s...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/crud-operations-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

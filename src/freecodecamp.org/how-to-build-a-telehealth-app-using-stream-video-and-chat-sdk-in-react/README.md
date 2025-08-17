@@ -59,12 +59,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752879185676/ab0574c
 
 <SiteInfo
   name="How to Build a Telehealth App Using Stream Video and Chat SDK in React"
-  desc="Remember when the COVID-19 pandemic moved everything online – doctor’s visits included – and staying home became the safest option?  That moment kicked off a massive shift in how healthcare gets delivered.  Telehealth became more than a workaround. I..."
+  desc="Remember when the COVID-19 pandemic moved everything online - doctor’s visits included - and staying home became the safest option?  That moment kicked off a massive shift in how healthcare gets delivered.  Telehealth became more than a workaround. I..."
   url="https://freecodecamp.org/news/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1752879185676/ab0574c8-d16b-41d0-8883-7df0f4bd0eb5.png"/>
 
-Remember when the COVID-19 pandemic moved everything online – doctor’s visits included – and staying home became the safest option?
+Remember when the COVID-19 pandemic moved everything online - doctor’s visits included - and staying home became the safest option?
 
 That moment kicked off a massive shift in how healthcare gets delivered.
 
@@ -195,7 +195,7 @@ Here’s a brief overview of what each package does:
 
 - bcryptjs: Encrypts user passwords for secure storage.
 - Cookie-parser: Handles cookies in your application.
-- CORS: Middleware that enables cross-origin requests – essential for frontend-backend communication.
+- CORS: Middleware that enables cross-origin requests - essential for frontend-backend communication.
 - dotenv: Loads environment variables from a <FontIcon icon="fas fa-file-lines"/>`.env` file into process.env.
 - Express: The core framework for building your server and API routes.
 - jsonwebtoken: Generates and verifies JWT tokens for authentication.
@@ -899,7 +899,7 @@ exports.login = catchAsync(async (req, res, next) => {
 
 `if (!user || !(await user.correctPassword(…))) {…}` checks if the user exists and if the password entered matches the one stored in the database (after hashing comparison). If either is wrong, it throws: `Incorrect email or password`.
 
-The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves – it sets the cookie to expire after a specific number of days defined in the <FontIcon icon="fas fa-file-lines"/>`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
+The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves - it sets the cookie to expire after a specific number of days defined in the <FontIcon icon="fas fa-file-lines"/>`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
 
 Finally, `res.cookie(...)` sends the token as a cookie attached to the HTTP response, enabling the client to store the token for authentication purposes.
 
@@ -1792,7 +1792,7 @@ export function MyUILayout() {
 
 And that’s a wrap!
 
-You’ve [<FontIcon icon="fas fa-globe"/>built a telehealth app](https://getstream.io/blog/telemedicine-app-development/) with secure video, real-time chat, and user authentication – all powered by Stream’s Chat and Video SDKs.
+You’ve [<FontIcon icon="fas fa-globe"/>built a telehealth app](https://getstream.io/blog/telemedicine-app-development/) with secure video, real-time chat, and user authentication - all powered by Stream’s Chat and Video SDKs.
 
 This foundation gives you the flexibility to expand further with features like appointment scheduling, patient history, or HIPPA-compliant file sharing.
 
@@ -1812,7 +1812,7 @@ Congratulations! You have successfully integrated Stream’s chat and video func
 ```component VPCard
 {
   "title": "How to Build a Telehealth App Using Stream Video and Chat SDK in React",
-  "desc": "Remember when the COVID-19 pandemic moved everything online – doctor’s visits included – and staying home became the safest option?  That moment kicked off a massive shift in how healthcare gets delivered.  Telehealth became more than a workaround. I...",
+  "desc": "Remember when the COVID-19 pandemic moved everything online - doctor’s visits included - and staying home became the safest option?  That moment kicked off a massive shift in how healthcare gets delivered.  Telehealth became more than a workaround. I...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

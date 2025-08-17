@@ -48,12 +48,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750697209688/e55bb45
 
 <SiteInfo
   name="Kubernetes Networking Tutorial: A Guide for Developers"
-  desc="Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system – like containers and services – to talk to each other. This tutorial will w..."
+  desc="Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system - like containers and services - to talk to each other. This tutorial will w..."
   url="https://freecodecamp.org/news/kubernetes-networking-tutorial-for-developers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1750697209688/e55bb451-1278-4004-ae3d-fd8bdbae47da.png"/>
 
-Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system – like containers and services – to talk to each other.
+Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system - like containers and services - to talk to each other.
 
 This tutorial will walk you through both the theory as well as some hands-on examples and best practices for mastering Kubernetes networking.
 
@@ -110,7 +110,7 @@ Because of this translation:
 1. External servers **only see** the router’s IP (203.0.113.5), not your laptop’s.
 2. Packets are “masqueraded” so multiple devices can share one public address.
 
-In contrast, Kubernetes pods communicate **without** this extra translation layer – each pod IP is “real” within the cluster, so no router-like step obscures who talked to whom.
+In contrast, Kubernetes pods communicate **without** this extra translation layer - each pod IP is “real” within the cluster, so no router-like step obscures who talked to whom.
 
 ### Example: E-Commerce Microservices
 
@@ -121,7 +121,7 @@ Consider an online store built as separate microservices, each running in its ow
 - **User Authentication Service**: 10.244.1.4
 - **Payment Processing Service**: 10.244.3.5
 
-When a shopper adds an item to their cart, the Shopping Cart Pod reaches out directly to the Product Catalog Pod at 10.244.1.2. Because there’s no NAT or external proxy in the data path, this communication is fast and reliable – which is crucial for delivering a snappy, real-time user experience.
+When a shopper adds an item to their cart, the Shopping Cart Pod reaches out directly to the Product Catalog Pod at 10.244.1.2. Because there’s no NAT or external proxy in the data path, this communication is fast and reliable - which is crucial for delivering a snappy, real-time user experience.
 
 ::: tip
 
@@ -149,7 +149,7 @@ Pods communicate directly without Network Address Translation (NAT). Packets ret
 
 #### 3. Direct Node-Pod Routing
 
-Nodes route traffic to pods without centralized gateways. Each node handles forwarding decisions locally (via CNI plugins), creating a flat L3 network. This avoids single points of failure and optimizes performance – cross-node traffic flows directly between nodes, not through proxies. Scalability is inherent, and adding nodes expands capacity linearly.
+Nodes route traffic to pods without centralized gateways. Each node handles forwarding decisions locally (via CNI plugins), creating a flat L3 network. This avoids single points of failure and optimizes performance - cross-node traffic flows directly between nodes, not through proxies. Scalability is inherent, and adding nodes expands capacity linearly.
 
 ### Challenges in Container Networking
 
@@ -157,7 +157,7 @@ Common challenges include managing dynamic IP addresses, securing communications
 
 #### Dynamic IP Management
 
-Pods are ephemeral – IPs change constantly during scaling, failures, or updates. Hard-coded IPs break, and DNS caching (with misconfigured TTLs) risks routing to stale endpoints. Solutions like CoreDNS dynamically track pod IPs via the Kubernetes API, while readiness probes ensure only live pods are advertised.
+Pods are ephemeral - IPs change constantly during scaling, failures, or updates. Hard-coded IPs break, and DNS caching (with misconfigured TTLs) risks routing to stale endpoints. Solutions like CoreDNS dynamically track pod IPs via the Kubernetes API, while readiness probes ensure only live pods are advertised.
 
 #### Secure Communication
 
@@ -535,7 +535,7 @@ Understanding these rules helps diagnose why traffic might not be reaching certa
 
 Every service in Kubernetes relies on DNS to map a human-friendly name (for example, `my-svc.default.svc.cluster.local`) to its ClusterIP. When pods come and go, DNS records must update quickly so clients never hit stale addresses.
 
-Kubernetes uses **CoreDNS** as a cluster DNS server. When you create a Service, an A record is added pointing to its ClusterIP. Endpoints (the pod IPs) are published as SRV (Service) records. If a pod crashes or is rescheduled, CoreDNS watches the Endpoints API and updates its records in near–real time.
+Kubernetes uses **CoreDNS** as a cluster DNS server. When you create a Service, an A record is added pointing to its ClusterIP. Endpoints (the pod IPs) are published as SRV (Service) records. If a pod crashes or is rescheduled, CoreDNS watches the Endpoints API and updates its records in near-real time.
 
 ::: important Key mechanics:
 
@@ -1327,7 +1327,7 @@ For more hands-on projects, follow and star this repository: [<FontIcon icon="ic
 ```component VPCard
 {
   "title": "Kubernetes Networking Tutorial: A Guide for Developers",
-  "desc": "Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system – like containers and services – to talk to each other. This tutorial will w...",
+  "desc": "Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system - like containers and services - to talk to each other. This tutorial will w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/kubernetes-networking-tutorial-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

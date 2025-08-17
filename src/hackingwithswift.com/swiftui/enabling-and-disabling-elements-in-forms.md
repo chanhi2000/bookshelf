@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI lets us disable any part of its forms or even the whole form, all by using the `disabled()` modifier. This takes a single Boolean that defines whether the element should be disabled or not. The form element's style automatically gets updated to reflect its status – buttons and toggles get grayed out, for example.
+SwiftUI lets us disable any part of its forms or even the whole form, all by using the `disabled()` modifier. This takes a single Boolean that defines whether the element should be disabled or not. The form element's style automatically gets updated to reflect its status - buttons and toggles get grayed out, for example.
 
 For example, this creates a form with two sections: one containing a toggle, and one containing a button that is enabled only when the toggle is on:
 
@@ -83,7 +83,7 @@ struct ContentView: View {
 
 As you can see, the button is disabled just by adding `disabled(agreedToTerms == false)` to the list of modifiers.
 
-Like many other SwiftUI modifiers, you can lift `disabled()` so that it's run on the section or even the whole form depending on what behavior you want – just move it to come after the section, for example.
+Like many other SwiftUI modifiers, you can lift `disabled()` so that it's run on the section or even the whole form depending on what behavior you want - just move it to come after the section, for example.
 
 ::: details Similar solutions…
 

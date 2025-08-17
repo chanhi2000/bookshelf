@@ -246,13 +246,13 @@ In the sketch, you begin by defining the pins for powering the sensor and readin
 
 The `getAverageReading` function powers on the sensor, takes multiple readings from the sensor, powers off the sensor, and returns the average of the readings taken. The function has three parameters:
 
-- `analogPin` – The analog input pin, which reads data from the sensor to the microcontroller.
-- `powerPin` – The pin used to power the sensor. The sensor is powered only when you want to take a reading.
-- `samples` – The number of readings taken from the sensor. This defaults to `10`. You take multiple readings as a way of filtering out noise in the sensor data.
+- `analogPin` - The analog input pin, which reads data from the sensor to the microcontroller.
+- `powerPin` - The pin used to power the sensor. The sensor is powered only when you want to take a reading.
+- `samples` - The number of readings taken from the sensor. This defaults to `10`. You take multiple readings as a way of filtering out noise in the sensor data.
 
 In the `setup` function, you begin by setting the baud rate, which is `9600` for Arduino UNO and differs across different microcontrollers. Then you set the digital pin `7` used to power the sensor as an output pin, and write a `LOW` to the sensor to ensure it is off at the start.
 
-Lastly, in the `loop` function, you get the average analog reading from the `getAverageReading` function and print it to the Serial Monitor. You should note that in the sketch, the readings are taken every 2 seconds – this delay should be longer in a practical application in order to improve the durability of the sensor.
+Lastly, in the `loop` function, you get the average analog reading from the `getAverageReading` function and print it to the Serial Monitor. You should note that in the sketch, the readings are taken every 2 seconds - this delay should be longer in a practical application in order to improve the durability of the sensor.
 
 ### Step 3: Record the Value for Dry Soil
 
@@ -270,7 +270,7 @@ You will use these recorded analog values for wet and dry soil in the subsequent
 
 ---
 
-## Example 1 – How to Determine Soil Moisture Level in Percentage from Analog Output
+## Example 1 - How to Determine Soil Moisture Level in Percentage from Analog Output
 
 In this example, you will learn how to read the analog data from the soil moisture sensor, convert the analog reading to a percentage value, and visually represent the moisture level using five LEDs.
 
@@ -391,16 +391,16 @@ void loop() {
 
 In the sketch, you start by defining the analog pin for reading data from the sensor and the digital pin for powering the sensor. You also define the following variables, which will be used in the code:
 
-- `ledPins[5]` – An array that stores the digital pins used to power each LED. The pins are arranged from the first LED to the last one. That is the visual display order from left to right.
-- `dryValue` – This variable stores the analog value recorded for dry soil during the calibration section.
-- `wetValue` – This variable stores the analog value recorded for wet soil during the calibration section.
-- `lastAnalogReading` – This variable stores the last reading taken by the sensor. You use this variable to log the actual analog reading to the Serial Monitor.
+- `ledPins[5]` - An array that stores the digital pins used to power each LED. The pins are arranged from the first LED to the last one. That is the visual display order from left to right.
+- `dryValue` - This variable stores the analog value recorded for dry soil during the calibration section.
+- `wetValue` - This variable stores the analog value recorded for wet soil during the calibration section.
+- `lastAnalogReading` - This variable stores the last reading taken by the sensor. You use this variable to log the actual analog reading to the Serial Monitor.
 
 The `getMoisturePercent` function powers on the sensor, takes multiple readings, powers off the sensor, calculates the average analog reading, represents the analog reading in percent, and returns the percent value. The function also saves the average analog reading to the `lastAnalogReading` variable. You can print it directly here, but this sketch saves it in a separate variable so that you can print it later in the `loop` function for readability.
 
 You can express the average analog reading in percentage with the `map(avgReading, dryValue, wetValue, 0, 100)` function. The function remaps the average reading stored in `avgReading` from the range of your calibration values `dryValue` and `wetValue` to a new range between `0` and `100` (where `0` is the driest and `100` is the wettest). You then use the `constrain` function to keep values within the `0` and `100` range.
 
-The `updateLEDBar` function displays the percent value using the LEDs. The `ledStates` array in the function stores the logic state of each LED. You begin by setting all LEDs off – that is, having a state `0`. The next bit of logic is a simple `if` statement where you turn on the required LEDs corresponding to a particular percent range by setting the elements in the array to `true` (equivalent to `1`). You end the function by writing the states in the `ledStates` to the pins in `ledPins`.
+The `updateLEDBar` function displays the percent value using the LEDs. The `ledStates` array in the function stores the logic state of each LED. You begin by setting all LEDs off - that is, having a state `0`. The next bit of logic is a simple `if` statement where you turn on the required LEDs corresponding to a particular percent range by setting the elements in the array to `true` (equivalent to `1`). You end the function by writing the states in the `ledStates` to the pins in `ledPins`.
 
 The `setup` function is pretty routine: you set the baud rate for serial communication, define input and output digital pins, and write a `LOW` to the digital output pins to ensure they are all turned off at the start.
 
@@ -435,14 +435,14 @@ You can also simulate the example on Tinkercad here:
 
 ---
 
-## Example 2 – How to Determine Soil Moisture State from Digital Output
+## Example 2 - How to Determine Soil Moisture State from Digital Output
 
 In the previous project, you learned how to read the analog data from the sensor and convert the value into a percentage. If your application requires a binary output, you can use the digital output pin. In this section, you'll learn how to use the digital output pin of the sensor.
 
 The digital output pin has only two states:
 
-- `LOW` – This state corresponds to 0V and is the output when the soil is wet, that is, the moisture level is above the set threshold.
-- `HIGH` – This state corresponds to 5V and is the output when the soil is dry, that is, the moisture level is below the threshold moisture level.
+- `LOW` - This state corresponds to 0V and is the output when the soil is wet, that is, the moisture level is above the set threshold.
+- `HIGH` - This state corresponds to 5V and is the output when the soil is dry, that is, the moisture level is below the threshold moisture level.
 
 ### Circuit Diagram
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ view.addConstraints( NSLayoutConstraint.constraints(withVisualFormat: "V:|[label
 
 The difference here is that we now have numbers inside parentheses: `(==88)` for the labels, and `(>=10)` for the space to the bottom. Note that when specifying the size of a space, you need to use the - before and after the size: a simple space, -, becomes `-(>=10)-`.
 
-We are specifying two kinds of size here: `==` and `>=`. The first means "exactly equal" and the second "greater than or equal to." So, our labels will be forced to be an exact size, and we ensure that there's some space at the bottom while also making it flexible – it will definitely be at least 10 points, but could be 100 or more depending on the situation.
+We are specifying two kinds of size here: `==` and `>=`. The first means "exactly equal" and the second "greater than or equal to." So, our labels will be forced to be an exact size, and we ensure that there's some space at the bottom while also making it flexible - it will definitely be at least 10 points, but could be 100 or more depending on the situation.
 
 Actually, wait a minute. I didn't want 88 points for the label size, I meant 80 points. Go ahead and change all the labels to 80 points high.
 
@@ -91,9 +91,9 @@ Before we're done, we're going to make one more change that makes the whole user
 
 With our current configuration, you'll see this message when the app is rotated to landscape: "Unable to simultaneously satisfy constraints." This means your constraints simply don't work given how much screen space there is, and that's where *priority* comes in. You can give any layout constraint a priority, and Auto Layout will do its best to make it work.
 
-Constraint priority is a value between 1 and 1000, where 1000 means "this is absolutely required" and anything less is optional. By default, all constraints you have are priority 1000, so Auto Layout will fail to find a solution in our current layout. But if we make the height optional – even as high as priority 999 – it means Auto Layout can find a solution to our layout: shrink the labels to make them fit.
+Constraint priority is a value between 1 and 1000, where 1000 means "this is absolutely required" and anything less is optional. By default, all constraints you have are priority 1000, so Auto Layout will fail to find a solution in our current layout. But if we make the height optional - even as high as priority 999 - it means Auto Layout can find a solution to our layout: shrink the labels to make them fit.
 
-It's important to understand that Auto Layout doesn't just discard rules it can't meet – it still does its best to meet them. So in our case, if we make our 88-point height optional, Auto Layout might make them 78 or some other number. That is, it will still do its best to make them as close to 88 as possible. TL;DR: constraints are evaluated from highest priority down to lowest, but all are taken into account.
+It's important to understand that Auto Layout doesn't just discard rules it can't meet - it still does its best to meet them. So in our case, if we make our 88-point height optional, Auto Layout might make them 78 or some other number. That is, it will still do its best to make them as close to 88 as possible. TL;DR: constraints are evaluated from highest priority down to lowest, but all are taken into account.
 
 So, we're going to make the label height have priority 999 (i.e., very important, but not required). But we're also going to make one other change, which is to tell Auto Layout that we want all the labels to have the same height. This is important, because if all of them have optional heights using `labelHeight`, Auto Layout might solve the layout by shrinking one label and making another 88.
 

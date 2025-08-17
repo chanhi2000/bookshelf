@@ -100,7 +100,7 @@ username === "admin"
 isLoggedIn && hasPermission
 ```
 
-### `?` – The question mark
+### `?`: The question mark
 
 Next, we have the question mark, `?`. Think of it as asking a question like, “Then what?”. This question mark separates your condition from your outcomes, and should always come after your condition.
 
@@ -113,7 +113,7 @@ This code runs only when our condition is true. This can either be a value, an e
 calculateBonus()
 ```
 
-### `:` – Otherwise
+### `:`: Otherwise
 
 This comes right after the true outcome, and just before the false outcome of your condition. It essentially means, “Otherwise, do this instead”.
 
@@ -215,9 +215,9 @@ It’s like [**these values**](/blog.logrocket.com/javascript-null-empty-functio
 
 ## Nested ternary operators
 
-Let me introduce something called an `if...else` – `if...else` statement. This statement checks multiple conditions and executes different code blocks based on which condition is true.
+Let me introduce something called an `if...else` - `if...else` statement. This statement checks multiple conditions and executes different code blocks based on which condition is true.
 
-In cases where you may want to write an `if...else` – `if...else` statement, you could easily pull this off with a ternary operator.
+In cases where you may want to write an `if...else` - `if...else` statement, you could easily pull this off with a ternary operator.
 
 Let’s consider a new example. We have a standard ticket price of $20, but we believe in making our events accessible to everyone. Senior citizens 65 and above receive a 50% discount, bringing their ticket price down to $10. Adults between 18 and 64 pay the regular price of $20, while young people under 18 can enjoy a special youth rate of $12. Let’s go ahead to write the logic:
 
@@ -248,7 +248,7 @@ let ticketPrice = age >= 65 ? "Senior discount: $10"
 // Output: "Senior discount: $10"
 ```
 
-This example works well. However, when nested operators get too complicated, they counteract the purpose of a ternary operator, which is to make your code more readable. When things get bulky, they become a bit hard to read – which we’ll see in the next section.
+This example works well. However, when nested operators get too complicated, they counteract the purpose of a ternary operator, which is to make your code more readable. When things get bulky, they become a bit hard to read - which we’ll see in the next section.
 
 ---
 

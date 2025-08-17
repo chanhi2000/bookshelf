@@ -54,7 +54,7 @@ head:
 
 By default, SwiftUI's `ZStack` layers its views using the painter's algorithm to decide depth of views: whatever you put into the `ZStack` first is drawn first, then subsequent views are layered over it.
 
-While this is often what you want, sometimes you need more control – you might want to push one view behind another while your app runs, for example, or perhaps bring one particular view to the front when it's tapped.
+While this is often what you want, sometimes you need more control - you might want to push one view behind another while your app runs, for example, or perhaps bring one particular view to the front when it's tapped.
 
 To do this you need to use the `zIndex()` modifier, which allows you to specify exactly how views should be layered inside a single `ZStack`. Views have a default Z index of 0, but you can provide positive or negative values that position them on top of or below other views respectively.
 

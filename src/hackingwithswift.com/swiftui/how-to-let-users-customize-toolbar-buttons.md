@@ -60,7 +60,7 @@ SwiftUI's toolbar allows the user to customize any toolbar items we allow, and i
 4. Decide which buttons should be visible by default.
 5. Enable Editor mode for your toolbar, so that all the secondary actions become toolbar buttons.
 
-The “unique, stable” identifier requirement matters, because this is what SwiftUI uses to remember the user's settings – “toolbar X has button A, then C, then F.”
+The “unique, stable” identifier requirement matters, because this is what SwiftUI uses to remember the user's settings - “toolbar X has button A, then C, then F.”
 
 ::: note
 
@@ -101,9 +101,9 @@ NavigationStack {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-let-users-customize-toolbar-buttons-1.zip)
 
-When you run that code, you'll see a details button on the trailing edge of your toolbar – tapping that will show a Customize Toolbar menu that enables customization.
+When you run that code, you'll see a details button on the trailing edge of your toolbar - tapping that will show a Customize Toolbar menu that enables customization.
 
-By default this will make all the secondary action buttons individually customizable, but if you wrap two or more buttons in a `ControlGroup` they become attached for customization purposes – the user must add both or neither. `ControlGroup` is great for things like font adjustments, like this:
+By default this will make all the secondary action buttons individually customizable, but if you wrap two or more buttons in a `ControlGroup` they become attached for customization purposes - the user must add both or neither. `ControlGroup` is great for things like font adjustments, like this:
 
 ```swift
 NavigationStack {

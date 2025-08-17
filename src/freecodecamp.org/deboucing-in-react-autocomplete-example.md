@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React"
-description: "Article(s) > Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React"
+title: "Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
+description: "Article(s) > Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React"
+      content: "Article(s) > Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
     - property: og:description
-      content: "Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React"
+      content: "Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deboucing-in-react-autocomplete-example.html
 prev: /programming/js/articles/README.md
@@ -50,7 +50,7 @@ cover: https://freecodecamp.org/news/content/images/2024/02/photo-1550063873-ab7
 ---
 
 <SiteInfo
-  name="Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React"
+  name="Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
   desc="Hi readers, I hope you are doing great! I am back with another tutorial on web development. If you are someone who enjoys developing web apps with JavaScript and React, then this post is for you. When you roll out a new app into production, you want ..."
   url="https://freecodecamp.org/news/deboucing-in-react-autocomplete-example"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -64,7 +64,7 @@ In this guide, we are going to understand a very important technique in JavaScri
 
 Now, in order to get the most out of this tutorial, I am assuming you have a basic knowledge of JavaScript. If you need to get started or review, here are a couple resources for you:
 
-- Learn JavaScript basics – [handbook for beginners](https://freecodecamp.org/news/learn-javascript-for-beginners/)
+- Learn JavaScript basics - [handbook for beginners](https://freecodecamp.org/news/learn-javascript-for-beginners/)
 - The freeCodeCamp [JavaScript Algorithms and Data Structures certification](https://freecodecamp.org/news/learn-javascript-with-new-data-structures-and-algorithms-certification-projects/)
 
 ---
@@ -216,7 +216,7 @@ function debounce(func, delay) {
 }
 ```
 
-With this, we have satisfied our second requirement – that is, resetting the timer and starting a new one. It's time to use this debounced function.
+With this, we have satisfied our second requirement - that is, resetting the timer and starting a new one. It's time to use this debounced function.
 
 Let's pass `fun()` to the `debounce()` method with a delay of 500ms.
 
@@ -293,7 +293,7 @@ Consider the following example:
 
 When I type the word *absolute*, an API request is made every time the value of the input field changes. We are making 8 API requests in very few milliseconds which puts a lot of load on the backend server and could cause performance issues.
 
-Ideally, we want to show the auto-complete results some time after the user has finished typing. Here, the user has typed *absolute* in one go, so instead of showing results every time the input changes, we could show them once the user has finished typing – that is, we could add some delay between the input change and the results being displayed.
+Ideally, we want to show the auto-complete results some time after the user has finished typing. Here, the user has typed *absolute* in one go, so instead of showing results every time the input changes, we could show them once the user has finished typing - that is, we could add some delay between the input change and the results being displayed.
 
 So, we only make the API calls when the user finishes typing their word and not on every input change. This reduces the number of API calls and improves performance. We can achieve this behavior with debouncing.
 
@@ -428,7 +428,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Debouncing in JavaScript – Explained by Building Auto-Complete Functionality in React",
+  "title": "Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React",
   "desc": "Hi readers, I hope you are doing great! I am back with another tutorial on web development. If you are someone who enjoys developing web apps with JavaScript and React, then this post is for you. When you roll out a new app into production, you want ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deboucing-in-react-autocomplete-example.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

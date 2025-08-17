@@ -66,7 +66,7 @@ let oldData = try JSONEncoder().encode(oldDict)
 print(String(decoding: oldData, as: UTF8.self))
 ```
 
-Although the enum has a `String` raw value, because the dictionary keys aren’t `String` or `Int` the resulting string will be `"twitter","@twostraws","name","Paul"]` – four separate string values, rather than something that is obviously key/value pairs. Swift is smart enough to recognize this in decoding, and will match alternating strings inside each pair to the original enum keys and string values, but this isn’t helpful if you want to send the JSON to a server.
+Although the enum has a `String` raw value, because the dictionary keys aren’t `String` or `Int` the resulting string will be `"twitter","@twostraws","name","Paul"]` - four separate string values, rather than something that is obviously key/value pairs. Swift is smart enough to recognize this in decoding, and will match alternating strings inside each pair to the original enum keys and string values, but this isn’t helpful if you want to send the JSON to a server.
 
 The new `CodingKeyRepresentable` resolves this, allowing the new dictionary keys to be written correctly. However, as this changes the way your `Codable` JSON is written, you must explicitly add `CodingKeyRepresentable` conformance to get the new behavior, like this:
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/p_8TRJAoevA" />
 
-The next step is to add a left bar button item to our view controller, using the "add" system icon, and making it call a method called `showConnectionPrompt()`. We're going to make that method ask users whether they want to connect to an existing session with other people, or whether they want to create their own. Here's the code for the bar button item – put this in `viewDidLoad()`:
+The next step is to add a left bar button item to our view controller, using the "add" system icon, and making it call a method called `showConnectionPrompt()`. We're going to make that method ask users whether they want to connect to an existing session with other people, or whether they want to create their own. Here's the code for the bar button item - put this in `viewDidLoad()`:
 
 ```swift
 navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showConnectionPrompt))
@@ -94,7 +94,7 @@ var mcSession: MCSession?
 var mcAdvertiserAssistant: MCAdvertiserAssistant?
 ```
 
-Although both the session and advertiser assistant are optional, that code creates the `MCPeerID` up front using the name of the current device, which will usually be something like "Paul's iPhone" – there’s no need to make an optional for that.
+Although both the session and advertiser assistant are optional, that code creates the `MCPeerID` up front using the name of the current device, which will usually be something like "Paul's iPhone" - there’s no need to make an optional for that.
 
 Depending on what users select in our alert controller, we need to call one of two methods: `startHosting()` or `joinSession()`. Because both of these are coming from the result of a `UIAction` being tapped, both methods must accept a `UIAlertAction` as their only parameter.
 

@@ -117,7 +117,7 @@ Both JavaScript and Python are dynamically typed, meaning that you don’t need 
 
 JavaScript requires `let`, `const`, or `var` to declare variables. The use of `let` and `const` in modern JavaScript helps manage scope and constancy of variables, with `const` enforcing immutability.
 
-In Python, there is no need to specify `let`, `const`, or `var` – you simply assign a value to a variable, and Python infers the type based on the value.
+In Python, there is no need to specify `let`, `const`, or `var` - you simply assign a value to a variable, and Python infers the type based on the value.
 
 ::: tip <FontIcon icon="fa-brands fa-js"/>
 

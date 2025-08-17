@@ -133,7 +133,7 @@ const http = require('http');
 const fs = require('fs');
 ```
 
-We then create a server function – called `server`. When called, it will either read and serve our <FontIcon icon="fa-brands fa-html5"/>`index.html` file (generating a 200 success code) or, if there's a problem reading the file, it'll generate a 500 error message.
+We then create a server function - called `server`. When called, it will either read and serve our <FontIcon icon="fa-brands fa-html5"/>`index.html` file (generating a 200 success code) or, if there's a problem reading the file, it'll generate a 500 error message.
 
 ```js
   fs.readFile('index.html', 'utf8', (err, data) => {
@@ -144,7 +144,7 @@ We then create a server function – called `server`. When called, it will eithe
     }
 ```
 
-The code continues by setting 3000 as the listening port for our application – although, technically, you could change that to any value you like between 1 and 65535. 
+The code continues by setting 3000 as the listening port for our application - although, technically, you could change that to any value you like between 1 and 65535. 
 
 ```js
 const port = 3000;
@@ -229,7 +229,7 @@ This article comes from [<FontIcon icon="fas fa-globe"/>my Complete LPI Web Deve
 
 ```component VPCard
 {
-  "title": "Bootstrap IT – A division of DBC Technology Services Inc",
+  "title": "Bootstrap IT - A division of DBC Technology Services Inc",
   "desc": "A division of DBC Technology Services Inc",
   "link": "https://bootstrap-it.com/",
   "logo": "https://bootstrap-it.com/wp-content/uploads/logo_no_text-300x300.png",

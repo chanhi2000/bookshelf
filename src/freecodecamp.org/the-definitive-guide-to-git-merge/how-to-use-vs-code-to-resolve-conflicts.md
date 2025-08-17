@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Use VS Code to Resolve Conflicts"
-description: "Article(s) > (9/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (9/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (9/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (9/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "How to Use VS Code to Resolve Conflicts"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-how-to-use-vs-code-to-resolve-conflicts"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -70,13 +70,13 @@ Let's see how this appears on VS Code:
 
 ![Conflict resolution with VS Code<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-320.png)
 
-VS Code marks the different versions with "Current Change" – which is the "ours" version, the current `HEAD`, and "Incoming Change" for the branch we are merging into the active branch. You can accept one of the changes (or both) by clicking on one of the options.
+VS Code marks the different versions with "Current Change" - which is the "ours" version, the current `HEAD`, and "Incoming Change" for the branch we are merging into the active branch. You can accept one of the changes (or both) by clicking on one of the options.
 
 If you clicked on `Resolve in Merge editor`, you would get a more visual view of the state. VS Code shows the status of each line:
 
 ![VS Code's Merge Editor<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-321.png)
 
-If you look closely, you will see that VS Code shows changes within words – for example, showing that "Every**one**" was changed to "Every**body**", marking the changed parts.
+If you look closely, you will see that VS Code shows changes within words - for example, showing that "Every**one**" was changed to "Every**body**", marking the changed parts.
 
 You can accept either version, or you can accept a combination. In this case, if you click on "Accept Combination", you get this result:
 

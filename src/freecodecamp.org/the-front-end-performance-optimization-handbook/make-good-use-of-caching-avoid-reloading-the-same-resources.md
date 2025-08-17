@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Make Good Use of Caching, Avoid Reloading the Same Resources"
-description: "Article(s) > (7/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+description: "Article(s) > (7/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
 category:
   - Node.js
   - Article(s)
@@ -14,7 +14,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (7/24) The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+      content: "Article(s) > (7/24) The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
     - property: og:description
       content: "Make Good Use of Caching, Avoid Reloading the Same Resources"
     - property: og:url
@@ -31,7 +31,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 ```component VPCard
 {
-  "title": "The Front-End Performance Optimization Handbook – Tips and Strategies for Devs",
+  "title": "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs",
   "desc": "When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to...",
   "link": "/freecodecamp.org/the-front-end-performance-optimization-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 ---
 
 <SiteInfo
-  name="The Front-End Performance Optimization Handbook – Tips and Strategies for Devs"
+  name="The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
   desc="When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to..."
   url="https://freecodecamp.org/news/the-front-end-performance-optimization-handbook#heading-make-good-use-of-caching-avoid-reloading-the-same-resources"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

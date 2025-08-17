@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Swift offers several ways of adjusting the letter case of a string, but if you're looking for title case – that is, Text Where The First Letter Of Each String Is Capitalized - then you need to use the `capitalized` property, like this:
+Swift offers several ways of adjusting the letter case of a string, but if you're looking for title case - that is, Text Where The First Letter Of Each String Is Capitalized - then you need to use the `capitalized` property, like this:
 
 ```swift
 let str = "sunday, monday, happy days"

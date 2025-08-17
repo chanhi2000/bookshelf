@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
-description: Article(s) > How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
+title: How to Implement JSON Web Tokens (JWTs) in PHP - PHP Authentication Tutorial
+description: Article(s) > How to Implement JSON Web Tokens (JWTs) in PHP - PHP Authentication Tutorial
 icon: fa-brands fa-php
 category: 
   - PHP
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
+      content: Article(s) > How to Implement JSON Web Tokens (JWTs) in PHP - PHP Authentication Tutorial
     - property: og:description
-      content: How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial
+      content: How to Implement JSON Web Tokens (JWTs) in PHP - PHP Authentication Tutorial
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/php-jwt-authentication-implementation.html
 prev: /programming/php/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/How-to-Im
 ---
 
 <SiteInfo
-  name="How to Implement JSON Web Tokens (JWTs) in PHP – PHP Authentication Tutorial"
+  name="How to Implement JSON Web Tokens (JWTs) in PHP - PHP Authentication Tutorial"
   desc="In this guide, we'll explore the process of creating JSON Web Tokens (JWTs) from scratch in PHP, which is a superior and more secure authentication scheme.  By implementing this advanced approach, you'll have a robust and highly secure authentication mechanism that significantly enhances data protection and user authentication. Table..."
   url="https://freecodecamp.org/news/php-jwt-authentication-implementation/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

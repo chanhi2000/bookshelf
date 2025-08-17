@@ -110,7 +110,7 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-run-code-when-your-app-launches-2.zip)
 
-Accepting arrays of data – for example letting the user drag multiple images into our – follows the same procedure: using `dropDestination(for: Data.self)`, but now rather than just reading the first item you should use them all.
+Accepting arrays of data - for example letting the user drag multiple images into our - follows the same procedure: using `dropDestination(for: Data.self)`, but now rather than just reading the first item you should use them all.
 
 For example, this shows several pictures in a `ScrollView` by converting each `Data` instance into a `UIImage`, and then into a SwiftUI `Image`:
 

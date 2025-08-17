@@ -123,7 +123,7 @@ VStack {
 
 ![A slightly nicer product listing, showing two products.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-in-app-purchases-in-swiftui-4~dark@2x.png)
 
-Remember, this shows the UI but doesn’t automatically unlock any content when purchases are made or restored – it’s important you also listen for transaction updates.
+Remember, this shows the UI but doesn’t automatically unlock any content when purchases are made or restored - it’s important you also listen for transaction updates.
 
 ::: tip
 
@@ -180,7 +180,7 @@ Both privacy and terms of service can be provided as URLs rather than custom Swi
 
 :::
 
-There are also various options for controlling how the screen looks, all carefully picked out by Apple to ensure all the core functionality remains – that your screen ultimately shows all the purchase information in a way that Apple will approve.
+There are also various options for controlling how the screen looks, all carefully picked out by Apple to ensure all the core functionality remains - that your screen ultimately shows all the purchase information in a way that Apple will approve.
 
 For example, this shows a custom marketing header for my subscriptions, placing a blue gradient behind it:
 
@@ -235,7 +235,7 @@ ProductView(id: "com.hackingwithswift.plus.subscription") {
 
 ![A short animation showing the user selecting a product, completing the purchase, then seeing a message printed.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-in-app-purchases-in-swiftui-8~dark@2x.gif)
 
-Yes, the API is a little clunky here – the double `.success` is needed because we’re given two nested enums, with the inner one containing the transaction details you can use to verify the purchase externally if needed.
+Yes, the API is a little clunky here - the double `.success` is needed because we’re given two nested enums, with the inner one containing the transaction details you can use to verify the purchase externally if needed.
 
 Be careful: that code alone isn’t enough, because one of the possible completion status is *pending*: the purchase is in the process of happening but hasn’t completed yet, so you still need to watch the transaction queue manually to be absolutely sure of handling the process completely.
 

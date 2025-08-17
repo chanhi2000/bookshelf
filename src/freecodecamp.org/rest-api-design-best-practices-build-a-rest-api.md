@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js"
-description: "Article(s) > REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js"
+title: "REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
+description: "Article(s) > REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js"
+      content: "Article(s) > REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
     - property: og:description
-      content: "REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js"
+      content: "REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-design-best-practices-build-a-rest-api.html
 prev: /programming/js-node/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2022/05/rest-api-design-cour
 ---
 
 <SiteInfo
-  name="REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js"
+  name="REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
   desc="By Jean-Marc Möckel I've created and consumed many API's over the past few years. During that time, I've come across good and bad practices and have experienced nasty situations when consuming and building API's. But there also have been great moment..."
   url="https://freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -323,7 +323,7 @@ touch src/v1/routes/workoutRoutes.js
 
 I always like to start with the routes first. Let's think about how we can name our endpoints. This goes hand in hand with this particular best practice.
 
-We could name the creation endpoint **/api/v1/workout** because we'd like to add one workout, right? Basically there's nothing wrong with that approach – but this can lead to misunderstandings.
+We could name the creation endpoint **/api/v1/workout** because we'd like to add one workout, right? Basically there's nothing wrong with that approach - but this can lead to misunderstandings.
 
 Always remember: Your API is used by other humans and should be precise. This goes also for naming your resources.
 
@@ -1126,7 +1126,7 @@ We've already came pretty far, but we're not finished yet. Our API has the abili
 
 Why? Let me explain.
 
-In a perfect world everything works smoothly without any errors. But as you might know, in the real world a lot of errors can happen – either from a human or a technical perspective.
+In a perfect world everything works smoothly without any errors. But as you might know, in the real world a lot of errors can happen - either from a human or a technical perspective.
 
 You might probably know that weird feeling when things are working right from the beginning without any errors. This is great and enjoyable, but as developers we're more used to things that are not working properly. 😁
 
@@ -1733,7 +1733,7 @@ First, add a new table into your <FontIcon icon="iconfont icon-json"/>`db.json` 
 }
 ```
 
-Before you start asking – yes, the passwords are hashed. 😉
+Before you start asking - yes, the passwords are hashed. 😉
 
 After that, add some "records" under "members".
 
@@ -2645,7 +2645,7 @@ See you next time!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js",
+  "title": "REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js",
   "desc": "By Jean-Marc Möckel I've created and consumed many API's over the past few years. During that time, I've come across good and bad practices and have experienced nasty situations when consuming and building API's. But there also have been great moment...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-design-best-practices-build-a-rest-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

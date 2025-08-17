@@ -75,4 +75,4 @@ const commands = {
 };
 ```
 
-This is an example of another way to print something on the terminal – if you return something from a function it will be printed. You can also return a [**Promise**](/freecodecamp.org/javascript-promises-explained.md), so you can send an [<FontIcon icon="fa-brands fa-wikipedia-w"/>AJAX](https://en.wikipedia.org/wiki/Ajax_\(programming\)) request to the server and print the results.
+This is an example of another way to print something on the terminal - if you return something from a function it will be printed. You can also return a [**Promise**](/freecodecamp.org/javascript-promises-explained.md), so you can send an [<FontIcon icon="fa-brands fa-wikipedia-w"/>AJAX](https://en.wikipedia.org/wiki/Ajax_\(programming\)) request to the server and print the results.

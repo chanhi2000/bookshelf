@@ -68,7 +68,7 @@ Here’s an example regarding images on the web
 
 All frameworks will handle images differently. They’ll all have their reasons for that.
 
-For instance, Rails has [<FontIcon icon="iconfont icon-ruby"/>a helper method like this: `image_tag()`](https://api.rubyonrails.org/v7.1.3.4/classes/ActionView/Helpers/AssetTagHelper.html). This helps you generate an `<img />` with a `src` that points to the image correctly, and helpfully generates browser-cache busting URL parameters. You’re on your own for optimization. If you want to try to use the responsive images syntax, only recently do they have [<FontIcon icon="fas fa-globe"/>rudimentary support](https://eagerworks.com/blog/rails-picture-tag-responsive-image-support).
+For instance, Rails has [<FontIcon icon="iconfont icon-rails"/>a helper method like this: `image_tag()`](https://api.rubyonrails.org/v7.1.3.4/classes/ActionView/Helpers/AssetTagHelper.html). This helps you generate an `<img />` with a `src` that points to the image correctly, and helpfully generates browser-cache busting URL parameters. You’re on your own for optimization. If you want to try to use the responsive images syntax, only recently do they have [<FontIcon icon="fas fa-globe"/>rudimentary support](https://eagerworks.com/blog/rails-picture-tag-responsive-image-support).
 
 [<FontIcon icon="iconfont icon-nextjs"/>The Next.js `<Image />` component](https://nextjs.org/docs/app/api-reference/components/image) is quite different in that it wants to *optimize* the image for you and output the image with the `srcset` syntax in order to serve right-size images to different devices, as well as provide a blur-up loading style. This is much fancier and helpful, but if you are trying to do something custom, like any `<picture>` element usage, you’ve gotta keep going down [<FontIcon icon="iconfont icon-nextjs"/>a proprietary rabbit hole](https://nextjs.org/docs/app/api-reference/components/image#getimageprops).
 
@@ -347,7 +347,7 @@ If what you’re building is a pure content site a classic Content Management Sy
 
 If you’re interested in more of a full stack framework that helps with back-end needs as well:
 
-1. [Ruby on Rails](https://rubyonrails.org/) (Ruby)
+1. [<FontIcon icon="iconfont icon-rails"/>Ruby on Rails](https://rubyonrails.org/) (Ruby)
 2. [<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) (Python)
 3. [Laravel](https://laravel.com/) (PHP)
 

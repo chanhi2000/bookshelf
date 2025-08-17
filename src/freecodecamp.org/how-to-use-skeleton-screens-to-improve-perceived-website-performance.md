@@ -78,9 +78,9 @@ Here is what a YouTube skeleton screen looks like:
 
 When you visit a website that uses skeleton screens, the skeleton screen appears first while the content is being fetched. When the content finally gets fetched, it gradually replaces the skeleton screen until the screen is fully populated.
 
-That is what brought about the name *Skeleton Screen* – because the bare bones akin to a skeleton appear first before being fleshed out by real content.
+That is what brought about the name *Skeleton Screen* - because the bare bones akin to a skeleton appear first before being fleshed out by real content.
 
-Skeleton screens take the appearance or form of elements they are meant to “stand in place of” – meaning oval-shaped placeholders are replaced by oval-shaped elements on full loading, and so on.
+Skeleton screens take the appearance or form of elements they are meant to “stand in place of” - meaning oval-shaped placeholders are replaced by oval-shaped elements on full loading, and so on.
 
 The ultimate goal of the skeletal screen is to make the waiting game less painful by giving users something to focus on. It has nothing to do with actual load time but all to do with providing a distraction so the waiting time feels shorter. It can also reassure users that content is indeed coming. Clever right?
 
@@ -98,7 +98,7 @@ The same applies to a user who’s visiting a webpage. A visible and engaging pl
 
 With skeleton screens, it's like “Hey, here is the form of the page content you’re looking for, but please, exercise some patience while we get you the real thing!”
 
-This fits perfectly into the **Zeigarnik Effect**, a psychological principle suggesting that we remember incomplete tasks better than completed ones. Think of it like leaving a jigsaw puzzle half-finished on your table – your brain stays engaged, eager to see the final picture.
+This fits perfectly into the **Zeigarnik Effect**, a psychological principle suggesting that we remember incomplete tasks better than completed ones. Think of it like leaving a jigsaw puzzle half-finished on your table - your brain stays engaged, eager to see the final picture.
 
 Similarly, when users see a skeleton screen, they remain mentally hooked, anticipating the moment when the content will fully load.
 
@@ -106,9 +106,9 @@ Similarly, when users see a skeleton screen, they remain mentally hooked, antici
 
 ## Skeleton Screens vs Spinners and Progress Bars
 
-Spinners and progress bars might seem like a viable alternative to skeleton screens, but do they have the same effect on users? The answer is – not quite.
+Spinners and progress bars might seem like a viable alternative to skeleton screens, but do they have the same effect on users? The answer is - not quite.
 
-With spinners and progress bars, the load time is somewhat undecided, and it’s a bit like watching a clock tick – the time seems to move slower, as focusing on the hands of the clock makes the duration seem longer and more frustrating.
+With spinners and progress bars, the load time is somewhat undecided, and it’s a bit like watching a clock tick - the time seems to move slower, as focusing on the hands of the clock makes the duration seem longer and more frustrating.
 
 Skeleton screens, on the other hand, add an interesting extra layer of providing a visual cue of expected content rather than just displaying an indicator (which is what spinners and progress bars do).
 
@@ -118,11 +118,11 @@ Interfaces that use skeleton screens make the user scan the screen thinking thin
 
 ## Is a Skeleton Screen Just a Visual Illusion?
 
-Yes, skeleton screens are a bit of an illusion. They don’t speed up load times – rather, they just make it feel faster.
+Yes, skeleton screens are a bit of an illusion. They don’t speed up load times - rather, they just make it feel faster.
 
 But here’s the thing: if not done well, this trick can backfire. Users expect that once they see the skeleton screen, the real content should follow quickly. If not frustration creeps in.
 
-Also, adding motion to skeleton screens makes the illusion effect more effective by decreasing the perceived duration time. It is not uncommon to see sliding effects (left to right) and pulse effects (fading opacity – in and out) used in skeleton screens.
+Also, adding motion to skeleton screens makes the illusion effect more effective by decreasing the perceived duration time. It is not uncommon to see sliding effects (left to right) and pulse effects (fading opacity - in and out) used in skeleton screens.
 
 ![skeleton screen with motion](https://cdn.hashnode.com/res/hashnode/image/upload/v1729603561030/235b53ed-a75d-4eb0-9126-c63174d0c59f.gif)
 
@@ -256,7 +256,7 @@ If there is an error, an error message is displayed.
 
 Skeleton screens are great at creating the illusion of progress and making users feel like the site is loading faster. But they don’t fix slow-loading pages on their own. The trick is combining skeleton screens with performance-enhancing techniques such as lazy loading, image compression, and server-side rendering.
 
-Balancing the actual speed and the user’s perception of it is vital in web performance. Skeleton screens are just one tool in your UX toolbox – but when used correctly, they can help create a web experience that feels fast, reliable, and most importantly engaging. And in the world of web development, where perception is reality, that’s half the battle won.
+Balancing the actual speed and the user’s perception of it is vital in web performance. Skeleton screens are just one tool in your UX toolbox - but when used correctly, they can help create a web experience that feels fast, reliable, and most importantly engaging. And in the world of web development, where perception is reality, that’s half the battle won.
 
 For more front-end related posts and articles, you can follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`timothy-olanrewaju750`)](https://linkedin.com/in/timothy-olanrewaju750/) and [X (<FontIcon icon="fa-brands fa-x-twitter"/>`SmoothTee_DC`)](https://x.com/SmoothTee_DC).
 

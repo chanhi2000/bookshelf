@@ -57,7 +57,7 @@ To see the SQL commands being used by SwiftData and Core Data, add the launch ar
 
 To do this, go to the Product menu, hold down the Option key, then click "Run…". Now select the Arguments tab, and click the + button under "Arguments Passed on Launch". This is where you should paste in the option: `-com.apple.CoreData.SQLDebug 1`.
 
-Now when you click run you'll see a whole lot of Core Data debug information fly by in Xcode's console – and it *will* be Core Data logs, because that's what SwiftData is using behind the scenes. This is a great way to see it creating various database tables, running queries, inserting objects, and more.
+Now when you click run you'll see a whole lot of Core Data debug information fly by in Xcode's console - and it *will* be Core Data logs, because that's what SwiftData is using behind the scenes. This is a great way to see it creating various database tables, running queries, inserting objects, and more.
 
 There are four bonus tips here:
 

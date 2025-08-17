@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "More Advanced Git Merge Cases"
-description: "Article(s) > (6/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+description: "Article(s) > (6/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (6/10) The Git Merge Handbook – Definitive Guide to Merging in Git"
+      content: "Article(s) > (6/10) The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:description
       content: "More Advanced Git Merge Cases"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 
 ```component VPCard
 {
-  "title": "The Git Merge Handbook – Definitive Guide to Merging in Git",
+  "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
   "link": "/freecodecamp.org/the-definitive-guide-to-git-merge/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Merge-Handbo
 ---
 
 <SiteInfo
-  name="The Git Merge Handbook – Definitive Guide to Merging in Git"
+  name="The Git Merge Handbook - Definitive Guide to Merging in Git"
   desc="By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a..."
   url="https://freecodecamp.org/news/the-definitive-guide-to-git-merge#heading-more-advanced-git-merge-cases"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -164,7 +164,7 @@ But should it really fail? 🤔
 
 As explained earlier, `git merge` uses a 3-way merge algorithm, and this can come in handy here. What would be the first step of this algorithm?
 
-Well, first, Git would find the merge base – that is, the common ancestor of Paul's branch and John's branch. Consider the history:
+Well, first, Git would find the merge base - that is, the common ancestor of Paul's branch and John's branch. Consider the history:
 
 ![The history after introducing "Commit 12"<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/BCNZ5Uxctuk&t=561s)>](https://freecodecamp.org/news/content/images/2023/04/image-351.png)
 
@@ -269,7 +269,7 @@ git apply john_3.patch -v
 
 Git is looking for "Everyone put the feet down", but Paul has already changed this line so it now consists of the word "foot" instead of "feet". As a result, applying this patch fails.
 
-Notice that changing the number of context lines here (that is, using `git apply` with the `-C` flag, as discussed in [**a previous post**](/freecodecamp.org/git-diff-and-patch.md)) is irrelevant – Git is unable to locate the actual line that the patch is trying to erase.
+Notice that changing the number of context lines here (that is, using `git apply` with the `-C` flag, as discussed in [**a previous post**](/freecodecamp.org/git-diff-and-patch.md)) is irrelevant - Git is unable to locate the actual line that the patch is trying to erase.
 
 But actually, Git *can* make this work, if you just add a flag to `apply`, telling it to perform a 3-way merge under the hood:
 

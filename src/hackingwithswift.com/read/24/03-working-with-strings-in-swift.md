@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -103,7 +103,7 @@ extension String {
 }
 ```
 
-One thing you *can’t* see in that is an interesting subtlety of working with strings: individual letters in strings aren’t instances of `String`, but are instead instances of `Character` – a dedicated type for holding single-letters of a string.
+One thing you *can’t* see in that is an interesting subtlety of working with strings: individual letters in strings aren’t instances of `String`, but are instead instances of `Character` - a dedicated type for holding single-letters of a string.
 
 So, that `uppercased()` method is actually a method on *Character* rather than *String*. However, where things get *really* interesting is that `Character.uppercased()` actually returns a string, not an uppercased `Character`. The reason is simple: language is complicated, and although many languages have one-to-one mappings between lowercase and uppercase characters, some do not.
 
@@ -127,7 +127,7 @@ languages.contains("Swift")
 
 That will also return true, because arrays have a `contains()` method that returns true or false depending on whether they contain the element you were looking for.
 
-Now for the part that confuses people – brace yourself!
+Now for the part that confuses people - brace yourself!
 
 We have an array of strings (`["Python", "Ruby", "Swift"]`) and we have an input string (`"Swift is like Objective-C without the C"`). How can we check whether any string in our array exists in our input string?
 
@@ -153,7 +153,7 @@ We can now run our check like this:
 input.containsAny(of: languages)
 ```
 
-That certainly *works*, but it’s not elegant – and Swift has a better solution built right in.
+That certainly *works*, but it’s not elegant - and Swift has a better solution built right in.
 
 You see, arrays have a *second* `contains()` method called `contains(where:)`. This lets us provide a closure that accepts an element from the array as its only parameter and returns true or false depending on whatever condition we decide we want. This closure gets run on all the items in the array until one returns true, at which point it stops.
 
@@ -169,11 +169,11 @@ So, what we can actually do is pass one function directly into the other, like t
 languages.contains(where: input.contains)
 ```
 
-Don’t feel bad if you need to read that single line of code several times – it’s not easy! Let’s break it down.
+Don’t feel bad if you need to read that single line of code several times - it’s not easy! Let’s break it down.
 
 `contains(where:)` will call its closure once for every element in the `languages` array until it finds one that returns true, at which point it stops.
 
-In that code we’re passing `input.contains` as the closure that `contains(where:)` should run. This means Swift will call `input.contains("Python")` and get back false, then it will call `input.contains("Ruby")` and get back false again, and finally call `input.contains("Swift")` and get back true – then stop there.
+In that code we’re passing `input.contains` as the closure that `contains(where:)` should run. This means Swift will call `input.contains("Python")` and get back false, then it will call `input.contains("Ruby")` and get back false again, and finally call `input.contains("Swift")` and get back true - then stop there.
 
-So, because the `contains()` method of strings has the exact same signature that `contains(where:)` expects (take a string and return a Boolean), this works perfectly – do you see what I mean about how Swift blurs the lines between these things?
+So, because the `contains()` method of strings has the exact same signature that `contains(where:)` expects (take a string and return a Boolean), this works perfectly - do you see what I mean about how Swift blurs the lines between these things?
 

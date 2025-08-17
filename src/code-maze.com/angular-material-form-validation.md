@@ -70,7 +70,7 @@ One of the most important components in Angular Material is the input component.
 Of course, we will show how easy it is to apply Angular Material Form Validation with the material input components and also how to create dialogs to show the error or success messages. We won’t dive deeply into the validation logic because we already have a great article that covers that topic [Angular Form Validation.](/code-maze.com/net-core-web-development-part13.md)
 
 - [Getting started with Angular Material](/code-maze.com/get-started-angular-material.md)
-- [Navigation Menu – Sidebar, Main Navigation](/code-maze.com/angular-material-navigation)
+- [Navigation Menu - Sidebar, Main Navigation](/code-maze.com/angular-material-navigation)
 - [Angular Material Table, Filter, Sort, Paging](/code-maze.com/angular-material-table.md)
 - [Angular Material Progress Bar, Spinner, CheckBox, Card, Select, Expansion Panel](/code-maze.com/angular-material-error-details-pages.md)
 - Material Inputs, DatePicker, Form Validation, Modals (Current article)
@@ -79,7 +79,7 @@ For the complete navigation and all the basic instructions of the Angular Materi
 
 ::: info
 
-The source code is available at GitHub [Angular Material Form Validation – Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/form-validation)
+The source code is available at GitHub [Angular Material Form Validation - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/form-validation)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"

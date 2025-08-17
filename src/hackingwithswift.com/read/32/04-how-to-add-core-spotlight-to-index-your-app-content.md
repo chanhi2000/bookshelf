@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -116,7 +116,7 @@ If you run the app now all the rows will have a green + symbol to their left and
 
 If the user is adding a favorite, we're going to call a method called `index(item:)` that we'll write in a moment. We'll also add it to the `favorites` array, save it to `UserDefaults` then reload the table to reflect the change. If they are deleting a favorite, we do pretty much the opposite: call `deindex(item:)` (also not yet written), remove it from the favorites array, save that array and reload the table.
 
-There's one small catch here, which is that removing an item from an array requires you to know its position in the array. We don't know the position of a project in the `favorites` array because they can add any projects they want – the array could contain 5, 2, 4, for example. We'll solve this by using the `indexOf()` method to find the position of a project number in the `favorites` array, then use that index to remove it.
+There's one small catch here, which is that removing an item from an array requires you to know its position in the array. We don't know the position of a project in the `favorites` array because they can add any projects they want - the array could contain 5, 2, 4, for example. We'll solve this by using the `indexOf()` method to find the position of a project number in the `favorites` array, then use that index to remove it.
 
 Here's new code for the `commit` method that's currently empty, plus stubs for `index(item:)` and `deindex(item:)`:
 
@@ -210,7 +210,7 @@ With that, the second stage of our Core Spotlight integration is complete: addin
 
 Now that we are indexing our content in Spotlight, users can search for our projects and tap on results. This will launch our app and pass in the unique identifier of the item that was tapped, and it's down to the app to do something with it. This is all done using in an <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` method called `application(_:continue:restorationHandler:)`, with the important part being what's given to us as the `continue` parameter.
 
-This app delegate method is called when the application has finished launching and it's time to launch the activity requested by the user. If the user activity has the type `CSSearchableItemActionType` it means we're being launched as a result of a Spotlight search, so we need to unwrap the value of the `CSSearchableItemActivityIdentifier` that was passed in – that's the unique identifier of the indexed item that was tapped. In this project, that's the project number.
+This app delegate method is called when the application has finished launching and it's time to launch the activity requested by the user. If the user activity has the type `CSSearchableItemActionType` it means we're being launched as a result of a Spotlight search, so we need to unwrap the value of the `CSSearchableItemActivityIdentifier` that was passed in - that's the unique identifier of the indexed item that was tapped. In this project, that's the project number.
 
 Once we know which project caused the app to be launched, we need to do a little view controller dance that involves conditionally typecasting the window’s root view controller as a `UINavigationController`, then conditionally typecasting its `topViewController` as a `ViewController` object, and finally calling the `showTutorial()` method on the result if it succeeded.
 

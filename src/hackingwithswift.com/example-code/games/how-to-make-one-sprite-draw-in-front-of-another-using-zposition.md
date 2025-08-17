@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 All nodes in SpriteKit have a `zPosition` property that dictates its depth on the screen. If you’re using Xcode’s default SpriteKit template then the view you’re rendering into has its `ignoresSiblingOrder` property set to true, which means `zPosition` is the only factor that decides whether one node is drawn above or below another.
 
-All Z positions default to 0, but if you use negative values (-1, -2, etc) it forces those nodes to be drawn behind nodes that have higher Z positions (1, 2, etc). These numbers don’t have any absolute meaning – all that matters is that one number is higher or lower than another. That is, setting a Z position to 10,000 doesn’t make a sprite any larger or more prominent than setting it to 1,000.
+All Z positions default to 0, but if you use negative values (-1, -2, etc) it forces those nodes to be drawn behind nodes that have higher Z positions (1, 2, etc). These numbers don’t have any absolute meaning - all that matters is that one number is higher or lower than another. That is, setting a Z position to 10,000 doesn’t make a sprite any larger or more prominent than setting it to 1,000.
 
 Here’s some example code:
 

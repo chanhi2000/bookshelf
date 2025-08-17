@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
-description: "Article(s) > SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
+title: "SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
+description: "Article(s) > SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
 icon: fas fa-database
 category:
   - Data Science
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
+      content: "Article(s) > SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
     - property: og:description
-      content: "SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
+      content: "SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-in-10-minutes.html
 prev: /data-science/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2021/11/sql-in-10-min-image.
 ---
 
 <SiteInfo
-  name="SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
+  name="SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
   desc="By Jason Dsouza I’m an AI researcher, so one of the main things I deal with is data. A lot of it.  With more than 2.5 exabytes of data generated every day, it comes as no surprise that this data needs to be stored somewhere where we can access"
   url="https://freecodecamp.org/news/learn-sql-in-10-minutes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -172,7 +172,7 @@ Here are some [<FontIcon icon="iconfont icon-mysql"/>dummy databases](https://de
 
 ---
 
-## SQL Cheatsheet – The Icing on the Cake
+## SQL Cheatsheet - The Icing on the Cake
 
 ### SQL Keywords
 
@@ -282,7 +282,7 @@ CREATE TABLE customers(
 ```sql
 /*
  Fixed length string which can contain letters, numbers and special characters. 
- The size parameter sets the maximum string length, from 0 – 255 with a default of 1.
+ The size parameter sets the maximum string length, from 0 - 255 with a default of 1.
 */
 CHAR(size)  
 VARCHAR(size)   /* Variable length string similar to CHAR(), but with a maximum string length range from 0 to 65535. */
@@ -331,7 +331,7 @@ DEC(size, d)        /* Same as DECIMAL. */
 #### 3. Date/Time Data Types
 
 ```sql
-DATE                /* A simple date in YYYY-MM–DD format, with a supported range from ‘1000-01-01’ to ‘9999-12-31’. */
+DATE                /* A simple date in YYYY-MM-DD format, with a supported range from ‘1000-01-01’ to ‘9999-12-31’. */
 DATETIME(fsp)       /* A date time in YYYY-MM-DD hh:mm:ss format, with a supported range from ‘1000-01-01 00:00:00’ to ‘9999-12-31 23:59:59’. By adding DEFAULT and ON UPDATE to the column definition, it automatically sets to the current date/time. */
 TIMESTAMP(fsp)      /* A Unix Timestamp, which is a value relative to the number of seconds since the Unix epoch (‘1970-01-01 00:00:00’ UTC). This has a supported range from ‘1970-01-01 00:00:01’ UTC to ‘2038-01-09 03:14:07’ UTC. By adding DEFAULT CURRENT_TIMESTAMP and ON UPDATE CURRENT TIMESTAMP to the column definition, it automatically sets to current date/time. */
 TIME(fsp)           /* A time in hh:mm:ss format, with a supported range from ‘-838:59:59’ to ‘838:59:59’. */
@@ -344,7 +344,7 @@ YEAR                /* A year, with a supported range of ‘1901’ to ‘2155�
 
 ```sql
 +       /* Add */
-–       /* Subtract */
+-       /* Subtract */
 *       /* Multiply */
 /       /* Divide */
 %       /* Modulus */
@@ -727,7 +727,7 @@ Be sure to [follow me on X (<FontIcon icon="fa-brands fa-x-twitter"/>`jasmcaus`)
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes",
+  "title": "SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes",
   "desc": "By Jason Dsouza I’m an AI researcher, so one of the main things I deal with is data. A lot of it.  With more than 2.5 exabytes of data generated every day, it comes as no surprise that this data needs to be stored somewhere where we can access",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-in-10-minutes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

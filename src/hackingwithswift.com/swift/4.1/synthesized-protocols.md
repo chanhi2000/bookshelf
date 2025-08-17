@@ -82,7 +82,7 @@ struct Person: Equatable {
 
 Even *reading* that is tiring, never mind *writing* it.
 
-Fortunately, Swift 4.1 can synthesize conformance for `Equatable` – it can generate an `==` method automatically, which will compare all properties in one value with all properties in another, just like above. So, all you have to do now is add `Equatable` as a protocol for your type, and Swift will do the rest.
+Fortunately, Swift 4.1 can synthesize conformance for `Equatable` - it can generate an `==` method automatically, which will compare all properties in one value with all properties in another, just like above. So, all you have to do now is add `Equatable` as a protocol for your type, and Swift will do the rest.
 
 Of course, if you *want* you can implement `==` yourself. For example, if your type has an `id` field that identifies it uniquely, you would write `==` to compare that single value rather than letting Swift do all the extra work.
 

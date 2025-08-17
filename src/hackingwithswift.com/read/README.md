@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials
-description: Article(s) > Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials
+title: Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials
+description: Article(s) > Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials
 icon: iconfont icon-ios
 category:
   - Swift
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials
+      content: Article(s) > Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials
     - property: og:description
-      content: Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials
+      content: Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/hackingwithswift.com/read/
 ---
@@ -29,8 +29,8 @@ head:
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/read",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 ```component VPCard
 {
   "title": "Introduction to Swift",
-  "desc": "Learn the basics of Swift syntax using Xcode playgrounds – start here if this is your first time using Swift.",
+  "desc": "Learn the basics of Swift syntax using Xcode playgrounds - start here if this is your first time using Swift.",
   "link": "/hackingwithswift.com/read/00/overview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -610,7 +610,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 ```component VPCard
 {
   "title": "Swift Knowledge Base - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -619,7 +619,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in iOS 11 for developers – Hacking with Swift",
+  "title": "What's new in iOS 11 for developers - Hacking with Swift",
   "desc": "What's new in iOS 11 for developers",
   "link": "/hackingwithswift.com/whats-new-in-ios-11.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -629,7 +629,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in iOS 10 for developers – Hacking with Swift",
+  "title": "What's new in iOS 10 for developers - Hacking with Swift",
   "desc": "What's new in iOS 10 for developers",
   "link": "/hackingwithswift.com/ios10.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -639,7 +639,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in iOS 10 for developers – Hacking with Swift",
+  "title": "What's new in iOS 10 for developers - Hacking with Swift",
   "desc": "What's new in iOS 10 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -649,7 +649,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 – Hacking with Swift",
+  "title": "What's new in iOS 9 - Hacking with Swift",
   "desc": "What's new in iOS 9",
   "link": "/hackingwithswift.com/ios10.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -659,7 +659,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "Free iOS 9 tutorials – Hacking with Swift",
+  "title": "Free iOS 9 tutorials - Hacking with Swift",
   "desc": "Free iOS 9 tutorials",
   "link": "/hackingwithswift.com/ios9-tutorials.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -669,7 +669,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in Swift 4.0 – Hacking with Swift",
+  "title": "What's new in Swift 4.0 - Hacking with Swift",
   "desc": "Hands-on code examples to help you learn what's new in Swift 4: new encoding and decoding, smarter keypaths, multi-line strings, and more!",
   "link": "//hackingwithswift.com/swift4.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -679,7 +679,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.1 – Hacking with Swift",
+  "title": "What's new in Swift 3.1 - Hacking with Swift",
   "desc": "What's new in Swift 3.1",
   "link": "/hackingwithswift.com/swift3-1.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -689,7 +689,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.0 – Hacking with Swift",
+  "title": "What's new in Swift 3.0 - Hacking with Swift",
   "desc": "What's new in Swift 3.0",
   "link": "/hackingwithswift.com/swift3.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -699,7 +699,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.2 – Hacking with Swift",
+  "title": "What's new in Swift 2.2 - Hacking with Swift",
   "desc": "What's new in Swift 2.2",
   "link": "/hackingwithswift.com/swift2-2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -709,7 +709,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "What's new in Swift 2.0 – Hacking with Swift",
+  "title": "What's new in Swift 2.0 - Hacking with Swift",
   "desc": "What's new in Swift 2.0",
   "link": "/hackingwithswift.com/swift2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -719,7 +719,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "Key features in Swift – Hacking with Swift",
+  "title": "Key features in Swift - Hacking with Swift",
   "desc": "Key features in Swift",
   "link": "/hackingwithswift.com/new-features-swift-2.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -729,7 +729,7 @@ Whether you want to learn SwiftUI or UIKit, Hacking with iOS is a complete tutor
 
 ```component VPCard
 {
-  "title": "Safari Content Blocking in iOS: a tutorial by example – Hacking with Swift",
+  "title": "Safari Content Blocking in iOS: a tutorial by example - Hacking with Swift",
   "desc": "Safari Content Blocking in iOS: a tutorial by example",
   "link": "/hackingwithswift.com/safari-content-blocking-ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",

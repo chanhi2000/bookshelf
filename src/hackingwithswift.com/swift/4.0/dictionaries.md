@@ -117,7 +117,7 @@ Now, any experienced developer will probably argue that's better written using n
 let name = person["name"] ?? "Anonymous"
 ```
 
-However, that doesn't work when you're *modifying* the dictionary value rather than just reading it. You can't modify a dictionary value in place because accessing its key returns an optional – the key might not exist, after all. With Swift 4's default dictionary values you can write much more succinct code, such as this:
+However, that doesn't work when you're *modifying* the dictionary value rather than just reading it. You can't modify a dictionary value in place because accessing its key returns an optional - the key might not exist, after all. With Swift 4's default dictionary values you can write much more succinct code, such as this:
 
 ```swift
 var favoriteTVShows = ["Red Dwarf", "Blackadder", "Fawlty Towers", "Red Dwarf"]

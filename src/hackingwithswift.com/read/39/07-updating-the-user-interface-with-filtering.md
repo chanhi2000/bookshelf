@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ That will run an initial filter looking for the word "swift". If you want to sho
 filteredWords = allWords
 ```
 
-For now, though, please stick with `applyUserFilter("swift")` – the reason for this will become clear soon.
+For now, though, please stick with `applyUserFilter("swift")` - the reason for this will become clear soon.
 
 Now onto the interesting stuff: letting the user enter a filter value. This needs to show a `UIAlertController` with a text field and two buttons, Filter and Cancel. When the user taps Filter, whatever they entered in the text field needs to be sent to the `applyUserFilter()` method of `PlayData`, and the table reloaded to reflect their changes.
 
@@ -98,7 +98,7 @@ let userInput = ac.textFields?[0].text ?? "0"
 
 That contains two optionals: the `textFields` property might be `nil` (i.e., if there aren't any text fields) and even if we pull out the first text field from the array it might not have any text. Rather than try to fight our way through the maze of optionals, this code takes an easier approach: if either of the two optionals return `nil`, the nil coalescing operator (`??`) kicks in, and ensures that "0" is returned instead. This means `userInput` will always be a `String` and not a `String?`: it will either be something the user entered, or "0".
 
-To finish up the user interface, we need to add a right bar button item to the navigation bar that will trigger the `searchTapped()` method – add this line to `viewDidLoad()`:
+To finish up the user interface, we need to add a right bar button item to the navigation bar that will trigger the `searchTapped()` method - add this line to `viewDidLoad()`:
 
 ```swift
 navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchTapped))

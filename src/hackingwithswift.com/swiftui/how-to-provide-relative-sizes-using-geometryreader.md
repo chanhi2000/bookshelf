@@ -80,7 +80,7 @@ GeometryReader { geometry in
 
 ::: note
 
-`GeometryReader` doesn't take into account any offsets or spacing further down in the view hierarchy, which is why there is no spacing on the `HStack` – if we allowed spacing in there, the views would be a little too large for the available space.
+`GeometryReader` doesn't take into account any offsets or spacing further down in the view hierarchy, which is why there is no spacing on the `HStack` - if we allowed spacing in there, the views would be a little too large for the available space.
 
 :::
 

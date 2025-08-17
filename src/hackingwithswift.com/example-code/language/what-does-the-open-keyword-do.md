@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-When working with code from another module – e.g., UIKit or a module you wrote separate from your main app – Swift differentiates between public accessibility and public overridability. That is, someone can be public for folks to use, but not public for them to extend.
+When working with code from another module - e.g., UIKit or a module you wrote separate from your main app - Swift differentiates between public accessibility and public overridability. That is, someone can be public for folks to use, but not public for them to extend.
 
 Here’s an example to demonstrate the difference:
 
@@ -71,7 +71,7 @@ open class User {
 }
 ```
 
-If that were defined in its own module, any other code accessing it would be able to inherit from the `User` class because it’s marked `open`. Inside the child class, they could override `login()` because it’s also marked `open`, but they could *not* override `playGame()` because it’s marked only as `public` – it can be *called*, but not *changed*. If you remove `open` from the whole `User` class it can be *used* but not *subclassed*.
+If that were defined in its own module, any other code accessing it would be able to inherit from the `User` class because it’s marked `open`. Inside the child class, they could override `login()` because it’s also marked `open`, but they could *not* override `playGame()` because it’s marked only as `public` - it can be *called*, but not *changed*. If you remove `open` from the whole `User` class it can be *used* but not *subclassed*.
 
 The `open` keyword is an effective way of stopping other developers from accidentally overriding functionality that’s critical to the way your app works. If you use it selectively, subclassers can add their own functionality or perhaps replace a few non-critical components, without altering the fundamental behavior of your class.
 

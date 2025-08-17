@@ -57,7 +57,7 @@ In today's digital world, almost every activity we engage in is intertwined with
 
 To make sure that these activities are safe and secure, dev teams need to have a robust security testing framework in place. This helps identify vulnerabilities, prevent cyber threats, and maintain the integrity of digital transactions.
 
-In this article, you will learn all about penetration testing – what it is, why each phase of the process is important, and the tools pentesters use to do their jobs.
+In this article, you will learn all about penetration testing - what it is, why each phase of the process is important, and the tools pentesters use to do their jobs.
 
 ---
 
@@ -161,10 +161,10 @@ The outcome of the scanning phase gives pentesters a clear understanding of pote
 
 Once vulnerabilities are identified, testers deploy various attack techniques to assess their impact. The goal is to demonstrate how a malicious hacker could gain unauthorized access and compromise the target system. Some common attack methods include:
 
-- **SQL Injection** – Exploiting database vulnerabilities.
-- **Cross-Site Scripting (XSS)** – Injecting malicious scripts into web applications.
-- **Buffer Overflow** – Overwriting memory to execute malicious code.
-- **Brute Force Attacks** – Cracking weak passwords for system access.
+- **SQL Injection** - Exploiting database vulnerabilities.
+- **Cross-Site Scripting (XSS)** - Injecting malicious scripts into web applications.
+- **Buffer Overflow** - Overwriting memory to execute malicious code.
+- **Brute Force Attacks** - Cracking weak passwords for system access.
 
 For a clearer understanding, let's explore how database vulnerabilities are exploited using SQL Injection attacks.
 

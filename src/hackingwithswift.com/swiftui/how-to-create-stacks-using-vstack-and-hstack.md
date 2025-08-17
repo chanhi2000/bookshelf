@@ -55,7 +55,7 @@ prev: /hackingwithswift.com/swiftui/how-to-detect-when-the-size-or-position-of-a
 
 Our SwiftUI content views must contain one or more views, which is the layout we want them to show. When we want more than one view on screen at a time you'll usually want to tell SwiftUI how to arrange them, and that's where stacks come in.
 
-Stacks – equivalent to `UIStackView` in UIKit – come in three forms: horizontal (`HStack`), vertical (`VStack`) and depth-based (`ZStack`), with the latter being used when you want to place child views so they overlap.
+Stacks - equivalent to `UIStackView` in UIKit - come in three forms: horizontal (`HStack`), vertical (`VStack`) and depth-based (`ZStack`), with the latter being used when you want to place child views so they overlap.
 
 Let's start with something simple. Here's one text view:
 
@@ -67,7 +67,7 @@ Text("Hello, world!")
 
 ![The words “Hello, world!” on a plain background.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-stacks-using-vstack-and-hstack-1~dark.png)
 
-If we want to place another below, we can't just create a second text view and hope for the best – SwiftUI doesn't know how to arrange them.
+If we want to place another below, we can't just create a second text view and hope for the best - SwiftUI doesn't know how to arrange them.
 
 Instead, we need to place it in a vertical stack so our text views are placed above each other:
 

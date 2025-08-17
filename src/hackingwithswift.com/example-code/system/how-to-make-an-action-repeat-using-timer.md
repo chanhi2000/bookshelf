@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ You can then create that timer in somewhere like `viewDidLoad()` and tell it to 
 gameTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
 ```
 
-The `runTimedCode` selector means that the timer will call a method named `runTimedCode()` every five seconds until the timer is terminated, so you'll need to replace that method name with whatever you want to call – and don’t forget to mark it using `@objc`.
+The `runTimedCode` selector means that the timer will call a method named `runTimedCode()` every five seconds until the timer is terminated, so you'll need to replace that method name with whatever you want to call - and don’t forget to mark it using `@objc`.
 
 Important note: because your object has a property to store the timer, and the timer calls a method on the object, you have a strong reference cycle that means neither object can be freed. To fix this, make sure you invalidate the timer when you're done with it, such as when your view is about to disappear:
 
@@ -94,7 +94,7 @@ Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
 }
 ```
 
-As you can see, the closure is given a reference to the active timer, and can invalidate it at will – in our case, that’s when the random number is 10.
+As you can see, the closure is given a reference to the active timer, and can invalidate it at will - in our case, that’s when the random number is 10.
 
 -->
 

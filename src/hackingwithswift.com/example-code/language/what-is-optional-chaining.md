@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ Optional chaining allows us to put those three optionals together like this:
 let firstParentRecognizer = view.superview?.gestureRecognizers?.first
 ```
 
-So, `superview` is optional, `gestureRecognizers` is optional, and `first` is optional, but the end result – `firstParentRecognizer` will be a simple `UIGestureRecognizer?` rather than a triple optional. The optional chaining – the two question marks – mean that if `superview` is nil then `firstParentRecognizer` gets set to nil and the rest of the statement is ignored, and the same is true of `gestureRecognizers`.
+So, `superview` is optional, `gestureRecognizers` is optional, and `first` is optional, but the end result - `firstParentRecognizer` will be a simple `UIGestureRecognizer?` rather than a triple optional. The optional chaining - the two question marks - mean that if `superview` is nil then `firstParentRecognizer` gets set to nil and the rest of the statement is ignored, and the same is true of `gestureRecognizers`.
 
 Without optional chaining we’d need to use a pyramid of `if let` statements, like this:
 

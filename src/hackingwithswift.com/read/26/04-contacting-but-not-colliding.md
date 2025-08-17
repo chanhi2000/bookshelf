@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -76,7 +76,7 @@ scoreLabel.zPosition = 2
 addChild(scoreLabel)
 ```
 
-When a collision happens, we need to figure out whether it was the player colliding with a star, or the star colliding with a player – the same semi-philosophical problem we had in project 11. And our solution is identical too: figure out which is which, then call another method.
+When a collision happens, we need to figure out whether it was the player colliding with a star, or the star colliding with a player - the same semi-philosophical problem we had in project 11. And our solution is identical too: figure out which is which, then call another method.
 
 First, we need to make ourselves the contact delegate for the physics world, so make your class conform to `SKPhysicsContactDelegate` then add this line in `didMove(to:)`:
 

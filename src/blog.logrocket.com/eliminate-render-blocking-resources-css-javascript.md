@@ -276,9 +276,9 @@ If you’re not using plugins, you can manually optimize your site by:
 
 Some of the best WordPress plugins to eliminate render-blocking resources include:
 
-- [**WP Rocket**](https://wp-rocket.me/) – Automates CSS/JS optimization, including lazy loading and deferring JS
-- [**Autoptimize**](https://wordpress.org/plugins/autoptimize/) – Minifies and optimizes CSS, JS, and HTML efficiently
-- [**Perfmatters**](https://perfmatters.io/) – Disables unused scripts and improves overall performance
+- [**WP Rocket**](https://wp-rocket.me/): Automates CSS/JS optimization, including lazy loading and deferring JS
+- [**Autoptimize**](https://wordpress.org/plugins/autoptimize/): Minifies and optimizes CSS, JS, and HTML efficiently
+- [**Perfmatters**](https://perfmatters.io/):\ Disables unused scripts and improves overall performance
 
 ### How do I get rid of render-blocking resources in React JS?
 

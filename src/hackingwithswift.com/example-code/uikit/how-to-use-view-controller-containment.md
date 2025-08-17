@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -89,7 +89,7 @@ view.removeFromSuperview()
 removeFromParent()
 ```
 
-Just for convenience you might want to consider adding a small, private extension to `UIViewController` to do these tasks for you – they do need to be run in a precise order, which is easily done incorrectly.
+Just for convenience you might want to consider adding a small, private extension to `UIViewController` to do these tasks for you - they do need to be run in a precise order, which is easily done incorrectly.
 
 Something like this ought to do it:
 

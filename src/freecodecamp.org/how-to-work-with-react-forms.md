@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751502730489/90e3038
 
 If you’ve ever built a form in React and felt like the input fields had a mind of their own, you’re not alone. One minute your form is working fine, the next you’re staring at a blank input that won’t update. Or React throws a warning like `“A component is changing an uncontrolled input of type text to be controlled.”` and you’re not even sure what that means.
 
-I didn’t really get it either until I realized that React doesn’t just read form inputs – it can `own` them. And whether you let React control your inputs or let the `DOM` handle them makes a real difference in how your form behaves.
+I didn’t really get it either until I realized that React doesn’t just read form inputs - it can `own` them. And whether you let React control your inputs or let the `DOM` handle them makes a real difference in how your form behaves.
 
 In this article, I’ll break down:
 

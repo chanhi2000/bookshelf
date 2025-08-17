@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -87,7 +87,7 @@ UIView.animateKeyframes(withDuration: 5, delay: 0, options: .calculationModeCubi
 })
 ```
 
-The `calculationModeCubic` option tells iOS to blend the animations together, so you’ll see the image view overshoot one animation as it curves into the next. You should also try using `calculationModeCubicPaced` instead – in the above code it makes the scaling part run over the entire length of the animation.
+The `calculationModeCubic` option tells iOS to blend the animations together, so you’ll see the image view overshoot one animation as it curves into the next. You should also try using `calculationModeCubicPaced` instead - in the above code it makes the scaling part run over the entire length of the animation.
 
 -->
 

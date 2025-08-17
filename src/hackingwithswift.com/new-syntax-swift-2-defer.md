@@ -44,7 +44,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "The defer keyword in Swift: try/finally done right – Hacking with Swift",
+  "title": "The defer keyword in Swift: try/finally done right - Hacking with Swift",
   "desc": "The defer keyword in Swift: try/finally done right",
   "link": "https://hackingwithswift.com/new-syntax-swift-2-defer",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -82,7 +82,7 @@ func writeLog() {
 
 I'm not going to try to fill in any code for the methods in there, they are hopefully self-explanatory. As you can see, a file is opened, then various types of data are written out, before finally the file is closed.
 
-But what happens if any one of those status checks returns "disaster"? Answer: our guard condition will trap the error and exit the method – *leaving the file open*.
+But what happens if any one of those status checks returns "disaster"? Answer: our guard condition will trap the error and exit the method - *leaving the file open*.
 
 There were two solutions to this, neither of which were nice. The first was to copy and paste the call to `closeFile()` so that it is called before any of those `returns`. The second was to create a pyramid of doom, with several stacked conditional statements to handle writing.
 
@@ -143,11 +143,11 @@ func myFunc() {
 }
 ```
 
-That will print "Step 1", "Step 2", "Step 4", "Step 3", "Step 5" – steps 3 and 4 are switched because 3 is deferred until the `myFunc()` method ends, i.e. when it goes out of scope programmatically.
+That will print "Step 1", "Step 2", "Step 4", "Step 3", "Step 5" - steps 3 and 4 are switched because 3 is deferred until the `myFunc()` method ends, i.e. when it goes out of scope programmatically.
 
 This scope is effectively anything in braces, { and }, but realistically there are two main ways you may want to use it: inside a `do` block and inside a loop.
 
-`do` blocks are usually used with `catch` to handle errors smoothly, but you don't need that – you can use `do` to create a temporary scope anywhere inside your method. Any variables created inside the `do` block exist only there, and any work you defer inside the block will execute as soon as the closing brace of the block is reached.
+`do` blocks are usually used with `catch` to handle errors smoothly, but you don't need that - you can use `do` to create a temporary scope anywhere inside your method. Any variables created inside the `do` block exist only there, and any work you defer inside the block will execute as soon as the closing brace of the block is reached.
 
 For example:
 
@@ -179,7 +179,7 @@ for i in 1...10 {
 
 ## You can `defer` multiple things
 
-One of the most powerful features of `defer` is that you can stack up multiple deferred pieces of work, and Swift will ensure they all get executed. What's more, it executes them in reverse order, meaning that the most recently deferred thing gets run first – effectively unwinding a stack.
+One of the most powerful features of `defer` is that you can stack up multiple deferred pieces of work, and Swift will ensure they all get executed. What's more, it executes them in reverse order, meaning that the most recently deferred thing gets run first - effectively unwinding a stack.
 
 Not only does this mean you can defer work without having to worry about what if anything was already deferred, but also that Swift safely unwinds its `defer` stack based on the order you chose.
 

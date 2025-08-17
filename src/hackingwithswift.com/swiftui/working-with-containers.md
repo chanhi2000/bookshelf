@@ -57,7 +57,7 @@ SwiftUI is designed to be composed right out of the box, which means you can pla
 
 This is particularly useful when working with the major container views we are used to, such as navigation controllers and tab bar controllers. We can place any views we want right into another container view, and SwiftUI will adapt its layout automatically.
 
-In this regard, SwiftUI's own containers – `NavigationStack`, `TabView`, `Group`, and more – are no different from containers we make with our own view composition.
+In this regard, SwiftUI's own containers - `NavigationStack`, `TabView`, `Group`, and more - are no different from containers we make with our own view composition.
 
 ::: details Similar solutions…
 

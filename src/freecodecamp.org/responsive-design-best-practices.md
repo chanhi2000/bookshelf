@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Build Responsive Websites – Best Practices for Developers"
-description: "Article(s) > How to Build Responsive Websites – Best Practices for Developers"
+title: "How to Build Responsive Websites - Best Practices for Developers"
+description: "Article(s) > How to Build Responsive Websites - Best Practices for Developers"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Build Responsive Websites – Best Practices for Developers"
+      content: "Article(s) > How to Build Responsive Websites - Best Practices for Developers"
     - property: og:description
-      content: "How to Build Responsive Websites – Best Practices for Developers"
+      content: "How to Build Responsive Websites - Best Practices for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/responsive-design-best-practices.html
 prev: /programming/css/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/05/responsive-g619d39e5
 ---
 
 <SiteInfo
-  name="How to Build Responsive Websites – Best Practices for Developers"
+  name="How to Build Responsive Websites - Best Practices for Developers"
   desc="The way we interact with the web has changed dramatically, and it will keep changing. In the past, most people used desktop computers to access the internet. But today, people are using a wide variety of devices, including laptop..."
   url="https://freecodecamp.org/news/responsive-design-best-practices"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -124,7 +124,7 @@ But you have to consider the fact that some users might try to view the website 
 
 To make this look good even on devices with smaller screens, you can use media queries to either completely remove the aside bar or you can bring it below the main content area.
 
-It depends on you and what you think your users might want to see or the type of information on the aside. This is just to help you think about the options – remember you are a problem solver and there is rarely one way to solve a problem. So pick what works best for you.
+It depends on you and what you think your users might want to see or the type of information on the aside. This is just to help you think about the options - remember you are a problem solver and there is rarely one way to solve a problem. So pick what works best for you.
 
 For the smaller screen, in this example we will be putting the aside bar below the main area with media query.
 
@@ -182,7 +182,7 @@ There are a few things to take note of here (but again, this isn't meant to be a
 
 When working with media queries, you can define the **min-width** or **max-width**.
 
-The code written inside the container of min-width are those we want to apply for that width and above – in this case, for the **wrapper**, you applied the display flex only when the width of the user screen is **600px or above** . Other styles like the **main width** and the **aside width** also have their indivdual size adjusted when the screen get to a size of 600px and above. That is, the styles you have defined outside this media query will keep working until it sees a screen of 600px and above.
+The code written inside the container of min-width are those we want to apply for that width and above - in this case, for the **wrapper**, you applied the display flex only when the width of the user screen is **600px or above** . Other styles like the **main width** and the **aside width** also have their indivdual size adjusted when the screen get to a size of 600px and above. That is, the styles you have defined outside this media query will keep working until it sees a screen of 600px and above.
 
 At 600px, it overrides these styles, which it does in the media query block, and then makes the necessary changes.
 
@@ -299,7 +299,7 @@ These elements are then positioned using the top, bottom, left, and right proper
 </html>
 ```
 
-As you can see from above, we added the position static along with other properties and nothing happened. This is not because the code is not working – this is just the behaviour of position static. Adding or removing the position static does nothing to the code, that is where it should be.
+As you can see from above, we added the position static along with other properties and nothing happened. This is not because the code is not working - this is just the behaviour of position static. Adding or removing the position static does nothing to the code, that is where it should be.
 
 ![](https://freecodecamp.org/news/content/images/2023/05/Screenshot--1799-.png)
 
@@ -405,7 +405,7 @@ background:yellow;
 
 ![](https://freecodecamp.org/news/content/images/2023/05/Screenshot--1803-.png)
 
-As you can see from the code and image above, the position is relative to that of the parent element – in this case, it's the fixed wrapper.
+As you can see from the code and image above, the position is relative to that of the parent element - in this case, it's the fixed wrapper.
 
 You can learn more about the CSS position property [in this tutorial](/freecodecamp.org/css-positioning-and-flexbox-explained.md).
 
@@ -413,7 +413,7 @@ You can learn more about the CSS position property [in this tutorial](/freecodec
 
 Images are quite special, and that is why I am adding a section on them here too.
 
-You can make images responsive by using the various methods listed above – but due to the nature of images, they are easily cropped or distorted if you're not careful.
+You can make images responsive by using the various methods listed above - but due to the nature of images, they are easily cropped or distorted if you're not careful.
 
 Here are a couple things you can do when working with images if you want them to be responsive
 
@@ -423,8 +423,8 @@ Unlike raster images (for example, jpg, png, and so on) which are made up of ind
 
 Some developers prefer to use SVGs rather than other types of images because:
 
-- **scalability** – SVGs are infinitely scalable, which means that they can be used in a variety of different sizes and resolutions without losing quality.
-- **smaller file size** – SVG images typically have a smaller file size than other types of images, such as JPEGs or PNGs.
+- **scalability** - SVGs are infinitely scalable, which means that they can be used in a variety of different sizes and resolutions without losing quality.
+- **smaller file size** - SVG images typically have a smaller file size than other types of images, such as JPEGs or PNGs.
 
 **Object-fit**: The object-fit property is used to specify how the img should be resized to fit its container. This property tells the content to fill the container in a variety of ways, such as "preserve that aspect ratio" or "stretch up and take up as much space as possible".
 
@@ -449,7 +449,7 @@ Hopefully you can start using them in your own projects.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Build Responsive Websites – Best Practices for Developers",
+  "title": "How to Build Responsive Websites - Best Practices for Developers",
   "desc": "By Fakorede Damilola The way we interact with the web has changed dramatically, and it will keep changing. In the past, most people used desktop computers to access the internet. But today, people are using a wide variety of devices, including laptop...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/responsive-design-best-practices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

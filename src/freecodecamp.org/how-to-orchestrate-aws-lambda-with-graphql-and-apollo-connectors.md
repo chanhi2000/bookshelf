@@ -493,7 +493,7 @@ If you're using VS Code, the repository includes a tasks.json file that adds a �
 }
 ```
 
-If you are not using VS Code, you can start your graph by executing `rover dev –supergraph-config supergraph.yaml –router-config router.yaml` from a terminal window.
+If you are not using VS Code, you can start your graph by executing `rover dev -supergraph-config supergraph.yaml -router-config router.yaml` from a terminal window.
 
 If everything is configured correctly, you’ll see the following:
 
@@ -519,7 +519,7 @@ A helpful debugging feature is the Connectors Debugger, available in the drop-do
 
 ![debugger showing request overview](https://cdn.hashnode.com/res/hashnode/image/upload/v1742756614481/c9b311e3-ab5d-4927-9457-e9a7d242fbdf.jpeg)
 
-The Connection Debugger provides a comprehensive view of the HTTP request, including headers, body, response code, and the selection mapping used in the query. If you’re experiencing difficulties running queries, use this debugger – it will save you a lot of time.
+The Connection Debugger provides a comprehensive view of the HTTP request, including headers, body, response code, and the selection mapping used in the query. If you’re experiencing difficulties running queries, use this debugger - it will save you a lot of time.
 
 ---
 

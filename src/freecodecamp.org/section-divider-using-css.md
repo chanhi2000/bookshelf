@@ -60,7 +60,7 @@ Before we dig into the technical part, I have created an [<FontIcon icon="fas fa
 
 Alright, I can hear saying: "Why a boring tutorial? I'll simply use the generator whenever I need it!"
 
-Sure, you can do that – but it's always good to know what's happening under the hood so you understand the code you are using and so you're able to manually adjust it.
+Sure, you can do that - but it's always good to know what's happening under the hood so you understand the code you are using and so you're able to manually adjust it.
 
 Then you'll be able to create your own personalized divider after understanding the ones I made!
 
@@ -279,7 +279,7 @@ Even with the mask method, the code pattern is still the same as the one using c
 
 Now, in addition to having a [<FontIcon icon="fas fa-globe"/>cool online generator for section dividers](https://css-generators.com/section-divider/), you also know the secret behind creating them.
 
-You may have noticed in the generator that each divider comes with 2 directions but I only explained one for each divider. I did this on purpose to let you try to understand what values we need to update to get the opposite direction. You can do it – it's not difficult and you will learn a lot by doing it.
+You may have noticed in the generator that each divider comes with 2 directions but I only explained one for each divider. I did this on purpose to let you try to understand what values we need to update to get the opposite direction. You can do it - it's not difficult and you will learn a lot by doing it.
 
 I will be releasing more generators in the future so bookmark this link: [<FontIcon icon="fas fa-globe"/>css-generators.com](https://css-generators.com/) and follow me [on X (<FontIcon icon="fa-brands fa-x-twitter"/>`ChallengesCss`)](https://x.com/ChallengesCss) to not miss them.
 

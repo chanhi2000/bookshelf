@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Write Code That's Easy to Read – Tips for Developers"
-description: "Article(s) > How to Write Code That's Easy to Read – Tips for Developers"
+title: "How to Write Code That's Easy to Read - Tips for Developers"
+description: "Article(s) > How to Write Code That's Easy to Read - Tips for Developers"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Write Code That's Easy to Read – Tips for Developers"
+      content: "Article(s) > How to Write Code That's Easy to Read - Tips for Developers"
     - property: og:description
-      content: "How to Write Code That's Easy to Read – Tips for Developers"
+      content: "How to Write Code That's Easy to Read - Tips for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-code-thats-easy-to-read.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733334801650/9c73c25
 ---
 
 <SiteInfo
-  name="How to Write Code That's Easy to Read – Tips for Developers"
+  name="How to Write Code That's Easy to Read - Tips for Developers"
   desc="Programs are meant to be read by humans and only incidentally for computers to execute. - Donald Knuth Have you ever heard that programmers spend more time reading code than writing it? Well, I’ve found that this is often true: as a developer, you’l..."
   url="https://freecodecamp.org/news/how-to-write-code-thats-easy-to-read"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -137,7 +137,7 @@ The function does one of two things:
 1. It creates an authentication token for an existing account and returns it after updating the account details or,
 2. It creates an account if none exists and returns an authentication token.
 
-This violates the Single Responsibility Principle – but fixing that is a challenge for another article.
+This violates the Single Responsibility Principle - but fixing that is a challenge for another article.
 
 The goal here is to refactor this function so that it reads so well that even a non-programmer can read it and understand what it does. Even better, we also want them to be able to remember it after they’ve been away from it for a while.
 
@@ -165,7 +165,7 @@ This involves the use of `return` statements or throwing errors early in the fun
 
 **Use everyday grammar**: This involves updating identifiers and compressing complex conditionals into memorable identifier names. Everyday grammar is easy to read because it is familiar and relatable.
 
-**Avoid nested code blocks**: When debugging code mentally or trying to understand it, changes in the value of identifiers in nested code blocks are hard to keep track of. This is because with each nested conditional, there is at least a 2x increase in the number of paths that the logic execution can take to update the value of one identifier – and that gets worse if there is more than one identifier that is updated.
+**Avoid nested code blocks**: When debugging code mentally or trying to understand it, changes in the value of identifiers in nested code blocks are hard to keep track of. This is because with each nested conditional, there is at least a 2x increase in the number of paths that the logic execution can take to update the value of one identifier - and that gets worse if there is more than one identifier that is updated.
 
 This means that your mind has to keep track of those paths which can escalate quickly into a mental memory overload, potentially resulting in mental grief and bugs when updating the code.
 
@@ -234,7 +234,7 @@ Image credit: [<FontIcon icon="fas fa-globe"/>Work illustrations by Storyset](ht
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Write Code That's Easy to Read – Tips for Developers",
+  "title": "How to Write Code That's Easy to Read - Tips for Developers",
   "desc": "Programs are meant to be read by humans and only incidentally for computers to execute. - Donald Knuth Have you ever heard that programmers spend more time reading code than writing it? Well, I’ve found that this is often true: as a developer, you’l...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-code-thats-easy-to-read.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

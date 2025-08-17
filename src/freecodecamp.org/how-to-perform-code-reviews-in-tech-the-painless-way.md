@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Perform Code Reviews in Tech – The Painless Way"
-description: "Article(s) > How to Perform Code Reviews in Tech – The Painless Way"
+title: "How to Perform Code Reviews in Tech - The Painless Way"
+description: "Article(s) > How to Perform Code Reviews in Tech - The Painless Way"
 icon: iconfont icon-github
 category:
   - DevOps
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Perform Code Reviews in Tech – The Painless Way"
+      content: "Article(s) > How to Perform Code Reviews in Tech - The Painless Way"
     - property: og:description
-      content: "How to Perform Code Reviews in Tech – The Painless Way"
+      content: "How to Perform Code Reviews in Tech - The Painless Way"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-code-reviews-in-tech-the-painless-way.html
 prev: /devops/github/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733242289474/def1a31
 ---
 
 <SiteInfo
-  name="How to Perform Code Reviews in Tech – The Painless Way"
+  name="How to Perform Code Reviews in Tech - The Painless Way"
   desc="Okay, I know you may be skeptical: other guides have promised painless code reviews only to reveal that their solution requires some hyper-specific tech stack or a paid developer tool. I won’t do that to you. This guide provides a straightforward and..."
   url="https://freecodecamp.org/news/how-to-perform-code-reviews-in-tech-the-painless-way"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -91,7 +91,7 @@ Now, let’s discuss what is **not** the purpose of a code review:
 
 - Finding bugs. That's what tests (unit, integration, e2e, api, and so on…)are for.
 
-Nitpicking on style issues – settle for one style and use formatters or AI tools to enforce it. Just keep in mind that there are many things that an AI tool cannot check. Code reviews are an excellent place to ensure the code is sufficiently documented or self-documenting.
+Nitpicking on style issues - settle for one style and use formatters or AI tools to enforce it. Just keep in mind that there are many things that an AI tool cannot check. Code reviews are an excellent place to ensure the code is sufficiently documented or self-documenting.
 
 Do you want to know how you can check this? Return to the code you wrote 6-12 months ago and try to understand what it was written to do.
 
@@ -101,7 +101,7 @@ If you understand it quickly, that means it's readable, and the code review was 
 
 ## Why is Doing **Code Reviews** Hard?
 
-Despite their importance, many devs don’t like doing code reviews – in part because they can be challenging, especially if you’re not following best practices.
+Despite their importance, many devs don’t like doing code reviews - in part because they can be challenging, especially if you’re not following best practices.
 
 Here are some pain points I’ve observed during my years of participating in code reviews:
 
@@ -213,7 +213,7 @@ Code reviews need a systematic approach, but maintaining consistency across ever
 
 The diagram shows a real problem we all face in code reviews. See the left side? That's we humans doing manual formatting checks: finding weird spaces, fixing indents, writing comments about it... pretty tedious stuff. But check out the right side: that's where tools like `Prettier` just fix these formatting issues automatically.
 
-No meetings, no back-and-forth – just done. That's why I started using `CodeRabbit`, which is a dev tool that caught my attention recently.
+No meetings, no back-and-forth - just done. That's why I started using `CodeRabbit`, which is a dev tool that caught my attention recently.
 
 ---
 
@@ -223,7 +223,7 @@ The CodeRabbit docs describe the tool pretty effectively, so I’ll just leave t
 
 ::: info
 
-> [**CodeRabbit**](https://coderabbit.ai/) is an AI-powered code reviewer that delivers context-aware feedback on pull requests within minutes, reducing the time and effort needed for manual code reviews. It provides a fresh perspective and catches issues that are often missed, enhancing the overall review quality. – from the CodeRabbit docs
+> [**CodeRabbit**](https://coderabbit.ai/) is an AI-powered code reviewer that delivers context-aware feedback on pull requests within minutes, reducing the time and effort needed for manual code reviews. It provides a fresh perspective and catches issues that are often missed, enhancing the overall review quality. - from the CodeRabbit docs
 
 ![what is CodeRabbit - home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1731326629130/933c46f2-a24c-4e08-a470-8449e96387aa.png)
 
@@ -353,7 +353,7 @@ Follow me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`theankurtyagi`)](http
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Perform Code Reviews in Tech – The Painless Way",
+  "title": "How to Perform Code Reviews in Tech - The Painless Way",
   "desc": "Okay, I know you may be skeptical: other guides have promised painless code reviews only to reveal that their solution requires some hyper-specific tech stack or a paid developer tool. I won’t do that to you. This guide provides a straightforward and...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-code-reviews-in-tech-the-painless-way.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

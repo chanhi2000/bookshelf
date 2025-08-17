@@ -81,7 +81,7 @@ In the first part, you'll dive deep into the essential concepts of Elasticsearch
 
 This foundational knowledge is applicable to any programming language, but the course uses Python for demonstrations, making it easy to follow along.
 
-### Part 2: Real-World Project – Build a Search Engine for APOD
+### Part 2: Real-World Project - Build a Search Engine for APOD
 
 In the second part, you’ll apply everything you've learned by building a practical project. You’ll create a search engine for NASA's **Astronomy Picture of the Day (APOD)** dataset. This project will give you hands-on experience with key skills like:
 
@@ -102,7 +102,7 @@ This in-depth course spans 5 hours and covers a wide range of topics:
 2. **Index Management and Document Storage**
 3. **Text Analysis, Searching, and Pipelines**
 4. **Advanced Features like Embeddings and Semantic Search**
-5. **Final Project – Building a Real-World Search Engine**
+5. **Final Project - Building a Real-World Search Engine**
 
 ---
 

@@ -52,7 +52,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-You can only call async functions from other async functions, because they might need to suspend themselves and everything that is waiting for them. This leads to a bit of a chicken and egg problem: if only async functions can call other async functions, what starts it all – what calls the very first async function?
+You can only call async functions from other async functions, because they might need to suspend themselves and everything that is waiting for them. This leads to a bit of a chicken and egg problem: if only async functions can call other async functions, what starts it all - what calls the very first async function?
 
 Well, there are three main approaches you’ll find yourself using.
 
@@ -113,11 +113,11 @@ Using `task()` will almost certainly run our code away from the main thread, but
 
 :::
 
-The third option is that Swift provides a dedicated `Task` API that lets us call async functions from a synchronous function. Now, you might think “wait a minute – how can a synchronous function call an asynchronous function?” Well, it *can’t* – at least not *directly*. Remember, async functions might need to suspend themselves in the future, and synchronous functions don’t know how to do that.
+The third option is that Swift provides a dedicated `Task` API that lets us call async functions from a synchronous function. Now, you might think “wait a minute - how can a synchronous function call an asynchronous function?” Well, it *can’t* - at least not *directly*. Remember, async functions might need to suspend themselves in the future, and synchronous functions don’t know how to do that.
 
-When you use something like `Task` you’re asking Swift to run some async code. If you don’t care about the result you have nothing to wait *for* – the task will start running immediately while your own function continues, and it will always run to completion even if you don’t store the active task somewhere. This means you’re not awaiting the result of the task, so you won’t run the risk of being suspended. Of course, when you actually want to *use* any returned value from your task, that’s when `await` is required. 
+When you use something like `Task` you’re asking Swift to run some async code. If you don’t care about the result you have nothing to wait *for* - the task will start running immediately while your own function continues, and it will always run to completion even if you don’t store the active task somewhere. This means you’re not awaiting the result of the task, so you won’t run the risk of being suspended. Of course, when you actually want to *use* any returned value from your task, that’s when `await` is required. 
 
-We’ll be looking at Swift’s `Task` API in detail later on, but for now we could quickly upgrade our little website source code viewer to work with any URL. This time we’re going to trigger the network fetch using a button press, which is *not* asynchronous by default, so we’re going to wrap our work in a `Task`. This is possible because we don’t need to wait for the task to complete – it will always run to completion as soon as it is made, and will take care of updating the UI for us.
+We’ll be looking at Swift’s `Task` API in detail later on, but for now we could quickly upgrade our little website source code viewer to work with any URL. This time we’re going to trigger the network fetch using a button press, which is *not* asynchronous by default, so we’re going to wrap our work in a `Task`. This is possible because we don’t need to wait for the task to complete - it will always run to completion as soon as it is made, and will take care of updating the UI for us.
 
 Here’s how that looks:
 

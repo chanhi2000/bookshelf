@@ -105,11 +105,11 @@ Ultimately, it's tempting to write concise hacks that work, but they can become 
 
 ### Fail-Safe Defaults
 
-You should base access decisions on permission rather than exclusion. Mistakes in permission-based systems typically result in accidental denials – that is, users being denied access to necessary information. These can be quickly identified.
+You should base access decisions on permission rather than exclusion. Mistakes in permission-based systems typically result in accidental denials - that is, users being denied access to necessary information. These can be quickly identified.
 
 On the other hand, errors in exclusion-based systems may lead to unauthorized access. These can often go unnoticed, as people rarely report having unnecessary permissions.
 
-In essence, you should prioritize allowlists over denylists – not just in access control, but also in input validation.
+In essence, you should prioritize allowlists over denylists - not just in access control, but also in input validation.
 
 An allowlist (formerly known as a whitelist) specifies who can access what, denying everyone else by default. In contrast, a denylist (formerly known as a blacklist) allows all access except for specified exclusions. These are often implemented as rules, such as only allowing an integer value between 0 and 200, or a string that must match a regular expression before it can be accepted as an e-mail address.
 
@@ -175,7 +175,7 @@ You should aim for a balance between security costs and potential losses, consid
 
 For example, securing your car is usually sufficient if it’s harder to steal than your neighbor’s. But if your car is particularly desirable to thieves, you’ll need stronger security measures.
 
-For a practical example, password storage algorithms – such as Argon2, bcrypt, and scrypt – have a ‘work factor’ parameter that determines the amount of resources to use. This can be scaled to keep the algorithm fast enough for regular use, but prohibitively expensive to brute-force.
+For a practical example, password storage algorithms - such as Argon2, bcrypt, and scrypt - have a ‘work factor’ parameter that determines the amount of resources to use. This can be scaled to keep the algorithm fast enough for regular use, but prohibitively expensive to brute-force.
 
 ### Compromise Recording
 
@@ -187,7 +187,7 @@ This principle highlights the need for effective logging and evidence collection
 
 As Saltzer and Schroeder remind us, these principles serve as helpful warnings rather than strict rules. If you notice a principle being violated in your design, it’s a sign that something could be wrong and should be closely examined to ensure the issue is addressed or isn’t significant.
 
-Remember, even the best-designed systems can be vulnerable if a single bug slips through during implementation. That’s why secure design and implementation must work together – security is a comprehensive approach. Most exploitable weaknesses come from either the design phase or the implementation phase, and attackers don’t care which type they exploit – they just want to break in.
+Remember, even the best-designed systems can be vulnerable if a single bug slips through during implementation. That’s why secure design and implementation must work together - security is a comprehensive approach. Most exploitable weaknesses come from either the design phase or the implementation phase, and attackers don’t care which type they exploit - they just want to break in.
 
 The latest OWASP Top 10 emphasizes the critical role of design by [<FontIcon icon="fas fa-globe"/>featuring "Insecure Design" for the first time](https://owasp.org/Top10/A04_2021-Insecure_Design/). To address this, it is essential for developer teams to understand best practices thoroughly.
 

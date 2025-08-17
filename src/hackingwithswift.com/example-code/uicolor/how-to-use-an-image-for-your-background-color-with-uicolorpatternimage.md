@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIClolr - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uicolor/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Nearly all subclasses of `UIView` can have their background color adjusted, but often you’ll find you want to use an image rather than a flat color.
 
-Well, this is actually significantly easier than you think: you can wrap any `UIImage` inside a `UIColor`, and use it anywhere you want to set a background color – or indeed *any* kind of color, even for text. If the image is too small for the space you’re drawing it will automatically be tiled, meaning that it will be repeated both horizontally and vertically until the space is filled.
+Well, this is actually significantly easier than you think: you can wrap any `UIImage` inside a `UIColor`, and use it anywhere you want to set a background color - or indeed *any* kind of color, even for text. If the image is too small for the space you’re drawing it will automatically be tiled, meaning that it will be repeated both horizontally and vertically until the space is filled.
 
 To try it out, load a `UIImage` into your app then add this line of code to a view controller:
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Optimize SQLite Query Performance with Indexing"
-description: Article(s) > (8/11) How to Work with SQLite in Python – A Handbook for Beginners 
+description: Article(s) > (8/11) How to Work with SQLite in Python - A Handbook for Beginners 
 category:
   - Python
   - SQLite
@@ -15,7 +15,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (8/11) How to Work with SQLite in Python – A Handbook for Beginners
+      content: Article(s) > (8/11) How to Work with SQLite in Python - A Handbook for Beginners
     - property: og:description
       content: "How to Optimize SQLite Query Performance with Indexing"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/2443337
 
 ```component VPCard
 {
-  "title": "How to Work with SQLite in Python – A Handbook for Beginners",
+  "title": "How to Work with SQLite in Python - A Handbook for Beginners",
   "desc": "SQLite is one of the most popular relational database management systems (RDBMS). It’s lightweight, meaning that it doesn’t take up much space on your system. One of its best features is that it’s serverless, so you don’t need to install or manage a ...",
   "link": "/freecodecamp.org/work-with-sqlite-in-python-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727862097228/2443337
 ---
 
 <SiteInfo
-  name="How to Work with SQLite in Python – A Handbook for Beginners"
+  name="How to Work with SQLite in Python - A Handbook for Beginners"
   desc="SQLite is one of the most popular relational database management systems (RDBMS). It’s lightweight, meaning that it doesn’t take up much space on your system. One of its best features is that it’s serverless, so you don’t need to install or manage a ..."
   url="https://freecodecamp.org/news/work-with-sqlite-in-python-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

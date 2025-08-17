@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sor
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Introduction to Sorting Algorithms in Python – Real Python"
+  name="[COURSE] Introduction to Sorting Algorithms in Python - Real Python"
   desc="In this course, you'll learn all about five different sorting algorithms in Python from both a theoretical and a practical standpoint. You'll also learn several related and important concepts, including Big O notation and recursion."
   url="https://realpython.com/courses/intro-sorting-algorithms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -180,7 +180,7 @@ Take the code presented in this tutorial, create new experiments, and explore th
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Introduction to Sorting Algorithms in Python – Real Python"
+  name="[COURSE] Introduction to Sorting Algorithms in Python - Real Python"
   desc="In this course, you'll learn all about five different sorting algorithms in Python from both a theoretical and a practical standpoint. You'll also learn several related and important concepts, including Big O notation and recursion."
   url="https://realpython.com/courses/intro-sorting-algorithms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

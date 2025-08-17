@@ -55,18 +55,18 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734681473969/20c1a1c
 
 <SiteInfo
   name="How to Run Open Source LLMs on Your Own Computer Using Ollama"
-  desc="AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data – both personal and business-related – is by running your own AI on your own infrastructure. This guide will explain how to ..."
+  desc="AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data - both personal and business-related - is by running your own AI on your own infrastructure. This guide will explain how to ..."
   url="https://freecodecamp.org/news/how-to-run-open-source-llms-on-your-own-computer-using-ollama"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1734681473969/20c1a1cd-898a-4f48-a26f-d2d3d2917efc.png"/>
 
-AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data – both personal and business-related – is by running your own AI on your own infrastructure.
+AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data - both personal and business-related - is by running your own AI on your own infrastructure.
 
 This guide will explain how to host an open source LLM on your computer. Doing this helps make sure you don’t compromise your data to third-party companies through cloud-based AI solutions.
 
 ::: note Prerequisites
 
-- **A little AI knowledge**. I’ll cover the main concepts related to what we’ll be doing in the article, but some basic knowledge about LLMs will help you understand this better. No worries if you don’t know anything though – you should still find this interesting.
+- **A little AI knowledge**. I’ll cover the main concepts related to what we’ll be doing in the article, but some basic knowledge about LLMs will help you understand this better. No worries if you don’t know anything though - you should still find this interesting.
 
 - **A decent computer:** A system with at least 16GB of RAM, a multi-core CPU, and preferably a GPU for optimal performance. (If you have lesser specs, it may be quite slow)
 - **Internet connection**: Required to download and install the models.
@@ -94,7 +94,7 @@ These services are hosted and maintained by providers like OpenAI, Google, or AW
 
 ::: important Key Characteristics
 
-- **Easy to use**: Setup is minimal – you simply integrate with an API or access through the web pages.
+- **Easy to use**: Setup is minimal - you simply integrate with an API or access through the web pages.
 - **Scalability**: Handles large workloads and concurrent requests better since they’re managed by companies.
 - **Cutting-edge models**: Often the latest and most powerful models are available in the cloud.
 - **Data dependency**: Your data is sent to the cloud for processing, which may raise privacy concerns.
@@ -275,7 +275,7 @@ As I’ve briefly discussed above, there are various reasons to self-host an LLM
 
 ## When Should You NOT Use a Self-hosted AI?
 
-But this might not be the right fit for you for several reasons. First, you may not have the system resources required to be able to run the models – and perhaps you don’t want to or can’t upgrade.
+But this might not be the right fit for you for several reasons. First, you may not have the system resources required to be able to run the models - and perhaps you don’t want to or can’t upgrade.
 
 Second, you may not have the technical knowledge or time to set up your own model and fine tune it. It’s not terribly difficult, but it does require some background knowledge and particular skills. This can also be a problem if you don’t know how to troubleshoot errors that may come up.
 
@@ -301,7 +301,7 @@ Thanks for reading this article!
 ```component VPCard
 {
   "title": "How to Run Open Source LLMs on Your Own Computer Using Ollama",
-  "desc": "AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data – both personal and business-related – is by running your own AI on your own infrastructure. This guide will explain how to ...",
+  "desc": "AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data - both personal and business-related - is by running your own AI on your own infrastructure. This guide will explain how to ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-open-source-llms-on-your-own-computer-using-ollama.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

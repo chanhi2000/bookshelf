@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,9 +63,9 @@ Some developers force unwrap optionals regularly, and some never do it, but it w
 
 Some things are optional in Swift not because they may or may not be present, but because of historical reasons. For example, when you create a new application, your `AppDelegate` class has an optional `UIWindow` property called `window`. Or there’s the `Bundle` class, which has an optional `URL` property called `resourceURL` property that points to where your bundle’s resources are.
 
-Both of those are optional, but if either of them fail something is seriously wrong with your application – should you really be trying to carry on running if your app is in such a corrupt state?
+Both of those are optional, but if either of them fail something is seriously wrong with your application - should you really be trying to carry on running if your app is in such a corrupt state?
 
-Think about when you try to instantiate a view controller with an identifier. Apple’s API here doesn’t throw errors, and doesn’t return an optional view controller – it just hard crashes, because there’s no sensible way for the app to continue if it’s missing a whole storyboard identifier.
+Think about when you try to instantiate a view controller with an identifier. Apple’s API here doesn’t throw errors, and doesn’t return an optional view controller - it just hard crashes, because there’s no sensible way for the app to continue if it’s missing a whole storyboard identifier.
 
 You can apply that same logic to your code: if you’re trying to load a `UIImage` from your asset catalog, force unwrapping is a sensible thing to do because if that image is missing it means you’ve either made a serious mistake or your app is in a damaged state and forcing a crash might help limit corruption of user data.
 

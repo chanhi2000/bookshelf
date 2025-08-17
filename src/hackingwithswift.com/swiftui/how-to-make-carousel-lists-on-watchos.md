@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-watchOS has a particularly common list style that can easily be replicated using `List`: rows in the list slide and scale up when they are moving onto the screen, then slide and and scale *down* when they are moving *off* the screen. This is particularly effective with chunkier, graphical rows – it’s almost like Apple’s old Cover Flow effect.
+watchOS has a particularly common list style that can easily be replicated using `List`: rows in the list slide and scale up when they are moving onto the screen, then slide and and scale *down* when they are moving *off* the screen. This is particularly effective with chunkier, graphical rows - it’s almost like Apple’s old Cover Flow effect.
 
 To enable this carousel effect, use the `.listStyle()` modifier with `.carousel`, like this:
 

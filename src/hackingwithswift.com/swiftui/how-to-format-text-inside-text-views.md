@@ -131,7 +131,7 @@ Text(72.3, format: .currency(code: "CAD"))
 
 ![The text “CA$72.30”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-format-text-inside-text-views-4~dark.png)
 
-If you need to support iOS 14 and 13, you can use the `formatter` parameter instead – it still lets us customize the way data is presented inside the text, but it's not quite as easy to use.
+If you need to support iOS 14 and 13, you can use the `formatter` parameter instead - it still lets us customize the way data is presented inside the text, but it's not quite as easy to use.
 
 For example, this defines a date formatter and uses it to make sure a task date is presented in human-readable form:
 

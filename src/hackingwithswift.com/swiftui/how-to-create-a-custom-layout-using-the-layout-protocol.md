@@ -59,7 +59,7 @@ SwiftUI lets us create wholly custom layouts for our views using the Layout prot
 Adopting the `Layout` protocol has just two requirements:
 
 - A method that returns how much space your layout wants for its subviews. This will be given a size proposal, which is how much space the parent view has available for it. This might be called multiple times so SwiftUI can see how flexible your container is.
-- Another method that actually places those subviews where you want them. This will be given the same size proposal as the first method, but will also be given a specific bounds to work with – this will be
+- Another method that actually places those subviews where you want them. This will be given the same size proposal as the first method, but will also be given a specific bounds to work with - this will be
 
 You can also optionally make these methods cache their calculations if you're doing something particularly slow, but I've yet to encounter a situation where this is needed.
 
@@ -69,7 +69,7 @@ When you're giving a size proposal, it might contain nil values for either or bo
 
 :::
 
-For example, we could implement a radial layout – a layout that places it views around a circle:
+For example, we could implement a radial layout - a layout that places it views around a circle:
 
 ```swift
 struct RadialLayout: Layout {

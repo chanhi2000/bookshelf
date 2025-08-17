@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Configuration – Azure Key Vault
-description: Article(s) > ASP.NET Core Configuration – Azure Key Vault
+title: ASP.NET Core Configuration - Azure Key Vault
+description: Article(s) > ASP.NET Core Configuration - Azure Key Vault
 icon: iconfont icon-microsoftazure
 category: 
   - DevOps
@@ -21,9 +21,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Configuration – Azure Key Vault
+      content: Article(s) > ASP.NET Core Configuration - Azure Key Vault
     - property: og:description
-      content: ASP.NET Core Configuration – Azure Key Vault
+      content: ASP.NET Core Configuration - Azure Key Vault
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/aspnet-configuration-azure-key-vault.html
 prev: /devops/azure/articles/README.md
@@ -59,7 +59,7 @@ cover: /assets/image/code-maze.com/aspnet-configuration-azure-key-vault/banner.p
 ---
 
 <SiteInfo
-  name="ASP.NET Core Configuration – Azure Key Vault"
+  name="ASP.NET Core Configuration - Azure Key Vault"
   desc="In this article, we're going to talk about how to protect our sensitive configuration data in the production environment with Azure Key Vault"
   url="https://code-maze.com/aspnet-configuration-azure-key-vault/"
   logo="/assets/image/code-maze.com/favicon.png"

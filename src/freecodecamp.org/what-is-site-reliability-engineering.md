@@ -150,7 +150,7 @@ Examples include:
 4. **Database query performance:** The time it takes for database operations.
 5. **User engagement metrics:** How often key features are used.
 
-These SLIs are crucial for determining if the service is meeting its Service Level Objectives (SLOs) – the target values or ranges for these indicators (for example, 99% of ride requests should have a latency under 200ms). The metrics are visualized on dashboards, allowing SREs to understand the system's health and identify correlations between different indicators, ultimately helping them determine if the SLOs are being met or are at risk.
+These SLIs are crucial for determining if the service is meeting its Service Level Objectives (SLOs) - the target values or ranges for these indicators (for example, 99% of ride requests should have a latency under 200ms). The metrics are visualized on dashboards, allowing SREs to understand the system's health and identify correlations between different indicators, ultimately helping them determine if the SLOs are being met or are at risk.
 
 :::
 

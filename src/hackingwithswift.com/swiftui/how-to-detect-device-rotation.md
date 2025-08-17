@@ -117,11 +117,11 @@ struct ContentView: View {
 
 ::: tip
 
-This may not work while your app is connected to Xcode's debugger – try pushing your app to a real device, then running it manually rather than via Xcode.
+This may not work while your app is connected to Xcode's debugger - try pushing your app to a real device, then running it manually rather than via Xcode.
 
 :::
 
-Please remember that device orientation isn't quite as useful as you might expect. Yes, on iPhone a landscape orientation means you have more horizontal space than vertical, but on iPad it's possible for your app to be running in landscape while in split-screen mode – technically the whole screen still has a larger width than height, but the actual space allocated to our app is only a small slice of that width.
+Please remember that device orientation isn't quite as useful as you might expect. Yes, on iPhone a landscape orientation means you have more horizontal space than vertical, but on iPad it's possible for your app to be running in landscape while in split-screen mode - technically the whole screen still has a larger width than height, but the actual space allocated to our app is only a small slice of that width.
 
 ::: details Similar solutions…
 

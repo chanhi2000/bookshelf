@@ -59,7 +59,7 @@ isOriginal: false
 
 SwiftUI has a dedicated `presentationSizing()` modifier that gives us fine-grained control over how presented views are sized on the screen.
 
-**This is _different_ from the `presentationDetents()` modifier that allows us to create bottom sheets and similar – `presentationSizing()` is for controlling the *shape* of the view.**
+**This is _different_ from the `presentationDetents()` modifier that allows us to create bottom sheets and similar - `presentationSizing()` is for controlling the *shape* of the view.**
 
 For example, we could make a `DetailView` struct such as this one
 
@@ -73,7 +73,7 @@ struct DetailView: View {
 }
 ```
 
-That uses the `.form` setting, which is one of the built-in sizes – on iPhone it will just be a regular sheet, but on iPad it's a large square shape that's centered neatly.
+That uses the `.form` setting, which is one of the built-in sizes - on iPhone it will just be a regular sheet, but on iPad it's a large square shape that's centered neatly.
 
 You don't need to do anything special to present a view sized this way; just using the regular `sheet()` modifier is fine, like this:
 
@@ -123,7 +123,7 @@ I used `fixedSize()` on the text to stop it from clipping.
 
 :::
 
-You can go even further if you want – you could use fitted *and* sticky sizing.
+You can go even further if you want - you could use fitted *and* sticky sizing.
 
 Where things get really interesting is the `PresentationSizing` protocol, which lets you create your own sizes. Adopting this protocol means adding just one method that asks you to propose a size for some content.
 

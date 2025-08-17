@@ -87,7 +87,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-allow-row-selection-in-a-list-1~dark.mp4" />
 
-Notice that edit button in the toolbar – remember, your list must be in editing mode to support selection.
+Notice that edit button in the toolbar - remember, your list must be in editing mode to support selection.
 
 If you want *multiple* selection, all you need to do is change your selection property into a `Set` of the same type as your list array. So, if we wanted multiple selection in the previous example we'd use this:
 

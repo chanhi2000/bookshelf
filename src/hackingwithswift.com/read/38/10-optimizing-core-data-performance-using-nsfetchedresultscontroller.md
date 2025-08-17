@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -76,7 +76,7 @@ var fetchedResultsController: NSFetchedResultsController<Commit>!
 
 We now need to rewrite our `loadSavedData()` method so that the existing `NSFetchRequest` is wrapped inside a `NSFetchedResultsController`. We want to create that fetched results controller only once, but retain the ability to change the predicate when the method is called again.
 
-Before I show you the code, there are three new things to learn. First, we're going to be using the `fetchBatchSize` property of our fetch request so that only 20 objects are loaded at a time. Second, we'll be setting the view controller as the delegate for the fetched results controller – you'll see why soon. Third, we need to use the `performFetch()` method on our fetched results controller to make it load its data.
+Before I show you the code, there are three new things to learn. First, we're going to be using the `fetchBatchSize` property of our fetch request so that only 20 objects are loaded at a time. Second, we'll be setting the view controller as the delegate for the fetched results controller - you'll see why soon. Third, we need to use the `performFetch()` method on our fetched results controller to make it load its data.
 
 Here's the revised `loadSavedData()` method:
 
@@ -164,7 +164,7 @@ override func tableView(_ tableView: UITableView, commit editingStyle: UITableVi
 }
 ```
 
-As you can see, that code pulls the object to delete out from the fetched results controller, deletes it, then saves the changes – we no longer touch the table view here.
+As you can see, that code pulls the object to delete out from the fetched results controller, deletes it, then saves the changes - we no longer touch the table view here.
 
 That being said, we do need to add one new method that gets called by the fetched results controller when an object changes. We'll get told the index path of the object that got changed, and all we need to do is pass that on to the `deleteRows(at:)` method of our table view:
 
@@ -180,11 +180,11 @@ func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, 
 }
 ```
 
-Now, you might wonder why this approach is an improvement – haven't we just basically written the same code only in a different place? Well, no. That new delegate method we just wrote could be called from anywhere: if we delete an object in any other way, for example in the detail view, that method will now automatically get called and the table will update. In short, it means our data is driving our user interface, rather than our user interface trying to control our data.
+Now, you might wonder why this approach is an improvement - haven't we just basically written the same code only in a different place? Well, no. That new delegate method we just wrote could be called from anywhere: if we delete an object in any other way, for example in the detail view, that method will now automatically get called and the table will update. In short, it means our data is driving our user interface, rather than our user interface trying to control our data.
 
 Previously, I said "Using attribute constraints can cause problems with `NSFetchedResultsController`, but in this tutorial we're always doing a full save and load of our objects because it's an easy way to avoid problems later." It's time for me to explain the problem: attribute constraints are only enforced as unique when a save happens, which means if you're inserting data then an NSFetchedResultsController may contain duplicates until a save takes place. This won't happen for us because I've made the project perform a save before a load to make things easier, but it's something you need to watch out for in your own code.
 
-If you run the app now, you'll see "Init called!" appears far less frequently because the fetched results controller lazy loads its data – a significant performance optimization.
+If you run the app now, you'll see "Init called!" appears far less frequently because the fetched results controller lazy loads its data - a significant performance optimization.
 
 Before we're done with `NSFetchedResultsController`, I want to show you one more piece of its magic. You've seen how it has sections as well as rows, right? Well, try changing its constructor in `loadSavedData()` to be this:
 
@@ -200,7 +200,7 @@ override func tableView(_ tableView: UITableView, titleForHeaderInSection sectio
 }
 ```
 
-If you run the app now, you'll see the table view has sections as well as rows, although the commits inside each section won’t match the author name you can see. The reason for this discrepancy is that we’re still sorting by date – go to `loadSavedData()` and change its sort descriptor to this:
+If you run the app now, you'll see the table view has sections as well as rows, although the commits inside each section won’t match the author name you can see. The reason for this discrepancy is that we’re still sorting by date - go to `loadSavedData()` and change its sort descriptor to this:
 
 ```swift
 let sort = NSSortDescriptor(key: "author.name", ascending: true)
@@ -208,7 +208,7 @@ let sort = NSSortDescriptor(key: "author.name", ascending: true)
 
 Much better!
 
-So, `NSFetchedResultsController` is not only faster, but it even adds powerful functionality with a tiny amount of code – what's not to like?
+So, `NSFetchedResultsController` is not only faster, but it even adds powerful functionality with a tiny amount of code - what's not to like?
 
 ![The final app, running in landscape on an iPhone SE. The section names are inserted automatically by NSFetchedResultsController.](https://hackingwithswift.com/img/books/hws/38-14@2x.png)
 

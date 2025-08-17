@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
-description: Article(s) > How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
+title: How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns
+description: Article(s) > How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns
 icon: fa-brands fa-golang
 category: 
   - Go
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
+      content: Article(s) > How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns
     - property: og:description
-      content: How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns
+      content: How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/graceful-shutdowns-k8s-go.html
 prev: /programming/go/articles/README.md
@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723496940277/5fe7a89
 ---
 
 <SiteInfo
-  name="How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns"
+  name="How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns"
   desc="Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh..."
   url="https://freecodecamp.org/news/graceful-shutdowns-k8s-go/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -174,7 +174,7 @@ ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGTERM)
 defer stop()
 ```
 
-`NotifyContext` returns a copy of the parent context that is marked done (its Done channel is closed) when one of the listed signals arrives, when the returned `stop()` function is called, or when the parent context's Done channel is closed – whichever happens first.
+`NotifyContext` returns a copy of the parent context that is marked done (its Done channel is closed) when one of the listed signals arrives, when the returned `stop()` function is called, or when the parent context's Done channel is closed - whichever happens first.
 
 There are few problems with our current implementation of HTTP Server:
 
@@ -303,7 +303,7 @@ As you can see, if you have a long-running termination process, it may be necess
 
 ## Conclusion
 
-Graceful shutdowns safeguard data integrity, maintain a seamless user experience, and optimize resource management. With its rich standard library and emphasis on concurrency, Go empowers developers to effortlessly integrate graceful shutdown practices – a necessity for applications deployed in containerized or orchestrated environments like Kubernetes.
+Graceful shutdowns safeguard data integrity, maintain a seamless user experience, and optimize resource management. With its rich standard library and emphasis on concurrency, Go empowers developers to effortlessly integrate graceful shutdown practices - a necessity for applications deployed in containerized or orchestrated environments like Kubernetes.
 
 You can find the Go code and Kubernetes manifests in [this Github repository (<FontIcon icon="iconfont icon-github"/>`plutov/packagemain`)](https://github.com/plutov/packagemain/tree/master/graceful-shutdown).
 
@@ -334,7 +334,7 @@ Like individual application containers, Pods are considered to be relatively eph
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard 
 {
-  "title": "How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns",
+  "title": "How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns",
   "desc": "Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/graceful-shutdowns-k8s-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

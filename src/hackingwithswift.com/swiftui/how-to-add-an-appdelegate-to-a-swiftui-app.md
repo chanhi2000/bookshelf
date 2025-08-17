@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI apps launch using a custom struct that conforms to the `App` protocol, but sometimes you might want to get back the old `UIApplicationDelegate` functionality we used to have – perhaps to handle registration for push notifications, to respond to memory warnings, to detect time changes, and so on.
+SwiftUI apps launch using a custom struct that conforms to the `App` protocol, but sometimes you might want to get back the old `UIApplicationDelegate` functionality we used to have - perhaps to handle registration for push notifications, to respond to memory warnings, to detect time changes, and so on.
 
 To do this, first create a custom class that inherits from `NSObject` and conforms to the `UIApplicationDelegate` protocol, like this:
 

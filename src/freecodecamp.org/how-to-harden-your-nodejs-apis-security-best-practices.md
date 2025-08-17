@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Harden Your Node.js APIs – Security Best Practices"
-description: "Article(s) > How to Harden Your Node.js APIs – Security Best Practices"
+title: "How to Harden Your Node.js APIs - Security Best Practices"
+description: "Article(s) > How to Harden Your Node.js APIs - Security Best Practices"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Harden Your Node.js APIs – Security Best Practices"
+      content: "Article(s) > How to Harden Your Node.js APIs - Security Best Practices"
     - property: og:description
-      content: "How to Harden Your Node.js APIs – Security Best Practices"
+      content: "How to Harden Your Node.js APIs - Security Best Practices"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-harden-your-nodejs-apis-security-best-practices.html
 prev: /programming/js-node/articles/README.md
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745597082780/c803850
 ---
 
 <SiteInfo
-  name="How to Harden Your Node.js APIs – Security Best Practices"
-  desc="If you’ve built an API with Node.js, chances are you’ve thought about security – at least a little. Maybe you’ve heard about SQL injection, brute force attacks, or data leaks. But here’s the thing: it’s not just about big hacks. Even small gaps in yo..."
+  name="How to Harden Your Node.js APIs - Security Best Practices"
+  desc="If you’ve built an API with Node.js, chances are you’ve thought about security - at least a little. Maybe you’ve heard about SQL injection, brute force attacks, or data leaks. But here’s the thing: it’s not just about big hacks. Even small gaps in yo..."
   url="https://freecodecamp.org/news/how-to-harden-your-nodejs-apis-security-best-practices"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745597082780/c803850d-f482-4fcc-a744-4de8fd8a02d8.png"/>
 
-If you’ve built an API with Node.js, chances are you’ve thought about security – at least a little.
+If you’ve built an API with Node.js, chances are you’ve thought about security - at least a little.
 
 Maybe you’ve heard about SQL injection, brute force attacks, or data leaks.
 
@@ -150,7 +150,7 @@ Encrypt the ride. Always.
 
 ## 5. Use Helmet to Secure HTTP Headers
 
-HTTP headers are key-value pairs sent in requests and responses over the web. They give extra information about what’s being sent – like who’s sending it, what type it is, how it should be handled, and more.
+HTTP headers are key-value pairs sent in requests and responses over the web. They give extra information about what’s being sent - like who’s sending it, what type it is, how it should be handled, and more.
 
 HTTP headers are small, but they can be powerful tools to protect your app. `Helmet` is a Node.js middleware that sets secure headers for you.
 
@@ -211,7 +211,7 @@ And don’t forget roles. A user who can view data shouldn’t be able to delete
 
 ## Final Thoughts
 
-Security isn’t just a feature – it’s a habit. You can’t do everything all at once, but you can start with a few key changes.
+Security isn’t just a feature - it’s a habit. You can’t do everything all at once, but you can start with a few key changes.
 
 Use environment variables. Validate your inputs. Add rate limiting. Move to HTTPS. Install Helmet. Sanitize everything. Lock down your authentication.
 
@@ -224,8 +224,8 @@ For more cybersecurity tutorials,* [<FontIcon icon="fas fa-globe"/>join our news
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Harden Your Node.js APIs – Security Best Practices",
-  "desc": "If you’ve built an API with Node.js, chances are you’ve thought about security – at least a little. Maybe you’ve heard about SQL injection, brute force attacks, or data leaks. But here’s the thing: it’s not just about big hacks. Even small gaps in yo...",
+  "title": "How to Harden Your Node.js APIs - Security Best Practices",
+  "desc": "If you’ve built an API with Node.js, chances are you’ve thought about security - at least a little. Maybe you’ve heard about SQL injection, brute force attacks, or data leaks. But here’s the thing: it’s not just about big hacks. Even small gaps in yo...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-harden-your-nodejs-apis-security-best-practices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

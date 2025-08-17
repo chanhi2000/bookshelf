@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "“Rock paper scissors game using native drag & drop” by Hmz C: A project using the HTML Drag element"
-description: "Article(s) > (2/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
+description: "Article(s) > (2/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
 category:
   - Node.js
   - Mermaid.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > (2/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
       content: "“Rock paper scissors game using native drag & drop” by Hmz C: A project using the HTML Drag element"
     - property: og:url
@@ -35,8 +35,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -48,8 +48,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects#heading-2-rock-paper-scissors-game-using-native-drag-drop-by-hmz-c-a-project-using-the-html-drag-element"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
@@ -221,7 +221,7 @@ This project was completed before the release of ES6 in 2015. One of the uses of
 
 ### Refinement
 
-Apart of the event handler, there are two other functions – the `cpu` function and the `whowins` function – that will take care of other aspects of the functionality. Those functions are declared in the global scope.
+Apart of the event handler, there are two other functions - the `cpu` function and the `whowins` function - that will take care of other aspects of the functionality. Those functions are declared in the global scope.
 
 ```mermaid :collapsed-lines title=""
 ---

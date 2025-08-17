@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Automatic Reference Counting (ARC) is Swift’s system of tracking memory you’re using. When you create an object from a class, Swift remembers that instance is being referenced precisely once. If you then point another variable at that object, Swift will increment the reference count to 2, because two variables are pointing at the same object. If you now destroy the first variable (perhaps it was inside a function and that function ended), Swift takes the reference count back down to 1.
 
-All this matters because as long as the reference count is greater than 1 the object stays alive. But when the final variable referencing that object goes away, Swift will take the reference count down to zero. As no existing variables point at the object, its RAM can be released. So, ARC is a way of tracking an object’s lifetime efficiently, and for the most part you don’t even notice it happens – Swift does all the work for you.
+All this matters because as long as the reference count is greater than 1 the object stays alive. But when the final variable referencing that object goes away, Swift will take the reference count down to zero. As no existing variables point at the object, its RAM can be released. So, ARC is a way of tracking an object’s lifetime efficiently, and for the most part you don’t even notice it happens - Swift does all the work for you.
 
 -->
 

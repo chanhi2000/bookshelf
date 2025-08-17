@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-iOS has built-in support for scanning QR codes using AVFoundation, but the code isn't easy: you need to create a capture session, create a preview layer, handle delegate callbacks, and more. To make it easier for you, I've created a `UIViewController` subclass that does all the hard work for you – you just need to modify the `found(code:)` method to do something more interesting.
+iOS has built-in support for scanning QR codes using AVFoundation, but the code isn't easy: you need to create a capture session, create a preview layer, handle delegate callbacks, and more. To make it easier for you, I've created a `UIViewController` subclass that does all the hard work for you - you just need to modify the `found(code:)` method to do something more interesting.
 
 Note: rotation when using the camera can be quite ugly, which is why most apps fix the orientation as you see below.
 

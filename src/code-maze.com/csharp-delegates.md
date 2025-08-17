@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Delegates"
-description: "Article(s) > C# Intermediate – Delegates"
+title: "C# Intermediate - Delegates"
+description: "Article(s) > C# Intermediate - Delegates"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Delegates"
+      content: "Article(s) > C# Intermediate - Delegates"
     - property: og:description
-      content: "C# Intermediate – Delegates"
+      content: "C# Intermediate - Delegates"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-delegates.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-delegates/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Delegates"
+  name="C# Intermediate - Delegates"
   desc="In this article, you will learn about Delegates in C#. Differences between Action and Func delegates and how to write better code with delegates."
   url="https://code-maze.com/csharp-delegates/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -375,7 +375,7 @@ If you have been with us along with this entire intermediate series, you’ve ho
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Delegates",
+  "title": "C# Intermediate - Delegates",
   "desc": "In this article, you will learn about Delegates in C#. Differences between Action and Func delegates and how to write better code with delegates.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-delegates.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

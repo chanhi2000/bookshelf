@@ -394,7 +394,7 @@ And for these two reasons alone, individual transform properties are a welcomed 
 ```
 
 <SiteInfo
-  name="Order in CSS transformations – transform functions vs individual transforms"
+  name="Order in CSS transformations - transform functions vs individual transforms"
   desc="Individual transformation in CSS have a pre-defined order which leads to different visual effects when moving translate transformation functions to transformation properties."
   url="https://stefanjudis.com/blog/order-in-css-transformation-transform-functions-vs-individual-transforms"
   logo="https://stefanjudis.com/favicon.svg"

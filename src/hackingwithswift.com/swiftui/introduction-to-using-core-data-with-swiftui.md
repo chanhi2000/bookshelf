@@ -55,11 +55,11 @@ prev: /hackingwithswift.com/swiftui/how-to-activate-different-button-behaviors-w
 
 As two massive pieces of Apple’s software platform, it won’t surprise you to learn that Core Data and SwiftUI have been written to work well together: we get property wrappers, environment support, and more, all to make sure we can integrate Core Data into our SwiftUI apps with the least hassle.
 
-Before SwiftUI it was common to find a range of ways you might find Core Data being used from an architectural perspective – Apple strongly encouraged us to create containers at the AppDelegate level then reach back up as needed, others preferred using manager classes, and some preferred abstracting Core Data away entirely so they had the freedom to move to Realm or other options at a later date.
+Before SwiftUI it was common to find a range of ways you might find Core Data being used from an architectural perspective - Apple strongly encouraged us to create containers at the AppDelegate level then reach back up as needed, others preferred using manager classes, and some preferred abstracting Core Data away entirely so they had the freedom to move to Realm or other options at a later date.
 
 However, SwiftUI’s integration with Core Data is different because it points very strongly in one direction: create the Core Data container once when the app starts, inject its managed object context into the environment, then perform fetch requests directly on there.
 
-This isn’t me guessing – Apple literally designed it in a highly specific way, and if you want to take advantage of all the features of SwiftUI’s Core Data integration then you ought to follow the path Apple is laying down for us.
+This isn’t me guessing - Apple literally designed it in a highly specific way, and if you want to take advantage of all the features of SwiftUI’s Core Data integration then you ought to follow the path Apple is laying down for us.
 
 Here are the four specific features that will help you see what I mean:
 

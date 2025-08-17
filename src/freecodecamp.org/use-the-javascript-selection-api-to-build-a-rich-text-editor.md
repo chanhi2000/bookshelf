@@ -253,7 +253,7 @@ selection<span class="token punctuation">.</span><span class="token function">ad
 <ul>
 <li><p><strong>Returns</strong>: A <code>DocumentFragment</code> that contains the cloned nodes and elements within the range.</p>
 </li>
-<li><p><strong>Non-destructive</strong>: This method does not alter or remove the content from the original document – it simply creates a copy.</p>
+<li><p><strong>Non-destructive</strong>: This method does not alter or remove the content from the original document - it simply creates a copy.</p>
 </li>
 </ul>
 <p><strong>Example code:</strong></p>

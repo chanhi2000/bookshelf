@@ -135,5 +135,5 @@ Finally, we need to edit the way `DestinationListingView` is created in `Content
 DestinationListingView(sort: sortOrder, searchString: searchText)
 ```
 
-And now we have dynamic filtering – nice!
+And now we have dynamic filtering - nice!
 

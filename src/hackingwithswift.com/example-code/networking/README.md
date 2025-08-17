@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Networking - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/networking",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -60,7 +60,7 @@ head:
 ```component VPCard
 {
   "title": "How to download files with URLSession and downloadTask()",
-  "desc": "<code>URLSession</code> is designed to make network transfers as easy as possible, and a great example of that is its <code>downloadTask</code>()` method. This fetches the contents of a URL you specify, saves it to a local file, then calls a completion handler so you can manipulate the file – all in one...",
+  "desc": "<code>URLSession</code> is designed to make network transfers as easy as possible, and a great example of that is its <code>downloadTask</code>()` method. This fetches the contents of a URL you specify, saves it to a local file, then calls a completion handler so you can manipulate the file - all in one...",
   "link": "/hackingwithswift.com/example-code/networking/how-to-download-files-with-urlsession-and-downloadtask.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

@@ -119,7 +119,7 @@ Before thinking about how we do it, we need to know what the factorial of a numb
 
 The factorial of a number is the multiplication of all numbers from $1$ up to that number.
 
-For example, the factorial of $5$ is $120$ – that is $5\times4\times3\times2\times1$.
+For example, the factorial of $5$ is $120$ - that is $5\times4\times3\times2\times1$.
 
 We can also represent this mathematically like this:
 
@@ -201,7 +201,7 @@ In the above example we have used the stopping condition for the code. But what 
 
 Will the code run forever?
 
-No – even if you don’t terminate, your code won't run forever. Let’s understand why this is the case with the help of an example.
+No - even if you don’t terminate, your code won't run forever. Let’s understand why this is the case with the help of an example.
 
 ```py
 def print_five():

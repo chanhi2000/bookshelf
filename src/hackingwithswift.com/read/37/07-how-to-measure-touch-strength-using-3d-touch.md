@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -89,9 +89,9 @@ That contains three pieces of code that we haven't looked at before. The first t
 
 I told you it was tiny, but it's definitely important: our point is the location of the current touch, and our rectangle is the frame of each card. So, this method returns true if the user's finger is over a particular card.
 
-The third piece of new code is the check whether 3D Touch is available, although as you can see the check is actually for "force touch" being available – presumably because Apple's marketing department got involved after development had completed! This is done by reading the current trait collection for the view and checking whether its `forceTouchCapability` is set to `.available`.
+The third piece of new code is the check whether 3D Touch is available, although as you can see the check is actually for "force touch" being available - presumably because Apple's marketing department got involved after development had completed! This is done by reading the current trait collection for the view and checking whether its `forceTouchCapability` is set to `.available`.
 
-That's all the code it takes to enable our first cheat, but I'm afraid that you can test it only if you have a 3D Touch-capable device – Xcode's iOS simulator does not support 3D Touch, so either you test with a real device or just take my word for it!
+That's all the code it takes to enable our first cheat, but I'm afraid that you can test it only if you have a 3D Touch-capable device - Xcode's iOS simulator does not support 3D Touch, so either you test with a real device or just take my word for it!
 
 Note: in case you were wondering, that code will indeed run every time the user moves their finger, but like I said earlier "`UIImage` shares image data across image views very efficiently, so there's no extra cost to this approach." The same is true here: this code will run very quickly.
 

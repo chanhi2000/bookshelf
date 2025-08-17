@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Vision - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/vision/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-The Vision framework has built-in support for detecting text in images, although realistically it’s limited to printed text in clear fonts – don’t expect to be able to throw raw handwriting at it and get useful results.
+The Vision framework has built-in support for detecting text in images, although realistically it’s limited to printed text in clear fonts - don’t expect to be able to throw raw handwriting at it and get useful results.
 
-To get started import the Vision framework, then set up an instance of `VNRecognizeTextRequest` so that it processes any text that is found. Your request will be handed an array of observations that you need to safely typecast as `VNRecognizedTextObservation`, then you can loop over each observation to pull out candidates for each one – various possible piece of text that Vision thinks it might have found.
+To get started import the Vision framework, then set up an instance of `VNRecognizeTextRequest` so that it processes any text that is found. Your request will be handed an array of observations that you need to safely typecast as `VNRecognizedTextObservation`, then you can loop over each observation to pull out candidates for each one - various possible piece of text that Vision thinks it might have found.
 
 If we wanted to just pull out the best candidate of each observation then print it out, we’d make a request like this:
 
@@ -99,13 +99,13 @@ DispatchQueue.global(qos: .userInitiated).async {
 
 Make sure you have an image called “testImage” in your asset catalog, and that code should work out of the box.
 
-There are two further parameters you might want to tweak to make your text recognition more useful. First, by default the `recognitionLevel` property of your `VNRecognizeTextRequest` is set to `.accurate`, which means Vision does its best to figure out the most likely letters in the text. If you wanted to prioritize speed over accuracy – perhaps if you were scanning lots of image, or a live feed, you should change `recognitionLevel` to `.fast`, like this:
+There are two further parameters you might want to tweak to make your text recognition more useful. First, by default the `recognitionLevel` property of your `VNRecognizeTextRequest` is set to `.accurate`, which means Vision does its best to figure out the most likely letters in the text. If you wanted to prioritize speed over accuracy - perhaps if you were scanning lots of image, or a live feed, you should change `recognitionLevel` to `.fast`, like this:
 
 ```swift
 request.recognitionLevel = .fast
 ```
 
-Second, you can set the `customWords` property of your request to be an array of unusual strings that your app is likely to come across – words that Vision might decide aren’t likely because it doesn’t recognize them:
+Second, you can set the `customWords` property of your request to be an array of unusual strings that your app is likely to come across - words that Vision might decide aren’t likely because it doesn’t recognize them:
 
 ```swift
 request.customWords = ["Pikachu", "Snorlax", "Charizard"]
@@ -113,7 +113,7 @@ request.customWords = ["Pikachu", "Snorlax", "Charizard"]
 
 These custom words automatically take priority over the built-in dictionary, so use this wisely.
 
-Rather than scanning images in your app bundle, you could load an image that was scanned using VNDocumentCameraViewController – see my article <a href="https://www.hackingwithswift.com/example-code/vision/how-to-detect-documents-using-vndocumentcameraviewcontroller">How to detect documents using VNDocumentCameraViewController</a> for more information.
+Rather than scanning images in your app bundle, you could load an image that was scanned using VNDocumentCameraViewController - see my article <a href="https://www.hackingwithswift.com/example-code/vision/how-to-detect-documents-using-vndocumentcameraviewcontroller">How to detect documents using VNDocumentCameraViewController</a> for more information.
 
 -->
 

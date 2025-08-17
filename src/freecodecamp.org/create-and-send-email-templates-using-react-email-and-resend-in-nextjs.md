@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733995060570/3450a9b
 
 Modern software applications often rely on email communication to engage with users. They may send authentication codes during sign in attempts, marketing emails, or newsletters, for example. This means that email notifications are typically the most common means of communication with users.
 
-In this tutorial, you'll learn how to design stunning email templates with [<FontIcon icon="fa-brands fa-react"/>React Email](https://react.email/docs/introduction) and send them using [<FontIcon icon="fas fa-globe"/>Resend](https://resend.com/docs/send-with-nextjs) – a simple and powerful email API platform.
+In this tutorial, you'll learn how to design stunning email templates with [<FontIcon icon="fa-brands fa-react"/>React Email](https://react.email/docs/introduction) and send them using [<FontIcon icon="fas fa-globe"/>Resend](https://resend.com/docs/send-with-nextjs) - a simple and powerful email API platform.
 
 ::: note Prerequisites
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Deploy an Application on Your Kubernetes Cluster"
-description: Article(s) > (5/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (5/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (5/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (5/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "How to Deploy an Application on Your Kubernetes Cluster"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-how-to-deploy-your-application-on-a-kubernetes-cluster"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -130,13 +130,13 @@ But Kubernetes has another (and often better) way to do things: the declarative 
 
 ### 🧾 What Is the Declarative Approach?
 
-Instead of giving Kubernetes instructions step-by-step like a chef in a kitchen, you give it a full recipe – a file that describes exactly what you want (for example, what app to run, how many copies of it, how to expose it, and so on).
+Instead of giving Kubernetes instructions step-by-step like a chef in a kitchen, you give it a full recipe - a file that describes exactly what you want (for example, what app to run, how many copies of it, how to expose it, and so on).
 
 This recipe is written in a file called a **manifest**.
 
 ### 📘 What’s a Manifest?
 
-A manifest is a file (usually written in YAML format) that describes a Kubernetes object – like a Pod, a Deployment, or a Service.
+A manifest is a file (usually written in YAML format) that describes a Kubernetes object - like a Pod, a Deployment, or a Service.
 
 It’s like writing down what you want, handing it over to Kubernetes, and saying: “Hey, please make sure this exists exactly how I described it.”
 
@@ -201,7 +201,7 @@ Now, let’s break this down:
 - `metadata.name`: We’re giving our Deployment a name: `nginx-deployment`.
 - `spec.replicas: 3`: We’re telling Kubernetes: “Please run 3 copies (replicas) of this app.”
 - `selector.matchLabels`: Kubernetes will use this label to find which Pods this Deployment is managing.
-- `template.metadata.labels` & `spec.containers`: This section describes the Pods that the Deployment should create – each Pod will run a container using the official `nginx` image.
+- `template.metadata.labels` & `spec.containers`: This section describes the Pods that the Deployment should create - each Pod will run a container using the official `nginx` image.
 
 ✅ In plain terms: We're asking Kubernetes to create and maintain 3 copies of an app that runs NGINX, and automatically restart them if any fails.
 
@@ -209,7 +209,7 @@ Now, let’s break this down:
 
 This file tells Kubernetes to expose our NGINX app to the outside world using a Service.
 
-Here’s the file – let’s break this down, too:
+Here’s the file - let’s break this down, too:
 
 ```yaml title="service.yaml
 apiVersion: v1
@@ -246,7 +246,7 @@ kubectl delete service nginx-pod
 
 ### 📥 Step 5: Apply the Manifests
 
-Now let’s deploy the NGINX app and expose it – this time using the **declarative** way.
+Now let’s deploy the NGINX app and expose it - this time using the **declarative** way.
 
 From inside the <FontIcon icon="fas fa-folder-open"/>`simple-kubernetes-app` folder, run:
 

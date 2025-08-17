@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Location - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/location/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ let btn = UIButton(type: .detailDisclosure)
 annotationView.rightCalloutAccessoryView = btn
 ```
 
-For context, here's a complete implementation of `viewForAnnotation` that uses a button. This is taken from <a href="/read/19/overview">project 19</a> of Hacking with Swift, where I created a class called `Capital` that implemented the `MKAnnotation` protocol – you'll need to adjust this for your own annotation type:
+For context, here's a complete implementation of `viewForAnnotation` that uses a button. This is taken from <a href="/read/19/overview">project 19</a> of Hacking with Swift, where I created a class called `Capital` that implemented the `MKAnnotation` protocol - you'll need to adjust this for your own annotation type:
 
 ```swift
 func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {

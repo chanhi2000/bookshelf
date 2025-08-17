@@ -46,14 +46,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730780706184/e2ac9a2
 
 <SiteInfo
   name="How to Launch an EC2 Instance and Set Up a Web Server Using HTTPD"
-  desc="Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server. Don’t worry – ..."
+  desc="Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server. Don’t worry - ..."
   url="https://freecodecamp.org/news/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1730780706184/e2ac9a27-7221-47c6-a8ae-db2f62892036.png"/>
 
 Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server.
 
-Don’t worry – it’s simpler than it sounds, and I promise to walk you through it step-by-step with a bit of fun along the way.
+Don’t worry - it’s simpler than it sounds, and I promise to walk you through it step-by-step with a bit of fun along the way.
 
 By the end of this guide, you’ll feel like a cloud wizard, casting spells that make servers appear out of thin air (well, out of Amazon’s data centers, but you get the point).
 
@@ -209,7 +209,7 @@ Feel free to modify the text to make it uniquely yours!
 
 ## Wrapping Up
 
-And there you have it – you’ve just launched an EC2 instance and set up a simple web server using HTTPD! With these steps, you’ve not only spun up a server in the cloud but also configured it to be accessible to the world. By following along, you’ve learned the essentials of creating instances, setting up security groups, connecting via SSH, and installing Apache to serve up web content.
+And there you have it - you’ve just launched an EC2 instance and set up a simple web server using HTTPD! With these steps, you’ve not only spun up a server in the cloud but also configured it to be accessible to the world. By following along, you’ve learned the essentials of creating instances, setting up security groups, connecting via SSH, and installing Apache to serve up web content.
 
 Keep exploring EC2’s features, and don’t hesitate to test new configurations and ideas. Each step adds to your cloud skills, bringing you one step closer to mastering AWS. So keep building, experimenting, and, most importantly, enjoying the journey. Happy cloud computing!
 
@@ -222,7 +222,7 @@ You can follow me on
 ```component VPCard
 {
   "title": "How to Launch an EC2 Instance and Set Up a Web Server Using HTTPD",
-  "desc": "Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server. Don’t worry – ...",
+  "desc": "Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server. Don’t worry - ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

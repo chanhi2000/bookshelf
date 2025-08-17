@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,16 +68,16 @@ Let’s start with a simple example: if you have a function that used to parse s
 func parseData() { }
 ```
 
-If you are *renaming* the API – for example the way one usage of `flatMap()` became `compactMap()` in Swift 4.1 – you can pass the new function name to the `renamed` flag like this:
+If you are *renaming* the API - for example the way one usage of `flatMap()` became `compactMap()` in Swift 4.1 - you can pass the new function name to the `renamed` flag like this:
 
 ```swift
 @available(*, deprecated, renamed: "loadData")
 func fetchData() { }
 ```
 
-This will cause Xcode to generate a fix-it automatically – users can click Fix to have Xcode perform the rename for them.
+This will cause Xcode to generate a fix-it automatically - users can click Fix to have Xcode perform the rename for them.
 
-Deprecated APIs generate warnings but can still be called. If you want to *obsolete* an API – stop it from being called entirely – you should use the `obsoleted` flag instead, specifying the minimum Swift version where it is no longer available:
+Deprecated APIs generate warnings but can still be called. If you want to *obsolete* an API - stop it from being called entirely - you should use the `obsoleted` flag instead, specifying the minimum Swift version where it is no longer available:
 
 ```swift
 @available(swift, obsoleted: 4.1, renamed: "attemptConnection")
@@ -97,7 +97,7 @@ Finally, there’s an `introduced` flag that lets you control when specific API 
 func loadUsers() { }
 ```
 
-Using `@available` in this way lets your APIs behave just like Apple’s own – Xcode will draw red lines through deprecated methods, issue compile warnings and errors, and even automatically generate fix-its as needed.
+Using `@available` in this way lets your APIs behave just like Apple’s own - Xcode will draw red lines through deprecated methods, issue compile warnings and errors, and even automatically generate fix-its as needed.
 
 -->
 

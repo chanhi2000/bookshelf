@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Advanced Rebasing in Git"
-description: "Article(s) > (4/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (4/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (4/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "Advanced Rebasing in Git"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-advanced-rebasing-in-git"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,7 +58,7 @@ But rebase is a super-power, it's an almighty command capable of…well, rewriti
 Undo the last merge by making <FontIcon icon="fa-brands fa-code-branch"/>`main` point to "Commit 4" again:
 
 ```sh
-git reset -–hard <ORIGINAL_COMMIT 4>
+git reset --hard <ORIGINAL_COMMIT 4>
 ```
 
 !["Undoing" the last merge operation<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/3VFsitGUB3s)>](https://freecodecamp.org/news/content/images/2023/06/image-238.png)
@@ -67,7 +67,7 @@ And undo the rebasing by using:
 
 ```sh
 git checkout paul_branch
-git reset -–hard <ORIGINAL_COMMIT 9>
+git reset --hard <ORIGINAL_COMMIT 9>
 ```
 
 !["Undoing" the rebase operation<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/3VFsitGUB3s)>](https://freecodecamp.org/news/content/images/2023/06/image-239.png)
@@ -124,7 +124,7 @@ For every commit that is replayed, Git asks us what we'd like to do with it:
 
 In this context it's useful to think of a commit as a patch. That is, "Commit 7" as in "the patch that "Commit 7" introduced on top of its parent".
 
-One option is to use `pick`. This is the default behavior, which tells Git to replay the changes introduced in this commit. In this case, if you just leave it as is – and `pick` all commits – you will get the same history, and Git won't even create new commit objects.
+One option is to use `pick`. This is the default behavior, which tells Git to replay the changes introduced in this commit. In this case, if you just leave it as is - and `pick` all commits - you will get the same history, and Git won't even create new commit objects.
 
 Another option is `squash`. A *squashed* commit will have its contents "folded" into the contents of the commit preceding it. So in our case, Paul would like to squash "Commit 8" into "Commit 7":
 
@@ -231,7 +231,7 @@ Well, as we understand, rebase allows us to basically *replay* the changes intro
 To do that, you can use other arguments of `git rebase`. You'd tell Git that you want to take all the history introduced between the common ancestor of <FontIcon icon="fa-brands fa-code-branch"/>`main` and <FontIcon icon="fas fa-code-branch"/>`new_branch`, which is "Commit 4", and have the new base for that history be "Commit 11". To do that, use:
 
 ```sh
-git rebase -–onto <SHA_OF_COMMIT_11> main new_branch
+git rebase --onto <SHA_OF_COMMIT_11> main new_branch
 ```
 
 ![The history before and after the rebase, "Commit 10" has been "pushed"<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/3VFsitGUB3s)>](https://freecodecamp.org/news/content/images/2023/06/image-262.png)
@@ -340,7 +340,7 @@ git checkout feature_branch_2
 And now you can use:
 
 ```sh
-git rebase -–onto main <SHA_OF_COMMIT_13>
+git rebase --onto main <SHA_OF_COMMIT_13>
 ```
 
 As a result, you have <FontIcon icon="fas fa-code-branch"/>`feature_branch_2` based on <FontIcon icon="fa-brands fa-code-branch"/>`main` rather than <FontIcon icon="fas fa-code-branch"/>`feature_branch_1`:

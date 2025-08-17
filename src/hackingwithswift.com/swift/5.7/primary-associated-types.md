@@ -67,11 +67,11 @@ protocol Cache<Content> {
 }
 ```
 
-Notice that the protocol now looks like both a protocol and a generic type – it has an associated type declaring some kind of hole that conforming types must fill, but also lists that type in angle brackets: `Cache<Content>`.
+Notice that the protocol now looks like both a protocol and a generic type - it has an associated type declaring some kind of hole that conforming types must fill, but also lists that type in angle brackets: `Cache<Content>`.
 
-The part in angle brackets is what Swift calls its *primary associated type*, and it’s important to understand that not all associated types should be declared up there. Instead, you should list only the ones that calling code normally cares about specifically, e.g. the types of dictionary keys and values or the identifier type in the `Identifiable` protocol. In our case we’ve said that our cache’s content – strings, images, users, etc – is its primary associated type.
+The part in angle brackets is what Swift calls its *primary associated type*, and it’s important to understand that not all associated types should be declared up there. Instead, you should list only the ones that calling code normally cares about specifically, e.g. the types of dictionary keys and values or the identifier type in the `Identifiable` protocol. In our case we’ve said that our cache’s content - strings, images, users, etc - is its primary associated type.
 
-At this point, we can go ahead and use our protocol as before – we might create some kind of data we want to cache, and then create a concrete cache type conforming to the protocol, like this:
+At this point, we can go ahead and use our protocol as before - we might create some kind of data we want to cache, and then create a concrete cache type conforming to the protocol, like this:
 
 ```swift
 struct File {
@@ -133,7 +133,7 @@ func merge<C: Cache<File>>(_ lhs: C, _ rhs: C) -> C {
 }
 ```
 
-But what will prove most helpful of all is that [SE-0358 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0358-primary-associated-types-in-stdlib.md) brings these primary associated types to Swift’s standard library too, so `Sequence`, `Collection`, and more will benefit – we can write `Sequence<String>` to write code that is agnostic of whatever exact sequence type is being used.
+But what will prove most helpful of all is that [SE-0358 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0358-primary-associated-types-in-stdlib.md) brings these primary associated types to Swift’s standard library too, so `Sequence`, `Collection`, and more will benefit - we can write `Sequence<String>` to write code that is agnostic of whatever exact sequence type is being used.
 
 ::: details Other Changes in Swift 5.7
 

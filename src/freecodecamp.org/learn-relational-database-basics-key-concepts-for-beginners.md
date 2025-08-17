@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Relational Database Basics – Key Concepts for Beginners"
-description: "Article(s) > Learn Relational Database Basics – Key Concepts for Beginners"
+title: "Learn Relational Database Basics - Key Concepts for Beginners"
+description: "Article(s) > Learn Relational Database Basics - Key Concepts for Beginners"
 icon: fas fa-database
 category:
   - Data Science
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Relational Database Basics – Key Concepts for Beginners"
+      content: "Article(s) > Learn Relational Database Basics - Key Concepts for Beginners"
     - property: og:description
-      content: "Learn Relational Database Basics – Key Concepts for Beginners"
+      content: "Learn Relational Database Basics - Key Concepts for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-relational-database-basics-key-concepts-for-beginners.html
 prev: /data-science/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736785487594/67bc81b
 ---
 
 <SiteInfo
-  name="Learn Relational Database Basics – Key Concepts for Beginners"
+  name="Learn Relational Database Basics - Key Concepts for Beginners"
   desc="In today’s digital world, data is everywhere, and it’s at the heart of most modern applications. Databases are the unsung heroes that keep it all organised and accessible. Many sites use databases, from social media platforms to online shopping retai..."
   url="https://freecodecamp.org/news/learn-relational-database-basics-key-concepts-for-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -66,7 +66,7 @@ Whether you’re a beginner or just looking to refresh your knowledge, this arti
 
 ## What Is A Database?
 
-A database is a collection of information – information that’s preferably related, and preferably organised. This means that a database can be in any form or shape. It could be a pile of paper records in an office, or a large Excel sheet, or on a computer (most likely in this day and age). But in the most basic terms, a database just helps you store data – so ultimately you can decide what it is.
+A database is a collection of information - information that’s preferably related, and preferably organised. This means that a database can be in any form or shape. It could be a pile of paper records in an office, or a large Excel sheet, or on a computer (most likely in this day and age). But in the most basic terms, a database just helps you store data - so ultimately you can decide what it is.
 
 In the digital world, a database consists of physical files on your computer, or in a cloud computer. These files are installed (or downloaded) when you set up the database software on your computer.
 
@@ -103,7 +103,7 @@ Applications like [<FontIcon icon="fas fa-globe"/>TablePlus](https://tableplus.c
 
 A **datatype** defines what type of information can be stored in a field. Datatypes help computers understand how to store, process, and use data efficiently.
 
-So a field in a table with a datatype of `date` will only be able to store date records, and will throw an error if you try to store something else, like a name. The same goes for a field with a `number` datatype – it will only accept numbers, and can be set to accept values within a range or to a certain number of decimal points.
+So a field in a table with a datatype of `date` will only be able to store date records, and will throw an error if you try to store something else, like a name. The same goes for a field with a `number` datatype - it will only accept numbers, and can be set to accept values within a range or to a certain number of decimal points.
 
 Common datatypes include `varchar` for data that might contain different characters (text + numbers), `date` for date values, `int` for whole numbers, and so on. You can find other common database datatypes [<FontIcon icon="fas fa-globe"/>here](https://teachcomputerscience.com/database-data-types/).
 
@@ -161,7 +161,7 @@ There are many more database models. You can find and study them [<FontIcon icon
 
 ::: info <FontIcon icon="iconfont icon-gcp"/>Google
 
-A relational database has the ability to establish links – or relationships – between information by joining tables, which makes it easy to understand and gain insights about the relationship between various data points.
+A relational database has the ability to establish links - or relationships - between information by joining tables, which makes it easy to understand and gain insights about the relationship between various data points.
 
 <SiteInfo
   name="What Is A Relational Database (RDBMS)? | Google Cloud"
@@ -308,7 +308,7 @@ This command removes all data from a table while preserving its structure. This 
 
 ### DML Commands
 
-These DML commands are foundational for **CRUD operations**, which stand for **Create, Read, Update, and Delete** – the basic actions you perform with data in a database.
+These DML commands are foundational for **CRUD operations**, which stand for **Create, Read, Update, and Delete** - the basic actions you perform with data in a database.
 
 #### 1. `INSERT`
 
@@ -432,7 +432,7 @@ If you’re curious to learn more, connect with me on [LinkedIn (<FontIcon icon=
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Relational Database Basics – Key Concepts for Beginners",
+  "title": "Learn Relational Database Basics - Key Concepts for Beginners",
   "desc": "In today’s digital world, data is everywhere, and it’s at the heart of most modern applications. Databases are the unsung heroes that keep it all organised and accessible. Many sites use databases, from social media platforms to online shopping retai...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-relational-database-basics-key-concepts-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

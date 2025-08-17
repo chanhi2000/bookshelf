@@ -505,7 +505,7 @@ In the example above, we're using `Promise.all` to fetch data from two different
 
 ## How to Use Callbacks in TypeScript
 
-A **callback** is a function passed as an argument to another function. The callback function is executed inside the other function. Callbacks ensure that a function doesn't run before a task is completed – but that it then runs right after the task finishes. They help us write asynchronous JavaScript code and prevent problems and errors.
+A **callback** is a function passed as an argument to another function. The callback function is executed inside the other function. Callbacks ensure that a function doesn't run before a task is completed - but that it then runs right after the task finishes. They help us write asynchronous JavaScript code and prevent problems and errors.
 
 ::: tip Example 7. Using callbacks in typescript
 
@@ -581,7 +581,7 @@ To use the `fetchUserData` function with a callback, we provide an `id` and a ca
 
 ### How to Use Callbacks Responsibly
 
-While callbacks are fundamental to asynchronous programming in TypeScript, they require careful management to avoid **"callback hell"** – the pyramid-shaped, deeply nested code that becomes hard to read and maintain. Here's how to use callbacks effectively:
+While callbacks are fundamental to asynchronous programming in TypeScript, they require careful management to avoid **"callback hell"** - the pyramid-shaped, deeply nested code that becomes hard to read and maintain. Here's how to use callbacks effectively:
 
 #### 1. Avoid deep nesting
 

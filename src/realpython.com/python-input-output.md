@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Basic-Input-Output-and-String-Formatti
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Reading Input and Writing Output in Python – Real Python"
+  name="[COURSE] Reading Input and Writing Output in Python - Real Python"
   desc="In this introductory Python course, you'll learn how to take user input from the keyboard with the built-in function input() and how to display output to the console with the built-in function print()."
   url="https://realpython.com/courses/reading-input-writing-output-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -82,7 +82,7 @@ To get the most out of this tutorial, you should have a [<FontIcon icon="fas fa-
 ::: info Quiz - Basic Input and Output in Python
 
 <SiteInfo
-  name="Basic Input and Output in Python Quiz – Real Python"
+  name="Basic Input and Output in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's built-in functions for user interaction, namely input() and print(). These functions allow you to capture user input from the keyboard and display output to the console, respectively."
   url="https://realpython.com/quizzes/python-input-output/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -553,7 +553,7 @@ With basic input and output handling skills, you can build interactive Python ap
 ::: info Quiz - Basic Input and Output in Python
 
 <SiteInfo
-  name="Basic Input and Output in Python Quiz – Real Python"
+  name="Basic Input and Output in Python Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's built-in functions for user interaction, namely input() and print(). These functions allow you to capture user input from the keyboard and display output to the console, respectively."
   url="https://realpython.com/quizzes/python-input-output/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -568,7 +568,7 @@ In this quiz, you'll test your understanding of Python's built-in functions for 
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Reading Input and Writing Output in Python – Real Python"
+  name="[COURSE] Reading Input and Writing Output in Python - Real Python"
   desc="In this introductory Python course, you'll learn how to take user input from the keyboard with the built-in function input() and how to display output to the console with the built-in function print()."
   url="https://realpython.com/courses/reading-input-writing-output-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-If you need to take specific action depending on whether your user is running in light mode or dark mode – for example, doing some different drawing – then you should query the `userInterfaceStyle` of your view controller’s trait collection.
+If you need to take specific action depending on whether your user is running in light mode or dark mode - for example, doing some different drawing - then you should query the `userInterfaceStyle` of your view controller’s trait collection.
 
 For example, this will print one of two messages when the user taps the screen depending on whether the device is set to light mode or dark mode:
 

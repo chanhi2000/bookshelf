@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -89,9 +89,9 @@ When we created our random seeds earlier, we just used this:
 let mersenne = GKMersenneTwisterRandomSource()
 ```
 
-That creates a new Mersenne Twister random source with a random starting point. But if you want to force a starting point – either because you want to win your lottery or because you want players in a network game to be synchronized – you can create your random source with a specific *seed*, which is a fixed starting point.
+That creates a new Mersenne Twister random source with a random starting point. But if you want to force a starting point - either because you want to win your lottery or because you want players in a network game to be synchronized - you can create your random source with a specific *seed*, which is a fixed starting point.
 
-When you use a seed value, your random number generator becomes predictable – you can always predict exactly what “random” numbers get generated. But that's OK, because you can generate the seeds using a separate random number generator, so you're guaranteed uniqueness.
+When you use a seed value, your random number generator becomes predictable - you can always predict exactly what “random” numbers get generated. But that's OK, because you can generate the seeds using a separate random number generator, so you're guaranteed uniqueness.
 
 Here's our lottery example rewritten using a fixed seed value of 1001:
 

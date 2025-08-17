@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in iOS 11 for developers – Hacking with Swift",
+  "title": "What's new in iOS 11 for developers - Hacking with Swift",
   "desc": "What's new in iOS 11 for developers",
   "link": "https://hackingwithswift.com/whats-new-in-ios-11",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -65,7 +65,7 @@ Before you continue, you might find these articles useful pre-reading:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 4.0 – Hacking with Swift",
+  "title": "What's new in Swift 4.0 - Hacking with Swift",
   "desc": "Hands-on code examples to help you learn what's new in Swift 4: new encoding and decoding, smarter keypaths, multi-line strings, and more!",
   "link": "/hackingwithswift.com/swift4.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -75,7 +75,7 @@ Before you continue, you might find these articles useful pre-reading:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.1 – Hacking with Swift",
+  "title": "What's new in Swift 3.1 - Hacking with Swift",
   "desc": "What's new in Swift 3.1",
   "link": "/hackingwithswift.com/swift3-1.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -85,7 +85,7 @@ Before you continue, you might find these articles useful pre-reading:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 10 for developers – Hacking with Swift",
+  "title": "What's new in iOS 10 for developers - Hacking with Swift",
   "desc": "What's new in iOS 10 for developers",
   "link": "/hackingwithswift.com/ios10.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -95,7 +95,7 @@ Before you continue, you might find these articles useful pre-reading:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 9 for developers – Hacking with Swift",
+  "title": "What's new in iOS 9 for developers - Hacking with Swift",
   "desc": "What's new in iOS 9 for developers",
   "link": "/hackingwithswift.com/ios9.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -107,11 +107,11 @@ Before you continue, you might find these articles useful pre-reading:
 
 ## Drag and drop
 
-Drag and drop is something we've always taken for granted on desktop operating systems, but its absence on iOS really held back multitasking – until iOS 11, that is. In iOS 11, and particularly on iPad, multitasking has gone into overdrive, with drag and drop being a huge part of that: you can move content inside apps or between apps, you can use your other hand to manipulate apps while dragging, and you can even use the new dock system to activate other apps mid-drag.
+Drag and drop is something we've always taken for granted on desktop operating systems, but its absence on iOS really held back multitasking - until iOS 11, that is. In iOS 11, and particularly on iPad, multitasking has gone into overdrive, with drag and drop being a huge part of that: you can move content inside apps or between apps, you can use your other hand to manipulate apps while dragging, and you can even use the new dock system to activate other apps mid-drag.
 
 ::: note
 
-on iPhone drag and drop is limited to a single app – you can't drag content to other apps.
+on iPhone drag and drop is limited to a single app - you can't drag content to other apps.
 
 :::
 
@@ -194,13 +194,13 @@ leftTableView.dragInteractionEnabled = true
 rightTableView.dragInteractionEnabled = true
 ```
 
-As soon as you do that, Xcode will throw up several warnings because our current view controller class doesn't conform to the `UITableViewDragDelegate` or `UITableViewDropDelegate` protocols. This is easily fixed by adding those two protocols to our class – scroll up to the top and change the class definition to this:
+As soon as you do that, Xcode will throw up several warnings because our current view controller class doesn't conform to the `UITableViewDragDelegate` or `UITableViewDropDelegate` protocols. This is easily fixed by adding those two protocols to our class - scroll up to the top and change the class definition to this:
 
 ```swift
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITableViewDragDelegate, UITableViewDropDelegate {
 ```
 
-This in turn creates another problem: we're saying we conform to those two new protocols, but we aren't implementing their required methods. This used to be a real drag (sorry not sorry) to fix, but Xcode 9 can automatically complete required methods for protocols – click the number "2" on the red highlighted line of code, and you should see a more detailed explanation appear. Click "Fix" to have Xcode insert the two missing methods for us – you should see this appear in your class:
+This in turn creates another problem: we're saying we conform to those two new protocols, but we aren't implementing their required methods. This used to be a real drag (sorry not sorry) to fix, but Xcode 9 can automatically complete required methods for protocols - click the number "2" on the red highlighted line of code, and you should see a more detailed explanation appear. Click "Fix" to have Xcode insert the two missing methods for us - you should see this appear in your class:
 
 ```swift
 func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem] {
@@ -212,7 +212,7 @@ func tableView(_ tableView: UITableView, performDropWith coordinator: UITableVie
 }
 ```
 
-At least in this initial beta, Xcode always inserts new method stubs at the top of your class, and if you're like me that will make your eye twitch – feel free to move them somewhere more sensible before continuing!
+At least in this initial beta, Xcode always inserts new method stubs at the top of your class, and if you're like me that will make your eye twitch - feel free to move them somewhere more sensible before continuing!
 
 The `itemsForBeginning` method is easiest, so let's start there. It gets called when the user has initiated a drag operation on a table view cell by holding down their finger, and needs to return an array of drag items. If you return an *empty* array, you're effectively declining drag and drop.
 
@@ -241,7 +241,7 @@ func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSessio
 }
 ```
 
-Now we just need to fill in the `performDropWith` method. Well, I say "just", but this is actually quite tricky because there are two potential complexities. First, we might be getting several strings at the same time if someone is dragging in lots of things, so we need to insert them all sensibly. Second, we might be told where the user wants to insert the rows, but we might not – they might just drag the strings onto some whitespace in the table, so we need to decide what that means for us.
+Now we just need to fill in the `performDropWith` method. Well, I say "just", but this is actually quite tricky because there are two potential complexities. First, we might be getting several strings at the same time if someone is dragging in lots of things, so we need to insert them all sensibly. Second, we might be told where the user wants to insert the rows, but we might not - they might just drag the strings onto some whitespace in the table, so we need to decide what that means for us.
 
 To solve those two problems means writing more code than you may have expected, but I'll try to walk you through it step by step to make it a bit easier.
 
@@ -265,7 +265,7 @@ As you can see, that either uses the coordinator's `destinationIndexPath` if it 
 
 The next step is to ask the drop coordinator to load all the objects it has for a specific class, which in our case will be `NSString`. (No, regular `String` doesn't work.) We need to send this a closure of code to run when the items are ready, which is where the complexity starts: we need to insert them all one by one below the destination index path, modifying either the `leftItems` or `rightItems` arrays, before finally calling `insertRows()` on our table view to make them appear.
 
-So, again: we've just written code to figure out the destination index path for a drop operation. But if we get *multiple* items then all we have is the `initial` destination index path – the path for the first item. The *second* item should be one row lower, the third item should be two rows lower, and so on. As we move down each item to copy, we're going to create a new index path and stash it away in an `indexPaths` array so we can call `insertRows()` on our table view all at once.
+So, again: we've just written code to figure out the destination index path for a drop operation. But if we get *multiple* items then all we have is the `initial` destination index path - the path for the first item. The *second* item should be one row lower, the third item should be two rows lower, and so on. As we move down each item to copy, we're going to create a new index path and stash it away in an `indexPaths` array so we can call `insertRows()` on our table view all at once.
 
 Add this code to your `performDropWith` method, below the previous code we just wrote:
 
@@ -299,7 +299,7 @@ coordinator.session.loadObjects(ofClass: NSString.self) { items in
 }
 ```
 
-That's all the code complete – you should be able to run the app now and drag rows between the two table views to copy them. It took quite a bit of work, yes, but I have a pleasant surprise for you: the work you've done has enabled drag and drop across the entire system: if you try using the iPad simulator you'll find you can drag text from Apple News into either table view, or drag text from your table view into the URL bar in Safari, for example. Nice!
+That's all the code complete - you should be able to run the app now and drag rows between the two table views to copy them. It took quite a bit of work, yes, but I have a pleasant surprise for you: the work you've done has enabled drag and drop across the entire system: if you try using the iPad simulator you'll find you can drag text from Apple News into either table view, or drag text from your table view into the URL bar in Safari, for example. Nice!
 
 Before we're done with drag and drop, I want to demonstrate one more thing: how to add drag and drop support for other views. This is actually easier than using a table view, so let's whizz through it quickly.
 
@@ -331,7 +331,7 @@ class ViewController: UIViewController {
 }
 ```
 
-As before, that is all old iOS code so I'm not going to go into detail on it. If you try running that in the iPad simulator you should see a large red circle in your view controller – that's more than enough for us to test with.
+As before, that is all old iOS code so I'm not going to go into detail on it. If you try running that in the iPad simulator you should see a large red circle in your view controller - that's more than enough for us to test with.
 
 Dragging for custom views is done using a new class called `UIDragInteraction`. You tell it where to send messages (in our case, we'll use the current view controller), then attach it to whatever view should be interactive.
 
@@ -347,7 +347,7 @@ First, add these three lines of code to the end of `viewDidLoad()`, just after t
 class ViewController: UIViewController, UIDragInteractionDelegate {
 ```
 
-Xcode will complain because we don't actually implement the one required method of the `UIDragInteractionDelegate` protocol, so repeat what you did earlier – click the error marker on the bad line, then select "Fix" to insert this method stub:
+Xcode will complain because we don't actually implement the one required method of the `UIDragInteractionDelegate` protocol, so repeat what you did earlier - click the error marker on the bad line, then select "Fix" to insert this method stub:
 
 ```swift
 func dragInteraction(_ interaction: UIDragInteraction, itemsForBeginning session: UIDragSession) -> [UIDragItem] {
@@ -370,7 +370,7 @@ func dragInteraction(_ interaction: UIDragInteraction, itemsForBeginning session
 }
 ```
 
-And that's it! Try using iPad multitasking to put the Photos app on the right of the screen – you should be able to drag the image from your app into Photos to have it copied across.
+And that's it! Try using iPad multitasking to put the Photos app on the right of the screen - you should be able to drag the image from your app into Photos to have it copied across.
 
 ---
 
@@ -378,13 +378,13 @@ And that's it! Try using iPad multitasking to put the Photos app on the right of
 
 Augmented reality (AR) has been around for a while, but with iOS 11 Apple has done something quite remarkable: they've created an advanced implementation that integrates seamlessly with its existing game development technologies. This means you can take your existing SpriteKit or SceneKit skills and integrate them with AR without too much work, which is a tantalising prospect indeed.
 
-Xcode comes with a great ARKit template right out of the box, so I encourage you to give it a try – you'll be surprised how easy it is!
+Xcode comes with a great ARKit template right out of the box, so I encourage you to give it a try - you'll be surprised how easy it is!
 
 I want to walk through the template just briefly so you can see how everything fits together. First, create a new Xcode project using the Augmented Reality App template, then select SpriteKit for Content Technology. Yes, SpriteKit is a 2D framework, but it still works great in ARKit because it billboards your sprites so they appear to twist and turn in 3D.
 
 If you open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, you'll see that the ARKit template works a little differently from the regular SpriteKit template: it uses a new `ARSKView` Interface Builder object, which is what brings together the two worlds of ARKit and SpriteKit. That's connected to an outlet in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, which sets up the AR tracking in `viewWillAppear()` and pauses it in `viewWillDisappear()`.
 
-However, the *real* work takes place in two other places: the `touchesBegan()` method of <FontIcon icon="fa-brands fa-swift"/>`Scene.swift`, and the `nodeFor` method in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. In regular SpriteKit you create nodes and add them to your scene directly, but with ARKit you create *anchors* – placeholders that have a position in the scene and an identifier, but no actual content. These then get converted into SpriteKit nodes as needed using the `nodeFor` method. If you've ever used `MKMapView`, this is similar to the way annotations and pins work – annotations are your model data, and pins are the views.
+However, the *real* work takes place in two other places: the `touchesBegan()` method of <FontIcon icon="fa-brands fa-swift"/>`Scene.swift`, and the `nodeFor` method in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. In regular SpriteKit you create nodes and add them to your scene directly, but with ARKit you create *anchors* - placeholders that have a position in the scene and an identifier, but no actual content. These then get converted into SpriteKit nodes as needed using the `nodeFor` method. If you've ever used `MKMapView`, this is similar to the way annotations and pins work - annotations are your model data, and pins are the views.
 
 Inside <FontIcon icon="fa-brands fa-swift"/>`Scene.swift`'s `touchesBegan()` method you'll see code to pull out the current frame from ARKit, then calculate where to place a new enemy. This is done using matrix multiplication: if you create an identity matrix (something representing the position X:0, Y:0, Z:0) then move its Z coordinate back by 0.2 (equivalent to 0.2 meters), you can multiply that by the current scene's camera to move back in the direction the user is pointing.
 
@@ -421,7 +421,7 @@ func view(_ view: ARSKView, nodeFor anchor: ARAnchor) -> SKNode? {
 
 In case you were wondering, ARKit anchors have an `identifier` property that lets you know what kind of node to create. In the Xcode template all anchors are space aliens, but in your own projects you'll almost certainly want to identify things more uniquely.
 
-And that's it! The end result is remarkably effective given how little code it takes – ARKit should prove to be a big hit.
+And that's it! The end result is remarkably effective given how little code it takes - ARKit should prove to be a big hit.
 
 ---
 
@@ -466,7 +466,7 @@ class ViewController: UIViewController {
 }
 ```
 
-If you run the app you should already see you can scroll vertically through pages using a continuous scrolling mechanism. You can also pinch to zoom if you're testing on a real device – and you'll see the PDF re-render at higher resolution as you do. If you want to change the way the PDF is laid out, you can try manipulating the `displayMode`, `displayDirection`, and `displaysAsBook` properties.
+If you run the app you should already see you can scroll vertically through pages using a continuous scrolling mechanism. You can also pinch to zoom if you're testing on a real device - and you'll see the PDF re-render at higher resolution as you do. If you want to change the way the PDF is laid out, you can try manipulating the `displayMode`, `displayDirection`, and `displaysAsBook` properties.
 
 For example, you can position the pages as double-page spreads with the cover by itself like this:
 
@@ -507,7 +507,7 @@ func lastPage() {
 
 Now, if this were Swift 3 we would be done. But as of Swift 4 you'll start seeing the error "Argument of '#selector' refers to instance method 'firstPage()' that is not exposed to Objective-C", along with the proposed fix of "Add '@objc' to expose this instance method to Objective-C". What this means is that the Swift method in question isn't visible to Objective-C, which matters because `UIBarButtonItem` is Objective-C code.
 
-While adding `@objc` to individual methods is a working solution, I expect most people will just shrug their shoulders and put `@objcMembers` before their class – that automatically exposes everything in the class to Objective-C, just like Swift 3 used to. So, modify the class definition to this:
+While adding `@objc` to individual methods is a working solution, I expect most people will just shrug their shoulders and put `@objcMembers` before their class - that automatically exposes everything in the class to Objective-C, just like Swift 3 used to. So, modify the class definition to this:
 
 ```swift
 @objcMembers
@@ -559,7 +559,7 @@ func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error
 }
 ```
 
-Both of those methods are easy enough, but error handling is particularly so – we're just going to make the error print out to the Xcode console. Fill in the `didInvalidateWithError` method like this:
+Both of those methods are easy enough, but error handling is particularly so - we're just going to make the error print out to the Xcode console. Fill in the `didInvalidateWithError` method like this:
 
 ```swift
 func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
@@ -583,7 +583,7 @@ func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NF
 }
 ```
 
-That's all the code complete, so go ahead and run the app! If everything has worked, you will immediately see some system user interface appear prompting the user to hold their device near something to scan. As you can see, it's just not possible for nefarious apps to abuse NFC scanning – not only do we have no control over the user interface, but it also times out after 60 seconds to avoid wasting battery.
+That's all the code complete, so go ahead and run the app! If everything has worked, you will immediately see some system user interface appear prompting the user to hold their device near something to scan. As you can see, it's just not possible for nefarious apps to abuse NFC scanning - not only do we have no control over the user interface, but it also times out after 60 seconds to avoid wasting battery.
 
 ---
 
@@ -595,19 +595,19 @@ This might sound dull, but it's actually the basis of a number of huge technolog
 
 In iOS 11 this is all provided by a new machine learning framework called Core ML, which is designed to support a wide variety of models rather than just examining images. Believe it or not, Core ML is almost trivial to write code for, however, that's only one part of the story.
 
-You see, Core ML requires trained models to work with: the result of training an algorithm on a variety of data. These models can range from a few kilobytes to hundreds of megabytes or more, and obviously require a certain amount of expertise to produce – particularly if you're working with image recognition. Fortunately, Apple has provided a handful of models we can use to get up and running quickly, so if you just want to take Core ML for a test ride it's actually easy.
+You see, Core ML requires trained models to work with: the result of training an algorithm on a variety of data. These models can range from a few kilobytes to hundreds of megabytes or more, and obviously require a certain amount of expertise to produce - particularly if you're working with image recognition. Fortunately, Apple has provided a handful of models we can use to get up and running quickly, so if you just want to take Core ML for a test ride it's actually easy.
 
-Sadly, even that is only another part of the story: there's a third part, which is thoroughly evil. You see, Core ML models automatically generate code for us that accept some input data and return some output – that part is beautiful. Sadly, the input data they want when processing images isn't a `UIImage`, nor is it a `CGImage`, or even a `CIImage`.
+Sadly, even that is only another part of the story: there's a third part, which is thoroughly evil. You see, Core ML models automatically generate code for us that accept some input data and return some output - that part is beautiful. Sadly, the input data they want when processing images isn't a `UIImage`, nor is it a `CGImage`, or even a `CIImage`.
 
 Instead, Apple has chosen to make us use `CVPixelBuffer`, which is about as welcome in my code as a porcupine in a hemophiliac meetup. There is no nice, efficient way of converting a `UIImage` to a `CVPixelBuffer`, and I feel confident saying that because I wasted several hours trying to make one. Fortunately for me [<FontIcon icon="fa-brands fa-x-twitter"/>Chris Cieslak](https://x.com/cieslak) was kind enough to share his code with me, and he's made it available under the [<FontIcon icon="fas fa-globe"/>WTFPL](http://www.wtfpl.net/about/) so you can use it too.
 
-Let's try out Core ML now. Create a new Single View App project (or re-use your existing one), then add a picture of something – I added a picture of ![<FontIcon icon="fa-brands fa-wikipedia-w"/>Washington Dulles International Airport](https://upload.wikimedia.org/wikipedia/commons/9/92/Washington_Dulles_International_Airport_at_Dusk.jpg) from Wikipedia. Name the picture "test.jpg" in your project to avoid typos.
+Let's try out Core ML now. Create a new Single View App project (or re-use your existing one), then add a picture of something - I added a picture of ![<FontIcon icon="fa-brands fa-wikipedia-w"/>Washington Dulles International Airport](https://upload.wikimedia.org/wikipedia/commons/9/92/Washington_Dulles_International_Airport_at_Dusk.jpg) from Wikipedia. Name the picture "test.jpg" in your project to avoid typos.
 
-Now that we have some test input, we need to add a trained model. It might not have seen our exact picture before, but it needs to have been exposed to similar pictures in order to have a shot at recognizing the airport. Apple provides a selection of pre-configured models at [<FontIcon icon="fa-brands fa-apple"/>https://developer.apple.com/machine-learning](https://developer.apple.com/machine-learning/) – please go there now, and download the model for "Places205-GoogLeNet". This is only 25MB, so it won't take up much space on your user's devices.
+Now that we have some test input, we need to add a trained model. It might not have seen our exact picture before, but it needs to have been exposed to similar pictures in order to have a shot at recognizing the airport. Apple provides a selection of pre-configured models at [<FontIcon icon="fa-brands fa-apple"/>https://developer.apple.com/machine-learning](https://developer.apple.com/machine-learning/) - please go there now, and download the model for "Places205-GoogLeNet". This is only 25MB, so it won't take up much space on your user's devices.
 
-Once you've downloaded the model, drag it into your Xcode project then select it so you can see Core ML's model viewer. You'll see it's a neural network classifier produced out of MIT, and available under a Creative Commons license. Below that you'll see it has "sceneImage" for its inputs, and "sceneLabelProbs" and "sceneLabel" for its output – an image for input, and some text describing what it thinks of the image for output.
+Once you've downloaded the model, drag it into your Xcode project then select it so you can see Core ML's model viewer. You'll see it's a neural network classifier produced out of MIT, and available under a Creative Commons license. Below that you'll see it has "sceneImage" for its inputs, and "sceneLabelProbs" and "sceneLabel" for its output - an image for input, and some text describing what it thinks of the image for output.
 
-You'll also see "Model class" and "Swift generated source" – Xcode generates a class for us that wraps up the entire thing in only a few lines of code, which is quite remarkable as you'll see shortly.
+You'll also see "Model class" and "Swift generated source" - Xcode generates a class for us that wraps up the entire thing in only a few lines of code, which is quite remarkable as you'll see shortly.
 
 At this point we have an image to recognize and a trained model that can examine it. All we need to do now is put the two together: load the image, prepare it for the model, then ask the model for its prediction.
 
@@ -682,19 +682,19 @@ guard let prediction = try? model.prediction(sceneImage: pixelBuffer!) else { re
 print(prediction.sceneLabel)
 ```
 
-Believe it or not, that really is all it takes to use Core ML in code; all the rest was setup for those three simple lines. What you get printed out depends on what you put in and your model, but GoogLeNetPlaces correctly identified my image as an airport terminal, and did so entirely on device – there was no need to send the image off to a server to be processed, so you get great privacy out of the box.
+Believe it or not, that really is all it takes to use Core ML in code; all the rest was setup for those three simple lines. What you get printed out depends on what you put in and your model, but GoogLeNetPlaces correctly identified my image as an airport terminal, and did so entirely on device - there was no need to send the image off to a server to be processed, so you get great privacy out of the box.
 
 ---
 
 ## Lots of other improvements…
 
-There are lots of other improvements across iOS 11 – here are my favorites:
+There are lots of other improvements across iOS 11 - here are my favorites:
 
-- Metal 2 is set to increase graphics performance across the system. I haven't provided code examples here because it's quite a specialist topic – most people will just be happy to see their SpriteKit, SceneKit, and Unity apps get faster for no extra work.
+- Metal 2 is set to increase graphics performance across the system. I haven't provided code examples here because it's quite a specialist topic - most people will just be happy to see their SpriteKit, SceneKit, and Unity apps get faster for no extra work.
 - Table view cells are now automatically self-sizing. Previously this behavior was triggered using `UITableViewAutomaticDimension` for a row height, but it's no longer needed.
-- Table views also gained a new closure-based `performBatchUpdates()` method, which lets you animate mutiple inserts, deletes, and moves at once – and even runs a completion closure once the animations are finished.
+- Table views also gained a new closure-based `performBatchUpdates()` method, which lets you animate mutiple inserts, deletes, and moves at once - and even runs a completion closure once the animations are finished.
 - The new heavy black titles first seen in Apple Music have now spread across the system, and are available to our own apps with one small change: check "Prefers Large Titles" for your navigation bar in IB, or use `navigationController?.navigationBar.prefersLargeTitles = true` if you prefer to do it in code.
-- The `topLayoutGuide` property has been deprecated in favor of `safeAreaLayoutGuide`. This provides edges for all sides rather than just top and bottom, but may well forebode future iPhones with non-rectangular layouts – full-screen iPhone 8 with embedded camera, anyone?
+- The `topLayoutGuide` property has been deprecated in favor of `safeAreaLayoutGuide`. This provides edges for all sides rather than just top and bottom, but may well forebode future iPhones with non-rectangular layouts - full-screen iPhone 8 with embedded camera, anyone?
 - Stack views have gained a `setCustomSpacing(_:after:)` method, which lets you add gaps in the stack view wherever you want rather than uniformly.
 
 ---
@@ -706,12 +706,12 @@ Xcode 9 is the most exciting Xcode release I've ever seen - it's packed full of 
 Here are the big features that caught my eye:
 
 - Refactoring for Swift and Objective-C is built right into the editor, which means you can make sweeping changes to your code (e.g renaming a method) in just a few clicks.
-- Wireless debugging is now available for iOS and tvOS. To enable this functionality, connect your device using USB then go to the Window menu and choose Devices and Simulators. Select your device, then check the "Connect via network" option. Don't be surprised if it doesn't work first time – it's only beta 1!
+- Wireless debugging is now available for iOS and tvOS. To enable this functionality, connect your device using USB then go to the Window menu and choose Devices and Simulators. Select your device, then check the "Connect via network" option. Don't be surprised if it doesn't work first time - it's only beta 1!
 - The source editor has been rewritten in Swift, which has resulted in extraordinary speed improvements for scrolling and searching, along with helpful features such as scope highlighting when you hold down the Ctrl key.
 - You can now add named colors to asset catalogs, which lets you define them once and use them everywhere with the new `UIColor(named:)` initializer.
-- There's a new main thread checker enabled by default, which will automatically warn you when it detects any UIKit method calls that aren't made on the main thread – a common source of bugs.
+- There's a new main thread checker enabled by default, which will automatically warn you when it detects any UIKit method calls that aren't made on the main thread - a common source of bugs.
 - You can now run multiple simulators concurrently, and you can even resize them freely. Apple added extra user interface around the simulators to give us access to hardware controls.
 - If you're not keen to use Swift 4 immediately, there's a new "Swift Language Version" build setting that lets you choose either Swift 4.0 or Swift 3.2. Both use the same compiler, but enable different options internally.
 
-Seriously, I wish I were at WWDC this year just so I could hug the Xcode engineers – this is a scorching release that sets Xcode up for continued greatness.
+Seriously, I wish I were at WWDC this year just so I could hug the Xcode engineers - this is a scorching release that sets Xcode up for continued greatness.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-It's not hard to trim whitespace from a string in Swift, but the syntax is a little wordy – or "self-descriptive" if you're feeling optimistic. You need to use the `trimmingCharacters(in:)` method and provide a list of the characters you want to trim. If you're just using whitespace (tabs, spaces and new lines) you can use the predefined `whitespacesAndNewlines` list of characters, like this:
+It's not hard to trim whitespace from a string in Swift, but the syntax is a little wordy - or "self-descriptive" if you're feeling optimistic. You need to use the `trimmingCharacters(in:)` method and provide a list of the characters you want to trim. If you're just using whitespace (tabs, spaces and new lines) you can use the predefined `whitespacesAndNewlines` list of characters, like this:
 
 ```swift
 let str = "  Taylor Swift  "

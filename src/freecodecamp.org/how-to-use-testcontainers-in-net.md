@@ -76,7 +76,7 @@ In this article, I’ll teach you how to use the TestContainers library to make 
 
 ## What Is TestContainers?
 
-[<FontIcon icon="fas fa-globe"/>TestContainers](https://testcontainers.com) is an open source library that provides you with easily disposable container instances for things like database hosting, message brokers, browsers and more – basically anything that can run in a Docker container.
+[<FontIcon icon="fas fa-globe"/>TestContainers](https://testcontainers.com) is an open source library that provides you with easily disposable container instances for things like database hosting, message brokers, browsers and more - basically anything that can run in a Docker container.
 
 It removes the necessity to maintain hosted environments for testing in the cloud or on local machines. As long as the user’s machine and CI/CD host supports Docker, the testContainer tests can easily be run.
 
@@ -136,7 +136,7 @@ Here we’re using xUnit’s `IAsyncLifetime` interface. It’s an interface in 
 - `WithPassword()`: This allows us to specify the password for the database (when creating most databases, a password is normally required).
 - `WithPortBinding()`: This allows us to specify both the hosting port number on your machine, as well as the container port number
 - `WithWaitStrategy()`: Here we can specify a wait strategy, which informs our container to wait for a condition before the container is ready to use. This is important because some services (like databases or APIs) take time to fully start up.
-- `Build()`" This is the command that builds the test container based on the configuration. This **does not** run or start the container – you can do this using the `container.StartAsync()` method as mentioned previously.
+- `Build()`" This is the command that builds the test container based on the configuration. This **does not** run or start the container - you can do this using the `container.StartAsync()` method as mentioned previously.
 
 #### Why Is** `WithWaitStrategy()` Neede
 
@@ -240,9 +240,9 @@ A more visual look on a test class could look like this:
 
 ### When Is This a Problem?
 
-- It results in slow execution – a new container is started for every test.
-- It’s resource-heavy – multiple containers run sequentially.
-- And it’s not scalable – hundreds of tests will take a long time to complete.
+- It results in slow execution - a new container is started for every test.
+- It’s resource-heavy - multiple containers run sequentially.
+- And it’s not scalable - hundreds of tests will take a long time to complete.
 
 ---
 
@@ -425,7 +425,7 @@ public class AnotherIntegrationTest
 }
 ```
 
-Now you can group your integration tests, whether it be all read tests or all write tests – making your tests much more maintainable.
+Now you can group your integration tests, whether it be all read tests or all write tests - making your tests much more maintainable.
 
 ---
 
@@ -441,7 +441,7 @@ Now you can group your integration tests, whether it be all read tests or all wr
 
 ## How to Create Multiple Containers
 
-Yes, you can create multiple containers which can host different images, making it perfect for when you have multiple systems you need to integrate with – for example Microsoft SQL Server and a Redis instance.
+Yes, you can create multiple containers which can host different images, making it perfect for when you have multiple systems you need to integrate with - for example Microsoft SQL Server and a Redis instance.
 
 You can do this by calling the constructor of the relevant TestContainer package like below:
 

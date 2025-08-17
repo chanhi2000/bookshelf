@@ -226,7 +226,7 @@ Now, the introductory text and the first list item will be highlighted in yellow
 
 When we create a `Highlight` object around a `Range` object, the `Highlight` will be dynamically updated with any changes made to the `Range`. In our example, let's say we now want to extend the highlight to the second list item.
 
-We don't need to create a new `Highlight` or `Range` – rather, we can just set the `Range`'s end position to the new element.
+We don't need to create a new `Highlight` or `Range` - rather, we can just set the `Range`'s end position to the new element.
 
 ```js
 range.setEndAfter(document.getElementById('item2'));

@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "Clifm – Lightning-Fast Command Line File Manager for Linux"
-description: "Article(s) > Clifm – Lightning-Fast Command Line File Manager for Linux"
+title: "Clifm - Lightning-Fast Command Line File Manager for Linux"
+description: "Article(s) > Clifm - Lightning-Fast Command Line File Manager for Linux"
 icon: fa-brands fa-linux
 category: 
   - Shell
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Clifm – Lightning-Fast Command Line File Manager for Linux"
+      content: "Article(s) > Clifm - Lightning-Fast Command Line File Manager for Linux"
     - property: og:description
-      content: "Clifm – Lightning-Fast Command Line File Manager for Linux"
+      content: "Clifm - Lightning-Fast Command Line File Manager for Linux"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/clifm-fast-commandline-file-manager.html
 prev: /devops/linux-debian/articles/README.md
@@ -58,7 +58,7 @@ cover: https://tecmint.com/wp-content/uploads/2024/08/Clifm-Terminal-File-Manage
 ---
 
 <SiteInfo
-  name="Clifm – Lightning-Fast Command Line File Manager for Linux"
+  name="Clifm - Lightning-Fast Command Line File Manager for Linux"
   desc="Clifm is a lightning-fast command-line file manager built on the principles of a shell-like environment, meaning users can interact with their file system."
   url="https://tecmint.com/clifm-fast-commandline-file-manager"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"

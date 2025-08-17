@@ -135,9 +135,9 @@ This tutorial serves as a practical, hands-on guide to harnessing this local AI 
 
 Running LLMs locally addresses several key concerns associated with cloud-based AI services.
 
-- Privacy is paramount – data processed locally never leaves the user's machine.
-- Cost is another major factor – utilizing open-source models and tools like Ollama eliminates API subscription fees and pay-per-token charges, making advanced AI accessible to everyone.
-- Local execution enables offline functionality – crucial for applications where internet connectivity is unreliable or undesirable.
+- Privacy is paramount - data processed locally never leaves the user's machine.
+- Cost is another major factor - utilizing open-source models and tools like Ollama eliminates API subscription fees and pay-per-token charges, making advanced AI accessible to everyone.
+- Local execution enables offline functionality - crucial for applications where internet connectivity is unreliable or undesirable.
 
 ### Ollama: Your Local LLM Gateway
 
@@ -290,7 +290,7 @@ tiktoken
 
 The local setup involves coordinating several independent components: Ollama itself, the specific Qwen 3 model weights, the Python environment, and various libraries like LangChain and ChromaDB. Ensuring compatibility between these pieces and correctly configuring parameters (like Ollama's context window size or selecting a model appropriate for the available VRAM) is key to a smooth experience.
 
-While this modularity offers flexibility – allowing components like the LLM or vector store to be swapped – it also means the initial setup requires careful attention to detail. This tutorial aims to provide clear steps and sensible defaults to minimize potential friction points.
+While this modularity offers flexibility - allowing components like the LLM or vector store to be swapped - it also means the initial setup requires careful attention to detail. This tutorial aims to provide clear steps and sensible defaults to minimize potential friction points.
 
 ---
 

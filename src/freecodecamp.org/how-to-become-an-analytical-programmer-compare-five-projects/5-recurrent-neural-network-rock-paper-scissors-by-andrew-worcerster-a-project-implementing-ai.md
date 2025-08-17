@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "“Recurrent Neural Network – Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI"
-description: "Article(s) > (5/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
+title: "“Recurrent Neural Network - Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI"
+description: "Article(s) > (5/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
 category:
   - Node.js
   - Mermaid.js
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (5/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > (5/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
-      content: "“Recurrent Neural Network – Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI"
+      content: "“Recurrent Neural Network - Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai.html
 next: /freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md#final-toughts
@@ -36,8 +36,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -49,8 +49,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects#heading-5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
@@ -81,7 +81,7 @@ At a high level of generalization, this code follows the same pattern as the oth
 
 ```mermaid :collapsed-lines title=""
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - Simple SB-Diagram
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - Simple SB-Diagram
 config:
     theme: dark
     layout: "elk"
@@ -109,7 +109,7 @@ style stop fill:black, fill-stroke:white
 
 ```mermaid
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - Simple SB-Diagram
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - Simple SB-Diagram
 config:
     theme: dark
     layout: "elk"
@@ -155,7 +155,7 @@ The LSTM is used by another function, `calcNextMove`, to provide an immediate re
 
 ```mermaid :collapsed-lines title=""
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 01
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 01
 config:
     theme: dark
     layout: "elk"
@@ -211,7 +211,7 @@ class NN,LSTM inst
 
 ```mermaid
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 01
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 01
 config:
     theme: dark
     layout: "elk"
@@ -274,7 +274,7 @@ This project has some complexities not seen in previous projects, so I will try 
 
 ```mermaid :collapsed-lines title=""
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 02
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 02
 config:
     theme: dark
     layout: "elk"
@@ -350,7 +350,7 @@ class Dout,Din,Eout,Ein connectorcpuNextMove
 
 ```mermaid
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 02
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - SB-Diagram Refinement 02
 config:
     theme: dark
     layout: "elk"
@@ -441,7 +441,7 @@ We could have finished with the previous diagram as it is largerly refined, but 
 
 ```mermaid :collapsed-lines title=""
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - Final SB-Diagram
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - Final SB-Diagram
 config:
     theme: dark
     layout: "elk"
@@ -544,7 +544,7 @@ class Dout,Din,Eout,Ein connectorcpuNextMove
 
 ```mermaid
 ---
-title: “Recurrent Neural Network – Rock, Paper, Scissors” by A. Worcerster - Final SB-Diagram
+title: “Recurrent Neural Network - Rock, Paper, Scissors” by A. Worcerster - Final SB-Diagram
 config:
     theme: dark
     layout: "elk"
@@ -648,7 +648,7 @@ class Dout,Din,Eout,Ein connectorcpuNextMove
 <!-- TODO: 내용 비교 후 이미지 삭제 -->
 ![Final SB Diagram of the RPS game by A. Worcerster](https://cdn.hashnode.com/res/hashnode/image/upload/v1746277838797/066c8372-c20e-4917-acf5-b8a70a743e96.jpeg)
 
-I think the use of the data in this project deserved additional explanation. In fact, it is not only the use of machine learning procedures that makes this project more complex – but also its associated use of more advanced data structures.
+I think the use of the data in this project deserved additional explanation. In fact, it is not only the use of machine learning procedures that makes this project more complex - but also its associated use of more advanced data structures.
 
 Here’s a selection of some possible values for some of the variables used to collect data at different points of the workflow:
 

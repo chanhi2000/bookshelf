@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ for number in numbers {
 
 However, that prints out all items in their current state: optionally wrapped integers for some, nil for others. 
 
-With a small change to that loop, you can have Swift unwrap all the optionals then only enter the loop for any that contain a value – any `nil` items are ignored. This is done using `for case let` syntax, like this:
+With a small change to that loop, you can have Swift unwrap all the optionals then only enter the loop for any that contain a value - any `nil` items are ignored. This is done using `for case let` syntax, like this:
 
 ```swift
 for case let number? in numbers {

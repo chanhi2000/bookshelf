@@ -246,7 +246,7 @@ This browser support data is from [<FontIcon icon="iconfont icon-caniuse"/>Caniu
 
 ## Conclusion
 
-At the time of this post, the spec was updated about a month ago and is still moving. Support isn’t ubiquitous yet, but even if you have to account for the older values that the polyfill requires, the code to make this work is small and sweet. It’s incredibly fun to see what’s coming up in CSS, and if you run experiments, by all means, let the spec authors know what you’re doing and what you find – it does affect what they work on. I’m still on the fence about using something like this in production yet. It would depend on how willing you are to iterate on that code if things change around in the future. In the meantime, though, the polyfill performs pretty well and it’s exciting to see this kind of thing land in CSS.
+At the time of this post, the spec was updated about a month ago and is still moving. Support isn’t ubiquitous yet, but even if you have to account for the older values that the polyfill requires, the code to make this work is small and sweet. It’s incredibly fun to see what’s coming up in CSS, and if you run experiments, by all means, let the spec authors know what you’re doing and what you find - it does affect what they work on. I’m still on the fence about using something like this in production yet. It would depend on how willing you are to iterate on that code if things change around in the future. In the meantime, though, the polyfill performs pretty well and it’s exciting to see this kind of thing land in CSS.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

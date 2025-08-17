@@ -70,7 +70,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c2
 
 This book will guide you, step-by-step, through designing a relational database using SQL. SQL is one of the most recognized relational languages for managing and querying data in databases.
 
-You’ll learn the fundamental concepts related to both data and the databases where they are stored and managed – from how data is transformed into information and subsequently into knowledge, to the architecture of a database management system (DBMS). We’ll also cover the different stages of the database design process, as well as its key principles, focusing specifically on the design of relational databases.
+You’ll learn the fundamental concepts related to both data and the databases where they are stored and managed - from how data is transformed into information and subsequently into knowledge, to the architecture of a database management system (DBMS). We’ll also cover the different stages of the database design process, as well as its key principles, focusing specifically on the design of relational databases.
 
 By the end of the book, you’ll have a solid understanding of how to design and maintain efficient, secure databases that can support complex data-driven applications, all aimed at meeting a series of requirements imposed by end users or clients. You’ll also learn the SQL fundamentals you’ll need to implement this design on a DBMS, and then maintain and query data on it.
 

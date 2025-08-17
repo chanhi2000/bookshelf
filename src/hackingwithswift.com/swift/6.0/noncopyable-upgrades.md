@@ -56,7 +56,7 @@ Noncopyable types were [introduced in Swift 5.9](/hackingwithswift.com/swift/5.9
 
 As a reminder, noncopyable types allow us to create types that have unique ownership, which we can pass around using borrowing or consuming as needed.
 
-One example of noncopyable types I previously used were the secret messages used in the Mission Impossible movies – they famously self-destruct after being read, which we can model with a noncopyable type that is consumed (i.e. destroyed) upon reading:
+One example of noncopyable types I previously used were the secret messages used in the Mission Impossible movies - they famously self-destruct after being read, which we can model with a noncopyable type that is consumed (i.e. destroyed) upon reading:
 
 ```swift
 struct Message: ~Copyable {
@@ -117,7 +117,7 @@ enum ImpossibleOrder: ~Copyable {
 }
 ```
 
-Because that enum has associated values that are noncopyable, it must itself be noncopyable. However, the associated values being noncopyable also means that pattern matching with `where` was tricky – if you wanted to perform one set of actions for one `Message` type, and a different set for another `Message` type, you were out of luck.
+Because that enum has associated values that are noncopyable, it must itself be noncopyable. However, the associated values being noncopyable also means that pattern matching with `where` was tricky - if you wanted to perform one set of actions for one `Message` type, and a different set for another `Message` type, you were out of luck.
 
 With [SE-0432 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0432-noncopyable-switch.md) this is now resolved, meaning code like the below is now allowed:
 

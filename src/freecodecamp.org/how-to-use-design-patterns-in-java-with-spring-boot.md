@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples"
-description: "Article(s) > How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples"
+title: "How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
+description: "Article(s) > How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
 icon: iconfont icon-spring
 category:
   - Java
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples"
+      content: "Article(s) > How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
     - property: og:description
-      content: "How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples"
+      content: "How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-design-patterns-in-java-with-spring-boot.html
 prev: /programming/java-spring/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/1td5Iq5IvNc/up
 ---
 
 <SiteInfo
-  name="How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples"
+  name="How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
   desc="As software projects grow, it becomes increasingly important to keep your code organized, maintainable, and scalable. This is where design patterns come into play. Design patterns provide proven, reusable solutions to common software design challenge..."
   url="https://freecodecamp.org/news/how-to-use-design-patterns-in-java-with-spring-boot"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -840,7 +840,7 @@ I hope this guide has helped you understand how to effectively use design patter
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Design Patterns in Java with Spring Boot – Explained with Code Examples",
+  "title": "How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples",
   "desc": "As software projects grow, it becomes increasingly important to keep your code organized, maintainable, and scalable. This is where design patterns come into play. Design patterns provide proven, reusable solutions to common software design challenge...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-design-patterns-in-java-with-spring-boot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

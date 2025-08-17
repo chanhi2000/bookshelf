@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Oracle ERP Test Automation Guide – Examples and Best Practices"
-description: "Article(s) > Oracle ERP Test Automation Guide – Examples and Best Practices"
+title: "Oracle ERP Test Automation Guide - Examples and Best Practices"
+description: "Article(s) > Oracle ERP Test Automation Guide - Examples and Best Practices"
 icon: fa-brands fa-java
 category:
   - Java
@@ -26,9 +26,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Oracle ERP Test Automation Guide – Examples and Best Practices"
+      content: "Article(s) > Oracle ERP Test Automation Guide - Examples and Best Practices"
     - property: og:description
-      content: "Oracle ERP Test Automation Guide – Examples and Best Practices"
+      content: "Oracle ERP Test Automation Guide - Examples and Best Practices"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/oracle-erp-test-automation-guide/
 prev: /programming/java/articles/README.md
@@ -88,7 +88,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 ---
 
 <SiteInfo
-  name="Oracle ERP Test Automation Guide – Examples and Best Practices"
+  name="Oracle ERP Test Automation Guide - Examples and Best Practices"
   desc="Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ..."
   url="https://freecodecamp.org/news/oracle-erp-test-automation-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -110,7 +110,7 @@ Oracle ERP, or Oracle Enterprise Resource Planning, is a group of connected apps
 
 Instead of using different tools for each task, Oracle ERP puts everything in one place. It works like a central system that connects your business departments.
 
-You can use it to track expenses, manage vendor deals, or process payroll. Everyone can work together on the same system. Since it runs core parts of your business, it is important to make sure it works well – and that is where testing helps.
+You can use it to track expenses, manage vendor deals, or process payroll. Everyone can work together on the same system. Since it runs core parts of your business, it is important to make sure it works well - and that is where testing helps.
 
 ---
 
@@ -197,11 +197,11 @@ Finally, test automation helps you make sure that your testing processes remain 
 
 So, to summarize, automating Oracle ERP testing results in:
 
-- Better test coverage – Detects bugs early and improves reliability.
-- Faster development – Automates repetitive tests, saving time and costs.
-- Supports CI/CD – Helps with smooth updates and new features.
-- Scalability – Handles complex cases and large data sets.
-- System stability – Ensures all features work as expected.
+- Better test coverage - Detects bugs early and improves reliability.
+- Faster development - Automates repetitive tests, saving time and costs.
+- Supports CI/CD - Helps with smooth updates and new features.
+- Scalability - Handles complex cases and large data sets.
+- System stability - Ensures all features work as expected.
 
 ---
 
@@ -239,7 +239,7 @@ Make sure new updates do not break existing functions. Run regression tests afte
 ```component VPCard
 {
   "title": "Testing Example",
-  "desc": "(1/5) Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "desc": "(1/5) Oracle ERP Test Automation Guide - Examples and Best Practices",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/testing-example.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -249,7 +249,7 @@ Make sure new updates do not break existing functions. Run regression tests afte
 ```component VPCard
 {
   "title": "Best Practices for Oracle Test Automation",
-  "desc": "(2/5) Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "desc": "(2/5) Oracle ERP Test Automation Guide - Examples and Best Practices",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/best-practices-for-oracle-test-automation.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -259,7 +259,7 @@ Make sure new updates do not break existing functions. Run regression tests afte
 ```component VPCard
 {
   "title": "Role of AI-driven Tools in Oracle ERP Automation",
-  "desc": "(3/5) Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "desc": "(3/5) Oracle ERP Test Automation Guide - Examples and Best Practices",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/role-of-ai-driven-tools-in-oracle-erp-automation.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -269,7 +269,7 @@ Make sure new updates do not break existing functions. Run regression tests afte
 ```component VPCard
 {
   "title": "Automating Testing in CI/CD Pipelines",
-  "desc": "(4/5) Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "desc": "(4/5) Oracle ERP Test Automation Guide - Examples and Best Practices",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/automating-testing-in-cicd-pipelines.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -279,7 +279,7 @@ Make sure new updates do not break existing functions. Run regression tests afte
 ```component VPCard
 {
   "title": "Challenges and Solutions",
-  "desc": "(5/5) Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "desc": "(5/5) Oracle ERP Test Automation Guide - Examples and Best Practices",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/challenges-and-solutions.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -299,7 +299,7 @@ This Oracle ERP test automation playbook ebook hints that a clear testing approa
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "title": "Oracle ERP Test Automation Guide - Examples and Best Practices",
   "desc": "Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/oracle-erp-test-automation-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

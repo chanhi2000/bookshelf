@@ -49,22 +49,22 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750178451091/adea644
 
 <SiteInfo
   name="The Data Communication and Networking Handbook"
-  desc="When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them – from texting on WhatsApp to watching YouTube. I still vividly remember when I learned that computers communicate with one another. It was ..."
+  desc="When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them - from texting on WhatsApp to watching YouTube. I still vividly remember when I learned that computers communicate with one another. It was ..."
   url="https://freecodecamp.org/news/the-data-communication-and-networking-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1750178451091/adea6449-2daf-405b-80f0-e23a356fa45b.png"/>
 
-When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them – from texting on WhatsApp to watching YouTube.
+When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them - from texting on WhatsApp to watching YouTube.
 
-I still vividly remember when I learned that computers communicate with one another. It was magic – telepathy, nearly. But there is a systematic, logical process behind the magic: computer networking. And I’m excited to help you discover how computers communicate and why it’s possible.
+I still vividly remember when I learned that computers communicate with one another. It was magic - telepathy, nearly. But there is a systematic, logical process behind the magic: computer networking. And I’m excited to help you discover how computers communicate and why it’s possible.
 
-Essentially, data communication is all about exchanging information between two or more machines. But it's not just a question of sending – it's a matter of sending the right data, to the right machine, in the right format. And that's the brilliance of networking basics.
+Essentially, data communication is all about exchanging information between two or more machines. But it's not just a question of sending - it's a matter of sending the right data, to the right machine, in the right format. And that's the brilliance of networking basics.
 
-This handbook will teach you the fundamentals of the language of computers. You'll discover how data is passed from machine to machine, how operations are carried out on information, and how networks – from tiny home arrangements to massive worldwide networks – are constructed and managed.
+This handbook will teach you the fundamentals of the language of computers. You'll discover how data is passed from machine to machine, how operations are carried out on information, and how networks - from tiny home arrangements to massive worldwide networks - are constructed and managed.
 
 We’ll start with the absolute basics: what a network is, what the hardware is, and how devices know each other and talk to each other. Next, we’ll examine crucial networking models like OSI and TCP/IP stacks that segment communication into layers in order to make it easier to understand and troubleshoot. You'll learn about IP addresses, DNS, routing, switching, and firewalls and security's involvement in keeping networks safe.
 
-Whether you are a complete beginner starting from the ground up or a seasoned dev looking to solidify your foundation, this handbook will walk you through linking the dots. When you're finished, you won't only understand how your favorite sites and apps really function behind the scenes – you'll be able to speak networks in your sleep.
+Whether you are a complete beginner starting from the ground up or a seasoned dev looking to solidify your foundation, this handbook will walk you through linking the dots. When you're finished, you won't only understand how your favorite sites and apps really function behind the scenes - you'll be able to speak networks in your sleep.
 
 ---
 
@@ -101,12 +101,12 @@ By the end, you will be able to:
 
 ### Data vs Information
 
-We throw around the word "data" a lot these days – "big data," "data science," "data plans" – but what does it mean?
+We throw around the word "data" a lot these days - "big data," "data science," "data plans" - but what does it mean?
 
 - **Data** is raw. It's unprocessed, meaningless on its own. Think of numbers on a spreadsheet with no labels.
-- **Information** is processed data – it's meaningful and helps us make decisions.
+- **Information** is processed data - it's meaningful and helps us make decisions.
 
-**A personal example:** I once received a CSV file from my school with hundreds of rows of marks. It looked like chaos – just student IDs and scores. But the moment I matched those IDs to names and applied the grading criteria, it became useful **information** about who passed, who failed, and who topped the class.
+**A personal example:** I once received a CSV file from my school with hundreds of rows of marks. It looked like chaos - just student IDs and scores. But the moment I matched those IDs to names and applied the grading criteria, it became useful **information** about who passed, who failed, and who topped the class.
 
 So, data is the ingredient. Information is the cooked dish.
 
@@ -114,7 +114,7 @@ So, data is the ingredient. Information is the cooked dish.
 
 Imagine you're texting your friend. Your phone sends data to their phone using signals through cables, Wi-Fi, or even satellites. This entire process is called **data communication**, moving data from one place (you!) to another (your friend).
 
-But it’s not as random as it sounds. It follows a set of agreed rules called **protocols**. Think of them as social etiquette for devices – how to talk, when to talk, and what to say.
+But it’s not as random as it sounds. It follows a set of agreed rules called **protocols**. Think of them as social etiquette for devices - how to talk, when to talk, and what to say.
 
 ![Explanation of protocols](https://cdn.hashnode.com/res/hashnode/image/upload/v1748435887792/a607b06f-ffe6-47c1-8e18-a79ab4f0b068.png)
 
@@ -141,11 +141,11 @@ I once experienced a video call where the sound lagged by 5 seconds. It turned i
 
 In every data conversation, five key players show up:
 
-1. **Sender** – The device that starts the chat (like your phone).
-2. **Receiver** – The one getting the message (your friend’s phone).
-3. **Message** – The actual info, whether it’s "hi" or a TikTok.
-4. **Transmission Medium** – The path your message travels (Wi-Fi, cables, and so on).
-5. **Protocol** – The language they agree to speak (like TCP/IP).
+1. **Sender** - The device that starts the chat (like your phone).
+2. **Receiver** - The one getting the message (your friend’s phone).
+3. **Message** - The actual info, whether it’s "hi" or a TikTok.
+4. **Transmission Medium** - The path your message travels (Wi-Fi, cables, and so on).
+5. **Protocol** - The language they agree to speak (like TCP/IP).
 
 Pretty cool, right?
 
@@ -153,7 +153,7 @@ Pretty cool, right?
 
 ### Data Representation
 
-Computers are not humans. They don’t understand language, pictures, or music – unless these are converted into a format they can process: **bits** (0s and 1s).
+Computers are not humans. They don’t understand language, pictures, or music - unless these are converted into a format they can process: **bits** (0s and 1s).
 
 Let’s walk through the different types of data representation:
 
@@ -185,15 +185,15 @@ Video is a sequence of images (frames) along with synchronized audio. It’s hig
 
 #### How Does the Data Flow?
 
-You might think data just zips across in one go – but it has *modes*, just like moods:
+You might think data just zips across in one go - but it has *modes*, just like moods:
 
 - **Simplex:** One-way only (like a radio broadcast).
-- **Half Duplex:** You take turns – like walkie-talkies.
-- **Full Duplex:** Both sides talk at once – think phone calls.
+- **Half Duplex:** You take turns - like walkie-talkies.
+- **Full Duplex:** Both sides talk at once - think phone calls.
 
 Each has its own vibe depending on the situation.
 
-![Data flow – simplex, half duplex, full duplex](https://cdn.hashnode.com/res/hashnode/image/upload/v1748436167157/a8e8d277-16f8-4891-8bfd-8b63ac468bda.png)
+![Data flow - simplex, half duplex, full duplex](https://cdn.hashnode.com/res/hashnode/image/upload/v1748436167157/a8e8d277-16f8-4891-8bfd-8b63ac468bda.png)
 
 ### What is a Computer Network?
 
@@ -215,35 +215,35 @@ When you connect your laptop at a café, for example, you’re part of a **netwo
 
 connects electronic devices within a user's immediate area.
 
-![Personal Area Network – downloadzone](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933101198/29cc06ed-cf79-44b8-bf6b-4691729c80c7.png)
+![Personal Area Network - downloadzone](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933101198/29cc06ed-cf79-44b8-bf6b-4691729c80c7.png)
 
 @tab LAN
 
 **Local Area Network**
 
-Small – like your home Wi-Fi.
+Small - like your home Wi-Fi.
 
-![Local Area Network – IT Release](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933264502/fad55c68-0170-4fee-8a6c-cc7463f697be.png)
+![Local Area Network - IT Release](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933264502/fad55c68-0170-4fee-8a6c-cc7463f697be.png)
 
 @tab MAN
 
 **Metropolitan Area Network**
 
-Covers a city – like college campuses.
+Covers a city - like college campuses.
 
-![Metropolitan Area Network (MAN) – CyberHoot](https://cyberhoot.com/wp-content/uploads/2022/01/3d7659f7-2f69-4b14-b851-a84ab85152e0.png)
+![Metropolitan Area Network (MAN) - CyberHoot](https://cyberhoot.com/wp-content/uploads/2022/01/3d7659f7-2f69-4b14-b851-a84ab85152e0.png)
 
 @tab WAN
 
 **Wide Area Network**
 
-Huge – think the *entire* internet!
+Huge - think the *entire* internet!
 
-![Wide Area Network – Vecteezy](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933893001/aa0343da-2733-447f-98f2-c347a7e964c9.png)
+![Wide Area Network - Vecteezy](https://cdn.hashnode.com/res/hashnode/image/upload/v1748933893001/aa0343da-2733-447f-98f2-c347a7e964c9.png)
 
 :::
 
-The internet isn’t one big net – it’s a net of many, many nets.
+The internet isn’t one big net - it’s a net of many, many nets.
 
 ### What is a Protocol?
 
@@ -276,17 +276,17 @@ There are two types of standards:
 
 There are a few key organizations that help define these standards:
 
-- **ISO** – International Organization for Standardization
-- **ITU-T** – International Telecommunication Union
-- **IEEE** – Institute of Electrical and Electronics Engineers
-- **ANSI** – American National Standards Institute
-- **EIA** – Electronic Industries Association
+- **ISO** - International Organization for Standardization
+- **ITU-T** - International Telecommunication Union
+- **IEEE** - Institute of Electrical and Electronics Engineers
+- **ANSI** - American National Standards Institute
+- **EIA** - Electronic Industries Association
 
 ---
 
 ## Chapter 2: Signals — The Language of Communication
 
-In this chapter, I’ll teach you about the invisible messengers – signals – that make it all possible. You will:
+In this chapter, I’ll teach you about the invisible messengers - signals - that make it all possible. You will:
 
 - Understand what signals are and how they carry data
 - Distinguish between analog and digital signals, and when each is used
@@ -300,7 +300,7 @@ In this chapter, I’ll teach you about the invisible messengers – signals –
 
 When I was a teenager, I often wondered how my voice traveled through a phone and reached someone else in another town. I imagined tiny versions of myself running through wires with a message in hand. Turns out, while not exactly accurate, the idea of something carrying your message is spot on. That something is called a **signal**.
 
-A signal is the form data takes to move through physical space. Whether it’s your mom calling you, your professor sending an email, or your friend uploading a reel – all of that happens through signals.
+A signal is the form data takes to move through physical space. Whether it’s your mom calling you, your professor sending an email, or your friend uploading a reel - all of that happens through signals.
 
 ### Data and Signals
 
@@ -312,8 +312,8 @@ Here’s where things get a bit science-y, but stay with me. When data travels, 
 
 #### The Nature of the Signal: Analog vs Digital
 
-- **Analog** – A signal that varies smoothly over time and can take any value in a range. Like ocean waves, always changing smoothly. Continuous (like voices).
-- **Digital** – A signal that has discrete values, usually 0s and 1s. Like a staircase – clear, sharp steps, either up or down, in bits (1s and 0s, like computers).
+- **Analog** - A signal that varies smoothly over time and can take any value in a range. Like ocean waves, always changing smoothly. Continuous (like voices).
+- **Digital** - A signal that has discrete values, usually 0s and 1s. Like a staircase - clear, sharp steps, either up or down, in bits (1s and 0s, like computers).
 
 ![Analog and digital signals](https://cdn.hashnode.com/res/hashnode/image/upload/v1748436311536/db273577-c474-4eca-8396-b9ea7bd0031f.png)
 
@@ -326,13 +326,13 @@ The first time I visualized an analog signal, it looked like the ripples I saw a
 - **Amplitude**: This reminded me of volume. Louder signals have taller waves.
 - **Frequency**: It’s the beat or rhythm. High frequency = rapid waves = higher pitch.
 - **Period**: Time for one full wave cycle. Shorter periods mean higher frequency.
-- **Phase**: Two waves can start at different points – just like dancers starting a move a second apart.
+- **Phase**: Two waves can start at different points - just like dancers starting a move a second apart.
 - **Wavelength**: How far one wave travels in space. It depends on how fast it moves and its frequency.
 
 ##### Time vs. Frequency Domain
 
 - **Time Domain**: Shows how signals change over time. Like watching a song’s audio waveform.
-- **Frequency Domain**: Shows the ingredients – how much bass, how much treble. It’s like the EQ settings on a music player.
+- **Frequency Domain**: Shows the ingredients - how much bass, how much treble. It’s like the EQ settings on a music player.
 
 ##### Composite Signals and Fourier
 
@@ -368,7 +368,7 @@ If analog signals are elegant curves, digital signals are sharp edges. A square 
 #### Pattern Over Time: Periodic vs Non-periodic Signals
 
 - **Periodic Signals**: Repeat at regular intervals over time (for example, sine waves, clock pulses).
-- **Non-periodic Signals**: Do **not** repeat – more random or unique (for example, a burst of data or speech waveform).
+- **Non-periodic Signals**: Do **not** repeat - more random or unique (for example, a burst of data or speech waveform).
 
 ![Periodic vs non-periodic signals](https://cdn.hashnode.com/res/hashnode/image/upload/v1749818448163/c505ace2-587d-4c50-9111-bda8a902f439.png)
 
@@ -384,7 +384,7 @@ These feel like the rhythm of my favorite song. They’re predictable. Repeating
 
 ##### Why I like them
 
-- Easy to analyze – like having a beat to follow.
+- Easy to analyze - like having a beat to follow.
 - Great for systems that need synchronization, like clock signals in my devices.
 
 ##### But still...
@@ -397,13 +397,13 @@ These are the jazz solos of the signal world. Wild. Unique. Unpredictable.
 
 ##### Key Features
 
-- **No repetition**: Each part is different – like my playlist on shuffle.
+- **No repetition**: Each part is different - like my playlist on shuffle.
 - **Spikes and silence**: Sudden changes, long pauses. Perfect for one-off data transmissions.
 - **Used in real-life data**: Emails, videos, and downloads all love this format.
 
 ##### Why they’re cool
 
-- Great for representing actual information – each burst means something new.
+- Great for representing actual information - each burst means something new.
 - More flexible for transmitting complex messages.
 
 ##### What’s tricky
@@ -438,7 +438,7 @@ These are the real, tangible paths for signals:
 
 Just like roads are built for certain speeds, physical channels are better at carrying certain frequencies.
 
-Here’s where **low-pass**, **high-pass**, **band-pass**, and **band-stop** come in – they describe how a physical channel behaves.
+Here’s where **low-pass**, **high-pass**, **band-pass**, and **band-stop** come in - they describe how a physical channel behaves.
 
 | **Channel Type** | **Behavior** | **Analogy** | **Common Use** |
 | --- | --- | --- | --- |
@@ -459,7 +459,7 @@ A **logical channel** is a virtual path created within a physical one. It organi
 | Time Division | Each user gets a time slot | Taking turns at a speaking table |
 | Virtual Circuits | Custom paths inside networks | Reserved bus seats |
 
-So yes – you can have many logical channels on one physical cable.
+So yes - you can have many logical channels on one physical cable.
 
 ##### How They Work Together
 
@@ -471,7 +471,7 @@ Within that frequency range, you can create many logical channels using time or 
 Example: FM Radio
 
 - **Physical Channel**: Air (radio waves)
-- **Type**: Band-pass (88–108 MHz)
+- **Type**: Band-pass (88-108 MHz)
 - **Logical Channels**: Each station (for example, 98.4 FM) is a logical channel inside that band
 
 Example: Internet over DSL
@@ -516,7 +516,7 @@ More bandwidth = more room = faster, clearer communication.
 
 We’ll talk more about bandwidth in the next chapter.
 
-Learning about signals was like being handed the key to a secret code. Every beep, flash, and wave in our world is part of a language. Once you see it, you can’t unsee it. Signals are not just theory – they are the reason I can write this on a laptop, send it to the cloud, and have you read it anywhere in the world.
+Learning about signals was like being handed the key to a secret code. Every beep, flash, and wave in our world is part of a language. Once you see it, you can’t unsee it. Signals are not just theory - they are the reason I can write this on a laptop, send it to the cloud, and have you read it anywhere in the world.
 
 ---
 
@@ -539,7 +539,7 @@ By the end of this chapter, you will be able to explain:
 
 Have you ever streamed a movie and it kept buffering? That frustrating lag led me to one of the most important concepts in networking: bandwidth. Bandwidth is like a highway. The wider the road, the more cars (or data) can pass at once.
 
-I also like to think of it this way: If I’m trying to pour water (data) through a pipe (the communication channel), a narrow pipe limits how much water can flow through at a time. That’s low bandwidth. A wide pipe? Now we’re talking high bandwidth – fast and smooth.
+I also like to think of it this way: If I’m trying to pour water (data) through a pipe (the communication channel), a narrow pipe limits how much water can flow through at a time. That’s low bandwidth. A wide pipe? Now we’re talking high bandwidth - fast and smooth.
 
 #### Bandwidth Utilization
 
@@ -559,7 +559,7 @@ Sometimes the channel sits unused, due to waiting for acknowledgment, processing
 
 #### Analog Bandwidth
 
-Analog bandwidth refers to the **range of frequencies** over which an analog signal can be accurately acquired, processed, or transmitted by a system. Beyond this range, the signal begins to degrade – either being attenuated or distorted, making it unreliable for precise use.
+Analog bandwidth refers to the **range of frequencies** over which an analog signal can be accurately acquired, processed, or transmitted by a system. Beyond this range, the signal begins to degrade - either being attenuated or distorted, making it unreliable for precise use.
 
 ![Analog Bandwidth - amplitude & frequency graph](https://cdn.hashnode.com/res/hashnode/image/upload/v1750094089263/3f02c7a4-9652-4162-b258-422e431d94a8.png)
 
@@ -567,11 +567,11 @@ Analog bandwidth refers to the **range of frequencies** over which an analog sig
 
 - **Frequency Range:** Analog bandwidth defines the spectrum of frequencies that a system can handle **without significant degradation**. It’s the system’s “comfort zone” for signal fidelity.
 - **3 dB Bandwidth:** One common method of defining analog bandwidth is the **-3 dB point**. At this point, the signal’s amplitude drops to about 70.7% of its original value, meaning almost half its power is lost. Frequencies beyond this threshold experience much more signal loss or distortion.
-- **Importance in Signal Fidelity:** Analog bandwidth directly affects how well a system can reproduce or process real-world signals – especially in audio, video, instrumentation, and telecommunications. A narrow bandwidth results in muffled or distorted outputs, while a wider bandwidth ensures better detail and accuracy.
+- **Importance in Signal Fidelity:** Analog bandwidth directly affects how well a system can reproduce or process real-world signals - especially in audio, video, instrumentation, and telecommunications. A narrow bandwidth results in muffled or distorted outputs, while a wider bandwidth ensures better detail and accuracy.
 
 #### Bandwidth and Rise Time
 
-In instruments like oscilloscopes, analog bandwidth is closely related to **rise time** – the time it takes for a signal to transition from low to high. A wider bandwidth enables faster transitions to be captured accurately, which is essential for analyzing high-speed or fast-changing signals.
+In instruments like oscilloscopes, analog bandwidth is closely related to **rise time** - the time it takes for a signal to transition from low to high. A wider bandwidth enables faster transitions to be captured accurately, which is essential for analyzing high-speed or fast-changing signals.
 
 #### Real-Life Example
 
@@ -596,7 +596,7 @@ The wider the digital bandwidth, the more data can be transmitted simultaneously
 
 Although they’re often used interchangeably, they aren’t quite the same:
 
-- **Bandwidth** is the capacity of the channel – the *maximum potential*.
+- **Bandwidth** is the capacity of the channel - the *maximum potential*.
 - **Data rate** is the actual speed at which data is transmitted, which can vary based on factors like:
   - Network congestion
   - Hardware limitations
@@ -608,10 +608,10 @@ Think of bandwidth as the size of a highway, and data rate as how fast cars are 
 
 Digital bandwidth is expressed in units such as:
 
-- **bps** – bits per second
-- **Kbps** – thousands of bits per second
-- **Mbps** – millions of bits per second
-- **Gbps** – billions of bits per second
+- **bps** - bits per second
+- **Kbps** - thousands of bits per second
+- **Mbps** - millions of bits per second
+- **Gbps** - billions of bits per second
 
 ::: tip Example
 
@@ -636,13 +636,13 @@ This becomes even more critical when multiple devices share the same network. Ea
 | --- | --- | --- |
 | Measured in | Bits per second (bps, Mbps, Gbps) | Hertz (Hz) |
 | Focus | Data transmission rate | Frequency range |
-| Example | Internet connection | FM radio signal (for example, 88–108 MHz) |
+| Example | Internet connection | FM radio signal (for example, 88-108 MHz) |
 
 #### Bandwidth in Shared Networks
 
-In shared environments – like home Wi-Fi or public hotspots – everyone taps into the same bandwidth. If bandwidth is limited and several devices are streaming, gaming, or downloading, the network slows down for everyone.
+In shared environments - like home Wi-Fi or public hotspots - everyone taps into the same bandwidth. If bandwidth is limited and several devices are streaming, gaming, or downloading, the network slows down for everyone.
 
-### Throughput – What Gets Delivered
+### Throughput - What Gets Delivered
 
 While **bandwidth** is the *potential* capacity of a channel (the width of the road), **throughput** is the *actual* rate at which data travels end‑to‑end under real‑world conditions. It’s the number of cars that make it through the city per minute, after red lights, speed limits, and detours.
 
@@ -659,7 +659,7 @@ A “100 Mbps” link (bandwidth) might only sustain 80 Mbps of throughput b
 
 :::
 
-#### Latency and Delay – The Time Dimension
+#### Latency and Delay - The Time Dimension
 
 Latency is the *time* it takes for a single bit (or packet) to travel from sender to receiver. Think of it as a travel time, whereas bandwidth and throughput are about volume.
 
@@ -673,9 +673,9 @@ $$
 3. **Processing Delay:** Time routers or switches spend examining headers, making forwarding decisions.
 4. **Queuing Delay:** Time packets wait in buffers when traffic spikes.
 
-**Real‑world story:** During a long‑distance video call, even 100 ms of round‑trip latency can feel like talking through molasses – voices overlap, and the conversation feels stilted.
+**Real‑world story:** During a long‑distance video call, even 100 ms of round‑trip latency can feel like talking through molasses - voices overlap, and the conversation feels stilted.
 
-#### Jitter – Variability in Arrival
+#### Jitter - Variability in Arrival
 
 **Jitter** is the inconsistency in packet arrival times. Even if the average latency is low, high jitter disrupts:
 
@@ -686,19 +686,19 @@ You can mitigate this through Buffers and Quality of Service (QoS) agreements, w
 
 #### How to Improve Performance
 
-If I could go back in time and give myself one tip: Performance isn’t just about speed – it’s about reliability and consistency, too.
+If I could go back in time and give myself one tip: Performance isn’t just about speed - it’s about reliability and consistency, too.
 
 **Here’s what affects performance:**
 
-1. **Bandwidth:** Think of this as the largest diameter of your internet pipe – how much data can actually move through it per second, usually in Mbps or Gbps.<br/>**Why it matters:** More bandwidth means your connection can handle more data – like downloading big files fast or streaming in 4K. **BUT:** Just because your connection can go fast doesn't necessarily mean that it always does. That's where throughput comes in.
-2. **Throughput:** Your actual speed – how much data is really passing through the pipe right now.<br/>**Why it matters:** Your actual internet experience (web page loading, Netflix streaming, gaming) is throughput-dependent, not bandwidth-dependent. If your throughput is bad, your videos buffer, downloads crawl, and games lag – even when you're signed up for a "fast" plan.
-3. **Latency & Jitter: Latency** is the lag – how long it takes information to travel from your machine back to the server and vice versa (in milliseconds). **Jitter** is the variation in that lag – how inconsistent the timing gets.<br/>**Why they're significant:** High latency = frustrating delay in video calls, sluggish online gaming, or keyboard lag in remote desktops. High jitter = choppy audio, frozen faces, or desync'd video in live meetings or streams.
+1. **Bandwidth:** Think of this as the largest diameter of your internet pipe - how much data can actually move through it per second, usually in Mbps or Gbps.<br/>**Why it matters:** More bandwidth means your connection can handle more data - like downloading big files fast or streaming in 4K. **BUT:** Just because your connection can go fast doesn't necessarily mean that it always does. That's where throughput comes in.
+2. **Throughput:** Your actual speed - how much data is really passing through the pipe right now.<br/>**Why it matters:** Your actual internet experience (web page loading, Netflix streaming, gaming) is throughput-dependent, not bandwidth-dependent. If your throughput is bad, your videos buffer, downloads crawl, and games lag - even when you're signed up for a "fast" plan.
+3. **Latency & Jitter: Latency** is the lag - how long it takes information to travel from your machine back to the server and vice versa (in milliseconds). **Jitter** is the variation in that lag - how inconsistent the timing gets.<br/>**Why they're significant:** High latency = frustrating delay in video calls, sluggish online gaming, or keyboard lag in remote desktops. High jitter = choppy audio, frozen faces, or desync'd video in live meetings or streams.
 4. **Packet Loss:** Sometimes, data just doesn't get to where it’s supposed to go. Packets are tiny chunks of data, and if a few get lost along the way, your device has to ask for them again.<br/>**Why it matters:** Small levels of packet loss can cause buffering, call drops, or rubberbanding during gaming. Greater loss = subpar performance, stuttery audio, or crashed streams.
-5. **Utilization & Overhead: Utilization** refers to what ratio of your total bandwidth is being used at any one time. **Overhead** is the extra information that needs to be dealt with to manage your connection – like labels on a package.<br/>**Why they're important:** High utilization is when your connection gets crowded – for example, rush hour. Everything slows down. High overhead absorbs your free bandwidth – less room for what you actually love (video, games, files).
+5. **Utilization & Overhead: Utilization** refers to what ratio of your total bandwidth is being used at any one time. **Overhead** is the extra information that needs to be dealt with to manage your connection - like labels on a package.<br/>**Why they're important:** High utilization is when your connection gets crowded - for example, rush hour. Everything slows down. High overhead absorbs your free bandwidth - less room for what you actually love (video, games, files).
 
 Engineers use [<FontIcon icon="fas fa-globe"/>techniques](https://parkplacetechnologies.com/blog/network-optimization-performance-techniques/) like compression, efficient routing, better cabling, and load balancing to improve performance.
 
-I now see bandwidth everywhere – not just in networks, but in life. Our mental bandwidth, emotional bandwidth – it's all about capacity. Knowing how bandwidth works helped me troubleshoot slow Wi-Fi, plan file transfers, and appreciate what’s going on behind a simple Google search.
+I now see bandwidth everywhere - not just in networks, but in life. Our mental bandwidth, emotional bandwidth - it's all about capacity. Knowing how bandwidth works helped me troubleshoot slow Wi-Fi, plan file transfers, and appreciate what’s going on behind a simple Google search.
 
 Just as in life with mental or emotional bandwidth, we need both ca*pacity* and *consistency* to function at our best. Understanding these metrics empowers you to diagnose slow Wi‑Fi, optimize file transfers, and build networks that meet real user demands.
 
@@ -708,7 +708,7 @@ Just as in life with mental or emotional bandwidth, we need both ca*pacity* and 
 
 How does data move across distances? What path does it take?
 
-This chapter dives into the physical and wireless pathways data takes from one device to another – the **transmission media**. By the end of this chapter, you will understand:
+This chapter dives into the physical and wireless pathways data takes from one device to another - the **transmission media**. By the end of this chapter, you will understand:
 
 - What transmission media is and why it matters
 - The difference between guided (wired) and unguided (wireless) media
@@ -739,7 +739,7 @@ Let’s dive into each of these types of transmission media in a bit more detail
 
 ##### 1. Twisted Pair Cable
 
-This was the first cable I ever handled – it looked like two wires twisted together. Signals are transmitted as tiny voltage differences between the two copper conductors. By twisting the pair, electromagnetic interference picked up on one wire tends to be canceled out on the other, since each twist reverses their positions relative to the noise source.
+This was the first cable I ever handled - it looked like two wires twisted together. Signals are transmitted as tiny voltage differences between the two copper conductors. By twisting the pair, electromagnetic interference picked up on one wire tends to be canceled out on the other, since each twist reverses their positions relative to the noise source.
 
 ::: info Features & Use‑Cases
 
@@ -772,7 +772,7 @@ I remember unscrewing one from the back of our old TV. A single copper core carr
 
 ##### 3. Fiber Optic Cable
 
-This one blew my mind – light carrying data! Data is encoded into light pulses (laser or LED) sent down a glass or plastic core. Total internal reflection at the core–cladding interface traps light, allowing it to travel long distances with almost no loss.
+This one blew my mind - light carrying data! Data is encoded into light pulses (laser or LED) sent down a glass or plastic core. Total internal reflection at the core-cladding interface traps light, allowing it to travel long distances with almost no loss.
 
 ::: info Features & Use‑Cases
 
@@ -792,7 +792,7 @@ This one blew my mind – light carrying data! Data is encoded into light pulses
 
 #### Unguided Transmission Media
 
-When you connect to Wi-Fi or use Bluetooth, you are relying on unguided media. These don’t need a cable – just air.
+When you connect to Wi-Fi or use Bluetooth, you are relying on unguided media. These don’t need a cable - just air.
 
 ![Wireless Communication](https://cdn.hashnode.com/res/hashnode/image/upload/v1748675235793/0c0f16b4-e96c-4056-9240-c908fba813f8.png)
 
@@ -802,7 +802,7 @@ There are several different kinds of unguided transmission media. Let’s talk a
 
 **How It Works:**
 
-Antennas convert electrical signals into electromagnetic waves (and vice versa). Radio frequencies (3 kHz–1 GHz) propagate omnidirectionally (or in broad beams) through the air and can diffract around obstacles.
+Antennas convert electrical signals into electromagnetic waves (and vice versa). Radio frequencies (3 kHz-1 GHz) propagate omnidirectionally (or in broad beams) through the air and can diffract around obstacles.
 
 - **Pros:** Penetrates walls; easy broadcast to many receivers.
 - **Cons:** Susceptible to interference and eavesdropping.
@@ -812,7 +812,7 @@ Antennas convert electrical signals into electromagnetic waves (and vice versa).
 
 **How It Works:**
 
-Highly directional beams (1 GHz–300 GHz) generated by parabolic dishes or waveguide antennas. Because they travel in straight lines (line‑of‑sight), they must be carefully aligned between towers or rooftop dishes.
+Highly directional beams (1 GHz-300 GHz) generated by parabolic dishes or waveguide antennas. Because they travel in straight lines (line‑of‑sight), they must be carefully aligned between towers or rooftop dishes.
 
 - **Pros:** High data rates, cellular backhaul, satellite links.
 - **Cons:** Rain fade, clear path required, more expensive antennas.
@@ -822,7 +822,7 @@ Highly directional beams (1 GHz–300 GHz) generated by parabolic dishes or 
 
 **How It Works:**
 
-LED or laser diodes emit infrared light pulses, which are detected by photodiodes on the receiver. Because IR light cannot pass through walls, it works only in a confined, line‑of‑sight – or within a reflective “cone.”
+LED or laser diodes emit infrared light pulses, which are detected by photodiodes on the receiver. Because IR light cannot pass through walls, it works only in a confined, line‑of‑sight - or within a reflective “cone.”
 
 - **Pros:** Highly secure (confined to room), no RF interference.
 - **Cons:** Very short range; blocked by obstacles; strict alignment.
@@ -855,7 +855,7 @@ When I set up my first home network, I had to think about speed, distance, and c
 | **Home LAN & Office Ethernet** | Cat6 UTP | Affordable, easy to install, handles Gigabit speeds up to 100 m. |
 | **No‑Cable Wireless Access** | Wi‑Fi (2.4/5 GHz) | Easy coverage of rooms; choose 5 GHz for less interference, higher speed. |
 | **Long‑Distance Fiber Backbone** | Single‑Mode Fiber | Minimal signal loss over tens of kilometers; vital for ISP backbones. |
-| **Campus/Building Interconnect** | Multi‑Mode Fiber | Supports 10–100 Gbps across campus; lower cost than single‑mode for short runs. |
+| **Campus/Building Interconnect** | Multi‑Mode Fiber | Supports 10-100 Gbps across campus; lower cost than single‑mode for short runs. |
 | **Point‑to‑Point Enterprise Link** | Microwave Link | Rapid deployment between buildings; ensure clear LOS and proper dish alignment. |
 | **Industrial/Noisy Environments** | Shielded Twisted‑Pair or Fiber | STP resists EMI ; fiber is immune but costlier. |
 | **Room‑Confined, Secure Control Signals** | Infrared | Perfect for IR‑controlled lighting or remote‑only devices in one room. |
@@ -908,13 +908,13 @@ By the end of this chapter, you will:
 
 If you’ve ever arranged chairs in a room for a meeting, you’ve thought about topology. Should everyone face forward? Sit in a circle? Group up in clusters?
 
-Networking topology is the same idea – it’s about the **layout of devices and how they connect**. Whether you're designing a small home LAN or a vast corporate network, choosing the right topology affects everything: speed, cost, troubleshooting, and scalability.
+Networking topology is the same idea - it’s about the **layout of devices and how they connect**. Whether you're designing a small home LAN or a vast corporate network, choosing the right topology affects everything: speed, cost, troubleshooting, and scalability.
 
 ### Physical vs Logical Topology
 
 #### Physical Topology
 
-This is what you can see – the actual layout of wires and devices.
+This is what you can see - the actual layout of wires and devices.
 
 ::: tip Example
 
@@ -928,11 +928,11 @@ This is how data flows, regardless of how devices are physically connected.
 
 ::: tip Example
 
-Even if computers are wired to a switch (star), the data may travel like a bus – this makes it a logical bus topology (more on this below).
+Even if computers are wired to a switch (star), the data may travel like a bus - this makes it a logical bus topology (more on this below).
 
 :::
 
-It’s like a subway map vs. the actual underground tunnels – one shows the concept, the other shows the reality.
+It’s like a subway map vs. the actual underground tunnels - one shows the concept, the other shows the reality.
 
 ### Types of Network Topologies
 
@@ -940,9 +940,9 @@ Let’s go through the main types of network topologies. Each has strengths, wea
 
 #### Bus Topology
 
-Imagine one long cable – all devices “tap into” it.
+Imagine one long cable - all devices “tap into” it.
 
-![Bus Topology – Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748937876952/03749b9f-55a9-4864-8727-c82d5f8f7df6.png)
+![Bus Topology - Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748937876952/03749b9f-55a9-4864-8727-c82d5f8f7df6.png)
 
 In a bus topology, a single backbone cable connects all devices.
 
@@ -959,7 +959,7 @@ In a bus topology, a single backbone cable connects all devices.
 
 Here, each device connects to exactly two others, forming a circle.
 
-![Ring Topology – Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938093608/fbdd3460-1631-4959-abac-145c7ead69a1.png)
+![Ring Topology - Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938093608/fbdd3460-1631-4959-abac-145c7ead69a1.png)
 
 In this case, data travels in one direction, passing through each node.
 
@@ -973,7 +973,7 @@ In this case, data travels in one direction, passing through each node.
 
 #### Star Topology
 
-![Star Topology – Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938238120/78f568ef-4d7c-493a-a574-be59551f2bbf.png)
+![Star Topology - Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938238120/78f568ef-4d7c-493a-a574-be59551f2bbf.png)
 
 This is what I used when setting up a LAN in my home. All devices connect to a central hub or switch.
 
@@ -989,7 +989,7 @@ This is what I used when setting up a LAN in my home. All devices connect to a c
 
 This one fascinated me because of its complexity.
 
-![Mesh Topology – Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938980213/81eb109a-1acb-4932-a8c0-17445591d660.png)
+![Mesh Topology - Shiksha](https://cdn.hashnode.com/res/hashnode/image/upload/v1748938980213/81eb109a-1acb-4932-a8c0-17445591d660.png)
 
 In a mesh topology, every device is connected to every other device.
 
@@ -1005,7 +1005,7 @@ In a mesh topology, every device is connected to every other device.
 
 Like a recipe with ingredients from different cuisines.
 
-![What is Hybrid Topology – Shiksha](https://images.shiksha.com/mediadata/images/articles/1709021924phpTqwiOP.jpeg)
+![What is Hybrid Topology - Shiksha](https://images.shiksha.com/mediadata/images/articles/1709021924phpTqwiOP.jpeg)
 
 A hybrid topology works by combining two or more topologies.
 
@@ -1028,7 +1028,7 @@ A hybrid topology works by combining two or more topologies.
 
 #### How to Choose the Right Topology
 
-When I built my first network for a class project, I went with a **star topology**. Why? Because it was easy to set up and troubleshoot, and it matched our desk layout, with all PCs around a central switch. That hands-on experience taught me that the right topology isn’t just about wiring – it’s about reliability, cost, and how people use the network.
+When I built my first network for a class project, I went with a **star topology**. Why? Because it was easy to set up and troubleshoot, and it matched our desk layout, with all PCs around a central switch. That hands-on experience taught me that the right topology isn’t just about wiring - it’s about reliability, cost, and how people use the network.
 
 Think of it like planning a city:
 
@@ -1084,7 +1084,7 @@ Let’s move beyond theory. Here’s how you'd pick a topology depending on your
 
 - **Choose:** Star or Hybrid
 - **Why:** You can easily add more nodes to the central hub or integrate new segments.
-- **Example:** A startup anticipating more staff and devices within 6–12 months.
+- **Example:** A startup anticipating more staff and devices within 6-12 months.
 
 #### Tips from Experience
 
@@ -1093,9 +1093,9 @@ Let’s move beyond theory. Here’s how you'd pick a topology depending on your
 - **Sketch the layout**: Visualizing devices and data flow helps you pick the best design.
 - **Consider wireless topologies too**: For mobile or flexible environments, wireless mesh or infrastructure-based topologies might be better than wired ones.
 
-Just like roads and power lines shape how a city grows, your network topology shapes how your digital systems evolve. The best layout isn’t the one with the fanciest name – it’s the one that fits your users, your budget, and your goals.
+Just like roads and power lines shape how a city grows, your network topology shapes how your digital systems evolve. The best layout isn’t the one with the fanciest name - it’s the one that fits your users, your budget, and your goals.
 
-Choose thoughtfully, and your network becomes more than wires – it becomes infrastructure for productivity, connection, and growth.
+Choose thoughtfully, and your network becomes more than wires - it becomes infrastructure for productivity, connection, and growth.
 
 Network topology is the blueprint for that digital city. When done right, everything flows. When it’s messy, things get congested, slow, or fail. And that’s why I now look at every network not just as wires and switches, but as architecture, with a purpose and design.
 
@@ -1103,7 +1103,7 @@ Network topology is the blueprint for that digital city. When done right, everyt
 
 ## Chapter 6: The OSI Model — Understanding Layers of Communication
 
-The OSI model is like a translator – it helps all types of systems speak the same language. And it’s everywhere.
+The OSI model is like a translator - it helps all types of systems speak the same language. And it’s everywhere.
 
 In this chapter, you will:
 
@@ -1122,7 +1122,7 @@ Each layer has a specific task, and together they make communication structured,
 
 Developed by the **International Organization for Standardization (ISO)**, the OSI model was created to provide a universal standard for different systems to communicate.
 
-Think of it like this: You’re building a house. You wouldn’t put the roof before the walls. Similarly, data follows an order, moving through each of these layers – from sender to receiver.
+Think of it like this: You’re building a house. You wouldn’t put the roof before the walls. Similarly, data follows an order, moving through each of these layers - from sender to receiver.
 
 The 7 layers of the OSI model are:
 
@@ -1140,7 +1140,7 @@ An easy mnemonic I used to memorize them (from top to bottom): **“All People S
 
 Let’s explore each layer from the bottom (Layer 1) to the top (Layer 7):
 
-#### Layer 1 – Physical Layer
+#### Layer 1 - Physical Layer
 
 This is the **hardware level**.
 
@@ -1150,7 +1150,7 @@ This is the **hardware level**.
 
 **Analogy**: The roads on which data travels.
 
-#### Layer 2 – Data Link Layer
+#### Layer 2 - Data Link Layer
 
 Ensures reliable transfer across the physical link.
 
@@ -1162,9 +1162,9 @@ Ensures reliable transfer across the physical link.
 
 **Analogy**: Street signs and traffic signals managing who goes when.
 
-#### Layer 3 – Network Layer
+#### Layer 3 - Network Layer
 
-This is about **routing** – finding the best path to the destination.
+This is about **routing** - finding the best path to the destination.
 
 - Handles: IP addresses, packet forwarding
 - Devices: Routers
@@ -1172,7 +1172,7 @@ This is about **routing** – finding the best path to the destination.
 
 **Analogy**: Google Maps calculating the best route.
 
-#### Layer 4 – Transport Layer
+#### Layer 4 - Transport Layer
 
 Responsible for **end-to-end communication** and reliability.
 
@@ -1181,7 +1181,7 @@ Responsible for **end-to-end communication** and reliability.
 
 **Analogy**: Your personal driver, making sure you arrive safely.
 
-#### Layer 5 – Session Layer
+#### Layer 5 - Session Layer
 
 This layer manages **dialogues** (sessions) between systems.
 
@@ -1189,7 +1189,7 @@ This layer manages **dialogues** (sessions) between systems.
 
 **Analogy**: A host managing who gets to speak in a Zoom meeting.
 
-#### Layer 6 – Presentation Layer
+#### Layer 6 - Presentation Layer
 
 Responsible for **data formatting and translation**.
 
@@ -1198,14 +1198,14 @@ Responsible for **data formatting and translation**.
 
 **Analogy**: A translator ensuring the data is understood.
 
-#### Layer 7 – Application Layer
+#### Layer 7 - Application Layer
 
 The layer closest to the **user**.
 
 - Handles: user interfaces, network services
 - Protocols: HTTP, FTP, SMTP, DNS
 
-**Analogy**: The app you open – browser, email client, and so on.
+**Analogy**: The app you open - browser, email client, and so on.
 
 #### Communication Flow
 
@@ -1236,10 +1236,10 @@ While the OSI model is an ideal learning tool, the **TCP/IP model** is what the 
 
 | **TCP/IP Layer** | **Corresponds to OSI Layers** | **Examples** |
 | --- | --- | --- |
-| Application | Layers 5–7 (Application to Session) | HTTP, FTP, DNS, SMTP |
+| Application | Layers 5-7 (Application to Session) | HTTP, FTP, DNS, SMTP |
 | Transport | Layer 4 (Transport) | TCP, UDP |
 | Internet | Layer 3 (Network) | IP, ICMP |
-| Network Access / Link | Layers 1–2 (Physical + Data Link) | Ethernet, Wi-Fi, MAC addresses |
+| Network Access / Link | Layers 1-2 (Physical + Data Link) | Ethernet, Wi-Fi, MAC addresses |
 
 **Why TCP/IP Matters:**
 
@@ -1269,7 +1269,7 @@ At the other end, the process reverses, and you see the web page appear on your 
 
 ![OSI Model vs TCP/IP Model](https://cdn.hashnode.com/res/hashnode/image/upload/v1750099098223/f767b099-c0db-4810-ab48-eacd95d8cf08.png)
 
-Think of the OSI model as a textbook diagram – helpful for troubleshooting and interviews. TCP/IP is the actual engine – streamlined and optimized for real-world communication.
+Think of the OSI model as a textbook diagram - helpful for troubleshooting and interviews. TCP/IP is the actual engine - streamlined and optimized for real-world communication.
 
 ---
 
@@ -1305,7 +1305,7 @@ Think of it like:
 
 For a protocol to be effective in communication, it must clearly define how data is structured, understood, and managed in time. Let’s break that down:
 
-##### 1. Syntax – The Format and Structure of the Data
+##### 1. Syntax - The Format and Structure of the Data
 
 Think of syntax like grammar in language. It defines:
 
@@ -1325,9 +1325,9 @@ A good protocol syntax is:
 - Easy to **parse** by machines
 - Designed to **minimize errors** in interpretation
 
-##### 2. Semantics – The Meaning of Each Field
+##### 2. Semantics - The Meaning of Each Field
 
-Semantics defines what each piece of data means – what should be done with it.
+Semantics defines what each piece of data means - what should be done with it.
 
 - **What does a "200 OK" response mean in HTTP?** (It means the request was successful.)
 - **What does a SYN flag mean in TCP?** (It initiates a new connection.)
@@ -1338,7 +1338,7 @@ Good protocol semantics:
 - Clearly define error codes, commands, and responses
 - Support meaningful actions tied to each instruction
 
-##### 3. Timing – When and How Fast to Communicate
+##### 3. Timing - When and How Fast to Communicate
 
 Timing refers to:
 
@@ -1356,7 +1356,7 @@ A good protocol timing design:
 
 Before diving into details, here’s some context: A networking protocol is like a shared language for computers. It ensures that devices can communicate, share data, and coordinate actions reliably and securely.
 
-##### TCP – Transmission Control Protocol
+##### TCP - Transmission Control Protocol
 
 TCP is the backbone of reliable internet communication.
 
@@ -1368,7 +1368,7 @@ It is:
 
 You use TCP in Web browsing (HTTP/HTTPS), email (SMTP), and file transfers (FTP). It’s like mailing a package with tracking and a required signature on delivery.
 
-##### UDP – User Datagram Protocol
+##### UDP - User Datagram Protocol
 
 UDP is lightweight, fast, and doesn’t worry about delivery guarantees.
 
@@ -1378,11 +1378,11 @@ It is:
 - **Low overhead**: No acknowledgments or retransmission.
 - **Faster** than TCP, but riskier for data loss.
 
-You use it in online gaming, voice calls (VoIP), and live video streaming. It’s like shouting a message across a noisy room – quick, but no guarantee it’ll be heard.
+You use it in online gaming, voice calls (VoIP), and live video streaming. It’s like shouting a message across a noisy room - quick, but no guarantee it’ll be heard.
 
-##### HTTP / HTTPS – HyperText Transfer Protocol
+##### HTTP / HTTPS - HyperText Transfer Protocol
 
-HTTP is the protocol of the web – it enables your browser to request and display web pages.
+HTTP is the protocol of the web - it enables your browser to request and display web pages.
 
 It is:
 
@@ -1393,7 +1393,7 @@ HTTPS adds encryption via SSL/TLS, making it secure for sensitive data (for exam
 
 It’s used for activities like browsing websites and in REST APIs.
 
-##### FTP – File Transfer Protocol
+##### FTP - File Transfer Protocol
 
 FTP is a classic protocol for transferring files between devices on a network.
 
@@ -1401,11 +1401,11 @@ It:
 
 - Works in client-server mode
 - Requires authentication (username/password)
-- Is not secure on its own – can be enhanced with FTPS or replaced by SFTP (uses SSH)
+- Is not secure on its own - can be enhanced with FTPS or replaced by SFTP (uses SSH)
 
 You can use it for website hosting and file backup systems.
 
-##### SMTP, POP3, IMAP – Email Protocols
+##### SMTP, POP3, IMAP - Email Protocols
 
 These are the three common email protocols, and each has its own features:
 
@@ -1415,9 +1415,9 @@ These are the three common email protocols, and each has its own features:
 
 These are used in email clients like Outlook, Thunderbird, and Apple Mail.
 
-##### DNS – Domain Name System
+##### DNS - Domain Name System
 
-DNS is the internet’s phonebook – it converts human-readable names (like `google.com`) into IP addresses.
+DNS is the internet’s phonebook - it converts human-readable names (like `google.com`) into IP addresses.
 
 - Hierarchical and distributed system
 - Uses caching to speed up lookups
@@ -1431,9 +1431,9 @@ A **port** is a virtual door on a device that allows certain kinds of data throu
 
 Each application or service uses a specific **port number**, which ranges from 0 to 65535. #### Port Ranges
 
-- **Well-known ports**: 0–1023 (assigned to common services)
-- **Registered ports**: 1024–49151 (used by user processes)
-- **Dynamic/Private ports**: 49152–65535 (temporary or private use)
+- **Well-known ports**: 0-1023 (assigned to common services)
+- **Registered ports**: 1024-49151 (used by user processes)
+- **Dynamic/Private ports**: 49152-65535 (temporary or private use)
 
 ##### Common Port Numbers
 
@@ -1452,7 +1452,7 @@ Each application or service uses a specific **port number**, which ranges from 0
 
 Imagine you’re throwing a party:
 
-- **Protocol**: The invitation format – RSVP, dress code, rules.
+- **Protocol**: The invitation format - RSVP, dress code, rules.
 - **Port**: The door your friends enter through.
 
 A web browser knows to use **HTTP (protocol)** on **port 80**. A secure connection will use **HTTPS** on **port 443**.
@@ -1478,7 +1478,7 @@ When I first saw an IP address like 192.168.0.1, I didn’t think much of it. Bu
 
 ![IP Adress](https://cdn.hashnode.com/res/hashnode/image/upload/v1748436668531/8e7330cf-35f0-4c3d-a628-46261698b331.png)
 
-Imagine trying to mail a letter without an address – it would be lost forever. The same applies to data on a network. Every device needs a unique identifier called an **IP address** to send and receive information correctly.
+Imagine trying to mail a letter without an address - it would be lost forever. The same applies to data on a network. Every device needs a unique identifier called an **IP address** to send and receive information correctly.
 
 IP addressing ensures that when I request a webpage, my data comes back to **me**, not someone else on the network.
 
@@ -1486,13 +1486,13 @@ IP addressing ensures that when I request a webpage, my data comes back to **me*
 
 An IP address (Internet Protocol address) is a unique number assigned to every device on a network.
 
-Every device on a network needs an IP address to identify it – like a phone number for computers. There are two main versions of IP addresses: **IPv4** and **IPv6**.
+Every device on a network needs an IP address to identify it - like a phone number for computers. There are two main versions of IP addresses: **IPv4** and **IPv6**.
 
 #### IPv4 vs. IPv6
 
-**IPv4 (Internet Protocol version 4)** is the older, more widely used system. It uses a **32-bit address format**, written as four numbers (each 0–255) separated by dots—for example: `192.168.1.1`. This format allows for about **4.3 billion** unique addresses.
+**IPv4 (Internet Protocol version 4)** is the older, more widely used system. It uses a **32-bit address format**, written as four numbers (each 0-255) separated by dots—for example: `192.168.1.1`. This format allows for about **4.3 billion** unique addresses.
 
-But with the explosion of internet-connected devices, we quickly ran out of IPv4 addresses. That’s why **IPv6 (Internet Protocol version 6)** was introduced.IPv6 uses a **128-bit address format**, written in hexadecimal and separated by colons: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`. This allows for a virtually unlimited number of addresses – **over 340 undecillion** (that’s 340 followed by 36 zeros)!
+But with the explosion of internet-connected devices, we quickly ran out of IPv4 addresses. That’s why **IPv6 (Internet Protocol version 6)** was introduced.IPv6 uses a **128-bit address format**, written in hexadecimal and separated by colons: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`. This allows for a virtually unlimited number of addresses - **over 340 undecillion** (that’s 340 followed by 36 zeros)!
 
 Let’s see a quick breakdown of the key details of each protocol:
 
@@ -1516,11 +1516,11 @@ Originally, IPv4 addresses were grouped into **classes** to simplify allocation:
 
 | Class | Range | Default Subnet Mask | Use |
 | --- | --- | --- | --- |
-| A | 1.0.0.0 – 126.0.0.0 | 255.0.0.0 | Large networks |
-| B | 128.0.0.0 – 191.255.0.0 | 255.255.0.0 | Medium networks |
-| C | 192.0.0.0 – 223.255.255.0 | 255.255.255.0 | Small networks |
-| D | 224.0.0.0 – 239.255.255.255 | N/A | Multicasting |
-| E | 240.0.0.0 – 255.255.255.255 | N/A | Reserved for future use |
+| A | 1.0.0.0 - 126.0.0.0 | 255.0.0.0 | Large networks |
+| B | 128.0.0.0 - 191.255.0.0 | 255.255.0.0 | Medium networks |
+| C | 192.0.0.0 - 223.255.255.0 | 255.255.255.0 | Small networks |
+| D | 224.0.0.0 - 239.255.255.255 | N/A | Multicasting |
+| E | 240.0.0.0 - 255.255.255.255 | N/A | Reserved for future use |
 
 But this system was too rigid. It wasted address space by assigning fixed block sizes, even when a network didn’t need that much.
 
@@ -1544,7 +1544,7 @@ IPv6’s design naturally supports efficient routing and address assignment with
 
 ### Understanding Subnetting and Related Concepts
 
-After learning about IP addresses – especially the difference between IPv4 and IPv6 – it’s important to understand how networks manage and organize these addresses. That’s where **subnetting** comes in.
+After learning about IP addresses - especially the difference between IPv4 and IPv6 - it’s important to understand how networks manage and organize these addresses. That’s where **subnetting** comes in.
 
 #### What Is Subnetting?
 
@@ -1620,9 +1620,9 @@ Not all IP addresses are meant for use on the open internet. Some are private, u
 
 | Range | Purpose |
 | --- | --- |
-| 10.0.0.0 – 10.255.255.255 | Private use |
-| 172.16.0.0 – 172.31.255.255 | Private use |
-| 192.168.0.0 – 192.168.255.255 | Private use |
+| 10.0.0.0 - 10.255.255.255 | Private use |
+| 172.16.0.0 - 172.31.255.255 | Private use |
+| 192.168.0.0 - 192.168.255.255 | Private use |
 
 Devices with private IPs connect to the internet through a router that uses NAT (Network Address Translation).
 
@@ -1700,7 +1700,7 @@ The switch reads the destination MAC address and forwards the frame only to the 
 Switches use different techniques to decide **when and how to forward frames**. These include:
 
 - **Store-and-Forward Switching:** The switch receives the entire frame, checks it for errors using a CRC (Cyclic Redundancy Check), and then forwards it. It’s reliable but slightly slower.
-- **Cut-Through Switching:** The switch reads just the destination MAC address – often within the first 6 bytes – and immediately begins forwarding the frame. It’s faster but doesn’t check for errors.
+- **Cut-Through Switching:** The switch reads just the destination MAC address - often within the first 6 bytes - and immediately begins forwarding the frame. It’s faster but doesn’t check for errors.
 - **Fragment-Free Switching:** A hybrid approach. It reads the first 64 bytes before forwarding, enough to avoid most collision-related errors.
 
 ### What is Routing?
@@ -1752,10 +1752,10 @@ If you tell a router, “To reach network X, always go through Router A,” that
 
 Common dynamic routing protocols include:
 
-- **RIP (Routing Information Protocol)** – Simple, but outdated
-- **OSPF (Open Shortest Path First)** – Fast and widely used in large networks
-- **EIGRP (Enhanced Interior Gateway Routing Protocol)** – Cisco’s proprietary protocol, combining the best of both distance vector and link-state methods
-- **BGP (Border Gateway Protocol)** – The protocol that powers routing across the entire internet
+- **RIP (Routing Information Protocol)** - Simple, but outdated
+- **OSPF (Open Shortest Path First)** - Fast and widely used in large networks
+- **EIGRP (Enhanced Interior Gateway Routing Protocol)** - Cisco’s proprietary protocol, combining the best of both distance vector and link-state methods
+- **BGP (Border Gateway Protocol)** - The protocol that powers routing across the entire internet
 
 #### Routing in Action
 
@@ -1777,7 +1777,7 @@ Switching keeps local communication efficient. Routing connects us to the world.
 
 ## Chapter 10: Network Infrastructure — Devices, Security, and the Modern Internet
 
-As I continued my journey through networking and data communication, I could see that it's not theory alone – it's hardware, security, and innovation that are essential to the backbone of our everyday life on the internet.
+As I continued my journey through networking and data communication, I could see that it's not theory alone - it's hardware, security, and innovation that are essential to the backbone of our everyday life on the internet.
 
 This final chapter brings together the essential knowledge of networks: devices, security protocols, and the technologies behind new connectivity.
 
@@ -1820,15 +1820,15 @@ A **NIC** is the hardware component inside a device—like a laptop or desktop�
 
 ### Network Security — Protecting Our Digital Lives
 
-I never thought much about network security – until I once received a very convincing spam email that nearly tricked me into sharing personal info. It was a wake-up call that our digital spaces aren’t always as safe as they seem.
+I never thought much about network security - until I once received a very convincing spam email that nearly tricked me into sharing personal info. It was a wake-up call that our digital spaces aren’t always as safe as they seem.
 
-In today’s connected world, network security is not just an IT concern – it’s a crucial part of everyday life. As we connect more devices and store more personal data online, the risks of cyberattacks and data breaches grow. Here’s a look at the major threats and how we protect against them.
+In today’s connected world, network security is not just an IT concern - it’s a crucial part of everyday life. As we connect more devices and store more personal data online, the risks of cyberattacks and data breaches grow. Here’s a look at the major threats and how we protect against them.
 
 #### Common Threats
 
 There are many ways attackers can exploit vulnerabilities in a network. Some of the most common threats include:
 
-- **Malware**: This includes viruses, worms, and ransomware – malicious software that can damage files, steal information, or lock systems until a ransom is paid.
+- **Malware**: This includes viruses, worms, and ransomware - malicious software that can damage files, steal information, or lock systems until a ransom is paid.
 - **Phishing**: Attackers send fake emails or create deceptive websites to trick users into revealing sensitive information like passwords or credit card numbers.
 - **DDoS Attacks**: A Distributed Denial of Service attack overwhelms a system with traffic from multiple sources, causing it to slow down or crash entirely.
 
@@ -1843,7 +1843,7 @@ To defend against these threats, networks are equipped with various tools and st
 
 #### Best Practices
 
-Technology alone isn’t enough – human behavior plays a big role in security. Some key habits include:
+Technology alone isn’t enough - human behavior plays a big role in security. Some key habits include:
 
 - Using strong, unique passwords and changing them regularly
 - Keeping software and operating systems up to date, since patches often fix security holes
@@ -1870,7 +1870,7 @@ The benefits are clear: scalability, flexibility, and cost efficiency. But it al
 
 #### Internet of Things (IoT)
 
-The **Internet of Things** refers to everyday objects – like light bulbs, refrigerators, security cameras – that are connected to the internet and can communicate with each other. These devices offer convenience and automation, like turning off lights remotely or monitoring your home while away.
+The **Internet of Things** refers to everyday objects - like light bulbs, refrigerators, security cameras - that are connected to the internet and can communicate with each other. These devices offer convenience and automation, like turning off lights remotely or monitoring your home while away.
 
 But the explosion of connected devices introduces challenges:
 
@@ -1895,9 +1895,9 @@ These technologies form the backbone of secure internet communication, protectin
 
 ## Wrapping Up
 
-Looking back, it's amazing how far we've come – from learning what a bit is, to understanding how huge global networks function securely and efficiently.
+Looking back, it's amazing how far we've come - from learning what a bit is, to understanding how huge global networks function securely and efficiently.
 
-Networking is more than routers and wires – it's a finely crafted system of trust, logic, and global cooperation. It's the very reason that we're able to learn, work, connect, and create anywhere.
+Networking is more than routers and wires - it's a finely crafted system of trust, logic, and global cooperation. It's the very reason that we're able to learn, work, connect, and create anywhere.
 
 And having established this foundation, I feel ready to go further.
 
@@ -1907,7 +1907,7 @@ Thank you for joining me on this journey.
 ```component VPCard
 {
   "title": "The Data Communication and Networking Handbook",
-  "desc": "When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them – from texting on WhatsApp to watching YouTube. I still vividly remember when I learned that computers communicate with one another. It was ...",
+  "desc": "When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them - from texting on WhatsApp to watching YouTube. I still vividly remember when I learned that computers communicate with one another. It was ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-data-communication-and-networking-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

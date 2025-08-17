@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -95,7 +95,7 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
 
 That’s all the code needed to make the camera work, but there is one last change you need: reading images from the camera requires a new Info.plist key describing how you plan to use the data.
 
-To add this, open your Info.plist file, right-click on some space below the rows, then choose Add Row. Give it the name “Privacy - Camera Usage Description”, then enter a description in the value area – this will be shown to users the first time you try to use the camera.
+To add this, open your Info.plist file, right-click on some space below the rows, then choose Add Row. Give it the name “Privacy - Camera Usage Description”, then enter a description in the value area - this will be shown to users the first time you try to use the camera.
 -->
 
 ::: details Similar solutions…

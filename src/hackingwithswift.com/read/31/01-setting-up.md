@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -57,7 +57,7 @@ At this point, the pace changes a little. I’d still encourage you to follow th
 
 Now for the important stuff: what are we going to build? Well, we’re going to start with two great new features first seen in iOS 9: `UIStackView` and iPad multitasking. Both of these are stand out technologies in iOS 9, and, remarkably, both are so easy to adopt that we can make this entire project in about 20 minutes. We're also going to touch on Size Classes briefly for the first time, so there's a lot to learn.
 
-The project itself is called Multibrowser, and it shows one or more web views that the user can simultaneously browse. So, you could have one pane with live sports results, one pane with the latest news, and another on Reddit – just like Safari tabs, except they are all visible at the same time.
+The project itself is called Multibrowser, and it shows one or more web views that the user can simultaneously browse. So, you could have one pane with live sports results, one pane with the latest news, and another on Reddit - just like Safari tabs, except they are all visible at the same time.
 
-Please go ahead and create a new project in Xcode, choosing the Single View App template. Name it Project31, then choose Swift for your language. When the project is created, use the project editor so that it’s iPad-only – multitasking is only available as an iPad feature.
+Please go ahead and create a new project in Xcode, choosing the Single View App template. Name it Project31, then choose Swift for your language. When the project is created, use the project editor so that it’s iPad-only - multitasking is only available as an iPad feature.
 

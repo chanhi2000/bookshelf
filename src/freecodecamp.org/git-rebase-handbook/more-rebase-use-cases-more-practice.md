@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "More Rebase Use Cases + More Practice"
-description: "Article(s) > (6/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (6/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (6/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (6/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "More Rebase Use Cases + More Practice"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-more-rebase-use-cases-more-practice"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -67,13 +67,13 @@ Before playing around with it, store a tag to "Commit F" so you can get back to 
 git tag original_commit_f
 ```
 
-Now, you actually don't want the changes in "Commit C" and "Commit D" to be included. You could use an interactive rebase like before and remove their changes. Or, could can use again `git rebase -–onto`. How would you use `--onto` in order to "remove" these two commits?
+Now, you actually don't want the changes in "Commit C" and "Commit D" to be included. You could use an interactive rebase like before and remove their changes. Or, could can use again `git rebase --onto`. How would you use `--onto` in order to "remove" these two commits?
 
 You can rebase `HEAD` on top of "Commit B", where the old parent was actually "Commit D", and now it should be "Commit B". Consider the history again:
 
 ![The history again<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/3VFsitGUB3s)>](https://freecodecamp.org/news/content/images/2023/06/image-284.png)
 
-Rebasing so that "Commit B" is the base of "Commit E", means "moving" both "Commit E" and "Commit F", and giving them another *base* – "Commit B". Can you come up with the command yourself?
+Rebasing so that "Commit B" is the base of "Commit E", means "moving" both "Commit E" and "Commit F", and giving them another *base* - "Commit B". Can you come up with the command yourself?
 
 ```sh
 git rebase --onto <SHA_OF_COMMIT_B> <SHA_OF_COMMIT_D> HEAD
@@ -126,7 +126,7 @@ Can you apply that logic to the syntax of `git rebase`?
 Here it is (this time I'm writing `<COMMIT_B>` instead of `<SHA_OF_COMMIT_B>`, for brevity):
 
 ```sh
-git rebase –-onto <COMMIT_B> <COMMIT_D> <COMMIT_E>
+git rebase --onto <COMMIT_B> <COMMIT_D> <COMMIT_E>
 ```
 
 Now the history looks like so:

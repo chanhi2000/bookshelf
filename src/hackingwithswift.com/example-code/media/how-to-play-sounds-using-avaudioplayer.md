@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-The most common way to play a sound on iOS is using `AVAudioPlayer`, and it's popular for a reason: it's easy to use, you can stop it whenever you want, and you can adjust its volume as often as you need. The only real catch is that you must store your player as a property or other variable that won't get destroyed straight away – if you don't, the sound will stop immediately.
+The most common way to play a sound on iOS is using `AVAudioPlayer`, and it's popular for a reason: it's easy to use, you can stop it whenever you want, and you can adjust its volume as often as you need. The only real catch is that you must store your player as a property or other variable that won't get destroyed straight away - if you don't, the sound will stop immediately.
 
 `AVAudioPlayer` is part of the AVFoundation framework, so you'll need to import that:
 
@@ -73,7 +73,7 @@ Like I said, you need to store your audio player as a property somewhere so it i
 var bombSoundEffect: AVAudioPlayer?
 ```
 
-With those two lines of code inserted, all you need to do is play your audio file. This is done first by finding where the sound is in your project using `path(forResource:)`, then creating a file URL out of it. That can then get passed to `AVAudioPlayer` to create an audio player object, at which point – finally – you can play the sound. Here's the code:
+With those two lines of code inserted, all you need to do is play your audio file. This is done first by finding where the sound is in your project using `path(forResource:)`, then creating a file URL out of it. That can then get passed to `AVAudioPlayer` to create an audio player object, at which point - finally - you can play the sound. Here's the code:
 
 ```swift
 let path = Bundle.main.path(forResource: "example.mp3", ofType:nil)!

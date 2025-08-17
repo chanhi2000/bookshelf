@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -107,7 +107,7 @@ Run the app now and click the button once to make it draw a circle. Notice how t
 
 ![Now that we're drawing a circle, you can see how Core Graphics is clipping our border at the edges.](https://hackingwithswift.com/img/books/hws/27-2@2x.png)
 
-The rectangle being used to define our circle is the same size as the whole context, meaning that it goes edge to edge – and thus the stroke gets clipped. To fix the problem, change the rectangle to this:
+The rectangle being used to define our circle is the same size as the whole context, meaning that it goes edge to edge - and thus the stroke gets clipped. To fix the problem, change the rectangle to this:
 
 ```swift
 let rectangle = CGRect(x: 5, y: 5, width: 502, height: 502)
@@ -147,7 +147,7 @@ func drawCheckerboard() {
 
 The only piece of code in there that you won't recognize is `fill()`, which skips the add path / draw path work and just fills the rectangle given as its parameter using whatever the current fill color is. You already know about ranges and modulo, so you should be able to see that this method makes every other square black, alternating between rows.
 
-There are two things to be aware of with that code. First, we're filling every other square in black, but leaving the other squares alone. As we haven’t specified that our renderer is opaque, this means those places where we haven't filled anything will be transparent. So, if the view behind was green, you'd get a black and green checkerboard. Second, you can actually make checkerboards using a Core Image filter – check out `CICheckerboardGenerator` to see how!
+There are two things to be aware of with that code. First, we're filling every other square in black, but leaving the other squares alone. As we haven’t specified that our renderer is opaque, this means those places where we haven't filled anything will be transparent. So, if the view behind was green, you'd get a black and green checkerboard. Second, you can actually make checkerboards using a Core Image filter - check out `CICheckerboardGenerator` to see how!
 
 ![Drawing a checkerboard with Core Graphics is just a matter of drawing squares with alternating colors.](https://hackingwithswift.com/img/books/hws/27-3@2x.png)
 

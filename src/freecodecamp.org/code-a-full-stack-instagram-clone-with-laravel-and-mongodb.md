@@ -98,7 +98,7 @@ Throughout the tutorial, you will gain hands-on experience with:
 4. **User Authentication & Profiles:** Implement secure user registration and login functionality using Laravel's built-in features. Build user profiles, allowing users to update their information (name, username, bio) and upload profile pictures.
 5. **Core Social Features:** Develop the essential functionalities of a social platform: creating posts with images and captions, displaying a feed of posts, implementing a like/unlike system, and adding/deleting comments on posts.
 6. **Image Handling:** Learn how to manage file uploads, specifically storing user-uploaded images (for posts and profiles) using Laravel's file storage system, initially locally and understanding how to potentially extend this to cloud storage like AWS S3.
-7. **Database Management with MongoDB Atlas:** Go beyond local development by learning how to set up a free cloud database cluster on MongoDB Atlas, configure security (users and network access), and connect your Laravel application to this cloud database – a crucial skill for deploying real-world applications.
+7. **Database Management with MongoDB Atlas:** Go beyond local development by learning how to set up a free cloud database cluster on MongoDB Atlas, configure security (users and network access), and connect your Laravel application to this cloud database - a crucial skill for deploying real-world applications.
 8. **Frontend Styling:** Utilize Bootstrap 5 (via CDN) to style the application, creating a clean and responsive user interface that mimics the look and feel of Instagram.
 
 :::

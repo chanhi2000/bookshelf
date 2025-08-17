@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Integrate Discord Webhooks with Next.js 15 – Example Project"
-description: "Article(s) > How to Integrate Discord Webhooks with Next.js 15 – Example Project"
+title: "How to Integrate Discord Webhooks with Next.js 15 - Example Project"
+description: "Article(s) > How to Integrate Discord Webhooks with Next.js 15 - Example Project"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Integrate Discord Webhooks with Next.js 15 – Example Project"
+      content: "Article(s) > How to Integrate Discord Webhooks with Next.js 15 - Example Project"
     - property: og:description
-      content: "How to Integrate Discord Webhooks with Next.js 15 – Example Project"
+      content: "How to Integrate Discord Webhooks with Next.js 15 - Example Project"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-discord-webhooks-with-nextjs-15-example-project.html
 prev: /programming/js-next/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737468174839/9383218
 ---
 
 <SiteInfo
-  name="How to Integrate Discord Webhooks with Next.js 15 – Example Project"
+  name="How to Integrate Discord Webhooks with Next.js 15 - Example Project"
   desc="You’ve likely seen (or used) contact forms on websites that ask for customer feedback, potential work opportunities, customer contact info, and so on. But do you know what’s required to get all that feedback, contact info, and data sent to a private ..."
   url="https://freecodecamp.org/news/integrate-discord-webhooks-with-nextjs-15-example-project"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -327,7 +327,7 @@ Go to the text channel of your Discord server and check for a message that shoul
 
 ![output](https://cdn.hashnode.com/res/hashnode/image/upload/v1735272074694/b795bf9f-adfd-4ff8-aed5-5fe07c49e47b.png)
 
-TADA! We have done it. But hold on – we can make it even better. Did you notice that we aren’t showing any kind of feedback saying the “Message has been sent successfully”, or “There are issues in sending the message”? We’re not taking care of providing the result of the server action to the form component. Let’s fix that.
+TADA! We have done it. But hold on - we can make it even better. Did you notice that we aren’t showing any kind of feedback saying the “Message has been sent successfully”, or “There are issues in sending the message”? We’re not taking care of providing the result of the server action to the form component. Let’s fix that.
 
 ---
 
@@ -617,7 +617,7 @@ Here are the resources I mentioned in the article that you may find helpful:
 <VidStack src="youtube/PWFKgdGmhxg" />
 
 <SiteInfo
-  name="useActionState – React"
+  name="useActionState - React"
   desc="The library for web and native user interfaces"
   url="https://react.dev/reference/react/useActionState/"
   logo="https://react.dev/favicon-16x16.png"
@@ -635,7 +635,7 @@ See you soon with my next article. Until then, please take care of yourself, and
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Integrate Discord Webhooks with Next.js 15 – Example Project",
+  "title": "How to Integrate Discord Webhooks with Next.js 15 - Example Project",
   "desc": "You’ve likely seen (or used) contact forms on websites that ask for customer feedback, potential work opportunities, customer contact info, and so on. But do you know what’s required to get all that feedback, contact info, and data sent to a private ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-discord-webhooks-with-nextjs-15-example-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

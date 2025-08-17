@@ -49,14 +49,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744814822505/5195929
 
 <SiteInfo
   name="How to Build a REST API in Django"
-  desc="If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server. That’s where REST APIs come in. They help apps talk to each other – kind of like a waiter taking your order and"
+  desc="If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server. That’s where REST APIs come in. They help apps talk to each other - kind of like a waiter taking your order and"
   url="https://freecodecamp.org/news/how-to-build-a-rest-api-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744814822505/5195929b-c1d8-4c9e-a12b-44697db44c5b.png"/>
 
 If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server.
 
-That’s where REST APIs come in. They help apps talk to each other – kind of like a waiter taking your order and bringing your food back. And if you're using Django, you're already halfway there.
+That’s where REST APIs come in. They help apps talk to each other - kind of like a waiter taking your order and bringing your food back. And if you're using Django, you're already halfway there.
 
 Django is one of the most popular web frameworks out there. It’s fast, secure, and packed with useful tools. Combine it with Django REST Framework (DRF), and you’ve got everything you need to build a solid REST API without spending weeks figuring it all out.
 
@@ -68,7 +68,7 @@ In this guide, I’ll walk you through the whole process of building a REST API 
 
 Before we get started, let’s get one thing straight: What’s even is a REST API?
 
-A REST API (short for “Representational State Transfer”) is a way for two systems – like a website and a server – to talk to each other using standard HTTP methods like GET, POST, PUT, and DELETE.
+A REST API (short for “Representational State Transfer”) is a way for two systems - like a website and a server - to talk to each other using standard HTTP methods like GET, POST, PUT, and DELETE.
 
 Let’s say you have a to-do app. You want to:
 
@@ -112,9 +112,9 @@ cd myproject
 python manage.py startapp api
 ```
 
-- `django-admin startproject myproject` – Creates a new Django project named `myproject`, which contains configuration files for your whole site.
-- `cd myproject` – Move into your new project directory.
-- `python manage.py startapp api` – Creates a new Django app named `api` where your models, views, and API logic will live.
+- `django-admin startproject myproject` - Creates a new Django project named `myproject`, which contains configuration files for your whole site.
+- `cd myproject` - Move into your new project directory.
+- `python manage.py startapp api` - Creates a new Django app named `api` where your models, views, and API logic will live.
 
 Now add `'rest_framework'` and `'api'` to your `INSTALLED_APPS` in `settings.py`:
 
@@ -126,12 +126,12 @@ INSTALLED_APPS = [
 ]
 ```
 
-- `rest_framework` is the Django REST Framework – it gives you tools to easily create APIs.
+- `rest_framework` is the Django REST Framework - it gives you tools to easily create APIs.
 - `'api'` tells Django to look in the <FontIcon icon="fas fa-folder-open"/>`api` folder for models, views, and so on.
 
 ### Step 2: Create a Model
 
-Let’s make a simple model – a task list.
+Let’s make a simple model - a task list.
 
 In <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-python"/>`models.py`:
 
@@ -148,7 +148,7 @@ class Task(models.Model):
 
 - `title`: A short piece of text (like “Buy groceries”). `CharField` is used for strings.
 - `completed`: A Boolean (True or False) to mark if a task is done.
-- `__str__`: This special method returns a string version of the model when printed – useful for debugging and the admin panel.
+- `__str__`: This special method returns a string version of the model when printed - useful for debugging and the admin panel.
 
 Then run:
 
@@ -251,13 +251,13 @@ python manage.py runserver
 
 Open Postman or curl and try hitting these endpoints:
 
-- `GET /api/tasks/` – get all tasks
-- `POST /api/tasks/` – create a new task
-- `GET /api/tasks/1/` – get a specific task
-- `PUT /api/tasks/1/` – update a task
-- `DELETE /api/tasks/1/` – delete a task
+- `GET /api/tasks/` - get all tasks
+- `POST /api/tasks/` - create a new task
+- `GET /api/tasks/1/` - get a specific task
+- `PUT /api/tasks/1/` - update a task
+- `DELETE /api/tasks/1/` - delete a task
 
-And that’s it – you’ve got a working REST API.
+And that’s it - you’ve got a working REST API.
 
 This setup gives you a fully functional REST API with just a few lines of code, thanks to Django REST Framework. You should now understand:
 
@@ -405,14 +405,14 @@ This means: user must be both authenticated and an admin.
 
 ::: details Do I need Django REST Framework to build an API in Django?
 
-Technically, no – but DRF makes your life much easier. Without DRF, you'd have to manually handle things like:
+Technically, no - but DRF makes your life much easier. Without DRF, you'd have to manually handle things like:
 
 - Parsing and validating JSON requests
 - Writing views to serialise Python objects to JSON
 - Managing HTTP status codes and responses
 - Handling authentication and permissions on your own
 
-In short, you’d be reinventing the wheel – but DRF does all of this for you with far less code.
+In short, you’d be reinventing the wheel - but DRF does all of this for you with far less code.
 
 :::
 
@@ -487,7 +487,7 @@ Want to keep learning? Here are a few solid places to dig deeper:
 ```component VPCard
 {
   "title": "How to Build a REST API in Django",
-  "desc": "If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server. That’s where REST APIs come in. They help apps talk to each other – kind of like a waiter taking your order and",
+  "desc": "If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server. That’s where REST APIs come in. They help apps talk to each other - kind of like a waiter taking your order and",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rest-api-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -61,7 +61,7 @@ print(count)
 
 ::: note
 
-This has changed in later versions of Swift – you should access the `count` property of strings directly.
+This has changed in later versions of Swift - you should access the `count` property of strings directly.
 
 :::
 

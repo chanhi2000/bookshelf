@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/system",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -140,7 +140,7 @@ head:
 ```component VPCard
 {
   "title": "How to copy objects in Swift using copy()",
-  "desc": "There are two main complex data types in Swift – objects and structs – and they do so many things similarly that you'd be forgiven for not being sure exactly where they differ. Well, one of the key areas is down to copying: two variables can point at the same object so that changing one changes them both, whereas if you tried that with structs you'd find that Swift creates a full copy so that changing the copy does not affect the original....",
+  "desc": "There are two main complex data types in Swift - objects and structs - and they do so many things similarly that you'd be forgiven for not being sure exactly where they differ. Well, one of the key areas is down to copying: two variables can point at the same object so that changing one changes them both, whereas if you tried that with structs you'd find that Swift creates a full copy so that changing the copy does not affect the original....",
   "link": "/hackingwithswift.com/example-code/system/how-to-copy-objects-in-swift-using-copy.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -240,7 +240,7 @@ head:
 ```component VPCard
 {
   "title": "How to format dates with an ordinal suffix using NumberFormatter's ordinalStyle",
-  "desc": "As of iOS 9.0, Apple introduced a simple way to make ordinal style numbers, which is a fancy way of saying 1st, 2nd, 3rd or 100th – the kind of numbers you normally write for dates, for example. This uses the <code>NumberFormatterStyle.ordinal</code> style of writing numbers with <code>NumberFormatter</code>, like this:...",
+  "desc": "As of iOS 9.0, Apple introduced a simple way to make ordinal style numbers, which is a fancy way of saying 1st, 2nd, 3rd or 100th - the kind of numbers you normally write for dates, for example. This uses the <code>NumberFormatterStyle.ordinal</code> style of writing numbers with <code>NumberFormatter</code>, like this:...",
   "link": "/hackingwithswift.com/example-code/system/how-to-format-dates-with-an-ordinal-suffix-using-numberformatters-ordinalstyle.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -250,7 +250,7 @@ head:
 ```component VPCard
 {
   "title": "How to generate a random identifier using UUID",
-  "desc": "A UUID is a <em>universally unique identifier</em>, which means if you generate a UUID right now using <code>UUID</code> it's guaranteed to be unique across all devices in the world. This means it's a great way to generate a unique identifier for users, for files, or anything else you need to reference individually – guaranteed....",
+  "desc": "A UUID is a <em>universally unique identifier</em>, which means if you generate a UUID right now using <code>UUID</code> it's guaranteed to be unique across all devices in the world. This means it's a great way to generate a unique identifier for users, for files, or anything else you need to reference individually - guaranteed....",
   "link": "/hackingwithswift.com/example-code/system/how-to-generate-a-random-identifier-using-uuid.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -260,7 +260,7 @@ head:
 ```component VPCard
 {
   "title": "How to group user notifications using threadIdentifier and summaryArgument",
-  "desc": "If your app shows notifications that can be split into sensible groups – such as messages from a person, updates for a news story, scores from a sports match, and so on on – you can have iOS group them together using the <code>threadIdentifier</code> and <code>summaryArgument</code> properties of <code>UNMutableNotificationContent</code>. iOS will then show those messages together, rather than in a long chain mixed up with other messages....",
+  "desc": "If your app shows notifications that can be split into sensible groups - such as messages from a person, updates for a news story, scores from a sports match, and so on on - you can have iOS group them together using the <code>threadIdentifier</code> and <code>summaryArgument</code> properties of <code>UNMutableNotificationContent</code>. iOS will then show those messages together, rather than in a long chain mixed up with other messages....",
   "link": "/hackingwithswift.com/example-code/system/how-to-group-user-notifications-using-threadidentifier-and-summaryargument.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -270,7 +270,7 @@ head:
 ```component VPCard
 {
   "title": "How to handle the HTTPS requirements in iOS with App Transport Security",
-  "desc": "iOS doesn’t let you work with HTTP web data by default, because it's blocked by something called App Transport Security that effectively requires data to be transmitted securely. If possible, you should switch to HTTPS and use that instead, but if that's not possible for some reason – e.g. if you're working with a third-party website – then you need to tell iOS to make exceptions for you....",
+  "desc": "iOS doesn’t let you work with HTTP web data by default, because it's blocked by something called App Transport Security that effectively requires data to be transmitted securely. If possible, you should switch to HTTPS and use that instead, but if that's not possible for some reason - e.g. if you're working with a third-party website - then you need to tell iOS to make exceptions for you....",
   "link": "/hackingwithswift.com/example-code/system/how-to-handle-the-https-requirements-in-ios-with-app-transport-security.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -280,7 +280,7 @@ head:
 ```component VPCard
 {
   "title": "How to identify an iOS device uniquely with identifierForVendor",
-  "desc": "Early iOS releases gave every device a unique identifier, but this was soon abused by developers to identify individual users uniquely – something that Apple really dislikes. So, Apple removed the truly unique identifier and instead introduced an identifier for each vendor: a UUID that's the same for all apps for a given developer for each user, but varies between developers and between devices....",
+  "desc": "Early iOS releases gave every device a unique identifier, but this was soon abused by developers to identify individual users uniquely - something that Apple really dislikes. So, Apple removed the truly unique identifier and instead introduced an identifier for each vendor: a UUID that's the same for all apps for a given developer for each user, but varies between developers and between devices....",
   "link": "/hackingwithswift.com/example-code/system/how-to-identify-an-ios-device-uniquely-with-identifierforvendor.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -300,7 +300,7 @@ head:
 ```component VPCard
 {
   "title": "How to join an array of strings in a natural way",
-  "desc": "Swift provides the <code>ListFormatter</code> class as a built-in way of joining lists of strings into a single string so that the last item has “and” before it, like a natural English string. So, rather than just getting “A, B, C” you actually get “A, B and C” – it’s much more suitable for user interfaces....",
+  "desc": "Swift provides the <code>ListFormatter</code> class as a built-in way of joining lists of strings into a single string so that the last item has “and” before it, like a natural English string. So, rather than just getting “A, B, C” you actually get “A, B and C” - it’s much more suitable for user interfaces....",
   "link": "/hackingwithswift.com/example-code/system/how-to-join-an-array-of-strings-in-a-natural-way.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -340,7 +340,7 @@ head:
 ```component VPCard
 {
   "title": "How to make tappable links in NSAttributedString",
-  "desc": "You can make interactive hyperlinks in any attributed string, which in turn means you can add interactive hyperlinks to any UIKit control. If you're working with <code>UITextView</code> (which is likely, let's face it), you get basic hyperlinks just by enabling the 'Links' data detector in Interface Builder, but that doesn't work for arbitrary strings – for example, maybe you want the words 'tap here' to be interactive....",
+  "desc": "You can make interactive hyperlinks in any attributed string, which in turn means you can add interactive hyperlinks to any UIKit control. If you're working with <code>UITextView</code> (which is likely, let's face it), you get basic hyperlinks just by enabling the 'Links' data detector in Interface Builder, but that doesn't work for arbitrary strings - for example, maybe you want the words 'tap here' to be interactive....",
   "link": "/hackingwithswift.com/example-code/system/how-to-make-tappable-links-in-nsattributedstring.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -470,7 +470,7 @@ head:
 ```component VPCard
 {
   "title": "How to run code at a specific time",
-  "desc": "You can use <code>perform(_:with:afterDelay:)</code> to run a method after a certain number of seconds have passed, but if you want to run code at a specific time – say at exactly 4pm – then you should use <code>Timer</code> instead. This class is great for executing code repeatedly at a specific time interval, but it's also great for running code at an exact time that you specify....",
+  "desc": "You can use <code>perform(_:with:afterDelay:)</code> to run a method after a certain number of seconds have passed, but if you want to run code at a specific time - say at exactly 4pm - then you should use <code>Timer</code> instead. This class is great for executing code repeatedly at a specific time interval, but it's also great for running code at an exact time that you specify....",
   "link": "/hackingwithswift.com/example-code/system/how-to-run-code-at-a-specific-time.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -500,7 +500,7 @@ head:
 ```component VPCard
 {
   "title": "How to save and load objects with NSKeyedArchiver and NSKeyedUnarchiver",
-  "desc": "You can write any kind of object to disk as long as it supports the <code>NSCoding</code> protocol – which includes strings, arrays, dictionaries, <code>UIView</code>, <code>UIColor</code> and more right out of the box. To write to disk, use this:...",
+  "desc": "You can write any kind of object to disk as long as it supports the <code>NSCoding</code> protocol - which includes strings, arrays, dictionaries, <code>UIView</code>, <code>UIColor</code> and more right out of the box. To write to disk, use this:...",
   "link": "/hackingwithswift.com/example-code/system/how-to-save-and-load-objects-with-nskeyedarchiver-and-nskeyedunarchiver.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -570,7 +570,7 @@ head:
 ```component VPCard
 {
   "title": "How to stop the screen from going to sleep",
-  "desc": "You can stop the iOS screen sleeping by using the <code>isIdleTimerDisabled</code> property of your application. When set to true, this means the screen will never dim or go to sleep while your app is running, so be careful – you don't want to waste your user's battery life!...",
+  "desc": "You can stop the iOS screen sleeping by using the <code>isIdleTimerDisabled</code> property of your application. When set to true, this means the screen will never dim or go to sleep while your app is running, so be careful - you don't want to waste your user's battery life!...",
   "link": "/hackingwithswift.com/example-code/system/how-to-stop-the-screen-from-going-to-sleep.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -580,7 +580,7 @@ head:
 ```component VPCard
 {
   "title": "How to store UserDefaults options in iCloud",
-  "desc": "iOS has a built-in iCloud sync system called <code>NSUbiquitousKeyValueStore</code>, but to be honest it's pretty unpleasant to work with. Fortunately, other developers have written simple wrappers around it so that you can forget about iCloud and focus on the interesting things instead – i.e., the rest of your app....",
+  "desc": "iOS has a built-in iCloud sync system called <code>NSUbiquitousKeyValueStore</code>, but to be honest it's pretty unpleasant to work with. Fortunately, other developers have written simple wrappers around it so that you can forget about iCloud and focus on the interesting things instead - i.e., the rest of your app....",
   "link": "/hackingwithswift.com/example-code/system/how-to-store-userdefaults-options-in-icloud.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -660,7 +660,7 @@ head:
 ```component VPCard
 {
   "title": "What is the first responder?",
-  "desc": "Most of UIKit has a concept of <em>responders</em> baked deep into the system, but it’s not common you need to work with it directly. It’s Apple’s implementation of a design pattern called the Chain of Responsibility: UIKit asks one component if it can respond to an action, but if it can’t it gets passed to another component, and if that can’t respond then it gets passed on and on until something <em>can</em> respond – it’s a chain of responders....",
+  "desc": "Most of UIKit has a concept of <em>responders</em> baked deep into the system, but it’s not common you need to work with it directly. It’s Apple’s implementation of a design pattern called the Chain of Responsibility: UIKit asks one component if it can respond to an action, but if it can’t it gets passed to another component, and if that can’t respond then it gets passed on and on until something <em>can</em> respond - it’s a chain of responders....",
   "link": "/hackingwithswift.com/example-code/system/what-is-the-first-responder.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

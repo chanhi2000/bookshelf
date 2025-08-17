@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/What-is-PIP_Watermarked.4944e95d83ad.j
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="A Beginner's Guide to pip – Real Python"
+  name="A Beginner's Guide to pip - Real Python"
   desc="What is pip? In this beginner-friendly course, you'll learn how to use pip, the standard package manager for Python, so that you can install and manage additional packages that are not part of the Python standard library."
   url="https://realpython.com/courses/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -83,7 +83,7 @@ You can do a lot with `pip`, but the Python community is very active and has cre
 ::: info Quiz - Using Python's pip to Manage Your Projects' Dependencies
 
 <SiteInfo
-  name="Using Python's pip to Manage Your Projects' Dependencies Quiz – Real Python"
+  name="Using Python's pip to Manage Your Projects' Dependencies Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's standard package manager, pip. You'll revisit the ideas behind pip, important commands, and how to install packages."
   url="https://realpython.com/quizzes/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -484,7 +484,7 @@ By default, `pip` uses PyPI to look for packages. But `pip` also gives you the o
 
 Using `pip` with a custom index can be helpful when the PyPI domain is blocked on your network or if you want to work with packages that aren’t publicly available. Sometimes, system administrators also create their own internal package index to better control which package versions are available to `pip` users on the company’s network.
 
-A custom package index must comply with [<FontIcon icon="fa-brands fa-python"/>PEP 503 – Simple Repository API](https://python.org/dev/peps/pep-0503/) to work with `pip`. You can get an impression of how such an [<FontIcon icon="fa-brands fa-wikipedia-w"/>API (Application Programming Interface)](https://en.wikipedia.org/wiki/API) looks by visiting the [<FontIcon icon="fas fa-globe"/>PyPI Simple Index](https://pypi.org/simple/)—but be aware that this is a large page with a lot of hard-to-parse content. Any custom index that follows the same API can be targeted with the `--index-url` option. Instead of typing `--index-url`, you can also use the `-i` shorthand.
+A custom package index must comply with [<FontIcon icon="fa-brands fa-python"/>PEP 503 - Simple Repository API](https://python.org/dev/peps/pep-0503/) to work with `pip`. You can get an impression of how such an [<FontIcon icon="fa-brands fa-wikipedia-w"/>API (Application Programming Interface)](https://en.wikipedia.org/wiki/API) looks by visiting the [<FontIcon icon="fas fa-globe"/>PyPI Simple Index](https://pypi.org/simple/)—but be aware that this is a large page with a lot of hard-to-parse content. Any custom index that follows the same API can be targeted with the `--index-url` option. Instead of typing `--index-url`, you can also use the `-i` shorthand.
 
 For example, to install the [**`rptree`**](/realpython.com/directory-tree-generator-python.md) tool from the [<FontIcon icon="fas fa-globe"/>TestPyPI](https://test.pypi.org/) package index, you can run the following command:
 
@@ -1103,7 +1103,7 @@ You can install packages from a <FontIcon icon="fas fa-file-lines"/>`requirement
 ::: info Quiz - Using Python's pip to Manage Your Projects' Dependencies
 
 <SiteInfo
-  name="Using Python's pip to Manage Your Projects' Dependencies Quiz – Real Python"
+  name="Using Python's pip to Manage Your Projects' Dependencies Quiz - Real Python"
   desc="In this quiz, you'll test your understanding of Python's standard package manager, pip. You'll revisit the ideas behind pip, important commands, and how to install packages."
   url="https://realpython.com/quizzes/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1118,7 +1118,7 @@ In this quiz, you'll test your understanding of Python's standard package manage
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="A Beginner's Guide to pip – Real Python"
+  name="A Beginner's Guide to pip - Real Python"
   desc="What is pip? In this beginner-friendly course, you'll learn how to use pip, the standard package manager for Python, so that you can install and manage additional packages that are not part of the Python standard library."
   url="https://realpython.com/courses/what-is-pip/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

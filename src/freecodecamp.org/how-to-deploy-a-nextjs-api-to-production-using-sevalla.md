@@ -74,7 +74,7 @@ When people hear about Next.js, they often think of [**server-side rendering**](
 
 Next.js also allows developers to build robust, scalable backend APIs directly inside the same codebase. This is especially valuable for small to mid-sized applications where having a tightly coupled frontend and backend speeds up development and deployment.
 
-In this article, you’ll learn how to build an API using Next.js and deploy it to production using Sevalla. It’s relatively easy to learn how to build something using a tutorial – but the real challenge is to get it into the hands of users. Doing so transforms your project from a local prototype into something real and usable.
+In this article, you’ll learn how to build an API using Next.js and deploy it to production using Sevalla. It’s relatively easy to learn how to build something using a tutorial - but the real challenge is to get it into the hands of users. Doing so transforms your project from a local prototype into something real and usable.
 
 ---
 
@@ -122,7 +122,7 @@ Would you like to customize the import alias (`@/*` by default)? No / Yes
 What import alias would you like configured? @/*
 ```
 
-But for this tutorial, we aren’t interested in a full stack app – just an API. So let’s re-create the app using the `--api` flag.
+But for this tutorial, we aren’t interested in a full stack app - just an API. So let’s re-create the app using the `--api` flag.
 
 ```sh
 npx create-next-app@latest --api
@@ -486,7 +486,7 @@ Wait for a few minutes for all the above to happen. You can watch the logs in th
 
 Now, click on “Visit App” and you will get the live URL (ending with `sevalla.app`) of your API. You can replace `http://localhost:3000` with the new URL and run the same tests using Postman.
 
-Congratulations – your app is now live. You can do more with your app using the admin interface, like:
+Congratulations - your app is now live. You can do more with your app using the admin interface, like:
 
 - Monitor the performance of your app
 - Watch real-time logs

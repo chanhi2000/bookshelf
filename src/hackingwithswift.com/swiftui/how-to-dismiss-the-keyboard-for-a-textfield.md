@@ -54,9 +54,9 @@ head:
 
 **Updated in iOS 15**
 
-SwiftUI's `TextField` will show the keyboard automatically when activated, but before iOS 15 it was tricky to *hide* the keyboard when you're done – particularly if you're using the `keyboardType()` modifier with something like `.numberPad`, `.decimalPad`, or `.phonePad`.
+SwiftUI's `TextField` will show the keyboard automatically when activated, but before iOS 15 it was tricky to *hide* the keyboard when you're done - particularly if you're using the `keyboardType()` modifier with something like `.numberPad`, `.decimalPad`, or `.phonePad`.
 
-If you're supporting only iOS 15 and later, you can activate and dismiss the keyboard for a text field by focusing and unfocusing it. In its simplest form, this is done using the `@FocusState` property wrapper and the `focusable()` modifier – the first stores a Boolean that tracks whether the second is currently focused.
+If you're supporting only iOS 15 and later, you can activate and dismiss the keyboard for a text field by focusing and unfocusing it. In its simplest form, this is done using the `@FocusState` property wrapper and the `focusable()` modifier - the first stores a Boolean that tracks whether the second is currently focused.
 
 So, we could write a simple view that hides the keyboard when a button is tapped:
 
@@ -138,7 +138,7 @@ You should not attempt to use the same focus binding for two different form fiel
 
 :::
 
-If you have to support iOS 14 and 13, things are trickier. In fact, I want to make one thing clear: *there is no built-in way of doing this with SwiftUI in iOS 13 and 14* – there's no simple modifier we can attach, so if you were struggling to solve this it's not because you weren't trying hard enough.
+If you have to support iOS 14 and 13, things are trickier. In fact, I want to make one thing clear: *there is no built-in way of doing this with SwiftUI in iOS 13 and 14* - there's no simple modifier we can attach, so if you were struggling to solve this it's not because you weren't trying hard enough.
 
 To force SwiftUI to hide your keyboard, you need to use this code:
 
@@ -146,7 +146,7 @@ To force SwiftUI to hide your keyboard, you need to use this code:
 UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
 ```
 
-Yes, that's very long, but it asks UIKit to search through what's called the *responder chain* – the collection of controls that are currently responding to user input – and find one that is capable of resigning its first responder status. That's a fancy way of saying “ask whatever has control to stop using the keyboard”, which in our case means the keyboard will be dismissed when a text field is active.
+Yes, that's very long, but it asks UIKit to search through what's called the *responder chain* - the collection of controls that are currently responding to user input - and find one that is capable of resigning its first responder status. That's a fancy way of saying “ask whatever has control to stop using the keyboard”, which in our case means the keyboard will be dismissed when a text field is active.
 
 Because that code isn't particularly easy to read, you should consider wrapping it in an extension such as this:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-iOS gives developers the ability to change their app’s icon programmatically, although it takes a little work to set up. It also isn’t quite as powerful as you might hope – you can’t recreate the moving hands of the Clock app, for example.
+iOS gives developers the ability to change their app’s icon programmatically, although it takes a little work to set up. It also isn’t quite as powerful as you might hope - you can’t recreate the moving hands of the Clock app, for example.
 
 The actual code to change your app’s icon is trivial, but first there’s some setup work because you must declare all possible icons in your Info.plist file. The process behind this is far from optimal, and right now the best thing to do is edit your Info.plist as XML rather than trying to use the built-in property list editor in Xcode.
 
@@ -73,7 +73,7 @@ For this example, we’re using these example icon files:
 
 They are all just regular PNGs, with the @2x being 120x120 and the @3x being 180x180.
 
-Now go to your project navigator, right-click your Info.plist file, and choose Open As > Source Code. This will reveal the raw XML behind your plist – it might seem like a lot at first, but trust me this is *way* better than using the GUI for this particular task.
+Now go to your project navigator, right-click your Info.plist file, and choose Open As > Source Code. This will reveal the raw XML behind your plist - it might seem like a lot at first, but trust me this is *way* better than using the GUI for this particular task.
 
 Defining the icons for your app is done with a very specific set of property list keys and values:
 
@@ -93,7 +93,7 @@ At the end of your property list XML you should see this:
 </plist>
 ```
 
-*Before that* – i.e., directly before `</dict>`, add this:
+*Before that* - i.e., directly before `</dict>`, add this:
 
 ```swift
 <key>CFBundleIcons</key>
@@ -131,7 +131,7 @@ At the end of your property list XML you should see this:
 </dict>
 ```
 
-Again, I’ve used the files Icon-1@2x.png, Icon-1@3x.png, Icon-2-@2x.png, Icon-2@3x.png, Icon-3-@2x.png, and Icon-3@3x.png for that – you’ll need to replace those filenames with your own.
+Again, I’ve used the files Icon-1@2x.png, Icon-1@3x.png, Icon-2-@2x.png, Icon-2@3x.png, Icon-3-@2x.png, and Icon-3@3x.png for that - you’ll need to replace those filenames with your own.
 
 **Do not put the @2x or @3x parts into your plist, and don’t add the .png either.**
 

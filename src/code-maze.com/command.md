@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Command
-description: Article(s) > C# Design Patterns – Command
+title: C# Design Patterns - Command
+description: Article(s) > C# Design Patterns - Command
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Command
+      content: Article(s) > C# Design Patterns - Command
     - property: og:description
-      content: C# Design Patterns – Command
+      content: C# Design Patterns - Command
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/command.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/command/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Command"
+  name="C# Design Patterns - Command"
   desc="We are going to learn how to impelement Command design pattern in C#, how to use it to keep track of our actions and undo them as well."
   url="https://code-maze.com/command/"
   logo="/assets/image/code-maze.com/favicon.png"

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "CALayer - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/calayer/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 <p style="margin: 0; margin-bottom: 20px;"><a href="/about">Paul Hudson</a>    <i class="fab fa-twitter" aria-hidden="true" style="color: #4099ff"></i> <a href="https://twitter.com/twostraws" target="_blank">@twostraws</a>    <time itemprop="dateModified" datetime="2019-05-28T20:41:20+00:00">May 28th 2019</time><meta itemprop="datePublished" content="2019-05-28T20:41:20+00:00">
 
-You can set the `cornerRadius` property of any `UIView` to have its edges rounded, but by default that rounds all corners at the same time. If you want only *some* corners to be rounded, you should set the layer’s `maskedCorners` property to be an array of the corners you want – it’s an option set, so you can set one or many depending on your needs.
+You can set the `cornerRadius` property of any `UIView` to have its edges rounded, but by default that rounds all corners at the same time. If you want only *some* corners to be rounded, you should set the layer’s `maskedCorners` property to be an array of the corners you want - it’s an option set, so you can set one or many depending on your needs.
 
 For example, this code rounds the top-left and bottom-right corners of a view, leaving the other two square:
 

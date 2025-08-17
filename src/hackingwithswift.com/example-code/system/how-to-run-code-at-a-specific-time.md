@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You can use `perform(_:with:afterDelay:)` to run a method after a certain number of seconds have passed, but if you want to run code at a specific time – say at exactly 4pm – then you should use `Timer` instead. This class is great for executing code repeatedly at a specific time interval, but it's also great for running code at an exact time that you specify.
+You can use `perform(_:with:afterDelay:)` to run a method after a certain number of seconds have passed, but if you want to run code at a specific time - say at exactly 4pm - then you should use `Timer` instead. This class is great for executing code repeatedly at a specific time interval, but it's also great for running code at an exact time that you specify.
 
 This is accomplished using a `Timer` constructor that accepts an `Date` for when the timer should fire. You can make this date however you want, which is what makes this approach so flexible.
 

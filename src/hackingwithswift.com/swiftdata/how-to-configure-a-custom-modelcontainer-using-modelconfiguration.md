@@ -81,7 +81,7 @@ struct RecipeBookApp: App {
 }
 ```
 
-One big advantage to creating your configuration by hand is that it allows us to disable saving entirely – if you have particularly sensitive data, or perhaps you’ve shipped some template data that shouldn’t be changed under any circumstances.
+One big advantage to creating your configuration by hand is that it allows us to disable saving entirely - if you have particularly sensitive data, or perhaps you’ve shipped some template data that shouldn’t be changed under any circumstances.
 
 You can disable saving like this:
 
@@ -98,7 +98,7 @@ let config = ModelConfiguration(schema: schema, url: storeURL, cloudKitDatabase:
 container = try ModelContainer(for: schema, configurations: config)
 ```
 
-The power of this approach is that you can use multiple `ModelConfiguration` objects to configure a single model container – perhaps you want recipe data to be stored in one file and user data to be stored in another, or perhaps one should back up to CloudKit whereas the other shouldn’t.
+The power of this approach is that you can use multiple `ModelConfiguration` objects to configure a single model container - perhaps you want recipe data to be stored in one file and user data to be stored in another, or perhaps one should back up to CloudKit whereas the other shouldn’t.
 
 ::: important
 

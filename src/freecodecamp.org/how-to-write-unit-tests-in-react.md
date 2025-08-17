@@ -51,14 +51,14 @@ cover: https://freecodecamp.org/news/content/images/2023/01/unit-testing-in-reac
 
 <SiteInfo
   name="How to Write Unit Tests inReact"
-  desc="When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w..."
+  desc="When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself - you need to check if each unit of your code is w..."
   url="https://freecodecamp.org/news/how-to-write-unit-tests-in-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2023/01/unit-testing-in-react-image.jpeg"/>
 
 When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected.
 
-Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is working as you want. For that, you need to write unit tests. And they can be quite a hassle when you actually get down to writing them.
+Now, you can’t do that just by going through the website yourself - you need to check if each unit of your code is working as you want. For that, you need to write unit tests. And they can be quite a hassle when you actually get down to writing them.
 
 So, in this post, I am going to show you how you can get started with writing unit tests in React. I will explain the process through several examples to help you understand better.
 
@@ -84,7 +84,7 @@ In general, your tests should cover the following aspects of your code:
 Testing most of your code is important, but here are some things you do not need to test:
 
 1. **Actual Implementation:** You do not need to test the actual implementation of a functionality. Just test if the component is behaving correctly.<br/>Let’s say you want to sort an array on the click of a button. There’s no need to test the actual sorting logic. You only test if the function was called and if the state changes are rendering correctly.
-2. **Third Party libraries:** If you are using any third party libraries like Material UI, no need to test those – they should already be tried and tested.
+2. **Third Party libraries:** If you are using any third party libraries like Material UI, no need to test those - they should already be tried and tested.
 
 This might seem a little complicated at the moment, but you should understand better through examples.
 
@@ -378,7 +378,7 @@ Write an assertion in the end to check if the method was called. The method was 
 
 ### How to Query Input Fields and Buttons
 
-So far, we have used only one method of querying elements – `getByText()`. Now, let’s see how you can query input fields and buttons.
+So far, we have used only one method of querying elements - `getByText()`. Now, let’s see how you can query input fields and buttons.
 
 ```html
 <input placeholder='Enter name'/>
@@ -447,7 +447,7 @@ We have seen how to query form elements like `input` and `button`. Now, let’s 
 
 State updates cause a component to re-render. So, when your functionality performs a state update, you should test how the component is behaving due to the state change.
 
-First, let’s take a simple example where we set the state as soon as the component is loaded – that is, in the `useEffect` block.
+First, let’s take a simple example where we set the state as soon as the component is loaded - that is, in the `useEffect` block.
 
 ```jsx
 const TestingStateChange = () => {
@@ -690,7 +690,7 @@ render(<TestingAPICalls/>)
 expect(mockFetchData).toHaveBeenCalled();
 ```
 
-We use `toHaveBeenCalled()` to test if the method was called. It was – so the test passes. Now, to test the behaviour of our component, let’s test if the name was rendered.
+We use `toHaveBeenCalled()` to test if the method was called. It was - so the test passes. Now, to test the behaviour of our component, let’s test if the name was rendered.
 
 ```jsx
 expect(screen.getByText(/kunal/i)).toBeInTheDocument();
@@ -730,7 +730,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 ```component VPCard
 {
   "title": "How to Write Unit Tests inReact",
-  "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w...",
+  "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself - you need to check if each unit of your code is w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-unit-tests-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/ce5YR-M0QMw" />
 
-Open Interface Builder with <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` and place a button on there with the title "Tap" – position it in the middle of the screen, near the bottom. Don’t worry that we’re positioning things using an iPhone XR-sized screen – Auto Layout will automatically make it look great on iPads.
+Open Interface Builder with <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` and place a button on there with the title "Tap" - position it in the middle of the screen, near the bottom. Don’t worry that we’re positioning things using an iPhone XR-sized screen - Auto Layout will automatically make it look great on iPads.
 
 We want our button to always stay near the bottom of the view controller, so Ctrl-drag from the button to the view directly below it and choose “Bottom Space to Safe Area.” Now Ctrl-drag the same way again and choose "Center Horizontally in Safe Area.”
 
@@ -66,7 +66,7 @@ var imageView: UIImageView!
 var currentAnimation = 0
 ```
 
-There isn't an image view in the storyboard – we're going to create it ourself in `viewDidLoad()` using an initializer that takes a `UIImage` and makes the image view the correct size for the image.
+There isn't an image view in the storyboard - we're going to create it ourself in `viewDidLoad()` using an initializer that takes a `UIImage` and makes the image view the correct size for the image.
 
 Add this code to `viewDidLoad()`:
 

@@ -67,7 +67,7 @@ Text("Now you see me")
 
 ![The text “Now you see me” in a red rectangle. Both are translucent.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-adjust-the-opacity-of-a-view-1~dark@2x.png)
 
-Modifying opacity is extremely fast – certainly something you can do as often as you need. To demonstrate that, the following code adjusts text opacity using a slider, and you’ll see you can move it around as fast and as much as you like without any performance hit:
+Modifying opacity is extremely fast - certainly something you can do as often as you need. To demonstrate that, the following code adjusts text opacity using a slider, and you’ll see you can move it around as fast and as much as you like without any performance hit:
 
 ```swift
 struct ContentView: View {

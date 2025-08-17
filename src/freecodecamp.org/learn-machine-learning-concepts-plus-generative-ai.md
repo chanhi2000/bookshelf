@@ -67,11 +67,11 @@ One of the most exciting aspects of this course is its introduction to Generativ
 
 Here’s a glimpse of what you’ll learn:
 
-- **Machine Learning Basics** – Understand key concepts, including the difference between ML and traditional programming.
-- **How ML Works** – Learn about different types of ML models, training methods, and real-world use cases.
-- **ML vs. Traditional Software** – See a practical demonstration of how ML-based systems differ from traditional rule-based software.
-- **Introduction to Generative AI** – Discover how AI models like ChatGPT generate text, images, and more.
-- **Architecting GenAI Systems** – Gain insights into building and deploying AI-powered applications.
+- **Machine Learning Basics** - Understand key concepts, including the difference between ML and traditional programming.
+- **How ML Works** - Learn about different types of ML models, training methods, and real-world use cases.
+- **ML vs. Traditional Software** - See a practical demonstration of how ML-based systems differ from traditional rule-based software.
+- **Introduction to Generative AI** - Discover how AI models like ChatGPT generate text, images, and more.
+- **Architecting GenAI Systems** - Gain insights into building and deploying AI-powered applications.
 
 This course is designed for beginners and is a perfect starting point if you want to dive into AI and machine learning. Whether you’re an aspiring data scientist, a developer looking to expand your skill set, or simply curious about AI, this course will provide valuable insights.
 

@@ -64,7 +64,7 @@ class Bag: ObservableObject {
 }
 ```
 
-That conforms to the `ObservableObject` protocol, which means SwiftUI’s views can watch it for changes. But because its only property isn’t marked with `@Published`, no change announcements will ever be sent – you can add items to the array freely and no views will update.
+That conforms to the `ObservableObject` protocol, which means SwiftUI’s views can watch it for changes. But because its only property isn’t marked with `@Published`, no change announcements will ever be sent - you can add items to the array freely and no views will update.
 
 If you wanted change announcements to be sent whenever something was added or removed from `items`, you would mark it with `@Published`, like this:
 
@@ -74,9 +74,9 @@ class Bag: ObservableObject {
 }
 ```
 
-You don’t need to do anything else – the `@Published` property wrapper effectively adds a `willSet` property observer to `items`, so that any changes are automatically sent out to observers.
+You don’t need to do anything else - the `@Published` property wrapper effectively adds a `willSet` property observer to `items`, so that any changes are automatically sent out to observers.
 
-As you can see, `@Published` is *opt-in* – you need to list which properties should cause announcements, because the default is that changes don’t cause reloads. This means you can have properties that store caches, properties for internal use, and more, and they won’t force SwiftUI to reload views when they change unless you specifically mark them with `@Published`.
+As you can see, `@Published` is *opt-in* - you need to list which properties should cause announcements, because the default is that changes don’t cause reloads. This means you can have properties that store caches, properties for internal use, and more, and they won’t force SwiftUI to reload views when they change unless you specifically mark them with `@Published`.
 
 ::: details Similar solutions…
 

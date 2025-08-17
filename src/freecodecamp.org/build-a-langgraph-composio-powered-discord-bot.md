@@ -225,7 +225,7 @@ Now that you’ve laid all the groundwork, you can finally start coding the proj
 
 Let’s start by writing some helper functions and defining the types of data you’ll be working with.
 
-It's important in any application, especially ones like the one we're building – which is prone to errors due to multiple API calls – that we set up decent logging so we know when and how things go wrong.
+It's important in any application, especially ones like the one we're building - which is prone to errors due to multiple API calls - that we set up decent logging so we know when and how things go wrong.
 
 Create a new file named <FontIcon icon="iconfont icon-typescript"/>`logger.ts` inside the <FontIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
 
@@ -508,7 +508,7 @@ export const processSupportEdges = (
 
 These are the edges that connect different nodes in your application. They direct the flow in your graph.
 
-Things are really shaping up – so let’s finish the core logic by implementing all the nodes for your application.
+Things are really shaping up - so let’s finish the core logic by implementing all the nodes for your application.
 
 Create a new file named <FontIcon icon="iconfont icon-typescript"/>`nodes.ts` inside the <FontIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
 

@@ -52,9 +52,9 @@ author:
 
 > Available from Swift 5.9
 
-[SE-0390 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0390-noncopyable-structs-and-enums.md) introduces the concept of structs and enums that cannot be copied, which in turn allows a single instance of a struct or enum to be shared in many places – they still ultimately have one owner, but can now be accessed in various parts of your code.
+[SE-0390 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0390-noncopyable-structs-and-enums.md) introduces the concept of structs and enums that cannot be copied, which in turn allows a single instance of a struct or enum to be shared in many places - they still ultimately have one owner, but can now be accessed in various parts of your code.
 
-First, this change introduces new syntax to suppress a requirement: `~Copyable`. That means “this type cannot be copied”, and this suppression syntax is not available elsewhere at this time – we can’t use `~Equatable`, for example, to opt out of `==` for a type.
+First, this change introduces new syntax to suppress a requirement: `~Copyable`. That means “this type cannot be copied”, and this suppression syntax is not available elsewhere at this time - we can’t use `~Equatable`, for example, to opt out of `==` for a type.
 
 So, we could create a new noncopyable `User` struct like this:
 
@@ -79,7 +79,7 @@ func createUser() {
 createUser()
 ```
 
-But we’ve declared the `User` struct as being noncopyable – how can that take a copy of `newUser`? The answer is that it *can’t*: assigning `newUser` to `userCopy` causes the original `newUser` value to be *consumed*, which means it can no longer be used because ownership now belongs to `userCopy`. If you try changing `print(userCopy.name)` to `print(newUser.name)` you’ll see Swift throws up a compiler error – it’s just not allowed.
+But we’ve declared the `User` struct as being noncopyable - how can that take a copy of `newUser`? The answer is that it *can’t*: assigning `newUser` to `userCopy` causes the original `newUser` value to be *consumed*, which means it can no longer be used because ownership now belongs to `userCopy`. If you try changing `print(userCopy.name)` to `print(newUser.name)` you’ll see Swift throws up a compiler error - it’s just not allowed.
 
 New restrictions also apply to how we use noncopyable types as function parameters: [SE-0377 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/proposals/0377-parameter-ownership-modifiers.md) says that functions must specify whether they intend to consume the value and therefore render it invalid at the call site after the function finishes, or whether they want to *borrow* the value so that they can read all its data at the same time as other borrowing parts of our code.
 
@@ -99,7 +99,7 @@ func greet(_ user: borrowing User) {
 createAndGreetUser()
 ```
 
-In contrast, If we had made the `greet()` function use `consuming User` then the `print("Goodbye, \(newUser.name)")` would not be allowed – Swift would consider the `newUser` value to be invalid after `greet()` has run. On the flip side, because consuming methods must end the lifetime of the object, they can mutate its properties freely.
+In contrast, If we had made the `greet()` function use `consuming User` then the `print("Goodbye, \(newUser.name)")` would not be allowed - Swift would consider the `newUser` value to be invalid after `greet()` has run. On the flip side, because consuming methods must end the lifetime of the object, they can mutate its properties freely.
 
 This shared behavior gives noncopyable structs a superpower that was previously restricted to classes and actors: we can give them deinitializers that will automatically be run when the final reference to a noncopyable instance is destroyed. For example, this struct prints a message when it's destroyed:
 

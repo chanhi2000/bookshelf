@@ -68,7 +68,7 @@ class AccountViewModel: ObservableObject {
 
 In fact, this set up is so central to the way `ObservableObject` works that SwiftUI bakes it right in: whenever you use `@StateObject` or `@ObservedObject` inside a view, Swift will ensure that the whole view runs on the main actor so that you can’t accidentally try to publish UI updates in a dangerous way. Even better, no matter what property wrappers you use, the `body` property of your SwiftUI views is always run on the main actor.
 
-Does that mean you don’t need to explicitly add `@MainActor` to observable objects? Well, no – there are still benefits to using `@MainActor` with these classes, not least if they are using `async`/`await` to do their own asynchronous work such as downloading data from a server.
+Does that mean you don’t need to explicitly add `@MainActor` to observable objects? Well, no - there are still benefits to using `@MainActor` with these classes, not least if they are using `async`/`await` to do their own asynchronous work such as downloading data from a server.
 
 So, my recommendation is simple: even though SwiftUI ensures main-actor-ness when using `@ObservableObject`, `@StateObject`, and SwiftUI view `body` properties, it’s a good idea to add the `@MainActor` attribute to all your observable object classes to be absolutely sure all UI updates happen on the main actor. If you need certain methods or computed properties to opt out of running on the main actor, use `nonisolated` as you would do with a regular actor.
 
@@ -78,7 +78,7 @@ I’ve said it previously, but it’s worth repeating: you should *not* attempt 
 
 :::
 
-More broadly, *any* type that has `@MainActor` objects as properties will also implicitly be `@MainActor` using *global actor inference* – a set of rules that Swift applies to make sure global-actor-ness works without getting in the way too much. I’ll cover these rules in the next chapter, because they are quite precise.
+More broadly, *any* type that has `@MainActor` objects as properties will also implicitly be `@MainActor` using *global actor inference* - a set of rules that Swift applies to make sure global-actor-ness works without getting in the way too much. I’ll cover these rules in the next chapter, because they are quite precise.
 
 The magic of `@MainActor` is that it automatically forces methods or whole types to run on the main actor, a lot of the time without any further work from us. Previously we needed to do it by hand, remembering to use code like `DispatchQueue.main.async()` or similar every place it was needed, but now the compiler does it for us automatically.
 
@@ -115,7 +115,7 @@ await couldBeAnywhere()
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/concurrency/how-to-use-atmainactor-to-run-code-on-the-main-queue-2.zip)
 
-Even better, if that code was already running on the main actor then the code is executed immediately – it won’t wait until the next run loop in the same way that `DispatchQueue.main.async()` would have done.
+Even better, if that code was already running on the main actor then the code is executed immediately - it won’t wait until the next run loop in the same way that `DispatchQueue.main.async()` would have done.
 
 If you wanted the work to be sent off to the main actor *without* waiting for its result to come back, you can place it in a new task like this:
 

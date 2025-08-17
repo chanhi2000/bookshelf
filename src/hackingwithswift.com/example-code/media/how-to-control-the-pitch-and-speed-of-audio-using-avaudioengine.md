@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ For example, one of the powerful classes in AVKit is called `AVAudioEngine`. Its
 
 To try this out, we’ll create a simple test that loads an MP3 file and starts playing it, but adjusts the playback speed and pitch of the audio every time the user taps the screen.
 
-First you need a property to store your `AVAudioEngine` object, along with properties that store an `AVAudioUnitTimePitch` and an `AVAudioUnitVarispeed` – the processors that transform the speed and pitch of audio:
+First you need a property to store your `AVAudioEngine` object, along with properties that store an `AVAudioUnitTimePitch` and an `AVAudioUnitVarispeed` - the processors that transform the speed and pitch of audio:
 
 ```swift
 let engine = AVAudioEngine()
@@ -78,7 +78,7 @@ Next you need a method that will play a URL. This takes six steps:
 1. Create an `AVAudioFile` that reads from whatever file URL gets passed into the method.
 <li>Create an `AVAudioPlayerNode` that will read in your `AVAudioFile`. This is a like a more advanced `AVAudioPlayer`, and we can use it as part of our engine connections.
 <li>Connect the audio player, the pitch control, and the speed control to our playback engine.
-<li>Arrange the parts so that the audio player feeds into the speed control, the speed control feeds into the pitch control, and the pitch control feeds to the main mixer output – gets played aloud.
+<li>Arrange the parts so that the audio player feeds into the speed control, the speed control feeds into the pitch control, and the pitch control feeds to the main mixer output - gets played aloud.
 <li>Prepare the audio player node to start reading its file.
 <li>Start the engine and the player.
 
@@ -122,7 +122,7 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-As you’ll see, this processing happens incredibly quickly – it’s all realtime, so you can create fun effects for apps and games in just a few minutes of work!
+As you’ll see, this processing happens incredibly quickly - it’s all realtime, so you can create fun effects for apps and games in just a few minutes of work!
 
 -->
 

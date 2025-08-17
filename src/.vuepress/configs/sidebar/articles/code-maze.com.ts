@@ -86,9 +86,25 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
+    "http-authentication", // 2017-07-18
+    "http-series-part-3", // 2017-07-08
+    "http-series-part-2", // 2017-06-26
     "http-series-part-1", // 2017-06-19
+    "the-http-reference", // 2017-06-19
+    "different-ways-consume-restful-api-csharp", // 2016-06-06
   ]
 }
+
+const Y2016: SidebarYeargroupTemplate = {
+  text: '2016',
+  collapsible: true,
+  children: [
+    // END: 2016
+    "top-8-continuous-integration-tools", // 2016-02-20
+    "what-is-continuous-integration", // 2016-02-04
+  ]
+}
+
 
 export const template: SidebarInfoTemplate = {
   name: "code-maze.com",
@@ -121,13 +137,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2019cs
       "aspnet-configuration-providers", // 2020-09-08
       // END: 2020cs
-      "what-is-continuous-integration", // 2021-10-09
-      "top-8-continuous-integration-tools", // 2023-06-15
-      "different-ways-consume-restful-api-csharp", // 2024-06-06
-      "the-http-reference", // 2020-09-04
-      "http-series-part-2", // 2020-09-04
-      "http-series-part-3", // 2023-07-07
-      "http-authentication", // 2023-08-25
+      "different-ways-consume-restful-api-csharp", // 2016-06-06
       "http-series-part-5", // 2020-09-04
       "net-core-web-development-part1", // 2024-01-31
       "net-core-web-development-part2", // 2024-03-13
@@ -356,6 +366,20 @@ export const template: SidebarInfoTemplate = {
       "signalr-automatic-reconnect-option", // 2022-05-05
       "custom-validators-and-handling-errors-with-angular-and-asp-net-core-identity", // 2022-10-12
     ]],[
+    "devops", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016devops
+      // END: 2017devops
+      // END: 2018devops
+      // END: 2019devops
+      // END: 2020devops
+      // END: 2021devops
+      // END: 2022devops
+      // END: 2023devops
+      // END: 2024devops
+      // END: 2025devops
+      // END: devops
+    ]],[
     "docker", [
       "why-docker-docker-cli-examples", // 2020-09-02
       "aspnetcore-app-dockerfiles", // 2020-09-02
@@ -374,8 +398,23 @@ export const template: SidebarInfoTemplate = {
       "net-core-web-development-part17", // 2024-02-05
     ]],[
     "github", [
+      // END: 2016github
       "deploy-aspnetcore-webapi-kubernetes-cluster-azure", // 2024-01-31
       "continuous-deployment-from-github-to-azure-app-service", // 2021-12-27
+    ]],[
+    "gitlab", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016gitlab
+      // END: 2017gitlab
+      // END: 2018gitlab
+      // END: 2019gitlab
+      // END: 2020gitlab
+      // END: 2021gitlab
+      // END: 2022gitlab
+      // END: 2023gitlab
+      // END: 2024gitlab
+      // END: 2025gitlab
+      // END: gitlab
     ]],[
     "azure", [
       "deploy-aspnetcore-webapi-kubernetes-cluster-azure", // 2024-01-31
@@ -384,6 +423,104 @@ export const template: SidebarInfoTemplate = {
       "aspnet-configuration-azure-key-vault", // 2021-12-27
       "introduction-to-cloud-computing-and-azure", // 2021-12-29
       "deploying-aspnet-core-web-api-azure-api-apps", // 2024-01-31
+    ]],[
+    "travis-ci", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016travis-ci
+      // END: 2017travis-ci
+      // END: 2018travis-ci
+      // END: 2019travis-ci
+      // END: 2020travis-ci
+      // END: 2021travis-ci
+      // END: 2022travis-ci
+      // END: 2023travis-ci
+      // END: 2024travis-ci
+      // END: 2025travis-ci
+      // END: travis-ci
+    ]],[
+    "circle-ci", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016circle-ci
+      // END: 2017circle-ci
+      // END: 2018circle-ci
+      // END: 2019circle-ci
+      // END: 2020circle-ci
+      // END: 2021circle-ci
+      // END: 2022circle-ci
+      // END: 2023circle-ci
+      // END: 2024circle-ci
+      // END: 2025circle-ci
+      // END: circle-ci
+    ]],[
+    "bamboo", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016bamboo
+      // END: 2017bamboo
+      // END: 2018bamboo
+      // END: 2019bamboo
+      // END: 2020bamboo
+      // END: 2021bamboo
+      // END: 2022bamboo
+      // END: 2023bamboo
+      // END: 2024bamboo
+      // END: 2025bamboo
+      // END: bamboo
+    ]],[
+    "codeship", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016codeship
+      // END: 2017codeship
+      // END: 2018codeship
+      // END: 2019codeship
+      // END: 2020codeship
+      // END: 2021codeship
+      // END: 2022codeship
+      // END: 2023codeship
+      // END: 2024codeship
+      // END: 2025codeship
+      // END: codeship
+    ]],[
+    "codefresh", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016codefresh
+      // END: 2017codefresh
+      // END: 2018codefresh
+      // END: 2019codefresh
+      // END: 2020codefresh
+      // END: 2021codefresh
+      // END: 2022codefresh
+      // END: 2023codefresh
+      // END: 2024codefresh
+      // END: 2025codefresh
+      // END: codefresh
+    ]],[
+    "buddy", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016buddy
+      // END: 2017buddy
+      // END: 2018buddy
+      // END: 2019buddy
+      // END: 2020buddy
+      // END: 2021buddy
+      // END: 2022buddy
+      // END: 2023buddy
+      // END: 2024buddy
+      // END: 2025buddy
+      // END: buddy
+    ]],[
+    "teamcity", [
+      "top-8-continuous-integration-tools", // 2016-02-20
+      // END: 2016teamcity
+      // END: 2017teamcity
+      // END: 2018teamcity
+      // END: 2019teamcity
+      // END: 2020teamcity
+      // END: 2021teamcity
+      // END: 2022teamcity
+      // END: 2023teamcity
+      // END: 2024teamcity
+      // END: 2025teamcity
+      // END: teamcity
     ]],[
     "security", [
       "owasp-top-10-injection", // 2022-01-11
@@ -429,7 +566,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "coen", [
       // END: 2016coen
+      "the-http-reference", // 2017-06-19
       "http-series-part-1", // 2017-06-19
+      "http-series-part-2", // 2017-06-26
+      "http-series-part-3", // 2017-07-08
+      "http-authentication", // 2017-07-18
       // END: 2017coen
       // END: 2018coen
       // END: 2019coen
@@ -441,14 +582,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2025coen
       // END: coen
     ]],[
+    "system-design", [
+      "what-is-continuous-integration", // 2016-02-04
+      // END: 2025system-design
+      // END: system-design
+    ]],[
     "all", [
-      "top-8-continuous-integration-tools", // 2023-06-15
-      "what-is-continuous-integration", // 2021-10-09
-      "different-ways-consume-restful-api-csharp", // 2024-06-06
-      "the-http-reference", // 2020-09-04
-      "http-series-part-2", // 2020-09-04
-      "http-series-part-3", // 2023-07-07
-      "http-authentication", // 2023-08-25
       "http-series-part-5", // 2020-09-04
       "net-core-web-development-part1", // 2024-01-31
       "net-core-web-development-part2", // 2024-03-13
@@ -657,6 +796,7 @@ export const template: SidebarInfoTemplate = {
       Y2019,
       Y2018,
       Y2017,
+      Y2016,
     ]]
   ])
 }

@@ -118,7 +118,7 @@ Since they can often reduce the complexity of a problem, sorting algorithms are 
 
 ## Trade-Offs of Sorting Algorithms
 
-When choosing a sorting algorithm, some questions have to be asked – How big is the collection being sorted? How much memory is available? Does the collection need to grow?
+When choosing a sorting algorithm, some questions have to be asked - How big is the collection being sorted? How much memory is available? Does the collection need to grow?
 
 The answers to these questions may determine which algorithm is going to work best for each situation. Some algorithms like merge sort may need a lot of space or memory to run, while insertion sort is not always the fastest, but doesn't require many resources to run.
 
@@ -619,7 +619,7 @@ void insertionSort(int arr[], int n)
 
 ## Heapsort
 
-Heapsort is an efficient sorting algorithm based on the use of max/min heaps. A heap is a tree-based data structure that satisfies the heap property – that is for a max heap, the key of any node is less than or equal to the key of its parent (if it has a parent).
+Heapsort is an efficient sorting algorithm based on the use of max/min heaps. A heap is a tree-based data structure that satisfies the heap property - that is for a max heap, the key of any node is less than or equal to the key of its parent (if it has a parent).
 
 This property can be leveraged to access the maximum element in the heap in $O\left(\log{}{n}\right)$ time using the maxHeapify method. We perform this operation n times, each time moving the maximum element in the heap to the top of the heap and extracting it from the heap and into a sorted array. Thus, after n iterations we will have a sorted version of the input array.
 

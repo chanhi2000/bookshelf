@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Array - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/array",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -41,7 +41,7 @@ head:
 ```component VPCard
 {
   "title": "How do you create multi-dimensional arrays?",
-  "desc": "ating an array that holds strings is as simple as writing <code>[String]</code>, but what about creating an array where each item is an array of strings – an array of arrays? This is called a multi-dimensional array, because if you were to draw its contents on paper it would look like a grid rather than a line....",
+  "desc": "ating an array that holds strings is as simple as writing <code>[String]</code>, but what about creating an array where each item is an array of strings - an array of arrays? This is called a multi-dimensional array, because if you were to draw its contents on paper it would look like a grid rather than a line....",
   "link": "/hackingwithswift.com/example-code/arrays/how-do-you-create-multi-dimensional-arrays.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

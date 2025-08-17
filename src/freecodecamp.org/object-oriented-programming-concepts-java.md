@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Object-Oriented Programming in Java – A Beginner's Guide"
-description: "Article(s) > Object-Oriented Programming in Java – A Beginner's Guide"
+title: "Object-Oriented Programming in Java - A Beginner's Guide"
+description: "Article(s) > Object-Oriented Programming in Java - A Beginner's Guide"
 icon: fa-brands fa-java
 category:
   - Java
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Object-Oriented Programming in Java – A Beginner's Guide"
+      content: "Article(s) > Object-Oriented Programming in Java - A Beginner's Guide"
     - property: og:description
-      content: "Object-Oriented Programming in Java – A Beginner's Guide"
+      content: "Object-Oriented Programming in Java - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-concepts-java.html
 prev: /programming/java/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2022/01/ian-dooley-DJ7bWa-Gw
 ---
 
 <SiteInfo
-  name="Object-Oriented Programming in Java – A Beginner's Guide"
+  name="Object-Oriented Programming in Java - A Beginner's Guide"
   desc="Hi, folks! Today we are going to talk about object-oriented programming in Java. This article will help give you a thorough understanding of the underlying principles of object-oriented programming and its concepts.  Once you und..."
   url="https://freecodecamp.org/news/object-oriented-programming-concepts-java"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -707,7 +707,7 @@ Polymorphism refers to the ability of an object to take on many forms. Polymorph
 
 Polymorphism is similar to how a person can have different characteristics at the same time.
 
-For instance, a man can be a father, a grandfather, a husband, an employee, and so forth – all at the same time. So, the same person possesses different characteristics or behaviors in different situations.
+For instance, a man can be a father, a grandfather, a husband, an employee, and so forth - all at the same time. So, the same person possesses different characteristics or behaviors in different situations.
 
 ::: tip Example
 
@@ -813,7 +813,7 @@ Thanks for reading and happy learning!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Object-Oriented Programming in Java – A Beginner's Guide",
+  "title": "Object-Oriented Programming in Java - A Beginner's Guide",
   "desc": "By Patrick Cyubahiro Hi, folks! Today we are going to talk about object-oriented programming in Java. This article will help give you a thorough understanding of the underlying principles of object-oriented programming and its concepts.  Once you und...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-concepts-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

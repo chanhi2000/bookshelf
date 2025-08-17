@@ -134,7 +134,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-a-menu-when-a-button-is-pressed-3~dark.mp4" />
 
-Finally, in iOS 15 and later menus can also have a primary action, which is triggered when the menu’s button is tapped rather than held down – press and release to trigger the primary action, or hold down to get the full menu of options.
+Finally, in iOS 15 and later menus can also have a primary action, which is triggered when the menu’s button is tapped rather than held down - press and release to trigger the primary action, or hold down to get the full menu of options.
 
 So, we could create a menu that supports both simple taps as well as a full set of options:
 

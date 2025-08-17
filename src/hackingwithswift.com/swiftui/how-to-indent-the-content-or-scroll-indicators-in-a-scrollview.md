@@ -110,7 +110,7 @@ ScrollView {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-indent-the-content-or-scroll-indicators-in-a-scrollview-3.zip)
 
-Using content margins rather than simple padding allows your content to scroll edge to edge as the user interacts with it, while also adding a little extra space for scrolling – it's a much better optional than simple padding.
+Using content margins rather than simple padding allows your content to scroll edge to edge as the user interacts with it, while also adding a little extra space for scrolling - it's a much better optional than simple padding.
 
 ::: details Similar solutions…
 

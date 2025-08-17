@@ -118,7 +118,7 @@ A **Promise** is a JavaScript object that represents the eventual completion (or
 
 A Promise can be in one of three states:
 
-1. **Pending**: The initial state – the operation hasn't been completed yet
+1. **Pending**: The initial state - the operation hasn't been completed yet
 2. **Fulfilled (Resolved)**: The operation completed successfully
 3. **Rejected**: The operation failed
 
@@ -911,7 +911,7 @@ async function asyncAwaitErrorHandling() {
 
 :::
 
-### Advanced Error Pattern – Specific Error Handling:
+### Advanced Error Pattern - Specific Error Handling:
 
 ```js
 async function advancedErrorHandling(userId) {
@@ -1300,7 +1300,7 @@ Both Promises and Async/Await are powerful tools for handling asynchronous opera
 
 In modern JavaScript development, Async/Await is generally preferred for application code due to its readability and ease of use. However, understanding Promises is still crucial since Async/Await is built on top of them, and many libraries and APIs still use Promises directly.
 
-The key is to understand both approaches and choose the one that best fits your specific use case, team preferences, and project requirements. Remember that you can always mix both approaches when it makes sense – use Async/Await for your main application logic and Promises for utility functions and library integrations.
+The key is to understand both approaches and choose the one that best fits your specific use case, team preferences, and project requirements. Remember that you can always mix both approaches when it makes sense - use Async/Await for your main application logic and Promises for utility functions and library integrations.
 
 By mastering both techniques very well, you will be well-equipped to handle any asynchronous programming challenge in JavaScript.
 

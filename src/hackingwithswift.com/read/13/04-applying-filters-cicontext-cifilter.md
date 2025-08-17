@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -208,5 +208,5 @@ func applyProcessing() {
 
 Using this method, we check each of our four keys to see whether the current filter supports it, and, if so, we set the value. The first three all use the value from our `intensity` slider in some way, which will produce some interesting results. If you wanted to improve this app later, you could perhaps add three sliders.
 
-If you run your app now, you should be able to choose from various filters then watch them distort your image in weird and wonderful ways. Note that some of them – such as the Gaussian blur – will run very slowly in the simulator, but quickly on devices. If we wanted to do more complex processing (not least chaining filters together!) you can add configuration options to the `CIContext` to make it run even faster; another time, perhaps.
+If you run your app now, you should be able to choose from various filters then watch them distort your image in weird and wonderful ways. Note that some of them - such as the Gaussian blur - will run very slowly in the simulator, but quickly on devices. If we wanted to do more complex processing (not least chaining filters together!) you can add configuration options to the `CIContext` to make it run even faster; another time, perhaps.
 

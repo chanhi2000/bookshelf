@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-One powerful feature of Swift is its ability to extend protocols – to be able to add new functionality not only to one type, but to a whole collection of types that all conform to the same protocol.
+One powerful feature of Swift is its ability to extend protocols - to be able to add new functionality not only to one type, but to a whole collection of types that all conform to the same protocol.
 
 Protocol-oriented programming takes that feature and encourages you to craft your app’s architecture around it so that the first thing you do is sketch out one or more protocols rather than get straight into concrete types. 
 

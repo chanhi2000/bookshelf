@@ -113,8 +113,8 @@ While`DisposableEffect`is incredibly useful, there are times when it’s not the
 
 `DisposableEffect` is deeply integrated with the lifecycle of a composable. Here’s how it functions:
 
-– When the composable**enters the composition**, `DisposableEffect` runs its initialization code.  
-– When the composable**leaves the composition**, the `onDispose` block is triggered, providing a precise point to release resources.
+- When the composable**enters the composition**, `DisposableEffect` runs its initialization code.  
+- When the composable**leaves the composition**, the `onDispose` block is triggered, providing a precise point to release resources.
 
 ---
 
@@ -145,8 +145,8 @@ In this example, `startLocationUpdates()` begins tracking as the composable appe
 
 `DisposableEffect` and `LaunchedEffect` serve different purposes:
 
-–**LaunchedEffect**is intended for suspendable tasks that can be canceled if the key changes or the composable leaves the composition.  
-–**DisposableEffect**is ideal for managing non-suspendable side effects (like attaching listeners or managing resources).
+-**LaunchedEffect**is intended for suspendable tasks that can be canceled if the key changes or the composable leaves the composition.  
+-**DisposableEffect**is ideal for managing non-suspendable side effects (like attaching listeners or managing resources).
 
 Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `DisposableEffect` when you need reliable setup and teardown of side effects.
 
@@ -154,9 +154,9 @@ Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `Dis
 
 ## Best Practices
 
-–**Avoid Heavy Logic**: Since `DisposableEffect` isn’t suspendable, avoid long-running tasks within it. For asynchronous operations, pair it with `LaunchedEffect`.
+-**Avoid Heavy Logic**: Since `DisposableEffect` isn’t suspendable, avoid long-running tasks within it. For asynchronous operations, pair it with `LaunchedEffect`.
 
-–**Use Keys Effectively**: Be mindful of key usage. When the `DisposableEffect` key changes, the current effect is disposed of and a new one starts, so ensure your keys reflect the exact dependency you want to track.
+-**Use Keys Effectively**: Be mindful of key usage. When the `DisposableEffect` key changes, the current effect is disposed of and a new one starts, so ensure your keys reflect the exact dependency you want to track.
 
 ---
 

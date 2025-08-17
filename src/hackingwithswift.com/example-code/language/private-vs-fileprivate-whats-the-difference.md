@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 These two forms of access control are similar, but there are two differences.
 
-If you mark something `fileprivate` it can be read anywhere in the same file it was declared – even outside the type. On the other hand, a `private` property can only be read inside the type that declared it, or inside extensions to that type that were created in the same file.
+If you mark something `fileprivate` it can be read anywhere in the same file it was declared - even outside the type. On the other hand, a `private` property can only be read inside the type that declared it, or inside extensions to that type that were created in the same file.
 
 In practice you’re likely to see `private` used significantly more than `fileprivate`.
 

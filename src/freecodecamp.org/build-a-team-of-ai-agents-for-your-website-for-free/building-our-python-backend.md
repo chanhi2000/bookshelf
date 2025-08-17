@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742397437476/0ffa13b
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1742397437476/0ffa13b0-c668-40d7-864f-596f523f6101.png"/>
 
-For this tutorial I will be using macOS, and the commands should also work on Linux. If you’re a Windows user, most of the commands should work (although there are some differences like activating a Python environment). You can find the correct commands by searching if need be – and you’ll know if your terminal gives you errors when trying to run a command.
+For this tutorial I will be using macOS, and the commands should also work on Linux. If you’re a Windows user, most of the commands should work (although there are some differences like activating a Python environment). You can find the correct commands by searching if need be - and you’ll know if your terminal gives you errors when trying to run a command.
 
 ---
 
@@ -63,7 +63,7 @@ Once you have created an account on Groq Cloud, go to the API Keys page and crea
 
 ![Creating a Groq Cloud API Key](https://cdn.hashnode.com/res/hashnode/image/upload/v1741977205655/7c7dcc3e-685b-4383-b80a-4d8088be7d2d.png)
 
-You should have an API Key that looks like this example, so make sure that you save it somewhere safe – we will need it later.
+You should have an API Key that looks like this example, so make sure that you save it somewhere safe - we will need it later.
 
 ```sh
 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
@@ -73,7 +73,7 @@ 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
 
 ## Setting Up Our Python Project
 
-Ok, now let's quickly set up our project. Navigate to a location on your computer, like the desktop, and create a folder called `ai-agent-app`. `cd` into the project folder and get ready – we’re going to start building our backend using Python.
+Ok, now let's quickly set up our project. Navigate to a location on your computer, like the desktop, and create a folder called `ai-agent-app`. `cd` into the project folder and get ready - we’re going to start building our backend using Python.
 
 I recommend installing `agno` and `groq` locally in a Python virtual environment. First, use this terminal command to setup a Python virtual environment inside of your <FontIcon icon="fas fa-folder-open"/>`ai-agent-app` folder:
 
@@ -328,7 +328,7 @@ This agent is designed to help users with career-related tasks such as:
 
 The agent uses the LLM capabilities of the base agent (using Groq's LLama 3.3 70B model) to generate natural language responses that are formatted in markdown, making them suitable for inclusion in portfolio websites, résumés, or job applications. This file has sample career data, and in a real implementation, this would come from a database
 
-Ok time for the next AI agent – this time it’s <FontIcon icon="fa-brands fa-python"/>`client_agent.py`, which receives this code:
+Ok time for the next AI agent - this time it’s <FontIcon icon="fa-brands fa-python"/>`client_agent.py`, which receives this code:
 
 ```py :collapsed-lines title="client_agent.py"
 from agents.base_agent import BaseAgent
@@ -736,7 +736,7 @@ This agent is designed to serve as the initial point of contact for visitors to 
 
 The `WelcomeAgent` is simpler than some of the other agents we've looked at because it focuses on creating a positive first impression and helping visitors navigate to the content most relevant to their needs. It uses the LLM capabilities of the base agent to generate natural, contextually appropriate responses.
 
-Ok good – your backend API is almost ready. You just have one last file to work on: the <FontIcon icon="fa-brands fa-python"/>`main.py` file that completes your codebase. This file is quite big, so I will split it into three parts. You’ll need to copy and paste each section into the file. If you have not done so already, its worth installing the [<FontIcon icon="fas fa-globe"/>Python](https://open-vsx.org/extension/ms-python/python) extension for VS Code as this has debugging, linting, and formatting for Python files.
+Ok good - your backend API is almost ready. You just have one last file to work on: the <FontIcon icon="fa-brands fa-python"/>`main.py` file that completes your codebase. This file is quite big, so I will split it into three parts. You’ll need to copy and paste each section into the file. If you have not done so already, its worth installing the [<FontIcon icon="fas fa-globe"/>Python](https://open-vsx.org/extension/ms-python/python) extension for VS Code as this has debugging, linting, and formatting for Python files.
 
 Alright, here is the first part of the codebase for our <FontIcon icon="fa-brands fa-python"/>`main.py` file:
 
@@ -1100,7 +1100,7 @@ This is expected, because if you have checked the codebase, you’ll realise tha
 
 Each POST request will use exactly one API call on Groq Cloud for your API Key which you can view here [<FontIcon icon="iconfont icon-groq"/>https://console.groq.com/keys](https://console.groq.com/keys). Remember that it’s free to use but there are usage limits which you can read about in their documentation on [<FontIcon icon="iconfont icon-groq"/>Rate Limits](https://console.groq.com/docs/rate-limits).
 
-I have provided some sample curl commands below – just copy and paste them into your terminal and hit enter, and you should see the response message:
+I have provided some sample curl commands below - just copy and paste them into your terminal and hit enter, and you should see the response message:
 
 ### 1. Testing the Welcome Agent Endpoint
 

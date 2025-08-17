@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana"
-description: "Article(s) > Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana"
+title: "Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana"
+description: "Article(s) > Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana"
 icon: fa-brands fa-python
 category:
   - Python
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana"
+      content: "Article(s) > Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana"
     - property: og:description
-      content: "Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana"
+      content: "Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana.html
 prev: /programming/py/articles/README.md
@@ -60,7 +60,7 @@ cover: https://files.realpython.com/media/twitter-sentiment-overall-pie-chart.b0
 ---
 
 <SiteInfo
-  name="Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana"
+  name="Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana"
   desc="This post details how to perform Twitter sentiment analysis using Python, Docker, Elasticsearch, and Kibana."
   url="https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -277,7 +277,7 @@ Cheers!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana",
+  "title": "Twitter Sentiment Analysis - Python, Docker, Elasticsearch, Kibana",
   "desc": "This post details how to perform Twitter sentiment analysis using Python, Docker, Elasticsearch, and Kibana.",
   "link": "https://chanhi2000.github.io/bookshelf/realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana.html",
   "logo": "https://realpython.com/static/favicon.68cbf4197b0c.png",

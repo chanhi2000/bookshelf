@@ -80,7 +80,7 @@ function padLeft(padding: number | string, input: string) {
 
 Here, the return type of `isString` is set to `boolean`, and we use it in a function called `padLeft` to add padding to the left of an input string. The `padding` can be either a given string or a specified number of space characters.
 
-You might be wondering why I hard-coded the return type to `boolean`. This is to illustrate the problem. If you don't add any return type annotation and use the latest version of TypeScript, you won't notice any issue here. For now, bear with me – we'll discuss the version-related differences shortly.
+You might be wondering why I hard-coded the return type to `boolean`. This is to illustrate the problem. If you don't add any return type annotation and use the latest version of TypeScript, you won't notice any issue here. For now, bear with me - we'll discuss the version-related differences shortly.
 
 The function will work smoothly at runtime, but TypeScript cannot perform any type narrowing with `isString`. As a result, the type of `padding` remains `string | number` both inside and outside the `if` statement. This leads to a conflict with `repeat`'s expectation for its first argument, causing the type error.
 

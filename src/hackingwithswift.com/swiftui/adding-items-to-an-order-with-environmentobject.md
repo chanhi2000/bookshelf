@@ -76,9 +76,9 @@ When this view is shown, SwiftUI will automatically look in its list of environm
 
 `@EnvironmentObject` is another *property wrapper* in Swift, just like `@Published` and `@StateObject`. This one means we get that automatic attachment ability I just mentioned, but also tells SwiftUI to watch the object for any changes and refresh its UI when a change announcement comes through.
 
-Before we add some code to manipulate that order in `ItemDetail`, we need to fix another previewing problem. You see, we're now promising the an object of type `Order` will be in the environment by the time our `ItemDetail` is shown, and we create and pass that in from <FontIcon icon="fa-brands fa-swift"/>`iDineApp.swift`. That works great when our app is running for real, but in the Xcode preview we aren't launched from the app – we're created by that `PreviewProvider` code at the end of our view files.
+Before we add some code to manipulate that order in `ItemDetail`, we need to fix another previewing problem. You see, we're now promising the an object of type `Order` will be in the environment by the time our `ItemDetail` is shown, and we create and pass that in from <FontIcon icon="fa-brands fa-swift"/>`iDineApp.swift`. That works great when our app is running for real, but in the Xcode preview we aren't launched from the app - we're created by that `PreviewProvider` code at the end of our view files.
 
-This preview code will only get built when we're in debug mode – when we're building from Xcode, as opposed to for the App Store. This means it's safe to put code in there that only relates to our previews, which in this case will be a temporary `Order` instance so that it receives the same data as when it's running for real:
+This preview code will only get built when we're in debug mode - when we're building from Xcode, as opposed to for the App Store. This means it's safe to put code in there that only relates to our previews, which in this case will be a temporary `Order` instance so that it receives the same data as when it's running for real:
 
 ```swift
 struct ItemDetail_Previews: PreviewProvider {  
@@ -94,7 +94,7 @@ That replicates the same setup we have with the app launch, which means our prev
 
 Now *that* works we can get on with the real deal: adding a button that adds our current menu item to the order. Buttons in SwiftUI have two parts: a title string, and an action closure that contains code to run when the button is tapped.
 
-The `Order` class already has an `add()` method that takes a menu item, so we'll use that for the action. As for the title, we'll just add some text saying “Order This” – you're welcome to add more styling if you want!
+The `Order` class already has an `add()` method that takes a menu item, so we'll use that for the action. As for the title, we'll just add some text saying “Order This” - you're welcome to add more styling if you want!
 
 Put this into the body of `ItemDetail`, just before the spacer:
 

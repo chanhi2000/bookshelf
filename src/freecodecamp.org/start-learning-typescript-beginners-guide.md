@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Start Learning TypeScript – A Beginner's Guide"
-description: "Article(s) > How to Start Learning TypeScript – A Beginner's Guide"
+title: "How to Start Learning TypeScript - A Beginner's Guide"
+description: "Article(s) > How to Start Learning TypeScript - A Beginner's Guide"
 icon: iconfont icon-typescript
 category:
   - TypeScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Start Learning TypeScript – A Beginner's Guide"
+      content: "Article(s) > How to Start Learning TypeScript - A Beginner's Guide"
     - property: og:description
-      content: "How to Start Learning TypeScript – A Beginner's Guide"
+      content: "How to Start Learning TypeScript - A Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-learning-typescript-beginners-guide.html
 prev: /programming/ts/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681395105/19aeca8
 ---
 
 <SiteInfo
-  name="How to Start Learning TypeScript – A Beginner's Guide"
+  name="How to Start Learning TypeScript - A Beginner's Guide"
   desc="JavaScript is the most widely-used programming language for web development. But it lacks type-checking support, which is an essential feature of modern programming languages. JavaScript was originally designed as a simple scripting language. Its loo..."
   url="https://freecodecamp.org/news/start-learning-typescript-beginners-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -96,7 +96,7 @@ Although TypeScript is a language used primarily with JavaScript, having a basic
 
 ---
 
-## Getting Started – How to Install TypeScript
+## Getting Started - How to Install TypeScript
 
 To get started working with TypeScript you’ll need to install it. It’s not a complicated process. With TypeScript installed, you can leverage its power to create high-quality solutions.
 
@@ -527,7 +527,7 @@ The code above creates a custom-type `UserName`, a union of numbers and strings.
 
 Note that it’s recommended to start a type alias starts with a capital letter.
 
-The type Keyword is generally used for primitives – but how about creating a custom object type?
+The type Keyword is generally used for primitives - but how about creating a custom object type?
 
 ![This is where **Interfaces** come in.](https://cdn.hashnode.com/res/hashnode/image/upload/v1737294121435/5be475e2-efae-428e-b9ed-bbcce7ce260d.jpeg)
 
@@ -588,7 +588,7 @@ typescriptCopyEditconst invalidUser: User = {
 };
 ```
 
-So you might be wondering – why should you use interfaces?
+So you might be wondering - why should you use interfaces?
 
 - **Type safety**: Ensures that objects conform to the expected structure, preventing runtime errors.
 - **Reusability**: The same interface can be reused across different parts of the application, reducing duplication.
@@ -846,7 +846,7 @@ Keep pushing your boundaries and dive deeper into the world of TypeScript. 😉
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Start Learning TypeScript – A Beginner's Guide",
+  "title": "How to Start Learning TypeScript - A Beginner's Guide",
   "desc": "JavaScript is the most widely-used programming language for web development. But it lacks type-checking support, which is an essential feature of modern programming languages. JavaScript was originally designed as a simple scripting language. Its loo...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-learning-typescript-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

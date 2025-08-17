@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Improve Your Digital Security and Privacy – Best Practices for Developers"
-description: "Article(s) > How to Improve Your Digital Security and Privacy – Best Practices for Developers"
+title: "How to Improve Your Digital Security and Privacy - Best Practices for Developers"
+description: "Article(s) > How to Improve Your Digital Security and Privacy - Best Practices for Developers"
 icon: fas fa-shield-halved
 category: 
   - Security
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Improve Your Digital Security and Privacy – Best Practices for Developers"
+      content: "Article(s) > How to Improve Your Digital Security and Privacy - Best Practices for Developers"
     - property: og:description
-      content: "How to Improve Your Digital Security and Privacy – Best Practices for Developers"
+      content: "How to Improve Your Digital Security and Privacy - Best Practices for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-digital-security-and-privacy.html
 prev: /devops/security/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/digitalpr
 ---
 
 <SiteInfo
-  name="How to Improve Your Digital Security and Privacy – Best Practices for Developers"
+  name="How to Improve Your Digital Security and Privacy - Best Practices for Developers"
   desc="These days, there are many different types of attacks that can jeopardize your digital security and privacy. So it’s a good idea to stay up-to-date with best practices to keep you safe online.  But it can be hard to understand exactly how to do this. So I built this..."
   url="https://freecodecamp.org/news/how-to-improve-your-digital-security-and-privacy/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -66,7 +66,7 @@ By following these guidelines, you can really increase your digital security and
 
 The first step is to properly manage your passwords, and add a layer of security with two-factor authentication.
 
-Nowadays, digital passwords control an immense amount of power and personal information. You might access your bank and/or life savings with them, or critical and personal medical information about yourself. With great power as an Internet user comes great responsibility – and this is true of using modern passwords.
+Nowadays, digital passwords control an immense amount of power and personal information. You might access your bank and/or life savings with them, or critical and personal medical information about yourself. With great power as an Internet user comes great responsibility - and this is true of using modern passwords.
 
 ### Use a Password Manage
 
@@ -79,9 +79,9 @@ Good options are services like 1Password and BitWarden. You can host your own ve
 
 ### Use a Strong Password
 
-sThe number and type of characters in your password can prevent people brute-force attacking you – that is, using machines to guess letter combos. Password strength is very dependent on character length. [<FontIcon icon="fas fa-globe"/>If you use 14-16 characters](https://bitwarden.com/blog/how-long-should-my-password-be/) or more, it'll take a machine centuries to try to guess the password. But if you use 6 or fewer characters, it's likely your password can be cracked in seconds. 
+sThe number and type of characters in your password can prevent people brute-force attacking you - that is, using machines to guess letter combos. Password strength is very dependent on character length. [<FontIcon icon="fas fa-globe"/>If you use 14-16 characters](https://bitwarden.com/blog/how-long-should-my-password-be/) or more, it'll take a machine centuries to try to guess the password. But if you use 6 or fewer characters, it's likely your password can be cracked in seconds. 
 
-Your password strength can also improve if you add special characters, vary the case from uppercase to lowercase, and add numbers – anything that throws off machines that are going through character combinations by rote, hoping to get lucky.
+Your password strength can also improve if you add special characters, vary the case from uppercase to lowercase, and add numbers - anything that throws off machines that are going through character combinations by rote, hoping to get lucky.
 
 #### Examples of strong passwords
 
@@ -91,12 +91,12 @@ Your password strength can also improve if you add special characters, vary the 
 #### Examples of weak passwords
 
 - Commonly used and reused word + number combos, like hello12
-- Shorter strings like 342yf – the shorter your combination even if seemingly random, the easier to brute force
+- Shorter strings like 342yf - the shorter your combination even if seemingly random, the easier to brute force
 - Passwords you use across multiple services no matter their strength (if one of the passwords gets leaked, that will be attempted with all of your services). 
 
 ### Setup Two-Factor Authentication
 
-You should also add two-factor authentication throughout your devices, and ideally the strongest versions of these. That way, even if one of your passwords gets cracked, it won't matter – because attackers won't have access to a second factor that allows them into your account.
+You should also add two-factor authentication throughout your devices, and ideally the strongest versions of these. That way, even if one of your passwords gets cracked, it won't matter - because attackers won't have access to a second factor that allows them into your account.
 
 You'll also want to get notifications for failed login attempts. That way you'll know if somebody has cracked your password (and you'll want to remove that password from any online services you currently use.).
 
@@ -129,7 +129,7 @@ The browser you use to access the Internet stores data about you and shares data
 
 A default installation of Firefox, Chrome, or Safari won't have much in the way of privacy-preserving features. But you can download extensions such as Privacy Badger, https everywhere, and uBlock Origin to help you better defend your online privacy and security.
 
-These tools will serve as script-blockers and ad-blockers, as well as a guarantee that you'll be browsing sites where your data is encrypted – an important consideration when we get to point 3.
+These tools will serve as script-blockers and ad-blockers, as well as a guarantee that you'll be browsing sites where your data is encrypted - an important consideration when we get to point 3.
 
 ### Consider using a VPN
 
@@ -137,7 +137,7 @@ Also, if you're using your regular Internet without a VPN or without using a ser
 
 The IP address is malleable, but can reveal roughly where you are. IPInfo, for example, shows that you can tie an IP address [<FontIcon icon="fas fa-globe"/>to your location](https://ipinfo.io/ip-address-information) with the latitude and longitude represented, the company providing your Internet, and perhaps the business that owns the IP address.
 
-Your MAC address is tied to your device and is relatively static. When you put on a VPN or use Tor, you can show a different IP address than the one tied to your home network or insecure open networks like the Wifi at your local coffee shop. But depending on the VPN you use, you could be giving them access to every site you visit – so it's important to ensure that you work with a provider that has a no-logs policy such as MullvadVPN.
+Your MAC address is tied to your device and is relatively static. When you put on a VPN or use Tor, you can show a different IP address than the one tied to your home network or insecure open networks like the Wifi at your local coffee shop. But depending on the VPN you use, you could be giving them access to every site you visit - so it's important to ensure that you work with a provider that has a no-logs policy such as MullvadVPN.
 
 ::: note Takeaway
 
@@ -171,13 +171,13 @@ You'll often hear about cleartext vs hashed text when it comes to explaining a p
 
 If a website is storing your passwords in plaintext, it means that attackers that get a database full of passwords will be able to easily use that stash right away. A cleartext/plaintext leak means that you need to immediately change your passwords with much more urgency, though even if a password is hashed, you should still switch it over. 
 
-Services like haveibeenpwned.com will help you determine which password leaks apply to an email – and it's good to check every once in a while to see if you have any compromised credentials (some password managers will automatically check this for you as well.).
+Services like haveibeenpwned.com will help you determine which password leaks apply to an email - and it's good to check every once in a while to see if you have any compromised credentials (some password managers will automatically check this for you as well.).
 
 End-to-end encryption is a technical term that seems complex but delivers a simple promise: within the codebase, only the sender and receiver of a message will be able to see and decrypt the original message. This means that the service the messages are hosted on can't see what is being transmitted, and therefore can't send over that information to anybody. 
 
 Services like Signal offer end-to-end encryption by default (including in group chats) and are seen as the gold standard. WhatsApp also offers end-to-end encryption by default, though its association with Meta sometimes gets privacy advocates wary.
 
-Other services offer variants, but you have to trigger them – for example, Telegram has end-to-end encryption for "Secret chats", but not group chats and non-secret private chats. 
+Other services offer variants, but you have to trigger them - for example, Telegram has end-to-end encryption for "Secret chats", but not group chats and non-secret private chats. 
 
 ::: note Takeaway
 
@@ -195,7 +195,7 @@ In the digital world, however, you have the burden of a credit card or debit car
 
 Lightning Network is a second layer technology built on Bitcoin that doesn't record its transactional flow between nodes on-chain, but rather settles channel opens/closes on it. This allows you to transact Bitcoin rapidly, without a fee, and not have your each transaction show up on the Bitcoin chain.
 
-Now, the nuances of how to use tools like Lightning Network and Bitcoin in a way that preserves privacy merits a much fuller discussion – but be aware that a tradeoff now exists. 
+Now, the nuances of how to use tools like Lightning Network and Bitcoin in a way that preserves privacy merits a much fuller discussion - but be aware that a tradeoff now exists. 
 
 Yes, using Bitcoin will expose you to broadcasting your transactions over a public ledger, one scanned by perhaps millions of people. But it will also allow you to transact with the IP address of your choice, the device of your choice, and the identity of your choice. It's up to you to do the legwork and determine if that's a tradeoff worth having. 
 
@@ -211,7 +211,7 @@ Lastly, the devices you're using do matter for privacy and security. The Interne
 
 Most of the commercialized laptops and phones out there have privacy and security features built in. An example of this is hardware changes that make recent iPhones more resilient, or frequent security updates for the operating system in question, from Linux, Microsoft, to Mac, to iOS and Android.
 
-The tradeoff with devices, though, tends to be the expense, cost, and maintenance. In theory, having a second device on both laptop and mobile (for travel purposes, for example, to avoid border seizures) is ideal. And you may want to experiment with different operating systems – for example, the privacy-focused GrapheneOS for mobile, and System76 or Pinebooks for Linux-based laptops.
+The tradeoff with devices, though, tends to be the expense, cost, and maintenance. In theory, having a second device on both laptop and mobile (for travel purposes, for example, to avoid border seizures) is ideal. And you may want to experiment with different operating systems - for example, the privacy-focused GrapheneOS for mobile, and System76 or Pinebooks for Linux-based laptops.
 
 You might even go further and decide to experiment with home-based servers to run your own services.
 

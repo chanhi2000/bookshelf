@@ -81,7 +81,7 @@ fn(parameter_list) => expression;
 - `fn` is the keyword that defines the arrow function.
 - `parameter_list` is the list of parameters (similar to a normal function).
 - `=>` separates the parameter list from the expression.
-- `expression` is the value the function returns. You cannot use a block of statements here – only a single expression is allowed.
+- `expression` is the value the function returns. You cannot use a block of statements here - only a single expression is allowed.
 
 Arrow functions automatically capture variables from the scope. They don’t need the `use` keyword as shown below:
 
@@ -112,7 +112,7 @@ The variable `$multiplier` is automatically captured from the outer scope. You d
 Key rules of arrow function syntax:
 
 - Always use `fn`, not `function`.
-- No curly braces or `return` keyword – just a single expression.
+- No curly braces or `return` keyword - just a single expression.
 - Automatic variable capture from the outer scope.
 - It cannot contain multiple statements or control structures (like `if`, `foreach`, and so on).
 
@@ -224,7 +224,7 @@ In this example:
 
 It lets you generate small functions based on parameters and reduces code repetition.
 
-Use this syntax when you need to build dynamic behavior – like custom filters or function factories.
+Use this syntax when you need to build dynamic behavior - like custom filters or function factories.
 
 Let’s move on to the section below to see how you can use arrow functions in your code.
 

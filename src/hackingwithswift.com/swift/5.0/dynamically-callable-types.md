@@ -75,7 +75,7 @@ The first of those is used when you call the type without parameter labels (e.g.
 
 `@dynamicCallable` is really flexible about which data types its methods accept and return, allowing you to benefit from all of Swift’s type safety while still having some wriggle room for advanced usage. So, for the first method (no parameter labels) you can use anything that conforms to `ExpressibleByArrayLiteral` such as arrays, array slices, and sets, and for the second method (with parameter labels) you can use anything that conforms to `ExpressibleByDictionaryLiteral` such as dictionaries and key value pairs.
 
-As well as accepting a variety of inputs, you can also provide multiple overloads for a variety of outputs – one might return a string, one an integer, and so on. As long as Swift is able to resolve which one is used, you can mix and match all you want.
+As well as accepting a variety of inputs, you can also provide multiple overloads for a variety of outputs - one might return a string, one an integer, and so on. As long as Swift is able to resolve which one is used, you can mix and match all you want.
 
 Let’s look at an example. First, here’s a `RandomNumberGenerator` struct that generates numbers between 0 and a certain maximum, depending on what input was passed in:
 
@@ -110,7 +110,7 @@ let random = RandomNumberGenerator()
 let result = random(numberOfZeroes: 0)
 ```
 
-If you had used `dynamicallyCall(withArguments:)` instead – or at the same time, because you can have them both a single type – then you’d write this:
+If you had used `dynamicallyCall(withArguments:)` instead - or at the same time, because you can have them both a single type - then you’d write this:
 
 ```swift
 @dynamicCallable
@@ -129,7 +129,7 @@ let result = random(0)
 There are some important rules to be aware of when using `@dynamicCallable`:
 
 - You can apply it to structs, enums, classes, and protocols.
-- If you implement `withKeywordArguments:` and don’t implement `withArguments:`, your type can still be called without parameter labels – you’ll just get empty strings for the keys.
+- If you implement `withKeywordArguments:` and don’t implement `withArguments:`, your type can still be called without parameter labels - you’ll just get empty strings for the keys.
 - If your implementations of `withKeywordArguments:` or `withArguments:` are marked as throwing, calling the type will also be throwing.
 - You can’t add `@dynamicCallable` to an extension, only the primary definition of a type.
 - You can still add other methods and properties to your type, and use them as normal.

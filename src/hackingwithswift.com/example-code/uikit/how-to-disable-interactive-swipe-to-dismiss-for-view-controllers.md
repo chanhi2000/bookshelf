@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-From iOS 13.0 onwards, whenever you present a `UIViewController` you get a card-like user interface where the new view controller can be dismissed by swiping downwards. While this works great for optional information, it works less well if you require the user to make a choice – if you want to stop the view controller from being dismissed until they have taken some sort of action inside the detail view controller.
+From iOS 13.0 onwards, whenever you present a `UIViewController` you get a card-like user interface where the new view controller can be dismissed by swiping downwards. While this works great for optional information, it works less well if you require the user to make a choice - if you want to stop the view controller from being dismissed until they have taken some sort of action inside the detail view controller.
 
 Fortunately, UIKit has a dedicated property that deactivates the swipe to dismiss behavior: `isModalInPresentation`. This is false by default, but if you set it to true then `UIKit` will stop the interactive dismiss gesture and also ignore any events that occur outside of the detail view controller's bounds.
 

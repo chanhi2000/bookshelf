@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Core Graphics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/core-graphics/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -86,7 +86,7 @@ func linesCross(start1: CGPoint, end1: CGPoint, start2: CGPoint, end2: CGPoint) 
         let cd = ((start1.y - start2.y) * delta1x - (start1.x - start2.x) * delta1y) / determinant
 
         if cd > 0 && cd < 1 {
-            // lines cross – figure out exactly where and return it
+            // lines cross - figure out exactly where and return it
             let intersectX = start1.x + ab * delta1x
             let intersectY = start1.y + ab * delta1y
             return (intersectX, intersectY)

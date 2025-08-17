@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734537732263/2ec966b
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1734537732263/2ec966b6-d1d3-4d0f-ae37-982ef26ebc55.jpeg"/>
 
-Large Language Models (LLMs) like GPT often struggle to answer mathematical questions. In fact, if you ask a human a tough math question, like what is 185 cm in ft, they’ll struggle as well. They’d likely need a calculator to perform this conversion – and so do LLMs.
+Large Language Models (LLMs) like GPT often struggle to answer mathematical questions. In fact, if you ask a human a tough math question, like what is 185 cm in ft, they’ll struggle as well. They’d likely need a calculator to perform this conversion - and so do LLMs.
 
 LLMs are built to handle natural language. While generally being good at generating words and stringing together language, when it comes to math, they often need help.
 

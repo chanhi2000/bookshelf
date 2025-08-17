@@ -55,7 +55,7 @@ Before I started to contribute to [<FontIcon icon="iconfont icon-github"/>`jsx-e
 
 But behind those helpful messages is a powerful system of rules and structure that most of us rarely explore.
 
-Linters are everywhere – across languages, frameworks, and workflows. They help catch errors, enforce consistent formatting, and promote best practices. They’re among the first tools we install in a new project, and yet they’re also some of the most underrated and least understood.
+Linters are everywhere - across languages, frameworks, and workflows. They help catch errors, enforce consistent formatting, and promote best practices. They’re among the first tools we install in a new project, and yet they’re also some of the most underrated and least understood.
 
 In this article, I’m going to take you under the hood. We’ll look at how JavaScript lint rules work, why ASTs (Abstract Syntax Trees) are such a big deal, and how you can use this understanding to write or contribute to a linter yourself.
 
@@ -63,7 +63,7 @@ In this article, I’m going to take you under the hood. We’ll look at how Jav
 
 ## 🧹What Even Is a Linter?
 
-A linter is a tool that automatically analyzes your code to flag errors, enforce style rules and catch potential bugs. Think of it as the Grammarly of the coding world – helping you write cleaner, more consistent code by pointing out problems early.
+A linter is a tool that automatically analyzes your code to flag errors, enforce style rules and catch potential bugs. Think of it as the Grammarly of the coding world - helping you write cleaner, more consistent code by pointing out problems early.
 
 A popular example is [<FontIcon icon="fas fa-globe"/>ESLint](https://eslint.org/), an open-source linter for JavaScript and TypeScript that checks code for issues and can even auto-fix some of them.
 
@@ -107,7 +107,7 @@ They’re not just “**style police**.” Linters help reduce mental overhead b
 
 ## 🌳 From Code to Tree: Enter the AST
 
-To understand how lint rules work under the hood, we need to talk about the **Abstract Syntax Tree (AST)** – the data structure at the heart of every linter.
+To understand how lint rules work under the hood, we need to talk about the **Abstract Syntax Tree (AST)** - the data structure at the heart of every linter.
 
 An AST is a structured, tree-like representation of your code. Instead of reading your code as raw text, a linter converts it into a tree where each part of your code (a variable, a string, a function, and so on) becomes a **node** in the tree.
 
@@ -152,7 +152,7 @@ In the image above from AST Explorer, you can see how the tree is structured:
 
 This nesting is what makes the structure **“tree-like”**. Each node is a parent to smaller pieces (its children), which helps linters navigate code reliably.
 
-So while your eyes see a short line of JavaScript, the linter sees a detailed map of what that line *means* structurally. This hierarchy allows tools like ESLint to pinpoint exactly what kind of code is being used – and where – so rules can target patterns like:
+So while your eyes see a short line of JavaScript, the linter sees a detailed map of what that line *means* structurally. This hierarchy allows tools like ESLint to pinpoint exactly what kind of code is being used - and where - so rules can target patterns like:
 
 - "Flag all `const` variables"
 - "Warn when a variable is named `name`"
@@ -200,7 +200,7 @@ Here’s what ESLint sees when you write the same logic using an arrow function:
   - The value is an `ArrowFunctionExpression`
   - The body of the arrow function is a `Literal` — the string `"hello"`
 
-Even though the syntax is different, both paths eventually lead to a **Literal node** containing `"hello"` – which is all your linter needs to care about.
+Even though the syntax is different, both paths eventually lead to a **Literal node** containing `"hello"` - which is all your linter needs to care about.
 
 ### 💡 Let’s Bring It Home with an Example
 
@@ -236,7 +236,7 @@ This is what makes ASTs so useful: they let linters ignore surface-level differe
 
 ## 🔨 How ESLint Uses ASTs Under the Hood
 
-ESLint relies on a standardized format called [ESTree (<FontIcon icon="iconfont icon-github"/>`estree/estree`)](https://github.com/estree/estree) to represent JavaScript code as an Abstract Syntax Tree (AST). ESTree isn’t a parser itself – it’s a specification that defines how JavaScript code should be represented as a tree. This makes it possible for ESLint (and similar tools) to understand code in a consistent, structured way.
+ESLint relies on a standardized format called [ESTree (<FontIcon icon="iconfont icon-github"/>`estree/estree`)](https://github.com/estree/estree) to represent JavaScript code as an Abstract Syntax Tree (AST). ESTree isn’t a parser itself - it’s a specification that defines how JavaScript code should be represented as a tree. This makes it possible for ESLint (and similar tools) to understand code in a consistent, structured way.
 
 When you run ESLint on your code, here’s what’s happening under the hood:
 
@@ -262,7 +262,7 @@ This process is efficient and declarative, you don’t have to worry about manua
 
 ### 4. Rules Inspect Nodes and Report Problems
 
-Inside each rule, you receive the node ESLint has passed in. You can look at its properties – like name, value, or surrounding structure – and decide whether it violates your intended pattern.
+Inside each rule, you receive the node ESLint has passed in. You can look at its properties - like name, value, or surrounding structure - and decide whether it violates your intended pattern.
 
 If it does, you use `context.report()` to tell ESLint to flag it as an issue. ESLint can also fix the issue automatically if you provide a `fix()` function inside `context.report()`.
 

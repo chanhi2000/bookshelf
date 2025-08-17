@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728900397885/4c9f906
 
 Earlier this year, I became really interested in learning about Astro, so I completely rebuilt my blog using it. The results have been amazing since then: I can easily handle automatic sitemap generation and SEO, and integrating other tools became a breeze. Because of these benefits, I was inspired to publish an article every single week.
 
-Astro is incredible for content-driven websites – so much so that since then, I've been cracking a joke: it should be a crime to build a blog and documentation site with any frontend framework other than Astro.
+Astro is incredible for content-driven websites - so much so that since then, I've been cracking a joke: it should be a crime to build a blog and documentation site with any frontend framework other than Astro.
 
 Another notable thing I was able to do on my blog was build a callout component. This is the little tangential boxes you see on documentation sites and some advanced developer blogs.
 

@@ -90,7 +90,7 @@ Previously you would have had to write a closure to retrieve the name by hand, l
 let oldUserNames = users.map { $0.name }
 ```
 
-This same approach works elsewhere – anywhere where previously you would have received a value and passed back one of its properties, you can now use a key path instead. For example, this will return all users who can vote:
+This same approach works elsewhere - anywhere where previously you would have received a value and passed back one of its properties, you can now use a key path instead. For example, this will return all users who can vote:
 
 ```swift
 let voters = users.filter(\.canVote)

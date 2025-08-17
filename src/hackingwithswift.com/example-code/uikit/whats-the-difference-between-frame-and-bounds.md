@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-All `UIView` subclasses have two properties that at first glance seem similar: `frame` and `bounds`. Both return a `CGRect` – a rectangle containing their X and Y position, plus their width and height – but that doesn’t mean they are the *same*.
+All `UIView` subclasses have two properties that at first glance seem similar: `frame` and `bounds`. Both return a `CGRect` - a rectangle containing their X and Y position, plus their width and height - but that doesn’t mean they are the *same*.
 
 At its simplest, a view’s bounds refers to its coordinates relative to its own space (as if the rest of your view hierarchy didn’t exist), whereas its frame refers to its coordinates relative to its parent’s space.
 
@@ -67,7 +67,7 @@ This means a few things:
 
 1. If you create a view at X:0, Y:0, width:100, height:100, its `frame` and `bounds` are the same.
 2. If you move that view to X:100, its frame will reflect that change but its bounds will not. Remember, the bounds is relative to the view’s own space, and internally to the view nothing has changed.
-3. If you transform the view, e.g. rotating it or scaling it up, the frame will change to reflect that, but the bounds still won’t – as far as the view is concerned internally, it hasn’t changed.
+3. If you transform the view, e.g. rotating it or scaling it up, the frame will change to reflect that, but the bounds still won’t - as far as the view is concerned internally, it hasn’t changed.
 
 When you change the width or height of either `frame` or `bounds`, the other value is updated to match. Generally it’s better to modify `bounds` plus `center` and `transform`, and let UIKit calculate the `frame` for you.
 

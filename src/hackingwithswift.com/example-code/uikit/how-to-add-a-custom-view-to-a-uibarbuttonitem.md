@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Most `UIBarButtonItems` contain either an icon or some text, but they can do so much more – in fact, you can embed any kind of `UIView` subclass inside a bar button item, then put that button into a navigation bar or toolbar as you normally would.
+Most `UIBarButtonItems` contain either an icon or some text, but they can do so much more - in fact, you can embed any kind of `UIView` subclass inside a bar button item, then put that button into a navigation bar or toolbar as you normally would.
 
 For example, you can create a `UIProgressView` and place it into a bar button like this:
 

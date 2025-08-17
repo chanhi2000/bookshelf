@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -90,7 +90,7 @@ var livesImages = [SKSpriteNode]()
 var lives = 3
 ```
 
-That's all old news for you – if nothing else, this should show how far you've come! Now here are the two new methods:
+That's all old news for you - if nothing else, this should show how far you've come! Now here are the two new methods:
 
 ```swift
 func createScore() {
@@ -124,7 +124,7 @@ That leaves the `createSlices()` method, and this bit *is* new. In this game, sw
 2. Draw two slice shapes, one in white and one in yellow to make it look like there's a hot glow.
 3. Use the `zPosition` property to make sure the slices go above everything else in the game.
 
-Drawing a shape in SpriteKit is easy thanks to a special node type called `SKShapeNode`. This lets you define any kind of shape you can draw, along with line width, stroke color and more, and it will render it to the screen. We're going to draw two lines – one for a yellow glow, and one for a white glow in the middle of the yellow glow – so we're going to need two `SKShapeNode` properties:
+Drawing a shape in SpriteKit is easy thanks to a special node type called `SKShapeNode`. This lets you define any kind of shape you can draw, along with line width, stroke color and more, and it will render it to the screen. We're going to draw two lines - one for a yellow glow, and one for a white glow in the middle of the yellow glow - so we're going to need two `SKShapeNode` properties:
 
 ```swift
 var activeSliceBG: SKShapeNode!
@@ -152,5 +152,5 @@ func createSlices() {
 }
 ```
 
-Note that the background slice has a thicker line width than the foreground, and has a higher Z position than the background slice. I'm using Z positions 2 and 3 for the slice shapes, because I'll be using Z position 1 for bombs and Z position 0 for everything else – this ensures the slice shapes are on top, then bombs, then everything else.
+Note that the background slice has a thicker line width than the foreground, and has a higher Z position than the background slice. I'm using Z positions 2 and 3 for the slice shapes, because I'll be using Z position 1 for bombs and Z position 0 for everything else - this ensures the slice shapes are on top, then bombs, then everything else.
 

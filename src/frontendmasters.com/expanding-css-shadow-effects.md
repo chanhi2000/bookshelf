@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Expanding CSS Shadow Effects – Frontend Masters Blog"
-description: "Article(s) > Expanding CSS Shadow Effects – Frontend Masters Blog"
+title: "Expanding CSS Shadow Effects - Frontend Masters Blog"
+description: "Article(s) > Expanding CSS Shadow Effects - Frontend Masters Blog"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Expanding CSS Shadow Effects – Frontend Masters Blog"
+      content: "Article(s) > Expanding CSS Shadow Effects - Frontend Masters Blog"
     - property: og:description
-      content: "Expanding CSS Shadow Effects – Frontend Masters Blog"
+      content: "Expanding CSS Shadow Effects - Frontend Masters Blog"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/frontendmasters.com/expanding-css-shadow-effects.html
 prev: /programming/css/articles/README.md
@@ -44,7 +44,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 ---
 
 <SiteInfo
-  name="Expanding CSS Shadow Effects – Frontend Masters Blog"
+  name="Expanding CSS Shadow Effects - Frontend Masters Blog"
   desc="Shadows don't have to be used for... shadows. Inset shadows can layer over backgrounds and because they are animatable, it's just another tool for drawing what we want to the page."
   url="https://frontendmasters.com/blog/expanding-css-shadow-effects/"
   logo="https://frontendmasters.com/favicon.ico"
@@ -315,7 +315,7 @@ If you want to keep exploring shadow animations further, I recommend combining t
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Expanding CSS Shadow Effects – Frontend Masters Blog",
+  "title": "Expanding CSS Shadow Effects - Frontend Masters Blog",
   "desc": "Shadows don't have to be used for... shadows. Inset shadows can layer over backgrounds and because they are animatable, it's just another tool for drawing what we want to the page.",
   "link": "https://chanhi2000.github.io/bookshelf/frontendmasters.com/expanding-css-shadow-effects.html",
   "logo": "https://frontendmasters.com/favicon.ico",

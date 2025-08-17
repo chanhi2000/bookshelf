@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-If you've ever come across the error message "No 'ceil' candidates produce the expected contextual result type 'Int'" – which can happen with calls to `ceil()`, `floor()`, and `round()` – it's usually down to Swift being unable to satisfy type requirements you have asked for.
+If you've ever come across the error message "No 'ceil' candidates produce the expected contextual result type 'Int'" - which can happen with calls to `ceil()`, `floor()`, and `round()` - it's usually down to Swift being unable to satisfy type requirements you have asked for.
 
 Put simply, you might think calling `ceil()` rounds a floating-point number up to its nearest integer, but actually it doesn't return an integer at all: if you give it a `Float` it returns a `Float`, and if you give it a `Double` it returns a `Double`.
 

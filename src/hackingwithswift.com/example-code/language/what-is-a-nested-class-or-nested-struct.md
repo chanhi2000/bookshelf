@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Nested types – i.e. nested structs and nested classes – are a useful way of organizing your code, and perhaps even restricting what others can do with it. In essence, a nested type is just one data type defined inside another, like this:
+Nested types - i.e. nested structs and nested classes - are a useful way of organizing your code, and perhaps even restricting what others can do with it. In essence, a nested type is just one data type defined inside another, like this:
 
 ```swift
 struct Deck {
@@ -71,9 +71,9 @@ struct Deck {
 
 Now rather than creating a new `Card` struct you would instead create a new `Deck.Card` because one is inside the other.
 
-This approach is useful for organizing larger applications, because you might need custom types that are applicable only in certain places – exposing them elsewhere might cause problems.
+This approach is useful for organizing larger applications, because you might need custom types that are applicable only in certain places - exposing them elsewhere might cause problems.
 
-If you want to re-enforce this, Swift lets you mark the inner type (`Card` above) as being private, which means it can only be used inside the `Deck` class – code from outside `Deck` can’t even see it.
+If you want to re-enforce this, Swift lets you mark the inner type (`Card` above) as being private, which means it can only be used inside the `Deck` class - code from outside `Deck` can’t even see it.
 
 -->
 

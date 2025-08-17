@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Create a Minimal API in .NET Core – A Step By Step Handbook"
-description: "Article(s) > How to Create a Minimal API in .NET Core – A Step By Step Handbook"
+title: "How to Create a Minimal API in .NET Core - A Step By Step Handbook"
+description: "Article(s) > How to Create a Minimal API in .NET Core - A Step By Step Handbook"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Create a Minimal API in .NET Core – A Step By Step Handbook"
+      content: "Article(s) > How to Create a Minimal API in .NET Core - A Step By Step Handbook"
     - property: og:description
-      content: "How to Create a Minimal API in .NET Core – A Step By Step Handbook"
+      content: "How to Create a Minimal API in .NET Core - A Step By Step Handbook"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook.html
 prev: /programming/cs/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733158500882/9af04a1
 ---
 
 <SiteInfo
-  name="How to Create a Minimal API in .NET Core – A Step By Step Handbook"
+  name="How to Create a Minimal API in .NET Core - A Step By Step Handbook"
   desc="Minimal APIs are an exciting feature introduced in .NET 6, designed to revolutionize how you create APIs. Imagine building robust APIs with minimal code and zero boilerplate—no more wrestling with controllers, routing, or middleware. That’s what mini..."
   url="https://freecodecamp.org/news/create-a-minimal-api-in-net-core-handbook"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -62,7 +62,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "Introduction to Minimal APIs",
-  "desc": "(1/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(1/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/introduction-to-minimal-apis.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -72,7 +72,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create a Minimal API",
-  "desc": "(2/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(2/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-a-minimal-api.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -82,7 +82,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "HTTP Methods in Controller-based and Minimal APIs",
-  "desc": "(3/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(3/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/http-methods-in-controller-based-and-minimal-apis.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -92,7 +92,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "Minimal API Project Files",
-  "desc": "(4/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(4/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/minimal-api-project-files.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -102,7 +102,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create the Models",
-  "desc": "(5/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(5/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-the-models.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -112,7 +112,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create the Database Context",
-  "desc": "(6/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(6/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-the-database-context.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -122,7 +122,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create a Contract",
-  "desc": "(7/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(7/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-a-contract.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -132,7 +132,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Add Services",
-  "desc": "(8/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(8/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-add-services.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -142,7 +142,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create Exceptions",
-  "desc": "(9/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(9/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-exceptions.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -152,7 +152,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Create the API Endpoints",
-  "desc": "(10/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(10/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-create-the-api-endpoints.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -162,7 +162,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Add Seed Data to the Database",
-  "desc": "(11/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(11/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-add-seed-data-to-the-database.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -172,7 +172,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Perform a Migration",
-  "desc": "(12/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(12/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-perform-a-migration.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -182,7 +182,7 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 ```component VPCard
 {
   "title": "How to Test the API Endpoints",
-  "desc": "(13/13) How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "desc": "(13/13) How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "link": "/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-test-the-api-endpoints.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -205,7 +205,7 @@ We’ll use Swagger UI to test our API. Swagger UI is a powerful tool that allow
 
 When you create a new project, it will automatically install the necessary packages and configure the project to use Swagger UI. .NET 8 includes Swagger UI by default, so whether you create your application in Visual Studio or with .NET, Swagger UI will be configured for you.
 
-Run your application, and the Swagger UI will automatically open in your browser – but since we are using VS Code, we need to click on the port number on our terminal.
+Run your application, and the Swagger UI will automatically open in your browser - but since we are using VS Code, we need to click on the port number on our terminal.
 
 You can find the source code for this project on [GitHub (<FontIcon icon="iconfont icon-github"/>`Clifftech123/bookapi-minimal`)](https://github.com/Clifftech123/bookapi-minimal).
 
@@ -235,7 +235,7 @@ Feel free to connect with me on social media:
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Create a Minimal API in .NET Core – A Step By Step Handbook",
+  "title": "How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "desc": "Minimal APIs are an exciting feature introduced in .NET 6, designed to revolutionize how you create APIs. Imagine building robust APIs with minimal code and zero boilerplate—no more wrestling with controllers, routing, or middleware. That’s what mini...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

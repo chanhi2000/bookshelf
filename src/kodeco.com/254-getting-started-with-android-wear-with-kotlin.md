@@ -66,7 +66,7 @@ In this Android Wear tutorial we’ll cover the basics of developing for Android
 
 ## A Brief History of Android Wear
 
-Google officially announced Android Wear in the spring of 2014. Quickly after that, LG and Samsung released the first two Wear watches – the LG G watch and the Samsung Gear Live. Lots of updates ensued, and in the summer of 2015 Google decided to spread the love and released the Android Wear app on iOS. This allowed iPhone users to pair Android Wear watches with their phones. This gives you, our soon-to-be expert Wear app maker, twice the potential audience!
+Google officially announced Android Wear in the spring of 2014. Quickly after that, LG and Samsung released the first two Wear watches - the LG G watch and the Samsung Gear Live. Lots of updates ensued, and in the summer of 2015 Google decided to spread the love and released the Android Wear app on iOS. This allowed iPhone users to pair Android Wear watches with their phones. This gives you, our soon-to-be expert Wear app maker, twice the potential audience!
 
 The latest update in our Wear saga came in February of 2017, when Google announced Wear 2.0. This update, among other things, has paved the way for **standalone** Wear apps. _Standalone_ Wear apps are watch apps without a companion app on the phone. It also introduced a dedicated Wear app store on the watch to find new apps. Nice!
 
@@ -112,7 +112,7 @@ Scroll down to the <FontIcon icon="iconfont icon-select"/>`[Debugging over Bluet
 
 ![Android Wear companion app settings](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-01-130642-480x256.png)
 
-But don’t you worry – they won’t stay disconnected for long! Open a terminal and enter the command
+But don’t you worry - they won’t stay disconnected for long! Open a terminal and enter the command
 
 ```sh
 adb forward tcp:4444 localabstract:/adb-hub
@@ -126,7 +126,7 @@ adb connect 127.0.0.1:4444
 
 Accept the adb-debugging prompt on your phone and you’re good to go! At this point the Android Wear app on your phone should have changed to connected for both host and target.
 
-This process can be a bit thorny – if you run into any problems, you can [check out the official documentation](https://developer.android.com/training/wearables/apps/debugging.html#enable-dev-options).
+This process can be a bit thorny - if you run into any problems, you can [check out the official documentation](https://developer.android.com/training/wearables/apps/debugging.html#enable-dev-options).
 
 ---
 
@@ -140,7 +140,7 @@ If you see a message to update the project’s Gradle plugin since you’re usin
 
 Wait for the Gradle sync to complete.
 
-On the top left hand side of Android Studio, make sure the Android dropdown is selected – this will give you a nice view of the project structure.
+On the top left hand side of Android Studio, make sure the Android dropdown is selected - this will give you a nice view of the project structure.
 
 ![Project structure](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-01-at-4.43.39-PM-258x320.png)
 
@@ -149,19 +149,19 @@ You can see two modules now:
 - The `mobile` module, which is where the phone app code lives.
 - A new `wear` module which is where the Wear app code lives.
 
-The code is pretty basic right now – there’s a few helper files in place to show a list of recipes on the phone app, but that’s about it. Don’t worry, you’ll change that soon.
+The code is pretty basic right now - there’s a few helper files in place to show a list of recipes on the phone app, but that’s about it. Don’t worry, you’ll change that soon.
 
 Run the mobile app. You may need to make sure the `mobile` configuration is set in the configuration dropdown. You should see a screen similar to this on your phone:
 
 ![Mobile app](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-01-165658-180x320.png)
 
-Nothing too crazy going on here – just a simple list of Recipes. (You can tell by the list that I’m an expert chef! Just kidding, I recently burned a can of soup. Turns out you need to take the soup out of the can. Who knew!)
+Nothing too crazy going on here - just a simple list of Recipes. (You can tell by the list that I’m an expert chef! Just kidding, I recently burned a can of soup. Turns out you need to take the soup out of the can. Who knew!)
 
 Next you’ll run the Wear app. To point Android Studio towards the Wear module, you need to change the <FontIcon icon="iconfont icon-select"/>`[run configuration]` from mobile to Wear. Click the <FontIcon icon="iconfont icon-select"/>`[run configuration]` dropdown next to the run button. It should say “mobile” right now. Click the Wear option to change to the Wear configuration:
 
 ![Configurations](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-01-at-5.10.41-PM.png)
 
-Now that we’re using the Wear run configuration, click the run button and and select your Wear device – you should see a screen similar to this:
+Now that we’re using the Wear run configuration, click the run button and and select your Wear device - you should see a screen similar to this:
 
 ![Hello world app](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-01-171441.png)
 
@@ -195,7 +195,7 @@ Luckily, there’s a handy dandy support widget you can use to work around the c
 
 ### Using the `BoxInsetLayout` Widget
 
-The `BoxInsetLayout` is a top-level widget that can box its children into a square that will fit inside a round screen. If your code is running on a square screen it will have no affect. You can define which sides to box in by using the `app:boxedEdges` attribute on a direct child of the `BoxInsetLayout`. The possible values are `left`, `right`, `top`, `bottom`, and `all`. You can combine different values too – so `app:boxedEdges:"left|top|bottom"` is totally legal.
+The `BoxInsetLayout` is a top-level widget that can box its children into a square that will fit inside a round screen. If your code is running on a square screen it will have no affect. You can define which sides to box in by using the `app:boxedEdges` attribute on a direct child of the `BoxInsetLayout`. The possible values are `left`, `right`, `top`, `bottom`, and `all`. You can combine different values too - so `app:boxedEdges:"left|top|bottom"` is totally legal.
 
 Now that you’ve got the idea down, open the <FontIcon icon="fas fa-folder-open"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
 
@@ -222,7 +222,7 @@ Now that you’ve got the idea down, open the <FontIcon icon="fas fa-folder-open
 Here’s what’s happening in this new layout:
 
 - The top level layout is now a `BoxInsetLayout`
-- The `BoxInsetLayout` has one child – a `LinearLayout`
+- The `BoxInsetLayout` has one child - a `LinearLayout`
 - That `LinearLayout` has the `app:boxedEdges="all"` layout attribute, meaning that this view will be boxed in on all sides.
 
 ::: tip Note
@@ -287,7 +287,7 @@ Replace the contents of the <FontIcon icon="fas fa-file-lines"/>`wear/res/layout
 </android.support.wear.widget.BoxInsetLayout>
 ```
 
-Nothing too crazy going on here – you added 3 new `TextView` that will contain the recipes title, calories and ingredients. You’ll update them soon, so don’t worry about the placeholder values.
+Nothing too crazy going on here - you added 3 new `TextView` that will contain the recipes title, calories and ingredients. You’ll update them soon, so don’t worry about the placeholder values.
 
 ![Run the watch app now so that you should see a screen like this](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-02-174553.png)
 
@@ -315,7 +315,7 @@ Click <FontIcon icon="iconfont icon-select"/>`[Finish]`.
 
 Gradle will run a sync and if you’ve done the right Gradle dance it will succeed!
 
-However, we now have a Java library. Not a Kotlin library. And let’s be serious – who uses Java anymore?
+However, we now have a Java library. Not a Kotlin library. And let’s be serious - who uses Java anymore?
 
 ![Navigate to `[Gradle Scripts/build.gradle]` for the `shared` module](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-31-38.png)
 
@@ -390,7 +390,7 @@ This recipe app is really **HEATING** up! Because you cook with heat. And the ap
 
 ### Adding the Meal Class
 
-Your shared library contains one class – a `Meal` model written in Java. However, your mobile module actually already contains an even **better** meal class written in Kotlin. That’s the model that you want to share 
+Your shared library contains one class - a `Meal` model written in Java. However, your mobile module actually already contains an even **better** meal class written in Kotlin. That’s the model that you want to share 
 
 ![so go ahead and delete the java `Meal` class in your shared library](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-26-13.png)
 
@@ -449,7 +449,7 @@ class MealListActivity : AppCompatActivity(),
 ```
 
 When you connect to the `GoogleApiClient`, the `ConnectionCallbacks` will provide you with a callback to store your nodes.
-Now, you need to implement two methods – `onConnected` and `onConnectionSuspended`. Add the following below your `onCreate` method:
+Now, you need to implement two methods - `onConnected` and `onConnectionSuspended`. Add the following below your `onCreate` method:
 
 ```kotlin
 override fun onConnected(bundle: Bundle?) {
@@ -493,7 +493,7 @@ override fun mealClicked(meal: Meal) {
 
 This method uses `Gson` to serialize your meal. It then uses the `MessageApi.sendMessage` method to send the meal to your watch. The `String` can be used to filter messages on the receiving side. You can ignore it for this tutorial.
 
-Alright – onto the watch!
+Alright - onto the watch!
 
 ### Listening for Messages
 
@@ -545,7 +545,7 @@ private fun updateView() {
 }
 ```
 
-The `updateView()` method is pretty simple – it looks at the current `Meal` and updates your view accordingly.
+The `updateView()` method is pretty simple - it looks at the current `Meal` and updates your view accordingly.
 
 The `onConnectionSuspended` method isn’t doing too much. You don’t have anything to clear out when the connection ends.
 
@@ -610,7 +610,7 @@ private fun sendLike() {
 }
 ```
 
-Here’s the breakdown of the new method: First it creates a copy of your meal with the favorited flag set to `true`. Then it serializes that new copy into a `ByteArray`. Next it creates a `PutDataRequest`. You can think of a `PutDataRequest` as the **DataApi** version of a **Message**. Why didn’t they call it something like…**DataItem**? Again – that’d be too easy. Finally, the method sends that request on the `/liked` path with the `ByteArray` attached as the data.
+Here’s the breakdown of the new method: First it creates a copy of your meal with the favorited flag set to `true`. Then it serializes that new copy into a `ByteArray`. Next it creates a `PutDataRequest`. You can think of a `PutDataRequest` as the **DataApi** version of a **Message**. Why didn’t they call it something like…**DataItem**? Again - that’d be too easy. Finally, the method sends that request on the `/liked` path with the `ByteArray` attached as the data.
 
 You may also notice the `setUrgent` call. You can toggle that option to gently encourage the system to deliver the `PutDataRequest` as fast as possible.
 
@@ -643,7 +643,7 @@ Do a few more rain dances and run the mobile app and the Wear app.
 
 Send one of the recipes to the watch again by tapping a recipe list item.
 
-Once the recipe makes it to the watch, tap the star. If everything went well, you should see a black star appear next to that list item on the phone – like so:
+Once the recipe makes it to the watch, tap the star. If everything went well, you should see a black star appear next to that list item on the phone - like so:
 
 ![starred receipe](https://koenig-media.raywenderlich.com/uploads/2017/12/Capture-d%E2%80%99e%CC%81cran-2017-12-08-a%CC%80-14.54.22-650x270.png)
 

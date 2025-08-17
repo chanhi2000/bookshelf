@@ -59,7 +59,7 @@ SwiftUI gives us both `stroke()` and `strokeBorder()` modifiers for drawing bord
 
 ::: important
 
-Both of these modifiers only apply to shapes – you can use `stroke()` and `strokeBorder()` with `Circle`, `Rectangle`, `Capsule`, and so on, but not with `Text`, `Image` or other non-shape views. If you want to draw a border around non-shape views, you should use the `border()` modifier instead – see “[How to draw a border around a view](/hackingwithswift.com/swiftui/how-to-draw-a-border-around-a-view.md)”.
+Both of these modifiers only apply to shapes - you can use `stroke()` and `strokeBorder()` with `Circle`, `Rectangle`, `Capsule`, and so on, but not with `Text`, `Image` or other non-shape views. If you want to draw a border around non-shape views, you should use the `border()` modifier instead - see “[How to draw a border around a view](/hackingwithswift.com/swiftui/how-to-draw-a-border-around-a-view.md)”.
 
 :::
 

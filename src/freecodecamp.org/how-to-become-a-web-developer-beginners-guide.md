@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Become a Web Developer – a Beginner's Guide"
-description: "Article(s) > How to Become a Web Developer – a Beginner's Guide"
+title: "How to Become a Web Developer - a Beginner's Guide"
+description: "Article(s) > How to Become a Web Developer - a Beginner's Guide"
 icon: fas fa-user-tie
 category: 
   - Career
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Become a Web Developer – a Beginner's Guide"
+      content: "Article(s) > How to Become a Web Developer - a Beginner's Guide"
     - property: og:description
-      content: "How to Become a Web Developer – a Beginner's Guide"
+      content: "How to Become a Web Developer - a Beginner's Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-a-web-developer-beginners-guide.html
 prev: /projects/career/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/505eectW54k/up
 ---
 
 <SiteInfo
-  name="How to Become a Web Developer – a Beginner's Guide"
+  name="How to Become a Web Developer - a Beginner's Guide"
   desc="Are you considering a career in web development? If so, then you are making an excellent choice. Web Development is one of the most in-demand skills in the market in 2024. With over 5.038 billion Internet users, web development has a promising future..."
   url="https://freecodecamp.org/news/how-to-become-a-web-developer-beginners-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -90,7 +90,7 @@ In the next two sections, I will show how you can start with frontend and backen
 
 ## Frontend Development
 
-As I mentioned above, frontend development is mainly concerned with the UI – that is, the appearance of the website. To get started with frontend development, you’ll need to learn the following three essentials tools:
+As I mentioned above, frontend development is mainly concerned with the UI - that is, the appearance of the website. To get started with frontend development, you’ll need to learn the following three essentials tools:
 
 ### HTML
 
@@ -127,7 +127,7 @@ CSS styling includes the following:
 - Spacing, that is margins and paddings
 - Transitions and Animations (Advanced stuff)
 
-As you continue on in the freeCodeCamp curriculum, you’ll learn CSS as well – so that’s a great way to go.
+As you continue on in the freeCodeCamp curriculum, you’ll learn CSS as well - so that’s a great way to go.
 
 You can also refer to [<FontIcon icon="fas fa-globe"/>w3schools.com](https://w3schools.com/css/default.asp) for CSS Tutorials. Play around with each CSS property in their interactive editors.
 
@@ -139,7 +139,7 @@ HTML and CSS are NOT programming languages.
 
 ### JavaScript
 
-HTML and CSS are only able to create static websites – that is, you cannot interact with any of the elements on a web page created with just HTML and CSS. The website does not update or respond to any user interactions like button clicks or dropdown selections.
+HTML and CSS are only able to create static websites - that is, you cannot interact with any of the elements on a web page created with just HTML and CSS. The website does not update or respond to any user interactions like button clicks or dropdown selections.
 
 JavaScript (JS) is a programming language that makes a website dynamic and interactive. It adds the following functionalities to a website:
 
@@ -175,7 +175,7 @@ To address these issues, you can use frameworks and libraries. Frameworks provid
 
 By using frameworks, you can focus on building actual features rather than handling the complexities of JavaScript code, which helps you speed up the development process. So I suggest picking up one JS framework/library to develop bigger projects.
 
-#### React.js – a good option
+#### React.js - a good option
 
 React JS is a JavaScript library that makes it easy to create dynamic and interactive web pages. It divides your code into components, making it easy to read and maintain. This reduces code complexity and allows reusability.
 
@@ -248,7 +248,7 @@ Refer to the following resources for learning Python:
 - [Ultimate Python Beginner’s Course](/freecodecamp.org/ultimate-beginners-python-course.md) on freeCodeCamp’s YouTube channel
 - [<FontIcon icon="fas fa-globe"/>GeeksforGeeks](https://geeksforgeeks.org/python-programming-language-tutorial/) Python Tutorial
 - [<FontIcon icon="fa-brands fa-youtube"/>Python Tutorial for Beginners on YouTube](https://youtu.be/vLqTf2b6GZw) (Hindi)
-- [<FontIcon icon="fa-brands fa-free-code-camp"/>Machine Learning with Python](https://freecodecamp.org/learn/machine-learning-with-python/) – freeCodeCamp certification
+- [<FontIcon icon="fa-brands fa-free-code-camp"/>Machine Learning with Python](https://freecodecamp.org/learn/machine-learning-with-python/) - freeCodeCamp certification
 
 ### Golang
 
@@ -260,9 +260,9 @@ Go is growing in popularity because of its efficiency, and many companies are ad
 
 Go offers plenty of resources and a growing community for beginners. To get started with Go, refer to the following resources:
 
-- [<FontIcon icon="fa-brands fa-golang"/>Tour of Go](https://go.dev/tour/welcome/1) – Interactive Learning with basic Golang concepts
+- [<FontIcon icon="fa-brands fa-golang"/>Tour of Go](https://go.dev/tour/welcome/1) - Interactive Learning with basic Golang concepts
 - [Golang Handbook](/freecodecamp.org/go-beginners-handbook/README.md) from Flavio Copes
-- [<FontIcon icon="fa-brands fa-golang"/>Go Docs](https://go.dev/doc/) – Very detailed
+- [<FontIcon icon="fa-brands fa-golang"/>Go Docs](https://go.dev/doc/) - Very detailed
 
 ### Java
 
@@ -319,9 +319,9 @@ Programming languages alone are not enough to create robust and secure applicati
 
 Depending on your language of choice, you can learn the following frameworks:
 
-- [<FontIcon icon="fa-brands fa-firefox"/>Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) and [<FontIcon icon="fas fa-globe"/>Flask](https://geeksforgeeks.org/python-introduction-to-web-development-using-flask/) – Python Based Frameworks
+- [<FontIcon icon="fa-brands fa-firefox"/>Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) and [<FontIcon icon="fas fa-globe"/>Flask](https://geeksforgeeks.org/python-introduction-to-web-development-using-flask/) - Python Based Frameworks
 - [<FontIcon icon="iconfont icon-spring"/>Java Spring Boot](https://spring.io/projects/spring-boot)
-- [<FontIcon icon="fas fa-globe"/>Gin](https://gin-gonic.com/docs/introduction/) – Golang framework (You can create a simple Golang application without using a framework)
+- [<FontIcon icon="fas fa-globe"/>Gin](https://gin-gonic.com/docs/introduction/) - Golang framework (You can create a simple Golang application without using a framework)
 
 Read more about them if you are interested.
 
@@ -347,7 +347,7 @@ Refer to the following resources to learn SQL:
 
 - [Full handbook on SQL](/freecodecamp.org/a-beginners-guide-to-sql/README.md)
 - [<FontIcon icon="fas fa-globe"/>w3schools.com](https://w3schools.com/sql/)
-- [<FontIcon icon="fas fa-globe"/>GeeksforGeeks](https://geeksforgeeks.org/sql-tutorial/) – Great resource to learn about database concepts
+- [<FontIcon icon="fas fa-globe"/>GeeksforGeeks](https://geeksforgeeks.org/sql-tutorial/) - Great resource to learn about database concepts
 
 Once you are familiar with basic SQL syntax and are able to write queries, explore [<FontIcon icon="fas fa-globe"/>DBMS (DataBase Management System)](https://geeksforgeeks.org/dbms/) concepts. These help you understand how databases are designed, managed, and optimised.
 
@@ -398,7 +398,7 @@ Consider the following project ideas:
 - Todo App
 - E-Commerce App
 - Personal Portfolio website
-- Weather App – Use a public API and create a simple UI
+- Weather App - Use a public API and create a simple UI
 - Expense Tracker
 
 You can research more about these ideas and start with some basic features that come to mind. Build either the frontend, the backend, or both, depending on your goals. Share your projects on GitHub to increase their visibility.
@@ -465,7 +465,7 @@ Connect with me on Twitter for more updates and discussions. If you have any que
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Become a Web Developer – a Beginner's Guide",
+  "title": "How to Become a Web Developer - a Beginner's Guide",
   "desc": "Are you considering a career in web development? If so, then you are making an excellent choice. Web Development is one of the most in-demand skills in the market in 2024. With over 5.038 billion Internet users, web development has a promising future...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-a-web-developer-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

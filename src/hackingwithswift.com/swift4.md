@@ -45,7 +45,7 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "What's new in Swift 4.0 – Hacking with Swift",
+  "title": "What's new in Swift 4.0 - Hacking with Swift",
   "desc": "Hands-on code examples to help you learn what's new in Swift 4: new encoding and decoding, smarter keypaths, multi-line strings, and more!",
   "link": "https://hackingwithswift.com/swift4",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -59,7 +59,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in iOS 11 for developers – Hacking with Swift",
+  "title": "What's new in iOS 11 for developers - Hacking with Swift",
   "desc": "What's new in iOS 11 for developers",
   "link": "https://hackingwithswift.com/whats-new-in-ios-11",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -69,7 +69,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.1 – Hacking with Swift",
+  "title": "What's new in Swift 3.1 - Hacking with Swift",
   "desc": "What's new in Swift 3.1",
   "link": "https://hackingwithswift.com/swift3-1",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -79,7 +79,7 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "What's new in Swift 3.0 – Hacking with Swift",
+  "title": "What's new in Swift 3.0 - Hacking with Swift",
   "desc": "What's new in Swift 3.0",
   "link": "https://hackingwithswift.com/swift3",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -89,8 +89,8 @@ If you liked this article, you might also enjoy these:
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -101,9 +101,9 @@ If you liked this article, you might also enjoy these:
 
 ## Swifty encoding and decoding
 
-We know value types are great, but we also know they interact terribly with Objective-C APIs such as `NSCoding` – you either need to write a shim layer or give in and use classes, both of which are unpleasant. Worse, even if you give in and switch to classes, you still need to write your encoding and decoding methods by hand, which is painful and error-prone.
+We know value types are great, but we also know they interact terribly with Objective-C APIs such as `NSCoding` - you either need to write a shim layer or give in and use classes, both of which are unpleasant. Worse, even if you give in and switch to classes, you still need to write your encoding and decoding methods by hand, which is painful and error-prone.
 
-Swift 4 introduces a new `Codable` protocol that lets you serialize and deserialize custom data types without writing any special code – and without having to worry about losing your value types. Even better, you can choose how you want the data to be serialized: you can use classic property list format or even JSON.
+Swift 4 introduces a new `Codable` protocol that lets you serialize and deserialize custom data types without writing any special code - and without having to worry about losing your value types. Even better, you can choose how you want the data to be serialized: you can use classic property list format or even JSON.
 
 **Yes, you read all that correctly: Swift 4 lets you serialize your custom data types to JSON without writing any special code.**
 
@@ -129,7 +129,7 @@ if let encoded = try? encoder.encode(swift) {
 }
 ```
 
-Swift will automatically encode all properties inside your data type – you don't need to do anything.
+Swift will automatically encode all properties inside your data type - you don't need to do anything.
 
 Now, if you're like me and have a long history of using `NSCoding`, you're probably somewhat doubtful: is that really all it takes, and how can we be sure it's working? Well, let's add some more code to try converting the `Data` object into a string so we can print it out, then decode it back into a new `Language` instance that we can read from:
 
@@ -146,7 +146,7 @@ if let encoded = try? encoder.encode(swift) {
 }
 ```
 
-Notice how decoding doesn't require a typecast – you provide the data type name as its first parameter, so Swift infers the return type from there.
+Notice how decoding doesn't require a typecast - you provide the data type name as its first parameter, so Swift infers the return type from there.
 
 Both `JSONEncoder` and its property list counterpart `PropertyListEncoder` have lots of options for customizing how they work: do you want compact JSON or pretty-printed JSON? Do you want to use ISO8601 dates or Unix epoch dates? Do you want to use binary property lists or XML? For more information on these and other options, see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0167-swift-encoders.md).
 
@@ -173,7 +173,7 @@ freely inside your strings, which is great!
 """
 ```
 
-That creates a new string with several line breaks right there in the definition – much easier to read *and* write.
+That creates a new string with several line breaks right there in the definition - much easier to read *and* write.
 
 For more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0168-multi-line-string-literals.md).
 
@@ -181,7 +181,7 @@ For more information see [the Swift Evolution proposal for this new feature (<Fo
 
 ## Improved keypaths for key-value coding
 
-One of the most loved features of Objective-C is its ability to reference a property dynamically rather than directly – that is, to be able to say "given object X, here is the property I'd like to read" without actually reading it. These references, called *keypaths*, are distinct from direct property accesses because they don't actually read or write the value, they just stash it away for use later on.
+One of the most loved features of Objective-C is its ability to reference a property dynamically rather than directly - that is, to be able to say "given object X, here is the property I'd like to read" without actually reading it. These references, called *keypaths*, are distinct from direct property accesses because they don't actually read or write the value, they just stash it away for use later on.
 
 If you've never used keypaths before, let me show you an analogy of how they work using regular Swift methods. We're going to define a struct called `Starship` and a struct called `Crew`, then create one instance of each:
 
@@ -214,7 +214,7 @@ let enterWarp = voyager.goToMaximumWarp
 enterWarp()
 ```
 
-Because functions are first-class types in Swift, the last two lines are able to create a reference to the `goToMaximumWarp()` method called `enterWarp`, then call that later on whenever we want to. The problem is, you can't do the same thing for properties – you can't say "create a reference to the captain's name property that I can check when the inevitable mutiny happens," because Swift will just read the property directly and you'll just get its original value.
+Because functions are first-class types in Swift, the last two lines are able to create a reference to the `goToMaximumWarp()` method called `enterWarp`, then call that later on whenever we want to. The problem is, you can't do the same thing for properties - you can't say "create a reference to the captain's name property that I can check when the inevitable mutiny happens," because Swift will just read the property directly and you'll just get its original value.
 
 This is fixed with keypaths: they are *uninvoked references to properties* just like our `enterWarp()` code. If you invoke the reference now you get the current value, but if you invoke the reference later you get the latest value. You can dig through any number of properties, and Swift uses its type inference to ensure you get the correct type back.
 
@@ -232,13 +232,13 @@ let starshipCaptain = voyager[keyPath: captainName]
 
 That will make `starshipName` a string and `starshipMaxWarp` a double, because Swift is able to infer the types correctly. The third example there even goes into the property of a property, and Swift still figures it out correctly.
 
-Future plans for this include being able to access array indexes and to create keypaths from strings at runtime – for more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0161-key-paths.md).
+Future plans for this include being able to access array indexes and to create keypaths from strings at runtime - for more information see [the Swift Evolution proposal for this new feature (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0161-key-paths.md).
 
 ---
 
 ## Intermission
 
-If you're enjoying this article, you might like my free Natural Swift video. It gives you 75 minutes of hands-on coding that teaches functional programming, protocol-oriented programming, and value types, and **you can download it for free with no obligation or catches** – [<FontIcon icon="fas fa-globe"/>just click here](https://gumroad.com/l/natural-swift).
+If you're enjoying this article, you might like my free Natural Swift video. It gives you 75 minutes of hands-on coding that teaches functional programming, protocol-oriented programming, and value types, and **you can download it for free with no obligation or catches** - [<FontIcon icon="fas fa-globe"/>just click here](https://gumroad.com/l/natural-swift).
 
 And now back to your regularly scheduled broadcast…
 
@@ -314,7 +314,7 @@ Now, any experienced developer will probably argue that's better written using n
 let name = person["name"] ?? "Anonymous"
 ```
 
-However, that doesn't work when you're *modifying* the dictionary value rather than just reading it. You can't modify a dictionary value in place because accessing its key returns an optional – the key might not exist, after all. With Swift 4's default dictionary values you can write much more succinct code, such as this:
+However, that doesn't work when you're *modifying* the dictionary value rather than just reading it. You can't modify a dictionary value in place because accessing its key returns an optional - the key might not exist, after all. With Swift 4's default dictionary values you can write much more succinct code, such as this:
 
 ```swift
 var favoriteTVShows = ["Red Dwarf", "Blackadder", "Fawlty Towers", "Red Dwarf"]
@@ -372,7 +372,7 @@ For more information see [the Swift Evolution proposal for this new feature (<Fo
 
 The first release of Xcode that ships with Swift 4 is likely to arrive in June, presumably along with iOS 11, tvOS 11, watchOS 4, and macOS Somewhere Else In California. What we've seen so far is already promising, particularly because it's clear the team is working hard to make Swift 4 as additive as possible. Primarily adding new features rather than breaking or modifying existing ones should make it easier to upgrade to, and hopefully signals the start of a new stability for the language.
 
-Although the Swift Evolution can be chaotic sometimes (access levels, anyone?), Swift 4 validates Apple's community approach once again. I've linked to several Swift Evolution proposals above, each of which were discussed extensively by the community to help reach consensus – this isn't just Apple engineers forcing through changes because they can, but instead is a sensible, considered approach to refining what is already a smart and elegant language.
+Although the Swift Evolution can be chaotic sometimes (access levels, anyone?), Swift 4 validates Apple's community approach once again. I've linked to several Swift Evolution proposals above, each of which were discussed extensively by the community to help reach consensus - this isn't just Apple engineers forcing through changes because they can, but instead is a sensible, considered approach to refining what is already a smart and elegant language.
 
-One feature that was postponed was [ABI compatibility (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/ABIStabilityManifesto.md), which would allow developers to distribute compiled libraries – one of the few key missing features that remain in Swift today. Hopefully we'll get it before Swift 5…
+One feature that was postponed was [ABI compatibility (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/master/docs/ABIStabilityManifesto.md), which would allow developers to distribute compiled libraries - one of the few key missing features that remain in Swift today. Hopefully we'll get it before Swift 5…
 

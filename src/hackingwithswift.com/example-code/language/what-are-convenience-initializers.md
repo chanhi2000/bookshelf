@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ class Polygon {
 }
 ```
 
-Now, if that were just a struct you could go ahead and add other initializers. But as it’s a *class* – where the rules for initialization are quite complex – you could add a convenience initializer that sets up squares of a specific length, like this:
+Now, if that were just a struct you could go ahead and add other initializers. But as it’s a *class* - where the rules for initialization are quite complex - you could add a convenience initializer that sets up squares of a specific length, like this:
 
 ```swift
 convenience init(squareWithLength length: CGFloat) {
@@ -88,7 +88,7 @@ convenience init(squareWithLength length: CGFloat) {
 }
 ```
 
-Note how the convenience initializer ends by calling the designated initializer – this is a requirement, and means that your convenience initializers are only responsible for setting up the parts that are unique to them rather than doing everything.
+Note how the convenience initializer ends by calling the designated initializer - this is a requirement, and means that your convenience initializers are only responsible for setting up the parts that are unique to them rather than doing everything.
 
 -->
 

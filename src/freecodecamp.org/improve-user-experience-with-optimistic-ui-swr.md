@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/07/Article-c
 
 <SiteInfo
   name="How to Improve User Experience with Optimistic UI and SWR"
-  desc="Have you ever noticed how some apps feel like they can read your mind? You click a button, and before you can even blink, it's done – no loading screens, no waiting around. It's like magic, right? Well, let me tell you a little secret: that's the power of Optimistic..."
+  desc="Have you ever noticed how some apps feel like they can read your mind? You click a button, and before you can even blink, it's done - no loading screens, no waiting around. It's like magic, right? Well, let me tell you a little secret: that's the power of Optimistic..."
   url="https://freecodecamp.org/news/improve-user-experience-with-optimistic-ui-swr/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2024/07/Article-cover.png"/>

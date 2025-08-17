@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ print(locale.regionCode)
 
 Now, there is a catch, but this is actually a bonus feature in my eyes: if a user travels abroad, their device will still be configured for their home country, so an American visiting France will still say "US".
 
-Yes, that means you can't use it for location information, but actually it works out better for a lot of apps – for example, why would an American want to see distances in meters rather than miles just because they are traveling?
+Yes, that means you can't use it for location information, but actually it works out better for a lot of apps - for example, why would an American want to see distances in meters rather than miles just because they are traveling?
 
 -->
 

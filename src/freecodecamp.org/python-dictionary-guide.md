@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
-description: "Article(s) > Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
+title: "Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
+description: "Article(s) > Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
+      content: "Article(s) > Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
     - property: og:description
-      content: "Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
+      content: "Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-dictionary-guide.html
 prev: /programming/py/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2020/10/thumb.png
 ---
 
 <SiteInfo
-  name="Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
+  name="Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
   desc="By Florian Dedov Python is a popular language for data science. And working with collections is one of the most fundamental skills you need to have.  Collections are data structures that contain multiple elements of various different data types.  Tod..."
   url="https://freecodecamp.org/news/python-dictionary-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -281,7 +281,7 @@ I hope you enjoyed this article and I wish you a great day!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Python Dictionary Guide – How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9",
+  "title": "Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9",
   "desc": "By Florian Dedov Python is a popular language for data science. And working with collections is one of the most fundamental skills you need to have.  Collections are data structures that contain multiple elements of various different data types.  Tod...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-dictionary-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

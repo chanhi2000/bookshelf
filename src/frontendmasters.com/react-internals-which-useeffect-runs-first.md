@@ -146,9 +146,9 @@ Each node in this tree is called a **fiber node.** There are different kinds of 
 
 Every fiber node contains properties like `props`, `state`, and most importantly:
 
-1. `child` – The child of the fiber.
-2. `sibling` – The sibling of the fiber.
-3. `return` – The return value of the fiber is the parent fiber.
+1. `child` - The child of the fiber.
+2. `sibling` - The sibling of the fiber.
+3. `return` - The return value of the fiber is the parent fiber.
 
 These information allows React to form a tree.
 

@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3266"/>
 
-You want to take your career to the next level –either through a raise, a promotion, or both! This guide is for mid-level developers who want to progress.
+You want to take your career to the next level -either through a raise, a promotion, or both! This guide is for mid-level developers who want to progress.
 
 If you’re earlier in your career, we just published [What Front-End Developer Skills Should You Focus on as Junior Engineer in 2024?](/frontendmasters.com/what-skills-should-you-focus-on-as-junior-web-developer-in-2024.md) — and now we want to do something similar except targeted toward already established developers are on the road towards senior developer.
 
@@ -293,7 +293,7 @@ As your career progresses, you may be pushed toward management, or it may appeal
 
 ## What do you think?
 
-Which skills do you think developers should be learning as we head into 2025 – what have we missed?
+Which skills do you think developers should be learning as we head into 2025 - what have we missed?
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

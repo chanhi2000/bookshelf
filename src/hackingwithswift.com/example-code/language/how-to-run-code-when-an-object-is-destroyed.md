@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-All structs and classes can have initializers, which are special methods that run when those types are created. However, classes can also have *deinitializers* – code that gets run when an instance of the class is destroyed. This isn’t possible with structs because they only ever have one owner.
+All structs and classes can have initializers, which are special methods that run when those types are created. However, classes can also have *deinitializers* - code that gets run when an instance of the class is destroyed. This isn’t possible with structs because they only ever have one owner.
 
 Deinitializers never take any parameters, so they are written just as `deinit`. For example, we could create a simple `Person` class with an initializer and a deinitializer:
 

@@ -55,7 +55,7 @@ isOriginal: false
 
 SwiftData’s model context has a dedicated `enumerate()` method that is designed to traverse large amounts of data efficiently. Whether it’s *effective* or not is down to you to judge, but I can at least show you how it works.
 
-I’ll explain the drawbacks more in a moment, but first let’s look at some examples. If you worked at a large university with thousands of students and wanted to process them somehow – for example if you wanted to loop over everyone to calculate the total number of test scores by all students, as well as how many results were regular passes and how many were passes with distinction – then you might write code like this:1
+I’ll explain the drawbacks more in a moment, but first let’s look at some examples. If you worked at a large university with thousands of students and wanted to process them somehow - for example if you wanted to loop over everyone to calculate the total number of test scores by all students, as well as how many results were regular passes and how many were passes with distinction - then you might write code like this:1
 
 ```swift
 let descriptor = FetchDescriptor<Student>()

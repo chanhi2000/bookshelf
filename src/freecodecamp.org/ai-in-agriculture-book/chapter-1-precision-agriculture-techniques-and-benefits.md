@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: "Chapter 1: Precision Agriculture – Techniques and Benefits"
+title: "Chapter 1: Precision Agriculture - Techniques and Benefits"
 description: "Article(s) > (2/9) AI in Agriculture: How AI-Enhanced Farming Can Increase Crop Yields [Full Book]"
 category:
   - Python
@@ -24,7 +24,7 @@ head:
     - property: og:title
       content: "Article(s) > (2/9) AI in Agriculture: How AI-Enhanced Farming Can Increase Crop Yields [Full Book]"
     - property: og:description
-      content: "Chapter 1: Precision Agriculture – Techniques and Benefits"
+      content: "Chapter 1: Precision Agriculture - Techniques and Benefits"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-1-precision-agriculture-techniques-and-benefits.html
 date: 2025-01-15

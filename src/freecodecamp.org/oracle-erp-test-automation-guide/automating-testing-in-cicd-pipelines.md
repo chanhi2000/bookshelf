@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Automating Testing in CI/CD Pipelines"
-description: "Article(s) > (4/5) Oracle ERP Test Automation Guide – Examples and Best Practices" 
+description: "Article(s) > (4/5) Oracle ERP Test Automation Guide - Examples and Best Practices" 
 icon: fa-brands fa-java
 category:
   - Java
@@ -26,7 +26,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/5) Oracle ERP Test Automation Guide – Examples and Best Practices"
+      content: "Article(s) > (4/5) Oracle ERP Test Automation Guide - Examples and Best Practices"
     - property: og:description
       content: "Automating Testing in CI/CD Pipelines"
     - property: og:url
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 
 ```component VPCard
 {
-  "title": "Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "title": "Oracle ERP Test Automation Guide - Examples and Best Practices",
   "desc": "Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ...",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -56,7 +56,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 ---
 
 <SiteInfo
-  name="Oracle ERP Test Automation Guide – Examples and Best Practices"
+  name="Oracle ERP Test Automation Guide - Examples and Best Practices"
   desc="Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ..."
   url="https://freecodecamp.org/news/oracle-erp-test-automation-guide#heading-automating-testing-in-cicd-pipelines"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -64,7 +64,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 
 Automating testing in your CI/CD pipelines speeds up the release process. It helps maintain high-quality Oracle ERP applications. Automated tests run at each stage of the pipeline. This ensures updates or changes to the ERP system are tested without slowing development.
 
-Continuous testing is essential. It catches errors early, before they reach production. By running automated tests at each stage – whether it’s build, deploy, or merge – issues are found quickly and your team can resolve them faster. This reduces downtime and keeps the ERP system ready for deployment.
+Continuous testing is essential. It catches errors early, before they reach production. By running automated tests at each stage - whether it’s build, deploy, or merge - issues are found quickly and your team can resolve them faster. This reduces downtime and keeps the ERP system ready for deployment.
 
 For Oracle ERP, automated tests check updates, customizations, and integrations. These tests cover many scenarios. Functional tests ensure features work as expected. Performance tests check the system’s behavior under different loads. This approach reduces the risk of failures and allows faster releases.
 

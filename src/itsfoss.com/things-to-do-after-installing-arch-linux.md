@@ -249,7 +249,7 @@ sudo pacman -S libreoffice thunderbird firefox geditflashplugin \
 skype dropbox aria2
 ```
 
-Aria2 is a download manager, LibreOffice is the most popular open source office suite, Thunderbird is a cross-platform mail and chat client, Firefox is an open source and free web browser, Gedit is an editor, flashplugin installs flash, Skype is a popular messaging and video calling software and Dropbox – to store your file for anytime access.
+Aria2 is a download manager, LibreOffice is the most popular open source office suite, Thunderbird is a cross-platform mail and chat client, Firefox is an open source and free web browser, Gedit is an editor, flashplugin installs flash, Skype is a popular messaging and video calling software and Dropbox - to store your file for anytime access.
 
 Along with these, you will need archive managers
 

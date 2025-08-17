@@ -61,7 +61,7 @@ SwiftData is capable of storing a variety of data, but specifically the followin
 
 ::: important
 
-If you intend to use options 2 or 3 in a hybrid app – using both SwiftData and Core Data side by side – it’s important that you use composite attributes in your Core Data code in order to retain compatibility.
+If you intend to use options 2 or 3 in a hybrid app - using both SwiftData and Core Data side by side - it’s important that you use composite attributes in your Core Data code in order to retain compatibility.
 
 For example, we could create a `Status` enum that has two cases, one of which has an associated value, then use that as one value inside
 

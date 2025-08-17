@@ -65,7 +65,7 @@ Now, you might very well think that you could accomplish that by using `filter()
 pythons = pythons.filter { !$0.hasPrefix("Terry") }
 ```
 
-However, that doesn’t use memory very efficiently, it specifies what you *don’t* want rather than what you *want*, and more advanced in-place solutions come with a range of complexities that are off-putting to novices. Ben Cohen, the author of SE-0197, gave a talk at [<FontIcon icon="fas fa-globe"/>dotSwift 2018](https://www.dotconferences.com/2018/01/ben-cohen-extending-the-standard-library) where he discussed the implementation of this proposal in more detail – if you’re keen to learn why it’s so efficient, you should start there!
+However, that doesn’t use memory very efficiently, it specifies what you *don’t* want rather than what you *want*, and more advanced in-place solutions come with a range of complexities that are off-putting to novices. Ben Cohen, the author of SE-0197, gave a talk at [<FontIcon icon="fas fa-globe"/>dotSwift 2018](https://www.dotconferences.com/2018/01/ben-cohen-extending-the-standard-library) where he discussed the implementation of this proposal in more detail - if you’re keen to learn why it’s so efficient, you should start there!
 
 ::: details Other Changes in Swift 4.2
 

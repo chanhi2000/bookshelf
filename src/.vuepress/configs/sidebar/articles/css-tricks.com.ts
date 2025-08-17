@@ -5,6 +5,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "a-radio-button-shopping-cart-trick", // 2025-08-27
+    "getting-creative-with-images-in-long-form-content", // 2025-08-25
+    "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
+    "3d-layered-text-motion-and-variations", // 2025-08-22
+    "3d-layered-text-the-basics", // 2025-08-22
+    "covering-hiddenuntil-found", // 2025-08-15
+    "we-might-need-something-between-root-and-relative-css-units-for-base-elements", // 2025-08-13
     "bringing-back-parallax-with-scroll-driven-css-animations", // 2025-08-06
     "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
     "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
@@ -215,6 +222,13 @@ export const template: SidebarInfoTemplate = {
       "making-a-masonry-layout-that-works-today", // 2025-07-28
       "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
       "bringing-back-parallax-with-scroll-driven-css-animations", // 2025-08-06
+      "we-might-need-something-between-root-and-relative-css-units-for-base-elements", // 2025-08-13
+      "covering-hiddenuntil-found", // 2025-08-15
+      "3d-layered-text-the-basics", // 2025-08-22
+      "3d-layered-text-motion-and-variations", // 2025-08-22
+      "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
+      "getting-creative-with-images-in-long-form-content", // 2025-08-25
+      "a-radio-button-shopping-cart-trick", // 2025-08-27
       // END: 2025css
       // END: css
     ]],[

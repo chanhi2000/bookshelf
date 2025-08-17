@@ -51,7 +51,7 @@ isOriginal: false
 
 Swift concurrency was introduced back in Swift 5.5, but had a bit of a rocky adoption both in Apple's own frameworks and our own projects. However, with Swift 5.10 the team made a rather dramatic statement: "Swift 5.10 closes all known static data-race safety holes in complete strict concurrency checking."
 
-Concurrency checking is what allows the compiler to verify our use of concurrent code is safe – that we aren't accidentally sharing mutable state in a way that can cause race conditions. Of course, the key word here is "known": everything they *know about* has been resolved.
+Concurrency checking is what allows the compiler to verify our use of concurrent code is safe - that we aren't accidentally sharing mutable state in a way that can cause race conditions. Of course, the key word here is "known": everything they *know about* has been resolved.
 
 Apple's work here is not only hugely innovative, but hugely *complex*: similar to how type inference requires the Swift compiler to be able to reason about how various parts of our code are used, in concurrency the compiler is effectively running a series of algorithms that attempt to determine conclusively that our code is concurrency-safe.
 

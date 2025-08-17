@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Operator overloading is the practice of adding new operators and modifying existing ones to do different things. Operators are those little symbols like `+`, `*`, and `/`, and Swift uses them in a variety of ways depending on context – a string plus another string equals a combined string, for example, whereas an integer plus another integer equals a summed integer.
+Operator overloading is the practice of adding new operators and modifying existing ones to do different things. Operators are those little symbols like `+`, `*`, and `/`, and Swift uses them in a variety of ways depending on context - a string plus another string equals a combined string, for example, whereas an integer plus another integer equals a summed integer.
 
 To create your own operator you need to tell Swift whether it should be *prefix* (before its operand; the values used with it), *postfix* (after its operand), or *infix*. The most common is infix: `+`, `-`, `*`, and more are all infix.
 
@@ -81,7 +81,7 @@ func **(lhs: Double, rhs: Double) -> Double {
 }
 ```
 
-As you can see, the function itself is a cinch thanks to `pow()` – we literally just pass on the numbers. Now this code should work in your playground:
+As you can see, the function itself is a cinch thanks to `pow()` - we literally just pass on the numbers. Now this code should work in your playground:
 
 ```swift
 let result = 2 ** 4

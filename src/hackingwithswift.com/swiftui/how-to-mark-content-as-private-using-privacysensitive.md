@@ -103,7 +103,7 @@ struct ContentView: View {
 
 ![The text “Card Number” over the placeholder text “[HIDDEN]”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-mark-content-as-private-using-privacysensitive-2~dark.png)
 
-Sometimes the system will apply privacy redaction automatically, such as if your widget appears on the Lock Screen (when the user swipes to the left), or if they have their Apple Watch set to always-on and your app is visible – these are both good places where you should mark things as being privacy sensitive.
+Sometimes the system will apply privacy redaction automatically, such as if your widget appears on the Lock Screen (when the user swipes to the left), or if they have their Apple Watch set to always-on and your app is visible - these are both good places where you should mark things as being privacy sensitive.
 
 ::: details Similar solutions…
 

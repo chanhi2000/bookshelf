@@ -113,7 +113,7 @@ The agent must use sensors or data streams to perceive, evaluate, and decide to 
 
 An agentic AI's “reasoning engine” (usually a large language model or similar system) makes decisions and can adjust its behavior based on user feedback or rewards.
 
-As IBM explains, “without any human intervention, agentic AI can act independently, adapt to new situations, make decisions, and learn from experience” ([<FontIcon icon="iconfont icon-ibm"/>source](https://ibm.com/think/topics/agentic-ai)). But uncontrolled autonomous agents may behave in unpredictable ways – which is why they must be carefully designed.
+As IBM explains, “without any human intervention, agentic AI can act independently, adapt to new situations, make decisions, and learn from experience” ([<FontIcon icon="iconfont icon-ibm"/>source](https://ibm.com/think/topics/agentic-ai)). But uncontrolled autonomous agents may behave in unpredictable ways - which is why they must be carefully designed.
 
 Although agentic AIs can operate on their own, their goals, tools, and boundaries must be clearly planned to avoid unintended or harmful outcomes. Without that guidance, they may follow instructions too literally or make decisions without understanding the bigger picture.
 
@@ -186,7 +186,7 @@ When we give it the right prompts, it can seem like it’s making plans or solvi
 
 ### 2. It Follows Instructions in Prompts
 
-Agentic AI doesn’t figure out what to do by itself – developers give it structure using prompts.
+Agentic AI doesn’t figure out what to do by itself - developers give it structure using prompts.
 
 For example:
 
@@ -203,7 +203,7 @@ Think of it like this: the AI suggests, “Now I’ll look something up,” and 
 
 ### 4. It Can Remember (Sometimes)
 
-Some agents use short-term memory to remember past questions or results. Others store useful information in a database for later. But they don’t “learn” over time like humans do – they only remember what you let them.
+Some agents use short-term memory to remember past questions or results. Others store useful information in a database for later. But they don’t “learn” over time like humans do - they only remember what you let them.
 
 ### 5. It’s Not Fully Autonomous — Yet
 
@@ -214,7 +214,7 @@ Most agentic systems today are not fully self-learning or self-aware. They’re 
 - Tools
 - Memory
 
-Their “autonomy” comes from how all these parts work together – not from deep understanding or long-term training.
+Their “autonomy” comes from how all these parts work together - not from deep understanding or long-term training.
 
 ---
 
@@ -293,11 +293,11 @@ There are also hybrid architectures that combine traditional search with neural 
 
 In many agentic systems, granting the agent access to external functions and information is a viable strategy. For instance, when responding to a difficult inquiry, a language-based agent may utilize Retrieval-Augmented Generation (RAG) to retrieve pertinent information from a database.
 
-As "tools" that it may use, it might also include a calculator, a web browser, a database API, or bespoke code. Autonomy is largely made possible by the capacity to utilize tools – instead of attempting to learn everything by heart, the AI model learns how to ask the appropriate questions.
+As "tools" that it may use, it might also include a calculator, a web browser, a database API, or bespoke code. Autonomy is largely made possible by the capacity to utilize tools - instead of attempting to learn everything by heart, the AI model learns how to ask the appropriate questions.
 
 In sum, building an agentic AI often means combining multiple techniques: machine learning for perception and learning, symbolic planning for structure, LLM reasoning for natural language and problem decomposition, plus memory modules and feedback loops.
 
-There is no one-size-fits-all framework yet. Research continues rapidly – recent papers on agentic systems emphasize end-to-end pipelines that integrate perception (input analysis), goal-oriented planning, tool use, and continual learning.
+There is no one-size-fits-all framework yet. Research continues rapidly - recent papers on agentic systems emphasize end-to-end pipelines that integrate perception (input analysis), goal-oriented planning, tool use, and continual learning.
 
 ---
 
@@ -342,7 +342,7 @@ Here are some specific things we need to consider:
 - **Security and privacy:** An agent with extensive system access harms privacy. Compromise of an AI agent permitted to access and write business data or personal correspondence might reveal critical information. IBM warns that agentic AI can increase recognized hazards, such as an agent accidentally biasing a database or sharing private data without monitoring. Tools must be authenticated and data handled securely.
 - **Human-AI interaction:** Our agents may affect how we use technology and interact with others. If individuals utilize AI bots for conversation, information filtering, or companionship, it might change societal dynamics. Consider again the Stanford study referenced above. So we need to pursue ways to include standards and values into these encounters.
 
-In recognition of these challenges, technologists and ethicists urge us to use proactive safeguards. As IBM researchers put it, because agentic AI is advancing rapidly, we cannot wait to address safety – we must build strong guardrails now. Some proposed measures include strict testing protocols for agents, explainability requirements, legal regulations on autonomous systems, and design principles that prioritize human values.
+In recognition of these challenges, technologists and ethicists urge us to use proactive safeguards. As IBM researchers put it, because agentic AI is advancing rapidly, we cannot wait to address safety - we must build strong guardrails now. Some proposed measures include strict testing protocols for agents, explainability requirements, legal regulations on autonomous systems, and design principles that prioritize human values.
 
 So as you can see, while agentic AI offers the potential for AI that can handle complex tasks end-to-end, it also amplifies known AI risks (bias, error) and introduces new ones (autonomous decision-making, coordination failures). Addressing these challenges requires careful design of alignment, robust evaluation of agent behavior, and interdisciplinary governance.
 
@@ -384,7 +384,7 @@ This example demonstrates the core loop of an agentic AI:
 
 - The agent starts with a goal and can store memory of what it has done.
 - It observes its environment to understand what’s happening.
-- Based on that input, it creates a plan – a list of actions to reach its goal.
+- Based on that input, it creates a plan - a list of actions to reach its goal.
 - It executes each action, interacts with the environment, and learns from what happens.
 - This process repeats until the goal is met or the task is complete.
 
@@ -419,7 +419,7 @@ This step-by-step guide will teach you how to build a basic Agentic AI system ev
 
 This is where Agentic AI shines: it acts autonomously, reasons, and uses tools just like a smart human assistant.
 
-### Prerequisites – What You Need
+### Prerequisites - What You Need
 
 1. Python 3.10 or higher
 2. An OpenAI API key ([<FontIcon icon="iconfont icon-openai"/>https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
@@ -467,11 +467,11 @@ tools = [
 ]
 ```
 
-You're giving your agent a way to "see the world" – Wikipedia is your agent's eyes.
+You're giving your agent a way to "see the world" - Wikipedia is your agent's eyes.
 
 #### Step 3: Initialize the Agent (Reasoning Engine)
 
-We now give the agent a brain – a GPT model that can reason, decide, and plan.
+We now give the agent a brain - a GPT model that can reason, decide, and plan.
 
 ```py
 from langchain.chat_models import ChatOpenAI

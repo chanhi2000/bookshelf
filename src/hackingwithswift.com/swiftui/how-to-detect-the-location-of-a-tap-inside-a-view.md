@@ -69,9 +69,9 @@ Circle()
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-detect-the-location-of-a-tap-inside-a-view-1.zip)
 
-“Relative location” means relative to the circle's bounds – as the circle is 100x100 in size, if you tap the exact center it would print 50x50 regardless of where the circle was placed on the screen.
+“Relative location” means relative to the circle's bounds - as the circle is 100x100 in size, if you tap the exact center it would print 50x50 regardless of where the circle was placed on the screen.
 
-If you want the *global* location – i.e., where your tap took place relative to the top-left corner of the entire screen – you should add the `coordinateSpace` parameter like this:
+If you want the *global* location - i.e., where your tap took place relative to the top-left corner of the entire screen - you should add the `coordinateSpace` parameter like this:
 
 ```swift
 Circle()
@@ -86,7 +86,7 @@ Circle()
 
 This `onTapGesture()` variant is available from iOS 16 and later. If you're looking to do something similar on earlier versions of iOS, we can build something similar by wrapping UIKit and sprinkling some SwiftUI sugar on top to make it easy to use.
 
-This takes quite a bit of code, so I want to list the exact steps we'll be following first, then provide all the code with extra comments afterwards. The end result is a reusable view modifier you can attach to any view – text, image, etc – that can detect touches starting, ending, and moving, depending on what you want.
+This takes quite a bit of code, so I want to list the exact steps we'll be following first, then provide all the code with extra comments afterwards. The end result is a reusable view modifier you can attach to any view - text, image, etc - that can detect touches starting, ending, and moving, depending on what you want.
 
 First, the steps:
 
@@ -222,7 +222,7 @@ struct ContentView: View {
                 .background(.red)
                 .onTouch(perform: updateLocation)
 
-            Text("This will track all touches, ignoring bounds – you can start a touch inside, then carry on moving it outside.")
+            Text("This will track all touches, ignoring bounds - you can start a touch inside, then carry on moving it outside.")
                 .padding()
                 .background(.blue)
                 .onTouch(limitToBounds: false, perform: updateLocation)

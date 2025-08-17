@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Accessibility - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/accessibility/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Although VoiceOver does a great job of reading our interfaces by default, sometimes it can benefit from a little extra guidance in order to read content appropriately. `accessibilityTextualContext` is a property available on all UIKit controls that lets us mark content as being a specific type – output from the command line, some spreadsheet data, or even narrative speech.
+Although VoiceOver does a great job of reading our interfaces by default, sometimes it can benefit from a little extra guidance in order to read content appropriately. `accessibilityTextualContext` is a property available on all UIKit controls that lets us mark content as being a specific type - output from the command line, some spreadsheet data, or even narrative speech.
 
 For example, we could mark a label as containing source code like this:
 

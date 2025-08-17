@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Subclassing `UIApplication` allows you to override functionality such as opening URLs or changing your icon, but it’s a non-trivial task in Swift because of the `@UIApplicationMain` attribute.
 
-If you look in your <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` file you’ll see `@UIApplicationMain` appears directly before `class AppDelegate` – this is a special attribute that tells the Swift compiler to generate code to launch your application using default settings.
+If you look in your <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` file you’ll see `@UIApplicationMain` appears directly before `class AppDelegate` - this is a special attribute that tells the Swift compiler to generate code to launch your application using default settings.
 
 **You need to delete `@UIApplicationMain` from that file.** We’re going to replace it with custom code.
 
@@ -81,7 +81,7 @@ class MyApplication: UIApplication {
 }
 ```
 
-The third and final step is to create a file called <FontIcon icon="fa-brands fa-swift"/>`main.swift` that is responsible for launching our application. The name is important: it must be exactly <FontIcon icon="fa-brands fa-swift"/>`main.swift`, because that’s the only file that can contain top-level code – i.e., code that isn’t wrapped inside a function, class, struct, or enum.
+The third and final step is to create a file called <FontIcon icon="fa-brands fa-swift"/>`main.swift` that is responsible for launching our application. The name is important: it must be exactly <FontIcon icon="fa-brands fa-swift"/>`main.swift`, because that’s the only file that can contain top-level code - i.e., code that isn’t wrapped inside a function, class, struct, or enum.
 
 So, create a new Swift file called <FontIcon icon="fa-brands fa-swift"/>`main.swift`, and give it this code:
 

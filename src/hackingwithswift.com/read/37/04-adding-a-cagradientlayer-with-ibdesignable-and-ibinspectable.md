@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -86,13 +86,13 @@ Using this approach means the entire class is just 12 lines of code, *including*
 
 With that new class in place, it's time to return to Interface Builder and add it to our layout. To do this, draw out another `UIView`, but make sure it stretches from edge to edge this time and add some Auto Layout rules to make sure it stays edge to edge. Finally, go to the Editor menu and choose Arrange > Send To Back to make sure the new view sits behind the card container.
 
-For iPhones with rectangular screens, what we’ve done is good enough – that gradient view will now fill the screen. But the iPhone X has rounded screen edges, so the safe area insets will automatically kick in, pushing our gradient view away from the edges. This isn’t what we want, and we need to fix this right here in IB.
+For iPhones with rectangular screens, what we’ve done is good enough - that gradient view will now fill the screen. But the iPhone X has rounded screen edges, so the safe area insets will automatically kick in, pushing our gradient view away from the edges. This isn’t what we want, and we need to fix this right here in IB.
 
-So, select the main view for the view controller – the one that contains the gradient view – and uncheck Safe Area Relative Margins and Safe Area Layout Guide in the size inspector. That should make the gradient view run edge to edge nicely!
+So, select the main view for the view controller - the one that contains the gradient view - and uncheck Safe Area Relative Margins and Safe Area Layout Guide in the size inspector. That should make the gradient view run edge to edge nicely!
 
 We want this new view to be a `GradientView`, which is done by changing its class. Press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> to bring up the identity inspector on the right, then look at the very top for a dropdown list of classes you can use for the new view. Look in there for "GradientView", and you'll see "Designables: Updating" appear.
 
-After a few seconds, you should see a white to black gradient appear in Interface Builder, which shows the default colors we set. But we made those colors inspectable, so if you press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd> to go to the Attributes Inspector you should see "Top Color" and "Bottom Color" ready for you to choose – yes, Xcode has correctly converted `topColor` into "Top Color" thanks to our property naming convention.
+After a few seconds, you should see a white to black gradient appear in Interface Builder, which shows the default colors we set. But we made those colors inspectable, so if you press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd> to go to the Attributes Inspector you should see "Top Color" and "Bottom Color" ready for you to choose - yes, Xcode has correctly converted `topColor` into "Top Color" thanks to our property naming convention.
 
 We'll be applying red and blue colors separately to the gradient, so please set "Top Color" to be "Dark Gray Color", and "Bottom Color" to be "Black Color". Finally, set the alpha value for the gradient view to be 0.9, so a little bit of the background view shows through.
 

@@ -55,9 +55,9 @@ isOriginal: false
 
 > Updated for Xcode 16
 
-Inside Apple it took an extraordinary amount of effort to design, build, test, document, and ship SwiftUI. As third-party developers we only really see the end result – when a senior Apple staffer gets on stage at WWDC and shows it off to huge applause, when we download the new Xcode to see a huge amount of new functionality, and when we start our own journey of figuring out how to make best use of these incredible new tools.
+Inside Apple it took an extraordinary amount of effort to design, build, test, document, and ship SwiftUI. As third-party developers we only really see the end result - when a senior Apple staffer gets on stage at WWDC and shows it off to huge applause, when we download the new Xcode to see a huge amount of new functionality, and when we start our own journey of figuring out how to make best use of these incredible new tools.
 
-But SwiftUI started _long_ before that as a project from inside the watchOS team – about four years before, from what various folks have said.
+But SwiftUI started _long_ before that as a project from inside the watchOS team - about four years before, from what various folks have said.
 
 _Four years._
 

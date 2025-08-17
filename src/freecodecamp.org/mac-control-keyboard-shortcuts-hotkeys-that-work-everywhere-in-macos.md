@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
-description: Article(s) > Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
+title: Mac Control Keyboard Shortcuts - Hotkeys that Work Everywhere in MacOS
+description: Article(s) > Mac Control Keyboard Shortcuts - Hotkeys that Work Everywhere in MacOS
 icon: iconfont icon-macos
 category: 
   - macOS
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
+      content: Article(s) > Mac Control Keyboard Shortcuts - Hotkeys that Work Everywhere in MacOS
     - property: og:description
-      content: Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS
+      content: Mac Control Keyboard Shortcuts - Hotkeys that Work Everywhere in MacOS
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos.html
 prev: /devops/macos/articles/README.md
@@ -44,8 +44,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714092420192/21d4bc5
 ---
 
 <SiteInfo
-  name="Mac Control Keyboard Shortcuts – Hotkeys that Work Everywhere in MacOS"
-  desc="MacOS has several keyboard shortcuts that work everywhere – in your browser, in your terminal, in any place where you can input text. I call these the Control Hotkeys since they all involve holding the Control key. These shortcuts seem to originate..."
+  name="Mac Control Keyboard Shortcuts - Hotkeys that Work Everywhere in MacOS"
+  desc="MacOS has several keyboard shortcuts that work everywhere - in your browser, in your terminal, in any place where you can input text. I call these the Control Hotkeys since they all involve holding the Control key. These shortcuts seem to originate..."
   url="https://freecodecamp.org/news/mac-control-keyboard-shortcuts-hotkeys-that-work-everywhere-in-macos/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1714092420192/21d4bc5e-4952-4cb6-b664-5e15ad7d96a0.jpeg"/>

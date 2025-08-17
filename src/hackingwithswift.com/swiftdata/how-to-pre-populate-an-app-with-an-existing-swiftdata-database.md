@@ -61,9 +61,9 @@ As an example, you might create an app specifically to let you customize then bu
 
 That might sound straightforward, but there's a significant speed bump in the plan: SwiftData uses a high-performance database mode called "write-ahead logging", which means it may or may not write all your data into a single database you can copy into another app. 
 
-The good news is that we can disable write-ahead logging. The *bad* news is that we can't do it from SwiftData – we need to use Core Data. So, this means you need to recreate your SwiftData models in the Core Data model editor, then write a small amount of Core Data code to write and export your data.
+The good news is that we can disable write-ahead logging. The *bad* news is that we can't do it from SwiftData - we need to use Core Data. So, this means you need to recreate your SwiftData models in the Core Data model editor, then write a small amount of Core Data code to write and export your data.
 
-If that hasn't put you off, let's begin. First you'd define your model in both your App Store app and your data creation app – the former using SwiftData, and the latter using Core Data.
+If that hasn't put you off, let's begin. First you'd define your model in both your App Store app and your data creation app - the former using SwiftData, and the latter using Core Data.
 
 As an example, in SwiftData we might use something like this:
 
@@ -79,7 +79,7 @@ class User {
 
 In the separate database creation app, that would mean adding a new Data Model called "Model", creating a "User" entity inside there, then giving it a single "name" property with the type String.
 
-Once that's done, replace your default `ContentView` code with this – I've added comments throughout explaining each step:
+Once that's done, replace your default `ContentView` code with this - I've added comments throughout explaining each step:
 
 ```swift
 struct ContentView: View {
@@ -135,13 +135,13 @@ That does a number of things:
 1. It sets our store name to be users.store, so we can find it easily.
 2. It deletes that file if it exists already.
 3. It then forces write-ahead logging to be disabled, meaning that all data is written straight to the SQLite file.
-4. It inserts 10,000 example `User` objects – obviously that's where you'd insert your own custom data.
+4. It inserts 10,000 example `User` objects - obviously that's where you'd insert your own custom data.
 5. It triggers a full save, to make sure all our data is written to disk.
 6. It then copies users.store to a URL of your choosing, ready to be placed into your finished, App Store app. (Note: If you're using an iOS app, using `URL.desktopDirectory` won't work, which is why I've used the full path in the code.)
 
 Make sure you change the URL to your actual desktop, then run that project and try it out. Yyou should end up with the file "users.store" on your desktop.
 
-That completes the work from your data creation app – now it's over to the actual app you want to ship to the App Store.
+That completes the work from your data creation app - now it's over to the actual app you want to ship to the App Store.
 
 The first step is to copy users.store into your actual app project. 
 
@@ -196,5 +196,5 @@ struct ContentView: View {
 }
 ```
 
-As you can see, we can treat the data just like a regular SwiftData store – just don't try to make changes to it, because we're reading from our app's bundle, rather than something directly modifiable.
+As you can see, we can treat the data just like a regular SwiftData store - just don't try to make changes to it, because we're reading from our app's bundle, rather than something directly modifiable.
 

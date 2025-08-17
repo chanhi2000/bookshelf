@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How Web Services Work – The Unseen Engines of the Connected World"
-description: "Article(s) > How Web Services Work – The Unseen Engines of the Connected World"
+title: "How Web Services Work - The Unseen Engines of the Connected World"
+description: "Article(s) > How Web Services Work - The Unseen Engines of the Connected World"
 icon: fas fa-computer
 category:
   - Engineering
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How Web Services Work – The Unseen Engines of the Connected World"
+      content: "Article(s) > How Web Services Work - The Unseen Engines of the Connected World"
     - property: og:description
-      content: "How Web Services Work – The Unseen Engines of the Connected World"
+      content: "How Web Services Work - The Unseen Engines of the Connected World"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-web-services-work-with-examples.html
 prev: /academics/coen/articles/README.md
@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747156692079/512460b
 ---
 
 <SiteInfo
-  name="How Web Services Work – The Unseen Engines of the Connected World"
+  name="How Web Services Work - The Unseen Engines of the Connected World"
   desc="Have you ever wondered how your weather app instantly knows the forecast, how you can book flights from multiple airlines on one travel site, or how logging into one service can magically log you into another? The answer often lies in a powerful, yet..."
   url="https://freecodecamp.org/news/how-web-services-work-with-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -69,13 +69,13 @@ In this article, you’ll learn what Web Services are and why they’re importan
 
 ## What Exactly is a Web Service?
 
-At its core, a web service is a standardized way for different software applications to communicate with each other over a network – typically the internet. It allows application 'A' (running on, say, a Windows server using Java) to request information or trigger an action from application 'B' (running on a Linux machine using Python), without either application needing to know the intricate internal details of the other.
+At its core, a web service is a standardized way for different software applications to communicate with each other over a network - typically the internet. It allows application 'A' (running on, say, a Windows server using Java) to request information or trigger an action from application 'B' (running on a Linux machine using Python), without either application needing to know the intricate internal details of the other.
 
 Here’s how they make this happen:
 
 1. **Network accessibility:** They operate over standard web protocols like HTTP/HTTPS.
 2. **Standardized messaging:** They use common data formats like XML (Extensible Markup Language) or JSON (JavaScript Object Notation) to structure the data being exchanged.
-3. **Interface description:** They often come with a "contract" or description (like WSDL for SOAP services or OpenAPI/Swagger definitions for REST APIs) that tells other applications *how* to interact with them – what functions are available and what data format to expect.
+3. **Interface description:** They often come with a "contract" or description (like WSDL for SOAP services or OpenAPI/Swagger definitions for REST APIs) that tells other applications *how* to interact with them - what functions are available and what data format to expect.
 
 ---
 
@@ -258,7 +258,7 @@ Understanding the core functionalities, underlying technologies, common use case
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How Web Services Work – The Unseen Engines of the Connected World",
+  "title": "How Web Services Work - The Unseen Engines of the Connected World",
   "desc": "Have you ever wondered how your weather app instantly knows the forecast, how you can book flights from multiple airlines on one travel site, or how logging into one service can magically log you into another? The answer often lies in a powerful, yet...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-web-services-work-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

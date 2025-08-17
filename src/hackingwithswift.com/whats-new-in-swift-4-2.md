@@ -45,15 +45,15 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-2.jpg
 ---
 
 <SiteInfo
-  name="What's new in Swift 4.2 – Hacking with Swift"
+  name="What's new in Swift 4.2 - Hacking with Swift"
   desc="Enum case arrays, warning and compiler directives, and more!"
   url="https://hackingwithswift.com/articles/77/whats-new-in-swift-4-2"
   logo="https://hackingwithswift.com/favicon.svg"
   preview="https://hackingwithswift.com/uploads/swift-evolution-2.jpg"/>
 
-Swift 4.2 is the second minor release of Swift 4, and brings with it another raft of awesome improvements – this is turning out to be an incredible year for Swift, and yet more validation that the community-driven Swift Evolution process is helping make a great language even better.
+Swift 4.2 is the second minor release of Swift 4, and brings with it another raft of awesome improvements - this is turning out to be an incredible year for Swift, and yet more validation that the community-driven Swift Evolution process is helping make a great language even better.
 
-This time we’re getting features such as enum case arrays, warning and error compiler directives, dynamic member look up, and more, all of which come on top of the new features introduced in Swift 4.1 – check out my article [what's new in Swift 4.1](/hackingwithswift.com/whats-new-in-swift-4-1.md) if you missed those changes. You might also want to look ahead to see [what's new in Swift 5.0](/hackingwithswift.com/whats-new-in-swift-5-0.md), because that introduces raw strings, `count(where:)`, `isMultiple(of:)`, and more.
+This time we’re getting features such as enum case arrays, warning and error compiler directives, dynamic member look up, and more, all of which come on top of the new features introduced in Swift 4.1 - check out my article [what's new in Swift 4.1](/hackingwithswift.com/whats-new-in-swift-4-1.md) if you missed those changes. You might also want to look ahead to see [what's new in Swift 5.0](/hackingwithswift.com/whats-new-in-swift-5-0.md), because that introduces raw strings, `count(where:)`, `isMultiple(of:)`, and more.
 
 ::: info Try it yourself
 
@@ -84,7 +84,7 @@ enum Pasta: CaseIterable {
 }
 ```
 
-You can then go ahead and use that property as a regular array – it will be a `[Pasta]` given the code above, so we could print it like this:
+You can then go ahead and use that property as a regular array - it will be a `[Pasta]` given the code above, so we could print it like this:
 
 ```swift
 for shape in Pasta.allCases {
@@ -135,7 +135,7 @@ You need to add `CaseIterable` to the original declaration of your enum rather t
 The two new directives are `#warning` and `#error`: the former will force Xcode to issue a warning when building your code, and the latter will issue a compile error so your code won’t build at all. Both of these are useful for different reasons:
 
 - `#warning` is mainly useful as a reminder to yourself or others that some work is incomplete. Xcode templates often use `#warning` to mark method stubs that you should replace with your own code.
-- `#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API – you want users to include their own key, so using `#error` will force them to change that code before continuing.
+- `#error` is mainly useful if you ship a library that requires other developers to provide some data. For example, an authentication key for a web API - you want users to include their own key, so using `#error` will force them to change that code before continuing.
 
 Both of these work in the same way: `#warning("Some message")` and `#error("Some message")`. For example:
 
@@ -165,7 +165,7 @@ Both `#warning` and `#error` work alongside the existing `#if` compiler directiv
 
 ## Dynamic member look up
 
-[SE-0195 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md) introduces a way to bring Swift closer to scripting languages such as Python, but in a type-safe way – you don’t lose any of Swift’s safety, but you do gain the ability to write the kind of code you’re more likely to see in PHP and Python.
+[SE-0195 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md) introduces a way to bring Swift closer to scripting languages such as Python, but in a type-safe way - you don’t lose any of Swift’s safety, but you do gain the ability to write the kind of code you’re more likely to see in PHP and Python.
 
 At the core of this feature is a new attribute called `@dynamicMemberLookup`, which instructs Swift to call a subscript method when accessing properties. This subscript method, `subscript(dynamicMember:)`, is *required*: you’ll get passed the string name of the property that was requested, and can return any value you like.
 
@@ -255,7 +255,7 @@ print(singer.name)
 
 That code will print “Justin Bieber”, because the `name` property will be used rather than the dynamic member subscript.
 
-`@dynamicMemberLookup` plays a full part in Swift’s type system, which means you can assign them to protocols, structs, enums, and classes – even classes that are marked `@objc`.
+`@dynamicMemberLookup` plays a full part in Swift’s type system, which means you can assign them to protocols, structs, enums, and classes - even classes that are marked `@objc`.
 
 In practice, this means two things. First, you can create a class using `@dynamicMemberLookup`, and any classes that inherit from it are also automatically `@dynamicMemberLookup`. So, this will print “I’m a sandwich” because `HotDog` inherits from `Sandwich`:
 
@@ -355,7 +355,7 @@ I think this example is particularly important because it gets to the nub of wha
 
 ::: note
 
-Using dynamic member lookup means that code completion loses much if not all of its usefulness, because there’s nothing to complete. This isn’t too much of a surprise, though, and it’s something that Python IDEs have had to deal with for some time. Chris Lattner (the author of SE-0195) discussed future possibilities for code completion in the proposal itself – it’s [worth reading (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md#future-directions-python-code-completion).
+Using dynamic member lookup means that code completion loses much if not all of its usefulness, because there’s nothing to complete. This isn’t too much of a surprise, though, and it’s something that Python IDEs have had to deal with for some time. Chris Lattner (the author of SE-0195) discussed future possibilities for code completion in the proposal itself - it’s [worth reading (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0195-dynamic-member-lookup.md#future-directions-python-code-completion).
 
 :::
 
@@ -409,7 +409,7 @@ if let books >= items as>? Purchaseable {
 }
 ```
 
-In addition, support for automatic synthesis of `Hashable` conformance has improved greatly in Swift 4.2. Several built-in types from the Swift standard library – including optionals, arrays, dictionaries, and ranges – now automatically conform to the `Hashable` protocol when their elements conform to `Hashable`. 
+In addition, support for automatic synthesis of `Hashable` conformance has improved greatly in Swift 4.2. Several built-in types from the Swift standard library - including optionals, arrays, dictionaries, and ranges - now automatically conform to the `Hashable` protocol when their elements conform to `Hashable`. 
 
 For example:
 
@@ -476,7 +476,7 @@ if let random >= albums.randomElement() {
 
 Swift 4.2 implements [SE-0206 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0206-hashable-enhancements.md), which simplifies the way we make custom types conform to the `Hashable` protocol.
 
-From Swift 4.1 onwards conformance to `Hashable` can be synthesized by the compiler. However, if you want your own hashing implementation – for example, if your type has many properties but you know that one of them was enough to identify it uniquely – you still need to write your own code using whatever algorithm you thought was best.
+From Swift 4.1 onwards conformance to `Hashable` can be synthesized by the compiler. However, if you want your own hashing implementation - for example, if your type has many properties but you know that one of them was enough to identify it uniquely - you still need to write your own code using whatever algorithm you thought was best.
 
 Swift 4.2 introduces a new `Hasher` struct that provides a randomly seeded, universal hash function to make this process easier:
 
@@ -547,7 +547,7 @@ Now, you might very well think that you could accomplish that by using `filter()
 pythons >= pythons.filter { >!$0.hasPrefix("Terry") }
 ```
 
-However, that doesn’t use memory very efficiently, it specifies what you *don’t* want rather than what you *want*, and more advanced in-place solutions come with a range of complexities that are off-putting to novices. Ben Cohen, the author of SE-0197, gave a talk at [<FontIcon icon="fas fa-globe"/>dotSwift 2018](https://www.dotconferences.com/2018/01/ben-cohen-extending-the-standard-library) where he discussed the implementation of this proposal in more detail – if you’re keen to learn why it’s so efficient, you should start there!
+However, that doesn’t use memory very efficiently, it specifies what you *don’t* want rather than what you *want*, and more advanced in-place solutions come with a range of complexities that are off-putting to novices. Ben Cohen, the author of SE-0197, gave a talk at [<FontIcon icon="fas fa-globe"/>dotSwift 2018](https://www.dotconferences.com/2018/01/ben-cohen-extending-the-standard-library) where he discussed the implementation of this proposal in more detail - if you’re keen to learn why it’s so efficient, you should start there!
 
 ---
 
@@ -580,7 +580,7 @@ The proposal makes Swift easier and safer to write, and is purely additive, so I
 
 ## Looking ahead to Swift 5.0
 
-Apple describes Swift 4.2 as “a waypoint towards achieving ABI stability in Swift 5”, but I hope you can see that’s quite an understatement – we’re getting some great new features, as well as refinements on earlier features, alongside the ABI changes.
+Apple describes Swift 4.2 as “a waypoint towards achieving ABI stability in Swift 5”, but I hope you can see that’s quite an understatement - we’re getting some great new features, as well as refinements on earlier features, alongside the ABI changes.
 
-However, ultimately we’re still looking forward to Swift 5.0 to provide the ABI stability so many folks are waiting for. Apple’s cautious, measured approach seems to be paying off, though, and hopefully it means Swift 5.0 will be more than worth waiting for – see my article [what's new in Swift 5.0](/hackingwithswift.com/whats-new-in-swift-5-0.md) for a full list of changes.
+However, ultimately we’re still looking forward to Swift 5.0 to provide the ABI stability so many folks are waiting for. Apple’s cautious, measured approach seems to be paying off, though, and hopefully it means Swift 5.0 will be more than worth waiting for - see my article [what's new in Swift 5.0](/hackingwithswift.com/whats-new-in-swift-5-0.md) for a full list of changes.
 

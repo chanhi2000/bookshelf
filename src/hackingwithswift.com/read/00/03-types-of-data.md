@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/dwrlqKaMUt4" />
 
-There are lots of kinds of data, and Swift handles them all individually. You already saw one of the most important types when you assigned some text to a variable, but in Swift this is called a `String` – literally a string of characters.
+There are lots of kinds of data, and Swift handles them all individually. You already saw one of the most important types when you assigned some text to a variable, but in Swift this is called a `String` - literally a string of characters.
 
 Strings can be long (e.g. a million letters or more), short (e.g. 10 letters) or even empty (no letters), it doesn't matter: they are all strings in Swift's eyes, and all work the same. Swift knows that `name` should hold a string because you assign a string to it when you create it: "Tim McGraw". If you were to rewrite your code to this it would stop working:
 
@@ -81,7 +81,7 @@ some people like to put a space before and after the colon, making `var name : S
 
 ![A String type annotation](https://hackingwithswift.com/img/books/hws/types-of-data-2@2x.png)
 
-The lesson here is that Swift always wants to know what type of data every variable or constant will hold. Always. You can't escape it, and that's a good thing because it provides something called type safety – if you say "this will hold a string" then later try and put a rabbit in there, Swift will refuse.
+The lesson here is that Swift always wants to know what type of data every variable or constant will hold. Always. You can't escape it, and that's a good thing because it provides something called type safety - if you say "this will hold a string" then later try and put a rabbit in there, Swift will refuse.
 
 We can try this out now by introducing another important data type, called `Int`, which is short for "integer." Integers are round numbers like 3, 30, 300, or -16777216. For example:
 
@@ -95,7 +95,7 @@ age = 25
 
 ![Playground with String and Integer type variables.](https://hackingwithswift.com/img/books/hws/types-of-data-3@2x.png)
 
-That declares one variable to be a string and one to be an integer. Note how both `String` and `Int` have capital letters at the start, whereas `name` and `age` do not – this is the standard coding convention in Swift. A coding convention is something that doesn't matter to Swift (you can write your names how you like!) but does matter to other developers. In this case, data types start with a capital letter, whereas variables and constants do not.
+That declares one variable to be a string and one to be an integer. Note how both `String` and `Int` have capital letters at the start, whereas `name` and `age` do not - this is the standard coding convention in Swift. A coding convention is something that doesn't matter to Swift (you can write your names how you like!) but does matter to other developers. In this case, data types start with a capital letter, whereas variables and constants do not.
 
 Now that we have variables of two different types, you can see type safety in action. Try writing this:
 
@@ -106,7 +106,7 @@ age = "Tim McGraw"
 
 ![Errors from assigning String to Int and the other way around.](https://hackingwithswift.com/img/books/hws/types-of-data-4@2x.png)
 
-In that code, you're trying to put an integer into a string variable, and a string into an integer variable – and, thankfully, Xcode will throw up errors. You might think this is pedantic, but it's actually quite helpful: you make a promise that a variable will hold one particular type of data, and Xcode will enforce that throughout your work.
+In that code, you're trying to put an integer into a string variable, and a string into an integer variable - and, thankfully, Xcode will throw up errors. You might think this is pedantic, but it's actually quite helpful: you make a promise that a variable will hold one particular type of data, and Xcode will enforce that throughout your work.
 
 **Before you go on, please delete those two lines of code causing the error, otherwise nothing in your playground will work going forward!**
 
@@ -128,7 +128,7 @@ longitude = -86.783333
 
 ![Double and Float variables. `longitude` has a 3 missing off the end in the printout.](https://hackingwithswift.com/img/books/hws/types-of-data-5@2x.png)
 
-You can see both numbers appear on the right, but look carefully because there's a tiny discrepancy. We said that `longitude` should be equal to -86.783333, but in the results pane you'll see -86.78333 – it's missing one last 3 on the end. Now, you might well say, "what does 0.000003 matter among friends?" but this is ably demonstrating what I was saying about accuracy.
+You can see both numbers appear on the right, but look carefully because there's a tiny discrepancy. We said that `longitude` should be equal to -86.783333, but in the results pane you'll see -86.78333 - it's missing one last 3 on the end. Now, you might well say, "what does 0.000003 matter among friends?" but this is ably demonstrating what I was saying about accuracy.
 
 Because these playgrounds update as you type, we can try things out so you can see exactly how `Float` and `Double` differ. Try changing the code to be this:
 
@@ -144,7 +144,7 @@ longitude = -1234586.783333
 
 ![Printouts of various Float values. The input gets longer, but the output is shortened to always be the same length.](https://hackingwithswift.com/img/books/hws/types-of-data-6@2x.png)
 
-That's adding increasing numbers before the decimal point, while keeping the same amount of numbers after. But if you look in the results pane you'll notice that as you add more numbers before the point, Swift is removing numbers after. This is because it has limited space in which to store your number, so it's storing the most important part first – being off by 1,000,000 is a big thing, whereas being off by 0.000003 is less so.
+That's adding increasing numbers before the decimal point, while keeping the same amount of numbers after. But if you look in the results pane you'll notice that as you add more numbers before the point, Swift is removing numbers after. This is because it has limited space in which to store your number, so it's storing the most important part first - being off by 1,000,000 is a big thing, whereas being off by 0.000003 is less so.
 
 Now try changing the `Float` to be a `Double` and you'll see Swift prints the correct number out every time:
 
@@ -154,7 +154,7 @@ var longitude: Double
 
 ![Printouts of various Double values. The input and output both get longer.](https://hackingwithswift.com/img/books/hws/types-of-data-7@2x.png)
 
-This is because, again, `Double` has twice the accuracy of `Float` so it doesn't need to cut your number to fit. Doubles still have limits, though – if you were to try a massive number like 123456789.123456789 you would see it gets cut down to 123456789.1234568.
+This is because, again, `Double` has twice the accuracy of `Float` so it doesn't need to cut your number to fit. Doubles still have limits, though - if you were to try a massive number like 123456789.123456789 you would see it gets cut down to 123456789.1234568.
 
 ---
 

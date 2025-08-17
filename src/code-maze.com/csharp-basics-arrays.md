@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Back to Basics – Arrays
-description: Article(s) > C# Back to Basics – Arrays
+title: C# Back to Basics - Arrays
+description: Article(s) > C# Back to Basics - Arrays
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Back to Basics – Arrays
+      content: Article(s) > C# Back to Basics - Arrays
     - property: og:description
-      content: C# Back to Basics – Arrays
+      content: C# Back to Basics - Arrays
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-basics-arrays.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/csharp-basics-arrays/banner.png
 ---
 
 <SiteInfo
-  name="C# Back to Basics – Arrays"
+  name="C# Back to Basics - Arrays"
   desc="Learn about Arrays in C#. How to declare them, initialize them and manipulate them. Also, learn how to use multi-dimensional arrays."
   url="https://code-maze.com/csharp-basics-arrays/"
   logo="/assets/image/code-maze.com/favicon.png"

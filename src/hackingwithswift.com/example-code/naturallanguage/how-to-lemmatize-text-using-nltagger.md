@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "NaturalLanguage - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/naturallanguage/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Apple’s NaturalLanguage framework is able to lemmatize text for us, which is the process of converting words to the forms you would find in a dictionary – making plural nouns singular, finding the root forms of conjugated verbs, and so on, while also taking into account the context in which they are used.
+Apple’s NaturalLanguage framework is able to lemmatize text for us, which is the process of converting words to the forms you would find in a dictionary - making plural nouns singular, finding the root forms of conjugated verbs, and so on, while also taking into account the context in which they are used.
 
 To do this, first create an instance of `NLTagger` enabling its `.lemma` scheme, then call `enumerateTags()` on it to find all the root word forms. This will pass you the tag (the root word) if it exists, plus the range of the original text in the string.
 

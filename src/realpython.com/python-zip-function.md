@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/How-to-Use-Python-Zip-with-Examples_Wa
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Parallel Iteration With Python's zip() Function – Real Python"
+  name="Parallel Iteration With Python's zip() Function - Real Python"
   desc="In this course, you'll learn how to use the Python zip() function to solve common programming problems. You'll learn how to traverse multiple iterables in parallel and create dictionaries with just a few lines of code."
   url="https://realpython.com/courses/python-zip-function/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -529,7 +529,7 @@ If you need to handle iterables of unequal length and want to ensure that all el
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="Parallel Iteration With Python's zip() Function – Real Python"
+  name="Parallel Iteration With Python's zip() Function - Real Python"
   desc="In this course, you'll learn how to use the Python zip() function to solve common programming problems. You'll learn how to traverse multiple iterables in parallel and create dictionaries with just a few lines of code."
   url="https://realpython.com/courses/python-zip-function/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

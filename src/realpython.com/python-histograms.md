@@ -95,7 +95,7 @@ cover: https://files.realpython.com/media/Python_Histograms_Watermark.c4daed2c98
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Histogram Plotting in Python: NumPy, Matplotlib, Pandas & Seaborn – Real Python"
+  name="[COURSE] Histogram Plotting in Python: NumPy, Matplotlib, Pandas & Seaborn - Real Python"
   desc="In this course, you'll be equipped to make production-quality, presentation-ready Python histogram plots with a range of choices and features. It's your one-stop shop for constructing and manipulating histograms with Python's scientific stack."
   url="https://realpython.com/courses/python-histograms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -555,7 +555,7 @@ With that, good luck creating histograms in the wild. Hopefully one of the tools
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Histogram Plotting in Python: NumPy, Matplotlib, Pandas & Seaborn – Real Python"
+  name="[COURSE] Histogram Plotting in Python: NumPy, Matplotlib, Pandas & Seaborn - Real Python"
   desc="In this course, you'll be equipped to make production-quality, presentation-ready Python histogram plots with a range of choices and features. It's your one-stop shop for constructing and manipulating histograms with Python's scientific stack."
   url="https://realpython.com/courses/python-histograms/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

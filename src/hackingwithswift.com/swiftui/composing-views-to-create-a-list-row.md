@@ -114,7 +114,7 @@ struct ItemRow_Previews: PreviewProvider {
 }
 ```
 
-Once that's done our code will build again, and if you return back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift` you should see the same preview we had before – nothing has changed. Of course, now we can start to add new things to that `ItemRow` struct to make it more interesting!
+Once that's done our code will build again, and if you return back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift` you should see the same preview we had before - nothing has changed. Of course, now we can start to add new things to that `ItemRow` struct to make it more interesting!
 
 In `ItemRow`, we're going to start by placing the item's thumbnail image and name side by side, like you'd normally see in a `UITableViewCell`. Try writing this:
 
@@ -125,9 +125,9 @@ var body: some View {
 }
 ```
 
-You'll find that Xcode's preview does something quite strange: you'll see a thumbnail image appear, but no text for the item's name – how come one but not both?
+You'll find that Xcode's preview does something quite strange: you'll see a thumbnail image appear, but no text for the item's name - how come one but not both?
 
-Well, what's happening here is that `some View` means we will return one specific view from our method – not two different views, and certainly not no views at all. When you try and return two views like this, Swift automatically wraps them up in a single, hidden container called a _tuple view_, but without any further instructions on how to display this SwiftUI just picks the first view.
+Well, what's happening here is that `some View` means we will return one specific view from our method - not two different views, and certainly not no views at all. When you try and return two views like this, Swift automatically wraps them up in a single, hidden container called a _tuple view_, but without any further instructions on how to display this SwiftUI just picks the first view.
 
 To fix this we need to put those two views inside a container, which in our case will be a `HStack`. This is a container that places its child views side by side horizontally, which is perfect for our needs.
 
@@ -154,7 +154,7 @@ HStack {
 
 However, that will put the price to the right of the name, which isn't great. What we usually want here is the kind of subtitle style that we get from `UITableViewCell`, where we can have an image on the left, and on the right have a title above a detail label.
 
-We can achieve that with another stack, called a `VStack` – a _vertical_ stack. This can go inside our existing `HStack` to create the hierarchy we want:
+We can achieve that with another stack, called a `VStack` - a _vertical_ stack. This can go inside our existing `HStack` to create the hierarchy we want:
 
 ```swift
 HStack {
@@ -176,7 +176,7 @@ VStack(alignment: .leading) {
 }
 ```
 
-If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, your SwiftUI preview should update so you can see how the full list looks now – much better, I think!
+If you head back to <FontIcon icon="fa-brands fa-swift"/>`ContentView.swift`, your SwiftUI preview should update so you can see how the full list looks now - much better, I think!
 
 ![A SwiftUI list with a picture, title, and caption for each row.](https://hackingwithswift.com/img/books/quick-start/swiftui/2-7~dark.png)
 

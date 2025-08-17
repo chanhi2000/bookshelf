@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -52,7 +52,7 @@ isOriginal: false
 }
 ```
 
-That's the end of our tour around the Swift programming language. I haven't tried to cover everything in the language, but that's okay because you have all the important stuff, all the sometimes-important stuff, and all the nice-to-know stuff – the many other features you'll either come across in a later project or through extended experience with the language.
+That's the end of our tour around the Swift programming language. I haven't tried to cover everything in the language, but that's okay because you have all the important stuff, all the sometimes-important stuff, and all the nice-to-know stuff - the many other features you'll either come across in a later project or through extended experience with the language.
 
 From here on, we’re going to focus primarily on building apps. If you want to learn more about the Swift language itself, you might want to consider my [<FontIcon icon="fas fa-globe"/>Pro Swift](https://gum.co/proswift) book.
 

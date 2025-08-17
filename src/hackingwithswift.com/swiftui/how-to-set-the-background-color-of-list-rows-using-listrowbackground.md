@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI has a dedicated modifier for setting background views behind list rows, called `listRowBackground()`. This accepts any kind of view – including colors, images, and shapes – and uses it behind rows.
+SwiftUI has a dedicated modifier for setting background views behind list rows, called `listRowBackground()`. This accepts any kind of view - including colors, images, and shapes - and uses it behind rows.
 
 For example, this creates a list using 10 rows, each with a red background color:
 

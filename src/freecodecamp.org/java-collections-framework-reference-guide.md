@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use the Java Collections Framework – A Guide for Developers"
-description: "Article(s) > How to Use the Java Collections Framework – A Guide for Developers"
+title: "How to Use the Java Collections Framework - A Guide for Developers"
+description: "Article(s) > How to Use the Java Collections Framework - A Guide for Developers"
 icon: fa-brands fa-java
 category:
   - Java
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use the Java Collections Framework – A Guide for Developers"
+      content: "Article(s) > How to Use the Java Collections Framework - A Guide for Developers"
     - property: og:description
-      content: "How to Use the Java Collections Framework – A Guide for Developers"
+      content: "How to Use the Java Collections Framework - A Guide for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/java-collections-framework-reference-guide.html
 prev: /programming/java/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738077724002/cfbf6a9
 ---
 
 <SiteInfo
-  name="How to Use the Java Collections Framework – A Guide for Developers"
+  name="How to Use the Java Collections Framework - A Guide for Developers"
   desc="In your Java applications, you’ll typically work with various types of objects. And you might want to perform operations like sorting, searching, and iterating on these objects. Prior to the introduction of the Collections framework in JDK 1.2, you w..."
   url="https://freecodecamp.org/news/java-collections-framework-reference-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -290,9 +290,9 @@ A `Queue` is a linear collection of elements used to hold multiple items before 
 
 The internal workings of a `Queue` can differ based on its specific implementation.
 
-- `LinkedList` – uses a doubly-linked list to store elements, which means you can traverse both forward and backward, allowing for flexible operations.
-- `PriorityQueue` – is internally backed by a binary heap, which is very efficient for retrieval operations.
-- `ArrayDeque` – is implemented using an array that expands or shrinks as elements are added or removed. Here, elements can be added or removed from both ends of the queue.
+- `LinkedList` - uses a doubly-linked list to store elements, which means you can traverse both forward and backward, allowing for flexible operations.
+- `PriorityQueue` - is internally backed by a binary heap, which is very efficient for retrieval operations.
+- `ArrayDeque` - is implemented using an array that expands or shrinks as elements are added or removed. Here, elements can be added or removed from both ends of the queue.
 
 @tab 2. Duplicates
 
@@ -386,9 +386,9 @@ Since duplicate keys are not allowed, a `Map` can have only one null key. As dup
 
 Insertion order of a `Map` varies on the implementation:
 
-- `HashMap` – the insertion order is not guaranteed as they are determined based on the concept of hashing.
-- `LinkedHashMap` – the insertion order is preserved and you can retrieve the elements back in the same order that they were added into the collection.
-- `TreeMap` – Elements are inserted based on their natural order. Alternatively, you can control the insertion order by specifying a custom comparator.
+- `HashMap` - the insertion order is not guaranteed as they are determined based on the concept of hashing.
+- `LinkedHashMap` - the insertion order is preserved and you can retrieve the elements back in the same order that they were added into the collection.
+- `TreeMap` - Elements are inserted based on their natural order. Alternatively, you can control the insertion order by specifying a custom comparator.
 
 @tab 5. Synchronization
 
@@ -455,12 +455,12 @@ As highlighted at the beginning of this article, the `Collections` utility class
 
 Here are some key features and methods, along with what they do, listed briefly:
 
-1. **Sorting:** `Collections.sort(List<T>)` – this method is used to sort the elements of a list in ascending order.
-2. **Searching:** `Collections.binarySearch(List<T>, key)` – this method is used to search for a specific element in a sorted list and return its index.
-3. **Reverse order:** `Collections.reverse(List<T>)` – this method is used to reverse the order of elements in a list.
-4. **Min/Max Operations:** `Collections.min(Collection<T>)` and `Collections.max(Collection<T>)` – these methods are used to find the minimum and maximum elements in a collection, respectively.
-5. **Synchronization:** `Collections.synchronizedList(List<T>)` – this method is used to make a list thread-safe by synchronizing it.
-6. **Unmodifiable Collections:** `Collections.unmodifiableList(List<T>)` – this method is used to create a read-only view of a list, preventing modifications.
+1. **Sorting:** `Collections.sort(List<T>)` - this method is used to sort the elements of a list in ascending order.
+2. **Searching:** `Collections.binarySearch(List<T>, key)` - this method is used to search for a specific element in a sorted list and return its index.
+3. **Reverse order:** `Collections.reverse(List<T>)` - this method is used to reverse the order of elements in a list.
+4. **Min/Max Operations:** `Collections.min(Collection<T>)` and `Collections.max(Collection<T>)` - these methods are used to find the minimum and maximum elements in a collection, respectively.
+5. **Synchronization:** `Collections.synchronizedList(List<T>)` - this method is used to make a list thread-safe by synchronizing it.
+6. **Unmodifiable Collections:** `Collections.unmodifiableList(List<T>)` - this method is used to create a read-only view of a list, preventing modifications.
 
 Here's a sample Java program that demonstrates various functionalities of the `Collections` utility class:
 
@@ -522,7 +522,7 @@ If you found this article interesting, feel free to check out my other articles 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use the Java Collections Framework – A Guide for Developers",
+  "title": "How to Use the Java Collections Framework - A Guide for Developers",
   "desc": "In your Java applications, you’ll typically work with various types of objects. And you might want to perform operations like sorting, searching, and iterating on these objects. Prior to the introduction of the Collections framework in JDK 1.2, you w...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/java-collections-framework-reference-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

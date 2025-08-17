@@ -79,13 +79,13 @@ struct ContentView: View {
 
 ::: tip
 
-When binding to a custom `Binding` instance, you don't need to use the dollar sign before the binding name – you're already reading the two-way binding.
+When binding to a custom `Binding` instance, you don't need to use the dollar sign before the binding name - you're already reading the two-way binding.
 
 :::
 
-Custom bindings are useful when you want to add extra logic to a binding being read or written – you might want to perform some calculations before sending a value back, or you might want to take some extra actions when the value is changed.
+Custom bindings are useful when you want to add extra logic to a binding being read or written - you might want to perform some calculations before sending a value back, or you might want to take some extra actions when the value is changed.
 
-For example, we could create a stack of two toggle switches where both can be off and either one can be on, but both can't be on at the same time – enabling one will always disable the other. Here's how that looks in code:
+For example, we could create a stack of two toggle switches where both can be off and either one can be on, but both can't be on at the same time - enabling one will always disable the other. Here's how that looks in code:
 
 ```swift
 struct ContentView: View {

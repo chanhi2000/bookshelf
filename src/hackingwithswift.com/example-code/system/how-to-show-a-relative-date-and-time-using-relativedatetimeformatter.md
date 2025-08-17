@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -88,7 +88,7 @@ Having that second `relativeTo` parameter available allows us to calculate relat
 let relativeDate2 = formatter.localizedString(for: someDate, relativeTo: someOtherDate)
 ```
 
-**Tip:** Although relative time formatters are great for things in recent history – the last few months, perhaps – they are less useful for larger time gaps. So, you might want to try checking whether your date is over six months ago, and if so use a custom formatter instead to give the specific date.
+**Tip:** Although relative time formatters are great for things in recent history - the last few months, perhaps - they are less useful for larger time gaps. So, you might want to try checking whether your date is over six months ago, and if so use a custom formatter instead to give the specific date.
 
 -->
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Next.js vs React – Differences and How to Choose the Right One for Your Project"
-description: "Article(s) > Next.js vs React – Differences and How to Choose the Right One for Your Project"
+title: "Next.js vs React - Differences and How to Choose the Right One for Your Project"
+description: "Article(s) > Next.js vs React - Differences and How to Choose the Right One for Your Project"
 icon: iconfont icon-nextjs
 category:
   - Node.js
@@ -23,9 +23,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Next.js vs React – Differences and How to Choose the Right One for Your Project"
+      content: "Article(s) > Next.js vs React - Differences and How to Choose the Right One for Your Project"
     - property: og:description
-      content: "Next.js vs React – Differences and How to Choose the Right One for Your Project"
+      content: "Next.js vs React - Differences and How to Choose the Right One for Your Project"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/nextjs-vs-react-differences.html
 prev: /programming/js-next/articles/README.md
@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733260801154/22f3a03
 ---
 
 <SiteInfo
-  name="Next.js vs React – Differences and How to Choose the Right One for Your Project"
+  name="Next.js vs React - Differences and How to Choose the Right One for Your Project"
   desc="As a developer, there are many tools, languages, frameworks and open-source packages you have to learn in order to make your job easier and straightforward (though the journey isn’t a straightforward one but you will get there). Some of these tools, ..."
   url="https://freecodecamp.org/news/nextjs-vs-react-differences"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -84,7 +84,7 @@ A library is a collection of already-written code that can be reused or called u
 
 ::: tip Example
 
-Imagine a library where you go to study. The books are already available on the shelves – you simply pick the one you need and start reading. Similarly, in programming, a library provides ready-made tools that you can use in your project without starting from scratch.
+Imagine a library where you go to study. The books are already available on the shelves - you simply pick the one you need and start reading. Similarly, in programming, a library provides ready-made tools that you can use in your project without starting from scratch.
 
 :::
 
@@ -144,7 +144,7 @@ Unlike React, Next.js supports server-side rendering (SSR), so requests are proc
 
 Server-side rendering (SSR) is a technique in web development where a server generates the HTML for a web page on the server and sends it to the browser (client). In other words, the server handles the structures and logic of the page and displays a fully rendered page on the screen.
 
-In server-side rendering, a request is first sent to the server from the browser (client), then the server begins to process the request and when it's done processing the request, it executes the request by generating and displaying an HTML file with the content on the browser (client side). When a change is made or a new page is requested, a new request is sent again to the server and it is processed all over again – a fresh, fully rendered HTML file will be generated and displayed on the browser (client).
+In server-side rendering, a request is first sent to the server from the browser (client), then the server begins to process the request and when it's done processing the request, it executes the request by generating and displaying an HTML file with the content on the browser (client side). When a change is made or a new page is requested, a new request is sent again to the server and it is processed all over again - a fresh, fully rendered HTML file will be generated and displayed on the browser (client).
 
 For a better understanding of CSR and SSR, I have added a [<FontIcon icon="fa-brands fa-youtube"/>YouTube video here](https://youtu.be/-JXUaydU1J0).
 
@@ -236,7 +236,7 @@ Happy coding.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Next.js vs React – Differences and How to Choose the Right One for Your Project",
+  "title": "Next.js vs React - Differences and How to Choose the Right One for Your Project",
   "desc": "As a developer, there are many tools, languages, frameworks and open-source packages you have to learn in order to make your job easier and straightforward (though the journey isn’t a straightforward one but you will get there). Some of these tools, ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/nextjs-vs-react-differences.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

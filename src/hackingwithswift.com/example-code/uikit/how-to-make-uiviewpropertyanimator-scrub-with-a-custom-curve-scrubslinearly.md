@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 `UIViewPropertyAnimator` is an incredibly easy way to build custom animations on iOS, making it trivial to support scrubbable, reversible animations. However, by default scrubbing behaves differently from your regular animation: scrubbing always happens linearly, even if your animation was performed using a curve such as ease-in-ease-out.
 
-This is actually a feature rather than a bug, and it’s incredibly intelligent – iOS automatically maps your curve onto a linear animation at the same point, and does the same in reverse, because it can be confusing for users if they try to scrub an animation and it doesn’t follow their finger.
+This is actually a feature rather than a bug, and it’s incredibly intelligent - iOS automatically maps your curve onto a linear animation at the same point, and does the same in reverse, because it can be confusing for users if they try to scrub an animation and it doesn’t follow their finger.
 
 On the flip side, of you’re scrubbing an animation programmatically this behavior isn’t always desirable. Fortunately, iOS 11 introduced a `scrubsLinearly` property for `UIViewPropertyAnimator`: set this to false to make scrubbing retain your custom animation curve.
 

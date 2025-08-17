@@ -67,7 +67,7 @@ let border1: BorderStyle = .none
 print(border1)
 ```
 
-That will print “none”. But if we used an optional for that enum – if we didn’t know what border style to use – then we’d hit problems:
+That will print “none”. But if we used an optional for that enum - if we didn’t know what border style to use - then we’d hit problems:
 
 ```swift
 let border2: BorderStyle? = .none

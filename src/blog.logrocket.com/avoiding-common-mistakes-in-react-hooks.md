@@ -330,7 +330,7 @@ With this method, the test does not break as a result of changes in implementati
 In this article, we’ve looked at some common mistakes that occur when transitioning to React Hooks. We’ve also seen how to avoid those mistakes and best practices to follow. Learn more about React Hooks [<FontIcon icon="fa-brands fa-react"/>here](https://reactjs.org/docs/hooks-intro.html).
 
 <SiteInfo
-  name="Introducing Hooks – React"
+  name="Introducing Hooks - React"
   desc="A JavaScript library for building user interfaces"
   url="https://legacy.reactjs.org/docs/hooks-intro.html/"
   logo="https://legacy.reactjs.org/favicon-32x32.png?v=f4d46f030265b4c48a05c999b8d93791"

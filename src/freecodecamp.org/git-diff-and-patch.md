@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Git Diff and Patch – Full Handbook for Developers"
-description: "Article(s) > Git Diff and Patch – Full Handbook for Developers"
+title: "Git Diff and Patch - Full Handbook for Developers"
+description: "Article(s) > Git Diff and Patch - Full Handbook for Developers"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Git Diff and Patch – Full Handbook for Developers"
+      content: "Article(s) > Git Diff and Patch - Full Handbook for Developers"
     - property: og:description
-      content: "Git Diff and Patch – Full Handbook for Developers"
+      content: "Git Diff and Patch - Full Handbook for Developers"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-diff-and-patch.html
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-f
 ---
 
 <SiteInfo
-  name="Git Diff and Patch – Full Handbook for Developers"
+  name="Git Diff and Patch - Full Handbook for Developers"
   desc="Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh..."
   url="https://freecodecamp.org/news/git-diff-and-patch"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -70,7 +70,7 @@ Git’s `diff` is based on the diff utility on UNIX systems. `diff` was develope
 
 <VidStack src="youtube/eG9oAroMcPk" />
 
-This is important – `git diff` computes the difference between two strings, which most of the time happen to consist of code, but not necessarily.
+This is important - `git diff` computes the difference between two strings, which most of the time happen to consist of code, but not necessarily.
 
 ---
 
@@ -91,7 +91,7 @@ Save this file with a new name, say <FontIcon icon="fas fa-file-lines"/>`new_fil
 Now we can run `git diff` to compute the difference between the files like so:
 
 ```sh
-git diff -–no-index file.txt new_file.txt
+git diff --no-index file.txt new_file.txt
 ```
 
 ::: note 
@@ -118,7 +118,7 @@ These days, the Unix diff program, and `git diff`, can produce patches of variou
 
 A `patch` is a compact representation of the differences between two files. It describes how to turn one file into another.
 
-That is, if you apply the “instructions” produced by `git diff` on <FontIcon icon="fas fa-file-lines"/>`file.txt` – that is, remove the second line, insert `// new text` as the fourth line, and add another `!` to the last line – you would get the content of <FontIcon icon="fas fa-file-lines"/>`new_file.txt`.
+That is, if you apply the “instructions” produced by `git diff` on <FontIcon icon="fas fa-file-lines"/>`file.txt` - that is, remove the second line, insert `// new text` as the fourth line, and add another `!` to the last line - you would get the content of <FontIcon icon="fas fa-file-lines"/>`new_file.txt`.
 
 Another important thing to note is that a patch is asymmetric: the patch from <FontIcon icon="fas fa-file-lines"/>`file.txt` to <FontIcon icon="fas fa-file-lines"/>`new_file.txt` is not the same as the patch for the other direction.
 
@@ -129,7 +129,7 @@ So, in this example, generating a `patch` between <FontIcon icon="fas fa-file-li
 Try it out:
 
 ```sh
-git diff -–no-index new_file.txt file.txt
+git diff --no-index new_file.txt file.txt
 ```
 
 ![Running `git diff` in the reverse direction yields the reverse instructions - add a line instead of removing it, and so on <br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/eG9oAroMcPk)>](https://freecodecamp.org/news/content/images/2023/02/image-169.png)
@@ -145,7 +145,7 @@ So, it's time to dive deeper 😎.
 Generate a diff from <FontIcon icon="fas fa-file-lines"/>`file.txt` to <FontIcon icon="fas fa-file-lines"/>`new_file.txt` again, and consider the output more carefully:
 
 ```sh
-git diff -–no-index file.txt new_file.txt
+git diff --no-index file.txt new_file.txt
 ```
 
 The first line introduces the compared files. Git always gives one file the name `a`, and the other the name `b`. So in this case <FontIcon icon="fas fa-file-lines"/>`file.txt` is called `a`, whereas <FontIcon icon="fas fa-file-lines"/>`new_file.txt` is called `b`.
@@ -193,7 +193,7 @@ Every hunk begins with a single line, starting with two `@` signs. These signs a
 Usually, it will include the beginning of a function or a class, when possible. In this example it doesn't include anything as this is a text file, so consider another example for a moment:
 
 ```sh
-git diff -–no-index example.py example_changed.py
+git diff --no-index example.py example_changed.py
 ```
 
 ![When possible, Git includes a header for each hunk, for example a function or class definition <br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/eG9oAroMcPk)>](https://freecodecamp.org/news/content/images/2023/02/image-175.png)
@@ -316,7 +316,7 @@ If you use `git diff`, what will happen?
 
 Well, as stated before, you get the diff between the staging area and the working tree.
 
-What happens if you want to get the diff between `HEAD` and the staging area? For that, you can use `git diff –cached`:
+What happens if you want to get the diff between `HEAD` and the staging area? For that, you can use `git diff -cached`:
 
 ![`git diff --cached` shows the difference between `HEAD` and the index <br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/eG9oAroMcPk)>](https://freecodecamp.org/news/content/images/2023/02/image-190.png)
 
@@ -328,7 +328,7 @@ To summarize the different switches for `git diff`, see this diagram that you ca
 
 ![Different switches for `git diff` <br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/eG9oAroMcPk)>](https://freecodecamp.org/news/content/images/2023/02/image-192.png)
 
-As a reminder, at the beginning of this post you used `git diff -–no-index`. With the `--no-index` switch you can compare two files that are not part of the repository - or of any staging area.
+As a reminder, at the beginning of this post you used `git diff --no-index`. With the `--no-index` switch you can compare two files that are not part of the repository - or of any staging area.
 
 Now, commit the changes you have in the staging area:
 
@@ -411,7 +411,7 @@ git diff HEAD~1 HEAD > my_patch.patch
 And `reset` to undo the last commit:
 
 ```sh
-git reset –hard HEAD~1
+git reset -hard HEAD~1
 ```
 
 If you are not completely comfortable with `git reset`, check [**a previous post that covered it in depth**](/freecodecamp.org/save-the-day-with-git-reset.md). In short, it allows us to "reset" the state of where `HEAD` is pointing to, as well as the state of the index and of the working dir.
@@ -605,7 +605,7 @@ In future tutorials, you will use your knowledge from this post to dive into the
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Git Diff and Patch – Full Handbook for Developers",
+  "title": "Git Diff and Patch - Full Handbook for Developers",
   "desc": "Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-diff-and-patch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

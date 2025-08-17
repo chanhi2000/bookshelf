@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ func destroy(ball: SKNode) {
 
 The `SKEmitterNode` class is new and powerful: it's designed to create high-performance particle effects in SpriteKit games, and all you need to do is provide it with the filename of the particles you designed and it will do the rest. Once we have an `SKEmitterNode` object to work with, we position it where the ball was then use `addChild()` to add it to the scene.
 
-If you run the app now, you'll see the balls explode in a fireball when they touch a slot – a pretty darn amazing effect given how little code was written!
+If you run the app now, you'll see the balls explode in a fireball when they touch a slot - a pretty darn amazing effect given how little code was written!
 
 But the real fun is yet to come, because the code for this project is now all done and you get to play with the particle editor. In Xcode, look in the Content folder you dragged in and select the FireParticles.sks file to load the particle editor.
 

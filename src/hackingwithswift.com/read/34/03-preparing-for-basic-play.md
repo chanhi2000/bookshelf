@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ static var height = 6
 
 Now go back to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Like I said, there's an important distinction between the model and the view. That `Board` class will hold our model, which means it will store where all the chips are and who is winning. This view controller will store its own array of where the chips are, but it does this so it can draw the view correctly.
 
-A "chip" in this case is a 4IR piece, either red or black. We'll be using `UIViews` for this purpose, setting a high corner radius so they look like circles – it's a simple trick, but effective. To store this, we'll need an array of arrays. That is, we'll need an array to store each column, and another array to hold all those column arrays. We're also going to add a property to store a `Board` object, using that class we just created. So, add these two properties to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
+A "chip" in this case is a 4IR piece, either red or black. We'll be using `UIViews` for this purpose, setting a high corner radius so they look like circles - it's a simple trick, but effective. To store this, we'll need an array of arrays. That is, we'll need an array to store each column, and another array to hold all those column arrays. We're also going to add a property to store a `Board` object, using that class we just created. So, add these two properties to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
 ```swift
 var placedChips = [[UIView]]()
@@ -159,7 +159,7 @@ Those two methods will be used extensively to check what moves are valid, so it'
 
 Next up: determining whether a player can place a chip in a column. To make this work, we're going to use a helper method called `nextEmptySlot(in:)`, which will return the first row number that contains no chips in a specific column. With that helper method in place, we can check whether a player can move in a column just by checking to see if there is an empty slot there.
 
-The `nextEmptySlot(in:)` helper method works by counting up in a column, from 0 up to the height of the board. For every slot, it calls `chip(inColumn:row:)` to see what chip color is there already, and if it gets back `.none` it means that row is good to use. If it gets to the end of the board without finding a `.none` it will return `nil` – this column has no free slots.
+The `nextEmptySlot(in:)` helper method works by counting up in a column, from 0 up to the height of the board. For every slot, it calls `chip(inColumn:row:)` to see what chip color is there already, and if it gets back `.none` it means that row is good to use. If it gets to the end of the board without finding a `.none` it will return `nil` - this column has no free slots.
 
 Here's the code:
 
@@ -197,7 +197,7 @@ Annoyingly, all that code doesn't have any visual impact on our game: this is al
 
 The first of our new methods is called `addChip(inColumn:row:)` and it matches the board's `add(chip:in:)` method. Adding a chip in the view takes more than just three lines of code, though: it needs to calculate the size of a chip, create a `UIView` with the correct background color, position it correctly inside the board, then add it to the `placedChips` array.
 
-To make doubly certain the move is safe, we're only going to add a chip if the row is set correctly – i.e., if we aren't trying to add a chip below the existing row height. We're also going to animate the `transform` property of the chip view so that it starts off the top of the screen and slides in. Here's the code to put into the `ViewController` class – note that you'll get an error for the time being:
+To make doubly certain the move is safe, we're only going to add a chip if the row is set correctly - i.e., if we aren't trying to add a chip below the existing row height. We're also going to animate the `transform` property of the chip view so that it starts off the top of the screen and slides in. Here's the code to put into the `ViewController` class - note that you'll get an error for the time being:
 
 ```swift
 func addChip(inColumn column: Int, row: Int, color: UIColor) {
@@ -229,7 +229,7 @@ There are three other small things in that code I want to pick out as interestin
 The error in the code is that it calls a method we haven't defined yet, called `positionForChip(inColumn:row)`. We'll call this method with a row and a column, and it will return the `CGPoint` where the chip should be placed. This uses six lines of code that make sense once they have been explained, but might make you draw a blank at first. So, here's how it works:
 
 1. It pulls out the `UIButton` that represents the correct column.
-2. It sets the chip size to be either the width of the column button, or the height of the column button divided by six (for six full rows) – whichever is the lowest.
+2. It sets the chip size to be either the width of the column button, or the height of the column button divided by six (for six full rows) - whichever is the lowest.
 3. It uses `midX` to get the horizontal center of the column button, used for the X position of the chip.
 4. It uses `maxY` to get the bottom of the column button, then subtracts half the chip size because we're working with the center of the chip.
 5. It then multiplies the row by the size of each chip to figure out how far to offset the new chip, and subtracts that from the Y position calculated in 4.

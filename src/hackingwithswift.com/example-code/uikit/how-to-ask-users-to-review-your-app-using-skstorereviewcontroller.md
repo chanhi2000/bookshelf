@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -66,7 +66,7 @@ To avoid this problem in the future, and also to provide a standardized interfac
 But first, some important information:
 
 1. You *request* that the system show a review dialog, which means the request might be ignored based on internal logic known only to Apple.
-<li>Because the request might be ignored, you should *not* trigger the request from a user-facing button saying something like “Leave a review” – it might appear to do nothing at all.
+<li>Because the request might be ignored, you should *not* trigger the request from a user-facing button saying something like “Leave a review” - it might appear to do nothing at all.
 <li>When you are in development, requesting a review will always show the review user interface, but you can’t submit an actual review.
 <li>When you are using TestFlight to test your app, requesting a review will do nothing at all.
 

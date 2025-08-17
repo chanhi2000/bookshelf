@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/Picture1.png
 
 Every now and then, there are waves of technology that threaten to make the previous generation of technology obsolete. There has been a lot of talk about a technique called “serverless” for writing apps. The idea is to deploy your application as a series of functions, which are called on-demand when they need to be run. You don’t need to worry about managing servers, and these functions scale as much as you need, because they are called on-demand and run on a cluster.
 
-But serverless doesn’t mean there is no Docker –in fact, Docker *is* serverless. You can use Docker to containerize these functions, then run them on-demand on a Swarm. Serverless is a technique for building distributed apps and Docker is the perfect platform for building them on.
+But serverless doesn’t mean there is no Docker -in fact, Docker *is* serverless. You can use Docker to containerize these functions, then run them on-demand on a Swarm. Serverless is a technique for building distributed apps and Docker is the perfect platform for building them on.
 
 ---
 
@@ -101,7 +101,7 @@ There are three useful techniques here which you can use in your apps:
 
 With the combination of these techniques, this opens up loads of possibilities about how you can architect your applications. Running background work is a great example of something that works well, but a whole load of other things are possible too, for example:
 
-- Launching a container to serve user-facing HTTP requests is probably not practical due to the latency. However –you could write a load balancer which knew how to auto-scale its own web frontends by running containers on a Swarm.
+- Launching a container to serve user-facing HTTP requests is probably not practical due to the latency. However -you could write a load balancer which knew how to auto-scale its own web frontends by running containers on a Swarm.
 - A MongoDB container which could introspect the structure of a Swarm and launch the correct shards and replicas.
 
 ---
@@ -110,7 +110,7 @@ With the combination of these techniques, this opens up loads of possibilities a
 
 We’ve got all these radically new tools and abstractions for building apps, and we’ve barely scratched the surface of what is possible with them. We’re still building applications like we have servers that stick around for a long time, not for the future where we have Swarms that can run code on-demand anywhere in your infrastructure.
 
-This hopefully gives you some ideas about what you can build, but we also need your help. We have all the fundamentals to be able to start building these applications, but its still in its infrancy –we need better tooling, libraries, example apps, documentation, and so on.
+This hopefully gives you some ideas about what you can build, but we also need your help. We have all the fundamentals to be able to start building these applications, but its still in its infrancy -we need better tooling, libraries, example apps, documentation, and so on.
 
 [This GitHub repository has links off to tools, libraries, examples, and blog posts. (<FontIcon icon="iconfont icon-github"/>`bfirsh/serverless-docker`)](https://github.com/bfirsh/serverless-docker) Head over there if you want to learn more, and please contribute any links you have there so we can start working together on this.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Unowned variables are similar to weak variables in that they provide a way to reference data without having ownership. However, weak variables can become `nil` – they are effectively optional. In comparison, unowned variables must never be set to nil once they have been initialized, which means you don't need to worry about unwrapping optionals.
+Unowned variables are similar to weak variables in that they provide a way to reference data without having ownership. However, weak variables can become `nil` - they are effectively optional. In comparison, unowned variables must never be set to nil once they have been initialized, which means you don't need to worry about unwrapping optionals.
 
-The most common place you'll see unowned variables is with closures that declare `[unowned self]` – this means "I want to reference `self` inside this closure but I don't want to own it." Why `unowned` rather than `weak`? Both would work, but let's face it: if `self` is nil inside a closure, something has gone wrong!
+The most common place you'll see unowned variables is with closures that declare `[unowned self]` - this means "I want to reference `self` inside this closure but I don't want to own it." Why `unowned` rather than `weak`? Both would work, but let's face it: if `self` is nil inside a closure, something has gone wrong!
 
 -->
 

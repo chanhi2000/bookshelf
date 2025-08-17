@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744827939254/f99ab71
 
 <SiteInfo
   name="How to Create a JSON Web Token in the Django Rest Framework"
-  desc="When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff – and that’s where authentication comes in. One of the most common and reliable ways to handle authenticat..."
+  desc="When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff - and that’s where authentication comes in. One of the most common and reliable ways to handle authenticat..."
   url="https://freecodecamp.org/news/how-to-create-a-json-web-token-in-the-django-rest-framework"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744827939254/f99ab71c-f3a6-4858-8682-592e2e41bd45.png"/>
 
-When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff – and that’s where authentication comes in.
+When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff - and that’s where authentication comes in.
 
 One of the most common and reliable ways to handle authentication in modern web apps is using JWT, short for JSON Web Tokens.
 
@@ -76,9 +76,9 @@ The server checks that token, and if everything’s okay, it gives access to the
 
 A JWT is made of three parts:
 
-1. **Header** – contains the type of token and the signing algorithm.
-2. **Payload** – contains the data (like user ID).
-3. **Signature** – used to verify the token wasn’t changed.
+1. **Header** - contains the type of token and the signing algorithm.
+2. **Payload** - contains the data (like user ID).
+3. **Signature** - used to verify the token wasn’t changed.
 
 ---
 
@@ -307,7 +307,7 @@ Let’s now look at some DRF best practices so you can effectively use this fram
 
 ### 1. Use HTTPS Always*
 
-HTTPS encrypts the data transmitted between the client (browser or app) and the server. If you use HTTP instead, anyone on the same network (like public Wi-Fi) could intercept sensitive data – including access tokens – through a method called man-in-the-middle (MITM) attacks.
+HTTPS encrypts the data transmitted between the client (browser or app) and the server. If you use HTTP instead, anyone on the same network (like public Wi-Fi) could intercept sensitive data - including access tokens - through a method called man-in-the-middle (MITM) attacks.
 
 ::: tip Best practices:
 
@@ -321,7 +321,7 @@ HTTPS encrypts the data transmitted between the client (browser or app) and the 
 
 Tokens like **JWTs** are often stored client-side (in localStorage, sessionStorage, or cookies).
 
-If they contain sensitive data (like passwords, personal info, or secret keys), they become a major security risk – especially if stolen or compromised.
+If they contain sensitive data (like passwords, personal info, or secret keys), they become a major security risk - especially if stolen or compromised.
 
 ::: tip What to do instead:
 
@@ -335,7 +335,7 @@ If they contain sensitive data (like passwords, personal info, or secret keys), 
 
 #### What’s a signing key?
 
-In systems using JWTs, the signing key (or secret key) is used to sign the token – a cryptographic way to ensure the token hasn’t been tampered with.
+In systems using JWTs, the signing key (or secret key) is used to sign the token - a cryptographic way to ensure the token hasn’t been tampered with.
 
 If someone gets your signing key, they can forge valid-looking tokens and impersonate users.
 
@@ -370,7 +370,7 @@ Access tokens grant permission to access protected resources. If stolen, they ca
 
 ::: tip Best practices
 
-- Set access tokens to expire quickly (5–15 minutes is common).
+- Set access tokens to expire quickly (5-15 minutes is common).
 - Use refresh tokens to allow the client to get new access tokens without re-logging in.
 - Store refresh tokens securely (prefer HTTP-only cookies).
 - Revoke refresh tokens on logout, suspicious activity, or device changes.
@@ -387,7 +387,7 @@ Access tokens grant permission to access protected resources. If stolen, they ca
 
 Would you like me to show how this all ties together in an example flow (like how a login, token issuance, and refresh works)?
 
-JWTS make authentication easier and more scalable for APIS. Once you set it up in the Django Rest Framework, it just works – and you’ve got a secure way to let users in and keep unwanted traffic out.
+JWTS make authentication easier and more scalable for APIS. Once you set it up in the Django Rest Framework, it just works - and you’ve got a secure way to let users in and keep unwanted traffic out.
 
 It’s a must-know if you’re building APIS with Django.
 
@@ -437,7 +437,7 @@ It’s a must-know if you’re building APIS with Django.
 ```component VPCard
 {
   "title": "How to Create a JSON Web Token in the Django Rest Framework",
-  "desc": "When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff – and that’s where authentication comes in. One of the most common and reliable ways to handle authenticat...",
+  "desc": "When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff - and that’s where authentication comes in. One of the most common and reliable ways to handle authenticat...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-json-web-token-in-the-django-rest-framework.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

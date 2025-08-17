@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ XCTest has a solution, and it's a beautiful one: integrated user interface tests
 
 When we created our project we added both unit tests (<FontIcon icon="fa-brands fa-swift"/>`Project39Tests.swift`) and also UI tests (<FontIcon icon="fa-brands fa-swift"/>`Project39UITests.swift`), and we'll be working with the latter now so please open <FontIcon icon="fa-brands fa-swift"/>`Project39UITests.swift` for editing.
 
-You'll see Xcode has written `setup()` and `tearDown()` methods again, although this time the `setup()` method actually has some code in to get things started. You'll also see a `testExample()` method, but please just delete that – we'll be writing our own.
+You'll see Xcode has written `setup()` and `tearDown()` methods again, although this time the `setup()` method actually has some code in to get things started. You'll also see a `testExample()` method, but please just delete that - we'll be writing our own.
 
 We're going to start with a very simple test: when the view controller loads, does it show the correct number of words? If you remember, our app applies an immediate filter for the word "swift", which appears 7 times in Shakespeare's comedies. So, to test that our initial app state is correct, we need to write this test:
 
@@ -79,11 +79,11 @@ OK, so how does that code work? There are only two lines, but it masks a whole l
 - Calling `XCUIApplication()` gets you access to the test harness for your running application. This lets you query its user interface and perform actions as if you were a user.
 - Calling `.tables` will return an `XCUIElementQuery`, which in our situation would point to our table.
 - If there were more than one table visible, this would point to an array of tables, and we'd need to query them further to narrow it down to one table before acting on it. Trying to manipulate a query that points to more than one thing will crash your test.
-- This is the really mind-bending bit: the results of queries aren't fixed. So in our code the `let table` will point to a single table, but if the app adds two more tables for whatever reason, that `table` constant will now point to three tables – trying to manipulate it will crash your test.
-- Xcode uses the iOS accessibility system to navigate around these user interface tests. This is good because it means any application that is accessibility aware is ready for UI testing, but also because it encourages developers to add accessibility to their apps – which makes the world a better place for everyone. However, it's *bad* because the accessibility system has to read things from the screen rather than making API calls.
+- This is the really mind-bending bit: the results of queries aren't fixed. So in our code the `let table` will point to a single table, but if the app adds two more tables for whatever reason, that `table` constant will now point to three tables - trying to manipulate it will crash your test.
+- Xcode uses the iOS accessibility system to navigate around these user interface tests. This is good because it means any application that is accessibility aware is ready for UI testing, but also because it encourages developers to add accessibility to their apps - which makes the world a better place for everyone. However, it's *bad* because the accessibility system has to read things from the screen rather than making API calls.
 - In our app, we start by applying a filter for the word "swift", which was for a reason: without this filter there are 18,000+ rows in our table, and the accessibility system seems to try to scan them all to perform our test. This is so slow that it simply wouldn't work, which is why the initial filter is applied.
 
-So: user interface testing might look simple, but it's actually surprisingly hard. Fortunately, Xcode has a smart, simple and *almost* magical solution: test recording. Let's try it now – please create this empty method in your user interface tests:
+So: user interface testing might look simple, but it's actually surprisingly hard. Fortunately, Xcode has a smart, simple and *almost* magical solution: test recording. Let's try it now - please create this empty method in your user interface tests:
 
 ```swift
 func testUserFilteringByString() {
@@ -95,13 +95,13 @@ Click inside that method, so that if you were to type you would be typing inside
 
 ![Create an empty method, click inside it, then click the small red circle that you can see in this screenshot.](https://hackingwithswift.com/img/books/hws/39-13@2x.png)
 
-When your app is recording a UI test, any taps, swipes, or other actions you perform in the app will automatically be converted to code inside your test – Xcode will literally write your test for you. However, there are three catches: first, it will usually write some fairly unpleasant code, and certainly rarely writes what a trained developer would do; second, it still doesn't know what a pass or fail looks like, so you need to add your own assertions at the end; third, sometimes it won't even write valid code, although recent Xcode versions have reduced the chance of that happening.
+When your app is recording a UI test, any taps, swipes, or other actions you perform in the app will automatically be converted to code inside your test - Xcode will literally write your test for you. However, there are three catches: first, it will usually write some fairly unpleasant code, and certainly rarely writes what a trained developer would do; second, it still doesn't know what a pass or fail looks like, so you need to add your own assertions at the end; third, sometimes it won't even write valid code, although recent Xcode versions have reduced the chance of that happening.
 
 So, it's a long way from perfect, but it does at least give you something to start with that you can easily rewrite. Your app is already in record mode, because you clicked the red circle to start it off. I want you to switch to the simulator, click the search button, then use the on-screen keyboard to type "test". Finally, click the Filter button to dismiss the alert view, then go back to Xcode and click the red circle button again to end recording.
 
 ::: note
 
-Xcode sometimes fails to work with the iOS Simulator's hardware keyboard option – you may need to use the on-screen keyboard.
+Xcode sometimes fails to work with the iOS Simulator's hardware keyboard option - you may need to use the on-screen keyboard.
 
 :::
 
@@ -148,5 +148,5 @@ Now, you might wonder why it's worth using Xcode's UI recording system only to r
 
 However, Xcode's UI recordings *are* useful when you're learning because it becomes significantly easier to get started when Xcode gives you something basic to work with.
 
-Go ahead and run the test now, and you should see Xcode behaving like a real user. All being well, the assertion will prove true, and you'll get a green checkmark for your hard work – well done!
+Go ahead and run the test now, and you should see Xcode behaving like a real user. All being well, the assertion will prove true, and you'll get a green checkmark for your hard work - well done!
 

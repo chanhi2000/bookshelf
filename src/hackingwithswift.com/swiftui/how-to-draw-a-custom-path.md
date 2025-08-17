@@ -54,7 +54,7 @@ head:
 
 SwiftUI lets us draw custom paths by conforming to the `Shape` protocol, so we can create our own shapes that work the same as `Rectangle`, `Capsule`, and `Circle`. Conforming to this protocol isn’t hard, because all you need to do is support a `path(in:)` method that accepts a `CGRect` and returns a `Path`. Even better, you can use any paths you’ve previously built using `CGPath` or `UIBezierPath`, then convert the result to a SwiftUI path.
 
-If you want to use SwiftUI’s native `Path` type, create a variable instance of it then add as many points or shapes as you need. Don’t think about colors, fills, or stroke widths – you’re focusing on the raw shape here, and those kinds of settings are provided when your custom path is used.
+If you want to use SwiftUI’s native `Path` type, create a variable instance of it then add as many points or shapes as you need. Don’t think about colors, fills, or stroke widths - you’re focusing on the raw shape here, and those kinds of settings are provided when your custom path is used.
 
 For example, we could make a creative effect by drawing a series of shrinking squares, then placing that shape into a SwiftUI view with a stroke and a size:
 

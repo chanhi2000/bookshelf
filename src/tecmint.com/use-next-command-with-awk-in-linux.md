@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use ‘next’ Command with Awk in Linux – Part 6"
-description: "Article(s) > How to Use ‘next’ Command with Awk in Linux – Part 6"
+title: "How to Use ‘next’ Command with Awk in Linux - Part 6"
+description: "Article(s) > How to Use ‘next’ Command with Awk in Linux - Part 6"
 icon: iconfont icon-awk
 category: 
   - Linux
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use ‘next’ Command with Awk in Linux – Part 6"
+      content: "Article(s) > How to Use ‘next’ Command with Awk in Linux - Part 6"
     - property: og:description
-      content: "How to Use ‘next’ Command with Awk in Linux – Part 6"
+      content: "How to Use ‘next’ Command with Awk in Linux - Part 6"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/use-next-command-with-awk-in-linux.html
 prev: /tool/awk/articles/README.md
@@ -59,7 +59,7 @@ cover: https://tecmint.com/wp-content/uploads/2016/06/Use-next-Command-with-Awk-
 ---
 
 <SiteInfo
-  name="How to Use ‘next’ Command with Awk in Linux – Part 6"
+  name="How to Use ‘next’ Command with Awk in Linux - Part 6"
   desc="In this article, we’ll explore how the `next` command in `awk` skips remaining patterns and moves to the next input line."
   url="https://tecmint.com/use-next-command-with-awk-in-linux"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"
@@ -163,7 +163,7 @@ In the next part of our awk series, we’ll explore how to use standard input (*
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use ‘next’ Command with Awk in Linux – Part 6",
+  "title": "How to Use ‘next’ Command with Awk in Linux - Part 6",
   "desc": "In this article, we’ll explore how the `next` command in `awk` skips remaining patterns and moves to the next input line.",
   "link": "https://chanhi2000.github.io/bookshelf/tecmint.com/use-next-command-with-awk-in-linux.html",
   "logo": "https://tecmint.com/wp-content/uploads/2020/07/favicon.ico",

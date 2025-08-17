@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Printing in iOS used to be done using `UIPrintInteractionController`, and, while that still works, it has a much better replacement in the form of `UIActivityViewController`. This new class is responsible for taking a wide variety of actions of which printing is just one, but users can also tweet, post to Facebook, send by email, and any other action that has been registered by another app.
 
-If you have a `UIImage` you want to print, you can just pass it in. If you want to print text, you can wrap it inside an `NSAttributedString` with some formatting, then place that inside a `UISimpleTextPrintFormatter` object, then print *that* – iOS automatically takes care of pagination, margins and more.
+If you have a `UIImage` you want to print, you can just pass it in. If you want to print text, you can wrap it inside an `NSAttributedString` with some formatting, then place that inside a `UISimpleTextPrintFormatter` object, then print *that* - iOS automatically takes care of pagination, margins and more.
 
 Below are two example functions that print an image and some text to help get you started:
 

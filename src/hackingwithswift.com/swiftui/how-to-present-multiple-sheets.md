@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-If you want to show multiple sheets in SwiftUI, it’s only possible by triggering the second sheet from inside the first – you shouldn’t attach both `sheet()` modifiers to the same parent view.
+If you want to show multiple sheets in SwiftUI, it’s only possible by triggering the second sheet from inside the first - you shouldn’t attach both `sheet()` modifiers to the same parent view.
 
 Instead, place one `sheet()` modifier inside the view being used as your first sheet, like this:
 

@@ -94,7 +94,7 @@ Map(coordinateRegion: .constant(MKCoordinateRegion(center: CLLocationCoordinate2
 
 Or if you wanted the user to be able to zoom in and out, but not pan around to new locations, you would use this: `[.zoom]` for your interaction modes.
 
-Finally, you can ask the map to show the user's location – and even follow them as they move – by providing values for `showsUserLocation` and `userTrackingMode`.
+Finally, you can ask the map to show the user's location - and even follow them as they move - by providing values for `showsUserLocation` and `userTrackingMode`.
 
 **To use this you must first have requested and received location permission from the user.** This means adding Info.plist values for “`Privacy - Location When In Use Usage Description`” and “`Privacy - Location Always and When In Use Usage Description`”, making an instance of `CLLocationManager`, then requesting authorization through it using something like `requestAlwaysAuthorization()`.
 

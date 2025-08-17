@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Libraries - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/libraries",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -50,7 +50,7 @@ head:
 ```component VPCard
 {
   "title": "How to display PDFs using PDFView",
-  "desc": "Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, and one of the most useful is <code>PDFView</code> – it renders PDFs to the screen and lets users interact with them....",
+  "desc": "Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, and one of the most useful is <code>PDFView</code> - it renders PDFs to the screen and lets users interact with them....",
   "link": "/hackingwithswift.com/example-code/libraries/how-to-display-pdfs-using-pdfview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -110,7 +110,7 @@ head:
 ```component VPCard
 {
   "title": "How to scan NFC tags using Core NFC",
-  "desc": "Any iPhones since the iPhone 7 are able to scan any NFC tags you have around, and it doesn’t take much work – iOS even provides default user interface for you....",
+  "desc": "Any iPhones since the iPhone 7 are able to scan any NFC tags you have around, and it doesn’t take much work - iOS even provides default user interface for you....",
   "link": "/hackingwithswift.com/example-code/libraries/how-to-scan-nfc-tags-using-core-nfc.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -130,7 +130,7 @@ head:
 ```component VPCard
 {
   "title": "How to show PDF thumbnails using PDFThumbnailView",
-  "desc": "Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, including a dedicated view for rendering thumbnails of PDF pages: <code>PDFThumbnailView</code>. However, using it takes a little extra work because it doesn’t read PDF directly – you first load the PDF into a <code>PDFView</code>, then connect <em>that</em> to the thumbnail view....",
+  "desc": "Apple’s PDFKit framework provides a huge range of code to help us work with PDFs, including a dedicated view for rendering thumbnails of PDF pages: <code>PDFThumbnailView</code>. However, using it takes a little extra work because it doesn’t read PDF directly - you first load the PDF into a <code>PDFView</code>, then connect <em>that</em> to the thumbnail view....",
   "link": "/hackingwithswift.com/example-code/libraries/how-to-show-pdf-thumbnails-using-pdfthumbnailview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -150,7 +150,7 @@ head:
 ```component VPCard
 {
   "title": "What is CloudKit?",
-  "desc": "CloudKit is Apple’s dedicated back-end service for your apps, allowing you to store user data and assets remotely entirely using Swift. It works similar to Core Data, although it’s much simpler in practice – you can save any kind of Swift data you like, and CloudKit takes care of the rest....",
+  "desc": "CloudKit is Apple’s dedicated back-end service for your apps, allowing you to store user data and assets remotely entirely using Swift. It works similar to Core Data, although it’s much simpler in practice - you can save any kind of Swift data you like, and CloudKit takes care of the rest....",
   "link": "/hackingwithswift.com/example-code/libraries/what-is-cloudkit.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

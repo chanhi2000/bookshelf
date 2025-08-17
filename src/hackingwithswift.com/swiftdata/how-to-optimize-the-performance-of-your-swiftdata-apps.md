@@ -75,7 +75,7 @@ Behind the scenes SwiftData might not convert your entire predicate to SQL. If y
 
 :::
 
-The same is true for sorting – if you *can* do it in SwiftData rather than Swift, you should. 
+The same is true for sorting - if you *can* do it in SwiftData rather than Swift, you should. 
 
 This takes two other main forms, both used when creating a custom `FetchDescriptor`:
 
@@ -172,7 +172,7 @@ class User {
 }
 ```
 
-Because the `@Query` macro doesn't let us specify which fields to fetch, SwiftData will load all three into memory when loading an object – that could easily be hundreds of megabytes of data being loaded, potentially without even being used.
+Because the `@Query` macro doesn't let us specify which fields to fetch, SwiftData will load all three into memory when loading an object - that could easily be hundreds of megabytes of data being loaded, potentially without even being used.
 
 A smarter alternative is to mark the very large properties as being suitable for external storage, like this:
 
@@ -188,7 +188,7 @@ That doesn't mean SwiftData *must* store the data externally, only that it can. 
 
 In Core Data it was common advice to always check a view context's `hasChanges` property before trying to save, to avoid unnecessary work.
 
-In SwiftData this advice is no longer important – just call `save()` whenever you want, or let autosave do it for you, and you'll be fine, because there's no performance impact.
+In SwiftData this advice is no longer important - just call `save()` whenever you want, or let autosave do it for you, and you'll be fine, because there's no performance impact.
 
 ---
 

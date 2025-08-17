@@ -86,7 +86,7 @@ In case you’re not familiar with regular expressions:
 - In the second one we’re matching the range “a” through “m” only, so it will print “the dog sat on the dog”.
 - In the third one we’re looking for “The”, but I’ve modified the regex to be case insensitive so that it matches “the”, “THE”, and so on.
 
-Notice how each of those regexes are made using *regex literals* – the ability to create a regular expression by starting and ending your regex with a `/`.
+Notice how each of those regexes are made using *regex literals* - the ability to create a regular expression by starting and ending your regex with a `/`.
 
 Along with regex literals, Swift provides a dedicated `Regex` type that works similarly:
 
@@ -103,7 +103,7 @@ However, there’s a key difference that has significant side effects for our co
 
 ::: note This bears repeating, because it’s quite remarkable
 
-Swift parses your regular expressions at compile time, making sure they are valid – this is, for me at least, the coding equivalent of the head explode emoji.
+Swift parses your regular expressions at compile time, making sure they are valid - this is, for me at least, the coding equivalent of the head explode emoji.
 
 :::
 

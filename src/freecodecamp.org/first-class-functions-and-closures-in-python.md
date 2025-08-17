@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
-description: "Article(s) > First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
+title: "First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
+description: "Article(s) > First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
 icon: fa-brands fa-python
 category: 
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
+      content: "Article(s) > First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
     - property: og:description
-      content: "First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
+      content: "First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/first-class-functions-and-closures-in-python.html
 prev: /programming/py/articles/README.md
@@ -45,7 +45,7 @@ cover: https://freecodecamp.org/news/content/images/2024/07/first-class-function
 ---
 
 <SiteInfo
-  name="First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples"
+  name="First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
   desc="In modern programming, it's important to understand concepts like first-class functions, higher-order functions, and closures. These ideas help us write flexible and efficient code and serve as building blocks for many advanced coding techniques. Fir..."
   url="https://freecodecamp.org/news/first-class-functions-and-closures-in-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -163,7 +163,7 @@ In this example, the `create_multiplier` function takes a parameter `factor` and
 
 When `create_multiplier` is called with `2`, it returns a function that multiplies its argument by `2`. Similarly, when called with `3`, it returns a function that multiplies its argument by `3`. These returned functions (`double` and `triple`) can then be called with arguments to perform multiplication. For example, `double(5)` returns `10` and `triple(5)` returns `15`.
 
-This is the essence of a closure – where the returned function (`multiplier`) retains access to the variable (`factor` ) from its enclosing scope, even after the outer function (`create_multiplier`) has finished executing. This allows the created functions (`double` and `triple`) to remember and use the `factor` value they were created with.
+This is the essence of a closure - where the returned function (`multiplier`) retains access to the variable (`factor` ) from its enclosing scope, even after the outer function (`create_multiplier`) has finished executing. This allows the created functions (`double` and `triple`) to remember and use the `factor` value they were created with.
 
 ---
 
@@ -345,7 +345,7 @@ When `greeting_func = outer_scope()` is executed, it assigns the `inner_scope` f
 
 Now, `greeting_func` holds a reference to the `inner_scope` function. Calling `greeting_func()` executes `inner_scope`, which prints: "Hello Sam, Greetings from New York".
 
-Even though `outer_scope` has finished executing by the time we call `greeting_func()`, the `inner_scope` function (now referenced by `greeting_func`) retains access to the variables `name` and `city` from its enclosing scope. This is what makes it a closure – it "closes over" the variables from its containing scope.
+Even though `outer_scope` has finished executing by the time we call `greeting_func()`, the `inner_scope` function (now referenced by `greeting_func`) retains access to the variables `name` and `city` from its enclosing scope. This is what makes it a closure - it "closes over" the variables from its containing scope.
 
 ### Using Closures with Parameters
 
@@ -505,7 +505,7 @@ Practical usage of closures includes scenarios where you need functions to remem
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "First-Class Functions, Higher-Order Functions, and Closures in Python – Explained with Code Examples",
+  "title": "First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples",
   "desc": "In modern programming, it's important to understand concepts like first-class functions, higher-order functions, and closures. These ideas help us write flexible and efficient code and serve as building blocks for many advanced coding techniques. Fir...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/first-class-functions-and-closures-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

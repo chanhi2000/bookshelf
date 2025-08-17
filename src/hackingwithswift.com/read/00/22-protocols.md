@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -73,7 +73,7 @@ Button("Press Me", action: {
 
 In this code, creating a button takes two parameters: some text to show as the button’s title, and a closure containing the code to be executed when the button is pressed. I've specified “Press Me” for the first parameter, and for the second I've made the system print a message string.
 
-This method needs to use a closure because SwiftUI won’t run the code until the button is pressed – it will stash the action code away for later on, then call it only when needed. This wouldn't be possible if we just ran our code directly.
+This method needs to use a closure because SwiftUI won’t run the code until the button is pressed - it will stash the action code away for later on, then call it only when needed. This wouldn't be possible if we just ran our code directly.
 
 The above code also shows how closures capture their environment: I intentionally declared the `message` constant outside of the closure, then used it inside. Swift detects this, and makes that data available inside the closure too.
 
@@ -93,7 +93,7 @@ Button("Press Me") {
 }
 ```
 
-It does make your code shorter and easier to read, so this syntax form – known as trailing closure syntax – is preferred.
+It does make your code shorter and easier to read, so this syntax form - known as trailing closure syntax - is preferred.
 
 A function can have multiple trailing closures if needed, and this is particularly common in SwiftUI. For example, one way to create a button is to provide code to run when it’s pressed as the first closure, then something custom to show inside the button on the screen, like this:
 

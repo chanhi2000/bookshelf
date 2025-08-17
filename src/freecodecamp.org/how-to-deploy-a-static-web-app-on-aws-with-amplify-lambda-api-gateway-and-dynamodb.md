@@ -50,12 +50,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752792908077/abfe820
 
 <SiteInfo
   name="How to Deploy a Static Web App on AWS with Amplify, Lambda, API Gateway, & DynamoDB"
-  desc="Building modern web applications often involves complex setups and managing servers – but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of ”serverless” services that allow you to build and deploy applications witho..."
+  desc="Building modern web applications often involves complex setups and managing servers - but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of ”serverless” services that allow you to build and deploy applications witho..."
   url="https://freecodecamp.org/news/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1752792908077/abfe8200-e4bd-4c3c-892f-15847715c918.png"/>
 
-Building modern web applications often involves complex setups and managing servers – but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of "serverless" services that allow you to build and deploy applications without having to worry about the underlying infrastructure. This means AWS handles all the heavy lifting of servers, scaling, and maintenance for you.
+Building modern web applications often involves complex setups and managing servers - but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of "serverless" services that allow you to build and deploy applications without having to worry about the underlying infrastructure. This means AWS handles all the heavy lifting of servers, scaling, and maintenance for you.
 
 In this tutorial, we'll walk you through building a simple yet fully functional web application using several key AWS serverless services. You'll learn how to connect a frontend (what users see) with a powerful backend (what processes data) that can scale automatically and efficiently.
 
@@ -163,7 +163,7 @@ You’ll need to add the following information for the table:
 - **Table name**: Enter `myTable`. This will be the name of our database table.
 - **Partition key**: Enter `ID`.
 
-But you might be wondering – what is a Partition Key? In DynamoDB, the "Partition Key" (also sometimes called a Hash Key) is like the primary identifier for each unique item in your table. Think of it as a unique ID number for each record. It helps DynamoDB quickly find and distribute your data. For our calculator, each calculation we store will get a unique `ID`.
+But you might be wondering - what is a Partition Key? In DynamoDB, the "Partition Key" (also sometimes called a Hash Key) is like the primary identifier for each unique item in your table. Think of it as a unique ID number for each record. It helps DynamoDB quickly find and distribute your data. For our calculator, each calculation we store will get a unique `ID`.
 
 Leave all other settings at their default values for this tutorial. These defaults are usually sufficient for basic use cases.
 
@@ -680,7 +680,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
-::: info JavaScript code explanation – there’s a lot going on here
+::: info JavaScript code explanation - there’s a lot going on here
 
 - `document.addEventListener('DOMContentLoaded', function() { ... });`: This ensures our JavaScript code runs only after the entire HTML document has been loaded and parsed.
 - `const API_ENDPOINT = '...';`: This is where you **MUST** paste your API Gateway Invoke URL from step 3 above. This line defines where our frontend will send its requests.
@@ -925,7 +925,7 @@ Once the deployment is complete, Amplify will provide you with a **"Domain" URL*
 
 ## How to Test Your Application: Is It Working?
 
-Now for the exciting part – let's test our fully serverless web application by following these steps:
+Now for the exciting part - let's test our fully serverless web application by following these steps:
 
 1. **Open your amplify app URL**: Navigate to the "Domain" URL provided by AWS Amplify (from Step 5.6).
 2. **Enter numbers**: In the "Number 1" and "Number 2" input fields, type in any two numbers (e.g., 5 and 10).
@@ -1030,7 +1030,7 @@ This architecture is incredibly powerful because it can scale automatically to h
 ```component VPCard
 {
   "title": "How to Deploy a Static Web App on AWS with Amplify, Lambda, API Gateway, & DynamoDB",
-  "desc": "Building modern web applications often involves complex setups and managing servers – but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of ”serverless” services that allow you to build and deploy applications witho...",
+  "desc": "Building modern web applications often involves complex setups and managing servers - but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of ”serverless” services that allow you to build and deploy applications witho...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

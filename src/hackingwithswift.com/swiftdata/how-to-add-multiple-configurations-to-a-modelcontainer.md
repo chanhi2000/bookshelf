@@ -57,7 +57,7 @@ For more advanced SwiftData setups, it’s possible to send multiple model confi
 
 ::: important
 
-SwiftData models with relationships *must* be part of the same store. For example, if a `User` model has a relationship with a `Recipe` model, SwiftData will not let you create a configuration for one that excludes the other – even if you exclude one, it will implicitly be added by SwiftData. To be clear, relationships *cannot* span multiple SwiftData stores.
+SwiftData models with relationships *must* be part of the same store. For example, if a `User` model has a relationship with a `Recipe` model, SwiftData will not let you create a configuration for one that excludes the other - even if you exclude one, it will implicitly be added by SwiftData. To be clear, relationships *cannot* span multiple SwiftData stores.
 
 :::
 

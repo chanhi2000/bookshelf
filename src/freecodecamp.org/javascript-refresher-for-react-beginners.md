@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "JavaScript Refresher for React Beginners – Key JS Concepts to Know"
-description: "Article(s) > JavaScript Refresher for React Beginners – Key JS Concepts to Know"
+title: "JavaScript Refresher for React Beginners - Key JS Concepts to Know"
+description: "Article(s) > JavaScript Refresher for React Beginners - Key JS Concepts to Know"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > JavaScript Refresher for React Beginners – Key JS Concepts to Know"
+      content: "Article(s) > JavaScript Refresher for React Beginners - Key JS Concepts to Know"
     - property: og:description
-      content: "JavaScript Refresher for React Beginners – Key JS Concepts to Know"
+      content: "JavaScript Refresher for React Beginners - Key JS Concepts to Know"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-refresher-for-react-beginners.html
 prev: /programming/js-react/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727978962525/ee0aad4
 ---
 
 <SiteInfo
-  name="JavaScript Refresher for React Beginners – Key JS Concepts to Know"
+  name="JavaScript Refresher for React Beginners - Key JS Concepts to Know"
   desc="The Back Story A few years ago, I was introduced to React and immediately fell in love with its component-based, state-driven approach to building web applications. But as I delved deeper into its ecosystem, I encountered not just React, but a range ..."
   url="https://freecodecamp.org/news/javascript-refresher-for-react-beginners"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

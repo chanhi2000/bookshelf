@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -85,7 +85,7 @@ class LiveAlbum: Album {
 }
 ```
 
-That defines three classes: albums, studio albums and live albums, with the latter two both inheriting from `Album`. Because any instance of `LiveAlbum` is inherited from `Album` it can be treated just as either `Album` or `LiveAlbum` – it's both at the same time. This is called "polymorphism," but it means you can write code like this:
+That defines three classes: albums, studio albums and live albums, with the latter two both inheriting from `Album`. Because any instance of `LiveAlbum` is inherited from `Album` it can be treated just as either `Album` or `LiveAlbum` - it's both at the same time. This is called "polymorphism," but it means you can write code like this:
 
 ```swift
 var taylorSwift = StudioAlbum(name: "Taylor Swift", studio: "The Castles Studios")
@@ -179,7 +179,7 @@ Typecasting in Swift comes in three forms, but most of the time you'll only meet
 
 ::: note
 
-when I say "conversion" I don't mean that the object literally gets transformed. Instead, it's just converting how Swift treats the object – you're telling Swift that an object it thought was type A is actually type E.
+when I say "conversion" I don't mean that the object literally gets transformed. Instead, it's just converting how Swift treats the object - you're telling Swift that an object it thought was type A is actually type E.
 
 :::
 
@@ -209,7 +209,7 @@ for album in allAlbums {
 
 That will go through every album and print its performance details, because that's common to the `Album` class and all its subclasses. It then checks whether it can convert the `album` value into a `StudioAlbum`, and if it can it prints out the studio name. The same thing is done for the `LiveAlbum` in the array.
 
-Forced downcasting is when you're really sure an object of one type can be treated like a different type, but if you're wrong your program will just crash. Forced downcasting doesn't need to return an optional value, because you're saying the conversion is definitely going to work – if you're wrong, it means you wrote your code wrong.
+Forced downcasting is when you're really sure an object of one type can be treated like a different type, but if you're wrong your program will just crash. Forced downcasting doesn't need to return an optional value, because you're saying the conversion is definitely going to work - if you're wrong, it means you wrote your code wrong.
 
 To demonstrate this in a non-crashy way, let's strip out the live album so that we just have studio albums in the array:
 
@@ -245,13 +245,13 @@ for album in allAlbums as? [LiveAlbum] ?? [LiveAlbum]() {
 }
 ```
 
-What that means is, “try to convert `allAlbums` to be an array of `LiveAlbum` objects, but if that fails just create an empty array of live albums and use that instead” – i.e., do nothing. 
+What that means is, “try to convert `allAlbums` to be an array of `LiveAlbum` objects, but if that fails just create an empty array of live albums and use that instead” - i.e., do nothing. 
 
 ---
 
 ## Converting common types with initializers
 
-Typecasting is useful when you know something that Swift doesn’t, for example when you have an object of type `A` that Swift thinks is actually type `B`. However, typecasting is useful only when those types really are what you say – you can’t force a type `A` into a type `Z` if they aren’t actually related.
+Typecasting is useful when you know something that Swift doesn’t, for example when you have an object of type `A` that Swift thinks is actually type `B`. However, typecasting is useful only when those types really are what you say - you can’t force a type `A` into a type `Z` if they aren’t actually related.
 
 For example, if you have an integer called `number`, you couldn’t write code like this to make it a string:
 
@@ -270,5 +270,5 @@ let text = String(number)
 print(text)
 ```
 
-This only works for some of Swift’s built-in data types: you can convert integers and floats to strings and back again, for example, but if you created two custom structs Swift can’t magically convert one to the other – you need to write that code yourself.
+This only works for some of Swift’s built-in data types: you can convert integers and floats to strings and back again, for example, but if you created two custom structs Swift can’t magically convert one to the other - you need to write that code yourself.
 

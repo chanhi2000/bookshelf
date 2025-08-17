@@ -103,5 +103,5 @@ Calling `delete()` marks your object for deletion, but doesn’t actually comple
 
 :::
 
-If you’re deleting an object that has relationships, SwiftData will act on those relationships as part of the deletion – that’s the `.nullify` delete rule by default, but you might also have requested `.cascade` or one of the others. If you have a cascade delete in place, SwiftData will automatically continue the cascade down through all objects in a chain: deleting a `School` might delete all its students, and deleting students might delete all their exam results, for example.
+If you’re deleting an object that has relationships, SwiftData will act on those relationships as part of the deletion - that’s the `.nullify` delete rule by default, but you might also have requested `.cascade` or one of the others. If you have a cascade delete in place, SwiftData will automatically continue the cascade down through all objects in a chain: deleting a `School` might delete all its students, and deleting students might delete all their exam results, for example.
 

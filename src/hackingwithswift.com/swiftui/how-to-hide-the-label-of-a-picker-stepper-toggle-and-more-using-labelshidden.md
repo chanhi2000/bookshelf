@@ -72,9 +72,9 @@ struct ContentView: View {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-hide-the-label-of-a-picker-stepper-toggle-and-more-using-labelshidden-1.zip)
 
-On some platforms, that will show “Select a number” alongside the picker. This can look poor, because the label is sometimes crammed into a small space – a better idea would be to have a `VStack` with a custom text label, then hide the label in the `Picker`.
+On some platforms, that will show “Select a number” alongside the picker. This can look poor, because the label is sometimes crammed into a small space - a better idea would be to have a `VStack` with a custom text label, then hide the label in the `Picker`.
 
-To hide the label for a `Picker` – or indeed for a `DatePicker`, a `Stepper`, a `Toggle`, or any other view that requires a label – you should add the `labelsHidden()` modifier to the view, like this:
+To hide the label for a `Picker` - or indeed for a `DatePicker`, a `Stepper`, a `Toggle`, or any other view that requires a label - you should add the `labelsHidden()` modifier to the view, like this:
 
 ```swift
 struct ContentView: View {

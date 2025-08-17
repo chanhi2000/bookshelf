@@ -74,7 +74,7 @@ Our components are JavaScript here because there is [**no concept of HTML includ
 
 How do we integrate those <FontIcon icon="fa-brands fa-js"/>`component.js` and <FontIcon icon="fa-brands fa-css3-alt"/>`component.css` files? That question has long lingered for me. Bundlers can do this job. For instance, webpack just invented their own way of dealing with it. If you type `import "./card.css";` in a JavaScript file that is processed by webpack, it’ll just know what you mean and ensure that CSS is loaded on the page somehow. Likewise, [<FontIcon icon="iconfont icon-vite"/>Vite just does it’s own thing](https://vite.dev/guide/features.html#css):
 
-> Importing `.css` files will inject its content to the page via a `<style>` tag with HMR support.
+> Importing `.css` files will inject its content to the page via a `<style>` tag with HMR support.
 
 That’s great and all, but we’re trying to go vanilla here. No bundler/build process. How do we import CSS like that?
 
@@ -86,7 +86,7 @@ That’s great and all, but we’re trying to go vanilla here. No bundler/build 
 
 **Bad news:** Only Chrome supports it. ([<FontIcon icon="iconfont icon-webkit"/>WebKit bug](https://bugs.webkit.org/show_bug.cgi?id=227967); [<FontIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1720570))
 
-Google’s blog post on them (linked above) is one of the few pieces of information available about them, and it contains some **_incorrect syntax_**, so be careful there. It should look like this (the `with` keyword is correct, if you see `assert` that’s old/wrong):
+Google’s blog post on them (linked above) is one of the few pieces of information available about them, and it contains some **_incorrect syntax_**, so be careful there. It should look like this (the `with` keyword is correct, if you see `assert` that’s old/wrong):
 
 ```js
 import sheet from './styles.css' with { type: 'css' };

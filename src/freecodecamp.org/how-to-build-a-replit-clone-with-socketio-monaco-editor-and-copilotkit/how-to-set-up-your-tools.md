@@ -195,7 +195,7 @@ With the LLM set-up and all components ready, you are now prepared to build the 
 
 - Give your cluster a name (for example, `MyCluster`).
 - Click "Create Deployment". It will take a few minutes for the cluster to be provisioned.
-- Then It will ask you to connect your cluster to the database through a service. You should see your username and password – keep this somewhere.
+- Then It will ask you to connect your cluster to the database through a service. You should see your username and password - keep this somewhere.
 
 ![mogodb database connection page](https://cdn.hashnode.com/res/hashnode/image/upload/v1739189624879/68a26902-861a-44b2-8d01-d04ceef55ddc.png)
 

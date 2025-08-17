@@ -159,7 +159,7 @@ networks:
     driver: overlay
 ```
 
-The Compose file uses secrets to provision passwords and other sensitive information such as certificates –  without relying on environmental variables. Although the example uses PostgreSQL, the application can use secrets to connect to any database defined by as a Spring Boot datasource. From <FontIcon icon="fa-brands fa-java"/>`JpaConfiguration.java`:
+The Compose file uses secrets to provision passwords and other sensitive information such as certificates -  without relying on environmental variables. Although the example uses PostgreSQL, the application can use secrets to connect to any database defined by as a Spring Boot datasource. From <FontIcon icon="fa-brands fa-java"/>`JpaConfiguration.java`:
 
 ```java title="JpaConfiguration.java"
 public DataSourceProperties dataSourceProperties() {

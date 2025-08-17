@@ -115,7 +115,7 @@ ZStack {
 
 > [<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-fill-and-stroke-shapes-at-the-same-time-4.zip)
 
-If you want to fill and stroke lots of shapes, you should consider wrapping up this functionality in an extension. Only `InsettableShapes` get the `strokeBorder()` method, so you should probably write two extension methods – one to handle regular shapes using `stroke()`, and one to handle insettable shapes using `strokeBorder()`.
+If you want to fill and stroke lots of shapes, you should consider wrapping up this functionality in an extension. Only `InsettableShapes` get the `strokeBorder()` method, so you should probably write two extension methods - one to handle regular shapes using `stroke()`, and one to handle insettable shapes using `strokeBorder()`.
 
 Here's how that looks in code:
 

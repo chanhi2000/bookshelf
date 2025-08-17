@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Optional values are a central concept in Swift, although admittedly they can be a little hard to understand at first. Put simply, an optional value is one that may or may not exist, which means Swift won't let you use it by accident – you need to either check whether it has a value and unwrap it, or force unwrap. Of the two options the first is definitely preferable, because it's significantly safer.
+Optional values are a central concept in Swift, although admittedly they can be a little hard to understand at first. Put simply, an optional value is one that may or may not exist, which means Swift won't let you use it by accident - you need to either check whether it has a value and unwrap it, or force unwrap. Of the two options the first is definitely preferable, because it's significantly safer.
 
 To check whether an optional has a value then unwrap it all in one, you should use `if let` syntax, like this:
 

@@ -58,7 +58,7 @@ SwiftUI gives us the `ToggleStyle` protocol to customize the way `Toggle` switch
 
 ::: important
 
-When you customize a `Toggle` switch like this, it’s down to you to flip the on state yourself somehow – SwiftUI will *not* do it for you.
+When you customize a `Toggle` switch like this, it’s down to you to flip the on state yourself somehow - SwiftUI will *not* do it for you.
 
 :::
 

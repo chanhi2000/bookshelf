@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ imageView.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
 imageView.transform = CGAffineTransform.identity
 ```
 
-The first one makes an image view double in size, the second one makes it move up and left 256 points, the third one makes it spin around 180 degrees (the values are expressed in radians), and the fourth one sets the image view's transform back to "identity" – this means "reset."
+The first one makes an image view double in size, the second one makes it move up and left 256 points, the third one makes it spin around 180 degrees (the values are expressed in radians), and the fourth one sets the image view's transform back to "identity" - this means "reset."
 
 -->
 

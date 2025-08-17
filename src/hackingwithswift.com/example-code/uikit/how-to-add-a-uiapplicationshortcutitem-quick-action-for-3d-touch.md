@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ The third key should be a unique identifier, which is usually specified as your 
 
 The shortcut item type is used when your app is launched using a shortcut menu item. The `launchOptions` dictionary of `didFinishLaunchingWithOptions` will have a key set called `UIApplication.LaunchOptionsKey.shortcutItem`, which you can check to see what shortcut was triggered.
 
-The code below – placed into your app delegate – will catch the shortcut we just created, although you should change the type string to match whatever you're using:
+The code below - placed into your app delegate - will catch the shortcut we just created, although you should change the type string to match whatever you're using:
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -91,7 +91,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-If you want to create *dynamic* quick actions – which can live alongside static actions if you want - you need to create instances of `UIApplicationShortcutIcon` and `UIApplicationShortcutItem`, then assign to your application's `shortcutItems` property like this:
+If you want to create *dynamic* quick actions - which can live alongside static actions if you want - you need to create instances of `UIApplicationShortcutIcon` and `UIApplicationShortcutItem`, then assign to your application's `shortcutItems` property like this:
 
 ```swift
 let icon = UIApplicationShortcutIcon(type: .add)
@@ -99,7 +99,7 @@ let item = UIApplicationShortcutItem(type: "com.yoursite.yourapp.adduser", local
 UIApplication.shared.shortcutItems = [item]
 ```
 
-If your shortcut item should provide some sort of identifying information – perhaps it's the name of the most recently used contact – then you should place that into the `userInfo` dictionary. This will then be provided back to you when the application gets launched, and you can respond appropriately.
+If your shortcut item should provide some sort of identifying information - perhaps it's the name of the most recently used contact - then you should place that into the `userInfo` dictionary. This will then be provided back to you when the application gets launched, and you can respond appropriately.
 
 -->
 

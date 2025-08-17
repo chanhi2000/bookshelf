@@ -63,7 +63,7 @@ Text("Scaling")
 
 That will start the font at 24pt, but it will scale up and down relative to the Headline Dynamic Type font.
 
-If you want to disable Dynamic Type for your font – if you want to fix the font size so it never changes regardless of the Dynamic Type setting – then you should replace `size` with `fixedSize` when creating your custom font, like this:
+If you want to disable Dynamic Type for your font - if you want to fix the font size so it never changes regardless of the Dynamic Type setting - then you should replace `size` with `fixedSize` when creating your custom font, like this:
 
 ```swift
 VStack {
@@ -77,7 +77,7 @@ VStack {
 
 If you need to target iOS 13 then continue reading below…
 
-SwiftUI comes with support for all of Dynamic Type’s font sizes, all set using the `.font()` modifier. However, if you ask for a specific font and size, you’ll find your text no longer scales up or down automatically according to the user’s Dynamic Type settings – it remains fixed.
+SwiftUI comes with support for all of Dynamic Type’s font sizes, all set using the `.font()` modifier. However, if you ask for a specific font and size, you’ll find your text no longer scales up or down automatically according to the user’s Dynamic Type settings - it remains fixed.
 
 To work around this we need to create a custom `ViewModifier` that can scale up our font size based on the current accessibility setting, and also detect when that setting changes. 
 
@@ -150,7 +150,7 @@ extension View {
 }
 ```
 
-All that does is wrap up the call to our custom font modifier so that it looks nicer in our views – it means we write `.scaledFont(name: "Georgia", size: 12)` to use it, rather than `.modifier(ScaledFont(name: "Georgia", size: 12))`.
+All that does is wrap up the call to our custom font modifier so that it looks nicer in our views - it means we write `.scaledFont(name: "Georgia", size: 12)` to use it, rather than `.modifier(ScaledFont(name: "Georgia", size: 12))`.
 
 Now, you might wonder why we need the custom view modifier if all we do is pass on the data. Well, the clue lies in this line in our view modifier:
 
@@ -158,7 +158,7 @@ Now, you might wonder why we need the custom view modifier if all we do is pass 
 @Environment(\.sizeCategory) var sizeCategory
 ```
 
-That asks the system to provide the current size category from the environment, which determines what level Dynamic Type is set to. The trick is that we *don’t actually use it* – we don’t care what the Dynamic Type setting is, but by asking the system to update us when it changes our `UIFontMetrics` code will be run at the same time, causing our font to scale correctly.
+That asks the system to provide the current size category from the environment, which determines what level Dynamic Type is set to. The trick is that we *don’t actually use it* - we don’t care what the Dynamic Type setting is, but by asking the system to update us when it changes our `UIFontMetrics` code will be run at the same time, causing our font to scale correctly.
 
 ::: tip
 

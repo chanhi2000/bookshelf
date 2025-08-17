@@ -177,10 +177,10 @@ flowchart TD;
 
 - `flowchart`: This keyword tells that we are creating a flowchart.
 - `TD`: this is the orientation of the flowchart and stands for Top to Down. The other FlowChart orientations are:  
-    – `TB` - Top to bottom,same as TD.  
-    – `BT` - Bottom to top  
-    – `RL` - Right to left  
-    – `LR` - Left to right
+    - `TB` - Top to bottom,same as TD.  
+    - `BT` - Bottom to top  
+    - `RL` - Right to left  
+    - `LR` - Left to right
 - `-->`: The direction of the arrow connecting the nodes.
 
 :::

@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI gives us the `@ObservedObject` property wrapper so that views can watch the state of an external object, and be notified when something important has changed. It is similar in behavior to `@StateObject`, except it must *not* be used to create objects – use `@ObservedObject` only with objects that have been created elsewhere, otherwise SwiftUI might accidentally destroy the object.
+SwiftUI gives us the `@ObservedObject` property wrapper so that views can watch the state of an external object, and be notified when something important has changed. It is similar in behavior to `@StateObject`, except it must *not* be used to create objects - use `@ObservedObject` only with objects that have been created elsewhere, otherwise SwiftUI might accidentally destroy the object.
 
 For example, we might use something like this:
 
@@ -74,11 +74,11 @@ That `Order` class uses `@Published` so it will automatically send change announ
 
 Although that looks straightforward enough, it’s worth digging into a few specifics.
 
-First, any type you mark with `@ObservedObject` must conform to the `ObservableObject` protocol, which in turn means it must be a class rather than a struct. This isn’t optional – SwiftUI requires us to use a class here.
+First, any type you mark with `@ObservedObject` must conform to the `ObservableObject` protocol, which in turn means it must be a class rather than a struct. This isn’t optional - SwiftUI requires us to use a class here.
 
 Second, observed objects are specifically designed for data that is external to your view, which means it might be shared across more than one view. The `@ObservedObject` property wrapper will automatically make sure the property is watched closely so that important changes will reload any views using it. This also means the data must be created elsewhere, then sent in to your view.
 
-Third, not all properties in an observed object cause views to refresh – you need to decide which properties should send change notifications, either using `@Published` or custom announcements. Types that conform to `ObservableObject` are given a default `objectWillChange` publisher to make custom announcements as needed.
+Third, not all properties in an observed object cause views to refresh - you need to decide which properties should send change notifications, either using `@Published` or custom announcements. Types that conform to `ObservableObject` are given a default `objectWillChange` publisher to make custom announcements as needed.
 
 ::: details Similar solutions…
 

@@ -72,7 +72,7 @@ This tutorial is designed to be beginner-friendly! You just need basic familiari
 
 For those looking to deepen their RHEL knowledge, the [<FontIcon icon="fas fa-globe"/>RHEL Skill Tree](https://labex.io/skilltrees/rhel) offers comprehensive hands-on labs including [<FontIcon icon="fas fa-globe"/>RH124](https://labex.io/courses/red-hat-system-administration-rh124-labs), [<FontIcon icon="fas fa-globe"/>RH134](https://labex.io/courses/red-hat-system-administration-rh134-labs), [<FontIcon icon="fas fa-globe"/>RH294](https://labex.io/courses/red-hat-enterprise-linux-automation-with-ansible-rh294), and other courses for RHCSA and RHCE certifications.
 
-Don't worry if you're new to Red Hat Enterprise Linux – I'll explain everything step by step, and these concepts work on most Linux distributions too.
+Don't worry if you're new to Red Hat Enterprise Linux - I'll explain everything step by step, and these concepts work on most Linux distributions too.
 
 :::
 

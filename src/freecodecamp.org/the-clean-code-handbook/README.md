@@ -55,7 +55,7 @@ Building scalable software applications requires writing clean code that’s so 
 
 In this article, I’ll explain and demonstrate what clean code is. Then I’ll share my favorite clean code patterns for building modern Agile applications.
 
-I won’t use complex jargon. I’ll hit you with simple, clear JavaScript examples that focus on the core concepts. Straight to the point, no nonsense – that’s how I roll.
+I won’t use complex jargon. I’ll hit you with simple, clear JavaScript examples that focus on the core concepts. Straight to the point, no nonsense - that’s how I roll.
 
 Let’s get started.
 
@@ -129,7 +129,7 @@ Here’s the truth: writing clean code is not optional if you want to survive in
 
 ## Conclusion 🏁
 
-Clean code isn't a nice-to-have –– it's a must-have for those who aim to lead. It's about control, efficiency, and improvement over time in the long run. And ultimately, it’ll help you succeed in the game of agile software development.
+Clean code isn't a nice-to-have -- it's a must-have for those who aim to lead. It's about control, efficiency, and improvement over time in the long run. And ultimately, it’ll help you succeed in the game of agile software development.
 
 🪧 If you want to truly master your craftsmanship, write clean code, and let the efficiency speak for itself.
 

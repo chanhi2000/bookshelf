@@ -6,6 +6,7 @@ icon: iconfont icon-django
 category:
   - Python
   - Django
+  - Data Science
   - GraphQL
   - Article(s)
 tag:
@@ -15,6 +16,7 @@ tag:
   - py
   - django
   - py-django
+  - data-science
   - graphql
 head:
   - - meta:
@@ -292,7 +294,7 @@ Here’s what’s going on in this part:
   - We create a new `Post` model instance.
   - We save it to the database.
   - We return the mutation result as an `CreatePost` object with the new post attached.
-- This keeps the logic tight, readable, and testable – a great example of clean API design.
+- This keeps the logic tight, readable, and testable - a great example of clean API design.
 
 ### Step 2: Wiring the Mutation into the Schema
 
@@ -314,7 +316,7 @@ In this code,
 - We’re creating a new `graphene.Schema`.
 - We pass in a `Query` class (assumed to be defined elsewhere for read operations) and our `Mutation` class for write operations.
 
-This is the GraphQL equivalent of wiring up Django's <FontIcon icon="fa-brands fa-python"/>`urls.py` – it's what gets exposed to clients when they hit your `/graphql/` endpoint.
+This is the GraphQL equivalent of wiring up Django's <FontIcon icon="fa-brands fa-python"/>`urls.py` - it's what gets exposed to clients when they hit your `/graphql/` endpoint.
 
 ---
 

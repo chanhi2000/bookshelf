@@ -92,7 +92,7 @@ class Dog {
 
 All the validation work there is done by the `@Relationship(maximumModelCount: 5)` property, which makes it clear that the array must have no more than five items in it.
 
-You can see this validation in action – and also the problems it can cause – with the following code:
+You can see this validation in action - and also the problems it can cause - with the following code:
 
 ```swift
 func create() {
@@ -119,13 +119,13 @@ func create() {
 }
 ```
 
-That creates a dog walker and gives them five dogs to walk, but then it creates and adds a sixth dog. If you run that code you'll see it prints that Bobby has six dogs, which isn't allowed by our relationship rule – what gives?
+That creates a dog walker and gives them five dogs to walk, but then it creates and adds a sixth dog. If you run that code you'll see it prints that Bobby has six dogs, which isn't allowed by our relationship rule - what gives?
 
-Well, the problem with that code – and the danger of the relationship rules generally – is that if you break the rules SwiftData's autosave will just silently fail.
+Well, the problem with that code - and the danger of the relationship rules generally - is that if you break the rules SwiftData's autosave will just silently fail.
 
 In this case we've made a dog walker with six dogs. If we had create one with five dogs then later added a sixth, SwiftData would at least have been able to save the original, 5-dog walker. However, we're adding them all at once, so it can't save anything safely.
 
-You can see the problem more clearly if you try running a save yourself – add this to the end of the method:
+You can see the problem more clearly if you try running a save yourself - add this to the end of the method:
 
 ```swift
 do {

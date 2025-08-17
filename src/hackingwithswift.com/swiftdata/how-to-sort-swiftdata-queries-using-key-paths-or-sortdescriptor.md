@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Sorting SwiftData queries is either done with a key path for simple sorts, or an array of `SortDescriptor` for more complex sorts. Some query variants – e.g. creating a `FetchDescriptor` by hand – only support the array approach, whereas using `@Query` supports both.
+Sorting SwiftData queries is either done with a key path for simple sorts, or an array of `SortDescriptor` for more complex sorts. Some query variants - e.g. creating a `FetchDescriptor` by hand - only support the array approach, whereas using `@Query` supports both.
 
 For the simplest approach using `@Query`, you can specify your sort order as a key path on the model you’re querying. So, if we had a `Movie` model, we could load all movies sorted alphabetically by their name like this:
 
@@ -77,7 +77,7 @@ This sort key path can be any directly comparable property of your model, so we 
 
 ::: important
 
-Although you can make your models conform to `Comparable` and use them in these sort orders, it will not work as intended. Behind the scenes SwiftData will insert your model to its own table with a primary key integer, then sort *by that integer* – you’re effectively sorting by when each object was inserted into your context.
+Although you can make your models conform to `Comparable` and use them in these sort orders, it will not work as intended. Behind the scenes SwiftData will insert your model to its own table with a primary key integer, then sort *by that integer* - you’re effectively sorting by when each object was inserted into your context.
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "The Problem Kubernetes Solves 🧠"
-description: Article(s) > (1/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (1/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (1/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (1/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "The Problem Kubernetes Solves 🧠"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-the-problem-kubernetes-solves"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 At first, when containers arrived on the scene, it felt like developers had struck gold.
 
-You could package a microservice into a neat little container and run it anywhere – no more installing the same software on every server again and again. Tools like Docker and Docker Compose made this smooth for small projects.
+You could package a microservice into a neat little container and run it anywhere - no more installing the same software on every server again and again. Tools like Docker and Docker Compose made this smooth for small projects.
 
 But the real world? That’s where it got messy.
 
@@ -62,7 +62,7 @@ But the real world? That’s where it got messy.
 
 ## The Growing Headache of Managing Containers 💡
 
-When you have just a few microservices, you can manually deploy and manage their containers without much stress. But when your app grows – and you suddenly have dozens or even hundreds of microservices – managing them becomes an uphill battle:
+When you have just a few microservices, you can manually deploy and manage their containers without much stress. But when your app grows - and you suddenly have dozens or even hundreds of microservices - managing them becomes an uphill battle:
 
 - You had to deploy each container manually.
 - You had to restart them if one crashed.
@@ -85,7 +85,7 @@ BUT there were still some big headaches:
 
 ### 📦 Grouping microservices was awkward and expensive
 
-Sure, you could organize containers by environment (like “testing” or “production”) or even by team (like “Finance” or “HR”). But each new microservice usually needed its own cloud instance – for example, a separate Azure App Service or Elastic Beanstalk environment FOR EVERY SINGLE CONTAINER.
+Sure, you could organize containers by environment (like “testing” or “production”) or even by team (like “Finance” or “HR”). But each new microservice usually needed its own cloud instance - for example, a separate Azure App Service or Elastic Beanstalk environment FOR EVERY SINGLE CONTAINER.
 
 Imagine this:
 
@@ -97,7 +97,7 @@ Imagine this:
 
 ## Kubernetes: Smarter, Leaner, and More Flexible 💪
 
-With Kubernetes, you don’t need to spin up a separate server for each microservice. You can start with just one or two servers (VMs) – and Kubernetes will automatically decide which container goes where based on available space and resources.
+With Kubernetes, you don’t need to spin up a separate server for each microservice. You can start with just one or two servers (VMs) - and Kubernetes will automatically decide which container goes where based on available space and resources.
 
 No stress, no waste! 💡
 
@@ -123,11 +123,11 @@ No stress, no waste! 💡
 
 ### 5. You can even scale your servers!
 
-👉 Kubernetes can automatically increase the number of servers (VMs) in your environment – called a **Cluster** – when traffic grows. So you could start with 2 VMs at $30 each ($60/month) and let Kubernetes add more servers only when necessary, rather than locking yourself into high fixed costs like $500/month for cloud-managed services.
+👉 Kubernetes can automatically increase the number of servers (VMs) in your environment - called a **Cluster** - when traffic grows. So you could start with 2 VMs at $30 each ($60/month) and let Kubernetes add more servers only when necessary, rather than locking yourself into high fixed costs like $500/month for cloud-managed services.
 
-Also, Kubernetes works **the same way everywhere**. Whether you deploy your containers on AWS, Google Cloud, Azure, or even your own laptop – Kubernetes doesn’t care. Your setup stays the same.
+Also, Kubernetes works **the same way everywhere**. Whether you deploy your containers on AWS, Google Cloud, Azure, or even your own laptop - Kubernetes doesn’t care. Your setup stays the same.
 
-Compare that to managed services like Elastic Beanstalk or Azure App Service – which tie you to their platform, making it super hard to switch later.
+Compare that to managed services like Elastic Beanstalk or Azure App Service - which tie you to their platform, making it super hard to switch later.
 
 ::: note ✅In short
 

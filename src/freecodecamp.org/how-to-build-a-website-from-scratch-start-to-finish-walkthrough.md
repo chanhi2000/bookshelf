@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Build a Website from Scratch – Start to Finish Walkthrough"
-description: "Article(s) > How to Build a Website from Scratch – Start to Finish Walkthrough"
+title: "How to Build a Website from Scratch - Start to Finish Walkthrough"
+description: "Article(s) > How to Build a Website from Scratch - Start to Finish Walkthrough"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Build a Website from Scratch – Start to Finish Walkthrough"
+      content: "Article(s) > How to Build a Website from Scratch - Start to Finish Walkthrough"
     - property: og:description
-      content: "How to Build a Website from Scratch – Start to Finish Walkthrough"
+      content: "How to Build a Website from Scratch - Start to Finish Walkthrough"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html
 prev: /programming/js/articles/README.md
@@ -71,15 +71,15 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745260046049/62b5c73
 ---
 
 <SiteInfo
-  name="How to Build a Website from Scratch – Start to Finish Walkthrough"
-  desc="Hi, fellow developers! Building a website can feel overwhelming at first – especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked y..."
+  name="How to Build a Website from Scratch - Start to Finish Walkthrough"
+  desc="Hi, fellow developers! Building a website can feel overwhelming at first - especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked y..."
   url="https://freecodecamp.org/news/how-to-build-a-website-from-scratch-start-to-finish-walkthrough"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745260046049/62b5c730-dc06-49de-8bdd-2cd44facb9e9.png"/>
 
 Hi, fellow developers!
 
-Building a website can feel overwhelming at first – especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked yourself: *"Where do I even start?"*
+Building a website can feel overwhelming at first - especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked yourself: *"Where do I even start?"*
 
 Well, this tutorial is here to guide you through that journey. We'll build a simple website from scratch and walk through every step — all the way to deploying it on the internet.
 
@@ -97,7 +97,7 @@ We are going to a build a simple weather app that shows you today’s weather in
 
 This is a simple website with pretty basic features, and should be relatively easy to build.
 
-Before we start, let’s go over some prerequisites. I assume you are already familiar with the basics of HTML, CSS and JavaScript. Knowing Git would be helpful, but it’s not necessary – you can still follow along with the steps in this article.
+Before we start, let’s go over some prerequisites. I assume you are already familiar with the basics of HTML, CSS and JavaScript. Knowing Git would be helpful, but it’s not necessary - you can still follow along with the steps in this article.
 
 ---
 
@@ -128,7 +128,7 @@ Before we really dive in, make sure that you have Git installed in your system. 
 
 ```component VPCard
 {
-  "title": "Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
   "link": "/freecodecamp.org/gitting-things-done-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -343,7 +343,7 @@ Alright, we’re done with the development part! Now it’s time to test our cod
 
 Whenever you develop a feature, you’ll want to make sure to test it thoroughly. One way to test is by considering all the ways a user might interact with your website. Then, check how your website behaves in each scenario or test case.
 
-First, let's see if the website works as expected when given a valid city name. Enter a city name and click on search – it should display the weather information like this:
+First, let's see if the website works as expected when given a valid city name. Enter a city name and click on search - it should display the weather information like this:
 
 ![Weather Data Visible for Mumbai](https://cdn.hashnode.com/res/hashnode/image/upload/v1743082937133/ab532ffe-2a48-4101-9d04-7c2eb10d944b.png)
 
@@ -363,7 +363,7 @@ In addition to this, you can perform other types of testing on a website:
 - Integration Testing: Testing interactions between different components of the website
 - End to End Testing: Testing the entire application flow from start to finish
 
-Once you are sure that the website is working as expected, it’s time to push your code to a remote repository like GitHub and release it into production – that is, on the internet.
+Once you are sure that the website is working as expected, it’s time to push your code to a remote repository like GitHub and release it into production - that is, on the internet.
 
 ---
 
@@ -448,8 +448,8 @@ If you have any questions or need further clarification, please don't hesitate t
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Build a Website from Scratch – Start to Finish Walkthrough",
-  "desc": "Hi, fellow developers! Building a website can feel overwhelming at first – especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked y...",
+  "title": "How to Build a Website from Scratch - Start to Finish Walkthrough",
+  "desc": "Hi, fellow developers! Building a website can feel overwhelming at first - especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked y...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

@@ -57,7 +57,7 @@ The year 1978 witnessed the birth of a new era in cryptography with the introduc
 
 This development, introduced in the paper "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems", provided a method for secure digital communication and laid the foundation for modern public-key cryptography.
 
-At the heart of RSA lies elementary number theory – specifically, the properties of prime numbers and modular arithmetic. Let’s first understand how these key concepts form its mathematical foundations.
+At the heart of RSA lies elementary number theory - specifically, the properties of prime numbers and modular arithmetic. Let’s first understand how these key concepts form its mathematical foundations.
 
 ---
 
@@ -139,4 +139,4 @@ $$
 
 This step is the mathematical linchpin ensuring that decryption is the inverse operation of encryption.
 
-In the 1978 paper, the authors explicitly provided these formulas and steps. They showed that if you encrypt a message $m$ using $c=m^{e}\:\text{mod}\:n$ and then decrypt using $m=c^{d}\:\text{mod}\:n$ , the original message is recovered – thanks to the properties of modular exponentiation and Euler’s theorem. This mathematical framework was novel at the time and immediately set the stage for a new era in cryptography.
+In the 1978 paper, the authors explicitly provided these formulas and steps. They showed that if you encrypt a message $m$ using $c=m^{e}\:\text{mod}\:n$ and then decrypt using $m=c^{d}\:\text{mod}\:n$ , the original message is recovered - thanks to the properties of modular exponentiation and Euler’s theorem. This mathematical framework was novel at the time and immediately set the stage for a new era in cryptography.

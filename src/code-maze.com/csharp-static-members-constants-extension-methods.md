@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Static Members, Constants and Extension Methods"
-description: "Article(s) > C# Intermediate – Static Members, Constants and Extension Methods"
+title: "C# Intermediate - Static Members, Constants and Extension Methods"
+description: "Article(s) > C# Intermediate - Static Members, Constants and Extension Methods"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Static Members, Constants and Extension Methods"
+      content: "Article(s) > C# Intermediate - Static Members, Constants and Extension Methods"
     - property: og:description
-      content: "C# Intermediate – Static Members, Constants and Extension Methods"
+      content: "C# Intermediate - Static Members, Constants and Extension Methods"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-static-members-constants-extension-methods.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-static-members-constants-extension-met
 ---
 
 <SiteInfo
-  name="C# Intermediate – Static Members, Constants and Extension Methods"
+  name="C# Intermediate - Static Members, Constants and Extension Methods"
   desc="In this article, you are going to learn about Static Memebers in C# (Classes and Methods). Furthermore, we will explain how to create extension methods."
   url="https://code-maze.com/csharp-static-members-constants-extension-methods/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -217,7 +217,7 @@ In the next article, we are going to talk about Anonymous [**Types and Nullable 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Static Members, Constants and Extension Methods",
+  "title": "C# Intermediate - Static Members, Constants and Extension Methods",
   "desc": "In this article, you are going to learn about Static Memebers in C# (Classes and Methods). Furthermore, we will explain how to create extension methods.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-static-members-constants-extension-methods.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

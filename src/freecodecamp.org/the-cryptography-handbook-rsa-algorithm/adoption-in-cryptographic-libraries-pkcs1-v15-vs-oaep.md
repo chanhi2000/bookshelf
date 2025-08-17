@@ -65,11 +65,11 @@ After Bleichenbacher’s 1998 attack, it was impractical to instantly replace PK
 
 TLS, for example, responded by changing the error handling: the server would not reveal a padding failure distinctly. It would generate a fake premaster secret and proceed to prevent timing clues, and always return a generic handshake failure at a later stage, making it harder for the attacker to distinguish why decryption failed.
 
-These countermeasures reduced the oracle’s fidelity but were tricky to get right across different implementations. In fact, not everyone got it right – the Bleichenbacher attack continued to resurface in various forms when implementations made mistakes in error handling.
+These countermeasures reduced the oracle’s fidelity but were tricky to get right across different implementations. In fact, not everyone got it right - the Bleichenbacher attack continued to resurface in various forms when implementations made mistakes in error handling.
 
 In 2018, researchers discovered the ROBOT attack (Return Of Bleichenbacher’s Oracle Threat): several TLS implementations had subtle bugs that recreated a padding oracle, allowing the attack to succeed 19 years later. The ROBOT paper showed that even with countermeasure guidelines, the complexity of uniformly handling errors led to slip-ups in popular products.
 
-This underscores that patching an insecure scheme is often error-prone – a design that is secure by construction (like OAEP) is preferable.
+This underscores that patching an insecure scheme is often error-prone - a design that is secure by construction (like OAEP) is preferable.
 
 PKCS#1 v1.5 continues to exist because of these patchwork security measures and the fact that it cannot be abruptly removed from all existing systems. It is generally regarded as "legacy" or maintained "for compatibility" purposes. The collective wisdom is clear: use OAEP for RSA encryption whenever possible.
 

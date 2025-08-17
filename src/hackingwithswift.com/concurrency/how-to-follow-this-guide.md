@@ -56,7 +56,7 @@ This guide is called Swift Concurrency by Example because it focuses on providin
 
 A lot of the time I’ve tried to make the chapters in this book answer specific questions such as “what are…” or “how to…”, so that you can see exactly what problem is being solved and get straight there. That also means I’ve tried to get to the point as fast as possible and stay there so that you can get answers and build understanding quickly.
 
-You can read this in a linear order if you want, or just dive in to a particular chapter that interests you – either one works.
+You can read this in a linear order if you want, or just dive in to a particular chapter that interests you - either one works.
 
 ::: details Similar solutions…
 

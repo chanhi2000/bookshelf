@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 If you've made it this far then you have built a Four in a Row game where two players can place chips in the game slots and either win or draw, and you've also prepared your model data to be run through the new GameplayKit AI routines. But we haven't created the AI just yet: we've just added some methods to our game models to enable an AI to make choices.
 
-In this final step, we're going to use a new class called `GKMinmaxStrategist`, which is a gameplay strategy that tries to MINimize losses while MAXimizing gains – hence the name minmax, or minimax. When you create a `GKMinmaxStrategist` you tell it how many moves it should look ahead, and also what it should do to break ties, i.e. if it has two or more moves that are equally good.
+In this final step, we're going to use a new class called `GKMinmaxStrategist`, which is a gameplay strategy that tries to MINimize losses while MAXimizing gains - hence the name minmax, or minimax. When you create a `GKMinmaxStrategist` you tell it how many moves it should look ahead, and also what it should do to break ties, i.e. if it has two or more moves that are equally good.
 
 Once you've created the strategist object, you need to provide it a game model to examine (that's our `Board` class), then ask it either to make the best move or make a random good move. If you ask for the best move, you'll get given back a `GKGameModelUpdate` object (that's a `Move` in our game) that represents the best move. If you ask for a random good move you'll need to tell it how many it should consider good (i.e., pick one from the top 5), and you'll get back a random `GKGameModelUpdate` from that list of good moves.
 
@@ -65,7 +65,7 @@ Let's go ahead and implement `GKMinmaxStrategist` now. Open <FontIcon icon="fa-b
 var strategist: GKMinmaxStrategist!
 ```
 
-One strategist is capable of handling more than one game (i.e., if the player restarts the game) just by changing its game model, so we only need to create one `GKMinmaxStrategist` object. As it's needed straight away, we might as well put this into `viewDidLoad()` – anywhere before the call to `resetBoard()` is fine:
+One strategist is capable of handling more than one game (i.e., if the player restarts the game) just by changing its game model, so we only need to create one `GKMinmaxStrategist` object. As it's needed straight away, we might as well put this into `viewDidLoad()` - anywhere before the call to `resetBoard()` is fine:
 
 ```swift
 strategist = GKMinmaxStrategist()
@@ -73,7 +73,7 @@ strategist.maxLookAheadDepth = 7
 strategist.randomSource = nil
 ```
 
-Having a `maxLookAheadDepth` of 7 is a significant amount of work, because of those look aheads is one move being made by the player or AI – and each of those moves can be in any of seven columns. If you intend to alter this number upwards, be prepared for exponentially slower processing.
+Having a `maxLookAheadDepth` of 7 is a significant amount of work, because of those look aheads is one move being made by the player or AI - and each of those moves can be in any of seven columns. If you intend to alter this number upwards, be prepared for exponentially slower processing.
 
 The `randomSource` property of `GKMinmaxStrategist` is there as a tie-breaker: if two moves result in the same advantage for the AI, which should it take? Setting it to `nil` as above means "just return the first best move," but if you wanted to have the AI take a random best move then you could try something like this:
 
@@ -81,7 +81,7 @@ The `randomSource` property of `GKMinmaxStrategist` is there as a tie-breaker: i
 strategist.randomSource = GKARC4RandomSource()
 ```
 
-Now that the strategist is created, it wants to be fed some data. This is done by setting its `gameModel` property to an object that conforms to the `GKGameModel` protocol – which by now you should immediately recognize as our `Board` class. So, whenever we reset the board, we need to feed the new board into the strategist so it stands ready to look for moves.
+Now that the strategist is created, it wants to be fed some data. This is done by setting its `gameModel` property to an object that conforms to the `GKGameModel` protocol - which by now you should immediately recognize as our `Board` class. So, whenever we reset the board, we need to feed the new board into the strategist so it stands ready to look for moves.
 
 We've done all the hard work to prepare for this, so all you need to do is change the start of your `resetBoard()` method to the following:
 
@@ -168,7 +168,7 @@ func updateUI() {
 
 Now, the game works, and you could even ship it today if you really wanted, but before you hit Run I'd like to suggest two tiny changes that make the whole experience better.
 
-First, what happens if a user starts tapping buttons while the AI is "thinking"? Well, the answer is "bad things" – our game lets them play as black, and gets confused very quickly. So, our first change will be to disable all the column buttons when the AI's move starts, then re-enable them when it's finished.
+First, what happens if a user starts tapping buttons while the AI is "thinking"? Well, the answer is "bad things" - our game lets them play as black, and gets confused very quickly. So, our first change will be to disable all the column buttons when the AI's move starts, then re-enable them when it's finished.
 
 Second, if the AI takes a long time, how does the user know the app hasn't locked up? There's no indication the AI is thinking, but it's easy enough to add by showing a custom `UIBarButtonItem` containing a `UIActivityIndicatorView`. It's not much, but it's enough to show the app is alive and well.
 
@@ -194,5 +194,5 @@ navigationItem.leftBarButtonItem = nil
 
 These tiny changes stop users from accidentally screwing things up, and also stop them from worrying your app has got stuck in a loop somewhere. It's polish, yes, but polish is frequently what separates good games from great games.
 
-That's it: the app is done! You can run it now and see how quickly you can beat the AI. It ought not to be too hard – our heuristic isn't very good, so sometimes the AI will miss obvious moves, just like a real player.
+That's it: the app is done! You can run it now and see how quickly you can beat the AI. It ought not to be too hard - our heuristic isn't very good, so sometimes the AI will miss obvious moves, just like a real player.
 

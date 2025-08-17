@@ -322,7 +322,7 @@ It’s quite simple: select the required field (in this case, there will only be
 
 ![Layout options](https://cdn.hashnode.com/res/hashnode/image/upload/v1736378067956/a66dd0f9-0589-473e-b0af-c9c6bfe0d0b1.png)
 
-Finally, we’ll want to remove blank responses. This is a feature of the selected dataset – some respondents chose not to answer certain questions, leaving the response field blank. For our analysis, this data is unnecessary, so we’ll filter it out.
+Finally, we’ll want to remove blank responses. This is a feature of the selected dataset - some respondents chose not to answer certain questions, leaving the response field blank. For our analysis, this data is unnecessary, so we’ll filter it out.
 
 ![GIF: filtering data](https://cdn.hashnode.com/res/hashnode/image/upload/v1736376126270/4bc3f72c-5e68-4e39-b1da-19f179ad2e4f.gif)
 
@@ -456,7 +456,7 @@ The chart shows that the most common passengers on this airline are locals from 
 
 ## Filling Up the Dashboard with Other Charts
 
-Now, let’s create the remaining charts following the same process – adjusting the chart `type`, `slice` options, and `callbackHandler` functions for each diagram. You can find the full chart configuration of each chart at [the end of the guide](#full-demo-link) on my GitHub.
+Now, let’s create the remaining charts following the same process - adjusting the chart `type`, `slice` options, and `callbackHandler` functions for each diagram. You can find the full chart configuration of each chart at [the end of the guide](#full-demo-link) on my GitHub.
 
 ### 1. Frequency of using airlines distributed by locations
 

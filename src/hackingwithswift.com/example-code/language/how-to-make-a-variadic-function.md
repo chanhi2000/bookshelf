@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Variadic functions are functions that accept any number of parameters. The most common one in Swift is `print()` – most people use it to print a single value, but you can actually pass as many as you want, like this:
+Variadic functions are functions that accept any number of parameters. The most common one in Swift is `print()` - most people use it to print a single value, but you can actually pass as many as you want, like this:
 
 ```swift
 print(1, 2, 3, 4, 5)
@@ -87,7 +87,7 @@ func sum2(_ numbers: Int...) -> Int {
 }
 ```
 
-Notice how we specify `Int...` rather than `Int` – that means this function can be called using no integers, one integer, or even a hundred integers, and Swift will automatically convert them to be an array of integers inside the function.
+Notice how we specify `Int...` rather than `Int` - that means this function can be called using no integers, one integer, or even a hundred integers, and Swift will automatically convert them to be an array of integers inside the function.
 
 So, it would be called like this:
 

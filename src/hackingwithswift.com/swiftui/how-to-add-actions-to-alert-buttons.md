@@ -52,7 +52,7 @@ head:
 
 > Updated for Xcode 15
 
-**Not needed from iOS 15 on** – you should use buttons directly.
+**Not needed from iOS 15 on** - you should use buttons directly.
 
 Basic SwiftUI alerts look like this:
 
@@ -92,7 +92,7 @@ struct ContentView: View {
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-add-actions-to-alert-buttons-1~dark.mp4" />
 
-There is no way to add more than two buttons to an alert – if you’re looking to do that you should use an action sheet instead.
+There is no way to add more than two buttons to an alert - if you’re looking to do that you should use an action sheet instead.
 
 ::: details Similar solutions…
 

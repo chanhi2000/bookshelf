@@ -437,7 +437,7 @@ We also define three important components: the target ports to probe (common ser
 
 The `simulate_connection` function handles individual connection attempts to a specific port. It creates a socket connection, tries to get any service banners (like SSH version information), and then sends appropriate attack commands based on the service type. We have added error handling for common network issues and also added realistic delays between commands to mimic human interaction.
 
-Our `simulate_port_scan` function acts like a reconnaissance tool, that will systematically chec each port in our target list. It's similar to how tools like `nmap` work – going through ports one by one to see what services are available. For each port, it calls the `simulate_connection` function and adds small random delays to make the scan pattern look more natural.
+Our `simulate_port_scan` function acts like a reconnaissance tool, that will systematically chec each port in our target list. It's similar to how tools like `nmap` work - going through ports one by one to see what services are available. For each port, it calls the `simulate_connection` function and adds small random delays to make the scan pattern look more natural.
 
 The `simulate_brute_force` function maintains lists of common usernames and passwords, attempting different combinations against services like FTP and SSH. For each attempt, it creates a new connection, sends the login credentials in the correct format for that service, and then closes the connection. This helps us to test how well the honeypot detects and logs credential stuffing attacks.
 
@@ -455,7 +455,7 @@ python honeypot_simulator.py
 python honeypot_simulator.py --target 192.168.1.100 --intensity high --duration 600
 ```
 
-Since we are running the honeypot as well as the simulator on the same machine locally, the target will be `localhost`. But it can be something else in a real scenario or if you are running the honeypot in a VM or a different machine – so make sure you confirm the IP before running the simulator.
+Since we are running the honeypot as well as the simulator on the same machine locally, the target will be `localhost`. But it can be something else in a real scenario or if you are running the honeypot in a VM or a different machine - so make sure you confirm the IP before running the simulator.
 
 ---
 

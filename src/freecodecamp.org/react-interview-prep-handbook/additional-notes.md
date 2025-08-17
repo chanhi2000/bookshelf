@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Additional Notes"
-description: "Article(s) > (6/6) The React Interview Prep Handbook – Essential Topics and Code Examples" 
+description: "Article(s) > (6/6) The React Interview Prep Handbook - Essential Topics and Code Examples" 
 category:
   - Node.js
   - React.js
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (6/6) The React Interview Prep Handbook – Essential Topics and Code Examples"
+      content: "Article(s) > (6/6) The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:description
       content: "Additional Notes"
     - property: og:url
@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 
 ```component VPCard
 {
-  "title": "The React Interview Prep Handbook – Essential Topics and Code Examples",
+  "title": "The React Interview Prep Handbook - Essential Topics and Code Examples",
   "desc": "Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ...",
   "link": "/freecodecamp.org/react-interview-prep-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728643567956/00c98d1
 ---
 
 <SiteInfo
-  name="The React Interview Prep Handbook – Essential Topics and Code Examples"
+  name="The React Interview Prep Handbook - Essential Topics and Code Examples"
   desc="Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ..."
   url="https://freecodecamp.org/news/react-interview-prep-handbook#heading-additional-notes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -58,7 +58,7 @@ There are a few other areas that I haven't mentioned so far, but can be a good a
 
 ```component VPCard
 {
-  "title": "The React Router Cheatsheet – Everything You Need to Know",
+  "title": "The React Router Cheatsheet - Everything You Need to Know",
   "desc": "If you're building React applications for the web, you're going to need to use a dedicated router to display pages and navigate your user around them.  That's why today we're going to go over the most popular and most powerful router for React applic...",
   "link": "/freecodecamp.org/react-router-cheatsheet.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -69,7 +69,7 @@ There are a few other areas that I haven't mentioned so far, but can be a good a
 ```component VPCard
 {
   "title": "How to Write Unit Tests inReact",
-  "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself – you need to check if each unit of your code is w...",
+  "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself - you need to check if each unit of your code is w...",
   "link": "/freecodecamp.org/how-to-write-unit-tests-in-react.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

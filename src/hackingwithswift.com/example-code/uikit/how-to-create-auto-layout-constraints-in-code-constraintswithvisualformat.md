@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -129,7 +129,7 @@ Finally, add this to make the views lay themselves out below each other:
 view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[label1]-[label2]-[label3]-[label4]-[label5]", options: [], metrics: nil, views: viewsDictionary))
 ```
 
-This is only the beginning of what VFL can do – you should definitely read my <a href="/read/6/overview">Auto Layout tutorial</a> for more details.
+This is only the beginning of what VFL can do - you should definitely read my <a href="/read/6/overview">Auto Layout tutorial</a> for more details.
 
 -->
 

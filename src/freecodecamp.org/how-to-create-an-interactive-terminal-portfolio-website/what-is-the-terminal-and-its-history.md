@@ -69,7 +69,7 @@ If you're new to the command line, you can read this article:
 
 ```component VPCard
 {
-  "title": "Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]",
+  "title": "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]",
   "desc": "Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell). The command line is one of the most useful and efficient tools we have as developers and as computer users in general. But us...",
   "link": "/freecodecamp.org/command-line-for-beginners/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -52,9 +52,9 @@ head:
 
 > Updated for Xcode 15
 
-By default your SwiftUI views will mostly stay inside the safe area – they will go to the bottom of the screen, but it won't go near any notch at the top of the device.
+By default your SwiftUI views will mostly stay inside the safe area - they will go to the bottom of the screen, but it won't go near any notch at the top of the device.
 
-If you want to change that – if you want your view to be truly full screen, even if that means being partly obscured by a notch or other hardware cut outs – then you should use the `ignoresSafeArea()` modifier.
+If you want to change that - if you want your view to be truly full screen, even if that means being partly obscured by a notch or other hardware cut outs - then you should use the `ignoresSafeArea()` modifier.
 
 For example, this creates a red text view that asks to fill all available space, then sets it to ignore any safe areas so that it goes truly edge to edge.
 

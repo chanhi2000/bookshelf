@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,19 +55,19 @@ isOriginal: false
 
 Our user interface for this game is going to be fairly complicated, but we can assemble it piece by piece and have Auto Layout do most of the work for us.
 
-The main part of the UI will be two large labels: one containing the clues the user needs to figure out, and one showing how many letters are in the word for each clue. So, it might say “A cow in a tornado” in one label and “9 Letters” in the other – with the answer being “milkshake”. As the player solves each clue, the letter count will be replaced with that answer, so they can see at a glance which ones they have solved.
+The main part of the UI will be two large labels: one containing the clues the user needs to figure out, and one showing how many letters are in the word for each clue. So, it might say “A cow in a tornado” in one label and “9 Letters” in the other - with the answer being “milkshake”. As the player solves each clue, the letter count will be replaced with that answer, so they can see at a glance which ones they have solved.
 
 Just above and to the right of those two labels will be one extra label, nice and small, which will show the user’s score.
 
 In the middle of the screen will be a `UITextField` where we’ll store the user’s current answer, plus buttons below to submit the answer or clear it.
 
-Finally, at the bottom we’re going to make 20 (yes, twenty!) buttons, each containing different parts of the clues. So, there will be one with MIL, one with KSH, and one with AKE – the user needs to tap all three to spell MILKSHAKE. To make our layout a little easier, we’re going to place those buttons inside another `UIView` that we can position centered on the screen.
+Finally, at the bottom we’re going to make 20 (yes, twenty!) buttons, each containing different parts of the clues. So, there will be one with MIL, one with KSH, and one with AKE - the user needs to tap all three to spell MILKSHAKE. To make our layout a little easier, we’re going to place those buttons inside another `UIView` that we can position centered on the screen.
 
 The picture below shows how your finished layout should look if you've followed all the instructions. If you're seeing something slightly different, that's OK. If you're seeing something *very* different, you should probably try again!
 
 ![Your finished layout should look like this.](https://hackingwithswift.com/img/books/hws/8-1@2x.png)
 
-Our game is designed for iPads because we’ve got a lot of information we want to cram in. Later on, you’re welcome to try creating a second layout specifically for iPhone, and it *is* possible – it just takes a lot more thinking!
+Our game is designed for iPads because we’ve got a lot of information we want to cram in. Later on, you’re welcome to try creating a second layout specifically for iPhone, and it *is* possible - it just takes a lot more thinking!
 
 The first thing we’re going to do is create five properties to store the important parts of our user interface: the clues label, the answers label, the player’s current answer (the word they are spelling), their score, and all the buttons showing word pieces.
 
@@ -81,7 +81,7 @@ var scoreLabel: UILabel!
 var letterButtons = [UIButton]()
 ```
 
-Just like in projects 4 and 7, we’re going to write a custom `loadView()` method that creates our user interface in code. This will involve much more work than just creating a `WKWebView`, though – we have lots of UI to create! So, we’ll tackle it piece by piece so you can see it coming together as we go.
+Just like in projects 4 and 7, we’re going to write a custom `loadView()` method that creates our user interface in code. This will involve much more work than just creating a `WKWebView`, though - we have lots of UI to create! So, we’ll tackle it piece by piece so you can see it coming together as we go.
 
 Let’s start nice and easy: we’re going to create the main view itself as a big and white empty space. This is just a matter of creating a new instance of `UIView`, giving it a white background color, and assigning that to our view controller’s `view` property:
 
@@ -131,7 +131,7 @@ NSLayoutConstraint.activate([
 ])
 ```
 
-Notice the way I’m pinning the label to `view.layoutMarginsGuide` – that will make the score label have a little distance from the right edge of the screen.
+Notice the way I’m pinning the label to `view.layoutMarginsGuide` - that will make the score label have a little distance from the right edge of the screen.
 
 ::: tip
 
@@ -163,7 +163,7 @@ We’ll be adding lots more view code *before* the call to `NSLayoutConstraint.a
 
 If you run the app now you should see “Score: 0” nestled in the top-right corner. If you *don’t* see that, please check your code otherwise the rest of this project will be very confusing indeed!
 
-Next we’re going to add the clues and answers labels. This will involve similar code to the score label, except we’re going to set two extra properties: `font` and `numberOfLines`. The `font` property describes what kind of text font is used to render the label, and is provided as a dedicated type that describes a font face and size: `UIFont`. `numberOfLines` is an integer that sets how many lines the text can wrap over, but we’re going to set it to 0 – a magic value that means “as many lines as it takes.”
+Next we’re going to add the clues and answers labels. This will involve similar code to the score label, except we’re going to set two extra properties: `font` and `numberOfLines`. The `font` property describes what kind of text font is used to render the label, and is provided as a dedicated type that describes a font face and size: `UIFont`. `numberOfLines` is an integer that sets how many lines the text can wrap over, but we’re going to set it to 0 - a magic value that means “as many lines as it takes.”
 
 Add this code below the code to create the label, but *before* the Auto Layout code:
 
@@ -186,7 +186,7 @@ view.addSubview(answersLabel)
 
 Using `UIFont.systemFont(ofSize: 24)` will give us a 24-point font in whatever font is currently being used by iOS. This was Helvetica in the early days of iOS, then moved to Helvetica Neue and finally San Francisco. Asking for the system font means we’ll get whatever is the standard today, but our UI will update automatically if Apple makes more changes in the future.
 
-To position those in such a way that they look great on a variety of iPad sizes – from iPad Mini up to the 12.9-inch iPad Pro – we’re going to set some anchors:
+To position those in such a way that they look great on a variety of iPad sizes - from iPad Mini up to the 12.9-inch iPad Pro - we’re going to set some anchors:
 
 - The tops of the clues and answers labels will be pinned to the bottom of the score label.
 - The clues label will be pinned to the leading edge of the screen, indented by 100 points so that it looks neater.
@@ -197,7 +197,7 @@ To position those in such a way that they look great on a variety of iPad sizes 
 
 I realize that might sound like a lot of work, but this kind of thing is where Auto Layout anchors really shine. Just remember: it takes the multiplier into account first, then the constant.
 
-Add these constraints to the array we’re activating – I’ve added comments just to be sure:
+Add these constraints to the array we’re activating - I’ve added comments just to be sure:
 
 ```swift
 // pin the top of the clues label to the bottom of the score label
@@ -224,7 +224,7 @@ answersLabel.heightAnchor.constraint(equalTo: cluesLabel.heightAnchor),
 
 If you run the code now you’ll see “CLUES” and “ANSWERS” near the top of the screen.
 
-Temporarily – just so you can follow along and see how everything works! – try adding this code after the call to `activateConstraints()`:
+Temporarily - just so you can follow along and see how everything works! - try adding this code after the call to `activateConstraints()`:
 
 ```swift
 cluesLabel.backgroundColor = .red
@@ -237,9 +237,9 @@ That will make our two big labels stand out more clearly, which will be helpful 
 
 ## Entering answers
 
-Next we’re going to add a `UITextField` that will show the user’s answer as they are building it. You might think this is a good place to use another `UILabel` particularly because we want players to build words by tapping letter buttons rather than typing into a box. However, this lets me introduce you to the `placeholder` property of text fields, which draws gray prompt text that the user can type over – it looks really nice, and gives us space to provide some instructions to users.
+Next we’re going to add a `UITextField` that will show the user’s answer as they are building it. You might think this is a good place to use another `UILabel` particularly because we want players to build words by tapping letter buttons rather than typing into a box. However, this lets me introduce you to the `placeholder` property of text fields, which draws gray prompt text that the user can type over - it looks really nice, and gives us space to provide some instructions to users.
 
-As with our labels we’re also going to adjust the font and alignment of the text field, but we’re also going to disable user interaction so the user can’t tap on it – we don’t want the iOS keyboard to appear.
+As with our labels we’re also going to adjust the font and alignment of the text field, but we’re also going to disable user interaction so the user can’t tap on it - we don’t want the iOS keyboard to appear.
 
 Add this code alongside the other views:
 
@@ -255,7 +255,7 @@ view.addSubview(currentAnswer)
 
 The only new part is setting `isUserInteractionEnabled` to false, which is what stops the user from activating the text field and typing into it.
 
-As for constraints, we’re going to make this text field centered in our view, but only 50% its width – given how many characters it will hold, this is more than enough. We’re also going to place it below the clues label, with 20 points of spacing so the two don’t touch.
+As for constraints, we’re going to make this text field centered in our view, but only 50% its width - given how many characters it will hold, this is more than enough. We’re also going to place it below the clues label, with 20 points of spacing so the two don’t touch.
 
 Add this to your constraints array:
 
@@ -265,7 +265,7 @@ currentAnswer.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5)
 currentAnswer.topAnchor.constraint(equalTo: cluesLabel.bottomAnchor, constant: 20),
 ```
 
-Run the app again, and you’ll see “Tap letters to guess” in gray underneath the red and blue labels – this is coming together slowly!
+Run the app again, and you’ll see “Tap letters to guess” in gray underneath the red and blue labels - this is coming together slowly!
 
 Below the text field we’re going to add two buttons: one for the user to submit their answer (when they’ve entered all the letters they want), and one to clear their answer so they can try something else.
 
@@ -297,10 +297,10 @@ We don’t need to store those as properties on the view controller, because we 
 In terms of the constraints to add for those buttons, they need three each:
 
 1. One to set their vertical position. For the submit button we’ll be using the bottom of the current answer text field, but for the clear button we’ll be setting its Y anchor so that its stays aligned with the Y position of the submit button. This means both buttons will remain aligned even if we move one.
-2. We’re going to center them both horizontally in our main view. To stop them overlapping, we’ll subtract 100 from the submit button’s X position, and add 100 to the clear button’s X position. “100” isn’t any sort of special number – you can experiment with different values and see what looks good to you.
+2. We’re going to center them both horizontally in our main view. To stop them overlapping, we’ll subtract 100 from the submit button’s X position, and add 100 to the clear button’s X position. “100” isn’t any sort of special number - you can experiment with different values and see what looks good to you.
 3. We’re going to force both buttons to have a height of 44 points. iOS likes to make its buttons really small by default, but at the same time Apple’s human interface guidelines recommends buttons be at least 44x44 so they can be tapped easily.
 
-Here are the constraints required to bring those rules to life – please add this to your constraints list:
+Here are the constraints required to bring those rules to life - please add this to your constraints list:
 
 ```swift
 submit.topAnchor.constraint(equalTo: currentAnswer.bottomAnchor),
@@ -316,13 +316,13 @@ clear.heightAnchor.constraint(equalToConstant: 44),
 
 ## Buttons… buttons everywhere!
 
-Are you feeling tired yet? It’s hard work, isn’t it? Don’t get me wrong – building user interface programmatically has many advantages, but it is certainly *verbose*.
+Are you feeling tired yet? It’s hard work, isn’t it? Don’t get me wrong - building user interface programmatically has many advantages, but it is certainly *verbose*.
 
-Fortunately we’re near the end now, and all that remains is to add letter buttons at the bottom of the user interface. We need a lot of these – 20, to be precise – and we need to make sure they are positioned neatly on the screen.
+Fortunately we’re near the end now, and all that remains is to add letter buttons at the bottom of the user interface. We need a lot of these - 20, to be precise - and we need to make sure they are positioned neatly on the screen.
 
 With complicated layouts like this one the smart thing to do is wrap things in a container view. In our case this means we’re going to create one container view that will house all the buttons, then give *that* view constraints so that it’s positioned correctly on the screen.
 
-This is just going to be a plain `UIView` – it does nothing special other than host our buttons. So, add this code below our previous view creation code:
+This is just going to be a plain `UIView` - it does nothing special other than host our buttons. So, add this code below our previous view creation code:
 
 ```swift
 let buttonsView = UIView()
@@ -353,7 +353,7 @@ Just for testing purposes, give that new view a green background color:
 buttonsView.backgroundColor = .green
 ```
 
-We haven’t added the buttons inside that view just yet, but please run the app now – I think you’ll find the result interesting.
+We haven’t added the buttons inside that view just yet, but please run the app now - I think you’ll find the result interesting.
 
 What you’ll see is that our layout has changed quite dramatically: everything that used to be pinned to the top has now been pulled downwards. This isn’t a mistake, or an Auto Layout bug, but is the natural result of all the rules we’ve laid down:
 
@@ -366,14 +366,14 @@ What you’ll see is that our layout has changed quite dramatically: everything 
 
 In short, we have the buttons view pinned to the bottom and the score label pinned to the top, with all our other views in between.
 
-Before we added the final buttons view, Auto Layout had no special idea of how big any of the views should be, so it used something called the *intrinsic content size* – how big each view needs to be to show its content. This resulted in our views being neatly arranged at the top. But now we have a complete vertical stack, pinned at the top and bottom, so UIKit needs to fill the space in between by stretching one or more of the views.
+Before we added the final buttons view, Auto Layout had no special idea of how big any of the views should be, so it used something called the *intrinsic content size* - how big each view needs to be to show its content. This resulted in our views being neatly arranged at the top. But now we have a complete vertical stack, pinned at the top and bottom, so UIKit needs to fill the space in between by stretching one or more of the views.
 
 Every view in all our UIKit layouts has two important properties that tell UIKit how it can squash or stretch them in order to satisfy constraints:
 
 - **Content hugging priority** determines how likely this view is to be made larger than its intrinsic content size. If this priority is high it means Auto Layout prefers not to stretch it; if it’s low, it will be more likely to be stretched.
 - **Content compression resistance priority** determines how happy we are for this view to be made smaller than its intrinsic content size.
 
-Both of those values have a default: 250 for content hugging, and 750 for content compression resistance. Remember, higher priorities mean Auto Layout works harder to satisfy them, so you can see that views are usually fairly happy to be stretched, but prefer not to be squashed. Because all views have the same priorities for these two values, Auto Layout is forced to pick one to stretch – the score at the top.
+Both of those values have a default: 250 for content hugging, and 750 for content compression resistance. Remember, higher priorities mean Auto Layout works harder to satisfy them, so you can see that views are usually fairly happy to be stretched, but prefer not to be squashed. Because all views have the same priorities for these two values, Auto Layout is forced to pick one to stretch - the score at the top.
 
 Now, all this matters because we’re going to adjust the content hugging priority for our clues and answers labels. More specifically, we’re going to give them a priority of 1, so that when Auto Layout has to decide which view to stretch they are first in line.
 
@@ -397,7 +397,7 @@ So, this actual button creation isn’t as hard as you might think:
 1 .Set constants to represent the width and height of our buttons for easier reference.
 2 .Loop through rows 0, 1, 2, and 3.
 3 .Loop through columns 0, 1, 2, 3, and 4.
-4 .Create a new button with a nice and large font – we can adjust the font of a button’s label using its `titleLabel` property.
+4 .Create a new button with a nice and large font - we can adjust the font of a button’s label using its `titleLabel` property.
 5 .Calculate the X position of the button as being our column number multiplied by the button width.
 6 .Calculate the Y position of the button as being our row number multiplied by the button height.
 7 .Add the button to our `buttonsView` rather than the main view.
@@ -406,7 +406,7 @@ As a bonus, we’re going to add each button to our `letterButtons` array as we 
 
 Calculating positions of views by hand isn’t something we’ve done before, because we’ve been relying on Auto Layout for everything. However, it’s no harder than sketching something out on graph paper: we create a rectangular frame that has X and Y coordinates plus width and height, then assign that to the `frame` property of our view. These rectangles have a special type called `CGRect`, because they come from Core Graphics.
 
-As an example, we’ll be calculating the X position for a button by multiplying our fixed button width (150) by its column position. So, for column 0 that will give an X coordinate of 150x0, which is 0, and for column 1 that will give an X coordinate of 150x1, which is 150 – they will line up neatly.
+As an example, we’ll be calculating the X position for a button by multiplying our fixed button width (150) by its column position. So, for column 0 that will give an X coordinate of 150x0, which is 0, and for column 1 that will give an X coordinate of 150x1, which is 150 - they will line up neatly.
 
 Add this code after the call to `NSLayoutConstraint.activate()`:
 

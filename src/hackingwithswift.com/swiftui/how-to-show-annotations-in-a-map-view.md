@@ -116,7 +116,7 @@ That uses the traditional pin style that iOS has had for years, but if you want 
 
 ![A map showing Western Europe and the British Isles, with red bubbles over London and Paris.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-show-annotations-in-a-map-view-2~dark.png)
 
-And if you want complete control, you can also pass in completely custom views – some text, an image, a `NavigationLink`, and so on.
+And if you want complete control, you can also pass in completely custom views - some text, an image, a `NavigationLink`, and so on.
 
 For example, we could draw a 4-point stroked circle over our capital cities like this:
 

@@ -105,12 +105,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750869186913/741d581
 
 <SiteInfo
   name="Top Hosting Platforms for Indie Hackers"
-  desc="If you’re an indie hacker – that is, someone building your own side project, startup, or digital product solo or with a small team – you know that hosting matters.  You’re juggling product development, community-building, marketing, support, and ever..."
+  desc="If you’re an indie hacker - that is, someone building your own side project, startup, or digital product solo or with a small team - you know that hosting matters.  You’re juggling product development, community-building, marketing, support, and ever..."
   url="https://freecodecamp.org/news/top-hosting-platforms-for-indie-hackers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1750869186913/741d5815-6f36-41c4-b0e4-bdec93ab6fdf.png"/>
 
-If you’re an indie hacker – that is, someone building your own side project, startup, or digital product solo or with a small team – you know that hosting matters.
+If you’re an indie hacker - that is, someone building your own side project, startup, or digital product solo or with a small team - you know that hosting matters.
 
 You’re juggling product development, community-building, marketing, support, and everything in between.
 
@@ -145,7 +145,7 @@ Each app runs in your [<FontIcon icon="iconfont icon-heroku"/>isolated container
 
 Heroku’s free tier used to be popular with hobbyists, though now it’s more limited. Monthly pricing scales by dyno count and type.
 
-For lightweight apps, a single hobby dyno plus hobby database may cost $10–15/month. That’s not bad for professional-grade infrastructure, but still pricier than shared hosting if you only need a static site.
+For lightweight apps, a single hobby dyno plus hobby database may cost $10-15/month. That’s not bad for professional-grade infrastructure, but still pricier than shared hosting if you only need a static site.
 
 The biggest win for Heroku is developer joy. Everyone from indie hackers to experienced developers appreciates the ease of tweaking environment variables, rolling back deploys, and connecting add-ons in seconds.
 
@@ -181,7 +181,7 @@ You won’t have the nicest DevOps tools, but if your goal is to validate quickl
 ## Vercel
 
 <SiteInfo
-  name="Vercel: Build and deploy the best web experiences with the AI Cloud – Vercel"
+  name="Vercel: Build and deploy the best web experiences with the AI Cloud - Vercel"
   desc="Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web."
   url="https://vercel.com/home/"
   logo="https://vercel.com/favicon.ico"
@@ -189,7 +189,7 @@ You won’t have the nicest DevOps tools, but if your goal is to validate quickl
 
 ![Vercel](https://cdn.hashnode.com/res/hashnode/image/upload/v1750404284387/af8b4e6b-8f28-445d-9ca0-be6bf4adb93c.png)
 
-If your indie hacker stack leans front-end heavy – React, Next.js, SvelteKit, or any Jamstack framework – Vercel is a game-changer.
+If your indie hacker stack leans front-end heavy - React, Next.js, SvelteKit, or any Jamstack framework - Vercel is a game-changer.
 
 It was built by the team behind [**Next.js**](/freecodecamp.org/build-a-full-stack-application-with-nextjs.md), so deploying Next apps to production is nearly magical.
 
@@ -222,7 +222,7 @@ Railway is often called “Heroku for the next generation,” and that’s not a
 
 You connect your GitHub repo, and Railway loads your [**Dockerfile**](/freecodecamp.org/the-docker-handbook/README.md) or project type automatically. DNS, SSL, environment variables, and metrics are all neatly bundled.
 
-You can provision databases, queues, caches – everything you need in a few clicks. Auto-scaling is optional and customizable.
+You can provision databases, queues, caches - everything you need in a few clicks. Auto-scaling is optional and customizable.
 
 There’s a generous free tier that gives you $5 in credit per month, usually enough for small apps or experiments. From there, you pay for usage. It’s more granular than Heroku’s flat dyno model.
 
@@ -262,7 +262,7 @@ If your indie project demands speed or you’re targeting global users, Fly.io g
 
 Here’s how to think about picking the right fit based on your particular situation.
 
-If you prioritize smooth backend deployment and simplicity, Heroku remains a classic. Git-based deploys, add-ons, predictable pricing – that old comfort meets modern needs.
+If you prioritize smooth backend deployment and simplicity, Heroku remains a classic. Git-based deploys, add-ons, predictable pricing - that old comfort meets modern needs.
 
 If you want ultra-low cost and just need a static site or WordPress blog, Hostinger is the best. It’s cheap, fast, and in charge of most backend details.
 
@@ -286,7 +286,7 @@ Hope you enjoyed this article. You can [<FontIcon icon="fas fa-globe"/>learn mor
 ```component VPCard
 {
   "title": "Top Hosting Platforms for Indie Hackers",
-  "desc": "If you’re an indie hacker – that is, someone building your own side project, startup, or digital product solo or with a small team – you know that hosting matters.  You’re juggling product development, community-building, marketing, support, and ever...",
+  "desc": "If you’re an indie hacker - that is, someone building your own side project, startup, or digital product solo or with a small team - you know that hosting matters.  You’re juggling product development, community-building, marketing, support, and ever...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-hosting-platforms-for-indie-hackers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

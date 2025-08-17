@@ -157,7 +157,7 @@ Below are all the Calculus concepts you will learn about in this course. The sec
 - Average Value of a Function
 - Proof of the Mean Value Theorem for Integrals
 
-We recommend you pull out some paper and a pencil and take physical notes – just like when you were back in a classroom.
+We recommend you pull out some paper and a pencil and take physical notes - just like when you were back in a classroom.
 
 This manual process of taking notes will help you better comprehend and retain these concepts, since Dr. Green moves fast and covers a lot of topics in a short time.
 

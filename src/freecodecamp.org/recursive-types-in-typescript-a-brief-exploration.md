@@ -79,7 +79,7 @@ function increment(n: number) {
 type T = ReturnType<typeof increment>; // number
 ```
 
-One of the wonders of the type world is the existence of recursive types – types that refer to themselves. They are somewhat similar to recursive functions that you might already be familiar with.
+One of the wonders of the type world is the existence of recursive types - types that refer to themselves. They are somewhat similar to recursive functions that you might already be familiar with.
 
 Here is a recursive function:
 

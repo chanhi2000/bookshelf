@@ -116,7 +116,7 @@ struct ContentView: View {
 }
 ```
 
-As you can see, once you have the first four steps in place you can go ahead and add an `onShake()` modifier to any view you want, providing some custom code to run when the shake gesture happens – it's not straightforward to set up, but once you're done it all works neatly.
+As you can see, once you have the first four steps in place you can go ahead and add an `onShake()` modifier to any view you want, providing some custom code to run when the shake gesture happens - it's not straightforward to set up, but once you're done it all works neatly.
 
 ::: details Similar solutions…
 

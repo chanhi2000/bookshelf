@@ -130,7 +130,7 @@ I’ve also [<FontIcon icon="fa-brands fa-spotify"/>recorded a podcast](https://
 
 ```component VPCard
 {
-  "title": "Chapter 1: Precision Agriculture – Techniques and Benefits",
+  "title": "Chapter 1: Precision Agriculture - Techniques and Benefits",
   "desc": "(2/9) AI in Agriculture: How AI-Enhanced Farming Can Increase Crop Yields [Full Book]",
   "link": "/freecodecamp.org/ai-in-agriculture-book/chapter-1-precision-agriculture-techniques-and-benefits.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

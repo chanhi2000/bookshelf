@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/lCHpZjERVdY" />
 
-In this project you'll produce an application that lets users scroll through a list of images, then select one to view. It's deliberately simple, because there are many other things you'll need to learn along the way, so strap yourself in – this is going to be long!
+In this project you'll produce an application that lets users scroll through a list of images, then select one to view. It's deliberately simple, because there are many other things you'll need to learn along the way, so strap yourself in - this is going to be long!
 
 Launch Xcode, and choose "Create a new Xcode project" from the welcome screen. Choose Single View App from the list and click Next. For Product Name enter Project1, then make sure you have Swift selected for the language.
 
@@ -65,17 +65,17 @@ One of the fields you'll be asked for is "Organization Identifier", which is a u
 
 ::: important
 
-some of Xcode's project templates have checkboxes saying "Use Core Data", "Include Unit Tests" and "Include UI Tests". Please ensure these boxes are unchecked for this project and indeed almost all projects in this series – there’s only one project where this isn’t the case, and it’s made pretty clear there!
+some of Xcode's project templates have checkboxes saying "Use Core Data", "Include Unit Tests" and "Include UI Tests". Please ensure these boxes are unchecked for this project and indeed almost all projects in this series - there’s only one project where this isn’t the case, and it’s made pretty clear there!
 
 :::
 
-Now click Next again and you'll be asked where you want to save the project – your desktop is fine. Once that's done, you'll be presented with the example project that Xcode made for you. The first thing we need to do is make sure you have everything set up correctly, and that means running the project as-is.
+Now click Next again and you'll be asked where you want to save the project - your desktop is fine. Once that's done, you'll be presented with the example project that Xcode made for you. The first thing we need to do is make sure you have everything set up correctly, and that means running the project as-is.
 
 When you run a project, you get to choose what kind of device the iOS Simulator should pretend to be, or you can also select a physical device if you have one plugged in. These options are listed under the Product > Destination menu, and you should see iPad Air, iPhone 8, and so on.
 
 There's also a shortcut for this menu: at the top-left of Xcode's window is the play and stop button, but to the right of that it should say Project1 then a device name. You can click on that device name to select a different device.
 
-**For now, please choose iPhone XR, and click the Play triangle button in the top-left corner.** This will compile your code, which is the process of converting it to instructions that iPhones can understand, then launch the simulator and run the app. As you'll see when you interact with the app, our “app” just shows a large white screen – it does nothing at all, at least not yet.
+**For now, please choose iPhone XR, and click the Play triangle button in the top-left corner.** This will compile your code, which is the process of converting it to instructions that iPhones can understand, then launch the simulator and run the app. As you'll see when you interact with the app, our “app” just shows a large white screen - it does nothing at all, at least not yet.
 
 ![The basic Single View App project in Xcode. Yes, it’s just a large white space.](https://hackingwithswift.com/img/books/hws/1-6@2x.png)
 
@@ -89,7 +89,7 @@ This project is all about letting users select images to view, so you're going t
 
 ::; tip
 
-If you’re not sure what to download, use this link: [archive/main.zip< (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift/archive/main.zip) – that’s the zip file for all my project files.
+If you’re not sure what to download, use this link: [archive/main.zip< (<FontIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift/archive/main.zip) - that’s the zip file for all my project files.
 
 :::
 

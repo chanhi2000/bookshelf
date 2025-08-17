@@ -69,7 +69,7 @@ var results1 = [
 ]
 ```
 
-Swift will infer that to be a dictionary with strings as keys, and an array of `Any` as values – almost certainly not what you want. You could specify the entire type explicitly, like this:
+Swift will infer that to be a dictionary with strings as keys, and an array of `Any` as values - almost certainly not what you want. You could specify the entire type explicitly, like this:
 
 ```swift
 var results2: [String: [Int]] = [
@@ -79,7 +79,7 @@ var results2: [String: [Int]] = [
 ]
 ```
 
-However, type placeholders allow you to write `_` in place of the parts you want the compiler to infer – it’s a way for us to explicitly say “this part should use type inference”, alongside places where we want an exact type of our choosing.
+However, type placeholders allow you to write `_` in place of the parts you want the compiler to infer - it’s a way for us to explicitly say “this part should use type inference”, alongside places where we want an exact type of our choosing.
 
 So, we could also write this:
 
@@ -95,7 +95,7 @@ As you can see, the `_` there is an explicit request for type inference, but we 
 
 ::: tip
 
-Type placeholders can be optional too – use `_?` to have Swift infer your type as optional.
+Type placeholders can be optional too - use `_?` to have Swift infer your type as optional.
 
 :::
 
@@ -114,7 +114,7 @@ func createPlayer() -> _ {
 }
 ```
 
-That fails to specify a return type for `createPlayer()`, which will cause a compiler error. However, as we’ve asked Swift to infer the type, the error in Xcode will offer a Fix-it to replace `_` with `Player<Int>` – you can imagine that saving a fair amount of hassle when dealing with more complex types.
+That fails to specify a return type for `createPlayer()`, which will cause a compiler error. However, as we’ve asked Swift to infer the type, the error in Xcode will offer a Fix-it to replace `_` with `Player<Int>` - you can imagine that saving a fair amount of hassle when dealing with more complex types.
 
 Think of type placeholders as a way of simplifying long type annotations: you can replace all the less relevant or boilerplate parts with underscores, leaving the important parts spelled out to help make your code more readable.
 

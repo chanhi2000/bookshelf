@@ -56,7 +56,7 @@ cover: https://files.realpython.com/media/Using-ZIP-Files-With-Python_Watermarke
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Manipulating ZIP Files With Python – Real Python"
+  name="[COURSE] Manipulating ZIP Files With Python - Real Python"
   desc="In this video course, you'll learn how to manipulate ZIP files using Python's zipfile module from the standard library. Through hands-on examples, you'll learn how to read, write, compress, and extract files from your ZIP files quickly."
   url="https://realpython.com/courses/zipfile-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -1270,7 +1270,7 @@ You also learned how to use `zipfile` from your command line to list, create, an
 This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:
 
 <SiteInfo
-  name="[COURSE] Manipulating ZIP Files With Python – Real Python"
+  name="[COURSE] Manipulating ZIP Files With Python - Real Python"
   desc="In this video course, you'll learn how to manipulate ZIP files using Python's zipfile module from the standard library. Through hands-on examples, you'll learn how to read, write, compress, and extract files from your ZIP files quickly."
   url="https://realpython.com/courses/zipfile-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"

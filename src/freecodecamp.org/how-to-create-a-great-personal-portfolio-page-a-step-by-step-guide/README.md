@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
-description: "Article(s) > How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+title: "How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
+description: "Article(s) > How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
 icon: fas fa-user-tie
 category:
   - Career
@@ -16,9 +16,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+      content: "Article(s) > How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
     - property: og:description
-      content: "How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+      content: "How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/
 prev: /projects/career/articles/README.md
@@ -47,7 +47,7 @@ cover: https://freecodecamp.org/news/content/images/2024/03/How-to-Create-a-Grea
 ---
 
 <SiteInfo
-  name="How to Create a Great Personal Portfolio Page – a Handbook for Beginners"
+  name="How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
   desc="As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach..."
   url="https://freecodecamp.org/news/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -66,7 +66,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "The Importance of a Personal Portfolio Website",
-  "desc": "(1/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(1/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/why-is-a-personal-portfolio-website-important.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -76,7 +76,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Choose the Right Domain Name",
-  "desc": "(2/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(2/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-choose-the-right-domain-name.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -86,7 +86,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Design Your Portfolio Site",
-  "desc": "(3/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(3/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-design-your-portfolio-site.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -96,7 +96,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Pick the Right Tools",
-  "desc": "(4/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(4/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-pick-the-right-tools.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -106,7 +106,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Showcase Your Best Work",
-  "desc": "(5/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(5/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-showcase-your-best-work.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -116,7 +116,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Craft Your Brand Story and Unique Voice",
-  "desc": "(6/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(6/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-craft-your-brand-story-and-unique-voice.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -126,7 +126,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Add Additional Content",
-  "desc": "(7/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(7/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-add-additional-content.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -136,7 +136,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "Essential Pages for Your Portfolio",
-  "desc": "(8/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(8/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/what-pages-you-need-in-your-portfolio.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -146,7 +146,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Organize the Home Page",
-  "desc": "(9/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(9/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-organize-the-home-page.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -156,7 +156,7 @@ But the journey doesn't end here. Diving deeper, you'll learn more strategies an
 ```component VPCard
 {
   "title": "How to Keep Your Portfolio Fresh",
-  "desc": "(10/10) How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "desc": "(10/10) How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "link": "/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-keep-your-portfolio-fresh.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -216,7 +216,7 @@ I've consistently aimed to revolutionize technical education, striving to set a 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Create a Great Personal Portfolio Page – a Handbook for Beginners",
+  "title": "How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "desc": "As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

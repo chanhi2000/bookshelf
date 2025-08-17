@@ -84,8 +84,8 @@ rsync -av Documents/* /tmp/documents
 
 In the command above, the option:
 
-- `-a` – means archive mode.
-- `-v` – means verbose, showing details of ongoing operations.
+- `-a` - means archive mode.
+- `-v` - means verbose, showing details of ongoing operations.
 
 ![Sync Files Locally](https://tecmint.com/wp-content/uploads/2016/08/Sync-Files-Locally.png)
 
@@ -125,7 +125,7 @@ rsync -auv Documents/* /tmp/documents
 
 ## Syncing Files From Local to Remote Linux
 
-In the example below, I am copying files from my local machine to a remote server with the IP address – **10.42.1.5**. So as to only sync new files on the local machine, that do not exist on the remote machine, we can include the `--ignore-existing` option:
+In the example below, I am copying files from my local machine to a remote server with the IP address - **10.42.1.5**. So as to only sync new files on the local machine, that do not exist on the remote machine, we can include the `--ignore-existing` option:
 
 ```sh
 rsync -av --ignore-existing Documents/* aaronkilik@10.42.1.5:~/all/

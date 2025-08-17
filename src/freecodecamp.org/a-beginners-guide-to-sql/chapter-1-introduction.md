@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Chapter 1: Introduction"
-description: "Article(s) > (1/11) The SQL Handbook – A Free Course for Web Developers"
+description: "Article(s) > (1/11) The SQL Handbook - A Free Course for Web Developers"
 category:
   - Data Science
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/11) The SQL Handbook – A Free Course for Web Developers"
+      content: "Article(s) > (1/11) The SQL Handbook - A Free Course for Web Developers"
     - property: og:description
       content: "Chapter 1: Introduction"
     - property: og:url
@@ -29,7 +29,7 @@ cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cov
 
 ```component VPCard
 {
-  "title": "The SQL Handbook – A Free Course for Web Developers",
+  "title": "The SQL Handbook - A Free Course for Web Developers",
   "desc": "SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ...",
   "link": "/freecodecamp.org/a-beginners-guide-to-sql/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cov
 ---
 
 <SiteInfo
-  name="The SQL Handbook – A Free Course for Web Developers"
+  name="The SQL Handbook - A Free Course for Web Developers"
   desc="SQL is everywhere these days. Whether you're learning backend development, data engineering, DevOps, or data science, SQL is a skill you'll want in your toolbelt. This a free and open text-based handbook. If you want to get started, just scroll down ..."
   url="https://freecodecamp.org/news/a-beginners-guide-to-sql#heading-chapter-1-introduction"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -54,7 +54,7 @@ Structured Query Language, or [SQL](https://freecodecamp.org/news/what-is-sql-da
 
 ## What is a SQL Select Statement?
 
-Let's write our own SQL statement from scratch. A `SELECT` statement is the most common operation in SQL – often called a "query". `SELECT` retrieves data from one or more tables. Standard `SELECT` statements do *not* alter the state of the database.
+Let's write our own SQL statement from scratch. A `SELECT` statement is the most common operation in SQL - often called a "query". `SELECT` retrieves data from one or more tables. Standard `SELECT` statements do *not* alter the state of the database.
 
 ```sql
 SELECT id from users;
@@ -112,7 +112,7 @@ Although many different databases use the SQL *language*, most of them will have
 
 ### We're using SQLite
 
-In this course, we'll be using [<FontIcon icon="iconfont icon-sqlite"/>SQLite](https://sqlite.org/index.html) specifically. SQLite is great for embedded projects, web browsers, and toy projects. It's lightweight, but has limited functionality compared to the likes of PostgreSQL or MySQL – two of the more common production SQL technologies.
+In this course, we'll be using [<FontIcon icon="iconfont icon-sqlite"/>SQLite](https://sqlite.org/index.html) specifically. SQLite is great for embedded projects, web browsers, and toy projects. It's lightweight, but has limited functionality compared to the likes of PostgreSQL or MySQL - two of the more common production SQL technologies.
 
 And I'll make sure to point out to you whenever some functionality we're working with is unique to SQLite.
 

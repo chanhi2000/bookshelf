@@ -164,7 +164,7 @@ Typer is a library for building CLI applications that users will love using and 
 ::: tip To get started with CLI development, check out
 
 - [**How to Build Command Line Interfaces in Python With argparse**](/realpython.com/command-line-interfaces-python-argparse.md)
-- [**Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click**](/realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click.md)
+- [**Comparing Python Command-Line Parsing Libraries - Argparse, Docopt, and Click**](/realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click.md)
 - [**Click and Python: Build Extensible and Composable CLI Apps**](/realpython.com/python-click.md)
 
 :::

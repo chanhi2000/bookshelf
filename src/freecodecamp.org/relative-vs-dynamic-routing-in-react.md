@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
-description: Article(s) > Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
+title: Relative Vs Dynamic Routing in React - Different Routing Methods with Examples
+description: Article(s) > Relative Vs Dynamic Routing in React - Different Routing Methods with Examples
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
+      content: Article(s) > Relative Vs Dynamic Routing in React - Different Routing Methods with Examples
     - property: og:description
-      content: Relative Vs Dynamic Routing in React – Different Routing Methods with Examples
+      content: Relative Vs Dynamic Routing in React - Different Routing Methods with Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/relative-vs-dynamic-routing-in-react.html
 prev: /programming/js-react/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723295443613/2cf6a92
 ---
 
 <SiteInfo
-  name="Relative Vs Dynamic Routing in React – Different Routing Methods with Examples"
+  name="Relative Vs Dynamic Routing in React - Different Routing Methods with Examples"
   desc="Single-Page Applications (SPAs) have been growing in popularity as people become accustomed to better user experiences and improved application responsiveness. This is in part thanks to the introduction of Client-Side Routing (CSR). CSR enables navig..."
   url="https://freecodecamp.org/news/relative-vs-dynamic-routing-in-react/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

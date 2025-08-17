@@ -52,11 +52,11 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-Sometimes you want to run several async operations at the same time then wait for their results to come back, and the easiest way to do that is with `async let`. This lets you start several async functions, all of which begin running immediately – it’s much more efficient than running them sequentially.
+Sometimes you want to run several async operations at the same time then wait for their results to come back, and the easiest way to do that is with `async let`. This lets you start several async functions, all of which begin running immediately - it’s much more efficient than running them sequentially.
 
 A common example of where this is useful is when you have to make two or more network requests, none of which relate to each other. That is, if you need to get Thing X and Thing Y from a server, but you don’t need to wait for X to return before you start fetching Y.
 
-To demonstrate this, we could define a couple of structs to store data – one to store a user’s account data, and one to store all the messages in their inbox:
+To demonstrate this, we could define a couple of structs to store data - one to store a user’s account data, and one to store all the messages in their inbox:
 
 ```swift
 struct User: Decodable {
@@ -138,11 +138,11 @@ The Swift compiler will automatically track which `async let` constants could th
 
 ::: tip
 
-If you never try to read the value of a throwing `async let` call – i.e., if you’ve started the work but don’t care what it returns – then you don’t need to use `try` at all, which in turn means the function running the `async let` code might not need to handle errors at all.
+If you never try to read the value of a throwing `async let` call - i.e., if you’ve started the work but don’t care what it returns - then you don’t need to use `try` at all, which in turn means the function running the `async let` code might not need to handle errors at all.
 
 :::
 
-Although both our network requests are happening at the same time, we still need to wait for them to complete in some sort of order. So, if you wanted to update your user interface as soon as either `user` or `messages` arrived back `async let` isn’t going to help by itself – you should look at the dedicated `Task` type instead.
+Although both our network requests are happening at the same time, we still need to wait for them to complete in some sort of order. So, if you wanted to update your user interface as soon as either `user` or `messages` arrived back `async let` isn’t going to help by itself - you should look at the dedicated `Task` type instead.
 
 One complexity with `async let` is that it captures any values it uses, which means you might accidentally try to write code that isn’t safe. Swift helps here by taking some steps to enforce that you aren’t trying to modify data unsafely.
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ The most important thing to understand is that, like Core Animation, Core Graphi
 
 Second you need to understand that Core Graphics differentiates between creating a path and drawing a path. That is, you can add lines, squares and other shapes to a path as much as you want to, but none of it will do anything until you actually draw the path. Think of it like a simple state machine: you configure a set of states you want (colors, transforms, and so on), then perform actions. You can even maintain multiple states at a time by pushing and popping in order to backup and restore specific states.
 
-Finally, you should know that Core Graphics is extremely fast: you can use it for updating drawing in real time, and you'll be very impressed. Core Graphics can work on a background thread – something that UIKit can't do – which means you can do complicated drawing without locking up your user interface.
+Finally, you should know that Core Graphics is extremely fast: you can use it for updating drawing in real time, and you'll be very impressed. Core Graphics can work on a background thread - something that UIKit can't do - which means you can do complicated drawing without locking up your user interface.
 
 It's time to start looking at some code, so it’s time to meet the `UIGraphicsImageRenderer` class. This was introduced in iOS 10 to allow fast and easy graphics rendering, while also quietly adding support for wide color devices like the iPad Pro. It works with closures, which might seem annoying if you’re still not comfortable with them, but has the advantage that you can build complex drawing instructions by composing functions.
 
@@ -83,13 +83,13 @@ func drawRectangle() {
 }
 ```
 
-In that code, we create a `UIGraphicsImageRenderer` with the size 512x512, leaving it with default values for scale and opacity – that means it will be the same scale as the device (e.g. 2x for retina) and transparent.
+In that code, we create a `UIGraphicsImageRenderer` with the size 512x512, leaving it with default values for scale and opacity - that means it will be the same scale as the device (e.g. 2x for retina) and transparent.
 
-Creating the renderer doesn’t actually start any rendering – that’s done in the `image()` method. This accepts a closure as its only parameter, which is code that should do all the drawing. It gets passed a single parameter that I’ve named `ctx`, which is a reference to a `UIGraphicsImageRendererContext` to draw to. This is a thin wrapper around another data type called `CGContext`, which is where the majority of drawing code lives.
+Creating the renderer doesn’t actually start any rendering - that’s done in the `image()` method. This accepts a closure as its only parameter, which is code that should do all the drawing. It gets passed a single parameter that I’ve named `ctx`, which is a reference to a `UIGraphicsImageRendererContext` to draw to. This is a thin wrapper around another data type called `CGContext`, which is where the majority of drawing code lives.
 
 When the rendering has finished it gets placed into the `image` constant, which in turn gets sent to the image view for display. Our rendering code is empty right now, but it will still result in an empty 512x512 image being created.
 
-Let’s make things more interesting by having the `drawRectangle()` method actually draw a rectangle. And not just *any* rectangle – a `stroked` rectangle, which is a rectangle with a line around it.
+Let’s make things more interesting by having the `drawRectangle()` method actually draw a rectangle. And not just *any* rectangle - a `stroked` rectangle, which is a rectangle with a line around it.
 
 There are a number of ways of drawing boxes in Core Graphics, but I've chosen the easiest: we'll define a `CGRect` structure that holds the bounds of our rectangle, we'll set the context's fill color to be red and its stroke color to be black, we'll set the context's line drawing width to be 10 points, then add a rectangle path to the context and draw it.
 

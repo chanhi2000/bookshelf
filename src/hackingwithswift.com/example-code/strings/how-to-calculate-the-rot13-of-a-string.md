@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,7 +56,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-ROT13 is a simple algorithm that shifts letters in a string forward 13 places. It’s obviously not suitable for any serious encryption, but it’s very useful for hiding text so its meaning is not obvious – posting spoilers on a forum, for example, is best done using ROT13 to avoid someone getting annoyed.
+ROT13 is a simple algorithm that shifts letters in a string forward 13 places. It’s obviously not suitable for any serious encryption, but it’s very useful for hiding text so its meaning is not obvious - posting spoilers on a forum, for example, is best done using ROT13 to avoid someone getting annoyed.
 
 It’s not hard to write a `rot13()` function, but it *is* a little harder to wrap it up neatly so you avoid global variables while still making it easy to use. Because you can’t add stored variables to an extension on `String`, the cleanest thing to do is create a new `ROT13` type that can store the transformation from regular letters to ROT13, then run the calculation.
 

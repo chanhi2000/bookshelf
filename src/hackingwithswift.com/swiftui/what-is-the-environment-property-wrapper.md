@@ -54,7 +54,7 @@ head:
 
 SwiftUI gives us both `@Environment` and `@EnvironmentObject` property wrappers, but they are subtly different: whereas `@EnvironmentObject` allows us to inject arbitrary values into the environment, `@Environment` is specifically there to work with SwiftUI’s own pre-defined keys.
 
-For example, `@Environment` is great for reading out things like a Core Data managed object context, whether the device is in dark mode or light mode, what size class your view is being rendered with, and more – fixed properties that come from the system. In code, it looks like this:
+For example, `@Environment` is great for reading out things like a Core Data managed object context, whether the device is in dark mode or light mode, what size class your view is being rendered with, and more - fixed properties that come from the system. In code, it looks like this:
 
 ```swift
 @Environment(\.horizontalSizeClass) var horizontalSizeClass

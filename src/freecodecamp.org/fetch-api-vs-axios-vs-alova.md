@@ -60,7 +60,7 @@ Then, in 2015, a promise-based API request, the Fetch API, was built into JavaSc
 
 But why would anyone consider using a third-party API when the lightweight inbuilt Fetch API is an effective option? Well, Axios and Alova provide more than just fetching simple JSON responses. While Axios automates the parsing of JSON and provides shorthand methods for requests, Alova caches responses which prevents making new requests that are redundant.
 
-So which should you stick to – Fetch API, Axios, or Alova?
+So which should you stick to - Fetch API, Axios, or Alova?
 
 In this guide, we’ll examine each of these tools based on their features, performance, and project suitability. Walk with me…
 

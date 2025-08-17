@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -70,7 +70,7 @@ view.addGestureRecognizer(recognizer)
 
 That will call a method called `longPressHappened()`, which needs to be marked with the `@objc` attribute so it can be called from the Objective-C system.
 
-If you want the user to tap the screen *then* do a long press – i.e., press, release, then long press – set the `numberOfTapsRequired` property to 1 like this:
+If you want the user to tap the screen *then* do a long press - i.e., press, release, then long press - set the `numberOfTapsRequired` property to 1 like this:
 
 ```swift
 recognizer.numberOfTapsRequired = 1

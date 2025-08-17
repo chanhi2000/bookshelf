@@ -119,7 +119,7 @@ TabView {
 
 Exactly how that looks depends on which device your user is on, and also what tab view mode they have active.
 
-In the code above the two section titles aren't used at all on iOS – users just see four regular tabs.
+In the code above the two section titles aren't used at all on iOS - users just see four regular tabs.
 
 However, on iPadOS what users see depends on whether they are in tab bar mode (a small across the top) or sidebar mode (a regular list along one edge).
 
@@ -162,7 +162,7 @@ struct ContentView: View {
 
 ![<FontIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-embed-views-in-a-tab-bar-using-tabview-3.zip)
 
-Using an enum as shown is a great way to provide type safety – Swift knows the selection must be some kind of `Section`, so it won't allow a value that isn't `.cats` or `.dogs`.
+Using an enum as shown is a great way to provide type safety - Swift knows the selection must be some kind of `Section`, so it won't allow a value that isn't `.cats` or `.dogs`.
 
 ---
 

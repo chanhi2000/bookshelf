@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -71,7 +71,7 @@ As per usual, we're using a property observer to update the score label as neede
 
 In order to get those properties set up with meaningful values, we're going to put a lot of code into `didMove(to:)` so that everything is created and positioned up front.
 
-I'm not going to bore you by going through every line of code – three quarters of it you should know by heart at this point! – but I do want to point out a few interesting things.
+I'm not going to bore you by going through every line of code - three quarters of it you should know by heart at this point! - but I do want to point out a few interesting things.
 
 First, the star field particle emitter is positioned at X:1024 Y:384, which is the right edge of the screen and half way up. If you created particles like this normally it would look strange, because most of the screen wouldn't start with particles and they would just stream in from the right. But by using the `advanceSimulationTime()` method of the emitter we’re going to ask SpriteKit to simulate 10 seconds passing in the emitter, thus updating all the particles as if they were created 10 seconds ago. This will have the effect of filling our screen with star particles.
 

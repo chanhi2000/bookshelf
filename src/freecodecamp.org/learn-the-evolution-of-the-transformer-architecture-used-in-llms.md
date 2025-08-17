@@ -81,13 +81,13 @@ You’ll learn about:
 
 Here’s what’s covered in each section:
 
-1. **Course Overview** – What to expect and how the course is structured
-2. **Introduction** – A quick refresher on basic Transformer components
-3. **Positional Encoding** – Understand why it matters and how it’s evolving
-4. **Attention Mechanisms** – Explore variations beyond the standard self-attention
-5. **Small Refinements** – Dive into tweaks that improve performance and efficiency
-6. **Putting Everything Together** – See how all the pieces work in context
-7. **Conclusion** – Final thoughts and where to go from here
+1. **Course Overview** - What to expect and how the course is structured
+2. **Introduction** - A quick refresher on basic Transformer components
+3. **Positional Encoding** - Understand why it matters and how it’s evolving
+4. **Attention Mechanisms** - Explore variations beyond the standard self-attention
+5. **Small Refinements** - Dive into tweaks that improve performance and efficiency
+6. **Putting Everything Together** - See how all the pieces work in context
+7. **Conclusion** - Final thoughts and where to go from here
 
 ---
 

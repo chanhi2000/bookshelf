@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -74,5 +74,5 @@ As usual, we started with a Single View App template but we want to have a table
 
 ![Once you've made all those changes your user interface should look like this.](https://hackingwithswift.com/img/books/hws/39-2@2x.png)
 
-At this point in your coding career, that should all come as second nature. You're welcome to try running the app now, but I'm afraid there isn't much to see yet – in fact, it should be almost blank!
+At this point in your coding career, that should all come as second nature. You're welcome to try running the app now, but I'm afraid there isn't much to see yet - in fact, it should be almost blank!
 

@@ -73,7 +73,7 @@ Improving and organizing old code can feel like a big task, but there are tools 
 
 ## How to Review Your Code Effectively
 
-Code reviews are essential for catching issues early, improving readability, and ensuring long-term maintainability. Reviewing your own code or someone else’s involves more than just scanning for errors – you’ll also want to make sure each part is clear, efficient, and follows good practices.
+Code reviews are essential for catching issues early, improving readability, and ensuring long-term maintainability. Reviewing your own code or someone else’s involves more than just scanning for errors - you’ll also want to make sure each part is clear, efficient, and follows good practices.
 
 Here’s a step-by-step approach to help you review code effectively, with practical strategies, tools, and what to look for during the process.
 

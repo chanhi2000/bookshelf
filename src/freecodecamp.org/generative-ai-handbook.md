@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
-description: "Article(s) > The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
+title: "The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
+description: "Article(s) > The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
 icon: fas fa-brain
 category: 
   - AI
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
+      content: "Article(s) > The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
     - property: og:description
-      content: "The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
+      content: "The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/generative-ai-handbook.html
 prev: /ai/articles/README.md
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/2024/06/The-Generative-AI-Ha
 ---
 
 <SiteInfo
-  name="The Generative AI Handbook – How GenAI is Impacting Business and Innovation"
+  name="The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
   desc="The emergence of Generative Artificial Intelligence (GenAI) is both shaping the future of innovation management and revolutionizing it. This handbook delves into the groundbreaking research presented in 'Generative Artificial Intelligence in Innovation Management: A Preview of Future Research Developments' by Marcello Mariani and Yogesh K. Dwivedi (2024). It's a..."
   url="https://freecodecamp.org/news/generative-ai-handbook/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -717,7 +717,7 @@ If you want to learn more about a career in Data Science, Machine Learning and A
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The Generative AI Handbook – How GenAI is Impacting Business and Innovation",
+  "title": "The Generative AI Handbook - How GenAI is Impacting Business and Innovation",
   "desc": "The emergence of Generative Artificial Intelligence (GenAI) is both shaping the future of innovation management and revolutionizing it. This handbook delves into the groundbreaking research presented in ”Generative Artificial Intelligence in Innovati...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/generative-ai-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

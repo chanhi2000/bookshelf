@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Enabling physics in SpriteKit is just one line of code, but sometimes you want your physics to be a little more nuanced. For example, your player might have circle physics and should respond to gravity, whereas walls might have rectangle physics and not respond to gravity – they are there to be bounced off, but nothing more.
+Enabling physics in SpriteKit is just one line of code, but sometimes you want your physics to be a little more nuanced. For example, your player might have circle physics and should respond to gravity, whereas walls might have rectangle physics and not respond to gravity - they are there to be bounced off, but nothing more.
 
 This problem is solved in SpriteKit by using the `isDynamic` property. It's `true` by default, which means that your objects respond to the world's environment as you would expect, but if you set it to be `false` then you get an object that has active physics but doesn't move as a result of those physics.
 

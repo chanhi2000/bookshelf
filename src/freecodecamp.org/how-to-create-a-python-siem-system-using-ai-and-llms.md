@@ -255,7 +255,7 @@ When you run the above, `login_attempts` might look like:
 Login attempts per minute: [ 5  4  4  5  5  3  5  ...  4 30 40 50]
 ```
 
-Most values are in the single digits, but at the end we have three minutes with 30, 40, and 50 attempts – clear outliers. This is our prepared data for anomaly detection. In a real log analysis, this kind of data might come from counting events in your logs over time or extracting some metric from the log content.
+Most values are in the single digits, but at the end we have three minutes with 30, 40, and 50 attempts - clear outliers. This is our prepared data for anomaly detection. In a real log analysis, this kind of data might come from counting events in your logs over time or extracting some metric from the log content.
 
 Now that our data is ready, we can move on to building the anomaly detection model.
 
@@ -263,7 +263,7 @@ Now that our data is ready, we can move on to building the anomaly detection mod
 
 ## How to Build the Anomaly Detection Model
 
-To detect anomalies in our log-derived data, we’ll use a machine learning approach. Specifically, we’ll use an Isolation Forest – a popular algorithm for unsupervised anomaly detection.
+To detect anomalies in our log-derived data, we’ll use a machine learning approach. Specifically, we’ll use an Isolation Forest - a popular algorithm for unsupervised anomaly detection.
 
 The Isolation Forest works by randomly partitioning the data and isolating points. Anomalies are those points that get isolated (separated from others) quickly, that is, in fewer random splits. This makes it great for identifying outliers in a dataset without needing any labels (we don’t have to know in advance which log entries are “bad”).
 
@@ -356,7 +356,7 @@ With the anomaly detection working, what can we do when we find an anomaly? That
 
 ## Automated Response Possibilities
 
-Detecting an anomaly is only half the battle — the next step is responding to it. In enterprise SIEM systems, automated response (often associated with SOAR – Security Orchestration, Automation, and Response) can dramatically reduce reaction time to incidents.
+Detecting an anomaly is only half the battle — the next step is responding to it. In enterprise SIEM systems, automated response (often associated with SOAR - Security Orchestration, Automation, and Response) can dramatically reduce reaction time to incidents.
 
 What could an AI-powered SIEM do when it flags something unusual? Here are some possibilities:
 
@@ -382,7 +382,7 @@ While our demonstration is simple, it’s easy to imagine scaling this up. The S
 
 In this tutorial, we built a basic AI-powered SIEM component that ingests log data, analyzes it for anomalies using a machine learning model, and identifies unusual events that could represent security threats.
 
-We started by parsing and preparing log data, then used an Isolation Forest model to detect outliers in a stream of login attempt counts. The model successfully flagged out-of-norm behavior without any prior knowledge of what an “attack” looks like – it purely relied on deviations from learned normal patterns.
+We started by parsing and preparing log data, then used an Isolation Forest model to detect outliers in a stream of login attempt counts. The model successfully flagged out-of-norm behavior without any prior knowledge of what an “attack” looks like - it purely relied on deviations from learned normal patterns.
 
 We also discussed how such a system could respond to detected anomalies, from alerting humans to automatically taking action.
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-A UUID is a *universally unique identifier*, which means if you generate a UUID right now using `UUID` it's guaranteed to be unique across all devices in the world. This means it's a great way to generate a unique identifier for users, for files, or anything else you need to reference individually – guaranteed.
+A UUID is a *universally unique identifier*, which means if you generate a UUID right now using `UUID` it's guaranteed to be unique across all devices in the world. This means it's a great way to generate a unique identifier for users, for files, or anything else you need to reference individually - guaranteed.
 
 Here's how to create a UUID as a string:
 

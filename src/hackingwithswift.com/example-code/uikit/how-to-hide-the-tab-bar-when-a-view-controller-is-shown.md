@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-If you’re using `UITabBarController` to display a tab strip at the bottom of your user interface, the default behavior for iOS is to display the tabs at all times – even if the user has navigated deep into a `UINavigationController` in one of the tabs.
+If you’re using `UITabBarController` to display a tab strip at the bottom of your user interface, the default behavior for iOS is to display the tabs at all times - even if the user has navigated deep into a `UINavigationController` in one of the tabs.
 
 If you don’t want that behavior, you should set `hidesBottomBarWhenPushed` to true where applicable. This will hide the tab bar along with any toolbars you had showing, but only when a view controller is pushed onto the navigation stack. This allows you to show the tab bar at first, then hide it when you need more room.
 

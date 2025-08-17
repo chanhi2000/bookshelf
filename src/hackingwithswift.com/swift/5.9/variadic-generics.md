@@ -72,7 +72,7 @@ struct FullStackDev {
 }
 ```
 
-In practice they would have lots more properties that make those types unique, but you get the point – three different types exist.
+In practice they would have lots more properties that make those types unique, but you get the point - three different types exist.
 
 We could make instances of those structs like this:
 
@@ -108,7 +108,7 @@ We can now use that to create programmer pairs who can work on some back-end and
 let result1 = pairUp1(firstPeople: johnny, jess, secondPeople: kate, kevin)
 ```
 
-So far this is old, but here’s where things get interesting: Derek is a full-stack developer, and can therefore work as either a back-end developer or a front-end developer. However, if we tried to use `johnny, derek` as the first parameter then Swift would refuse to build our code – it needs the types of all the first people and second people to be the same.
+So far this is old, but here’s where things get interesting: Derek is a full-stack developer, and can therefore work as either a back-end developer or a front-end developer. However, if we tried to use `johnny, derek` as the first parameter then Swift would refuse to build our code - it needs the types of all the first people and second people to be the same.
 
 One way to fix this would be to throw away all our type information using `Any`, but parameter packs allow us to solve this much more elegantly.
 
@@ -123,11 +123,11 @@ func pairUp2<each T, each U>(firstPeople: repeat each T, secondPeople: repeat ea
 There are four independent things happening there, so let’s work through them one by one:
 
 1. `<each T, each U>` creates two type parameter packs, `T` and `U`.
-2. `repeat each T` is a pack expansion, which is what expands the parameter pack into actual values – it’s the equivalent of `T...`, but avoids some confusion with `...` being used as an operator.
+2. `repeat each T` is a pack expansion, which is what expands the parameter pack into actual values - it’s the equivalent of `T...`, but avoids some confusion with `...` being used as an operator.
 3. The return type means we’re sending back tuples of paired programmers, one each from `T` and `U`.
 4. Our `return` keyword is what does the real work: it uses a pack expansion expression to take one value from `T` and one from `U`, putting them together into the returned value.
 
-What it *doesn’t* show is that the return type automatically ensures both our `T` and `U` types have the same *shape* – they have the same number of items inside them. So, rather than using `assert()` like we had in the first function, Swift will simply issue a compiler error if we try to pass in two sets of data of different sizes.
+What it *doesn’t* show is that the return type automatically ensures both our `T` and `U` types have the same *shape* - they have the same number of items inside them. So, rather than using `assert()` like we had in the first function, Swift will simply issue a compiler error if we try to pass in two sets of data of different sizes.
 
 With the new function in place, we can now pair up Derek with other developers, like this:
 
@@ -162,11 +162,11 @@ func pairUp3<each T: WritesFrontEndCode, each U: WritesBackEndCode>(firstPeople:
 }
 ```
 
-That now means only sensible pairs can happen – we always get someone who can write front-end code paired with someone who can write back-end code, regardless of whether they are full-stack developers or not.
+That now means only sensible pairs can happen - we always get someone who can write front-end code paired with someone who can write back-end code, regardless of whether they are full-stack developers or not.
 
-To transfer this over to something you’re more likely to be experienced with, we have a similar situation in SwiftUI. We regularly want to be able to create views with many subviews, and if we were working with a single view type such as `Text` then you could imagine something like `Text...` working great. But that *wouldn’t* work if we wanted to have some text, then an image, then a button, and more – any non-uniform layout would simply not be possible.
+To transfer this over to something you’re more likely to be experienced with, we have a similar situation in SwiftUI. We regularly want to be able to create views with many subviews, and if we were working with a single view type such as `Text` then you could imagine something like `Text...` working great. But that *wouldn’t* work if we wanted to have some text, then an image, then a button, and more - any non-uniform layout would simply not be possible.
 
-Trying to use `AnyView...` or similar to erase the types throws away all the type information, so before Swift 5.9 this problem was solved by creating lots of function overloads. For example, SwiftUI’s view builder has `buildBlock()` overloads that can combine two views, three views, four views, etc, all the way up to 10 views – but no further, because they need to draw a line *somewhere*.
+Trying to use `AnyView...` or similar to erase the types throws away all the type information, so before Swift 5.9 this problem was solved by creating lots of function overloads. For example, SwiftUI’s view builder has `buildBlock()` overloads that can combine two views, three views, four views, etc, all the way up to 10 views - but no further, because they need to draw a line *somewhere*.
 
 ::: details Other Changes in Swift 5.9
 

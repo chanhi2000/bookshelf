@@ -52,16 +52,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749151777327/ece5b0b
 
 <SiteInfo
   name="From Commit to Production: Hands-On GitOps Promotion with GitHub Actions, Argo CD, Helm, and Kargo"
-  desc="Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline – starting from scratch? Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, ..."
+  desc="Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline - starting from scratch? Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, ..."
   url="https://freecodecamp.org/news/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1749151777327/ece5b0b7-4a9a-4f95-8ebb-32e3768b678f.png"/>
 
-Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline – starting from scratch?
+Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline - starting from scratch?
 
-Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, or promotions? This guide will help you tackle all of it – one step at a time.
+Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, or promotions? This guide will help you tackle all of it - one step at a time.
 
-As a DevOps engineer interested in creating a complete CI/CD pipeline, I wanted more than a basic "hello world" microservice. I was looking for a project where I could start from scratch – beginning with raw source code, writing my own Docker Compose and Kubernetes files, deploying locally, and then adding automation, environment promotion, and GitOps practices step by step.
+As a DevOps engineer interested in creating a complete CI/CD pipeline, I wanted more than a basic "hello world" microservice. I was looking for a project where I could start from scratch - beginning with raw source code, writing my own Docker Compose and Kubernetes files, deploying locally, and then adding automation, environment promotion, and GitOps practices step by step.
 
 In my search, I found several GitHub repositories. Most were either too simple to be useful or too complicated and already set up, leaving no room for learning. They often included ready-made Docker Compose files and Kubernetes manifests, which didn't help with learning through hands-on experience.
 
@@ -74,14 +74,14 @@ That’s when I discovered **Craftista**, a project maintained by [Gourav Shah (
 Craftista stood out to me for several reasons:
 
 - It’s a **polyglot microservices application**, designed to resemble a real-world platform.
-- Each service uses its own technology stack – exactly like in modern enterprises.
+- Each service uses its own technology stack - exactly like in modern enterprises.
 - It includes essential building blocks of a real e-commerce system:
   - A modern UI built in Node.js
   - A Product Catalogue Service
   - A Recommendation Engine
   - A Voting/Review Service
 
-By the end of this guide, you won’t just have a “hello world” demo – you’ll have a fully functioning CI/CD/GitOps pipeline modeled on a real-world microservices stack. You’ll understand how the pieces fit together, why each tool exists, and how to adapt this workflow to your own projects.
+By the end of this guide, you won’t just have a “hello world” demo - you’ll have a fully functioning CI/CD/GitOps pipeline modeled on a real-world microservices stack. You’ll understand how the pieces fit together, why each tool exists, and how to adapt this workflow to your own projects.
 
 Ready to go beyond hello world and build a production-style pipeline from scratch? Let’s dive in.
 
@@ -129,7 +129,7 @@ This guide will help you confidently answer those questions by walking you throu
 
 GitOps is a modern way to manage applications and infrastructure using Git as the main source of truth. Developers have used Git for a long time to manage and work together on code. GitOps takes this further by including infrastructure setup, deployment processes, and automation.
 
-By keeping everything – from Kubernetes files and Helm charts to infrastructure code and app settings – in Git, teams have a central, version-controlled system that can be tracked. Changes in Git are automatically updated and matched with the target environments by GitOps tools like Argo CD or Flux.
+By keeping everything - from Kubernetes files and Helm charts to infrastructure code and app settings - in Git, teams have a central, version-controlled system that can be tracked. Changes in Git are automatically updated and matched with the target environments by GitOps tools like Argo CD or Flux.
 
 ### Core Principles of GitOps
 
@@ -198,11 +198,11 @@ Kargo manages promotion by watching repositories (Git, Image, Helm) for changes 
 
 Have you ever had to manually promote versions across environments and wished it were automated? How would integrating Kargo have saved time or prevented errors in your last deployment?
 
-Argo CD excels at GitOps-driven continuous deployment – syncing your Kubernetes cluster with the desired state declared in Git. But it lacks native support for promotion workflows between environments (like dev → staging → production) based on image metadata, test results, or approval gates. This is where Kargo becomes the perfect companion.
+Argo CD excels at GitOps-driven continuous deployment - syncing your Kubernetes cluster with the desired state declared in Git. But it lacks native support for promotion workflows between environments (like dev → staging → production) based on image metadata, test results, or approval gates. This is where Kargo becomes the perfect companion.
 
 ![Kargo and Argo CD Comparison ](https://cdn.hashnode.com/res/hashnode/image/upload/v1748474195349/8e615222-067e-4958-aa8c-19a9f44e4d74.png)
 
-Kargo doesn’t replace Argo CD – it extends it. You continue to use Argo CD for syncing and deploying apps, but Kargo adds promotion intelligence and automation.
+Kargo doesn’t replace Argo CD - it extends it. You continue to use Argo CD for syncing and deploying apps, but Kargo adds promotion intelligence and automation.
 
 ---
 
@@ -231,7 +231,7 @@ Well, using a polyrepo approach,
 
 ![Git Branching AntiPattern](https://cdn.hashnode.com/res/hashnode/image/upload/v1748376156187/f1fb6cc6-c5d1-4001-a8a1-63353cc03cd7.png)
 
-Many teams default to “[GitFlow (<FontIcon icon="fa-brands fa-medium"/>`novai-devops-101`)](https://medium.com/novai-devops-101/understanding-gitflow-a-simple-guide-to-git-branching-strategy-4f079c12edb9)”-style branching – creating long-lived branches for <FontIcon icon="fas fa-code-branch"/>`dev`, <FontIcon icon="fas fa-code-branch"/>`staging`, <FontIcon icon="fas fa-code-branch"/>`prod`, and more. But in a true GitOps workflow, **Git is your control plane**, and “environments” shouldn’t live as branches.
+Many teams default to “[GitFlow (<FontIcon icon="fa-brands fa-medium"/>`novai-devops-101`)](https://medium.com/novai-devops-101/understanding-gitflow-a-simple-guide-to-git-branching-strategy-4f079c12edb9)”-style branching - creating long-lived branches for <FontIcon icon="fas fa-code-branch"/>`dev`, <FontIcon icon="fas fa-code-branch"/>`staging`, <FontIcon icon="fas fa-code-branch"/>`prod`, and more. But in a true GitOps workflow, **Git is your control plane**, and “environments” shouldn’t live as branches.
 
 Instead, you can keep things simple with just:
 
@@ -437,7 +437,7 @@ spec:
       - CreateNamespace=true  # If the namespace doesn’t exist, Argo CD will create it
 ```
 
-You would repeat a similar pattern under <FontIcon icon="fas fa-folder-open"/>`argocd/application/staging/` and <FontIcon icon="fas fa-folder-open"/>`argocd/application/prod/` – each environment has its own <FontIcon icon="iconfont icon-yaml"/>`frontend.yaml`, <FontIcon icon="iconfont icon-yaml"/>`catalogue.yaml`, and so on, but each will point to a different values file under <FontIcon icon="fas fa-folder-open"/>`env/staging/…` or <FontIcon icon="fas fa-folder-open"/>`env/prod/…` and likely deploy into a different namespace (for example, `front-end-staging`, `front-end-prod`).
+You would repeat a similar pattern under <FontIcon icon="fas fa-folder-open"/>`argocd/application/staging/` and <FontIcon icon="fas fa-folder-open"/>`argocd/application/prod/` - each environment has its own <FontIcon icon="iconfont icon-yaml"/>`frontend.yaml`, <FontIcon icon="iconfont icon-yaml"/>`catalogue.yaml`, and so on, but each will point to a different values file under <FontIcon icon="fas fa-folder-open"/>`env/staging/…` or <FontIcon icon="fas fa-folder-open"/>`env/prod/…` and likely deploy into a different namespace (for example, `front-end-staging`, `front-end-prod`).
 
 ### Env Folders
 
@@ -691,15 +691,15 @@ Every stage must pass its health or approval check before the next begins, ensur
 
 ## Conclusion
 
-Building a real-world CI/CD pipeline isn’t just about getting code from your laptop into a Kubernetes cluster – it’s about creating a repeatable, auditable, and reliable system that scales with your team and your application complexity.
+Building a real-world CI/CD pipeline isn’t just about getting code from your laptop into a Kubernetes cluster - it’s about creating a repeatable, auditable, and reliable system that scales with your team and your application complexity.
 
 In this guide, we walked through how I built a complete GitOps-based promotion pipeline using GitHub Actions, Argo CD, and Kargo, all driven by a hands-on microservices project: Craftista. From the first code commit to automated environment promotion, we leveraged industry best practices like semantic versioning, declarative infrastructure, and environment-based GitOps directories.
 
 What makes this approach powerful is not just the tools but also the principles. By treating Git as the single source of truth, and using Kargo to automate what was traditionally a manual and fragile promotion process, we gain predictability and control over our deployments. Argo CD ensures that what’s in Git is always what’s running in our clusters, while Kargo eliminates human error in multi-stage rollouts.
 
-If you’re tired of overly abstract “hello world” DevOps tutorials and want to get your hands dirty with something that feels **real**, Craftista offers the perfect sandbox. This pipeline reflects how teams operate in production – polyglot services, independent deployments, environment promotion gates, and GitOps as the operational backbone.
+If you’re tired of overly abstract “hello world” DevOps tutorials and want to get your hands dirty with something that feels **real**, Craftista offers the perfect sandbox. This pipeline reflects how teams operate in production - polyglot services, independent deployments, environment promotion gates, and GitOps as the operational backbone.
 
-Whether you're a DevOps engineer sharpening your skills, or a platform team setting standards for internal development, I hope this tutorial provided the clarity and inspiration to build your own commit-to-production pipeline – step by step, with confidence.
+Whether you're a DevOps engineer sharpening your skills, or a platform team setting standards for internal development, I hope this tutorial provided the clarity and inspiration to build your own commit-to-production pipeline - step by step, with confidence.
 
 ### Further Reading & Resources
 
@@ -748,7 +748,7 @@ Whether you're a DevOps engineer sharpening your skills, or a platform team sett
 ```component VPCard
 {
   "title": "From Commit to Production: Hands-On GitOps Promotion with GitHub Actions, Argo CD, Helm, and Kargo",
-  "desc": "Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline – starting from scratch? Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, ...",
+  "desc": "Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline - starting from scratch? Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

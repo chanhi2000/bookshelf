@@ -253,7 +253,7 @@ In this code:
 
 - `ctx.clearRect(0, 0, canvas.width, canvas.height)`: Clears the canvas so it can be redrawn.
 - `ctx.drawImage()`: Draws the uploaded image on the canvas and stretches it to fit the set dimensions.
-- `topText` and `bottomText`: Captures the user’s input from two text fields – `<input id="topText">` and `<input id="bottomText">`.
+- `topText` and `bottomText`: Captures the user’s input from two text fields - `<input id="topText">` and `<input id="bottomText">`.
 
 **Text styling**:
 
@@ -297,7 +297,7 @@ function downloadMeme() {
 In this code:
 
 - `document.createElement('a')`: Creates a temporary `<a>` element.
-- `link.download = 'meme.png'`: Sets the file name for the downloaded meme (every meme you download will carry the name of `meme.png` – you can change it if you wish to).
+- `link.download = 'meme.png'`: Sets the file name for the downloaded meme (every meme you download will carry the name of `meme.png` - you can change it if you wish to).
 - `link.href = canvas.toDataURL()`: Converts the canvas content into a Data URL.
 - `link.click()`: Simulates a click on the link, triggering the download.
 
@@ -373,7 +373,7 @@ function downloadMeme() {
 ### Steps on Creating your Meme on Meme Generator
 
 - Click on the **Browse** button and select a particular image.
-- Enter text into either of the two input types – labelled Top and Bottom Text.
+- Enter text into either of the two input types - labelled Top and Bottom Text.
 - Click on **Generate Meme** button to create your meme.
 - Click on **Download Meme** to download your generated meme.
 

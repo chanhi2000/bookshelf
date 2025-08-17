@@ -105,8 +105,8 @@ This method involves setting up the custom SMTP credentials you get for Mailtrap
 
 ::: note Important notes
 
-- **Testing out the service with Mailtrap’s dummy domain** – To try Mailtrap, you don’t need to verify your domain right away. You can use Mailtrap’s dummy domain (you get access to it when you sign up), which allows you to simulate sending emails without worrying about the DNS records. This is ideal for testing the service and getting familiar with Mailtrap’s features.
-- **Domain verification for production** – If you plan to send real emails to recipients, you’ll need to verify your domain. This involves adding DNS records such as SPF, DKIM, and [<FontIcon icon="fas fa-globe"/>DMARC](https://dmarcreport.com/) to your domain provider’s DNS settings. These records ensure your emails are delivered successfully and help protect against phishing and spoofing. In the next section, I'll show you how to set these up in your domain provider's dashboard.
+- **Testing out the service with Mailtrap’s dummy domain** - To try Mailtrap, you don’t need to verify your domain right away. You can use Mailtrap’s dummy domain (you get access to it when you sign up), which allows you to simulate sending emails without worrying about the DNS records. This is ideal for testing the service and getting familiar with Mailtrap’s features.
+- **Domain verification for production** - If you plan to send real emails to recipients, you’ll need to verify your domain. This involves adding DNS records such as SPF, DKIM, and [<FontIcon icon="fas fa-globe"/>DMARC](https://dmarcreport.com/) to your domain provider’s DNS settings. These records ensure your emails are delivered successfully and help protect against phishing and spoofing. In the next section, I'll show you how to set these up in your domain provider's dashboard.
 
 :::
 
@@ -123,7 +123,7 @@ But before we go through a quick tutorial on how to do it, let’s review each t
 Now, here’s how to add the records:
 
 - First, you need to access your domain provider's DNS settings. Usually, you can access them in the domain register or domain settings. For example, GoDaddy calls the menu Manage DNS, and it's dubbed similarly with other providers.
-- Next, add (copy-paste) the DNS records Mailtrap provides into your domain provider's DNS settings. Note that Mailtrap's records are read-made, and SPF is pre-parsed, so you don't need to create anything additional – just add the records.
+- Next, add (copy-paste) the DNS records Mailtrap provides into your domain provider's DNS settings. Note that Mailtrap's records are read-made, and SPF is pre-parsed, so you don't need to create anything additional - just add the records.
 
 ![Screenshot showing domain verification](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfHx2AAc87krxYh7twU5Ypuz-Iu6gklvJeVBzpdgptvfc7B9g7X3BBnqWai8n47HTDJrj1rZ2ny0jfscJJYgAAFcuEsZeVqYO2OellzvQgaXMjnMMxIeOoPGF0ildRbecEi7rjPbg?key=CJmzmKUWxlFjIw3A041wXvaj)
 
@@ -246,7 +246,7 @@ with smtplib.SMTP(smtp_server, port) as server:
 print('Sent')
 ```
 
-Lastly, I’ve included video instructions for the SMTP method – so if that works better for you, feel free to check it out 🔽.
+Lastly, I’ve included video instructions for the SMTP method - so if that works better for you, feel free to check it out 🔽.
 
 <VidStack src="youtube/ufLpTc9up8s" />
 

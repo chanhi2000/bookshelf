@@ -153,7 +153,7 @@ You'll encounter them in three main flavors:
   logo="https://rubyonrails.org/assets/images/favicon.png"
   preview="https://rubyonrails.org/assets/images/opengraph.png"/>
 
-[**Django**](https://djangoproject.com/) and [**Rails**](https://rubyonrails.org/): Perfect for data-heavy applications with complex business logic. They follow the "batteries included" philosophy, providing everything you need out of the box.
+[<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) and [<FontIcon icon="iconfont icon-rails"/>Rails](https://rubyonrails.org/): Perfect for data-heavy applications with complex business logic. They follow the "batteries included" philosophy, providing everything you need out of the box.
 
 <SiteInfo
   name="Next.js by Vercel - The React Framework"

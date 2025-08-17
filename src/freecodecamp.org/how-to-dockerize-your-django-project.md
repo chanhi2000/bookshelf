@@ -63,12 +63,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744994272728/248cef7
 
 <SiteInfo
   name="How to Dockerize Your Django Project"
-  desc="If you're working on a Django project and you want to make your life easier – especially when it comes to running your app across different environments – Docker is your new best friend. Docker makes it possible to package your Django app, along with..."
+  desc="If you're working on a Django project and you want to make your life easier - especially when it comes to running your app across different environments - Docker is your new best friend. Docker makes it possible to package your Django app, along with..."
   url="https://freecodecamp.org/news/how-to-dockerize-your-django-project"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744994272728/248cef70-5f8e-46fd-a640-66852ffda7d2.png"/>
 
-If you're working on a Django project and you want to make your life easier – especially when it comes to running your app across different environments – Docker is your new best friend.
+If you're working on a Django project and you want to make your life easier - especially when it comes to running your app across different environments - Docker is your new best friend.
 
 Docker makes it possible to package your Django app, along with all its dependencies, into something called a “container.”
 
@@ -124,7 +124,7 @@ Let’s say this is your app that you want to run inside Docker.
 
 ### Step 2: Create a Dockerfile
 
-In the root of your project (same folder as <FontIcon icon="fa-brands fa-python"/>`manage.py`), create a file called <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. No file extension –just <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`.
+In the root of your project (same folder as <FontIcon icon="fa-brands fa-python"/>`manage.py`), create a file called <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. No file extension -just <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`.
 
 Here’s what goes inside:
 
@@ -353,7 +353,7 @@ You’ll spend less time debugging setup issues and more time coding your app.
 ```component VPCard
 {
   "title": "How to Dockerize Your Django Project",
-  "desc": "If you're working on a Django project and you want to make your life easier – especially when it comes to running your app across different environments – Docker is your new best friend. Docker makes it possible to package your Django app, along with...",
+  "desc": "If you're working on a Django project and you want to make your life easier - especially when it comes to running your app across different environments - Docker is your new best friend. Docker makes it possible to package your Django app, along with...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-dockerize-your-django-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

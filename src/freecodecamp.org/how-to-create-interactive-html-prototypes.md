@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
-description: Article(s) > How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
+title: How to Create Interactive HTML Prototypes - How Far Can You Go Without JavaScript?
+description: Article(s) > How to Create Interactive HTML Prototypes - How Far Can You Go Without JavaScript?
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
+      content: Article(s) > How to Create Interactive HTML Prototypes - How Far Can You Go Without JavaScript?
     - property: og:description
-      content: How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?
+      content: How to Create Interactive HTML Prototypes - How Far Can You Go Without JavaScript?
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-interactive-html-prototypes.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724485095228/2bc8f1c
 ---
 
 <SiteInfo
-  name="How to Create Interactive HTML Prototypes – How Far Can You Go Without JavaScript?"
+  name="How to Create Interactive HTML Prototypes - How Far Can You Go Without JavaScript?"
   desc="Interactivity is what makes a website come alive. Whether it's a button that reveals more content or a form that responds to your input, these little touches keep users engaged. Traditionally, we've relied heavily on JavaScript to make websites inter..."
   url="https://freecodecamp.org/news/how-to-create-interactive-html-prototypes/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

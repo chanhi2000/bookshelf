@@ -99,7 +99,7 @@ The perceptron consists of four main parts:
 
 ![Image: Organization of a perceptron. Source: Rosenblatt 1958](https://cdn.hashnode.com/res/hashnode/image/upload/v1748438698612/5b2920db-4ec1-455b-840e-7b5e9d6c2e75.png)
 
-It performs a weighted sum of inputs, adds a bias, and passes the result through an activation function – just like logistic regression. It’s sort of like a little decision-maker that says “yes” or “no” based on the information it gets.
+It performs a weighted sum of inputs, adds a bias, and passes the result through an activation function - just like logistic regression. It’s sort of like a little decision-maker that says “yes” or “no” based on the information it gets.
 
 So for instance, when we use a sigmoid activation, its output is a probability between 0 and 1, mimicking the behavior of logistic regression.
 
@@ -472,7 +472,7 @@ Especially in deeper network, **ReLU** is advantageous in preventing [<FontIcon 
 
 ### Preprocessing the Datasets
 
-First, we consolidate [<FontIcon icon="iconfont icon-kaggle"/>three datasets  –  transaction, customer, and credit card](https://kaggle.com/datasets/computingvictor/transactions-fraud-datasets)  –  into a single DataFrame, independently sanitizing numerical and categorical data:
+First, we consolidate [<FontIcon icon="iconfont icon-kaggle"/>three datasets  -  transaction, customer, and credit card](https://kaggle.com/datasets/computingvictor/transactions-fraud-datasets)  -  into a single DataFrame, independently sanitizing numerical and categorical data:
 
 ```py :collapsed-lines
 import json
@@ -1348,8 +1348,8 @@ print(f"MLP (Custom Adam) Accuracy (Validation): {acc_val:.3f}")
 
 ### Results
 
-- Recall: *0.9870–0.6150 (from training to validation)*
-- Precision: *0.9811–0.6474 (from training to validation)*
+- Recall: *0.9870-0.6150 (from training to validation)*
+- Precision: *0.9811-0.6474 (from training to validation)*
 
 While the Adam optimizer outperformed SGD, the model exhibited significant overfitting, with both Recall and Precision falling by around 30 points between training and validation.
 
@@ -1391,7 +1391,7 @@ y_pred_val_sklearn = model_sklearn_mlp_adam.predict(X_val_processed)
 
 ### Results
 
-- *Recall: 0.8975–0.6400 (from training to validation)*
+- *Recall: 0.8975-0.6400 (from training to validation)*
 - *Precision: 0.8864 —  0.6305 (from training to validation)*
 
 Despite a performance improvement compared to the SGD optimizer, the significant drop in both Recall (from 0.8975 to 0.6400) and Precision (from 0.8864 to 0.6305) from training to validation data indicates that the model is still overfitting.
@@ -1483,8 +1483,8 @@ model_keras_adam.summary()
 
 ### Results
 
-- *Recall: 0.7995–0.7500 (from training to validation)*
-- *Precision: 0.8409–0.8065 (from training to validation)*
+- *Recall: 0.7995-0.7500 (from training to validation)*
+- *Precision: 0.8409-0.8065 (from training to validation)*
 
 The model exhibits good performance, with Recall slightly decreasing from 0.7995 (training) to 0.7500 (validation), and Precision similarly dropping from 0.8409 (training) to 0.8065 (validation).
 

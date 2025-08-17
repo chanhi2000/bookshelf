@@ -782,7 +782,7 @@ And there you have it! You've just built a simple portfolio website using only H
 
 By following this guide, you now have a portfolio that you can be proud of and share with friends, family, or potential employers. The beauty of this project is that you can continue to expand and personalize it by adding new sections, showcasing more of your work, or experimenting with JavaScript to add interactive elements.
 
-If you're interested in exploring more advanced features or learning how to host your portfolio online, check out my tutorial on [**How to Host Your Project on GitHub – Explained With Examples**](/freecodecamp.org/host-your-first-project-on-github.md).
+If you're interested in exploring more advanced features or learning how to host your portfolio online, check out my tutorial on [**How to Host Your Project on GitHub - Explained With Examples**](/freecodecamp.org/host-your-first-project-on-github.md).
 
 If you have any questions, feel free to find me on [Twitter <FontIcon icon="fa-brands fa-x-twitter"/>`sprucekhalifa`](https://x.com/sprucekhalifa), and don’t forget to follow me for more tips and updates. Happy coding!
 

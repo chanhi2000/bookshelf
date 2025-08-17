@@ -96,7 +96,7 @@ let sortedByWins = teams.sorted()
 print(sortedByWins)
 ```
 
-That will sort the array so that the two teams who haven’t won the World Cup come first, then the Japanese women’s team, then the American women’s team – it considers the two `winner` cases to be higher than the two `neverWon` cases, and considers `winner(stars: 4)` to be higher than `winner(stars: 1)`.
+That will sort the array so that the two teams who haven’t won the World Cup come first, then the Japanese women’s team, then the American women’s team - it considers the two `winner` cases to be higher than the two `neverWon` cases, and considers `winner(stars: 4)` to be higher than `winner(stars: 1)`.
 
 ::: details Other Changes in Swift 5.3
 

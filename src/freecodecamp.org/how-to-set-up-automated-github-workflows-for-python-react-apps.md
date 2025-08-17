@@ -46,12 +46,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730812659785/2975b11
 
 <SiteInfo
   name="How to Set Up Automated GitHub Workflows for Your Python and React Applications"
-  desc="Automating workflows is an essential step in helping you maintain code quality in your applications – especially when working on both frontend and backend code in a single repository. In this guide, we’ll walk through setting up automated GitHub work..."
+  desc="Automating workflows is an essential step in helping you maintain code quality in your applications - especially when working on both frontend and backend code in a single repository. In this guide, we’ll walk through setting up automated GitHub work..."
   url="https://freecodecamp.org/news/how-to-set-up-automated-github-workflows-for-python-react-apps"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1730812659785/2975b117-81ee-4c73-ae24-6fb14e369714.png"/>
 
-Automating workflows is an essential step in helping you maintain code quality in your applications – especially when working on both frontend and backend code in a single repository.
+Automating workflows is an essential step in helping you maintain code quality in your applications - especially when working on both frontend and backend code in a single repository.
 
 In this guide, we’ll walk through setting up automated GitHub workflows for a Python backend (using Flask or Django) and a React frontend. These workflows help test and validate code changes automatically, making sure any issues are caught early.
 
@@ -253,7 +253,7 @@ With automated workflows, you can focus more on building features and less on ma
 ```component VPCard
 {
   "title": "How to Set Up Automated GitHub Workflows for Your Python and React Applications",
-  "desc": "Automating workflows is an essential step in helping you maintain code quality in your applications – especially when working on both frontend and backend code in a single repository. In this guide, we’ll walk through setting up automated GitHub work...",
+  "desc": "Automating workflows is an essential step in helping you maintain code quality in your applications - especially when working on both frontend and backend code in a single repository. In this guide, we’ll walk through setting up automated GitHub work...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-automated-github-workflows-for-python-react-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

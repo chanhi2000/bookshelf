@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: SOLID Principles in C# – Open Closed Principle
-description: Article(s) > SOLID Principles in C# – Open Closed Principle
+title: SOLID Principles in C# - Open Closed Principle
+description: Article(s) > SOLID Principles in C# - Open Closed Principle
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > SOLID Principles in C# – Open Closed Principle
+      content: Article(s) > SOLID Principles in C# - Open Closed Principle
     - property: og:description
-      content: SOLID Principles in C# – Open Closed Principle
+      content: SOLID Principles in C# - Open Closed Principle
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/open-closed-principle.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/open-closed-principle/banner.png
 ---
 
 <SiteInfo
-  name="SOLID Principles in C# – Open Closed Principle"
+  name="SOLID Principles in C# - Open Closed Principle"
   desc="In this article you will learn about Open Closed Principle, how to implement it step by step and why it is important while developing a project."
   url="https://code-maze.com/open-closed-principle/"
   logo="/assets/image/code-maze.com/favicon.png"

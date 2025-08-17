@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ NotificationQueue.default.enqueue(notification, postingStyle: .whenIdle, coalesc
 
 That will enqueue the “MyValueChanged” notification to be delivered when your app is idle, and without coalescing. You can also use `.asap` for your posting style to deliver in the next run loop, and `.now`, which will cause the notification to be delivered synchronously.
 
-The reason the `.now` posting style is important is because of the ability of `NotificationQueue` to *coalesce* notifications – i.e., join them together. If you specify `.onName` for the `coalesceMask` property it will automatically merge any notifications of the same name, which stops observers being overloaded by repeated notifications.
+The reason the `.now` posting style is important is because of the ability of `NotificationQueue` to *coalesce* notifications - i.e., join them together. If you specify `.onName` for the `coalesceMask` property it will automatically merge any notifications of the same name, which stops observers being overloaded by repeated notifications.
 
 -->
 

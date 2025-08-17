@@ -50,7 +50,7 @@ next: /hackingwithswift.com/swift/1.2/zip.md
 
 > Available from Swift 2.0
 
-One regular problem that iOS developers hit is that we need to be careful when using new APIs – if you try and use `UIStackView` on iOS 8, for example, your app will crash. In the olden days, Objective C developers would write code like this:
+One regular problem that iOS developers hit is that we need to be careful when using new APIs - if you try and use `UIStackView` on iOS 8, for example, your app will crash. In the olden days, Objective C developers would write code like this:
 
 ```swift
 NSClassFromString(@"UIAlertController") != nil

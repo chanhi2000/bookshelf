@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Composite
-description: Article(s) > C# Design Patterns – Composite
+title: C# Design Patterns - Composite
+description: Article(s) > C# Design Patterns - Composite
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Composite
+      content: Article(s) > C# Design Patterns - Composite
     - property: og:description
-      content: C# Design Patterns – Composite
+      content: C# Design Patterns - Composite
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/composite.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/composite/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Composite"
+  name="C# Design Patterns - Composite"
   desc="We are going to learn how to implement the Composite design pattern, what are it's elements and how to put them all together."
   url="https://code-maze.com/composite/"
   logo="/assets/image/code-maze.com/favicon.png"

@@ -54,7 +54,7 @@ head:
 
 Wrapping a `UIView` in a `UIViewRepresentable` struct is a great way to bring existing UIKit into your SwiftUI app, and you can even add your own custom modifiers to adjust the way the view works at runtime.
 
-To make this work, you should create private properties for all the values you want to adjust on the underlying `UIView`, then create methods to adjust them. Each of these methods should take a copy of your SwiftUI representable – *not* the underlying `UIView` – then adjust the private properties you created earlier to reflect the new state.
+To make this work, you should create private properties for all the values you want to adjust on the underlying `UIView`, then create methods to adjust them. Each of these methods should take a copy of your SwiftUI representable - *not* the underlying `UIView` - then adjust the private properties you created earlier to reflect the new state.
 
 Once that’s done, SwiftUI will ensure your `updateUIView()` method is triggered, at which point you copy your private properties into the `UIView` to make sure it’s updated.
 
@@ -87,7 +87,7 @@ struct SearchField: UIViewRepresentable {
 Second, create a modifier on that representable to adjust the private property:
 
 ```swift
-// Any modifiers to adjust your search field – copy self, adjust, then return.
+// Any modifiers to adjust your search field - copy self, adjust, then return.
 extension SearchField {
     func placeholder(_ string: String) -> SearchField {
         var view = self

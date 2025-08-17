@@ -81,5 +81,5 @@ struct RecipeBookApp: App {
 }
 ```
 
-This kind of custom location is helpful for when you’re working with an existing database, or perhaps if you want to read or write the database directly – something you *can* do if absolutely required, but should be done only with great caution.
+This kind of custom location is helpful for when you’re working with an existing database, or perhaps if you want to read or write the database directly - something you *can* do if absolutely required, but should be done only with great caution.
 

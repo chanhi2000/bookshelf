@@ -210,7 +210,7 @@ services:
     command: npm run test
 ```
 
-This setup builds two containers – one for the API and one for the test runner. It mirrors how the startup runs its tests inside Azure DevOps pipelines. Developers, QA, and staging environments all use the same containers, reducing variability and giving more predictable test results.
+This setup builds two containers - one for the API and one for the test runner. It mirrors how the startup runs its tests inside Azure DevOps pipelines. Developers, QA, and staging environments all use the same containers, reducing variability and giving more predictable test results.
 
 :::
 

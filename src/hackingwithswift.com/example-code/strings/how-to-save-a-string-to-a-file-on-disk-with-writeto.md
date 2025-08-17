@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ let filename = getDocumentsDirectory().appendingPathComponent("output.txt")
 do {
     try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
 } catch {
-    // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+    // failed to write file - bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
 }
 ```
 

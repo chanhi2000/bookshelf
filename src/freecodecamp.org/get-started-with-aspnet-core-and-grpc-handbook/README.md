@@ -104,7 +104,7 @@ gRPC is a high-performance, cross-platform framework that works seamlessly with 
 
 There are many reasons why this is a good combination. First, of all, this combo is up to 8x faster than using REST APIs with JSON. Its strongly-typed contracts also help prevent runtime errors.
 
-It also has built-in support for client, server, and bidirectional streaming, as well as seamless integration across different languages and platforms. Finally, it leverages HTTP/2 for multiplexing and header compression – so as you can see, these two tools are a super effective pair.
+It also has built-in support for client, server, and bidirectional streaming, as well as seamless integration across different languages and platforms. Finally, it leverages HTTP/2 for multiplexing and header compression - so as you can see, these two tools are a super effective pair.
 
 To understand in more detail why gRPC is so valuable, let's explore a common real-world scenario.
 
@@ -112,8 +112,8 @@ To understand in more detail why gRPC is so valuable, let's explore a common rea
 
 Imagine you're building a large e-commerce application. For better maintainability and scalability, you decide to split your monolithic application into smaller, focused services:
 
-- **Product Service** – Handles product catalog, inventory, and product management
-- **Authentication Service** – Manages user authentication, authorization, and user profiles
+- **Product Service** - Handles product catalog, inventory, and product management
+- **Authentication Service** - Manages user authentication, authorization, and user profiles
 
 These services need to communicate with each other frequently. For example, before a user can add a product to their cart, the Product Service must verify with the Authentication Service that the user is logged in and has the proper permissions.
 
@@ -1206,7 +1206,7 @@ The `ServerCallContext` parameter provides useful information like request cance
 
 ::: note
 
-The `override` keyword is crucial – it tells C# that we're implementing the virtual methods defined in the generated base class from our proto file.
+The `override` keyword is crucial - it tells C# that we're implementing the virtual methods defined in the generated base class from our proto file.
 
 :::
 
@@ -1915,7 +1915,7 @@ The `ListProducts` method retrieves all products from our database with paginati
 
 #### Step 1: Select ListProducts Method
 
-Click the method dropdown in your Postman gRPC request. Then select "ListProducts" from the available methods. Notice the request structure – it includes pagination parameters.
+Click the method dropdown in your Postman gRPC request. Then select "ListProducts" from the available methods. Notice the request structure - it includes pagination parameters.
 
 #### Step 2: Configure the Request
 
@@ -2115,7 +2115,7 @@ The `DeleteProduct` method permanently removes a product from the database using
 
 #### Step 1: Select DeleteProduct Method
 
-Select "DeleteProduct" from the method dropdown. Note the simple request structure – it only requires an ID.
+Select "DeleteProduct" from the method dropdown. Note the simple request structure - it only requires an ID.
 
 #### Step 2: Prepare the Delete Request
 
@@ -2148,9 +2148,9 @@ Successful response:
 
 Verification steps:
 
-1. **Try GetProduct** with the same ID – it should return "Product not found"
-2. **Run ListProducts** – the product should no longer appear in the list
-3. **Check totalCount** – should be reduced by 1
+1. **Try GetProduct** with the same ID - it should return "Product not found"
+2. **Run ListProducts** - the product should no longer appear in the list
+3. **Check totalCount** - should be reduced by 1
 
 ![Postman showing successful product deletion](https://cdn.hashnode.com/res/hashnode/image/upload/v1753880987953/23bb19f0-7ca0-4cec-b9bb-3774737f98c9.png)
 

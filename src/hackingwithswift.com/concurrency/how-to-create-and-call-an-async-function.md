@@ -62,7 +62,7 @@ For example, if we were building an app that wanted to download a whole bunch of
 
 To actually *use* those functions we would then need to write a fourth function that calls them one by one and prints the response. This function also needs to be async, because in theory the three functions it calls could suspend and so it might also need to be suspended.
 
-I’m not going to do the actual networking code here, because we’ll be looking a lot at networking later on. Instead, I want to focus on the structure of our functions so you can see how they fit together, so we’ll be using mock data here – random numbers for the weather data, and the string “OK” for our server response.
+I’m not going to do the actual networking code here, because we’ll be looking a lot at networking later on. Instead, I want to focus on the structure of our functions so you can see how they fit together, so we’ll be using mock data here - random numbers for the weather data, and the string “OK” for our server response.
 
 Here’s the code:
 
@@ -99,7 +99,7 @@ That’s not a lot of code, but it *is* a lot of functionality:
 
 - Every one of those `await` calls is a potential suspension point, which is why we marked it explicitly. Like I said, one async function can suspend as many times as is needed.
 - Swift will run each of the `await` calls in sequence, waiting for the previous one to complete. This is *not* going to run several things in parallel.
-- Each time an `await` call finishes, its final value gets assigned to one of our constants – `records`, `average`, and `response`. Once created this is just regular data, no different from if we had created it synchronously.
+- Each time an `await` call finishes, its final value gets assigned to one of our constants - `records`, `average`, and `response`. Once created this is just regular data, no different from if we had created it synchronously.
 - Because it calls async functions using `await`, it is *required* that `processWeather()` be itself an async function. If you remove that Swift will refuse to build your code.
 
 When reading async functions like this one, it’s good practice to look for the `await` calls because they are all places where unknown other amounts of work might take place before the next line of code executes. 
@@ -120,7 +120,7 @@ func processWeather() async {
 
 We’re only using local variables inside this function, so they are safe. However, if you were relying on properties from a class, for example, they might have changed between each of those `await` lines.
 
-Swift provides ways of protecting against this using a system known as *actors* – more on that much later.
+Swift provides ways of protecting against this using a system known as *actors* - more on that much later.
 
 ::: details Similar solutions…
 

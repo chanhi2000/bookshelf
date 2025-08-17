@@ -87,7 +87,7 @@ So, it’s time to start our job.
 
 ```component VPCard
 {
-  "title": "Angular Material Navigation Menu – Complete Responsive Navigation",
+  "title": "Angular Material Navigation Menu - Complete Responsive Navigation",
   "desc": "In this article, we are going to learn about Angular Material Navigation, how to create it and make it fully responsive with side bar and main nav menu.",
   "link": "/code-maze.com/angular-material-navigation.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -107,7 +107,7 @@ So, it’s time to start our job.
 
 ```component VPCard
 {
-  "title": "Angular Material – Error and Details Pages With Material Components",
+  "title": "Angular Material - Error and Details Pages With Material Components",
   "desc": "In this article we create different pages by using Angular Material Progress Bar, Spinner, Check Box, Card, Select and Expansion Panel Components.",
   "link": "/code-maze.com/angular-material-error-details-pages.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -131,7 +131,7 @@ For the complete navigation and all the basic instructions of the Angular Materi
 
 ::: info
 
-The source code is available at GitHub [Angular Material Table – Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/material-table)
+The source code is available at GitHub [Angular Material Table - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/material-table)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"

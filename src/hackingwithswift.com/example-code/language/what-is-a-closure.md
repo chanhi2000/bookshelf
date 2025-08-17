@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ Here's my best, simplest definition: a closure is a kind of anonymous function t
 
 Some detail:
 
-- "Anonymous function": that is, a closure is a block of code you define, starting with { and ending with }. It's anonymous because it doesn't have a name – it doesn't need a name, because it gets stored as a variable.
+- "Anonymous function": that is, a closure is a block of code you define, starting with { and ending with }. It's anonymous because it doesn't have a name - it doesn't need a name, because it gets stored as a variable.
 <li>"Stored as a variable": yes, the closure code literally gets saved as a variable, for example, `myCode`. Whoever is storing the closure (normally one of Apple's libraries) can then "call" that variable to run your closure's code.
 <li>"Called later on": once your closure has been stored away by iOS, it can be called a second later, a minute later, an hour later or never, depending on the situation. For example, when you say "run this code when my animation completes," iOS will make sure it happens at the right time.
 <li>"Remember the state of your program": if your closure references some variables that you had created, Swift will automatically take a copy of those variables so they can be used later. Remember, your closure can be called 20 minutes after you created it, so being able to store the original program state is important.

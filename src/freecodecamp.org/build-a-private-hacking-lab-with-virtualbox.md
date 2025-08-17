@@ -8,6 +8,7 @@ category:
   - Linux
   - Debian
   - Kali Linux
+  - Vagrant
   - Article(s)
 tag:
   - blog
@@ -17,6 +18,7 @@ tag:
   - linux
   - debian
   - kali
+  - vagrant
 head:
   - - meta:
     - property: og:title
@@ -49,6 +51,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729751281544/6500642
   "title": "Linux - Debain > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/linux-debian/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Vagrant > Article(s)",
+  "desc": "Article(s)",
+  "link": "/devops/vagrant/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -163,7 +175,7 @@ Now we are ready to go. Power on both machines.
 
 ::: note
 
-Both machines will show a default option to startup – just press <kbd>Enter</kbd>. If the VM looks small on your screen, click View -> Scaled Mode on the top menu.
+Both machines will show a default option to startup - just press <kbd>Enter</kbd>. If the VM looks small on your screen, click View -> Scaled Mode on the top menu.
 
 :::
 
@@ -207,7 +219,7 @@ You should see a similar result as below if you are scanning the Mr.Robot virtua
 
 ![Nmap service version scan](https://cdn.hashnode.com/res/hashnode/image/upload/v1729751531886/bf6eec03-4393-4610-84ff-61dceb24edcc.png)
 
-The above image shows that there are three ports on the server. One of them is ssh, which is closed. The other two are web server ports – 80 for http and 443 for https.
+The above image shows that there are three ports on the server. One of them is ssh, which is closed. The other two are web server ports - 80 for http and 443 for https.
 
 ---
 

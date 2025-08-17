@@ -180,7 +180,7 @@ As you can see, the code required to create horizontal and vertical grids is alm
 
 **If you're required to support iOS 13 you won't have access to `LazyHGrid` or `LazyVGrid`, so read below for an alternative…**
 
-SwiftUI gives us `VStack` for vertical layouts and `HStack` for horizontal layouts, but nothing that does both – nothing that can lay out views in a grid structure.
+SwiftUI gives us `VStack` for vertical layouts and `HStack` for horizontal layouts, but nothing that does both - nothing that can lay out views in a grid structure.
 
 Fortunately we can write one ourselves by leveraging SwiftUI's view builder system. This means writing a type that must be created using a row and column count, plus a closure it can run to retrieve the views for a given cell in the grid. Inside the body it can then loop over all the rows and columns and create cells inside `VStack` and `HStack` to make a grid, each time calling the view closure to ask what should be in the cell.
 

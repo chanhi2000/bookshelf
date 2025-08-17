@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-If you create any views in code – text views, buttons, labels, etc – you need to be careful how you add Auto Layout constraints to them. The reason for this is that iOS creates constraints for you that match the new view's size and position, and if you try to add your own constraints these will conflict and your app will break.
+If you create any views in code - text views, buttons, labels, etc - you need to be careful how you add Auto Layout constraints to them. The reason for this is that iOS creates constraints for you that match the new view's size and position, and if you try to add your own constraints these will conflict and your app will break.
 
 There are two solutions. First, don't add Auto Layout constraints to views created in code. Sound like a bad idea? That's because it is: like it or lump it, Auto Layout is something you want on your side. So, that leaves option two: tell iOS *not* to create Auto Layout constraints automatically, and that's done with this line of code:
 

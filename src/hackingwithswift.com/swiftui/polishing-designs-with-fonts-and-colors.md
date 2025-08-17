@@ -80,7 +80,7 @@ Image(item.thumbnailImage)
     .overlay(Circle().stroke(.gray, lineWidth: 2))
 ```
 
-OK, that's enough styling – let's look at something more _complex_.
+OK, that's enough styling - let's look at something more _complex_.
 
 If you look in menu.json you'll see that each menu item has a string array of restrictions: “G” for containing gluten, “N” for containing nuts, “V” for being vegetarian friendly, and so on. We can use that to create colored icons representing what's in the food at a glance, showing zero or more of them in each row as appropriate.
 
@@ -136,7 +136,7 @@ ForEach(item.restrictions, id: \.self) {
 
 That will automatically take up all available free space, meaning that our picture will now be on the far left and the restrictions on the far right.
 
-Go ahead and run the project now and I think you'll agree it looks great! Now think about how you might have accomplished all that using a `UITableViewCell` – it would take more code than you expect!
+Go ahead and run the project now and I think you'll agree it looks great! Now think about how you might have accomplished all that using a `UITableViewCell` - it would take more code than you expect!
 
 ::: details Further reading
 

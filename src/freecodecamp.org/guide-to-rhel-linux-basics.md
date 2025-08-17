@@ -190,11 +190,11 @@ Option `-e` allows echo commands to enable escape sequences.
 
 Here are some other options you can use with `echo`:
 
-1. `\n` – New line: Moves the output to the next line.
-2. `\t` – Tab: Adds a tab space.
-3. `\v` – Vertical Tab: Adds a tab as the cursor moves to the next vertical position.
-4. `\b` – Backspace: Removes the last character.
-5. `\\` – Backslash: Prints a backslash.
+1. `\n` - New line: Moves the output to the next line.
+2. `\t` - Tab: Adds a tab space.
+3. `\v` - Vertical Tab: Adds a tab as the cursor moves to the next vertical position.
+4. `\b` - Backspace: Removes the last character.
+5. `\\` - Backslash: Prints a backslash.
 
 ::: tip Example
 
@@ -482,7 +482,7 @@ mkdir -v fol1 fol2 fol3 # Verbose mode i.e confirmation of directory creation on
 
 #### 2. `cd`
 
-The `cd` command is used to change the directory – that is, to navigate between directories.
+The `cd` command is used to change the directory - that is, to navigate between directories.
 
 ::: info `cd` syntax:
 

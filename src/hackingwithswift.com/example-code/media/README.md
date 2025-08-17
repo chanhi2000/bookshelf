@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/media",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -90,7 +90,7 @@ head:
 ```component VPCard
 {
   "title": "How to create a PDF417 barcode",
-  "desc": "PDF417 barcodes - most frequently seen on boarding passes at airports, but also seen in digital postage stamps and other places – are built right into iOS. This function below accepts a string as its only parameter and returns a <code>UIImage</code> containing the PDF417 barcode representing that string:",
+  "desc": "PDF417 barcodes - most frequently seen on boarding passes at airports, but also seen in digital postage stamps and other places - are built right into iOS. This function below accepts a string as its only parameter and returns a <code>UIImage</code> containing the PDF417 barcode representing that string:",
   "link": "/hackingwithswift.com/example-code/media/how-to-create-a-pdf417-barcode.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -160,7 +160,7 @@ head:
 ```component VPCard
 {
   "title": "How to pixellate a UIImage",
-  "desc": "Core Image has a number of interesting filters baked in, and an easy one to use is <code>CIPixellate</code> – it pixellates images, making them appear blocky. You have control over how big each pixel block should be, so it’s suitable for a range of tasks.",
+  "desc": "Core Image has a number of interesting filters baked in, and an easy one to use is <code>CIPixellate</code> - it pixellates images, making them appear blocky. You have control over how big each pixel block should be, so it’s suitable for a range of tasks.",
   "link": "/hackingwithswift.com/example-code/media/how-to-pixellate-a-uiimage.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -170,7 +170,7 @@ head:
 ```component VPCard
 {
   "title": "How to play sounds using AVAudioPlayer",
-  "desc": "The most common way to play a sound on iOS is using <code>AVAudioPlayer</code>, and it's popular for a reason: it's easy to use, you can stop it whenever you want, and you can adjust its volume as often as you need. The only real catch is that you must store your player as a property or other variable that won't get destroyed straight away – if you don't, the sound will stop immediately.",
+  "desc": "The most common way to play a sound on iOS is using <code>AVAudioPlayer</code>, and it's popular for a reason: it's easy to use, you can stop it whenever you want, and you can adjust its volume as often as you need. The only real catch is that you must store your player as a property or other variable that won't get destroyed straight away - if you don't, the sound will stop immediately.",
   "link": "/hackingwithswift.com/example-code/media/how-to-play-sounds-using-avaudioplayer.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -210,7 +210,7 @@ head:
 ```component VPCard
 {
   "title": "How to record user videos using ReplayKit",
-  "desc": "ReplayKit is one of many useful social media features built into iOS, and it's trivial to add to your projects. What's more, it's not just for games – you can record any kind of app just fine. I should add, though, that the recording quality is fairly low, so it's not worth trying to record fine details.",
+  "desc": "ReplayKit is one of many useful social media features built into iOS, and it's trivial to add to your projects. What's more, it's not just for games - you can record any kind of app just fine. I should add, though, that the recording quality is fairly low, so it's not worth trying to record fine details.",
   "link": "/hackingwithswift.com/example-code/media/how-to-record-user-videos-using-replaykit.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -240,7 +240,7 @@ head:
 ```component VPCard
 {
   "title": "How to scan a barcode",
-  "desc": "iOS supports barcode scanning out of the box, but to be honest it's not that easy to do. So, here's a complete <code>UIViewController</code> subclass that you can add to your Swift project and get immediate support with no hassle – all you need to do is update the <code>found(code:)</code> method to take some interesting action, then present this view controller when you're ready:",
+  "desc": "iOS supports barcode scanning out of the box, but to be honest it's not that easy to do. So, here's a complete <code>UIViewController</code> subclass that you can add to your Swift project and get immediate support with no hassle - all you need to do is update the <code>found(code:)</code> method to take some interesting action, then present this view controller when you're ready:",
   "link": "/hackingwithswift.com/example-code/media/how-to-scan-a-barcode.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -250,7 +250,7 @@ head:
 ```component VPCard
 {
   "title": "How to scan a QR code",
-  "desc": "iOS has built-in support for scanning QR codes using AVFoundation, but the code isn't easy: you need to create a capture session, create a preview layer, handle delegate callbacks, and more. To make it easier for you, I've created a <code>UIViewController</code> subclass that does all the hard work for you – you just need to modify the <code>found(code:)</code> method to do something more interesting.",
+  "desc": "iOS has built-in support for scanning QR codes using AVFoundation, but the code isn't easy: you need to create a capture session, create a preview layer, handle delegate callbacks, and more. To make it easier for you, I've created a <code>UIViewController</code> subclass that does all the hard work for you - you just need to modify the <code>found(code:)</code> method to do something more interesting.",
   "link": "/hackingwithswift.com/example-code/media/how-to-scan-a-qr-code.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

@@ -60,7 +60,7 @@ The process of you trying to mount your fan or set up your smart TV will be a ve
 
 Now, keeping in mind the already painted scenarios, have you ever tried picking up a new programming language or using an unfamiliar API, only to find it confusing, and you felt completely overwhelmed at the beginning? Then you probably spent hours trying to piece things together, maybe via tutorials, but nothing seems to work perfectly due to the error messages you get…and you wonder if you’re doing the right thing.
 
-But then you might have come across the product’s official documentation or maybe a properly written and well-structured guide (like this one you’re reading). Suddenly, everything clicks, you start writing code effortlessly or using the API with confidence. That’s it – the power of clear and concise documentation.
+But then you might have come across the product’s official documentation or maybe a properly written and well-structured guide (like this one you’re reading). Suddenly, everything clicks, you start writing code effortlessly or using the API with confidence. That’s it - the power of clear and concise documentation.
 
 In this article, you will learn what an API is, how it works, what API documentation is all about, and how to create standard API documentation.
 
@@ -168,7 +168,7 @@ This is an example of a Database API. The [<FontIcon icon="iconfont icon-postgre
 
 ### Enhances the Developer Experience
 
-Great API documentation makes a developer’s life much easier. It clearly explains what the API does, how it works, and how to use it – all of which help developers get up to speed quickly.
+Great API documentation makes a developer’s life much easier. It clearly explains what the API does, how it works, and how to use it - all of which help developers get up to speed quickly.
 
 Instead of wasting time figuring things out or getting stuck, they can focus on building. It reduces frustration, boosts productivity, and even makes it easier to collaborate with teammates.
 
@@ -251,7 +251,7 @@ Note that authentication and authorization are two different concepts. Authentic
 There are three major types of API Authentication. Each type is used at different stages or levels, but in some scenarios, no authentication is used at all.
 
 - **Basic Authentication:** This is the type of API auth that is usually used for testing internal APIs. It’s not recommended for publicly used APIs because it’s not fully secure. This API sends a username and password with every API call made to the client.
-- **Key Authentication:** In this type of auth, the client generates and sends a very long key. The API key is a long string that contains unique authorization tokens. This type of auth is more secure than the basic auth – but if the key is leaked, anyone can access the API until it’s revoked. Note: This type of Authentication is used for light applications.
+- **Key Authentication:** In this type of auth, the client generates and sends a very long key. The API key is a long string that contains unique authorization tokens. This type of auth is more secure than the basic auth - but if the key is leaked, anyone can access the API until it’s revoked. Note: This type of Authentication is used for light applications.
 - **OAuth Authentication:** OAuth is the most common and more secure token-based type of authentication. In this type of authentication, instead of sending a username and password, an authorization is first requested, which is approved by the user. After the user approves the request, a token is generated which can be used to make an API request. This method is secure, and the tokens generated have an expiration time as well.
 
 Let’s look at an example from the Spotify API.
@@ -351,7 +351,7 @@ Here are some best practices that can help guide you while writing API documenta
 
 ## Conclusion
 
-API documentation has become a critical component in today's technology landscape. Clear and concise documentation is not just helpful – it’s essential. It often determines whether an API succeeds in the tech ecosystem and whether developers can fully leverage its power.
+API documentation has become a critical component in today's technology landscape. Clear and concise documentation is not just helpful - it’s essential. It often determines whether an API succeeds in the tech ecosystem and whether developers can fully leverage its power.
 
 This is a call to action for developers, organizations, and technical writers: prioritize high-quality, well-structured API documentation. The clarity of your documentation directly impacts the usability, adoption, and long-term success of your product in the industry.
 

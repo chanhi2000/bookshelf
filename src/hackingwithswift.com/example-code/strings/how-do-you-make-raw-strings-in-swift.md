@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Raw strings place hash signs – `#` – before and after their quote mark, and modify the way Swift handles strings in two ways.
+Raw strings place hash signs - `#` - before and after their quote mark, and modify the way Swift handles strings in two ways.
 
 First, a string that starts with `#"` must *end* with a `"#`, which means any quote marks inside the string are ignored:
 
@@ -67,7 +67,7 @@ First, a string that starts with `#"` must *end* with a `"#`, which means any qu
 let string1 = #"The rain in "Spain" falls mainly on the Spaniards"#
 ```
 
-Second, any escape sequences – things that start with `\` – now have their regular meaning. So, this will print one line of text:
+Second, any escape sequences - things that start with `\` - now have their regular meaning. So, this will print one line of text:
 
 ```swift
 let string2 = #"The rain\nin Spain\nfalls mainly\non the Spaniards"#

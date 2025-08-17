@@ -432,7 +432,7 @@ In the code above, the `Employee` struct embeds the `Person` struct, and the fie
 
 While Go lacks inheritance, it achieves polymorphism through **interfaces**. An **interface** is a type that specifies a set of method signatures. A type is said to implement an interface if it provides the methods declared by that interface.
 
-What makes Go unique is that it uses **implicit implementation**, meaning that a type does not need to explicitly declare that it implements an interface – it just has to match the method signatures.
+What makes Go unique is that it uses **implicit implementation**, meaning that a type does not need to explicitly declare that it implements an interface - it just has to match the method signatures.
 
 Let’s see an example:
 
@@ -561,7 +561,7 @@ This is just the basics, as there are other types of tests, such as table-driven
 
 In this article, we took a look at nine key concepts to learn as a beginner getting started with Golang.
 
-And keep in mind that this isn’t everything you’ll need to know when you’re learning Go – these are just what I consider to be the most important basics. And they should help you get your foot in the door of the world of Go.
+And keep in mind that this isn’t everything you’ll need to know when you’re learning Go - these are just what I consider to be the most important basics. And they should help you get your foot in the door of the world of Go.
 
 If you think I missed a key concept, I’d love it if you’d share it with me so I can update the article. Thank you!
 

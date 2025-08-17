@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -99,7 +99,7 @@ As you can see, every `if` statement now has a matching `else` statement so that
 
 If the user enters a valid answer, a call to `return` forces Swift to exit the method immediately once the table has been updated. This is helpful, because at the end of the method there is code to create a new `UIAlertController` with the error title and message that was set, add an OK button without a handler (i.e., just dismiss the alert), then show the alert. So, this error will only be shown if something went wrong.
 
-This demonstrates one important tip about Swift constants: both `errorTitle` and `errorMessage` were declared as constants, which means their value cannot be changed once set. I didn't give either of them an initial value, and that's OK – Swift lets you do this as long as you do provide a value before the constants are read, and also as long as you don't try to change the value again later on.
+This demonstrates one important tip about Swift constants: both `errorTitle` and `errorMessage` were declared as constants, which means their value cannot be changed once set. I didn't give either of them an initial value, and that's OK - Swift lets you do this as long as you do provide a value before the constants are read, and also as long as you don't try to change the value again later on.
 
 Other than that, your project is done. Go and play!
 

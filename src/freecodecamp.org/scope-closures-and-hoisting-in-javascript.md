@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
-description: Article(s) > Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
+title: Scope, Closures, and Hoisting in JavaScript - Explained with Code Examples
+description: Article(s) > Scope, Closures, and Hoisting in JavaScript - Explained with Code Examples
 icon: fa-brands fa-js
 category: 
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
+      content: Article(s) > Scope, Closures, and Hoisting in JavaScript - Explained with Code Examples
     - property: og:description
-      content: Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples
+      content: Scope, Closures, and Hoisting in JavaScript - Explained with Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/scope-closures-and-hoisting-in-javascript.html
 prev: /programming/js/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/How-to-co
 ---
 
 <SiteInfo
-  name="Scope, Closures, and Hoisting in JavaScript – Explained with Code Examples"
+  name="Scope, Closures, and Hoisting in JavaScript - Explained with Code Examples"
   desc="In the dynamic world of JavaScript, understanding the intricacies of scope, closures, and hoisting is fundamental for mastering the language and building robust applications. These concepts, though often misunderstood, play a crucial role in determining how variables and functions behave within the code. Scope dictates the accessibility of variables, closures..."
   url="https://freecodecamp.org/news/scope-closures-and-hoisting-in-javascript/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

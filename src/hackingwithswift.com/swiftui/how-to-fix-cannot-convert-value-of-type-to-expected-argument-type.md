@@ -54,7 +54,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-This rather confusing error message usually happens because you created a container but forgot to include some content inside it – you were probably just experimenting, and wrote code like this:
+This rather confusing error message usually happens because you created a container but forgot to include some content inside it - you were probably just experimenting, and wrote code like this:
 
 ```swift
 VStack {

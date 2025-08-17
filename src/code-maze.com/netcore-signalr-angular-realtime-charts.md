@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Angular Material – Error and Details Pages With Material Components
-description: Article(s) > Angular Material – Error and Details Pages With Material Components
+title: Angular Material - Error and Details Pages With Material Components
+description: Article(s) > Angular Material - Error and Details Pages With Material Components
 icon: fa-brands fa-angular
 category: 
   - Node.js
@@ -21,9 +21,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > Angular Material – Error and Details Pages With Material Components
+      content: Article(s) > Angular Material - Error and Details Pages With Material Components
     - property: og:description
-      content: Angular Material – Error and Details Pages With Material Components
+      content: Angular Material - Error and Details Pages With Material Components
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/netcore-signalr-angular-realtime-charts.html
 prev: /programming/js-angular/articles/README.md
@@ -59,7 +59,7 @@ cover: /assets/image/code-maze.com/netcore-signalr-angular-realtime-charts/banne
 ---
 
 <SiteInfo
-  name="Angular Material – Error and Details Pages With Material Components"
+  name="Angular Material - Error and Details Pages With Material Components"
   desc="In this article, we are going to learn how to use SignalR with .NET Core and Angular by creating real-time chart application."
   url="https://code-maze.com/netcore-signalr-angular-realtime-charts/"
   logo="/assets/image/code-maze.com/favicon.png"

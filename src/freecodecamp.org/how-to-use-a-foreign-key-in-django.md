@@ -49,12 +49,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745330646960/e2fc7f1
 
 <SiteInfo
   name="How to Use a Foreign Key in Django"
-  desc="When you're building something in Django – whether it's a blog, a to-do app, or even something way more complex – at some point, you'll want to connect different pieces of data. That’s where ForeignKey comes in. It helps link one model to another, li..."
+  desc="When you're building something in Django - whether it's a blog, a to-do app, or even something way more complex - at some point, you'll want to connect different pieces of data. That’s where ForeignKey comes in. It helps link one model to another, li..."
   url="https://freecodecamp.org/news/how-to-use-a-foreign-key-in-django"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1745330646960/e2fc7f1d-73f9-4e25-b870-e0928833e7a5.png"/>
 
-When you're building something in Django – whether it's a blog, a to-do app, or even something way more complex – at some point, you'll want to connect different pieces of data.
+When you're building something in Django - whether it's a blog, a to-do app, or even something way more complex - at some point, you'll want to connect different pieces of data.
 
 That’s where `ForeignKey` comes in. It helps link one model to another, like tying a comment to a post, or an order to a customer.
 
@@ -82,7 +82,7 @@ If you're coming from a spreadsheet background, think of it like linking two she
 
 You might be wondering, “Why not just store the ID of the related object in a plain integer field?”
 
-Well, you could – but you'd lose a ton of power. Without a ForeignKey:
+Well, you could - but you'd lose a ton of power. Without a ForeignKey:
 
 - You don’t get automatic validation that the related object exists.
 - You can't follow relationships easily in queries (for example, `post.comments.all()` wouldn’t be possible).
@@ -305,7 +305,7 @@ And if something’s still unclear, that’s normal. I had to build a few mini-p
 ```component VPCard
 {
   "title": "How to Use a Foreign Key in Django",
-  "desc": "When you're building something in Django – whether it's a blog, a to-do app, or even something way more complex – at some point, you'll want to connect different pieces of data. That’s where ForeignKey comes in. It helps link one model to another, li...",
+  "desc": "When you're building something in Django - whether it's a blog, a to-do app, or even something way more complex - at some point, you'll want to connect different pieces of data. That’s where ForeignKey comes in. It helps link one model to another, li...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-a-foreign-key-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

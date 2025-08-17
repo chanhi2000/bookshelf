@@ -141,7 +141,7 @@ Now let’s look at some different approaches to finding the area of a triangle 
 
 ## Find the Area of a Triangle Using the Base and Height Approach
 
-This is the simplest and most direct approach for calculating the area of a triangle when you know the base and height. In this approach, you’ll directly put values in the formula and find the area of the triangle – but you’ll do it with PHP code.
+This is the simplest and most direct approach for calculating the area of a triangle when you know the base and height. In this approach, you’ll directly put values in the formula and find the area of the triangle - but you’ll do it with PHP code.
 
 First, define the base and height of the triangle. Then apply the formula for the area of the triangle. As we saw above, the formula for the area of a triangle is:
 
@@ -238,7 +238,7 @@ In the above code, we first create three variables to store the lengths of the t
 
 **Space Complexity**: We have used a fixed number of variables to calculate the area of the triangle. We have not used any additional data structures such as arrays or objects. The memory usage in the program is constant, which is better for low-memory environments. The space complexity is constant $O\left(1\right)$.
 
-This approach works best when the lengths of all sides are given. This approach is used mainly for scalene or isosceles triangles where height is directly not given. This approach can work for any type of triangle, however – scalene, isosceles, or equilateral.
+This approach works best when the lengths of all sides are given. This approach is used mainly for scalene or isosceles triangles where height is directly not given. This approach can work for any type of triangle, however - scalene, isosceles, or equilateral.
 
 ---
 

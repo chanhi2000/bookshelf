@@ -172,7 +172,7 @@ And it works the other way too. If a message is encrypted with the private key t
 
 ![Illustration of public and private key mathematically linked with each other.](https://cdn.hashnode.com/res/hashnode/image/upload/v1735120077350/b90901c8-b55c-428a-8eb4-1b8ffa65fa06.png)
 
-The two keys – public and private – are mathematically linked with each other. While one encrypts, the other decrypts.
+The two keys - public and private - are mathematically linked with each other. While one encrypts, the other decrypts.
 
 Just a small note that asymmetric key encryption is also called public key encryption. These two terms are used interchangeably but they mean the same thing.
 
@@ -196,7 +196,7 @@ If we pass “freeCodeCamp.org“ again to the SHA-256 hash function, we will ge
 
 Third**,** two different inputs never share the same hash value. Even the slightest change in input produces an entirely different output.
 
-Suppose if we provide “freeCodeCamp“ as input instead of “freeCodeCamp.org“ – we would get a totally different output.
+Suppose if we provide “freeCodeCamp“ as input instead of “freeCodeCamp.org“ - we would get a totally different output.
 
 ---
 
@@ -208,7 +208,7 @@ When your signature is present on the document, it conveys to the other party th
 
 Later on, you cannot walk back from doing what’s written on the document. Correct?
 
-Similarly, in the digital world, we have digital signatures – or we can simply call them signatures.
+Similarly, in the digital world, we have digital signatures - or we can simply call them signatures.
 
 Let’s understand how signatures works using an example. We have two users named “Alice“ and “Bob“.
 
@@ -301,7 +301,7 @@ We have built a really solid foundation. Now understanding SSH authentication is
 
 If you have not setup SSH authentication with GitHub, then after completing this article you can follow [<FontIcon icon="iconfont icon-github"/>GitHub’s detailed documentation on how to do it](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). For now, please stay here till the end.
 
-The crux of the setup process is that you create a public and private key pair on your local computer. Then you upload your public key to your GitHub profile – and that’s it!
+The crux of the setup process is that you create a public and private key pair on your local computer. Then you upload your public key to your GitHub profile - and that’s it!
 
 After we have created our public-private key pair, in Ubuntu, public-private key pair are stored inside the <FontIcon icon="fas fa-folder-open"/>`~/.ssh` directory.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide"
-description: "Article(s) > How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide"
+title: "How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
+description: "Article(s) > How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
 icon: iconfont icon-github
 category: 
   - DevOps
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide"
+      content: "Article(s) > How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
     - property: og:description
-      content: "How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide"
+      content: "How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-personalized-github-profile-page.html
 prev: /devops/github/articles/README.md
@@ -49,7 +49,7 @@ cover: https://freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quot
 ---
 
 <SiteInfo
-  name="How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide"
+  name="How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
   desc="Have you ever wanted to spruce up your GitHub profile page and make it stand out? Well, you're in luck!  With just a few simple steps, you can create a personalized GitHub profile that showcases your skills, projects, and personality. Let's dive in. ..."
   url="https://freecodecamp.org/news/create-personalized-github-profile-page"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -199,7 +199,7 @@ If you have any feedback or questions, feel free DM me on [twitter (<FontIcon ic
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Create Your Personalized  GitHub Profile Page – GitHub Profile README Guide",
+  "title": "How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide",
   "desc": "Have you ever wanted to spruce up your GitHub profile page and make it stand out? Well, you're in luck!  With just a few simple steps, you can create a personalized GitHub profile that showcases your skills, projects, and personality. Let's dive in. ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-personalized-github-profile-page.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

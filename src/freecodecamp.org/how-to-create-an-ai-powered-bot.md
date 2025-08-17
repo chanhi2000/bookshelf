@@ -94,8 +94,8 @@ Before we begin creating a bot, you’ll need to have the following setup and to
 
 You’ll also need some API keys, secrets, and tokens. So, you’ll need to have the following accounts created:
 
-- [<FontIcon icon="fa-brands fa-x-twitter"/>Twitter Developer](https://developer.x.com/) – To generate the Twitter/X API keys, secrets, and tokens
-- [<FontIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/) – To generate the Gemini API key
+- [<FontIcon icon="fa-brands fa-x-twitter"/>Twitter Developer](https://developer.x.com/) - To generate the Twitter/X API keys, secrets, and tokens
+- [<FontIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/) - To generate the Gemini API key
 
 :::
 
@@ -320,7 +320,7 @@ async function uploadHtmlToGemini(htmlContent, filename = "techmeme.html") {
 
 Let’s write a prompt to Gemini asking it to generate top news by referring to the HTML file provided. We’ll ask it to provide a headline, short description, URL, and three relevant hashtags for each tweet. We’ll also give some example data of how it should look. We’ll ask it to generate a structured response by providing the format of the JSON that we want the output to be.
 
-You can use whatever model you want to, but I’ll be using the `gemini-2.5-pro-exp-03-25` model for this use case. I’m using this model because we need a thinking model that thinks and picks the correct top news – not just one that predicts the next token/word. The Gemini 2.5 Pro model best qualifies for this.
+You can use whatever model you want to, but I’ll be using the `gemini-2.5-pro-exp-03-25` model for this use case. I’m using this model because we need a thinking model that thinks and picks the correct top news - not just one that predicts the next token/word. The Gemini 2.5 Pro model best qualifies for this.
 
 ```js :collapsed-lines title="index.js"
 async function extractAiNewsWithGemini(uploadedFile) {
@@ -341,15 +341,15 @@ async function extractAiNewsWithGemini(uploadedFile) {
             Top 3 AI News:
             1️⃣ Google's Gemini 2.5 Pro Comes with a Premium Price Tag 💰
             Google reveals pricing for Gemini 2.5 Pro—its most expensive model yet—at $1.25 per million input tokens and $10 per million output tokens.
-            (Source: TechCrunch – Maxwell Zeff)
+            (Source: TechCrunch - Maxwell Zeff)
             Because what's cutting-edge AI without a price that cuts deep?
             2️⃣ OpenAI Gives ChatGPT Plus to College Students for Free 🎓
             College students in the US and Canada can now access ChatGPT Plus for free until May 2025, in a clear jab at Anthropic’s campus push.
-            (Source: VentureBeat – Michael Nuñez)
+            (Source: VentureBeat - Michael Nuñez)
             Nothing says “future of education” like AI doing your homework—for free.
             3️⃣ Midjourney V7 Enters Alpha With a Whole New Brain 🧠
             Midjourney launches V7 in alpha, its first major model update in nearly a year, built on a “totally different architecture.”
-            (Source: TechCrunch – Kyle Wiggers)
+            (Source: TechCrunch - Kyle Wiggers)
             Just when you mastered prompts, they dropped a new engine like it’s Fast & Furious: AI Drift.
             Outro:
             That’s a wrap on today’s AI buzz. Follow for more quick updates—minus the fluff. ⚡
@@ -495,9 +495,9 @@ Here’s the core of our app. We need to post all the tweets we received from Ge
 
 To do this, we’ll take the id of each tweet after it’s posted and pass it on to the next tweet as a reference. One additional thing to note here is, after each successful tweet, we’ll give a pause of 5 seconds before posting the next tweet. There are few reasons for doing it this way.
 
-1. When any script runs, it usually runs at a much higher speed (usually in milliseconds). So, the second tweet may get posted before the first tweet was posted (maybe due to some poor internet connection). Also, I believe Twitter implements some queue system which may quickly process the second tweet before your first. So it’s always better to leave a small gap – if not 5 seconds then at least 1 second
+1. When any script runs, it usually runs at a much higher speed (usually in milliseconds). So, the second tweet may get posted before the first tweet was posted (maybe due to some poor internet connection). Also, I believe Twitter implements some queue system which may quickly process the second tweet before your first. So it’s always better to leave a small gap - if not 5 seconds then at least 1 second
 2. Twitter may have implemented some rate limiting mechanism. So if there are multiple request received from a same IP within a short time frame, they may block the IP and consider your account as spam.
-3. Since we’re using a Free tier API, we are limited to 1500 tweets per month. If you’ve paid for this API, you won’t have to worry about this (since you’ll have a higher limit and the rate limiting mechanism –refer to point #2 – might not be applicable). All of this depends on their [<FontIcon icon="fa-brands fa-x-twitter"/>pricing](https://docs.x.com/x-api/introduction#access-levels), so just refer to that and make your call accordingly.
+3. Since we’re using a Free tier API, we are limited to 1500 tweets per month. If you’ve paid for this API, you won’t have to worry about this (since you’ll have a higher limit and the rate limiting mechanism -refer to point #2 - might not be applicable). All of this depends on their [<FontIcon icon="fa-brands fa-x-twitter"/>pricing](https://docs.x.com/x-api/introduction#access-levels), so just refer to that and make your call accordingly.
 
 I’m using the free tier, and since it’s a hobby project, having a 5 seconds wait time makes sense. I have not faced any issues so far with this.
 

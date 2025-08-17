@@ -100,7 +100,7 @@ head:
 ```
 
 <SiteInfo
-  name="TechURLs – A neat technology news aggregator"
+  name="TechURLs - A neat technology news aggregator"
   desc="Read tech news from the most popular tech websites in one place."
   url="https://techurls.com/"
   logo="https://techurls.com/favicon-techurls.png"
@@ -799,7 +799,7 @@ https://paperlined.org/
 
 ```component VPCard
 {
-  "title": "Frontend Masters Boost – Helping Your Journey to Senior Developer",
+  "title": "Frontend Masters Boost - Helping Your Journey to Senior Developer",
   "desc": "Helping Your Journey to Senior Developer",
   "link": "https://frontendmasters.com/blog/",
   "logo": "https://frontendmasters.com/favicon.ico",
@@ -894,6 +894,13 @@ https://paperlined.org/
   preview="https://milanjovanovic.tech/og_image.png"/>
 
 <SiteInfo
+  name="C# Corner: AI-Powered Upskilling and Growth Platform"
+  desc="C# Corner is a global community focused on members education and growth through tutorials, videos, podcasts, conferences, hackathons, certifications, speaking opportunities, and mentorship programs."
+  url="https://c-sharpcorner.com"
+  logo="https://c-sharpcorner.com/images/layout/favicon-icon-dark.svg"
+  preview="https://c-sharpcorner.com/images/csharp-corner-new.png"/>
+
+<SiteInfo
   name="Event-Driven by Oskar Dudycz"
   desc="Event-Driven by Oskar Dudycz"
   url="https://event-driven.io/en/"
@@ -932,7 +939,7 @@ https://paperlined.org/
 ```
 
 <SiteInfo
-  name="Coursera Engineering – Medium"
+  name="Coursera Engineering - Medium"
   desc="We're changing the way the world learns! Posts from Coursera engineers and data scientists."
   url="https://medium.com/coursera-engineering"
   logo="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
@@ -940,7 +947,7 @@ https://paperlined.org/
 
 ```component VPCard
 {
-  "title": "SitePoint – Learn HTML, CSS, JavaScript, PHP, Ruby & Responsive Design",
+  "title": "SitePoint - Learn HTML, CSS, JavaScript, PHP, Ruby & Responsive Design",
   "desc": "Learn Web Design & Development with SitePoint tutorials, courses and books - HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design",
   "link": "https://www.sitepoint.com/",
   "logo": "https://www.sitepoint.com/favicons/32x32.png",
@@ -1110,7 +1117,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
   preview="https://tech.nextroll.com/images/site_cover.png"/>
 
 <SiteInfo
-  name="The Airbnb Tech Blog – Medium"
+  name="The Airbnb Tech Blog - Medium"
   desc="Creative engineers and data scientists building a world where you can belong anywhere."
   url="https://medium.com/airbnb-engineering"
   logo="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
@@ -1131,7 +1138,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
   preview="https://res-2.cloudinary.com/jetpack-io/image/upload/q_auto/v1/blog/Social-Card---Jetify-Logo.png"/>
 
 <SiteInfo
-  name="Xandr-Tech – Medium"
+  name="Xandr-Tech - Medium"
   desc="Our latest thoughts, challenges, triumphs, try-again’s, most snarky and profound commit messages. Our proudest achievements, deepest darkest technical debt regrets (just kidding, maybe). All the humbling yet informative things you learn when you try to do things with computers."
   url="https://medium.com/xandr-tech/"
   logo="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
@@ -1473,7 +1480,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
   preview="https://labs.brandi.co.kr/assets/header_image.jpg"/>
 
 <SiteInfo
-  name="CNS Tech – LG CNS 블로그"
+  name="CNS Tech - LG CNS 블로그"
   desc="LG CNS의 기술을 통한 혁신 스토리와 노하우를 만나보세요."
   url="https://www.lgcns.com/blog/cns-tech/"
   logo="https://www.lgcns.com/wp-content/uploads/2021/11/cropped-siteicon-180x180.png"

@@ -45,7 +45,7 @@ cover: https://hackingwithswift.com/uploads/swift-evolution-1.jpg
 ---
 
 <SiteInfo
-  name="What's new in Swift 5.1 – Hacking with Swift"
+  name="What's new in Swift 5.1 - Hacking with Swift"
   desc="Opaque return types, implicit returns, universal self, and more"
   url="https://hackingwithswift.com/articles/182/whats-new-in-swift-5-1"
   logo="https://hackingwithswift.com/favicon.svg"
@@ -58,7 +58,7 @@ Yes, I know that sounds similar to the ABI stability we got in Swift 5.0, but th
 Alongside that major milestone we’re also getting a number of important language improvements, and in this article I’ll walk through them and provide code examples so you can see them in action. As you're reading through, chances are you'll see just how many of these features relate to SwiftUI, and in fact I think it's fair to say that SwiftUI would be unrecognizable without the new features introduced with Swift 5.1.
 
 - If you missed all the new features in Swift 5.1, start here: [what's new in Swift 5.0](/hackingwithswift.com/whats-new-in-swift-5-0.md).
-- I have a free online book on SwiftUI called [SwiftUI By Example](/hackingwithswift.com/swiftui/README.md) – if you want to see these new Swift 5.1 features in action that's the place to start.
+- I have a free online book on SwiftUI called [SwiftUI By Example](/hackingwithswift.com/swiftui/README.md) - if you want to see these new Swift 5.1 features in action that's the place to start.
 
 <VidStack src="youtube/WQ-wppW8jt4" />
 
@@ -101,7 +101,7 @@ let doubled1 = [1, 2, 3].map { $0 * 2 }
 let doubled2 = [1, 2, 3].map { return $0 * 2 }
 ```
 
-In Swift 5.1, this behavior has now been extended to functions as well: if they contain a single expression – effectively a single piece of code that evaluates to a value – then you can leave off the `return` keyword, like this:
+In Swift 5.1, this behavior has now been extended to functions as well: if they contain a single expression - effectively a single piece of code that evaluates to a value - then you can leave off the `return` keyword, like this:
 
 ```swift
 func double(_ number: Int) -> Int {
@@ -189,9 +189,9 @@ Whoever calls that function knows it will return some sort of `Fighter` but does
 
 But there’s a problem: what if we wanted to check whether a specific fighter was Red 5? You *might* think the solution is to make `Fighter` conform to the `Equatable` protocol so we can use `==`. However, as soon as you do that Swift will throw up a particularly dreaded error for the `launchFighter` function: “Protocol 'Fighter' can only be used as a generic constraint because it has Self or associated type requirements.”
 
-The “Self” part of that error is what is hitting us here. The `Equatable` protocol has to compare two instances of itself (“Self”) to see whether they are the same, but Swift has no guarantee that the two equatable things are remotely the same – we could be comparing a Fighter with an array of integers, for example.
+The “Self” part of that error is what is hitting us here. The `Equatable` protocol has to compare two instances of itself (“Self”) to see whether they are the same, but Swift has no guarantee that the two equatable things are remotely the same - we could be comparing a Fighter with an array of integers, for example.
 
-Opaque types solve this problem because even though *we* just see a protocol being used, internally the Swift compiler knows exactly what that protocol actually resolves to – it knows it’s an `XWing`, an array of strings, or whatever.
+Opaque types solve this problem because even though *we* just see a protocol being used, internally the Swift compiler knows exactly what that protocol actually resolves to - it knows it’s an `XWing`, an array of strings, or whatever.
 
 To send back an opaque type, use the keyword `some` before your protocol name:
 
@@ -233,8 +233,8 @@ An important proviso here is that functions with opaque return types must always
 
 You might well think “if we always need to return the same type, why not just write the function as `func launchFighter() -> XWing`? While that might work sometimes, it creates new problems such as:
 
-- We end up with types we don’t really want to expose to the world. For example, if we used `someArray.lazy.drop { … }` we get sent back a `LazyDropWhileSequence` – a dedicated and highly specific type from the Swift standard library. All we actually care about is that this thing is a sequence; we don’t need to know how Swift’s internals work.
-- We lose the ability to change our mind later. Making `launchFighter()` return only an `XWing` means we can’t switch to a different type in the future, and given how much Disney relies on Star Wars toy sales that would be a problem! By returning an opaque type we can return X-Wings today, then move to B-Wings in a year – we only ever return one in any given build of our code, but we can still have the flexibility to change our mind.
+- We end up with types we don’t really want to expose to the world. For example, if we used `someArray.lazy.drop { … }` we get sent back a `LazyDropWhileSequence` - a dedicated and highly specific type from the Swift standard library. All we actually care about is that this thing is a sequence; we don’t need to know how Swift’s internals work.
+- We lose the ability to change our mind later. Making `launchFighter()` return only an `XWing` means we can’t switch to a different type in the future, and given how much Disney relies on Star Wars toy sales that would be a problem! By returning an opaque type we can return X-Wings today, then move to B-Wings in a year - we only ever return one in any given build of our code, but we can still have the flexibility to change our mind.
 
 In some respects all this might sound similar to generics, which also solve the “Self or associated type requirements” problem. Generics allow us to write code like this:
 
@@ -294,7 +294,7 @@ OldSettings.set("Friend", to: "Mooncake")
 print(OldSettings.get("Captain") ?? "Unknown")
 ```
 
-Wrapping the dictionary inside a type means that we can control access more carefully, and using an enum with no cases means we can’t try to instantiate the type – we can’t make various instances of `Settings`.
+Wrapping the dictionary inside a type means that we can control access more carefully, and using an enum with no cases means we can’t try to instantiate the type - we can’t make various instances of `Settings`.
 
 With Swift 5.1 we can now use a static subscript instead, allowing us to rewrite our code to this:
 
@@ -342,7 +342,7 @@ let border1: BorderStyle = .none
 print(border1)
 ```
 
-That will print “none”. But if we used an optional for that enum – if we didn’t know what border style to use – then we’d hit problems:
+That will print “none”. But if we used an optional for that enum - if we didn’t know what border style to use - then we’d hit problems:
 
 ```swift
 let border2: BorderStyle? = .none
@@ -388,7 +388,7 @@ Swift is able to compare the optional enum directly with the non-optional cases,
 
 [SE-0240 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0240-ordered-collection-diffing.md) introduces the ability to calculate and apply the differences between ordered collections. This could prove particularly interesting for developers who have complex collections in table views, where they want to add and remove lots of items smoothly using animations.
 
-The basic principle is straightforward: Swift 5.1 gives us a new `difference(from:)` method that calculates the differences between two ordered collections – what items to remove and what items to insert. This can be used with any ordered collection that contains `Equatable` elements.
+The basic principle is straightforward: Swift 5.1 gives us a new `difference(from:)` method that calculates the differences between two ordered collections - what items to remove and what items to insert. This can be used with any ordered collection that contains `Equatable` elements.
 
 To demonstrate this, we can create an array of scores, calculate the difference from one to the other, then loop over those differences and apply each one to make our two collections the same.
 
@@ -435,7 +435,7 @@ if #available(iOS 9999, *) {
 
 ## Creating uninitialized arrays
 
-[SE-0245 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0245-array-uninitialized-initializer.md) introduces a new initializer for arrays that doesn’t pre-fill values with a default. This was previously available as a private API, which meant Xcode wouldn’t list it in its code completion but you could still use it if you wanted – and if you were happy to take the risk that it wouldn’t be withdrawn in the future!
+[SE-0245 (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/master/proposals/0245-array-uninitialized-initializer.md) introduces a new initializer for arrays that doesn’t pre-fill values with a default. This was previously available as a private API, which meant Xcode wouldn’t list it in its code completion but you could still use it if you wanted - and if you were happy to take the risk that it wouldn’t be withdrawn in the future!
 
 To use the initializer, tell it the capacity you want, then provide a closure to fill in the values however you need. Your closure will be given an unsafe mutable buffer pointer where you can write your values, as well as an `inout` second parameter that lets you report back how many values you actually used.
 
@@ -454,7 +454,7 @@ let randomNumbers = Array<Int>(unsafeUninitializedCapacity: 10) { buffer, initia
 There are some rules here:
 
 1. You don’t need to use all the capacity you ask for, but you can’t go *over* capacity. So, if you ask for a capacity of 10 you can set `initializedCount` to 0 through 10, but not 11.
-2. If you don’t initialize elements that end up being in your array – for example if you set `initializedCount` to 5 but don’t actually provide values for elements 0 through 4 – then they are likely to be filled with random data. This is A Bad Idea.
+2. If you don’t initialize elements that end up being in your array - for example if you set `initializedCount` to 5 but don’t actually provide values for elements 0 through 4 - then they are likely to be filled with random data. This is A Bad Idea.
 3. If you don’t set `initializedCount` it will be 0, so any data you assigned will be lost.
 
 Now, we *could* have rewritten the above code using `map()`, like this:
@@ -471,9 +471,9 @@ That’s certainly easier to read, but it’s less efficient: it creates a range
 
 Swift 5.1 is still under development, and although the [<FontIcon icon="fa-brands fa-swift"/>final branching for Swift itself has passed](https://swift.org/blog/5-1-release-process/) there is still scope to see changes from some of the other associated projects. 
 
-Again, the big feature here is module stability, and I know [<FontIcon icon="fa-brands fa-swift"/>the team are working hard on getting that right](https://forums.swift.org/t/update-on-module-stability-and-module-interface-files/23337). They don’t announce shipping dates, although [<FontIcon icon="fa-brands fa-swift"/>they have said](https://swift.org/blog/5-1-release-process/) that 5.1 “has a significantly shorter development” as a result of Swift 5.0 requiring “an unusual amount of focus and attention” – I’m guessing we’ll see a beta at WWDC19, but obviously this isn’t something to be rushed for a particular date.
+Again, the big feature here is module stability, and I know [<FontIcon icon="fa-brands fa-swift"/>the team are working hard on getting that right](https://forums.swift.org/t/update-on-module-stability-and-module-interface-files/23337). They don’t announce shipping dates, although [<FontIcon icon="fa-brands fa-swift"/>they have said](https://swift.org/blog/5-1-release-process/) that 5.1 “has a significantly shorter development” as a result of Swift 5.0 requiring “an unusual amount of focus and attention” - I’m guessing we’ll see a beta at WWDC19, but obviously this isn’t something to be rushed for a particular date.
 
-One thing that deserves special mention is that two of the changes listed here weren’t introduced as a result of Swift Evolution. Instead, the changes – “Warnings for ambiguous `none` cases” and “Matching optional enums against non-optionals” – were picked up as bugs and corrected quickly.
+One thing that deserves special mention is that two of the changes listed here weren’t introduced as a result of Swift Evolution. Instead, the changes - “Warnings for ambiguous `none` cases” and “Matching optional enums against non-optionals” - were picked up as bugs and corrected quickly.
 
 These are great quality of life improvements in Swift, but the reason I’m calling them out specially is because they were both fixed by a community contributor: [<FontIcon icon="fa-brands fa-x-twitter"/>Suyash Srijan](https://x.com/suyashsrijan). It’s fantastic to see development of Swift continue to grow beyond Apple, and Suyash’s work on those two highly visible features is helping make Swift easier and more consistent for everyone.
 

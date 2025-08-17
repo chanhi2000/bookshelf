@@ -79,7 +79,7 @@ ScrollView(.horizontal, showsIndicators: false) {
 
 To be clear: the `count` parameter refers to how many parts the scroll view's horizontal space should be split into, and the `span` parameter refers to how many parts should be allocated to each text view. We've used 5 for `count`, meaning that the scroll view's horizontal space will be split into 5, then used 2 for `span`, meaning that each text view will be given 2/5ths of the space.
 
-This kind of uneven span means users will see 2.5 views when the app runs – they see two things immediately, then see just enough of the next thing to know that scrolling is possible.
+This kind of uneven span means users will see 2.5 views when the app runs - they see two things immediately, then see just enough of the next thing to know that scrolling is possible.
 
 Exactly how you divide your space is down to you, but using a count of 12 is common in websites because it's divisible by 1, 2, 3, 4, 6, and 12, giving you lots of flexibility.
 

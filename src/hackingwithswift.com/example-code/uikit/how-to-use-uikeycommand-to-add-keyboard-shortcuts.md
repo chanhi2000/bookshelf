@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-Anyone who connects a keyboard to their iOS device is immediately able to take advantage of keyboard shortcuts – both at the system level and inside apps.
+Anyone who connects a keyboard to their iOS device is immediately able to take advantage of keyboard shortcuts - both at the system level and inside apps.
 
 If you want your own apps to respond to shortcuts, as well as advertise those shortcuts to users, you need just one class: `UIKeyCommand`. You attach an array of these to each view controller that should respond to keyboard shortcuts, and iOS will take care of advertising and responding to them.
 
@@ -75,7 +75,7 @@ First, the input string is the actual alphanumeric key that must be pressed in o
 
 Second, the modifier flags parameter accepts an option set of key modifiers. We’re using `.command` above to make <kbd>Cmd</kbd>+F a shortcut, but we could easily have used `[.command, .shift]` to make <kbd>Cmd</kbd>+<kbd>Shift</kbd>+F a shortcut.
 
-Third, the selector parameter determines what code is run when the shortcut is triggered – the code above will call a `findFriends()` method on your view controller when <kbd>Cmd</kbd>+F is pressed. Because this is called from the Objective-C runtime you’ll need to mark it `@objc`, like this:
+Third, the selector parameter determines what code is run when the shortcut is triggered - the code above will call a `findFriends()` method on your view controller when <kbd>Cmd</kbd>+F is pressed. Because this is called from the Objective-C runtime you’ll need to mark it `@objc`, like this:
 
 ```swift
 @objc func findFriends() {
@@ -109,7 +109,7 @@ override var keyCommands: [UIKeyCommand]? {
 }
 ```
 
-Note: don’t try to override any built-in shortcuts, because iOS is always given the first opportunity to handle key commands – before they are routed to your app. So, built-in system events such as copy and paste will happen automatically even if you try to replace them.
+Note: don’t try to override any built-in shortcuts, because iOS is always given the first opportunity to handle key commands - before they are routed to your app. So, built-in system events such as copy and paste will happen automatically even if you try to replace them.
 
 -->
 

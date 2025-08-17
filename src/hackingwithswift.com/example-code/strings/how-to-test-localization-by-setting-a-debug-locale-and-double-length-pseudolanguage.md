@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Strings - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/strings/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 If you want to check how your app works when running on devices with other languages, you have two options: you can either instruct the simulator to use a specific language where you have a localization in place, or you can have it use a special "Double length pseudolanguage" that basically acts as a stress test.
 
-Both of these options live under the the scheme settings for your app, which you can get to by holding down Alt then going to the Product menu and clicking "Run…" – holding down Alt makes it say "Run…" rather than "Run", which is what triggers the scheme settings window.
+Both of these options live under the the scheme settings for your app, which you can get to by holding down Alt then going to the Product menu and clicking "Run…" - holding down Alt makes it say "Run…" rather than "Run", which is what triggers the scheme settings window.
 
 In the scheme settings window, click the dropdown next to Application Language. You can either choose a language that you have localized to, or choose Double Length Pseudolanguage. This option effectively makes all your strings take up twice as much space on the screen, which shows you at a glance if your interface will cope with languages that have longer words than your own.
 

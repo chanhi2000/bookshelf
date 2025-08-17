@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,7 +51,7 @@ isOriginal: false
 }
 ```
 
-This is where Core Data starts to become interesting and perhaps – gasp! – even fun. Yes, I know it's taken quite a lot of work to get this far, but I *did* warn you, remember?
+This is where Core Data starts to become interesting and perhaps - gasp! - even fun. Yes, I know it's taken quite a lot of work to get this far, but I *did* warn you, remember?
 
 Step four is where we finally get to put to use all three previous steps by showing data to users. After the huge amount of work you've put in, particularly in the previous step, I'm sure you'll be grateful to see everything pay off at last!
 
@@ -61,7 +61,7 @@ In our project, we know we're using `Commit` objects to represent individual Git
 var commits = [Commit]()
 ```
 
-We now need to write the usual table view methods, `numberOfRowsInSection` and `cellForRowAt`. The former will just return the size of the `commits` array, and the latter will place each commit’s message and date into the cell’s `textLabel` and `detailTextLabel`. There are lots of ways to convert dates to and from strings – you already saw `ISO8601DateFormatter`, for example – but here we’re just going to use the simplest: every `Date` object has a `description` property that converts it to a human-readable string.
+We now need to write the usual table view methods, `numberOfRowsInSection` and `cellForRowAt`. The former will just return the size of the `commits` array, and the latter will place each commit’s message and date into the cell’s `textLabel` and `detailTextLabel`. There are lots of ways to convert dates to and from strings - you already saw `ISO8601DateFormatter`, for example - but here we’re just going to use the simplest: every `Date` object has a `description` property that converts it to a human-readable string.
 
 For a change, we’re also going to write a third method that reports how many sections are in the table view. This returns 1 by default, and our new method will also return 1, but this will become useful later on.
 

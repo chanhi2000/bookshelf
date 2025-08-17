@@ -210,7 +210,7 @@ In other words, by seeing the gain in a logarithmic scale, we are seeing how muc
 
 I'll also explain how root locus, Bode plot, and Nyquist plots assist engineers in stability analysis.
 
-Let's see the code – and then we'll analyze it block by block:
+Let's see the code - and then we'll analyze it block by block:
 
 ```py
 # Step 1: Import libraries

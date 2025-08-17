@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "🧭 Use Cases: When to Use Each One"
-description: "Article(s) > (9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+description: "Article(s) > (9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
 category:
   - DevOps
   - Microsoft
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+      content: "Article(s) > (9/9) Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:description
       content: "🧭 Use Cases: When to Use Each One"
     - property: og:url
@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 
 ```component VPCard
 {
-  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One",
+  "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
   "link": "/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235455030/cb82bfb
 ---
 
 <SiteInfo
-  name="Load Balancing with Azure Application Gateway and Azure Load Balancer – When to Use Each One"
+  name="Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
   desc="You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l..."
   url="https://freecodecamp.org/news/load-balancing-with-azure-application-gateway-and-azure-load-balancer#heading-use-cases-when-to-use-each-one"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -59,11 +59,11 @@ Let’s walk through 4 different use-case scenarios, starting from the most basi
 
 ---
 
-## 1️⃣ Single VM Instance – For Small Projects or Internal Tools
+## 1️⃣ Single VM Instance - For Small Projects or Internal Tools
 
 ::: important Use this when:
 
-You're just getting started. You’ve built a small app – maybe a portfolio, a blog, or a side project – and you want to make it live, OR You’re a startup that just launched.
+You're just getting started. You’ve built a small app - maybe a portfolio, a blog, or a side project - and you want to make it live, OR You’re a startup that just launched.
 
 :::
 
@@ -92,18 +92,18 @@ You spin up one Azure VM, install your app on it, and open the port it listens o
 @tab Cons
 
 - If the VM goes down, your app goes down
-- No auto-scaling – performance may drop with traffic spikes (the only way to adapt to increased CPU/memory usage due to traffic inflow is via manually scaling the VM vertically)
+- No auto-scaling - performance may drop with traffic spikes (the only way to adapt to increased CPU/memory usage due to traffic inflow is via manually scaling the VM vertically)
 - You manually maintain and monitor everything
 
 :::
 
 ---
 
-## 2️⃣ Manual Horizontal Scaling – For Apps With Medium, Predictable Traffic
+## 2️⃣ Manual Horizontal Scaling - For Apps With Medium, Predictable Traffic
 
 ::: important Use this when:
 
-Your app is growing – maybe you have a few thousand users now, and performance matters. You want more than one server so your app doesn’t crash during busy hours.
+Your app is growing - maybe you have a few thousand users now, and performance matters. You want more than one server so your app doesn’t crash during busy hours.
 
 :::
 
@@ -131,7 +131,7 @@ You manually create 2 or 3 Azure VMs with the same app setup. You then add a Loa
 
 @tab Cons
 
-- You must manually add or remove VMs – which takes effort
+- You must manually add or remove VMs - which takes effort
 - Still need to monitor performance manually
 - No built-in automation or auto-healing
 
@@ -139,11 +139,11 @@ You manually create 2 or 3 Azure VMs with the same app setup. You then add a Loa
 
 ---
 
-## 3️⃣ Auto-Scaling with VM Scale Sets + Azure Load Balancer – For Apps With Spiky or Unpredictable Traffic
+## 3️⃣ Auto-Scaling with VM Scale Sets + Azure Load Balancer - For Apps With Spiky or Unpredictable Traffic
 
 ::: important Use this when:
 
-You’re building something more serious – traffic comes in waves (for example, a fitness/coach booking app), and you don’t want to sit around scaling VMs all day. You want Azure to automatically scale your infrastructure for you.
+You’re building something more serious - traffic comes in waves (for example, a fitness/coach booking app), and you don’t want to sit around scaling VMs all day. You want Azure to automatically scale your infrastructure for you.
 
 :::
 
@@ -165,27 +165,27 @@ You set up a Virtual Machine Scale Set (VMSS) that can automatically create more
 
 @tab:active Pros
 
-- Automatic scaling – saves time and money
+- Automatic scaling - saves time and money
 - High availability: VMs can be replaced if one fails
 - Easy to grow as your user base grows
 
 @tab Cons:
 
 - Works best if your app is monolithic (one big service)
-- No support for routing traffic to specific services – just spreads traffic across VMs
+- No support for routing traffic to specific services - just spreads traffic across VMs
 - Load Balancer can’t look at URL paths or subdomains
 
 :::
 
 ---
 
-## 4️⃣ VM Scale Set + Azure Application Gateway – For Microservices or Complex Web Apps
+## 4️⃣ VM Scale Set + Azure Application Gateway - For Microservices or Complex Web Apps
 
 ::: important Use this when:
 
-You have a modern, multi-service app – maybe built with microservices. Each service (like payments, authentication, search, and so on) lives on a different port or even in a container.
+You have a modern, multi-service app - maybe built with microservices. Each service (like payments, authentication, search, and so on) lives on a different port or even in a container.
 
-You want to route traffic smartly – like `/login` goes to the auth service, `/pay` to payments, and `/search` to the search service – all on the same domain.
+You want to route traffic smartly - like `/login` goes to the auth service, `/pay` to payments, and `/search` to the search service - all on the same domain.
 
 :::
 

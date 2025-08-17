@@ -71,7 +71,7 @@ Now let me show you the best practices and summarise our 12 Clean Code design pr
 
 ## 🧼 Refactoring Techniques for Clean Code
 
-- 🏭 Extract methods: Big methods? Break them down. It's not just about cleanliness –– it's about control.
+- 🏭 Extract methods: Big methods? Break them down. It's not just about cleanliness -- it's about control.
 - 🫕 Rename variables: If your variable names don’t shout their purpose, change and improve them. Precision in naming is precision in thought.
 - 🍃 Simplify conditionals: If your conditionals look like algebra, simplify them. If a == true, just write if(a).
 

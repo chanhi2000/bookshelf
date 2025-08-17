@@ -120,31 +120,31 @@ By combining these tools, you’ll build a powerful, user-friendly application t
 
 In this tutorial, you’ll follow these steps to build our app:
 
-**Step 1 – Set Up the Database:**
+**Step 1 - Set Up the Database:**
 
 Set up a database either locally or on the cloud. For seamless integration, use an online database tool that supports data access and extraction via REST APIs.
 
-**Step 2 – Obtain Cloud API Keys:**
+**Step 2 - Obtain Cloud API Keys:**
 
 Retrieve the necessary API keys for your AI model to enable smooth and secure integration.
 
-**Step 3 – Build the Web Application:**
+**Step 3 - Build the Web Application:**
 
 Develop a web application and configure the backend to integrate CopilotKit. Ensure it’s properly set up for efficient functionality.
 
-**Step 4 – Train CopilotKit with Your Database:**
+**Step 4 - Train CopilotKit with Your Database:**
 
 Provide your database data to CopilotKit so it can understand and utilize the information for natural language processing.
 
-**Step 5 – Integrate the CopilotKit Chat Interface:**
+**Step 5 - Integrate the CopilotKit Chat Interface:**
 
 Embed the CopilotKit chat interface into your application and configure it to work seamlessly with your app’s workflow.
 
-**Step 6 – Test Locally:**
+**Step 6 - Test Locally:**
 
 Run the application on your local machine, thoroughly testing each feature to identify and resolve any issues.
 
-**Step 7 – Deploy the Application:**
+**Step 7 - Deploy the Application:**
 
 Once testing is complete and the app is working as expected, deploy it to a hosting platform for public use.
 

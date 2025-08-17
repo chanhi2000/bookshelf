@@ -342,7 +342,7 @@ So go grab some coffee and banana bread, you have earned it. Then we’ll move o
 
 Amazon CloudFront is a fast, highly secure, and programmable content delivery network (CDN) that improves website performance and security.
 
-Our static website is hosted on S3(`http://your-bucket-name.s3-website.your-region.amazonaws.com/`) – but you might notice that the site is accessible via HTTP but lacks proper security measures such as SSL/TLS encryption. CloudFront addresses these limitations by providing a secure and scalable way to serve both static and dynamic content globally.
+Our static website is hosted on S3(`http://your-bucket-name.s3-website.your-region.amazonaws.com/`) - but you might notice that the site is accessible via HTTP but lacks proper security measures such as SSL/TLS encryption. CloudFront addresses these limitations by providing a secure and scalable way to serve both static and dynamic content globally.
 
 It delivers content to users with low latency by caching copies of your website at edge locations worldwide. When a user requests a resource, CloudFront serves it from the nearest edge location, significantly improving speed and availability.
 
@@ -367,7 +367,7 @@ Second, it has higher latency. S3 buckets are hosted in a specific AWS region, w
 
 It also doesn’t have built-in caching, which means that every request is served from S3, increasing response time and potential costs.
 
-And finally, there’s no DDoS protection – unlike CloudFront, S3 does not provide native protection against cyberattacks.
+And finally, there’s no DDoS protection - unlike CloudFront, S3 does not provide native protection against cyberattacks.
 
 ### Why You Should Serve Your Website with CloudFront
 

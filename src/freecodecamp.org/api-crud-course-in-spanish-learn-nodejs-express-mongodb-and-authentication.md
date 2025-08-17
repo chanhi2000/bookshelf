@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication"
-description: "Article(s) > API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication"
+title: "API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication"
+description: "Article(s) > API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication"
+      content: "Article(s) > API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication"
     - property: og:description
-      content: "API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication"
+      content: "API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication.html
 prev: /programming/js-node/articles/README.md
@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730504665686/121585f
 ---
 
 <SiteInfo
-  name="API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication"
+  name="API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication"
   desc="CRUD operations are the foundation of back-end web development. CRUD stands for Create, Read, Update, and Delete. They are essential operations for modern web development because they are used to manage data in most web applications. We just publishe..."
   url="https://freecodecamp.org/news/api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -144,7 +144,7 @@ If you’re ready to start working on this project, check out the course in Span
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "API CRUD Course in Spanish – Learn Node.js, Express, MongoDB, and Authentication",
+  "title": "API CRUD Course in Spanish - Learn Node.js, Express, MongoDB, and Authentication",
   "desc": "CRUD operations are the foundation of back-end web development. CRUD stands for Create, Read, Update, and Delete. They are essential operations for modern web development because they are used to manage data in most web applications. We just publishe...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/api-crud-course-in-spanish-learn-nodejs-express-mongodb-and-authentication.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

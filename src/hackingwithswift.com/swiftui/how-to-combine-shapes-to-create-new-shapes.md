@@ -68,7 +68,7 @@ Circle()
 
 ![A circle and capsule shape combined together, then filled as one.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-combine-shapes-to-create-new-shapes-1~dark.png)
 
-The advantage to having a single shape is that the result blends well when you add opacity – you're not rendering two overlapping shapes individually, but combining them both into a single shape and rendering that.
+The advantage to having a single shape is that the result blends well when you add opacity - you're not rendering two overlapping shapes individually, but combining them both into a single shape and rendering that.
 
 Similarly, we could use `lineSubtraction()` to cut a rectangle's shape away from a circle, then stroke the remainder with a rounded cap:
 

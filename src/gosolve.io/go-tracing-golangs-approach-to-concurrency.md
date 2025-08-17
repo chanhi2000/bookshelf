@@ -189,7 +189,7 @@ Just like a film director might be wary of shooting too much footage, there’s 
 
 ### The Size of Trace Data Files and Implications for Performance Analysis
 
-Tracing is thorough – and that’s an understatement. As a result, the tracing data files can grow rapidly in size, especially in complex systems or services with high traffic. Here are some concerns and implications that enable tracing itself:
+Tracing is thorough - and that’s an understatement. As a result, the tracing data files can grow rapidly in size, especially in complex systems or services with high traffic. Here are some concerns and implications that enable tracing itself:
 
 1. **Storage Concerns:** Larger files need more storage. It’s not just a matter of having the necessary disk space, but also the IO operations to read and write these files.
 2. **Analysis Time:** The larger the trace data, the more time the go tool trace would need to process and display it. This can be cumbersome if you’re looking to quickly diagnose an issue.
@@ -203,7 +203,7 @@ Go’s toolbox isn’t limited to tracing. It offers a suite of other services o
 
 Go Tracing for Concurrency Issues: If your application heavily leverages Go’s concurrency model, employing multiple goroutines, channels, and network calls, then the tracer is invaluable. It captures the state transitions of goroutines and can help spot issues like deadlocks, logical races, or poor parallelization.
 
-CPU Profiler for Performance Bottlenecks: If you’re more concerned with how much CPU time individual functions consume, the cpu profiler would be more apt. It provides insights into the hot path in your code – the functions and methods consuming the most CPU resources.
+CPU Profiler for Performance Bottlenecks: If you’re more concerned with how much CPU time individual functions consume, the cpu profiler would be more apt. It provides insights into the hot path in your code - the functions and methods consuming the most CPU resources.
 
 Memory Profiler for Resource Management: For applications where memory usage is a concern, like potential memory leaks or understanding the heap size, the memory profiler is the go-to tool. It works in tandem with the garbage collector to give you a clearer picture of memory allocation and deallocation.
 

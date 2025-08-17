@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Core Haptics - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/core-haptics/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -109,7 +109,7 @@ do {
 }
 ```
 
-As you can see, it does take quite a bit of code to get a fairly basic effect. However, the reason for that is because Core Haptics allows us to create more complicated effects by adding more parameters, curves, and events – it’s a remarkably flexible API.
+As you can see, it does take quite a bit of code to get a fairly basic effect. However, the reason for that is because Core Haptics allows us to create more complicated effects by adding more parameters, curves, and events - it’s a remarkably flexible API.
 
 For example, we just created a fading continuous haptic, but we can actually combine that with multiple transient haptics to make an explosion effect: one fading buzz, with lots of smaller little pops going off at the same time.
 
@@ -151,7 +151,7 @@ do {
 }
 ```
 
-By combining 16 random transient haptics with our fading continuous haptic, we can get an effect that feels great and can be bundled into a method for easier re-use – it’s a really neat special effect you can add to both apps and games.
+By combining 16 random transient haptics with our fading continuous haptic, we can get an effect that feels great and can be bundled into a method for easier re-use - it’s a really neat special effect you can add to both apps and games.
 
 -->
 

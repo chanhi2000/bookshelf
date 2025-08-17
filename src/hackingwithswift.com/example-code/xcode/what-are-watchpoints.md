@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,9 +56,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-You’re probably already familiar with Xcode’s breakpoints, which allow you to pause code when a certain point is reached. Watchpoints also let you pause code, but their job is to pause when a variable is changed anywhere else in your code – it’s like a property observer, except implemented entirely using Xcode’s debugger.
+You’re probably already familiar with Xcode’s breakpoints, which allow you to pause code when a certain point is reached. Watchpoints also let you pause code, but their job is to pause when a variable is changed anywhere else in your code - it’s like a property observer, except implemented entirely using Xcode’s debugger.
 
-To try it out, place a breakpoint in your program next to a variable you want to watch, then run your code. When the breakpoint hits, look for your variable inside the variables view – that’s in Xcode’s debug area at the bottom, to the left of the console.
+To try it out, place a breakpoint in your program next to a variable you want to watch, then run your code. When the breakpoint hits, look for your variable inside the variables view - that’s in Xcode’s debug area at the bottom, to the left of the console.
 
 When you find your variable, right-click on it and choose “Watch”. Once that’s done you can continue your program as normal, and anywhere the variable is read from or written to Xcode will pause and you can use the debug navigator to step through the call stack to figure out what happened.
 

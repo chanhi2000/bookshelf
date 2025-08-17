@@ -28,7 +28,7 @@ head:
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "https://hackingwithswift.com/example-code/uikit",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -120,7 +120,7 @@ head:
 ```component VPCard
 {
   "title": "How to add a button to a navigation bar using storyboards",
-  "desc": "Once you’ve placed a view controller inside a navigation controller, you’ll see that Interface Builder simulates a navigation bar at the top of that view controller. If you select it, what you actually select is the navigation item for that controller – the same thing you would get if you were manipulating its <code>navigationItem</code> property....",
+  "desc": "Once you’ve placed a view controller inside a navigation controller, you’ll see that Interface Builder simulates a navigation bar at the top of that view controller. If you select it, what you actually select is the navigation item for that controller - the same thing you would get if you were manipulating its <code>navigationItem</code> property....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-add-a-button-to-a-navigation-bar-using-storyboards.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -140,7 +140,7 @@ head:
 ```component VPCard
 {
   "title": "How to add a custom view to a UIBarButtonItem",
-  "desc": "Most <code>UIBarButtonItems</code> contain either an icon or some text, but they can do so much more – in fact, you can embed any kind of <code>UIView</code> subclass inside a bar button item, then put that button into a navigation bar or toolbar as you normally would....",
+  "desc": "Most <code>UIBarButtonItems</code> contain either an icon or some text, but they can do so much more - in fact, you can embed any kind of <code>UIView</code> subclass inside a bar button item, then put that button into a navigation bar or toolbar as you normally would....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-add-a-custom-view-to-a-uibarbuttonitem.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -180,7 +180,7 @@ head:
 ```component VPCard
 {
   "title": "How to add a shadow to a UIView",
-  "desc": "iOS can dynamically generate shadows for any <code>UIView</code>, and these shadows automatically adjust to fit the shape of the item in question – even following the curves of text inside a <code>UILabel</code>. This functionality is built right in, so all you need to do is configure its properties, and there are four you need to care about:...",
+  "desc": "iOS can dynamically generate shadows for any <code>UIView</code>, and these shadows automatically adjust to fit the shape of the item in question - even following the curves of text inside a <code>UILabel</code>. This functionality is built right in, so all you need to do is configure its properties, and there are four you need to care about:...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-add-a-shadow-to-a-uiview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -230,7 +230,7 @@ head:
 ```component VPCard
 {
   "title": "How to add custom spacing to UIStackView items",
-  "desc": "Each <code>UIStackView</code> has an overall <code>spacing</code> property that affects spacing between all of its arranged subviews, but in addition you can add custom spacing after specific views – for example, “put 20 points of space under this button.”...",
+  "desc": "Each <code>UIStackView</code> has an overall <code>spacing</code> property that affects spacing between all of its arranged subviews, but in addition you can add custom spacing after specific views - for example, “put 20 points of space under this button.”...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-add-custom-spacing-to-uistackview-items.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -270,7 +270,7 @@ head:
 ```component VPCard
 {
   "title": "How to add Retina and Retina HD graphics to your project",
-  "desc": "iOS has a simple, beautiful solution for handling Retina and Retina HD graphics, and in fact it does almost all the work for you – all you have to do is name your assets correctly....",
+  "desc": "iOS has a simple, beautiful solution for handling Retina and Retina HD graphics, and in fact it does almost all the work for you - all you have to do is name your assets correctly....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-add-retina-and-retina-hd-graphics-to-your-project.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -320,7 +320,7 @@ head:
 ```component VPCard
 {
   "title": "How to animate views using animate(withDuration:)",
-  "desc": "Animation in iOS is done by starting an animation block, then telling iOS what changes you want to make. Because the animation block is active, those changes won't happen straight away – instead, iOS will execute them smoothly over the time you specified, so you don't have to worry when it will finish or what all the intermediate states are....",
+  "desc": "Animation in iOS is done by starting an animation block, then telling iOS what changes you want to make. Because the animation block is active, those changes won't happen straight away - instead, iOS will execute them smoothly over the time you specified, so you don't have to worry when it will finish or what all the intermediate states are....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-animate-views-using-animatewithduration.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -330,7 +330,7 @@ head:
 ```component VPCard
 {
   "title": "How to animate views using UIViewPropertyAnimator",
-  "desc": "iOS 10 introduced a new closure-based animation class in the form of <code>UIViewPropertyAnimator</code>. Amongst other things, it lets you interactively adjust the position of an animation, making it jump to any point in time that we need – a technique commonly called <em>scrubbing</em>. ...",
+  "desc": "iOS 10 introduced a new closure-based animation class in the form of <code>UIViewPropertyAnimator</code>. Amongst other things, it lets you interactively adjust the position of an animation, making it jump to any point in time that we need - a technique commonly called <em>scrubbing</em>. ...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-animate-views-using-uiviewpropertyanimator.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -400,7 +400,7 @@ head:
 ```component VPCard
 {
   "title": "How to change your app icon dynamically with setAlternateIconName()",
-  "desc": "iOS gives developers the ability to change their app’s icon programmatically, although it takes a little work to set up. It also isn’t quite as powerful as you might hope – you can’t recreate the moving hands of the Clock app, for example....",
+  "desc": "iOS gives developers the ability to change their app’s icon programmatically, although it takes a little work to set up. It also isn’t quite as powerful as you might hope - you can’t recreate the moving hands of the Clock app, for example....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -420,7 +420,7 @@ head:
 ```component VPCard
 {
   "title": "How to check whether an iPhone or iPad is upside down or face up",
-  "desc": "If your app needs to know the orientation of the user’s device – face up or face down – it takes only four steps to implement....",
+  "desc": "If your app needs to know the orientation of the user’s device - face up or face down - it takes only four steps to implement....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-check-whether-an-iphone-or-ipad-is-upside-down-or-face-up.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -430,7 +430,7 @@ head:
 ```component VPCard
 {
   "title": "How to check whether users have enabled the reduced motion setting",
-  "desc": "There’s a lot of animation in UIKit, and many users find it either distracting or hard to follow. As a result, iOS has a Reduce Motion accessibility setting that disables many animation and parallax effects, and simplifies most others – at least in their own apps....",
+  "desc": "There’s a lot of animation in UIKit, and many users find it either distracting or hard to follow. As a result, iOS has a Reduce Motion accessibility setting that disables many animation and parallax effects, and simplifies most others - at least in their own apps....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-check-whether-users-have-enabled-the-reduced-motion-setting.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -500,7 +500,7 @@ head:
 ```component VPCard
 {
   "title": "How to create custom menus using UIMenuController",
-  "desc": "iOS has a built-in menu system that, while <em>useful</em>, doesn't actually get much <em>use</em> – because users don't expect to see it, developers don't use it, thus making it even less likely that users expect to see it....",
+  "desc": "iOS has a built-in menu system that, while <em>useful</em>, doesn't actually get much <em>use</em> - because users don't expect to see it, developers don't use it, thus making it even less likely that users expect to see it....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-create-custom-menus-using-uimenucontroller.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -590,7 +590,7 @@ head:
 ```component VPCard
 {
   "title": "How to detect dark mode in iOS",
-  "desc": "If you need to take specific action depending on whether your user is running in light mode or dark mode – for example, doing some different drawing – then you should query the <code>userInterfaceStyle</code> of your view controller’s trait collection....",
+  "desc": "If you need to take specific action depending on whether your user is running in light mode or dark mode - for example, doing some different drawing - then you should query the <code>userInterfaceStyle</code> of your view controller’s trait collection....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-detect-dark-mode-in-ios.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -670,7 +670,7 @@ head:
 ```component VPCard
 {
   "title": "How to disable interactive swipe to dismiss for view controllers",
-  "desc": "From iOS 13.0 onwards, whenever you present a <code>UIViewController</code> you get a card-like user interface where the new view controller can be dismissed by swiping downwards. While this works great for optional information, it works less well if you require the user to make a choice – if you want to stop the view controller from being dismissed until they have taken some sort of action inside the detail view controller....",
+  "desc": "From iOS 13.0 onwards, whenever you present a <code>UIViewController</code> you get a card-like user interface where the new view controller can be dismissed by swiping downwards. While this works great for optional information, it works less well if you require the user to make a choice - if you want to stop the view controller from being dismissed until they have taken some sort of action inside the detail view controller....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-disable-interactive-swipe-to-dismiss-for-view-controllers.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -680,7 +680,7 @@ head:
 ```component VPCard
 {
   "title": "How to disable undo, redo, copy, and paste gestures using editingInteractionConfiguration",
-  "desc": "iOS provides built-in gestures for undo, redo, copy, and paste in text views, triggered using a variety of three-finger moves – swiping left and right, or pinching in or out respectively. If you have existing gestures that collide with these, you can disable the system gestures by overriding the <code>editingInteractionConfiguration</code> property to return <code>.none</code>....",
+  "desc": "iOS provides built-in gestures for undo, redo, copy, and paste in text views, triggered using a variety of three-finger moves - swiping left and right, or pinching in or out respectively. If you have existing gestures that collide with these, you can disable the system gestures by overriding the <code>editingInteractionConfiguration</code> property to return <code>.none</code>....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-disable-undo-redo-copy-and-paste-gestures-using-editinginteractionconfiguration.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -730,7 +730,7 @@ head:
 ```component VPCard
 {
   "title": "How to find a UIView subview using viewWithTag()",
-  "desc": "If you need a quick way to get hold of a view inside a complicated view hierarchy, you're looking for <code>viewWithTag()</code> – give it the tag to find and a view to search from, and this method will search all subviews, and all sub-subviews, and so on, until it finds a view with the matching tag number. The method returns an optional <code>UIView</code> because it might not find a view with that tag, so unwrap it carefully....",
+  "desc": "If you need a quick way to get hold of a view inside a complicated view hierarchy, you're looking for <code>viewWithTag()</code> - give it the tag to find and a view to search from, and this method will search all subviews, and all sub-subviews, and so on, until it finds a view with the matching tag number. The method returns an optional <code>UIView</code> because it might not find a view with that tag, so unwrap it carefully....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-find-a-uiview-subview-using-viewwithtag.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -770,7 +770,7 @@ head:
 ```component VPCard
 {
   "title": "How to fix the error “Failed to instantiate the default view controller for UIMainStoryboardFile”",
-  "desc": "This error happens due to a simple mistake in your storyboard, and it’s easy to fix. When your app starts, iOS needs to know precisely which view controller needs to be shown first – known as your default view controller....",
+  "desc": "This error happens due to a simple mistake in your storyboard, and it’s easy to fix. When your app starts, iOS needs to know precisely which view controller needs to be shown first - known as your default view controller....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-fix-the-error-failed-to-instantiate-the-default-view-controller-for-uimainstoryboardfile.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -810,7 +810,7 @@ head:
 ```component VPCard
 {
   "title": "How to generate haptic feedback with UIFeedbackGenerator",
-  "desc": "iOS 10 introduced new ways of generating haptic feedback using predefined vibration patterns shared by all apps, thus helping users understand that various types of feedback carry special significance. The core of this functionality is provided by <code>UIFeedbackGenerator</code>, but that's just an abstract class – the three classes you really care about are <code>UINotificationFeedbackGenerator</code>, <code>UIImpactFeedbackGenerator</code>, and <code>UISelectionFeedbackGenerator</code>....",
+  "desc": "iOS 10 introduced new ways of generating haptic feedback using predefined vibration patterns shared by all apps, thus helping users understand that various types of feedback carry special significance. The core of this functionality is provided by <code>UIFeedbackGenerator</code>, but that's just an abstract class - the three classes you really care about are <code>UINotificationFeedbackGenerator</code>, <code>UIImpactFeedbackGenerator</code>, and <code>UISelectionFeedbackGenerator</code>....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-generate-haptic-feedback-with-uifeedbackgenerator.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -830,7 +830,7 @@ head:
 ```component VPCard
 {
   "title": "How to give a UIStackView a background color",
-  "desc": "You can't do this – <code>UIStackView</code> is a non-drawing view, meaning that <code>drawRect()</code> is never called and its background color is ignored. If you desperately want a background color, consider placing the stack view inside another <code>UIView</code> and giving that view a background color....",
+  "desc": "You can't do this - <code>UIStackView</code> is a non-drawing view, meaning that <code>drawRect()</code> is never called and its background color is ignored. If you desperately want a background color, consider placing the stack view inside another <code>UIView</code> and giving that view a background color....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-give-a-uistackview-a-background-color.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -900,7 +900,7 @@ head:
 ```component VPCard
 {
   "title": "How to hide the tab bar when a view controller is shown",
-  "desc": "If you’re using <code>UITabBarController</code> to display a tab strip at the bottom of your user interface, the default behavior for iOS is to display the tabs at all times – even if the user has navigated deep into a <code>UINavigationController</code> in one of the tabs....",
+  "desc": "If you’re using <code>UITabBarController</code> to display a tab strip at the bottom of your user interface, the default behavior for iOS is to display the tabs at all times - even if the user has navigated deep into a <code>UINavigationController</code> in one of the tabs....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-hide-the-tab-bar-when-a-view-controller-is-shown.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -980,7 +980,7 @@ head:
 ```component VPCard
 {
   "title": "How to localize your iOS app",
-  "desc": "Localizing an app – i.e. making it display its user interface in other languages – is surprisingly painless in iOS, and really the only hard part is making sure you get all your text translated by native speakers of your target languages....",
+  "desc": "Localizing an app - i.e. making it display its user interface in other languages - is surprisingly painless in iOS, and really the only hard part is making sure you get all your text translated by native speakers of your target languages....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-localize-your-ios-app.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1140,7 +1140,7 @@ head:
 ```component VPCard
 {
   "title": "How to pad a UITextView by setting its text container inset",
-  "desc": "You can force the text of any <code>UITextView</code> to have padding – i.e., to be indented from its edges – by setting its <code>textContainerInset</code> property to a value of your choosing. For example, to give a text view insets of 50 points from each edge, you would use this code:...",
+  "desc": "You can force the text of any <code>UITextView</code> to have padding - i.e., to be indented from its edges - by setting its <code>textContainerInset</code> property to a value of your choosing. For example, to give a text view insets of 50 points from each edge, you would use this code:...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-pad-a-uitextview-by-setting-its-text-container-inset.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1260,7 +1260,7 @@ head:
 ```component VPCard
 {
   "title": "How to remove a UIView from its superview with removeFromSuperview()",
-  "desc": "If you created a view dynamically and want it gone, it's a one-liner in Swift thanks to the <code>removeFromSuperview()</code> method. When you call this, the view gets removed immediately and possibly also destroyed – it will only be kept around if you have a reference to it elsewhere. Here's how it's done:...",
+  "desc": "If you created a view dynamically and want it gone, it's a one-liner in Swift thanks to the <code>removeFromSuperview()</code> method. When you call this, the view gets removed immediately and possibly also destroyed - it will only be kept around if you have a reference to it elsewhere. Here's how it's done:...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-remove-a-uiview-from-its-superview-with-removefromsuperview.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1320,7 +1320,7 @@ head:
 ```component VPCard
 {
   "title": "How to respond to the device being shaken",
-  "desc": "You can make any <code>UIViewController</code> subclass respond to the device being shaken by overriding the <code>motionBegan</code> method. This is use to handle motion (shaking) but in theory also remote control actions – although I can't say I've ever seen someone write code to handle that!...",
+  "desc": "You can make any <code>UIViewController</code> subclass respond to the device being shaken by overriding the <code>motionBegan</code> method. This is use to handle motion (shaking) but in theory also remote control actions - although I can't say I've ever seen someone write code to handle that!...",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-respond-to-the-device-being-shaken.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1350,7 +1350,7 @@ head:
 ```component VPCard
 {
   "title": "How to send an email",
-  "desc": "In the MessageUI framework lies the <code>MFMailComposeViewController</code> class, which handles sending emails from your app. You get to set the recipients, message title and message text, but you don't get to send it – that's for the user to tap themselves....",
+  "desc": "In the MessageUI framework lies the <code>MFMailComposeViewController</code> class, which handles sending emails from your app. You get to set the recipients, message title and message text, but you don't get to send it - that's for the user to tap themselves....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-send-an-email.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1420,7 +1420,7 @@ head:
 ```component VPCard
 {
   "title": "How to show and hide a toolbar inside a UINavigationController",
-  "desc": "All navigation controllers have a toolbar built right in, but it's not showing by default. And even if it were showing, it doesn't have any items by default – that's down to you fill in....",
+  "desc": "All navigation controllers have a toolbar built right in, but it's not showing by default. And even if it were showing, it doesn't have any items by default - that's down to you fill in....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-show-and-hide-a-toolbar-inside-a-uinavigationcontroller.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1430,7 +1430,7 @@ head:
 ```component VPCard
 {
   "title": "How to stop Auto Layout and autoresizing masks conflicting: translatesAutoresizingMaskIntoConstraints",
-  "desc": "If you create any views in code – text views, buttons, labels, etc – you need to be careful how you add Auto Layout constraints to them. The reason for this is that iOS creates constraints for you that match the new view's size and position, and if you try to add your own constraints these will conflict and your app will break....",
+  "desc": "If you create any views in code - text views, buttons, labels, etc - you need to be careful how you add Auto Layout constraints to them. The reason for this is that iOS creates constraints for you that match the new view's size and position, and if you try to add your own constraints these will conflict and your app will break....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-stop-auto-layout-and-autoresizing-masks-conflicting-translatesautoresizingmaskintoconstraints.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1470,7 +1470,7 @@ head:
 ```component VPCard
 {
   "title": "How to stop your view going under the navigation bar using edgesForExtendedLayout",
-  "desc": "As of iOS 7.0, all views automatically go behind navigation bars, toolbars and tab bars to provide what Apple calls 'context' – having some idea of what's underneath the UI (albeit blurred out with a frosted glass effect) gives users an idea of what else is just off screen....",
+  "desc": "As of iOS 7.0, all views automatically go behind navigation bars, toolbars and tab bars to provide what Apple calls 'context' - having some idea of what's underneath the UI (albeit blurred out with a frosted glass effect) gives users an idea of what else is just off screen....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-stop-your-view-going-under-the-navigation-bar-using-edgesforextendedlayout.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1520,7 +1520,7 @@ head:
 ```component VPCard
 {
   "title": "How to swipe to delete UITableViewCells",
-  "desc": "It takes just one method to enable swipe to delete in table views: <code>tableView(_:commit:forRowAt:)</code>. This method gets called when a user tries to delete one of your table rows using swipe to delete, but its very presence is what enables swipe to delete in the first place – that is, iOS literally checks to see whether the method exists, and, if it does, enables swipe to delete....",
+  "desc": "It takes just one method to enable swipe to delete in table views: <code>tableView(_:commit:forRowAt:)</code>. This method gets called when a user tries to delete one of your table rows using swipe to delete, but its very presence is what enables swipe to delete in the first place - that is, iOS literally checks to see whether the method exists, and, if it does, enables swipe to delete....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-swipe-to-delete-uitableviewcells.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1610,7 +1610,7 @@ head:
 ```component VPCard
 {
   "title": "How to use UIKeyCommand to add keyboard shortcuts",
-  "desc": "Anyone who connects a keyboard to their iOS device is immediately able to take advantage of keyboard shortcuts – both at the system level and inside apps....",
+  "desc": "Anyone who connects a keyboard to their iOS device is immediately able to take advantage of keyboard shortcuts - both at the system level and inside apps....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-use-uikeycommand-to-add-keyboard-shortcuts.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1640,7 +1640,7 @@ head:
 ```component VPCard
 {
   "title": "How to use UIStepper to let users change number values",
-  "desc": "<code>UIStepper</code> is one of those controls that doesn’t get used often, which is a shame – it’s trivial to add, and helps users select a value more accurately than a <code>UISlider</code>....",
+  "desc": "<code>UIStepper</code> is one of those controls that doesn’t get used often, which is a shame - it’s trivial to add, and helps users select a value more accurately than a <code>UISlider</code>....",
   "link": "/hackingwithswift.com/example-code/uikit/how-to-use-uistepper-to-let-users-change-number-values.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1670,7 +1670,7 @@ head:
 ```component VPCard
 {
   "title": "What are size classes?",
-  "desc": "Size Classes are the iOS method of creating adaptable layouts that look great on all sizes and orientations of iPhone and iPad. For example, you might want to say that your UI looks mostly the same in portrait and landscape, but on landscape some extra information is visible. You could do this in code by checking for a change in the size of your view controller and trying to figure out what it means, but that's a huge waste of time – particularly now that iPad has multiple different sizes thanks to multitasking in iOS 9....",
+  "desc": "Size Classes are the iOS method of creating adaptable layouts that look great on all sizes and orientations of iPhone and iPad. For example, you might want to say that your UI looks mostly the same in portrait and landscape, but on landscape some extra information is visible. You could do this in code by checking for a change in the size of your view controller and trying to figure out what it means, but that's a huge waste of time - particularly now that iPad has multiple different sizes thanks to multitasking in iOS 9....",
   "link": "/hackingwithswift.com/example-code/uikit/what-are-size-classes.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1710,7 +1710,7 @@ head:
 ```component VPCard
 {
   "title": "What is a UIViewController",
-  "desc": "iOS developers often like to talk about the Model-View-Controller architecture (MVC), where every component in their code is either a Model, a View, or a Controller. This is the standard architecture on iOS, which makes it strange that one of the first types you meet is <code>UIViewController</code> – it has both “view” and “controller” in its name, so what is it?...",
+  "desc": "iOS developers often like to talk about the Model-View-Controller architecture (MVC), where every component in their code is either a Model, a View, or a Controller. This is the standard architecture on iOS, which makes it strange that one of the first types you meet is <code>UIViewController</code> - it has both “view” and “controller” in its name, so what is it?...",
   "link": "/hackingwithswift.com/example-code/uikit/what-is-a-uiviewcontroller.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -1770,7 +1770,7 @@ head:
 ```component VPCard
 {
   "title": "What’s the difference between frame and bounds?",
-  "desc": "All <code>UIView</code> subclasses have two properties that at first glance seem similar: <code>frame</code> and <code>bounds</code>. Both return a <code>CGRect</code> – a rectangle containing their X and Y position, plus their width and height – but that doesn’t mean they are the <em>same</em>....",
+  "desc": "All <code>UIView</code> subclasses have two properties that at first glance seem similar: <code>frame</code> and <code>bounds</code>. Both return a <code>CGRect</code> - a rectangle containing their X and Y position, plus their width and height - but that doesn’t mean they are the <em>same</em>....",
   "link": "/hackingwithswift.com/example-code/uikit/whats-the-difference-between-frame-and-bounds.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"

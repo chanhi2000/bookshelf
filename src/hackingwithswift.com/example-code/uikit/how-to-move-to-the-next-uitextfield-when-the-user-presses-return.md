@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 If you’re in a situation where your iOS app has multiple `UITextField` instances lined up, users expect to be able to move between them by pressing Next/Return on their on-screen keyboard. There is no built-in way of making this happen, so we need to write code ourselves using one of several approaches.
 
-The easiest approach is using view tags: give your text fields incrementing tag numbers, then make them all point to a common delegate – it might be your view controller, but it doesn’t need to be. 
+The easiest approach is using view tags: give your text fields incrementing tag numbers, then make them all point to a common delegate - it might be your view controller, but it doesn’t need to be. 
 
 Once that’s done you can use the `becomeFirstResponder()` and `resignFirstResponder()` methods to manipulate which view is in control like this:
 

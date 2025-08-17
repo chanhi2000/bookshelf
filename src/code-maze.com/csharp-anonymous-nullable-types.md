@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Intermediate – Anonymous and Nullable Types"
-description: "Article(s) > C# Intermediate – Anonymous and Nullable Types"
+title: "C# Intermediate - Anonymous and Nullable Types"
+description: "Article(s) > C# Intermediate - Anonymous and Nullable Types"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Intermediate – Anonymous and Nullable Types"
+      content: "Article(s) > C# Intermediate - Anonymous and Nullable Types"
     - property: og:description
-      content: "C# Intermediate – Anonymous and Nullable Types"
+      content: "C# Intermediate - Anonymous and Nullable Types"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-anonymous-nullable-types.html
 prev: /programming/cs/articles/README.md
@@ -48,7 +48,7 @@ cover: /assets/image/code-maze.com/csharp-anonymous-nullable-types/banner.png
 ---
 
 <SiteInfo
-  name="C# Intermediate – Anonymous and Nullable Types"
+  name="C# Intermediate - Anonymous and Nullable Types"
   desc="In this article, you will learn about Anonymous and Nullable types in C#. We are going to show how to use anonymous classes and nullable type properteis."
   url="https://code-maze.com/csharp-anonymous-nullable-types"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -191,7 +191,7 @@ In the next article, we are going to talk about [**Structures in C#**](/code-maz
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Intermediate – Anonymous and Nullable Types",
+  "title": "C# Intermediate - Anonymous and Nullable Types",
   "desc": "In this article, you will learn about Anonymous and Nullable types in C#. We are going to show how to use anonymous classes and nullable type properteis.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-anonymous-nullable-types.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

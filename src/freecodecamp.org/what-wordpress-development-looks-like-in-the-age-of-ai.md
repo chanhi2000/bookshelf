@@ -93,7 +93,7 @@ This saves hours of time. You don’t have to install the same plugins or write 
 
 Even better, AI can continue helping after the site is live. It can improve SEO, fix design problems, suggest better headlines, and more. Site owners can talk to a built-in assistant that helps them make updates just by typing what they want.
 
-This changes the job of a WordPress developer. But doesn’t remove the need for developers – it makes them more powerful. Now they can spend their time solving real problems instead of doing the same setup tasks again and again.
+This changes the job of a WordPress developer. But doesn’t remove the need for developers - it makes them more powerful. Now they can spend their time solving real problems instead of doing the same setup tasks again and again.
 
 ---
 

@@ -61,14 +61,14 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744839185611/b3e49ef
 
 <SiteInfo
   name="A Developer's Guide to Protecting Personal Data: Best Practices and Tools"
-  desc="Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information – gone. You can't help but cringe as a developer at the prospect. Cou..."
+  desc="Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information - gone. You can't help but cringe as a developer at the prospect. Cou..."
   url="https://freecodecamp.org/news/developers-guide-to-protecting-personal-data"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744839185611/b3e49efc-6eee-4a0b-9522-20407b1782e3.png"/>
 
-Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information – gone. You can't help but cringe as a developer at the prospect. Could it happen on your watch?
+Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information - gone. You can't help but cringe as a developer at the prospect. Could it happen on your watch?
 
-The reality is, keeping personal data safe isn't something you should be doing because it's good practice – it's something you have to do. Users are trusting developers to care for their data day in and day out, and power must be wielded wisely. If you're writing code that involves getting, processing, or storing someone's personal data, then you should be being proactive about keeping it safe.
+The reality is, keeping personal data safe isn't something you should be doing because it's good practice - it's something you have to do. Users are trusting developers to care for their data day in and day out, and power must be wielded wisely. If you're writing code that involves getting, processing, or storing someone's personal data, then you should be being proactive about keeping it safe.
 
 So the question is: how do you safely keep personal data?
 
@@ -268,7 +268,7 @@ So the next time you're scanning the headlines for news of the latest ginormous 
 ```component VPCard
 {
   "title": "A Developer's Guide to Protecting Personal Data: Best Practices and Tools",
-  "desc": "Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information – gone. You can't help but cringe as a developer at the prospect. Cou...",
+  "desc": "Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information - gone. You can't help but cringe as a developer at the prospect. Cou...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/developers-guide-to-protecting-personal-data.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

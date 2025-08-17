@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: C# Design Patterns – Strategy Design Pattern
-description: Article(s) > C# Design Patterns – Strategy Design Pattern
+title: C# Design Patterns - Strategy Design Pattern
+description: Article(s) > C# Design Patterns - Strategy Design Pattern
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > C# Design Patterns – Strategy Design Pattern
+      content: Article(s) > C# Design Patterns - Strategy Design Pattern
     - property: og:description
-      content: C# Design Patterns – Strategy Design Pattern
+      content: C# Design Patterns - Strategy Design Pattern
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/strategy.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/strategy/banner.png
 ---
 
 <SiteInfo
-  name="C# Design Patterns – Strategy Design Pattern"
+  name="C# Design Patterns - Strategy Design Pattern"
   desc="In this article, we are going to learn what is Strategy design pattern, how to use it in our code and when to use it as well."
   url="https://code-maze.com/strategy/"
   logo="/assets/image/code-maze.com/favicon.png"

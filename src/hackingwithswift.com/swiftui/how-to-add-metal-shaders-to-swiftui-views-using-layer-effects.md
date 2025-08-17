@@ -54,7 +54,7 @@ head:
 
 **Improved in iOS 18**
 
-SwiftUI provides extensive integration with Metal shaders, right at the very view level – we can manipulate colors, shapes, and more with remarkable performance.
+SwiftUI provides extensive integration with Metal shaders, right at the very view level - we can manipulate colors, shapes, and more with remarkable performance.
 
 Trying this out takes three steps:
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,13 +59,13 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Core Image has a number of interesting filters baked in, and an easy one to use is `CIPixellate` – it pixellates images, making them appear blocky. You have control over how big each pixel block should be, so it’s suitable for a range of tasks.
+Core Image has a number of interesting filters baked in, and an easy one to use is `CIPixellate` - it pixellates images, making them appear blocky. You have control over how big each pixel block should be, so it’s suitable for a range of tasks.
 
 Below is some sample code to get you started. To use it you should:
 
 1. Change `yourUIImage` to be whatever input `UIImage` you want to use.
 <li>Change the value of 12 for however strong your pixellation effect should be.
-<li>Change the `print(processedImage.size)` line at the end for something more interesting – maybe you want to display the pixellated image somewhere?
+<li>Change the `print(processedImage.size)` line at the end for something more interesting - maybe you want to display the pixellated image somewhere?
 
 Here’s the code:
 

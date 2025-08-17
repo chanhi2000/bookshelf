@@ -56,7 +56,7 @@ head:
 
 SwiftUI's toggle lets users move between true and false states, just like `UISwitch` in UIKit.
 
-For example, we could create a toggle that either shows a message or not depending on whether the toggle is enabled or not, but of course we *don't* want to have to track the state of the toggle by hand – we want SwiftUI to do that for us.
+For example, we could create a toggle that either shows a message or not depending on whether the toggle is enabled or not, but of course we *don't* want to have to track the state of the toggle by hand - we want SwiftUI to do that for us.
 
 Instead we should define a `@State` Boolean property that will be used to store the current value of our toggle. We can then use that to show or hide other views as needed.
 
@@ -82,7 +82,7 @@ struct ContentView: View {
 
 ![The words “Show welcome message” beside a green toggle which is turned on. Below is the text “Hello World!”.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-toggle-switch-1~dark.png)
 
-I've made that code so that a text view is returned only when `showGreeting` is true, which means the `VStack` will decrease in size when `showGreeting` is false – it doesn't have a second view in its stack.
+I've made that code so that a text view is returned only when `showGreeting` is true, which means the `VStack` will decrease in size when `showGreeting` is false - it doesn't have a second view in its stack.
 
 ![The words “Show welcome message” beside a green toggle which is turned off. Below is nothing.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-a-toggle-switch-2~dark.png)
 

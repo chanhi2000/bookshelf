@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples"
-description: "Article(s) > REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples"
+title: "REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
+description: "Article(s) > REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
 icon: iconfont icon-api
 category:
   - API
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples"
+      content: "Article(s) > REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
     - property: og:description
-      content: "REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples"
+      content: "REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html
 prev: /explore/api/articles/README.md
@@ -42,7 +42,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9b84740569d1a4ca2c3f.jpg
 ---
 
 <SiteInfo
-  name="REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples"
+  name="REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
   desc="By Vaibhav Kandwal Ever wondered how login/signup on a website works on the back-end? Or how when you search for ”cute kitties” on YouTube, you get a bunch of results and are able to stream off of a remote machine? In this beginner friendly guide, I ..."
   url="https://freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -117,7 +117,7 @@ Alright, so now we know that data can be requested by the client and the server 
 
 ---
 
-## Enough with the details – show me the code
+## Enough with the details - show me the code
 
 Let's begin coding a REST Service in Node. We will be implementing all the things we learnt above. We will also be using ES6+ to write our service in.
 
@@ -508,7 +508,7 @@ I hope you have learned something from this. If you have any questions, feel fre
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "REST API Tutorial – REST Client, REST Service, and API Calls Explained With Code Examples",
+  "title": "REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples",
   "desc": "By Vaibhav Kandwal Ever wondered how login/signup on a website works on the back-end? Or how when you search for ”cute kitties” on YouTube, you get a bunch of results and are able to stream off of a remote machine? In this beginner friendly guide, I ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

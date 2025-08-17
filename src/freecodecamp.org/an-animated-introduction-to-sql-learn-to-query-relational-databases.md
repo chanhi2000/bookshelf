@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "An Animated Introduction to SQL – Learn to Query Relational Databases"
-description: "Article(s) > An Animated Introduction to SQL – Learn to Query Relational Databases"
+title: "An Animated Introduction to SQL - Learn to Query Relational Databases"
+description: "Article(s) > An Animated Introduction to SQL - Learn to Query Relational Databases"
 icon: fas fa-database
 category:
   - Data Science
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > An Animated Introduction to SQL – Learn to Query Relational Databases"
+      content: "Article(s) > An Animated Introduction to SQL - Learn to Query Relational Databases"
     - property: og:description
-      content: "An Animated Introduction to SQL – Learn to Query Relational Databases"
+      content: "An Animated Introduction to SQL - Learn to Query Relational Databases"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-sql-learn-to-query-relational-databases.html
 prev: /data-science/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744818155429/10b1695
 ---
 
 <SiteInfo
-  name="An Animated Introduction to SQL – Learn to Query Relational Databases"
+  name="An Animated Introduction to SQL - Learn to Query Relational Databases"
   desc="In this tutorial, you’ll learn about the Structured Query Language (SQL), the standard language used to query relational databases. SQL is not a traditional programming language. In Python or Java, you write step-by-step instructions that tell the co..."
   url="https://freecodecamp.org/news/an-animated-introduction-to-sql-learn-to-query-relational-databases"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -282,7 +282,7 @@ Group rows and calculate summary values using aggregate functions like `COUNT`, 
 
 https://playbackpress.com/books/sqlbook/chapter/2/9
 
-Learn how to use nested queries – queries inside other queries – to build more flexible logic. This playback also shows how to write cleaner queries using Common Table Expressions (CTEs).
+Learn how to use nested queries - queries inside other queries - to build more flexible logic. This playback also shows how to write cleaner queries using Common Table Expressions (CTEs).
 
 ### `UNION`, `INTERSECT`, `EXCEPT`
 
@@ -661,7 +661,7 @@ Comments and feedback are welcome anytime: [<FontIcon icon="fas fa-envelope"/>`m
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "An Animated Introduction to SQL – Learn to Query Relational Databases",
+  "title": "An Animated Introduction to SQL - Learn to Query Relational Databases",
   "desc": "In this tutorial, you’ll learn about the Structured Query Language (SQL), the standard language used to query relational databases. SQL is not a traditional programming language. In Python or Java, you write step-by-step instructions that tell the co...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-sql-learn-to-query-relational-databases.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

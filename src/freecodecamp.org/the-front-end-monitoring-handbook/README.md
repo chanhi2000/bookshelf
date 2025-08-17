@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748915696356/6e6edee
 
 A complete frontend monitoring system is essential for tracking application performance, errors, and user behavior. It consists of three main components: data collection and reporting, data processing and storage, and data visualization.
 
-This article focuses specifically on the first component – data collection and reporting – and shows you how to build a monitoring SDK from scratch. By the end of this article, you'll understand how to gather critical metrics about your application's performance, capture errors, track user behavior, and implement efficient reporting mechanisms.
+This article focuses specifically on the first component - data collection and reporting - and shows you how to build a monitoring SDK from scratch. By the end of this article, you'll understand how to gather critical metrics about your application's performance, capture errors, track user behavior, and implement efficient reporting mechanisms.
 
 Below is an outline of the topics we'll cover:
 
@@ -150,10 +150,10 @@ Monitoring performance is crucial for providing users with a smooth, responsive 
 
 The Chrome developer team has proposed a series of metrics to monitor page performance, each measuring a different aspect of the user experience:
 
-- **FP (First Paint)** – Time from when the page starts loading until the first pixel is painted on the screen (essentially the white screen time)
-- **FCP (First Contentful Paint)** – Time from page load start until any part of page content is rendered
-- **LCP (Largest Contentful Paint)** – Time from page load start until the largest text block or image element completes rendering
-- **CLS (Cumulative Layout Shift)** – Cumulative score of all unexpected layout shifts occurring between page load start and when the [<FontIcon icon="fa-brands fa-chrome"/>page's lifecycle state](https://developer.chrome.com/docs/web-platform/page-lifecycle-api) becomes hidden
+- **FP (First Paint)** - Time from when the page starts loading until the first pixel is painted on the screen (essentially the white screen time)
+- **FCP (First Contentful Paint)** - Time from page load start until any part of page content is rendered
+- **LCP (Largest Contentful Paint)** - Time from page load start until the largest text block or image element completes rendering
+- **CLS (Cumulative Layout Shift)** - Cumulative score of all unexpected layout shifts occurring between page load start and when the [<FontIcon icon="fa-brands fa-chrome"/>page's lifecycle state](https://developer.chrome.com/docs/web-platform/page-lifecycle-api) becomes hidden
 
 We can obtain these four performance metrics through [<FontIcon icon="fa-brands fa-firefox"/>`PerformanceObserver`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver) (they can also be retrieved via `performance.getEntriesByName()`, but this method doesn't provide real-time notifications when events occur). PerformanceObserver is a performance monitoring interface used to observe performance measurement events.
 
@@ -697,7 +697,7 @@ For fetch requests, we can determine success by checking the `ok` field in the r
 
 ::: note
 
-The API request timing we monitor may differ from what's shown in Chrome DevTools. This is because Chrome DevTools shows the time for the entire HTTP request and interface process. But XHR and fetch are asynchronous requests – after the interface request succeeds, the callback function needs to be called. When the event triggers, the callback function is placed in the message queue, and then the browser processes it. There's also a waiting period in between.
+The API request timing we monitor may differ from what's shown in Chrome DevTools. This is because Chrome DevTools shows the time for the entire HTTP request and interface process. But XHR and fetch are asynchronous requests - after the interface request succeeds, the callback function needs to be called. When the event triggers, the callback function is placed in the message queue, and then the browser processes it. There's also a waiting period in between.
 
 :::
 
@@ -746,7 +746,7 @@ If it doesn't meet the above conditions, it means the cache was not hit. Then we
 
 ### Browser Back/Forward Cache (BFC)
 
-BFC is a memory cache that saves the entire page in memory. When users navigate back, they can see the entire page immediately without refreshing. According to the article [<FontIcon icon="iconfont icon-webdev"/>bfcache](https://web.dev/bfcache/), Firefox and Safari have always supported BFC, while Chrome only supports it in high-version mobile browsers. But when I tested it, only Safari supported it – my Firefox version might have been different.
+BFC is a memory cache that saves the entire page in memory. When users navigate back, they can see the entire page immediately without refreshing. According to the article [<FontIcon icon="iconfont icon-webdev"/>bfcache](https://web.dev/bfcache/), Firefox and Safari have always supported BFC, while Chrome only supports it in high-version mobile browsers. But when I tested it, only Safari supported it - my Firefox version might have been different.
 
 Still, BFC also has drawbacks. When users navigate back and restore the page from BFC, the original page's code won't execute again. For this reason, browsers provide a `pageshow` event where we can put code that needs to be executed again.
 
@@ -780,7 +780,7 @@ onBFCacheRestore((event) => {
 });
 ```
 
-The code above is easy to understand. After the `pageshow` event triggers, we subtract the event timestamp from the current time – this time difference is the rendering time of the performance metrics.
+The code above is easy to understand. After the `pageshow` event triggers, we subtract the event timestamp from the current time - this time difference is the rendering time of the performance metrics.
 
 ::: note
 
@@ -913,7 +913,7 @@ export default function onVueRouter(Vue, router) {
 
 The code logic is as follows:
 
-1. Monitor route hooks – when route changes occur, the `router.beforeEach()` hook triggers. In this hook's callback function, record the current time as the rendering start time.
+1. Monitor route hooks - when route changes occur, the `router.beforeEach()` hook triggers. In this hook's callback function, record the current time as the rendering start time.
 2. Use `Vue.mixin()` to inject a function into all components' `mounted()` hooks. Each function executes a debounced function.
 3. When the last component's `mounted()` triggers, it means all components under this route have been mounted. We can get the rendering time in the `this.$nextTick()` callback function.
 
@@ -1094,7 +1094,7 @@ The image above shows an example of code error restoration. Since this part does
 
 ### Vue Errors
 
-Using `window.onerror` cannot capture Vue errors – we need to use Vue's provided API for monitoring.
+Using `window.onerror` cannot capture Vue errors - we need to use Vue's provided API for monitoring.
 
 ```js
 Vue.config.errorHandler = (err, vm, info) => {
@@ -1421,10 +1421,10 @@ Once you've collected performance, error, and behavior data, you need a reliable
 
 Effective data reporting must balance several concerns:
 
-1. **Reliability** – Ensuring data is successfully transmitted, especially critical errors
-2. **Performance** – Minimizing impact on the user experience and application performance
-3. **Timing** – Deciding when to send data to avoid interference with user interactions
-4. **Bandwidth** – Managing the amount of data transmitted to reduce network usage
+1. **Reliability** - Ensuring data is successfully transmitted, especially critical errors
+2. **Performance** - Minimizing impact on the user experience and application performance
+3. **Timing** - Deciding when to send data to avoid interference with user interactions
+4. **Bandwidth** - Managing the amount of data transmitted to reduce network usage
     
 
 Let's explore the various methods and strategies for implementing efficient data reporting.
@@ -1444,7 +1444,7 @@ My simple SDK uses a combination of the first and second methods for reporting. 
 
 For browsers that don't support sendBeacon, we can use XMLHttpRequest for reporting. An HTTP request consists of sending and receiving two steps.
 
-Actually, for reporting, we just need to ensure the data can be sent – we don't need to receive the response. For this reason, I did an experiment where I sent 30kb of data (generally reported data rarely exceeds this size) using XMLHttpRequest in beforeunload, tested with different browsers, and all were able to send successfully. Of course, this also depends on hardware performance and network conditions.
+Actually, for reporting, we just need to ensure the data can be sent - we don't need to receive the response. For this reason, I did an experiment where I sent 30kb of data (generally reported data rarely exceeds this size) using XMLHttpRequest in beforeunload, tested with different browsers, and all were able to send successfully. Of course, this also depends on hardware performance and network conditions.
 
 Here's a sample implementation of a reporting function that uses both methods:
 

@@ -132,7 +132,7 @@ I asked a bunch of designers what they thought needed to change in CSS.
 
 #### [](#aa-designer-developer-of-mint-home)Designer/Developer of [Mint](http://haveamint.com/), [Home](http://www.shauninman.com/)
 
-> Here’s the thing, one more half-baked, tacked-on stopgap isn’t going to improve CSS in any meaningful way–it would only compound a fundamental flaw in its design. CSS feels like a style sheet implementation you’d find in a late 90’s desktop publishing app. It’s still very text-centric. Style sheets just weren’t designed for creating complex layouts. CSS’s layout features are tacked on–and 10 years later it definitely shows.
+> Here’s the thing, one more half-baked, tacked-on stopgap isn’t going to improve CSS in any meaningful way-it would only compound a fundamental flaw in its design. CSS feels like a style sheet implementation you’d find in a late 90’s desktop publishing app. It’s still very text-centric. Style sheets just weren’t designed for creating complex layouts. CSS’s layout features are tacked on-and 10 years later it definitely shows.
 > 
 > I’d love to see the CSS Text Module rewritten by experienced typographers and typesetters and the CSS Layout Module rewritten by experienced publication designers, both traditional and newfangled.
 > 
@@ -178,7 +178,7 @@ I asked a bunch of designers what they thought needed to change in CSS.
 
 #### [](#aa-designer-at-spoongraphics-home)Designer at [SpoonGraphics](http://www.spoongraphics.co.uk/), [Home](http://www.chrisspooner.com/)
 
-> Multiple Backgrounds, Rounded Corners, Border Images and Opacity are my first thoughts when asked what I wish CSS could do, then I remember – these are all in the pipeline for CSS3! In this case, my dreams are coming true in terms of CSS, which makes the question; Is there anything you wish Browsers could do?!
+> Multiple Backgrounds, Rounded Corners, Border Images and Opacity are my first thoughts when asked what I wish CSS could do, then I remember - these are all in the pipeline for CSS3! In this case, my dreams are coming true in terms of CSS, which makes the question; Is there anything you wish Browsers could do?!
 > 
 > One CSS technique I wish there was a shorter technique for would be to easily make a two or three column layout with equal height sidebars without the use of the faux column method.
 
@@ -194,7 +194,7 @@ I asked a bunch of designers what they thought needed to change in CSS.
 
 ### [](#aa-nick-la)Nick La
 
-#### [](#aa-designer-web-designer-wall-n-design-studio)Designer – [Web Designer Wall](http://www.webdesignerwall.com/), [N.Design Studio](http://www.ndesign-studio.com/)
+#### [](#aa-designer-web-designer-wall-n-design-studio)Designer - [Web Designer Wall](http://www.webdesignerwall.com/), [N.Design Studio](http://www.ndesign-studio.com/)
 
 > I wish CSS could do layer styles like Photoshop where you can add: inner shadow, outer glow, bevel effects, etc. It would be even better if we could have layer blending mode.
 
@@ -210,7 +210,7 @@ I asked a bunch of designers what they thought needed to change in CSS.
 
 ### [](#aa-volkan-gorgulu)Volkan Görgülü
 
-#### [](#aa-designer-developer-web-deneyimleri)Designer / Developer – [Web Deneyimleri](http://webdeneyimleri.donanimhaber.com/)
+#### [](#aa-designer-developer-web-deneyimleri)Designer / Developer - [Web Deneyimleri](http://webdeneyimleri.donanimhaber.com/)
 
 > I wish instead of writing
 > 

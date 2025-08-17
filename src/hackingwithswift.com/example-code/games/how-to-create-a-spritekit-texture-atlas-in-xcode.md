@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,11 +59,11 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-A SpriteKit texture atlas is actually just a folder with the extension .atlas, but it's more efficient than loading textures individually because multiple images are stored in a single file and thus can be loaded faster. Even better, you don't need to worry about how they are placed or even orientation – you just use them as normal, and SpriteKit does the rest.
+A SpriteKit texture atlas is actually just a folder with the extension .atlas, but it's more efficient than loading textures individually because multiple images are stored in a single file and thus can be loaded faster. Even better, you don't need to worry about how they are placed or even orientation - you just use them as normal, and SpriteKit does the rest.
 
 In Finder, go into your project directory (where your .swift files are), then create a new folder called assets.atlas. Now go to where you have your SpriteKit assets stored and drag them from there into your assets.atlas directory. Finally, drag your assets.atlas directory into your Xcode project so that it gets added to the build.
 
-That's it – enjoy your efficiency improvements!
+That's it - enjoy your efficiency improvements!
 
 -->
 

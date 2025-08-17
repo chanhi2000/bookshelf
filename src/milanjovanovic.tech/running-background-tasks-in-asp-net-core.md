@@ -183,7 +183,7 @@ Here are two popular solutions for running **background tasks** that I worked wi
   preview="https://www.quartz-scheduler.net/quartz-logo-large.png"/>
 
 <SiteInfo
-  name="Hangfire – Background jobs and workers for .NET and .NET Core"
+  name="Hangfire - Background jobs and workers for .NET and .NET Core"
   desc="An easy way to perform background processing in .NET and .NET Core applications. No Windows Service or separate process required."
   url="https://hangfire.io/"
   logo="https://www.hangfire.io/apple-touch-icon.png"

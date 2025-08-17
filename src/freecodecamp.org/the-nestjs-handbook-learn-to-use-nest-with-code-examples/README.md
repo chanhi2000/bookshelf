@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "The NestJS Handbook – Learn to Use Nest with Code Examples"
-description: "Article(s) > The NestJS Handbook – Learn to Use Nest with Code Examples"
+title: "The NestJS Handbook - Learn to Use Nest with Code Examples"
+description: "Article(s) > The NestJS Handbook - Learn to Use Nest with Code Examples"
 icon: iconfont icon-nestjs
 category:
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > The NestJS Handbook – Learn to Use Nest with Code Examples"
+      content: "Article(s) > The NestJS Handbook - Learn to Use Nest with Code Examples"
     - property: og:description
-      content: "The NestJS Handbook – Learn to Use Nest with Code Examples"
+      content: "The NestJS Handbook - Learn to Use Nest with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nestjs-handbook-learn-to-use-nest-with-code-examples/
 prev: /programming/js-nest/articles/README.md
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749830137752/799b050
 ---
 
 <SiteInfo
-  name="The NestJS Handbook – Learn to Use Nest with Code Examples"
+  name="The NestJS Handbook - Learn to Use Nest with Code Examples"
   desc="NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Combining the best ideas from OOP (Object-Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming)..."
   url="https://freecodecamp.org/news/the-nestjs-handbook-learn-to-use-nest-with-code-examples"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -60,7 +60,7 @@ NestJS is a progressive Node.js framework for building efficient, reliable, and 
 
 If you’re coming from Angular, you’ll feel right at home with its module/controller/service structure and powerful dependency-injection system.
 
-In this article we’ll cover both **theory** – why NestJS exists, how it’s structured, and when to reach for it –and **practice**, with bite-sized code snippets demonstrating how to bootstrap a project, define routes, inject dependencies, and more. Let’s start by understanding what NestJS is and where it came from.
+In this article we’ll cover both **theory** - why NestJS exists, how it’s structured, and when to reach for it -and **practice**, with bite-sized code snippets demonstrating how to bootstrap a project, define routes, inject dependencies, and more. Let’s start by understanding what NestJS is and where it came from.
 
 (1/13) [What is NestJS?](#heading-1-what-is-nestjs)
 (2/13) [Why Choose NestJS?](#heading-2-why-choose-nestjs)
@@ -170,7 +170,7 @@ With that foundation laid, in the next section we’ll explore **why you’d cho
 
 ## 2. Why Choose NestJS?
 
-NestJS isn’t just another Node.js framework – it brings a structured, enterprise-grade approach to building backend services. In this section we’ll cover benefits and real-world use cases, then compare NestJS to other popular Node frameworks so you can see where it fits best.
+NestJS isn’t just another Node.js framework - it brings a structured, enterprise-grade approach to building backend services. In this section we’ll cover benefits and real-world use cases, then compare NestJS to other popular Node frameworks so you can see where it fits best.
 
 ### 2.1 Benefits and Use Cases
 
@@ -396,7 +396,7 @@ export class AppService {
 }
 ```
 
-With this scaffold in place, you have a minimal – but fully functional – NestJS application. From here, you can generate new modules, controllers, and services:
+With this scaffold in place, you have a minimal - but fully functional - NestJS application. From here, you can generate new modules, controllers, and services:
 
 ```sh
 # Generate a new module, controller, and service for "tasks"
@@ -415,7 +415,7 @@ At the heart of every NestJS application are three pillars: **Modules**, **Contr
 
 ### 4.1 Modules
 
-A **Module** is a logical boundary – a container that groups related components (controllers, providers, and even other modules). Every NestJS app has at least one root module (usually `AppModule`), and you create feature modules (`UsersModule`, `AuthModule`, and so on) to organize code by domain.
+A **Module** is a logical boundary - a container that groups related components (controllers, providers, and even other modules). Every NestJS app has at least one root module (usually `AppModule`), and you create feature modules (`UsersModule`, `AuthModule`, and so on) to organize code by domain.
 
 #### `@Module()` Decorator
 
@@ -456,7 +456,7 @@ Now anything that injects `CatsService` will resolve to the one defined inside `
 
 ### 4.2 Controllers
 
-A **Controller** maps incoming HTTP requests to handler methods. It’s responsible for extracting request data (query parameters, body, headers) and returning a response. Controllers should remain thin – delegating business logic to providers.
+A **Controller** maps incoming HTTP requests to handler methods. It’s responsible for extracting request data (query parameters, body, headers) and returning a response. Controllers should remain thin - delegating business logic to providers.
 
 - **`@Controller(path?)`**: Defines a route prefix
 - **`@Get`, `@Post`, `@Put`, `@Delete`, and so on**: Define method-level routes
@@ -576,7 +576,7 @@ export class SomeService {
 
 :::
 
-With modules wiring up controllers and providers, NestJS gives you a scalable, testable foundation. In the next section, we’ll explore **Dependency Injection** in depth – how it works under the hood and how to create custom providers and factory-based injections.
+With modules wiring up controllers and providers, NestJS gives you a scalable, testable foundation. In the next section, we’ll explore **Dependency Injection** in depth - how it works under the hood and how to create custom providers and factory-based injections.
 
 ---
 
@@ -722,7 +722,7 @@ export class UsersService {
 }
 ```
 
-With custom providers and the factory pattern, you can integrate external libraries, toggle implementations, or perform async setup – all while retaining the clear, testable structure NestJS provides.
+With custom providers and the factory pattern, you can integrate external libraries, toggle implementations, or perform async setup - all while retaining the clear, testable structure NestJS provides.
 
 In the next section we’ll look at **Routing and Middleware**, showing how to define route handlers, apply global or per-route middleware, and extend your HTTP pipeline.
 
@@ -859,7 +859,7 @@ With routing and middleware set up, you have full control over how requests flow
 
 ## 7. Request Lifecycle & Pipes
 
-NestJS processes each incoming request through a defined “lifecycle” of steps – routing to the correct handler, applying **pipes**, **guards**, **interceptors**, and finally invoking your controller method. **Pipes** sit between the incoming request and your handler, transforming or validating data before it reaches your business logic.
+NestJS processes each incoming request through a defined “lifecycle” of steps - routing to the correct handler, applying **pipes**, **guards**, **interceptors**, and finally invoking your controller method. **Pipes** sit between the incoming request and your handler, transforming or validating data before it reaches your business logic.
 
 ### 7.1 What Are Pipes?
 
@@ -1056,7 +1056,7 @@ getAdminData() { /* ... */ }
 
 ### 8.2 Role-Based Access Control
 
-Beyond plain authentication, you often need **authorization** – ensuring a user has the correct role or permission. You can build a guard that reads metadata (for example, required roles) and verifies user claims.
+Beyond plain authentication, you often need **authorization** - ensuring a user has the correct role or permission. You can build a guard that reads metadata (for example, required roles) and verifies user claims.
 
 **Here’s how it works:**
 
@@ -1114,7 +1114,7 @@ With this setup:
 - `AuthGuard` ensures the request is authenticated and populates `req.user`.
 - `RolesGuard` reads the `@Roles()` metadata to enforce role-based access.
 
-Guards give you a powerful, declarative way to enforce security and authorization policies. In the next section, we’ll cover **Exception Filters** – how to catch and format errors centrally, keeping your controllers clean.
+Guards give you a powerful, declarative way to enforce security and authorization policies. In the next section, we’ll cover **Exception Filters** - how to catch and format errors centrally, keeping your controllers clean.
 
 ---
 
@@ -1622,7 +1622,7 @@ In many real-world applications, persisting data is essential. NestJS offers fir
 - **Mongoose (MongoDB)** (NoSQL document store)
 - **Prisma** (Type-safe query builder/ORM alternative)
 
-For each, we’ll explain the theory – when and why to choose it – and show concise practical examples of setup and usage in a NestJS context.
+For each, we’ll explain the theory - when and why to choose it - and show concise practical examples of setup and usage in a NestJS context.
 
 ### 11.1 TypeORM with NestJS
 
@@ -2224,7 +2224,7 @@ With these three approaches, you can choose the database integration strategy th
 - **Mongoose** for flexible document schemas in MongoDB.
 - **Prisma** for a modern, type-safe query builder/ORM alternative with excellent developer ergonomics.
 
-In the next section, we’ll cover **Configuration Management** – how to handle environment variables and config modules in NestJS.
+In the next section, we’ll cover **Configuration Management** - how to handle environment variables and config modules in NestJS.
 
 ---
 
@@ -2282,7 +2282,7 @@ export class AppModule {}
 
 - `isGlobal: true` avoids importing `ConfigModule` in every feature module.
 - `envFilePath`: an array lets you try multiple files (for example, local overrides before default).
-- `load`: array of functions returning partial config objects – see next step.
+- `load`: array of functions returning partial config objects - see next step.
 - `validationSchema`: a Joi schema ensuring required variables exist and are correct type/format.
 
 #### 3. Define a configuration factory
@@ -2442,7 +2442,7 @@ Using `forRootAsync` with `useFactory` ensures config is loaded before the modul
 
 Environment variables serve as the bridge between code and its runtime environment, letting you decouple configuration (like database URLs, API keys, or feature flags) from your source.
 
-By relying on environment variables, you ensure that the same application bundle can run safely across development, staging, and production – each providing its own sensitive or environment-specific settings without changing code. This is how it works:
+By relying on environment variables, you ensure that the same application bundle can run safely across development, staging, and production - each providing its own sensitive or environment-specific settings without changing code. This is how it works:
 
 - **12-Factor app principle**: Stores config in the environment. Avoids hard-coding secrets or environment-specific settings in code.
 - **Separation of concerns**: Code remains the same across environments. Behavior is driven by env vars or config files.
@@ -2753,7 +2753,7 @@ export class ProfileController {
 - Issue a refresh token (longer expiry) and store it (for example, in DB or as HTTP-only cookie).
 - Create a separate endpoint to issue new access token when the access token expires.
 - Verify refresh token validity (for example, compare stored token or a hashed version).
-- Implementation details vary – consider security best practices (rotate tokens, revoke on logout).
+- Implementation details vary - consider security best practices (rotate tokens, revoke on logout).
         
 
 ### 13.2 OAuth2 / Social Login
@@ -2903,7 +2903,7 @@ We’ve walked through key aspects of building a NestJS application: its archite
 
 NestJS provides a structured, TypeScript-first framework that accelerates development of scalable, maintainable backends. By leveraging its module system and built-in integrations, you get consistency, testability, and clear separation of concerns out of the box.
 
-Whether you choose a relational database via TypeORM, a document store with Mongoose, or Prisma’s type-safe client, you can plug these into Nest’s DI container and configuration module. Authentication flows – both JWT-based and social login – fit naturally into Nest’s Passport integration.
+Whether you choose a relational database via TypeORM, a document store with Mongoose, or Prisma’s type-safe client, you can plug these into Nest’s DI container and configuration module. Authentication flows - both JWT-based and social login - fit naturally into Nest’s Passport integration.
 
 Overall, NestJS is well-suited for APIs, microservices, real-time apps, and enterprise backends where maintainability and developer experience matter.
 
@@ -2926,7 +2926,7 @@ Overall, NestJS is well-suited for APIs, microservices, real-time apps, and ente
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "The NestJS Handbook – Learn to Use Nest with Code Examples",
+  "title": "The NestJS Handbook - Learn to Use Nest with Code Examples",
   "desc": "NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Combining the best ideas from OOP (Object-Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming)...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nestjs-handbook-learn-to-use-nest-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

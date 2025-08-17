@@ -46,12 +46,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751998519087/7808c00
 
 <SiteInfo
   name="How to Use Constructors in Java: A Beginner's Guide"
-  desc="Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code – so what about th..."
+  desc="Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code - so what about th..."
   url="https://freecodecamp.org/news/how-to-use-constructors-in-java-a-beginners-guide"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1751998519087/7808c004-c8e5-4e63-b293-10fa479a179f.png"/>
 
-Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code – so what about the back-end? How are objects created and initialised with values?
+Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code - so what about the back-end? How are objects created and initialised with values?
 
 This is where constructors come into play. Constructors are special types of methods with no return type. They are basically used to initialise the object, to set up its internal state, or to assign default values to its attributes.
 
@@ -77,7 +77,7 @@ As mentioned above, constructors are special types of methods that:
 
 A constructor’s main purpose is to initialise a newly created object, to set up its internal state, or to assign default values to its attributes.
 
-Constructors can also be understood as a special block of code which is called when an object is created – either automatically or manually by hard-coding it – with the values we want to initialise the object with.
+Constructors can also be understood as a special block of code which is called when an object is created - either automatically or manually by hard-coding it - with the values we want to initialise the object with.
 
 If we’re okay with the object using default values (like 0 for numbers or null for objects), Java will handle that for us automatically. But if we want to give the object specific values when it's created, we need to write a constructor that takes those values as parameters and uses them to set up the object.
 
@@ -162,7 +162,7 @@ public class Main {
 
 This is the same code as before, with one key difference: this time, we’ve explicitly defined a constructor. Because of this, the output we see isn’t the default values (`null` for `String`, `0` for `int`), but the custom values we provided.
 
-How does that happen? Simple – we pass values as arguments when creating the object:
+How does that happen? Simple - we pass values as arguments when creating the object:
 
 ```java
 Car car2 = new Car("Toyota", 2022);
@@ -255,7 +255,7 @@ In short, if the compiler is the one that is adding a constructor during the com
 
 The main difference between a default constructor and a user-defined constructor is **how they are created and what they do**.
 
-- A **default constructor** is automatically added by the compiler **if we don’t add one ourselves**. It doesn’t do much – it just calls the parent class (usually the `Object class`) and sets all variables to their default values. For example, `int` becomes `0`and objects become `null`.
+- A **default constructor** is automatically added by the compiler **if we don’t add one ourselves**. It doesn’t do much - it just calls the parent class (usually the `Object class`) and sets all variables to their default values. For example, `int` becomes `0`and objects become `null`.
 - A **user-defined constructor** is one that **we write ourselves**. We can add custom logic inside it, set custom values to variables, and use access modifiers like `public`, `private`, or `protected`. This means we can decide how the object should be set up when it is created.
 
 ::: note
@@ -270,7 +270,7 @@ We will understand this deeply in the next section.
 | --- | --- | --- |
 | **Definition** | A constructor is automatically provided by the compiler when no other constructors exist. | A constructor explicitly written by the programmer that takes no arguments. |
 | **Defined By** | Compiler | Programmer |
-| **Custom Logic** | Not possible – does only basic, default initialization | Yes – can contain any initialization logic |
+| **Custom Logic** | Not possible - does only basic, default initialization | Yes - can contain any initialization logic |
 | **When Available** | Only if the class has no constructors defined at all | When explicitly written by the programmer |
 | **Purpose** | To allow object creation with default initialization | To allow object creation with programmer-defined behavior |
 
@@ -486,16 +486,16 @@ On the other hand, copy constructors are clear and easy to understand, and work 
 
 So, just to recap: when we create an object using the `new` keyword, a constructor is automatically called. If we haven't defined any constructors in our class, Java automatically defines a constructor for us.
 
-But while writing and running our code, we mostly focus on what’s visible in our editor, as in what we can see. Let’s dive a little deeper and explore what happens behind the scenes – at the compiler and JVM level – when an object is created and executed.
+But while writing and running our code, we mostly focus on what’s visible in our editor, as in what we can see. Let’s dive a little deeper and explore what happens behind the scenes - at the compiler and JVM level - when an object is created and executed.
 
-- **Step 1: Memory Allocation** – When we create an object using a new keyword, Java allocates memory for that object in the heap. This memory is where the object’s fields (also called attributes) will be placed.
-- **Step 2: Reference Creation** – A reference to this object is stored on the stack, which lets our program interact with the object that lives in the heap.
-- **Step 3: Constructor Creation** – Java then determines which constructor to call. If no constructor is explicitly defined in our class, the compiler automatically inserts a constructor with no parameters.
-- **Step 4: Superclass Constructor Call** – Before executing the constructor’s body, Java first calls the constructor of the superclass using the `super()` keyword. This ensures that the fields inherited from the parent class are properly initialised. If you don’t explicitly write `super()`, the compiler adds it automatically in the first line of the code, but only if the superclass has a no-argument constructor, unless we're already calling another constructor via `this()`.
+- **Step 1: Memory Allocation** - When we create an object using a new keyword, Java allocates memory for that object in the heap. This memory is where the object’s fields (also called attributes) will be placed.
+- **Step 2: Reference Creation** - A reference to this object is stored on the stack, which lets our program interact with the object that lives in the heap.
+- **Step 3: Constructor Creation** - Java then determines which constructor to call. If no constructor is explicitly defined in our class, the compiler automatically inserts a constructor with no parameters.
+- **Step 4: Superclass Constructor Call** - Before executing the constructor’s body, Java first calls the constructor of the superclass using the `super()` keyword. This ensures that the fields inherited from the parent class are properly initialised. If you don’t explicitly write `super()`, the compiler adds it automatically in the first line of the code, but only if the superclass has a no-argument constructor, unless we're already calling another constructor via `this()`.
 
 But don’t use both the `super()` and `this()` keywords in the same constructor (you can use them in separate constructors.
 
-Let’s say that it doesn’t have a super class – then what?
+Let’s say that it doesn’t have a super class - then what?
 
 The answer is simple: Java has an in-built Object class that has a no-argument constructor by default. This is why our classes run smoothly even if we don’t write `super()` ourselves, as Java calls it in the background.
 
@@ -546,7 +546,7 @@ class Example {
 
 ![Output of the code explaining how constructor work.](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfRr6j8-QeGffPm7DYMImJL5s9X-apEGhLzXAv_cNw2CcwONejKxd4-_xKbmdKGSW1w09lt3Pib_psv7RLkd5LJ1uUxd9LSU2KOcDU9kYeqjYbZWS-qUN1PuLbNV8uF0M373kl7Cw?key=-LGNq3k7xufJJBHkVFXMZw)
 
-In the above example, we have three data members – a, b, and name. We have already done the declaration and initialisation of the variable b at the beginning and given a value to a at the time of object creation.
+In the above example, we have three data members - a, b, and name. We have already done the declaration and initialisation of the variable b at the beginning and given a value to a at the time of object creation.
 
 So we can see that:
 
@@ -706,7 +706,7 @@ You can check out some of my other beginner-friendly articles on my blog:
 ```component VPCard
 {
   "title": "How to Use Constructors in Java: A Beginner's Guide",
-  "desc": "Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code – so what about th...",
+  "desc": "Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code - so what about th...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-constructors-in-java-a-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

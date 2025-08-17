@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM"
-description: "Article(s) > How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM"
+title: "How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
+description: "Article(s) > How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
 icon: fa-brands fa-node
 category:
   - Node.js
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM"
+      content: "Article(s) > How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
     - property: og:description
-      content: "How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM"
+      content: "How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-relational-mapping-in-nodejs-with-sequelize-orm.html
 prev: /programming/js-node/articles/README.md
@@ -60,7 +60,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728644693143/667b762
 ---
 
 <SiteInfo
-  name="How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM"
+  name="How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
   desc="Databases play a vital role in the development of applications across mobile and web platforms. Adequate knowledge of data interactions between the application structure and the database is essential for storing relevant application data. Object-rela..."
   url="https://freecodecamp.org/news/object-relational-mapping-in-nodejs-with-sequelize-orm"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -157,7 +157,7 @@ Next, we’ll set up our web application and install Sequelize to connect us to 
 
 In this section you’ll set up our Node server. Navigate to the command line and execute `npm init`. This command creates a new Node project structure for you.
 
-Next, install the Express package – this will serve as the backend framework. You can do this by running the `npm i express` command.
+Next, install the Express package - this will serve as the backend framework. You can do this by running the `npm i express` command.
 
 ---
 
@@ -392,7 +392,7 @@ Feel free to reach out to me on my [<FontIcon icon="fa-brands fa-dev"/>blog](htt
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Object Relational Mapping in Node.js – Optimize Database Interactions With Sequelize ORM",
+  "title": "How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM",
   "desc": "Databases play a vital role in the development of applications across mobile and web platforms. Adequate knowledge of data interactions between the application structure and the database is essential for storing relevant application data. Object-rela...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-relational-mapping-in-nodejs-with-sequelize-orm.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

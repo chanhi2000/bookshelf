@@ -67,7 +67,7 @@ If you prefer a visual guide, here's a video version of this tutorial on my [<Fo
 
 ## What is Prop Drilling?
 
-Prop drilling occurs when a parent component generates its state and passes it down as `props` to its children components that do not consume the props – instead, they only pass it down to another component that finally consumes it.
+Prop drilling occurs when a parent component generates its state and passes it down as `props` to its children components that do not consume the props - instead, they only pass it down to another component that finally consumes it.
 
 Below is an example of prop drilling in React:
 
@@ -185,7 +185,7 @@ Prop drilling doesn't occur out of thin air. It's a consequence of inadequate co
 
 You won't encounter an instance of prop drilling without observing one of the following layout mistakes:
 
-First of all, **grouping static elements and dependent components** together to achieve an appealing UI design is the major cause of prop drilling. You can't avoid prop drilling when your UI groups static elements and dependent components together in a parent. The parent component clearly won't use the `prop`, as everything within it is a static element – except the component that needs a prop.
+First of all, **grouping static elements and dependent components** together to achieve an appealing UI design is the major cause of prop drilling. You can't avoid prop drilling when your UI groups static elements and dependent components together in a parent. The parent component clearly won't use the `prop`, as everything within it is a static element - except the component that needs a prop.
 
 Here's an example:
 
@@ -200,7 +200,7 @@ function Header({ profile }) {
 }
 ```
 
-In this case, static elements `<header>` and `<h1>` are grouped with a dependent component `Content` – and that's why we have prop drilling therein.
+In this case, static elements `<header>` and `<h1>` are grouped with a dependent component `Content` - and that's why we have prop drilling therein.
 
 Provided that the `Content` component is independent or takes no `props`, it won't need `profile` and there won't be prop drilling in the first place. This is why forcing a component that should be independent to take `props` from its parent is a recipe for prop drilling in React.
 
@@ -265,7 +265,7 @@ function App() {
 export default App;
 ```
 
-In this scenario, the context of `App` refers to everything we can see within the `App` component – including the `profile` prop, the `Header`, and other `App` content. Therefore, any data created in the `App` component should ideally be utilized within the `App` component itself, either as its own data or as `props` to its children.
+In this scenario, the context of `App` refers to everything we can see within the `App` component - including the `profile` prop, the `Header`, and other `App` content. Therefore, any data created in the `App` component should ideally be utilized within the `App` component itself, either as its own data or as `props` to its children.
 
 Prop drilling always emerges when the children receiving the `props` doesn't consume it but only passes it down to its children.  
 
@@ -307,7 +307,7 @@ The concept of prop drilling is problem-focused, but prop elongation is solution
 
 ## How to Fix Prop Drilling by Moving State to the Consumer
 
-Prop drilling can also be fixed by moving state to where it is consumed. The example of prop drilling in this article has a component named `Content`. But the component is forced to receive a `prop` from its parent instead of having a state and be an independent component – and so we have prop drilling. 
+Prop drilling can also be fixed by moving state to where it is consumed. The example of prop drilling in this article has a component named `Content`. But the component is forced to receive a `prop` from its parent instead of having a state and be an independent component - and so we have prop drilling. 
 
 We can fix the prop drilling in this case by moving the profile state to where it is consumed.
 
@@ -379,7 +379,7 @@ function Content({ profile }) {
 
 Now that we have lifted the profile to the `Content` component where it is consumed, the `App` component doesn't have a state, while the `Header` component doesn't receive a prop again as the `Content` component has its state.
 
-But wait! There is a problem. The `Footer` component needs the state we moved away from `App`. There you are! That is the problem with lifting or moving state to where we think it is needed. In this case, if the `Footer` component doesn't need it, we won't have any issue – but `Footer` also needs the prop. 
+But wait! There is a problem. The `Footer` component needs the state we moved away from `App`. There you are! That is the problem with lifting or moving state to where we think it is needed. In this case, if the `Footer` component doesn't need it, we won't have any issue - but `Footer` also needs the prop. 
 
 Now that `Footer` needs `profile` as a prop, we need to solve prop drilling with another method.
 
@@ -387,7 +387,7 @@ Now that `Footer` needs `profile` as a prop, we need to solve prop drilling with
 
 ## How to Fix Prop Drilling with a Children-Replacing-Parent Strategy
 
-Earlier in this article, we talked about how to use component composition and moving state to its consumer to solve prop drilling. But as you saw, they have some issues – duplicated components or states.
+Earlier in this article, we talked about how to use component composition and moving state to its consumer to solve prop drilling. But as you saw, they have some issues - duplicated components or states.
 
 But using this children-replacing-parent approach fixes the problem effectively:
 
@@ -450,7 +450,7 @@ With your understanding of elongated props, you can confidently position props a
 
 In short, you can now discover prop drilling intuitively by paying attention to any component that takes `props` it doesn't consume and only passes it down to another component.
 
-Thanks for reading – cheers!
+Thanks for reading - cheers!
 
 Hey wait! I am [Ayobami Ogundiran (<FontIcon icon="fa-brands fa-x-twitter"/>`codingnninja`)](https://x.com/codingnninja) and I am about to start showing how to build your own React, Redux, TypeScript, Zod or Ecommerce websites on my YouTube channel. [<FontIcon icon="fa-brands fa-youtube"/>Click to subscribe](https://youtube.com/youtoocancode) to stay connected.
 

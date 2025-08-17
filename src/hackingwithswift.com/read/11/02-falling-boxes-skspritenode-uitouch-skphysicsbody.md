@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -75,11 +75,11 @@ SpriteKit’s equivalent of Interface Builder is called the Scene Editor, and it
 
 While you’re in the scene editor, there’s one more change I’d like to make, and it will help simplify our positioning slightly. With the scene selected, look in the attributes inspector (note: its icon is different here!) for Anchor Point. This determines what coordinates SpriteKit uses to position children and it’s X:0.5 Y:0.5 by default.
 
-This is *different* to UIKit: it means “position me based on my center”, whereas UIKit positions things based on their top-left corner. This is usually fine, but when working with the main scene it’s easiest to set this value to X:0 Y:0. So, please make that change now – anchor point should 0 for both X and Y.
+This is *different* to UIKit: it means “position me based on my center”, whereas UIKit positions things based on their top-left corner. This is usually fine, but when working with the main scene it’s easiest to set this value to X:0 Y:0. So, please make that change now - anchor point should 0 for both X and Y.
 
 ::: note
 
-SpriteKit considers Y:0 to be the bottom of the screen whereas UIKit considers it to be the top – hurray for uniformity!
+SpriteKit considers Y:0 to be the bottom of the screen whereas UIKit considers it to be the top - hurray for uniformity!
 
 :::
 
@@ -87,11 +87,11 @@ I’d also like you to change the size of the scene, which is just above the anc
 
 ::: tip
 
-The 9.7-inch iPad is 1024 points wide and 768 high, but the 10.5-inch and 12.9-inch are both larger. Helpfully, SpriteKit takes care of this for us: we just asked for a 1024x768 canvas and it will give us one regardless of what device our game runs on – nice!
+The 9.7-inch iPad is 1024 points wide and 768 high, but the 10.5-inch and 12.9-inch are both larger. Helpfully, SpriteKit takes care of this for us: we just asked for a 1024x768 canvas and it will give us one regardless of what device our game runs on - nice!
 
 :::
 
-The last change I’d like you to make is to select Actions.sks and tap your backspace button to delete it – select “Move to Trash” when Xcode asks you what you want to do.
+The last change I’d like you to make is to select Actions.sks and tap your backspace button to delete it - select “Move to Trash” when Xcode asks you what you want to do.
 
 All these changes have effectively cleaned the project, resetting it back to a vanilla state that we can build on.
 
@@ -99,7 +99,7 @@ With the template stuff deleted, I'd like you to import the assets for the proje
 
 Let's kick off this project by ditching the plain background and replacing it with a picture. If you want to place an image in your game, the class to use is called `SKSpriteNode`, and it can load any picture from your app bundle just like `UIImage`.
 
-To place a background image, we need to load the file called background.jpg, then position it in the center of the screen. Remember, unlike UIKit SpriteKit positions things based on their center – i.e., the point 0,0 refers to the horizontal and vertical center of a node. And also unlike UIKit, SpriteKit's Y axis starts at the bottom edge, so a higher Y number places a node higher on the screen. So, to place the background image in the center of a landscape iPad, we need to place it at the position X:512, Y:384.
+To place a background image, we need to load the file called background.jpg, then position it in the center of the screen. Remember, unlike UIKit SpriteKit positions things based on their center - i.e., the point 0,0 refers to the horizontal and vertical center of a node. And also unlike UIKit, SpriteKit's Y axis starts at the bottom edge, so a higher Y number places a node higher on the screen. So, to place the background image in the center of a landscape iPad, we need to place it at the position X:512, Y:384.
 
 We're going to do two more things, both of which are only needed for this background. First, we're going to give it the blend mode `.replace`. Blend modes determine how a node is drawn, and SpriteKit gives you many options. The `.replace` option means "just draw it, ignoring any alpha values," which makes it fast for things without gaps such as our background. We're also going to give the background a `zPosition` of -1, which in our game means "draw this behind everything else."
 
@@ -117,9 +117,9 @@ background.zPosition = -1
 addChild(background)
 ```
 
-If you run the app now you'll see a dark blue image for the background rather than plain gray – hardly a massive improvement, but this is just the beginning.
+If you run the app now you'll see a dark blue image for the background rather than plain gray - hardly a massive improvement, but this is just the beginning.
 
-![The very start of our game just has a large plain background image. Don't worry, it gets more fun – honest!](https://hackingwithswift.com/img/books/hws/11-1@2x.png)
+![The very start of our game just has a large plain background image. Don't worry, it gets more fun - honest!](https://hackingwithswift.com/img/books/hws/11-1@2x.png)
 
 Let's do something a bit more interesting, so add this to the `touchesBegan()` method:
 
@@ -140,7 +140,7 @@ The third line is also new, but it's still `SKSpriteNode`. We're just writing so
 
 The code sets the new box's position to be where the tap happened, then adds it to the scene. No more talk: press <kbd>Cmd</kbd>+<kbd>R</kbd> to make sure this all works, then tap around the screen to make boxes appear.
 
-OK, I admit: that's still quite boring. Let's make it even more interesting – are you ready to see quite how powerful SpriteKit is? Just before setting the position of our new box, add this line:
+OK, I admit: that's still quite boring. Let's make it even more interesting - are you ready to see quite how powerful SpriteKit is? Just before setting the position of our new box, add this line:
 
 ```swift
 box.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 64, height: 64))

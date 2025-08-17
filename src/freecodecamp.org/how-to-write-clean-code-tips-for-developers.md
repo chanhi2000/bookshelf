@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Write Clean Code – Tips for Developers with Examples"
-description: "Article(s) > How to Write Clean Code – Tips for Developers with Examples"
+title: "How to Write Clean Code - Tips for Developers with Examples"
+description: "Article(s) > How to Write Clean Code - Tips for Developers with Examples"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Write Clean Code – Tips for Developers with Examples"
+      content: "Article(s) > How to Write Clean Code - Tips for Developers with Examples"
     - property: og:description
-      content: "How to Write Clean Code – Tips for Developers with Examples"
+      content: "How to Write Clean Code - Tips for Developers with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-clean-code-tips-for-developers.html
 prev: /programming/js/articles/README.md
@@ -43,15 +43,15 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730737606075/5cb4369
 ---
 
 <SiteInfo
-  name="How to Write Clean Code – Tips for Developers with Examples"
-  desc="Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right? Now, think about writing messy code – it’s just as confusing, if not more! On the other hand, clean code is like an ..."
+  name="How to Write Clean Code - Tips for Developers with Examples"
+  desc="Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right? Now, think about writing messy code - it’s just as confusing, if not more! On the other hand, clean code is like an ..."
   url="https://freecodecamp.org/news/how-to-write-clean-code-tips-for-developers"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1730737606075/5cb4369b-9f2e-4f97-9765-ac00a62800c6.png"/>
 
 Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right?
 
-Now, think about writing messy code – it’s just as confusing, if not more!
+Now, think about writing messy code - it’s just as confusing, if not more!
 
 On the other hand, clean code is like an organized room: you can easily find what you need, understand what’s happening, and get things done faster.
 
@@ -767,8 +767,8 @@ Hope to see you next time!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Write Clean Code – Tips for Developers with Examples",
-  "desc": "Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right? Now, think about writing messy code – it’s just as confusing, if not more! On the other hand, clean code is like an ...",
+  "title": "How to Write Clean Code - Tips for Developers with Examples",
+  "desc": "Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right? Now, think about writing messy code - it’s just as confusing, if not more! On the other hand, clean code is like an ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-clean-code-tips-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"

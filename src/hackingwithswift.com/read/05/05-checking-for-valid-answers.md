@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -79,7 +79,7 @@ The difference is small but important: when used before a variable or constant, 
 
 This is used because our method is called `isOriginal()`, and should return true if the word has never been used before. If we had used `return usedWords.contains(word)`, then it would do the opposite: it would return true if the word had been used and false otherwise. So, by using `!` we're flipping it around so that the method returns true if the word is new.
 
-That's one method down. Next is the `isPossible()`, which also takes a string as its only parameter and returns a `Bool` – true or false. This one is more complicated, but I've tried to make the algorithm as simple as possible.
+That's one method down. Next is the `isPossible()`, which also takes a string as its only parameter and returns a `Bool` - true or false. This one is more complicated, but I've tried to make the algorithm as simple as possible.
 
 How can we be sure that "cease" can be made from "agencies", using each letter only once? The solution I've adopted is to loop through every letter in the player's answer, seeing whether it exists in the eight-letter start word we are playing with. If it does exist, we remove the letter from the start word, then continue the loop. So, if we try to use a letter twice, it will exist the first time, but then get removed so it doesn't exist the next time, and the check will fail.
 
@@ -133,11 +133,11 @@ Next, we call the `rangeOfMisspelledWord(in:)` method of our `UITextChecker` ins
 
 Parameters three and four aren't useful here, but for the sake of completeness: parameter three selects a point in the range where the text checker should start scanning, and parameter four lets us set whether the `UITextChecker` should start at the beginning of the range if no misspelled words were found starting from parameter three. Neat, but not helpful here.
 
-Calling `rangeOfMisspelledWord(in:)` returns another `NSRange` structure, which tells us where the misspelling was found. But what we care about was whether any misspelling was found, and if nothing was found our `NSRange` will have the special location `NSNotFound`. Usually `location` would tell you where the misspelling started, but `NSNotFound` is telling us the word is spelled correctly – i.e., it's a valid word.
+Calling `rangeOfMisspelledWord(in:)` returns another `NSRange` structure, which tells us where the misspelling was found. But what we care about was whether any misspelling was found, and if nothing was found our `NSRange` will have the special location `NSNotFound`. Usually `location` would tell you where the misspelling started, but `NSNotFound` is telling us the word is spelled correctly - i.e., it's a valid word.
 
 ::: note
 
-In case you were curious, `NSRange` pre-dates Swift, and therefore doesn’t have access to optionals – `NSNotFound` is effectively a magic number that means “not found”, assigned to a constant to make it easier to use.
+In case you were curious, `NSRange` pre-dates Swift, and therefore doesn’t have access to optionals - `NSNotFound` is effectively a magic number that means “not found”, assigned to a constant to make it easier to use.
 
 :::
 
@@ -157,9 +157,9 @@ That completes the third of our missing methods, so the project is almost comple
 
 Before we continue, there’s one small thing I want to touch on briefly. In the `isPossible()` method we looped over each letter by treating the word as an array, but in this new code we use `word.utf16` instead. Why?
 
-The answer is an annoying backwards compatibility quirk: Swift’s strings natively store international characters as individual characters, e.g. the letter “é” is stored as precisely that. However, UIKit was written in Objective-C before Swift’s strings came along, and it uses a different character system called UTF-16 – short for 16-bit Unicode Transformation Format – where the accent and the letter are stored separately.
+The answer is an annoying backwards compatibility quirk: Swift’s strings natively store international characters as individual characters, e.g. the letter “é” is stored as precisely that. However, UIKit was written in Objective-C before Swift’s strings came along, and it uses a different character system called UTF-16 - short for 16-bit Unicode Transformation Format - where the accent and the letter are stored separately.
 
-It’s a subtle difference, and often it isn’t a difference at all, but it’s becoming increasingly problematic because of the rise of emoji – those little images that are frequently used in messages. Emoji are actually just special character combinations behind the scenes, and they are measured differently with Swift strings and UTF-16 strings: Swift strings count them as 1-letter strings, but UTF-16 considers them to be 2-letter strings. This means if you use `count` with UIKit methods, you run the risk of miscounting the string length.
+It’s a subtle difference, and often it isn’t a difference at all, but it’s becoming increasingly problematic because of the rise of emoji - those little images that are frequently used in messages. Emoji are actually just special character combinations behind the scenes, and they are measured differently with Swift strings and UTF-16 strings: Swift strings count them as 1-letter strings, but UTF-16 considers them to be 2-letter strings. This means if you use `count` with UIKit methods, you run the risk of miscounting the string length.
 
-I realize this seems like pointless additional complexity, so let me try to give you a simple rule: when you’re working with UIKit, SpriteKit, or any other Apple framework, use `utf16.count` for the character count. If it’s just your own code - i.e. looping over characters and processing each one individually – then use `count` instead.
+I realize this seems like pointless additional complexity, so let me try to give you a simple rule: when you’re working with UIKit, SpriteKit, or any other Apple framework, use `utf16.count` for the character count. If it’s just your own code - i.e. looping over characters and processing each one individually - then use `count` instead.
 

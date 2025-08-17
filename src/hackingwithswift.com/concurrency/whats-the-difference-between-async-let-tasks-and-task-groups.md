@@ -62,19 +62,19 @@ For example, if you had an array of URLs and wanted to fetch them all in paralle
 
 Second, task groups automatically let us process results from child tasks in the order they complete, rather than in an order we specify. For example, if we wanted to fetch five pieces of data, task groups allow us to use `group.next()` to read whichever of the five comes back first, whereas using `async let` and `Task` would require us to await values in a specific, fixed order.
 
-That alone is a helpful feature of task groups, but in some situations it goes from helpful to *crucial*. For example, if you have three possible servers for some data and want to use whichever one responds fastest, task groups are perfect – you can use `addTask()` once for each server, then call `next()` only once to read whichever one responded fastest.
+That alone is a helpful feature of task groups, but in some situations it goes from helpful to *crucial*. For example, if you have three possible servers for some data and want to use whichever one responds fastest, task groups are perfect - you can use `addTask()` once for each server, then call `next()` only once to read whichever one responded fastest.
 
 Third, although all three forms of concurrency will automatically be marked as cancelled if their parent task is cancelled, only `Task` and task group can be cancelled directly, using `cancel()` and `cancelAll()` respectively. There is no equivalent for `async let`. 
 
-Fourth, because `async let` doesn’t give us a handle to the underlying task it creates for us, it’s not possible to pass that task elsewhere – we can’t start an `async let` task in one function then pass that task to a different function. On the other hand, if you create a task that returns a string and never throws an error, you can pass that `Task<String, Never>` object around as needed.
+Fourth, because `async let` doesn’t give us a handle to the underlying task it creates for us, it’s not possible to pass that task elsewhere - we can’t start an `async let` task in one function then pass that task to a different function. On the other hand, if you create a task that returns a string and never throws an error, you can pass that `Task<String, Never>` object around as needed.
 
-And finally, although task groups *can* work with heterogeneous results – i.e., child tasks that return different types of data – it takes the extra work of making an enum to wrap the data. `async let` and `Task` do not suffer from this problem because they always return a single result type, so each result can be different.
+And finally, although task groups *can* work with heterogeneous results - i.e., child tasks that return different types of data - it takes the extra work of making an enum to wrap the data. `async let` and `Task` do not suffer from this problem because they always return a single result type, so each result can be different.
 
 By sheer volume of advantages you might think that `async let` is clearly much less useful than both `Task` and task groups, but not all those points carry equal weight in real-world code. In practice, I would suggest you’re likely to:
 
 - Use `async let` the most; it works best when there is a fixed amount of work to do.
 - Use `Task` for some places where `async let` doesn’t work, such as passing an incomplete value to a function.
-- Use task groups least commonly, or at least use them *directly* least commonly – you might build other things on top of them.
+- Use task groups least commonly, or at least use them *directly* least commonly - you might build other things on top of them.
 
 I find that order is pretty accurate in practice, for a number of reasons:
 

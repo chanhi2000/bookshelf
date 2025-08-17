@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,9 +51,9 @@ isOriginal: false
 }
 ```
 
-That was a long chapter, and I hope you learned a lot. But you deserve a break, so I have some good news: it's trivial to remove views from a UIStackView. Heck, at its simplest it's just a matter of telling `removeArrangedSubview()` which view you don’t want then removing that view from its superview – the others are automatically resized and re-arranged to fill the space.
+That was a long chapter, and I hope you learned a lot. But you deserve a break, so I have some good news: it's trivial to remove views from a UIStackView. Heck, at its simplest it's just a matter of telling `removeArrangedSubview()` which view you don’t want then removing that view from its superview - the others are automatically resized and re-arranged to fill the space.
 
-However, using `removeArrangedSubview()` *doesn’t* remove the view altogether – it keeps the view in memory, which is helpful if you plan to re-add it later on because you can avoid recreating it. Here, though, we actually want to remove the web view and destroy it entirely, and that can be done with a call to `removeFromSuperview()` instead.
+However, using `removeArrangedSubview()` *doesn’t* remove the view altogether - it keeps the view in memory, which is helpful if you plan to re-add it later on because you can avoid recreating it. Here, though, we actually want to remove the web view and destroy it entirely, and that can be done with a call to `removeFromSuperview()` instead.
 
 In this particular project, we need to do a little more:
 
@@ -71,7 +71,7 @@ We already pointed the delete button at a method called `deleteWebView()`, so al
     // safely unwrap our webview
     if let webView = activeWebView {
         if let index = stackView.arrangedSubviews.firstIndex(of: webView) {
-            // We found the webview – remove it from the stack view and destroy it
+            // We found the webview - remove it from the stack view and destroy it
             webView.removeFromSuperview()
 
             if stackView.arrangedSubviews.count == 0 {

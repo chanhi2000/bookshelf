@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "TrueNAS: Create Own “Home Media Streaming Server” Using Plex – Part 3"
-description: "Article(s) > TrueNAS: Create Own “Home Media Streaming Server” Using Plex – Part 3"
+title: "TrueNAS: Create Own “Home Media Streaming Server” Using Plex - Part 3"
+description: "Article(s) > TrueNAS: Create Own “Home Media Streaming Server” Using Plex - Part 3"
 icon: iconfont icon-truenas
 category: 
   - Shell
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > TrueNAS: Create Own “Home Media Streaming Server” Using Plex – Part 3"
+      content: "Article(s) > TrueNAS: Create Own “Home Media Streaming Server” Using Plex - Part 3"
     - property: og:description
-      content: "TrueNAS: Create Own “Home Media Streaming Server” Using Plex – Part 3"
+      content: "TrueNAS: Create Own “Home Media Streaming Server” Using Plex - Part 3"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/home-media-streaming-server-using-plex-with-truenas.html
 prev: /devops/linux-debian/articles/README.md
@@ -48,7 +48,7 @@ cover: https://tecmint.com/wp-content/uploads/2015/02/Setup-Home-Media-Server-wi
 ---
 
 <SiteInfo
-  name="TrueNAS: Create Own “Home Media Streaming Server” Using Plex – Part 3"
+  name="TrueNAS: Create Own “Home Media Streaming Server” Using Plex - Part 3"
   desc="In this post, we will show you how to set up a home-based streaming server using the Plex Media Server plugin in TrueNAS."
   url="https://tecmint.com/home-media-streaming-server-using-plex-with-truenas"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"

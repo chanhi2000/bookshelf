@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Best Practices for Oracle Test Automation"
-description: "Article(s) > (2/5) Oracle ERP Test Automation Guide – Examples and Best Practices" 
+description: "Article(s) > (2/5) Oracle ERP Test Automation Guide - Examples and Best Practices" 
 icon: fa-brands fa-java
 category:
   - Java
@@ -26,7 +26,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (2/5) Oracle ERP Test Automation Guide – Examples and Best Practices"
+      content: "Article(s) > (2/5) Oracle ERP Test Automation Guide - Examples and Best Practices"
     - property: og:description
       content: "Best Practices for Oracle Test Automation"
     - property: og:url
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 
 ```component VPCard
 {
-  "title": "Oracle ERP Test Automation Guide – Examples and Best Practices",
+  "title": "Oracle ERP Test Automation Guide - Examples and Best Practices",
   "desc": "Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ...",
   "link": "/freecodecamp.org/oracle-erp-test-automation-guide/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -56,7 +56,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745527550725/45d7f40
 ---
 
 <SiteInfo
-  name="Oracle ERP Test Automation Guide – Examples and Best Practices"
+  name="Oracle ERP Test Automation Guide - Examples and Best Practices"
   desc="Oracle Enterprise Resource Planning helps businesses manage finance and supply chains. It also supports human resources and brings different functions together. Many growing businesses rely on it to handle complex tasks, as system failures or errors ..."
   url="https://freecodecamp.org/news/oracle-erp-test-automation-guide#heading-best-practices-for-oracle-test-automation"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

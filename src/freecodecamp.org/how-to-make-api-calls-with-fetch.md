@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Fetch API – How to Make a GET Request and POST Request in JavaScript"
-description: "Article(s) > Fetch API – How to Make a GET Request and POST Request in JavaScript"
+title: "Fetch API - How to Make a GET Request and POST Request in JavaScript"
+description: "Article(s) > Fetch API - How to Make a GET Request and POST Request in JavaScript"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Fetch API – How to Make a GET Request and POST Request in JavaScript"
+      content: "Article(s) > Fetch API - How to Make a GET Request and POST Request in JavaScript"
     - property: og:description
-      content: "Fetch API – How to Make a GET Request and POST Request in JavaScript"
+      content: "Fetch API - How to Make a GET Request and POST Request in JavaScript"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-api-calls-with-fetch.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2021/05/Fetch-API.png
 ---
 
 <SiteInfo
-  name="Fetch API – How to Make a GET Request and POST Request in JavaScript"
+  name="Fetch API - How to Make a GET Request and POST Request in JavaScript"
   desc="By Kingsley Ubah Often times you might want your system to communicate with other web servers to get information. For example, let's say a new user wants to sign up for an account on your website. And instead of having to manually fill out a form to ..."
   url="https://freecodecamp.org/news/how-to-make-api-calls-with-fetch"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -196,7 +196,7 @@ Thank you and see you soon.
 <!-- START: ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Fetch API – How to Make a GET Request and POST Request in JavaScript",
+  "title": "Fetch API - How to Make a GET Request and POST Request in JavaScript",
   "desc": "By Kingsley Ubah Often times you might want your system to communicate with other web servers to get information. For example, let's say a new user wants to sign up for an account on your website. And instead of having to manually fill out a form to ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-api-calls-with-fetch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

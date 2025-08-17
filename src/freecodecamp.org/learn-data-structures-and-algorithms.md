@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Learn Data Structures and Algorithms – Introduction and Learning Resources"
-description: "Article(s) > Learn Data Structures and Algorithms – Introduction and Learning Resources"
+title: "Learn Data Structures and Algorithms - Introduction and Learning Resources"
+description: "Article(s) > Learn Data Structures and Algorithms - Introduction and Learning Resources"
 icon: fa-brands fa-python
 category:
   - Python
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Learn Data Structures and Algorithms – Introduction and Learning Resources"
+      content: "Article(s) > Learn Data Structures and Algorithms - Introduction and Learning Resources"
     - property: og:description
-      content: "Learn Data Structures and Algorithms – Introduction and Learning Resources"
+      content: "Learn Data Structures and Algorithms - Introduction and Learning Resources"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-and-algorithms.html
 prev: /programming/py/articles/README.md
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/02/pexels-david-gallie-
 ---
 
 <SiteInfo
-  name="Learn Data Structures and Algorithms – Introduction and Learning Resources"
+  name="Learn Data Structures and Algorithms - Introduction and Learning Resources"
   desc="Data structures and algorithms (DSA) are an important aspect of any programming language. Every language has its own data structures and its way of handling different types of algorithms. So, as a programmer, no matter what programming language you a..."
   url="https://freecodecamp.org/news/learn-data-structures-and-algorithms"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -53,7 +53,7 @@ Data structures and algorithms (DSA) are an important aspect of any programming 
 
 So, as a programmer, no matter what programming language you are working with, data structures and algorithms have to be an important aspect of your day-to-day programming. That’s because we always need them to solve complex problems.
 
-And that’s why I put together this article – to show you what data structures and algorithms are, and to share some resources with you to help you learn them in various languages.
+And that’s why I put together this article - to show you what data structures and algorithms are, and to share some resources with you to help you learn them in various languages.
 
 ---
 
@@ -384,7 +384,7 @@ If you’re just starting out with JavaScript, the freeCodeCamp’s [<FontIcon i
 Here are some videos from the freeCodeCamp YouTube channel that can help you learn algorithms:
 
 - [Algorithms and Data Structures Tutorial - Full Course for Beginners](/freecodecamp.org/algorithms-and-data-structures-free-treehouse-course.md)
-- [Intro to Algorithms in Python – Full Course for Beginners](/freecodecamp.org/intro-to-algorithms-with-python.md)
+- [Intro to Algorithms in Python - Full Course for Beginners](/freecodecamp.org/intro-to-algorithms-with-python.md)
 - [Learn Algorithms and Data Structures in Python - Full Course](/freecodecamp.org/learn-algorithms-and-data-structures-in-python.md)
 - [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](/freecodecamp.org/learn-data-structures-from-a-google-engineer.md)
 - [Data Structures Explained](/freecodecamp.org/learn-all-about-data-structures-used-in-computer-science.md)
@@ -410,7 +410,7 @@ Thank you for reading.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Learn Data Structures and Algorithms – Introduction and Learning Resources",
+  "title": "Learn Data Structures and Algorithms - Introduction and Learning Resources",
   "desc": "Data structures and algorithms (DSA) are an important aspect of any programming language. Every language has its own data structures and its way of handling different types of algorithms. So, as a programmer, no matter what programming language you a...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-and-algorithms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

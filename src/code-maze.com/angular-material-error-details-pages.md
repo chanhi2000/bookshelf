@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Angular Material – Error and Details Pages With Material Components
-description: Article(s) > Angular Material – Error and Details Pages With Material Components
+title: Angular Material - Error and Details Pages With Material Components
+description: Article(s) > Angular Material - Error and Details Pages With Material Components
 icon: fa-brands fa-angular
 category: 
   - Node.js
@@ -21,9 +21,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > Angular Material – Error and Details Pages With Material Components
+      content: Article(s) > Angular Material - Error and Details Pages With Material Components
     - property: og:description
-      content: Angular Material – Error and Details Pages With Material Components
+      content: Angular Material - Error and Details Pages With Material Components
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/angular-material-error-details-pages.html
 prev: /programming/js-angular/articles/README.md
@@ -59,7 +59,7 @@ cover: /assets/image/code-maze.com/angular-material-error-details-pages/banner.p
 ---
 
 <SiteInfo
-  name="Angular Material – Error and Details Pages With Material Components"
+  name="Angular Material - Error and Details Pages With Material Components"
   desc="In this article we create different pages by using Angular Material Progress Bar, Spinner, Check Box, Card, Select and Expansion Panel Components."
   url="https://code-maze.com/angular-material-error-details-pages/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -83,7 +83,7 @@ We are going to create the Not-Found component, the Server-Error component, and 
 
 ```component VPCard
 {
-  "title": "Angular Material Navigation Menu – Complete Responsive Navigation",
+  "title": "Angular Material Navigation Menu - Complete Responsive Navigation",
   "desc": "In this article, we are going to learn about Angular Material Navigation, how to create it and make it fully responsive with side bar and main nav menu.",
   "link": "/code-maze.com/angular-material-navigation.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -103,7 +103,7 @@ We are going to create the Not-Found component, the Server-Error component, and 
 
 ```component VPCard
 {
-  "title": "Angular Material – Error and Details Pages With Material Components",
+  "title": "Angular Material - Error and Details Pages With Material Components",
   "desc": "In this article we create different pages by using Angular Material Progress Bar, Spinner, Check Box, Card, Select and Expansion Panel Components.",
   "link": "/code-maze.com/angular-material-error-details-pages.md",
   "logo": "/assets/image/code-maze.com/favicon.png",
@@ -127,7 +127,7 @@ For the complete navigation and all the basic instructions of the Angular Materi
 
 ::: info
 
-The source code is available at GitHub [Angular Material Error and Details Pages – Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/error-details-pages)
+The source code is available at GitHub [Angular Material Error and Details Pages - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/error-details-pages)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"
@@ -451,7 +451,7 @@ Of course, if you want, you can implement the Http Interceptor to intercept the 
 
 ---
 
-## Details Page – Card, Select and Expansion Panel Components
+## Details Page - Card, Select and Expansion Panel Components
 
 In this section, we are going to create details functionality for our application. To do that, let’s first create the `owner-details` component:
 

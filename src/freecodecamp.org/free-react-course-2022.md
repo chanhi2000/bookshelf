@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Free React Course – 8 Real-World Projects and 140+ Coding Challenges"
-description: "Article(s) > Free React Course – 8 Real-World Projects and 140+ Coding Challenges"
+title: "Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
+description: "Article(s) > Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
 icon: fa-brands fa-react
 category:
   - Node.js
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Free React Course – 8 Real-World Projects and 140+ Coding Challenges"
+      content: "Article(s) > Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
     - property: og:description
-      content: "Free React Course – 8 Real-World Projects and 140+ Coding Challenges"
+      content: "Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-react-course-2022.html
 prev: /programming/js-react/articles/README.md
@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/2022/01/react2022.png
 ---
 
 <SiteInfo
-  name="Free React Course – 8 Real-World Projects and 140+ Coding Challenges"
+  name="Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
   desc="React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel..."
   url="https://freecodecamp.org/news/free-react-course-2022"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -173,7 +173,7 @@ Watch the full course below or on the [<FontIcon icon="fa-brands fa-youtube"/>fr
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Free React Course – 8 Real-World Projects and 140+ Coding Challenges",
+  "title": "Free React Course - 8 Real-World Projects and 140+ Coding Challenges",
   "desc": "React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-react-course-2022.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "C# Basics – Development Environment Setup"
-description: "Article(s) > C# Basics – Development Environment Setup"
+title: "C# Basics - Development Environment Setup"
+description: "Article(s) > C# Basics - Development Environment Setup"
 icon: iconfont icon-csharp
 category:
   - C#
@@ -21,9 +21,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > C# Basics – Development Environment Setup"
+      content: "Article(s) > C# Basics - Development Environment Setup"
     - property: og:description
-      content: "C# Basics – Development Environment Setup"
+      content: "C# Basics - Development Environment Setup"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-basics-ide-introduction.html
 prev: /programming/cs/articles/README.md
@@ -62,7 +62,7 @@ cover: /assets/image/code-maze.com/csharp-basics-ide-introduction/banner.png
 ---
 
 <SiteInfo
-  name="C# Basics – Development Environment Setup"
+  name="C# Basics - Development Environment Setup"
   desc="Find out the basics about Visual Studio 2017 environment. How we can use it in our complete tutorial and how it can help us with our examples."
   url="https://code-maze.com/csharp-basics-ide-introduction/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -145,7 +145,7 @@ In [**the next part**](/code-maze.com/csharp-basics-data-types-variables.md), we
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "C# Basics – Development Environment Setup",
+  "title": "C# Basics - Development Environment Setup",
   "desc": "Find out the basics about Visual Studio 2017 environment. How we can use it in our complete tutorial and how it can help us with our examples.",
   "link": "https://chanhi2000.github.io/bookshelf/code-maze.com/csharp-basics-ide-introduction.html",
   "logo": "/assets/image/code-maze.com/favicon.png",

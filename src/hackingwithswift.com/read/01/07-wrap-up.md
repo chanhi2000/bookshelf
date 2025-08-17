@@ -30,8 +30,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -68,7 +68,7 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ```component VPCard
 {
-  "title": "Review – Project 1: Storm Viewer – Hacking with Swift",
+  "title": "Review - Project 1: Storm Viewer - Hacking with Swift",
   "desc": "Interactive tests that help gauge your progress learning Swift",
   "link": "https://hackingwithswift.com/review/hws/project-1-storm-viewer",
   "logo": "https://hackingwithswift.com/favicon.svg",
@@ -80,13 +80,13 @@ Anyone can sit through a tutorial, but it takes actual work to remember what was
 
 ## Challenge
 
-This has the beginnings of a useful app, but if you really want your new knowledge to sink in you need to start writing some new code yourself – without following a tutorial, or having an answer you can just look up online.
+This has the beginnings of a useful app, but if you really want your new knowledge to sink in you need to start writing some new code yourself - without following a tutorial, or having an answer you can just look up online.
 
-So, each time you complete a project I’ll be setting you a challenge to modify it somehow. Yes, this will take some work, but there is no learning without struggle – all the challenges are completely within your grasp based on what you’ve learned so far.
+So, each time you complete a project I’ll be setting you a challenge to modify it somehow. Yes, this will take some work, but there is no learning without struggle - all the challenges are completely within your grasp based on what you’ve learned so far.
 
 For this project, your challenges are:
 
-- Use Interface Builder to select the text label inside your table view cell and adjust its font size to something larger – experiment and see what looks good.
+- Use Interface Builder to select the text label inside your table view cell and adjust its font size to something larger - experiment and see what looks good.
 - In your main table view, show the image names in sorted order, so “nssl0033.jpg” comes before “nssl0034.jpg”.
 - Rather than show image names in the detail title bar, show “Picture X of Y”, where Y is the total number of images and X is the selected picture’s position in the array. Make sure you count from 1 rather than 0.
 
@@ -106,9 +106,9 @@ But if you’ve already worked hard at the challenges above and are still strugg
 
 Still here? OK. Let’s take a look at the challenges…
 
-**Use Interface Builder to select the text label inside your table view cell and adjust its font size to something larger – experiment and see what looks good.**
+**Use Interface Builder to select the text label inside your table view cell and adjust its font size to something larger - experiment and see what looks good.**
 
-This ought to be easy enough: open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then use the document outline to select the table view, select the Picture cell inside it, select the Content View inside *that*, and finally select the Title label. In the attributes inspector you’ll find a number of options – try to figure out which one controls the font size.
+This ought to be easy enough: open <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard`, then use the document outline to select the table view, select the Picture cell inside it, select the Content View inside *that*, and finally select the Title label. In the attributes inspector you’ll find a number of options - try to figure out which one controls the font size.
 
 **In your main table view, show the image names in sorted order, so “nssl0033.jpg” comes before “nssl0034.jpg”.**
 
@@ -160,7 +160,7 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
 
 That sets the `selectedImage` property using one of the strings from the `pictures` array. Which string? Well, we use `indexPath.row` for that, because that tells us which table view cell was selected.
 
-So, we can use `indexPath.row` to set the `selectedPictureNumber` property in `DetailViewController` – just make sure you add 1 to it so that it counts from 1 rather than 0.
+So, we can use `indexPath.row` to set the `selectedPictureNumber` property in `DetailViewController` - just make sure you add 1 to it so that it counts from 1 rather than 0.
 
-As for the `totalPictures` property in `DetailViewController`, which needs to contain the total number of pictures in our array. We already wrote code to read the size of the array inside the `numberOfRowsInSection` method – how can you use similar code to set `totalPictures`?
+As for the `totalPictures` property in `DetailViewController`, which needs to contain the total number of pictures in our array. We already wrote code to read the size of the array inside the `numberOfRowsInSection` method - how can you use similar code to set `totalPictures`?
 

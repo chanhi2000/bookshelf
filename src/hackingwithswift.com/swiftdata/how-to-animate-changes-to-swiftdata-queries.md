@@ -63,7 +63,7 @@ For example, if we had a `User` model with results being shown in a SwiftUI `Lis
 
 Exactly what animation happens depends on how your data is changing and what platform your code is running on. For example, rows you're adding might fade in, rows you're deleting might fade out, and other rows might slide to their new location.
 
-Things are slightly trickier if you want *conditional* animations – if you want to animate some changes but not others. Here you might find it easier to apply the `animation()` modifier to your list rather than to your `@Query` property, like this:
+Things are slightly trickier if you want *conditional* animations - if you want to animate some changes but not others. Here you might find it easier to apply the `animation()` modifier to your list rather than to your `@Query` property, like this:
 
 ```swift
 .animation(.default, value: users)

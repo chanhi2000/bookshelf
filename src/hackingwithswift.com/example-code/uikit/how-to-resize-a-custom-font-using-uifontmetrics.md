@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!--
 Dynamic Type allows developers to adjust the size of in-app text based on user accessibility preferences, but if you use custom fonts it’s easy to forget to add support.
 
-To combine custom fonts with Dynamic Type, you need to use `UIFontMetrics`. You create instances of this class by specifying what type of content you want to measure – e.g. headline text or body text – and once that’s done you can pass it a font and ask it to provide a scaled font back. This converts your custom font and size into a scaled font suitable for the user’s preferences.
+To combine custom fonts with Dynamic Type, you need to use `UIFontMetrics`. You create instances of this class by specifying what type of content you want to measure - e.g. headline text or body text - and once that’s done you can pass it a font and ask it to provide a scaled font back. This converts your custom font and size into a scaled font suitable for the user’s preferences.
 
 Here’s an example in code:
 

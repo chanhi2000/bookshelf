@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -86,7 +86,7 @@ func fetchUnreadCount(from urlString: String, completionHandler: @escaping (Resu
 }
 ```
 
-**Tip:** That code uses a completion handler rather than a simple return type because networking code will block the main thread – we want the method to return immediately and perform any complicated networking code in the background.
+**Tip:** That code uses a completion handler rather than a simple return type because networking code will block the main thread - we want the method to return immediately and perform any complicated networking code in the background.
 
 We can now call that method with a URL and evaluate what gets sent back. Remember. this will either be a success (sending us back the unread messages count), or a failure (sending us back what went wrong). Here’s the code:
 

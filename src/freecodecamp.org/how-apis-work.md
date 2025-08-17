@@ -82,7 +82,7 @@ You might have used Bluetooth to share data back in the day. Bluetooth is nothin
 
 When you ask your friend to send you photos of their last trip, your device acts as a client, and your friend's device (the one that sends photos) is the server.
 
-This is just an example of a protocol. We have a large number of protocols in the world of computer science – one for almost anything.
+This is just an example of a protocol. We have a large number of protocols in the world of computer science - one for almost anything.
 
 On the web, we use the HTTP protocol (which stands for Hyper Text Transfer Protocol). APIs available on the web use the HTTP protocol for a number of reasons - it's easy to use and it's popular, for example.
 
@@ -90,12 +90,12 @@ Communications that take place over the **HTTP protocol** are also known as the 
 
 Unlike humans, computers have to be rigid to communicate with each other or they break the communication. For this reason, a client (requesting computer/ device) needs a set of information to send with the request so the server responds accordingly. This information includes:
 
-1. URL – a web address where you want to make a request
-2. Method – whether you want data already stored somewhere or want to save new data in a database
-3. Header – all the relevant information about your request including in what format the client device expects to receive the data
-4. Body – the body contains the actual request data
+1. URL - a web address where you want to make a request
+2. Method - whether you want data already stored somewhere or want to save new data in a database
+3. Header - all the relevant information about your request including in what format the client device expects to receive the data
+4. Body - the body contains the actual request data
 
-In our Unsplash example, the URL is [https://unsplash.com/s/photos/nature](https://unsplash.com/s/photos/england). The method is GET because we want the server to get nature images back. The header includes information like the format our computer expects to get and accept – like language meaning, the language of the device, our operating system, and so on. The body includes the data we need to send to the server, the nature keyword for example.
+In our Unsplash example, the URL is [https://unsplash.com/s/photos/nature](https://unsplash.com/s/photos/england). The method is GET because we want the server to get nature images back. The header includes information like the format our computer expects to get and accept - like language meaning, the language of the device, our operating system, and so on. The body includes the data we need to send to the server, the nature keyword for example.
 
 There are four types of methods for HTTP requests which we will get back to in a moment. For now, just know that a method indicates what you want to do with the data available on the server. For example, whether you want that data as documents or you want to save a new entry in data saved somewhere.
 

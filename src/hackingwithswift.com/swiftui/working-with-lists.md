@@ -55,9 +55,9 @@ prev: /hackingwithswift.com/swiftui/how-to-create-and-use-custom-environment-val
 
 SwiftUI's `List` view is similar to `UITableView` in that it can show static or dynamic table view cells based on your needs. However, it is significantly simpler to use: we don't need to create prototype cells in storyboards, or register them in code; we don't need to tell it how many rows there are; we don't need to dequeue and configure cells by hand, and more.
 
-Instead, SwiftUI's lists are designed for composability – designed to be able to build bigger things from smaller things. So, rather than having one large view controller that configures cells by hand, SwiftUI has us build small views that know how to configure themselves as list rows, then uses those.
+Instead, SwiftUI's lists are designed for composability - designed to be able to build bigger things from smaller things. So, rather than having one large view controller that configures cells by hand, SwiftUI has us build small views that know how to configure themselves as list rows, then uses those.
 
-In terms of code size if nothing else, the difference is staggering – you can delete almost all your table view code and still get the same great look and feel you're used to.
+In terms of code size if nothing else, the difference is staggering - you can delete almost all your table view code and still get the same great look and feel you're used to.
 
 ::: details Similar solutions…
 

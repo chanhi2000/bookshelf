@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ If you wanted to pin a button to the left edge of its parent, you might write co
 button.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
 ```
 
-However, that has a problem: in right-to-left languages, the user interface ought to be flipped horizontally for the most part, but your button won’t move – you’ve specifically asked it to be pinned to the left edge regardless of the user’s device settings.
+However, that has a problem: in right-to-left languages, the user interface ought to be flipped horizontally for the most part, but your button won’t move - you’ve specifically asked it to be pinned to the left edge regardless of the user’s device settings.
 
 If that’s what you want, you don’t have a problem. However, if you meant “left edge for left-to-right languages and *right* edge for right-to-left languages,” then you should use `leadingAnchor` instead of `leftAnchor`, like this:
 

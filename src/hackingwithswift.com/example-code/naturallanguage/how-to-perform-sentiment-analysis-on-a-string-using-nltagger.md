@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "NaturalLanguage - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/naturallanguage/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -102,7 +102,7 @@ That means “attempt to read the sentiment’s raw value, but use the string �
 
 The end result will be a `score` value that is somewhere between -1.0 (very negative) and 1.0 (very positive), or 0.0 if the text is neutral or nothing could be read.
 
-**Note:** In this example I’ve used a short piece of text, but obviously the framework works best with *lots* of text – it’s hard to come to a conclusion given only a few words, and you’ll often get inaccurate readings doing so.
+**Note:** In this example I’ve used a short piece of text, but obviously the framework works best with *lots* of text - it’s hard to come to a conclusion given only a few words, and you’ll often get inaccurate readings doing so.
 
 -->
 

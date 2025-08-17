@@ -52,9 +52,9 @@ head:
 
 > Updated for Xcode 15
 
-SwiftUI has a `fileExporter()` modifier that lets us export files from our app to anywhere the user wants – any folder in iCloud, or on their local device.
+SwiftUI has a `fileExporter()` modifier that lets us export files from our app to anywhere the user wants - any folder in iCloud, or on their local device.
 
-Using it takes several steps, because you must first have created a document type that your app is able to work with. I’m going to presume you’ve already done that so we can focus on `fileExporter()`, but if you **haven’t** already created a document type see the end of this article – I’ll provide an example there.
+Using it takes several steps, because you must first have created a document type that your app is able to work with. I’m going to presume you’ve already done that so we can focus on `fileExporter()`, but if you **haven’t** already created a document type see the end of this article - I’ll provide an example there.
 
 First, you need some state to track when you want the exporter UI to show or not. This is a simple Boolean, so you’d use something like this:
 
@@ -64,7 +64,7 @@ First, you need some state to track when you want the exporter UI to show or not
 
 The next step is to add the `fileExporter()` modifier somewhere to your view hierarchy, passing in the Boolean state you just created, the document you want to export, and content type the document has.
 
-Helpfully, the document parameter is **optional**, so you don’t need to have this set at all times. However, in order for the exporter UI to appear the document must be set **and** your state Boolean must have be true – you need both.
+Helpfully, the document parameter is **optional**, so you don’t need to have this set at all times. However, in order for the exporter UI to appear the document must be set **and** your state Boolean must have be true - you need both.
 
 When the export operation completes, the file exporter will run a callback function of your choosing, passing in a `Result` object that either contains the URL where the file was saved or an error.
 

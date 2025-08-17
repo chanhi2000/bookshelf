@@ -134,7 +134,7 @@ Ah boy this is getting complex. Why is it though? Let’s dig in a bit.
 
 ## Exploring the complexities of `null` and `undefined` in JavaScript
 
-There are probably hundreds, if not thousands, of posts and [<FontIcon icon="fa-brands fa-stack-overflow"/>StackOverflow entries](https://stackoverflow.com/questions/5515310/is-there-a-standard-function-to-check-for-null-undefined-or-blank-variables-in) on this topic. It’s simple – the behavior of `null` and `undefined` is a bit wily to developers, both new and old. If we get it wrong, websites break, or our node apps stop working. So we really want to dial it in and make sure it works the way we expect.
+There are probably hundreds, if not thousands, of posts and [<FontIcon icon="fa-brands fa-stack-overflow"/>StackOverflow entries](https://stackoverflow.com/questions/5515310/is-there-a-standard-function-to-check-for-null-undefined-or-blank-variables-in) on this topic. It’s simple - the behavior of `null` and `undefined` is a bit wily to developers, both new and old. If we get it wrong, websites break, or our node apps stop working. So we really want to dial it in and make sure it works the way we expect.
 
 Add into the mix that JavaScript has been around [<FontIcon icon="fas fa-globe"/>since 1995](https://cybercultural.com/p/1995-the-birth-of-javascript/). This also presents problems. JavaScript is used on almost every webpage today, so core features simply cannot be rewritten or reimplemented. If, overnight, a change was made to how `null` or `undefined` was handled in browsers and frameworks like Node.js, the carnage would be huge. It would dwarf the [<FontIcon icon="fas fa-globe"/>Crowdstrike outage](https://blog.logrocket.com/product-management/product-recall-liability-claims/), for instance.
 
@@ -190,7 +190,7 @@ Most of the time, checking that an item is `null` will be enough. But because we
 
 Because `null` is a “falsey” value, it can be tempting to write code like `if (!value)` to do something if a variable is `null`. But, as we’ve seen, that can also permit empty strings and empty arrays to slip through that check.
 
-Understanding these key differences can help us to write [**high–quality code**](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/) that doesn’t behave in unexpected ways. And that’s what we should always aim to do, even if it takes a bit longer.
+Understanding these key differences can help us to write [**high-quality code**](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/) that doesn’t behave in unexpected ways. And that’s what we should always aim to do, even if it takes a bit longer.
 <!-- TODO /blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript.md -->
 
 <!-- TODO: add ARTICLE CARD -->

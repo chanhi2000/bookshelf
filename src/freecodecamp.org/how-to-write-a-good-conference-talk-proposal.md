@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Write a Good Conference Talk Proposal – CFP Guide"
-description: "Article(s) > How to Write a Good Conference Talk Proposal – CFP Guide"
+title: "How to Write a Good Conference Talk Proposal - CFP Guide"
+description: "Article(s) > How to Write a Good Conference Talk Proposal - CFP Guide"
 icon: fas fa-user-tie 
 category:
   - Career
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Write a Good Conference Talk Proposal – CFP Guide"
+      content: "Article(s) > How to Write a Good Conference Talk Proposal - CFP Guide"
     - property: og:description
-      content: "How to Write a Good Conference Talk Proposal – CFP Guide"
+      content: "How to Write a Good Conference Talk Proposal - CFP Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-good-conference-talk-proposal.html
 prev: /projects/career/articles/README.md
@@ -46,7 +46,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745329255973/f4fbb77
 ---
 
 <SiteInfo
-  name="How to Write a Good Conference Talk Proposal – CFP Guide"
+  name="How to Write a Good Conference Talk Proposal - CFP Guide"
   desc="When conferences organize events, they seek knowledgeable speakers to share insights that educate, inspire, and engage attendees. They discover and select speakers through a Call for Proposals (CFP), an open invitation for experts to submit talk idea..."
   url="https://freecodecamp.org/news/how-to-write-a-good-conference-talk-proposal"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -68,18 +68,18 @@ CFP requirements vary from conference to conference, so understanding the specif
 
 The most relevant criteria include:
 
-- **Topic** – Areas of interest that the conference aims to cover.
-- **Session format and duration** – This indicates the available sessions for the conference. It could be a session, workshop, or lightning talk, along with the time allocated.
-- **Audience expectations** – This is used to gauge the audience's level of expertise (beginner, intermediate, advanced) and what attendees hope to gain from the event.
+- **Topic** - Areas of interest that the conference aims to cover.
+- **Session format and duration** - This indicates the available sessions for the conference. It could be a session, workshop, or lightning talk, along with the time allocated.
+- **Audience expectations** - This is used to gauge the audience's level of expertise (beginner, intermediate, advanced) and what attendees hope to gain from the event.
 
 Keeping an eye on the core criteria, topic, audience, and format will help ensure your CFP submission aligns well with the conference expectations. And this can help increase your chances of acceptance.
 
 While necessary for planning, other logistical aspects play a less direct role in crafting the proposal. These include:
 
-- **Speaker logistics and support** – Information on travel, accommodation, and benefits for speakers, such as honorariums or reimbursements.
-- **Event fees and scholarships** – Whether speakers receive free entry or if financial aid options are available.
-- **Code of conduct** – The conference sets the ethical and behavioral guidelines for speakers and attendees.
-- **Conference duration** – Whether the event lasts for one day, two days, or multiple days, which may affect scheduling and availability.
+- **Speaker logistics and support** - Information on travel, accommodation, and benefits for speakers, such as honorariums or reimbursements.
+- **Event fees and scholarships** - Whether speakers receive free entry or if financial aid options are available.
+- **Code of conduct** - The conference sets the ethical and behavioral guidelines for speakers and attendees.
+- **Conference duration** - Whether the event lasts for one day, two days, or multiple days, which may affect scheduling and availability.
 
 ---
 
@@ -107,7 +107,7 @@ In both the abstract and proposal, you should discuss the problems you’re addr
 
 This is just as important as the talk title itself, as it informs the organizers about who you are, where you work, your relevant experience, and how the conference can benefit from having you at the event. Include a recent picture of yourself and, if possible, provide your social media profiles like LinkedIn, so they can connect with you.
 
-Alright, now that you know the various parts involved in creating a CFP, let's look at each component in more detail – and how you can actually craft each part.
+Alright, now that you know the various parts involved in creating a CFP, let's look at each component in more detail - and how you can actually craft each part.
 
 ---
 
@@ -270,8 +270,8 @@ If you're looking for conferences to submit your proposal to, several platforms 
 
 ### Popular CFP Platforms:
 
-- [<FontIcon icon="fas fa-globe"/>Sessionize](https://sessionize.com/) – A widely used platform where conferences post CFPs, allowing speakers to submit proposals easily.
-- [<FontIcon icon="fas fa-globe"/>PaperCall.io](https://papercall.io/) – A hub for discovering CFPs across different industries, including tech and open-source events.
+- [<FontIcon icon="fas fa-globe"/>Sessionize](https://sessionize.com/) - A widely used platform where conferences post CFPs, allowing speakers to submit proposals easily.
+- [<FontIcon icon="fas fa-globe"/>PaperCall.io](https://papercall.io/) - A hub for discovering CFPs across different industries, including tech and open-source events.
 
 ### Other Ways to Discover CFPs:
 
@@ -293,7 +293,7 @@ You can find me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`suleolanr
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Write a Good Conference Talk Proposal – CFP Guide",
+  "title": "How to Write a Good Conference Talk Proposal - CFP Guide",
   "desc": "When conferences organize events, they seek knowledgeable speakers to share insights that educate, inspire, and engage attendees. They discover and select speakers through a Call for Proposals (CFP), an open invitation for experts to submit talk idea...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-good-conference-talk-proposal.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

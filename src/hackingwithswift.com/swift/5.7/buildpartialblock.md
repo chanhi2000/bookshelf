@@ -71,7 +71,7 @@ struct SimpleViewBuilderOld {
 }
 ```
 
-I’ve made that to include two versions of `buildBlock()`: one that accepts two views and one that accepts three. In practice, SwiftUI accepts a wide variety of alternatives, but critically only up to 10 – there’s a `buildBlock()` variant that returns `TupleView<(C0, C1, C2, C3, C4, C5, C6, C7, C8, C9)>`, but there isn’t anything beyond that for practical reasons.
+I’ve made that to include two versions of `buildBlock()`: one that accepts two views and one that accepts three. In practice, SwiftUI accepts a wide variety of alternatives, but critically only up to 10 - there’s a `buildBlock()` variant that returns `TupleView<(C0, C1, C2, C3, C4, C5, C6, C7, C8, C9)>`, but there isn’t anything beyond that for practical reasons.
 
 We could then use that result builder with functions or computed properties, like this:
 
@@ -112,7 +112,7 @@ Even though we only have variants accepting one or two views, because they *accu
 }
 ```
 
-The result isn’t *identical*, however: in the first example we would get back a `TupleView<Text, Text, Text>`, whereas now we would get back a `TupleView<(TupleView<(Text, Text)>, Text)>` – one `TupleView` nested inside another. Fortunately, if the SwiftUI team do intend to adopt this they ought to be able to create the same 10 `buildPartialBlock()` overloads they had before, which should mean the compile automatically creates groups of 10 just like we’re doing explicitly right now.
+The result isn’t *identical*, however: in the first example we would get back a `TupleView<Text, Text, Text>`, whereas now we would get back a `TupleView<(TupleView<(Text, Text)>, Text)>` - one `TupleView` nested inside another. Fortunately, if the SwiftUI team do intend to adopt this they ought to be able to create the same 10 `buildPartialBlock()` overloads they had before, which should mean the compile automatically creates groups of 10 just like we’re doing explicitly right now.
 
 ::: tip
 

@@ -58,7 +58,7 @@ authenticateUser(yourNSString as String)
 
 ::: note
 
-This has changed in later versions of Swift – implicit bridging never happens now.
+This has changed in later versions of Swift - implicit bridging never happens now.
 
 :::
 

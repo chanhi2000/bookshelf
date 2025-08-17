@@ -69,7 +69,7 @@ That passes our view context directly into `ContentView` as environment data, wh
 
 ::: note
 
-Adding a local property for the managed object context isn’t required for performing fetch requests using `@FetchRequest` – you only need it for saving, deleting, and some other tasks.
+Adding a local property for the managed object context isn’t required for performing fetch requests using `@FetchRequest` - you only need it for saving, deleting, and some other tasks.
 
 :::
 

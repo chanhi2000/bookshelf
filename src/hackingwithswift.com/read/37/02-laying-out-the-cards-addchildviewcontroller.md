@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -55,11 +55,11 @@ The first step in our project will be to lay eight cards out on the screen so th
 
 Open up <FontIcon icon="iconfont icon-xcode"/>`Main.storyboard` in Interface Builder, then click “View As” to change it to landscape orientation. Draw out a large `UIView` inside the view controller that was made by the template. Set its size to be 480x320 using explicit width and height constraints, then make it centered inside its parent view. This explicit sizing makes it easy to support the full range of iPhones: we'll place the cards inside this container at exact positions, and the container will be moved depending on the size of the device.
 
-We'll be placing something behind this view later on, so please set its background color to be Clear Color. Later on, we’ll be hand-positioning views in there using code, so we don’t want iOS to resize those child views for us – it will all be placed by hand. So, please uncheck the “Autoresize Subviews” box for the view. Finally, using the Assistant Editor, please make an outlet connection between your new view and the ViewController class, naming it `cardContainer`.
+We'll be placing something behind this view later on, so please set its background color to be Clear Color. Later on, we’ll be hand-positioning views in there using code, so we don’t want iOS to resize those child views for us - it will all be placed by hand. So, please uncheck the “Autoresize Subviews” box for the view. Finally, using the Assistant Editor, please make an outlet connection between your new view and the ViewController class, naming it `cardContainer`.
 
 That's it: we're done with Interface Builder for now; the rest of this chapter will all be done using code.
 
-In the screenshot below you can see how your interface should look – note that I've temporarily colored my inner view gray so you can see it more clearly!
+In the screenshot below you can see how your interface should look - note that I've temporarily colored my inner view gray so you can see it more clearly!
 
 ![Our very basic interface just consists of one view, but yours should be set to 'clear color' at this point](https://hackingwithswift.com/img/books/hws/37-1@2x.png)
 
@@ -212,7 +212,7 @@ allCards.removeAll(keepingCapacity: true)
 
 That just acts as an "undo" for the rest of the method: it loops through all the card view controllers we stored in the `allCards` array, removes the view then removes the view controller containment, then clears the whole array.
 
-Go ahead and run your project now, and you should see eight cards neatly lined up in two rows like the screenshot below – albeit without the gray background. They don't do anything yet, but it's a good start.
+Go ahead and run your project now, and you should see eight cards neatly lined up in two rows like the screenshot below - albeit without the gray background. They don't do anything yet, but it's a good start.
 
 ![Our code places two rows of four cards into the `cardContainer` view](https://hackingwithswift.com/img/books/hws/37-2@2x.png)
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -65,7 +65,7 @@ We're going to use a new UIKit component called `UITextView`. You already met `U
 
 Go to the Editor menu and use Resolve Layout Issues > Reset To Suggested Constraints to add automatic Auto Layout constraints. Now use the assistant editor to create an outlet named `script` for the text view in <FontIcon icon="fa-brands fa-swift"/>`ActionViewController.swift`, and while you're there you can delete the `UIImageView` outlet that Xcode made for you.
 
-This text view is going to contain code rather than writing, so we don’t want any of Apple’s “helpful” text correction systems in place. To turn them off, select the text view then go to the attributes inspector – you want to to set Capitalization to None, then Correction, Smart Dashes, Smart Insert, Smart Quotes, and Spell Checking all to No.
+This text view is going to contain code rather than writing, so we don’t want any of Apple’s “helpful” text correction systems in place. To turn them off, select the text view then go to the attributes inspector - you want to to set Capitalization to None, then Correction, Smart Dashes, Smart Insert, Smart Quotes, and Spell Checking all to No.
 
 That's everything for Interface Builder, so switch back to the standard editor, open <FontIcon icon="fa-brands fa-swift"/>`ActionViewController.swift` and add these two properties to your class:
 

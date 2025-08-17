@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,9 +61,9 @@ isOriginal: false
 <!-- 
 Lots of beginners think `Timer` is a great way to handle running apps or games so that update code is executed every time the screen is redrawn. Their logic is simple: update the app every 60th of a second and you're perfectly placed for smooth redraws.
 
-The problem is, they are forgetting that `Timer` doesn't offer precise firing and can drift earlier or later than requested updates, and also has no idea about screen redraws and so could happily fire 10ms after a screen redraw just happened – and when you're working to 16.666ms frames, 10ms is a long time!
+The problem is, they are forgetting that `Timer` doesn't offer precise firing and can drift earlier or later than requested updates, and also has no idea about screen redraws and so could happily fire 10ms after a screen redraw just happened - and when you're working to 16.666ms frames, 10ms is a long time!
 
-A smarter and faster solution is the `CADisplayLink` class, which automatically calls a method you define as soon as a screen redraw happens, so you always have maximum time to execute your update code. It's extremely simple to use – here's an example to get you started:
+A smarter and faster solution is the `CADisplayLink` class, which automatically calls a method you define as soon as a screen redraw happens, so you always have maximum time to execute your update code. It's extremely simple to use - here's an example to get you started:
 
 ```swift
 let displayLink = CADisplayLink(target: self, selector: #selector(update))

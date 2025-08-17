@@ -81,7 +81,7 @@ class User {
 }
 ```
 
-That tells SwiftData to use the `fullName` property going forward, but if it finds an older model version using `name` it will be upgraded automatically – it will be renamed for us to the new name without any further intervention from us.
+That tells SwiftData to use the `fullName` property going forward, but if it finds an older model version using `name` it will be upgraded automatically - it will be renamed for us to the new name without any further intervention from us.
 
 ::: tip
 

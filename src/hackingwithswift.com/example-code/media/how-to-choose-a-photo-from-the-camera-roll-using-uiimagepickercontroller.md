@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Media - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/media/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -84,11 +84,11 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
 }
 ```
 
-To use that code in your own project, replace the call to `print()` with something useful – you have the image, now what?
+To use that code in your own project, replace the call to `print()` with something useful - you have the image, now what?
 
-There’s one more thing before you’re done, which is to add a description of *why* you want access – what do you intend to do with your user’s photos? To set this, look for the file Info.plist in the project navigator and select it. This opens a new editor for modifying property list values (“plists”) – app configuration settings.
+There’s one more thing before you’re done, which is to add a description of *why* you want access - what do you intend to do with your user’s photos? To set this, look for the file Info.plist in the project navigator and select it. This opens a new editor for modifying property list values (“plists”) - app configuration settings.
 
-In the Key column, hover your mouse pointer over any item and you’ll see a + button appear; please click that to insert a new row. A huge list of options will appear – please scroll down and select “Privacy - Photo Library Usage Description”. In the “Value” box for your row, enter “We need to import photos of people”. This is the message Apple will show to the user when photo access is requested.
+In the Key column, hover your mouse pointer over any item and you’ll see a + button appear; please click that to insert a new row. A huge list of options will appear - please scroll down and select “Privacy - Photo Library Usage Description”. In the “Value” box for your row, enter “We need to import photos of people”. This is the message Apple will show to the user when photo access is requested.
 
 -->
 

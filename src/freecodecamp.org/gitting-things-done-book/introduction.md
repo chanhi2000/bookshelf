@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Introduction
-description: Article(s) > (1/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book] 
+description: Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book] 
 category: 
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (1/6) Gitting Things Done – A Visual and Practical Guide to Git [Full Book]
+      content: Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
     - property: og:description
       content: Introduction
     - property: og:url
@@ -26,7 +26,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 
 ```component VPCard
 {
-  "title": "Gitting Things Done – A Visual and Practical Guide to Git [Full Book]",
+  "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
   "link": "/freecodecamp.org/gitting-things-done-book/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -39,7 +39,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 ---
 
 <SiteInfo
-  name="Gitting Things Done – A Visual and Practical Guide to Git [Full Book]"
+  name="Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
   desc="Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us..."
   url="https://freecodecamp.org/news/gitting-things-done-book/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"

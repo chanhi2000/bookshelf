@@ -113,7 +113,7 @@ In this example, `await` pauses the execution of the `fetchData` function until 
 
 ## Asyncio and Await Syntax in Python
 
-Python’s asynchronous programming revolves around the `asyncio` library, which introduced the `async` and `await` keywords to handle asynchronous operations. Unlike JavaScript, Python does not have a built-in event loop – it relies on `asyncio` to create and manage one.
+Python’s asynchronous programming revolves around the `asyncio` library, which introduced the `async` and `await` keywords to handle asynchronous operations. Unlike JavaScript, Python does not have a built-in event loop - it relies on `asyncio` to create and manage one.
 
 ::: tip Example: Fetching Data with Asyncio
 

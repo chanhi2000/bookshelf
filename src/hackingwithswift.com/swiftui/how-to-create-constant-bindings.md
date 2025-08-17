@@ -66,7 +66,7 @@ Toggle(isOn: .constant(true)) {
 
 ![The text “Show advanced options” beside a green toggle which is turned on.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-create-constant-bindings-1~dark.png)
 
-That switch is read-only and always on because that's what our constant binding says, but it's enough to get you moving for now – you can come back and replace it with a full `@State` property later.
+That switch is read-only and always on because that's what our constant binding says, but it's enough to get you moving for now - you can come back and replace it with a full `@State` property later.
 
 These constant bindings come in all sorts of types: Booleans, strings, integers, and more are all available, and Swift will make sure you use the right one for each view type.
 

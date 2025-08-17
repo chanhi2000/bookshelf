@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,9 +53,9 @@ isOriginal: false
 
 <VidStack src="youtube/NbthZRnz1C4" />
 
-Every useful program needs to store data at some point, and in Swift there are two ways to do it: variables and constants. A variable is a data store that can have its value changed whenever you want, and a constant is a data store that you set once and can never change. So, variables have values that can vary, and constants have values that are constant – easy, right?
+Every useful program needs to store data at some point, and in Swift there are two ways to do it: variables and constants. A variable is a data store that can have its value changed whenever you want, and a constant is a data store that you set once and can never change. So, variables have values that can vary, and constants have values that are constant - easy, right?
 
-Having both these options might seem pointless, after all you could just create a variable then never change it – why does it need to be made a constant? Well, it turns out that many programmers are – shock! – less than perfect at programming, and we make mistakes.
+Having both these options might seem pointless, after all you could just create a variable then never change it - why does it need to be made a constant? Well, it turns out that many programmers are - shock! - less than perfect at programming, and we make mistakes.
 
 One of the advantages of separating constants and variables is that Xcode will tell us if we’ve made a mistake. If we say, "make this date a constant, because I know it will never change" then 10 lines later try to change it, Xcode will refuse to build our app.
 
@@ -69,7 +69,7 @@ var name = "Tim McGraw"
 
 Let’s put that into a playground so you can start getting feedback. Delete everything in there apart from the `import UIKit` line (that's the bit that pulls in Apple's core iOS framework and it's needed later on), and add that variable.
 
-Because this is a variable, you can change it whenever you want, but you shouldn't use the `var` keyword each time – that's only used when you're declaring new variables. Try writing this:
+Because this is a variable, you can change it whenever you want, but you shouldn't use the `var` keyword each time - that's only used when you're declaring new variables. Try writing this:
 
 ```swift
 var name = "Tim McGraw"

@@ -132,9 +132,9 @@ To be absolutely clear, that `action` closure will fire a *lot* when the user sc
 
 Here are some tips to help you make the most of this API without overloading SwiftUI:
 
-- Your transform closure will be called extremely frequently, so make it as fast as you can and make its return value change as *infrequently* as you can – you want to reduce how often your action closure is called.
+- Your transform closure will be called extremely frequently, so make it as fast as you can and make its return value change as *infrequently* as you can - you want to reduce how often your action closure is called.
 - Boiling your transformation down to a Boolean (e.g. "are we at least past Y100" or "has the user moved to a negative scroll position?") is very efficient, because it flips states rarely and therefore calls your action closure rarely too.
-- If your action closure needs to update views, do so very carefully – if you're changing multiple views every time the user scrolls down a single point, you'll easily find your scroll performance is poor.
+- If your action closure needs to update views, do so very carefully - if you're changing multiple views every time the user scrolls down a single point, you'll easily find your scroll performance is poor.
 - If possible, consider using `visualEffect()` or `scrollTransition()` instead.
 
 ::: details Similar solutions…

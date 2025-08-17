@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-As soon as you enable CloudKit support for your app, SwiftData will automatically start syncing your local data with iCloud. If this isn't what you want – if you'd rather handle syncing by hand using `CKSyncEngine` or similar – then in theory you should be able to create a custom model configuration to disable automatic syncing.
+As soon as you enable CloudKit support for your app, SwiftData will automatically start syncing your local data with iCloud. If this isn't what you want - if you'd rather handle syncing by hand using `CKSyncEngine` or similar - then in theory you should be able to create a custom model configuration to disable automatic syncing.
 
 **I say "in theory" because in my tests this doesn't actually work.** At the time of writing, there is no way of enabling iCloud support for your project without SwiftData automatically syncing its data there.
 

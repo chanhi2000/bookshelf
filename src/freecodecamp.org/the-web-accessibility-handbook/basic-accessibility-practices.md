@@ -103,7 +103,7 @@ This is another paragraph
 
 This approach has the following problems:
 
-- The screen reader won’t be able to distinguish between headings and paragraphs – it would just read out the contents in one go, thus confusing people who depend on screen readers.
+- The screen reader won’t be able to distinguish between headings and paragraphs - it would just read out the contents in one go, thus confusing people who depend on screen readers.
 - It’s difficult to style individual paragraphs, since there are no selectors. Even if you add a `<span>` to each one, it requires extra CSS styling.
 - It also contains unnecessary line breaks which can be avoided by using the right elements.
 

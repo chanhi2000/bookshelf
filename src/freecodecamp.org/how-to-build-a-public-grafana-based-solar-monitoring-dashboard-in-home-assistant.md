@@ -93,7 +93,7 @@ Next, go to your Home Assistant sidebar and click on InfluxDB. You need to creat
 
 ![A screenshot of InfluxDB Add-on Admin settings showing database available](https://cdn.hashnode.com/res/hashnode/image/upload/v1744466323654/78f21741-e6ca-4094-8fc3-adc563b3dfc1.png)
 
-Click on Create Database – and you can name the database anything you want. I will be naming mine **homeassistant**.
+Click on Create Database - and you can name the database anything you want. I will be naming mine **homeassistant**.
 
 By default, the retention policy for a created database is infinity (which is forever), but you can configure this to be any time frame you want. Retention policy refers to the time frame of data the database can hold. I prefer to stick with infinity as I want to keep as much data as possible and I have enough storage in my Home Assistant hardware for that.
 
@@ -138,7 +138,7 @@ But before you do that, you need to connect InfluxDB to Grafana. Navigate to Gra
 
 ![A screenshot of Grafana Add-on connection settings page](https://cdn.hashnode.com/res/hashnode/image/upload/v1744470636092/8dcb8f2b-7fcd-49d3-80d8-abce4f83ea07.png)
 
-Under HTTP, edit the URL and use **http://ha_ip_address:8086** – don’t omit the `http://` or try to use `localhost` with it. Scroll down to the InfluxDB Details and fill in the data you used while setting up InfluxDB. Then click on Save & Test. If the config is correct, you should see a green tick and text saying “datasource is working…measurements found.”
+Under HTTP, edit the URL and use **http://ha_ip_address:8086** - don’t omit the `http://` or try to use `localhost` with it. Scroll down to the InfluxDB Details and fill in the data you used while setting up InfluxDB. Then click on Save & Test. If the config is correct, you should see a green tick and text saying “datasource is working…measurements found.”
 
 ![A screenshot of Grafana Add-on connection configuration for InfluxDB](https://cdn.hashnode.com/res/hashnode/image/upload/v1744471708830/5b0d0306-8b74-4c02-9163-cc23a7c3425c.png)
 
@@ -157,7 +157,7 @@ So now go to your Grafana in Home Assistant, click on the + icon and create a ne
 You should know that a dashboard in Grafana refers to the full space and each thing placed on the dashboard is a panel. Each visualization on the dashboard is a panel.
 
 
-Let’s create a new panel. Pick InfluxDB as the data source, and at the `FROM` row, pick W which is the unit we want to create a visualization from. `WHERE` is entity_id::tag, as that is the way to sort the values by Home Assistant sensor entity name. Then pick the entity id of your panel – mine is `growatt_pv1_charge_power`. You can change the panel title, change the visualization to stat, and add the watt as the unit and the base colour to yellow.
+Let’s create a new panel. Pick InfluxDB as the data source, and at the `FROM` row, pick W which is the unit we want to create a visualization from. `WHERE` is entity_id::tag, as that is the way to sort the values by Home Assistant sensor entity name. Then pick the entity id of your panel - mine is `growatt_pv1_charge_power`. You can change the panel title, change the visualization to stat, and add the watt as the unit and the base colour to yellow.
 The raw query looks like this:
 
 ```sql
@@ -220,7 +220,7 @@ grafana_ingress_user: usernameofnewuser
 
 At this point, we have the solar dashboard all ready and we can access it in Home Assistant while inside our home network. But we don’t want it only that way. We want anyone to be able to visit the link without having access to our home network.
 
-I will be implementing this part with the aid of a Home Assistant Cloudflared Add-on that leverages Cloudflare Tunnel. Here is the [Github repository (<FontIcon icon="iconfont icon-github"/>`brenner-tobias/addon-cloudflared`)](https://github.com/brenner-tobias/addon-cloudflared) – the installation is simple and stress-free.
+I will be implementing this part with the aid of a Home Assistant Cloudflared Add-on that leverages Cloudflare Tunnel. Here is the [Github repository (<FontIcon icon="iconfont icon-github"/>`brenner-tobias/addon-cloudflared`)](https://github.com/brenner-tobias/addon-cloudflared) - the installation is simple and stress-free.
 
 After going through the setup and having remote access to your Home Assistant network (remember to have 2FA turned on), go to the Cloudflared Add-on configuration tab and edit the Additional Hosts part.
 

@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: "How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9"
-description: "Article(s) > How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9"
+title: "How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9"
+description: "Article(s) > How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9"
 icon: iconfont icon-awk
 category: 
   - Linux
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9"
+      content: "Article(s) > How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9"
     - property: og:description
-      content: "How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9"
+      content: "How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tecmint.com/learn-use-awk-special-patterns-begin-and-end.html
 prev: /tool/awk/articles/README.md
@@ -59,7 +59,7 @@ cover: https://tecmint.com/wp-content/uploads/2016/07/Learn-Awk-Patterns-BEGIN-a
 ---
 
 <SiteInfo
-  name="How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9"
+  name="How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9"
   desc="In this article, we shall cover Awk special patterns: BEGIN and END and these special features will help to expand and explore more complex Awk operations."
   url="https://tecmint.com/learn-use-awk-special-patterns-begin-and-end"
   logo="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico"
@@ -200,7 +200,7 @@ As I pointed out before, these Awk features will help us build more complex [**t
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Use Awk Special Patterns ‘BEGIN and END’ – Part 9",
+  "title": "How to Use Awk Special Patterns ‘BEGIN and END’ - Part 9",
   "desc": "In this article, we shall cover Awk special patterns: BEGIN and END and these special features will help to expand and explore more complex Awk operations.",
   "link": "https://chanhi2000.github.io/bookshelf/tecmint.com/learn-use-awk-special-patterns-begin-and-end.html",
   "logo": "https://tecmint.com/wp-content/uploads/2020/07/favicon.ico",

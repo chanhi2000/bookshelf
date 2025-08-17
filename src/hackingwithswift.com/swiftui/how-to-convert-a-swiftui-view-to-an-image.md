@@ -68,12 +68,12 @@ if let uiImage = renderer.uiImage {
 
 However, there are four key points to be aware of:
 
-1. If you don’t specify otherwise, your image will be rendered at 1x scale – that will look fuzzy on 2x or 3x resolution screens.
+1. If you don’t specify otherwise, your image will be rendered at 1x scale - that will look fuzzy on 2x or 3x resolution screens.
 2. You must not attempt to use `ImageRenderer` off the main actor, which might mean marking your rendering code with `@MainActor`.
 3. You can put the SwiftUI views you want to render right into the `ImageRenderer(content:)` initializer if you want, but I nearly always find separating them out into a dedicated view results in much cleaner code.
 4. Unlike the older `UIGraphicsImageRenderer` there is no easy way to read PNG or JPEG data directly from `ImageRenderer`, so as you can see in the code we need to read its resulting `UIImage` then call the `pngData()` method of *that*. This makes the code more complex for cross-platform users, but when I suggested to Apple that they could make it better they told me to use the (ancient) ImageI/O framework. (Spoiler: don’t use it, it will just lead to pain.)
 
-Let’s look at a second example that is more realistic – this automatically uses the correct image scale for the device, uses `@MainActor` to ensure the rendering code is safe to call, carves out the view to render into its own struct, and then lets users share the result using `ShareLink`:
+Let’s look at a second example that is more realistic - this automatically uses the correct image scale for the device, uses `@MainActor` to ensure the rendering code is safe to call, carves out the view to render into its own struct, and then lets users share the result using `ShareLink`:
 
 ```swift
 // An example view to render
@@ -126,7 +126,7 @@ struct ContentView: View {
 
 As you can see, that calls `render()` when the view is shown and also whenever `text` changes.
 
-If you need to target iOS 15 and below, then SwiftUI’s views don’t have a built-in function to render a view as an image – we need to write one ourselves. The key here is to wrap the view using `UIHostingController`, then render its view hierarchy into a `UIGraphicsImageRenderer`.
+If you need to target iOS 15 and below, then SwiftUI’s views don’t have a built-in function to render a view as an image - we need to write one ourselves. The key here is to wrap the view using `UIHostingController`, then render its view hierarchy into a `UIGraphicsImageRenderer`.
 
 This is best done using an extension on `View`, so you can call it naturally. This should wrap the view in a hosting controller, adjust the size of the hosting controller’s view to be the intrinsic content size of the SwiftUI view, clear any background color to keep the rendered image clean, then render the view into an image and send it back.
 
@@ -151,7 +151,7 @@ extension View {
 }
 ```
 
-To use that extension in SwiftUI, you should create your view as a property so you can reference it on demand – for example, in response to a button action. 
+To use that extension in SwiftUI, you should create your view as a property so you can reference it on demand - for example, in response to a button action. 
 
 For example, this renders a styled text view to an image, then saves it to the user’s photo album:
 

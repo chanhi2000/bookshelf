@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,9 +59,9 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-iOS has a built-in iCloud sync system called `NSUbiquitousKeyValueStore`, but to be honest it's pretty unpleasant to work with. Fortunately, other developers have written simple wrappers around it so that you can forget about iCloud and focus on the interesting things instead – i.e., the rest of your app.
+iOS has a built-in iCloud sync system called `NSUbiquitousKeyValueStore`, but to be honest it's pretty unpleasant to work with. Fortunately, other developers have written simple wrappers around it so that you can forget about iCloud and focus on the interesting things instead - i.e., the rest of your app.
 
-One such example is called **MKiCloudSync** and it's <a href="https://github.com/MugunthKumar/MKiCloudSync">available from here</a>. It's open source and so easy to use you literally don't notice that it's there once you've added it to your app – it just silently syncs your `UserDefaults` values to and from iCloud.
+One such example is called **MKiCloudSync** and it's <a href="https://github.com/MugunthKumar/MKiCloudSync">available from here</a>. It's open source and so easy to use you literally don't notice that it's there once you've added it to your app - it just silently syncs your `UserDefaults` values to and from iCloud.
 
 To use it, <a href="https://github.com/MugunthKumar/MKiCloudSync">go here</a> and click Download Zip. Inside the zip file you'll find **MKiCloudSync.h** and **MKiCloudSync.m**, and you should drag them both into your Xcode project. Xcode will ask you if you want to create an Objective-C bridging header, and you should click "Create Bridging Header" - this is required because MKiCloudSync is written in Objective-C rather than Swift.
 
@@ -77,9 +77,9 @@ Now open your <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` file, fin
 MKiCloudSync.start(withPrefix: "sync")
 ```
 
-The "sync" part is important, because chances are you won't want to sync *everything* to iCloud. With that prefix, MKiCloudSync will copy to iCloud only `UserDefaults` keys that start with `sync` – you can now choose what you want to sync just by naming your keys appropriately.
+The "sync" part is important, because chances are you won't want to sync *everything* to iCloud. With that prefix, MKiCloudSync will copy to iCloud only `UserDefaults` keys that start with `sync` - you can now choose what you want to sync just by naming your keys appropriately.
 
-There is one final, important thing to do: you need to enable iCloud for your app. This is done inside the Capabilities tab of your target's settings – find iCloud, then flick its switch to be On.
+There is one final, important thing to do: you need to enable iCloud for your app. This is done inside the Capabilities tab of your target's settings - find iCloud, then flick its switch to be On.
 
 -->
 

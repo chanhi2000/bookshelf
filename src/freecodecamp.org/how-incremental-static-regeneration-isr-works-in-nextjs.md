@@ -341,7 +341,7 @@ If your `revalidate` is too short and you have thousands of pages, the server mi
 ::: info How to handle it:
 
 - Be smart with your `revalidate` values.
-- For very big sites, consider On-Demand ISR (where you control when pages rebuild manually – we’ll talk about this next).
+- For very big sites, consider On-Demand ISR (where you control when pages rebuild manually - we’ll talk about this next).
 
 :::
 
@@ -359,7 +359,7 @@ But sometimes you want full control. You want to regenerate a page immediately a
 
 This is where On-Demand ISR comes in.
 
-With On-Demand ISR, you manually trigger a page to rebuild using an API route. No waiting for the timer – you decide when it happens.
+With On-Demand ISR, you manually trigger a page to rebuild using an API route. No waiting for the timer - you decide when it happens.
 
 ### How to Set Up On-Demand ISR
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ The method needs to start by figuring out where in the scene the player touches,
 
 To make this code a little cleaner I want to introduce you to a new piece of Swift syntax that is a bit confusing at first because it uses three keywords back to back: `for case let`.
 
-You see, when we ask for all the nodes under the users finger we’ll get back an array of `SKNode`, and that’s not good enough – we can’t set the color blend factor of an `SKNode`, because it might not have a texture. Instead, what we want to do is go over only the *sprite* nodes in the returned array – we want to run the body of our loop only for sprite nodes, not for the other items.
+You see, when we ask for all the nodes under the users finger we’ll get back an array of `SKNode`, and that’s not good enough - we can’t set the color blend factor of an `SKNode`, because it might not have a texture. Instead, what we want to do is go over only the *sprite* nodes in the returned array - we want to run the body of our loop only for sprite nodes, not for the other items.
 
 This is where `for case let` comes in: it lets us attempts some work (typecasting to `SKSpriteNode` in this case), and run the loop body only for items that were successfully typecast.
 

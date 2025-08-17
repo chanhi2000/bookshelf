@@ -51,7 +51,7 @@ cover: /assets/image/blog.logrocket.com/guide-graceful-degradation-web-developme
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/guide-graceful-degradation-web-development/banner.png"/>
 
-Graceful degradation is a design principle in software and system engineering that ensures a system continues functioning – albeit with reduced performance or features – when one or more of its components fail or encounter problems.
+Graceful degradation is a design principle in software and system engineering that ensures a system continues functioning - albeit with reduced performance or features - when one or more of its components fail or encounter problems.
 
 ![A Guide To Graceful Degradation In Web Development](/assets/image/blog.logrocket.com/guide-graceful-degradation-web-development/banner.png)
 
@@ -132,7 +132,7 @@ export const handler = async (
 };
 ```
 
-In this new version, we add a `timeoutPromise` that will “`race`” with our external API call: if the external API answers in less than `200ms` (i.e. wins the race), we get a new joke, otherwise, we get `null` as a result. This is disruptive – our frontend relies on the response from the API as a JSON object, and it gets a message (“Failed to fetch joke”) and a 500 HTTP error. In the browser, it will produce these effects:
+In this new version, we add a `timeoutPromise` that will “`race`” with our external API call: if the external API answers in less than `200ms` (i.e. wins the race), we get a new joke, otherwise, we get `null` as a result. This is disruptive - our frontend relies on the response from the API as a JSON object, and it gets a message (“Failed to fetch joke”) and a 500 HTTP error. In the browser, it will produce these effects:
 
 ![Random Joke Generator Frontend Sample](/assets/image/blog.logrocket.com/guide-graceful-degradation-web-development/random-joke-generator-frontend.png)
 

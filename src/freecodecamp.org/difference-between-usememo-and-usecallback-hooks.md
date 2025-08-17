@@ -255,7 +255,7 @@ You can add many more states to the `App` component and update them without inhi
 
 - When you have event handlers defined for an element inside your component, wrap them inside a `useCallback` to avoid unnecessary re-creations of event handlers.
 - When you call a function inside a `useEffect`, you usually pass the function as a dependency. To avoid using `useEffect` unnecessarily on every render, wrap the function definition inside a `useCallback`.
-- If you are writing a custom hook, and it returns a function, it is recommended to wrap it inside a `useCallback`. So, there's no need for the users to worry about optimizing the hook – rather, they can focus on their own code.
+- If you are writing a custom hook, and it returns a function, it is recommended to wrap it inside a `useCallback`. So, there's no need for the users to worry about optimizing the hook - rather, they can focus on their own code.
 
 ---
 

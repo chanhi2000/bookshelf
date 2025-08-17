@@ -94,7 +94,7 @@ Analytics and observability platforms such as TestRail Analytics, Xray, Grafana,
 
 These platforms connect with CI/CD tools, so you get real-time updates on test quality. This makes it easier for teams to stay on top of what matters, even when they are spread across locations.
 
-### Example – Running a Working Test on LambdaTest
+### Example - Running a Working Test on LambdaTest
 
 LambdaTest lets you execute real browser tests in the cloud, making it easy to scale your testing across browsers and OS combinations. Here is a working example using Python and Selenium, which opens a page, checks the title, and closes the browser:
 
@@ -205,7 +205,7 @@ All of these insights help QA and DevOps teams improve their strategies. They le
 
 ---
 
-## Example – Using Grafana and Kibana for Test Analytics
+## Example - Using Grafana and Kibana for Test Analytics
 
 Analytics tools help your teams understand test trends, flakiness, coverage gaps, and slowdowns in the CI/CD pipeline. Here is how you can set them up to actually *work* with your test data.
 

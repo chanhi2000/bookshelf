@@ -53,7 +53,7 @@ prev: /hackingwithswift.com/swiftui/how-to-read-user-contacts-with-contactaccess
 
 > Updated for Xcode 15
 
-By default SwiftUI apps come with a remarkably high level of accessibility, which is no accident – it was planned into the framework from the earliest days, and unless you actively choose to work around the defaults you’ll find your apps do a good job of being accessible without much extra work from you.
+By default SwiftUI apps come with a remarkably high level of accessibility, which is no accident - it was planned into the framework from the earliest days, and unless you actively choose to work around the defaults you’ll find your apps do a good job of being accessible without much extra work from you.
 
 The key to this behavior is the stack-based approach of SwiftUI’s layouts: everything has a natural order because we place things inside `HStack` and `VStack`, so the system can understand roughly how our layout should flow. In comparison, UIKit and Auto Layout let us place things anywhere, so the system effectively had to make a best guess as to how things should be ordered.
 

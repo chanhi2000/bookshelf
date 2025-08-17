@@ -53,17 +53,17 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-SwiftUI and SwiftData are built with tight coordination, which allows SwiftUI to update its views only when your SwiftData object changes a value that actually matters – any property that is actually used by the view will cause an update, but changing other values won't.
+SwiftUI and SwiftData are built with tight coordination, which allows SwiftUI to update its views only when your SwiftData object changes a value that actually matters - any property that is actually used by the view will cause an update, but changing other values won't.
 
-Internally this is all powered by Swift's observation system: when SwiftUI renders a view it makes a list of all the properties that are read from `Observable` objects, then watch those properties – and only those – for changes. When any *do* change, that view gets re-evaluated and the whole process repeats.
+Internally this is all powered by Swift's observation system: when SwiftUI renders a view it makes a list of all the properties that are read from `Observable` objects, then watch those properties - and only those - for changes. When any *do* change, that view gets re-evaluated and the whole process repeats.
 
 ::: tip
 
-This whole process works equally well with computed properties – as long as calling a computed property refers to a stored property on your object, SwiftUI will take note that it was accessed when your view was rendered.
+This whole process works equally well with computed properties - as long as calling a computed property refers to a stored property on your object, SwiftUI will take note that it was accessed when your view was rendered.
 
 :::
 
-Because SwiftData's objects are built on top of the Swift's observation system, all our objects automatically inherit this same power: views that use one of your model objects won't update until a property they directly rely on has changed. So, if your view refers to a user's name, it won't refresh if that's user's age changes – it's a big performance win.
+Because SwiftData's objects are built on top of the Swift's observation system, all our objects automatically inherit this same power: views that use one of your model objects won't update until a property they directly rely on has changed. So, if your view refers to a user's name, it won't refresh if that's user's age changes - it's a big performance win.
 
 ::: important
 

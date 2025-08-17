@@ -68,7 +68,7 @@ SwiftData will execute lightweight migration automatically for a range of small 
 
 These changes are always safe, and so are automatic. In contrast, changes that *aren’t* safe will require a complex migration where you need to step in and handle the update yourself.
 
-For example, if you’re adding the `.unique` attribute to a property where all values for that property are already unique, it’s a lightweight migration. But if there are duplicate values the lightweight migration will fail, and your container will not be loaded – your app will effectively be non-functional.
+For example, if you’re adding the `.unique` attribute to a property where all values for that property are already unique, it’s a lightweight migration. But if there are duplicate values the lightweight migration will fail, and your container will not be loaded - your app will effectively be non-functional.
 
 ::: tip
 

@@ -34,7 +34,7 @@ author: Paul Hudson
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -80,7 +80,7 @@ extension UIImageView {
 }
 ```
 
-Keep in mind that if you try to call that method several times on the same image view - e.g. if you’re scrolling through a table – then you’re going to hit problems, because multiple images will start downloading.
+Keep in mind that if you try to call that method several times on the same image view - e.g. if you’re scrolling through a table - then you’re going to hit problems, because multiple images will start downloading.
 
 If you want *that* to work then you should subclass `UIImageView` so you can store the URL that was requested, and compare that URL inside the `load()` function to make sure it hasn’t been changed in the time between starting the fetch and loading the image. But if you’re that serious, I would suggest using something like SDWebImage instead: <a href="https://github.com/rs/SDWebImage">https://github.com/rs/SDWebImage</a>.
 

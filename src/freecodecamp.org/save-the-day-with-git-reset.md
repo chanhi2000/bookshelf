@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "GitReset Explained – How to Save the Day with the Reset Command"
-description: "Article(s) > GitReset Explained – How to Save the Day with the Reset Command"
+title: "GitReset Explained - How to Save the Day with the Reset Command"
+description: "Article(s) > GitReset Explained - How to Save the Day with the Reset Command"
 icon: iconfont icon-git
 category:
   - Git
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > GitReset Explained – How to Save the Day with the Reset Command"
+      content: "Article(s) > GitReset Explained - How to Save the Day with the Reset Command"
     - property: og:description
-      content: "GitReset Explained – How to Save the Day with the Reset Command"
+      content: "GitReset Explained - How to Save the Day with the Reset Command"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html
 prev: /programming/git/articles/README.md
@@ -44,7 +44,7 @@ cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9882740569d1a4ca1a78.jpg
 ---
 
 <SiteInfo
-  name="GitReset Explained – How to Save the Day with the Reset Command"
+  name="GitReset Explained - How to Save the Day with the Reset Command"
   desc="Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa..."
   url="https://freecodecamp.org/news/save-the-day-with-git-reset"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -122,7 +122,7 @@ Git reset has three operating modes — `--soft`, `--mixed`, or `--hard`. I 
 - Stage 2 — update **index** — `git reset --mixed`
 - Stage 3 — update **working dir** — `git reset --hard`
 
-### Stage 1–update `HEAD` (`git reset --soft`)
+### Stage 1-update `HEAD` (`git reset --soft`)
 
 First, `git reset` updates whatever `HEAD` points to. For `git reset --hard HEAD~1` it will move what `HEAD` points to (in the example above, <FontIcon icon="fas fa-code-branch"/>`master`) to `HEAD~1`. If the `— -soft` flag is used, `git reset` stops there.
 
@@ -136,7 +136,7 @@ Looking at `git status`, we can see that the file is indeed staged but not commi
 
 In other words, we reverted the process to the stage where we used `git add`, but haven’t yet used `git commit`.
 
-### Stage 2–update index to HEAD (`git reset --mixed`)
+### Stage 2-update index to HEAD (`git reset --mixed`)
 
 If we use `git reset --mixed HEAD~1`, then `git` won’t stop after updating whatever `HEAD` points to ( <FontIcon icon="fas fa-code-branch"/>`master` )to `HEAD~1`. It will also update the **index** to (the already updated) `HEAD`.
 
@@ -148,7 +148,7 @@ So we reverted the process to the stage before using `git add` — the newly
 
 ![](https://freecodecamp.org/news/content/images/2020/09/12-1.png)
 
-### Stage 3–update the working dir to index (`git reset --hard`)
+### Stage 3-update the working dir to index (`git reset --hard`)
 
 By using `git reset — hard HEAD~1`, after updating whatever `HEAD` points to (<FontIcon icon="fas fa-code-branch"/>`master` )to `HEAD~1`, as well as updating the **index** to (the already updated) `HEAD`, `git` will move on and update the **working dir** to look like the **index**.
 
@@ -311,7 +311,7 @@ In future posts, we will cover additional `git` commands and how they can help u
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "GitReset Explained – How to Save the Day with the Reset Command",
+  "title": "GitReset Explained - How to Save the Day with the Reset Command",
   "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

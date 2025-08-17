@@ -70,7 +70,7 @@ Image("laser-show")
 
 ![The text “SWIFT!” forms a mask through which we can see a laser show.](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-mask-one-view-with-another-1~dark@2x.png)
 
-The `mask()` modifier is different from `clipShape()`, because it also applies any transparency from the masking view – you get to have holes in your underlying view based on the transparency of your mask. On the other hand, `clipShape()` only adjusts the outside shape of the view you apply it to.
+The `mask()` modifier is different from `clipShape()`, because it also applies any transparency from the masking view - you get to have holes in your underlying view based on the transparency of your mask. On the other hand, `clipShape()` only adjusts the outside shape of the view you apply it to.
 
 ::: details Similar solutions…
 

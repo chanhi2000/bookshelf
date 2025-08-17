@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Use Cases: When (and When Not) to Use Kubernetes 🧭"
-description: Article(s) > (8/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (8/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (8/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (8/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "Use Cases: When (and When Not) to Use Kubernetes 🧭"
     - property: og:url
@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -47,13 +47,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-use-cases-when-and-when-not-to-use-kubernetes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d3-f2a5-44eb-83b5-d1a614bead9f.png"/>
 
-Kubernetes is an incredibly powerful tool – but it’s not always the right solution from day one.
+Kubernetes is an incredibly powerful tool - but it’s not always the right solution from day one.
 
 Let’s break down when it makes sense to use Kubernetes and when it might be overkill 👇
 
@@ -65,7 +65,7 @@ Kubernetes becomes essential in these scenarios:
 
 ### 1. Your Application Is Made of Many Microservices
 
-If your app is broken down into multiple microservices – like user authentication, payments, orders, notifications, and more – it’s a good sign that Kubernetes might eventually help.
+If your app is broken down into multiple microservices - like user authentication, payments, orders, notifications, and more - it’s a good sign that Kubernetes might eventually help.
 
 Kubernetes can:
 
@@ -76,7 +76,7 @@ Kubernetes can:
 
 ### 2. You’re Getting *Steady and High* Traffic
 
-It’s not just about complexity – it’s about demand.
+It’s not just about complexity - it’s about demand.
 
 If your app receives a consistent, high volume of users (like hundreds or thousands every day), and you start seeing signs that your servers are getting overloaded, Kubernetes shines here. It can:
 
@@ -86,7 +86,7 @@ If your app receives a consistent, high volume of users (like hundreds or thousa
 
 ### 3. You Want Portability and Cloud Independence
 
-If your business doesn’t want to be locked into just one cloud provider (for example, only AWS), Kubernetes gives you flexibility. You can move your application between AWS, GCP, Azure – or even to your own data center – with fewer changes.
+If your business doesn’t want to be locked into just one cloud provider (for example, only AWS), Kubernetes gives you flexibility. You can move your application between AWS, GCP, Azure - or even to your own data center - with fewer changes.
 
 ### 4. Your DevOps Team Is Growing
 
@@ -118,7 +118,7 @@ If traffic to your app is still small and manageable, a single server (or a few 
 
 ### 3. You Don’t Have a DevOps Team
 
-Kubernetes is powerful – but it needs expertise to set up and maintain. If you don’t have a DevOps engineer or someone who understands Kubernetes, it may cause more problems than it solves.
+Kubernetes is powerful - but it needs expertise to set up and maintain. If you don’t have a DevOps engineer or someone who understands Kubernetes, it may cause more problems than it solves.
 
 Hiring a DevOps team can be expensive, and setting up Kubernetes incorrectly can lead to outages, security risks, or wasted resources 💸
 
@@ -135,13 +135,13 @@ Here’s a simple roadmap:
 3. **Track pain points**: If scaling becomes too manual, or if services crash under load...
 4. **Then adopt Kubernetes** 🧠
 
-It’s not about how complex your app is – it’s about when the traffic and growth demand an upgrade in how you manage things.
+It’s not about how complex your app is - it’s about when the traffic and growth demand an upgrade in how you manage things.
 
 ::: info 🎯 TL;DR for Founders and DevOps Teams
 
 - Don’t jump to Kubernetes just because it’s trendy
 - Use it only when traffic grows steadily and auto-scaling becomes necessary
 - Kubernetes is most valuable when you want to scale reliably and efficiently
-- Before that point, stick to simple deployments – it’ll save you time, money, and stress
+- Before that point, stick to simple deployments - it’ll save you time, money, and stress
 
 :::

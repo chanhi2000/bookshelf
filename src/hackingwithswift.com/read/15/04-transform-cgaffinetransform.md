@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -119,7 +119,7 @@ Tapping the button now will scale up then down, then move and return back to the
 
 We can also use `CGAffineTransform` to rotate views, using its `rotationAngle` initializer. This accepts one parameter, which is the amount in radians you want to rotate. There are three catches to using this function:
 
-1. You need to provide the value in radians specified as a `CGFloat`. This usually isn't a problem – if you type 1.0 in there, Swift is smart enough to make that a `CGFloat` automatically. If you want to use a value like pi, use `CGFloat.pi`.
+1. You need to provide the value in radians specified as a `CGFloat`. This usually isn't a problem - if you type 1.0 in there, Swift is smart enough to make that a `CGFloat` automatically. If you want to use a value like pi, use `CGFloat.pi`.
 2. Core Animation will always take the shortest route to make the rotation work. So, if your object is straight and you rotate to 90 degrees (radians: half of pi), it will rotate clockwise. If your object is straight and you rotate to 270 degrees (radians: pi + half of pi) it will rotate counter-clockwise because it's the smallest possible animation.
 3. A consequence of the second catch is that if you try to rotate 360 degrees (radians: pi times 2), Core Animation will calculate the shortest rotation to be "just don't move, because we're already there." The same goes for values over 360, for example if you try to rotate 540 degrees (one and a half full rotations), you'll end up with just a 180-degree rotation.
 
@@ -134,7 +134,7 @@ case 5:
 
 As well as animating transforms, Core Animation can animate many of the properties of your views. For example, it can animate the background color of the image view, or the level of transparency. You can even change multiple things at once if you want something more complicated to happen.
 
-As an example, to make our view almost fade out then fade back in again while also changing its background color, we're going to modify its transparency by setting its `alpha` value, where 0 is invisible and 1 is fully visible, and also set its `backgroundColor` property – first to green, then to clear.
+As an example, to make our view almost fade out then fade back in again while also changing its background color, we're going to modify its transparency by setting its `alpha` value, where 0 is invisible and 1 is fully visible, and also set its `backgroundColor` property - first to green, then to clear.
 
 Add these two new cases:
 
@@ -162,5 +162,5 @@ UIView.animate(withDuration: 1, delay: 0, options: [],
 UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 5, options: [],
 ```
 
-This changes the `animate(withDuration:)` so that it uses spring animations rather than the default, ease-in-ease-out animation. I'm not even going to tell you what this does because I'm sure you're going to be impressed – press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the app and tap the button for yourself. We're done!
+This changes the `animate(withDuration:)` so that it uses spring animations rather than the default, ease-in-ease-out animation. I'm not even going to tell you what this does because I'm sure you're going to be impressed - press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the app and tap the button for yourself. We're done!
 

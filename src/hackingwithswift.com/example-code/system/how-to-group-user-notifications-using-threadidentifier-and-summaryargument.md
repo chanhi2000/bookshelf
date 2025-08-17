@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "System - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/system/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-If your app shows notifications that can be split into sensible groups – such as messages from a person, updates for a news story, scores from a sports match, and so on on – you can have iOS group them together using the `threadIdentifier` and `summaryArgument` properties of `UNMutableNotificationContent`. iOS will then show those messages together, rather than in a long chain mixed up with other messages.
+If your app shows notifications that can be split into sensible groups - such as messages from a person, updates for a news story, scores from a sports match, and so on on - you can have iOS group them together using the `threadIdentifier` and `summaryArgument` properties of `UNMutableNotificationContent`. iOS will then show those messages together, rather than in a long chain mixed up with other messages.
 
 For example, you might write code like this:
 
@@ -69,7 +69,7 @@ content.title = reminder.title
 content.threadIdentifier = "F39-C521-A7A"
 ```
 
-The “F39-C521-A7A” part is a free text string – it won’t be shown to users, but it’s what allows iOS to group things together so it should be unique enough that you don’t get message crossover. If you were building a messaging app you might use the user’s unique identifier for your notification rather than their name, to avoid two messages from different people called Andrew being grouped together.
+The “F39-C521-A7A” part is a free text string - it won’t be shown to users, but it’s what allows iOS to group things together so it should be unique enough that you don’t get message crossover. If you were building a messaging app you might use the user’s unique identifier for your notification rather than their name, to avoid two messages from different people called Andrew being grouped together.
 
 If you want to customize this further, you can also set the `summaryArgument` property of your notification content. This is a string that *is* shown to users, so you might write something like this:
 

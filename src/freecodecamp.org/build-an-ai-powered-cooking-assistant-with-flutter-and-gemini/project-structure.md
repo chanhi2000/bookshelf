@@ -42,7 +42,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748533427117/1c8c238
 ```component VPCard
 {
   "title": "How to Build an AI-Powered Cooking Assistant with Flutter and Gemini",
-  "desc": "After soaking in everything shared at GoogleIO, I can’t lie – I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li...",
+  "desc": "After soaking in everything shared at GoogleIO, I can’t lie - I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li...",
   "link": "/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748533427117/1c8c238
 
 <SiteInfo
   name="How to Build an AI-Powered Cooking Assistant with Flutter and Gemini"
-  desc="After soaking in everything shared at GoogleIO, I can’t lie – I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li..."
+  desc="After soaking in everything shared at GoogleIO, I can’t lie - I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li..."
   url="https://freecodecamp.org/news/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini#heading-project-structure"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1748533427117/1c8c2384-c6a3-4ad8-ab40-1eee65b2c914.png"/>
@@ -522,7 +522,7 @@ The `ImageUploadController` class manages the process of picking and optionally 
 - Inside the sheet, it displays a draggable indicator and two `ImagePickerTile` widgets (presumably a custom widget for displaying each option) for "Capture from Camera" and "Upload from Gallery."
 - When an `ImagePickerTile` is tapped, it internally calls the `imagePicker` method with the corresponding `RecordSource`.
 
-In summary, `ImageUploadController` acts as a central orchestrator for image acquisition, offering options to pick from the gallery or camera, and integrating robust image cropping capabilities – all while ensuring a smooth user experience through UI callbacks and modal interactions.
+In summary, `ImageUploadController` acts as a central orchestrator for image acquisition, offering options to pick from the gallery or camera, and integrating robust image cropping capabilities - all while ensuring a smooth user experience through UI callbacks and modal interactions.
 
 ```dart :collapsed-lines title="recipe_controller.dart"
 import 'dart:io';
@@ -1179,7 +1179,7 @@ The `HomeScreen` is the main user interface of our AI cooking assistant applicat
 - `setFile(File? pickedFile)`: Callback function passed to `ImageUploadController` to update `selectedFile` with the picked image, and also extracts its `fileName` and `fileSize` using our custom extension.
 - `removeFile()`: Clears the `selectedFile` and `fileSize` states, effectively removing the displayed image.
 
-### `build(BuildContext context)` Method – UI Layout:
+### `build(BuildContext context)` Method - UI Layout:
 
 - `FloatingActionButton.extended`: This button, labeled "Send Request," becomes visible only when an image (`selectedFile`) is chosen OR when there's text in the query box (`_query.text.isNotEmpty`). Tapping it triggers `RecipeController.sendRequest` with the relevant input.
   - **App title and subtitle**: Displays the main headings using `AppStrings`.

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -63,7 +63,7 @@ Swift optionals are one of the most confusing parts of the language for beginner
 
 But what happens if I ask for the position of an element that doesn't exist in an array? Clearly returning 0 or any positive number isn't helpful, because you wouldn't be able to tell whether 0 meant "not found" or meant "found at the first position in an array." That's where optional values come in: an optional data type might have a value (0, 1, -1, etc) or might have no value at all.
 
-Being able to say "has no value" for any kind of data is really important, and it's baked right into the core of Swift. You see, by default Swift won't let you work directly with optional values, because trying to work on data that isn't there causes a crash – imagine trying to uppercase someone's name when they haven't entered it yet. So, Swift forces you to check and unwrap optionals safely: if the optional has a value do something with it, otherwise do something else.
+Being able to say "has no value" for any kind of data is really important, and it's baked right into the core of Swift. You see, by default Swift won't let you work directly with optional values, because trying to work on data that isn't there causes a crash - imagine trying to uppercase someone's name when they haven't entered it yet. So, Swift forces you to check and unwrap optionals safely: if the optional has a value do something with it, otherwise do something else.
 
 -->
 

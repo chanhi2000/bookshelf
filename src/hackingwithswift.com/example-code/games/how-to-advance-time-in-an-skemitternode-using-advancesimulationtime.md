@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-When you create a particle system in SpriteKit, the particles start at their creation point and move outwards from there. That’s fine for things like explosions and fire, but if you’re using the particles to simulate something that has no real start or end – space dust, for example – then having your particles start from a particular location looks wrong.
+When you create a particle system in SpriteKit, the particles start at their creation point and move outwards from there. That’s fine for things like explosions and fire, but if you’re using the particles to simulate something that has no real start or end - space dust, for example - then having your particles start from a particular location looks wrong.
 
 To fix this, you should use the `advanceSimulationTime()` method of `SKEmitterNode`: give it a number of seconds, and it effectively fast forwards the particle system by that amount. For a space dust particle system, this would fill the screen with particles, so the game screen doesn’t start empty.
 

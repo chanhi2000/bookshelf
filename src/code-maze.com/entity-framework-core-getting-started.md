@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Entity Framework Core – Getting Started
-description: Article(s) > Entity Framework Core – Getting Started
+title: Entity Framework Core - Getting Started
+description: Article(s) > Entity Framework Core - Getting Started
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -13,9 +13,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > Entity Framework Core – Getting Started
+      content: Article(s) > Entity Framework Core - Getting Started
     - property: og:description
-      content: Entity Framework Core – Getting Started
+      content: Entity Framework Core - Getting Started
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/entity-framework-core-getting-started.html
 prev: /programming/cs/articles/README.md
@@ -41,7 +41,7 @@ cover: /assets/image/code-maze.com/entity-framework-core-getting-started/banner.
 ---
 
 <SiteInfo
-  name="Entity Framework Core – Getting Started"
+  name="Entity Framework Core - Getting Started"
   desc="Let's learn how to integrate Entity Framework Core in an ASP.NET Core application. We will talk about Entities and DbContext class in detail."
   url="https://code-maze.com/entity-framework-core-getting-started/"
   logo="/assets/image/code-maze.com/favicon.png"

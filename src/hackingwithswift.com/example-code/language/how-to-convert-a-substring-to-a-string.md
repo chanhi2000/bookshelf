@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Swift has a dedicated `Substring` type (`String.SubSequence`) that is designed to hold slices of strings, which is a performance optimization: when you store part of a string in a different variable, Swift can simply point the substring at the parent string rather than copy all the data.
 
-However, while substrings can be used in many of the same ways as regular strings, they aren’t the same – if you have a function that accepts a `String` as a parameter, you simply cannot send it a `Substring`.
+However, while substrings can be used in many of the same ways as regular strings, they aren’t the same - if you have a function that accepts a `String` as a parameter, you simply cannot send it a `Substring`.
 
 To fix this, you can wrap your substring in a `String` initializer like this:
 

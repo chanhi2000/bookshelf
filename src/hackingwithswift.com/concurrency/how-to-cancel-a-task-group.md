@@ -227,11 +227,11 @@ await testCancellation()
 
 ::: note
 
-Just throwing an error inside `addTask()` isn’t enough to cause other tasks in the group to be cancelled – this only happens when you access the value of the throwing task using `next()` or when looping over the child tasks. This is why the code sample above specifically waits for the result of a task, because doing so will cause `ExampleError.badURL` to be rethrown and cancel the other task.
+Just throwing an error inside `addTask()` isn’t enough to cause other tasks in the group to be cancelled - this only happens when you access the value of the throwing task using `next()` or when looping over the child tasks. This is why the code sample above specifically waits for the result of a task, because doing so will cause `ExampleError.badURL` to be rethrown and cancel the other task.
 
 :::
 
-Calling `addTask()` on your group will unconditionally add a new task to the group, even if you have already cancelled the group. If you want to avoid adding tasks to a cancelled group, use the `addTaskUnlessCancelled()` method instead – it works identically except will do nothing if called on a cancelled group. Calling `addTaskUnlessCancelled()` returns a Boolean that will be true if the task was successfully added, or false if the task group was already cancelled.
+Calling `addTask()` on your group will unconditionally add a new task to the group, even if you have already cancelled the group. If you want to avoid adding tasks to a cancelled group, use the `addTaskUnlessCancelled()` method instead - it works identically except will do nothing if called on a cancelled group. Calling `addTaskUnlessCancelled()` returns a Boolean that will be true if the task was successfully added, or false if the task group was already cancelled.
 
 ::: details Similar solutions…
 

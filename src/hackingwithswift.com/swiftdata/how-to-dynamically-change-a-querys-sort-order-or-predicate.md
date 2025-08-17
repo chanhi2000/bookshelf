@@ -61,9 +61,9 @@ We’ve already seen the simple version, because it’s where we can put our sor
 @Query(sort: \.name, order: .reverse) var users: [User]
 ```
 
-In practice, however, that doesn’t happen much – usually users want to be able to set the sort order dynamically, which is not actually supported by `@Query` right now. 
+In practice, however, that doesn’t happen much - usually users want to be able to set the sort order dynamically, which is not actually supported by `@Query` right now. 
 
-To get dynamic sorting working you need to move your `@Query` properties down a view in SwiftUI’s hierarchy – you need to put it into a subview where you can provide a sort value using dependency injection.
+To get dynamic sorting working you need to move your `@Query` properties down a view in SwiftUI’s hierarchy - you need to put it into a subview where you can provide a sort value using dependency injection.
 
 This means making a new SwiftUI that uses `@Query` to show the SwiftData objects you're working with, then embed that in a parent view that provides some UI for the user to select their sort order or filter.
 
@@ -105,7 +105,7 @@ NavigationStack {
 }
 ```
 
-This change doesn’t actually handle sorting – this is just the setup required to make sorting possible. However, because we now have a subview we’re able to send values into there to control the `@Query` property wrapper.
+This change doesn’t actually handle sorting - this is just the setup required to make sorting possible. However, because we now have a subview we’re able to send values into there to control the `@Query` property wrapper.
 
 This takes four steps in in total:
 

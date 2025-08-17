@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "What Makes Code Vulnerable – And How to Fix It"
-description: "Article(s) > What Makes Code Vulnerable – And How to Fix It"
+title: "What Makes Code Vulnerable - And How to Fix It"
+description: "Article(s) > What Makes Code Vulnerable - And How to Fix It"
 icon: fa-brands fa-python
 category:
   - Python
@@ -18,9 +18,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > What Makes Code Vulnerable – And How to Fix It"
+      content: "Article(s) > What Makes Code Vulnerable - And How to Fix It"
     - property: og:description
-      content: "What Makes Code Vulnerable – And How to Fix It"
+      content: "What Makes Code Vulnerable - And How to Fix It"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-makes-code-vulnerable-and-how-to-fix-it.html
 prev: /programming/py/articles/README.md
@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745251285687/7ce5aca
 ---
 
 <SiteInfo
-  name="What Makes Code Vulnerable – And How to Fix It"
+  name="What Makes Code Vulnerable - And How to Fix It"
   desc="Writing code is relatively easy. But writing secure code is much harder. The truth is, most developers don’t realize their code is vulnerable until something breaks. Or, worse, until someone attacks it. So if you want secure code, you first have to k..."
   url="https://freecodecamp.org/news/what-makes-code-vulnerable-and-how-to-fix-it"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -75,7 +75,7 @@ In this tutorial, we’ll see 10 clear signs that your code might be vulnerable 
 
 ## 1. Hardcoded Credentials
 
-This one is *everywhere*. Maybe you’ve seen it yourself – an API key sitting right there in the code. A database password written in plain text.
+This one is *everywhere*. Maybe you’ve seen it yourself - an API key sitting right there in the code. A database password written in plain text.
 
 It looks like this:
 
@@ -84,9 +84,9 @@ DB_PASSWORD = "supersecret123"
 API_KEY = "sk_test_abc123"
 ```
 
-If this code leaks (and it will), attackers can do whatever they want. They can log into your systems, steal your data, or run up huge bills on cloud services – all without breaking a sweat.
+If this code leaks (and it will), attackers can do whatever they want. They can log into your systems, steal your data, or run up huge bills on cloud services - all without breaking a sweat.
 
-And here’s the scary part: this kind of leak doesn’t just happen when your whole project gets hacked. It can happen when someone pushes code to GitHub and forgets to add <FontIcon icon="fas fa-file-lines"/>`.env` to <FontIcon icon="iconfont icon-git"/>`.gitignore`. Boom – your secret keys are now public.
+And here’s the scary part: this kind of leak doesn’t just happen when your whole project gets hacked. It can happen when someone pushes code to GitHub and forgets to add <FontIcon icon="fas fa-file-lines"/>`.env` to <FontIcon icon="iconfont icon-git"/>`.gitignore`. Boom - your secret keys are now public.
 
 ::: tip How to Protect Against It
 
@@ -175,11 +175,11 @@ Imagine a database error pops up in production, and your app spits out something
 psycopg2.OperationalError: could not connect to server: Connection refused
 ```
 
-Great – now attackers know what database you’re using, and they might start poking around.
+Great - now attackers know what database you’re using, and they might start poking around.
 
 ::: tip How to Protect Against It
 
-- **Log detailed errors** – but do it securely. Use logging tools or services, and don’t store logs where users can see them.
+- **Log detailed errors** - but do it securely. Use logging tools or services, and don’t store logs where users can see them.
 - **Show users simple messages** like:<br/>`"Oops! Something went wrong. Please try again later."`<br/>That’s all they need to know.
 - **Never expose stack traces in production.** Turn off debug mode and use proper error pages.
 - **Handle specific exceptions** where possible, so you know exactly what failed and why.
@@ -197,7 +197,7 @@ except Exception as e:
     return "Something went wrong. Try again later."
 ```
 
-Use error monitoring tools like Sentry, Rollbar, or LogRocket. They catch errors, track them, and help you fix them – before users even notice.
+Use error monitoring tools like Sentry, Rollbar, or LogRocket. They catch errors, track them, and help you fix them - before users even notice.
 
 :::
 
@@ -205,7 +205,7 @@ Use error monitoring tools like Sentry, Rollbar, or LogRocket. They catch errors
 
 ## 4. Outdated Dependencies
 
-Using old packages is like leaving your front door wide open. Attackers know exactly where the weak spots are – and they actively scan for them.
+Using old packages is like leaving your front door wide open. Attackers know exactly where the weak spots are - and they actively scan for them.
 
 If your <FontIcon icon="iconfont icon-json"/>`package.json` or <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file hasn’t changed in years, that’s a red flag.
 
@@ -241,9 +241,9 @@ If your app lets anyone in without verifying who they are, that’s game over. W
 
 Common mistakes include:
 
-- **No password complexity rules** – Weak passwords like “123456” or “password” can be cracked in seconds using brute-force or dictionary attacks.
-- **Storing passwords in plain text** – If your database is ever breached, all user credentials are exposed instantly, leading to massive data leaks and account takeovers.
-- **No account lockout after repeated failed logins** – Without a limit on login attempts, attackers can keep guessing passwords endlessly using automated tools.
+- **No password complexity rules** - Weak passwords like “123456” or “password” can be cracked in seconds using brute-force or dictionary attacks.
+- **Storing passwords in plain text** - If your database is ever breached, all user credentials are exposed instantly, leading to massive data leaks and account takeovers.
+- **No account lockout after repeated failed logins** - Without a limit on login attempts, attackers can keep guessing passwords endlessly using automated tools.
 
 ::: tip How to Protect Against It
 
@@ -293,7 +293,7 @@ In the above code, a login is required and the user is verified before giving th
 
 - Always verify ownership and roles before showing or modifying data.
 - Implement access control rules across your API and frontend.
-- Don’t trust IDs from the frontend – verify on the backend too.
+- Don’t trust IDs from the frontend - verify on the backend too.
 
 :::
 
@@ -307,7 +307,7 @@ Ever seen a password reset link like this?
 https://example.com/reset-password?token=abcd1234
 ```
 
-Looks harmless – but it’s not. Tokens, session IDs, and API keys **should never be in URLs**. They get saved in:
+Looks harmless - but it’s not. Tokens, session IDs, and API keys **should never be in URLs**. They get saved in:
 
 - Browser history
 - Server logs
@@ -328,7 +328,7 @@ Authorization: Bearer abcd1234
 
 ## 8. No Rate Limiting
 
-Rate limiting is a security technique that controls how many times a user (or system) can make a request to your server within a given time frame – for example, no more than 10 login attempts per minute.
+Rate limiting is a security technique that controls how many times a user (or system) can make a request to your server within a given time frame - for example, no more than 10 login attempts per minute.
 
 Without rate limits,
 
@@ -397,7 +397,7 @@ You also can store files outside public directory, and finally limit file size i
 
 ## 10. Missing HTTPS
 
-If your app still uses plain old HTTP, all data travels in the open – including:
+If your app still uses plain old HTTP, all data travels in the open - including:
 
 - Passwords
 - Tokens
@@ -409,7 +409,7 @@ Attackers can sniff it all with tools like [**Wireshark**](/freecodecamp.org/lea
 
 To start, you can use HTTPS everywhere and get a free SSL cert from [<FontIcon icon="fas fa-globe"/>Let’s Encrypt](https://letsencrypt.org/).
 
-You can also redirect insecure traffic – here’s how you’d do it in Flask, for example:
+You can also redirect insecure traffic - here’s how you’d do it in Flask, for example:
 
 ```py
 @app.before_request
@@ -418,7 +418,7 @@ def before_request():
         return redirect(request.url.replace("http://", "https://"))
 ```
 
-Encrypting traffic is not optional – it’s table stakes for modern apps.
+Encrypting traffic is not optional - it’s table stakes for modern apps.
 
 :::
 
@@ -428,14 +428,14 @@ Encrypting traffic is not optional – it’s table stakes for modern apps.
 
 Writing secure code isn’t about being perfect. It’s about being careful. Slow down. Look at your code with fresh eyes. Think like an attacker. Plan for failure before it happens.
 
-The best security isn’t patched in later – it’s baked in from the start.
+The best security isn’t patched in later - it’s baked in from the start.
 
 For more cybersecurity tutorials, [<FontIcon icon="fas fa-globe"/>join my newsletter](https://newsletter.stealthsecurity.sh/). New to cybersecurity? Check out my [<FontIcon icon="fas fa-globe"/>Security Starter Course](https://start.stealthsecurity.sh/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "What Makes Code Vulnerable – And How to Fix It",
+  "title": "What Makes Code Vulnerable - And How to Fix It",
   "desc": "Writing code is relatively easy. But writing secure code is much harder. The truth is, most developers don’t realize their code is vulnerable until something breaks. Or, worse, until someone attacks it. So if you want secure code, you first have to k...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-makes-code-vulnerable-and-how-to-fix-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

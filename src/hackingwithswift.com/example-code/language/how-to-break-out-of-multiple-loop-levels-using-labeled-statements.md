@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Language - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/language/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -77,7 +77,7 @@ for number1 in numbers {
 }
 ```
 
-As soon as we’ve found that square, we can stop looking. The problem is, a regular `break` won’t work here because it will exit only the inner loop – the outer loop will keep counting 13, 14, 15, and so on up to 100. However, if we add a label to the outer loop we can break out of both loops at once, like this:
+As soon as we’ve found that square, we can stop looking. The problem is, a regular `break` won’t work here because it will exit only the inner loop - the outer loop will keep counting 13, 14, 15, and so on up to 100. However, if we add a label to the outer loop we can break out of both loops at once, like this:
 
 ```swift
 outerLoop: for number1 in numbers {
@@ -90,7 +90,7 @@ outerLoop: for number1 in numbers {
 }
 ```
 
-Notice the `outerLoop:` before the `for number1` loop, and also the matching `break outerLoop` – that will cause both loops to exit as soon as the correct number is found.
+Notice the `outerLoop:` before the `for number1` loop, and also the matching `break outerLoop` - that will cause both loops to exit as soon as the correct number is found.
 
 -->
 

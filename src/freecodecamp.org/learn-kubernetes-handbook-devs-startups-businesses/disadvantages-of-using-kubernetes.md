@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "😬 Disadvantages of Using Kubernetes"
-description: Article(s) > (7/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses 
+description: Article(s) > (7/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses 
 category:
   - DevOps
   - VM
@@ -16,7 +16,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (7/8) Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses
+      content: Article(s) > (7/8) Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses
     - property: og:description
       content: "😬 Disadvantages of Using Kubernetes"
     - property: og:url
@@ -33,7 +33,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 
 ```component VPCard
 {
-  "title": "Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses",
+  "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
   "link": "/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -46,13 +46,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d
 ---
 
 <SiteInfo
-  name="Learn Kubernetes – Full Handbook for Developers, Startups, and Businesses"
+  name="Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
   desc="You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s..."
   url="https://freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses#heading-disadvantages-of-using-kubernetes"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746205417767/d9d6b0d3-f2a5-44eb-83b5-d1a614bead9f.png"/>
 
-Like everything in tech, Kubernetes isn’t all rainbows and rockets 🚀. Just like any other tool, it has its pros and its cons. And it's super important for startup founders, product managers, or even CEOs to know when Kubernetes is the right fit – and when it’s just overkill.
+Like everything in tech, Kubernetes isn’t all rainbows and rockets 🚀. Just like any other tool, it has its pros and its cons. And it's super important for startup founders, product managers, or even CEOs to know when Kubernetes is the right fit - and when it’s just overkill.
 
 Let’s break down the main disadvantages in a simple, honest way:
 
@@ -85,21 +85,21 @@ You’ll need someone skilled to manage this tool. If you’re a solo founder or
 
 ## 💰 2. Kubernetes Can Be Expensive (If Used Prematurely)
 
-Kubernetes saves money at scale – but can cost more if you adopt it too early or for the wrong use case.
+Kubernetes saves money at scale - but can cost more if you adopt it too early or for the wrong use case.
 
 Here's why:
 
-- Kubernetes is meant for managing multiple applications or microservices. If your business only has one small app, you’re using a rocket to deliver a pizza 🍕 – it’s just not necessary.
+- Kubernetes is meant for managing multiple applications or microservices. If your business only has one small app, you’re using a rocket to deliver a pizza 🍕 - it’s just not necessary.
 - Kubernetes is also best when you have high or unpredictable traffic. It can automatically scale up your services when traffic spikes...but if your traffic is steady and small, you won’t benefit much from that power.
 
 Let’s say:
 
 - You have one app with moderate traffic.
-- You deploy it on Kubernetes (which requires at least 1–2 VMs + setup).
+- You deploy it on Kubernetes (which requires at least 1-2 VMs + setup).
 - You hire a DevOps engineer to manage it.
 - You pay for cloud compute + storage + monitoring.
 
-You could end up spending $300–$800/month or more... for something that could’ve been hosted on a simple service like [<FontIcon icon="fas fa-globe"/>Render](https://render.com), [<FontIcon icon="fas fa-globe"/>Heroku](https://heroku.com), or a basic VM for a fraction of the cost.
+You could end up spending $300-$800/month or more... for something that could’ve been hosted on a simple service like [<FontIcon icon="fas fa-globe"/>Render](https://render.com), [<FontIcon icon="fas fa-globe"/>Heroku](https://heroku.com), or a basic VM for a fraction of the cost.
 
 So when **should** you consider Kubernetes?
 

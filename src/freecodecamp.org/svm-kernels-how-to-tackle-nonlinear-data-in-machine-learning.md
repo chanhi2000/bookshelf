@@ -103,13 +103,13 @@ The goal of the article is to teach you about SVM kernels and their application 
 
 Linear classifiers are classification algorithms that make predictions by using a straight line of best fit as a decision boundary between two or more categories.
 
-Marginal planes are used to determine the support vector in the classification task. Support vectors are the data points in the dataset that are used to separate the different target variable categories – they are data points very close to the decision boundary.
+Marginal planes are used to determine the support vector in the classification task. Support vectors are the data points in the dataset that are used to separate the different target variable categories - they are data points very close to the decision boundary.
 
-In the image below, the marginal planes are the yellow lines, while the hyperplane is the red line. The hyperplane serves as the line of best fit or decision boundary. The data points that are closest to the marginal plane are the support vectors – the data points encircled in green in the image below.
+In the image below, the marginal planes are the yellow lines, while the hyperplane is the red line. The hyperplane serves as the line of best fit or decision boundary. The data points that are closest to the marginal plane are the support vectors - the data points encircled in green in the image below.
 
 ![Hard Margin: Decision Boundary for classification of two labels Image by the Author](https://cdn.hashnode.com/res/hashnode/image/upload/v1735889303238/33e28db8-a0aa-4aa9-ac63-0ece6b2d8c15.png)
 
-The marginal plane aims to achieve a maximum margin between its plane and the hyperplane – both having equal distance from hyperplane to achieve the best classification. The hyperplane in the image above shows a perfect linear relationship between `feature x1` and `feature x2`. The support vectors also help to establish the location of the marginal plane.
+The marginal plane aims to achieve a maximum margin between its plane and the hyperplane - both having equal distance from hyperplane to achieve the best classification. The hyperplane in the image above shows a perfect linear relationship between `feature x1` and `feature x2`. The support vectors also help to establish the location of the marginal plane.
 
 We have the hard margin and the soft margin, serving as model optimization methodologies for the SVM. The hard margin shows that you cannot find a data point of `feature x1` in the same area where there are `feature x2` data points and vice versa. It used to describe a perfect classification by the algorithm. The image above gives a representation of a hard margin.
 

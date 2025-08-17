@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How to Write Better Names for Your Variables, Functions, and Classes – With Examples"
-description: "Article(s) > How to Write Better Names for Your Variables, Functions, and Classes – With Examples"
+title: "How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
+description: "Article(s) > How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
 icon: fa-brands fa-js
 category:
   - JavaScript
@@ -14,9 +14,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How to Write Better Names for Your Variables, Functions, and Classes – With Examples"
+      content: "Article(s) > How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
     - property: og:description
-      content: "How to Write Better Names for Your Variables, Functions, and Classes – With Examples"
+      content: "How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-better-variable-names.html
 prev: /programming/js/articles/README.md
@@ -43,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733325693047/f3dff20
 ---
 
 <SiteInfo
-  name="How to Write Better Names for Your Variables, Functions, and Classes – With Examples"
+  name="How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
   desc="Naming is one of the most important and challenging parts of writing clean, maintainable, and scalable code. A well-thought-out variable name, for example, can act as self-documenting code, saving time and effort in understanding the logic. But poorl..."
   url="https://freecodecamp.org/news/how-to-write-better-variable-names"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -558,7 +558,7 @@ These and the other tips we’ve discussed here will make your code a joy to wor
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How to Write Better Names for Your Variables, Functions, and Classes – With Examples",
+  "title": "How to Write Better Names for Your Variables, Functions, and Classes - With Examples",
   "desc": "Naming is one of the most important and challenging parts of writing clean, maintainable, and scalable code. A well-thought-out variable name, for example, can act as self-documenting code, saving time and effort in understanding the logic. But poorl...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-better-variable-names.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

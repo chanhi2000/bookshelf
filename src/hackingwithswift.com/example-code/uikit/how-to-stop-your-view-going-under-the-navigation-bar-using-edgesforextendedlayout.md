@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-As of iOS 7.0, all views automatically go behind navigation bars, toolbars and tab bars to provide what Apple calls "context" – having some idea of what's underneath the UI (albeit blurred out with a frosted glass effect) gives users an idea of what else is just off screen.
+As of iOS 7.0, all views automatically go behind navigation bars, toolbars and tab bars to provide what Apple calls "context" - having some idea of what's underneath the UI (albeit blurred out with a frosted glass effect) gives users an idea of what else is just off screen.
 
 If this is getting in your way (and honestly it does get in the way surprisingly often) you can easily disable it for a given view controller by modifying its `edgesForExtendedLayout` property.
 

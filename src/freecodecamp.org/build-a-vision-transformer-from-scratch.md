@@ -64,18 +64,18 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 This course covers the fundamental concepts and components that make up a Vision Transformer. Here's what you’ll explore:
 
-- **Introduction to Vision Transformers** – Understand the motivation behind ViTs and how they differ from traditional convolutional neural networks (CNNs).
-- **CLIP Model** – Learn about OpenAI’s CLIP model and how it bridges vision and language tasks.
-- **SigLIP vs CLIP** – Compare SigLIP and CLIP to see how different models approach vision-language learning.
-- **Image Preprocessing** – Discover how to prepare image data for a Vision Transformer.
-- **Patch Embeddings** – Learn how images are divided into patches and converted into vector embeddings.
-- **Position Embeddings** – Explore how Transformers maintain spatial information through positional embeddings.
-- **Embeddings Visualization** – Gain insights into how embeddings represent image features.
-- **Embeddings Implementation** – Implement the embedding process in code.
-- **Multi-Head Attention** – Understand and build the core self-attention mechanism that enables Transformers to capture complex relationships in images.
-- **MLP Layers** – Learn about the feedforward layers that refine feature representations in a ViT.
-- **Assembling the Full Vision Transformer** – Put everything together to build a working Vision Transformer model.
-- **Recap** – Review key takeaways and reinforce your understanding.
+- **Introduction to Vision Transformers** - Understand the motivation behind ViTs and how they differ from traditional convolutional neural networks (CNNs).
+- **CLIP Model** - Learn about OpenAI’s CLIP model and how it bridges vision and language tasks.
+- **SigLIP vs CLIP** - Compare SigLIP and CLIP to see how different models approach vision-language learning.
+- **Image Preprocessing** - Discover how to prepare image data for a Vision Transformer.
+- **Patch Embeddings** - Learn how images are divided into patches and converted into vector embeddings.
+- **Position Embeddings** - Explore how Transformers maintain spatial information through positional embeddings.
+- **Embeddings Visualization** - Gain insights into how embeddings represent image features.
+- **Embeddings Implementation** - Implement the embedding process in code.
+- **Multi-Head Attention** - Understand and build the core self-attention mechanism that enables Transformers to capture complex relationships in images.
+- **MLP Layers** - Learn about the feedforward layers that refine feature representations in a ViT.
+- **Assembling the Full Vision Transformer** - Put everything together to build a working Vision Transformer model.
+- **Recap** - Review key takeaways and reinforce your understanding.
 
 :::
 

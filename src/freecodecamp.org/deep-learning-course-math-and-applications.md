@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Deep Learning Course – Math and Applications"
-description: "Article(s) > Deep Learning Course – Math and Applications"
+title: "Deep Learning Course - Math and Applications"
+description: "Article(s) > Deep Learning Course - Math and Applications"
 icon: fas fa-brain
 category:
   - AI
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Deep Learning Course – Math and Applications"
+      content: "Article(s) > Deep Learning Course - Math and Applications"
     - property: og:description
-      content: "Deep Learning Course – Math and Applications"
+      content: "Deep Learning Course - Math and Applications"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-learning-course-math-and-applications.html
 prev: /ai/articles/README.md
@@ -48,7 +48,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715177855099/f851bc1
 ---
 
 <SiteInfo
-  name="Deep Learning Course – Math and Applications"
+  name="Deep Learning Course - Math and Applications"
   desc="Understanding the math behind deep learning is important if you want to become proficient in machine learning techniques. We just published a 14-hour deep learning course on the freeCodeCamp.org YouTube channel. This course is specifically tailored t..."
   url="https://freecodecamp.org/news/deep-learning-course-math-and-applications"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -95,7 +95,7 @@ Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCam
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Deep Learning Course – Math and Applications",
+  "title": "Deep Learning Course - Math and Applications",
   "desc": "Understanding the math behind deep learning is important if you want to become proficient in machine learning techniques. We just published a 14-hour deep learning course on the freeCodeCamp.org YouTube channel. This course is specifically tailored t...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-learning-course-math-and-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

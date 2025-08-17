@@ -68,7 +68,7 @@ First up, `throws` is a simple keyword that you add to your method to tell Swift
 func doStuff() throws -> String {
 ```
 
-Once that's done, you cannot call that method unless your code is written to handle any errors it throws – Xcode simply won't compile. When you want to throw an error from inside your methods, you just write `throw` followed by the type of error you want to throw, like this:
+Once that's done, you cannot call that method unless your code is written to handle any errors it throws - Xcode simply won't compile. When you want to throw an error from inside your methods, you just write `throw` followed by the type of error you want to throw, like this:
 
 ```swift
 func doStuff() throws -> String {
@@ -104,11 +104,11 @@ If you remember, we made the `doStuff()` method print "Do stuff 1" then "Do stuf
 
 - "Do stuff 1" will be printed
 - "Do stuff 2" will be printed
-- The NetworkError error will be thrown, immediately exiting the `doStuff()` method – its return statement will never be reached
+- The NetworkError error will be thrown, immediately exiting the `doStuff()` method - its return statement will never be reached
 - Control will jump to the `catch` block
 - "An error occurred" will be printed
 
-To be clear: in the code above, "Success" will never be printed – as soon as any `try` methods throw an error, execution stops and jumps to the `catch` block.
+To be clear: in the code above, "Success" will never be printed - as soon as any `try` methods throw an error, execution stops and jumps to the `catch` block.
 As I said, you can mix and match generic and specific `catch` blocks, but you do need to be sure that all possible errors are caught. For example, this will execute one chunk of code for NetworkError errors, and another chunk for all other errors:
 
 ```swift

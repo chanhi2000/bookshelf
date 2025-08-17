@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "Time to Get Hands-On with Rebase"
-description: "Article(s) > (3/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+description: "Article(s) > (3/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
 category:
   - Git
   - Article(s)
@@ -12,7 +12,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (3/8) The Git Rebase Handbook – A Definitive Guide to Rebasing"
+      content: "Article(s) > (3/8) The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:description
       content: "Time to Get Hands-On with Rebase"
     - property: og:url
@@ -30,7 +30,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 
 ```component VPCard
 {
-  "title": "The Git Rebase Handbook – A Definitive Guide to Rebasing",
+  "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
   "link": "/freecodecamp.org/git-rebase-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -43,7 +43,7 @@ cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handb
 ---
 
 <SiteInfo
-  name="The Git Rebase Handbook – A Definitive Guide to Rebasing"
+  name="The Git Rebase Handbook - A Definitive Guide to Rebasing"
   desc="One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too..."
   url="https://freecodecamp.org/news/git-rebase-handbook#heading-time-to-get-hands-on-with-rebase"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -84,18 +84,18 @@ And observe the history:
 
 <VidStack src="youtube/3VFsitGUB3s" />
 
-So whereas with `git merge` you added to the history, with `git rebase` you **rewrite history**. You create **new** commit objects. In addition, the result is a linear history graph – rather than a diverging graph.
+So whereas with `git merge` you added to the history, with `git rebase` you **rewrite history**. You create **new** commit objects. In addition, the result is a linear history graph - rather than a diverging graph.
 
 ![The history after rebasing<br/><Source: [<FontIcon icon="fa-brands fa-youtube"/>Brief](https://youtu.be/3VFsitGUB3s)>](https://freecodecamp.org/news/content/images/2023/06/image-209.png)
 
 In essence, we "copied" the commits that were on <FontIcon icon="fas fa-code-branch"/>`paul_branch` and introduced after "Commit 4", and "pasted" them on top of <FontIcon icon="fas fa-code-branch"/>`john_branch`.
 
-The command is called "rebase", because it changes the base commit of the branch it's run from. That is, in your case, before running `git rebase`, the base of <FontIcon icon="fas fa-code-branch"/>`paul_branch` was "Commit 4" – as this is where the branch was "born" (from <FontIcon icon="fa-brands fa-code-branch"/>`main`). With `rebase`, you asked Git to give it another base – that is, pretend as if it had been born from "Commit 6".
+The command is called "rebase", because it changes the base commit of the branch it's run from. That is, in your case, before running `git rebase`, the base of <FontIcon icon="fas fa-code-branch"/>`paul_branch` was "Commit 4" - as this is where the branch was "born" (from <FontIcon icon="fa-brands fa-code-branch"/>`main`). With `rebase`, you asked Git to give it another base - that is, pretend as if it had been born from "Commit 6".
 
 To do that, Git took what used to be "Commit 7", and "replayed" the changes introduced in this commit onto "Commit 6", and then created a new commit object. This object differs from the original "Commit 7" in three aspects:
 
 1. It has a different timestamp.
-2. It has a different parent commit – "Commit 6" rather than "Commit 4".
+2. It has a different parent commit - "Commit 6" rather than "Commit 4".
 3. The [**tree object**](/freecodecamp.org/git-internals-objects-branches-create-repo/git-objects-blob-tree-and-commit.md) it is pointing to is different - as the changes were introduced to the tree pointed to by "Commit 6", and not the tree pointed to by "Commit 4".
 
 Notice the last commit here, "Commit 9'". The snapshot it represents (that is, the [**tree**](/freecodecamp.org/git-internals-objects-branches-create-repo/git-objects-blob-tree-and-commit.md) that it points to) is exactly the same tree you would get by merging the two branches. The state of the files in your Git repository would be **the same** as if you used `git merge`. It's only the history that is different, and the commit objects of course.

@@ -103,7 +103,7 @@ func move(from source: IndexSet, to destination: Int) {
 
 When moving several items it's always a good idea to move the later ones first so that you avoid moving other items and getting your indexes confused. Fortunately, Swift's sequences have a built-in way to move index sets for us, so we can just pass the parameters along and have it work correctly.
 
-As an example, we could create a `ContentView` struct that sets up an array of three username strings, and asks SwiftUI to move them around calling a `move()` method. In order to activate moving – i.e., to make the drag handles appear – it also adds an edit button to the navigation stack so the user can toggle editing mode.
+As an example, we could create a `ContentView` struct that sets up an array of three username strings, and asks SwiftUI to move them around calling a `move()` method. In order to activate moving - i.e., to make the drag handles appear - it also adds an edit button to the navigation stack so the user can toggle editing mode.
 
 Here's the code:
 

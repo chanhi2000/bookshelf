@@ -165,7 +165,7 @@ It’s as easy as that!
 
 ## How to Create Custom Commands for More Complex Shortcuts
 
-Ok, this seems great, but it’s not really that impressive – we’re only removing a few characters. However, we can make them much more helpful, we can create our commands using shell commands.
+Ok, this seems great, but it’s not really that impressive - we’re only removing a few characters. However, we can make them much more helpful, we can create our commands using shell commands.
 
 Let’s take the following example, a command I use a lot!
 

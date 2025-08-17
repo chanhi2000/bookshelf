@@ -85,7 +85,7 @@ To view a playback, click on the comments in the left panel. Each comment update
 There are plenty of other great React resources out there. After you finish with this short introduction, check out the React team's official tutorial: 
 
 <SiteInfo
-  name="Quick Start – React"
+  name="Quick Start - React"
   desc="The library for web and native user interfaces"
   url="https://react.dev/learn/"
   logo="https://react.dev/favicon-16x16.png"

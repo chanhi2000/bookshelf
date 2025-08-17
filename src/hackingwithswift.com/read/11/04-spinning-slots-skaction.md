@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -72,7 +72,7 @@ func makeSlot(at position: CGPoint, isGood: Bool) {
 }
 ```
 
-Unlike `makeBouncer(at:)`, this method has a second parameter – whether the slot is good or not – and that affects which image gets loaded. But first, we need to call the new method, so add these lines just before the calls to `makeBouncer(at:)` in `didMove(to:)`:
+Unlike `makeBouncer(at:)`, this method has a second parameter - whether the slot is good or not - and that affects which image gets loaded. But first, we need to call the new method, so add these lines just before the calls to `makeBouncer(at:)` in `didMove(to:)`:
 
 ```swift
 makeSlot(at: CGPoint(x: 128, y: 0), isGood: true)
@@ -112,7 +112,7 @@ We could even make the slots spin slowly by using a new class called `SKAction`.
 
 Before we look at the code to make this happen, you need to learn a few things up front:
 
-- Angles are specified in radians, not degrees. This is true in UIKit too. 360 degrees is equal to the value of 2 x Pi – that is, the mathematical value π. Therefore π radians is equal to 180 degrees.
+- Angles are specified in radians, not degrees. This is true in UIKit too. 360 degrees is equal to the value of 2 x Pi - that is, the mathematical value π. Therefore π radians is equal to 180 degrees.
 - Rather than have you try to memorize it, there is a built-in value of π called `CGFloat.pi`.
 - Yes `CGFloat` is yet another way of representing decimal numbers, just like `Double` and `Float`. Behind the scenes, `CGFloat` can be either a `Double` or a `Float` depending on the device your code runs on. Swift also has `Double.pi` and `Float.pi` for when you need it at different precisions.
 - When you create an action it will execute once. If you want it to run forever, you create another action to wrap the first using the `repeatForever()` method, then run that.

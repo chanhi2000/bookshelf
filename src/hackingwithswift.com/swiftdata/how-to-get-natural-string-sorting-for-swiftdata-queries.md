@@ -53,7 +53,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-If you sort strings using the default ordering, you'll get sorting like this: User 1, User 10, User 100, User 11, User 2, User 3, User 4, and so on – it will sort the numbers based on their string contents, rather than their numerical values.
+If you sort strings using the default ordering, you'll get sorting like this: User 1, User 10, User 100, User 11, User 2, User 3, User 4, and so on - it will sort the numbers based on their string contents, rather than their numerical values.
 
 A smarter, more natural option is to use Finder-style sorting, which correctly sorts strings based on any text prefix ("User"), followed by any numerical values. So, we'd get User 1, User 2, User 3, etc, up to User 9, then User 10, User 11, and so on.
 

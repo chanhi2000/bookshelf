@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -194,7 +194,7 @@ class ViewController: UIViewController {
 }
 ```
 
-If you are using `characters` to read the actual letters that get tapped, you might find it useful to try `charactersIgnoringModifiers` – it sends back the same string, except ignoring any modifier keys. For example, if the user press <kbd>Shift</kbd>+n `characters` will be set to “N” but `key.charactersIgnoringModifiers` will be set to “n” because it ignores the Shift key.
+If you are using `characters` to read the actual letters that get tapped, you might find it useful to try `charactersIgnoringModifiers` - it sends back the same string, except ignoring any modifier keys. For example, if the user press <kbd>Shift</kbd>+n `characters` will be set to “N” but `key.charactersIgnoringModifiers` will be set to “n” because it ignores the Shift key.
 
 ---
 

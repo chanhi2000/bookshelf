@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Games - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/games/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Fragment shaders let you adjust individual pixels inside sprites to create effects such as embossing, pixellation, and even water, and you can attach fragment shader to any `SKSpriteNode` just by setting its `shader` property.
 
-First, you need a fragment shader. This should be a file in your bundle with the extension “fsh”, and should be written in GLSL – the OpenGL shading language. I’m not going to teach GLSL here, but I do want to give you an example. Here’s a commented example that causes all colors in a sprite to be inverted:
+First, you need a fragment shader. This should be a file in your bundle with the extension “fsh”, and should be written in GLSL - the OpenGL shading language. I’m not going to teach GLSL here, but I do want to give you an example. Here’s a commented example that causes all colors in a sprite to be inverted:
 
 ```swift
 void main() {

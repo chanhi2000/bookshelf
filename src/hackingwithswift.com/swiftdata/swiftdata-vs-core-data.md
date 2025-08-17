@@ -66,5 +66,5 @@ Everyone will have different priorities for those features, but for me missing t
 
 You should also keep in mind that SwiftData is extremely new, whereas Core Data has been in constant development for about 20 years. This means you’re likely to hit edge cases and surprises on a fairly frequent basis, and I think it’s fair to say that SwiftData has more sharp edges than a porcupine’s dance party. Do things exactly right and you’ll be happy, but a lot of the time you’ll find yourself staring at a crash wondering which small but apparently critical mistake you made.
 
-Don’t despair – it will get better! In the meantime, please watch out for the many things marked **Important** or **Tip** in this guide; I’ve gone through the pain for you, so please save yourself the hassle and learn from that pain rather than repeating it.
+Don’t despair - it will get better! In the meantime, please watch out for the many things marked **Important** or **Tip** in this guide; I’ve gone through the pain for you, so please save yourself the hassle and learn from that pain rather than repeating it.
 

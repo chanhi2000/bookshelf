@@ -32,7 +32,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Xcode - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/xcode/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -56,17 +56,17 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Xcode has lots of tools to help you debug user interface problems, but it’s a little tricker to debug things you can’t see – network requests failing, data loading code going wrong, and so on.
+Xcode has lots of tools to help you debug user interface problems, but it’s a little tricker to debug things you can’t see - network requests failing, data loading code going wrong, and so on.
 
 A few years ago Markos Charatzas gave a <a href="https://qnoid.com/2013/06/08/Sound-Debugging.html">pioneering talk at NSConference</a> about the importance of using sound for debugging, and it’s a concept I’ve since used in my own projects.
 
-To try it out, place a breakpoint somewhere in your code, then right-click on it and choose “Edit Breakpoint”. Click the Add Action button, then change the action to be “Sound” – you’ll see a list of system sounds you can choose from.
+To try it out, place a breakpoint somewhere in your code, then right-click on it and choose “Edit Breakpoint”. Click the Add Action button, then change the action to be “Sound” - you’ll see a list of system sounds you can choose from.
 
-It doesn’t matter which sound you choose (although having sad sounds for failures does help!), but no matter what you decide you should check the box below marked “Automatically continue after evaluating actions” – this will ensure your breakpoint doesn’t stop execution of the program.
+It doesn’t matter which sound you choose (although having sad sounds for failures does help!), but no matter what you decide you should check the box below marked “Automatically continue after evaluating actions” - this will ensure your breakpoint doesn’t stop execution of the program.
 
 That checkbox plus the sound together means your program won’t pause when your breakpoints are hit, but will instead almost become musical: as network operations start, succeed, or fail, you’ll hear beeps, clicks, and bongs from your Mac so you’ll know exactly what’s happening just by listening.
 
-**Note:** In case you were worried, none of these sounds will actually play when your app ships – they are just used by Xcode’s debugging engine.
+**Note:** In case you were worried, none of these sounds will actually play when your app ships - they are just used by Xcode’s debugging engine.
 
 -->
 

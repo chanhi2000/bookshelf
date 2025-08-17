@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "How to Visualize the results"
-description: "Article(s) > (4/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+description: "Article(s) > (4/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
 category: 
   - Python
   - Pandas
@@ -18,7 +18,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (4/5) Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+      content: "Article(s) > (4/5) Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
     - property: og:description
       content: "How to Visualize the results"
     - property: og:url
@@ -35,7 +35,7 @@ cover: https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1
 
 ```component VPCard
 {
-  "title": "Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance",
+  "title": "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "desc": "A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m...",
   "link": "/freecodecamp.org/empire-state-building-run-up-analysis-with-python/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
@@ -48,7 +48,7 @@ cover: https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1
 ---
 
 <SiteInfo
-  name="Data Analysis with Python – How I Analyzed My Empire State Building Run-Up Performance"
+  name="Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
   desc="A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m..."
   url="https://freecodecamp.org/news/empire-state-building-run-up-analysis-with-python#heading-how-to-visualize-the-results"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -324,7 +324,7 @@ class Plotter:
                   bbox_to_anchor=(1, 0, 0.5, 1))
 ```
 
-Interesting – most of the runners were between 40-50 years old.
+Interesting - most of the runners were between 40-50 years old.
 
 Now let's go back to testing TUI.
 

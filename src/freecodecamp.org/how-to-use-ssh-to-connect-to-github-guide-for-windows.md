@@ -148,7 +148,7 @@ To get started, open your Windows Terminal or PowerShell, preferably as an admin
 
 If you got the above image, it means SSH is available on your local system.
 
-The first thing you'll need to set up an SSH connection is a pair of SSH keys – a public key and a private key. These are typically located in the <FontIcon icon="fas fa-folder-open"/>`.ssh` directory in your home directory if generated already.
+The first thing you'll need to set up an SSH connection is a pair of SSH keys - a public key and a private key. These are typically located in the <FontIcon icon="fas fa-folder-open"/>`.ssh` directory in your home directory if generated already.
 
 On Windows, your home directory is usually <FontIcon icon="fas fa-folder-open"/>`C:\Users\owner\.ssh`. This is where you will find your SSH key files if they've already been generated.
 
@@ -278,7 +278,7 @@ The settings for "LooseSourceMapping" and "LocalOnlyMapping" are both set to fal
 
 The "Status" field confirms that the rule has been successfully parsed from the policy store, indicating no configuration issues. The "EnforcementStatus" marked as "NotApplicable" suggests there are no restrictions that would prevent the rule from being enforced.
 
-Remember, to set up an SSH connection we need a pair of SSH keys – a public key and a private key. Let’s see how to do that now.
+Remember, to set up an SSH connection we need a pair of SSH keys - a public key and a private key. Let’s see how to do that now.
 
 ### How to Generate SSH Keys
 

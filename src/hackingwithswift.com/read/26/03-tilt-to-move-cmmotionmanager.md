@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/dbDIQt4oxxA" />
 
-We're going to control this game using the accelerometer that comes as standard on all iPads, but it has a problem: it doesn't come as standard on any Macs, which means we either resign ourselves to testing only on devices or we put in a little hack. This course isn't calling Giving Up with Swift, so we're going to add a hack – in the simulator you'll be able to use touch, and on devices you'll have to use tilting.
+We're going to control this game using the accelerometer that comes as standard on all iPads, but it has a problem: it doesn't come as standard on any Macs, which means we either resign ourselves to testing only on devices or we put in a little hack. This course isn't calling Giving Up with Swift, so we're going to add a hack - in the simulator you'll be able to use touch, and on devices you'll have to use tilting.
 
 To get started, add this property so we can reference the player throughout the game:
 
@@ -63,7 +63,7 @@ var player: SKSpriteNode!
 
 We're going to add a dedicated `createPlayer()` method that loads the sprite, gives it circle physics, and adds it to the scene, but it's going to do three other things that are important.
 
-First, it's going to set the physics body's `allowsRotation` property to be false. We haven't changed that so far, but it does what you might expect – when false, the body no longer rotates. This is useful here because the ball looks like a marble: it's shiny, and those reflections wouldn't rotate in real life.
+First, it's going to set the physics body's `allowsRotation` property to be false. We haven't changed that so far, but it does what you might expect - when false, the body no longer rotates. This is useful here because the ball looks like a marble: it's shiny, and those reflections wouldn't rotate in real life.
 
 Second, we're going to give the ball a `linearDamping` value of 0.5, which applies a lot of friction to its movement. The game will still be hard, but this does help a little by slowing the ball down naturally.
 
@@ -89,7 +89,7 @@ func createPlayer() {
 
 You can go ahead and add a call to `createPlayer()` directly after the call to `loadLevel()` inside `didMove(to:)`. Note: you must create the player after the level, otherwise it will appear below vortexes and other level objects.
 
-If you try running the game now, you'll see the ball drop straight down until it hits a wall, then it bounces briefly and stops. This game has players looking down on their iPad, so by default there ought to be no movement – it's only if the player tilts their iPad down that the ball should move downwards.
+If you try running the game now, you'll see the ball drop straight down until it hits a wall, then it bounces briefly and stops. This game has players looking down on their iPad, so by default there ought to be no movement - it's only if the player tilts their iPad down that the ball should move downwards.
 
 The ball is moving because the scene's physics world has a default gravity roughly equivalent to Earth's. We don't want that, so in `didMove(to:)` add this somewhere:
 
@@ -123,7 +123,7 @@ override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-When `touchesEnded()` is called, we need to set the property to be `nil` – it is optional, after all:
+When `touchesEnded()` is called, we need to set the property to be `nil` - it is optional, after all:
 
 ```swift
 override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -163,7 +163,7 @@ motionManager.startAccelerometerUpdates()
 
 The last thing to do is to poll the motion manager inside our `update()` method, checking to see what the current tilt data is. But there's a complication: we already have a hack in there that lets us test in the simulator, so we want one set of code for the simulator and one set of code for devices.
 
-Swift solves this problem by adding special compiler instructions. If the instruction evaluates to true it will compile one set of code, otherwise it will compile the other. This is particularly helpful once you realize that any code wrapped in compiler instructions that evaluate to false never get seen – it's like they never existed. So, this is a great way to include debug information or activity in the simulator that never sees the light on devices.
+Swift solves this problem by adding special compiler instructions. If the instruction evaluates to true it will compile one set of code, otherwise it will compile the other. This is particularly helpful once you realize that any code wrapped in compiler instructions that evaluate to false never get seen - it's like they never existed. So, this is a great way to include debug information or activity in the simulator that never sees the light on devices.
 
 The compiler directives we care about are: `#if targetEnvironment(simulator)`, `#else` and `#endif`. As you can see, this is mostly the same as a standard Swift if/else block, although here you don't need braces because everything until the `#else` or `#endif` will execute.
 

@@ -63,7 +63,7 @@ That provides for us the complete ability to use Core Data fetch requests from w
 
 However, if you *didn’t* use the Core Data template or you’re just curious what the Core Data template does for us, it’s worth covering briefly the steps it takes to set up support in your apps. I’m also going to provide you with some sample data to work with so you can try out subsequent chapters in this book.
 
-The first step is to create a Core Data model by pressing <kbd>Cmd</kbd>+<kbd>N</kbd> to make a new file, then choosing Data Model. The name of this model matters, because it will be used in your code shortly. Unless you plan to use a complex Core Data configuration, naming your model Main is fine – that’s the name I’ll be using here. Once you have your model, you can go ahead and create any entities you want to use in your app.
+The first step is to create a Core Data model by pressing <kbd>Cmd</kbd>+<kbd>N</kbd> to make a new file, then choosing Data Model. The name of this model matters, because it will be used in your code shortly. Unless you plan to use a complex Core Data configuration, naming your model Main is fine - that’s the name I’ll be using here. Once you have your model, you can go ahead and create any entities you want to use in your app.
 
 For example purposes we need some consistent data to work with so that I can give you meaningful code to work. So, open your xcdatamodeld file and create an entity called ProgrammingLanguage that has two string attributes: “name” and “creator”. Obviously you don’t need to have exactly this entity and attribute collection, so just mentally replace my examples with your own Core Data setup as you go.
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Linked Lists in Python – Explained with Examples"
-description: "Article(s) > Linked Lists in Python – Explained with Examples"
+title: "Linked Lists in Python - Explained with Examples"
+description: "Article(s) > Linked Lists in Python - Explained with Examples"
 icon: fa-brands fa-python
 category:
   - Python
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Linked Lists in Python – Explained with Examples"
+      content: "Article(s) > Linked Lists in Python - Explained with Examples"
     - property: og:description
-      content: "Linked Lists in Python – Explained with Examples"
+      content: "Linked Lists in Python - Explained with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-linked-lists-in-python.html
 prev: /programming/py/articles/README.md
@@ -59,7 +59,7 @@ cover: https://freecodecamp.org/news/content/images/2022/09/chain-3481377_1280.j
 ---
 
 <SiteInfo
-  name="Linked Lists in Python – Explained with Examples"
+  name="Linked Lists in Python - Explained with Examples"
   desc="By Fakorede Damilola Different programming languages offer different ways to store and access data. Some of the data structures you can use are collections such as arrays, lists, maps, sets, and so on.  These all do an awesome job storing and accessi..."
   url="https://freecodecamp.org/news/introduction-to-linked-lists-in-python"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -120,7 +120,7 @@ Remember that a Linked List is similar to how a chain is coupled together. Joe i
 
 ![](https://freecodecamp.org/news/content/images/2022/09/Joe-and-the-chain.png)
 
-I will be using this to illustrate as we go...so you can think along these lines (this is not an art class – I repeat, this is not an art class).
+I will be using this to illustrate as we go...so you can think along these lines (this is not an art class - I repeat, this is not an art class).
 
 So let's create the nodes first:
 
@@ -133,7 +133,7 @@ class Node:
 
 That is it. We add the `value` because for anything to be added to the linked list, it should at least have some value (for example, except in rare situations, you don't add an empty string to an array, right?).
 
-The `next` means that it is possible we want to chain other nodes – I mean, that is the major aim of a linked list.
+The `next` means that it is possible we want to chain other nodes - I mean, that is the major aim of a linked list.
 
 Next we are going to define some basic functions:
 
@@ -155,14 +155,14 @@ The `append()` method lets you add a new node to the list. Let's explore how it 
 
 ![](https://freecodecamp.org/news/content/images/2022/09/append.png)
 
-If I have two values – say 1 and 2 – and I want to add them to the list, the first thing is to define them as individual nodes (that is, as rings of a chain). I can do that like this:
+If I have two values - say 1 and 2 - and I want to add them to the list, the first thing is to define them as individual nodes (that is, as rings of a chain). I can do that like this:
 
 ```py
 e1 = Node(1)
 e2 = Node(2)
 ```
 
-I can now define a linked list since I have my nodes ready. A linked list (like the chains we see – always has a head, right?), so I can define my linked list with a head value which basically is just another node (ring):
+I can now define a linked list since I have my nodes ready. A linked list (like the chains we see - always has a head, right?), so I can define my linked list with a head value which basically is just another node (ring):
 
 ```py
 ll = LinkedList(e1)
@@ -176,9 +176,9 @@ Again, a linked list is like a chain, right? So every node should point to anoth
 
 Let's create a method to **delete** a node. But before we do, let's think about it for a second. Imagine you have a chain, and you find out a ring is weak. What do you do?
 
-You first find the weak ring, then you remove it and connect the one before it and after it together. But if the weak ring is the first one, that is easy – you just remove it and you don't really have to join anything. The second ring automatically becomes the head of the chain. Try to visualize that.
+You first find the weak ring, then you remove it and connect the one before it and after it together. But if the weak ring is the first one, that is easy - you just remove it and you don't really have to join anything. The second ring automatically becomes the head of the chain. Try to visualize that.
 
-We want to do the same thing here. So we first find the weak ring – in this case that will be the value we are looking for – and then we will take the one before and the one after and join them together:
+We want to do the same thing here. So we first find the weak ring - in this case that will be the value we are looking for - and then we will take the one before and the one after and join them together:
 
 ```py
 class LinkedList:    
@@ -205,7 +205,7 @@ So what we are doing here is simply going through each node to see if that is th
 
 ![](https://freecodecamp.org/news/content/images/2022/09/delete-1.png)
 
-So when the node has been found, the `prev` which contains the node before it, can be easily switched (that is, the next value) to point to another node – in this case the other nodes connected to the node we want to remove. I hope this makes sense.
+So when the node has been found, the `prev` which contains the node before it, can be easily switched (that is, the next value) to point to another node - in this case the other nodes connected to the node we want to remove. I hope this makes sense.
 
 Let's work on **inserting a node** into a particular position. We will use our chain analogy to understand this better.
 
@@ -255,7 +255,7 @@ If the position we are to insert is one (that is, the root), simply store the cu
 
 If the position is not one, keep going through the chain until you find the position.
 
-Finally for this article, let's work on displaying the values of our linked list in any format you want – for example, printing it out or adding it to a list collection. I will just be printing the values out.
+Finally for this article, let's work on displaying the values of our linked list in any format you want - for example, printing it out or adding it to a list collection. I will just be printing the values out.
 
 This is pretty straightforward, similar to a physical chain: you just look through everywhere there is a node and get the value, then move to the next node:
 
@@ -291,7 +291,7 @@ You can find the code for [this article here (<FontIcon icon="iconfont icon-gith
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Linked Lists in Python – Explained with Examples",
+  "title": "Linked Lists in Python - Explained with Examples",
   "desc": "By Fakorede Damilola Different programming languages offer different ways to store and access data. Some of the data structures you can use are collections such as arrays, lists, maps, sets, and so on.  These all do an awesome job storing and accessi...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-linked-lists-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

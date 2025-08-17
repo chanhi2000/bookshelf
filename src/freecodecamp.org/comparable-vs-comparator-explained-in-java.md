@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Comparable vs Comparator Interfaces in Java – Which Should You Use and When?"
-description: "Article(s) > Comparable vs Comparator Interfaces in Java – Which Should You Use and When?"
+title: "Comparable vs Comparator Interfaces in Java - Which Should You Use and When?"
+description: "Article(s) > Comparable vs Comparator Interfaces in Java - Which Should You Use and When?"
 icon: fa-brands fa-java
 category: 
   - Java
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Comparable vs Comparator Interfaces in Java – Which Should You Use and When?"
+      content: "Article(s) > Comparable vs Comparator Interfaces in Java - Which Should You Use and When?"
     - property: og:description
-      content: "Comparable vs Comparator Interfaces in Java – Which Should You Use and When?"
+      content: "Comparable vs Comparator Interfaces in Java - Which Should You Use and When?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparable-vs-comparator-explained-in-java.html
 prev: /programming/java/articles/README.md
@@ -42,7 +42,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/comparabl
 ---
 
 <SiteInfo
-  name="Comparable vs Comparator Interfaces in Java – Which Should You Use and When?"
+  name="Comparable vs Comparator Interfaces in Java - Which Should You Use and When?"
   desc="Sorting is a fundamental operation in programming, essential for organizing data in a specific order. In Java, built-in sorting methods provide efficient ways to sort primitive data types and arrays, making it easy to manage and manipulate collection..."
   url="https://freecodecamp.org/news/comparable-vs-comparator-explained-in-java"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -552,7 +552,7 @@ To solidify your understanding, try implementing both `Comparable` and `Comparat
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Comparable vs Comparator Interfaces in Java – Which Should You Use and When?",
+  "title": "Comparable vs Comparator Interfaces in Java - Which Should You Use and When?",
   "desc": "Sorting is a fundamental operation in programming, essential for organizing data in a specific order. In Java, built-in sorting methods provide efficient ways to sort primitive data types and arrays, making it easy to manage and manipulate collection...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparable-vs-comparator-explained-in-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

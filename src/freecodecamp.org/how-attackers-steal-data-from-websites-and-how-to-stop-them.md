@@ -96,10 +96,10 @@ From phishing schemes to aiming to exploit outdated design elements, your first 
 
 Here are some of the most common types of attacks:
 
-- **High-risk credentials**: Sellers organize credentials by platform – like email, banking, social, and so on – and sell batches of these details in bulk.
+- **High-risk credentials**: Sellers organize credentials by platform - like email, banking, social, and so on - and sell batches of these details in bulk.
 - **Identity fraud:** From a dark web identity, attackers could get everything needed to impersonate you (name, birthdate, SSN, address, home title, and more).
 - **Data trading**: Hackers test email, phone, password details across many platforms to capture valuable information and co-opt accounts.
-- **Individual extortion**: Sensitive formats – like private messages, images, or financial records – can be used against victims of data theft as blackmail.
+- **Individual extortion**: Sensitive formats - like private messages, images, or financial records - can be used against victims of data theft as blackmail.
 
 Now let’s take a deeper look into some specific scams and how to protect yourself against them.
 
@@ -162,7 +162,7 @@ These tools scan incoming emails for known malicious links, spoofed sender domai
 
 Enforce [<FontIcon icon="fa-brands fa-wikipedia-w"/>multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) across systems, so stolen passwords alone can’t unlock accounts.
 
-Because even the best-trained employees can make mistakes. That’s where MFA comes in – it acts as a strong safety net by requiring an additional step (like a code sent to a phone or biometric login) before granting access to accounts.
+Because even the best-trained employees can make mistakes. That’s where MFA comes in - it acts as a strong safety net by requiring an additional step (like a code sent to a phone or biometric login) before granting access to accounts.
 
 This way, even if a password is compromised, attackers can’t log in without the second authentication factor. Make MFA mandatory for all critical tools, including email platforms, cloud services, and administrative panels.
 
@@ -242,7 +242,7 @@ Here’s an example: A logged-in user visits a malicious website. Without realiz
 
 To stop injection and scripted attacks, you and your team need to be aware of how they happen (which you now are) and how to prevent them. This means you’ll need to proactively build security measures into the website's architecture.
 
-These hacks thrive on technical oversight – like unsanitized input fields, insecure headers, and weak session validations.
+These hacks thrive on technical oversight - like unsanitized input fields, insecure headers, and weak session validations.
 
 #### 1. Validate all user input to eliminate unsafe entries
 
@@ -277,7 +277,7 @@ In this example, the CSP restricts all content (default-src) to only load from t
 
 #### 4. Implement CSRF tokens to protect against cross-site request forgery
 
-Cross-site request forgery (CSRF) tricks users into submitting unwanted actions on a web application where they’re already authenticated – like transferring money or changing passwords.
+Cross-site request forgery (CSRF) tricks users into submitting unwanted actions on a web application where they’re already authenticated - like transferring money or changing passwords.
 
 To stop this, implement unique, per-session CSRF tokens in every form submission. These tokens must be checked server-side to confirm that the request originated from your own site. Without a valid token, the server should automatically reject the request, which prevents attackers from forging it.
 
@@ -297,7 +297,7 @@ On the server side, you should generate a unique token per user session and stor
 
 Don’t give full access to every user or system area. If lower-level accounts get compromised, limited access can wall off high-value data.
 
-Set strict permission levels across your site, assigning the least privilege necessary for each role. If a lower-level account is compromised – say, a regular user or junior staff login – the damage is contained because that account can’t reach sensitive data or critical systems.
+Set strict permission levels across your site, assigning the least privilege necessary for each role. If a lower-level account is compromised - say, a regular user or junior staff login - the damage is contained because that account can’t reach sensitive data or critical systems.
 
 This principle of least privilege is essential for reducing exposure and protecting high-value assets even when other defenses fail.
 
@@ -336,7 +336,7 @@ Requiring a mix of uppercase, lowercase, numbers, symbols, and character-length 
 
 #### 1. Use temporary account lockouts after multiple failed attempts
 
-Lock accounts temporarily after 5–10 failed login attempts. This is one of the most effective ways to deter brute force attacks as it halts attackers from trying endless password combinations and dramatically slows down their efforts.
+Lock accounts temporarily after 5-10 failed login attempts. This is one of the most effective ways to deter brute force attacks as it halts attackers from trying endless password combinations and dramatically slows down their efforts.
 
 Even if an attacker uses bots or distributed IPs, these lockouts force them to start over or wait, buying you time to detect and respond to the threat. Some systems also offer progressive delays or account alerts after repeated failures to add an extra layer of defense.
 
@@ -387,19 +387,19 @@ In production, you'd store login attempt data in a persistent or distributed sys
 
 Even if a password is guessed, multi-factor authentication (MFA) prompts like a text message or in-app code can block brute force access.
 
-As explained before, with MFA, users must provide a second form of verification – like a time-sensitive code from an authentication app, a push notification, or a text message. This makes it extremely difficult for attackers to succeed, since they rarely have access to the victim’s second device or method of authentication.
+As explained before, with MFA, users must provide a second form of verification - like a time-sensitive code from an authentication app, a push notification, or a text message. This makes it extremely difficult for attackers to succeed, since they rarely have access to the victim’s second device or method of authentication.
 
 #### 3. Add CAPTCHA to prevent bot-driven password guessing
 
 Prevent bots from flooding login endpoints by throttling repeated access or requiring CAPTCHAs.
 
-CAPTCHA tests distinguish human users from bots, forcing attackers to solve visual puzzles or interact with images – something bots can’t easily do. This drastically slows automated attempts and protects your login endpoints from being overwhelmed.
+CAPTCHA tests distinguish human users from bots, forcing attackers to solve visual puzzles or interact with images - something bots can’t easily do. This drastically slows automated attempts and protects your login endpoints from being overwhelmed.
 
 #### 4. Avoid defaults and reused credentials on all systems
 
 Prevent repeating, past, or default credentials on devices, CMS plugins, and admin accounts before going live.
 
-If these aren’t changed before going live, they become open doors for attackers. The same goes for reused credentials from past breaches. Brute force hackers often try known leaked passwords first. Ensure that all accounts – especially those with admin privileges – are set up with unique, strong, and non-repetitive credentials. Implement tools that scan for weak or default passwords before deployment.
+If these aren’t changed before going live, they become open doors for attackers. The same goes for reused credentials from past breaches. Brute force hackers often try known leaked passwords first. Ensure that all accounts - especially those with admin privileges - are set up with unique, strong, and non-repetitive credentials. Implement tools that scan for weak or default passwords before deployment.
 
 ---
 
@@ -411,7 +411,7 @@ The "mal" in malware is short for "malicious." One of the more destructive tools
 - **Spyware** can monitor all user activity and viewed content without consent.
 - **Ransomware** encrypts entire systems and demands payment for safe "return."
 
-Simply visiting a compromised or spoofed site can start installing malware without clicking anything. Hackers also embed malware in online ads by exploiting commercial networks – even on the most "legitimate" sites. Then, free themes, apps, and third-party plugins from unverified publishers can leave websites full of "backdoors."
+Simply visiting a compromised or spoofed site can start installing malware without clicking anything. Hackers also embed malware in online ads by exploiting commercial networks - even on the most "legitimate" sites. Then, free themes, apps, and third-party plugins from unverified publishers can leave websites full of "backdoors."
 
 ### How to Prevent Website Malware
 
@@ -451,7 +451,7 @@ Use unique, strong passwords and multi-factor authentication for all admin accou
 
 ## 5. Man-in-the-Middle Attacks and Public Connections
 
-Man-in-the-Middle (MitM) attacks intercept data between a user and a website – especially over unsecured or public networks like Wi-Fi in a coffee shop.
+Man-in-the-Middle (MitM) attacks intercept data between a user and a website - especially over unsecured or public networks like Wi-Fi in a coffee shop.
 
 Whenever you send or receive data, there’s always a chance someone is actively listening. After ordering their latte, a customer logs into their account on public Wi-Fi. Meanwhile, a hacker's "packet sniffer" captures the session's cookies, hijacking their account.
 
@@ -506,7 +506,7 @@ A VPN creates a private, encrypted tunnel for their internet activity, adding an
 
 #### 4. Implement HTTP Strict Transport Security (HSTS).
 
-HSTS is a response header that tells browsers to always connect via HTTPS – even if a user manually types “http://”. This eliminates the risk of SSL stripping attacks, where hackers downgrade secure HTTPS connections to insecure HTTP to intercept data. Configuring HSTS ensures long-term enforcement of secure access and further hardens your website’s security posture.
+HSTS is a response header that tells browsers to always connect via HTTPS - even if a user manually types “http://”. This eliminates the risk of SSL stripping attacks, where hackers downgrade secure HTTPS connections to insecure HTTP to intercept data. Configuring HSTS ensures long-term enforcement of secure access and further hardens your website’s security posture.
 
 To enable HSTS, add this response header to your server configuration or .htaccess file:
 
@@ -555,7 +555,7 @@ Unknowingly, each of these could smuggle in weaknesses for data thievery. When u
 
 ### How to Patch and Update Website Security
 
-Public information – like official software notes about new security patches and resolved bugs – can then act as a flaw menu for attacking apps yet to update. Every user with out-of-date access poses a threat to the system. Don't let these be issues your developers have already "designed away."
+Public information - like official software notes about new security patches and resolved bugs - can then act as a flaw menu for attacking apps yet to update. Every user with out-of-date access poses a threat to the system. Don't let these be issues your developers have already "designed away."
 
 #### 1. Schedule regular patching cycles for your site, apps, and services
 
@@ -579,9 +579,9 @@ Make it a habit to run regular audits of your system, remove anything you’re n
 
 ## 7. APIs, Integrations, and Third-Party Attacks
 
-The vast majority of websites depend on API connections and third-party scripts to monitor analytics to process payments. Every connection – no matter how slight – should come with a warning.
+The vast majority of websites depend on API connections and third-party scripts to monitor analytics to process payments. Every connection - no matter how slight - should come with a warning.
 
-Like late-to-update users, attackers also exploit APIs to bypass authentication, use third-party tools to extract data, and infect partner sites with malware. Your own code may be watertight, flawless, and impenetrable – but insecure APIs and third-party tools share their every weakness.
+Like late-to-update users, attackers also exploit APIs to bypass authentication, use third-party tools to extract data, and infect partner sites with malware. Your own code may be watertight, flawless, and impenetrable - but insecure APIs and third-party tools share their every weakness.
 
 Consider a supply chain attack. A JavaScript library embedded on thousands of sites is wrapped up with multiple malware scripts. The sites who rely on the library become new territory for attack, draining user data from hundreds of sites that rely on that library.
 
@@ -633,7 +633,7 @@ This snippet validates a properly formatted email address, a phone number in int
 
 When integrating third-party scripts (like CDNs for fonts, analytics trackers, or payment tools), use SRI tags to ensure the code hasn’t been tampered with.
 
-SRI allows you to define a cryptographic hash for each file, and the browser will block any file that doesn’t match the expected fingerprint. This prevents malicious actors from swapping out legitimate scripts with compromised ones – and it adds a critical layer of trust and security to your frontend architecture.
+SRI allows you to define a cryptographic hash for each file, and the browser will block any file that doesn’t match the expected fingerprint. This prevents malicious actors from swapping out legitimate scripts with compromised ones - and it adds a critical layer of trust and security to your frontend architecture.
 
 Here’s how to use it:
 
@@ -651,7 +651,7 @@ You can generate the SRI hash using tools like [<FontIcon icon="fas fa-globe"/>S
 
 #### 4. Limit third-party access to only the data and functions they need
 
-Just because a third-party service needs access to your data doesn't mean it should have full visibility into your systems. Apply the principle of least privilege by configuring integrations with narrow scopes – limiting permissions to only the endpoints or datasets necessary for their function.
+Just because a third-party service needs access to your data doesn't mean it should have full visibility into your systems. Apply the principle of least privilege by configuring integrations with narrow scopes - limiting permissions to only the endpoints or datasets necessary for their function.
 
 For example, an email marketing tool doesn’t need access to billing data, and a CRM shouldn’t touch your backend server settings.
 
@@ -700,7 +700,7 @@ When hackers successfully breach a website’s database, the fallout goes far an
 
 Data breaches expose usernames, passwords, payment details, home addresses, birthdates, and every form of personal data you can imagine. Once stolen, this data often doesn’t just sit on the shelf: it flies out from the dark web, the underbelly of the internet where your details are sold, traded, and shared among cybercriminals.
 
-From here, public perceptions rage against brand values – and every customer’s anxiety about getting identity theft insurance starts to amplify. A reused password could become the key to Netflix, and it will do greater damage when it unlocks your Discover card, Morgan-Chase, and Coinbase accounts.
+From here, public perceptions rage against brand values - and every customer’s anxiety about getting identity theft insurance starts to amplify. A reused password could become the key to Netflix, and it will do greater damage when it unlocks your Discover card, Morgan-Chase, and Coinbase accounts.
 
 Every personal detail can help fuel identity theft, sharpen phishing attacks, and lead to system takeover. As organizations, sites face lawsuits, huge fines, and public scorn.
 
@@ -712,7 +712,7 @@ From one site’s database, hackers can sack thousands of emails, passwords, car
 
 No system or sign-in page is bulletproof, and cybersecurity is never done. Hackers use everything from phishing emails to malicious scripts to steal data, but every tactic has a defense.
 
-The best start is following best practices – like quick updates, HTTPS-only, and sanitized forms. Every row of data stored can suddenly evolve into a complex, rampant threat to users.
+The best start is following best practices - like quick updates, HTTPS-only, and sanitized forms. Every row of data stored can suddenly evolve into a complex, rampant threat to users.
 
 We should all aim to save only the most necessary data, locking up our card numbers, passwords, and usernames with strong, “slow-hash” encryption.
 

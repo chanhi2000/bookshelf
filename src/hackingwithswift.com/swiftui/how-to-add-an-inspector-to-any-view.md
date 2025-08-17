@@ -80,7 +80,7 @@ struct ContentView: View {
 
 When there's lots of space, such as with full-screen iPad apps or macOS, the inspector sits alongside the button. However, when space is restricted such as on iPhone, the inspector slides up as a sheet.
 
-On platforms that support it, you can adjust how much space the inspector occupies by providing it with a fixed size (`.inspectorColumnWidth(500)`) – or by providing it with a range of sizes (`.inspectorColumnWidth(min: 50, ideal: 150, max: 200)`). This modifier should be applied to the contents of the inspector, like this:
+On platforms that support it, you can adjust how much space the inspector occupies by providing it with a fixed size (`.inspectorColumnWidth(500)`) - or by providing it with a range of sizes (`.inspectorColumnWidth(min: 50, ideal: 150, max: 200)`). This modifier should be applied to the contents of the inspector, like this:
 
 ```swift
 struct ContentView: View {

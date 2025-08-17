@@ -57,9 +57,9 @@ When Apple announced SwiftUI, they made an important distinction: SwiftUI is not
 
 That might seem like the same thing being said in two different ways, but in practice it means that many parts of SwiftUI work great on iOS, but aren’t available on macOS, or are designed specifically for watchOS and so aren’t available anywhere else.
 
-Yes, the core of your app remains unchanged: your models, your networking, and much of your user interface. But to get *great* apps – to build apps that are really tailored for each of Apple’s platforms – you need to add some platform-specific enhancements. How should your app use the Digital Crown on watchOS? What about the Play/Pause button on tvOS? Or right-click menus on macOS?
+Yes, the core of your app remains unchanged: your models, your networking, and much of your user interface. But to get *great* apps - to build apps that are really tailored for each of Apple’s platforms - you need to add some platform-specific enhancements. How should your app use the Digital Crown on watchOS? What about the Play/Pause button on tvOS? Or right-click menus on macOS?
 
-Answering these questions – and answering them well! – is the key to building great multi-platform experiences.
+Answering these questions - and answering them well! - is the key to building great multi-platform experiences.
 
 ::: details Similar solutions…
 

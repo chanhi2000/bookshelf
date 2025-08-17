@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Configuration – Basic Concepts
-description: Article(s) > ASP.NET Core Configuration – Basic Concepts
+title: ASP.NET Core Configuration - Basic Concepts
+description: Article(s) > ASP.NET Core Configuration - Basic Concepts
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Configuration – Basic Concepts
+      content: Article(s) > ASP.NET Core Configuration - Basic Concepts
     - property: og:description
-      content: ASP.NET Core Configuration – Basic Concepts
+      content: ASP.NET Core Configuration - Basic Concepts
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/aspnet-configuration-basic-concepts.html
 prev: /programming/cs/articles/README.md
@@ -43,7 +43,7 @@ cover: /assets/image/code-maze.com/aspnet-configuration-basic-concepts/banner.pn
 ---
 
 <SiteInfo
-  name="ASP.NET Core Configuration – Basic Concepts"
+  name="ASP.NET Core Configuration - Basic Concepts"
   desc="In this introductory article, we are going to learn how ASP.NET Core configuration works and cover the basic configuration concepts."
   url="https://code-maze.com/aspnet-configuration-basic-concepts/"
   logo="/assets/image/code-maze.com/favicon.png"
@@ -93,9 +93,9 @@ Configuration in .NET Core is even more powerful with the use of **sections, con
 Configuration data is defined as a set of key-value pairs.
 Values can be:
 
-- **integers** – can be any integer number, used when we need a numerical value, like the maximum number of items, or a default temperature for example<br/>`DefaultRoomTemperature = 21`
-- **booleans** – can be true or false. Used often to determine if a behavior should be triggered or not within our application<br/>`TurnOnDetailedReports = true`
-- **strings** – if we need a specific string value. Typical examples, but not limited to these are connection strings and URLs<br/>`sqlConnection="server=.; database=AccountOwnerDatabase; Integrated Security=true"`
+- **integers**: can be any integer number, used when we need a numerical value, like the maximum number of items, or a default temperature for example<br/>`DefaultRoomTemperature = 21`
+- **booleans**: can be true or false. Used often to determine if a behavior should be triggered or not within our application<br/>`TurnOnDetailedReports = true`
+- **strings**: if we need a specific string value. Typical examples, but not limited to these are connection strings and URLs<br/>`sqlConnection="server=.; database=AccountOwnerDatabase; Integrated Security=true"`
 
 These are just examples and besides a value, each key contains information about which level of the hierarchy it’s in.
 
@@ -125,8 +125,8 @@ This means we can write something like this in our configuration file:
 And later on, access it in our code by using the semicolon delimiter “:”.
 Examples:
 
-- `"Logging:LogLevel:Default"` – We can get the Default logging level
-- `"AllowedHosts"` – We’ll get “*” (any host) in this case
+- `"Logging:LogLevel:Default"` - We can get the Default logging level
+- `"AllowedHosts"` - We’ll get “*” (any host) in this case
 
 This means we can have multiple keys named “Default” since the organization is hierarchical.
 Let’s extend our example:
@@ -152,8 +152,8 @@ Let’s extend our example:
 
 Now we can access the same key within the different hierarchy:
 
-- `"Logging:LogLevel:Default"` – returns “Information”
-- `"OtherLoggingProvider:LogLevel:Default"` – returns “Debug”
+- `"Logging:LogLevel:Default"` - returns “Information”
+- `"OtherLoggingProvider:LogLevel:Default"` - returns “Debug”
 
 If the value doesn’t exist, we’ll get a null as a result.
 
@@ -189,9 +189,9 @@ It creates an instance of a `HostBuilder`, which implements `IHostBuilder` and t
 
 The CreateDefaultBuilder() method adds the default configuration values to the application in this particular order:
 
-- **ChainedConfigurationProvider** – adds the *host* `IConfiguration` to the *app* `IConfiguration`
-- **appsettings.json file** – this is the default file we get when creating an ASP.NET Core template
-- **appsettings.{EnvironmentName}.json files** – for the environment-specific overrides
+- **ChainedConfigurationProvider** - adds the *host* `IConfiguration` to the *app* `IConfiguration`
+- **appsettings.json file** - this is the default file we get when creating an ASP.NET Core template
+- **appsettings.{EnvironmentName}.json files** - for the environment-specific overrides
 - **App Secrets** when the `EnvironmentName` variable is set to “Development”
 - **Environment variables**
 - **Command-line arguments**
@@ -418,7 +418,7 @@ There are two things to note here though. First is that the names of the configu
 
 ## Creating an Environment Specific Configuration
 
-Any application that is meant to go to the production has at least two environments – development and production. Besides that, we can have other environments, like staging which is an environment where we can check if the application is working correctly before we deploy it to production.
+Any application that is meant to go to the production has at least two environments - development and production. Besides that, we can have other environments, like staging which is an environment where we can check if the application is working correctly before we deploy it to production.
 
 Check out our article about using [multiple environments in ASP.NET Core](/code-maze.com/multiple-environments-in-asp-net-core.md) to learn about it in more detail.
 

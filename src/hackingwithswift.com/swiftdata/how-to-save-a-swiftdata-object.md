@@ -66,7 +66,7 @@ try? modelContext.save()
 print(house.id)
 ```
 
-This means if you want to use the ID for something specific – e.g. if you’re indexing the identifier with Spotlight so you can open your app straight to the object – you should always make sure it’s saved before reading the `id` property. You can identify a temporary identifier because its a UUID that starts with a lowercase “t”, like this: **x-coredata:///House/t532017E6-0165-4434-ABE4-EFC0797B99F48**.
+This means if you want to use the ID for something specific - e.g. if you’re indexing the identifier with Spotlight so you can open your app straight to the object - you should always make sure it’s saved before reading the `id` property. You can identify a temporary identifier because its a UUID that starts with a lowercase “t”, like this: **x-coredata:///House/t532017E6-0165-4434-ABE4-EFC0797B99F48**.
 
 Second, if you have autosave turned off you need to trigger the save manually. This has advantages and disadvantages, so you should use it carefully.
 
@@ -75,7 +75,7 @@ Handling saves manually makes discardable editing significantly easier because y
 However, it makes life more *difficult* because of the way SwiftData resolves explicit relationship data:
 
 - If you use an array on one side of your relationship and an optional on the other, SwiftData will correctly infer the relationship and keep both sides in sync even without calling `save()` on the context.
-- If you use a non-optional on the other side, you must specify the delete rule manually *and call `save()` when inserting the data*, otherwise SwiftData won’t refresh the relationship until application is relaunched – even if you call `save()` at a later date, and even if you create and run a new `FetchDescriptor` from scratch.
+- If you use a non-optional on the other side, you must specify the delete rule manually *and call `save()` when inserting the data*, otherwise SwiftData won’t refresh the relationship until application is relaunched - even if you call `save()` at a later date, and even if you create and run a new `FetchDescriptor` from scratch.
 
 It’s my view that this is a bug with SwiftData, so hopefully it will go away. You can check it yourself by creating models like these:
 
@@ -149,5 +149,5 @@ struct ContentView: View {
 }
 ```
 
-That has a commented-out call to `save()` inside the `create()` method, and instead saves the context from a separate Save button. Right now (as of iOS 17.0) this fails – you’ll see Harry listed as going to Hogwarts in the second list and Hogwarts showing no students in the first list, but if you press Save then relaunch the app you’ll see it’s displayed correctly. If you then try uncommenting the `save()` call inside `create()`, everything is displayed correctly without a relaunch.
+That has a commented-out call to `save()` inside the `create()` method, and instead saves the context from a separate Save button. Right now (as of iOS 17.0) this fails - you’ll see Harry listed as going to Hogwarts in the second list and Hogwarts showing no students in the first list, but if you press Save then relaunch the app you’ll see it’s displayed correctly. If you then try uncommenting the `save()` call inside `create()`, everything is displayed correctly without a relaunch.
 

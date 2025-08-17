@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: "“CPC Rock Paper Scissors” by Amit: A project with fireworks animations"
-description: "Article(s) > (1/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
+description: "Article(s) > (1/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js" 
 icon: fas fa-computer
 category:
   - Node.js
@@ -19,7 +19,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > (1/5) How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+      content: "Article(s) > (1/5) How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
     - property: og:description
       content: "“CPC Rock Paper Scissors” by Amit: A project with fireworks animations"
     - property: og:url
@@ -36,8 +36,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 
 ```component VPCard
 {
-  "title": "How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
-  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program...",
+  "title": "How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js",
+  "desc": "Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program...",
   "link": "/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -49,8 +49,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
 ---
 
 <SiteInfo
-  name="How to Become an Analytical Programmer – Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
-  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture – a conceptual map of the program..."
+  name="How to Become an Analytical Programmer - Solve the “Rock, Paper, Scissors” Game 5 Ways Using JavaScript & Mermaid.js"
+  desc="Over the past year, I’ve explored tools and practices that help developers build an analytical mindset. One recurring theme is how experienced programmers often describe understanding code as forming a mental picture - a conceptual map of the program..."
   url="https://freecodecamp.org/news/how-to-become-an-analytical-programmer-compare-five-projects#heading-1-cpc-rock-paper-scissors-by-amit-a-project-with-fireworks-animations"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
@@ -544,6 +544,6 @@ Let’s summarize what’s happening here:
 
 - In this project, a function acting as an event handler contains most of the project logic and it assumes full execution responsibility over some of the steps of the workflow.
 - Once the event handler is triggered, the choice of the user is passed to it and the same function calculates the choice of the computer.
-- That calculation is followed by part of the preparation of the interface, then an animation managed by an `Interval` – followed by a nested `Timeout` JavaScript method.
+- That calculation is followed by part of the preparation of the interface, then an animation managed by an `Interval` - followed by a nested `Timeout` JavaScript method.
 - The Timeout method has the `displayResult` function as a callback function. This function will take the responsibility of the remaining steps.
 - It is inside the `displayResult` where the calculation of the winner takes place. The same function controls the rest of the display of results with different displays delegated to two other functions based on who wins the game.

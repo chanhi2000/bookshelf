@@ -66,7 +66,7 @@ In this article, we will be focusing on the concept of granular user segmentatio
 
 Flagsmith is an open-source feature management platform that helps teams control feature rollouts with precision. It helps developers toggle features on or off for specific users, environments, or groups without redeploying code.
 
-Ideal for A/B testing, phased rollouts, and remote configuration, Flagsmith ensures real-time adjustments and seamless feature delivery. With flexible deployment options – hosted, private cloud, or on-premises – it adapts to the needs of organizations of all sizes.
+Ideal for A/B testing, phased rollouts, and remote configuration, Flagsmith ensures real-time adjustments and seamless feature delivery. With flexible deployment options - hosted, private cloud, or on-premises - it adapts to the needs of organizations of all sizes.
 
 ---
 
@@ -109,7 +109,7 @@ You can integrate Flagsmith into your development workflow by using [<FontIcon i
 
 A segment is a subset of identities, defined by a set of rules based on traits associated with identities. So a single identity can be a part of many segments and is associated with an environment, such as staging or production.
 
-You might be wondering – how can product teams use segments in their feature rollouts?
+You might be wondering - how can product teams use segments in their feature rollouts?
 
 You can use segments to create ‘overrides’ on any number of features in your application. This allows you to control the state and/or value of a feature for a selection of your users, as defined by the segment.
 

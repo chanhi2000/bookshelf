@@ -84,7 +84,7 @@ So what is Nodemailer?
 
 Nodemailer is a popular Node.js module that lets you send emails efficiently using different methods such as SMTP (Simple Mail Transfer Protocol), OAuth2, and so on.
 
-SMTP acts like a postal service – or rather, it’s a postal service that sorts your emails and routes your messages on different mail servers until they reach their final destination. This helps ensure that your messages reach the right inbox all the time.
+SMTP acts like a postal service - or rather, it’s a postal service that sorts your emails and routes your messages on different mail servers until they reach their final destination. This helps ensure that your messages reach the right inbox all the time.
 
 But it’s important to note that SMTP only handles the **sending of emails,** meaning that it doesn’t handle retrieval of already sent emails. But protocols like IMAP (Internet Message Access Protocol) and POP3 (Post Office Protocol version 3) let you retrieve emails. We won’t be using these tools here, but I just wanted you to be aware of them in case you want to implement retrieval functionality in your own projects.
 
@@ -106,7 +106,7 @@ First things first, you have to set up your environment. When setting up my envi
 
 Before starting this process, make that Node is installed on your computer. If it’s not, head to their [<FontIcon icon="fa-brands fa-node"/>website](https://nodejs.org/en) to download and install it from there.
 
-You can also use your command line to install Node by running the command `nvm install –lts`.
+You can also use your command line to install Node by running the command `nvm install -lts`.
 
 Or you could use the newest method recommended on the Node.js website, which is simply to run `fnm`.
 
@@ -119,7 +119,7 @@ fnm install 22 # this downloads and installs node.js.
 
 node -v # this displays the version of node.js currently installed in your operating system.
 
-npm – v # this verifies the version of npm currently installed.
+npm - v # this verifies the version of npm currently installed.
 ```
 
 Next, let’s set up your frontend interface.
@@ -231,7 +231,7 @@ import { useState } from 'react';
 
 You import the `useState` hook (which is a React hook) which lets you effectively declare/add states and manage states in a functional component.
 
-The `useState` hook declaring states and managing states might sound a bit off to you – but I have an article that’ll help you understand how the `useState` hook functions: [**Here you go**](/freecodecamp.org/how-to-use-the-usestate-and-useeffect-hooks-in-your-project.md).
+The `useState` hook declaring states and managing states might sound a bit off to you - but I have an article that’ll help you understand how the `useState` hook functions: [**Here you go**](/freecodecamp.org/how-to-use-the-usestate-and-useeffect-hooks-in-your-project.md).
 
 Next, you’ll need to declare your state variables. Here’s how you can do that:
 
@@ -322,7 +322,7 @@ if (response.ok) {
 }
 ```
 
-In the code above, after the user types in their information correctly and submits it, if the message is sent successfully, an alert will be displayed with the message `Email sent Successfully`. But if the message wasn’t successful – maybe due to how the user typed in their information or due to a failed request – an alert will be displayed as well an error message `Failed to send email.`.
+In the code above, after the user types in their information correctly and submits it, if the message is sent successfully, an alert will be displayed with the message `Email sent Successfully`. But if the message wasn’t successful - maybe due to how the user typed in their information or due to a failed request - an alert will be displayed as well an error message `Failed to send email.`.
 
 For handling server errors that might occur due to network issues or due to the API being down, an error message will be displayed `An unexpected error occurred. Please try again later.`.
 

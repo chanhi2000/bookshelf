@@ -92,7 +92,7 @@ This is where the concept of Retrieval-Augmented Generation ([<FontIcon icon="fa
 
 ![What is Retrieval-Augmented Generation (RAG)?](https://freecodecamp.org/news/content/images/2024/05/image-57.png)
 
-But before you can chat about your data, a lot of “legwork” is involved. Setting up the infrastructure – the pipeline, vector database, message broker, and knowledge retrieval – is a complex and time-consuming process. This is where the open source tool [<FontIcon icon="fas fa-globe"/>Agent Cloud](https://theankurtyagi.com/what-is-agent-cloud/) comes in.
+But before you can chat about your data, a lot of “legwork” is involved. Setting up the infrastructure - the pipeline, vector database, message broker, and knowledge retrieval - is a complex and time-consuming process. This is where the open source tool [<FontIcon icon="fas fa-globe"/>Agent Cloud](https://theankurtyagi.com/what-is-agent-cloud/) comes in.
 
 In this guide, you'll learn all about Agent Cloud and what it can do. We'll start by looking at some background info and the current problems we're dealing with. Then, we'll see how Agent Cloud can help solve them.
 
@@ -249,8 +249,8 @@ Go to the Models tab in Agent Cloud. Click the Add Models button to add two type
 
 Agent Cloud offers two authentication methods for accessing your Google Sheets data:
 
-- Google (Auth) – This method involves directly authorizing Agent Cloud through your Google account.
-- Service Key Account – This approach utilizes a service key, a credential specifically created for application access to Google Cloud Platform (GCP) services, including Google Sheets.
+- Google (Auth) - This method involves directly authorizing Agent Cloud through your Google account.
+- Service Key Account - This approach utilizes a service key, a credential specifically created for application access to Google Cloud Platform (GCP) services, including Google Sheets.
 
 For this guide, I'll focus on the service key account method, which is generally considered a more secure and streamlined approach for application-to-application communication.
 
@@ -466,11 +466,11 @@ Click the Apps tab and then click the **New App** Button, and then enter the det
 
 ![New App Screen](https://lh7-us.googleusercontent.com/jBOcimMYi1-HQGbpUXJYFLho-5LGKGKVJJ5E9OnNpy83PzSX0RINP0DN6oK_9p9LztvSm5yQdMSDqmLqY_fvmC_3pREpO2f9h_zRmPGwaYdr9TwLmcWzWhZSRPMlWDK15x9cEdMz6gNwyL4uYnB0Pyc)
 
-- App name – Enter the name you’d like to give to your app.
+- App name - Enter the name you’d like to give to your app.
 - Enter a description of what our App.
 - Select a Tasks
 - Select an Agent
-- Choose a Chat Manager Model – Pick the Open AI model we configured earlier.
+- Choose a Chat Manager Model - Pick the Open AI model we configured earlier.
 
 ![App Screen](https://lh7-us.googleusercontent.com/1SMFU6auHKUZgxZGUQ9yJQzKuqDwtU4KbZBJGweDPaJBW_Oc6plMrcror2o2dWindixOWu6bGyYNGg6eUB5TS2iYYmOzP9FHFIvacZTle32ZqL7Gylxxy1XlZLR9YivE3KDHBXxJ1_dvO-aVHWbc2Mo)
 
@@ -515,7 +515,7 @@ Some of the fresh articles I've written this year.
   preview="https://theankurtyagi.com/wp-content/uploads/2024/02/Orange-Yellow-Gradient-Make-Design-Blog-Banner-61-1024x576.png"/>
 
 <SiteInfo
-  name="How to Build a Full Stack Notes App Using React and Supabase – The Complete Guide - The Ankur Tyagi"
+  name="How to Build a Full Stack Notes App Using React and Supabase - The Complete Guide - The Ankur Tyagi"
   desc="Learn how to build a dynamic note-taking application using React and Supabase. This detailed tutorial walks you through the process of developing an app that not only authenticates users via Supabase but also allows for comprehensive note management, including CRUD operations."
   url="https://theankurtyagi.com/notes-app-react-supabase"
   logo="https://theankurtyagi.com/wp-content/uploads/2023/07/cropped-cropped-ankur-icon-32x32.jpg"

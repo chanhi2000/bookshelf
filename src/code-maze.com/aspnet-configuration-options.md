@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: ASP.NET Core Configuration – Options Pattern
-description: Article(s) > ASP.NET Core Configuration – Options Pattern
+title: ASP.NET Core Configuration - Options Pattern
+description: Article(s) > ASP.NET Core Configuration - Options Pattern
 icon: iconfont icon-csharp
 category: 
   - C#
@@ -15,9 +15,9 @@ tag:
 head:  
   - - meta:
     - property: og:title
-      content: Article(s) > ASP.NET Core Configuration – Options Pattern
+      content: Article(s) > ASP.NET Core Configuration - Options Pattern
     - property: og:description
-      content: ASP.NET Core Configuration – Options Pattern
+      content: ASP.NET Core Configuration - Options Pattern
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/code-maze.com/aspnet-configuration-options.html
 prev: /programming/cs/articles/README.md
@@ -43,13 +43,13 @@ cover: /assets/image/code-maze.com/aspnet-configuration-options/banner.png
 ---
 
 <SiteInfo
-  name="ASP.NET Core Configuration – Options Pattern"
+  name="ASP.NET Core Configuration - Options Pattern"
   desc="In this article, we're going to cover another, better way of reading configuration data in .NET Core - the options pattern."
   url="https://code-maze.com/aspnet-configuration-options/"
   logo="/assets/image/code-maze.com/favicon.png"
   preview="/assets/image/code-maze.com/aspnet-configuration-options/banner.png"/>
 
-In this article, we’re going to cover another way of reading configuration data in .NET Core – the options pattern. The options pattern helps us group related configuration settings, and it provides strongly typed access to them. We are going to learn how the options pattern works and how we can improve our existing configuration access or even reload the configuration in real-time.
+In this article, we’re going to cover another way of reading configuration data in .NET Core - the options pattern. The options pattern helps us group related configuration settings, and it provides strongly typed access to them. We are going to learn how the options pattern works and how we can improve our existing configuration access or even reload the configuration in real-time.
 
 If you’ve missed some of the basic configuration stuff, check out the [ASP.NET Core Configuration Basics](/code-maze.com/aspnet-configuration-basic-concepts.md).
 

@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -51,13 +51,13 @@ isOriginal: false
 }
 ```
 
-If you already finished all the Hacking with Swift projects so far, you'll know I hate tangents. I'm here to teach you something cool, and I prefer to do that using as little waffle as possible – and tangents are apt to create the Perfect Storm for waffle. But in this case it's important, so please bear with me.
+If you already finished all the Hacking with Swift projects so far, you'll know I hate tangents. I'm here to teach you something cool, and I prefer to do that using as little waffle as possible - and tangents are apt to create the Perfect Storm for waffle. But in this case it's important, so please bear with me.
 
 If you haven't already done so, you need to run your app, record a whistle, and tap Submit now. All being well it will work first time (if not you probably missed something!), but how do you know it's worked? I mean really be *sure* that's it worked? And what do you do if you want to change a data type because you made a mistake, or perhaps even delete the whole thing and start again?
 
 Apple has a solution for this, and it's called the CloudKit Dashboard. Now that you have submitted your first record to iCloud, you can launch [<FontIcon icon="fa-brands fa-apple"/>https://icloud.developer.apple.com/dashboard](https://icloud.developer.apple.com/dashboard) in your web browser and look behind the iCloud curtain as it were. The CloudKit dashboard shows you exactly what data your app is storing, who can access it, and how much of your free quota you're using.
 
-So, just briefly, it's time for a tangent: I want to explain a few things about CloudKit Dashboard, because it's important. Yes, it *is* important – later code won't run unless you read my instructions, so please don't skip ahead.
+So, just briefly, it's time for a tangent: I want to explain a few things about CloudKit Dashboard, because it's important. Yes, it *is* important - later code won't run unless you read my instructions, so please don't skip ahead.
 
 When you log into CloudKit Dashboard, you may need to select your project from all the others you have. You’ll then get a list of the various areas that make up your app, both in development and production. Under the Development environment please choose Data, and you’ll move onto the Records tab in a new screen.
 
@@ -83,7 +83,7 @@ So, the CloudKit Dashboard is basically a miniature CMS that lets you peek into 
 
 To see how much of your quota you're using, click your app’s bundle ID in the top bar, then choose Public Database Usage in the development environment. You'll see a scrolling list of charts that show you how many users you have, how many requests per second they've made, how much storage data transfer you're using for assets, and how much database storage you're using. CloudKit shows you a solid line to represent how much you've actually used, then a dashed line to show its projections about how much you're likely to use if current trends continue.
 
-Note that all quota directly depends on the number of users you have – as you add more users, Apple adds more quota. So, the first graph directly affects all the others.
+Note that all quota directly depends on the number of users you have - as you add more users, Apple adds more quota. So, the first graph directly affects all the others.
 
 What these charts don't show is how your usage maps against your quota, and there's a good reason for that: as soon as you add in your quota, your usage becomes so tiny that you won't be able to see it!
 

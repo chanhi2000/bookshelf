@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!--
-If you created a view dynamically and want it gone, it's a one-liner in Swift thanks to the `removeFromSuperview()` method. When you call this, the view gets removed immediately and possibly also destroyed – it will only be kept around if you have a reference to it elsewhere. Here's how it's done:
+If you created a view dynamically and want it gone, it's a one-liner in Swift thanks to the `removeFromSuperview()` method. When you call this, the view gets removed immediately and possibly also destroyed - it will only be kept around if you have a reference to it elsewhere. Here's how it's done:
 
 ```swift
 yourView.removeFromSuperview()

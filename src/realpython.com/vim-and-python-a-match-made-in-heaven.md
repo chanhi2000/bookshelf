@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "VIM and Python – A Match Made in Heaven"
-description: "Article(s) > VIM and Python – A Match Made in Heaven"
+title: "VIM and Python - A Match Made in Heaven"
+description: "Article(s) > VIM and Python - A Match Made in Heaven"
 icon: iconfont icon-vim
 category:
   - Linux
@@ -22,9 +22,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > VIM and Python – A Match Made in Heaven"
+      content: "Article(s) > VIM and Python - A Match Made in Heaven"
     - property: og:description
-      content: "VIM and Python – A Match Made in Heaven"
+      content: "VIM and Python - A Match Made in Heaven"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/realpython.com/vim-and-python-a-match-made-in-heaven.html
 prev: /tool/vim/articles/README.md
@@ -67,7 +67,7 @@ cover: https://files.realpython.com/media/VIM-and-Python-A-Match-Made-in-Heaven_
 ---
 
 <SiteInfo
-  name="VIM and Python – A Match Made in Heaven"
+  name="VIM and Python - A Match Made in Heaven"
   desc="This article details how to set up a powerful VIM environment for Python development."
   url="https://realpython.com/vim-and-python-a-match-made-in-heaven"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
@@ -673,7 +673,7 @@ Thanks for reading!
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "VIM and Python – A Match Made in Heaven",
+  "title": "VIM and Python - A Match Made in Heaven",
   "desc": "This article details how to set up a powerful VIM environment for Python development.",
   "link": "https://chanhi2000.github.io/bookshelf/realpython.com/vim-and-python-a-match-made-in-heaven.html",
   "logo": "https://realpython.com/static/favicon.68cbf4197b0c.png",

@@ -219,7 +219,7 @@ If everything is set up correctly, a “success message” will appear. This con
 
 ### Step 3: Install the Programming Language
 
-Now that you’ve linked your instance to the editor, you can install the packages needed to build your web app. You can use any programming language you're comfortable with, but we’ll use Java for this tutorial. This will be a simple web application – we don’t need to go into advanced details.
+Now that you’ve linked your instance to the editor, you can install the packages needed to build your web app. You can use any programming language you're comfortable with, but we’ll use Java for this tutorial. This will be a simple web application - we don’t need to go into advanced details.
 
 #### 1. Install Java
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "UIKit - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/uikit/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -79,7 +79,7 @@ vw.heightAnchor.constraint(equalToConstant: 100).isActive = true
 vw.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
 ```
 
-However, while that approach is easy to read – and perfectly fine while you’re learning or if you don’t have complex layouts – there is a more efficient way. `NSLayoutConstraint` has a class method called `activate()` that activates multiple constraints at once, which should allow Auto Layout to update its entire layout as a single batch.
+However, while that approach is easy to read - and perfectly fine while you’re learning or if you don’t have complex layouts - there is a more efficient way. `NSLayoutConstraint` has a class method called `activate()` that activates multiple constraints at once, which should allow Auto Layout to update its entire layout as a single batch.
 
 The code for this is straightforward: just pass in an array of constraints to the `activate()` method, like this:
 
@@ -94,7 +94,7 @@ NSLayoutConstraint.activate([
 
 If you need to *deactivate* constraints, there’s an equivalent `deactivate()` method that is used the same way.
 
-**Note:** Auto Layout is smart enough to bulk actual layout changes even with the `isActive` approach – i.e., it will only call `layoutSubviews()` once per view even if you change four constraints – but Apple says that using `activate()` is definitely more efficient.
+**Note:** Auto Layout is smart enough to bulk actual layout changes even with the `isActive` approach - i.e., it will only call `layoutSubviews()` once per view even if you change four constraints - but Apple says that using `activate()` is definitely more efficient.
 
 -->
 

@@ -33,7 +33,7 @@ isOriginal: false
 ```component VPCard
 {
   "title": "Networking - free Swift example code",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/example-code/networking/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -59,7 +59,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-`URLSession` is designed to make network transfers as easy as possible, and a great example of that is its `downloadTask`()` method. This fetches the contents of a URL you specify, saves it to a local file, then calls a completion handler so you can manipulate the file – all in one.
+`URLSession` is designed to make network transfers as easy as possible, and a great example of that is its `downloadTask`()` method. This fetches the contents of a URL you specify, saves it to a local file, then calls a completion handler so you can manipulate the file - all in one.
 
 To demonstrate this, here’s some code to download the source code to the apple.com homepage:
 
@@ -80,9 +80,9 @@ task.resume()
 There are a few important things to note in there:
 
 1. Your completion handler gets called with a local URL, which is where the data was saved locally. This is optional, so you need to unwrap it carefully.
-<li>If something went wrong – e.g. if the network was down – then you’ll get an error passed to you explaining what happened.
+<li>If something went wrong - e.g. if the network was down - then you’ll get an error passed to you explaining what happened.
 <li>When you have created your download task you should call `resume()` on it to make it happen.
-<li>You don’t need to worry about storing the download task somewhere while it happens – it’s being tracked by the shared `URLSession` on your behalf.
+<li>You don’t need to worry about storing the download task somewhere while it happens - it’s being tracked by the shared `URLSession` on your behalf.
 
 -->
 

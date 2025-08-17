@@ -82,7 +82,7 @@ The course is actually a combination of these three shorter courses:
 
 In the first section you will learn what algorithms are, how they work, and where they can be found.
 
-In the second section you will learn about two introductory data structures – arrays and linked lists. You'll look at common operations and how the runtimes of these operations affect our everyday code.
+In the second section you will learn about two introductory data structures - arrays and linked lists. You'll look at common operations and how the runtimes of these operations affect our everyday code.
 
 For the rest of the course, you'll combine your knowledge of algorithms and data structures to solve the problem of sorting data using the Merge Sort algorithm.
 

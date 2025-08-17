@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: How to setup your editor
-description: Article(s) > (3/21) The Go Handbook – Learn Golang for Beginners 
+description: Article(s) > (3/21) The Go Handbook - Learn Golang for Beginners 
 category:
   - Go
   - Article(s)
@@ -13,7 +13,7 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (3/21) The Go Handbook – Learn Golang for Beginners
+      content: Article(s) > (3/21) The Go Handbook - Learn Golang for Beginners
     - property: og:description
       content: How to setup your editor
     - property: og:url
@@ -28,8 +28,8 @@ cover: https://freecodecamp.org/news/content/images/2022/10/golang.png
 
 ```component VPCard
 {
-  "title": "The Go Handbook – Learn Golang for Beginners",
-  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
+  "title": "The Go Handbook - Learn Golang for Beginners",
+  "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
   "link": "/freecodecamp.org/go-beginners-handbook/README.md",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
@@ -41,8 +41,8 @@ cover: https://freecodecamp.org/news/content/images/2022/10/golang.png
 ---
 
 <SiteInfo
-  name="The Go Handbook – Learn Golang for Beginners"
-  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
+  name="The Go Handbook - Learn Golang for Beginners"
+  desc="Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim..."
   url="https://freecodecamp.org/news/go-beginners-handbook#heading-how-to-setup-your-editor"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2022/10/golang.png"/>

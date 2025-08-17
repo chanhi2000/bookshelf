@@ -58,7 +58,7 @@ You must provide `@FetchRequest` with at least one value, which is an array of s
 
 ::: important
 
-Before using `@FetchRequest` you must first have injected a Core Data managed object context into the environment – see [how to access a Core Data managed object context from a SwiftUI view](/hackingwithswift.com/swiftui/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.mdd) for instructions on how to do that.
+Before using `@FetchRequest` you must first have injected a Core Data managed object context into the environment - see [how to access a Core Data managed object context from a SwiftUI view](/hackingwithswift.com/swiftui/how-to-access-a-core-data-managed-object-context-from-a-swiftui-view.mdd) for instructions on how to do that.
 
 :::
 

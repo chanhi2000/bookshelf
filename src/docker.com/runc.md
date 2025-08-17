@@ -89,7 +89,7 @@ Today we are introducing our most famous piece of plumbing: our OS container run
 
 ### Introducing runC: The universal container runtime
 
-Docker is a platform to build, ship and run distributed applications – meaning that it runs applications in a distributed fashion across many machines, often with a variety of hardware and OS configurations. For this to be possible, it needs a sandboxing environment capable of abstracting the specifics of the underlying host (for portability), without requiring a complete rewrite of the application (for ubiquity), and without introducing excessive performance overhead (for scale).
+Docker is a platform to build, ship and run distributed applications - meaning that it runs applications in a distributed fashion across many machines, often with a variety of hardware and OS configurations. For this to be possible, it needs a sandboxing environment capable of abstracting the specifics of the underlying host (for portability), without requiring a complete rewrite of the application (for ubiquity), and without introducing excessive performance overhead (for scale).
 
 Over the last 5 years Linux has gradually gained a collection of features which make this kind of abstraction possible. Windows, with its upcoming version 10, is adding similar features as well. Those individual features have esoteric names like “control groups”, “namespaces”, “seccomp”, “capabilities”, “apparmor” and so on. But collectively, they are known as “OS containers” or sometimes “lightweight virtualization”.
 
@@ -108,13 +108,13 @@ Popular runC features include:
 - Native support for live migration, with the help of the CRIU team at Parallels
 - Native support of Windows 10 containers is being contributed directly by Microsoft engineers
 - Planned native support for Arm, Power, Sparc with direct participation and support from Arm, Intel, Qualcomm, IBM, and the entire hardware manufacturers ecosystem.
-- Planned native support for bleeding edge hardware features – DPDK, sr-iov, tpm, secure enclave, etc.
+- Planned native support for bleeding edge hardware features - DPDK, sr-iov, tpm, secure enclave, etc.
 - Portable performance profiles, contributed by Google engineers based on their experience deploying containers in production.
 - A formally specified configuration format, governed by the Open Container Project under the auspices of the Linux Foundation. In other words: it’s a real standard.
 
 The goal of runC is to make standard containers available everywhere
 
-In fact, we have decided to donate the code of runC itself to the OCP foundation. Because OCP is designed to work just like the Linux Foundation, we expect that the maintainers – a blend of employees from various container-focused companies and hobbyists – will be largely left alone, and will continue to write the most awesome software possible.
+In fact, we have decided to donate the code of runC itself to the OCP foundation. Because OCP is designed to work just like the Linux Foundation, we expect that the maintainers - a blend of employees from various container-focused companies and hobbyists - will be largely left alone, and will continue to write the most awesome software possible.
 
 runC is available today and is already under active development. Because it is based on the battle-tested plumbing used by Docker, you can use it in production today, either as part of a Docker deployment or in your own custom platform. We look forward to your contributions!
 
@@ -140,7 +140,7 @@ runC is available today at [<FontIcon icon="iconfont icon-github"/>`opencontaine
   logo="https://secure.meetupstatic.com/next/images/general/m_swarm_196x196.png"
   preview="https://secure.meetupstatic.com/photos/event/c/b/8/d/600_505012109.jpeg"/>
 
-Join our next Docker online meetup recapping all of the news from DockerCon including demos of the latest features of Docker 1.7. The meetup is on Monday, June 29 at 10:00 PDT / 19:00 CEST – [<FontIcon icon="fas fa-globe"/>click here](http://meetup.com/Docker-Online-Meetup/events/222855066/) to register!
+Join our next Docker online meetup recapping all of the news from DockerCon including demos of the latest features of Docker 1.7. The meetup is on Monday, June 29 at 10:00 PDT / 19:00 CEST - [<FontIcon icon="fas fa-globe"/>click here](http://meetup.com/Docker-Online-Meetup/events/222855066/) to register!
 
 :::
 

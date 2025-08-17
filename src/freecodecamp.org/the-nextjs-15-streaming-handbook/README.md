@@ -63,10 +63,10 @@ In this in-depth tutorial, you’ll dive into one such advanced concept in Next.
 After reading this article, you’ll understand what streaming is and how it works. You’ll also be able to implement a super smooth User Experience on your own website. And your app? It’ll feel blazing fast and perform like a champ! So, without any further ado, let’s get started.
 
 - [Project Setup — Demo SSR Page](#heading-project-setup-demo-ssr-page)
-- [Discovering SSR Issues – UX and False Interaction](#heading-discovering-ssr-issues-ux-and-false-interaction)
+- [Discovering SSR Issues - UX and False Interaction](#heading-discovering-ssr-issues-ux-and-false-interaction)
 - [How Streaming Can Solve The Problem](#heading-how-streaming-can-solve-the-problem)
 - [Two Types of Streaming in Next.js](#heading-two-types-of-streaming-in-nextjs)
-- [Next.js Automatic Streaming – loading.js](#heading-nextjs-automatic-streaming-loadingjs)
+- [Next.js Automatic Streaming - loading.js](#heading-nextjs-automatic-streaming-loadingjs)
 - [Forcing Dynamic Rendering for Effective Streaming](#heading-forcing-dynamic-rendering-for-effective-streaming)
 
 ::: note Prerequisites
@@ -95,7 +95,7 @@ Imagine going to a website where the page shell loads almost instantly. Content 
 
 Instead of waiting for the server to gather all the pieces of HTML before sending the whole bundle in one large batch, streaming permits the server to send blocks of markup as each block finishes rendering.
 
-From the user's perspective, the page is snappier – you receive a skeleton or a header immediately, followed by the rest of the UI rolling out without a lengthy blank pause.
+From the user's perspective, the page is snappier - you receive a skeleton or a header immediately, followed by the rest of the UI rolling out without a lengthy blank pause.
 
 ---
 
@@ -248,9 +248,9 @@ const getTools = async () => {
 export default getTools;
 ```
 
-The `getTools()` function is a [<FontIcon icon="iconfont icon-nextjs"/>Server Function](https://nextjs.org/docs/app/getting-started/updating-data#what-are-server-functions). It maps over an array called `TOOLS`. If you check that `TOOLS` array, it’s just a simple array of strings – names of different tools like JavaScript, React, Vue, and so on.
+The `getTools()` function is a [<FontIcon icon="iconfont icon-nextjs"/>Server Function](https://nextjs.org/docs/app/getting-started/updating-data#what-are-server-functions). It maps over an array called `TOOLS`. If you check that `TOOLS` array, it’s just a simple array of strings - names of different tools like JavaScript, React, Vue, and so on.
 
-While mapping through that `TOOLS` array, each tool string is passed into a function called `generateToolsData()`. This function takes two parameters: the `tool` name and a `delay`. We’ve set this delay to 3000 – meaning 3000 milliseconds or 3 seconds. Now let’s create the `generateToolsData()` function. Its main goal is to simulate a fake delay:
+While mapping through that `TOOLS` array, each tool string is passed into a function called `generateToolsData()`. This function takes two parameters: the `tool` name and a `delay`. We’ve set this delay to 3000 - meaning 3000 milliseconds or 3 seconds. Now let’s create the `generateToolsData()` function. Its main goal is to simulate a fake delay:
 
 ```js title="lib/getTools.js"
 async function generateToolsData(tool, delay) {
@@ -264,7 +264,7 @@ The above `generateToolsData()` function uses `setTimeout()` and multiplies it w
 
 To simulate the delay, you’re using a `Promise` and awaiting it to maintain asynchronous behavior. So essentially, you’re simulating that each tool takes a bit of time to "hang." Because of this, the `TOOLS.map()` function is returning an array of `Promises`. Since this is an `async` function, it naturally returns `Promises`.
 
-Now get back in the <FontIcon icon="fa-brands fa-js"/>`tools-card.js` file, and you’ll see that you’re getting an array of `Promises` from `getTools()`. Then, you’re passing that array to `Promise.all()`, which resolves all the `Promises` together. Finally, you get back an array of strings – one for each tool – but each one had a delay before resolving.
+Now get back in the <FontIcon icon="fa-brands fa-js"/>`tools-card.js` file, and you’ll see that you’re getting an array of `Promises` from `getTools()`. Then, you’re passing that array to `Promise.all()`, which resolves all the `Promises` together. Finally, you get back an array of strings - one for each tool - but each one had a delay before resolving.
 
 So, you just simulated a loading delay using `async` `setTimeout()`. But in real life, this delay could come from fetching data from a database, a network request or hitting an external API server. Basically, for any `async` operation that takes time, you’ve just simulated that behaviour.
 
@@ -304,7 +304,7 @@ export default function IconCard({ tool }) {
 }
 ```
 
-Here you can see a card header showing the `tool` name and a “Like” Button beside it (which is its own separate component). In the card content area below, there’s an icon – rendered by another presentational `IconComponent`. Now it's time to write code for the `IconComponent` as well.
+Here you can see a card header showing the `tool` name and a “Like” Button beside it (which is its own separate component). In the card content area below, there’s an icon - rendered by another presentational `IconComponent`. Now it's time to write code for the `IconComponent` as well.
 
 ### IconComponent
 
@@ -608,32 +608,32 @@ export default function LikeButton() {
 }
 ```
 
-Notice it starts with the `'use client'` directive, because this button handles client-side interaction. It has an `onClick` event attached – so when you click it, a “love sign” appears. That interaction is happening entirely on the client side. That’s why you had to define it as a [<FontIcon icon="fa-brands fa-react"/>Client Component](https://react.dev/reference/rsc/use-client).
+Notice it starts with the `'use client'` directive, because this button handles client-side interaction. It has an `onClick` event attached - so when you click it, a “love sign” appears. That interaction is happening entirely on the client side. That’s why you had to define it as a [<FontIcon icon="fa-brands fa-react"/>Client Component](https://react.dev/reference/rsc/use-client).
 
-Inside the component, you’re using a simple `useState()` hook with `like` state variable and `setLike` function. When the button is clicked, you toggle the `like` state – if it’s `true`, it becomes `false`, and vice versa. There’s some conditional CSS too – if like is `true`, the button turns “red”. If not, it stays “grey”.
+Inside the component, you’re using a simple `useState()` hook with `like` state variable and `setLike` function. When the button is clicked, you toggle the `like` state - if it’s `true`, it becomes `false`, and vice versa. There’s some conditional CSS too - if like is `true`, the button turns “red”. If not, it stays “grey”.
 
 ---
 
-## Discovering SSR Issues – UX and False Interaction
+## Discovering SSR Issues - UX and False Interaction
 
 Now check your browser. You’ll see, on the homepage, that you have a heading that says “Next.js Streaming”. Below that, there’s a button linked to a page called “Streaming Demo.”
 
-Now, notice what happens when you click the "Streaming Demo" button – you click it, but the page takes a bit of time to load. And honestly, the user experience here is terrible. Because from a regular user’s point of view, it’s not clear whether the click even worked.
+Now, notice what happens when you click the "Streaming Demo" button - you click it, but the page takes a bit of time to load. And honestly, the user experience here is terrible. Because from a regular user’s point of view, it’s not clear whether the click even worked.
 
 ![Discovering SSR Issues](https://cdn.hashnode.com/res/hashnode/image/upload/v1754078491159/c3c17d5d-add0-4a1b-973e-cdcd7f4b7533.gif)
 
-So, what’s causing this delay in loading the page? Well, it’s because the cards on that page are being loaded dynamically. You’ll see the code shortly and it’ll make more sense. But this loading process is happening asynchronously. And since everything in the page is being rendered on the server – which, as you may know, happens inside the `App` Component in Next.js – it’s being rendered as a [<FontIcon icon="fa-brands fa-react"/>Server Component](https://react.dev/reference/rsc/server-components).
+So, what’s causing this delay in loading the page? Well, it’s because the cards on that page are being loaded dynamically. You’ll see the code shortly and it’ll make more sense. But this loading process is happening asynchronously. And since everything in the page is being rendered on the server - which, as you may know, happens inside the `App` Component in Next.js - it’s being rendered as a [<FontIcon icon="fa-brands fa-react"/>Server Component](https://react.dev/reference/rsc/server-components).
 
 Now, we’ve got two main problems here:
 
-1. When I click the “Streaming Demo” button from the homepage, I have a poor user experience. After clicking, I have to sit and wait – because the page is taking time to load.
-2. The second problem is called a **False Interaction**. Imagine this: while the page is still loading, you reload it and click on a card to give it a love reaction. But once the page finishes loading, that love reaction is gone. That means you just had a false interaction – and that can confuse your users. Why? Because technically, the page rehydrated and replaced everything – and the interaction didn’t persist. That’s exactly what you mean by a false interaction. And this is happening because of **Server Side Rendering (SSR)**. This is one of those UX downsides of SSR.
+1. When I click the “Streaming Demo” button from the homepage, I have a poor user experience. After clicking, I have to sit and wait - because the page is taking time to load.
+2. The second problem is called a **False Interaction**. Imagine this: while the page is still loading, you reload it and click on a card to give it a love reaction. But once the page finishes loading, that love reaction is gone. That means you just had a false interaction - and that can confuse your users. Why? Because technically, the page rehydrated and replaced everything - and the interaction didn’t persist. That’s exactly what you mean by a false interaction. And this is happening because of **Server Side Rendering (SSR)**. This is one of those UX downsides of SSR.
 
 ![False Interaction - SSR](https://cdn.hashnode.com/res/hashnode/image/upload/v1754078793243/44fcd1d1-a58f-427c-a2f3-a3c5749fb3fc.gif)
 
 ### Breaking Down SSR Issues
 
-Let me break it down. When someone hits this page, the request first goes to the server. Then all the `async` operations begin. We call that **phase A**. Once that’s done, the HTML gets generated – we can call that **phase B**. Then the HTML and CSS reach the browser – let’s call that **C**. And finally, once the JS bundle fully loads in the browser, you reach the Hydration phase.
+Let me break it down. When someone hits this page, the request first goes to the server. Then all the `async` operations begin. We call that **phase A**. Once that’s done, the HTML gets generated - we can call that **phase B**. Then the HTML and CSS reach the browser - let’s call that **C**. And finally, once the JS bundle fully loads in the browser, you reach the Hydration phase.
 
 Now, if these terms (like **Page Rendering** and **Hydration**) aren’t clear to you, I recently made a [<FontIcon icon="fa-brands fa-youtube"/>full video covering Next.js rendering and Caching](https://youtu.be/g3nj8SIO7Vs). It’s a must-watch for any Next.js, React, or general web developer. You’ll learn how your web page is rendered, how Hydration works, and how the whole rendering process is coordinated between browser and server.
 
@@ -645,7 +645,7 @@ Back to the main point. You should now understand that Server Side Rendering inv
 
 ![SSR Blocking Behaviour](https://cdn.hashnode.com/res/hashnode/image/upload/v1754079470587/15e69637-a83f-4abe-bc0f-1e5c9fc86782.png)
 
-These steps can’t run concurrently – they have to happen one after the other. That’s why you’re seeing this issue. Let’s say our page has 9 cards. Maybe some cards could’ve loaded earlier, but the full page waits until all 9 are ready. Result? We see everything at once – at the very end. Wouldn’t it be great if we could improve that user experience? That’s where **Streaming** comes in.
+These steps can’t run concurrently - they have to happen one after the other. That’s why you’re seeing this issue. Let’s say our page has 9 cards. Maybe some cards could’ve loaded earlier, but the full page waits until all 9 are ready. Result? We see everything at once - at the very end. Wouldn’t it be great if we could improve that user experience? That’s where **Streaming** comes in.
 
 ---
 
@@ -653,17 +653,17 @@ These steps can’t run concurrently – they have to happen one after the other
 
 ![SSR - Bad UX](https://cdn.hashnode.com/res/hashnode/image/upload/v1754079647605/23b58563-1583-464b-b4d2-1d3c837d8c3c.gif)
 
-A few moments ago in the demo, you saw the whole UI load at once. From the outside, it looked like all the components rendered together – but in reality, each part of your page is rendered separately. Because in React, everything’s component-based, right?
+A few moments ago in the demo, you saw the whole UI load at once. From the outside, it looked like all the components rendered together - but in reality, each part of your page is rendered separately. Because in React, everything’s component-based, right?
 
-Now, what if **Component A** finishes early? Wouldn’t it be amazing if you could just send **Component A** to the browser right away? Meanwhile, **Component B**, **C**, and so on are still processing – and once they’re ready, they stream in next! This is exactly how **Streaming** works.
+Now, what if **Component A** finishes early? Wouldn’t it be amazing if you could just send **Component A** to the browser right away? Meanwhile, **Component B**, **C**, and so on are still processing - and once they’re ready, they stream in next! This is exactly how **Streaming** works.
 
 Server Side Rendering is definitely faster than **Client Side Rendering**. But the real problem with SSR is the user experience. That’s why we use Streaming.
 
-Think of it like YouTube. When you play a video, does it download fully before starting? Of course not! The video plays immediately, and the rest keeps loading in chunks – that’s buffering. As a user, you don’t feel any lag – it’s a super smooth experience. You want the same experience on your web pages, and that’s what Streaming is all about.
+Think of it like YouTube. When you play a video, does it download fully before starting? Of course not! The video plays immediately, and the rest keeps loading in chunks - that’s buffering. As a user, you don’t feel any lag - it’s a super smooth experience. You want the same experience on your web pages, and that’s what Streaming is all about.
 
 ![Streaming in Action](https://cdn.hashnode.com/res/hashnode/image/upload/v1754079758843/1f1130f4-351a-4b80-8205-b56550c53232.png)
 
-As you can see above , the sidebar section of the UI is already loaded. But the right-side content is still in a loading state. This is exactly the kind of experience you want to build – where parts of the page load independently, as soon as they're ready. And this is definitely better than traditional SSR, because it gives users a much smoother experience.
+As you can see above , the sidebar section of the UI is already loaded. But the right-side content is still in a loading state. This is exactly the kind of experience you want to build - where parts of the page load independently, as soon as they're ready. And this is definitely better than traditional SSR, because it gives users a much smoother experience.
 
 Now here's something important: streaming only works with **Server Components**. To implement this, React gives us a tool called [<FontIcon icon="fa-brands fa-react"/>React Suspense](https://react.dev/reference/react/Suspense). You’ll now learn how to use React Suspense to upgrade your current demo and see how you can take this streaming experience to the next level.
 
@@ -671,16 +671,16 @@ Now here's something important: streaming only works with **Server Components**.
 
 ## Two Types of Streaming in Next.js
 
-Let me bring you back to the code again. The first thing you’re going to do is get the demo I showed you earlier – that’s our starter code. I’ve saved that exact starter code in the <FontIcon icon="fas fa-code-branch"/>`starter` branch of the [GitHub repository (<FontIcon icon="iconfont icon-github"/>`logicbaselabs/nextjs-streaming`)](https://github.com/logicbaselabs/nextjs-streaming).
+Let me bring you back to the code again. The first thing you’re going to do is get the demo I showed you earlier - that’s our starter code. I’ve saved that exact starter code in the <FontIcon icon="fas fa-code-branch"/>`starter` branch of the [GitHub repository (<FontIcon icon="iconfont icon-github"/>`logicbaselabs/nextjs-streaming`)](https://github.com/logicbaselabs/nextjs-streaming).
 
 So from the <FontIcon icon="fas fa-code-branch"/>`starter` branch, you’ll get the exact code you’re starting with. Now, to implement streaming, you’ll start with Next.js’s default Streaming system. There are two ways to do Streaming in Next.js:
 
-1. **The default or automatic streaming**, where you don’t really have to configure anything – you just follow a simple convention.
+1. **The default or automatic streaming**, where you don’t really have to configure anything - you just follow a simple convention.
 2. **The custom or advanced streaming**, where you manually set things up.
 
 ---
 
-## Next.js Automatic Streaming – <FontIcon icon="fa-brands fa-js"/>`loading.js`
+## Next.js Automatic Streaming - <FontIcon icon="fa-brands fa-js"/>`loading.js`
 
 I’ll first show you the Automatic Streaming demo. Then I’ll walk you through how custom streaming works. Each approach will live in its own separate branch. The primary starter code stays in the <FontIcon icon="fas fa-code-branch"/>`starter` branch. Now create a new branch and call it <FontIcon icon="fas fa-code-branch"/>`automatic-streaming`, for the Automatic Streaming demo. All the code changes I make from now will go into this automatic branch.
 
@@ -692,17 +692,17 @@ git checkout -b automatic-streaming
 
 First, inside the <FontIcon icon="fas fa-folder-open"/>`streaming-demo` folder, you’ll create a <FontIcon icon="fa-brands fa-js"/>`loading.js` file. Inside that, you’ll return regular JSX like in any standard React page.
 
-But instead of just showing plain text like “Loading...”, you’ll take the modern approach and build a **Skeleton UI**. This means you’ll mimic the same structure of the actual cards – but instead of real content, you’ll show placeholder skeletons. So, users will see something shaped exactly like the real card, but it’ll be in a loading state.
+But instead of just showing plain text like “Loading...”, you’ll take the modern approach and build a **Skeleton UI**. This means you’ll mimic the same structure of the actual cards - but instead of real content, you’ll show placeholder skeletons. So, users will see something shaped exactly like the real card, but it’ll be in a loading state.
 
-When the real data comes in, it will replace the placeholder in that exact same spot. That’s how you’ll build the skeleton UI – just like modern web apps do for better user experience.
+When the real data comes in, it will replace the placeholder in that exact same spot. That’s how you’ll build the skeleton UI - just like modern web apps do for better user experience.
 
 ### Structure the Loading Skeleton Component
 
-Let’s now implement the same kind of loading skeletons that modern apps use. If you go to the `Home` component inside the <FontIcon icon="fas fa-folder-open"/>`app/streaming-demo/`<FontIcon icon="fa-brands fa-js"/>`page.js` file, you’ll see that everything starts from `ToolsCard`, right? There’s a wrapper `div` – `<div className="w-full min-h-screen flex justify-center items-center">` – you’ll need that as the outer container.
+Let’s now implement the same kind of loading skeletons that modern apps use. If you go to the `Home` component inside the <FontIcon icon="fas fa-folder-open"/>`app/streaming-demo/`<FontIcon icon="fa-brands fa-js"/>`page.js` file, you’ll see that everything starts from `ToolsCard`, right? There’s a wrapper `div` - `<div className="w-full min-h-screen flex justify-center items-center">` - you’ll need that as the outer container.
 
 So first, copy that container `div` from the `Home` component and paste it into the <FontIcon icon="fa-brands fa-js"/>`loading.js` file. That’s your outer wrapper. Got it?
 
-Then, there are two nested `divs` inside `ToolsCard` – `<div className="w-full max-w-4xl mx-auto px-4 sm:px-6"><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-6 py-6">` – you’ll need those, too. Copy both of them and paste them as children inside the outer wrapper in <FontIcon icon="fa-brands fa-js"/>`loading.js`. Make sure to close any missing end tags properly. That’s it – the full structure is ready.
+Then, there are two nested `divs` inside `ToolsCard` - `<div className="w-full max-w-4xl mx-auto px-4 sm:px-6"><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-6 py-6">` - you’ll need those, too. Copy both of them and paste them as children inside the outer wrapper in <FontIcon icon="fa-brands fa-js"/>`loading.js`. Make sure to close any missing end tags properly. That’s it - the full structure is ready.
 
 ```jsx title="app/streaming-demo/loading.js"
 <div className="w-full min-h-screen flex justify-center items-center">
@@ -718,7 +718,7 @@ Then, there are two nested `divs` inside `ToolsCard` – `<div className="w-full
 
 Now you need to insert 9 cards inside this layout just like the UI. To understand what each card should look like, let’s open up the <FontIcon icon="fa-brands fa-js"/>`icon-card.js` file. You’ll notice each card is just an `IconCard`, right? So you’ll use that same structure to build your loading skeletons.
 
-To save time, let me share code for the `CardSkeleton` component inside the <FontIcon icon="fas fa-folder-open"/>`components/ui` folder – named <FontIcon icon="fa-brands fa-react"/>`card-skeleton.jsx`. Inside that component, I’m using the [<FontIcon icon="iconfont icon-shadcn"/>`Skeleton`](https://ui.shadcn.com/docs/components/skeleton) component from Shadcn. Pretty straightforward!
+To save time, let me share code for the `CardSkeleton` component inside the <FontIcon icon="fas fa-folder-open"/>`components/ui` folder - named <FontIcon icon="fa-brands fa-react"/>`card-skeleton.jsx`. Inside that component, I’m using the [<FontIcon icon="iconfont icon-shadcn"/>`Skeleton`](https://ui.shadcn.com/docs/components/skeleton) component from Shadcn. Pretty straightforward!
 
 ```js title="components/ui/card-skeleton.jsx" 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -773,11 +773,11 @@ Let’s take a look. Remember what you did? You created a <FontIcon icon="fa-bra
 
 ![Automatic Streaming with <FontIcon icon="fa-brands fa-js"/>`loading.js`](https://cdn.hashnode.com/res/hashnode/image/upload/v1754079977767/5aea584f-3045-4539-ac67-e647e3afb304.png)
 
-Take a look at the left side of the above diagram: the `Page` component is wrapped in `Suspense` on both sides. And the `fallback` used there is our custom `Loading` component. This whole wrapping is done automatically by Next.js. You could’ve done it manually by explicitly writing the `Suspense` component and its `fallback` – and that would’ve worked too. But you didn’t have to, because you’re using Next.js, a smart framework.
+Take a look at the left side of the above diagram: the `Page` component is wrapped in `Suspense` on both sides. And the `fallback` used there is our custom `Loading` component. This whole wrapping is done automatically by Next.js. You could’ve done it manually by explicitly writing the `Suspense` component and its `fallback` - and that would’ve worked too. But you didn’t have to, because you’re using Next.js, a smart framework.
 
 Next.js is basically saying:
 
-> You don’t have to do all the heavy lifting. Just place a <FontIcon icon="fa-brands fa-js"/>`loading.js` file in the folder – I’ll handle the rest for you.
+> You don’t have to do all the heavy lifting. Just place a <FontIcon icon="fa-brands fa-js"/>`loading.js` file in the folder - I’ll handle the rest for you.
 
 And internally, it wraps your page with a `Suspense` boundary. That’s how Automatic Streaming gets applied. And this gave you a much smoother user experience. Wherever a part of the page is ready, it gets shown immediately.
 
@@ -789,7 +789,7 @@ Why? Because the cards on the page don’t all take the same amount of time to r
 
 Wouldn’t it be better if you had individual card-level rendering control? How can you do that? Simple: if you wrap each card in its own Suspense boundary, you’ll get that experience.
 
-But before jumping in, let’s analyse the actual issue here. Right now, “Card 1” completes steps through “A”, “B”, “C”, “D” – then “Card 2” starts. Then “Card 3”. Basically, the cards are loading serially.
+But before jumping in, let’s analyse the actual issue here. Right now, “Card 1” completes steps through “A”, “B”, “C”, “D” - then “Card 2” starts. Then “Card 3”. Basically, the cards are loading serially.
 
 ![Serial Rendering](https://cdn.hashnode.com/res/hashnode/image/upload/v1754080238122/8e3ca78a-cc44-4f31-806f-3c1554bdc26c.png)
 
@@ -829,7 +829,7 @@ Next, let’s open the <FontIcon icon="fa-brands fa-js"/>`tools-card.js` file. H
 So here’s what you’ll do:
 
 - First, cut the `<IconCard ... />` component. You’ll reuse it shortly.
-- Then, instead of `toolsWithData` – which is the resolved array you got using `Promise.all()` – you’ll now directly loop over the `tools` array (which contains the unresolved `Promises`).
+- Then, instead of `toolsWithData` - which is the resolved array you got using `Promise.all()` - you’ll now directly loop over the `tools` array (which contains the unresolved `Promises`).
 
 So you can remove the `toolsWithData` logic entirely. Now, in your JSX, you’ll replace the old `toolsWithData.map()` with `tools.map()`.
 
@@ -837,7 +837,7 @@ So you can remove the `toolsWithData` logic entirely. Now, in your JSX, you’ll
 
 Previously, each item in the loop was a resolved `string` called `tool`. But now, since you’re dealing with unresolved `Promises`, let’s rename that variable to `toolPromise`. You’ll also grab the second argument `index` so you can use it as a key.
 
-Now, in the return statement of the `map()` function, you’ll return a `<Suspense>…</Suspense>` for each iteration. Inside each `Suspense`, you’ll render a child component called `<ToolCard>…</ToolCard>` . You haven’t created the `ToolCard` component yet – but you’ll do that in just a moment. You’ll pass `toolPromise` as a prop to the `ToolCard` component.
+Now, in the return statement of the `map()` function, you’ll return a `<Suspense>…</Suspense>` for each iteration. Inside each `Suspense`, you’ll render a child component called `<ToolCard>…</ToolCard>` . You haven’t created the `ToolCard` component yet - but you’ll do that in just a moment. You’ll pass `toolPromise` as a prop to the `ToolCard` component.
 
 ```jsx title="components/tools-cards.js"
 const ToolsCards = async () => {
@@ -866,7 +866,7 @@ So, what’s happening here?
 - Inside that `Suspense`, you render the `ToolCard` component
 - And you pass `toolPromise` as a prop to it
 
-Hope this part is clear. Now you’ll go ahead and create the `ToolCard` component. But before that, you need to set a `fallback` inside the `Suspense` component. The fallback means that as long as the child component inside Suspense hasn’t finished resolving its `Promise`, this fallback UI will be shown instead. So you can use `<CardSkeleton />` as your fallback component. That means, until the Promise is resolved, users will see the `CardSkeleton` component. Also, you need to set a `key` for each item – and here, you can use the `index` as the `key`.
+Hope this part is clear. Now you’ll go ahead and create the `ToolCard` component. But before that, you need to set a `fallback` inside the `Suspense` component. The fallback means that as long as the child component inside Suspense hasn’t finished resolving its `Promise`, this fallback UI will be shown instead. So you can use `<CardSkeleton />` as your fallback component. That means, until the Promise is resolved, users will see the `CardSkeleton` component. Also, you need to set a `key` for each item - and here, you can use the `index` as the `key`.
 
 ```js title="components/tools-cards.js"
 {toolsPromise.map((toolPromise, index) => (
@@ -913,7 +913,7 @@ But now, you’re not using `Promise.all()` anymore. Instead, you’re leveragin
 
 ### Final Demo
 
-Now let’s check the terminal real quick, just to see if there are any errors. It should look good – no errors! Now if you head over to the browser, and from the homepage click on the “Streaming Demo” button, you should see the Streaming in action!
+Now let’s check the terminal real quick, just to see if there are any errors. It should look good - no errors! Now if you head over to the browser, and from the homepage click on the “Streaming Demo” button, you should see the Streaming in action!
 
 All the icons should stream in one by one. As soon as something is ready, it should appear. It’s no longer waiting for everything to resolve at once. Whichever item resolves first streams directly onto the page.
 
@@ -921,13 +921,13 @@ All the icons should stream in one by one. As soon as something is ready, it sho
 
 Here’s another cool thing: let’s say you reload the page. Now one of the cards appears early, and you give it a “love” reaction. You’ll see “No problem at all!” Even after all the other cards load, your “love” reaction stays intact. Why? Because the card you interacted with has already been hydrated. Clear?
 
-So that old confusing behaviour – where a user would interact too early and the action would disappear – yeah, that’s no longer an issue.
+So that old confusing behaviour - where a user would interact too early and the action would disappear - yeah, that’s no longer an issue.
 
 ![No False Interaction in Streaming SSR](https://cdn.hashnode.com/res/hashnode/image/upload/v1754080760808/7223cdae-1107-47d8-b477-0a33d4b98e1e.gif)
 
 With just a small change, you now have a complete Streaming experience. If you want to stream at the `page` level, just use a <FontIcon icon="fa-brands fa-js"/>`loading.js` file. That way, the whole page shows a loading state covering the entire area.
 
-But if you want to stream things individually – like different components or sections – you can simply wrap them in separate `Suspense` boundaries and handle it your own way. That’s Streaming in Next.js terms. Or, more simply, in React’s language.
+But if you want to stream things individually - like different components or sections - you can simply wrap them in separate `Suspense` boundaries and handle it your own way. That’s Streaming in Next.js terms. Or, more simply, in React’s language.
 
 ---
 
@@ -937,7 +937,7 @@ Now one final point I want to mention: remember how I kept saying “Server Side
 
 Why? Because there’s nothing dynamic going on here. So according to Next.js’s Rendering logic, this becomes an **SSG (Static Site Generation)** page. Right? If you’re not familiar with **SSG** or **SSR**, please do check out [<FontIcon icon="fa-brands fa-youtube"/>the video](https://youtu.be/xTT_Sd_xqh0) I recommended earlier. It explains everything clearly.
 
-And for those of you who are familiar with these concepts, you know that if we build this page, it becomes a static page. This means that SSR doesn’t really apply here – because the page is already pre-generated at build time. When the user requests it, it won’t go through `getData`, `getTools`, or any Promise-based fetch – because everything is already pre-rendered and baked into the build.
+And for those of you who are familiar with these concepts, you know that if we build this page, it becomes a static page. This means that SSR doesn’t really apply here - because the page is already pre-generated at build time. When the user requests it, it won’t go through `getData`, `getTools`, or any Promise-based fetch - because everything is already pre-rendered and baked into the build.
 
 Now, if this page were a true Server Side rendered page, then Streaming would make a lot more logical sense. So how can you force that? Easy! At the top of the <FontIcon icon="fas fa-folder-open"/>`app/streaming-demo/`<FontIcon icon="fa-brands fa-js"/>`page.js` file, just add this line:
 
@@ -953,7 +953,7 @@ So now if you run `npm start` and open the same site again, you’ll see the exa
 
 I hope I was able to explain clearly what Streaming is and how it works. And I really hope you now understand how and where this can be useful in your own projects.
 
-If this tutorial was even little bit helpful in getting your first Streaming UI experience, I’d love to hear about it – and it would be great inspiration for me to write more guides like this in the future.
+If this tutorial was even little bit helpful in getting your first Streaming UI experience, I’d love to hear about it - and it would be great inspiration for me to write more guides like this in the future.
 
 ---
 
@@ -961,7 +961,7 @@ If this tutorial was even little bit helpful in getting your first Streaming UI 
 
 You can find all the source code from this tutorial in [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`logicbaselabs/nextjs-streaming`)](https://github.com/logicbaselabs/nextjs-streaming). If it helped you in any way, consider giving it a star to show your support!
 
-Also, if you found the information here valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts – mention me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen) or on Facebook [<FontIcon icon="fa-brands fa-meta"/>`@sumit.analyzen`](https://facebook.com/sumit.analyzen), [watch my coding tutorials (<FontIcon icon="fa-brands ffa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
+Also, if you found the information here valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts - mention me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen) or on Facebook [<FontIcon icon="fa-brands fa-meta"/>`@sumit.analyzen`](https://facebook.com/sumit.analyzen), [watch my coding tutorials (<FontIcon icon="fa-brands ffa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

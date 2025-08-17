@@ -106,7 +106,7 @@ You can create your storage account by simply searching for Storage account in t
 
 ![Create Storage Accounts in Azure Portal](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-16.08.23.png)
 
-You can then run through the steps to create your storage account. Just note that this name needs to be unique and it also needs to be all lower case – no spaces but it can include numbers.
+You can then run through the steps to create your storage account. Just note that this name needs to be unique and it also needs to be all lower case - no spaces but it can include numbers.
 
 ![Create a New Resource Group](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-16.16.46.jpeg)
 
@@ -494,7 +494,7 @@ Open your browser and paste the URL [<FontIcon icon="fas fa-globe"/>`http://loca
 
 ![Application running in Browser](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-09-at-11.32.04.png)
 
-Paste in the URL of a website – either your portfolio website or any website you wish to generate a QR code for. I pasted my portfolio website URL, [<FontIcon icon="fas fa-globe"/>`https://wilfred-portfolio.vercel.app/`](https://wilfred-portfolio.vercel.app), into the URL box. See the result below:
+Paste in the URL of a website - either your portfolio website or any website you wish to generate a QR code for. I pasted my portfolio website URL, [<FontIcon icon="fas fa-globe"/>`https://wilfred-portfolio.vercel.app/`](https://wilfred-portfolio.vercel.app), into the URL box. See the result below:
 
 ![QR Code generated successfully](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-20.32.40.png)
 

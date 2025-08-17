@@ -81,7 +81,7 @@ Apart from the new security and networking features, we’ve got a whole load of
 
 - **Content addressable image IDs:** Image IDs now represent the content that is inside an image, in a similar way to how Git commit hashes represent the content inside commits. This means you can guarantee that the content you’re running is what you expect by just specifying that image’s ID. This is an improvement upon the image digests in Engine 1.6. There is a migration process for your existing images which might take a long time, so [<FontIcon icon="fa-brands fa-docker"/>take a read of the documentation if you want to prevent downtime](https://docs.docker.com/engine/migration/)**.**
 - **Better event stream:** The `docker events` command and events API endpoint has been improved and cleaned up. Events are now consistently structured with a resource type and the action being performed against that resource, and events have been added for actions against volumes and networks. [<FontIcon icon="fa-brands fa-docker"/>Full details are in the docs.](https://docs.docker.com/engine/reference/commandline/events/)
-- **Improved push/pull performance and reliability:** Layers are now pushed in parallel, resulting in much faster pushes (as much as 3x faster). Pulls are a bit faster and more reliable too – with a streamlined protocol and better retry and fallback mechanisms.
+- **Improved push/pull performance and reliability:** Layers are now pushed in parallel, resulting in much faster pushes (as much as 3x faster). Pulls are a bit faster and more reliable too - with a streamlined protocol and better retry and fallback mechanisms.
 - **Live update container resource constraints:** When setting limits on what resources containers can use (e.g. memory usage), you had to restart the container to change them. You can now update these resource constraints on the fly with the new `docker update` command.
 - **Daemon configuration file:** It’s now possible to configure daemon options in a file and reload some of them without restarting the daemon so, for example, you can set new daemon labels and enable debug logging without restarting anything.
 - **Temporary filesystems:** It’s now really easy to create temporary filesystems by passing the `--tmpfs` flag to `docker run`. This is particularly useful for running a container with a read-only root filesystem when the piece of software inside the container expects to be able to write to certain locations on disk.
@@ -91,7 +91,7 @@ Apart from the new security and networking features, we’ve got a whole load of
 
 Check out the release notes for the full list. There are a few features being deprecated in this release, and we’re ending support for Fedora 21 and Ubuntu 15.04, so be sure to check the release notes in case you’re affected by this. If you have written a volume plugin, [there’s also a change in the volume plugin API that you need to be aware of (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/16534).
 
-Big thanks to all of the people who made this release happen –in particular to [Qiang Huang (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/15078), [Denis Gladkikh (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/16488), [Dima Stopel, and Liron Levin (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/15365).
+Big thanks to all of the people who made this release happen -in particular to [Qiang Huang (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/15078), [Denis Gladkikh (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/16488), [Dima Stopel, and Liron Levin (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/15365).
 
 The easiest way to try out Docker in development is by [<FontIcon icon="fa-brands fa-docker"/>installing Docker Toolbox](https://docker.com/products/docker-toolbox). For other platforms, [<FontIcon icon="fa-brands fa-docker"/>check out the installation instructions in the documentation](https://docs.docker.com/engine/installation/).
 
@@ -108,7 +108,7 @@ Back in November we announced the first production-ready version of Swarm, versi
 
 [<FontIcon icon="fa-brands fa-docker"/>Check out the release notes for the full list](https://github.com/docker/swarm/releases/tag/v1.1.0) and [<FontIcon icon="fa-brands fa-docker"/>the documentation for how to get started](https://docs.docker.com/swarm/overview/).
 
-### And save the date for Swarm Week – Coming Soon!
+### And save the date for Swarm Week - Coming Soon!
 
 If you are new to Swarm or are familiar and want to know more, Swarm Week is the place for you get ALL your Swarm information in a single place. We will feature a different Swarm related topic each day.
 

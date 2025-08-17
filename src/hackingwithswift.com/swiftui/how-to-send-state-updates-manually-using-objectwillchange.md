@@ -90,7 +90,7 @@ Notice how we have a `willSet` property observer attached to the `username` prop
 
 ::: tip
 
-This example is no different from using `@Published` on the property, but now that we have a custom call to `objectWillChange.send()` we can add extra functionality – we could save the value to disk, for example.
+This example is no different from using `@Published` on the property, but now that we have a custom call to `objectWillChange.send()` we can add extra functionality - we could save the value to disk, for example.
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Essential JavaScript Concepts to Know Before Learning React – With Code Examples"
-description: "Article(s) > Essential JavaScript Concepts to Know Before Learning React – With Code Examples"
+title: "Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
+description: "Article(s) > Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Essential JavaScript Concepts to Know Before Learning React – With Code Examples"
+      content: "Article(s) > Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
     - property: og:description
-      content: "Essential JavaScript Concepts to Know Before Learning React – With Code Examples"
+      content: "Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-javascript-concepts-before-react.html
 prev: /programming/js-react/articles/README.md
@@ -47,7 +47,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723690396380/c9b8a33
 
 ---
 <SiteInfo
-  name="Essential JavaScript Concepts to Know Before Learning React – With Code Examples"
+  name="Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
   desc="You may have seen the shiny technologies like React, Vue, and Angular that promise to revolutionize your front-end development. It's tempting to dive headfirst into these frameworks, eager to build stunning user interfaces. But hold on! Before you em..."
   url="https://freecodecamp.org/news/essential-javascript-concepts-before-react"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -723,7 +723,7 @@ Thanks for reading. Let's connect on [X (<FontIcon icon="fa-brands fa-x-twitter"
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Essential JavaScript Concepts to Know Before Learning React – With Code Examples",
+  "title": "Essential JavaScript Concepts to Know Before Learning React - With Code Examples",
   "desc": "You may have seen the shiny technologies like React, Vue, and Angular that promise to revolutionize your front-end development. It's tempting to dive headfirst into these frameworks, eager to build stunning user interfaces. But hold on! Before you em...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-javascript-concepts-before-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

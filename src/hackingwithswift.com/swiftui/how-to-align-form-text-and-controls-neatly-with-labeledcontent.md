@@ -53,7 +53,7 @@ next: /hackingwithswift.com/swiftui/working-with-containers.md
 
 > Updated for Xcode 15
 
-SwiftUI's forms do a great job of making many views look good out of the box, but sometimes you need a little extra control to get exactly the right result – aligning text correctly, labelling custom views, or aligning controls that don't carry labels such as `Slider`.
+SwiftUI's forms do a great job of making many views look good out of the box, but sometimes you need a little extra control to get exactly the right result - aligning text correctly, labelling custom views, or aligning controls that don't carry labels such as `Slider`.
 
 In its simplest form, using `LabeledContent` is similar to using the `badge()` modifier: 
 

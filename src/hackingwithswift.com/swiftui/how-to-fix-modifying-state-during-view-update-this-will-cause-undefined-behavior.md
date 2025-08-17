@@ -54,7 +54,7 @@ isOriginal: false
 
 > Updated for Xcode 15
 
-This error occurs because you’re modifying the state of a SwiftUI view while the view is actually being rendered. Modifying the state of a view causes the view to be re-rendered, so SwiftUI gets confused – “undefined behavior” is Apple’s way of saying that whatever you see right now might change in the future because it’s not how SwiftUI should be used.
+This error occurs because you’re modifying the state of a SwiftUI view while the view is actually being rendered. Modifying the state of a view causes the view to be re-rendered, so SwiftUI gets confused - “undefined behavior” is Apple’s way of saying that whatever you see right now might change in the future because it’s not how SwiftUI should be used.
 
 Here’s an example of the problem in action:
 
@@ -72,9 +72,9 @@ struct ContentView: View {
 }
 ```
 
-That creates a state property called `name`, and has a text view that shows it. However, inside `body` is some logic that attempts to modify `name` while the view is being rendered – SwiftUI is trying to figure out what’s in the view, and you’re changing it while that process is happening.
+That creates a state property called `name`, and has a text view that shows it. However, inside `body` is some logic that attempts to modify `name` while the view is being rendered - SwiftUI is trying to figure out what’s in the view, and you’re changing it while that process is happening.
 
-To fix the problem, move the code that changes your view’s state – in this case the `name = "Anonymous"` – to something that occurs outside of the view updates. For example, this sets the value when the text view first appears:
+To fix the problem, move the code that changes your view’s state - in this case the `name = "Anonymous"` - to something that occurs outside of the view updates. For example, this sets the value when the text view first appears:
 
 ```swift
 struct ContentView: View {
@@ -91,7 +91,7 @@ struct ContentView: View {
 }
 ```
 
-You could also move the logic into an `onTapGesture()` or similar – anywhere that isn’t directly inside the body of a view.
+You could also move the logic into an `onTapGesture()` or similar - anywhere that isn’t directly inside the body of a view.
 
 ::: details Similar solutions…
 

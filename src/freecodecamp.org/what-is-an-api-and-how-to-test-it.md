@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools"
-description: "Article(s) > API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools"
+title: "API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
+description: "Article(s) > API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
 icon: iconfont icon-api
 category:
   - API
@@ -17,9 +17,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools"
+      content: "Article(s) > API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
     - property: og:description
-      content: "API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools"
+      content: "API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-an-api-and-how-to-test-it.html
 prev: /explore/api/articles/README.md
@@ -46,7 +46,7 @@ cover: https://freecodecamp.org/news/content/images/2021/02/api.PNG
 ---
 
 <SiteInfo
-  name="API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools"
+  name="API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
   desc="Building an API is fun, right? In this article, I will explain what APIs are, why you need them, and we'll dive into API specifications, documentation, and more. Programming is made simpler by using APIs to abstract away certain implementations, and ..."
   url="https://freecodecamp.org/news/what-is-an-api-and-how-to-test-it"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -159,12 +159,12 @@ Testing your API endpoints might be challenging after developing them, but there
 }
 ```
 
-![This tool simplifies testing API endpoints in Java – yes JAVA. It tests and validates responses, making it seamless for Java devs to test APIs.](https://cdn.hashnode.com/res/hashnode/image/upload/v1610837510019/Ov6MVxfni.png)
+![This tool simplifies testing API endpoints in Java - yes JAVA. It tests and validates responses, making it seamless for Java devs to test APIs.](https://cdn.hashnode.com/res/hashnode/image/upload/v1610837510019/Ov6MVxfni.png)
 
 ### Paw
 
 <SiteInfo
-  name="RapidAPI for Mac – The most advanced API tool for Mac"
+  name="RapidAPI for Mac - The most advanced API tool for Mac"
   desc="RapidAPI for Mac is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It has a beautiful native macOS interface to compose requests, inspect server responses, generate client code and export API definitions."
   url="https://paw.cloud/"
   logo="https://cdn-static.paw.cloud/img/favicons/favicon-32x32-30e352ee09.png"
@@ -284,7 +284,7 @@ You can reach out to me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`olanets
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "API Cheat Sheet – What is an API, How it Works, and How to Choose the Right API Testing Tools",
+  "title": "API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools",
   "desc": "Building an API is fun, right? In this article, I will explain what APIs are, why you need them, and we'll dive into API specifications, documentation, and more. Programming is made simpler by using APIs to abstract away certain implementations, and ...",
   "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-an-api-and-how-to-test-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",

@@ -147,7 +147,7 @@ nix run nixpkgs#lazygit
 
 ## How to Use Lazygit
 
-To use Lazygit, you don’t need any advanced knowledge about Lazygit or the Git CLI. If you are a beginner, that’s okay – I’ll walk you through the process and the basics here.
+To use Lazygit, you don’t need any advanced knowledge about Lazygit or the Git CLI. If you are a beginner, that’s okay - I’ll walk you through the process and the basics here.
 
 The main thing to understand is how the key mappings (shortcut keys) work. In this tutorial, I won’t discuss every key mapping, but I’ll teach you about some of the most common Lazygit key mappings which you’ll use on a daily basis. They’ll help you build a solid base for using the tool effectively.
 
@@ -239,7 +239,7 @@ But in Lazygit, you just have to select the file using your mouse or the up and 
 In Lazygit, everything works around the shortcut commands, and you use shortcuts to perform common Git operations. Here are a few essential commands we’ll go over in this tutorial:
 
 - <kbd>a</kbd>: Stage or unstage all the files available in the Files panel.
-- <kbd>space</kbd>: (file panel) – Stage or unstage a single file in the Files panel.
+- <kbd>space</kbd>: (file panel) - Stage or unstage a single file in the Files panel.
 - <kbd>c</kbd>: Commit staged changes by opening a commit message editor.
 - <kbd>p</kbd>: Push commits to the remote repository.
 - <kbd>P</kbd>: Pull changes from the remote repository.
@@ -250,7 +250,7 @@ In Lazygit, everything works around the shortcut commands, and you use shortcuts
 - <kbd>d</kbd>: Delete your branch.
 - <kbd>y</kbd>: Copy to clipboard.
 - <kbd>M</kbd>: Merge branch.
-- <kbd>space</kbd> (branches panel) – Check out the selected target branch.
+- <kbd>space</kbd> (branches panel) - Check out the selected target branch.
 - <kbd>e</kbd>: Edit or open the file in an external editor.
 - <kbd>q</kbd>: Quit Lazygit and return to the terminal.
 - <kbd>d</kbd>: Discard any changes in the file.

@@ -79,7 +79,7 @@ For example, this will make the whole combined text large and blue:
 
 ![The text “Hello World!” with an outlined star icon between the two words. The words and icon are in large blue text](https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-insert-images-into-text-2~dark@2x.png)
 
-Whereas this – without the extra parentheses – will make only the “World” text large and blue:
+Whereas this - without the extra parentheses - will make only the “World” text large and blue:
 
 ```swift
 Text("Goodbye ") + Text(Image(systemName: "star")) + Text(" World!")

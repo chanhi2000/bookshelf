@@ -183,8 +183,8 @@ export const RegistrationForm = () => {
 
 ### What’s Wrong With The Form?
 
-- Lack of action feedback – no user feedback means that users can become confused as to whether an action has happened or not. No error messages or feedback offers the user no insight into what they need to do to correct the form.
-- No labels for form inputs – No labels for form inputs prevent screen readers from understanding their purpose. Some screen readers may miss placeholders, and once a user types within the input, the placeholder is replaced, losing context and making it hard to return to erroneous inputs.
+- Lack of action feedback - no user feedback means that users can become confused as to whether an action has happened or not. No error messages or feedback offers the user no insight into what they need to do to correct the form.
+- No labels for form inputs - No labels for form inputs prevent screen readers from understanding their purpose. Some screen readers may miss placeholders, and once a user types within the input, the placeholder is replaced, losing context and making it hard to return to erroneous inputs.
 - Lack of accessibility markup to make the form optimised for screen readers and accessibility tools.
     
 
@@ -229,17 +229,17 @@ const {
 
 - `register`: One of the key concepts in React Hook Form is to “register” your component / HTML element. This means you can access value of the element for both form validation and when submitting the form.
 - `handleSubmit`: This is the key function needed to submit the form, run validation, and any other configured checks. It can take up to two arguments:
-    1. `handleSubmit(onSuccess)` – called when the submission of the form is valid and can submit ok.
-    2. `handleSubmit(onSuccess, onFail)` – here you can pass the `handleSubmit()` method two functions: the first will be run when React Hook Form deems the form to be valid, and allows you to continue. The second will be called when the form sees an error. This could be from validation, or another stipulation.
+    1. `handleSubmit(onSuccess)` - called when the submission of the form is valid and can submit ok.
+    2. `handleSubmit(onSuccess, onFail)` - here you can pass the `handleSubmit()` method two functions: the first will be run when React Hook Form deems the form to be valid, and allows you to continue. The second will be called when the form sees an error. This could be from validation, or another stipulation.
 - `watch`: Watch is a function that monitors a specified element for changes and returns its value. For instance, if you’re watching an input element, you can output the user’s typing in real-time or have another element validate it against a predefined value. A good example is a confirm password matching the previous password field.
 - `formState`: this is an object which holds information about your form. The `formState` object keeps track of the state of the form, like:
-    1. **isDirty** – `true` if the user has changed *any* input.
-    2. **isValid** – `true` if the form passes all validations.
-    3. **errors** – an object holding any validation errors per field.
-    4. **isSubmitting** – `true` while the form is being submitted (useful for showing loading spinners)
-    5. **isSubmitted** – `true` after the form has been submitted.
-    6. **touchedFields** – which fields the user has interacted with.
-    7. **dirtyFields** – which fields the user has modified.
+    1. **isDirty** - `true` if the user has changed *any* input.
+    2. **isValid** - `true` if the form passes all validations.
+    3. **errors** - an object holding any validation errors per field.
+    4. **isSubmitting** - `true` while the form is being submitted (useful for showing loading spinners)
+    5. **isSubmitted** - `true` after the form has been submitted.
+    6. **touchedFields** - which fields the user has interacted with.
+    7. **dirtyFields** - which fields the user has modified.
 
 We can use any of these properties by including them in our form state object. We are destructing the `errors` property so we can use the errors later in our form to either show error messages, or validate that there no errors on the page.
 
@@ -419,7 +419,7 @@ We added the **required** property to all input fields, which checks if the elem
 })}
 ```
 
-We’ve added a `pattern` property on the email’s register object. This allows us to specify a criteria for the value of the input – perfect for passwords, email fields, and other inputs which may have value restrictions, or requirements.
+We’ve added a `pattern` property on the email’s register object. This allows us to specify a criteria for the value of the input - perfect for passwords, email fields, and other inputs which may have value restrictions, or requirements.
 
 ```ts
 // valid email pattern
@@ -461,13 +461,13 @@ If you then want to go an extra step and update the mode per element, overriding
 
 This allows you to have `onSubmit` validation set via `mode`, and then email is triggered via `onBlur()` too.
 
-Just adding these simple settings within the react-hook-form library already gives us a much better user experience than before – but it isn’t everything. Let’s explore more settings, HTML, and attributes we can add to increase accessibility and user experience.
+Just adding these simple settings within the react-hook-form library already gives us a much better user experience than before - but it isn’t everything. Let’s explore more settings, HTML, and attributes we can add to increase accessibility and user experience.
 
 ---
 
 ## Showing Error Messages
 
-Form errors can be stored within the `formState` object we mentioned earlier, but they’re no good there – we need to display them to our users. We can achieve this simply by accessing the destructed `errors` object, like below:
+Form errors can be stored within the `formState` object we mentioned earlier, but they’re no good there - we need to display them to our users. We can achieve this simply by accessing the destructed `errors` object, like below:
 
 ```tsx
 {errors.password && (
@@ -503,7 +503,7 @@ To aid with screen-readers, we can add an `aria` attribute to our element which 
 
 Fieldset elements group `<form>` controls together, while legend elements provide a description for the grouped controls.
 
-Imagine you have one big form, but it spans two "sections" – for example, a "*User Details*" section for username, email, and passwords, and an "*Address Details*" section asking for your shipping and billing information.
+Imagine you have one big form, but it spans two "sections" - for example, a "*User Details*" section for username, email, and passwords, and an "*Address Details*" section asking for your shipping and billing information.
 
 In this tutorial, we’re using TailwindCSS, which provides a utility class called `sr-only`. You can apply `sr-only` to your legends so they are only visible to screen readers, and not actually visible on the page.
 
@@ -549,7 +549,7 @@ The main reasons for this are:
 - Placeholders disappear when typing, meaning that if a user begins to type “*Grant*”, and then tabs away from the input when they go back, without a label it will simply read the value of the input, not what it relates to.
 - Often developers utilise a grey-like colour for their placeholders, with a low opacity. This can mean it’s difficult for users to sometimes see the placeholder, especially those who are colour blind or visually impaired.
 
-So what can we do instead ? Well this leads me onto our next point – we can use a common HTML element, the `<label/>`.
+So what can we do instead ? Well this leads me onto our next point - we can use a common HTML element, the `<label/>`.
 
 ---
 
@@ -591,7 +591,7 @@ When a screen reader lands on the `<input>`, it automatically reads the associat
 
 When you click the `<label>`, it automatically focuses the `<input>` when using `htmlFor`.
 
-Users don’t have to click exactly on the tiny input field – and this can certainly be useful when dealing with checkboxes or radio buttons, for example.
+Users don’t have to click exactly on the tiny input field - and this can certainly be useful when dealing with checkboxes or radio buttons, for example.
 
 In short, big click targets = better usability and faster form filling.
 
@@ -631,8 +631,8 @@ Now that we’ve added clear labels to our form fields, we can take accessibilit
 
 Notice the two new attributes we’ve added:
 
-- `aria-describedBy` – this attribute links our error message with our input. Screen readers will therefore read out the error message whilst reading out other information when the input is focused.
-- `aria-invalid` – this attribute again aids with screen readers, informing the user that the input’s value is invalid and they need to correct it. This combined with the `describedBy` attribute gives visually impaired users all the information they need in order to correct their mistake.
+- `aria-describedBy` - this attribute links our error message with our input. Screen readers will therefore read out the error message whilst reading out other information when the input is focused.
+- `aria-invalid` - this attribute again aids with screen readers, informing the user that the input’s value is invalid and they need to correct it. This combined with the `describedBy` attribute gives visually impaired users all the information they need in order to correct their mistake.
 
 ---
 
@@ -656,7 +656,7 @@ Instead, we can use inline helper text or descriptions combined with `aria-descr
 </p>
 ```
 
-We can then reference this within our input using the `aria-describedBy` attribute. But wait, we already have a `describedBy` pointing at the error message – well, that’s ok! We can link multiple elements, like the brief example below:
+We can then reference this within our input using the `aria-describedBy` attribute. But wait, we already have a `describedBy` pointing at the error message - well, that’s ok! We can link multiple elements, like the brief example below:
 
 ```tsx
 // now references both passwordHint and the password error (we seperate the ids with a space)
@@ -700,7 +700,7 @@ A basic example could look something like below, where a message which is update
 
 When `formSubmissionResultMessage` changes, screen readers will automatically announce the updated message.
 
-The timing of when it is read out depends on the value of the `aria-live` attribute – with `polite`, the announcement waits for a natural pause. With `assertive`, it interrupts immediately.
+The timing of when it is read out depends on the value of the `aria-live` attribute - with `polite`, the announcement waits for a natural pause. With `assertive`, it interrupts immediately.
 
 ### Real-World Examples
 
@@ -726,7 +726,7 @@ The screen reader **immediately** interrupts and announces it.
 
 #### Good things to know:
 
-- The element needs to **already exist** in the DOM when the update happens. So it’s smart to always render the `<p aria-live>` – just update its content.
+- The element needs to **already exist** in the DOM when the update happens. So it’s smart to always render the `<p aria-live>` - just update its content.
 - Don’t overuse `assertive`, or you’ll annoy users and make apps feel super noisy and overwhelming.
     
 
@@ -742,7 +742,7 @@ For example, within our form, without the styling the input with focus looks lik
 
 ![image of the form with a faint white and blue outline around the focussed input](https://cdn.hashnode.com/res/hashnode/image/upload/v1745687500364/4bfa9c86-d908-4f2b-a674-485a1ed15bc3.png)
 
-Here you can see it has applied a subtle white and blue outline – but its not that clear it’s being focused. You can argue it is different enough to other input elements, but for some users this may not be enough.
+Here you can see it has applied a subtle white and blue outline - but its not that clear it’s being focused. You can argue it is different enough to other input elements, but for some users this may not be enough.
 
 To combat this and improve usability, we can override this with our own custom colouring. When using TailwindCSS, we can apply the following class names:
 
@@ -791,9 +791,9 @@ The above buttons are examples of poor input buttons because:
 
 Instead, we can improve those buttons to be more accessible and user-friendly by doing the following:
 
-- **Use descriptive button text** – for example: "Pay Now", "Sign Up", or "Save Changes".
-- **Use both an icon and text** – combining an icon with text can be the perfect blend for both accessibility and design.
-- **Use** `aria-label` – if you really must use an icon-only button (like a basket or home icon in a navigation bar), make sure to add an `aria-label` attribute to clearly describe the button’s purpose, like so:
+- **Use descriptive button text** - for example: "Pay Now", "Sign Up", or "Save Changes".
+- **Use both an icon and text** - combining an icon with text can be the perfect blend for both accessibility and design.
+- **Use** `aria-label` - if you really must use an icon-only button (like a basket or home icon in a navigation bar), make sure to add an `aria-label` attribute to clearly describe the button’s purpose, like so:
 
 ```tsx
 <button 

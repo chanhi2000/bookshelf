@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: How to Use React Compiler – A Complete Guide
-description: Article(s) > How to Use React Compiler – A Complete Guide
+title: How to Use React Compiler - A Complete Guide
+description: Article(s) > How to Use React Compiler - A Complete Guide
 icon: fa-brands fa-react
 category: 
   - Node.js
@@ -19,9 +19,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > How to Use React Compiler – A Complete Guide
+      content: Article(s) > How to Use React Compiler - A Complete Guide
     - property: og:description
-      content: How to Use React Compiler – A Complete Guide
+      content: How to Use React Compiler - A Complete Guide
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-compiler-complete-guide-react-19.html
 prev: /programming/js-react/articles/README.md
@@ -45,7 +45,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724760187590/f7115fd
 ---
 
 <SiteInfo
-  name="How to Use React Compiler – A Complete Guide"
+  name="How to Use React Compiler - A Complete Guide"
   desc="In this tutorial, you'll learn how the React compiler can help you write more optimized React applications. React is a user interface library that has been doing its job quite well for over a decade. The component architecture, uni-directional data f..."
   url="https://freecodecamp.org/news/react-compiler-complete-guide-react-19/"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
@@ -80,7 +80,7 @@ If these are exciting to you, I recommend [<FontIcon icon="fa-brands fa-youtube"
 
 The introduction of a `compiler` with `React 19` is set to be a game-changer. From now on, we can let the compiler handle the optimization headache rather than keeping it on us.
 
-Does this mean we do not have to use `memo`, `useMemo()`, `useCallback`, and so on anymore? No – we mostly don't. The compiler can take care of these things automatically if you understand and follow the [<FontIcon icon="fa-brands fa-react"/>Rules of React](https://react.dev/reference/rules) for components and hooks.
+Does this mean we do not have to use `memo`, `useMemo()`, `useCallback`, and so on anymore? No - we mostly don't. The compiler can take care of these things automatically if you understand and follow the [<FontIcon icon="fa-brands fa-react"/>Rules of React](https://react.dev/reference/rules) for components and hooks.
 
 How will it do this? Well, we'll get to it. But before that, let's understand what a `compiler` is and whether it's justified to call this new optimizer for React code the `React Compiler`.
 
@@ -233,7 +233,7 @@ function App() {
 export default App;
 ```
 
-That's all good – so where is the problem? The problem is that React proactively re-renders the child component when the parent component re-renders. An unnecessary rendering requires optimizations. Let's understand the problem fully first.
+That's all good - so where is the problem? The problem is that React proactively re-renders the child component when the parent component re-renders. An unnecessary rendering requires optimizations. Let's understand the problem fully first.
 
 We'll add the current timestamp in each of the child components. Now the rendered user interface will look like this:
 
@@ -369,7 +369,7 @@ You can see it working visually [<FontIcon icon="fa-brands fa-youtube"/>from her
 
 ---
 
-## Diving Deep – How Does the React Compiler Work?
+## Diving Deep - How Does the React Compiler Work?
 
 Now that you've seen how the React compiler works on React 19 code, let's deep dive into understanding what's happening in the background. We will use the React [<FontIcon icon="fa-brands fa-react"/>Compiler Playground](https://playground.react.dev/) to explore the translated code and the optimization steps.
 

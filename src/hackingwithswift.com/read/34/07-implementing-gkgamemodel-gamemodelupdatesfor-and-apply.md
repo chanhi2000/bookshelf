@@ -29,8 +29,8 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Hacking with iOS – learn to code iPhone and iPad apps with free Swift tutorials",
-  "desc": "Learn Swift coding for iOS with these free tutorials – learn Swift, iOS, and Xcode",
+  "title": "Hacking with iOS - learn to code iPhone and iPad apps with free Swift tutorials",
+  "desc": "Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",
   "link": "/hackingwithswift.com/read/README.md",
   "logo": "https://hackingwithswift.com/favicon.svg",
   "background": "rgba(174,10,10,0.2)"
@@ -67,7 +67,7 @@ If you remember, GameplayKit takes multiple copies of our board so that it can e
 
 This is helpful because `setGameModel()` is part of the `GKGameModel` protocol, so we needed to implement it anyway. This method needs to accept a `GKGameModel` object as its only parameter, but of course we know that's a `Board` object so we'll do an optional downcast before copying across the properties.
 
-Here's the code – add this to the `Board` class:
+Here's the code - add this to the `Board` class:
 
 ```swift
 func copy(with zone: NSZone? = nil) -> Any {
@@ -169,7 +169,7 @@ var players: [GKGameModelPlayer]?
 var activePlayer: GKGameModelPlayer?
 ```
 
-We don't have these right now, because we use our custom subclasses of `NSObject`. Rather than duplicate data, we're going to use computed properties to just return what we have – Swift will then correctly treat them as `GKGameModelPlayer` types. So, rather than adding those two lines of code above, use this code instead:
+We don't have these right now, because we use our custom subclasses of `NSObject`. Rather than duplicate data, we're going to use computed properties to just return what we have - Swift will then correctly treat them as `GKGameModelPlayer` types. So, rather than adding those two lines of code above, use this code instead:
 
 ```swift
 var players: [GKGameModelPlayer]? {
@@ -181,5 +181,5 @@ var activePlayer: GKGameModelPlayer? {
 }
 ```
 
-That's it: the `Board` class now conforms fully to the `GKGameModel` protocol, the `Player` class conforms fully to the `GKGameModelPlayer` protocol, and the `Move` class conforms fully to the `GKGameModelUpdate` protocol – we're finished with all these classes and those protocols, which means we can get onto the next task: configuring the AI player.
+That's it: the `Board` class now conforms fully to the `GKGameModel` protocol, the `Player` class conforms fully to the `GKGameModelPlayer` protocol, and the `Move` class conforms fully to the `GKGameModelUpdate` protocol - we're finished with all these classes and those protocols, which means we can get onto the next task: configuring the AI player.
 
