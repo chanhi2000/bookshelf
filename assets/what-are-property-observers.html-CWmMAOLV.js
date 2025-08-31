@@ -1,0 +1,24 @@
+import{_ as p}from"./plugin-vue_export-helper-DlAUqK2U.js";import{aj as l,am as e,as as c,ao as o,at as s,au as i,ak as r,aq as h,ar as g}from"./app-DpiNAgkx.js";const m={},d={id:"frontmatter-title-관련",tabindex:"-1"},u={class:"header-anchor",href:"#frontmatter-title-관련"};function w(n,t){const a=h("VPCard");return g(),l("div",null,[e("h1",d,[e("a",u,[e("span",null,c(n.$frontmatter.title)+" 관련",1)])]),o(a,s(i({title:"Language - free Swift example code",desc:"Learn Swift coding for iOS with these free tutorials - learn Swift, iOS, and Xcode",link:"/hackingwithswift.com/example-code/language/README.md",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[0]||(t[0]=e("nav",{class:"table-of-contents"},[e("ul")],-1)),t[1]||(t[1]=e("hr",null,null,-1)),o(a,s(i({title:"What are property observers? | Language - free Swift example code",desc:"What are property observers?",link:"https://hackingwithswift.com/example-code/language/what-are-property-observers",logo:"https://hackingwithswift.com/favicon.svg",background:"rgba(174,10,10,0.2)"})),null,16),t[2]||(t[2]=e("blockquote",null,[e("p",null,"Available from iOS 7.0")],-1)),r(" TODO: 작성 "),r(` 
+Property observers are Swift's way of letting you attach functionality to changes in property values. For example, you might want to say, "whenever the player's score changes, update this label to show their new score." Here's a basic example that prints message to the debug console when a variable changes:
+
+\`\`\`swift
+var score = 0 {
+    willSet {
+        print("Score is about to change to \\(newValue)")
+    }
+
+    didSet {
+        print("Score just changed from \\(oldValue) to \\(score)")
+    }
+}
+
+score = 10
+\`\`\`
+
+`),t[3]||(t[3]=e("details",{class:"hint-container details"},[e("summary",null,"Similar solutions…"),r(`
+/example-code/language/how-to-use-local-variable-observers">How to use local variable observers 
+/quick-start/swiftui/all-swiftui-property-wrappers-explained-and-compared">All SwiftUI property wrappers explained and compared 
+/quick-start/swiftui/understanding-property-wrappers-in-swift-and-swiftui">Understanding property wrappers in Swift and SwiftUI 
+/quick-start/swiftui/what-is-the-published-property-wrapper">What is the @Published property wrapper? 
+/quick-start/swiftui/what-is-the-gesturestate-property-wrapper">What is the @GestureState property wrapper?</a>
+`)],-1))])}const b=p(m,[["render",w],["__file","what-are-property-observers.html.vue"]]),v=JSON.parse('{"path":"/hackingwithswift.com/example-code/language/what-are-property-observers.html","title":"What are property observers?","lang":"ko-KR","frontmatter":{"lang":"ko-KR","title":"What are property observers?","description":"Article(s) > What are property observers?","category":["Swift","iOS","Article(s)"],"tag":["blog","hackingwithswift.com","crashcourse","swift","swift-5.10","ios","ios-7.0","xcode","appstore"],"head":[[{"meta":null},{"property":"og:title","content":"Article(s) > What are property observers?"},{"property":"og:description","content":"What are property observers?"},{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-are-property-observers.html"}],["meta",{"property":"og:url","content":"https://chanhi2000.github.io/bookshelf/hackingwithswift.com/example-code/language/what-are-property-observers.html"}],["meta",{"property":"og:site_name","content":"📚Bookshelf"}],["meta",{"property":"og:title","content":"What are property observers?"}],["meta",{"property":"og:description","content":"Article(s) > What are property observers?"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"ko-KR"}],["meta",{"property":"article:tag","content":"blog"}],["meta",{"property":"article:tag","content":"hackingwithswift.com"}],["meta",{"property":"article:tag","content":"crashcourse"}],["meta",{"property":"article:tag","content":"swift"}],["meta",{"property":"article:tag","content":"swift-5.10"}],["meta",{"property":"article:tag","content":"ios"}],["meta",{"property":"article:tag","content":"ios-7.0"}],["meta",{"property":"article:tag","content":"xcode"}],["meta",{"property":"article:tag","content":"appstore"}],["meta",{"property":"article:published_time","content":"2019-03-28T00:00:00.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"What are property observers?\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2019-03-28T00:00:00.000Z\\",\\"dateModified\\":null,\\"author\\":[]}"]],"date":"2019-03-28T00:00:00.000Z","isOriginal":false,"gitInclude":[]},"headers":[],"readingTime":{"minutes":0.98,"words":293},"filePathRelative":"hackingwithswift.com/example-code/language/what-are-property-observers.md","localizedDate":"2019년 3월 28일","excerpt":"\\n"}');export{b as comp,v as data};
