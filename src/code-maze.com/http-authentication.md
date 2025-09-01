@@ -2,10 +2,10 @@
 lang: en-US
 title: "HTTP Authentication Mechanisms"
 description: "Article(s) > HTTP Authentication Mechanisms"
-icon: iconfont icon-csharp
-category:
-  - C#
-  - DotNet
+icon: fas fa-computer
+category: 
+  - Engineering
+  - Computer
   - Article(s)
 tag:
   - blog

@@ -86,6 +86,7 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
+    "http-series-part-5", // 2017-08-01
     "http-authentication", // 2017-07-18
     "http-series-part-3", // 2017-07-08
     "http-series-part-2", // 2017-06-26
@@ -138,7 +139,6 @@ export const template: SidebarInfoTemplate = {
       "aspnet-configuration-providers", // 2020-09-08
       // END: 2020cs
       "different-ways-consume-restful-api-csharp", // 2016-06-06
-      "http-series-part-5", // 2020-09-04
       "net-core-web-development-part1", // 2024-01-31
       "net-core-web-development-part2", // 2024-03-13
       "net-core-web-development-part3", // 2024-01-31
@@ -570,7 +570,8 @@ export const template: SidebarInfoTemplate = {
       "http-series-part-1", // 2017-06-19
       "http-series-part-2", // 2017-06-26
       "http-series-part-3", // 2017-07-08
-      "http-authentication", // 2017-07-18
+      "http-authentication", // 2017-07-18 (http-series-part-4)
+      "http-series-part-5", // 2017-08-01
       // END: 2017coen
       // END: 2018coen
       // END: 2019coen
