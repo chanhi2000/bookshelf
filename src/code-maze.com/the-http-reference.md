@@ -321,7 +321,7 @@ Everything mentioned in this reference article can be found in more detail in th
 ```component VPCard
 {
   "title": "Hypertext Transfer Protocol -- HTTP/1.1",
-  "desc": "This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.  Please refer to the current edition of the "Internet Official Protocol Standards" (STD 1) for the standardization state and status of this protocol.  Distribution of this memo is unlimited.",
+  "desc": "This document specifies an Internet standards track protocol for the Internet community, and requests discussion and suggestions for improvements.  Please refer to the current edition of the “Internet Official Protocol Standards” (STD 1) for the standardization state and status of this protocol.  Distribution of this memo is unlimited.",
   "link": "https://ietf.org/rfc/rfc2616.txt",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"

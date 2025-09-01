@@ -54,6 +54,16 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "developing-docker-windows-app-wsl2", // 2019-08-15
+    "keep-nodejs-rockin-in-docker", // 2019-07-31
+    "road-to-containing-iscsi", // 2019-07-16
+    "intro-guide-to-dockerfile-best-practices", // 2019-07-03
+    "getting-started-with-docker-for-arm-on-linux", // 2019-06-08
+    "containerizing-test-tooling-creating-your-dockerfile-and-makefile", // 2019-06-05
+    "whats-in-a-container-platform", // 2019-05-10
+    "multi-arch-images", // 2019-05-01
+    "happy-pi-day-docker-raspberry-pi", // 2019-03-15
+    "addressing-time-drift-in-docker-desktop-for-mac", // 2019-02-26
   ],
 }
 
@@ -184,6 +194,28 @@ export const template: SidebarInfoTemplate = {
       // END: 2025java-spring
       // END: java-spring
     ]],[
+    "js-node", [
+      "keep-nodejs-rockin-in-docker", // 2019-07-31
+      // END: 2019js-node
+      // END: 2020js-node
+      // END: 2021js-node
+      // END: 2022js-node
+      // END: 2023js-node
+      // END: 2024js-node
+      // END: 2025js-node
+      // END: js-node
+    ]],[
+    "py-flask", [
+      "developing-docker-windows-app-wsl2", // 2019-08-15
+      // END: 2019py-flask
+      // END: 2020py-flask
+      // END: 2021py-flask
+      // END: 2022py-flask
+      // END: 2023py-flask
+      // END: 2024py-flask
+      // END: 2025py-flask
+      // END: py-flask
+    ]],[
     "go", [
       "docker-golang", // 2016-09-15
       // END: 2016go
@@ -260,6 +292,17 @@ export const template: SidebarInfoTemplate = {
       "docker-windows-desktop-now-kubernetes", // 2018-01-31
       "improved-docker-container-integration-with-java-10", // 2018-04-04
       // END: 2018docker
+      "addressing-time-drift-in-docker-desktop-for-mac", // 2019-02-26
+      "happy-pi-day-docker-raspberry-pi", // 2019-03-15
+      "multi-arch-images", // 2019-05-01
+      "whats-in-a-container-platform", // 2019-05-10
+      "containerizing-test-tooling-creating-your-dockerfile-and-makefile", // 2019-06-05
+      "getting-started-with-docker-for-arm-on-linux", // 2019-06-08
+      "intro-guide-to-dockerfile-best-practices", // 2019-07-03
+      "road-to-containing-iscsi", // 2019-07-16
+      "keep-nodejs-rockin-in-docker", // 2019-07-31
+      "developing-docker-windows-app-wsl2", // 2019-08-15
+      // TODO: page/84
       // END: 2019docker
       // END: 2020docker
       // END: 2021docker
@@ -274,7 +317,6 @@ export const template: SidebarInfoTemplate = {
       "docker-mac-kubernetes", // 2018-01-10
       "docker-windows-desktop-now-kubernetes", // 2018-01-31
       "introducing-play-kubernetes", // 2018-05-24
-      // TODO: page/86
       // END: 2018k8s
       // END: 2019k8s
       // END: 2020k8s
@@ -306,6 +348,18 @@ export const template: SidebarInfoTemplate = {
       // END: 2017win
       "docker-windows-desktop-now-kubernetes", // 2018-01-31
       // END: 2018win
+      "developing-docker-windows-app-wsl2", // 2019-08-15
+      // END: 2019win
+      // END: 2020win
+      // END: 2021win
+      // END: 2022win
+      // END: 2023win
+      // END: 2024win
+      // END: 2025win
+      // END: win
+    ]],[
+    "linux-debian", [
+      "happy-pi-day-docker-raspberry-pi", // 2019-03-15
       // END: 2019win
       // END: 2020win
       // END: 2021win

@@ -5,6 +5,7 @@ description: Article(s) > PySpark for Beginners - How to Process Data with Apach
 icon: fa-brands fa-python
 category: 
   - Python
+  - Data Science
   - Spark
   - Article(s)
 tag: 
@@ -12,6 +13,7 @@ tag:
   - freecodecamp.org
   - py
   - python
+  - data-science
   - spark
   - apachespark
   - apache-spark

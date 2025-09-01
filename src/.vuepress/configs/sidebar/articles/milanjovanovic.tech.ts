@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
     "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
     "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
     "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
@@ -346,6 +347,7 @@ export const template: SidebarInfoTemplate = {
       "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
       "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
+      "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
       // END: 2025cs
       // END: cs
     ]],[
@@ -403,6 +405,8 @@ export const template: SidebarInfoTemplate = {
     "aws", [
       "complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit", // 2024-08-17
       // END: 2024aws
+      "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
+      // END: 2025aws
       // END: aws
     ]],[
     "azure", [

@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "advanced-postgresql-indexing", // 2025-09-03
+    "intro-to-postgres-indexes", // 2025-09-01
     "the-path-of-least-resistance-part-2", // 2025-08-30
     "the-path-of-least-resistance-part-1", // 2025-08-27
     "opening-a-details-element-from-the-url", // 2025-08-26
@@ -499,6 +501,8 @@ export const template: SidebarInfoTemplate = {
     "postgres", [
       "drizzle-database-migrations", // 2024-12-09
       // END: 2024postgres
+      "intro-to-postgres-indexes", // 2025-09-01
+      "advanced-postgresql-indexing", // 2025-09-03
       // END: 2025postgres
       // END: postgres
     ]],[
