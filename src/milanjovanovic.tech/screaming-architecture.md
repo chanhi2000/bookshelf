@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
-title: Screaming Architecture
-description: Article(s) > Screaming Architecture
+title: "Screaming Architecture"
+description: "Article(s) > Screaming Architecture"
 icon: fas fa-pen-ruler
 category: 
   - Design
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Screaming Architecture
+      content: "Article(s) > Screaming Architecture"
     - property: og:description
-      content: Screaming Architecture
+      content: "Screaming Architecture"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/screaming-architecture.html
 prev: /academics/system-design/articles/README.md
@@ -50,41 +50,28 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_104.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_104.png"/>
 
-<!-- TODO: 작성 -->
+If you were to glance at the folder structure of your system, could you tell what the system is about? And here's a more interesting question. Could a new developer on your team easily understand what the system does based on the folder structure?
 
-<!-- 
-If you were to glance at the folder structure of your system, could you tell what the system is about?
-And here's a more interesting question.
-Could a new developer on your team easily understand what the system does based on the folder structure?
+Your architecture should communicate what problems it solves. Organizing your system around use cases leads to a structure aligned with the business domain. This approach is called **screaming architecture**.
 
-Your architecture should communicate what problems it solves.
-Organizing your system around use cases leads to a structure aligned with the business domain.
-This approach is called **screaming architecture**.
-
-<a href="https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html">Screaming architecture</a> is a term coined by Robert Martin (Uncle Bob).
-He argues that a software system's structure should communicate what the system is about.
-He draws a parallel between looking at a blueprint for a building, where you can tell the purpose of the building based on the blueprint.
+[<FontIcon icon="fas fa-globe"/>Screaming architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) is a term coined by Robert Martin (Uncle Bob). He argues that a software system's structure should communicate what the system is about. He draws a parallel between looking at a blueprint for a building, where you can tell the purpose of the building based on the blueprint.
 
 In this article, I want to show some practical examples and discuss the benefits of screaming architecture.
 
 ---
 
-## a-use-case-driven-approach"><a href="#a-use-case-driven-approach">A Use Case Driven Approach
+## A Use Case Driven Approach
 
-A use case represents a specific interaction or task that a user wants to achieve within your system.
-It encapsulates the business logic required to fulfill that task.
-A use case is a high-level description of a user's goal.
-For example, "reserving an apartment" or "purchasing a ticket".
-It focuses on the *what* of the system's behavior, not the *how*.
+A use case represents a specific interaction or task that a user wants to achieve within your system. It encapsulates the business logic required to fulfill that task. A use case is a high-level description of a user's goal. For example, "reserving an apartment" or "purchasing a ticket". It focuses on the *what* of the system's behavior, not the *how*.
 
 When you look at the folder structure and source code files of your system:
 
 - Do they scream: Apartment Booking System or Ticketing System?
-<li>Or do they scream ASP.NET Core?
+- Or do they scream ASP.NET Core?
 
 Here's an example of a folder structure organized around technical concerns:
 
-```powershell
+```plaintext title="file structure"
 📁 Api/
 |__ 📁 Controllers
 |__ 📁 Entities
@@ -97,18 +84,15 @@ Here's an example of a folder structure organized around technical concerns:
 |__ 📁 Models
 ```
 
-Somewhere inside these folders, we'll find concrete classes that contain the system's behavior.
-You'll notice that the cohesion with this folder structure is low.
+Somewhere inside these folders, we'll find concrete classes that contain the system's behavior. You'll notice that the cohesion with this folder structure is low.
 
 How does screaming architecture help?
 
-A use case driven approach will place the system's use cases as the top-level concept.
-I also like to group related use cases into a top-level feature folder.
-Inside a use case folder, we may find technical concepts required to implement it.
+A use case driven approach will place the system's use cases as the top-level concept. I also like to group related use cases into a top-level feature folder. Inside a use case folder, we may find technical concepts required to implement it.
 
-<a href="vertical-slice-architecture">**Vertical slice architecture**</a> also approaches this from a similar perspective.
+[**Vertical slice architecture**](/milanjovanovic.tech/vertical-slice-architecture.md) also approaches this from a similar perspective.
 
-```powershell
+```plaintext title="file structure"
 📁 Api/
 |__ 📁 Apartments
     |__ 📁 ReserveApartment
@@ -139,25 +123,17 @@ The benefits of organizing our system around use cases are:
 
 ## Bounded Contexts and Vertical Slices
 
-We have many techniques for discovering the high-level modules within our system.
-For example, we could use <a href="https://eventstorming.com/">event storming</a> to explore the system's use cases.
-Domain exploration happens before we write a single line of code.
+We have many techniques for discovering the high-level modules within our system. For example, we could use [<FontIcon icon="fas fa-globe"/>event storming](https://eventstorming.com/) to explore the system's use cases. Domain exploration happens before we write a single line of code.
 
-The next step is decomposing the larger problem domain into smaller sub-domains and later bounded contexts.
-This gives us loosely coupled high-level modules that we can translate into code.
+The next step is decomposing the larger problem domain into smaller sub-domains and later bounded contexts. This gives us loosely coupled high-level modules that we can translate into code.
 
 ![Bounded contexts.](https://milanjovanovic.tech/blogs/mnw_104/bounded_contexts.png?imwidth=3840)
 
-The overarching idea here is thinking about cohesion around functionalities.
-We want to organize our system so that the cohesion between the components is high.
-Bounded contexts, vertical slices, and screaming architecture are complementary concepts.
+The overarching idea here is thinking about cohesion around functionalities. We want to organize our system so that the cohesion between the components is high. Bounded contexts, vertical slices, and screaming architecture are complementary concepts.
 
-Here's a screaming architecture example for this system.
-Let's say the `Ticketing` module uses <a href="clean-architecture-folder-structure">**Clean Architecture**</a> internally.
-But we can still organize the system around feature folders and use cases.
-An alternative approach could be organizing around <a href="vertical-slice-architecture-structuring-vertical-slices">**vertical slices**</a>, resulting in a less nested folder structure.
+Here's a screaming architecture example for this system. Let's say the `Ticketing` module uses [**Clean Architecture**](/milanjovanovic.tech/clean-architecture-folder-structure.md) internally. But we can still organize the system around feature folders and use cases. An alternative approach could be organizing around [**vertical slices**](/milanjovanovic.tech/vertical-slice-architecture-structuring-vertical-slices.md), resulting in a less nested folder structure.
 
-```powershell
+```plaintext title="file structure"
 📁 Modules/
 |__ 📁 Attendance
     |__ ...
@@ -195,26 +171,27 @@ An alternative approach could be organizing around <a href="vertical-slice-archi
     |__ ...
 ```
 
-The example above is a small part of the system I built inside of <a href="/modular-monolith-architecture">**Modular Monolith Architecture**</a>.
+The example above is a small part of the system I built inside of [**Modular Monolith Architecture**](/milanjovanovic.tech/modular-monolith-architecture/README.md).
 
 ---
 
 ## Takeaway
 
-**Screaming Architecture** isn't just a catchy phrase, it's an approach that can profoundly impact how you build software.
-By organizing your system around use cases, you align your codebase with the core business domain.
-Your system exists to solve the business domain problems.
+**Screaming Architecture** isn't just a catchy phrase, it's an approach that can profoundly impact how you build software. By organizing your system around use cases, you align your codebase with the core business domain. Your system exists to solve the business domain problems.
 
-Remember, the goal is to create a system that communicates its purpose through its structure.
-Embrace a use case-driven approach, break down complex domains into bounded contexts.
-Build a system that truly "screams" about the problems it solves.
+Remember, the goal is to create a system that communicates its purpose through its structure. Embrace a use case-driven approach, break down complex domains into bounded contexts. Build a system that truly "screams" about the problems it solves.
 
-If you want to explore these powerful ideas further, check out <a href="/pragmatic-clean-architecture">**Pragmatic Clean Architecture**</a>.
-I share my entire framework for building robust applications from the ground up and organizing the system around use cases.
+If you want to explore these powerful ideas further, check out [**Pragmatic Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md). I share my entire framework for building robust applications from the ground up and organizing the system around use cases.
 
-That's all for today.
+---
 
-See you next week.
-
--->
-
+<!-- TODO: add ARTICLE CARD -->
+```component VPCard
+{
+  "title": "Screaming Architecture",
+  "desc": "If you were to glance at the folder structure of your system, could you tell what the system is about? Your architecture should communicate what problems it solves. This approach is called sreaming architecture.",
+  "link": "https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/screaming-architecture.html",
+  "logo": "https://milanjovanovic.tech/profile_favicon.png",
+  "background": "rgba(79,70,229,0.2)"
+}
+```

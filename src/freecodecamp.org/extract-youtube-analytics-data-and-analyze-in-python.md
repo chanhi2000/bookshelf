@@ -25,7 +25,7 @@ head:
       content: "How to Extract  YouTube Analytics Data and Analyze in Python"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/extract-youtube-analytics-data-and-analyze-in-python.html
-prev: /programming/py/articles/README.md
+prev: /programming/py-pandas/articles/README.md
 date: 2025-03-27
 isOriginal: false
 author:
