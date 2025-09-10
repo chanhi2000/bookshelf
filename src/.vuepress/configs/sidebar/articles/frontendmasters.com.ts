@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "choosing-the-right-model-in-cursor", // 2025-09-09
+    "getting-started-with-cursor", // 2025-09-08
     "advanced-postgresql-indexing", // 2025-09-03
     "intro-to-postgres-indexes", // 2025-09-01
     "the-path-of-least-resistance-part-2", // 2025-08-30
@@ -489,6 +491,13 @@ export const template: SidebarInfoTemplate = {
       "figma-typography-variables", // 2024-08-05
       // END: 2024figma
       // END: figma
+    ]],[
+    "cursor", [
+      // END: 2024cursor
+      "getting-started-with-cursor", // 2025-09-08
+      "choosing-the-right-model-in-cursor", // 2025-09-09
+      // END: 2025cursor
+      // END: cursor
     ]],[
     "data-science", [
       "what-is-sql-database-definition-for-beginners", // 2023-01-13

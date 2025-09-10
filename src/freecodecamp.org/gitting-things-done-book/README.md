@@ -169,7 +169,7 @@ The most default diff algorithm in Git is Myers:
 
 ::: info About the Author
 
-[Omer Rosenbaum](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is [Swimm](https://swimm.io/)’s Chief Technology Officer. He's the author of the [Brief YouTube Channel](https://youtube.com/@BriefVid). He's also a cyber training expert and founder of Checkpoint Security Academy. He's the author of [Computer Networks (in Hebrew)](https://data.cyber.org.il/networks/networks.pdf). You can find him on [Twitter](https://twitter.com/Omer_Ros).
+[Omer Rosenbaum (<FontIcon icon="fa-brands fa-linkedin"/>`omer-rosenbaum-034a08b9`)](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is [<FontIcon icon="fas fa-globe"/>Swimm](https://swimm.io/)’s Chief Technology Officer. He's the author of the [Brief YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`BriefVid`)](https://youtube.com/@BriefVid). He's also a cyber training expert and founder of Checkpoint Security Academy. He's the author of [<FontIcon icon="fas fa-globe"/>Computer Networks (in Hebrew)](https://data.cyber.org.il/networks/networks.pdf). You can find him on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`Omer_Ros`)](https://twitter.com/Omer_Ros).
 
 :::
 

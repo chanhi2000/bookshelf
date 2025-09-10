@@ -35,9 +35,19 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746737982577/1c47e44
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Swift > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/swift/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Career > Article(s)",
+  "desc": "Article(s)",
+  "link": "/projects/career/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
